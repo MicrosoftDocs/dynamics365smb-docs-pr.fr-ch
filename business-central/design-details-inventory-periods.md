@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: e142e45cc8692875d609090ea8615708342683fb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2231fcd34d45ae487bf3344a1efe2e317c75c89a
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777813"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215093"
 ---
 # <a name="design-details-inventory-periods"></a>Détails de conception : périodes inventaire
 Des transactions antidatées ou des ajustement des coûts affectent souvent les soldes et les évaluations du stock pour des périodes comptables qui peuvent être considérées comme clôturées. Ceci peut avoir des effets négatifs sur la précision des rapports, notamment dans des sociétés internationales. La fonction Périodes inventaire permet d’éviter ces problèmes en ouvrant ou en clôturant des périodes d’inventaire pour limiter la validation dans une période définie.  

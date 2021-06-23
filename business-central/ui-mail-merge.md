@@ -10,15 +10,18 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 118d8db1266bb7150965ec4d1ce44ece77638764
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788668"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110969"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Utilisation de modèles Word pour la communication en masse
 Les modèles Microsoft Word peuvent faciliter la communication de masse avec des entités telles que les clients et les fournisseurs. Par exemple, vous pouvez créer des brochures pour alerter les clients sur une campagne de vente, des lettres pour informer les fournisseurs d'une nouvelle politique d'achat ou des invitations à attirer des contacts pour un événement à venir.
+
+> [!NOTE]
+> Vous pouvez utiliser les modèles Word uniquement sur les appareils avec Microsoft Word 2019 et sur lesquels le système d’exploitation Windows est installé.
 
 Vous pouvez utiliser des entités dans [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données pour le modèle et ajouter des champs de fusion pour personnaliser les documents pour chaque entité. Les champs de fusion proviennent de l'entité dans [!INCLUDE[prod_short](includes/prod_short.md)]. Lorsque vous appliquez un modèle Word à une entité, les données des champs de fusion sont insérées dans le document.
 

@@ -1,5 +1,5 @@
 ---
-title: Planification de l’approvisionnement| Microsoft Docs
+title: Planifications des approvisionnements
 description: Préparez un programme exécutable détaillé ainsi que la planification de production de l’assemblage final pour la demande de vente et de production.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 81befcda5dc4ae9e46ff02e98701fcb9c7a074dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 63e20afbfeda9450c4b636a660549c822cc0e5da
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785413"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115505"
 ---
 # <a name="planning"></a>Planning
 
@@ -36,8 +36,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Comprendre tous les aspects du système de planification et modifier les algorithmes pour répondre aux exigences de planification dans différents environnements.|[Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)|
 |Apprendre comment la logique de planification différencie la demande dans les magasins en fonction de la configuration des points de vente de la demande sans code magasin.|[Planification avec/sans magasin](production-planning-with-without-locations.md)|
 |Prévoir la demande présentée par les composants vente et fabrication prévus.|[Créer une prévision de la demande](production-how-to-create-a-forecast.md)|  
-|Créer automatiquement des ordres de fabrication un à un à partir d’une commande vente pour couvrir la demande exacte des lignes commande vente.|[Créer des ordres de fabrication à partir de commandes achat](production-how-to-create-production-orders-from-sales-orders.md)|
-|Créer un ordre de fabrication projet directement à partir d’une commande vente multiligne représentant un projet de production.|[Planifier les O.F. projets](production-how-to-plan-project-orders.md)|
+|Créer des ordres de fabrication de projet ou un à un à partir d’une commande vente pour couvrir la demande exacte des commandes vente.|[Créer des ordres de fabrication à partir de commandes achat](production-how-to-create-production-orders-from-sales-orders.md)|
 |Utiliser la page **Planification commande** pour effectuer la planification manuellement pour des ordres de vente ou de fabrication un niveau de nomenclature de production à la fois.|[Planifier de nouvelles demandes commande par commande](production-how-to-plan-for-new-demand.md)|
 |Utiliser la page **Feuille planning** pour exécuter les options PDP et MRP pour créer automatiquement un programme d’approvisionnement détaillé à tous les niveaux d’article.|[Exécuter une planification complète et un calcul PDP ou MRP](production-how-to-run-mps-and-mrp.md)|
 |Utilisez la page **Demande achat** pour créer automatiquement un programme d’approvisionnement détaillé pour répondre à la demande d’articles réapprovisionnés uniquement par achat ou transfert.|[Demande achat](production-about-planning-functionality.md#requisition-worksheet)|  

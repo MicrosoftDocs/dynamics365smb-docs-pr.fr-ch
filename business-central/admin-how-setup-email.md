@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889167"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063442"
 ---
 # <a name="set-up-email"></a>Configurer la messagerie
 Les utilisateurs au sein des entreprises envoient des informations et des documents, tels que des commandes vente et achat et des factures, par e-mail, au quotidien. Les administrateurs peuvent faciliter cette tâche en connectant un ou plusieurs comptes de messagerie à [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez donc envoyer des documents sans avoir à ouvrir une application de messagerie. Vous pouvez composer chaque message individuellement avec des outils de mise en forme de base, tels que des polices, des styles, des couleurs, etc., et ajouter des pièces jointes pouvant atteindre 100 Mo. Les administrateurs peuvent également configurer des présentations d’états qui incluent uniquement les informations clés des documents. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
@@ -53,7 +53,7 @@ Si vous utilisez déjà [!INCLUDE[prod_short](includes/prod_short.md)] et si vou
 > Si vous avez des personnalisations qui reposent sur la configuration de messagerie SMTP héritée, il est possible que quelque chose se passe mal avec vos personnalisations si vous commencez à utiliser des extensions de messagerie. Nous vous recommandons de configurer et de tester les extensions avant d’activer le commutateur de fonctionnalité pour des fonctionnalités de messagerie améliorées.
 
 > [!IMPORTANT]
-> Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] Online, vous ne pouvez pas utiliser la méthode d'authentification OAuth 2.0.<br> Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] localement, vous pouvez utiliser OAuth 2.0 pour l'authentification, mais vous devez créer une inscription d'application dans le portail Azure, puis exécuter le guide de configuration assistée **Configurer Azure Active Directory** dans [!INCLUDE[prod_short](includes/prod_short.md)] pour vous connecter à Azure AD. Pour plus d'informations, consultez [Créer une inscription d'application pour Business Central dans le portail Azure](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] localement, vous pouvez utiliser OAuth 2.0 pour l'authentification, mais vous devez créer une inscription d'application dans le portail Azure, puis exécuter le guide de configuration assistée **Configurer Azure Active Directory** dans [!INCLUDE[prod_short](includes/prod_short.md)] pour vous connecter à Azure AD. Pour plus d'informations, consultez [Créer une inscription d'application pour Business Central dans le portail Azure](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>Ajouter des comptes de messagerie
 Le guide de configuration assistée **Configurer la messagerie** peut vous aider à démarrer rapidement avec les e-mails.

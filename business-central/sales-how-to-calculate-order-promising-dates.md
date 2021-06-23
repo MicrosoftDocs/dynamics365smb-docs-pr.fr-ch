@@ -1,5 +1,5 @@
 ---
-title: 'Procédure : calculer des dates promesse livraison | Microsoft Docs'
+title: Calculer des dates promesse livraison
 description: La fonction de configuration des promesses livraison est un outil permettant de calculer la date la plus proche à laquelle un article est disponible pour la livraison ou l’expédition. Cette fonction crée également des lignes demande achat pour les dates que vous acceptez.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0fda3e2cdbbb04d025d0142b94add8c75eb98c5a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f9550d81eb193cb76cd846d98e1259226fd77895
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778487"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115605"
 ---
 # <a name="calculate-order-promising-dates"></a>Calculer des dates promesse livraison
-Une société doit pouvoir informer ses clients des dates de livraison de commande. La page **Lignes promesse de livraison** vous permet d’effectuer cette opération à partir d’une ligne commande vente.  
+Une société doit pouvoir informer ses clients des dates de livraison de commande. La page **Lignes promesse de livraison** vous permet d’effectuer cette opération à partir d’une commande vente.  
 
 À partir des dates de disponibilité connues et attendues d’un article, [!INCLUDE[prod_short](includes/prod_short.md)] calcule immédiatement les dates d’expédition et de livraison, qui peuvent être communiquées au client.  
 
@@ -35,7 +35,7 @@ Si vous ne spécifiez aucune date livraison demandée sur une ligne de commande 
 - Date livraison planifiée - délai d’expédition = date expédition planifiée  
 
 ## <a name="about-order-promising"></a>À propos de la promesse de livraison
-La fonctionnalité de configuration des promesses livraison vous permet de promettre la livraison ou l’expédition d’une commande à une date donnée. La date à laquelle un article est disponible afin de le promettre ou de pouvoir le promettre est calculée, et des lignes commande sont créées pour les dates que vous acceptez. Cette fonctionnalité calcule la date la plus proche à laquelle un article est disponible pour la livraison ou l’expédition. Elle crée également des lignes demande, dans le cas où les articles doivent d’abord être achetés, pour les dates que vous acceptez.
+La fonctionnalité de configuration des promesses livraison vous permet de promettre la livraison ou l’expédition d’une commande à une date donnée. La date à laquelle un article est disponible afin de le promettre ou de pouvoir le promettre est calculée, et des lignes commande sont créées pour les dates que vous acceptez. Cette fonctionnalité calcule la date la plus proche à laquelle un article est disponible pour la livraison ou l’expédition. Elle crée également des lignes demande, dans le cas où les articles doivent d’abord être achetés ou produits, pour les dates que vous acceptez.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] utilise deux concepts essentiels :  
 

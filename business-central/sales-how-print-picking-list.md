@@ -1,5 +1,5 @@
 ---
-title: "Procédure : Imprimer la liste des prélèvements de stock d'une commande vente"
+title: Imprimer la liste des prélèvements de stock d’une commande vente
 description: Vous pouvez imprimer une liste des prélèvements des stocks directement à partir d'une commande client, des ventes, de la facture et d'autres documents de vente sortants.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 705302fac91b29592c26b82d3e64a49bdc001d02
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4cddce48df3be0a3fadaa74ed751b274ccce7f31
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778737"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115476"
 ---
 # <a name="print-the-picking-list"></a>Imprimer la liste des prélèvements
-Vous pouvez imprimer une liste des prélèvements des stocks directement à partir d'une commande client, d'une facture vente, ou d'autres documents qui déclenchent l'expédition des articles.
+
+Vous pouvez imprimer une liste des prélèvements de stock directement à partir d’une commande client ou d’autres documents qui déclenchent l’expédition des articles.
 
 Ce rapport est généralement utilisé dans les entreprises sans fonctionnalité dédiée à la gestion des entrepôts, de sorte qu'un stock peut simplement afficher ou imprimer la liste des prélèvements à partir du document de vente associé. Dans les entreprises avec un volume plus élevé ou des processus plus complexes, le prélèvement est planifié et effectué dans des documents d'entrepôt dédiés. Pour plus d'informations, voir [Prélèvement d'articles](warehouse-pick-items.md).
 
-## <a name="to-print-a-picking-list-from-a-sales-order"></a>Pour imprimer la liste des prélèvements à partir d'une commande vente  
-La procédure suivante se base sur une commande vente. Les étapes sont similaires pour tous les documents de vente pouvant être utilisés pour lancer l'expédition d'articles.
+## <a name="to-print-a-picking-list-from-a-sales-order"></a>Pour imprimer la liste des prélèvements à partir d'une commande vente
+
+La procédure suivante se base sur une commande vente. Les étapes sont similaires pour tous les autres documents pouvant être utilisés pour lancer l’expédition d’articles, par exemple un ordre transfert.
 
 1. Sélectionnez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Ouvrez une commande vente pour laquelle vous souhaitez sélectionner des articles.  
@@ -35,10 +37,10 @@ Vous pouvez également enregistrer la liste des prélèvements en tant que docum
 > [!NOTE]
 > Si vous avez utilisé la fonction **Éclater nomenclature** sur la commande client, seuls les composants de l'élément d'assemblage associé sont affichés dans le rapport. Pour plus d'informations, reportez-vous à [Utiliser les nomenclatures](inventory-how-work-BOMs.md).
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Stock](inventory-manage-inventory.md)  
 [Prélèvement d'articles](warehouse-pick-items.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
-
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

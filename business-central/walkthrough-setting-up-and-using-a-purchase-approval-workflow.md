@@ -1,5 +1,5 @@
 ---
-title: Configuration et utilisation d’un flux d’approbation achat | Microsoft Docs
+title: Configuration et utilisation d’un flux d’approbation achat
 description: Vous pouvez automatiser le processus d’approbation d’enregistrements nouveaux ou modifiés, par exemple de documents, de feuilles et de fiches client, en créant des flux de travail avec des étapes pour les approbations en question. Avant de créer des flux d’approbation, vous devez configurer un approbateur et un approbateur remplaçant pour chaque utilisateur approbation. Vous pouvez également définir les montants maximaux que les approbateurs sont qualifiés à approuver pour les enregistrements de vente et d’achat. Les demandes d’approbation et d’autres notifications peuvent être envoyées par e-mail ou note interne. Pour chaque configuration d’utilisateur d’approbation, vous pouvez également définir à quel moment ils reçoivent les notifications.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/26/2021
 ms.author: edupont
-ms.openlocfilehash: 11a4bd84395d50a1b39417c5c3abab0dd757e7ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782824"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110994"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procédure pas à pas : Configuration et utilisation d’un flux d’approbation achat
 
@@ -30,11 +30,11 @@ Vous pouvez automatiser le processus d’approbation d’enregistrements nouveau
 
 Cette procédure pas à pas présente les tâches suivantes :  
 
-- Configuration des utilisateurs approbation.  
-- Configuration des notification pour les utilisateurs approbation.  
-- Modification et activation d’un flux d’approbation.  
-- Demande d’approbation d’une commande achat (Alicia).  
-- Réception d’une notification, puis acceptation de la demande (Sean).  
+- Configuration des utilisateurs approbation  
+- Configuration des notification pour les utilisateurs approbation  
+- Modification et activation d’un flux d’approbation  
+- Demande d’approbation d’une commande achat (Alicia)  
+- Réception d’une notification, puis acceptation de la demande (Sean)  
 
 ## <a name="story"></a>Scénario
 
@@ -87,8 +87,8 @@ Créez le flux d’approbation de commande d’achat en copiant les étapes du m
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Pour créer et activer un flux d’approbation de commande d’achat
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Flux de travail**, puis sélectionnez le lien associé.  
-2. Sur la page **Flux de travail**, choisissez l’action **Créer flux de travail à partir du modèle**.  
-3. Sur la page **Modèles de flux de travail**, sélectionnez le modèle de flux de travail nommé **Flux de travail approbation commande achat**, puis choisissez le bouton **OK**.  
+2. Sur la page **Flux de travail**, sélectionnez **Actions**, puis sélectionnez **Nouveau**, puis choisissez l’action **Créer flux de travail à partir du modèle**.  
+3. Sur la page **Modèles de flux de travail**, sélectionnez le modèle de flux de travail nommé **Flux de travail approbation commande achat**.  
 
     La page **Flux de travail** s’ouvre pour un nouveau flux de travail contenant toutes les informations du modèle sélectionné. La valeur du champ **Code** est étendue avec *-01* pour indiquer que ce premier flux de travail est créé à partir du modèle **Flux de travail approbation commande achat**.  
 4. Dans l’en-tête de la page **Flux de travail**, activez la case à cocher **Activé**.  
@@ -100,9 +100,9 @@ Utilisez le nouveau Flux de travail approbation commande achat en vous connectan
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Pour demander l’approbation d’une commande achat en tant qu’Alicia
 
 1. Connectez-vous en tant qu’Alicia.
-2. Choisissez l’icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
-3. Sélectionnez la ligne de la commande achat ouverte 106001, puis choisissez l’action **Modifier**.  
-4. Sur la page **Commande achat**, choisissez l’action **Envoyer demande d’approbation**.  
+2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
+3. Sélectionnez la ligne pour ouvrir le bon de commande 106001.  
+4. Sur la page **Commande achat**, choisissez **Actions**, puis **Demander l’approbation**, puis choisissez l’action **Envoyer demande d’approbation**.  
 
 Notez que la valeur du champ **Statut** est passée à **Approbation en attente**.  
 

@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 978989e12fc8c5ac236bb1dda1a8a5d1c2687de2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a4304b80e453296a3012d9e68ecc416371ee0ad3
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772294"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063417"
 ---
 # <a name="send-documents-and-emails"></a>Envoyer des documents et des e-mails
 Vous pouvez facilement partager des informations et des documents, tels que des commandes vente et achat et des factures, par e-mail directement depuis [!INCLUDE[prod_short](includes/prod_short.md)]], sans avoir à ouvrir une application de messagerie. 
@@ -56,7 +56,7 @@ Cette procédure décrit comment joindre une facture vente enregistrée à un e-
 Certains documents dans [!INCLUDE[prod_short](includes/prod_short.md)] comportent un champ qui spécifie la fréquence d’impression du document. Le nombre dans ce champ <!--"that field?" need a name...--> Est également mis à jour si vous envoyez le document par e-mail, car un fichier PDF est généré pour celui-ci. Le numéro est mis à jour même si vous n’envoyez pas l’e-mail. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
 ## <a name="sent-emails-and-your-email-outbox"></a>E-mails envoyés et votre boîte d’envoi
-[!INCLUDE[prod_short](includes/prod_short.md)]] stocke les e-mails que vous envoyez sur la page **Éléments envoyés**. Cela vous permet de renvoyer des e-mails ou de les transmettre à quelqu’un d’autre. Si vous ne trouvez pas d’e-mail dans vos éléments envoyés, recherchez-le sur la page **Boîte d’envoi d’e-mails**. 
+[!INCLUDE[prod_short](includes/prod_short.md)] stocke les e-mails que vous envoyez sur la page **Éléments envoyés**. Cela vous permet de renvoyer des e-mails ou de les transmettre à quelqu’un d’autre. Si vous ne trouvez pas d’e-mail dans vos éléments envoyés, recherchez-le sur la page **Boîte d’envoi d’e-mails**. 
 
 > [!NOTE]
 > En fonction de l’extension que votre entreprise utilise pour les e-mails, les administrateurs peuvent voir une liste des messages que tout le monde a envoyés, mais pas le contenu des messages

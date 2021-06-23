@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 7dc15352b232a7dd4dc63d50db3b151e65f0fd51
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 62abcd0e37a9871efd6158a898538b7c18b6b47f
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774220"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215343"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Détails de conception : demande à un magasin vide
 Quand un utilisateur créé un événement de demande, comme une ligne de commande vente, le programme permet à l’utilisateur de spécifier parfois un code magasin et d’autres fois non, utilisant un magasin vide.

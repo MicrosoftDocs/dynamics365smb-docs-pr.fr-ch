@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3811841784144d1c9dc786f8ae6435bedb5fb1d5
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 9042f49795f5ee6bb9e0bced2b8ba48ba1e093b4
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017114"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115276"
 ---
 # <a name="welcome-to-prod_long"></a>Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -36,7 +36,7 @@ Si vous avez déjà [!INCLUDE[prod_short](includes/prod_short.md)], connectez-vo
 Vous pouvez également [visiter notre vidéothèque](across-videos.md), ou lancer le parcours d’apprentissage [Prise en main de Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) sur [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Sauf indication contraire, le contenu du site Docs.microsoft.com reflète la dernière version de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne. Si votre organisation utilise une version différente de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, il se peut que certaines fonctionnalités ne soient pas encore disponibles. De plus, si votre organisation utilise [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous utilisez peut-être une version antérieure. Pour plus d’informations, voir [Forum aux questions](across-faq.md).
+> Sauf indication contraire, le contenu du site Docs.microsoft.com reflète la dernière version de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne. Si votre organisation utilise une version différente de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, il se peut que certaines fonctionnalités ne soient pas encore disponibles. De plus, si votre organisation utilise [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous utilisez peut-être une version antérieure. Pour plus d’informations, voir [Forum aux questions](across-faq.yml).
 
 Les sections suivantes présentent des articles clés qui peuvent vous aider à vous familiariser avec [!INCLUDE [prod_short](includes/prod_short.md)].  
 

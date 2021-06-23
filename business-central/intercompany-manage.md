@@ -1,8 +1,6 @@
 ---
-title: Transactions entre sociétés de la même organisation | Microsoft Docs
+title: Gestion des transactions intersociétés
 description: Avec la fonctionnalité intersociétés, vous pouvez simplifier les processus et les transactions entre sociétés appartenant à la même organisation.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2021
+ms.date: 06/02/2021
 ms.author: edupont
-ms.openlocfilehash: fbe84deebc00b07536cda6cb36a3a0784450d62f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0a69507b32f8782fe876458adb590529bfd64b20
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786163"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184439"
 ---
 # <a name="managing-intercompany-transactions"></a>Gestion des transactions intersociétés
+
 Votre organisation peut comprendre plusieurs sociétés mais pourrait ne pas disposer du nombre équivalent d’équipes comptables et administratives. La fonctionnalité Intersociétés vous permet de commercer avec vos filiales et vos organisations partenaires internes de la même manière qu’avec vos fournisseurs et vos clients externes. Vous n’entrez les informations de transaction intersociétés qu’une seule fois dans les documents appropriés. Vous pouvez continuer à utiliser les fonctionnalités que vous connaissez bien, telles que la gestion des clients et des fournisseurs. Les fonctionnalités de mappage pour le plan comptable et les dimensions permettent de veiller à ce que les informations apparaissent aux bons endroits.  
 
 La fonctionnalité Intersociétés offre quatre grands avantages :  
@@ -33,11 +32,14 @@ Vous contrôlez totalement tous les documents de transaction. Par exemple, vous 
 
 Lorsque vous entrez une transaction, vous ne devez pas spécifier les comptes pour un ensemble de lois particulier, mais simplement fournir l’identification de la société concernée. La fonctionnalité Intersociétés crée des lignes feuilles comptabilité qui entraînent un équilibrage des lois des deux sociétés impliquées dans une transaction. Dans Clients et fournisseurs, vous affectez un code partenaire intersociétés à tout client ou fournisseur. À partir de ce moment, l’ensemble des commandes et des factures générées en relation avec des transactions avec ces sociétés produisent des documents correspondants dans la société partenaire, ce qui aboutit à un équilibrage correct des comptes.  
 
- Après avoir paramétré vos partenaires commerciaux comme clients et fournisseurs dans le système et leur avoir affecté des codes partenaire intersociété, vous pouvez échanger des documents achat et vente intersociété, notamment des articles et des frais annexes. La fonctionnalité Intersociétés permet l’exécution de transactions intersociétés entre plusieurs bases de données ; par exemple, dans différents pays/régions, ainsi que l’utilisation de plusieurs devises, plans comptables, dimensions et numérotations d’articles.  
+Après avoir paramétré vos partenaires commerciaux comme clients et fournisseurs dans le système et leur avoir affecté des codes partenaire intersociété, vous pouvez échanger des documents achat et vente intersociété, notamment des articles et des frais annexes. [!INCLUDE [prod_short](includes/prod_short.md)] permet l’exécution de transactions intersociétés entre plusieurs bases de données ; par exemple, dans différents pays/régions, ainsi que l’utilisation de plusieurs devises, plans comptables, dimensions et numérotations d’articles.  
 
-La consolidation des données financières peut être particulièrement appropriée en association avec des processus intersociétés. Pour plus d’informations, voir [Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md).
+> [!NOTE]
+> Tous les types de données ne peuvent pas être échangés entre les entreprises de cette manière. Les factures achat ne sont pas soumises aux partenaires commerciaux via des processus intersociétés. Mais les factures vente soumises via des processus intersociétés seront créées en tant que factures achat dans la société destinataire.
 
-Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
+La consolidation des données financières peut être particulièrement appropriée pour les processus intersociétés. Pour plus d’informations, voir [Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md).
+
+Le tableau suivant décrit une série de tâches et inclut des liens vers les articles qui les décrivent.
 
 |À |Voir|
 |---|---|
@@ -47,6 +49,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Utilisez les écritures intersociétés pour répartir les coûts entre les sociétés partenaires.|[Allouer les coûts aux partenaires intersociétés](intercompany-allocate-costs.md)|
 
 ## <a name="see-also"></a>Voir aussi
+
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  

@@ -5,20 +5,127 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 04/01/2021
+ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: d6132d84909509a76b196d6ae20d1fb8a2566309
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782320"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184464"
 ---
 # <a name="update-currency-exchange-rates"></a>Mettre à jour des taux de change devise
 
-Les sociétés opérant dans un nombre croissant de pays/régions, il est de plus en plus important qu’elles puissent échanger ou générer des états financiers dans plusieurs devises. Vous devez définir un code pour chaque devise utilisée si vous achetez ou vendez dans des devises différentes de votre devise locale, si vous disposez de comptes client ou fournisseur dans d’autres devises, ou si vous enregistrez des transactions comptables dans des devises différentes.
+Étant donné que les sociétés opérent dans un nombre croissant de pays/régions, il devient essentiel qu’elles puissent échanger et générer des informations financières dans plusieurs devises. La devise société (DS) est définie dans la page **Paramètres comptabilité**, comme décrit dans l’article [ Configuration de Finance](finance-setup-finance.md). Une fois la devise société (DS) définie, elle sera représentée en tant que devise vide. Ainsi, lorsque le champ **Devise** est vide, cela signifie que la devise est DS.  
 
-Votre comptabilité est configurée pour utiliser votre devise société (DS), mais vous pouvez la configurer pour utiliser une autre devise avec un taux de change courant. Si vous désignez une deuxième devise comme « devise report supplémentaire », [!INCLUDE[prod_short](includes/prod_short.md)] enregistre automatiquement les montants d’état en DS et dans cette devise report supplémentaire pour chaque écriture comptable, ainsi que pour d’autres écritures, telles que les écritures TVA. Pour plus d’informations, voir [Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md).
+Ensuite, vous devez configurer des codes devise pour chaque devise que vous utilisez si vous achetez ou vendez dans des devises autres que votre devise société (DS). Des comptes bancaires peuvent également être créés à l’aide de devises. Il est possible d’enregistrer des transactions comptables dans différentes devises, cependant, la transaction comptable sera toujours validée dans la devise société (DS).
+
+> [!Important]
+> Ne créez pas le code devise société à la fois dans la page **Paramètres comptabilité** et dans la page **Devises**. Cela créera une confusion entre la devise vide et le code DS dans le tableau des devises, et des comptes bancaires, des clients ou des fournisseurs pourraient être créés accidentellement, certains avec la devise vide et d’autres avec le code DS.
+
+Votre comptabilité est configurée pour utiliser votre devise société (DS), mais vous pouvez la configurer pour utiliser une autre devise avec un taux de change des devises. Si vous désignez une deuxième devise comme « devise report supplémentaire », [!INCLUDE[prod_short](includes/prod_short.md)] enregistre automatiquement les montants d’état en DS et dans cette devise report supplémentaire pour chaque écriture comptable, ainsi que pour d’autres écritures, telles que les écritures TVA. Pour plus d’informations, voir [Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md). La devise report supplémentaire est le plus souvent utilisée pour faciliter les états financiers pour les propriétaires qui résident dans des pays/régions utilisant des devises différentes de la devise société (DS).
+
+## <a name="currencies"></a>Devises
+
+Vous spécifiez les codes devise dans **Devises**, y compris les informations supplémentaires et les paramètres nécessaires pour chaque code devise.
+
+> [!TIP]
+> Créez les devises avec le code ISO international pour simplifier l’utilisation de la devise à l’avenir.
+
+|Champ|Description|  
+|---------------------------------|---------------------------------------|  
+|**Code**|Identifiant de la devise.|
+|**Description**|Description libre de la devise.|
+|**Code ISO**|Code international à trois lettres pour la devise défini dans la norme ISO 4217.|
+|**Code numérique ISO**|Référence numérique internationale pour la devise définie dans la norme ISO 4217.|
+|**Date du taux de change**|La dernière date de taux de change effectif.|
+|**Devise U.M.E.**|Indique si la devise est une devise de l’U.M.E. (Union économique et monétaire), telle que EUR.|
+|**Cpte gains constatés report**|Compte sur lequel le gain réel sera enregistré lorsque vous recevrez des paiements pour des créances ou enregistrerez le taux de change réel sur les paiements de dépenses. Pour consulter un exemple de transaction en devise comptable, voir l’exemple sous ce tableau. |
+|**Cpte pertes constatées report**|Compte sur lequel la perte réelle sera enregistrée lorsque vous recevrez des paiements pour des créances ou enregistrerez le taux de change réel sur les paiements de dépenses. Pour consulter un exemple de transaction en devise comptable, voir l’exemple sous ce tableau. |
+|**Cpte gains prévus**|Compte sur lequel le gain théorique sera comptabilisé lorsque vous effectuerez un ajustement de devise.|
+|**Cpte pertes prévues**|Compte sur lequel la perte théorique sera comptabilisée lorsque vous effectuerez un ajustement de devise.|
+|**Précision arrondi montant**|Certaines devises ont d’autres formats pour les montants facture que ceux définis dans la page **Paramètres comptabilité**. Si vous modifiez la précision arrondi montant pour une devise, tous les montants facture dans cette devise seront arrondis avec la précision mise à jour.|
+|**Nombre décimales montant**|Certaines devises ont d’autres formats pour les montants facture que ceux définis dans la page **Paramètres comptabilité**. Si vous modifiez le nombre décimales montant pour une devise, tous les montants facture dans la devise seront arrondis avec les décimales mises à jour.|
+|**Type arrondi facture**|Spécifie la méthode à utiliser si les montants doivent être arrondis. Les options sont **Au plus près**, **Vers le haut** et **Vers le bas**.|
+|**Précision arrondi montant unité**|Certaines devises ont d’autres formats pour les montants unitaires que ceux définis dans la page **Paramètres comptabilité**. Si vous modifiez la précision arrondi montant unité pour une devise, tous les montants unitaires dans la devise seront arrondis avec la précision mise à jour.|
+|**Nombre décimales montant unitaire**|Certaines devises ont d’autres formats pour les montants unitaires que ceux définis dans la page **Paramètres comptabilité**. Si vous modifiez le nombre décimales montant unitaire pour une devise, tous les montants unitaires dans la devise seront arrondis avec les décimales mises à jour.|
+|**Précision arrondi lettrage**|Spécifie la taille de l’intervalle autorisé pour les différences d’arrondi lorsque vous lettrez différentes devises entre elles.|
+|**Arrondi DS conversion. Compte débit**|Spécifie les informations de conversion qui doivent également contenir un compte débit si vous souhaitez insérer des lignes correction pour les différences d’arrondi dans les feuilles comptabilité en utilisant l’action **Insérer lignes arr. conv. DS**.|
+|**Arrondi DS conversion. Compte crédit**|Spécifie les informations de conversion qui doivent également contenir un compte crédit si vous souhaitez insérer des lignes correction pour les différences d’arrondi dans les feuilles comptabilité en utilisant l’action **Insérer lignes arr. conv. DS**.|
+|**Date dern. ajust. automatique**|Date du dernier ajustement de devise.|
+|**Date dern. modification**|Date de la modifiction dans le paramétrage de la devise.|
+|**% écart de règlement**|% d’écart de règlement maximum défini pour cette devise. Pour plus d’informations, consultez [Écart de règlement et écart d’escompte](finance-payment-tolerance-and-payment-discount-tolerance.md). |
+|**Montant écart règlement max.**|Montant d’écart de règlement maximum défini pour cette devise. Pour plus d’informations, consultez [Écart de règlement et écart d’escompte](finance-payment-tolerance-and-payment-discount-tolerance.md). |
+|**Facteur devise**|Indique la relation entre la devise et la devise société (DS) à l’aide du taux de change réel.|
+|**Cpte gains constatés report**|Indique le compte général utilisé pour valider les gains de change sur ajustements de devise entre la devise société (DS) et la devise report supplémentaire. Les gains de change sont calculés lorsque le traitement par lots Ajuster taux de change est exécuté pour ajuster les comptes généraux. Par défaut, ce champ peut ne pas être visible. Il peut être récupéré en personnalisant la page.|
+|**Cpte pertes constatées report**|Indique le compte général utilisé pour valider les pertes de change sur ajustements de devise entre la devise société (DS) et la devise report supplémentaire. Les gains de change sont calculés lorsque le traitement par lots Ajuster taux de change est exécuté pour ajuster les comptes généraux. Par défaut, ce champ peut ne pas être visible. Il peut être récupéré en personnalisant la page.|
+|**Compte gains résiduels DR**|Indique le compte général utilisé pour valider les montants des gains résiduels (différences d’arrondi) lorsqu’une devise report supplémentaire est utilisée dans le module de comptabilité. Par défaut, ce champ peut ne pas être visible. Il peut être récupéré en personnalisant la page.|
+|**Compte pertes résiduelles DR**|Indique le compte général utilisé pour valider les montants des pertes résiduelles (différences d’arrondi) lorsqu’une devise report supplémentaire est utilisée dans le module de comptabilité. Par défaut, ce champ peut ne pas être visible. Il peut être récupéré en personnalisant la page.|
+|**Différence TVA max. autorisée**|Montant maximum autorisé pour les différences de TVA dans cette devise. Pour plus d’informations, consutez [Correction manuelle des montants de TVA dans des documents achat et vente](finance-work-with-vat.md#correcting-vat-amounts-manually-in-sales-and-purchase-documents). Par défaut, ce champ peut ne pas être visible. Il peut être récupéré en personnalisant la page.|
+|**Type arrondi TVA**|Indique la méthode d’arrondi pour corriger manuellement les montants TVA dans les documents vente et achat. Par défaut, ce champ peut ne pas être visible. Il peut être récupéré en personnalisant la page.|
+
+### <a name="example-of-a-receivable-currency-transaction"></a>Exemple de transaction en devise comptabilité
+
+Dans l’exemple suivant, une facture est reçue le 1er janvier avec le montant en devise 1 000. À ce moment là, le taux de change est 1,123.
+
+|Date|Action|Montant devise|Taux document|Montant DS sur le document|Taux ajustement|Montant gains prévu|Taux règlement|Montant pertes constatées report|  
+|-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
+|1/1|**Facture**|1000|1,123|1123|||||
+|1/31|**Ajustement**|1000||1125|1,125|2|||
+|2/15|**Ajustement Contrepassation sur paiement**|1000||||-2|||
+|2/15|**Paiement**|1000||1120|||1,120|-3|
+
+À la fin du mois, un ajustement de devise est effectué lorsque le taux de change d’ajustement a été fixé à 1,125, ce qui déclenche un gain prévu de 2.
+
+Au moment du paiement, le taux de change réel enregistré sur la transaction bancaire indique un taux de change de 1,120.
+
+Ici, il y a une transaction prévu. Elle sera donc contrepassée avec le paiement.
+
+Enfin, le paiement est enregistré et la perte réelle est validée sur le compte des pertes constatées.
+
+## <a name="available-currency-functions"></a>Fonctions de devise disponibles
+
+Le tableau suivant décrit les actions clés sur la page ***Devises**. Certaines des actions sont expliquées dans les sections suivantes.  
+
+|Menu|Action|Description|
+|-------------|--------------|------------------------------|
+|**Traitement**|**Proposer des comptes**|Utilisez des comptes des autres devises. Les comptes les plus fréquemment utilisés seront insérés.|
+||Modifier l’écart de règlement|Modifiez l’écart de règlement maximum, le pourcentage d’écart de règlement ou les deux, et filtrez par devise. Pour plus d’informations, consultez [Écart de règlement et écart d’escompte](finance-payment-tolerance-and-payment-discount-tolerance.md).|
+||**Taux change**|Affichez les taux de change mis à jour pour les devises que vous utilisez.|
+||**Ajuster taux de change**|Ajuster les écritures comptables, client, fournisseur et compte bancaire pour obtenir un solde mis à jour si le taux de change a évolué depuis la validation des écritures.|
+||**Historique des transactions d’ajust. taux de change**|Affichez les résultats de l’exécution du traitement par lots **Ajuster taux de change**. Une ligne est créée pour chaque devise et pour chaque combinaison de devise et de groupe comptabilisation comprise dans l’ajustement.|
+|**Service de taux de change**|**Services de taux de change**|Affichez ou modifiez la configuration des services qui sont paramétrés pour extraire les taux de change de devise mis à jour lorsque vous sélectionnez l’action **Mettre à jour les taux de change**.|
+||**Mettre à jour les taux de change**|Obtenez les récents taux de change des devises auprès d’un fournisseur de services.|
+|**États**|**Solde devise étrangère**|Affichez les soldes de tous les clients et fournisseurs en devise étrangère et en devise société (DS). L’état affiche deux soldes en devise société. L’un correspond au solde en devise étrangère converti en devise société en utilisant le taux de change en vigueur au moment de la transaction. L’autre correspond au solde en devise converti en devise société en utilisant le taux de change à la date de travail.|
+
+## <a name="exchange-rates"></a>Taux de change
+
+Les taux de change permettent de calculer la valeur en devise société (DS) de chaque transaction en devise. La page **Taux d’échange** comprend les champs suivants :
+
+|Champ|Description|  
+|---------------------------------|---------------------------------------|  
+|**Date début**|Date à laquelle le taux de change a été effectué|  
+|**Code devise**|Code devise lié à ce taux de change|  
+|**Code devise liée**|Si cette devise fait partie d’un calcul de devise triangulaire, le code devise associé peut être configuré ici|  
+|**Montant taux de change**|Le montant du taux de change est le taux à utiliser pour le code devise sélectionné sur la ligne. Il s’agit normalement de 1 ou 100|  
+|**Montant taux de change lié**|Le montant du taux de change lié concerne le taux à utiliser pour le code devise liée.|  
+|**Montant taux de change ajust.**|Le montant du taux de change d’ajustement est le taux à utiliser pour le code devise sélectionné sur la ligne à utiliser pour le traitement par lots **Ajuster taux de change**.|  
+|**Montant taux change lié ajust.**|Le montant du taux de change d’ajustement lié est le taux à utiliser pour le code devise sélectionné sur la ligne à utiliser pour le traitement par lots **Ajuster taux de change**.|  
+|**Fixer montant taux de change**|Spécifie si le taux de change de la devise peut être modifié sur les factures et les lignes feuille.|  
+
+En général, les valeurs des champs **Montant taux de change** et **Montant taux de change lié** sont utilisées comme taux de change par défaut sur tous les nouveaux documents client et fournisseur créés à l’avenir. Le taux de change est affecté au document en fonction de la date de travail actuelle.  
+
+> [!Note]
+> Le taux de change réel sera calculé à l’aide de cette formule :
+> 
+> `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
+
+Le montant du taux de change d’ajustement ou le montant du taux de change d’ajustement lié sera utilisé pour mettre à jour toutes les transactions banque, client ou fournisseur.  
+
+> [!Note]
+> Le taux de change réel sera calculé à l’aide de cette formule :
+> 
+> `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Ajustement des taux de change
 
@@ -61,7 +168,11 @@ Vous pouvez utiliser un service externe pour tenir vos taux de change des devise
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Services de taux de change devise**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
 3. Sur la page **Service de taux de change devise**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Activez la case à cocher **Activé** pour activer le service.
+4. Activez le bouton bascule **Activé** pour activer le service.
+
+> [!NOTE]
+> La vidéo suivante montre un exemple de connexion à un service de taux de change des devises, en prenant l’exemple de la Banque Centrale Européenne. Dans le segment qui décrit comment configurer les mappages de champs, le paramètre de la colonne **Source** pour **Nœud parent pour code devise** ne renverra que la première devise trouvée. Le paramètre doit être **/gesmes:Enveloppe/Code/Code/Code**.
+
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]

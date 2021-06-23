@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: bc4e39727abcb0bfabb9580ad79e47e9c0b4495b
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882183"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074702"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Intégration de Business Central et Microsoft Teams
 
@@ -49,7 +49,7 @@ Copier un lien vers n’importe quel enregistrement Business Central et le colle
 
 Une fois dans la conversation, vous et vos collègues pouvez afficher plus de détails sur l’enregistrement, modifier les données et prendre des mesures, sans quitter Teams.
 
-Pour plus d’informations, voir [Utilisation des données Business Central dans Microsoft Teams](across-working-with-teams.md).
+Pour plus d’informations, consultez [Partager des enregistrements dans Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="get-started"></a>Démarrer
 
@@ -62,7 +62,7 @@ Pour plus d’informations, voir [Utilisation des données Business Central dans
 
 2. En tant qu’administrateur, consultez [Gestion de l’intégration de Microsoft Teams avec Business Central](admin-teams-integration.md) pour obtenir des informations sur la manière dont les utilisateurs peuvent travailler avec [!INCLUDE [prod_short](includes/prod_short.md)] et Teams.
 3. Installer une application [!INCLUDE [prod_short](includes/prod_short.md)] dans Teams. Voir [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md).
-4. Une fois l’application installée, vous êtes prêt à partir. Voir [Utilisation des données Business Central dans Teams](across-working-with-teams.md). 
+4. Une fois l’application installée, vous êtes prêt à partir. Consultez [Recherche de clients, de fournisseurs et d’autres contacts dans Microsoft Teams](across-search-contacts-teams.md) ou [Partager des enregistrements dans Microsoft Teams](across-working-with-teams.md). 
 
 ## <a name="see-also"></a>Voir aussi
 

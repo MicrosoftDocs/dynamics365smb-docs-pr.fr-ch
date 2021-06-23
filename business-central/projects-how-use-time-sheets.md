@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, capacity, staff, resource
+ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 53e12d6f51d395cfd1feb26fe079fe5df28f866b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 279eb576e60f324d04e3c2dd58ba57e4e7ca68b8
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780372"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184364"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Utiliser des feuilles de temps pour des projets
 

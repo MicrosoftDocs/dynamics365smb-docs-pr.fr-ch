@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfdcdd68baa8fdd73ebc75d46650eeee65a28802
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935447"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087684"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central pour les organisations multisites et internationales
 Les organisations qui ont plusieurs sites utilisent souvent un modèle commercial en étoile dans lequel une société mère, ou siège social, gère les opérations globales de l′entreprise tandis que chaque site fonctionne comme une entité unique et autonome. Les sites sont souvent répartis géographiquement et ont des besoins différents en matière de partage d′informations avec le siège social. De plus, les sites n′ont généralement pas besoin du même niveau de complexité et manquent souvent des ressources nécessaires pour conserver un système volumineux.
@@ -38,8 +38,8 @@ Les besoins commerciaux des sites diffèrent souvent selon le secteur, les méth
 
 Pour les organisations multinationales, [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge les exigences légales et les pratiques commerciales locales.
 
-* Pour les versions en ligne, il existe plus de [40 versions nationales localisées](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) que vous pouvez installer en tant qu′extensions à partir de Microsoft AppSource.  
-* Pour les versions sur site, des [versions nationales](https://docs.microsoft.com/azure/architecture/solution-ideas/articles/business-central) sont disponibles sous forme de versions localisées par Microsoft ou de localisations complémentaires dirigées par des partenaires.
+* Pour les versions en ligne, il existe plus de [40 versions nationales localisées](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) que vous pouvez installer en tant qu′extensions à partir de Microsoft AppSource.  
+* Pour les versions sur site, des [versions nationales](/azure/architecture/solution-ideas/articles/business-central) sont disponibles sous forme de versions localisées par Microsoft ou de localisations complémentaires dirigées par des partenaires.
 
 Un réseau de plus de 4 000 partenaires Microsoft dans le monde fournit une expertise locale.
 
@@ -80,12 +80,12 @@ Les API et les XMLports simplifient le processus de connexion des instances de [
 | **Exigence commerciale** | **Comment Business Central la prend en charge** | **En savoir plus** |
 |-------------------------|-------------------------|-------------------------|
 | Connectez les versions personnalisées entre les sites et le siège social. | Les pages API peuvent exposer n′importe quelle représentation d′une entité, y compris ses personnalisations. | [Activation des API pour Business Central](/dynamics-nav/enabling-apis-for-dynamics-nav) |
-| Gestion des versions et sécurité. | Les API utilisent ODataV4, qui fournit la gestion des versions, les webhooks et le suivi des modifications. | [Sécurité et protection](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/security/security-and-protection) |
-| Validez et importez des documents XML. | Les codeunits peuvent être exposés en tant qu′actions indépendantes pour prendre en charge la validation et l′ingestion de documents XML. Pour traiter des documents XML, des XMLports peuvent être appliqués. Les actions indépendantes sont également capables de générer un document XML ou JSON. | [Objets XMLport](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
+| Gestion des versions et sécurité. | Les API utilisent ODataV4, qui fournit la gestion des versions, les webhooks et le suivi des modifications. | [Sécurité et protection](/dynamics365/business-central/dev-itpro/security/security-and-protection) |
+| Validez et importez des documents XML. | Les codeunits peuvent être exposés en tant qu′actions indépendantes pour prendre en charge la validation et l′ingestion de documents XML. Pour traiter des documents XML, des XMLports peuvent être appliqués. Les actions indépendantes sont également capables de générer un document XML ou JSON. | [Objets XMLport](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Facilitez la maintenance grâce à l′échange de données électroniques. | Une solution d′échange de données électroniques peut être ajoutée pour servir de couche d′intégration entre le siège social et les sites. | [Data Exchange Framework](across-about-the-data-exchange-framework.md) |
-| Échangez des données entre différents systèmes. | Utilisez des XMLports pour créer des documents XML, qui peuvent ensuite être échangés entre un siège social qui utilise un système et des sites qui utilisent Business Central. | [Vue d’ensemble de XMLport](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
+| Échangez des données entre différents systèmes. | Utilisez des XMLports pour créer des documents XML, qui peuvent ensuite être échangés entre un siège social qui utilise un système et des sites qui utilisent Business Central. | [Vue d’ensemble de XMLport](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
 | Administrez des échanges de données complexes. | Utilisez une combinaison de XMLports avec Business Central et le serveur Microsoft BizTalk pour répondre aux besoins uniques de vos sites.</br>Pour les besoins complexes, utilisez une solution d′échange de données électroniques basée sur le serveur BizTalk et Commerce Gateway dans Business Central en association avec les XMLports. | [Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md) |
-| Connectez-vous aux services et solutions tiers<sup></sup>. | Les API établissent une connexion point à point entre Business Central et les services et solutions tiers<sup></sup>. | [API v2.0](https://docs.microsoft.com/dynamics-nav/api-reference/v2.0/) |
+| Connectez-vous aux services et solutions tiers<sup></sup>. | Les API établissent une connexion point à point entre Business Central et les services et solutions tiers<sup></sup>. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
 ## <a name="promote-an-efficient-intercompany-supply-chain"></a>Promotion d′une chaîne d′approvisionnement intersociétés efficace

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 767bbf0160f35b68eebe48c0bcf4fbc4311d3ce0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3822566d239d6fda0cc314a3c9f20ac909943886
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772687"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115855"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Enregistrer les achats avec les factures achat
 
@@ -100,6 +100,10 @@ L’achat est désormais visible dans le stock, les écritures ressource et les 
 Vous pouvez facilement corriger ou annuler une facture achat validée avant de payer le fournisseur. Cela est utile si vous souhaitez corriger une erreur de saisie ou si vous souhaitez modifier l’achat assez tôt dans le processus de commande. Pour plus d’informations, voir [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Si vous avez déjà payé des articles ou services sur la facture achat validée, vous devez créer un avoir achat pour contrepasser l’achat. Pour plus d’informations, reportez-vous à [Traiter les retours ou annulations d’achats](purchasing-how-process-purchase-returns-cancellations.md).
 
 [Ouvrir la liste des **factures achat validées**](https://businesscentral.dynamics.com/?page=146) dans [!INCLUDE [prod_short](includes/prod_short.md)].
+
+## <a name="external-document-number"></a>Numéro de document externe
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
 

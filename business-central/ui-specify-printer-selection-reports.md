@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 04/01/2021
+ms.date: 05/17/2021
 ms.author: jswymer
-ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985427"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063467"
 ---
 # <a name="set-up-printers"></a>Paramétrage imprimantes
 
@@ -38,7 +38,7 @@ L′impression universelle est un service basé sur un abonnement Microsoft 365 
 
 ![Configuration de l′impression universelle](media/Universal-Print-arch.png)
 
-La configuration complète nécessite que vous travailliez dans les deux Microsoft Azure, en utilisant le [Portail Azure](https://posrtal.azure.com), et dans [!INCLUDE[prod_short](includes/prod_short.md)].
+La configuration complète nécessite que vous travailliez dans Microsoft Azure, en utilisant le [Portail Azure](https://portal.azure.com), et dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="supported-printers"></a>Imprimantes prises en charge
 
@@ -78,7 +78,7 @@ La configuration complète nécessite que vous travailliez dans les deux Microso
 
 Avant de pouvoir commencer à gérer les imprimantes de l′impression universelle dans Business Central, vous devez effectuer plusieurs tâches pour que l′impression universelle soit opérationnel dans Azure avec les imprimantes que vous souhaitez utiliser.
 
-Pour obtenir des instructions détaillées sur la configuration, consultez [Premiers pas : configurer l′impression universelle](https://docs.microsoft.com/universal-print/fundamentals/universal-print-getting-started) dans la documentation de l′impression universelle. Voici un aperçu des étapes à suivre. La plupart de ces étapes sont effectuées dans le portail Azure.
+Pour obtenir des instructions détaillées sur la configuration, consultez [Premiers pas : configurer l′impression universelle](/universal-print/fundamentals/universal-print-getting-started) dans la documentation de l′impression universelle. Voici un aperçu des étapes à suivre. La plupart de ces étapes sont effectuées dans le portail Azure.
 
 1. Attribuez des licences de l′impression universelle à vous-même et aux autres utilisateurs.
 
@@ -104,29 +104,34 @@ Pour obtenir des instructions détaillées sur la configuration, consultez [Prem
 
     - Pour les autres imprimantes, enregistrez les imprimantes à l′aide du connecteur d′impression universelle. 
 
-      Pour plus d’informations, voir [Enregistrement d′une imprimante](/universal-print-connector-printer-registration).
+      Pour plus d’informations, voir [Enregistrement d′une imprimante](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Modifier les propriétés de l′imprimante (facultatif)
 
     Une fois l′imprimante enregistrée, vous pouvez afficher et modifier les propriétés de l′imprimante, comme les préférences par défaut.
 
-    Pour plus d′informations, consultez [Gérer les paramètres de métadonnées de l′imprimante](/universal-print/fundamentals/universal-print-printer-property-settings).
+    Pour plus d’informations, voir [Gestion des paramètres de l’imprimante à l’aide du portail d’impression universelle](/universal-print/portal/configure-printer-settings).
 
-5. Donnez aux utilisateurs l′autorisation des imprimantes.
-
-    Pour plus d’informations, voir [Autorisations d′une imprimante](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).
-
-6. Partagez les imprimantes.
+5. Partagez les imprimantes.
 
     Toute imprimante que vous souhaitez utiliser [!INCLUDE[prod_short](includes/prod_short.md)] devra être partagé dans l′impression universelle.
 
-    Pour plus d’informations, voir [Partager une imprimante](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer).
+    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+
+    Pour plus d’informations, voir [Partager une imprimante](/universal-print/portal/share-printers).
+
+6. Donnez aux utilisateurs l′autorisation pour accéder aux imprimantes partagées.
+
+    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+
+    Pour plus d’informations, voir [Autorisations d′une imprimante](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+
 
 7. Activez la conversion de documents.
 
     L′impression universelle rend le contenu pour l′impression au format XPS. Certaines imprimantes existantes sur le marché ne prennent pas en charge le rendu de contenu XPS&mdash; dans de nombreux cas, uniquement au format PDF. L′impression sur ces imprimantes échouera à moins que l′impression universelle ne soit configuré pour convertir les documents au format pris en charge par l′imprimante.
 
-    Pour plus d′informations, consultez [Présentation de la conversion de documents](/universal-print/fundamentals/universal-print-document-conversion).
+    Pour plus d′informations, consultez [Présentation de la conversion de documents](/universal-print/portal/document-conversion).
 
     > [!TIP]
     > Si aucune de vos imprimantes ne nécessite le format de rendu du contenu PDF, nous vous recommandons de ne pas activer la conversion de document car cela pourrait affecter la qualité de sortie d′impression.

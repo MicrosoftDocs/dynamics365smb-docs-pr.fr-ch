@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 04/12/2021
+ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 6980e56f8bda750f9afae9bed6577bb1ab1fec49
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f3c9626fa73247b2109e5f179aef405e80b44b07
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935226"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074655"
 ---
 # <a name="teams-faq"></a>FAQ Teams
 
@@ -154,7 +154,9 @@ Lors de la recherche de contacts à partir de l′application [!INCLUDE [prod_sh
 
 ### <a name="which-fields-in-the-contacts-table-can-i-search"></a>Dans quels champs de la table des contacts, puis-je effectuer une recherche ?
 
-Lorsque vous tapez vos termes de recherche dans le champ de recherche, les termes sont mis en correspondance avec la plupart des champs de la table **Contacts**. Les champs incluent, par exemple, les champ **Numéro**, **Nom**, **Adresse**, **Pas de numéro de téléphone** ou **Numéro de téléphone portable** et **E-mail**.  
+Lorsque vous tapez vos termes de recherche dans le champ de recherche, les termes sont mis en correspondance avec la plupart des champs de la table **Contacts**. Les champs incluent, par exemple, les champ **Numéro**, **Nom**, **Adresse**, **Pas de numéro de téléphone** ou **Numéro de téléphone portable** et **E-mail**. 
+
+Les termes de recherche ne correspondent à aucun champ personnalisé ajouté à la table **Contacts** par les applications et les extensions.
 
 ### <a name="do-search-results-include-companies-and-persons"></a>Les résultats de recherche incluent-ils des entreprises et des personnes ?
 

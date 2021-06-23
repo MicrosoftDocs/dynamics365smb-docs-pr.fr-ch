@@ -1,5 +1,5 @@
 ---
-title: Afficher les états Power BI personnalisés pour les données Business Central | Microsoft Docs
+title: Afficher des états Power BI personnalisés pour les données Business Central
 description: Vous pouvez utiliser des états Power BI pour obtenir des informations supplémentaires sur les données dans les listes.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/26/2021
 ms.author: jswymer
-ms.openlocfilehash: c74593a429c520730efbd503a1884065ca6cd7e4
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: d2ce2588604ae676ba8b2cb73878a2d8dfd32b63
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941628"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087709"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Création d’états Power BI pour afficher les données de liste dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -62,7 +62,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 6. Enregistrez et nommez le rapport.
 
-    Attribuez à l′état un nom qui contient le nom de la page de liste associée à l’état, comme dans le client. Le nom n′est cependant pas sensible à la casse. Supposons que l′état concerne la page de liste **Factures vente**. Dans ce cas, incluez les mots **factures vente** dans le nom, comme **mes factures vente.pbix** ou **Ma_liste_factures_vente.pbix**.
+    Attribuez à l′état un nom qui contient le nom de la page de liste associée à l’état, comme dans le client. Le nom n′est cependant pas sensible à la casse. Supposons que l′état concerne la page de liste **Factures vente**. Dans ce cas, incluez les mots **factures vente** dans le nom, par exemple **mes factures vente.pbix** ou **ma_liste_factures_vente.pbix**.
 
     Cette convention de désignation de nom n’est pas obligatoire. Cependant, il permet de sélectionner plus rapidement des états dans [!INCLUDE[prod_short](includes/prod_short.md)]. Lorsque la page de sélection des états s’ouvre depuis une page de liste, elle est automatiquement filtrée en fonction du nom de la page. Le filtre a la syntaxe suivante : `@*<caption>*` comme `@*Sales Invoices*`. Ce filtrage est effectué pour limiter les états affichés. Vous pouvez aussi effacer le filtre pour obtenir la liste complète des états disponibles dans Power BI.
 

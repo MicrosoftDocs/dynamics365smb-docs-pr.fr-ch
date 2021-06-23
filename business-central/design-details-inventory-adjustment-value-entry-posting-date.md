@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 3685a2145186d3e26da7ba0ad6ace0af0b8c0dd7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786797"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215118"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Détails de conception : date comptabilisation de l’écriture valeur d’ajustement
 Cet article fournit des instructions aux utilisateurs de la fonctionnalité Évaluation stock dans [!INCLUDE[prod_short](includes/prod_short.md)]. L’article spécifique donne des informations sur la façon dont le traitement par lots **Ajuster coûts - Écr. article** identifie et affecte une date comptabilisation aux écritures valeur que le traitement par lots est sur le point de créer.  
 
-Tout d’abord, le concept du processus est passé en revue, c’est-à-dire la manière dont le traitement par lots identifie et affecte la date comptabilisation à l’écriture valeur à créer. Ensuite, des scénarios communs que l’équipe de support rencontre parfois sont décrits. Enfin, les concepts utilisés à partir de la version 3.0 sont résumés.  
+Tout d’abord, le concept du processus est passé en revue, c’est-à-dire la manière dont le traitement par lots identifie et affecte la date comptabilisation à l’écriture valeur à créer. Ensuite, des scénarios communs que l’équipe de support rencontre parfois sont décrits. Enfin, les concepts utilisés sont résumés.  
 
 ## <a name="the-concept"></a>Le concept  
-À partir de la version 5.0, le traitement par lots **Ajuster coûts - Écr. article** affecte une date comptabilisation à l’écriture valeur qu’il est sur le point de créer dans les étapes suivantes :  
+Le traitement par lots **Ajuster coûts - Écr. article** affecte une date comptabilisation à l’écriture valeur qu’il est sur le point de créer dans les étapes suivantes :  
 
 1.  Initialement, la date comptabilisation de l’écriture à créer est la même que celle de l’écriture qu’elle ajuste.  
 
@@ -55,7 +55,7 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
 ![Périodes inventaire dans le scénario](media/helene/TechArticleAdjustcost3.png "Périodes inventaire dans le scénario")
 
- La première date comptabilisation autorisée est le premier jour de la première période ouverte. 1er septembre 2013.  
+ La première date comptabilisation autorisée est le premier jour de la première période ouverte. 1 septembre 2013.  
 
  Paramètres comptabilité :  
 
@@ -67,7 +67,7 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
  Étape 3 : affectation d’une date comptabilisation autorisée.  
 
- La date comptabilisation initiale était le 6 septembre, comme illustré à l’étape 1. Toutefois, dans la 2ème étape, le traitement par lots Ajuster coûts - Écr. article identifie que la date comptabilisation autorisée la plus proche est le 10 septembre et affecte donc le 10 septembre à l’écriture valeur d’ajustement ci-dessous.  
+ La date comptabilisation initiale était le 6 septembre, comme illustré à l’étape 1. Toutefois, dans la deuxième étape, le traitement par lots Ajuster coûts - Écr. article identifie que la date comptabilisation autorisée la plus proche est le 10 septembre et affecte donc le 10 septembre à l’écriture valeur d’ajustement ci-dessous.  
 
  ![État des écritures valeur dans le scénario 2](media/helene/TechArticleAdjustcost5.png "État des écritures valeur dans le scénario 2")
 
@@ -155,7 +155,7 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
 4.  Ouvrez la feuille article, puis créez et validez une ligne comme suit :  
 
-     Date = 15 janvier 2014  
+     Date = 15 janvier 2014  
 
      Article = TEST  
 
@@ -191,7 +191,7 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
 
  **Conclusion :**  
 
- Avec les expériences tirées de ce scénario et en tenant compte du paramétrage le plus approprié de la plage de dates comptabilisation autorisées pour une société, la recommandation suivante peut être utile : tant que les modifications de la valeur de stock peuvent être validées dans une période, décembre en l’occurrence, le paramétrage utilisé par la société pour les plages de dates comptabilisation autorisées doit être aligné sur cette décision. Lorsque l’option Début période validation dans les paramètres comptabilité est définie sur le 1er décembre, la réévaluation effectuée en décembre peut être transférée vers les écritures sortantes affectées dans la même période.  
+ Avec les expériences tirées de ce scénario et en tenant compte du paramétrage le plus approprié de la plage de dates comptabilisation autorisées pour une société, l’information suivante peut s’avérer utile : tant que vous autorisez la vaidation des modifications de la valeur de stock dans une période, décembre en l’occurrence, le paramétrage utilisé par la société pour les plages de dates comptabilisation autorisées doit être aligné sur cette décision. Lorsque l’option Début période validation dans les paramètres comptabilité est définie sur le 1er décembre, la réévaluation effectuée en décembre peut être transférée vers les écritures sortantes affectées dans la même période.  
 
  Les groupes d’utilisateurs qui ne sont pas autorisés à effectuer des validations en décembre mais en janvier, ce qui était probablement censé être limité par les paramètres comptabilité dans ce scénario, devront plutôt être gérés via les paramètres utilisateur.  
 
@@ -333,31 +333,17 @@ Le traitement par lots **Ajuster coûts - Écr. article** détermine si la date 
  Dans ce scénario, une solution aurait pu être que le champ Début période validation dans les paramètres comptabilité indique une date en décembre pour quelques jours de plus et que la validation des premiers frais annexes soit reportée pour que tous les coûts de la période ou de l’exercice précédent soient reconnus pour la période à laquelle ils appartiennent. Ainsi, le traitement par lots Ajuster coûts – Écr. article serait exécuté et la date comptabilisation autorisée serait déplacée vers la nouvelle période ou le nouvel exercice. Les premiers frais annexes avec la date comptabilisation du 2 janvier peuvent ensuite être validés.  
 
 ## <a name="history-of-adjust-cost--item-entries-batch-job"></a>Historique du traitement par lots Ajuster coûts – Écr. article  
- Voici un résumé du concept d’affectation de dates comptabilisation aux écritures valeur d’ajustement par le traitement par lots Ajuster coûts – Écr article depuis la version 3.0.  
+ Voici un résumé du concept d’affectation de dates comptabilisation aux écritures valeur d’ajustement par le traitement par lots Ajuster coûts – Écr article.  
 
-### <a name="from-version-30370a"></a>À partir de la version 3.0..3.70.A  
- Dans le formulaire de demande du traitement par lots Ajuster coûts - Écr. article, la date comptabilisation doit être saisie par l’utilisateur. Le traitement par lots exécute toutes les modifications nécessaires et crée des écritures valeur avec la date comptabilisation saisie dans le formulaire de demande. La date comptabilisation suggérée à utiliser est la date du jour.  
-
-### <a name="version-370b40"></a>Version 3.70.B..4.0  
- Dans le formulaire de demande du traitement par lots Ajuster coûts - Écr. article, la date comptabilisation écriture période clôturée doit être saisie par l’utilisateur. Le traitement par lots exécute toutes les modifications nécessaires et crée des écritures valeur avec la date comptabilisation de l’écriture comptable article parent (date d’expédition de la vente concernée par l’ajustement). Si la date comptabilisation de l’écriture comptable article parent n’est pas comprise dans la plage de dates comptabilisation autorisées, la date comptabilisation indiquée comme date comptabilisation écriture période clôturée sera affectée à l’écriture valeur d’ajustement. Une date est considérée comme incluse dans une période clôturée lorsqu’elle est antérieure à la date indiquée dans le champ Début période validation dans les paramètres comptabilité.  
-
-### <a name="from-version-50"></a>À partir de la version 5.0 :  
+### <a name="about-the-request-form-posting-date"></a>À propos de la date comptabilisation du formulaire de sélection :  
  Il n’est plus nécessaire d’indiquer une date comptabilisation dans le formulaire de demande du traitement par lots Ajuster coûts - Écr. article. Le traitement par lots exécute toutes les modifications nécessaires et crée des écritures valeur avec la date comptabilisation de l’écriture valeur qu’il ajuste. Si la date comptabilisation n’est pas comprise dans la plage de dates comptabilisation autorisées dans le champ Début période validation des paramètres comptabilité ou si les périodes inventaire sont utilisées, la date la plus récente des deux sera utilisée. Reportez-vous au concept décrit ci-dessus.  
 
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Historique du traitement par lots Valider coûts ajustés  
  Le traitement par lots Valider coût ajustés est étroitement lié au traitement par lots Ajuster coûts – Écr article. C’est pourquoi l’historique de ce traitement par lots est résumé et partagé ici également.  
-
-### <a name="from-version-30370a"></a>À partir de la version 3.0..3.70.A  
- Dans le formulaire de demande du traitement par lots Valider coûts ajustés, une date comptabilisation doit être saisie par l’utilisateur. Le traitement par lots exécute toutes les écritures valeur correspondant au filtre, le cas échéant, et crée des écritures comptables avec la date comptabilisation saisie dans le formulaire de demande.  
-
-### <a name="version-370b40"></a>Version 3.70.B..4.0  
- Dans le formulaire de demande du traitement par lots Valider coûts ajustés, le champ Date comptabilisation écriture période clôturée est disponible. L’application utilise la date que vous saisissez dans ce champ comme date comptabilisation pour les écritures comptables qu’il crée pour les écritures valeur dont les dates comptabilisation se trouvent dans des périodes comptables clôturées. Sinon, les écritures comptables auront la même date comptabilisation que les écritures valeur d’origine. Une date est considérée comme incluse dans une période clôturée lorsqu’elle est antérieure à la date indiquée dans le champ Début période validation dans les paramètres comptabilité. En cas de validation en comptabilité par groupe comptabilisation, les écritures comptables auront la date comptabilisation spécifiée dans le champ Date comptabilisation du formulaire de demande.  
-
- Dans la version 3 et 4, le traitement par lot analyse toutes les écritures valeur pour détecter s’il existe des écritures valeur dont le coût total (réel) diffère du coût validé en comptabilité. Si une différence est détectée, le montant différent sera validé dans une écriture comptable. Si la comptabilisation des coûts prévus est utilisée, les champs correspondants sont traités de la même manière.  
-
+ 
 ![Coût réel comparé au coût prévu](media/helene/TechArticleAdjustcost14.png "Coût réel comparé au coût prévu")
 
-### <a name="from-version-50"></a>À partir de la version 5.0 :  
+### <a name="about-the-posting-date"></a>À propos de la date comptabilisation
  Il n’est plus nécessaire d’indiquer une date comptabilisation dans le formulaire de demande du traitement par lots Valider coûts ajustés. L’écriture comptable est créée avec la même date comptabilisation que l’écriture valeur associée. Pour exécuter le traitement par lots, la plage de dates comptabilisation autorisées doit autoriser la date comptabilisation de l’écriture comptable créée. Sinon, la plage de dates comptabilisation autorisées doit être temporairement rouverte en modifiant ou en supprimant les dates des champs Début période validation et Fin période validation dans les paramètres comptabilité. Pour éviter les problèmes de rapprochement, la date comptabilisation de l’écriture comptable doit correspondre à la date comptabilisation de l’écriture valeur.  
 
  Le traitement par lots analyse la table 5811 - Valider écriture valeur en comptabilité pour identifier les écritures valeur concernées par la validation en comptabilité. Une fois l’exécution réussie, la table est vidée.

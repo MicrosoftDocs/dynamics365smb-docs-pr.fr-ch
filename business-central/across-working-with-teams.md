@@ -1,5 +1,5 @@
 ---
-title: Utiliser les données Business Central dans Microsoft Teams| Microsoft Docs
+title: Partage d’enregistrements Business Central dans Microsoft Teams
 description: Découvre comment utiliser l’application Business Central pour Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,21 +7,21 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/01/2021
+ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
+ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: e20208d50eb65f1a92e6661396bf53007ab88eb8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786897"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074602"
 ---
-# <a name="working-with-business-central-data-in-microsoft-teams"></a>Utilisation des données Business Central dans Microsoft Teams
+# <a name="sharing-business-central-records-in-microsoft-teams"></a>Partage d’enregistrements Business Central dans Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[!INCLUDE [prod_short](includes/prod_short.md)] propose une application qui connecte Microsoft Teams à vos données métier dans [!INCLUDE [prod_short](includes/prod_short.md)], afin que vous puissiez partager rapidement les détails entre les membres de l’équipe et répondre plus rapidement aux demandes de renseignements. Dans cet article, vous apprendrez à utiliser l’application pour partager des données [!INCLUDE [prod_short](includes/prod_short.md)] avec des collègues dans une conversation Teams.
+[!INCLUDE [prod_short](includes/prod_short.md)] propose une application qui connecte Microsoft Teams à vos données métier dans [!INCLUDE [prod_short](includes/prod_short.md)], afin que vous puissiez partager rapidement les détails entre les membres de l’équipe et répondre plus rapidement aux demandes de renseignements. Dans cet article, vous apprendrez à utiliser l’application pour partager des enregistrements [!INCLUDE [prod_short](includes/prod_short.md)], comme un client, une commande client ou une facture, avec des collègues dans une conversation Teams.
 
 ## <a name="overview"></a>Aperçu
 

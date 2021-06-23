@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a061eb42342859cb6b2d138bee2ba0b6b881d517
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0843dee0e0ac392f138bfa7632635dff8d6411ce
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780047"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184289"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Besoin de plus de temps pour décider si vous voulez vous abonner ?
 
 Il est important de prendre la bonne décision en choisissant une application d’entreprise, et nous savons que cela peut prendre du temps d’explorer tous les angles de [!INCLUDE[prod_short](includes/prod_short.md)]. Si vous avez besoin de plus de temps pour terminer l’évaluation, vous pouvez prolonger la période d’essai de vous-même pour 30 jours de plus. Lorsque la date d’échéance de votre période d’essai approche, nous afficherons une notification pour vous avertir lorsque vous vous connectez. La notification contient un lien vers le guide **Prolonger la période d’évaluation** que vous pouvez utiliser pour prolonger votre période d’essai. Les 30 jours supplémentaires lancent le moment où vous choisissez **Prolonger la version d’évaluation** dans le guide.
 
-Le prolongement de la période d’essai par vous-même est une action unique. Vous ne pouvez pas la prolonger deux fois, au moins pas par vous-même. Si vous avez déjà prolongé la période, votre partenaire certifié Microsoft peut la prolonger encore pour vous. C’est aussi une action unique. Si vous ne travaillez pas encore avec un partenaire, consultez [Comment trouver un partenaire revendeur ?](across-faq.md#findpartner).  
+Le prolongement de la période d’essai par vous-même est une action unique. Vous ne pouvez pas la prolonger deux fois, au moins pas par vous-même. Si vous avez déjà prolongé la période, votre partenaire certifié Microsoft peut la prolonger encore pour vous. C’est aussi une action unique. Si vous ne travaillez pas encore avec un partenaire, consultez [Comment trouver un partenaire revendeur ?](/dynamics365/business-central/across-faq#findpartner).  
 
 ## <a name="to-extend-your-trial-period"></a>Pour prolonger votre période d’essai
 
@@ -49,11 +49,13 @@ Cependant, après cette deuxième extension qui a donné à votre organisation j
 
 Votre période d’essai prolongée a expiré, vous pouvez [vous abonner](https://go.microsoft.com/fwlink/?linkid=828659) à [!INCLUDE[prod_short](includes/prod_short.md)] au cours des 90 prochains jours et continuer à travailler dans la société que vous avez créée. 90 jours après l’expiration de l’essai prolongé, nous supprimerons votre entreprise et vos données, sauf si vous vous abonnez.  
 
+[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
+
 ## <a name="see-also"></a>Voir aussi
 
 [Création de sociétés](about-new-company.md)  
 [Versions d’évaluation et abonnements](across-preview.md)  
-[Comment trouver un partenaire revendeur ?](across-faq.md#findpartner)  
+[Comment trouver un partenaire revendeur ?](/dynamics365/business-central/across-faq#findpartner)  
 [Prolongement des périodes d’essai (en tant qu’administrateur)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Débuter en tant que revendeur de Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
 

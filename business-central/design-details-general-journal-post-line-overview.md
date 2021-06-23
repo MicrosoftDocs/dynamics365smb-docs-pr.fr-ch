@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 6866e852899df3de3de2c4560c26ad981e46fda5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777863"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215268"
 ---
 # <a name="general-journal-post-line-overview"></a>Aperçu de la ligne validation de feuille comptabilité
+
 Codeunit 12, **Groupe compta.-Ligne validation**, est l’objet d’application majeur pour la validation de la comptabilité et est le seul emplacement pour insérer des écritures comptables, la TVA, et les écritures comptables client et fournisseur. Ce codeunit est également utilisé pour toutes les opérations Appliquer, Désappliquer et Inverser.  
   
-Alors que le codeunit a été amélioré dans chaque version au cours des dix dernières années, son architecture est, au fond, restée inchangée. Le codeunit est devenu très grand, avec approximativement 7 600 lignes de code. Avec cette version de [!INCLUDE[prod_short](includes/prod_short.md)], l’architecture est modifiée et le codeunit a été rendu plus simple et plus facile à modifier. Cette documentation présente les modifications et fournit les informations dont vous aurez besoin pour la mise à niveau.  
+Dans Microsoft Dynamics NAV 2013 R2, le codeunit a été repensé, car il était devenu très grand, avec environ 7 600 lignes de code. L’architecture a été modifiée et le codeunit a été rendu plus simple et plus facile à modifier. Cette documentation décrit les modifications et fournit les informations dont vous aurez besoin pour la mise à niveau.  
   
 ## <a name="old-architecture"></a>Ancienne architecture  
 L’ancienne architecture avait les fonctions suivantes :  
@@ -43,9 +44,11 @@ Dans [!INCLUDE[prod_short](includes/prod_short.md)], le codeunit 12 présente le
 * De nombreuses fonctions de participation ont été transférées vers les tableaux d’écritures comptables client et fournisseur correspondantes.  
 * L’utilisation des variables globales a été réduite, de façon à ce que chaque procédure utilise des paramètres et contienne sa propre logique d’application.  
   
-## <a name="see-also"></a>Voir aussi  
-[Détails de conception : Structure de l’interface de validation](design-details-posting-interface-structure.md)   
-[Détails de conception : Structure du moteur de validation](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>Voir aussi
+
+[Détails de conception : Structure de l’interface de validation](design-details-posting-interface-structure.md)  
+[Détails de conception : Structure du moteur de validation](design-details-posting-engine-structure.md)  
+[Détails de conception : Ligne validation de feuille comptabilité (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

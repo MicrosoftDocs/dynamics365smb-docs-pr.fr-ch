@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 136a96c880c7abf9b082d7f8859e484be54da4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6683d8b3a01693d23366f95292eb92f0aabcd268
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777365"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184514"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Intégration à Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -44,7 +44,6 @@ Lorsque vous installez la solution d'intégration, les autorisations pour le com
 * Utilisateur de disponibilité produit Dynamics 365 Business Central
 
 ### <a name="connection-settings-in-the-setup-guide"></a>Paramètres de connexion dans le guide de configuration
-
 Vous pouvez utiliser un guide de configuration assistée pour configurer rapidement la connexion et spécifier des fonctions avancées, comme le couplage entre les enregistrements.
 
 1. Choisissez **Configuration et extensions**, puis **Configuration assistée**.
@@ -56,12 +55,11 @@ Vous pouvez utiliser un guide de configuration assistée pour configurer rapidem
 |--|--|
 | **Importer une solution Dynamics 365 Sales** | Activez cette fonctionnalité pour installer et configurer la solution d'intégration dans [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic--> |
 | **Publier le service Web de disponibilité des articles** | Laissez les utilisateurs de [!INCLUDE[crm_md](includes/crm_md.md)] voir la disponibilité des articles (produits) en stock dans [!INCLUDE[prod_short](includes/prod_short.md)]. Cela nécessite qu'un compte d'utilisateur [!INCLUDE[prod_short](includes/prod_short.md)] ait une clé d'accès aux services Web. L'affectation de la clé est un processus en deux étapes. Sur le compte d'utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)], vous devez choisir l'action **Modifier la clé de service Web**. Dans le guide de configuration assistée Configuration de la connexion Dynamics 365 Sales, vous devez préciser l'URL de service Web OData Dynamics 365 Business Central et fournir les identifiants d'utilisateur [!INCLUDE[prod_short](includes/prod_short.md)] pour accéder au service. Pour plus d'informations, reportez-vous à la rubrique [Services Web OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
-| **URL du service Web OData Business Central** | Si vous activez le service Web pour visualiser la disponibilité des articles, l'URL du service Web OData est renseignée pour vous. |
-| **Nom d'utilisateur du service Web OData Business Central** | Il s'agit du nom du compte d'utilisateur [!INCLUDE[prod_short](includes/prod_short.md)] que [!INCLUDE[crm_md](includes/crm_md.md)] utilise pour récupérer les informations concernant la disponibilité des articles dans [!INCLUDE[prod_short](includes/prod_short.md)] via le service Web OData. |
+|**Nom d'utilisateur du service Web OData Business Central** | Il s'agit du nom du compte d'utilisateur [!INCLUDE[prod_short](includes/prod_short.md)] que [!INCLUDE[crm_md](includes/crm_md.md)] utilise pour récupérer les informations concernant la disponibilité des articles dans [!INCLUDE[prod_short](includes/prod_short.md)] via le service Web OData. |
 | **Clé d'accès du service Web OData Business Central** | Il s'agit de la clé d'accès pour le compte d'utilisateur que [!INCLUDE[crm_md](includes/crm_md.md)] utilise pour obtenir des informations concernant la disponibilité des articles depuis [!INCLUDE[prod_short](includes/prod_short.md)] via le service Web OData. La clé est assignée à l'utilisateur choisi dans le champ **Nom d'utilisateur du service Web OData Business Central**. Pour obtenir la clé, sélectionnez le bouton **Rechercher la valeur** en regard du nom d'utilisateur, sélectionnez l'utilisateur, puis **Gérer** et enfin **Modifier**. Sur la fiche d'utilisateur, sélectionnez **Actions**, **Authentification**, puis choisissez **Modifier la clé du service Web**. |
-| **Activer l'intégration de la commande vente** | Quand les utilisateurs créent des commandes vente dans [!INCLUDE[crm_md](includes/crm_md.md)] et exécutent les commandes dans [!INCLUDE[prod_short](includes/prod_short.md)], cela intègre le processus dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d'informations, voir [Activer l'intégration du traitement des commandes client](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Cela suppose que vous fournissiez des informations d'identification pour un compte utilisateur de l'administrateur dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d'informations, reportez-vous à la rubrique [Gestion des données de commandes vente spéciales](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
-| **Activer la connexion CDS** | Activez la connexion vers [!INCLUDE[prod_short](includes/cds_long_md.md)]. |
-| **Version du SDK Dynamics 365** | Cela est pertinent uniquement si vous l'intégrez à une version locale de [!INCLUDE[crm_md](includes/crm_md.md)]. Il s'agit du kit de développement logiciel Dynamics 365 (également appelé Xrm) que vous utilisez pour connecter [!INCLUDE[prod_short](includes/prod_short.md)] à [!INCLUDE[crm_md](includes/crm_md.md)]. La version doit être compatible à la version du SDK utilisée par [!INCLUDE[crm_md](includes/crm_md.md)], et identique ou plus récente que la version utilisée par [!INCLUDE[crm_md](includes/crm_md.md)]. |
+| **Activer l'intégration de la commande vente** | Quand les utilisateurs créent des commandes vente dans [!INCLUDE[crm_md](includes/crm_md.md)] et exécutent les commandes dans [!INCLUDE[prod_short](includes/prod_short.md)], cela intègre le processus dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d'informations, voir [Activer l'intégration du traitement des commandes client](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Cela suppose que vous fournissiez des informations d'identification pour un compte utilisateur de l'administrateur dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d’informations, reportez-vous à la rubrique [Gestion des données de commandes vente spéciales](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
+|**Activer la connexion à Dynamics 365 Sales** | Activez la connexion vers [!INCLUDE[crm_md](includes/crm_md.md)]. |
+| **Version du SDK Dynamics 365** | Cela est pertinent uniquement si vous l'intégrez à une version locale de [!INCLUDE[crm_md](includes/crm_md.md)]. Il s'agit du kit de développement logiciel Dynamics 365 (également appelé Xrm) que vous utilisez pour connecter [!INCLUDE[prod_short](includes/prod_short.md)] à [!INCLUDE[crm_md](includes/crm_md.md)]. La version doit être compatible à la version du SDK utilisée par [!INCLUDE[crm_md](includes/crm_md.md)], et identique ou plus récente que la version utilisée par [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
 ### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Paramètres de connexion sur la page Paramètres de la connexion Microsoft Dynamics 365
 
@@ -162,7 +160,7 @@ L’équipe Microsoft Power Platform a [annoncé](/power-platform/important-chan
    - Office365 (hérité)
 
      > [!IMPORTANT]
-     > À compter d'avril 2022, Office365 (hérité) ne sera plus pris en charge. Pour plus d'informations, consultez [Modifications importantes (déconseillées) à venir dans Power Apps, Power Automate et les applications d'engagement client](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
+     > À compter d′avril 2022, Office365 (hérité) ne sera plus pris en charge. Pour plus d'informations, consultez [Modifications importantes (déconseillées) à venir dans Power Apps, Power Automate et les applications d'engagement client](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
 
    - OAuth
 
