@@ -2,12 +2,12 @@
 metadata:
   title: FAQ Copier et coller des données
   description: Obtenez des réponses aux questions fréquemment posées sur la copie et le collage de données à partir de champs et de lignes à partir des pages Business Central.
-  ms.openlocfilehash: 41f92191cf00ff7cbf0a3be2d0902bb9386efc56
-  ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+  ms.openlocfilehash: e52c60da284ba8144975c88b138ca4e7218fa2ab
+  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
   ms.translationtype: HT
   ms.contentlocale: fr-CH
-  ms.lasthandoff: 03/31/2021
-  ms.locfileid: "5775590"
+  ms.lasthandoff: 05/28/2021
+  ms.locfileid: "6115758"
 title: FAQ sur l’opération Copier et coller
 summary: "Vous pouvez copier une ou plusieurs lignes (enregistrements) dans une liste ou un champ unique sur une page, puis collez ce que vous avez copié dans la même page, une autre page, ou un document externe (comme Microsoft Excel et un e-mail Outlook).  \n\nEn raccourci, pour copier, appuyez sur CTRL+C (cmd+C dans macOS) sur votre clavier. Pour coller, appuyez sur CTRL+V (cmd+V dans macOS). Plusieurs autres raccourcis clavier permettent de copier et coller afin de faire gagner du temps pendant la saisie des données. Pour plus d’informations sur ceux-ci, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#CopyRows). Cet article répond à des questions courantes que vous pouvez avoir à propos de copier et coller.  \n"
 sections:
@@ -72,4 +72,4 @@ sections:
   - question: Pourquoi est-ce que j’obtiens des erreurs en collant des lignes ?
     answer: >
       Lorsque vous collez dans [!INCLUDE[prod_short](includes/prod_short.md)], chaque ligne est vérifiée pour s’assurer que les valeurs de chaque colonne sont valides. Si une colonne contient une valeur qui n’est pas valide, le collage arrêté, et un message d’erreur s’affiche. Pour éviter cela, assurez-vous que les colonnes ont des valeurs valides avant de les coller.
-additionalContent: "## <a name=\"next-steps\"></a>Étapes suivantes\nTrouvez des informations relatives ici : \n  - [Fonctionnalités d’assistance](ui-accessibility.md)  \n  - [Préparation aux activités commerciales](ui-get-ready-business.md)  \n  - [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Forum Aux Questions](across-faq.md)  \n"
+additionalContent: "## <a name=\"next-steps\"></a>Étapes suivantes\nTrouvez des informations relatives ici : \n  - [Fonctionnalités d’assistance](ui-accessibility.md)  \n  - [Préparation aux activités commerciales](ui-get-ready-business.md)  \n  - [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Forum Aux Questions](across-faq.yml)  \n"
