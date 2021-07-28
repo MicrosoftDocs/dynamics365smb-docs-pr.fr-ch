@@ -1,6 +1,6 @@
 ---
-title: Utilisation de l’extension PayPal Payments Standard | Microsoft Docs
-description: Décrit comment utiliser l’extension pour permettre aux clients d’effectuer des paiements avec Paypal.
+title: Utilisation de l’’extension PayPal Payments Standard
+description: Cette rubrique décrit comment utiliser l’extension standard pour permettre aux clients d’effectuer des paiements avec Paypal.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd7a1faf7b80547fe5b26d43495b4713a27d4a5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cc7db26df0cfd554b083ac606c14965eecc991eb
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785083"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322892"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Extension PayPal Payments Standard
 Les clients sont toujours plus exigeants en ce qui concerne le service clientèle, en termes de qualité de produits mais aussi en termes d’options de livraison et de paiement. Le service PayPal Payments Standard vous aide à développer votre service clientèle.

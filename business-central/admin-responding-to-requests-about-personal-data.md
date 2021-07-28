@@ -1,21 +1,21 @@
 ---
 title: Réponse aux demandes relatives aux données personnelles
-description: Vous devez répondre aux demandes des sujets des données.
+description: Cette rubrique vous indique comment répondre aux demandes concernant les données personnelles. C’est ce qu’on appelle Demande du sujet des données.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: b7762f9da2a6e3acfbd57a4b5af4806ead710c9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 77b1470ee7df736815451c03e4afbf684803aea4
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777396"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321977"
 ---
-# <a name="responding-to-requests-about-personal-data"></a>Réponse aux demandes relatives aux données personnelles  
+# <a name="responding-to-requests-about-users-personal-data"></a>Réponse aux demandes relatives aux données personnelles de l’utilisateur  
 Les sujets des données peuvent demander plusieurs types d’actions concernant leurs données personnelles. Par exemple, en vertu du Règlement général sur la protection des données (RGPD), les résidents de l’UE ont le droit de demander l’exportation, la suppression et la modification de leurs données personnelles. Cela est appelé *Demande du sujet des données*. Si vous avez classé la sensibilité de vos données et que vous êtes sûr qu’elles sont correctes, un administrateur peut répondre aux demandes en utilisant les options de l’onglet **Confidentialité des données** dans le tableau de bord **Responsable informatique**. Pour plus d’informations sur la classification des données et la classification de la sensibilité des données dans [!INCLUDE[prod_long](includes/prod_long.md)], voir [Classification des données](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) et [Classification de la sensibilité des données](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Types de demandes

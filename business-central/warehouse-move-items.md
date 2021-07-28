@@ -1,6 +1,6 @@
 ---
-title: Déplacement d’articles | Microsoft Docs
-description: Lorsque les articles sont en stock, il peut être nécessaire de les déplacer entre plusieurs emplacements pour prendre en charge les activités entrepôt quotidiennes permettant de conserver le flux d’articles dans l’entrepôt. Certains mouvements se produisent en relation directe avec les opérations internes ; par exemple, lorsqu’un ordre de fabrication impose que des composants soient livrés ou que des produits finis soient rangés. D’autres mouvements se produisent dans le cadre d’une simple optimisation de l’espace des entrepôts ou en tant que mouvements ad-hoc depuis ou vers des opérations.
+title: Déplacement d’articles
+description: Lorsque les articles sont en stock, il peut être nécessaire de les déplacer entre plusieurs emplacements pour prendre en charge les activités entrepôt quotidiennes permettant de conserver le flux d’articles dans l’entrepôt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 66c2b9d191bc899de6ec2b6e6bbcd99d133448b7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7c81a363fa76de82b79ea6afc589c7984d87ef6b
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784132"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324804"
 ---
 # <a name="moving-items"></a>Déplacement d’articles
 L’activité entrepôt consistant à déplacer les articles dans l’entrepôt s’exécute différemment selon la configuration des fonctionnalités du module Gestion d’entrepôt. Le niveau de complexité du paramétrage varie : aucune fonctionnalité entrepôt, configurations de stockage de base pour le traitement par commande dans une ou plusieurs activités uniquement, configurations avancées dans lesquelles toutes les activités entrepôt doivent être exécutées dans un flux suggéré. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).

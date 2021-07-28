@@ -1,8 +1,6 @@
 ---
-title: Paramétrer des opérations bancaires| Microsoft Docs
+title: Configuration des opérations bancaires
 description: Utilisez les fiches compte bancaire pour suivre vos comptes bancaires et paramétrer le flux bancaire, telles que Yodlee, pour échanger des données.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,14 +10,15 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a8e10161f2ad137cf26e1e28d8ccf89049b51ad8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 43a9291fb346596b46d3871a1da7eb84fae3a758
+ms.sourcegitcommit: cde0d97840c8b83cae45afc4a6c65725ffdad56a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779697"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6248904"
 ---
 # <a name="setting-up-banking"></a>Paramétrage des opérations bancaires
+
 Les fiches compte bancaire vous permettent de gérer tous vos comptes bancaires, dans n’importe quelle devise. Une fois que vous avez configuré les comptes bancaires, vous pouvez également utiliser l’option d’impression de chèque.
 
 Pour utiliser les services bancaires électroniques pour importer des relevés bancaires et exporter des paiements, vous devez d’abord configurer et activer les services en question.
@@ -30,7 +29,10 @@ Pour utiliser les services bancaires électroniques pour importer des relevés b
 | Configurer un service externe qui vous permet d’importer des relevés bancaires sous forme de flux bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
 | Configurer un service externe qui vous permet d’exporter vos paiements vers la banque pour traitement et d’importer des relevés bancaires sous forme de fichiers bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
+[!INCLUDE [local-functionality](includes/local-functionality.md)]
+
 ## <a name="see-also"></a>Voir aussi
+
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  

@@ -1,6 +1,6 @@
 ---
-title: Configurer les conditions, niveaux et textes de relance livraison (CH)
-description: Pour créer des relances livraison dans la version suisse de Business Central, vous devez configurer des conditions de relance livraison, des niveaux de relance livraison et des textes de relance livraison. messages
+title: Conditions, niveaux et textes de relance livraison [CH]
+description: Pour créer des relances livraison dans la version suisse de Business Central, vous devez configurer des conditions, des niveaux et des textes de relance livraison.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2f5bc88b6a2a0b39e519320993da289ccef01f77
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b523ca2ebdbe8a25651361555399b6f2c27bcca2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774711"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318843"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a>Configurer les conditions, niveaux et textes de relance livraison dans la version suisse
 

@@ -1,21 +1,21 @@
 ---
-title: Échanger des données | Microsoft Docs
-description: Vous pouvez échanger des données entre Business Central et des fichiers ou flux externes en relation avec des tâches courantes d’entreprise, comme l’envoi et la réception de documents électroniques et l’importation et l’exportation de fichiers bancaires.
+title: Échange de données
+description: Échangez des documents commerciaux électroniques, par exemple des fichiers bancaires, entre Business Central et des parties externes.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 1b0d690254378de23655c73aaedccd03535ba586
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 85f8a69d05366585bd11d651a6c093a4388433d9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776187"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319655"
 ---
 # <a name="exchanging-data"></a>Échange de données
 Vous pouvez échanger des données entre [!INCLUDE[prod_short](includes/prod_short.md)] et des fichiers ou flux externes en relation avec des tâches courantes d’entreprise, comme l’envoi et la réception de documents électroniques et l’importation et l’exportation de fichiers bancaires.  

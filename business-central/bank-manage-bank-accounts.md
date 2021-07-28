@@ -1,5 +1,5 @@
 ---
-title: Gérer des comptes bancaires| Microsoft Docs
+title: Gérer les comptes bancaires
 description: Vous devez régulièrement rapprocher les écritures comptables bancaires avec les transactions bancaires associées à vos comptes bancaires.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: db4afccdd67e400f2effd34b2db3c449db10432a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0e98609dfe176a685d46112a233d3394eb312eaf
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779722"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323783"
 ---
-# <a name="reconciling-bank-accounts"></a>Rapprochement de comptes bancaires
+# <a name="manage-and-reconcile-your-bank-accounts"></a>Gérer et rapprocher vos comptes bancaires
 
 Un rapprochement bancaire doit être effectué à intervalles réguliers pour tous vos comptes bancaires afin de garantir l’exactitude des registres de trésorerie de la société. Pour ce faire, vous comparez et faites correspondre les écritures de vos comptes bancaires internes avec les transactions bancaires de votre banque, puis vous validez les soldes sur vos comptes bancaires internes pour mettre les totaux à la disposition des responsables financiers. Le rapprochement bancaire est également un moyen pratique de découvrir et de résoudre les paiements manquants et les erreurs de comptabilité.
 

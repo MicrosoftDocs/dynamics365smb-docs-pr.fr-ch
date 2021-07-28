@@ -1,6 +1,6 @@
 ---
 title: Conformité des services et contrat de niveau de service
-description: Ce contenu comprend des informations sur la conformité des services concernant Business Central Online.
+description: Du point de vue des services, Business Central est à la hauteur des exigences strictes et de la conformité SLA dans plusieurs certifications ISO et spécifiques à l’industrie.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,22 +9,22 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 8ea17f10621a152832de7862ed438681d54500f9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e1ecec00458dbe2872eda7654fab0ff555408868
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772854"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323683"
 ---
 # <a name="service-compliance"></a>Conformité des services
 
 Ce contenu comprend des informations sur la conformité des services concernant [!INCLUDE[prod_short](../includes/prod_short.md)] en ligne.  
 
-Business Central est un service de cloud avec une portée et une échelle totales s’exécutant sur l’une des infrastructures d’hyper-échelle les plus complexes au monde, Microsoft Azure, avec des centres de données dans des régions du monde entier. L’exécution d’un service cloud impose également la nécessité de se conformer à certaines normes en termes de sécurité et de conformité, afin que, du point de vue des services, Business Central respecte les besoins stricts de plusieurs certifications ISO et propres au secteur.
+Business Central est un service de cloud avec une portée et une échelle totales s’exécutant sur l’une des infrastructures d’hyper-échelle les plus complexes au monde, Microsoft Azure, avec des centres de données dans des régions du monde entier. L’exécution d’un service cloud impose également la nécessité de se conformer à certaines normes en termes de sécurité et de conformité, afin que, du point de vue des services, Business Central respecte les besoins stricts de plusieurs certifications ISO et propres au secteur.
 
-Veuillez trouver la liste détaillée des [Offres de conformité au cloud de Business Central ici](https://aka.ms/d365-compliance-list).
+Veuillez trouver la liste détaillée des [Offres de conformité au cloud de Business Central ici](https://aka.ms/d365-compliance-list).
 
 Si vous êtes intéressé par la liste complète des offres de conformité de Microsoft, consultez [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings)
 

@@ -1,19 +1,19 @@
 ---
-title: Notifications flux de travail
-description: Pour un grand nombre de réponses de workflow, il s’agit de notifier un utilisateur qu’un événement s’est produit et qu’il doit agir dessus. Par exemple, dans une étape du workflow, l’événement peut être que l’utilisateur 1 demande l’approbation d’un nouvel enregistrement, et la réponse est qu’une notification est envoyée à l’utilisateur 2, l’approbateur. Dans l’étape suivante du workflow, l’événement peut être que l’utilisateur 2 approuve l’enregistrement, et la réponse est qu’une notification est envoyée à l’utilisateur 3 pour qu’il démarre le processus associé à l’enregistrement approuvé. Pour les étapes de flux de travail concernant des approbations, chaque notification est liée à une écriture d’approbation.
+title: Configuration de notifications de flux de travail
+description: Cette rubrique vous explique comment configurer des notifications de flux de travail pour alerter un utilisateur qu’un événement s’est produit auquel il doit réagir ; une réponse de flux de travail est requise.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d72c3ba220c98d0c77806466f467ab233b3db65c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 80d796a827f2c0196c6590c89de04a1945938313
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787061"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320629"
 ---
 # <a name="workflow-notifications"></a>Notifications flux de travail
 

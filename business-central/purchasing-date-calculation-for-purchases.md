@@ -1,6 +1,6 @@
 ---
-title: Calcul de la date des achats | Microsoft Docs
-description: L’application calcule automatiquement la date à laquelle vous devez commander un article pour l’avoir en stock à une certaine date. Il s’agit de la date à laquelle des articles commandés à une date donnée devraient être disponibles pour le prélèvement.
+title: Calcul de la date des achats
+description: L’application calcule automatiquement la date à laquelle vous devez commander un article pour l’avoir en stock à une certaine date.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b65e082355623f422cfb03698f6413fdb04f0daf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6758c631fcddf157894ed06a483b811342a44e0d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780272"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321054"
 ---
 # <a name="date-calculation-for-purchases"></a>Calcul de la date des achats
 

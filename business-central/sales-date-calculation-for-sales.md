@@ -1,6 +1,6 @@
 ---
-title: Calcul de la date des ventes | Microsoft Docs
-description: L’application calcule automatiquement la date à laquelle vous devez commander un article pour l’avoir en stock à une certaine date. Il s’agit de la date à laquelle des articles commandés à une date donnée devraient être disponibles pour le prélèvement.
+title: Calcul de la date des ventes
+description: L’application calcule automatiquement la date à laquelle vous devez commander un article pour l’avoir en stock à une certaine date et disponible pour prélèvement.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 49bc91d049ee6c2357323ed4e88f66116322d276
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 221580cebab85be781cd56d461e9d75bb321c15b
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778912"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320221"
 ---
 # <a name="date-calculation-for-sales"></a>Calcul de la date des ventes
 [!INCLUDE[prod_short](includes/prod_short.md)] calcule automatiquement la première date possible à laquelle un article d’une ligne commande vente peut être expédié.

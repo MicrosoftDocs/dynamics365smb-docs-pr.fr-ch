@@ -1,6 +1,6 @@
 ---
-title: Prélèvement d’articles | Microsoft Docs
-description: 'L’activité entrepôt consistant à prélever les articles avant leur expédition ou consommation s’exécute différemment selon la configuration des fonctionnalités du module Gestion d’entrepôt. Le niveau de complexité du paramétrage varie : aucune fonctionnalité entrepôt, configurations de stockage de base pour le traitement par commande dans une ou plusieurs activités uniquement, configurations avancées dans lesquelles toutes les activités entrepôt doivent être exécutées dans un flux suggéré.'
+title: Prélèvement d’articles
+description: L’activité consistant à prélever les articles avant leur expédition ou consommation s’exécute différemment selon la configuration des fonctionnalités du module Gestion d’entrepôt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d2f470e5e3ba67e716d7038b3801af4fed3861cf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 973e9b43e69205b80361ee38c0cfc0f1cf946959
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771614"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324779"
 ---
 # <a name="pick-items"></a>Prélèvement d’articles
 

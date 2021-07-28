@@ -1,6 +1,6 @@
 ---
-title: Microsoft Pay Standard | Microsoft Docs
-description: Fournit des informations sur l’extension Microsoft Pay
+title: Microsoft Pay Standard
+description: L’extension Microsoft Pay ajoute un lien Microsoft Pay à vos documents de vente afin que les clients peuvent facilement effectuer des paiements à l’aide de Microsoft Pay.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58c7ff08a7359b4f577b7ba40b23bc1f6310da4c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 574ebae554b21c5184a5e1c2bcd5ae9b0d34f817
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787342"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322942"
 ---
 # <a name="the-microsoft-pay-extension"></a>Extension Microsoft Pay
 
@@ -25,7 +25,7 @@ ms.locfileid: "5787342"
 >
 > À partir du 8 janvier, nous afficherons une notification dans [!INCLUDE[prod_short](includes/prod_short.md)]. La notification contiendra un lien vers les paramètres que vous devez modifier et vers un complément d’informations. Après le 8 février, l’extension Microsoft Pay ne sera plus disponible dans [!INCLUDE[prod_short](includes/prod_short.md)].<br /></br>
 >
-> Les modifications affectent les versions suivantes de Business Central :
+> Les modifications affectent les versions suivantes de Business Central :
 > - Microsoft Dynamics 365 Business Central, octobre 2018
 > - Microsoft Dynamics 365 Business Central, avril 2019
 > - Microsoft Dynamics 365 Business Central, deuxième vague de publication 2019

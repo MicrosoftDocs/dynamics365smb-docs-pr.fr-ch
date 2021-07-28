@@ -1,6 +1,6 @@
 ---
-title: Détails de conception - Périodes inventaire | Microsoft Docs
-description: Des transactions antidatées ou des ajustement des coûts affectent souvent les soldes et les évaluations du stock pour des périodes comptables qui peuvent être considérées comme clôturées. Ceci peut avoir des effets négatifs sur la précision des rapports, notamment dans des sociétés internationales. La fonction Périodes inventaire permet d’éviter ces problèmes en ouvrant ou en clôturant des périodes d’inventaire pour limiter la validation dans une période définie.
+title: 'Détails de conception : périodes inventaire'
+description: La fonction Périodes inventaire permet d’éviter ces problèmes avec les soldes et les évaluations du stock en ouvrant ou en clôturant des périodes d’inventaire pour limiter la validation dans une période définie.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2231fcd34d45ae487bf3344a1efe2e317c75c89a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a79b1b791a56bddaa97ac9b66428d6bb32652f58
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215093"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324524"
 ---
 # <a name="design-details-inventory-periods"></a>Détails de conception : périodes inventaire
 Des transactions antidatées ou des ajustement des coûts affectent souvent les soldes et les évaluations du stock pour des périodes comptables qui peuvent être considérées comme clôturées. Ceci peut avoir des effets négatifs sur la précision des rapports, notamment dans des sociétés internationales. La fonction Périodes inventaire permet d’éviter ces problèmes en ouvrant ou en clôturant des périodes d’inventaire pour limiter la validation dans une période définie.  
@@ -32,7 +32,7 @@ Des transactions antidatées ou des ajustement des coûts affectent souvent les 
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : Coûts ajustés](design-details-inventory-costing.md) [Gestion des coûts ajustés](finance-manage-inventory-costs.md) [Finance](finance.md)  
- [Utilisation de Business Central](ui-work-product.md)
+ [Utilisation de Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

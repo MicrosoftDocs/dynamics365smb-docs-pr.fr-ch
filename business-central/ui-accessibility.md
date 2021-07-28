@@ -1,6 +1,6 @@
 ---
 title: Fonctionnalités d’assistance
-description: Raccourcis clavier et autres fonctionnalités d’assistance.
+description: Cet article fournit des informations sur les raccourcis clavier et d’autres fonctionnalités d’assistance dans Business Central pour les personnes à mobilité réduite.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
-ms.date: 04/29/2021
+ms.date: 06/23/2021
 ms.author: jswymer
-ms.openlocfilehash: 5a9b99b367ca732f5b6347462a07b0d0c3f5c522
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 80e48acc1ded96c9958c1dd7a2a706e22dc3e82b
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115905"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319971"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Accessibilité et raccourcis clavier
 

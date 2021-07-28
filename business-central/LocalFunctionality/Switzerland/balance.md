@@ -1,6 +1,6 @@
 ---
-title: Solde
-description: Spécifie un solde comptabilité temporaire.
+title: Solde [CH]
+description: Cette rubrique explique l'utilisation de la page Solde provisoire des comptes généraux pour afficher les écritures comptables validées.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 9af8b7ddbbc66eaa09e13116951102d9d6ecd239
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5d1ee22bd8f64ef39a84e89bd56946574764d40d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784026"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320781"
 ---
-# <a name="balance"></a>Solde
+# <a name="balance-in-the-swiss-version"></a>Solde dans la version suisse
 Spécifie un solde comptabilité temporaire. Lorsque vous choisissez l'action **Solde** dans la page **Comptes généraux**, la page **Compte général. Solde temporaire** s'ouvre. Elle indique le solde des écritures comptables finales enregistrées et le solde des écritures saisies dans la feuille comptabilité actuelle.  
 
 ## <a name="see-also"></a>Voir aussi  

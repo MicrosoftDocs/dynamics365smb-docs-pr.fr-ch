@@ -1,6 +1,6 @@
 ---
-title: Comptes généraux, Suisse
-description: Les améliorations suisses comprennent des fonctions spéciales liées aux comptes généraux.
+title: Comptes généraux, Suisse [CH]
+description: Cet article explique les améliorations apportées aux comptes généraux, Suisse et aux feuilles comptabilité.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: acfe8c520b9cd1aa07463ed782a9148808615363
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 019429f3a1f6230026b119d2d9eb7bbe4e073390
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787303"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319307"
 ---
 # <a name="swiss-general-ledger-accounts"></a>Comptes généraux, Suisse
 [!INCLUDE[prod_short](../../includes/prod_short.md)] inclut les améliorations suisses apportées aux fonctions spéciales liées aux comptes généraux.

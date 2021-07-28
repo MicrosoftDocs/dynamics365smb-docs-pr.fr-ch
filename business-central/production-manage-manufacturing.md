@@ -1,5 +1,5 @@
 ---
-title: Exécuter la production | Microsoft Docs
+title: Exécution de la production
 description: Lorsque la demande est planifiée et les matières ont été produites conformément aux nomenclatures de production, les opérations de production réelles peuvent commencer et être exécutées selon la séquence définie par la gamme O.F.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 76c9cd884563cbfc991388050e777d8cdb474c1a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cc8eb04682492b3e3cd7906c12cf73d3974cf79a
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787592"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321206"
 ---
 # <a name="manufacturing"></a>Production
 > [!NOTE]

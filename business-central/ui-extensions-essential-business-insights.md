@@ -1,6 +1,6 @@
 ---
-title: Afficher des informations exploitables dans les tableaux de bord | Microsoft Docs
-description: L’extension Informations commerciales essentielles fait défiler une série d’informations commerciales sur les tableaux de bord.
+title: Afficher des informations exploitables dans les tableaux de bord
+description: Découvrez comment l’extension Informations commerciales essentielles fait défiler une série d’informations commerciales sur les tableaux de bord.
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5358f85e3b467fc930d99a652c91bd266d7fd9be
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 458e7826979b75c370cb0a90d90c2d64c9ab599e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772343"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322684"
 ---
 # <a name="the-essential-business-insights-extension"></a>Extension Informations commerciales essentielles
 L’extension Informations commerciales essentielles recherche des faits commerciaux intéressants dans les données de votre société et les affiche sous forme de titres de journaux sur les tableaux de bord. Selon ce que l’extension trouve dans les données, des les informations datent de la semaine, du mois ou du trimestre précédent la date du jour. Les informations se mettent à jour toutes les 10 minutes.  

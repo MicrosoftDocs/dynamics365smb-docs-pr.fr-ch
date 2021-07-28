@@ -1,6 +1,6 @@
 ---
-title: Comment émettre des relances livraison dans la version suisse
-description: Après avoir créé des relances livraison, vous devez les émettre et les imprimer afin de pouvoir envoyer des relances aux fournisseurs. Avant d'émettre les relances livraison, vous pouvez imprimer un rapport de test.
+title: 'Procédure : Émettre des relances livraison [CH]'
+description: Après avoir créé des relances livraison, vous devez les émettre et les imprimer afin de pouvoir les envoyer aux fournisseurs.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b3196041da0ec8e593ca651b0b98fb19928c4fa2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 51e3e49b8db669d17e5ac4bd9c4f1dfc04aa4264
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777592"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320753"
 ---
 # <a name="issue-delivery-reminders-in-the-swiss-version"></a>Émettre des relances livraison dans la version suisse
 

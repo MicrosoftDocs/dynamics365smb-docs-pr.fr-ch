@@ -1,6 +1,6 @@
 ---
-title: En savoir plus sur les écritures comptables et le COA| Microsoft Docs
-description: Décrit les écritures comptables, le plan comptable, et les catégories de compte.
+title: Familiarisation avec les écritures comptables et les COA
+description: Décrit les écritures comptables, le plan comptable, et les catégories de compte. Utilisez la page Paramètres comptabilité pour préciser la gestion des problèmes comptables dans votre société.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f242bce26f55fe446ac8dc96335a8da835dd259c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774020"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321129"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Familiarisation avec les écritures comptables et les COA
 
@@ -58,19 +58,29 @@ Vous créez un groupe des catégories en effectuant une indentation d’autres s
 
 Vous pouvez spécifier si les comptes de chaque sous-catégorie doivent être inclus dans des types spécifiques d’états. Les catégories de compte vous aident à définir la présentation de vos états financiers.  
 
-Par exemple, le solde relevé par défaut solde est doté d’une sous-catégorie pour la trésorerie dans Actifs à court terme. Si vous souhaitez que le solde relevé tienne compte du fonds de caisse et du compte chèque, vous pouvez :  
+### <a name="example"></a>Exemple :
 
-1. Ajouter deux nouvelles sous-catégories. Une pour le fonds de caisse, et l’autre pour le compte chèque.  
+Par exemple, le solde relevé par défaut solde est doté d’une sous-catégorie pour la *trésorerie* dans *Actifs à court terme*. Vous souhaitez que le solde relevé tienne compte du fonds de caisse et du compte chèque, vous pouvez donc procéder comme suit :  
+
+1. Ajouter deux nouvelles sous-catégories. :
+
+    * Une pour le fonds de caisse  
+    * Une pour votre compte courant  
 2. Spécifier la définition d’état supplémentaire **Comptes de trésorerie** pour ces sous-catégories.  
 3. Effectuer une indentation sous la sous-catégorie **Trésorerie**.  
 
 À la prochaine génération des tableaux d’analyse, votre relevé solde suivant affichera un solde final pour la trésorerie et deux lignes avec les soldes pour le fonds de caisse et le compte chèque.  
+
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Accès pour créer et modifier des comptes et des catégories de comptes
+
+Dans une petite organisation, comme la société de démonstration CRONUS, la plupart des utilisateurs peuvent modifier le plan comptable, à l’exception des utilisateurs disposant d’une licence MEMBRE D’ÉQUIPE. Cependant, dans les grandes organisations, l’accès pour modifier le plan comptable est limité selon les rôles et les autorisations. Si vous êtes administrateur ou si vous avez le rôle de *Chef d’entreprise* ou de *Comptable*, vous pouvez vérifier les autorisations de tous les utilisateurs pour vous assurer que les bonnes personnes ont accès aux tables pertinentes. Pour plus d’informations, voir [Pour afficher ou modifier les autorisations d’un utilisateur](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
 ## <a name="see-also"></a>Voir aussi
 
 [Finances](finance.md)  
 [Configuration ou modification du plan comptable](finance-setup-chart-accounts.md)  
 [Veille économique](bi.md)  
+[Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

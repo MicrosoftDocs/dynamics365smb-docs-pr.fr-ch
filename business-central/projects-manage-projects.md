@@ -1,19 +1,19 @@
 ---
-title: Tâches projet qui utilisent des ressources et des feuilles de temps | Microsoft Docs
-description: Décrit comment utiliser les ressources, les feuilles de temps et les projets pour la gestion des projets.
+title: Tâches projet qui utilisent des ressources et des feuilles de temps
+description: Cette rubrique décrit comment utiliser les ressources, les feuilles de temps et les projets pour la gestion des projets et leurs budgets.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2dbe4a82f6cc2e9f28fbd06a3f235d9630a75cca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bbb0fbf1500daa284ac99e03d01e8c9a64e417bf
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780347"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321104"
 ---
 # <a name="project-management"></a>Gestion de projets
 Le module [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge les tâches de gestion courantes : configuration d’un projet, planification d’une ressource, spécification des informations nécessaires à la gestion des budgets et à la surveillance de la progression, etc. Vous pouvez suivre les heures machines et salariés sur le projet à l’aide de feuilles de temps. Il offre aux chefs de projet un aperçu pertinent des projets individuels, des affectations des employés, des machines et des autres ressources en cours d’utilisation dans le cadre des projets.

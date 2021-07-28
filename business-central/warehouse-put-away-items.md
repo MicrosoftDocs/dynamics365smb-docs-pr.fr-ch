@@ -1,6 +1,6 @@
 ---
-title: Rangement d’articles | Microsoft Docs
-description: L’activité entrepôt consistant à ranger les articles une fois reçus ou fabriqués s’exécute différemment selon la configuration des fonctionnalités du module Gestion d’entrepôt.
+title: Rangement des articles
+description: Ranger les articles une fois reçus ou fabriqués s’exécute différemment selon la configuration des fonctionnalités du module Gestion d’entrepôt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d19486956fbaa0addb58a71c13849b0bb32c958a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7ff13ac6dd2ca2ad57f5570ce5bcf535fcf60b2c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771589"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324754"
 ---
 # <a name="putting-items-away"></a>Rangement des articles
 L’activité entrepôt consistant à ranger les articles une fois reçus ou fabriqués s’exécute différemment selon la configuration des fonctionnalités du module Gestion d’entrepôt. Le niveau de complexité du paramétrage varie : aucune fonctionnalité entrepôt, configurations de stockage de base pour le traitement par commande dans une ou plusieurs activités uniquement, configurations avancées dans lesquelles toutes les activités entrepôt doivent être exécutées dans un flux suggéré. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).

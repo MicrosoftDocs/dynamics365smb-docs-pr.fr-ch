@@ -1,6 +1,6 @@
 ---
-title: Conformité des applications | Microsoft Docs
-description: Ce contenu comprend des informations sur la conformité des applications concernant Business Central.
+title: Conformité des applications
+description: Cette rubrique explique la conformité des applications concernant Business Central, comme les normes internationales de génération d’états financiers, la fonctionnalité locale et le RGPD.
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
@@ -9,24 +9,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: c9511a0737e5324f311bb5489cce0d194c7e68ee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d1feca5e6eddd6115d10d1395eecccde3b09039f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788473"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323733"
 ---
 # <a name="application-compliance"></a>Conformité des applications
 
-Ce contenu comporte des informations sur la conformité des applications concernant [!INCLUDE[prod_short](../includes/prod_short.md)], comme les normes internationales de génération d’états financiers, la fonctionnalité locale, le RGPD et plus encore. La confiance dans une solution de gestion d’entreprise est essentielle à un activité efficace. Avec Business Central, les sociétés importantes ont la possibilité de rationaliser les processus d’entreprise tout en respectant uniformément et de façon rentable les exigences de plus en plus strictes en matière de réglementation et de génération d’états.
+Ce contenu comporte des informations sur la conformité des applications concernant [!INCLUDE[prod_short](../includes/prod_short.md)], comme les normes internationales de génération d’états financiers, la fonctionnalité locale, le RGPD et plus encore. La confiance dans une solution de gestion d’entreprise est essentielle à un activité efficace. Avec Business Central, les sociétés importantes ont la possibilité de rationaliser les processus d’entreprise tout en respectant uniformément et de façon rentable les exigences de plus en plus strictes en matière de réglementation et de génération d’états.
 
 ## <a name="data-privacy"></a>Confidentialité des données
 
-Business Central prend en charge les initiatives relatives à la confidentialité des données comme le Règlement général sur la protection des données (RGPD) entré en vigueur le 25 mai 2018. Pour en savoir plus sur [Business Central prend en charge le RGPD](../admin-responding-to-requests-about-personal-data.md).  
+Business Central prend en charge les initiatives relatives à la confidentialité des données comme le Règlement général sur la protection des données (RGPD) entré en vigueur le 25 mai 2018. Pour en savoir plus sur [Business Central prend en charge le RGPD](../admin-responding-to-requests-about-personal-data.md).  
 
-Si vous êtes développeur d’extensions Business Central, vous devez savoir comment classer les données. Consultez [cette page](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
+Si vous êtes développeur d’extensions Business Central, vous devez savoir comment classer les données. Consultez [cette page](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
 Si vous souhaitez plus d’informations sur le RGPD d’une perspective plus vaste que Dynamics 365, consultez [cette liste de livres blancs](/dynamics365/get-started/gdpr/).
 
 ## <a name="accounting-processes-and-controls-to-aid-compliance"></a>Processus et contrôles comptables pour favoriser la conformité
@@ -43,7 +43,7 @@ Le conformité dépend non seulement d’informations précises et de processus 
 
 ## <a name="realize-the-benefits-of-an-integrated-business-management-solution"></a>Découvrir les avantages d’une solution de gestion d’entreprise intégrée
 
-Business Central fournit des informations opérationnelles et financières, intégrées et en temps réel, de l’ensemble de votre organisation, afin que vous puissiez :
+Business Central fournit des informations opérationnelles et financières, intégrées et en temps réel, de l’ensemble de votre organisation, afin que vous puissiez :
 
 - Effectuer le suivi des données financières à l’aide de tableaux d’analyse personnalisés pour la trésorerie, les bénéfices, les bilans, les immobilisations, la structure financière, les indicateurs de performance clés, et plus encore.
 - Aider à assurer la précision avec une sécurité basée sur les rôles et des contrôles d’application configurables qui empêchent la saisie de données non valides ou en double.
@@ -88,15 +88,15 @@ Fournissez des informations intégrées, des processus alignés et des outils fa
 
 ## <a name="compliance-and-local-functionality"></a>Conformité et fonctionnalité locale
 
-Microsoft crée des versions localisées de Business Central pour un nombre limité de marchés. Ces localisations se concentrent surtout sur les fonctionnalités de réglementation dans le domaine fiscal et financier mais peut parfois impliquer d’autres parties de l’application. Si vous souhaitez voir ce qui est créé dans les versions localisées de Business Central de Microsoft, consultez **Fonctionnalités locales** dans le menu de ce site web et choisissez un pays pour en savoir plus sur les fonctionnalités locales. Pour plus d’informations, voir [Fonctionnalités locales](../about-localization.md).  
+Microsoft crée des versions localisées de Business Central pour un nombre limité de marchés. Ces localisations se concentrent surtout sur les fonctionnalités de réglementation dans le domaine fiscal et financier mais peut parfois impliquer d’autres parties de l’application. Si vous souhaitez voir ce qui est créé dans les versions localisées de Business Central de Microsoft, consultez **Fonctionnalités locales** dans le menu de ce site web et choisissez un pays pour en savoir plus sur les fonctionnalités locales. Pour plus d’informations, voir [Fonctionnalités locales](../about-localization.md).  
 
 > [!NOTE]  
 > **Sarbanes-Oxley : Validation des données et des processus**  
-> La loi Sarbanes-Oxley Act définit les normes de tous les conseils de sociétés inscrites en bourse des États-Unis, les sociétés de gestion et de comptabilité publiques, notamment l’évaluation et la divulgation de l’adéquation des contrôles internes de la société sur la génération d’états financiers. La documentation et les tests des contrôles manuels et automatiques critiques représentent un investissement de temps et de ressources considérable pour les sociétés. Business Central est approprié notamment pour les filiales de plus grandes organisations, et peut aider à prendre en charge de petites et moyennes entreprises tout en se conformant à la loi Sarbanes-Oxley.
+> La loi Sarbanes-Oxley Act définit les normes de tous les conseils de sociétés inscrites en bourse des États-Unis, les sociétés de gestion et de comptabilité publiques, notamment l’évaluation et la divulgation de l’adéquation des contrôles internes de la société sur la génération d’états financiers. La documentation et les tests des contrôles manuels et automatiques critiques représentent un investissement de temps et de ressources considérable pour les sociétés. Business Central est approprié notamment pour les filiales de plus grandes organisations, et peut aider à prendre en charge de petites et moyennes entreprises tout en se conformant à la loi Sarbanes-Oxley.
 
 > [!NOTE]  
 > **IAS/IFRS : Normes de constatation et de mesure**  
-> Selon les GAAP locaux actuellement en service, l’une des principales modifications de la constatation et de la mesure pour l’IAS/IFRS est l’utilisation étendue de principes de juste valeur au lieu du coût historique. Business Central peut aider les sociétés à calculer les concepts de juste valeur et de valeur actuelle nette, qui sont concentrés sur les flux de trésorerie actuels et anticipés au lieu du prix d’achat historique. Du côté de la génération d’états, il peut fournir la génération d’états de dimension de segment par centre de profit et emplacement géographique.
+> Selon les GAAP locaux actuellement en service, l’une des principales modifications de la constatation et de la mesure pour l’IAS/IFRS est l’utilisation étendue de principes de juste valeur au lieu du coût historique. Business Central peut aider les sociétés à calculer les concepts de juste valeur et de valeur actuelle nette, qui sont concentrés sur les flux de trésorerie actuels et anticipés au lieu du prix d’achat historique. Du côté de la génération d’états, il peut fournir la génération d’états de dimension de segment par centre de profit et emplacement géographique.
 
 > [!NOTE]  
 > **Bâle II : Implications pour la génération d’états et l’analyse**  

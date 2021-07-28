@@ -1,6 +1,6 @@
 ---
-title: Vidéos de présentation de l’utilisation de Business Central | Microsoft Docs
-description: Permet d’accéder aux vidéos de mise en route qui illustrent comment effectuer des tâches courantes.
+title: Visiter notre vidéothèque
+description: Visitez notre vidéothèque pour obtenir de l’aide, des vidéos de démarrage illustrant les tâches courantes « Procédure pour » de vidéos de produits thématiques.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: f2e9c0da0ebc32862f80e881b4540350fcb2fdfe
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cbbd4ec47a3a6b6d8ed1ed3ab3db2982d21966aa
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786972"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324701"
 ---
 # <a name="visit-our-video-library"></a>Visitez notre vidéothèque
 

@@ -1,6 +1,6 @@
 ---
-title: 'Procédure : Générer des relances livraison'
-description: Dans Business Central, vous pouvez créer des relances livraison lorsqu'un achat n'a pas été envoyé comme prévu. Vous pouvez générer des relances livraison pour toutes les livraisons échues, ou vous pouvez créer une relance livraison unique manuellement.
+title: 'Procédure : Générer des relances livraison [CH]'
+description: Dans Business Central, vous pouvez générer des relances livraison pour toutes les livraisons échues, ou vous pouvez créer une relance livraison unique manuellement.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 8362a77eb63cec652698b926b894b72a4e936304
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 97060e0d7e7e3f2a3c4ed52ed67596c862bdf57d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779164"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320765"
 ---
 # <a name="generate-delivery-reminders-in-the-swiss-version"></a>Générer des relances livraison dans la version suisse
 

@@ -1,6 +1,6 @@
 ---
-title: Facturer vos réservations dans Business Central | Microsoft Docs
-description: Apprenez comment vous pouvez effectuer des facturations en vrac à partir de Microsoft Bookings dans Business Central.
+title: Facturer vos réservations dans Business Central
+description: Cette rubrique explique comment effectuer une facturation groupée à partir de Microsoft Bookings dans Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 06095fdb0fac291490eeef5a085264ea75581283
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 236e1732f3bd7100f00f39a41cbec169b6cbd70f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780872"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324046"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Facturation en vrac pour Microsoft Bookings dans [!INCLUDE[prod_short](includes/prod_short.md)]
 Si votre société utilise l’application Réservations dans Microsoft 365, vous pouvez effectuer la facturation en vrac des rendez-vous. La page **Réservations non facturées** de [!INCLUDE[prod_short](includes/prod_short.md)] fournit une liste des réservations effectuées par la société. Cette page vous permet de rapidement sélectionner les rendez-vous à facturer et de créer des factures provisoires pour les services fournis.  

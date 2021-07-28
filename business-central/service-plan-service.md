@@ -1,6 +1,6 @@
 ---
-title: Organisation des processus de services | Microsoft Docs
-description: Décrit les tâches permettant de configurer des règles et des valeurs pour définir vos stratégies de services et vos processus de vente.
+title: Planification des processus de service
+description: Cette rubrique décrit les différentes tâches permettant de configurer des règles et des valeurs pour définir vos stratégies de services et vos processus de vente.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: eaf6f55e807ef9630d9e8f50c71676e86c296b8d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 93dfc313521d392b3585eac4aacab3c152a43c78
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778187"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323017"
 ---
 # <a name="planning-services"></a>Services de planification
 Grâce à [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez configurer les tâches standard qui permettent de répondre aux besoins du service clientèle. Pour cela, vous devez déterminer quels articles et offres de service sont pris en charge par votre organisation de prestation de services, et à quel prix.   

@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
   title: Foire aux questions sur les vues de liste
-  description: Informations détaillées sur l’enregistrement des filtres en tant que vues de liste.
+  description: Cet article répond à votre FAQ sur les vues de liste et offre des informations détaillées sur l’enregistrement et l’utilisation de filtres en tant que vues de liste.
   author: mikebcMSFT
   ms.service: dynamics365-business-central
   ms.topic: conceptual
@@ -9,14 +9,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 04/01/2021
+  ms.date: 06/24/2021
   ms.author: mikebc
-  ms.openlocfilehash: 4406c6a87826dcbc4626bc48db86d1f9d3635ccf
-  ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+  ms.openlocfilehash: 8c046697ce13b6079c54fa6d569cb4a40e1a4cc0
+  ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
   ms.translationtype: HT
   ms.contentlocale: fr-CH
-  ms.lasthandoff: 05/11/2021
-  ms.locfileid: "6017336"
+  ms.lasthandoff: 06/30/2021
+  ms.locfileid: "6322237"
 title: FAQ sur les vues de liste
 summary: Cet article répond aux questions fréquemment posées par nos utilisateurs expérimentés sur l’utilisation des vues de liste et la sauvegarde des filtres.
 sections:

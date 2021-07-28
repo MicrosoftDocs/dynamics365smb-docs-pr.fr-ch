@@ -1,6 +1,6 @@
 ---
-title: Workflow | Microsoft Docs
-description: Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.
+title: Flux de travail dans Dynamic 365 Business Central
+description: Utilisez les flux de travail qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches système, telles que la comptabilisation automatique, peuvent être incluses en tant qu’étapes de flux de travail.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d8dac033ad2f4573d8a7f0047c44ac04eb8e6eb0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1804ab571c806d9fb78d15738be7f27f21274146
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773426"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324140"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Flux de travail dans Dynamics 365 Business Central
 
@@ -27,7 +27,7 @@ Vous pouvez configurer et utiliser des workflows qui connectent des tâches de p
 
  Si un scénario d’entreprise requiert un événement ou une réponse de flux de travail qui n’est pas pris en charge, vous pouvez utiliser Power Automate ou travailler avec un partenaire Microsoft pour personnaliser le code de l’application. Pour plus d’informations, voir [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans un flux automatisé](across-how-use-financials-data-source-flow.md).
 
-Tout modèle de flux de travail que vous créez avec Power Automate est ajouté à la liste des modèles de flux de travail dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md).  
+Tout modèle de flux de travail que vous créez avec Power Automate est ajouté à la liste des modèles de flux de travail dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md).  
 
  Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 

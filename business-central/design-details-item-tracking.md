@@ -1,6 +1,6 @@
 ---
-title: Détails de conception - Traçabilité | Microsoft Docs
-description: Cette rubrique donne un aperçu des détails de conception pour la traçabilité.
+title: 'Détails de conception : traçabilité'
+description: Le système de suivi des articles permet de gérer facilement les numéros de série et de lot, qui peuvent être nécessaires pour répondre aux exigences légales ou aider à la gestion de la garantie.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6e5f20d2f450f3f544cc2f7023160e4e9babdf33
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 788d003324ccf7314d316f201cc561e0a2877933
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772819"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320304"
 ---
 # <a name="design-details-item-tracking"></a>Détails de conception : traçabilité
 Étant donné que le flux de biens dans la chaîne d’approvisionnement moderne devient de plus en plus complexe, la capacité à effectuer le suivi des articles est de plus en plus importante pour les sociétés concernées. La surveillance du flux de transaction d’un article est une obligation légale dans le secteur de l’approvisionnement médical et chimique, mais d’autres sociétés peuvent souhaiter contrôler les produits avec des garanties ou des dates d’expiration pour des raisons de service client.  

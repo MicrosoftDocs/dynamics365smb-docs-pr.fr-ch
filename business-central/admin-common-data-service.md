@@ -1,19 +1,19 @@
 ---
 title: Utilisation de Microsoft Dataverse
-description: Introduction à Microsoft Dataverse et ses composants.
+description: Introduction à l’intégration et à l’utilisation de Microsoft Dataverse et ses composants pour se connecter à d’autres applications Dynamics 365.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
-ms.openlocfilehash: 8ddf4413b6ecb35bcca9873ef4bb99db75642563
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/14/2021
+ms.openlocfilehash: 34e274b32fbf8cf04a40cf4db884c156e2115416
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773144"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320978"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Intégration à Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -29,7 +29,7 @@ Les étapes suivantes offrent un aperçu des étapes pour intégrer [!INCLUDE[pr
 
 2. Configurez une connexion vers [!INCLUDE[prod_short](includes/cds_long_md.md)]. Pour en savoir plus, consultez [Se connecter à Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md).  
 
-3. Synchronisez les données entre les applications. Pour plus d’informations, voir la rubrique [Synchronisation de Business Central et de Dataverse](admin-synchronizing-business-central-and-sales.md). 
+3. Synchronisez les données entre les applications. Pour plus d’informations, voir la rubrique [Synchronisation de Business Central et de Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
 ## <a name="getting-started-with-prod_short"></a>Mise en route de [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Pour prendre en main [!INCLUDE[prod_short](includes/cds_long_md.md)], vous avez besoin d’un compte Microsoft Power Apps. Si vous ne disposez pas encore d’un compte Power Apps, vous pouvez en obtenir un gratuitement en visitant [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) et en cliquant sur le lien **Démarrer gratuitement**. Pour en savoir plus sur la prise en main de [!INCLUDE[prod_short](includes/cds_long_md.md)], consultez le module [Mise en route avec le module Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) de Microsoft Learn.
@@ -40,7 +40,7 @@ Selon les besoins de votre activité, vous pouvez configurer l’intégration po
 ## <a name="standard-and-custom-entities"></a>Entités standard et personnalisées
 [!INCLUDE[prod_short](includes/cds_long_md.md)] stocke en toute sécurité les données dans un ensemble de tables, qui sont des ensembles d’enregistrements similaires à la façon dont une table stocke des données dans une base de données. [!INCLUDE[prod_short](includes/cds_long_md.md)] comprend un ensemble de base de tables standard qui couvrent des scénarios typiques, mais vous pouvez également créer des tables personnalisées dédiées à votre organisation. Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez afficher les tables standard et personnalisées en cours de synchronisation sur la page Mappages de table d’intégration.
 
-## <a name="about-the-business-central-base-integration-solution"></a>À propos de la solution d’intégration de base Business Central
+## <a name="about-the-business-central-base-integration-solution"></a>À propos de la solution d’intégration de base Business Central
 
 La solution d’intégration de base est un élément clé de l’intégration. La solution ajoute les rôles et niveaux d’accès requis aux comptes d’utilisateur pour l’intégration et crée les tables nécessaires au mappage de la société [!INCLUDE[prod_short](includes/prod_short.md)] au centre de profit dans [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
@@ -59,7 +59,7 @@ Outre la personnalisation de [!INCLUDE[prod_short](includes/cds_long_md.md)], la
 
 Pour plus de détails sur chaque rôle, tels que les autorisations et les niveaux d’accès, voir [Configuration de comptes d’utilisateurs pour l’intégration avec [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).
 
-Lors de la configuration de la connexion, les mappages de table d’intégration nécessaires à la synchronisation des données sont créés. Les entités dans [!INCLUDE[prod_short](includes/cds_long_md.md)] sont mappées à des tables et des champs de table dans Business Central au moyen de tables d’intégration. Pour en savoir plus, consultez [Mappage d’entité standard pour la synchronisation](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
+Lors de la configuration de la connexion, les mappages de table d’intégration nécessaires à la synchronisation des données sont créés. Les entités dans [!INCLUDE[prod_short](includes/cds_long_md.md)] sont mappées à des tables et des champs de table dans Business Central au moyen de tables d’intégration. Pour en savoir plus, consultez [Mappage d’entité standard pour la synchronisation](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
 ## <a name="see-also"></a>Voir aussi
 [Modèles de propriété de données](admin-cds-company-concept.md)  

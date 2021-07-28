@@ -1,6 +1,6 @@
 ---
-title: Aperçu de la ligne validation de feuille comptabilité | Microsoft Docs
-description: Cette rubrique décrit les modifications du codeunit 12, **Groupe compta. - Ligne validation**, qui est l’objet d’application majeur pour la validation de la comptabilité et est le seul emplacement pour insérer des écritures comptables, la TVA et les écritures comptables client et fournisseur.
+title: Aperçu de la ligne validation de feuille comptabilité
+description: Cette rubrique présente les modifications apportées à Codeunit 12, Gen. Feuille article – Valider ligne, et est le seul endroit pour insérer les écritures du grand livre général, de la TVA et des clients et fournisseurs.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 9642c33d9d5994c6982029e4ae96897a7648b8c8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215268"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322487"
 ---
 # <a name="general-journal-post-line-overview"></a>Aperçu de la ligne validation de feuille comptabilité
 

@@ -1,19 +1,19 @@
 ---
-title: Soumettre des alertes de réglementation | Microsoft Docs
-description: Si vous connaissez la nouvelle législation que vous pensez nécessite la prise en charge de la fonctionnalité Business Central, vous pouvez suivre ce guide pour envoyer une alerte réglementaire à l’équipe produit.
+title: Soumettre des alertes de réglementation
+description: Si vous connaissez la nouvelle législation que vous pensez nécessite la prise en charge de la fonctionnalité Business Central, vous pouvez suivre ce guide pour envoyer une alerte réglementaire à l’équipe produit.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784855"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319996"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Envoyer des alertes sur les fonctionnalités de réglementaires spécifiques au pays/à la région
 
@@ -77,7 +77,7 @@ Nous vous invitons à utiliser Microsoft Dynamics Lifecycle Services (LCS) pour 
 [Fonctionnalités locales dans [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Modification de la langue et des paramètres régionaux](about-locale-language.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
-[Bienvenue dans Business Central](index.md)  
+[Bienvenue dans Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
