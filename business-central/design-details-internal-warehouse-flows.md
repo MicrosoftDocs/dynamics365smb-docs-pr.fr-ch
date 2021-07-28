@@ -1,6 +1,6 @@
 ---
-title: Détails de conception - Flux d’entrepôt internes | Microsoft Docs
-description: Circulation des articles entre les emplacements dans les centres d’une société lors du prélèvement des composants, du rangement des articles finis pour les ordres d’assemblage ou de fabrication et les mouvements ad-hoc, tels que les réapprovisionnements emplacement, sans relation avec les documents origine.
+title: 'Détails de conception : flux d’entrepôt internes'
+description: Le flux entre les bacs se concentre sur le prélèvement des composants et le stockage des produits finis pour les ordres d’assemblage ou de fabrication et les mouvements ad hoc, sans documents source.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7be0a3907b59a17e6f77e4ae8eb3a36fc62d8f7a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6749921fc02776fc267f7f40cde7ccea4b8fe6cf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215143"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441762"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Détails de conception : flux d’entrepôt internes
 Circulation des articles entre les emplacements dans les centres d’une société lors du prélèvement des composants, du rangement des articles finis pour les ordres d’assemblage ou de fabrication et les mouvements ad-hoc, tels que les réapprovisionnements emplacement, sans relation avec les documents origine. La portée et la nature des activités impliquées varient entre l’entreposage de base et l’entreposage avancé.  
@@ -114,10 +114,10 @@ Circulation des articles entre les emplacements dans les centres d’une sociét
 
  La figure ci-après indique la date à laquelle le champ **Code emplacement** de la liste des composants est renseigné en fonction du paramétrage de votre magasin ou poste/centre de charge.  
 
- ![Aperçu de quand/comment le champ Code emplacement est renseigné](media/binflow.png "Aperçu de quand/comment le champ Code emplacement est renseigné")  
+ ![Aperçu de quand/comment le champ Code emplacement est renseigné.](media/binflow.png "Aperçu de quand/comment le champ Code emplacement est renseigné")  
 
 ## <a name="see-also"></a>Voir aussi  
- [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)
+ [Détails de conception : Warehouse Management](design-details-warehouse-management.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

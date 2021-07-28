@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 778d9c4308d28be804d7f1572335bd160faad6d8
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 98fd6f225f8519a7ef9c37dfca93cae6a58ba582
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184314"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441512"
 ---
 # <a name="set-up-time-sheets"></a>Paramétrer des feuilles de temps
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], les feuilles de temps gèrent l’enregistrement des heures sur une base hebdomadaire par incrément de sept jours. Elles permettent de suivre le temps consacré à des projets, et vous pouvez les utiliser pour enregistrer les heures ressource. Avant de pouvoir utiliser des feuilles de temps, vous devez les configurer.
@@ -30,7 +30,7 @@ Une fois l’utilisation des feuilles de temps au sein de votre organisation con
 Lorsque vous créez des feuilles de temps, vous pouvez créer des feuilles de temps pour les ressources, les affecter aux lignes planning projet, et valider les lignes de feuille de temps. Pour plus d’informations, voir [Utiliser des feuilles de temps](projects-how-use-time-sheets.md).
 
 ## <a name="to-set-up-general-information-for-time-sheets"></a>Pour configurer des informations générales pour les feuilles de temps
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres ressources**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration des ressources.**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Sélectionnez l’une des options suivantes pour le champ **Feuille de temps par approbation de projet**.
 
@@ -41,7 +41,7 @@ Lorsque vous créez des feuilles de temps, vous pouvez créer des feuilles de te
 | **Poste uniquement** |Si la feuille de temps poste est liée à un projet, alors l’utilisateur du champ **Responsable** spécifié sur la fiche projet approuve la feuille de temps. Si la feuille de temps poste est liée à une ressource, alors l’utilisateur du champ **ID utilisateur de l’approbateur de la feuille de temps** spécifié sur la fiche ressource approuve la feuille de temps. |
 
 ## <a name="to-assign-a-time-sheet-administrator"></a>Pour affecter un administrateur de feuille de temps
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres utilisateur**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres utilisateur**, puis choisissez le lien associé.  
 2. Ajoutez un nouvel utilisateur (si la personne que vous souhaitez désigner en tant qu’administrateur de feuille de temps ne figure pas dans la liste des utilisateurs). Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
 3. Sélectionnez l’utilisateur qui deviendra l’administrateur de feuille de temps et sélectionnez la case à cocher **Admin. feuille de temps**.  
 
@@ -49,7 +49,7 @@ Lorsque vous créez des feuilles de temps, vous pouvez créer des feuilles de te
 >   Il est recommandé de ne désigner qu’un seul utilisateur en tant qu’administrateur de feuille de temps dans une société. Dans la procédure suivante, vous devez configurer un propriétaire et un approbateur de feuille de temps et affecter l’approbateur à chaque ressource.  
 
 ## <a name="to-assign-a-time-sheets-owner-and-approver"></a>Pour affecter un propriétaire et un approbateur de feuille de temps
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ressources**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Ressources**, puis choisissez le lien associé.
 2. Sélectionnez la ressource pour laquelle vous souhaitez configurer la capacité d’utiliser des feuilles de temps, puis sélectionnez la case à cocher **Utiliser la feuille de temps**.  
 3. Entrez l’ID du propriétaire de la feuille de temps dans le champ **ID utilisateur du propriétaire de la feuille de temps**. Le propriétaire peut entrer le temps d’utilisation dans une feuille de temps et la soumettre pour approbation. En règle générale, lorsque la ressource est une personne, cette personne est également le propriétaire.  
 4. Entrez l’ID de l’approbateur de la feuille de temps dans le champ **ID utilisateur de l’approbateur de la feuille de temps**. L’approbateur peut approuver, rejeter ou rouvrir une feuille de temps.  

@@ -1,6 +1,6 @@
 ---
-title: Enregistrer la consommation et la production pour un ordre de fabrication | Microsoft Docs
-description: Cette tâche d’exécution est réalisée sur la page **Feuille production** . La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d’articles finis produits et le temps passé dans les opérations.
+title: Enregistrer la sortie de consommation pour l’ordre de fabrication
+description: Cette rubrique explique comment enregistrer la consommation et la sortie pour une ligne de l’ordre de fabrication lancé qui apparaît sur la page Feuille production.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3b73c2cde88292a38c43e9fcc3bd63b031cd6591
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f2ecf59472adb8b153b2b6feeea62591e0565085
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787842"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441562"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Enregistrer la consommation et la production pour une ligne ordre de fabrication lancé
 Cette tâche d’exécution est réalisée sur la page **Feuille production** . La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d’articles finis produits et le temps passé dans les opérations. Les valeurs sont validées en comptabilité sous l’ordre de fabrication lancé. Les quantités consommées sont validées comme écritures comptables article négatives, les quantités produites sont validées comme écritures comptables article positives et les heures sont validées comme écritures comptables capacité. Ces valeurs validées peuvent également être visualisées au bas de la feuille sous forme de quantités réelles.  
@@ -27,7 +27,7 @@ Cette tâche d’exécution est réalisée sur la page **Feuille production** . 
 >  les composants ne comportant pas de code lien gamme apparaissent en haut de la feuille.  
 
 ## <a name="to-register-consumption-and-output"></a>Pour enregistrer la consommation et la production  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. lancés**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. lancés**, puis sélectionnez le lien associé.  
 2.  Ouvrez une ligne d’O.F. lancé qui est prête à être enregistrée, puis sur le raccourci **Lignes**, choisissez l’action **Ligne**, puis l’action **Feuille production**.  
 
     La page **Feuille production** s’ouvre et affiche les lignes feuille pour la ligne O.F. en fonction des pages **Composant O.F.** et **Gamme O.F.** Ces lignes proviennent de la nomenclature de production et de la gamme affectées à l’article en cours de production. Pour plus d’informations, voir [Créer des nomenclatures de production](production-how-to-create-routings.md).  

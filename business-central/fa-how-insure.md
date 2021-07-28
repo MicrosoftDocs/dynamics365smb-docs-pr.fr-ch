@@ -1,6 +1,6 @@
 ---
-title: Assurer les immobilisations| Microsoft Docs
-Description: Vous pouvez affecter une immobilisation à une police d’assurance, ce qui est représenté par une fiche assurance.
+title: Assurer les immobilisations
+description: Vous pouvez attribuer une ou plusieurs immobilisations à une police d’assurance lors de la validation sur les écritures couverture assurance à partir de la page **Feuille assurance**.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 134342fac90d133bc0891b72310f73aa807ab7ed
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 89db12527ae6e2656f29277d9bb63c3dd258fb1f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777738"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441712"
 ---
 # <a name="insure-fixed-assets"></a>Assurer les immobilisations
 Une police d’assurance pour une immobilisation est représentée par une fiche assurance. Vous pouvez attribuer une immobilisation ou plusieurs immobilisations à une police d’assurance.
@@ -38,7 +38,7 @@ Une police d’assurance pour une immobilisation doit être représentée par un
 
 Lorsque vous recevez des informations concernant les modifications du montant de la couverture, vous devez saisir les nouvelles informations sur la page **Fiche assurance** pour vous assurer que vous avez analysé correctement la couverture de la police d’assurance.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Assurance**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Assurance**, puis choisissez le lien associé.
 2. Choisissez l’action **Nouveau** pour créer une fiche pour une police d’assurance. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Sinon, sélectionnez la police d’assurance que vous souhaitez modifier, puis sélectionnez l’action **Modifier**.
 
@@ -47,7 +47,7 @@ Vous affectez une immobilisation à une police d’assurance en validant sur les
 
 La procédure suivante explique comment créer une ligne feuille assurance manuellement. Si la case **Compta. assurance auto.** est cochée sur la page **Paramètres immobilisations**, les lignes feuille assurance sont ensuite créées automatiquement lorsque vous validez des coûts d’acquisition. Dans ce cas, tout ce que vous avez à faire consiste à valider la feuille.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles assurance**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille assurance**, puis choisissez le lien associé.  
 2. Ouvrez la feuille pertinente, puis complétez les lignes feuille, le cas échéant.  
 3. Pour affecter plusieurs immobilisations à une police d’assurance, créez des lignes feuille avec la même valeur dans le champ **N° assurance** et d’autres valeurs du champ **N° immo.**.  
 4. Sélectionnez l’action **Valider**.  
@@ -58,7 +58,7 @@ La procédure suivante explique comment créer une ligne feuille assurance manue
 ## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Pour mettre à jour la valeur assurance d’une immobilisation
 Vous pouvez utiliser le traitement par lots **Réévaluer assurance** pour mettre à jour la valeur des immobilisations couvertes.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Réévaluer assurance**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Réévaluer assurance**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins.
 
     > [!NOTE]  
@@ -66,7 +66,7 @@ Vous pouvez utiliser le traitement par lots **Réévaluer assurance** pour mettr
 3. Cliquez sur le bouton **OK**.  
 
    Le traitement par lots calcule le nouveau montant en tant que pourcentage de la valeur totale assurée à partir de la page **Statistiques assurance**, puis crée une ligne dans la feuille assurance.  
-4. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles assurance**, puis sélectionnez le lien associé.  
+4. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille assurance**, puis choisissez le lien associé.  
 5. Ouvrez la feuille assurance pertinente, examinez les valeurs créées, puis validez-les sur les écritures couverture assurance.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Pour surveiller la couverture assurance
@@ -92,13 +92,13 @@ Pour vérifier que toutes les immobilisations sont attribuées à une police d�
 ## <a name="to-view-insurance-coverage-ledger-entries"></a>Pour visualiser des écritures comptables couverture assurance
 Vous pouvez visualiser les écritures comptables couverture assurance que vous avez créées.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Assurance**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Assurance**, puis choisissez le lien associé.  
 2. Sélectionnez la police d’assurance appropriée, puis sélectionnez l’action **Écritures comptables couverture**.  
 
 ## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Pour afficher la valeur d’assurance totale des immobilisations
 Une page de matrice dédiée affiche les valeurs d’assurance qui sont enregistrées pour chaque police d’assurance pour chaque immobilisation suite aux montants d’assurance que vous avez validés.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Assurance**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Assurance**, puis choisissez le lien associé.  
 2. Sélectionnez la police d’assurance appropriée, puis sélectionnez l’action **Valeur totale assurée par immo.**.  
 3. Renseignez les champs selon vos besoins.  
 4. Choisissez l’action **Afficher matrice**.  
@@ -107,7 +107,7 @@ Une page de matrice dédiée affiche les valeurs d’assurance qui sont enregist
 ## <a name="to-correct-insurance-coverage-entries"></a>Pour corriger des écritures couverture assurance
 Si une immobilisation a été jointe à la mauvaise police d’assurance, vous pouvez y remédier en créant deux écritures de reclassement à partir de la feuille assurance.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles assurance**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille assurance**, puis choisissez le lien associé.  
 2. Créez une ligne feuille pour l’immobilisation et la police d’assurance appropriée lorsque la valeur du champ **Montant** est positive.  
 3. Créez une autre ligne feuille pour l’immobilisation et la police d’assurance incorrecte lorsque la valeur du champ **Montant** est négative.  
 4. Sélectionnez l’action **Valider**.  

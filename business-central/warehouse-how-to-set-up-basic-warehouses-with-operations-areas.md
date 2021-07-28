@@ -1,6 +1,6 @@
 ---
-title: Comment configurer des entrepôts de base avec les zones d’opérations | Microsoft Docs
-description: Si les zones Opérations internes telles que la production ou l’assemblage existent dans les configurations entrepôt de base dans lesquelles les magasins utilisent le champ de configuration **Emplacement obligatoire** et éventuellement les champs **Prélèvement requis** et **Rangement requis**, vous pouvez utiliser trois documents d’entrepôt de base suivants pour enregistrer vos activités entrepôt pour des zones Opérations internes.
+title: Configurer des entrepôts de base avec les zones d’opérations
+description: Configurez les zones d’opérations d’entrepôt et utilisez les mouvements de stock, les prélèvements et les rangements pour déplacer les marchandises entre elles.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 10b435bd353609f3fd554e977098acc585b797e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 35482dca465da05be01c4eed86e93d30a75e6dcf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782499"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441412"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurer des entrepôts de base avec les zones d’opérations
 Si les zones Opérations internes telles que la production ou l’assemblage existent dans les configurations entrepôt de base dans lesquelles les magasins utilisent le champ de configuration **Emplacement obligatoire** et éventuellement les champs **Prélèvement requis** et **Rangement requis**, vous pouvez utiliser les documents d’entrepôt de base suivants pour enregistrer vos activités entrepôt pour des zones Opérations internes :  
@@ -41,13 +41,13 @@ Les procédures suivantes sont basées sur la configuration d’activités entre
 >  Dans la procédure suivante, le champ de configuration **Emplacement obligatoire** dans les fiches magasin est sélectionné en tant que condition préalable car il est considéré comme point de départ de tout niveau de gestion d’entrepôt.  
 
 ## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Pour activer les documents de stock pour les activités d’opérations internes  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.
 2. Ouvrez la fiche magasin que vous voulez configurer.  
 3.  Sur le raccourci **Entrepôt**, cochez la case **Rangement requis** pour indiquer que lorsqu’un document origine entrant ou interne avec un code emplacement est lancé, il est possible de créer un document rangement stock ou mouvement de stock.  
 4.  Cochez la case **Prélèvement requis** pour indiquer que lorsqu’un document origine sortant ou interne avec un code emplacement est créé, il est obligatoire de créer un document prélèvement stock ou mouvement de stock.  
 
 ## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Pour définir une structure d’emplacement par défaut dans la zone de fabrication  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.
 2. Ouvrez l’emplacement que vous voulez configurer.  
 3.  Sur le raccourci **Emplacements**, dans le champ **Code empl. atelier ouvert**, entrez le code de l’emplacement dans la zone de production comportant des composants en nombre suffisant que l’opérateur machine peut consommer sans demander une activité entrepôt pour les apporter à l’emplacement. Les articles qui sont stockés dans cet emplacement sont habituellement configurés pour la validation automatique ou la consommation. Cela signifie que le champ **Méthode consommation** indique **Aval** ou **Amont**.  
 4. Dans le champ **Emplacement des consommations** saisissez le code de l’emplacement dans la zone de production où les composants qui sont prélevés pour la production dans ce magasin sont stockés par défaut avant de pouvoir être consommés. Les articles qui sont stockés dans cet emplacement sont habituellement configurés pour la validation manuelle de la consommation. Cela signifie que le champ **Méthode consommation** indique **Manuel**, **Prélèvement + Aval** ou **Prélèvement + Amont** pour les prélèvements entrepôt et les mouvements de stock.  
@@ -61,7 +61,7 @@ désormais, les lignes composant O.F. présentant ce code emplacement par défau
 
 Ce graphique indique comment le champ **Code emplacement** sur les lignes composant O.F. est renseigné en fonction de votre configuration.  
 
-![Organigramme Flux d’emplacement](media/binflow.png "BinFlow")    
+![Organigramme Flux d’emplacement.](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Pour définir une structure d’emplacement par défaut dans la zone d’assemblage
 Les composants pour les commandes d’assemblage ne peuvent pas être prélevés ni validés avec des prélèvements stock. À la place, utilisez la page **Mouvement de stock**. Pour plus d’informations, voir [Déplacer les composants vers une zone opérations dans le stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
@@ -71,13 +71,13 @@ En cas de prélèvement et d’expédition de quantités de lignes vente assembl
 Pour plus d’informations, voir [Gestion des assemblages](assembly-assemble-items.md).
 
 ### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Pour configurer la création automatique d’un mouvement stock lors de la création du prélèvement stock pour l’élément d’assemblage
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres d’assemblage**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration d’assemblage**, puis choisissez le lien associé.
 2. Cochez la case **Créer des mouvements automatiquement**.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Pour configurer l’emplacement dans la zone d’assemblage où les composants sont stockés par défaut avant de pouvoir être consommés dans l’assemblage
 La valeur de ce champ est automatiquement insérée dans le champ **Code emplacement** des lignes d’ordre d’assemblage lorsque ce magasin est saisi dans le champ **Code magasin** de la ligne d’ordre d’assemblage.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.
 2. Ouvrez l’emplacement que vous voulez configurer.
 3. Renseignez le champ **Code empl. vers assemblage**.
 
@@ -89,7 +89,7 @@ Les codes emplacement qui sont paramétrés dans les fiches magasin définissent
 > [!NOTE]
 > Cette configuration s’applique uniquement aux magasins pour lesquels le champ Emplacement obligatoire est sélectionné.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.
 2. Ouvrez l’emplacement que vous voulez configurer.
 3. Renseignez le champ **Code empl. depuis assemblage**.
 
@@ -110,7 +110,7 @@ Si **Code empl. exp. ass. pr comm.** est vide, alors le champ **Code empl. depui
 
 Le même code emplacement est également copié vers le champ **Code emplacement** de la ligne prélèvement stock qui gère l’expédition de la quantité à assembler pour commande. Pour plus d’informations, reportez-vous à la section « Traitement des articles à assembler pour commande dans les prélèvements stock » dans [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.
 2. Ouvrez l’emplacement que vous voulez configurer.
 3. Renseignez le champ **Code empl. exp. ass. pr comm.**.
 
@@ -126,7 +126,7 @@ La réservation d’un emplacement fournit la même fonctionnalité permettant d
 > [!Caution]
 > Des articles dans des magasins réservés ne sont pas protégés lorsqu’ils sont prélevés et consommés comme composants de production à l’aide de la page Prélvmt invent.
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé. Sélectionnez le magasin que vous voulez mettre à jour.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé. Sélectionnez le magasin que vous voulez mettre à jour.  
 2.  Choisissez l’action **Emplacements**.  
 3.  Sélectionnez le champ **Dédié** pour chaque emplacement à utiliser exclusivement pour certaines opérations internes et si vous souhaitez que les quantités soient réservées pour ces opérations internes une fois placées à cet endroit.  
 

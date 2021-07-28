@@ -1,6 +1,6 @@
 ---
-title: 'Procédure : créer des factures d’acompte | Microsoft Docs'
-description: Découvrez comment gérer les situations où votre fournisseur ou vous-même exigez un acompte.
+title: 'Procédure : créer des factures d’acompte'
+description: Traitez les situations où votre fournisseur ou vous-même exigez un acompte. Utilisez les pourcentages par défaut pour chaque ligne vente ou achat, ou ajustez le montant en fonction si nécessaire.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 72a073fcde9ddf20df7c138ab544afb6719b93ce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782178"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442200"
 ---
 # <a name="create-prepayment-invoices"></a>Créer des factures d’acompte
 
@@ -29,7 +29,7 @@ La procédure suivante décrit comment facturer un acompte pour une commande ven
 
 ## <a name="to-create-a-prepayment-invoice"></a>Pour créer une facture acompte
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Créez une commande vente pour le client approprié. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
 
     Sur le raccourci **Acompte**, le champ **% acompte** spécifie le pourcentage à utiliser pour calculer le montant acompte. Si un pourcentage d’acompte par défaut figure sur la fiche client, le champ est renseigné automatiquement. Vous pouvez modifier le pourcentage. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  

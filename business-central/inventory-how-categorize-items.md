@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 55196b8026e5efc5a79ce1a547e2ff594fae231c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b831443bd9e068b4c20f583cc8e0e7132d75ac5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786038"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441158"
 ---
 # <a name="categorize-items"></a>Catégoriser des articles
 
@@ -27,7 +27,7 @@ Pour trouver les articles par caractéristique, vous pouvez affecter des attribu
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
 ## <a name="to-create-an-item-category"></a>Pour créer une catégorie d’article
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Catégories d’article**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Catégories d’article**, puis choisissez le lien associé.
 2. Sur la page **Catégories d’article**, sélectionnez l’action **Nouveau**.
 3. Sur la page **Fiche catégorie d’article**, sur le raccourci **Général**, complétez les champs suivants : [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Sur le raccourci **Attributs**, précisez tout attribut d’article pour la catégorie d’article. Pour plus d’informations, reportez-vous à [Pour allouer des attributs article aux catégories article](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
@@ -42,7 +42,7 @@ Si vous changez d’avis sur une catégorie d’article, vous pouvez la supprime
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Pour assigner une catégorie d’article à un article
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
 2. Ouvrez la fiche pour l’article que vous souhaitez assigner à une catégorie d’article.
 3. Sélectionnez le bouton de recherche dans le champ **Code catégorie article** et sélectionnez une catégorie d’article existante. Sinon, sélectionnez l’action **Nouveau** pour créer tout d’abord une nouvelle catégorie d’article comme expliqué dans [Créer une catégorie d’article](inventory-how-categorize-items.md#to-create-an-item-category).
 

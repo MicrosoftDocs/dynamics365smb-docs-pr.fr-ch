@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d568ac9bebb99818f9a47119a177d9d704d3e74
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6533bc4d141bd13772cad62f8a8574681bb60846
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774526"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441014"
 ---
 # <a name="use-approval-workflows"></a>Utilisation des flux d’approbation
 Lorsqu’un enregistrement, tel qu’un document achat ou une fiche client, doit être approuvé par un membre de votre organisation, vous envoyez une approbation demande achat dans le cadre d’un workflow. Selon la configuration du workflow, l’approbateur approprié est informé que l’enregistrement requiert son approbation.
@@ -31,7 +31,7 @@ Les flux d’approbation de base pour les documents achat, les documents vente, 
 La tâche suivante est effectuée par un utilisateur d’approbation.
 
 1. Sur la page qui affiche l’enregistrement, sélectionnez l’action **Envoyer demande d’approbation**.
-2. Pour afficher toutes vos demandes d’approbation, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Écritures demande d’approbation**, puis sélectionnez le lien associé.  
+2. Pour voir toutes vos demandes d’approbation, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **instances d’étape de workflow archivées**, puis sélectionnez le lien associé.  
 
 Le statut de l’écriture approbation passe de **Créé** à **Ouvert**. Le statut de l’enregistrement, par exemple une facture achat, est mis à jour du statut **Ouvert** à **Approbation en attente** et reste verrouillé au traitement jusqu’à ce que tous les approbateurs aient approuvé l’enregistrement.
 
@@ -51,7 +51,7 @@ La tâche suivante est effectuée par un utilisateur d’approbation doté de dr
 
 Vous pouvez traiter les demandes d’approbation sur la page **Demandes à approuver**, par exemple, afin d’approuver plusieurs demandes à la fois. Sinon, vous pouvez traiter chaque demande sur l’enregistrement connexe, par exemple la page **Facture achat**, en sélectionnant le lien dans la notification que vous recevez.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes à approuver**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Demandes à approuver**, puis sélectionnez le lien associé.
 2. Sélectionnez une ou plusieurs lignes pour l’enregistrement ou les enregistrements que vous voulez approuver ou rejeter.
 3. Choisissez l’action **Approuver**, **Rejeter** ou **Déléguer**.
 
@@ -66,7 +66,7 @@ La tâche suivante est effectuée par un utilisateur d’approbation doté de dr
 
 Pour éviter que des documents ne s’accumulent ou encore bloquent le workflow, l’approbateur et l’administrateur d’approbation peuvent déléguer une demande d’approbation à un approbateur remplaçant. Le remplaçant peut être soit un remplaçant désigné, l’approbateur direct, soit l’administrateur d’approbation, dans cet ordre de priorité. Généralement, cette fonction est utilisée si un approbateur est absent et dans l’impossibilité d’approuver des demandes avant la date d’échéance.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes à approuver**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Demandes à approuver**, puis sélectionnez le lien associé.
 2. Sélectionnez une ou plusieurs lignes pour les demandes d’approbation à déléguer à un approbateur remplaçant, puis sélectionnez l’action **Déléguer**.
 
 Une notification pour approuver la demande est envoyée à l’approbateur remplaçant.
@@ -78,7 +78,7 @@ Vous devez rappeler régulièrement aux utilisateurs du workflow d’approbation
 
 La fonction **Envoyer des notifications d’approbations échues** passe en revue toutes les demandes d’approbation ouvertes qui sont actuellement échues. Chaque approbateur ayant au moins une écriture approbation échue reçoit une notification avec la liste de toutes leurs demandes d’approbation échues. La notification est également envoyée à leur approbateur et à tous les demandeurs des approbations échues. Cela est utile si l’écriture d’approbation échue doit être déléguée à un remplaçant.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes approbations échues**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Demandes approbations échues**, puis sélectionnez le lien associé.
 2. Sur la page **Demandes approbations échues**, sélectionnez l’action **Envoyer les notifications d’approbation échues**.
 
 ## <a name="see-also"></a>Voir aussi

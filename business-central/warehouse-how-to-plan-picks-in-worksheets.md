@@ -1,6 +1,6 @@
 ---
-title: Comment planifier des prélèvements dans des feuilles | Microsoft Docs
-description: Lorsque l’entrepôt est configuré pour appeler un traitement de prélèvement et d’expédition, le fonctionnement de l’entrepôt peut être établi de telle sorte que les lignes des documents expédition ne soient pas automatiquement transformées en instructions de prélèvement, mais soient plutôt activées sur la feuille prélèvement.
+title: 'Procédure : planifier des prélèvements dans la feuille'
+description: Découvrez comment l’entrepôt peut choisir de fonctionner afin que les lignes des documents d’expédition soient disponibles pour la feuille de calcul de prélèvement.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 55ac86ff992709bb454eaadfa65d8d5eed98732e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 46032a3a3ef44d56953ca9db7185e96eacf0770e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782599"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441850"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planifier des prélèvements dans la feuille
 
@@ -39,11 +39,11 @@ Si vous triez par date d’échéance, vous pouvez choisir d’effacer de la feu
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Pour planifier des prélèvements dans la feuille
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prélèvement**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille prélèvement**, puis choisissez le lien associé.  
 2. Choisissez l’action **Extraire documents entrepôt**.  
 3. Sélectionnez les expéditions pour lesquelles vous souhaitez préparer un prélèvement. Vous pouvez à présent opérer un tri ponctuel, qui ne suivra pas l’instruction globale de prélèvement. Vous pouvez aussi supprimer certaines lignes pour rendre le prélèvement plus efficace. Par exemple, si un certain nombre de lignes comporte des articles situés dans des emplacements de transbordement, vous pouvez, si vous le souhaitez, créer un prélèvement pour toutes les lignes associées à ces lignes. Les articles transbordés seront expédiés, avec les autres articles des expéditions, et les emplacements de transbordement pourront à nouveau recevoir d’autres articles entrants.  
 4. Choisissez l’action **Créer prélèvement**, puis remplissez la page de demande **Créer prélèvement**. Le tri que vous demandez ici organisera les lignes prélèvement que vous créez. Par exemple, vous pouvez créer un prélèvement pour chaque zone et trier les lignes selon l’ordre des emplacements au sein de chaque prélèvement.  
-5. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Prélèvements entrepôt**, puis sélectionnez le lien associé. La page **Prélèvements entrepôt** s’ouvre.  
+5. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements entrepôt**, puis choisissez le lien associé. La page **Prélèvements entrepôt** s’ouvre.  
 6. Vous pouvez à présent trouver le prélèvement affecté que vous venez de créer en sélectionnant le prélèvement doté du numéro le plus élevé.  
 7. Dans ce prélèvement, vous pouvez toujours au besoin modifier le code utilisateur de la personne à qui ce prélèvement est affecté, ainsi que le mode de tri des lignes.  
 8. Choisissez l’action **Imprimer** pour imprimer les instructions relatives au prélèvement.  

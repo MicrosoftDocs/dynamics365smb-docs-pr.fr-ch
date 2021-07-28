@@ -1,6 +1,6 @@
 ---
-title: 'Procédure : créer des commandes service | Microsoft Docs'
-description: Utilisez la page **Commande service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client.
+title: 'Procédure : créer des commandes service'
+description: Découvrez les différentes tâches impliquées dans la création de commandes de service dans Business Central, telles que la création d’une commande de service ou de commandes basées sur un contrat de service.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fe6d0d5d4e56eac907e6b29f7958cd690ebaced7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: adac8451aadd5aa5d6c772b16baefe60dea317b1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781500"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441950"
 ---
 # <a name="create-service-orders"></a>Créer commande service
 Utilisez la page **Commande service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client.  
@@ -23,7 +23,7 @@ Utilisez la page **Commande service** pour créer des documents dans lesquels vo
 Lorsque vous créez une commande service, vous ne devez renseigner que certains champs. Certains champs sont facultatifs et la beaucoup d’entre eux sont renseignés automatiquement lorsque vous renseignez les champs associés.  
 
 ## <a name="to-create-a-service-order"></a>Pour créer une commande service    
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes service**, puis choisissez le lien associé.  
 2. Créez une nouvelle commande service.  
 3. Dans le champ **N°**, saisissez le numéro de la commande service.  
 
@@ -38,7 +38,7 @@ Lorsque vous créez une commande service, vous ne devez renseigner que certains 
 ## <a name="to-create-a-service-order-from-a-contract"></a>Pour créer une commande de service à partir d’un contrat  
 Vous pouvez créer automatiquement des commandes service pour la maintenance des articles de service sur la base des contrats de service.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Créer cdes contrat service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Créer des commandes de service de contrat**, puis sélectionnez le lien associé.  
 2. Sur le raccourci **En-tête contrat service**, positionnez les filtres à appliquer.  
 3. Sur le raccourci **Options** , renseignez les champs **Date début** et **Date fin** avec la date début et la date fin pour la période pour laquelle vous souhaitez créer les commandes contrat de service. Le traitement par lots crée des commandes service qui incluent les articles de service des contrats de service dont les dates service suivantes sont comprises dans cette période.  
 
@@ -54,14 +54,14 @@ Lorsqu’un client accepte un devis service, vous le convertissez en commande se
 
 [!INCLUDE[prod_short](includes/prod_short.md)] recherche les écritures affectation de tous les articles de service du devis service qui présentent le statut **Actif**. S’il en trouve, leur état d’affectation passe à **Réaffectation nécessaire**. Lorsque vous réaffectez les articles de service de la commande service, le statut des écritures affectation enregistrées pour le devis passe à **Terminé**.   
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Devis contrat de service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devis de contrats de service**, puis sélectionnez le lien associé.  
 2. Choisissez le devis service à convertir en commande service.  
 3. Sélectionnez l’action **Créer commande**.  
 
 ## <a name="to-check-item-availability-for-one-or-more-orders"></a>Pour vérifier la disponibilité des articles pour une ou plusieurs commandes  
 Vous pouvez vérifier si un article dont vous avez besoin pour une commande est en stock et, s’il ne l’est pas, la date à laquelle il le sera. En outre, si un article est disponible à la réservation, vous pouvez le réserver pour vous assurer qu’il sera disponible. Vous pouvez vérifier la disponibilité pour une commande définie, ou pour toutes les commandes.  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableau d’affectation**, puis choisissez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableau d’affectation**, puis sélectionnez le lien associé.  
 2. Exécutez l’une des opérations suivantes :  
 
     * Pour une commande définie, choisissez la commande, puis sélectionnez l’action **Aperçu demande**.  
@@ -81,7 +81,7 @@ Si vous voulez avoir l’assurance qu’un article est disponible pour une comma
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Pour insérer des lignes selon les codes prestation standard  
 Si vous avez configuré des codes prestation standard et les avez associés à des groupes articles de service, vous pouvez insérer les lignes standard liées aux codes prestation standard sur des documents service. Pour plus d’informations, voir [Configurer des codes prestation standard](service-how-setup-service-coding.md).   
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes service**, puis choisissez le lien associé.  
 2. Créez une nouvelle commande service.  
 3. Renseignez les champs selon vos besoins.  
 4. Renseignez les lignes article de service avec les informations requises.  
@@ -99,7 +99,7 @@ Les commandes sont habituellement supprimées automatiquement après avoir été
 
 Le programme ne supprime pas la commande service automatiquement cependant, si la quantité totale sur la commande a été validée, non pas à partir de la commande service proprement dite, mais à partir de la page **Facture service**. Ensuite, il se peut que vous deviez supprimer des commandes facturées qui n’ont pas été supprimées. Pour ce faire, exécutez le traitement par lots **Supprimer commandes service facturées**.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Supprimer commandes service facturées**, puis sélectionnez le lien associé. La page de demande du traitement par lots **Supprimer commandes service facturées** s’ouvre.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Supprimer commandes de service facturées**, puis sélectionnez le lien associé. La page de demande du traitement par lots **Supprimer commandes service facturées** s’ouvre.  
 2. Pour sélectionner les commandes à supprimer, vous pouvez positionner des filtres dans les champs **N°**, **N° client** et **N° client facturé**. .  
 3. Cliquez sur **OK**.  
 

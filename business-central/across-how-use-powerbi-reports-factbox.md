@@ -1,6 +1,6 @@
 ---
-title: Afficher des états Power BI personnalisés pour les données Business Central
-description: Vous pouvez utiliser des états Power BI pour obtenir des informations supplémentaires sur les données dans les listes.
+title: Afficher les rapports Power BI personnalisés
+description: Vous pouvez utiliser le récapitulatif Power BI pour afficher les rapports Power BI et obtenir des informations supplémentaires sur les données des enregistrements dans les listes clés.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/26/2021
+ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: d2ce2588604ae676ba8b2cb73878a2d8dfd32b63
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: b5858d3852eddc19501f0b3dc1c5f4071b07baee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087709"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440939"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Création d’états Power BI pour afficher les données de liste dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -24,7 +24,7 @@ ms.locfileid: "6087709"
 [!INCLUDE[prod_long](includes/prod_long.md)] est livré avec certains de ces états. Vous pouvez également créer vos propres rapports personnalisés qui s′affichent dans ce Récapitulatif. La création de ces rapports est similaire à d′autres rapports. Mais il y a quelques règles de conception que vous devrez suivre pour vous assurer que les rapports s′affichent comme prévu. Ces règles sont expliquées dans cet article.
 
 > [!NOTE]
-> Pour des informations générales sur la création et la publication des états Power BI pour Business Central, voir [Création d′états Power BI pour afficher des données [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md). 
+> Pour des informations générales sur la création et la publication des états Power BI pour Business Central, voir [Création d′états Power BI pour afficher des données [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md). 
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -39,7 +39,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 1. Lancez Power BI Desktop.
 2. Sélectionnez **Obtenir des données** et commencez à choisir la source de données pour le rapport.
 
-    Spécifiez les pages de liste Business Central qui contiennent les données souhaitées dans l′état. Par exemple, pour créer un état pour la liste **Factures vente**, incluez les pages liées aux ventes.
+    Spécifiez les pages de liste Business Central qui contiennent les données souhaitées dans l′état. Par exemple, pour créer un état pour la liste **Factures vente**, incluez les pages liées aux ventes.
 
     Pour plus d′informations, suivez les instructions [Ajouter[!INCLUDE[prod_short](includes/prod_short.md)] comme source de données dans Power BI Desktop](across-how-use-financials-data-source-powerbi.md#getdata).
 
@@ -53,7 +53,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
     2. Faites glisser le champ vers le volet **Filtres** et déposez-le dans le zone **Filtres sur toutes les pages**.
     3. Définissez le **Type de filtre** sur **Filtrage de base**. Il ne peut pas s’agir d’un filtre de page, visuel ou avancé.
 
-    ![Définition du filtre d’état pour l’état Activités Facture vente](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+    ![Définition du filtre d’état pour l’état Activités Facture vente.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 4. Concevez la disposition du rapport.
 
     Créez la disposition en faisant glisser des champs et en ajoutant des visualisations. Pour plus d′informations, voir [Utiliser la vue Rapport dans Power BI Desktop](/power-bi/create-reports/desktop-report-view) dans la documentation Power BI.
@@ -86,7 +86,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 La taille de l’état doit être configurée sur 325 pixels par 310 pixels. Cette taille offre une mise à l’échelle appropriée de l’état dans l’espace disponible du contrôle Récapitulatif Power BI dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour définir la taille de l’état, placez le focus en dehors de la zone de présentation d’état, puis choisissez l’icône en forme de rouleau de peinture.
 
-![Définition de la largeur et de la hauteur de l’état pour l’état Activités Facture vente](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
+![Définition de la largeur et de la hauteur de l’état pour l’état Activités Facture vente.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 Vous pouvez modifier la largeur et la hauteur de l’état en choisissant **Personnalisé** dans le champ **Type**.
 

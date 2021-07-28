@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 72fbc9b893a87107937aa27018e4f8640f6e6ecf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3bbea3277e6c0d9730c9e1925becc3cc9f27aa42
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787667"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442050"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Afficher la charge des centres de charge et des postes de charge
 Sur les pages **Fiche centre de charge** et **Fiche poste de charge**, vous pouvez afficher la charge de l’atelier en tant que résultat des ordres de fabrication planifiés et lancés.    
 
 ## <a name="to-view-the-load-on-work-centers"></a>Pour afficher la charge des centres de charge  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Centres de charge**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Centres de charge**, puis choisissez le lien associé.  
 2.  Ouvrez la fiche **Centre de charge** appropriée dans la liste, puis choisissez l’action **Charge**.  
 
 Les champs **Afficher par** et **Afficher en tant que** sur le raccourci **Options** permettent de sélectionner la période demandée.  

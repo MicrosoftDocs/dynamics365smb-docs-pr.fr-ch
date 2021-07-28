@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e2f05388149e9e6587f916db79b652e64ad5d02e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d506a6f1a5aa40a7dcc77bab66d5a13085d364c6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774854"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442175"
 ---
 # <a name="delete-cost-budget-entries"></a>Supprimer écritures budget des coûts
 Vous utilisez le traitement par lots **Supprimer écritures budget des coûts** pour annuler les écritures de budget des coûts à partir du registre du budget des coûts.  
@@ -24,7 +24,7 @@ Pour empêcher tout écart dans les écritures du budget des coûts et les écri
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Pour supprimer une écriture budget des coûts  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Supprimer écritures budget des coûts**, puis choisissez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Supprimer écritures budget des coûts**, puis sélectionnez le lien associé.  
 
     Le champ **N° hist. transaction de destination** affiche le numéro de la dernière écriture du registre et n’est pas modifiable.  
 

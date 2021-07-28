@@ -1,6 +1,6 @@
 ---
-title: 'Procédure : créer des devis service | Microsoft Docs'
-description: Utilisez la page **Devis service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client. Vous pouvez utiliser un devis service comme brouillon d’une commande service, et convertir le devis en commande.
+title: 'Procédure : créer des devis service'
+description: Découvrez comment utiliser un devis service comme brouillon d’une commande service, et convertir le devis en commande.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 09c3426a690ed2541426f586b314abd4778c0051
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a28ee7522faa1e08608deb00718bf955e0e4984
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778212"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441925"
 ---
 # <a name="create-service-quotes"></a>Pour créer des devis service
 Vous pouvez considérer les devis service comme la base des commandes service. En réalité, ils sont quasiment identiques. Tous deux contiennent des informations, telles que l’identité du client, le type de commande, l’article nécessitant une maintenance, les informations de facturation et d’expédition et les informations sur la tâche de service réelle.
@@ -23,7 +23,7 @@ Vous pouvez considérer les devis service comme la base des commandes service. E
 Vous pouvez utiliser un devis service comme brouillon d’une commande service, et convertir le devis en commande.  
   
 ## <a name="to-create-a-service-quote"></a>Pour créer un devis service  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Devis service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devis service**, puis choisissez le lien associé.  
 2. Créez un devis service.  
 3. Dans le champ **N°**, saisissez le numéro du devis service. Si vous avez configuré une souche de numéros pour les devis service sur la page **Paramètres Gestion des services,** vous pouvez appuyer sur Entrée pour renseigner le numéro devis service suivant.  
 4. Dans le champ **N° client**,  sélectionnez le client approprié dans la liste.  

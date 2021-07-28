@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4b7da11bb8ec1198be9f1a86fccc29a62125d281
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f83186ec6f8c278bf0d0f8c83f74af70f78baaa6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935326"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440889"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>Utilisation des applications [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI
 
@@ -63,7 +63,7 @@ Inscrivez-vous au service Power BI. Si vous ne vous êtes pas encore inscrit, ac
 1. Ouvrez votre navigateur, accédez à [https://powerbi.microsoft.com](https://powerbi.microsoft.com) et connectez-vous à votre compte.
 2. Sélectionnez **Extraire les données** en bas du volet de navigation gauche.  
 
-    ![Naviguer pour obtenir des données](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Naviguez pour obtenir des données.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     Vous pouvez également démarrer depuis [!INCLUDE [prod_short](includes/prod_short.md)]. Depuis votre page d’accueil, accédez à **Sélection des états** dans la section Power BI. Sélectionnez **Service** ou **Mon organisation** dans le ruban. Soit la galerie Organisation dans Power BI, soit Microsoft AppSource s’ouvre, filtré pour n’afficher que les applications liées à [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -89,7 +89,7 @@ Inscrivez-vous au service Power BI. Si vous ne vous êtes pas encore inscrit, ac
 5. À l’invite, entrez le nom d’utilisateur et le mot de passe pour vous connecter à [!INCLUDE[prod_short](includes/prod_short.md)].
 6. Une fois connecté(e), un tableau de bord et des états sont ajoutés à votre espace de travail Power BI. Une fois terminé, les mosaïques affichent les données de votre société [!INCLUDE[prod_short](includes/prod_short.md)].
 
-    ![Sélectionnez Dynamics 365 Business Central, puis Obtenir maintenant.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Sélectionnez Dynamics 365 Business Central et sélectionnez Obtenir maintenant.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Résolution des problèmes
 

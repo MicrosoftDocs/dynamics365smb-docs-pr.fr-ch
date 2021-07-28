@@ -1,6 +1,6 @@
 ---
-title: Cession ou annulation d’immobilisations| Microsoft Docs
-description: Vous devez valider une valeur de cession lorsque vous ferraillez, vendez, ou annulez une immobilisation.
+title: Cession ou annulation d’immobilisations
+description: Lorsque vous commercialisez ou cédez une immobilisation, la valeur de cession doit être validée pour calculer et enregistrer le gain ou la perte.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 041f228a0ea2e34fb9986ebb45e98c1300f02f8d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2b3f12dd385a40510cf01c214ac0893b6357207c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774070"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441737"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Céder ou annuler des immobilisations
 
@@ -28,7 +28,7 @@ Les étapes suivantes supposent que vous avez déjà configuré les groupes comp
 
 ## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>Valider une cession à partir d’une feuille comptabilisation immobilisation
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles compta. immo.**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuilles compta. immo.**, puis choisissez le lien associé.  
 2. Créez une feuille comptable initiale et complétez les champs, le cas échéant. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Dans le champ **Type compta. immo**, sélectionnez **Cession**.  
 4. Sélectionnez l’action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la cession.  
@@ -42,7 +42,7 @@ Si vous vendez une immobilisation ou en cédez une partie, vous devez d’abord 
 ## <a name="to-view-disposal-ledger-entries"></a>Pour visualiser des écritures comptables cession
 Lorsque vous vendez ou cédez une immobilisation, la valeur de cession est validée en comptabilité où vous pouvez afficher le résultat.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Immobilisations**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Immobilisations**, puis choisissez le lien associé.  
 2. Sélectionnez l’immobilisation pour laquelle vous souhaitez afficher les écritures, puis sélectionnez l’action **Lois d’amortissement**.  
 3. Sélectionnez la loi d’amortissement pour laquelle vous souhaitez afficher les écritures, puis sélectionnez l’action **Écritures comptables**.  
 4. Sélectionnez une ligne avec **Cession** dans le champ **Catégorie compta. immo.**, puis sélectionnez l’action **Rechercher des écritures**.  

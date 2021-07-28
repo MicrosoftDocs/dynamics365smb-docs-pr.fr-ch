@@ -1,6 +1,6 @@
 ---
-title: Valider des documents et des feuilles intersociétés | Microsoft Docs
-description: Utiliser des documents intersociétés pour valider des transactions avec vos partenaires intersociétés.
+title: Valider des documents et des feuilles intersociétés
+description: Cette rubrique explique comment vous pouvez utiliser les documents ou les feuilles intersociétés pour valider les transactions effectuées avec vos partenaires intersociétés.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: febd0eec1e5a66354538964d5495e4409c4042f0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d6b2c7e9d60745c5344a4f0e6edf3f03eef8b778
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786188"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441258"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Utiliser les documents et les feuilles intersociétés
 Les documents ou les feuilles intersociétés permettent de valider les transactions effectuées avec vos partenaires intersociétés. Lorsque vous validez un document ou une ligne feuille intersociétés dans votre société, le programme crée le document ou la ligne feuille correspondant dans votre boîte d’envoi intersociétés : vous pouvez le transmettre au partenaire concerné. Celui-ci peut ensuite valider la transaction correspondante dans sa société sans avoir à réentrer les données.
@@ -29,7 +29,7 @@ Vous pouvez envoyer les commandes vente et achat, ainsi que les retours avant qu
 
 La procédure suivante explique comment renseigner et envoyer une commande vente intersociété. Les mêmes étapes s’appliquent aux commandes fournisseur intersociétés et aux retours, ainsi qu’aux factures et avoirs intersociétés validés.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez **Nouveau** pour créer une commande vente. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vérifiez que le client est un partenaire intersociétés.
@@ -41,7 +41,7 @@ La procédure suivante explique comment renseigner et envoyer une commande vente
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Pour renseigner et valider une feuille intersociétés
 Lorsque vous validez une ligne feuille comptabilité intersociétés dans votre société, le programme crée la ligne feuille correspondante dans votre boîte d’envoi intersociétés : vous pouvez la transmettre au partenaire concerné. Celui-ci peut ensuite valider la transaction correspondante dans sa société sans avoir à réentrer les données.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles comptabilité Intersociétés**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles feuilles intracom.**, puis sélectionnez le lien associé.  
 2. Ouvrez la feuille appropriée. Pour plus d’informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).
 3. Renseignez les champs selon vos besoins.
 4. Dans le champ **N° cpte gén partenaire IC**, saisissez le numéro du compte général intersociétés sur lequel le montant sera validé dans la société de votre partenaire.

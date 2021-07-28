@@ -1,6 +1,6 @@
 ---
-title: 'Procédure : configurer des clients effectuant un achat au comptoir | Microsoft Docs'
-description: Cette rubrique décrit les étapes pour configurer un client qui paie en espèces.
+title: 'Procédure : configurer des clients effectuant un achat au comptoir'
+description: Cette rubrique décrit les étapes nécessaires pour configurer la facture avec un numéro de client pour les clients qui paient en espèces.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f047876678d26e7e53bf304433f38a410ba7d7fa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9462b7bb887b5c4d2dcc0f602d5cd0fe57ccc1fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770406"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442100"
 ---
 # <a name="set-up-cash-customers"></a>Configurer des clients effectuant un achat au comptoir
 Vous ne pouvez pas créer une facture sans numéro de client. Ceci est valable même si vous effectuez une vente au comptoir et que vous n’avez rien à enregistrer dans un compte client.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Pour configurer des clients effectuant un achat en espèces  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Client**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Client**, puis choisissez le lien associé.  
 2.  Créez une fiche **Client**. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).
 3.  Dans le champ **N°**, , saisissez par exemple **Espèces**.  
 4.  Dans le champ **Nom**, saisissez par exemple **Vente au comptoir**.  

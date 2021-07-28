@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1f3016900fab6e6c277dfa01e2d3a455bef8863
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f32ed673905e155e3876b71e4607bf33448e5327
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786013"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441133"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Copier des articles existants pour créer de nouveaux articles
 
@@ -23,7 +23,7 @@ Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utilis
 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>Pour copier un article existant dans un nouvel article
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Sélectionnez l’article que vous souhaitez copier, puis choisissez l’action **Copier article**.  
 
     Si vous ne trouvez pas l’action **Copier article**, choisissez d’afficher plus d’options, puis recherchez-la sous **Actions**, **Fonctions**.  

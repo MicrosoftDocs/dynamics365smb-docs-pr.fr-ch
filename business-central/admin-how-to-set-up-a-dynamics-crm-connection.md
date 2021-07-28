@@ -1,6 +1,6 @@
 ---
 title: Se connecter à Microsoft Dataverse
-description: Vous pouvez intégrer d’autres applications à Business Central au moyen de Microsoft Dataverse. Cet article fournit des conseils et des astuces pour configurer les connexions.
+description: Configurez une connexion entre Business Central et Dataverse. Ln règle générale, les entreprises créent la connexion pour intégrer les données avec une autre application métier Dynamics 365.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/26/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: a29fb1e0a8e10e91a811914a9188548149d5125a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063492"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441358"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Se connecter à Microsoft Dataverse
 
@@ -64,7 +64,7 @@ Le guide de configuration de connexion Dataverse peut faciliter la connexion des
 > [!IMPORTANT]
 > En règle générale, vous n’utilisez la synchronisation complète que lorsque vous intégrez les applications pour la première fois et qu’une seule application contient des données. La synchronisation complète peut être utile dans un environnement de démonstration, car elle crée et couple automatiquement des enregistrements dans chaque application, ce qui accélère le travail avec des données synchronisées. Cependant, vous devez exécuter une synchronisation complète uniquement si vous souhaitez une ligne dans [!INCLUDE[prod_short](includes/prod_short.md)] pour chaque ligne dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)] pour les mappages de table donnés. Sinon, le résultat peut être des enregistrements en double.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration assistée**, puis choisissez le lien associé.
 2. Sélectionnez **Configurer la connexion à Microsoft Dataverse** pour lancer le guide de configuration assistée.
 3. Renseignez les champs selon vos besoins.
 
@@ -75,7 +75,7 @@ Le guide de configuration de connexion Dataverse peut faciliter la connexion des
 
 La procédure suivante décrit comment configurer manuellement la connexion sur la page **Paramétrage de la connexion Dataverse**. Il s’agit également de la page sur laquelle vous gérez les paramètres pour l’intégration.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage de la connexion Dataverse**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration de la connexion Dataverse**, puis choisissez le lien associé.
 2. Saisissez les informations suivantes pour la connexion de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] vers [!INCLUDE[prod_short](includes/prod_short.md)].
 
     |Champ|Description|
@@ -107,11 +107,33 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
+## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Mettre à niveau les connexions de Business Central Online pour utiliser l’authentification basée sur les certificats
+> [!NOTE]
+> Cette section s’applique uniquement aux locataires Business Central Online par Microsoft. Les locataires en ligne hébergés par les développeurs de logiciels indépendants et les installations locales ne sont pas affectés.
+
+En avril 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] désapprouve le type d’authentification Office365 (nom d’utilisateur/mot de passe). Pour en savoir plus, voir [ Abandon du type d’authentification Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). De plus, en mars 2022, [!INCLUDE[prod_short](includes/prod_short.md)] abandonne l’utilisation de l’authentification service à service basée sur le secret client pour les locataires en ligne, et nécessitera l’utilisation de l’authentification service à service basée sur un certificat pour les connexions à [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Les locataires en ligne [!INCLUDE[cds_long_md](includes/cds_long_md.md)] hébergés par les éditeurs de logiciels indépendants et les installations locales peuvent continuer à utiliser l’authentification Office365 configurée par leur partenaire Microsoft.
+
+Pour éviter de perturber les intégrations, _vous devez mettre à niveau_ la connexion pour utiliser l’authentification par certificat. Bien que le changement soit prévu pour mars 2022, nous vous recommandons fortement de mettre à niveau dès que possible. Les étapes suivantes décrivent comment effectuer une mise à niveau vers l’authentification par certificat. 
+
+### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Pour mettre à niveau votre connexion de Business Central Online pour utiliser l’authentification basée sur les certificats
+> [!NOTE]
+> L’authentification basée sur les certificats est disponible dans la 1ère vague de lancement Business Central 2021 et versions ultérieures. Si vous utilisez une version antérieure, vous devez planifier une mise à jour vers la première vague de la version de Business Central 2021 avant mars 2022. Pour plus d’informations, consultez [Planification des mises à jour](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Si vous rencontrez des problèmes, contactez votre partenaire ou l’assistance.
+
+1. Dans le [Centre d’administration Business Central]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), vérifiez que vous utilisez la 1ère vague de lancement Business Central 2021 ou versions ultérieures (version 18 ou ultérieure).
+2. Selon que vous intégrez ou non à Dynamics 365 Sales, effectuez l’une des opérations suivantes :
+   * Si vous le faites, ouvrez la page **Configuration de la connexion Microsoft Dynamics 365**.
+   * Si vous ne le faites pas, ouvrez la page **Configuration de la connexion Dataverse**.
+3. Choisissez **Connexion**, puis **Utiliser l’authentification par certificat** pour mettre à niveau la connexion afin d’utiliser l’authentification basée sur un certificat.
+4. Connectez-vous avec les informations d’identification d’administrateur pour Dataverse. La connexion devrait prendre moins d’une minute.
+
+> [!NOTE]
+> Vous devez répéter ces étapes dans chaque environnement [!INCLUDE[prod_short](includes/prod_short.md)], y compris les environnements de production et de bac à sable, et dans chaque entreprise où vous êtes connecté à [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+
 ## <a name="connecting-on-premises-versions"></a>Connexion des versions locales
 
 Pour connecter [!INCLUDE[prod_short](includes/prod_short.md)] sur site à [!INCLUDE[cds_long_md](includes/cds_long_md.md)], vous devez spécifier quelques informations sur la page **Configuration de la connexion Dataverse**.
 
-Si vous souhaitez vous connecter à l’aide d’un compte Azure Active Directory (Azure AD), vous devez enregistrer une application dans Azure AD et fournir l’ID d’application, le secret Key Vault et l’URL de redirection à utiliser. L’URL de redirection est pré-remplie et devrait fonctionner pour la plupart des installations. Vous devez configurer votre installation pour utiliser HTTPS. Pour plus d’informations, voir [Configuration de SSL pour sécuriser la connexion du client Web Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Si vous configurez votre serveur pour avoir une page d’accueil différente, vous pouvez toujours changer l’URL. Le secret client sera enregistré sous forme de chaîne cryptée dans votre base de données. 
+Si vous souhaitez vous connecter à l’aide d’un compte Azure Active Directory (Azure AD), vous devez enregistrer une application dans Azure AD et fournir l’ID d’application, le secret Key Vault et l’URL de redirection à utiliser. L’URL de redirection est pré-remplie et devrait fonctionner pour la plupart des installations. Vous devez configurer votre installation pour utiliser HTTPS. Pour plus d’informations, voir [Configuration de SSL pour sécuriser la connexion du client Web Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Si vous configurez votre serveur pour avoir une page d’accueil différente, vous pouvez toujours changer l’URL. Le secret client sera enregistré sous forme de chaîne cryptée dans votre base de données. 
 
 ### <a name="prerequisites"></a>Conditions préalables
 
@@ -124,7 +146,7 @@ Dataverse doit utiliser l′un des types d′authentification suivants :
 * Office365 (moderne, basé sur le secret client OAuth2)
 * OAuth
 
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Pour enregistrer une application dans Azure AD pour se connecter de Business Central à Dataverse
+### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Pour enregistrer une application dans Azure AD pour se connecter de Business Central à Dataverse
 
 Les étapes suivantes supposent que vous utilisez Azure AD pour gérer les identités et les accès. Pour plus d’informations sur l’enregistrement d’une application dans Azure AD, voir [Démarrage rapide : enregistrer une application avec la plateforme d’identité Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 
@@ -132,7 +154,7 @@ Les étapes suivantes supposent que vous utilisez Azure AD pour gérer les ident
 2. Sous **Rediriger les URL**, ajoutez l’URL de redirection suggérée sur la page de **Configuration de la connexion Dataverse** dans [!INCLUDE[prod_short](includes/prod_short.md)].
 3. Sous **Gérer**, choisissez **Autorisations d’API**.
 4. Sous **Autorisations configurées**, choisissez **Ajouter une autorisation**, puis ajoutez des autorisations déléguées sur l’onglet **API Microsoft** comme suit :
-    * Pour Business Central, ajoutez les autorisations **Financials.ReadWrite.All**.
+    * Pour Business Central, ajoutez les autorisations **Financials.ReadWrite.All**.
     * Pour Dynamics CRM, ajoutez les autorisations **user_impersonation**.  
 
     > [!NOTE]
@@ -149,7 +171,7 @@ Les étapes suivantes supposent que vous utilisez Azure AD pour gérer les ident
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Pour se déconnecter de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage de la connexion Dataverse**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration de la connexion Dataverse**, puis choisissez le lien associé.
 2. Sur la page **Paramétrage de la connexion Dataverse**, désactivez le bouton bascule **Activé**.  
 
 ## <a name="see-also"></a>Voir aussi

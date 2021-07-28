@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 00fab887fa5680560ddcf4d612889be91c842fcf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784680"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441083"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importer et exporter des présentations de rapport personnalisées
 Vous pouvez importer et exporter une présentation de rapport personnalisée existante sous forme de fichier depuis ou vers un emplacement sur votre ordinateur et le réseau. Par exemple, vous pouvez exporter une présentation de rapport, puis envoyer le fichier à une autre personne pour modification. Cette personne peut ensuite apporter des modifications à la présentation et vous renvoyer le fichier pour que vous puissiez le réimporter.  
@@ -25,7 +25,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Pour exporter une présentation de rapport vers un fichier  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
 
 2.  Sélectionnez la ligne de l’état qui contient la disposition d’état personnalisée à exporter, puis sélectionnez l’action **Présentations personnalisées**.  
 
@@ -39,7 +39,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
      Un fichier de présentation de rapport Word doit avoir une extension de type .docx. Un fichier de présentation de rapport RDLC doit avoir une extension de type .rdlc ou .rdl.  
 
-2.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
+2.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
 
 3.  Sélectionnez la ligne de l’état dans lequel vous souhaitez créer la présentation d’état, puis sélectionnez l’action **Présentations personnalisées**.  
 

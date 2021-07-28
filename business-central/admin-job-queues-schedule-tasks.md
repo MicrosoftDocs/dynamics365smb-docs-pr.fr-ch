@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0f586898d65d4e51e48b0c12cf9bf2487d846b1c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b1d9893364d7472759a478877ebec49ace5e9647
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781251"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441308"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utiliser des files d’attente des travaux pour planifier des tâches
 
-Des files d’attente des travaux dans [!INCLUDE[prod_short](includes/prod_short.md)] permettent aux utilisateurs de planifier et d’exécuter des états et codeunits spécifiques. Vous pouvez définir des projets à exécuter une fois, ou sur une base récurrente. Par exemple, vous souhaiterez peut-être exécuter l’état **Statistiques vente commerciaux** sur une base hebdomadaire, pour suivre les ventes par vendeur chaque semaine, ou vous pouvez exécuter le codeunit **Déléguer les demandes d’approbation** quotidiennement, pour empêcher les documents de s’empiler ou de bloquer le flux de travail.
+Des files d’attente des travaux dans [!INCLUDE[prod_short](includes/prod_short.md)] permettent aux utilisateurs de planifier et d’exécuter des états et codeunits spécifiques. Vous pouvez définir des projets à exécuter une fois, ou sur une base récurrente. Par exemple, vous souhaiterez peut-être exécuter l’état **Statistiques vente * commerciaux** sur une base hebdomadaire, pour suivre les ventes par vendeur chaque semaine, ou vous pouvez exécuter le codeunit **Déléguer les demandes d’approbation** quotidiennement, pour empêcher les documents de s’empiler ou de bloquer le flux de travail.
 
 La page **Écritures file d’attente des travaux** répertorie tous les projets existants. Si vous ajoutez une nouvelle écriture file d’attente des travaux que vous voulez planifier, vous devez spécifier des informations sur le type d’objet à exécuter, par exemple un état ou un codeunit et le nom et l’ID de l’objet que vous voulez exécuter. Vous pouvez également ajouter des paramètres pour spécifier le comportement de la file d’attente des travaux. Par exemple, vous pouvez ajouter un paramètre pour envoyer uniquement des commandes vente validées. Vous devez être autorisé à exécuter l’état ou le codeunit spécifié, sans quoi une erreur est renvoyée lors de l’exécution de la file projets.  
 > [!IMPORTANT]  
@@ -53,7 +53,7 @@ Le tableau suivant décrit les valeurs du champ **Statut**.
 | Terminé | Indique que l’écriture file d’attente des travaux est complète. |
 
 ### <a name="to-view-status-for-any-job"></a>Pour visualiser le statut de tous les travaux
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Écritures file d’attente des travaux**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures file d’attente des travaux**, puis sélectionnez le lien associé.
 2. Sur la page **Écritures file d’attente des travaux**, sélectionnez une écriture file d’attente des travaux, puis sélectionnez l’action **Écritures journal**.  
 
 > [!TIP]
@@ -79,7 +79,7 @@ Pour en savoir plus, consultez [Planifier un état à exécuter](ui-work-report.
 
 ### <a name="schedule-synchronization-between-prod_short-and-prod_short"></a>Planifier la synchronisation entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Si vous avez intégré [!INCLUDE[prod_short](includes/prod_short.md)] à [!INCLUDE[prod_short](includes/cds_long_md.md)], vous pouvez utiliser la file d’attente des travaux pour planifier à quel moment vous souhaitez synchroniser les données des enregistrements que vous avez couplés dans les deux applications métier. Selon la direction et les règles que vous avez définies pour l’intégration, les tâches de synchronisation peuvent également créer des enregistrements dans l’application de destination pour correspondre à ceux de la source. Par exemple, si un vendeur crée un contact dans [!INCLUDE[crm_md](includes/crm_md.md)], la tâche de synchronisation peut créer ce contact pour le vendeur couplé dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Planification d’une synchronisation entre Business Central et Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+Si vous avez intégré [!INCLUDE[prod_short](includes/prod_short.md)] à [!INCLUDE[prod_short](includes/cds_long_md.md)], vous pouvez utiliser la file d’attente des travaux pour planifier à quel moment vous souhaitez synchroniser les données des enregistrements que vous avez couplés dans les deux applications métier. Selon la direction et les règles que vous avez définies pour l’intégration, les tâches de synchronisation peuvent également créer des enregistrements dans l’application de destination pour correspondre à ceux de la source. Par exemple, si un vendeur crée un contact dans [!INCLUDE[crm_md](includes/crm_md.md)], la tâche de synchronisation peut créer ce contact pour le vendeur couplé dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Planification d’une synchronisation entre Business Central et Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ### <a name="schedule-the-posting-of-sales-and-purchase-orders"></a>Planifier la validation des commande vente et achat
 
@@ -90,7 +90,7 @@ Pour plus d’informations, voir [Pour paramétrer la validation en arrière-pla
 ## <a name="see-also"></a>Voir aussi
 
 [Administration](admin-setup-and-administration.md)  
-[Configuration de Business Central](setup.md)  
+[Configuration de Business Central](setup.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Analyse de la télémétrie de suivi du cycle de vie de la file d’attente des travaux](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
 

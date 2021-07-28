@@ -1,6 +1,6 @@
 ---
-title: Afficher le statut des projets de synchronisation | Microsoft Docs
-description: Apprenez à afficher l’état après la synchronisation des enregistrements couplés.
+title: Afficher le statut des projets de synchronisation
+description: Utilisez la page Erreurs de synchronisation de données couplées pour afficher l’état des projets de synchronisation exécutés pour les enregistrements couplés dans des intégrations.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: b87bd1061adbcaae3a5497fa1af020cfaa412593
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0a33631908d0f3943486f96bbf6b5e2f801c440b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781276"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441333"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Afficher le statut des projets de synchronisation
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -35,7 +35,7 @@ Utilisez la page **Erreurs de synchronisation des données couplées** pour affi
 -->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Pour afficher et résoudre les erreurs de synchronisation des enregistrements couplés
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Erreurs de synchronisation des données couplées**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Erreurs de synchronisation des données couplées**, puis choisissez le lien associé.
 2. La page **Erreurs de synchronisation des données couplées** affiche les problèmes qui se produisent lorsque vous avez synchronisé des enregistrements couplés. Le tableau suivant répertorie les actions que vous pouvez utiliser pour résoudre les problèmes un par un :
 
 |Action|Description|
@@ -54,7 +54,7 @@ Utilisez la page **Erreurs de synchronisation des données couplées** pour affi
 
 ## <a name="see-also"></a>Voir aussi  
 [Configuration des comptes d’utilisateur pour l’intégration à Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Utilisation de Dynamics 365 Sales depuis Business Central](marketing-integrate-dynamicscrm.md)
+[Utilisation de Dynamics 365 Sales depuis Business Central](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

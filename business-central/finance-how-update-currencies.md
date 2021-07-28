@@ -1,18 +1,18 @@
 ---
 title: Mettre à jour des taux de change devise
-description: Suivez des montants dans différentes devises à l’aide de codes devise, et laissez Business Central ajuster les taux de change des écritures validées avec un service externe.
+description: Suivez des montants dans différentes devises à l’aide de codes devise, et laissez Business Central ajuster les taux de change des écritures validées avec un service externe.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184464"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441637"
 ---
 # <a name="update-currency-exchange-rates"></a>Mettre à jour des taux de change devise
 
@@ -23,7 +23,10 @@ Ensuite, vous devez configurer des codes devise pour chaque devise que vous util
 > [!Important]
 > Ne créez pas le code devise société à la fois dans la page **Paramètres comptabilité** et dans la page **Devises**. Cela créera une confusion entre la devise vide et le code DS dans le tableau des devises, et des comptes bancaires, des clients ou des fournisseurs pourraient être créés accidentellement, certains avec la devise vide et d’autres avec le code DS.
 
-Votre comptabilité est configurée pour utiliser votre devise société (DS), mais vous pouvez la configurer pour utiliser une autre devise avec un taux de change des devises. Si vous désignez une deuxième devise comme « devise report supplémentaire », [!INCLUDE[prod_short](includes/prod_short.md)] enregistre automatiquement les montants d’état en DS et dans cette devise report supplémentaire pour chaque écriture comptable, ainsi que pour d’autres écritures, telles que les écritures TVA. Pour plus d’informations, voir [Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md). La devise report supplémentaire est le plus souvent utilisée pour faciliter les états financiers pour les propriétaires qui résident dans des pays/régions utilisant des devises différentes de la devise société (DS).
+Votre comptabilité est configurée pour utiliser votre devise société (DS), mais vous pouvez la configurer pour utiliser une autre devise avec un taux de change des devises. Si vous désignez une deuxième devise comme « devise report supplémentaire », [!INCLUDE[prod_short](includes/prod_short.md)] enregistre automatiquement les montants d’état en DS et dans cette devise report supplémentaire pour chaque écriture comptable, ainsi que pour d’autres écritures, telles que les écritures TVA. Pour plus d’informations, voir [Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md). La devise report supplémentaire est le plus souvent utilisée pour faciliter les états financiers pour les propriétaires qui résident dans des pays/régions utilisant des devises différentes de la devise société (DS).  
+
+> [!IMPORTANT]
+> Si vous souhaitez utiliser une devise de reporting supplémentaire pour le reporting financier, assurez-vous de bien comprendre les limites. Pour plus d’informations, voir [Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Devises
 
@@ -66,6 +69,8 @@ Vous spécifiez les codes devise dans **Devises**, y compris les informations su
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Exemple de transaction en devise comptabilité
 
+Lorsque vous recevez une facture d’une entreprise dans une devise étrangère, il est assez facile de calculer la valeur en devise locale (DS) de la facture en fonction du taux de change du jour. Cependant, la facture est souvent accompagnée de conditions de paiement afin que vous puissiez reporter le paiement à une date ultérieure, ce qui implique un taux de change potentiellement différent. Ce problème, combiné au fait que les taux de change bancaires diffèrent toujours des taux de change officiels, rend impossible l’anticipation du montant exact en devise locale (DS) requis pour couvrir la facture. Si la date d’échéance de la facture s’étend au mois suivant, vous devrez peut-être également réévaluer le montant en devise locale (DS) à la fin du mois. L’ajustement de la devise est nécessaire, car la nouvelle valeur DS requise pour couvrir le montant de la facture peut être différente et la dette de l’entreprise envers le fournisseur a potentiellement changé. Le nouveau montant DS peut être supérieur ou inférieur au montant précédent et représentera donc un gain ou une perte. Cependant, comme la facture n’a pas encore été payée, le gain ou la perte est considéré comme *non réalisé*. Ultérieurement, la facture est réglée et la banque est revenue au taux de change réel pour le paiement. Ce n’est que maintenant que le gain ou la perte *réalisé(e)* est calculé(e). Ce gain ou cette perte non réalisé(e) est ensuite contrepassé(e) et le gain ou la perte réalisé(e) est comptabilisé(e) à sa place.
+
 Dans l’exemple suivant, une facture est reçue le 1er janvier avec le montant en devise 1 000. À ce moment là, le taux de change est 1,123.
 
 |Date|Action|Montant devise|Taux document|Montant DS sur le document|Taux ajustement|Montant gains prévu|Taux règlement|Montant pertes constatées report|  
@@ -85,7 +90,7 @@ Enfin, le paiement est enregistré et la perte réelle est validée sur le compt
 
 ## <a name="available-currency-functions"></a>Fonctions de devise disponibles
 
-Le tableau suivant décrit les actions clés sur la page ***Devises**. Certaines des actions sont expliquées dans les sections suivantes.  
+Le tableau suivant décrit les actions clés sur la page **Devises**. Certaines des actions sont expliquées dans les sections suivantes.  
 
 |Menu|Action|Description|
 |-------------|--------------|------------------------------|
@@ -117,14 +122,14 @@ En général, les valeurs des champs **Montant taux de change** et **Montant tau
 
 > [!Note]
 > Le taux de change réel sera calculé à l’aide de cette formule :
-> 
+>
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
 Le montant du taux de change d’ajustement ou le montant du taux de change d’ajustement lié sera utilisé pour mettre à jour toutes les transactions banque, client ou fournisseur.  
 
 > [!Note]
 > Le taux de change réel sera calculé à l’aide de cette formule :
-> 
+>
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Ajustement des taux de change
@@ -143,12 +148,15 @@ Pour les comptes client et fournisseur, le traitement par lots ajuste la devise 
 Ce traitement par lots traite toutes les écritures comptables client et toutes les écritures comptables fournisseur ouvertes. En cas de différence du taux de change d’une écriture, le traitement par lots crée une écriture comptable détaillée client ou fournisseur reflétant le montant ajusté dans l’écriture comptable client ou fournisseur.
 
 #### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Axes analytiques sur des écritures comptables client et fournisseur
+
 Les axes analytiques des écritures comptables client/fournisseur sont affectés aux écritures ajustement et les ajustements sont validés par combinaison de sections analytiques.
 
 ### <a name="effect-on-bank-accounts"></a>Effet sur les comptes bancaires
+
 Pour les comptes bancaires, le traitement par lots ajuste la devise en utilisant le taux de change valide à la date de comptabilisation spécifiée dans le traitement par lots. Le traitement par lots calcule les différences pour chaque compte bancaire possédant un code devise et valide les montants dans le compte général spécifié dans le champ **Compte gains constatés** ou **Compte pertes constatées** de la page **Devises**. Les écritures de contrepartie sont automatiquement validées sur les comptes bancaires spécifiés dans les groupes comptabilisation banque. Le traitement par lots calcule une écriture par devise et par groupe comptabilisation.
 
 #### <a name="dimensions-on-bank-account-entries"></a>Axes analytiques sur des écritures compte bancaire
+
 Les axes analytiques par défaut du compte bancaire sont affectés aux écritures ajustement pour le compte général du compte bancaire et pour le compte gain/perte.
 
 ### <a name="effect-on-gl-accounts"></a>Effet sur les comptes généraux
@@ -165,20 +173,20 @@ Les axes analytiques par défaut des comptes dans lesquels ils sont validés son
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Configurer un service de taux de change des devises
 Vous pouvez utiliser un service externe pour tenir vos taux de change des devises à jour, par exemple FloatRates.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Services de taux de change devise**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Services de taux de change des devises**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
 3. Sur la page **Service de taux de change devise**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Activez le bouton bascule **Activé** pour activer le service.
 
 > [!NOTE]
-> La vidéo suivante montre un exemple de connexion à un service de taux de change des devises, en prenant l’exemple de la Banque Centrale Européenne. Dans le segment qui décrit comment configurer les mappages de champs, le paramètre de la colonne **Source** pour **Nœud parent pour code devise** ne renverra que la première devise trouvée. Le paramètre doit être **/gesmes:Enveloppe/Code/Code/Code**.
+> La vidéo suivante montre un exemple de connexion à un service de taux de change des devises, en prenant l’exemple de la Banque Centrale Européenne. Dans le segment qui décrit comment configurer les mappages de champs, le paramètre de la colonne **Source** pour **Nœud parent pour code devise** ne renverra que la première devise trouvée. Le paramètre doit être `/gesmes:Envelope/Code/Code/Code`.
 
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Pour mettre à jour les taux de change des devises à partir d’un service
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Devises**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devises**, puis choisissez le lien associé.
 2. Choisissez l’option **Mettre à jour les taux de change**.
 
 La valeur dans le champ **Taux de change** de la page **Devises** est mise à jour avec le dernier taux de change des devises.

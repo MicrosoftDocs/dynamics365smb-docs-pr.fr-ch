@@ -1,6 +1,6 @@
 ---
-title: Aperçu des tâches permettant de paramétrer Business Central
-description: Décrit les tâches permettant de paramétrer, d’initialiser et de configurer Business Central selon vos besoins.
+title: Aperçu des tâches permettant de paramétrer Business Central
+description: Découvrez une vue d’ensemble des tâches pour paramétrer, initialiser et configurer Business Central selon vos besoins.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781471"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441437"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Aperçu des tâches permettant de paramétrer [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -23,7 +23,7 @@ ms.locfileid: "5781471"
 
 Par exemple, votre plan comptable est prérempli avec un certain nombre de comptes de validation prêts à l’emploi. Vous pouvez, bien évidemment, modifier le plan comptable pour l’adapter à vos besoins. Pour plus d’informations, reportez-vous à [Finances](finance.md).
 
-Dans le menu ![Icône de pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d’ajouter des fonctionnalités à [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations sur l’accès à toutes les pages de paramétrage aidées et manuelles, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
+Depuis l’icône ![Pignon pour ouvrir le menu Paramètres.](media/ui-experience/settings_icon_small.png) vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d’ajouter des fonctionnalités à [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations sur l’accès à toutes les pages de paramétrage aidées et manuelles, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
@@ -46,12 +46,12 @@ Certaines fonctionnalités (générales ou pour des processus d’entreprise sp�
 |Consultez les meilleures pratiques pour définir des articles pour les coûts de stock et la planification de l’approvisionnement.|[Configuration des modules complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)|
 |Améliorez la qualité de l’implémentation et raccourcissez le temps de déploiement en utilisant une panoplie d’outils pour configurer une nouvelle société à l’aide d’assistants, de modèles, de feuilles de calcul, et des questionnaires client.|[Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
 |Transférez les clients, les fournisseurs, le stock, les informations de comptes bancaires d’un autre système dans [!INCLUDE[prod_short](includes/prod_short.md)]|[Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md).|
-|Utilisez les complément Outlook de Business Central, vous pouvez afficher des informations financières associées à des clients et des fournisseurs ou créer et envoyer des documents financiers, comme des devis et des factures.|[Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)|
-|Obtenez un aperçu de vos données Business Central avec Power BI et les packs de contenu Business Central.|[Activation de vos données commerciales pour Power BI](admin-powerbi.md)|
-|Utilisez vos données Business Central en tant que partie du flux de travail dans Power Automate.|[Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md)|
-|Rendez vos données Business Central disponibles sous forme de source de données dans Power Apps.|[Connexion à vos données Business Central pour générer une application professionnelle à l’aide de Power Apps](across-how-use-financials-data-source-powerapps.md)|
-|Utilisez des guides dédiés de migration Quickbooks.|[Passage d’une application QuickBooks à Business Central](across-quickbooks-to-business-edition.md)|
-|Accédez à vos données Business Central à partir de votre périphérique mobile.|[Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)|
+|Utilisez les complément Outlook de Business Central, vous pouvez afficher des informations financières associées à des clients et des fournisseurs ou créer et envoyer des documents financiers, comme des devis et des factures.|[Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)|
+|Obtenez un aperçu de vos données Business Central avec Power BI et les packs de contenu Business Central.|[Activation de vos données commerciales pour Power BI](admin-powerbi.md)|
+|Utilisez vos données Business Central en tant que partie du flux de travail dans Power Automate.|[Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md)|
+|Rendez vos données Business Central disponibles sous forme de source de données dans Power Apps.|[Connexion à vos données Business Central pour générer une application professionnelle à l’aide de Power Apps](across-how-use-financials-data-source-powerapps.md)|
+|Utilisez des guides dédiés de migration Quickbooks.|[Passage d’une application QuickBooks à Business Central](across-quickbooks-to-business-edition.md)|
+|Accédez à vos données Business Central à partir de votre périphérique mobile.|[Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)|
 |Effectuez la facturation en vrac des rendez-vous créés dans Bookings.|[Facturation en vrac pour Microsoft Bookings](finance-bookings.md)|
 |Configurer un serveur SMTP pour activer une communication entrante et sortante de [!INCLUDE[prod_short](includes/prod_short.md)] par e-mail.| [Paramétrer la messagerie manuellement ou à l’aide de la configuration assistée](admin-how-setup-email.md)|
 | Configurer des codes d’identification uniques pour les enregistrements, tel que les fiches, les documents, et les lignes feuille, pour les suivre dans le système. |[Création des souches de numéros](ui-create-number-series.md) |

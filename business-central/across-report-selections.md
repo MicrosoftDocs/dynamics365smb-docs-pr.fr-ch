@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba15a65317ebf52579c285c93dd59eba1b65ae1b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 848b2ddc00f5006f31a0b2cff0a07d51ec305921
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787122"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440814"
 ---
 # <a name="report-selection-in-business-central"></a>Sélection des états dans Business Central
 
@@ -32,7 +32,7 @@ Les pages **Sélection des états** spécifient quel état sera imprimé dans di
 |Définir des états pour la déclaration de TVA (Allemagne)|[Paramétrer les déclarations de TVA et les états d’échanges intracomm.](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> Votre [!INCLUDE [prod_short](includes/prod_short.md)] peut inclure des pages **Sélection des états** en fonction de votre emplacement et de votre secteur d’activité, par exemple. Vous pouvez toujours vérifier votre configuration en choisissant l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), en saisissant **Sélection des états**, puis choisissez le lien approprié.
+> Votre [!INCLUDE [prod_short](includes/prod_short.md)] peut inclure des pages **Sélection des états** en fonction de votre emplacement et de votre secteur d’activité, par exemple. Vous pouvez toujours vérifier votre configuration en choisissant l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") en saisissant **Sélection des états**, puis choisissez le lien approprié.
 
 La version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)] comprend les pages suivantes **Section des états** :
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d9dd61f073567dd38c4f80e77bb4ecd0584f558f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7988d7f1b40fed65078032d05c8b12d8e174bc90
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787247"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440839"
 ---
 # <a name="set-up-prices-and-discounts"></a>Configurer les prix et les remises
 > [!NOTE]
@@ -47,7 +47,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 #### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience)  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Choisissez le client, puis sélectionnez l’action **Prix**.
 3. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Renseignez une ligne pour chaque combinaison qui accorde un prix de vente spécial au client.
 
@@ -58,7 +58,7 @@ Par défaut, l’état des nouvelles listes de prix est **Brouillon**. Lorsque v
 
 Pour consulter les listes de prix et les prix qui s’appliquent à des clients ou fournisseurs spécifiques, sur les pages **Client** ou **Fournisseur**, choisissez l’action **Listes de prix vente** ou **Listes de prix achat**. Pour les articles et les ressources, vous pouvez afficher les lignes de liste de prix en choisissant **Prix de vente** ou **Prix d’achat** sur les pages **Article** et **Ressource**.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Choisissez le client, puis sélectionnez l’action **Listes prix vente**. 
 3. Sélectionnez **Nouveau** pour créer une liste prix vente.
 4. Sur les raccourcis **Général** et **Taxes**, complétez les champs, comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,7 +75,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 #### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience/)  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Ouvrez la fiche client appropriée, puis sélectionnez l’action **Remises ligne**.
 3. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Renseignez une ligne pour chaque combinaison qui accorde une remise ligne vente au client.
 
@@ -86,7 +86,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 #### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience/)  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Choisissez le client, puis sélectionnez l’action **Listes prix vente**.
 3. Ouvrez la liste de prix pour laquelle vous souhaitez spécifier la remise ligne.
 4. Activez le bouton bascule **Autoriser remise ligne**.
@@ -118,7 +118,7 @@ En plus du pourcentage de remise (ou à sa place), vous pouvez lier un montant d
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Pour configurer une remise facture pour un client
 Après avoir décidé des clients pouvant faire l’objet de remises facture, entrez le code remise facture dans les fiches client et configurez les conditions de chaque code.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Ouvrez la page client d’un client pouvant faire l’objet de remises facture.
 3. Dans le champ **Code remise facture**, sélectionnez un code pour les conditions de remise facture appropriées à utiliser pour calculer les remises facture pour le client. <!--Looks like I can only choose customers in this list-->
 
@@ -142,7 +142,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 Pour copier des prix de vente, comme les prix appliqués à un client et qui doivent être appliqués à tout un groupe de clients, vous devez lancer le traitement par lots **Suggérer prix vente**. traitement par lots sur la page **Feuille prix vente**.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prix vente**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille de calcul de prix de vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Suggérer prix vente** .  
 3. Sur le raccourci **Prix vente**, renseignez les champs **Type vente** et **Code vente** avec les prix de vente d’origine à copier.  
 4. Dans la partie supérieure de la page de demande, indiquez dans les champs **Type vente** et **Code vente** le type et le nom sous lesquels vous souhaitez copier les prix de vente.  
@@ -156,7 +156,7 @@ Pour copier des prix de vente, comme les prix appliqués à un client et qui doi
 
 Le statut de la liste de prix doit être **Brouillon**. 
 
-1. Choisissez l’icône ![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Listes prix vente**, puis choisissez le lien associé. 
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Listes de prix de vente**, puis sélectionnez le lien associé. 
 2. Choisissez la liste de prix à copier, puis choisissez **Copier les lignes**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -172,7 +172,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 Si vous souhaitez mettre à jour en bloc des prix article, tels que l’augmentation de tous les prix article par un certain pourcentage, vous devez exécuter **Suggérer prix article**. traitement par lots . Vous pouvez rechercher un lien vers le traitement par lots sur la page **Feuille prix vente**.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prix vente**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille de calcul de prix de vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Suggérer prix article** .  
 3. Sur le raccourci **Article**, renseignez le champ **N°**, ou **Groupe comptabilisation de stock** ou d’autres champs avec les prix article d’origine à mettre à jour.  
 4. Dans la partie supérieure de la page de demande, indiquez dans les champs **Type vente** et **Code vente** le type et le nom sous lesquels vous souhaitez copier les prix de vente.

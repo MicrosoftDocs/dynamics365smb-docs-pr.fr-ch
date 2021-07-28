@@ -1,6 +1,6 @@
 ---
-title: Détails de conception - Flux d’enlogement entrant | Microsoft Docs
-description: Le flux entrant dans un entrepôt commence à l’arrivée des articles dans l’entrepôt du magasin de la société, qu’ils proviennent de sources externes ou d’un autre magasin de la société. Un salarié enregistre les articles, généralement en numérisant un code barre. Depuis le quai de réception, des activités entrepôt sont effectuées à différents niveaux de complexité pour amener les articles dans la zone de stockage.
+title: 'Détails de conception : flux d’enlogement'
+description: Le flux d’enlogement entrant commence lorsque les articles arrivent à l’emplacement de la société d’entrepôt. Les éléments sont enregistrés et éventuellement mis en correspondance avec les documents source entrants.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: c2a78d585f949922e9f05e42a6ab61dcd7adc521
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a3a300deaaf4b64e7f26e34168ff1f69b72e90de
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215193"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441791"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Détails de conception : flux d’enlogement
 Le flux entrant dans un entrepôt commence à l’arrivée des articles dans l’entrepôt du magasin de la société, qu’ils proviennent de sources externes ou d’un autre magasin de la société. Un salarié enregistre les articles, généralement en numérisant un code barre. Depuis le quai de réception, des activités entrepôt sont effectuées à différents niveaux de complexité pour amener les articles dans la zone de stockage.  
@@ -51,7 +51,7 @@ Dans les méthodes A, B et C, les actions de réception et de rangement sont com
 ## <a name="basic-warehouse-configurations"></a>Configurations d’entrepôt de base  
 Le schéma suivant présente les flux d’enlogement par type de document dans les configurations d’entrepôt de base. Les numéros dans le schéma correspondent aux étapes dans les sections suivant le schéma.  
 
-![Flux entrant dans les configurations d’entrepôt de base](media/design_details_warehouse_management_inbound_basic_flow.png "Flux entrant dans les configurations d’entrepôt de base")  
+![Flux entrant dans les configurations d’entrepôt de base.](media/design_details_warehouse_management_inbound_basic_flow.png "Flux entrant dans les configurations d’entrepôt de base")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1 : Lancer le document origine / Créer un rangement stock  
 Lorsque les articles sont réceptionnés dans l’entrepôt, l’utilisateur qui est responsable de la réception émet le document d’origine, comme une commande achat ou un ordre de transfert entrant, pour signaler aux magasiniers que les articles reçus peuvent être rangés dans le stock. Sinon, l’utilisateur crée des documents rangement stock pour des lignes commande individuelles, par déplacement, selon les emplacements spécifiés et les quantités à traiter.  
@@ -70,7 +70,7 @@ Des écritures comptables article positives sont créées, les écritures entrep
 ## <a name="advanced-warehouse-configurations"></a>Configurations d’entrepôt avancées  
 Le schéma suivant présente le flux d’enlogement par type de document dans les configurations d’entrepôt avancées. Les numéros dans le schéma correspondent aux étapes dans les sections suivant le schéma.  
 
-![Flux entrant dans les configurations d’entrepôt avancées](media/design_details_warehouse_management_inbound_advanced_flow.png "Flux entrant dans les configurations d’entrepôt avancées")  
+![Flux entrant dans les configurations d’entrepôt avancées.](media/design_details_warehouse_management_inbound_advanced_flow.png "Flux entrant dans les configurations d’entrepôt avancées")  
 
 ### <a name="1-release-source-document"></a>1 : Lancer le document origine  
 Lorsque les articles sont réceptionnés dans l’entrepôt, l’utilisateur qui est responsable de la réception émet le document d’origine, comme une commande achat ou un ordre de transfert entrant, pour signaler aux magasiniers que les articles reçus peuvent être rangés dans le stock.  

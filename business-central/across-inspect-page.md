@@ -1,5 +1,5 @@
 ---
-title: Inspection des pages dans Business Central
+title: Inspection des pages dans Business Central
 description: Utilisez la fonction Inspection des pages pour en savoir plus sur le format et la source de données des pages. L’inspecteur de page convient parfaitement pour résoudre les problèmes liés à vos données.
 ms.custom: na
 ms.reviewer: na
@@ -10,16 +10,18 @@ ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 09dba629e977707921129261ea2540cc223c15dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 99dd133c3f3ab05806976c5fe840f81dcd8e1403
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784955"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440914"
 ---
-# <a name="inspecting-pages-in-business-central"></a>Inspection des pages dans Business Central
+# <a name="inspecting-pages-in-business-central"></a>Inspection des pages dans Business Central
 
 La fonction Inspection des pages vous permet d’obtenir des détails sur une page : elle vous donne ainsi un aperçu du format de la page, des différents éléments qui la constituent ainsi que de la source qui se cache derrière les données qu’elle diffuse. La fonction Inspection des pages est conçue notamment pour les administrateurs, les utilisateurs avancés, le personnel du support technique ainsi que les développeurs. Elle est parfaite pour découvrir quel modèle de données se cache derrière une page et résoudre les problèmes. Par exemple, si vous rencontrez un problème avec une page, vous pouvez utiliser la fonction d’inspection des pages pour obtenir les informations à transmettre à votre administrateur système ou à votre personnel du support technique.
+
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Utilisation de la fonction Inspection des pages
 
@@ -27,13 +29,13 @@ Vous commencez l’inspection des pages dans la page **Aide et support**. Clique
 
 Le volet **Inspection des pages** s’ouvre sur le côté. La figure suivante illustre le volet **Inspection des pages** sur la page **Commande vente**.
 
-![Inspection des pages](media/page-inspection-example.png)
+![Inspection des pages.](media/page-inspection-example.png)
 
 Lorsque le volet **Inspection des pages** s’ouvre pour la première fois, il affiche les informations qui concernent le principal objet de la page.
 
 Utilisez le clavier ou le dispositif de pointage pour déplacer le focus vers différents éléments de la page. Lorsque vous sélectionnez un élément de type Récapitulatif ou une partie de la page principale, la zone de délimitation est mise en avant par une bordure, et le volet **Inspection des pages** présente les informations relatives à l’élément sélectionné. Par exemple, l’image précédente présente les informations relatives à la partie de la liste sur la page **Commande vente**. Comme vous accédez à d’autres pages de l’application, le volet **Inspection des pages** se met automatiquement à jour avec les informations de la page au fur et à mesure de votre navigation.
 
-Pour en savoir plus sur ce que permet d’afficher la fonction d’inspection des pages, reportez-vous à la rubrique [Pages relatives à l’inspection et à la résolution des problèmes](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) dans l’aide dédiée aux professionnels de l’informatique et aux développeurs Business Central.
+Pour en savoir plus sur ce que permet d’afficher la fonction d’inspection des pages, reportez-vous à la rubrique [Pages relatives à l’inspection et à la résolution des problèmes](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) dans l’aide dédiée aux professionnels de l’informatique et aux développeurs Business Central.
 
 Si vous ne voyez pas les détails auxquels vous vous attendez sur le volet **Inspection des pages**, vous n’avez probablement pas les autorisations requises, comme le décrit la section suivante.
 

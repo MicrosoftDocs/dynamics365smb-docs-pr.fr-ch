@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a0eb78d64948498b315679c45eb9a8b48fd5606
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784357"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441462"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Pratiques de configuration recommandées : méthodes de réapprovisionnement
 Sur les fiches article, le champ **Méthode réapprovisionnement** propose quatre méthodes de planification différentes qui déterminent le mode d’interaction de chacun des paramètres de planification.  
@@ -30,7 +30,7 @@ Pour sélectionner une méthode de réapprovisionnement, la classification ABC d
 
 La classification ABC révèle qu’il est possible de réduire les efforts et de réaliser des économies en appliquant aux articles de faible valeur-volume un contrôle moins strict qu’aux articles ayant une valeur ou un volume élevé. La figure ci-après indique quelle méthode de réapprovisionnement dans [!INCLUDE[prod_short](includes/prod_short.md)] est la mieux adaptée aux articles A, B et C, respectivement.
 
-![Classification ABC](media/abc_classification.png "abc_classification")
+![Classification ABC.](media/abc_classification.png "abc_classification")
 
 Le tableau suivant propose des recommandations pour effectuer son choix parmi ces quatre méthodes.  
 
