@@ -1,6 +1,6 @@
 ---
 title: Dépannage des erreurs de synchronisation | Microsoft Docs
-description: Fournit des indications pour identifier et résoudre les erreurs de synchronisation.
+description: Cette rubrique offre des instructions pour identifier, résoudre les problèmes et les erreurs de synchronisation.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 91c64ecbd32ec8fe6a528c87d2e102e1a1322816
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 3ed35bc7d0d9db1cd609078372d98535703f6583
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017239"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326528"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Résolution des erreurs de synchronisation
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

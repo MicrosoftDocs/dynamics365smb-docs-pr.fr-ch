@@ -1,20 +1,20 @@
 ---
-title: Installation d’extensions pour personnaliser Business Central
-description: En savoir plus sur l’ajout des fonctionnalités et la personnalisation de Business Central en installant des extensions.
+title: Installation d’extensions pour personnaliser Business Central
+description: En savoir plus sur l’ajout des fonctionnalités et la personnalisation de Business Central en installant des extensions ici.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 073b89f7c80035da12f329f752b64dc8142f309d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771354"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325599"
 ---
-# <a name="customizing-business-central-online-using-extensions"></a>Personnalisation de Business Central Online à l’aide d’extensions
+# <a name="customizing-business-central-online-using-extensions"></a>Personnalisation de Business Central Online à l’aide d’extensions
 
 Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en ligne en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l’application, ou vous permettent d’accéder à de nouveaux services en ligne, par exemple.
 
@@ -82,7 +82,7 @@ Microsoft fournit les extensions suivantes :
 
 ## <a name="extensions-and-data-transfer"></a>Extensions et transfert de données
 
-Comme les extensions suivantes communiquent avec d'autres services, elles peuvent transférer des données hors de la géographie de l'environnement [!INCLUDE[prod_short](includes/prod_short.md)] :
+Comme les extensions suivantes communiquent avec d’autres services, elles peuvent transférer des données hors de la géographie de l’environnement [!INCLUDE[prod_short](includes/prod_short.md)] :
 
 * Extension AMC Banking 365 Fundamentals
 * Analyseur Image
@@ -91,10 +91,10 @@ Comme les extensions suivantes communiquent avec d'autres services, elles peuven
 * Stock prévu et ventes prévues
 * WorldPay Payments Standard
 
-Cela s'applique également à certaines fonctionnalités de l'application de base, telles que les fonctionnalités suivantes :
+Cela s’applique également à certaines fonctionnalités de l’application de base, telles que les fonctionnalités suivantes :
 
 * Prévision de trésorerie
-* Service d'échange de documents
+* Service d’échange de documents
 * Connexions à Dataverse
 * Service OCR
 * Online Map
@@ -102,8 +102,8 @@ Cela s'applique également à certaines fonctionnalités de l'application de bas
 
 ## <a name="see-also"></a>Voir aussi
 
-[Personnaliser Business Central](ui-customizing-overview.md)  
-[Extensions Business Central par d’autres fournisseurs](ui-extensions-other.md)  
+[Personnaliser Business Central](ui-customizing-overview.md)  
+[Extensions Business Central par d’autres fournisseurs](ui-extensions-other.md)  
 [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md)  
 [Migration des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  

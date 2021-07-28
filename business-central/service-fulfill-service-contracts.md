@@ -1,6 +1,6 @@
 ---
-title: Aperçu des tâches d’exécution des contrats de service | Microsoft Docs
-description: Décrit les tâches de gestion des contrats de service avec les clients.
+title: Aperçu des tâches d’exécution des contrats de service
+description: Décrit les tâches impliquées dans l’exécution des contrats de service avec vos clients, comme la mise en place d’accords contractuels standard avec des modèles personnalisables, etc.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 271e9ef14937ebd1b2bb7a8932f2f561d7a6f2ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 343308cb004ada356eaad14e620f29fb9cf043ee
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778312"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326828"
 ---
 # <a name="fulfilling-service-contracts"></a>Exécution des contrats de service 
 Pour configurer une activité de gestion des services, vous pouvez mettre en place des accords contractuels standard entre vous et vos clients afin de décrire le niveau de service et les attentes en matière de services. Vous pouvez créer des modèles de contrat dans lesquels figurent les informations nécessaires (client, date de début du contrat, période de facturation, etc.).  

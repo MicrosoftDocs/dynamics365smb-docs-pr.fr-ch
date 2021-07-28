@@ -1,6 +1,6 @@
 ---
 title: Méthodes amortissement pour les immobilisations
-description: Découvrez les différentes méthodes intégrées pour amortir ou déprécier les immobilisations dans la version par défaut de Business Central.
+description: Découvrez les différentes méthodes intégrées pour amortir ou déprécier les immobilisations dans la version par défaut de Business Central qui comprend huit méthodes.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 649a60f815da072a1a2794492c4e957ca74d8e08
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774170"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343389"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Méthodes amortissement pour les immobilisations
 
@@ -29,7 +29,7 @@ Il existe huit méthodes d’amortissement disponibles dans la version par défa
 * Paramétrable  
 
   > [!NOTE]  
-  > Spécifiez votre propre méthode d’amortissement en définissant des tables d’amortissement.
+  > Spécifiez votre propre méthode d’amortissement en définissant des tables d’amortissement. Pour plus d’informations sur l’application d’une méthode d’amortissement définie par l’utilisateur, voir [Configurer la méthode d’amortissement définie par l’utilisateur](fa-how-setup-user-defined-depreciation-method.md).
 * Manuel  
 
   > [!NOTE]  
@@ -220,74 +220,6 @@ Méthode de calcul :
     *Montant linéaire = 23 730,46/3 = 7 910,15 = 3 995,07 + 3 995,08*  
 
     Le montant linéaire est utilisé car il s’agit de la valeur la plus élevée.  
-
-## <a name="user-defined-depreciation"></a>Amortissement défini par l’utilisateur
-
-L’application dispose d’une option qui vous permet de définir des méthodes d’amortissement paramétrables.  
-
-Avec une méthode paramétrable, vous utilisez la page **Tables d’amortissement** dans laquelle vous devez saisir un pourcentage d’amortissement pour chaque période (mois, trimestre, année ou période comptable). Ensuite, lorsque vous affectez des lois d’amortissement avec une méthode définie par l’utilisateur à une immobilisation, vous devez définir les champs **Date premier amortissement** et **Date début amortissement** sur la page **Plan amortissement** pour l’immobilisation spécifique.  
-
-La formule de calcul des montants d’amortissement est la suivante :  
-
-*Montant de l’amortissement = (% amortissement x nombre de jours d’amortissement x base amortissement)/(100 x 360)*  
-
-### <a name="depreciation-based-on-number-of-units"></a>Amortissement basé sur un nombre d’unités
-
-Cette méthode paramétrable peut également être utilisée pour calculer un amortissement sur la base d’un nombre d’unités, par exemple dans le cas de machines de production dont la durée de vie est préétablie. Sur la page **Tables d’amortissement**, vous saisissez le nombre d’unités pouvant être produites au cours de chaque période (mois, trimestre, année ou période comptable).  
-
-### <a name="to-set-up-user-defined-depreciation-methods"></a>Pour définir des méthodes d’amortissement paramétrables
-
-Sur la page **Table amortissement**, vous pouvez configurer des méthodes d’amortissement paramétrables. Par exemple, vous pouvez définir l’amortissement en fonction du nombre d’unités.  
-
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tables d’amortissement**, puis choisissez le lien associé.  
-2. Sur la page **Liste des tables amortissement**, sélectionnez l’action **Nouveau**.  
-3. Sur la page **Fiche table amortissement**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-> [!TIP]
-> Utilisez la fonction **Créer une table Somme des chiffres** pour définir une table d’amortissement basée sur la méthode *Somme des chiffres*.
-
-Avec la méthode *Somme des chiffres*, si une immobilisation est amortie sur 4 ans, l’amortissement pour chaque année est calculé de la manière suivante :
-
-Somme des chiffres = 1 + 2 + 3 + 4 = 10 Amortissement :
-
-* Année 1 = 4/10  
-* Année 2 = 3/10  
-* Année 3 = 2/10  
-* Année 4 = 1/10  
-
-### <a name="example---user-defined-depreciation"></a>Exemple - Amortissement défini par l’utilisateur
-
-Vous souhaitez utiliser une méthode d’amortissement vous permettant d’amortir des immobilisations de manière accélérée dans le cadre de l’impôt sur le revenu.  
-
-Pour le calcul de l’impôt, utilisez les taux d’amortissement suivants pour une immobilisation ayant une durée de vie de trois ans :  
-
-* Année 1 : 25 %  
-* Année 2 : 38 %  
-* Année 3 : 37 %  
-
-Le coût d’acquisition est de 100 000 DS et la durée d’amortissement est de cinq ans. L’amortissement est calculé tous les ans.  
-
-| Date | Type compta. immo. | Jours | Montant | Valeur comptable |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Coût acquisition |(Date début amortissement) |100 000,00 |100 000,00 |
-| 31/12/20 |Amortissements |360 |-25 000,00 |75,000.00 |
-| 31/12/21 |Amortissements |360 |-38 000,00 |37,000.00 |
-| 31/12/22 |Amortissements |360 |-37 000,00 |0 |
-| 31/12/23 |Amortissements |Aucun |Aucun |0 |
-| 31/12/24 |Amortissements |Aucun |Aucun |0 |
-
-Si vous utilisez une méthode paramétrable, les champs **Date premier amortissement** et **Date début amortissement** doivent être renseignés sur la page **Lois d’amortissement immo** pour l’immobilisation spécifique. Le champ **Date premier amortissement** et le contenu du champ **Base période** sur la page **Tables d’amortissement** permettent de déterminer les intervalles de temps à utiliser pour le calcul de l’amortissement. Cela garantit que l’application commence à l’aide du pourcentage spécifié le même jour pour toutes les immobilisations. Le champ **Date début amortissement** permet de calculer le nombre de jours d’amortissement.  
-
-Dans l’exemple précédent, les champs **Date premier amortissement** et **Date début amortissement** seraient définis sur 01/01/20 dans la page **Lois d’amortissement immo.** pour l’immobilisation spécifique. Toutefois, en supposant que le champ **Date premier amortissement** contienne la date 01/01/20 et que le champ **Date début amortissement** indique la valeur 01/04/20, le résultat serait le suivant :  
-
-| Date | Type compta. immo. | Jours | Montant | Valeur comptable |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Coût acquisition |(Date début amortissement) |100 000,00 |100 000,00 |
-| 31/12/20 |Amortissements |270 |-18 750,00 |81,250.00 |
-| 31/12/21 |Amortissements |360 |-38 000,00 |42,250.00 |
-| 31/12/22 |Amortissements |360 |-37 000,00 |6,250.00 |
-| 31/12/23 |Amortissements |90 |-6 250,00 |0 |
-| 31/12/24 |Amortissements |Aucun |Aucun |0 |
 
 ## <a name="half-year-convention-depreciation"></a>Amortissement selon la règle de la demi-année
 

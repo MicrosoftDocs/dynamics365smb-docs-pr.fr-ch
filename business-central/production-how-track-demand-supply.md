@@ -1,6 +1,6 @@
 ---
-title: Procédure de suivi des relations entre l’offre et la demande | Microsoft Docs
-description: À partir d’un document d’offre ou de demande dans le réseau d’ordres, vous pouvez suivre la demande de commande (quantité chaînée), les prévisions, les commandes ouvertes vente ou les paramètres de planification (quantité non chaînée) qui ont donné lieu à la ligne planning en question.
+title: Suivre les relations entre l’offre et la demande
+description: Cette rubrique explique les différentes manières de suivre les relations entre la demande et l’offre, telles que le suivi des articles associés et le traitement des éléments de planning non suivis.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8ff7653ec28e70c13842f9b66bff91b7d8b48f98
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ccf2b753e11d0f6a23235125e99f58a011606788
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787642"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435309"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Suivre les relations entre l’offre et la demande
 À partir d’un document d’offre ou de demande dans le réseau d’ordres, vous pouvez suivre la demande de commande (quantité chaînée), les prévisions, les commandes ouvertes vente ou les paramètres de planification (quantité non chaînée) qui ont donné lieu à la ligne planning en question.
@@ -27,7 +27,7 @@ Par l’intermédiaire des systèmes de planification et de réservation, le cha
 
 La procédure suivante décrit comment chaîner des articles liés sur un ordre de fabrication planifié ferme. La procédure est similaire pour tous les autres types de commande, et à partir des lignes feuille planning.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifié ferme**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. planifié ferme**, puis sélectionnez le lien associé.
 2. Ouvrez l’O.F. planifié ferme approprié dans la liste.
 3. Sur le raccourci **Lignes**, choisissez l’action **Fonctions**, puis l’action **Chaînage**.
 

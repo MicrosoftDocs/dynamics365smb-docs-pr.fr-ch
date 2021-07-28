@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5060724f27f842e06a2e8641605c1c3011d0cd9c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5714e128a4295251c080ed2e61027e5a01ac8fa8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774418"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435887"
 ---
 Dans [!INCLUDE[prod_short](../../../includes/prod_short.md)], vous pouvez créer des relances livraison lorsqu'un achat n'a pas été livré comme prévu. Vous pouvez créer une relance livraison unique manuellement, ou vous pouvez générer des relances livraison pour toutes les livraisons échues.  
 
@@ -18,7 +18,7 @@ Dans [!INCLUDE[prod_short](../../../includes/prod_short.md)], vous pouvez créer
 
 ## <a name="to-create-a-delivery-reminder-manually"></a>Pour créer une relance livraison manuellement  
 
-1. Choisissez l'icône ![Icône Ampoule qui ouvre la fonction Tell Me](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relance livraison**, puis sélectionnez le lien associé.  
+1. Choisissez l'![icône Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Relance livraison**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
 3. Sur la page **Relance livraison**, renseignez les champs comme décrit dans le tableau ci-dessous.  
 

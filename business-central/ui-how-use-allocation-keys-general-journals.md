@@ -1,6 +1,6 @@
 ---
-title: Utiliser les clés de ventilation dans les feuilles comptabilité | Microsoft Docs
-description: En savoir plus sur l’utilisation des clés de ventilation dans les feuilles.
+title: Utiliser les clés de ventilation dans les feuilles de comptabilité
+description: Vous pouvez ventiler une écriture dans une feuille comptabilité dans différents comptes lorsque vous validez la feuille.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2760b53bfa1e277d4c4763810d580f5b66a223dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 98316cbaf22546a9a2d01329fa1e242e219a1460
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772269"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435232"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Utiliser les clés de ventilation dans les feuilles de comptabilité
 Vous pouvez ventiler une écriture dans une feuille comptabilité dans différents comptes lorsque vous validez la feuille. La ventilation peut être effectuée par quantité, pourcentage ou montant.
 
 ## <a name="to-set-up-allocation-keys"></a>Pour définir des clés de ventilation
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille abonnement**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille récurrente**, puis sélectionnez le lien associé.
 2. Sélectionnez le champ **Nom de la feuille** pour ouvrir la page **Noms feuilles comptabilité**.
 3. Vous pouvez soit modifier les ventilations sur un lot existant dans la liste ou créer un lot avec des ventilations.
    * Pour créer un lot, sélectionnez l’action **Nouveau**, et passez à l’étape suivante.
@@ -38,7 +38,7 @@ Vous pouvez ventiler une écriture dans une feuille comptabilité dans différen
 11. Validez la feuille.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Pour modifier une clé de ventilation déjà configurée
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille abonnement**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille récurrente**, puis sélectionnez le lien associé.
 2. Sur la page **Feuille récurrente**, sélectionnez la feuille contenant la ventilation.
 3. Sélectionnez la ligne de la ventilation, puis sélectionnez l’action **Ventilations**.
 4. Modifiez les champs appropriés, puis cliquez sur le bouton **OK**.

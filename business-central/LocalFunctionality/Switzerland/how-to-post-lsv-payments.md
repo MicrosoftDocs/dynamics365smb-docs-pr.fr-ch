@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59490be7066d76ca9d205a61fbe9b5924510f164
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4df119680c453db8e5f3b1bdc4ad8d3cb3d750b6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783605"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435697"
 ---
 # <a name="post-lsv-payments"></a>Valider les paiements LSV+
 Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschrift Verfahren (LSV+) de la banque.  
 
 ## <a name="to-post-lsv-payments"></a>Pour valider les paiements LSV+  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles règlement**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles règlement**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la feuille requise, puis cliquez sur l'action **Modifier journal**.  
 
     > [!NOTE]  

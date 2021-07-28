@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a29cea15cba15da1bc68816e07f76de59f43958b
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: c2c5dbf6dc94980e579de8b2a9bbecaca7cfeb16
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216143"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435034"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Recherche d’écritures associées pour les documents validés 
 
@@ -41,7 +41,7 @@ La page **Rechercher des écritures** comprend tous les documents et écritures 
 <!--
  There are two ways to open this page:
 
-- Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
+- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
 
     With this way, the **Find Entries** page might be empty, and you'll have to start searching for entries from scratch.
     
@@ -73,7 +73,7 @@ Après avoir effectué une sélection, entrez les informations de recherche pert
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation de Business Central](ui-work-product.md)  
+[Utilisation de Business Central](ui-work-product.md)  
 [Ajouter une action de page à votre Tableau de bord](ui-bookmarks.md)  
 [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
 

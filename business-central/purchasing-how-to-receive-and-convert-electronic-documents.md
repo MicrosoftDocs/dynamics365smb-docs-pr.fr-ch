@@ -1,6 +1,6 @@
 ---
-title: Recevoir et convertir des documents électroniques | Microsoft Docs
-description: Vous pouvez recevoir des documents électroniques directement des partenaires commerciaux ou d’un service OCR.
+title: Recevoir et convertir des documents électroniques
+description: Cette rubrique décrit comment recevoir des documents électroniques directement des partenaires commerciaux ou d’un service OCR.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 17a03f58ad9cca702423efe6e8810cffe25a7e81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bba45239906820f4c56b948d80a46c8ca427a342
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772569"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435099"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Recevoir et convertir des documents électroniques
 La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge la réception de factures et d’avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d’échange de documents. Pour recevoir une facture d’un fournisseur en tant que document électronique PEPPOL, traitez le document sur la page Documents entrants pour le convertir en facture achat ou en ligne feuille comptabilité dans [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -41,7 +41,7 @@ La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] prend e
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Pour recevoir une facture électronique et la convertir en une facture achat  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Documents entrants**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Documents entrants**, puis choisissez le lien associé.  
 
 2.  Sélectionnez la ligne de l’enregistrement du document entrant qui représente une nouvelle facture électronique entrante, puis sélectionnez l’action **Modifier**.  
 

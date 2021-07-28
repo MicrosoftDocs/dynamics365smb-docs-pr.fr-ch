@@ -5,16 +5,16 @@ author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: 01bfa8829b1699d4f1c2a8da4e9e57d016fe12ca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e42dd99f10bb1ddb9b3345b96929a62220bf157e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774195"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325079"
 ---
-# <a name="enabling-upcoming-features-ahead-of-time"></a>Activer les fonctionnalités à venir à l’avance
+# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Activer les fonctionnalités inédites et celles à venir à l’avance
 
 Certaines nouvelles fonctionnalités peuvent être activées à l’avance, vous permettant d’en profiter le plus tôt possible. L’activation précoce des fonctionnalités vous donne le temps de tester et de préparer votre organisation au changement.
 

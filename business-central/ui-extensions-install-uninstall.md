@@ -1,6 +1,6 @@
 ---
-title: Installation et désinstallation d’extensions dans Business Central | Microsoft Docs
-description: Installation et désinstallation d’extensions dans Business Central.
+title: Installation et désinstallation d’extensions dans Business Central | Microsoft Docs
+description: Installation et désinstallation d’extensions dans Business Central.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 564b9574188acd63acaa660f4a440be791846ef7
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 09d1998bcd8cdf522b1533fe4768a0bbf0aca776
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216220"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435051"
 ---
-# <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installation et désinstallation d’extensions dans Business Central
+# <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installation et désinstallation d’extensions dans Business Central
 
-Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en installant des extensions qui, par exemple, ajoutent des fonctionnalités, modifient le comportement de l’application, ou vous permettent d’accéder à de nouveaux services en ligne. Pour plus d’informations, voir [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md).
+Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en installant des extensions qui, par exemple, ajoutent des fonctionnalités, modifient le comportement de l’application, ou vous permettent d’accéder à de nouveaux services en ligne. Pour plus d’informations, voir [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md).
 
 > [!NOTE]
 > Pour installer des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez soit être membre du groupe d’utilisateurs EXTEND. MGT. - ADMIN ou l’ensemble d’autorisation EXTEND. MGT. - ADMIN doit vous être accordé. Si vous êtes un administrateur, vous pouvez attribuer des groupes d’utilisateurs et des autorisations à d’autres utilisateurs de votre entreprise.
@@ -28,11 +28,11 @@ Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en installan
 > Pour utiliser les fonctionnalités fournies par une extension, telles que l’ouverture de pages, la production de rapports, la sélection d’actions, etc., vous devez disposer des jeux d’autorisations installés avec cette extension.
 
 > [!NOTE]  
-> L’ensemble d’autorisations **EXTEND. MGT. - ADMIN** a été introduit dans la première vague de lancement de Business Central 2021 pour remplacer l’ensemble d’autorisations **D365 EXTENSION MGT** des versions antérieures.
+> L’ensemble d’autorisations **EXTEND. MGT. - ADMIN** a été introduit dans la première vague de lancement de Business Central 2021 pour remplacer l’ensemble d’autorisations **D365 EXTENSION MGT** des versions antérieures.
 
 ## <a name="installing-an-extension"></a>Installation d’une extension
 
-La page **Gestion des extensions** vous permet de gérer les extensions. Vous pouvez accéder à cette page à partir de la page d’accueil. Sinon, choisissez l’icône **Page ou état pour la recherche** ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") dans le coin supérieur droit, entrez **Extension**, puis sélectionnez le lien associé.  
+La page **Gestion des extensions** vous permet de gérer les extensions. Vous pouvez accéder à cette page à partir de la page d’accueil. Sinon, choisissez l’icône **Page ou état pour la recherche** ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") dans le coin supérieur droit, entrez **Extension**, puis choisissez le lien associé.  
 
 Vous pouvez obtenir de nouvelles extensions depuis le marché à l’adresse [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Ici, vous trouverez toutes les extensions disponibles pour [!INCLUDE[prod_short](includes/prod_short.md)], et vous pourrez obtenir des applications, des extensions et des packs de contenu pour d’autres produits Microsoft. Définissez les filtres appropriés, observez les informations pour chaque extension et obtenez une extension pour votre [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -86,8 +86,8 @@ Certaines extensions sont requises. Vous ne pouvez pas les désinstaller à part
 
 ## <a name="see-also"></a>Voir aussi
 
-[Personnaliser Business Central](ui-customizing-overview.md)  
-[Extensions Business Central par d’autres fournisseurs](ui-extensions-other.md)  
+[Personnaliser Business Central](ui-customizing-overview.md)  
+[Extensions Business Central par d’autres fournisseurs](ui-extensions-other.md)  
 [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md)  
 [Migration des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  

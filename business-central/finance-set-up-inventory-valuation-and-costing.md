@@ -1,18 +1,18 @@
 ---
-title: Configuration de l’évaluation du stock | Microsoft Docs
-description: Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
+title: Configuration de l’évaluation du stock
+description: Pour vous assurer que les coûts ajustés sont enregistrés correctement, vous devez configurer plusieurs champs et pages avant de commencer à effectuer des transactions article.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2194a29247b6ec3c2ee87dfbfe6631f433d0514e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fa04fa90e749434d6ccf19e10e1a7daa1a4eaba8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783737"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327154"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Configuration de l’évaluation du stock
 
@@ -45,7 +45,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Pratiques de configuration recommandées : mode évaluation stock](setup-best-practices-costing-method.md)  
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)  
 [Détails de conception : Modifier le mode évaluation stock pour les articles](design-details-changing-costing-methods.md)  
-[Utilisation de Business Central](ui-work-product.md)  
+[Utilisation de Business Central](ui-work-product.md)  
 [Finances](finance.md)  
 
 

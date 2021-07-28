@@ -1,6 +1,6 @@
 ---
-title: Gestion des relations| Microsoft Docs
-description: Les fonctions de gestion des relations dans Business Central prennent en charge vos efforts en matière de vente et vous permettent d’accéder à des informations sur les contacts et les prospects afin de pouvoir servir vos clients efficacement.
+title: Gestion des relations
+description: Les fonctions de gestion des relations prennent en charge vos efforts en matière de vente et vous permettent d’accéder à des informations sur les contacts et les prospects afin de pouvoir servir vos clients efficacement.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3f3a6e729adcb5057b52aebd996778e74c83e01d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f37fa1be83c422062af1aafa7c19a36ee0455a2e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780622"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325701"
 ---
 # <a name="managing-relationships"></a>Gestion des relations
 Les fonctionnalités de gestion des relations de [!INCLUDE[prod_short](includes/prod_short.md)] vous aident à gérer et prendre en charge vos efforts de vente. Grâce à elles, vous avez accès à des informations complètes et pertinentes qui vous permettent de focaliser vos interactions sur les segments client/contact favoris.
@@ -34,7 +34,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Définir des segments pour sélectionner un groupe de contacts en fonction de critères spécifiques, tels que le secteur auquel les contacts appartiennent.|[Gestion des segments](marketing-segments.md)|
 |Traiter les prospects entrants en créant des opportunités et en les associant à des vendeurs afin de pouvoir suivre les ventes potentielles.|[Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)|
 |Créer des plans marketing pour identifier, attirer et fidéliser des clients.|[Gestion de campagnes marketing](marketing-campaigns.md)|
-|Utiliser Dynamics 365 Sales for Customer Engagement et bénéficier de l’intégration parfaite dans le processus allant du prospect à l’encaissement à l’aide de Business Central pour les activités principales, telles que le traitement des commandes, la gestion des stocks et de vos finances.|[Intégration à Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
+|Utiliser Dynamics 365 Sales for Customer Engagement et bénéficier de l’intégration parfaite dans le processus allant du prospect à l’encaissement à l’aide de Business Central pour les activités principales, telles que le traitement des commandes, la gestion des stocks et de vos finances.|[Intégration à Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

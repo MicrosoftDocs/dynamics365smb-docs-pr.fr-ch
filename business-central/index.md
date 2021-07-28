@@ -9,18 +9,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9042f49795f5ee6bb9e0bced2b8ba48ba1e093b4
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: e84f9df3d688ccd6e6355f90e3bf76069b371d83
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115276"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341373"
 ---
 # <a name="welcome-to-prod_long"></a>Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] est une solution de gestion d’entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. Hautement adaptable et riche en fonctionnalités, [!INCLUDE[prod_short](includes/prod_short.md)] permet aux entreprises de gérer leurs activités, y compris la finance, la fabrication, l’expédition, la gestion de projets, les services, etc. Celles-ci peuvent facilement ajouter des fonctionnalités adaptées aux types d’opérations exécutés et personnalisées pour une prise en charge des secteurs hautement spécialisés.  
 
-Si vous avez déjà [!INCLUDE[prod_short](includes/prod_short.md)], connectez-vous à [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Autrement, [obtenez la vue d’ensemble](https://dynamics.microsoft.com/business-central/overview/), [faites la visite guidée](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), puis [démarrez une évaluation gratuite](https://go.microsoft.com/fwlink/?linkid=847861). Pour plus d’informations sur l'intégration dans [!INCLUDE[prod_short](includes/prod_short.md)], voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
+Si vous avez déjà [!INCLUDE[prod_short](includes/prod_short.md)], connectez-vous à [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Autrement, [obtenez la vue d’ensemble](https://dynamics.microsoft.com/business-central/overview/), [faites la visite guidée](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), puis [démarrez une évaluation gratuite](https://go.microsoft.com/fwlink/?linkid=847861). Pour plus d’informations sur l’intégration dans [!INCLUDE[prod_short](includes/prod_short.md)], voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
 
 > [!TIP]
 > Avez-vous atterri ici depuis [!INCLUDE [prod_short](includes/prod_short.md)] ? Si vous ne savez pas où trouver ce que vous cherchez, vous pouvez **filtrer par titres** dans le volet de navigation à gauche, ou vous pouvez utiliser le champ **Rechercher** en haut de la fenêtre du navigateur.  
@@ -29,7 +29,7 @@ Si vous avez déjà [!INCLUDE[prod_short](includes/prod_short.md)], connectez-vo
 
 ## <a name="overview"></a>Aperçu
 
-[!INCLUDE[prod_short](includes/prod_short.md)] est rapide à mettre en œuvre, facile à configurer et la simplicité guide les innovations dans la conception du produit, le développement, l’implémentation et la convivialité. Dans le panneau de navigation à gauche, vous trouverez des informations sur l’utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans votre société. Trouvez des liens vers des descriptions des fonctionnalités les plus couramment utilisées dans la section [Processus d'entreprise](#business-processes).  
+[!INCLUDE[prod_short](includes/prod_short.md)] est rapide à mettre en œuvre, facile à configurer et la simplicité guide les innovations dans la conception du produit, le développement, l’implémentation et la convivialité. Dans le panneau de navigation à gauche, vous trouverez des informations sur l’utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans votre société. Trouvez des liens vers des descriptions des fonctionnalités les plus couramment utilisées dans la section [Processus d’entreprise](#business-processes).  
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
@@ -48,7 +48,7 @@ Les sections suivantes présentent des articles clés qui peuvent vous aider à 
 - [Administration](admin-setup-and-administration.md)
 - [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)
 - [Détails de conception de l’application](design-details-application-design.md)
-- [Personnaliser Business Central](ui-customizing-overview.md)
+- [Personnaliser Business Central](ui-customizing-overview.md)
 - [Fonctionnalités d’entreprise](across-business-functionality.md)
 
   - [Finances](finance.md)
@@ -88,12 +88,21 @@ Vous pouvez également visionner des vidéos de fonctionnalités nouvelles et co
 - [Feuille de route Microsoft Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/)
 - [Microsoft Partner Network \(requiert un compte d’adhésion Microsoft Partner Network\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Soyez informé des changements via un flux RSS
+
+Pour vous abonner à un flux RSS (Really Simple Syndication) de toutes les mises à jour apportées au contenu sur docs.microsoft.com à travers le contenu des fonctionnalités commerciales pour [!INCLUDE [prod_short](includes/prod_short.md)], utilisez le lien suivant :
+
+[Flux RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-bc-app%27)&locale=en-us)
+
+> [!NOTE]
+> Le flux RSS renvoie une liste des 100 articles les plus récemment mis à jour. La liste n’est pas triée par date.  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## <a name="see-also"></a>Voir aussi
 
 [Dynamics 365 Business Central sur Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Mise en route de Business Central](ui-get-ready-business.md)  
+[Mise en route de Business Central](ui-get-ready-business.md)  
 [Visitez notre vidéothèque](across-videos.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
@@ -102,14 +111,12 @@ Vous pouvez également visionner des vidéos de fonctionnalités nouvelles et co
 [Ressources pour l’Aide et le support](product-help-and-support.md)  
 [Conformité [!INCLUDE[prod_short](includes/prod_short.md)]](compliance/compliance-overview.md)  
 [Termes des services [!INCLUDE[prod_short](includes/prod_short.md)] Online](compliance/compliance-service-compliance.md#service-terms)  
-[Mises à jour majeures et mises à jour mineures de Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
+[Mises à jour majeures et mises à jour mineures de Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Documentation Dynamics 365](/dynamics365/)  
 [Dynamics 365 Business Central sur microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Présentation de docs.microsoft.com (article de blog original)](/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
-<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

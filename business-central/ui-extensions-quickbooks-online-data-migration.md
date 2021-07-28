@@ -1,6 +1,6 @@
 ---
-title: Extension QuickBooks Online Data Migration | Microsoft Docs
-description: Décrit comment utiliser l’extension pour migrer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Online dans Business Central.
+title: Extension de migration des données QuickBooks Online
+description: Décrit comment utiliser l’extension pour migrer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Online dans Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6481eeb46116d02240c6f6a0201cb633f572822a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: da9317d338c095f20ab18fb157bec0270d4a9c8f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785025"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434951"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Extension de migration des données QuickBooks Online
 
@@ -54,7 +54,7 @@ Si les transactions de QuickBooks Online ont des montants de taxe, vous devez cr
 
 La mise en route est simple. Il vous suffit d’exécuter le guide d’installation assistée **Migration des données**. Voici comment :
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez **Migrer des données métier**.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration assistée**, puis choisissez **Migrer les données de l’entreprise**.
 2. Suivez les instructions à chaque étape du guide d’installation assistée.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Que faire après une migration des données ?

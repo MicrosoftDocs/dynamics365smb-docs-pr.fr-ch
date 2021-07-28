@@ -1,6 +1,6 @@
 ---
-title: Configurer l’échange de données | Microsoft Docs
-description: Configurez l’infrastructure d’échange de données dans Business Central.
+title: Configurer l’échange de données pour envoyer et recevoir des fichiers
+description: Configurez l’infrastructure d’échange de données afin d’échanger les données avec les fichiers externes ; et envoyez et recevez des documents électroniques ou importer et exporter des fichiers bancaires.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 70672fcab8c2614de58bd152288ba3543fe6955a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0b94d258a07ba65c81f329144d12a8b4e10093a9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787097"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325108"
 ---
 # <a name="setting-up-data-exchange"></a>Configuration de l’échange de données
 Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et exporter des fichiers bancaires, vous devez configurer l’infrastructure d’échange de données pour traiter les fichiers concernés. En outre, vous devez configurer des zones associées, telles que les clients à qui vous envoyez des factures électroniques ou l’extension AMC Banking 365 Fundamentals si vous utilisez le fournisseur externe de services de conversion de vos fichiers bancaires. Pour plus d’informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  

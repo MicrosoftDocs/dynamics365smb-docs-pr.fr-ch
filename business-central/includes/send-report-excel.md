@@ -1,0 +1,2 @@
+> [!TIP]
+> **Et les rapports ?** Eh bien, vous pouvez exporter les résultats du rapport dans un fichier Excel pour afficher l’ensemble de données complet, y compris toutes les colonnes. Le fichier Excel peut vous aider à valider que le rapport renvoie les données attendues. Pour exporter un rapport, exécutez le rapport et sélectionnez **Envoyer à** > **Document Microsoft Excel (données uniquement)** sur la page de demande. Pour plus d’informations, consultez [Utiliser les états - Envoyer vers Excel](../ui-work-report.md#send-to-excel).

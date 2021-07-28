@@ -1,6 +1,6 @@
 ---
 title: FAQ Teams
-description: Obtenez des réponses à certaines questions courantes sur l’utilisation de Teams et de Business Central.
+description: Obtenez des réponses à certaines questions courantes sur l’utilisation de Teams et de Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: f3c9626fa73247b2109e5f179aef405e80b44b07
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 325783df3cacd37250c1efa75320386ef9c4cb19
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074655"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341523"
 ---
 # <a name="teams-faq"></a>FAQ Teams
 
@@ -78,7 +78,7 @@ Il n’y a actuellement aucune intégration des contrôles Teams ou présence de
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>[!INCLUDE [prod_short.md](includes/prod_short.md)] est-il compatible avec l’application mobile Teams ?
 
-Oui. L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] peut être installée à partir de l’application de bureau ou du navigateur Teams, ou par un administrateur pour tous les utilisateurs. Une fois installé, l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] est automatiquement disponible dans Teams pour iOS et Android. Sur les appareils mobiles, vous ne pouvez afficher que les fiches envoyées par d’autres personnes, accéder aux détails ou afficher la fiche pour profiter pleinement de l’expérience de l’application mobile [!INCLUDE [prod_short.md](includes/prod_short.md)]. Vous ne pouvez pas coller des liens qui se développent dans des fiches lors de la rédaction de messages ou la recherche de contacts. Pour connaître la configuration minimale requise pour le mobile, consultez [Configuration minimale requise pour l’utilisation de Business Central](product-requirements.md).
+Oui. L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] peut être installée à partir de l’application de bureau ou du navigateur Teams, ou par un administrateur pour tous les utilisateurs. Une fois installé, l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] est automatiquement disponible dans Teams pour iOS et Android. Sur les appareils mobiles, vous ne pouvez afficher que les fiches envoyées par d’autres personnes, accéder aux détails ou afficher la fiche pour profiter pleinement de l’expérience de l’application mobile [!INCLUDE [prod_short.md](includes/prod_short.md)]. Vous ne pouvez pas coller des liens qui se développent dans des fiches lors de la rédaction de messages ou la recherche de contacts. Pour connaître la configuration minimale requise pour le mobile, consultez [Configuration minimale requise pour l’utilisation de Business Central](product-requirements.md).
 
 ### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams est-elle identique à l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour iOS et Android ?
 
@@ -86,14 +86,14 @@ Non. L’application pour Teams est un complément pour Microsoft Teams et exclu
 
 Les utilisateurs mobiles sont encouragés à installer à la fois l’application mobile et l’application pour que Teams tire le meilleur parti de [!INCLUDE [prod_short.md](includes/prod_short.md)]. Avec les deux installés, vous pouvez choisir l’action **Ouvrir dans une nouvelle fenêtre** sur une fiche dans Teams pour ouvrir les détails de la fiche dans l’application mobile [!INCLUDE [prod_short.md](includes/prod_short.md)]. Pour plus d’informations sur l’installation de [!INCLUDE [prod_short.md](includes/prod_short.md)] et les applications mobiles Teams, voir :
 
-- [Obtenir Business Central sur votre périphérique mobile](install-mobile-app.md)
+- [Obtenir Business Central sur votre périphérique mobile](install-mobile-app.md)
 - [Télécharger l’application mobile Teams](https://support.microsoft.com/office/download-the-mobile-app-for-teams-5940ebdc-0082-4fb1-83c4-751edc23dcb5) sur le support Microsoft
 
 ### <a name="does-the-prod_shortmd-app-work-in-all-teams-clients"></a>L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] est-elle compatible avec tous les clients Teams ?
 
 Non. L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams n’est pas prise en charge lorsqu’elle est installée en tant que package pour macOS ou Linux. Sur ces plates-formes, vous pouvez accéder à Teams à la place à l’aide d’un navigateur pris en charge.
 
-Pour connaître la configuration minimale requise dans [!INCLUDE [prod_short.md](includes/prod_short.md)], voir [Configuration minimale requise pour l’utilisation de Business Central](product-requirements.md#teams).
+Pour connaître la configuration minimale requise dans [!INCLUDE [prod_short.md](includes/prod_short.md)], voir [Configuration minimale requise pour l’utilisation de Business Central](product-requirements.md#teams).
 
 Pour plus d’informations sur le choix des clients Teams et comment les installer, voir [Obtenir des clients pour Microsoft Teams](/microsoftteams/get-clients) dans la documentation Teams.
 
@@ -325,7 +325,10 @@ Les invités n’ont pas accès au marché des applications pour installer eux-m
 
 [Vue d’ensemble de l’intégration [!INCLUDE [prod_short](includes/prod_short.md)] et Microsoft Teams ](across-teams-overview.md)  
 [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)  
+[Recherche de clients, de fournisseurs et autres contacts dans Microsoft Teams](across-search-contacts-teams.md)  
+[Partager des enregistrements dans Microsoft Teams](across-working-with-teams.md)  
 [Résolution des incidents dans Teams](admin-teams-troubleshooting.md)  
+[Modification de la société et d’autres paramètres dans Teams](across-teams-settings.md)  
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -1,6 +1,6 @@
 ---
-title: Transfert et validation des écritures de coûts | Microsoft Docs
-description: Avant de définir des affectations de coûts, vous devez comprendre d’où proviennent les écritures de coûts.
+title: Transfert et validation des écritures de coûts
+description: Avant de définir des affectations de coûts, vous devez comprendre les différentes sources d’où proviennent les écritures de coûts.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 44e4cd72043d2079a969292cfd71f16c393da582
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ea072af165ba95ce8a166bd174b4f826d7933d8c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770953"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435837"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transfert et validation des écritures de coûts
 Avant de définir des affectations de coûts, vous devez comprendre comment les écritures de coûts proviennent des sources suivantes :  
@@ -52,16 +52,16 @@ Avant d’exécuter le transfert des écritures comptables vers des écritures d
 
 ### <a name="to-prepare-the-transfer"></a>Pour préparer le transfert  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilité analytique**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité analytique**, puis choisissez le lien associé.  
 2.  Sur la page **Paramètres comptabilité analytique**, vérifiez que le champ **Date début pour transfert comptabilité** est défini sur la valeur appropriée.  
-3.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable des types de coûts**, puis sélectionnez le lien associé.  
+3.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable des types de coûts**, puis choisissez le lien associé.  
 4.  Sur la page **Fiche type de coût**, vérifiez que le champ **Plage compte général** est lié correctement de sorte que chaque type de coût récupère les écritures de la comptabilité.  
-5.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable**, puis sélectionnez le lien associé.  
+5.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
 6.  Pour chaque compte général approprié, sur la page **Fiche compte général**, dans le raccourci Comptabilité analytique, vérifiez que le champ **N° type coût** est lié correctement à un type de coût. Pour plus d’informations, voir [Configuration du contrôle de gestion](finance-set-up-cost-accounting.md).  
 7.  Vérifiez que toutes les écritures comptables appropriées comprennent des sections analytiques correspondant à un centre de coûts et à un coût associé.  
 
 ### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>Pour transférer les écritures comptables vers les écritures de coûts  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Transférer les écritures comptables vers CA**, puis choisissez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Transférer les écritures comptables vers CA**, puis sélectionnez le lien associé.  
 2.  Cliquez sur le bouton **Oui** pour démarrer le transfert. Le processus transfère toutes les écritures comptables qui n’ont pas déjà été transférées.  
 
     Lors du transfert, le processus crée des connexions dans les écritures des tables **Écriture de coûts** et **Registre de coûts**. Cela permet d’identifier l’origine des écritures de coûts.

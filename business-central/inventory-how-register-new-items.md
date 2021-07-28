@@ -1,6 +1,6 @@
 ---
-title: Créer des fiches article pour des biens ou des services| Microsoft Docs
-description: Vous créez des fiches article pour les services que vous vendez en heures et pour les marchandises physiques, comme les éléments d’assemblage, les produits finis, les composants, ou les matières premières que vous vendez de votre stock.
+title: Créer des fiches article pour des biens ou des services
+description: Vous créez des fiches article pour les services que vous vendez en heures et pour les marchandises physiques, comme les éléments d’assemblage, les produits finis que vous vendez de votre stock.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8948024ea1dc0bbbdbd6f2a2262e2616b35671e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785888"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435658"
 ---
 # <a name="register-new-items"></a>Enregistrer de nouveaux articles
 
@@ -40,7 +40,7 @@ La procédure suivante explique comment créer une fiche article à partir de z�
 
 ## <a name="to-create-a-new-item-card"></a>Pour créer une fiche article
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Sur la page **Articles**, sélectionnez l’action **Nouveau**.
 
     Si un seul modèle article existe, une nouvelle fiche article avec certains champs renseignés à l’aide des informations provenant du modèle s’ouvre.
@@ -77,7 +77,7 @@ Si vous souhaitez enregistrer des articles qui sont ensuite utilisés dans des o
 
 Si vous achetez le même article chez plusieurs fournisseurs, vous devez saisir, pour chacun des fournisseurs de cet article des informations concernant, par exemple, ses prix, ses délais, ses escomptes, etc.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Sélectionnez l’article concerné, puis cliquez sur l’action **Modifier**.  
 3. Sélectionnez l’action **Fournisseurs**.  
 4. Cliquez sur le champ **N° fournisseur**, puis sélectionnez le fournisseur à paramétrer pour l’article.  
@@ -98,7 +98,13 @@ Si vous avez enregistré une transaction pour un article, vous ne pouvez pas sup
 
 Lorsque vous enregistrez un nouvel article, vous verrez des champs liés à la gestion de l’entrepôt, en particulier sur le raccourci **Entrepôt**. Si votre organisation n’utilise pas les fonctionnalités de gestion d’entrepôt dans [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez alors ignorer ces champs.  
 
-Si votre organisation configure ultérieurement la gestion de l’entrepôt, dans la plupart des cas, vous devez ensuite revenir à chaque article existant pour vous assurer qu’il contient les bonnes informations dans les différents champs, afin que les processus d’entrepôt puissent s’exécuter comme prévu. Ces informations peuvent inclure des champs, tels que **Code classe entrepôt** ou **Code modèle rangement**. Pour plus d’informations, reportez-vous à [Détails de conception : Paramètres entrepôt](design-details-warehouse-setup.md).  
+Si votre organisation configure ultérieurement la gestion de l’entrepôt, dans la plupart des cas, vous devez ensuite revenir à chaque article existant pour vous assurer qu’il contient les bonnes informations dans les différents champs, afin que les processus d’entrepôt puissent s’exécuter comme prévu. Ces informations peuvent inclure des champs, tels que **Code classe entrepôt** ou **Code modèle rangement**. Pour plus d’informations, reportez\-vous à [Détails de conception : Paramètres entrepôt](design-details-warehouse-setup.md).  
+
+## <a name="planning"></a>Planning
+
+Lorsque votre entreprise utilise les processus de planification des approvisionnements dans [!INCLUDE [prod_short](includes/prod_short.md)], vous devez remplir les champs correspondants sur le raccourci **Planification**. Pour une introduction à la zone de planification, voir [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md).  
+
+Pour des exemples d’utilisation des champs du raccourci **Planification**, voir [Configurer des recommandations : paramètres de planification](setup-best-practices-planning-parameters.md).  
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -110,6 +116,12 @@ Si votre organisation configure ultérieurement la gestion de l’entrepôt, dan
 [Configuration de groupes comptabilisation](finance-posting-groups.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
+[À propos de la fonctionnalité Planification](production-about-planning-functionality.md)  
+[Pratiques de configuration recommandées : paramètres de planification](setup-best-practices-planning-parameters.md)  
+[Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
+[Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)  
+[Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)  
+[Détails de conception : paramètres de planification](design-details-planning-parameters.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

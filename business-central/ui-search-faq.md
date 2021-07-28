@@ -1,6 +1,6 @@
 ---
-title: Forum Aux Questions sur Tell Me | Microsoft Docs
-description: Cet article fournit des réponses aux questions que nos partenaires et clients posent souvent sur Tell Me.
+title: Foire aux questions sur la fonction Tell Me
+description: Cet article fournit des réponses aux questions que nos partenaires et clients posent souvent sur la fonction Tell Me.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 85b1f4f0b677baa5ca8a522acb1b383689f72e9e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 20493ffc3dd20da07d5f27602f4c766a0ebfbd87
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783224"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325878"
 ---
 # <a name="tell-me-faq"></a>FAQ Tell Me
 Cette rubrique répond aux questions que nos utilisateurs expérimentés posent souvent à propos de la fonctionnalité Tell Me.

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2f51679cfb1481632ea1f425e4a614764410c679
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d72025a95f6d12ab64ba6ec29de754bb9c318ab0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784482"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435812"
 ---
 # <a name="record-interactions-with-contacts"></a>Enregistrer les interactions avec les contacts
 La configuration de votre application pour enregistrer les interactions est constituée des tâches suivantes :
@@ -50,12 +50,12 @@ Vous pouvez effectuer les actions suivantes sur cette page :
 * Afficher le statut des interactions.
 * Marquer les interactions comme annulées.
 
-Vous pouvez supprimer les écritures journal interaction ayant été annulées. Pour supprimer des écritures journal interaction, sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer les écritures journal interaction annulées**, puis sélectionnez le lien associé et renseignez les informations.
+Vous pouvez supprimer les écritures journal interaction ayant été annulées. Pour supprimer les écritures journal interaction, sélectionnez l’icône ![Ampoule qui ouvre la fonction Fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Supprimer les écritures journal interaction annulées**, puis sélectionnez le lien associé et complétez les informations.
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
-[Utilisation de Business Central](ui-work-product.md)  
+[Utilisation de Business Central](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

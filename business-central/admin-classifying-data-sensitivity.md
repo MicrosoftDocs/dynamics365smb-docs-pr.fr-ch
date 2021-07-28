@@ -7,15 +7,15 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
-ms.openlocfilehash: 9c015d60d0f34b35b12e0a39ca8d2b99c6e09848
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/14/2021
+ms.openlocfilehash: b5df66798db4a77504176d03bd46156d5d99fc56
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773194"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326553"
 ---
-# <a name="classifying-data-sensitivity"></a>Classification de la sensibilité des données
+# <a name="classifying-data-sensitivity-fields"></a>Champs Classification de la sensibilité des données
 Pour classer les champs contenant des données sensibles ou personnelles, un partenaire Microsoft peut définir la propriété ```DataClassification``` des champs. Cela nécessite un accès aux tables de base de données, par le biais de l’environnement de développement ou en exécutant un script Windows PowerShell. Pour plus d’informations, voir [Classification des données](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 En tant que client, vous pouvez ajouter un deuxième niveau de classification en spécifiant des niveaux de sensibilité pour les données que vous stockez dans les champs standard et personnalisés. La classification de la sensibilité des données vous permet de savoir où vous conservez vos informations personnelles dans votre système, et de répondre facilement aux demandes des sujets des données. Par exemple, si un contact ou un client vous demande d’exporter ses données personnelles. Pour plus d’informations, voir [Réponse aux demandes relatives aux données personnelles](admin-responding-to-requests-about-personal-data.md).

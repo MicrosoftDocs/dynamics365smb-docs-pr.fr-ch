@@ -1,6 +1,6 @@
 ---
 title: Synchronisation et intégration des données | Microsoft Docs
-description: La synchronisation copie les données entre les tables Microsoft Dataverse et les enregistrements de Business Central et conserve les données à jour dans les deux systèmes.
+description: La synchronisation copie les données entre les tables Microsoft Dataverse et les enregistrements de Business Central et conserve les données à jour dans les deux systèmes.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: d568b9b40f2ed8db264db9736cf8e87f4165ea2c
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 247f1e7b2568cbe323af083ff03349d1afe3de72
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935101"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325225"
 ---
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronisation des données dans Business Central avec Microsoft Dataverse
+# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronisation des données dans Business Central avec Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Lorsque vous intégrez [!INCLUDE[prod_short](includes/cds_long_md.md)] avec [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez décider si vous souhaitez synchroniser les données dans les champs sélectionnés des enregistrements [!INCLUDE[prod_short](includes/prod_short.md)] (tels que les clients, contacts et les vendeurs) avec les lignes équivalentes dans [!INCLUDE[prod_short](includes/cds_long_md.md)] (tels que les comptes, les contacts et les utilisateurs). Selon le type de ligne, vous pouvez synchroniser les données de [!INCLUDE[prod_short](includes/cds_long_md.md)] vers [!INCLUDE[prod_short](includes/prod_short.md)], ou vice versa. Pour plus d’informations, reportez-vous à la rubrique [Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  

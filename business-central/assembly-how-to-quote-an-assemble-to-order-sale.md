@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 817699281ce0f3b7d057bb2e9ce4d85f97d67b48
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cd85a880bada8cc9e3ee2ce924919f06f0c5109c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772969"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435459"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Établissement d’un devis de vente Assembler pour commande
 Vous pouvez utiliser la gestion nomenclature d’assemblage pour personnaliser un élément d’assemblage sur la demande d’un client au cours du processus de vente. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +26,7 @@ Lorsque vous vendez tout autre type d’article, vous pouvez également créer u
 >  Comme tous les types de devis, les quantités sur les devis d’assemblage ne sont pas utilisées en termes de disponibilité, planification ou réservations.  
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Créer un devis pour un article à assembler pour commande  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Devis**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devis**, puis sélectionnez le lien associé.  
 2.  Créez une ligne devis avec une ligne pour un élément d’assemblage. Pour plus d’informations, voir [Créer des devis](sales-how-make-offers.md).  
 3.  Dans le champ **Quantité à assembler pour commande**, entrez la quantité entière.
 

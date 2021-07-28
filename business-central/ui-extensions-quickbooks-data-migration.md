@@ -1,6 +1,6 @@
 ---
-title: Extension QuickBooks Data Migration | Microsoft Docs
-description: Décrit comment utiliser l’extension pour importer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Desktop dans Business Central.
+title: Extension QuickBooks Data Migration
+description: Décrit comment utiliser l’extension pour importer des clients, des fournisseurs, des articles, et des comptes de QuickBooks Desktop dans Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d6b44ccfc11438930450dd86cab53736f00995c5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a7f6a3ac5fdbaf34cf4280be3b8520dde55c7c71
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785050"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434976"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Extension QuickBooks Data Migration
 
@@ -24,7 +24,7 @@ Pour plus d’informations, voir [Importation des données métier à partir d�
 
 ## <a name="data-from-quickbooks-desktop"></a>Date début QuickBooks Desktop
 
-Vous pouvez importer les données suivantes de QuickBooks Online vers Business Central :
+Vous pouvez importer les données suivantes de QuickBooks Online vers Business Central :
 
 - Clients  
 - Fournisseurs  
@@ -47,8 +47,8 @@ Une grande partie du processus de migration consiste à spécifier les comptes v
 - L’achat d’articles ou de service auprès d’un fournisseur  
 - Ajustements des écritures comptables  
 
-Business Central nécessite que les comptes généraux aient des numéros de compte. S’assurer que les numéros de compte sont affectés aux comptes dans QuickBooks.
-Si les transactions de QuickBooks ont des montants de taxe, vous devez créer un compte taxes pour vos administrations fiscales dans Business Central avant de pouvoir valider des transactions.
+Business Central nécessite que les comptes généraux aient des numéros de compte. S’assurer que les numéros de compte sont affectés aux comptes dans QuickBooks.
+Si les transactions de QuickBooks ont des montants de taxe, vous devez créer un compte taxes pour vos administrations fiscales dans Business Central avant de pouvoir valider des transactions.
 
 Afin d’obtenir vos données de l’application QuickBooks Desktop vous devez télécharger l’outil d’exportation de données Microsoft.  Les instructions de l’outils sont dans l’Assistant Migration de données dans [!INCLUDE[prod_short](includes/prod_short.md)]. L’outil se connectera à votre application QuickBooks et exporter les données applicables à un fichier .zip.  
 
@@ -57,12 +57,12 @@ Afin d’obtenir vos données de l’application QuickBooks Desktop vous devez t
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Recherche de l’extension QuickBooks Data Migration
 
-L’extension QuickBooks Data Migration est installée et prête à être utilisée comme partie intégrante du guide de configuration assistée Migration des données. Si vous êtes prêt à commencer et avez exporté vos données de QuickBooks, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis sélectionnez le lien associé. Choisissez **Migrer des données métier**, puis suivez les étapes du guide.  
+L’extension QuickBooks Data Migration est installée et prête à être utilisée comme partie intégrante du guide de configuration assistée Migration des données. Si vous êtes prêt à commencer maintenant et à exporter vos données depuis QuickBooks, choisissez l’![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration assistée**, puis choisissez le lien associé. Choisissez **Migrer des données métier**, puis suivez les étapes du guide.  
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Que faire après une migration des données ?
 
 Après avoir effectué une migration des données, les transactions ont le statut Non validé, vous pouvez les consulter et faire des ajustements. Pour consulter les transactions, accédez à la page où vous les trouveriez normalement. Par exemple, pour examiner les factures vente non validées, accédez à la page Factures vente. Pour consulter des feuilles paiement, accédez à la page Feuilles paiement.
-Il existe quelques éléments en particulier que vous devez effectuer : si les transactions dans QuickBooks avaient les montants de majoration ou de remise, vous devez ajouter manuellement les montants aux transactions associées dans Business Central avant de les valider.
+Il existe quelques éléments en particulier que vous devez effectuer : si les transactions dans QuickBooks avaient les montants de majoration ou de remise, vous devez ajouter manuellement les montants aux transactions associées dans Business Central avant de les valider.
 Si vous utilisez la taxe sur la valeur ajoutée (TVA), vous devez ajouter un groupe comptabilisation marché et un groupe comptabilisation produit au paramétrage de la validation de manière à pouvoir valider les montants TVA.
 Vérifiez les soldes de début des comptes du grand livre. QuickBooks ne stocke pas le solde actuel de tous les comptes, vous pouvez être amené à corriger les soldes d’ouverture.
 

@@ -1,6 +1,6 @@
 ---
-title: "Procédure : Importer des numéros de compensation d'une banque suisse"
-description: Les numéros de compensation bancaire sont les numéros uniques utilisés pour identifier chaque agence ou succursale bancaire dans l'annuaire bancaire. Ces informations sont nécessaires pour le paiement électronique. Ce fichier peut être téléchargé à partir du site Web SIX Interbank Clearing.
+title: "Procédure : Importer des numéros de compensation d'une banque suisse [CH]"
+description: Cette rubrique vous indique la procédure d'importation de numéros de compensation d'une banque suisse à l'aide de la version suisse de Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 2a3ab7601ffb736d6b8f3ad997a306bfb2c9b9b7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 85592d027ca90368bf8052587d3d5ed8700c96a5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779159"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435701"
 ---
-# <a name="import-swiss-bank-clearing-numbers"></a>Importer des numéros de compensation d'une banque suisse
+# <a name="import-swiss-bank-clearing-numbers-in-the-swiss-version"></a>Importer des numéros de compensation d'une banque suisse dans la version suisse
 Les numéros de compensation bancaire sont les numéros uniques utilisés pour identifier chaque agence ou succursale bancaire dans l'annuaire bancaire. Ces informations sont nécessaires pour le paiement électronique. Ce fichier peut être téléchargé à partir du site Web [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121).  
 
 Vous pouvez importer le fichier BC Bank Master - le fichier officiel des numéros de compensation bancaires suisses - pour mettre à jour les informations relatives au numéro de compensation bancaire dans l'annuaire bancaire. Lorsque vous importez le fichier de numéros de compensation bancaire, les données sont importées dans la table **Annuaire bancaire**, et les données existantes sont remplacées. Après avoir importé le fichier de numéros de compensation bancaire, vous pouvez définir le code établissement mis à jour pour les clients et les fournisseurs. Pour plus d'informations, voir la table Compte bancaire client et la table Compte bancaire fournisseur.  
 
 ## <a name="to-import-swiss-bank-clearing-numbers"></a>Pour importer des numéros de compensation d'une banque suisse  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Annuaire bancaire**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Annuaire bancaire**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Importer l'annuaire bancaire**.  
 3.  Dans la page **Importer l'annuaire bancaire**, dans le raccourci **Options**, sélectionnez le champ **Mettre à jour automatiquement les numéros de compensation** pour mettre à jour les numéros de compensation bancaire automatiquement.  
 4.  Choisissez le bouton **Imprimer** ou le bouton **Aperçu** pour importer les numéros de compensation bancaire, puis, dans la page **Ouvrir**, localisez le fichier que vous avez téléchargé depuis le site Web SIX Interbank Clearing.
@@ -36,7 +36,7 @@ La procédure suivante décrit comment définir des numéros d'établissement po
 
 ## <a name="to-define-bank-branch-numbers-for-customer-bank-accounts"></a>Pour définir des numéros d'établissement pour les comptes bancaires clients  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Clients**, puis sélectionnez le lien associé.  
 2.  Sélectionnez le client pour lequel vous souhaitez créer les informations d'un compte bancaire, puis sélectionnez l'action **Comptes bancaires**.  
 3.  Dans la page **Liste comptes bancaires client**, sélectionnez le compte bancaire requis, puis cliquez sur l'action **Modifier**.  
 4.  Sur le raccourci **Général**, renseignez le champ **Code établissement**. sélectionnez le numéro de l'agence ou de la succursale bancaire.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 980845c37f478b4608db4987196d2fddb49188f2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 11bc1fdc73b8452d938d33371236dcd2a0c8c2bd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776563"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435693"
 ---
 # <a name="print-an-inventory-picking-list-from-a-sales-order-in-the-swiss-version"></a>Imprimer une liste des prélèvements de stock à partir d'une commande vente dans la version suisse
 
@@ -30,7 +30,7 @@ La liste des prélèvements inclut uniquement les articles dont la quantité d'e
 
 ## <a name="to-print-an-inventory-picking-list-from-a-sales-order"></a>Pour imprimer la liste des prélèvements de stock à partir d'une commande vente  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez la commande vente requise, puis cliquez sur l'action **Modifier**.  
 3. Choisissez l'action **Liste des prélèvements**.  
 4. Sur le raccourci **Options**, dans le champ **Nombre de copies**, entrez le nombre de copies requis.  

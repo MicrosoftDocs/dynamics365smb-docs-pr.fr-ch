@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5cfc99bcbdf9a5037e8c87686cd65badf4ce544c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: de2cf5a9a1e1c0967fb6bbf9a35b4c8ec4aae5dd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771497"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435169"
 ---
 Pour créer des relances livraison, vous devez configurer ce qui suit :  
 
@@ -21,7 +21,7 @@ Chaque condition de relance livraison a deux niveaux ou plusieurs niveaux de rel
 
 ## <a name="to-set-up-delivery-reminder-terms"></a>Pour configurer des conditions de relance livraison  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Conditions de relance livraison**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Conditions de relance livraison**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
 3. Renseignez les champs comme indiqué dans le tableau suivant.  
 

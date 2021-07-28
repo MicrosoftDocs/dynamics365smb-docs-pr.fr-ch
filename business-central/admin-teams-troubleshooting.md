@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: a26414ae33b0139257c542966ba9ccd934241a66
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: ed1d44f7aa1fe7adc899c429a6595cef23251075
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017139"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341318"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Dépannage de l’intégration de Microsoft Teams avec [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -25,26 +25,26 @@ Cet article fournit des informations sur la façon d’identifier et de résoudr
 
 ## <a name="the-sign-in-link-doesnt-work"></a>Le lien de connexion ne fonctionne pas
 
-Si vous essayez de vous connecter à l'application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams immédiatement après l'installation de l'application et que le lien de connexion ne réagit pas, cela peut être dû au fait que l'application n'a pas complètement terminé l'installation. Pour essayer de résoudre le problème, déconnectez-vous de votre client Teams, puis reconnectez-vous.
+Si vous essayez de vous connecter à l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams immédiatement après l’installation de l’application et que le lien de connexion ne réagit pas, cela peut être dû au fait que l’application n’a pas complètement terminé l’installation. Pour essayer de résoudre le problème, déconnectez-vous de votre client Teams, puis reconnectez-vous.
 
 ## <a name="the-settings-page-is-empty"></a>La page Paramètres est vide
 
-Vous devez d'abord vous connecter pour accéder à vos paramètres. Pour vous connecter à l'application, collez un lien vers un enregistrement [!INCLUDE [prod_short.md](includes/prod_short.md)], ou essayez de rechercher des contacts. Ces deux actions vous mèneront à travers une expérience d'inscription, après quoi vous pourrez utiliser la page **Paramètres**.
+Vous devez d’abord vous connecter pour accéder à vos paramètres. Pour vous connecter à l’application, collez un lien vers un enregistrement [!INCLUDE [prod_short.md](includes/prod_short.md)], ou essayez de rechercher des contacts. Ces deux actions vous mèneront à travers une expérience d’inscription, après quoi vous pourrez utiliser la page **Paramètres**.
 
-## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>J'ai changé d'entreprise, mais ça n'a pas semblé marcher
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>J’ai changé d’entreprise, mais ça n’a pas semblé marcher
 
-Après avoir changé d'entreprise sur la page **Paramètres**, vous remarquerez peut-être que la liste déroulante de la boîte de commande indique que vous recherchez toujours la société précédente. Ce problème se produit lorsque vous ouvrez la page **Paramètres** directement à partir de la boîte de commande. Dans ce cas, la société a été modifiée avec succès et vous rechercherez en fait la société vers laquelle vous avez basculé. Le problème est que la liste déroulante de la boîte de commande n'a tout simplement pas encore été mise à jour. Pour que la liste déroulante reflète avec précision l'entreprise dans laquelle vous recherchez, fermez ou détachez [!INCLUDE [prod_short.md](includes/prod_short.md)] à partir de la boîte de commande, puis ouvrez à nouveau l'application.
+Après avoir changé d’entreprise sur la page **Paramètres**, vous remarquerez peut-être que la liste déroulante de la boîte de commande indique que vous recherchez toujours la société précédente. Ce problème se produit lorsque vous ouvrez la page **Paramètres** directement à partir de la boîte de commande. Dans ce cas, la société a été modifiée avec succès et vous rechercherez en fait la société vers laquelle vous avez basculé. Le problème est que la liste déroulante de la boîte de commande n’a tout simplement pas encore été mise à jour. Pour que la liste déroulante reflète avec précision l’entreprise dans laquelle vous recherchez, fermez ou détachez [!INCLUDE [prod_short.md](includes/prod_short.md)] à partir de la boîte de commande, puis ouvrez à nouveau l’application.
 
 
 <!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
 
-## <a name="something-went-wrong-error-when-searching-for-contacts"></a>Erreur "Une erreur s'est produite" lors de la recherche de contacts
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a>Erreur "Une erreur s’est produite" lors de la recherche de contacts
 
-Vous pouvez rencontrer cette erreur lorsque vous recherchez dans une entreprise qui n'a pas été initialisée ou qui ne répond pas. Par exemple, vous ne pouvez pas rechercher dans une nouvelle société d'essai qui n'a pas encore accepté les conditions d'utilisation. Pour résoudre ce problème, essayez de vous connecter au client Web [!INCLUDE [prod_short.md](includes/prod_short.md)], et agissez sur ou fermez toutes les boîtes de dialogue initiales qui apparaissent.
+Vous pouvez rencontrer cette erreur lorsque vous recherchez dans une entreprise qui n’a pas été initialisée ou qui ne répond pas. Par exemple, vous ne pouvez pas rechercher dans une nouvelle société d’essai qui n’a pas encore accepté les conditions d’utilisation. Pour résoudre ce problème, essayez de vous connecter au client Web [!INCLUDE [prod_short.md](includes/prod_short.md)], et agissez sur ou fermez toutes les boîtes de dialogue initiales qui apparaissent.
 
 ## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>Erreur « Impossible de trouver l′API de contact/résumé des contacts » lors de la recherche de contacts
 
-Ce problème peut être causé par des personnalisations ou des solutions industrielles qui affectent ou modifient [!INCLUDE [prod_short.md](includes/prod_short.md)], ou qui ne fournissent pas d′API de contact ou de résumé des contacts. Si le problème persiste, contactez l'administrateur ou partenaire d'assistance.
+Ce problème peut être causé par des personnalisations ou des solutions industrielles qui affectent ou modifient [!INCLUDE [prod_short.md](includes/prod_short.md)], ou qui ne fournissent pas d′API de contact ou de résumé des contacts. Si le problème persiste, contactez l’administrateur ou partenaire d’assistance.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Aucun de mes liens ne se transforme en fiche 
 
@@ -137,12 +137,12 @@ Les modifications que vous apportez à un champ dans les fenêtres de détails s
 
 ## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>Une nouvelle vignette est apparue dans le lanceur d’applications. Comment la supprimer ?
 
-Lorsque vous affichez vos applications sur la page d’accueil Office 365 (https://home.office.com) ou dans le lanceur d’applications, une nouvelle vignette nommée "Connecteur du service d’intégration Teams Business Central" apparaîtra après l’installation de l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams. Cette vignette ne fournit aucune valeur en soi et peut être masquée en toute sécurité.
+Lorsque vous affichez vos applications sur la page d’accueil Office 365 (https://home.office.com) ou dans le lanceur d’applications, une nouvelle vignette nommée "Connecteur du service d’intégration Teams Business Central" apparaîtra après l’installation de l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams. Cette vignette ne fournit aucune valeur en soi et peut être masquée en toute sécurité.
 
 En tant qu’administrateur, avec des autorisations d’administrateur Azure Active Directory, vous pouvez masquer la vignette en procédant comme suit :
 
 1. Connectez-vous au [centre d’administration Azure Active Directory](https://aad.portal.azure.com/).
-2. Sélectionnez **Applications d’entreprise**, puis sélectionnez **Connecteur du service d’intégration Teams Business Central**.
+2. Sélectionnez **Applications d’entreprise**, puis sélectionnez **Connecteur du service d’intégration Teams Business Central**.
 3. Sélectionnez **Propriétés**, puis définissez le bouton bascule **Visible pour les utilisateurs** sur **Non**.
 4. Sélectionnez **Enregistrer**.
 
@@ -154,7 +154,10 @@ En tant qu’administrateur, avec des autorisations d’administrateur Azure Act
 
 [Vue d’ensemble de l’intégration [!INCLUDE [prod_short](includes/prod_short.md)] et Microsoft Teams ](across-teams-overview.md)  
 [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)  
+[Recherche de clients, de fournisseurs et autres contacts dans Microsoft Teams](across-search-contacts-teams.md)  
+[Partager des enregistrements dans Microsoft Teams](across-working-with-teams.md)  
 [FAQ Teams](teams-faq.md)  
+[Modification de la société et d’autres paramètres dans Teams](across-teams-settings.md)  
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

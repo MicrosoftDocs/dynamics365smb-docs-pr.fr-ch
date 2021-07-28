@@ -1,6 +1,6 @@
 ---
-title: Aperçu de la validation des documents et des feuilles | Microsoft Docs
-description: Décrit la validation des actions et les méthodes vous permettant de valider des documents et des feuilles.
+title: Aperçu de la validation des documents et des feuilles
+description: Cette rubrique décrit les actions de validation et les manières dont vous pouvez valider des documents et des journaux dans les différents livres comptables de l’entreprise.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5d34178523d0020d35c4f24985871a05fed33e49
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2dda99dcab416465b6abc68af32b6bf99e83f56a
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783349"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325953"
 ---
 # <a name="posting-documents-and-journals"></a>Validation des documents et des feuilles
 La validation est une action de comptabilité qui consiste à enregistrer des transactions commerciales dans les divers livres comptables de la société.

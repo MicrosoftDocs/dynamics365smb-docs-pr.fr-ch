@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 468437e1b9f2e2a49c008a4e78c59f436dc05b17
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 452a5fab73d60bea127d19a42c1730fcbd24b06c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772636"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435150"
 ---
 # <a name="set-up-purchasers"></a>Configurer les acheteurs
 Si plusieurs acheteurs travaillent dans votre société, vous pouvez les configurer sur la page et leur attribuer un code. Vous pouvez ensuite utiliser ces codes pour établir des statistiques et filtrer les informations des états imprimés.<br><br>  
@@ -25,12 +25,12 @@ Si plusieurs acheteurs travaillent dans votre société, vous pouvez les configu
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
 ## <a name="to-set-up-purchasers"></a>Pour configurer des acheteurs
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Vendeurs/Acheteurs**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Vendeurs/Acheteurs**, puis sélectionnez le lien associé.
 2. Sur la page **Vendeurs/acheteurs**, sélectionnez **Nouveau**.
 3. Sur la page **Fiche vendeur/acheteur**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Pour affecter des acheteurs à des fournisseurs
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Fournisseurs**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Fournisseurs**, puis choisissez le lien associé.
 2. Ouvrez la fiche du fournisseur auquel un acheteur est affecté.
 3. Dans le champ **Code acheteur**, sélectionnez le code acheteur approprié, puis fermez la page.
 

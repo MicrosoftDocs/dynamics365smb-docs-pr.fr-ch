@@ -1,6 +1,6 @@
 ---
-title: 'Procédure : Importer des paiements ESR'
-description: Après avoir reçu le paiement d'un client, vous recevez un fichier contenant des informations sur les factures payées. Vous pouvez recevoir ce fichier de votre banque par voie électronique, ou par courrier électronique.
+title: 'Procédure : Importer des paiements ESR [CH]'
+description: Après avoir reçu le paiement d'un client, vous pouvez recevoir le fichier ESR contenant des informations sur les factures payées par votre banque par voie électronique.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: a69e586ab77889003c8771124e4b453f7e2cb385
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 907a141213d971aac6a5037ea9f3a785d1ed6150
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779166"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435705"
 ---
-# <a name="import-esr-payments"></a>Importer des paiements ESR
+# <a name="import-esr-payments-in-the-swiss-version"></a>Importer des paiements ESR dans la version suisse
 Après avoir reçu le paiement d'un client, vous recevez un fichier contenant des informations sur les factures payées. Vous pouvez recevoir ce fichier de votre banque par voie électronique, ou par courrier électronique.  
 
 Vous pouvez importer les données de facture Einzahlungsschein mit Referenznummer (ESR) issues du fichier, imprimer les données en utilisant l'état ESR de la facture de vente ou le rapport de coupon ESR des ventes, et les vérifier avant de les valider. Pour plus d'informations, reportez-vous à [Imprimer des factures ESR](how-to-print-esr-invoices.md).  
 
 ## <a name="to-import-esr-payments"></a>Pour importer des paiements ESR  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles règlement**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles règlement**, puis sélectionnez le lien associé.  
 2.  Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.  
 
     > [!NOTE]  

@@ -1,6 +1,6 @@
 ---
-title: 'Procédure : Vente d’articles à assembler pour commande | Microsoft Docs'
-description: Si l’article est paramétré pour l’assemblage pour commande, alors l’article ne devrait pas être en stock, et doit être assemblé spécifiquement à une commande vente. Lorsque vous entrez l’article dans une ligne commande vente, un ordre d’assemblage est automatiquement créé et lié à la commande vente.
+title: 'Procédure : Vente d’articles à assembler pour commande'
+description: Si l’article est paramétré pour l’assemblage pour commande, alors l’article ne devrait pas être en stock, et doit être assemblé spécifiquement à une commande vente.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 92a1faa77132e4f26c1999411f6d8304c24dd8f7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 34e869166ed3b556a91ba6c0793c60455cebfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772919"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435385"
 ---
 # <a name="sell-items-assembled-to-order"></a>Vente d’articles à assembler pour commande
 Si le champ **Stratégie d’assemblage** de la fiche article d’un élément d’assemblage est **Assembler pour commande**, alors l’article n’est pas supposé être en stock et doit être assemblé spécifiquement dans une commande vente. Lorsque vous entrez l’article dans une ligne commande vente, un ordre d’assemblage est automatiquement créé et lié à la commande vente.  
@@ -29,7 +29,7 @@ Dans cette procédure, vous effectuez la vente d’un article que vous assemblez
 >  La procédure suivante n’inclut pas les étapes standard de commande vente avant l’étape où vous entrez l’article à assembler pour commande dans une ligne commande vente.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Vendre un article qui est assemblé pour commande  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Créez une commande client. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
 3.  Dans le champ **N°**, , entrez un article qui est configuré pour l’assemblage pour commande.  
 4.  Dans le champ **Code magasin**, définissez le magasin à partir duquel l’article sera vendu. Le processus d’assemblage a lieu dans ce magasin.  

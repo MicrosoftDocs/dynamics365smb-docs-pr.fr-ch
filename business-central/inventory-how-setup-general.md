@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1430123f433cfc101e0ae94ce0598d9c0cdd58b2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99de8575891e15712e221f28bbf3f4a46f2f771
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785838"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435637"
 ---
 # <a name="set-up-general-inventory-information"></a>Définir des informations générales relatives aux stocks
 
@@ -23,7 +23,7 @@ Vous pouvez spécifier des paramètres de stock généraux sur la page **Paramè
 
 ## <a name="to-set-up-general-inventory-information"></a>Pour définir des informations générales relatives aux stocks
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres stock**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres stock**, puis choisissez le lien associé.
 2. Sur la page **Paramètres stock**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Pour des informations détaillées sur les champs de coût, **Compta. coûts automatique**, **Compta. coûts prévus** et **Mode évaluation stock par défaut**, consultez [Rapprocher les coûts ajustés avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Détails de conception : coûts ajustés](design-details-inventory-costing.md) et [Détails de conception : validation du coût prévu](design-details-expected-cost-posting.md). Pour plus d’informations sur les coûts en général, voir [Gestion des coûts](finance-manage-inventory-costs.md).  

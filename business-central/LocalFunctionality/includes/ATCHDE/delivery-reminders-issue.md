@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7cab5533c038dda6082a0455bf480779f143854e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 70d4e0ac0729f8d259f87c65915dfafd8749abbd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777575"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435187"
 ---
 Après avoir créé des relances livraison, vous devez les émettre et les imprimer afin de pouvoir les envoyer aux fournisseurs. Avant d'émettre les relances livraison, vous pouvez imprimer un rapport de test.  
 
@@ -17,7 +17,7 @@ Lorsque vous émettez les relances livraison, des écritures comptables de relan
 
 ## <a name="to-issue-delivery-reminders"></a>Pour émettre des relances livraison  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relance livraison**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Relance livraison**, puis sélectionnez le lien associé.  
 2. Dans la page **Relance livraison**, sélectionnez la relance livraison que vous souhaitez émettre, puis choisissez l'action **Modifier**.  
 3. Sélectionnez l'action **Émettre**.  
 4. Sur la page **Émettre relance livraison**, renseignez les champs comme décrit dans le tableau ci-dessous.  
@@ -39,7 +39,7 @@ Vous pouvez afficher les relances émises dans la page **Relances livraison émi
 
 ## <a name="to-view-delivery-reminder-ledger-entries"></a>Pour afficher des écritures comptables de relance livraison  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes achat**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Commandes achat**, puis sélectionnez le lien associé.  
 2. Sélectionnez la commande achat pour laquelle vous souhaitez afficher le statut de relance, puis choisissez l'action **Modifier**.  
 3. Sélectionnez l'action **Écritures comptables de relance livraison**.  
 

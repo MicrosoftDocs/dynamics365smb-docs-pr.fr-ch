@@ -1,6 +1,6 @@
 ---
-title: Synchronisation de Business Central et Dataverse | Microsoft Docs
-description: En savoir plus sur la synchronisation des données entre Business Central et Dataverse.
+title: Synchronisation de Business Central et de Dataverse
+description: En savoir plus sur la synchronisation des données entre Business Central et Dataverse.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4948dac105a62501ee3006cce0683be819db7ce8
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: 07eaab3182d51bd7b76d1ffbbfb7ad18338faeb7
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889221"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325457"
 ---
-# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Planification d’une synchronisation entre Business Central et Dataverse
+# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Planification d’une synchronisation entre Business Central et Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Vous pouvez synchroniser [!INCLUDE[prod_short](includes/prod_short.md)] avec [!INCLUDE[cds_long_md](includes/cds_long_md.md)] à des intervalles planifiés en configurant des projets dans la file projets. Les projets de synchronisation permettent de synchroniser les données des enregistrements [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[cds_long_md](includes/cds_long_md.md)] qui ont été précédemment couplés ensemble. Ou bien, pour les enregistrements qui ne sont pas encore couplés, selon la direction et les règles de synchronisation, les projets de synchronisation peuvent créer des enregistrements et les coupler dans le système de destination. 
@@ -96,9 +96,9 @@ Par exemple, par défaut, l’écriture de la file d’attente des travaux CURRE
 
 ## <a name="see-also"></a>Voir aussi
 
-[Synchronisation des données dans Business Central et [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
+[Synchronisation des données dans Business Central et [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Synchroniser manuellement les mappages de table](admin-manual-synchronization-of-table-mappings.md)  
-[Planification d’une synchronisation entre Business Central et [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
+[Planification d’une synchronisation entre Business Central et [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [À propos de l’intégration de Dynamics 365 Business Central avec [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 
 

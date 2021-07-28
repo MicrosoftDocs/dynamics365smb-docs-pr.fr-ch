@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86617934ecdb0ac2f14f6cf717f8091ba96caf95
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 83b2e9c488a429603158d800e9c7e7b96be3bd8b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772594"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435125"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Regroupement de bons de réception sur une seule facture
 
@@ -30,7 +30,7 @@ Lorsque des réceptions achat sont regroupées sur une facture et validées, une
 
 ## <a name="to-combine-receipts"></a>Pour regrouper des réceptions
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).  
 3. Dans le raccourci **Lignes**, sélectionnez l’action **Extraire lignes réception**.  
 4. Sélectionnez plusieurs lignes réception à inclure dans la facture.  
@@ -40,7 +40,7 @@ Lorsque des réceptions achat sont regroupées sur une facture et validées, une
 
 ## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Pour supprimer des commandes achat ouvertes après la validation de reçus regroupés
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer les commandes achat facturées**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Supprimer les retours achat facturé**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Cliquez sur le bouton **OK**.  
 

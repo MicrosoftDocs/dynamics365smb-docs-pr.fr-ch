@@ -1,6 +1,6 @@
 ---
 title: Créer des contacts professionnels
-description: Décrit les tâches pour créer des contacts et définir vos relations d’affaires.
+description: Décrit les tâches impliquées dans la création de contacts et la définition de vos relations commerciales sur la fiche de contact.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 07/08/2021
 ms.author: edupont
-ms.openlocfilehash: 305d1460b93c1294335b5a8afcf42593c465ebe4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ab9b6051f93daa9f1b342ed8a5fbaa7bbd9c4b2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780822"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435334"
 ---
 # <a name="create-contacts"></a>Créez des contacts
+
 Lorsque vous développez une relation d’affaires avec quelqu’un dans une autre entreprise, ajoutez-la en tant que contact dans [!INCLUDE[prod_short](includes/prod_short.md)]. Ensuite, ajoutez toute information sur eux, ou leur entreprise, qui peut être utile pour de futures communications. Sur la page **Fiche contact**, vous pouvez créer les types de contacts suivants :
 
 * **Personne à contacter** : En règle générale, c’est lorsque vous avez eu un contact direct avec quelqu’un et que vous avez ses coordonnées.
@@ -29,8 +30,13 @@ Vous pouvez modifier ultérieurement la valeur du champ **Type**. Vous pouvez é
 
 Lorsqu’une fiche contact est convertie en fiche client, par exemple, la personne à contacter ou l’entreprise de contact devient le nom du client. L’enregistrement du contact est conservé et vous pouvez lier le contact et le client afin que leurs données soient synchronisées à l’avenir.
 
+> [!NOTE]
+> Si vous activez la [mise à jour des fonctionnalités pour les modèles de conversion](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/use-conversion-templates-convert-contacts-vendors-employees), vous pouvez également créer des fournisseurs ou des employés à partir de contacts professionnels.
+>
+> Cependant, si vous utilisez déjà la fonctionnalité intégrée pour créer automatiquement des clients ou des articles, cette mise à jour de fonctionnalité ne prend pas en charge les champs personnalisés et les clients ou articles nouvellement créés n’incluront pas ces données.
+
 ## <a name="to-create-a-contact-manually"></a>Pour créer un contact manuellement
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contacts**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Contacts**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
 3. Dans le champ **N°**, saisissez le numéro du contact.
 
@@ -43,7 +49,7 @@ Si vous avez des clients, des fournisseurs, et des comptes bancaires pour lesque
 > [!NOTE]  
 > Avant de créer des contacts basés sur des données existantes, vous devez spécifier un code relation d’affaires pour les clients, les fournisseurs ou les comptes bancaires sur l’organisateur **Interactions** de la page **Paramètres marketing**. Pour plus d’informations, voir [Configuration de contacts](marketing-setup-contacts.md).
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez une des actions suivantes, selon l’élément à partir duquel vous souhaitez créer des contacts, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez l’un des choix suivants, selon l’élément à partir duquel vous souhaitez créer des contacts, puis sélectionnez le lien associé.
    * **Créer des contacts à partir des clients**
    * **Créer des contacts à partir des fournisseurs**
    * **Créer des contacts à partir des comptes bancaires**
@@ -61,7 +67,7 @@ Si vous avez un client, un fournisseur, un employé ou un compte bancaire pour l
 > [!NOTE]  
 > Avant de créer des clients, fournisseurs, employés ou comptes bancaires à partir des contacts, vous devez spécifier un code relation d’affaires sur l’organisateur **Interactions** de la page **Paramètres marketing**. Pour plus d’informations, reportez-vous à [Paramétrage des contacts](marketing-setup-contacts.md).
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contacts**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Contacts**, puis sélectionnez le lien associé.
 2. Sélectionnez le contact que vous souhaitez créer comme client, fournisseur, employé ou compte bancaire.
 3. Sélectionnez l’action **Créer comme**, puis sélectionnez **Client**, **Fournisseur**, **Banque** ou **Employé**.
 4. Cliquez sur le bouton **OK**.
@@ -109,13 +115,13 @@ La synchronisation des données entre les contacts et les clients, les fournisse
 * Lorsque vous liez les contacts avec des clients, des fournisseurs, des employés ou des comptes bancaires existants à partir de la fiche contact. Voir [Pour lier un contact à un client, un fournisseur ou un compte bancaire existant](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>Pour voir à quel client, fournisseur, employé ou compte bancaire un contact est associé
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contacts**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Contacts**, puis sélectionnez le lien associé.
 2. Sélectionnez la ligne pour un contact, choisissez l’action **Informations connexes**, puis choisissez l’action **Client/Fournisseur/Employé/Compte bancaire**.
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  
 [Paramétrage des contacts](marketing-setup-contacts.md)  
-[Utilisation de Business Central](ui-work-product.md)
+[Utilisation de Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
