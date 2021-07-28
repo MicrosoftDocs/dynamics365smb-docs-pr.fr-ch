@@ -1,6 +1,6 @@
 ---
-title: Configurer des lignes standard pour les ventes et achats récurrents| Microsoft
-description: Vous pouvez définir des lignes vente et des lignes achat que vous utilisez fréquemment et les insérer dans des documents achat et vente pour remplir rapidement les lignes avec des informations standard.
+title: Lignes vente et achat récurrentes standard
+description: Définissez des lignes vente et des lignes achat que vous utilisez fréquemment et les insérer dans des documents achat et vente pour remplir rapidement les lignes avec des informations standard.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 32a42f9d420ccab90a733d031c69d0fb6aa1182a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9704d088a92ef2a7799eaccebee0fff3fc35bcfd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770811"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440193"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Créer des lignes ventes et achat récurrentes
 Si vous devez souvent créer des lignes ventes et des lignes achat comportant des informations similaires, vous pouvez configurer des lignes standard que vous pouvez ensuite insérer dans les documents vente et achat, par exemple, pour les commandes de réapprovisionnement récurrentes.  
@@ -24,7 +24,7 @@ Les procédures suivantes indiquent comment utiliser des lignes ventes standard 
 
 ## <a name="to-set-up-recurring-sales-lines"></a>Pour configurer des lignes vente récurrentes
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Lignes vente récurrentes**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Lignes vente récurrentes**, puis sélectionnez le lien associé.  
 2. Sur la page **Lignes vente récurrentes**, cliquez sur l’action **Nouveau**.  
 3. Sur le raccourci **Général**, complétez les champs, comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Dans le raccourci **Lignes**, renseignez les champs pour préparer les lignes ventes qui répercutent les lignes standard que vous prévoyez d’utiliser comme lignes récurrentes sur les documents ventes.  
@@ -38,7 +38,7 @@ Les procédures suivantes indiquent comment utiliser des lignes ventes standard 
 
 Affectez une ou plusieurs lignes vente récurrentes à un client afin qu’elles soient disponibles pour insertion sur les documents vente pour ce client.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Ouvrez la fiche pour un client concerné.
 3. Choisissez l’action **Lignes vente récurrentes**.
 4. Sur la page **Lignes vente récurrentes**, sélectionnez les codes des lignes vente récurrentes que vous souhaitez pouvoir insérer sur les documents vente du client.
@@ -60,7 +60,7 @@ Affectez une ou plusieurs lignes vente récurrentes à un client afin qu’elles
 
 Si des lignes vente récurrentes existent pour le client, vous pouvez les insérer ou demander à les insérer sur tous les types de documents vente, par exemple une facture vente. Si vous avez activé les options **Toujours demander**, vous serez informé si des lignes vente récurrentes existent.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures**, puis sélectionnez le lien associé.
 2. Ouvrez la facture vente que vous souhaitez pour insérer une ou plusieurs lignes ventes standard.
 3. Choisissez l’action **Extraire les lignes vente récurrentes**.
 4. Sur la page **Lignes vente récurrentes**, cliquez sur le bouton de recherche du champ **Code**, puis sélectionnez un ensemble de lignes vente standard.
@@ -69,7 +69,7 @@ Si des lignes vente récurrentes existent pour le client, vous pouvez les insér
 ## <a name="to-create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Pour créer plusieurs factures vente à partir de lignes vente récurrentes
 Vous pouvez utiliser le traitement par lots **Créer des factures vente récurrentes** pour créer des factures vente en fonction des lignes vente standard qui sont affectées aux clients et avec des dates comptabilisation comprises entre les dates de début et de fin de validité que vous spécifiez dans les lignes vente standard.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Créer des factures vente récurrentes**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Créer des factures vente récurrentes**, puis sélectionnez le lien associé.
 2. Sur la page **Créer des factures vente récurrentes**, renseignez les champs selon les besoins.
 3. Dans le champ de filtre **Code**, entrez le code des lignes vente standard associées à un client pour lequel vous souhaitez créer des factures vente.
 4. Cliquez sur le bouton **OK**.

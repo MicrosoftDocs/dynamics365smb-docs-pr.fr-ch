@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 90d04a6f951c3312f88f536bfab680bcd071de63
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b13be85c47cc2a280b2cf2e7cf3bf4866633343
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781978"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438617"
 ---
 # <a name="create-production-order-headers"></a>Créer des en-têtes O.F.
 Vous pouvez créer manuellement un ordre de fabrication. Pour cela, la première étape est de créer un en-tête O.F.
@@ -25,7 +25,7 @@ Les ordres de fabrication sont généralement créés automatiquement par une fo
 La procédure suivante s’appuie sur un ordre de fabrication planifié ferme. Vous pouvez aussi créer des ordres de fabrication dotés d’un autre statut.  
 
 ## <a name="to-create-a-production-order-header"></a>Pour créer un en-tête O.F.  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l’action **Nouveau**.  
 3.  Dans le champ **N°**, insérez le numéro suivant de la souche.  
 4.  Dans le champ **Type origine**, sélectionnez la source de l’ordre de fabrication.

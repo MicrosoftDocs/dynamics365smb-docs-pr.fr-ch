@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3bffbe40d4deb17f335d8894692ce5852e781957
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b247cdc220ad522fe42085528df8a25200d6dd48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787742"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440318"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Configurer les centres de charge et les postes de charge
 
@@ -36,7 +36,7 @@ La disponibilité est enregistrée dans les écritures calendrier.
 
 La procédure suivante décrit essentiellement comment configurer un centre de charge. La procédure de configuration d’un calendrier poste de charge est similaire, sauf pour le raccourci **Paramètres gamme**.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Centres de charge**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Centres de charge**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Dans le champ **Groupe centres de charge**, sélectionnez le regroupement de ressources de niveau supérieur sous lequel le centre de charge est organisé, au besoin. Choisissez l’action **Nouveau** dans la liste déroulante.  
@@ -97,7 +97,7 @@ Sur la page **Capacités critiques**, vous pouvez effectuer un paramétrage qui 
 
 Lors de la planification avec des ressources avec contraintes de capacité, le système veille à ce qu’aucune ressource ne soit chargée au-dessus de sa capacité définie (charge critique). Ceci est effectué en affectant chaque opération à l’emplacement du temps disponible le plus proche. Si le créneau n’est pas assez long pour effectuer toute l’opération, l’opération est répartie en au moins deux parties placées dans les créneaux disponibles les plus proches.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Capacités critiques**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Capacités critiques**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
 3. Renseignez les champs selon vos besoins.
 

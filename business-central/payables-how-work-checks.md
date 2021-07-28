@@ -1,6 +1,6 @@
 ---
 title: Emettre, imprimer et annuler des chèques| Microsoft Docs
-description: Décrit comment émettre des chèques à l’aide de la feuille paiement, imprimer des chèques, et annuler ou afficher les écritures comptables chèque dans Business Central.
+description: Décrit comment émettre des chèques à l’aide de la feuille paiement, imprimer des chèques, et annuler ou afficher les écritures comptables chèque dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2f204daefe5ed9473d64592d67e3c4cf026bce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3f0a848e1a7011b163a92fbf5a58f4cd761ef95
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775105"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438792"
 ---
 # <a name="make-check-payments"></a>Effectuer des paiements par chèque
 
@@ -39,7 +39,7 @@ Vous pouvez imprimer jusqu’à 10 factures sur une page pour un talon de chèq
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Pour payer une facture fournisseur avec un chèque informatique
 La section suivante décrit comment payer un fournisseur par chèque. La procédure est la même pour rembourser un client par chèque.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles paiement**, puis choisissez le lien associé.
 2. Renseignez les lignes feuille paiement. Pour plus d’informations, voir [Enregistrer des paiements et des remboursements](payables-how-post-payments-refunds.md).
 3. Dans le champ **Code mode de règlement**, sélectionnez **Chèque**.
 4. Dans le champ **Mode émission paiement**, sélectionnez **Informatique**.
@@ -67,7 +67,7 @@ Lorsque des paiements par chèque ont été validés, vous pouvez uniquement ann
 > [!IMPORTANT]
 > Si le chèque est appliqué à une facture, annulez d’abord le chèque afin que la facture puisse être remboursée, puis annulez le chèque. Si le chèque a été imprimé et n’a pas payé de facture, choisissez **Annuler chèque uniquement** comme décrit dans cette section.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Sélectionnez le compte bancaire approprié, sélectionnez l’action **Modifier**, puis l’action **Écritures comptables chèque**.
 3. Sur la page **Écritures comptables chèque**, sélectionnez l’action **Annuler chèque**.
 4. Cochez la case **Annuler chèque uniquement**.
@@ -75,7 +75,7 @@ Lorsque des paiements par chèque ont été validés, vous pouvez uniquement ann
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Pour afficher un résumé des chèques validés
 Si vous souhaitez examiner les chèques validés, par exemple pour vérifier plusieurs chèques payés à un fournisseur, vous pouvez utiliser l’état **Banque : Liste chèques émis**.
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Compte bancaire : Liste chèques émis**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Compte bancaire : Liste chèques émis**, puis sélectionnez le lien associé.
 2. Définissez les filtres appropriés, puis cliquez sur le bouton **Aperçu**.
 
 ## <a name="see-also"></a>Voir aussi

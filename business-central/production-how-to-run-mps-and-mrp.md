@@ -1,6 +1,6 @@
 ---
-title: Procédure d’exécution d’une planification complète et d’un calcul PDP et MRP | Microsoft Docs
-description: Les termes « exécution de la feuille planning » ou « exécution d’un calcul MRP » font référence au calcul de la planification de fabrication principale et aux besoins matière sur la base de la demande réelle et prévue. Le système de planification peut calculer la planification de production (PDP) ou la planification des besoins matière (MRP, Material Requirements Planning) à la demande ou calculer les deux simultanément.
+title: 'Procédure : exécuter une planification complète et un calcul PDP et MRP'
+description: Le système de planification peut calculer la planification de production (PDP) ou la planification des besoins matière (MRP, Material Requirements Planning) à la demande ou les deux simultanément.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e80b7f3c072556453f441d7b9980c7308ed3cb61
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 73b40d3174497c05446d5b6ae6465f23a420f308
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787767"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440343"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Exécuter une planification complète et un calcul PDP ou MRP
 Les termes « exécution de la feuille planning » ou « exécution d’un calcul MRP » font référence au calcul de la planification de fabrication principale et aux besoins matière sur la base de la demande réelle et prévue. Le système de planification peut calculer la planification de production (PDP) ou la planification des besoins matière (MRP, Material Requirements Planning) à la demande ou calculer les deux simultanément.  
@@ -45,7 +45,7 @@ Avec chaque méthode planifiée, [!INCLUDE[prod_short](includes/prod_short.md)] 
 >  Vous pouvez exécuter la fonction Planning d’extraction de messages d’action entre un planning par écart et un planning régénératif pour visualiser instantanément l’impact de changements de planification, mais celui-ci n’est pas destiné à remplacer les processus de planning par écart ou de planning régénératif.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Pour calculer la feuille planning  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles planning**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles planning**, puis sélectionnez le lien associé.  
 2.  Choisissez l’action **Calculer planning régénératif** pour ouvrir la page **Calculer planning**.  
 3.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 

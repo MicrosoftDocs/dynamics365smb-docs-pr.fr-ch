@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d5af514baf18d1d5fbfd3de900d0ef964ff40bc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783199"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440017"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Recherche de pages et d’informations avec Tell Me  
 Cette rubrique décrit comment la fonction Tell me peut vous aider à accéder rapidement aux actions, pages ou états, à trouver des informations concernant la manière d’exécuter une tâche particulière et à découvrir des applications supplémentaires et des services de conseil pour [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -23,7 +23,7 @@ Cette rubrique décrit comment la fonction Tell me peut vous aider à accéder r
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-Si vous avez besoin d’aide pour trouver quelque chose, utilisez l’icône ![Dites-moi ce que vous voulez faire](media/ui-search/search.png "Rechercher une page ou un état") **Dites-moi ce que vous voulez faire** pour le rechercher. Vous pouvez également utiliser ALT+Q pour commencer à utiliser Tell Me.
+Lorsque vous avez besoin d’aide pour trouver quelque chose, utilisez la fonction ![Dites-moi ce que vous voulez faire.](media/ui-search/search.png "Rechercher une page ou un état") Icône **Dites-moi ce que vous voulez faire** pour le rechercher. Vous pouvez également utiliser ALT+Q pour commencer à utiliser Tell Me.
 
 Lorsque vous commencez à taper des caractères, [!INCLUDE[prod_short](includes/prod_short.md)] affiche immédiatement des correspondances. Les résultats dans la liste change à mesure que vous tapez des caractères. Lorsque vous saisissez le mot « produit » et que les résultats comprennent **Articles**, c’est parce que la fonction Tell me utilise des synonymes et d’autres termes de recherche pour simplifier la recherche d’actions, de pages et d’états.
 
@@ -66,7 +66,7 @@ Nous avons présenté Tell Me à différents acteurs impliqués, noté les quest
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de Business Central](ui-work-product.md)  
+[Utilisation de Business Central](ui-work-product.md)  
 [Ajouter une action de page à votre Tableau de bord](ui-bookmarks.md)
 
 

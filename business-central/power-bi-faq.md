@@ -1,6 +1,6 @@
 ---
 title: FAQ Power BI
-description: Obtenez des réponses à certaines questions courantes sur l’utilisation de Power BI et de Business Central.
+description: Obtenez des réponses à certaines questions courantes sur l’utilisation de Power BI et de Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 939b280e631113d3196f6fbbc90d9bf19b9fc408
-ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
+ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025848"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438767"
 ---
 # <a name="power-bi--faq"></a>FAQ Power BI
 
@@ -23,12 +23,12 @@ Cet article répond à certaines des questions que vous pourriez vous poser sur 
 
 ## <a name="general"></a>[Général](#tab/general)
 <!-- 26 -->
-### <a name="ive-selected-a-report-for-my-role-center-in-business-central-if-i-later-make-changes-to-the-reports-visuals-online-will-the-role-center-automatically-update-to-my-changes"></a>J′ai sélectionné un état pour mon tableau de bord dans Business Central. Si j′apporte ultérieurement des modifications aux éléments visuels de l′état en ligne, le tableau de bord sera-t-il automatiquement mis à jour avec mes modifications ?
+### <a name="ive-selected-a-report-for-my-role-center-in-business-central-if-i-later-make-changes-to-the-reports-visuals-online-will-the-role-center-automatically-update-to-my-changes"></a>J′ai sélectionné un état pour mon tableau de bord dans Business Central. Si j′apporte ultérieurement des modifications aux éléments visuels de l′état en ligne, le tableau de bord sera-t-il automatiquement mis à jour avec mes modifications ?
 
 Oui, parce que les états sont intégrés à partir de Power BI.
 
 <!-- 3 -->
-### <a name="are-the-business-central-apps-for-power-bi-available-in-languages-other-than-english"></a>Les applications Business Central pour Power BI sont-elles disponibles dans d′autres langues que l′anglais ?
+### <a name="are-the-business-central-apps-for-power-bi-available-in-languages-other-than-english"></a>Les applications Business Central pour Power BI sont-elles disponibles dans d′autres langues que l′anglais ?
 
 Non. Ces applications ne sont actuellement disponibles qu′en anglais.
 
@@ -53,7 +53,7 @@ Non. Une licence Pro n′est pas nécessaire pour publier des états. La licence
 <!-- 15 -->
 ### <a name="is-there-anything-i-cant-do-with-the-free-license"></a>Y a-t-il quelque chose que je ne peux pas faire avec la licence gratuite ?
 
-Vous ne pouvez pas partager d′états ni installer les applications Business Central pour Power BI. En dehors de cela, la licence gratuite permet de créer presque toutes les variations de graphiques et d′états.
+Vous ne pouvez pas partager d′états ni installer les applications Business Central pour Power BI. En dehors de cela, la licence gratuite permet de créer presque toutes les variations de graphiques et d′états.
 
 <!-- 16 -->
 ### <a name="if-someone-shares-a-report-with-another-person-then-that-person-needs-a-pro-license-to-see-the-report-are-there-plans-to-make-this-capability-possible-with-the-free-license"></a>Si une personne partage un état avec une autre personne, cette dernière a besoin d′une licence Pro pour afficher l′état. Est-il prévu de rendre cette fonction possible avec la licence gratuite ?
@@ -65,12 +65,24 @@ Nous n′avons aucun contrôle sur cette exigence. Cette exigence est définie p
 <!-- 7 -->
 ### <a name="does-the-connector-work-with-api-pages"></a>Le connecteur fonctionne-t-il avec les pages API ?
 
-Pas encore. Mais à compter de juin 2021, le nouveau connecteur Power BI prendra en charge à la fois les services Web Business Central et les pages API. Pour plus d′informations, voir [Activer le connecteur Power BI pour utiliser les API Business Central plutôt que les services Web uniquement](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
+Oui. À compter de juin 2021, le nouveau connecteur Power BI prend en charge à la fois les services Web Business Central et les pages API. Pour plus d′informations, voir [Activer le connecteur Power BI pour utiliser les API Business Central plutôt que les services Web uniquement](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
 
+### <a name="can-i-build-a-power-bi-report-using-the-sales-invoice-lines-or-journal-lines-apis"></a>Puis-je établir un état Power BI à l’aide des lignes facture vente ou des API lignes feuille ?
+
+Les enregistrements de ligne les plus couramment utilisés sont disponibles dans les [API Business Central v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)). Vous pouvez donc les utiliser pour créer des rapports dans Power BI en les sélectionnant dans le connecteur **Dynamics 365 Business Central**. Cependant, les API de **lignes** sont conçues pour être utilisées uniquement avec certains filtres très spécifiques et peuvent ne pas fonctionner dans votre scénario. Vous pouvez obtenir une erreur similaire à « Vous devez spécifier un ID ou un ID document pour obtenir les lignes ». Pour résoudre ce problème, procédez comme suit lors de l’obtention des données de Business Central pour l’état dans Power BI Desktop :
+
+1. au lieu d’inclure la source de données pour l’entité Lignes, ajoutez la source de données parent. Par exemple, ajoutez **Facture vente** à la place de **Lignes facture vente**.
+2. Sélectionnez **Transformer les données** dans la barre d’action Power BI Desktop.
+3. Sélectionnez la requête que vous venez d’ajouter, par exemple **Factures vente**.
+4. Appliquez tout filtrage nécessaire sur les enregistrements pour réduire le nombre d’enregistrements chargés dans votre état.
+5. Faites défiler vers la droite jusqu’à ce que vous trouviez une colonne nommée comme les lignes, par exemple **SalesInvoiceLines**.
+6. Sélectionnez le bouton Développer dans l’en-tête de la colonne, à côté du nom de la colonne.
+
+   :::image type="content" source="media/saleinvoicelines.png" alt-text="Affiche la colonne SalesInvoiceLines dans Power BI Desktop .":::
 <!-- 11 --> 
-### <a name="is-it-possible-to-choose-which-business-central-environment-to-get-data-from-for-power-bi-for-example-like-a-sandbox-or-production-environment"></a>Est-il possible de choisir depuis quel environnement Business Central obtenir les données pour Power BI, comme un bac à sable ou un environnement de production ? 
+### <a name="is-it-possible-to-choose-which-business-central-environment-to-get-data-from-for-power-bi-for-example-like-a-sandbox-or-production-environment"></a>Est-il possible de choisir depuis quel environnement Business Central obtenir les données pour Power BI, comme un bac à sable ou un environnement de production ? 
 
-Oui. Le choix est facile. Lorsque vous vous connectez à Business Central à l′aide du connecteur, vous devez choisir l′environnement et le nom de l′entreprise.
+Oui. Le choix est facile. Lorsque vous vous connectez à Business Central à l′aide du connecteur, vous devez choisir l′environnement et le nom de l′entreprise.
 
 <!-- 6 --> 
 ### <a name="can-i-merge-data-from-several-production-environments-of-the-same-tenant"></a>Puis-je fusionner les données de plusieurs environnements de production du même abonné ?
@@ -78,7 +90,7 @@ Oui. Le choix est facile. Lorsque vous vous connectez à Business Central à l�
 Oui. Dans Power BI, exécutez à nouveau l′opération d′obtention des données et choisissez l′environnement souhaité.
 
 <!-- 25 -->
-### <a name="which-pages-in-business-central-have-the-power-bi-report-part"></a>Quelles pages de Business Central contiennent la partie État Power BI ?  
+### <a name="which-pages-in-business-central-have-the-power-bi-report-part"></a>Quelles pages de Business Central contiennent la partie État Power BI ?  
 
 Actuellement, plusieurs pages contiennent un Récapitulatif avec une partie **États Power BI** pour afficher un état. 
 
@@ -112,20 +124,20 @@ Voici les autres pages qui contiennent la partie **États Power BI** étendue et
 > Nous n′avons pas l′intention de l′ajouter à toutes les pages de liste pour le moment. Cependant, vous pouvez créer une extension de page simple qui ajoute la partie **États Power BI** dans un Récapitulatif. Pour plus d’informations, voir [Ajout des parties États Power BI aux pages](/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts) dans l′aide dédiée aux développeurs et professionnels de l′informatique.
 
 <!-- 5 -->
-### <a name="is-there-any-way-to-filter-a-dataset-from-business-central-before-i-pull-it-into-power-bi-instead-of-applying-filters-afterwards"></a>Existe-t-il un moyen de filtrer un ensemble de données à partir de Business Central *avant* de le basculer dans Power BI au lieu d′appliquer ultérieurement des filtres ?
+### <a name="is-there-any-way-to-filter-a-dataset-from-business-central-before-i-pull-it-into-power-bi-instead-of-applying-filters-afterwards"></a>Existe-t-il un moyen de filtrer un ensemble de données à partir de Business Central *avant* de le basculer dans Power BI au lieu d′appliquer ultérieurement des filtres ?
 
-Pour filtrer des ensembles de données plus volumineux, le moyen le plus simple consiste à définir un filtre sur l′état Power BI en modifiant directement la formule Power Query. La plupart des filtres que vous définissez de cette manière sont transmis à Business Central par Query Folding. Voir [Actualisation incrémentielle des ensembles de données](/power-bi/admin/service-premium-incremental-refresh).
+Pour filtrer des ensembles de données plus volumineux, le moyen le plus simple consiste à définir un filtre sur l′état Power BI en modifiant directement la formule Power Query. La plupart des filtres que vous définissez de cette manière sont transmis à Business Central par Query Folding. Voir [Actualisation incrémentielle des ensembles de données](/power-bi/admin/service-premium-incremental-refresh).
 
-Il n′existe actuellement aucun moyen de définir un filtre pour les données d′un service Web à partir de Business Central. Si votre application doit définir un filtre à partir de Business Central, vous devez créer une application Business Central personnalisée à cet effet.
+Il n′existe actuellement aucun moyen de définir un filtre pour les données d′un service Web à partir de Business Central. Si votre application doit définir un filtre à partir de Business Central, vous devez créer une application Business Central personnalisée à cet effet.
 
 <!-- 8 and 9 -->
 
-### <a name="for-embedding-reports-in-business-central-pages-right-now-its-only-possible-to-get-reports-from-my-workspace-in-power-bi-are-there-plans-to-make-it-possible-to-get-them-from-custom-workspaces"></a>Pour intégrer des états dans les pages Business Central, il n′est actuellement possible d′obtenir des rapports que depuis *Mon espace de travail* dans Power BI. Est-il prévu de les obtenir à partir d′espaces de travail personnalisés ?
+### <a name="for-embedding-reports-in-business-central-pages-right-now-its-only-possible-to-get-reports-from-my-workspace-in-power-bi-are-there-plans-to-make-it-possible-to-get-them-from-custom-workspaces"></a>Pour intégrer des états dans les pages Business Central, il n′est actuellement possible d′obtenir des rapports que depuis *Mon espace de travail* dans Power BI. Est-il prévu de les obtenir à partir d′espaces de travail personnalisés ?
 
 Oui. Nous prévoyons d′ajouter la prise en charge des espaces de travail partagés, mais nous n′avons pas encore de calendrier à vous donner.  
 
 <!-- 10 -->
-### <a name="from-power-bi-besides-using-a-query-is-there-another-way-to-get-data-from-business-central-tables-that-dont-have-an-associated-page-for-example-like-the-item-attributes-value-mapping-table"></a>Dans Power BI, outre l′utilisation d′une requête, existe-t-il un autre moyen d′obtenir des données à partir des tables Business Central sans page associée ? Comme la table *Correspondance de valeur d′attribut article*.
+### <a name="from-power-bi-besides-using-a-query-is-there-another-way-to-get-data-from-business-central-tables-that-dont-have-an-associated-page-for-example-like-the-item-attributes-value-mapping-table"></a>Dans Power BI, outre l′utilisation d′une requête, existe-t-il un autre moyen d′obtenir des données à partir des tables Business Central sans page associée ? Comme la table *Correspondance de valeur d′attribut article*.
 
 Non. Pas à ce stade.
 
@@ -137,14 +149,23 @@ En ce qui concerne les services Web, les requêtes publiées sont généralement
 Dès que le nouveau connecteur sera disponible en juin 2021, nous vous encourageons à utiliser les pages API plutôt que les requêtes publiées en tant que services Web.
 
 <!-- 13 --> 
-### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-developer-have-to-create-a-custom-query"></a>Existe-t-il un moyen pour un utilisateur final de créer un service Web avec une colonne qui se trouve dans une table Business Central, mais pas dans une page ? Ou le développeur doit-il créer une requête personnalisée ? 
+### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>Existe-t-il un moyen pour un utilisateur final de créer un service Web avec une colonne qui se trouve dans une table Business Central, mais pas dans une page ? Ou le développeur doit-il créer une requête personnalisée ? 
 
-Pas encore. Mais dès que le nouveau connecteur sera disponible en juin 2021, un développeur pourra créer une nouvelle page API pour répondre à cette exigence. 
+Oui. Avec la publication du nouveau connecteur en juin 2021, un développeur pourra créer une nouvelle page API pour répondre à cette exigence. 
 
 <!-- 28 --> 
-### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Puis-je connecter Power BI à un serveur de base de données en lecture seule de Business Central Online ? 
+### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Puis-je connecter Power BI à un serveur de base de données en lecture seule de Business Central Online ? 
 
 Non. Mais nous avons cette fonctionnalité sur notre feuille de route à long terme. 
+
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>Comment modifier ou effacer le compte utilisateur que j’utilise actuellement pour me connecter à Business Central depuis Power BI Desktop ?
+
+Dans Power BI Desktop, exécutez l’une des étapes suivantes :
+
+1. Dans le menu Fichier, sélectionnez **Options et paramètres** > **Paramètres de la source de données**.
+2. Sélectionnez **Dynamics Business Central** dans la liste, puis sélectionnez **Effacer les autorisations** > **Effacer**.
+
+Ensuite, la prochaine fois que vous vous connecterez à Business Central pour obtenir des données, vous serez invité à vous connecter.
 
 ## <a name="performance"></a>[Performances](#tab/performance)
 
@@ -157,10 +178,10 @@ Oui. Nos tests indiquent que les pages API sont jusqu′à 25 % plus performant
 <!-- 18 -->
 ### <a name="are-there-plans-to-have-a-mirror-on-the-azure-sql-database-instance-which-i-can-connect-to-directly"></a>Est-il prévu d′avoir un miroir sur l′instance Azure SQL Database pour me connecter directement ?
 
-Non. Pas à ce stade. Vous ne pouvez communiquer qu′avec Business Central par les API.
+Non. Pas à ce stade. Vous ne pouvez communiquer qu′avec Business Central par les API.
 
 <!-- 19 -->
-### <a name="loading-data-from-business-central-web-services-seems-slow-is-there-any-way-to-get-data-directly-from-the-sql-database-table"></a>Le chargement des données à partir des services Web de Business Central semble lent. Existe-t-il un moyen d′obtenir les données directement à partir de la table de base de données SQL ?
+### <a name="loading-data-from-business-central-web-services-seems-slow-is-there-any-way-to-get-data-directly-from-the-sql-database-table"></a>Le chargement des données à partir des services Web de Business Central semble lent. Existe-t-il un moyen d′obtenir les données directement à partir de la table de base de données SQL ?
 
 Non. L′accès direct à la base de données n′est pas possible, mais le basculement vers les pages API (dès la mise à disposition du nouveau connecteur) aidera grandement.
 
@@ -172,20 +193,20 @@ Non. L′accès direct à la base de données n′est pas possible, mais le basc
 Oui. C′est sur notre feuille de route.
 
 <!-- 2 -->
-### <a name="if-a-business-central-on-premises-solution-doesnt-have-internet-access-can-i-still-use-power-bi"></a>Si une solution Business Central sur site n′a pas accès à Internet, puis-je continuer à utiliser Power BI ?
+### <a name="if-a-business-central-on-premises-solution-doesnt-have-internet-access-can-i-still-use-power-bi"></a>Si une solution Business Central sur site n′a pas accès à Internet, puis-je continuer à utiliser Power BI ?
 <!-- todo: please explain this one-->
 
-Oui. Dans ce cas, utilisez Power BI Desktop localement et connectez-vous à Business Central sur site. Une fois connecté, vous pouvez créer et afficher des états mais vous ne pouvez tout simplement pas les publier sur le service Power BI. 
+Oui. Dans ce cas, utilisez Power BI Desktop localement et connectez-vous à Business Central sur site. Une fois connecté, vous pouvez créer et afficher des états mais vous ne pouvez tout simplement pas les publier sur le service Power BI. 
 <!-- 20 -->
-### <a name="are-there-any-plans-to-make-it-possible-to-replicate-business-central-online-databases-so-theyre-accessible-for-read-only-sql-queries-this-capability-would-support-incremental-refresh-and-be-a-lot-faster-than-apis-or-web-services"></a>Est-il prévu de rendre possible la réplication des bases de données Business Central Online afin qu′elles soient accessibles pour les requêtes SQL en lecture seule ? Cette fonction prendrait en charge l′actualisation incrémentielle et serait beaucoup plus rapide que les API ou les services Web.
+### <a name="are-there-any-plans-to-make-it-possible-to-replicate-business-central-online-databases-so-theyre-accessible-for-read-only-sql-queries-this-capability-would-support-incremental-refresh-and-be-a-lot-faster-than-apis-or-web-services"></a>Est-il prévu de rendre possible la réplication des bases de données Business Central Online afin qu′elles soient accessibles pour les requêtes SQL en lecture seule ? Cette fonction prendrait en charge l′actualisation incrémentielle et serait beaucoup plus rapide que les API ou les services Web.
 
 <!-- todo: what does "BC-Saas-DB-replicated DB accessible" mean? fixe-->
 Oui. Nous avons cette fonctionnalité sur notre feuille de route à long terme. 
 
 <!-- 21 -->
-### <a name="if-i-use-azure-data-factory-to-get-data-from-business-central-and-consume-it-on-power-bi-will-that-help-in-increase-in-performance"></a>Si j′utilise Azure Data Factory pour obtenir les données depuis Business Central et les consommer sur Power BI, cela aidera-t-il à augmenter les performances ? 
+### <a name="if-i-use-azure-data-factory-to-get-data-from-business-central-and-consume-it-on-power-bi-will-that-help-in-increase-in-performance"></a>Si j′utilise Azure Data Factory pour obtenir les données depuis Business Central et les consommer sur Power BI, cela aidera-t-il à augmenter les performances ? 
 
-Oui. Ce scénario avancé aiderait Business Central à rester performant car l′accès aux données se ferait via Azure Data Factory.
+Oui. Ce scénario avancé aiderait Business Central à rester performant car l′accès aux données se ferait via Azure Data Factory.
 
 <!-- 22 -->
 ### <a name="are-there-any-plans-to-support-power-bi-deployment-pipelines-or-a-way-to-build-deployment-pipelines-for-pbi-reports-similar-to-extensions-or-maybe-even-a-simple-api-in-the-business-admin-center"></a>Est-il prévu de prendre en charge les pipelines de déploiement de Power BI, ou un moyen de créer des pipelines de déploiement pour les états PBI, similaires aux extensions ? Ou peut-être même une API simple dans le Centre d′administration ? 
@@ -194,7 +215,7 @@ Nous étudions cette fonctionnalité. Power BI propose des API riches pour contr
 
 ### <a name="ive-tried-the-preview-of-the-new-connector-which-will-be-live-in-june-2021-i-see-some-values-like-_x0020_-when-connecting-to-api-v20-what-are-these-values"></a>J′ai essayé la version préliminaire du nouveau connecteur qui sera disponible en juin 2021. Je vois des valeurs comme « _x0020_ » lors de la connexion à API v2.0. Quelles sont ces valeurs ?
 
-La prochaine version du connecteur Power BI permet de se connecter aux pages de l′API de Business Central, ce qui inclut API v2.0. Ces pages incluent des champs basés sur les [objets AL Enum](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Les champs basés sur les objets AL Enum doivent avoir des noms cohérents et toujours identiques afin que les filtres de l′état fonctionnent toujours&mdash;quels que soient la langue ou le système d′exploitation utilisés. Pour cette raison, les champs basés sur AL Enum ne sont pas traduits et sont codés pour éviter tout caractère spécial dont l′espace. En particulier, chaque fois qu′il y a une option vide dans l′objet AL Enum, elle est codée en « _x0020_ ». Vous pouvez toujours appliquer une transformation à vos données sur Power BI pour afficher une valeur différente pour ces champs, par exemple « Vide ».
+La prochaine version du connecteur Power BI permet de se connecter aux pages de l′API de Business Central, ce qui inclut API v2.0. Ces pages incluent des champs basés sur les [objets AL Enum](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Les champs basés sur les objets AL Enum doivent avoir des noms cohérents et toujours identiques afin que les filtres de l′état fonctionnent toujours&mdash;quels que soient la langue ou le système d′exploitation utilisés. Pour cette raison, les champs basés sur AL Enum ne sont pas traduits et sont codés pour éviter tout caractère spécial dont l′espace. En particulier, chaque fois qu′il y a une option vide dans l′objet AL Enum, elle est codée en « _x0020_ ». Vous pouvez toujours appliquer une transformation à vos données sur Power BI pour afficher une valeur différente pour ces champs, par exemple « Vide ».
 
 
 ---
@@ -202,12 +223,12 @@ La prochaine version du connecteur Power BI permet de se connecter aux pages de 
 ## <a name="see-also"></a>Voir aussi
 
 [Licence Power BI](admin-powerbi-setup.md#license)
-[Introduction à Business Central et à Power BI](admin-powerbi.md)  
+[Introduction à Business Central et à Power BI](admin-powerbi.md)  
 [Vue d’ensemble de l’intégration Power BI](admin-powerbi-overview.md)  
-[Activation de Power BI dans Business Central](admin-powerbi-setup.md)  
+[Activation de Power BI dans Business Central](admin-powerbi-setup.md)  
 [Utiliser les états Power BI dans Business Central](across-working-with-powerbi.md)  
 [Utilisation des données Business Central dans Power BI](across-working-with-business-central-in-powerbi.md)  
-[Création d′états Power BI pour afficher les données Business Central](across-how-use-financials-data-source-powerbi.md)    
+[Création d′états Power BI pour afficher les données Business Central](across-how-use-financials-data-source-powerbi.md)    
 [Documentation Power BI](/power-bi/)  
 
 

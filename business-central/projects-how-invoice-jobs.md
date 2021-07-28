@@ -1,6 +1,6 @@
 ---
-title: Créez une facture vente projet pour facturer un projet| Microsoft Docs
-description: Décrit comment facturer des clients pour les coûts au fur et à mesure de l’avancée du projet.
+title: Créer une facture vente projet pour facturer un projet
+description: Décrit comment facturer des clients pour les coûts au fur et à mesure de l’avancée du projet et des coûts accumulés.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 873135d2fa6053b7101a999981fb3117ee8689ab
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: 4c4bfd0293ddfa626dda75518219e597b6c4e721
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938161"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439191"
 ---
 # <a name="invoice-jobs"></a>Facturation des projets
 Au cours du projet, les coûts provenant de l’utilisation de ressources, de matières, et d’achats associés au projet peuvent s’accumuler. Au fur et à mesure de la progression du projet, ces transactions sont validées dans la feuille projet. Il est important que tous les coûts enregistrés dans la feuille projet avant de facturer le client.
@@ -33,7 +33,7 @@ Vous pouvez créer une facture pour un projet ou pour une ou plusieurs tâches p
 
 La procédure suivante explique comment utiliser un traitement par lots pour facturer plusieurs projets.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projet Créer facture vente**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Projet Créer facture vente**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Définissez des filtres si vous souhaitez limiter le nombre de projets que le traitement par lots va traiter.
 4. Pour créer les factures, cliquez sur le bouton **OK**.  
@@ -46,7 +46,7 @@ Vous pouvez examiner et valider les factures créées dans la fenêtre **Facture
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Pour créer et valider une facture vente projet à partir de lignes planning projet
 Vous pouvez créer une facture à partir des lignes planning projet et indiquer à ce moment-là la quantité de l’article, la ressource ou le compte général sur lequel vous souhaitez facturer.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.
 2. Ouvrez le projet approprié.
 3. Sélectionnez une tâche projet pour laquelle le champ **Type tâche projet** contient **Validation** puis, cliquez sur **Lignes planning projet**.  
 4. Dans une ligne planning projet, dans le champ **Qté à transférer à facturer**, saisissez la quantité de l’article, la ressource, le type de compte général sur lequel vous souhaitez facturer.  

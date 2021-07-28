@@ -1,5 +1,5 @@
 ---
-title: Utiliser Invoicing et Business Central | Microsoft Docs
+title: Utiliser Invoicing et Business Central | Microsoft Docs
 description: Solution de contournement pour accéder à Microsoft Invoicing lorsque vous vous êtes inscrit à Dynamics 365 Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 763b4ae19bc83a1fd4a3abc9d6dfd5ee0c386eb1
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115705"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439162"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Utilisation du même compte Microsoft 365 dans [!INCLUDE[prod_short](includes/prod_long.md)] et Microsoft Invoicing
 Lorsque vous êtes inscrit à une version d’évaluation avec [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez passer à une phase d’évaluation de 30 jours, démarrer un abonnement ou encore l’arrêter à l’aide de [!INCLUDE[prod_short](includes/prod_short.md)]. Dans tous les cas, vous avez peut-être à un moment donné vu quelque chose appelé **Microsoft Invoicing** et cliqué dessus. Il s’agissait d’une application qui faisait partie de ce qui est maintenant Microsoft 365 Business Standard et était anciennement connue sous le nom de Microsoft 365 Abonnement Business Premium, donc tout le monde n’aura pas vu cette mosaïque au cours de son expérience Microsoft 365.  
@@ -31,9 +31,9 @@ Vous devez donc vous connecter à [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="to-rename-your-company"></a>Pour renommer votre société
 1. Connectez-vous à [!INCLUDE[prod_short](includes/prod_short.md)].
-2. Dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez **Mes paramètres**.
+2. Dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres.](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez **Mes paramètres**.
 3. Dans le champ **Société**, sélectionnez une autre société.
-4. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sociétés**, puis sélectionnez le lien associé.  
+4. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sociétés**, puis choisissez le lien associé.  
 5. Sur la page **Sociétés**, sélectionnez le bouton **Modifier la liste**.  
 6. Remplacez le nom de l’entrée *Ma société* par un autre nom.  
 

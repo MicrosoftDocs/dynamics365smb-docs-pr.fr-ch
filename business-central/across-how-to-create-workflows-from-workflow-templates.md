@@ -1,6 +1,6 @@
 ---
-title: 'Procédure : créer des flux de travail à partir de modèles de flux de travail | Microsoft Docs'
-description: Pour gagner du temps lors de la création de workflows, vous pouvez créer des workflows à partir de modèles de workflow existants.
+title: 'Procédure : créer des flux de travail à partir de modèles de flux de travail'
+description: Pour gagner du temps lors de la création de nouveaux flux de travail, vous pouvez créer des flux de travail non modifiables à partir de modèles de flux de travail avec pour préfixe « MS- ».
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 2540632936a502cd1873c7db34733f5dd83db4b9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4c3c8011802d9deb1b7a3804758333f08fc2403b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775862"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438447"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Créer des flux de travail à partir de modèles de flux de travail
 Pour gagner du temps lors de la création de workflows, vous pouvez créer des workflows à partir de modèles de workflow existants.  
@@ -29,7 +29,7 @@ Pour gagner du temps lors de la création de workflows, vous pouvez créer des w
 Sur la page **Workflow**, créez un workflow en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de workflow modéré par des conditions d’événement, et une réponse de workflow modérée par des options de réponse. Définissez les étapes de workflow en renseignez les champs des lignes de workflow à partir de listes fixes de valeurs d’événement et de réponse qui sont les scénarios pris en charge par le code d’application. Pour plus d’informations, voir [Créer des flux de travail](across-how-to-create-workflows.md).  
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>Pour créer un workflow à partir d’un modèle de workflow  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Flux de travail**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Créer le flux de travail à partir du modèle**. La page **Modèles flux de travail** s’ouvre.  
 3.  Sélectionnez un modèle de workflow et cliquez sur le bouton **OK**.  
 

@@ -1,6 +1,6 @@
 ---
 title: Envoyer des documents électroniques
-description: Découvrez comment envoyer des factures par voie électronique.
+description: Découvrez comment utiliser Business Central pour envoyer des factures et des avoirs électroniques au format PEPPOL.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8056aa66531740634fb155e0b3b4419a7f014ffc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: abfc8b77ed4b6cc748898e8d4af8f68e036b468e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778387"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440293"
 ---
 # <a name="send-electronic-documents"></a>Envoyer des documents électroniques
 
@@ -27,7 +27,7 @@ La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] prend e
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>Envoyer une facture vente électronique
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.  
 
 2. Créez une facture vente.  
 

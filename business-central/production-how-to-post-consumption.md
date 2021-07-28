@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b3ee6ca54e21605b4e9cf340b04656694c9801e
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 2f31c7f48e88a44eb3f437827b6b24f255180d9a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935201"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440443"
 ---
 # <a name="batch-post-production-consumption"></a>Valider par lots la consommation de la production
 
@@ -28,7 +28,7 @@ Vous pouvez également configurer [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Pour valider la consommation pour une ou plusieurs lignes ordre de fabrication
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille consommation**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille consommation**, puis choisissez le lien associé.  
 2. Renseignez les champs en indiquant les données relatives à l’ordre de fabrication et à la consommation. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Utilisez l′action **Calculer consommation** pour générer les lignes feuilles des ordres de fabrication basés sur la production réelle (quantité de produits finis figurant dans l′état) ou sur la production prévue (quantité de produits finis que vous prévoyez de fabriquer).

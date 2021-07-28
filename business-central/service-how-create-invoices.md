@@ -1,6 +1,6 @@
 ---
-title: Créer des factures ou des avoirs pour des services | Microsoft Docs
-description: Découvrez comment créer des factures, afin d’être payé pour votre service.
+title: 'Procédure : créer des factures ou des avoirs service'
+description: Découvrez comment utiliser Business Central pour créer de manière transparente des factures et des avoirs pour vos services.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 61890301542ea7225039341eb30fbf4e3dd035d0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ad5003e8dac33ac5886caa698650ba211c9b89ae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778287"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440168"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Créer des factures service ou des avoirs
 La simplicité de facturation des commandes service est une fonctionnalité clé de [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez aussi configurer votre [!INCLUDE[prod_short](includes/prod_short.md)] afin qu’un technicien de service sur le terrain puisse créer une facture pour un service qui n’est pas connecté à un contrat ou une commande. Sinon, configurez [!INCLUDE[prod_short](includes/prod_short.md)] afin de facturer régulièrement les contrats de service. La période de facturation de chaque contrat définit la fréquence de facturation.
 
 ## <a name="to-invoice-several-service-contracts"></a>Pour facturer plusieurs contrats de service
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Créer factures contrat service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Créer des factures de contrat de service**, puis sélectionnez le lien associé.  
 2. Définissez les filtres que vous souhaitez appliquer.  
 3. Dans le champ **Date comptabilisation**, entrez la date à utiliser comme date comptabilisation pour les factures service.  
 4. Dans le champ **Date facturation**, saisissez la date limite de facturation des contrats. Le traitement par lots inclut les contrats dont la prochaine date de facturation est antérieure à cette date.  
@@ -32,7 +32,7 @@ La simplicité de facturation des commandes service est une fonctionnalité clé
 Vous pouvez également facturer un contrat de service directement à partir de la page **Contrat de service** si la date de la prochaine facture sur le contrat est antérieure à la date du jour.
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Pour facturer un contrat de service à partir de la page Contrat de service   
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contrats de service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Contrats de service**, puis sélectionnez le lien associé.  
 2. Sélectionnez le contrat de service à facturer, puis ouvrez la fiche de contrat.  
 3. Choisissez l’action **Créer facture service**. 
 4. Choisissez **Oui** pour créer les factures service.  
@@ -43,7 +43,7 @@ Vous pouvez également facturer un contrat de service directement à partir de l
 ## <a name="to-post-an-invoice-from-a-service-order"></a>Pour valider une consommation à partir d’une commande service  
 La procédure suivante décrit comment définir la partie du service que vous allez facturer au client.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes service**, puis choisissez le lien associé.  
 2. Sélectionnez la commande service à facturer, puis ouvrez la fiche de commande.  
 3. Choisissez l’action **Lignes service**.  
 4. Recherchez les écritures requises, puis spécifiez les quantités pour lesquelles vous allez facturer le client dans le champ **Qté à facturer**.  
@@ -62,7 +62,7 @@ La procédure suivante décrit comment définir la partie du service que vous al
 ## <a name="to-create-a-service-invoice-manually"></a>Pour créer une facture service manuellement  
 Typiquement, après avoir validé une facture service avec l’option **Facturer** ou **Livrer et facturer**, une facture service validée est crée automatiquement. Toutefois, il se peut que vous deviez émettre une facture qui est non liée à un contrat de service ou à une facture service. Cette procédure explique comment émettre une facture au moment où le client reçoit le service.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Facture service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures service**, puis sélectionnez le lien associé.  
 2. Créez une facture service.  
 3. Renseignez le champ **N°** .  
   
@@ -80,7 +80,7 @@ Typiquement, après avoir validé une facture service avec l’option **Facturer
 ## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Pour créer une facture qui combine les lignes expédition enregistrées d’une ou de plusieurs commandes service 
 Il se peut que vous deviez créer une facture service pour le service qui a déjà été expédié, à partir d’une ou plusieurs commandes service, mais pas encore facturé ni consommé. Vous pouvez renseigner les lignes facture automatiquement avec les lignes expédition validées sélectionnées pour un client spécifique.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Facture service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures service**, puis sélectionnez le lien associé.  
 2. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 3. Créez des lignes facture pour les services expédiés mais non facturés. Vous pouvez également utiliser l’action **Extraire lignes expédition** pour ajouter des lignes expédition validées à la facture.  
 4. Validez la facture service.  
@@ -90,7 +90,7 @@ Il se peut que vous deviez créer une facture service pour le service qui a déj
 ## <a name="to-create-a-service-credit-memo"></a>Pour créer un avoir service  
 Un document avoir service est typiquement utilisé lorsqu’un client retourne un article, mais il peut également être utilisé pour offrir au client une compensation ou pour corriger une facture erronée.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Avoirs service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Avoirs service**, puis sélectionnez le lien associé.  
 2. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Les champs **Date comptabilisation** et **Date document** affichent la date de travail. Si nécessaire, vous pouvez la modifier.    
 4. Sur les lignes avoir, entrez les informations relatives aux articles retournés ou retirés, ou à la compensation qui sera donnée au client.  

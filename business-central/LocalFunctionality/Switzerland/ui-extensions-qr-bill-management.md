@@ -1,6 +1,6 @@
 ---
-title: Gestion des QR-factures | Microsoft Docs
-description: Configurez l'extension Gestion des QR-factures et générez, envoyez et importez facilement des QR-factures.
+title: Gestion des QR-factures [CH]
+description: Cet article décrit les améliorations apportées à l'extension Gestion des QR-factures et la façon dont vous pouvez utiliser Business Central pour générer, envoyer et importer facilement vos QR-factures.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: soalex
-ms.openlocfilehash: 229738071822ae68328adaa542e671f03e623b51
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3eecd93dbb2a8ca750568f9a9d576054b322644b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788207"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440482"
 ---
-# <a name="qr-bill-management-in-prod_short"></a>Gestion des QR-factures dans [!INCLUDE[prod_short](../../includes/prod_short.md)]
+# <a name="qr-bill-management-in-the-swiss-version-of-business-central"></a>Gestion des QR-factures dans la version suisse de Business Central
 À partir du 1er juillet 2020, les sociétés en Suisse doivent pouvoir recevoir des QR-factures. Les QR-factures sont des bordereaux de paiement qui suivent les factures, et constituent une initiative nationale visant à rationaliser les processus de paiement. Les QR-factures remplacent tous les borderaux de paiement existants et les fonctionnalités liées à l'ESR. Elles contiennent toutes les informations nécessaires pour effectuer les paiements, et un code QR sur le borderau de paiement facilite l'importation des informations dans [!INCLUDE[prod_short](../../includes/prod_short.md)]. Toutes les informations pertinentes sont importées et utilisées pour générer des paiements pour le vendeur qui a envoyé la QR-facture, y compris la référence du paiement, qui est automatiquement incluse dans les écritures comptables fournisseurs et exportée dans les fichiers de paiement à la banque.
 
 ## <a name="get-started-with-the-qr-bill-management-extension"></a>Commencer à utiliser l'extension Gestion des QR-factures
@@ -63,7 +63,7 @@ Vous pouvez recevoir les QR-factures à plusieurs endroits dans [!INCLUDE[prod_s
 ### <a name="to-receive-a-qr-bill-through-an-incoming-documents"></a>Pour recevoir une QR-facture par le biais d'un document entrant
 La réception d'une QR-facture par le biais de documents entrants est particulièrement utile lorsque le processus est automatisé, mais vous pouvez également recevoir manuellement une QR-facture par le biais de documents entrants.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Documents entrants**, puis sélectionnez le lien associé.
+1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Documents entrants**, puis sélectionnez le lien associé.
 2. Dans la liste **Documents entrants**, créez une nouvelle écriture en choisissant **Nouveau**, puis **Nouveau**. 
 3. Sur la page **Document entrant**, entrez une description dans la champ **Description**.
 4. Pour importer la QR-facture, choisissez **Actions**, puis **QR-facture**, puis **Numériser QR-facture** pour numériser une QR-facture dans l'écriture document entrant.

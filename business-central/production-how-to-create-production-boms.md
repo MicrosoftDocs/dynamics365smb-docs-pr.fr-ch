@@ -1,6 +1,6 @@
 ---
 title: 'Procédure : Créer des nomenclatures de production'
-description: Une nomenclature de production contient les données de base qui décrivent les composants et les produits semi-finis utilisés lors de la fabrication d’un article parent. Après la création d’un ordre de fabrication pour cet article parent, sa nomenclature de production gouvernera le calcul de besoins matériels tels que représentés sur la page **Composants ordre prod.**.
+description: Découvrez comment créer une nomenclature de production, de nouvelles versions d’une nomenclature de production et utiliser la formule de calcul de quantité.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 122a907e7b61c9fe19853226de8549a073f0cddd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ffd57ed4f69870e04e8081d0ef6189788dc01ce6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782003"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438717"
 ---
 # <a name="create-production-boms"></a>Créer des nomenclatures de production
 
@@ -29,7 +29,7 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 - Les ressources de production sont configurées. Pour plus d’informations, voir [Configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Pour créer une nomenclature de production  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Nomenclature production**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Nomenclature de production**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Pour modifier la nomenclature, définissez le champ **Statut** sur **Création en cours** ou sur **Modification en cours**. Pour l’activer, définissez le champ **Statut** sur **Validée**.  
@@ -56,7 +56,7 @@ Les nouvelles versions des nomenclatures de production sont utilisées lorsque, 
 
 La date début indique le début de la période de validité de la version. La date début peut également être considérée comme un filtre pour les calculs et les évaluations. La version de la nomenclature est valide jusqu’à l’entrée en vigueur de la version suivante, qui est indiquée par sa date début.  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Nomenclature production**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Nomenclature de production**, puis choisissez le lien associé.  
 2.  Sélectionnez la nomenclature de production à copier, puis choisissez l’action **Versions**.  
 3.  Sélectionnez l’action **Nouveau**.  
 4. Renseignez les champs selon vos besoins.

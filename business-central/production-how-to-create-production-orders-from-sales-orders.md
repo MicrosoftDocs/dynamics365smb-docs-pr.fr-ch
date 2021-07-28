@@ -1,6 +1,6 @@
 ---
 title: Créer des ordres de fabrication à partir de commandes achat
-description: Vous pouvez créer des ordres de fabrication à partir de commandes achat.
+description: Découvrez les différentes façons de créer des ordres de fabrication pour les articles produits directement à partir des commandes vente.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/28/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 438f4d4e1833ba607ceedb9f5d9450c0a4dbb680
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: a432b8f00a24771578716a1b51678904d2e29ec5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115251"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438642"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Créer des ordres de fabrication à partir de commandes achat
 Vous pouvez créer des ordres de fabrication pour les articles produits directement à partir des commandes vente.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Pour créer un ordre de fabrication à partir d’une commande achat  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la commande vente pour laquelle vous voulez créer un ordre de fabrication.  
 3.  Sélectionnez l’action **Planification**. Sur la page **Planification commande vente**, vous pouvez afficher la disponibilité de l’article de commande vente.  
 4.  Sélectionnez l’action **Créer O.F**.  

@@ -1,6 +1,6 @@
 ---
 title: Procédure de création d’une société | Microsoft Docs
-description: Lorsque vous utilisez RapidStart Services, des tables et des pages sont créées, mais elles ne contiennent pas de données.
+description: Utilisez les tables et les pages RapidStart Services pour créer une société pour laquelle vous souhaitez effectuer une implémentation client.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c21d86c67c6020d1a32da4816246bc7aaf96c2ca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779897"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439650"
 ---
 # <a name="create-a-new-company"></a>Créer une société
 Pour utiliser RapidStart Services pour [!INCLUDE[prod_short](includes/prod_short.md)], vous devez d’abord créer une société pour laquelle vous souhaitez effectuer une implémentation client. Lorsque vous créez une société, les tables et les pages standard de [!INCLUDE[prod_short](includes/prod_short.md)] sont créées, mais elles ne contiennent pas de données.
@@ -26,7 +26,7 @@ Des exemples de packages de configuration, qui comprennent des fichiers spécifi
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Pour utiliser l’exemple de package de configuration BASICCONFIG  
 1. Ouvrez la société CRONUS International Ltd. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
-2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.  
+2. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Packages de configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez le package BASICCONFIG dans la liste, puis sélectionnez l’action **Exporter package**.  
 
 Suivez la procédure suivante pour créer une société, puis utilisez le package BASICCONFIG dans le cadre du processus.  

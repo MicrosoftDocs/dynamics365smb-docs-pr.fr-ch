@@ -1,21 +1,21 @@
 ---
-title: À propos de l’infrastructure d’échange de données | Microsoft Docs
-description: Le format des fichiers utilisés pour l’échange de données bancaires, les documents électroniques, les taux de change de devises, et d’autres fichiers utilisés avec les systèmes ERP varie selon le fournisseur du fichier de données ou du flux, et selon le pays ou la région.
+title: À propos de l’infrastructure d’échange de données
+description: Cette rubrique explique comment utiliser l’infrastructure d’échange de données pour gérer l’échange de données dans des documents commerciaux tels que des factures avec vos partenaires commerciaux.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 6ae76aa8f8522b7d93dd442d6d8cc748f1d2dac4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 53c0bcbf03f989175783ebb93228815712c25552
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776337"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439133"
 ---
 # <a name="about-the-data-exchange-framework"></a>À propos de l’infrastructure d’échange de données
 
@@ -25,9 +25,9 @@ En tant qu’administrateur ou partenaire Microsoft, vous pouvez utiliser l’in
 
  Les schémas suivantes indiquent l’architecture de l’infrastructure d’échange de données.  
 
- ![Structure d’échange de données &#45; Importation](media/across-data-exchange/dataexchangeframework_import.png)  
+ ![Infrastructure d’échange de données &#45; Importation.](media/across-data-exchange/dataexchangeframework_import.png)  
 
- ![Structure d’échange de données &#45; Exportation](media/across-data-exchange/dataexchangeframework_export.png)  
+ ![Infrastructure d’échange de données &#45; Exportation.](media/across-data-exchange/dataexchangeframework_export.png)  
 
 ## <a name="electronic-documents"></a>Documents électroniques
 

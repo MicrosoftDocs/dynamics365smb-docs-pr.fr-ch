@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e6f519df1cdc04aab1b6b1fa75154aa5b3667d7a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3fbf2905f20f1f19fc3bd6fb315e63f9944528b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783174"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439992"
 ---
 # <a name="manage-notifications"></a>Gérer les notifications
 
@@ -32,7 +32,7 @@ En outre, certaines notification vous permettent de spécifier les conditions da
 
 L’activation ou la désactivation des notifications et la spécification des conditions s’appliquent uniquement à vous.  
 
-1. Dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez l’action **Mes paramètres**.  
+1. Dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres.](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez l’action **Mes paramètres**.  
 2. Sur la page **Mes paramètres**, dans le champ **Notifications**, choisissez le lien *Modifier lorsque je reçois des notifications.* .  
 3. Dans la page qui apparaît, activez ou désactivez une notification en cochant ou en décochant la case **Activé**.  
 4. Pour spécifier les conditions qui déclenchent une notification, cliquez sur le lien **Afficher les détails du filtre**, puis renseignez les champs.  

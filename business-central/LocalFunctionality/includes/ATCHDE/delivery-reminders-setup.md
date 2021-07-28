@@ -4,18 +4,18 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 34d9ddd0c3afc97beb19c6c4c9441770656ef6e9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5fe2560bee5689524be9cc3293cb7a4859937451
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771508"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438984"
 ---
 Dans [!INCLUDE[prod_short](../../../includes/prod_short.md)], vous pouvez utiliser des relances livraison pour rappeler aux fournisseurs les livraisons en retard. Pour créer des relances livraison pour les fournisseurs, vous devez configurer des données de base pour la création de relances livraison et des souches de numéros pour les relances livraison dans la page **Paramètres achats**.  
 
 ## <a name="to-set-up-delivery-reminders"></a>Pour paramétrer des relances livraison  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres achats**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramètres achats**, puis choisissez le lien associé.  
 2. Dans le champ **Champ date rel. livr. par défaut**, spécifiez une des options suivantes comme décrit dans le tableau suivant.  
 
     |Option|Description|  

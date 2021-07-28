@@ -1,6 +1,6 @@
 ---
 title: 'Procédure : Créer une prévision de la demande'
-description: Vous pouvez créer des prévisions de vente et de production à l’aide de la page **Prévision demande**.
+description: Découvrez la fonctionnalité de prévision dans Business Central et comment vous pouvez créer des prévisions de vente et de production.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b2a24eeb4e50cb6f7a1c9e02c861ec51668438
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779343"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438702"
 ---
 # <a name="create-a-demand-forecast"></a>Créer une prévision de la demande
 Vous pouvez créer des prévisions de vente et de production à l’aide de la page **Prévision demande**.  
@@ -85,7 +85,7 @@ Ensuite, vous créez une commande client avec une quantité de 12 sur le magasi
 
 ## <a name="to-create-a-demand-forecast"></a>Pour créer une prévision de la demande
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prévision demande**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prévision de la demande**, puis sélectionnez le lien associé.  
 2. Sur le raccourci **Général**, choisissez une prévision dans le champ **Nom prévision demande**. Plusieurs prévisions peuvent exister, qui se différencient par leur nom et leur type.  
 3. Dans le champ **Filtre magasin**, sélectionnez le magasin auquel s’applique la prévision.
 4. Dans le champ **Afficher par** pour modifier la période affichée dans chaque colonne. Vous pouvez choisir entre les intervalles suivants : **Jour**, **Semaine**, **Mois**, **Trimestre**, **Année** ou **Période comptable**, tel que paramétré dans votre espace financier.    

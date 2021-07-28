@@ -1,6 +1,6 @@
 ---
-title: Procédure de replanification ou d’actualisation directe des ordres de fabrication | Microsoft Docs
-description: Les lignes O.F. affichent les articles à produire à l’aide de l’ordre de fabrication.
+title: Replanifier ou actualiser directement des ordres de fabrication
+description: Cette rubrique décrit les procédures permettant de replanifier les ordres de fabrication et d’actualiser directement les ordres de fabrication.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e3e1fa5535637f204c942aa8d3589dfff0392333
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5e8543d64c1ecfea1f554f13f753743684d1f463
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787817"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440393"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replanifier ou actualiser directement des ordres de fabrication
 La fonction **Replanifier** des ordres de fabrication est généralement utilisée après avoir ajouté ou modifié des composants constituant des ordres de fabrication sous-jacents. La fonction calcule les modifications apportées aux composants et aux lignes gamme. Elle inclut les articles situés à des niveaux de nomenclatures de production inférieurs, pour lesquels elle peut générer de nouveaux O.F.  
@@ -35,7 +35,7 @@ Vous pouvez soit insérer les lignes O.F. manuellement, soit utiliser la fonctio
 > Si vous utilisez la fonction Actualiser pour recalculer des lignes O.F., les anciennes lignes O.F. sont supprimées et de nouvelles lignes sont calculées.  
 
 ## <a name="to-replan-a-production-order"></a>Pour replanifier un ordre de fabrication  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
 2.  Ouvrez l’ordre de fabrication à replanifier.  
 3.  Sur le raccourci **Lignes**, choisissez l’action **Lignes**, puis choisissez l’action **Composants**.  
 4.  Ajoutez un composant qui soit un article produit ou un sous-ensemble.  
@@ -65,12 +65,12 @@ Vous pouvez soit insérer les lignes O.F. manuellement, soit utiliser la fonctio
 ## <a name="to-refresh-a-production-order"></a>Pour actualiser un ordre de fabrication  
 Si vous avez modifié des lignes O.F., des composants ou des lignes gamme, vous devez aussi actualiser les informations de l’ordre de fabrication. Dans la procédure qui suit, les composants d’un ordre de fabrication planifié ferme sont calculés. La procédure est identique pour les lignes gamme.
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifié ferme**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. planifié ferme**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l’action **Nouveau**. Pour plus d’informations, voir [Créer des ordres de fabrication](production-how-to-create-production-orders.md).  
 3.  Sélectionnez l’action **Actualiser**.
 4. Sur la page **Actualiser O.F.**, sélectionnez l’une des options suivantes :
 
-    |Option|Désignation|  
+    |Option||Désignation|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Direction**|**Aval**|La planification commence à la date début et se poursuit jusqu’à la date fin. Vous devez renseigner la date début pour pouvoir utiliser cette option.|  
     ||**Amont**|La planification commence à la date fin et remonte jusqu’à la date début.|  

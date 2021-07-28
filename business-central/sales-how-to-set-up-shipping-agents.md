@@ -1,6 +1,6 @@
 ---
-title: Procédure de configuration des transporteurs | Microsoft Docs
-description: Vous pouvez définir un code pour chacun de vos transporteurs et saisir les informations qui les concernent.
+title: 'Procédure : configurer des transporteurs'
+description: Découvrez comment configurer un code pour chacun de vos transporteurs et saisir des informations descriptives concernant chacun d’entre eux et les services qu’ils proposent.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 221578a174c6bd0dd87377340e97cd54a98d177b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1e74be125909db7f7d1c4301a33da1b12648e70a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778412"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440243"
 ---
 # <a name="set-up-shipping-agents"></a>Configurer des transporteurs
 Vous pouvez définir un code pour chacun de vos transporteurs et saisir les informations qui les concernent.  
@@ -28,7 +28,7 @@ Pour chaque transporteur, vous pouvez définir un nombre illimité de services e
 Lorsque vous avez affecté une prestation transporteur à une ligne commande vente, le délai d’expédition de la prestation est inclus dans le calcul de la promesse de livraison, pour cette ligne. Pour plus d’informations, voir [Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Pour configurer des transporteurs  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Transporteurs**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Transporteurs**, puis sélectionnez le lien associé.  
 2.  Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Sélectionnez l’action **Prestations transporteur**.
 4. Dans la fenêtre **Prestations transporteur**, renseignez les champs selon vos besoins.

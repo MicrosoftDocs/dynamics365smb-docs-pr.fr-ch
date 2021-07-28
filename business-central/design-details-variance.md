@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 153e1e9f5bf8b69c9a1561b7c028eb938b8e37b8
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3b6ec6cbd2ebef6ff2cd44a49284821485d63f6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215718"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439575"
 ---
 # <a name="design-details-variance"></a>Détails de conception : écart
 L’écart est défini comme la différence entre le coût réel et le coût standard, telle que décrite dans la formule suivante.  
@@ -38,7 +38,7 @@ L’écart est défini comme la différence entre le coût réel et le coût sta
 
  Le tableau suivant montre les écritures valeur résultantes.  
 
- ![Calcul variance achat](media/design_details_inventory_costing_11_purchase_variance.png "Calcul variance achat")  
+ ![Calcul variance achat.](media/design_details_inventory_costing_11_purchase_variance.png "Calcul variance achat")  
 
 ## <a name="determining-the-standard-cost"></a>Déterminer le coût standard  
  Le coût standard est utilisé pour calculer l’écart et le montant à capitaliser. Dans la mesure où le coût standard peut être modifié dans le temps en raison du calcul de mise à jour manuel, vous avez besoin d’un certain point dans le temps où le coût standard est fixe pour le calcul de l’écart. Ce point est pertinent lorsque l’augmentation de stock est facturée. Pour les articles fabriqués ou assemblés, le point auquel le coût standard est déterminé est lorsque le coût est ajusté.  
@@ -48,16 +48,16 @@ L’écart est défini comme la différence entre le coût réel et le coût sta
 |Coût total|Article acheté|Article produit/assemblé|  
 |----------------|--------------------|------------------------------|  
 |**Coût standard**||Coût matière mono-niveau + Coût opératoire mono-niveau + Coût s/traitance mono-niveau + Frais gén. opérat. mono-niv. + Frais gén. matière mono-niv.|  
-|**Coût matière mono-niveau**|Coût unitaire|![Équation 1](media/design_details_inventory_costing_11_equation_1.png "Équation 1")|  
-|**Coût opératoire mono-niveau**|Non applicable|![Équation 2](media/design_details_inventory_costing_11_equation_2.png "Équation 2")|  
-|**Coût s/traitance mono-niveau**|Non applicable|![Équation 3](media/design_details_inventory_costing_11_equation_3.png "Équation 3")|  
-|**Frais gén. opérat. mono-niv.**|Non applicable|![Équation 4](media/design_details_inventory_costing_11_equation_4.png "Équation 4")|  
+|**Coût matière mono-niveau**|Coût unitaire|![Équation 1.](media/design_details_inventory_costing_11_equation_1.png "Équation 1")|  
+|**Coût opératoire mono-niveau**|Non applicable|![Équation 2.](media/design_details_inventory_costing_11_equation_2.png "Équation 2")|  
+|**Coût s/traitance mono-niveau**|Non applicable|![Équation 3.](media/design_details_inventory_costing_11_equation_3.png "Équation 3")|  
+|**Frais gén. opérat. mono-niv.**|Non applicable|![Équation 4.](media/design_details_inventory_costing_11_equation_4.png "Équation 4")|  
 |**Frais gén. matière mono-niv.**|Non applicable|(Coût matière mono-niveau + Coût opératoire mono-niveau + Coût s/traitance mono-niveau) * Coût indirect % / 100 + Frais généraux|  
-|**Coût matière multi-niveau**|Coût unitaire|![Équation 5](media/design_details_inventory_costing_11_equation_5.png "Équation 5")|  
-|**Coût opératoire multi-niveau**|Non applicable|![Équation 6](media/design_details_inventory_costing_11_equation_6.png "Équation 6")|  
-|**Coût s/traitance multi-niv.**|Non applicable|![Équation 7](media/design_details_inventory_costing_11_equation_7.png "Équation 7")|  
-|**Frais généraux opératoires multi-niveaux**|Non applicable|![Équation 8](media/design_details_inventory_costing_11_equation_8.png "Équation 8")|  
-|**Frais gén. matière multi-niv.**|Non applicable|![Équation 9](media/design_details_inventory_costing_11_equation_9.png "Équation 9")|  
+|**Coût matière multi-niveau**|Coût unitaire|![Équation 5.](media/design_details_inventory_costing_11_equation_5.png "Équation 5")|  
+|**Coût opératoire multi-niveau**|Non applicable|![Équation 6.](media/design_details_inventory_costing_11_equation_6.png "Équation 6")|  
+|**Coût s/traitance multi-niv.**|Non applicable|![Équation 7.](media/design_details_inventory_costing_11_equation_7.png "Équation 7")|  
+|**Frais généraux opératoires multi-niveaux**|Non applicable|![Équation 8.](media/design_details_inventory_costing_11_equation_8.png "Équation 8")|  
+|**Frais gén. matière multi-niv.**|Non applicable|![Équation 9.](media/design_details_inventory_costing_11_equation_9.png "Équation 9")|  
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : stock évaluation stock](design-details-inventory-costing.md)   

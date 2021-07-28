@@ -1,6 +1,6 @@
 ---
-title: 'Procédure : Imprimer des factures ESR'
-description: Vous pouvez imprimer un bordereau paiement Einzahlungsschein mit Referenznummer (ESR) de plusieurs façons.
+title: 'Procédure : Imprimer des factures ESR [CH]'
+description: Cette rubrique décrit la procédure d'impression de factures et de coupons de bordereau paiement Einzahlungsschein mit Referenznummer (ESR).
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 7d05e3c011951e4187fed9cc5081cb1a60ad6bec
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 62801f8ad609fdd746123a32c6866c5773949af3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777586"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439753"
 ---
-# <a name="print-esr-invoices"></a>Imprimer des factures ESR
+# <a name="print-esr-invoices-in-the-swiss-version"></a>Imprimer des factures ESR dans la version suisse
 Vous pouvez imprimer un bordereau paiement Einzahlungsschein mit Referenznummer (ESR) des façons suivantes :  
 
 - En tant que facture vente ESR.  
@@ -34,7 +34,7 @@ La procédure suivante décrit comment imprimer des factures vente ESR, mais les
 
 ## <a name="to-print-esr-invoices"></a>Pour imprimer des factures ESR  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Facture ESR**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Facture ESR**, puis sélectionnez le lien associé.  
 2.  Dans le traitement par lots **Facture vente ESR**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  

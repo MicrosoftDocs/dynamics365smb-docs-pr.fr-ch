@@ -1,6 +1,6 @@
 ---
-title: Procédure pas-à-pas – Créer des prévisions de trésorerie à l’aide de tableaux d’analyse
-description: Découvrez comment utiliser des tableaux d’analyse pour élaborer des prévisions de trésorerie.
+title: Prévisions de flux de trésorerie à l’aide de calendriers comptables
+description: Cette procédure pas-à-pas décrit le mode d’utilisation des tableaux d’analyse pour élaborer des prévisions de trésorerie dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 48a176c4c363c4a33ae336d754be71c9f7dd0aeb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0da9a5cab5c36bd5403bca3731ce46bb67316c3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772119"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438517"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procédure pas-à-pas : créer des prévisions de trésorerie à l’aide de tableaux d’analyse
 
@@ -54,7 +54,7 @@ Un tableau d’analyse est composé d’un nom de tableau d’analyse de trésor
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Pour configurer un nouveau nom de tableau d’analyse  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.  
 2. Sur la page **Noms tableaux d’analyse**, choisissez **Nouveau** pour créer un nom pour le tableau d’analyse de trésorerie.  
 3. Dans le champ **Nom**, entrez **Prévision**.  
 4. Dans le champ **Description**, entrez **Prévision de trésorerie**.  

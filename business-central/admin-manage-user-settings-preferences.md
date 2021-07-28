@@ -1,5 +1,5 @@
 ---
-title: Gérez les paramètres et préférences utilisateur en tant qu'administrateur
+title: Gérez les paramètres et préférences utilisateur en tant qu’administrateur
 description: Gérez les paramètres et les préférences de l’utilisateur dans Dynamics 365 Business Central.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
@@ -11,23 +11,23 @@ ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 36850a2d0d8f85a0436b5d268c3cd2653b2f785f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779772"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438967"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Gérer les paramètres et les préférences de l’utilisateur
 
 En tant qu’administrateur, vous pouvez configurer les paramètres utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)], semblable à la façon dont les utilisateurs individuels peuvent gérer leurs propres préférences sur la page **Mes paramètres**.  
 
-Obtenez un aperçu de tous les utilisateurs de la liste **Utilisateurs**, et modifiez les paramètres individuels en choisissant l'action **Paramètres utilisateur** pour l'utilisateur concerné.
+Obtenez un aperçu de tous les utilisateurs de la liste **Utilisateurs**, et modifiez les paramètres individuels en choisissant l’action **Paramètres utilisateur** pour l’utilisateur concerné.
 
 > [!TIP]
-> La liste **Paramètres utilisateur** affiche les paramètres actuels de chaque utilisateur. Pour afficher ou modifier des utilisateurs individuels, choisissez l'action **Afficher** ou **Modifier**.
+> La liste **Paramètres utilisateur** affiche les paramètres actuels de chaque utilisateur. Pour afficher ou modifier des utilisateurs individuels, choisissez l’action **Afficher** ou **Modifier**.
 
-La page **Carte des paramètres utilisateur** est similaire à la page **Mes paramètres** à laquelle chaque utilisateur a accès, et c'est un outil puissant pour vous en tant qu'administrateur pour définir les paramètres par défaut et effacer les pages personnalisées, par exemple.  
+La page **Carte des paramètres utilisateur** est similaire à la page **Mes paramètres** à laquelle chaque utilisateur a accès, et c’est un outil puissant pour vous en tant qu’administrateur pour définir les paramètres par défaut et effacer les pages personnalisées, par exemple.  
 
 ## <a name="types-of-user-settings"></a>Types de paramètres utilisateur
 
@@ -43,7 +43,7 @@ La page **Carte des paramètres utilisateur** est similaire à la page **Mes par
 
 - **Langue**  
 
-  Définit la langue d’application dans laquelle [!INCLUDE[prod_short](includes/prod_short.md)] présente du texte, des légendes et des messages d’erreur. Si les utilisateurs [!INCLUDE[prod_short](includes/prod_short.md)] sont synchronisés à partir de Microsoft 365, les paramètres de langue de Microsoft 365 sont utilisés, en supposant que l’utilisateur souhaite utiliser les mêmes paramètres dans les produits Office et [!INCLUDE[prod_short](includes/prod_short.md)]. L'administrateur peut modifier le paramètre par défaut et chaque utilisateur peut choisir parmi les langues disponibles sur la page Mes paramètres. Mais ils seront réinitialisés sur la valeur de Microsoft 365 une fois la prochaine synchronisation effectuée.
+  Définit la langue d’application dans laquelle [!INCLUDE[prod_short](includes/prod_short.md)] présente du texte, des légendes et des messages d’erreur. Si les utilisateurs [!INCLUDE[prod_short](includes/prod_short.md)] sont synchronisés à partir de Microsoft 365, les paramètres de langue de Microsoft 365 sont utilisés, en supposant que l’utilisateur souhaite utiliser les mêmes paramètres dans les produits Office et [!INCLUDE[prod_short](includes/prod_short.md)]. L’administrateur peut modifier le paramètre par défaut et chaque utilisateur peut choisir parmi les langues disponibles sur la page Mes paramètres. Mais ils seront réinitialisés sur la valeur de Microsoft 365 une fois la prochaine synchronisation effectuée.
 
   Si le paramètre de langue de Microsoft 365 correspond à une langue prise en charge dans [!INCLUDE[prod_short](includes/prod_short.md)], cette langue sera choisie pour l’utilisateur.  
 
@@ -60,24 +60,24 @@ La page **Carte des paramètres utilisateur** est similaire à la page **Mes par
 
 - **Conseils d’apprentissage**
 
-  [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)] En tant qu'administrateur, vous pouvez désactiver les conseils pédagogiques pour tous les utilisateurs, par exemple si vous êtes en train d'intégrer des utilisateurs déjà familiarisés avec [!INCLUDE [prod_short](includes/prod_short.md)].  
+  [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)] En tant qu’administrateur, vous pouvez désactiver les conseils pédagogiques pour tous les utilisateurs, par exemple si vous êtes en train d’intégrer des utilisateurs déjà familiarisés avec [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
 > Si une synchronisation des utilisateurs Microsoft 365 est effectuée pendant que les utilisateurs sont connectés à [!INCLUDE[prod_short](includes/prod_short.md)], ces utilisateurs doivent actualiser le navigateur ou se déconnecter et se reconnecter à [!INCLUDE[prod_short](includes/prod_short.md)] pour voir une langue potentiellement différente définie par l’action de synchronisation.
 
-## <a name="overview-of-all-user-specific-changes"></a>Vue d'ensemble de toutes les modifications spécifiques à l'utilisateur
+## <a name="overview-of-all-user-specific-changes"></a>Vue d’ensemble de toutes les modifications spécifiques à l’utilisateur
 
-En tant qu'administrateur, vous pouvez obtenir un aperçu des modifications individuelles apportées à [!INCLUDE [prod_short](includes/prod_short.md)] que chaque utilisateur peut avoir fait sur différentes pages dans [!INCLUDE [prod_short](includes/prod_short.md)]. Lorsque les utilisateurs modifient leur expérience dans [!INCLUDE [prod_short](includes/prod_short.md)], ces changements seront reflétés dans la liste **Personnalisations utilisateur**. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
+En tant qu’administrateur, vous pouvez obtenir un aperçu des modifications individuelles apportées à [!INCLUDE [prod_short](includes/prod_short.md)] que chaque utilisateur peut avoir fait sur différentes pages dans [!INCLUDE [prod_short](includes/prod_short.md)]. Lorsque les utilisateurs modifient leur expérience dans [!INCLUDE [prod_short](includes/prod_short.md)], ces changements seront reflétés dans la liste **Personnalisations utilisateur**. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
 ## <a name="to-review-or-delete-user-personalizations"></a>Pour consulter ou supprimer les personnalisations des utilisateurs
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Pages personnalisées**, puis sélectionnez le lien associé.
-2. Cela montre la liste des utilisateurs et leurs pages personnalisées. Pour effacer la personnalisation d'un utilisateur, cliquez sur la ligne appropriée ou choisissez **Gérer**, puis **Supprimer**.
+1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") entrez **Pages personnalisées**, puis sélectionnez le lien associé.
+2. Cela montre la liste des utilisateurs et leurs pages personnalisées. Pour effacer la personnalisation d’un utilisateur, cliquez sur la ligne appropriée ou choisissez **Gérer**, puis **Supprimer**.
 
-Cela supprime la personnalisation et l'expérience de l'utilisateur de la page concernée revient à l'état par défaut.
+Cela supprime la personnalisation et l’expérience de l’utilisateur de la page concernée revient à l’état par défaut.
 
 ## <a name="see-also"></a>Voir aussi
 

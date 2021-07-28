@@ -1,6 +1,6 @@
 ---
-title: 'Procédure pas à pas : planification manuelle des approvisionnements | Microsoft Docs'
-description: Cette procédure pas à pas présente le processus de planification des commandes approvisionnement en vue de répondre à la nouvelle demande. Vous pouvez lancer la planification des approvisionnements à des intervalles fixes, par exemple, tous les matins ou tous les lundis, ou lorsque vous recevez une notification du département Ventes ou Production, en fonction du type de demande.
+title: 'Procédure pas à pas : planification manuelle des approvisionnements'
+description: Cette procédure pas à pas montre le processus de planification des commandes d’approvisionnement pour répondre à une nouvelle demande, notamment la planification d’un achat, d’un transfert et d’un ordre de fabrication.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: c1ab3c48ae09b75ab9e54e0c9fe9afd49b833f09
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: ef6ff3f6d31b43b127146404bd9aa7407d950677
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214693"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439008"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procédure pas à pas : planification manuelle des approvisionnements
 
@@ -67,7 +67,7 @@ La page **Planification commande** est accessible de plusieurs endroits différe
 
 ### <a name="to-use-the-order-planning-page"></a>Pour utiliser la page Planification commande :  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Planning commande**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Planification commande**, puis choisissez le lien associé.  
 
      À la première ouverture de la page **Planning commande**, une planification doit être calculée pour afficher la nouvelle demande depuis le dernier calcul.  
 
@@ -225,7 +225,7 @@ La page **Planification commande** est accessible de plusieurs endroits différe
 
      Le message indique que tous les articles requis sont à présent approvisionnés. Vérifiez les ordres de fabrication planifiés fermes qui ont été créés.  
 
-13. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
+13. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
 
      Sur la page **O. F. planifiés fermes**, passez en revue la planification des heures de début et de fin de chaque commande par rapport à la structure produit. Les composants de niveau inférieur sont produits en premier. Par conséquent, vous devez planifier des commandes multi-niveaux conformément aux instructions de ce flux de planification.  
 

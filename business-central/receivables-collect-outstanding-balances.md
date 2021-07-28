@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c59ce4576f4c7916ef6b587d4bc6b21cb1047acb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781778"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439425"
 ---
 # <a name="collect-outstanding-balances"></a>Collecte des soldes restants
 
@@ -29,7 +29,7 @@ Vous pouvez utiliser des relances pour rappeler aux clients les soldes échus. V
 
 ### <a name="to-send-the-customer-statement-report"></a>Pour envoyer l’état du relevé client
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relevé client**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Relevé client**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Dans **Options sortie**, sélectionnez la manière dont l’état est envoyé au client.
 
@@ -52,7 +52,7 @@ Après avoir créé les relances et effectué toutes les modifications souhaité
 
 Une relance est identique à une facture. Lorsque vous créez une relance, un en-tête relance, ainsi qu’une ou plusieurs lignes relance, doivent être renseignés. Vous pouvez utiliser une fonction pour créer des relances pour tous les clients automatiquement.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relances**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Relances**, puis sélectionnez le lien associé.
 2. Sur la page **Relance**, cliquez sur l’action **Créer relance**.
 3. Sur la page **Créer relances**, renseignez les champs pour définir comment et pour qui les relances sont créées.
 4. Choisissez le bouton **OK**.
@@ -61,7 +61,7 @@ Une relance est identique à une facture. Lorsque vous créez une relance, un en
 
 Sur la page **Relance**, vous pouvez renseigner le raccourci **Général** manuellement et ensuite renseigner les lignes automatiquement.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relances**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Relances**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
 3. Sur le raccourci **Général**, complétez les champs, comme nécessaire.
 4. Choisissez l’action **Proposer lignes relance**.
@@ -78,7 +78,7 @@ Sur la page **Relance**, vous pouvez renseigner le raccourci **Général** manue
 
 Vous pouvez déterminer de plusieurs manières le texte devant figurer sur la relance imprimée. Dans certains cas, vous pouvez remplacer les textes début et fin définis pour le niveau actuel par ceux d’un autre niveau.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relances**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Relances**, puis sélectionnez le lien associé.
 2. Ouvrez la relance appropriée, puis cliquez sur l’action **Mettre à jour texte relance**.
 3. Sur la page **Mettre à jour texte relance**, entrez le niveau requis dans le champ **Niveau relance**.
 4. Cliquez sur le bouton **OK** pour que le programme mette à jour les textes début et fin.
@@ -101,7 +101,7 @@ Si les cases à cocher **Comptabiliser intérêts** ou le champ **Compta. frais 
 
 De plus, émettre une facture d’intérêts peut créer des écritures de TVA.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Relances**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Relances**, puis sélectionnez le lien associé.
 2. Sélectionnez la relance concernée, puis cliquez sur l’action **Émission**.
 3. Sur la page **Emettre relances**, renseignez les champs selon vos besoins.
 4. Cliquez sur le bouton **OK**.
@@ -134,7 +134,7 @@ Une fois que vous avez créé des factures d’intérêts et effectué toutes le
 
 Une facture d’intérêts ressemble à une facture. Vous pouvez renseigner un en-tête manuellement et faire renseigner les lignes, ou créer des factures d’intérêts automatiquement pour tous les clients.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures d’intérêts**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures d’intérêts**, puis sélectionnez le lien associé.  
 2. Cliquez sur **Nouveau**, puis renseignez les champs selon vos besoins.  
 3. Sélectionnez **Proposer lignes fact. intérêts**.
 4. Sur la page **Proposer lignes facture intérêts**, définissez un filtre sur le raccourci **Écriture comptable client** si vous souhaitez créer des factures d’intérêts uniquement pour des écritures spécifiques.
@@ -146,7 +146,7 @@ Une facture d’intérêts ressemble à une facture. Vous pouvez renseigner un e
 ### <a name="to-update-finance-charge-memo-texts"></a>Pour mettre à jour des textes de factures d’intérêts  
 Dans certains cas, vous pouvez modifier les textes début et fin définis pour les conditions intérêts de retard. Si vous le faites au moment où vous avez créé, mais pas encore émis, les factures d’intérêts, vous pouvez mettre à jour ces factures avec le texte modifié.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Facture d’intérêts**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Facture d’intérêts**, puis sélectionnez le lien associé.  
 2. ouvrez la facture d’intérêts dont vous souhaitez modifier le texte, puis sélectionnez **MAJ texte fact. d’intérêts**.
 3. Sur la page **MAJ texte fact. d’intérêts**, vous pouvez définir un filtre pour mettre à jour plusieurs factures d’intérêts.
 4. Cliquez sur le bouton **OK** pour que le programme mette à jour les textes début et fin.  
@@ -166,7 +166,7 @@ Si les cases à cocher **Comptabiliser intérêts** ou le champ **Compta. frais 
 
 De plus, émettre une facture d’intérêts peut créer des écritures de TVA.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures d’intérêts**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures d’intérêts**, puis sélectionnez le lien associé.
 2. Sélectionnez la facture concernée, puis cliquez sur l’action **Emettre**.
 3. Sur la page **Emettre factures d’intérêts**, renseignez les champs selon vos besoins.
 4. Cliquez sur le bouton **OK**.
@@ -180,7 +180,7 @@ Si des factures d’intérêts ont été émises par erreur, vous pouvez les ann
 
 ### <a name="to-view-reminder-and-finance-charge-entries"></a>Pour afficher les écritures relance et facture d’intérêts  
 Lorsque vous émettez une relance, une écriture relance est créée sur la page **Écr. relance/fact. intérêts** pour chaque ligne relance contenant une écriture comptable client. Vous pouvez ensuite obtenir un aperçu des écritures relance créées pour un client spécifique.    
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.  
 2. Ouvrez la fiche client appropriée, puis sélectionnez l’action **Écritures comptables**.
 3. Sur la page **Écritures comptables client**, cliquez sur la ligne de l’écriture comptable pour laquelle vous souhaitez visualiser les écritures relance, puis sélectionnez l’action **Écr. relance/fact. intérêts**.
 

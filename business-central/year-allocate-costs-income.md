@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8fec3a7c079058e73cda2b6f8940e3778b405bac
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3f7b6089a3cdcba323d13a745ae2cb8e06f3bb8a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775055"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439785"
 ---
 # <a name="allocate-costs-and-income"></a>Répartition des coûts et du revenu
 Vous pouvez ventiler une écriture dans une feuille comptabilité dans différents comptes lorsque vous validez la feuille. La ventilation peut être effectuée de trois manières différentes :
@@ -32,7 +32,7 @@ Les procédures suivantes décrivent comment se préparer à affecter des coûts
 
 ## <a name="to-set-up-allocation-keys"></a>Pour définir des clés de ventilation
 Vous pouvez ventiler une écriture dans une feuille abonnement dans différents comptes lorsque vous validez la feuille. La ventilation peut être effectuée par quantité, pourcentage ou montant.
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille abonnement**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille récurrente**, puis sélectionnez le lien associé.
 2. Sélectionnez le champ **Nom de la feuille** pour ouvrir la page **Noms feuilles comptabilité**.
 3. Vous pouvez soit modifier les ventilations sur un lot existant dans la liste ou créer un lot avec des ventilations.
    * Pour créer un lot, sélectionnez l’action **Nouveau**, et passez à l’étape suivante.
@@ -47,7 +47,7 @@ Vous pouvez ventiler une écriture dans une feuille abonnement dans différents 
 11. Validez la feuille.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Pour modifier une clé de ventilation déjà configurée
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille abonnement**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille récurrente**, puis sélectionnez le lien associé.
 2. Sur la page **Feuille récurrente**, sélectionnez la feuille contenant la ventilation.
 3. Sélectionnez la ligne de la ventilation, puis sélectionnez l’action **Ventilations**.
 4. Modifiez les champs appropriés, puis cliquez sur le bouton **OK**.

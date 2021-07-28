@@ -1,6 +1,6 @@
 ---
 title: Importation de nombreuses images d’articles depuis un fichier ZIP| Microsoft Docs
-description: Vous pouvez importer plusieurs images d’articles à la fois. Nommez simplement vos fichiers image avec des noms correspondant à vos numéros d’article, comprimez-les en un fichier zip, puis utilisez la page Importer les images d’articles pour gérer quelles images d’articles importer.
+description: Pour importer plusieurs images d’article, nommez simplement vos fichiers image avec des noms correspondant à vos numéros d’article, comprimez-les en un fichier ZIP, puis utilisez la page Importer les images d’articles.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4d4221ca3af412cc2548634cc6920f58171233ce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ac8d68d067c03039433d78be475d74efb3fec1fd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785938"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440539"
 ---
 # <a name="import-multiple-item-pictures"></a>Importer plusieurs images d’article
-Vous pouvez importer plusieurs images d’articles à la fois. Nommez simplement vos fichiers image avec des noms correspondant à vos numéros d’article, comprimez-les en un fichier ZIP, puis utilisez la page **Importer les images d’articles** pour gérer quelles images d’articles importer.
+ Vous pouvez importer plusieurs images d’articles à la fois. Nommez simplement vos fichiers image avec des noms correspondant à vos numéros d’article, comprimez-les en un fichier zip, puis utilisez la page Importer les images d’articles pour gérer quelles images d’articles importer.
 
 Tous les formats de fichier courants sont pris en charge.
 
@@ -35,7 +35,7 @@ Tous les formats de fichier courants sont pris en charge.
 2. Recueillez tous les fichiers dans un fichier ZIP. Par exemple, dans Windows Explorer, sélectionnez les fichiers, puis choisissez **Envoyer vers**, **Dossier comprimé (zip)**.     
 
 ## <a name="to-import-item-pictures"></a>Pour importer des images d’article
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres stock**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres stock**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Importer des images d’article**.
 3. Dans le champ **Sélectionner un fichier ZIP**, sélectionnez le dossier ZIP pertinent, puis sélectionnez le bouton **Ouvrir**.
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e88c096007e1bc26636f9a73caecdc936b726cd9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5f1ef2eea709f9fb2ab5d2e8dbbabd00cf8fa8d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776555"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439745"
 ---
 # <a name="print-swiss-vat-statements-older-version"></a>Imprimer les relevés de TVA suisse (ancienne version)
 
@@ -30,7 +30,7 @@ La **Déclaration TVA suisse** est l'état de calcul standard pour la réalisati
 
 ## <a name="to-print-the-swiss-vat-statement"></a>Pour imprimer la déclaration TVA suisse  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Déclaration TVA suisse**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Déclaration de TVA suisse**, puis sélectionnez le lien associé.  
 
     > [!NOTE]  
     >  Vous recevrez un message indiquant que **Déclaration TVA suisse** s'ouvre dans la langue locale.  

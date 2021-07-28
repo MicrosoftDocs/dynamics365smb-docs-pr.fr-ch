@@ -1,6 +1,6 @@
 ---
-title: Comment créer des emplacements | Microsoft Docs
-description: La méthode la plus efficace pour créer les emplacements de votre entrepôt consiste à générer des groupes d’emplacements identiques dans la feuille de création d’emplacements, mais vous pouvez également créer vos emplacements séparément.
+title: 'Procédure : créer des emplacements'
+description: Générez des groupes d’emplacements similaires dans la feuille de calcul prévue à cet effet, créez des emplacements individuellement sur la carte de localisation ou automatiquement sur la feuille de calcul de création des emplacements.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0c426fa5a617a8457a562333d96cc7924ddc6669
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 89b1c6b6252cc91fb10c2698b0a8b4869dc39853
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782724"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440093"
 ---
 # <a name="create-bins"></a>Créer emplacements
 La méthode la plus efficace pour créer les emplacements de votre entrepôt consiste à générer des groupes d’emplacements identiques dans la feuille de création d’emplacements, mais vous pouvez également créer vos emplacements séparément à partir de la fiche magasin. Vous pouvez également utiliser une fonction de la page **Feuille création emplacement** pour créer des emplacements automatiquement.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Pour créer un emplacement à partir de la fiche magasin  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
 2.  Sélectionnez le magasin à partir duquel vous souhaitez créer un emplacement, puis choisissez l’action **Emplacements**.  
 3. Sélectionnez l’action **Nouveau**.
 4. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -37,7 +37,7 @@ La réservation d’un emplacement fournit la même fonctionnalité dans l’ent
 > Des articles dans des magasins réservés ne sont pas protégés lorsqu’ils sont prélevés et consommés comme composants d’assemblage ou de production sur la page **Prélvmt invent**. Pour plus d’informations, consultez [Prélever pour la fabrication ou l’assemblage dans les configurations de stockage de base](warehouse-how-to-pick-for-production.md).
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Pour créer séparément des emplacements dans la feuille de création d’emplacements  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille création emplacement**, puis choisissez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille création emplacement**, et choisissez le lien associé.  
 2.  Sur chaque ligne, renseignez les champs requis pour nommer et caractériser les emplacements que vous créez.  
 3.  Choisissez l’action **Créer emplacements**.  
 
@@ -49,7 +49,7 @@ Avant de commencer à créer automatiquement des emplacements dans la feuille, d
 
 Pour travailler avec la page **Feuille création emplacement**, vous devez être défini comme magasinier à l’endroit où les emplacements existent. Pour plus d’informations, voir [Configurer des employés d’entrepôt](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille création emplacement**, puis choisissez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille création emplacement**, et choisissez le lien associé.  
 2.  Choisissez l’action **Calculer emplacements**.
 3. Sur la page **Calculer emplacements**, sous **Code modèle emplacement**, sélectionnez le modèle emplacement à utiliser comme modèle pour les emplacements que vous créez.
 4.  Saisissez une description pour les emplacements que vous êtes en train de créer.  

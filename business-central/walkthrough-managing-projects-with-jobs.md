@@ -1,6 +1,6 @@
 ---
-title: 'Procédure pas à pas : gestion des projets | Microsoft Docs'
-description: Cette procédure pas-à-pas présente les fonctionnalités de gestion de projets dans les projets. Les projets vous permettent de planifier l’utilisation des ressources de votre société et de suivre les différents coûts associés à l’utilisation des ressources sur un projet spécifique. Les projets impliquent la consommation d’heures salarié, d’heures machines, d’articles en stock et d’autres types d’activité pouvant faire l’objet d’un suivi au fur et à mesure de l’avancée du projet.
+title: 'Procédure pas à pas : gestion des projets'
+description: Cette procédure pas à pas vous présente les fonctionnalités de gestion de projet dans les tâches qui vous permettent de planifier l’utilisation des ressources de votre entreprise et plus encore.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0d65485275ce4e7516a0b19aafa609429b8d7616
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 4b4be8dfa382424258100973af0d0e647b21b0f6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214743"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439058"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procédure pas à pas : gestion des projets
 
@@ -77,7 +77,7 @@ Cette procédure pas à pas se concentre sur la société CRONUS, une entreprise
 
 ### <a name="to-prepare-the-sample-data"></a>Pour préparer les exemples de données  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ressources**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Ressources**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Nouveau** pour créer une fiche ressource.  
 3.  Sous le raccourci **Général**, entrez les informations suivantes :  
 
@@ -100,7 +100,7 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
 
 ### <a name="to-create-a-job-journal-batch"></a>Pour créer un nom feuille projet  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles projet**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
 2.  Sur la page **Feuille projet**, choisissez le champ **Nom de la feuille**. La page **Noms feuilles projet** s’ouvre.  
 3.  Choisissez l’action **Nouveau** pour créer une ligne avec les informations suivantes :  
 
@@ -115,7 +115,7 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
 
 ### <a name="to-set-up-a-job"></a>Pour configurer un projet  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Nouveau** pour créer une fiche.  
 3.  Sous le raccourci **Général**, entrez les informations suivantes :  
 
@@ -208,7 +208,7 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
 
 ### <a name="to-calculate-remaining-usage"></a>Pour calculer l’activité restante  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles projet**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
 2.  Dans le champ **Nom feuille** de la page **Feuille projet**, ouvrez la liste **Noms feuilles projet**. Sélectionnez le nom de la feuille projet **Tricia**.  
 3.  Choisissez l’action **Calc. activité restante**.  
 4.  Sur la page **Projet Calc. activité restante**, sous le raccourci **Tâche projet**, dans le champ **N° projet**, sélectionnez le numéro de projet concerné (en général, J00010).  
@@ -225,7 +225,7 @@ Les lignes sont à présent validées.
 
 ### <a name="to-create-a-job-sales-invoice"></a>Pour créer une facture vente projet  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2.  Sélectionnez le projet que vous avez créé précédemment, puis choisissez l’action **Créer une facture vente projet**.  
 3.  Sous le raccourci **Tâche projet**, désactivez tout filtre associé à **N° tâche projet** pour facturer le projet. Sélectionnez le projet concerné dans le champ **N° de projet**.  
 4.  Sur le raccourci **Options**, renseignez la date de validation et indiquez si vous souhaitez créer une facture par tâche ou une seule facture pour l’ensemble des tâches.  
@@ -235,7 +235,7 @@ Les lignes sont à présent validées.
 
 ### <a name="to-post-a-new-sales-invoice"></a>Pour valider une nouvelle facture vente  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures vente**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.  
 2.  Ouvrez la facture pour le client N° 01445544. Vous pouvez voir les informations entrées à partir des lignes planning.  
 3.  Sélectionnez l’action **Valider**. Cliquez sur **Oui** pour confirmer la validation.  
 
@@ -249,7 +249,7 @@ Les lignes sont à présent validées.
 
 ### <a name="to-open-the-statistics-page"></a>Pour ouvrir la page Statistiques  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2.  Sélectionnez l’action **Statistiques**. Vous pouvez consulter des informations détaillées sur les prix, les coûts et les profits d’un projet dans la devise locale et dans une devise étrangère.  
 3.  Cliquez sur le bouton **Fermer** pour fermer la page **Statistiques projet**.  
 
@@ -258,7 +258,7 @@ Les lignes sont à présent validées.
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Pour gérer un prix fixe dans des projets  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez le numéro de projet **Guildford**, puis choisissez l’action **Lignes tâche projet**.  
 3. Sélectionnez la ligne 1120, puis, dans le champ **Budget (coût total)**, cliquez avec le bouton droit sur le montant et sélectionnez **Détail**.  
 
@@ -278,7 +278,7 @@ Une fois Tricia ajoutée au planning pour cette ligne tâche, celle-ci va consac
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Pour entrer des heures dans la Feuille projet  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles projet**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
 2. Dans une nouvelle ligne, entrez les informations suivantes :  
 
     - **Type ligne** : **(vide)**  
@@ -322,7 +322,7 @@ Une fois Tricia ajoutée au planning pour cette ligne tâche, celle-ci va consac
 
 9. Sélectionnez l’action **Valider**. Cliquez sur le bouton **OK** pour fermer la page.  
 10. Ouvrez la liste **Projets**.  
-11. Sélectionnez le travail GUILDFORD, puis, dans la section **Lignes de tâches de l'emploi**, sélectionnez la ligne 1120 et dans le champ **Budget (coût total)**, cliquez avec le bouton droit sur le montant. Choisissez **Détail** pour afficher les informations.  
+11. Sélectionnez le travail GUILDFORD, puis, dans la section **Lignes de tâches de l’emploi**, sélectionnez la ligne 1120 et dans le champ **Budget (coût total)**, cliquez avec le bouton droit sur le montant. Choisissez **Détail** pour afficher les informations.  
 
      Les modifications sont automatiquement entrées dans la ligne de la tâche projet n° 1120. Dans le coût total du travail planifié, les cinq heures de travail supplémentaires effectuées par Tricia ont été ajoutées au planning.  
 
@@ -339,7 +339,7 @@ Sur la page **Copier projet**, vous pouvez sélectionner le projet et les lignes
 
 ### <a name="to-copy-a-job"></a>Pour copier un projet  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2. Choisissez l’action **Nouveau** pour créer un projet. Entrez les informations suivantes :  
 
     - **Description** : **Installation de 10 salles de conférence**  
@@ -365,7 +365,7 @@ CRONUS vient de décrocher un nouveau projet dont la réalisation prendra une an
 
 ### <a name="to-set-up-a-new-account"></a>Pour configurer un nouveau compte  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
 2. Sur la page **Plan comptable**, choisissez l’action **Nouveau** pour créer une fiche.  
 3. Dans la fiche **Nouveau compte général**, entrez les informations suivantes :  
 
@@ -387,7 +387,7 @@ Les procédures suivantes expliquent comment créer un projet, définir un prix 
     - **Groupe compta. projet** : **Installation**  
     - **Méthode TEC** : **Valeur de coût**  
 
-3. Sur la carte de travail, choisissez l'action **Prix**, puis choisissez l'action **Ressource**. Entrez les informations suivantes :  
+3. Sur la carte de travail, choisissez l’action **Prix**, puis choisissez l’action **Ressource**. Entrez les informations suivantes :  
 
     - **Code** : **Tricia**  
     - **Prix unitaire** : **10**  

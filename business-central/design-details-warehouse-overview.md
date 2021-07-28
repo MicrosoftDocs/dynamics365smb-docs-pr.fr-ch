@@ -1,6 +1,6 @@
 ---
-title: Détails de conception - Vue d’ensemble d’entrepôt | Microsoft Docs
-description: Pour prendre en charge la manipulation physique des articles au niveau des zones et emplacements, toutes les informations doivent être suivies pour chaque transaction ou mouvement dans l’entrepôt. Ceci est géré dans la table **Écriture entrepôt**. Chaque transaction est enregistrée dans un historique des transactions entrepôt.
+title: Détails de conception : vue d’ensemble d’entrepôt
+description: Pour prendre en charge la manipulation physique des articles au niveau des zones et emplacements, toutes les informations doivent être suivies pour chaque transaction ou mouvement dans l’entrepôt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: f1ecd1324df2433d31ff1480316a9e281ad5c5df
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 586fdc74b174ae24dea6354953899370f076a2da
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215693"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439550"
 ---
 # <a name="design-details-warehouse-overview"></a>Détails de conception : vue d’ensemble d’entrepôt
 Pour prendre en charge la manipulation physique des articles au niveau des zones et emplacements, toutes les informations doivent être suivies pour chaque transaction ou mouvement dans l’entrepôt. Ceci est géré dans la table **Écriture entrepôt**. Chaque transaction est enregistrée dans un historique des transactions entrepôt.  
@@ -28,7 +28,7 @@ Lorsque les validations article se produisent en dehors du module d’entrepôt,
 
 La figure suivante présente les flux d’entrepôt courants.  
 
-![Vue d’ensemble des processus entrepôt](media/design_details_warehouse_management_overview.png "Vue d’ensemble des processus entrepôt")  
+![Vue d’ensemble des processus entrepôt.](media/design_details_warehouse_management_overview.png "Vue d’ensemble des processus entrepôt")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Entreposage de base ou avancé  
 La fonctionnalité d’entrepôt dans [!INCLUDE[prod_short](includes/prod_short.md)] peut être implémentée dans différents niveaux de complexité, selon les processus d’une société et le volume de commande. La principale différence est que les activités sont effectuées par commande dans l’entreposage de base, alors qu’elles sont regroupées pour plusieurs commandes dans l’entreposage avancé.  

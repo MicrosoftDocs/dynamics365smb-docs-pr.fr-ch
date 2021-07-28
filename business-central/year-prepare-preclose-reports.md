@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 857f2f913ab2a2026df5997ac16bd59593a3d925
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 96fe7c7c1f955d3c489429bf3ee64f9f3f925de7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785000"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439250"
 ---
 # <a name="using-pre-closing-reports"></a>Utilisation d’états préalables à la clôture
 Il existe de nombreux états standard qui vous permettent de vérifier la précision des comptes avant de clôturer les livres à la fin d’un exercice ou d’une période. Par exemple, vous pouvez utiliser l’état **Clients : Balance** pour vérifier que le solde d’un groupe comptabilisation client est égal au solde du compte général correspondant à une date donnée.
@@ -35,7 +35,7 @@ Le tableau suivant décrit un certain nombre d’états qui peuvent être utiles
 | Imprimer un état Balance comprenant les soldes et les soldes période pour les comptes généraux. |Balance |
 | Imprimer une balance pour une société consolidée. |Balance consolidée |
 
-Pour visualiser un état, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom qui s’affiche dans la table, puis sélectionnez le lien associé.
+Pour voir un rapport, sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez le nom tel qu’il apparaît dans le tableau, puis choisissez le lien associé.
 
 ## <a name="see-also"></a>Voir aussi
 [Clôture des exercices et des périodes](year-close-years-periods.md)  

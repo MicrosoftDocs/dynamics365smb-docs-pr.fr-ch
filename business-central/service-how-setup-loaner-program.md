@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 04d5679ccb2d335fd308343724c09a9f827cd059
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c1fd69db741a932bd4088362e58f2963b9cbf134
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778262"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440118"
 ---
 # <a name="set-up-a-loaner-program"></a>Configuration d’un programme d’articles de prêt
 Vous devez parfois fournir un article de prêt à un client afin qu’il puisse s’en servir quand une équipe du service clientèle effectue une réparation. Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez configurer un programme d’articles de prêt, prêter des articles à vos clients et suivre les réceptions lorsque les clients retournent les articles. En outre, vous pouvez ajouter des commentaires sur les articles de prêt de deux manières :  
@@ -24,7 +24,7 @@ Vous devez parfois fournir un article de prêt à un client afin qu’il puisse 
 * entrer une note sur un article de service concernant le besoin d’un article de prêt.  
 
 ## <a name="to-set-up-a-loaner"></a>Pour configurer un article de prêt  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles de prêt**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles de prêt**, puis choisissez le lien associé.  
 2. Créez une fiche article de prêt. 
 3. Dans le champ **N°**, saisissez le numéro de l’article de prêt. Si vous avez configuré une souche de numéros pour les articles de prêt sur la page **Paramètres Gestion des services**, vous pouvez appuyer sur la touche Entrée pour que le programme insère le numéro article de prêt suivant.  
 4. Renseignez les champs **Désignation**, **Désignation 2** et **N° de série**.  

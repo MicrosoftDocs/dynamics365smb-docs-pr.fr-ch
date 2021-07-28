@@ -1,6 +1,6 @@
 ---
-title: Procédure de création de gammes | Microsoft Docs
-description: Une gamme contient les données de base qui capturent les exigences du traitement correspondant à un article produit donné. Après la création d’un ordre de fabrication pour cet article, sa gamme gouvernera le calendrier des opérations tels que représenté sur la page Gamme O.F. sous l’ordre de fabrication.
+title: 'Procédure : créer des gammes'
+description: Cette rubrique donne une vue d’ensemble des différentes manières de créer des gammes, y compris les conditions préalables requises et comment créer des liens de gamme.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 40c3a8b938e2d4fa07ae0f5794443d659b06e2e2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0ebd8d0c264dde17522eae3c8a6f718b485ec7f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779318"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439860"
 ---
 # <a name="create-routings"></a>Créer des gammes
 
@@ -32,7 +32,7 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 
 ## <a name="to-create-a-routing"></a>Pour créer une gamme
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Gammes**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Gammes**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Dans le champ **Type**, sélectionnez **Série** pour calculer la gamme de fabrication en fonction de la valeur de **N° opération** . .  
@@ -64,7 +64,7 @@ Vous pouvez créer des liens gamme pour lier des composants à des opérations s
 
 Les composants et opérations liés apparaissent dans une structure opératoire logique lorsque vous utilisez la page **Feuille production** pour la validation production et consommation, ce qui constitue un autre avantage majeur.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Gammes**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Gammes**, puis sélectionnez le lien associé.  
 2. Ouvrez la gamme contenant les opérations que vous voulez lier.  
 
     Vérifiez que le statut de la gamme est **Modification en cours**.  
@@ -96,7 +96,7 @@ Les composants sélectionnés seront liés aux opérations sélectionnées lorsq
 
 Si vous avez besoin de personnes ayant des qualifications, un savoir-faire particulier, ou bénéficiant d’une autorisation spéciale pour une opération, vous pouvez affecter ces personnes à l’opération. En outre, vous pouvez affecter des outils et des exigences de qualité à l’opération. Cette procédure décrit l’affectation de qualifications. Les étapes sont similaires pour d’autres types d’informations sur l’opération.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Gammes**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Gammes**, puis sélectionnez le lien associé.  
 2. Ouvrez la gamme appropriée.  
 3. Sur le raccourci **Lignes**, sélectionnez la ligne à traiter, choisissez l’action **Opérations**, puis choisissez l’action **Qualifications**.  
 4. Renseignez les champs de la page **Qualifications gamme**.  
@@ -106,7 +106,7 @@ Si vous avez besoin de personnes ayant des qualifications, un savoir-faire parti
 
 Le principe de la version permet de gérer différentes versions d’une gamme. La structure d’une version de gamme correspond à la structure de la gamme composée d’un en-tête et de lignes version de gamme. La différence de base est définie par la date début.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Gammes**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Gammes**, puis sélectionnez le lien associé.  
 2. Sélectionnez la gamme à copier, puis choisissez l’action **Versions**.  
 3. Sur la page **Versions de gamme**, sélectionnez l’action **Nouveau**.
 4. Renseignez les champs selon vos besoins.

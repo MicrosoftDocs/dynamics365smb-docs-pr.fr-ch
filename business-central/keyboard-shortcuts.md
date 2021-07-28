@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e0e225df3d3d212165a8a94eaab964b079ca868
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115655"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438942"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -25,7 +25,7 @@ Pour un aperçu des raccourcis clavier les plus courants, voir [Raccourcis clavi
 
 > [!TIP]
 > Pour une vue graphique des raccourcis les plus utilisés, sélectionnez l’image suivante et téléchargez le fichier PDF.  
-> [ ![Icône pour le fichier PDF](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icône qui ouvre un PDF")
+> [ ![Icône pour le fichier PDF.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icône qui ouvre un PDF")
 
 ## <a name="overview"></a>Aperçu
 
@@ -55,11 +55,11 @@ Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder aux 
 |Alt+N |Ouvrir une page pour créer un nouvel enregistrement. (Semblable au choix des actions **Nouveau** et **+**.)|
 |Alt+Maj+N |Fermer une page nouvellement créée et en ouvrir une nouvelle pour créer un enregistrement. De même, Alt + F9 valide un document et en crée un nouveau.|
 |Alt+T|Ouvrez la page **Mes paramètres**.|
-|Alt+Flèche vers la droite|Rechercher des informations supplémentaires ou des valeurs sous-jacentes pour un champ contenant le bouton ![AssistEdit](media/assist-edit-icon.png "Bouton AssistEdit"). Ceci est utilisé lorsque le bouton déroulant habituel (Alt + Flèche vers le bas) dans le même champ est utilisé à une autre fin.|
+|Alt+Flèche vers la droite|Rechercher des informations supplémentaires ou des valeurs sous-jacentes pour un champ contenant le bouton ![AssistEdit](media/assist-edit-icon.png "Bouton AssistEdit"). . Ceci est utilisé lorsque le bouton déroulant habituel (Alt + Flèche vers le bas) dans le même champ est utilisé à une autre fin.|
 |Ctrl+Alt+Maj+C|Afficher des informations dans le badge société.|
 |Ctrl+Alt+F1|Ouvrez, puis fermez le volet d’inspection des pages. Ce dernier affiche les informations relatives à la page, comme sa table source, ses champs, ses filtres, ses extensions, etc.<br /><br />Pour plus d’informations, reportez-vous à la rubrique [Inspection des pages](across-inspect-page.md).|
 |Ctrl+C |Copiez la valeur du champ. Si le champ a le focus, et si vous n’avez pas sélectionné un texte dans le champ, l’intégralité de la valeur est copiée. Si vous avez sélectionné un texte dans le champ, seul le texte sélectionné est copié.|
-|Ctrl+F1|Ouvrez l’aide de Business Central pour la page.|
+|Ctrl+F1|Ouvrez l’aide de Business Central pour la page.|
 |Ctrl+F12|Passez de la vue de mise en page développée à la vue de mise en page réduite.|
 |Ctrl+Clic|Naviguer pendant la personnalisation lorsque l’action est mise en surbrillance avec une flèche. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).|  
 |Ctrl+F5|Rechargez l’application [!INCLUDE[prod_short](includes/prod_short.md)]. (Similaire à sélectionner l’actualisation/rechargement du navigateur.)|
