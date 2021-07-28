@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b13426a431eb45183c5c12454ff70ef0cc066229
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dce64c634fb0ca7ba4358f5cc47cb8b49596b6ed
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788142"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436238"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilisation des écarts de règlement et des écarts d’escompte
 Vous pouvez configurer un écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture. Par exemple, les écarts de règlement concernent généralement de petits montants qui coûteraient plus cher à corriger qu’à accepter. Vous pouvez configurer un écart de règlement pour accorder un escompte après expiration de la date d’escompte.  
@@ -45,13 +45,13 @@ Pour plus d’informations, voir [Pour activer ou désactiver l’alerte d’éc
 Le fait de configurer des écarts pour la date ou le montant permet de fermer une facture alors que le règlement ne couvre pas le montant indiqué sur la facture, que ce soit parce que l’échéance de l’escompte est dépassée ou que des marchandises ont été déduites, ou suite à une erreur anodine. Ceci est également vrai pour les remboursements et les avoirs.  
 
 Pour configurer l’écart, vous devez configurer plusieurs comptes écart, spécifier des méthodes de comptabilisation d’écart escompte et d’écart règlement, puis exécuter le traitement par lots **Modifier écart de règlement**.  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilisation**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilisation**, puis choisissez le lien associé.  
 2. Sur la page **Paramètres comptabilisation**, configurez un compte écart règlement crédit et débit pour les ventes et un autre pour les achats.  
-3. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes comptabilisation client**, puis sélectionnez le lien associé.    
+3. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes compta. client**, puis choisissez le lien associé.    
 4. Sur la page **Groupes compta. client**, configurez un compte écart règlement débit et un compte écart règlement crédit. Pour plus d’informations, voir [Configuration de groupes comptabilisation](finance-posting-groups.md).  
-5. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilisation fournisseur**, puis sélectionnez le lien associé.  
+5. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration compta. fournisseur**, puis choisissez le lien associé.  
 6. Sur la page **Groupes compta. fournisseur**, configurez un compte écart règlement débit et un compte écart règlement crédit.  
-7. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
+7. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 8. Ouvrez la page **Paramètres comptabilité**.  
 9. Sur le raccourci **Application**, renseignez les champs **Validation écart d’escompte**, **Période carence escompte** et **Validation écart de règlement**.   
 10. Choisissez l’action **Modifier écart de règlement**.
@@ -69,7 +69,7 @@ Pour configurer l’écart, vous devez configurer plusieurs comptes écart, spé
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Pour activer ou désactiver les alertes d’écart de règlement
 L’alerte écart règlement apparaît lorsque vous validez un lettrage dont le solde se situe dans l’écart autorisé. Vous pouvez alors choisir comment valider et journaliser le solde.    
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 2. Sur la page **Paramètres comptabilité**, sur le raccourci **Application**, activez le bouton bascule **Alerte écart de règlement** pour activer l’alerte. Pour désactiver l’avertissement, désactivez le bouton bascule.  
 
 > [!NOTE]  
@@ -78,7 +78,7 @@ L’alerte écart règlement apparaît lorsque vous validez un lettrage dont le 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Pour bloquer l’écart règlement pour des clients  
 Par défaut, un écart règlement est accordé. Pour ne pas accorder un écart règlement à un certain client ou fournisseur, vous devez bloquer l’écart sur la fiche fournisseur ou client appropriée. Ce qui suit décrit comment l’exécuter pour un client. La procédure est identique pour un fournisseur.
 
-1. Choisissez l’icône d’![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Client** ou **Fournisseur**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Client** ou **Fournisseur**, puis choisissez le lien associé.  
 2. Sur le raccourci **Paiements**, cochez la case **Bloquer écart de règlement**.  
 
 > [!NOTE]  
@@ -125,7 +125,7 @@ Montant ouvert par
 
 Règles d’application normales  
 
-![Règles sur les écarts de règlement uniques 1](media/singlePmtTolRules(Pre1503).gif "Règles sur les écarts de règlement uniques 1")  
+![Règles sur les écarts de règlement uniques 1.](media/singlePmtTolRules(Pre1503).gif "Règles sur les écarts de règlement uniques 1")  
 
 (1) Si le règlement intervient dans l’une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -136,7 +136,7 @@ Montant ouvert par
 
 Règles d’application normales  
 
-![Règles sur les écarts de règlement uniques 2](media/singlePmtTolRules(GracePeriod).gif "Règles sur les écarts de règlement uniques 2")  
+![Règles sur les écarts de règlement uniques 2.](media/singlePmtTolRules(GracePeriod).gif "Règles sur les écarts de règlement uniques 2")  
 
 (1) Si le règlement intervient dans l’une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -147,7 +147,7 @@ Montant ouvert par
 
 Règles d’application normales  
 
-![Règles sur les écarts de règlement uniques 3](media/singlePmtTolRules(Post0120).gif "Règles sur les écarts de règlement uniques 3")  
+![Règles sur les écarts de règlement uniques 3.](media/singlePmtTolRules(Post0120).gif "Règles sur les écarts de règlement uniques 3")  
 
 (1) Si le règlement intervient dans l’une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 

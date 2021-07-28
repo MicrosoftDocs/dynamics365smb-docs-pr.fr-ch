@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 434f730b7b7f541ed7387b278672cdd032afb093
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e779bb1d2916c031dea66a52ed7b3b9ccc006aee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782551"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438172"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planifier des mouvements entrepôt dans la feuille
 Planifiez les mouvements de la feuille à l’aide de la fonction réapprovisionnement emplacement ou en planifiant manuellement les lignes à créer en tant qu’instructions mouvement.  
@@ -23,7 +23,7 @@ Planifiez les mouvements de la feuille à l’aide de la fonction réapprovision
 ## <a name="to-calculate-a-replenishment-movement"></a>Pour calculer des mouvements de réapprovisionnement  
 Au fur et à mesure que l’entrepôt expédie des articles aux clients, les emplacements les mieux classés contiennent de moins en moins d’articles. Pour remplir ces emplacements prélèvement avec des articles issus d’autres emplacements, exécutez la fonction **Calculer réappro. emplacement** sur la page **Feuille mouvements**.
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille mouvement**, puis choisissez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille mouvement**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Calculer réappro. emplacement**.  
 
     [!INCLUDE[prod_short](includes/prod_short.md)] crée des lignes indiquant précisément le mode de déplacement des articles des emplacements les moins bien classés vers les emplacements les mieux classés.  
@@ -44,7 +44,7 @@ Au fur et à mesure que l’entrepôt expédie des articles aux clients, les emp
 ## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>Pour déplacer l’intégralité du contenu d’un ou de plusieurs emplacements à l’aide de la fonction Extraire contenu emplacement  
 Vous pouvez également utiliser la feuille mouvements pour planifier d’autres mouvements de stock dans l’entrepôt. Par exemple, lorsque vous souhaitez placer des articles dans un emplacement pour contrôler la qualité, utilisez la feuille mouvements pour planifier cette action et créez un mouvement pour élaborer des instructions destinées à un employé.  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille mouvement**, puis choisissez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille mouvement**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Extraire contenu emplacement**. Vous pouvez utiliser la page de demande pour filtrer les emplacements et les articles que vous souhaitez voir figurer sur les lignes de la feuille mouvement.  
 3.  Renseignez les champs pertinents de la page de demande de traitement par lots. Pour visualiser, par exemple, le contenu emplacement de tous les emplacements d’une zone donnée au niveau de l’emplacement, renseignez le champ **Code zone**. Pour extraire les lignes de chaque emplacement qui contient un article spécifique, renseignez le champ **N° article**.  
 

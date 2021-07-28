@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19b32e8faa6b9e56505379d1f06fd5ad79466614
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 67d7ad0d10ddc5c6065df482c7ceb4b98058d504
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115530"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436741"
 ---
 # <a name="sell-products"></a>Vendre des produits
 
@@ -44,7 +44,7 @@ Vous pouvez remplir les champs relatifs au client sur la commande vente de deux 
 
 ## <a name="to-create-a-sales-order"></a>Pour créer une commande vente
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
 2. Dans le champ **Client**, entrez le nom d’un client existant.
 
     D’autres champs de la page **Commande vente** sont désormais renseignés avec les informations standard sur le client sélectionné.  

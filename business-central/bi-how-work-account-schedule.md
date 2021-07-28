@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f1e29820a3bb8254368e14ba1fa8b7dba17ed661
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f180efb198fce757af263710fab2561323fd69b4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786602"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437041"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Préparer la génération d’états financiers avec des tableaux d’analyse et des catégories de compte
 
@@ -54,7 +54,7 @@ Les tableaux d’analyse dans la version standard de [!INCLUDE[prod_short](inclu
 
 La page **Aperçu tableau d’analyse** vous permet de consulter l’état financier défini par le tableau d’analyse. Dans l’exemple suivant, il est important de comprendre que ce que vous créez en tant que lignes et colonnes de tableau d’analyse peut uniquement être vu et validé sur la page **Aperçu tableau d’analyse**, que vous ouvrez à partir d’un tableau d’analyse en choisissant l’action **Aperçu**. La page **Tableau d’analyse** elle-même est uniquement une zone de configuration.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.  
 2. Sur la page **Tableaux d’analyse**, choisissez **Nouveau** pour créer un nom pour le tableau d’analyse.
 3. Sinon, choisissez l’action **Copier le tableau d’analyse**, renseignez les deux champs, puis cliquez sur le bouton **OK**.
 4. Renseignez les champs selon vos besoins. Dans le champ **Présentation colonne par déf.** sélectionnez une présentation existante. Vous pouvez la modifier ultérieurement au besoin.
@@ -88,7 +88,7 @@ Les présentations de colonne vous permettent de définir les colonnes devant ê
 
 Il se peut que vous vouliez inclure une colonne dans un tableau d’analyse pour calculer des pourcentages d’un total. Par exemple, si vous avez plusieurs lignes qui ventilent des ventes par dimension, vous pouvez juger utile de disposer d’une colonne indiquant le pourcentage des ventes totales que représente chaque ligne.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.
 2. Sur la page **Noms tableaux d’analyse**, sélectionnez le tableau d’analyse.  
 3. Choisissez l’action **Modifier tableau d’analyse** pour configurer une ligne de tableau d’analyse et calculer le total sur lequel le pourcentage sera basé.  
 4. Insérez une ligne juste au-dessus de la première ligne pour laquelle vous voulez afficher un pourcentage.  
@@ -101,7 +101,7 @@ Il se peut que vous vouliez inclure une colonne dans un tableau d’analyse pour
 
 Vous pouvez utiliser un tableau d’analyse pour créer un état comparant les chiffres de la comptabilité et les chiffres budgétés.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.
 2. Sur la page **Noms tableaux d’analyse**, sélectionnez le tableau d’analyse.  
 3. Choisissez l’action **Modifier tableau d’analyse**  
 4. Sur la page **Tableau d’analyse**, sélectionnez le nom du tableau d’analyse souhaité dans le champ **Nom**.

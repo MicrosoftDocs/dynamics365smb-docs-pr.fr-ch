@@ -1,6 +1,6 @@
 ---
-title: Procédure de configuration d’un service d’échange de document | Microsoft Docs
-description: Utilisez un fournisseur de services externe pour échanger des documents électroniques avec vos partenaires commerciaux.
+title: 'Procédure : configurer un service d’échange de document'
+description: Utilisez un fournisseur de services externe pour échanger des documents électroniques avec vos partenaires commerciaux en utilisant « Paramètres service Doc. Exch. ».
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a89cf3988e7576070a58a798e0f88693e598ef92
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 357c48c6b7ed8e2d44316805bba04ff9236f0e9b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787297"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436313"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Configurer un service d’échange de document
 Utilisez un fournisseur de services externe pour échanger des documents électroniques avec vos partenaires commerciaux. Pour plus d’informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Pour configurer un service d’échange de documents  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service Doc. Exch.**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres service Doc. Exch.**, puis choisissez le lien associé.  
 2. Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  

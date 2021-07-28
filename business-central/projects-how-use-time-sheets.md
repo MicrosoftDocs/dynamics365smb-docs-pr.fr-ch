@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 279eb576e60f324d04e3c2dd58ba57e4e7ca68b8
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 5ebeb1d2491587afe03cc8f1e687e82bdbd2743d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184364"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436138"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Utiliser des feuilles de temps pour des projets
 
@@ -31,7 +31,7 @@ Avant de pouvoir utiliser des feuilles de temps, vous devez définir des informa
 
 Vous pouvez utiliser le traitement par lots **Créer des feuilles de temps** pour configurer des feuilles de temps pour un nombre donné de périodes ou de semaines. Une fois qu’une feuille de temps est créée, son propriétaire peut l’ouvrir et y enregistrer le temps consacré à une tâche.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles de temps**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles de temps**, puis choisissez le lien associé.
 2. Sur la page **Liste des feuilles de temps**, cliquez sur l’action **Créer des feuilles de temps**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -44,14 +44,14 @@ Vous pouvez afficher les feuilles de temps que vous avez créées sur la page **
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Pour copier des lignes planning projet dans une feuille de temps
 La procédure suivante indique comment ajouter rapidement des lignes planning projet à une feuille de temps.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles de temps**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles de temps**, puis choisissez le lien associé.  
 2. Sur la page **Liste des feuilles de temps**, sélectionnez une feuille de temps pour la période de référence, puis cliquez sur **Modifier feuille de temps**.  
 3. Cliquez sur **Créer des lignes à partir du planning projet**. Toutes les lignes planning projet de la période de feuille de temps sont copiées dans la feuille de temps de la personne ou du poste du champ **N° ressource** sur la feuille de temps.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Pour définir les types de travaux et en ajouter un à une feuille de temps
 Vous pouvez définir le type de travail pour toutes les lignes feuille de temps des projets. Vous pouvez ainsi ajouter les informations dont vous avez besoin pour facturer le client en fonction des différents types de travaux.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles de temps**, puis sélectionnez le lien associé.   
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles de temps**, puis choisissez le lien associé.   
 2. Ouvrez la feuille de temps correspondante.
 3. Choisissez le champ **Description**.  
 4. Sur la page **Détails des tâches - ligne feuille de temps**, cliquez sur le champ **Code type travail**, puis sélectionnez un type de travail dans la liste, par exemple **Miles**.  
@@ -62,7 +62,7 @@ Vous pouvez définir le type de travail pour toutes les lignes feuille de temps 
 ## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Pour réutiliser des lignes feuille de temps dans d’autres feuilles de temps par la suite
 Si les informations de votre feuille de temps ne changent pas d’une période à une autre, vous pouvez gagner du temps en copiant les lignes de la période précédente. Il vous suffit ensuite d’entrer votre temps d’utilisation pour la nouvelle période.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles de temps**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles de temps**, puis choisissez le lien associé.  
 2. Ouvrez la feuille de temps pour une période ultérieure à la période d’une feuille de temps existante avec des lignes.  
 3. Cliquez sur **Copier les lignes de la feuille de temps précédente**.
 
@@ -71,7 +71,7 @@ Les lignes sont copiées, y compris les détails comme le type et la description
 ## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Pour renseigner les lignes d’une feuille de temps lignes et l’envoyer pour approbation
 L’enregistrement des feuilles de temps est assuré en heures, qui est l’unité de mesure standard pour les ressources. Par défaut, une feuille de temps indique les jours de travail ouvrés du lundi au vendredi.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles de temps**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles de temps**, puis choisissez le lien associé.  
 2. Sélectionnez une feuille de temps pour la période de référence, puis cliquez sur **Modifier feuille de temps**.  
 3. Renseignez les champs d’une ligne selon vos besoins. Saisissez le nombre d’heures utilisées par la ressource chaque jour de la semaine.
 
@@ -94,7 +94,7 @@ Une feuille de temps doit être soumise pour approbation avant de pouvoir être 
 * Un administrateur de feuille de temps peut approuver n’importe quelle feuille de temps.
 * La personne qui est indiquée dans le champ **ID utilisateur de l’approbateur de la feuille de temps** d’une fiche ressource peut approuver les feuilles de temps de cette ressource. Pour plus d’informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles de temps administrateur**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles de temps administrateur**, puis choisissez le lien associé.
 2. Sélectionnez une feuille de temps dans la liste.  
 3. Sur la page **Feuille de temps**, cliquez sur **Approuver**, puis sur **Toutes les lignes soumises** pour approuver toutes les lignes ou sur **Ligne(s) sélectionnée(s) uniquement** pour envoyer uniquement les lignes qui sont sélectionnées sur la page **Feuille de temps**.
 4. Choisissez le bouton **OK**.  
@@ -106,7 +106,7 @@ Une feuille de temps doit être soumise pour approbation avant de pouvoir être 
 Une fois qu’une feuille de temps est approuvée ou rejetée, elle ne peut plus être modifiée à moins d’être rouverte au préalable. La procédure suivante explique comment rouvrir une feuille de temps approuvée ou rejetée.
 
 ## <a name="to-reopen-a-time-sheet"></a>Pour rouvrir une feuille de temps
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles de temps administrateur** ou **Feuilles de temps**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles de temps administrateur** ou **Feuilles de temps**, puis choisissez le lien associé.
 2. Ouvrez une feuille de temps à partir de la liste.  
 
     > [!NOTE]  
@@ -138,7 +138,7 @@ Dans le cadre d’une tâche, vous pouvez indiquer une personne qui soit chargé
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Pour valider des lignes feuille de temps dans une feuille ressource
 Une fois que vous avez approuvé les écritures des feuilles de temps d’une ressource, vous pouvez les valider dans la feuille ressource correspondante.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille ressource**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille ressource**, puis choisissez le lien associé.  
 2. Cliquez sur **Proposer des lignes à partir des feuilles de temps**.  
 3. Renseignez les champs selon vos besoins.  
 4. Cliquez sur le bouton **OK**. Les écritures de l’activité sont créées dans la feuille ressource, dans laquelle vous pouvez modifier les informations selon vos besoins.  
@@ -148,7 +148,7 @@ Une fois que vous avez approuvé les écritures des feuilles de temps d’une re
 ## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Pour valider des lignes feuille de temps dans une feuille projet
 Une fois que vous avez approuvé les écritures des feuilles de temps d’un projet, vous pouvez les valider dans la feuille projet correspondante.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille projet**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille projet**, puis choisissez le lien associé.  
 2. Cliquez sur **Proposer des lignes à partir des feuilles de temps**.  
 3. Renseignez les champs selon vos besoins.  
 4. Cliquez sur le bouton **OK**. Les écritures de l’activité sont créées dans la feuille projet, dans laquelle vous pouvez modifier les informations selon vos besoins.  
@@ -164,9 +164,9 @@ Une fois les feuilles de temps validées, vous pouvez les archiver pour vous y r
 > [!NOTE]  
 >   Lorsque vous archivez une feuille de temps, elle est supprimée des listes de la page **Feuilles de temps** et **Feuilles de temps administrateur**.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Déplacer les feuilles de temps vers l’archive**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Déplacer les feuilles de temps vers l’archive**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.  
-3. Pour vérifier les feuilles de temps archivées, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Archives des feuilles de temps** ou **Archives des feuilles de temps administrateur**, puis choisissez le lien associé.
+3. Pour examiner les feuilles de temps archivées, sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Archives des feuilles de temps** ou **Archives des feuilles de temps administrateur**, puis choisissez le lien associé.
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de projets](projects-manage-projects.md)  

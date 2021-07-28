@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69e0b2bf449e707bc881f2d6b36a391e6a7acef3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781201"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437481"
 ---
 # <a name="migrate-customer-data"></a>Migrer des données client
 
@@ -42,7 +42,7 @@ Avant de commencer, vous devez vous assurer que vous disposez d’une autorisati
 > Les tables dont les clés primaires sont différents et les champs dont les types de données sont différents ne seront pas importés avec succès. Par exemple, si le package de configuration inclut une table **Client 50000** dont la clé primaire est **Code20** et que la base de données dans laquelle vous importez le package inclut la table **Compte bancaire client 50000** dont la clé primaire est **Code20 + Code 20**, les données ne seront pas importées.  
 
 1. Ouvrez la nouvelle société.  
-2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.  
+2. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Packages de configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez l’action **Importer package**. Accédez au fichier de package .rapidstart à importer, puis sélectionnez l’action **Ouvrir**. Lors de l’importation, le contenu du package est décompressé et l’enregistrement de package est créé.  
 
     Lorsque l’importation est terminée, vous pouvez visualiser le nombre de tables de configuration qui ont été importées dans le champ **Nombre de tables**.  
@@ -63,7 +63,7 @@ Vous pouvez créer de nouveaux fichiers de migration de données et les personna
 > [!TIP]
 > Un fichier ne peut être utilisé que pour migrer un champ dont la propriété **FieldClass** est définie sur **Normal**.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Package configuration**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Package de configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez et ouvrez le package que vous souhaitez utiliser pour migrer les données, puis sélectionnez l’action **Extraire tables**. La page **Extraire tables package** s’ouvre.  
 3. Dans le champ **TableID**, entrez un numéro de table ou sélectionnez une table dans la liste, par exemple, la table 18, **Client**. Le champ **Nom table** est automatiquement renseigné.  
 4. Sélectionnez la nouvelle table de migration, puis sous l’onglet **Tables**, choisissez l’action **Champs**. La page **Champs migration** s’ouvre.  
@@ -79,7 +79,7 @@ Une nouvelle table de migration est créée.
 ## <a name="to-export-data-migration-files"></a>Pour exporter les fichiers de migration de données
 Lorsque vous avez déterminé les tables vers lesquelles vous souhaitez transférer les données client, vous exportez les fichiers.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Packages de configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez et ouvrez le package à utiliser pour l’exportation.
 3. Sélectionnez la ou les tables que vous souhaitez exporter, puis sélectionnez l’action **Exporter vers Excel**.
 4. Enregistrez le fichier Excel exporté.  
@@ -100,7 +100,7 @@ Lorsque vous appliquez les données que vous avez importées d’Excel ou d’un
 
 Dans les procédures suivantes, vous devez rechercher à l’avance les valeurs que vous souhaitez conserver lors du processus de migration. Pour effectuer la procédure suivante, vous avez besoin des fichiers de migration des données (.xlsx) que vous avez exportés depuis [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, reportez vous à [Pour exporter les fichiers de migration de données](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Packages de configuration**, puis sélectionnez le lien associé.
 2. Ouvrez le package pour la société concernée.  
 3. Sélectionnez la table pour laquelle vous souhaitez associer des valeurs, puis, sous l’onglet **Tables**, sélectionnez l’action **Champs**.  
 4. Pour chaque champ à mapper, choisissez l’action **Mappage**.  
@@ -118,7 +118,7 @@ L’exemple suivant illustre comment [!INCLUDE[prod_short](includes/prod_short.m
 3. Lorsque vous appliquez des données, le mappage que vous avez fourni pour le champ **Code** dans la table **Vendeur/Acheteur** est également pris en compte lors du traitement des champs **Code vendeur** et **Code acheteur**.
 
 ## <a name="to-add-additional-values-to-prod_short"></a>Pour ajouter des valeurs supplémentaires à [!INCLUDE[prod_short](includes/prod_short.md)]  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Packages de configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez la table pour laquelle vous souhaitez ajouter des valeurs supplémentaires, puis sous l’onglet **Tables**, sélectionnez l’action **Champs**.  
 3. Pour les champs pour lesquels vous souhaitez que [!INCLUDE[prod_short](includes/prod_short.md)] autorise des valeurs supplémentaires lors de la migration, cochez la case **Créer codes manquants**.  
 4. Importez les données client. Pour plus d’informations, voir [Pour importer les données client](admin-migrate-customer-data.md#to-import-customer-data).

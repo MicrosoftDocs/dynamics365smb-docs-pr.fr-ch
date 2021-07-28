@@ -1,18 +1,18 @@
 ---
 title: Ajouter des entreprises à votre Hub Entreprise
-description: Découvrez comment ajouter des entreprises d’autres environnements Business Central à votre Hub Entreprise afin de pouvoir gérer le travail dans tous les environnements.
+description: Découvrez comment ajouter des entreprises d’autres environnements Business Central à votre Hub Entreprise afin de pouvoir gérer le travail dans tous les environnements.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b4ed57dbc6202e44487ca13363b0b34d915d01b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4954287f93ed012709a51f6fbb19d00494c63d54
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786552"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436991"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Ajouter des entreprises à votre Hub Entreprise
 
@@ -29,7 +29,7 @@ Un lien d’environnement est une fiche sur laquelle vous spécifiez l’environ
 
 Le lien est utilisé lorsque vous choisissez l’entreprise dans le Hub Entreprise.  
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions pour une entreprise répertoriée dans le Hub Entreprise":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions pour une entreprise répertoriée dans le Hub Entreprise.":::
 
 > [!TIP]
 > Si vous travaillez dans la version d’essai gratuite de [!INCLUDE [prod_short](includes/prod_short.md)], il est facile d’ajouter les sociétés dans votre abonné. Vous pouvez trouver le lien d’environnement en copiant l’ID Azure Active Directory de la section **Dépannage** de la page Aide et support. Le nom de l’environnement est probablement la valeur par défaut, PRODUCTION. Ajoutez ces informations au champ **Lien d’environnement**, tel que ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```, puis choisissez **Tester la connexion**. La société d’évaluation sera ajoutée à la liste.

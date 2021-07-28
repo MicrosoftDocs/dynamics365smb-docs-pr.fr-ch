@@ -1,6 +1,6 @@
 ---
 title: Informations sur la configuration de la gestion du marketing et des contacts| Microsoft Docs
-description: Vous pouvez configurer la gestion du marketing et des contacts dans Business Central pour optimiser les relations avec les prospects ou les clients, et améliorer des campagnes ou des promotions.
+description: Vous pouvez configurer la gestion du marketing et des contacts dans Business Central pour optimiser les relations avec les prospects ou les clients, et améliorer des campagnes ou des promotions.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8ed7c53d4352dcebc1475f4cafdd6a13db5385bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e64624006c8760037acaab48ab351dad9636bfdb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783449"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437567"
 ---
 # <a name="setting-up-relationship-management"></a>Paramétrage de la Gestion des relations
 
@@ -23,7 +23,7 @@ Avant de commencer à travailler avec vos contacts et prospects marketing, vous 
 
 La gestion de vos contacts et la mise en place d’une stratégie visant à identifier, attirer et fidéliser les clients permet d’optimiser votre activité et d’accroître la satisfaction des clients. L’utilisation d’un système de gestion de contacts performant permet également de créer et de maintenir les relations avec vos clients. La communication est la clé de ces relations. Pour assurer la réussite de votre entreprise, il est nécessaire de personnaliser la communication avec les clients, fournisseurs et partenaires commerciaux potentiels et existants en fonction de leurs besoins spécifiques. La première étape consiste à établir une stratégie et à définir la manière dont votre société utilise les informations de contact. Dans la mesure où celles-ci seront consultées par de nombreux groupes différents de votre société, la mise en place d’un système performant permettra d’accroître la productivité.
 
-Vous configurez la gestion du marketing et des contacts à partir de la page **Paramètres marketing**. Pour ouvrir la page **Paramètres marketing**, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres marketing**, puis sélectionnez le lien associé.
+Vous configurez la gestion du marketing et des contacts à partir de la page **Paramètres marketing**. Pour ouvrir la page **Paramètres marketing**, choisissez l’icône ![Ampoule qui ouvre la fonction Fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration marketing**, puis choisissez le lien associé.
 
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Copie automatique des informations spécifiques des sociétés contact vers les personnes contact
 Une partie des données relatives aux sociétés contact sont identiques aux données sur les personnes contact qui travaillent dans ces sociétés, comme l’adresse. Dans la section **Héritage** de la page **Paramètres marketing**, vous pouvez définir l’application de sorte qu’elle copier automatiquement des champs spécifiques de la fiche société contact vers la fiche personne contact chaque fois que vous créez une personne contact pour une société contact. Par exemple, vous pouvez choisir de copier un code vendeur, les infos adresse (adresse, adresse 2ème ligne, ville, code postal et région), les détails de communication (numéro de télécopie, numéro de télex et numéro de téléphone), et plus encore.

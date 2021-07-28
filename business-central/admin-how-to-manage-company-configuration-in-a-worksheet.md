@@ -1,6 +1,6 @@
 ---
-title: Procédure de gestion de la configuration de la société dans une feuille | Microsoft Docs
-description: La feuille configuration est l’emplacement principal dans lequel vous pouvez planifier, suivre et effectuer votre travail de configuration. Vous pouvez créer une feuille pour chaque société avec laquelle vous travaillez ou créer une feuille configuration standard qui peut être utilisée pour configurer plusieurs sociétés identiques.
+title: 'Procédure : gérer la configuration de la société dans une feuille'
+description: La feuille configuration est l’emplacement principal dans lequel vous pouvez planifier, suivre et effectuer votre travail de configuration de la société.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fb50a620f4fc978778a7b6f26581d8768802d0a7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 34d21b0daca39c1b7895800a5f7fbc48485c6c20
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779847"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437977"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gérer la configuration de la société dans une feuille
 La feuille configuration est l’emplacement principal dans lequel vous pouvez planifier, suivre et effectuer votre travail de configuration. Vous pouvez créer une feuille pour chaque société avec laquelle vous travaillez ou créer une feuille configuration standard qui peut être utilisée pour configurer plusieurs sociétés identiques.  
@@ -28,7 +28,7 @@ Les procédures suivantes expliquent comment ajouter et personnaliser les inform
 
 ## <a name="to-open-the-configuration-worksheet"></a>Pour ouvrir la feuille configuration  
 1.  Dans [!INCLUDE[prod_short](includes/prod_short.md)], ouvrez la société qui sert de base pour la configuration, puis ouvrez son tableau de bord Responsable de l’implémentation de RapidStart Services.  
-2.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille configuration**, puis choisissez le lien associé.  
+2.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille de calcul de configuration**, puis sélectionnez le lien associé.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Pour ajouter une table à la feuille  
 1.  Sur la page **Feuille config.**, sélectionnez l’action **Modifier la liste**.  

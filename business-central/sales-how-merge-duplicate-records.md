@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f5972e7489b9aa8c537d8aaa6677c79ffd4a6414
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778762"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436866"
 ---
 # <a name="merge-duplicate-records"></a>Fusionner les doublons d’enregistrements
 Puisque différents utilisateurs créent de nouvelles fiches contact, fournisseur ou client au fil du temps, ou puisque de nouveaux enregistrements sont créés automatiquement pendant la migration, un client, fournisseur ou contact peut être représenté dans le système avec plusieurs enregistrements. Dans ce cas, vous pouvez utiliser la page **Fusionner le doublon** depuis la fiche de l’enregistrement que vous souhaitez conserver. La page vous donne un aperçu des valeurs de champ dupliquées et vous fournit des fonctions pour sélectionner quelles valeurs conserver ou ignorer lors de la fusion des deux enregistrements en un seul.
@@ -28,7 +28,7 @@ Puisque différents utilisateurs créent de nouvelles fiches contact, fournisseu
 
 La procédure suivante se base sur une fiche article. La procédure est identique pour les fiches fournisseur ou contact.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Sélectionnez le client pour lequel vous savez, ou vous supposez, qu’il existe un doublon d’enregistrement, puis sélectionnez l’action **Modifier**.
 3. Sur la page **Fiche client**, sélectionnez l’action **Fusionner avec**.
 4. Sur la page **Fusionner le doublon**, dans le champ **Fusionner avec**, sélectionnez le client pour lequel vous soupçonnez qu’il existe un doublon de celui que vous avez ouvert, indiqué dans le champ **Actuel**.

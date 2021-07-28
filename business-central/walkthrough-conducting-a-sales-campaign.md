@@ -1,6 +1,6 @@
 ---
 title: 'Procédure pas à pas : Mise en place d’une campagne de vente'
-description: Une campagne désigne tout type d’activité impliquant plusieurs contacts. La sélection du public cible de votre campagne représente une étape importante de la configuration. Pour ce faire, dans Business Central, créez un segment ou un groupe de contacts à l’aide de filtres.
+description: Cette procédure pas à pas donne un aperçu détaillé de toutes les tâches impliquées dans la conduite d’une campagne de vente dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 653638cd056313c6f4bdb830f0b0ec32fa5e8cbf
-ms.sourcegitcommit: cce6bacca46d489423a9538d410d2d9371de0ddf
+ms.openlocfilehash: 63e2c298c7830fb993c99587a0b7475d1ece7223
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102448"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437852"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procédure pas à pas : Mise en place d’une campagne de vente
 
@@ -69,7 +69,7 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 
 ### <a name="to-set-up-a-campaign"></a>Pour configurer une campagne  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Campagnes**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Campagnes**, puis choisissez le lien associé.  
 2. Choisissez l’action **Nouveau** pour créer une campagne. Dans la fiche campagne, appuyez sur la touche **Entrée** pour qu’un numéro de campagne soit automatiquement inséré.  
 3. Dans le champ **Description**, entrez la description de la campagne, par exemple, **Salon Office Futurus**.  
 4. Choisir le champ **Code statut** et sélectionnez le code statut « 1-PLAN ». 
@@ -161,11 +161,11 @@ Le directeur marketing décide que la liste réduite fera office de liste finale
 
 Les documents joints sont envoyés. Lorsque le processus est terminé, cliquez sur le bouton **OK** associé au message qui indique que le segment a été journalisé.  
 
- Les lettres sont automatiquement imprimées et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est déplacé dans la liste des segments journalisés. Pour afficher cette liste, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments journalisés**, puis choisissez le lien associé.  
+ Les lettres sont automatiquement imprimées et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est déplacé dans la liste des segments journalisés. Pour voir cette liste, sélectionnez l’icône ![Ampoule qui ouvre la fonction Fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Segments journalisés**, puis sélectionnez le lien associé.  
 
 Une fois le segment journalisé, chaque lettre envoyée est enregistrée en tant qu’interaction, que vous pouvez afficher dans le journal.  
 
-Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Écritures journal interaction**, puis choisissez le lien associé. Chaque lettre envoyée est associée à une entrée.  
+Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures journal interaction**, puis choisissez le lien associé. Chaque lettre envoyée est associée à une entrée.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Pour envoyer un message électronique à un contact :  
 
@@ -178,7 +178,7 @@ Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/s
 7. Cochez la case **Créer suivi segment**.  
 8. Cliquez sur le bouton **OK**.  
 
- Les lettres sont automatiquement envoyées par courrier électronique et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est enregistré dans la liste des segments journalisés. Pour afficher cette liste, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments journalisés**, puis choisissez le lien associé.  
+ Les lettres sont automatiquement envoyées par courrier électronique et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est enregistré dans la liste des segments journalisés. Pour voir cette liste, sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Segments journalisés**, puis sélectionnez le lien associé.  
 
 ## <a name="registering-campaign-responses"></a>Enregistrement des réponses de campagne
 

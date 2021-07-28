@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f892333d08036efe751cbcabf49945377990807
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1543627340cb4947eafafffc362acddacb52ceb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770878"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436213"
 ---
 # <a name="defining-and-allocating-costs"></a>Définition et répartition des coûts
 Les affectations de coûts déplacent les coûts et les revenus entre les types de coûts, les centres de coûts et les coûts associés. Vous pouvez définir autant d’affectations que nécessaire. Chaque affectation comporte les éléments suivants :  
@@ -38,7 +38,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 Chaque affectation comporte une source et au moins une cible. La source d’affectation définit les coûts à affecter. Les cibles d’affectation déterminent où affecter ces coûts.  
 
 ### <a name="to-set-up-cost-allocations"></a>Pour configurer les affectations de coûts  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Affectation des coûts**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Affectation des coûts**, puis choisissez le lien associé.  
 2.  Sur la page **Affectation des coûts**, sélectionnez l’action **Modifier**.  
 3.  Dans le champ **ID**, entrez un ID pour la source d’affectation.  
 4.  Définissez un niveau compris entre les chiffres 1 et 99 dans le champ **Niveau**. La validation d’affectation suit l’ordre des niveaux.  
@@ -82,7 +82,7 @@ Cette rubrique décrit comment définir trois nouveaux coûts associés pour la 
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Pour définir le centre de coûts PROD de la source d’affectation sur le raccourci Général  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Affectation des coûts**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Affectation des coûts**, puis choisissez le lien associé.  
 2.  Sur la page **Affectation des coûts**, sélectionnez l’action **Nouveau**.  
 3.  Dans le champ **ID**, appuyez sur Entrée ou saisissez un ID.  
 4.  Dans le champ **Niveau**, saisissez **1**.  
@@ -119,7 +119,7 @@ Cette rubrique explique comment définir les affectations à l’aide du mode de
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Pour définir les ventilations dynamique en fonction des articles vendus de l’exercice précédent  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Affectations des coûts**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Affectation des coûts**, puis choisissez le lien associé.  
 2.  Sur la page **Affectation des coûts**, sélectionnez l’action **Nouveau**.  
 3.  Dans le champ **ID**, appuyez sur Entrée ou saisissez un ID.  
 4.  Dans le champ **Niveau**, saisissez **1**.  

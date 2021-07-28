@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: da9c8711751040cecb267a3b2209bad2534b618b
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: e9a285db48593828fbb01b281459df6c1e3111d0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985402"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437166"
 ---
 # <a name="transfer-bank-funds"></a>Transfert de fonds à la banque
 
@@ -23,7 +23,7 @@ Il peut vous arriver de devoir transférer un montant d’un compte bancaire dan
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Pour valider un transfert entre comptes bancaires avec le même code devise
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille comptabilité**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille comptabilité**, puis choisissez le lien associé.
 2. Dans une ligne feuille, renseignez les champs **Date comptabilisation** et **N° document** .
 3. Cliquez sur le champ **Type compte**, sélectionnez le **Compte bancaire**.
 4. Dans le champ **N° compte**, sélectionnez le compte bancaire à partir duquel vous souhaitez transférer les fonds.
@@ -38,7 +38,7 @@ Il peut vous arriver de devoir transférer un montant d’un compte bancaire dan
 
 Pour transférer des fonds entre des comptes bancaires qui utilisent des devises différentes, vous devez valider deux lignes feuille comptabilité.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille comptabilité**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille comptabilité**, puis choisissez le lien associé.
 2. Créez deux lignes feuille, et renseignez les champs **Date comptabilisation** et **N° document**.
 3. Sur la première ligne feuille, dans le champ **Type**, sélectionnez **Compte bancaire**.
 4. Dans le champ **N° compte**, sélectionnez le compte bancaire à partir duquel vous souhaitez transférer les fonds.

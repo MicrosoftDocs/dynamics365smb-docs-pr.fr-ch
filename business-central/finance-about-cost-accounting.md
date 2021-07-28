@@ -1,6 +1,6 @@
 ---
-title: À propos de la comptabilité analytique | Microsoft Docs
-description: La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activié.
+title: À propos de la comptabilité analytique
+description: La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activié. Les informations sur la comptabilité analytique sont conçues pour analyser divers problèmes.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7ba956c883c567e7acc2cd625d8d5e51d94ee753
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 461bdff64d785291923fe5f954887eb052805124
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784930"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436288"
 ---
 # <a name="about-cost-accounting"></a>À propos de la comptabilité analytique
-La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activité. Les informations sur la comptabilité analytique sont conçues pour analyser :  
+La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activié. Les informations sur la comptabilité analytique sont conçues pour analyser :  
 
 -   Quels sont les types de coûts encourus lors de l’exploitation d’une société ?  
 -   Quel est l’emplacement des coûts encourus ?  
@@ -37,7 +37,7 @@ La comptabilité analytique est constituée des composants principaux suivants 
 
 Le schéma suivant présente le flux de travail en comptabilité analytique.  
 
-![Vue d’ensemble de la comptabilité analytique](media/costaccountingoverview.png "CostAccountingOverview")  
+![Vue d’ensemble de la comptabilité analytique.](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Types de coûts, centres de coûts et coûts associés  
 Vous définissez les types de coûts, les centres de coûts et les coûts associés pour analyser leur type, leur source et la personne qui les prend en charge.  

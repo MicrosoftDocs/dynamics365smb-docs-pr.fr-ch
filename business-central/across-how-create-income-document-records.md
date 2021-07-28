@@ -1,6 +1,6 @@
 ---
-title: Créer des enregistrements de documents entrants| Microsoft Docs
-description: Vous pouvez créer des enregistrements de documents entrants, tels que des factures électroniques, et gérer des tâches OCR, du commerce électronique, et de l’échange de documents.
+title: Créer des enregistrements document entrant
+description: Utilisez différentes fonctions sur la page Documents entrants pour consulter les reçus de dépenses, gérer les tâches d’OCR, convertir les fichiers de documents entrants et joindre des fichiers externes.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7e045948aae1140f999a2a1d0db98de162e8e1e8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 130a41d23a6e28979fad1e4999a1f620eaf7affe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776062"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437717"
 ---
 # <a name="create-incoming-document-records"></a>Créer des enregistrements document entrant
 Sur la page **Documents entrants**, vous pouvez utiliser différentes fonctions pour examiner les reçus de dépenses, gérer les tâches ROC et convertir les fichiers document entrants, manuellement ou automatiquement, en documents ou lignes feuille appropriés. Les fichiers externes peuvent être joints à n’importe quelle étape du processus, notamment en ce qui concerne les documents validés et au fournisseur, au client qui en résulte, et dans les écritures comptables.
@@ -29,7 +29,7 @@ Avant d’utiliser la fonctionnalité Documents entrants, vous devez exécuter l
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Approbation ou rejet d’un document entrant
 Si vous souhaitez autoriser des utilisateurs à créer des factures ou des lignes feuille comptabilité à partir d’enregistrements document entrant, sauf s’ils sont approbateurs, vous pouvez configurer des approbateurs qui doivent approuver les enregistrements avant de pouvoir être traités.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Documents entrants**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Documents entrants**, puis choisissez le lien associé.
 2. Sélectionnez la ligne contenant le document à approuver ou rejeter, puis sélectionnez l’action **Approuver** or **Rejeter**.
 
 Si vous approuvez l’enregistrement document entrant, la case à cocher **Lancé** de la ligne document entrant est activée. L’utilisateur chargé de créer, par exemple, des factures achat peut continuer à traiter l’enregistrement.
@@ -57,7 +57,7 @@ Si vous approuvez l’enregistrement document entrant, la case à cocher **Lanc�
     L’image est jointe à l’enregistrement de document entrant.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Pour créer un enregistrement document entrant manuellement
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Documents entrants**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Documents entrants**, puis choisissez le lien associé.
 2. Choisissez l’action **Créer à partir d’un fichier**.  
 3. Sur la page **Insérer un fichier**, sélectionnez un fichier, puis choisissez **Ouvrir**. Le fichier est automatiquement joint.
 4. Sinon, choisissez l’action **Nouveau**.

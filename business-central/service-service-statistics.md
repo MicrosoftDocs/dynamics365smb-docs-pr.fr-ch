@@ -1,6 +1,6 @@
 ---
-title: Statistiques service | Microsoft Docs
-description: Obtenez un aperçu rapide du contenu des documents service comme les commandes, devis, factures ou avoirs, ainsi que les détails des lignes service spécifiques et les articles de service.
+title: Statistiques service
+description: Obtenez un aperçu rapide du contenu et des statistiques des documents service comme les commandes, devis, factures ou avoirs, ainsi les lignes service spécifiques et les articles de service.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9b3c9199e018b9bb4607cbb5919195aa526aa56
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776756"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438272"
 ---
 # <a name="viewing-service-statistics"></a>Affichage des statistiques service
 Vous pouvez utiliser des statistiques pour analyser les documents service et évaluer la bonne gestion de vos processus de service. Vous pouvez analyser les contrats de service, articles, devis, commandes, factures et avoirs en choisissant l’action **Statistiques**. Pour les articles et contrats de service, vous pouvez également utiliser les champs **Trendscape article de service** ou **Trendscape contrat** pour afficher un résumé des écritures comptables service pour un article de service spécifique.   
@@ -84,7 +84,7 @@ Une écriture gain/perte contrat est générée lorsqu’un devis contrat est co
 |**Gain/Perte contrat (motifs)**|Pour visualiser les écritures gain/perte contrat par code motif.|  
 |**Gain/Perte contrat ctre gest.**|Pour visualiser les écritures gain/perte contrat par centre de gestion.|  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez le nom de la page à afficher, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez le nom de la page à afficher, puis choisissez le lien associé.  
 2. Renseignez les filtres à appliquer. Par exemple, sur la page **Gain/perte contrat (motifs)**, choisissez une valeur pour **Filtre code motif**.  
 3. Choisissez l’action **Afficher matrice**.
 

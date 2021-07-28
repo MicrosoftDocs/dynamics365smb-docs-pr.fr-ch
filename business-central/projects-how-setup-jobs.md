@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: cff8ae1b376079aa1b9162cade59e88da985e263
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938086"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436163"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Configurer des projets, des prix et des groupes comptabilisation projet
 
@@ -22,7 +22,7 @@ En tant que chef de projet, vous pouvez définir des projets qui définissent ch
 Pour chaque projet, vous précisez ensuite les fiches projet individuelles avec des informations concernant les prix pour les articles, les ressources et les comptes généraux du projet, puis vous devez configurer des groupes comptabilisation du projet.
 
 ## <a name="to-set-general-information-for-jobs"></a>Pour configurer des informations générales pour les projets
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres projets**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres projets**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -55,7 +55,7 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 Vous pouvez paramétrer les prix pour des articles, des ressources et des comptes généraux associés à un projet. 
 
 #### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience)
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez le projet, puis cliquez sur l’action **Ressource**, **Article** ou **Compte général**.
 3. Sur la page **Prix ressource projet**, **Prix article projet** ou **Prix compte général projet**, remplissez les champs selon vos besoins.
 
@@ -69,7 +69,7 @@ Le tableau suivant montre comment les informations des champs facultatifs seront
 
 ---
 #### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience)
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez le projet concerné, puis cliquez sur l’action **Listes prix vente**.
 
 ---
@@ -80,7 +80,7 @@ L’un des aspects des projets de planification est de décider quels comptes de
 > [!NOTE]  
 >   Les comptes nécessaires dans la table Plan comptable doivent être configurés avant de créer les groupes comptabilisation. Pour plus d’informations, reportez-vous à [Configuration ou modification du plan comptable](finance-setup-chart-accounts.md).  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes compta. projet**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes compta. projet**, puis choisissez le lien associé.  
 2. Cliquez sur **Nouveau**, puis renseignez les champs du compte comme indiqué dans le tableau suivant.  
 
 | Champ de compte | Désignation |

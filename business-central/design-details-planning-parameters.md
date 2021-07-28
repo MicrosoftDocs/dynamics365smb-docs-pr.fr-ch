@@ -1,6 +1,6 @@
 ---
-title: Détails de conception - Paramètres de planification | Microsoft Docs
-description: Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans Business Central.
+title: Détails de conception - Paramètres de planification
+description: Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser et comment ils affectent le système de planification.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a572b9cee77a6fb89c0d44a48150dbba4742cc6e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215868"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437902"
 ---
 # <a name="design-details-planning-parameters"></a>Détails de conception : paramètres de planification
 Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -82,25 +82,25 @@ Pour obtenir un programme d’approvisionnement rationnel, un gestionnaire régl
 
 Le temps de la période de replanification, de la période tampon, ainsi que de la période de groupement de lots est basée sur une date d’approvisionnement. L’intervalle de planification est basé sur la date de début de la planification, comme l’indique la figure suivante.  
 
-![Éléments d’intervalle de planification](media/supply_planning_5_time_bucket_elements.png "Éléments d’intervalle de planification")  
+![Éléments d’intervalle de planification.](media/supply_planning_5_time_bucket_elements.png "Éléments d’intervalle de planification")  
 
 Dans les exemples suivants, les flèches noires représentent l’approvisionnement existant (vers le haut) et la demande (vers le bas). Les flèches rouge, verte et orange sont des suggestions de planification.  
 
 **Exemple 1** : la date modifiée est en dehors de la période de replanification, ce qui entraîne l’annulation de l’approvisionnement existant. Un nouvel approvisionnement est proposé pour répondre à la demande dans la période de groupement de lots.  
 
-![Période de replanification et période de groupement de lots](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Période de replanification et période de groupement de lots")  
+![Période de replanification et période de groupement de lots.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Période de replanification et période de groupement de lots")  
 
 **Exemple 2** : la date modifiée se trouve dans la période de replanification, ce qui entraîne la replanification de l’approvisionnement existant. Un nouvel approvisionnement est proposé pour répondre à la demande hors de la période de groupement de lots.  
 
-![Période de replanification, période de groupement de lots et replanification](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Période de replanification, période de groupement de lots et replanification")  
+![Période de replanification, période de groupement de lots et replanification.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Période de replanification, période de groupement de lots et replanification")  
 
 **Exemple 3** : il existe une demande pour la période tampon et la quantité d’approvisionnement dans la période de groupement de lots correspond à la quantité d’approvisionnement. La demande suivante n’est pas couverte et un nouvel approvisionnement est proposé.  
 
-![Période tampon et période de groupement de lots](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Période tampon et période de groupement de lots")  
+![Période tampon et période de groupement de lots.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Période tampon et période de groupement de lots")  
 
 **Exemple 4** : il existe une demande pour la période tampon et l’approvisionnement reste à la même date. Toutefois, la quantité d’approvisionnement actif n’est pas suffisante pour répondre à la demande dans la période de groupement de lots, donc une action de modification de quantité pour la commande approvisionnement existante est suggérée.  
 
-![Période tampon, période de groupement de lots et Modifier la quantité](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Période tampon, période de groupement de lots et Modifier la quantité")  
+![Période tampon, période de groupement de lots et Modifier la quantité.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Période tampon, période de groupement de lots et Modifier la quantité")  
 
 **Valeurs par défaut :** la valeur par défaut du champ **Intervalle de planification** et des trois champs de période de réapprovisionnement est vide. Pour tous les champs, sauf le champ **Période tampon**, cela signifie 0D (zéro jours). Si le champ **Période tampon** est vide, la valeur globale du champ **Période tampon par défaut** de la page **Paramètres production** sera utilisée.  
 

@@ -1,6 +1,6 @@
 ---
-title: Configurer des codes prestations standard | Microsoft Docs
-description: Découvrez comment configurer des codes pour les activités de service que vous effectuez souvent.
+title: Configurer des codes prestations standards
+description: Découvrez comment configurer les codes pour les activités de service effectuées régulièrement avec un ensemble prédéfini de lignes de service.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 494a3dd93906a8a9d663455f7410d27c9fc34eb9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c5f5e6dbe647fc8957c42a78163f6871d7a7b382
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778237"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436616"
 ---
 # <a name="set-up-standard-service-codes"></a>Configurer des codes prestation standard
 
@@ -26,13 +26,13 @@ Lorsque vous exécutez un service courant, il est fréquent que vous deviez cré
   
 ## <a name="to-set-up-a-standard-service-code"></a>Pour configurer un code prestation standard
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Codes prestation standard**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes service standard**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Renseignez les lignes service liées à ce code prestation.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Pour affecter un code prestation standard à un groupe articles de service
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes articles de service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes articles de service**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Renseignez les lignes service liées à ce code prestation.  
 

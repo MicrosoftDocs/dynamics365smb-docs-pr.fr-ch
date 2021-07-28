@@ -1,6 +1,6 @@
 ---
 title: Ranger la production
-description: Le mode de rangement de la production dépend du mode de configuration de l’entrepôt en tant qu’emplacement.
+description: Le mode de rangement de la production dépend du mode de configuration de l’entrepôt en tant qu’emplacement. Le rangement stock peut être effectué des manières suivantes.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2b04e07a6660ebeb32cc93594c77b8ff8e782766
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87c0a1cb86d94b673c3c4ee21ce0d62d59eeb753
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784232"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438147"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Rangement du résultat de fabrication ou d’assemblage
 
@@ -33,14 +33,14 @@ Dans les configurations de stockage avancées où l’emplacement nécessite un 
 La première étape dans la création d’un rangement de production consiste à créer la demande enlogement entrante. Cette demande indique à l’entrepôt que la production de l’O.F ou de l’assemblage est prête à être rangée.
 
 ### <a name="to-create-the-inbound-warehouse-request"></a>Pour créer la demande d’enlogement  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. lancé**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. lancé**, puis sélectionnez le lien associé.  
 2.  Sur l’ordre de fabrication qui est prêt pour rangement, choisissez l’action **Créer demande d’enlogement**.  
 
 > [!NOTE]  
 > Vous pouvez également créer la demande d’enlogement entrepôt en choisissant le champ **Créer demande d’enlogement** lors de l’actualisation de l’ordre de fabrication. Pour plus d’informations, voir [Actualiser ou replanifier des ordres de fabrication](production-how-to-replan-refresh-production-orders.md).  
 
 ### <a name="to-put-output-away-with-an-inventory-put-away"></a>Pour ranger la production avec un rangement stock  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Rangement stock**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Rangement stock**, puis choisissez le lien associé.  
 2.  Créez un rangement stock. Pour plus d’informations, voir [Ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
 3.  Pour accéder aux composants de la production de l’O.F., choisissez l’action **Extraire documents origine**, puis sélectionnez l’ordre de fabrication lancé.  
 4.  Renseignez les lignes rangement en fonction des besoins.
