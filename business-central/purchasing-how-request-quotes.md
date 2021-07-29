@@ -1,5 +1,5 @@
 ---
-title: Créer une demande de prix pour demander une offre | Microsoft Docs
+title: Créer une demande de prix pour demander une offre
 description: Décrit comment créer une offre vente offrent ou un document de demande de proposition pour enregistrer votre offre à un client pour vendre des produits dans certaines conditions.
 documentationcenter: ''
 author: SorenGP
@@ -9,21 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 416c5a4e4376932c16a1496f2db2b0c79307d22b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3872a996149404e15349dd85221289bc819ad5cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772644"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443281"
 ---
 # <a name="request-quotes"></a>Demander des devis
 Vous pouvez utiliser une demande de prix en tant que phase préliminaire d’une commande achat, et convertir cette commande en facture achat ou en commande.
 
 
 ## <a name="to-create-a-purchase-quote"></a>Pour créer une demande de prix
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demandes de prix**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Demandes de prix**, puis sélectionnez le lien associé.
 2. Créez un document, de la même manière que vous passez une commande achat. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Pour convertir une demande de prix en commande achat

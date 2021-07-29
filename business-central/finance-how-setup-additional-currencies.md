@@ -1,9 +1,7 @@
 ---
-title: Configuration des devises supplémentaires | Microsoft Docs
+title: Configuration des devises supplémentaires
 description: Votre comptabilité est configurée pour utiliser votre devise société (DS) et une autre devise est configurée comme devise supplémentaire, à laquelle est affecté un taux de change courant.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -12,20 +10,23 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 96ca4139f7a19ea9a5bb3361099cde9910491488
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 23e9f521e43373ff3ee0fd5f8218b2d467b54d72
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775540"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444452"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Configurer une devise report supplémentaire
+
 Les sociétés opérant dans un nombre croissant de pays/régions, il est de plus en plus important qu’elles puissent consulter et générer des états de données financiers dans plusieurs devises.
 
 Votre comptabilité est configurée pour utiliser votre devise société (DS), mais vous pouvez la configurer pour utiliser une autre devise avec un taux de change courant. Si vous désignez une deuxième devise comme « devise report supplémentaire », [!INCLUDE[prod_short](includes/prod_short.md)] enregistre automatiquement les montants d’état en DS et dans cette devise report supplémentaire pour chaque écriture comptable, ainsi que pour d’autres écritures, telles que les écritures TVA.
 
 > [!Warning]
-> Il est déconseillé d’utiliser la fonctionnalité de devise report comme base pour une conversion d’état financier. Cet outil ne permet pas d’effectuer une conversion d’états financiers de filiale étrangère dans le cadre d’une consolidation de société. La fonctionnalité de devise report peut uniquement être utilisée pour préparer des états dans une autre devise, comme s’il s’agissait de la devise société.
+> Il est déconseillé d’utiliser la fonctionnalité de devise report comme base pour une conversion d’état financier sauf si vous comprenez les limites. Cet outil ne permet pas d’effectuer une conversion d’états financiers de filiale étrangère dans le cadre d’une consolidation de société. La fonctionnalité de devise report peut uniquement être utilisée pour préparer des états dans une autre devise, comme s’il s’agissait de la devise société.
+>
+> Par exemple, vous avez un grand nombre de comptes clients en livres sterling (GBP) et vous avez configuré votre devise de déclaration supplémentaire (DR) en GBP. Dans ce scénario, les montants des comptes clients qui utilisent la livre sterling ne seront pas ajustés pour les gains/pertes de change dans la DR, mais uniquement les montants des comptes clients qui sont dans d’autres devises. Cela signifie que si vous utilisez la DR pour déclarer vos états financiers, cela peut entraîner des soldes impayés sous-estimés ou surestimés des comptes débiteurs.
 
 ## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Affichage d’états et de montants dans la devise report
 L’utilisation d’une devise report peut faciliter le processus de génération d’états d’une société dans les cas suivants :
@@ -48,7 +49,7 @@ Pour configurer une devise report supplémentaire, procédez comme suit :
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Pour spécifier les comptes généraux pour la validation d’ajustements de taux de change  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Devises**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devises**, puis choisissez le lien associé.  
 2. Sur la page **Devises**, renseignez les champs suivants pour la devise report.  
 
 |Champ|Désignation|  
@@ -64,7 +65,7 @@ Pour configurer une devise report supplémentaire, procédez comme suit :
 Pour chaque compte général, vous devez spécifier la manière dont les montants comptables du compte sont ajustés en fonction des fluctuations de taux de change entre DS et la devise report.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Pour spécifier la méthode d’ajustement de taux de change pour tous les comptes généraux  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
 2. Sur la page **Plan comptable**, sélectionnez le compte approprié, puis cliquez sur l’action **Modifier**.  
 3. Sur la page **Fiche compte général**, sélectionnez la méthode adéquate dans le champ **Ajustement taux de change**.  
 
@@ -81,7 +82,7 @@ Pour chaque compte général, vous devez spécifier la manière dont les montant
 4.  Fermez la page **Fiche compte général**.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Pour spécifier la méthode d’ajustement de taux de change pour toutes les écritures TVA  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 2. Sur la page **Paramètres comptabilité**, sélectionnez la méthode adéquate dans le champ **Ajustement tx de change TVA**.  
 3. Si vous validez en devise report (DS), vous pouvez spécifier dans le champ **Ajustement taux de change TVA** la manière dont les comptes définis pour la validation de la TVA sur la page **Paramètres compta. TVA** sont ajustés pour les fluctuations de taux de change entre devise société et devise report.  
 
@@ -96,7 +97,7 @@ Pour chaque compte général, vous devez spécifier la manière dont les montant
     |**Ajuster montant devise report**|La devise report est ajustée pour les gains ou les pertes de change. Les gains ou pertes sur le taux de change sont validés dans le compte général, champ **Montant DR**, et dans les comptes que vous avez spécifiés pour les gains ou les pertes dans le champ **Cpte gains constatés report** et **Cpte pertes constatées report** de la page **Devises**.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Pour activer la devise report  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 2. Sur la page **Paramètres comptabilité**, choisissez le champ **Devise report (DR)** pour sélectionner la devise supplémentaire à utiliser pour vos états.  
 3. Lorsque vous quittez le champ, [!INCLUDE[prod_short](includes/prod_short.md)] affiche un message de confirmation décrivant les effets de l’activation de la devise report.  
 4. Cliquez sur **Oui** pour confirmer que vous souhaitez activer la devise.  

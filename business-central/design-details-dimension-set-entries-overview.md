@@ -1,6 +1,6 @@
 ---
-title: Aperçu des écritures de l’ensemble de dimensions | Microsoft Docs
-description: Cette rubrique décrit comment les écritures de l’ensemble de dimensions sont stockées et validées dans Dynamics 365.
+title: Aperçu des écritures de l’ensemble de dimensions
+description: Cet article vous donne un aperçu de la manière dont les entrées d’ensemble de dimensions sont stockées et comment elles sont publiées.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c6e3df748269e2f40e3acf0a28ce0f6bc48ca944
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f5765b82e3fde5ba35d3c0be9fc6383c9ddb5bf7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215318"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442425"
 ---
 # <a name="dimension-set-entries-overview"></a>Aperçu des écritures de l’ensemble de dimensions
 Cette rubrique décrit comment les écritures de l’ensemble de dimensions sont stockées et validées dans [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -34,7 +34,7 @@ L’exemple suivant présente un ensemble de dimensions constitué de trois écr
 ## <a name="dimension-set-entries"></a>Écritures de l’ensemble de dimensions  
 Les ensembles de dimensions sont stockés dans la table **Écriture de l’ensemble de dimensions** telles des écritures de l’ensemble de dimensions avec le même ID.  
 
-![Flux des écritures de l’ensemble de dimensions](media/dimensionentrynav7.png "Flux des écritures de l’ensemble de dimensions")  
+![Flux des écritures de l’ensemble de dimensions.](media/dimensionentrynav7.png "Flux des écritures de l’ensemble de dimensions")  
 
 Lorsque vous créez une ligne de feuille, un en-tête de document ou une ligne de document, vous pouvez spécifier une combinaison de sections analytiques. Au lieu d’enregistrer explicitement chaque section analytique dans la base de données, un ID d’ensemble de dimensions est affecté à la ligne de feuille, à l’en-tête du document ou à la ligne du document pour spécifier l’ensemble de dimensions.  
 

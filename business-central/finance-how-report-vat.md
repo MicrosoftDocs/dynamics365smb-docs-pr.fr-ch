@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: caacf8eb62dd9539f050dbf55543dee862a6d7f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0342f6009f91140cea9695caca1517a920ac6613
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779137"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444502"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Déclarer la TVA aux autorités fiscales
 Cette rubrique décrit les états dans [!INCLUDE[prod_short](includes/prod_short.md)] que vous pouvez utiliser pour envoyer des informations sur les montants de la taxe sur la valeur ajoutée (TVA) relatifs aux ventes et achats à l’administration fiscale de votre région. 
@@ -25,7 +25,7 @@ Vous pouvez utiliser les états suivants :
 * La déclaration de liste de vente de l’Union européenne (EU) **Liste des ventes UE** répertorie les montants de la taxe sur la valeur ajoutée (TVA) que vous avez collectés pour les ventes aux clients enregistrés dans les pays de l’Union européenne (UE).  
 * L’état **Retour TVA** inclut la TVA pour les ventes et les achats aux clients et auprès des fournisseurs dans tous les pays utilisant la TVA.
 
-Si vous souhaitez afficher un historique complet des écritures TVA, chaque validation impliquant la TVA crée une écriture dans la page **Écritures TVA**. Ces écritures sont utilisées pour calculer le montant de votre déclaration TVA, tel que paiement et remboursement, pour une période donnée. Pour afficher des écritures TVA, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Écritures TVA**, puis sélectionnez le lien associé.
+Si vous souhaitez afficher un historique complet des écritures TVA, chaque validation impliquant la TVA crée une écriture dans la page **Écritures TVA**. Ces écritures sont utilisées pour calculer le montant de votre déclaration TVA, tel que paiement et remboursement, pour une période donnée. Pour afficher les écritures de TVA, sélectionnez l’icône ![Ampoule qui ouvre la fonction Fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures TVA**, puis choisissez le lien associé.
 
 > [!NOTE]
 > Chaque environnement [!INCLUDE[prod_short](includes/prod_short.md)] est destiné à gérer les rapports réglementaires dans un seul pays. Par exemple, la version néerlandaise de [!INCLUDE[prod_short](includes/prod_short.md)] gère la déclaration de TVA aux Pays-Bas mais pas dans d’autres pays. De même, la version américaine de [!INCLUDE[prod_short](includes/prod_short.md)] gère la déclaration 1099 aux États-Unis et ne prend pas en charge la déclaration de TVA dans d’autres pays, sauf si elle est apportée par une extension fournie par notre écosystème partenaire ou une modification de code spécifique au client.
@@ -58,19 +58,19 @@ Pour le retour TVA, vous pouvez spécifier les écritures pour :
 
 Pour déclarer la TVA à une administration par voie électronique, vous devez connecter [!INCLUDE[prod_short](includes/prod_short.md)] au service Web de l’administration fiscale. Cela suppose que vous configuriez un compte avec votre administration fiscale. Lorsque vous avez un compte, vous pouvez activer une connexion de service que nous fournissons dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Connexions au service**, puis sélectionnez le lien approprié.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexions au service**, puis choisissez le lien approprié.
 2. Renseignez les champs requis. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     > Il est judicieux de tester votre connexion. Pour cela, choisissez la case à cocher **Mode test**, puis préparez et envoyez votre état TVA comme décrit dans la section _Préparer et envoyer un état TVA_. En mode Test, le service vérifie si l’administration fiscale peut recevoir votre état, et le statut de l’état indiquera si l’envoi du test a réussi. Il est important de retenir que ce n’est pas un envoi réel. Pour réellement envoyer l’état, vous devez désactiver la case à cocher **Mode test**, puis répéter le processus d’envoi.
 
 ## <a name="to-set-up-vat-reports-in-prod_short"></a>Pour configurer les états TVA dans [!INCLUDE[prod_short](includes/prod_short.md)]
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage déclaration TVA**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramétrage déclaration TVA**, puis choisissez le lien associé.  
 2. Pour laisser des utilisateurs modifier et retourner cet état, sélectionnez la case à cocher **Modifier les états soumis**.  
 3. Choisissez la souche de numéros à utiliser pour chaque état.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Pour préparer et soumettre un état TVA
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste des ventes UE** ou **Retour TVA**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Liste des ventes UE** ou **Retour TVA**, puis choisissez le lien associé.  
 2. Sélectionnez **Nouveau**, puis renseignez les champs requis. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Pour générer le contenu de l’état, sélectionnez l’action **Proposer lignes**.  
 

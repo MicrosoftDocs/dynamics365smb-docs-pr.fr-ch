@@ -1,6 +1,6 @@
 ---
-title: Utiliser des schémas XML pour préparer des définitions d’échange de données
-description: Utilisez des schémas XML pour configurer l’infrastructure d’échange de documents.
+title: Schémas XML pour préparer des définitions d’échange de données
+description: Utilisez des schémas XML pour configurer l’infrastructure d’échange de données afin de définir les éléments de données avec lesquels vous souhaitez échanger.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 70e80403175c6a77d120a3b405b1b5758410c227
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 42afc2d2de9d705d90a92166084b492c3a328674
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781377"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444083"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utiliser des schémas XML pour préparer des définitions d’échange de données
 
@@ -35,7 +35,7 @@ Pour activer l’importation/exportation des données dans des fichiers XML à 
 
 1. Assurez-vous que le fichier de schéma XML approprié est disponible. L’extension du fichier est .xsd.  
 
-2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Schémas XML**, puis sélectionnez le lien associé.  
+2. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Schémas XML**, puis choisissez le lien associé.  
 
 3. Sélectionnez l’action **Nouveau**.  
 
@@ -57,7 +57,7 @@ Pour activer l’importation/exportation des données dans des fichiers XML à 
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Sélectionner ou supprimer des nœuds dans un schéma XML  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Visionneuse de schéma XML**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Visionneuse de schéma XML**, puis choisissez le lien associé.  
 
 2. Renseignez les champs de l’en-tête, comme indiqué dans le tableau suivant.  
 
@@ -95,7 +95,7 @@ Pour activer l’importation/exportation des données dans des fichiers XML à 
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Générer une définition d’échange de données basée sur un schéma XML  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Schémas XML**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Schémas XML**, puis choisissez le lien associé.  
 
 2. Sélectionnez le schéma XML approprié, puis sélectionnez l’action **Ouvrir la visionneuse de schéma XML**.  
 

@@ -1,20 +1,20 @@
 ---
 title: Afficher les verrouillages base de données
-description: Découvrez comment afficher des informations sur les verrouillages de base de données directement depuis l’interface client de Business Central.
+description: Découvrez comment afficher des informations sur les verrouillages de base de données client directement depuis l’interface client de Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: b53677ab57d6c48b015bb0dd47ea6e315f8e80c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb42b07832d33c995299d5033b8c548a37a86f56
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776931"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443119"
 ---
 # <a name="viewing-database-locks"></a>Affichage des verrouillages base de données
 
@@ -24,11 +24,11 @@ Les utilisateurs peuvent être empêchés d’effectuer des transactions sur les
 
 ## <a name="to-view-database-locks"></a>Pour afficher les verrouillages base de données
 
-Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Verrouillages base de données**, puis sélectionnez le lien associé.
+Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") entrez **Verrouillages de base de données**, puis choisissez le lien associé.
 
 La page **Verrouillages base de données** affiche un aperçu de tous les verrouillages base de données actuels.
 
-Pour en savoir plus sur les verrouillages base de données, consultez [Surveillance des verrouillages base de données](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) dans l’aide Business Central sur Developer and IT Pro.
+Pour en savoir plus sur les verrouillages base de données, consultez [Surveillance des verrouillages base de données](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) dans l’aide Business Central sur Developer and IT Pro.
 
 ## <a name="see-also"></a>Voir aussi
 

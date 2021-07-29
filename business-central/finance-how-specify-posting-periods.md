@@ -1,6 +1,6 @@
 ---
-title: Spécifier des périodes de validation| Microsoft Docs
-description: Vous spécifiez des dates début et fin de validation pour configurer quand les utilisateurs peuvent valider en comptabilité.
+title: Définir des périodes de validation
+description: Vous spécifiez des périodes de validation (dates début et fin) pour configurer quand les utilisateurs peuvent valider en comptabilité.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,20 +11,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6f1745dfec453f5864b748d0c876e5ef040fc2df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e4fb495fc29f28dffd34e492cb33d162d671fbd3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775489"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444377"
 ---
-# <a name="specify-posting-periods"></a>Définir des périodes de validation
+# <a name="how-to-specify-posting-periods"></a>Procédure de définition des périodes de validation
 Utilisez des périodes de validation pour spécifier quand les utilisateurs peuvent valider en comptabilité.  
 
 ## <a name="to-specify-posting-periods"></a>Pour définir des périodes de validation
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 2. Sur la page **Paramètres comptabilité**, définissez la période en entrant des dates dans les champs **Début période validation** et **Fin période validation**.  
 
 > [!NOTE]  

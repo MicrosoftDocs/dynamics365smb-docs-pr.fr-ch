@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 158227466a588ee3396a5e4bc073d71bca77faff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dce6cdfdf70d968ae06c88ad4d567ad5cde803dd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779037"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443256"
 ---
 # <a name="review-and-apply-payments-manually-after-automatic-application"></a>Réviser et lettrer les paiements manuellement après un lettrage automatique
 Pour chaque ligne feuille représentant un paiement sur la page **Feuille rapprochement bancaire**, vous pouvez ouvrir la page **Lettrage paiement** pour afficher toutes les écritures ouvertes candidates au paiement et les informations détaillées pour chaque écriture sur la correspondance des données sur laquelle un lettrage de paiement est basé. Ici, vous pouvez appliquer les paiements manuellement ou réappliquer les paiements qui ont été automatiquement appliqués à une écriture incorrecte. Pour plus d’informations sur le lettrage automatique, voir [Rapprocher les paiements à l’aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
@@ -37,7 +37,7 @@ Aucun ajustement profits et pertes requis en raison de conversions de devise n�
 >   Vous ne pouvez appliquer un paiement qu’à un compte. Si vous souhaitez diviser l’application sur plusieurs écritures ouvertes, par exemple pour appliquer un paiement fixe, les écritures ouvertes doivent être pour le même compte. Pour plus d’informations, reportez-vous aux étapes 7 et 8 de la procédure de cette rubrique.
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Pour examiner ou lettrer les paiements après le lettrage automatique
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles rapprochement bancaire**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles rapprochement bancaire**, puis sélectionnez le lien associé.
 2. Ouvrez la feuille de rapprochement de paiement pour un compte bancaire pour lequel vous souhaitez rapprocher les paiements. Pour plus d’informations, voir [Rapprocher les paiements à l’aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 3. Sur la page **Feuille rapprochement bancaire**, sélectionnez un paiement que vous souhaitez réviser ou lettrer manuellement à une ou plusieurs écritures ouvertes, puis sélectionnez l’action **Lettrer manuellement**.
 4. Cochez la case **Lettré** sur la ligne de l’écriture ouverte à laquelle vous voulez lettrer le paiement.

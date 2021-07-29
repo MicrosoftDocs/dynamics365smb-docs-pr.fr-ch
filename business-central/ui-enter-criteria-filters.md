@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: a2dd15629dfde9d2cefe6c04b758c1b88075253b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017189"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443708"
 ---
 # <a name="sorting-searching-and-filtering"></a>Tri, recherche et filtrage
 
@@ -24,7 +24,7 @@ Il existe quelques fonctions que vous pouvez utiliser pour vous aider à analyse
 Pour les états et les XMLports, comme sur des listes, vous pouvez définir des filtres pour délimiter les données à inclure dans l’état ou le XMLport, mais vous ne pouvez pas trier et rechercher.
 
 > [!TIP]
-> En affichant vos données en tant que vignettes, vous pouvez rechercher et utiliser le filtrage. Pour utiliser l’ensemble complet de puissantes fonctions de tri, de recherche et de filtrage, choisissez l’icône ![Afficher sous forme de liste](media/ui_show_as_list_icon.png "Afficher sous forme de liste") pour afficher les enregistrements sous forme de liste.
+> En affichant vos données en tant que vignettes, vous pouvez rechercher et utiliser le filtrage. Pour utiliser l’ensemble complet de puissantes fonctions de tri, de recherche et de filtrage, choisissez l’icône ![Afficher sous forme de liste.](media/ui_show_as_list_icon.png "Afficher sous forme de liste") pour afficher les enregistrements sous forme de liste.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -45,7 +45,7 @@ Pour trier une liste, vous pouvez soit :
 ## <a name="searching"></a>Recherche
 
 <!--## Searching by using the Quick Filter -->
-En haut de chaque page de liste, il existe une action ![Rechercher dans une liste](media/ui-search/search-list.png "Icône de liste Rechercher") **Rechercher** qui fournit une manière rapide et facile de réduire les enregistrements d’une liste et d’afficher uniquement les enregistrements qui contiennent les données que vous souhaitez afficher.
+En haut de chaque page de liste, il y a une ![liste de recherche.](media/ui-search/search-list.png "Icône de liste Rechercher") action **Rechercher** qui fournit une manière rapide et facile de réduire les enregistrements d’une liste et d’afficher uniquement les enregistrements qui contiennent les données que vous souhaitez afficher.
 
 Pour rechercher, sélectionnez simplement l’action **Rechercher**, puis dans la case, entrez le texte souhaité. Vous pouvez saisir des lettres, des chiffres et d’autres symboles.
 
@@ -144,7 +144,7 @@ Dans le volet Filtre et sur une page de demande, vous devez entrer vos critères
 
 Le type de champ à filtrer détermine les critères que vous pouvez entrer. Par exemple, filtrer un champ avec des valeurs fixes vous permet uniquement de choisir parmi ces valeurs. Pour plus d’informations sur les symboles de filtre spéciaux, consultez [Critères de filtre](#FilterCriteria) et [Jetons de filtre](#FilterTokens).
 
-Les colonnes qui ont déjà des filtres sont signalées par l’![Icône de filtre](media/ui-search/filter-icon.png "Icône de filtre") dans l’en-tête de colonne. Pour supprimer un filtre, choisissez la flèche déroulante du titre de la page, puis choisissez l’action **Effacer le filtre**.
+Les colonnes qui ont déjà des filtres sont signalées par l’![Icône de filtre](media/ui-search/filter-icon.png "Icône de filtre"). dans l’en-tête de la colonne. Pour supprimer un filtre, choisissez la flèche déroulante du titre de la page, puis choisissez l’action **Effacer le filtre**.
 
 > [!TIP]
 > Accélérez la recherche et l’analyse de vos données en utilisant des combinaisons des raccourcis clavier. Par exemple, sélectionnez un champ, utilisez **Maj+Alt+F3** pour ajouter ce champ au volet Filtre, saisissez les critères de filtre, utilisez **Ctrl+Entrée** pour revenir aux lignes, sélectionnez un autre champ, puis utilisez **Alt+F3** pour filtrer selon cette valeur. Pour plus d’informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#KeyboardFilter).

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 65975621fff862b64333c87e70f34b75f8e2cbdb
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: 0d873a547175ee9f52a4016f4e8f5e9aa603cd8a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938111"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443808"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Enregistrer la consommation ou l′utilisation pour les projets
 
@@ -27,7 +27,7 @@ Les procédures suivantes décrivent comment enregistrer les quantités (budgét
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Pour enregistrer l’utilisation d’une ligne planning projet de type Budget
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez le projet concerné, puis cliquez sur **Lignes planning projet**.
 3. Sélectionnez une ligne planning projet de type **Budget** ou **Budget et Facturable** pour laquelle vous voulez enregistrer une utilisation.  
 
@@ -49,7 +49,7 @@ Les procédures suivantes décrivent comment enregistrer les quantités (budgét
 
 ## <a name="to-create-job-journal-lines-manually"></a>Pour créer des lignes feuille projet manuellement
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles projet**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
 2. Dans le champ **Nom de la feuille**, choisissez un nom de feuille projet approprié.  
 3. Dans une nouvelle ligne, entrez le numéro de document, le numéro de projet, le numéro tâche projet, le type et la quantité du type consommé.  
 4. Lorsque les lignes feuilles projets sont renseignées, cliquez sur **Valider**.  
@@ -63,7 +63,7 @@ Cela vous permet de suivre vos estimations initiales, de les comparer aux résul
 > [!NOTE]  
 >   Les écritures article créent des écritures comptables article et diminuent les articles en stock. Le traitement par lots **Valider coûts ajustés** permet de transférer le coût du stock à la comptabilité. Les écritures ressource créent des écritures comptables ressource.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles projet**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
 2. Sélectionnez une feuille projet appropriée, puis cliquez sur l’action **Calc. utilisation restante**.  
 3. Sur la page **Projet Calc. utilisation restante**, entrez le numéro et la date de comptabilisation du document devant être insérés dans la feuille, puis sélectionnez le bouton **OK**.  
 4. Mettez à jour la feuille avec toutes les modifications qui peuvent être nécessaires.  
@@ -78,7 +78,7 @@ Après avoir validé les lignes feuilles projets, vous pouvez voir les lignes pl
 > [!NOTE]  
 > Cela nécessite que la case **Appliquer le lien d′utilisation** soit cochée pour le projet. Pour plus d’informations, voir [Configuration de projets](projects-how-setup-jobs.md).  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles projet**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
 2. Sélectionnez une feuille projet appropriée, puis cliquez sur **Écritures comptables**.  
 3. Sur la page **Écritures comptables projet**, cliquez sur **Afficher les lignes planning projet liées**.
 

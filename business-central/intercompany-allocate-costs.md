@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 471a5151314645f21f163a8f9044b168ac5a8bb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786338"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444270"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allouer les coûts aux partenaires intersociétés
 Lorsque vous utilisez des écritures intersociétés pour transférer des documents entre sociétés partenaires, les paramètres liés à la TVA (principalement le groupe de comptabilisation TVA) affectés aux comptes client ou fournisseur (associés au partenaire intersociétés) contrôlent si et comment la TVA est calculée et enregistrée. Vous pouvez également effectuer des répartitions de coûts directement à partir d’une commande d’achat vers des sociétés partenaires. Par exemple, si vous enregistrez une facture achat d’un fournisseur externe et si vous souhaitez répartir tout ou partie des coûts à un ou plusieurs partenaires intersociétés.
@@ -30,7 +30,7 @@ Vous pouvez affecter les coûts à un ou plusieurs partenaires intersociétés e
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Pour allouer les coûts à l’aide d’un journal général intersociétés
 Pour saisir une ligne dans un journal général intersociétés, procédez comme suit. 
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille comptabilité Intersociétés**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles feuille intracom.**, puis sélectionnez le lien associé.
 2. Si nécessaire, dans le champ **N° doc. externe**, saisissez le numéro de document sur la facture du fournisseur.
 3. Dans le champ **Type document**, choisissez **Facture**.
 4. Dans le champ **Type compte**, sélectionnez **Fournisseur**.
@@ -57,7 +57,7 @@ La procédure suivante décrit comment répartir les coûts à l’aide d’une 
 > [!NOTE]
 > Pour terminer ces étapes, vous devez personnaliser la page **Facture achat** en ajoutant les champs **Code du partenaire IC**, **Type de réf. du partenaire IC** et **Partenaire IC**. Pour plus d’informations, consultez [Commencer à personnaliser une page au moyen de la bannière Personnalisation](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Facture achat**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Facture achat**, puis sélectionnez le lien associé.
 2. Dans le champ **Type**, sélectionnez **Compte général**.
    
    Le compte général est la seule option que vous pouvez utiliser pour répartir les coûts.  
@@ -70,7 +70,7 @@ La procédure suivante décrit comment répartir les coûts à l’aide d’une 
 1. Pour valider la commande achat, choisissez **Valider**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Pour envoyer les coûts alloués aux partenaires intersociétés
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Transactions Boîte d’envoi IC**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Transactions boîte d’envoi IC**, puis choisissez le lien associé.
 2. Choisissez les lignes à envoyer, puis choisissez l’action **Envoyer au partenaire IC**. 
 3. Pour allouer les coûts, choisissez l’action **Terminer les actions des lignes**.
 

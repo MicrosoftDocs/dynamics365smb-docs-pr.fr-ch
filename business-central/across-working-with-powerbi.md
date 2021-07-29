@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7f2e2fe9719d25e13a33cf1943e7a054a70edffd
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: dcd316d7d1d360733ff15b67cc5a293576812611
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935376"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444058"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Utilisation d’états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -27,7 +27,7 @@ Les états Power BI vous donnent un aperçu de votre [!INCLUDE[prod_short](inclu
 
 [!INCLUDE [prod_short](includes/prod_short.md)] utilise le service Power BI. Les états à afficher dans [!INCLUDE [prod_short](includes/prod_short.md)] sont stockés dans un service Power BI. Dans [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez changer l’état affiché dans la partie Power BI vers tout état Power BI disponible dans votre service Power BI. La première fois que vous vous connectez à [!INCLUDE [prod_short](includes/prod_short.md)], et jusqu’à ce que vous vous connectiez à un service Power BI, les pièces restent vides, comme indiqué ici :
 
-![Partie Power BI dans Business Central](./media/power-bi-part.png)
+![Partie Power BI dans Business Central.](./media/power-bi-part.png)
 
 ## <a name="get-started"></a>Démarrer
 
@@ -47,7 +47,7 @@ Avant de pouvoir utiliser Power BI avec [!INCLUDE[prod_short](includes/prod_shor
 Lorsque vous vous connectez pour la première fois [!INCLUDE [prod_short](includes/prod_short.md)], vous verrez peut-être une partie Power BI vide (comme indiqué dans la figure précédente) sur différentes pages. La première chose à faire est de vous connecter à votre compte Power BI. Une fois connecté, vous pouvez voir les états. Vous ne devez effectuer cette étape qu’une seule fois.
 
 1. Sélectionnez le lien **Prise en main de Power BI** dans la partie **États Power BI**.
-2. La configuration assistée **Configuration des états Power BI dans Business Central** démarre. Sélectionnez **Suivant** continuer.
+2. La configuration assistée **Configuration des états Power BI dans Business Central** démarre. Sélectionnez **Suivant** continuer.
 3. Sur la page **Vérifier votre licence Power BI**. Exécutez l’une des étapes suivantes :
 
     - Si vous ne vous êtes pas encore inscrit à Power BI, sélectionnez [Accéder à la page d′accueil Power BI](https://powerbi.microsoft.com). Créez un compte, puis revenez sur [!INCLUDE[prod_short](includes/prod_short.md)] et terminez la configuration.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d0a48037123dee4a7c9282432cc2b357b335e794
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 4cd53cab788f5ee9a7f32f697faa35e8cd2638ae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115580"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443372"
 ---
 # <a name="invoice-sales"></a>Facturer des ventes
 
@@ -41,7 +41,7 @@ Vous pouvez remplir les champs relatifs au client sur la facture vente de deux f
 
 ### <a name="to-create-a-sales-invoice"></a>Pour créer une facture vente :
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures vente**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.  
 2. Dans le champ **Client**, entrez le nom d’un client existant.
 
    D’autres champs de la page **Facture vente** contiennent des informations standard sur le client sélectionné. Si le client n’est pas enregistré, procédez comme suit :
@@ -136,7 +136,7 @@ Vous pouvez même créer des factures à paiement direct pour les clients non en
 [Stock](inventory-manage-inventory.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
-[Facturation en vrac à partir de Microsoft Bookings dans Business Central](finance-bookings.md)  
+[Facturation en vrac à partir de Microsoft Bookings dans Business Central](finance-bookings.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

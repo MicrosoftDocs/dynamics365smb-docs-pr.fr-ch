@@ -1,20 +1,20 @@
 ---
-title: Gérer les utilisateurs et les rôles | Microsoft Docs
-description: Découvrez comment gérer les utilisateurs et les tableaux de bord dans Business Central.
+title: Gestion des utilisateurs et des rôles
+description: Découvrez comment gérer les profils utilisateur et les tableaux de bord dans Business Central. Les profils permettent aux administrateurs de définir et de gérer de manière centralisée ce que les utilisateurs peuvent voir et faire.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8ccfd6b7e39acc460fcd32dbc2f20fb71fc01ae0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776981"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443144"
 ---
-# <a name="manage-profiles"></a>Gérer les profils
+# <a name="manage-user-profiles"></a>Gérer les profils d’utilisateur
 
 Tous les utilisateurs de [!INCLUDE[prod_short](includes/prod_short.md)] se voient attribuer un profil reflétant leur rôle professionnel, le département dans lequel ils travaillent ou une autre catégorisation. Les profils permettent aux administrateurs de définir et de gérer de manière centralisée ce que différents types d’utilisateurs peuvent voir et faire dans l’interface utilisateur afin de pouvoir effectuer leurs tâches de manière efficace.
 
@@ -31,7 +31,7 @@ Vous pouvez personnaliser les mises en page d’un profil afin que tous les util
 ## <a name="to-create-a-profile"></a>Pour créer un profil
 Si vous ne pouvez pas copier un profil existant, vous pouvez en créer un manuellement.
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Profils (Rôles)**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") entrez **Profils (Rôles)**, puis sélectionnez le lien associé.  
 2. Sur la page **Profils (rôles)**, sélectionnez l’action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -66,7 +66,7 @@ Sur la page **Mes paramètres**, les utilisateurs peuvent définir le comporteme
 
 En tant qu’administrateur, vous pouvez définir ces paramètres pour un profil et les appliquer ainsi à tous les utilisateurs du rôle associé.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Profils (Rôles)**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Profils (Rôles)**, puis sélectionnez le lien associé.
 2. Sélectionnez la ligne du profil pour lequel vous souhaitez modifier les paramètres utilisateur, puis choisissez l’action **Liste de personnalisations utilisateur**.
 3. Sur la page **Personnalisations utilisateur**, ouvrez la fiche de l’utilisateur dont vous souhaitez modifier les paramètres.
 4. Sur la page **Fiche de personnalisation utilisateur**, modifiez les champs si nécessaire.
@@ -108,7 +108,7 @@ Vous pouvez supprimer un profil en choisissant l’action **Supprimer** sur la p
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>Pour supprimer toutes les personnalisations effectuées par un utilisateur
 Vous pouvez supprimer toutes les modifications qu’un utilisateur a apportées aux pages qui constituent son espace de travail. Cela peut être utile, par exemple, si un employé a changé de rôle et n’a plus besoin des personnalisations. La suppression des personnalisations des utilisateurs ramène la mise en page à ce qui est défini par le profil.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Personnalisations utilisateur**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Personnalisations utilisateur**, puis choisissez le lien associé.
 
     La page **Personnalisations utilisateur** répertorie tous les utilisateurs qui ont apporté des personnalisations.
 
@@ -122,7 +122,7 @@ Vous pouvez également supprimer toutes les personnalisations de page pour un pr
 ## <a name="to-delete-personalizations-for-specific-pages"></a>Pour supprimer des personnalisations pour des pages spécifiques
 Vous pouvez supprimer les personnalisations qu’un ou plusieurs utilisateurs ont apportées à des pages spécifiques constituant leur espace de travail. Cela peut être utile, par exemple, si un processus d’entreprise modifié signifie qu’une personnalisation ne doit plus être utilisée par les utilisateurs. La suppression des personnalisations des utilisateurs ramène la mise en page à ce qui est défini par le profil.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Personnalisations des pages utilisateur**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Personnalisations de la page utilisateur**, puis choisissez le lien associé.
 
     La page **Personnalisations des pages utilisateur** répertorie toutes les pages qui ont été personnalisées et l’utilisateur à qui elles appartiennent.
 

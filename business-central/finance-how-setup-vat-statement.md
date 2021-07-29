@@ -1,6 +1,6 @@
 ---
-title: Configurer une déclaration de TVA | Microsoft Docs
-description: Configurer une déclaration de TVA
+title: Configurer une déclaration de TVA
+description: Cette rubrique vous explique comment configurer un modèle de déclaration de TVA et des noms de déclaration de TVA pour répondre aux exigences en pleine évolution de l’administration fiscale.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8a7373a22cff16a32fe92bf2f2d9064d2f12e950
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 322a501a4b1d404ef39523e93b45409eb60d7c4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775467"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444402"
 ---
 # <a name="set-up-a-vat-statement"></a>Configurer une déclaration de TVA
 
@@ -25,7 +25,7 @@ Les autorités fiscales peuvent modifier et modifient leurs exigences de validat
 ## <a name="to-define-a-vat-statements"></a>Pour définir une déclaration de TVA
 Les déclarations de TVA vous permettent de calculer le montant de la déclaration de TVA pour une période donnée, par exemple, un trimestre.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Déclarations TVA**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Déclarations TVA**, puis choisissez le lien associé.  
 2. Choisissez le champ **Nom**, puis choisissez **Nouveau** dans la page **Noms déclarations TVA**.
 3. Renseignez les champs requis. Généralement, vous souhaitez avoir un paramètre pour chaque association Groupe compta. marché TVA/Groupe compta. produit TVA. Pour les numéros de ligne, il est logique d’utiliser des numéros ou des codes équivalents comme dans votre déclaration TVA officielle [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
@@ -50,7 +50,7 @@ Après avoir défini une déclaration de TVA, vous pouvez en afficher un aperçu
 [Configuration de la TVA sur encaissement](finance-setup-unrealized-vat.md)      
 [Déclarer la TVA à une autorité fiscale](finance-how-report-vat.md)  
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
-[Fonctionnalités locales dans Business Central](about-localization.md)
+[Fonctionnalités locales dans Business Central](about-localization.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

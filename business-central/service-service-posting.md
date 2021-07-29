@@ -1,6 +1,6 @@
 ---
-title: Validation de service | Microsoft Docs
-description: La fonctionnalité de validation de service vous permet de traiter vos documents efficacement et de maintenir une stratégie de service client fructueuse. Vous pouvez créer et mettre à jour des documents validés, et créer des écritures comptables dans le module Service et dans d’autres modules pour garantir une mise à jour correcte.
+title: Validation de service
+description: La fonctionnalité de validation de service vous permet de traiter vos documents efficacement et de maintenir une stratégie de service client fructueuse.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4f7371f7af5546f75a90f734ebedb6c358783b17
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8bdfb6986f16c580cef6e1fc7bdde2ef25dab14b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776806"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443044"
 ---
 # <a name="service-posting"></a>Validation de service
 La fonctionnalité de validation de service vous permet de traiter vos documents efficacement et de maintenir une stratégie de service client fructueuse. Vous pouvez créer et mettre à jour des documents validés, et créer des écritures comptables dans le module Service et dans d’autres modules pour garantir une mise à jour correcte.  
@@ -49,7 +49,7 @@ Lorsque vous validez une facture service, une expédition service ou un avoir se
 
 La procédure suivante utilise un exemple de facture service enregistrée ; cette même procédure est applicable aux expéditions de service et aux avoirs enregistrés.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Facture service enreg.**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Facture de service validées**, puis sélectionnez le lien associé.  
 2. Ouvrez la facture service enregistrée que vous souhaitez afficher.  
 3. Pour obtenir un aperçu de la facture validée, choisissez l’action **Statistiques**.  
 

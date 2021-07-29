@@ -1,6 +1,6 @@
 ---
-title: Procédure de planification commande par commande | Microsoft Docs
-description: Cette tâche de planification peut être effectuée sur la page **Planning commande**, affichant toute nouvelle demande ainsi que les informations de disponibilité et les suggestions d’approvisionnement. Elle fournit la visibilité et les outils nécessaires à la planification efficace des demandes des lignes vente et des lignes composant, puis à la création directe de différents types de commandes approvisionnement.
+title: Procédure de planification commande par commande
+description: Cette tâche de planification peut être effectuée sur la page Planning commande, affichant toute nouvelle demande ainsi que les informations de disponibilité et les suggestions d’approvisionnement.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: bed73380344c0900a00d6d704ee2d853a1bf165d
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 5a3481f1f1b1c08fd3006d1d62b92387414f0d41
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216245"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444245"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planifier de nouvelles demandes commande par commande
 Cette tâche de planification peut être effectuée sur la page **Planning commande**, affichant toute nouvelle demande ainsi que les informations de disponibilité et les suggestions d’approvisionnement. Elle fournit la visibilité et les outils nécessaires à la planification efficace des demandes des lignes vente et des lignes composant, puis à la création directe de différents types de commandes approvisionnement.  
@@ -24,14 +24,14 @@ Vous pouvez accéder à la page **Planification commande** de deux manières dif
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Pour planifier un nouvelle demande d’ordre de fabrication  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifiés**, puis sélectionnez le lien associé. (Vous pouvez exécuter cette procédure pour des ordres de fabrication planifiés, planifiés fermes ou lancés).
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. planifié**, puis sélectionnez le lien associé. (Vous pouvez exécuter cette procédure pour des ordres de fabrication planifiés, planifiés fermes ou lancés).
 2.  Ouvrez l’ordre de fabrication que vous souhaitez planifier, puis choisissez l’action **Planning**.  
 3.  Sur la page **Planning commande**, choisissez l’action **Calculer planning**.  
 
 La page affiche les lignes planning filtrées par la vue de filtre **Demande de production**, c’est-à-dire toutes les lignes composant insatisfaites de tous les ordres de fabrication existants. Les demandes de l’ordre de fabrication ne sont pas affichées, car il est nécessaire d’effectuer la planification d’un ordre de fabrication avec un aperçu de la demande des éventuelles lignes composant précédentes. Les lignes planning de l’ordre de fabrication du contexte sont développées.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Pour planifier toute nouvelle demande  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Planning commande**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Planification commande**, puis choisissez le lien associé.  
 2.  Sur la page **Planning commande**, choisissez l’action **Calculer planning**.
 3.  Cliquez sur le bouton **Afficher (+)** devant la date dans le champ **Date demande** pour afficher les lignes de planification sous-jacentes qui représentent les lignes de demande dont la disponibilité n’est pas suffisante.  
 4.  Pour chaque ligne planning développée, c’est-à-dire ligne demande, les valeurs s’affichent dans des champs d’information en bas de la page.  
@@ -83,7 +83,7 @@ La page affiche les lignes planning filtrées par la vue de filtre **Demande de 
 >  Si vous entrez une date ultérieure à la date demande, un message vous l’indique.  
 
 ## <a name="to-make-supply-orders"></a>Pour créer des commandes approvisionnement  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifiés**, puis sélectionnez le lien associé. Vous pouvez exécuter cette procédure pour un ordre de fabrication planifié, planifié ferme ou lancé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. planifié**, puis sélectionnez le lien associé. Vous pouvez exécuter cette procédure pour un ordre de fabrication planifié, planifié ferme ou lancé.  
 2.  Ouvrez l’ordre de fabrication que vous souhaitez planifier, puis choisissez l’action **Planning**.  
 3.  Positionnez le curseur sur la ligne planning souhaitée, puis choisissez l’action **Créer commandes**.  
 4.  Sur la page **Créer des commandes approvisionnement**, sur le raccourci **Planning commande**, dans le champ **Créer commandes pour**, sélectionnez l’une des options suivantes.  

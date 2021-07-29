@@ -1,6 +1,6 @@
 ---
 title: Gérer les fournitures pour un projet
-description: Décrit comment gérer l’approvisionnement et l’achat de matériel et de services pour les projets.
+description: Décrit les différentes façons de gérer l’approvisionnement et l’achat de matériel et de services pour les projets.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 7e1f6f52a8ef5f7d4620a70c4611ba259dc00c20
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: b2c2bfa376290439394debcf9b57da5bedaca8bd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938186"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443858"
 ---
 # <a name="manage-job-supplies"></a>Gérer les fournitures pour un projet
 La gestion des fournitures des projets relatifs à des articles, services et dépenses est l’un des aspects essentiels de l’exécution d’un projet. Vous pouvez utiliser les quantités de stock ou effectuer des achats spécifiques au projet en utilisant des commandes achat ou des factures achat. Par exemple, un projet de service sur un ordinateur requiert un nouveau disque. Vous devez donc créer une facture achat pour l’acheter et pour enregistrer le projet pour lequel il sera utilisé.
@@ -25,7 +25,7 @@ Si le processus d’achat ne requiert pas d’enregistrement séparé de la tran
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Pour acheter des articles ou des services pour un projet
 La procédure suivante indique comment utiliser une facture achat pour acheter des produits pour un projet. Les mêmes étapes s’appliquent lors de l’utilisation d’une commande achat.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures achat**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**, puis renseignez les champs selon vos besoins. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 3. Dans les champs **N° projet** et **N° tâche projet**, sélectionnez les informations du projet pour lequel vous souhaitez acheter des articles ou des services. Utilisez les outils de personnalisation si un champ n’est pas visible. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
@@ -33,7 +33,7 @@ La procédure suivante indique comment utiliser une facture achat pour acheter d
 4. Sélectionnez l’action **Valider**.
 
 ## <a name="to-view-the-value-of-purchases-for-a-job"></a>Pour afficher la valeur des achats pour un projet
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.
 2. Ouvrez la fiche projet appropriée.
 
     Dans le raccourci **Tâches**, le champ **Commandes ouvertes** affiche le montant total en commande, en devise société, des articles en stock et des services sur les documents achat pour la tâche projet ligne.  
@@ -44,7 +44,7 @@ La procédure suivante indique comment utiliser une facture achat pour acheter d
 ## <a name="to-post-a-job-related-expense"></a>Pour valider des frais liés à un projet
 Si vous supportez les dépenses extraordinaires ou exceptionnelles du projet, vous pouvez utiliser la page **Feuille compta. projet** pour les valider directement dans le compte projet approprié.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles compta. projet**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles comptabilisation projet**, puis choisissez le lien associé.  
 2. Créez une ligne et renseignez les informations concernant les frais, notamment les informations dans les champs **N° projet** et **N° tâche projet**.  
 3. Lorsque la feuille est renseignée, cliquez sur **Valider**.
 

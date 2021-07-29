@@ -1,5 +1,5 @@
 ---
-title: Affecter des présentations de document spéciales aux clients ou fournisseurs| Microsoft Docs
+title: Attribuer des présentations de documents aux clients ou aux fournisseurs
 description: Lorsque des présentations de rapport personnalisées sont définies, vous pouvez les sélectionner à partir des fiches client et fournisseur pour spécifier que les présentations sélectionnées sont utilisées pour les documents que vous créez pour le client ou le fournisseur en question.
 services: project-madeira
 documentationcenter: ''
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 086491f30ef0a223e5bf8a559af26b848e54d344
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 29b349824e2aff727cd255e612fa054f1d71610c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773570"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443758"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Définir des présentations de document pour les clients et les fournisseurs
 Lorsque des présentations de rapport personnalisées sont définies, vous pouvez les sélectionner à partir des fiches client et fournisseur pour spécifier les présentations qui sont utilisées pour différents types de documents que vous créez pour le client ou le fournisseur en question. La valeur du champ **Utilisation** définit le processus pour lequel la présentation du document est utilisée, par exemple **Relance**, **Expédition** et **Confirmation**.
@@ -31,7 +31,7 @@ Avant de pouvoir définir la présentation de document à utiliser pour les proc
 La section suivante décrit comment définir des présentations de document vente à partir d’une fiche client. Les étapes sont les mêmes pour les présentations de document achat à partir d’une fiche fournisseur.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Pour activer tous les documents vente disponibles pour un client
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Ouvrez la fiche du client pour lequel vous souhaitez définir des présentations de document par processus métier.
 3. Sur la page **Fiche client**, choisissez la page **Présentations document**.
 4. Sur la page **Présentations document**, choisissez l’action **Copier à partir de la sélection des états**.

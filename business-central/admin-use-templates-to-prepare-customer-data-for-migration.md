@@ -1,6 +1,6 @@
 ---
-title: Préparer la migration des données client avec des modèles | Microsoft Docs
-description: Découvrez comment utiliser des modèles de configuration pour structurer les données client existantes avant de migrer les données vers la nouvelle société dans Business Central.
+title: Préparer la migration des données client avec des modèles
+description: Découvrez comment utiliser des modèles de configuration pour structurer les données client existantes avant de migrer les données principales vers la nouvelle société dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dca94e321e6a244bdea27b16ec4c041bd97e89b7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777006"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443169"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Préparer la migration des données client avec des modèles
 
@@ -47,7 +47,7 @@ Lorsque vous sélectionnez un modèle de données existant, vous devez évaluer 
 > [!TIP]  
 > Vous pouvez également utiliser des modèles de données afin de créer rapidement des enregistrements. Ils vous permettent de créer des données avec une rapidité et une précision accrues. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Modèles configuration**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles de configuration**, puis sélectionnez le lien associé.  
 2. Sur la page **Modèles configuration**, sélectionnez un modèle de données dans la liste, puis choisissez l’action **Modifier**.  
 
 Si les modèles par défaut ne répondent pas à vos besoins, vous pouvez créer de nouveaux modèles ou ajouter des champs à un modèle existant. Si les modèles par défaut sont suffisants, vous pouvez les utiliser pour créer des enregistrements à partir de modèles de données de base.
@@ -100,7 +100,7 @@ L’ID table, le nom de la table, et les lignes du modèle de données existant 
 
 Vous pouvez rapidement créer un classeur Excel qui servira de modèle basé sur la structure d’une table de données de base existante. Vous pouvez alors utiliser ce modèle pour rassembler les données du client sous un format cohérent afin de les importer ultérieurement dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille configuration**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille de calcul de configuration**, puis sélectionnez le lien associé.
 2. Ajoutez une table dans la liste ou sélectionnez une table existante. Pour plus d’informations, voir [Gérer la configuration de la société dans une feuille](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Choisissez l’action **Afficher les champs** pour définir les champs de la table que vous souhaitez inclure dans le modèle.
 4. Choisissez l’action **Exporter vers modèle**.
@@ -130,11 +130,11 @@ Vous pouvez utiliser la structure de données qui est contenue dans les modèles
 
 Les étapes suivantes illustrent la création d’une fiche article d’un modèle données d’article. Vous pouvez créer un enregistrement à partir de n’importe quel modèle de données en utilisant la même procédure.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Modèles configuration**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles de configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez le modèle **Article**, puis cliquez sur l’action **Modifier**. Pour plus d’informations, voir [Pour créer un modèle de données](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Sélectionnez l’action **Créer instance**. Une fiche article est créée.  
 4. Cliquez sur le bouton **OK**.  
-5. Pour vérifier la nouvelle fiche article, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis choisissez le lien associé.  
+5. Pour examiner la nouvelle fiche article, sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 6. Ouvrez la nouvelle fiche article.  
 7. Affichez les différents raccourcis, et vérifiez que les informations les concernant ont été créées correctement.  
 

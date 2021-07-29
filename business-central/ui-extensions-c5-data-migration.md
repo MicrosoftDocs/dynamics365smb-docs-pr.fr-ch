@@ -1,6 +1,6 @@
 ---
 title: Utilisation de l’extension C5 Data Migration | Microsoft Docs
-description: Utilisez cette extension pour migrer des clients, des fournisseurs, des articles et des comptes généraux de Microsoft Dynamics C5 2012 vers Business Central.
+description: Utilisez cette extension pour migrer des clients, des fournisseurs, des articles et des comptes généraux de Microsoft Dynamics C5 2012 vers Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e9a121efe984e075c54c747fc426bf9a4519b81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b146e2a515ffd2a200574c4ce059c8a0205b602
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787417"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443583"
 ---
 # <a name="the-c5-data-migration-extension"></a>Extension C5 Data Migration
 
@@ -107,7 +107,7 @@ La plus grande taille de fichier que vous pouvez télécharger dans [!INCLUDE[pr
 Quelques étapes suffisent pour exporter des données de C5 et les importer dans [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. Dans C5, utilisez la fonctionnalité **Exporter la base de données** pour exporter les données. Envoyez ensuite le fichier d’exportation vers un fichier compressé (zippé).  
-2. Dans [!INCLUDE[prod_short](includes/prod_short.md)], choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Migration des données**, puis sélectionnez **Migration des données**.  
+2. Dans [!INCLUDE[prod_short](includes/prod_short.md)], sélectionnez l’![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Migration de données**, puis choisissez **Migration de données**.  
 3. Exécutez les étapes du guide de configuration assistée. Veillez à choisir **Importer à partir de Microsoft Dynamcis C5 2012** comme source de données.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Affichage du statut de la migration

@@ -1,6 +1,6 @@
 ---
-title: Détails de conception - Concepts centraux du système de planification | Microsoft Docs
-description: Les fonctions de planification se trouvent dans un traitement par lots qui sélectionne d’abord les articles appropriés et la période à planifier. Il suggère ensuite les actions que l’utilisateur peut effectuer en fonction de la situation demande/approvisionnement et des paramètres de planification des articles.
+title: 'Détails de conception : concepts centraux du système de planification'
+description: Les fonctions de planification suggèrent des actions possibles pour l’utilisateur en fonction de la situation de l’offre/de la demande et des paramètres de planification des articles.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 7c08623ccabfc01f5360073db98455cc8f88c8e9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: ddf848c3fb4845f802276843dfa6521eca20f896
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215468"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442500"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Détails de conception : concepts centraux du système de planification
 
 Les fonctions de planification se trouvent dans un traitement par lots qui sélectionne d’abord les articles appropriés et la période à planifier. Puis, en fonction du code de bas niveau de chaque article (ligne nomenclature), le traitement par lots appelle une unité de code, qui calcule un programme d’approvisionnement en équilibrant les séries approvisionnement-demande et en suggérant des actions possibles à mener pour l’utilisation. Les mesures suggérées apparaissent sous forme de lignes dans la feuille planning ou dans la demande achat.  
 
-![Contenu de la page Feuilles planning](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Contenu de la page Feuilles planning")  
+![Contenu de la page Feuilles planning.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Contenu de la page Feuilles planning")  
 
 Le gestionnaire d’une société, par exemple un acheteur ou un gestionnaire de production, est censé être l’utilisateur du système de planification. Le système de planification aide l’utilisateur en effectuant les calculs étendus mais relativement simples d’une planification. L’utilisateur peut alors se consacrer à résoudre les problèmes plus difficiles, par exemple lorsque les choses diffèrent de la normale.  
 
@@ -59,7 +59,7 @@ Par exemple, si l’utilisateur entre ou modifie une commande vente, le système
 
 Par conséquent, le chaînage dynamique peut être considéré comme un outil qui aide l’utilisateur à déterminer s’il faut accepter les suggestions de commande approvisionnement. Du côté de l’approvisionnement, un utilisateur peut visualiser quelle demande a créé l’approvisionnement, et du côté de la demande, quel approvisionnement doit couvrir la demande.  
 
-![Exemple de chaînage dynamique](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Exemple de chaînage dynamique")  
+![Exemple de chaînage dynamique.](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Exemple de chaînage dynamique")  
 
 Pour plus d’informations, voir [Détails de conception : réservation, chaînage et message d’action](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -73,11 +73,11 @@ Le système de planification traite l’ensemble de la configuration de demande 
 
 Le chaînage dynamique crée des liens entre la demande et l’approvisionnement lorsque les données sont saisies, sur la base du principe premier arrivé, premier servi. Cela peut conduire du désordre dans les priorités. Par exemple, une commande vente saisie en premier, avec une date d’échéance du mois suivant, peut être liée à l’approvisionnement en stock, alors que la commande vente suivante à échéance le lendemain peut entraîner la création d’une commande achat par un message d’action afin de la couvrir, comme illustré ci-dessous.  
 
-![Exemple de chaînage dans la planification de l’approvisionnement 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Exemple de chaînage dans la planification de l’approvisionnement 1")  
+![Exemple de chaînage dans la planification de l’approvisionnement 1.](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Exemple de chaînage dans la planification de l’approvisionnement 1")  
 
 Par contre, le système de planification traite l’ensemble des demandes et approvisionnements pour un article spécifique, par ordre de priorité en fonction des dates d’échéance et des types de commande., c.-à-d., sur la base du principe de priorité selon les besoins. Il supprime les liens traçabilité commande qui ont été créés de façon dynamique et les rétablit en fonction de la priorité date d’échéance. Lorsque le système de planification a été exécuté, il a résolu tous les déséquilibres entre la demande et l’approvisionnement, comme illustré ci-dessous pour les mêmes données.  
 
-![Exemple de chaînage dans la planification de l’approvisionnement 2](media/NAV_APP_supply_planning_1_planning_graph.png "Exemple de chaînage dans la planification de l’approvisionnement 2")  
+![Exemple de chaînage dans la planification de l’approvisionnement 2.](media/NAV_APP_supply_planning_1_planning_graph.png "Exemple de chaînage dans la planification de l’approvisionnement 2")  
 
 Après l’exécution de la planification, il ne reste aucun message d’action dans la table Écriture message d’action, parce qu’ils ont été remplacés par les actions suggérées dans la feuille planning  
 
@@ -93,7 +93,7 @@ Le système de planification dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Dans un environnement de fabrication, la demande d’un article fini et pouvant être vendu a pour résultat une demande dérivée pour les composants qui constituent l’article fini. La structure de nomenclature contrôle la structure des composants et peut couvrir plusieurs niveaux d’articles semi-finis. La planification d’un article va créer une demande dérivée pour des composants au niveau suivant, etc. Cela peut entraîner une demande dérivée pour les articles achetés. Par conséquent, le système de planification planifie les articles par ordre de leur classement dans la hiérarchie de nomenclature totale, en commençant par les articles terminés vendables au niveau supérieur et en continuant dans la structure produit jusqu’aux articles du plus bas niveau (en fonction du code plus bas niveau.)  
 
-![Planification des nomenclatures](media/NAV_APP_supply_planning_1_BOM_planning.png "Planification des nomenclatures")  
+![Planification des nomenclatures.](media/NAV_APP_supply_planning_1_BOM_planning.png "Planification des nomenclatures")  
 
 Les chiffres indiquent dans quelle séquence le système fait des propositions pour les commandes approvisionnement au niveau supérieur, et en supposant que l’utilisateur acceptent ces propositions, pour tous les articles au niveau inférieur également.  
 
@@ -116,7 +116,7 @@ Ceci est pris en charge avec l’utilisation des points de stock, où des param�
 
 En principe, tout article peut être traité dans n’importe quel magasin, mais l’application du programme du concept de magasin est assez stricte. Par exemple, une commande vente dans un magasin ne peut pas être satisfaite par une certaine quantité en stock dans un autre magasin. La quantité en stock doit d’abord être transférée au magasin spécifié sur la commande vente.  
 
-![Planification pour points de stock](media/NAV_APP_supply_planning_1_SKU_planning.png "Planification pour points de stock")  
+![Planification pour points de stock.](media/NAV_APP_supply_planning_1_SKU_planning.png "Planification pour points de stock")  
 
 Pour plus d’informations, voir [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)  
 
@@ -130,7 +130,7 @@ Pour en savoir plus, voir [Affecter une priorité aux commandes](design-details-
 
 Les prévisions et les commandes ouvertes représentent la demande anticipée. La commande ouverte, qui regroupe les achats prévus d’un client sur une certaine période, se charge d’amortir l’incertitude de la prévision globale. La commande ouverte est une prévision spécifique au client qui s’ajoute à la prévision non spécifiée comme illustré ci-dessous.  
 
-![Planification avec prévisions](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planification avec prévisions")  
+![Planification avec prévisions.](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planification avec prévisions")  
 
 Pour plus d’informations, reportez-vous à la section [La demande de prévision est réduite par les commandes vente](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
@@ -226,7 +226,7 @@ Cependant, le système de planification inclut toujours les quantités réservé
 
 La figure suivante permet de visualiser la manière dont les réservations peuvent gêner le programme le plus faisable.  
 
-![Planification avec réservations](media/NAV_APP_supply_planning_1_reservations.png "Planification avec réservations")  
+![Planification avec réservations.](media/NAV_APP_supply_planning_1_reservations.png "Planification avec réservations")  
 
 Pour plus d’informations, voir [Détails de conception : réservation, chaînage et message d’action](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -242,7 +242,7 @@ Les informations d’avertissement sont affichées sur la page **Éléments plan
 -   Exception  
 -   Attention  
 
-![Avertissements dans la feuille planning](media/NAV_APP_supply_planning_1_warnings.png "Avertissements dans la feuille planning")  
+![Avertissements dans la feuille planning.](media/NAV_APP_supply_planning_1_warnings.png "Avertissements dans la feuille planning")  
 
 ### <a name="emergency"></a>Urgence
 
@@ -283,7 +283,7 @@ Dans la page de demande Calculer planning, l’utilisateur peut sélectionner le
 
 Si le champ n’est pas activé, le traitement par lots Calculer planning se poursuit jusqu’à ce qu’il soit terminé. Les erreurs éventuelles n’interrompent pas le traitement par lots. S’il y a une ou plusieurs erreurs, une fois l’exécution de l’application terminée, celui-ci affiche un message indiquant le nombre d’articles concernés par les erreurs. La page **Journal des erreurs de planning** s’ouvre ensuite pour afficher des informations supplémentaires sur l’erreur et pour fournir des liens vers les documents ou les fiches paramètres concernés.  
 
-![Messages d’erreur dans la feuille planning](media/NAV_APP_supply_planning_1_error_log.png "Messages d’erreur dans la feuille planning")  
+![Messages d’erreur dans la feuille planning.](media/NAV_APP_supply_planning_1_error_log.png "Messages d’erreur dans la feuille planning")  
 
 ## <a name="planning-flexibility"></a>Flexibilité planification
 

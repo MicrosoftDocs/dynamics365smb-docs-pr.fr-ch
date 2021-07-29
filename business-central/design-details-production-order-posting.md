@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 966760ae57f9908ec7245f8e97f6d35591142332
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214893"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442375"
 ---
 # <a name="design-details-production-order-posting"></a>Détails de conception : validation d’ordre de fabrication
 Comme pour la validation d’ordre d’assemblage, les composants consommés et le temps du poste utilisé sont convertis et sortis en tant qu’article produit lorsque l’ordre de fabrication est terminé. Pour plus d’informations, voir [Détails de conception : modes évaluation stock](design-details-assembly-order-posting.md). Toutefois, le flux des coûts des ordres d’assemblage est moins complexe, notamment parce que la validation du coût d’assemblage ne se produit qu’une fois et ne génère donc pas de stock encours.
@@ -58,11 +58,11 @@ Valider les ordres de fabrication sur le stock en-cours implique la production, 
 
 Le schéma suivant montre les routines de validation impliquées dans le codeunit 22.  
 
-![Routines de validation des ordres de fabrication](media/design_details_inventory_costing_14_production_posting_1.png "Routines de validation des ordres de fabrication")  
+![Routines de validation des ordres de fabrication.](media/design_details_inventory_costing_14_production_posting_1.png "Routines de validation des ordres de fabrication")  
 
 Le schéma suivant montre les associations entre les écritures générées et les objets de coût.  
 
-![Flux d’écritures de production](media/design_details_inventory_costing_14_production_posting_2.png "Flux d’écritures de production")  
+![Flux d’écritures de production.](media/design_details_inventory_costing_14_production_posting_2.png "Flux d’écritures de production")  
 
 L’écriture comptable capacité décrit la consommation de la capacité en termes d’unités de temps, alors que l’écriture valeur associée décrit la valeur de la consommation de capacité spécifique.  
 
@@ -109,7 +109,7 @@ Dans des environnements de coût standard, l’évaluation du stock d’un ordre
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : validation d’ordre d’assemblage](design-details-assembly-order-posting.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md) [Finance](finance.md)  
- [Utilisation de Business Central](ui-work-product.md)
+ [Utilisation de Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

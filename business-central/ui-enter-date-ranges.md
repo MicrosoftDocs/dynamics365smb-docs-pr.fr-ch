@@ -1,6 +1,6 @@
 ---
-title: Entrée des dates et des heures dans Business Central | Microsoft Docs
-description: Apprendre comment entrer des dates et des heures avec diverses astuces de productivité telles que la sténographie, les expressions et les plages. Filtrez les listes ou les états à des dates ou périodes spécifiques.
+title: Entrée des dates et des heures dans Business Central
+description: Apprendre comment entrer des dates et des heures avec diverses astuces de productivité telles que la sténographie, les expressions et les plages.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8254afc467474906dd80ae76ba134a0bce88c3a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773545"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443658"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Utilisation de dates civiles et les heures
 
@@ -48,7 +48,7 @@ Pour travailler plus productivement avec des dates et des heures, vous pouvez ut
 
 Tout champ affichant une icône de calendrier peut être paramétré à l’aide du sélecteur de date civile. Pour afficher le sélecteur de date civile, activer l’icône de calendrier ou appuyer sur le raccourci clavier Ctrl+Début dans le champ.
 
-![Champs de date](media/ui-date-field.png "Exemple de champ de date")
+![Champs de date.](media/ui-date-field.png "Exemple de champ de date")
 
 Voir aussi [Raccourcis clavier du sélecteur de date civile](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -72,23 +72,21 @@ Vous pouvez saisir deux, quatre, six ou huit chiffres dans un champ date :
 
 ### <a name="today"></a>Aujourd’hui
 
-Entrez le mot pour aujourd’hui, dans la langue définie par le paramètre **Langue**, qui définit la date à la date actuelle. Au lieu de saisir le mot entier, vous pouvez saisir une partie du mot, en commençant par le début par exemple a ou auj, tant que ce n’est pas également le début d’un autre mot.
+Entrez le mot pour _aujourd’hui_ dans la langue indiquée sur la page **Mes paramètres**, pour régler la date sur un enregistrement à la date d’aujourd’hui. Au lieu de saisir le mot entier, vous pouvez saisir une partie du mot, en commençant du début. Par exemple, en anglais, vous pouvez saisir _t_ ou _tod_, tant que ce n’est pas aussi le début d’un autre mot.
 
-### <a name="period"></a>Période.
+### <a name="period"></a>Période
 
 Pour filtrer une période comptable spécifique, dans un champ de date saisissez la lettre p, ou le mot période, suivi par un numéro qui identifie la période comptable, comme p2 ou période4. La période comptable est relative à l’exercice comptable de la date de travail en cours défini dans votre tableau de bord. Par exemple, si la date de travail est **21/03/22**, alors p1 ou simplement p filtre la première période comptable de l’exercice comptable 2022 (par exemple 01/01/22..31/01/22). p15 filtre la quinzième période comptable depuis le début de l’exercice comptable 2022 (par exemple 01/03/23..31/03/23).
 
 Les périodes comptables sont définies sur la page **Périodes comptables**. Pour visualiser ou modifier les périodes comptables, ouvrez la page [ici](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="current-work-date"></a>Date de travail actuelle
+### <a name="work-date"></a>Date de travail
 
-La fonction de date de travail vous permet d’enregistrer des transactions en utilisant une date qui est différente de la date du jour.
+Utilisez une date de travail pour spécifier une date qui n’est pas la date du jour sur les enregistrements. Par exemple, une date de travail est utile lorsque vous devez définir une date particulière pour plusieurs enregistrements. Vous spécifiez la date de travail sur la page **Mes paramètres**. 
 
-Le mot « date de travail », dans la langue définie par le paramètre **Langue**, définit la date à laquelle la date de travail configurée actuellement est spécifiée sur la page **Mes paramètres**. Au lieu de saisir le mot entier, vous pouvez saisir une partie du mot, en commençant du début, comme "t" pour travail.
+Un moyen rapide d’entrer la date de travail sur les enregistrements consiste à entrer tout ou partie du mot _travail_, en commençant par le début du mot, dans la langue dans laquelle vous utilisez [!INCLUDE[prod_short](includes/prod_long.md)]. Par exemple, en anglais, vous pouvez saisir _w_ ou _travail_. La langue est également indiquée sur la page **Mes paramètres**.
 
-Si vous ne définissez pas de date de travail, la date actuelle sera utilisée comme date de travail. Vous souhaiterez peut-être utiliser une date de travail si vous avez beaucoup de transactions avec une date différente de la date d’aujourd’hui.
-
-Voir aussi [Modifier les paramètres de base, comme la date de travail](ui-change-basic-settings.md#work-date).
+Si vous n’avez pas spécifié de date de travail, la date d’aujourd’hui sera utilisée. Pour en savoir plus, voir [Modifier les paramètres de base, comme la date de travail](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Date de clôture
 
@@ -199,7 +197,7 @@ L’exemple ci-dessous illustre comment vous pouvez utiliser le signe moins pour
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
-![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
 
 Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
 Here are a couple of other examples:

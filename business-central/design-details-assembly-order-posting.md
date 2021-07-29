@@ -1,6 +1,6 @@
 ---
-title: 'Détails de conception : validation d’ordre d’assemblage | Microsoft Docs'
-description: La validation d’ordre d’assemblage est basée sur les mêmes principes que la validation des activités similaires des commandes vente et de la consommation de production/production. Cependant, les principes sont combinés du fait que les ordres d’assemblage ont leur propre interface utilisateur de validation, comme celle des commandes vente, alors que la validation des écritures réelle se produit en arrière-plan en tant que validations directes d’article et de feuille ressource, comme pour la consommation de production, la production et la capacité.
+title: Détails de conception - Validation d’ordre d’assemblage
+description: La validation d’ordre d’assemblage est basée sur les mêmes principes que la validation des activités similaires des commandes vente et de la consommation de production/production.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e855a7c1392b84a45c588c8a7dbe01de389a3377
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 155fbf64c5ca0dcffce22f16f7ffbfc6375250f1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216018"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442575"
 ---
 # <a name="design-details-assembly-order-posting"></a>Détails de conception : validation d’ordre d’assemblage
 La validation d’ordre d’assemblage est basée sur les mêmes principes que la validation des activités similaires des commandes vente et de la consommation de production/production. Cependant, les principes sont combinés du fait que les ordres d’assemblage ont leur propre interface utilisateur de validation, comme celle des commandes vente, alors que la validation des écritures réelle se produit en arrière-plan en tant que validations directes d’article et de feuille ressource, comme pour la consommation de production, la production et la capacité.  
@@ -31,14 +31,14 @@ Les validations feuille suivantes se produisent lors de la validation d’ordre 
 
 Le schéma suivant montre la structure des écritures comptables article et ressource qui résultent de la validation d’un ordre d’assemblage.  
 
-![Écritures comptables article, ressource et capacité résultant de la validation d’ordre d’assemblage](media/design_details_assembly_posting_1.png "Écritures comptables article, ressource et capacité résultant de la validation d’ordre d’assemblage")  
+![Écritures comptables article, ressource et capacité résultant de la validation d’ordre d’assemblage.](media/design_details_assembly_posting_1.png "Écritures comptables article, ressource et capacité résultant de la validation d’ordre d’assemblage")  
 
 > [!NOTE]  
 >  Les postes et centres de charge sont inclus pour illustrer que les écritures comptables capacité sont créées à la fois à partir de la production et de l’assemblage.  
 
 Le schéma suivant montre la manière dont les données d’assemblage circulent dans les écritures comptables au cours de la validation :  
 
-![Flux d’écritures lié à l’assemblage lors de la validation](media/design_details_assembly_posting_2.png "Flux d’écritures lié à l’assemblage lors de la validation")  
+![Flux d’écritures lié à l’assemblage lors de la validation.](media/design_details_assembly_posting_2.png "Flux d’écritures lié à l’assemblage lors de la validation")  
 
 ## <a name="posting-sequence"></a>Séquence de validation  
 La validation d’un ordre d’assemblage se produit dans l’ordre suivant :  
@@ -69,7 +69,7 @@ La fonction de détection du niveau de commande est utilisée pour les scénario
 
 Le graphique suivant montre la structure d’écriture d’ajustement et comment les coûts d’assemblage sont ajustés.  
 
-![Flux d’écritures lié à l’assemblage lors de l’ajustement des coûts](media/design_details_assembly_posting_3.png "Flux d’écritures lié à l’assemblage lors de la validation")  
+![Flux d’écritures lié à l’assemblage lors de l’ajustement des coûts.](media/design_details_assembly_posting_3.png "Flux d’écritures lié à l’assemblage lors de la validation")  
 
 ### <a name="performing-the-adjustment"></a>Procéder à l’ajustement  
 La répartition des ajustements détectés entre les coûts matière et ressource et les écritures de résultat d’assemblage est effectuée par le traitement par lots **Ajuster coûts : Écr. article**. Il contient la fonction Effectuer un ajustement à plusieurs niveaux, qui se compose des deux éléments suivants :  
@@ -77,7 +77,7 @@ La répartition des ajustements détectés entre les coûts matière et ressourc
 -   Effectuer un ajustement d’ordre d’assemblage : qui transmet le coût d’utilisation des matières et des ressources à l’écriture de résultat d’assemblage. Les lignes 5 et 6 dans l’algorithme ci-dessous sont responsables de cela.  
 -   Effectuer des ajustements à un seul niveau : ce qui transfère les coûts des différents articles en utilisant leur mode d’évaluation du stock. Les lignes 9 et 10 dans l’algorithme ci-dessous sont responsables de cela.  
 
-![Résumé de l’algorithme d’ajustement des coûts pour validation de l’assemblage](media/design_details_assembly_posting_4.jpg "Résumé de l’algorithme d’ajustement des coûts pour validation de l’assemblage")  
+![Résumé de l’algorithme d’ajustement des coûts pour validation de l’assemblage.](media/design_details_assembly_posting_4.jpg "Résumé de l’algorithme d’ajustement des coûts pour validation de l’assemblage")  
 
 > [!NOTE]  
 >  L’élément Effectuer des ajustements de TEC, dans les lignes 7 et 8, est responsable du transfert du matériel de production et de l’utilisation de la capacité vers la production des ordres de fabrication non terminés. Ceci n’est pas utilisé lors de l’ajustement des coûts d’ordre d’assemblage car le concept de TEC ne s’applique pas à l’assemblage.  

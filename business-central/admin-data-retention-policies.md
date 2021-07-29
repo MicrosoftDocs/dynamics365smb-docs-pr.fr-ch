@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 3ee0149461730e20e996f31dc7175ff3325bceca
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935351"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443933"
 ---
 # <a name="define-retention-policies"></a>Définir des stratégies de rétention
 Les administrateurs peuvent définir des stratégies de rétention pour spécifier à quelle fréquence ils souhaitent que [!INCLUDE[prod_short](includes/prod_short.md)] supprime les données obsolètes dans les tables contenant des entrées de journal et des enregistrements archivés. Par exemple, le nettoyage des entrées de journal peut faciliter l’utilisation des données réellement pertinentes. Les stratégies peuvent inclure toutes les données des tables qui ont dépassé la date d’expiration, ou vous pouvez ajouter des critères de filtre qui n’incluront que certaines données expirées dans la stratégie. 
@@ -40,7 +40,7 @@ Les périodes de rétention peuvent être aussi longues ou aussi courtes que vou
 > Pour des raisons de conformité, nous avons défini une période de rétention minimale pour certaines tables. Si vous définissez une période de rétention plus courte que le minimum requis, un message affichera la période obligatoire.
 
 ### <a name="set-up-a-retention-policy"></a>Configurer une stratégie de rétention
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Stratégies de rétention**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Stratégies de rétention**, puis choisissez le lien associé.
 2. Dans le champ **ID table**, sélectionnez la table que vous souhaitez inclure dans la stratégie.
 3. Dans le champ **Durée de rétention**, spécifiez la durée pendant laquelle conserver les données dans la table.
 4. Facultatif : Pour appliquer la stratégie à des données spécifiques dans une table, désactivez le bouton Appliquer à tous les enregistrements. Le raccourci Stratégie de rétention des enregistrements s’affiche, dans lequel vous pouvez définir des filtres pour créer des sous-jeux de données pour chaque ligne. Pour plus d’informations, reportez-vous à la rubrique [Filtrage](ui-enter-criteria-filters.md#filtering).
@@ -104,7 +104,7 @@ Une fois qu’un développeur a ajouté des tables à la liste, un administrateu
 ## <a name="see-also"></a>Voir aussi
 
 [Analyse de la télémétrie de suivi des stratégies de rétention](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
-[Audit des modifications dans Business Central](across-log-changes.md)  
+[Audit des modifications dans Business Central](across-log-changes.md)  
 [Filtrage](ui-enter-criteria-filters.md#filtering)  
 [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

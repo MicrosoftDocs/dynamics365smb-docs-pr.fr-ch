@@ -1,6 +1,6 @@
 ---
-title: Partage d’enregistrements Business Central dans Microsoft Teams
-description: Découvre comment utiliser l’application Business Central pour Microsoft Teams.
+title: Partage d’enregistrements Business Central dans Microsoft Teams
+description: Découvre comment utiliser l’application Business Central pour Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: fb134ce04cb6b53f2432f0f371d7ca82411f0cee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074602"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444033"
 ---
-# <a name="sharing-business-central-records-in-microsoft-teams"></a>Partage d’enregistrements Business Central dans Microsoft Teams
+# <a name="sharing-business-central-records-in-microsoft-teams"></a>Partage d’enregistrements Business Central dans Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,10 +27,10 @@ ms.locfileid: "6074602"
 
 L’application [!INCLUDE [prod_short](includes/prod_short.md)] vous permet de :
 
-- Copier un lien vers n’importe quel enregistrement Business Central et le coller dans une conversation Teams à partager avec vos collègues. L’application étendra le lien dans une carte interactive compacte qui affiche des informations sur l’enregistrement.
+- Copier un lien vers n’importe quel enregistrement Business Central et le coller dans une conversation Teams à partager avec vos collègues. L’application étendra le lien dans une carte interactive compacte qui affiche des informations sur l’enregistrement.
 - Une fois dans la conversation, vous et vos collègues pouvez afficher plus de détails sur l’enregistrement, modifier les données et prendre des mesures, sans quitter Teams.
 
-[![Intégration Teams avec Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Intégration Teams avec Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -38,9 +38,9 @@ L’application [!INCLUDE [prod_short](includes/prod_short.md)] vous permet de 
 - Vous avez installé l’application [!INCLUDE [prod_short](includes/prod_short.md)] dans Teams. Pour plus d’informations, voir [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)
 
 > [!NOTE]
-> Tous les participants à une conversation Teams pourront afficher les fiches des enregistrements Business Central que vous soumettez à la conversation. Mais pour afficher plus de détails sur les enregistrements, en utilisant les boutons **Détails** ou **Contextuel** sur une fiche, ils auront besoin d’accéder à [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Gestion de l’intégration Microsoft Teams](admin-teams-integration.md#minimum-requirements-1).
+> Tous les participants à une conversation Teams pourront afficher les fiches des enregistrements Business Central que vous soumettez à la conversation. Mais pour afficher plus de détails sur les enregistrements, en utilisant les boutons **Détails** ou **Contextuel** sur une fiche, ils auront besoin d’accéder à [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Gestion de l’intégration Microsoft Teams](admin-teams-integration.md#minimum-requirements-1).
 
-## <a name="include-a-business-central-card-in-a-teams-conversation"></a>Inclure une fiche Business Central dans une conversation Teams
+## <a name="include-a-business-central-card-in-a-teams-conversation"></a>Inclure une fiche Business Central dans une conversation Teams
 
 1. Connectez-vous à [!INCLUDE [prod_short](includes/prod_short.md)] en utilisant votre navigateur.
 2. Ouvrez l’enregistrement que vous souhaitez partager.
@@ -49,13 +49,13 @@ L’application [!INCLUDE [prod_short](includes/prod_short.md)] vous permet de 
 
 3. Copiez l’URL entière de la barre d’adresse du navigateur.
 
-   ![Copier l’URL de Business Central à partir du navigateur](media/teams-url-v2.png)
+   ![Copiez l’URL de Business Central à partir du navigateur.](media/teams-url-v2.png)
 4. Accédez à Teams et démarrez une conversation, qui peut être une discussion avec une personne, un groupe de personnes ou un canal d’équipe.
 
     <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
 5. Collez l’URL dans la zone de message où vous composez un message.
 
-   ![Coller l’URL de Business Central dans Teams](media/teams-paste-url-v2.png)
+   ![Collez l’URL de Business Central dans Teams.](media/teams-paste-url-v2.png)
 6. La première fois que vous collez un lien dans une conversation, vous serez invité à vous connecter à [!INCLUDE [prod_short](includes/prod_short.md)] et à autoriser l’application à récupérer des données. Suivez simplement les instructions à l’écran.
 
     > [!NOTE]
@@ -87,9 +87,11 @@ Pour en savoir plus sur l’utilisation des fiches et des détails de fiche, con
 
 ## <a name="see-also"></a>Voir aussi
 
-[Vue d’ensemble de l’intégration de Business Central et Microsoft Teams](across-teams-overview.md)  
+[Vue d’ensemble de l’intégration de Business Central et Microsoft Teams](across-teams-overview.md)  
 [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)  
 [FAQ Teams](teams-faq.md)  
+[Recherche de clients, de fournisseurs et autres contacts dans Microsoft Teams](across-search-contacts-teams.md)  
+[Modification de la société et d’autres paramètres dans Teams](across-teams-settings.md)  
 [Résolution des incidents dans Teams](admin-teams-troubleshooting.md)  
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

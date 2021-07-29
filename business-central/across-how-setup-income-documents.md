@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fd35c0af4d2b66f99c0a4a3a65f77826cd9af806
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 313de95353fc42b222fa95cd36d320881a7fbdb8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775937"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442600"
 ---
 # <a name="set-up-incoming-documents"></a>Configurer des documents entrants
 
@@ -29,7 +29,7 @@ Une fois que la fonctionnalité Documents entrants est configurée, vous pouvez 
 
 ## <a name="to-set-up-the-incoming-documents-feature"></a>Configurer la fonctionnalité Documents entrants
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres des documents entrants**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration document entrant**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Dans le cadre de la configuration, vous devez décider si vous souhaitez exiger l’approbation des documents entrants. Pour demander une approbation, vous devez configurer des approbateurs et des flux de travail approbation. Si votre organisation n’a pas l’intention d’exiger l’approbation, vous pouvez ignorer la section suivante.  
@@ -44,7 +44,7 @@ Avant de pouvoir créer des workflows qui impliquent des étapes d’approbation
 
 ## <a name="to-set-up-an-ocr-service"></a>Configurer un service ROC
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres service OCR**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres services OCR**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  

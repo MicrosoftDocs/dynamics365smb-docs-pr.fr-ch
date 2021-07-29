@@ -1,6 +1,6 @@
 ---
 title: Gestion de l’intégration de Microsoft Teams avec Business Central | Microsoft Docs
-description: Gérez l’intégration Business Central avec Microsoft Teams.
+description: Gérez l’intégration Business Central avec Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882220"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443221"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Gestion de l’intégration de Microsoft Teams à [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -35,7 +35,7 @@ Cette section décrit la configuration minimale requise pour les fonctionnalité
 
     |Quoi|Licence Teams|Licence [!INCLUDE [prod_short](includes/prod_short.md)]|
     |----|---|---|
-    |Recherche de contacts [!INCLUDE [prod_short](includes/prod_short.md)].|![coche](media/check.png "coche")|![coche](media/check.png "coche")|
+    |Recherche de contacts [!INCLUDE [prod_short](includes/prod_short.md)].|![coche.](media/check.png "coche")|![coche](media/check.png "coche")|
     |Coller un lien vers un enregistrement [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation et l’envoyer sous forme de fiche.|![coche](media/check.png "coche")|![coche](media/check.png "coche")|
     |Afficher une fiche d’un enregistrement [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation.|![coche](media/check.png "coche")||
     |Afficher plus de détails d’une fiche pour un enregistrement [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation.|![coche](media/check.png "coche")|![coche](media/check.png "coche")|
@@ -69,7 +69,7 @@ Pour plus d’informations, consultez les articles suivants dans la documentatio
 
     Pour la plupart, la Recherche contact, les pages et les données que les utilisateurs peuvent afficher et modifier dans une conversation Teams sont contrôlées par leurs autorisations dans [!INCLUDE [prod_short](includes/prod_short.md)].
     
-    - Pour rechercher des contacts, les utilisateurs doivent disposer au moins d'une autorisation de lecture sur le tableau **Contacts**. 
+    - Pour rechercher des contacts, les utilisateurs doivent disposer au moins d’une autorisation de lecture sur le tableau **Contacts**. 
     - Pour coller un lien [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation Teams et le faire développer dans une fiche, les utilisateurs doivent avoir au moins une autorisation de lecture sur la page et ses données.
     - Une fois qu’une fiche est soumise à une conversation, tout utilisateur participant à cette conversation peut afficher cette fiche sans autorisation de [!INCLUDE [prod_short](includes/prod_short.md)].
     - Pour afficher plus de détails sur une fiche ou ouvrir l’enregistrement dans [!INCLUDE [prod_short](includes/prod_short.md)], les utilisateurs doivent avoir une autorisation de lecture sur la page et ses données.
@@ -102,7 +102,7 @@ Vous autorisez les membres de l’équipe et les propriétaires d’équipe à s
 
 Les fonctionnalités de recherche de contenu et de conformité à eDiscovery dans le centre de sécurité et de conformité Microsoft 365 peuvent également être appliquées aux fiches.
 
-Parce que les données de la fiche dans Teams sont une copie des données dans [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez aussi utiliser les fonctionnalités [!INCLUDE [prod_short](includes/prod_short.md)] pour exporter les données d’un client si demandé. Pour plus d’informations sur la confidentialité dans [!INCLUDE [prod_short](includes/prod_short.md)], voir [FAQ sur la confidentialité pour les clients Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
+Parce que les données de la fiche dans Teams sont une copie des données dans [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez aussi utiliser les fonctionnalités [!INCLUDE [prod_short](includes/prod_short.md)] pour exporter les données d’un client si demandé. Pour plus d’informations sur la confidentialité dans [!INCLUDE [prod_short](includes/prod_short.md)], voir [FAQ sur la confidentialité pour les clients Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
 ## <a name="see-also"></a>Voir aussi
 [Vue d’ensemble de l’intégration [!INCLUDE [prod_short](includes/prod_short.md)] et Microsoft Teams ](across-teams-overview.md)  

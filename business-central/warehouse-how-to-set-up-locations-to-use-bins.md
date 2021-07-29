@@ -1,6 +1,6 @@
 ---
-title: Comment configurer des magasins de sorte qu’ils utilisent des emplacements | Microsoft Docs
-description: Les emplacements représentent la structure d’entrepôt de base et sont utilisés pour faire des propositions relatives à l’emplacement des articles. Lorsque vous avez créé vos emplacements, vous pouvez définir précisément le contenu que vous souhaitez placer dans chacun d’entre eux, ou l’emplacement peut être utilisé en tant qu’emplacement dynamique sans contenu spécifié.
+title: Comment configurer des magasins de sorte qu’ils utilisent des emplacements
+description: Les emplacements représentent la structure d’entrepôt de base et sont utilisés pour faire des propositions relatives à l’emplacement des articles.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e04ec3be3385b86cfdfb42bffadcdd9730244efc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 29ee70ffa50b018073b8f44a66588df3d822b5cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771641"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442969"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Configurer des magasins de sorte qu’ils utilisent des emplacements
 Les emplacements représentent la structure d’entrepôt de base et sont utilisés pour faire des propositions relatives à l’emplacement des articles. Lorsque vous avez créé vos emplacements, vous pouvez définir précisément le contenu que vous souhaitez placer dans chacun d’entre eux, ou l’emplacement peut être utilisé en tant qu’emplacement dynamique sans contenu spécifié.  
@@ -26,7 +26,7 @@ Pour utiliser la fonctionnalité liée au magasin, vous devez d’abord l’acti
 >  Avant de pouvoir spécifier les codes emplacement sur la fiche magasin, il convient de les créer. Pour plus d’informations, voir [Créer emplacements](warehouse-how-to-create-individual-bins.md).  
 
 ## <a name="to-set-up-a-location-to-use-bins"></a>Pour configurer un magasin de sorte qu’il utilise des emplacements  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
 2.  Sélectionnez le magasin dans lequel vous souhaitez utiliser des emplacements.  
 3.  Choisissez l’action **Modifier**.  
 4.  Sur le raccourci **Entrepôt**, cochez la case **Emplacement obligatoire**.  
@@ -41,12 +41,12 @@ Pour utiliser la fonctionnalité liée au magasin, vous devez d’abord l’acti
 ## <a name="filling-the-consumption-bin"></a>Renseigner l’emplacement consommation
 Ce graphique indique comment le champ **Code emplacement** sur les lignes composant O.F. est renseigné en fonction de la configuration de votre emplacement.
 
-![Organigramme Flux d’emplacement](media/binflow.png "BinFlow")  
+![Organigramme Flux d’emplacement.](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [Stock](inventory-manage-inventory.md)  
-[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
+[Configuration de Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

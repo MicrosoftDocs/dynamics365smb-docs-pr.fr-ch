@@ -1,6 +1,6 @@
 ---
-title: Détails de conception - Modes évaluation | Microsoft Docs
-description: Cette rubrique décrit en quoi le mode évaluation du stock affecte la façon dont les valeurs réelles ou budgétées sont capitalisées et prises en compte dans le calcul des coûts.
+title: Détails de conception - Modes évaluation stock
+description: Cette rubrique décrit en quoi le mode évaluation du stock affecte la façon dont les valeurs réelles et budgétées sont capitalisées et prises en compte dans le calcul des coûts.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9f42e2ba8bf5f281be509bd58c5f88fa53ef7ba1
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: b3bfdbc2fb163d48edb6bf22eb79efa01b63090f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215393"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442450"
 ---
 # <a name="design-details-costing-methods"></a>Détails de conception : modes évaluation stock
 
@@ -36,7 +36,7 @@ Les méthodes suivantes sont prises en charge dans [!INCLUDE[prod_short](include
 
  L’image suivante montre la manière dont les coûts circulent dans le stock pour chaque mode d’évaluation du stock.  
 
- ![Modes évaluation stock](media/design_details_inventory_costing_7_costing_methods.png "Modes évaluation stock")  
+ ![Modes évaluation stock.](media/design_details_inventory_costing_7_costing_methods.png "Modes évaluation stock")  
 
  Les méthodes d’évaluation du stock diffèrent dans la façon d’évaluer les sorties de stock et d’utiliser le coût réel ou le coût standard comme base d’évaluation. Le tableau suivant explique les différentes caractéristiques. (La méthode LIFO est exclue, car elle est presque identique à la méthode FIFO).  
 

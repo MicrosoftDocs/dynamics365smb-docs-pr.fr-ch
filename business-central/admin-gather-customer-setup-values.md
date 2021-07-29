@@ -1,6 +1,6 @@
 ---
-title: Collecter les valeurs de configuration client | Microsoft Docs
-description: Vous pouvez utiliser le questionnaire de configuration pour réduire la charge de travail d’implémentation en rationalisant la tâche de configuration de la nouvelle société. Vous pouvez générer le questionnaire de configuration dans Business Central, puis le fournir à votre client sous forme de fichier Excel (.xlsx) ou XML.
+title: Collecter les valeurs de configuration client
+description: Le questionnaire de configuration permet de réduire la mise en œuvre en rationalisant la création de nouvelles entreprises et en proposant aux clients un fichier Excel ou XML.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: af8d2bb31b5f76912d69b123803243cfce1445bd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784012"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443908"
 ---
 # <a name="gather-customer-setup-values"></a>Collecter les valeurs de configuration client
 Vous pouvez utiliser le questionnaire de configuration pour réduire la charge de travail d’implémentation en rationalisant la tâche de configuration de la nouvelle société. Vous pouvez générer le questionnaire de configuration dans [!INCLUDE[prod_short](includes/prod_short.md)], puis le fournir à votre client sous forme de fichier Excel ou XML.  
@@ -50,9 +50,9 @@ Vous pouvez utiliser un questionnaire pour vous aider à déterminer la portée 
 -   Paramètres entrepôt  
 
 > [!NOTE]  
->  Pour afficher la liste complète des tables de configuration, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration**, puis sélectionnez le lien associé. Pour déterminer la portée de la migration des données d’enregistrements, utilisez la fonctionnalité de migration. Pour plus d’informations, voir [Migration des données client](admin-migrate-customer-data.md).  
+>  Pour voir une liste complète des tables de configuration, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configurer**, puis choisissez le lien associé. Pour déterminer la portée de la migration des données d’enregistrements, utilisez la fonctionnalité de migration. Pour plus d’informations, voir [Migration des données client](admin-migrate-customer-data.md).  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Questionnaire de configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.   
 3. Sur la page **Questionnaire configuration**, dans le champ **Code**, saisissez... 
 <!--4. In the **Name** field, enter...
@@ -98,7 +98,7 @@ Utilisez le questionnaire de configuration pour structurer et documenter une dis
 >  Vous pouvez également créer votre propre de questionnaire de configuration afin qu’il corresponde à vos besoins.  
 
 1. Ouvrez la société pour laquelle vous souhaitez remplir le questionnaire.
-2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé.  
+2. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Questionnaire de configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez le questionnaire pour la société, puis choisissez l’action **Exporter vers Excel**, ou éventuellement l’action **Exporter vers un fichier XML**.
 4. Demandez au client de remplir le questionnaire de configuration en saisissant les réponses dans le classeur Excel. Il existe des feuilles pour chacune des zones question qui ont été créées pour le questionnaire.   
 5. Enregistrez le classeur Excel sous *Données XML*. Sélectionnez l’action **Importer d’un fichier XML**, puis sélectionnez le fichier .xms avec les réponses du client.
@@ -131,7 +131,7 @@ Une fois la validation terminée, les données peuvent être appliquées à la b
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Pour appliquer des réponses à partir du questionnaire de configuration
 Après avoir importé et validé les informations à partir d’un questionnaire de configuration, vous pouvez transférer ou appliquer les données de configuration dans les tables correspondantes de la base de données [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé. La page **Questionnaire config.** s’ouvre.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Questionnaire de configuration**, puis sélectionnez le lien associé. La page **Questionnaire config.** s’ouvre.  
 2. Sélectionnez un questionnaire de configuration dans la liste, puis sélectionnez l’action **Modifier la liste**.  
 3. Vous pouvez appliquer les réponses de deux manières différentes.  
 

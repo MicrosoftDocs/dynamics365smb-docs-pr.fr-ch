@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4b9a131b890efe1612ec05d6810d5b661447b26f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e8ccd03e24c80e1cd7ac2fe39d272599af7f72fe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782674"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444170"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Déplacer les composants vers une zone opérations dans les configurations de stockage de base
 Si des opérations de traitement d’articles se produisent dans votre entrepôt, vous pouvez être amené à déplacer des articles entre différents emplacements internes pour satisfaire aux documents origine internes, tels que la production, l’assemblage ou les commandes service dans le magasin.  
@@ -47,7 +47,7 @@ Sinon, un magasinier peut le créer en pointant l’ordre d’assemblage lancé 
 Cette procédure explique comment créer un mouvement de stock à partir de la page **Mouvement de stock** en référençant un ordre d’assemblage lancé en tant que document origine. La procédure est la même lorsque vous déplacez les composants pour les ordres de fabrication et les commandes service.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Pour déplacer les composants vers une zone opérations dans les configurations de stockage de base  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Mouvement de stock**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Mouvement de stock**, puis choisissez le lien pertinent.  
 2.  Sur le raccourci **Général**, renseignez le champ **N°**. . Vous pouvez appuyer sur la touche Entrée pour effectuer une sélection parmi la souche de numéros.  
 3.  Dans le champ **Code magasin** , entrez le magasin où le mouvement a lieu.  
 4.  Choisissez l’action **Extraire documents origine**. Sinon, renseignez le champ **Document origine** , et cliquez ensuite sur le bouton **AssistEdit** dans le champ **N° origine** .  

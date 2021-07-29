@@ -1,6 +1,6 @@
 ---
-title: Détails de conception - Flux d’enlogement sortant | Microsoft Docs
-description: Le flux sortant dans l’entrepôt commence par une demande provenant des documents origine lancés pour amener les articles hors de l’entrepôt, pour les expédier soit à un tiers, soit à un autre magasin de la société. Depuis la zone de stockage, des activités entrepôt sont effectuées à différents niveaux de complexité pour sortir les articles pour les amener au quai d’expédition.
+title: 'Détails de conception : flux de désenlogement'
+description: Cette rubrique traite de la séquence du flux de désenlogement des documents source validés aux articles prêts à être expédiés.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7e748719454bfbdcbacd9cf53a535ed1e38147bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 985ef683426c2de2e917b3c3f8d860115d462d83
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777788"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442400"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Détails de conception : flux de désenlogement
 
@@ -54,7 +54,7 @@ En outre, les documents origine internes suivants existent qui fonctionnent comm
 
  Le schéma suivant présente les flux de désenlogement par type de document dans les configurations d’entrepôt de base. Les numéros dans le schéma correspondent aux étapes dans les sections suivant le schéma.  
 
- ![Flux sortant dans les configurations d’entrepôt de base](media/design_details_warehouse_management_outbound_basic_flow.png "Flux sortant dans les configurations d’entrepôt de base")  
+ ![Flux sortant dans les configurations d’entrepôt de base.](media/design_details_warehouse_management_outbound_basic_flow.png "Flux sortant dans les configurations d’entrepôt de base")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1 : Lancer le document origine / Créer un prélèvement stock ou un mouvement de stock
 
@@ -81,7 +81,7 @@ En outre, les documents origine internes suivants existent qui fonctionnent comm
 
  Le schéma suivant présente le flux de désenlogement par type de document dans les configurations d’entrepôt avancées. Les numéros dans le schéma correspondent aux étapes dans les sections suivant le schéma.  
 
- ![Flux sortant dans les configurations d’entrepôt avancées](media/design_details_warehouse_management_outbound_advanced_flow.png "Flux sortant dans les configurations d’entrepôt avancées")  
+ ![Flux sortant dans les configurations d’entrepôt avancées.](media/design_details_warehouse_management_outbound_advanced_flow.png "Flux sortant dans les configurations d’entrepôt avancées")  
 
 ### <a name="1-release-source-document"></a>1 : Lancer le document origine
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 184591134706432ed1ea04afa86e1274b748cfe0
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215518"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442550"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Détails de conception : disponibilité dans l’entrepôt
 Le système doit conserver un contrôle constant de la disponibilité des articles dans l’entrepôt, afin que les commandes sortantes puissent s’écouler efficacement et fournir des livraisons optimales.  
@@ -47,7 +47,7 @@ Si une ou plusieurs conditions ne sont pas remplies, différents messages d’er
 
  Le schéma suivant montre les différents éléments du calcul.  
 
- ![Disponible pour prélever avec chevauchement de réservation](media/design_details_warehouse_management_availability_2.png "Disponible pour prélever avec chevauchement de réservation")  
+ ![Disponible pour prélever avec chevauchement de réservation.](media/design_details_warehouse_management_availability_2.png "Disponible pour prélever avec chevauchement de réservation")  
 
 ## <a name="quantity-available-to-reserve"></a>Quantité disponible à réserver  
  Dans la mesure où les concepts de la valeur et de la réservation d’emplacement coexistent, le nombre d’articles disponibles pour réserver doit être aligné avec les affectations aux documents de désenlogement.  
@@ -72,10 +72,10 @@ Si une ou plusieurs conditions ne sont pas remplies, différents messages d’er
 
  Le schéma suivant montre les différents éléments du calcul.  
 
- ![Disponible pour réserver par ventilation entrepôt](media/design_details_warehouse_management_availability_3.png "Disponible pour réserver par ventilation entrepôt")  
+ ![Disponible pour réserver par ventilation entrepôt.](media/design_details_warehouse_management_availability_3.png "Disponible pour réserver par ventilation entrepôt")  
 
 ## <a name="see-also"></a>Voir aussi  
- [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
+ [Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
  [Voir la disponibilité des articles](inventory-how-availability-overview.md)
 
 

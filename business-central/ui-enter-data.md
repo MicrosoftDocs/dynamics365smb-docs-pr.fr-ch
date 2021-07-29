@@ -1,6 +1,6 @@
 ---
-title: Procédure de saisie de données dans Business Central | Microsoft Docs
-description: En savoir plus sur les fonctions générales qui vous permettent de saisir les données dans les champs.
+title: Procédure de saisie de données dans Business Central
+description: Plusieurs fonctions générales vous permettent de saisir vos données de manière plus facile, rapide et précise. Les principes de base et les fonctionnalités avancées sont décrits ici.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784830"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443683"
 ---
 # <a name="entering-data"></a>Saisie de données
 
@@ -57,7 +57,7 @@ Lorsque le curseur apparaît à la fin de la valeur du champ :
 - Utilisez les touches **Accueil**, **Fin**, **Flèche gauche** et **Flèche droite** pour déplacer le curseur dans la valeur. Si vous modifiez un champ dans une liste, appuyez à nouveau sur la touche **Flèche gauche** lorsque le curseur est au début de la valeur, le focus sera mis sur le champ précédent. De même, en appuyant à nouveau sur la touche **Flèche droite** lorsque le curseur est à la fin de la valeur, le focus sera placé sur le champ suivant.
 
 > [!NOTE]
-> Après avoir spécifié une valeur, Business Central vérifie uniquement sa validité après avoir cliqué en dehors du champ ou défini le focus sur un autre article, tel que le champ suivant.  
+> Après avoir spécifié une valeur, Business Central vérifie uniquement sa validité après avoir cliqué en dehors du champ ou défini le focus sur un autre article, tel que le champ suivant.  
 
 
 ## <a name="keyboard-shortcuts"></a>Raccourcis clavier
@@ -93,7 +93,7 @@ Vous trouverez ci-après les informations utiles concernant la fonction Saisie r
 
 Pour configurer la fonction Saisie rapide sur les champs, vous utilisez la personnalisation.
 
-1. Commencez la personnalisation en sélectionnant l’icône ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis sélectionnez l’action **Personnaliser**.
+1. Commencez la personnalisation en sélectionnant l’icône ![Paramètres.](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") puis l’action **Personnaliser**.
 2. Sélectionnez un champ que vous souhaitez modifier. Dans les listes, sélectionnez l’en-tête de colonne correspondant. Ensuite, choisissez **Inclure dans la saisie rapide** ou **Exclure de la saisie rapide**.
 
 Pour plus d’informations sur la personnalisation, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
@@ -136,9 +136,9 @@ Vous bénéficierez particulièrement lorsque vous travaillez avec de grandes li
 
 ### <a name="switching-the-focus-on-and-off"></a>Activation/Désactivation du focus
 
-Pour vous concentrer sur les articles de ligne, faites votre sélection n’importe où dans la partie des articles de ligne, puis sélectionnez ![icône mode Focalisation](media/focus-mode.png "Icône du mode Focalisation") dans l’angle supérieur droit ou appuyez sur Ctrl+Maj+F12.
+Pour vous concentrer sur les éléments de ligne, sélectionnez n’importe où dans la partie de l’élément de ligne, puis choisissez l’![icône du mode de focus.](media/focus-mode.png "Icône du mode Focalisation") dans le coin supérieur droit ou appuyez sur Ctrl+Maj+F12.
 
-Pour revenir à la vue normale, sélectionnez ![icône mode Focalisation](media/focus-mode.png "Icône du mode Focalisation") ou appuyez à nouveau sur Ctrl+Maj+F12.
+Pour revenir à la vue normale, choisissez ![l’icône du mode de focus.](media/focus-mode.png "Icône du mode Focalisation") ou appuyez à nouveau sur Ctrl+Maj+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitâche sur plusieurs pages
 
@@ -148,15 +148,15 @@ Vous pouvez ouvrir une page de carte ou de document dans une nouvelle fenêtre. 
 - Gérez les interruptions de la tâche en cours, comme prendre un appel entrant.
 - Gardez une fenêtre ouverte pour une tâche en cours pendant que vous démarrez ou terminez une autre tâche dans les fenêtres.
 
-Pour ouvrir la fiche ou le document en cours dans une nouvelle fenêtre, choisissez ![Ouvrir dans une nouvelle fenêtre](media/open-new-window-icon.png "Icône Ouvrir dans une nouvelle fenêtre") dans le coin supérieur droit, ou appuyez sur Alt+Maj+W.
+Pour ouvrir la carte ou le document actuel dans une nouvelle fenêtre, choisissez ![Ouvrir une nouvelle fenêtre.](media/open-new-window-icon.png "Icône Ouvrir dans une nouvelle fenêtre") dans le coin supérieur droit ou appuyez sur Alt+Maj+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Pour ouvrir la fiche ou le document en cours dans une nouvelle fenêtre, choisissez ![Ouvrir dans une nouvelle fenêtre](media/open-new-window-icon.png "Icône Ouvrir dans une nouvelle fenêtre") dans le coin supérieur droit, ou appuyez sur Alt+Maj+W.
+Pour ouvrir la carte ou le document actuel dans une nouvelle fenêtre, choisissez ![Ouvrir une nouvelle fenêtre.](media/open-new-window-icon.png "Icône Ouvrir dans une nouvelle fenêtre") dans le coin supérieur droit ou appuyez sur Alt+Maj+W.
 
 > [!NOTE]
-> Lorsque vous ouvrez d’autres pages d’une fiche ou d’un document ouvert dans une nouvelle fenêtre, ces pages s’ouvrent dans une nouvelle fenêtre même si vous ne choisissez pas ![Ouvrir dans une nouvelle fenêtre](media/open-new-window-icon.png "Icône Ouvrir dans une nouvelle fenêtre").
+> Lorsque vous ouvrez d’autres pages d’une fiche ou d’un document ouvert dans une nouvelle fenêtre, ces pages s’ouvrent dans une nouvelle fenêtre même si vous ne choisissez pas ![Ouvrir dans une nouvelle fenêtre.](media/open-new-window-icon.png "Icône Ouvrir dans une nouvelle fenêtre").
 
 > [!NOTE]
 > Si vous travaillez dans le navigateur Safari, un bloqueur de fenêtres publicitaires intempestives peut empêcher la nouvelle fenêtre de s’ouvrir. Si tel est le cas, spécifiez l’URL du produit en tant que site Web autorisé. Pour plus d’informations, voir [Modifier les préférences dans Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />

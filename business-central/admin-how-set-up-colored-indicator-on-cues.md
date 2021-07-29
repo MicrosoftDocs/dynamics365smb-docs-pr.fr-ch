@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 50e1de8b0e0e1ca5a1890317abe6379e5a71b688
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7390fd047080fe5282cc949ec81e58ccb5f2e9cf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783937"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443883"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Configurer un indicateur coloré sur les piles pour la société ou les utilisateurs individuelles
 En tant qu’administrateur, vous pouvez définir des piles apparaissant sur les Tableaux de bord des utilisateurs comprenant un indicateur qui modifie la couleur en fonction des valeurs de données dans les piles.  
@@ -27,7 +27,7 @@ Sur la page **Paramètres pile**, vous configurez des indicateurs pour toutes le
 Pour configurer l’indicateur, vous pouvez spécifier jusqu’à deux valeurs de seuil qui définissent trois plages de valeurs de données (basse, moyenne et haute) à laquelle vous pouvez appliquer une couleur différente (ou un style différent).  
 
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Pour paramétrer des indicateurs colorés sur des piles  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres pile**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres pile**, puis choisissez le lien associé.  
 
      La page **Paramètres pile** s’affiche. La page liste les indicateurs actuellement paramétrés sur des piles. Les indicateurs qui s’appliquent à tous les utilisateurs de la société ont le champ **Nom d’utilisateur** vide. Les indicateurs s’appliquant à un utilisateur spécifique incluent le nom d’utilisateur dans le champ **Nom d’utilisateur**.  
 

@@ -1,6 +1,6 @@
 ---
-title: Modifier les paramètres de base pour l'utilisateur actuel
-description: Découvrez comment modifier certains paramètres de base, par exemple, votre tableau de bord, la société ou la date de travail.
+title: Modifier les paramètres de base pour l’utilisateur actuel
+description: Découvrez comment modifier certains paramètres de base dans Business Central, par exemple, votre rôle et votre centre de rôles, votre entreprise, votre date de travail et vos fuseaux horaires.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a0a504aa7c06c08d2e9f4251128e4203f0f90dee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787467"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443783"
 ---
 # <a name="change-basic-settings"></a>Modifier les paramètres de base
 
@@ -23,17 +23,17 @@ Sur la page **Mes paramètres**, vous pouvez afficher et modifier les paramètre
 
 ## <a name="role"></a><a name="role-center"></a>Rôle
 
-Le rôle détermine la page d’accueil, un écran de démarrage conçu pour les exigences d’un rôle spécifique dans une organisation. Selon votre rôle, la page d'accueil ou le tableau de bord donne une vue d’ensemble de l’entreprise, de votre département ou de vos tâches personnelles. Il vous permet également d’accéder à vos tâches quotidiennes et de rechercher les tâches qui vous sont affectées.
+Le rôle détermine la page d’accueil, un écran de démarrage conçu pour les exigences d’un rôle spécifique dans une organisation. Selon votre rôle, la page d’accueil ou le tableau de bord donne une vue d’ensemble de l’entreprise, de votre département ou de vos tâches personnelles. Il vous permet également d’accéder à vos tâches quotidiennes et de rechercher les tâches qui vous sont affectées.
 
-* En haut, la navigation vous permet de permuter entre les clients, les fournisseurs, les articles et d’autres listes d’informations importantes. De même, les actions vous permettent de lancer des tâches, comme la création d’une facture vente, directement à partir de la page d'accueil.
+* En haut, la navigation vous permet de permuter entre les clients, les fournisseurs, les articles et d’autres listes d’informations importantes. De même, les actions vous permettent de lancer des tâches, comme la création d’une facture vente, directement à partir de la page d’accueil.
 
-* Le tableau de bord contient une zone **Activités** qui affiche les données actuelles, vous pouvez cliquer ou appuyer dessus pour afficher des informations plus détaillées. Les indicateurs de performance clés peuvent être configurés afin d’afficher un graphique sélectionné pour une représentation visuelle, par exemple, de la trésorerie ou des revenus et des dépenses. Vous pouvez également générer la liste des clients favoris sur la page d'accueil pour les comptes d'entreprise avec lesquels vous travaillez souvent ou auxquels vous devez accorder une attention particulière.
+* Le tableau de bord contient une zone **Activités** qui affiche les données actuelles, vous pouvez cliquer ou appuyer dessus pour afficher des informations plus détaillées. Les indicateurs de performance clés peuvent être configurés afin d’afficher un graphique sélectionné pour une représentation visuelle, par exemple, de la trésorerie ou des revenus et des dépenses. Vous pouvez également générer la liste des clients favoris sur la page d’accueil pour les comptes d’entreprise avec lesquels vous travaillez souvent ou auxquels vous devez accorder une attention particulière.
 
 ### <a name="to-change-the-role"></a>Pour modifier le rôle
 
 Le rôle par défaut est **Gestionnaire d’activité**, mais vous pouvez sélectionner un autre rôle pour utiliser un Tableau de bord qui correspond mieux à vos besoins.  
 
-1. Dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez l’action **Mes paramètres**.
+1. Dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres.](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez l’action **Mes paramètres**.
 2. Sur la page **Mes paramètres**, dans le champ **Rôle** , sélectionnez le rôle que vous souhaitez utiliser par défaut. Par exemple, sélectionnez **Comptable**.
 3. Cliquez sur le bouton **OK**.
 
@@ -47,7 +47,7 @@ La société par défaut est appelée CRONUS et contient uniquement des données
 
 Le nom de la société est toujours affiché dans le coin supérieur gauche et fonctionne comme une action que vous pouvez choisir pour revenir dans le Tableau de bord. Vous pouvez changer ce nom sur la page **Informations société**.
 
-1. Choisissez simplement l’icône ![Pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), puis l’action **Informations société**.
+1. Choisissez l’icône ![Pignon pour ouvrir le menu Paramètres.](media/ui-experience/settings_icon_small.png) puis choisissez l’action **Informations société**.
 2. Dans le champ **Nom**, saisissez le nom de la nouvelle société.
 3. Quittez la page. Le système redémarre et affiche la nouvelle société dans le coin supérieur gauche.
 
@@ -55,7 +55,7 @@ Le nom de la société est toujours affiché dans le coin supérieur gauche et f
 
 Vous pouvez ajouter un badge personnalisé dans le coin supérieur droit, vous pouvez ensuite choisir d’afficher rapidement le nom de la société et les informations sur l’abonné dans une fenêtre contextuelle. Le badge société est également utile lorsque [!INCLUDE[prod_short](includes/prod_short.md)] est intégré dans une autre application, comme Microsoft Teams ou dans une autre application Web. Dans ces cas, parce que le [!INCLUDE[web_client](includes/web_client.md)] affiche moins d’informations contextuelles adjacentes, le badge société est le seul moyen de déterminer à quelle société ou environnement appartient un enregistrement.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Informations société**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Informations société**, puis choisissez le lien associé.
 2. Sur le raccourci **Badge société**, renseignez les champs, le cas échéant. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
@@ -94,7 +94,7 @@ Des langues supplémentaires pour [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## <a name="time-zone"></a>Fuseau horaire
 
-Définit le fuseau horaire dans lequel vous vous trouvez. Lorsque vous vous connectez pour la première fois à [!INCLUDE [prod_short](includes/prod_short.md)], le fuseau horaire est défini en fonction de l'adresse de votre entreprise. Modifiez-le s'il ne correspond pas à votre emplacement physique.  
+Définit le fuseau horaire dans lequel vous vous trouvez. Lorsque vous vous connectez pour la première fois à [!INCLUDE [prod_short](includes/prod_short.md)], le fuseau horaire est défini en fonction de l’adresse de votre entreprise. Modifiez-le s’il ne correspond pas à votre emplacement physique.  
 
 ## <a name="notifications"></a>Notifications
 

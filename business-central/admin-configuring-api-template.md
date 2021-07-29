@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 7d39262993a173fec1eae68bcb44a85332a9866a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fef3b56de7724745dcf8385c0e4665e3e2d4743d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773119"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444008"
 ---
 # <a name="configuring-api-templates"></a>Configuration des modèles d’API
 La bibliothèque d’API de [!INCLUDE[prod_short_md](includes/prod_short.md)] fournit une représentation simplifiée des entités sous-jacentes. Toutes les propriétés de l’application ne sont pas exposées via l’API associée. La page **Paramètres API** permet de définir des modèles qui sont utilisés pour remplir les propriétés vides d’une entité lorsque vous créez une action POST via l’API. 
@@ -31,7 +31,7 @@ Pour utiliser les modèles avec la bibliothèque d’API, vous devez d’abord c
 
 Pour affecter un modèle à une API, vous devez effectuer les actions suivantes.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration API**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration API**, puis choisissez le lien associé.
 2. Choisissez **Nouveau**, puis la valeur **Ordre** pour l’enregistrement.  
 Si plusieurs modèles sont sélectionnés pour une API (ID page), les modèles sont appliqués dans l’ordre défini dans la colonne **Ordre**.   
 Lorsque chaque modèle est appliqué, les valeurs de champ définies dans le modèle sont uniquement appliquées aux champs sans valeur déjà définie, soit explicitement dans l’API ou dans un modèle précédemment appliqué dans l’ordre. 
