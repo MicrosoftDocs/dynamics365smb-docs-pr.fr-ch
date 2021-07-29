@@ -1,6 +1,6 @@
 ---
-title: Modification de la société et d'autres paramètres dans Teams
-description: Découvrez comment modifier les paramètres de connexion Business Central à partir de Microsoft Teams.
+title: Modification de la société et d’autres paramètres dans Teams
+description: Découvrez comment modifier les paramètres de connexion Business Central à partir de Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,33 +10,35 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 98a8f91aa3c6b8c9b2c9348441ca369f34f73b88
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 195d94af6e34206c6107690b0fef499ccc8b2490
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882520"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446455"
 ---
-# <a name="changing-company-and-other-settings-in-teams"></a>Modification de la société et d'autres paramètres dans Teams
+# <a name="changing-company-and-other-settings-in-teams"></a>Modification de la société et d’autres paramètres dans Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-L'application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams comprend une page **Paramètres** qui vous permet d'afficher et de modifier les informations relatives à votre connexion à [!INCLUDE [prod_short](includes/prod_short.md)]. Par exemple, vous changez l'environnement [!INCLUDE [prod_short](includes/prod_short.md)] et l'entreprise auxquels vous êtes connecté. Vous pouvez également voir quel compte vous utilisez pour accéder [!INCLUDE [prod_short](includes/prod_short.md)], et déconnectez-vous et reconnectez-vous si nécessaire.
+L’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams comprend une page **Paramètres** qui vous permet d’afficher et de modifier les informations relatives à votre connexion à [!INCLUDE [prod_short](includes/prod_short.md)]. Par exemple, vous changez l’environnement [!INCLUDE [prod_short](includes/prod_short.md)] et l’entreprise auxquels vous êtes connecté. Vous pouvez également voir quel compte vous utilisez pour accéder [!INCLUDE [prod_short](includes/prod_short.md)], et déconnectez-vous et reconnectez-vous si nécessaire.
 
-Il existe deux façons d'ouvrir la page **Paramètres** : 1) à partir de la boîte de rédaction du message ou 2) à partir de la boîte de commande.
+Il existe deux façons d’ouvrir la page **Paramètres** : 1) à partir de la boîte de rédaction du message ou 2) à partir de la boîte de commande.
 
-1. Sous la zone de rédaction du message, cliquez avec le bouton droit de la souris sur l'icône de l'application [!INCLUDE [prod_short](includes/prod_short.md)], puis sélectionnez **Paramètres**.
+1. Sous la zone de rédaction du message, cliquez avec le bouton droit de la souris sur l’icône de l’application [!INCLUDE [prod_short](includes/prod_short.md)], puis sélectionnez **Paramètres**.
 
-    ![Paramètres de Business Central à partir de la boîte de commande](media/teams-settings-message-box.png)
+    ![Paramètres de Business Central à partir de la boîte de commande.](media/teams-settings-message-box.png)
 
-2. Dans la zone de commande en haut, recherchez **@Business Central**, sélectionnez **... (Plus d'options)**, puis sélectionnez **Paramètres**.
+2. Dans la zone de commande en haut, recherchez **@Business Central**, sélectionnez **... (Plus d’options)**, puis sélectionnez **Paramètres**.
 
-   ![Paramètres de Business Central à partir de la zone de message](media/teams-settings-command-box.png)
+   ![Paramètres de Business Central à partir de la zone de message.](media/teams-settings-command-box.png)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Vue d’ensemble de l’intégration de Business Central et Microsoft Teams](across-teams-overview.md)  
+[Vue d’ensemble de l’intégration de Business Central et Microsoft Teams](across-teams-overview.md)  
 [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)  
+[Recherche de clients, de fournisseurs et autres contacts dans Microsoft Teams](across-search-contacts-teams.md)  
+[Partager des enregistrements dans Microsoft Teams](across-working-with-teams.md)  
 [FAQ Teams](teams-faq.md)  
 [Résolution des incidents dans Teams](admin-teams-troubleshooting.md)  
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  

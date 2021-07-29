@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6a5d435243b6912ddac449fd55aa4c2bce3f291
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783421"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445937"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Passer à une autre entreprise ou un autre environnement
 
@@ -23,7 +23,7 @@ ms.locfileid: "5783421"
 
 ## <a name="switch-to-another-environment"></a>Passer à un autre environnement
 
-Lorsque vous êtes connecté à [!INCLUDE[prod_short](includes/prod_short.md)], les environnements auxquels vous pouvez accéder sont disponibles sur la page d’accueil de Dynamics 365. Vous pouvez ouvrir la page en choisissant l’icône **Lanceur d’applications** ![Lanceur d’applications](media/app-launcher-icon.png "Le lanceur d’applications donne accès à plus de fonctionnalités") et en choisissant **Dynamics 365**. Pour accéder à votre société par défaut dans cet environnement, choisissez la vignette. Il y aura une vignette pour chaque type d’environnement. Si vous disposez de plusieurs environnements d’un certain type, lorsque vous choisissez la vignette, vous pouvez choisir l’environnement auquel accéder.
+Lorsque vous êtes connecté à [!INCLUDE[prod_short](includes/prod_short.md)], les environnements auxquels vous pouvez accéder sont disponibles sur la page d’accueil de Dynamics 365. Vous pouvez ouvrir la page en choisissant l’icône **Lanceur d’applications** ![Lanceur d’applications.](media/app-launcher-icon.png "Le lanceur d’applications donne accès à plus de fonctionnalités") et en choisissant **Dynamics 365**. Pour accéder à votre société par défaut dans cet environnement, choisissez la vignette. Il y aura une vignette pour chaque type d’environnement. Si vous disposez de plusieurs environnements d’un certain type, lorsque vous choisissez la vignette, vous pouvez choisir l’environnement auquel accéder.
 
 L’image suivante montre des vignettes pour accéder aux environnements de production et sandbox sur la page d’accueil de Dynamics 365.
 
@@ -33,7 +33,7 @@ L’image suivante montre des vignettes pour accéder aux environnements de prod
 
 Lorsque vous êtes connecté à [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez rapidement passer à une autre société. Après avoir effectué le changement, la société que vous choisissez devient votre société par défaut et s’affichera la prochaine fois que vous vous connecterez.
 
-1. Dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez l’action **Mes paramètres**.
+1. Dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres.](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez l’action **Mes paramètres**.
 
     > [!TIP]
     > Vous pouvez également utiliser le raccourci clavier Alt + T pour ouvrir rapidement la page Mes paramètres.
@@ -46,7 +46,7 @@ Lorsque vous êtes connecté à [!INCLUDE[prod_short](includes/prod_short.md)], 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Centre d’administration Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
+[Centre d’administration Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 
 

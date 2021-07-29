@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cb6ba334d4584d6e3ead25606a612686258eae9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ba9b99a7c205106b77386f297a361067b2227cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776831"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446087"
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Paramétrer les statuts des commandes service et des réparations
 
@@ -29,7 +29,7 @@ Avant de pouvoir configurer un statut de réparation, vous devez définir des pr
 
 ## <a name="to-set-up-service-status-priorities"></a>Pour configurer les priorités statut service
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Statut commande service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Statut commande service**, puis choisissez le lien associé.  
 2. Sélectionnez le statut commande service pour lequel vous voulez configurer une priorité.  
 3. Dans le champ **Priorité**, choisissez la priorité souhaitée pour ce statut commande service.  
 
@@ -37,7 +37,7 @@ Répétez les étapes 2 et 3 pour configurer la priorité des quatre options s
 
 ## <a name="to-set-up-a-repair-status"></a>Pour configurer le statut réparation
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Statut réparation**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **État réparation**, puis choisissez le lien associé.
 2. Créez un état réparation.  
 3. Renseignez les champs **Code** et **Désignation**.  
 4. Dans le champ **Statut commande service**, choisissez le statut de la commande auquel lier l’état de réparation. Le champ **Priorité** affiche la priorité du statut commande service que vous avez choisie.  

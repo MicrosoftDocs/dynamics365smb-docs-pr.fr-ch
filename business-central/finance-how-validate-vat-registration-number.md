@@ -1,19 +1,19 @@
 ---
 title: Valider des numéros d’identification intracommunautaire
-description: Laissez Business Central valider les numéros d’identification intra-communautaire et d’autres informations sur la société pour vos contacts, clients et fournisseurs, sur la base du service de validation du numéro d’identification intra-communautaire de l’Union européenne.
+description: Laissez Business Central valider les numéros d’identification intra-communautaire et d’autres informations sur la société pour vos contacts, clients et fournisseurs, sur la base du service de validation du numéro d’identification intra-communautaire de l’Union européenne.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 9e7c60e884ad65e209a2513d63c9434a90d9b449
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 093fec7b7d456f4145e8450d06f17f1aa78ad4c1
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770306"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543237"
 ---
 # <a name="validate-vat-registration-numbers"></a>Valider des numéros d’identification intracommunautaire
 
@@ -43,8 +43,6 @@ Voici quelques points à noter concernant le service VIES de validation de numé
 > Il vous incombe de vérifier la validité des données. Parfois, des données comportant des erreurs sont renvoyées par le service VIES de validation des numéros de TVA. Si la validation échoue, validez les numéros d’identification TVA sur le [site web](https://ec.europa.eu/taxation_customs/vies/), imprimez le résultat ou enregistrez-le dans un emplacement partagé, puis ajoutez le lien vers l’enregistrement de votre client, fournisseur ou contact. Pour plus d’informations, voir [Gérer les pièces jointes, les liens et les notes sur les fiches et les documents](ui-how-add-link-to-record.md).
 
 ## <a name="validation-templates"></a>Modèles de validation
-
-[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
 
 Vous pouvez utiliser le service VIES pour vérifier également d’autres informations société, telles que l’adresse, ainsi que le numéro d’identification intra-communautaire. Dans la page **Modèles Validation n° identif. intracomm.**, créez une entrée pour chaque pays pour lequel vous souhaitez obtenir une validation supplémentaire, puis spécifiez les informations que vous souhaitez faire valider automatiquement.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3822566d239d6fda0cc314a3c9f20ac909943886
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 74c984d1abdd78f4d8af1364b3c8d285297a1cdd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115855"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445516"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Enregistrer les achats avec les factures achat
 
@@ -49,7 +49,7 @@ Vous pouvez remplir les champs relatifs au fournisseur sur la facture achat de d
 
 Ce qui suit décrit comment créer une facture achat. La procédure est identique pour une commande achat. La principale différence est que les commandes achat ont des champs et des actions supplémentaires pour la manutention des articles.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures achat**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.  
 2. Dans le champ **Fournisseur**, entrez le nom d’un fournisseur existant.
 
     D’autres champs de la page **Facture achat** sont désormais renseignés avec les informations standard sur le fournisseur sélectionné. Si le fournisseur n’est pas enregistré, procédez comme suit :

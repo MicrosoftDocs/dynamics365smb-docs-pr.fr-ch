@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de l’intégration de Business Central et Microsoft Teams | Microsoft Docs
-description: Partagez des enregistrements Business Central directement dans une conversation Teams.
+description: Partagez des enregistrements Business Central directement dans une conversation Teams.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074702"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446480"
 ---
-# <a name="business-central-and-microsoft-teams-integration"></a>Intégration de Business Central et Microsoft Teams
+# <a name="business-central-and-microsoft-teams-integration"></a>Intégration de Business Central et Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,25 +27,25 @@ L’application est disponible sur le marché Teams et vous pouvez l’utiliser 
 
 ## <a name="features-overview"></a>Aperçu des fonctionnalités
 
-L'application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams offre les fonctionnalités suivantes.
+L’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams offre les fonctionnalités suivantes.
 
 ### <a name="look-up-details-of-customers-vendors-and-other-contacts"></a>Rechercher les détails des clients, fournisseurs et autres contacts
 
-Où que vous soyez dans Teams, vous pouvez rechercher des détails sur les clients, les fournisseurs et autres contacts [!INCLUDE [prod_short](includes/prod_short.md)]. Cette fonctionnalité vous permet non seulement d'afficher des informations générales sur les contacts, mais donne également accès à l'historique des interactions, aux documents associés, etc.
+Où que vous soyez dans Teams, vous pouvez rechercher des détails sur les clients, les fournisseurs et autres contacts [!INCLUDE [prod_short](includes/prod_short.md)]. Cette fonctionnalité vous permet non seulement d’afficher des informations générales sur les contacts, mais donne également accès à l’historique des interactions, aux documents associés, etc.
 
- [![Rechercher des contacts Business Central à partir de la boîte de commande Teams](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Rechercher des contacts Business Central à partir de la boîte de commande Teams.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 Vous pouvez également partager des détails de contact dans une conversation. De là, les participants ont également accès à encore plus de détails sur le contact.
 
- [![Rechercher des contacts Business Central à partir de la boîte de composition Teams](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Rechercher des contacts Business Central à partir de la boîte de composition Teams.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 Pour plus d’informations, reportez-vous à la [Recherche de doublons de contact dans Microsoft Teams](across-search-contacts-teams.md).
 
 ### <a name="share-records-in-conversations"></a>Partager des enregistrements dans les conversations
 
-Copier un lien vers n’importe quel enregistrement Business Central et le coller dans une conversation Teams à partager avec vos collègues. L’application étendra le lien dans une carte interactive compacte qui affiche des informations sur l’enregistrement.
+Copier un lien vers n’importe quel enregistrement Business Central et le coller dans une conversation Teams à partager avec vos collègues. L’application étendra le lien dans une carte interactive compacte qui affiche des informations sur l’enregistrement.
 
-[![Intégration Teams avec Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Intégration Teams avec Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 Une fois dans la conversation, vous et vos collègues pouvez afficher plus de détails sur l’enregistrement, modifier les données et prendre des mesures, sans quitter Teams.
 
@@ -53,14 +53,14 @@ Pour plus d’informations, consultez [Partager des enregistrements dans Microso
 
 ## <a name="get-started"></a>Démarrer
 
-1. Un compte d'utilisateur [!INCLUDE [prod_short](includes/prod_short.md)] Online est requis pour l'application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams.
+1. Un compte d’utilisateur [!INCLUDE [prod_short](includes/prod_short.md)] Online est requis pour l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams.
 
     Si vous n’êtes pas certain de disposer d’un compte ou si vous ne connaissez pas vos informations d’identification pour vous connecter, contactez l’administrateur de votre société pour vous aider à commencer.
 
     > [!TIP]
-    > Si votre organisation n'a pas d'abonnement [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez vous inscrire pour un essai gratuit. Pour plus d’informations, voir [Mise en route avec une version d'essai](across-preview.md#getting-started-with-a-trial).
+    > Si votre organisation n’a pas d’abonnement [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez vous inscrire pour un essai gratuit. Pour plus d’informations, voir [Mise en route avec une version d’essai](across-preview.md#getting-started-with-a-trial).
 
-2. En tant qu’administrateur, consultez [Gestion de l’intégration de Microsoft Teams avec Business Central](admin-teams-integration.md) pour obtenir des informations sur la manière dont les utilisateurs peuvent travailler avec [!INCLUDE [prod_short](includes/prod_short.md)] et Teams.
+2. En tant qu’administrateur, consultez [Gestion de l’intégration de Microsoft Teams avec Business Central](admin-teams-integration.md) pour obtenir des informations sur la manière dont les utilisateurs peuvent travailler avec [!INCLUDE [prod_short](includes/prod_short.md)] et Teams.
 3. Installer une application [!INCLUDE [prod_short](includes/prod_short.md)] dans Teams. Voir [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md).
 4. Une fois l’application installée, vous êtes prêt à partir. Consultez [Recherche de clients, de fournisseurs et d’autres contacts dans Microsoft Teams](across-search-contacts-teams.md) ou [Partager des enregistrements dans Microsoft Teams](across-working-with-teams.md). 
 
@@ -68,6 +68,7 @@ Pour plus d’informations, consultez [Partager des enregistrements dans Microso
 
 [FAQ Teams](teams-faq.md)  
 [Résolution des incidents dans Teams](admin-teams-troubleshooting.md)  
+[Modification de la société et d’autres paramètres dans Teams](across-teams-settings.md)  
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08a2443f94efbc9920145109b4b7499a3a4e05b3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 36d841a7231794e1cfb61a928efbbf3f83bbdc27
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783637"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446280"
 ---
 # <a name="set-up-finance-charge-terms"></a>Configurer les conditions intérêts de retard
 
@@ -41,7 +41,7 @@ En outre, chaque condition de la table Conditions intérêts de retard est lié 
 
 ### <a name="to-set-up-finance-charge-terms"></a>Pour configurer des conditions intérêts de retard
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Conditions intérêts de retard**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions intérêts de retard**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 3. Pour utiliser plusieurs combinaisons de conditions intérêts de retard, créez un code pour chacun d’eux.
 

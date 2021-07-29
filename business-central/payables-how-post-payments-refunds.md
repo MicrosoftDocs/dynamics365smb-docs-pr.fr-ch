@@ -1,21 +1,21 @@
 ---
-title: Lettrer des paiements à des documents connexes et les valider| Microsoft Docs
-description: Décrit comment enregistrer les paiements effectués aux fournisseurs et les remboursements effectués aux clients.
+title: Enregistrer les paiements et remboursements dans la feuille paiement
+description: Découvrez comment enregistrer les paiements effectués aux fournisseurs et les remboursements effectués aux clients sur la page Feuille paiement.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/01/2021
+ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
+ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: 1316bb7c5f1385ffef2ebe330d02e5a352e8561a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 61a47f68de6466c177ab8683f4167a77ec04dc3f
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782078"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543212"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Enregistrer les paiements et remboursements dans la feuille paiement
 
@@ -37,16 +37,31 @@ La feuille paiement est une feuille comptabilité qui est optimisée pour effect
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Pour effectuer des paiements dans la feuille paiement
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles paiement**, puis choisissez le lien associé.
 2. Ouvrez la feuille dédiée aux paiements.
-3. Si vous savez qui payer ou rembourser, renseignez les champs manuellement. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Si vous savez qui payer, renseignez les champs manuellement. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Pour lettrer également le paiement à la facture ou l’avoir associé, sélectionnez le champ **N° doc. lettrage**, sur la page **Lettrer écritures fournisseur**, sélectionnez la facture ou l’avoir approprié, puis cliquez sur le bouton **OK**.
 
     De nombreux champs, tels que **Montant du document** et **Date d’échéance**, sont maintenant renseignés avec les informations du document sélectionné.
 5. Sinon, utilisez la fonction **Proposer paiements fournisseur**. Tous les montants et informations de lettrage sont également saisis sur les lignes feuille. Pour plus d’informations, reportez vous à [Proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md).
 
     Les messages vous aident à renseigner correctement les champs obligatoires.
-6.  Lorsque toutes les lignes feuille paiement sont renseignées, cliquez sur **Valider**.
+6. Lorsque toutes les lignes feuille paiement sont renseignées, cliquez sur **Valider**.
+
+
+## <a name="to-issue-a-refund-check"></a>Pour émettre un chèque de remboursement
+
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement**, puis sélectionnez le lien associé.
+2. Dans le champ **Type document**, sélectionnez **Remboursement**.  
+3. Dans le champ **N° de document externe**, utilisez-le comme référence pour le chèque de remboursement (par exemple, numéro de commande de retour).  
+4. Dans le champ **Type compte**, sélectionnez **Client**.  
+5. Dans le champ **N° de compte**, sélectionnez le numéro de compte du client auquel le chèque de remboursement est émis.  
+6. Dans le champ **Montant**, entrez le total à rembourser.  
+7. Dans le champ **Type compte contrepartie**, sélectionnez **Compte bancaire**.  
+8. Dans le champ **N° compte contrepartie**, sélectionnez le compte bancaire duquel le chèque sera prélevé.  
+9. Dans le champ **N° doc. lettrage**, sélectionnez les documents nécessitant un remboursement.  
+10. Lorsque toutes les lignes du journal des paiements sont remplies, choisissez l’action **Valider/Imprimer**, puis choisissez l’action **Valider et imprimer** et sélectionnez **Oui**.  
+  
 
 ## <a name="see-also"></a>Voir aussi
 [Effectuer des paiements par chèque](payables-how-work-checks.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: 349dd312ae709c29138555ba6e8554a4f5e18122
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087734"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445491"
 ---
 # <a name="working-with-general-journals"></a>Utilisation de feuilles comptabilité
 
@@ -152,7 +152,7 @@ Lorsque vous créez des lignes feuille dont vous savez que vous risquez de les r
 >   la procédure suivante traite de la feuille article mais concerne également la feuille comptabilité.
 
 ### <a name="to-save-a-standard-journal"></a>Pour enregistrer une feuille standard
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles article**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles article**, puis choisissez le lien associé.
 2. Entrez le code sur une ou plusieurs lignes feuille.
 3. Sélectionnez les lignes feuille à réutiliser.
 4. Choisissez l’action **Enregistrer en tant que feuille standard**.
@@ -168,7 +168,7 @@ Une fois l’enregistrement de la feuille article standard effectué, la page Fe
 
 ### <a name="to-reuse-a-standard-journal"></a>Pour réutiliser une feuille standard
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles article**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles article**, puis choisissez le lien associé.
 2. Choisissez l’action **Obtenir les feuilles standard**.
 
     La page Feuilles article standard qui s’ouvre alors contient des codes et des descriptions de toutes les feuilles article standard existantes.
@@ -205,7 +205,7 @@ Toute renumérotation des numéros de document respectera les lettrages associé
 
 La procédure suivante est basée sur la page **Feuille comptabilité**, mais s’applique à toutes les autres feuilles qui sont basées sur la feuille comptabilité, tel que la page **Feuille paiement**.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles comptabilité**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles comptabilité**, puis choisissez le lien associé.
 2. Lorsque vous êtes prêt à valider la feuille, choisissez l’action **Renuméroter les numéros de document**.
 
 Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, pour que le numéro de document sur les lignes feuille individuelles ou groupées soit dans un ordre séquentiel. Une fois que les documents sont renumérotés, vous pouvez procéder à la validation de la feuille.

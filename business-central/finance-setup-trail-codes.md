@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6c20c57f05d17b0b52fcc1d4c9b1234cf03c6e97
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb3db7a2fc2c156debd36942ecc61d35d1e38f82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773854"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446230"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Configuration des codes source et des codes de motif pour les pistes d’audit
 
@@ -33,7 +33,7 @@ Lorsque vous validez ou exécutez un traitement par lots, le bon code journal es
 
 ### <a name="to-define-source-codes"></a>Pour définir des codes journaux
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Paramètres codes journaux**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") saisissez **Paramètres codes journaux**, puis choisissez le lien associé.  
 
 2. Dans la fenêtre **Paramètres codes journaux**, pour chaque type de validation et travail par lots, spécifiez le code source approprié.  
 
@@ -45,7 +45,7 @@ Vous pouvez modifier un code journal. Par exemple, vous pouvez remplacer le code
 
 ### <a name="to-change-source-codes"></a>Pour modifier des codes journaux
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Codes journaux**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") entrez **Codes journal.**, puis choisissez le lien associé.
 
 2. Sur la ligne du code à modifier, sélectionnez le code dans le champ **Code**.
 
@@ -59,7 +59,7 @@ Les codes de motif complètent les codes source et sont utilisés pour indiquer 
 
 ### <a name="to-set-up-reason-codes"></a>Pour configurer des codes motif
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Codes motif**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche")  entrez **Codes de motif**, puis choisissez le lien associé.
 
 2. Dans la fenêtre **Codes motif**, saisissez le premier code dans le champ **Code**. Dans le champ **Désignation**, saisissez un texte explicatif.
 
@@ -69,7 +69,7 @@ La procédure suivante décrit comment ajouter un code motif à un modèle feuil
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Pour affecter des codes motif à des modèles feuille
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Modèles feuille comptabilité**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche")  entrez **Modèles feuille comptabilité**, puis sélectionnez le lien associé.
 
 2. Sur la ligne du modèle feuille sélectionné, renseignez le champ **Code motif** avec le code souhaité.
 

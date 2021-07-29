@@ -1,6 +1,6 @@
 ---
-title: Faire une offre vente à un client
-description: Décrit comment créer une offre vente offrent ou un document de demande de proposition pour enregistrer votre offre à un client pour vendre des produits dans certaines conditions.
+title: Créer des devis
+description: Consultez comment créer une offre vente offrent ou un document de demande de proposition pour enregistrer votre offre à un client ou prospecter pour vendre des produits dans certaines conditions.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,36 +8,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 05/27/2021
+ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a538b7099521b10227bf5aeaefad0a9c60971068
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: a3a35738bc15e401edbd0fd3bf02ef50ff015520
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115555"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543135"
 ---
 # <a name="make-sales-quotes"></a>Créer des devis
 
-Vous créez un devis pour enregistrer votre proposition à un client pour vendre certains biens selon certaines conditions de livraison et de paiement. Vous pouvez envoyer un devis au client pour communiquer la proposition. Vous pouvez envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé du devis. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
+Vous créez un devis pour enregistrer votre proposition à un client ou un prospect pour vendre certains biens selon certaines conditions de livraison et de paiement. Vous pouvez envoyer un devis au client pour communiquer la proposition. Vous pouvez envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé du devis. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
 
-Lorsque vous négociez avec le client, vous pouvez modifier et renvoyer autant de devis que nécessaire. Lorsque le client accepte le devis, vous convertissez le devis en facture vente ou en commande vente dans laquelle vous traitez la vente. Pour plus d’informations, voir [Facturer des ventes](sales-how-invoice-sales.md) ou [Vendre des produits](sales-how-sell-products.md).
+Lorsque vous négociez avec le client ou le prospect, vous pouvez modifier et renvoyer autant de devis que nécessaire. Lorsque le client accepte le devis, vous convertissez le devis en facture vente ou en commande vente dans laquelle vous traitez la vente. Pour plus d’informations, voir [Facturer des ventes](sales-how-invoice-sales.md) ou [Vendre des produits](sales-how-sell-products.md).
 
-Vous pouvez remplir les champs relatifs au client sur le devis de deux façons selon que le client est déjà enregistré ou non. Reportez-vous aux étapes 2 et 3 de la procédure ci-dessous.
+Dans la plupart des cas, vous envoyez des devis aux clients potentiels. Vous avez souvent un interlocuteur avec qui vous négociez. S’il accepte ensuite votre offre, vous transformez le devis en commande et enregistrez le prospect en tant que client dans [!INCLUDE [prod_short](includes/prod_short.md)]. Dans la procédure suivante, nous nous concentrons sur les contacts, mais vous pouvez également envoyer des devis aux clients existants.  
 
 ## <a name="to-create-a-sales-quote"></a>Pour créer un devis
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Devis**, puis sélectionnez le lien associé.
-2. Dans le champ **Client**, entrez le nom d’un client existant.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devis**, puis sélectionnez le lien associé.
+2. Spécifiez le contact ou le client auquel vous souhaitez envoyer le devis.
 
-   D’autres champs de la page **Devis** contiennent des informations standard sur le client sélectionné.  
+    - Si le devis concerne un contact existant, indiquez le nom dans le champ **N° de contact** .  
 
-    [!INCLUDE [sales-create-customer](includes/sales-create-customer.md)]
+        Si le devis concerne un client existant, indiquez le client dans le champ **Client**.
+    - Si le contact n’est pas enregistré, procédez comme suit :
 
-    Plusieurs champs du devis sont désormais renseignés avec les informations que vous avez spécifiées sur la nouvelle fiche client.  
+        1. Dans le champ **N° contact** choisissez le bouton de modification :::image type="icon" source="media/assist-edit-icon.png" border="false":::.
+        2. Dans la boîte de dialogue de sélection du contact, choisissez l’action **Nouveau**, puis remplissez les champs correspondants. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Pour plus d’informations, reportez-vous à [Créer des contacts](marketing-create-contact-companies.md).  
+        3. Lorsque vous avez rempli la fiche de contact, sélectionnez le contact récemment créé dans la liste des contacts, puis cliquez sur le bouton OK pour revenir au devis.
+
+        Plusieurs champs du devis sont désormais renseignés avec les informations que vous avez spécifiées sur la nouvelle fiche de contact.
+
+        > [!NOTE]
+        > Pour calculer correctement les taxes et les prix d’un devis, vous devez choisir le modèle client correspondant dans le champ **Code modèle client**. Le modèle est utilisé pour convertir le contact en client une fois le devis converti en commande vente ou en facture.
+    -  Si le devis est destiné à un nouveau client, vous devez ajouter le client. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).  
+
 3. Renseignez les champs restants de la page **Devis**, selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Vous êtes maintenant prêt à renseigner les lignes commande vente pour les produits que vous vendez au client ou pour toute transaction avec le client que vous souhaitez enregistrer dans un compte général.  
+    Vous êtes maintenant prêt à renseigner les lignes commande vente pour les produits que vous vendez au client pour toute transaction avec le client ou le prospect que vous souhaitez enregistrer dans un compte général.  
 
     Si vous avez défini des lignes vente récurrentes pour le client, tel qu’un ordre de réapprovisionnement mensuel, vous pouvez insérer ces lignes sur la commande par l’intermédiaire de l’action **Extraire les lignes vente récurrentes**.  
 
@@ -59,7 +69,7 @@ Vous pouvez remplir les champs relatifs au client sur le devis de deux façons s
 7. Si vous souhaitez accorder une remise, saisissez un pourcentage dans le champ **% remise ligne**. La valeur du champ **Montant ligne** est mise à jour en conséquence.  
 
     Si des prix article spéciaux sont définis sur le raccourci **Prix vente et remises ligne vente** dans la fiche client ou article, le prix et le montant de la ligne vente sont automatiquement mis à jour si les critères de prix convenus sont réunis. Pour plus d’informations, reportez-vous à [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).  
-8. Répétez les étapes 4 à 7 pour chaque produit que vous souhaitez proposer au client.
+8. Répétez les étapes 4 à 7 pour chaque produit que vous souhaitez proposer au contact.
 
     Les totaux sous les lignes sont calculés automatiquement au fur et à mesure que vous créez ou modifiez des lignes.  
 9. Dans le champ **Montant remise facture**, entrez un montant qui doit être déduit de la valeur indiquée dans le champ **Total TTC**.
@@ -71,9 +81,18 @@ Vous pouvez remplir les champs relatifs au client sur le devis de deux façons s
 
 10. Lorsque les lignes devis sont renseignées, sélectionnez l’action **Envoyer par e-mail**.
 11. Sur la page **Envoyer e-mail**, renseignez les champs restants et examinez le devis intégré. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
-12. Si le client accepte le devis, sélectionnez l’action **Établir facture** ou **Créer commande**.
+12. Si le contact accepte le devis, choisissez l’action **Créer commande**.  
 
-Le devis est supprimé de la base de données. Une facture vente ou une commande vente basée sur les informations du devis et dans laquelle vous pouvez traiter la vente est créée. Dans le champ **N° devis** de la facture vente ou de la commande vente, vous pouvez visualiser le numéro du devis à partir duquel elle a été réalisée. Pour plus d’informations, voir [Facturer des ventes](sales-how-invoice-sales.md) ou [Vendre des produits](sales-how-sell-products.md).  
+    Sinon, si votre organisation préfère ce processus, choisissez l’action **Créer une facture**.  
+    > [!NOTE]
+    > Si vous avez ajouté un client à l’étape 2, il vous sera demandé de confirmer la conversion du devis en commande.  
+    >
+    > Si vous avez ajouté un contact d’un client potentiel à l’étape 2, vous serez invité à suivre les étapes suivantes :
+    >
+    >  - Convertissez le contact ou le prospect en client en choisissant l’un des modèles de conversion de contact. Pour plus d’informations, reportez-vous à [Pour créer un contact comme client, fournisseur, employé ou compte bancaire à partir d’un contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+    > - Confirmez la conversion du devis en commande.
+
+La conversion supprime le devis de la base de données. Une facture vente ou une commande vente basée sur les informations du devis et dans laquelle vous pouvez traiter la vente est créée. Dans le champ **N° devis** de la facture vente ou de la commande vente, vous pouvez visualiser le numéro du devis à partir duquel elle a été réalisée. Pour plus d’informations, voir [Facturer des ventes](sales-how-invoice-sales.md) ou [Vendre des produits](sales-how-sell-products.md).  
 
 ## <a name="external-document-number"></a>Numéro de document externe
 
@@ -84,6 +103,7 @@ Le devis est supprimé de la base de données. Une facture vente ou une commande
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
+[Archiver des documents](across-how-to-archive-documents.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd90f7bf90209496f67d52ab32a93cfdbaf803f
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: 74fbbefaaf9ef62c1241032b09cdf1f40b1b4bd1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087659"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445912"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Pourquoi la personnalisation d’une page est verrouillée
 
-Deux conditions vous empêchent de personnaliser une page. La page est verrouillée (comme indiqué par l’icône ![Verrouillage de personnalisation](media/personalization-lock-icon.png "Verrouillage de personnalisation")) ou bloquée (comme indiqué par l’icône ![Personnalisation bloquée](media/personalization-blocked-icon.png "Personnalisation bloquée")).
+Deux conditions vous empêchent de personnaliser une page. La page est verrouillée (comme indiqué par l’icône ![Verrouillage personnalisé.](media/personalization-lock-icon.png "Verrouillage de personnalisation")) ou bloquée (comme indiqué par l’icône ![Personnalisation bloquée.](media/personalization-blocked-icon.png "Personnalisation bloquée") .
 
 ## <a name="locked-from-personalizing"></a>Personnalisation verrouillée
 
-S’il existe une icône ![Verrouillage de personnalisation](media/personalization-lock-icon.png "Verrouillage de personnalisation") dans la bannière **Personnalisation** lorsque vous ouvrez une page, cela signifie que vous ne pouvez pas apporter d’autres modifications de personnalisation à la page.
+S’il y a un ![Verrouillage personnalisé.](media/personalization-lock-icon.png "Verrouillage de personnalisation") S’il existe une icône de verrouillage dans la bannière **Personnalisation** lorsque vous ouvrez une page, cela signifie que vous ne pouvez pas apporter d’autres modifications de personnalisation à la page.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -44,13 +44,13 @@ Avant de déverrouiller la page, veillez à ce qui suit :
 
 - La personnalisation actuelle de la page est désactivée. La page reviendra à sa mise en page d’origine et vous devrez recommencer à zéro.
 
-- Dans [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], la page reste telle quelle et n’est pas affectée par les modifications apportées à la nouvelle personnalisation dans le client Business Central. En outre, la personnalisation dans [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] et le client Business Central sont entièrement distinctes l’une de l’autre.
+- Dans [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], la page reste telle quelle et n’est pas affectée par les modifications apportées à la nouvelle personnalisation dans le client Business Central. En outre, la personnalisation dans [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] et le client Business Central sont entièrement distinctes l’une de l’autre.
 
 ## <a name="blocked-from-personalizing"></a>Personnalisation bloquée
 
 S’il y a une icône ![Personnalisation bloquée](media/personalization-blocked-icon.png "Personnalisation bloquée") dans la bannière **Personnalisation**, cela signifie que vous ne pouvez pas apporter de personnalisation à la page.
 
-<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
+<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked.](media/personalization-blocked.png "Personalize lock") -->
 
 La raison à cela n’est autre que le Tableau de bord ou le rôle actuellement associé à votre compte d’utilisateur modifie cette page notamment pour votre rôle. Contactez votre administrateur pour obtenir de l’aide. Sinon, essayez de passer à un Tableau de bord qui inclut la personnalisation des rôles pour cette page. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
 

@@ -1,17 +1,17 @@
 ---
 title: Gérer le stockage en supprimant des documents ou en compressant des données
-description: Découvrez comment conserver vos données historiques en compressant les écritures comptables ou en les supprimant.
+description: Apprenez à gérer l’accumulation de documents historiques (et à réduire la quantité de données stockées dans une base de données) en les supprimant ou en les compressant.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c41e4d871740efde811a6bfc6190605aa4e3f573
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e29e3c0c4ce7b6cfc5ce3f38cd67781c377991ad
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781226"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543060"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Gérer le stockage en supprimant des documents ou en compressant des données
 
@@ -34,67 +34,46 @@ Le programme ne supprime pas la commande service automatiquement cependant, si l
 
 ## <a name="compress-data-with-date-compression"></a>Compresser les données avec la compression selon la date
 
-Vous pouvez compresser les données dans [!INCLUDE [prod_short](includes/prod_short.md)] afin d’économiser de l’espace dans la base de données, qui dans [!INCLUDE [prod_short](includes/prod_short.md)] en ligne peut même vous faire économiser de l’argent. La compression est basée sur les dates et s’effectue en combinant plusieurs anciennes écritures en une nouvelle écriture. Vous pouvez uniquement compresser des écritures d’exercices comptables clôturés, et seulement les écritures comptables fournisseur dont le champ **Ouvert** indique *Non*.  
+Vous pouvez compresser les données dans [!INCLUDE [prod_short](includes/prod_short.md)] afin d’économiser de l’espace dans la base de données, qui dans [!INCLUDE [prod_short](includes/prod_short.md)] en ligne peut même vous faire économiser de l’argent. La compression est basée sur les dates et s’effectue en combinant plusieurs anciennes écritures en une nouvelle écriture. Vous pouvez uniquement compresser des écritures d’exercices comptables clôturés, et seulement les écritures dont le champ **Ouvert** indique **Non**.  
 
 Par exemple, les écritures comptables fournisseur d’exercices précédents peuvent être compressées de façon à ce qu’il ne reste qu’une écriture créditrice et une écriture débitrice par compte et par mois. Le montant de la nouvelle écriture est la somme de toutes les écritures compressées. La date affectée est la date de début de la période qui est compressée, par exemple le premier jour du mois (si les écritures sont compressées par mois). Après la compression, vous pouvez encore afficher le solde période de chaque compte de l’exercice précédent.
 
 Le nombre d’écritures qui résultent d’un traitement par lots de compression dépend du nombre filtres que vous définissez, des champs qui sont combinés et de la durée de la période que vous choisissez. Il y aura toujours au moins une écriture. Lorsque le traitement par lots est terminé, le résultat s’affiche dans la page **Historique des compressions**.
 
-Vous pouvez compresser les types de données suivants dans [!INCLUDE [prod_short](includes/prod_short.md)] à l’aide de traitements par lots :
+Vous pouvez compresser les types de données suivants à l’aide de traitements par lots. Il existe un travail par lots pour chaque type de données.
 
-* Écritures comptables compte bancaire
+* Écritures financières - Écritures comptables, écritures TVA, écritures comptables compte bancaire, écritures budgétaires comptables, écritures comptables clients, écritures comptables fournisseurs.
+* Écritures entrepôt 
+* Écritures de ressource
+* Écritures budget article
+* Immobilisation - Écritures comptables immobilisation, écritures comptables de maintenance FA, écritures comptables d’assurance FA.
 
-  Après la compression, l’option **Conserver champs** vous permet de conserver la valeur des champs **N° document, Notre contact**, **Code axe principal 1** et **Code axe principal 2**.
-* Écritures comptables fournisseur
+Lorsque vous définissez des critères pour la compression, vous pouvez utiliser les options sous **Conserver champs** pour conserver le contenu de certains champs. Les champs disponibles dépendent des données que vous compressez.
 
 > [!NOTE]
-> Les écritures compressées pour les clients, les fournisseurs, les banques et la comptabilité auxiliaire des immobilisations sont validées légèrement différemment de la comptabilisation standard. Cela permet de réduire le nombre de nouvelles écritures comptables créées par compression de date et est particulièrement important lorsque vous conservez des informations telles que les dimensions et les numéros de document. La compression de date crée de nouvelles entrées comme suit :
+> Avant de pouvoir exécuter la compression selon la date, vos vues d’analyse doivent être à jour. Pour plus d’informations, consultez [Pour mettre à jour une vue d’analyse](/dynamics365/business-central/bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
+
+Après la compression, le contenu des champs suivants sera toujours conservé : **Date comptabilisation**, **N° fournisseur**, **Type de document**, **Code devise**, **Groupe comptabilisation**, **Montant**, **Montant ouvert**, **Montant initial DS**, **Montant ouvert DS**, **Montant DS**, **Achat DS**, **Remises facture DS**, **Escompte accordé DS** et **Escompte ouvert possible**.
+
+> [!NOTE]
+> Les écritures compressées sont publiées légèrement différemment de la publication standard. Cela permet de réduire le nombre de nouvelles écritures comptables créées par compression de date et est particulièrement important lorsque vous conservez des informations telles que les dimensions et les numéros de document. La compression de date crée de nouvelles entrées comme suit :
 >* Sur la page **Écritures comptables**, de nouvelles entrées sont créées avec de nouveaux numéros d’entrée pour les entrées compressées. Le champ **Description** contient l’information **Compression écritures** afin que les entrées compressées soient faciles à identifier. 
 >* Sur les pages comptables, telles que la page **Écritures comptables client**, une ou plusieurs entrées sont créées avec de nouveaux numéros d’entrée. 
 > Le processus de validation crée des écarts dans la série de numéros pour les entrées sur la page **Écritures comptables**. Ces numéros sont attribués aux écritures sur les pages comptables uniquement. La plage de numéros affectée aux entrées est disponible sur la **page de l’historique des transactions de comptabilité** dans les champs **N° séquence début** et **N° séquence fin**. 
 
-Après la compression, le contenu des champs suivants sera toujours conservé : **Date comptabilisation**, **N° fournisseur**, **Type de document**, **Code devise**, **Groupe comptabilisation**, **Montant**, **Montant ouvert**, **Montant initial DS**, **Montant ouvert DS**, **Montant DS**, **Achat DS**, **Remises facture DS**, **Escompte accordé DS** et **Escompte ouvert possible**.
-
-  Avec l’option **Conserver champs**, vous pouvez également conserver la valeur de ces champs supplémentaires : **N° document**, **N° fournisseur**, **Code acheteur**, **Code axe principal 1** et **Code axe principal 2**.
-
 > [!NOTE]
 > Après avoir exécuté la compression des dates, tous les comptes du grand livre sont verrouillés. Par exemple, vous ne pouvez pas désappliquer les écritures du fournisseur ou du grand livre bancaire pour les comptes au cours de la période pour laquelle les dates sont compressées.
-
-<!--* General ledger entries
-* Customer ledger entries-->
-<!--* Fixed asset ledger entries
-* G/L budget entries
-* VAT entries
-
-  After the compression the contents of the following fields are always retained: **Posting Date**, **Type**, **Closed**, **Gen. Bus. Posting Group**, **Gen. Prod. Posting Group**, **VAT Calculation Type**, **Base**, and **Amount**.
-
-  With the **Retain Field Contents** facility, you can also retain the contents of the following additional fields: **Document No.**, **Bill-to/Pay-to No.**, **EU 3-Party Trade**, **Country/Region Code**, and **Internal Ref. No.**.
-* Insurance ledger entries
-* Maintenance ledger entries
-* Resource ledger entries
-
-  After the compression, the contents of the following fields are retained: **Posting Date**, **Resource No.**, **Resource Group No.**, **Entry Type**, **Quantity**, **Total Cost**, **Total Price**, and **Chargeable**.
-
-  With the **Retain Field Contents** facility, you can also retain the contents of the following additional fields: **Document No.**, **Work Type Code**, **Job No.**, **Unit of Measure Code**, **Source Type**, **Source No.**. **Chargeable**, **
-* Warehouse entries
-
-  After the compression the contents of the following fields are always retained: **Registering Date**, **Location Code**, **Zone Code**, **Bin Code**, **Item No.**, **Quantity**, **Qty. (Base)**, **Bin Type Code**, **Entry Type**, **Variant Code**, **Qty. per Unit of Measure**, **Unit of Measure Code**, **Warranty Date**, **Expiration Date**, **Cubage**, and **Weight**.
-
-  With the **Retain Field Contents** facility, you can also retain the contents of the **Serial No.** and **Lot No.** fields. -->
 
 Le nombre d’écritures qui résultent d’un traitement par lots de compression dépend du nombre filtres que vous définissez, des champs qui sont combinés et de la durée de la période que vous choisissez. Il y aura toujours au moins une écriture. 
 
 > [!WARNING]
 > La compression selon la date supprime des écritures ; vous devez donc toujours faire une sauvegarde de la base de données avant de lancer le traitement par lots.
 
-Le tableau suivant répertorie les champs du raccourci **Options** disponibles sur tous les traitements par lots. La section **Conserver le contenu du champ** comprend des champs supplémentaires qui sont décrits ci-dessus.
-
-|Champ  |Description  |
-|-------|-------------|
-|Date de début     |Saisissez la première date à inclure dans la compression. La compression affecte toutes les écritures comprises entre cette date et la date fin.|
-|Date de fin     |Saisissez la dernière date à inclure dans la compression. La compression affecte toutes les écritures comprises entre la date début et cette date.|
-|Base période |Sélectionnez la durée de la période pendant laquelle les écritures vont être combinées. Pour visualiser les options, cliquez sur le champ. Si vous sélectionnez la longueur de la période *Trimestre*, *Mois* ou *Semaine*, seules les écritures ayant une période comptable commune sont compressées.|
-|Conserver champs     |Activez les champs si vous souhaitez conserver la valeur de certains champs bien que les écritures soient compressées. Plus vous choisissez de champs à conserver, plus les écritures compressées sont détaillées. Si vous ne sélectionnez aucun champ, le traitement par lots crée une écriture par jour, par semaine, ou pour une autre période, selon la période sélectionnée dans le champ **Base période**. |
+### <a name="to-run-a-date-compression"></a>Pour exécuter la compression selon la date
+1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Administration des données**, puis sélectionnez le lien associé.
+2. Exécutez l’une des opérations suivantes :
+    1. Pour utiliser un guide de configuration assistée afin de configurer la compression selon la date pour un ou plusieurs types de données, choisissez **Guide d’administration des données**.
+    1. Pour configurer la compression pour un type de données individuel, choisissez **Compression selon la date**, **Compresser écritures**, puis choisissez les données à compresser.
 
 ## <a name="see-also"></a>Voir aussi
 

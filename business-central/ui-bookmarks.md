@@ -1,6 +1,6 @@
 ---
-title: Ajouter un signet à un lien vers une page ou un état sur votre tableau de bord | Microsoft Docs
-description: Découvrez comment ajouter un lien à votre tableau de bord.
+title: Ajouter un lien à une page ou à un état sur le tableau de bord
+description: À l’aide de la nouvelle icône de signet, vous pouvez ajouter une action qui ouvre une page ou un état à partir du menu de navigation de votre tableau de bord.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ec89d35da258020ce08710d3eafc4bce32cf81a8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787492"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446037"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Ajouter un signet vers une page ou un état sur votre tableau de bord
-À l’aide de la nouvelle icône de signet, vous pouvez ajouter une action qui ouvre une page ou un état à partir du menu de navigation de votre tableau de bord. Cela vous permet d’accéder rapidement à votre contenu préféré ou à vos tâches professionnelles. Vous devez ajouter le signet à partir de la page ou de l’état cible, c’est-à-dire la page sur laquelle vous souhaitez que le lien du tableau de bord s’ouvre.
+À l’aide de la nouvelle icône de signet, vous pouvez ajouter une action qui ouvre une page ou un état à partir du menu de navigation de votre tableau de bord. Les signets vous permettent d’accéder rapidement à votre contenu préféré ou à vos tâches professionnelles. Vous devez ajouter le signet à partir de la page ou de l’état cible, c’est-à-dire la page sur laquelle vous souhaitez que le lien du tableau de bord s’ouvre.
 
 L’icône de signet est affichée dans le coin supérieur droit d’une page et également dans la fenêtre **Rechercher** où vous pouvez marquer plusieurs pages ou états efficacement. Si un signet existe déjà pour la page, l’icône est sombre et l’info-bulle indique « Mis en favori ».
 
 ## <a name="to-bookmark-the-target-page"></a>Pour ajouter un signet à la page cible
 1. Ouvrez n’importe quelle page pour laquelle vous souhaitez un lien sur votre tableau de bord.
-2. Choisissez l’icône ![Signet](media/ui_bookmark_icon.png "Signet").
+2. Choisissez l’icône ![Signet.](media/ui_bookmark_icon.png "Signet") .
 
 Un nom d’action après la page est maintenant ajouté au menu de navigation de votre tableau de bord.
 
 ## <a name="to-bookmark-the-target-report"></a>Pour ajouter un signet à l’état cible
 1. Ouvrez n’importe quelle page de demande d’état pour laquelle vous souhaitez un lien sur votre tableau de bord.
-2. Choisissez l’icône ![Signet](media/ui_bookmark_icon.png "Signet").
+2. Choisissez l’icône ![Signet.](media/ui_bookmark_icon.png "Signet") .
 
 Un nom d’action après l’état est maintenant ajouté au menu de navigation de votre tableau de bord.
 
 ## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Pour ajouter un signet à une page ou à un état à partir de la fenêtre Tell me
 1. Ouvrez la fenêtre **Rechercher** et entrez, par exemple, **Commandes vente**.
-2. Passez votre souris sur le résultat de la recherche pour la page ou l’état **Commandes vente**, puis choisissez l’icône ![Signet](media/ui_bookmark_icon.png "Signet").
+2. Passez votre souris sur le résultat de la recherche pour la page ou l’état **Commandes vente**, puis choisissez l’icône ![Signet.](media/ui_bookmark_icon.png "Signet") .
 
 Un nom d’action après la page ou l’état est maintenant ajouté au menu de navigation de votre tableau de bord.
 
@@ -60,7 +60,7 @@ La possibilité d’ajouter un signet à une page ou à un état est l’une des
 - **Pourquoi ne puis-je pas ajouter un signet à certaines pages ou à certains états ?**  
 Toutes les pages et tous les états ne peuvent pas être mis en signet. Lorsqu’une page ou un état est exécuté dans un contexte spécial régi par l’application métier, l’icône de signet ne s’affiche pas. Par exemple, les pages qui sont introuvables dans la fenêtre **Rechercher**, mais qui sont lancées depuis un autre emplacement, n’afficheront pas d’icône de signet. De même, les pages de demande d’état utilisées uniquement pour collecter des filtres sans exécuter l’état n’afficheront pas d’icône de signet.
 
-Voir les détails techniques sur [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) et [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+  Voir les détails techniques sur [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) et [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **Lors de la suppression de ma personnalisation, mes signets seront-ils également supprimés ?**  
 Oui. Les signets résident dans le menu de navigation. Si vous effacez les modifications apportées au menu de navigation à partir de n’importe quelle page, ou si vous supprimez toute personnalisation dans le tableau de bord, toutes vos nouvelles actions seront définitivement supprimées.
@@ -77,6 +77,8 @@ Non. Pour le moment, l’ajout d’actions pour ouvrir XMLports n’est pas poss
 
 - **Mes signets seront-ils traduits lorsque je changerai ma langue dans Business Central ?**  
 Lorsqu’une nouvelle action est ajoutée, tout texte traduit qui était disponible à ce moment est également mis en signet. Si un nouveau texte traduit est ajouté ultérieurement, la nouvelle action n’inclura pas les traductions les plus récentes.
+
+- **Pourquoi ne puis-je pas ajouter de texte dans une page directement après l’avoir ouverte avec le signet ?**<br> Lorsqu’une page est mise en signet, la page s’ouvrira toujours dans le mode d’affichage à partir du signet&mdash; même s’il était en mode édition lorsqu’il a été mis en signet. Sélectioner l’icône **Apporter des modifications sur la page** ![Affiche l’icône en forme de crayon pour modifier la page.](media/edit-pencil.png) vous permettra d’ajouter du texte dans les champs qui sont modifiables.
 
 
 ## <a name="see-also"></a>Voir aussi

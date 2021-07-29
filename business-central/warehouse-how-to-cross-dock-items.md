@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12281a872317a7ba02eedfbc13365b1f5410acdf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6090a1b259dfc456f331118a30f0e25fbc712b6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782699"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445837"
 ---
 # <a name="cross-dock-items"></a>Transborder des articles
 La fonctionnalité de transbordement est disponible si le magasin est configuré pour appeler un traitement à la fois de réception entrepôt et de rangement magasin.  
@@ -41,14 +41,14 @@ L’application ne crée pas d’enregistrement distinct concernant les articles
 
     Si vous utilisez des zones, créez une zone pour vos emplacements de transbordement, puis sélectionnez le champ **Transborder zone emplacement**. Pour plus d’informations, voir [Configurer des magasins de sorte qu’ils utilisent des emplacements](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasin**, puis sélectionnez le lien associé.  
+2.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacement**, puis choisissez le lien associé.  
 3.  Sur la page **Magasin**, sélectionnez le magasin que vous souhaitez configurer pour le transbordement, puis choisissez l’action **Modifier**.  
 4.  Sur le raccourci **Entrepôt**, cochez la case **Utiliser transbordement**, puis renseignez le champ **Délai transbordement** en y indiquant la période pendant laquelle le programme doit rechercher des opportunités de transbordement.
 
     L’option **Utiliser transbordement** n’est disponible que si vous avez activé les champs **Réception requise**, **Expédition requise**, **Prélèvement requis** et **Rangement requis**.  
 
 5.  Sur le raccourci **Emplacements**, renseignez le champ **Code emplacement transbord.** en y insérant le code de l’emplacement à utiliser comme emplacement de transbordement par défaut.  
-6.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Point de stock**, puis sélectionnez le lien associé.  
+6.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Point de stock**, puis sélectionnez le lien associé.  
 7.  Pour chaque article ou point de stock que vous souhaitez pouvoir transborder, sélectionnez l’article, puis cliquez sur l’action **Modifier**.
 8. Sur la page **Fiche point de stock**, cochez la case **Utiliser transbordement**.  
 
@@ -56,7 +56,7 @@ L’application ne crée pas d’enregistrement distinct concernant les articles
 >  Le transbordement n’est possible que si le magasin est configuré pour appeler un traitement à la fois de réception entrepôt et de rangement magasin.  
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Pour transborder des articles sans afficher les opportunités  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Réceptions entrepôt**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Réceptions entrepôt**, puis choisissez le lien associé.  
 2.  Créer des réceptions entrepôt pour un article qui est arrivé et qui pourrait nécessiter un transbordement. Pour plus d’informations, voir [Réceptionner des articles](warehouse-how-receive-items.md).  
 3.  Renseignez le champ **Qté à recevoir**, puis choisissez l’action **Calculer transbordement**.  
 
@@ -73,7 +73,7 @@ L’application ne crée pas d’enregistrement distinct concernant les articles
 7.  Pour enregistrer les articles transbordés comme étant rangés et disponibles pour le prélèvement, choisissez l’action **Enregistrer**.  
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Pour transborder des articles après avoir affiché les opportunités  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Réceptions entrepôt**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Réceptions entrepôt**, puis choisissez le lien associé.  
 2.  Créer des réceptions entrepôt pour un article qui est arrivé et qui pourrait nécessiter un transbordement. Pour plus d’informations, voir [Réceptionner des articles](warehouse-how-receive-items.md).  
 
     Vous souhaitez afficher les lignes document origine demandant l’article avant de valider la réception.  

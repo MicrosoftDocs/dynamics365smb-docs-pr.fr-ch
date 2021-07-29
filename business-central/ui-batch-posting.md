@@ -1,6 +1,6 @@
 ---
-title: Comment valider plusieurs documents en même temps | Microsoft Docs
-description: Au lieu de valider des documents individuels un par un, vous pouvez sélectionner plusieurs documents non validés dans une liste afin de les valider par lots, soit pour une validation immédiate, soit pour qu’elle soit planifiée, par exemple, à la fin de la journée.
+title: Valider plusieurs documents en même temps
+description: Plutôt que de valider des documents individuels un à un, vous pouvez sélectionner plusieurs documents non validés dans une liste pour validation par lot immédiate ou planifiée.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d26b98bac791bca2dc910f010c135fe187d6abff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773645"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446062"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Valider plusieurs documents en même temps
 
@@ -25,7 +25,7 @@ Au lieu de valider des documents individuels un par un, vous pouvez sélectionne
 
 La procédure suivante explique comment valider immédiatement plusieurs commandes achat. Les étapes sont similaires pour tous les documents achat et vente.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.
 2. Sur la page **Commandes achat**, sélectionnez toutes les commandes à valider :
 3. Dans le champ **N°**, choisissez les trois points verticaux pour ouvrir le menu contextuel, puis choisissez l’action **Sélectionner davantage**.
 4. Cochez la case pour toutes les lignes représentant les commandes que vous souhaitez valider en même temps.
@@ -36,7 +36,7 @@ La procédure suivante explique comment valider immédiatement plusieurs command
 
 La procédure suivante explique comment valider plusieurs commandes achat par lots. Les étapes sont similaires pour tous les documents d’achat et de vente où l’action **Valider par lots** est disponible.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.  
 2. Sur la page **Commandes achat**, sélectionnez toutes les commandes à valider :
 3. Dans le champ **N°**, choisissez les trois points verticaux pour ouvrir le menu contextuel, puis choisissez l’action **Sélectionner davantage**.
 4. Cochez la case pour toutes les lignes représentant les commandes que vous souhaitez valider en même temps.
@@ -53,7 +53,7 @@ Les files d’attente des travaux sont un outil efficace pour planifier l’exé
 
 La procédure suivante explique comment configurer la validation en arrière-plan des commandes vente. La procédure est identique pour les achats.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres ventes**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres ventes**, puis choisissez le lien associé.
 2. Sur la page **Paramètres ventes**, activez la case à cocher **Valider avec la file d’attente des travaux**.
 3. Choisissez le champ **Code catégorie de la file d’attente des travaux**, puis spécifiez le code **SALESPOST**.
 
@@ -86,7 +86,7 @@ Sinon, vous pouvez reporter les publications à des heures pratiques pour votre 
 
 La procédure suivante décrit comment définir le rapport **TPL valider commandes vente** pour une validation automatique des commandes vente lancées à 16 h 00 les jours de semaine.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Écritures file d’attente des travaux**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures file d’attente des travaux**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Dans le champ **Type objet à exécuter**, sélectionnez **Rapport**.  
 4. Dans le champ **ID objet à exécuter**, sélectionnez 296, **TPL valider commandes vente**.

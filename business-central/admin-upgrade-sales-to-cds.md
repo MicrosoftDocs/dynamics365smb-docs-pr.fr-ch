@@ -1,6 +1,6 @@
 ---
 title: Mise à niveau d’une intégration à Dynamics 365 Sales
-description: Apprenez à déplacer votre intégration Dynamics 365 Business Central avec Dynamics 365 Sales à la dernière version.
+description: Cette rubrique vous décrit la procédure de mise à niveau de votre intégration Dynamics 365 Business Central vers la dernière version de Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 772052fc88e0b8be7ec5276600b0c237e2d2f8b2
-ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
+ms.openlocfilehash: c6405326890b8f33b399f880e54d0fcf14db1650
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025823"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543035"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Mise à niveau d’une intégration à Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] s’intègre à [!INCLUDE[prod_short](includes/cds_long_md.md)], ce qui facilite la connexion et la synchronisation des données avec d’autres applications Dynamics 365 telles que [!INCLUDE[crm_md](includes/crm_md.md)], voire des applications que vous créez vous-même. S’il s’agit de votre toute première intégration, nous vous recommandons de l’effectuer au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Pour en savoir plus, consultez [Intégration à Dataverse](admin-common-data-service.md).
@@ -26,17 +26,16 @@ Si vous avez déjà intégré [!INCLUDE[crm_md](includes/crm_md.md)] à [!INCLUD
 > La reconnexion au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)] applique les paramètres de synchronisation par défaut et remplace toute configuration dont vous disposez. Par exemple, les mappages de table par défaut sont appliqués.
 
 ## <a name="to-upgrade-your-connection-to-use-dataverse"></a>Pour mettre à niveau votre connexion afin d’utiliser Dataverse
-1. Ouvrez la page **Paramétrage de la connexion Microsoft Dynamics 365**, puis désactivez le bouton bascule **Activé** pour se déconnecter de [!INCLUDE[crm_md](includes/crm_md.md)].
-2. Ouvrez la page **Paramétrage de la connexion Dataverse**, puis choisissez le bouton bascule **Activé** pour activer la connexion à [!INCLUDE[prod_short](includes/cds_long_md.md)].
+1. Ouvrez la page **Paramétrage de la connexion Microsoft Dynamics 365**, puis désactivez le bouton bascule **Activé**. Fermez ensuite la page pour vous déconnecter de [!INCLUDE[crm_md](includes/crm_md.md)].
+2. Ouvrez la page **Configuration de la connexion Dataverse** et dans le champ **Modèle de propriété**, choisissez **Personne**. Puis choisissez le bouton à bascule **Activé** pour activer la connexion sur [!INCLUDE[prod_short](includes/cds_long_md.md)].
   
    > [!NOTE]
-   > Après avoir activé la connexion, la solution d’intégration Business Central est déployée dans Dataverse.
-3. Choisissez **Redéployer la solution d’intégration** pour réinstaller la solution d’intégration Business Central.
-4. Sur la page **Configuration de la connexion Microsoft Dynamics 365**, choisissez le bouton bascule **Activé** pour activer la reconnexion à [!INCLUDE[crm_md](includes/crm_md.md)].
+   > Après avoir activé la connexion, la solution d’intégration Business Central est déployée dans Dataverse.
+4. Sur la page **Configuration de la connexion Microsoft Dynamics 365**, choisissez **Redéployer la solution d’intégration** pour réinstaller la solution d’intégration Business Central.
+5. Activez le bouton à bascule **Activé** pour procéder à la reconnexion à [!INCLUDE[crm_md](includes/crm_md.md)].
   
    > [!NOTE]
-   > Après avoir activé la connexion, la solution d’intégration Business Central est déployée dans [!INCLUDE[prod_short](includes/prod_short.md)]. Cela permet l’intégration à des tables dédiées à [!INCLUDE[crm_md](includes/crm_md.md)] telles que les commandes vente, les devis et les factures.
-5. Choisissez **Redéployer la solution d’intégration** pour réinstaller la solution d’intégration Business Central.
+   > Après avoir activé la connexion, la solution d’intégration Business Central est déployée dans [!INCLUDE[prod_short](includes/prod_short.md)]. Cela permet l’intégration à des tables dédiées à [!INCLUDE[crm_md](includes/crm_md.md)] telles que les commandes vente, les devis et les factures.
 6. Sur la page **Paramètres de connexion Sales**, choisissez **Utiliser le paramétrage de synchronisation par défaut** pour initialiser les mappages de table d’intégration pour [!INCLUDE[crm_md](includes/crm_md.md)].
 
    > [!IMPORTANT]

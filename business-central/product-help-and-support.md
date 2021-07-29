@@ -1,18 +1,18 @@
 ---
-title: Aide et support
-description: Trouvez des ressources pour l’Aide, des directives, des conseils de dépannage, ainsi que l’assistance propres aux produits, et découvrez comment bénéficier du support technique pour Business Central.
+title: Ressources pour l’Aide et le support
+description: Trouvez des ressources pour l’Aide, des directives, des conseils de dépannage, ainsi que l’assistance propres aux produits, et découvrez comment bénéficier du support technique pour Business Central.
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/09/2021
-ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.date: 07/09/2021
+ms.openlocfilehash: 44b354818d75de8e36abccca0de5b5189d2d4268
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115426"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543085"
 ---
 # <a name="resources-for-help-and-support"></a>Ressources pour l’Aide et le support
 
@@ -33,16 +33,16 @@ La section **Rechercher** inclut deux liens vers l’Aide des produits :
 
 - Aide concernant la page que vous venez d’afficher dans [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Ce lien est généré automatiquement. Si [!INCLUDE[prod_short](includes/prod_short.md)] ne trouve pas le lien pertinent, la page de destination sur [Docs.microsoft.com](index.md) pour la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] s’affiche. Par exemple, si la page faisait partie d'une application qui n'a pas ajouté de mappage d'aide contextuelle à [!INCLUDE[prod_short](includes/prod_short.md)], le *Lien d'apprentissage* accède par défaut à la page de destination.  
+  Ce lien est généré automatiquement. Si [!INCLUDE[prod_short](includes/prod_short.md)] ne trouve pas le lien pertinent, la page de destination sur [Docs.microsoft.com](index.md) pour la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] s’affiche. Par exemple, si la page faisait partie d’une application qui n’a pas ajouté de mappage d’aide contextuelle à [!INCLUDE[prod_short](includes/prod_short.md)], le *Lien d’apprentissage* accède par défaut à la page de destination.  
 - Page de destination de l’aide pour [!INCLUDE[prod_short](includes/prod_short.md)]  
 
   La fonctionnalité de la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] est décrite sur le site [Docs.microsoft.com](/dynamics365/business-central). Pour plus d’informations, voir la section [Utilisation du site docs.microsoft.com pour en savoir plus](#use-the-docsmicrosoftcom-site-to-learn-more). Vous pouvez également étendre et personnaliser [!INCLUDE[prod_short](includes/prod_short.md)] avec des applications de AppSource. Toutes les applications fournissent des liens vers l’Aide relative aux produits pertinents afin que vous trouviez toujours des instructions pour les différents flux des opérations de votre version de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="community"></a>Communauté
 
-Dans le [Forum Business Central](https://community.dynamics.com/business/f), vous pouvez soumettre une question et en apprendre davantage sur les autres membres de la communauté [!INCLUDE[prod_short](includes/prod_short.md)]. Les partenaires et employés Microsoft participent aux conversations.  
+Dans le [Forum Business Central](https://community.dynamics.com/business/f), vous pouvez soumettre une question et en apprendre davantage sur les autres membres de la communauté [!INCLUDE[prod_short](includes/prod_short.md)]. Les partenaires et employés Microsoft participent aux conversations.  
 
-Si vous n’avez pas encore de partenaire, la Communauté peut également vous aider à trouver des réponses à vos questions. Par exemple, si vous venez de vous inscrire à une version d'essai, la communauté peut être un excellent point de départ.  
+Si vous n’avez pas encore de partenaire, la Communauté peut également vous aider à trouver des réponses à vos questions. Par exemple, si vous venez de vous inscrire à une version d’essai, la communauté peut être un excellent point de départ.  
 
 ### <a name="blog"></a>Blog
 
@@ -63,19 +63,28 @@ Cette section vous donne des raccourcis vers Microsoft AppSource où vous trouve
 
 ## <a name="give-feedback"></a>Envoyer des commentaires
 
-Sur le [site Dynamics 365 Ideas](https://aka.ms/bcideas), vous pouvez faire part de vos suggestions pour de nouvelles fonctionnalités. Votre saisie va directement vers la file d’attente d’ingénierie de Business Central pour enquête et priorisation.  
+Sur le [site Dynamics 365 Ideas](https://aka.ms/bcideas), vous pouvez faire part de vos suggestions pour de nouvelles fonctionnalités. Votre saisie va directement vers la file d’attente d’ingénierie de Business Central pour enquête et priorisation.  
 
 Veillez à effectuer votre recherche dans la liste des suggestions proposées. Il est possible que quelqu’un ait déjà envoyé une suggestion similaire et que cette entrée ait déjà reçu des votes. Votez si une idée a déjà été envoyée pour lui accorder une priorité dans la file d’attente d’ingénierie.  
 
 ## <a name="troubleshooting"></a>Incident
 
-La section **Résolution des problèmes** propose des informations techniques que votre administrateur ou votre partenaire [!INCLUDE[prod_short](includes/prod_short.md)] peut utiliser pour aider les utilisateurs à trouver une solution. Cela inclut des informations sur le dernier message d’erreur, la version actuelle de [!INCLUDE[prod_short](includes/prod_short.md)] ainsi qu’un lien pour accéder à la page **Inspection des pages**. Pour plus d’informations, reportez-vous à la section [Inspection des pages dans Business Central](across-inspect-page.md).  
+La section **Résolution des problèmes** propose des informations techniques que votre administrateur ou votre partenaire [!INCLUDE[prod_short](includes/prod_short.md)] peut utiliser pour aider les utilisateurs à trouver une solution. Cela inclut des informations sur le dernier message d’erreur, la version actuelle de [!INCLUDE[prod_short](includes/prod_short.md)] ainsi qu’un lien pour accéder à la page **Inspection des pages**. Pour plus d’informations, reportez-vous à la section [Inspection des pages dans Business Central](across-inspect-page.md).  
 
-En tant qu’administrateur interne, vous avez accès au centre d’administration où vous pouvez poursuivre le dépannage. Vous pouvez afficher la télémétrie, gérer les environnements et gérer les sessions utilisateur. Pour plus d’informations, voir [Recherche d’informations techniques](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) et [Gestion des environnements](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments).  
+Pour vous aider, vous ou votre partenaire d’assistance, à résoudre les problèmes, vous pouvez activer la connexion supplémentaire dans la section **Signaler un problème**. Vous pouvez ensuite analyser la télémétrie supplémentaire dans le centre d’administration ou Application Insights, par exemple.  
+
+En tant qu’administrateur interne, vous avez accès au centre d’administration où vous pouvez poursuivre le dépannage. Vous pouvez afficher la télémétrie, gérer les environnements et gérer les sessions utilisateur. Les articles suivants du contenu d’administration offrent davantage d’informations :
+
+- [Recherche d’informations techniques](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information)  
+- [Gestion des environnements](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+- [Surveillance et analyse de la télémétrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
+- [Activer l’envoi de télémétrie à Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
 ## <a name="report-a-problem"></a>Signaler un problème
 
-Votre partenaire revendeur [!INCLUDE[prod_short](includes/prod_short.md)] est tenu de vous aider en matière de support technique. Cette section facilite le contact de votre partenaire commercial s’il a envoyé ses informations de contact de support. Si votre partenaire [!INCLUDE[prod_short](includes/prod_short.md)] ne peut pas résoudre le problème, il déclenchera un ticket d’assistance avec Microsoft. Pour plus d’informations, voir [Réaffectation des problèmes de support à Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) dans le contenu d’administration.  
+Votre partenaire revendeur [!INCLUDE[prod_short](includes/prod_short.md)] est tenu de vous aider en matière de support technique. Cette section facilite le contact de votre partenaire commercial s’il a envoyé ses informations de contact de support. Si votre partenaire [!INCLUDE[prod_short](includes/prod_short.md)] ne peut pas résoudre le problème, il déclenchera un ticket d’assistance avec Microsoft.  
+
+Pour plus d’informations, voir [Réaffectation des problèmes de support à Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) dans le contenu d’administration.  
 
 > [!NOTE]
 > Cette section est disponible uniquement si vous avez souscrit à un abonnement [!INCLUDE[prod_short](includes/prod_short.md)]. Si vous vous êtes inscrit pour une évaluation et que vous n’avez pas encore acheté [!INCLUDE[prod_short](includes/prod_short.md)], vous n’avez pas de partenaire revendeur, et vous ne pouvez pas contacter l’équipe de support technique Microsoft. Vous pouvez rechercher un partenaire [!INCLUDE[prod_short](includes/prod_short.md)] sur la page [Je recherche un fournisseur de solution](https://go.microsoft.com/fwlink/?linkid=2038145). Pour plus d’informations, voir [Comment trouver un partenaire revendeur ?](/dynamics365/business-central/across-faq#findpartner).  
@@ -92,7 +101,7 @@ La version de base de [!INCLUDE [prod_short](includes/prod_short.md)] est étend
 
 - [Contenu conceptuel sur la fonctionnalité commerciale](index.md)  
 - [Documentation pour développeurs](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
-- [Parcours d'apprentissage gratuits et modules d'apprentissage en ligne pour plusieurs profils d'utilisateurs](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+- [Parcours d’apprentissage gratuits et modules d’apprentissage en ligne pour plusieurs profils d’utilisateurs](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 Dans cette section, vous pouvez découvrir comment naviguer dans le contenu des fonctionnalités d’entreprise.  
 
@@ -100,13 +109,13 @@ Dans cette section, vous pouvez découvrir comment naviguer dans le contenu des 
 
 ### <a name="content-on-the-site"></a>Contenu sur le site
 
-[Cette section](index.md) du site docs.microsoft.com héberge du contenu de Microsoft qui représente le pilier *En savoir plus* du modèle d'assistance aux utilisateurs. En partie, le contenu *En savoir plus* a l'intention de répondre aux questions auxquelles l'interface utilisateur ne peut pas répondre, telles que les suivantes :
+[Cette section](index.md) du site docs.microsoft.com héberge du contenu de Microsoft qui représente le pilier *En savoir plus* du modèle d’assistance aux utilisateurs. En partie, le contenu *En savoir plus* a l’intention de répondre aux questions auxquelles l’interface utilisateur ne peut pas répondre, telles que les suivantes :
 
-- Où cette page s'intègre-t-elle dans le workflow plus large ?  
+- Où cette page s’intègre-t-elle dans le workflow plus large ?  
 - Que ce passe t-il après ?  
-- Quelle serait l'autre possibilité ?  
+- Quelle serait l’autre possibilité ?  
 
-Depuis l’intérieur du produit, vous pouvez accéder à ce contenu soit via le lien *En savoir plus* dans les info-bulles et des conseils d'apprentissage, ou en utilisant le raccourci clavier *Ctrl + F1*.  
+Depuis l’intérieur du produit, vous pouvez accéder à ce contenu soit via le lien *En savoir plus* dans les info-bulles et des conseils d’apprentissage, ou en utilisant le raccourci clavier *Ctrl + F1*.  
 
 Le panneau de navigation à gauche, la table des matières, regroupe les articles par domaine d’activité. Par exemple, vous lisez l’article [Acheter des articles pour une vente](purchasing-how-purchase-products-sale.md), puis la table des matières vous montre qu’il existe également un article intitulé [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Les deux articles sont dans le groupe appelé *Achat*, qui regroupe les articles liés au module Achats dans [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -156,17 +165,17 @@ Le site docs.microsoft.com héberge du contenu pour d’autres produits et d’a
 
 ## <a name="apps-and-other-solutions"></a>Applications et autres solutions
 
-Si votre instance de [!INCLUDE [prod_short](includes/prod_short.md)] inclut une fonctionnalité qui n'est pas fournie par Microsoft, alors le fournisseur de cette fonctionnalité fournit également le contenu *En savoir plus* sur leur propre site web. Vous pouvez accéder à ce contenu de la même manière que dans la version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)], par exemple en utilisant le raccourci clavier *Ctrl+F1*.  
+Si votre instance de [!INCLUDE [prod_short](includes/prod_short.md)] inclut une fonctionnalité qui n’est pas fournie par Microsoft, alors le fournisseur de cette fonctionnalité fournit également le contenu *En savoir plus* sur leur propre site web. Vous pouvez accéder à ce contenu de la même manière que dans la version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)], par exemple en utilisant le raccourci clavier *Ctrl+F1*.  
 
-La même chose s'applique si vous utilisez [!INCLUDE [prod_short](includes/prod_short.md)] sur site.  
+La même chose s’applique si vous utilisez [!INCLUDE [prod_short](includes/prod_short.md)] sur site.  
 
 ## <a name="see-also"></a>Voir aussi
 
-[Catalogue d’apprentissage Business Central](readiness/readiness-learning-catalog.md)  
+[Catalogue d’apprentissage Business Central](readiness/readiness-learning-catalog.md)  
 [Comment trouver un partenaire revendeur ?](/dynamics365/business-central/across-faq#findpartner)  
-[Système d'aide (disponible en anglais uniquement)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
+[Système d’aide (disponible en anglais uniquement)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Billet de blog : Trouver les ressources appropriées et fournir des commentaires](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
-[Docs dédiés aux développeurs et à l’administration de Business Central](/dynamics365/business-central/dev-itpro/)  
+[Docs dédiés aux développeurs et à l’administration de Business Central](/dynamics365/business-central/dev-itpro/)  
 [Ressources pour l’aide et l’assistance technique pour les partenaires](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Support technique](/dynamics365/business-central/dev-itpro/technical-support)  
 [Site Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
