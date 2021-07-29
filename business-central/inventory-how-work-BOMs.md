@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3489ef57da691e408553b1703c4deab17622167f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785638"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444935"
 ---
 # <a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
 Les nomenclatures d’assemblage permettent de structurer les articles parents qui doivent être assemblés ou produits par des ressources ou des postes de charge à partir des composants. Une nomenclature d’assemblage peut également être utilisée pour vendre un article parent sous la forme d’un kit constitué de ses composants.
@@ -56,14 +56,14 @@ Il y a deux parties pour créer une nomenclature d’assemblage :
 ## <a name="to-edit-assembly-boms"></a>Pour modifier les nomenclatures d’assemblage
 Vous pouvez modifier les lignes d’une nomenclature d’assemblage à tout moment. Mais sachez que la nomenclature peut être utilisée sur les ventes en cours ou les assemblages du parent, qui peuvent être affectés par le changement. Sélectionnez l’action **Cas d’emploi** pour voir dans quels articles elle est utilisée et si les ordres d’assemblage ou de vente peuvent être affectés.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
 2. Sélectionnez **Oui** dans la colonne **Nomenclature d’assemblage**.
 3. Sur la page **Nomenclature d’assemblage**, sélectionnez l’action **Modifier la liste**, puis modifiez n’importe quel champ selon vos besoins.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Pour afficher les composants et les ressources indentés selon la structure de la nomenclature
 Sur la page **Nomenclature d’élément d’assemblage**, vous pouvez ouvrir une page distincte qui affiche les composants et les ressources indentés selon la position de leur nomenclature sous l’article d’assemblage.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
 2. Ouvrez la fiche d’un article d’assemblage. (Le champ **Nomenclature d’élément d’assemblage** sur la page **Articles** contient **Oui**.)
 3. Sur la page **Fiche article**, sélectionnez l’action **Assemblage**, puis l’action **Nomenclature d’élément d’assemblage**.
 4. Sur la page **Nomenclature d’élément d’assemblage**, sélectionnez l’action **Afficher nomenclature**.
@@ -78,7 +78,7 @@ La fonction Éclater nomenclature est également disponible sur la page **Nomenc
 
 La procédure suivante se base sur une facture vente. Les mêmes étapes s’appliquent à d’autres documents vente et à tous les documents achat.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.
 2. Ouvrez une facture vente qui contient une ligne pour un élément d’assemblage.
 3. Sélectionnez la ligne pour un élément d’assemblage, puis la ligne d’action **Éclater nomenclature**.
 

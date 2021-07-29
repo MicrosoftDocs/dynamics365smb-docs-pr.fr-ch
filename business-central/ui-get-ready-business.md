@@ -1,6 +1,6 @@
 ---
 title: Préparation aux activités commerciales
-description: Décrit les guides de configuration assistée, les vidéos, les rubriques d’aide, et les pages à utiliser pour vous préparer à faire des affaires dans Business Central.
+description: Décrit les guides de configuration assistée, les vidéos, les rubriques d’aide, et les pages à utiliser pour vous préparer à faire des affaires dans Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074677"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444835"
 ---
 # <a name="getting-ready-for-doing-business"></a>Préparation aux activités commerciales
 
@@ -23,9 +23,9 @@ Félicitations, vous venez de créer votre première société dans [!INCLUDE[pr
 
 Pour vous aider à vous préparer pour vos activités commerciales, vous pouvez visiter la page **Configuration assistée** dans laquelle vous pouvez lancer des guides de configuration assistée, des vidéos ou des rubriques d’aide pour les tâches de configuration sélectionnées. Pour accéder à la page, il suffit de choisir [ce lien](https://businesscentral.dynamics.com/?page=1801).  
 
-Vous pouvez également choisir l’icône ![Pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), puis l’action **Configuration assistée**.
+Sinon, choisissez l’icône ![Pignon pour ouvrir le menu Paramètres.](media/ui-experience/settings_icon_small.png) puis l’action **Configuration assistée**.
 
-Vous pouvez également accéder à la liste des guides de configuration assistée si vous choisissez l’icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Configuration assistée**, puis sélectionnez le lien associé.  
+Vous pouvez également retrouver la liste des guides d’installation assistée si vous choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration assistée**, puis choisissez le lien associé.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -36,7 +36,7 @@ Vous pouvez également accéder à la liste des guides de configuration assisté
 
 Une fois que vous avez effectué la migration des données telles que les fournisseurs, les clients et les articles de votre système financier existant, vous êtes prêt à commencer. Mais en fonction de vos besoins, demandez-vous si les autres guides de configuration assistée peuvent vous aider.
 
-Si une zone n’est pas couverte par une configuration assistée, choisissez l’icône ![Pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), puis l’action **Paramètres avancés**. Dans **Paramètres avancés**, la section **Configuration manuelle** permet d’accéder aux pages de configuration où vous pouvez renseigner manuellement les champs de configuration pour toutes les zones. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+Si une zone n’est pas couverte par une configuration assistée, choisissez ![l’icône Pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png) puis l’action **Configuration avancée**. Dans **Paramètres avancés**, la section **Configuration manuelle** permet d’accéder aux pages de configuration où vous pouvez renseigner manuellement les champs de configuration pour toutes les zones. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > La liste des guides de configuration assistée, des extensions et des services disponibles diffèrent selon l’expérience de l’utilisateur que vous choisissez pour votre société. L’expérience de type **Essential** donne accès à moins d’options que l’expérience **Premium**.
@@ -51,18 +51,18 @@ Lorsque vous avez exécuté un guide de configuration assistée, il est marqué 
 
 [!INCLUDE [prod_short](includes/prod_short.md)] comprend des visites guidées intégrées au produit et des conseils pédagogiques qui peuvent vous aider à démarrer. Dans la version actuelle, il y a des visites pour les étapes dans la liste **Démarrer** et certaines des pages les plus couramment utilisées dans la société de démonstration, telles que la page de la carte **Facture vente**.  
 
-Les conseils pédagogiques sont de courts messages qui vous informent, vous rappellent ou vous renseignent sur les fonctionnalités importantes et nouvelles qui se lancent automatiquement lorsque vous ouvrez une page. Par exemple, pour voir le conseil pédagogique de la carte **Facture vente**, choisissez le lien dans le coin supérieur gauche de la page où il est dit *Facture vente*. Cela lance une légende avec une brève description de la page et ce que vous pouvez y faire. Si une visite existe pour la page, un lien vous invite à la faire. Le lien *En savoir plus* vous amène à l'aide du produit pour la page.
+Les conseils pédagogiques sont de courts messages qui vous informent, vous rappellent ou vous renseignent sur les fonctionnalités importantes et nouvelles qui se lancent automatiquement lorsque vous ouvrez une page. Par exemple, pour voir le conseil pédagogique de la carte **Facture vente**, choisissez le lien dans le coin supérieur gauche de la page où il est dit *Facture vente*. Cela lance une légende avec une brève description de la page et ce que vous pouvez y faire. Si une visite existe pour la page, un lien vous invite à la faire. Le lien *En savoir plus* vous amène à l’aide du produit pour la page.
 
-## <a name="role-specific-home-pages"></a>Pages d'accueil spécifiques au rôle
+## <a name="role-specific-home-pages"></a>Pages d’accueil spécifiques au rôle
 
-Selon votre rôle, la page d'accueil vous fournit d'une vue d'ensemble de l'entreprise. En haut, une barre de navigation vous donne un accès facile aux clients, fournisseurs, articles, etc. Au centre, vous trouverez les mosaïques **Activités**. Les mosaïques **Activités** affichent les données actuelles. Vous pouvez cliquer ou appuyer sur celles-ci pour accéder facilement au document sélectionné.
+Selon votre rôle, la page d’accueil vous fournit d’une vue d’ensemble de l’entreprise. En haut, une barre de navigation vous donne un accès facile aux clients, fournisseurs, articles, etc. Au centre, vous trouverez les mosaïques **Activités**. Les mosaïques **Activités** affichent les données actuelles. Vous pouvez cliquer ou appuyer sur celles-ci pour accéder facilement au document sélectionné.
 
-Les **indicateurs de performance clés** peuvent être configurés de sorte à afficher un graphique sélectionné pour une représentation visuelle, par exemple, de la trésorerie ou des revenus et des dépenses. Vous pouvez également générer la liste des **clients favoris** sur la page d'accueil pour les comptes avec lesquels vous travaillez souvent ou auxquels vous devez accorder une attention particulière.
+Les **indicateurs de performance clés** peuvent être configurés de sorte à afficher un graphique sélectionné pour une représentation visuelle, par exemple, de la trésorerie ou des revenus et des dépenses. Vous pouvez également générer la liste des **clients favoris** sur la page d’accueil pour les comptes avec lesquels vous travaillez souvent ou auxquels vous devez accorder une attention particulière.
 
-Utilisez les flèches pour réduire une partie de la page et faire de la place afin d’afficher des données spécifiques. Au sommet de la page d'accueil, vous trouverez toutes les actions qui peuvent être appliquées au contenu actuel. Cette zone peut également être réduite et il vous suffit de cliquer ou d’appuyer à l’intérieur de la zone réduite afin de l’afficher à nouveau.
+Utilisez les flèches pour réduire une partie de la page et faire de la place afin d’afficher des données spécifiques. Au sommet de la page d’accueil, vous trouverez toutes les actions qui peuvent être appliquées au contenu actuel. Cette zone peut également être réduite et il vous suffit de cliquer ou d’appuyer à l’intérieur de la zone réduite afin de l’afficher à nouveau.
 
 > [!TIP]  
-> Vous pouvez revenir à la page d'accueil en sélectionnant le nom de la société dans l’angle supérieur gauche.
+> Vous pouvez revenir à la page d’accueil en sélectionnant le nom de la société dans l’angle supérieur gauche.
 
 ## <a name="company-information"></a>Informations société
 
@@ -80,7 +80,7 @@ Une fois les utilisateurs créés dans Microsoft 365, ils peuvent être importé
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-En fonction de la migration de vos données, vous pouvez maintenant passer à la création de documents vente ou achat. Utilisez la section **Actions** de votre page d'accueil pour créer rapidement un devis, une facture vente, une commande vente, une facture achat, ou un enregistrement de paiement.
+En fonction de la migration de vos données, vous pouvez maintenant passer à la création de documents vente ou achat. Utilisez la section **Actions** de votre page d’accueil pour créer rapidement un devis, une facture vente, une commande vente, une facture achat, ou un enregistrement de paiement.
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,6 +1,6 @@
 ---
-title: Procédure d’ajout de champs à une présentation de rapport Word | Microsoft Docs
-description: Décrit comment ajouter des champs d’un ensemble de données de rapport à une présentation de rapport Word existante pour un rapport.
+title: 'Procédure : ajouter des champs à une présentation de rapport Word'
+description: Cette rubrique décrit comment ajouter des champs d’un ensemble de données de rapport à une présentation de rapport Word existante pour un rapport.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 52cfb4ba4ca0ba645ecca48e08d63722c2c5c5b4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771125"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444810"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Ajouter des champs à une présentation de rapport Word
 Un ensemble de données de rapport peut être constitué de champs affichant des étiquettes, des données et des images. Cette rubrique décrit la procédure pour ajouter des champs d’un ensemble de données de rapport à une présentation de rapport Word pour un rapport. Vous ajoutez des champs à l’aide du composant XML personnalisé Word pour l’état et en ajoutant des contrôles de contenu qui correspondent aux champs de l’ensemble de données d’état. L’ajout de champs requiert que vous ayez des connaissances sur l’ensemble des données de rapport afin que vous puissiez identifier les champs que vous souhaitez ajouter à la présentation.  
@@ -111,7 +111,7 @@ Le tableau suivant fournit un aperçu simplifié du XML d’une partie XML perso
   
  La figure ci-après illustre la partie XML personnalisée simple de la section précédente dans le volet **Mappage XML** d’un document Word.  
   
- ![Clip du volet Mappage XML dans Word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Clip du volet Mappage XML dans Word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   Pour ajouter une étiquette ou un champ à la présentation, vous insérez un contrôle de contenu qui correspond à l’élément dans le volet **Mappage XML**.  
   

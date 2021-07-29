@@ -1,6 +1,6 @@
 ---
 title: Détails de conception – création de traçabilité
-description: Cette rubrique décrit la conception de la traçabilité dans Business Central au fur et à mesure de son évolution dans les versions de produit.
+description: Cette rubrique décrit la conception de la traçabilité dans Business Central au fur et à mesure de son évolution dans les versions de produit.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 5bb97f1c26ca9264718a96a9f2f7803e248927b3
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 992673cd800d7ee720e86050004c2d38796ee529
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214993"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445035"
 ---
 # <a name="design-details-item-tracking-design"></a>Détails de conception : création de traçabilité
 
-Traçabilité dans [!INCLUDE[prod_short](includes/prod_short.md)] commencé avec [!INCLUDE [navnow_md](includes/navnow_md.md)]. La fonctionnalité de traçabilité se trouve dans une structure d'objet distincte avec des liens complexes vers les documents validés et les écritures comptables article, et elle est intégrée au système de réservation, qui gère la réservation, le suivi des commandes et la messagerie d'action. Pour plus d’informations, voir [Détails de conception : réservations, suivi de commande et messages d’action](design-details-reservation-order-tracking-and-action-messaging.md) dans les détails de conception de la planification des approvisionnements.  
+Traçabilité dans [!INCLUDE[prod_short](includes/prod_short.md)] commencé avec [!INCLUDE [navnow_md](includes/navnow_md.md)]. La fonctionnalité de traçabilité se trouve dans une structure d’objet distincte avec des liens complexes vers les documents validés et les écritures comptables article, et elle est intégrée au système de réservation, qui gère la réservation, le suivi des commandes et la messagerie d’action. Pour plus d’informations, voir [Détails de conception : réservations, suivi de commande et messages d’action](design-details-reservation-order-tracking-and-action-messaging.md) dans les détails de conception de la planification des approvisionnements.  
 
 Ce design incorpore les écritures traçabilité dans les calculs de disponibilité totaux dans tout le système, y compris la planification, la fabrication, et l’entreposage. Les numéros de série et lot sont appliqués aux écritures comptables article pour assurer un accès simple aux données historiques pour la traçabilité. Avec la 1re vague de lancement 2021, la traçabilité dans [!INCLUDE [prod_short](includes/prod_short.md)] comprend les numéros de paquets.  
 
@@ -27,7 +27,7 @@ Avec l’ajout de numéros de série, lot et de paquets, le système de réserva
 
 Le schéma suivant explique la conception de la fonctionnalité de traçabilité dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-![Exemple de flux de traçabilité](media/design_details_item_tracking_design.png "Exemple de flux de traçabilité")  
+![Exemple de flux de traçabilité.](media/design_details_item_tracking_design.png "Exemple de flux de traçabilité")  
 
 L’objet de validation principal est remodelé pour gérer la sous-classification unique d’une ligne document sous forme de numéros de série ou de lot, et des tables de lien spéciales sont ajoutées pour créer une relation un à plusieurs entre les documents validés et leurs écritures comptables article et écritures comptables de valeur divisées.  
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ad5dd28d10df38fbd780ec4df5d4a87056670b99
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e833d29df72d10786b050222d342b2d6dce927e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771100"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444769"
 ---
 # <a name="change-the-current-report-layout"></a>Modifier la présentation actuelle de l’état
 Un rapport peut être créé avec plus d’une présentation de rapport, que vous pouvez ensuite changer au besoin.
@@ -30,7 +30,7 @@ Lorsque des présentations de rapport personnalisées sont définies, vous pouve
 > Les états de document (pas les listes) qui utilisent une mise en page d’état Word sont généralement plus rapides que ceux qui utilisent une mise en page d’état RDLC. Ainsi, si vous avez la possibilité de choisir entre une mise en page d’état Word ou RDLC pour un état de document, utilisez la mise en page d’état Word pour de meilleures performances.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Pour modifier la présentation de rapport à utiliser pour un rapport ou un document
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
    La page **Sélection présentation état** répertorie tous les états disponibles pour la société spécifiée dans le champ **Société** en haut de la page. Le champ **Présentation sélectionnée** spécifie la présentation qui est actuellement utilisée sur l’état.
 2. Définissez le champ **Société** en haut de la page sur la société qui inclut le rapport.
 3. Pour modifier la présentation utilisée par un état, sur la ligne correspondant à l’état, définissez le champ **Présentation sélectionnée** sur l’une des options suivantes :

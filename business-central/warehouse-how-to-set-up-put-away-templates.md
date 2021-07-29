@@ -1,6 +1,6 @@
 ---
-title: Comment configurer des modèles rangement | Microsoft Docs
-description: A l’aide de la fonctionnalité de prélèvement et de rangement suggérés, l’emplacement le mieux approprié à vos articles à un moment donné est suggéré, en fonction du modèle rangement configuré pour l’entrepôt, des priorités affectées aux emplacements et des quantités minimale et maximale définies pour les emplacements associés.
+title: 'Procédure : configurer des modèles rangement'
+description: Utilisez des modèles de rangement pour que les emplacements les plus appropriés pour vos articles vous soient suggérés à tout moment.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 336a9aa748d997d2cf4c5ae9a93cab6f96495fd6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 715c2f0c862d720d7123bc585d9b67c642d22005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784207"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445091"
 ---
 # <a name="set-up-put-away-templates"></a>Configurer des modèles rangement
 
@@ -25,7 +25,7 @@ Vous pouvez configurer un certain nombre de modèles rangement et en sélectionn
 
 ## <a name="to-set-up-put-away-templates"></a>Pour configurer des modèles rangement
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Modèles rangement**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles rangement**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Entrez un code représentant l’identifiant unique du modèle que vous allez créer.  
 4. Saisissez éventuellement une brève description.  

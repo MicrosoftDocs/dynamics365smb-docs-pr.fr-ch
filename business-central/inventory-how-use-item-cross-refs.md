@@ -1,6 +1,6 @@
 ---
 title: Utiliser les références externes article
-description: Définissez des références entre les descriptions que vous et votre fournisseur utilisez pour un article afin que vous puissiez insérer la description d’article du fournisseur dans les documents achat.
+description: Définissez des références croisées entre les descriptions que vous et votre fournisseur utilisez pour un article afin que vous puissiez insérer la description d’article du fournisseur dans les documents achat.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a9f84522598344435ad9c1263fe8cdea2e2a1e0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 853c574f5b262f7b826bc92dd8e35484e902c1f4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785663"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444960"
 ---
 # <a name="use-item-cross-references"></a>Utiliser les références externes article
 Si vous configurez une référence externe entre la désignation article que vous utilisez pour un article et la désignation que le fournisseur de cet article utilise, la désignation de l’article du fournisseur est automatiquement insérée sur les documents achat du fournisseur lorsque vous renseignez le **N° référence externe**. . La même fonctionnalité s’applique pour les numéros d’article client sur les documents vente.
@@ -27,7 +27,7 @@ Les procédures suivantes décrivent comment utiliser les références externes 
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Pour configurer une référence externe article à la description d’un article fournisseur
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
 2. Ouvrez la fiche correspondant à l’article pour lequel vous souhaitez créer une référence externe à la description de l’article que le fournisseur utilise pour cet article.
 3. Choisissez l’action **Références externes**.
 
@@ -37,7 +37,7 @@ Les procédures suivantes décrivent comment utiliser les références externes 
 
 ## <a name="to-enter-a-vendors-item-description-on-a-purchase-order"></a>Pour saisir une description de l’article d’un fournisseur sur une commande achat
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes achat**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.
 2. Créez une commande achat pour le fournisseur pour lequel vous avez créé une référence externe article dans la procédure précédente.
 3. Créez une ligne achat pour l’article pour lequel vous avez créé une référence externe article dans la procédure précédente.
 4. Dans le champ **N° type référence externe**, sélectionnez la référence externe article que vous avez créée, puis choisissez le bouton **OK**.

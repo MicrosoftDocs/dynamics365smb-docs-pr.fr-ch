@@ -1,6 +1,6 @@
 ---
 title: Créer des utilisateurs en fonction des licences
-description: Décrit comment ajouter des utilisateurs à Business Central en ligne ou sur site en fonction des licences.
+description: Décrit comment ajouter des utilisateurs à Business Central en ligne ou sur site en fonction des licences.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 852eb61a479f03b61c648904e2179168a5c18001
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ba584f11b1ac52146a7539b8ac08cb9ed67bcdba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774501"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445316"
 ---
 # <a name="create-users-according-to-licenses"></a>Créer des utilisateurs en fonction des licences
 
@@ -37,30 +37,30 @@ Pour définir qui peut se connecter à [!INCLUDE[prod_short](includes/prod_short
 - L’administrateur Microsoft 365 de votre société peut le faire dans le [Centre d’administration Microsoft 365](https://admin.microsoft.com). Pour plus d’informations, voir [Ajouter des utilisateurs individuellement ou en bloc à Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - Un partenaire Microsoft peut attribuer des licences dans le Centre d’administration Microsoft 365 ou l’Espace partenaires Microsoft. Pour plus d’informations, voir [Tâches de gestion des utilisateurs pour les comptes clients](/partner-center/assign-licenses-to-users) dans l’aide de l’Espace partenaires Microsoft.
 
-Pour plus d’informations, voir [Administration de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) dans l’aide dédiée à l’administration.
+Pour plus d’informations, voir [Administration de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) dans l’aide dédiée à l’administration.
 
-### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Pour ajouter des utilisateurs ou mettre à jour les informations utilisateur et les attributions de licence dans Business Central
+### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Pour ajouter des utilisateurs ou mettre à jour les informations utilisateur et les attributions de licence dans Business Central
 Après avoir ajouté des utilisateurs ou modifié les informations utilisateur dans le centre d’administration Microsoft 365, vous pouvez importer rapidement les informations utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)]. Cela inclut les attributions de licence. 
 
 1. Connectez-vous à [!INCLUDE[prod_short](includes/prod_short.md)] en tant qu’administrateur.
-2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Utilisateurs**, puis sélectionnez le lien associé.  
+2. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Utilisateurs**, puis choisissez le lien associé.  
 3. Choisissez **Mettre à jour les utilisateurs de Microsoft 365**.
 
 Si vous ajoutez de nouveaux utilisateurs, l’étape suivante consiste à attribuer des groupes d’utilisateurs et des autorisations. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md). Si vous mettez à jour les informations utilisateur et que la mise à jour inclut un changement de licence, les utilisateurs seront affectés au groupe d’utilisateurs approprié et leurs ensembles d’autorisations seront mis à jour. Pour plus d’informations, voir [Pour gérer les autorisations via les groupes d’utilisateurs](ui-define-granular-permissions.md).  
 
 > [!NOTE]
-> Tous les utilisateurs doivent être affectés à la même licence, Essential ou Premium. Pour en savoir plus, consultez le guide des licences Microsoft Dynamics 365 Business Central. Le guide est téléchargeable sur le site Internet [Business Central](https://dynamics.microsoft.com/business-central/overview/).
+> Tous les utilisateurs doivent être affectés à la même licence, Essential ou Premium. Pour en savoir plus, consultez le guide des licences Microsoft Dynamics 365 Business Central. Le guide est téléchargeable sur le site Internet [Business Central](https://dynamics.microsoft.com/business-central/overview/).
 
 Pour en savoir plus sur la synchronisation des informations utilisateur avec Microsoft 365, consultez la section [Synchronisation avec Microsoft 365](#m365).
 
 > [!NOTE]
-> Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, vous pouvez les inviter dans votre Business Central afin qu’ils puissent travailler avec vous et utiliser vos données fiscales. Pour plus d’informations, voir [Inviter votre comptable externe dans votre Business Central](finance-accounting.md#inviteaccountant).
+> Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, vous pouvez les inviter dans votre Business Central afin qu’ils puissent travailler avec vous et utiliser vos données fiscales. Pour plus d’informations, voir [Inviter votre comptable externe dans votre Business Central](finance-accounting.md#inviteaccountant).
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>Pour supprimer l’accès d’un utilisateur au système
 
 Dans les déploiements en ligne, vous pouvez supprimer l’accès d’un utilisateur à [!INCLUDE[prod_short](includes/prod_short.md)]. Toutes les références à l’utilisateur sont conservées, mais il ne peut plus se connecter et ses sessions actives sont arrêtées.
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Utilisateurs**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Utilisateurs**, puis choisissez le lien associé.
 2. Ouvrez la page **Fiche utilisateur** pour l’utilisateur concerné, puis, dans le champ **Statut**, sélectionnez **Désactivé**.
 3. Pour donner à nouveau accès à l’utilisateur, définissez le paramètre du champ **Statut** sur **Activé**.
 
@@ -70,7 +70,7 @@ Vous pouvez également supprimer la licence d’un utilisateur dans le Centre d�
 
 Lorsque vous attribuez une licence [!INCLUDE[prod_short](includes/prod_short.md)] à un utilisateur dans Microsoft 365, il existe deux façons de créer l’utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-- L’administrateur peut ajouter l’utilisateur en choisissant l’action **Mettre à jour les utilisateurs à partir de Microsoft 365** sur la page **Utilisateurs**, comme décrit dans la section [Pour ajouter un utilisateur ou mettre à jour les informations utilisateur dans Business Central](#adduser).
+- L’administrateur peut ajouter l’utilisateur en choisissant l’action **Mettre à jour les utilisateurs à partir de Microsoft 365** sur la page **Utilisateurs**, comme décrit dans la section [Pour ajouter un utilisateur ou mettre à jour les informations utilisateur dans Business Central](#adduser).
 - Les informations de licence sont mises à jour automatiquement lors de la première connexion de l’utilisateur.
 
 Dans les deux cas, plusieurs paramètres sont configurés automatiquement. Ceux-ci sont répertoriés dans les deuxième et troisième colonnes du tableau ci-dessous.
@@ -90,7 +90,7 @@ Si vous modifiez les informations utilisateur dans Microsoft 365, vous pouvez m
 
 ## <a name="the-device-license"></a>Licence d’appareil
 
-La licence d’appareil Dynamics 365 Business Central permet à plusieurs utilisateurs d’utiliser simultanément un appareil couvert par la licence. Par exemple, il peut s’agir d’un appareil de point de vente, d’atelier ou d’entrepôt. Lorsque vous avez acheté un certain nombre de licences d’appareils, jusqu’à ce nombre d’utilisateurs affectés au groupe Utilisateurs d’appareils Dynamics 365 Business Central peuvent se connecter simultanément. Pour en savoir plus, consultez le guide des licences Microsoft Dynamics 365 Business Central. Le guide est téléchargeable sur le site Internet [Business Central](https://dynamics.microsoft.com/business-central/overview/).
+La licence d’appareil Dynamics 365 Business Central permet à plusieurs utilisateurs d’utiliser simultanément un appareil couvert par la licence. Par exemple, il peut s’agir d’un appareil de point de vente, d’atelier ou d’entrepôt. Lorsque vous avez acheté un certain nombre de licences d’appareils, jusqu’à ce nombre d’utilisateurs affectés au groupe Utilisateurs d’appareils Dynamics 365 Business Central peuvent se connecter simultanément. Pour en savoir plus, consultez le guide des licences Microsoft Dynamics 365 Business Central. Le guide est téléchargeable sur le site Internet [Business Central](https://dynamics.microsoft.com/business-central/overview/).
 
 L’administrateur ou le partenaire Microsoft 365 de votre société peut créer le groupe Utilisateurs d’appareils Dynamics 365 Business Central et ajouter des utilisateurs d’appareils en tant que membres dans le [Centre d’administration Microsoft 365](https://admin.microsoft.com/) ou sur le [Portail Azure](https://portal.azure.com/).
 
@@ -100,7 +100,7 @@ Les utilisateurs disposant de la licence d’appareil ne peuvent pas effectuer l
 
 - Configurer des travaux pour qu’ils s’exécutent en tant que tâches planifiées dans la file d’attente des travaux. Les utilisateurs d’appareils sont des utilisateurs simultanés et, par conséquent, nous ne pouvons pas garantir que l’utilisateur impliqué est présent dans le système lorsqu’une tâche est exécutée, ce qui est obligatoire.
 
-- Un utilisateur d’appareil ne peut pas être le premier utilisateur à se connecter. Un utilisateur de type Administrateur, Utilisateur complet ou Comptable externe doit se connecter en premier afin de pouvoir configurer [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Administration de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) dans l’aide dédiée à l’administration.
+- Un utilisateur d’appareil ne peut pas être le premier utilisateur à se connecter. Un utilisateur de type Administrateur, Utilisateur complet ou Comptable externe doit se connecter en premier afin de pouvoir configurer [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Administration de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) dans l’aide dédiée à l’administration.
 
 ### <a name="to-create-a-dynamics-365-business-central-device-users-group"></a>Pour créer un groupe d’utilisateurs d’appareils Dynamics 365 Business Central
 
@@ -110,7 +110,7 @@ Les utilisateurs disposant de la licence d’appareil ne peuvent pas effectuer l
 4. Sur la page **Bases**, saisissez **Utilisateurs d’appareils Dynamics 365 Business Central** comme nom du groupe.
   
    >[!NOTE]
-   >Le nom du groupe doit être orthographié en anglais exactement comme indiqué à l’étape 4, même si vous utilisez une autre langue. Si vous avez copié le nom du groupe à partir d'un document, tel qu'un PDF, vérifiez que le nom ne contient pas d'espaces supplémentaires.
+   >Le nom du groupe doit être orthographié en anglais exactement comme indiqué à l’étape 4, même si vous utilisez une autre langue. Si vous avez copié le nom du groupe à partir d’un document, tel qu’un PDF, vérifiez que le nom ne contient pas d’espaces supplémentaires.
 5. Cliquez sur le bouton **Fermer**.
 
 > [!NOTE]
@@ -137,7 +137,7 @@ Pour les déploiements sur site, l’administrateur crée, édite et supprime le
 
 ### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>Pour modifier ou supprimer un utilisateur dans un déploiement sur site
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Utilisateurs**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Utilisateurs**, puis choisissez le lien associé.
 2. Sélectionnez l’utilisateur que vous souhaitez modifier, puis choisissez l’action **Modifier**.
 3. Sur la page **Fiche utilisateur**, modifiez les informations si nécessaire.  
 4. Pour supprimer un utilisateur, sélectionnez l’utilisateur que vous souhaitez supprimer, puis choisissez l’action **Supprimer**.
@@ -156,7 +156,7 @@ Pour les déploiements sur site, l’administrateur crée, édite et supprime le
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
 [Ajouter des utilisateurs à Microsoft 365 pour les entreprises](/microsoft-365/admin/add-users/add-users)  
-[Sécurité et protection dans Business Central (contenu d’administration)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+[Sécurité et protection dans Business Central (contenu d’administration)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

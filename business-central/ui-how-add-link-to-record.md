@@ -1,5 +1,5 @@
 ---
-title: Ajouter des pièces jointes, des liens et des notes sur des enregistrements | Microsoft Docs
+title: Ajouter des pièces jointes, des liens et des notes sur des enregistrements
 description: Joignez un lien hypertexte pointant vers un document ou un site Web à un enregistrement spécifique, tel qu’une fiche client ou un document.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eb03f2cd47624e753766f0363e037ee793f8f777
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771150"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444783"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gérer les pièces jointes, les liens et les notes sur les fiches et les documents
 
@@ -28,7 +28,7 @@ Les pièces jointes, les liens et les notes restent attachés au fur et à mesur
 > [!NOTE]
 > Lorsque vous expédiez et facturez partiellement une commande vente ou achat, le document joint ne sera annexé qu’à la facture finale de cette commande. De même, lorsque vous facturez à l’aide de la fonction Reports, le document joint est annexé aux écritures comptables pour le document, mais pas pour les écritures report.
 >
-> Si vous supprimez une commande avant qu'elle ne soit facturée, la pièce jointe est également supprimée. Lorsque vous facturez des commandes achat à l'aide de l'action Obtenir des lignes de réception à partir d'une facture achat, la pièce jointe sur les commandes achat n'est pas ajoutée à la facture achat.
+> Si vous supprimez une commande avant qu’elle ne soit facturée, la pièce jointe est également supprimée. Lorsque vous facturez des commandes achat à l’aide de l’action Obtenir des lignes de réception à partir d’une facture achat, la pièce jointe sur les commandes achat n’est pas ajoutée à la facture achat.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Pour joindre un fichier à une facture achat
 Vous pouvez joindre tout type de fichier contenant du texte, des images ou des vidéos à une fiche ou à un document. Ceci est utile, par exemple, lorsque vous souhaitez stocker la facture d’un fournisseur sous forme de fichier PDF sur la facture achat correspondante dans [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -38,7 +38,7 @@ Vous pouvez joindre tout type de fichier contenant du texte, des images ou des v
 
 La procédure suivante se base sur une facture achat. Les étapes sont similaires pour tous les autres documents et fiches pris en charge.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.
 2. Ouvrez les commandes ventes auxquelles vous souhaitez joindre un fichier.
 3. Dans le Récapitulatif, ouvrez l’onglet **Pièces jointes**.
 4. Choisissez la valeur associée au champ **Documents**, telle que « 0 ».
@@ -58,7 +58,7 @@ Chaque fois que vous devez enregistrer un document en tant que fichier, vous pou
 
 La procédure suivante se base sur une commande vente. Les étapes sont similaires pour tous les autres documents pris en charge.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
 2. Sélectionnez une commande vente, puis l’action **Joindre en tant que PDF**.
 
 Un fichier PDF avec le contenu actuel de la commande vente est ajouté à l’onglet **Pièces jointes** du récapitulatif.
@@ -68,7 +68,7 @@ Vous pouvez ajouter un lien à partir d’une fiche ou d’un document à n’im
 
 La procédure suivante se base sur une fiche article. Les étapes sont similaires pour toutes les autres fiches et tous les documents pris en charge.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
 2. Sélectionnez l’article à partir duquel vous souhaitez ajouter un lien, puis choisissez l’onglet **Pièces jointes** dans le Récapitulatif.
 3. Dans la section **Liens**, choisissez l’icône **+**.
 4. Entrez le lien dans le champ **Adresse du lien**.
@@ -88,7 +88,7 @@ Vous pouvez écrire une note sur un document ou une ficher, par exemple pour com
 
 La procédure suivante se base sur une commande vente. Les étapes sont similaires pour tous les autres documents et fiches pris en charge.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
 2. Sélectionnez la commande vente pour laquelle vous souhaitez écrire une note, puis choisissez l’onglet **Pièces jointes** dans le Récapitulatif.
 3. Dans la section **Notes**, choisissez l’icône **+**.
 4. Dans le champ **Note**, écrivez n’importe quel texte, par exemple « Ceci est une commande urgente ».

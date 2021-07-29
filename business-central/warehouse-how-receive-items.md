@@ -1,6 +1,6 @@
 ---
-title: Comment réceptionner des articles | Microsoft Docs
-description: Lorsque les articles arrivent dans un entrepôt configuré pour appeler un traitement de réception entrepôt, vous devez extraire les lignes du document origine lancé ayant déclenché leur réception.
+title: 'Procédure : réceptionner des articles'
+description: Cette rubrique donne un aperçu des différentes manières de recevoir des articles dans un entrepôt, par exemple des articles avec une commande achat ou des articles avec un reçu d’entrepôt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5bf683be6e6d0976464240d08e0546639a46362a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f71e348a5f6b8a232d05c8729a03a7f41534caa8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771919"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445141"
 ---
 # <a name="receive-items"></a>Réceptionner des articles
 
@@ -27,7 +27,7 @@ Lorsque les articles arrivent dans un entrepôt configuré pour appeler un trait
 
 Ce qui suit décrit comment réceptionner des articles avec une commande achat. Les étapes sont similaires pour les retours vente et les ordres de transfert.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.
 2. Ouvrez une commande achat existante, ou créez-en une nouvelle. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 3. Dans le champ **Qté à recevoir**, indiquez la quantité reçue.
 
@@ -43,7 +43,7 @@ Ce qui suit décrit comment réceptionner des articles avec une commande achat. 
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Pour réceptionner des articles avec une réception entrepôt
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Réceptions entrepôt**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Réceptions entrepôt**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 
     Renseignez les champs du raccourci **Général**. Lorsque vous récupérez des lignes document origine, certaines des informations de l’en-tête sont copiées dans chaque ligne.  
@@ -96,7 +96,7 @@ Vous devez définir un pourcentage de dépassement autorisé de la quantité com
 
 Ce qui suit décrit comment configurer un code de sur-réception et l’attribuer à un article. La procédure est identique pour un fournisseur.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
 2. Ouvrez la fiche pour un article que vous soupçonnez parfois d’être livré avec une quantité supérieure à celle commandée.
 3. Cliquez sur le bouton de recherche dans le champ **Code de sur-réception**.
 4. Sélectionnez l’action **Nouveau**.
