@@ -1,5 +1,5 @@
 ---
-title: Détails de conception - Compta. coûts prévus | Microsoft Docs
+title: Détails de conception - Validation du coût prévu
 description: Les coûts prévus représentent l’estimation, par exemple, du coût d’un article acheté que vous enregistrez avant la réception de la facture de cet article.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: 181b0168dc73aba7bb4d09b7cda7a2ce7028e142
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215293"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649852"
 ---
 # <a name="design-details-expected-cost-posting"></a>Détails de conception : validation du coût prévu
 Les coûts prévus représentent l’estimation, par exemple, du coût d’un article acheté que vous enregistrez avant la réception de la facture de cet article.  
@@ -29,10 +29,22 @@ Les coûts prévus représentent l’estimation, par exemple, du coût d’un ar
 
  Pour prendre en charge le travail de rapprochement et de traçabilité, l’écriture valeur facturée montre que le montant du coût prévu validé pour équilibrer les comptes d’attente.  
 
-## <a name="example"></a>Exemple :  
- L’exemple suivant indique le coût prévu si la case à cocher **Compta. coûts automatique** et la case à cocher **Compta. coûts prévus** sont sélectionnées sur la page **Paramètres stock**.  
+## <a name="prerequisites-for-posting-expected-costs"></a>Conditions préalables à la validation des coûts prévus
 
- Vous validez une commande achat comme reçue. Le coût prévu est 95,00 DS.  
+Pour rendre possible la validation des coûts prévus, vous devez procéder comme suit :
+1. Dans la page **Paramètres stock**, cochez la case **Compta. coûts automatique** et la case **Compta. coûts prévus**.
+2. Configurez les comptes d’attente à utiliser pendant le processus de validation des coûts prévus.  
+
+  Dans la page **Paramètres compta. stock**, vérifiez les champs **Compte stocks** et **Compte stocks (attente)** pour le **Code magasin et Code groupe compta. stock** de l’article que vous allez acheter. Pour en savoir plus sur ces comptes, voir [Détails de conception - Comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md).
+3. Dans la page **Paramètres comptabilisation**, vérifiez le champ **Compte ajust. stock (attente)** pour le **Groupe compta. marché** et le **Groupe compta. produit** que vous utiliserez.
+4. Lorsque vous créez une commande achat, la valeur par défaut est que le champ **N° facture fournisseur** est requis. Vous devez le désactiver dans la page **Paramètres achats**, en désélectionnant le champ **N° doc. ext. obligatoire**.
+
+## <a name="example"></a>Exemple :  
+
+> [!NOTE]  
+> Les numéros de compte utilisés dans cet exemple servent uniquement de référence et seront différents dans votre système. Configurez-les comme indiqué dans les conditions préalables ci-dessus.
+
+Vous validez une commande achat comme reçue. Le coût prévu est 95,00 DS.  
 
  **Ecritures valeur**  
 
@@ -73,7 +85,7 @@ Les coûts prévus représentent l’estimation, par exemple, du coût d’un ar
 
  **Écritures comptables**  
 
-|Date comptabilisation|Compte général|N° compte (démonstration Fr-FR)|Montant|Numéro de la séquence|  
+|Date comptabilisation|Compte général|N° de compte (uniquement des exemples !)|Montant|Numéro de la séquence|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |15/01/20|Compte ajustement stock (attente)|5 530|95,00|4|  
 |15/01/20|Compte stocks (attente)|2 131|-95,00|3|  

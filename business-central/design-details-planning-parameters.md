@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/15/2021
+ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437902"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649827"
 ---
 # <a name="design-details-planning-parameters"></a>Détails de conception : paramètres de planification
 Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -114,7 +114,27 @@ L’option **Mode de lancement** définit les commandes supplémentaires qui ser
 
 Si l’option **Fabrication sur stock** est utilisée, les commandes se rapportent uniquement à l’article en question.  
 
-Si l’option **Fabrication à la commande** est utilisée, le système de planification analyse la nomenclature de l’article et crée des propositions commande liées supplémentaires pour les articles de niveau inférieur qui sont également définis comme Fabrication à la commande. Cela se poursuit tant que il existe des articles make-to-order dans les structures de nomenclature décroissantes.  
+Si l’option **Fabrication à la commande** est utilisée, le système de planification analyse la nomenclature de l’article et crée des propositions commande liées supplémentaires pour les articles de niveau inférieur qui sont également définis comme Fabrication à la commande. Cela se poursuit tant que il existe des articles make-to-order dans les structures de nomenclature décroissantes.
+
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Utiliser des codes plus bas niveau pour gérer la demande dérivée
+
+Utilisez des codes plus bas niveau pour faire progresser la demande dérivée de composants jusqu’aux niveaux inférieurs de la nomenclature. Pour une explication plus détaillée, voir [Priorité d’article / Code plus bas niveau](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+Vous pouvez affecter un code plus bas niveau à chaque partie de la structure du produit ou de la nomenclature envisagée. Le plus haut niveau d’assemblage est noté niveau 0 (article fini). Plus le numéro du code plus bas niveau est élevé, plus l’article est placé bas dans la hiérarchie. Par exemple, les produits finis ont le code de plus bas niveau 0 et les pièces utilisées lors de l’assemblage de ces articles ont les codes de plus bas niveau 1, 2, 3, etc. Le résultat est le planning des composants coordonné aux besoins de tous les numéros de pièces de plus haut niveau. Lorsque vous calculez une planification, la nomenclature est éclatée dans la feuille planning et les besoins bruts du niveau 0 sont transmis aux niveaux de planification comme besoins bruts du niveau de planification suivant.
+
+Sélectionnez le champ **Code plus bas niv. dyn.** pour spécifier s’il faut affecter et calculer immédiatement les codes plus bas niveau de chaque composant dans la structure produit. Si vous possédez une grande quantité de données, cette fonction peut avoir des effets négatifs sur les performances du programme, par exemple lors d’un ajustement automatique des coûts. Vous remarquerez que cette fonction n’est pas rétroactive ; il est donc préférable d’envisager l’utilisation de cette fonction au préalable.
+
+Au lieu d’utiliser le calcul automatique exécuté de façon dynamique si le champ est activé, vous pouvez lancer le traitement par lots **Calculer code plus bas niveau** accessible à partir du menu **Production** en choisissant **Conception du produit**, **Calculer code plus bas niveau**.
+
+> [!IMPORTANT]
+> Si vous n'activez pas le champ **Code plus bas niv. dyn.**, vous devez exécuter le traitement par lots **Calculer code plus bas niveau** avant de calculer un programme d'approvisionnement (traitement par lots **Calculer planning**).  
+
+> [!NOTE]
+> Même si le champ **Code plus bas niv. dyn.** est activé, les codes plus bas niveau des composants ne sont pas modifiés dynamiquement si une nomenclature parent est supprimée ou définie comme non certifiée. Il peut en résulter une difficulté à ajouter de nouveaux éléments à la fin de la structure du produit car il se peut que celle-ci dépasse le nombre maximal de codes plus bas niveau. Toutefois, pour les structures de produit volumineuses atteignant la limite de codes plus bas niveau, il est recommandé de lancer le traitement par lots **Calculer code plus bas niveau** régulièrement pour gérer la structure.  
+
+### <a name="optimize-low-level-code-calculation"></a>Optimiser le calcul du code bas niveau
+
+Sélectionnez le champ **Optimiser le calcul du code bas niveau** pour spécifier que vous souhaitez utiliser la nouvelle méthode plus rapide de calcul du code bas niveau. Notez que le nouveau calcul est effectué différemment et que son utilisation risque d’interrompre des extensions qui reposent sur la méthode existante. La nouvelle méthode de calcul va remplacer la méthode actuelle dans une version ultérieure.
 
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   

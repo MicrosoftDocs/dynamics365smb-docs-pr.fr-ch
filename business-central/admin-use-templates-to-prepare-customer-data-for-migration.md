@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443169"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649902"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Préparer la migration des données client avec des modèles
 
@@ -124,6 +124,7 @@ Tous les enregistrements dont les données sont appliquées de cette manière so
 > [!NOTE]
 > Si les données des tables du package de configuration contiennent des dates, par exemple, des dates comptabilisation sur les factures, les dates sont prises en compte dans le fuseau horaire spécifié dans [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
+
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Pour créer un enregistrement à partir d’un modèle de configuration
 
 Vous pouvez utiliser la structure de données qui est contenue dans les modèles de données pour convertir les informations en enregistrements de la base de données, un par un. Pour ce faire, utilisez la fonction **Créer instance** . Il s’agit d’une version miniature du processus de migration des données et peut être utile pour le prototypage ou le traitement des petites tâches de création de données.  
@@ -137,6 +138,15 @@ Les étapes suivantes illustrent la création d’une fiche article d’un modè
 5. Pour examiner la nouvelle fiche article, sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 6. Ouvrez la nouvelle fiche article.  
 7. Affichez les différents raccourcis, et vérifiez que les informations les concernant ont été créées correctement.  
+
+## <a name="to-use-conversion-templates"></a>Pour utiliser les modèles de conversion
+
+Vous pouvez convertir des contacts en clients, fournisseurs et employés. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Pour convertir un contact en client, fournisseur ou employé
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Contacts**, puis sélectionnez le contact approprié. 
+2. Sur la fiche contact, sélectionnez **Actions**, puis **Fonctions**, puis sélectionnez **Créer comme client, fournisseur, banque ou employé**.
+
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Pour utiliser un modèle de configuration sur un enregistrement
 
@@ -152,6 +162,9 @@ La procédure suivante se base sur une nouvelle fiche article.
 3. Sur la page **Modèles client**, sélectionnez l’un des modèles, puis cliquez sur le bouton **OK**.  
 
 Les valeurs par défaut du modèle client choisi sont insérées dans la fiche client.
+
+> [!NOTE]
+> Vous ne pouvez pas utiliser Appliquer le modèle pour laisser en blanc les champs des clients, fournisseurs et autres. À la place, vous devez utiliser la fonctionnalité **Modifier dans Excel**. Pour plus d’informations, voir [Modifier dans Excel](across-work-with-excel.md#edit-in-excel).
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b1d9893364d7472759a478877ebec49ace5e9647
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441308"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649877"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utiliser des files d’attente des travaux pour planifier des tâches
 
@@ -37,9 +37,10 @@ Une fois les files d’attente des travaux configurées et en cours de exécutio
 
 Une fois qu’un projet s’est terminé correctement, il est supprimé de la liste d’écritures file d’attente des travaux, sauf en cas de projet récurrent. S’il s’agit d’un projet récurrent, le champ **Heure de début (au plus tôt)** est ajusté pour afficher la prochaine heure d’exécution planifiée pour le projet.  
 
-## <a name="to-view-status-or-errors-in-the-job-queue"></a>Pour visualiser le statut ou les erreurs dans la file d’attente des travaux
+## <a name="monitor-status-or-errors-in-the-job-queue"></a>Surveiller le statut ou les erreurs dans la file d’attente des travaux
 
 Les données qui sont générées lors de l’exécution d’une file d’attente des travaux sont stockées dans la base de données, de sorte que vous pouvez résoudre les erreurs de la file d’attente des travaux.  
+
 Pour chaque entrée de file d’attente de travaux, vous pouvez afficher et modifier l’état. Lorsque vous créez une écriture file d’attente des travaux, son statut est défini sur **En attente**. Vous pouvez définir le statut sur **Prêt** et revenir à **En attente**, par exemple. Sinon, les informations de statut sont mises à jour automatiquement.
 
 Le tableau suivant décrit les valeurs du champ **Statut**.
@@ -53,11 +54,12 @@ Le tableau suivant décrit les valeurs du champ **Statut**.
 | Terminé | Indique que l’écriture file d’attente des travaux est complète. |
 
 ### <a name="to-view-status-for-any-job"></a>Pour visualiser le statut de tous les travaux
+
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures file d’attente des travaux**, puis sélectionnez le lien associé.
 2. Sur la page **Écritures file d’attente des travaux**, sélectionnez une écriture file d’attente des travaux, puis sélectionnez l’action **Écritures journal**.  
 
 > [!TIP]
-> Avec [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, vous pouvez également afficher l’état des entrées de la file d’attente des travaux en utilisant Application Insights dans Microsoft Azure. Pour plus d’informations, consultez [Analyse de la télémétrie de suivi du cycle de vie de la file d’attente des travaux](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) dans le contenu dédié à l’équipe Administration et aux développeurs [!INCLUDE [prod_short](includes/prod_short.md)].
+> Vous pouvez également voir le statut des écritures file d’attente des travaux en utilisant Application Insights dans Microsoft Azure pour une analyse plus approfondie basée sur la télémétrie. Pour plus d’informations, voir [Surveillance et analyse de la télémétrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) et [Analyse de la télémétrie de suivi du cycle de vie de la file d’attente des travaux](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) dans le contenu [!INCLUDE [prod_short](includes/prod_short.md)] pour développeurs et administrateurs.
 
 ## <a name="the-my-job-queue-part"></a>Composant Ma file d’attente des travaux
 Le composant **Ma file d’attente des travaux** sur votre Tableau de bord répertorie les écritures files d’attente des travaux commencées par vous, mais qui ne sont pas terminées. Par défaut, le composant n’est pas visible et vous devez donc l’ajouter à votre tableau de bord. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).  
@@ -65,9 +67,9 @@ Le composant **Ma file d’attente des travaux** sur votre Tableau de bord répe
 Le composant indique les documents avec votre ID dans le champ **Code utilisateur affecté** en cours de traitement ou en attente, y compris ceux associés à la validation en arrière-plan. Le composant peut vous indiquer rapidement s’il y a eu une erreur lors de la validation d’un document ou s’il existe des erreurs dans une écriture de file projet. Il vous permet également d’annuler une validation de document en cas de non exécution.
 
 ### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Pour afficher une erreur dans le composant Ma file d’attente des travaux
+
 1. Sur une écriture indiquant le statut **Erreur**, sélectionnez l’action **Afficher erreur**.
 2. Examinez le message d’erreur et résolvez le problème.
-
 
 ## <a name="examples-of-what-can-be-scheduled-using-job-queue"></a>Exemples de ce qui peut être planifié à l’aide de la file d’attente des travaux
 
@@ -86,6 +88,10 @@ Si vous avez intégré [!INCLUDE[prod_short](includes/prod_short.md)] à [!INCLU
 Les files d’attente des travaux sont un outil efficace pour planifier l’exécution des processus d’entreprises en arrière-plan, par exemple lorsque plusieurs utilisateurs essaient de valider des commandes vente, mais uniquement une commande à la fois.  
 
 Pour plus d’informations, voir [Pour paramétrer la validation en arrière-plan avec les files d’attente des travaux](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
+
+## <a name="monitor-the-job-queue-with-telemetry"></a>Surveiller la file d’attente des travaux avec la télémétrie
+
+En tant qu’administrateur, vous pouvez utiliser [Application Insights](/azure/azure-monitor/app/app-insights-overview) pour recueillir et analyser la télémétrie que vous pouvez utiliser pour identifier les problèmes. Pour plus d’informations, consultez [Surveillance et analyse de la télémétrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) dans le contenu pour développeurs et administrateurs.  
 
 ## <a name="see-also"></a>Voir aussi
 

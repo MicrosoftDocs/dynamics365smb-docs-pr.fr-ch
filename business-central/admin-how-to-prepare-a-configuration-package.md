@@ -1,5 +1,5 @@
 ---
-title: 'Procédure : Préparer un package configuration'
+title: Préparer un package configuration
 description: Apprenez maintenant à préparer un package configuration RapidStart qui peut aider à configurer de nouvelles sociétés sur la base des données existantes.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32d30efb86202b1454e307a03e2dd30056e2b149
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440739"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660246"
 ---
 # <a name="prepare-a-configuration-package"></a>Préparer un package configuration
 
@@ -74,8 +74,20 @@ Spécifiez les champs qui sont inclus dans le package. Par défaut, tous les cha
     - Pour sélectionner uniquement les champs que vous souhaitez inclure, sélectionnez l’action **Effacer Inclus**. Pour ajouter tous les champs, choisissez l’action **Définir inclus**.  
     - Pour indiquer que les données de champ ne doivent pas être validées, désactivez la case à cocher **Champ Valider** pour le champ.  
 
-10. Déterminez si vous avez introduit des erreurs potentielles en choisissant l’action **Valider package**. Cela peut arriver lorsque vous n’incluez pas les tables sur lesquelles votre configuration se fonde.  
-11. Cliquez sur le bouton **OK**.  
+10. En option, pour appliquer des filtres de traitement aux données de la table ou pour ajouter un codeunit avec un code que vous souhaitez inclure dans le package, choisissez la ligne de la table appropriée, puis choisissez l’action **Règles de traitement**.
+
+    1. Dans la page **Config. règles de traitement des tables**, remplissez les champs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+        - Pour appliquer des filtres aux données, spécifiez l’action appropriée dans le champ **Action**, choisissez l’action **Filtres de traitement**, puis remplissez les champs.  
+
+            Par exemple, les packages de configuration de Microsoft pour les sociétés d’évaluation définissent les filtres de traitement sur les tables **En-tête vente** et **En-tête achat**.
+        - Pour ajouter un codeunit de traitement, spécifiez-le dans le champ **ID codeunit de traitement personnalisé**.
+
+          > [!NOTE]
+          > Ce codeunit doit utiliser la table 8614 *Enregistrement package config* comme paramètre de la méthode `OnRun`.
+    2. Fermez la page.
+11. Déterminez si vous avez introduit des erreurs potentielles en choisissant l’action **Valider package**. Cela peut arriver lorsque vous n’incluez pas les tables sur lesquelles votre configuration se fonde.  
+12. Cliquez sur le bouton **OK**.  
 
 Une fois que vous avez redéfini la liste des champs à inclure à partir d’une table, vous pouvez vérifier les résultats sous Excel.  
 

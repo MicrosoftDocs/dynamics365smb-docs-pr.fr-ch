@@ -1,6 +1,6 @@
 ---
-title: À propos de la fonctionnalité Planification | Microsoft Docs
-description: Le système de planification prend en compte toutes les données d’offre et de demande, ajuste les résultats et génère des suggestions pour l’équilibrage de l’offre en fonction de la demande.
+title: À propos de la fonctionnalité Planification
+description: Le système de planification dans Dynamics 365 Business Central prend en compte toutes les données d’offre et de demande, ajuste les résultats et génère des suggestions pour l’équilibrage de l’offre en fonction de la demande.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: dc3ef67f2f7578d81878b24662b97e47bc87a327
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e06bf94575c55d6e26fbe62c0b6cff06dd4fac70
+ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782053"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "6636031"
 ---
 # <a name="about-planning-functionality"></a>À propos de la fonctionnalité Planification
 
@@ -37,9 +37,12 @@ Un autre objectif du système de planification est de garantir que le stock ne c
 
 ## <a name="planning-calculation"></a>Calcul de planification
 
-Le système de planification est guidé par la demande prévue et réelle des clients ainsi que par les paramètres de réapprovisionnement de stock. L’exécution du calcul de planification a pour effet que l’application suggère des mesures spécifiques (messages d’action) à prendre concernant le réapprovisionnement possible auprès de fournisseurs, les transferts entre entrepôts ou la production. S’il y a déjà des ordres de réapprovisionnement, les mesures suggérées peuvent être d’augmenter ou d’accélérer les commandes pour répondre à l’évolution de la demande.  
+Le système de planification est guidé par la demande prévue et réelle des clients ainsi que par les paramètres de réapprovisionnement de stock. L’exécution du calcul de planification a pour effet que l’application suggère des mesures spécifiques ([messages d’action](production-how-to-run-mps-and-mrp.md#action-messages)) à prendre concernant le réapprovisionnement possible auprès de fournisseurs, les transferts entre entrepôts ou la production. S’il y a déjà des ordres de réapprovisionnement, les mesures suggérées peuvent être d’augmenter ou d’accélérer les commandes pour répondre à l’évolution de la demande.  
 
 La base de la routine de planification réside dans le calcul gros/net. Les besoins nets déterminent les lancements de commandes planifiées, qui sont programmés sur la base des informations de gamme (articles fabriqués) ou du délai de réapprovisionnement de la fiche article (articles achetés). Les quantités de lancement de commandes planifiées sont basées sur le calcul de planification et affectées par les paramètres définis sur les fiches article individuelles.  
+
+> [!TIP]
+> Le système de planification dépend de la façon dont votre organisation utilise les magasins. Pour plus d’informations, consultez [Planification avec ou sans magasins](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Planification à l’aide d’ordres de transfert manuels
 

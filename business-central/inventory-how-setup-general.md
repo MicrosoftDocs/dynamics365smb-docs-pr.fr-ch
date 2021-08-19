@@ -1,5 +1,5 @@
 ---
-title: Définir les Paramètres stock généraux
+title: Définir des informations générales relatives aux stocks
 description: Décrit comment définir la Paramètres stock généraux afin que vous puissiez gérer votre entrepôt et votre stock.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2021
+ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: a99de8575891e15712e221f28bbf3f4a46f2f771
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cc52935e743b0e8af4f934c040898e64665843fc
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435637"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688266"
 ---
 # <a name="set-up-general-inventory-information"></a>Définir des informations générales relatives aux stocks
 
@@ -31,15 +31,20 @@ Pour des informations détaillées sur les champs de coût, **Compta. coûts aut
 Vous pouvez inclure un délai entrepôt par défaut pour votre stock sur la page **Paramètres stock** ou pour votre magasin dans le calcul de la promesse de livraison sur la ligne achat. Pour plus d’informations, voir [Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md).  
 
 > [!NOTE]
-> Le bouton de basculement **Ajustement automatique des coûts** est activé par défaut pour garantir que les valeurs du stock soient toujours correctes dans la Comptabilité, qui à son tour maintient vos statistiques vente et profit à jour. Les modifications de coût des écritures entrantes, telles que celles des sorties achat ou production, sont affectées aux écritures sortantes correspondantes, telles que les ventes ou les transferts. Ceci est utile pour les nouveaux clients et petites entreprises [!INCLUDE[prod_short](includes/prod_short.md)] avec des niveaux de mouvements de stock relativement bas. Cependant, à mesure que l’entreprise se développe et que les niveaux de stock augmentent, cela peut ralentir les performances du système. Pour minimiser les performances réduites lors de la validation, sélectionnez une option de temps pour définir jusqu’où dans le passé depuis la date de travail une transaction entrante peut se produire pour déclencher potentiellement l’ajustement des entrées de valeur sortantes associées. Sinon, vous pouvez ajuster manuellement les coûts à intervalles réguliers avec le Traitement par lots Ajuster coûts - Écr. article.
+> Le champ **Ajustement automatique des coûts** est défini sur *Toujours* par défaut pour garantir que les valeurs du stock soient toujours correctes dans la Comptabilité, qui à son tour maintient vos statistiques vente et profit à jour. Les modifications de coût des écritures entrantes, telles que celles des sorties achat ou production, sont affectées aux écritures sortantes correspondantes, telles que les ventes ou les transferts. Ceci est utile pour les nouveaux clients et petites entreprises [!INCLUDE[prod_short](includes/prod_short.md)] avec des niveaux de mouvements de stock relativement bas.
+>
+> Cependant, à mesure que l’entreprise se développe et que les niveaux de stock augmentent, cela peut ralentir les performances du système. Pour minimiser les performances réduites lors de la validation, sélectionnez une option de temps pour définir jusqu’où dans le passé depuis la date de travail une transaction entrante peut se produire pour déclencher potentiellement l’ajustement des entrées de valeur sortantes associées.
+>
+> Sinon, vous pouvez ajuster manuellement les coûts à intervalles réguliers avec le Traitement par lots Ajuster coûts - Écr. article. Vous pouvez également désactiver la validation automatique des coûts ou définir le champ **Ajustement automatique des coûts** sur *Jamais*. Dans les deux cas, une notification s’affiche pour vous permettre de démarrer un guide de configuration assistée qui vous aide à planifier des tâches pour la file d’attente des travaux. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Voir aussi
+
 [Configuration du stock](inventory-setup-inventory.md)  
-[Détails de conception : modes évaluation stock](design-details-costing-methods.md)    
+[Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 [Gestion du stock](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
-[Fonctionnalités marché](ui-across-business-areas.md)
+[Fonctionnalités marché](ui-across-business-areas.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

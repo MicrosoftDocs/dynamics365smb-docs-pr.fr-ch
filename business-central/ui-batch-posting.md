@@ -1,6 +1,6 @@
 ---
 title: Valider plusieurs documents en même temps
-description: Plutôt que de valider des documents individuels un à un, vous pouvez sélectionner plusieurs documents non validés dans une liste pour validation par lot immédiate ou planifiée.
+description: Découvrez comment sélectionner plusieurs documents non validés dans une liste pour une validation par lots immédiate ou planifiée dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4920e363af9b35afb4369682ca0310f095b02bb0
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446062"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649702"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Valider plusieurs documents en même temps
 
@@ -78,7 +78,7 @@ Si la file d’attente des travaux ne peut pas valider la commande vente, le sta
 1. Dans le document que vous avez essayé de valider avec la validation en arrière-plan, choisissez le champ **Statut de la file d’attente des travaux**, qui contient **Erreur**.
 2. Examinez le message d’erreur et résolvez le problème.
 
-Sinon, vous pouvez vérifier sur la page **Écritures journal file d’attente des travaux** si la commande vente a été validée avec succès. Pour plus d’informations, voir [Pour afficher le statut ou les erreurs dans la fille d’attente](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+Sinon, vous pouvez vérifier sur la page **Écritures journal file d’attente des travaux** si la commande vente a été validée avec succès. Pour plus d’informations, consultez la section [Surveiller la file d’attente des travaux](#monitor-the-job-queue).
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Pour créer une écriture file d’attente des travaux pour la validation par lots des commandes vente
 
@@ -117,6 +117,11 @@ La procédure suivante décrit comment définir le rapport **TPL valider command
 
 Les commandes vente dans les filtres définis sont à présent validées chaque jour de la semaine à 16 h 00.
 
+## <a name="monitor-the-job-queue"></a>Surveiller la file d’attente des travaux
+
+Si vous configurez la validation en arrière-plan avec les files d’attente des travaux, convertissez-la en une tâche périodique pour surveiller la file d’attente des travaux et détecter les éventuels problèmes. Vous pouvez suivre le statut dans la page **Écritures file d’attente des travaux**. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).  
+
+En tant qu’administrateur, vous pouvez utiliser [Application Insights](/azure/azure-monitor/app/app-insights-overview) pour recueillir et analyser la télémétrie que vous pouvez utiliser pour identifier les problèmes. Pour plus d’informations, consultez [Surveillance et analyse de la télémétrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) dans le contenu pour développeurs et administrateurs.  
 
 ## <a name="see-also"></a>Voir aussi
 

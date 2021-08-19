@@ -1,18 +1,18 @@
 ---
 title: Mettre à jour des taux de change devise
-description: Suivez des montants dans différentes devises à l’aide de codes devise, et laissez Business Central ajuster les taux de change des écritures validées avec un service externe.
+description: Suivez des montants dans différentes devises à l’aide de codes devise, et laissez Business Central ajuster les taux de devise étrangère des écritures validées avec un service externe.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 06/03/2021
+ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441637"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660196"
 ---
 # <a name="update-currency-exchange-rates"></a>Mettre à jour des taux de change devise
 
@@ -29,6 +29,9 @@ Votre comptabilité est configurée pour utiliser votre devise société (DS), m
 > Si vous souhaitez utiliser une devise de reporting supplémentaire pour le reporting financier, assurez-vous de bien comprendre les limites. Pour plus d’informations, voir [Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Devises
+
+> [!NOTE]  
+> Dans [!INCLUDE[prod_short](includes/prod_short.md)], si vous recherchez des informations en temps réel sur les taux de devise étrangère (FX) ou les taux historiques, vous les trouverez sous la désignation de devise. En plus de cet article, consultez aussi [Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md).
 
 Vous spécifiez les codes devise dans **Devises**, y compris les informations supplémentaires et les paramètres nécessaires pour chaque code devise.
 

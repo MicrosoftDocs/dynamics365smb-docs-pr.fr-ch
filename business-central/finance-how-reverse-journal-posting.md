@@ -1,5 +1,5 @@
 ---
-title: Annuler une validation en validant une écriture opposée| Microsoft Docs
+title: Annuler une validation en validant une écriture opposée
 description: Si vous avez effectué une validation erronée dans la feuille comptabilité, vous pouvez utiliser la fonction de contrepassation de transaction pour annuler la validation avec une piste d’audit correcte.
 services: project-madeira
 documentationcenter: ''
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2021
+ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: fc759d1fdb08b847028bf4a24157c17c4d2f74e1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c23dcaed561997b5c0f38b4cd5ad5631b8519706
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444477"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660171"
 ---
-# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Inversion d’une validation feuille et annuler les réceptions/envois
-Pour annuler une validation feuille erronée, sélectionnez l’écriture et créez une écriture inverse (écritures identiques aux écritures originales mais avec le signe opposé) portant les mêmes numéro de document et date comptabilisation que l’écriture d’origine. Une fois l’écriture contrepassée, créez l’écriture correcte.
+# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Contrepasser une validation feuille et annuler les réceptions/envois
+La contrepassation des validations feuille n’est pas seulement utilisée pour corriger les erreurs, mais elle peut également être utilisée pour effacer une ancienne écriture de régularisation avant d’en saisir une nouvelle, par exemple. Vous sélectionnez l’écriture et créez une écriture de contrepassation (écritures identiques aux écritures originales mais avec le signe opposé dans le champ du montant) portant le même numéro de document et la même date de validation que l’écriture d’origine. Une fois l’écriture contrepassée, créez l’écriture correcte.
 
 Vous pouvez uniquement inverser les écritures validées à partir d’une ligne feuille comptabilité. Une écriture ne peut être contrepassée qu’une fois.
 
