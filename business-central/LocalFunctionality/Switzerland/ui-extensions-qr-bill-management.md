@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 06/21/2021
+ms.date: 09/06/2021
 ms.author: soalex
-ms.openlocfilehash: 3eecd93dbb2a8ca750568f9a9d576054b322644b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a1ec0dfceba2755c70b8532ff00d49a4d76aba98
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440482"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482418"
 ---
 # <a name="qr-bill-management-in-the-swiss-version-of-business-central"></a>Gestion des QR-factures dans la version suisse de Business Central
 À partir du 1er juillet 2020, les sociétés en Suisse doivent pouvoir recevoir des QR-factures. Les QR-factures sont des bordereaux de paiement qui suivent les factures, et constituent une initiative nationale visant à rationaliser les processus de paiement. Les QR-factures remplacent tous les borderaux de paiement existants et les fonctionnalités liées à l'ESR. Elles contiennent toutes les informations nécessaires pour effectuer les paiements, et un code QR sur le borderau de paiement facilite l'importation des informations dans [!INCLUDE[prod_short](../../includes/prod_short.md)]. Toutes les informations pertinentes sont importées et utilisées pour générer des paiements pour le vendeur qui a envoyé la QR-facture, y compris la référence du paiement, qui est automatiquement incluse dans les écritures comptables fournisseurs et exportée dans les fichiers de paiement à la banque.
@@ -43,6 +43,9 @@ Lorsque vous créez une QR-facture, vous pouvez inclure des informations de fact
 ## <a name="understanding-the-payment-reference"></a>Comprendre la référence de paiement
 Les processus de paiement consistent à payer le bon montant à la bonne partie et à faciliter le rapprochement des paiements pour clôturer les comptes en souffrance. L'extension Gestion des QR-factures gère cela en générant une référence de paiement pour les QR-factures qui sont uniques pour les factures émises dans une société spécifique, ce qui signifie que la même référence de paiement ne peut pas être émise plusieurs fois. Si votre client utilise [!INCLUDE[prod_short](../../includes/prod_short.md)], la référence de paiement est importée lors de la réception des QR-factures, transférée à la page des Écritures comptables fournisseur et utilisée comme référence lors de la création des paiements fournisseur. Pour plus d'informations, voir [Réception des QR-factures](ui-extensions-qr-bill-management.md#receiving-qr-bills). Le flux est similaire à la fonctionnalité Référence ESR précédente que les QR-factures remplacent. Finalement, les fichiers de paiement (pain.001) seront envoyés de l'application commerciale du client à sa banque avec le message de transférer les montants sur le compte du fournisseur. La banque produira un fichier de relevé client (camt.054) que le fournisseur pourra importer pour rapprocher les comptes. Ce fichier comprendra la référence du paiement et est importé via la structure d'échange de données qui est mise à jour par l'extension Gestion des QR-factures pour importer les fichiers camt.054.  
 Pour les références ESR, vous pouviez par exemple configurer les informations de manière à ce qu'elles contiennent le numéro de client et le numéro de facture. Vous ne pouvez pas configurer la référence de paiement dans les QR-factures. Il y aura toujours une relation 1:1 entre une QR-facture émise et un paiement, ce qui facilite le rapprochement et élimine la nécessité de configurer la référence de paiement sur les QR-factures. Au lieu de cela, [!INCLUDE[prod_short](../../includes/prod_short.md)] utilise un compteur unique pour la référence de paiement. En outre, une logique est présente pour bloquer l'importation ou la numérisation de la même référence de paiement deux fois.
+
+## <a name="using-multiple-bank-accounts-as-issuers-of-qr-bills"></a>Utilisation de plusieurs comptes bancaires comme émetteurs de QR-factures
+Les émetteurs de QR-factures peuvent utiliser plusieurs comptes bancaires pour acheminer les paiements vers différents comptes bancaires. Cette fonctionnalité est liée au mode de paiement sur lequel vous pouvez spécifier le **N° compte bancaire des QR-factures**. Lorsqu'elle est spécifiée, l'information IBAN/QR-IBAN de ce compte bancaire sera utilisée sur les QR-factures qui utilisent la méthode de paiement donnée. Vous pouvez ainsi acheminer les paiements entrants vers le compte bancaire souhaité. Si vous n'utilisez pas plusieurs comptes bancaires et que vous spécifiez le **N° compte bancaire des QR-factures** sur la carte de mode de paiement, l'information QR-IBAN/IBAN provenant des informations sur la compagnie est utilisée sur les QR-factures à la place. Assurez-vous d'y avoir configuré au moins les informations de votre compte bancaire principal.
 
 ## <a name="scanning-and-importing-qr-bills"></a>Numérisation et importation de QR-factures
 Pour numériser ou importer une QR-facture, vous devez utiliser l'un des types de scanners suivants :
