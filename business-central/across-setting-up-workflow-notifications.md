@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 80d796a827f2c0196c6590c89de04a1945938313
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: f0db9d63257d37fe6be5d31fc58541caf968907a
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320629"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482459"
 ---
 # <a name="workflow-notifications"></a>Notifications flux de travail
 
@@ -40,6 +40,10 @@ Vous pouvez configurer différents aspects des notifications du workflow dans le
 * Personnaliser les notifications par e-mail
 
     Si vus le souhaitez, vous pouvez personnaliser le contenu des e-mails de notification en modifiant l’état 1320, notification par e-mail. Pour plus d’informations, voir [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md).  
+
+    > [!NOTE]
+    > Si vous souhaitez utiliser l’e-mail comme méthode de notification, vous devez configurer l’adresse e-mail de l’expéditeur et du destinataire dans [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Configurer l’adresse e-mail](admin-how-setup-email.md).
+
 * Options de réponse
 
     Vous configurez un contenu spécifique et des règles d’une notification de workflow lorsque vous créez le workflow en question. Pour effectuer cette opération, sélectionnez les options sur la page **Options réponse de flux de travail** pour la réponse de flux de travail qui représente la notification. Pour plus d’informations, reportez-vous à l’étape 9 dans [Créer des workflows](across-how-to-create-workflows.md).  

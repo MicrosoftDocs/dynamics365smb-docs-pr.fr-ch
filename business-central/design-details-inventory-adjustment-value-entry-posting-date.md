@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/27/2021
+ms.date: 08/19/2021
 ms.author: edupont
-ms.openlocfilehash: 2a3d35672905094e714f85ac4758cbf39ec88cb6
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: 3dcda7f44797f52e50babe4dbec90e3b2be6f19d
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688343"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440755"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Détails de conception : date comptabilisation de l’écriture valeur d’ajustement  
 
@@ -94,7 +94,7 @@ La première date comptabilisation autorisée est le premier jour de la premièr
 |Registre temps :       |         |
 |Format adresse local :|   Code postal      |  
 
- La première date comptabilisation autorisée est la date indiquée dans le champ Début période validation : 1 septembre 2020.  
+ La première date comptabilisation autorisée est la date indiquée dans le champ Début période validation : 10 septembre 2020.  
  Si les périodes inventaire et les dates comptabilisation autorisées dans les paramètres comptabilité sont définies, la date la plus récente des deux définit la plage de dates comptabilisation autorisées.  
 
  Étape 3 : affectation d’une date comptabilisation autorisée.  
@@ -164,7 +164,7 @@ Tri : ID utilisateur
 
 |ID utilisateur  |Début période validation  | Fin période validation  |
 |---------|---------|--------|
-|<name> |  2020/09/11      |2020/09/30      |
+|USERNAME |  2020/09/10      |2020/09/30      |
 
  En attribuant à l’utilisateur une plage de dates comptabilisation autorisée plus large (ou identique) que dans la période inventaire ou les paramètres comptabilité, le conflit mentionné sera évité. L’écriture valeur d’ajustement avec la date comptabilisation du 10 septembre sera publiée avec succès avec cette configuration.
 
@@ -499,7 +499,7 @@ L’état Évaluation du stock est imprimé à la date du 31 décembre 2020
 
  Il est difficile d’avoir un état Évaluation du stock indiquant Quantité = 0 alors que la valeur <> 0. Dans ce cas, il est également plus difficile d’exprimer des paramètres optimaux, étant donné que les factures achat arrivent le même jour mais couvrent différentes périodes ou même différents exercices comptables. Le passage à un nouvel exercice comptable nécessite généralement une planification et à cet effet, le processus Ajuster coûts – Écr article qui reconnaît COGS, doit être pris en compte.  
 
- Dans ce scénario, une solution aurait pu être que le champ Début période validation dans les paramètres comptabilité indique une date en décembre pour quelques jours de plus et que la validation des premiers frais annexes soit reportée pour que tous les coûts de la période ou de l’exercice précédent soient reconnus pour la période à laquelle ils appartiennent. Ainsi, le traitement par lots Ajuster coûts – Écr. article serait exécuté et la date comptabilisation autorisée serait déplacée vers la nouvelle période ou le nouvel exercice. Les premiers frais annexes avec la date comptabilisation du 2 janvier peuvent ensuite être validés.  
+ Dans ce scénario, une solution aurait pu être que le champ Début période validation dans les paramètres comptabilité indique une date en décembre pour quelques jours de plus et que la validation des premiers frais annexes soit reportée pour que tous les coûts de la période ou de l’exercice précédent soient reconnus pour la période à laquelle ils appartiennent. Ainsi, le traitement par lots Ajuster coûts – Écr. article serait exécuté et la date comptabilisation autorisée serait déplacée vers la nouvelle période\/le nouvel exercice. Les premiers frais annexes avec la date comptabilisation du 2 janvier peuvent ensuite être validés.  
 
 ## <a name="history-of-adjust-cost--item-entries-batch-job"></a>Historique du traitement par lots Ajuster coûts – Écr. article  
 

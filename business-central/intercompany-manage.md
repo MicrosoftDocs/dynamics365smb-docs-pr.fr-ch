@@ -8,18 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/02/2021
+ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 0a69507b32f8782fe876458adb590529bfd64b20
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 19fa804213d4f0a66a92a9febb157f2b5da23ec2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184439"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440581"
 ---
 # <a name="managing-intercompany-transactions"></a>Gestion des transactions intersociétés
 
-Votre organisation peut comprendre plusieurs sociétés mais pourrait ne pas disposer du nombre équivalent d’équipes comptables et administratives. La fonctionnalité Intersociétés vous permet de commercer avec vos filiales et vos organisations partenaires internes de la même manière qu’avec vos fournisseurs et vos clients externes. Vous n’entrez les informations de transaction intersociétés qu’une seule fois dans les documents appropriés. Vous pouvez continuer à utiliser les fonctionnalités que vous connaissez bien, telles que la gestion des clients et des fournisseurs. Les fonctionnalités de mappage pour le plan comptable et les dimensions permettent de veiller à ce que les informations apparaissent aux bons endroits.  
+Les fonctionnalités de transactions intersociétés sont conçues pour les utilisateurs qui contrôlent plusieurs entités juridiques et ont mis en place plusieurs sociétés afin de séparer les fonctions comptables de chacune d’elles. Cette description large s’applique à de nombreux utilisateurs, en particulier ceux qui opèrent sur des marchés internationaux ou dans des zones incluant des cultures commerciales et des environnements environnementaux très disparates.
+
+Votre organisation peut comprendre plusieurs sociétés mais pourrait ne pas disposer du nombre équivalent d’équipes comptables et administratives. Les transactions intersociétés vous permettent de simplifier et de rationaliser les processus et les transactions commerciaux entre toutes ces entités.
+
+Après avoir commencé à utiliser les transactions intersociétés, le fait de commercer avec vos filiales partenaires internes devient aussi simple que de traiter avec des fournisseurs et des clients externes. Vous n’entrez les informations de transaction intersociétés qu’une seule fois dans les documents appropriés. Vous pouvez continuer à utiliser les fonctionnalités que vous connaissez bien, telles que la gestion des clients et des fournisseurs. Les fonctionnalités de mappage pour le plan comptable et les dimensions permettent de veiller à ce que les informations apparaissent aux bons endroits.  
 
 La fonctionnalité Intersociétés offre quatre grands avantages :  
 
@@ -28,9 +32,28 @@ La fonctionnalité Intersociétés offre quatre grands avantages :
 - Piste d’audit et visibilité complètes des activités commerciales et des historiques de transactions  
 - Transactions efficaces, rentables avec des filiales ou des succursales  
 
+## <a name="streamlining-the-flow-of-business-activities"></a>Rationalisation du flux des activités commerciales  
+
+Les transactions intersociétés vous permettent de distribuer des documents vente et achat, ainsi que des écritures comptables à l’ensemble de vos bureaux satellites, représentations commerciales ou succursales depuis le programme. Cela vous permet de bénéficier d’un gain de temps et d’une efficacité accrue dans l’ensemble de votre organisation, dans la mesure où vous éliminez les activités redondantes liées à la saisie de données, ainsi qu’à l’envoi, la réception, l’impression et l’archivage des documents vente et achat sur papier.  
+
 Vous contrôlez totalement tous les documents de transaction. Par exemple, vous pouvez rejeter un document qui vous a été envoyé et, de cette manière, inverser des validations feuille et annuler les réceptions/envois incorrects. Ou bien, lorsque vous faites un achat à une société partenaire ou une filiale, vous pouvez mettre à jour la commande achat tant que la société vendeuse n’a pas expédié de biens.  
 
-Lorsque vous entrez une transaction, vous ne devez pas spécifier les comptes pour un ensemble de lois particulier, mais simplement fournir l’identification de la société concernée. La fonctionnalité Intersociétés crée des lignes feuilles comptabilité qui entraînent un équilibrage des lois des deux sociétés impliquées dans une transaction. Dans Clients et fournisseurs, vous affectez un code partenaire intersociétés à tout client ou fournisseur. À partir de ce moment, l’ensemble des commandes et des factures générées en relation avec des transactions avec ces sociétés produisent des documents correspondants dans la société partenaire, ce qui aboutit à un équilibrage correct des comptes.  
+Lorsque vous entrez une transaction, vous ne devez pas spécifier les comptes pour un ensemble de lois particulier, mais simplement fournir l’identification de la société concernée. La fonctionnalité intersociétés crée des lignes feuilles comptabilité qui entraînent un équilibrage des lois des deux sociétés impliquées dans une transaction. Dans Clients et fournisseurs, vous affectez un code partenaire intersociétés à tout client ou fournisseur. À partir de ce moment, l’ensemble des commandes et des factures générées en relation avec des transactions avec ces sociétés produisent des documents correspondants dans la société partenaire, ce qui aboutit à un équilibrage correct des comptes.  
+
+La fonctionnalité de transactions intersociétés est concentrée sur la prise en charge de transactions intersociétés impliquant des documents vente et achat et des lignes feuille comptabilité. Dans ce domaine, la fonctionnalité de transactions intersociétés permet l’exécution de transactions intersociétés entre plusieurs bases de données [!INCLUDE [prod_short](includes/prod_short.md)], par exemple, dans différents pays/régions, ainsi que l’utilisation de plusieurs devises, plans comptables, dimensions et numérotations d’articles.  
+
+La fonctionnalité de transactions intersociétés utilise plusieurs écritures et documents pour les transactions intersociétés :  
+
+- Écritures comptables
+- Commandes achat et vente
+- Factures achat et vente
+- Avoirs
+- Retours
+
+Lorsque vous configurez les transactions intersociétés, vous créez une liste de partenaires intersociétés, appelés partenaires IC, ainsi qu’un plan comptable intersociété. En procédant de cette manière, vous pouvez effectuer des transactions feuille comptabilité intersociété. Vous configurez des dimensions (si nécessaire) séparément.  
+
+> [!NOTE]
+> La feuille comptabilité proprement dite n’inclut pas de fonctionnalité de devise mais convertit tous les montants conformément au taux applicable à la devise locale.
 
 Après avoir paramétré vos partenaires commerciaux comme clients et fournisseurs dans le système et leur avoir affecté des codes partenaire intersociété, vous pouvez échanger des documents achat et vente intersociété, notamment des articles et des frais annexes. [!INCLUDE [prod_short](includes/prod_short.md)] permet l’exécution de transactions intersociétés entre plusieurs bases de données ; par exemple, dans différents pays/régions, ainsi que l’utilisation de plusieurs devises, plans comptables, dimensions et numérotations d’articles.  
 
@@ -46,7 +69,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Créez vos fournisseurs et vos clients intersociétés en tant que partenaires intersociétés, et configurez un plan comptable intersociétés.|[Configuration des fonctionnalités intersociétés](intercompany-how-setup.md)|
 |Utilisez les documents ou les feuilles intersociétés pour valider les transactions effectuées avec vos partenaires intersociétés.|[Utiliser les documents et les feuilles intersociétés](intercompany-how-work-documents-journals.md)|
 |Organisez et traitez les transactions entrantes et sortantes que vous échangez avec vos partenaires intersociétés.|[Gérer la boîte de réception et la boîte d’envoi intersociétés](intercompany-how-manage-intercompany-inbox.md)|
-|Utilisez les écritures intersociétés pour répartir les coûts entre les sociétés partenaires.|[Allouer les coûts aux partenaires intersociétés](intercompany-allocate-costs.md)|
+|Utilisez les transactions intersociétés pour répartir les coûts entre les sociétés partenaires.|[Allouer les coûts aux partenaires intersociétés](intercompany-allocate-costs.md)|
 
 ## <a name="see-also"></a>Voir aussi
 

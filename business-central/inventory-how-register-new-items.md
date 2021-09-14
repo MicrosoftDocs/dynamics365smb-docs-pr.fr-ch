@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/16/2021
+ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435658"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440456"
 ---
 # <a name="register-new-items"></a>Enregistrer de nouveaux articles
 
@@ -85,6 +85,23 @@ Si vous achetez le même article chez plusieurs fournisseurs, vous devez saisir,
 6. Répétez les étapes 2 à 5 pour chaque fournisseur auprès de qui vous souhaitez acheter l’article.
 
 Les fournisseurs s’affichent maintenant sur la page **Catalogue fournisseur articles** (que vous ouvrez à partir de la fiche article), de sorte que vous pouvez facilement sélectionner un autre fournisseur.
+
+## <a name="set-up-item-substitutions"></a>Configuration d’articles de substitution
+
+Vous pouvez configurer des articles pour qu’ils aient des substituts, tels que d’autres articles pouvant être utilisés à la place de l’article d’origine.
+
+### <a name="to-make-an-item-substitution"></a>Pour affecter le statut de substitut à un article
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
+2. Recherchez l’article concerné, puis cliquez sur le **N° article** pour ouvrir la fiche article.  
+3. Choisissez l’action **Association**, **Article**, puis **Substitutions** pour ouvrir la page Saisie de substitution d’article.  
+4. Sélectionnez le champ **N° substitut**, puis sélectionnez l’article de substitution dans la liste.
+5. Renseignez ou modifiez les autres champs de la page selon vos besoins.
+
+Lorsque la quantité d’articles requis, comme pour une ligne vente, dépasse la quantité disponible en stock, un message apparaît pour vous informer que des articles de substitution sont disponibles.
+
+> [!NOTE]  
+> Sachez que les articles de substitution n’entraîneront pas automatiquement le remplacement d’un article par un autre, par exemple lors de la création d’une commande client ou dans une nomenclature. Au lieu de cela, vous serez alerté du fait qu’un substitut est disponible pour vous.
 
 ## <a name="categories-attributes-and-variants"></a>Catégories, attributs et variantes
 

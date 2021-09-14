@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
+ms.search.keywords: kit, kitting, substitute items
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 34e869166ed3b556a91ba6c0793c60455cebfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 05060eaf315ac85f50509aec3df46ec3e9319deb
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435385"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440631"
 ---
 # <a name="sell-items-assembled-to-order"></a>Vente d’articles à assembler pour commande
 Si le champ **Stratégie d’assemblage** de la fiche article d’un élément d’assemblage est **Assembler pour commande**, alors l’article n’est pas supposé être en stock et doit être assemblé spécifiquement dans une commande vente. Lorsque vous entrez l’article dans une ligne commande vente, un ordre d’assemblage est automatiquement créé et lié à la commande vente.  
@@ -57,12 +57,15 @@ Dans cette procédure, vous effectuez la vente d’un article que vous assemblez
 10. Sur la commande vente, choisissez l’action **Lancer** pour informer le département d’assemblage que le processus d’assemblage peut démarrer.  
 11. Dans le département d’assemblage, suivez la procédure d’assemblage des articles qui sont vendus au cours de cette procédure. Pour plus d’informations, voir [Assembler des articles](assembly-how-to-assemble-items.md).  
 
+> [!NOTE]  
+> Sachez que les articles de substitution n’entraîneront pas automatiquement le remplacement d’un article par un autre, par exemple lors de la création d’une commande client ou dans une nomenclature. Au lieu de cela, vous serez alerté du fait qu’un substitut est disponible pour vous.
+
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
 [Stock](inventory-manage-inventory.md)  
-[Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Enregistrer de nouveaux articles](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

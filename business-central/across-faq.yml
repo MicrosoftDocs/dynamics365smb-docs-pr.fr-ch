@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 04/01/2021
+  ms.date: 08/24/2021
   ms.author: edupont
-  ms.openlocfilehash: 4d4864b0baa6b8455e51931701d72eea8923545f
-  ms.sourcegitcommit: 0c8428e1468d4f5c18fbe35c79d6bbe509b79620
+  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
+  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
   ms.translationtype: HT
   ms.contentlocale: fr-CH
-  ms.lasthandoff: 06/01/2021
-  ms.locfileid: "6124018"
+  ms.lasthandoff: 08/27/2021
+  ms.locfileid: "7440706"
 title: Foire aux questions sur l’utilisation de Business Central
 summary: "Cette section contient des réponses aux questions les plus fréquentes sur l’inscription à une version d’évaluation, l’achat d’un abonnement et l’utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez également apprendre comment obtenir le support technique.  \n"
 sections:
@@ -34,7 +34,7 @@ sections:
   - question: >
       Existe-t-il des différences entre un déploiement sur site et Business Central Online ?
     answer: >
-      Oui. [!INCLUDE [prod_short](includes/prod_short.md)] est optimisé pour le déploiement en ligne, et certaines fonctionnalités peuvent s'exécuter sur site uniquement dans certaines circonstances, tandis que d'autres ne sont pas prises en charge du tout. Pour plus d’informations, voir [Fonctions non implémentées dans les déploiements sur site de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (en anglais uniquement).
+      Oui. [!INCLUDE [prod_short](includes/prod_short.md)] est optimisé pour le déploiement en ligne, et certaines fonctionnalités peuvent s’exécuter sur site uniquement dans certaines circonstances, tandis que d’autres ne sont pas prises en charge du tout. Pour plus d’informations, voir [Fonctions non implémentées dans les déploiements sur site de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (en anglais uniquement).
   - question: >
       Puis-je suivre une formation sur Business Central ?
     answer: "Oui, vous pouvez ! Vous pouvez trouver du contenu eLearning gratuit sur le site [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Vous pouvez également demander une formation supplémentaire à votre revendeur. Si vous ne savez pas de qui il s’agit, consultez la section [Comment trouver un partenaire revendeur ?](#how-do-i-find-a-reselling-partner).  \n\nPour plus d’informations sur la formation Dynamics 365 fournie par Microsoft, voir la page [Formation Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  \n\nLe contenu supplémentaire est fourni par la communauté [!INCLUDE[prod_short](includes/prod_short.md)], comme le [Guide de terrain Microsoft Dynamics 365 Business Central](https://leanpub.com/dynamics) écrit par un partenaire.  \n"
@@ -68,6 +68,10 @@ sections:
     answer: >
       [!INCLUDE [service-terms](includes/service-terms.md)]
   - question: >
+      À quelle fréquence Business Central Online est-il mis à jour ?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] Online est un service qui se compose d’une plateforme et de fonctionnalités commerciales gérées par Microsoft. De nombreux partenaires Microsoft fournissent des fonctionnalités commerciales supplémentaires, par exemple pour répondre à des besoins spécifiques du secteur ou de la localisation. Les fonctionnalités commerciales et les composants de service sont surveillés en permanence et mis à jour le cas échéant. Vous pouvez toujours consulter le [plan de versions](/dynamics365/release-plans/) pour obtenir un aperçu des nouvelles fonctionnalités et des fonctionnalités à venir. Pour plus d’informations, consultez [Présentation du service pour Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (en anglais seulement) et [Nouveautés et prévisions](product-news.md).
+  - question: >
       Notre administrateur m’a déplacé vers un autre plan pour me donner un autre rôle, mais je vois toujours le même écran d’accueil dans Business Central.
     answer: "C’est un peu compliqué, mais il semble que votre administrateur n’a pas modifié votre le rôle attribué et a affecté des groupes d’utilisateurs qui correspondent à la nouvelle licence. Votre accès à [!INCLUDE[prod_short](includes/prod_short.md)] est essentiellement déterminé par le type de plan (licence) que vous avez, cela définit les autorisations, le rôle attribué et l’écran d’accueil par défaut. Vous pouvez modifier votre rôle manuellement dans Mes paramètres, mais si vous êtes passé à un autre plan (du plan Marché au plan Membres de l’équipe, par exemple), vous pouvez voir l’ancien écran d’accueil car vos autorisations n’ont pas été modifiées.  \n"
   - question: >
@@ -77,7 +81,7 @@ sections:
       Puis-je utiliser l’authentification à plusieurs facteurs ?
     answer: "Bien sûr. Si vous le faites, vous pouvez demander un mot de passe d’application pour envoyer des messages. Les mots de passe d’application permettent à une application ou à un appareil d’accéder à votre compte de messagerie. Les étapes pour obtenir un mot de passe d’application varient, selon le fournisseur de messagerie. Pour plus d’informations, reportez-vous à l’aide du fournisseur. Par exemple, si vous utilisez Outlook, voir [Authentification à plusieurs facteurs pour Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  \n"
   - question: Comment trouver un partenaire revendeur ?
-    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] est vendu et mis en œuvre via un réseau mondial de partenaires Dynamics 365 possédant une expertise du secteur. Contactez un partenaire pour une évaluation détaillée, des services de conseil et des tarifs supplémentaires. Pour plus d’informations, voir la section **Tarification** sur la page [Dynamics 365 Business Central sur microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  \n\nLorsque vous êtes prêt à acheter [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez rechercher un revendeur [!INCLUDE[prod_short](includes/prod_short.md)] sur la page [Je recherche un fournisseur de solution](https://go.microsoft.com/fwlink/?linkid=2038145). Vous pouvez également trouver des solutions et des services auprès de partenaires dans [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  \n\nSi vous souhaitez des conseils de Microsoft, contactez l’[Équipe commerciale Microsoft](https://go.microsoft.com/fwlink/?linkid=828707).  \n\nVotre partenaire revendeur gèrera aussi le support technique pour votre compte. Pour plus d'informations, reportez-vous à la rubrique [Ressources pour l'aide et l'assistance technique](product-help-and-support.md).  \n"
+    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] est vendu et mis en œuvre via un réseau mondial de partenaires Dynamics 365 possédant une expertise du secteur. Contactez un partenaire pour une évaluation détaillée, des services de conseil et des tarifs supplémentaires. Pour plus d’informations, voir la section **Tarification** sur la page [Dynamics 365 Business Central sur microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  \n\nLorsque vous êtes prêt à acheter [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez rechercher un revendeur [!INCLUDE[prod_short](includes/prod_short.md)] sur la page [Je recherche un fournisseur de solution](https://go.microsoft.com/fwlink/?linkid=2038145). Vous pouvez également trouver des solutions et des services auprès de partenaires dans [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  \n\nSi vous souhaitez des conseils de Microsoft, contactez l’[Équipe commerciale Microsoft](https://go.microsoft.com/fwlink/?linkid=828707).  \n\nVotre partenaire revendeur gèrera aussi le support technique pour votre compte. Pour plus d’informations, reportez-vous à la rubrique [Ressources pour l’aide et l’assistance technique](product-help-and-support.md).  \n"
   - question: >
       Le client Windows est-il pris en charge ?
     answer: >

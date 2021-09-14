@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, , integration, sync
+ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773351"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482210"
 ---
 # <a name="data-ownership-models"></a>Modèles de propriété de données
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,11 +39,11 @@ L’image suivante montre un exemple de cette configuration de données dans [!I
 
 ![Le centre de profit racine est en haut, les équipes au centre, puis les sociétés en bas.](media/cds_bu_team_company.png)
 
-Dans cette configuration, les enregistrements associés à la société Cronus US appartiennent à une équipe associée au centre de profit Cronus US <ID> dans [!INCLUDE[prod_short](includes/cds_long_md.md)]. Les utilisateurs pouvant accéder à ce centre de profit au moyen d’un rôle de sécurité défini sur la visibilité au niveau du centre de profit dans [!INCLUDE[prod_short](includes/cds_long_md.md)] peuvent maintenant voir ces enregistrements. L’exemple suivant montre comment utiliser des équipes pour fournir l’accès à ces enregistrements.
+Dans cette configuration, les enregistrements associés à la société Cronus US appartiennent à une équipe associée au centre de profit Cronus US dans [!INCLUDE[prod_short](includes/cds_long_md.md)]. Les utilisateurs pouvant accéder à ce centre de profit au moyen d’un rôle de sécurité défini sur la visibilité au niveau du centre de profit dans [!INCLUDE[prod_short](includes/cds_long_md.md)] peuvent maintenant voir ces enregistrements. L’exemple suivant montre comment utiliser des équipes pour fournir l’accès à ces enregistrements.
 
 * Le rôle de responsable commercial est attribué aux membres de l’équipe commerciale de Cronus US.
 * Les utilisateurs ayant le rôle de responsable commercial peuvent accéder aux enregistrements de compte pour les membres du même centre de profit.
-* L’équipe commerciale de Cronus US est associée au centre de profit de Cronus US mentionné précédemment. Les membres de l’équipe commerciale de Cronus US peuvent voir tout compte appartenant à l’utilisateur Cronus US <ID>, qui proviendrait de la table Société Cronus US dans [!INCLUDE[prod_short](includes/prod_short.md)].
+* L’équipe commerciale de Cronus US est associée au centre de profit de Cronus US mentionné précédemment. Les membres de l’équipe commerciale de Cronus US peuvent voir tout compte appartenant à l’utilisateur Cronus US, qui proviendrait de la table Société Cronus US dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Cependant, le mappage 1:1 entre le centre de profit, la société et l’équipe n’est qu’un point de départ, comme le montre l’image suivante.
 
@@ -51,7 +51,7 @@ Cependant, le mappage 1:1 entre le centre de profit, la société et l’équipe
 
 Dans cet exemple, un nouveau centre de profit racine EUR (Europe) est créé dans [!INCLUDE[prod_short](includes/cds_long_md.md)] en tant que parent pour Cronus DE (Allemagne) et Cronus ES (Espagne). Le centre de profit EUR n’est pas associé à la synchronisation. Cependant, il peut donner aux membres de l’équipe commerciale EUR l’accès aux données de compte dans Cronus DE et Cronus ES en définissant la visibilité des données sur **Centre de profit parent/enfant** sur le rôle de sécurité associé dans [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-La synchronisation détermine l’équipe devant posséder les enregistrements. Ceci est contrôlé par le champ **Équipe propriétaire par défaut** sur la ligne BCI - <ID>. Lorsqu’un enregistrement BCI - <ID> est activé pour la synchronisation, nous créons automatiquement le centre de profit associé et l’équipe propriétaire (si elle n’existe pas déjà), et définissons le champ **Équipe propriétaire par défaut**. Lorsque la synchronisation est activée pour une table, les administrateurs peuvent changer d’équipe propriétaire, mais une équipe doit toujours être affectée.
+La synchronisation détermine l’équipe devant posséder les enregistrements. Ceci est contrôlé par le champ **Équipe propriétaire par défaut** sur la ligne BCI. Lorsqu’un enregistrement BCI est activé pour la synchronisation, nous créons automatiquement le centre de profit associé et l’équipe propriétaire (si elle n’existe pas déjà), et définissons le champ **Équipe propriétaire par défaut**. Lorsque la synchronisation est activée pour une table, les administrateurs peuvent changer d’équipe propriétaire, mais une équipe doit toujours être affectée.
 
 > [!NOTE]
 > Les enregistrements passent en lecture seule après l’ajout et la sauvegarde d’une société. Veillez donc à choisir la société adéquate.

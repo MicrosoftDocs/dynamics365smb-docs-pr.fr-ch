@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: b738eeef9771185c6907d963f368c462ae02f2d2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543262"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440406"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>États et analyses de vente dans Business Central
 
@@ -36,6 +36,7 @@ Le tableau suivant décrit certains des principaux états dans les états de ven
 |**Statut expédition entrepôt**|7313|Cet état peut être utilisé pour tous les magasins pour lesquels le champ **Envoi requi** est sélectionné. L’état **Statut expédition entrepôt** vous montre tous les documents d’expédition d’entrepôt non validés, y compris les magasins, les codes emplacement, le statut des document, les quantités, etc. Cet état est parfait pour avoir une vue d’ensemble.|
 |**Liste des prélèvements stock**|813|Affiche la liste des commandes vente dans lesquelles un article est inclus. Les informations suivantes sont données pour chaque article : ligne commande vente avec le nom du client, code variante, code magasin, code emplacement, date d’expédition, quantité à expédier et unité. La quantité à livrer est totalisée pour chaque article. L’état peut être utilisé lorsque des articles vont être retirés du stock.<br>**Remarque** : cet état n’est pas disponible pour les fonctionnalités d’entrepôt avancées.|
 |**Commandes en souffrance du stock**|718|Affiche une liste qui comprend les lignes commande dont la date d’expédition est dépassée. Les informations suivantes sont données pour chaque article d’une commande : numéro, nom du client, numéro de téléphone du client, date d’expédition, quantité commandée et quantité sur commande en attente. L’état indique aussi s’il y a d’autres articles en commande en souffrance pour le client.|
+|**Commandes vente en cours**|708|Affiche la liste des commandes qui n’ont pas encore été livrées, ainsi que les articles commandés. Il indique le numéro de commande, le nom du client, la date d’expédition, la quantité commandée, la quantité retardée, la quantité en attente, la quantité ouverte et le prix unitaire, ainsi que les pourcentages de remise et leur montant. La quantité sur commande en attente, la quantité ouverte et le montant sont totalisés pour chaque article. Utilisez l’état pour visualiser s’il y a des problèmes de livraison ou s’il risque d’y en avoir.|
 
 
 

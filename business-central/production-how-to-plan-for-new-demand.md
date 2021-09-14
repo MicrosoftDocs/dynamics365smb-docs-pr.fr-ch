@@ -1,21 +1,20 @@
 ---
-title: Procédure de planification commande par commande
-description: Cette tâche de planification peut être effectuée sur la page Planning commande, affichant toute nouvelle demande ainsi que les informations de disponibilité et les suggestions d’approvisionnement.
+title: Planifier de nouvelles demandes commande par commande
+description: Cette tâche de planification peut être effectuée sur la page Planning commande, affichant toute nouvelle demande ainsi que les informations de disponibilité et les suggestions d’approvisionnement, notamment la substitution d’article.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 5a3481f1f1b1c08fd3006d1d62b92387414f0d41
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 63277d695f373c1914e55530a12cb921c8b6cc4f
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444245"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440733"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planifier de nouvelles demandes commande par commande
 Cette tâche de planification peut être effectuée sur la page **Planning commande**, affichant toute nouvelle demande ainsi que les informations de disponibilité et les suggestions d’approvisionnement. Elle fournit la visibilité et les outils nécessaires à la planification efficace des demandes des lignes vente et des lignes composant, puis à la création directe de différents types de commandes approvisionnement.  
@@ -67,6 +66,9 @@ La page affiche les lignes planning filtrées par la vue de filtre **Demande de 
 
     Si un article de substitution existe pour l’article demandé, le champ **Article de substitution** est défini sur **Oui**, et vous pouvez accéder à la page **Écritures art. substitution** et sélectionner l’article de substitution.  
 
+    > [!NOTE]  
+    > Sachez que les articles de substitution n’entraîneront pas automatiquement le remplacement d’un article par un autre, par exemple lors de la création d’une commande client ou dans une nomenclature. Au lieu de cela, vous serez alerté du fait qu’un substitut est disponible pour vous.
+
 7.  Cochez la case **Réserver** si vous voulez créer une réservation entre la commande approvisionnement que vous créez et la ligne demande pour laquelle cette commande est créée. Par défaut, ce champ est vide.  
 
     > [!NOTE]  
@@ -117,7 +119,7 @@ Une fois que la planification est terminée sur la page **Planning commande** et
 [Achats](purchasing-manage-purchasing.md)  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Enregistrer de nouveaux articles](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
