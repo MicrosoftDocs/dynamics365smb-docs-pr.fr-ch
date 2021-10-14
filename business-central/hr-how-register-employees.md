@@ -12,19 +12,23 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ed22406b4e02c1217e2e99db0fa6bbc811bae28b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9f25ea61c41bfeb08b9283153a96b8a78ce7c9b7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440564"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589297"
 ---
 # <a name="register-employees"></a>Enregistrer les employés
-Pour utiliser la fonctionnalité Ressources humaines, vous devez d’abord enregistrer chaque salarié en créant une fiche contenant les informations de base et connexes.
+Pour utiliser la fonctionnalité Human Resources, vous devez d’abord ajouter chaque employé en remplissant les champs de la page **Fiche salarié**.
 
-Vous pouvez modifier les informations d’un salarié à tout moment. La mise à jour des enregistrements relatifs à vos salariés simplifie les tâches de gestion du personnel. Par exemple, si l’adresse d’un salarié change, vous pouvez l’enregistrer sur sa fiche salarié.
+## <a name="adding-new-customers"></a>Ajout de nouveaux clients
+Vous pouvez ajouter de nouveaux employés manuellement, en remplissant les champs sur la page **Fiche salarié**, ou vous pouvez utiliser des modèles contenant des informations prédéfinies. Par exemple, vous pouvez créer des modèles pour différents types de profils d’employé. L’utilisation de modèles permet de gagner du temps lors de l’ajout de nouveaux employés et permet de garantir que les informations sont correctes à chaque fois. Si vous créez des modèles pour plusieurs types d’employé, vous pouvez choisir le modèle à utiliser lorsque vous ajoutez un employé. Si vous ne créez qu’un seul modèle, il sera utilisé pour tous les nouveaux employés. Après avoir créé un modèle, vous pouvez utiliser l’action **Appliquer le modèle** pour l’appliquer à un ou plusieurs employés sélectionnés. Pour créer un modèle, vous remplissez les informations que vous souhaitez réutiliser sur la page Fiche employé, puis l’enregistrez en tant que modèle.
 
-Les procédures suivantes décrivent comment créer une première fiche salarié et comment affecter deux types d’informations à un salarié. En outre, vous pouvez affecter diverses autres informations connexes, telles que les qualifications et les motifs d’indisponibilité. Pour affecter les informations concernant les salariés vous devez choisir un champ ou une action sur la page **Fiche salarié**.
+> [!TIP]
+> Il peut être utile de personnaliser la page **Modèle d’employé** lorsque vous créez un modèle. Par exemple, vous souhaiterez peut-être ajouter un champ qui n’est pas déjà affiché sur la page. Pour plus d’informations, voir [Personnaliser votre espace de travail](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+
+Vous pouvez modifier les informations d’un salarié à tout moment. La tenue à jour des enregistrements relatifs à vos salariés peut simplifier les tâches liées à la gestion du personnel. Par exemple, si l’adresse d’un salarié change, vous pouvez l’enregistrer sur la page Fiche employé.
 
 > [!NOTE]  
 > Vous pouvez rembourser les frais engagés par les employés durant leurs activités professionnelles. Pour cela, vous devez renseigner les champs du raccourci **Paiements** sur la page **Fiche salarié**. Pour plus d’informations, voir [Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md).
@@ -35,9 +39,9 @@ Les procédures suivantes décrivent comment créer une première fiche salarié
 3. Sur la page **Fiche employé**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Pour insérer une photo d’un salarié
-Si vous disposez d’une photo d’un salarié au format .bmp, vous pouvez l’insérer sur la fiche de ce dernier.
+Si vous disposez d’une photo d’un salarié, vous pouvez l’insérer sur la fiche de ce dernier.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche du salarié en question.
 3. Dans le récapitulatif **Photo salarié**, choisissez le bouton déroulant, puis choisissez **Importer**.
 4. Sur la page **Sélectionner une image à charger**, cliquez sur le bouton **Choisir**.

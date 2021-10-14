@@ -1,5 +1,5 @@
 ---
-title: 'Procédure pas à pas : calcul des travaux en cours pour un projet | Microsoft Docs'
+title: 'Procédure pas à pas : calcul des travaux en cours pour un projet'
 description: Les projets impliquent la consommation d’heures salarié, d’heures machines, d’articles en stock et d’autres types d’activité devant être suivis au fur et à mesure de l’avancée du projet.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58cc257b30829fe0b9a2fe2bdec4ef6e5a5855cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445241"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588141"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procédure pas à pas : calcul des travaux en cours pour un projet
 
@@ -52,7 +52,7 @@ Avec les projets, vous pouvez planifier l’utilisation des ressources de votre 
 
 |Champ|Désignation|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Laissez le champ vierge si la tâche projet fait partie d’un groupe de tâches.|  
+|**\<blank\>**|Laissez le champ vierge si la tâche projet fait partie d’un groupe de tâches.|  
 |**Total**|Définit la plage ou le groupe de tâches incluses dans le calcul des TEC et de la réception. Au sein du groupe, n’importe quelle tâche projet dont le **Type tâche projet** est réglé sur **Validation** est incluse dans le total TEC, à moins que le champ **Total - TEC** soit paramétré sur **Exclu**.|  
 |**Exclu**|S’applique uniquement à une tâche dont le **Type tâche projet** est défini sur **Validation**. La tâche n’est pas incluse lors du calcul des TEC et de la réception.|  
 

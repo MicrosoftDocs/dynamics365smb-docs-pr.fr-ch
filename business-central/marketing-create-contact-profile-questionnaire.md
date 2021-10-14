@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 06/22/2021
-ms.openlocfilehash: b71c63b8a02b2ddbf6f6135f30cba297dfcf418b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ce13672651a5b6b65712928b764ad11b3db514d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445541"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588541"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Utiliser des questionnaires profil pour classer les contacts professionnels
 Vous pouvez configurer des questionnaires profil à utiliser au moment d’entrer des informations sur les profils de vos contacts. Dans chaque questionnaire, vous pouvez configurer les questions à poser à vos contacts.  
@@ -49,114 +49,35 @@ Vous pouvez configurer le programme pour qu’il classe automatiquement les cont
 Une fois que vous avez configuré les questions profil à réponse automatique, affectez à un contact le questionnaire profil qui les contient. [!INCLUDE[prod_short](includes/prod_short.md)] répond ensuite automatiquement aux questions.  
 
 ## <a name="example"></a>Exemple :
+
 Vous pouvez classer vos contacts en fonction du montant de leurs achats :
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Réponse</strong></th>
-<th><strong>Doc. lettrage</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p>contacts ayant effectué des achats pour une somme supérieure ou égale à 500 000 DS</p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p>contacts ayant effectué des achats pour une somme comprise entre 100 000 et 499 999 DS</p></td>
-</tr>
-<tr class="odd">
-<td><p>C</p></td>
-<td><p>contacts ayant effectué des achats pour une somme inférieure ou égale à 99 999 DS</p></td>
-</tr>
-</tbody>
-</table>
+|Réponse|Doc. lettrage|
+|--- |--- |
+|A|contacts ayant effectué des achats pour une somme supérieure ou égale à 500 000 DS|
+|B|contacts ayant effectué des achats pour une somme comprise entre 100 000 et 499 999 DS|
+|C|contacts ayant effectué des achats pour une somme inférieure ou égale à 99 999 DS|
 
 Pour cela, renseignez la page **Paramètres questionnaires profil** comme suit :
 
-
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Type</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Classification automatique</strong></th>
-<th><strong>Valeur début</strong></th>
-<th><strong>Valeur fin</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Question</p></td>
-<td><p>Classification ABC</p></td>
-<td><p>Cochez la ligne appropriée.</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p>Réponse</p></td>
-<td><p>A</p></td>
-<td><p> </p></td>
-<td><p>500,000</p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p>Réponse</p></td>
-<td><p>B</p></td>
-<td><p> </p></td>
-<td><p>100,000</p></td>
-<td><p>499,999</p></td>
-</tr>
-<tr class="even">
-<td><p>Réponse</p></td>
-<td><p>C</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99,999</p></td>
-</tr>
-</tbody>
-</table>
+| Type     | Description        | Classification automatique     | Valeur début | Valeur fin |
+|----------|--------------------|------------------------------|------------|----------|
+| Question | Classification ABC | Cochez la ligne appropriée. |            |          |
+| Réponse   | A                  |                              | 500,000    |          |
+| Réponse   | B                  |                              | 100,000    | 499,999  |
+| Réponse   | C                  |                              |            | 99,999   |
 
 Renseignez ensuite la page **Questionnaire profil** comme suit :
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Champ</strong></th>
-<th><strong>Valeur</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Champ de classification des clients</strong></td>
-<td><emphasis>Ventes DS</emphasis></td>
-</tr>
-<tr>
-<td><strong>Méthode classification</strong></td>
-<td><emphasis>Valeur définie</emphasis></td>
-</tr>
-</tbody>
-</table>
+
+| Champ                         | Valeur         |
+|-------------------------------|---------------|
+| Champ de classification des clients | Ventes (DS)   |
+| Méthode classification         | Valeur définie |
 
 Lorsque vous affectez le questionnaire profil contenant cette question à un contact, l’application insère automatiquement la réponse correspondante dans les lignes profil de la fiche contact.
 
 ## <a name="see-also"></a>Voir aussi
+
 [Création de contacts](marketing-create-contact-companies.md)  
 
 

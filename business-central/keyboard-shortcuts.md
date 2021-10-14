@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438942"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588266"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -89,22 +89,22 @@ Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans 
 
 Des grilles contenant des lignes et des colonnes existent sur de nombreux types de page dans [!INCLUDE[prod_short](includes/prod_short.md)], telles que les pages de liste et les éléments **Lignes** sur les documents. Le passage d’une cellule à une autre sur une grille est entièrement compatible avec le clavier.
 
-|Appuyez sur les touches suivantes<br />(dans macOS)|Pour procéder dans une vue de liste |Pour procéder dans une vue en mosaïque |
-|--------------------------------|--------------------------|--------------------------|
-|Ctrl+Début<br />(Fn+Ctrl+Flèche gauche)|Sélectionnez la première ligne dans la liste ; le focus reste dans la même colonne.|Accéder à la première vignette de la première ligne. |
-|Ctrl+Fin<br />(Fn+Ctrl+Flèche droite)|Sélectionnez la dernière ligne dans la liste ; le focus reste dans la même colonne.|Accéder à la dernière vignette de la dernière ligne.|
-|Particulier<br />(Fn+flèche gauche)|Accéder au premier champ de la ligne.|Accéder à la première vignette de la ligne.|
-|Fin<br />(Fn+flèche droite)|Accéder au dernier champ de la ligne.|Accéder à la dernière vignette de la ligne.|
-|Saisissez|Ouvrez l’enregistrement associé à ce champ.<br /><br />Approprié uniquement si une page Fiche est associée à l’enregistrement.|Ouvre l’enregistrement.<br /><br />Approprié uniquement si une page Fiche est associée à l’enregistrement.|
-|Ctrl+Enter|Déplacez le focus sur l’élément suivant en dehors de la liste.|Déplacez le focus sur l’élément suivant en dehors de la liste.|
-|Page précédente<br />(Fn + flèche haut)|Faites défiler pour afficher l’ensemble de lignes au-dessus des lignes actuelles de la vue. |Fait défiler pour afficher l’ensemble de vignettes au-dessus des vignettes actuelles de la vue. |
-|Page suivante<br />(Fn + Flèche bas)|Faites défiler pour afficher l’ensemble de lignes sous des lignes actuelles de la vue.|Faites défiler pour afficher l’ensemble de vignettes sous des vignettes actuelles de la vue.|
-|Flèche bas|Accédez au champ de la ligne du dessous au sein de la même colonne |Accédez au champ de la vignette du dessous au sein de la même colonne |
-|Flèche vers le haut|Accédez au champ de la ligne du dessus au sein de la même colonne| Accédez au champ de la vignette du dessus au sein de la même colonne  |
-|Flèche vers la droite|Dans une liste en lecture seule, accédez au prochain champ à droite de la même ligne.<br /><br />Dans une liste modifiable, allez à droite dans le champ actuel.| Accédez à la prochaine vignette à droite de la même ligne. |
-|Flèche vers la gauche|Dans une liste en lecture seule, accédez au champ précédent à gauche de la même ligne. <br /><br />Dans une liste modifiable, allez à gauche dans le champ actuel.| Accédez à la vignette précédente à gauche de la même ligne. |
-|Tab|Dans une liste modifiable, accédez au prochain champ à droite de la même ligne.|Non applicable.||
-|MAJ+Tab|Dans une liste modifiable, accédez au champ suivant à gauche de la même ligne. | Non applicable. |
+| Appuyez sur les touches suivantes<br />(dans macOS) | Pour procéder dans une vue de liste | Pour procéder dans une vue en mosaïque |
+|--|--|--|
+| Ctrl+Début<br />(Fn+Ctrl+Flèche gauche) | Sélectionnez la première ligne dans la liste ; le focus reste dans la même colonne. | Accéder à la première vignette de la première ligne. |
+| Ctrl+Fin<br />(Fn+Ctrl+Flèche droite) | Sélectionnez la dernière ligne dans la liste ; le focus reste dans la même colonne. | Accéder à la dernière vignette de la dernière ligne. |
+| Particulier<br />(Fn+flèche gauche) | Accéder au premier champ de la ligne. | Accéder à la première vignette de la ligne. |
+| Fin<br />(Fn+flèche droite) | Accéder au dernier champ de la ligne. | Accéder à la dernière vignette de la ligne. |
+| Saisissez | Ouvrez l’enregistrement associé à ce champ.<br /><br />Approprié uniquement si une page Fiche est associée à l’enregistrement. | Ouvre l’enregistrement.<br /><br />Approprié uniquement si une page Fiche est associée à l’enregistrement. |
+| Ctrl+Enter | Déplacez le focus sur l’élément suivant en dehors de la liste. | Déplacez le focus sur l’élément suivant en dehors de la liste. |
+| Page précédente<br />(Fn + flèche haut) | Faites défiler pour afficher l’ensemble de lignes au-dessus des lignes actuelles de la vue. | Fait défiler pour afficher l’ensemble de vignettes au-dessus des vignettes actuelles de la vue. |
+| Page suivante<br />(Fn + Flèche bas) | Faites défiler pour afficher l’ensemble de lignes sous des lignes actuelles de la vue. | Faites défiler pour afficher l’ensemble de vignettes sous des vignettes actuelles de la vue. |
+| Flèche bas | Accédez au champ de la ligne du dessous au sein de la même colonne | Accédez au champ de la vignette du dessous au sein de la même colonne |
+| Flèche vers le haut | Accédez au champ de la ligne du dessus au sein de la même colonne | Accédez au champ de la vignette du dessus au sein de la même colonne |
+| Flèche vers la droite | Dans une liste en lecture seule, accédez au prochain champ à droite de la même ligne.<br /><br />Dans une liste modifiable, allez à droite dans le champ actuel. | Accédez à la prochaine vignette à droite de la même ligne. |
+| Flèche vers la gauche | Dans une liste en lecture seule, accédez au champ précédent à gauche de la même ligne. <br /><br />Dans une liste modifiable, allez à gauche dans le champ actuel. | Accédez à la vignette précédente à gauche de la même ligne. |
+| Tab | Dans une liste modifiable, accédez au prochain champ à droite de la même ligne. | Non applicable. |  |
+| MAJ+Tab | Dans une liste modifiable, accédez au champ suivant à gauche de la même ligne. | Non applicable. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Sélection, copie et collage
 

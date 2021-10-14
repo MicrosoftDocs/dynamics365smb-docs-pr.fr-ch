@@ -8,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
-ms.date: 04/01/2021
+ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0475e814807c2218b2dcc72f3c07359b80546cc3
-ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
+ms.openlocfilehash: 111e9b3dae70cc984ecc495a815de3d41ef42133
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6373253"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589022"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Dépannage et correction des axes analytiques
+
 Les rapports financiers et les vues d′analyse reposent souvent sur les données des axes analytiques. Malgré les garanties disponibles, il se produit parfois une erreur pouvant entraîner des imprécisions. Cette rubrique décrit certaines erreurs classiques et explique comment corriger les affectations d′axes analytiques sur les transactions validées afin que les rapports financiers soient précis.
 
 ## <a name="troubleshooting-dimensions-errors"></a>Résolution des erreurs liées aux axes analytiques
+
 Lorsque vous validez des documents ou des lignes feuille qui contiennent des axes analytiques, différentes erreurs peuvent survenir qui sont toutefois généralement liées à une configuration ou à une affectation incorrectes des axes.
 
 > [!NOTE]
@@ -42,30 +44,33 @@ Lorsque vous validez des documents ou des lignes feuille qui contiennent des axe
 |Une correction d’axe analytique ne se termine pas correctement.||-Choisissez **Réinitialiser** pour rétablir la correction à un état brouillon. Cela réinitialise les modifications et vous pouvez réexécuter la correction.|
 
 ## <a name="changing-dimension-assignments-after-posting"></a>Modification des attributions d’axe analytique après la publication
+
 Si vous découvrez qu’une dimension incorrecte a été utilisée sur les écritures comptables comptabilisées, vous pouvez corriger les valeurs d’axe analytique et mettre à jour vos vues d’analyse. Cela vous aide à garder vos rapports et analyses financiers exacts.
 
 > [!IMPORTANT]
 > Les fonctionnalités de correction des axes analytiques visent uniquement à rendre les rapports financiers précis. Les corrections d′axes analytiques s′appliquent uniquement aux entrées comptables. Ils ne modifient pas les axes analytiques affectés aux autres écritures comptables pour la même transaction. Un problème de correspondance existe entre les axes analytiques affectés dans les écritures comptables et dans les grands livres auxiliaires.
 
 ### <a name="setting-up-dimension-corrections"></a>Paramétrage des corrections des axes analytiques
+
 Il y a deux choses à prendre en compte lors de la configuration des corrections d’axe analytique :
 
 * Y a-t-il des axes analytiques que vous ne souhaitez pas permettre aux gens de changer ? Sur la page **Paramètres de correction d’axes analytiques**, spécifiez les axes analytiques que vous souhaitez bloquer pour les modifications.
 * À qui souhaitez-vous autoriser le changement d’axes analytiques ? Pour autoriser les utilisateurs à apporter des modifications, attribuez l’autorisation **CORRECTION AXE D365** aux utilisateurs. Les autorisations leur permettent de créer des corrections d’axes analytiques, de les exécuter et de les annuler si nécessaire. Ils pourront également spécifier des axes analytiques bloqués. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md). 
 
 ### <a name="correcting-a-dimension"></a>Correction d’un axe analytique
+
 Vous pouvez sélectionner manuellement une ou plusieurs écritures comptables ou utiliser des filtres pour sélectionner des séries d’entrées. Si nécessaire, vous pouvez également ajouter ou supprimer des axes analytiques. 
 
 1. Pour démarrer une correction d’axes analytiques, utilisez l’une des pages suivantes :
 
-* Sur la page **Comptabilité/Registre**, en sélectionnant un registre, puis en choisissant l’action **Corriger les axes analytiques**. Ceci lance une correction pour les entrées dans le registre sélectionné.
-* Sur la page **Écritures comptables**, en choisissant l’action **Correction d’axes analytiques**. 
+    * Sur la page **Comptabilité/Registre**, en sélectionnant un registre, puis en choisissant l’action **Corriger les axes analytiques**. Ceci lance une correction pour les entrées dans le registre sélectionné.
+    * Sur la page **Écritures comptables**, en choisissant l’action **Correction d’axes analytiques**. 
 
 2. Dans le champ **Description**, entrez les informations sur la modification. D’autres personnes pourraient utiliser ces informations plus tard pour comprendre ce qui a été fait.
 3. Sur le Raccourci **Écritures comptables sélectionnées**, choisissez les entrées appropriées.
 
-> [!IMPORTANT]
-> Lorsque vous modifiez une sélection, les valeurs du Raccourci **Modifications de correction d’axes analytiques** sont réinitialisées. Par conséquent, sélectionnez toujours les entrées avant de spécifier les changements de valeur d’axes analytiques.
+    > [!IMPORTANT]
+    > Lorsque vous modifiez une sélection, les valeurs du Raccourci **Modifications de correction d’axes analytiques** sont réinitialisées. Par conséquent, sélectionnez toujours les entrées avant de spécifier les changements de valeur d’axes analytiques.
 
    Le tableau suivant décrit les options.
 
@@ -83,43 +88,41 @@ Vous pouvez sélectionner manuellement une ou plusieurs écritures comptables ou
 6. Choisir **Exécuter**.
 
 ### <a name="validating-dimension-corrections"></a>Validation des corrections d’axes analytiques
+
 Avant d’exécuter une correction, il est conseillé de la valider d’abord. La validation vérifie les restrictions sur la comptabilisation des valeurs pour les comptes généraux, les restrictions pour les axes analytiques et si les valeurs des axes analytiques sont bloquées. Lors de la validation, le statut de la correction est défini sur **Validation en cours**. Après avoir validé une correction, le résultat s’affiche dans le champ **Statut de validation**. Si des erreurs ont été trouvées, vous pouvez utiliser l’action **Afficher les erreurs** pour les enquêter. Après avoir corrigé une erreur, vous devez utiliser l’action **Rouvrir** pour exécuter la correction ou une nouvelle validation.
 
 Vous pouvez soit exécuter une correction immédiatement, soit la planifier pour une exécution ultérieure. Si vous exécutez des corrections sur un jeu de données volumineux, nous vous recommandons de le planifier pour qu’il s’exécute en dehors des heures ouvrables. Pour plus d′informations, voir [Corrections d′axes analytiques sur des jeux de données volumineux](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
 ### <a name="undoing-a-correction"></a>Annuler une correction
+
 Après avoir corrigé un axe analytique, si vous n’aimez pas ce que vous voyez, vous pouvez utiliser l’action **Annuler** pour réinitialiser la valeur précédente. Cependant, vous ne pouvez annuler que la correction la plus récente. Avant d’annuler une correction, vous pouvez valider les modifications que l’annulation apportera. Par exemple, cela est utile si les restrictions d’axes analytiques ont changé après la correction.
 
 Si l’action Annuler n’est pas disponible, par exemple parce que vous avez effectué de nombreuses corrections, vous pouvez utiliser l’action **Copier dans le brouillon** pour démarrer une nouvelle correction pour les mêmes entrées.
 
 ### <a name="dimension-corrections-on-large-data-sets"></a>Corrections d’axes analytiques sur des jeux de données volumineux
+
 Soyez prudent lorsque vous corrigez de grands ensembles d’entrées, par exemple, des ensembles comprenant plus de 10 000 entrées. Si vous le pouvez, nous vous recommandons d’utiliser les filtres pour exécuter les corrections sur des jeux de données plus petits. Il est également judicieux d’exécuter des corrections en dehors des heures normales de bureau. 
 
 ### <a name="using-analysis-views-with-dimension-corrections"></a>Utilisation des vues d’analyse avec des corrections d’axes analytiques
+
 Si **Mise à jour sur la publication** est activé pour une vue d’analyse, [!INCLUDE[prod_short](includes/prod_short.md)] peut afficher la vue lorsque les documents et les journaux sont publiés. Vous pouvez également mettre à jour les vues avec ce paramètre activé avec les résultats des corrections d’axes analytiques. Pour ce faire, activez le bouton de basculement **Mettre à jour les vues d’analyse**. La mise à jour des vues d’analyse peut avoir un impact sur les performances, en particulier pour les grands jeux de données, c’est pourquoi nous vous recommandons de mettre à jour les vues d’analyse uniquement pour les petits jeux de données.  
 
 ### <a name="viewing-historical-dimension-corrections"></a>Affichage des corrections de axes analytiques historiques
+
 Si une écriture comptable a été corrigée, vous pouvez étudier la modification en utilisant l’action **Historique des corrections d’axes analytiques**.
 
 ### <a name="handling-incomplete-corrections"></a>Traitement des corrections incomplètes
+
 Si une correction ne se termine pas, un avertissement s’affiche sur la carte de correction. Si cela se produit, vous pouvez utiliser l’action **Réinitialiser** pour rétablir la correction à un statut de brouillon et annuler les modifications. Vous pouvez ensuite exécuter à nouveau la correction.
 
 > [!NOTE]
 > La réinitialisation d’une correction incomplète n’affectera pas les mises à jour des vues d’analyse, car celles-ci se produisent à la fin du processus de correction.
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Utilisation de la comptabilité analytique avec les écritures comptables corrigées
-Une fois les axes analytiques corrigés, vos données pour la comptabilité analytique seront désynchronisées. La comptabilité analytique utilise des axes analytiques pour agréger les montants des centres de coûts et des coûts associés, et pour exécuter les répartitions de coûts. La modification des axes analytiques des écritures comptables signifiera probablement que vous réexécuterez vos modèles de comptabilité analytique. Que vous deviez simplement supprimer quelques registres de coûts et réexécuter les allocations, ou que vous deviez tout supprimer et réexécuter tous vos modèles, cela dépend des données qui ont été mises à jour et de la configuration de vos capacités de comptabilité analytique. Identifier où les corrections d’axes analytiques auront un impact sur la comptabilité analytique et où des mises à jour sont nécessaires est un processus manuel. [!INCLUDE[prod_short](includes/prod_short.md)] ne propose pas actuellement de moyen automatisé de le faire.
 
-## <a name="correcting-number-assignments-for-global-dimensions"></a>Corriger les attributions de numéros pour les dimensions globales
-Dans la table Écriture de l’ensemble des dimensions, les dimensions globales sont affectées à la valeur **0** dans le raccourci N° de dimension. et les dimensions de raccourci reçoivent leur numéro de dimension de raccourci, qui peut être compris entre 1 et 8. Certains états utilisent ces attributions de numéro pour déterminer les valeurs à utiliser dans les calculs.
-
-Lorsque les valeurs de dimension sont importées à l’aide de packages de configuration créés sans exécuter de déclencheurs de validation, ou en utilisant un code personnalisé pour appeler les méthodes d’insertion ou de modification sans exécuter les déclencheurs de validation OnInsert ou OnModify, les dimensions de raccourci se voient parfois attribuer un numéro différent de 0. Lorsque cela se produit, les calculs sont incorrects pour les dimensions des journaux généraux récurrents qui utilisent les méthodes récurrentes Solde BD par compte ou Solde BD par dimensions. 
-
-Si un numéro incorrect est attribué, lorsque vous essayez de publier ou de prévisualiser des journaux sur la page **Feuilles comptabilité périodiques**, la page **Messages d’erreur** s’affiche. À partir de la page Messages d’erreur, vous pouvez choisir le lien dans le champ **Source** pour exécuter un rapport qui corrigera les affectations de numéros de dimension de raccourci dans la table Écriture de l’ensemble des dimensions. Alternativement, vous pouvez également rechercher **Mettre à jour le n° axe principal pour les écritures de l’ensemble de dimensions** pour exécuter le rapport.
-
-Après avoir exécuté le rapport, sur la page **Écritures journal modification** vous pouvez consulter les modifications apportées au numéro dans le champ Numéro de dimension globale. . [!INCLUDE[prod_short](includes/prod_short.md)] enregistre toujours les valeurs précédentes et les nouvelles. 
+Une fois les axes analytiques corrigés, vos données pour la comptabilité analytique seront désynchronisées. La comptabilité analytique utilise des axes analytiques pour agréger les montants des centres de coûts et des coûts associés, et pour exécuter les répartitions de coûts. La modification des axes analytiques des écritures comptables signifiera probablement que vous réexécuterez vos modèles de comptabilité analytique. Que vous deviez simplement supprimer quelques registres de coûts et réexécuter les allocations, ou que vous deviez tout supprimer et réexécuter tous vos modèles, cela dépend des données qui ont été mises à jour et de la configuration de vos capacités de comptabilité analytique. Vous devez manuellement identifier où les corrections d’axes analytiques auront un impact sur la comptabilité analytique et où des mises à jour sont nécessaires. [!INCLUDE[prod_short](includes/prod_short.md)] ne propose pas actuellement de moyen automatisé de le faire.
 
 ## <a name="see-also"></a>Voir aussi
-[Vue d’ensemble des écritures de l’ensemble des dimensions](design-details-dimension-set-entries-overview.md)
-[Utilisation des dimensions](finance-dimensions.md)
-[Analyser les données par dimensions](bi-how-analyze-data-dimension.md)
+
+[Utilisation des axes analytiques](finance-dimensions.md)
+[Analyser les données par axe analytique](bi-how-analyze-data-dimension.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: b4f6894c0d9c5a23445f70b2a50fcd677b17be66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2734f4d65869ba666a53333c9338239a1cb1a1b4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438422"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588241"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Créer des flux de travail pour connecter des tâches de processus entreprise
 
@@ -133,7 +133,7 @@ Dans l’exemple suivant, un nouveau flux de travail est créé pour approuver l
     2. Dans le champ **Condition**, choisissez le mot **Toujours**, puis, sur la page **Conditions d’événement**, choisissez le lien **Ajouter une condition au cas où une valeur de champ serait modifiée**, puis sélectionnez le champ *Nom*.  
 
       Le résultat de cette étape est que la condition se lit comme *Le nom a changé*.  
-    3. Dans le champ **Alors, réponse**, sélectionnez le lien **Sélectionner la réponse**, puis, dans la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez le champ *Rétablir la valeur de <Field> sur l’enregistrement et enregistrez la réponse de modification*, puis dans la section **Options pour la réponse sélectionnée**, précisez le champ *Nom*.  
+    3. Dans le champ **Alors, réponse**, sélectionnez le lien **Sélectionner la réponse**, puis, dans la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez le champ *Rétablir la valeur de \<Field\> sur l’enregistrement et enregistrez la réponse de modification*, puis dans la section **Options pour la réponse sélectionnée**, précisez le champ *Nom*.  
     4. Choisissez le lien **Ajouter d’autres réponses**, puis ajoutez une entrée pour la réponse *Créer une demande d’approbation pour l’enregistrement à l’aide du type approbateur <%1> et <%2>.* .  
     5. Dans la section **Options pour la réponse sélectionnée** pour la nouvelle réponse, modifiez le champ **Type d’approbateur** sur *Groupe d’utilisateurs du flux de travail*, puis, dans le champ **Groupe d’utilisateurs du flux de travail**, spécifiez le groupe d’utilisateurs concerné.  
 

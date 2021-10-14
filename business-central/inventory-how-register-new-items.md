@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
-ms.date: 07/29/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 34a7c73cd82d63a2ca5b549e7d1cedf582a32465
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440456"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587724"
 ---
 # <a name="register-new-items"></a>Enregistrer de nouveaux articles
 
@@ -40,13 +40,7 @@ La procédure suivante explique comment créer une fiche article à partir de z�
 
 ## <a name="to-create-a-new-item-card"></a>Pour créer une fiche article
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
-2. Sur la page **Articles**, sélectionnez l’action **Nouveau**.
-
-    Si un seul modèle article existe, une nouvelle fiche article avec certains champs renseignés à l’aide des informations provenant du modèle s’ouvre.
-3. Sur la page **Sélectionnez un modèle pour un nouvel article**, sélectionnez le modèle que vous souhaitez utiliser pour la nouvelle fiche article.
-4. Cliquez sur le bouton **OK**. Une nouvelle fiche article avec certains champs renseignés à l’aide des informations provenant du modèle s’ouvre.
-5. Continuez à renseigner ou modifier les champs de la fiche article selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
 > Dans le champ **Mode évaluation stock**, vous configurez la façon dont le coût unitaire de l’article est calculé en estimant le flux d’articles dans votre société. Il existe cinq modes évaluation stock disponibles, selon le type d’article. Pour plus d’informations, [Détails de conception : modes évaluation stock](design-details-costing-methods.md).
@@ -77,7 +71,7 @@ Si vous souhaitez enregistrer des articles qui sont ensuite utilisés dans des o
 
 Si vous achetez le même article chez plusieurs fournisseurs, vous devez saisir, pour chacun des fournisseurs de cet article des informations concernant, par exemple, ses prix, ses délais, ses escomptes, etc.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Sélectionnez l’article concerné, puis cliquez sur l’action **Modifier**.  
 3. Sélectionnez l’action **Fournisseurs**.  
 4. Cliquez sur le champ **N° fournisseur**, puis sélectionnez le fournisseur à paramétrer pour l’article.  
@@ -92,7 +86,7 @@ Vous pouvez configurer des articles pour qu’ils aient des substituts, tels que
 
 ### <a name="to-make-an-item-substitution"></a>Pour affecter le statut de substitut à un article
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Recherchez l’article concerné, puis cliquez sur le **N° article** pour ouvrir la fiche article.  
 3. Choisissez l’action **Association**, **Article**, puis **Substitutions** pour ouvrir la page Saisie de substitution d’article.  
 4. Sélectionnez le champ **N° substitut**, puis sélectionnez l’article de substitution dans la liste.

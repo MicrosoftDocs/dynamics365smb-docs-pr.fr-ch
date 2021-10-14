@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435259"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588466"
 ---
 # <a name="send-documents-and-emails"></a>Envoyer des documents et des e-mails
 
-Vous pouvez facilement partager des informations et des documents, tels que des commandes vente et achat et des factures, par e-mail directement depuis [!INCLUDE[prod_short](includes/prod_short.md)]], sans avoir à ouvrir une application de messagerie.  
+Vous pouvez facilement partager des informations et des documents, tels que des commandes vente et achat et des factures, par e-mail directement depuis [!INCLUDE[prod_short](includes/prod_short.md)], sans avoir à ouvrir une application de messagerie.  
 
 Vous pouvez envoyer presque tous les types de documents sous forme de pièces jointes PDF. Vous pouvez également configurer une mise en page d’état qui inclut les informations du document dans le texte de l’e-mail, ainsi que du texte qui rend l’e-mail plus convivial, par exemple un message d’accueil standard. Pour plus d’informations, voir [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
@@ -33,7 +33,7 @@ Pour activer les emails au sein de [!INCLUDE[prod_short](includes/prod_short.md)
 Cette procédure décrit comment joindre une facture vente enregistrée à un e-mail sous forme de fichier PDF et avec un texte d’e-mail spécifique au document. <!--update this-->
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente enregistrées**, puis sélectionnez le lien associé.
-2. Sélectionnez la facture vente appropriée, puis cliquez sur **Imprimer/Envoyer**.
+2. Sélectionnez la facture, sélectionnez l’action **Imprimer/envoyer**, puis sélectionnez **Envoyer**.
 3. Dans le champ **E-mail**, choisissez **Oui (Afficher une invite pour le réglage des paramètres)**. Pour plus d’informations, reportez vous à [Configurer des profils d’envoi de documents](sales-how-setup-document-send-profiles.md).
     
     Si le champ **E-mail** sur la page **Envoyer le document à** est défini sur **Oui (Afficher une invite pour le réglage des paramètres)**, la page **Envoyer e-mail** s’affiche. Le champ **À :** est prérempli avec le contact et le document est en pièce jointe sous forme de fichier PDF. Dans le champ **Corps**, vous pouvez saisir un texte manuellement ou faire en sorte que le champ contienne un corps de message spécifique au document que vous avez configuré.
@@ -51,9 +51,10 @@ Cette procédure décrit comment joindre une facture vente enregistrée à un e-
 > Si vous ne souhaitez pas spécifier les paramètres d’e-mail à chaque fois que vous envoyez un document par e-mail, vous pouvez sélectionner l’option **Oui (Utiliser les paramètres par défaut)** dans le champ **E-mail** de la page **Envoyer le document à**. Dans ce cas, la page **Envoyer e-mail** ne s’affiche pas. Reportez-vous à l’étape 4. Pour plus d’informations, reportez vous à [Configurer des profils d’envoi de documents](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Pour rédiger et envoyer un e-mail
+Vous pouvez rapidement composer des e-mails pour les contacts, les clients, les fournisseurs, les vendeurs/acheteurs et les comptes bancaires directement à partir des pages de ces entités. Il suffit de choisir **Traiter**, puis **Envoyer un e-mail** pour ouvrir l’éditeur de courrier électronique. Pour les comptes bancaires, l’action **Envoyer un e-mail** se trouve sous **Actions**.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes de messagerie**, puis sélectionnez le lien associé.
-2. Choisissez le compte à partir duquel envoyer l’e-mail, puis choisissez l’action **Écrire un email**.
+> [!TIP]
+> Si vous envoyez souvent des e-mails de nature similaire ou si vous souhaitez envoyer une communication en masse, par exemple pour annoncer une campagne commerciale, l’utilisation de modèles Word avec e-mail peut accélérer le processus. Vous pouvez créer un modèle pour des entités telles que des clients, des fournisseurs et des contacts, qui généreront le contenu d’un message électronique pour vous, et même personnaliseront le contenu pour le destinataire en fonction des données contenues dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, consultez [Utilisation de modèles Word pour la communication en masse](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documents marqués comme imprimés lors de leur envoi
 

@@ -1,1 +1,1 @@
-<Token> **S’APPLIQUE À :** Business Central Online (1re vague de lancement 2021 et ultérieures)</Token>
+> **S’APPLIQUE À :** Business Central Online (1e vague de lancement 2021 et ultérieures)

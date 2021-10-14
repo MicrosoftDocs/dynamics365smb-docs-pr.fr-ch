@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
-ms.date: 08/17/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2ecf6884e37467504bc2f4573ef60c870993b799
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7156684c2b12af7e5b3e8b51791a702566824009
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440431"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588516"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Vente de produits avec une commande vente client  
 
@@ -67,8 +67,8 @@ Vous pouvez même créer des commandes à paiement direct pour les clients non e
 8. Dans le champ **% remise ligne**, saisissez un pourcentage si vous souhaitez accorder au client une remise sur le produit. La valeur du champ **Montant ligne** est mise à jour en conséquence.
 
     Si vous avez défini des prix article spéciaux sur le raccourci **Prix vente et remises ligne vente** dans la fiche client ou article, le prix et le montant de la ligne devis sont automatiquement mis à jour si les critères de prix convenus sont réunis. Pour plus d’informations, reportez-vous à [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).
-9. Pour ajouter un commentaire sur la ligne devis que le client peut afficher dans le devis vente imprimé, saisissez un commentaire dans le champ **Description** sur une ligne vierge.  
-10. Répétez les étapes 4 à 8 pour chaque article que vous souhaitez à vendre au client.
+9. Pour ajouter un commentaire sur la ligne commande que le client peut afficher dans la commande vente imprimée, saisissez un commentaire dans le champ **Description** sur une ligne vierge.  
+10. Répétez les étapes 5 à 9 pour chaque article que vous souhaitez à vendre au client.
 
     Les champs totaux sous les lignes sont automatiquement mises à jour comme vous créez ou modifiez des lignes pour afficher les montants qui seront validés en comptabilité.
 

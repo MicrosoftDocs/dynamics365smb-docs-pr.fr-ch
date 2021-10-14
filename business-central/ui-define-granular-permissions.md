@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d048350c9963ae889b5320b3c78b87336197a7a9
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443732"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547039"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Attribuer des autorisations aux utilisateurs et aux groupes
 
@@ -158,6 +158,9 @@ Dans chacun des cinq champs de types d’accès, **Lecture**, **Insertion**, **M
 |**Oui**|L’utilisateur peut exécuter l’action sur l’objet en question.|Le plus élevé|
 |**Indirect**|L’utilisateur peut exécuter l’action sur l’objet en question mais uniquement via un autre objet associé auquel l’utilisateur a un accès total. Pour plus d’informations sur les autorisations indirectes, voir [Propriété Autorisations](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) dans l’aide sur Developer and IT-Pro|Deuxièmement plus élevé|
 |**Vide**|L’utilisateur ne peut pas exécuter l’action sur l’objet en question.|Le moins élevé|
+
+> [!IMPORTANT]
+> Soyez prudent lorsque vous attribuez **Insérer l’autorisation** ou **Modifier l’autorisation** dans la table **9001 Membre du groupe d’utilisateurs** ou **9003 Ensemble d’autorisations de groupe d’utilisateurs**. Tous les utilisateurs affectés à l’ensemble d’autorisations pourraient potentiellement s’attribuer eux-mêmes à d’autres groupes d’utilisateurs, qui à leur tour, pourraient leur donner involontairement des autorisations.
 
 ### <a name="example---indirect-permission"></a>Exemple- Autorisation indirecte
 

@@ -41,7 +41,10 @@
 ##### [Détails de conception : lettrage article](design-details-item-application.md)  
 ##### [Détails de conception : problème de lettrage article connu](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)  
-##### [Détails de conception : date comptabilisation de l’écriture valeur d’ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### Détails de conception : date comptabilisation de l’écriture valeur d’ajustement
+###### [Détails de conception : date comptabilisation de l’écriture valeur d’ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)  
+###### [Message d’erreur : « La date comptabilisation n’est pas incluse dans la plage de dates comptabilisation autorisées »](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+###### [Date comptabilisation sur l’écriture valeur d’ajustement par rapport à l’écriture source](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Détails de conception : validation du coût prévu](design-details-expected-cost-posting.md)  
 ##### [Détails de conception : coût moyen](design-details-average-cost.md)  
 ##### [Détails de conception : écart](design-details-variance.md)  
@@ -94,6 +97,12 @@
 ### [Mise en route avec un abonnement](across-preview.md#getting-started-with-a-subscription)
 ### [Préparation aux activités commerciales](ui-get-ready-business.md)
 
+## Démarrages rapides
+### [Démarrage rapide de Business Central](quick-start-business-central.md)
+### [Configurer les informations sur la société](quick-start-company-information.md)
+### [Vendre des produits et des services](quick-start-sell-products-and-services.md)
+### [Acheter des produits et des services](quick-start-procurement.md)
+
 <!--setup-->
 ## Configuration de Business Central
 ### [Aperçu des tâches](setup.md)
@@ -133,6 +142,7 @@
 #### [Enregistrer de nouveaux clients](sales-how-register-new-customers.md)
 #### [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md)
 #### [Enregistrer les prix de vente spéciaux et les remises](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Configurer des groupes tarifs client](sales-how-to-set-up-customer-price-groups.md)
 #### [Configurer des vendeurs](sales-how-setup-salespeople.md)
 #### [Configurer des profils d’envoi de documents](sales-how-setup-document-send-profiles.md)
 #### [Envoyer des documents par e-mail](ui-how-send-documents-email.md)
@@ -240,14 +250,16 @@
 #### [Conseils : RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Paramétrage de la messagerie
 #### [Configurer la messagerie](admin-how-setup-email.md)
-#### Configuration de votre boîte de réception professionnelle dans Microsoft Outlook 
-##### [Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)
+#### Configuration de votre boîte de réception professionnelle dans Microsoft Outlook
+##### [Obtenir le complément Business Central pour Outlook](admin-outlook.md)
+##### [Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](work-outlook-addin.md)
 ##### [Synchronisation avec les contacts dans Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Optimisation d’Outlook](admin-outlook-optimize.md)
 ##### [Utilisation de Business Central sans Outlook](admin-no-outlook.md)
 ### Paramétrage des états
 #### [Sélection des états](across-report-selections.md)
 ### Configuration des connexions
+#### [Obtenir le complément Business Central pour Excel](admin-deploy-excel-addin.md)
 #### Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook 
 ##### [Aperçu](admin-outlook.md)
 ##### [Synchronisation avec les contacts dans Microsoft Outlook](admin-synchronize-outlook-contacts.md)
@@ -257,10 +269,15 @@
 ##### [Gestion de l’intégration de Teams](admin-teams-integration.md)
 ##### [Installation de l’application Business Central pour Teams](across-install-app-for-teams.md)
 ##### [Recherche de clients, de fournisseurs et de contacts](across-search-contacts-teams.md)
-##### [Partage d’enregistrements dans Teams](across-working-with-teams.md)
+##### [Partage d’enregistrements et de liens de page dans Teams](across-working-with-teams.md)
 ##### [Modification de la société et d′autres paramètres](across-teams-settings.md)
 ##### [FAQ Teams](teams-faq.md)
 ##### [Incident](admin-teams-troubleshooting.md)
+#### Utiliser OneDrive Entreprise avec Business Central
+##### [Vue d’ensemble](across-onedrive-overview.md)
+##### [Gestion de l’intégration de OneDrive Entreprise](admin-onedrive-integration.md)
+##### [Ouverture des fichiers Business Central dans OneDrive](across-share-onedrive.md)
+##### [FAQ sur OneDrive](admin-onedrive-faq.md)
 #### Utilisation de Power BI avec Business Central
 ##### [Introduction](admin-powerbi.md)
 ##### Administrateur
@@ -285,6 +302,8 @@
 ### [Configurer des calendriers principaux](across-how-to-assign-base-calendars.md)
 ### [Paramétrage imprimantes](ui-specify-printer-selection-reports.md)
 ### [Obtenir Business Central sur votre périphérique mobile](install-mobile-app.md)
+### [Installer Business Central sur votre bureau](install-desktop-app.md)
+
 
 ## Forum Aux Questions
 ### [Forum Aux Questions](across-faq.yml)
@@ -329,7 +348,9 @@
 ## [Détection de champs obligatoires](ui-mandatory-fields.md)
 ## [Modification de la langue et de la région](about-locale-language.md)
 ## [Affichage et édition dans Excel](across-work-with-excel.md)
+## [Stockage et partage de fichiers dans OneDrive](across-share-onedrive.md)
 ## [Gérer les pièces jointes, les liens et les notes sur les fiches et les documents](ui-how-add-link-to-record.md)
+## [Utilisation de modèles Word pour la communication en masse](ui-mail-merge.md)
 ## [Modifier les paramètres de base](ui-change-basic-settings.md)
 ## [Passer à une autre entreprise ou un autre environnement](ui-organization-switch.md)
 ## [Gérer les notifications](ui-smart-notifications.md)
@@ -608,6 +629,7 @@
 ### [Effectuer des livraisons directes](sales-how-drop-shipment.md)
 ### [Créer des commandes spéciales](sales-how-to-create-special-orders.md)
 ### [Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md)
+### [Traitement des retours vente](sales-how-process-sales-returns-orders.md)
 ### [Corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md)
 ### [Utiliser des commandes ouvertes vente](sales-how-to-create-blanket-sales-orders.md)
 ### [Regroupement de bons de livraison sur une seule facture](sales-how-to-combine-shipments-on-a-single-invoice.md)
@@ -653,7 +675,7 @@
 ### [Configuration du suivi des articles avec les numéros lot, de série et paquet](inventory-how-setup-item-tracking.md)
 ### [Effectuer le suivi des articles avec les numéros lot, de série et paquet](inventory-how-work-item-tracking.md)
 ### [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)
-### [Utiliser les références externes article](inventory-how-use-item-cross-refs.md)
+### [Utiliser références article](inventory-how-use-item-cross-refs.md)
 ### [Bloquer les articles](inventory-how-block-items.md)
 ### [Utiliser les centres de gestion](inventory-responsibility-centers.md)
 
@@ -951,10 +973,12 @@
 ##### [Localisation des immobilisations pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banque et paiements
 ##### [Fonction de banque](LocalFunctionality/Czech/bank-feature.md)
+##### [Localisation des documents bancaires pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Gestion de caisse](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Localisation de caisse pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Enregistrement des ventes (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Avances](LocalFunctionality/Czech/advances.md)
+##### [Localisation des acomptes pour le tchèque (Extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Dépenses et recettes
 ##### [Dépenses et recettes](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Échanges intracommunautaires](LocalFunctionality/Czech/intrastat.md)
@@ -1085,6 +1109,7 @@
 
 ### Inde
 #### [Aperçu](LocalFunctionality/India/india-local-functionality.md)
+#### [Configurer des souches de numéros de comptabilisation](LocalFunctionality/India/posting-no-series-setup.md)
 #### Moteur de taxe
 ##### [Aperçu](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Configuration d’importation et d’exportation du moteur de taxe](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1161,6 +1186,8 @@
 ##### [Écriture provisoire de la TDS](LocalFunctionality/India/TDS-Provisional-Entries.md)
 ##### [Écriture d’ajustement de la TDS](LocalFunctionality/India/TDS-Adjustment-Entries.md)
 ##### [Paiement de la TDS aux autorités](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
+##### [Vue d’ensemble de la section TDS 194Q](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
+##### [Transaction TDS 194Q](LocalFunctionality/India/TDS-194Q-Transactions.md)
 #### TDS pour le client
 ##### [Vue d’ensemble de la TDS pour le client](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 ##### [Calcul de la TDS pour le client](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
@@ -1188,6 +1215,7 @@
 ##### [Transactions de sous-traitance](LocalFunctionality/India/Subcontracting-Transactions.md)
 ##### [Créer une responsabilité en matière de GST](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
 ##### [Rapport de sous-traitance](LocalFunctionality/India/Subcontracting-Reports.md)
+#### [Chèque périmé](LocalFunctionality/India/Stale-Check.md)
 
 ### Italie
 #### [Fonctionnalité locale dans la version italienne](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1603,6 +1631,7 @@
 ### [Journalisation des modifications](across-log-changes.md)
 ### [Utilisation des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)
 ### [Gérer le stockage en compressant des données ou en supprimant des documents](admin-manage-documents.md)
+### [Archiver les données](admin-archive-data.md)
 ### [Définition des stratégies de rétention des données](admin-data-retention-policies.md)
 ### [Publication d’un service Web](across-how-publish-web-service.md)
 ### [Configuration des modèles d’API](admin-configuring-api-template.md)
@@ -1613,7 +1642,7 @@
 ### [Affichage d’informations sur les tables](admin-view-table-information.md)
 ### [Activer les nouvelles fonctionnalités à l’avance](admin-feature-management.md)
 ### [Intégrer des utilisateurs avec des listes de contrôle](admin-checklist.md)
-### [Environnements Sandbox](across-how-create-sandbox-environment.md)
+### [Environnements sandbox](admin-sandbox-environments.md)
 ## Personnalisation de Business Central
 ### [Vue d’ensemble de la personnalisation](ui-customizing-overview.md)
 ### [Personnaliser les pages pour les profils](ui-personalization-manage.md)

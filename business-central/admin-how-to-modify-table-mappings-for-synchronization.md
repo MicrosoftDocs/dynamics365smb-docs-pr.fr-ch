@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 44729a82d50a925d9ad904f8035dd49daee24262
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446405"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588716"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappage des tables et des champs à synchroniser
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -49,6 +49,8 @@ Le mappage de tables ne constitue que la première étape. Vous devez également
 
 > [!Note]
 > Si vous utilisez une version locale de [!INCLUDE[prod_short](includes/prod_short.md)], les mappages de champs d’intégration sont définis dans la table 5336 Mappage de champs d’intégration.
+
+Vous pouvez mapper manuellement les champs, ou automatiser le processus en mappant plusieurs champs en même temps en fonction de critères de correspondance de leurs valeurs. Pour plus d’informations, consultez [Pour coupler plusieurs enregistrements en fonction de la correspondance de leurs valeurs de champ](admin-how-to-couple-and-synchronize-records-manually.md).
 
 ### <a name="handling-differences-in-field-values"></a>Gestion des différences de valeurs de champ
 Parfois, les valeurs des champs que vous souhaitez associer sont différentes. Par exemple, le code langue pour les États-Unis est « U.S. » dans [!INCLUDE[crm_md](includes/crm_md.md)], mais « US » dans [!INCLUDE[prod_short](includes/prod_short.md)]. Autrement dit, vous devez transformer la valeur lorsque vous synchronisez des données. Cela se fait via les règles de transformation que vous définissez pour les champs. Vous définissez des règles de transformation sur la page **Mappages de table d’intégration** en choisissant **Mappage**, puis **Champs**. Des règles prédéfinies sont fournies, mais vous pouvez également créer les vôtres. Pour plus d’informations, voir [Règles de transformation](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

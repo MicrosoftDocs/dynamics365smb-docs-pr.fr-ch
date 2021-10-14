@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7711fc0dc0ad7256f6ed58962634e39bbad86cfe
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440556"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587774"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Se connecter à Microsoft Dataverse
 
@@ -107,9 +107,70 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
+## <a name="customize-the-match-based-coupling"></a>Personnaliser le couplage par correspondance
+
+À partir de la deuxième vague de lancement de 2021, vous pouvez coupler des enregistrements dans [!INCLUDE [prod_short](includes/prod_short.md)] et [!INCLUDE [cds_long_md](includes/cds_long_md.md)] sur la base de critères de correspondance définis par l’administrateur.  
+
+L’algorithme de correspondance des enregistrements peut être lancé à partir des emplacements suivants dans [!INCLUDE [prod_short](includes/prod_short.md)] :
+
+* Les pages de liste qui affichent les enregistrements synchronisés avec [!INCLUDE [cds_long_md](includes/cds_long_md.md)], telles que les pages Clients et Articles.  
+
+    Sélectionnez plusieurs enregistrements, puis choisissez l’action **Associé**, choisissez **Dataverse**, choisissez **Couplage**, puis choisissez **Couplage par correspondance**.
+
+    Lorsque le processus de couplage par correspondance est lancé à partir d’une liste de données de base, une tâche de couplage sera planifiée directement après que vous ayez sélectionné les critères de couplage.  
+* La page **Révision synchronisation complète Dataverse**.  
+
+    Lorsque le processus de synchronisation complet détecte que vous avez des enregistrements découplés à la fois dans [!INCLUDE [prod_short](includes/prod_short.md)] et [!INCLUDE [cds_long_md](includes/cds_long_md.md)], un lien **Sélectionner les critères de couplage** apparaît pour la table d’intégration appropriée.  
+
+    Vous pouvez démarrer le processus **Exécuter la synchronisation complète** à partir des pages **Configuration de la connexion Dataverse** et **Configuration de la connexion Dynamics 365**, et il peut être lancé en tant qu’étape dans le guide de configuration assistée **Établir une connexion à Dataverse** lorsque vous choisissez de mener à bien la configuration et d’exécuter la synchronisation complète à la fin.  
+
+    Lorsque le processus de couplage par correspondance est lancé à partir de la page **Révision synchronisation complète Dataverse**, une tâche de couplage sera planifiée directement après que vous ayez réalisé la configuration.  
+* La liste **Mappages de table d’intégration**.  
+
+    Sélectionnez un mappage, choisissez l’action **Couplage**, puis choisissez **Couplage par correspondance**.
+
+    Lorsque le processus de couplage par correspondance est démarré à partir d’un mappage de table d’intégration, une tâche de couplage s’exécute pour tous les enregistrements non couplés dans ce mappage. Si elle a été exécutée pour un ensemble d’enregistrements sélectionnés dans la liste, elle ne s’exécutera que pour les enregistrements non couplés sélectionnés.
+
+Dans les trois cas, la page **Sélectionner les critères de couplage** s’ouvre pour vous permettre de définir les critères de couplage pertinents. Dans cette page, personnalisez le couplage avec les tâches suivantes :
+
+* Choisissez les champs selon lesquels faire correspondre les enregistrements [!INCLUDE [prod_short](includes/prod_short.md)] et les entités [!INCLUDE [cds_long_md](includes/cds_long_md.md)], et choisissez également si la correspondance sur ces champs sera sensible à la casse ou non.  
+
+* Spécifiez s’il faut exécuter une synchronisation après le couplage des enregistrements et, si l’enregistrement utilise un mappage bidirectionnel, choisissez également ce qui se passe si des conflits sont répertoriés dans la page **Résoudre les conflits de mise à jour**.  
+
+* Hiérarchisez l’ordre de recherche des enregistrements en spécifiant une *priorité de correspondance* pour les champs de mappage pertinents. Les priorités de correspondance obligent l’algorithme à rechercher une correspondance dans un nombre d’itérations défini par les valeurs du champ **Priorité de correspondance** dans l’ordre croissant. Une valeur vide dans le champ **Priorité de correspondance** est interprétée comme une priorité 0, les champs avec cette valeur sont donc pris en compte en premier.  
+
+* Spécifiez s’il faut créer une nouvelle instance d’entité dans [!INCLUDE [cds_long_md](includes/cds_long_md.md)] au cas où aucune correspondance non couplée unique ne peut être trouvée en utilisant les critères de correspondance. Pour activer cette fonctionnalité, choisissez l’action **Créer si impossible de trouver une correspondance**.  
+
+### <a name="view-the-results-of-the-coupling-job"></a>Voir les résultats de la tâche de couplage
+
+Pour afficher les résultats de la tâche de couplage, ouvrez la page **Mappages de table d’intégration**, sélectionnez le mappage pertinent, choisissez l’action **Couplage**, puis choisissez l’action **Journal des tâches de couplage d’intégration**.  
+
+S’il y a des enregistrements qui n’ont pas été couplés, vous pouvez explorer la valeur dans la colonne Échec, ce qui ouvrira une liste d’erreurs spécifiant pourquoi les enregistrements n’ont pas été couplés.  
+
+L’échec du couplage se produit souvent dans les cas suivants :
+
+* Aucun critère de correspondance n’a été défini
+
+    Dans ce cas, exécutez à nouveau le couplage par correspondance, mais n’oubliez pas de définir les critères de couplage.
+
+* Aucune correspondance n’a été trouvée pour un certain nombre d’enregistrements, sur la base des champs de correspondance choisis
+
+    Dans ce cas, répétez le couplage avec d’autres champs de correspondance.
+
+* Plusieurs correspondances ont été trouvées pour un certain nombre d’enregistrements, sur la base des champs de correspondance choisis  
+
+    Dans ce cas, répétez le couplage avec d’autres champs de correspondance.
+
+* Une seule correspondance a été trouvée, mais l’enregistrement correspondant est déjà couplé à un autre enregistrement dans [!INCLUDE [prod_short](includes/prod_short.md)]  
+
+    Dans ce cas, répétez le couplage avec d’autres champs de correspondance, ou recherchez pourquoi telle entité [!INCLUDE [cds_long_md](includes/cds_long_md.md)] est couplée à tel autre enregistrement dans [!INCLUDE [prod_short](includes/prod_short.md)].
+
+> [!TIP]
+> Pour vous aider à avoir une vue d’ensemble de la progression du couplage, le champ **Couplé à Dataverse** indique si un enregistrement spécifique est couplé à une entité [!INCLUDE [cds_long_md](includes/cds_long_md.md)] ou non. Vous pouvez filtrer la liste des enregistrements synchronisés avec [!INCLUDE [cds_long_md](includes/cds_long_md.md)] selon ce champ.
+
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Mettre à niveau les connexions de Business Central Online pour utiliser l’authentification basée sur les certificats
 > [!NOTE]
-> Cette section s’applique uniquement aux locataires Business Central Online par Microsoft. Les locataires en ligne hébergés par les développeurs de logiciels indépendants et les installations locales ne sont pas affectés.
+> Cette section s’applique uniquement aux locataires [!INCLUDE[prod_short](includes/prod_short.md)] en ligne hébergés par Microsoft. Les locataires en ligne hébergés par les développeurs de logiciels indépendants et les installations locales ne sont pas affectés.
 
 En avril 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] désapprouve le type d’authentification Office365 (nom d’utilisateur/mot de passe). Pour en savoir plus, voir [ Abandon du type d’authentification Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). De plus, en mars 2022, [!INCLUDE[prod_short](includes/prod_short.md)] abandonne l’utilisation de l’authentification service à service basée sur le secret client pour les locataires en ligne, et nécessitera l’utilisation de l’authentification service à service basée sur un certificat pour les connexions à [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Les locataires de [!INCLUDE[prod_short](includes/prod_short.md)] Online hébergés par les éditeurs de logiciels indépendants et les installations sur site peuvent continuer à utiliser l’authentification basée sur le secret client pour se connecter à [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

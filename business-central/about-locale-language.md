@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776462"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588416"
 ---
 # <a name="changing-language-and-region"></a>Modification de la langue et de la région
 
@@ -33,7 +33,7 @@ La modification des textes stockés sous forme de données d’application n’a
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] ne prend en charge qu’un jeu de caractères unique pour les données. Aussi, il se peut que certains caractères ne soient pas pris en charge dans votre environnement et vous pouvez rencontrer des problèmes de récupération des données saisies à l’aide d’un autre jeu de caractères. Par exemple, votre environnement peut ne prendre en charge que les caractères anglais et russes, et si vous entrez des données dans une autre langue, elles peuvent ne pas être stockées correctement. Vous devez contacter votre administrateur système pour connaître les langues prises en charge pour votre client [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="changing-the-region"></a>Changer de région
+## <a name="changing-your-region-setting"></a>Modification de votre paramètre de région
 La région diffère des exigences linguistiques et légales des marchés locaux. La région détermine la manière dont vos données s’affichent en termes de séparateur de virgule, aligné à gauche ou à droite, et certains autres paramètres. La région détermine également certains éléments du système dans le navigateur, par exemple l’action permettant de créer un élément dans une liste.  
 
 Vous pouvez modifier la région dans l’onglet du navigateur que vous utilisez pour travailler dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les modifications ne s’appliquent qu’à vous et non aux autres utilisateurs de votre société.  Le choix de la région sera réinitialisé à votre réglage sur votre profil Microsoft 365 si votre administrateur synchronise les utilisateurs de Microsoft 365 à [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -42,6 +42,11 @@ Vous pouvez modifier la région dans l’onglet du navigateur que vous utilisez 
 > Lorsque vous modifiez la région, une longue liste de langues et de régions s’affiche. Cependant, la langue n’est pas influencée par le choix de la région.  
 
 Pour modifier la région, accédez à la page **Mes paramètres**. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
+
+## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Modification du paramètre de région pour les clients, les contacts et les fournisseurs
+Certaines entreprises utilisent un service externe qui valide les informations d’adresse dans leur pays ou leur région. Cependant, lorsque vous devez mettre à jour les informations d’adresse, l’approche structurée utilisée par ces services peut ne pas toujours convenir à certains scénarios. Business Central offre un moyen plus flexible de saisir les détails de l’adresse.
+
+Sur la page **Paramètres comptabilité**, si vous activez le bouton à bascule **Exiger un code pays/région dans l’adresse**, les modifications apportées au champ **Code pays/région** des adresses des clients, des contacts ou des fournisseurs réinitialiseront les valeurs des autres champs d’adresse.
 
 ## <a name="application-version"></a>Version de l’application
 
@@ -56,7 +61,7 @@ Le contenu de l’aide pour la fonctionnalité de base de [!INCLUDE[prod_short](
 C’est simple - accédez au bas de la page du navigateur et choisissez le symbole de globe dans le coin inférieur gauche.
 
 > [!NOTE]  
-> La liste indique toutes les langues qui sont prises en charge par le site Microsoft Docs. [!INCLUDE[prod_short](includes/prod_short.md)] est disponible dans un nombre limité de pays/régions, et le contenu de l'aide [!INCLUDE [prod_short](includes/prod_short.md)] n'est pas disponible dans toutes les langues prises en charge par le site Microsoft Docs.
+> La liste indique toutes les langues qui sont prises en charge par le site Microsoft Docs. [!INCLUDE[prod_short](includes/prod_short.md)] est disponible dans un nombre limité de pays/régions, et le contenu de l’aide [!INCLUDE [prod_short](includes/prod_short.md)] n’est pas disponible dans toutes les langues prises en charge par le site Microsoft Docs.
 
 ## <a name="see-also"></a>Voir aussi
 

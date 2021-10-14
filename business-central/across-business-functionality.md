@@ -10,17 +10,18 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776287"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588366"
 ---
 # <a name="business-functionality"></a>Fonctionnalités d’entreprise
+
 [!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l’assemblage, la fabrication, la maintenance et la gestion d’entrepôt suggérée sont également pris en charge.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez modifier la configuration pour l’adapter aux besoins de votre activité. À partir de votre tableau de bord, vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d’ajouter des fonctionnalités à [!INCLUDE[prod_short](includes/prod_short.md)]. Plusieurs modules de fonctionnalités d’entreprise doivent être créés manuellement. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez modifier la configuration pour l’adapter aux besoins de votre activité. À partir de votre tableau de bord, vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d’ajouter des fonctionnalités à [!INCLUDE[prod_short](includes/prod_short.md)]. Plusieurs modules de fonctionnalités d’entreprise doivent être créés manuellement. Les articles [Démarrage rapide de Business Central](quick-start-business-central.md) peuvent vous aider à vous familiariser avec [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | À | Voir |
 | --- | --- |

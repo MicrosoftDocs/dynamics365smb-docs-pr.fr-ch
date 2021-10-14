@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442275"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588316"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Amortir des immobilisations
 L’amortissement permet de ventiler le coût des immobilisations, telles que les machines et le matériel, sur leur durée d’amortissement. Vous devez définir la méthode d’amortissement de chaque immobilisation.  
@@ -48,7 +48,10 @@ Une fois par mois, ou à la fréquence de votre choix, vous pouvez lancer le tra
 5. Sélectionnez l’action **Valider**.  
 
 > [!NOTE]
-> Si vous sélectionnez le champ **Utiliser forcer nombre de jours**, et si le champ **Forcer nombre de jours** est défini sur une valeur qui entraîne la date comptable moins la valeur des champs **Nombre de jours** est une date de l’année civile précédente, vous ne pouvez pas comptabiliser l’amortissement. La solution de contournement consiste à réduire la valeur du champ **Forcer nombre de jours** sur une valeur inférieure au nombre de jours calculés jusqu’à la date de publication en utilisant 30 jours/mois OU sélectionnez le champ **Exercice comptable 365 jours** sur la loi d’amortissement. Nous recommandons la première option, car vous ne voudrez peut-être pas modifier l’utilisation de 30 jours/mois pour l’amortissement. Pour plus d’informations, consultez la section [Amortissement via le champ Exercice comptable 365 jours](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+> Limitations connues : si vous définissez le champ **Utiliser Forcer nombre de jours** sur Oui, et que le champ **Forcer nombre de jours** est défini sur une valeur où la **Date comptabilisation** moins le **Nombre de jours** a pour résultat une date appartenant à l’année calendaire précédente, le système ne vous permettra pas de valider l’amortissement.
+> Vous pouvez éviter cela en réduisant le champ **Forcer nombre de jours** sur une valeur inférieure au nombre de jours calculés jusqu’à la date comptabilisation en utilisant 30 jours/mois OU en définissant l’indicateur **Exercice comptable 365 jours** dans la loi d’amortissement.
+> Nous recommandons la première option, car vous ne voudrez peut-être pas modifier l’utilisation de 30 jours/mois pour l’amortissement. Pour plus d’informations, consultez la section [Amortissement via le champ Exercice comptable 365 jours](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Pour valider un amortissement manuellement à partir d’une feuille validation immobilisation
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille compta. immo.**, puis choisissez le lien associé.  

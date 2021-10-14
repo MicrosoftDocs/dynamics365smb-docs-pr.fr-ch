@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 384bbdbc3630928298367956da133b0b488559b8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783524"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588822"
 ---
 # <a name="setting-up-posting-groups"></a>Configuration de groupes comptabilisation
 Les groupes comptabilisation mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux. Ils vous font gagner du temps et permettent d’éviter des erreurs lorsque vous validez des transactions. Les valeurs de transaction vont dans les comptes spécifiés dans le groupe comptabilisation pour cette entité particulière. Il vous suffit seulement d’avoir un plan comptable. Pour plus d’informations, reportez-vous à [Configuration du plan comptable](finance-setup-chart-accounts.md).  
@@ -75,8 +75,16 @@ Votre paramétrage détermine quand la validation a lieu. Par exemple, la synchr
 ## <a name="copying-posting-setup-lines"></a>Copie de lignes paramètres validation
 Plus il y a de groupes comptabilisation produit et marché, plus la page Paramètres comptabilisation contient de lignes. Cela peut entraîner la nécessité d’entrer un grand nombre de données pour configurer les paramètres comptabilisation pour la société. S’il peut y avoir un grand nombre de combinaisons différentes de groupes comptabilisation marché et produit, différentes combinaisons peuvent encore valider dans les mêmes comptes généraux. Pour limiter le nombre de saisies manuelles, copiez les comptes généraux à partir d’une ligne existante sur la page **Paramètres comptabilisation**.
 
-## <a name="see-also"></a>Voir aussi .
-[Les écritures comptables et le plan comptable](finance-general-ledger.md)  
+## <a name="troubleshooting-posting-group-errors"></a>Résolution des erreurs de groupe comptabilisation
+Les groupes comptabilisation sont l’un des concepts les plus avancés à configurer dans [!INCLUDE[prod_short](includes/prod_short.md)]. S’ils ne sont pas configurés correctement, des erreurs peuvent se produire lors de la validation de documents ou de lignes feuille. Par exemple, ces erreurs sont généralement causées par une erreur d’affectation des comptes de la comptabilité ou de combinaison des groupes comptabilisation.
+
+Quand quelque chose ne va pas, [!INCLUDE[prod_short](includes/prod_short.md)] affiche la page **Messages d’erreur**. La page **Messages d’erreur** peut faciliter l’identification et la résolution du problème. Cette page propose une description de l’erreur qui signale la configuration du groupe comptabilisation qui nécessite une attention particulière. Par exemple, le message peut indiquer « Il manque des Paramètres comptabilisation au compte Acompte vente ». Il existe également un lien pour ouvrir la page qui est à l’origine du problème, afin que vous puissiez le résoudre rapidement.  
+
+> [!NOTE]
+> La gestion des erreurs décrite ci-dessus n’est pas disponible sur les feuilles article, ressource, employé et immobilisation, ni pour les comptes de la comptabilité ajoutés dans des versions locales des groupes comptabilisation.
+
+## <a name="see-also"></a>Voir aussi
+[Comptabilité et plan comptable](finance-general-ledger.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

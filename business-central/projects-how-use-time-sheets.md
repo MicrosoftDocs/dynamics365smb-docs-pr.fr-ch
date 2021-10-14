@@ -1,5 +1,5 @@
 ---
-title: Utilisation de feuilles de temps pour des projets
+title: Utiliser des feuilles de temps pour des projets
 description: Décrit comment créer une feuille de temps pour un projet, copier des lignes planning dans celle-ci, définir les types de travaux, renseigner la feuille de temps, et la soumettre pour approbation.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 08/24/2021
 ms.author: edupont
-ms.openlocfilehash: 02d9536b27290ef27e5954ad6ea9004094e5cfe2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3e29d1b745c27f7d6e5f0e8d9e444d70b2218b10
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440656"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588847"
 ---
-# <a name="use-time-sheets-for-jobs"></a>Utiliser des feuilles de temps pour des projets
+# <a name="use-time-sheets-for-projects"></a>Utiliser des feuilles de temps pour des projets
 
 Vous devez utiliser le traitement par lots **Créer des feuilles de temps** pour configurer des feuilles de temps pour un nombre donné de périodes ou de semaines. Vous devez disposer d’autorisations pour pouvoir créer des feuilles de temps.
 
@@ -25,9 +25,12 @@ Vous pouvez copier et utiliser vos lignes planning projet dans une feuille de te
 
 Une fois que vous avez approuvé les écritures des feuilles de temps d’un projet, vous pouvez les valider dans la feuille ressource ou projet correspondante.
 
-Avant de pouvoir utiliser des feuilles de temps, vous devez définir des informations générales et spécifier un administrateur et un ou plusieurs approbateurs de feuilles de temps. Pour plus d’informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
+Avant de pouvoir utiliser des feuilles de temps, vous devez définir des informations générales et spécifier un administrateur et un ou plusieurs approbateurs de feuilles de temps. Pour plus d’informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).  
 
-## <a name="to-create-a-time-sheet"></a>Pour créer une feuille de temps
+> [!TIP]
+> À partir de la deuxième vague de lancement 2021, vous pouvez gérer les feuilles de temps attribuées sur un appareil mobile. Toutefois, il est possible que votre administrateur doive activer la fonctionnalité **Mise à jour des fonctionnalités : nouvelle expérience de feuille de temps** dans la page [Gestion des fonctionnalités](https://businesscentral.dynamics.com/?page=2610) pour utiliser cette fonctionnalité. Pour plus d’informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
+
+## <a name="to-create-time-sheets"></a>Pour créer des feuilles de temps
 
 Vous pouvez utiliser le traitement par lots **Créer des feuilles de temps** pour configurer des feuilles de temps pour un nombre donné de périodes ou de semaines. Une fois qu’une feuille de temps est créée, son propriétaire peut l’ouvrir et y enregistrer le temps consacré à une tâche.
 

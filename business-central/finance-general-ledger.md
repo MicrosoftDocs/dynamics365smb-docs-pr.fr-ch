@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2e939ef134fbe008268d190d601c70694d81297c
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321129"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588642"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Familiarisation avec les écritures comptables et les COA
 
@@ -70,6 +70,9 @@ Par exemple, le solde relevé par défaut solde est doté d’une sous-catégori
 3. Effectuer une indentation sous la sous-catégorie **Trésorerie**.  
 
 À la prochaine génération des tableaux d’analyse, votre relevé solde suivant affichera un solde final pour la trésorerie et deux lignes avec les soldes pour le fonds de caisse et le compte chèque.  
+
+## <a name="getting-a-quick-overview"></a>Obtenir un aperçu rapide
+La page Plan comptable affiche les comptes dans une liste hiérarchique qui offre un accès rapide aux informations clés pour chaque compte. Cependant, la liste est statique et si vous avez beaucoup de comptes, vous devrez peut-être défiler quelque peu pour afficher les informations de différents comptes. Si vous souhaitez simplement un aperçu rapide des éléments de base, tels que les variations nettes et les soldes, la page **Vue d’ensemble du plan comptable** est une alternative utile. La disposition des colonnes sur la page est désormais la même que celle que vous trouverez sur la page Plan comptable (il y en a juste moins) ; vous n’aurez donc pas à vous réorienter et vous pourrez développer ou réduire les niveaux hiérarchiques pour condenser la vue. Pour faciliter le passage d’une page à l’autre, la page **Vue d’ensemble du plan comptable** est disponible à partir de la page Plan comptable.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Accès pour créer et modifier des comptes et des catégories de comptes
 

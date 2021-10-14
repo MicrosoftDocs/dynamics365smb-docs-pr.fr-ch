@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: cf0dd21100fe9ec1fcc92320f04393c5385d2514
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: b9028bf88940a8c378469078ca680858b7702872
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440681"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589172"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installation et désinstallation d’extensions dans Business Central
 
@@ -75,6 +75,13 @@ Microsoft fournit les extensions suivantes :
 * [DK – Formats de fichier fiscal](ui-extensions-tax-file-formats-dk.md)
 * [Extension GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [É.-U./CA/R.-U./AU/N.-Z./ZA – Envoi d’un avis de versement](ui-extensions-send-remittance-advice.md)
+
+
+## <a name="uploading-a-per-tenant-extension-pte"></a>Chargement d’une extension par locataire (PTE)
+
+Vous chargez un PTE en utilisant la page **Gestion des extensions**. Sur la page **Gestion des extensions**, accédez à **Gérer**, puis sélectionnez **Charger une extension**. Sur la page **Charger et déployer l’extension**, spécifiez le fichier .app à charger. Pour continuer, choisissez le bouton **Accepter**, puis le bouton **Déployer** ; cela lancera le processus de déploiement du PTE.
+
+Si le PTE contient d’importantes modifications de schéma, il est possible de *forcer* son chargement. Pour ce faire, en **Mode de synchronisation des schémas**, sélectionnez l’option **Forcer**. Vous verrez une boîte de dialogue de confirmation pour accepter avant de continuer. 
 
 ## <a name="uninstalling-an-extension"></a>Désinstallation d’une extension
 

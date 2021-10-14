@@ -10,36 +10,58 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 84b6a9fa74cea99f8b939edcf0cd883e39eb6937
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c624d718d27de607aed49a82a506f81eec57247c
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445987"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588922"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Utilisation de modèles Word pour la communication en masse
-Les modèles Microsoft Word peuvent faciliter la communication de masse avec des entités telles que les clients et les fournisseurs. Par exemple, vous pouvez créer des brochures pour alerter les clients sur une campagne de vente, des lettres pour informer les fournisseurs d’une nouvelle politique d’achat ou des invitations à attirer des contacts pour un événement à venir.
+Les modèles Microsoft Word peuvent faciliter la communication de masse par documents papier ou e-mails avec des entités telles que les contacts, les clients et les fournisseurs. Par exemple, vous pouvez créer des brochures pour alerter les clients sur une campagne de vente, des lettres pour informer les fournisseurs d’une nouvelle politique d’achat ou des invitations à attirer des contacts pour un événement à venir.
 
 > [!NOTE]
 > Vous pouvez utiliser les modèles Word uniquement sur les appareils avec Microsoft Word 2019 et sur lesquels le système d’exploitation Windows est installé.
 
 Vous pouvez utiliser des entités dans [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données pour le modèle et ajouter des champs de fusion pour personnaliser les documents pour chaque entité. Les champs de fusion proviennent de l’entité dans [!INCLUDE[prod_short](includes/prod_short.md)]. Lorsque vous appliquez un modèle Word à une entité, les données des champs de fusion sont insérées dans le document.
 
-Sur la page **Modèles Word**, vous pouvez utiliser un guide de configuration assistée pour télécharger un fichier ZIP contenant un DataSource.txt et un fichier de modèle Word pour une entité. Après avoir configuré le modèle et ajouté des champs de fusion, vous utilisez le même guide pour charger le modèle. Vous ne pouvez utiliser que le modèle Word et les fichiers de source de données que vous téléchargez à partir de [!INCLUDE[prod_short](includes/prod_short.md)] et vous devez stocker les fichiers au même emplacement.
+Sur la page **Modèles Word**, lorsque vous créez un nouveau modèle, vous pouvez utiliser un guide de configuration assistée pour télécharger un fichier ZIP contenant un fichier DataSource.txt et un fichier de modèle Word pour l’entité. Le fichier de source de données fournit les champs que vous pouvez utiliser dans le modèle. Ne modifiez pas le fichier de source de données. Vous ne pouvez utiliser que le modèle Word et les fichiers de source de données que vous téléchargez à partir de [!INCLUDE[prod_short](includes/prod_short.md)] et vous devez stocker les fichiers au même emplacement.
 
-> [!NOTE]
-> Lorsque vous choisissez une entité pour laquelle créer un modèle, la liste affiche toutes les entités dans [!INCLUDE[prod_short](includes/prod_short.md)]. Cependant, vous ne pouvez pas créer de modèles pour toutes les entités. Si le nom d’une entité contient des caractères spéciaux, tels que **/**, **.**, **_**, ou **-**, vous ne pouvez pas créer de modèle pour celui-ci. Le nom de l’entité est indiqué dans la colonne **Légende de l’objet**.
+Après avoir configuré le modèle et ajouté des champs de fusion, vous utilisez le même guide pour charger le modèle.
 
-Lorsque vous configurez le modèle dans Word, sur l’onglet **Publipostage** vous pouvez ajouter des champs de fusion en choisissant **Insérer un champ de fusion**.
+## <a name="setting-up-the-template-in-word"></a>Configuration du modèle dans Word
+Lorsque vous configurez un modèle dans Word, sur l’onglet **Publipostage** vous pouvez ajouter des champs de fusion en choisissant **Insérer un champ de fusion**. Les champs de fusion disponibles proviennent du fichier de source de données que vous avez téléchargé pour l’entité. Ils tiennent lieu d’espaces réservés qui indiquent à Word où dans le document placer les informations sur l’entité. 
 
-> [!NOTE]
-> Vous ne pouvez pas utiliser de champs de fusion si le nom du champ contient 40 caractères ou plus. Par exemple, vous ne pouvez pas utiliser le champ Company__Information_Customs_Permit_Date car il comporte 40 caractères. 
+:::image type="content" source="media/word-tmpl-merge-field.PNG" alt-text="Ajout de champs de fusion dans Microsoft Word":::
 
-Lorsque votre modèle Word est prêt, sur la page **Modèles Word** vous pouvez choisir **Appliquer** pour générer les documents. Vous pouvez créer un document contenant des sections pour chaque entité ou fractionner l’opération pour créer un document pour chaque entité.
+## <a name="adding-related-entities"></a>Ajout d’entités associées
+En plus d’ajouter des données pour l’entité source, c’est-à-dire l’entité pour laquelle vous créez le modèle, vous pouvez également fusionner les données des entités qui lui sont associées. Par exemple, si la source est l’entité Client, vous pouvez également fusionner les données des champs de l’entité Client/Acheteur car les deux entités ont un champ en commun.
 
-## <a name="to-create-a-word-template"></a>Pour créer un modèle Word
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles Word**, puis choisissez le lien associé.
-2. Suivez les étapes du guide de configuration assistée. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+Les entités associées partagent un champ, qui est souvent un identifiant tel qu’un nom, un code ou un ID, avec l’entité source. Lorsque vous configurez un modèle, il existe des options simples et avancées pour choisir les entités associées :
+
+* Simple : ajoutez des relations connues rendues disponibles par défaut par [!INCLUDE[prod_short](includes/prod_short.md)].
+* Avancé : ajoutez des relations non standard, telles que celles qui ont été ajoutées par des extensions ou des personnalisations. Cela nécessite que vous connaissiez les champs que les entités partagent.
+
+Lorsque vous ajoutez une entité associée, vous devez spécifier un préfixe pour le nom du champ. Lorsque vous ajoutez des champs au modèle, le préfixe peut faciliter la distinction entre les champs de l’entité source et les champs des entités associées.
+
+## <a name="to-create-a-word-template-in-business-central"></a>Pour créer un modèle Word dans Business Central
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles Word**, puis choisissez le lien associé.
+2. Choisissez **Nouveau**, puis **Créer un modèle**, puis suivez les étapes du guide de configuration assistée. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]
+> Vous pouvez également créer un modèle directement depuis la page d’une entité en choisissant l’action **Appliquer le modèle Word** pour ouvrir le guide de configuration assistée, puis **Nouveau modèle**. Lorsque vous faites cela, la source de données est choisie pour vous en fonction du type d’entité.
+
+## <a name="applying-a-template"></a>Application d’un modèle
+Lorsque votre modèle Word est prêt, sur la page **Modèles Word** vous pouvez choisir **Appliquer** pour générer les documents. Lorsque vous appliquez un modèle Word à une entité, les données des champs de fusion sont insérées dans le document. Vous pouvez créer un document contenant des sections pour chaque entité ou sélectionner **Fractionner** pour créer un document pour chaque entité.
+
+Vous pouvez appliquer des modèles à une ou plusieurs entités du même type, comme un contact, directement dans le contexte de cette page ou à partir de la page Modèles Word pour appliquer le modèle à toutes les entités de ce type.
+
+## <a name="using-word-templates-with-email"></a>Utilisation de modèles Word avec la messagerie
+Vous pouvez utiliser des modèles Word pour ajouter du contenu aux messages électroniques. Lorsque vous rédigez un e-mail, vous pouvez choisir l’action **Utiliser un modèle Word** pour appliquer le contenu d’un modèle au message. Cela nécessite que vous ayez créé un ou plusieurs modèles pour l’entité. Vous pouvez utiliser un modèle à la fois et lorsque vous passez d’un modèle à l’autre, le message change pour refléter le contenu du modèle choisi.
+
+De plus, vous pouvez utiliser l’action **Ajouter un fichier à partir d’un modèle Word** pour joindre le contenu du modèle à l’e-mail sous forme de fichier. Le fichier utilisera le format que vous avez spécifié pour la sortie du modèle.
+
+:::image type="content" source="media/email-word-tmpl.PNG" alt-text="Options d’utilisation du contenu d’un modèle Word dans un e-mail":::
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des présentations d’état et de document](ui-manage-report-layouts.md)  

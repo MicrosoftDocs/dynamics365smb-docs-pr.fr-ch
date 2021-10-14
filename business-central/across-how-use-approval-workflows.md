@@ -1,33 +1,32 @@
 ---
 title: Approuver ou rejeter des documents dans les flux| Microsoft Docs
 description: Demander, rejeter, ou déléguer une approbation de, par exemple, un document achat ou vente, dans le cadre d’un flux de travail.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2021
+ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: 6533bc4d141bd13772cad62f8a8574681bb60846
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 653c9e0231e7f1f28e3fe2d6987dbbf4db327faf
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441014"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588872"
 ---
 # <a name="use-approval-workflows"></a>Utilisation des flux d’approbation
+
 Lorsqu’un enregistrement, tel qu’un document achat ou une fiche client, doit être approuvé par un membre de votre organisation, vous envoyez une approbation demande achat dans le cadre d’un workflow. Selon la configuration du workflow, l’approbateur approprié est informé que l’enregistrement requiert son approbation.
 
-Vous configurez les flux d’approbation sur la page **Flux de travail**. Pour plus d’informations, reportez-vous à [Paramétrage des workflows](across-set-up-workflows.md).
+Vous configurez les flux d’approbation sur la page **Flux de travail**. Vous devez également configurer les utilisateurs d’approbation, y compris les limites de montant pertinentes, dans la page **Paramètres utilisateur approbation**. Pour plus d’informations, reportez-vous à [Paramétrage des workflows](across-set-up-workflows.md).  
 
 Outre les flux de travail approbation décrits dans cette rubrique, vous pouvez effectuer diverses autres tâches de flux de travail. Pour plus d’informations, voir [Utilisation des workflows](across-use-workflows.md).
 
 Les flux d’approbation de base pour les documents achat, les documents vente, les feuilles paiement, les fiches client et les fiches article sont prêts à être utilisés dans le cadre de guides. Pour plus d’informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Faire une demande d’approbation d’un enregistrement
+
 La tâche suivante est effectuée par un utilisateur d’approbation.
 
 1. Sur la page qui affiche l’enregistrement, sélectionnez l’action **Envoyer demande d’approbation**.
@@ -38,6 +37,7 @@ Le statut de l’écriture approbation passe de **Créé** à **Ouvert**. Le sta
 Lorsque l’approbateur a approuvé l’enregistrement, le statut passe à **Validé**. Vous pouvez ensuite effectuer vos tâches avec l’enregistrement.
 
 ## <a name="to-cancel-requests-for-approval"></a>Pour annuler des demandes d’approbation
+
 La tâche suivante est effectuée par un utilisateur d’approbation doté de droits d’approbation.
 
 Un client peut souhaiter modifier une commande après sa soumission pour approbation. Dans ce cas, vous pouvez annuler le processus d’approbation et apporter les modifications nécessaires à la commande avant de refaire une demande d’approbation.
@@ -47,6 +47,7 @@ Un client peut souhaiter modifier une commande après sa soumission pour approba
 Lorsque la demande d’approbation a été annulée, le statut de l’écriture de l’approbation connexe passe à **Annulé**. Le statut de l’enregistrement est mis à jour d’**Approbation en attente** à **Ouvert**. Le processus d’approbation peut alors redémarrer.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Pour approuver ou rejeter les demandes d’approbation
+
 La tâche suivante est effectuée par un utilisateur d’approbation doté de droits d’approbation.
 
 Vous pouvez traiter les demandes d’approbation sur la page **Demandes à approuver**, par exemple, afin d’approuver plusieurs demandes à la fois. Sinon, vous pouvez traiter chaque demande sur l’enregistrement connexe, par exemple la page **Facture achat**, en sélectionnant le lien dans la notification que vous recevez.
@@ -62,6 +63,7 @@ Si une hiérarchie d’approbateurs est configurée, le statut enregistrement se
 Simultanément, le statut d’approbation passe de **Créé** à **Ouvert** dès qu’une demande d’approbation est créée pour l’enregistrement. Si la demande est rejetée, le statut d’approbation passe à **Rejeté**. Le statut reste sur **Ouvert** ou **Rejeté** jusqu’à ce que tous les approbateurs aient approuvé la demande.
 
 ## <a name="to-delegate-requests-for-approval"></a>Pour déléguer des demandes d’approbation
+
 La tâche suivante est effectuée par un utilisateur d’approbation doté de droits d’approbation.
 
 Pour éviter que des documents ne s’accumulent ou encore bloquent le workflow, l’approbateur et l’administrateur d’approbation peuvent déléguer une demande d’approbation à un approbateur remplaçant. Le remplaçant peut être soit un remplaçant désigné, l’approbateur direct, soit l’administrateur d’approbation, dans cet ordre de priorité. Généralement, cette fonction est utilisée si un approbateur est absent et dans l’impossibilité d’approuver des demandes avant la date d’échéance.
@@ -72,6 +74,7 @@ Pour éviter que des documents ne s’accumulent ou encore bloquent le workflow,
 Une notification pour approuver la demande est envoyée à l’approbateur remplaçant.
 
 ## <a name="to-manage-overdue-approval-requests"></a>Pour gérer des demandes d’approbation échues
+
 La tâche suivante est effectuée par un utilisateur d’approbation doté de droits d’approbation.
 
 Vous devez rappeler régulièrement aux utilisateurs du workflow d’approbation qu’ils doivent répondre aux demandes d’approbations échues. Pour cela, utilisez la fonction **Envoyer des notifications d’approbations échues**.
@@ -82,10 +85,12 @@ La fonction **Envoyer des notifications d’approbations échues** passe en revu
 2. Sur la page **Demandes approbations échues**, sélectionnez l’action **Envoyer les notifications d’approbation échues**.
 
 ## <a name="see-also"></a>Voir aussi
-[Ventes](sales-manage-sales.md)    
+
+[Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md)  
+[Ventes](sales-manage-sales.md)  
 [Documents entrants](across-income-documents.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

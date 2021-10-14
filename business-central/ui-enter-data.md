@@ -1,21 +1,21 @@
 ---
 title: Procédure de saisie de données dans Business Central
 description: Plusieurs fonctions générales vous permettent de saisir vos données de manière plus facile, rapide et précise. Les principes de base et les fonctionnalités avancées sont décrits ici.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443683"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588972"
 ---
 # <a name="entering-data"></a>Saisie de données
 
@@ -35,7 +35,6 @@ Certains champs modifiables fournissent un sélecteur pour vous aider à spécif
 |Menu déroulant          |Les listes déroulantes offrent un choix de valeurs fixes ou d’enregistrements de référence d’une autre table|
 |Commutateur ou case à cocher|Certains champs offrent un choix simple : valeurs *Oui* ou *Non*. Le commutateur est utilisé pour spécifier cette valeur et est toujours affiché sous forme de case à cocher dans les listes|
 |Modification assistée       |Certains champs fournissent des sélecteurs personnalisés adaptés à la recherche et au choix de la meilleure valeur pour ce champ, comme une fenêtre contextuelle|
-
 
 ### <a name="modifying-a-field-value"></a>Modification d’une valeur de champ
 
@@ -58,7 +57,6 @@ Lorsque le curseur apparaît à la fin de la valeur du champ :
 
 > [!NOTE]
 > Après avoir spécifié une valeur, Business Central vérifie uniquement sa validité après avoir cliqué en dehors du champ ou défini le focus sur un autre article, tel que le champ suivant.  
-
 
 ## <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -267,9 +265,16 @@ Voilà quelques exemples.
 
  Si l’unité est « heures », 5 est converti en 5h.  
 
-## <a name="see-also"></a>Voir aussi  
- [Tri, recherche et filtrage de listes](ui-enter-criteria-filters.md)  
- [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Définition du séparateur décimal utilisé par les claviers numériques
+
+Lorsque vous utilisez la touche du séparateur décimal du clavier numérique pour saisir des données, le séparateur décimal réel entré dans le champ est déterminé par le paramètre régional de votre Business Central. Vous définissez la région de Business Central sur la page **Mes paramètres**.
+
+Par exemple, supposons que vous utilisez un clavier numérique qui utilise un point (.) comme touche de séparateur décimal. Cependant, vous entrez des données pour une langue régionale qui utilise une virgule (**,**) comme séparateur décimal, comme le danois (Danemark) ou le français (France). Donc, vous voulez que les décimales telles que « 1.23 » soient saisies comme « 1,23 ». Dans ce cas, vous pouvez vous rendre sur la page **Mes paramètres** et définir la **Région** sur la langue régionale cible, telles que le **Danois (Danemark)** ou le **Français (france)**. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Voir aussi
+
+[Tri, recherche et filtrage de listes](ui-enter-criteria-filters.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

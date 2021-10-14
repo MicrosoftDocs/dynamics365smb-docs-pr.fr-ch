@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f4047e6d1a8a7533933fd8faefe9a43f22f23e6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 328417821e8e5cc14bc8267e64687ce2a14f15af
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445591"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588566"
 ---
 # <a name="work-with-catalog-items"></a>Utiliser des articles de catalogue
 Vous pouvez proposer certains articles à vos clients pour leur rendre service, que vous ne souhaitez pas gérer dans votre système tant que vous ne commencez pas à les commercialiser. Lorsque vous souhaitez commencer à gérer de tels articles dans votre système, vous pouvez les convertir en fiches article normales de deux façons.
@@ -66,7 +66,7 @@ Une nouvelle fiche article pré-remplie avec les informations de l’article de 
 Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article, le cas échéant. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Un enregistrement de référence externe article est automatiquement créé pour le fournisseur de l’article entre le numéro article fournisseur et votre nouveau numéro article. Pour plus d’informations, voir [Utiliser les références externes article](inventory-how-use-item-cross-refs.md).
+>   Une référence article est automatiquement créée entre le numéro article fournisseur et votre nouveau numéro article. Pour plus d’informations, voir [Utiliser les références article](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  

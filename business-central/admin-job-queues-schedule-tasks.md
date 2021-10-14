@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649877"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588897"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utiliser des files d’attente des travaux pour planifier des tâches
 
@@ -60,6 +60,15 @@ Le tableau suivant décrit les valeurs du champ **Statut**.
 
 > [!TIP]
 > Vous pouvez également voir le statut des écritures file d’attente des travaux en utilisant Application Insights dans Microsoft Azure pour une analyse plus approfondie basée sur la télémétrie. Pour plus d’informations, voir [Surveillance et analyse de la télémétrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) et [Analyse de la télémétrie de suivi du cycle de vie de la file d’attente des travaux](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) dans le contenu [!INCLUDE [prod_short](includes/prod_short.md)] pour développeurs et administrateurs.
+
+## <a name="view-scheduled-tasks"></a>Afficher les tâches planifiées
+
+La page **Tâches planifiées** dans [!INCLUDE [prod_short](includes/prod_short.md)] indique quelles tâches sont prêtes à être exécutées dans la file d’attente des travaux. La page affiche également des informations sur l’entreprise dans laquelle chaque tâche est configurée pour s’exécuter. Cependant, seules les tâches marquées comme appartenant à l’environnement actuel peuvent s’exécuter.  
+
+Par exemple, si la société actuelle se trouve dans un environnement qui est une copie d’un autre environnement, toutes les tâches planifiées sont automatiquement arrêtées. Utilisez la page **Tâches planifiées** pour définir les tâches comme prêtes à être exécutées dans la file d’attente des travaux.  
+
+> [!NOTE]
+> Les administrateurs internes et les utilisateurs peuvent planifier l’exécution des tâches. Les administrateurs délégués ne le peuvent pas.
 
 ## <a name="the-my-job-queue-part"></a>Composant Ma file d’attente des travaux
 Le composant **Ma file d’attente des travaux** sur votre Tableau de bord répertorie les écritures files d’attente des travaux commencées par vous, mais qui ne sont pas terminées. Par défaut, le composant n’est pas visible et vous devez donc l’ajouter à votre tableau de bord. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).  

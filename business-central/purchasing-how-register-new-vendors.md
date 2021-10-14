@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 06/23/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 662239446426cf64ac20d766e21aee55b92f9809
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445392"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587699"
 ---
 # <a name="register-new-vendors"></a>Enregistrer un nouveau fournisseur
 
@@ -32,32 +32,31 @@ Les fiches fournisseur contiennent les informations requises pour acheter des pr
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Ajouter de nouveaux fournisseurs
+Vous pouvez ajouter de nouveaux fournisseurs manuellement, en remplissant les champs sur la page **Fiche fournisseur**, ou vous pouvez utiliser des modèles contenant des informations prédéfinies. Par exemple, vous pouvez créer des modèles pour différents types de profils de fournisseurs. L’utilisation de modèles permet de gagner du temps lors de l’ajout de nouveaux fournisseurs et permet de garantir que les informations sont correctes à chaque fois. Si vous créez des modèles pour plusieurs types de fournisseurs, vous pouvez choisir le modèle à utiliser lorsque vous ajoutez un fournisseur. Si vous ne créez qu’un seul modèle, il sera utilisé pour tous les nouveaux fournisseurs. Après avoir créé un modèle, vous pouvez utiliser l’action **Appliquer le modèle** pour l’appliquer à un ou plusieurs fournisseurs sélectionnés. Pour créer un modèle, vous remplissez les informations que vous souhaitez réutiliser sur la page Fiche fournisseur, puis l’enregistrez en tant que modèle. Pour plus d’informations, consultez [Pour enregistrer la fiche fournisseur en tant que modèle](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
-Pour enregistrer un nouveau fournisseur, vous devez remplir une fiche fournisseur. Vous pouvez créer des modèles pour différents profils de fournisseurs ou ajouter des fournisseurs sans modèles. Vous pouvez également créer un fournisseur à partir d’un contact. Pour plus d’informations, reportez-vous à [Pour créer un contact comme client, fournisseur, employé ou compte bancaire à partir d’un contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Il peut être utile de personnaliser la page **Modèle de fournisseur** lorsque vous créez un modèle. Par exemple, vous souhaiterez peut-être ajouter un champ qui n’est pas déjà affiché sur la page. Pour plus d’informations, voir [Personnaliser votre espace de travail](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Si des modèles fournisseur existent pour différents types de fournisseurs, une page s’affiche lorsque vous créez une fiche fournisseur à partir de laquelle vous pouvez sélectionner un modèle approprié. Si un seul modèle fournisseur existe, les nouvelles fiches fournisseur utiliseront toujours ce modèle.  
+Vous pouvez également créer un fournisseur à partir d’un contact. Pour plus d’informations, reportez-vous à [Pour créer un contact comme client, fournisseur, employé ou compte bancaire à partir d’un contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact). 
 
-### <a name="to-create-a-new-vendor-card"></a>Pour créer une fiche fournisseur
+### <a name="to-create-a-new-vendor"></a>Pour créer un fournisseur
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Fournisseurs**, puis choisissez le lien associé.  
-2. Sur la page **Fournisseurs**, choisissez **Nouveau**.
+[!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
-    Si plusieurs modèles de fournisseur existent, une page s’affiche et vous permet de sélectionner un modèle fournisseur. Dans ce cas, suivez les deux étapes suivantes.
-    1. Sur la page **Sélectionnez un modèle pour un nouveau fournisseur**, sélectionnez le modèle que vous souhaitez utiliser pour la nouvelle fiche fournisseur.
-    2. Cliquez sur le bouton **OK**. Une nouvelle fiche fournisseur avec certains champs contenant les informations provenant de ce modèle s’ouvre.
-3. Renseignez ou modifiez les champs de la fiche fournisseur selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-    > [!TIP]  
-    > Si vous ne connaissez pas l’adresse de facturation qui sera utilisée pour chaque facture fournisseur, ne renseignez pas le champ **N° fournisseur**. Sélectionnez plutôt le numéro du fournisseur à payer après avoir configuré une demande de prix, une commande ou un en-tête facture.
+> [!TIP]  
+> Si vous ne connaissez pas l’adresse de facturation qui sera utilisée pour chaque facture fournisseur, ne renseignez pas le champ **N° fournisseur**. Sélectionnez plutôt le numéro du fournisseur à payer après avoir configuré une demande de prix, une commande ou un en-tête facture.
 
 Le fournisseur est désormais enregistré, et la fiche fournisseur est prête à être utilisée sur les documents d’achat.
 
 Si vous souhaitez utiliser cette fiche fournisseur comme modèle lorsque vous créez de nouvelles fiches fournisseur, enregistrez-la comme modèle fournisseur. Pour plus d’informations, consultez la section [Pour enregistrer la fiche fournisseur en tant que modèle](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-vendor-cards"></a>Suppression de cartes fournisseur
+### <a name="deleting-and-editing-vendor-information"></a>Suppression et modification des informations sur le fournisseur
 
-Si vous avez enregistré une transaction pour un fournisseur, vous ne pouvez pas supprimer la carte car les écritures comptables peuvent être nécessaires pour l’audit. Pour supprimer des fiches fournisseur avec des écritures comptables, contactez votre partenaire Microsoft pour le faire via le code.
+Vous pouvez modifier les informations des fiches fournisseur à tout moment. Toutefois, si vous avez enregistré une transaction pour un fournisseur, vous ne pouvez pas supprimer la fiche car les écritures comptables peuvent être nécessaires aux fins d’audit. Pour supprimer des fiches fournisseur avec des écritures comptables, contactez votre partenaire Microsoft pour le faire via le code.
+
+> [!TIP]
+> Vous pouvez modifier l’IBAN sur le compte bancaire d’un fournisseur sans que le changement n’affecte vos écritures d’historique de registre de virements. Les écritures du registre des virements stockent l’IBAN du destinataire et le numéro de compte bancaire du destinataire qui ont été spécifiés dans les champs Compte bancaire du fournisseur et Nom du destinataire de la page Fiche fournisseur lorsque les écritures ont été créées.
+
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Pour enregistrer la fiche fournisseur en tant que modèle
 

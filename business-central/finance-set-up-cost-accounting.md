@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0ed9b58b9ceec962d7f55ef5687ac36e11fbd681
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7f6f79ba1f8005363204f48c5ea9b91073b517f7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446380"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588691"
 ---
 # <a name="setting-up-cost-accounting"></a>Paramétrage du contrôle de gestion
 Avant d’utiliser la comptabilité analytique, vous devez effectuer des tâches de paramétrage.
@@ -36,7 +36,7 @@ Le plan des types de coûts a la même fonction que le plan comptable général.
 -   Créez le plan des types de coûts ou ajoutez de nouveaux types de coûts au plan comptable existant des types de coûts. Vous devez créer chaque type de coûts individuellement.  
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Pour transférer le plan comptable général vers le plan des types de coûts  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable des types de coûts**, puis choisissez le lien associé.  
+1.  Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable des types de coûts**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Obtenir les types de coûts à partir du plan comptable**. Dans la boîte de dialogue, cliquez sur **Oui** pour confirmer le transfert. La fonction utilise le plan comptable général pour créer le plan des types de coûts.  
 
     Le plan des types de coûts contient désormais tous les comptes de gestion en comptabilité, et comprend les titres et les totaux. Vous pouvez modifier le plan des types de coûts, selon vos besoins. Par exemple, vous pouvez supprimer les types de coûts existants en double.  
@@ -80,8 +80,8 @@ Une relation n:1 existe entre les comptes généraux et les types de coûts. Plu
 |------------------|------------------------------------------------|-------------------------------------------|  
 |Un compte général pour chaque type de coût|Un compte général|Un type de coût|  
 |Plusieurs comptes généraux pour chaque type de coût|Plage de comptes généraux, par exemple, 7110..7193 pour chaque compte général|Pour chaque compte général de la plage, il n’existe qu’un seul type de coût|  
-|Types de coûts sans comptes généraux correspondants|<Empty>||  
-|Comptes généraux dont les écritures ne seront pas transférées||<Empty>|  
+|Types de coûts sans comptes généraux correspondants|\<Empty\>||  
+|Comptes généraux dont les écritures ne seront pas transférées||\<Empty\>|  
 
 ### <a name="cost-types-without-a-relationship-to-the-general-ledger"></a>Types de coûts sans relation avec la comptabilité générale  
 Un type de coût risque de ne pas afficher une relation avec les comptes généraux si une des conditions suivantes est vraie :  
@@ -98,7 +98,7 @@ Les centres de coûts sont les départements responsables des coûts et des reve
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Pour transférer des sections analytiques de la comptabilité vers le plan des centres de coûts.  
 1.  Définissez un axe analytique pour être celui de la dimension des centres de coûts sur la page **Mettre à jour les axes analytiques de comptabilité analytique**. Seules les valeurs de cet axe analytique sont transférées.  
-2.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable des centres de coûts**, puis choisissez le lien associé.  
+2.  Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 2.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable des centres de coûts**, puis choisissez le lien associé.  
 3.  Sous l’onglet **Actions**, dans le groupe **Fonctions**, choisissez **Extraire les centres de coûts de l’axe analytique** pour transférer des sections du plan des centres de coûts. La fonction transfère les sections analytiques que vous avez définis dans l’étape 1.  
 
     > [!NOTE]  
@@ -131,7 +131,7 @@ Les coûts associés sont les projets, les biens ou les services d’une sociét
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Pour transférer des sections analytiques depuis la comptabilité vers le plan comptable des coûts associés  
 1.  Définissez un axe analytique pour être celui des coûts associés sur la page **Actualiser axes analytiques CA**. Seules les valeurs de cet axe analytique sont transférées.  
-2.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable des coûts**, puis choisissez le lien associé.  
+2.  Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable des coûts**, puis choisissez le lien associé.  
 3.  Choisissez l’action **Extraire les coûts associés de l’axe analytique** pour transférer des sections analytiques du plan comptable de coûts associés. La fonction transfère les axes analytiques que vous avez définis dans l’étape 1.  
 
     > [!NOTE]  

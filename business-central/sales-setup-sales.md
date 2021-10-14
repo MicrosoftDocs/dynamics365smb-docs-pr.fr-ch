@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ab745b2f0cc98081bfb9640ca9fc2a2161b62ad2
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318599"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588666"
 ---
 # <a name="setting-up-sales"></a>Définition des ventes.
 Avant de pouvoir gérer les processus de vente, vous devez configurer les règles et valeurs qui définissent les stratégies de vente de la société.
 
-Vous devez définir la configuration générale, notamment les documents vente requis et le mode de validation des valeurs correspondantes. Celle-ci a généralement lieu une seule fois au cours de la phase initiale de l’implémentation.
+Vous devez définir la configuration générale sur la page **Paramètres ventes**, telle que les documents de vente requis, la manière dont leurs valeurs sont enregistrées et le type de lignes à créer par défaut. Celle-ci a généralement lieu une seule fois au cours de la phase initiale de l’implémentation.
 
-Une série de tâches distincte en relation avec l’enregistrement de nouveaux clients consiste à enregistrer les prix spéciaux ou les accords de remise établis avec chaque client.
+Une série de tâches distincte en relation avec l’enregistrement de nouveaux clients consiste à enregistrer les prix spéciaux ou les accords de remise établis avec chaque client. Pour plus d’informations, reportez-vous à [Enregistrer les prix de vente spéciaux et les remises](sales-how-record-sales-price-discount-payment-agreements.md).
 
 La configuration des ventes en relation avec les finances, comme les modes de règlement et les devises, sont traitées dans la section Paramètres financiers. Pour plus d’informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
 

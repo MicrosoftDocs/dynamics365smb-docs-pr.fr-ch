@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 04/01/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3d014015946f9202d59127d6e871aa5dd0ec90bd
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440381"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588997"
 ---
 # <a name="register-new-customers"></a>Enregistrer de nouveaux clients
 
@@ -26,23 +26,16 @@ Avant de pouvoir enregistrer de nouveaux clients, vous devez configurer divers c
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Ajout de nouveaux clients
+Vous pouvez ajouter de nouveaux clients manuellement, en remplissant les champs sur la page **Fiche client**, ou vous pouvez utiliser des modèles contenant des informations prédéfinies. Par exemple, vous pouvez créer des modèles pour différents types de profils de client. L’utilisation de modèles permet de gagner du temps lors de l’ajout de nouveaux clients et permet de garantir que les informations sont correctes à chaque fois. Si vous créez des modèles pour plusieurs types de client, vous pouvez choisir le modèle à utiliser lorsque vous ajoutez un client. Si vous ne créez qu’un seul modèle, il sera utilisé pour tous les nouveaux clients. Après avoir créé un modèle, vous pouvez utiliser l’action **Appliquer le modèle** pour l’appliquer à un ou plusieurs client sélectionnés. Pour créer un modèle, vous remplissez les informations que vous souhaitez réutiliser sur la page Fiche client, puis l’enregistrez en tant que modèle. Pour plus d’informations, consultez [Pour enregistrer la fiche client en tant que modèle](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
-Pour enregistrer un nouveau client, vous devez remplir une fiche client. Vous pouvez créer des modèles pour différents profils de clients ou ajouter des clients sans modèles. Vous pouvez également créer un client à partir d’un contact. Pour plus d’informations, reportez-vous à [Pour créer un contact comme client, fournisseur, employé ou compte bancaire à partir d’un contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Il peut être utile de personnaliser la page **Modèle de client** lorsque vous créez un modèle. Par exemple, vous pouvez ajouter le champ **Limite autorisé** à un modèle. Pour plus d’informations, voir [Personnaliser votre espace de travail](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Si des modèles client existent pour différents types de clients, une page s’affiche lorsque vous créez une nouvelle fiche client à partir de laquelle vous pouvez sélectionner un modèle client approprié. Si un seul modèle client existe, les nouvelles fiches client utiliseront toujours ce modèle.  
+Vous pouvez également créer un client à partir d’un contact. Pour plus d’informations, reportez-vous à [Pour créer un contact comme client, fournisseur, employé ou compte bancaire à partir d’un contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### <a name="to-create-a-new-customer-card"></a>Pour créer une fiche client
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.  
-2. Sur la page **Clients**, sélectionnez l’action **Nouveau**.
-
-    Si un seul modèle client existe, une nouvelle fiche client avec certains champs renseignés à l’aide des informations provenant du modèle s’ouvre.
-
-    Si plusieurs modèles client existent, une page s’affiche et vous permet de sélectionner un modèle client. Dans ce cas, suivez les deux étapes suivantes.
-3. Sur la page **Sélectionnez un modèle pour un nouveau client**, sélectionnez le modèle que vous souhaitez utiliser pour la nouvelle fiche client.
-4. Cliquez sur le bouton **OK**. Une fiche client avec certains champs contenant les informations provenant de ce modèle s’ouvre.  
-5. Renseignez ou modifiez les champs de la fiche client selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 **Prix et remises** fournit des options pour gérer des prix spéciaux ou des remises pour le client lorsqu’une commande répond à certains critères. Par exemple, les critères peuvent être lorsqu’ils achètent un certain article, commandent une quantité minimale ou achètent avant une date, comme la fin d’une campagne. Pour plus d’informations, reportez-vous à [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -76,7 +69,7 @@ Vous pouvez choisir de ne pas afficher les alertes vous indiquant que le crédit
 
 ### <a name="to-specify-credit-limit-warnings"></a>Pour spécifier les alertes crédit autorisé
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres ventes**, puis choisissez le lien associé.
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres ventes**, puis choisissez le lien associé.
 
 2. Sur le raccourci **Général**, dans le champ **Alertes crédit**, choisissez l’option appropriée comme décrit dans le tableau suivant :
 

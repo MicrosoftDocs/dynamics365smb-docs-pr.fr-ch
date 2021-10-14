@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fda901d7737d7818b7ebc965d9babf1f0868f1de
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: d60dbe10adf00c375121e2fc944b626e48d28970
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322187"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587495"
 ---
 # <a name="business-process-walkthroughs"></a>Procédures pas à pas liées au processus entreprise
 
@@ -24,7 +24,7 @@ Cette sélection de procédures fournit des processus entreprise pas à pas et d
  Les procédures pas à pas sont des scénarios complets que vous devez exécuter dans leur intégralité pour en tirer pleinement profit. Nombre d’entre elles sont basées sur les démonstrations [!INCLUDE[prod_short](includes/prod_short.md)] et vous permettent de tester les procédures par vous-même, à votre rythme.  
 
 > [!NOTE]
-> Certaines procédures pas à pas nécessitent des exemples de données qui ne sont pas disponibles dans la société de démonstration par défaut dans [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [To create a company with complete sample data in a sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox). -->
+> Certaines procédures pas à pas nécessitent des exemples de données qui ne sont pas disponibles dans la société de démonstration par défaut dans [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments). -->
 
 |À|Voir|  
 |--------|---------|  

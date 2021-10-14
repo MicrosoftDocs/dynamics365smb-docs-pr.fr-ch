@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 921eb4cc054ee61ffac543b68f19097927c511e1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4ec0aba869d2a171e12c42822ecf1726ed4ac81e
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442125"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587930"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Supprimer et relettrer des écritures comptables article
 Sur la page **Feuille lettrage**, vous pouvez visualiser et modifier manuellement certaines écritures lettrage article qui sont créées automatiquement lors des mouvements de stock.  
@@ -40,8 +40,9 @@ Si vous ne pouvez pas utiliser un document pour un relettrage, par exemple si vo
     - Vous pouvez supprimer des lettrages de plusieurs écritures à la fois dans la feuille lettrage. Toutefois, comme le lettrage d’écritures affecte l’ensemble des écritures qui sont disponibles pour le lettrage, vous ne pouvez pas créer un lettrage pour plusieurs écritures à la fois.
     - La feuille lettrage ne peut pas effectuer de lettrage dans la situation suivante : si la quantité en stock est insuffisante pour le lettrage, la feuille lettrage ne peut pas effectuer un lettrage lorsque vous tentez de lettrer une écriture de sortie de stock sans informations de traçabilité sur une écriture d’entrée de stock avec des informations traçabilité.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Pour supprimer un lettrage article en utilisant la feuille lettrage  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille lettrage**, puis sélectionnez le lien associé.  
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Pour supprimer un lettrage article en utilisant la feuille lettrage
+
+1.  Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille lettrage**, puis sélectionnez le lien associé.  
 2.  La page **Feuille lettrage** s’ouvre en affichant les écritures comptables article existantes de tous les articles.  
 3.  Définissez les filtres du raccourci **Général** pour faciliter la recherche de l’écriture comptable article pour laquelle vous souhaitez modifier le lettrage.  
 4.  Sélectionnez l’écriture comptable article appropriée, puis sélectionnez l’action **Écritures lettrées**. La page **Voir écritures lettrées - Ecritures lettrées** s’ouvre et affiche l’écriture ou écritures comptables article actuellement lettrées pour l’écriture sélectionnée.  
@@ -54,10 +55,11 @@ Si vous ne pouvez pas utiliser un document pour un relettrage, par exemple si vo
 > [!IMPORTANT]  
 >  Vous ne devez pas laisser des écritures lettrage non lettrées pendant de longues périodes, car d’autres utilisateurs ne peuvent pas traiter les articles concernés jusqu’à ce que vous relettriez les écritures lettrage ou clôturiez la page **Feuille lettrage**. Le message d’erreur suivant s’affiche si vous essayez d’exécuter des actions qui concernent une écriture lettrage manuellement délettrée :  
 >   
->  **Il est impossible d’effectuer cette opération car les écritures de l’article <item> ne sont pas lettrées dans la feuille lettrage par l’utilisateur <user>.**  
+>  **Il est impossible d’effectuer cette opération car les écritures de l’article \<item\> ne sont pas lettrées dans la feuille lettrage par l’utilisateur \<user\>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Pour relettrer un lettrage article en utilisant la feuille lettrage  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille lettrage**, puis sélectionnez le lien associé.  
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Pour relettrer un lettrage article en utilisant la feuille lettrage
+
+1.  Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 2.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille lettrage**, puis sélectionnez le lien associé.  
 2.  La page **Feuille lettrage** s’ouvre en affichant les écritures comptables article existantes de tous les articles.  
 3.  Pour relettrer des écritures supprimées depuis l’ouverture de la feuille, sélectionnez l’écriture comptable article que vous souhaitez relettrer et sélectionnez l’action **Relettrer**.  
 
@@ -72,7 +74,8 @@ Si vous ne pouvez pas utiliser un document pour un relettrage, par exemple si vo
     >  Si vous avez choisi d’effectuer un lettrage qui créerait une boucle infinie dans le processus d’ajustement des coûts, le lettrage que vous avez proposé n’est pas appliqué. Cela peut se produire lorsque les écritures originales ont créé un stock négatif. Le lettrage n’est pas effectué. Par conséquent, vous devez sélectionner une autre écriture pour le lettrage.  
 6.  Si, dans les **Paramètres stock**, le champ **Ajustement automatique des coûts** est défini sur **Toujours**, le traitement par lots d’ajustement des coûts est exécuté automatiquement après que vous avez effectué un relettrage. Sinon, exécutez le traitement par lots **Ajuster coûts - Écr. article** pour être sûr que tous les coûts sont actualisés.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Clôturer les écritures comptables article ouvertes qui résultent d’un lettrage fixe dans la feuille article](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Traiter les retours ou annulations d’achats](purchasing-how-process-purchase-returns-cancellations.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)   

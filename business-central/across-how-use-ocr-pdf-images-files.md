@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb71c71ec67514e4ed2df02a83afe2a56e36868e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a5defde47d21492c104c767f21165573221a1e51
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440964"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587545"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques
 À partir de fichiers PDF ou image reçus de vos partenaires commerciaux, un service externe de reconnaissance optique de caractères (OCR, Optical Character Recognition) génère des documents électroniques pouvant être convertis en enregistrements de document dans [!INCLUDE[prod_short](includes/prod_short.md)]. Par exemple, lorsque vous recevez une facture au format PDF de votre fournisseur, vous pouvez l’envoyer au service OCR à partir de la page **Documents entrants**. Ceci est décrit dans la première procédure.
@@ -69,11 +69,11 @@ Désormais, vous pouvez poursuivre la création d’enregistrements de documents
 La procédure suivante décrit comment créer un enregistrement facture achat à partir d’une facture fournisseur reçue en pièce jointe provenant du service OCR. La procédure est identique lorsque vous créez, par exemple, une ligne feuille comptabilité à partir d’un justificatif de frais ou un retour vente d’un client.
 
 > [!NOTE]  
->   Les champs **Description** et **N°** des lignes document créées ne seront pas complétées tant que vous n’aurez pas mappé tout d’abord le texte trouvé sur le document OCR avec les deux champs dans [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez effectuer ce mappage en tant que références externes article, pour les lignes document de type Article. Pour plus d’informations, voir [Utiliser les références externes article](inventory-how-use-item-cross-refs.md). Vous pouvez également utiliser la fonction Mappage de texte à compte. Pour plus d’informations, reportez-vous à [Pour mapper du texte sur un document entrant à un fournisseur, une comptabilité ou un compte bancaire spécifique](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+>   Les champs **Description** et **N°** des lignes document créées ne seront pas complétées tant que vous n’aurez pas mappé tout d’abord le texte trouvé sur le document OCR avec les deux champs dans [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez effectuer ce mappage en tant que références article, pour les lignes document de type Article. Pour plus d’informations, voir [Utiliser les références article](inventory-how-use-item-cross-refs.md). Vous pouvez également utiliser la fonction Mappage de texte à compte. Pour plus d’informations, reportez-vous à [Pour mapper du texte sur un document entrant à un fournisseur, une comptabilité ou un compte bancaire spécifique](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Sélectionnez la ligne du document entrant, puis sélectionnez l’action **Créer document**.
 
-Une facture achat sera créée dans [!INCLUDE[prod_short](includes/prod_short.md)] selon les informations disponibles sur le document électronique du fournisseur provenant du service OCR. Ces informations sont insérées dans la nouvelle facture achat en fonction du mappage que vous avez défini comme référence externe ou sous forme de mappage de texte à compte.
+Une facture achat sera créée dans [!INCLUDE[prod_short](includes/prod_short.md)] selon les informations disponibles sur le document électronique du fournisseur provenant du service OCR. Ces informations sont insérées dans la nouvelle facture achat en fonction du mappage que vous avez défini comme référence ou sous forme de mappage de texte à compte.
 
 Les erreurs de validation, généralement associées à des données de base erronées ou manquantes dans [!INCLUDE[prod_short](includes/prod_short.md)], seront affichées sur le raccourci **Erreurs et avertissements**. Pour plus d’informations, voir [Pour gérer des erreurs lors de la réception de documents électroniques](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 

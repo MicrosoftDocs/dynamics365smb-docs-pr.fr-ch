@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446480"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587520"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Intégration de Business Central et Microsoft Teams
 
@@ -51,6 +51,14 @@ Une fois dans la conversation, vous et vos collègues pouvez afficher plus de d�
 
 Pour plus d’informations, consultez [Partager des enregistrements dans Microsoft Teams](across-working-with-teams.md).
 
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Partager des liens entre des pages de Business Central et Teams
+
+Directement à partir de la plupart des pages de collection et de détails dans Business Central, vous pouvez utiliser l’action **Partager avec teams** à partir de ![ !l’icône du menu Partager sur les pages.](media/share-icon.png "Le menu Partager affiché sur une fiche.") pour saisir un message, choisir des destinataires, tels que des membres de l’équipe, des groupes ou des canaux, et envoyer le message avec un lien vers la page Business Central.
+
+![!Le menu Partager affiché sur une fiche.](media/teams-share-link.png "Le menu Partager affiché sur une fiche.")
+
+Pour plus d’informations, consultez [Partager des enregistrements et des liens de page dans Microsoft Teams](across-working-with-teams.md#share-link).
+
 ## <a name="get-started"></a>Démarrer
 
 1. Un compte d’utilisateur [!INCLUDE [prod_short](includes/prod_short.md)] Online est requis pour l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams.
@@ -62,7 +70,7 @@ Pour plus d’informations, consultez [Partager des enregistrements dans Microso
 
 2. En tant qu’administrateur, consultez [Gestion de l’intégration de Microsoft Teams avec Business Central](admin-teams-integration.md) pour obtenir des informations sur la manière dont les utilisateurs peuvent travailler avec [!INCLUDE [prod_short](includes/prod_short.md)] et Teams.
 3. Installer une application [!INCLUDE [prod_short](includes/prod_short.md)] dans Teams. Voir [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md).
-4. Une fois l’application installée, vous êtes prêt à partir. Consultez [Recherche de clients, de fournisseurs et d’autres contacts dans Microsoft Teams](across-search-contacts-teams.md) ou [Partager des enregistrements dans Microsoft Teams](across-working-with-teams.md). 
+4. Une fois l’application installée, vous êtes prêt à partir. Consultez [Recherche de clients, de fournisseurs et d’autres contacts dans Microsoft Teams](across-search-contacts-teams.md) ou [Partager des enregistrements dans Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="see-also"></a>Voir aussi
 

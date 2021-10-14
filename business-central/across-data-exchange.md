@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 41d7ca5a8ce110d2335dd6a350636d77f2bce2c3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325828"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588391"
 ---
 # <a name="exchanging-data-electronically"></a>Échanger des données par voir électronique
 Vous pouvez utiliser l’infrastructure d’échange de données pour gérer les échanges des documents commerciaux, des fichiers bancaires, des taux de change devise et tous les autres fichiers de données avec vos partenaires commerciaux.
 
-Dans la version standard de [!INCLUDE[prod_short](includes/prod_short.md)], l’infrastructure d’échange de données est utilisée dans des fonctionnalités, telles que Documents électroniques, Importer/Exporter des fichiers bancaires et Mettre à jour des taux de change devise. Pour plus d’informations, voir [À propos de l’infrastructure d’échange de données](across-about-the-data-exchange-framework.md).
+Dans la version standard de [!INCLUDE[prod_short](includes/prod_short.md)], l’infrastructure d’échange de données est utilisée dans des processus tels que l’échange de documents électroniques, l’importation/exportation de fichiers bancaires et la mise à jour des taux de change des devises. Pour plus d’informations, voir [À propos de l’infrastructure d’échange de données](across-about-the-data-exchange-framework.md).
 
-En tant qu’administrateur ou partenaire Microsoft, vous pouvez utiliser l’infrastructure dans de nouvelles fonctionnalités d’intégration en configurant les données à échanger et comment les échanger. Pour plus d’informations, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).
+En tant qu’administrateur ou partenaire Microsoft, vous pouvez utiliser l’infrastructure dans de nouvelles fonctionnalités d’intégration en spécifiant les données à échanger et comment les échanger. Pour plus d’informations, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 

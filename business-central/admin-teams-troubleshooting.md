@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 04/12/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ed1d44f7aa1fe7adc899c429a6595cef23251075
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 376d1bebd79c225a54ca8544b757a719a55bfebd
+ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341318"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7596687"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Dépannage de l’intégration de Microsoft Teams avec [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -149,6 +149,13 @@ En tant qu’administrateur, avec des autorisations d’administrateur Azure Act
 > [!NOTE]
 > Il faudra un certain temps avant que ce changement ne prenne effet.
 
+## <a name="duplicate-text-in-the-share-to-teams-window"></a>Dupliquer du texte dans la fenêtre Partager avec Teams
+
+Lorsque vous collez du texte dans la zone de message de la fenêtre **Partager avec Teams**, le texte est dupliqué. Ce problème est connu de Microsoft et sera résolu dans une mise à jour ultérieure. 
+
+## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Impossible de se connecter à la fenêtre Partager avec Teams 
+
+Ce problème peut être causé par diverses raisons. Par exemple, l’identité que vous utilisez pour vous connecter doit avoir accès à Microsoft Teams, par exemple via un abonnement Microsoft 365.
 
 ## <a name="see-also"></a>Voir aussi
 

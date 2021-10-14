@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437231"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547063"
 ---
 # <a name="set-up-printers"></a>Paramétrage imprimantes
 
@@ -132,9 +132,6 @@ Pour obtenir des instructions détaillées sur la configuration, consultez [Prem
     L′impression universelle rend le contenu pour l′impression au format XPS. Certaines imprimantes existantes sur le marché ne prennent pas en charge le rendu de contenu XPS&mdash; dans de nombreux cas, uniquement au format PDF. L′impression sur ces imprimantes échouera à moins que l′impression universelle ne soit configuré pour convertir les documents au format pris en charge par l′imprimante.
 
     Pour plus d′informations, consultez [Présentation de la conversion de documents](/universal-print/portal/document-conversion).
-
-    > [!TIP]
-    > Si aucune de vos imprimantes ne nécessite le format de rendu du contenu PDF, nous vous recommandons de ne pas activer la conversion de document car cela pourrait affecter la qualité de sortie d′impression.
 
 Vous êtes maintenant prêt à ajouter les imprimantes à [!INCLUDE[prod_short](includes/prod_short.md)], configurez les imprimantes par défaut pour les rapports et imprimez.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7fef0f2ffe23155e840fa89a62b1822fee1efd35
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443221"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589097"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Gestion de l’intégration de Microsoft Teams à [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -37,8 +37,10 @@ Cette section décrit la configuration minimale requise pour les fonctionnalité
     |----|---|---|
     |Recherche de contacts [!INCLUDE [prod_short](includes/prod_short.md)].|![coche.](media/check.png "coche")|![coche](media/check.png "coche")|
     |Coller un lien vers un enregistrement [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation et l’envoyer sous forme de fiche.|![coche](media/check.png "coche")|![coche](media/check.png "coche")|
+    |Partager un lien entre une page dans [!INCLUDE [prod_short](includes/prod_short.md)] et une conversation Teams.|![coche](media/check.png "coche")|![coche](media/check.png "coche")|
     |Afficher une fiche d’un enregistrement [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation.|![coche](media/check.png "coche")||
     |Afficher plus de détails d’une fiche pour un enregistrement [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation.|![coche](media/check.png "coche")|![coche](media/check.png "coche")|
+    |Ouvrir un lien de page dans [!INCLUDE [prod_short](includes/prod_short.md)] à partir d’une conversation.|![coche](media/check.png "coche")|![coche](media/check.png "coche")|
 
 - Autoriser les aperçus d’URL
 
@@ -68,7 +70,7 @@ Pour plus d’informations, consultez les articles suivants dans la documentatio
 - <a name="permissions"></a>Autorisations utilisateur :
 
     Pour la plupart, la Recherche contact, les pages et les données que les utilisateurs peuvent afficher et modifier dans une conversation Teams sont contrôlées par leurs autorisations dans [!INCLUDE [prod_short](includes/prod_short.md)].
-    
+
     - Pour rechercher des contacts, les utilisateurs doivent disposer au moins d’une autorisation de lecture sur le tableau **Contacts**. 
     - Pour coller un lien [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation Teams et le faire développer dans une fiche, les utilisateurs doivent avoir au moins une autorisation de lecture sur la page et ses données.
     - Une fois qu’une fiche est soumise à une conversation, tout utilisateur participant à cette conversation peut afficher cette fiche sans autorisation de [!INCLUDE [prod_short](includes/prod_short.md)].
@@ -77,11 +79,35 @@ Pour plus d’informations, consultez les articles suivants dans la documentatio
     
     Pour plus d’informations sur les autorisations, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
 
+## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installation de l’application Business Central à l’aide du déploiement centralisé
+
+Le centre d’administration Microsoft Teams est l’endroit où vous configurez les stratégies de configuration de l’application Teams pour l’organisation. Dans le centre d’administration Teams, vous pouvez utiliser la fonctionnalité de déploiement centralisé pour installer automatiquement l’application Business Central dans Teams pour tous les utilisateurs de votre organisation, des groupes spécifiques ou des utilisateurs individuels.
+
+> [!NOTE]
+> Pour configurer le déploiement centralisé, votre compte Teams doit avoir le rôle **Administrateur du service Teams** ou le rôle **Administrateur global**.
+
+1. Dans Business Central, sélectionnez ![la loupe qui ouvre la fonctionnalité Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Déploiement centralisé de l’application Teams**, puis sélectionnez le lien associé. Ou sélectionnez [ici](https://businesscentral.dynamics.com/?page=1833) pour ouvrir la page directement.
+2. Lire les informations sur la page **Configurer l’application Business Central pour teams**, puis sélectionnez **Suivant** quand vous êtes prêt.
+3. Ouvrez le [Centre d’administration Teams](https://go.microsoft.com/fwlink/?linkid=2163970), et procédez comme suit.
+    1. Accédez à **Applications teams** > **Stratégies de configuration**.
+    2. Créez une nouvelle stratégie ou sélectionnez celle que vous souhaitez utiliser pour installer l’application Business Central, puis sélectionnez **Ajouter des applications**.
+    3. Dans la page **Ajouter des applications installées**, recherchez et sélectionnez **Business Central**.
+    4. Choisissez **Ajouter**.
+
+       Business Central doit maintenant apparaître sous **Applications installées** pour la stratégie.
+    5. Configurez tous les paramètres supplémentaires, puis sélectionnez **Enregistrer**.
+
+    Pour plus d’informations sur les stratégies de configuration dans Teams, consultez [Gérer les règles de configuration d’application dans Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) dans la documentation Teams.
+4. Revenez à **Déploiement centralisé de l’application Teams** dans Business Central et sélectionnez **Terminé**.
+
+> [!IMPORTANT]
+> L’application de la stratégie de configuration de l’application et le déploiement de l’application auprès des utilisateurs peuvent prendre jusqu’à 24 heures.
+
 ## <a name="managing-privacy-and-compliance"></a>Gestion de la confidentialité et de la conformité 
 
 Microsoft Teams fournit des contrôles étendus pour la conformité et la gestion des données sensibles ou personnellement identifiables&mdash; y compris les données ajoutées aux chats et aux canaux par l’application [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>Comprendre où les fiches [!INCLUDE [prod_short](includes/prod_short.md)] sont stockées 
+### <a name="understanding-where-prod_short-cards-are-stored"></a>Comprendre où les fiches [!INCLUDE [prod_short](includes/prod_short.md)] sont stockées
 
 Une fois qu’une fiche est envoyée à une discussion instantanée, la fiche et les champs affichés sur la fiche sont copiés dans Teams. Ces informations sont soumises aux stratégies Teams de votre organisation, telles que les stratégies de conservation des données. Lors de l’affichage des détails de la fiche, aucune des données de la fenêtre de détails n’est stockée dans Teams. Les données restent stockées dans [!INCLUDE [prod_short](includes/prod_short.md)] et ne seront récupérées par Teams que lorsque l’utilisateur choisit d’afficher les détails. 
 

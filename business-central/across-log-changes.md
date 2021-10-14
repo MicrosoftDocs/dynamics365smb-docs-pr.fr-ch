@@ -10,20 +10,21 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 656def609801a85716a4afe57d603fe93eb7569c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770978"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606454"
 ---
 # <a name="auditing-changes-in-business-central"></a>Audit des modifications dans Business Central
 Un défi courant dans de nombreuses applications de gestion d’entreprise est d’éviter les modifications indésirables des données. Il peut s’agir d’une simple erreur de numéro de téléphone client comme d’une écriture comptable erronée. Cette rubrique décrit les fonctionnalités permettant de savoir ce qui a changé, qui l’a modifié et quand la modification a été effectuée.
 
 ## <a name="about-the-change-log"></a>À propos du journal des modifications 
-Le journal des modifications vous permet de suivre toutes les modifications directes apportées par un utilisateur aux données dans la base de données. Vous devez spécifier les opérations que le système doit journaliser, pour chaque table et chaque champ, puis activer le journal modification.  
+Le journal des modifications vous permet de suivre toutes les modifications directes apportées par un utilisateur aux données dans la base de données. Vous spécifiez les opérations que le système doit journaliser, pour chaque table et chaque champ, puis activez le journal modification.  
 
-Le suivi des modifications peut avoir un impact sur les performances, ce qui peut vous faire perdre du temps, et augmenter la taille de votre base de données, ce qui peut à son tour vous coûter cher. Pour réduire ces coûts, tenez compte des éléments suivants :
+Le suivi des modifications peut avoir un impact sur les performances, ce qui peut vous faire perdre du temps, et augmenter la taille de votre base de données, ce qui peut à son tour vous coûter cher. Pour réduire ces coûts, gardez ce qui suit à l’esprit :
+
 - Soyez prudent lorsque vous choisissez les tables et les opérations.
 - N’ajoutez pas d’écritures comptables et de documents validés. À la place, donnez la priorité aux champs système tels que Créé par et Date de création.
 - N’utilisez pas le type de suivi Tous les champs. Au lieu de cela, choisissez Certains champs et suivez uniquement les champs les plus importants.
@@ -32,15 +33,15 @@ Le journal des modifications est basé sur les modifications apportées aux donn
 
 > [!Important]
 > Les changements s’affichent dans **Écritures journal modification** seulement après le redémarrage de la session de l’utilisateur, ce qui se passe comme suit :
-<br />
+>
 > * La session a expiré et a été actualisée.
 > * L’utilisateur a sélectionné une autre société ou un autre Tableau de bord.
-> * L’utilisateur s’est déconnecté et reconnecté.
+> * L’utilisateur s’est déconnecté et s’est reconnecté.
 
 ### <a name="working-with-the-change-log"></a>Utilisation du journal des modifications
 Vous devez activer et désactiver le journal des modifications sur la page **Paramètres journal modification**. Lorsqu’un utilisateur active ou désactive le journal des modifications, cette activité est enregistrée, ainsi vous pouvez toujours savoir quel utilisateur est à l’origine de la modification.
 
-Sur la page **Paramètres journal modification**, si vous choisissez l’option **Tables**, vous pouvez spécifier les tables dont vous souhaitez suivre les modifications, et quelles modifications suivre. [!INCLUDE[prod_short](includes/prod_short.md)] suit également un nombre de tables système.
+Sur la page **Paramètres journal modification**, si vous choisissez l’option **Tables**, vous pouvez spécifier les tables dont vous souhaitez suivre les modifications, et quelles modifications suivre. [!INCLUDE[prod_short](includes/prod_short.md)] suit également plusieurs tables système.
 
 > [!NOTE]
 > Vous pouvez surveiller des champs spécifiques pour les changements, tels que les champs qui contiennent des données sensibles, en configurant la surveillance de champ. Si vous le faites, pour éviter la redondance, la table qui contient le champ ne sera pas disponible pour la configuration du journal des modifications. Pour plus d’informations, voir [Surveillance des champs sensibles](across-log-changes.md#monitoring-sensitive-fields).
@@ -60,7 +61,10 @@ La protection et la confidentialité des données sensibles est au cœur des pr�
 > Pour envoyer des notifications par e-mail, vous devez configurer la fonction e-mail dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Configurer la messagerie](admin-how-setup-email.md).
 
 ### <a name="setting-up-field-monitoring"></a>Configuration de la surveillance des champs
-Vous pouvez utiliser le guide de configuration assistée **Surveiller la configuration du changement de champ** pour spécifier les champs que vous souhaitez surveiller en fonction de critères de filtre, tels que la classification de sensibilité des données pour les champs. Pour plus d’informations, voir [Classification de la sensibilité des données](admin-classifying-data-sensitivity.md). Le guide vous permet également de spécifier la personne qui recevra une notification par e-mail en cas de modification et le compte de messagerie qui enverra l’e-mail de notification. Vous devez spécifier à la fois la notification de l’utilisateur et le compte à partir duquel envoyer la notification. Une fois le guide terminé, vous pouvez gérer les paramètres de surveillance des champs sur la page **Configuration de la surveillance des champs**. 
+Vous pouvez utiliser le guide de configuration assistée **Surveiller la configuration du changement de champ** pour spécifier les champs que vous souhaitez surveiller en fonction de critères de filtre, tels que la classification de sensibilité des données pour les champs. Pour plus d’informations, voir [Classification de la sensibilité des données](admin-classifying-data-sensitivity.md). Le guide vous permet également de spécifier la personne qui recevra une notification par e-mail en cas de modification et le compte de messagerie qui enverra l’e-mail de notification. Spécifiez à la fois l’utilisateur à notifier et le compte à partir duquel envoyer la notification. Une fois le guide terminé, vous pouvez gérer les paramètres de surveillance des champs sur la page **Configuration de la surveillance des champs**. 
+
+> [!NOTE]
+> Lorsque vous spécifiez le compte de messagerie à partir duquel envoyer les notifications, vous devez ajouter le type de compte **Microsoft 365** ou **SMTP**. Les notifications doivent être envoyées à partir d’un compte qui n’est pas associé à un utilisateur réel. Vous ne pouvez donc pas choisir le type de compte **Utilisateur actuel**. Si vous le faites, les notifications ne seront pas envoyées. 
 
 Au fil du temps, la liste des entrées sur la page **Entrées du journal des champs surveillés** grandira. Pour réduire le nombre d’entrées, vous pouvez créer une stratégie de rétention qui supprimera les entrées après une période de temps spécifiée. Pour plus d’informations, voir [Définir les stratégies de rétention](admin-data-retention-policies.md).
 
@@ -73,7 +77,13 @@ Vous pouvez gérer les paramètres de surveillance des champs, par exemple envoy
 
 ### <a name="working-with-field-monitoring"></a>Utilisation de la surveillance des champs
 
-Les entrées de toutes les valeurs modifiées des champs surveillés sont disponibles sur la page **Entrées du journal des champs surveillés**. Par exemple, les entrées contiennent des informations, telles que le champ pour lequel la valeur a été modifiée, les valeurs d’origine et les nouvelles valeurs, qui a effectué la modification et à quel moment. Pour étudier plus en détail une modification, choisissez une valeur pour ouvrir la page sur laquelle elle a été effectuée. Pour afficher une liste de toutes les entrées, choisissez **Écritures de modification de champ**.
+Les entrées de toutes les valeurs modifiées des champs surveillés sont disponibles sur la page **Entrées du journal des champs surveillés**. Pour cet exemple, les entrées contiennent les informations suivantes :
+
+* Le champ pour lequel la valeur a été modifiée.
+* Les valeurs originale et nouvelle.
+* Qui a effectué la modification et quand. 
+
+Pour étudier plus en détail une modification, choisissez une valeur pour ouvrir la page sur laquelle elle a été effectuée. Pour afficher une liste de toutes les entrées, choisissez **Écritures de modification de champ**.
 
 ### <a name="viewing-field-monitoring-telemetry"></a>Affichage de la télémétrie de surveillance des champs 
 
