@@ -3,13 +3,13 @@ author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 09/24/2021
-ms.author: a-jillk
-ms.openlocfilehash: da33ea0ff0057034775ba153727d1681fe2ad9c5
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.author: edupont
+ms.openlocfilehash: e5d6b2320e19eaaf8f2409ed0419da1e701b5174
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589708"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724516"
 ---
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 11.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.  
 2. Sur la page **Clients**, sélectionnez l’action **Nouveau**.

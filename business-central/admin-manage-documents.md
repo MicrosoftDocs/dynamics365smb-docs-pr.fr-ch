@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 5263d4ba06cc7b2dc497efb6842a927704c31f35
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482185"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724727"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Gérer le stockage en supprimant des documents ou en compressant des données
 
@@ -57,7 +57,7 @@ Vous pouvez compresser les types de données suivants à l’aide de traitements
 Lorsque vous définissez des critères pour la compression, vous pouvez utiliser les options sous **Conserver champs** pour conserver le contenu de certains champs. Les champs disponibles dépendent des données que vous compressez.
 
 > [!NOTE]
-> Avant de pouvoir exécuter la compression selon la date, vos vues d’analyse doivent être à jour. Pour plus d’informations, consultez [Pour mettre à jour une vue d’analyse](/dynamics365/business-central/bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
+> Avant de pouvoir exécuter la compression selon la date, vos vues d’analyse doivent être à jour. Pour plus d’informations, voir [Pour mettre à jour une vue d’analyse](bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
 
 Après la compression, le contenu des champs suivants sera toujours conservé : **Date comptabilisation**, **N° fournisseur**, **Type de document**, **Code devise**, **Groupe comptabilisation**, **Montant**, **Montant ouvert**, **Montant initial DS**, **Montant ouvert DS**, **Montant DS**, **Achat DS**, **Remises facture DS**, **Escompte accordé DS** et **Escompte ouvert possible**.
 

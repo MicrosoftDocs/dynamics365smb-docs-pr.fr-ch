@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
+ms.search.form: 41, 9300
 ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a3a35738bc15e401edbd0fd3bf02ef50ff015520
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: c4abee09dfe5b0f2d2e26680f2822552747b4b86
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543135"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752406"
 ---
 # <a name="make-sales-quotes"></a>Créer des devis
 
@@ -27,7 +28,7 @@ Dans la plupart des cas, vous envoyez des devis aux clients potentiels. Vous ave
 
 ## <a name="to-create-a-sales-quote"></a>Pour créer un devis
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devis**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devis**, puis sélectionnez le lien associé.
 2. Spécifiez le contact ou le client auquel vous souhaitez envoyer le devis.
 
     - Si le devis concerne un contact existant, indiquez le nom dans le champ **N° de contact** .  

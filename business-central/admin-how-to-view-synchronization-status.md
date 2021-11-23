@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0a33631908d0f3943486f96bbf6b5e2f801c440b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dce8b5b3d762d3e4d98668530685fdeb9cb58de4
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441333"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7751757"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Afficher le statut des projets de synchronisation
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -28,14 +28,14 @@ Utilisez la page **Erreurs de synchronisation des données couplées** pour affi
 > [!Note]
 > La page **Erreurs de synchronisation de données couplées** affiche des informations sur les projets liés aux enregistrements couplés. Si vous résolvez toutes les erreurs mais que les enregistrements ne sont toujours pas synchronisés, cela peut avoir quelque chose à voir avec un paramètre d’intégration. En règle générale, votre administrateur devra résoudre ces types d’erreurs.   
 
-<!--
+## <a name="example"></a>Exemple :
+Cette vidéo montre un exemple de dépannage des erreurs survenues lors de la synchronisation avec [!INCLUDE[prod_short](includes/cds_long_md.md)]. Le processus sera le même pour toutes les intégrations. 
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
--->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Pour afficher et résoudre les erreurs de synchronisation des enregistrements couplés
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Erreurs de synchronisation des données couplées**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Erreurs de synchronisation des données couplées**, puis choisissez le lien associé.
 2. La page **Erreurs de synchronisation des données couplées** affiche les problèmes qui se produisent lorsque vous avez synchronisé des enregistrements couplés. Le tableau suivant répertorie les actions que vous pouvez utiliser pour résoudre les problèmes un par un :
 
 |Action|Description|
@@ -51,6 +51,11 @@ Utilisez la page **Erreurs de synchronisation des données couplées** pour affi
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Pour afficher le journal de synchronisation pour un enregistrement spécifique (synchronisé manuellement)
 1. Ouvrez, par exemple, un client, un article ou tout autre enregistrement qui synchronise des données entre [!INCLUDE[prod_short](includes/prod_short.md)] et Dataverse ou [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Choisissez l’action **Journal de synchronisation** pour afficher le journal de synchronisation pour un enregistrement sélectionné. Par exemple, un client spécifique que vous avez synchronisé manuellement.
+
+## <a name="remove-couplings-between-records"></a>Supprimer les couplages entre les enregistrements
+Lorsque quelque chose ne va pas dans votre intégration et que vous devez découpler des enregistrements pour arrêter de les synchroniser, vous pouvez le faire pour un ou plusieurs enregistrements à la fois. Vous pouvez découpler un ou plusieurs enregistrements des pages de liste ou sur la page **Erreurs de synchronisation de données couplées** en choisissant une ou plusieurs lignes et en choisissant **Supprimer le couplage**. Vous pouvez également supprimer tous les couplages pour un ou plusieurs mappages de table sur la page **Mappages de table d’intégration**. 
+
+Si une entité avec un couplage unidirectionnel est supprimée dans [!INCLUDE[prod_short](includes/prod_short.md)], vous devez supprimer manuellement le couplage rompu. Pour ce faire, sur la page **Erreurs de synchronisation de données couplées**, choisissez l′action **Rechercher des suppressions**, puis supprimez les couplages.
 
 ## <a name="see-also"></a>Voir aussi  
 [Configuration des comptes d’utilisateur pour l’intégration à Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  

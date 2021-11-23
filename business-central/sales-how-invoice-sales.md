@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
+ms.search.form: 42, 43, 48, 9301, 9305
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4cd53cab788f5ee9a7f32f697faa35e8cd2638ae
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 125d28f1621e23f14cda9ce57a935a7da71e43cb
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443372"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752483"
 ---
 # <a name="invoice-sales"></a>Facturer des ventes
 
@@ -41,7 +42,7 @@ Vous pouvez remplir les champs relatifs au client sur la facture vente de deux f
 
 ### <a name="to-create-a-sales-invoice"></a>Pour créer une facture vente :
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.  
 2. Dans le champ **Client**, entrez le nom d’un client existant.
 
    D’autres champs de la page **Facture vente** contiennent des informations standard sur le client sélectionné. Si le client n’est pas enregistré, procédez comme suit :

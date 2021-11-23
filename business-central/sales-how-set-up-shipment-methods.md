@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoterms
+ms.search.form: 11, 130
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ee6cdceb716331e2d8338e178def4b8b1e5cfe8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 032faa6e9266f966f0c6393eb1837e1ca9bc9f55
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436716"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752520"
 ---
 # <a name="set-up-shipment-methods"></a>Configurer des conditions de livraison
 
@@ -25,7 +26,7 @@ Vous définissez la désignation et le code de chaque condition de livraison sur
 
 ## <a name="to-set-up-a-shipment-method"></a>Pour configurer une condition de livraison
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions de livraison**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions de livraison**, puis sélectionnez le lien associé.
 2. Sur la page **Conditions de livraison**, sélectionnez l’action **Nouveau**.
 3. Sur la nouvelle ligne, indiquez un code et une description pour les conditions de livraison.
 

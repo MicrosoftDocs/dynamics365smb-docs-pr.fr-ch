@@ -1,6 +1,6 @@
 ---
 title: 'Procédure : Créer une prévision de la demande'
-description: Découvrez la fonctionnalité de prévision dans Business Central et comment vous pouvez créer des prévisions de vente et de production.
+description: Découvrez les fonctionnalités de prévision de la demande et comment créer des prévisions de vente et de production.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9c3097e102de7b0f4be6da114245ac1bbb4f4fe0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438702"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643982"
 ---
 # <a name="create-a-demand-forecast"></a>Créer une prévision de la demande
 Vous pouvez créer des prévisions de vente et de production à l’aide de la page **Prévision demande**.  
@@ -41,18 +41,17 @@ Vous devez désigner une prévision comme *Article vente*, *Composant* ou *Les d
 ## <a name="component-forecast"></a>Prévision composant  
 La prévision composant peut être considérée comme une prévision d’option en relation avec un article parent. Cela peut, par exemple, être utile si le gestionnaire peut estimer la demande pour le composant.  
 
-Comme la prévision composant sert à définir des options pour un article parent, la valeur de prévision composant doit être inférieure ou égale à la quantité de vente d’article prévue. Si la valeur de prévision composant est supérieure à la prévision de vente d’article, le système traite la différence entre ces deux types de prévision comme une demande indépendante.  
+Du fait que la prévision composant sert à définir des options pour un article parent, la valeur de prévision composant doit être inférieure ou égale à la quantité de vente d’article prévue. Si la valeur de prévision composant est supérieure à la prévision de vente d’article, le système traite la différence entre ces deux types de prévisions comme une demande indépendante.  
 
 ## <a name="forecasting-periods"></a>Périodes de prévision  
- La période de prévision est valide de la date début jusqu’à la date de début de la prévision suivante. La page d’intervalle de temps offre plusieurs choix pour insérer la demande à une date spécifique dans une période. Il est donc recommandé de ne pas modifier l’étendue de la période de prévision à moins de déplacer toutes les écritures de prévision à la date début de cette période.  
+La période de prévision est valide de la date début jusqu’à la date de début de la prévision suivante. La page d’intervalle de temps offre plusieurs choix pour insérer la demande à une date spécifique dans une période. Il est donc recommandé de ne pas modifier l’étendue de la période de prévision à moins de déplacer toutes les écritures de prévision à la date début de cette période.  
 
 ## <a name="forecast-by-locations"></a>Prévision par magasin  
-
-Cela peut être indiqué sur la page **Paramètres production** sur la manière dont vous voulez traiter les emplacements définis dans les prévisions lorsque vous calculez un plan. 
+Sur la page **Paramètres production**, vous pouvez spécifier la manière dont vous voulez prendre en compte les emplacements définis dans les prévisions lorsque vous calculez des plans. 
 
 ### <a name="use-forecast-by-locations"></a>Prévision sur magasin
 
-Si vous choisissez le champ **Prévision sur magasin**, [!INCLUDE[prod_short](includes/prod_short.md)] respectera tous les codes magasin spécifiés pour chaque écriture de prévision de la demande et calculera la prévision restante pour chaque magasin.  
+Si vous activez le bouton de basculement **Prévision sur magasin**, [!INCLUDE[prod_short](includes/prod_short.md)] respectera tous les codes magasin spécifiés pour chaque écriture de prévision de la demande et calculera la prévision restante pour chaque magasin.  
 
 Prenons cet exemple : votre entreprise achète et vend des articles dans deux magasins : EST et OUEST. Pour les deux magasins, vous avez configuré une politique de réorganisation de lot à lot. Vous créez une prévision pour les deux magasins :
 
@@ -68,7 +67,7 @@ Ensuite, vous créez une commande client avec une quantité de 12 sur le magasi
 >  Si les prévisions basées sur le magasin sont consultées isolément, il se peut que la prévision globale ne soit pas représentative.
 
 ### <a name="do-not-use-forecast-by-locations"></a>Ne pas utiliser Prévision sur magasin
-Si vous désactivez **Prévision sur magasin**, [!INCLUDE[prod_short](includes/prod_short.md)] ignorera tous les codes magasin spécifiés pour chaque écriture de prévision de la demande et agrègera les prévisions en une prévision pour les magasins vides.  
+Si vous désactivez le bouton de basculement **Prévision sur magasin**, [!INCLUDE[prod_short](includes/prod_short.md)] ignorera les codes magasin spécifiés pour chaque écriture de prévision de la demande et agrègera les prévisions en une prévision pour les magasins vides.  
 
 Prenons cet exemple : votre entreprise achète et vend des articles dans deux magasins : EST et OUEST. Pour les deux magasins, vous avez configuré une politique de réorganisation de lot à lot. Vous créez une prévision pour les deux magasins :
 
@@ -85,7 +84,7 @@ Ensuite, vous créez une commande client avec une quantité de 12 sur le magasi
 
 ## <a name="to-create-a-demand-forecast"></a>Pour créer une prévision de la demande
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prévision de la demande**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prévision de la demande**, puis sélectionnez le lien associé.  
 2. Sur le raccourci **Général**, choisissez une prévision dans le champ **Nom prévision demande**. Plusieurs prévisions peuvent exister, qui se différencient par leur nom et leur type.  
 3. Dans le champ **Filtre magasin**, sélectionnez le magasin auquel s’applique la prévision.
 4. Dans le champ **Afficher par** pour modifier la période affichée dans chaque colonne. Vous pouvez choisir entre les intervalles suivants : **Jour**, **Semaine**, **Mois**, **Trimestre**, **Année** ou **Période comptable**, tel que paramétré dans votre espace financier.    

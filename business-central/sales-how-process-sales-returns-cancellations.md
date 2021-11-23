@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
+ms.search.form: 44, 134, 143, 9302
 ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: 726ca169625852cbae6d53510cd538df5af7ddc3
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 1f346acbfc39eeece4ef5d1eb66c3e81432e3335
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587644"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752499"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Traiter les retours ou annulations de ventes
 
@@ -61,7 +62,7 @@ Les documents vente validés auxquels vous avez lettré l’avoir sont à prése
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Pour créer un avoir vente en copiant une facture vente validée
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Avoirs vente**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Avoirs vente**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau** pour ouvrir un nouvel avoir vente vierge.
 3. Dans le champ **Nom client**, entrez le nom d’un client existant.
 4. Sélectionnez l’action **Préparer**, puis sélectionnez l’action **Copier document**.
@@ -98,7 +99,7 @@ Pour regrouper les réceptions retour, activer la case à cocher **Regrouper les
 
 ### <a name="to-manually-combine-return-receipts"></a>Pour regrouper manuellement des réceptions retour  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Avoirs vente**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Avoirs vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.
 3. Sur le raccourci **Général**, complétez les champs, comme nécessaire.  
 4. Choisissez l’action **Extraire lignes récept. retour**.  
@@ -114,7 +115,7 @@ Pour regrouper les réceptions retour, activer la case à cocher **Regrouper les
 
 Vous pouvez regrouper automatiquement des réceptions retour et avoir la possibilité de valider automatiquement l’avoir à l’aide de la fonction **Regrouper réceptions retour**.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Regrouper réceptions retour**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Regrouper réceptions retour**, puis sélectionnez le lien associé.
 2. Sur la page **Regrouper réceptions retour**, renseignez les champs pour choisir les réceptions retour appropriées.
 3. Cochez la case **Valider avoirs**. Sinon, vous devrez valider manuellement les avoirs achat qui en résulteront.
 4. Cliquez sur le bouton **OK**.  
@@ -125,7 +126,7 @@ Lorsque vous facturez des réceptions retour de cette manière, les commandes re
 
 Lorsque des réceptions retour sont regroupées sur un avoir et validées, un avoir vente enregistré est créé pour la ou les lignes créditées. Le champ **Quantité facturée** dans le retour vente d’origine est mis à jour sur la base de la quantité facturée.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Supprimer retours vente facturé**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Supprimer retours vente facturé**, puis sélectionnez le lien associé.  
 2. Dans le champ de filtre **N°**, spécifiez les retours vente à supprimer.  
 3. Cliquez sur le bouton **OK**.  
 

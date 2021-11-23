@@ -7,13 +7,13 @@ ms.reviewer: edupont
 ms.topic: conceptual
 ms.search.keywords: user-depreciation
 ms.date: 07/05/2021
-ms.author: a-jillk
-ms.openlocfilehash: 63cfcddf397fce1895fa5ac3a37a66478d7aecac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.author: edupont
+ms.openlocfilehash: 4c55d19f5019e8a9526396d4d253a1f9a9f40844
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440614"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724652"
 ---
 # <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Définir des immobilisations avec des méthodes d’amortissement paramétrables
 
@@ -31,7 +31,7 @@ La formule de calcul des montants d’amortissement est la suivante :
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a>Pour affecter une loi d’amortissement à une immobilisation avec une méthode d’amortissement paramétrable
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Immobilisations**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Immobilisations**, puis choisissez le lien associé.
 2. Sélectionnez l’immobilisation pour laquelle vous souhaitez configurer une loi d’amortissement.
 3. Sélectionnez l’action **associée**, puis choisissez **Immobilisation**, et enfin **Lois d’amortissement**. Cela ouvre la page **Lois d’amortissement**.
 
@@ -46,7 +46,7 @@ La formule de calcul des montants d’amortissement est la suivante :
 
 Sur la page **Table amortissement**, vous pouvez configurer des méthodes d’amortissement paramétrables. Par exemple, vous pouvez définir l’amortissement en fonction du nombre d’unités.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Tables d’amortissement**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Tables d’amortissement**, puis choisissez le lien associé.  
 2. Sur la page **Liste des tables amortissement**, sélectionnez l’action **Nouveau**.  
 3. Sur la page **Fiche table d’amortissement**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

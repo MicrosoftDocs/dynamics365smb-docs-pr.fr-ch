@@ -9,14 +9,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: phone, tablet
-  ms.date: 04/01/2021
+  ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: 81887822a3163a7fee0d027ac1969545990f749a
-  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+  ms.openlocfilehash: f0d31833373014ac5f1f089537bf03091540e223
+  ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
   ms.translationtype: HT
   ms.contentlocale: fr-CH
-  ms.lasthandoff: 05/28/2021
-  ms.locfileid: "6116080"
+  ms.lasthandoff: 11/04/2021
+  ms.locfileid: "7752545"
 title: FAQ relative aux applications mobiles
 summary: "Cet article répond aux questions que nos utilisateurs expérimentés posent souvent à propos des applications mobiles pour [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
 sections:
@@ -72,7 +72,7 @@ sections:
 
       | Télécharger le fichier | Disponible. Impossible de télécharger plusieurs fichiers en même temps. | Disponible. Impossible de télécharger plusieurs fichiers en même temps. | État `Trial Balance` dans la case à cocher **Imprimer vers Excel**. |
 
-      | Pages de feuille de travail | Disponible. | Indisponible ; un message d’erreur s’affiche. | Feuille de travail `Sales Price` ou`Cash Flow`. |
+      | Pages de feuille de travail | Disponible. | Indisponible ; un message d’erreur s’affiche. | Feuille de travail `Sales Price` ou `Cash Flow`. |
 
       | Listes | Disponible. | Disponible, à la différence que ceux-ci sont affichés dans une disposition en brique. | Pages Commandes vente ou client. |
 
@@ -85,4 +85,7 @@ sections:
   - question: >
       Puis-je connecter l’application à notre solution sur site ?
     answer: "Oui, vous pouvez ! C’est une façon légèrement différente de se connecter, c’est tout. Pour plus d’informations, voir [Utilisation de Business Central en local ?](install-mobile-app.md#using-business-central-on-premises).  \n"
-additionalContent: "\n## <a name=\"see-also\"></a>Voir aussi\n\n[Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)  \n[Installer l’application Business Central pour Microsoft Teams](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]"
+  - question: >
+      Un utilisateur invité peut-il utiliser l’application pour accéder à notre solution Business Central ?
+    answer: "Non. Les utilisateurs invités sont des utilisateurs invités d’un autre client Azure Active Directory (AD) que le vôtre. Dans ce cas, l’application s’authentifiera auprès du locataire principal Azure AD de l’utilisateur invité et essayez d’ouvrir le point de terminaison Business Central sur ce locataire au lieu du vôtre.  \n"
+additionalContent: "\n## <a name=\"see-also\"></a>Voir aussi\n\n[Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)  \n[Installer l’application Business Central pour Microsoft Teams](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]\n"

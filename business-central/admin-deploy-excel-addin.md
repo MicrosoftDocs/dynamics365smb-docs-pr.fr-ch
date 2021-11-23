@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 5788671162dc6480c8404338f6325dfae9233f44
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589697"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724627"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Obtenir le complément Business Central pour Excel
 
@@ -25,7 +25,7 @@ ms.locfileid: "7589697"
 
 ### <a name="about-the-add-in"></a>À propos du complément
 
-Le complément s’appelle **Complément Office Microsoft Dynamics** et il est disponible pour l’installation à partir de l’[Office Store (AppSource)](https://appsource.microsoft.com/). Une fois le complément installé, l’action **Modifier dans Excel** est disponible sur la plupart des pages de liste et de liste partielle à l’aide de l’icône **Partager** ![Partager une page dans une autre application.](media/share-icon.png). Pour plus d’informations sur l’utilisation du complément, voir [Affichage et édition dans Excel depuis Business Central](across-work-with-excel.md)
+Le complément s’appelle **Complément Office Microsoft Dynamics** et il est disponible pour l’installation à partir de l’[Office Store (AppSource)](https://appsource.microsoft.com/). Une fois le complément installé, l’action **Modifier dans Excel** est disponible sur la plupart des pages de liste et de liste partielle à l’aide de l’icône **Partager** ![Partager une page dans une autre application.](media/share-icon.png). Pour plus d’informations sur l’utilisation du complément, voir [Affichage et édition dans Excel depuis Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > Le complément fonctionne uniquement sur Windows, pas sur macOS.
@@ -118,7 +118,7 @@ Le complément est maintenant connecté à [!INCLUDE [prod_short](includes/prod_
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Préparer les appareils et le réseau pour le complément Excel
 
-Les services réseau tels que les proxys ou les pare-feu doivent autoriser le routage entre tous les appareils clients sur lesquels le complément est installé et de nombreux points de terminaison de service. Pour obtenir la liste des points de terminaison, consultez [Préparation de votre réseau pour le complément Excel](/dev-itpro/administration/configuring-network-for-addins).
+Les services réseau tels que les proxys ou les pare-feu doivent autoriser le routage entre tous les appareils clients sur lesquels le complément est installé et de nombreux points de terminaison de service. Pour obtenir la liste des points de terminaison, consultez [Préparation de votre réseau pour le complément Excel](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## <a name="troubleshooting"></a>Incident
 

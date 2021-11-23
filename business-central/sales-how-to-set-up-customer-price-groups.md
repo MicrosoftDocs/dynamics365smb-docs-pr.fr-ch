@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
-ms.author: a-jillk
-ms.openlocfilehash: e00af84992274fd627735624b313940874966338
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.author: edupont
+ms.openlocfilehash: d7c658dea40441791a2dc8adda1ca2a8d745c973
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589707"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724528"
 ---
 # <a name="set-up-customer-price-groups"></a>Configurer des groupes tarifs client
   

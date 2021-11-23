@@ -3,13 +3,13 @@ author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 09/27/2021
-ms.author: a-jillk
-ms.openlocfilehash: 6a0a0ea80b3570a3ed696ec6cc2702bf44eb060a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.author: edupont
+ms.openlocfilehash: 410aca90e40ee714f35ad9ff1fd8b96d398c9d8e
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589692"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724565"
 ---
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 2.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Fournisseurs**, puis choisissez le lien associé.  
 2. Sur la page **Fournisseurs**, choisissez **Nouveau**.

@@ -5,30 +5,31 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
+ms.search.form: 103, 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c4272e26021cecd04d6bd81ec66957032def6a8e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440218"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752381"
 ---
 # <a name="track-packages"></a>Suivre des colis
-
-De nombreux transporteurs offrent des services sur Internet vous permettant de suivre les colis que vous avez confiés au transporteur. Si vous utilisez certains de ces transporteurs, vous pouvez configurer certaines informations de base et utiliser la fonction de traçabilité automatique à partir des expéditions enregistrées, des factures vente enregistrées, des avoir vente enregistrés et des réception retour enregistrées. Pour plus d’informations, voir [Configurer des transporteurs](sales-how-to-set-up-shipping-agents.md).  
+La plupart des Transporteurs fournissent un service web qui vous permet de suivre le statut de vos colis pendant leur livraison. Ces informations peuvent être utiles dans de nombreux processus d’entreprise, par exemple, lors de la prestation d’un service clientèle. Si vous utilisez certains de ces transporteurs, vous pouvez saisir certaines informations de base les concernant, puis utiliser leur service de suivi de livraison directement auprès des pages Expéditions ventes enregistrées, les Factures ventes enregistrées, les Avoirs ventes enregistrés et les Accusés de réception retours enregistrées. Pour plus d’informations, voir [Configurer des transporteurs](sales-how-to-set-up-shipping-agents.md). 
 
 La procédure suivante montre comment suivre un colis à partir d’une expédition vente enregistrée, mais les mêmes étapes s’appliquent à l’activation du suivi des colis à partir des pages Facture vente enregistrée, Avoir vente enregistrée et Réception retour enregistrée.  
 
 ## <a name="to-track-a-package"></a>Pour suivre un colis
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expédition vente enreg.**, puis sélectionnez le lien associé.
-2. Ouvrez l’expédition appropriée.
-3. Choisissez l’action **Mettre à jour le document**.
-4. Dans le champ **N° récépissé**, entrez le numéro de récépissé que vous avez reçu du transporteur. Mettez à jour le **Transporteur** si nécessaire et fermez la page.
-5. Sélectionnez l’action **Suivre colis**.
+> [!NOTE]
+> La procédure suivante utilise la page Expédition vente enregistrée comme exemple. Les étapes de suivi d’un colis sont les mêmes sur les pages Factures vente enregistrées, Avoirs ventes enregistrés et Accusés de réception retour enregistrés.
 
-Votre navigateur par défaut ouvre la page de suivi du transporteur.
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expédition vente enreg.**, puis sélectionnez le lien associé.
+2. Ouvrez la livraison à suivre, puis sélectionnez l’action **Mettre à jour le document**.
+3. Dans le champ **N° récépissé**, entrez le numéro de récépissé reçu du transporteur. 
+4. Assurez-vous que le Transporteur et le niveau de service sont corrects, puis fermez la page.
+5. Choisissez l’action **Suivre colis** pour ouvrir le service de suivi der colis du transporteur.
 
 ## <a name="see-also"></a>Voir aussi
 

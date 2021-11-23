@@ -1,8 +1,6 @@
 ---
-title: Dépannage des erreurs de synchronisation | Microsoft Docs
+title: Résolution des erreurs de synchronisation
 description: Cette rubrique offre des instructions pour identifier, résoudre les problèmes et les erreurs de synchronisation.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3ed35bc7d0d9db1cd609078372d98535703f6583
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b5e7b9c6cc6d7ac39b0067b723a5325ee9972c2e
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326528"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7749026"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Résolution des erreurs de synchronisation
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -26,37 +24,20 @@ Il y a beaucoup de pièces mobiles impliquées dans l’intégration [!INCLUDE[p
 
 Les erreurs se produisent souvent à cause de quelque chose qu’un utilisateur a fait pour coupler des enregistrements ou parce que la configuration de l’intégration est fausse. Pour les erreurs liées aux enregistrements couplés, les utilisateurs peuvent les résoudre eux-mêmes. Ces erreurs sont causées par des actions telles que la suppression de données dans l’une des applications métier mais pas les deux, puis la synchronisation. Pour plus d’informations, voir [Afficher le statut d’une synchronisation](admin-how-to-view-synchronization-status.md).
 
-## <a name="example"></a>Exemple :
-Cette vidéo montre un exemple de dépannage des erreurs survenues lors de la synchronisation avec [!INCLUDE[prod_short](includes/cds_long_md.md)]. Le processus sera le même pour toutes les intégrations. 
+Les erreurs liées à la configuration de l’intégration nécessitent généralement l’attention de l’administrateur. Vous pouvez voir ces erreurs sur la page **Erreurs de synchronisation d’intégration**. 
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
+Le tableau suivant fournit des exemples de problèmes typiques :  
 
-Les erreurs liées à la configuration de l’intégration nécessitent généralement l’attention de l’administrateur. Vous pouvez voir ces erreurs sur la page **Erreurs de synchronisation d’intégration**. Voici des exemples de problèmes classiques :  
-  
-* Les autorisations et les rôles attribués aux utilisateurs ne sont pas corrects.  
-* Le compte administrateur a été spécifié en tant qu’utilisateur d’intégration.  
-* Le mot de passe de l’utilisateur d’intégration est défini pour nécessiter une modification lorsque l’utilisateur se connecte.  
-* Les taux de change pour les devises ne sont pas spécifiés dans l’une ou l’autre application.  
-  
-Vous devez résoudre manuellement les erreurs, mais la page vous aide de plusieurs manières. Par exemple :  
+|Problème  |Résolution  |
+|---------|---------|
+|Les autorisations et les rôles attribués à l’utilisateur d’intégration ne sont pas corrects. | Cette erreur vient de [!INCLUDE[prod_short](includes/cds_long_md.md)] et comprend souvent le texte suivant « Utilisateur principal (Id=\<user id>, type=8) ne dispose pas du privilège \<privilegeName> ». Cette erreur se produit, car il manque à l’utilisateur d’intégration un privilège lui permettant d’accéder à une entité. En règle générale, cette erreur se produit si vous synchronisez des entités personnalisées ou si une application est installée dans [!INCLUDE[prod_short](includes/cds_long_md.md)] qui nécessite l’autorisation d’accéder à d’autres entités [!INCLUDE[prod_short](includes/cds_long_md.md)]. Pour résoudre cette erreur, attribuez l’autorisation à l’utilisateur d’intégration dans [!INCLUDE[prod_short](includes/cds_long_md.md)].<br><br> Vous pouvez trouver le nom d’utilisateur d’intégration sur la page **Configuration de la connexion Dataverse**. Le message d’erreur fournira le nom de l’autorisation, ce qui peut vous aider à identifier l’entité pour laquelle vous avez besoin d’une autorisation. Pour ajouter le privilège manquant, connectez-vous à [!INCLUDE[prod_short](includes/cds_long_md.md)] avec un compte administrateur et modifiez le rôle de sécurité attribué à l’utilisateur d’intégration. Pour plus d’informations, voir [Créer ou modifier un rôle de sécurité pour gérer l’accès](/power-platform/admin/create-edit-security-role). |
+|Vous couplez un enregistrement qui utilise un autre enregistrement qui n’est pas couplé. Par exemple, un client dont la devise n’est pas couplée ou un article pour lequel l’unité n’est pas couplée. | Vous devez d’abord coupler l’enregistrement dépendant, par exemple une devise ou une unité, puis réessayer le couplage. |
 
-* Les champs **Source** et **Destination** peuvent contenir des liens vers la ligne où l’erreur a été trouvée. Cliquez sur le lien pour rechercher l’erreur.  
+Voici quelques outils sur la page Erreurs de synchronisation d’intégration qui peuvent vous aider à résoudre manuellement ces problèmes.  
+
+* Les champs **Origine** et **Destination** peuvent contenir des liens vers la ligne où l’erreur a été trouvée. Cliquez sur le lien pour rechercher l’erreur.  
 * Les actions **Supprimer les écritures ultérieures à 7 jours** et **Supprimer toutes les écritures** vont nettoyer la liste. En règle générale, vous utilisez ces actions après avoir résolu la cause d’une erreur affectant de nombreux enregistrements. Faites attention, cependant. Ces actions peuvent supprimer des erreurs toujours pertinentes.
-
-Parfois, les horodatages sur les enregistrements peuvent provoquer des conflits. La table « Enregistrement intégration CDS » conserve les horodatages « Dernière synch. modifiée le » et « Dernière synch. CDS modifiée le » pour la dernière intégration effectuée dans les deux directions pour une ligne. Ces horodatages sont comparés aux horodatages sur les enregistrements Business Central et Sales. Dans Business Central, l’horodatage se trouve dans la table Enregistrement intégration.
-
-Vous pouvez filtrer les enregistrements à synchroniser en comparant les horodatages des lignes dans la table Mappage de table d’intégration, champs « Synch. modifiée sur le filtre » et « Synch. table int. ». mod. le » de la table « Mappage de table d’intégration ».
-
-Le message d’erreur de conflit « Impossible de mettre à jour l’enregistrement client, car sa date de dernière modification est postérieure à celle de l’enregistrement de compte » ou « Impossible de mettre à jour l’enregistrement de compte, car sa date de dernière modification est postérieure à celle de l’enregistrement client » peut apparaître si une ligne a un horodatage supérieur au champ « Filtre synch. modifiée le » du Mappage de table d’intégration, mais s’il n’est pas plus récent que l’horodatage de l’enregistrement de l’intégration de Sales. Cela signifie que la ligne source a été synchronisée manuellement, et non par l’écriture file d’attente des travaux. 
-
-Le conflit se produit, car la ligne de destination a également été modifiée : l’horodatage de ligne est plus récent que l’horodatage de l’enregistrement de l’intégration de Sales. La vérification de la destination ne se produit que pour les tables bidirectionnelles. 
-
-Ces enregistrements sont maintenant déplacés vers la page « Enregistrements de synchronisation ignorés », que vous ouvrez à partir de la page Configuration de la connexion Microsoft Dynamics dans Business Central. Vous pouvez y spécifier les modifications à conserver, puis synchroniser à nouveau les enregistrements.
-
-## <a name="remove-couplings-between-records"></a>Supprimer les couplages entre les enregistrements
-Lorsque quelque chose ne va pas dans votre intégration et que vous devez découpler des enregistrements pour arrêter de les synchroniser, vous pouvez le faire pour un ou plusieurs enregistrements à la fois. Vous pouvez découpler un ou plusieurs enregistrements des pages de liste ou sur la page **Erreurs de synchronisation de données couplées** en choisissant une ou plusieurs lignes et en choisissant **Supprimer le couplage**. Vous pouvez également supprimer tous les couplages pour un ou plusieurs mappages de table sur la page **Mappages de table d’intégration**. 
-
-Si une entité avec un couplage unidirectionnel est supprimée dans [!INCLUDE[prod_short](includes/prod_short.md)], vous devez supprimer manuellement le couplage rompu. Pour ce faire, sur la page **Erreurs de synchronisation de données couplées**, choisissez l′action **Rechercher des suppressions**, puis supprimez les couplages.
+* L’action **Afficher la pile d’appels de l’erreur** affiche des informations qui peuvent aider à identifier la cause de l’erreur. Si vous ne pouvez pas résoudre l’erreur vous-même et que vous décidez de soumettre une demande d’assistance, incluez les informations dans la demande d’assistance.
 
 ## <a name="see-also"></a>Voir aussi
 [Intégration à Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  

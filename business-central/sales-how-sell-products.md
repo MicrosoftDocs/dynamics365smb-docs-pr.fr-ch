@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
+ms.search.form: 42, 48, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 7156684c2b12af7e5b3e8b51791a702566824009
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 543a334e087db85b15b5237a37702d410254f266
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588516"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752357"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Vente de produits avec une commande vente client  
 
@@ -34,7 +35,7 @@ Vous pouvez même créer des commandes à paiement direct pour les clients non e
 > [!NOTE]  
 > La procédure suivante suppose que le client est déjà configuré. Pour obtenir des instructions sur la façon de procéder, voir [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
 2. Sélectionnez **Nouveau** pour créer une écriture.
 3. Dans le champ **Client**, entrez le nom d’un client existant.
 

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
+ms.search.form: 170, 172, 300, 301, 428, 459, 1401
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: ab745b2f0cc98081bfb9640ca9fc2a2161b62ad2
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7ec2741e9ff0a5c8ccd00fb8df31cda0a5bfcec6
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588666"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752332"
 ---
 # <a name="setting-up-sales"></a>Définition des ventes.
 Avant de pouvoir gérer les processus de vente, vous devez configurer les règles et valeurs qui définissent les stratégies de vente de la société.

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8d57fedc09b6c94ecfce7e24e1eea097f837030e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442300"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643945"
 ---
 # <a name="acquire-fixed-assets"></a>Acquérir des immobilisations
 Pour chaque immobilisation, vous devez créer une fiche contenant des informations la concernant. Vous pouvez configurer des bâtiments ou un équipement de production en tant qu’actif principal avec une liste de composants et vous pouvez les regrouper de différentes façons, comme par catégorie, département ou emplacement. Une loi d’amortissement doit être configurée et assignée à chaque immobilisation avant que vous puissiez l’acquérir.
@@ -31,7 +31,7 @@ L’actualisation permet d’ajuster des valeurs en fonction de modifications g�
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Pour créer une immobilisation et l’acquérir automatiquement
 La procédure suivante décrit comment créer une immobilisation, puis l’acquérir via la page **Acquisition d’immobilisation assistée** pour créer et valider les lignes feuille validation immobilisation requises. Vous pouvez également créer et valider les lignes feuille manuellement. Pour en savoir plus, voir [Pour valider manuellement une acquisition d’immobilisation avec la feuille validation immobilisation](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Immobilisations**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Immobilisations**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**, puis renseignez les champs du raccourci **Général**, le cas échéant. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Sur le raccourci **Loi d’amortissement**, renseignez les champs, le cas échéant. Cette étape attribue une loi d’amortissement à l’immobilisation.  
 4. Si vous devez assigner plus d’une loi d’amortissement à l’immobilisation, sélectionnez l’action **Ajouter davantage de lois d’amortissement**. Pour en savoir plus, voir [Pour attribuer une loi d’amortissement à une immobilisation](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
@@ -50,12 +50,12 @@ Vous pouvez regrouper les immobilisations en immobilisations principales divisé
 
 Vous devez définir à la fois l’immobilisation principale et ses composants en tant que fiches immobilisation individuelles. Une fois la liste de composants créée, [!INCLUDE[prod_short](includes/prod_short.md)] renseigne automatiquement les champs **Immo. principale/Composant** et **Composant immo. principale** sur les fiches immobilisation.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Immobilisations**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Immobilisations**, puis choisissez le lien associé.
 2. Sélectionnez l’immobilisation principale, puis l’action **Composants immo. principale**.
 3. Sur la page **Composants immo. principale**, choisissez **N° immo.**., puis sélectionnez l’immobilisation que vous souhaitez ajouter comme composant de l’immobilisation principale.
 4. Fermez la page.
 5. Répétez les étapes 3 et 4 pour chaque composant de l’immobilisation que vous souhaitez ajouter.
-6. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres immobilisations**, puis choisissez le lien associé.
+6. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres immobilisations**, puis choisissez le lien associé.
 7. Cochez la case **Compta. immo. princip.**.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Pour valider manuellement une acquisition d’immobilisation avec une feuille validation immobilisation
@@ -64,7 +64,7 @@ La procédure suivante décrit comment acquérir manuellement une immobilisation
 > [!NOTE]  
 >   Vous pouvez également valider le coût d’acquisition en tant qu’avoirs. Dans ce cas, n’oubliez pas que la valeur du champ **Montant** doit comporter un signe moins pour indiquer un avoir.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles comptabilisation immobilisation**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles comptabilisation immobilisation**, puis choisissez le lien associé.
 2. Sur la page **Feuille compta. immo.**, dans le champ **Type compta. immo.**, sélectionnez **Coût acquisition**.
 3. Renseignez les champs restants selon vos besoins.
 4. Sélectionnez l’action **Valider**.  
@@ -75,12 +75,12 @@ La procédure suivante décrit comment acquérir manuellement une immobilisation
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Pour annuler la validation du coût d’une acquisition pour une immobilisation
 Si vous faites une erreur lors de la validation d’un coût d’acquisition, vous pouvez supprimer l’écriture à l’aide du traitement par lots **Annuler écritures immo**, puis valider l’écriture d’acquisition correcte. Les écritures erronées sont transférées vers la page **Erreur écritures comptables immo.**.
 
-Par exemple, si vous validez une acquisition avec une date erronée, vous devez la corriger dès que possible, car la date de validation de l’immobilisation est utilisée dans de nombreux calculs essentiels.
+Par exemple, si vous validez une acquisition avec une date erronée, vous devez la corriger dès que possible, car la date de validation de l’immobilisation est utilisée pour de nombreux calculs.
 
 > [!IMPORTANT]  
 >   Vous ne pouvez pas utiliser la fonction **Transaction contrepassée** pour les écritures comptables immobilisation.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Annuler écritures immo.**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Annuler écritures immo.**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Pour lancer le traitement par lots, cliquez sur le bouton **OK**.
 4. Lorsqu’une écriture incorrecte ou lorsque plusieurs écritures incorrectes sont annulées, continuez à valider le coût d’acquisition exact.
@@ -90,9 +90,12 @@ Pour annuler les écritures comptables pour plusieurs immobilisations à la fois
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Pour valider la valeur résiduelle ainsi que le coût d’acquisition
 Vous pouvez valider la valeur résiduelle avec le coût d’acquisition à partir d’une feuille immobilisation.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles immobilisation**, puis choisissez le lien associé.
+> [!NOTE]
+> Ce processus peut nécessiter que vous personnalisiez la page Feuilles immobilisations en ajoutant le champ Valeur résiduelle. Par défaut, le champ À ne s’affiche pas sur la page. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
+
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuilles immobilisation**, puis choisissez le lien associé.
 2. Sur la page **Feuilles immobilisation**, créez la ligne d’acquisition. Pour en savoir plus, voir [Pour valider manuellement une acquisition d’immobilisation avec la feuille validation immobilisation](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
-3. Dans le champ **Valeur résiduelle** de la ligne feuille, saisissez le montant de la valeur résiduelle comme avoir (avec un signe moins).
+3. Dans le champ **Valeur résiduelle** de la ligne feuille, saisissez le montant de la valeur résiduelle comme avoir (préfixe du montant avec un signe moins, par exemple, **-** 100).
 4. Sélectionnez l’action **Valider**.
 
 > [!NOTE]

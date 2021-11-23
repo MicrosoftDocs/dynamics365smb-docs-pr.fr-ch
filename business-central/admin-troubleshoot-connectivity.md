@@ -11,12 +11,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: db7b9e602817d7dddcf6bce1b35ede078bd70aa0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e08d6148001e324bc7217771434ff6862fe984a6
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443196"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7748976"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Résoudre les problèmes de connectivité pour Business Central
 
@@ -31,13 +31,22 @@ ms.locfileid: "6443196"
 
 ## <a name="start-the-connectivity-check"></a>Lancer le contrôle de connectivité 
 
-1. Sélectionnez [ce lien](https://businesscentral.dynamics.com/connectivity) ou ouvrez votre navigateur Internet et saisissez l’URL suivante dans l’adresse :
+1. Ouvrez un navigateur Internet.
+2. Dans l’adresse, saisissez l’URL que vous utilisez pour ouvrir Business Central et ajoutez `/connectivity` à la fin. 
+
+    Par exemple, si vous utilisez `https://businesscentral.dynamics.com`, saisissez :
 
     ```http
     https://businesscentral.dynamics.com/connectivity
     ```
 
-2. Sur la page **Résoudre les problèmes de connectivité**, choisissez **Démarrer la vérification**.
+    Ou, si l’URL inclut l’ID du locataire, comme `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, alors vous entreriez :
+
+    ```http
+    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    ```
+ 
+3. Sur la page **Résoudre les problèmes de connectivité**, choisissez **Démarrer la vérification**.
 
     Une série de vérifications est exécutée et le résultat de chaque vérification est affiché :
 
@@ -45,7 +54,7 @@ ms.locfileid: "6443196"
     - ![Échec de la vérification de la connectivité.](media/connectivity-failed.png) indique que le contrôle a échoué. Consultez le message sous la coche pour plus de détails.
     - ![Le contrôle de connectivité n’a pas été exécuté.](media/connectivity-blocked.png) Indique que la vérification n’a pas été exécutée, généralement en raison d’un échec d’une vérification précédente. Consultez le message sous la coche pour plus de détails.
 
-3. Pour relancer la vérification, choisissez **Redémarrer la vérification**.
+4. Pour relancer la vérification, choisissez **Redémarrer la vérification**.
 
 Les sections suivantes expliquent les vérifications exécutées et fournissent quelques conseils pour résoudre les problèmes.
 

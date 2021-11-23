@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
-ms.author: a-jillk
-ms.openlocfilehash: 5738735aa26b6c66b8bc0bf9366aa1cd736d7612
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.author: edupont
+ms.openlocfilehash: 5beb614e466cc4155ec81db49585cd023a483c0f
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589693"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724576"
 ---
 # <a name="procurement-quick-start"></a>Démarrage rapide Approvisionnement
 
