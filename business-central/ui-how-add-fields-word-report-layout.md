@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 11/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5c87d107cde4d0327d1147ffce78aadc88b241ca
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444810"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865353"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Ajouter des champs à une présentation de rapport Word
 Un ensemble de données de rapport peut être constitué de champs affichant des étiquettes, des données et des images. Cette rubrique décrit la procédure pour ajouter des champs d’un ensemble de données de rapport à une présentation de rapport Word pour un rapport. Vous ajoutez des champs à l’aide du composant XML personnalisé Word pour l’état et en ajoutant des contrôles de contenu qui correspondent aux champs de l’ensemble de données d’état. L’ajout de champs requiert que vous ayez des connaissances sur l’ensemble des données de rapport afin que vous puissiez identifier les champs que vous souhaitez ajouter à la présentation.  
@@ -35,7 +35,7 @@ Un ensemble de données de rapport peut être constitué de champs affichant des
   
 3.  Sous l’onglet **Développeur**, sélectionnez **Volet de mappage XML**.  
   
-4.  Dans le volet **Mappage XML**, dans la liste déroulante **Partie XML personnalisée**, sélectionnez la partie XML personnalisée pour l’état ADD INCLUDE,<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> qui est généralement le dernier dans la liste. Le nom de la partie XML personnalisée présente le format suivant :  
+4.  Dans le volet **Mappage XML**, dans la liste déroulante **Partie XML personnalisée**, choisissez la partie XML personnalisée pour le rapport [!INCLUDE[prod_short](includes/prod_short.md)], qui est généralement le dernier de la liste. Le nom de la partie XML personnalisée présente le format suivant :  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -78,7 +78,7 @@ Un ensemble de données de rapport peut être constitué de champs affichant des
  Les images s’alignent dans le coin supérieur gauche du contrôle de contenu et sont automatiquement redimensionnés proportionnellement conformément à la limite du contrôle de contenu.  
   
 > [!IMPORTANT]  
->  Vous ne pouvez ajouter que des images dont le format est pris en charge par Word (par ex., .bmp, .jpeg et .png). Si vous ajoutez une image dont le format n’est pas pris en charge par Word, vous obtenez une erreur lorsque vous exécutez l’état à partir du client ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> .  
+>  Vous ne pouvez ajouter que des images dont le format est pris en charge par Word (par ex., .bmp, .jpeg et .png). Si vous ajoutez une image dont le format n’est pas pris en charge par Word, vous obtenez une erreur lorsque vous exécutez le rapport à partir du client [!INCLUDE[prod_short](includes/prod_short.md)].  
   
 #### <a name="to-add-an-image"></a>Pour ajouter une image  
   
@@ -107,7 +107,7 @@ Le tableau suivant fournit un aperçu simplifié du XML d’une partie XML perso
 ### <a name="custom-xml-part-in-word"></a>Partie XML personnalisée dans Word  
  Dans Word, vous ouvrez la partie XML personnalisée dans le volet **Mappage XML** puis utilisez le volet pour mapper les éléments aux contrôles de contenu dans le document Word. Le volet **Mappage XML** est accessible depuis l’onglet **Développeur** (pour plus d’informations, voir [Afficher l’onglet Développeur sur le ruban](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
- Les éléments figurant dans le volet de **Mappage XML** s’affichent dans une structure qui est similaire à la source XML. Les champs d’étiquette sont rassemblés sous un élément **Étiquettes** commun et les données article et colonnes sont organisées dans une structure hiérarchique qui correspond à la source XML, avec les colonnes répertoriées dans l’ordre alphabétique. Les éléments sont identifiés par leur nom tel que défini par la propriété Name dans Report Dataset Designer dans ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
+ Les éléments figurant dans le volet de **Mappage XML** s’affichent dans une structure qui est similaire à la source XML. Les champs d’étiquette sont rassemblés sous un élément **Étiquettes** commun et les données article et colonnes sont organisées dans une structure hiérarchique qui correspond à la source XML, avec les colonnes répertoriées dans l’ordre alphabétique. Les éléments sont identifiés par leur nom de colonne tel que défini dans l’ensemble de données du rapport en code AL. Pour en savoir plus, consultez [Définition de l’ensemble de données de l’état](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
   
  La figure ci-après illustre la partie XML personnalisée simple de la section précédente dans le volet **Mappage XML** d’un document Word.  
   

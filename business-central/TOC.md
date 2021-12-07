@@ -24,27 +24,13 @@
 
 ### Détails de conception
 #### [Vue d’ensemble des détails de conception d’application](design-details-application-design.md)
-#### Détails de conception : planification de l’approvisionnement
-##### [Vue d’ensemble de la planification des approvisionnements](design-details-supply-planning.md)
-##### [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)  
-##### [Détails de conception : réservation, chaînage et message d’action](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)  
-##### [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)  
-##### [Détails de conception : paramètres de planification](design-details-planning-parameters.md)  
-##### [Détails de conception : tableau d’affectation de planification](design-details-planning-assignment-table.md)  
-##### [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md)  
-##### [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)
 #### Détails de conception : coûts ajustés
-##### [Vue d’ensemble des coûts](design-details-inventory-costing.md)
+##### [Détails de conception de l’évaluation stock](design-details-inventory-costing.md)
 ##### [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 ##### [Détails de conception : Modifier le mode évaluation stock pour les articles](design-details-changing-costing-methods.md)
 ##### [Détails de conception : lettrage article](design-details-item-application.md)  
 ##### [Détails de conception : problème de lettrage article connu](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)  
-##### Détails de conception : date comptabilisation de l’écriture valeur d’ajustement
-###### [Détails de conception : date comptabilisation de l’écriture valeur d’ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)  
-###### [Message d’erreur : « La date comptabilisation n’est pas incluse dans la plage de dates comptabilisation autorisées »](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-###### [Date comptabilisation sur l’écriture valeur d’ajustement par rapport à l’écriture source](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Détails de conception : validation du coût prévu](design-details-expected-cost-posting.md)  
 ##### [Détails de conception : coût moyen](design-details-average-cost.md)  
 ##### [Détails de conception : écart](design-details-variance.md)  
@@ -58,8 +44,26 @@
 ##### [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md)
 ##### [Détails de conception : évaluation du stock](design-details-inventory-valuation.md)  
 ##### [Détails de conception : réévaluation](design-details-revaluation.md)
+#### Détails de conception : date comptabilisation de l’écriture valeur d’ajustement
+##### [Vue d’ensemble de la date comptabilisation de l’écriture valeur d’ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Message d’erreur : « La date comptabilisation n’est pas incluse dans la plage de dates comptabilisation autorisées »](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Date comptabilisation sur l’écriture valeur d’ajustement par rapport à l’écriture source](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Détails de conception : écritures d’ensemble de dimensions
+##### [Détails de conception : aperçu des écritures de l′ensemble de dimensions](design-details-dimension-set-entries-overview.md)
+##### [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)
+##### [Détails de conception : structure de la table](design-details-table-structure.md)
+#### Détails de conception : planification de l’approvisionnement
+##### [Détails de conception de la planification de l’approvisionnement](design-details-supply-planning.md)
+##### [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)  
+##### [Détails de conception : réservation, chaînage et message d’action](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)  
+##### [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)  
+##### [Détails de conception : paramètres de planification](design-details-planning-parameters.md)  
+##### [Détails de conception : tableau d’affectation de planification](design-details-planning-assignment-table.md)  
+##### [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md)  
+##### [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)
 #### Détails de conception : gestion d’entrepôt
-##### [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
+##### [Détails de conception de Warehouse Management](design-details-warehouse-management.md)
 ##### [Détails de conception : vue d’ensemble d’entrepôt](design-details-warehouse-overview.md)  
 ##### [Détails de conception : paramètres entrepôt](design-details-warehouse-setup.md)  
 ##### [Détails de conception : flux d’enlogement](design-details-inbound-warehouse-flow.md)  
@@ -68,7 +72,7 @@
 ##### [Détails de conception : flux de désenlogement](design-details-outbound-warehouse-flow.md)  
 ##### [Détails de conception : intégration avec le stock](design-details-integration-with-inventory.md)
 #### Détails de conception : traçabilité
-##### [Vue d’ensemble de la traçabilité](design-details-item-tracking.md)
+##### [Détails de conception de la traçabilité](design-details-item-tracking.md)
 ##### [Détails de conception : création de traçabilité](design-details-item-tracking-design.md)  
 ##### [Détails de conception : structure de validation de traçabilité](design-details-item-tracking-posting-structure.md)  
 ##### [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -78,14 +82,10 @@
 ##### [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
 ##### [Détails de conception : traçabilité dans l’entrepôt](design-details-item-tracking-in-the-warehouse.md)
 #### Détails de conception : Ligne validation de feuille comptabilité
-##### [Ligne validation de feuille comptabilité](design-details-general-journal-post-line.md)
+##### [Détails de conception de la ligne validation de feuille comptabilité](design-details-general-journal-post-line.md)
 ##### [Aperçu de la ligne validation de feuille comptabilité](design-details-general-journal-post-line-overview.md)  
 ##### [Détails de conception : Structure de l’interface de validation](design-details-posting-interface-structure.md)  
 ##### [Détails de conception : Structure du moteur de validation](design-details-posting-engine-structure.md)  
-#### Détails de conception : écritures d’ensemble de dimensions
-##### [Détails de conception : aperçu des écritures de l′ensemble de dimensions](design-details-dimension-set-entries-overview.md)  
-##### [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)  
-##### [Détails de conception : structure de la table](design-details-table-structure.md)  
 
 ## Évaluations
 ### [Versions d’évaluation et abonnements](across-preview.md)
@@ -703,6 +703,7 @@
 ### [Amortir des immobilisations](fa-how-depreciate-amortize.md)
 ### [Céder ou annuler des immobilisations](fa-how-dispose-retire.md)
 ### [Gérer les budgets pour les immobilisations](fa-how-manage-budgets.md)
+### [Dépannage des écritures comptables immobilisation](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Gestion des relations
 ### [Vue d’ensemble de la gestion des relations](marketing-relationship-management.md)
@@ -1264,13 +1265,14 @@
 ##### [Types d’identification taxe du Mexique](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Nouveau calcul TVA](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Facturation électronique
-##### [Facturation électronique](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Paramétrer les facturation électronique](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Générer les factures électroniques](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Facturation électronique (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Paramétrer services web PAC](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Paramétrer les facturation électronique (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Générer les factures électroniques (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Bons de livraison bordereau d’expédition (Carta de Porte) et ordres de transfert (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### Général
 ##### [Réglementations de comptabilité électroniques au Mexique](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Effectuer des paiements électroniques](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### Général
-##### [Paramétrer services web PAC](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Imprimer des états dépannage](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Créer des acomptes](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 

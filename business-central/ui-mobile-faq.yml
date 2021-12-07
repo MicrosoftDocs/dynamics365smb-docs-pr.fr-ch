@@ -11,12 +11,12 @@ metadata:
   ms.search.keywords: phone, tablet
   ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: f0d31833373014ac5f1f089537bf03091540e223
-  ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+  ms.openlocfilehash: 96e8f34b31ba1f7db375c567da4ec9cf9375bdc5
+  ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
   ms.translationtype: HT
   ms.contentlocale: fr-CH
-  ms.lasthandoff: 11/04/2021
-  ms.locfileid: "7752545"
+  ms.lasthandoff: 11/25/2021
+  ms.locfileid: "7865536"
 title: FAQ relative aux applications mobiles
 summary: "Cet article répond aux questions que nos utilisateurs expérimentés posent souvent à propos des applications mobiles pour [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
 sections:
@@ -80,7 +80,7 @@ sections:
 
       | Mise au point automatique sur le premier champ modifiable d’une page | Non disponible. | Non disponible. | Page `Customer Card`.<BR /><BR />Dans le navigateur, le focus sera automatiquement sur le premier champ modifiable (tel que le champ `Name`), vous permettant de modifier la valeur immédiatement.<BR /><BR />Dans les applications pour tablettes et téléphones, ce champ ne sera pas mis au point ; au lieu de cela, vous devrez d’abord sélectionner manuellement le champ afin d’apporter des modifications.|
   - question: >
-      Est-ce la même expérience sur les tables et les téléphones ?
+      Est-ce la même expérience sur les tablettes et les téléphones ?
     answer: "Presque, mais pas tout à fait. Voir la liste dans la section [Est-ce la même expérience dans les applications que dans le navigateur ?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  \n"
   - question: >
       Puis-je connecter l’application à notre solution sur site ?

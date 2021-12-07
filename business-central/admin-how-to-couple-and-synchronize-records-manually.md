@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8e2b36b4b90e1cc348ef381a6d0f6145a87ed043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: c21d06eaaa9200bb11839d1b2db1666c816638b3
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588741"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865405"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Couplage et synchronisation des enregistrements entre Dataverse et Business Central
 
@@ -25,6 +25,7 @@ Cette rubrique décrit comment coupler un ou plusieurs enregistrements dans [!IN
 > Le couplage et la synchronisation des données sont disponibles seulement si votre administrateur système a créé une connexion entre [!INCLUDE[prod_short](includes/prod_short.md)] et Dataverse ou [!INCLUDE[crm_md](includes/crm_md.md)]. Une façon de vérifier consiste à ouvrir la fiche **Client** et à rechercher l’action **Configurer le couplage**. Si l’action est disponible, les applications sont connectées.   
 
 ## <a name="video-example"></a>Exemple vidéo
+Cette vidéo montre le couplage et la synchronisation de données dans le cadre d’une intégration avec [!INCLUDE[crm_md](includes/crm_md.md)].
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 

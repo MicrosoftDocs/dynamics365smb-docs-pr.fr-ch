@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 247f1e7b2568cbe323af083ff03349d1afe3de72
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 09990c620dbd6bd3e1cd00af594426851a4c1546
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325225"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865378"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronisation des données dans Business Central avec Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,6 +39,10 @@ Une fois la synchronisation configurée, vous pouvez coupler les enregistrements
 ||Synchronisation complète de toutes les données pour tous les mappages de table.<br /><br /> Vous pouvez synchroniser toutes les données des tables [!INCLUDE[prod_short](includes/prod_short.md)] et des tables [!INCLUDE[prod_short](includes/cds_long_md.md)] mappées et créer de nouveaux enregistrements ou lignes dans la solution de destination pour les enregistrements non couplés dans la solution source.<br /><br /> La synchronisation complète permet de synchroniser toutes les données et d’ignorer le couplage. Généralement, vous effectuez une synchronisation complète lorsque vous configurez l’intégration et lorsqu’une seule des solutions contient des données. Une synchronisation complète peut être également utile dans un environnement de démonstration.|[Exécuter une synchronisation complète](admin-manual-synchronization-of-table-mappings.md#run-a-full-synchronization)|  
 |Synchronisation programmée|Synchronisez tous les changements apportés aux données pour tous les mappages de table.<br /><br /> Vous pouvez synchroniser [!INCLUDE[prod_short](includes/prod_short.md)] avec [!INCLUDE[prod_short](includes/cds_long_md.md)] à des intervalles planifiés en configurant des projets dans la file projets.|[Programmer une synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
+> [!NOTE]
+> La synchronisation entre [!INCLUDE[prod_short](includes/cds_long_md.md)] et [!INCLUDE[prod_short](includes/prod_short.md)] est basée sur l’exécution planifiée des entrées de la file d’attente des tâches et ne garantit pas la cohérence des données en temps réel entre deux services. Pour la cohérence des données en temps réel, vous devriez explorer [Tables virtuelles Business Central](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) ou les API Business Central.   
+
+
 ## <a name="standard-table-mapping-for-synchronization"></a>Mappage de table standard pour la synchronisation
 Les tables dans [!INCLUDE[prod_short](includes/cds_long_md.md)], telles que des comptes, sont intégrées aux types de tables équivalentes dans [!INCLUDE[prod_short](includes/prod_short.md)], tels que des clients. Pour utiliser les données [!INCLUDE[prod_short](includes/cds_long_md.md)], vous configurez des liens, appelés couplages entre les tables dans [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
@@ -52,7 +56,7 @@ Le tableau suivant répertorie le mappage standard entre les tables dans [!INCLU
 | Vendeur/Acheteur | Utilisateur | [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtre contact [!INCLUDE[prod_short](includes/cds_long_md.md)] : le **Statut** est **Non**, l’**Utilisateur sous licence** est **Oui**, le Mode utilisateur de l’intégration est **Non** |
 | Client | Compte | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtre compte [!INCLUDE[prod_short](includes/cds_long_md.md)] : le **type de relation** est **Client** et le **statut** est **Actif**. Filtre [!INCLUDE[prod_short](includes/prod_short.md)] : **Bloqué** est vide (le client n’est pas bloqué). |
 | Fournisseur | Compte | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtre compte [!INCLUDE[prod_short](includes/cds_long_md.md)] : le **type de relation** est **Fournisseur** et le **statut** est **Actif**. Filtre [!INCLUDE[prod_short](includes/prod_short.md)] : **Bloqué** est vide (le fournisseur n’est pas bloqué). |
-| Contact | Contact | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtre contact [!INCLUDE[prod_short](includes/prod_short.md)] : le champ **Type** est défini sur **Personne** et le contact est affecté à une société. Filtre contact [!INCLUDE[prod_short](includes/cds_long_md.md)] : le contact est affecté à une société et le type de client parent est **Compte** |
+| Contact | Contact | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtre contact [!INCLUDE[prod_short](includes/prod_short.md)] : le champ **Type** est défini sur **Personne** et le contact est affecté à une société. Filtre contact [!INCLUDE[prod_short](includes/cds_long_md.md)] : le contact est affecté à une société et le type de client parent est **Client**. |
 | Devise | Devise de transaction | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
 > [!NOTE]

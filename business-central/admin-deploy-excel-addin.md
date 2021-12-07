@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 6bb034f9809f4241a4a538d6ecb133976fb60fb2
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724627"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865507"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Obtenir le complément Business Central pour Excel
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inclut un complément pour Excel qui permet aux utilisateurs de sélectionner une action **Modifier dans Excel** sur certaines pages pour ouvrir les données dans une feuille de calcul Excel. Cette action est différente de l’action **Ouvrir dans Excel** car elle permet aux utilisateurs d’apporter des modifications dans Excel, puis de publier de retour les modifications dans [!INCLUDE[prod_short](includes/prod_short.md)]\
+[!INCLUDE[prod_short](includes/prod_short.md)] inclut un complément pour Excel qui permet aux utilisateurs de sélectionner une action **Modifier dans Excel** sur certaines pages pour ouvrir les données dans une feuille de calcul Excel. Cette action est différente de l’action **Ouvrir dans Excel** car elle permet aux utilisateurs d’apporter des modifications dans Excel, puis de publier de retour les modifications dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## <a name="overview"></a>Aperçu
 
@@ -38,9 +38,9 @@ Pour l’utilisateur final, l’expérience d’installation est différente dan
 
 - Avec l’acquisition individuelle, la première fois que l’utilisateur choisit l’action **Modifier dans Excel**, le volet **Nouveau complément Office** s’ouvre dans Excel. Pour installer le complément, l’utilisateur choisit **Faire confiance à ce complément**, ce qui a pour effet d’installer le complément directement depuis l’Office Store. L’utilisateur se connecte ensuite à [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide de son nom d’utilisateur et de son mot de passe.
 
-- Avec le déploiement centralisé, la première fois que l’utilisateur choisit l’action **Modifier dans Excel**, le complément est automatiquement installé dans Excel à partir du déploiement centralisé, pas de l’Office Store. La seule chose que les utilisateurs ont à faire est de se connecter à [!INCLUDE[prod_short](includes/prod_short.md)]\
+- Avec le déploiement centralisé, la première fois que l’utilisateur choisit l’action **Modifier dans Excel**, le complément est automatiquement installé dans Excel à partir du déploiement centralisé, pas de l’Office Store. La seule chose que les utilisateurs ont à faire est de se connecter à [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Avec ces deux options de déploiement, le complément est automatiquement configuré pour se connecter à [!INCLUDE[prod_short](includes/prod_short.md)]\. Une troisième option de déploiement est l’installation manuelle du complément directement à partir d’Excel. Avec cette option, l’utilisateur doit configurer le complément pour se connecter à [!INCLUDE[prod_short](includes/prod_short.md)]\
+Avec ces deux options de déploiement, le complément est automatiquement configuré pour se connecter à [!INCLUDE[prod_short](includes/prod_short.md)]. Une troisième option de déploiement est l’installation manuelle du complément directement à partir d’Excel. Avec cette option, l’utilisateur doit configurer le complément pour se connecter à [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Passage de l’acquisition individuelle au déploiement Centralisé, ou inversement
 
@@ -63,13 +63,13 @@ Le déploiement centralisé est une fonctionnalité du centre d’administration
 - Si vous passez de l’acquisition individuelle à une autre méthode, consultez [Passer de l’acquisition individuelle au déploiement centralisé](#switch)
 
 > [!NOTE]
-> L’activation du déploiement centralisé affecte les fonctionnalités qui utilisent le complément Excel, telles que l’action **Modifier dans Excel**. Cela n’a aucun effet sur les autres fonctionnalités et/ou autorisations liées à Excel et attribuées aux utilisateurs dans [!INCLUDE[prod_short](includes/prod_short.md)]\
+> L’activation du déploiement centralisé affecte les fonctionnalités qui utilisent le complément Excel, telles que l’action **Modifier dans Excel**. Cela n’a aucun effet sur les autres fonctionnalités et/ou autorisations liées à Excel et attribuées aux utilisateurs dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="set-up-centralized-deployment-of-the-add-in"></a>Configurer le déploiement centralisé du complément
 
 Vous travaillerez à la fois dans [!INCLUDE[prod_short](includes/prod_short.md)] et le centre d’administration de Microsoft 365.
 
-1. Dans [!INCLUDE[prod_short](includes/prod_short.md)]\, sélectionnez l’icône en forme ![d’ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Déploiement centralisé du complément Excel**, puis sélectionnez le lien associé.
+1. Dans [!INCLUDE[prod_short](includes/prod_short.md)], sélectionnez l’![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Déploiement centralisé du complément Excel**, puis sélectionnez le lien associé.
 2. Lisez les informations de la page **Configuration du complément Business Central pour Excel** et sélectionnez **Suivant**.
 3. Connectez-vous au [Centre d’administration de Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2163967) et accédez à **Applications intégrées**<!--**Add-ins**-->.
 
@@ -81,7 +81,7 @@ Vous travaillerez à la fois dans [!INCLUDE[prod_short](includes/prod_short.md)]
     5. Attendez que la coche verte à côté de **Déployé** apparaisse pour le complément, puis sélectionnez **Terminé**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
        Le complément apparaît sur la page **Compléments**. Pour plus d’informations sur le déploiement de compléments dans le centre d’administration Microsoft 365, consultez [Déployer des compléments dans le centre d’administration](/microsoft-365/admin/manage/manage-deployment-of-add-in).
-4. Revenez à la configuration assistée du **Déploiement centralisé du complément Excel** dans [!INCLUDE[prod_short](includes/prod_short.md)]\, et choisissez **Suivant**.
+4. Revenez à la configuration assistée du **Déploiement centralisé du complément Excel** dans [!INCLUDE[prod_short](includes/prod_short.md)] et choisissez **Suivant**.
 5. Activez **Utiliser le déploiement centralisé**, et choisissez **Terminer**.
 
     Si vous n’activez pas ce bouton à bascule, [!INCLUDE[prod_short](includes/prod_short.md)] obtiendra le complément directement depuis l’Office Store.
@@ -114,7 +114,7 @@ Si un utilisateur ne parvient pas à se connecter automatiquement, vous pouvez l
 4. À l’invite, connectez-vous à Business Central avec votre nom d’utilisateur et votre mot de passe.
 5. En option, choisissez l’environnement et la société auxquels vous souhaitez vous connecter.
 
-Le complément est maintenant connecté à [!INCLUDE [prod_short](includes/prod_short.md)]\, et vous pouvez modifier les données et publier les modifications dans [!INCLUDE [prod_short](includes/prod_short.md)]\. 
+Le complément est maintenant connecté à [!INCLUDE [prod_short](includes/prod_short.md)] et vous pouvez modifier les données et publier les modifications dans [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Préparer les appareils et le réseau pour le complément Excel
 
@@ -127,9 +127,9 @@ Parfois, les utilisateurs rencontrent des problèmes avec le complément Excel. 
 |Problème  |Solution ou contournement  |Commentaires  |
 |---------|---------|---------|
 |Le complément ne démarre pas|Vérifiez si le complément est déployé de manière centralisée. Sinon, vérifiez si l’utilisateur n’est pas autorisé à l’installer localement. | L’administrateur peut configurer Office de sorte que les utilisateurs ne puissent pas acquérir de compléments. Dans ces cas, l’administrateur doit déployer le complément de manière centralisée. Pour plus d’informations, consultez [Déployer des compléments dans le centre d’administration](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
-|Les données ne se chargent pas dans Excel|Testez la connexion en ouvrant une autre liste dans Excel à partir de [!INCLUDE [prod_short](includes/prod_short.md)]\. Sinon, ouvrez le classeur dans Excel dans un navigateur.|Si l’utilisateur a spécifié un nom de société contenant des caractères spéciaux, le complément ne peut pas se connecter. |
-|Les données ne peuvent pas être republiées sur [!INCLUDE [prod_short](includes/prod_short.md)]\.|Testez la connexion en ouvrant le classeur dans Excel dans un navigateur. |Parfois, une extension peut bloquer le travail de publication. Si la page est étendue ou personnalisée, supprimez les extensions, puis réessayez.|
-|Les dates sont fausses  |Excel peut afficher les heures et les dates dans un format différent de celui de [!INCLUDE [prod_short](includes/prod_short.md)]\. Cette situation ne les rend pas erronées, et les données contenues dans [!INCLUDE [prod_short](includes/prod_short.md)]\ ne seront pas compromises.|         |
+|Les données ne se chargent pas dans Excel|Testez la connexion en ouvrant une autre liste dans Excel à partir de [!INCLUDE [prod_short](includes/prod_short.md)]. Sinon, ouvrez le classeur dans Excel dans un navigateur.|Si l’utilisateur a spécifié un nom de société contenant des caractères spéciaux, le complément ne peut pas se connecter. |
+|Les données ne peuvent pas être republiées sur [!INCLUDE [prod_short](includes/prod_short.md)].|Testez la connexion en ouvrant le classeur dans Excel dans un navigateur. |Parfois, une extension peut bloquer le travail de publication. Si la page est étendue ou personnalisée, supprimez les extensions, puis réessayez.|
+|Les dates sont fausses  |Excel peut afficher les heures et les dates dans un format différent de celui de [!INCLUDE [prod_short](includes/prod_short.md)]. Cette situation ne les rend pas erronées, et les données contenues dans [!INCLUDE [prod_short](includes/prod_short.md)] ne seront pas compromises.|         |
 |Pour certaines pages de liste, la modification de plusieurs lignes dans Excel provoque systématiquement des erreurs. Cette situation peut se produire si des appels OData incluent des FlowFields et des champs hors de contrôle du répéteur.|Sur la page **Services web**, cochez les cases **Exclure les FlowFields non modifiables** et **Exclure les champs hors de contrôle du répéteur** pour la page publiée. La sélection de ces cases à cocher exclut les champs FlowFields et non modifiables du calcul de l’eTag. |Ces cases à cocher sont masquées par défaut. Pour les afficher sur la page **Services web**, utilisez la [personnalisation](/dynamics365/business-central/ui-personalization-user). |
 
 
@@ -162,7 +162,7 @@ For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator ca
 When the add-in is installed, it shows up as a panel in Excel. Next, you must configure the connection.
 
 > [!TIP]
-> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)]\.When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
+> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)].When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
 
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->

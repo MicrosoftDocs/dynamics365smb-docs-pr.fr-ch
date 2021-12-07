@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
-ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
+ms.openlocfilehash: 5aa6849ebb591622828eed1cd40f5bd7be58262d
+ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651502"
+ms.lasthandoff: 11/27/2021
+ms.locfileid: "7865736"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Intégration à Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -26,7 +26,7 @@ Le rôle de vendeur est souvent considéré comme tourné vers l’extérieur da
 > Cette rubrique décrit le processus d’intégration des versions en ligne de [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[prod_short](includes/prod_short.md)] au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Pour plus d’informations sur la configuration sur site, voir [Préparation de l’intégration à Dynamics 365 Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## <a name="integrating-through-dataverse"></a>Intégration au moyen de Dataverse
-[!INCLUDE[prod_short](includes/prod_short.md)] s’intègre également à [!INCLUDE[prod_short](includes/cds_long_md.md)], ce qui facilite la connexion et la synchronisation des données avec d’autres applications Dynamics 365 telles que [!INCLUDE[crm_md](includes/crm_md.md)], voire des applications que vous créez vous-même. S’il s’agit de votre toute première intégration, nous vous recommandons de l’effectuer au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Pour en savoir plus, consultez [Intégration à Dataverse](admin-common-data-service.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] s’intègre également à [!INCLUDE[prod_short](includes/cds_long_md.md)], ce qui facilite la connexion et la synchronisation des données avec d’autres applications Dynamics 365 telles que [!INCLUDE[crm_md](includes/crm_md.md)], voire des applications que vous créez vous-même. S’il s’agit de votre toute première intégration, vous devez l’effectuer au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Pour en savoir plus, consultez [Intégration à Dataverse](admin-common-data-service.md).
 
 Si vous avez déjà intégré [!INCLUDE[crm_md](includes/crm_md.md)] à [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez continuer à synchroniser les données à l’aide de votre configuration. Cependant, si vous mettez à niveau ou désactivez votre intégration [!INCLUDE[crm_md](includes/crm_md.md)], vous devez vous connecter au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)] pour la réactiver. Pour en savoir plus, consultez [Mise à niveau d’une intégration à Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
 
@@ -134,10 +134,10 @@ Pour utiliser les nouveaux mappages, vous devez synchroniser les groupes d’uni
 
 Les étapes suivantes décrivent les étapes de démarrage du mappage des groupes d’unités :
 
-1. Assurez-vous que les produits de [!INCLUDE[crm_md](includes/crm_md.md)] ne sont pas associés à des articles ou des ressources dans [!INCLUDE[prod_short](includes/prod_short.md)]. S’ils le sont, allez aux pages **Articles** et/ou **Ressources**, utilisez les options de filtre pour sélectionner les enregistrements couplés, puis choisissez l’action **Dynamics 365 Sales** et sélectionnez **Découpler**. Cela planifie une tâche en arrière-plan pour découpler les enregistrements. Pendant que le travail est en cours d’exécution, vous pouvez vérifier son statut en utilisant l’action **Journal de synchronisation**. Pour plus d’informations, voir [Couplage et synchronisation](admin-how-to-couple-and-synchronize-records-manually.md). 
+1. Assurez-vous que les produits de [!INCLUDE[crm_md](includes/crm_md.md)] ne sont pas associés à des articles ou des ressources dans [!INCLUDE[prod_short](includes/prod_short.md)]. S’ils le sont, accédez aux pages **Articles** et/ou **Ressources** et utilisez les options de filtrage pour sélectionner les enregistrements associés. Ensuite, choisissez l’action **Dynamics 365 Sales** et sélectionnez **Découpler**. Cela planifie une tâche en arrière-plan pour découpler les enregistrements. Pendant que le travail est en cours d’exécution, vous pouvez vérifier son statut en utilisant l’action **Journal de synchronisation**. Pour plus d’informations, voir [Couplage et synchronisation](admin-how-to-couple-and-synchronize-records-manually.md). 
 2. Du fait que des produits seront créés dans [!INCLUDE[crm_md](includes/crm_md.md)] avec de nouveaux groupes d’unités, pour éviter les noms en double, effectuez l’une des opérations suivantes :
     
-    * Renommez vos produits, puis supprimez-les de [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d’informations, voir [Supprimer des produits (Centre des ventes)](/dynamics365/sales-enterprise/retire-product). Pour modifier en bloc vos produits dans Microsoft Excel, se connecter à Power Apps, choisissez votre environnement, rendez-vous sur la table **Produit** et choisissez l’onglet **Données**. Effacez tous les filtres appliqués. Dans le groupe **Données**, choisissez l’action **Modifier les données dans Excel**. Ajoutez un préfixe ou un suffixe aux produits couplés, puis supprimez-les.
+    * Renommez vos produits, puis supprimez-les de [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d’informations, voir [Supprimer des produits (Centre des ventes)](/dynamics365/sales-enterprise/retire-product). Pour modifier en bloc vos produits dans Microsoft Excel, connectez-vous à Power Apps, choisissez votre environnement, rendez-vous sur la table **Produit** et choisissez l’onglet **Données**. Effacez tous les filtres appliqués. Dans le groupe **Données**, choisissez l’action **Modifier les données dans Excel**. Ajoutez un préfixe ou un suffixe aux produits couplés, puis supprimez-les.
     * Retirez vos produits et supprimez-les. 
 
 3. Suivez ces étapes pour synchroniser **Groupes d’unités**, **Unité**, **Articles**, et **Ressources** :

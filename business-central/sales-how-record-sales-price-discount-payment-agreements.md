@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 1345, 7002, 7007, 7015, 7016, 7023
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8b7943caba8482e39217307be904f368f0ec31c0
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: 5d03e3c567ed6a2932691cee58685e522814a03f
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752458"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865561"
 ---
 # <a name="record-sales-prices-and-discounts"></a>Enregistrer les prix de vente et les remises
 > [!NOTE]
@@ -52,15 +52,13 @@ Pour les remises, vous pouvez définir et utiliser les types suivants :
 
 Ces étapes diffèrent selon que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes**. Si la mise à jour des fonctionnalités n’est pas activée, suivez les étapes de l’onglet Expérience actuelle. 
 
-#### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience/)
+## <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience)
 
 1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Choisissez le client, puis sélectionnez l’action **Prix**.
 3. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Renseignez une ligne pour chaque combinaison qui accorde un prix de vente spécial au client.
 
----
-
-#### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience/)  
+## <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience)  
 Par défaut, l’état des nouvelles listes de prix est Brouillon. Les projets de tarifs ne sont pas inclus dans les calculs de prix. Lorsque vous avez terminé d’ajouter des lignes et que vous souhaitez commencer à utiliser les prix, remplacez le statut par Actif.
 
 1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
@@ -100,7 +98,7 @@ Lorsque vous activez la mise à jour de la fonctionnalité **Nouvelle expérienc
 
 Si vous avez déjà activé la nouvelle expérience de tarification, vous pouvez créer manuellement des tarifs par défaut ou spécifier une liste de prix existante par défaut. Pour définir une liste de prix existante par défaut, activez le bouton de basculement **Autoriser la mise à jour des valeurs par défaut** sur la liste de prix. Ensuite, sur les pages **Paramètres vente**, **Paramètres achats**, ou **Paramètres projets**, définissez les tarifs comme valeurs par défaut.
 
-### <a name="editing-active-price-lists"></a>Modification des tarifs actifs
+## <a name="editing-active-price-lists"></a>Modification des tarifs actifs
 Pour permettre aux utilisateurs de modifier les prix sur les tarifs actifs pour les articles, les ressources, les clients, les fournisseurs ou d’autres entités qui utilisent la tarification, activez le bouton de basculement **Autoriser la modification du prix actif** sur les pages **Paramètres ventes** et **Paramètres achats**. 
 
 Quand le bouton de basculement **Autoriser la modification du prix actif** est désactivé, pour mettre à jour les prix dans une liste de prix, vous devez changer le statut de la liste de prix sur **Brouillon**, effectuer votre modification, puis réactiver la liste de prix.
@@ -121,7 +119,7 @@ Ensuite, vous pouvez utiliser l’action **Implémenter nouveaux prix** pour com
 ## <a name="to-copy-sales-prices"></a>Pour copier des prix de vente
 Ces étapes diffèrent selon que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes**. Si la mise à jour des fonctionnalités n’est pas activée, suivez les étapes de l’onglet Expérience actuelle.
 
-#### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience/)  
+## <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience)  
 
 Pour copier des prix de vente, comme les prix appliqués à un client et qui doivent être appliqués à tout un groupe de clients, vous devez lancer le traitement par lots **Suggérer prix vente**. traitement par lots sur la page **Feuille prix vente**.  
 
@@ -135,9 +133,7 @@ Pour copier des prix de vente, comme les prix appliqués à un client et qui doi
    > [!NOTE]  
    > Ce traitement par lots crée uniquement des propositions ; il n’effectue pas les modifications proposées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c’est-à-dire les insérer sur la page **Prix vente**, choisissez l’action **Implémenter des modifications de prix**, sur la page **Feuille prix vente**.
 
----
-
-#### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience/)  
+## <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience)  
 
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Listes de prix de vente**, puis sélectionnez le lien associé. 
 2. Choisissez la liste de prix à copier, puis choisissez **Copier les lignes**.
@@ -151,7 +147,7 @@ Pour copier des prix de vente, comme les prix appliqués à un client et qui doi
 ## <a name="to-bulk-update-item-prices"></a>Pour mettre à jour en bloc des prix d’articles
 Ces étapes diffèrent selon que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes**. Si la mise à jour des fonctionnalités n’est pas activée, suivez les étapes de l’onglet Expérience actuelle.
 
-#### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience/)
+### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience)
 
 Si vous souhaitez mettre à jour en bloc des prix article, tels que l’augmentation de tous les prix article par un certain pourcentage, vous pouvez renseigner la **Feuille prix vente** à l’aide des traitements par lots suivants :
 
@@ -167,14 +163,14 @@ Si vous souhaitez mettre à jour en bloc des prix article, tels que l’augmenta
 7. Choisissez **OK** pour remplir les lignes sur la page **Feuille prix vente** avec les nouveaux prix suggérés.
 8. Pour mettre en œuvre les suggestions, utilisez l’action **Implémenter nouveaux prix**. Le traitement par lots crée des suggestions mais ne les implémente pas.
 
----
-
-#### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience/)
+## <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience)
 
 Pour mettre à jour les prix de plusieurs articles, vous devez créer une nouvelle liste de prix, puis copier les lignes d’une liste de prix existante. Lorsque vous copiez les lignes, vous pouvez utiliser des filtres pour spécifier les éléments à copier, et vous pouvez spécifier un nombre entier ou décimal dans le champ **Facteur appliqué** pour augmenter ou diminuer les prix. Le statut de la liste de prix doit être **Brouillon**. Si nécessaire, vous pouvez alors désactiver l’ancienne liste de prix.
 
 > [!NOTE]
 > Vous ne pouvez pas avoir deux lignes ayant les mêmes paramètres mais des prix différents. Si cela se produit, un message s’affiche lorsque vous activez une liste de prix. Vous pouvez choisir le prix à utiliser en ouvrant la liste et en supprimant le prix incorrect.  
+
+---
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Remises facture vente et frais forfaitaires
 Lorsque vous utilisez des remises facture, le montant total de la facture détermine celui de la remise accordée. Dans la page **Remises facture client**, vous pouvez également ajouter des frais forfaitaires aux factures supérieures à un montant donné.  
@@ -189,8 +185,6 @@ En plus du pourcentage de remise (ou à sa place), vous pouvez lier un montant d
 
 Pour la formation sur les remises sur les ventes, voir [Configurer des remises pour vos clients](/learn/modules/customer-discounts-dynamics-365-business-central/index) sur Microsoft Learn.  
 
----
-
 ### <a name="calculating-invoice-discounts-on-sales"></a>Calcul de remises facture pour des ventes
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
@@ -198,7 +192,7 @@ Pour la formation sur les remises sur les ventes, voir [Configurer des remises p
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Pour définir une remise ligne vente pour un client
 Ces étapes diffèrent selon que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes**. Si la mise à jour des fonctionnalités n’est pas activée, suivez les étapes de l’onglet Expérience actuelle.
 
-#### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience/)  
+## <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience)  
 
 1. Choisissez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche client appropriée, puis sélectionnez l’action **Remises ligne**.
@@ -209,9 +203,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 >
 > Pour configurer des prix ou des remises ligne pour tous les clients, un groupe de prix client ou une campagne, vous devez ouvrir les pages à partir d’une fiche article. Sinon, pour les prix de vente, utilisez la page **Feuille prix vente**. Pour plus d’informations, voir [Mettre à jour en bloc des prix d’articles](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
----
-
-#### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience/)  
+## <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience)  
 
 1. Choisissez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
 2. Choisissez le client, puis sélectionnez l’action **Listes prix vente**.
@@ -220,10 +212,12 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 5. Dans le champ **Définit**, choisissez soit **Prix et remise**, ou juste **Remise**. 
 6. Dans le champ **% remise ligne**, spécifiez le pourcentage remise.
 
-    > [!TIP]
-    > Filtrez les lignes en choisissant l’option appropriée dans le champ **Afficher les colonnes pour**.
-    > [!NOTE]  
-    > Les codes remise facture sont représentés par les fiches client existantes. L’utilisation de noms de clients en guise de codes vous permet d’affecter rapidement les conditions de remise facture aux clients en sélectionnant le nom d’un autre client qui bénéficie des mêmes conditions. Pour configurer des conditions de remise sur facture spécifiques au client, définissez le champ **Code remise facture** au code client du client, puis passez à l’étape suivante.
+   > [!TIP]
+   > Filtrez les lignes en choisissant l’option appropriée dans le champ **Afficher les colonnes pour**.   
+  
+   > [!NOTE]
+   > Les codes remise facture sont représentés par les fiches client existantes. L’utilisation de noms de clients en guise de codes vous permet d’affecter rapidement les conditions de remise facture aux clients en sélectionnant le nom d’un autre client qui bénéficie des mêmes conditions. Pour configurer des conditions de remise sur facture spécifiques au client, définissez le champ **Code remise facture** au code client du client, puis passez à l’étape suivante.
+
 ---
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Pour configurer une remise facture pour un client
@@ -243,8 +237,6 @@ Une fois que vous avez décidé des clients pouvant faire l’objet de remises f
 3. Dans le champ **Montant minimum**, entrez le montant minimal qu’une facture doit présenter pour faire l’objet de la remise.
 4. Dans le champ **% remise**, entrez la remise facture sous la forme d’un pourcentage du montant de la facture.
 5. Répétez les étapes 5 à 7 pour chaque devise pour laquelle le client recevra une remise facture différente.
-
----
 
 ## <a name="best-price-calculation"></a>Calcul du meilleur prix
 Lorsque vous avez enregistré des prix spéciaux et des remises de ligne pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] s’assure que votre marge pour l’article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article.
