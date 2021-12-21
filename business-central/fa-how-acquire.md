@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 04/01/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
-ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.openlocfilehash: 997e9e9d26ccb2beaafcb9e3e6cdf8fb467652ef
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7643945"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920970"
 ---
 # <a name="acquire-fixed-assets"></a>Acquérir des immobilisations
 Pour chaque immobilisation, vous devez créer une fiche contenant des informations la concernant. Vous pouvez configurer des bâtiments ou un équipement de production en tant qu’actif principal avec une liste de composants et vous pouvez les regrouper de différentes façons, comme par catégorie, département ou emplacement. Une loi d’amortissement doit être configurée et assignée à chaque immobilisation avant que vous puissiez l’acquérir.
@@ -78,14 +78,14 @@ Si vous faites une erreur lors de la validation d’un coût d’acquisition, vo
 Par exemple, si vous validez une acquisition avec une date erronée, vous devez la corriger dès que possible, car la date de validation de l’immobilisation est utilisée pour de nombreux calculs.
 
 > [!IMPORTANT]  
->   Vous ne pouvez pas utiliser la fonction **Transaction contrepassée** pour les écritures comptables immobilisation.
+> Vous ne pouvez pas utiliser la fonction **Transaction contrepassée** pour les écritures comptables immobilisation.
 
-1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Annuler écritures immo.**, puis sélectionnez le lien associé.
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Pour lancer le traitement par lots, cliquez sur le bouton **OK**.
-4. Lorsqu’une écriture incorrecte ou lorsque plusieurs écritures incorrectes sont annulées, continuez à valider le coût d’acquisition exact.
-
-Pour annuler les écritures comptables pour plusieurs immobilisations à la fois, utilisez le traitement par lots **Annuler les écritures comptables immobilisation**.
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures comptables immobilisation**, puis sélectionnez le lien associé.  
+2. Sur la page **Écritures comptables immobilisation**, sélectionnez la ou les entrées à annuler.  
+3. Choisissez le menu **Actions**, puis choisissez l’action **Annuler les entrées**.
+4. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Pour lancer le traitement par lots, cliquez sur le bouton **OK**.
+6. Lorsqu’une écriture incorrecte ou lorsque plusieurs écritures incorrectes sont annulées, continuez à valider le coût d’acquisition exact.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Pour valider la valeur résiduelle ainsi que le coût d’acquisition
 Vous pouvez valider la valeur résiduelle avec le coût d’acquisition à partir d’une feuille immobilisation.

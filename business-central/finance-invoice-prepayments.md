@@ -1,29 +1,34 @@
 ---
 title: Facturation des acomptes
 description: Découvrez comment utiliser les acomptes pour facturer et collecter les acomptes requis des clients ou régler des acomptes aux fournisseurs dans Business Central.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/29/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 57326180b6adca053896b3e4da3362f2f6b3e310
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3c919a5d63e4468b7f3182afe04890c6733d0cad
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322544"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889909"
 ---
 # <a name="invoicing-prepayments"></a>Facturation d’acomptes
 
-Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale. Vous pouvez demander un acompte avant de fabriquer les produits commandés ou demander à ce que le paiement soit effectué avant d’envoyer les articles à un client. La fonctionnalité d’acomptes vous permet de facturer et de collecter les acomptes requis des clients ou de régler des acomptes aux fournisseurs. Vous pouvez ainsi vous assurer que tous les paiements sont validés sur une facture.  
+[!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
- Les conditions d’acompte peuvent être définies pour un client ou un fournisseur pour tous les articles ou pour une sélection d’articles. Lorsque vous avez effectué la configuration requise, vous pouvez générer des factures acompte à partir des commandes vente et achat pour le montant acompte calculé. Au besoin, vous pouvez modifier les montants dans la facture. Par exemple, vous pouvez spécifier un montant total pour la commande entière. Vous pouvez également envoyer des factures acompte supplémentaires si, par exemple, des articles supplémentaires sont ajoutés à la commande. Vous pouvez augmenter les quantités ou ajouter de nouvelles lignes dans une commande après avoir émis un acompte, puis vous pouvez valider une autre facture acompte. Si vous souhaitez supprimer une ligne pour laquelle un acompte a déjà été facturé, vous devez émettre un avoir acompte avant de la supprimer.  
+[!INCLUDE [prepayment_req](includes/prepayment_req.md)]
 
- Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
+Par exemple, vous pouvez spécifier un montant total pour l’ensemble de la commande, ou vous pouvez répartir l’acompte sur chaque ligne de la commande. Vous pouvez également envoyer des factures acompte supplémentaires si, par exemple, des articles supplémentaires sont ajoutés à la commande. Vous pouvez augmenter les quantités ou ajouter de nouvelles lignes dans une commande après avoir émis un acompte, puis vous pouvez valider une autre facture acompte.  
+
+> [!NOTE]
+> Si vous souhaitez supprimer une ligne pour laquelle un acompte a déjà été facturé, vous devez émettre un avoir acompte avant de la supprimer.
+
+Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
 |**Pour**|**Voir**|  
 |------------|-------------|  

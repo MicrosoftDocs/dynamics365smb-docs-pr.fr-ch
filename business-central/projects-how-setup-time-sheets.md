@@ -1,6 +1,6 @@
 ---
 title: Paramétrer des feuilles de temps et leur approbation
-description: Vous paramétrez des feuilles de temps pour suivre le temps consacré aux projets et l’utilisation des ressources, vous aider à gérer des projets, à recruter du personnel, et à anticiper vos capacités
+description: Vous paramétrez des feuilles de temps pour suivre le temps consacré aux tâches et aux projets, ce qui vous aide à gérer des projets, à recruter du personnel et à anticiper vos capacités
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.date: 10/01/2021
+ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 72618aaeddae0a72a0c699f19a04a388ced0b9c1
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589222"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920995"
 ---
 # <a name="set-up-time-sheets"></a>Paramétrer des feuilles de temps
 
-Dans [!INCLUDE[prod_short](includes/prod_short.md)], les feuilles de temps gèrent l’enregistrement des heures sur une base hebdomadaire par incrément de sept jours. Elles permettent de suivre le temps consacré à des projets, et vous pouvez les utiliser pour enregistrer les heures ressource. Avant de pouvoir utiliser des feuilles de temps, vous devez les configurer.
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], les feuilles de temps gèrent l’enregistrement des heures sur une base hebdomadaire par incrément de sept jours. Elles permettent de suivre le temps consacré à des projets, et vous pouvez les utiliser pour enregistrer les heures ressource. Avant de pouvoir utiliser les feuilles de temps, vous devez spécifier quels utilisateurs en soumettront et comment vous souhaitez les configurer.  
 
-Une fois l’utilisation des feuilles de temps au sein de votre organisation configurée, vous pouvez indiquer si et comment les feuilles de temps sont approuvées. Selon les besoins de votre organisation, vous pouvez désigner :
+> [!TIP]
+> Dans [!INCLUDE [prod_short](includes/prod_short.md)], les utilisateurs de feuilles de temps sont des *ressources*. De cette façon, vous pouvez utiliser des feuilles de temps pour suivre le travail des personnes qui ne font pas partie des employés, par exemple. Pour suivre le travail de vos propres employés ou pour utiliser des feuilles de temps pour suivre les indisponibilités des employés, vous devez associer des *employés* à des *ressources* dans le guide d’installation.  
+
+Vous pouvez également spécifier si et comment les feuilles de temps sont approuvées. Selon les besoins de votre organisation, vous pouvez désigner :
 
 * un ou plusieurs utilisateurs en tant qu’administrateur et approbateur de feuille de temps pour toutes les feuilles de temps ;
 * un approbateur de feuille de temps pour chaque ressource.
 
-Lorsque vous créez des feuilles de temps, vous pouvez créer des feuilles de temps pour les ressources, les affecter aux lignes planning projet, et valider les lignes de feuille de temps. Pour plus d’informations, voir [Utiliser des feuilles de temps](projects-how-use-time-sheets.md).  
+Lorsque vous créez des feuilles de temps, vous pouvez en créer pour les ressources, et les ressources peuvent valider les lignes de feuille de temps. Pour pouvez affecter des feuilles de temps à des lignes planning projet. Pour plus d’informations, voir [Utiliser des feuilles de temps](projects-how-use-time-sheets.md).  
 
 ## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Paramétrer des feuilles de temps avec le guide de configuration assistée
 
@@ -42,6 +45,8 @@ Lorsque vous créez des feuilles de temps, vous pouvez créer des feuilles de te
 Le guide de configuration assistée vous guide à travers les étapes suivantes :
 
 1. Configurer les participants aux processus de feuille de temps
+
+    La première page du guide vous indique le nombre d’utilisateurs de votre [!INCLUDE [prod_short](includes/prod_short.md)]. Elle indique également d’autres informations obligatoires et facultatives.  
 2. Spécifier le premier jour d’une semaine de travail dans cette organisation
 
     Le premier jour d’une semaine de travail sera le premier jour par défaut pour toutes les feuilles de temps.
@@ -50,10 +55,7 @@ Le guide de configuration assistée vous guide à travers les étapes suivantes�
     Cette personne peut modifier et supprimer toutes les feuilles de temps. Vous pouvez éventuellement ajouter le même rôle à d’autres personnes dans la page **Paramètres utilisateur**.
 4. Configurer les ressources qui utiliseront les feuilles de temps et les personnes qui approuveront les feuilles de temps
 
-    > [!NOTE]
-    > Pour les projets et les travaux, les utilisateurs des feuilles de temps sont des *Ressources*, pas des employés. Ainsi, pour pouvoir suivre le travail de vos employés, vous devez associer des ressources aux employés dans la configuration guidée.
-
-À la fin de la configuration guidée, vous pouvez choisir de laisser [!INCLUDE [prod_short](includes/prod_short.md)] créer des feuilles de temps en fonction de votre configuration. Vous pouvez également exécuter à nouveau le guide de configuration assistée ou terminer la configuration manuellement.  
+À la fin de la configuration guidée, vous pouvez choisir de laisser [!INCLUDE [prod_short](includes/prod_short.md)] créer des feuilles de temps en fonction de votre configuration. Consultez les nouvelles feuilles de temps sur la page **Feuilles de temps** que vous pouvez ouvrir [ici](https://businesscentral.dynamics.com/?page=951). Vous pouvez également exécuter à nouveau le guide de configuration assistée ou terminer la configuration manuellement.  
 
 ## <a name="set-up-time-sheets-manually"></a>Paramétrer des feuilles de temps manuellement
 

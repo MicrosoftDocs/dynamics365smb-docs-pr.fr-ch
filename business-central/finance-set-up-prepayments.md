@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: a09f0cd35c62b65bf690fd785c0fc9a4b4b178d7
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701538"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889858"
 ---
 # <a name="set-up-prepayments"></a>Configuration des acomptes
+
 Si vous voulez que vos clients fassent des paiements avant de leur expédier une commande ou si votre fournisseur exige que vous fassiez un paiement avant de vous expédier une commande, vous pouvez utiliser la fonctionnalité Acompte. La fonctionnalité Acomptes vous permet de facturer et de collecter les acomptes requis des clients ou de régler des acomptes aux fournisseurs, et pour s’assurer que tous les paiements partiels sont validés sur une facture. Pour plus d’informations, consultez [Créer des factures d’acompte](finance-how-to-create-prepayment-invoices.md).
 
 Avant de valider des factures acompte, vous devez configurer les comptes de validation dans le module Comptabilité et configurer des souches de numéros pour les documents acompte. Vous devez spécifier un compte pour les paiements anticipés liés aux ventes et un compte pour les paiements anticipés liés aux achats. Vous pouvez spécifier les mêmes comptes imputables à utiliser pour tous les paiements anticipés liés à tous les groupes de comptabilisation commerciaux ou généraux du produit, ou vous pouvez spécifier des comptes spécifiques pour des groupes de comptabilisation spécifiques pour les ventes et les achats, respectivement. Cela dépend des exigences de votre entreprise en matière de suivi des paiements anticipés.  
@@ -23,6 +24,7 @@ Vous pouvez définir le pourcentage du montant ligne qui sera facturé pour acom
 
 > [!NOTE]
 > Nous vous recommandons de ne pas utiliser un pourcentage de prépaiement de 100 % dans les cas suivants :
+>
 > * Si vous résidez en Amérique du Nord. En raison du mode de calcul des taxes, un pourcentage de paiement anticipé de 100 % peut entraîner des problèmes avec les factures de paiement anticipé.
 > * Dans toutes les régions, si vous déduisez manuellement un escompte de la facture. Un pourcentage de prépaiement de 100 % ne laissera pas automatiquement un montant sur lequel déduire la remise. 
 
@@ -33,10 +35,10 @@ Puisque le montant payé par anticipation appartient à l’acheteur jusqu’à 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Ajouter des comptes acompte aux paramètres comptabilisation  
 
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilisation**, puis choisissez le lien associé.
-2. Sur la page **Paramètres comptabilisation**, vous devez renseigner les champs suivants :  
+2. Sur la page **Paramètres comptabilisation**, renseignez les champs suivants pour les lignes appropriées :  
 
-    - **Compte acomptes vente**  
-    - **Compte acomptes achat**  
+    * **Compte acomptes vente**  
+    * **Compte acomptes achat**  
 
 > [!TIP]
 > Si vous ne pouvez pas voir les champs de la page **Paramètres comptabilisation**, utilisez la barre de défilement horizontale au bas de la page pour faire défiler l’affichage vers la droite.  
@@ -46,16 +48,16 @@ Si vous n’avez pas encore configuré de comptes généraux pour les acomptes, 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Configurer des souches de numéros pour des documents acompte  
 
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres ventes**, puis choisissez le lien associé.
-2. Sur la page **Paramètres ventes**, renseignez les champs suivants :  
+2. Sur la page **Paramètres ventes**, sur le raccourci **Souches de numéros**, remplissez les champs suivants :  
 
-   - **N° fact. acompte enreg.**
-   - **N° avoir acompte enreg.**
+   * **N° fact. acompte enreg.**
+   * **N° avoir acompte enreg.**
 
-1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres achat**, puis choisissez le lien associé.
-2. Sur la page **Paramètres achats**, renseignez les champs suivants :
+3. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres achat**, puis choisissez le lien associé.
+4. Sur la page **Paramètres achats**, sur le raccourci **Souches de numéros**, remplissez les champs suivants :
 
-    - **N° fact. acompte enreg.**
-    - **N° avoir acompte enreg.**
+    * **N° fact. acompte enreg.**
+    * **N° avoir acompte enreg.**
 
 > [!NOTE]  
 > Vous pouvez utiliser les mêmes souches de numéros pour des factures acompte et des factures normales, ou utiliser des souches de numéros différentes. Si vous utilisez des souches différentes, elles ne doivent pas se chevaucher car vous ne pouvez pas avoir des numéros identiques dans les deux souches.  
@@ -74,6 +76,9 @@ Pour un client ou un fournisseur, vous pouvez configurer un pourcentage d’acom
 2. Ouvrez la fiche d’un client.
 3. Remplissez le champ **Acompte**.
 4. Répétez les étapes pour d’autres clients ou fournisseurs.  
+
+> [!TIP]
+> Vous pouvez également accéder à la page **Pourcentages acompte vente** à partir de la carte client ou fournisseur.
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Pour déterminer quel pourcentage d’acompte a la priorité  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: d0cea6be92becb3d44507687954f59fcdc6d5de3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e62a4709b493d44487d189dfd9ec5b76bc6987b8
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446180"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921048"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurer des méthodes de calcul et de validation de la taxe sur la valeur ajoutée
 
@@ -31,7 +31,10 @@ Vous pouvez configurer manuellement les calculs de la TVA, mais cette procédure
 > [!NOTE]  
 > Vous pouvez utiliser le guide uniquement si vous avez créé un profil Ma société, et si vous n’avez pas validé de transactions incluant la TVA. Sinon, il serait très facile d’utiliser différents taux de TVA par erreur et de générer des états de TVA erronés.  
 
-Si vous souhaitez configurer vous-même les calculs de TVA, ou en savoir plus sur chaque étape, cette rubrique contient des descriptions de chaque étape.
+Si vous souhaitez configurer vous-même les calculs de TVA, ou en savoir plus sur chaque étape, cette rubrique contient des descriptions de chaque étape.  
+
+> [!TIP]
+> [!INCLUDE [prod_short](includes/prod_short.md)] est disponible dans les pays qui n’utilisent pas la TVA. Pour plus d’informations sur la configuration et la déclaration des taxes dans votre pays, consultez les articles de la section [Fonctionnalités locales dans Business Central](about-localization.md).  
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Pour utiliser le guide de configuration assistée Paramètres TVA pour configurer la TVA (recommandé)
 

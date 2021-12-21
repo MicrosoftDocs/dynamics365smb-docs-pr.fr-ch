@@ -684,7 +684,7 @@
 ### [États de projet](project-reports.md)
 ### [Créer des projets](projects-how-create-jobs.md)
 ### [Utiliser des ressources pour des projets](projects-how-use-resources.md)
-### [Utiliser des feuilles de temps pour des projets](projects-how-use-time-sheets.md)
+### [Utiliser des feuilles de temps](projects-how-use-time-sheets.md)
 ### [Gérer les budgets de projets](projects-how-manage-budgets.md)
 ### [Enregistrer l’utilisation pour les projets](projects-how-record-job-usage.md)
 ### [Gérer les fournitures pour un projet](projects-how-manage-project-supplies.md)

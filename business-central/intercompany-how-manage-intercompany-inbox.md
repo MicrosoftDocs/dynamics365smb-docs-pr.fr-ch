@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 309d41995ae88332808e363f8a6838a40ee6a679
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: acc6427342122589fca6f2cad08baa00210a261e
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445716"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921042"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Gérer la boîte de réception et la boîte d’envoi intersociétés
 Toutes les transactions intersociétés que vous recevez par voie électronique de vos partenaires intersociétés sont stockées dans la boîte de réception Intersociétés.  
@@ -51,7 +51,7 @@ Vous pouvez utiliser le champ **Afficher la source de la transaction** pour filt
 
  > [!NOTE]  
  > Si les partenaires intersociétés sont exprimés dans la même base de données, les transactions sont transférées sans recourir de fichier ou par e-mail. Voir le champ **Type transfert** sur la page **Partenaire Intersociétés**. <br /><br />
-Dans ce cas, vous pouvez configurer le système pour qu’il ignore la boîte de réception et la boîte d’envoi en sélectionnant la case à cocher **Auto. Accepter les transactions** sur la page **Partenaire Intersociétés** et la case à cocher **Auto. Envoyer des transactions** sur la page **Paramétrage intersociétés** respectivement.
+Dans ce cas, vous pouvez configurer le système pour qu’il ignore la boîte de réception et la boîte d’envoi en sélectionnant la case à cocher **Auto. Accepter les transactions** sur la page **Partenaire Intersociétés** et la case à cocher **Auto. Envoyer des transactions** sur la page **Paramétrage intersociétés** respectivement. Les transactions intersociétés entrantes ne peuvent être acceptées automatiquement que si le planificateur de tâches est activé. Pour plus d’informations, reportez-vous à la rubrique [Configuration de Business Central Server - Paramètres du planificateur de tâches](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Pour importer des transactions intersociétés à partir d’un fichier  
 Si l’un de vos partenaires intersociétés ne figure pas dans la même base de données que votre société, vous pouvez recevoir de lui des transactions intersociétés dans un fichier .xml. Vous devez ensuite importer ces transactions dans votre boîte de réception.  
