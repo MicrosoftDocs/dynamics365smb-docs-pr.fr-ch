@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 3010531, 3010532
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: c33fa3aa1b3d02019a1e099d1c527872fe51fa8d
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 0c27928b22a0fd1edd2a882ece7b1173b3dfbb17
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588772"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947137"
 ---
 # <a name="print-esr-invoices-in-the-swiss-version"></a>Imprimer des factures ESR dans la version suisse
 

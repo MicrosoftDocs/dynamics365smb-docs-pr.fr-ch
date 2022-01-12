@@ -1,8 +1,6 @@
 ---
 title: Paramètre du groupe comptabilisation| Microsoft Docs
 description: Aperçu des groupes comptabilisation que vous pouvez utiliser pour gagner du temps et éviter les erreurs lorsque vous validez des transactions.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 04/01/2021
+ms.date: 12/17/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588822"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940766"
 ---
 # <a name="setting-up-posting-groups"></a>Configuration de groupes comptabilisation
 Les groupes comptabilisation mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux. Ils vous font gagner du temps et permettent d’éviter des erreurs lorsque vous validez des transactions. Les valeurs de transaction vont dans les comptes spécifiés dans le groupe comptabilisation pour cette entité particulière. Il vous suffit seulement d’avoir un plan comptable. Pour plus d’informations, reportez-vous à [Configuration du plan comptable](finance-setup-chart-accounts.md).  
@@ -74,6 +72,17 @@ Votre paramétrage détermine quand la validation a lieu. Par exemple, la synchr
 
 ## <a name="copying-posting-setup-lines"></a>Copie de lignes paramètres validation
 Plus il y a de groupes comptabilisation produit et marché, plus la page Paramètres comptabilisation contient de lignes. Cela peut entraîner la nécessité d’entrer un grand nombre de données pour configurer les paramètres comptabilisation pour la société. S’il peut y avoir un grand nombre de combinaisons différentes de groupes comptabilisation marché et produit, différentes combinaisons peuvent encore valider dans les mêmes comptes généraux. Pour limiter le nombre de saisies manuelles, copiez les comptes généraux à partir d’une ligne existante sur la page **Paramètres comptabilisation**.
+
+## <a name="set-up-posting-groups-on-the-go"></a>Configurer des groupes de comptabilisation en déplacement
+
+Pour que les utilisateurs démarrent plus rapidement, [!INCLUDE[prod_short](includes/prod_short.md)] offre une assistance via des notifications de comptes généraux manquants dans diverses configurations de groupe de comptabilisation dans des documents. Pour recevoir ces notifications, assurez-vous que la notification **Compte général manquant dans le groupe comptabilisation ou la configuration** est sélectionnée dans la page **Mes notifications**, à laquelle vous pouvez accéder à partir du champ **Modifier lorsque je reçois des notifications** dans la page **Mes paramètres**.  
+
+De cette façon, lorsque vous travaillez sur un document qui utilise un groupe de comptabilisation ou une configuration pour laquelle il manque un compte général requis, vous recevez une notification. Choisissez le lien dans la notification pour ouvrir une page où vous pouvez apporter les modifications appropriées, à condition que vous y soyez autorisé.  
+
+> [!NOTE]
+> Afin de vous diriger directement vers le groupe de comptabilisation ou le paramétrage auquel il manque un compte général, [!INCLUDE[prod_short](includes/prod_short.md)] crée un espace réservé pour une configuration ou un groupe de comptabilisation. Les configurations et les groupes de comptabilisation constituent, pour le comptable, un moyen de contrôler la manière dont les écritures sont validées dans la comptabilité. Ainsi, la création juste à temps de configurations et de groupes de comptabilisation peut ne pas être autorisée dans votre organisation.  
+> 
+> Dans ce cas, désactivez la notification **Compte général manquant dans le groupe comptabilisation ou la configuration**, puis collaborez avec votre comptable pour apporter les modifications appropriées au groupe de comptabilisation, à la configuration ou à votre document. Il s’agit d’une étape importante, car une fois les documents validés, les paramètres ou les groupes de comptabilisation utilisés de manière incorrecte ne peuvent pas être supprimés car des écritures comptables sont créées pour eux. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Résolution des erreurs de groupe comptabilisation
 Les groupes comptabilisation sont l’un des concepts les plus avancés à configurer dans [!INCLUDE[prod_short](includes/prod_short.md)]. S’ils ne sont pas configurés correctement, des erreurs peuvent se produire lors de la validation de documents ou de lignes feuille. Par exemple, ces erreurs sont généralement causées par une erreur d’affectation des comptes de la comptabilité ou de combinaison des groupes comptabilisation.

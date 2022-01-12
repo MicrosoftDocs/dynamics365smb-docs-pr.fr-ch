@@ -1,8 +1,6 @@
 ---
 title: 'Procédure : Valider les paiements LSV+'
 description: Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschrift Verfahren (LSV+) de la banque.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4df119680c453db8e5f3b1bdc4ad8d3cb3d750b6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 852a0bb2d5f9e2ccc840d1f7c71ade9062d0fd52
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435697"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947150"
 ---
 # <a name="post-lsv-payments"></a>Valider les paiements LSV+
 Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschrift Verfahren (LSV+) de la banque.  

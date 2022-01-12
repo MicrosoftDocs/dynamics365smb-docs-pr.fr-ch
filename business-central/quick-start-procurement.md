@@ -1,5 +1,5 @@
 ---
-title: Démarrage rapide Approvisionnement
+title: Démarrage rapide Approvisionnement (contient une vidéo)
 description: Découvrez comment remplir les premiers champs critiques concernant les fournisseurs dans Business Central afin de pouvoir commencer à acheter des produits et des services.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 5beb614e466cc4155ec81db49585cd023a483c0f
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 7d0b33b668bede3ac1a1a7b8bd981693c54cd4b7
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724576"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940016"
 ---
 # <a name="procurement-quick-start"></a>Démarrage rapide Approvisionnement
 

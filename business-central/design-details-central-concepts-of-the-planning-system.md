@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ddf848c3fb4845f802276843dfa6521eca20f896
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3c459ab6c4056b40c5e83db70a0cafab48359a1
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442500"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949109"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Détails de conception : concepts centraux du système de planification
 
@@ -122,7 +122,7 @@ Pour plus d’informations, voir [Détails de conception : transferts de planif
 
 ### <a name="order-priority"></a>Priorité de commande
 
-Dans un point de stock donné, la date demandée ou disponible représente la priorité la plus élevée ; la demande du jour doit être traitée avant la demande des jours suivants. Mais en plus de ce certain type de priorité, les différents types de demande et d’approvisionnement doivent être triés en fonction de l’importance commerciale pour choisir quelle demande doit être satisfaite avant de répondre à une autre demande. Du côté de l’approvisionnement, la priorité de la commande indique la source d’approvisionnement qui doit être lettrée avant d’appliquer d’autres source d’approvisionnement.  
+Dans un point de stock donné, la date demandée ou disponible représente la priorité la plus élevée ; la demande du jour doit être traitée avant la demande des jours suivants. Mais en plus de ce type de priorité, les différents types de demande et d’approvisionnement doivent être triés en fonction de l’importance commerciale pour choisir quelle demande doit être satisfaite avant de répondre à une autre demande. Du côté de l’approvisionnement, la priorité de la commande indique la source d’approvisionnement qui doit être lettrée avant d’appliquer d’autres source d’approvisionnement.  
 
 Pour en savoir plus, voir [Affecter une priorité aux commandes](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 

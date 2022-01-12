@@ -9,18 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 07/27/2021
+ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: db390d1f4ee690b9e461bfccd77155ec0b66a2b6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: d82497d8df7ccc414a1a71b23a277e7105903f5c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589696"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940641"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Environnements Sandbox dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Avec [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous pouvez facilement obtenir un environnement sûr dans lequel vous pouvez tester, former ou résoudre les problèmes sans perturber les processus de travail ou les données métier de votre société. Cet environnement hors production est appelé *sandbox*. Isolé de la production, un environnement Sandbox est l’emplacement où vous pouvez explorer, apprendre, démontrer, développer et tester en toute sécurité le service sans que les données et les paramètres de votre environnement de production en soient affectés.  
+
+> [!TIP]
+> Avez-vous atterri sur cet article après avoir choisi le nom de votre environnement [!INCLUDE [prod_short](includes/prod_short.md)] dans la barre du haut ? Actuellement, vous ne pouvez pas modifier le nom ou l’environnement de cette façon. Au lieu de cela, vous devez demander à votre administrateur de modifier le nom ou lui demander de partager le lien vers un autre environnement.
 
 Votre administrateur gère les environnements sandbox dans le [centre d’administration](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 

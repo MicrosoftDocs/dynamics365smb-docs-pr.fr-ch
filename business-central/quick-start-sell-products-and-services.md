@@ -1,5 +1,5 @@
 ---
-title: Démarrage rapide des ventes
+title: Démarrage rapide des ventes (contient une vidéo)
 description: Découvrez comment remplir les premiers champs critiques concernant les produits et les clients dans Business Central afin de pouvoir démarrer vos processus de vente.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 1310596bf328d6f9bc62f1021632137f56cbe8b4
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 9641d87dadc3b33683d1bab0bdc70d0b36b4d1ae
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724481"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940866"
 ---
 # <a name="sales-quick-start"></a>Démarrage rapide des ventes
 

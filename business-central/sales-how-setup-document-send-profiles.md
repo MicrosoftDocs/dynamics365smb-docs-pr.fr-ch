@@ -1,5 +1,5 @@
 ---
-title: Paramétrer les méthodes préférées d’envoi des documents vente | Microsoft Docs
+title: Paramétrer les méthodes préférées d’envoi des documents vente (contient une vidéo) | Microsoft Docs
 description: Décrit comment configurer la méthode préférée de chaque client pour l’envoi de documents vente, par exemple par e-mail, au format PDF, sous forme de document électronique, etc.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b91a1c0566b6fb4736093ca9617a5a1566bf2bf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 676ac7ac1fb9f267221acc50e5b5f812b8460250
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436691"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939892"
 ---
 # <a name="set-up-document-sending-profiles"></a>Configurer des profils d’envoi de documents
 Vous pouvez associer chaque client avec une méthode par défaut d’envoi de documents vente, afin d’éviter d’avoir à sélectionner une option d’envoi chaque fois que vous sélectionnez l’action **Valider et envoyer**.

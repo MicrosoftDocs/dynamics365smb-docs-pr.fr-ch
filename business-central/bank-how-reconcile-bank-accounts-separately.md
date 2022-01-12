@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 54e989182a8d6612e6bb2c95eda327fd21cae0d8
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587824"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949064"
 ---
 # <a name="reconcile-bank-accounts"></a>Rapprochement des comptes bancaires
 
@@ -36,7 +36,7 @@ Le rapprochement des transactions bancaires avec les écritures bancaires intern
 > [!NOTE]  
 > Si les lignes relevé bancaire se rapportent à des écritures comptables chèque, vous ne pouvez pas utiliser les fonctions de correspondance. Au lieu de cela, vous devez sélectionner l’action **Lettrer écritures**, puis sélectionner l’écriture comptable chèque appropriée avec laquelle mettre en correspondance la ligne de relevé bancaire.
 
-Lorsque la valeur du champ **Solde final** du volet **Lignes relevé bancaire** est égale à celle du champ **Solde à simuler** du volet **Écritures comptables compte bancaire**, vous pouvez sélectionner l’action **Valider**. Toutes les écritures comptables de compte bancaire sans correspondance resteront sur la page, indiquant l’existence de différences que vous devez résoudre pour rapprocher le compte bancaire.
+Lorsque la valeur du champ **Solde final** du volet **Lignes relevé bancaire** est égale à la valeur du champ **Solde à simuler** du volet ainsi que le champ **Solde dernier relevé** du volet **Écritures comptables compte bancaire**, vous pouvez sélectionner l’action **Valider**. Toutes les écritures comptables de compte bancaire sans correspondance resteront sur la page, indiquant les différences que vous devez résoudre pour rapprocher le compte bancaire.
 
 Toutes les lignes qui ne peuvent pas être mises en correspondance, indiquées par une valeur dans le champ **Différence**, resteront sur la page **Rapprochement bancaire** après validation. Elles représentent une certaine forme de différence que vous devez résoudre avant de pouvoir effectuer le rapprochement des comptes bancaires. Situations commerciales typiques pouvant entraîner des différences :
 

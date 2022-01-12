@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: f814157dc11737074b1a4b1a83545615c2f4c64d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4671954cd059360e4f16db5cb4a4faf3ce01aff4
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442325"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949085"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Détails de conception : réservation, chaînage et message d’action
 Le système de réservation est complet et inclut les fonctionnalités étroitement liées et parallèles du Chaînage et des Messages d’action.  
@@ -111,7 +111,7 @@ Le système de réservation est complet et inclut les fonctionnalités étroitem
 
  Ce principe implique qu’un changement dans une demande entraîne un déséquilibre correspondant du côté de l’approvisionnement du réseau d’ordres. Inversement, une modification d’approvisionnement entraîne un déséquilibre correspondant du côté de la demande du réseau d’ordres. En réalité, le réseau d’ordres se trouve dans un état de flux constant tant que les utilisateurs saisissent, modifient et suppriment des commandes. Le chaînage traite les commandes dynamiquement, en réagissant à chaque modification au moment où elle entre dans le système et devient une partie du réseau d’ordres. Dès que de nouveaux enregistrements de chaînage sont créés, le réseau d’ordres est équilibré, mais uniquement jusqu’à la prochaine modification.  
 
- Pour augmenter la transparence des calculs dans le système de planification, la page **Annulation du chaînage des éléments planning** affiche les quantités non suivies, qui représentent la différence de quantité entre la demande connue et l’approvisionnement proposé. Chaque ligne de la page fait référence à la cause de l’excédent, par exemple, **Commande ouverte**, **Stock de sécurité**, **Qté fixe de commande**, **Qté minimum commande**, **Arrondi** ou **Seuil**.  
+ Pour augmenter la transparence des calculs dans le système de planification, la page **Éléments planning non chaînés** affiche les quantités non suivies, qui représentent la différence de quantité entre la demande connue et l’approvisionnement proposé. Chaque ligne de la page fait référence à la cause de l’excédent, par exemple, **Commande ouverte**, **Stock de sécurité**, **Qté fixe de commande**, **Qté minimum commande**, **Arrondi** ou **Seuil**.  
 
 ### <a name="offsetting-in-order-tracking"></a>Compensation dans le chaînage  
  Contrairement aux réservations, qui ne peuvent être exécutées que pour des quantités d’article disponibles, le chaînage est possible sur toutes les entités réseau de commande qui sont incluses dans le calcul des besoins nets du système de planification. Les besoins nets sont calculés comme suit :  

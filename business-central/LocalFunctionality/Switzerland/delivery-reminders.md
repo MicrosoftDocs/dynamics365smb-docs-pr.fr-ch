@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 5005270, 5005272
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: ac683740c971fcba434130547bdfdcf7ee7d986b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 7acea9db678684d33de03edd00c2dd67947402be
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320777"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947206"
 ---
 # <a name="delivery-reminders-in-the-swiss-version"></a>Relances livraison dans la version suisse
 

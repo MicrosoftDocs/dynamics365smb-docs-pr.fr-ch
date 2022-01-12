@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 35561, 35562, 35563, 3010541, 3010542, 3010543
 ms.date: 06/21/2021
 ms.author: soalex
-ms.openlocfilehash: 1b8966c1250cdbf3798e5ee797bb16bfd1ea2fa6
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: f6d858efd22d581be89ca37ac6437f37ab80f766
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319291"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947105"
 ---
 # <a name="switzerland-local-functionality"></a>Fonctionnalité locale, Suisse
 

@@ -12,27 +12,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2541f509d02a584620c83903c3b92983aba1c2a8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0fc31469d13c0c84a7357ae99929d6efb30bbb47
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322809"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949075"
 ---
 # <a name="about-item-types"></a>À propos des types d’articles
-Dans le champ **Type** de la page **Fiche article**, vous pouvez sélectionner ce pourquoi l’article est utilisé dans votre activité et donc la manière dont il est géré dans le système. Trois options existent :
+Dans le champ **Type** de la page **Fiche article**, vous pouvez sélectionner ce pourquoi l’article est utilisé dans votre activité, ce qui a une incidence sur le niveau de gestion que vous pouvez exercer sur l’article en stock. Le tableau suivant répertorie et décrit les trois types d’éléments disponibles.
 
 |Option|Objectif courant|
 |------|-----------|
-|Stock|Une unité réelle, telle qu’une bicyclette, pour la prise en charge totale de l’activité.|
-|Hots stock|Une unité réelle, par exemple un boulon, pour une prise en charge limitée de l’activité, par exemple, car l’article est uniquement utilisé en interne et a un coût bas.|
+|Stock|Les objets physiques, tels que les vélos, les téléphones et les bureaux, pour lesquels vous souhaitez pouvoir utiliser tous les processus de stock. Cela peut également inclure des éléments non physiques, tels que des licences logicielles et des abonnements, si les éléments ont des numéros d’identification, tels que des numéros de série. Vous pouvez suivre entièrement les valeurs et la disponibilité des articles dans l’inventaire.|
+|Hots stock|En règle générale, les articles hors stock sont des objets physiques, tels que des boulons ou des stylos, qu’une entreprise consomme mais ne souhaite pas suivre entièrement dans le stock. Par exemple, parce que ce sont des articles qui ne coûtent pas cher et qu’ils ne sont utilisés qu’en interne.|
 |Service|Une unité de temps de travail, telle qu’une heure de conseil, pour la prise en charge limitée de l’activité.|
 
-Le type **Stock** implique un suivi complet de la quantité et la valeur de stock. Par conséquent, tous les types de transaction article sont pris en charge, et les articles de type Stock peuvent être utilisés avec toutes les fonctionnalités de gestion des articles.
+> [!NOTE]
+> Les types **Service** et **Hors stock** ne prennent pas en charge le suivi des quantités et les valeurs de stock. Seuls les types de transaction articles et fonctionnalités sélectionnés sont pris en charge.
 
-Les types **Service** et **Hors stock** ne requièrent pas le suivi de la quantité et la valeur de stock. Par conséquent, seuls les types de transaction articles et fonctionnalités sélectionnés sont pris en charge.
-
-Les trois types d’article prennent en charge les fonctions suivantes respectivement.
+Le tableau suivant répertorie les fonctions que les trois types d’article prennent en charge.
 
 |Type d’article|Ventes|Achats|Consommation de projet|Consommation de service|Consommation d’assemblage|Production Consommation|Résultat d’assemblage|Production|Magasin, Acheminement|Inventaire physique|Réévaluation du stock|Évaluation stock|Traçabilité|Réservation|Entreposage|Planning|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
