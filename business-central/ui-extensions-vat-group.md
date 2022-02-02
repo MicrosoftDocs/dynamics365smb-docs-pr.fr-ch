@@ -1,5 +1,5 @@
 ---
-title: L’extension de gestion du groupe TVA | Microsoft Docs
+title: Extension de gestion du groupe TVA
 description: Vous pouvez vous engager avec d’autres entreprises pour former un groupe TVA et agir en tant que membre ou société représentante du groupe lors de la déclaration de TVA.
 author: bholtorf
 manager: annbe
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 093b361bf2d3f02d08dc6b8d53ad4b58a086f88b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7148fa8e59a509af3206e7da898a371ffb5332a5
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771302"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029155"
 ---
 # <a name="the-vat-group-management-extension"></a>Extension de gestion du groupe TVA
 
@@ -116,8 +116,12 @@ Lorsque la déclaration de TVA de la société représentante du groupe TVA a é
 > La fonctionnalité de groupe TVA n’est prise en charge que sur les marchés où [!INCLUDE[prod_short](includes/prod_short.md)] utilise une infrastructure de TVA composé de déclarations de TVA et de périodes de déclaration de TVA. Vous ne pouvez pas utiliser de groupes TVA sur d’autres marchés ayant d’autres implémentations de déclaration de TVA locale, tels que l’Autriche, l’Allemagne, l’Italie, l’Espagne et la Suisse. 
 
 ## <a name="see-also"></a>Voir aussi
+
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
-[Configuration de la TVA](finance-setup-vat.md)
+[Configuration de la TVA](finance-setup-vat.md)  
+[Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
+[Numériser les taxes au Royaume-Uni](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Déclaration de TVA norvégienne dans la version norvégienne](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

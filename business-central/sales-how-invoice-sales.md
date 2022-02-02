@@ -11,12 +11,12 @@ ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 42, 43, 48, 9301, 9305
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 125d28f1621e23f14cda9ce57a935a7da71e43cb
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: c3cc7613023c684469b0558e160d9400b5ca48db
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752483"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011402"
 ---
 # <a name="invoice-sales"></a>Facturer des ventes
 
@@ -28,7 +28,7 @@ Il existe quelques scénarios où vous devez utiliser une commande vente au lieu
 * Si vous expédiez des produits après avoir validé les factures vente correspondantes.
 * Si vous vendez des articles que votre fournisseur fournit directement à votre client (une livraison directe). Pour plus d’informations, voir [Effectuer des livraisons directes](sales-how-drop-shipment.md).  
 
-Pour tous les autres aspects, les commandes vente et les factures vente fonctionnent de la même manière. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
+Pour tous les autres aspects, les commandes vente et les factures vente fonctionnent de la même manière. Pour plus d’informations sur l’utilisation des commandes vente, reportez-vous à [Vendre des produits](sales-how-sell-products.md).
 
 Vous pouvez négocier avec le client en créant d’abord un devis, que vous pouvez convertir en facture vente lorsque vous êtes d’accord sur la vente. Pour plus d’informations, voir [Créer des devis](sales-how-make-offers.md).
 

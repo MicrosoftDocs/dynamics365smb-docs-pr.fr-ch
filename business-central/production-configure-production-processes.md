@@ -1,5 +1,5 @@
 ---
-title: Configurer les processus de production | Microsoft Docs
+title: Configuration des processus de production
 description: Pour convertir des matières en articles finis produits, vous devez configurer des ressources de production, telles que les nomenclatures, les gammes, les opérateurs machines et les machines, dans le système.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 05e9585db60478bdf872f5e3132ceff1c34220b5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d15f1dd84a151224189a52ae73f5276ac14afbc9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779422"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972371"
 ---
 # <a name="setting-up-manufacturing"></a>Paramétrage de la production
+
 Pour convertir des matières en articles finis produits, vous devez configurer des ressources de production, telles que les nomenclatures, les gammes, les opérateurs machines et les machines, dans le système.
 
 Les opérateurs et les machines sont représentés dans le système comme des postes de charge pouvant être organisés en centres de charge et groupes de centres de charge. Lorsque ces ressources sont établies, elles peuvent être chargées avec des opérations en fonction des nomenclatures matières et de la structure (gamme) opératoire définies pour l’article, et en fonction de la capacité du poste ou centre de charge. Vous pouvez également configurer la capacité de production de chaque ressource. La capacité est définie par le temps de travail disponible dans les postes et centres de charge, et est gérée par des calendriers pour chaque niveau. Un calendrier de centre de charge spécifie les jours ouvrés et les heures de travail, les équipes, les jours fériés et les absences déterminant la capacité disponible brute du centre de charge (généralement mesurée en minutes). Tout cela est déterminé par les valeurs d’efficacité et de capacité définies.  
@@ -42,8 +43,8 @@ Une fois que vous avez paramétré la production, vous pouvez planifier et exéc
 |Préparez les centres de charge et les gammes à représenter les opérations de production sous-traitées.|[Sous-traiter la production](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Voir aussi
-[Production](production-manage-manufacturing.md)    
-[Planifié](production-planning.md)   
+[Production](production-manage-manufacturing.md)
+[Planification](production-planning.md)   
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

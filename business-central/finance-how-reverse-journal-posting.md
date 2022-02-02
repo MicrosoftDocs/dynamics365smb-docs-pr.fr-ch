@@ -1,8 +1,6 @@
 ---
 title: Annuler une validation en validant une écriture opposée
 description: Si vous avez effectué une validation erronée dans la feuille comptabilité, vous pouvez utiliser la fonction de contrepassation de transaction pour annuler la validation avec une piste d’audit correcte.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
+ms.search.form: 20, 25, 29, 38, 202, 5912,
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: c23dcaed561997b5c0f38b4cd5ad5631b8519706
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 10a1532ea7772aa8f2c35df118388e57dc4dc52d
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660171"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972553"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Contrepasser une validation feuille et annuler les réceptions/envois
+
 La contrepassation des validations feuille n’est pas seulement utilisée pour corriger les erreurs, mais elle peut également être utilisée pour effacer une ancienne écriture de régularisation avant d’en saisir une nouvelle, par exemple. Vous sélectionnez l’écriture et créez une écriture de contrepassation (écritures identiques aux écritures originales mais avec le signe opposé dans le champ du montant) portant le même numéro de document et la même date de validation que l’écriture d’origine. Une fois l’écriture contrepassée, créez l’écriture correcte.
 
 Vous pouvez uniquement inverser les écritures validées à partir d’une ligne feuille comptabilité. Une écriture ne peut être contrepassée qu’une fois.
@@ -80,6 +80,7 @@ La procédure d’annulation d’une expédition retour validée d’articles ou
 8.  Corrigez l’écriture dans le champ **Quantité** et publiez à nouveau le retour achat.  
 
 ## <a name="see-also"></a>Voir aussi
+
 [Annuler la validation d’assemblage](assembly-how-to-undo-assembly-posting.md)  
 [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  

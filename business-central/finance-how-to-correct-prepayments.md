@@ -1,5 +1,5 @@
 ---
-title: 'Procédure : corriger des acomptes'
+title: Corriger des acomptes
 description: Vous pouvez apporter une correction à une commande après avoir validé une facture d’acompte pour la commande et ajouter de nouvelles lignes à une commande après avoir émis un acompte.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c5163602f3a311598e992b24a55b7a5542bcaad2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ceaebd28d083c1dbebe69a5a02abff0952bf3311
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442250"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972908"
 ---
 # <a name="correct-prepayments"></a>Corriger des acomptes
 

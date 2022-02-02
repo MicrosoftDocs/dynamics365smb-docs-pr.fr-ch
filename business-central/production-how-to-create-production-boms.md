@@ -1,21 +1,18 @@
 ---
-title: 'Procédure : Créer des nomenclatures de production'
+title: Créer des nomenclatures de production
 description: Découvrez comment créer une nomenclature de production, de nouvelles versions d’une nomenclature de production et utiliser la formule de calcul de quantité.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ffd57ed4f69870e04e8081d0ef6189788dc01ce6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 090b8d6bf2f9d784b14c0e6efe0f5547872109d9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438717"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973903"
 ---
 # <a name="create-production-boms"></a>Créer des nomenclatures de production
 
@@ -28,7 +25,8 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 - Des fiches article sont créées pour les articles parents qui participent à la production. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 - Les ressources de production sont configurées. Pour plus d’informations, voir [Configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-production-bom"></a>Pour créer une nomenclature de production  
+## <a name="to-create-a-production-bom"></a>Pour créer une nomenclature de production
+
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Nomenclature de production**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -36,29 +34,30 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 
     Renseignez les lignes nomenclature de production.
 5. Dans le champ **Type**, indiquez si l’article sur la ligne nomenclature est un article ordinaire ou s’il s’agit d’une nomenclature de production. Dans le dernier cas, l’article doit déjà exister en tant que nomenclature de production certifiée.  
-6.  Dans le champ **N°**, consultez et sélectionnez l’article ou la nomenclature de production concernée \(ou entrez l’un ou l’autre\).  
-7.  Dans le champ **Quantité par**, spécifiez le nombre d’unités de l’article intégrant l’article parent, par exemple, les 4 roues d’une voiture.  
-8.  Dans le champ **% rebut**, vous pouvez indiquer le taux fixe de perte de composants lors de la production. Une fois qu’ils sont prêts à être consommés dans un ordre de fabrication lancé, ce taux est ajouté à la quantité prévue dans le champ **Quantité consommée** dans une feuille production. Pour plus d’informations, voir [Comment enregistrer la consommation et la production](production-how-to-register-consumption-and-output.md).  
+6. Dans le champ **N°**, consultez et sélectionnez l’article ou la nomenclature de production concernée \(ou entrez l’un ou l’autre\).  
+7. Dans le champ **Quantité par**, spécifiez le nombre d’unités de l’article intégrant l’article parent, par exemple, les 4 roues d’une voiture.  
+8. Dans le champ **% rebut**, vous pouvez indiquer le taux fixe de perte de composants lors de la production. Une fois qu’ils sont prêts à être consommés dans un ordre de fabrication lancé, ce taux est ajouté à la quantité prévue dans le champ **Quantité consommée** dans une feuille production. Pour plus d’informations, voir [Comment enregistrer la consommation et la production](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  ce taux de rebut correspond aux composants perdus au cours de la production durant le prélèvement stock, alors que, sur les lignes gamme, il représente la production perdue avant stockage.  
 
-9.  Dans le champ **Code lien gamme**, vous pouvez entrer un code permettant de lier le composant à une opération spécifique. Pour plus d’informations, reportez-vous à [Pour créer des liens gamme](production-how-to-create-routings.md#to-create-routing-links).
+9. Dans le champ **Code lien gamme**, vous pouvez entrer un code permettant de lier le composant à une opération spécifique. Pour plus d’informations, reportez-vous à [Pour créer des liens gamme](production-how-to-create-routings.md#to-create-routing-links).
 10. Pour copier des lignes à partir d’une nomenclature de production existante, choisissez l’action **Copier nomenclature** pour sélectionner des lignes existantes.  
-11.  Certifiez la nomenclature de production.  
-12.  Vous pouvez désormais joindre la nouvelle nomenclature de production à la fiche de l’article parent en question. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
+11. Certifiez la nomenclature de production.  
+12. Vous pouvez désormais joindre la nouvelle nomenclature de production à la fiche de l’article parent en question. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Pour recalculer le coût standard de l’article figurant sur la fiche article, choisissez l’action **Production**, puis l’action **Calculer coût standard**.  
 
 ## <a name="to-create-a-new-versions-of-a-production-bom"></a>Pour créer une nouvelle version d’une nomenclature de production
+
 Les nouvelles versions des nomenclatures de production sont utilisées lorsque, par exemple, un article est remplacé par un autre article, ou lorsqu’un client demande une version spéciale d’un produit. Le principe de la version permet de gérer différentes versions d’une nomenclature de production. La structure des versions de nomenclature de production correspond à celle des nomenclatures de production. La principale différence réside dans la validité des versions. La validité est définie par la date début.  
 
 La date début indique le début de la période de validité de la version. La date début peut également être considérée comme un filtre pour les calculs et les évaluations. La version de la nomenclature est valide jusqu’à l’entrée en vigueur de la version suivante, qui est indiquée par sa date début.  
 
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Nomenclature de production**, puis choisissez le lien associé.  
-2.  Sélectionnez la nomenclature de production à copier, puis choisissez l’action **Versions**.  
-3.  Sélectionnez l’action **Nouveau**.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Nomenclature de production**, puis choisissez le lien associé.  
+2. Sélectionnez la nomenclature de production à copier, puis choisissez l’action **Versions**.  
+3. Sélectionnez l’action **Nouveau**.  
 4. Renseignez les champs selon vos besoins.
 5. Dans le champ **Code version**, saisissez le numéro d’identification unique de la version. Ce champ admet n’importe quelle combinaison de chiffres et de lettres.  
 
@@ -68,29 +67,32 @@ La date début indique le début de la période de validité de la version. La d
 La validité de la version est définie par le champ **Date début**.  
 
 > [!NOTE]  
->  Sélectionnez l’option **Article** du champ **Type** pour utiliser un article des données de base article dans la nomenclature de production. Si cet article possède aussi une nomenclature de production, le champ **N° nomenclature production** est alors renseigné dans la fiche article, cette nomenclature de production est aussi prise en considération.  
->   
->  Sélectionnez l’option **Nomenclature de production** si vous souhaitez utiliser une nomenclature fantôme dans la ligne.  
->   
->  Les nomenclatures fantômes servent à structurer les produits. Ce type de nomenclature de production n’aboutit jamais à un produit fini mais est exclusivement destiné à déterminer la demande dépendante. Les nomenclatures fantômes ne possèdent pas de données de base article propres.
+> Sélectionnez l’option **Article** du champ **Type** pour utiliser un article des données de base article dans la nomenclature de production. Si cet article possède aussi une nomenclature de production, le champ **N° nomenclature production** est alors renseigné dans la fiche article, cette nomenclature de production est aussi prise en considération.  
+>
+> Sélectionnez l’option **Nomenclature de production** si vous souhaitez utiliser une nomenclature fantôme dans la ligne.  
+>
+> Les nomenclatures fantômes servent à structurer les produits. Ce type de nomenclature de production n’aboutit jamais à un produit fini mais est exclusivement destiné à déterminer la demande dépendante. Les nomenclatures fantômes ne possèdent pas de données de base article propres.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a>Formule de calcul de la quantité sur les nomenclatures de production  
+## <a name="quantity-calculation-formula-on-production-boms"></a>Formule de calcul de la quantité sur les nomenclatures de production
+
 Le calcul de la quantité tient compte des différents axes analytiques également insérés dans les lignes nomenclature de production. Ces axes se rapportent à une unité de commande de l’article concerné. Les axes ainsi entrés peuvent être une longueur, une largeur, une profondeur ou un poids.  
 
 Les colonnes Formule de calcul, Longueur, Largeur, Profondeur et Poids ne s’affichent pas car seuls quelques utilisateurs les emploient. Si vous souhaitez utiliser le calcul de la quantité, vous devez d’abord afficher ces colonnes.  
 
 La relation entre chacun des composants est définie par la formule de calcul. Vous pouvez utiliser les formules de calcul comme suit :  
 
--  **Vide** - Pas de prise en compte des axes. (Quantité = Quantité par)  
--  **Longueur** - Quantité = Quantité par * Longueur  
--  **Longueur x Largeur** - Quantité = Quantité par * Longueur x Largeur  
--  **Longueur x Largeur x Profondeur** - Quantité = Quantité par x Longueur x Largeur x Profondeur  
--  **Poids** - Quantité = Quantité par x Poids  
+- **Vide** - Pas de prise en compte des axes. (Quantité = Quantité par)  
+- **Longueur** - Quantité = Quantité par * Longueur  
+- **Longueur x Largeur** - Quantité = Quantité par * Longueur x Largeur  
+- **Longueur x Largeur x Profondeur** - Quantité = Quantité par x Longueur x Largeur x Profondeur  
+- **Poids** - Quantité = Quantité par x Poids  
 
-### <a name="example"></a>Exemple :  
+### <a name="example"></a>Exemple :
+
 Une nomenclature de production répertorie 70 feuilles de métal dotées des axes suivants : longueur = 0,20 m et largeur = 0,15 m. Les valeurs suivantes sont saisies : Formule de calcul = Longueur x Largeur, Longueur = 20, Largeur = 15, Quantité par = 70. La quantité est donnée par la valeur Quantité par x Longueur * Largeur, c’est-à-dire Quantité = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Créer des gammes](production-how-to-create-routings.md)   
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)    

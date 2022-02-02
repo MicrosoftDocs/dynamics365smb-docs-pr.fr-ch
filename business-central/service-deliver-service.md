@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: efb5942dfd58365effdf4d46759ea81f75fe718e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8a0e8225d69d04ce82d0e0243f3e98207c892175
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778337"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011986"
 ---
 # <a name="delivering-service"></a>Fournir un service
 [!INCLUDE[prod_short](includes/prod_short.md)] inclut des fonctionnalités qui vous permettent d’offrir le service correspondant aux contrats créés et les commandes service que vous vous êtes engagé à traiter. Grâce au **Tableau d’affectation**, les techniciens de service et agents d’affectation ont facilement accès aux commandes service en attente. Le **Tableau d’affectation** affiche les commandes en cours et les commandes terminées.  

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
+ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: bbc68f5ed274328a9ea1fe7229a79bfba5a8bdf5
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7d248158b7efa5960bbaeaf4b99f3ef8655b627c
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587955"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012382"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Obtenir le complément Business Central pour Outlook
 
@@ -73,7 +74,7 @@ Le déploiement centralisé est une fonctionnalité du centre d’administration
 6. Allez dans le dossier où OutlookAddins.zip a été téléchargé et extrayez les fichiers **Contact Insights.xml** et **Document View.xml** du .zip dans un dossier de votre choix.
 
     Pour plus d’informations, consultez [Compresser et décompresser des fichiers et dossiers](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Connectez-vous au Centre d’administration de Microsoft 365, puis accédez à [Applications intégrées](https://go.microsoft.com/fwlink/?linkid=2163967).
+7. Connectez-vous au Centre d’administration Microsoft 365, puis accédez à [Applications intégrées](https://go.microsoft.com/fwlink/?linkid=2163967).
 
 8. Sélectionnez **Charger des applications personnalisées**.
 9. Sur la page **Charger les applications à déployer**, sélectionnez **Charger le fichier manifeste (.xml) depuis l’appareil** > **Choisir le fichier**.

@@ -1,5 +1,5 @@
 ---
-title: Comment configurer des calendriers principaux
+title: Configurer des calendriers principaux
 description: Vous pouvez affecter un calendrier de base à votre entreprise et à ses partenaires commerciaux, pour calculer les dates de livraison et de réception en fonction des jours ouvrés spécifiés.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,20 +7,22 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5c82ce068f22e9cf458fdedf84504c880838c648
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446505"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011876"
 ---
 # <a name="set-up-base-calendars"></a>Configurer des calendriers principaux
+
 Vous pouvez affecter un calendrier principal à votre société et à ses partenaires commerciaux, tels que ses clients, ses fournisseurs, ou ses magasins. Les dates de livraison et de réception sur les lignes commande vente, commande achat, ordre de transfert, et ordre de fabrication sont calculées en fonction des jours ouvrés définis dans le calendrier. Lorsque vous paramétrez un nouveau calendrier principal, votre tâche consiste essentiellement à indiquer et à définir les jours chômés à appliquer.  
 
-## <a name="to-set-up-a-base-calendar"></a>Pour configurer un calendrier principal  
+## <a name="to-set-up-a-base-calendar"></a>Pour configurer un calendrier principal
+
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Calendrier principal**, puis choisissez le lien associé.  
 2.  Sélectionnez l’action **Nouveau**.  
 3.  Complétez le champ **Code**.  
@@ -42,6 +44,7 @@ Lorsque vous créez une écriture, le champ **Jour chômé** est sélectionné. 
 Spécifie une formule date pour le délai nécessaire au réapprovisionnement de l’article. Permet de calculer le champ **Date planifiée de réception**, si calcul en aval, et le champ **Date commande**, si calcul en amont. Voir [Calcul du délai](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Calcul du délai
+
 Le calendrier principal défini pour le fournisseur ou le magasin affecte uniquement la manière dont les dates sont calculées et arrondies en jours ouvrés. En conséquence, les deux champs date sur les lignes commande achat sont calculés comme suit sous différentes conditions.
 
 |Direction de calcul|Calendrier fournisseur défini|Calendrier fournisseur non défini|

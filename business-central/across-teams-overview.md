@@ -3,25 +3,25 @@ title: Vue d’ensemble de l’intégration de Business Central et Microsoft Te
 description: Partagez des enregistrements Business Central directement dans une conversation Teams.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 943fd46025a736ae7f32f8fbb02fcacbefb32e8e
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587520"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011860"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Intégration de Business Central et Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) est un produit Microsoft 365 qui vous permet de vous connecter aux autres, de collaborer facilement et de simplifier votre travail. [!INCLUDE [prod_short](includes/prod_short.md)] propose une application qui connecte Microsoft Teams à vos données métier dans [!INCLUDE [prod_short](includes/prod_short.md)], afin que vous puissiez partager rapidement les détails entre les membres de l’équipe, rechercher des contacts et répondre plus rapidement aux demandes de renseignements.
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) est un produit Microsoft 365 qui vous permet de vous connecter aux autres, de collaborer facilement et de simplifier votre travail. [!INCLUDE [prod_short](includes/prod_short.md)] propose une application qui connecte Microsoft Teams à vos données métier dans [!INCLUDE [prod_short](includes/prod_short.md)], afin que vous puissiez partager rapidement les détails entre les membres de l’équipe, rechercher des contacts et répondre plus rapidement aux demandes de renseignements.
 
 L’application est disponible sur le marché Teams et vous pouvez l’utiliser avec l’application de bureau, mobile ou web Teams.
 
@@ -53,7 +53,7 @@ Pour plus d’informations, consultez [Partager des enregistrements dans Microso
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Partager des liens entre des pages de Business Central et Teams
 
-Directement à partir de la plupart des pages de collection et de détails dans Business Central, vous pouvez utiliser l’action **Partager avec teams** à partir de ![ !l’icône du menu Partager sur les pages.](media/share-icon.png "Le menu Partager affiché sur une fiche.") pour saisir un message, choisir des destinataires, tels que des membres de l’équipe, des groupes ou des canaux, et envoyer le message avec un lien vers la page Business Central.
+Directement à partir de la plupart des pages de collection et de détails dans Business Central, vous pouvez utiliser l’action **Partager avec teams** à partir de l’![!icône du menu Partager sur les pages.](media/share-icon.png "Le menu Partager affiché sur une fiche.") pour saisir un message, choisir des destinataires, tels que des membres de l’équipe, des groupes ou des canaux, et envoyer le message avec un lien vers la page Business Central.
 
 ![!Le menu Partager affiché sur une fiche.](media/teams-share-link.png "Le menu Partager affiché sur une fiche.")
 

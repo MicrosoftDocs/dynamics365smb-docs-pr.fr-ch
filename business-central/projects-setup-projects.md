@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
+ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 468c3a9e526d5d512419242a9fbcd0271d6e2a6d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0780cf84b5c13934ccc9dcaf2d3576731cbf07a3
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321079"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973773"
 ---
 # <a name="setting-up-project-management"></a>Configuration de la gestion de projet
+
 Avant de pouvoir utiliser le module [!INCLUDE[prod_short](includes/prod_short.md)] pour gérer les projets, vous devez définir des ressources, des feuilles de temps et des projets.
 
 Vous pouvez ensuite créer des projets, planifier des ressources pour des projets ainsi que gérer des budgets et suivre les heures des salariés et des postes avec des feuilles de temps. Pour plus d’informations, reportez-vous à [Gestion des projets](projects-manage-projects.md).  

@@ -1,5 +1,5 @@
 ---
-title: Comment bloquer les achats en provenance/vers des fournisseurs
+title: Bloquer des fournisseurs
 description: Découvrez comment empêcher l’inclusion de fournisseurs dans des transactions, ou simplement comment bloquer de nouveaux paiements qui leur sont destinés.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 27
 ms.date: 06/22/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca2e3cb627a33a17dac57bacba9a6c002fbcc90e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2088f6ccc64c3827250878c8f7b1027600f7f558
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438867"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953150"
 ---
 # <a name="block-vendors"></a>Bloquer des fournisseurs
 Vous pouvez bloquer un fournisseur, par exemple à cause de son insolvabilité, afin que ce fournisseur ne puisse pas être ajouté à des documents achat ou afin d’empêcher que des paiements puissent être validés pour ce fournisseur.

@@ -1,5 +1,5 @@
 ---
-title: Configuration de la TVA sur encaissement | Microsoft Docs
+title: Configuration de la TVA sur encaissement
 description: Si vous utilisez la comptabilité basée sur la trésorerie, vous pouvez spécifier comment gérer la TVA sur encaissement pour les ventes et les achats.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,22 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
+ms.search.form: 118, 472, 473
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca04192ef31e281e7d3e07e2f1823079e1f89151
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 02ad408b55340bca218859d6742b0d74fbb1a294
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446205"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971908"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Configurer la TVA sur encaissement pour la comptabilité basée sur la trésorerie
+
 Si vous utilisez des méthodes comptables basées sur la trésorerie, vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour gérer la TVA sur encaissement.
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Pour utiliser les comptes généraux pour la TVA sur encaissement
+
 Vous pouvez choisir de calculer et de valider les montants de TVA dans un compte général temporaire lorsqu’une facture est validée, puis de les valider dans le compte général approprié et de les inclure dans des déclarations de TVA lorsque le paiement réel de la facture est validé. Pour cela, vous devez définir des paramètres validation TVA.
 
 Pour utiliser les comptes pour la TVA sur encaissement, procédez comme suit :
+
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") et entrez **Paramètres comptabilité**.
 2. Sur la page **Paramètres comptabilité**, cochez la case **TVA sur encaissement**.
 3. Choisissez l’icône **Page ou état pour la recherche** ![Ampoule qui ouvre la fonction Fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), puis saisissez **Paramètres compta. TVA**.

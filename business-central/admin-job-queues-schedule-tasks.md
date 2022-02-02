@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 46759304a312e0376e8b309b29d5e0491b34a69f
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588897"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012250"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utiliser des files d’attente des travaux pour planifier des tâches
 
@@ -71,6 +71,7 @@ Par exemple, si la société actuelle se trouve dans un environnement qui est un
 > Les administrateurs internes et les utilisateurs peuvent planifier l’exécution des tâches. Les administrateurs délégués ne le peuvent pas.
 
 ## <a name="the-my-job-queue-part"></a>Composant Ma file d’attente des travaux
+
 Le composant **Ma file d’attente des travaux** sur votre Tableau de bord répertorie les écritures files d’attente des travaux commencées par vous, mais qui ne sont pas terminées. Par défaut, le composant n’est pas visible et vous devez donc l’ajouter à votre tableau de bord. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).  
 
 Le composant indique les documents avec votre ID dans le champ **Code utilisateur affecté** en cours de traitement ou en attente, y compris ceux associés à la validation en arrière-plan. Le composant peut vous indiquer rapidement s’il y a eu une erreur lors de la validation d’un document ou s’il existe des erreurs dans une écriture de file projet. Il vous permet également d’annuler une validation de document en cas de non exécution.

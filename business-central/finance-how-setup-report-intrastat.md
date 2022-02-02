@@ -1,8 +1,6 @@
 ---
-title: 'Procédure : configurer et enregistrer un état intracommunautaire | Microsoft Docs'
+title: Configurer et enregistrer un état intracommunautaire
 description: Apprendre à configurer les fonctionnalités d’état intracommunautaire, et comment enregistrer les transactions avec des sociétés dans d’autres pays/régions.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
+ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 219c7a779bc29eda81243362f79e1e7d2cec6b8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444427"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971108"
 ---
 # <a name="set-up-and-report-intrastat"></a>Configurer et enregistrer un état intracommunautaire
+
 Toutes les sociétés de l’Union européenne doivent déclarer leurs échanges avec les autres pays/régions de l’Union européenne. Vous devez déclarer les mouvements de marchandises aux autorités statistiques de votre pays/région mensuellement et la déclaration doit être remise aux autorités fiscales. Cette déclaration est appelée D.E.B. La page **Feuille intracomm.** permet de remplir des déclarations D.E.B. périodiques.  
 
 ## <a name="required-and-optional-setups"></a>Paramètres obligatoires et facultatifs
@@ -30,10 +30,15 @@ Avant d’utiliser la feuille intracommunautaire pour enregistrer des informatio
 * **Codes marchandise** : les autorités douanières et fiscales ont établi des codes numériques pour classer les articles et les services. Vous spécifiez ces codes sur les articles.
 * **Codes nature de transaction** : les pays et les régions ont différents codes pour les types de transactions intracommunautaires, comme l’achat et la vente ordinaires, l’échange de marchandises retournées et l’échange de marchandises non retournées. Configurez tous les codes qui s’appliquent à votre pays/région. Utilisez ces codes dans les documents achat et vente, et lorsque vous traitez des retours.  
 * **Modes de transport**: Il existe, de sept codes à un chiffre pour les modes de transport intracommunautaire. **1** Mer, **2** Chemin de fer, **3** Route, **4** Air **5** Voie postale, **7** Transports fixes et **9** Propulsion propre (par exemple le transport en voiture en la conduisant). [!INCLUDE[prod_short](includes/prod_short.md)] ne requiert pas ces codes, cependant, il est préférable que les descriptions offrent une signification similaire.  
+* **Régimes** : Vous pouvez les utiliser pour renseigner les descriptions des types de transaction.  
+* **Pays d’origine** : Utilisez les codes ISO Alpha à deux lettres pour le pays où le bien a été obtenu ou produit. Si le bien a été produit dans plusieurs pays, le pays d’origine est le dernier pays où il a été transformé de manière significative. 
+* **Numéro d’identification de TVA de l’opérateur partenaire dans l’État membre d’importation** : Il s’agit du numéro d’identification de TVA de l’opérateur partenaire dans l’État membre d’importation. Le numéro de TVA est également utilisé dans l’échange de données d’exportation intra-UE entre les États membres et permet aux États membres d’attribuer les données reçues à la société importatrice dans leur propre pays. Les unités chargées des déclarations doivent déclarer le numéro de TVA de l’entreprise qui a déclaré l’acquisition intra-Union de biens dans l’État membre d’importation. 
+
+> [!NOTE]
+> Le numéro de TVA du partenaire commercial à utiliser peut varier en fonction de la situation commerciale. Par exemple, l’ID à utiliser diffère pour les scénarios tels que les ventes en chaîne, où un fournisseur vend un produit dans un autre pays, puis cette société revend l’article à une autre entreprise dans le même pays, le commerce circulaire, etc. Si vous n’êtes pas sûr du numéro de TVA correct à utiliser, nous vous recommandons de demander à un expert dans votre pays ou votre région. 
 
 Éventuellement, vous pouvez également configurer :
 
-* **Régimes** : Vous pouvez les utiliser pour renseigner les descriptions des types de transaction.  
 * **Dépts destination/provenance** : Vous pouvez les utiliser pour renseigner des informations sur les pays et les régions.  
 * **Pays destination/provenance** : Vous pouvez les utiliser pour spécifier les emplacements dans lesquels vous livrez ou recevez des articles vers ou à partir d’autres pays. L’aéroport de Heathrow est un exemple de pays destination/provenance. Vous pouvez saisir des points d’entrée et de sortie sur les documents vente et achat sur le raccourci **International**. Ces informations sont également copiées à partir des écritures article lorsque vous créez la feuille intracomm..  
 
@@ -53,35 +58,49 @@ Vous pouvez exporter les écritures vers un fichier que vous pouvez envoyer à v
 > [!Note]
 > Dans le champ **Période statistique**, entrez la période statistique sous la forme d’un nombre à quatre chiffres, les deux premiers chiffres représentant l’année et les deux suivants, le mois. Par exemple, saisissez 1706 pour juin 2017.
 
-### <a name="to-set-up-commodity-codes"></a>Pour configurer des codes marchandise
+### <a name="to-set-up-transport-methods"></a>Pour configurer des modes de transport
+
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modes de transport**, puis choisissez le lien associé.  
+2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Pour configurer les champs de la D.E.B. obligatoires
+
+Dans certains pays, tels que l’Espagne et le R-U, les autorités nécessitent que les états Intracomm. comprennent, par exemple, le mode d’expédition des achats ou d’autres valeurs lorsque les ventes sont supérieures à un certain seuil. Sur la page **Configuration intracomm.**, vous pouvez sélectionner pour faire **Paramètres liste de contrôle de la déclaration d’échanges de biens** pour définir les champs obligatoires sur la page **Feuille intracomm.**.
+
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration intracomm.**, puis choisissez le lien associé.
+2. Choisissez l’action **Paramètres liste de contrôle de la déclaration d’échanges de biens**.
+3. Sur la page **Paramètres liste de contrôle de la déclaration d’échanges de biens**, cliquez dans **Nom de champ** pour prélever le champ de déclaration d’échanges de biens que vous souhaitez rendre obligatoire.
+
+### <a name="czechia"></a>Tchéquie
+
+Notamment pour les entreprises tchèques, vous devez également paramétrer des codes marchandise et des codes nature de transaction.  
+
+#### <a name="to-set-up-commodity-codes"></a>Pour configurer des codes marchandise
+
 Tous les articles que vous achetez ou vendez doivent avoir un code marchandise.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes marchandise.**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes marchandise.**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Pour affecter un code marchandise à un article, accédez à la page **Fiche article**, développez le raccourci **Coûts et validation**, puis saisissez le code dans le champ **Code marchandise**.   
 
-### <a name="to-set-up-transaction-nature-codes"></a>Pour configurer des codes nature de transaction
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes nature de transaction.**, puis choisissez le lien associé.  
+### <a name="italy"></a>Italie
+
+Notamment pour les entreprises italiennes, vous devez également paramétrer des codes marchandise et des codes nature de transaction.  
+
+#### <a name="to-set-up-transaction-nature-codes"></a>Pour configurer des codes nature de transaction
+
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes nature de transaction.**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
 > Si vous utilisez souvent un code nature de transaction spécifique, vous pouvez le définir comme valeur par défaut. Pour ce faire, accédez à la page **Configuration intracomm.** et choisissez le code.
 
-### <a name="to-set-up-transport-methods"></a>Pour configurer des modes de transport
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modes de transport**, puis choisissez le lien associé.  
-2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Pour configurer les champs de la D.E.B. obligatoires
-Dans certains pays, tels que l’Espagne et le R-U, les autorités nécessitent que les états Intracomm. comprennent, par exemple, le mode d’expédition des achats ou d’autres valeurs lorsque les ventes sont supérieures à un certain seuil. Sur la page **Configuration intracomm.**, vous pouvez sélectionner pour faire **Paramètres liste de contrôle de la déclaration d’échanges de biens** pour définir les champs obligatoires sur la page **Feuille intracomm.**.
-
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration intracomm.**, puis choisissez le lien associé.
-2. Choisissez l’action **Paramètres liste de contrôle de la déclaration d’échanges de biens**.
-3. Sur la page **Paramètres liste de contrôle de la déclaration d’échanges de biens**, cliquez dans **Nom de champ** pour prélever le champ de déclaration d’échanges de biens que vous souhaitez rendre obligatoire.
-
 ## <a name="to-report-intrastat"></a>Pour enregistrer un état communautaire
+
 Après avoir renseigné la feuille intracommunautaire, vous pouvez exécuter l’action **État : Liste de contrôle** pour vérifier que toutes les informations de la feuille sont correctes. Champs obligatoires que vous avez définis sur la page **Paramètres liste de contrôle de la déclaration d’échanges de biens** qui sont des valeurs manquante, seront affichés dans le récapitulatif des erreurs et d’avertissement de la page **Feuille intracomm.**. Ensuite, vous pouvez imprimer un état intracommunautaire en tant que formulaire, ou créer un fichier à envoyer à l’administration fiscale de votre pays/région.  
 
-### <a name="to-fill-in-intrastat-journals"></a>Pour renseigner des feuilles intracommunautaires  
+### <a name="to-fill-in-intrastat-journals"></a>Pour renseigner des feuilles intracommunautaires
+
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille intracomm.**, puis choisissez le lien associé.  
 2. Sur la page **Feuille intracomm.**, dans le champ **Nom de la feuille**, sélectionnez la feuille concernée, puis sélectionnez **OK**.  
 3. Choisissez l’action **Proposer lignes**. Les champs **Date début** et **Date fin** contiennent déjà les dates spécifiées sur la feuille pour la période statistique.  
@@ -91,9 +110,10 @@ Après avoir renseigné la feuille intracommunautaire, vous pouvez exécuter l�
 Le traitement par lots récupère toutes les écritures article de la période statistique et les insère sous forme de lignes dans la feuille intracommunautaire. Vous pouvez modifier au besoin les nouvelles lignes.  
 
 > [!IMPORTANT]  
->  Le traitement par lots récupère uniquement les écritures qui contiennent un code pays/région pour lequel un code intracommunautaire a été entré dans la page **Pays/Régions**. Vous devez donc entrer les codes intracommunautaires correspondant aux codes pays pour lesquels vous allez lancer le traitement par lots.  
+> Le traitement par lots récupère uniquement les écritures qui contiennent un code pays/région pour lequel un code intracommunautaire a été entré dans la page **Pays/Régions**. Vous devez donc entrer les codes intracommunautaires correspondant aux codes pays pour lesquels vous allez lancer le traitement par lots.  
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Enregistrer un état intracommunautaire sur un formulaire ou un fichier
+
 Pour obtenir les informations requises sur le formulaire de D.E.B. à partir des autorités statistiques, vous devez imprimer l’état **D.E.B. : Formulaire**. Avant d’effectuer cette opération, vous devez préparer la feuille intracommunautaire et la renseigner. Si vous avez à la fois des transactions d’achat et de vente, vous devez compléter un formulaire distinct pour chaque type et donc imprimer l’état deux fois.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuilles intracomm.**, puis choisissez le lien associé.  
@@ -104,6 +124,7 @@ Pour obtenir les informations requises sur le formulaire de D.E.B. à partir des
 6. Choisissez **Envoyer à** pour imprimer l’état.  
 
 ### <a name="report-intrastat-in-a-file"></a>Enregistrer un état intracommunautaire sur un fichier
+
 Vous pouvez envoyer la déclaration d’échanges de biens en tant que fichier. Avant de créer le fichier, vous pouvez imprimer la liste de contrôle contenant les mêmes informations que le fichier.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille intracomm.**, puis choisissez le lien associé.  
@@ -115,6 +136,7 @@ Vous pouvez envoyer la déclaration d’échanges de biens en tant que fichier. 
 7. Sélectionnez l’emplacement d’enregistrement du fichier, entrez son nom, puis choisissez **Enregistrer**.
 
 ## <a name="reorganize-intrastat-journals"></a>Réorganiser les feuilles intracommunautaires
+
 Parce que vous devez soumettre une D.E.B. chaque mois et créer une feuille pour chaque état, il peut donc exister de nombreuses feuilles. Les lignes feuille ne sont pas supprimées automatiquement. Vous pouvez réorganiser régulièrement les feuilles. Pour cela, il suffit de supprimer les feuilles dont vous n’avez plus besoin. Les lignes de ces feuilles sont également supprimées.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuilles intracomm.**, puis choisissez le lien associé.  

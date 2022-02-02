@@ -1,5 +1,5 @@
 ---
-title: Paramètre du groupe comptabilisation| Microsoft Docs
+title: Configuration de groupe comptabilisation
 description: Aperçu des groupes comptabilisation que vous pouvez utiliser pour gagner du temps et éviter les erreurs lorsque vous validez des transactions.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 12/17/2021
+ms.search.form: 312, 313
+ms.date: 01/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: c67b5cf378b959228edb52d4f5331cde5a063b89
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940766"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029209"
 ---
-# <a name="setting-up-posting-groups"></a>Configuration de groupes comptabilisation
+# <a name="set-up-posting-groups"></a>Configuration des groupes comptabilisation
+
 Les groupes comptabilisation mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux. Ils vous font gagner du temps et permettent d’éviter des erreurs lorsque vous validez des transactions. Les valeurs de transaction vont dans les comptes spécifiés dans le groupe comptabilisation pour cette entité particulière. Il vous suffit seulement d’avoir un plan comptable. Pour plus d’informations, reportez-vous à [Configuration du plan comptable](finance-setup-chart-accounts.md).  
 
 Les groupes comptabilisation sont traités dans trois catégories :  
@@ -26,29 +28,42 @@ Les groupes comptabilisation sont traités dans trois catégories :
 * Spécifique - permet d’utiliser des documents vente au lieu de valider directement dans le module Comptabilité. Lors de la création d’écritures comptables client, les écritures correspondantes sont passées en comptabilité.  
 * Taxe - définit les pourcentages de taxes et les types de calcul qui s’appliquent à l’acheteur et au vendeur, et à ce que vous vendez et ce que vous achetez.
 
-Les tables suivantes décrivent les groupes comptabilisation dans chaque catégorie.  
+Les sections suivantes décrivent les groupes comptabilisation dans chaque catégorie.  
 
-| Groupes comptabilisation généraux | Désignation |
+## <a name="general-posting-groups"></a>Groupes comptabilisation généraux
+
+Le tableau suivant décrit les groupes comptabilisation généraux.
+
+| Type | Description |
 | --- | --- |
 | Groupes comptabilisation marché |Affectez ce groupe aux clients et aux fournisseurs pour spécifier à qui vous vendez, et à qui vous achetez. Définissez cela sur la page **Groupes compta. marché**. Lorsque vous effectuez cette opération, vous devez prendre en compte le nombre de groupes nécessaires pour répartir les ventes et les achats. Par exemple, les groupes clients et fournisseurs peuvent être répartis par zone géographique ou par type d’activité. |
 | Groupes comptabilisation produit |Affectez ce groupe à des articles et des ressources pour spécifier les éléments que vous vendez, et que vous achetez. Définissez cela sur la page **Groupes compta. produit**. Lorsque vous effectuez cette opération, vous devez considérer le nombre de groupes nécessaires pour répartir les ventes par article et ressource, et pour répartir les achats par article. Par exemple, divisez ces groupes par Matières premières, Vte détail, Ressources, Capacités, etc. |
 | Paramètres comptabilisation |Combinez les groupes comptabilisation marché et produit, puis choisissez les comptes à valider. Pour chaque combinaison de groupes comptabilisation marché et produit, vous pouvez affecter un ensemble de comptes généraux. Par exemple, vous pouvez valider la vente d’un même article dans différents comptes ventes de la comptabilité car différents groupes comptabilisation marché sont affectés aux clients. Définissez cela sur la page **Paramètres comptabilisation**. |
 
-| Groupes comptabilisation spécifiques | Désignation |
+## <a name="specific-posting-groups"></a>Groupes comptabilisation spécifiques
+
+Le tableau suivant décrit les groupes comptabilisation spécifiques aux types de données.
+
+|Type | Description |
 | --- | --- |
-| Groupes compta. client |Définissez les comptes à utiliser lorsque vous validez des transactions Comptabilité client. Si vous utilisez un stock conjointement avec des clients, le groupe comptabilisation marché affecté au client et le groupe comptabilisation produit affecté à l’article en stock déterminent les comptes dans lesquels les écritures lignes commande vente valident. Voir « Groupe comptabilisation marché » et « Groupe comptabilisation produit » sous **Groupes comptabilisation généraux** ci-dessus. Définissez cela sur la page **Groupes compta. client**. |
+| Groupes compta. client |Définissez les comptes à utiliser lorsque vous validez des transactions Comptabilité client. Si vous utilisez un stock conjointement avec des clients, le groupe comptabilisation marché affecté au client et le groupe comptabilisation produit affecté à l’article en stock déterminent les comptes dans lesquels les écritures lignes commande vente valident. Voir *Groupes comptabilisation marché* et *Groupes comptabilisation produit* dans la section [Groupes comptabilisation généraux](#general-posting-groups) . Définissez cela sur la page **Groupes compta. client**. |
 | Groupes compta. fournisseur |Définissez où valider les transactions des comptes fournisseur, des comptes frais forfaitaires, et des comptes d’escompte. Cela est similaire aux groupes comptabilisation client. Définissez cela sur la page **Groupes compta. fournisseur**. |
 | Groupes compta. stock |Définissez des groupes comptabilisation stock que vous devez ensuite affecter aux comptes articles appropriés sur la page **Paramètres compta. stock**. Ainsi, lorsque vous validez des écritures article, le système effectue la validation sur le compte général qui est configuré pour la combinaison groupe comptabilisation stock/magasin liée à l’article. Des groupes comptabilisation stock offrent également un moyen idéal d’organiser vos stocks. Ainsi, vous pouvez séparer des articles par groupe comptabilisation lors de la génération d’états. Définissez cela sur la page **Groupes compta. stock**. |
-| Groupes compta. banque |Définissez des comptes bancaires. Par exemple, cela peut simplifier les processus de traçabilité des transactions et des rapprochements bancaires. Définissez cela sur la page **Groupes compta. banque**. |
+| Groupes compta. banque |Définissez les comptes généraux dans lesquels les écritures compte bancaire sont validées. Par exemple, cela peut simplifier les processus de traçabilité des transactions et des rapprochements bancaires. Définissez cela sur la page **Groupes compta. banque**. Nous recommandons que le champ **Imputation directe** de ces comptes généraux soient définis sur *Non*. |
 | Groupes comptabilisation immobilisations |Définissez des comptes pour les différents types de dépenses et frais, tels que les coûts d’acquisition, les montants d’amortissement cumulés, les coûts d’acquisition sur cession, l’amortissement cumulé sur cession, les gains sur cession, les pertes sur cession, les frais de maintenance et les frais d’amortissement. Définissez cela sur la page **Groupes compta. immo.** |
 
-| Groupe compta. TVA | Désignation |
+## <a name="tax-posting-groups"></a>Groupes comptabilisation TVA
+
+Le tableau suivant décrit les groupes comptabilisation associés aux taxes.
+
+| Type | Description |
 | --- | --- |
 | Groupes compta. marché TVA |Déterminez la manière de calculer et de valider la taxe de vente pour les clients et les fournisseurs. Définissez cela sur la page **Groupes compta. marché TVA**. Lorsque vous le faites, pensez au nombre de groupes dont vous avez besoin. De nombreux facteurs peuvent entrer en jeu, notamment la législation locale, et le fait de travailler sur le marché national et international. |
 | Groupes compta. produit TVA |Indiquez les calculs TVA nécessaires pour les types d’articles ou de ressources que vous achetez ou vendez. |
 | Paramètres compta. TVA |Combinez des groupes compta. marché et des groupes compta. produit TVA. Lorsque vous renseignez une ligne dans une feuille comptabilité, une ligne achat, ou une ligne vente, nous allons consulter la combinaison pour identifier les comptes à utiliser. |
 
 ## <a name="example-of-linking-posting-groups"></a>Exemple de liaison de groupes comptabilisation
+
 Voici un scénario.  
 
 Ces groupes comptabilisation sont choisis dans la fiche client :  
@@ -71,6 +86,7 @@ Lors de la création d’un document vente, l’en-tête vente utilise les infor
 Votre paramétrage détermine quand la validation a lieu. Par exemple, la synchronisation est affectée au moment où vous exécutez des activités périodiques, par exemple : valider coûts ajustés et ajuster coût écritures article.
 
 ## <a name="copying-posting-setup-lines"></a>Copie de lignes paramètres validation
+
 Plus il y a de groupes comptabilisation produit et marché, plus la page Paramètres comptabilisation contient de lignes. Cela peut entraîner la nécessité d’entrer un grand nombre de données pour configurer les paramètres comptabilisation pour la société. S’il peut y avoir un grand nombre de combinaisons différentes de groupes comptabilisation marché et produit, différentes combinaisons peuvent encore valider dans les mêmes comptes généraux. Pour limiter le nombre de saisies manuelles, copiez les comptes généraux à partir d’une ligne existante sur la page **Paramètres comptabilisation**.
 
 ## <a name="set-up-posting-groups-on-the-go"></a>Configurer des groupes de comptabilisation en déplacement
@@ -85,6 +101,7 @@ De cette façon, lorsque vous travaillez sur un document qui utilise un groupe d
 > Dans ce cas, désactivez la notification **Compte général manquant dans le groupe comptabilisation ou la configuration**, puis collaborez avec votre comptable pour apporter les modifications appropriées au groupe de comptabilisation, à la configuration ou à votre document. Il s’agit d’une étape importante, car une fois les documents validés, les paramètres ou les groupes de comptabilisation utilisés de manière incorrecte ne peuvent pas être supprimés car des écritures comptables sont créées pour eux. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Résolution des erreurs de groupe comptabilisation
+
 Les groupes comptabilisation sont l’un des concepts les plus avancés à configurer dans [!INCLUDE[prod_short](includes/prod_short.md)]. S’ils ne sont pas configurés correctement, des erreurs peuvent se produire lors de la validation de documents ou de lignes feuille. Par exemple, ces erreurs sont généralement causées par une erreur d’affectation des comptes de la comptabilité ou de combinaison des groupes comptabilisation.
 
 Quand quelque chose ne va pas, [!INCLUDE[prod_short](includes/prod_short.md)] affiche la page **Messages d’erreur**. La page **Messages d’erreur** peut faciliter l’identification et la résolution du problème. Cette page propose une description de l’erreur qui signale la configuration du groupe comptabilisation qui nécessite une attention particulière. Par exemple, le message peut indiquer « Il manque des Paramètres comptabilisation au compte Acompte vente ». Il existe également un lien pour ouvrir la page qui est à l’origine du problème, afin que vous puissiez le résoudre rapidement.  

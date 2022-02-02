@@ -1,5 +1,5 @@
 ---
-title: Installation de l’applications Business Central dans Microsoft Teams| Microsoft Docs
+title: Installer l’application Business Central dans Microsoft Teams
 description: Comment installer l’application Business Central pour Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 420a94c3996840c2d75687f533e06625258ca0f7
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 1552a804db7dab86dccfcab99f098578bd930ad2
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588191"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012224"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-Dans cet article, vous apprendrez à installer l’appplication [!INCLUDE [prod_short](includes/prod_short.md)] pour [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). L’application est disponible sur le marché Teams et vous pouvez l’utiliser avec l’application web, de bureau ou mobile Teams.
+Dans cet article, vous apprendrez à installer l’appplication [!INCLUDE [prod_short](includes/prod_short.md)] pour [Microsoft Teams](https://www.microsoft.com/microsoft-teams/). L’application est disponible sur le marché Teams et vous pouvez l’utiliser avec l’application web, de bureau ou mobile Teams.
 
 > [!NOTE]
 > Votre administrateur a peut-être configuré les choses pour que l’application soit automatiquement installée pour vous. Pour vérifier si l’application est installée, ouvrez Teams, puis choisissez **Applications**. Recherchez **Business Central**, puis choisissez-le lorsque vous le trouvez. Si vous voyez **Ouvrir** sur la page **Business Central**, l’application est déjà installée.  

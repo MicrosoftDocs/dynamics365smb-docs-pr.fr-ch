@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439965"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972215"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Utilisation des états, des traitements par lots et des ports XML
 
@@ -56,7 +56,7 @@ Utilisez les champs sous **Options** et **Filtres** pour modifier ou limiter les
 
 ## <a name="previewing-a-report"></a>Affichage de l’aperçu d’un état
 
-L’aperçu d’un état vous permet de voir à quoi il ressemblera avant de l’imprimer. L’aperçu n’est pas basé sur le champ **Imprimante** de l’imprimante sélectionnée sur la page de demande. Il est contrôlé par le navigateur. Après l’aperçu, vous pouvez revenir à la page de la demande et apporter des modifications aux options et aux filtres si nécessaire.
+L’aperçu d’un état vous permet de voir à quoi il ressemblera avant de l’imprimer. L’aperçu n’est pas basé sur l’imprimante sélectionnée dans le champ **Imprimante** sur la page de demande. Il est contrôlé par le navigateur. Après l’aperçu, vous pouvez revenir à la page de la demande et apporter des modifications aux options et aux filtres si nécessaire.
 
 Pour afficher l’aperçu d’un état, choisissez le bouton **Aperçu** ou **Aperçu et fermer** sur la page de demande d’état. Le bouton qui s’affiche selon l’état, certains états ont un bouton **Aperçu**, tandis que d’autres ont un bouton **Aperçu et fermer**. Les deux boutons ouvriront un aperçu de l’état. La différence est que l’**Aperçu** garde la page de demande ouverte afin que vous puissiez y revenir, apporter des modifications, afficher à nouveau un aperçu ou imprimer. Avec **Aperçu et fermer**, la page de demande se ferme, vous devrez donc rouvrir l’état pour apporter des modifications ou l’imprimer.
 
@@ -139,6 +139,12 @@ Pour plus d’informations sur la conception d’états, voir [Aperçu de l’é
 
 > [!NOTE]
 > Certains états exportent des nombres sous forme de texte, ce qui vous empêche de faire des calculs ou d’utiliser Power Pivot sur les cellules de la feuille de calcul Excel. Après l’exportation, c’est une bonne idée de vérifier les nombres dans la feuille de calcul. Si vous souhaitez effectuer des analyses et des graphiques sur les nombres, modifiez le format des cellules pertinentes de **Texte** sur **Nombre**. Pour plus d’informations sur la mise en forme des nombres dans les cellules, voir cette vidéo [Mise en forme des nombres dans les cellules de Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+
+### <a name="microsoft-word-document"></a>Microsoft Word Document
+Utilisez l’option **Document Microsoft Word** pour générer un rapport sous forme de document Word.  
+
+> [!NOTE]
+> Vous pouvez spécifier la mise en page à utiliser pour chaque rapport sur la page **Sélection des états** dans le champ **Présentation sélectionnée**. Le paramètre par défaut pour les rapports est **RDLC (intégré)**, qui génère des rapports dans la même mise en page ou une mise en page similaire à celle de la mise en page **Document Microsoft Word**. Cependant, la principale différence est de savoir si vous souhaitez générer un ou plusieurs documents de rapport. Pour les documents uniques, vous pouvez utiliser l’option RDLC (intégrée). Si vous souhaitez plusieurs documents, définissez la mise en page **Document Microsoft Word** comme mise en page par défaut du rapport. Pour plus d’informations, voir [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Planification d’un état à exécuter
 

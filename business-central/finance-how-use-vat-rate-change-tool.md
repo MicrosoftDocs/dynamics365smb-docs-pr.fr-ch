@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
+ms.search.form: 550,
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 9d90364691e393ddb376b0446d298ba96a92b383
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e021a2950d3441f481c63771250c44b874f92cda
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437406"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970559"
 ---
 # <a name="managing-vat-rate-changes"></a>Gérer les changements de taux TVA
 

@@ -7,43 +7,44 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 1100, 1103, 1104, 1113
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ea072af165ba95ce8a166bd174b4f826d7933d8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 92a7b0f4878f7cd23f4fc672e9723050ca7bde7e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435837"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970840"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transfert et validation des écritures de coûts
+
 Avant de définir des affectations de coûts, vous devez comprendre comment les écritures de coûts proviennent des sources suivantes :  
 
--   Transfert automatique des écritures comptables.  
--   Validation manuelle de coûts pour les écritures de coûts, les frais internes et les affectations manuelles.  
--   Validation automatique de l’affectation de coûts réels.  
--   Transfert des écritures budgétées vers les écritures réelles.
+- Transfert automatique des écritures comptables.  
+- Validation manuelle de coûts pour les écritures de coûts, les frais internes et les affectations manuelles.  
+- Validation automatique de l’affectation de coûts réels.  
+- Transfert des écritures budgétées vers les écritures réelles.
 
 ## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Critères de transfert des écritures comptables vers les écritures de coûts
 Il est important de comprendre les critères pour le transfert des écritures comptables aux écritures de coûts. Lors du transfert, le traitement par lots pour **Transférer les écritures comptables vers CA** applique les critères suivants pour déterminer si les écritures comptables sont transférées et comment.  
 
 Les écritures comptables sont transférées si :  
 
--   Les écritures ont des sections analytiques correspondant à un centre de coûts ou à un coût associé.  
--   Les écritures ont des sections analytiques correspondant à un centre de coûts et à un coût associé. Pour ces écritures, le centre de coûts est prioritaire. Vous pouvez ainsi éviter qu’un type de coût apparaisse à la fois dans un coût associé et dans un centre de coûts, ce qui le comptabiliserait deux fois dans les statistiques.  
--   Le numéro de document dans les écritures est vide. C’est pourquoi, il s’affichera avec le numéro de document 0000 dans les écritures de coûts.  
--   Les écritures sont transférées vers un type de coût qui autorise les écritures combinées. Ces écritures sont transférées ainsi sur une base mensuelle ou journalière.  
+- Les écritures ont des sections analytiques correspondant à un centre de coûts ou à un coût associé.  
+- Les écritures ont des sections analytiques correspondant à un centre de coûts et à un coût associé. Pour ces écritures, le centre de coûts est prioritaire. Vous pouvez ainsi éviter qu’un type de coût apparaisse à la fois dans un coût associé et dans un centre de coûts, ce qui le comptabiliserait deux fois dans les statistiques.  
+- Le numéro de document dans les écritures est vide. C’est pourquoi, il s’affichera avec le numéro de document 0000 dans les écritures de coûts.  
+- Les écritures sont transférées vers un type de coût qui autorise les écritures combinées. Ces écritures sont transférées ainsi sur une base mensuelle ou journalière.  
 
 Les écritures comptables ne sont pas transférées si :  
 
--   Les écritures ont des sections analytiques ne correspondant ni à un centre de coûts ni à un coût associé.  
--   Les écritures sont égales à zéro.  
--   Les écritures ont un compte général qui a été supprimé.  
--   Les écritures ont un compte général qui n’est pas du type **Comptes de gestion**.  
--   Les écritures ont un compte général sans type de coût affecté.  
--   La date de validation des écritures est antérieure à **Date début pour transfert comptabilité**.  
--   Les écritures ont été validées avec une date de clôture. Il s’agit généralement des écritures qui redéfinissent le solde des comptes de gestion sur la fin de l’exercice.
+- Les écritures ont des sections analytiques ne correspondant ni à un centre de coûts ni à un coût associé.  
+- Les écritures sont égales à zéro.  
+- Les écritures ont un compte général qui a été supprimé.  
+- Les écritures ont un compte général qui n’est pas du type **Comptes de gestion**.  
+- Les écritures ont un compte général sans type de coût affecté.  
+- La date de validation des écritures est antérieure à **Date début pour transfert comptabilité**.  
+- Les écritures ont été validées avec une date de clôture. Il s’agit généralement des écritures qui redéfinissent le solde des comptes de gestion sur la fin de l’exercice.
 
 ## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Transfert des écritures comptables vers les écritures de coûts
 Vous pouvez transférer les écritures comptables aux écritures de coûts.  
@@ -64,7 +65,7 @@ Avant d’exécuter le transfert des écritures comptables vers des écritures d
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Transférer les écritures comptables vers CA**, puis sélectionnez le lien associé.  
 2.  Cliquez sur le bouton **Oui** pour démarrer le transfert. Le processus transfère toutes les écritures comptables qui n’ont pas déjà été transférées.  
 
-    Lors du transfert, le processus crée des connexions dans les écritures des tables **Écriture de coûts** et **Registre de coûts**. Cela permet d’identifier l’origine des écritures de coûts.
+Lors du transfert, le processus crée des connexions dans les écritures des tables **Écriture de coûts** et **Registre de coûts**. Cela permet d’identifier l’origine des écritures de coûts.
 
 ## <a name="automatic-transfer-and-combined-entries"></a>Transfert automatique et écritures combinées
 En comptabilité analytique, vous pouvez transférer les écritures comptables vers un type de coût à l’aide d’une validation combinée. Vous pouvez spécifier si un type de coût reçoit des écritures combinées dans le champ **Combiner écritures** dans la définition du type de coût. Le tableau suivant décrit les différentes options.  

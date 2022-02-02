@@ -1,34 +1,34 @@
 ---
-title: 'Procédure : mise à jour des coûts standard | Microsoft Docs'
+title: Mise à jour des coûts standard
 description: Vous devez régulièrement mettre à jour les coûts standard des composants et remonter les nouveaux coûts dans l’article parent.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 99783deca985a630a46b745b1e7f0a92eb327642
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 26fc683f1c11a8341437823ceef438eaa269deb1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784582"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972475"
 ---
 # <a name="update-standard-costs"></a>Mise à jour des coûts standard
 Vous devez régulièrement mettre à jour les coûts standard des composants et remonter les nouveaux coûts dans l’article parent. Le processus comprend généralement les quatre étapes suivantes :  
 
 1.  Mettre à jour les coûts aux niveaux des composants et de la capacité. Pour plus d’informations, voir le traitement par lots **Proposer coût standard article**.  
 2.  La consolidation et le calcul multi-niveau des coûts des composants et de capacité permettent de déterminer le coût de fabrication ou d’assemblage des articles.  
-3.  Appliquer les coûts standard entrés lorsque vous lancez les traitements par lots précédents. Les coûts standard n’entrent en vigueur que lorsqu’ils sont mis en œuvre. Pour plus d’informations, voir Appliquer nouv. coût standard.  
+3.  Appliquer les coûts standard entrés lorsque vous lancez les traitements par lots précédents. Les coûts standard n’entrent en vigueur que lorsqu’ils sont mis en œuvre. Utilisez le traitement par lots **Appliquer nouv. coût standard**, qui met à jour les modifications du coût standard sur les éléments en fonction de ceux figurant dans la table Feuille coût standard.  
 4.  Appliquer les modifications pour mettre à jour le champ **Coût unitaire** de la fiche article et effectuer une réévaluation du stock. Pour plus d’informations, voir [Réévaluer le stock](inventory-how-revalue-inventory.md).  
 
-Pour plus d’informations, voir [À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md) .  
-## <a name="to-update-standard-costs"></a>Pour mettre à jour des coûts standard  
+Pour plus d’informations, voir [À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md) .
+  
+## <a name="to-update-standard-costs"></a>Pour mettre à jour des coûts standard
+
 1.  Exécutez le traitement par lots **Ajuster coûts - Écr. article**.  
 2.  Exécutez le traitement par lots **Valider coûts ajustés**.  
 3.  Ouvrez la **Feuille coût standard** et utilisez une ou plusieurs des fonctions suivantes :  
@@ -42,7 +42,8 @@ Pour plus d’informations, voir [À propos du calcul des coûts standard](finan
     7.  Exécutez le traitement par lots **Appliquer nouv. coût standard**.  
 4.  Vérifiez et validez la page **Feuille réévaluation** renseignée avec les entrées des étapes précédentes de ce processus.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
  [À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md)   
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)   
  [Détails de conception : modes évaluation stock](design-details-costing-methods.md) [Finance](finance.md)  

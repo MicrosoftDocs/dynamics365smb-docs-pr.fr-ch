@@ -6,14 +6,15 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
+ms.search.form: 1803, 1801
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 97df95921b7b1b503580b207ac1ebd858b57b135
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589322"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011561"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versions d’évaluation et abonnements [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -74,7 +75,7 @@ Si vous avez ajouté des données à votre version d’évaluation gratuite de [
 
 À chaque connexion au cours de la période gratuite, une notification s’affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous abonner, recherchez un partenaire [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Comment trouver un partenaire revendeur ?](/dynamics365/business-central/across-faq#findpartner). Le partenaire revendeur peut vous aider à configurer [!INCLUDE[prod_short](includes/prod_short.md)] en fonction des besoins de votre entreprise, notamment importer vos données à partir de votre système précédent. Vous pouvez également personnaliser [!INCLUDE[prod_short](includes/prod_short.md)] en ajoutant des applications provenant du [Marketplace commercial de Microsoft ](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] en ligne utilise Microsoft 365. Si votre société utilise un autre type de configuration de messagerie, le partenaire revendeur peut vous aider à choisir la procédure de migration, ou si vous devez utiliser [!INCLUDE[prod_short](includes/prod_short.md)] sur site.  
+[!INCLUDE[prod_short](includes/prod_short.md)] en ligne utilise Microsoft 365. Si votre société utilise un autre type de configuration de messagerie, le partenaire revendeur peut vous aider à choisir la procédure de migration, ou si vous devez utiliser [!INCLUDE[prod_short](includes/prod_short.md)] sur site.  
 
 Vous pouvez également contacter l’[équipe commerciale [!INCLUDE[prod_short](includes/prod_short.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 

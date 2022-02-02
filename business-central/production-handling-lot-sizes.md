@@ -1,5 +1,5 @@
 ---
-title: Gestion des tailles de lot | Microsoft Docs
+title: Gestion des tailles de lot
 description: Cette rubrique décrit différentes manières de gérer les tailles de lot.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ef3863a372db074d4be3a7e9b72cfda5f47279d1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 05e592d1f4ecd281b71ab4f182c5c535faa611a1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779397"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973929"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Gestion des tailles de lot en production
 En termes de quantité, le nombre d’articles que vous produisez lors d’une opération de production peut ne pas être corrélé à la manière dont ils les vendent. Par exemple, vous pouvez produire des centaines d’articles en un seul lot, mais vendre chaque article individuellement. Lorsque vous configurez vos itinéraires de production et vos nomenclatures, vous devez tenir compte de quelques nuances en ce qui concerne les tailles de lot. Cette rubrique décrit l’impact des tailles de lot sur les calculs des coûts et la planification des ressources.

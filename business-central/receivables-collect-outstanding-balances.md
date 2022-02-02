@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2c3e4bc2b75133b0a46d3d5746841d6caf76589c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439425"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971683"
 ---
 # <a name="collect-outstanding-balances"></a>Collecte des soldes restants
 
@@ -186,7 +186,7 @@ Lorsque vous émettez une relance, une écriture relance est créée sur la page
 
 ## <a name="multiple-interest-rates"></a>Taux d’intérêt multiples
 
-Lorsque vous configurez des conditions d’intérêts de retard et les conditions de relance, pour la pénalité de retard de paiement, vous pouvez spécifier plusieurs taux d’intérêt afin que les frais de pénalité soient calculés sur la base de plusieurs taux d’intérêt à différentes périodes. Si les taux d’intérêt multiples ne sont pas créés, le taux d’intérêt et la période définie sur les pages **Conditions intérêts de retard** et **Conditions de relance** pour l’ensemble de la période de calcul seront utilisés. Pour plus d’informations, reportez vous à [Paramétrer plusieurs taux d’intérêt](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Pour plus d’informations, reportez vous à [Paramétrer plusieurs taux d’intérêt](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

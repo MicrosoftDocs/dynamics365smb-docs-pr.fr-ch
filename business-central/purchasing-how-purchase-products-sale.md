@@ -1,5 +1,5 @@
 ---
-title: Acheter des articles pour une vente en créant des factures achat | Microsoft Docs
+title: Acheter des articles pour une vente
 description: Depuis une facture vente, pour acheter des biens, vous pouvez créer une facture achat pour un fournisseur.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
+ms.search.form: 50, 51, 56, 9308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 157be841019a9b1a44f45f19fc0708ce7645d716
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 46057027e89a087105ca52969c8d5f40a2c0cd26
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440514"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953424"
 ---
-# <a name="purchase-items-for-a-sale"></a>Acheter des articles pour une vente
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Acheter des articles pour une vente en créant des factures achat
+
 Avec les commandes vente et les factures vente, vous pouvez utiliser des fonctions vous permettant de créer rapidement des documents achat pour des quantités d’articles manquantes requises par la vente. Vous pouvez utiliser deux fonctions distinctes selon le type document.
 
 > [!Note]

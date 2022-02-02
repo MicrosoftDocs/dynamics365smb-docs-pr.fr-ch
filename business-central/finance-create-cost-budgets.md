@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 52ed39805c70fe686d96525b33ad82923628db82
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9b69af67128492122bb6d8ceada51572a5ab6e33
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436188"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970690"
 ---
 # <a name="creating-cost-budgets"></a>Création des budgets des coûts
+
 La budgétisation en comptabilité analytique ressemble à la budgétisation en comptabilité générale. Un budget de coûts est créé en fonction des types de coûts, tel qu’un budget est créé pour les écritures comptables en fonction des comptes généraux.  
 
 Un budget de coûts est créé pour une certaine période, par exemple, un exercice comptable. Vous pouvez créer autant de budgets de coûts que vous le souhaitez. Vous pouvez créer un budget de coûts manuellement, en important un budget de coûts ou en copiant un budget de coûts existant comme base budgétaire. Pour plus d’informations, voir [Créer des budgets comptabilité](finance-how-create-budgets.md).
@@ -32,7 +33,8 @@ Vous utilisez les pages suivantes pour créer et analyser les budgets de coûts.
 |Consultez les registres du budget des coûts et les écritures correspondantes.|Page **Registres du budget des coûts**|  
 |Imprimez les comparaisons budgétaires de coûts à l’aide de divers états.|État **Budget/Solde comptabilité analytique**<br /><br /> État **Budget/Relevé comptabilité analytique**<br /><br /> État **Budget des coûts par centre de coûts**<br /><br /> État **Budget des coûts par coûts associés**|  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  
 [Créer des budgets comptabilité](finance-how-create-budgets.md)  
 [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)   

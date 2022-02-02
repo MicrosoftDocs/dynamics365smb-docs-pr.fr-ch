@@ -3,19 +3,19 @@ title: Aperçu des états permettant de préparer les états de clôture | Micro
 description: Fournit un aperçu des états que vous pouvez utiliser pour rassembler les informations pour préparer les états de clôture de votre société à la fin de l’année fiscale.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dadfa25189aa44c032dd03aee053be39d87bc4d2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c1ba1ecc8716586e661b8553f12319a87b4cb85c
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435924"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011534"
 ---
 # <a name="preparing-closing-statements"></a>Préparation des états de clôture
 Il existe plusieurs états standard que vous pouvez utiliser pour rassembler les informations dont vous avez besoin pour préparer les états de clôture de votre société.

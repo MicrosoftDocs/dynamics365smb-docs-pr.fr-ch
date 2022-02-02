@@ -1,7 +1,6 @@
 ---
-title: Choix de l’expérience utilisateur pour masquer ou afficher des fonctions avancées | Microsoft Docs
+title: Modifier les fonctionnalités affichées
 description: En savoir plus sur ce que signifie le niveau d’expérience Essentiel et Premium pour l’interface utilisateur, les domaines d’application, et votre société.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
+ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d56c8d6be69e12ced2dc83b884650360e95c0ab2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b7b27d39997e0adccc6b27ec91386741620d27b8
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443633"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029129"
 ---
 # <a name="change-which-features-are-displayed"></a>Modifier les fonctionnalités affichées
 [!INCLUDE[prod_short](includes/prod_short.md)] est conçu pour vous aider à gérer votre entreprise indépendamment de sa taille et de sa complexité. Au cœur du produit, vous trouverez des fonctionnalités essentielles, telles que la génération d’états financiers, les ventes, les achats et la gestion des stocks. À mesure que la complexité de l’entreprise augmente, vous pouvez activer des fonctionnalités pour la fabrication et la gestion des services, par exemple.
@@ -39,8 +39,8 @@ Avant de définir les paramètres d’expérience d’une société, vous devez 
 
 Le paramètre **Expérience** s’applique à tous les utilisateurs d’une société, mais chaque utilisateur peut personnaliser davantage sa propre expérience en modifiant la mise en page et le contenu. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
-## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Activation des fonctionnalités Premium après mise à niveau d’un plan
-Les utilisateurs sont affectés à des plans dans le centre d’administration Microsoft 365 dans le cadre de la tâche générale de création des utilisateurs Business Central. Pour plus d’informations, consultez [Ajouter des utilisateurs et attribuer des licences en simultané](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
+## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Activation des fonctionnalités Premium après mise à niveau d'un plan
+Les utilisateurs sont affectés à des plans dans le centre d’administration Microsoft 365 dans le cadre de la tâche générale de création des utilisateurs Business Central. Pour plus d’informations, consultez [Ajouter des utilisateurs et attribuer des licences en simultané](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Pour mettre à jour les modifications de plan des groupes d’utilisateurs
 Si vous avez modifié les plans des utilisateurs dans le centre d’administration Microsoft 365, par exemple en affectant plus d’utilisateurs au plan Premium, vous devez refléter les modifications dans [!INCLUDE[prod_short](includes/prod_short.md)].

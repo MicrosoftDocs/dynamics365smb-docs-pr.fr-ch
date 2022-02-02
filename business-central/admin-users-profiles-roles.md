@@ -5,14 +5,15 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
+ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f585ca4e97aa002e4d9d52cd74e01e18ab511eac
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443144"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012512"
 ---
 # <a name="manage-user-profiles"></a>Gérer les profils d’utilisateur
 
@@ -23,17 +24,21 @@ Tous les utilisateurs de [!INCLUDE[prod_short](includes/prod_short.md)] se voien
 
 En tant qu’administrateur, vous créez et gérez des profils sur la page **Profils (rôles)**. Chaque profil possède une carte dans laquelle vous devez gérer divers paramètres pour le rôle associé, tels que le nom du rôle, les paramètres utilisateur et le tableau de bord utilisé par le profil. Pour plus d’informations sur les paramètres utilisateur et les tableaux de bord, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
 
-Avant de pouvoir administrer des profils d’utilisateurs, ceux-ci doivent être créés et ajoutés via le Centre d’administration Microsoft 365. Vous pouvez ensuite attribuer des autorisations à chaque utilisateur ou groupe d’utilisateurs afin de définir les fonctionnalités qu’ils sont autorisés à afficher et/ou à modifier. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
+Avant de pouvoir administrer des profils d’utilisateurs, ceux-ci doivent être créés et ajoutés via le Centre d’administration Microsoft 365. Vous pouvez ensuite attribuer des autorisations à chaque utilisateur ou groupe d'utilisateurs afin de définir les fonctionnalités qu'ils sont autorisés à afficher et/ou à modifier. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
 
 ## <a name="page-customization"></a>Personnalisation de page
 Vous pouvez personnaliser les mises en page d’un profil afin que tous les utilisateurs auxquels ce profil a été attribué voient les pages personnalisées. En tant qu’administrateur, vous devez personnaliser les pages en utilisant les mêmes fonctionnalités que les utilisateurs lorsqu’ils personnalisent. Pour plus d’informations, voir [Personnaliser des pages pour les profils](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>Pour créer un profil
+
 Si vous ne pouvez pas copier un profil existant, vous pouvez en créer un manuellement.
 
 1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") entrez **Profils (Rôles)**, puis sélectionnez le lien associé.  
 2. Sur la page **Profils (rôles)**, sélectionnez l’action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]
+> Si vous souhaitez qu’un profil particulier ne soit disponible que pour des utilisateurs très spécifiques, vous pouvez définir le champ **Description** sur `Navigation menu only.`. De cette façon, le profil est exclu de la liste des rôles disponibles dans **Mes paramètres**.
 
 ## <a name="to-copy-a-profile"></a>Pour copier un profil
 Pour gagner du temps, vous pouvez créer un nouveau profil en copiant un profil existant. Copiez celui qui a des paramètres similaires à celui que vous voulez créer.

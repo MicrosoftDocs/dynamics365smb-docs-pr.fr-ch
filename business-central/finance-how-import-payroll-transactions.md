@@ -8,22 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Ceridian, Quickbooks, salary
+ms.search.form: 1660, 1661, 36601
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 059dcc5e92d20288bbcb0af260d528322c66ab48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4cd05e5059b57add08b71e6850e347d15e2e4fa6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444602"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973056"
 ---
 # <a name="importing-payroll-transactions"></a>Importation des transactions de paie
+
 Pour tenir compte des paiements des salaires et des transactions associées, vous devez importer et valider des transactions financières effectuées par votre fournisseur de paie dans la comptabilité. Pour cela, vous devez commencer par importer un fichier que vous recevez du fournisseur de paie sur la page **Feuille comptabilité**. Vous devez ensuite mapper les comptes externes du fichier de paie aux comptes généraux appropriés. Enfin, vous devez valider les transactions de paie en fonction du mappage de compte.
 
 > [!NOTE]  
->   Pour utiliser cette fonctionnalité, une extension pour l’importation de la paie doit être installée et activée. Les extensions Salaire de Ceridian et Importer le fichier de paie de Quickbooks sont préinstallées dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md).
+> Pour utiliser cette fonctionnalité, une extension pour l’importation de la paie doit être installée et activée. Les extensions Salaire de Ceridian et Importer le fichier de paie de Quickbooks sont préinstallées dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md).
 
 ## <a name="to-import-a-payroll-file"></a>Pour importer un fichier de paie
+
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles comptabilité**, puis choisissez le lien associé.
 2. Dans le nom feuille comptabilité pertinent, sélectionnez l’action **Importer les transactions de paie**. Un guide d’installation assisté s’ouvre.
 3. Suivez les étapes de la page **Importer les transactions de paie**.
@@ -35,6 +38,7 @@ Pour tenir compte des paiements des salaires et des transactions associées, vou
 4. Modifiez ou validez les lignes feuille comme pour toute autre transaction comptable générale. Pour plus d’informations, reportez-vous à [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).   
 
 ## <a name="see-also"></a>Voir aussi
+
 [Finances](finance.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide d’extensions](ui-extensions.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  

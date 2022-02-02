@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.search.form: 973
+ms.search.form: 950, 951, 973
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: bd163b5e8c4d96a28a1dd557d53b04dafe6829fd
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920918"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973141"
 ---
 # <a name="use-time-sheets"></a>Utiliser des feuilles de temps
 
@@ -36,7 +36,7 @@ Avant de pouvoir utiliser des feuilles de temps, vous devez définir des informa
 Vous pouvez utiliser le traitement par lots **Créer des feuilles de temps** pour configurer des feuilles de temps pour un nombre donné de périodes ou de semaines. Une fois qu’une feuille de temps est créée, son propriétaire peut l’ouvrir et y enregistrer le temps consacré à une tâche.  
 
 > [!IMPORTANT]
-> Vous devez disposer d’autorisations pour pouvoir créer des feuilles de temps.
+> Vous devez disposer d’autorisations pour pouvoir créer des feuilles de temps. Pour plus d’informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
 
 1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles de temps**, puis choisissez le lien associé.
 2. Sur la page **Feuilles de temps**, choisissez l’action **Créer des feuilles de temps**.

@@ -7,23 +7,24 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000773, 99000778, 99000823, 99000827
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4bce7a2e07f9d559df74f4862e9aa841f4cfe6f0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d5adb9f1f4eb1edefdeb15b6f716458247b4ebf9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441612"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970505"
 ---
 # <a name="batch-post-output-and-run-times"></a>Valider par lots la production et les temps d’exécution
 La quantité de sortie représente l’avancement du travail sous la forme de la quantité finie et de la capacité utilisée du travail ou du poste de charge.
 
 Vous pouvez utiliser la feuille production pour :
-*  Ajustez le stock en fonction de la production des articles finis émanant de la production.
-*  Enregistrez les quantités et les rebuts pour chaque opération dans la gamme de production.
-*  Enregistrez la configuration et le temps d’exécution pour les centres de travail et les postes de charge.
+
+* Ajustez le stock en fonction de la production des articles finis émanant de la production.
+* Enregistrez les quantités et les rebuts pour chaque opération dans la gamme de production.
+* Enregistrez la configuration et le temps d’exécution pour les centres de travail et les postes de charge.
 
 > [!NOTE]
 > Si le routage de production est utilisé, le stock est mis à jour uniquement lorsque vous validez la quantité produite durant la dernière opération.
@@ -31,22 +32,26 @@ Vous pouvez utiliser la feuille production pour :
 La fenêtre **Feuille production** vous permet d’exécuter les mêmes tâches que celles de la fenêtre **Feuille production** et exécuter en même temps les tâches connexes de validation de la consommation. Pour plus d’informations, voir [Enregistrer la consommation et la production pour une ligne ordre de fabrication lancé](production-how-to-register-consumption-and-output.md).
 
 ## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Pour valider les quantités produites et/ou enregistrer les temps d’exécution pour une ou plusieurs lignes ordre de fabrication
+
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille production**, puis choisissez le lien associé.  
 2. Renseignez les champs en indiquant les données relatives à la fabrication et/ou les temps d’exécution. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
   
     Vous pouvez utiliser la fonction **Éclater gamme** pour générer des lignes feuille à partir des ordres de fabrication.
   
-4. Si l’opération est achevée, sélectionnez le champ **Terminé**.  
-5. Choisissez l’action **Valider** pour valider les opérations. 
- 
-Les écritures comptables de capacité sont mises à jour pour les postes de charge ou centres de travail utilisés avec des informations sur le temps et la quantité de production et de rebut. Si vous avez validé la dernière opération, l’article sera ajouté au stock. 
+3. Si l’opération est achevée, sélectionnez le champ **Terminé**.  
+4. Choisissez l’action **Valider** pour valider les opérations. 
 
-## <a name="see-also"></a>Voir aussi  
-[Valider la mise au rebut manuellement](production-how-to-post-scrap.md)
-[Validation de sortie inversée](production-how-to-reverse-output-posting.md)
-[Fabrication](production-manage-manufacturing.md)    
+Les écritures comptables de capacité sont mises à jour pour les postes de charge ou centres de travail utilisés avec des informations sur le temps et la quantité de production et de rebut.  
+
+Si vous avez validé la dernière opération, l’article sera ajouté au stock.  
+
+## <a name="see-also"></a>Voir aussi
+
+[Valider le rebut manuellement](production-how-to-post-scrap.md)
+[Contrepasser la validation de production](production-how-to-reverse-output-posting.md)
+[Production](production-manage-manufacturing.md)
 [Paramétrage de la production](production-configure-production-processes.md)  
-[Planifié](production-planning.md)      
+[Planifié](production-planning.md)  
 [Stock](inventory-manage-inventory.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

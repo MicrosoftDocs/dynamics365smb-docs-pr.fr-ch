@@ -8,19 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
+ms.search.form: 1638, 6702, 6704
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 236e1732f3bd7100f00f39a41cbec169b6cbd70f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9cac5b50d2a674f3ca39f085a2d4448356277b64
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324046"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971189"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Facturation en vrac pour Microsoft Bookings dans [!INCLUDE[prod_short](includes/prod_short.md)]
-Si votre société utilise l’application Réservations dans Microsoft 365, vous pouvez effectuer la facturation en vrac des rendez-vous. La page **Réservations non facturées** de [!INCLUDE[prod_short](includes/prod_short.md)] fournit une liste des réservations effectuées par la société. Cette page vous permet de rapidement sélectionner les rendez-vous à facturer et de créer des factures provisoires pour les services fournis.  
+
+Si votre société utilise l’application Bookings de Microsoft 365, vous pouvez effectuer la facturation en vrac des rendez-vous. La page **Réservations non facturées** de [!INCLUDE[prod_short](includes/prod_short.md)] fournit une liste des réservations effectuées par la société. Cette page vous permet de rapidement sélectionner les rendez-vous à facturer et de créer des factures provisoires pour les services fournis.  
 
 ## <a name="connect-to-bookings"></a>Connexion à Réservations
+
 Pour connecter votre [!INCLUDE[prod_short](includes/prod_short.md)] à Réservations, vous devez indiquer votre société Réservations, quoi synchroniser avec Réservations, la fréquence de la synchronisation et les modèles à utiliser. Vous définissez ces informations sur la page **Paramètres synch. réservations**, que vous pouvez lancer depuis la page **Configuration de la synchronisation Exchange**, que vous pouvez rechercher à l’aide de [Rechercher](ui-search.md).  
 
 Par exemple, si vous souhaitez synchroniser des clients entre Réservations et [!INCLUDE[prod_short](includes/prod_short.md)], vous devez spécifier le modèle par défaut à utiliser pour ajouter de nouveaux clients à [!INCLUDE[prod_short](includes/prod_short.md)] selon les clients de votre société de Réservations.  
@@ -34,11 +37,13 @@ De même, si vous souhaitez synchroniser des articles service entre Bookings et 
 > Seuls les articles de type *Service* se synchronisent entre Bookings et [!INCLUDE[prod_short](includes/prod_short.md)]. Le modèle que vous configurez sur la page **Modèles de configuration** pour pouvoir l’utiliser pour la synchronisation d’article doit définir le type comme *Service*.
 
 ## <a name="invoice-appointments"></a>Facturer les rendez-vous
+
 Lorsqu’il est temps d’envoyer les factures pour les réservations terminées, vous consultez la page **Réservations non facturées**. Selon le nombre de fois où les informations sont synchronisées, la liste est long ou courte. Vous pouvez créer des factures pour toutes les réservations de la liste ou une réservation à la fois. Vous pouvez sélectionner une ou plusieurs écritures dans la liste et facturer celles-ci uniquement.  
 
 Le prise en charge de la facturation des rendez-vous dans Réservations est plus simple que le flux de travail plus complet consistant à utiliser des devis, des commandes vente, et des factures vente. Pour plus d’informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md). Vous pouvez choisir de vendre vos services à l’aide de [!INCLUDE[prod_short](includes/prod_short.md)] ou d’utiliser Réservations, selon les besoins de votre activité.  
 
 ## <a name="see-also"></a>Voir aussi
+
 [Finances](finance.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  

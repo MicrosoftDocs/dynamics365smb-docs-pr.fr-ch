@@ -1,5 +1,5 @@
 ---
-title: 'Procédure : contrepasser la validation de production'
+title: Contrepasser la validation de production
 description: Il arrive qu’une validation de production doive être contrepassée. Cette rubrique décrit la procédure de contrepassation de la validation de production.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,31 +7,33 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b1d3d05876beb452d8a3fd1ac917e40f1ffe7320
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 43704140bf7dec64fdc38b073c722f79a15df4a6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440368"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970471"
 ---
 # <a name="reverse-output-posting"></a>Contrepasser la validation de production
+
 Il arrive qu’une validation de production doive être contrepassée. C’est le cas, par exemple, si une erreur de saisie de données a été commise et qu’une quantité de production incorrecte a été validée pour un ordre de fabrication.  
 
-## <a name="to-reverse-an-output-posting"></a>Pour contrepasser une validation de production  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille production**, puis choisissez le lien associé. Sélectionnez votre lot.  
+## <a name="to-reverse-an-output-posting"></a>Pour contrepasser une validation de production
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille production**, puis choisissez le lien associé. Sélectionnez votre lot.  
 2. Renseignez les champs selon vos besoins. Pour plus d’informations, voir [Valider par lots la production et les temps d’exécution](production-how-to-post-output-quantity.md).
-3.  Dans le champ **Ecriture lettrage**, sélectionnez l’écriture comptable article associée. Cette action contrepasse les écritures comptables capacité et article.  
+3. Dans le champ **Ecriture lettrage**, sélectionnez l’écriture comptable article associée. Cette action contrepasse les écritures comptables capacité et article.  
 4. Validez la contrepassation en validant la feuille.  
 
 Les écritures de la feuille production sont validées dans les écritures article comme un ajustement positif.  
 
-## <a name="see-also"></a>Voir aussi  
- [Production](production-manage-manufacturing.md)    
- [Paramétrage de la production](production-configure-production-processes.md)  
- [Planifié](production-planning.md)      
+## <a name="see-also"></a>Voir aussi
+
+ [Production](production-manage-manufacturing.md) [Paramétrage de la production](production-configure-production-processes.md)  
+ [Planifié](production-planning.md)  
  [Stock](inventory-manage-inventory.md)  
  [Achats](purchasing-manage-purchasing.md)  
  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

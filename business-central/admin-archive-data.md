@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 032c425f10bae29416cf8602d0c339f3ffaa3043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 4070ff5658ad4aa976c181a3df377155080f1e3b
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589703"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012092"
 ---
 # <a name="the-data-archive-extension"></a>L’extension d’archivage de données
 Au fil du temps, votre entreprise accumulera une quantité substantielle de données et, en tant qu’administrateur, il est probablement judicieux d’avoir une stratégie d’archivage des données. Avoir beaucoup de données peut ralentir les choses. Par exemple, il peut falloir un peu plus de temps pour générer des rapports, ou même pour verrouiller des enregistrements. De plus, de grandes quantités de données peuvent entraîner une augmentation des coûts de stockage.
@@ -39,19 +39,19 @@ Les extensions Data Archive sont utilisées par les traitements par lots suivant
 
 |Traitements par lots  |
 |---------|
-|Comp. Date Écritures budget article     |
-|Compresser écritures banque     |
-|Compresser écritures client     |
-|Compresser écritures immo.     |
-|Compresser écritures compta.     |
-|Compresser écritures assurance     |
-|Compresser écritures maint.     |
-|Compresser écritures maint.     |
-|Compresser écritures ress.     |
-|Compresser écritures TVA     |
-|Compresser écritures fourn.     |
-|Compresser écritures entrepôt     |
-|Compr. Date Écritures budget     |
+|Comp. Date Écritures budget article |
+|Compresser écritures banque |
+|Compresser écritures client |
+|Compresser écritures immo. |
+|Compresser écritures compta. |
+|Compresser écritures assurance |
+|Compresser écritures maint. |
+|Compresser écritures maint. |
+|Compresser écritures ress. |
+|Compresser écritures TVA |
+|Compresser écritures fourn. |
+|Compresser écritures entrepôt |
+|Compr. Date Écritures budget |
 
 Pour démarrer l’archivage des données lorsque vous exécutez l’un des traitements par lots, activez le bouton à bascule **Archiver les entrées supprimées**.
 
