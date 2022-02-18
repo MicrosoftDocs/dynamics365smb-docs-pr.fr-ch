@@ -8,12 +8,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 0e9fd6f09e428b067b240efd150166c32577ca92
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 9d9decead1e6207915fd3a162cadae0354f0f257
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970416"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100920"
 ---
 # <a name="set-up-prepayments"></a>Configuration des acomptes
 
@@ -24,10 +24,12 @@ Avant de valider des factures acompte, vous devez configurer les comptes de vali
 Vous pouvez définir le pourcentage du montant ligne qui sera facturé pour acompte, pour un client ou un fournisseur, pour tous les articles ou pour une sélection d’articles. Une fois la configuration terminée, vous pouvez générer des factures acompte à partir des commandes vente et achat. Vous pouvez utiliser les pourcentages par défaut pour chaque ligne vente ou achat, ou, au besoin, modifier les montants de la facture. Par exemple, vous pouvez spécifier un montant total pour la commande entière.  
 
 > [!NOTE]
-> Nous vous recommandons de ne pas utiliser un pourcentage de prépaiement de 100 % dans les cas suivants :
+> Nous vous recommandons de ne pas utiliser un pourcentage de prépaiement de 100 dans les cas suivants :
 >
-> * Si vous résidez en Amérique du Nord. En raison du mode de calcul des taxes, un pourcentage de paiement anticipé de 100 % peut entraîner des problèmes avec les factures de paiement anticipé.
-> * Dans toutes les régions, si vous déduisez manuellement un escompte de la facture. Un pourcentage de prépaiement de 100 % ne laissera pas automatiquement un montant sur lequel déduire la remise. 
+> * Si vous résidez en Amérique du Nord. En raison du mode de calcul des taxes, un pourcentage de paiement anticipé de 100 peut entraîner des problèmes avec les factures de paiement anticipé.
+> * Dans toutes les régions, si vous déduisez manuellement un escompte de la facture. Un pourcentage de prépaiement de 100 ne laissera pas automatiquement un montant sur lequel déduire la remise.
+>
+> En outre, lorsque vous utilisez un pourcentage de prépaiement de 100, [!INCLUDE[prod_short](includes/prod_short.md)] peut avoir besoin de créer des écritures d’arrondi décalées. Lorsque cela se produit, vous devrez choisir un compte général dans le champ **Compte d’arrondi de facture** sur la page **Groupes de comptabilisation des clients**. Ceci est vrai même si vous n’avez pas activé le bouton de basculement **Arrondi facture** sur la page **Paramètres ventes**. Si vous ne spécifiez pas de compte, vous ne pourrez pas publier de factures d’acompte. 
 
 Puisque le montant payé par anticipation appartient à l’acheteur jusqu’à ce qu’il ait reçu les biens ou les services, vous devez configurer des comptes généraux pour recevoir les montants d’acompte jusqu’à la validation de la facture finale. Les acomptes vente doivent être enregistrés dans un compte passif jusqu’à l’expédition des articles. Les acomptes achat doivent être enregistrés dans un compte immobilisations jusqu’à la réception des articles. En outre, vous devez configurer un compte général séparé pour chaque identifiant TVA.  
 

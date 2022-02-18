@@ -1,22 +1,21 @@
 ---
 title: Gérer les absences des salariés
 description: Décrit comment enregistrer les absences des employés et analyser les statistiques d’absence à l’aide des pages Enregistrement des absences et Absences des employés.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 5212, 5211, 5200
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 01ccee23ae4c1bcb449bc69062421b7aa1d4ea0c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 4b1ba11875ebd9a8ea9e2733f3f2dd6c0e876d86
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326878"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101414"
 ---
 # <a name="manage-employee-absence"></a>Gérer les absences des salariés
 Pour gérer l’absence d’un salarié, vous devez l’enregistrer sur la page **Saisie des absences**. Elle peut alors être affichée de différentes façons à des fins d’analyse ou de génération d’état.

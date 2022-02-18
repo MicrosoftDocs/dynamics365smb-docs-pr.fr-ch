@@ -1,5 +1,5 @@
 ---
-title: Détails de conception - Coût moyen | Microsoft Docs
+title: Détails de conception – Coût moyen
 description: Le coût moyen d’un article est calculé avec une moyenne pondérée périodique, selon la période coût moyen qui est paramétrée dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 87bbd5d77bc677220b82789e343af1bda2300cbd
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d670fb96b0f29c8a34f7076429d6a56f834d2e5d
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215493"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115107"
 ---
 # <a name="design-details-average-cost"></a>Détails de conception : coût moyen
 Le coût moyen d’un article est calculé avec une moyenne pondérée périodique, selon la période coût moyen qui est paramétrée dans [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -28,7 +29,7 @@ Le coût moyen d’un article est calculé avec une moyenne pondérée périodiq
 |Champ|Désignation|  
 |---------------------------------|---------------------------------------|  
 |**Période coût moyen**|Spécifie à quel moment le coût moyen est calculé. Les options possibles sont les suivantes :<br /><br /> -   **Jour**<br />-   **Semaine**<br />-   **Mois**<br />-   **Période comptable**<br /><br /> Le coût moyen calculé pour cette période est affecté à toutes les sorties de stock validées au cours de la période coût moyen.|  
-|**Type calcul coût moyen**|Indique le mode de calcul du coût moyen. Les options possibles sont les suivantes :<br /><br /> -   **Article**<br />-   **Article, variante et magasin**<br />     Avec cette option, le coût moyen est calculé pour chaque article, pour chaque magasin, et pour chaque variante de l’article. Cela signifie que le coût moyen de cet article dépend du lieu de stockage et de la variante de l’article que vous avez sélectionnés (par exemple, la couleur).|  
+|**Type calcul coût moyen**|Indique le mode de calcul du coût moyen. Les options possibles sont les suivantes :<br /><br /> -   **Article**<br />-   **Article, variante et magasin**<br /> Avec cette option, le coût moyen est calculé pour chaque article, pour chaque magasin, et pour chaque variante de l’article. Cela signifie que le coût moyen de cet article dépend du lieu de stockage et de la variante de l’article que vous avez sélectionnés (par exemple, la couleur).|  
 
 > [!NOTE]  
 >  Vous pouvez uniquement utiliser une période de coût moyen et un type de calcul de coût moyen dans une année fiscale.  
@@ -55,37 +56,37 @@ Le coût moyen d’un article est calculé avec une moyenne pondérée périodiq
 
  Le tableau suivant montre les écritures comptables pour l’exemple coût article moyen, ARTICLE1, avant que le traitement par lots **Ajuster coûts - Écr. article** ne s’exécute.  
 
-|**Date de validation**|**Type écriture comptable article**|**Quantité**|**Coût total (réel)**|**N° écriture**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01/01/20|Achats|1|20.00|1|  
-|01/01/20|Achats|1|40.00|2|  
-|01/01/20|Vente|-1|-20,00|3|  
-|01/02/20|Vente|-1|-40,00|4|  
-|02/02/20|Achats|1|100,00|5|  
-|03/02/20|Vente|-1|-100,00|6|  
+| **Date de validation** | **Type écriture comptable article** | **Quantité** | **Coût total (réel)** | **N° écriture** |
+|--|--|--|--|--|
+| 01/01/20 | Achats | 1 | 20.00 | 1 |
+| 01/01/20 | Achats | 1 | 40.00 | 2 |
+| 01/01/20 | Vente | -1 | -20,00 | 3 |
+| 01/02/20 | Vente | -1 | -40,00 | 4 |
+| 02/02/20 | Achats | 1 | 100,00 | 5 |
+| 03/02/20 | Vente | -1 | -100,00 | 6 |
 
 > [!NOTE]  
 >  Comme l’ajustement des coûts ne s’est pas encore produit, les valeurs du champ **Coût total (réel)** des diminutions de stock correspondent aux entrées de stock auxquelles elles s’appliquent.  
 
  Le tableau suivant montre les écritures de la table **Point d’entrée ajustement coût moyen** qui s’appliquent aux écritures valeur résultant des écritures comptables article dans la table précédente.  
 
-|**N° article**|**Code variante**|**Code magasin**|**Date évaluation**|**Coût ajusté**|  
-|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|ARTICLE1||BLEU|01/01/20|Non|  
-|ARTICLE1||BLEU|01/02/20|Non|  
-|ARTICLE1||BLEU|02/02/20|Non|  
-|ARTICLE1||BLEU|03/02/20|Non|  
+| **N° article** | **Code variante** | **Code magasin** | **Date évaluation** | **Coût ajusté** |
+|--|--|--|--|--|
+| ARTICLE1 |  | BLEU | 01/01/20 | Non |
+| ARTICLE1 |  | BLEU | 01/02/20 | Non |
+| ARTICLE1 |  | BLEU | 02/02/20 | Non |
+| ARTICLE1 |  | BLEU | 03/02/20 | Non |
 
  Le tableau suivant montre les mêmes écritures comptables une fois le traitement par lots **Ajuster coûts - Écr. article** exécuté. Le coût moyen par jour est calculé et appliqué aux sorties de stock.  
 
-|**Date de validation**|**Type écriture comptable article**|**Quantité**|**Coût total (réel)**|**N° écriture**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01/01/20|Achats|1|20.00|1|  
-|01/01/20|Achats|1|40.00|2|  
-|01/01/20|Vente|-1|-30,00|3|  
-|01/02/20|Vente|-1|-30,00|4|  
-|02/02/20|Achats|1|100,00|5|  
-|03/02/20|Vente|-1|-100,00|6|  
+| **Date de validation** | **Type écriture comptable article** | **Quantité** | **Coût total (réel)** | **N° écriture** |
+|--|--|--|--|--|--|
+| 01/01/20 | Achats | 1 | 20.00 | 1 |
+| 01/01/20 | Achats | 1 | 40.00 | 2 |
+| 01/01/20 | Vente | -1 | -30,00 | 3 |
+| 01/02/20 | Vente | -1 | -30,00 | 4 |
+| 02/02/20 | Achats | 1 | 100,00 | 5 |
+| 03/02/20 | Vente | -1 | -100,00 | 6 |
 
 ### <a name="example-average-cost-period--month"></a>Exemple : période coût moyen = mois  
  L’exemple suivant montre l’effet du calcul du coût moyen basé sur une période coût moyen d’un mois. Le champ **Type calcul coût moyen** de la page **Paramètres stock** est défini sur **Article**.  
@@ -94,24 +95,24 @@ Le coût moyen d’un article est calculé avec une moyenne pondérée périodiq
 
  Le tableau suivant montre les écritures comptables pour l’exemple coût article moyen, ARTICLE1, avant que le traitement par lots **Ajuster coûts - Écr. article** ne s’exécute.  
 
-|**Date de validation**|**Type écriture comptable article**|**Quantité**|**Coût total (réel)**|**N° écriture**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01/01/20|Achats|1|20.00|1|  
-|01/01/20|Achats|1|40.00|2|  
-|01/01/20|Vente|-1|-20,00|3|  
-|01/02/20|Vente|-1|-40,00|4|  
-|02/02/20|Achats|1|100,00|5|  
-|03/02/20|Vente|-1|-100,00|6|  
+| **Date de validation** | **Type écriture comptable article** | **Quantité** | **Coût total (réel)** | **N° écriture** |
+|--|--|--|--|--|
+| 01/01/20 | Achats | 1 | 20.00 | 1 |
+| 01/01/20 | Achats | 1 | 40.00 | 2 |
+| 01/01/20 | Vente | -1 | -20,00 | 3 |
+| 01/02/20 | Vente | -1 | -40,00 | 4 |
+| 02/02/20 | Achats | 1 | 100,00 | 5 |
+| 03/02/20 | Vente | -1 | -100,00 | 6 |
 
 > [!NOTE]  
 >  Comme l’ajustement des coûts ne s’est pas encore produit, les valeurs du champ **Coût total (réel)** des diminutions de stock correspondent aux entrées de stock auxquelles elles s’appliquent.  
 
  Le tableau suivant montre les écritures de la table **Point d’entrée ajustement coût moyen** qui s’appliquent aux écritures valeur résultant des écritures comptables article dans la table précédente.  
 
-|**N° article**|**Code variante**|**Code magasin**|**Date évaluation**|**Coût ajusté**|  
-|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|ARTICLE1||BLEU|31/01/20|Non|  
-|ARTICLE1||BLEU|28/02/20|Non|  
+| **N° article** | **Code variante** | **Code magasin** | **Date évaluation** | **Coût ajusté** |
+|--|--|--|--|--|
+| ARTICLE1 |  | BLEU | 31/01/20 | Non |
+| ARTICLE1 |  | BLEU | 28/02/20 | Non |
 
 > [!NOTE]  
 >  La date d’évaluation est définie au dernier jour de la période de coût moyen, qui est dans ce cas le dernier jour du mois.  

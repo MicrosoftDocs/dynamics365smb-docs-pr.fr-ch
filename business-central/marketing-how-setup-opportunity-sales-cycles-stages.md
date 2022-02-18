@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
+ms.search.forms: 5122, 5121, 5120, 5175, 5119
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ed6597816347830b6f304ea0c50976c67ed5c5d5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 16c72d0c0b2b14e73b390b585b505f00956ac4d4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446139"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059767"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Configurer des cycles de vente opportunité et des étapes de cycle
 Avant de pouvoir utiliser les opportunités de vente, vous devez configurer les cycles de vente et les étapes correspondantes. Un cycle de vente est composé d’une série d’étapes allant du contact initial à la fermeture d’une vente. Chaque étape peut avoir certaines exigences à respecter, par exemple pour un devis, avant qu’une opportunité puisse accéder à l’étape suivante. Vous pouvez également spécifier si une étape peut être ignorée. Vous pouvez configurer autant de cycles de vente et d’étapes que nécessaire.

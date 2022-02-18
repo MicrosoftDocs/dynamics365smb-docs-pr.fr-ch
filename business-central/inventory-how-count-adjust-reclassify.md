@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
+ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 3c975a6d851693cef2b139d2493f825299770fac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5d8625434a661beb126ca234ea760038a6b75506
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440470"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059715"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Comptabiliser, ajuster et reclasser le stock avec les feuilles
 Vous devez effectuer un inventaire (c’est-à-dire compter tous les articles disponibles) au moins une fois par exercice pour vérifier si la quantité enregistrée dans la base de données est identique à la quantité réelle en stock dans les entrepôts. Lorsque vous connaissez la quantité physique réelle, vous devez la valider dans la comptabilité dans le cadre de l’ évaluation du stock de fin d’exercice.

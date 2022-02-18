@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
-ms.search.form: 1805
+ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: de40994a555fbc657eacc18e8b2e8b33ce430fcb
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7e71694e59dcd17072bb7616324953ca02117a89
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011141"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115081"
 ---
 # <a name="set-up-email"></a>Configurer la messagerie
 Les utilisateurs au sein des entreprises envoient des informations et des documents, tels que des commandes vente et achat et des factures, par e-mail, au quotidien. Les administrateurs peuvent faciliter cette tâche en connectant un ou plusieurs comptes de messagerie à [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez donc envoyer des documents sans avoir à ouvrir une application de messagerie. Vous pouvez composer chaque message individuellement avec des outils de mise en forme de base, tels que des polices, des styles, des couleurs, etc., et ajouter des pièces jointes pouvant atteindre 100 Mo. Les administrateurs peuvent également configurer des présentations d’états qui incluent uniquement les informations clés des documents. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
@@ -118,7 +118,7 @@ Voici des exemples d’utilisation des fonctionnalités Envoyer en tant que et E
 > [!Note]
 > Vous ne pouvez utiliser qu’un seul compte pour remplacer les adresses d’expéditeur. En d’autres termes, vous ne pouvez pas avoir une adresse de remplacement pour les processus d’achat et une autre pour les processus de vente.
 
-### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Pour configurer l'adresse de l'expéditeur de remplacement pour tous les messages électroniques sortants
+### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Pour configurer l’adresse de l’expéditeur de remplacement pour tous les messages électroniques sortants
 1. Dans le **Centre d’administration Exchange** pour votre compte Microsoft 365, recherchez la boîte aux lettres à utiliser comme adresse de substitution, puis copiez-la ou notez-la. Si vous avez besoin d’une nouvelle adresse, accédez à votre Centre d’administration Microsoft 365 pour créer un nouvel utilisateur et configurer sa boîte aux lettres.
 2. Dans [!INCLUDE[prod_short](includes/prod_short.md)] sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramétrage courrier SMTP**, puis choisissez le lien associé.
 3. Dans le champ **Envoyer en tant que**, entrez l’adresse de substitution.

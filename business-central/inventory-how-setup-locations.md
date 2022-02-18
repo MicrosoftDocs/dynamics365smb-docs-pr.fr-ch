@@ -8,18 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
+ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1d65213d81c2a615481e753adb380675ff2ee691
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 2482b25e6b8e29e5cff420db1700943ca4f1df51
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940741"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060105"
 ---
 # <a name="set-up-locations"></a>Configurer des magasins
 
-Si vous achetez, enregistrez, ou vendez des articles à plusieurs magasins ou entrepôt, vous devez configurer chaque magasin avec une fiche magasin et définir des acheminements transfert. [!INCLUDE [prod_short](includes/prod_short.md)] utilise des magasins pour aider à suivre les stocks dans les cas les plus simples et dans les processus d’entrepôt plus complexes.
+Les emplacements sont des endroits tels que des entrepôts où vous achetez, stockez ou vendez des articles. [!INCLUDE [prod_short](includes/prod_short.md)] utilise des magasins pour aider à suivre les stocks dans les cas simples et complexes dans les processus d’entrepôt.
 
 Vous pouvez ensuite créer des lignes de document pour un magasin spécifique, voir la disponibilité par magasin, et transférer le stock entre magasins. Pour plus d’informations, reportez-vous à [Gestion du stock](inventory-manage-inventory.md).
 <br><br>  
@@ -27,32 +28,31 @@ Vous pouvez ensuite créer des lignes de document pour un magasin spécifique, v
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Fiches magasin
-
-La fiche magasin spécifie des informations sur un magasin, par exemple un entrepôt ou un centre de distribution. Affectez un nom et un code représentatifs à chaque magasin. Il vous suffit ensuite de saisir le code magasin dans d’autres parties du programme lorsque vous souhaitez enregistrer les transactions d’un magasin en particulier.  
+Vous spécifiez des informations sur un magasin, par exemple un entrepôt ou un centre de distribution sur la page **Fiche magasin**. Affectez un nom et un code représentatifs à chaque magasin. Il vous suffit ensuite de saisir le code magasin dans d’autres parties du programme lorsque vous souhaitez enregistrer les transactions d’un magasin en particulier.  
 
 Vous pouvez entrer des informations sur les emplacements et les règles entrepôt pour chaque magasin. En fonction des règles entrepôt sélectionnées, vous pouvez utiliser les options du raccourci **Emplacements** pour définir les emplacements utilisés par défaut lorsque vous effectuez des transactions. Si vous utilisez les prélèvement et rangement suggérés, vous pouvez utiliser la plupart des options du raccourci **Config. emplacement** pour définir la façon dont vous souhaitez utiliser les différentes fonctions d’entrepôt avancées.  
 
-Certains champs d’option sont grisés et désactivés par d’autres paramètres dans la page **Fiche magasin** pour limiter les combinaisons de paramètres non pris en charge.  
+Certains champs d’option dépendent des paramètres dans la page **Fiche magasin** pour limiter les combinaisons de paramètres non pris en charge.  
 
-Choisissez les actions **Zones** ou **Emplacements** pour visualiser des informations sur les zones et les emplacements qui peuvent être définis pour le magasin.
+Choisissez les actions **Zones** ou **Emplacements** pour visualiser des informations sur les zones et les emplacements sont définis pour le magasin.
 
-### <a name="to-create-a-location-card"></a>Pour créer une fiche magasin
+### <a name="to-set-up-a-location"></a>Pour configurer un magasin
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
 3. Sur la page **Fiche magasin**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Répétez les étapes 2 et 3 pour chaque magasin dans lequel vous souhaitez conserver le stock.
 
 > [!NOTE]  
-> De nombreux champs de la fiche magasin se rapportent à la gestion des articles dans les processus enlogement et désenlogement. Les champs ne sont pas pertinents pour les entreprises qui n’ont pas besoin des fonctionnalités d’entrepôt plus complexes. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).
+> De nombreux champs de la page Fiche magasin se rapportent à la gestion des articles dans les processus enlogement et désenlogement. Ces champs ne sont pas pertinents pour les entreprises qui n’ont pas besoin des fonctionnalités d’entrepôt complexes. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).
 
 Vous pouvez modifier la configuration d’un magasin ultérieurement, mais vous ne pouvez pas modifier la configuration des magasins qui ont des écritures comptables article.  
 
-Ensuite, si vous avez plusieurs magasins, vous pouvez définir des acheminements transfert entre les magasins.  
+Si vous avez plusieurs magasins, vous pouvez définir des acheminements transfert entre les magasins. Pour plus d’informations, reportez-vous à [Créer des acheminement transfert ](inventory-how-setup-locations.md#to-create-a-transfer-route). 
 
 ### <a name="to-create-a-transfer-route"></a>Pour créer un acheminement transfert
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Acheminements de transfert**, puis sélectionnez le lien associé.
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Acheminements de transfert**, puis sélectionnez le lien associé.
 2. Sinon, à partir de n’importe quelle page **Fiche magasin**, cliquez sur **Acheminements transfert**.
 3. Sélectionnez l’action **Nouveau**.
 4. Sur la page **Fiche magasin**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -61,14 +61,12 @@ Vous pouvez à présent transférer des articles en stock entre deux magasins. P
 
 ## <a name="bins"></a>Emplacements
 
-Les emplacements représentent la structure d’entrepôt de base et sont utilisés pour faire des propositions relatives à l’emplacement des articles. Lorsque vous avez créé vos emplacements, vous pouvez définir précisément le contenu que vous souhaitez placer dans chacun d’entre eux, ou l’emplacement peut être utilisé en tant qu’emplacement dynamique sans contenu spécifié. Les emplacements sont principalement utilisés dans les opérations d’entrepôt de base et avancées. Si vous gérez les stocks dans une configuration plus simple, vous n’avez probablement pas besoin d’emplacements.
+Les emplacements représentent la structure d’entrepôt de base et sont utilisés pour faire des propositions relatives à l’emplacement des articles. Lorsque vous avez créé vos emplacements, vous pouvez définir leur contenu ou ils sont utilisés en tant qu’emplacements dynamiques sans contenu spécifié. Les emplacements sont principalement utilisés dans les opérations d’entrepôt de base et avancées. Si vous gérez les stocks dans une configuration plus simple, vous n’avez probablement pas besoin d’emplacements.
 
-Pour utiliser la fonctionnalité d’emplacement liée au magasin, vous devez d’abord activer la fonctionnalité sur la fiche **magasin** en sélectionnant le champ **Emplacement obligatoire** sur le raccourci **Entrepôt**. Ensuite, vous définissez la circulation des articles dans le magasin en spécifiant les codes emplacement dans les champs de configuration qui représentent les différents flux.
+Pour utiliser la fonctionnalité d’emplacement liée au magasin, vous devez d’abord activer la fonctionnalité sur la page **Fiche magasin** en sélectionnant le champ **Emplacement obligatoire** sur le raccourci **Entrepôt**. Ensuite, vous définissez la circulation des articles dans le magasin en spécifiant les codes emplacement dans les champs de configuration qui représentent les différents flux.
 
 > [!NOTE]
-> Avant de pouvoir spécifier les codes emplacement sur la fiche magasin, il convient de les créer.
-
-Pour plus d’informations, voir [Créer des emplacements](warehouse-how-to-create-individual-bins.md) et [Configurer des types d’emplacement](warehouse-how-to-set-up-bin-types.md).  
+> Avant de pouvoir spécifier les codes emplacement sur un magasin, vous devez les créer. Pour plus d’informations, voir [Créer des emplacements](warehouse-how-to-create-individual-bins.md) et [Configurer des types d’emplacement](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="zones"></a>Zones
 

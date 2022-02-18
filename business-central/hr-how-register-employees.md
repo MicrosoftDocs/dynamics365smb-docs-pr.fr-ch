@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
+ms.search.form: 5200, 5201
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9f25ea61c41bfeb08b9283153a96b8a78ce7c9b7
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: c3e8215f80d2d035643166832b866c569e1d2d1a
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589297"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101122"
 ---
 # <a name="register-employees"></a>Enregistrer les employés
 Pour utiliser la fonctionnalité Human Resources, vous devez d’abord ajouter chaque employé en remplissant les champs de la page **Fiche salarié**.

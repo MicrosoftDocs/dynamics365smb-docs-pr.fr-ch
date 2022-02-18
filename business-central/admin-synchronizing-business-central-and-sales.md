@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 09990c620dbd6bd3e1cd00af594426851a4c1546
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: a44777bce30cf4ab4cb07b5b1a05f36d8cbb87f7
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865378"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049811"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronisation des données dans Business Central avec Microsoft Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Lorsque vous intégrez [!INCLUDE[prod_short](includes/cds_long_md.md)] avec [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez décider si vous souhaitez synchroniser les données dans les champs sélectionnés des enregistrements [!INCLUDE[prod_short](includes/prod_short.md)] (tels que les clients, contacts et les vendeurs) avec les lignes équivalentes dans [!INCLUDE[prod_short](includes/cds_long_md.md)] (tels que les comptes, les contacts et les utilisateurs). Selon le type de ligne, vous pouvez synchroniser les données de [!INCLUDE[prod_short](includes/cds_long_md.md)] vers [!INCLUDE[prod_short](includes/prod_short.md)], ou vice versa. Pour plus d’informations, reportez-vous à la rubrique [Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 

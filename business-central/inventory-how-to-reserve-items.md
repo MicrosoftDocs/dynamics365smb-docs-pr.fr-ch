@@ -1,5 +1,5 @@
 ---
-title: 'Procédure : réserver des articles | Microsoft Docs'
+title: 'Procédure : réserver des articles'
 description: Vous pouvez réserver des articles pour les commandes vente, les commandes achat et les ordres de fabrication. Vous pouvez réserver des articles en stock ou entrants sur les lignes document ouvertes.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17f2c35d1a28bae7c12e706ff2220bf8d7b48719
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d53de74aa14001598177fcbf7d83d519fad9e0fd
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445691"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060079"
 ---
 # <a name="reserve-items"></a>Réserver des articles
 Vous pouvez réserver des articles pour les commandes vente, les commandes service, les ordres d’assemblage et les ordres de fabrication. Vous pouvez réserver des articles en stock ou entrants sur les lignes document ou les lignes feuille ouvertes. Vous effectuez le travail sur la page **Réservation**.

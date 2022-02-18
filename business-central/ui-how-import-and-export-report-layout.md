@@ -1,5 +1,5 @@
 ---
-title: Importation et exportation d’une présentation de rapport et de document | Microsoft Docs
+title: Importer et exporter une disposition de rapport et de document
 description: Vous pouvez importer et exporter une présentation de rapport personnalisée existante sous forme de fichier depuis ou vers un emplacement sur votre ordinateur et le réseau.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cb929e1e18d6e0711fd23ae12255220fdae1080d
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441083"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101362"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importer et exporter des présentations de rapport personnalisées
 Vous pouvez importer et exporter une présentation de rapport personnalisée existante sous forme de fichier depuis ou vers un emplacement sur votre ordinateur et le réseau. Par exemple, vous pouvez exporter une présentation de rapport, puis envoyer le fichier à une autre personne pour modification. Cette personne peut ensuite apporter des modifications à la présentation et vous renvoyer le fichier pour que vous puissiez le réimporter.  
@@ -51,10 +51,11 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Voir aussi  
- [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md)   
- [Gestion des présentations d’état et de document](ui-manage-report-layouts.md)  
- [Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)    
+## <a name="see-also"></a>Voir aussi
+
+[Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md)   
+[Gestion des présentations d’état et de document](ui-manage-report-layouts.md)  
+[Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

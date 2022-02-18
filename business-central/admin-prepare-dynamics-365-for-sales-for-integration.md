@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5aa6849ebb591622828eed1cd40f5bd7be58262d
-ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
+ms.openlocfilehash: 0c044371622232177d97ea954bbd81e4671d70be
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/27/2021
-ms.locfileid: "7865736"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049629"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Intégration à Dynamics 365 Sales
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Le rôle de vendeur est souvent considéré comme tourné vers l’extérieur dans une entreprise. Toutefois, il peut être utile pour les vendeurs d’être en mesure de regarder à l’intérieur de l’entreprise et d’observer ce qu’il s’y passe en arrière-plan. En intégrant [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[crm_md](includes/crm_md.md)], vous pouvez donner à vos vendeurs cet aperçu en leur permettant de visualiser les informations dans [!INCLUDE[prod_short](includes/prod_short.md)] pendant qu’ils travaillent dans [!INCLUDE[crm_md](includes/crm_md.md)]. Par exemple, dans le cadre de la préparation d’un devis, il peut s’avérer utile de savoir si vous avez suffisamment de stock pour répondre à la commande. Pour plus d’informations, voir [Utilisation de Dynamics 365 Sales depuis Business Central](marketing-integrate-dynamicscrm.md).
 

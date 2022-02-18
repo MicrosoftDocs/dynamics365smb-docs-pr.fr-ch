@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
-ms.date: 04/01/2021
+ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 4a7452043a2626228fa066e5043c435e920f194c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 0c041f2af2e59a8ed8be77a8d2eb029e48cb8258
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970663"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059967"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Déclarer la TVA aux autorités fiscales
 
@@ -25,15 +25,18 @@ Cette rubrique décrit les états dans [!INCLUDE[prod_short](includes/prod_short
 Vous pouvez utiliser les états suivants :
 
 * La déclaration de liste de vente de l’Union européenne (EU) **Liste des ventes UE** répertorie les montants de la taxe sur la valeur ajoutée (TVA) que vous avez collectés pour les ventes aux clients enregistrés dans les pays de l’Union européenne (UE).  
-* L’état **Retour TVA** inclut la TVA pour les ventes et les achats aux clients et auprès des fournisseurs dans tous les pays utilisant la TVA.
+* L’état **Retour TVA** inclut la TVA pour les ventes et les achats aux clients et auprès des fournisseurs dans tous les pays utilisant la TVA.  
 
-Si vous souhaitez afficher un historique complet des écritures TVA, chaque validation impliquant la TVA crée une écriture dans la page **Écritures TVA**. Ces écritures sont utilisées pour calculer le montant de votre déclaration TVA, tel que paiement et remboursement, pour une période donnée. Pour afficher les écritures de TVA, sélectionnez l’icône ![Ampoule qui ouvre la fonction Fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures TVA**, puis choisissez le lien associé.
+Dans les deux cas, la TVA est calculée sur la base des paramètres validation TVA et des groupes comptabilisation TVA que vous avez définis.
+
+Si vous souhaitez afficher un historique complet des écritures TVA, chaque validation impliquant la TVA crée une écriture dans la page **Écritures TVA**. Ces écritures sont utilisées pour calculer le montant de votre déclaration TVA, tel que paiement et remboursement, pour une période donnée. Pour afficher les écritures de TVA, sélectionnez l’icône ![Ampoule qui ouvre la fonction Fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Écritures TVA**, puis choisissez le lien associé.
 
 > [!NOTE]
 > Chaque environnement [!INCLUDE[prod_short](includes/prod_short.md)] est destiné à gérer les rapports réglementaires dans un seul pays. Par exemple, la version néerlandaise de [!INCLUDE[prod_short](includes/prod_short.md)] gère la déclaration de TVA aux Pays-Bas mais pas dans d’autres pays. De même, la version américaine de [!INCLUDE[prod_short](includes/prod_short.md)] gère la déclaration 1099 aux États-Unis et ne prend pas en charge la déclaration de TVA dans d’autres pays, sauf si elle est apportée par une extension fournie par notre écosystème partenaire ou une modification de code spécifique au client.
 
 ## <a name="about-the-ec-sales-list-report"></a>À propos de l’état Liste des ventes UE
-Au Royaume-Uni, toutes les sociétés qui vendent des biens et des services aux clients enregistrés pour la TVA, y compris les clients dans d’autres pays de l’Union européenne (UE), doivent envoyer une version électronique de l’état Liste des ventes de la Communauté européenne (CE) au format XML sur le site Web du service de la fiscalité et des douanes du Royaume-Uni. La liste des ventes de l’Union européenne ne fonctionne que pour les pays de l’UE.
+
+Dans l’Union européenne (UE) et au Royaume-Uni, toutes les sociétés qui vendent des biens et des services aux clients enregistrés pour la TVA, y compris les clients dans d’autres pays de l’Union européenne (UE), doivent envoyer une version électronique de l’état Liste des ventes de la Communauté européenne (CE) à leurs administrations douanières et fiscales. L’état **Liste des ventes UE** ne fonctionne que pour les pays de l’UE.
 
 La déclaration comprend une ligne pour chaque type de transaction avec le client, et affiche le montant total pour chaque type de transaction. La déclaration peut inclure trois types de transactions :  
 
@@ -41,14 +44,13 @@ La déclaration comprend une ligne pour chaque type de transaction avec le clien
 * Services B2B  
 * Marchandises triangulées B2B  
 
-Les biens et des services B2B indiquent si vous avez vendu un bien ou un service, et sont contrôlés par le paramètre **Service UE** des paramètres validation TVA. Les marchandises triangulées B2B indiquent si vous vous êtes engagé dans des transactions avec un tiers, et sont contrôlées par le paramètre **Trans. tripartite UE** sur les documents vente, comme des commandes vente, des factures, des avoirs, etc.  
+Les biens et des services *B2B* indiquent si vous avez vendu un bien ou un service, et sont contrôlés par le paramètre **Service UE** des Paramètres comptabilisation TVA. Les *marchandises triangulées B2B* indiquent si vous vous êtes engagé dans des transactions avec un tiers, et sont contrôlées par le paramètre **Trans. tripartite UE** sur les documents vente, comme des commandes vente, des factures, des avoirs, etc.  
 
-Une fois que l’administration fiscale aura examiné votre état, elle devra envoyer un e-mail au contact de votre société. Dans [!INCLUDE[prod_short](includes/prod_short.md)], le contact est spécifié sur la page **Informations société**. Avant de soumettre l’état, assurez-vous qu’un contact est sélectionné.
+Une fois que l’administration fiscale aura examiné votre état, elle devra envoyer un e-mail au contact de votre société. Dans [!INCLUDE[prod_short](includes/prod_short.md)], le contact est spécifié sur la page **Informations société**. Avant de soumettre l’état, assurez-vous qu’un contact est sélectionné.  
 
 ## <a name="about-the-vat-return-report"></a>À propos de l’état Retour TVA
-Utilisez cet état pour envoyer les documents relatifs à la TVA sur les ventes et les achats, tels que les commandes d’achat et de vente, les factures et les avoirs. Les informations contenues dans l’état sont au même format que dans la déclaration de l’administration fiscale et douanière.  
 
-La TVA est calculée sur la base des paramètres validation TVA et des groupes comptabilisation TVA que vous avez définis.
+Utilisez cet état pour envoyer les documents relatifs à la TVA sur les ventes et les achats, tels que les commandes d’achat et de vente, les factures et les avoirs. Les informations contenues dans l’état sont au même format que dans la déclaration de l’administration fiscale et douanière.  
 
 Pour le retour TVA, vous pouvez spécifier les écritures pour :
 
@@ -60,24 +62,35 @@ Pour le retour TVA, vous pouvez spécifier les écritures pour :
 
 Pour déclarer la TVA à une administration par voie électronique, vous devez connecter [!INCLUDE[prod_short](includes/prod_short.md)] au service Web de l’administration fiscale. Cela suppose que vous configuriez un compte avec votre administration fiscale. Lorsque vous avez un compte, vous pouvez activer une connexion de service que nous fournissons dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexions au service**, puis choisissez le lien approprié.
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 2.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexions au service**, puis choisissez le lien approprié.
 2. Renseignez les champs requis. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    > Il est judicieux de tester votre connexion. Pour cela, choisissez la case à cocher **Mode test**, puis préparez et envoyez votre état TVA comme décrit dans la section _Préparer et envoyer un état TVA_. En mode Test, le service vérifie si l’administration fiscale peut recevoir votre état, et le statut de l’état indiquera si l’envoi du test a réussi. Il est important de retenir que ce n’est pas un envoi réel. Pour réellement envoyer l’état, vous devez désactiver la case à cocher **Mode test**, puis répéter le processus d’envoi.
+    > Il est judicieux de tester votre connexion. Pour cela, cochez la case **Mode Test**, puis préparez et envoyez votre déclaration de TVA comme décrit dans la section [Préparer et envoyer une déclaration de TVA](#to-prepare-and-submit-a-vat-report). En mode Test, le service vérifie si l’administration fiscale peut recevoir votre état, et le statut de l’état indiquera si l’envoi du test a réussi. Il est important de retenir que ce n’est pas un envoi réel. Pour réellement envoyer l’état, vous devez désactiver la case à cocher **Mode test**, puis répéter le processus d’envoi.
 
 ## <a name="to-set-up-vat-reports-in-prod_short"></a>Pour configurer les états TVA dans [!INCLUDE[prod_short](includes/prod_short.md)]
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramétrage déclaration TVA**, puis choisissez le lien associé.  
-2. Pour laisser des utilisateurs modifier et retourner cet état, sélectionnez la case à cocher **Modifier les états soumis**.  
-3. Choisissez la souche de numéros à utiliser pour chaque état.  
+
+[!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
+
+### <a name="to-set-up-vat-return-periods"></a>Pour configurer des périodes retour de TVA
+
+Facultativement, si votre entreprise n’est pas située au Royaume-Uni, utilisez la page **Périodes de retours de TVA** pour configurer les déclarations de TVA planifiées. Si votre entreprise est située au Royaume-Uni, consultez [Numériser les taxes au Royaume-Uni](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md).  
+
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Périodes de retour de TVA**, puis choisissez le lien associé.  
+2. Sur la page **Périodes de retour de TVA**, remplissez les champs pour paramétrer la première période. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)].  
+3. Répétez l’étape 2 pour toutes les périodes supplémentaires que vous souhaitez ajouter.  
+
+Désormais, lorsque le moment est venu de soumettre une déclaration de TVA pour une période de retour de TVA, choisissez la période sur la page **Périodes de retour de TVA**, puis choisissez l’action **Créer un retour VAR**. Puis, sur la fiche **Retour de TVA**, choisissez l’action **Suggérer des lignes** décrite à l’étape 3 de la procédure suivante.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Pour préparer et soumettre un état TVA
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Liste des ventes UE** ou **Retour TVA**, puis choisissez le lien associé.  
+
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Liste des ventes UE** ou **Retour TVA**, puis choisissez le lien associé.  
 2. Sélectionnez **Nouveau**, puis renseignez les champs requis. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Pour générer le contenu de l’état, sélectionnez l’action **Proposer lignes**.  
 
     > [!NOTE]  
-    >   Pour l’état Liste des ventes UE, vous pouvez consulter les transactions incluses dans les lignes de l’état avant d’envoyer l’état. Pour cela, sélectionnez la ligne, puis cliquez sur l’action **Afficher écritures TVA**.  
+    >  Pour l’état Liste des ventes UE, vous pouvez consulter les transactions incluses dans les lignes de l’état avant d’envoyer l’état. Pour cela, sélectionnez la ligne, puis cliquez sur l’action **Afficher écritures TVA**.  
+
 4. Pour valider et préparer l’état pour l’envoi, choisissez l’action **Emettre**.  
 
     > [!NOTE]  
@@ -101,27 +114,29 @@ Lors du transfert des montants TVA vers le compte de déclaration, le compte TVA
 > Lorsque vous utilisez le traitement par lots **Calculer et valider décl. TVA**, si vous ne spécifiez pas **Groupe compta. marché TVA** ni **Groupe compta. produit TVA**, les écritures contenant les codes des groupes comptabilisation marché et des groupes comptabilisation produit sont incluses.
 
 ## <a name="configuring-your-own-vat-reports"></a>Configuration de vos propres états de TVA
-Vous pouvez utiliser l’état Liste des ventes UE prédéfini, cependant, vous pouvez également créer vos propres états. Cela nécessite de créer des codeunits. Si vous avez besoin de l’aide à cette fin, contactez un partenaire certifié Microsoft.  
 
-Le tableau suivant décrit les codeunits que vous devez créer pour votre état.
+Vous pouvez utiliser l’état **Liste des ventes UE** prêt à l’emploi. Cependant, vous pouvez également créer vos propres rapports, si vous disposez d’une licence de développement afin de pouvoir créer des unités de code. Si vous avez besoin d’aide, contactez un partenaire certifié Microsoft.  
+
+Le tableau suivant décrit les codeunits que vous devez créer pour votre état.  
 
 | Codeunit | Ce qu’il doit effectuer |
 |----|-----|
-|Proposer lignes| Extraire les informations de la table Ecritures TVA, et les afficher sur les lignes de l’état TVA.|
+|Proposer lignes| Extraire les informations de la table **Écritures TVA**, et les afficher sur les lignes de la déclaration de TVA.|
 |Contenu | Contrôler le format de l’état. Par exemple, si c’est un fichier XML ou JSON. Le format à utiliser dépend des besoins du service Web de votre administration fiscale. |
 |Soumission | Contrôler comment et quand vous envoyez l’état selon les besoins de votre administration fiscale. |
 |Gestionnaire de réponse | Gérer le retour de l’administration fiscale. Par exemple, elle peut envoyer un message e-mail au contact de votre société. |
 |Annuler | Envoyer une annulation d’un état de TVA qui a été envoyé précédemment à votre administration fiscale. |  
 
 > [!Note]
-> Lorsque vous créez des codeunits pour l’état, faites attention à la valeur du champ **Version de la déclaration TVA**. Ce champ doit refléter la version de l’état qui est ou a été requis par l’administration fiscale. Par exemple, vous pouvez saisir **2017** dans le champ pour indiquer que l’état remplit les conditions qui étaient en place cette année. Pour trouver la version en cours, contactez votre administration fiscale.
+> Lorsque vous créez des codeunits pour la déclaration, faites attention à la valeur du champ **Version de la déclaration TVA**. Ce champ doit refléter la version de l’état qui est ou a été requis par l’administration fiscale. Par exemple, vous pouvez saisir **2021** dans le champ pour indiquer que l’état remplit les conditions qui étaient en place cette année. Pour trouver la version en cours, contactez votre administration fiscale.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
-[Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md)  
+
+[Configurer des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md)  
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
-[Définition des ventes](sales-setup-sales.md)  
+[Configuration des ventes](sales-setup-sales.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  
 
 

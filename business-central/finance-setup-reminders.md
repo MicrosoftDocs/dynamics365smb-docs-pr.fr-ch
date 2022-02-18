@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 431, 432, 478
-ms.date: 04/01/2021
+ms.search.form: 431, 432, 436, 478
+ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: d22b970f2bd400e8bd5886266cf21ee32a6c9dee
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: caa31498ac63d376d4fb13f83c66664a1cf78bcd
+ms.sourcegitcommit: 8a968e9176a913635e47e5170c66962e485e6689
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970404"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "8105789"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Configurer les conditions et niveaux de relance
 
@@ -102,6 +102,7 @@ Si vous avez configuré les conditions relance (avec des niveaux et du texte sup
 ## <a name="see-also"></a>Voir aussi
 
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
+[Envoyer des rappels de soldes impayés](receivables-send-reminders.md)  
 [Configurer les conditions intérêts de retard](finance-setup-finance-charges.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 

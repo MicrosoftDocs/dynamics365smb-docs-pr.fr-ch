@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
+ms.openlocfilehash: 79f9e9d03eb8ac58bcddfeb39669b0dc08763f1f
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547063"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102462"
 ---
 # <a name="set-up-printers"></a>Paramétrage imprimantes
 
@@ -267,6 +267,9 @@ Vous pouvez ou l’administrateur peut également utiliser la page **Sélections
 
 > [!NOTE]
 > Des sélections d’imprimantes plus spécifiques prévalent sur des sélections d’imprimantes plus générales. Par exemple, une sélection d’imprimante ayant des valeurs dans les champs **ID utilisateur**, **ID état** et **Nom de l’imprimante** prévaut sur une sélection d’imprimante ayant des entrées vides dans le champ **ID utilisateur** ou **ID état**.
+
+### <a name="choosing-the-printer-when-running-a-report"></a>Choix de l’imprimante pendant l’exécution d’un rapport
+Au lieu d’utiliser l’imprimante par défaut lors de l’exécution d’un rapport, vous pouvez remplacer ce paramètre à partir de la page de demande. Choisissez simplement l’imprimante que vous souhaitez utiliser pour cette invocation du rapport dans le menu déroulant **Imprimante**.
 
 ### <a name="sizing-print-jobs"></a>Dimensionnement des travaux d’impression
 

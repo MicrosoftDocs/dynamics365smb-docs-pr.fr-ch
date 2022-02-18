@@ -11,12 +11,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 7d248158b7efa5960bbaeaf4b99f3ef8655b627c
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012382"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049610"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Obtenir le complément Business Central pour Outlook
 

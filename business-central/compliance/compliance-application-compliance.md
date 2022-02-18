@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: d1feca5e6eddd6115d10d1395eecccde3b09039f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2631307db3975eeb406662caac2edf2f9d83238c
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323733"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101467"
 ---
 # <a name="application-compliance"></a>Conformité des applications
 
@@ -77,7 +77,6 @@ Fournissez des informations intégrées, des processus alignés et des outils fa
 - Gagnez du temps lorsque vous créez des états standard qui utilisent des paramètres et des critères d’entreprise courants pour satisfaire les besoins en états habituels, des récapitulatifs de commande aux comptes clients cumulés.
 - Effectuez des examens complexes à l’aide de la fonctionnalité Business Analytics de base ou avancée.
 - Créez des états personnalisés et affichez-les dans le produit et en utilisant l’intégration à Microsoft PowerBI.
-- Accélérez la transmission d’informations financières aux clients, aux actionnaires, aux organismes règlementaires et au public avec des documents XML basés sur XBRL prenant en charge l’échange d’informations financières entre différents logiciels et technologies, notamment Internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Vérifier que les pistes d’audit sont claires
 

@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 119, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9173
+ms.search.form: 119, 6300, 6301, 6302, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9173
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2c81046828e6be26683853d2c9cb7836ed939fb1
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 5e11c7b88a17998086f0f11e809415248ad8f389
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029181"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115355"
 ---
 # <a name="create-users-according-to-licenses"></a>Créer des utilisateurs en fonction des licences
 
@@ -55,7 +55,7 @@ Si vous ajoutez de nouveaux utilisateurs, l’étape suivante consiste à attrib
 Pour en savoir plus sur la synchronisation des informations utilisateur avec Microsoft 365, consultez la section [Synchronisation avec Microsoft 365](#m365).
 
 > [!NOTE]
-> Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, vous pouvez les inviter dans votre Business Central afin qu'ils puissent travailler avec vous et utiliser vos données fiscales. Pour plus d’informations, voir [Inviter votre comptable externe dans votre Business Central](finance-accounting.md#inviteaccountant).
+> Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, vous pouvez les inviter dans votre Business Central afin qu’ils puissent travailler avec vous et utiliser vos données fiscales. Pour plus d’informations, voir [Inviter votre comptable externe dans votre Business Central](finance-accounting.md#inviteaccountant).
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>Pour supprimer l’accès d’un utilisateur au système
 
@@ -76,7 +76,7 @@ Lorsque vous attribuez une licence [!INCLUDE[prod_short](includes/prod_short.md)
 
 Dans les deux cas, plusieurs paramètres sont configurés automatiquement. Ceux-ci sont répertoriés dans les deuxième et troisième colonnes du tableau ci-dessous.
 
-Si vous modifiez les informations utilisateur dans Microsoft 365, vous pouvez mettre à jour [!INCLUDE[prod_short](includes/prod_short.md)] pour refléter le changement. Selon ce que vous souhaitez mettre à jour, utilisez l'une des actions sur la page **Utilisateurs**. Les actions sont décrites dans les trois dernières colonnes du tableau ci-dessous.
+Si vous modifiez les informations utilisateur dans Microsoft 365, vous pouvez mettre à jour [!INCLUDE[prod_short](includes/prod_short.md)] pour refléter le changement. Selon ce que vous souhaitez mettre à jour, utilisez l’une des actions sur la page **Utilisateurs**. Les actions sont décrites dans les trois dernières colonnes du tableau ci-dessous.
 
 > [!NOTE]
 > Les actions décrites dans le tableau suivant sont exactes, cependant, la seule dont vous ayez besoin est **Mettre à jour les utilisateurs depuis Microsoft 365**, qui a été ajoutée pour simplifier le processus. Les autres actions seront supprimées dans une future version de [!INCLUDE[prod_short](includes/prod_short.md)].

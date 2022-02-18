@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 06/21/2021
+ms.date: 02/09/2022
 ms.author: jswymer
-ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 142a9f826e200f06172b741e72e54d49ff9caf47
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972215"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102618"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Utilisation des états, des traitements par lots et des ports XML
 
@@ -32,7 +32,7 @@ Vous pouvez trouver les états sous l’onglet **États** sur les pages sélecti
 
 Lorsque vous ouvrez un état, un traitement par lot ou un XMLport, une page de demande s’affiche généralement pour vous permettre de définir plusieurs options et filtres qui déterminent les éléments à inclure dans l’état. Les sections suivantes expliquent comment utiliser la page de demande pour créer, afficher un aperçu et imprimer un état.
 
-## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Utilisation des valeurs par défaut – paramètres prédéfinis 
+## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Utilisation des valeurs par défaut – paramètres prédéfinis
 
 La plupart des pages de demande incluent le champ **Utiliser les valeurs par défaut de**. Ce champ vous permet de sélectionner des paramètres prédéfinis pour l’état, qui définissent automatiquement les options et les filtres de l’état. Sélectionnez une entrée dans la liste déroulante, et vous verrez les options et les filtres sur la page de demande se modifier en conséquence.
 
@@ -84,67 +84,18 @@ Dans l’Aperçu, utilisez la barre de menus dans l’aperçu de l’état pour�
 
 Vous pouvez enregistrer un état dans un document PDF, un document Microsoft Word ou une feuille de calcul Microsoft Excel en sélectionnant le bouton **Envoyer à**, puis en effectuant votre sélection.
 
-### <a name="send-to-excel"></a>Envoyer à Excel
+### <a name="about-sending-to-excel"></a>À propos de l’envoi vers Excel
 
-<!-- The following table describes the options for saving the report results as a worksheet in an Excel workbook.
+Vous pouvez travailler avec les données [!INCLUDE [prod_short](includes/prod_short.md)] dans Excel pour une analyse plus approfondie. Pour plus d’informations, consultez [Analyse des données de rapport avec Excel](report-analyze-excel.md).  
+<!--
+### About sending to Word
 
-|Option  |Description  |
-|---------|---------|
-|Microsoft Excel Document (data and layout)|Export the report results with the RDLC layout applied. Use this option if you want to export the data one time, and only want to make minor changes to its appearance, such as font and color scheme. <br><br>**Note**: Some reports might export numbers as text, so it's a good idea to verify the numbers. |
-|Microsoft Excel Document (data only)|Export the report results and the criteria that was used to generate them, such as the parameters you specified on the request page, metadata, and the fields that control the layout of the printed report. Use this option when you want to do ad hoc analysis of the data or diagnose data issues in reports. For example, you can filter the data and use Power Pivot to display it.<br><br>This option exports all columns, including columns that hold formatting instructions for other values and filters. In columns that hold binary data like images, instead of actually values, fields will include the text **Binary data ({0} bytes)**, where **{0}** indicates the number of bytes.<br><br>**NOTE** With Business Central on-premises, the Business Central Server includes a configurations setting, called **Max Data Rows Allowed to Send to Excel**. This setting limits the number of rows that can be exported to Excel. If you don't see the expected number of rows, it might be because of this setting. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) or contact your administrator.|-->
-
-Il existe deux options pour enregistrer les résultats du rapport sous forme de feuille de calcul dans un classeur Excel : **Document Microsoft Excel (données et mise en page)** et **Document Microsoft Excel (données uniquement)**
-
-#### <a name="microsoft-excel-document-data-and-layout"></a>[Document Microsoft Excel (données et disposition)](#tab/data-and-layout)
-
-Cette option n’est disponible que pour les rapports qui utilisent une mise en page RDLC. Elle exporte les résultats du rapport avec la mise en page RDLC appliquée. Utilisez cette option si vous souhaitez exporter les données une seule fois et ne souhaitez apporter que des modifications mineures à leur apparence, telles que la police et le schéma de couleurs.
-
-#### <a name="microsoft-excel-document-data-only"></a><a name="exportdataonly"></a>[Document Microsoft Excel (données uniquement)](#tab/data-only)
-
-L’option **Document Microsoft Excel (données uniquement)** exporte les résultats du rapport et les critères qui ont été utilisés pour les générer&mdash;, mais il n’inclut pas la mise en page du rapport. Le fichier Excel comprendra l’ensemble de données complet, sous forme de données brutes, disposées en lignes et en colonnes. Toutes les colonnes de données de l’ensemble de données du rapport sont incluses, qu’elles soient ou non utilisées dans la présentation du rapport.  Utilisez cette option lorsque vous souhaitez :
-
-- Faire une analyse ad hoc des données. Par exemple, vous pouvez filtrer les données et utiliser Power Pivot pour les afficher.
-
-  Chaque fois que vous exportez des résultats, une feuille de calcul est créée. En utilisant l’option **Document Microsoft Excel (données uniquement)**, vous pouvez exécuter le même rapport et réutiliser les modifications apportées à la mise en forme. Par exemple, pour Power Pivot, vous pouvez réexécuter le rapport pour une autre période, copier les résultats dans la feuille de calcul, puis actualiser la feuille de calcul. Vous pouvez trouver une application de création de rapports sur [AppSource](https://appsource.microsoft.com/).
-- Inspectez le jeu de données du rapport lorsque vous créez ou modifiez des présentations de rapport personnalisées.
-
-  Pour plus d’informations sur la création de présentations de rapport personnalisées, consultez [Création ou modification de présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)
-- Diagnostiquez les problèmes de données dans les rapports.
-
-##### <a name="for-administrators"></a>Pour les administrateurs
-
-- **Microsoft Excel Document (données uniquement)** a été introduite en tant que fonctionnalité facultative dans la première vague de version 2021, mise à jour 18.3. Pour permettre aux utilisateurs d’accéder à cette fonction, activez la mise à jour de la fonction **Enregistrer l’ensemble de données du rapport dans le document Microsoft Excel** dans **Gestion des fonctionnalités**. Pour plus d’informations, consultez [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management). Dans la deuxième vague de la version 2021, cette fonctionnalité devient permanente, vous n’aurez donc pas à l’activer.
-
-- Les comptes d’utilisateurs ont besoin de l’autorisation **<!--Export Report Dataset To Excel-->Autoriser l’action Exporter le jeu de données de l’état dans Excel**, que vous pouvez demander en utilisant l’ensemble d’autorisations **Outils de dépannage** ou **Exporter le rapport Excel**.  
-
-- Vous ne pouvez pas exporter un rapport contenant plus de 1 048 576 lignes ou 16 384 colonnes.
-
-    > [!NOTE]
-    > Avec Business Central sur site, le nombre maximal de lignes exportées peut être encore inférieur. Business Central Server inclut un paramètre de configuration, appelé **Nombre maximal de lignes de données autorisées à envoyer vers Excel**, pour diminuer la limite à partir de la valeur maximale. Pour plus d’informations, consultez [Configuration de Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) ou contactez votre administrateur.
-
-##### <a name="for-developers-and-advanced-users"></a>Pour les développeurs et les utilisateurs avancés
-
-L’option **Microsoft Excel Document (données uniquement)** exporte toutes les colonnes, y compris les colonnes contenant des filtres et des instructions de formatage pour d’autres valeurs. Voici quelques points d’intérêt :
-
-- Les données binaires d’un champ, comme une image, ne sont pas exportées.
-
-  Dans les colonnes contenant des données binaires, les champs incluront le texte **Données binaires ({0} octets)**, où **{0}** indique le nombre d’octets.
-- À partir de la deuxième vague de la version 2 de Business Central 2021, le fichier Excel comprend également la feuille de calcul **Métadonnées de l’état**.
-
-  Cette feuille de calcul montre les filtres appliqués à l’état et les propriétés générales de l’état, comme le nom, l’ID et les détails de l’extension. Les filtres sont affichés dans la colonne **Filtre (DataItem::Table::FilterGroupNo::FieldName)**. Les filtres de cette colonne incluent des filtres définis sur la page de demande de l’état. Elle comprend également des filtres définis dans le code AL, par exemple, par la [propriété DataItemLink](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemlink-reports-property) et la [propriété DataItemTableView](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemtableview-property).
-
-Pour plus d’informations sur la conception d’états, voir [Aperçu de l’état](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
-
----
+Use the **Microsoft Word Document** option to generate a report as a Word document.  
 
 > [!NOTE]
-> Certains états exportent des nombres sous forme de texte, ce qui vous empêche de faire des calculs ou d’utiliser Power Pivot sur les cellules de la feuille de calcul Excel. Après l’exportation, c’est une bonne idée de vérifier les nombres dans la feuille de calcul. Si vous souhaitez effectuer des analyses et des graphiques sur les nombres, modifiez le format des cellules pertinentes de **Texte** sur **Nombre**. Pour plus d’informations sur la mise en forme des nombres dans les cellules, voir cette vidéo [Mise en forme des nombres dans les cellules de Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+> You can specify the layout to use for each report on the **Report Selection** page in the **Selected Layout** field. The default setting for reports is **RDLC (built-in)**, which produces reports in the same, or similar, layout as the **Microsoft Word Document** layout. However, the key difference is whether you want to generate a single or multiple report documents. For single documents, you can use the RDLC (built-in) option. For multiple documents, set the **Microsoft Word Document** as the default layout for the report. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
 
-### <a name="microsoft-word-document"></a>Microsoft Word Document
-Utilisez l’option **Document Microsoft Word** pour générer un rapport sous forme de document Word.  
-
-> [!NOTE]
-> Vous pouvez spécifier la mise en page à utiliser pour chaque rapport sur la page **Sélection des états** dans le champ **Présentation sélectionnée**. Le paramètre par défaut pour les rapports est **RDLC (intégré)**, qui génère des rapports dans la même mise en page ou une mise en page similaire à celle de la mise en page **Document Microsoft Word**. Cependant, la principale différence est de savoir si vous souhaitez générer un ou plusieurs documents de rapport. Pour les documents uniques, vous pouvez utiliser l’option RDLC (intégrée). Si vous souhaitez plusieurs documents, définissez la mise en page **Document Microsoft Word** comme mise en page par défaut du rapport. Pour plus d’informations, voir [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md).
+-->
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Planification d’un état à exécuter
 

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: f8bb3bc0966e25e99213217501a5337f9440abfc
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 732bbc50f46573484682104e3beb71fbce1f5894
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215443"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115491"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Détails de conception : Modifier le mode évaluation stock pour les articles
 
@@ -78,18 +79,18 @@ Pour que les nouveaux articles soient pleinement utiles, vous devez copier manue
 
 |Région  |Que copier  |Comment le copier  |
 |---------|---------|---------|
-|Stock     |Unités de stockage (points de stock)         |Vérifiez si un point de stock est spécifié pour l’article d’origine. Si des paramètres de planning ont été saisis pour chaque fiche de point de stock, vous devez créer manuellement le point de stock pour le nouvel article. Si les paramètres ne sont pas spécifiés, vous pouvez utiliser le traitement par lots **Créer point de stock** à partir de la page **Fiche article** pour créer les données.        |
-|     |Articles de substitution         |Vérifiez si des articles de substitution sont définis pour l’article d’origine. S’il y en a, transférez ces données vers le nouvel article. Pour afficher les articles de substitution, utilisez l’action **Substitutions** sur la page **Fiche article**.         |
-|     |Rapports d’analyse         |Consultez les rapports d’analyse des articles, d’analyse des ventes et d’analyse des achats. Pour ceux qui font référence aux articles d’origine, vous pouvez soit créer un nouveau rapport d’analyse avec une référence au nouvel article (en conservant le rapport d’analyse d’origine à utiliser comme historique), soit ajuster les rapports afin qu’ils référencent le nouvel article.         |
-|     |Feuilles standard         |Vérifiez si les feuilles standard font référence à l’article d’origine et transférez ces données vers le nouvel article si nécessaire. Ces informations se trouvent dans les feuilles standard, qui sont disponibles dans la feuille article.          |
-|Ventes     |Pourcentage acompte vente         | Vérifiez si des pourcentages acompte vente sont définis pour l’article d’origine et transférez ces données vers le nouvel article. Pour afficher les pourcentages acompte, sur la page **Fiche article**, choisissez **Ventes**, puis **Pourcentages acompte**.        |
-|Achats     |Pourcentage acompte achat         |Vérifiez si des pourcentages acompte achat sont définis pour l’article d’origine et transférez ces données vers le nouvel article. Pour afficher les pourcentages acompte, sur la page **Fiche article**, choisissez **Achats**, puis **Pourcentages acompte**.                 |
-|Entrepôt     |Contenu emplacement         |Vérifiez le contenu d’emplacement défini pour l’article d’origine. Si des colonnes telles que Qté min., Qté max., Par défaut et Dédié ont été saisies individuellement, vous devez créer manuellement le contenu d’emplacement pour le nouvel article. Si ce n’est pas le cas, aucune action n’est requise. [!INCLUDE[prod_short](includes/prod_short.md)] conservera les enregistrements lorsque vous enregistrerez les documents et les journaux de l’entrepôt.|
-|Projet     |Prix projet         |Vérifiez si des prix projet sont définis pour l’article d’origine et transférez ces données vers le nouvel article. Ces informations sont disponibles sur la page **Fiche projet** dans la partie **Détails projet - Nbre prix** sur le **volet Récapitulatif**.         |
-|Service     |Compétence ressource de service         |Vérifiez si des compétences ressource de service sont définies pour l’article d’origine et transférez ces données vers le nouvel article. Pour afficher les compétences ressource, utilisez l’action **Compétences ressource** sur la page **Fiche article**.          |
-|     |Composants article de service         |Vérifiez si des composants sont définis pour l’article de service d’origine et transférez ces données vers le nouvel article. Pour afficher les composants article de service, sur la page **Fiche article**, utilisez l’action **Article de service** pour ouvrir la liste des articles de service associés, puis choisissez l’action **Composants**.          |
-|Fabrication     |Nomenclatures de production         |Vérifiez si les nomenclatures production contiennent l’article d’origine et remplacez-le par le nouvel article. Pour remplacer l’article d’origine, sur la page **Nomenclatures production**, choisissez l’action **Remplacer article nomenclature production**.         |
-|Assemblage     |Nomenclatures d’élément d’assemblage         |Vérifiez si les nomenclatures d’élément d’assemblage contiennent l’article d’origine et remplacez-le manuellement par le nouvel article.         |
+|Stock |Unités de stockage (points de stock) |Vérifiez si un point de stock est spécifié pour l’article d’origine. Si des paramètres de planning ont été saisis pour chaque fiche de point de stock, vous devez créer manuellement le point de stock pour le nouvel article. Si les paramètres ne sont pas spécifiés, vous pouvez utiliser le traitement par lots **Créer point de stock** à partir de la page **Fiche article** pour créer les données.|
+| |Articles de substitution |Vérifiez si des articles de substitution sont définis pour l’article d’origine. S’il y en a, transférez ces données vers le nouvel article. Pour afficher les articles de substitution, utilisez l’action **Substitutions** sur la page **Fiche article**. |
+| |Rapports d’analyse |Consultez les rapports d’analyse des articles, d’analyse des ventes et d’analyse des achats. Pour ceux qui font référence aux articles d’origine, vous pouvez soit créer un nouveau rapport d’analyse avec une référence au nouvel article (en conservant le rapport d’analyse d’origine à utiliser comme historique), soit ajuster les rapports afin qu’ils référencent le nouvel article. |
+| |Feuilles standard |Vérifiez si les feuilles standard font référence à l’article d’origine et transférez ces données vers le nouvel article si nécessaire. Ces informations se trouvent dans les feuilles standard, qui sont disponibles dans la feuille article.  |
+|Ventes |Pourcentage acompte vente | Vérifiez si des pourcentages acompte vente sont définis pour l’article d’origine et transférez ces données vers le nouvel article. Pour afficher les pourcentages acompte, sur la page **Fiche article**, choisissez **Ventes**, puis **Pourcentages acompte**.|
+|Achats |Pourcentage acompte achat |Vérifiez si des pourcentages acompte achat sont définis pour l’article d’origine et transférez ces données vers le nouvel article. Pour afficher les pourcentages acompte, sur la page **Fiche article**, choisissez **Achats**, puis **Pourcentages acompte**. |
+|Entrepôt |Contenu emplacement |Vérifiez le contenu d’emplacement défini pour l’article d’origine. Si des colonnes telles que Qté min., Qté max., Par défaut et Dédié ont été saisies individuellement, vous devez créer manuellement le contenu d’emplacement pour le nouvel article. Si ce n’est pas le cas, aucune action n’est requise. [!INCLUDE[prod_short](includes/prod_short.md)] conservera les enregistrements lorsque vous enregistrerez les documents et les journaux de l’entrepôt.|
+|Projet |Prix projet |Vérifiez si des prix projet sont définis pour l’article d’origine et transférez ces données vers le nouvel article. Ces informations sont disponibles sur la page **Fiche projet** dans la partie **Détails projet - Nbre prix** sur le **volet Récapitulatif**. |
+|Service |Compétence ressource de service |Vérifiez si des compétences ressource de service sont définies pour l’article d’origine et transférez ces données vers le nouvel article. Pour afficher les compétences ressource, utilisez l’action **Compétences ressource** sur la page **Fiche article**.  |
+| |Composants article de service |Vérifiez si des composants sont définis pour l’article de service d’origine et transférez ces données vers le nouvel article. Pour afficher les composants article de service, sur la page **Fiche article**, utilisez l’action **Article de service** pour ouvrir la liste des articles de service associés, puis choisissez l’action **Composants**.  |
+|Fabrication |Nomenclatures de production |Vérifiez si les nomenclatures production contiennent l’article d’origine et remplacez-le par le nouvel article. Pour remplacer l’article d’origine, sur la page **Nomenclatures production**, choisissez l’action **Remplacer article nomenclature production**. |
+|Assemblage |Nomenclatures d’élément d’assemblage |Vérifiez si les nomenclatures d’élément d’assemblage contiennent l’article d’origine et remplacez-le manuellement par le nouvel article. |
 
 > [!IMPORTANT]
 > Si le nouveau mode évaluation stock est Standard, vous devez saisir une valeur dans le champ **Coût standard** sur la page **Fiche article**. Vous pouvez utiliser la page **Feuille coût standard** pour définir les coûts totaux en conséquence. Pour plus d’informations, voir [Mise à jour des coûts standard](finance-how-to-update-standard-costs.md).
@@ -116,23 +117,23 @@ Lorsque vous créez des ordres d’assemblage, utilisez les informations des Feu
 
 |Champ  |Valeur à saisir  |
 |---------|---------|
-|N° article     |Le numéro du nouvel article.         |
-|Quantité     |La quantité dans la feuille inventaire.<br> **REMARQUE :** les quantités calculées par les feuilles inventaire n’incluent pas les quantités qui se trouvent sur des commandes qui n’ont pas encore été expédiées.          |
-|Code variante     |Idem à la feuille inventaire.          |
-|Code magasin     |Idem à la feuille inventaire.         |
-|Code unité     |Idem à la feuille inventaire.         |
-|Code emplacement     |Idem à la feuille inventaire.         |
+|N° article |Le numéro du nouvel article. |
+|Quantité |La quantité dans la feuille inventaire.<br> **REMARQUE :** les quantités calculées par les feuilles inventaire n’incluent pas les quantités qui se trouvent sur des commandes qui n’ont pas encore été expédiées.  |
+|Code variante |Idem à la feuille inventaire.  |
+|Code magasin |Idem à la feuille inventaire. |
+|Code unité |Idem à la feuille inventaire. |
+|Code emplacement |Idem à la feuille inventaire. |
 
 #### <a name="lines"></a>Lignes
 
 |Champ  |Valeur à saisir  |
 |---------|---------|
-|Type     |Article ;         |
-|Non.     |Le numéro de l’article d’origine.         |
-|Quantité par     |1         |
-|Code variante     |Idem à la feuille inventaire.         |
-|Code magasin     |Idem à la feuille inventaire.         |
-|Code unité     |Idem à la feuille inventaire.         |
+|Type |Article ; |
+|Non. |Le numéro de l’article d’origine. |
+|Quantité par |1 |
+|Code variante |Idem à la feuille inventaire. |
+|Code magasin |Idem à la feuille inventaire. |
+|Code unité |Idem à la feuille inventaire. |
 
 > [!NOTE]
 > Un ordre d’assemblage ne peut gérer qu’un seul point de stock d’un article à la fois. Vous devez créer un ordre d’assemblage pour chaque combinaison de point de stock ayant une quantité en stock.
@@ -153,15 +154,15 @@ La table suivante répertorie les domaines fonctionnels où il peut y avoir des 
 
 |Région  |Où chercher des quantités en suspens  |
 |---------|---------|
-|Ventes     |Documents de vente, y compris commandes, retours, factures, devis, commandes cadre et avoirs         |
-|Stock     |Feuilles article, réservations, traçabilité et feuille coût standard         |
-|Achats     |Documents achat, y compris commandes, retours, factures, devis, commandes cadre et avoirs         |
-|Planning     |Demande achat, feuille planning et planification commande         |
-|Entrepôt     |Ordres transfert, expéditions en entrepôt, feuilles entrepôt, prélèvements, rangements et mouvements entrepôt, prélèvements et rangements internes, et feuilles création emplacement         |
-|Assemblage     |Documents d’assemblage, y compris les commandes, les retours et les commandes cadre         |
-|Projets     |Lignes planning projet et lignes feuille projet         |
-|Service     |Documents de service et contrats de service         |
-|Fabrication     |Ordres de fabrication (planifiés, et planifiés fermes et lancés)         |
+|Ventes |Documents de vente, y compris commandes, retours, factures, devis, commandes cadre et avoirs |
+|Stock |Feuilles article, réservations, traçabilité et feuille coût standard |
+|Achats |Documents achat, y compris commandes, retours, factures, devis, commandes cadre et avoirs |
+|Planning |Demande achat, feuille planning et planification commande |
+|Entrepôt |Ordres transfert, expéditions en entrepôt, feuilles entrepôt, prélèvements, rangements et mouvements entrepôt, prélèvements et rangements internes, et feuilles création emplacement |
+|Assemblage |Documents d’assemblage, y compris les commandes, les retours et les commandes cadre |
+|Projets |Lignes planning projet et lignes feuille projet |
+|Service |Documents de service et contrats de service |
+|Fabrication |Ordres de fabrication (planifiés, et planifiés fermes et lancés) |
 
 ### <a name="block-the-original-item-from-further-use"></a>Bloquer l’article d’origine de toute utilisation ultérieure
 

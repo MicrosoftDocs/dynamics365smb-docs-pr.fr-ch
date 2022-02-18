@@ -1,5 +1,5 @@
 ---
-title: Lettrer des écritures comptables client pour rapprocher les paiements | Microsoft Docs
+title: Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client
 description: Décrit comment lettrer des règlements ou des remboursements client dans une ou plusieurs écritures comptables client ouvertes et rapprocher les paiements client.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
+ms.search.form: 255
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef50dd0119922e7a67bdb10d0a3d3765bc54395f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 05b4d5074f77101e7158738b78126a562aabcc1e
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436088"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100966"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client
+
 Lorsque vous recevez le règlement d’un client ou que vous effectuez un remboursement, vous devez décider si vous souhaitez lettrer le paiement ou le remboursement pour clôturer une ou plusieurs écritures débit ou crédit. Vous pouvez indiquer le montant que vous souhaitez appliquer. Par exemple, vous pouvez appliquer des paiements partiels aux écritures comptables client. La clôture des écritures comptables client permet de garantir que des informations telles que les statistiques clients, les relevés bancaires et les intérêts de retard sont corrects.
 
 > [!TIP]  

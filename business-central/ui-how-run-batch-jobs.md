@@ -1,8 +1,6 @@
 ---
-title: Créer et exécuter un traitement par lots| Microsoft Docs
+title: Exécuter des traitements par lots et des ports XML
 description: Vous exécutez des traitements par lots pour traiter les données et mettre à jour les informations, par exemple, pour élaborer des activités périodiques de comptabilité, ou effectuer des calculs.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
+ms.search.form: 672, 676, 682
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 42cb5f19dde06211136b0b3b276fed2ba267ec62
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 84741ec7d98e405aeb5792a5d1a907221eef11f7
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435284"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100992"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Exécuter des traitements par lots et des ports XML
+
 Un traitement par lots est une routine qui traite les données par lots, par exemple le traitement par lots **Ajuster taux de change**. Certains traitements par lots exécutent des activités périodiques de comptabilité, telles que la clôture des comptes de gestion à la fin d’un exercice comptable. De nombreux traitements par lots exécutent des calculs, telles que le calcul des intérêts de retard, l’ajustement du taux de change et le calcul des prix unitaires.
 
 Un traitement par lots est similaire à un état, sauf qu’il utilise les résultats obtenus pour mettre à jour les informations directement plutôt que d’imprimer les résultats.

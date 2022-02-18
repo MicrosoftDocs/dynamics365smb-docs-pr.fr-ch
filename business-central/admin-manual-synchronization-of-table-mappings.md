@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca44ce5f2f83e61080ddfff5dbe1771ffc586653
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e9cd03df1e26eca92f5a69d02d73caac902d2b6b
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435537"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049577"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synchroniser manuellement les mappages de table
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Un mappage de table d’intégration associe une table [!INCLUDE[prod_short](includes/prod_short.md)], telle qu’un client, à une table [!INCLUDE[prod_short](includes/cds_long_md.md)], telle qu’un compte. Synchroniser un mappage de table d’intégration vous permet de synchroniser les données dans tous les enregistrements de la table [!INCLUDE[prod_short](includes/prod_short.md)] et de la table [!INCLUDE[prod_short](includes/cds_long_md.md)] qui sont couplés. En outre, selon la configuration du mappage de la table, la synchronisation peut créer et coupler de nouveaux enregistrements dans la solution de destination pour les enregistrements non couplés dans le source.  
 

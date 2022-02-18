@@ -12,14 +12,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f204c769a7a1fc8ddf3c6fd97fe485be8940dc43
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 29dd05db3d38d04fab38eaccea796bdffaca6dcc
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437141"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101336"
 ---
 # <a name="create-reports-with-xbrl"></a>Création d’états avec XBRL
+
+> [!NOTE]
+> Nous sommes en train de supprimer les fonctionnalités de création de rapports XBRL de [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Modifications dans la 1re vague de lancement 2022](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
+
 XBRL, qui signifie eXtensible Business Reporting Language, est basé sur le langage XML et est utilisé pour marquer des données financières et permettre aux sociétés de traiter et de partager leurs données de manière efficace et précise. L’initiative XBRL permet la génération d’états financiers généraux par de nombreux éditeurs de logiciels ERP et organisations comptables internationales. L’objectif de cette initiative et de fournir un standard pour la génération d’états d’informations financières uniformes pour les banques, les investisseurs et les autorités gouvernementales. Les rapports commerciaux générés de cette manière peuvent inclure :  
 
  • des états financiers ;  

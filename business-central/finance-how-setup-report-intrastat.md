@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 04/01/2021
+ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: d51e1657d6c28581a49af9b65b7bee8a27baa57f
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971108"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049681"
 ---
 # <a name="set-up-and-report-intrastat"></a>Configurer et enregistrer un état intracommunautaire
 
@@ -28,7 +28,11 @@ Avant d’utiliser la feuille intracommunautaire pour enregistrer des informatio
 * **Configuration intracomm.**  : la page Configuration intracomm. permet d’activer la D.E.B. et de définir des valeurs par défaut. Vous pouvez spécifier si vous devez enregistrer la D.E.B. à partir des expéditions (répartitions), des réceptions (arrivées) ou des deux, selon les seuils définis par vos réglementations locales. Vous pouvez également définir des types de transaction par défaut pour les documents classiques et de retour, utilisés pour la nature des états de transaction.
 * **Modèles de feuilles intracommunautaires** : Vous devez configurer les modèles et les feuilles intracommunautaires que vous utiliserez. Comme l’état intracommunautaire doit être généré mensuellement, vous devez créer 12 feuilles intracommunautaires basées sur le même modèle.  
 * **Codes marchandise** : les autorités douanières et fiscales ont établi des codes numériques pour classer les articles et les services. Vous spécifiez ces codes sur les articles.
-* **Codes nature de transaction** : les pays et les régions ont différents codes pour les types de transactions intracommunautaires, comme l’achat et la vente ordinaires, l’échange de marchandises retournées et l’échange de marchandises non retournées. Configurez tous les codes qui s’appliquent à votre pays/région. Utilisez ces codes dans les documents achat et vente, et lorsque vous traitez des retours.  
+* **Codes nature de transaction** : les pays et les régions ont différents codes pour les types de transactions intracommunautaires, comme l’achat et la vente ordinaires, l’échange de marchandises retournées et l’échange de marchandises non retournées. Configurez tous les codes qui s’appliquent à votre pays/région. Utilisez ces codes dans les documents achat et vente, et lorsque vous traitez des retours. 
+
+    > [!NOTE]
+    > À partir de janvier 2022, les Échanges intracommunautaires exigent un code de nature de transaction différent pour les envois aux particuliers ou aux entreprises non assujetties à la TVA et aux entreprises assujetties à la TVA. Pour se conformer à cette exigence, nous vous recommandons de revoir et/ou d’ajouter de nouveaux codes de nature de transaction dans la page **Types de transactions** selon les exigences de votre pays. Vous devriez également revoir et mettre à jour le champ **Type de partenaire** sur *Personne* pour les clients particuliers ou entreprises non assujetties à la TVA dans la page **Client**. Si vous n’êtes pas sûr du type de partenaire ou de transaction correct à utiliser, nous vous recommandons de demander à un expert dans votre pays ou votre région. 
+ 
 * **Modes de transport**: Il existe, de sept codes à un chiffre pour les modes de transport intracommunautaire. **1** Mer, **2** Chemin de fer, **3** Route, **4** Air **5** Voie postale, **7** Transports fixes et **9** Propulsion propre (par exemple le transport en voiture en la conduisant). [!INCLUDE[prod_short](includes/prod_short.md)] ne requiert pas ces codes, cependant, il est préférable que les descriptions offrent une signification similaire.  
 * **Régimes** : Vous pouvez les utiliser pour renseigner les descriptions des types de transaction.  
 * **Pays d’origine** : Utilisez les codes ISO Alpha à deux lettres pour le pays où le bien a été obtenu ou produit. Si le bien a été produit dans plusieurs pays, le pays d’origine est le dernier pays où il a été transformé de manière significative. 
@@ -110,13 +114,25 @@ Après avoir renseigné la feuille intracommunautaire, vous pouvez exécuter l�
 Le traitement par lots récupère toutes les écritures article de la période statistique et les insère sous forme de lignes dans la feuille intracommunautaire. Vous pouvez modifier au besoin les nouvelles lignes.  
 
 > [!IMPORTANT]  
-> Le traitement par lots récupère uniquement les écritures qui contiennent un code pays/région pour lequel un code intracommunautaire a été entré dans la page **Pays/Régions**. Vous devez donc entrer les codes intracommunautaires correspondant aux codes pays pour lesquels vous allez lancer le traitement par lots.  
+> Le traitement par lots récupère uniquement les écritures qui contiennent un code pays/région pour lequel un code intracommunautaire a été entré dans la page **Pays/Régions**. Vous devez donc entrer les codes intracommunautaires correspondant aux codes pays pour lesquels vous allez lancer le traitement par lots. Le traitement par lots définit le champ **Numéro de TVA du partenaire** sur *QV999999999999* pour les particuliers ou les entreprises non assujetties à la TVA (clients avec le champ **Type de partenaire** défini sur *Personne*), et il utilise la valeur du champ **Type de transaction** de l’écriture comptable de l’article comptabilisé ou de l’écriture comptable de la tâche. 
+
+### <a name="to-modify-intrastat-journals-lines"></a>Pour modifier les lignes des journaux Échanges intracommunautaires
+
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille intracomm.**, puis choisissez le lien associé.  
+2. Sur la page **Feuille intracomm.**, dans le champ **Nom de la feuille**, sélectionnez la feuille concernée, puis sélectionnez **OK**.  
+3. Utilisez le volet de filtre utilisateur pour filtrer les lignes du journal Échanges intracommunautaires en fonction de certains critères. Par exemple, filtrez les champs **Numéro de TVA du partenaire** avec la valeur *QV999999999999*.
+4. Choisissez l’icône **Partager** ![Partager une page dans une autre application.](media/share-icon.png) et sélectionnez **Modifier dans Excel**
+5. Dans Excel, modifiez les lignes de journal Échanges intracommunautaires que vous avez filtrées. Par exemple, modifiez les valeurs du champ **Type de transaction**.  
+6. Publiez les modifications que vous avez apportées dans Excel dans [!INCLUDE[prod_short](includes/prod_short.md)]
+
+> [!Note]
+> Dans les versions de [!INCLUDE[prod_short](includes/prod_short.md)] qui ne prennent pas en charge [**Modifier dans Excel**](across-work-with-excel.md#edit-in-excel) pour les journaux, vous pouvez [créer des packages de configuration](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) pour exporter et importer des lignes de journal Échanges intracommunautaires vers Excel. 
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Enregistrer un état intracommunautaire sur un formulaire ou un fichier
 
 Pour obtenir les informations requises sur le formulaire de D.E.B. à partir des autorités statistiques, vous devez imprimer l’état **D.E.B. : Formulaire**. Avant d’effectuer cette opération, vous devez préparer la feuille intracommunautaire et la renseigner. Si vous avez à la fois des transactions d’achat et de vente, vous devez compléter un formulaire distinct pour chaque type et donc imprimer l’état deux fois.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuilles intracomm.**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles intracomm.**, puis choisissez le lien associé.  
 2. Sur la page **Feuille intracomm.**, choisissez la feuille concernée dans le champ **Nom de la feuille**.  
 3. Si ce n’est déjà fait, renseignez la feuille manuellement ou sélectionnez l’action **Proposer lignes**.  
 4. Choisissez l’action **Imprime la feuille intracomm.**.  
@@ -139,7 +155,7 @@ Vous pouvez envoyer la déclaration d’échanges de biens en tant que fichier. 
 
 Parce que vous devez soumettre une D.E.B. chaque mois et créer une feuille pour chaque état, il peut donc exister de nombreuses feuilles. Les lignes feuille ne sont pas supprimées automatiquement. Vous pouvez réorganiser régulièrement les feuilles. Pour cela, il suffit de supprimer les feuilles dont vous n’avez plus besoin. Les lignes de ces feuilles sont également supprimées.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuilles intracomm.**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles intracomm.**, puis choisissez le lien associé.  
 2. Pour afficher les options, choisissez le champ **Nom de la feuille**.  
 3. Cliquez sur les feuilles à supprimer, puis sélectionnez le bouton **Supprimer**.  
 

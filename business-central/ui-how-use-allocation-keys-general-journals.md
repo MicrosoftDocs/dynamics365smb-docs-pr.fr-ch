@@ -1,8 +1,6 @@
 ---
 title: Utiliser les clés de ventilation dans les feuilles de comptabilité
 description: Vous pouvez ventiler une écriture dans une feuille comptabilité dans différents comptes lorsque vous validez la feuille.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
+ms.search.form: 283, 284
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 98316cbaf22546a9a2d01329fa1e242e219a1460
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 347e4999be079d31aa06cc80a1b7c9858d19ff57
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435232"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101310"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Utiliser les clés de ventilation dans les feuilles de comptabilité
 Vous pouvez ventiler une écriture dans une feuille comptabilité dans différents comptes lorsque vous validez la feuille. La ventilation peut être effectuée par quantité, pourcentage ou montant.

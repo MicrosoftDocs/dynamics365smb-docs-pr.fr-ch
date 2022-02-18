@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
+ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5db6ec05e8497dd3c3bac9b17ccb5dc673f11add
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: a9f4f2442e9cb3f8efc46cc7c9fd1f92c002d0dd
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940666"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115328"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Afficher le statut des projets de synchronisation
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Utilisez la page **Erreurs de synchronisation des données couplées** pour afficher le statut des projets de synchronisation exécutés pour les enregistrements couplés dans une intégration Dataverse ou [!INCLUDE[crm_md](includes/crm_md.md)]. Cela inclut les projets ayant été exécutés à partir de la file projets et les projets de synchronisation manuels qui ont été exécutés sur les enregistrements à partir du client [!INCLUDE[prod_short](includes/prod_short.md)]. Par exemple, l’affichage de leur statut est utile lors du dépannage, car il vous donne accès à des informations détaillées sur les erreurs liées aux enregistrements couplés. En règle générale, ces types d’erreur sont provoqués par des actions de l’utilisateur, par exemple lorsque :  
 

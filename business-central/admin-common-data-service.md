@@ -8,15 +8,15 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: 34e274b32fbf8cf04a40cf4db884c156e2115416
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9555ce9f7a072376b38a0be460b74c46f2b3f3f9
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320978"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049492"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Intégration à Microsoft Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Les applications métier utilisent souvent des données provenant de plusieurs sources. [!INCLUDE[prod_short](includes/cds_long_md.md)] combine les données en un seul ensemble de logique qui facilite la connexion d’autres applications Dynamics 365 telles que [!INCLUDE[crm_md](includes/crm_md.md)] ou votre propre application créée sur [!INCLUDE[prod_short](includes/cds_long_md.md)] à [!INCLUDE[prod_short_md](includes/prod_short.md)]. Pour en savoir plus sur [!INCLUDE[prod_short](includes/cds_long_md.md)], consultez [Qu’est-ce que Dataverse ?](/powerapps/maker/common-data-service/data-platform-intro)
 

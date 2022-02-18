@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
+ms.search.form: 253
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 9517c0ff254922dfa3a36e3de348e5a24abb38cd
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 815c9240c9c81129009f70f050c869df4eea9b3a
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011376"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101018"
 ---
 # <a name="sales"></a>Ventes
 Vous créez une facture vente ou une commande vente pour enregistrer votre accord avec un client pour vendre certains produits selon certaines conditions de livraison et de paiement.

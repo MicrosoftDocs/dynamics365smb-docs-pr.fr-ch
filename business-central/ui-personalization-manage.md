@@ -1,18 +1,19 @@
 ---
-title: Personnalisation des pages pour les rôles | Microsoft Docs
+title: Personnalisation des pages pour les rôles
 description: Découvrez comment personnaliser l’interface utilisateur d’un profil (rôle) de sorte que tous les utilisateurs de ce rôle voient un espace de travail personnalisé.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
+ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4849f1a1b6c802a597ff9a70abfb8133f85baed0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 370429bfbcc1d93c7cce8d40cf844eb021109e39
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438020"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101044"
 ---
 # <a name="customize-pages-for-profiles"></a>Personnaliser les pages pour les profils
 Les utilisateurs peuvent personnaliser des pages qui constituent leur espace de travail en fonction de leurs propres préférences. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
