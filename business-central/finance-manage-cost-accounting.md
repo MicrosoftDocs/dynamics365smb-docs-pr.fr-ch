@@ -1,24 +1,24 @@
 ---
 title: Comptabilité pour les coûts | Microsoft Docs
-description: La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activié. Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.
+description: La comptabilité analytique vous permet de cerner les coûts liés à l'exploitation d'un activié. Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 6505633f7535ed2b9f36d6670d4fdc1d6a6c4172
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 9539cbf3926a782bdaaf49a7054358e653c5e1ac
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788192"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183035"
 ---
 # <a name="accounting-for-costs"></a>Comptabilité pour les coûts
-La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activité. Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.  
+La comptabilité analytique vous permet de cerner les coûts liés à l'exploitation d'un activité. Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.  
 
 |Pour|Voir|  
 |--------|---------|  
@@ -35,7 +35,4 @@ La comptabilité analytique vous permet de cerner les coûts liés à l’exploi
 ## <a name="see-also"></a>Voir aussi  
 [Finances](finance.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

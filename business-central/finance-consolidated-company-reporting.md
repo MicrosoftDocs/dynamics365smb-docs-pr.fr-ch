@@ -1,126 +1,166 @@
 ---
-title: Consolider les données de plusieurs sociétés
-description: Cette rubrique explique comment vous pouvez consolider les écritures comptables d’au moins deux sociétés séparées (filiales) dans une société consolidée.
-author: edupont04
+title: Consolider les données de plusieurs sociétés | Microsoft Docs
+description: Obtenez une vue récapitulative de la santé financière de vos entreprises.
+documentationcenter: ''
+author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 1fd6dbc45dfbbdaa571161a8930d6b23471cac23
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 04/01/2020
+ms.author: bholtorf
+ms.openlocfilehash: fc026d34c39b7f045100e16024d971493041fb80
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970715"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183875"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidation des données financières de plusieurs sociétés
+Si vous avez plusieurs sociétés dans [!INCLUDE[d365fin](includes/d365fin_md.md)], l'état Balance consolidé du tableau de bord Comptable peut vous donner un aperçu de leur santé financière dans leur ensemble.  
 
-Certaines organisations utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans plusieurs centres de profit ou entités juridiques. D’autres utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans les filiales qui doivent rendre compte aux organisations mères. Dans les deux cas, les comptables utilisent des outils intégrés pour aider à consolider les données financières.  
+L'état regroupe les écritures comptables de chacune de vos sociétés dans une nouvelle société que vous créez pour stocker les données consolidées. Cette société est généralement appelée « société consolidée ». La société consolidée est un conteneur pour les données consolidées, et ne contient pas de données métier en temps réel. Les sociétés que vous incluez dans la société consolidée deviennent des **centres de profit** dans l'état.
 
-Vous pouvez consolider les écritures comptables d’au moins deux sociétés séparées (filiales) dans une société consolidée. Chaque société individuelle impliquée dans une consolidation est appelée centre de profit. La société résultant de la combinaison est appelée société consolidée.  
-
-Vous pouvez importer des données dans la société consolidée à partir d’autres sociétés de le même abonné [!INCLUDE [prod_short](includes/prod_short.md)], des abonnés ou des fichiers.  
-
-Si les états financiers d’un centre de profit sont dans une devise différente de celle de la société consolidée, vous devez configurer les taux de change pour la consolidation.  
+La consolidation des données financières peut être particulièrement appropriée en association avec des processus intersociétés. Pour plus d'informations, voir [Gestion des transactions intersociétés](intercompany-manage.md).
 
 Vous pouvez consolider :  
 
 * des sociétés avec plusieurs plans comptables ;  
 * des sociétés qui utilisent plusieurs exercices comptables et devises ;  
-* la totalité ou un pourcentage des informations financières d’une société ;
+* la totalité ou un pourcentage des informations financières d'une société ;
 * en utilisant plusieurs taux de change dans des comptes généraux individuels.
-* Entreprises dans d’autres programmes de gestion comptable et d’entreprise
 
-Vous configurez la société consolidée de la même manière que vous configurez d’autres sociétés. Le plan comptable est indépendant du plan comptable des autres centres de profit et le plan comptable des centres de profit individuels peut varier. Vous configurez une liste de sociétés à consolider, vérifiez les données comptables avant leur consolidation, importez des fichiers ou des bases de données et générez des états de consolidation. Pour plus d’informations, voir [Configurer la consolidation de la société](finance-consolidated-company-reporting-setup.md).  
+En fonction de la complexité de vos entreprises, il existe deux façons de configurer l'état :
 
-> [!TIP]
-> La consolidation des données financières peut être particulièrement appropriée en association avec des processus intersociétés. Pour plus d’informations, voir [Gestion des transactions intersociétés](intercompany-manage.md).
+* Si les paramètres avancés ne sont pas nécessaires, par exemple l'ajout d'une société que vous détenez en partie, vous pouvez utiliser le guide de configuration assistée **Consolidation de la société** pour configurer rapidement une consolidation. Le guide vous aide à effectuer les étapes de base.
+* Si des paramètres plus avancés sont nécessaires, vous pouvez configurer vous-même la société consolidée et les centres de profit.
 
-## <a name="trial-balance"></a>Balance
+## <a name="to-do-a-simple-consolidation-setup"></a>Pour configurer une consolidation simple
+Si votre consolidation est simple, car vous détenez en totalité les centres de profit à consolider, le guide de configuration assistée **Consolidation de la société** vous aide à effectuer les étapes suivantes :
 
-Si vous avez plusieurs sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)], l’état **Balance consolidé** peut vous donner un aperçu de leur santé financière dans leur ensemble.  
+* Choisissez si vous souhaitez créer une société consolidée, ou consolider les données dans une société que vous avez déjà créée pour la consolidation. La société ne doit pas contenir de transactions.
+* Affichez un aperçu des résultats. [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie que les données de base et les transactions peuvent être transférées avec succès vers la société consolidée.
 
-L’état regroupe les écritures comptables de chacune de vos sociétés dans une nouvelle société que vous créez pour stocker les données consolidées. Cette société est généralement appelée « société consolidée ». La société consolidée est un conteneur pour les données consolidées, et ne contient pas de données métier en temps réel. Les sociétés que vous incluez dans la société consolidée deviennent des **centres de profit** dans l’état. Pour plus d’informations, voir [Configurer la consolidation de la société](finance-consolidated-company-reporting-setup.md).  
+Pour utiliser le guide de configuration assistée, procédez comme suit :
 
-## <a name="consolidate-data"></a>Consolider les données
+1. Dans le tableau de bord **Comptable**, choisissez l'action **Configuration assistée**.
+2. Choisissez **Configurer la création d'états de consolidation**, puis effectuez chaque étape du guide de configuration assistée.
 
-Le processus de transfert des chiffres des centres de profit vers la société consolidée est la *consolidation* à proprement parler. Avant de réaliser cette opération, il peut être intéressant de rechercher les éventuelles différences entre les informations de base dans les centres de profit et dans la société consolidée. Il existe deux états que vous pouvez utiliser pour tester la base de données et le fichier.
+## <a name="to-do-an-advanced-consolidation-setup"></a>Pour configurer une consolidation avancée
+Si des paramètres plus avancés sont nécessaires pour votre consolidation, vous pouvez configurer manuellement la consolidation. Par exemple, si vous détenez partiellement des sociétés, ou si vous ne souhaitez pas inclure des sociétés dans la consolidation. Vous configurez la société consolidée de la même manière que vous configurez d'autres sociétés. Pour plus d'informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet de créer une liste de sociétés à consolider, de vérifier les données comptables avant leur consolidation, d'importer des fichiers et de générer des états de consolidation.  
+
+1. Connectez-vous à la société consolidée.
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
+3. Sélectionnez **Nouveau**, puis renseignez les champs requis. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!IMPORTANT]
+> Lorsque vous renseignez les champs **Date début** et **Date de fin**, assurez-vous de vous conformer aux règles GAAP concernant les périodes fiscales du centre de profit par rapport à la société mère.
+
+Si votre centre de profit utilise une devise étrangère, indiquez le taux de change à utiliser dans la consolidation. Vous devez également entrer des informations de consolidation sur les comptes généraux du centre de profit. Ces processus sont décrits dans les sections suivantes.
+
+### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Pour préparer les comptes généraux pour la consolidation
+Si le plan comptable du centre de profit diffère de celui de la société consolidée, vous devez préparer les comptes généraux pour la consolidation. Vous pouvez spécifier les comptes sur lesquels valider les débits et crédits et la méthode à utiliser pour convertir des devises dans la société consolidée. Par exemple, cela est utile si vous exécutez souvent l'état.
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Plan comptable**, puis sélectionnez le lien associé.  
+2. Ouvrez la fiche du compte, puis renseignez les champs du raccourci **Consolidation**.
+
+### <a name="to-specify-exchange-rates-for-consolidations"></a>Pour indiquer des taux de change pour les consolidations
+Si un centre de profit utilise une devise différente de celle de la société consolidée, vous devez spécifier des méthodes de conversion de taux de change pour chaque compte avant la consolidation. Pour chaque compte, la valeur du champ **Consolider la méthode de traduction** détermine le taux de change. Dans chaque fiche centre de profit, dans le champ **Table Taux de change devise**, vous spécifiez si la consolidation utilise les taux de change du centre de profit ou de la société consolidée. Si vous utilisez les taux de change de la société consolidée, vous pouvez les modifier pour un centre de profit. Pour les centres de profit, si le champ **Table Taux de change devise** de la fiche centre de profit contient la valeur **Local**, vous pouvez modifier le taux de change à partir de la fiche centre de profit. Les taux de change sont copiés à partir de la table **Taux de change devise**, mais vous pouvez les modifier avant la consolidation.
+
+Le tableau suivant décrit les méthodes de conversion de taux de change que vous pouvez utiliser pour les comptes.
+
+|Taux de change | Utilisation courante |
+|---|---|
+|Taux moyen (manuel) | Vous calculez manuellement le taux moyen pour la période à consolider. Calculez une moyenne arithmétique ou une estimation au plus près, puis spécifiez le résultat pour chaque centre de profit. Utilisé pour les comptes résultats.|
+|Taux de clôture | Utilisé pour les comptes de bilan.|
+|Dernier taux de clôture | Taux valide sur le marché des changes à la date pour laquelle le bilan ou l'exercice comptable est préparé. Entrez ce taux pour chaque centre de profit. Utilisé pour les comptes de bilan.|
+|Taux historique | Taux de change valide au moment de la transaction.|
+|Taux composite | Les montants de la période en cours sont convertis au taux moyen et ajoutés au solde précédemment enregistré dans la société consolidée. Cette méthode est généralement utilisée pour les comptes bénéfices non répartis, car ils incluent des montants provenant de périodes différentes et constituent donc un composé des montants convertis avec différents taux de change.|
+|Taux des fonds propres | Il est similaire au **Taux composite**. Les différences sont validées sur des comptes généraux distincts.|   
+
+Pour spécifier des taux de change pour les centres de profit, procédez comme suit :
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
+2. Sur la page **Liste des centres de profit**, choisissez le centre de profit, puis choisissez l'action **Taux moyen (manuel)**.   
+3. Sur la page **Modifier taux de change**, la valeur du champ **Montant taux de change lié** est copiée à partir de la table **Taux de change devise**, mais vous pouvez la modifier. Fermez la page.  
+4. Choisissez l'action **Taux de clôture**.  
+5. Dans le champ **Montant taux de change lié**, saisissez le taux de change.
+
+<!-- ### To include or exclude dimensions
+
+COMMENTING THIS OUT BECAUSE i CANNOT REPRODUCE THE SETTINGS. tHERE IS NO CONSOLIDATION CODE FIELD ON DIMENSIONS OR DIMENSIOIN VALUES.
+
+You can consolidate dimension information and general ledger accounts, as follows:
+
+* To exclude dimension information in the consolidation, leave the **Consolidation Code** field blank, and do not choose dimensions in the **Copy Dimensions** fields in any consolidation functions or reports described later in this topic.
+* To include dimension information in the consolidation, leave the **Consolidation Code** field blank. However, the consolidation will only work if the dimension values in the business unit are the same as the consolidated company.
+* To consolidate the dimension value code in the business unit with a different dimension value code in the consolidated company, fill in the **Consolidation Code**. -->
+
+### <a name="to-exclude-a-company-from-consolidation"></a>Pour exclure une société de la consolidation
+Si vous ne souhaitez pas inclure un centre de profit dans la consolidation, vous pouvez l'exclure. Pour ce faire, accédez à la fiche centre de profit et désactivez la case à cocher **Consolider**.
+
+### <a name="to-include-a-partially-owned-company-in-consolidation"></a>Pour inclure une société partiellement détenue dans la consolidation
+Si vous détenez une société en partie, vous pouvez ajouter un pourcentage de chaque transaction qui correspond au pourcentage de la société que vous détenez. Par exemple, si vous possédez 70 % de la société, la consolidation inclut 70 USD d'une facture de 100 USD. Pour spécifier le pourcentage de la société que vous détenez, accédez à la fiche centre de profit et saisissez le pourcentage dans le champ **% consolidation**.  
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Pour tester les données avant la consolidation
-
-Vous pouvez tester vos données avant de les transférer vers la société consolidée. [!INCLUDE[prod_short](includes/prod_short.md)] recherche des différences dans les informations des centres de profit et de la société consolidée. Par exemple, si les numéros de compte ou les codes axe sont différents. Vous devez corriger les erreurs avant d’exécuter l’état. Vous pouvez tester la base de données ou, si vous importez des données à partir d’un fichier XML, vous pouvez tester le fichier.  
+Vous pouvez tester vos données avant de les transférer vers la société consolidée. [!INCLUDE[d365fin](includes/d365fin_md.md)] recherche des différences dans les informations des centres de profit et de la société consolidée. Par exemple, si les numéros de compte ou les codes axe sont différents. Vous devez corriger les erreurs avant d'exécuter l'état. Vous pouvez tester la base de données ou, si vous importez des données à partir d'un fichier XML, vous pouvez tester le fichier.   
 
 1. Ouvrez la société consolidée.  
-2. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Centres de profit**, puis choisissez le lien associé.  
-3. Exécutez l’une des opérations suivantes :  
+2. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
+3. Exécutez l'une des opérations suivantes :  
 
-    * Pour tester un fichier, choisissez l’action **Tester fichier**, entrez le nom du fichier à tester, puis choisissez **Imprimer**.  
+    * Pour tester un fichier, choisissez l'action **Tester fichier**, entrez le nom du fichier à tester, puis choisissez **Imprimer**.  
     * Pour tester la base de données, choisissez **Tester base de données**.  
 
-### <a name="run-the-consolidation"></a>Exécuter la consolidation
-
+## <a name="to-run-the-consolidation"></a>Pour exécuter la consolidation
 Une fois les données testées, vous pouvez les transférer vers la société consolidée.  
 
 1. Connectez-vous à la société consolidée.  
-2. Dans le **Tableau de bord Comptable**, choisissez l’action **Exécuter la consolidation**.  
+2. Dans le **Tableau de bord Comptable**, choisissez l'action **Exécuter la consolidation**.  
 3. Renseignez les champs requis.  
-4. Dans la section Filtre, définissez un filtre pour le centre de profit ou le nom de l’entreprise concerné.  
-5. Planifiez éventuellement l’état à exécuter à une heure spécifique.  
+4. Dans le champ **Où**, choisissez **Nom de la société**, puis choisissez la société consolidée dans le champ **est**.
 
-## <a name="eliminate-repeated-transactions"></a>Éliminer les transactions répétées
+## <a name="to-eliminate-repeated-transactions"></a>Pour éliminer les transactions répétées
+Après que vous avez consolidé toutes les sociétés, vous devez rechercher toutes les transactions enregistrées dans plusieurs sociétés, puis valider les écritures d'élimination pour les supprimer.
 
-Après que vous avez consolidé toutes les sociétés, vous devez rechercher toutes les transactions enregistrées dans plusieurs sociétés, puis valider les écritures d’élimination pour les supprimer.
-
-Le traitement d’éliminations de consolidation est un processus manuel.  
-
-Pour éliminer les transactions répétées :
-
+Le traitement d'éliminations de consolidation est un processus manuel. Vous pouvez procéder comme suit :
 1. Recherchez des transactions qui doivent être ajustées potentiellement et entrez les lignes feuille comptabilité pour les éliminer.
-2. Exécutez le rapport **Éliminations consolidation compta.** pour évaluer l’effet des lignes feuille comptabilité avant la validation.
-3. Validez les transactions d’ajustement.
+2. Exécutez le rapport **Éliminations consolidation compta.** pour évaluer l'effet des lignes feuille comptabilité avant la validation.
+3. Validez les transactions d'ajustement.
 
-L’état **Éliminations consolidation compta.** affiche une tentative de balance où vous pouvez simuler les conséquences de l’élimination des écritures en comparant les écritures de la société consolidée aux éliminations entrées dans la feuille comptabilité.
+L'état **Éliminations consolidation compta.** affiche une tentative de balance où vous pouvez simuler les conséquences de l'élimination des écritures en comparant les écritures de la société consolidée aux éliminations entrées dans la feuille comptabilité.
 
-Pour qu’un centre de profit puisse être inclus dans un état, il doit être défini sur la page **Centres de profit** et le champ **Consolider** doit être sélectionné.
+Pour qu'un centre de profit puisse être inclus dans un état, il doit être défini sur la page **Centres de profit** et le champ **Consolider** doit être sélectionné.
 
-Chaque compte s’affiche individuellement sur une ligne, selon la structure du plan comptable. Un compte n’est pas affiché si tous les montants de la ligne sont égaux à 0. Les informations suivantes sont données pour chaque compte :
+Chaque compte s'affiche individuellement sur une ligne, selon la structure du plan comptable. Un compte n'est pas affiché si tous les montants de la ligne sont égaux à 0. Les informations suivantes sont données pour chaque compte :
 
 * Numéro de compte
 * Nom du compte.
-* Si vous avez sélectionné un ou plusieurs codes centre de profit dans le champ **Code centre de profit** de la page de demande, un total excluant les éliminations et les centres de profit sélectionnés est affiché pour la société consolidée. Si le champ **Code centre de profit** n’est pas renseigné, un total excluant les éliminations est affiché pour la société consolidée.
-* Si vous avez sélectionné un code centre de profit dans le champ **Code centre de profit** de la page de demande, un total est affiché pour les écritures importées à partir du centre de profit. Si le champ **Code centre de profit** n’est pas renseigné, un total est affiché pour les éliminations validées dans la société consolidée.
+* Si vous avez sélectionné un ou plusieurs codes centre de profit dans le champ **Code centre de profit** de la page de demande, un total excluant les éliminations et les centres de profit sélectionnés est affiché pour la société consolidée. Si le champ **Code centre de profit** n'est pas renseigné, un total excluant les éliminations est affiché pour la société consolidée.
+* Si vous avez sélectionné un code centre de profit dans le champ **Code centre de profit** de la page de demande, un total est affiché pour les écritures importées à partir du centre de profit. Si le champ **Code centre de profit** n'est pas renseigné, un total est affiché pour les éliminations validées dans la société consolidée.
 * Le total de la société consolidée, avec tous les centres de profit et toutes les éliminations validées.
-* Les éliminations à effectuer dans la société consolidée, c’est-à-dire les écritures de la feuille comptabilité sélectionnée sur la page de demande.
+* Les éliminations à effectuer dans la société consolidée, c'est-à-dire les écritures de la feuille comptabilité sélectionnée sur la page de demande.
 * Le texte de validation copié à partir de la feuille comptabilité.
 * Le total de la société consolidée après les éliminations, si elles sont validées.
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Exporter et importer des données consolidées entre des bases de données
 
-Si les données d’un centre de profit se trouvent dans une autre base de données, vous devez exporter les données dans un fichier avant de les inclure dans la consolidation. Chaque société doit être exportée séparément. À cette fin, utilisez le traitement par lots **Exporter fichier consolidation**.  
+## <a name="to-export-and-import-consolidated-data-between-databases"></a>Pour exporter et importer des données consolidées entre des bases de données
+Si les données d'un centre de profit se trouvent dans une autre base de données, vous devez exporter les données dans un fichier avant de les inclure dans la consolidation. Chaque société doit être exportée séparément. À cette fin, utilisez le traitement par lots **Exporter fichier consolidation**.  
 
-> [!TIP]
-> Utilisez le même processus pour exporter les données consolidées qui doivent être soumises à Dynamics 365 Finance, par exemple si le centre de profit actuel est une filiale et que la société mère utilise Dynamics 365 Finance.
-
-Après l’exécution du traitement par lots, toutes les écritures des comptes généraux sont traitées. Pour chaque combinaison d’axe principal et date sélectionnés, la valeur des champs **Montant** des écritures est totalisée et exportée. La combinaison d’axe principal et date sélectionnés suivante qui a le même numéro de compte est traitée, puis les combinaisons ayant le numéro de compte suivant sont traitées, etc.  
+Après l'exécution du traitement par lots, toutes les écritures des comptes généraux sont traitées. Pour chaque combinaison d'axe principal et date sélectionnés, la valeur des champs **Montant** des écritures est totalisée et exportée. La combinaison d'axe principal et date sélectionnés suivante qui a le même numéro de compte est traitée, puis les combinaisons ayant le numéro de compte suivant sont traitées, etc.  
 
 Les écritures exportées contiennent les champs suivants : **N° compte**, **Date comptabilisation** et **Montant**. Si des informations analytiques ont également été exportées, des codes axe et des sections analytiques sont également inclus.  
 
 1. Pour chaque ligne exportée, si le total des champs **Montant** est un débit, le numéro de compte configuré dans le champ **Compte débit consolidation** du centre de profit est exporté vers la ligne. Si le total est un crédit, le numéro correspondant dans le champ **Compte crédit consolidation** est exporté vers la ligne.  
 2. La date utilisée pour chaque ligne exportée est la date de fin de la période ou, si le transfert est opéré chaque jour, la date du calcul.  
-3. La section analytique exportée pour la saisie est celle de la société consolidée configurée dans le champ **Code consolidation** pour cette section analytique. Si aucune section analytique de société consolidée n’a été entrée dans le champ **Code consolidé** à cette fin, la section analytique proprement dite est exportée vers la ligne.  
-4. Les fichiers XML contiennent également les taux de change devise correspondant à la période de consolidation. Ces taux sont inclus dans une section distincte au début du fichier.  
+3. La section analytique exportée pour la saisie est celle de la société consolidée configurée dans le champ **Code consolidation** pour cette section analytique. Si aucune section analytique de société consolidée n'a été entrée dans le champ **Code consolidé** à cette fin, la section analytique proprement dite est exportée vers la ligne.   
+4. Les fichiers XML contiennent également les taux de change devise correspondant à la période de consolidation. Ces taux sont inclus dans une section distincte au début du fichier.
 
 ## <a name="see-also"></a>Voir aussi
-
-[Configurer la consolidation de la société](finance-consolidated-company-reporting-setup.md)  
 [Gestion des transactions intersociétés](intercompany-manage.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Exportation de vos données métier vers Excel](about-export-data.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
-title: Gérer les segments et sélectionner les contacts
-description: Cette rubrique explique comment créer un segment en sélectionnant un groupe de contacts selon des critères spécifiques pour cibler ultérieurement ce segment avec une campagne.
+title: Gérer les segments et sélectionner les contacts à inclure| Microsoft Docs
+description: Décrit les tâches pour créer un segment pour sélectionner un groupe de contacts en fonction de critères spécifiques, par exemple, les contacts dans un secteur que vous souhaitez cibler.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
-ms.date: 06/22/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 4a782c0e4fcb98243f7902d2564c79ca831b0955
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 2f4115e62b1350fe55019aca94cb1d8beb6d93ae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059793"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181307"
 ---
 # <a name="managing-segments"></a>Gestion des segments
-Vous pouvez créer des segments qui vous permettent de sélectionner un groupe de contacts en fonction de critères spécifiques. Par exemple, un segment peut être le secteur auquel les contacts appartiennent ou votre relation d’affaires avec les contacts. Vous pouvez créer un segment pour sélectionner les contacts ciblés par une campagne.
+Vous pouvez créer des segments qui vous permettent de sélectionner un groupe de contacts en fonction de critères spécifiques. Par exemple, un segment peut être le secteur auquel les contacts appartiennent ou votre relation d'affaires avec les contacts. Vous pouvez créer un segment pour sélectionner les contacts ciblés par une campagne.
 
-La création d’un segment est constituée de deux tâches principales :
+La création d'un segment est constituée de deux tâches principales :
 
 * saisie des informations générales sur le segment ; Pour pouvoir sélectionner les contacts dans le segment, vous devez commencer par créer le segment.
 * sélection des contacts à inclure dans le segment.
@@ -33,12 +33,9 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | --- | --- |
 | Créer des segments qui vous permettent de sélectionner un groupe de contacts. Par exemple, un courrier direct. |[Création de segments](marketing-how-create-segment.md) |
 | Gérer les contacts affectés aux segments. |[Ajouter des contacts à des segments](marketing-add-contact-segment.md) |
-| En savoir plus sur l’utilisation des interactions pour les segments, y compris la journalisation. |[Gestion des interactions pour des segments](marketing-interaction-segments.md) |
+| En savoir plus sur l'utilisation des interactions pour les segments, y compris la journalisation. |[Gestion des interactions pour des segments](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Gestion de contacts](marketing-contacts.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

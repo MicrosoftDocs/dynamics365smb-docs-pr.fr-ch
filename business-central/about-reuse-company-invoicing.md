@@ -1,56 +1,53 @@
 ---
-title: Utiliser Invoicing et Business Central | Microsoft Docs
+title: Utiliser Invoicing et Business Central | Microsoft Docs
 description: Solution de contournement pour accéder à Microsoft Invoicing lorsque vous vous êtes inscrit à Dynamics 365 Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Invoicing, Microsoft 365
-ms.date: 04/01/2021
+ms.search.keywords: Invoicing, Office 365
+ms.date: 04/30/2020
 ms.author: bholtorf
-ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7776cd01218f5959734173226574bb4a0d043153
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439162"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333875"
 ---
-# <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Utilisation du même compte Microsoft 365 dans [!INCLUDE[prod_short](includes/prod_long.md)] et Microsoft Invoicing
-Lorsque vous êtes inscrit à une version d’évaluation avec [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez passer à une phase d’évaluation de 30 jours, démarrer un abonnement ou encore l’arrêter à l’aide de [!INCLUDE[prod_short](includes/prod_short.md)]. Dans tous les cas, vous avez peut-être à un moment donné vu quelque chose appelé **Microsoft Invoicing** et cliqué dessus. Il s’agissait d’une application qui faisait partie de ce qui est maintenant Microsoft 365 Business Standard et était anciennement connue sous le nom de Microsoft 365 Abonnement Business Premium, donc tout le monde n’aura pas vu cette mosaïque au cours de son expérience Microsoft 365.  
+# <a name="using-the-same-office-365-account-in-d365fin-and-microsoft-invoicing"></a>Utilisation du même compte Office 365 dans [!INCLUDE[d365fin](includes/d365fin_long_md.md)] et Microsoft Invoicing
+Lorsque vous êtes inscrit à une version d'évaluation avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez passer à une phase d'évaluation de 30 jours, démarrer un abonnement ou encore l'arrêter à l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dans tous les cas, vous avez peut-être à un moment donné vu quelque chose appelé **Microsoft Invoicing** et cliqué dessus. Il s'agissait d'une application qui faisait partie de ce qui est maintenant Microsoft 365 Business Standard et était anciennement connue sous le nom de Office 365 Abonnement Business Premium, donc tout le monde n'aura pas vu cette mosaïque au cours de son expérience Office 365.  
 
-Microsoft Invoicing n’est plus disponible, mais si vous devez vous connecter à Invoicing pour récupérer vos données, un message vous indiquant que vous ne pouvez pas accéder à Microsoft Invoicing car votre compte est utilisé dans [!INCLUDE[prod_short](includes/prod_short.md)].  
+Microsoft Invoicing n'est plus disponible, mais si vous devez vous connecter à Invoicing pour récupérer vos données, un message vous indiquant que vous ne pouvez pas accéder à Microsoft Invoicing car votre compte est utilisé dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Un message similaire s’affiche si vous installez l’application mobile pour Invoicing.  
+Un message similaire s'affiche si vous installez l'application mobile pour Invoicing.  
 
 ## <a name="workaround"></a>Solution de contournement
-Invoicing et [!INCLUDE[prod_short](includes/prod_short.md)] ont une plate-forme partagée. Cela signifie que vous êtes reconnu en tant qu’utilisateur existant de [!INCLUDE[prod_short](includes/prod_short.md)] lorsque vous cliquez sur Facturation dans Centre d’administration Microsoft 365. Invoicing ne peut pas utiliser la même société que [!INCLUDE[prod_short](includes/prod_short.md)].  
+Invoicing et [!INCLUDE[d365fin](includes/d365fin_md.md)] ont une plate-forme partagée. Cela signifie que vous êtes reconnu en tant qu'utilisateur existant de [!INCLUDE[d365fin](includes/d365fin_md.md)] lorsque vous cliquez sur Facturation dans Centre d’administration Microsoft 365. Invoicing ne peut pas utiliser la même société que [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Vous devez donc vous connecter à [!INCLUDE[prod_short](includes/prod_short.md)] et renommer votre société existante, puis créer une nouvelle société que vous pourrez alors utiliser dans Invoicing. Aucune donnée n’est déplacée ou remplacée au cours de cette opération.
+Vous devez donc vous connecter à [!INCLUDE[d365fin](includes/d365fin_md.md)] et renommer votre société existante, puis créer une nouvelle société que vous pourrez alors utiliser dans Invoicing. Aucune donnée n'est déplacée ou remplacée au cours de cette opération.
 
 ### <a name="to-rename-your-company"></a>Pour renommer votre société
-1. Connectez-vous à [!INCLUDE[prod_short](includes/prod_short.md)].
-2. Dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres.](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez **Mes paramètres**.
+1. Connectez-vous à [!INCLUDE[d365fin](includes/d365fin_md.md)].
+2. Dans le coin supérieur droit, sélectionnez l'icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez **Mes paramètres**.
 3. Dans le champ **Société**, sélectionnez une autre société.
-4. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sociétés**, puis choisissez le lien associé.  
+4. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sociétés**, puis sélectionnez le lien associé.  
 5. Sur la page **Sociétés**, sélectionnez le bouton **Modifier la liste**.  
-6. Remplacez le nom de l’entrée *Ma société* par un autre nom.  
+6. Remplacez le nom de l'entrée *Ma société* par un autre nom.  
 
     Patientez quelques minutes. Nous apporterons plusieurs modifications à la base de données sous-jacente, et cette opération prendra un certain temps.
 7.  Lorsque le système est à nouveau prêt, sélectionnez le bouton **Créer une nouvelle société**.  
-8.  Dans la boîte de dialogue qui s’affiche, entrez *Ma société* comme nom et sélectionnez l’option **Production - Données de configuration uniquement**.  
+8.  Dans la boîte de dialogue qui s'affiche, entrez *Ma société* comme nom et sélectionnez l'option **Production - Données de configuration uniquement**.  
 
-Cette opération prend plusieurs minutes. Lorsque le processus est terminé, vous pouvez accéder à Invoicing dans le cadre de votre expérience Microsoft 365 Business Standard. Mais uniquement pour exporter des données, car l’application Facturation est obsolète.  
+Cette opération prend plusieurs minutes. Lorsque le processus est terminé, vous pouvez accéder à Invoicing dans le cadre de votre expérience Microsoft 365 Business Standard. Mais uniquement pour exporter des données, car l'application Facturation est obsolète.  
 
-### <a name="what-about-my-data"></a>Qu’en est-il de mes données ?
-Lorsque vous renommez la société d’origine, les tables de la base de données qui stockent vos données [!INCLUDE[prod_short](includes/prod_short.md)] existantes sont renommées, mais les données proprement dites sont conservées.  
+### <a name="what-about-my-data"></a>Qu'en est-il de mes données ?
+Lorsque vous renommez la société d'origine, les tables de la base de données qui stockent vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] existantes sont renommées, mais les données proprement dites sont conservées.  
 
-Si vous utilisez Invoicing et [!INCLUDE[prod_short](includes/prod_short.md)], les données sont stockées dans deux conteneurs différents (les deux sociétés). Aucun donnée n’est partagée, vous devrez donc gérer les clients et les articles dans les deux sociétés.  
+Si vous utilisez Invoicing et [!INCLUDE[d365fin](includes/d365fin_md.md)], les données sont stockées dans deux conteneurs différents (les deux sociétés). Aucun donnée n'est partagée, vous devrez donc gérer les clients et les articles dans les deux sociétés.  
 
 ## <a name="see-also"></a>Voir aussi
-[Forum Aux Questions](across-faq.yml)  
+[Forum Aux Questions](across-faq.md)  
 [Administration](admin-setup-and-administration.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

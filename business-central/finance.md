@@ -1,28 +1,28 @@
 ---
-title: Gestion financière (contient une vidéo)
-description: Découvrez comment Business Central répond à vos besoins en matière de gestion financière, de comptabilité, d’audit ou de tenue des registres.
+title: Gestion financière| Microsoft Docs
+description: En savoir plus sur les tâches pour paramétrer les finances de votre société afin de les adapter à votre comptabilité ou vos audits.
+services: project-madeira
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 06/15/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2582e96b8113abe91fe10a087833d4fbeb5b7da5
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970926"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410762"
 ---
-# <a name="financial-management"></a>Gestion financière
+# <a name="finance"></a>Finance
+[!INCLUDE[d365fin](includes/d365fin_md.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l'adapter à votre activité. Pour plus d'informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l’adapter à votre activité. Pour plus d’informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
-
-La configuration par défaut inclut un plan comptable et des groupes comptabilisation standard qui permettent d’accroître l’efficacité du processus d’affectation des comptes de validation de comptabilité par défaut aux clients, fournisseurs et articles.  
+La configuration par défaut inclut un plan comptable et des groupes comptabilisation standard qui permettent d'accroître l'efficacité du processus d'affectation des comptes de validation de comptabilité par défaut aux clients, fournisseurs et articles.  
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 
@@ -30,50 +30,40 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | --- | --- |
 | Lettrer des paiements entrants, rapprocher des comptes bancaires pendant le lettrage de paiement et collecter des soldes échus. |[Gestion des comptes client](receivables-manage-receivables.md) |
 | Effectuer des paiements, lettrer les paiements sortants et traiter les chèques. |[Gestion des comptes fournisseur](payables-manage-payables.md) |
-|Faire en sorte que vos clients envoient leur règlement avant la livraison ou envoyer le paiement à vos fournisseurs avant qu’ils n’effectuent la livraison.|[Facturation d’acomptes](finance-invoice-prepayments.md)|
+|Faire en sorte que vos clients envoient leur règlement avant la livraison ou envoyer le paiement à vos fournisseurs avant qu'ils n'effectuent la livraison.|[Facturation d'acomptes](finance-invoice-prepayments.md)|
 | Rapprocher des comptes bancaires et transférer des fonds entre comptes bancaires. |[Rapprochement de comptes bancaires](bank-manage-bank-accounts.md) |
 |Configurer les partenaires intersociétés et traiter les transactions, manuellement ou automatiquement, entre les personnes morales dans la même société.|[Gestion des transactions intersociétés](intercompany-manage.md)|
 |Analyser les coûts de fonctionnement de votre activité en affectant les coûts réels et budgétés des opérations, des départements, des produits et des projets relatifs aux centres de coûts.|[Comptabilité pour les coûts](finance-manage-cost-accounting.md)|
 |Gérer les coûts ajustés et de fabrication, générer des états sur les coûts et rapprocher les coûts avec la comptabilité.|[Gestion des coûts ajustés](finance-manage-inventory-costs.md)|
 | Comprendre les écritures comptables et le plan comptable. |[Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md) |
-|Combiner des écritures comptables de plusieurs sociétés dans une société consolidée virtuelle pour l’analyse financière.|[Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)|
+|Combiner des écritures comptables de plusieurs sociétés dans une société consolidée virtuelle pour l'analyse financière.|[Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)|
 | Ajouter des axes analytiques pour un veille économique enrichie. |[Utilisation des axes analytiques](finance-dimensions.md) |
 | Créer des budgets comptabilité pour prévoir différentes activités financières et affecter des axes analytiques à des fins de veille économique. |[Créer des budgets comptabilité](finance-how-create-budgets.md) |
 |Enregistrez les revenus ou les frais directement dans la comptabilité sans valider les documents commerciaux appropriés.|[Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)|
-|Valider les écritures contrepassées pour annuler les validations de valeur dans la feuille comptabilité ou les validations de quantité sur des documents achat et vente. |[Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)|
-|Ventiler une écriture d’une feuille comptabilité dans différents comptes lorsque vous validez la feuille. |[Répartition des coûts et du revenu](year-allocate-costs-income.md) |
-| Affectez les surcoûts, tels que le fret et la manutention que vous encourez lors de la transaction, jusqu’aux articles impliqués afin que les coûts soient répercutées dans l’évaluation du stock. |[Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md) |
+|Valider les écritures contrepassées pour annuler les validations de valeur dans la feuille comptabilité ou les validations de quantité sur des documents achat et vente. |[Inversion d'une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)|
+|Ventiler une écriture d'une feuille comptabilité dans différents comptes lorsque vous validez la feuille. |[Répartition des coûts et du revenu](year-allocate-costs-income.md) |
+| Affectez les surcoûts, tels que le fret et la manutention que vous encourez lors de la transaction, jusqu'aux articles impliqués afin que les coûts soient répercutées dans l'évaluation du stock. |[Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md) |
 |Valider les frais personnels des salariés pour les activités commerciales et remboursez les salariés en effectuant le paiement sur leur compte bancaire.|[Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)|
 | Identifiez les revenus et les dépenses dans des périodes autres que celles de la validation des transactions. |[Échelonner les recettes et les dépenses](finance-how-defer-revenue-expenses.md)|
-| Découvrez les options disponibles pour automatiser l’envoi de factures d’abonnement à vos clients et enregistrer des revenus récurrents. |[Utiliser des revenus récurrents](finance-recurring-invoicing.md)|
-|En savoir plus sur l’utilisation de devises supplémentaires et mettre à jour les taux de change devise automatiquement. |[Mettre à jour des taux de change devise](finance-how-update-currencies.md)|
+| Découvrez les options disponibles pour automatiser l'envoi de factures d'abonnement à vos clients et enregistrer des revenus récurrents. |[Revenus récurrents (abonnement)](finance-recurring-invoicing.md)|
+|En savoir plus sur l'utilisation de devises supplémentaires et mettre à jour les taux de change devise automatiquement. |[Mettre à jour des taux de change devise](finance-how-update-currencies.md)|
 | Importez des transactions de paie de votre fournisseur de paie dans les écritures comptables. |[Importer les transactions de paie](finance-how-import-payroll-transactions.md)|
-|Utiliser des fonctions pour calculer la taxe sur la valeur ajoutée (TVA) sur les transactions de vente et d’achat afin de pouvoir déclarer les montants aux autorités fiscales.|[Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)|
-|Préparer une déclaration qui répertorie la TVA des ventes, et envoyer la déclaration à l’administration fiscale de l’UE. | [Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)|
+|Utiliser des fonctions pour calculer la taxe sur la valeur ajoutée (TVA) sur les transactions de vente et d'achat afin de pouvoir déclarer les montants aux autorités fiscales.|[Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)|
+|Préparer une déclaration qui répertorie la TVA des ventes, et envoyer la déclaration à l'administration fiscale de l'UE. | [Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)|
 |Convertir manuellement les contrats de service pour modifier leur taux de TVA.|[Convertir les contrats de service incluant des montants TVA](service-how-to-convert-service-contracts.md)|
 | Contrôlez le flux de trésorerie entrant et sortant de votre entreprise. |[Analyse des trésoreries dans votre société](finance-analyze-cash-flow.md) |
-|Procédure de suivi et de bout en bout sur l’utilisation des tableaux d’analyse pour effectuer des prévisions de trésorerie.|[Procédure pas-à-pas : créer des prévisions de trésorerie à l’aide de tableaux d’analyse](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+|Procédure de suivi et de bout en bout sur l'utilisation des tableaux d'analyse pour effectuer des prévisions de trésorerie.|[Procédure pas-à-pas : créer des prévisions de trésorerie à l'aide de tableaux d'analyse](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Utiliser des états financiers et des aperçus dans Excel. |[Analyse des états financiers dans Excel](finance-analyze-excel.md) |
-|Apprendre à utiliser le tableau de bord Comptable, à inviter un comptable externe et à utiliser le Hub Entreprise pour gérer les comptes de plusieurs clients.|[Expériences de comptables dans Business Central](finance-accounting.md)|  
-
-## <a name="take-a-video-tour"></a>Faire une visite vidéo
-
-La vidéo suivante présente certaines des fonctionnalités clés de la gestion des finances. <br><br>  
-
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
+|Apprendre à utiliser le tableau de bord Comptable, à inviter un comptable externe et à utiliser Accountant Hub pour gérer les comptes de plusieurs clients.|[Expériences de comptables dans Business Central](finance-accounting.md)|  
 
 ## <a name="see-also"></a>Voir aussi
-
 [Configuration de Finance](finance-setup-finance.md)  
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Clôture des périodes fiscales](year-close-years-periods.md)  
-[Gestion des projets](projects-manage-projects.md)  
-[Importation des données à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
+[Gestion des projets](projects-manage-projects.md)    
+[Importation des données à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

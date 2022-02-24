@@ -1,6 +1,6 @@
 ---
-title: Fonctionnalités d’entreprise prises en charge par Business Central
-description: Fournit une fonctionnalité d’aperçu de toutes les fonctionnalités commerciales et des départements qui sont pris en charge par les domaines de l’application, comme les finances, le stock, et la gestion de projets.
+title: Fonctionnalités d'entreprise prises en charge par Business Central | Microsoft Docs
+description: Fournit une fonctionnalité d'aperçu de toutes les fonctionnalités commerciales et des départements qui sont pris en charge par les domaines de l'application, comme les finances, le stock, et la gestion de projets.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,48 +8,42 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: b54c72614eb3e55d7cc93a0f3f9587f47e0b29d3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588366"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188784"
 ---
-# <a name="business-functionality"></a>Fonctionnalités d’entreprise
+# <a name="business-functionality"></a>Fonctionnalités d'entreprise
+[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l'assemblage, la fabrication, la maintenance et la gestion d'entrepôt suggérée sont également pris en charge.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l’assemblage, la fabrication, la maintenance et la gestion d’entrepôt suggérée sont également pris en charge.
-
-[!INCLUDE[prod_short](includes/prod_short.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez modifier la configuration pour l’adapter aux besoins de votre activité. À partir de votre tableau de bord, vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d’ajouter des fonctionnalités à [!INCLUDE[prod_short](includes/prod_short.md)]. Plusieurs modules de fonctionnalités d’entreprise doivent être créés manuellement. Les articles [Démarrage rapide de Business Central](quick-start-business-central.md) peuvent vous aider à vous familiariser avec [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez modifier la configuration pour l'adapter aux besoins de votre activité. À partir de votre tableau de bord, vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d'ajouter des fonctionnalités à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Plusieurs modules de fonctionnalités d'entreprise doivent être créés manuellement. Pour plus d'informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 | À | Voir |
 | --- | --- |
-|Effectuer et collecter des paiements, gérer votre trésorerie, échelonner des revenus, préparer la clôture d’exercice et gérer les immobilisations.|[Finances](finance.md)|
-|Obtenir l’analyse des performances de vos activités commerciales par les budgets, des tableaux d’analyse, et des vues d’analyse.|[Veille économique](bi.md)|
+|Effectuer et collecter des paiements, gérer votre trésorerie, échelonner des revenus, préparer la clôture d'exercice et gérer les immobilisations.|[Finances](finance.md)|
+|Obtenir l'analyse des performances de vos activités commerciales par les budgets, des tableaux d'analyse, et des vues d'analyse.|[Veille économique](bi.md)|
 |Gérer les processus de vente et les informations, par exemple des devis, des commandes, des retours et les comptes client, puis effectuer des livraisons directes.|[Ventes](sales-manage-sales.md)|
-|Gérer les procédures d’acquisition et des informations, par exemple, des factures, des commandes, des retours et des comptes fournisseurs, et des articles achat des documents vente. |[Achats](purchasing-manage-purchasing.md)|
-|Enregistrer de nouveaux articles de type stock ou service, catégoriser les articles pour faciliter la recherche, ajuster les niveaux de stock et effectuer les tâches courantes d’évaluation du stock.|[STOCKS ET EN-COURS](inventory-manage-inventory.md)|
+|Gérer les procédures d'acquisition et des informations, par exemple, des factures, des commandes, des retours et des comptes fournisseurs, et des articles achat des documents vente. |[Achats](purchasing-manage-purchasing.md)|
+|Enregistrer de nouveaux articles de type stock ou service, catégoriser les articles pour faciliter la recherche, ajuster les niveaux de stock et effectuer les tâches courantes d'évaluation du stock.|[STOCKS ET EN-COURS](inventory-manage-inventory.md)|
 |Créer des projets, planifier des ressources pour des projets, gérer des budgets, surveiller la progression, suivre les heures des salariés et des postes avec des feuilles de temps.|[Gestion de projets](projects-manage-projects.md)|
-|Organiser vos immobilisations, garantir un amortissement périodique correct, et assurer le suivi des coûts de maintenance.|[COMPTES D’IMMOBILISATIONS](fa-manage.md)|
+|Organiser vos immobilisations, garantir un amortissement périodique correct, et assurer le suivi des coûts de maintenance.|[COMPTES D'IMMOBILISATIONS](fa-manage.md)|
 |Gérer et prendre en charge vos efforts de vente et focaliser vos interactions sur les segments client/contact favoris.|[Gestion des relations](marketing-relationship-management.md)|
-|Conservez des enregistrements détaillés de vos salariés et enregistrez les absences à des fins d’analyse. |[Ressources humaines](hr-manage-human-resources.md)|
+|Conservez des enregistrements détaillés de vos salariés et enregistrez les absences à des fins d'analyse. |[Ressources humaines](hr-manage-human-resources.md)|
 |Planifier les opérations de production requises pour convertir les entrées en produits finis.|[Planifié](production-planning.md)|
-|Regrouper les articles vendables dans des étapes simples afin de créer un nouvel article, tel qu’un kit.|[Gestion des assemblages](assembly-assemble-items.md)|
+|Regrouper les articles vendables dans des étapes simples afin de créer un nouvel article, tel qu'un kit.|[Gestion des assemblages](assembly-assemble-items.md)|
 |Définir les ressources des ateliers et leur capacité, planifier les opérations, extraire les composants de production et exécuter les opérations de production.|[Production](production-manage-manufacturing.md)|
-|Assurer un flux efficace des marchandises reçues et expédiées.|[Gestion d’entrepôt](warehouse-manage-warehouse.md)|
+|Assurer un flux efficace des marchandises reçues et expédiées.|[Gestion d'entrepôt](warehouse-manage-warehouse.md)|
 |Planifier des appels de service et configurer des commandes service et assurer le suivi des pièces et fournitures de réparation.|[Gestion des services](service-service.md)|
 |Configurez et utilisez des workflows qui connectent des tâches exécutées par différents utilisateurs ou par le système, telles que la validation automatique. Demander et accorder une approbation pour créer ou valider des documents sont des étapes classiques du workflow.|[Flux de travail](across-workflow.md)|
-|Activez des utilisateurs pour l’échange de données avec des sources externes lors de tâches quotidiennes, telles que les envoyer/recevoir des documents électroniques, importer/exporter des fichiers bancaires, et mettre à jour des taux de change des devises.|[Échanger des données par voir électronique](across-data-exchange.md)|
-|Enregistrez des documents externes dans [!INCLUDE[prod_short](includes/prod_short.md)], ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
+|Activez des utilisateurs pour l'échange de données avec des sources externes lors de tâches quotidiennes, telles que les envoyer/recevoir des documents électroniques, importer/exporter des fichiers bancaires, et mettre à jour des taux de change des devises.|[Échanger des données par voir électronique](across-data-exchange.md)|
+|Enregistrez des documents externes dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
 
 ## <a name="see-also"></a>Voir aussi
-
-[Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Administration](admin-setup-and-administration.md)  
-[Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Préparation aux activités commerciales](ui-get-ready-business.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Mise en route](product-get-started.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

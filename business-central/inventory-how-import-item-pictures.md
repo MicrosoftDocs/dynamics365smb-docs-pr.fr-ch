@@ -1,30 +1,30 @@
 ---
-title: Importation de nombreuses images d’articles depuis un fichier ZIP
-description: Pour importer plusieurs images d’article, nommez simplement vos fichiers image avec des noms correspondant à vos numéros d’article, comprimez-les en un fichier ZIP, puis utilisez la page Importer les images d’articles.
+title: Importation de nombreuses images d'articles depuis un fichier ZIP| Microsoft Docs
+description: Vous pouvez importer plusieurs images d'articles à la fois. Nommez simplement vos fichiers image avec des noms correspondant à vos numéros d'article, comprimez-les en un fichier zip, puis utilisez la page Importer les images d'articles pour gérer quelles images d'articles importer.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.search.form: 30, 461
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 5a43d696eab27a72c9f9b3c224d08feb9e99ccf4
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8478a6fc2a4860f2cd5a2b5a01d6680fbaea3130
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059689"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182195"
 ---
-# <a name="import-multiple-item-pictures"></a>Importer plusieurs images d’article
-Vous pouvez importer plusieurs images d’articles à la fois. Nommez simplement vos fichiers image avec des noms correspondant à vos numéros d’article, comprimez-les en un fichier zip, puis utilisez la page Importer les images d’articles pour gérer quelles images d’articles importer.
+# <a name="import-multiple-item-pictures"></a>Importer plusieurs images d'article
+Vous pouvez importer plusieurs images d'articles à la fois. Nommez simplement vos fichiers image avec des noms correspondant à vos numéros d'article, comprimez-les en un fichier ZIP, puis utilisez la page **Importer les images d'articles** pour gérer quelles images d'articles importer.
 
 Tous les formats de fichier courants sont pris en charge.
 
-## <a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a>Nommer les fichiers image avec les noms d’article et préparez le fichier ZIP
-1. À l’emplacement de stockage de vos images d’article, nommez chaque fichier selon le numéro de l’article concerné. Par exemple :
+## <a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a>Nommer les fichiers image avec les noms d'article et préparez le fichier ZIP
+1. À l'emplacement de stockage de vos images d'article, nommez chaque fichier selon le numéro de l'article concerné. Par exemple :
 
     |N° article|Nom de fichier|
     |-|-|
@@ -34,19 +34,19 @@ Tous les formats de fichier courants sont pris en charge.
 
 2. Recueillez tous les fichiers dans un fichier ZIP. Par exemple, dans Windows Explorer, sélectionnez les fichiers, puis choisissez **Envoyer vers**, **Dossier comprimé (zip)**.     
 
-## <a name="to-import-item-pictures"></a>Pour importer des images d’article
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres stock**, puis choisissez le lien associé.
-2. Sélectionnez l’action **Importer des images d’article**.
+## <a name="to-import-item-pictures"></a>Pour importer des images d'article
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres stock**, puis sélectionnez le lien associé.
+2. Sélectionnez l'action **Importer des images d'article**.
 3. Dans le champ **Sélectionner un fichier ZIP**, sélectionnez le dossier ZIP pertinent, puis sélectionnez le bouton **Ouvrir**.
 
-    Une ligne pour chaque élément et image est créée sur la page **Importer des images d’article**.
+    Une ligne pour chaque élément et image est créée sur la page **Importer des images d'article**.
 
     > [!NOTE]
     > Pour les fichiers article qui ont déjà une image, la case à cocher **Une image existe déjà** est sélectionnée. Si vous ne souhaitez pas remplacer les images existantes, décochez la case **Remplacer les images**. Si vous ne souhaitez pas remplacer les images existantes individuelles, supprimez les lignes en question.
 
-3. Sélectionnez l’action **Importer des images**.
+3. Sélectionnez l'action **Importer des images**.
 
-Le champ **Importer le statut** est mis à jour pour montrer si l’importation de l’image a été ignorée ou a bien eu lieu.       
+Le champ **Importer le statut** est mis à jour pour montrer si l'importation de l'image a été ignorée ou a bien eu lieu.       
 
 ## <a name="see-also"></a>Voir aussi
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
@@ -54,7 +54,4 @@ Le champ **Importer le statut** est mis à jour pour montrer si l’importation 
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

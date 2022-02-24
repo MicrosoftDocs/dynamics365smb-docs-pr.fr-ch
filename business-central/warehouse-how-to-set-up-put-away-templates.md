@@ -1,51 +1,43 @@
 ---
-title: Configurer des modèles rangement
-description: Utilisez des modèles de rangement pour que les emplacements les plus appropriés pour vos articles vous soient suggérés à tout moment.
+title: Comment configurer des modèles rangement | Microsoft Docs
+description: A l'aide de la fonctionnalité de prélèvement et de rangement suggérés, l'emplacement le mieux approprié à vos articles à un moment donné est suggéré, en fonction du modèle rangement configuré pour l'entrepôt, des priorités affectées aux emplacements et des quantités minimale et maximale définies pour les emplacements associés.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 59cb78989d4926f3155d5ca3eb195a185b0031bd
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 811e3cda680d414694f1cf060bdb66390939e6d6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971238"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876423"
 ---
 # <a name="set-up-put-away-templates"></a>Configurer des modèles rangement
+A l'aide de la fonctionnalité de prélèvement et de rangement suggérés, l'emplacement le mieux approprié à vos articles à un moment donné est suggéré, en fonction du modèle rangement configuré pour l'entrepôt, des priorités affectées aux emplacements et des quantités minimale et maximale définies pour les emplacements associés.  
 
-A l’aide de la fonctionnalité de prélèvement et de rangement suggérés, l’emplacement le mieux approprié à vos articles à un moment donné est suggéré, en fonction du modèle rangement configuré pour l’entrepôt, des priorités affectées aux emplacements et des quantités minimale et maximale définies pour les emplacements associés.  
+Vous pouvez configurer un certain nombre de modèles rangement et en sélectionner un pour gérer les rangements dans votre entrepôt. Vous pouvez également sélectionner un modèle rangement pour un article ou un point de stock disposant d'exigences spéciales en matière de rangement.  
 
-Vous pouvez configurer un certain nombre de modèles rangement et en sélectionner un pour gérer les rangements dans votre entrepôt. Vous pouvez également sélectionner un modèle rangement pour un article ou un point de stock disposant d’exigences spéciales en matière de rangement.  
+## <a name="to-set-up-put-away-templates"></a>Pour configurer des modèles rangement  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Modèles rangement**, puis choisissez le lien associé.  
+2.  Sélectionnez l'action **Nouveau**.  
+3.  Entrez un code représentant l'identifiant unique du modèle que vous allez créer.  
+4.  Saisissez éventuellement une brève description.  
+5.  Renseignez la première ligne avec les exigences emplacement auxquelles vous souhaitez qu'il soit répondu d'abord lors de la proposition d'un rangement.  
+6.  Renseignez la deuxième ligne avec les exigences emplacement auxquelles on doit répondre ensuite lors de la recherche d'un emplacement de rangement. La deuxième ligne est utilisée uniquement si un emplacement répondant aux exigences de la première ligne ne peut être trouvé.  
+7.  Continuez à renseigner les lignes jusqu'à ce que vous ayez décrit tous les placements acceptables à utiliser au cours du rangement.  
+8.  Sur la dernière ligne du modèle rangement, cochez la case **Rechercher empl. Dynamique**.  
 
-## <a name="to-set-up-put-away-templates"></a>Pour configurer des modèles rangement
+Vous pouvez créer plusieurs modèles rangement et les appliquer comme vous le souhaitez. On se réfère d'abord au modèle rangement sélectionné éventuel pour l'article ou le point de stock. Si ces champs ne sont pas renseignés, alors le modèle rangement sélectionné pour l'entrepôt sur le raccourci **Config. emplacement** de la fiche magasin sera utilisé.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles rangement**, puis choisissez le lien associé.  
-2. Sélectionnez l’action **Nouveau**.  
-3. Entrez un code représentant l’identifiant unique du modèle que vous allez créer.  
-4. Saisissez éventuellement une brève description.  
-5. Renseignez la première ligne avec les exigences emplacement auxquelles vous souhaitez qu’il soit répondu d’abord lors de la proposition d’un rangement.
-
-    Par exemple, si vous souhaitez que la méthode de rangement par défaut soit basée sur des emplacements fixes, choisissez le champ **Rechercher empl. statique**. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
-6. Renseignez la deuxième ligne avec les exigences emplacement auxquelles on doit répondre ensuite lors de la recherche d’un emplacement de rangement. La deuxième ligne est utilisée uniquement si un emplacement répondant aux exigences de la première ligne ne peut être trouvé.  
-7. Continuez à renseigner les lignes jusqu’à ce que vous ayez décrit tous les placements acceptables à utiliser au cours du rangement.  
-8. Sur la dernière ligne du modèle rangement, cochez la case **Rechercher empl. Dynamique**.  
-
-Vous pouvez créer plusieurs modèles rangement et les appliquer comme vous le souhaitez. On se réfère d’abord au modèle rangement sélectionné éventuel pour l’article ou le point de stock. Si ces champs ne sont pas renseignés, alors le modèle rangement sélectionné pour l’entrepôt sur le raccourci **Config. emplacement** de la fiche magasin sera utilisé.  
-
-## <a name="see-also"></a>Voir aussi
-
-[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
+## <a name="see-also"></a>Voir aussi  
+[Gestion d'entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
-[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
-[Gestion des assemblages](assembly-assemble-items.md)  
-[Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
+[Gestion des assemblages](assembly-assemble-items.md)    
+[Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

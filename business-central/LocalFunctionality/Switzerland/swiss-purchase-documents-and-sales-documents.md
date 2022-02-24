@@ -1,24 +1,24 @@
 ---
 title: Documents vente et Documents achat, Suisse
-description: Cet article décrit les améliorations apportées à la version suisse de Business Central, notamment aux fonctions spéciales des documents vente et achat en Suisse.
+description: Les améliorations suisses comprennent des fonctions spéciales propres aux documents d'achat et de vente.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: fb47e4ca19a8f0a4b65f16de4ff36c597d4005d9
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/30/2020
+ms.author: sgroespe
+ms.openlocfilehash: 9d5a52c0e3f13da1b1f78408e513f731487136e0
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319299"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333931"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documents vente et Documents achat, Suisse
-[!INCLUDE[prod_short](../../includes/prod_short.md)] comprend des améliorations suisses propres aux documents d'achat et de vente. Notamment :  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] comprend des améliorations suisses propres aux documents d'achat et de vente. Notamment :  
 
 - Libellés écriture améliorés pour les écritures comptables, écritures comptables client et fournisseur. Pour plus d'informations, voir la table Écriture comptable, la table Écriture comptable client et la table Écriture comptable fournisseur.  
 - Possibilité d'avoir des sous-titres, des sous-totaux et des totaux de début et de fin dans les devis et les commandes vente.  
@@ -36,7 +36,7 @@ Les articles sont divisés en fonction des valeurs générées par le système a
 Vous pouvez spécifier un article comme variante de la ligne devis. Cela vous permet de répertorier les articles secondaires sans inclure le prix du devis. Vous pouvez également faire référence aux éléments spécifiques de devis ou de commande vente en fonction de la valeur affichée dans le champ **Position** de la ligne devis ou de la ligne commande vente. Pour plus d'informations, voir la table Ligne vente.  
 
 > [!NOTE]
-> Cette fonctionnalité n’est disponible que dans [!INCLUDE[prod_short](../../includes/prod_short.md)] sur site.
+> Cette fonctionnalité n’est disponible que dans [!INCLUDE[prodshort](../../includes/prodshort.md)] sur site.
 
 ## <a name="purchase-invoices-and-sales-invoices-with-payment-discounts"></a>Factures achat et Factures vente avec escomptes  
 Pour les factures achat et les factures vente, le montant facture est retranché du montant remise, puis arrondi. Le facture totale est également arrondie s'il existe une remise. Pour plus d'informations, voir la table Paramètres comptabilité.  
@@ -48,6 +48,3 @@ Dans la page **Paramètres ventes**, le champ **Expédition sur Livrer et factur
  [Importer les codes postaux suisses](how-to-import-swiss-post-codes.md)   
  [Imprimer la liste des prélèvements de stock d'une commande vente](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

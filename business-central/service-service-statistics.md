@@ -1,34 +1,34 @@
 ---
-title: Statistiques service
-description: Obtenez un aperçu rapide du contenu et des statistiques des documents service comme les commandes, devis, factures ou avoirs, ainsi les lignes service spécifiques et les articles de service.
+title: Statistiques service | Microsoft Docs
+description: Obtenez un aperçu rapide du contenu des documents service comme les commandes, devis, factures ou avoirs, ainsi que les détails des lignes service spécifiques et les articles de service.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0e1c6fe7b5a830e17d693bcd4d48921947b0509d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438272"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192402"
 ---
 # <a name="viewing-service-statistics"></a>Affichage des statistiques service
-Vous pouvez utiliser des statistiques pour analyser les documents service et évaluer la bonne gestion de vos processus de service. Vous pouvez analyser les contrats de service, articles, devis, commandes, factures et avoirs en choisissant l’action **Statistiques**. Pour les articles et contrats de service, vous pouvez également utiliser les champs **Trendscape article de service** ou **Trendscape contrat** pour afficher un résumé des écritures comptables service pour un article de service spécifique.   
+Vous pouvez utiliser des statistiques pour analyser les documents service et évaluer la bonne gestion de vos processus de service. Vous pouvez analyser les contrats de service, articles, devis, commandes, factures et avoirs en choisissant l'action **Statistiques**. Pour les articles et contrats de service, vous pouvez également utiliser les champs **Trendscape article de service** ou **Trendscape contrat** pour afficher un résumé des écritures comptables service pour un article de service spécifique.   
 
 ## <a name="viewing-statistics-for-service-orders"></a>Affichage des statistiques pour les commandes service
-Ces fonctions-ci donnent un aperçu rapide du contenu de l’ensemble de la commande service, des informations sur les lignes service spécifiques, la facturation, la livraison et la consommation, et du solde du client.  
+Ces fonctions-ci donnent un aperçu rapide du contenu de l'ensemble de la commande service, des informations sur les lignes service spécifiques, la facturation, la livraison et la consommation, et du solde du client.  
 
-Les données statistiques relatives à une commande service sont affichées sur la page **Statistiques commande service** pour la commande concernée. Vous pouvez ouvrir la page de statistiques à partir d’une commande service. Sur la page **Commandes service**, choisissez **Statistiques**. Les raccourcis de cette page affichent des informations telles que la quantité, le montant, la TVA, le coût, la marge, et le crédit autorisé pour le client. Les montants figurant sur la page sont exprimés dans la devise de la commande service, sauf indication contraire.  
+Les données statistiques relatives à une commande service sont affichées sur la page **Statistiques commande service** pour la commande concernée. Vous pouvez ouvrir la page de statistiques à partir d'une commande service. Sur la page **Commandes service**, choisissez **Statistiques**. Les raccourcis de cette page affichent des informations telles que la quantité, le montant, la TVA, le coût, la marge, et le crédit autorisé pour le client. Les montants figurant sur la page sont exprimés dans la devise de la commande service, sauf indication contraire.  
 
-### <a name="view-totals-for-a-service-order"></a>Afficher les totaux d’une commande service  
-Vous pouvez afficher le montant total des lignes service, avec et sans TVA, la partie TVA, le coût et la marge des lignes service. La page affiche également des informations spécifiques à l’article, telles que le poids, le volume et la quantité de colis.  
+### <a name="view-totals-for-a-service-order"></a>Afficher les totaux d'une commande service  
+Vous pouvez afficher le montant total des lignes service, avec et sans TVA, la partie TVA, le coût et la marge des lignes service. La page affiche également des informations spécifiques à l'article, telles que le poids, le volume et la quantité de colis.  
 
-### <a name="view-shipping-information"></a>Afficher les informations d’expédition  
+### <a name="view-shipping-information"></a>Afficher les informations d'expédition  
 Vous pouvez afficher des informations sur les articles, les ressources ou les coûts liés à la livraison. Pour fournir ces informations, le programme utilise les valeurs spécifiées dans le champ **Qté à expédier** de chaque ligne service de la commande.  
 
 ### <a name="view-order-details"></a>Afficher les détails de commande  
@@ -38,7 +38,7 @@ Vous pouvez afficher des informations sur les articles, les heures et les coûts
 |------------|---------------------------------------|  
 |**Facturation**|affiche des montants à valider comme facturés à partir de la commande service.|  
 |**Consommation**|Affiche la quantité et le coût des articles ou ressources qui seront validés comme consommés.|  
-|**Total**|Affiche les montants totaux figurant sur la commande service, qui résultent de l’ajout des montants facturés aux montants consommés.|  
+|**Total**|Affiche les montants totaux figurant sur la commande service, qui résultent de l'ajout des montants facturés aux montants consommés.|  
 
 ### <a name="analyze-service-order-lines"></a>Analyser les lignes commande de service  
 Vous pouvez analyser les informations en fonction des types de lignes service incluses dans la commande service. Les montants sont présentés séparément pour les éléments suivants :  
@@ -51,7 +51,7 @@ Vous pouvez analyser les informations en fonction des types de lignes service in
 Affichez le solde du compte du client, en complément du crédit maximum qui peut être accordé au client pour lequel vous avez créé le document service.
 
 ## <a name="viewing-service-item-statistics"></a>Affichage des statistiques article service
-Sur la page **Statistiques article service**, vous pouvez visualiser les toutes dernières informations relatives à un article de service en fonction des types d’écriture comptable service suivants :  
+Sur la page **Statistiques article service**, vous pouvez visualiser les toutes dernières informations relatives à un article de service en fonction des types d'écriture comptable service suivants :  
 
 * Ressources  
 * Articles  
@@ -59,22 +59,22 @@ Sur la page **Statistiques article service**, vous pouvez visualiser les toutes 
 * Contrats de service  
 * Total  
 
-Pour chaque type d’écriture, vous pouvez visualiser le montant facturé, l’activité (montant), le coût total, la quantité, la quantité facturée et la quantité consommée, le montant de la marge et son pourcentage. Le pourcentage de marge est calculé selon la formule suivante :  
+Pour chaque type d'écriture, vous pouvez visualiser le montant facturé, l'activité (montant), le coût total, la quantité, la quantité facturée et la quantité consommée, le montant de la marge et son pourcentage. Le pourcentage de marge est calculé selon la formule suivante :  
 
 * (Montant facturé - activité (coût)) x 100 / montant facturé  
 
 ## <a name="using-trendscapes"></a>Utilisation des trendscapes
-Pour les articles de service et les contrats de service, les pages **Trendscape article de service** ou **Trendscape contrat de service** affichent une liste déroulante des écritures comptables service sur une période pour un article ou contrat de service spécifique. Pour afficher le trendscape, ouvrez l’article de service ou le contrat de service, choisissez l’action **Statistiques**, puis **Trendscape**.
+Pour les articles de service et les contrats de service, les pages **Trendscape article de service** ou **Trendscape contrat de service** affichent une liste déroulante des écritures comptables service sur une période pour un article ou contrat de service spécifique. Pour afficher le trendscape, ouvrez l'article de service ou le contrat de service, choisissez l'action **Statistiques**, puis **Trendscape**.
 
-Lorsque vous faites défiler la liste, les montants sont calculés en devise société en fonction de l’intervalle spécifié. Tous les montants sont calculés à partir d’écritures comptables service, c’est-à-dire des écritures qui sont crées lorsque vous validez des commandes service ou des factures service.
+Lorsque vous faites défiler la liste, les montants sont calculés en devise société en fonction de l'intervalle spécifié. Tous les montants sont calculés à partir d'écritures comptables service, c'est-à-dire des écritures qui sont crées lorsque vous validez des commandes service ou des factures service.
 
 Vous pouvez filtrer la liste en spécifiant les articles de service à inclure.  
 
 > [!Tip]  
->  Si vous avez choisi **Jour** comme intervalle de temps et que vous voulez passer en revue une longue période, vous pouvez le faire plus rapidement en utilisant un intervalle plus grand, par exemple **Trimestre**. Lorsque vous avez trouvé la période souhaitée, vous pouvez repasser à l’intervalle de départ pour visualiser les données plus en détail.   
+>  Si vous avez choisi **Jour** comme intervalle de temps et que vous voulez passer en revue une longue période, vous pouvez le faire plus rapidement en utilisant un intervalle plus grand, par exemple **Trimestre**. Lorsque vous avez trouvé la période souhaitée, vous pouvez repasser à l'intervalle de départ pour visualiser les données plus en détail.   
 
 ## <a name="viewing-gains-and-losses-on-contracts"></a>Affichage des gains et pertes sur les contrats  
-Une écriture gain/perte contrat est générée lorsqu’un devis contrat est converti en contrat de service, lors de l’ajout ou de la suppression de lignes contrat dans un contrat de service et lors de l’annulation d’un contrat. Vous pouvez visualiser les gains/pertes contrat sur les pages suivantes.  
+Une écriture gain/perte contrat est générée lorsqu'un devis contrat est converti en contrat de service, lors de l'ajout ou de la suppression de lignes contrat dans un contrat de service et lors de l'annulation d'un contrat. Vous pouvez visualiser les gains/pertes contrat sur les pages suivantes.  
 
 |Page | Désignation|  
 |----------------|---------------------------------------|  
@@ -84,17 +84,17 @@ Une écriture gain/perte contrat est générée lorsqu’un devis contrat est co
 |**Gain/Perte contrat (motifs)**|Pour visualiser les écritures gain/perte contrat par code motif.|  
 |**Gain/Perte contrat ctre gest.**|Pour visualiser les écritures gain/perte contrat par centre de gestion.|  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez le nom de la page à afficher, puis choisissez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez le nom de la page à afficher, puis sélectionnez le lien associé.  
 2. Renseignez les filtres à appliquer. Par exemple, sur la page **Gain/perte contrat (motifs)**, choisissez une valeur pour **Filtre code motif**.  
-3. Choisissez l’action **Afficher matrice**.
+3. Choisissez l'action **Afficher matrice**.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Affichage des statistiques pour les documents service validés
-La fonctionnalité des statistiques service vous permet d’obtenir un aperçu statistique du contenu des documents service validés, tels qu’une expédition validée, une facture validée et un avoir validé.  
+La fonctionnalité des statistiques service vous permet d'obtenir un aperçu statistique du contenu des documents service validés, tels qu'une expédition validée, une facture validée et un avoir validé.  
 
-Les informations statistiques sont affichées sur la page de statistiques du document service validé correspondant. Vous pouvez ouvrir la page de statistiques sur la fiche de l’expédition service validée, de la facture service validée ou des avoirs service validés. Pour chacun de ces types de document, choisissez l’action **Statistiques**. Par exemple, dans la page **Factures service enreg.**, sélectionnez l’action **Statistiques**.  
+Les informations statistiques sont affichées sur la page de statistiques du document service validé correspondant. Vous pouvez ouvrir la page de statistiques sur la fiche de l'expédition service validée, de la facture service validée ou des avoirs service validés. Pour chacun de ces types de document, choisissez l'action **Statistiques**. Par exemple, dans la page **Factures service enreg.**, sélectionnez l'action **Statistiques**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Statistiques expédition service enreg.  
-La page **Statistiques expédition service** donne un aperçu d’une expédition service validée. Cela inclut notamment des informations sur le contenu physique de l’expédition, par exemple la quantité des articles expédiés, les heures ou les coûts ressource, ainsi que le poids et le volume des articles expédiés.  
+La page **Statistiques expédition service** donne un aperçu d'une expédition service validée. Cela inclut notamment des informations sur le contenu physique de l'expédition, par exemple la quantité des articles expédiés, les heures ou les coûts ressource, ainsi que le poids et le volume des articles expédiés.  
 
 ### <a name="posted-service-invoice-statistics"></a>Statistiques facture service enreg.  
 vous pouvez voir un résumé statistique sur une facture service validée sur la page **Statistiques facture service**. Vous pouvez afficher les totaux de la facture service validée. Les données englobent le montant total des lignes service (avec et sans TVA) qui a été validé et facturé, la partie TVA, le coût et la marge de la facture validée. La page affiche également des informations sur les éléments suivants :  
@@ -103,15 +103,12 @@ vous pouvez voir un résumé statistique sur une facture service validée sur la
 * Le solde du compte du client, et le crédit maximum que vous pouvez accorder au client.  
 
 ### <a name="posted-service-credit-memo-statistics"></a>Statistiques avoir service enreg.  
-La page **Statistiques avoir service** permet d’obtenir un aperçu statistique des lignes figurant dans un avoir service validé. L’aperçu peut inclure :
+La page **Statistiques avoir service** permet d'obtenir un aperçu statistique des lignes figurant dans un avoir service validé. L'aperçu peut inclure :
 
-* Les montants totaux de l’avoir validé, avec des informations comme la quantité, le montant, la TVA, le coût et la marge. L’aperçu affiche également des informations spécifiques sur les articles figurant sur les lignes service de l’avoir validé, telles que la quantité, le poids et le volume.  
+* Les montants totaux de l'avoir validé, avec des informations comme la quantité, le montant, la TVA, le coût et la marge. L'aperçu affiche également des informations spécifiques sur les articles figurant sur les lignes service de l'avoir validé, telles que la quantité, le poids et le volume.  
 * Des informations générales sur le client, comme son crédit autorisé et le solde de son compte.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Créer commande service](service-how-to-create-service-orders.md)   
 [Créer des articles de service](service-how-to-create-service-items.md)   
 [Services de planification](service-plan-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,77 +1,34 @@
 ---
-title: Polices disponibles
-description: Découvrez les polices préinstallées que vous pouvez utiliser pour vos rapports externes.
+title: Polices disponibles | Microsoft Docs
+description: La version en ligne de Business Central contient des polices préinstallées sur les serveurs qui peuvent être utilisées lors de la génération d'états.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/30/2021
-ms.author: edupont
-ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
-ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
+ms.date: 02/20/2020
+ms.author: sgroespe
+ms.openlocfilehash: ef1d5d9743842d9d5aba28d3bb4ad62d7359f301
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7868316"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3077379"
 ---
 # <a name="available-fonts"></a>Polices disponibles
-
-La version en ligne de [!INCLUDE[prod_short](includes/prod_short.md)] contient des polices préinstallées sur les serveurs qui peuvent être utilisées lors de la génération d’états. Les sections suivantes décrivent les polices disponibles.
+La version en ligne de [!INCLUDE[d365fin](includes/d365fin_md.md)] contient des polices préinstallées sur les serveurs qui peuvent être utilisées lors de la génération d'états. Ce qui suit décrit les polices disponibles et contient des liens vers des informations détaillées fournies par les fournisseurs tiers de polices.
 
 > [!NOTE]
-> Pour des raisons de sécurité et juridiques, vous ne pouvez pas télécharger de polices personnalisées sur l’environnement [!INCLUDE[prod_short](includes/prod_short.md)].
+> Pour des raisons de sécurité et juridiques, vous ne pouvez pas télécharger de polices personnalisées sur l'environnement [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-## <a name="document-fonts"></a>Polices de document
-
-Les polices suivantes sont installées et disponibles pour une utilisation dans les présentation état Word et RDLC :
-
-* Arial
-* Consolas
-* Courier New
-* Lucida Console
-* Segoe Print
-* Segoe Script
-* Segoe UI
-* Segoe UI Light
-* Segoe UI Semilight
-* Times New Roman
-
-## <a name="fonts-for-checks"></a>Polices pour chèques
-
-Les polices MICR sont installées et disponibles pour utilisation. Les normes E-13B et CMC-7 sont prises en charge.  
-
-En plus des polices MICR, des polices de sécurité spéciales sont disponibles pour générer du texte, des noms, des montants et les symboles monétaires Dollar, Euro, Pound et Yen, qui sont difficiles à modifier une fois qu’un chèque a été imprimé.  
-
-Pour plus d’informations, voir [Sélectionner une mise en page de chèque](finance-how-define-check-layouts.md).  
-
-## <a name="fonts-for-barcodes"></a>Polices pour codes à barres
-Les polices pour générer des codes à barres sont installées et disponibles pour être utilisées dans les présentation état Word et RDLC.
-
-Les symbologies de codes à barres unidimensionnels suivantes sont prises en charge :
-* Code 3 sur 9 (Code 39)
-* Code 128
-* Code 93
-* Codabar
-* MSI
-* Entrelacé 2 sur 5
-
-Les symbologies de codes à barres bidimensionnels suivantes sont prises en charge :
-* Aztec
-* Matrice de données
-* Maxicode
-* PDF417
-* QR
-
-Pour plus d′informations, voir [Polices de codes-barres avec Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
+## <a name="check-micr-and-security-fonts"></a>Polices (MICR et sécurité) de chèque  
+Les polices MICR sont installées et disponibles pour utilisation. Les normes E-13B et CMC-7 sont prises en charge. En plus des polices MICR, des polices de sécurité spéciales sont disponibles pour générer du texte, des noms, des montants et les symboles monétaires Dollar, Euro, Pound et Yen, qui sont difficiles à modifier une fois qu'un chèque a été imprimé. Pour plus d'informations, voir [Sélectionner une mise en page de chèque](finance-how-define-check-layouts.md).
 
 ## <a name="see-also"></a>Voir aussi
-
 [Gestion des présentations de rapport](ui-manage-report-layouts.md)  
 [Sélectionner une mise en page de chèque](finance-how-define-check-layouts.md)  
-[Travailler avec [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-[Polices de codes-barres avec Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

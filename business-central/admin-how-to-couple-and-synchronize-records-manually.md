@@ -1,73 +1,49 @@
 ---
-title: Couplage et synchronisation (contient une vidéo)
-description: Synchroniser un mappage de table d’intégration permet la synchronisation des données dans tous les enregistrements dans une table de Business Central ainsi que de la table Dynamics 365 Sales qui sont couplées.
+title: Coupler et synchroniser manuellement des enregistrements | Microsoft Docs
+description: Synchroniser un mappage de table d'intégration permet la synchronisation des données dans tous les enregistrements dans une table de Business Central ainsi que de l'entité Dynamics 365 Sales qui sont couplées.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.search.form: 6250
-ms.date: 10/01/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c7d62f1122aee1930dd98ed008b7820e88fe9b14
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 0c70b1ba34af32b7cf542149c8f15cb191761358
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115435"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308131"
 ---
-# <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Couplage et synchronisation des enregistrements entre Dataverse et Business Central
-
-Cette rubrique décrit comment coupler un ou plusieurs enregistrements dans [!INCLUDE[prod_short](includes/prod_short.md)] avec des enregistrements dans Dataverse ou [!INCLUDE[crm_md](includes/crm_md.md)]. Le couplage d’enregistrements permet d’afficher les informations Dataverse depuis [!INCLUDE[prod_short](includes/prod_short.md)], et vice-versa. Le couplage vous permet également de synchroniser les données entre les enregistrements. Vous pouvez coupler des enregistrements existants, ou créer et coupler de nouveaux enregistrements.
+# <a name="couple-and-synchronize-records-manually"></a>Coupler et synchroniser manuellement des enregistrements
+Cette rubrique décrit comment coupler un ou plusieurs enregistrements dans [!INCLUDE[d365fin](includes/d365fin_md.md)] avec des enregistrements dans [!INCLUDE[crm_md](includes/crm_md.md)]. Le couplage d'enregistrements permet d'afficher les informations [!INCLUDE[crm_md](includes/crm_md.md)] depuis [!INCLUDE[d365fin](includes/d365fin_md.md)], et vice-versa. Le couplage vous permet également de synchroniser les données entre les enregistrements. Vous pouvez coupler des enregistrements existants, ou créer et coupler de nouveaux enregistrements.
 
 > [!Note]
-> Le couplage et la synchronisation des données sont disponibles seulement si votre administrateur système a créé une connexion entre [!INCLUDE[prod_short](includes/prod_short.md)] et Dataverse ou [!INCLUDE[crm_md](includes/crm_md.md)]. Une façon de vérifier consiste à ouvrir la fiche **Client** et à rechercher l’action **Configurer le couplage**. Si l’action est disponible, les applications sont connectées.   
-
-## <a name="video-example"></a>Exemple vidéo
-Cette vidéo montre le couplage et la synchronisation de données dans le cadre d’une intégration avec [!INCLUDE[crm_md](includes/crm_md.md)].
+> Le couplage et la synchronisation des données avec [!INCLUDE[crm_md](includes/crm_md.md)] sont disponibles uniquement si votre administrateur système a créé une connexion entre [!INCLUDE[d365fin](includes/d365fin_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)]. Une façon de vérifier consiste à ouvrir la fiche **Client** et à rechercher l'action **Configurer le couplage**. Si l'action est disponible, les applications sont connectées.   
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 
 ## <a name="to-couple-a-record"></a>Pour coupler un enregistrement  
-1.  Dans [!INCLUDE[prod_short](includes/prod_short.md)], ouvrez la fiche pour l’enregistrement que vous souhaitez coupler. Par exemple, la fiche Client ou Contact.  
+1.  Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ouvrez la fiche pour l'enregistrement que vous souhaitez coupler. Par exemple, la fiche Client ou Contact.  
 
-    Vous pouvez également ouvrir la page de liste et sélectionner l’enregistrement à coupler.  
+    Vous pouvez également ouvrir la page de liste et sélectionner l'enregistrement à coupler.  
 
-2.  Choisissez l’action **Configurer le couplage**.  
+2.  Choisissez l'action **Configurer le couplage**.  
 3.  Renseignez les champs, puis cliquez sur **OK**.  
 
 ## <a name="to-synchronize-a-single-record"></a>Pour synchroniser un enregistrement unique  
-1.  Dans [!INCLUDE[prod_short](includes/prod_short.md)], ouvrez la fiche pour l’enregistrement que vous souhaitez coupler. Par exemple, la fiche Client ou Contact.  
-2.  Choisissez l’action **Synchroniser maintenant**.  
-3.  Si un enregistrement peut être synchronisé dans une direction, sélectionnez l’option qui affiche la direction de la mise à jour des données, puis cliquez sur **OK**.  
-
-## <a name="to-synchronize-a-single-record-from-crm_md"></a>Pour synchroniser un enregistrement unique à partir de [!INCLUDE[crm_md](includes/crm_md.md)]  
-1.  Dans [!INCLUDE[crm_md](includes/crm_md.md)], ouvrez le formulaire pour l’enregistrement que vous souhaitez coupler. Par exemple, le formulaire Fiche Compte ou Fiche Contact.  
-2.  Choisissez l’action **[!INCLUDE[prod_short](includes/prod_short.md)]** dans le ruban pour ouvrir et coupler l’enregistrement automatiquement.
-
-> [!Note]
-> Vous pouvez synchroniser automatiquement un enregistrement unique depuis [!INCLUDE[crm_md](includes/crm_md.md)] seulement si l’option **Synch. uniquement les enregistrements couplés** est désactivée et si la direction de synchronisation est définie sur Bidirectionnelle ou À partir de la table d’intégration sur la page **Mappage de table d’intégration** pour l’enregistrement. Pour en savoir plus, consultez [Mappage des tables et des champs à synchroniser](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
-
-## <a name="to-couple-multiple-records-using-match-based-coupling"></a>Pour coupler plusieurs enregistrements à l’aide du couplage par correspondance
-
-Vous pouvez spécifier les données à synchroniser pour une entité, telle qu’un client ou un contact, en couplant des enregistrements par correspondance. Vous pouvez affiner les correspondances en rendant la recherche sensible à la casse et en attribuant une priorité à chaque correspondance. Si aucune correspondance n’est trouvée, vous pouvez également spécifier que vous souhaitez créer l’entité dans Dataverse. Pour plus d’informations, consultez [Personnaliser le couplage par correspondance](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
-
-1. Dans [!INCLUDE[prod_short](includes/prod_short.md)], ouvrez la page de liste pour l’enregistrement, telle que Clients ou Contacts.
-2. Choisissez l’action **Couplage par correspondance**.
-3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1.  Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ouvrez la fiche pour l'enregistrement que vous souhaitez coupler. Par exemple, la fiche Client ou Contact.  
+2.  Choisissez l'action **Synchroniser maintenant**.  
+3.  Si un enregistrement peut être synchronisé de [!INCLUDE[d365fin](includes/d365fin_md.md)] vers [!INCLUDE[crm_md](includes/crm_md.md)] ou de [!INCLUDE[crm_md](includes/crm_md.md)] vers [!INCLUDE[d365fin](includes/d365fin_md.md)], sélectionnez l'option qui affiche la direction de la mise à jour des données, puis cliquez sur le bouton **OK**.  
 
 ## <a name="to-synchronize-multiple-records"></a>Pour synchroniser plusieurs enregistrements  
-1.  Dans [!INCLUDE[prod_short](includes/prod_short.md)], ouvrez la page de liste pour l’enregistrement, telle que Clients ou Contacts.  
-2.  Sélectionnez l’enregistrement à synchroniser, puis l’action **Synchroniser maintenant**.  
-3.  Si des enregistrements peuvent être synchronisés dans une direction, sélectionnez l’option qui affiche la direction, puis cliquez sur **OK**.  
-
-## <a name="uncoupling-records"></a>Découplage des enregistrements
-Vous pouvez découpler un ou plusieurs enregistrements des pages de liste ou sur la page **Erreurs de synchronisation de données couplées** en choisissant une ou plusieurs lignes et en choisissant **Supprimer le couplage**. Vous pouvez également supprimer tous les couplages pour un ou plusieurs mappages de table sur la page **Mappages de table d’intégration**.
+1.  Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ouvrez la page de liste pour l'enregistrement, telle que Clients ou Contacts.  
+2.  Sélectionnez l'enregistrement à synchroniser, puis l'action **Synchroniser maintenant**.  
+3.  Si des enregistrements peuvent être synchronisés de [!INCLUDE[d365fin](includes/d365fin_md.md)] vers [!INCLUDE[crm_md](includes/crm_md.md)] ou de [!INCLUDE[crm_md](includes/crm_md.md)] vers [!INCLUDE[d365fin](includes/d365fin_md.md)], sélectionnez l'option qui affiche la direction de la mise à jour des données, puis cliquez sur le bouton **OK**.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Utilisation de Dynamics 365 Sales depuis Business Central](marketing-integrate-dynamicscrm.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

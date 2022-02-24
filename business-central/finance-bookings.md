@@ -1,53 +1,45 @@
 ---
-title: Facturer vos réservations dans Business Central
-description: Cette rubrique explique comment effectuer une facturation groupée à partir de Microsoft Bookings dans Business Central.
+title: Facturer vos réservations dans Business Central | Microsoft Docs
+description: Apprenez comment vous pouvez effectuer des facturations en vrac à partir de Microsoft Bookings dans Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.search.form: 1638, 6702, 6704
-ms.date: 06/16/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cac5b50d2a674f3ca39f085a2d4448356277b64
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 0048d0e78084c939c9e2a707975598a171108cdc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971189"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183947"
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Facturation en vrac pour Microsoft Bookings dans [!INCLUDE[prod_short](includes/prod_short.md)]
-
-Si votre société utilise l’application Bookings de Microsoft 365, vous pouvez effectuer la facturation en vrac des rendez-vous. La page **Réservations non facturées** de [!INCLUDE[prod_short](includes/prod_short.md)] fournit une liste des réservations effectuées par la société. Cette page vous permet de rapidement sélectionner les rendez-vous à facturer et de créer des factures provisoires pour les services fournis.  
+# <a name="bulk-invoicing-for-microsoft-bookings-in-d365fin"></a>Facturation en vrac pour Microsoft Bookings dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
+Si votre société utilise l'application Bookings d'Office 365, vous pouvez effectuer la facturation en vrac des rendez-vous. La page **Réservations non facturées** de [!INCLUDE[d365fin](includes/d365fin_md.md)] fournit une liste des réservations effectuées par la société. Cette page vous permet de rapidement sélectionner les rendez-vous à facturer et de créer des factures provisoires pour les services fournis.  
 
 ## <a name="connect-to-bookings"></a>Connexion à Réservations
+Pour connecter votre [!INCLUDE[d365fin](includes/d365fin_md.md)] à Réservations, vous devez indiquer votre société Réservations, quoi synchroniser avec Réservations, la fréquence de la synchronisation et les modèles à utiliser. Vous définissez ces informations sur la page **Paramètres synch. réservations**, que vous pouvez lancer depuis la page **Configuration de la synchronisation Exchange**, que vous pouvez rechercher à l'aide de [Rechercher](ui-search.md).  
 
-Pour connecter votre [!INCLUDE[prod_short](includes/prod_short.md)] à Réservations, vous devez indiquer votre société Réservations, quoi synchroniser avec Réservations, la fréquence de la synchronisation et les modèles à utiliser. Vous définissez ces informations sur la page **Paramètres synch. réservations**, que vous pouvez lancer depuis la page **Configuration de la synchronisation Exchange**, que vous pouvez rechercher à l’aide de [Rechercher](ui-search.md).  
-
-Par exemple, si vous souhaitez synchroniser des clients entre Réservations et [!INCLUDE[prod_short](includes/prod_short.md)], vous devez spécifier le modèle par défaut à utiliser pour ajouter de nouveaux clients à [!INCLUDE[prod_short](includes/prod_short.md)] selon les clients de votre société de Réservations.  
-
-> [!NOTE]
-> L’applications Bookings est conçue pour réserver des rendez-vous pour des clients individuels, plutôt que des sociétés. La synchronisation avec [!INCLUDE[prod_short](includes/prod_short.md)], par conséquent, synchronise uniquement les contacts du client de type « Personne ». Un adresse électronique est également nécessaire pour synchroniser le contact.  
-
-De même, si vous souhaitez synchroniser des articles service entre Bookings et [!INCLUDE[prod_short](includes/prod_short.md)], vous devez spécifier le modèle par défaut à utiliser pour ajouter de nouveaux articles service à [!INCLUDE[prod_short](includes/prod_short.md)] selon les services de notre société Bookings.  
+Par exemple, si vous souhaitez synchroniser des clients entre Réservations et [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez spécifier le modèle par défaut à utiliser pour ajouter de nouveaux clients à [!INCLUDE[d365fin](includes/d365fin_md.md)] selon les clients de votre société de Réservations.  
 
 > [!NOTE]
-> Seuls les articles de type *Service* se synchronisent entre Bookings et [!INCLUDE[prod_short](includes/prod_short.md)]. Le modèle que vous configurez sur la page **Modèles de configuration** pour pouvoir l’utiliser pour la synchronisation d’article doit définir le type comme *Service*.
+> L'applications Bookings est conçue pour réserver des rendez-vous pour des clients individuels, plutôt que des sociétés. La synchronisation avec [!INCLUDE[d365fin](includes/d365fin_md.md)], par conséquent, synchronise uniquement les contacts du client de type « Personne ». Un adresse électronique est également nécessaire pour synchroniser le contact.  
+
+De même, si vous souhaitez synchroniser des articles service entre Bookings et [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez spécifier le modèle par défaut à utiliser pour ajouter de nouveaux articles service à [!INCLUDE[d365fin](includes/d365fin_md.md)] selon les services de notre société Bookings.  
+
+> [!NOTE]
+> Seuls les articles de type *Service* se synchronisent entre Bookings et [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le modèle que vous configurez sur la page **Modèles de configuration** pour pouvoir l'utiliser pour la synchronisation d'article doit définir le type comme *Service*.
 
 ## <a name="invoice-appointments"></a>Facturer les rendez-vous
+Lorsqu'il est temps d'envoyer les factures pour les réservations terminées, vous consultez la page **Réservations non facturées**. Selon le nombre de fois où les informations sont synchronisées, la liste est long ou courte. Vous pouvez créer des factures pour toutes les réservations de la liste ou une réservation à la fois. Vous pouvez sélectionner une ou plusieurs écritures dans la liste et facturer celles-ci uniquement.  
 
-Lorsqu’il est temps d’envoyer les factures pour les réservations terminées, vous consultez la page **Réservations non facturées**. Selon le nombre de fois où les informations sont synchronisées, la liste est long ou courte. Vous pouvez créer des factures pour toutes les réservations de la liste ou une réservation à la fois. Vous pouvez sélectionner une ou plusieurs écritures dans la liste et facturer celles-ci uniquement.  
-
-Le prise en charge de la facturation des rendez-vous dans Réservations est plus simple que le flux de travail plus complet consistant à utiliser des devis, des commandes vente, et des factures vente. Pour plus d’informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md). Vous pouvez choisir de vendre vos services à l’aide de [!INCLUDE[prod_short](includes/prod_short.md)] ou d’utiliser Réservations, selon les besoins de votre activité.  
+Le prise en charge de la facturation des rendez-vous dans Réservations est plus simple que le flux de travail plus complet consistant à utiliser des devis, des commandes vente, et des factures vente. Pour plus d'informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md). Vous pouvez choisir de vendre vos services à l'aide de [!INCLUDE[d365fin](includes/d365fin_md.md)] ou d'utiliser Réservations, selon les besoins de votre activité.  
 
 ## <a name="see-also"></a>Voir aussi
-
 [Finances](finance.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

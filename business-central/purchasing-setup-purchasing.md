@@ -1,53 +1,42 @@
 ---
-title: Aperçu des tâches permettant de paramétrer vos achats
-description: Décrit les tâches permettant de définir les stratégies d’approvisionnement de votre société et de déterminer vos processus d’achat.
+title: Aperçu des tâches permettant de paramétrer vos achats | Microsoft Docs
+description: Décrit les tâches permettant de définir les stratégies d'approvisionnement de votre société et de déterminer vos processus d'achat.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 138cbe3e8f20448c37b59ca9ab8232e0155dc6a6
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6ceaf6828ac5067a0a34c4120627e0352dc90d2d
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115409"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954034"
 ---
 # <a name="setting-up-purchasing"></a>Définition des achats
-Avant de pouvoir gérer les processus achat, vous devez configurer les règles et valeurs qui définissent les stratégies d’achat de la société.
+Avant de pouvoir gérer les processus achat, vous devez configurer les règles et valeurs qui définissent les stratégies d'achat de la société.
 
-Vous devez définir la configuration générale, notamment les documents achat requis et le mode de validation des valeurs correspondantes. Celle-ci a généralement lieu une seule fois au cours de la phase initiale de l’implémentation.
+Vous devez définir la configuration générale, notamment les documents achat requis et le mode de validation des valeurs correspondantes. Celle-ci a généralement lieu une seule fois au cours de la phase initiale de l'implémentation.
 
-Une série de tâches distincte en relation avec l’enregistrement de nouveaux fournisseurs consiste à enregistrer les prix spéciaux ou les accords de remise établis avec chaque fournisseur.
+Une série de tâches distincte en relation avec l'enregistrement de nouveaux fournisseurs consiste à enregistrer les prix spéciaux ou les accords de remise établis avec chaque fournisseur.
 
-Les configurations relatives à la finance, telles que les modes de règlement et les devises, sont traitées dans la section Paramètres financiers. Pour plus d’informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
+Les configurations relatives à la finance, telles que les modes de règlement et les devises, sont traitées dans la section Paramètres financiers. Pour plus d'informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
 
 | Pour | Voir |
 | --- | --- |
 | Créer une fiche fournisseur pour chaque fournisseur auquel vous achetez des biens|[Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md) |
-| Entrer les différents remises et prix spéciaux que vous accordent les fournisseurs en fonction de l’article, des quantités et/ou de la date |[Enregistrer des accords sur les prix d’achat, les remises et les paiements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Entrer les différents remises et prix spéciaux que vous accordent les fournisseurs en fonction de l'article, des quantités et/ou de la date |[Enregistrer des accords sur les prix d'achat, les remises et les paiements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Octroyer une priorité aux fournisseurs |[Octroyer une priorité aux fournisseurs](purchasing-how-prioritize-vendors.md) |
 | Configurer les acheteurs |[Configurer les acheteurs](purchasing-how-setup-purchasers.md) |
-|Spécifiez les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
-> [!TIP]
-> En fonction de votre emplacement géographique, certaines pages peuvent contenir des champs qui ne sont pas décrits dans les articles répertoriés ici, car ils s’appliquent à des fonctionnalités locales ou à des personnalisations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-## <a name="external-document-number"></a>Numéro de document externe
-
-[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
-
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
-
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,29 +1,30 @@
 ---
-title: Exporter des paiements en mode LSV [CH]
-description: Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) contenant des informations sur les paiements après la fermeture du prélèvement LSV.
+title: 'Procédure : Exporter des paiements en mode LSV'
+description: Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) contenant des informations sur les paiements après la fermeture du prélèvement LSV. Vous pouvez envoyer les fichiers générés à la banque sur un disque, ou utiliser un transfert de fichiers électronique tel que votre logiciel de banque en ligne ou un portail Internet.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: 088062ff0eace7d0c8c900f370f87879ae029da4
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 8bf948ec9440e22a30b2cc549b81d404d5e303e8
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947130"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301059"
 ---
-# <a name="export-payments-using-lsv-in-the-swiss-version"></a>Exporter des paiements en mode LSV dans la version suisse
+# <a name="export-payments-using-lsv"></a>Exporter des paiements en mode LSV
 Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) contenant des informations sur les paiements après la fermeture du prélèvement LSV. Vous pouvez envoyer les fichiers générés à la banque sur un disque, ou utiliser un transfert de fichiers électronique tel que votre logiciel de banque en ligne ou un portail Internet.  
 
 ## <a name="to-export-payments-using-lsv"></a>Pour exporter des paiements en mode LSV  
 
-1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Liste feuilles LSV**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Liste feuilles LSV**, puis sélectionnez le lien connexe.  
 2.  Dans la page **Liste feuilles LSV**, sélectionnez la feuille LSV nécessaire.  
 3.  Choisissez l'action **Écrire le fichier LSV**.  
 4.  Dans la page **Écrire le fichier LSV**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
@@ -38,8 +39,5 @@ Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) conte
 ## <a name="see-also"></a>Voir aussi  
  [Paiements électroniques à l'aide de LSV+, Suisse](swiss-electronic-payments-using-lsv-.md)   
  [Traiter un prélèvement LSV](how-to-process-an-lsv-collection.md)   
- [Fermer un prélèvement LSV](how-to-close-an-lsv-collection.md)   
+ [Fermer prélèvement LSV](how-to-close-an-lsv-collection.md)   
  [Valider les paiements LSV+](how-to-post-lsv-payments.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

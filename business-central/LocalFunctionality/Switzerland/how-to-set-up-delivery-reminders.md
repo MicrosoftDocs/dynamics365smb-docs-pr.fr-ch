@@ -1,33 +1,49 @@
 ---
-title: Configurer des relances livraison (CH)
-description: Dans la version suisse de Business Central, vous pouvez utiliser des relances livraison achat pour rappeler aux fournisseurs les livraisons en retard.
+title: 'Procédure : Paramétrer des relances livraison'
+description: Dans Business Central, vous pouvez utiliser des relances livraison pour rappeler aux fournisseurs les livraisons en retard.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 5005270, 5005272
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: b82f97c23a1f6e366074a960f7894ab8f2f132f0
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: bacb809ae0dddc3989a9150ad40e8d947e7b36a1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947101"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300987"
 ---
-# <a name="set-up-delivery-reminders-in-the-swiss-version"></a>Configurer des relances livraison dans la version suisse
+# <a name="set-up-delivery-reminders"></a>Configurer des relances livraison
+Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser des relances livraison pour rappeler aux fournisseurs les livraisons en retard. Pour créer des relances livraison pour les fournisseurs, vous devez configurer des données de base pour la création de relances livraison et des souches de numéros pour les relances livraison dans la page **Paramètres achats**.  
 
-[!INCLUDE [delivery-reminders-setup](../includes/ATCHDE/delivery-reminders-setup.md)]
+## <a name="to-set-up-delivery-reminders"></a>Pour paramétrer des relances livraison  
 
-## <a name="see-also"></a>Voir aussi
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres achats**, puis sélectionnez le lien connexe.  
+2.  Dans le raccourci **Général**, dans le champ **Champ date rel. livr. par défaut**, spécifiez une des options suivantes comme décrit dans le tableau suivant.  
 
-[relances livraison](delivery-reminders.md)  
-[Configurer les conditions, niveaux et textes de relance livraison](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
-[Affecter des codes de relance livraison à des fournisseurs](how-to-assign-delivery-reminder-codes-to-vendors.md)  
-[Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)
+    |Option|Désignation|  
+    |----------------------------------|---------------------------------------|  
+    |**Date réception demandée**|Pour indiquer que la valeur de date dans le champ **Date réception demandée** sur la ligne commande achat est utilisée comme date par défaut pour créer des relances livraison.|  
+    |**Date réception confirmée**|Pour indiquer que la valeur de date dans le champ **Date réception confirmée** sur la ligne commande achat est utilisée comme date par défaut pour créer des relances livraison.|  
+    |**Date réception prévue**|Pour indiquer que la valeur de date dans le champ **Date réception prévue** sur la ligne commande achat est utilisée comme date par défaut pour créer des relances livraison.|  
 
+3.  Sur le raccourci **Numérotation**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    |Champ|Désignation|  
+    |---------------------------------|---------------------------------------|  
+    |**Numéros relances livraison**|Code souche de numéros pour les relances livraison.|  
+    |**Numéros relances livraison émis**|Code souche de numéros pour les relances livraison émises.|  
+
+4.  Cliquez sur le bouton **OK**.  
+
+## <a name="see-also"></a>Voir aussi  
+ [relances livraison](delivery-reminders.md)   
+ [Configurer les conditions, niveaux et textes de relance livraison.](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
+ [Affecter des codes de relance livraison à des fournisseurs](how-to-assign-delivery-reminder-codes-to-vendors.md)   
+ [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)

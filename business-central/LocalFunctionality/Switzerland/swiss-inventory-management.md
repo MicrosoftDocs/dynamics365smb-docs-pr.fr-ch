@@ -1,24 +1,26 @@
 ---
-title: Gestion des stocks, Suisse [CH]
-description: Cet article décrit les améliorations apportées aux fonctions spéciales de gestion des stocks dans Business Central en Suisse.
+title: Gestion des stocks, Suisse
+description: Les améliorations comprennent les fonctions spéciales de gestion des stocks en Suisse.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: 8986455ccbab0adc26a17605fdb7f4889732d950
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 53386804f286b3cfff882c647240dfa9cca2c161
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319303"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300960"
 ---
 # <a name="swiss-inventory-management"></a>Gestion des stocks, Suisse
-[!INCLUDE[prod_short](../../includes/prod_short.md)] comprend les améliorations apportées à la gestion des stocks en Suisse. Notamment :  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] comprend les améliorations apportées à la gestion des stocks en Suisse. Notamment :  
 
 - Génération d'état détaillé.  Pour plus d'informations, voir État Stock - Statistiques vente et État Stock - Liste.  
 - Possibilité de suivre une facture pour plusieurs expéditions.  
@@ -35,6 +37,3 @@ Si plusieurs expéditions ont été validées pour un client, vous pouvez créer
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)   
  [Configurer des magasins](../../inventory-how-setup-locations.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

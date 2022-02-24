@@ -1,35 +1,38 @@
 ---
-title: Affecter des codes de relance livraison à des fournisseurs [CH]
-description: Afin que vous puissiez activer les relances livraison pour les achats en retard, vous devez affecter des conditions de relance livraison à des fournisseurs dans la version suisse.
+title: 'Procédure : Affecter des codes de relance livraison à des fournisseurs'
+description: Afin que vous puissiez activer les relances livraison pour les achats en retard, vous devez affecter des conditions de relance livraison à des fournisseurs.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 5005270, 5005272
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: b4d12354d2e15d2a55b7520116e9f88acd6c3337
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: ac9d8aef8e370423d76dea1a20e08874ad84c50d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947168"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301047"
 ---
-# <a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a>Affecter des codes de relance livraison à des fournisseurs dans la version suisse
+# <a name="assign-delivery-reminder-codes-to-vendors"></a>Affecter des codes de relance livraison à des fournisseurs
+Afin que vous puissiez activer les relances livraison pour les achats en retard, vous devez affecter des conditions de relance livraison à des fournisseurs. Pour plus d'informations, voir [Relances livraison](delivery-reminders.md).  
 
-[!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
+## <a name="to-assign-delivery-reminders-codes-to-vendors"></a>Affecter des codes de relance livraison à des fournisseurs  
 
-## <a name="see-also"></a>Voir aussi
+1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.  
+2.  Sélectionnez le fournisseur pour lequel vous souhaitez définir des relances livraison, puis cliquez sur **Modifier**.  
+3.  Dans le raccourci **Réception**, dans le champ **Conditions de relance livraison**, sélectionnez un code condition relance livraison pour le fournisseur.  
+4.  Cliquez sur le bouton **OK**.  
 
-[Enregistrer un nouveau fournisseur](../../purchasing-how-register-new-vendors.md)  
-[relances livraison](delivery-reminders.md)  
-[Configurer des relances livraison](how-to-set-up-delivery-reminders.md)  
-[Configurer les conditions, niveaux et textes de relance livraison](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
-[Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)  
-[Émettre des relances livraison](how-to-issue-delivery-reminders.md)  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## <a name="see-also"></a>Voir aussi  
+ [Enregistrer un nouveau fournisseur](../../purchasing-how-register-new-vendors.md)   
+ [relances livraison](delivery-reminders.md)   
+ [Configurer des relances livraison](how-to-set-up-delivery-reminders.md)   
+ [Configurer les conditions, niveaux et textes de relance livraison.](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
+ [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)   
+ [Émettre des relances livraison](how-to-issue-delivery-reminders.md)

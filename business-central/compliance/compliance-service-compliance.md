@@ -1,36 +1,38 @@
 ---
-title: Conformité des services et contrat de niveau de service
-description: Du point de vue des services, Business Central est à la hauteur des exigences strictes et de la conformité SLA dans plusieurs certifications ISO et spécifiques à l’industrie.
+title: Conformité des services | Microsoft Docs
+description: Ce contenu comprend des informations sur la conformité des services concernant Business Central.
 author: sorenfriisalexandersen
+documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: e1ecec00458dbe2872eda7654fab0ff555408868
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323683"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185933"
 ---
 # <a name="service-compliance"></a>Conformité des services
+Ce contenu comprend des informations sur la conformité des services concernant [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-Ce contenu comprend des informations sur la conformité des services concernant [!INCLUDE[prod_short](../includes/prod_short.md)] en ligne.  
+Business Central est un service de cloud avec une portée et une échelle totales s'exécutant sur l'une des infrastructures d'hyper-échelle les plus complexes au monde, Microsoft Azure, avec des centres de données dans des régions du monde entier. L'exécution d'un service cloud impose également la nécessité de se conformer à certaines normes en termes de sécurité et de conformité, afin que, du point de vue des services, Business Central respecte les besoins stricts de plusieurs certifications ISO et propres au secteur.
 
-Business Central est un service de cloud avec une portée et une échelle totales s’exécutant sur l’une des infrastructures d’hyper-échelle les plus complexes au monde, Microsoft Azure, avec des centres de données dans des régions du monde entier. L’exécution d’un service cloud impose également la nécessité de se conformer à certaines normes en termes de sécurité et de conformité, afin que, du point de vue des services, Business Central respecte les besoins stricts de plusieurs certifications ISO et propres au secteur.
-
-Veuillez trouver la liste détaillée des [Offres de conformité au cloud de Business Central ici](https://aka.ms/d365-compliance-list).
+Veuillez trouver la liste détaillée des [Offres de conformité au cloud de Business Central ici](https://aka.ms/d365-compliance-list).
 
 Si vous êtes intéressé par la liste complète des offres de conformité de Microsoft, consultez [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings)
 
-## <a name="service-terms"></a>Conditions d’utilisation
+## <a name="service-terms"></a>Conditions d'utilisation
 
-[!INCLUDE [service-terms](../includes/service-terms.md)]
+[!INCLUDE [prodshort](../includes/prodshort.md)] en ligne est régi par la [Politique de cycle de vie moderne](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Les conditions du contrat de niveau de service sont décrites dans le document que vous pouvez télécharger à partir de la section **Contrats de niveau de service pour Microsoft Online Services** sur la page [Termes du contrat de licence](https://www.microsoft.com/licensing/product-licensing/products).  
+
+En outre, vous pouvez surveiller la santé de votre locataire et spécifier des périodes de mise à niveau dans [Centre d'administration des locataires](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -38,7 +40,4 @@ Si vous êtes intéressé par la liste complète des offres de conformité de Mi
 [Conformité des applications](compliance-application-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

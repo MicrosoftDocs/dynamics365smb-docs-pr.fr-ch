@@ -1,42 +1,41 @@
 ---
-title: Utiliser des revenus récurrents
-description: Découvrez les options disponibles pour automatiser l’envoi de factures d’abonnement à vos clients et enregistrer des revenus récurrents.
+title: Utiliser des revenus récurrents | Microsoft Docs
+description: Découvrez les options disponibles pour automatiser l'envoi de factures d'abonnement à vos clients et enregistrer des revenus récurrents.
 author: AndreiPanko
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
-ms.search.form: 283
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 05/27/2020
 ms.author: andreipa
-ms.openlocfilehash: 696ab59530c81cd19709f4e1bde3324bcaebbf5a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971004"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410802"
 ---
-# <a name="work-with-recurring-revenue-in-prod_short"></a>Utiliser des revenus récurrents dans [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-recurring-revenue-in-d365fin"></a>Utiliser des revenus récurrents dans [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
-De nombreuses sociétés passent d’un modèle de revenus d’entreprise où les revenus proviennent des achats ponctuels d’un client à un modèle d’abonnement où les revenus sont générés de manière récurrente en échange d’un accès cohérent à la fourniture d’un bien ou d’un service.
-[!INCLUDE[prod_short](includes/prod_short.md)] propose les options suivantes pour automatiser l’envoi de factures d’abonnement à vos clients et enregistrer des revenus récurrents. 
+De nombreuses sociétés passent d'un modèle de revenus d'entreprise où les revenus proviennent des achats ponctuels d'un client à un modèle d'abonnement où les revenus sont générés de manière récurrente en échange d'un accès cohérent à la fourniture d'un bien ou d'un service.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] propose les options suivantes pour automatiser l'envoi de factures d'abonnement à vos clients et enregistrer des revenus récurrents. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Enregistrer les revenus avec une feuille comptabilité récurrente
 
-Une feuille récurrente est une feuille comptabilité contenant des champs spécifiques pour la gestion des transactions que vous validez souvent avec peu ou pas de modifications comme le loyer, les abonnements, l’électricité ou le chauffage. Utilisez ces champs dans le cadre des transactions récurrentes pour valider les montants fixes et variables. Avec une feuille abonnement, les écritures qui sont régulièrement validées ne sont saisies qu’une fois. Les comptes, axes, sections analytiques, etc., que vous saisissez restent ainsi dans la feuille après validation. Si des ajustements sont nécessaires, vous pouvez les faire à chaque validation.
+Une feuille récurrente est une feuille comptabilité contenant des champs spécifiques pour la gestion des transactions que vous validez souvent avec peu ou pas de modifications comme le loyer, les abonnements, l'électricité ou le chauffage. Utilisez ces champs dans le cadre des transactions récurrentes pour valider les montants fixes et variables. Avec une feuille abonnement, les écritures qui sont régulièrement validées ne sont saisies qu'une fois. Les comptes, axes, sections analytiques, etc., que vous saisissez restent ainsi dans la feuille après validation. Si des ajustements sont nécessaires, vous pouvez les faire à chaque validation.
 
 ### <a name="why-use-this-option"></a>Pourquoi utiliser cette option
 
 Avec cette option, vous définissez des périodes de facturation flexibles avec des [Formules de date](ui-enter-date-ranges.md#using-date-formulas).
 
-Cependant, avec cette option, vous ne pouvez pas imprimer ni envoyer de factures dans la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)].  
+Cependant, avec cette option, vous ne pouvez pas imprimer ni envoyer de factures dans la version par défaut de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Pour plus d’informations, voir [Utilisation des feuilles récurrentes](ui-work-general-journals.md#working-with-recurring-journals).  
+Pour plus d'informations, voir [Utilisation des feuilles récurrentes](ui-work-general-journals.md#working-with-recurring-journals).  
 
-## <a name="create-multiple-invoices-based-on-a-recurring-job-journal"></a>Créer plusieurs factures à partir d’une feuille projet récurrente
+## <a name="create-multiple-invoices-based-on-a-recurring-job-journal"></a>Créer plusieurs factures à partir d'une feuille projet récurrente
 
 La feuille projet récurrente est une alternative plus avancée à la feuille comptabilité. Vous définissez les articles, les ressources et les comptes généraux qui doivent être répétés pour chaque projet, et vous spécifiez la fréquence de récurrence.  
 
@@ -48,7 +47,7 @@ Avec cette option, vous suivez la procédure de facturation standard avec tous l
 
 Cependant, pour chaque nouveau client, vous devez créer un nouveau projet et ajouter des lignes à la feuille récurrente. 
 
-Pour plus d’informations, voir [Créer des lignes feuille projet](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) et [Créer plusieurs factures vente projet](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+Pour plus d'informations, voir [Créer des lignes feuille projet](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) et [Créer plusieurs factures vente projet](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
 
 ## <a name="create-multiple-invoices-based-on-recurring-sales-lines"></a>Créer plusieurs factures à partir de lignes vente récurrentes
 
@@ -58,9 +57,9 @@ Si vous devez souvent créer des lignes vente et des lignes achat comportant des
 
 Avec cette option, vous pouvez attribuer les mêmes lignes récurrentes à plusieurs clients. Vous pouvez définir la période de validité des lignes vente récurrentes pour un client spécifique. Vous pouvez attribuer plusieurs lignes récurrentes au même client et toutes seront incluses dans la facture.
 
-Cependant, il n’y a aucun moyen de définir des prix fixes pour les articles, car [!INCLUDE[prod_short](includes/prod_short.md)] utilisera les prix réels et la remise en vigueur à la date du document pour essayer de trouver la meilleure combinaison qui donne le prix le plus bas.  
+Cependant, il n'y a aucun moyen de définir des prix fixes pour les articles, car [!INCLUDE[d365fin](includes/d365fin_md.md)] utilisera les prix réels et la remise en vigueur à la date du document pour essayer de trouver la meilleure combinaison qui donne le prix le plus bas.  
 
-Pour plus d’informations, voir [Créer des lignes vente et achat récurrentes](sales-how-work-standard-lines.md).
+Pour plus d'informations, voir [Créer des lignes vente et achat récurrentes](sales-how-work-standard-lines.md).
 
 ## <a name="recurring-invoices-with-service-contract"></a>Factures récurrentes avec contrat de service
 
@@ -71,44 +70,44 @@ Vous pouvez créer des modèles contrat pour définir le mode de création de ce
 
 ### <a name="why-use-this-option"></a>Pourquoi utiliser cette option
 
-Avec cette option, vous utilisez une partie de la fonctionnalité de gestion des services avancée qui ne se limite pas à l’émission de factures récurrentes mais prend également en charge les opérations des ateliers de réparation et sur le terrain.
+Avec cette option, vous utilisez une partie de la fonctionnalité de gestion des services avancée qui ne se limite pas à l'émission de factures récurrentes mais prend également en charge les opérations des ateliers de réparation et sur le terrain.
 
-Cependant, cette option nécessite la licence Premium. La configuration de la gestion des services et sa maintenance peuvent ne pas offrir d’énormes avantages dans des scénarios d’abonnement plus simples.  
+Cependant, cette option nécessite la licence Premium. La configuration de la gestion des services et sa maintenance peuvent ne pas offrir d'énormes avantages dans des scénarios d'abonnement plus simples.  
 
-Pour plus d’informations, voir [Utiliser des contrats de service et des devis contrat de service](service-how-to-create-service-contracts-and-service-contract-quotes.md) et [Facturer plusieurs contrats de service](service-how-create-invoices.md#to-invoice-several-service-contracts).
+Pour plus d'informations, voir [Utiliser des contrats de service et des devis contrat de service](service-how-to-create-service-contracts-and-service-contract-quotes.md) et [Facturer plusieurs contrats de service](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Fonctionnalités associées
-Il existe plusieurs fonctionnalités associées dans [!INCLUDE[prod_short](includes/prod_short.md)].
+Il existe plusieurs fonctionnalités associées dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ### <a name="blanket-sales-orders"></a>Commandes cadres vente
 
-Une commande cadre vente représente le cadre d’un accord à long terme entre votre société et votre client.
-Une commande ouverte est généralement établie quand un client s’est engagé à acheter de grandes quantités à livrer en plusieurs expéditions de plus petite taille au cours d’une période déterminée. Souvent, les commandes ouvertes ne portent que sur un seul article avec des dates de livraison prédéterminées. La principale raison d’utiliser une commande cadre plutôt qu’une commande vente est que les quantités entrées dans une commande cadre n’affectent pas la disponibilité de l’article ; toutefois, elle peut être utilisée à des fins de planification.
+Une commande cadre vente représente le cadre d'un accord à long terme entre votre société et votre client.
+Une commande ouverte est généralement établie quand un client s'est engagé à acheter de grandes quantités à livrer en plusieurs expéditions de plus petite taille au cours d'une période déterminée. Souvent, les commandes ouvertes ne portent que sur un seul article avec des dates de livraison prédéterminées. La principale raison d'utiliser une commande cadre plutôt qu'une commande vente est que les quantités entrées dans une commande cadre n'affectent pas la disponibilité de l'article ; toutefois, elle peut être utilisée à des fins de planification.
 
 #### <a name="why-use-this-option"></a>Pourquoi utiliser cette option
 
-Avec cette option, vous utilisez la demande anticipée, les informations soient donc prises en compte lors des routines de planification normales. Pour plus d’informations, voir [Prévisions de la demande et commandes cadres](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
+Avec cette option, vous utilisez la demande anticipée, les informations soient donc prises en compte lors des routines de planification normales. Pour plus d'informations, voir [Prévisions de la demande et commandes cadres](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
 
-Cependant, la version par défaut n’offre pas la possibilité prédéfinie de traiter plusieurs commandes cadres en bloc.
+Cependant, la version par défaut n'offre pas la possibilité prédéfinie de traiter plusieurs commandes cadres en bloc.
 
 Pour plus de détails, voir [Utiliser des commandes cadres vente](sales-how-to-create-blanket-sales-orders.md).
 
 ### <a name="recurring-orders-norway"></a>Commandes récurrentes (Norvège)
 
-Vous pouvez utiliser des commandes récurrentes pour créer des modèles de commande cadre afin que les commandes client puissent être créées en fonction d’intervalles de date que vous définissez. Par exemple, si vous livrez la même commande vente toutes les deux semaines, vous pouvez utiliser une commande cadre vente et créer des commandes récurrentes.
+Vous pouvez utiliser des commandes récurrentes pour créer des modèles de commande cadre afin que les commandes client puissent être créées en fonction d'intervalles de date que vous définissez. Par exemple, si vous livrez la même commande vente toutes les deux semaines, vous pouvez utiliser une commande cadre vente et créer des commandes récurrentes.
 Vous pouvez utiliser des groupes récurrents pour définir une plage de paramètres qui montrent comment vous passez les commandes. Ces groupes sont affectés à des commandes cadres qui doivent être créées régulièrement. Pour créer les commandes récurrentes, vous devrez exécuter régulièrement le processus de création de commandes récurrentes. 
 
 #### <a name="why-use-this-option"></a>Pourquoi utiliser cette option
 
 Avec cette option, vous pouvez choisir entre les prix fixes et les « meilleurs » prix.
 
-Toutefois, cette option n’est disponible qu’en Norvège. La période de validité peut être définie au niveau du groupe récurrent.
+Toutefois, cette option n'est disponible qu'en Norvège. La période de validité peut être définie au niveau du groupe récurrent.
 
-Pour en savoir plus, voir [Commandes récurrentes](LocalFunctionality/Norway/recurring-orders.md).
+Pour plus d'informations, voir [Commandes récurrentes (Norvège)](/localfunctionality/norway/recurring-orders.md).
 
-### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Revenus récurrents et facturation d’abonnement par d’autres fournisseurs
+### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Revenus récurrents et facturation d'abonnement par d'autres fournisseurs
 
-Vous pouvez obtenir des extensions pour Business Central sur le site [AppSource.microsoft.com](https://appsource.microsoft.com/). Certaines extensions sont fournies par Microsoft, et d’autres sont fournies par d’autres sociétés. La liste des extensions par d’autres sociétés évolue chaque mois. Tenez-vous informé sur le site [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) et obtenez des applications pour vous aider à faire votre travail dans Business Central.  
+Vous pouvez obtenir des extensions pour Business Central sur le site [AppSource.microsoft.com](https://appsource.microsoft.com/). Certaines extensions sont fournies par Microsoft, et d'autres sont fournies par d'autres sociétés. La liste des extensions par d'autres sociétés évolue chaque mois. Tenez-vous informé sur le site [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) et obtenez des applications pour vous aider à faire votre travail dans Business Central.  
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -121,7 +120,4 @@ Vous pouvez obtenir des extensions pour Business Central sur le site [AppSource.
 [Facturer plusieurs contrats de service](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Prévisions de demande et commandes ouvertes](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Utiliser des commandes ouvertes vente](sales-how-to-create-blanket-sales-orders.md)  
-[Commandes récurrentes (Norvège)](LocalFunctionality/Norway/recurring-orders.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Commandes récurrentes (Norvège)](/localfunctionality/norway/recurring-orders.md)  

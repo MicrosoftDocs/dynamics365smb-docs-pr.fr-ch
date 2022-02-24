@@ -1,33 +1,33 @@
 ---
-title: Détails de conception : arrondi
-description: Des reliquats d’arrondi peuvent se produire lorsque vous évaluez le coût d’une sortie de stock qui est mesurée dans une quantité différente de l’entrée de stock correspondante.
+title: Détails de conception - Arrondi | Microsoft Docs
+description: Des reliquats d'arrondi peuvent se produire lorsque vous évaluez le coût d'une sortie de stock qui est mesurée dans une quantité différente de l'entrée de stock correspondante. Les reliquats d'arrondi sont calculés pour tous les modes d'évaluation du stock lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 518433903f06c255c80dbba6d7e2982974a325a1
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: b5185b7cc70e6b57a4641cbcd3b45cbf9682285d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318449"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184763"
 ---
 # <a name="design-details-rounding"></a>Détails de conception : arrondi
-Des reliquats d’arrondi peuvent se produire lorsque vous évaluez le coût d’une sortie de stock qui est mesurée dans une quantité différente de l’entrée de stock correspondante. Les reliquats d’arrondi sont calculés pour tous les modes d’évaluation du stock lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**.  
+Des reliquats d'arrondi peuvent se produire lorsque vous évaluez le coût d'une sortie de stock qui est mesurée dans une quantité différente de l'entrée de stock correspondante. Les reliquats d'arrondi sont calculés pour tous les modes d'évaluation du stock lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**.  
 
- Lorsque vous utilisez le mode d’évaluation moyen, le montant résiduel est calculé et enregistré sur une base cumulative écriture par écriture.  
+ Lorsque vous utilisez le mode d'évaluation moyen, le montant résiduel est calculé et enregistré sur une base cumulative écriture par écriture.  
 
- Lorsque vous utilisez un mode d’évaluation autre qu’Average, le montant résiduel est calculé lorsque l’augmentation de stock a été totalement appliquée, c’est-à-dire lorsque la quantité restante pour l’augmentation de stock est égale à zéro. Une écriture distincte est ensuite créée pour l’arrondi résiduel, et la date de comptabilisation de l’écriture arrondie représente la date de comptabilisation de la dernière écriture valeur facturée de l’entrée de stock.  
+ Lorsque vous utilisez un mode d'évaluation autre qu'Average, le montant résiduel est calculé lorsque l'augmentation de stock a été totalement appliquée, c'est-à-dire lorsque la quantité restante pour l'augmentation de stock est égale à zéro. Une écriture distincte est ensuite créée pour l'arrondi résiduel, et la date de comptabilisation de l'écriture arrondie représente la date de comptabilisation de la dernière écriture valeur facturée de l'entrée de stock.  
 
 ## <a name="example"></a>Exemple :  
- L’exemple suivant présente la manière dont les différents reliquats d’arrondi sont traités pour le mode évaluation stock moyen et pour le mode évaluation stock non moyen, respectivement. Dans les deux cas, le traitement par lots **Ajuster coûts - Écr. article** a été exécuté.  
+ L'exemple suivant présente la manière dont les différents reliquats d'arrondi sont traités pour le mode évaluation stock moyen et pour le mode évaluation stock non moyen, respectivement. Dans les deux cas, le traitement par lots **Ajuster coûts - Écr. article** a été exécuté.  
 
- Le tableau suivant répertorie les écritures comptables article sur lesquelles l’exemple est basé.  
+ Le tableau suivant répertorie les écritures comptables article sur lesquelles l'exemple est basé.  
 
 |Date comptabilisation|Quantité|Numéro de la séquence|  
 |------------------|--------------|---------------|  
@@ -36,7 +36,7 @@ Des reliquats d’arrondi peuvent se produire lorsque vous évaluez le coût d�
 |01/03/20|-1|3|  
 |01/04/20|-1|4|  
 
- Pour un article utilisant le mode évaluation stock moyen, l’arrondi résiduel (1/300) est calculé avec la première diminution (numéro de séquence 2) et est reporté sur le numéro de séquence 3. Par conséquent, le numéro de séquence 3 est évalué à –3,34.  
+ Pour un article utilisant le mode évaluation stock moyen, l'arrondi résiduel (1/300) est calculé avec la première diminution (numéro de séquence 2) et est reporté sur le numéro de séquence 3. Par conséquent, le numéro de séquence 3 est évalué à –3,34.  
 
  Le tableau suivant montre les écritures valeur résultantes.  
 
@@ -47,7 +47,7 @@ Des reliquats d’arrondi peuvent se produire lorsque vous évaluez le coût d�
 |01/03/20|-1|-3,34|3|3|  
 |01/04/20|-1|-3,33|4|4|  
 
- Pour un article utilisant un mode évaluation stock autre que moyen, l’arrondi résiduel (0,01) est calculé lorsque la quantité restante pour l’entrée de stock est égale à zéro. Le montant résiduel a une écriture distincte (numéro 5).  
+ Pour un article utilisant un mode évaluation stock autre que moyen, l'arrondi résiduel (0,01) est calculé lorsque la quantité restante pour l'entrée de stock est égale à zéro. Le montant résiduel a une écriture distincte (numéro 5).  
 
  Le tableau suivant montre les écritures valeur résultantes.  
 
@@ -64,7 +64,4 @@ Des reliquats d’arrondi peuvent se produire lorsque vous évaluez le coût d�
  [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)   
  [Détails de conception : Modes évaluation stock](design-details-costing-methods.md) [Gestion des composants des coûts](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
