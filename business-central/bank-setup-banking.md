@@ -1,37 +1,43 @@
 ---
-title: Paramétrer des opérations bancaires| Microsoft Docs
+title: Configuration des opérations bancaires
 description: Utilisez les fiches compte bancaire pour suivre vos comptes bancaires et paramétrer le flux bancaire, telles que Yodlee, pour échanger des données.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ea9b5753e159d16b1e0348053ea71816934cbe43
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 1200
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 04db99fe79ad29357c399b64e6e12fb89654fabb
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186179"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971446"
 ---
 # <a name="setting-up-banking"></a>Paramétrage des opérations bancaires
-Les fiches compte bancaire vous permettent de gérer tous vos comptes bancaires, dans n'importe quelle devise. Une fois que vous avez configuré les comptes bancaires, vous pouvez également utiliser l'option d'impression de chèque.
 
-Pour utiliser les services bancaires électroniques pour importer des relevés bancaires et exporter des paiements, vous devez d'abord configurer et activer les services en question.
+Les fiches compte bancaire vous permettent de gérer tous vos comptes bancaires, dans n’importe quelle devise. Une fois que vous avez configuré les comptes bancaires, vous pouvez également utiliser l’option d’impression de chèque.
+
+Pour utiliser les services bancaires électroniques pour importer des relevés bancaires et exporter des paiements, vous devez d’abord configurer et activer les services en question.
 
 | Pour | Voir |
 | --- | --- |
 | Configurer des fiches compte bancaire pour chacun de vos comptes bancaires, de manière à ce que vous puissiez gérer vos transactions bancaires. |[Configuration des comptes bancaires](bank-how-setup-bank-accounts.md) |
-| Configurer un service externe qui vous permet d'importer des relevés bancaires sous forme de flux bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
-| Configurer un service externe qui vous permet d'exporter vos paiements vers la banque pour traitement et d'importer des relevés bancaires sous forme de fichiers bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Utilisation de l'extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
+| Configurer un service externe qui vous permet d’importer des relevés bancaires sous forme de flux bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
+| Configurer un service externe qui vous permet d’exporter vos paiements vers la banque pour traitement et d’importer des relevés bancaires sous forme de fichiers bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
+
+[!INCLUDE [local-functionality](includes/local-functionality.md)]
 
 ## <a name="see-also"></a>Voir aussi
+
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

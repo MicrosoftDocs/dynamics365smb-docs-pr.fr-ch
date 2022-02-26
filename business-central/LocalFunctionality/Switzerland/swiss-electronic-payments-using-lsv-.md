@@ -1,23 +1,24 @@
 ---
-title: Paiements électroniques à l'aide de LSV+, Suisse
-description: La méthode de paiement électronique Lastschrift Verfahren (LSV+) (ou par prélèvement), version améliorée de LSV, permet aux entreprises de récupérer les paiements directement à partir des comptes bancaires de leurs clients. Pour récupérer les paiements clients, vous devez envoyer un fichier LSV à la banque afin que celle-ci prenne en compte les paiements requis dans le fichier.
+title: Paiements électroniques à l'aide de LSV+, Suisse [CH]
+description: La méthode de paiement électronique Lastschrift Verfahren (LSV+) (ou par prélèvement) permet aux entreprises de récupérer les paiements directement à partir des comptes bancaires de leurs clients.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: b6531238cd7cc4cee79ac04079c81c18d45cb2e2
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 9b156d23fd6b3ae4e7b912c9a8cbc51685ffb08a
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878804"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947081"
 ---
-# <a name="swiss-electronic-payments-using-lsv"></a>Paiements électroniques à l'aide de LSV+, Suisse
+# <a name="swiss-electronic-payments-using-lsv-in-the-swiss-version"></a>Paiements électroniques à l'aide de LSV+ dans la version suisse
 La méthode de paiement électronique Lastschrift Verfahren (LSV+) (ou par prélèvement), version améliorée de LSV, permet aux entreprises de récupérer les paiements directement à partir des comptes bancaires de leurs clients. Pour récupérer les paiements clients, vous devez envoyer un fichier LSV à la banque afin que celle-ci prenne en compte les paiements requis dans le fichier.  
 
 La méthode LSV+ est un principe de prélèvement avec un droit d'opposition. Business Direct Debit (BDD) est un système de prélèvement sans droit d'opposition. Le format de fichier à envoyer à la banque est le même pour LSV+ et BDD.  
@@ -44,3 +45,6 @@ Vous pouvez télécharger des transactions de crédit de paiement au format de f
  [Paiements électroniques, Suisse](swiss-electronic-payments.md)   
  [Paiements électroniques à l'aide de ESR+, Suisse](swiss-electronic-payments-using-esr.md)   
  [Effectuer des paiements](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

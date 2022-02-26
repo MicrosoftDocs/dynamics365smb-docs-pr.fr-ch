@@ -1,28 +1,28 @@
 ---
-title: Organisation des processus de services | Microsoft Docs
-description: Décrit les tâches permettant de configurer des règles et des valeurs pour définir vos stratégies de services et vos processus de vente.
+title: Planification des processus de service
+description: Cette rubrique décrit les différentes tâches permettant de configurer des règles et des valeurs pour définir vos stratégies de services et vos processus de vente.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 04/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e3e879a2f768e8260693d160c419b006159ed46
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 93dfc313521d392b3585eac4aacab3c152a43c78
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192498"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323017"
 ---
 # <a name="planning-services"></a>Services de planification
-Grâce à [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez configurer les tâches standard qui permettent de répondre aux besoins du service clientèle. Pour cela, vous devez déterminer quels articles et offres de service sont pris en charge par votre organisation de prestation de services, et à quel prix.   
+Grâce à [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez configurer les tâches standard qui permettent de répondre aux besoins du service clientèle. Pour cela, vous devez déterminer quels articles et offres de service sont pris en charge par votre organisation de prestation de services, et à quel prix.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit également des outils statistiques permettant d'évaluer les performances et d'identifier les points à améliorer.
+[!INCLUDE[prod_short](includes/prod_short.md)] fournit également des outils statistiques permettant d’évaluer les performances et d’identifier les points à améliorer.
   
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
   
@@ -30,8 +30,8 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |------------|-------------|  
 |Définir la tarification des services que vous fournissez.|[Gestion de la tarification des services](service-service-price-management.md)|
 |Configurer et personnaliser les articles de service et les groupes de service. Cela implique de définir les compétences requises par un service et les directives incident.| [Créer des articles de service](service-how-to-create-service-items.md)|  
-|Savoir comment gérer l'état réparation lors des commandes service, et définir leur priorité.|[Description des commandes service et de l'état réparation](service-service-order-status-and-repair-status.md)|  
-|Comprendre la relation entre l'état d'une réparation et l'effet sur les ressources affectées, et vice versa.|[Description du statut d'affectation et l'état réparation](service-allocation-status-and-repair-status.md)|  
+|Savoir comment gérer l’état réparation lors des commandes service, et définir leur priorité.|[Description des commandes service et de l’état réparation](service-service-order-status-and-repair-status.md)|  
+|Comprendre la relation entre l’état d’une réparation et l’effet sur les ressources affectées, et vice versa.|[Description du statut d’affectation et l’état réparation](service-allocation-status-and-repair-status.md)|  
 |Utiliser les statistiques pour analyser vos processus de service. | [Affichage des statistiques service](service-service-statistics.md) |
 
 ## <a name="see-also"></a>Voir aussi
@@ -41,3 +41,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Configurer les articles de service et les composants article de service](service-how-setup-service-items.md)  
 [Paramétrer les statuts des commandes service et des réparations](service-order-repair-status.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

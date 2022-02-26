@@ -1,33 +1,37 @@
 ---
-title: Vidéos de présentation de l'utilisation de Business Central | Microsoft Docs
-description: Permet d'accéder aux vidéos de mise en route qui illustrent comment effectuer des tâches courantes.
-services: project-madeira
-documentationcenter: ''
+title: Visiter notre vidéothèque
+description: Visitez notre vidéothèque pour obtenir de l’aide, des vidéos de démarrage illustrant les tâches courantes « Procédure pour » de vidéos de produits thématiques.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 04/01/2020
+ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: edcebea944533b0c1c91575dd6f3ec3bafe0688b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cbbd4ec47a3a6b6d8ed1ed3ab3db2982d21966aa
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187571"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324701"
 ---
 # <a name="visit-our-video-library"></a>Visitez notre vidéothèque
-Nous savons que certaines personnes préfèrent regarder du contenu plutôt que de le lire. À cette fin, nous produisons des vidéos courtes et digestes qui peuvent être autonomes ou compléter notre assistance utilisateur.   
 
-Si vous êtes novice de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez lancer les vidéos d’introduction à partir de la page d’accueil qui s’affiche. Si vous utilisez déjà [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez accéder à la bibliothèque à partir des tableaux de bord **Gestionnaire d'activité** et **Comptable** en sélectionnant la vignette **Vidéos du produit**. 
+Nous savons que certaines personnes préfèrent regarder du contenu plutôt que de le lire. À cette fin, nous produisons des vidéos courtes et digestes qui peuvent être autonomes ou compléter notre assistance utilisateur.  
 
-Vous pouvez également afficher nos vidéos de « procédures », ainsi que bien d'autres contenus, sur la chaîne YouTube que nous avons créée pour [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour visiter la chaîne maintenant, [cliquez ici](https://go.microsoft.com/fwlink/?linkid=851533).
+Si vous êtes novice de [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez lancer les vidéos d’introduction à partir de la page d’accueil qui s’affiche. Si vous utilisez déjà [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez accéder à la bibliothèque à partir des tableaux de bord **Gestionnaire d’activité** et **Comptable** en sélectionnant la vignette **Vidéos du produit**.  
+
+Vous pouvez également afficher nos vidéos de « procédures », ainsi que bien d’autres contenus, sur la playlist YouTube que nous avons créée pour [!INCLUDE[prod_short](includes/prod_short.md)]. Pour visiter les vidéos maintenant, [cliquez ici](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
-> Les vidéos de la bibliothèque s'affichent dans un cadre qui peut sembler petit. Pour agrandir le cadre, choisissez l'icône de double flèche dans le coin supérieur droit. Ensuite, les vidéos s'afficheront dans un cadre plus grand jusqu'à ce que vous le réduisiez à nouveau.
+> Les vidéos de la bibliothèque s’affichent dans un cadre qui peut sembler petit. Pour agrandir le cadre, choisissez l’icône de double flèche dans le coin supérieur droit. Ensuite, les vidéos s’afficheront dans un cadre plus grand jusqu’à ce que vous le réduisiez à nouveau.
 
 ## <a name="see-also"></a>Voir aussi
-[Mise en route](product-get-started.md)
+
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
+[Chaîne Dynamics 365 sur YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

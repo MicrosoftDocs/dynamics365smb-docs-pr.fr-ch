@@ -1,27 +1,27 @@
 ---
-title: Gestion des services | Microsoft Docs
-description: Apprenez à utiliser des fonctions conçues pour prendre en charge les opérations de l'atelier de réparation et du service clientèle.
+title: Gestion des services
+description: Découvrez comment utiliser les fonctionnalités de Business Central conçues pour gérer et suivre les services pour prendre en charge les opérations d’atelier de réparation et de service sur le terrain.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6490ad13833c97c79c232b6433b4b2f51e51bc4f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 4e3f85ae3bc5f8672f148ad04388e5810cefb45f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192378"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320096"
 ---
 # <a name="service-management"></a>Gestion des services
 > [!NOTE]
-> La fonctionnalité décrite dans ces rubrique et sous-rubriques n'est visible dans l'interface utilisateur que si vous avez l'expérience **Premium**. Pour plus d'informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
+> La fonctionnalité décrite dans ces rubrique et sous-rubriques n’est visible dans l’interface utilisateur que si vous avez l’expérience **Premium**. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
 
-L'offre d'un service continu aux clients est essentielle à toute transaction commerciale et peut être source de satisfaction et de fidélisation des clients, en complément des revenus. Cependant, gérer et suivre des services n'est pas toujours facile ; [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut un ensemble d'outils qui simplifient ces tâches. Vous pouvez les utiliser dans divers scénarios d'entreprise : systèmes de distribution complexes du service clientèle, environnements de service industriel avec des nomenclatures, affectation d'un nombre important de techniciens de service avec des besoins en gestion des pièces de rechange.  
+L’offre d’un service continu aux clients est essentielle à toute transaction commerciale et peut être source de satisfaction et de fidélisation des clients, en complément des revenus. Cependant, gérer et suivre des services n’est pas toujours facile ; [!INCLUDE[prod_short](includes/prod_short.md)] inclut un ensemble d’outils qui simplifient ces tâches. Vous pouvez les utiliser dans divers scénarios d’entreprise : systèmes de distribution complexes du service clientèle, environnements de service industriel avec des nomenclatures, affectation d’un nombre important de techniciens de service avec des besoins en gestion des pièces de rechange.  
 
  Ces outils permettent de réaliser ce qui suit :  
 
@@ -46,6 +46,9 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des comptes client](receivables-manage-receivables.md)   
 [Projets](projects-how-create-jobs.md)   
-[Bienvenue dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
+[Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

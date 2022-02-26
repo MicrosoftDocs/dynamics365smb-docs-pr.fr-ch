@@ -1,33 +1,36 @@
 ---
-title: Détails de conception - Coûts ajustés | Microsoft Docs
+title: Détails de conception – Évaluation stock
 description: Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8dc7f7ac1e9f1d6b9919ecf7401d5cadf69a56c0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 8645
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: b76d0ccdfce2ef69da4b49e4b4e143de5a61d23c
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185315"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115135"
 ---
 # <a name="design-details-inventory-costing"></a>Détails de conception : coûts ajustés
-Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-L'évaluation des coûts de stock, aussi appelé gestion des coûts, se charge de l'enregistrement et de la déclaration des coûts d'exploitation de la société.  
+Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="in-this-section"></a>Dans cette section  
+L’évaluation des coûts de stock, aussi appelé gestion des coûts, se charge de l’enregistrement et de la déclaration des coûts d’exploitation de la société.  
+
+## <a name="in-this-section"></a>Dans cette section
+
 [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 [Détails de conception : lettrage article](design-details-item-application.md)  
 [Détails de conception : problème de lettrage article connu](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)  
-[Détails de conception : date comptabilisation de l'écriture valeur d'ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Détails de conception : date comptabilisation de l’écriture valeur d’ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Détails de conception : validation du coût prévu](design-details-expected-cost-posting.md)  
 [Détails de conception : coût moyen](design-details-average-cost.md)  
 [Détails de conception : écart](design-details-variance.md)  
@@ -35,9 +38,12 @@ L'évaluation des coûts de stock, aussi appelé gestion des coûts, se charge d
 [Détails de conception : composants des coûts](design-details-cost-components.md)  
 [Détails de conception : périodes inventaire](design-details-inventory-periods.md)  
 [Détails de conception : comptabilisation stock](design-details-inventory-posting.md)  
-[Détails de conception : validation d'ordre de fabrication](design-details-production-order-posting.md)  
-[Détails de conception : validation d'ordre d'assemblage](design-details-assembly-order-posting.md)  
+[Détails de conception : validation d’ordre de fabrication](design-details-production-order-posting.md)  
+[Détails de conception : validation d’ordre d’assemblage](design-details-assembly-order-posting.md)  
 [Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md)  
 [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md)  
 [Détails de conception : évaluation du stock](design-details-inventory-valuation.md)  
 [Détails de conception : réévaluation](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

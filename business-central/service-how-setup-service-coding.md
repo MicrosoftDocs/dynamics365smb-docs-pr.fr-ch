@@ -1,37 +1,43 @@
 ---
-title: Configurer des codes prestations standard | Microsoft Docs
-description: Découvrez comment configurer des codes pour les activités de service que vous effectuez souvent.
+title: Configurer des codes prestations standards
+description: Découvrez comment configurer les codes pour les activités de service effectuées régulièrement avec un ensemble prédéfini de lignes de service.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 766af833ddef09b72a520e97d47a32fb7b77fd86
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: c5f5e6dbe647fc8957c42a78163f6871d7a7b382
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877438"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436616"
 ---
 # <a name="set-up-standard-service-codes"></a>Configurer des codes prestation standard
-Lorsque vous exécutez un service courant, il est fréquent que vous deviez créer des documents service qui utilisent des lignes service contenant des informations similaires. Pour faciliter la création de ces lignes, vous pouvez configurer des codes prestation standard avec un ensemble prédéfini de lignes service. Lorsque vous sélectionnez le code sur un document service, les lignes sont saisies automatiquement. Vous pouvez configurer autant de codes prestation standard que vous le souhaitez, et chaque code peut avoir un nombre illimité de lignes service de différents types, notamment l'article, la ressource, le coût ou le texte standard qui lui est associé. Créez des lignes service pour chaque code prestation standard dans la fiche **Code prestation standard**. Vous pouvez ensuite affecter les codes prestation standard à des groupes articles de service dans la page **Codes gpe articles de service standard**. Par la suite, lorsque vous créez un document service, vous pouvez utiliser l'action **Extraire codes prestation std** pour ajouter des lignes service.  
+
+Lorsque vous exécutez un service courant, il est fréquent que vous deviez créer des documents service qui utilisent des lignes service contenant des informations similaires. Pour faciliter la création de ces lignes, vous pouvez configurer des codes prestation standard avec un ensemble prédéfini de lignes service. Lorsque vous sélectionnez le code sur un document service, les lignes sont saisies automatiquement. Vous pouvez configurer autant de codes prestation standard que vous le souhaitez, et chaque code peut avoir un nombre illimité de lignes service de différents types, notamment l’article, la ressource, le coût ou le texte standard qui lui est associé. Créez des lignes service pour chaque code service standard dans la fiche **Code prestation standard**. Vous pouvez ensuite affecter les codes prestation standard à des groupes articles de service dans la page **Codes gpe articles de service standard**. Par la suite, lorsque vous créez un document service, vous pouvez utiliser l’action **Extraire codes prestation std** pour ajouter des lignes service.  
   
 > [!Tip]
->  Vous pouvez utiliser le même concept pour créer des lignes dans les documents achat et vente. Pour plus d'informations, voir [Créer des lignes vente et achat récurrentes](sales-how-work-standard-lines.md).    
+> Vous pouvez utiliser le même concept pour créer des lignes dans les documents achat et vente. Pour plus d’informations, voir [Créer des lignes vente et achat récurrentes](sales-how-work-standard-lines.md).  
   
-## <a name="to-set-up-a-standard-service-code"></a>Pour configurer un code prestation standard    
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Codes prestation standard**, puis sélectionnez le lien associé.  
+## <a name="to-set-up-a-standard-service-code"></a>Pour configurer un code prestation standard
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes service standard**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Renseignez les lignes service liées à ce code prestation.  
+3. Renseignez les lignes service liées à ce code prestation.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Pour affecter un code prestation standard à un groupe articles de service
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes articles de service**, puis sélectionnez le lien associé.  
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes articles de service**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Renseignez les lignes service liées à ce code prestation.  
 
 ## <a name="see-also"></a>Voir aussi
+
 [Gestion des services](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

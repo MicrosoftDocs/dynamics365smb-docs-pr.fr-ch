@@ -1,80 +1,130 @@
 ---
-title: Utilisation de Business Central avec Outlook | Microsoft Docs
-description: Ce service bénéficie d'une intégration complète à Office 365, ce qui vous permet de gérer tous vos interactions et messages d'affaires avec les clients et les fournisseurs directement dans Outlook.
-author: edupont04
+title: Obtenir le complément Business Central pour Outlook
+description: Découvrez comment installer le complément Business Central pour Outlook pour votre organisation ou pour votre propre usage.
+author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
-ms.author: edupont
-ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
+ms.search.form: 1831, 1832
+ms.date: 08/13/2021
+ms.author: jswymer
+ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186923"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049610"
 ---
-# <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook
+# <a name="get-the-business-central-add-in-for-outlook"></a>Obtenir le complément Business Central pour Outlook
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet désormais de gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez afficher des informations financières associées à des clients et des fournisseurs, ainsi que créer et envoyer des documents financiers, comme des devis et des factures.  
+Avec [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément Outlook pour [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez voir les données financières relatives aux clients et aux fournisseurs. Vous pouvez également créer et envoyer des documents financiers, tels que des devis et des factures.  
 
-## <a name="getting-the-add-in"></a>Obtention du complément
-Il pouvez aisément démarrer avec le module complémentaire [!INCLUDE[d365fin](includes/d365fin_md.md)] for Outlook. Dans le guide de configuration assistée **Configurer votre boîte de réception professionnelle dans Outlook**, vous pouvez configurer la connexion pour vous-même ou pour votre organisation si votre organisation utilise Office 365. Spécifiez simplement votre nom d'utilisateur et mot de passe Office 365, si vous êtes invité(e), et dites-nous si vous souhaitez recevoir un exemple de message électronique. Le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] est alors automatiquement ajouté à votre Outlook. Pour plus d'informations, voir [Configuration minimale requise pour Outlook](product-requirements.md#outlook).  
+Il existe deux manières d’installer le complément Business Central pour Outlook, en fonction de votre rôle dans l’organisation :
 
-Ensuite, lorsque vous ouvrez Outlook, vous voyez un message électronique dans *Admin Dynamics 365 Business Central*. Les nouveaux modules complémentaires sont ajoutés au ruban Outlook, et dans le navigateur, les modules complémentaires [!INCLUDE[prodshort](includes/prodshort.md)] apparaissent au-dessus ou au dessous du corps du message. Les modules complémentaires sont mis à jour régulièrement, et vous êtes informé qu'une nouvelle version est prête dans Outlook.  
+- En tant qu’administrateur Microsoft 365, utilisez le *Déploiement centralisé* pour installer le complément automatiquement pour l’ensemble de l’organisation, des groupes ou des utilisateurs spécifiques.
 
-> [!TIP]
-> Si vous utilisez le nouvel Outlook sur le Web, les compléments [!INCLUDE [prodshort](includes/prodshort.md)] peuvent être cachés sous **Plus d'actions**. Si vous utilisez souvent le complément, vous pouvez l'épingler pour qu'il soit toujours immédiatement visible. Pour plus d'informations, voir [Utilisation des compléments dans Outlook sur le Web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
+- En tant qu’utilisateur quelconque, installez le complément pour votre propre usage, si votre administrateur ne l’a pas déjà déployé pour vous.
 
-Si vous travaillez avec plus d'une entreprise [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez facilement basculer d'une entreprise à l'autre dans Outlook. Dans la barre d'actions du complément, choisissez **Plus d'actions** pour afficher l'option permettant de passer d'une entreprise à l'autre.  
+## <a name="about-the-business-central-add-in-for-outlook"></a>À propos du complément Business Central pour Outlook
 
-<!--TEMP-->
+Le complément Business Central pour Outlook se compose de deux compléments plus petits :
+
+- Panorama des contacts
+
+    Ce complément fournit aux utilisateurs des informations [!INCLUDE[prod_short](includes/prod_short.md)] sur le client ou le fournisseur dans les e-mails Outlook et les rendez-vous du calendrier. Il vous permet également de créer et d’envoyer des documents professionnels [!INCLUDE[prod_short](includes/prod_short.md)], tels que des devis et des factures, à un contact. <!--To support these task, the add-in adds actions to the Outlook ribbon, in the **Business Central** group. --> 
+
+- Affichage de document
+
+    Lorsqu’un e-mail fait référence à un numéro de document commercial dans le corps de l’e-mail, ce complément fournit un lien direct, en ligne, entre le corps de l’e-mail et le document commercial réel dans [!INCLUDE[prod_short](includes/prod_short.md)].
+
+Pour plus d’informations sur les possibilités des compléments, consultez [Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](work-outlook-addin.md).
+
+Chaque complément est fourni sous forme de fichier XML, appelé *manifeste*, qui doit être installé dans Outlook pour toute personne souhaitant cette fonctionnalité. Ces fichiers décrivent comment activer les compléments et se connecter à Business Central lorsqu’ils sont utilisés dans Outlook. Ces fichiers sont généralement utilisés par un administrateur. En tant qu’utilisateur normal, dans la plupart des cas, vous n’aurez pas à gérer directement ces fichiers. Soit votre administrateur configurera le complément pour qu’il s’installe automatiquement pour vous, soit vous utiliserez la configuration assistée intégrée pour gérer l’installation.
+
+## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Déployer le complément à l’aide du déploiement centralisé en tant qu’administrateur
+
+Le déploiement centralisé est une fonctionnalité du centre d’administration de Microsoft 365 que vous utilisez pour installer automatiquement des compléments dans les applications Office des utilisateurs, comme Outlook. C’est la méthode recommandée aux administrateurs pour déployer des compléments Office pour les utilisateurs et les groupes au sein de l’organisation.
+
 > [!NOTE]
-> Le passage d'une entreprise à l'autre nécessite la 2e vague de publication 2019 de [!INCLUDE [prodshort](includes/prodshort.md)] ou ultérieure, comme annoncé dans le [plan de publication](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> Pour Business Central local, voir [Configuration du complément pour l’intégration d’Outlook avec Business Central local](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) dans le contenu administratif (en anglais uniquement).
 
-Certaines sociétés utilisant Office 365 n'autorisent pas leurs utilisateurs à déployer des compléments. Vous devez donc veiller à disposer d'un abonnement Office 365 comprenant la messagerie et vous permettant de déployer des compléments. Si vous souhaitez tout de même essayer le complément, vous pouvez [essayer gratuitement Office 365](https://products.office.com/try).  
+### <a name="prerequisites"></a>Conditions préalables
 
-## <a name="using-the-contact-insights-add-in"></a>Utilisation du complément Panorama des contacts
-Imaginons que vous receviez un e-mail d'un client souhaitant obtenir un devis pour certains articles. Directement dans Outlook, vous pouvez ouvrir le complément [!INCLUDE[d365fin](includes/d365fin_md.md)], qui identifie l'expéditeur comme un client, et ouvre la fiche client de sa société. À partir de ce tableau de bord, vous pouvez afficher des informations générales relatives au client, ainsi que rechercher davantage de détails sur des documents spécifiques. Vous pouvez également effectuer des recherches approfondies dans l'historique des ventes du client. S'il s'agit d'un nouveau contact, vous pouvez le créer en tant que tel dans [!INCLUDE[d365fin](includes/d365fin_md.md)] sans quitter Outlook.  
+- Un abonnement Microsoft 365  
+- Les utilisateurs se voient attribuer une licence Microsoft 365  
+- Votre compte Microsoft 365 a le rôle *Administrateur global* ou *Administrateur Exchange*
 
-Dans le complément, vous pouvez créer un devis et l'envoyer à ce client sans quitter Outlook. Toutes les informations dont vous avez besoin pour envoyer le devis sont disponibles dans votre boîte de réception professionnelle dans Outlook.  
-Une fois les données saisies, vous pouvez valider le devis. Vous pouvez ensuite l'envoyer par e-mail. [!INCLUDE[d365fin](includes/d365fin_md.md)] génère un fichier .PDF avec le devis et le joint au message électronique que vous rédigez dans le complément.  
+### <a name="deploy-the-add-in"></a>Déploiement du complément
 
-De même, si vous recevez un e-mail d'un fournisseur, vous pouvez utiliser le complément pour travailler avec les fournisseurs et les factures achat.  
+1. Dans Business Central, sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonctionnalité Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration assistée**, puis choisissez le lien associé.
+2. Sélectionnez **Déploiement centralisé du complément Outlook** pour démarrer le guide de configuration assistée.
+3. Passez en revue la première page et sélectionnez **Suivant** pour ouvrir la page de téléchargement des compléments.
+4. Dans la colonne **Déployer**, cochez la case des compléments que vous souhaitez déployer, puis sélectionnez **Télécharger et continuer**.
 
-Il arrive parfois que vous souhaitiez visualiser davantage de champs que ceux qui s'affichent dans le complément, par exemple si vous souhaitez renseigner des lignes dans une facture. Afin de vous bénéficier d'un espace de travail plus important, vous pouvez ouvrir le complément sur une page distincte. Il s'agit toujours d'Outlook, mais vous disposez de davantage d'espace. Au fur et à mesure que vous saisissez des données pour le document dans l'affichage contextuel, les modifications sont automatiquement enregistrées. Lorsque vous avez terminé de saisir les données pour le document, vous pouvez cliquer sur le bouton **OK**. Sélectionner le cadre du complément dans Outlook actualise automatiquement le document avec les modifications que vous avez effectuées dans l'affichage contextuel.  
+    Un fichier nommé *OutlookAddins.zip* est téléchargé sur votre appareil.
 
-## <a name="creating-invoices-from-your-meeting-appointments"></a>Création de factures à partir de vos rendez-vous de réunion
-Certaines sociétés enregistrent tous les rendez-vous facturables dans le calendrier Outlook. Avec [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez créer la facture du client directement à partir de l'article calendrier : ouvrez le rendez-vous, puis vous pouvez ouvrir le complément [!INCLUDE[d365fin](includes/d365fin_md.md)], rechercher des informations existantes ou créer une facture ou un autre document vente directement ici.  
+5. À ce stade, vous avez terminé le travail que vous devez effectuer dans Business Central, vous pouvez donc sélectionner **Terminé**.
 
-## <a name="doing-quick-document-lookup"></a>Recherche rapide de document
-Le complément Liens de document de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet d'accéder rapidement aux documents mentionnés dans les e-mails. Le complément est disponible pour un e-mail si un numéro de document est identifié dans le corps du message. Ouvrir le complément vous permet d'accéder rapidement à ce document.  
+   >[!TIP]
+   > Avant de sélectionner **Suivant**, sélectionnez le lien **Accéder à Microsoft 365 (s’ouvre dans une nouvelle fenêtre)** pour ouvrir le centre d’administration Microsoft 365 et s’y connecter dans une nouvelle fenêtre de navigateur. Vous devrez de toute façon accéder au centre d’administration Microsoft 365 à une étape ultérieure.
 
-Par exemple, si vous recevez un e-mail qui mentionne le texte *S-QUO100*, [!INCLUDE[d365fin](includes/d365fin_md.md)] l'identifie comme un devis et vous pouvez donc ouvrir ce document dans Outlook. Dans Outlook, cliquez sur le bouton **Liens de document** situé juste au-dessus du corps du message. Dans Outlook Web App, sélectionnez le texte *S-QUO1001* dans le corps du message.  
+6. Allez dans le dossier où OutlookAddins.zip a été téléchargé et extrayez les fichiers **Contact Insights.xml** et **Document View.xml** du .zip dans un dossier de votre choix.
 
-Dans le complément Liens de document, vous pouvez modifier le document et effectuer des opérations sur celui-ci, comme dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+    Pour plus d’informations, consultez [Compresser et décompresser des fichiers et dossiers](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
+7. Connectez-vous au Centre d’administration Microsoft 365, puis accédez à [Applications intégrées](https://go.microsoft.com/fwlink/?linkid=2163967).
 
-## <a name="adding-the-add-ins-manually"></a>Ajout de compléments manuellement
-Dans certains cas, les compléments ne sont pas ajoutés automatiquement dans Outlook. Même si vous (ou l'un de vos collègues) avez exécuté le guide de configuration assistée pour le compte de la société, [!INCLUDE[d365fin](includes/d365fin_md.md)] ne s'affiche pas forcément dans Outlook. Si vous rencontrez ce problème, vous pouvez ajouter le complément [!INCLUDE[d365fin](includes/d365fin_md.md)] manuellement.  
+8. Sélectionnez **Charger des applications personnalisées**.
+9. Sur la page **Charger les applications à déployer**, sélectionnez **Charger le fichier manifeste (.xml) depuis l’appareil** > **Choisir le fichier**.
+10. Sélectionnez l’un des fichiers de complément que vous avez extraits précédemment, par exemple, **Contact Insights.xml**.
+11. Suivez les instructions pour affecter des utilisateurs et déployer le complément.
+12. Répétez les étapes 9 à 11 pour l’autre fichier de complément si vous le souhaitez.
 
-Premièrement, vous devez vérifier que vous avez accès aux compléments dans votre compte Office 365. Ouvrez simplement votre Outlook dans un navigateur, ouvrez un message, sélectionnez **Plus d'actions** (...) en haut du message, puis en bas de la liste, choisissez **Obtenir des compléments** . Cela ouvre la page **Compléments pour Outlook**, sur laquelle vous pouvez activer [!INCLUDE[prodshort](includes/prodshort.md)] pour votre Outlook. Ensuite, lorsque vous revenez dans Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] devrait être disponible.  
+> [!IMPORTANT]
+> Une coche verte apparaît lorsque le complément est déployé dans le centre d’administration. Cependant, il peut falloir jusqu’à 24 heures avant que les utilisateurs voient le complément dans l’application Outlook. Les utilisateurs devront peut-être également redémarrer Outlook.
 
-De même dans le client de bureau Outlook, vous pouvez vérifier si [!INCLUDE[d365fin](includes/d365fin_md.md)] est répertorié sur la page **Obtenir des compléments**.  
+Une fois terminé, vous pouvez toujours modifier le déploiement dans le centre d’administration Microsoft 365, par exemple en affectant plus d’utilisateurs. Pour plus d’informations sur le déploiement de compléments dans le centre d’administration, consultez [Déployer des compléments dans le centre d’administration](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 
-Dans les deux cas, si [!INCLUDE[d365fin](includes/d365fin_md.md)] n'est toujours pas disponible, vous devez vous procurer les fichiers de manifeste macro complémentaire. Pour plus d'informations, contactez votre administrateur Office 365.
+## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installer le complément pour votre propre usage
 
-## <a name="using-other-email-accounts"></a>Utilisation d'autres comptes de messagerie
+Si votre organisation le permet, vous pouvez installer le complément Business Central pour votre propre compte. Si vous n’êtes pas sûr, demandez à votre administrateur.
 
-Les compléments sont conçus pour être utilisés avec Office 365. Si vous utilisez [!INCLUDE [prodshort](includes/prodshort.md)] sur site, votre administrateur saura si vous pouvez utiliser les compléments [!INCLUDE [prodshort](includes/prodshort.md)] dans Outlook. Pour plus d'informations, voir [Quelle adresse e-mail puis-je utiliser avec [!INCLUDE[prodshort](includes/prodshort.md)] ?](across-faq.md#email) et [Fonctionnalités nécessitant des circonstances spécifiques](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+1. Dans Business Central, accédez à l’icône en forme ![d’ampoule qui ouvre la fonctionnalité Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Obtenir le complément Outlook**, puis sélectionnez le lien associé.
+2. Lisez la page et sélectionnez **Suivant** quand vous êtes prêt.
+3. Si vous souhaitez recevoir un e-mail de bienvenue de Business Central avec une présentation de l’utilisation du complément, activez **Envoyer un exemple de message électronique**.
+4. Choisissez **Terminer** pour effectuer l’installation.
+
+Business Central se connectera à votre serveur de messagerie et installera le complément dans votre instance d’Outlook. Cela ne prendra pas longtemps. Vous êtes maintenant prêt à commencer à utiliser le complément dans Outlook.
+
+### <a name="for-business-central-on-premises"></a><a name="onprem"></a>Pour Business Central local
+
+Si vous utilisez Business Central sur site, l’installation du complément peut être légèrement différente.
+
+1. Dans Business Central, accédez à l’icône en forme ![d’ampoule qui ouvre la fonctionnalité Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Obtenir le complément Outlook**, puis sélectionnez le lien associé.
+2. Lisez la page et sélectionnez **Suivant** quand vous êtes prêt.
+3. Effectuez l’une des étapes suivantes, selon la page que vous voyez :
+
+    - Si vous voyez le bouton **Installer dans mon Outlook**, sélectionnez-le, et vous avez terminé.
+    - Si vous voyez le bouton **Suivant**, sélectionnez-le. Sur la page suivante, si vous souhaitez recevoir un e-mail de bienvenue de Business Central avec une présentation de l’utilisation du complément, activez **Envoyer un exemple de message électronique**. Sélectionnez ensuite **Terminé** et vous avez terminé.
+    - Si vous voyez le bouton **Télécharger le complément**, sélectionnez-le, puis passez à l’étape suivante.
+4. Lorsque vous sélectionnez **Télécharger le complément**, un fichier portant le nom *OutlookAddins.zip* est téléchargé sur votre appareil. Vous devez voir le fichier en haut du navigateur.
+
+   Allez dans le dossier où OutlookAddins.zip a été téléchargé et extrayez les fichiers **Contact Insights.xml** et **Document View.xml** du .zip dans un dossier de votre choix. Pour plus d’informations sur l’extraction de fichiers, consultez [Compresser et décompresser des fichiers et dossiers](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
+
+5. Ouvrez Outlook et sélectionnez **Télécharger des compléments** dans le ruban. Sinon, si vous utilisez Outlook sur le Web, sélectionnez le menu déroulant sur tout message électronique nouveau ou existant, puis sélectionnez **Télécharger les compléments**.
+6. Sélectionnez **Mes compléments** > **Ajouter un complément personnalisé** > **Ajouter à partir d’un fichier**.
+7. Choisissez l’un des fichiers .xml que vous avez extraits, comme **Contact Insights.xml**, puis sélectionnez **Ouvrir** > **Installer**.
+8. Répétez les étapes 6 et 7 pour l’autre fichier .xml, si vous l’avez téléchargé.
+
+Vous êtes maintenant prêt à commencer à utiliser le complément dans Outlook.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Obtention de Business Central sur mon périphérique mobile](install-mobile-app.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Finances](finance.md)  
@@ -82,3 +132,6 @@ Les compléments sont conçus pour être utilisés avec Office 365. Si vous util
 [Achats](purchasing-manage-purchasing.md)  
 [Configuration minimale requise pour Outlook](product-requirements.md#outlook)  
 [Utilisation des compléments dans Outlook sur le Web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

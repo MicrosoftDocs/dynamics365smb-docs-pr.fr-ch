@@ -1,25 +1,24 @@
 ---
-title: 'Procédure : Traiter un prélèvement LSV'
-description: Vous pouvez utiliser Feuilles LSV pour créer et traiter les paiements des clients Lastschrift Verfahren (LSV+). Vous pouvez enregistrer les paiements dans la feuille règlement, créer un fichier LSV, puis imprimer l'ordre de prélèvement.
-services: project-madeira
-documentationcenter: ''
+title: Traiter un prélèvement LSV [CH]
+description: Vous pouvez utiliser Feuilles LSV pour créer et traiter les paiements des clients Lastschrift Verfahren (LSV+).
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 6bd65080387b7c2368672d1735a045a999cc49f2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: e5f8db36e8a9e61a5c7843bb8317a6e5cd5e13d9
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301005"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947175"
 ---
-# <a name="process-an-lsv-collection"></a>Traiter un prélèvement LSV
+# <a name="process-an-lsv-collection-in-the-swiss-version"></a>Traiter un prélèvement LSV dans la version suisse
 Vous pouvez utiliser la page **Feuille LSV** pour créer et traiter les paiements des clients Lastschrift Verfahren (LSV+). Vous pouvez enregistrer les paiements dans la feuille règlement, créer un fichier LSV, puis imprimer l'ordre de prélèvement. Pour plus d'informations, voir la page Feuille règlement et [Exporter des paiements en mode LSV](how-to-export-payments-using-lsv.md).  
 
 Lorsque vous lancez le traitement par lots **Proposition de prélèvement LSV**, chaque prélèvement proposé est enregistrée sur une ligne feuille LSV, et les factures ouvertes sont transférées aux feuilles LSV. Pour plus d'informations, voir la table Feuille LSV.  
@@ -28,7 +27,7 @@ Vous pouvez afficher, modifier ou supprimer les lignes paiement proposées. Si v
 
 ## <a name="to-create-an-lsv-collection"></a>Pour créer un prélèvement LSV  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Liste feuilles LSV**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Liste feuilles LSV**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Dans la page **Liste feuilles LSV**, renseignez les champs requis comme indiqué dans le tableau suivant.  
 
@@ -64,3 +63,6 @@ Toutes les lignes sont été transférées à la feuille LSV. Après avoir effec
  [Fermer prélèvement LSV](how-to-close-an-lsv-collection.md)   
  [Valider des paiements LSV+](how-to-post-lsv-payments.md)   
  [Exporter des paiements en mode LSV](how-to-export-payments-using-lsv.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

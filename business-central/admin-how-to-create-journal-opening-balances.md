@@ -1,45 +1,59 @@
 ---
-title: Procédure de création des soldes ouverts feuille | Microsoft Docs
-description: Business Central inclut plusieurs traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec des validations de feuille.
+title: Créer des soldes ouverts feuille
+description: Les traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec des validations de feuille.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2c42e87db1e0dd792d9b4444db3cfe5d1a05ed48
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 01/24/2022
+ms.author: edupont
+ms.openlocfilehash: ad338aaccb9bc912ff2861423e4ad3b170aa566d
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187163"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029103"
 ---
 # <a name="create-journal-opening-balances"></a>Créer des soldes ouverts feuille
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inclut plusieurs traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec le journal comptes clients, le journal comptes fournisseurs, la feuille article ou la feuille comptabilisation.
 
-La première étape consiste à créer un package configuration incluant les tables de paramétrage pour ces feuilles. La procédure suivante est basée sur l’hypothèse que cette étape est terminée. Pour plus d'informations, voir [Configurer une société](admin-set-up-company-configuration.md). Cette procédure explique les étapes suivantes, comme le lettrage du package qui est fourni par un partenaire.  
+[!INCLUDE[prod_short](includes/prod_short.md)] inclut plusieurs traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec le journal comptes clients, le journal comptes fournisseurs, la feuille article ou la feuille comptabilisation.
 
-Avant de commencer, vérifiez que vous utilisez la page Tableau de bord Administration, car elle fournit le contexte correct pour votre travail de configuration. Pour plus d'informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
+La première étape consiste à créer un package configuration incluant les tables de paramétrage pour ces feuilles. La procédure suivante est basée sur l’hypothèse que cette étape est terminée. Pour plus d’informations, voir [Configurer une société](admin-set-up-company-configuration.md). Cette procédure explique les étapes suivantes, comme le lettrage du package qui est fourni par un partenaire.  
 
-## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Pour lettrer des écritures dans une feuille à une société  
-1. Configurez une nouvelle société et appliquez-lui un package configuration. Pour plus d'informations, voir [Configurer une société avec l’assistant RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
+Avant de commencer, vérifiez que vous utilisez la page Tableau de bord Administration, car elle fournit le contexte correct pour votre travail de configuration. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
+
+## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Pour lettrer des écritures dans une feuille à une société
+
+1. Configurez une nouvelle société et appliquez-lui un package configuration. Pour plus d’informations, voir [Configurer une société avec l’assistant RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
 
     La nouvelle société ne contient pas d’informations sur les soldes ouverts feuille.  
 
-2. Ouvrez la feuille configuration et importez les données existantes à propos des clients, des articles, des fournisseurs et de la comptabilité. Pour plus d'informations, voir [Migrer des données client](admin-migrate-customer-data.md).  
-3. Choisissez, par exemple, l'action **Créer lignes feuille compte général**.  
+2. Ouvrez la feuille configuration et importez les données existantes à propos des clients, des articles, des fournisseurs et de la comptabilité. Pour plus d’informations, voir [Migrer des données client](admin-migrate-customer-data.md).  
+
+    Les données de base sont maintenant en place. Ensuite, vous ajoutez les soldes d’ouverture. Les étapes suivantes décrivent comment créer des lignes feuille pour les comptes généraux, mais la même procédure s’applique à la création de lignes feuille pour les clients, les fournisseurs et les articles.  
+3. Choisissez l’action **Créer lignes feuille compte général**.  
 4. Renseignez le raccourci **Options** de la manière appropriée, puis définissez les filtres selon vos besoins. Par exemple, dans le champ **Modèle feuille**, entrez un nom.  
 5. Cliquez sur le bouton **OK**. Les enregistrements se trouvent maintenant dans la feuille, mais les montants sont vides.  
 6. Exportez la table feuille vers Excel et entrez manuellement les informations sur le compte contrepartie et validation à partir des données héritées.
 7. Importez et appliquez les informations de table dans la nouvelle société. Les lignes feuille sont prêtes pour la validation.  
-8. Dans la feuille configuration, sélectionnez la table ligne feuille, puis sélectionnez l'action **Données de base de données**.  
-9. Examinez les informations, puis sélectionnez l'action **Valider**.  
+8. Dans la feuille configuration, sélectionnez la table ligne feuille, puis sélectionnez l’action **Données de base de données**.  
+9. Examinez les informations, puis sélectionnez l’action **Valider**.  
 10. Répétez les étapes pour importer et valider les autres soldes ouverts.  
 
-## <a name="see-also"></a>Voir aussi  
+> [!TIP]
+> Vous pouvez utiliser les mêmes traitements par lots pour ajouter des soldes d’ouverture chaque fois que vous enregistrez un nouveau client ou fournisseur avec lequel vous avez déjà traité mais qui n’est pas enregistré dans [!INCLUDE [prod_short](includes/prod_short.md)]. Recherchez simplement la tâche appropriée, puis choisissez le lien approprié.
+
+> [!IMPORTANT]
+> Notamment pour les soldes d’ouverture des comptes bancaires, ne suivez pas les étapes de cet article pour valider directement sur les comptes généraux associés aux comptes bancaires concernés. Pour plus d’informations, reportez vous à [Configuration de comptes bancaires](bank-how-setup-bank-accounts.md).  
+
+## <a name="see-also"></a>Voir aussi
+
 [Appliquer des configurations aux nouvelles sociétés](admin-apply-configuration-to-new-companies.md)  
-[Configuration d'une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Administration](admin-setup-and-administration.md)
+[Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Administration](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

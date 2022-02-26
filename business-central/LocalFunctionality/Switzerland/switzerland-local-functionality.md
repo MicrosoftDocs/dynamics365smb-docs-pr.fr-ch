@@ -1,25 +1,26 @@
 ---
 title: Fonctionnalité locale, Suisse
-description: Les rubriques suivantes décrivent la fonctionnalité locale de la version suisse de Business Central.
+description: Les rubriques suivantes décrivent toutes les fonctionnalités locales uniques à de la version suisse de Business Central.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/09/2020
+ms.search.form: 35561, 35562, 35563, 3010541, 3010542, 3010543
+ms.date: 06/21/2021
 ms.author: soalex
-ms.openlocfilehash: 6ae18b49ffd81fd4f2cd6e68a2f18ea481ff8455
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: f6d858efd22d581be89ca37ac6437f37ab80f766
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454213"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947105"
 ---
 # <a name="switzerland-local-functionality"></a>Fonctionnalité locale, Suisse
 
-Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version suisse de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version suisse de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Disponibilité des fonctions
 
@@ -70,7 +71,10 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilité nationale/régionale et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

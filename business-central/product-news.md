@@ -1,43 +1,49 @@
 ---
-title: Nouveautés de Business Central | Microsoft Docs
-description: Décrit comment obtenir les dernières nouveautés et mises à jour de Business Central.
+title: Nouveautés et planification dans la version par défaut
+description: Découvrez où trouver les actualités et les mises à jour relatives aux nouvelles fonctionnalités ainsi qu’à celles qui existent déjà dans la version par défaut de Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 10/01/2019
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: a75d67cec31953d3e96111ff5558ecd89b461683
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 7e17ae2b89322f1e07adb42b922193a569b610d4
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954226"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724877"
 ---
-# <a name="whats-new-in-dynamics-365-business-central"></a>Nouveautés dans Dynamics 365 Business Central
+# <a name="new-and-planned-for-dynamics-365-business-central"></a>Fonctionnalités nouvelles et prévues pour Dynamics 365 Business Central
 
-[!include [release notes](includes/release-notes.md)]
+[!INCLUDE[release notes](includes/release-notes.md)]
 
-Vous pouvez toujours consulter le plan de versions pour obtenir un aperçu des nouvelles fonctionnalités et des fonctionnalités à venir. Ici, dans la documentation, vous pouvez trouver des rubriques pouvant vous aider à en apprendre davantage sur les fonctionnalités nouvelles et existantes de [!INCLUDE[prodlong](includes/prodlong.md)].  
+Vous pouvez toujours consulter le plan de versions pour obtenir un aperçu des nouvelles fonctionnalités et des fonctionnalités à venir. Ici, dans la documentation, vous pouvez trouver des rubriques pouvant vous aider à en apprendre davantage sur les fonctionnalités nouvelles et existantes de la version par défaut de [!INCLUDE[prod_long](includes/prod_long.md)].  
 
-Si ce n'est pas encore fait, inscrivez-vous à une [version d'évaluation](https://go.microsoft.com/fwlink/?linkid=847861). Nous vous présenterons ensuite les bases de ce que vous pouvez réaliser grâce à [!INCLUDE[prodshort](includes/prodshort.md)], avant de vous laisser faire vos premiers pas par vous-même. Lorsque vous êtes prêt, vous pouvez ouvrir une société vierge et effectuer vos propres configurations. Pour plus d'informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
+La liste suivante fournit des informations sur les dernières versions de [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-Régulièrement, nous mettrons à jour [!INCLUDE[d365fin](includes/d365fin_md.md)] avec des fonctionnalités supplémentaires dans l'application de base et avec les nouvelles extensions. Pour la liste actuelle des extensions Microsoft, voir [Personnalisation de Business Central à l'aide d'extensions](ui-extensions.md).
+* [Vague de lancement 2 de 2021](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/planned-features)  
+* [1re vague de lancement 2021](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
+* [Vague de lancement 2 de 2020](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
 
-Pour voir toutes les extensions proposées par les partenaires [!INCLUDE[d365fin](includes/d365fin_md.md)], voir [AppSource, Business Central](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Vous pouvez également explorer le site [Fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) et le site [Feuille de route de Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/).  
 
-## <a name="check-the-dynamics-365-blog"></a>Consultez le blog Dynamics 365
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Soyez informé des changements via un flux RSS
 
-Nous discutons des nouvelles fonctionnalités sur le [blog de Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/), notamment leur date de disponibilité et les éventuelles considérations particulières.  
-
-Pour les partenaires, nous publions des informations sur [Microsoft Dynamics 365 Business Central sur le blog Dynamics 365 pour les partenaires](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) et dans l'[Aide dédiée à l'équipe IT et aux développeurs pour [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
+[!INCLUDE [ua-rss](includes/ua-rss.md)]
 
 ## <a name="see-also"></a>Voir aussi
 
-[Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Ressources pour l'aide et l'assistance technique](product-help-and-support.md)  
-[Tarification de Business Central](https://dynamics.microsoft.com/business-central/overview/#pricing)  
+[Visitez notre vidéothèque](across-videos.md)  
+[Ressources pour l’Aide et le support](product-help-and-support.md)  
+[Dynamics 365 Business Central sur Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Démarrage rapide de Business Central](quick-start-business-central.md)  
+[Fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
+[Feuille de route de Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/)  
+[Blog Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
+[Tarification de Business Central](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Communauté Dynamics 365 Business Central](https://community.dynamics.com/business/)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

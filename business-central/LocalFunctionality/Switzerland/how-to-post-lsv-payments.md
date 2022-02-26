@@ -1,30 +1,29 @@
 ---
 title: 'Procédure : Valider les paiements LSV+'
 description: Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschrift Verfahren (LSV+) de la banque.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 5207c328997f68bfc752550ad4138c1a9b5bcf7e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 852a0bb2d5f9e2ccc840d1f7c71ade9062d0fd52
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301026"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947150"
 ---
 # <a name="post-lsv-payments"></a>Valider les paiements LSV+
 Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschrift Verfahren (LSV+) de la banque.  
 
 ## <a name="to-post-lsv-payments"></a>Pour valider les paiements LSV+  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles règlement**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles règlement**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la feuille requise, puis cliquez sur l'action **Modifier journal**.  
 
     > [!NOTE]  
@@ -47,5 +46,8 @@ Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschr
 ## <a name="see-also"></a>Voir aussi  
  [Paiements électroniques à l'aide de LSV+, Suisse](swiss-electronic-payments-using-lsv-.md)   
  [Traiter un prélèvement LSV](how-to-process-an-lsv-collection.md)   
- [Fermer prélèvement LSV](how-to-close-an-lsv-collection.md)   
+ [Fermer un prélèvement LSV](how-to-close-an-lsv-collection.md)   
  [Exporter des paiements en mode LSV](how-to-export-payments-using-lsv.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

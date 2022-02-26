@@ -1,60 +1,32 @@
 ---
-title: 'Procédure : Émettre des relances livraison'
-description: Après avoir créé des relances livraison, vous devez les émettre et les imprimer afin de pouvoir envoyer des relances aux fournisseurs. Avant d'émettre les relances livraison, vous pouvez imprimer un rapport de test.
-services: project-madeira
-documentationcenter: ''
+title: 'Procédure : Émettre des relances livraison [CH]'
+description: Après avoir créé des relances livraison, vous devez les émettre et les imprimer afin de pouvoir les envoyer aux fournisseurs.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: bfceee396624af2b7362cb6bffe72b36c5828988
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 51e3e49b8db669d17e5ac4bd9c4f1dfc04aa4264
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301023"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320753"
 ---
-# <a name="issue-delivery-reminders"></a>Émettre des relances livraison
-Après avoir créé des relances livraison, vous devez les émettre et les imprimer afin de pouvoir envoyer des relances aux fournisseurs. Avant d'émettre les relances livraison, vous pouvez imprimer un rapport de test. Pour plus d'informations, voir [Imprimer des rapports de test pour les relances livraison](how-to-print-test-reports-for-delivery-reminders.md).  
+# <a name="issue-delivery-reminders-in-the-swiss-version"></a>Émettre des relances livraison dans la version suisse
 
-Lorsque vous émettez les relances livraison, des écritures comptables de relance livraison sont créées. Vous pouvez afficher les écritures comptables créées dans la page **Écritures comptables relance livraison**.  
+[!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)]
 
-## <a name="to-issue-delivery-reminders"></a>Pour émettre des relances livraison  
+## <a name="see-also"></a>Voir aussi
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Relance livraison**, puis sélectionnez le lien connexe.  
-2.  Dans la page **Relance livraison**, sélectionnez la relance livraison que vous souhaitez émettre, puis choisissez l'action **Modifier**.  
-3.  Sélectionnez l'action **Émettre**.  
-4.  Dans la page **Émettre relance livraison**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
+[Imprimer des rapports de test pour les relances livraison](how-to-print-test-reports-for-delivery-reminders.md)  
+[relances livraison](delivery-reminders.md)  
+[Générer des relances livraison](how-to-generate-delivery-reminders.md)  
+[Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)  
 
-    |Champ|Désignation|  
-    |---------------------------------|---------------------------------------|  
-    |**Imprimer**|Sélectionnez cette option pour imprimer les relances livraison lorsqu'elles sont émises.|  
-    |**Remplacer date comptabilisation**|Sélectionnez cette option pour remplacer la date de comptabilisation existante pour la relance livraison.|  
-    |**Date de validation**|Date de validation de la relance livraison.<br /><br /> Cette date de comptabilisation est utilisée pour toutes les relances livraison si vous avez sélectionné la case à cocher **Remplacer date comptabilisation**. Si la case à cocher **Remplacer date comptabilisation** est effacée, cette date ne sera utilisée que pour les relances livraison pour lesquelles une date de comptabilisation n'est pas disponible.|  
 
-5.  Éventuellement, dans le raccourci **En-tête de relance livraison**, sélectionnez les filtres appropriés.  
-
-    > [!NOTE]  
-    >  Vous pouvez supprimer les filtres et émettre à nouveau les relances livraison en même temps.  
-
-6.  Choisissez le bouton **OK**.  
-
-Vous pouvez afficher les relances émises dans la page **Relances livraison émises**. En option, vous pouvez maintenant imprimer une relance livraison.  
-
-## <a name="to-view-delivery-reminder-ledger-entries"></a>Pour afficher des écritures comptables de relance livraison  
-
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Commandes achat**, puis sélectionnez le lien connexe.  
-2.  Sélectionnez la commande achat pour laquelle vous souhaitez afficher le statut de relance, puis choisissez l'action **Modifier**.  
-3.  Sélectionnez l'action **Écritures comptables de relance livraison**.  
-
-Dans la page Écritures comptables de relance livraison, vous pouvez afficher les écritures comptables de relance livraison pour la commande achat sélectionnée.  
-
-## <a name="see-also"></a>Voir aussi  
- [relances livraison](delivery-reminders.md)   
- [Générer des relances livraison](how-to-generate-delivery-reminders.md)   
- [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

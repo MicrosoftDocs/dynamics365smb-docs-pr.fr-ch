@@ -3,19 +3,19 @@ title: 'Procédure : Imprimer les relevés de TVA suisse (ancienne version)'
 description: La Déclaration TVA suisse est l'état de calcul standard pour la réalisation de la TVA. Vous pouvez imprimer cet état et l'utiliser avec la déclaration de taxe trimestrielle.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 84de1625e8929869bbaa37099b38c7495ac24e68
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 5f1ef2eea709f9fb2ab5d2e8dbbabd00cf8fa8d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878810"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439745"
 ---
 # <a name="print-swiss-vat-statements-older-version"></a>Imprimer les relevés de TVA suisse (ancienne version)
 
@@ -30,7 +30,7 @@ La **Déclaration TVA suisse** est l'état de calcul standard pour la réalisati
 
 ## <a name="to-print-the-swiss-vat-statement"></a>Pour imprimer la déclaration TVA suisse  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Déclaration de TVA suisse**, puis choisissez le lien associé.  
+1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Déclaration de TVA suisse**, puis sélectionnez le lien associé.  
 
     > [!NOTE]  
     >  Vous recevrez un message indiquant que **Déclaration TVA suisse** s'ouvre dans la langue locale.  
@@ -56,3 +56,6 @@ La **Déclaration TVA suisse** est l'état de calcul standard pour la réalisati
 ## <a name="see-also"></a>Voir aussi  
  [Taxe sur la valeur ajoutée, Suisse](swiss-value-added-tax.md)   
  [Taux de TVA pour la Suisse](vat-rates-for-switzerland.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

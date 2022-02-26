@@ -1,28 +1,29 @@
 ---
-title: 'Procédure : Créer et imprimer une déclaration de TVA, Suisse'
-description: Selon les informations spécifiées dans la page Paramètres compta. TVA, Business Central peut créer automatiquement une nouvelle configuration de relevé de TVA pour le report TVA réalisé. Avant de continuer avec les procédures de cette rubrique, assurez-vous que vous avez configuré les paramètres comptabilisation TVA ayant des valeurs spécifiées pour les champs de chiffre d'affaires ventes et achats.
+title: Créer et imprimer une déclaration de TVA, Suisse [CH]
+description: Cette rubrique explique la procédure de création d'une déclaration de TVA suisse basée sur les informations spécifiées sur la page Paramètres comptabilisation TVA.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 63f1b49422a567b1b92b6a0f6d29d8ec3ae1cf9d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 11023, 11024
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: c4bf96ec590aaeb413644804cdd4d02816f068d6
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878816"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947124"
 ---
-# <a name="create-and-print-a-swiss-vat-statement"></a>Créer et imprimer une déclaration de TVA, Suisse
-Selon les informations spécifiées dans la page **Paramètres compta. TVA**, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] peut créer automatiquement une nouvelle configuration de relevé de TVA pour le report TVA réalisé. Avant de continuer avec les procédures de cette rubrique, assurez-vous que vous avez configuré les paramètres comptabilisation TVA ayant des valeurs spécifiées pour les champs de chiffre d'affaires ventes et achats.  
+# <a name="create-and-print-a-swiss-vat-statement-in-the-swiss-version"></a>Créer et imprimer une déclaration de TVA, Suisse dans la version suisse
+Selon les informations spécifiées dans la page **Paramètres compta. TVA**, [!INCLUDE[prod_short](../../includes/prod_short.md)] peut créer automatiquement une nouvelle configuration de relevé de TVA pour le report TVA réalisé. Avant de continuer avec les procédures de cette rubrique, assurez-vous que vous avez configuré les paramètres comptabilisation TVA ayant des valeurs spécifiées pour les champs de chiffre d'affaires ventes et achats.  
 
 ## <a name="to-set-up-a-swiss-vat-statement-template"></a>Pour configurer un modèle de déclaration de TVA suisse  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Mettre à jour modèle déclaration TVA**, puis choisissez le lien associé.  
+1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Mettre à jour modèle déclaration TVA**, puis sélectionnez le lien associé.  
 2.  Sélectionnez un modèle dans le champ **Nom modèle déclaration de TVA**.
 3.  Cliquez sur le bouton **OK**. Cliquez sur **Oui** pour confirmer que vous souhaitez créer un modèle.  
 4.  Vérifiez la déclaration TVA qui en résulte et ajustez-la autant que nécessaire.  
@@ -31,7 +32,7 @@ Selon les informations spécifiées dans la page **Paramètres compta. TVA**, [!
 
 ## <a name="to-print-the-swiss-vat-statement"></a>Pour imprimer la déclaration TVA suisse  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Déclaration de TVA suisse**, puis choisissez le lien associé.  
+1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Déclaration de TVA suisse**, puis sélectionnez le lien associé.  
 2.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
     |Champ|Désignation|  
@@ -43,7 +44,7 @@ Selon les informations spécifiées dans la page **Paramètres compta. TVA**, [!
     |**Inclure écritures TVA**|Sélectionnez l'une des options disponibles.|  
     |**% taux normal**|Entrez le taux de TVA standard s'appliquant à la période.|  
     |**% taux réduit**|Saisissez la taxe de TVA réduite pour certains biens et services.|  
-    |***% taux hôtel**|Entrez le taux de TVA pour l'hébergement s'appliquant à la période.|  
+    |**% taux hôtel**|Entrez le taux de TVA pour l'hébergement s'appliquant à la période.|  
     |**% normal (autre taux)**|Saisissez un taux TVA secondaire pour des transactions standard s'appliquant à certaines transactions au cours de la période.|  
     |**% réduit (autre taux)**|Saisissez un taux TVA secondaire pour d'autres transactions s'appliquant à certaines transactions au cours de la période.|  
     |**% Hôtel (Autre taux)**|Saisissez un taux TVA secondaire pour l'hébergement s'appliquant à certaines transactions au cours de la période.|  
@@ -51,3 +52,6 @@ Selon les informations spécifiées dans la page **Paramètres compta. TVA**, [!
 
 ## <a name="see-also"></a>Voir aussi  
  [Taxe sur la valeur ajoutée, Suisse](swiss-value-added-tax.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

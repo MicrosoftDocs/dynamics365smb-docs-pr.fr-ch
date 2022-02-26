@@ -1,25 +1,24 @@
 ---
-title: Paiements électroniques à l'aide de ESR+, Suisse
-description: La méthode de paiement électronique Einzahlungsschein mit Referenznummer (ESR) est un service de prélèvement électronique qui permet au client de facturer les factures ouvertes en francs suisses (CHF) et en euros (EUR), et de comptabiliser efficacement les paiements entrants.
-services: project-madeira
-documentationcenter: ''
+title: Paiements électroniques à l'aide de ESR, Suisse [CH]
+description: Cette rubrique explique les différentes tâches que vous pouvez effectuer avec le service de prélèvement électronique Einzahlungsschein mit Referenznummer (ESR).
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1b5ed082fce6a69173317df25bbad7ab28453cfd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 3010531, 3010532
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 7fcc6889bab4c3b23af956d7e6ee1aa909142374
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300984"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947192"
 ---
-# <a name="swiss-electronic-payments-using-esr"></a>Paiements électroniques à l'aide de ESR+, Suisse
+# <a name="swiss-electronic-payments-using-esr-in-the-swiss-version"></a>Paiements électroniques à l'aide de ESR dans la version suisse
 La méthode de paiement électronique Einzahlungsschein mit Referenznummer (ESR) est un service de prélèvement électronique qui permet au client de facturer les factures ouvertes en francs suisses (CHF) et en euros (EUR), et de comptabiliser efficacement les paiements entrants. Le numéro de référence, ou la ligne de code, contient toutes les données de comptabilité pertinentes.  
 
 Avec les paiements électroniques ESR, vous pouvez effectuer les opérations suivantes :  
@@ -47,3 +46,6 @@ Lorsque vous configurez des souches de numéros pour les factures, vous devez su
  [Importation de paiements ESR](how-to-import-esr-payments.md)   
  [Paiements électroniques à l'aide de LSV+, Suisse](swiss-electronic-payments-using-lsv-.md)   
  [Effectuer des paiements](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

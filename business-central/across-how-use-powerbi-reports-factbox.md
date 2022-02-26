@@ -1,81 +1,137 @@
 ---
-title: Afficher des états Power BI personnalisés| Microsoft
-description: Vous pouvez utiliser des états Power BI pour obtenir des informations supplémentaires sur les données dans les listes.
-author: edupont04
+title: Afficher les rapports Power BI personnalisés
+description: Vous pouvez utiliser le récapitulatif Power BI pour afficher les rapports Power BI et obtenir des informations supplémentaires sur les données des enregistrements dans les listes clés.
+author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
-ms.author: edupont
-ms.openlocfilehash: 15b9f17b0b7748df977eef3837fb75122eb8d1ae
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/11/2021
+ms.author: jswymer
+ms.openlocfilehash: b5858d3852eddc19501f0b3dc1c5f4071b07baee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187859"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440939"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Affichage des données de liste des états Power BI dans Business Central
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Création d’états Power BI pour afficher les données de liste dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prodlong](includes/prodlong.md)] inclut un élément de contrôle Récapitulatif sur un certain nombre de pages Liste des clés fournissant des informations supplémentaires sur les données de la liste. Lorsque vous vous déplacez entre les lignes de la liste, l'état est mis à jour et filtré pour l'écriture sélectionnée. Vous pouvez créer des états personnalisés pour qu'ils s'affichent dans ce contrôle, mais il y a certaines règles à suivre lors de la création des états pour s'assurer qu'ils adoptent le comportement souhaité.  
+[!INCLUDE[prod_long](includes/prod_long.md)] comprend un élément de contrôle Récapitulatif Power BI sur plusieurs pages de liste clé. Le but de ce Récapitulatif est d′afficher des états Power BI liés aux enregistrements dans les listes, fournissant des informations supplémentaires sur les données. L′idée est que lorsque vous vous déplacez entre les lignes de la liste, l’état se met à jour pour l’écriture sélectionnée.
 
-> [!NOTE]  
-> Vous devez disposer d'un compte valide avec [!INCLUDE[prodshort](includes/prodshort.md)] et avec Power BI. En outre, pour créer des états personnalisés, vous devez télécharger [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Pour plus d'informations, voir [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md).  
+[!INCLUDE[prod_long](includes/prod_long.md)] est livré avec certains de ces états. Vous pouvez également créer vos propres rapports personnalisés qui s′affichent dans ce Récapitulatif. La création de ces rapports est similaire à d′autres rapports. Mais il y a quelques règles de conception que vous devrez suivre pour vous assurer que les rapports s′affichent comme prévu. Ces règles sont expliquées dans cet article.
 
-## <a name="report-data-set"></a>Ensemble de données d'état
-Lorsque vous créez l'état dans Power BI Desktop, spécifiez la source de données ou le service Web qui contient les données concernant la liste que vous souhaitez associer à l'état. Par exemple, si vous souhaitez créer un état pour la liste Ventes, assurez-vous que l'ensemble des données contient les informations liées aux ventes.  
+> [!NOTE]
+> Pour des informations générales sur la création et la publication des états Power BI pour Business Central, voir [Création d′états Power BI pour afficher des données [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md). 
 
-Pour filtrer des données sur les états en fonction de l'enregistrement sélectionné dans la page de liste, la clé primaire doit être utilisée comme filtre d'état. Les clés primaires devront faire partie de votre ensemble de données pour que les états soient filtrés correctement. Dans la plupart des cas, la clé primaire de la liste est **N°** .  
+## <a name="prerequisites"></a>Conditions préalables
 
-## <a name="defining-the-report-filter"></a>Définition du filtre d'état
-L'état est nécessaire pour avoir un filtre d'état de base (pas une page ou un filtre visuel, ni un filtre avancé) pour filtrer correctement dans le contrôle Récapitulatif État Power BI. Le filtre qui est transmis à l'état Power BI de chaque page de liste est basé sur la clé primaire, comme décrit dans la section précédente.  
+- Un compte Power BI.
+- Power BI Desktop.
 
-Pour définir un filtre pour l'état, sélectionnez la clé primaire dans la liste des champs disponibles, puis faites glisser ce champ dans la section **Filtre d'état**.  
+<!-- 
+For more information about getting started, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
-![Définition du filtre d'état pour l'état Activités Facture vente](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
+## <a name="create-a-report-for-a-list-page"></a>Créer un rapport pour une page de liste
 
-## <a name="report-size-and-color"></a>Taille et couleur de l'état
-La taille de l'état doit être configurée sur 325 pixels par 310 pixels. Cette opération est requise pour la mise à l'échelle appropriée de l'état dans l'espace disponible autorisé par le contrôle Récapitulatif État Power BI. Pour définir la taille de l'état, placez le focus en dehors de la zone de présentation d'état, puis choisissez l'icône en forme de rouleau de peinture.
+1. Lancez Power BI Desktop.
+2. Sélectionnez **Obtenir des données** et commencez à choisir la source de données pour le rapport.
 
-![Définition de la largeur et de la hauteur de l'état pour l'état Activités Facture vente](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
+    Spécifiez les pages de liste Business Central qui contiennent les données souhaitées dans l′état. Par exemple, pour créer un état pour la liste **Factures vente**, incluez les pages liées aux ventes.
 
-Vous pouvez modifier la largeur et la hauteur de l'état en choisissant **Personnalisé** dans le champ **Type**.
+    Pour plus d′informations, suivez les instructions [Ajouter[!INCLUDE[prod_short](includes/prod_short.md)] comme source de données dans Power BI Desktop](across-how-use-financials-data-source-powerbi.md#getdata).
 
-De même, si vous souhaitez que l'arrière-plan de l'état se fonde avec la couleur de l'arrière-plan du contrôle Récapitulatif État Power BI, définissez une couleur d'arrière-plan d'état personnalisé de *E5E5E5*. Cette option est facultative.  
+3. Définissez le filtre d’état.
+
+    Pour mettre à jour les données de l’enregistrement sélectionné dans la liste, vous ajoutez un filtre à l’état. Le filtre doit inclure un champ de la source de données utilisé pour identifier de manière unique chaque enregistrement de la liste. En termes de développeur, ce champ est la *clé primaire*. Dans la plupart des cas, la clé primaire de la liste est **N°** .
+
+    Pour définir le filtre, procédez comme suit :
+
+    1. Dans les **Filtres**, sélectionnez le champ de clé primaire dans la liste des champs disponibles.
+    2. Faites glisser le champ vers le volet **Filtres** et déposez-le dans le zone **Filtres sur toutes les pages**.
+    3. Définissez le **Type de filtre** sur **Filtrage de base**. Il ne peut pas s’agir d’un filtre de page, visuel ou avancé.
+
+    ![Définition du filtre d’état pour l’état Activités Facture vente.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+4. Concevez la disposition du rapport.
+
+    Créez la disposition en faisant glisser des champs et en ajoutant des visualisations. Pour plus d′informations, voir [Utiliser la vue Rapport dans Power BI Desktop](/power-bi/create-reports/desktop-report-view) dans la documentation Power BI.
+
+5. Consultez les sections suivantes sur le dimensionnement du rapport et l′utilisation de plusieurs pages.
+
+6. Enregistrez et nommez le rapport.
+
+    Attribuez à l′état un nom qui contient le nom de la page de liste associée à l’état, comme dans le client. Le nom n′est cependant pas sensible à la casse. Supposons que l′état concerne la page de liste **Factures vente**. Dans ce cas, incluez les mots **factures vente** dans le nom, par exemple **mes factures vente.pbix** ou **ma_liste_factures_vente.pbix**.
+
+    Cette convention de désignation de nom n’est pas obligatoire. Cependant, il permet de sélectionner plus rapidement des états dans [!INCLUDE[prod_short](includes/prod_short.md)]. Lorsque la page de sélection des états s’ouvre depuis une page de liste, elle est automatiquement filtrée en fonction du nom de la page. Le filtre a la syntaxe suivante : `@*<caption>*` comme `@*Sales Invoices*`. Ce filtrage est effectué pour limiter les états affichés. Vous pouvez aussi effacer le filtre pour obtenir la liste complète des états disponibles dans Power BI.
+
+7. Lorsque vous avez terminé, publiez le rapport comme d′habitude.
+
+    Pour en savoir plus, consultez [Publication d’un état](across-how-use-financials-data-source-powerbi.md#publish-reports).
+
+8. Testez le rapport.
+
+    Une fois les états publiés dans votre espace de travail, ils doivent être disponibles à partir du Récapitulatif Power BI sur la page de liste dans [!INCLUDE[prod_short](includes/prod_short.md)].
+
+    Pour le tester, procédez comme suit.
+
+    1. Ouvrez [!INCLUDE[prod_short](includes/prod_short.md)] et allez à la page de liste.
+    2. Si vous ne voyez pas le Récapitulatif Power BI, dans la barre d’action, sélectionnez **Actions** > **Afficher** > **Afficher/Masquer les états Power BI**.
+    3. Dans le Récapitulatif Power BI, sélectionnez **Sélectionner des rapports**, cochez la case **Activer** pour le rapport, puis sélectionnez **OK**.
+
+    S′il est correctement conçu, le rapport s′affiche.  
+
+## <a name="set-the-report-size-and-color"></a>Définissez la taille et la couleur de l’état
+
+La taille de l’état doit être configurée sur 325 pixels par 310 pixels. Cette taille offre une mise à l’échelle appropriée de l’état dans l’espace disponible du contrôle Récapitulatif Power BI dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour définir la taille de l’état, placez le focus en dehors de la zone de présentation d’état, puis choisissez l’icône en forme de rouleau de peinture.
+
+![Définition de la largeur et de la hauteur de l’état pour l’état Activités Facture vente.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
+
+Vous pouvez modifier la largeur et la hauteur de l’état en choisissant **Personnalisé** dans le champ **Type**.
+
+Si vous souhaitez que l’arrière-plan de l’état se fonde avec la couleur de l’arrière-plan du contrôle Récapitulatif Power BI, définissez une couleur d’arrière-plan d’état personnalisé de *#FFFFFF* (blanc). 
+
+> [!TIP]
+> Utilisez le fichier de thème [!INCLUDE [prod_short](includes/prod_short.md)] pour créer des rapports avec le même style de couleur que les applications [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, consultez [Utilisation du thème de l’état [!INCLUDE [prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-powerbi.md#theme).
 
 ## <a name="reports-with-multiple-pages"></a>États avec plusieurs pages
-Avec Power BI, vous pouvez créer un seul état avec plusieurs pages. Les visuels que vous souhaitez visualiser dans les pages de liste [!INCLUDE[d365fin](includes/d365fin_md.md)] doivent se trouver sur la première page de l'état dans Power BI.  
 
-> [!NOTE]  
-> Le contrôle Récapitulatif État Power BI affiche uniquement la première page de votre état, pour afficher d'autres pages, vous devez développer l'état et utiliser les onglets situés en bas pour accéder aux autres pages.  
+Avec Power BI, vous pouvez créer un seul état avec plusieurs pages. Cependant, pour les états qui s’affichent avec des pages de liste, nous ne recommandons pas plus d′une seule page. Le Récapitulatif Power BI n’affiche que la première page de votre état.
 
-## <a name="saving-your-report"></a>Enregistrement de votre état
+## <a name="fixing-problems"></a>Résolution des problèmes
 
-Lorsque vous enregistrez votre état, il est recommandé que son nom contienne celui de la page de liste dans laquelle vous souhaitez l'afficher. Par exemple, le mot *Fournisseur* doit se trouver quelque part dans le nom des états que vous souhaitez rendre disponibles dans la liste Fournisseurs.  
+Cette section explique comment résoudre les problèmes que vous pourriez rencontrer en essayant d′afficher un état Power BI pour une page de liste dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Cela n'est pas obligatoire mais ça va accélérer le processus de sélection des états. Lorsque la page de sélection de l'état est ouverte à partir d'une page de liste, nous transférons un filtre basé sur le nom de la page pour limiter les états qui s'affichent.  Vous pouvez supprimer le filtre pour obtenir la liste complète des états disponibles dans Power BI.  
+### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Vous ne pouvez pas voir le Récapitulatif Power BI sur une page de liste
 
-## <a name="troubleshooting"></a>Incident
-Cette section fournit une solution de rechange pour les problèmes les plus courants qui apparaissent lorsque vous créez l'état Power BI.  
+Par défaut, le Récapitulatif Power BI est caché de la vue. Pour afficher le Récapitulatif sur une page, dans la barre d’action, sélectionnez **Actions** > **Afficher** > **Afficher/Masquer les états Power BI**.
 
-**L'utilisateur ne voit pas l'état sur la page Sélectionner un état qu'il veut sélectionner** Si vous ne pouvez pas sélectionner un état, une solution consiste à vérifier son nom pour vous assurer qu'il contient le nom de la page de liste. Vous pouvez aussi effacer le filtre pour obtenir la liste complète des états disponibles dans Power BI.  
+### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>Vous ne pouvez pas voir l’état sur le volet Sélectionner un état
 
-**L'état est chargé mais il est vide, non filtré ou filtré incorrectement** Vérifiez que le filtre de l'état contient la bonne clé primaire. Dans la plupart des cas, il s'agit du champ **N°**, mais dans la table **Écriture comptable**, vous devez utiliser le champ **N° écriture**.
+Le nom de l’état ne contient pas le nom de la page de liste affichée. Effacez le filtre pour obtenir la liste complète des états disponibles dans Power BI.  
 
-**L'état est chargé, mais il affiche une page non souhaitée** Vérifiez que la page que vous souhaitez afficher est la première page de votre état.  
+### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>L’état est chargé, mais vide, non filtré ou filtré incorrectement
 
-**L'état apparaît avec des bordures grises non désirées, il est trop petit ou trop grand**
+Vérifiez que le filtre de l’état contient la bonne clé primaire. Dans la plupart des cas, il s’agit du champ **N°**, mais dans la table **Écriture comptable**, vous devez utiliser le champ **N° écriture**.
 
-Vérifiez que la taille de l'état est configurée sur 325 pixels x 310 pixels. Enregistrez l'état, puis actualisez la page de liste.  
+### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>L’état est chargé, mais il affiche une page à laquelle vous ne vous attendiez pas.
+
+Vérifiez que la page que vous souhaitez afficher est la première page de votre état.  
+
+### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>L’état apparaît avec des bordures grises non désirées, il est trop petit ou trop grand.
+
+Vérifiez que la taille de l’état est configurée sur 325 pixels x 310 pixels. Enregistrez l’état, puis actualisez la page de liste.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 
 [Activation de vos données métier pour Power BI](admin-powerbi.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Mise en route](product-get-started.md)  
-[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
+[Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finances](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,43 +1,33 @@
 ---
-title: 'Procédure : Générer des relances livraison'
-description: Dans Business Central, vous pouvez créer des relances livraison lorsqu'un achat n'a pas été envoyé comme prévu. Vous pouvez générer des relances livraison pour toutes les livraisons échues, ou vous pouvez créer une relance livraison unique manuellement.
-services: project-madeira
-documentationcenter: ''
+title: 'Procédure : Générer des relances livraison [CH]'
+description: Dans Business Central, vous pouvez générer des relances livraison pour toutes les livraisons échues, ou vous pouvez créer une relance livraison unique manuellement.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 918a6693402624d8d5be584a166a78281c153e22
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 97060e0d7e7e3f2a3c4ed52ed67596c862bdf57d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301057"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320765"
 ---
-# <a name="generate-delivery-reminders"></a>Générer des relances livraison
-Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez créer des relances livraison lorsqu'un achat n'a pas été envoyé comme prévu. Vous pouvez générer des relances livraison pour toutes les livraisons échues, ou vous pouvez créer une relance livraison unique manuellement. Pour plus d'informations, voir [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md).  
+# <a name="generate-delivery-reminders-in-the-swiss-version"></a>Générer des relances livraison dans la version suisse
 
-> [!NOTE]  
->  Pour créer des relances livraison, vous devez configurer les propriétés de relance livraison. Pour plus d'informations, voir [Configurer des relances livraison](how-to-set-up-delivery-reminders.md).  
+[!INCLUDE [delivery-reminders-generate](../includes/ATCHDE/delivery-reminders-generate.md)]
 
-## <a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a>Pour générer des relances livraison pour toutes les livraisons échues  
+## <a name="see-also"></a>Voir aussi
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Relance livraison**, puis sélectionnez le lien connexe.  
-2.  Sélectionnez l'action **Nouveau**.  
-3.  Dans la page **Relance livraison**, cliquez sur l'action **Créer une relance livraison**.  
-4.  Dans les raccourcis **En-tête achat** et **Ligne achat**, sélectionnez les filtres appropriés.  
-5.  Cliquez sur le bouton **OK**.  
+[Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)  
+[Configurer des relances livraison](how-to-set-up-delivery-reminders.md)  
+[Affecter des codes de relance livraison à des fournisseurs](how-to-assign-delivery-reminder-codes-to-vendors.md)  
+[Émettre des relances livraison](how-to-issue-delivery-reminders.md)  
+[relances livraison](delivery-reminders.md)  
 
-S'il existe des livraisons échues correspondant aux filtres définis, des relances livraison sont créées. Vous pouvez alors émettre et imprimer les relances livraison.  
 
-## <a name="see-also"></a>Voir aussi  
- [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)   
- [Configurer des relances livraison](how-to-set-up-delivery-reminders.md)   
- [Affecter des codes de relance livraison à des fournisseurs](how-to-assign-delivery-reminder-codes-to-vendors.md)   
- [Émettre des relances livraison](how-to-issue-delivery-reminders.md)   
- [relances livraison](delivery-reminders.md)
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

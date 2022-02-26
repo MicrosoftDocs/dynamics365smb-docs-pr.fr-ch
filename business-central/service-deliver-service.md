@@ -5,30 +5,30 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 08989bb6903aa9f236b89d55d4b54af4db51cf1a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8a0e8225d69d04ce82d0e0243f3e98207c892175
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311923"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011986"
 ---
 # <a name="delivering-service"></a>Fournir un service
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inclut des fonctionnalités qui vous permettent d'offrir le service correspondant aux contrats créés et les commandes service que vous vous êtes engagé à traiter. Grâce au **Tableau d'affectation**, les techniciens de service et agents d'affectation ont facilement accès aux commandes service en attente. Le **Tableau d'affectation** affiche les commandes en cours et les commandes terminées.  
+[!INCLUDE[prod_short](includes/prod_short.md)] inclut des fonctionnalités qui vous permettent d’offrir le service correspondant aux contrats créés et les commandes service que vous vous êtes engagé à traiter. Grâce au **Tableau d’affectation**, les techniciens de service et agents d’affectation ont facilement accès aux commandes service en attente. Le **Tableau d’affectation** affiche les commandes en cours et les commandes terminées.  
   
 La fenêtre **Tâches service**, qui affiche vos obligations de service, permet également de consulter les commandes service en attente. Elle indique la position de la commande dans le flux de service et permet de modifier ce statut pour refléter les interactions avec le client.  
   
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
 
-Une application de gestion des services doit interagir avec une demande de service du client. Cette demande de service est généralement convertie en commande service. [!INCLUDE[d365fin](includes/d365fin_md.md)] inclut des outils qui permettent de créer une commande directement en réponse à une demande client ou dans le cadre du traitement du contrat, selon la configuration de votre application.  
+Une application de gestion des services doit interagir avec une demande de service du client. Cette demande de service est généralement convertie en commande service. [!INCLUDE[prod_short](includes/prod_short.md)] inclut des outils qui permettent de créer une commande directement en réponse à une demande client ou dans le cadre du traitement du contrat, selon la configuration de votre application.  
   
-Le cas échéant, vous pouvez gérer un programme d'articles de prêt pour vos clients. Vous pouvez également déterminer votre échelle de tarification, mettre les offres de tarification service dans des groupements logiques et créer des ajustements prix.  
+Le cas échéant, vous pouvez gérer un programme d’articles de prêt pour vos clients. Vous pouvez également déterminer votre échelle de tarification, mettre les offres de tarification service dans des groupements logiques et créer des ajustements prix.  
   
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
   
@@ -36,7 +36,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |------------|-------------|  
 |Créer des devis qui sont des brouillons de commandes service, et les convertir en commandes service.|[Créer des devis service](service-how-to-create-service-quotes.md)|
 |Créer des documents contenant des informations sur un service, telles que les réparations et la maintenance, pour les articles de service.|[Créer commande service](service-how-to-create-service-orders.md)|
-|Planifier la livraison de service à l'aide du **Tableau d'affectation**. Vous pouvez également utiliser les outils de gestion de projets du département Projets pour la planification.|[Affecter des ressources](service-how-to-allocate-resources.md)|  
+|Planifier la livraison de service à l’aide du **Tableau d’affectation**. Vous pouvez également utiliser les outils de gestion de projets du département Projets pour la planification.|[Affecter des ressources](service-how-to-allocate-resources.md)|  
 |Fournir des services aux clients en exécutant des tâches de service.|[Travailler sur des tâches service](service-how-to-work-on-service-tasks.md)|  
 |Valider les commandes de services en vue de mettre à jour votre comptabilité.|[Valider des commandes et des avoirs service](service-how-to-post-service-orders.md)|  
 |Créer et valider des factures pour les services que vous avez fournis.|[Créer des factures service ou des avoirs](service-how-create-invoices.md)|  
@@ -46,3 +46,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Services de planification](service-plan-service.md)  
 [Exécution des contrats de service](service-fulfill-service-contracts.md)  
 [Gestion des projets](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

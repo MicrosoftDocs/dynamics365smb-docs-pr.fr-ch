@@ -1,38 +1,46 @@
 ---
-title: Comment paramétrer plusieurs taux d'intérêt
-description: Vous pouvez calculer les intérêts avec plusieurs taux d'intérêts pour une période donnée. Le calcul des intérêts ressemble à tous les intérêts financiers, avec une variation uniquement du taux d'intérêt pour une période donnée.
+title: Configurer plusieurs taux d’intérêt pour les paiements retardés
+description: Cette rubrique vous explique comment calculer les intérêts avec plusieurs taux d’intérêts pour une période donnée.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f5b67bce19291eba108d975db4dd09402f522566
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 6, 431, 432, 572
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 6d90f8e042899495bfc8e171d7e69f7e5b4fdb36
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183299"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971627"
 ---
-# <a name="set-up-multiple-interest-rates"></a>Paramétrer plusieurs taux d'intérêt
-Plusieurs taux d'intérêt multiples sont utilisés pour différentes périodes pour les paiements retardés dans les transactions commerciales. Par exemple, un gouvernement définit l'intérêt maximum à prélever pour un consommateur. Ce taux d'intérêt peut être modifié deux fois par an le 1er janvier et le 1er juillet inclus. Le taux d'intérêt entre les sociétés (B2B) est accepté par les parties et il n'existe aucune limite à ce groupe de clients. Le taux annoncé est généralement quatre fois supérieur aux intérêts bancaires normaux.
+# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Configurer plusieurs taux d’intérêt pour les paiements retardés
 
-Lorsque vous créez des conditions d'intérêts de retard et les conditions de relance, pour la pénalité de retard de paiement, vous pouvez spécifier plusieurs taux d'intérêt afin que les frais de pénalité soient calculés sur la base de plusieurs taux d'intérêt à différentes périodes. Pour plus d'informations, voir [Collecte des soldes restants](receivables-collect-outstanding-balances.md).
+Vous pouvez utiliser différents taux d’intérêt pour différentes périodes pour les paiements retardés dans les transactions commerciales. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
-## <a name="to-set-up-multiple-interest-rates"></a>Pour paramétrer plusieurs taux d'intérêt  
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Conditions intérêts de retard**, puis sélectionnez le lien associé.  
-2.  Sur la page **Conditions intérêts de retard**, sélectionnez les conditions d'intérêt, puis sélectionnez l'action **Taux d'intérêt**.  
-3.  Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Cliquez sur le bouton **OK**.  
-5.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Conditions de relance**, puis sélectionnez le lien associé.  
-6.  Sur la page **Conditions de relance**, sélectionnez les conditions de relance, puis sélectionnez l'action **Niveaux**.  
-7.  Sur la page **Niveaux relance**, sélectionnez le champ **Calculer intérêts**.  
+Par exemple, un gouvernement définit l’intérêt maximum à prélever pour un consommateur. Ce taux d’intérêt peut être modifié deux fois par an le 1er janvier et le 1er juillet inclus. Le taux d’intérêt entre les sociétés (B2B) est accepté par les parties et il n’existe aucune limite à ce groupe de clients. Le taux annoncé est généralement quatre fois supérieur aux intérêts bancaires normaux.
 
-Lorsque vous émettez une facture d'intérêts, a facture affiche les frais financiers avec plusieurs taux d'intérêt pour une période donnée. La facture affiche également les informations contact du client, de la société émettant la facture, du montant supplémentaire, et du montant total. L'écriture ouverture sur la facture est affichée en gras. Les intérêts sont calculés avec plusieurs taux d'intérêt pour une période spécifique et sont imprimés après l'écriture ouverture de la facture.  
+Lorsque vous créez des conditions d’intérêts de retard et les conditions de relance, pour la pénalité de retard de paiement, vous pouvez spécifier plusieurs taux d’intérêt afin que les frais de pénalité soient calculés sur la base de plusieurs taux d’intérêt à différentes périodes.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="to-set-up-multiple-interest-rates"></a>Pour paramétrer plusieurs taux d’intérêt
+
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions intérêts de retard**, puis sélectionnez le lien associé.  
+2. Sur la page **Conditions intérêts de retard**, sélectionnez les conditions d’intérêt, puis sélectionnez l’action **Taux d’intérêt**.  
+3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Cliquez sur le bouton **OK**.  
+5. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions de relance**, puis sélectionnez le lien associé.  
+6. Sur la page **Conditions de relance**, sélectionnez les conditions de relance, puis sélectionnez l’action **Niveaux**.  
+7. Sur la page **Niveaux relance**, pour les niveaux de relance concernés, sélectionnez le champ **Calculer intérêts**.  
+
+Lorsque vous émettez une facture d’intérêts, a facture affiche les frais financiers avec plusieurs taux d’intérêt pour une période donnée. La facture affiche également les informations contact du client, de la société émettant la facture, du montant supplémentaire, et du montant total. L’écriture ouverture sur la facture est affichée en gras. Les intérêts sont calculés avec plusieurs taux d’intérêt pour une période spécifique et sont imprimés après l’écriture ouverture de la facture.  
+
+## <a name="see-also"></a>Voir aussi
+
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
 [Configuration de Finance](finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

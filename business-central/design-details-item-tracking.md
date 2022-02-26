@@ -1,26 +1,26 @@
 ---
-title: Détails de conception - Traçabilité | Microsoft Docs
-description: Cette rubrique donne un aperçu des détails de conception pour la traçabilité.
+title: 'Détails de conception : traçabilité'
+description: Le système de suivi des articles permet de gérer facilement les numéros de série et de lot, qui peuvent être nécessaires pour répondre aux exigences légales ou aider à la gestion de la garantie.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2e770792bea2c4ddbc66128f20726d58654737d1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 788d003324ccf7314d316f201cc561e0a2877933
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185051"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320304"
 ---
 # <a name="design-details-item-tracking"></a>Détails de conception : traçabilité
-Étant donné que le flux de biens dans la chaîne d'approvisionnement moderne devient de plus en plus complexe, la capacité à effectuer le suivi des articles est de plus en plus importante pour les sociétés concernées. La surveillance du flux de transaction d'un article est une obligation légale dans le secteur de l'approvisionnement médical et chimique, mais d'autres sociétés peuvent souhaiter contrôler les produits avec des garanties ou des dates d'expiration pour des raisons de service client.  
+Étant donné que le flux de biens dans la chaîne d’approvisionnement moderne devient de plus en plus complexe, la capacité à effectuer le suivi des articles est de plus en plus importante pour les sociétés concernées. La surveillance du flux de transaction d’un article est une obligation légale dans le secteur de l’approvisionnement médical et chimique, mais d’autres sociétés peuvent souhaiter contrôler les produits avec des garanties ou des dates d’expiration pour des raisons de service client.  
 
-Un système de traçabilité doit permettre à une société de traiter facilement les numéros de série et les numéros de lot, en considérant chaque marchandise comme étant unique : date et lieu de réception, lieu de stockage, date et lieu de vente. [!INCLUDE[d365fin](includes/d365fin_md.md)] a progressivement étendu sa prise en charge de ce besoin de l'entreprise et fournit actuellement des fonctionnalités à l'échelle de l'application, ainsi qu'une base solide pour le développement d'extensions.  
+Un système de traçabilité doit permettre à une société de traiter facilement les numéros de série et les numéros de lot, en considérant chaque marchandise comme étant unique : date et lieu de réception, lieu de stockage, date et lieu de vente. [!INCLUDE[prod_short](includes/prod_short.md)] a progressivement étendu sa prise en charge de ce besoin de l’entreprise et fournit actuellement des fonctionnalités à l’échelle de l’application, ainsi qu’une base solide pour le développement d’extensions.  
 
 ## <a name="in-this-section"></a>Dans cette section  
 [Détails de conception : création de traçabilité](design-details-item-tracking-design.md)  
@@ -28,6 +28,12 @@ Un système de traçabilité doit permettre à une société de traiter facileme
 [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md)  
 [Détails de conception : page Lignes traçabilité](design-details-item-tracking-lines-window.md)  
 [Détails de conception : disponibilité traçabilité](design-details-item-tracking-availability.md)  
-[Détails de conception : traçabilité et planification d'article](design-details-item-tracking-and-planning.md)  
+[Détails de conception : traçabilité et planification d’article](design-details-item-tracking-and-planning.md)  
 [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
-[Détails de conception : traçabilité dans l'entrepôt](design-details-item-tracking-in-the-warehouse.md)
+[Détails de conception : traçabilité dans l’entrepôt](design-details-item-tracking-in-the-warehouse.md)
+
+## <a name="see-also"></a>Voir aussi
+
+[Utiliser les numéros lot, de série et paquet](inventory-how-work-item-tracking.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

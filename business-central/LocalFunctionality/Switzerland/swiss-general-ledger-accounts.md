@@ -1,31 +1,32 @@
 ---
-title: Comptes généraux, Suisse
-description: Les améliorations suisses comprennent des fonctions spéciales liées aux comptes généraux.
+title: Comptes généraux, Suisse [CH]
+description: Cet article explique les améliorations apportées aux comptes généraux, Suisse et aux feuilles comptabilité.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: fc62a2f03ecb4d36a4fba37e16f71ab6cd6e5209
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 11500
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: cabc3e856769b2641201290576b7001c21705492
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300978"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947087"
 ---
 # <a name="swiss-general-ledger-accounts"></a>Comptes généraux, Suisse
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] inclut les améliorations suisses apportées aux fonctions spéciales liées aux comptes généraux.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] inclut les améliorations suisses apportées aux fonctions spéciales liées aux comptes généraux.
 
 - Conserver les soldes en devises d'un compte bancaire dans les comptes généraux.  
 - Trier les numéros de comptes généraux dans la page **Plan comptable**.  
 - Prévisualiser les effets que la validation des feuilles comptabilité auraient sur les soldes de certains comptes généraux avant leur validation réelle.  
 
 ## <a name="general-ledger-accounts-and-general-journals"></a>Comptes généraux et feuilles comptabilité  
-Les entreprises ont souvent des comptes bancaires différents pour les devises étrangères et disposent d'un compte général pour chaque compte bancaire. Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez définir un code devise et les informations de solde en devise étrangère dans la page **Plan comptable**. Cela vous permet de conserver le solde de départ en devises d'un compte bancaire. Pour plus d'informations, voir [Description des écritures comptables et du plan comptable](../../finance-general-ledger.md).  
+Les entreprises ont souvent des comptes bancaires différents pour les devises étrangères et disposent d'un compte général pour chaque compte bancaire. Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez définir un code devise et les informations de solde en devise étrangère dans la page **Plan comptable**. Cela vous permet de conserver le solde de départ en devises d'un compte bancaire. Pour plus d'informations, voir [Description des écritures comptables et du plan comptable](../../finance-general-ledger.md).  
 
 Par exemple, une société a deux comptes bancaires : une pour la devise société (DS) et une pour les euros (EUR). Vous devez créer des écritures comptables pour chaque compte bancaire. Pour le compte en euros, définissez le code devise **EUR** et validez les feuilles en EUR ou DS.  
 
@@ -45,3 +46,6 @@ Avant de valider une feuille comptabilité, vous pouvez prévisualiser l'effet q
 
 [Afficher les soldes temporaires dans les feuilles comptabilisation immobilisation](how-to-view-temporary-balances-in-general-ledger-journals.md)  
 [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

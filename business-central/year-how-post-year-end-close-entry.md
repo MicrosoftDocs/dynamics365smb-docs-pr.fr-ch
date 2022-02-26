@@ -1,38 +1,43 @@
 ---
-title: Vérifier et valider l'écriture de clôture d'exercice | Microsoft Docs
-description: Décrit comment ouvrir la feuille spécifiée dans le traitement par lots Clôturer exercice comptable, puis examiner et valider l'écriture de clôture de fin d'exercice.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+title: Valider l’écriture de clôture d’exercice
+description: Décrit comment ouvrir la feuille spécifiée dans le traitement par lots Clôturer exercice comptable, puis examiner et valider l’écriture de clôture de fin d’exercice.
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2020
-ms.author: jswymer
-ms.openlocfilehash: 1fa624ecda5914c0ba4e395025f051bc5d8cc457
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 100
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 6290bf334e3b309f1b4ed3eec426e6b3f60d6041
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191754"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971773"
 ---
-# <a name="post-the-year-end-closing-entry"></a>Valider l'écriture de clôture d'exercice
-Après avoir utilisé le traitement par lots **Solder les comptes de gestion** pour générer les écritures de clôture d'exercice, vous devez ouvrir la feuille spécifiée dans le traitement par lots, puis consulter et valider les écritures.
+# <a name="posting-the-year-end-closing-entry"></a>Validation de l’écriture de clôture d’exercice
 
-## <a name="to-post-the-year-end-closing-entry"></a>Pour valider l'écriture de clôture d'exercice
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille comptabilité**, puis sélectionnez le lien associé.
+Après avoir utilisé le traitement par lots **Solder les comptes de gestion** pour générer les écritures de clôture d’exercice, vous devez ouvrir la feuille spécifiée dans le traitement par lots, puis consulter et valider les écritures.  
+
+> [!TIP]
+> En fonction des processus de travail de votre organisation, vous pouvez choisir de clôturer ou non les périodes comptables et les exercices dans [!INCLUDE [prod_short](includes/prod_short.md)]. La procédure suivante suppose que vous avez clôturé l’exercice en utilisant l’option *Périodes comptables*, généré une écriture de clôture d’exercice à l’aide du traitement par lots **Clôturer exercice comptable** et que vous êtes maintenant prêt à valider l’écriture de clôture d’exercice avec la compensation des écritures de compte de fonds propres. Votre organisation peut choisir de travailler différemment, par exemple valider l’écriture de clôture d’exercice dans le cadre de la clôture de l’exercice comptable.
+
+## <a name="to-post-the-year-end-closing-entry"></a>Pour valider l’écriture de clôture d’exercice
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille comptabilité**, puis choisissez le lien associé.
 2. Sur la page **Feuille comptabilité**, dans le champ **Nom de la feuille**, sélectionnez la feuille qui contient les écritures de clôture.
 3. Examinez les écritures.
-4. Pour valider la feuille, sélectionnez l'action **Valider**.
+4. Pour valider la feuille, sélectionnez l’action **Valider**.
 
 > [!NOTE]  
->   En cas de détection d'une erreur, un message d'erreur s'affiche. Si la validation réussit, les entrées validées sont supprimées de la feuille. Une fois la validation terminée, une entrée est validée dans chaque compte résultats, de façon à ce que son solde indique zéro et à ce que les résultats de l'exercice soient transférés vers le bilan.
+> En cas de détection d’une erreur, un message d’erreur s’affiche. Si la validation réussit, les entrées validées sont supprimées de la feuille. Une fois la validation terminée, une entrée est validée dans chaque compte résultats, de façon à ce que son solde indique zéro et à ce que les résultats de l’exercice soient transférés vers le bilan.
 
 ## <a name="see-also"></a>Voir aussi
+
 [Clôturer des périodes comptables](year-close-account-periods.md)  
 [Clôture plans](year-close-books.md)  
 [Clôturer exercice comptable](year-close-income-statement.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

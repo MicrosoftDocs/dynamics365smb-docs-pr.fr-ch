@@ -1,29 +1,33 @@
 ---
-title: 'Procédure : imprimer des rapports contenant les listes de paiements fournisseurs'
+title: Imprimer des rapports contenant les listes de paiements fournisseurs [CH]
 description: Le rapport Liste de paiements fournisseur fournit la liste des paiements pour chaque fournisseur. Le rapport peut trier les paiements par ordre chronologique ou groupés par fournisseur.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 77fd2f37c9770ca2a17ade1311fd002210b5f629
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: fa75ffd98ce360276665b8e70f575df67d868efd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878807"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439737"
 ---
-# <a name="print-vendor-payments-list-reports"></a>Imprimer des rapports contenant les listes de paiements fournisseurs
+# <a name="print-vendor-payments-list-reports-in-the-swiss-version"></a>Imprimer des rapports contenant les listes de paiements fournisseurs dans la version suisse
+
 Le rapport **Liste de paiements fournisseur** fournit la liste des paiements pour chaque fournisseur. Le rapport peut trier les paiements par ordre chronologique ou groupés par fournisseur.  
+
+> [!NOTE]
+> Le rapport **Liste de paiements fournisseurs** est disponible dans les marchés suivants : Autriche, Allemagne, Suisse.
 
 ## <a name="to-print-the-vendor-payments-list-report"></a>Pour imprimer des rapports contenant les listes de paiements fournisseurs  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Liste de paiements fournisseurs**, puis choisissez le lien associé.  
-2.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
+1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Liste de paiements fournisseurs**, puis sélectionnez le lien associé.  
+2. Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
@@ -32,5 +36,9 @@ Le rapport **Liste de paiements fournisseur** fournit la liste des paiements pou
 
  À la fin du rapport, le nombre de paiements traités est affiché.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Effectuer des paiements](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

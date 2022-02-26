@@ -1,36 +1,71 @@
 ---
-title: Utiliser Business Central sur votre périphérique mobile| Microsoft Docs
-description: Vous pouvez afficher et modifier vos données Business Central sur votre téléphone ou tablette.
-author: edupont04
+title: Obtenir Business Central sur votre périphérique mobile (contient une vidéo)
+description: Cette rubrique décrit les différentes manières dont vous pouvez afficher et modifier vos données Business Central, les envoyer vers Excel et plus encore sur votre téléphone ou votre tablette.
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: phone, tablet
-ms.date: 04/01/2020
-ms.author: edupont
-ms.openlocfilehash: 62626d7ff081da64d64299cafb4b5e8c5483f182
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.keywords: desktop, Windows, app
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 31f9a34d2fc14ddca146ff00d8b4b678e0b97d99
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182507"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940091"
 ---
-# <a name="getting-business-central-on-your-mobile-device"></a>Obtention de Business Central sur votre périphérique mobile
-Accédez à vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] à partir de votre périphérique mobile. Vous pouvez naviguer dans vos données commerciales, utiliser des fonctionnalités telles que l'envoi vers Excel ou Office 365, l'affichage de graphiques et d'indicateurs de performance clé à jour, l'envoi par e-mail de devis et de factures. Vous pouvez également prendre des photos et les ajouter en pièces jointes grâce à votre appareil photo. Suivez la procédure ci-dessous pour télécharger l'application et démarrer.
+# <a name="getting-business-central-on-your-mobile-device"></a>Obtention de Business Central sur votre périphérique mobile
 
-## <a name="to-get-the-app-on-my-mobile-device"></a>Pour bénéficier de l'application sur mon périphérique mobile
-1. Installez l'application [!INCLUDE[d365fin](includes/d365fin_md.md)] sur votre périphérique mobile en la téléchargeant à partir de Windows Store, d'App Store ou de Google Play.  
-[![Windows Store](./media/install-mobile-app/windowsstore.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
-[![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)  
-2. Lancez l'application à partir de votre périphérique mobile.
-3. Saisissez le nom d'utilisateur et le mot de passe que vous avez créés lors de votre inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)] et suivez les instructions qui s'affichent à l'écran.
+Accédez à vos données [!INCLUDE[prod_short](includes/prod_short.md)] à partir de votre périphérique mobile. Vous pouvez naviguer dans vos données commerciales, utiliser des fonctionnalités telles que l’envoie vers Excel ou Microsoft 365, l’affichage de graphiques et d’indicateurs de performance clé à jour, l’envoi par e-mail de devis et de factures. Vous pouvez également prendre des photos et les ajouter en pièces jointes grâce à votre appareil photo. Suivez la procédure ci-dessous pour télécharger l’application et démarrer.
 
-Vous êtes désormais en mesure d'accéder à [!INCLUDE[d365fin](includes/d365fin_md.md)], d'afficher et de modifier les données.
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
+
+> [!TIP]
+> Voulez-vous une application sur le bureau de votre ordinateur Windows ou macOS ? Consultez [Installer l’application Business Central sur votre bureau](install-desktop-app.md).
+
+## <a name="get-the-app-on-my-mobile-device"></a>Bénéficier de l’application sur mon périphérique mobile
+
+1. Installez l’application [!INCLUDE[prod_short](includes/prod_short.md)] sur votre appareil mobile en la téléchargeant à partir de l’App Store ou de Google Play.  
+   - [Plate-forme de téléchargement des applications](https://go.microsoft.com/fwlink/?LinkId=734847)
+   - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
+2. Lancez l’application à partir de votre périphérique mobile.
+3. Saisissez le nom d’utilisateur et le mot de passe que vous avez créés lors de votre inscription à [!INCLUDE[prod_short](includes/prod_short.md)] et suivez les instructions qui s’affichent à l’écran.
+
+    Si votre [!INCLUDE [prod_short](includes/prod_short.md)] possède plusieurs environnements de production, il vous sera alors demandé de choisir l’environnement auquel vous souhaitez accéder (nécessite Business Central 2020 version 2 et ultérieure).
+
+Vous êtes désormais en mesure d’accéder à [!INCLUDE[prod_short](includes/prod_short.md)], d’afficher et de modifier les données.  
+
+> [!TIP]
+> Si vous souhaitez connecter l’application à un environnement sandbox, choisissez le bouton **Options avancées**, puis choisissez l’option de connexion **Bac à sable de cloud**. Ensuite, si vous disposez de plusieurs environnements sandbox, choisissez l’environnement approprié.
+
+## <a name="using-business-central-on-premises"></a>Utilisation de Business Central sur site ?
+
+Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous pouvez également profiter des avantages de l’application mobile. L’installation est similaire, mais à quelques exceptions près.
+
+1. Installez l’application [!INCLUDE[prod_short](includes/prod_short.md)] sur votre appareil mobile en la téléchargeant à partir de l’App Store ou de Google Play.  
+
+   - [Plate-forme de téléchargement des applications](https://go.microsoft.com/fwlink/?LinkId=734847)
+   - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
+2. Lancez l’application à partir de votre appareil mobile.
+3. Au lieu de saisir une adresse e-mail sur la page **Bienvenue**, choisissez le bouton **Options avancées**, puis choisissez l’option de connexion **Sur site**.
+4. Sur la page suivante, dans la zone **Nom du service**, entrez l’adresse Web que vous utilisez pour ouvrir [!INCLUDE[prod_short](includes/prod_short.md)], telle que *https://mybusinesscentral:443/BC170*. Si vous n’êtes pas sûr, demandez à votre administrateur.
+5. Ensuite, entrez votre nom d’utilisateur et votre mot de passe pour accéder à Business Central.
+
+   Une fois terminé, l’application Business Central s’ouvre.
+
+> [!NOTE]
+> Si vous rencontrez des problèmes pour que l’application fonctionne correctement, parlez-en à votre administrateur. Il peut s’agir d’un prérequis manquant ou d’une configuration incomplète. Pour plus d’informations, consultez [Préparer l’environnement pour l’application mobile](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) ou [Résoudre les problèmes de l’application mobile Business Central sur site](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
-[Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+[FAQ relative aux applications mobiles](ui-mobile-faq.yml)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

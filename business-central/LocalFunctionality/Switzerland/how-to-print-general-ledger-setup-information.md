@@ -1,30 +1,28 @@
 ---
-title: 'Procédure : Imprimer les informations liées aux paramètres comptabilité'
-description: Avant d'utiliser Business Central dans les affaires quotidiennes, vous pouvez exécuter le rapport Informations de configuration Comptabilité pour afficher les données de base que vous avez définies.
-services: project-madeira
-documentationcenter: ''
+title: Imprimer les informations liées aux paramètres comptabilité [CH]
+description: Avant d'utiliser Business Central dans vos affaires quotidiennes, vous pouvez exécuter le rapport Informations de configuration Comptabilité pour afficher les données de base que vous avez définies.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 8c77437487ebba06a6e0000ef7b1f7418807b7e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 0fa4fc97fb1695062c1940776d3d8ef3e73a8393
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301014"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439749"
 ---
-# <a name="print-general-ledger-setup-information"></a>Imprimer les informations liées aux paramètres comptabilité
-Avant d'utiliser [!INCLUDE[d365fin](../../includes/d365fin_md.md)] dans les affaires quotidiennes, vous pouvez exécuter le rapport **Informations de configuration Comptabilité** pour afficher les données de base que vous avez définies. Vous pouvez consulter ces données de base pour disposer d'une base de comparaison, puis vérifier que vous avez correctement configuré les groupes de validation, par exemple.  
+# <a name="print-general-ledger-setup-information-in-the-swiss-version"></a>Imprimer les informations liées aux paramètres comptabilité dans la version suisse
+Avant d'utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)] dans les affaires quotidiennes, vous pouvez exécuter le rapport **Informations de configuration Comptabilité** pour afficher les données de base que vous avez définies. Vous pouvez consulter ces données de base pour disposer d'une base de comparaison, puis vérifier que vous avez correctement configuré les groupes de validation, par exemple.  
 
 ## <a name="to-print-general-ledger-setup-information"></a>Pour imprimer les informations liées aux paramètres comptabilité  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Informations de configuration Comptabilité**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Informations de configuration Comptabilité**, puis choisissez le lien associé.  
 2.  Dans le raccourci **Options**, dans le champ **Informations de configuration**, sélectionnez la zone de données de base comme décrit dans le tableau suivant.  
 
     |Option|Désignation|  
@@ -40,3 +38,6 @@ Avant d'utiliser [!INCLUDE[d365fin](../../includes/d365fin_md.md)] dans les affa
 
 ## <a name="see-also"></a>Voir aussi  
 [Configuration de Finance](../../finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
