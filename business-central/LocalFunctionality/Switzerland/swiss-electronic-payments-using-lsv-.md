@@ -2,7 +2,6 @@
 title: Paiements électroniques à l'aide de LSV+, Suisse [CH]
 description: La méthode de paiement électronique Lastschrift Verfahren (LSV+) (ou par prélèvement) permet aux entreprises de récupérer les paiements directement à partir des comptes bancaires de leurs clients.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 9b156d23fd6b3ae4e7b912c9a8cbc51685ffb08a
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: c89e9f8c0de593407e401e3c6cba83b64f7125b1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947081"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136617"
 ---
 # <a name="swiss-electronic-payments-using-lsv-in-the-swiss-version"></a>Paiements électroniques à l'aide de LSV+ dans la version suisse
 La méthode de paiement électronique Lastschrift Verfahren (LSV+) (ou par prélèvement), version améliorée de LSV, permet aux entreprises de récupérer les paiements directement à partir des comptes bancaires de leurs clients. Pour récupérer les paiements clients, vous devez envoyer un fichier LSV à la banque afin que celle-ci prenne en compte les paiements requis dans le fichier.  

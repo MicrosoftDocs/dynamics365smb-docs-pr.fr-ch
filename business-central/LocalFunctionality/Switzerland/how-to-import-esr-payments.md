@@ -2,7 +2,6 @@
 title: Importer des paiements ESR [CH]
 description: Après avoir reçu le paiement d'un client, vous pouvez recevoir le fichier ESR contenant des informations sur les factures payées par votre banque par voie électronique.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 3010531, 3010532
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 9fda75d72844cf332a898c99ccecaeda5b31201d
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 069b5ba67f023f60fb7d57f88d680cb8a3a9773b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947183"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136625"
 ---
 # <a name="import-esr-payments-in-the-swiss-version"></a>Importer des paiements ESR dans la version suisse
 Après avoir reçu le paiement d'un client, vous recevez un fichier contenant des informations sur les factures payées. Vous pouvez recevoir ce fichier de votre banque par voie électronique, ou par courrier électronique.  

@@ -2,7 +2,6 @@
 title: Paiements électroniques à l'aide de ESR, Suisse [CH]
 description: Cette rubrique explique les différentes tâches que vous pouvez effectuer avec le service de prélèvement électronique Einzahlungsschein mit Referenznummer (ESR).
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 3010531, 3010532
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 7fcc6889bab4c3b23af956d7e6ee1aa909142374
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 9fcea031264d5cf12dad97a5ba430f9829d9836e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947192"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147329"
 ---
 # <a name="swiss-electronic-payments-using-esr-in-the-swiss-version"></a>Paiements électroniques à l'aide de ESR dans la version suisse
 La méthode de paiement électronique Einzahlungsschein mit Referenznummer (ESR) est un service de prélèvement électronique qui permet au client de facturer les factures ouvertes en francs suisses (CHF) et en euros (EUR), et de comptabiliser efficacement les paiements entrants. Le numéro de référence, ou la ligne de code, contient toutes les données de comptabilité pertinentes.  

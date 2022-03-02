@@ -2,7 +2,6 @@
 title: Imprimer les informations liées aux paramètres comptabilité [CH]
 description: Avant d'utiliser Business Central dans vos affaires quotidiennes, vous pouvez exécuter le rapport Informations de configuration Comptabilité pour afficher les données de base que vous avez définies.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0fa4fc97fb1695062c1940776d3d8ef3e73a8393
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c1886f54df20a3c26ffbd8c71a4115c6e45b5d9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439749"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145991"
 ---
 # <a name="print-general-ledger-setup-information-in-the-swiss-version"></a>Imprimer les informations liées aux paramètres comptabilité dans la version suisse
 Avant d'utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)] dans les affaires quotidiennes, vous pouvez exécuter le rapport **Informations de configuration Comptabilité** pour afficher les données de base que vous avez définies. Vous pouvez consulter ces données de base pour disposer d'une base de comparaison, puis vérifier que vous avez correctement configuré les groupes de validation, par exemple.  

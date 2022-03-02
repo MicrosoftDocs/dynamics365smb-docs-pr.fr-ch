@@ -2,7 +2,6 @@
 title: Fonctionnalité locale, Suisse
 description: Les rubriques suivantes décrivent toutes les fonctionnalités locales uniques à de la version suisse de Business Central.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 35561, 35562, 35563, 3010541, 3010542, 3010543
 ms.date: 06/21/2021
 ms.author: soalex
-ms.openlocfilehash: f6d858efd22d581be89ca37ac6437f37ab80f766
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 9c3765e5087caa1af7f482e10d7712e160fe2f4d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947105"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136603"
 ---
 # <a name="switzerland-local-functionality"></a>Fonctionnalité locale, Suisse
 

@@ -2,7 +2,6 @@
 title: 'Procédure : Imprimer des factures ESR [CH]'
 description: Cette rubrique décrit la procédure d'impression de factures et de coupons de bordereau paiement Einzahlungsschein mit Referenznummer (ESR).
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 3010531, 3010532
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 0c27928b22a0fd1edd2a882ece7b1173b3dfbb17
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: aff58fb7a81469e4ca59fc90e265559ac0bb8252
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947137"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129302"
 ---
 # <a name="print-esr-invoices-in-the-swiss-version"></a>Imprimer des factures ESR dans la version suisse
 

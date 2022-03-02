@@ -2,7 +2,6 @@
 title: 'Procédure : Importer les codes postaux suisses [CH]'
 description: Vous pouvez réimporter le dernier fichier des codes postaux suisses et l'utiliser pour mettre la table Code postal à jour afin de définir des codes postaux pour les clients ou les fournisseurs.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 04effb93a3af6dc983c676788177a8be2bed8d08
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 50614decaf1148eeecbdf063c79efcd9c77d24f9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439757"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138116"
 ---
 # <a name="import-swiss-post-codes-in-the-swiss-version"></a>Importer les codes postaux suisses dans la version suisse
 Vous pouvez réimporter le dernier fichier des codes postaux et l'utiliser pour mettre la table **Code postal** à jour. Le fichier Code postal peut être téléchargé du site Web de la [Poste suisse](https://go.microsoft.com/fwlink/?LinkId=150292). Après avoir importé le dernier code postal, vous pouvez définir des codes postaux pour des clients ou des fournisseurs. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux fournisseurs](../../purchasing-how-register-new-vendors.md).  

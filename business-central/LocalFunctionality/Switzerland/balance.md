@@ -2,7 +2,6 @@
 title: Solde comptabilité [CH]
 description: Cette rubrique explique l'utilisation de la page Solde provisoire des comptes généraux pour afficher les écritures comptables validées.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11500
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 8c7663f8587f0999ced61a34e5c398ac7ad87fe4
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 488b07e8358b6561883b761c4ec1409652e54d77
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947098"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135514"
 ---
 # <a name="general-ledger-balance-in-the-swiss-version"></a>Solde comptabilité dans la version suisse
 

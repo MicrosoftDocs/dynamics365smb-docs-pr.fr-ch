@@ -2,7 +2,6 @@
 title: Configurer des relances livraison (CH)
 description: Dans la version suisse de Business Central, vous pouvez utiliser des relances livraison achat pour rappeler aux fournisseurs les livraisons en retard.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 5005270, 5005272
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b82f97c23a1f6e366074a960f7894ab8f2f132f0
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: c0096debb1bab6df10b0ea9414c9a1fdb057a796
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947101"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141772"
 ---
 # <a name="set-up-delivery-reminders-in-the-swiss-version"></a>Configurer des relances livraison dans la version suisse
 

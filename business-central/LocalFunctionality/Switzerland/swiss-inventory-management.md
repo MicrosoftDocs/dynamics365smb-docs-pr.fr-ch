@@ -2,7 +2,6 @@
 title: Gestion des stocks, Suisse [CH]
 description: Cet article décrit les améliorations apportées aux fonctions spéciales de gestion des stocks dans Business Central en Suisse.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 8986455ccbab0adc26a17605fdb7f4889732d950
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 09f4a1b5afb326beb0b8f264b487f84b2c53b1ef
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319303"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136609"
 ---
 # <a name="swiss-inventory-management"></a>Gestion des stocks, Suisse
 [!INCLUDE[prod_short](../../includes/prod_short.md)] comprend les améliorations apportées à la gestion des stocks en Suisse. Notamment :  
