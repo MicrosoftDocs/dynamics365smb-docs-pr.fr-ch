@@ -2,20 +2,20 @@
 title: Générer des états financiers à l’aide de tableaux d’analyse
 description: Décrit comment utiliser des tableaux d’analyse pour créer différentes vues et différents états pour l’analyse des données de performances financières.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f180efb198fce757af263710fab2561323fd69b4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 91a97ab506f7536b9c468862709d1d39ed767d53
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437041"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335490"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Préparer la génération d’états financiers avec des tableaux d’analyse et des catégories de compte
 

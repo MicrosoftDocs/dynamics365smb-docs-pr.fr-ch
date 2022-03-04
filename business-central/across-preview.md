@@ -2,19 +2,18 @@
 title: Versions d’évaluation et abonnements
 description: Découvrez comment obtenir une version d’évaluation de Business Central, comment utiliser les environnements sandbox et comment souscrire un abonnement.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 09/29/2021
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011561"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335542"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versions d’évaluation et abonnements [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -38,7 +37,7 @@ Si vous décidez de ne pas utiliser [!INCLUDE [prod_short](includes/prod_short.m
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Ajouter vos propres données à une société test vide
 
-Si vous voulez essayer [!INCLUDE[prod_short](includes/prod_short.md)] avec vos propres données, vous pouvez opter pour une version d’évaluation gratuite de 30 jours avec une société vide. Le guide de configuration assistée **Configurer ma société** peut vous aider à spécifier des informations de base sur votre activité. Vous pouvez également importer des données à partir de votre solution de gestion métier existante afin de pouvoir évaluer [!INCLUDE[prod_short](includes/prod_short.md)] avec vos propres données. Cependant, nous vous recommandons de ne pas utiliser d’essai gratuit pour vous aider à gérer votre entreprise. Contactez [un partenaire revendeur](/dynamics365/business-central/across-faq#findpartner) pour en savoir plus sur la prise en main de [!INCLUDE[prod_short](includes/prod_short.md)].  
+Si vous voulez essayer [!INCLUDE[prod_short](includes/prod_short.md)] avec vos propres données, vous pouvez opter pour une version d’évaluation gratuite de 30 jours avec une société vide. Le guide de configuration assistée **Configurer ma société** peut vous aider à spécifier des informations de base sur votre activité. Vous pouvez également importer des données à partir de votre solution de gestion métier existante afin de pouvoir évaluer [!INCLUDE[prod_short](includes/prod_short.md)] avec vos propres données. Cependant, nous vous recommandons de ne pas utiliser d’essai gratuit pour vous aider à gérer votre entreprise. Contactez [un partenaire revendeur](/dynamics365/business-central/across-faq#findpartner) pour en savoir plus sur la prise en main de [!INCLUDE[prod_short](includes/prod_short.md)]. Le partenaire peut également vous aider à migrer vos données vers [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
 Si 30 jours ne suffisent pas pour vous décider, vous pouvez prolonger votre période d’évaluation. Pour plus d’informations, voir [Besoin de plus de temps pour décider si vous voulez vous abonner ?](admin-extend-trial.md).  
 
@@ -105,6 +104,7 @@ L’administrateur de votre [!INCLUDE[prod_short](includes/prod_short.md)] et vo
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Forum Aux Questions](across-faq.yml)  
 [Comment trouver un partenaire revendeur ?](/dynamics365/business-central/across-faq#findpartner)  
+[Migrer des données](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Choisir votre environnement Sandbox de développement Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Prolongement des périodes d’essai (en tant qu’administrateur)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  

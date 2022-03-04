@@ -2,7 +2,6 @@
 title: Configurer la validation des transactions intersociétés
 description: Créez vos fournisseurs et vos clients intersociétés en tant que partenaires intersociétés, et configurez un plan comptable intersociétés.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605, 620, 602, 603, 601, 600, 652, 606, 607, 609, 608, 621
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a051e8370cc099ed03a46267f8c58f18134758cc
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 7efbc6f80eb59b9f0be1640ea2bf6cb57afea4c6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8028917"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131810"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Configurer la validation des transactions intersociétés
 

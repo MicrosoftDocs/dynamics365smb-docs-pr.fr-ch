@@ -2,7 +2,6 @@
 title: Créer une commande vente client et vendre des produits
 description: Décrit comment créer une commande vente pour enregistrer votre contrat avec un client pour vendre ou commercialiser des produits dans des conditions spécifiques.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: trade, partial deliveries, customer sales order
 ms.search.form: 42, 48, 9305
 ms.date: 01/19/2022
 ms.author: edupont
-ms.openlocfilehash: ee32f74c82360c6f001c5a7b40def4bcb459cb28
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 8aafbe502c59924703d04711458ec9fa77a604f1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011941"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148345"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Vente de produits avec une commande vente client  
 

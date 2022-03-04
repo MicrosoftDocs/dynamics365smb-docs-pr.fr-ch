@@ -2,7 +2,6 @@
 title: Détails de conception - Évaluation du stock | Microsoft Docs
 description: L’évaluation du stock est la détermination du coût d’un article de stock.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 8d68b2c5f0a1026daeca4f872551cbddcd95b047
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a4877cf45e4cbf035e2914b72e10f4d7a4102e59
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215068"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145877"
 ---
 # <a name="design-details-inventory-valuation"></a>Détails de conception : évaluation du stock
 L’évaluation du stock est la détermination du coût qui est affecté à un article du stock, comme exprimé par l’équation suivante.  

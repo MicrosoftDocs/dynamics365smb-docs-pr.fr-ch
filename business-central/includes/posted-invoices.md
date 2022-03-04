@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2c801b6e853e99d97beddf8dcae2076fec7f8173
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8ebd2f7829ca4dac8301d4e082c1afa9ad801a74
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788665"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133565"
 ---
 Une fois la facture validée, vous pouvez la retrouver dans la liste des factures validées. La liste **Factures vente enregistrées** et la liste **Factures achat enregistrées** affiche les factures enregistrées avec les numéros de facture définitifs. Dans la liste, vous pouvez rechercher chaque facture enregistrée et vous pouvez corriger ou annuler une facture enregistrée.  
 

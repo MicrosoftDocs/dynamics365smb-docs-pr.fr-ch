@@ -2,7 +2,6 @@
 title: Restructurer les entrepôts
 description: Découvrez comment restructurer votre entrepôt avec de nouveaux codes d’emplacement et de nouvelles caractéristiques d’emplacement pour atteindre ou maintenir une opération plus efficace.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: fe027e43c91723c4e2a24d8afab373f2b96b07eb
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 97a8ff2971ca8cc6e34fb89cd5edbb092ac264a8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115245"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144296"
 ---
 # <a name="restructure-warehouses"></a>Restructurer les entrepôts
 Vous pouvez souhaiter restructurer votre entrepôt avec de nouveaux codes et caractéristiques emplacement. Ce type d’activité n’intervient que très rarement, mais un reclassement peut s’avérer nécessaire pour mettre à jour une opération ou la rendre plus efficace. Par exemple :  

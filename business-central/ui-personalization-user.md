@@ -2,20 +2,20 @@
 title: Personnalisation des pages (contient une vidéo)
 description: Découvrez comment personnaliser l’interface utilisateur et votre espace de travail pour l’adapter à votre façon de travailler et aux préférences personnelles dans Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: cd25d18787f8f28b01974e59580f7e83425e54bf
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 95ed69baac51d4c343c639e8ddcea2db29520340
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940291"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334761"
 ---
 # <a name="personalize-your-workspace"></a>Personnaliser votre espace de travail
 Vous pouvez personnaliser votre espace de travail pour l’adapter à vos habitudes et préférences en modifiant les pages afin qu’elles n’affichent que les informations dont vous avez besoin, où vous avez en besoin. Les modifications de personnalisation que vous apportez n’affectent que ce que vous voyez, pas ce que voient les autres utilisateurs.

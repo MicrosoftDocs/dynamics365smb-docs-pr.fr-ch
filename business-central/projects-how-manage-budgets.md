@@ -2,7 +2,6 @@
 title: Paramétrer et gérer un budget pour un projet
 description: Décrit comment planifier des ressources et prévoir et contrôler les coûts d’un projet en définissant un budget pour chaque projet.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: project budget, forecast
 ms.search.form: 1002, 1007
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 901a925e1ce8019cd2f347ac5b3e4c59735b444f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 3334044617e72c08c11cea0d898ebaf6604028f0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972293"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148371"
 ---
 # <a name="manage-job-budgets"></a>Gérer les budgets de projets
 Vous pouvez configurer un budget pour chaque projet. Le budget permet de planifier les ressources que vous affectez à un projet. Il peut s’agir d’un budget général avec peu d’écritures ou plus détaillé avec des écritures réparties par niveau d’activité. Vous pouvez alors comparer les montants budgétés avec l’activité réelle telle qu’elle a été enregistrée dans la feuille projet. En surveillant les différences entre l’activité réelle et celle budgétée, vous pouvez contrôler un projet en cours et améliorer la qualité des projets futurs en réduisant le risque de sous-estimation des coûts.

@@ -2,20 +2,20 @@
 title: Visiter notre vidéothèque
 description: Visitez notre vidéothèque pour obtenir de l’aide, des vidéos de démarrage illustrant les tâches courantes « Procédure pour » de vidéos de produits thématiques.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: cbbd4ec47a3a6b6d8ed1ed3ab3db2982d21966aa
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 7786dab73b28a0107aac746f8029207592e6b78b
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324701"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323255"
 ---
 # <a name="visit-our-video-library"></a>Visitez notre vidéothèque
 

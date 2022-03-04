@@ -2,24 +2,23 @@
 title: Migrer des données client
 description: Vous pouvez migrer les données client existantes d’un système existant vers Business Central à l’aide de RapidStart Services ou tout simplement les saisir directement dans l’entreprise.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437481"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335385"
 ---
 # <a name="migrate-customer-data"></a>Migrer des données client
 
-Vous pouvez migrer les données client existantes d’un système ERP existant vers [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des outils de migration de données de RapidStart Services. Vous pouvez utiliser des fichiers Excel comme supports d’informations. Vous pouvez également déplacer manuellement les données en les entrant directement dans la société.
+Vous pouvez migrer les données client existantes d’un système ERP existant vers [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des outils de migration de données de RapidStart Services. Vous pouvez utiliser des fichiers Excel comme supports d’informations. Vous pouvez également déplacer manuellement les données en les entrant directement dans la société. Vous pouvez également utiliser le guide **Migration vers le cloud** pour vous aider à déplacer des données. Pour plus d’informations, voir [Migrer des données](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le centre d’administration.
 
 > [!NOTE]
 > Les champs de type Blob ne peuvent pas être exportés/importés à l’aide d’Excel.

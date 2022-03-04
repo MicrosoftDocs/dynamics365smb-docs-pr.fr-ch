@@ -2,7 +2,6 @@
 title: Affecter les frais annexes aux ventes et aux achats (contient une vidéo)
 description: Affectez les frais annexes lorsque vous avez besoin que les articles de stock comptabilisent les coûts ajoutés, tels que le fret, la manutention, les assurances, et transport, que vous encourez lorsque vous achetez ou vendez des articles.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: c49b529bcb93544aef8393a5440b142e722efd1c
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: 6cfebffb12eb2cd7ffa84e12a07c01968c429069
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953249"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145617"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires
 Pour une évaluation correcte, vos articles de stock doivent comptabiliser tous les coûts ajoutés, tels que le fret, la manutention, les assurances, et transport, que vous encourez lorsque vous achetez ou vendez des articles. Pour les achats, le coût en magasin d’un article acheté est constitué du prix d’achat au fournisseur et de tous les frais annexes directs pouvant être affectés à chacune des réceptions ou expéditions retour. Pour les ventes, il peut s’avérer aussi fondamental pour votre société de connaître le coût de l’expédition des articles vendus que le coût en magasin des articles achetés.

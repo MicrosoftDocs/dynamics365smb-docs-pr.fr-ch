@@ -2,7 +2,6 @@
 title: Vente simultanée d’articles à assembler pour commande et d’articles en stock
 description: Si une partie de la configuration d’un élément d’assemblage pour assembler pour stock n’est pas disponible, vous avez la possibilité de créer un ordre d’assemblage pour la quantité restante.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 08b7d36eb7cace9b70f5b58a387907ecb54f39e8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: f94f18c93bb2b204b798f7709d0b062851d61989
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326327"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148774"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vente simultanée d’articles à assembler pour commande et d’articles en stock
 Si le champ **Stratégie d’assemblage** de la fiche article d’un élément d’assemblage indique **Assembler pour stock**, le processus par défaut de commande vente se base sur l’hypothèse que l’article est déjà assemblé et peut être prélevé du stock, s’il est disponible. Par conséquent, aucun ordre d’assemblage n’est automatiquement créé et n’est lié à la ligne commande vente. Toutefois, si une partie (ou la totalité) de la quantité n’est pas disponible, vous avez la possibilité de créer un ordre d’assemblage pour la quantité restante lorsque vous renseignez le champ **Quantité à assembler pour commande** de la ligne commande vente. De cette manière, vous pouvez assembler l’article à commander même s’il est configuré pour être assemblé pour stock par défaut.  

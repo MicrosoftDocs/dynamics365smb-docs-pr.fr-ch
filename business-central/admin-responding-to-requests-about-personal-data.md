@@ -2,18 +2,17 @@
 title: Réponse aux demandes relatives aux données personnelles
 description: Cette rubrique vous indique comment répondre aux demandes concernant les données personnelles. C’est ce qu’on appelle Demande du sujet des données.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
 ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: 77b1470ee7df736815451c03e4afbf684803aea4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0d1ead6fc36df5b06f9ab995bbc30ce04d24c622
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321977"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148865"
 ---
 # <a name="responding-to-requests-about-users-personal-data"></a>Réponse aux demandes relatives aux données personnelles de l’utilisateur  
 Les sujets des données peuvent demander plusieurs types d’actions concernant leurs données personnelles. Par exemple, en vertu du Règlement général sur la protection des données (RGPD), les résidents de l’UE ont le droit de demander l’exportation, la suppression et la modification de leurs données personnelles. Cela est appelé *Demande du sujet des données*. Si vous avez classé la sensibilité de vos données et que vous êtes sûr qu’elles sont correctes, un administrateur peut répondre aux demandes en utilisant les options de l’onglet **Confidentialité des données** dans le tableau de bord **Responsable informatique**. Pour plus d’informations sur la classification des données et la classification de la sensibilité des données dans [!INCLUDE[prod_long](includes/prod_long.md)], voir [Classification des données](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) et [Classification de la sensibilité des données](admin-classifying-data-sensitivity.md).  
@@ -34,8 +33,8 @@ Le tableau suivant donne des exemples des types de demandes auxquelles vous pouv
 ## <a name="restrict-data-processing-for-a-data-subject"></a>Restreindre le traitement des données pour un sujet des données
 Un sujet des données peut demander l’arrêt temporaire du traitement de ses données personnelles. Pour honorer ces demandes, vous pouvez marquer son enregistrement comme bloqué pour des raisons de confidentialité afin d’arrêter le traitement de ses données. Lorsqu’un enregistrement est marqué comme bloqué, vous ne pouvez pas créer des transactions qui utilisent cet enregistrement. Par exemple, vous ne pouvez pas créer une facture pour un client lorsque le client ou le vendeur est bloqué. Pour marquer un sujet des données comme bloqué, ouvrez la fiche correspondante, par exemple les fiches Client, Fournisseur ou Contact, puis activez la case à cocher **Confidentialité bloquée**. Vous devez peut-être choisir **Afficher plus** pour afficher le champ.  
 
-## <a name="handling-data-subject-requests-while-in-trial"></a>Gestion des demandes de sujets de données dans une version d’évaluation
-Certains types de données personnelles font partie de votre compte Microsoft 365 et nécessitent un accès administratif pour les exporter, si vous recevez une demande de sujet de données d’un utilisateur concernant ce type de données personnelles dans le cadre du Règlement général sur la protection des données (RGPD). Le processus de gestion des demandes de sujets de données diffère selon le type d’abonné [!INCLUDE[prod_short](includes/prod_short.md)].  
+## <a name="handling-data-subject-requests-while-in-trial"></a>Gestion des demandes de sujets de données dans une version d'évaluation
+Certains types de données personnelles font partie de votre compte Microsoft 365 et nécessitent un accès administratif pour les exporter, si vous recevez une demande de sujet de données d’un utilisateur concernant ce type de données personnelles dans le cadre du Règlement général sur la protection des données (RGPD). Le processus de gestion des demandes de sujets de données diffère selon le type d’abonné [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Si vous disposez d’un abonnement payant pour [!INCLUDE[prod_short](includes/prod_short.md)], vous devez contacter l’administrateur abonné de votre organisation pour faire une demande de sujet de données. L’administrateur dispose des droits et outils d’administration pour traiter votre demande.  
 

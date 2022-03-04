@@ -2,7 +2,6 @@
 title: Comment affecter des ressources | Microsoft Docs
 description: Vous pouvez modifier le montant annuel du contrat service ou du devis contrat afin de rectifier le montant qui sera facturé annuellement.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4b84f2521e0b1c9e6026975b42db20947821b0db
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba3571eac4e26646507db2c67f0c2f77207a4566
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436445"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143077"
 ---
 # <a name="allocate-resources"></a>Affecter des ressources
 Les personnes qui fournissent le service représentent l’élément clé de la gestion des services. Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour affecter les personnes aux tâches de manière appropriée. Vous pouvez baser les affectations sur les zones de service dans lesquelles les personnes sont situées ou dans lesquelles le service se produit. En outre, vous pouvez regrouper les ressources lors de la réponse aux demandes de service. Pour plus d’informations, voir [Configurer l’affectation des ressources](service-how-setup-resource-allocation.md).

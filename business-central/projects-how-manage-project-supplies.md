@@ -2,7 +2,6 @@
 title: Gérer les fournitures pour un projet
 description: Décrit les différentes façons de gérer l’approvisionnement et l’achat de matériel et de services pour les projets.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: project management, material, purchase
 ms.search.form: 98, 1020
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 54158c8d10dd85b9ac8243059e1dfdbfd299e882
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 07bdabc693434dec9139bba4a6eae1c31ca06a8b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971851"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146295"
 ---
 # <a name="manage-job-supplies"></a>Gérer les fournitures pour un projet
 La gestion des fournitures des projets relatifs à des articles, services et dépenses est l’un des aspects essentiels de l’exécution d’un projet. Vous pouvez utiliser les quantités de stock ou effectuer des achats spécifiques au projet en utilisant des commandes achat ou des factures achat. Par exemple, un projet de service sur un ordinateur requiert un nouveau disque. Vous devez donc créer une facture achat pour l’acheter et pour enregistrer le projet pour lequel il sera utilisé.

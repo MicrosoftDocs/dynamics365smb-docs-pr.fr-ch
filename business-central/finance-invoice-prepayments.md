@@ -2,7 +2,6 @@
 title: Facturation des acomptes
 description: Découvrez comment utiliser les acomptes pour facturer et collecter les acomptes requis des clients ou régler des acomptes aux fournisseurs dans Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 1a74a04f38669ab00e800b563ebd77796d08ef8f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 74f277ab22675cd490b136845a48062527469c05
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970495"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147715"
 ---
 # <a name="invoicing-prepayments"></a>Facturation d’acomptes
 

@@ -1,19 +1,18 @@
 ---
-title: 'Procédure : suivre des colis'
+title: Suivre des colis
 description: Utilisez le service de suivi des transporteurs sur Internet pour suivre les colis et suivre l’avancement d’une livraison.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.search.form: 103, 142, 800, 806
+ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752381"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334501"
 ---
 # <a name="track-packages"></a>Suivre des colis
 La plupart des Transporteurs fournissent un service web qui vous permet de suivre le statut de vos colis pendant leur livraison. Ces informations peuvent être utiles dans de nombreux processus d’entreprise, par exemple, lors de la prestation d’un service clientèle. Si vous utilisez certains de ces transporteurs, vous pouvez saisir certaines informations de base les concernant, puis utiliser leur service de suivi de livraison directement auprès des pages Expéditions ventes enregistrées, les Factures ventes enregistrées, les Avoirs ventes enregistrés et les Accusés de réception retours enregistrées. Pour plus d’informations, voir [Configurer des transporteurs](sales-how-to-set-up-shipping-agents.md). 

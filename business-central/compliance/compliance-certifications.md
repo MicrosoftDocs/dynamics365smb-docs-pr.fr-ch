@@ -2,7 +2,6 @@
 title: Certifications du service
 description: Ce contenu contient des informations sur les certifications relatives à Business Central, telles que les certifications et accréditations spécifiques à une région.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: c34c3843751fda22365479060fc979b2f14ea8f1
-ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
+ms.openlocfilehash: 643d8cbfcc4a17db468263aee72a12cb1237201c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6373202"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146867"
 ---
 # <a name="certifications"></a>Certifications
 

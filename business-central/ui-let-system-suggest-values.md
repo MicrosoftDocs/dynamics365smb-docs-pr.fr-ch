@@ -2,20 +2,19 @@
 title: Permettre à Business Central de suggérer des valeurs
 description: Pour éviter des calculs manuels et effectuer les tâches rapidement et précisément, vous pouvez configurer la saisie automatisée de données afin que Business Central renseigne les champs sélectionnés.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 39, 251, 981
+ms.search.form: 39, 251, 981, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c7aaa366a237e2196aaa8a6e376220e5d5794d87
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: a9250a206d21d472bbe3efac1b54f47a36e1d95b
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8100836"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335204"
 ---
 # <a name="letting-prod_short-suggest-values"></a>Laisser [!INCLUDE[prod_short](includes/prod_short.md)] suggérer des valeurs
 [!INCLUDE[prod_short](includes/prod_short.md)] peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même. Bien qu’une telle saisie de données automatisée soit toujours correcte, vous pouvez la modifier par la suite si vous le souhaitez.

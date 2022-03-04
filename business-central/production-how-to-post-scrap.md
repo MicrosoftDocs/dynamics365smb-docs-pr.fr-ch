@@ -2,7 +2,6 @@
 title: Valider le rebut manuellement
 description: Si le traitement produit un rebut, vous pouvez entrer ce rebut dans la feuille production. Remarquez que la quantité perte n’augmente pas la quantité produite.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000823
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d8fb54126741126e2316be39ccec94ad0cac0c4d
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 7b79c94ab93af9565bc9291c8bae846ca79a5e6d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970517"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135687"
 ---
 # <a name="post-scrap-manually"></a>Valider le rebut manuellement
 

@@ -2,18 +2,17 @@
 title: Ouverture des fichiers Business Central dans OneDrive
 description: Découvrez comment partager des données Business Central via OneDrive Entreprise.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 310ff52463a34e9c63ee20b52eaccdefdf1dd471
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 449fac4cf8d8a19caed8093019e9a804a08d1aaf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011454"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147205"
 ---
 # <a name="opening-business-central-files-in-onedrive"></a>Ouverture des fichiers Business Central dans OneDrive
 [!INCLUDE[prod_short](includes/prod_short.md)] facilite le stockage, la gestion et le partage de fichiers avec d’autres personnes via OneDrive Entreprise. Sur la plupart des pages où les fichiers sont disponibles, comme la Boîte de réception état ou les fichiers joints à des enregistrements, vous trouverez une action **Ouvrir dans OneDrive**.

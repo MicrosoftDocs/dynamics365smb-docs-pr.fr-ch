@@ -2,7 +2,6 @@
 title: Afficher les verrouillages base de données
 description: Découvrez comment afficher des informations sur les verrouillages de base de données client directement depuis l’interface client de Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 9511
 ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: 6fe59a57514225a0a03d45770df2329c63fda4af
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 0a2561eea331ffbaeb058dee2ee13caf0a82d18c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011746"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143701"
 ---
 # <a name="viewing-database-locks"></a>Affichage des verrouillages base de données
 

@@ -2,7 +2,6 @@
 title: Créer et modifier des présentations personnalisées pour les rapports et les documents
 description: Découvrez comment créer des présentations personnalisées qui vous permettent de personnaliser l’apparence d’un rapport lorsqu’il est consulté, imprimé ou enregistré.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3e16ff82492c3331be901c5be5d30de6d302787
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 0b4642f6ca4c7701cbb49e8441debccfbd32b9be
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101070"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134732"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Créer et modifier des présentations de rapport personnalisées
 
@@ -56,7 +55,7 @@ Lorsque des présentations de rapport personnalisées sont définies, vous pouve
 La présentation personnalisée a été créée. Vous pouvez à présent modifier la présentation personnalisée selon vos besoins.
 
 > [!TIP]
-> Vous pouvez exporter les résultats du rapport dans un fichier Excel pour afficher l’ensemble de données complet, y compris toutes les colonnes, mais sans la présentation. Le fichier Excel peut vous aider à valider que le rapport renvoie les données attendues ou les problèmes de diagnostic. Pour plus d’informations, consultez [Utiliser les états - Envoyer vers Excel](ui-work-report.md#send-to-excel).
+> Vous pouvez exporter les résultats du rapport dans un fichier Excel pour afficher l’ensemble de données complet, y compris toutes les colonnes, mais sans la présentation. Le fichier Excel peut vous aider à valider que le rapport renvoie les données attendues ou les problèmes de diagnostic. Pour plus d’informations, consultez [Analyse des données de rapport avec Excel](report-analyze-excel.md).
 
 ## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modification d’une présentation personnalisée
 

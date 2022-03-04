@@ -2,7 +2,6 @@
 title: 'Procédure pas à pas : gestion des projets'
 description: Cette procédure pas à pas vous présente les fonctionnalités de gestion de projet dans les tâches qui vous permettent de planifier l’utilisation des ressources de votre entreprise et plus encore.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4b4be8dfa382424258100973af0d0e647b21b0f6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d053e800a8a873f84d30a078e1b9776ca17129f5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439058"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142792"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procédure pas à pas : gestion des projets
 

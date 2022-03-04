@@ -2,7 +2,6 @@
 title: Comment annuler la validation d’assemblage
 description: Parfois vous avez besoin d’annuler un ordre d’assemblage validé, par exemple parce que la facture a été validée avec des erreurs qui doivent être corrigées.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 48c454084e850b5dedf58c499263258c0ae8294c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 245eaede4bce79fa3626d5a8a8d102b9c190ccaf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435359"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143779"
 ---
 # <a name="undo-assembly-posting"></a>Annuler la validation d’assemblage
 Vous pouvez parfois être amené à annuler un ordre d’assemblage validé, par exemple, si la commande a été validée avec des erreurs qui doivent être corrigées, ou parce qu’il n’aurait pas dû être validé en premier et doit être annulé.

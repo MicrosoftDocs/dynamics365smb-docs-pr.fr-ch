@@ -2,7 +2,6 @@
 title: 'Procédure : créer des ordres d’assemblage permanents | Microsoft Docs'
 description: Créez des commandes vente en cours pour les éléments d’assemblage personnalisés avant d’effectuer régulièrement les commandes vente réelles en fonction du contrat commande ouverte.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a62d2b1d84d1139a0e5472d8e95f1c87f13bfa6c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e565a07bf148043de47eab5cba4df5c76beceb5a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435484"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146953"
 ---
 # <a name="create-blanket-assembly-orders"></a>Création d’ordres d’assemblage permanents
 Vous pouvez utiliser la gestion nomenclature d’assemblage pour personnaliser un élément d’assemblage sur la demande d’un client au cours du processus de vente. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  

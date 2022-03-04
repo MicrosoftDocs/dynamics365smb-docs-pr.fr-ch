@@ -2,7 +2,6 @@
 title: Lignes vente et achat récurrentes standard
 description: Définissez des lignes vente et des lignes achat que vous utilisez fréquemment et les insérer dans des documents achat et vente pour remplir rapidement les lignes avec des informations standard.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9704d088a92ef2a7799eaccebee0fff3fc35bcfd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6039739825964ce059a4f76d1e92f32b581c60a7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440193"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144764"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Créer des lignes ventes et achat récurrentes
 Si vous devez souvent créer des lignes ventes et des lignes achat comportant des informations similaires, vous pouvez configurer des lignes standard que vous pouvez ensuite insérer dans les documents vente et achat, par exemple, pour les commandes de réapprovisionnement récurrentes.  

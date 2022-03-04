@@ -2,7 +2,6 @@
 title: Plusieurs contrats | Microsoft Docs
 description: Selon les accords de votre niveau de service avec un client, vous pouvez avoir à gérer un article de service sous plusieurs contrats de service.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f41946267dfb931feec83f6d592100a64226a32b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7cbff4ae7060a591cdba5ddf51f7a56dfb20aab7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770703"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142999"
 ---
 # <a name="multiple-contracts"></a>Plusieurs contrats
 Selon les accords de votre niveau de service avec un client, vous pouvez avoir à gérer un article de service sous plusieurs contrats de service.  

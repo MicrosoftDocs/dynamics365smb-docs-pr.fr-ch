@@ -2,7 +2,6 @@
 title: Créer des soldes ouverts feuille
 description: Les traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec des validations de feuille.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: ad338aaccb9bc912ff2861423e4ad3b170aa566d
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: de528dd08911b49f7bf09dc541615da93fd190cc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029103"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145050"
 ---
 # <a name="create-journal-opening-balances"></a>Créer des soldes ouverts feuille
 

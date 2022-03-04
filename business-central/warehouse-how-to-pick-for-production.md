@@ -2,7 +2,6 @@
 title: Prélever pour la production ou l’assemblage dans le stockage de base
 description: Lorsque l’entrepôt appelle un traitement de prélèvement sans appeler de traitement d’expédition, vous pouvez utiliser la page Prélèvement stock pour organiser et enregistrer le prélèvement des composants.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: c3827bb8ab272b38972c17d79933ce0aa187e32d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b824cec7e6169f20d3da6bf853828a103b3c2928
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445812"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144374"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Prélever pour la fabrication ou l’assemblage dans les configurations de stockage de base.
 Le mode de rangement de vos composants de prélèvement pour les ordres de fabrication ou d’assemblage dépend de la configuration du stockage en tant qu’emplacement. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).

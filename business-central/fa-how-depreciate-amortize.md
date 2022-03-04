@@ -2,7 +2,6 @@
 title: Déprécier ou amortir des immobilisations
 description: Vous devez définir comment vous allez déprécier ou amortir chacune de vos immobilisations, telles que les machines et l’équipement, tout au long de leur durée d’amortissement.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5610, 5611, 5659, 5660, 5663, 5619, 5666
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 54470439a7376f2bb3d22b357d9b5397588190a5
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 5381a1a70e5d1e86576378c8f18ebf90724241f9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029367"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145799"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Amortir des immobilisations
 L’amortissement permet de ventiler le coût des immobilisations, telles que les machines et le matériel, sur leur durée d’amortissement. Vous devez définir la méthode d’amortissement de chaque immobilisation.  

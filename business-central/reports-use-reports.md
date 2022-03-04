@@ -2,7 +2,6 @@
 title: Utiliser les rapports dans le travail quotidien
 description: Fournit une vue d’ensemble de toutes les fonctionnalités de Business Intelligence et de création de rapports prises en charge dans le produit Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
-ms.openlocfilehash: a85ba6d47600a4958ee2b46b47e0915097ec6a5b
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: e96ccd4ab5f64776379b7c70a0d7f58f5f56ce05
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8104321"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144868"
 ---
 # <a name="use-reports-in-daily-work"></a>Utiliser les rapports dans le travail quotidien
 

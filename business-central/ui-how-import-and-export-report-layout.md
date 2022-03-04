@@ -2,7 +2,6 @@
 title: Importer et exporter une disposition de rapport et de document
 description: Vous pouvez importer et exporter une présentation de rapport personnalisée existante sous forme de fichier depuis ou vers un emplacement sur votre ordinateur et le réseau.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb929e1e18d6e0711fd23ae12255220fdae1080d
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 03d92e13adc9208ec98eda57cfc1d6b6e93ab028
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101362"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148319"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importer et exporter des présentations de rapport personnalisées
 Vous pouvez importer et exporter une présentation de rapport personnalisée existante sous forme de fichier depuis ou vers un emplacement sur votre ordinateur et le réseau. Par exemple, vous pouvez exporter une présentation de rapport, puis envoyer le fichier à une autre personne pour modification. Cette personne peut ensuite apporter des modifications à la présentation et vous renvoyer le fichier pour que vous puissiez le réimporter.  

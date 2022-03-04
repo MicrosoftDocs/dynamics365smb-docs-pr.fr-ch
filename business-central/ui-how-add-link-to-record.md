@@ -2,7 +2,6 @@
 title: Ajouter des pièces jointes, des liens et des notes sur des enregistrements
 description: Joignez un lien hypertexte pointant vers un document ou un site Web à un enregistrement spécifique, tel qu’une fiche client ou un document.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 76829c832bfde71d46b2fa2a942aa68db9f5701a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: fb191de84dac161a6b3db95396e7f0b2b5f2ce40
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588795"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142869"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gérer les pièces jointes, les liens et les notes sur les fiches et les documents
 

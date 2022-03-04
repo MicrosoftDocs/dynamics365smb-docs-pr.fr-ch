@@ -2,18 +2,18 @@
 title: Envoyer des documents et des e-mails
 description: Vous pouvez définir le contenu à insérer dans le corps de l’e-mail, par exemple, un lien Paypal. Vous pouvez également joindre des documents aux e-mails.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: e39bd85451406bc835624183a5e65a45935a62ab
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588466"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334670"
 ---
 # <a name="send-documents-and-emails"></a>Envoyer des documents et des e-mails
 

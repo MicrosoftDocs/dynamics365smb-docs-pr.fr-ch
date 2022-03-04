@@ -2,7 +2,6 @@
 title: Préparation aux activités commerciales
 description: Décrit les guides de configuration assistée, les vidéos, les rubriques d’aide, et les pages à utiliser pour vous préparer à faire des affaires dans Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: b75381cd5153294ec65878c3e6726b9a3e4821de
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589147"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335047"
 ---
 # <a name="getting-ready-for-doing-business"></a>Préparation aux activités commerciales
 
@@ -94,6 +93,7 @@ En fonction de la migration de vos données, vous pouvez maintenant passer à la
 [Rechercher dans le volet d’aide](product-help-and-support.md#search-in-the-help-pane)  
 [Ressources pour l’Aide et le support](product-help-and-support.md)  
 [Site Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Migrer des données](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

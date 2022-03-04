@@ -2,7 +2,6 @@
 title: Statistiques service
 description: Obtenez un aperçu rapide du contenu et des statistiques des documents service comme les commandes, devis, factures ou avoirs, ainsi les lignes service spécifiques et les articles de service.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2d6d9cfd03971a7adec509babff9ad8cd90af4cb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438272"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142947"
 ---
 # <a name="viewing-service-statistics"></a>Affichage des statistiques service
 Vous pouvez utiliser des statistiques pour analyser les documents service et évaluer la bonne gestion de vos processus de service. Vous pouvez analyser les contrats de service, articles, devis, commandes, factures et avoirs en choisissant l’action **Statistiques**. Pour les articles et contrats de service, vous pouvez également utiliser les champs **Trendscape article de service** ou **Trendscape contrat** pour afficher un résumé des écritures comptables service pour un article de service spécifique.   

@@ -2,7 +2,6 @@
 title: Détails de conception – Évaluation stock
 description: Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: design, inventory, costing
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: b76d0ccdfce2ef69da4b49e4b4e143de5a61d23c
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 82b837475f12f402d3b534f1ae1063a56619d8c4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115135"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146685"
 ---
 # <a name="design-details-inventory-costing"></a>Détails de conception : coûts ajustés
 

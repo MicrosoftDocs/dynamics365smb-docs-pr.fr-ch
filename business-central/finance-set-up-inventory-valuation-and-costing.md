@@ -2,17 +2,16 @@
 title: Configuration de l’évaluation du stock
 description: Pour vous assurer que les coûts ajustés sont enregistrés correctement, vous devez configurer plusieurs champs et pages avant de commencer à effectuer des transactions article.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: fa04fa90e749434d6ccf19e10e1a7daa1a4eaba8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 8dd8b86e7ff07b9500c094bd2e570dbb6a371754
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6327154"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142096"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Configuration de l’évaluation du stock
 

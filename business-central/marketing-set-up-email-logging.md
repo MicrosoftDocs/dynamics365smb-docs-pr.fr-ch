@@ -2,7 +2,6 @@
 title: Config. identifiant messagerie | Microsoft Docs
 description: Apprenez à transformer les interactions de messagerie entre les vendeurs et les clients en véritables opportunités de vente.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c1e47dba1c10b994cb43c21afbfdd548f85c774b
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 2abc0406fa8e86646d2382a4c7bbb1e228439728
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482362"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148423"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Suivre les échanges de messages électroniques entre les vendeurs et les contacts
 
@@ -31,7 +30,7 @@ Ensuite, vous connectez [!INCLUDE[prod_short](includes/prod_short.md)] à Exchan
 
 Commencez avec la connexion à la messagerie en deux étapes :
 
-1. Connectez [!INCLUDE[prod_short](includes/prod_short.md)] à Exchange Online pour votre abonnement Microsoft 365. Exchange Online gère vos e-mails. Nous avons facilité cette étape en fournissant un guide de configuration assisté. Vous avez juste besoin de vos identifiants d’administrateur pour votre compte d’administrateur dans Microsoft 365. Pour commencer le guide, accédez à la page **Configuration assistée**, puis sélectionnez le guide **Configurer la journalisation des emails**.  
+1. Connectez [!INCLUDE[prod_short](includes/prod_short.md)] à Exchange Online pour votre abonnement Microsoft 365. Exchange Online gère vos e-mails. Nous avons facilité cette étape en fournissant un guide de configuration assisté. Vous avez juste besoin de vos identifiants d’administrateur pour votre compte d’administrateur dans Microsoft 365. Pour commencer le guide, accédez à la page **Configuration assistée**, puis sélectionnez le guide **Configurer la journalisation des emails**.  
 
 2. Assurez-vous que des adresses électroniques valides ont été entrées dans [!INCLUDE[prod_short](includes/prod_short.md)] pour vos commerciaux et vos contacts, selon qu’ils sont des clients potentiels ou existants. Pour ce faire, pour chaque client ou vendeur, ouvrez la fiche **Contact** ou **Vendeur/Acheteur** et regardez le champ **E-mail**.
 

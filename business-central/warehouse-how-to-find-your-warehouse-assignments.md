@@ -2,7 +2,6 @@
 title: Comment trouver vos affectations d’entrepôt
 description: Cette rubrique explique comment rechercher les affectations d’entrepôt qui vous sont affectées sur la page Fiche article lorsque des instructions ont été créées pour vous.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6c861ed1f068d6381d99ef0761244befd08ba43a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5fe603b5cb2499c4b74e29725ee1747219d37e27
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444145"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141992"
 ---
 # <a name="find-your-warehouse-assignments"></a>Trouver vos affectations d’entrepôt
 Pour rechercher les affectations entrepôt, ouvrez la page correspondant à une article sélectionné. Si des instructions entrepôt ont été créées, les lignes Prélever et Emplacement sont visibles, et vous pouvez commencer à utiliser une affectation. Dans certains entrepôts, le responsable peut affecter des instructions propres à chaque magasinier. Pour plus d’informations, voir [Configurer des employés d’entrepôt](warehouse-how-to-set-up-warehouse-employees.md).

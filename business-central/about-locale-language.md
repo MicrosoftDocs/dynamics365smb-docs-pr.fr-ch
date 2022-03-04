@@ -2,20 +2,20 @@
 title: Multilingue et localisation
 description: Découvrez comment la langue et la région influencent votre expérience dans Business Central. Modifier la langue de l’interface utilisateur dans Mes paramètres.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 5187d4f98360d7cf43300f86eda9e99dcbda4063
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588416"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323152"
 ---
 # <a name="changing-language-and-region"></a>Modification de la langue et de la région
 
@@ -26,9 +26,9 @@ Par exemple, si vous utilisez la version canadienne de [!INCLUDE[prod_short](inc
 Pour modifier la langue de l’interface utilisateur, accédez à la page **Mes paramètres**. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> Le choix des langues sera réinitialisé à votre réglage sur votre profil Microsoft 365 si votre administrateur synchronise les utilisateurs de Microsoft 365 à [!INCLUDE[prod_short](includes/prod_short.md)].
+> Le choix des langues sera réinitialisé à votre réglage sur votre profil Microsoft 365 si votre administrateur synchronise les utilisateurs de Microsoft 365 à [!INCLUDE[prod_short](includes/prod_short.md)].
 
-La modification des textes stockés sous forme de données d’application n’appartient pas à la fonctionnalité multilingue. C’est une question de conception de l’application. Il s’agit par exemple de textes tels que le nom des articles du stock ou les commentaires concernant un client. En d’autres termes, ces types de texte ne sont pas traduits.  
+La modification des textes stockés sous forme de données d'application n'appartient pas à la fonctionnalité multilingue. C’est une question de conception de l’application. Il s’agit par exemple de textes tels que le nom des articles du stock ou les commentaires concernant un client. En d’autres termes, ces types de texte ne sont pas traduits.  
 
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] ne prend en charge qu’un jeu de caractères unique pour les données. Aussi, il se peut que certains caractères ne soient pas pris en charge dans votre environnement et vous pouvez rencontrer des problèmes de récupération des données saisies à l’aide d’un autre jeu de caractères. Par exemple, votre environnement peut ne prendre en charge que les caractères anglais et russes, et si vous entrez des données dans une autre langue, elles peuvent ne pas être stockées correctement. Vous devez contacter votre administrateur système pour connaître les langues prises en charge pour votre client [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -36,7 +36,7 @@ La modification des textes stockés sous forme de données d’application n’a
 ## <a name="changing-your-region-setting"></a>Modification de votre paramètre de région
 La région diffère des exigences linguistiques et légales des marchés locaux. La région détermine la manière dont vos données s’affichent en termes de séparateur de virgule, aligné à gauche ou à droite, et certains autres paramètres. La région détermine également certains éléments du système dans le navigateur, par exemple l’action permettant de créer un élément dans une liste.  
 
-Vous pouvez modifier la région dans l’onglet du navigateur que vous utilisez pour travailler dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les modifications ne s’appliquent qu’à vous et non aux autres utilisateurs de votre société.  Le choix de la région sera réinitialisé à votre réglage sur votre profil Microsoft 365 si votre administrateur synchronise les utilisateurs de Microsoft 365 à [!INCLUDE[prod_short](includes/prod_short.md)].
+Vous pouvez modifier la région dans l’onglet du navigateur que vous utilisez pour travailler dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les modifications ne s’appliquent qu’à vous et non aux autres utilisateurs de votre société.  Le choix de la région sera réinitialisé à votre réglage sur votre profil Microsoft 365 si votre administrateur synchronise les utilisateurs de Microsoft 365 à [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]  
 > Lorsque vous modifiez la région, une longue liste de langues et de régions s’affiche. Cependant, la langue n’est pas influencée par le choix de la région.  

@@ -2,7 +2,6 @@
 title: Utiliser les états Power BI dans Business Central| Microsoft Docs
 description: Obtenir des informations, des informations décisionnelles et des indicateurs de performance clés à partir de vos données Business Central avec Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dbe5b2b5fd623d37f144a07b6570f6ee0714f9b9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 54271ce12ed5b71266511a85ab7a10516092be36
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588341"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147179"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Utilisation d’états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)]
 

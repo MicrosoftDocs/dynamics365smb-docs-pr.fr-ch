@@ -1,21 +1,21 @@
 ---
-title: Créer des rapports d’analyse| Microsoft Docs
+title: Créer des rapports d’analyse
 description: Décrit comment créer de nouveaux rapports d’analyse pour les ventes, les achats et le stock, et configurer des modèles d’analyse.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f8454b9427398dcd95df914ffb9596bf0318f9ba
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d874c55108a985cd4076e2bbcc8eec53287db008
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437066"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335515"
 ---
 #  <a name="create-analysis-reports"></a>Créer des rapports d’analyse
 Les directeurs des ventes doivent analyser de manière régulière les rotations, la marge bénéficiaire brute et d’autres indicateurs de performance des ventes clés. Les acheteurs, eux, s’intéressent plutôt à la dynamique des volumes d’achat, des performances des fournisseurs et des prix d’achat. Par ailleurs, les gestionnaires des stocks et directeurs de la logistique ont besoin d’informations sur la rotation des stocks, d’une analyse des mouvements de stock et de statistiques sur la valeur du stock.  

@@ -2,7 +2,6 @@
 title: Tracer des articles - Articles suivis
 description: Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le moment de réception, de production ou de retour avec les fonctionnalités de traçabilité et de recherche des écritures.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cd9ca9b1b3aac2f1c531090342d5c43bfa64943e
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 6592172331b92c1e0b6623c36c5531b4a32b5088
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059897"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148553"
 ---
 # <a name="trace-item-tracked-items"></a>Tracer des articles - Articles suivis
 Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le moment de réception ou de production, de transfert, de vente, de consommation ou de retour. Vous pouvez également rechercher toutes les instances d’informations d’un numéro de série ou de lot particulier dans la base de données. Vous procédez à l’aide des fonctionnalités Traçabilité et [Rechercher des écritures](ui-find-entries.md).  

@@ -2,20 +2,20 @@
 title: Exploration et navigation de pages par rôle
 description: Vous pouvez obtenir une vue d’ensemble de toutes les fonctionnalités métier disponibles pour votre rôle et pour d’autres rôles.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: role explorer, find features, navigate
+ms.search.form: 9020, 9022, 9027, 9018
 ms.date: 08/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ba09bdcb19e65b317737412fa97403bef417e2c6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 485018e4a15f3e8ecb7c19f365d6dd6d06650cdb
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588947"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322919"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Recherche de pages avec l’explorateur de rôles
 

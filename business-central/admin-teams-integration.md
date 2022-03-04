@@ -2,7 +2,6 @@
 title: Gestion de l’intégration de Microsoft Teams avec Business Central | Microsoft Docs
 description: Gérez l’intégration Business Central avec Microsoft Teams.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7fef0f2ffe23155e840fa89a62b1822fee1efd35
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589097"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147049"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Gestion de l’intégration de Microsoft Teams à [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -120,13 +119,13 @@ Vous empêchez des utilisateurs ou groupes spécifiques d’envoyer des fiches �
 
 Vous pouvez également utiliser des barrières d’information pour empêcher des individus ou des groupes de communiquer entre eux. Pour en savoir plus, consultez [Barrières d’information dans Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Les fonctionnalités de prévention de la perte de données dans le centre de sécurité et de conformité Microsoft 365 ne peuvent pas être appliquées spécifiquement aux fiches. Mais ils peuvent être appliqués aux messages de discussion contenant les fiches. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
+Les fonctionnalités de prévention de la perte de données dans le centre de sécurité et de conformité Microsoft 365 ne peuvent pas être appliquées spécifiquement aux fiches. Mais ils peuvent être appliqués aux messages de discussion contenant les fiches. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### <a name="responding-to-data-requests"></a>Répondre aux demandes de données
 
 Vous autorisez les membres de l’équipe et les propriétaires d’équipe à supprimer les messages contenant des cartes sensibles en configurant des stratégies de messagerie, telles que : **Les propriétaires peuvent supprimer les messages envoyés** et **Les utilisateurs peuvent supprimer les messages envoyés**. Pour plus d’informations, consultez [Gérer les stratégies de messagerie dans Teams](/microsoftteams/messaging-policies-in-teams).
 
-Les fonctionnalités de recherche de contenu et de conformité à eDiscovery dans le centre de sécurité et de conformité Microsoft 365 peuvent également être appliquées aux fiches.
+Les fonctionnalités de recherche de contenu et de conformité à eDiscovery dans le centre de sécurité et de conformité Microsoft 365 peuvent également être appliquées aux fiches.
 
 Parce que les données de la fiche dans Teams sont une copie des données dans [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez aussi utiliser les fonctionnalités [!INCLUDE [prod_short](includes/prod_short.md)] pour exporter les données d’un client si demandé. Pour plus d’informations sur la confidentialité dans [!INCLUDE [prod_short](includes/prod_short.md)], voir [FAQ sur la confidentialité pour les clients Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

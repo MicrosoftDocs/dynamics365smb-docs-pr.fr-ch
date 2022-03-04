@@ -2,19 +2,18 @@
 title: À propos du calcul des coûts standard
 description: Un système de coûts standard détermine le coût unitaire du stock en fonction d’un coût historique ou prévu plausible.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: 6b0b531c1a41d2f19941578f8f381d56e554cb96
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973715"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149168"
 ---
 # <a name="about-calculating-standard-cost"></a>À propos du calcul des coûts standard
 De nombreuses sociétés manufacturières sélectionnent une base d’évaluation du coût standard. Ceci est également vrai pour les sociétés qui effectuent une fabrication légère, comme l’assemblage et le montage. Un système de coûts standard détermine le coût unitaire du stock en fonction d’un coût historique ou prévu plausible. L’analyse des données précédentes et futures en termes de coût peut alors offrir une base pour l’estimation des coûts standard. Ces coûts sont gelés tant que leur modification n’est pas décidée. Le coût réel lié à la production d’un produit peut varier par rapport aux coûts standard estimés. À des fins de contrôle de gestion, le coût réel est comparé au coût standard pour un article spécifique et les différences, ou *écarts*, sont identifiées et analysées.  

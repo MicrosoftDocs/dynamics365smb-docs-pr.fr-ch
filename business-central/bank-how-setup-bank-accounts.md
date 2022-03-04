@@ -2,7 +2,6 @@
 title: Configurer des comptes bancaires (contient une vidéo)
 description: Découvrez comment les comptes bancaires sont utilisés dans Business Central et comment vous pouvez rapprocher les montants avec votre banque.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 816b46e859fb4125c93346243f57f88b5f941a70
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 49ddd48a03c8abe9ea9b396bebc4328e2be30104
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029289"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143753"
 ---
 # <a name="set-up-bank-accounts"></a>Configuration des comptes bancaires
 

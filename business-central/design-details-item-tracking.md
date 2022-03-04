@@ -2,7 +2,6 @@
 title: 'Détails de conception : traçabilité'
 description: Le système de suivi des articles permet de gérer facilement les numéros de série et de lot, qui peuvent être nécessaires pour répondre aux exigences légales ou aider à la gestion de la garantie.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 788d003324ccf7314d316f201cc561e0a2877933
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 55e8463e788e222265a0ec837196c55726caf53e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320304"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146633"
 ---
 # <a name="design-details-item-tracking"></a>Détails de conception : traçabilité
 Étant donné que le flux de biens dans la chaîne d’approvisionnement moderne devient de plus en plus complexe, la capacité à effectuer le suivi des articles est de plus en plus importante pour les sociétés concernées. La surveillance du flux de transaction d’un article est une obligation légale dans le secteur de l’approvisionnement médical et chimique, mais d’autres sociétés peuvent souhaiter contrôler les produits avec des garanties ou des dates d’expiration pour des raisons de service client.  

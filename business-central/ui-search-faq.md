@@ -2,20 +2,20 @@
 title: Foire aux questions sur la fonction Tell Me
 description: Cet article fournit des réponses aux questions que nos partenaires et clients posent souvent sur la fonction Tell Me.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 20493ffc3dd20da07d5f27602f4c766a0ebfbd87
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 13605b6188f9aa2c30a82cbb8216d8419a711d31
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325878"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334729"
 ---
 # <a name="tell-me-faq"></a>FAQ Tell Me
 Cette rubrique répond aux questions que nos utilisateurs expérimentés posent souvent à propos de la fonctionnalité Tell Me.

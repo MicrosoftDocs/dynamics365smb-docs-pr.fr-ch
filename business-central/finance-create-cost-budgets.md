@@ -2,7 +2,6 @@
 title: Création des budgets des coûts
 description: Cette rubrique décrit l’emplacement où créer et analyser les budgets des coûts. La budgétisation en comptabilité analytique ressemble à la budgétisation en comptabilité générale.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9b69af67128492122bb6d8ceada51572a5ab6e33
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: d64704caee7c808cd2197adf2994a7b1abb4ea7f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970690"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145695"
 ---
 # <a name="creating-cost-budgets"></a>Création des budgets des coûts
 

@@ -2,7 +2,6 @@
 title: Rapprochement des comptes bancaires et lettrage des paiements
 description: Décrit les tâches de rapprochement de vos comptes bancaires, client, et fournisseur, valider des règlements ou des frais, et lettrer des paiements automatiquement.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1291, 1293, 1294
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12da473253ff3c494ec2c63e4fbfc32aedd5d1f9
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 9eb37571da51c0bab1fed0f6f62170208e7ee8c6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101232"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146191"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Lettrage automatique des paiements et rapprochement des comptes bancaires
 Vous devez régulièrement rapprocher vos comptes bancaires, créances client et créances fournisseur en lettrant les paiements enregistrés au niveau de la banque à leurs factures impayées et avoirs associés ou à d’autres écritures ouvertes dans [!INCLUDE[prod_short](includes/prod_short.md)].  

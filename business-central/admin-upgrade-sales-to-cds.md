@@ -2,7 +2,6 @@
 title: Mise à niveau d’une intégration à Dynamics 365 Sales
 description: Cette rubrique vous décrit la procédure de mise à niveau de votre intégration Dynamics 365 Business Central vers la dernière version de Dynamics 365 Sales.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: c6405326890b8f33b399f880e54d0fcf14db1650
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 977238383e7f4e4745e48a1966fe7714125406eb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543035"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148813"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Mise à niveau d’une intégration à Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] s’intègre à [!INCLUDE[prod_short](includes/cds_long_md.md)], ce qui facilite la connexion et la synchronisation des données avec d’autres applications Dynamics 365 telles que [!INCLUDE[crm_md](includes/crm_md.md)], voire des applications que vous créez vous-même. S’il s’agit de votre toute première intégration, nous vous recommandons de l’effectuer au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Pour en savoir plus, consultez [Intégration à Dataverse](admin-common-data-service.md).

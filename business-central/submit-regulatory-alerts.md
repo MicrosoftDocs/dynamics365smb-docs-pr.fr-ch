@@ -2,18 +2,17 @@
 title: Soumettre des alertes de réglementation
 description: Si vous connaissez la nouvelle législation que vous pensez nécessite la prise en charge de la fonctionnalité Business Central, vous pouvez suivre ce guide pour envoyer une alerte réglementaire à l’équipe produit.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 7601f1bef58ed914385957ef70ad8b924c4499a0
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319996"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335125"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Envoyer des alertes sur les fonctionnalités de réglementaires spécifiques au pays/à la région
 
@@ -21,7 +20,7 @@ Nous vous invitons à utiliser Microsoft Dynamics Lifecycle Services (LCS) pour 
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Pour envoyer une alerte de réglementation dans LCS
 
-1. Accédez à https://lcs.dynamics.com et ouvrez une session.  
+1. Accédez à [https://lcs.dynamics.com](https://lcs.dynamics.com) et connectez-vous  
 
     Les projets accessibles vous seront présentés
 

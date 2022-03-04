@@ -2,7 +2,6 @@
 title: 'Détails de conception : ajustement des coûts'
 description: L’ajustement des coûts transfère les changements depuis les coûts des sources de coût aux destinataires de coût, selon le mode évaluation stock d’un article, pour fournir une évaluation du stock correcte.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 4fdf131d9f32940ed3b909c4bc98a1516f44bf64
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5783647c4e70debce32bbb0ca3976efea78ec065
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442475"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143727"
 ---
 # <a name="design-details-cost-adjustment"></a>Détails de conception : ajustement des coûts
 

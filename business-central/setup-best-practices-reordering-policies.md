@@ -2,7 +2,6 @@
 title: 'Pratiques de configuration recommandées : méthodes de réapprovisionnement | Microsoft Docs'
 description: Sur les fiches article, le champ Méthode réapprovisionnement propose quatre méthodes de planification différentes qui déterminent le mode d’interaction de chacun des paramètres de planification.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e6c76729d5b8ecf2a42b0b749a951ee05cef96f3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441462"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142895"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Pratiques de configuration recommandées : méthodes de réapprovisionnement
 Sur les fiches article, le champ **Méthode réapprovisionnement** propose quatre méthodes de planification différentes qui déterminent le mode d’interaction de chacun des paramètres de planification.  

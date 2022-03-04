@@ -2,7 +2,6 @@
 title: Utilisation des systèmes de saisie automatisée (ADCS)
 description: Vous pouvez utiliser votre système de saisie automatique des données (ADCS) pour enregistrer le mouvement des articles dans l’entrepôt et pour enregistrer certaines activités du journal.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: barcode
 ms.search.form: 7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: da293a02360dced863687fc37f87a668eed91284
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 88f0fdefa640cb96316e0958279513211f6abf4d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115187"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144270"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilisation des systèmes de saisie automatisée (ADCS)
 

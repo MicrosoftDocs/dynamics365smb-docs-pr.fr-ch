@@ -2,7 +2,6 @@
 title: Analyse des données de rapport avec Excel
 description: Découvrez comment utiliser Excel pour analyser un jeu de données de rapport.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.date: 02/09/2022
 ms.author: jswymer
-ms.openlocfilehash: 60b28db92c6788b67aa1c290df800551515f1be7
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: f3996c051eed69974de9511aa570f232e44764fa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8104470"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145487"
 ---
 # <a name="analyzing-report-data-with-excel"></a>Analyse des données de rapport avec Excel
 
