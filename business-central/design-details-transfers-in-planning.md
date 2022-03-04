@@ -2,7 +2,6 @@
 title: Détails de conception - Transferts de planification | Microsoft Docs
 description: Cette rubrique décrit comment utiliser des ordres de transfert comme source d’approvisionnement lors de la planification des niveaux de stock.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d2c51e5851fec0c451c058fcb7330ce456d4525c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e937c6f261c3fe2249a066b9c3f8819424f3d2f0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439600"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141296"
 ---
 # <a name="design-details-transfers-in-planning"></a>Détails de conception : transferts de planification
 Les ordres de transfert sont également une source d’approvisionnement lorsque vous travaillez au niveau des points de stock. Lors de l’utilisation de plusieurs magasins (entrepôts), le système de réapprovisionnement de point de stock peut être défini sur Transfer, ce qui implique que le magasin est réapprovisionné en transférant des biens d’un autre magasin. Dans une situation avec plusieurs entrepôts, les sociétés peuvent avoir une chaîne de transferts où l’approvisionnement vers le magasin VERT est transféré à partir du magasin JAUNE, l’approvisionnement vers JAUNE est transféré depuis ROUGE et ainsi de suite. Au début de la chaîne, il existe un système de réapprovisionnement d’Ordre de fabrication ou d’achat.  

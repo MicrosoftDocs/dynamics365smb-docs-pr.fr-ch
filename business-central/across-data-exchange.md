@@ -2,7 +2,6 @@
 title: Documents électroniques dans Business Central
 description: Il s’agit d’une vue d’ensemble de la manière d’utiliser l’infrastructure d’échange de données pour gérer les échanges des données dans des documents commerciaux tels que des fichiers bancaires et des taux de change devise.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 83a210cc41c720a1a92aa907697626c0d3dd0cd8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588391"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141738"
 ---
 # <a name="exchanging-data-electronically"></a>Échanger des données par voir électronique
 Vous pouvez utiliser l’infrastructure d’échange de données pour gérer les échanges des documents commerciaux, des fichiers bancaires, des taux de change devise et tous les autres fichiers de données avec vos partenaires commerciaux.

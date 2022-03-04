@@ -2,7 +2,6 @@
 title: Effectuer le suivi des articles avec les numéros lot, de série et paquet
 description: Vous pouvez ajouter des numéros de série, lot et de paquet à n’importe quel document sortant ou entrant, puis afficher les écritures traçabilité validées dans les écritures comptables articles correspondantes.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550,
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: 77f8634de4d35c2b8a1d3df240dfc850c25546ec
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 644b21b887d622c4ece3b3354de227cb4a1d89c5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060238"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141010"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Effectuer le suivi des articles avec les numéros lot, de série et paquet
 

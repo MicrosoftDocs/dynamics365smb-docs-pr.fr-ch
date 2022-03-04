@@ -2,7 +2,6 @@
 title: Envoyer les déclarations de TVA aux autorités fiscales
 description: Apprendre à préparer les déclarations qui répertorient la TVA des ventes au cours d’une période, ou à partir des ventes et achats, et envoyer la déclaration à l’administration fiscale.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0c041f2af2e59a8ed8be77a8d2eb029e48cb8258
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 11d9b165c598cbb17f870044763e8b0bdca1723b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059967"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141193"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Déclarer la TVA aux autorités fiscales
 

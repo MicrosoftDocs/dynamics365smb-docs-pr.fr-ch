@@ -2,7 +2,6 @@
 title: Expériences de comptables dans Business Central (contient une vidéo)
 description: En savoir plus sur le Tableau de bord Comptable pour le Hub Entreprise qui prennent en charge les comptables internes et externes de la société du client.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9d4c7884ead0b7821556c1db410f0fe06ea5aeff
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 0f6594ae1e23f4047ff2bd8e44945eaf4284940c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029471"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142304"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Expériences de comptable dans [!INCLUDE[prod_long](includes/prod_long.md)]
 

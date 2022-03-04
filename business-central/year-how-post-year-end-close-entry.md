@@ -2,18 +2,17 @@
 title: Valider l’écriture de clôture d’exercice
 description: Décrit comment ouvrir la feuille spécifiée dans le traitement par lots Clôturer exercice comptable, puis examiner et valider l’écriture de clôture de fin d’exercice.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6290bf334e3b309f1b4ed3eec426e6b3f60d6041
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: d426dc74506a244746d8696dc12f80a0ada3a58e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971773"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142713"
 ---
 # <a name="posting-the-year-end-closing-entry"></a>Validation de l’écriture de clôture d’exercice
 

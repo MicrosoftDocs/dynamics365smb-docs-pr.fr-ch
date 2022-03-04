@@ -2,7 +2,6 @@
 title: Configurer une déclaration de TVA
 description: Cette rubrique vous explique comment configurer un modèle de déclaration de TVA et des noms de déclaration de TVA pour répondre aux exigences en pleine évolution de l’administration fiscale.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8243d846124a615ba6f5368967971c3b3d900919
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: c701813e596bb217cf6601091d55c528cf1ee2e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970611"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142226"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Paramétrer des modèles de déclaration de TVA et des noms de déclaration de TVA
 

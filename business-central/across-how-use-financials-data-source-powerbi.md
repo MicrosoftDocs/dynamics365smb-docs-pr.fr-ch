@@ -2,7 +2,6 @@
 title: Créer des états Power BI Desktop pour afficher des données Business Central | Microsoft Docs
 description: Vous pouvez rendre vos données disponibles sous forme de source de données dans Power BI et créer des rapports puissants sur l’état de votre activité.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: db872c8049550a497e2ee56a4a62bb69fa6a1854
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.openlocfilehash: 471847e62911ba1dc274a0d02ffbd66968d0b7ca
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049863"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141582"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Créer des états Power BI pour afficher des données [!INCLUDE [prod_long](includes/prod_long.md)]
 

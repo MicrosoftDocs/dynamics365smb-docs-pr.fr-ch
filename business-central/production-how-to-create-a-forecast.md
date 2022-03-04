@@ -2,7 +2,6 @@
 title: Créer une prévision de la demande
 description: Découvrez les fonctionnalités de prévision de la demande et comment créer des prévisions de vente et de production.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 9245, 99000919, 99000921, 99000922
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: f966b73f4917bf803c0f8c4c92eefcd222aeeea7
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 2992aaf0d28f6d46bdd942465659760f0622ac0b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971394"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140958"
 ---
 # <a name="create-a-demand-forecast"></a>Créer une prévision de la demande
 
