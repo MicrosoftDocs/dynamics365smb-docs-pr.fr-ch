@@ -2,7 +2,6 @@
 title: Analyser les données dans Business Intelligence Tools
 description: Fournit une vue d’ensemble de la façon dont les outils de veille économique externes peuvent interagir avec les données de Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
-ms.openlocfilehash: f9690872886ee0ad2e846401bd7e13b2b3250599
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 498b0e43a6858d1729f0828c34f7917fe7a4ab9a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8104434"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130217"
 ---
 # <a name="analyze-data-in-business-intelligence-tools"></a>Analyser les données dans Business Intelligence Tools
 

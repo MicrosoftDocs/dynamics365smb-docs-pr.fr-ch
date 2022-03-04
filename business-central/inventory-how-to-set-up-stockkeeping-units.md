@@ -2,7 +2,6 @@
 title: Comment configurer des points de stock
 description: Vous pouvez utiliser des points de stock pour enregistrer des informations relatives à vos articles pour un code magasin ou variante donné.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1a7314d228eef2ff45c7aaf4e3784290f9b17113
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 92be2a9cf0a3ef176d4f3fe1c51ec5543c30bca5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059427"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131550"
 ---
 # <a name="set-up-stockkeeping-units"></a>Configurer des points de stock
 Vous pouvez utiliser des points de stock pour enregistrer des informations relatives aux articles pour un code magasin ou variante.  

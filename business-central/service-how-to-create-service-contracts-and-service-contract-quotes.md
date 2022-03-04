@@ -2,7 +2,6 @@
 title: Comment utiliser des contrats de service et des devis contrat de service | Microsoft Docs
 description: Vous pouvez créer un contrat de service manuellement ou à partir d’un devis contrat de service. Vous pouvez créer un contrat en fonction d’un devis contrat de service.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d011b97c81492af0ac796d08693084cf65bb7712
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0a9e90f19584e3586bac0cc80dac3b2cc0d9ce74
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436391"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134914"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utiliser des contrats de service et des devis contrat de service
 Vous pouvez créer un contrat de service manuellement ou à partir d’un devis contrat de service. Vous pouvez utiliser un devis contrat de service en tant qu’étape préliminaire d’un contrat de service, dans laquelle votre société fait une offre au client et qui nécessite d’obtenir l’approbation du client pour pouvoir être convertie en contrat de service. Les procédures de création d’un contrat de service ou d’un devis contrat de service sont identiques.  

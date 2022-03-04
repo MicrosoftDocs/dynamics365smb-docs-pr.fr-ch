@@ -2,7 +2,6 @@
 title: Statut commande service et statut réparation
 description: Le statut commande service reflète l’état réparation de tous les articles de service de la commande service.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 88596c87cf255a52dcb49cdd0295822152b22928
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 09de6fa5eeb88e03935224d232bdffa1e1c8bce6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322967"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139224"
 ---
 # <a name="service-order-status-and-repair-status"></a>Statut commande service et statut réparation
 

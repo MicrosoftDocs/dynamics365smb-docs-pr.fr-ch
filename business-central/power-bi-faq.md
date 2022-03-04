@@ -2,7 +2,6 @@
 title: FAQ Power BI
 description: Obtenez des réponses à certaines questions courantes sur l’utilisation de Power BI et de Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 3727faf800bf6ecf326009588eb3e1588a1bcfc3
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.openlocfilehash: 1c0a19a9739ab537b6a5df562484d2d9d6f8e3a6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049447"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137668"
 ---
 # <a name="power-bi--faq"></a>FAQ Power BI
 

@@ -2,7 +2,6 @@
 title: Clôturer un exercice comptable et des périodes comptables
 description: Décrit les tâches permettant de clôturer un exercice fiscal ou une période comptable, par exemple, en vérifiant que les documents et les feuilles sont validés et en vérifiant les soldes bancaires.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3faa427363d2d30ce387bbfe911f320064d3276a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: f5edc0985c9397aa15bd01ec590d6e35324f5ace
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971799"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129411"
 ---
 # <a name="closing-years-and-periods"></a>Clôture des exercices et des périodes
 

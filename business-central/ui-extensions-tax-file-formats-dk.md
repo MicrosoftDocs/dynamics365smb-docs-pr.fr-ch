@@ -4,7 +4,6 @@ description: L’extension des formats de fichier fiscal facilite l’exportatio
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: e6a1b4794593534639109f002447f61d85ea14e8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b65d1ee627f4b6c440e1e0f1150fd0ecbdbedc43
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326603"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129879"
 ---
 # <a name="the-tax-file-formats-dk-extension"></a>Extension Formats de fichier fiscal (DK)
 Si vous avec des transactions commerciales avec des sociétés, des branches internes ou des filiales situées dans d’autres pays de l’UE, vous devez déclarer les informations concernant ces activités au SKAT et à l’Office des statistiques du Danemark. Si vous utilisez les fonctionnalité de déclaration de TVA et d’état intracommunautaire de [!INCLUDE[prod_short](includes/prod_short.md)], cette extension vous donne la garantie que le fichier que vous exportez est compatible avec les exigences de ces organisations. L’extension ajoute les codeunits de soumission des lignes d’exportation intracommunautaire et du fichier d’exportation de la déclaration MS-ECSL à la configuration de votre déclaration de TVA, de sorte que vous pouvez exporter les données au nouveau format immédiatement.

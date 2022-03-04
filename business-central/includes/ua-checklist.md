@@ -1,14 +1,13 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8a1f49849d6f1b5ef592b2b74125c5e93174c1e6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 1caf3249c217987cf276d77d6cdc610084349bdb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588441"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128696"
 ---
 La liste de contrôle **Démarrer** peut vous aider à mettre en place des informations clés.  

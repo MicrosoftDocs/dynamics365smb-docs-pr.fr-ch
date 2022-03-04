@@ -1,14 +1,13 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4d884d9feaf01f31fe3a46fceae78cba699f6a34
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 3e7660b788c0c11a551a4e89a511b03a163d0538
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589701"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135304"
 ---
 > **S’APPLIQUE À :** Business Central Online (2e vague de lancement 2021 et ultérieures)

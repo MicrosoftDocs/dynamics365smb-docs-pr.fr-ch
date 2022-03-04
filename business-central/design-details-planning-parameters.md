@@ -2,7 +2,6 @@
 title: Détails de conception - Paramètres de planification
 description: Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser et comment ils affectent le système de planification.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: planning, design
 ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: d6598583ad118961fc15c7257e5207c3024e20e7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649827"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131992"
 ---
 # <a name="design-details-planning-parameters"></a>Détails de conception : paramètres de planification
 Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans [!INCLUDE[prod_short](includes/prod_short.md)].  

@@ -2,7 +2,6 @@
 title: Prolonger la période d’essai de Business Central
 description: Si vous avez besoin de plus de temps pour décider si vous voulez vous abonner à Dynamics 365 Business Central, vous pouvez prolonger à une reprise votre version d’évaluation. Renseignez-vous sur les options qui s’offrent à vous.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0843dee0e0ac392f138bfa7632635dff8d6411ce
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 571b71ed67a14151d668fa6e1b37a837a989a693
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184289"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129135"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Besoin de plus de temps pour décider si vous voulez vous abonner ?
 
@@ -27,10 +26,10 @@ Le prolongement de la période d’essai par vous-même est une action unique. V
 
 1. Connectez-vous à [!INCLUDE[prod_short](includes/prod_short.md)] sur [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
-    Connectez-vous avec le compte de messagerie que vous avez utilisé lors de votre inscription à l’essai.  
+    Connectez-vous avec le compte de messagerie que vous avez utilisé lors de votre inscription à l'essai.  
 
-    Si vous vous êtes inscrit avec un compte de messagerie dans le cadre d’une [période d’essai de 30 jours pour Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), vous devez d’abord prolonger votre version d’évaluation de Microsoft 365 ou acheter un abonnement Microsoft 365. Pour en savoir plus, consultez [Prolonger votre version d’évaluation pour Microsoft 365 pour les entreprises](/microsoft-365/commerce/extend-your-trial).
-2. Dans la notification en haut de l’espace de travail, choisissez **Prolonger la version d’évaluation**.
+    Si vous vous êtes inscrit avec un compte de messagerie dans le cadre d’une [période d’essai de 30 jours pour Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), vous devez d’abord prolonger votre version d’évaluation Microsoft 365 ou acheter un abonnement Microsoft 365. Pour en savoir plus, consultez [Prolonger votre version d’évaluation pour Microsoft 365 pour les entreprises](/microsoft-365/commerce/extend-your-trial).
+2. Dans la notification en haut de l'espace de travail, choisissez **Prolonger la version d'évaluation**.
 
     Si vous avez ignoré la notification, vous devez vous déconnecter et vous reconnecter.
 

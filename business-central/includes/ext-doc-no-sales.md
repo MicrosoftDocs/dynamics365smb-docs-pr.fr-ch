@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 50b4b331f00bdcdf030bac2332ffb5dafdfd2de6
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 41c661d161d88ac1b74b7f723e0913cf1575a4ef
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116081"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130165"
 ---
 Sur les documents et les feuilles vente, vous pouvez spécifier un numéro de document faisant référence au système de numérotation du client. <!--You can enter a maximum of ten characters, both numbers and letters.--> Utilisez ce champ pour enregistrer le numéro que le client a attribué à la commande, à la facture ou à l’avoir. Vous pouvez utiliser ce numéro ultérieurment, si vous avez besoin de retrouver l’écriture validée à l’aide de ce numéro.  
 

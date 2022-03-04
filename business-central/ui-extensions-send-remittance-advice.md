@@ -2,7 +2,6 @@
 title: Extension Envoyer un avis de remise | Microsoft Docs
 description: Décrit l’extension Envoyer un avis de remise, qui permet d’envoyer par e-mail un avis de remise à partir de la feuille paiement et et de le renvoyer à partir des écritures comptables fournisseur.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
 ms.date: 07/06/2021
 ms.author: edupont
-ms.openlocfilehash: a5b1245a47975f2db9465c5dc101ee13eea74248
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 256744599bcf30a6386ed5ef74b815e959b3b2bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434874"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132513"
 ---
 # <a name="send-remittance-advice"></a>Envoyer un avis de remise
 

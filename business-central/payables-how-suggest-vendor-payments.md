@@ -2,7 +2,6 @@
 title: Traitement par lots Proposer paiements fournisseur
 description: Vous pouvez spécifier les paramètres du paiement fournisseur pour obtenir des suggestions ou des propositions pour les paiements échus sous peu ou donnant lieu à une remise.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 962a1fde49db09b3d739ac33eba43fa7316cc25d
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: 439db2ccacf165d27db44e4c786e71a4372171f3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953174"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137798"
 ---
 # <a name="suggest-vendor-payments"></a>Proposer paiements fournisseur
 

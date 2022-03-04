@@ -2,7 +2,6 @@
 title: Replanifier ou actualiser directement des ordres de fabrication
 description: Cette rubrique décrit les procédures permettant de replanifier les ordres de fabrication et d’actualiser directement les ordres de fabrication.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3cb90e09c5e4d23259dcaba23907bdaac7308c08
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 4fca74c179e6da283a2486efd2dad1c22019d013
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971342"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132877"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replanifier ou actualiser directement des ordres de fabrication
 

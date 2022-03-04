@@ -2,18 +2,17 @@
 title: Configuration des acomptes
 description: Découvrez comment configurer Business Central afin de pouvoir utiliser les acomptes pour facturer et collecter les acomptes requis des clients ou régler des acomptes aux fournisseurs.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 9d9decead1e6207915fd3a162cadae0354f0f257
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 39870723c78bc341ecd32b031503980740151c48
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8100920"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128587"
 ---
 # <a name="set-up-prepayments"></a>Configuration des acomptes
 

@@ -2,7 +2,6 @@
 title: Validation par lots de la production et des temps d’exécution
 description: La quantité de sortie représente l’avancement du travail sous la forme de la quantité finie et de la capacité utilisée du travail ou du poste de charge.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000773, 99000778, 99000823, 99000827
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d5adb9f1f4eb1edefdeb15b6f716458247b4ebf9
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: bbd2a3bf8eae3ced2ad063b0baa3b138cac46401
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970505"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135713"
 ---
 # <a name="batch-post-output-and-run-times"></a>Valider par lots la production et les temps d’exécution
 La quantité de sortie représente l’avancement du travail sous la forme de la quantité finie et de la capacité utilisée du travail ou du poste de charge.

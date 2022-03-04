@@ -2,17 +2,16 @@
 title: Nouveautés et planification dans la version par défaut
 description: Découvrez où trouver les actualités et les mises à jour relatives aux nouvelles fonctionnalités ainsi qu’à celles qui existent déjà dans la version par défaut de Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 7e17ae2b89322f1e07adb42b922193a569b610d4
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: ef648fcd29b15494e78c4b6482edf0996c22b670
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724877"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135843"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Fonctionnalités nouvelles et prévues pour Dynamics 365 Business Central
 

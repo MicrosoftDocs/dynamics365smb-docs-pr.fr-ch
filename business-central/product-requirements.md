@@ -2,7 +2,6 @@
 title: Configuration minimale requise pour l’utilisation de Business Central
 description: Découvrez la configuration système et la version minimale nécessaires à l’utilisation de Business Central Online mentionnées ci-dessous.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3c116786612b62587dd68dc90c358a5a51a24a29
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 8f0e9b608611c963cd31112a31d004108ad1ab73
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321431"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135201"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Configuration minimale requise pour l’utilisation de Business Central
 
@@ -46,7 +45,7 @@ Avant d’accéder à [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, n
 -->
 ## <a name="outlook"></a>Outlook
 
-**Applications Outlook :** Pour utiliser [!INCLUDE[prod_short](includes/prod_short.md)] Online comme votre boîte de réception professionnelle dans Outlook, vous devez disposer d’Outlook 2019 ou d’une version ultérieure, d’Outlook sur le web, d’Outlook pour iOS ou d’Outlook pour Android. Votre organisation doit également utiliser Microsoft 365. Vous ne pouvez pas utiliser [!INCLUDE[prod_short](includes/prod_short.md)] en ligne en tant que boîte de réception de votre entreprise dans Outlook si votre organisation utilise Exchange Server sur site. 
+**Applications Outlook :** Pour utiliser [!INCLUDE[prod_short](includes/prod_short.md)] Online comme votre boîte de réception professionnelle dans Outlook, vous devez disposer d’Outlook 2019 ou d’une version ultérieure, d’Outlook sur le web, d’Outlook pour iOS ou d’Outlook pour Android. Votre organisation doit également utiliser Microsoft 365. Vous ne pouvez pas utiliser [!INCLUDE[prod_short](includes/prod_short.md)] en ligne en tant que boîte de réception de votre entreprise dans Outlook si votre organisation utilise Exchange Server sur site. 
 
 > [!IMPORTANT]
 > À partir de la deuxième vague de lancement de Business Central 2021, vous ne pourrez plus vous connecter au complément Business Central à partir des versions Outlook antérieures à 2012.

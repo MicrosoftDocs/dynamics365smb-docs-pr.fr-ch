@@ -2,7 +2,6 @@
 title: Développement de dispositions de rapports et de jeux de données
 description: Fournit une vue des données de Business Central.
 author: kennieNP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.reviewer: edupont
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: kepontop
-ms.openlocfilehash: a3345c68fc4b9f484d4ceb357b0373d6aa8ff439
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: f1ae794b1345e50d7a649c117514c8cf94dcc025
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8104353"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139406"
 ---
 # <a name="developing-business-central-report-layouts-and-datasets"></a>Développement de dispositions de rapports et de jeux de données Business Central
 

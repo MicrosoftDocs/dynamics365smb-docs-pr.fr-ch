@@ -2,7 +2,6 @@
 title: Configurer des offres de service
 description: Lorsque vous configurez la gestion des services, vous devez choisir les services que vous allez fournir aux clients et les planifier.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a3a61ba65136aa15836039ac54057eefff37f29d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 8d031b444233085a67279c6f2cc39d4f459bac96
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323900"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136940"
 ---
 # <a name="set-up-service-offerings"></a>Configurer des offres de service
 Lorsque vous configurez la gestion des services, vous devez choisir les services que vous allez fournir aux clients et les planifier. Un service correspond à un type de travail exécuté par une ou plusieurs ressources et fourni à un client. Ce peut être un type de réparation informatique. Un article de service correspond à l’équipement ou l’article nécessitant une maintenance : par exemple, un ordinateur à réparer, installé chez un client spécifique. Vous pouvez configurer les services afin de les intégrer au groupe d’articles de réparation ou de maintenance associés.  

@@ -2,7 +2,6 @@
 title: 'Détails de conception : flux d’entrepôt internes'
 description: Le flux entre les bacs se concentre sur le prélèvement des composants et le stockage des produits finis pour les ordres d’assemblage ou de fabrication et les mouvements ad hoc, sans documents source.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6749921fc02776fc267f7f40cde7ccea4b8fe6cf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b8e38dcf94c4303cdd69f5417a152484f5100e09
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441762"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136389"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Détails de conception : flux d’entrepôt internes
 Circulation des articles entre les emplacements dans les centres d’une société lors du prélèvement des composants, du rangement des articles finis pour les ordres d’assemblage ou de fabrication et les mouvements ad-hoc, tels que les réapprovisionnements emplacement, sans relation avec les documents origine. La portée et la nature des activités impliquées varient entre l’entreposage de base et l’entreposage avancé.  

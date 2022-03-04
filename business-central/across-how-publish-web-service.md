@@ -2,17 +2,16 @@
 title: Exposer des objets en tant que services web
 description: Publiez des objets en tant que services Web afin de les rendre immédiatement disponibles pour votre solution Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.form: 810
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bf12c7d415fc75841c4b9f88793ba5be69b21693
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: efa143d439a2f172ca3705d2c14d0fdc968b6a40
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011324"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129274"
 ---
 # <a name="publish-a-web-service"></a>Publier un service Web
 

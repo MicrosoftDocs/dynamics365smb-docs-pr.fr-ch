@@ -2,18 +2,17 @@
 title: Ajouter des entreprises à votre Hub Entreprise
 description: Découvrez comment ajouter des entreprises d’autres environnements Business Central à votre Hub Entreprise afin de pouvoir gérer le travail dans tous les environnements.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
 ms.search.form: 1151, 1155, 1166, 1165
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0bafc786f70e95585d3d1d1f4a44e21f057df4a6
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: c6cc06c45856f1e7c10b1ac82382dae799aef409
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029077"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139822"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Ajouter des entreprises à votre Hub Entreprise
 

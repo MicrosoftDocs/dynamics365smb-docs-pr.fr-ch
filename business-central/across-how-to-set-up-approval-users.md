@@ -2,7 +2,6 @@
 title: Configurer des utilisateurs d’approbation
 description: Avant de pouvoir créer des workflows qui impliquent des étapes d’approbation, vous devez configurer les utilisateurs du workflow qui sont impliqués dans les processus d’approbation avec les paramètres utilisateur d’approbation.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 44b3eea21fdf26433fec70588859f710235e7dc5
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7602481a357a9b9e362a7b6fc0d605de04f44537
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012616"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129222"
 ---
 # <a name="set-up-approval-users"></a>Configurer des utilisateurs d’approbation
 

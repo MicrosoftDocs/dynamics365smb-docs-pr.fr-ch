@@ -2,7 +2,6 @@
 title: 'Procédure : travailler sur des tâches service'
 description: Cette rubrique couvre les différentes manières de travailler sur les tâches de service. La page Tâches service offre un aperçu de tous les articles de service nécessitant une attention particulière.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4c6ee9aceb0282e417fe40aef2ae6f148df4c9d1
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 2ca1e1d49c2d86219388493e32a1e97fd536ae96
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587674"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136836"
 ---
 # <a name="work-on-service-tasks"></a>Travailler sur des tâches service
 Après avoir créé une commande ou devis service, enregistré des lignes article de service, et affecté des ressources aux articles de service de la commande ou du devis, vous pouvez commencer la réparation et la maintenance des articles de service.  

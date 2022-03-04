@@ -2,7 +2,6 @@
 title: 'Procédure : créer des articles de service'
 description: Découvrez les différentes manières de créer des articles de service dans Business Central, par exemple dans une commande de service ou lors de l’expédition d’articles.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8803883e69678ee636c26b66bd34d38cfabe0042
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 74af60caaf286b9993402228b050e3717fb847a6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441975"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136920"
 ---
 # <a name="create-service-items"></a>Créer des articles de service
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], le terme « article de service » fait référence à un équipement ou un article nécessitant une maintenance. Lorsque vous créez une commande service, vous spécifiez les articles nécessitant une maintenance. Dans la commande, vous pouvez lier un article de service à un article en stock ou à un groupe articles de service.    

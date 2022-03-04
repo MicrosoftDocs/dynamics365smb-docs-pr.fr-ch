@@ -4,7 +4,6 @@ description: Découvrez comment les paramètres de TVA des clients et des fourni
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444270"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137928"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allouer les coûts aux partenaires intersociétés
 Lorsque vous utilisez des écritures intersociétés pour transférer des documents entre sociétés partenaires, les paramètres liés à la TVA (principalement le groupe de comptabilisation TVA) affectés aux comptes client ou fournisseur (associés au partenaire intersociétés) contrôlent si et comment la TVA est calculée et enregistrée. Vous pouvez également effectuer des répartitions de coûts directement à partir d’une commande d’achat vers des sociétés partenaires. Par exemple, si vous enregistrez une facture achat d’un fournisseur externe et si vous souhaitez répartir tout ou partie des coûts à un ou plusieurs partenaires intersociétés.

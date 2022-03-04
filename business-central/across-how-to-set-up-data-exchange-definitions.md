@@ -2,7 +2,6 @@
 title: Définir le mode d’échange électronique de documents | Microsoft Docs
 description: Vous pouvez utiliser un fournisseur externe de services OCR pour convertir des fichiers PDF ou image en documents électroniques.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ba59e1164dbbe4cdd95cca31687b63db2af8018c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774701"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129248"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurer les définitions d’échange de données
 Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour échanger des données de tables spécifiques avec des données de fichiers externes, par exemple pour recevoir et envoyer des documents électroniques, importer et exporter des données bancaires ou d’autres données, telles que les salaires, les taux de change des devises et les catalogues article. Pour plus d’informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  

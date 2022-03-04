@@ -3,7 +3,6 @@ title: Conformité des applications
 description: Cette rubrique explique la conformité des applications concernant Business Central, comme les normes internationales de génération d’états financiers, la fonctionnalité locale et le RGPD.
 author: sorenfriisalexandersen
 documentationcenter: ''
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 2631307db3975eeb406662caac2edf2f9d83238c
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 7d264ae88d1f9743d7e30994ee0e39f19a5febbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101467"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139874"
 ---
 # <a name="application-compliance"></a>Conformité des applications
 

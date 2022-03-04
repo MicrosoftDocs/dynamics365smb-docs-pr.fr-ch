@@ -2,7 +2,6 @@
 title: Configuration des workflows (contient une vidéo)
 description: Configurez des flux de travail, des utilisateurs de flux de travail et des utilisateurs d’approbation pour connecter les tâches du système de processus métier effectuées par ces différents utilisateurs.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5be16c0d7cbd035d28a15967270cf982870acd78
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: d9cf7f41f399d2747b554f3784c40b51fb9d71da
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940816"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133267"
 ---
 # <a name="set-up-workflows"></a>Configuration des workflows
 

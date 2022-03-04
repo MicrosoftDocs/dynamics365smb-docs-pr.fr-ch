@@ -2,7 +2,6 @@
 title: Configurer une fiche magasin et définir des acheminements de transfert (contient une vidéo)
 description: Si vous achetez, enregistrez, ou vendez des articles à plusieurs magasins ou entrepôt, vous devez configurer chaque magasin avec une fiche magasin et définir des acheminements transfert.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2482b25e6b8e29e5cff420db1700943ca4f1df51
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 0a2d5234a78daf6243591cc478ab7b19957a196a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060105"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130363"
 ---
 # <a name="set-up-locations"></a>Configurer des magasins
 

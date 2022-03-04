@@ -2,7 +2,6 @@
 title: Prévisions de flux de trésorerie à l’aide de calendriers comptables
 description: Cette procédure pas-à-pas décrit le mode d’utilisation des tableaux d’analyse pour élaborer des prévisions de trésorerie dans Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e0da9a5cab5c36bd5403bca3731ce46bb67316c3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: eb6b766ffb4974943c37f0b3e1499a59695f349c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438517"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140256"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procédure pas-à-pas : créer des prévisions de trésorerie à l’aide de tableaux d’analyse
 

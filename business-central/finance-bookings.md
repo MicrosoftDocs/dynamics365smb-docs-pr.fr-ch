@@ -2,7 +2,6 @@
 title: Facturer vos réservations dans Business Central
 description: Cette rubrique explique comment effectuer une facturation groupée à partir de Microsoft Bookings dans Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: invoicing, bookings
 ms.search.form: 1638, 6702, 6704
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9cac5b50d2a674f3ca39f085a2d4448356277b64
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: c0abb4d4389dd3896f1aceedb42d51aca0e61000
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971189"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139588"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Facturation en vrac pour Microsoft Bookings dans [!INCLUDE[prod_short](includes/prod_short.md)]
 

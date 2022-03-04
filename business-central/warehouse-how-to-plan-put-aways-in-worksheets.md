@@ -2,7 +2,6 @@
 title: Comment planifier des rangements dans la feuille
 description: Configurez votre entrepôt de sorte que les lignes de réception soient disponibles dans la feuille de calcul de rangement lorsque vous souhaitez planifier les instructions de rangement pour les réceptions.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: cfe8f04e84c2bb5cddcbad71fd71b1253043b60f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b7bd6481c6347cfb9c8d02ba58f38101802a6caa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438197"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131134"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planifier des rangements dans la feuille
 Lorsque le magasin appelle un traitement à la fois de rangement et de réception et que vous souhaitez planifier des instructions de rangement pour plusieurs réceptions, vous pouvez utiliser la feuille rangement (dans ce cas, les magasiniers n’ont pas à suivre les instructions créées par l’application pour différentes réceptions validées).  

@@ -2,7 +2,6 @@
 title: Définir des informations générales relatives aux stocks
 description: Décrit comment définir la Paramètres stock généraux afin que vous puissiez gérer votre entrepôt et votre stock.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.form: 30, 456, 461
 ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: a4912baa7dc9bfd69c5306b95b63312bc1d29f10
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 2013c378c3b95947e0615371bcb1fb5100df78aa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115046"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135895"
 ---
 # <a name="set-up-general-inventory-information"></a>Définir des informations générales relatives aux stocks
 

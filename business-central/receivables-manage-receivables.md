@@ -2,7 +2,6 @@
 title: Aperçu des tâches permettant de gérer vos comptes clients
 description: Cette rubrique décrit les tâches permettant de gérer les clients et d’appliquer les paiements aux écritures comptables client ou fournisseur.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 2c12c55b812c5ee92c32f30457f50851841b97d0
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 50745f63879bf3aa0610a0109950bdd9d88a676c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011245"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137175"
 ---
 # <a name="managing-receivables"></a>Gestion des comptes client
 

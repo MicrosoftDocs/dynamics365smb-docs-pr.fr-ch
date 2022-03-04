@@ -2,7 +2,6 @@
 title: Vue d’ensemble de l’intégration de Business Central et Microsoft Teams | Microsoft Docs
 description: Partagez des enregistrements Business Central directement dans une conversation Teams.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 943fd46025a736ae7f32f8fbb02fcacbefb32e8e
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 1cbb122c313f60b79678d5e8ed3b186b52f25782
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011860"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138758"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Intégration de Business Central et Microsoft Teams
 
@@ -53,7 +52,7 @@ Pour plus d’informations, consultez [Partager des enregistrements dans Microso
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Partager des liens entre des pages de Business Central et Teams
 
-Directement à partir de la plupart des pages de collection et de détails dans Business Central, vous pouvez utiliser l’action **Partager avec teams** à partir de l’![!icône du menu Partager sur les pages.](media/share-icon.png "Le menu Partager affiché sur une fiche.") pour saisir un message, choisir des destinataires, tels que des membres de l’équipe, des groupes ou des canaux, et envoyer le message avec un lien vers la page Business Central.
+Directement à partir de la plupart des pages de collection et de détails dans Business Central, vous pouvez utiliser l’action **Partager avec teams** à partir de ![ !l’icône du menu Partager sur les pages.](media/share-icon.png "Le menu Partager affiché sur une fiche.") pour saisir un message, choisir des destinataires, tels que des membres de l’équipe, des groupes ou des canaux, et envoyer le message avec un lien vers la page Business Central.
 
 ![!Le menu Partager affiché sur une fiche.](media/teams-share-link.png "Le menu Partager affiché sur une fiche.")
 

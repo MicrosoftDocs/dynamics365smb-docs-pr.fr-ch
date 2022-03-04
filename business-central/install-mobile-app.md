@@ -2,7 +2,6 @@
 title: Obtenir Business Central sur votre périphérique mobile (contient une vidéo)
 description: Cette rubrique décrit les différentes manières dont vous pouvez afficher et modifier vos données Business Central, les envoyer vers Excel et plus encore sur votre téléphone ou votre tablette.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,16 +9,16 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 31f9a34d2fc14ddca146ff00d8b4b678e0b97d99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 9c550c5e62b025d59c451aed83a6dbf6f0e1e11b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940091"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138481"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Obtention de Business Central sur votre périphérique mobile
 
-Accédez à vos données [!INCLUDE[prod_short](includes/prod_short.md)] à partir de votre périphérique mobile. Vous pouvez naviguer dans vos données commerciales, utiliser des fonctionnalités telles que l’envoie vers Excel ou Microsoft 365, l’affichage de graphiques et d’indicateurs de performance clé à jour, l’envoi par e-mail de devis et de factures. Vous pouvez également prendre des photos et les ajouter en pièces jointes grâce à votre appareil photo. Suivez la procédure ci-dessous pour télécharger l’application et démarrer.
+Accédez à vos données [!INCLUDE[prod_short](includes/prod_short.md)] à partir de votre périphérique mobile. Vous pouvez naviguer dans vos données commerciales, utiliser des fonctionnalités telles que l’envoi vers Excel ou Microsoft 365, l’affichage de graphiques et d’indicateurs de performance clé à jour, l’envoi par e-mail de devis et de factures. Vous pouvez également prendre des photos et les ajouter en pièces jointes grâce à votre appareil photo. Suivez la procédure ci-dessous pour télécharger l’application et démarrer.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 

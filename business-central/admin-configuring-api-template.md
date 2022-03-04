@@ -2,7 +2,6 @@
 title: Configuration des modèles d’API
 description: Décrit la procédure à suivre pour configurer des modèles d’API pour Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: API templates, configuring templates
 ms.search.form: 5469
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: f5f081e4d0042333549453a3ad6af5a05a0e6ca0
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 63793ca9907d0b2c58df7f82dae88783ba0fcbc7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011271"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136364"
 ---
 # <a name="configuring-api-templates"></a>Configuration des modèles d’API
 

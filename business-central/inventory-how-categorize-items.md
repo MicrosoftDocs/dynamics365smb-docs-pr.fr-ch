@@ -2,7 +2,6 @@
 title: Organiser les articles en catégories (contient une vidéo) | Microsoft Docs
 description: Pour vous aider à rechercher et à trouver des articles, vous pouvez affecter des attributs d’article et organiser les articles en catégories.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3b3c3add698255293d4dbf6f5f7d9eb927b1c0c0
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: a8db351f2f99a98f91dedb9d9cc6e0634be5e42a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059845"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130451"
 ---
 # <a name="categorize-items"></a>Catégoriser des articles
 

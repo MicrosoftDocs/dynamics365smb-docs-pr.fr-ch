@@ -2,7 +2,6 @@
 title: Sous-traiter la production
 description: Cette rubrique donne un aperçu détaillé des fonctionnalités étendues de la sous-traitance dans Business Central, y compris les champs de centre de charge et de gamme.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2b3ecc4ac84c5b3958d2ada97c104e92dced9ed2
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 116c19964bde7cc58a2c90be1f6b9143ceca3af6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972738"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132747"
 ---
 # <a name="subcontract-manufacturing"></a>Sous-traiter la production
 

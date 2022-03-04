@@ -2,7 +2,6 @@
 title: Paramétrer des calendriers usine
 description: La création et l’activation d’un calendrier centre de charge impliquent plusieurs tâches, notamment la configuration des calendriers d’atelier et la création d’équipes.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ab690e038c3e7c681cea9677e48b35876c567eac
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: a39df1fc7ccff9d3f4fcfbf76e7d6a57a7801bce
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972790"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131342"
 ---
 # <a name="set-up-shop-calendars"></a>Paramétrer des calendriers usine
 

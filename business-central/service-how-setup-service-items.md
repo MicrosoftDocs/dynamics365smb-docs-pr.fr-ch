@@ -2,7 +2,6 @@
 title: Articles de service et composants article de service
 description: Découvrez les éléments que vous devez configurer avant de pouvoir utiliser des articles de service, notamment les valeurs par défaut telles que le délai de réponse et le groupe tarifs service.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 9ebdb2ec8d76537887a7aa597eb9eabe298ec530
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 249e3b8411624222441c1205434a8b6a6829e60a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436541"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139302"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Configurer les articles de service et les composants article de service
 Pour utiliser les articles de service, vous devez configurer

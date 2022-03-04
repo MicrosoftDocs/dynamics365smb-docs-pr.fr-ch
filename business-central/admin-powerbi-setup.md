@@ -2,7 +2,6 @@
 title: Activation de l’intégration Power BI avec Business Central
 description: Découvrez comment configurer la connexion à Power BI. Avec les rapports Power BI, obtenez des informations, des informations décisionnelles et des indicateurs de performance clés à partir de vos données Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: c8f12e98196d8dd22ff63c73ffd3967cf256244c
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.openlocfilehash: 52cd83406b302965c553856f89a9a436882f008b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049889"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130604"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Activation de l’intégration de Power BI à [!INCLUDE[prod_short](includes/prod_short.md)]
 

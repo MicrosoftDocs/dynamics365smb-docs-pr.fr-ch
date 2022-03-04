@@ -2,7 +2,6 @@
 title: Configurer les conditions et niveaux de relance
 description: Découvrez comment configurer Business Central de telle sorte que vous puissiez envoyer une relance à un client sur un paiement dû et ajouter des frais, ou des commissions au paiement en raison de retard.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: caa31498ac63d376d4fb13f83c66664a1cf78bcd
-ms.sourcegitcommit: 8a968e9176a913635e47e5170c66962e485e6689
+ms.openlocfilehash: 81c86841bd4000cab881e06783fd521ae18d1cbf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8105789"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132851"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Configurer les conditions et niveaux de relance
 

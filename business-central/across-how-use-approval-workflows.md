@@ -2,18 +2,17 @@
 title: Approuver ou rejeter des documents dans les flux| Microsoft Docs
 description: Demander, rejeter, ou déléguer une approbation de, par exemple, un document achat ou vente, dans le cadre d’un flux de travail.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: 653c9e0231e7f1f28e3fe2d6987dbbf4db327faf
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: bc60d2e8f7e79e717b8b79a9c18e7babf88d8fbb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588872"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134241"
 ---
 # <a name="use-approval-workflows"></a>Utilisation des flux d’approbation
 

@@ -2,7 +2,6 @@
 title: Enregistrer les frais ou des revenus directement dans la comptabilité
 description: Pour les activités économiques qui ne sont pas représentés par un document, vous pouvez créer les transactions associées en validant des lignes de feuille sur la page Feuille comptabilité.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: direct posting, general ledger
 ms.search.form: 39, 251
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f8a11cf0efb34863c4d2ddf7519847e27f5a2001
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 26fb9695778d3a8a63c740a6e4303bfd001ab707
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973481"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132955"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Valider les transactions directement vers la comptabilité
 
