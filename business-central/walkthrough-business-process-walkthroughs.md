@@ -2,6 +2,7 @@
 title: Procédures pas à pas liées au processus entreprise
 description: Cette sélection de procédures fournit des processus entreprise pas à pas et de bout en bout que vous pouvez suivre avec la société de démonstration CRONUS.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3d3c7aad6205ad92515dd81542eae209d0f45540
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0ca067f8b9ca7a8d6838b6099ae330ab8ddbf66b
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129542"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724677"
 ---
 # <a name="business-process-walkthroughs"></a>Procédures pas à pas liées au processus entreprise
 

@@ -1,23 +1,22 @@
 ---
-title: Utilisation de Business Central (contient une vidéo)
-description: Décrit la fonctionnalité générale que vous utilisez pour interagir avec des données dans Business Central, par exemple entrer les valeurs, trier les données, et modifier les vues.
+title: Utilisation de la fonctionnalité générale dans Business Central | Microsoft Docs
+description: Décrit la fonctionnalité générale que vous utilisez pour interagir avec des données dans Business Central, par exemple entrer les valeurs, trier les données, et modifier les vues.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/25/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 48efb839720832ffdcfdb390aed64108c032704b
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323073"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393589"
 ---
 # <a name="working-with-prod_short"></a>Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]
-
 Dans le cadre de l’exécution des tâches, vous interagissez avec des données de différentes manières : création d’enregistrements et saisie de données, tri et filtrage de données, rédaction de procédures et sortie de données vers d’autres applications.
 
 Par exemple, vous pouvez ajuster la taille et la position de n’importe quelle page, étendre la largeur des colonnes et augmenter la hauteur des en-têtes de colonnes, puis modifiez le tri des données dans les colonnes. Si vous souhaitez utiliser la barre de défilement horizontale pour afficher toutes les colonnes dans une page de liste ou des lignes document, vous constatez la présence d’un volet Figer vertical pour empêcher le défilement de certaines colonnes.
@@ -27,7 +26,7 @@ Par exemple, vous pouvez ajuster la taille et la position de n’importe quelle 
 > [!TIP]
 > Pour obtenir un aperçu facile à imprimer des fonctions les plus utilisées, sélectionnez l’image suivante et téléchargez le fichier PDF.
 >
-> [ ![Icône pour le fichier PDF.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icône qui ouvre un PDF")
+> [ ![Icône pour le fichier PDF](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icône qui ouvre un PDF")
 
 ## <a name="links-to-learn-more"></a>Liens pour en savoir plus
 
@@ -55,41 +54,26 @@ Le tableau suivant répertorie certaines des fonctionnalités générales et inc
 | Gérez le contenu et le format des états et des documents, dont les champs de données d’un ensemble de données de rapport apparaissant sur le rapport et la façon ils sont organisés, le style de texte, les images, et plus encore.|[Gestion des présentations de rapport et de document](ui-manage-report-layouts.md) |
 |En savoir plus sur les fonctions et les capacités qui permettent aux personnes handicapées accéder facilement à [!INCLUDE[prod_short](includes/prod_short.md)].|[Accessibilité et raccourcis clavier](ui-accessibility.md)|
 
-## <a name="getting-around-in-business-central"></a>Parcourir Business Central
+## <a name="getting-around-in-business-central"></a>Parcourir Business Central
 Voici une courte vidéo sur la manière de parcourir [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
 ## <a name="choosing-a-desktop-browser"></a>Choix d’un navigateur de bureau
 
-[!INCLUDE[prod_short](includes/prod_short.md)] prend en charge plusieurs navigateurs qui offrent chacun diverses fonctions et fonctionnalités. Le navigateur joue un rôle important dans la réactivité et la fluidité de l’interface utilisateur. Consultez la liste des navigateurs pris en charge et recommandés pour [Business Central Online](./product-requirements.md) et des navigateurs pour [Business Central sur site](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
+[!INCLUDE[prod_short](includes/prod_short.md)] prend en charge plusieurs navigateurs qui offrent chacun diverses fonctions et fonctionnalités. Le navigateur joue un rôle important dans la réactivité et la fluidité de l’interface utilisateur. Consultez la liste des navigateurs pris en charge et recommandés pour [Business Central Online](https://go.microsoft.com/fwlink/?linkid=2110804) et des navigateurs pour [Business Central sur site](https://go.microsoft.com/fwlink/?linkid=2110719).
 
 - Dans la mesure du possible, évitez les navigateurs plus anciens tels qu’Internet Explorer et privilégiez l’un de nos navigateurs modernes recommandés tels que le [nouveau Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer n’est plus pris en charge. Pour en savoir plus, consultez [Documentation Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer est toujours pris en charge, mais comme le nouveau navigateur Edge est désormais disponible pour Windows Server, nous constatons une baisse du taux d’utilisation pour Internet Explorer. Vous pouvez également obtenir [un pilote d’Edge en mode IE](https://www.microsoft.com/edge/business). Pour en savoir plus, consultez [Documentation Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Maintenez votre navigateur toujours à jour avec la dernière version.
-
-## <a name="action-bars"></a>Barres d’action
-
-Dans [!INCLUDE [prod_short](includes/prod_short.md)], vous effectuez la plupart de votre travail dans une liste, un document ou une carte. Les trois types de pages ont une barre avec des actions qui sont pertinentes pour la page particulière, et les actions sont presque les mêmes pour la carte ou le document individuel et pour la liste des entités. De cette façon, vous pouvez gérer une commande vente individuelle dans la page **Commandes vente** et dans la liste **Commandes vente**, y compris sa publication et sa facturation.  
-
-Mais les actions peuvent également apparaître différemment, voire ne pas être présentes, selon la façon dont vous ouvrez la page. Notamment pour les pages de liste, la page de liste que vous ouvrez à partir de la page d’accueil et la page qui s’affiche lorsque vous la recherchez à l’aide de l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") ne sont pas identiques.  
-
-Lorsque vous recherchez une page de liste ouverte, telle que la liste **Commandes vente**, elle est en mode visualisation. Les actions de modification, d’affichage ou de suppression d’une entité individuelle, telle qu’une commande client, s’affichent lorsque vous choisissez l’action **Gérer**.  
-
-> [!TIP]
-> Si vous savez que vous utiliserez souvent des actions sur ce deuxième niveau de la barre d’action, choisissez l’icône :::image type="icon" source="media/pin.png" border="false"::: pour épingler la barre d’action et afficher immédiatement les actions sous les différents menus.
->
-> Pour faire à nouveau disparaître le deuxième niveau de la barre d’action, choisissez l’icône :::image type="icon" source="media/unpin.png" border="false":::.
-
-Mais lorsque vous ouvrez la même page de liste à partir de votre page d’accueil, l’action **Gérer** n’est pas présente. Au lieu de cela, pour ouvrir une commande vente individuelle, il vous suffit de sélectionner le champ **Nombre**. Dans cette vue, vous ne pouvez pas épingler la barre d’action.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Préparation aux activités commerciales](ui-get-ready-business.md)  
-[Configuration de Business Central](setup.md)  
+[Mise en route](product-get-started.md)  
+[Configuration de Business Central](setup.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Conseils hautes performances pour les utilisateurs professionnels](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 

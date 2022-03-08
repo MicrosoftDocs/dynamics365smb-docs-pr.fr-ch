@@ -1,21 +1,21 @@
 ---
-title: Aperçu des tâches pour clôturer les livres
+title: Aperçu des tâches pour clôturer les livres | Microsoft Docs
 description: En savoir plus sur le processus de clôture des livres d’un exercice ou d’une période fiscale, et ce qui a lieu après la clôture à la fin d’un exercice.
 author: jswymer
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-m.search.form: 100
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 242868f88883c6e62a9b43ca949289deb0cdf2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 84947d0c88834fe674942e5edb5cf8ac73a9741c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142765"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755657"
 ---
 # <a name="closing-the-books"></a>Clôture des livres
 Après vous être assuré que tous vos comptes sont à jour et avoir ventilé les coûts et les bénéfices, vous pouvez clôturer les livres d’un exercice ou d’une période comptable.
@@ -55,6 +55,3 @@ Vous pouvez valider dans un exercice comptable précédent, même après la clô
 
 [Utiliser des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

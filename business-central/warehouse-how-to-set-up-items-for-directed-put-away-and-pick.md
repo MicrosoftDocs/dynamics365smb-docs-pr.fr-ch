@@ -2,6 +2,7 @@
 title: Configurer le prélèvement et le rangement dirigés
 description: Configurez les emplacements d’entrepôt pour prélèvement et rangement suggérés, ce qui vous permet de disposer de nouvelles fonctionnalités pour vous aider à exploiter l’entrepôt le plus efficacement possible.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4e83df2350ef8419a6de4e0fde9bf140660b943e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0c7a49208216b12c234c0b40576b26f4f39e9ab5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145227"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438047"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Configurer des articles et des emplacements pour prélèvement et rangement suggérés
 Lorsque vous configurez un entrepôt pour prélèvement et rangement suggérés, vous disposez de nouvelles fonctionnalités pour vous aider à exploiter l’entrepôt le plus efficacement possible. Afin de pouvoir utiliser pleinement cette fonctionnalité, vous devez fournir des informations supplémentaires concernant les articles, permettant ainsi d’exécuter les calculs nécessaires pour suggérer les méthodes les plus efficaces pour gérer les activités de l’entrepôt. Pour plus d’informations, reportez-vous à [Détails de conception : Paramètres entrepôt](design-details-warehouse-setup.md).

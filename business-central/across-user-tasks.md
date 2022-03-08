@@ -1,21 +1,21 @@
 ---
 title: Affectation et gestion des tâches
-description: Découvrez comment attribuer des tâches aux utilisateurs, y compris votre comptable, dans Business Central, et comment vous choisissez et effectuez des tâches.
+description: Découvrez comment attribuer des tâches aux utilisateurs, y compris votre comptable, dans Business Central, et comment vous choisissez et effectuez des tâches.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.search.form: 1164, 1170, 1171, 1172, 1175, 1176, 1177
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d57897d8e1aae9edbfec372844a73a6e388afde
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9b461fbb08c323a2c010f54c3b3e6f2f124844f5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133216"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378888"
 ---
 # <a name="define-user-tasks"></a>Définir les tâches utilisateur
 
@@ -27,7 +27,7 @@ La page **Tâches utilisateur** affiche toutes les tâches, et vous pouvez facil
 
 Par exemple, vous pouvez créer une tâche pour vous-même ou un collège pour afficher toutes les factures vente enregistrées. Dans ce cas, vous liez la tâche à la page 143, **Factures vente enregistrées**. Dans la capture d’écran suivante, quelqu’un crée une tâche pour MeganB pour consulter les factures vente enregistrées.  
 
-:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Exemple de tâche utilisateur.":::
+:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Exemple de tâche utilisateur":::
 
 > [!TIP]  
 > Utilisez la recherche dans le champ **Page**, puis utilisez le champ **Rechercher** pour trouver la page souhaitée.  

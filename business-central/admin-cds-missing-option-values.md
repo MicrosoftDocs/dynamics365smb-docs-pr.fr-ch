@@ -1,21 +1,22 @@
 ---
 title: Gestion des valeurs option manquantes
-description: Découvrez comment empêcher l’échec de la synchronisation complète en raison d’options différentes dans les champs mappés. Ces processus nécessitent l’aide d’un développeur.
+description: Découvrez comment empêcher l’échec de la synchronisation complète en raison d’options différentes dans les champs mappés.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 34d1583ac7e844a7d7acad82f202c37be0b99c47
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2021
+ms.openlocfilehash: cd2ed879c6ef6022431e273fa9953110ce482567
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133981"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773219"
 ---
 # <a name="handling-missing-option-values"></a>Gestion des valeurs option manquantes
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Cette rubrique est destinée à un public technique. Les processus qu’elle décrit nécessitent l’aide d’un développeur.
 

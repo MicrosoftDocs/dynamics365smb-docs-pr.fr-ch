@@ -2,16 +2,17 @@
 title: Présentation du rapport
 description: Découvrez les états disponibles dans toutes les zones fonctionnelles de la version standard de Business Central afin que vous puissiez suivre votre activité.
 author: KennieNP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 02/02/2022
 ms.author: kepontop
-ms.openlocfilehash: 3e1c49636b0a41dfe3a4fd63d7dffae221f738da
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1f193ae0fd5ebda7fe90b9db78fc5a1de1e21d64
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143229"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8104459"
 ---
 # <a name="report-overview"></a>Présentation du rapport
 

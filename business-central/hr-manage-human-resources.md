@@ -1,42 +1,39 @@
 ---
-title: Gérer les ressources humaines
+title: Utilisation de la fonctionnalité Ressources Humaines| Microsoft Docs
 description: Vous pouvez enregistrer de nouveaux employés, modifier des informations sur le personnel existant, et enregistrer et analyser les absences.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.search.form: 5200, 5201, 5212, 5211
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 97758b684b3a68508b9b6966d155f956d58c1f4a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 947482780e860bba566af7f22231babcf51cdd27
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135921"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301479"
 ---
 # <a name="manage-human-resources"></a>Gérer les ressources humaines
+Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez conserver des enregistrements détaillés de vos salariés. Vous pouvez enregistrer et mettre à jour les informations les concernant : contrats de travail, informations confidentielles, qualifications et contacts.
 
-Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez conserver des enregistrements détaillés de vos salariés. Vous pouvez enregistrer et mettre à jour les informations les concernant : contrats de travail, informations confidentielles, qualifications et contacts.
+Vous pouvez également enregistrer les absences des salariés, ce qui vous permet d'analyser les absences enregistrées le cas échéant.
 
-Vous pouvez également enregistrer les absences des salariés, ce qui vous permet d’analyser les absences enregistrées le cas échéant.
-
-Pour commencer à utiliser la fonctionnalité Ressources humaines, vous devez configurer les salariés, ainsi que d’autres informations de base. Vous pouvez ensuite associer plusieurs codes à un salarié, ce qui vous permet de filtrer les informations et d’afficher des salariés spécifiques.
+Pour commencer à utiliser la fonctionnalité Ressources humaines, vous devez configurer les salariés, ainsi que d'autres informations de base. Vous pouvez ensuite associer plusieurs codes à un salarié, ce qui vous permet de filtrer les informations et d'afficher des salariés spécifiques.
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
 | Pour | Voir |
 | --- | --- |
 | Enregistrez les nouveaux salariés ou modifiez les enregistrements pour les salariés existants, et joignez des informations connexes, telles que des contrats et des articles. |[Enregistrer les employés](hr-how-register-employees.md) |
-| Enregistrez les absences des salariés et visualisez les statistiques d’indisponibilité par divers filtres. |[Gérer les absences des salariés](hr-how-manage-absence.md) |
+| Enregistrez les absences des salariés et visualisez les statistiques d'indisponibilité par divers filtres. |[Gérer les absences des salariés](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>Voir aussi
-
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)        
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

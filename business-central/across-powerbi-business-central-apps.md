@@ -2,6 +2,7 @@
 title: Utilisation des applications Business Central dans Power BI| Microsoft Docs
 description: Il est facile d’obtenir des informations exploitables, de la veille économique et des KPI de vos applications Business Central pour Power BI.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 855f071f624c2a99bd9b637111b67d3a59e61350
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134163"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781326"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>Utilisation des applications [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI
 
@@ -62,7 +63,7 @@ Inscrivez-vous au service Power BI. Si vous ne vous êtes pas encore inscrit, ac
 1. Ouvrez votre navigateur, accédez à [https://powerbi.microsoft.com](https://powerbi.microsoft.com) et connectez-vous à votre compte.
 2. Sélectionnez **Extraire les données** en bas du volet de navigation gauche.  
 
-    ![Naviguez pour obtenir des données.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Naviguer pour obtenir des données](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     Vous pouvez également démarrer depuis [!INCLUDE [prod_short](includes/prod_short.md)]. Depuis votre page d’accueil, accédez à **Sélection des états** dans la section Power BI. Sélectionnez **Service** ou **Mon organisation** dans le ruban. Soit la galerie Organisation dans Power BI, soit Microsoft AppSource s’ouvre, filtré pour n’afficher que les applications liées à [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -88,7 +89,7 @@ Inscrivez-vous au service Power BI. Si vous ne vous êtes pas encore inscrit, ac
 5. À l’invite, entrez le nom d’utilisateur et le mot de passe pour vous connecter à [!INCLUDE[prod_short](includes/prod_short.md)].
 6. Une fois connecté(e), un tableau de bord et des états sont ajoutés à votre espace de travail Power BI. Une fois terminé, les mosaïques affichent les données de votre société [!INCLUDE[prod_short](includes/prod_short.md)].
 
-    ![Sélectionnez Dynamics 365 Business Central et sélectionnez Obtenir maintenant.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Sélectionnez Dynamics 365 Business Central, puis Obtenir maintenant.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Résolution des problèmes
 
@@ -170,7 +171,7 @@ L’application Power BI affichera uniquement les données de la société [!INC
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans Power Automate](across-how-use-financials-data-source-flow.md)  
 
-
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

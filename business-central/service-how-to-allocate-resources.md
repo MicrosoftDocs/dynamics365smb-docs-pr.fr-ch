@@ -2,6 +2,7 @@
 title: Comment affecter des ressources | Microsoft Docs
 description: Vous pouvez modifier le montant annuel du contrat service ou du devis contrat afin de rectifier le montant qui sera facturé annuellement.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ba3571eac4e26646507db2c67f0c2f77207a4566
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f92afa2ddcac146f732168b55404df103dd976c1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143077"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773670"
 ---
 # <a name="allocate-resources"></a>Affecter des ressources
 Les personnes qui fournissent le service représentent l’élément clé de la gestion des services. Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour affecter les personnes aux tâches de manière appropriée. Vous pouvez baser les affectations sur les zones de service dans lesquelles les personnes sont situées ou dans lesquelles le service se produit. En outre, vous pouvez regrouper les ressources lors de la réponse aux demandes de service. Pour plus d’informations, voir [Configurer l’affectation des ressources](service-how-setup-resource-allocation.md).
@@ -26,7 +27,7 @@ Vous pouvez ventiler la même ressource, par exemple, un technicien, ou le même
 ## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Pour afficher un aperçu des commandes/devis service :  
 Vous aurez souvent besoin de consulter la liste des commandes service ou des devis service répondant à certaines exigences pour être en mesure d’exécuter des actions spécifiques sur chacun de ces documents. Vous devrez, par exemple, affecter des ressources à des commandes service appartenant à un client spécifique.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableau d’affectation**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableau d’affectation**, puis choisissez le lien associé.  
 2. Dans le champ **Filtre document**, choisissez le type des documents que vous souhaitez afficher.
 3. Pour obtenir la liste des documents contenant des tâches service auxquelles une ressource ou un groupe ressources est affecté, renseignez les champs **Filtre ressource** et **Filtre gpe ressources**, puis appuyez sur Entrée.  
 4. Pour obtenir la liste des documents contenant une certaine date de réponse ou des dates de réponse comprises dans une période, renseignez le champ **Filtre date réponse** puis appuyez sur **Entrée**.  
@@ -37,7 +38,7 @@ Vous aurez souvent besoin de consulter la liste des commandes service ou des dev
     La page **Commande service** ou **Devis service** s’ouvre et vous pouvez utiliser le document. Pour revenir à la page **Tableau d’affectation**, choisissez **OK**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Pour affecter une ressource à l’aide de la disponibilité ressource ou groupe ressources    
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableau d’affectation**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Tableau d’affectation**, puis choisissez le lien associé.  
 2. Choisissez la commande service, puis sélectionnez l’action **Affectations ressources**.  
 3. Choisissez l’écriture comportant la tâche service à laquelle vous souhaitez affecter une ressource.  
 4. Choisissez **Disponibilité ressource** ou l’action **Disponibilité groupe ressources**.  
@@ -57,7 +58,7 @@ Vous aurez souvent besoin de consulter la liste des commandes service ou des dev
 ## <a name="to-allocate-a-resource-using-a-service-order"></a>Pour affecter une ressource à l’aide d’une commande service  
 Après avoir créé et renseigné une commande service ou un devis service, vous pouvez affecter des ressources, par exemple, des techniciens, pour exécuter des tâches service enregistrées sous forme de lignes article de service dans le document.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes service**, puis choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes service**, puis sélectionnez le lien associé.  
 2. Cliquez sur la commande service, puis choisissez **Modifier**.  
 3. Choisissez la ligne article de service correspondant à la tâche service à laquelle vous souhaitez affecter une ressource.  
 4. Choisissez **Affectations ressources**.
@@ -77,7 +78,7 @@ Vous pouvez réaffecter des ressources directement à partir d’une commande se
 * Si la maintenance n’a pas débuté pendant que l’affectation était **Active**,l’état affectation passe de **Réallocation nécessaire** à **Annulée**.  
 * Si vous réaffectez une commande service issue d’un devis, le statut des écritures affectation enregistrées pour le devis passe toujours à **Terminé** lorsque vous réaffectez les articles de service de la commande service.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes service**, puis choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes service**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande service.  
 3. Sélectionnez la ligne article de service correspondant à la tâche service à laquelle vous souhaitez affecter une ressource, puis sélectionnez l’action **Affectations ressources**.  
 4. Sur la page **Affectations ressources**, sélectionnez une écriture affectation avec la tâche service à laquelle vous souhaitez réaffecter la ressource. Sélectionnez la ressource concernée dans le champ **N° de ressource**. Ce numéro remplace le numéro ressource qui figurait dans le champ.  
@@ -87,7 +88,7 @@ Vous pouvez réaffecter des ressources directement à partir d’une commande se
 ## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Pour réaffecter une ressource à l’aide du tableau d’affectation  
 Si la ressource affectée à une tâche service ne peut pas accomplir le travail, vous devez la réaffecter. Généralement, vous réaffectez des ressources aux tâches service à l’aide du **tableau d’affectation**.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableau d’affectation**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableau d’affectation**, puis choisissez le lien associé.  
 2. Dans le champ **Filtre affectation**, sélectionnez **Réaffectation nécessaire**. La page **Tableau d’affectation** affiche maintenant uniquement les commandes service comprenant des tâches service qui doivent être réaffectées.  
 3. Sélectionnez la commande service appropriée, puis sélectionnez l’action **Affectations ressources**. La page **Affectations ressources** s’ouvre.  
 4. Sélectionnez l’écriture affectation comprenant la tâche service à laquelle vous souhaitez réaffecter une ressource.  
@@ -109,7 +110,7 @@ Vous pouvez utiliser la même procédure pour enregistrer les heures sur la page
 
 Si la même ressource travaille sur tous les articles de service de la commande service, vous pouvez enregistrer le nombre total d’heures ressource pour un seul article de service, puis vous pouvez répartir les lignes ressource pour affecter les heures ressource aux autres articles de service.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tâches service**, puis choisissez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tâches service**, puis sélectionnez le lien associé.
 2. Sélectionnez la ligne comprenant l’article de service approprié, puis choisissez l’action **Feuille activité article**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -118,7 +119,7 @@ Si la même ressource, par exemple, un technicien, travaille sur tous les articl
 
 La procédure suivante explique comment répartir des lignes ressource sur la page **Lignes facture service**.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes service**, puis choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes service**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande service.  
 3. Dans le raccourci **Lignes**, sélectionnez l’action **Lignes de service**. La page **Lignes de service** s’ouvre.  
 4. sélectionnez la ligne ressource à répartir. La valeur du champ **Quantité** est répartie entre tous les articles de service de la commande.  
@@ -129,7 +130,7 @@ La procédure suivante explique comment répartir des lignes ressource sur la pa
 ## <a name="to-cancel-an-allocation"></a>Pour annuler des affectations :  
 Vous pouvez annuler des affectations de ressources pour des tâches service sans réaffecter les tâches.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableau d’affectation**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableau d’affectation**, puis choisissez le lien associé.  
 2. Choisissez la commande service, puis sélectionnez l’action **Affectations ressources**.  
 3. Choisissez l’écriture affectation contenant la tâche service pour laquelle vous souhaitez annuler l’affectation.  
 4. Sélectionnez l’action **Annuler affectation**.  

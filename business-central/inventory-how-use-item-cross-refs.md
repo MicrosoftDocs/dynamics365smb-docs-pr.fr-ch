@@ -1,66 +1,44 @@
 ---
-title: Utiliser références article
-description: Configurez des références entre les descriptions, les unités et les variantes que vous et votre fournisseur ou client utilisez pour un article.
-author: bholtorf
-ms.topic: conceptual
+title: Utiliser la table Référence externe article | Microsoft Docs
+description: Si vous configurez une référence externe entre la désignation article que vous utilisez pour un article et la désignation que le fournisseur de cet article utilise, la désignation de l'article du fournisseur est automatiquement insérée sur les documents achat du fournisseur lorsque vous renseignez le **N° référence externe**. .
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item reference, cross reference, inventory
-ms.search.forms: 5737, 5735, 5736
-ms.date: 10/27/2021
-ms.author: edupont
-ms.openlocfilehash: a53ce228f1edc337b8f3fb004984f80f6db5dec8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: ''
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: ca9f31b737fbd81bd1abba2a942301d0c9c919a6
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135330"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244060"
 ---
-# <a name="use-item-references"></a>Utiliser références article
+# <a name="use-item-cross-references"></a>Utiliser les références externes article
+Si vous configurez une référence externe entre la désignation article que vous utilisez pour un article et la désignation que le fournisseur de cet article utilise, la désignation de l'article du fournisseur est automatiquement insérée sur les documents achat du fournisseur lorsque vous renseignez le **N° référence externe**. . La même fonctionnalité s'applique pour les numéros d'article client sur les documents vente.
 
-Si vous achetez ou vendez des articles pour lesquels vous et votre fournisseur ou client utilisez des termes différents, vous pouvez définir une référence entre vos termes pour les articles et les termes que le client ou le fournisseur de cet article utilise. De cette façon, la description de l’article du fournisseur ou du client, l’unité ou le code variante est automatiquement inséré sur les documents pertinents lorsque vous remplissez le **Numéro de référence de l’article** .  
+Les procédures suivantes décrivent comment utiliser les références externes article côté achat. La procédure est identique côté achat.
 
-> [!NOTE]
-> [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
->
-> Toutes les entreprises n’utilisent pas de références d’articles. Pour minimiser l’encombrement des pages, nous avons masqué les champs et les actions associés par défaut. Si vous décidez de les utiliser, sélectionnez le champ **Utiliser les références article** sur la page **Paramètres stock**. Une fois que vous avez activé les références article, les champs et les actions sont disponibles sur les pages Fiche article, Fiche fournisseur et Fiche client, ainsi que dans les documents de vente et d’achat.
->
-> Dans les versions antérieures à la 2e vague de lancement 2021, votre administrateur peut activer les fonctionnalité *Écrire des références d’articles plus longues* sur la page [Gestion des fonctionnalités](https://businesscentral.dynamics.com/?page=2610) (le lien nécessite que vous ayez un client [!INCLUDE [prod_short](includes/prod_short.md)]). La façon dont vous utilisez les références ne change pas, mais les noms d’articles, tels que les pages et les boutons le seront. Par exemple, la page **Entrées de références croisées d’article** deviendra la page **Entrées de référence d’article**.
+## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Pour configurer une référence externe article à la description d'un article fournisseur
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Articles**, puis sélectionnez le lien associé.
+2. Ouvrez la fiche correspondant à l'article pour lequel vous souhaitez créer une référence externe à la description de l'article que le fournisseur utilise pour cet article.
+3. Choisissez l'action **Références externes**.
+4. Sur une nouvelle ligne de la page **Écritures de référence externe article**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
-## <a name="to-start-using-item-references"></a>Pour commencer à utiliser les références article
+## <a name="to-enter-a-vendors-item-description-on-a-purchase-order"></a>Pour saisir une description de l'article d'un fournisseur sur une commande achat
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes achat**, puis sélectionnez le lien associé.
+2. Créez une commande achat pour le fournisseur pour lequel vous avez créé une référence externe article dans la procédure précédente.
+3. Créez une ligne achat pour l'article pour lequel vous avez créé une référence externe article dans la procédure précédente.
+4. Dans le champ **N° type référence externe**, sélectionnez la référence externe article que vous avez créée, puis choisissez le bouton **OK**.
 
-[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
-
-1. Choisissez l’icône :::image type="icon" source="media/ui-search/search_small.png" border="false":::, saisissez **Paramètres stock**, puis choisissez le lien associé.
-2. Sélectionnez le champ **Utiliser les références d’articles**.
-
-## <a name="to-set-up-an-item-reference"></a>Pour configurer une référence article
-
-1. Choisissez l’icône :::image type="icon" source="media/ui-search/search_small.png" border="false":::, entrez **Articles**, puis choisissez le lien associé.
-2. Ouvrez la fiche d’un article pour lequel vous voulez créer une référence.
-3. Sélectionnez l’action **Références article**.
-
-     Si vous ne trouvez pas l’action **Références article**, choisissez d’afficher plus d’options, puis recherchez-la sous **Association** > **Article**.
-  
-4. Sur une nouvelle ligne de la page **Écritures de référence article**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
-
-La procédure suivante décrit comment spécifier la référence article sur une Commande achat. Les mêmes étapes s’appliquent aux documents vente et autres documents achat.  
-
-## <a name="to-enter-a-vendors-item-description-on-a-document"></a>Pour saisir une description de l’article d’un fournisseur sur un document
-
-1. Choisissez l’icône :::image type="icon" source="media/ui-search/search_small.png" border="false":::, entrez **Commandes achat**, puis choisissez le lien associé.
-2. Créez une commande achat pour le fournisseur pour lequel vous avez créé une référence article dans la procédure précédente.
-3. Créez une ligne achat pour l’article pour lequel vous avez créé une référence article dans la procédure précédente.
-4. Dans le champ **N° référence article**, sélectionnez la référence article pertinente, puis choisissez le bouton **OK**.
-
-Le champ **Description** de la ligne est remplacé par la description d’article du fournisseur, telle que configurée dans l’écriture référence article. Si la référence article comprend un code variante ou une unité, ces valeurs sont également copiées dans le document.  
+Le champ **Description** de la ligne est remplacé par la description d'article du fournisseur, tel que configuré dans l'écriture référence externe article.
 
 ## <a name="see-also"></a>Voir aussi
-
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
-[Stock](inventory-manage-inventory.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Inventaire](inventory-manage-inventory.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

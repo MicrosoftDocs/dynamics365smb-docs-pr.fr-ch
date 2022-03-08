@@ -2,19 +2,20 @@
 title: Configuration de la fonction arrondi facture
 description: Si vous devez arrondir des montants de factures lorsque vous créez des factures, vous pouvez utiliser la fonction d’arrondi automatique expliquée ici.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5, 16, 118, 459, 460, 495
+ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 781027b74912e8971d27d6b6c7613243c135cc1f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8220e0927dd6f22139164ff66dc6876a594b87be
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143493"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446355"
 ---
 # <a name="set-up-invoice-rounding"></a>Configuration de la fonction arrondi facture
 Si vous devez arrondir des montants de factures lorsque vous créez des factures, vous pouvez utiliser la fonction d’arrondi automatique. Lorsqu’une facture est arrondie, une ligne supplémentaire contenant le montant arrondi est ajoutée et validée avec les autres lignes facture.

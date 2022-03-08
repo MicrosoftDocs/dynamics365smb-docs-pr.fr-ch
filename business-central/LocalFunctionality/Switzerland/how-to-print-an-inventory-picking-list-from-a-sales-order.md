@@ -1,20 +1,21 @@
 ---
-title: Imprimer une liste des prélèvements de stock à partir d'une commande vente en Suisse
-description: Apprenez comment imprimer une liste des prélèvements de stock directement à partir d'une commande vente dans la version suisse de Business Central.
+title: Comment imprimer une liste des prélèvements de stock à partir d'une commande vente dans la version suisse
+description: Vous pouvez imprimer une liste des prélèvements de stock directement à partir d'une commande vente.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb8dd470517ebc4f77c02a3e98d8ca026e4041ac
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6cb32effa0660b2e508a48b1ff0c1368448fb615
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139998"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911705"
 ---
 # <a name="print-an-inventory-picking-list-from-a-sales-order-in-the-swiss-version"></a>Imprimer une liste des prélèvements de stock à partir d'une commande vente dans la version suisse
 
@@ -29,7 +30,7 @@ La liste des prélèvements inclut uniquement les articles dont la quantité d'e
 
 ## <a name="to-print-an-inventory-picking-list-from-a-sales-order"></a>Pour imprimer la liste des prélèvements de stock à partir d'une commande vente  
 
-1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez la commande vente requise, puis cliquez sur l'action **Modifier**.  
 3. Choisissez l'action **Liste des prélèvements**.  
 4. Sur le raccourci **Options**, dans le champ **Nombre de copies**, entrez le nombre de copies requis.  
@@ -39,6 +40,3 @@ La liste des prélèvements inclut uniquement les articles dont la quantité d'e
 
 [Documents vente et Documents achat, Suisse](swiss-purchase-documents-and-sales-documents.md)  
 [Importer les codes postaux suisses](how-to-import-swiss-post-codes.md)  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

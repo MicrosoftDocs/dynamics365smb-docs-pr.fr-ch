@@ -1,20 +1,21 @@
 ---
-title: Comment annuler la validation d’assemblage
-description: Parfois vous avez besoin d’annuler un ordre d’assemblage validé, par exemple parce que la facture a été validée avec des erreurs qui doivent être corrigées.
+title: 'Procédure : annuler la validation d’assemblage | Microsoft Docs'
+description: Vous pouvez parfois être amené à annuler un ordre d’assemblage validé, par exemple, si la commande a été validée avec des erreurs qui doivent être corrigées, ou parce qu’il n’aurait pas dû être validé en premier et doit être annulé.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 245eaede4bce79fa3626d5a8a8d102b9c190ccaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b5900edf081c40d8e92d83bf4741e145f8ed3056
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143779"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380671"
 ---
 # <a name="undo-assembly-posting"></a>Annuler la validation d’assemblage
 Vous pouvez parfois être amené à annuler un ordre d’assemblage validé, par exemple, si la commande a été validée avec des erreurs qui doivent être corrigées, ou parce qu’il n’aurait pas dû être validé en premier et doit être annulé.
@@ -39,7 +40,7 @@ De plus, les ordres d’assemblage existants ne peuvent être restaurés que si 
 La procédure suivante décrit comment annuler les ordres d’assemblage validés où les articles ont été assemblés pour stockage. Si vous souhaitez annuler les ordres d’assemblage validés pour lesquels les articles ont été assemblés pour une commande vente, vous devez exécuter la fonction **Annuler expédition** sur l’expédition validée qui se rapporte à l’ordre d’assemblage validé. Pour plus d’informations, voir [Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md). L’annulation de l’ordre d’assemblage validé se produit alors automatiquement de la même manière que celle décrite dans cette rubrique.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Pour annuler la validation d’un ordre d’assemblage  
-1.  Pour annuler un ordre d’assemblage entièrement ou partiellement validé, choisissez l’![ampoule qui ouvre la fonction Fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Ordres d’assemblage validés**, puis sélectionnez le lien associé.  
+1.  Pour annuler un ordre d’assemblage validé entièrement ou partiellement, choisissez l’icone ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ordres d’assemblage validés**, puis sélectionnez le lien associé.  
 
     La page **Ordres d’assemblage validés** s’ouvre avec un ou plusieurs ordres d’assemblage qui ont été validés à partir de l’ordre d’assemblage en question. Chaque validation partielle crée un ordre d’assemblage validé distinct.  
 2.  Ouvrez l’ordre d’assemblage validé que vous souhaitez annuler, puis choisissez **Annuler l’assemblage**.  

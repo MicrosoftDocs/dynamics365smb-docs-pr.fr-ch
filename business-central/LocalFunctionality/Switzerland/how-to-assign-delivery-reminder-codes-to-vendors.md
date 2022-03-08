@@ -2,6 +2,7 @@
 title: Affecter des codes de relance livraison à des fournisseurs [CH]
 description: Afin que vous puissiez activer les relances livraison pour les achats en retard, vous devez affecter des conditions de relance livraison à des fournisseurs dans la version suisse.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 5005270, 5005272
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: be17b992ec2e26ae97de100e7ad792000991a3a9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b4d12354d2e15d2a55b7520116e9f88acd6c3337
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129312"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947168"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a>Affecter des codes de relance livraison à des fournisseurs dans la version suisse
 

@@ -1,17 +1,18 @@
 ---
 title: Configurer des conditions de paiement
-description: Dans la version de base de Business Central, utilisez les conditions de paiement pour gérer les dates d’échéance et les remises de paiement.
+description: Dans la version de base de Business Central, utilisez les conditions de paiement pour gérer les dates d’échéance et les remises de paiement.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.form: 4
-ms.date: 04/01/2021
+ms.search.keywords: ''
+ms.date: 01/21/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: dfed018a58897b5e51f90fcce725c9060c32f3ea
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135999"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383415"
 ---
 # <a name="set-up-payment-terms"></a>Configurer des conditions de paiement
 
@@ -27,7 +28,7 @@ Si vous souhaitez envoyer à vos clients des rappels de paiements en retard, vou
 
 ## <a name="to-set-up-payment-terms"></a>Pour configurer des conditions de paiement
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions de paiement**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Conditions de paiement**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Après avoir configuré les conditions de paiement, affectez-les aux clients et fournisseurs. Vous pouvez éventuellement ajouter des conditions de paiement à vos modes de règlement.  

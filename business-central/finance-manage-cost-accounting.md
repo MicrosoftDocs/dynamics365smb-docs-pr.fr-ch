@@ -2,19 +2,20 @@
 title: Comptabilité pour les coûts | Microsoft Docs
 description: La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activié. Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2b4d785697d12f00e6a2621d914d696e444faab5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148651"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750620"
 ---
 # <a name="accounting-for-costs"></a>Comptabilité pour les coûts
 La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activité. Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.  
@@ -35,6 +36,3 @@ La comptabilité analytique vous permet de cerner les coûts liés à l’exploi
 [Finances](finance.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

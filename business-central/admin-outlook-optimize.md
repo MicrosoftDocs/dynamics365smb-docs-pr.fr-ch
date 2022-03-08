@@ -2,6 +2,7 @@
 title: Optimisation d’Outlook pour votre boîte de réception professionnelle
 description: Découvrez ce que vous pouvez faire pour améliorer l’expérience avec la boîte de réception professionnelle dans Microsoft Outlook.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 1726162e25b3a488df0d179c702c9c99afcc5c91
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 24718b65fe5a5795d2a5a92a20fe4eb32aa4b2ac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143987"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437506"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Optimisation d’Outlook pour votre boîte de réception professionnelle 
 
@@ -29,7 +30,7 @@ Effectuez une mise à jour vers Outlook version 2012 ou une version plus récent
 
 ### <a name="how-to-check-your-version-of-outlook"></a>Comment vérifier votre version d’Outlook
 
-Que vous utilisiez Office 2019 ou Microsoft 365, suivez ce guide de support Microsoft pour vérifier votre version d’Outlook :  
+Que vous utilisiez Office 2019 ou Microsoft 365, suivez ce guide de support Microsoft pour vérifier votre version d’Outlook :  
 
 [À propos d’Office : quelle version d’Office est-ce que j’utilise ?](https://support.microsoft.com/office/about-office-what-version-of-office-am-i-using-932788b8-a3ce-44bf-bb09-e334518b8b19)
 

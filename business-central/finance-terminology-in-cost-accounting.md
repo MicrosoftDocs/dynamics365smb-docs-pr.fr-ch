@@ -1,27 +1,26 @@
 ---
-title: Terminologie en comptabilité analytique
-description: Cette rubrique définit les termes clés utilisés dans la comptabilité analytique, tels que la clé de répartition et la source de répartition.
+title: Terminologie de la comptabilité analytique | Microsoft Docs
+description: Cette rubrique définit les conditions principales qui sont utilisés en comptabilité analytique.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4ba3cb0930426f44c1064f4d565b8ddaf8563fdd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0b6c9507878d7a508821426012cc9a54cab5919a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147585"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392839"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologie en comptabilité analytique
-
 Cette rubrique définit les conditions principales qui sont utilisés en comptabilité analytique.  
 
-## <a name="key-terms"></a>Conditions principales
-
+## <a name="key-terms"></a>Conditions principales  
  Le tableau suivant définit les conditions principales en comptabilité analytique.  
 
 |**Terme**|**Définition**|  

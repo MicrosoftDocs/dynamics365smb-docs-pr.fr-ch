@@ -2,20 +2,20 @@
 title: Utilisation de feuilles comptabilité pour valider directement dans la comptabilité
 description: Découvrez comment utiliser les feuilles pour valider des transactions financières dans les comptes généraux et dans d’autres comptes, tels que les comptes bancaires et fournisseur. Utilisez des feuilles abonnement pour valider les régularisations et allouer les soldes par sections analytiques.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
-ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1d042d2a399f6bf0fb329aa9287e4ced37e43fef
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323099"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087734"
 ---
 # <a name="working-with-general-journals"></a>Utilisation de feuilles comptabilité
 
@@ -152,7 +152,7 @@ Lorsque vous créez des lignes feuille dont vous savez que vous risquez de les r
 >   la procédure suivante traite de la feuille article mais concerne également la feuille comptabilité.
 
 ### <a name="to-save-a-standard-journal"></a>Pour enregistrer une feuille standard
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles article**, puis choisissez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles article**, puis sélectionnez le lien associé.
 2. Entrez le code sur une ou plusieurs lignes feuille.
 3. Sélectionnez les lignes feuille à réutiliser.
 4. Choisissez l’action **Enregistrer en tant que feuille standard**.
@@ -168,7 +168,7 @@ Une fois l’enregistrement de la feuille article standard effectué, la page Fe
 
 ### <a name="to-reuse-a-standard-journal"></a>Pour réutiliser une feuille standard
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles article**, puis choisissez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles article**, puis sélectionnez le lien associé.
 2. Choisissez l’action **Obtenir les feuilles standard**.
 
     La page Feuilles article standard qui s’ouvre alors contient des codes et des descriptions de toutes les feuilles article standard existantes.
@@ -205,7 +205,7 @@ Toute renumérotation des numéros de document respectera les lettrages associé
 
 La procédure suivante est basée sur la page **Feuille comptabilité**, mais s’applique à toutes les autres feuilles qui sont basées sur la feuille comptabilité, tel que la page **Feuille paiement**.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles comptabilité**, puis choisissez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles comptabilité**, puis sélectionnez le lien associé.
 2. Lorsque vous êtes prêt à valider la feuille, choisissez l’action **Renuméroter les numéros de document**.
 
 Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, pour que le numéro de document sur les lignes feuille individuelles ou groupées soit dans un ordre séquentiel. Une fois que les documents sont renumérotés, vous pouvez procéder à la validation de la feuille.

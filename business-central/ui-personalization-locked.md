@@ -2,28 +2,28 @@
 title: Pourquoi je ne peux pas personnaliser une page
 description: Explique pourquoi vous ne pouvez pas personnaliser une page et ce que vous pouvez faire pour la déverrouiller et pouvoir ainsi la personnaliser.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dd94d467961cf4f01fdffa35241d84371be64527
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8fd90f7bf90209496f67d52ab32a93cfdbaf803f
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335333"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087659"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Pourquoi la personnalisation d’une page est verrouillée
 
-Deux conditions vous empêchent de personnaliser une page. La page est verrouillée (comme indiqué par l’icône ![Verrouillage personnalisé.](media/personalization-lock-icon.png "Verrouillage de personnalisation")) ou bloquée (comme indiqué par l’icône ![Personnalisation bloquée.](media/personalization-blocked-icon.png "Personnalisation bloquée") .
+Deux conditions vous empêchent de personnaliser une page. La page est verrouillée (comme indiqué par l’icône ![Verrouillage de personnalisation](media/personalization-lock-icon.png "Verrouillage de personnalisation")) ou bloquée (comme indiqué par l’icône ![Personnalisation bloquée](media/personalization-blocked-icon.png "Personnalisation bloquée")).
 
 ## <a name="locked-from-personalizing"></a>Personnalisation verrouillée
 
-S’il y a un ![Verrouillage personnalisé.](media/personalization-lock-icon.png "Verrouillage de personnalisation") S’il existe une icône de verrouillage dans la bannière **Personnalisation** lorsque vous ouvrez une page, cela signifie que vous ne pouvez pas apporter d’autres modifications de personnalisation à la page.
+S’il existe une icône ![Verrouillage de personnalisation](media/personalization-lock-icon.png "Verrouillage de personnalisation") dans la bannière **Personnalisation** lorsque vous ouvrez une page, cela signifie que vous ne pouvez pas apporter d’autres modifications de personnalisation à la page.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -44,13 +44,13 @@ Avant de déverrouiller la page, veillez à ce qui suit :
 
 - La personnalisation actuelle de la page est désactivée. La page reviendra à sa mise en page d’origine et vous devrez recommencer à zéro.
 
-- Dans [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], la page reste telle quelle et n’est pas affectée par les modifications apportées à la nouvelle personnalisation dans le client Business Central. En outre, la personnalisation dans [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] et le client Business Central sont entièrement distinctes l’une de l’autre.
+- Dans [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], la page reste telle quelle et n’est pas affectée par les modifications apportées à la nouvelle personnalisation dans le client Business Central. En outre, la personnalisation dans [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] et le client Business Central sont entièrement distinctes l’une de l’autre.
 
 ## <a name="blocked-from-personalizing"></a>Personnalisation bloquée
 
 S’il y a une icône ![Personnalisation bloquée](media/personalization-blocked-icon.png "Personnalisation bloquée") dans la bannière **Personnalisation**, cela signifie que vous ne pouvez pas apporter de personnalisation à la page.
 
-<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked.](media/personalization-blocked.png "Personalize lock") -->
+<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 
 La raison à cela n’est autre que le Tableau de bord ou le rôle actuellement associé à votre compte d’utilisateur modifie cette page notamment pour votre rôle. Contactez votre administrateur pour obtenir de l’aide. Sinon, essayez de passer à un Tableau de bord qui inclut la personnalisation des rôles pour cette page. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
 

@@ -2,20 +2,20 @@
 title: Définir des autorisations granulaires
 description: Cette rubrique décrit comment définir des autorisations granulaires en donnant à certains utilisateurs l’accès aux objets et en leur attribuant des ensembles d’autorisations.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 9807, 9808, 9830, 9831
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c0dedf8ba397bb1a50f81de0435abf5e4e726404
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146139"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443732"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Attribuer des autorisations aux utilisateurs et aux groupes
 
@@ -159,9 +159,6 @@ Dans chacun des cinq champs de types d’accès, **Lecture**, **Insertion**, **M
 |**Indirect**|L’utilisateur peut exécuter l’action sur l’objet en question mais uniquement via un autre objet associé auquel l’utilisateur a un accès total. Pour plus d’informations sur les autorisations indirectes, voir [Propriété Autorisations](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) dans l’aide sur Developer and IT-Pro|Deuxièmement plus élevé|
 |**Vide**|L’utilisateur ne peut pas exécuter l’action sur l’objet en question.|Le moins élevé|
 
-> [!IMPORTANT]
-> Soyez prudent lorsque vous attribuez **Insérer l’autorisation** ou **Modifier l’autorisation** dans la table **9001 Membre du groupe d’utilisateurs** ou **9003 Ensemble d’autorisations de groupe d’utilisateurs**. Tous les utilisateurs affectés à l’ensemble d’autorisations pourraient potentiellement s’attribuer eux-mêmes à d’autres groupes d’utilisateurs, qui à leur tour, pourraient leur donner involontairement des autorisations.
-
 ### <a name="example---indirect-permission"></a>Exemple- Autorisation indirecte
 
 L’autorisation indirecte vous permet d’utiliser un objet uniquement au travers d’un autre objet.
@@ -264,8 +261,8 @@ Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour envoy
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
-[Ajouter des utilisateurs à Microsoft 365 pour les entreprises](/microsoft-365/admin/add-users/add-users)  
-[Sécurité et protection dans Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) dans l'aide sur Developer and IT-Pro
+[Ajouter des utilisateurs à Microsoft 365 pour les entreprises](/microsoft-365/admin/add-users/add-users)  
+[Sécurité et protection dans Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) dans l’aide sur Developer and IT-Pro
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

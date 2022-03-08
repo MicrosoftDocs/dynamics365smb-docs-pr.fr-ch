@@ -1,34 +1,34 @@
 ---
-title: Création de budgets comptabilité
+title: Création de budgets comptabilité | Microsoft Docs
 description: Décrit la création de budgets comptabilité pour prévoir différentes activités financières et affecter des axes analytiques à des fins de veille économique.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 66bd2ae0b30c8c13a6fb8285afd36f4a3495b609
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 525cc099b2a9b2630395a092761e0526f4760356
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138611"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444677"
 ---
 # <a name="create-gl-budgets"></a>Créer des budgets comptabilité
-
 Vous pouvez avoir plusieurs budgets pour des périodes identiques en les créant sous des noms différents. Vous indiquez d’abord le nom du budget et entrez les chiffres correspondants. Le nom du budget est ensuite inclus sur toutes les écritures budget que vous créez.  
 
 Lorsque vous créez un budget, vous pouvez définir quatre axes analytiques par budget. Ces axes analytiques propres au budget sont appelés axes budget. Vous sélectionnez les axes budget pour chaque budget parmi les axes analytiques que vous avez déjà configurés. Les axes budget peuvent être utilisés pour positionner des filtres sur un budget et pour ajouter des informations analytiques aux écritures budget. Pour plus d’informations, reportez-vous à [Utilisation des axes](finance-dimensions.md).
 
 Les budgets jouent un rôle important dans la veille économique, par exemple dans les états financiers basés sur des tableaux d’analyse incluant des écritures budget ou lors de l’analyse des montants budgétés et des montants réels dans le plan comptable. Pour plus d’informations, reportez-vous à [Veille économique](bi.md).
 
-En comptabilité analytique, vous travaillez avec des budgets de coûts de manière similaire. Pour plus d’informations, voir [Procédure : Créer des budgets de coûts](finance-create-cost-budgets.md).  
+En comptabilité analytique, vous travaillez avec des budgets de coûts de manière similaire. Pour plus d’informations, voir [Procédure : Créer des budgets de coûts](finance-create-cost-budgets.md).    
 
-## <a name="to-create-a-new-gl-budget"></a>Pour créer un budget comptabilité
-
+## <a name="to-create-a-new-gl-budget"></a>Pour créer un budget comptabilité  
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Budgets comptables**, puis choisissez le lien associé.  
 2. Cliquez sur **Modifier la liste**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Sélectionnez **Modifier budget**.
@@ -40,10 +40,9 @@ En comptabilité analytique, vous travaillez avec des budgets de coûts de mani�
 7. Répétez les étapes 5 et 6 jusqu’à ce que vous ayez entré tous les montant du budget.  
 
 > [!NOTE]  
-> Sur le raccourci **Filtres**, vous pouvez filtrer les informations sur le budget selon le nombre d’axes budget configurés sous le nom du budget.
+>  Sur le raccourci **Filtres**, vous pouvez filtrer les informations sur le budget selon le nombre d’axes budget configurés sous le nom du budget.
 
 ## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Exportation et importation de budgets comptables vers Excel
-
 Comme pour la majorité des autres pages, vous pouvez exporter des données des pages de budget vers Excel pour les traiter ou les analyser ultérieurement. Pour plus d’informations, voir [Exportation de vos données métier vers Excel](about-export-data.md).
 
 > [!NOTE]
@@ -52,7 +51,6 @@ Comme pour la majorité des autres pages, vous pouvez exporter des données des 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
-
 [Exportation de vos données métier vers Excel](about-export-data.md)  
 [Finances](finance.md)  
 [Veille économique](bi.md)  

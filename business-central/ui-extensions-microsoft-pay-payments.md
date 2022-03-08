@@ -4,18 +4,19 @@ description: L’extension Microsoft Pay ajoute un lien Microsoft Pay à vos doc
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d5668db9d0a7fa9b461a19949643ca7a2cc01a31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 574ebae554b21c5184a5e1c2bcd5ae9b0d34f817
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132539"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322942"
 ---
 # <a name="the-microsoft-pay-extension"></a>Extension Microsoft Pay
 

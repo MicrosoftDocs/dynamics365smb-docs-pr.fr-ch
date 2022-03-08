@@ -1,27 +1,28 @@
 ---
-title: Ajout d’informations aux enregistrements | Microsoft Docs
-description: Ajoutez une note à un enregistrement dans l’application. Par exemple, si vous disposez d’informations supplémentaires sur une commande vente qui ne correspondent à aucun des champs de la commande vente, vous pouvez rédiger une procédure.
+title: Ajout d'informations aux enregistrements | Microsoft Docs
+description: Ajoutez une note à un enregistrement dans l'application. Par exemple, si vous disposez d'informations supplémentaires sur une commande vente qui ne correspondent à aucun des champs de la commande vente, vous pouvez rédiger une procédure.
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a641c8e411b14df7097299b696d74fc56f68bd92
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 29be6613c251316f8b6eec5478677302d2806ca3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129567"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189450"
 ---
 # <a name="add-and-view-notes-on-records"></a>Ajouter et afficher des notes sur des enregistrements
- Vous <!--OnPrem and your colleagues -->pouvez ajouter des notes à des enregistrements dans l’application. De nombreuses page, en particulier celles qui affichent une liste d’enregistrements, comme la page **Commandes vente**, incluent l’action **Notes** ou le récapitulatif **Notes**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
+ Vous <!--OnPrem and your colleagues -->pouvez ajouter des notes à des enregistrements dans l'application. De nombreuses page, en particulier celles qui affichent une liste d'enregistrements, comme la page **Commandes vente**, incluent l'action **Notes** ou le récapitulatif **Notes**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
  > [!NOTE]  
- >  Cette fonction n’est pas disponible pour l’instant.  
+ >  Cette fonction n'est pas disponible pour l'instant.  
 
 <!--OnPrem
 > [!NOTE]  
@@ -47,7 +48,4 @@ ms.locfileid: "8129567"
 <!--OnPrem
 3.  Choose the **OK** button.  -->
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

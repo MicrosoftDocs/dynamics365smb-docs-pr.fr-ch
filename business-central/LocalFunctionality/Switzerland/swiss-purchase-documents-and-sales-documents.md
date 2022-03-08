@@ -1,20 +1,21 @@
 ---
 title: Documents vente et Documents achat, Suisse
-description: Cet article décrit les améliorations apportées à la version suisse de Business Central, notamment aux fonctions spéciales des documents vente et achat en Suisse.
+description: Les améliorations suisses comprennent des fonctions spéciales propres aux documents d'achat et de vente.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/21/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2a0094a9c20d306831bed9e9aefd2d21a0382499
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: adf1f1f26969fc74883f825232a91a6cf8b4195b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139990"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382682"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documents vente et Documents achat, Suisse
 [!INCLUDE[prod_short](../../includes/prod_short.md)] comprend des améliorations suisses propres aux documents d'achat et de vente. Notamment :  

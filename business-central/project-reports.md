@@ -2,16 +2,17 @@
 title: États et analyses de projet
 description: Découvrez les états et analyses de projet disponibles dans la version standard de Business Central afin que vous puissiez suivre votre activité.
 author: AndreiPanko
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 7ec46596e4e69d4e83038d2e74bbcbc215c3033b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c4c39e7881839bbf890ef74eb4ecedee578a6c52
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137406"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102696"
 ---
 # <a name="project-reports-and-analytics-in-business-central"></a>États et analyses de projet dans Business Central
 

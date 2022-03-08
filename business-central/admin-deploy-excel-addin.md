@@ -2,6 +2,7 @@
 title: Obtention du complément Business Central pour Excel
 description: Découvrez comment fournir aux utilisateurs le complément Business Central pour Excel.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6bb034f9809f4241a4a538d6ecb133976fb60fb2
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141426"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865507"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Obtenir le complément Business Central pour Excel
 
@@ -66,11 +67,11 @@ Le déploiement centralisé est une fonctionnalité du centre d’administration
 
 ### <a name="set-up-centralized-deployment-of-the-add-in"></a>Configurer le déploiement centralisé du complément
 
-Vous travaillerez à la fois dans [!INCLUDE[prod_short](includes/prod_short.md)] et dans le centre d’administration de Microsoft 365.
+Vous travaillerez à la fois dans [!INCLUDE[prod_short](includes/prod_short.md)] et le centre d’administration de Microsoft 365.
 
 1. Dans [!INCLUDE[prod_short](includes/prod_short.md)], sélectionnez l’![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Déploiement centralisé du complément Excel**, puis sélectionnez le lien associé.
 2. Lisez les informations de la page **Configuration du complément Business Central pour Excel** et sélectionnez **Suivant**.
-3. Connectez-vous au [Centre d’administration Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2163967), puis accédez à **Applications intégrées**<!--**Add-ins**-->.
+3. Connectez-vous au [Centre d’administration de Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2163967) et accédez à **Applications intégrées**<!--**Add-ins**-->.
 
     Effectuez les étapes suivantes pour configurer le complément à déployer à partir de l’Office Store : 
     1. Sélectionnez **Obtenir des applications** pour ouvrir l’Office Store (AppSource). <!--**Deploy Add-in** 5. In the **Deploy a new add-in**, select **Choose from the store**.-->

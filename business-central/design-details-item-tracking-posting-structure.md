@@ -1,20 +1,21 @@
 ---
-title: Détails de conception - Structure de validation de traçabilité
-description: Découvrez comment utiliser les écritures comptables article comme principal opérateur des numéros traçabilité dans la structure de validation de traçabilité.
+title: Détails de conception - Structure de validation de traçabilité | Microsoft Docs
+description: Découvrez comment utiliser les écritures comptables article comme principal opérateur des numéros traçabilité.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b568e62a71b907e8d2f9cbc8eba43773be655b44
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95e6c596e9a9782aa6f457164310b9d0942332d7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136337"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390914"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Détails de conception : structure de validation de traçabilité
 Pour s’aligner sur la fonctionnalité d’évaluation du stock et obtenir une solution plus simple et plus robuste, les écritures comptables article sont utilisées comme principal opérateur des numéros de suivi d’article.  

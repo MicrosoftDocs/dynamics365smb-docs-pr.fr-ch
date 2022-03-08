@@ -2,6 +2,7 @@
 title: Synchronisation et intégration des données | Microsoft Docs
 description: La synchronisation copie les données entre les tables Microsoft Dataverse et les enregistrements de Business Central et conserve les données à jour dans les deux systèmes.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +10,15 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ceef56f1b951b5c9f1621d463276ec1d22c44da4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 09990c620dbd6bd3e1cd00af594426851a4c1546
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148839"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865378"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronisation des données dans Business Central avec Microsoft Dataverse
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Lorsque vous intégrez [!INCLUDE[prod_short](includes/cds_long_md.md)] avec [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez décider si vous souhaitez synchroniser les données dans les champs sélectionnés des enregistrements [!INCLUDE[prod_short](includes/prod_short.md)] (tels que les clients, contacts et les vendeurs) avec les lignes équivalentes dans [!INCLUDE[prod_short](includes/cds_long_md.md)] (tels que les comptes, les contacts et les utilisateurs). Selon le type de ligne, vous pouvez synchroniser les données de [!INCLUDE[prod_short](includes/cds_long_md.md)] vers [!INCLUDE[prod_short](includes/prod_short.md)], ou vice versa. Pour plus d’informations, reportez-vous à la rubrique [Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 

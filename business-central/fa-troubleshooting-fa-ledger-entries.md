@@ -3,6 +3,7 @@ title: L’extension Dépannage des écritures comptables immobilisation
 description: Il est plus facile de travailler avec des nombres entiers. Utilisez cette extension pour arrondir les montants des immobilisations dans les écritures comptables immobilisation.
 documentationcenter: ''
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bad9c995f87a3a4dfc598989e68b8e2b047a7d5d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 39bfc61cf928b6556a3c54625c8b6f9221553c93
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142330"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865605"
 ---
 # <a name="the-troubleshooting-fa-ledger-entries-extension"></a>L’extension Dépannage des écritures comptables immobilisation
 Utilisez l’extension Dépannage des écritures comptables immobilisation pour arrondir les montants d’amortissement et d’acquisition dans les écritures comptables immobilisation à des nombres entiers. Par exemple, pour arrondir un montant de 30 000,44 à 30 000. Les causes habituelles des problèmes d’arrondi sont la migration des données, le démarrage soudain de la validation de montants dans la comptabilité ou les personnalisations que vous avez apportées à votre [!INCLUDE[prod_short](includes/prod_short.md)].

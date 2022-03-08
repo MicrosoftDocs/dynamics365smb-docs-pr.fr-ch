@@ -1,20 +1,21 @@
 ---
-title: Expédier des articles
-description: Cette rubrique décrit comment expédier des articles depuis votre entrepôt en fonction de la configuration de votre entrepôt pour le traitement des expéditions.
+title: Comment expédier des articles | Microsoft Docs
+description: En fonction de votre configuration de stockage, vous pouvez enregistrer l’expédition sur le document d’entreprise sortant associé, comme une commande vente, directement, ou vous pouvez utiliser les documents expédition entrepôt qui respectent un flux et s’intègrent à différentes activités entrepôt.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362
-ms.date: 06/24/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4cf357c8fac13c4f6ed714ee108020adc53686cc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2fdfd166ca6223fff8d611688e592caa0442a2ca
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144426"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392014"
 ---
 # <a name="ship-items"></a>Expédier des articles
 
@@ -29,7 +30,7 @@ Lorsque vous expédiez des articles à partir d’un entrepôt qui est configur�
 
 Ce qui suit décrit comment expédier des articles pour une commande vente. Les étapes sont similaires pour les retours achat, les commandes service et les ordres de transfert sortants.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.
 2. Ouvrez une commande vente existante, ou créez-en une nouvelle. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
 3. Dans le champ **Qté à expédier**, indiquez la quantité expédiée.
 
@@ -47,7 +48,7 @@ Premièrement, vous créez un document expédition à partir d’un document ori
 
 Généralement, l’employé qui est chargé de l’expédition crée une expédition entrepôt. La procédure suivante décrit comment créer l’expédition manuellement dans la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)], mais votre organisation peut avoir automatisé une partie du processus, par exemple en utilisant des scanners portables ou montés pris en charge par des fournisseurs externes.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expéditions entrepôt**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Expéditions entrepôt**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 
     Renseignez les champs du raccourci **Général**. Lorsque vous récupérez des lignes document origine, certaines des informations de l’en-tête sont copiées dans chaque ligne.  
@@ -82,12 +83,12 @@ Lorsque vous disposez des lignes à expédier, vous pouvez lancer le processus q
 
 Généralement, un magasinier chargé du prélèvement crée un document prélèvement, ou ouvre un document prélèvement déjà créé.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expéditions entrepôt**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Expéditions entrepôt**, puis sélectionnez le lien associé.
 2. Sélectionnez l’expédition entrepôt que vous souhaitez prélever, puis sélectionnez l’action **Créer prélèvement**.
 3. Renseignez les champs de la page de demande, puis cliquez sur le bouton **OK**. Le document prélèvement entrepôt spécifié est créé.
 
     Sinon, ouvrez un prélèvement entrepôt existant.
-4. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements**, puis choisissez le lien associé. Sélectionnez le prélèvement entrepôt que vous souhaitez utiliser.
+4. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements**, puis sélectionnez le lien associé. Sélectionnez le prélèvement entrepôt que vous souhaitez utiliser.
 
     Si l’entrepôt est configuré pour utiliser des emplacements, alors les lignes prélèvement sont converties en lignes action Prélever et Ranger.
 

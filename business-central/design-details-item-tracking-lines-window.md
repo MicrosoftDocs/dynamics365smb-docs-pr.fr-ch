@@ -1,20 +1,21 @@
 ---
-title: 'Détails de conception : page Lignes traçabilité'
-description: Découvrez comment gérer le flux de numéros de série et de lot dans votre stock à l’aide de la page Lignes traçabilité.
+title: Détails de conception - page Lignes traçabilité | Microsoft Docs
+description: Découvrez comment gérer le flux de numéros de série et de lot dans votre stock.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43c6c6dedbc7a1b35e5aa05d0ed42fb986c01f3f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a577d1fbb3744a7af899957af5ecb3b714bd8296
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146678"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917366"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Détails de conception : page Lignes traçabilité
 Les enregistrements de traçabilité et de réservation sont créés dans le système de réservation, et leur disponibilité est calculée de façon dynamique. Les données qui sont saisies sur la page **Lignes traçabilité** sont gérées dans une version temporaire de la table **Spécification traçabilité**. Lorsque la page est fermée, les données actives sont validées dans le tableau **Écriture réservation** et les données historiques sont validées dans le tableau **Spécification traçabilité**. Pour plus d’informations, voir [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md).  
@@ -31,5 +32,3 @@ Les règles de saisie des données de la page **Lignes traçabilité** prennent 
   
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : traçabilité](design-details-item-tracking.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

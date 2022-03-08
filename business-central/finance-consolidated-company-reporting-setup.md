@@ -1,21 +1,21 @@
 ---
 title: Configurer la consolidation de la société
-description: Découvrez comment vous pouvez configurer la manière dont les données de différentes sociétés dans Business Central sont transmises à une société de consolidation.
+description: Découvrez comment vous pouvez configurer la manière dont les données de différentes sociétés dans Business Central sont transmises à une société de consolidation.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2f28ea1822677e1690f5cf3b5fb68afca221b9f8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f51e65930303cf3600edf54c2056b2bd938e718
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149090"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381053"
 ---
 # <a name="set-up-company-consolidation"></a>Configurer la consolidation de la société
 
@@ -30,7 +30,6 @@ En fonction de la complexité de vos entreprises, il existe deux façons de conf
 
 ## <a name="simple-consolidation-setup"></a>Configuration d’une consolidation simple
 
-[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Si votre consolidation est simple, car vous détenez en totalité les centres de profit à consolider, le guide de configuration assistée **Consolidation de la société** vous aide à effectuer les étapes suivantes :
 
 * Choisissez si vous souhaitez créer une société consolidée, ou consolider les données dans une société que vous avez déjà créée pour la consolidation. La société ne doit pas contenir de transactions.
@@ -74,7 +73,7 @@ La liste suivante illustre les principaux aspects de la société consolidée.
 [!INCLUDE[prod_short](includes/prod_short.md)] vous permet de créer une liste de centres de profit à consolider, de vérifier les données comptables avant leur consolidation, d’importer des fichiers et de générer des états de consolidation.  
 
 1. Connectez-vous à la société consolidée.
-2. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Centres de profit**, puis choisissez le lien associé.  
+2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
 3. Sélectionnez **Nouveau**, puis renseignez les champs requis. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -89,7 +88,7 @@ Le plan comptable d’une société qui sera consolidée doit spécifier des com
 
 Si le plan comptable du centre de profit diffère de celui de la société consolidée, vous devez préparer les comptes généraux pour la consolidation. Vous pouvez spécifier les comptes sur lesquels valider les débits et crédits et la méthode à utiliser pour convertir des devises dans la société consolidée. Par exemple, cela est utile si vous exécutez souvent l’état.
 
-1. Dans chaque unité commerciale [!INCLUDE [prod_short](includes/prod_short.md)], sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
+1. Dans [!INCLUDE [prod_short](includes/prod_short.md)] de chaque centre de profit, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche du compte, puis renseignez les champs du raccourci **Consolidation**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Indiquer des taux de change pour les consolidations
@@ -109,7 +108,7 @@ Le tableau suivant décrit les méthodes de conversion de taux de change que vou
 
 Pour spécifier des taux de change pour les centres de profit, procédez comme suit :
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Centres de profit**, puis choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
 2. Sur la page **Liste des centres de profit**, choisissez le centre de profit, puis choisissez l’action **Taux moyen (manuel)**.  
 3. Sur la page **Modifier taux de change**, la valeur du champ **Montant taux de change lié** est copiée à partir de la table **Taux de change devise**, mais vous pouvez la modifier. Fermez la page.  
 4. Choisissez l’action **Taux de clôture**.  

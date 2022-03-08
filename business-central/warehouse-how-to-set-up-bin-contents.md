@@ -2,19 +2,20 @@
 title: Créer le contenu d’un emplacement
 description: Une fois que vous avez configuré vos emplacements, vous pouvez spécifier les articles à y stocker et configurer des règles qui contrôlent la fréquence de remplissage des emplacements.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7374
-ms.date: 04/01/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b1332240d6c6b0e43bada158fe11e82d42e0119f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f7cfb33d1eb8966817750f89dd992244bf0b5b7f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144244"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383640"
 ---
 # <a name="create-bin-contents"></a>Créer le contenu d’un emplacement
 
@@ -22,7 +23,7 @@ Une fois la configuration des emplacements terminée, vous pouvez configurer leu
 
 ## <a name="to-create-bin-content-manually"></a>Pour créer le contenu d’emplacement manuellement
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.  
 2. Sélectionnez le magasin à partir duquel vous souhaitez créer un contenu d’emplacement, puis choisissez l’action **Emplacements**.  
 3. Sélectionnez l’emplacement à partir duquel vous souhaitez créer un contenu, puis choisissez l’action **Contenus**.  
 4. Pour chaque article que vous souhaitez stocker dans l’emplacement, renseignez une ligne de la page **Contenu emplacement** avec les informations appropriées. Certains champs sont déjà renseignés avec des informations relatives à l’emplacement.  
@@ -41,7 +42,7 @@ Si vous sélectionnez le champ **Fixe**, vous associez l’article à l’emplac
 
 Lorsque vous avez créé vos emplacements, vous pouvez créer le contenu de chaque emplacement dans la feuille de création de contenu d’emplacement.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille création contenu emplacement**, et choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille création contenu emplacement**, puis choisissez le lien associé.  
 2. Dans l’en-tête feuille, cliquez dans le champ **Nom** et sélectionnez la feuille du magasin où vous souhaitez créer le contenu d’un emplacement.  
 3. Dans le champ **Code emplacement**, sélectionnez le code de l’emplacement dont vous souhaitez définir le contenu.  
 

@@ -1,7 +1,8 @@
 ---
-title: Spécifier quand et comment recevoir des notifications de workflow
-description: Lorsque vous configurez des utilisateurs dans des workflows d’approbation, vous pouvez spécifier comment et quand chaque utilisateur d’approbation reçoit des notifications.
+title: Spécifier quand et comment recevoir des notifications
+description: Lorsque vous paramétrez des utilisateurs dans des flux de travail d’approbation, spécifiez sur les pages Paramètres de notification et Tableau de notification quand et comment chaque utilisateur reçoit des notifications sur les étapes du flux de travail d’approbation à propos des étapes du flux de travail d’approbation.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,30 +10,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 098d7a5f677310916484bcff652ff9557c96478f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129191"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445060"
 ---
-# <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Spécifier quand et comment recevoir des notifications de workflow
-Lorsque vous configurez des utilisateurs d’approbation dans des workflows où vous souhaitez que quelqu’un approuve les modifications, par exemple lorsque des enregistrements sont créés ou lorsque quelqu’un demande une approbation, vous devez spécifier comment et quand l’utilisateur d’approbation sera averti. Par exemple, vous pouvez spécifier qu’un utilisateur d’approbation recevra immédiatement un e-mail lorsque quelqu’un créera un client. Sinon, vous pouvez programmer les notifications à envoyer, par exemple, sur une base hebdomadaire ou mensuelle.
-
-Les personnes peuvent également modifier leur paramètre de notification en choisissant le bouton **Changer les paramètres de notification** sur toute notification.  
+# <a name="specify-when-and-how-to-receive-notifications"></a>Spécifier quand et comment recevoir des notifications
+Lorsque vous paramétrez des utilisateurs dans des flux de travail d’approbation, vous devez spécifier sur les pages **Paramètres de notification** et **Tableau de notification** quand et comment chaque utilisateur reçoit des notifications sur les étapes du flux de travail d’approbation. Les utilisateurs individuels peuvent également modifier leur paramètre de notification en choisissant le bouton **Changer les paramètres de notification** sur toute notification.  
 
 > [!NOTE]
-> Les notifications sont envoyées en fonction des paramètres de notification pour le destinataire, et non l’expéditeur. Cette distinction est importante, car cela signifie que lorsqu’un utilisateur demande une approbation dans le cadre d’un flux de travail, sa demande n’est pas nécessairement envoyée immédiatement. Au lieu de cela, elle sera remise selon le calendrier de notification spécifié dans les paramètres de notification de l’approbateur. 
+> Les notifications sont envoyées en fonction des paramètres de notification pour le destinataire, et non l’expéditeur. Cette distinction est importante, car cela signifie que lorsqu’un utilisateur demande une approbation dans le cadre d’un flux de travail, sa demande n’est pas nécessairement envoyée immédiatement. Elle est envoyée conformément aux paramètres de notification des approbateurs. 
 
-Avant de pouvoir paramétrer des préférences de notification d’un utilisateur approbation, vous devez configurer l’utilisateur en tant qu’utilisateur approbation. Pour plus d’informations, voir [Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md).  
+ Avant de pouvoir paramétrer des préférences de notification d’un utilisateur approbation, vous devez configurer l’utilisateur en tant qu’utilisateur approbation. Pour plus d’informations, voir [Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md).  
 
-Vous pouvez définir la présentation des e-mails de notification en personnalisant l’état 1320, notification par e-mail. Pour plus d’informations, voir [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md).  
+ Vous pouvez définir la présentation des e-mails de notification en personnalisant l’état 1320, notification par e-mail. Pour plus d’informations, voir [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md).  
 
-> [!NOTE]
-> Si vous souhaitez utiliser l’e-mail comme méthode de notification, vous devez configurer l’adresse e-mail de l’expéditeur et du destinataire dans [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Configurer l’adresse e-mail](admin-how-setup-email.md).
-
-## <a name="steps-in-workflows"></a>Étapes de workflows 
-Pour un grand nombre d’étapes d’approbation du workflow, il s’agit de notifier des utilisateurs qu’un événement s’est produit et qu’ils peuvent agir dessus. Par exemple, sur une étape de workflow, l’événement peut être que l’Utilisateur 1 demande l’approbation d’un nouvel enregistrement. La réponse associée est qu’une notification est envoyée à l’Utilisateur 2, l’approbateur. Sur la prochaine étape de workflow, l’événement peut être que l’Utilisateur 2 approuve l’enregistrement. La réponse associée est qu’une notification est envoyée à l’Utilisateur 3 afin de commencer un processus avec l’enregistrement approuvé. Pour les étapes de workflow concernant des approbations, chaque notification est liée à une écriture d’approbation. Pour plus d’informations, voir [Flux de travail](across-workflow.md).  
+ Pour un grand nombre d’étapes d’approbation du workflow, il s’agit de notifier des utilisateurs qu’un événement s’est produit et qu’ils peuvent agir dessus. Par exemple, sur une étape de workflow, l’événement peut être que l’Utilisateur 1 demande l’approbation d’un nouvel enregistrement. La réponse associée est qu’une notification est envoyée à l’Utilisateur 2, l’approbateur. Sur la prochaine étape de workflow, l’événement peut être que l’Utilisateur 2 approuve l’enregistrement. La réponse associée est qu’une notification est envoyée à l’Utilisateur 3 afin de commencer un processus avec l’enregistrement approuvé. Pour les étapes de workflow concernant des approbations, chaque notification est liée à une écriture d’approbation. Pour plus d’informations, voir [Flux de travail](across-workflow.md).  
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Spécifier quand et comment recevoir des notifications  
 
@@ -40,10 +35,7 @@ Pour un grand nombre d’étapes d’approbation du workflow, il s’agit de not
 2.  Sélectionnez la ligne pour l’utilisateur pour lequel vous souhaitez paramétrer des préférences de notification, puis choisissez l’action **Paramètre de notification**.  
 3.  Sur la page **Paramètres de notification**, renseignez les champs comme indiqué dans le tableau suivant.  
 
-    > [!NOTE]
-    > Si vous ouvrez la page **Configuration des notifications** de la page **Paramètres utilisateur d’approbation**, la configuration de la notification est liée à l’utilisateur d’approbation. L’utilisateur d’approbation recevra toujours des notifications de workflow en fonction de cette configuration de notification. Si vous utilisez Tell Me pour ouvrir la page **Configuration des notifications**, la configuration de la notification s’appliquera à tous les utilisateurs.  
-
-    |Champ|Description|  
+    |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
     |**Type de notification**|Spécifiez le type d’événement dont il s’agit dans la notification.<br /><br /> Sélectionnez l’une des options suivantes :<br /><br /> -   **Nouvel enregistrement** spécifie que la notification concerne un nouvel enregistrement, par exemple un document sur lequel l’utilisateur doit agir.<br />-   **Approbation** spécifie que la notification concerne une ou plusieurs demandes d’approbation.<br />-   **Échu** spécifie que l’objet de la notification est de rappeler aux utilisateurs qu’ils sont en retard pour agir sur un événement.|  
     |**Mode de notification**|Spécifiez si la notification est un e-mail ou une note interne.|

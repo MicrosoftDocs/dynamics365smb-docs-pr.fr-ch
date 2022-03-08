@@ -1,29 +1,27 @@
 ---
-title: Utilisation de l’extension AMC Banking 365 Fundamentals
-description: Découvrez comment échanger facilement des données avec vos banques en les transformant au format souhaité.
+title: Utilisation de l’extension AMC Banking 365 Fundamentals | Microsoft Docs
+description: Échangez facilement des données avec vos banques en les transformant au format souhaité.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 06/23/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 87a31fafadb63d8dad9f6432a6f64343e22d15b8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 19331b3897c6ca0ec848298a105729ecda1d3a87
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140464"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377027"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Utilisation de l’extension AMC Banking 365 Fundamentals
-L’extension AMC Banking 365 Fundamentals facilite et précise l’envoi des données à vos banques. L’extension connecte [!INCLUDE[prod_short](includes/prod_short.md)] au service AMC Banking 365 Fundamentals pour Microsoft Dynamics 365 Business Central, qui peut convertir les données bancaires de [!INCLUDE[prod_short](includes/prod_short.md)] dans des formats exigés par plus de 600 banques du monde entier. Par exemple, cela facilite le transfert des paiements et des crédits aux fournisseurs en entrant les paiements dans [!INCLUDE[prod_short](includes/prod_short.md)], puis en les téléchargeant dans votre banque. Les formats peuvent également faciliter les processus de rapprochement bancaire. Pour plus d’informations, voir [AMC Banking pour Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/).
+L’extension AMC Banking 365 Fundamentals facilite et précise l’envoi des données à vos banques. L’extension connecte [!INCLUDE[prod_short](includes/prod_short.md)] au service AMC Banking 365 Fundamentals pour Microsoft Dynamics 365 Business Central, qui peut convertir les données bancaires de [!INCLUDE[prod_short](includes/prod_short.md)] dans des formats exigés par plus de 600 banques du monde entier. Par exemple, cela facilite le transfert des paiements et des crédits aux fournisseurs en entrant les paiements dans [!INCLUDE[prod_short](includes/prod_short.md)], puis en les téléchargeant dans votre banque. Les formats peuvent également faciliter les processus de rapprochement bancaire. Pour plus d’informations, voir [AMC Banking pour Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
 
 > [!Note]
 > AMC Banking a créé des extensions supplémentaires qui fonctionnent avec [!INCLUDE[prod_short](includes/prod_short.md)]. Cette rubrique décrit uniquement l’extension Fundamental.
-
-> [!NOTE]
-> Dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)], un fournisseur global de services pour convertir les données bancaires dans n’importe quel format de fichier que votre banque requiert est paramétré et connecté. Dans les versions nord-américaines, le même service peut être utilisé pour envoyer des fichiers de paiement sous forme de transfert de fonds électronique (EFT), par exemple le réseau ACH (Automated Clearing House), mais avec un processus légèrement différent.
 
 ## <a name="using-our-demonstration-account"></a>Utilisation de notre compte de démonstration
 [!INCLUDE[prod_short](includes/prod_short.md)] est fourni avec un compte de démonstration qui vous permet d’essayer l’extension AMC Banking 365 Fundamentals. Nous fournissons les paramètres par défaut pour la connexion à AMC Banking, en spécifiant les comptes bancaires à partir desquels obtenir des données dans [!INCLUDE[prod_short](includes/prod_short.md)], plus quelques définitions d’échange de données. Vous pouvez afficher les paramètres de connexion sur la page **Configuration AMC Banking**. Pour les comptes bancaires, l’extension applique des valeurs dans les champs **Nom banque**, **N° msg. virement**, **Format importation relevé bancaire** et **Format exportation paiement** dans les fiches de compte bancaire.
@@ -50,12 +48,12 @@ Pour chaque nouvel ensemble d’autorisations, accordez uniquement l’autorisat
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>Pour connecter l’extension à AMC Banking
 1. Obtenez un module et un plan de service pour AMC Banking. Pour ce faire, visitez la page [Licence AMC](https://license.amcbanking.com/register).
-2. Dans [!INCLUDE[prod_short](includes/prod_short.md)], sélectionnez l’![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configurer AMC Banking**, puis choisissez le lien associé.  
+2. Dans [!INCLUDE[prod_short](includes/prod_short.md)], choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Configuration AMC Banking**, puis sélectionnez le lien associé.  
 3. Sur la page **Configuration AMC Banking**, choisissez l’action **Configuration assistée**.
 4. Exécutez les étapes du guide de configuration assistée.
 
 ### <a name="to-connect-bank-accounts-to-the-extension"></a>Pour connecter les comptes bancaires à l’extension
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte bancaire**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche du compte bancaire que vous souhaitez connecter au service.
 3. Dans le champ **Nom banque**, choisissez le format requis par votre banque.  
 
@@ -71,9 +69,9 @@ L’utilisation de cette extension consiste simplement à exporter des données 
 
 ### <a name="to-export-data-and-submit-it-to-your-bank"></a>Pour exporter des données et les envoyer à votre banque
 > [!CAUTION]  
->  Lorsque vous exportez des données à l’aide de l’extension AMC Banking 365 Fundamentals, certaines de vos données métier sont exposées au fournisseur du service. Le fournisseur de service, AMC Consult A/S, est responsable de la confidentialité de ces données. Pour plus d’informations, reportez\-vous à [Politique de confidentialité AMC](https://go.microsoft.com/fwlink/?LinkId=510158).
+>  Lorsque vous exportez des données à l’aide de l’extension AMC Banking 365 Fundamentals, certaines de vos données métier sont exposées au fournisseur du service. Le fournisseur de service, AMC Consult A/S, est responsable de la confidentialité de ces données. Pour plus d’informations, voir [Politique de confidentialité AMC](https://go.microsoft.com/fwlink/?LinkId=510158).
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles paiement**, puis choisissez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement**, puis sélectionnez le lien associé.
 2. Créez les lignes feuille à exporter.  
 
    > [!Note]
@@ -81,14 +79,14 @@ L’utilisation de cette extension consiste simplement à exporter des données 
 3. Sélectionnez l’option **Exporter**.
 
 ### <a name="to-import-and-apply-the-converted-file"></a>Pour importer et appliquer le fichier converti
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille rapprochement bancaire**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille rapprochement bancaire**, puis sélectionnez le lien associé.
 2. Choisir l’action **Importer les transactions bancaires**, puis choisissez le fichier converti.  
 
    [!INCLUDE[prod_short](includes/prod_short.md)] va créer une nouvelle feuille rapprochement bancaire contenant les données du fichier. Pour plus d’informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 ## <a name="see-also"></a>Voir aussi
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
-[Préparation aux activités commerciales](ui-get-ready-business.md)
+[Mise en route](product-get-started.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

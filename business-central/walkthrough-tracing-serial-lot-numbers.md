@@ -1,24 +1,25 @@
 ---
-title: 'Procédure pas à pas : suivi des numéros de série et des numéros de lot'
-description: Cette rubrique décrit les actions à entreprendre pour empêcher la vente d’un article défectueux, ainsi que la manière de suivre et de rappeler les articles en cas de besoin.
+title: 'Procédure pas à pas : suivi des numéros de série et des numéros de lot | Microsoft Docs'
+description: Cette rubrique décrit les actions à entreprendre pour arrêter de vendre un article défectueux.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: aff1012c0a1b8ec409c14e0481c73c4fb51fde18
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51486dac343ed6047988acedc97122136ab61b3b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144504"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385739"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procédure pas à pas : suivi des numéros de série et des numéros de lot
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 En cas de produit défectueux, vous devez identifier les erreurs et empêcher les articles concernés d’être vendus. Si des articles défectueux ont déjà été expédiés, vous devez procéder au suivi des destinataires et, au besoin, de rappeler les articles.  
 
@@ -50,7 +51,7 @@ Cette procédure pas à pas présente les tâches effectuées par les rôles uti
 Pour exécuter ce processus pas à pas, vous devez :  
 
 - La société [!INCLUDE[prod_short](includes/prod_short.md)].  
-<!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
+- Pour créer des articles et plusieurs transactions commerciales en suivant [Préparation d’exemples de données](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
 ## <a name="story"></a>Scénario
 
@@ -76,7 +77,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
 ### <a name="to-create-the-items"></a>Pour créer les articles  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Dans le champ **N°**, , entrez **2000**, puis complétez les champs suivants.  
 
@@ -113,7 +114,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
 ### <a name="to-purchase-components"></a>Pour acheter des composants
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Créez une commande achat pour le fournisseur, Custom Metals Incorporated, en renseignant les champs ligne suivants.  
 
@@ -127,7 +128,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 7. Cliquez sur **Valider**, choisissez l’option **Réceptionner et facturer**, puis cliquez sur le bouton **OK**.  
 
     Ensuite, achetez des cadres de course de Coolwood Technologies.  
-8. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.  
+8. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis sélectionnez le lien associé.  
 9. Sélectionnez l’action **Nouveau**.
 10. Créez une commande achat pour le fournisseur, Coolwood Technologies, en renseignant les champs ligne suivants.  
 
@@ -144,7 +145,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
 ### <a name="to-produce-end-items"></a>Pour produire des produits finis
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. lancés**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. lancés**, puis sélectionnez le lien associé.  
 2. Choisissez le groupe **Nouveau**.  
 3. Créez un ordre de fabrication lancé en renseignant les champs suivants.  
 
@@ -165,7 +166,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
     Ensuite, deux produisez vélos de course supplémentaires, SN4 et SN3.  
 
-11. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. lancés**, puis sélectionnez le lien associé.  
+11. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. lancés**, puis sélectionnez le lien associé.  
 12. Sélectionnez l’action **Nouveau**.  
 13. Créez un ordre de fabrication lancé en renseignant les champs suivants sur l’en-tête.  
 
@@ -190,7 +191,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
     Ensuite, vendez les vélos de course. Vendez d’abord le vélo de course portant le SN1 à Selangorian Ltd.  
 
 ### <a name="to-sell-the-end-items"></a>Pour vendre des articles finis  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Choisissez l’action **Nouveau**, puis créez une commande vente en renseignant les champs suivants.  
 
     |Client|Article ;|Qté|N° de série|  
@@ -202,7 +203,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
     Ensuite, vendez le vélo de course portant le SN2 au Cannon Group PLC.  
 
-5.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
+5.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
 6.  Choisissez l’action **Nouveau**, puis créez une commande vente en renseignant les champs suivants.  
 
     |Client|Article ;|Qté|N° de série|  
@@ -214,7 +215,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
     Enfin, vendez séparément quelques cadres de course. Cannon Group PLC commande également quatre cadres de course distincts pour leur propre chaîne de montage.  
 
-9. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
+9. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
 10. Choisissez l’action **Nouveau**, puis créez une commande vente en renseignant les champs suivants.  
 
     |Client|Article ;|Qté|N° de série|  
@@ -232,7 +233,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
  Dans le département des ventes, le contrôleur qualité sait que le vélo de course renvoyé, l’article 1002, porte le numéro de série SN1. En utilisant cette information de base, il peut déterminer l’endroit où le vélo de course a été utilisé en dernier, dans ce cas, sur l’expédition vente de Selangorian Ltd. Il doit ensuite remonter jusqu’à l’origine pour connaître le numéro de lot duquel le composant défectueux provient.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Pour déterminer de quel lot le cadre défectueux provient et qui la fournit  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Traçabilité**, puis choisissez le lien associé.  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Traçabilité**, puis sélectionnez le lien associé.  
 2.  Sur la page **Traçabilité**, entrez **SN1** dans le champ **Filtre n° de série**, puis entrez **1002** dans le champ **Filtre article**.  
 3.  Conservez les paramètres par défaut de **Article suivi uniquement** dans le champ **Afficher composants** et conservez la méthode de suivi par défaut **Utilisation \- Origine** dans **Méthode de suivi**.  
 4.  Choisissez l’action **Suivi**.  

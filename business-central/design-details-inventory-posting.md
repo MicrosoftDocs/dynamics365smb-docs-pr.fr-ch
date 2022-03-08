@@ -2,19 +2,20 @@
 title: Détails de conception - Compta. stock | Microsoft Docs
 description: Chaque mouvement stock, par exemple une réception achat ou une expédition vente, valide deux écritures de différents types.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: edff39ccb01cc7da7e8a0387a4737088b0be231d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d9c4574f913355961d5bee6baa51bc88f0bdc64d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138663"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913728"
 ---
 # <a name="design-details-inventory-posting"></a>Détails de conception : comptabilisation stock
 
@@ -31,7 +32,7 @@ Chaque mouvement stock, par exemple une réception achat ou une expédition vent
 
  À intervalles réguliers, les écritures valeur créées parmi les écritures comptables d’inventaire sont validées en comptabilité pour rapprocher les deux comptabilités à des fins de contrôle financier. Pour plus d’informations, voir [Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Flux d’écriture lors du rapprochement du stock avec la comptabilité.](media/design_details_inventory_costing_1_entry_flow.png "Flux d’écriture lors du rapprochement du stock avec la comptabilité")  
+ ![Flux d’écriture lors du rapprochement du stock avec la comptabilité](media/design_details_inventory_costing_1_entry_flow.png "Flux d’écriture lors du rapprochement du stock avec la comptabilité")  
 
 ## <a name="example"></a>Exemple :
 
@@ -133,7 +134,4 @@ Pour plus d’informations, voir [Détails de conception : modes évaluation st
  [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md)  
  [Détails de conception : Ajustement des coûts](design-details-cost-components.md) [Gestion des composants des coûts](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

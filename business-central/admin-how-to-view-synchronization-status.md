@@ -1,24 +1,24 @@
 ---
-title: Afficher le statut des projets de synchronisation (contient une vidéo)
+title: Afficher le statut des projets de synchronisation
 description: Utilisez la page Erreurs de synchronisation de données couplées pour afficher l’état des projets de synchronisation exécutés pour les enregistrements couplés dans des intégrations.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 357e6f92bc960b1fcd58c5be78d28985b389bb2a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: dce8b5b3d762d3e4d98668530685fdeb9cb58de4
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130711"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7751757"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Afficher le statut des projets de synchronisation
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Utilisez la page **Erreurs de synchronisation des données couplées** pour afficher le statut des projets de synchronisation exécutés pour les enregistrements couplés dans une intégration Dataverse ou [!INCLUDE[crm_md](includes/crm_md.md)]. Cela inclut les projets ayant été exécutés à partir de la file projets et les projets de synchronisation manuels qui ont été exécutés sur les enregistrements à partir du client [!INCLUDE[prod_short](includes/prod_short.md)]. Par exemple, l’affichage de leur statut est utile lors du dépannage, car il vous donne accès à des informations détaillées sur les erreurs liées aux enregistrements couplés. En règle générale, ces types d’erreur sont provoqués par des actions de l’utilisateur, par exemple lorsque :  
 

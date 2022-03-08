@@ -3,18 +3,19 @@ title: 'Dépannage : accès à la caméra et à l’emplacement'
 description: Cet article décrit comment résoudre les problèmes d’accès à la caméra et aux informations de localisation dans Business Central.
 author: blrobl
 ms.author: t-blrobl
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: conceptual
-ms.openlocfilehash: c484be64a252ae8f565bf04215b9a2191e572875
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.topic: article
+ms.service: dynamics365-business-central
+ms.openlocfilehash: a29b2ea19d812d60d2824c131e311c34d74612af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138221"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760231"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Dépannage : accès à la caméra et à l’emplacement
 
@@ -56,6 +57,3 @@ Certains logiciels antivirus bloquent l’accès à la caméra et à l’emplace
 ## <a name="see-also"></a>Voir aussi
 [Implémentation de la caméra dans AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implémentation de l’emplacement dans AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

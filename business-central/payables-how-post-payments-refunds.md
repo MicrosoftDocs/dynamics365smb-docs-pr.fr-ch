@@ -2,20 +2,20 @@
 title: Enregistrer les paiements et remboursements dans la feuille paiement
 description: Découvrez comment enregistrer les paiements effectués aux fournisseurs et les remboursements effectués aux clients sur la page Feuille paiement.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
-ms.search.form: 256, 251, 233, 624, 1228
 ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: b45d9b58276c52204b6ae83b3a0d78af7e48fc30
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 61a47f68de6466c177ab8683f4167a77ec04dc3f
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135148"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543212"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Enregistrer les paiements et remboursements dans la feuille paiement
 

@@ -2,6 +2,7 @@
 title: Configurer les prix et les remises
 description: Décrit comment définir des accords de prix et de remise standard et spéciaux pour les ventes et les achats.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 24768e03181599b2329d4ed532453a60516bd9f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 59678264f406fa434cded07d2f6b41aa3cbfbae0
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134137"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012564"
 ---
 # <a name="set-up-prices-and-discounts"></a>Configurer les prix et les remises
 > [!NOTE]

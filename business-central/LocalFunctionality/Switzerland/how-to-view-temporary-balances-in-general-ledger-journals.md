@@ -1,40 +1,37 @@
 ---
-title: Afficher les soldes temporaires dans les feuilles comptabilisation immobilisation [CH]
-description: Vous pouvez afficher les soldes temporaires qui indiquent comment les soldes du compte général sont affectés en validant une nouvelle transaction dans la feuille comptabilité.
+title: 'Procédure : Afficher les soldes temporaires dans les feuilles comptabilisation immobilisation'
+description: Lorsque vous entrez une nouvelle transaction dans la feuille comptabilité, vous pouvez afficher les soldes temporaires qui indiquent comment les soldes du compte général sont affectés en validant la feuille. Vous pouvez consulter les détails de solde du compte et le compteur pour la ligne feuille active. Vous pouvez également afficher les valeurs non validées pour la feuille.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 11500
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: 335ecbc8976e620c7953f87cb5daf8a10e90002e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 52e710b214df717434a3fc2090f7dfac46c5d77b
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144123"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241266"
 ---
-# <a name="view-temporary-balances-in-general-ledger-journals-in-the-swiss-version"></a>Afficher les soldes temporaires dans les feuilles comptabilisation immobilisation dans la version suisse.
-
+# <a name="view-temporary-balances-in-general-ledger-journals"></a>Afficher les soldes temporaires dans les feuilles comptabilisation immobilisation
 Lorsque vous entrez une nouvelle transaction dans la feuille comptabilité, vous pouvez afficher les soldes temporaires qui indiquent comment les soldes du compte général sont affectés en validant la feuille. Vous pouvez consulter les détails de solde du compte et le compteur pour la ligne feuille active. Vous pouvez également afficher les valeurs non validées pour la feuille.  
 
 Si vous utilisez des comptes généraux en devise étrangère en général, le solde dans le compte général est également renseigné. Cela vous permet d'analyser les entrées qui seront publiées et à décider si vous souhaitez publier les entrées. Pour plus d'informations, voir la page **Feuille comptabilité** et la table **Ligne feuille comptabilité**.  
 
 ## <a name="to-view-temporary-balances-in-general-ledger-journals"></a>Pour afficher les soldes temporaires dans les feuilles comptabilisation immobilisation  
 
-1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles comptabilité**, puis sélectionnez le lien associé.  
-2. Sélectionnez l'écriture dans la feuille comptabilité requise, puis cliquez sur l'action **Solde**.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles comptabilité**, puis sélectionnez le lien connexe.  
+2.  Sélectionnez l'écriture dans la feuille comptabilité requise, puis cliquez sur l'action **Solde**.  
 
     Dans la page **Afficher - Solde temporaire compte général**, dans le raccourci **Général**, vous pouvez visualiser la manière dont les soldes de compte général sont affectés en validant la feuille.  
 
-3. Cliquez sur le bouton **Fermer**.  
+3.  Cliquez sur le bouton **Fermer**.  
 
-## <a name="see-also"></a>Voir aussi
-
-[Comptes généraux suisses](swiss-general-ledger-accounts.md)
-[Solde comptabilité dans la version suisse](balance.md)  
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## <a name="see-also"></a>Voir aussi  
+ [Comptes généraux, Suisse](swiss-general-ledger-accounts.md)

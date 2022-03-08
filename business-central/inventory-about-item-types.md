@@ -1,36 +1,38 @@
 ---
-title: Comprendre les types d’articles
-description: Vous pouvez ajuster l’évaluation du stock d’un article à l’aide des méthodes FIFO ou d’évaluation stock moyen, lorsque les coûts article sont modifiés pour des motifs autres que les transactions.
+title: Comprendre les types d’articles | Microsoft Docs
+description: Vous pouvez ajuster l’évaluation du stock d’un article à l’aide des méthodes FIFO ou d’évaluation stock moyen, par exemple, lorsque les coûts article sont modifiés pour des motifs autres que les transactions.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 9297, 5845, 30,
-ms.date: 06/16/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e902068398a636b5e205fa7d808066861059b901
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bbe603de91c78cf64b2e181136ea6214aa43c5c8
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131706"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786138"
 ---
 # <a name="about-item-types"></a>À propos des types d’articles
-Dans le champ **Type** de la page **Fiche article**, vous pouvez sélectionner ce pourquoi l’article est utilisé dans votre activité, ce qui a une incidence sur le niveau de gestion que vous pouvez exercer sur l’article en stock. Le tableau suivant répertorie et décrit les trois types d’éléments disponibles.
+Dans le champ **Type** de la page **Fiche article**, vous pouvez sélectionner ce pourquoi l’article est utilisé dans votre activité et donc la manière dont il est géré dans le système. Trois options existent :
 
 |Option|Objectif courant|
 |------|-----------|
-|Stock|Les objets physiques, tels que les vélos, les téléphones et les bureaux, pour lesquels vous souhaitez pouvoir utiliser tous les processus de stock. Cela peut également inclure des éléments non physiques, tels que des licences logicielles et des abonnements, si les éléments ont des numéros d’identification, tels que des numéros de série. Vous pouvez suivre entièrement les valeurs et la disponibilité des articles dans l’inventaire.|
-|Hots stock|En règle générale, les articles hors stock sont des objets physiques, tels que des boulons ou des stylos, qu’une entreprise consomme mais ne souhaite pas suivre entièrement dans le stock. Par exemple, parce que ce sont des articles qui ne coûtent pas cher et qu’ils ne sont utilisés qu’en interne.|
+|Stock|Une unité réelle, telle qu’une bicyclette, pour la prise en charge totale de l’activité.|
+|Hots stock|Une unité réelle, par exemple un boulon, pour une prise en charge limitée de l’activité, par exemple, car l’article est uniquement utilisé en interne et a un coût bas.|
 |Service|Une unité de temps de travail, telle qu’une heure de conseil, pour la prise en charge limitée de l’activité.|
 
-> [!NOTE]
-> Les types **Service** et **Hors stock** ne prennent pas en charge le suivi des quantités et les valeurs de stock. Seuls les types de transaction articles et fonctionnalités sélectionnés sont pris en charge.
+Le type **Stock** implique un suivi complet de la quantité et la valeur de stock. Par conséquent, tous les types de transaction article sont pris en charge, et les articles de type Stock peuvent être utilisés avec toutes les fonctionnalités de gestion des articles.
 
-Le tableau suivant répertorie les fonctions que les trois types d’article prennent en charge.
+Les types **Service** et **Hors stock** ne requièrent pas le suivi de la quantité et la valeur de stock. Par conséquent, seuls les types de transaction articles et fonctionnalités sélectionnés sont pris en charge.
+
+Les trois types d’article prennent en charge les fonctions suivantes respectivement.
 
 |Type d’article|Ventes|Achats|Consommation de projet|Consommation de service|Consommation d’assemblage|Production Consommation|Résultat d’assemblage|Production|Magasin, Acheminement|Inventaire physique|Réévaluation du stock|Évaluation stock|Traçabilité|Réservation|Entreposage|Planning|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|

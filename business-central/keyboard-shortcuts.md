@@ -2,19 +2,20 @@
 title: Raccourcis clavier
 description: Liste complète des combinaisons de raccourcis clavier pour utiliser vos données avec efficacité.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 490fbd0abb7bf6769e580c34f0958ec9babbe141
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135278"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470502"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -24,7 +25,7 @@ Pour un aperçu des raccourcis clavier les plus courants, voir [Raccourcis clavi
 
 > [!TIP]
 > Pour une vue graphique des raccourcis les plus utilisés, sélectionnez l’image suivante et téléchargez le fichier PDF.  
-> [ ![Icône pour le fichier PDF.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icône qui ouvre un PDF")
+> [ ![Icône pour le fichier PDF](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icône qui ouvre un PDF")
 
 ## <a name="overview"></a>Aperçu
 
@@ -36,7 +37,7 @@ Les raccourcis clavier facilitent l’accessibilité et la navigation dans diff�
 La plupart des raccourcis sont les mêmes, que le système d’exploitation soit Windows ou macOS. Cependant, certains raccourcis diffèrent pour macOS. Ces raccourcis sont indiqués entre parenthèses dans les sections suivantes.
 
 > [!NOTE]
-> Outre les raccourcis clavier globaux décrits dans cet article, un certain nombre de raccourcis spécifiques à votre activité sont disponibles. Par exemple, dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)], F9 enregistre un document et Ctrl+F7 affiche les écritures comptables pour un enregistrement lorsque vous ouvrez l’enregistrement dans une fiche. Cet article inclut certains des raccourcis spécifiques à l’entreprise les plus courants, qui sont affichés en italique. Sachez que les raccourcis réels peuvent être différents dans votre solution. Dans l’interface utilisateur, le raccourci clavier est affiché dans l’info-bulle de l’action en question.
+> Outre les raccourcis clavier globaux décrits dans cette rubrique, un certain nombre de raccourcis spécifiques à votre activité sont disponibles. Par exemple, dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)], F9 enregistre un document et Ctrl+F7 affiche les écritures comptables pour un enregistrement lorsque vous ouvrez l’enregistrement dans une fiche. (Celles-ci peuvent être différentes dans votre solution.) Le raccourci clavier est affiché dans l’info-bulle de l’action en question.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Raccourcis clavier généraux
 
@@ -54,11 +55,11 @@ Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder aux 
 |Alt+N |Ouvrir une page pour créer un nouvel enregistrement. (Semblable au choix des actions **Nouveau** et **+**.)|
 |Alt+Maj+N |Fermer une page nouvellement créée et en ouvrir une nouvelle pour créer un enregistrement. De même, Alt + F9 valide un document et en crée un nouveau.|
 |Alt+T|Ouvrez la page **Mes paramètres**.|
-|Alt+Flèche vers la droite|Rechercher des informations supplémentaires ou des valeurs sous-jacentes pour un champ contenant le bouton ![AssistEdit](media/assist-edit-icon.png "Bouton AssistEdit"). . Ceci est utilisé lorsque le bouton déroulant habituel (Alt + Flèche vers le bas) dans le même champ est utilisé à une autre fin.|
+|Alt+Flèche vers la droite|Rechercher des informations supplémentaires ou des valeurs sous-jacentes pour un champ contenant le bouton ![AssistEdit](media/assist-edit-icon.png "Bouton AssistEdit"). Ceci est utilisé lorsque le bouton déroulant habituel (Alt + Flèche vers le bas) dans le même champ est utilisé à une autre fin.|
 |Ctrl+Alt+Maj+C|Afficher des informations dans le badge société.|
 |Ctrl+Alt+F1|Ouvrez, puis fermez le volet d’inspection des pages. Ce dernier affiche les informations relatives à la page, comme sa table source, ses champs, ses filtres, ses extensions, etc.<br /><br />Pour plus d’informations, reportez-vous à la rubrique [Inspection des pages](across-inspect-page.md).|
 |Ctrl+C |Copiez la valeur du champ. Si le champ a le focus, et si vous n’avez pas sélectionné un texte dans le champ, l’intégralité de la valeur est copiée. Si vous avez sélectionné un texte dans le champ, seul le texte sélectionné est copié.|
-|Ctrl+F1|Ouvrez l’aide de Business Central pour la page.|
+|Ctrl+F1|Ouvrez l’aide de Business Central pour la page.|
 |Ctrl+F12|Passez de la vue de mise en page développée à la vue de mise en page réduite.|
 |Ctrl+Clic|Naviguer pendant la personnalisation lorsque l’action est mise en surbrillance avec une flèche. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).|  
 |Ctrl+F5|Rechargez l’application [!INCLUDE[prod_short](includes/prod_short.md)]. (Similaire à sélectionner l’actualisation/rechargement du navigateur.)|
@@ -82,36 +83,28 @@ Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans 
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Triez la colonne sélectionnée dans l’ordre croissant ou décroissant.|Non applicable.|
 |Alt+N|Insérer une nouvelle ligne dans une liste modifiable, telle que la page **Budgets**.|Identique.|
-|Maj+F9|Valider et imprimer un document.|Identique.|
 |Maj+F10 |Ouvrir un menu d’options disponibles pour la ligne sélectionnée.|Identique.|
-|Alt+D|Ouvrir les écritures de l’ensemble de dimensions.|Identique.|
-|Ctrl+F7|Ouvrir les écritures comptables, les écritures journal, les écritures de coûts, etc.|
-|Ctrl+F9|Lancer un document.|Identique.|
-|*F7*|Ouvrir les statistiques.|Identique.|
-|*F9*|Valider, émettre, enregistrer ou inverser un document.|Identique.|
-|*Shift+Ctrl+F*|Envoyer les lignes suggérées sur la page des feuilles de calcul des flux de trésorerie.|Non applicable.|
-|*Shift+Ctrl+I*|Afficher les numéros de série et de lot qui sont affectés à l’élément de ligne sur le document ou le journal.|Non applicable.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigation entre les lignes et les colonnes
 
 Des grilles contenant des lignes et des colonnes existent sur de nombreux types de page dans [!INCLUDE[prod_short](includes/prod_short.md)], telles que les pages de liste et les éléments **Lignes** sur les documents. Le passage d’une cellule à une autre sur une grille est entièrement compatible avec le clavier.
 
-| Appuyez sur les touches suivantes<br />(dans macOS) | Pour procéder dans une vue de liste | Pour procéder dans une vue en mosaïque |
-|--|--|--|
-| Ctrl+Début<br />(Fn+Ctrl+Flèche gauche) | Sélectionnez la première ligne dans la liste ; le focus reste dans la même colonne. | Accéder à la première vignette de la première ligne. |
-| Ctrl+Fin<br />(Fn+Ctrl+Flèche droite) | Sélectionnez la dernière ligne dans la liste ; le focus reste dans la même colonne. | Accéder à la dernière vignette de la dernière ligne. |
-| Particulier<br />(Fn+flèche gauche) | Accéder au premier champ de la ligne. | Accéder à la première vignette de la ligne. |
-| Fin<br />(Fn+flèche droite) | Accéder au dernier champ de la ligne. | Accéder à la dernière vignette de la ligne. |
-| Saisissez | Ouvrez l’enregistrement associé à ce champ.<br /><br />Approprié uniquement si une page Fiche est associée à l’enregistrement. | Ouvre l’enregistrement.<br /><br />Approprié uniquement si une page Fiche est associée à l’enregistrement. |
-| Ctrl+Enter | Déplacez le focus sur l’élément suivant en dehors de la liste. | Déplacez le focus sur l’élément suivant en dehors de la liste. |
-| Page précédente<br />(Fn + flèche haut) | Faites défiler pour afficher l’ensemble de lignes au-dessus des lignes actuelles de la vue. | Fait défiler pour afficher l’ensemble de vignettes au-dessus des vignettes actuelles de la vue. |
-| Page suivante<br />(Fn + Flèche bas) | Faites défiler pour afficher l’ensemble de lignes sous des lignes actuelles de la vue. | Faites défiler pour afficher l’ensemble de vignettes sous des vignettes actuelles de la vue. |
-| Flèche bas | Accédez au champ de la ligne du dessous au sein de la même colonne | Accédez au champ de la vignette du dessous au sein de la même colonne |
-| Flèche vers le haut | Accédez au champ de la ligne du dessus au sein de la même colonne | Accédez au champ de la vignette du dessus au sein de la même colonne |
-| Flèche vers la droite | Dans une liste en lecture seule, accédez au prochain champ à droite de la même ligne.<br /><br />Dans une liste modifiable, allez à droite dans le champ actuel. | Accédez à la prochaine vignette à droite de la même ligne. |
-| Flèche vers la gauche | Dans une liste en lecture seule, accédez au champ précédent à gauche de la même ligne. <br /><br />Dans une liste modifiable, allez à gauche dans le champ actuel. | Accédez à la vignette précédente à gauche de la même ligne. |
-| Tab | Dans une liste modifiable, accédez au prochain champ à droite de la même ligne. | Non applicable. | 
-| MAJ+Tab | Dans une liste modifiable, accédez au champ suivant à gauche de la même ligne. | Non applicable. |
+|Appuyez sur les touches suivantes<br />(dans macOS)|Pour procéder dans une vue de liste |Pour procéder dans une vue en mosaïque |
+|--------------------------------|--------------------------|--------------------------|
+|Ctrl+Début<br />(Fn+Ctrl+Flèche gauche)|Sélectionnez la première ligne dans la liste ; le focus reste dans la même colonne.|Accéder à la première vignette de la première ligne. |
+|Ctrl+Fin<br />(Fn+Ctrl+Flèche droite)|Sélectionnez la dernière ligne dans la liste ; le focus reste dans la même colonne.|Accéder à la dernière vignette de la dernière ligne.|
+|Particulier<br />(Fn+flèche gauche)|Accéder au premier champ de la ligne.|Accéder à la première vignette de la ligne.|
+|Fin<br />(Fn+flèche droite)|Accéder au dernier champ de la ligne.|Accéder à la dernière vignette de la ligne.|
+|Saisissez|Ouvrez l’enregistrement associé à ce champ.<br /><br />Approprié uniquement si une page Fiche est associée à l’enregistrement.|Ouvre l’enregistrement.<br /><br />Approprié uniquement si une page Fiche est associée à l’enregistrement.|
+|Ctrl+Enter|Déplacez le focus sur l’élément suivant en dehors de la liste.|Déplacez le focus sur l’élément suivant en dehors de la liste.|
+|Page précédente<br />(Fn + flèche haut)|Faites défiler pour afficher l’ensemble de lignes au-dessus des lignes actuelles de la vue. |Fait défiler pour afficher l’ensemble de vignettes au-dessus des vignettes actuelles de la vue. |
+|Page suivante<br />(Fn + Flèche bas)|Faites défiler pour afficher l’ensemble de lignes sous des lignes actuelles de la vue.|Faites défiler pour afficher l’ensemble de vignettes sous des vignettes actuelles de la vue.|
+|Flèche bas|Accédez au champ de la ligne du dessous au sein de la même colonne |Accédez au champ de la vignette du dessous au sein de la même colonne |
+|Flèche vers le haut|Accédez au champ de la ligne du dessus au sein de la même colonne| Accédez au champ de la vignette du dessus au sein de la même colonne  |
+|Flèche vers la droite|Dans une liste en lecture seule, accédez au prochain champ à droite de la même ligne.<br /><br />Dans une liste modifiable, allez à droite dans le champ actuel.| Accédez à la prochaine vignette à droite de la même ligne. |
+|Flèche vers la gauche|Dans une liste en lecture seule, accédez au champ précédent à gauche de la même ligne. <br /><br />Dans une liste modifiable, allez à gauche dans le champ actuel.| Accédez à la vignette précédente à gauche de la même ligne. |
+|Tab|Dans une liste modifiable, accédez au prochain champ à droite de la même ligne.|Non applicable.||
+|MAJ+Tab|Dans une liste modifiable, accédez au champ suivant à gauche de la même ligne. | Non applicable. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Sélection, copie et collage
 
@@ -149,9 +142,7 @@ Les raccourcis suivants sont disponibles sur les pages Fiche, telles que **Fiche
 
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
 |--------------------------------|----------|
-|Alt+D|Ouvrir les écritures de l’ensemble de dimensions.|
 |Alt+F6|Basculer entre réduire ou développer pour le raccourci ou l’élément (sous-page) actuel.|
-|Alt+F9|Créer un document et le valider.|
 |Alt+G|Ouvrez la page **Rechercher des écritures** pour rechercher des écritures liées au document validé. Fonctionne également sur les listes.|
 |Alt+N |Ouvrir une page pour créer un nouvel enregistrement ; de la même façon qu’en sélectionnant l’action **Nouveau**. |
 |Alt+Maj+N |Fermer une page et en ouvrir une nouvelle pour créer un enregistrement, de la même façon qu’en sélectionnant l’action **OK & Nouveau**. |
@@ -161,15 +152,9 @@ Les raccourcis suivants sont disponibles sur les pages Fiche, telles que **Fiche
 |Ctrl+Flèche haut |Ouvrez le précédent enregistrement pour une entité.|
 |Ctrl+Inser |Insérer une nouvelle ligne sur des documents.|
 |Ctrl+Suppr |Supprimer la ligne sur des documents, des journaux ou des feuilles de calcul.|
-|Ctrl+F7|Ouvrir les écritures comptables, les écritures journal, les écritures de coûts, etc.|
-|Ctrl+F9|Lancer un document.|
 |Ctrl+Maj+F12 |Maximiser la partie des éléments de ligne sur une page de document. Appuyez à nouveau sur les touches pour revenir à l’écran normal. Pour en savoir plus, reportez-vous à la rubrique [Concentration sur les articles de ligne](ui-enter-data.md#Focus).|
 |F6|Accéder au raccourci ou à l’élément suivant (sous-page).|
-|*F7*|Ouvrir les statistiques.|
-|*F9*|Valider, émettre, enregistrer ou inverser un document.|
-|*Shift+Ctrl+F9*|Valider, imprimer et ranger la réception entrepôt.|
 |Maj+F6|Accédez au raccourci ou à l’élément précédent (sous-page).|
-|*Shift+F9*|Valider et imprimer un document.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Raccourcis rapides d’écriture pour les champs
 
@@ -244,9 +229,9 @@ L’explorateur de rôles vous donne une vue d’ensemble et un accès rapide à
 
 [Référence rapide de raccourcis clavier - PC uniquement](keyboard-shortcuts-cheatsheet.md)  
 [Fonctionnalités d’assistance](ui-accessibility.md)  
-[Préparation aux activités commerciales](ui-get-ready-business.md)  
+[Mise en route](product-get-started.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Forum Aux Questions](across-faq.yml)  
+[Forum Aux Questions](across-faq.md)  
 [Rechercher des écritures](ui-find-entries.md)  
 
 

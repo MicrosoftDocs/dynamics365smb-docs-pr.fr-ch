@@ -1,21 +1,23 @@
 ---
-title: Analyse des données par axe analytique
-description: Cette rubrique décrit comment analyser les diverses données métier par axe analytique. Les dimensions vous donnent un meilleur aperçu de votre entreprise afin que vous puissiez évaluer les informations.
+title: Analyse des données par axe analytique| Microsoft Docs
+description: Décrit comment analyser les diverses données métier par axe analytique.
+services: project-madeira
+documentationcenter: ''
 author: edupont
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ca377898f9dd49a55ec9113fc020054288c33910
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 4086da516f9a1ecccf5a3a0c2f86d0f42877b637
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335073"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817094"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analyse des données par axe analytique
 En analyse financière, un axe correspond à des données que vous pouvez ajouter à une écriture comme une sorte de marqueur. Ces données permettent de regrouper des écritures dotées de caractéristiques similaires, telles que les clients, les régions, les produits et les commerciaux, et de récupérer facilement ces groupes à des fins d’analyse. Les axes peuvent être utilisés sur des écritures de feuilles, de documents et de budgets. Le terme Axe décrit la manière dont l’analyse est effectuée. Une analyse à deux axes, par exemple, est une analyse des ventes par zone. Cependant, si vous utilisez plus de deux axes analytiques lors de la création d’une écriture, vous pouvez mener une analyse plus complexe, telle que des ventes par campagne de vente, par groupe client et par zone. Pour plus d’informations, reportez-vous à [Utilisation des axes](finance-dimensions.md).
@@ -25,13 +27,10 @@ L’analyse de données par axes vous permet d’obtenir un meilleur aperçu de 
 > [!TIP]
 > Pour analyser rapidement les données transactionnelles par dimensions, vous pouvez filtrer les totaux du plan comptable et les entrées de toutes les pages **Entrées** par dimensions. Recherchez l’action **Définir le filtre axe**.
 
-> [!NOTE]
-> Si vous découvrez qu′une dimension incorrecte a été utilisée sur les écritures comptables comptabilisées, vous pouvez corriger les valeurs d′axe analytique et mettre à jour vos vues d′analyse. Pour plus d’informations, voir [Dépannage et correction des axes analytiques](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting)
-
 ## <a name="to-set-up-an-analysis-view"></a>Pour configurer une vue d’analyse :  
 Les vues analytiques affichent une combinaison sélectionnée d’axes analytiques. Vous pouvez stocker et récupérer chaque analyse que vous avez configurée. Les informations de configuration des vues analytiques sont stockées sur des fiches **Vue d’analyse** afin de simplifier une éventuelle analyse ultérieure.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Vues d’analyse**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Vues d’analyse**, puis sélectionnez le lien associé.  
 2. Sur la page **Liste des vues d’analyse**, cliquez sur l’action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Pour ajouter des codes axe aux quatre codes du raccourci **Axes analytiques**, cliquez sur **Filtre**, renseignez les champs et cliquez sur **OK**.  
@@ -40,7 +39,7 @@ Les vues analytiques affichent une combinaison sélectionnée d’axes analytiqu
 ## <a name="to-analyze-by-dimensions"></a>Pour effectuer une analyse par axe analytique
 La matrice **Vues analytiques** peut vous permettre de consulter les montants de votre comptabilité à l’aide des vues d’analyse que vous avez déjà configurées. Complétez la page **Vues analytiques** pour définir les éléments affichés dans la matrice, puis choisissez l’action **Afficher matrice** pour afficher la matrice.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Vues d’analyse**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Vues d’analyse**, puis sélectionnez le lien associé.  
 2. Sélectionnez la vue d’analyse appropriée et choisissez l’action **Vues analytiques**.
 3. Sur la page **Analyse vente par axe analytique**, renseignez les champs pour définir les données affichées et leur présentation.
 4. Choisissez l’action **Afficher matrice** pour ouvrir la page matricielle respective de la vue d’analyse définie.
@@ -63,7 +62,7 @@ Les montants affichés sur la page **Vues analytiques** offrent une image de l�
 
 La procédure suivante permet de mettre à jour une vue d’analyse à partir de la page **Vues analytiques**. Les étapes sont similaires entre les pages **Fiche vue d’analyse** et les pages **Liste des vues d’analyse**.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Vues d’analyse**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Vues d’analyse**, puis sélectionnez le lien associé.
 2. Sélectionnez la vue d’analyse appropriée et choisissez l’action **Vues analytiques**.
 2. Sur la page **Vues analytiques**, sélectionnez le champ **Code vue analytique**.  
 3. Sélectionnez la ligne contenant la vue d’analyse appropriée.  
@@ -84,6 +83,3 @@ La procédure suivante permet de mettre à jour une vue d’analyse à partir de
 [Comptabilité et plan comptable](finance-general-ledger.md)  
 [Utilisation des axes analytiques](finance-dimensions.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
