@@ -1,30 +1,29 @@
 ---
-title: Gérer les immobilisations| Microsoft Docs
-description: En savoir plus sur la fonctionnalité d’immobilisations et afficher un aperçu de l’utilisation des immobilisations.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+title: Gérer les immobilisations (contient une vidéo)
+description: En savoir plus sur la fonctionnalité d’immobilisations et afficher un aperçu de l’utilisation et de la gestion de vos immobilisations.
+author: edupont04
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 10/01/2020
+ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5634, 5649, 5622, 5650
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2886548e1af66e0f28eadc16c80f64263f3e1917
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9159e6036da04001b28c261783c92103204907f9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920637"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145773"
 ---
-# <a name="fixed-assets"></a>COMPTES D’IMMOBILISATIONS
-Le module Immobilisations dans [!INCLUDE[d365fin](includes/d365fin_md.md)] offre un aperçu des immobilisations et garantit un amortissement périodique correct. Elle vous permet également de connaître les coûts de maintenance, de gérer les polices d’assurance, de valider les transactions d’immobilisations, et de générer des états et des statistiques variés.
+# <a name="managing-fixed-assets"></a>Gestion des immobilisations
+
+Le module Immobilisations dans [!INCLUDE[prod_short](includes/prod_short.md)] offre un aperçu des immobilisations et garantit un amortissement périodique correct. Elle vous permet également de connaître les coûts de maintenance, de gérer les polices d’assurance, de valider les transactions d’immobilisations, et de générer des états et des statistiques variés.
 
 Pour chaque immobilisation, vous devez créer une fiche contenant des informations la concernant. Vous pouvez configurer des bâtiments ou un équipement de production en tant qu’actif principal avec une liste de composants et vous pouvez les regrouper de différentes façons, comme par catégorie, département ou emplacement. Puis, vous pouvez commencer à acquérir, maintenir et commercialiser les immobilisations. Vous pouvez également paramétrer des immobilisations budgétées. Cela permet d’inclure dans des états des acquisitions et des ventes anticipées.
 
-Pour conserver une trace des amortissements d’immobilisations ainsi que des autres transactions financières propres aux immobilisations, vous configurez une, voire plusieurs lois d’amortissements pour chaque immobilisation au sein de votre entreprise. L’amortissement est effectué en exécutant un état afin de calculer l’amortissement périodique et compléter une feuille avec les écritures résultantes, prêtes à être validées. [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge plusieurs méthodes d’amortissement. Pour en savoir plus, voir [Méthodes d’amortissement](fa-depreciation-methods.md). Vous pouvez configurer plusieurs lois d’amortissement par immobilisation à différentes fins, telles qu’une pour la déclaration fiscale, et une autre pour les états internes.
+Pour conserver une trace des amortissements d’immobilisations ainsi que des autres transactions financières propres aux immobilisations, vous configurez une, voire plusieurs lois d’amortissements pour chaque immobilisation au sein de votre entreprise. L’amortissement est effectué en exécutant un état afin de calculer l’amortissement périodique et compléter une feuille avec les écritures résultantes, prêtes à être validées. [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge plusieurs méthodes d’amortissement. Pour en savoir plus, voir [Méthodes d’amortissement](fa-depreciation-methods.md). Vous pouvez configurer plusieurs lois d’amortissement par immobilisation à différentes fins, telles qu’une pour la déclaration fiscale, et une autre pour les états internes.
 
 Pour chaque immobilisation, vous pouvez enregistrer des coûts de maintenance et la date de la prochaine visite d’entretien. Le suivi des frais de maintenance peut être utile dans le cadre de l’élaboration du budget et de la prise de décisions concernant le remplacement éventuel d’une immobilisation.
 
@@ -57,8 +56,11 @@ La vidéo suivante couvre les notions de base des immobilisations.
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
 [Finances](finance.md)  
-[Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

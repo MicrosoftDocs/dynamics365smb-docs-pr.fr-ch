@@ -1,47 +1,36 @@
-# [Bienvenue dans Business Central](index.md)
+# [Bienvenue dans Business Central](index.md)
 # [Fonctionnalités nouvelles et prévues](product-news.md)
 # Mise en route
 ## [Vue d’ensemble des fonctionnalités d’entreprise](across-business-functionality.md)
 <!--### [Getting Ready for Doing Business](ui-get-ready-business.md)-->
 ## Apprentissage
-### [Catalogue d’apprentissage Business Central](readiness/readiness-learning-catalog.md)
-### [Business Central sur Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Catalogue d’apprentissage Business Central](readiness/readiness-learning-catalog.md)
+### [Business Central sur Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Procédures pas à pas liées au processus entreprise
 #### [Procédures pas à pas disponibles](walkthrough-business-process-walkthroughs.md)
 #### [Procédure pas à pas : mise en place d’une campagne de vente](walkthrough-conducting-a-sales-campaign.md)
 #### [Procédure pas à pas : configuration et facturation d’acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
-#### [Procédure pas à pas : Configuration et utilisation d’un flux d’approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### [Procédure pas à pas : Réception et rangement dans les configurations de stockage de base](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Procédure pas à pas : Réception et rangement dans les configurations de stockage avancées](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-#### [Procédure pas à pas : planification manuelle des approvisionnements](walkthrough-planning-supplies-manually.md)
-#### [Procédure pas à pas : planification automatique des approvisionnements](walkthrough-planning-supplies-automatically.md)
-#### [Procédure pas-à-pas : vente, assemblage et expédition de kits](walkthrough-selling-assembling-and-shipping-kits.md)
+#### [Procédure pas à pas : configuration et utilisation d’un flux d’approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+<!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- #### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
+<!-- #### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+<!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
 #### [Procédure pas à pas : gestion des projets](walkthrough-managing-projects-with-jobs.md)
 #### [Procédure pas à pas : calcul des travaux en cours pour un projet](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Procédure pas à pas : Prélèvement et expédition dans les configurations de stockage de base](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Procédure pas à pas : suivi des numéros de série et des numéros de lot](walkthrough-tracing-serial-lot-numbers.md)
+<!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Procédure pas-à-pas : créer des prévisions de trésorerie à l’aide de tableaux d’analyse](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ### Détails de conception
 #### [Vue d’ensemble des détails de conception d’application](design-details-application-design.md)
-#### Détails de conception : planification de l’approvisionnement
-##### [Vue d’ensemble de la planification des approvisionnements](design-details-supply-planning.md)
-##### [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)  
-##### [Détails de conception : réservation, chaînage et message d’action](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)  
-##### [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)  
-##### [Détails de conception : paramètres de planification](design-details-planning-parameters.md)  
-##### [Détails de conception : tableau d’affectation de planification](design-details-planning-assignment-table.md)  
-##### [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md)  
-##### [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)
 #### Détails de conception : coûts ajustés
-##### [Vue d’ensemble des coûts](design-details-inventory-costing.md)
+##### [Détails de conception de l’évaluation stock](design-details-inventory-costing.md)
 ##### [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 ##### [Détails de conception : Modifier le mode évaluation stock pour les articles](design-details-changing-costing-methods.md)
 ##### [Détails de conception : lettrage article](design-details-item-application.md)  
 ##### [Détails de conception : problème de lettrage article connu](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)  
-##### [Détails de conception : date comptabilisation de l’écriture valeur d’ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Détails de conception : validation du coût prévu](design-details-expected-cost-posting.md)  
 ##### [Détails de conception : coût moyen](design-details-average-cost.md)  
 ##### [Détails de conception : écart](design-details-variance.md)  
@@ -55,8 +44,26 @@
 ##### [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md)
 ##### [Détails de conception : évaluation du stock](design-details-inventory-valuation.md)  
 ##### [Détails de conception : réévaluation](design-details-revaluation.md)
+#### Détails de conception : date comptabilisation de l’écriture valeur d’ajustement
+##### [Vue d’ensemble de la date comptabilisation de l’écriture valeur d’ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Message d’erreur : « La date comptabilisation n’est pas incluse dans la plage de dates comptabilisation autorisées »](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Date comptabilisation sur l’écriture valeur d’ajustement par rapport à l’écriture source](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Détails de conception : écritures d’ensemble de dimensions
+##### [Détails de conception : aperçu des écritures de l′ensemble de dimensions](design-details-dimension-set-entries-overview.md)
+##### [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)
+##### [Détails de conception : structure de la table](design-details-table-structure.md)
+#### Détails de conception : planification de l’approvisionnement
+##### [Détails de conception de la planification de l’approvisionnement](design-details-supply-planning.md)
+##### [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)  
+##### [Détails de conception : réservation, chaînage et message d’action](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)  
+##### [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)  
+##### [Détails de conception : paramètres de planification](design-details-planning-parameters.md)  
+##### [Détails de conception : tableau d’affectation de planification](design-details-planning-assignment-table.md)  
+##### [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md)  
+##### [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)
 #### Détails de conception : gestion d’entrepôt
-##### [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
+##### [Détails de conception de Warehouse Management](design-details-warehouse-management.md)
 ##### [Détails de conception : vue d’ensemble d’entrepôt](design-details-warehouse-overview.md)  
 ##### [Détails de conception : paramètres entrepôt](design-details-warehouse-setup.md)  
 ##### [Détails de conception : flux d’enlogement](design-details-inbound-warehouse-flow.md)  
@@ -65,7 +72,7 @@
 ##### [Détails de conception : flux de désenlogement](design-details-outbound-warehouse-flow.md)  
 ##### [Détails de conception : intégration avec le stock](design-details-integration-with-inventory.md)
 #### Détails de conception : traçabilité
-##### [Vue d’ensemble de la traçabilité](design-details-item-tracking.md)
+##### [Détails de conception de la traçabilité](design-details-item-tracking.md)
 ##### [Détails de conception : création de traçabilité](design-details-item-tracking-design.md)  
 ##### [Détails de conception : structure de validation de traçabilité](design-details-item-tracking-posting-structure.md)  
 ##### [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -75,30 +82,30 @@
 ##### [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
 ##### [Détails de conception : traçabilité dans l’entrepôt](design-details-item-tracking-in-the-warehouse.md)
 #### Détails de conception : Ligne validation de feuille comptabilité
-##### [Ligne validation de feuille comptabilité](design-details-general-journal-post-line.md)
+##### [Détails de conception de la ligne validation de feuille comptabilité](design-details-general-journal-post-line.md)
 ##### [Aperçu de la ligne validation de feuille comptabilité](design-details-general-journal-post-line-overview.md)  
 ##### [Détails de conception : Structure de l’interface de validation](design-details-posting-interface-structure.md)  
 ##### [Détails de conception : Structure du moteur de validation](design-details-posting-engine-structure.md)  
-##### [Détails de conception : modifications du codeunit 12 : variables globales de mappage pour la ligne de validation de feuille comptabilité](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-##### [Détails de conception : modifications du codeunit 12 : modifications des procédures de validation de feuille comptabilité](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
-#### Détails de conception : écritures d’ensemble de dimensions
-##### [Aperçu des écritures de l’ensemble de dimensions](design-details-dimension-set-entries.md)
-##### [Détails de conception : aperçu des écritures de l’ensemble de dimensions](design-details-dimension-set-entries-overview.md)  
-##### [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)  
-##### [Détails de conception : structure de la table](design-details-table-structure.md)  
 
 ## Évaluations
 ### [Versions d’évaluation et abonnements](across-preview.md)
-### [Mise en route de Business Central](product-get-started.md)
+### [Préparation aux activités commerciales](ui-get-ready-business.md)
 ### [Dépannage de l’inscription en self-service](ui-troubleshoot-self-signup.md)
 ### [Extension de votre version d’évaluation](admin-extend-trial.md)
-### [Annuler un abonnement ou supprimer Business Central](admin-cancel.md)
+### [Annuler un abonnement ou supprimer Business Central](admin-cancel.md)
 ## Achats
+### [Mise en route avec un abonnement](across-preview.md#getting-started-with-a-subscription)
 ### [Préparation aux activités commerciales](ui-get-ready-business.md)
 
+## Démarrages rapides
+### [Démarrage rapide de Business Central](quick-start-business-central.md)
+### [Configurer les informations sur la société](quick-start-company-information.md)
+### [Vendre des produits et des services](quick-start-sell-products-and-services.md)
+### [Acheter des produits et des services](quick-start-procurement.md)
+
 <!--setup-->
-## Configuration de Business Central
-### [Configuration de Business Central](setup.md)
+## Configuration de Business Central
+### [Aperçu des tâches](setup.md)
 ### Configuration de Finance
 #### [Configuration de Finance](finance-setup-finance.md)
 #### [Paramétrer les modes de paiement](finance-payment-methods.md)
@@ -110,6 +117,7 @@
 #### [Configurer les conditions et niveaux de relance](finance-setup-reminders.md)
 #### [Configurer les conditions intérêts de retard](finance-setup-finance-charges.md)
 #### [Configuration de la TVA](finance-setup-vat.md)
+#### [Configurer des méthodes de calcul et de validation de la taxe sur la valeur ajoutée (TVA)](finance-setup-vat.md)
 #### [Configurer la TVA sur encaissement pour la comptabilité basée sur la trésorerie](finance-setup-unrealized-vat.md)
 #### [Valider des numéros d’identification intracommunautaire](finance-how-validate-vat-registration-number.md)
 #### [Configuration des codes source et des codes de motif pour les pistes d’audit](finance-setup-trail-codes.md)
@@ -134,6 +142,7 @@
 #### [Enregistrer de nouveaux clients](sales-how-register-new-customers.md)
 #### [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md)
 #### [Enregistrer les prix de vente spéciaux et les remises](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Configurer des groupes tarifs client](sales-how-to-set-up-customer-price-groups.md)
 #### [Configurer des vendeurs](sales-how-setup-salespeople.md)
 #### [Configurer des profils d’envoi de documents](sales-how-setup-document-send-profiles.md)
 #### [Envoyer des documents par e-mail](ui-how-send-documents-email.md)
@@ -167,6 +176,7 @@
 #### [Configurer des informations générales pour les immobilisations](fa-how-setup-general.md)
 #### [Configurer un amortissement immobilisation](fa-how-setup-depreciation.md)
 #### [Définir des méthodes d’amortissement.](fa-depreciation-methods.md)
+#### [Définir des méthodes d’amortissement paramétrables](fa-how-setup-user-defined-depreciation-method.md)
 #### [Configurer une assurance immobilisation](fa-how-setup-insurance.md)
 #### [Configurer la maintenance d’une immobilisation](fa-how-setup-maintenance.md)
 ### Configuration de la gestion des entrepôts
@@ -237,59 +247,77 @@
 #### [Collecter les données de configuration client](admin-gather-customer-setup-values.md)
 #### [Préparer la migration des données client avec des modèles](admin-use-templates-to-prepare-customer-data-for-migration.md)
 #### [Migrer des données client](admin-migrate-customer-data.md)
-#### [Créer des packages configuration de société personnalisés](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Conseils : RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
-### Utilisation d’Outlook avec Business Central
-#### [Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)
-#### [Synchronisation avec les contacts dans Microsoft Outlook](admin-synchronize-outlook-contacts.md)
-#### [Utilisation de Business Central sans Outlook](admin-no-outlook.md)
-### Utilisation de Microsoft Teams avec Business Central
-#### [Aperçu](across-teams-overview.md)
-#### [Gestion de l’intégration de Teams](admin-teams-integration.md)
-#### [Installation de l’application Business Central pour Teams](across-install-app-for-teams.md)
-#### [Utilisation des données Business Central dans Teams](across-working-with-teams.md)
-#### [FAQ Teams](teams-faq.md)
-#### [Incident](admin-teams-troubleshooting.md)
-### Utilisation de Power BI avec Business Central
-#### [Introduction](admin-powerbi.md)
-#### Administrateur
-##### [Vue d’ensemble de l’intégration](admin-powerbi-overview.md)
-##### [Activation de l’intégration Power BI](admin-powerbi-setup.md)
-#### Concepteur
-##### [Démarrage de la création d’états](across-how-use-financials-data-source-powerbi.md)
-##### [Création d’états pour afficher les données de liste](across-how-use-powerbi-reports-factbox.md)
-#### Consommateur
-##### [Utiliser les états Power BI dans Business Central](across-working-with-powerbi.md)
-##### [Utilisation des données Business Central dans Power BI](across-working-with-business-central-in-powerbi.md)
-##### [Utilisation des applications Business Central dans Power BI](across-powerbi-business-central-apps.md)
-### Utilisation de Power Automate avec Business Central
-#### [Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md)
-### Utilisation de Power Apps avec Business Central
-#### [Connexion à vos données Business Central pour générer une application professionnelle à l’aide de Power Apps](across-how-use-financials-data-source-powerapps.md)
-### [Passage d’une application QuickBooks à Business Central](across-quickbooks-to-business-edition.md)
-### [Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)
-### [Facturation en vrac pour Microsoft Bookings](finance-bookings.md)
-### [Utilisation du même compte Microsoft 365 dans Business Central et dans Microsoft Invoicing](about-reuse-company-invoicing.md)
-### [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)
-### [Configurer la messagerie](admin-how-setup-email.md)
+### Paramétrage de la messagerie
+#### [Configurer la messagerie](admin-how-setup-email.md)
+#### Configuration de votre boîte de réception professionnelle dans Microsoft Outlook
+##### [Obtenir le complément Business Central pour Outlook](admin-outlook.md)
+##### [Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](work-outlook-addin.md)
+##### [Synchronisation avec les contacts dans Outlook](admin-synchronize-outlook-contacts.md)
+##### [Optimisation d’Outlook](admin-outlook-optimize.md)
+##### [Utilisation de Business Central sans Outlook](admin-no-outlook.md)
+### Paramétrage des états
+#### [Sélection des états](across-report-selections.md)
+### Configuration des connexions
+#### [Obtenir le complément Business Central pour Excel](admin-deploy-excel-addin.md)
+#### Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook 
+##### [Aperçu](admin-outlook.md)
+##### [Synchronisation avec les contacts dans Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Utilisation de Business Central sans Outlook](admin-no-outlook.md)
+#### Utilisation de Microsoft Teams avec Business Central
+##### [Aperçu](across-teams-overview.md)
+##### [Gestion de l’intégration de Teams](admin-teams-integration.md)
+##### [Installation de l’application Business Central pour Teams](across-install-app-for-teams.md)
+##### [Recherche de clients, de fournisseurs et de contacts](across-search-contacts-teams.md)
+##### [Partage d’enregistrements et de liens de page dans Teams](across-working-with-teams.md)
+##### [Modification de la société et d′autres paramètres](across-teams-settings.md)
+##### [FAQ Teams](teams-faq.md)
+##### [Incident](admin-teams-troubleshooting.md)
+#### Utiliser OneDrive Entreprise avec Business Central
+##### [Vue d’ensemble](across-onedrive-overview.md)
+##### [Gestion de l’intégration de OneDrive Entreprise](admin-onedrive-integration.md)
+##### [Ouverture des fichiers Business Central dans OneDrive](across-share-onedrive.md)
+##### [FAQ sur OneDrive](admin-onedrive-faq.md)
+#### Utilisation de Power BI avec Business Central
+##### [Introduction](admin-powerbi.md)
+##### Administrateur
+###### [Vue d’ensemble de l’intégration](admin-powerbi-overview.md)
+###### [Activation de l’intégration Power BI](admin-powerbi-setup.md)
+##### Créateur de rapport
+###### [Démarrage de la création d’états](across-how-use-financials-data-source-powerbi.md)
+###### [Création d’états pour afficher les données de liste](across-how-use-powerbi-reports-factbox.md)
+##### Utilisateur professionnel
+###### [Utiliser les états Power BI dans Business Central](across-working-with-powerbi.md)
+###### [Utilisation des données Business Central dans Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Utilisation des applications Business Central dans Power BI](across-powerbi-business-central-apps.md)
+##### [FAQ](power-bi-faq.md)
+#### Utilisation de Power Automate avec Business Central
+##### [Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md)
+#### Utilisation de Power Apps avec Business Central
+##### [Connexion à vos données Business Central pour générer une application professionnelle à l’aide de Power Apps](across-how-use-financials-data-source-powerapps.md)
+#### [Passage d’une application QuickBooks à Business Central](across-quickbooks-to-business-edition.md)
+#### [Facturation en vrac pour Microsoft Bookings](finance-bookings.md)
+#### [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)
 ### [Création des souches de numéros](ui-create-number-series.md)
-### [Sélection des états](across-report-selections.md)
 ### [Configurer des calendriers principaux](across-how-to-assign-base-calendars.md)
+### [Paramétrage imprimantes](ui-specify-printer-selection-reports.md)
+### [Obtenir Business Central sur votre périphérique mobile](install-mobile-app.md)
+### [Installer Business Central sur votre bureau](install-desktop-app.md)
+
 
 ## Forum Aux Questions
-### [Forum Aux Questions](across-faq.md)
+### [Forum Aux Questions](across-faq.yml)
 ### [FAQ Tell Me](ui-search-faq.md)
-### [FAQ sur la recherche et le filtrage](ui-search-filter-faq.md)
-### [FAQ sur les vues de liste](ui-views-faq.md)
+### [FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)
+### [FAQ sur les vues de liste](ui-views-faq.yml)
 ### [FAQ sur l’opération Copier et coller](faq-copy-paste.yml)
-### [FAQ relative aux applications mobiles](ui-mobile-faq.md)
+### [FAQ relative aux applications mobiles](ui-mobile-faq.yml)
 ### [FAQ Teams](teams-faq.md)
 ### [FAQ Facturation électronique](faq-electronic-invoicing.yml)
 ### [Configuration minimale requise](product-requirements.md)
 
 ## Aide et support
 ### [Ressources pour l’Aide et le support](product-help-and-support.md)
-### [Système d’aide](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
 ### [Visitez notre vidéothèque](across-videos.md)
 ### [Support technique](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 <!--## Learn
@@ -298,35 +326,37 @@
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Documentation](product-get-started.md)
+#### [Getting Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Business User
 #### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Documentation](product-get-started.md)
+#### [Getting Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
 #### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 <!--using-->
-# Utilisation de Business Central
+# Utilisation de Business Central
 ## [Vue d’ensemble des fonctionnalités générales](ui-work-product.md)
 ## [Aide-mémoire imprimable](ui-work-product.md#cheatsheet)
 ## [Recherche de pages et d’informations avec la fonction Tell Me](ui-search.md)
 ## [Recherche de pages avec l’explorateur de rôles](ui-role-explorer.md)
 ## [FAQ Tell Me](ui-search-faq.md)
 ## [Tri, recherche et filtrage](ui-enter-criteria-filters.md)
-## [FAQ sur la recherche et le filtrage](ui-search-filter-faq.md)
+## [FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)
 ## [Saisie de données](ui-enter-data.md)
 ## [FAQ sur l’opération Copier et coller](faq-copy-paste.yml)
 ## [Utilisation de dates civiles et les heures](ui-enter-date-ranges.md)
 ## [Détection de champs obligatoires](ui-mandatory-fields.md)
 ## [Modification de la langue et de la région](about-locale-language.md)
 ## [Affichage et édition dans Excel](across-work-with-excel.md)
+## [Stockage et partage de fichiers dans OneDrive](across-share-onedrive.md)
 ## [Gérer les pièces jointes, les liens et les notes sur les fiches et les documents](ui-how-add-link-to-record.md)
+## [Utilisation de modèles Word pour la communication en masse](ui-mail-merge.md)
 ## [Modifier les paramètres de base](ui-change-basic-settings.md)
 ## [Passer à une autre entreprise ou un autre environnement](ui-organization-switch.md)
 ## [Gérer les notifications](ui-smart-notifications.md)
 ## [Conseils hautes performances pour les utilisateurs professionnels](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## [Avertissements et messages d’erreur](product-error-messages.md)
-## Personnalisation de Business Central
+## Personnalisation de Business Central
 ### [Personnaliser votre espace de travail](ui-personalization-user.md)
 ### [Pourquoi la personnalisation d’une page est bloquée](ui-personalization-locked.md)
 ### [Enregistrer et personnaliser les vues de liste](ui-views.md)
@@ -348,15 +378,15 @@
 ### [Définir des présentations de document pour les clients et les fournisseurs](ui-define-customer-vendor-document-layouts.md)
 ### [Ajouter des champs à une présentation de rapport Word](ui-how-add-fields-word-report-layout.md)
 ### [Polices disponibles](ui-fonts.md)
-## Utilisation des raccourcis clavier
-### [Accessibilité et raccourcis clavier](ui-accessibility.md)
+## Accessibilité, raccourcis clavier et gestes tactiles
+### [Accessibilité](ui-accessibility.md)
 ### [Raccourcis clavier](keyboard-shortcuts.md)
-### [Référence rapide de raccourcis clavier - PC uniquement](keyboard-shortcuts-cheatsheet.md)
+### [Référence rapide de raccourcis clavier – PC uniquement](keyboard-shortcuts-cheatsheet.md)
+### [Gestes tactiles et au stylet](touch-gestures.md)
 ## [Dépannage : accès à la caméra et à l’emplacement](ui-troubleshooting-camera-location.md)
-## [Votre accès au Cloud intelligent avec Business Central](about-intelligent-cloud.md)
-## [Procédure pas à pas : suivi des numéros de série et des numéros de lot](walkthrough-tracing-serial-lot-numbers.md)
+## [Informations intelligentes (en ligne uniquement)](about-intelligent-cloud.md)
 # Fonctionnalités d’entreprise
-## [Aperçu des fonctionnalités d’entreprise](across-business-functionality.md)
+## [Vue d’ensemble des fonctionnalités d’entreprise](across-business-functionality.md)
 <!--general-->
 ## Fonctionnalités marché
 ### [Vue d’ensemble des fonctionnalités d’entreprise](ui-across-business-areas.md)
@@ -373,7 +403,7 @@
 ### [Valider les documents validés](across-edit-posted-document.md)
 ### [Utilisation de feuilles comptabilité](ui-work-general-journals.md)
 ### [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)
-### [Permettre à Business Central de proposer des valeurs](ui-let-system-suggest-values.md)
+### [Permettre à Business Central de proposer des valeurs](ui-let-system-suggest-values.md)
 
 ### Documents entrants
 #### [Vue d’ensemble des documents entrants](across-income-documents.md)
@@ -422,9 +452,10 @@
 ##### [Configurer le service de relevés bancaires](bank-how-setup-bank-statement-service.md)
 ##### [Configuration des comptes bancaires](bank-how-setup-bank-accounts.md)
 ##### [Utiliser des schémas XML pour préparer des définitions d’échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-##### [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md)
+
 #### Échange de données
 ##### [Données Exchange](across-exchange-data.md)
+##### [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Envoyer des documents électroniques](sales-how-to-send-electronic-documents.md)
 ##### [Utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md)
 ##### [Recevoir et convertir des documents électroniques](purchasing-how-to-receive-and-convert-electronic-documents.md)
@@ -437,8 +468,10 @@
 ##### [Mappage de champ pour l’extension AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Finances
 ### [Vue d’ensemble de Finance](finance.md)
+### [États financiers](finance-reports.md)
 ### Gestion des comptes client
 #### [Vue d’ensemble de la comptabilité client](receivables-manage-receivables.md)
+#### [Rapports Comptabilité client et analyse](receivables-reports.md)
 #### Lettrage automatique des paiements et rapprochement des comptes bancaires
 ##### [Vue d’ensemble du lettrage paiement](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Rapprocher les paiements à l’aide de l’application automatique](receivables-how-reconcile-payments-auto-application.md)
@@ -450,12 +483,14 @@
 #### [Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client](receivables-how-apply-sales-transactions-manually.md)
 #### [Collecte des soldes restants](receivables-collect-outstanding-balances.md)
 #### [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Envoyer des rappels de soldes impayés](receivables-send-reminders.md)
 #### [Bloquer des clients](receivables-how-block-customers.md)
 #### [Utilisation des écarts de règlement et des écarts d’escompte](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Extension Prévisions de retard de paiement](ui-extensions-late-payment-prediction.md)
 
 ### Gestion des comptes fournisseur
 #### [Vue d’ensemble de la comptabilité fournisseur](payables-manage-payables.md)
+#### [Rapports Comptabilité fournisseur et analyse](payables-reports.md)
 #### Effectuer des paiements
 ##### [Effectuer des paiements](payables-make-payments.md)
 ##### [Utilisation de feuilles comptabilité](ui-work-general-journals.md)
@@ -521,7 +556,15 @@
 #### [Mise à jour des coûts standard](finance-how-to-update-standard-costs.md)
 #### [Supprimer et relettrer des écritures comptables article](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Clôturer les écritures comptables article ouvertes qui résultent d’un lettrage fixe dans la feuille article](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### [Rapprocher l’évaluation stock avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+#### Génération des coûts et rapprochement en comptabilité
+##### [Génération des coûts](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Rapprocher l’évaluation stock avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Surveiller la progression et les performances](projects-how-monitor-progress-performance.md)
+#### [Ajuster et rapprocher le coût stocks avec la comptabilité avec la file d’attente des travaux](finance-adjust-reconcile-inventory-cost-job-queue.md)
+
+### Gestion de la trésorerie
+#### [Aperçu de la trésorerie](finance-cash-flow-overview.md)
+#### [Analyse des trésoreries dans votre société](finance-analyze-cash-flow.md)
 
 ### Clôture des exercices et des périodes
 #### [Vue d’ensemble de la clôture exercice](year-close-years-periods.md)
@@ -542,6 +585,7 @@
 #### [Configurer la consolidation de la société](finance-consolidated-company-reporting-setup.md)
 ### [Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md)
 ### [Utilisation des axes analytiques](finance-dimensions.md)
+### [Dépannage et correction des axes analytiques](finance-troubleshooting-correcting-dimensions.md)
 ### [Créer des budgets comptabilité](finance-how-create-budgets.md)
 ### [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)
 ### [Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)
@@ -554,14 +598,15 @@
 ### [Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)
 ### [Convertir les contrats de service incluant des montants TVA](service-how-to-convert-service-contracts.md)
 ### [Gérer les changements de taux TVA](finance-how-use-vat-rate-change-tool.md)
-### [Analyse des trésoreries dans votre société](finance-analyze-cash-flow.md)
 ### [Procédure pas-à-pas : créer des prévisions de trésorerie à l’aide de tableaux d’analyse](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analyse des états financiers dans Excel](finance-analyze-excel.md)
 ### [Transfert de fonds à la banque](bank-how-transfer-bank-funds.md)
-### [Expériences de comptables dans Business Central](finance-accounting.md)
+### [Expériences de comptables dans Business Central](finance-accounting.md)
+### [Organisations multisites et internationales](finance-multi-site-organizations.md)
 
-## Veille économique
-### [Vue d’ensemble de la veille économique](bi.md)
+## Business Intelligence et Financial Reporting
+### [Vue d’ensemble de Business Intelligence et Financial Reporting](bi.md)
+### [Rapports financiers ](finance-reports.md)
 ### [Analyser les montants réalisés et les montants budgétés](bi-how-analyze-actual-versus-budget.md)
 ### [Préparer la génération d’états financiers avec des tableaux d’analyse et des catégories de compte](bi-how-work-account-schedule.md)
 ### [Configuration et publication des services Web KPI sur la base de tableaux d’analyse](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -572,8 +617,9 @@
 
 ## Ventes
 ### [Vue d’ensemble des ventes](sales-manage-sales.md)
+### [États vente](sales-reports.md)
 ### [Procédure pas à pas : Mise en place d’une campagne de vente](walkthrough-conducting-a-sales-campaign.md)
-### [Procédure pas à pas : Configuration et facturation d’acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
+### [Procédure pas à pas : configuration et facturation d’acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Enregistrer de nouveaux clients](sales-how-register-new-customers.md)
 ### [Créer des devis](sales-how-make-offers.md)
 ### [Facturer des ventes](sales-how-invoice-sales.md)
@@ -584,6 +630,7 @@
 ### [Effectuer des livraisons directes](sales-how-drop-shipment.md)
 ### [Créer des commandes spéciales](sales-how-to-create-special-orders.md)
 ### [Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md)
+### [Traitement des retours vente](sales-how-process-sales-returns-orders.md)
 ### [Corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md)
 ### [Utiliser des commandes ouvertes vente](sales-how-to-create-blanket-sales-orders.md)
 ### [Regroupement de bons de livraison sur une seule facture](sales-how-to-combine-shipments-on-a-single-invoice.md)
@@ -592,10 +639,12 @@
 ### [Calcul de la date des ventes](sales-date-calculation-for-sales.md)
 ### [Fusionner l’enregistrement des doublons](sales-how-merge-duplicate-records.md)
 ### [Utiliser des revenus récurrents](finance-recurring-invoicing.md)
+### [Entrer des numéros de document externe](across-enter-external-document-numbers.md)
 
 ## Achats
 ### [Vue d’ensemble des achats](purchasing-manage-purchasing.md)
-### [Procédure pas à pas : Configuration et utilisation d’un flux d’approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+### [États des achats](purchase-reports.md)
+### [Procédure pas à pas : configuration et utilisation d’un flux d’approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Enregistrer des achats](purchasing-how-record-purchases.md)
 ### [Demander des devis](purchasing-how-request-quotes.md)
 ### [Acheter des articles pour une vente](purchasing-how-purchase-products-sale.md)
@@ -607,30 +656,36 @@
 ### [Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)
 ### [Fusionner l’enregistrement des doublons](sales-how-merge-duplicate-records.md)
 ### [Utiliser des commandes ouvertes achat](sales-how-to-create-blanket-sales-orders.md)
+### [Numéros de document externe sur les documents achat](purchasing-ext-doc-no.md)
+### [Entrer des numéros de document externe](across-enter-external-document-numbers.md)
+
 
 ## Stock
 ### [Vue d’ensemble du stock](inventory-manage-inventory.md)
+### [États de stock et d’entrepôt](inventory-WMS-reports.md)
 ### [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)
 ### [Utiliser les nomenclatures](inventory-how-work-BOMs.md)
 ### [Catégoriser des articles](inventory-how-categorize-items.md)
 ### [Utiliser les attributs d’article](inventory-how-work-item-attributes.md)
 ### [Utiliser des articles de catalogue](inventory-how-work-nonstock-items.md)
-### [Faire l’inventaire à l’aide de documents](inventory-how-count-inventory-with-documents.md)
+### [Faire l’inventaire et l′ajuster à l’aide de documents](inventory-how-count-inventory-with-documents.md)
 ### [Comptabiliser, ajuster et reclasser le stock avec les feuilles](inventory-how-count-adjust-reclassify.md)
 ### [Voir la disponibilité des articles](inventory-how-availability-overview.md)
 ### [Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)
 ### [Réserver des articles](inventory-how-to-reserve-items.md)
-### [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)
-### [Utiliser les références externes article](inventory-how-use-item-cross-refs.md)
+### [Configuration du suivi des articles avec les numéros lot, de série et paquet](inventory-how-setup-item-tracking.md)
+### [Effectuer le suivi des articles avec les numéros lot, de série et paquet](inventory-how-work-item-tracking.md)
 ### [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)
+### [Utiliser références article](inventory-how-use-item-cross-refs.md)
 ### [Bloquer les articles](inventory-how-block-items.md)
 ### [Utiliser les centres de gestion](inventory-responsibility-centers.md)
 
 ## Gestion de projets
 ### [Vue d’ensemble de la gestion de projets](projects-manage-projects.md)
+### [États de projet](project-reports.md)
 ### [Créer des projets](projects-how-create-jobs.md)
 ### [Utiliser des ressources pour des projets](projects-how-use-resources.md)
-### [Utiliser des feuilles de temps pour des projets](projects-how-use-time-sheets.md)
+### [Utiliser des feuilles de temps](projects-how-use-time-sheets.md)
 ### [Gérer les budgets de projets](projects-how-manage-budgets.md)
 ### [Enregistrer l’utilisation pour les projets](projects-how-record-job-usage.md)
 ### [Gérer les fournitures pour un projet](projects-how-manage-project-supplies.md)
@@ -640,6 +695,7 @@
 
 ## COMPTES D’IMMOBILISATIONS
 ### [Vue d’ensemble des immobilisations](fa-manage.md)
+### [États et analyses des immobilisations](fa-reports.md)
 ### [Acquérir des immobilisations](fa-how-acquire.md)
 ### [Mettre à jour des immobilisations](fa-how-maintain.md)
 ### [Assurer les immobilisations](fa-how-insure.md)
@@ -648,6 +704,7 @@
 ### [Amortir des immobilisations](fa-how-depreciate-amortize.md)
 ### [Céder ou annuler des immobilisations](fa-how-dispose-retire.md)
 ### [Gérer les budgets pour les immobilisations](fa-how-manage-budgets.md)
+### [Dépannage des écritures comptables immobilisation](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Gestion des relations
 ### [Vue d’ensemble de la gestion des relations](marketing-relationship-management.md)
@@ -675,7 +732,7 @@
 #### [Suivre les échanges de messages électroniques](marketing-set-up-email-logging.md)
 #### [Traiter des opportunités de vente](marketing-processing-sales-opportunities.md)
 ### [Utiliser des questionnaires profil pour classer les contacts professionnels](marketing-create-contact-profile-questionnaire.md)
-### [Utilisation de Dynamics 365 for Sales depuis Business Central](marketing-integrate-dynamicscrm.md)
+### [Utilisation de Dynamics 365 for Sales depuis Business Central](marketing-integrate-dynamicscrm.md)
 #### [Coupler et synchroniser des enregistrements manuellement](admin-how-to-couple-and-synchronize-records-manually.md)
 #### [Afficher le statut d’une synchronisation](admin-how-to-view-synchronization-status.md)
 
@@ -687,19 +744,22 @@
 ## Planning
 ### [Planification de la production](production-planning.md)
 ### [À propos de la fonctionnalité Planification](production-about-planning-functionality.md)
-### [Sous-traiter la production](production-how-to-subcontract-manufacturing.md)
 ### [Planification avec/sans magasin](production-planning-with-without-locations.md)
 ### [Créer une prévision](production-how-to-create-a-forecast.md)
 ### [Créer des ordres de fabrication à partir de commandes achat](production-how-to-create-production-orders-from-sales-orders.md)
-### [Planifier les O.F. projets](production-how-to-plan-project-orders.md)
 ### [Planifier de nouvelles demandes commande par commande](production-how-to-plan-for-new-demand.md)
 ### [Exécuter une planification complète et un calcul PDP ou MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replanifier ou actualiser directement des ordres de fabrication](production-how-to-replan-refresh-production-orders.md)
 ### [Suivre les relations entre l’offre et la demande](production-how-track-demand-supply.md)
+### [Demande achat](production-about-planning-functionality.md#requisition-worksheet)
+### [Messages d’action](production-how-to-run-mps-and-mrp.md#action-messages)
+<!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Gestion des assemblages
 ### [Assembler des articles](assembly-assemble-items.md)
+### [États d’assemblage](assembly-reports.md)
 ### [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Établissement d’un devis de vente Assembler pour commande](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Assembler des articles](assembly-how-to-assemble-items.md)
@@ -713,6 +773,7 @@
 
 ## Production
 ### [Vue d’ensemble de la fabrication](production-manage-manufacturing.md)
+### [États de production](production-reports.md)
 ### [À propos des ordres de fabrication](production-about-production-orders.md)
 ### [Créer des ordres de fabrication](production-how-to-create-production-orders.md)
 ### [Sous-traiter la production](production-how-to-subcontract-manufacturing.md)
@@ -727,6 +788,7 @@
 
 ## Gestion d’entrepôt
 ### [Gestion d’entrepôt](warehouse-manage-warehouse.md)
+### [États de stock et d’entrepôt](inventory-WMS-reports.md)
 ### [Réceptionner des articles](warehouse-how-receive-items.md)
 ### [Transborder des articles](warehouse-how-to-cross-dock-items.md)
 ### Rangement des articles
@@ -736,8 +798,6 @@
 #### [Rangement du résultat de fabrication ou d’assemblage](warehouse-how-to-put-away-production-output.md)
 #### [Planifier des rangements dans la feuille](warehouse-how-to-plan-put-aways-in-worksheets.md)
 #### [Prélever et ranger sans document origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Procédure pas à pas : Réception et rangement dans les configurations de stockage de base](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Procédure pas à pas : Réception et rangement dans les configurations de stockage avancées](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ### Déplacement d’articles
 #### [Déplacement des articles](warehouse-move-items.md)
 #### [Déplacer des articles ad hoc dans les configurations de stockage de base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -759,10 +819,8 @@
 ### [Expédier des articles](warehouse-how-ship-items.md)
 ### [Trouver vos affectations d’entrepôt](warehouse-how-to-find-your-warehouse-assignments.md)
 ### [Utilisation des systèmes de saisie automatisée (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
-### [Procédure pas à pas : Réception et rangement dans les configurations de stockage de base](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-### [Procédure pas à pas : Réception et rangement dans les configurations de stockage avancées](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-### [Procédure pas à pas : Planification manuelle des approvisionnements](walkthrough-planning-supplies-manually.md)
-### [Procédure pas à pas : planification automatique des approvisionnements](walkthrough-planning-supplies-automatically.md)
+<!-- ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
 
 ## Gestion des services
 ### [Gestion des services](service-service.md)
@@ -828,6 +886,7 @@
 ##### [Déterminer le prix de vente par coût majoré du pourcentage](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [Numéros de société australienne et notes d’ajustement](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 ##### [Entrer les numéros d’entreprise australiens](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
+##### [États sur les délais de paiement](LocalFunctionality/Australia/payment-times-reporting.md)
 
 ### Autriche
 #### [Fonctionnalité locale dans la version autrichienne](LocalFunctionality/Austria/austria-local-functionality.md)
@@ -862,34 +921,20 @@
 ##### [Paramétrer des types de déclarations](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 ##### [Exporter les déclarations tierces intracommunautaires](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Banque et paiements
-##### [Paramétrer les comptes bancaires pour CODA](LocalFunctionality/Belgium/how-to-set-up-bank-accounts-for-coda.md)
-##### [Lettrer les relevés CODA](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
-##### [Transférer et valider automatiquement les relevés CODA](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
-##### [Relevés bancaires CODA](LocalFunctionality/Belgium/coda-bank-statements.md)
-##### [Opérations bancaires électroniques, Belgique](LocalFunctionality/Belgium/belgian-electronic-banking.md)
-##### [Paramétrer des opérations bancaires électroniques](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
+##### [Opérations bancaires électroniques (BE)](LocalFunctionality/Belgium/belgian-electronic-banking.md)
+##### [Paiements électroniques (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
 ##### [Paramétrer les protocoles d’exportation](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
-##### [Paiements électroniques, Belgique](LocalFunctionality/Belgium/belgian-electronic-payments.md)
-##### [Paramétrer les codes transaction IBLC-BLWI](LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)
+##### [Résumé des lignes règlement et des lignes feuille comptabilité](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
 ##### [Paramétrer les fournisseurs pour des suggestions de règlement automatique](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Créer des modèles et des lots de feuille paiement](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Tester les paiements électroniques](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Générer des suggestions de règlement](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-##### [Importer les relevés CODA](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
-##### [Gérer les lignes de paiement électronique](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
-##### [Transférer et valider manuellement les relevés CODA](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
-##### [Imprimer les fichiers de paiement](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [Paiements SEPA](LocalFunctionality/Belgium/sepa-payments.md)
-##### [Activer les règlements SEPA](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
-##### [Remplir les paiements SEPA non euros](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
-##### [Remplir les paiements SEPA](LocalFunctionality/Belgium/how-to-file-sepa-payments.md)
+##### [Exporter les fichiers de paiement](LocalFunctionality/Belgium/how-to-print-payment-files.md)
 ##### [Prélèvement à l’aide de la domiciliation](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
-##### [Paramétrer les domiciliations](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
-##### [Modifier et supprimer les lignes domiciliation](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
-##### [Tester les domiciliations](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
-##### [Exporter et valider les domiciliations](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
-##### [Générer des suggestions de domiciliation](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
-##### [Résumé des lignes règlement et des lignes feuille comptabilité](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
+##### [Relevés bancaires CODA](LocalFunctionality/Belgium/coda-bank-statements.md)
+##### [Lettrer les relevés CODA](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
+##### [Transférer et valider automatiquement les relevés CODA](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
+##### [Transférer et valider manuellement les relevés CODA](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
+##### [Importer les relevés CODA](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### Finances principales
 ##### [Lettrer et délettrer les écritures comptables](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Créer des journaux financiers](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -915,6 +960,8 @@
 
 ### République tchèque
 #### [Fonctionnalité locale dans la version tchèque](LocalFunctionality/Czech/czech-local-functionality.md)
+#### [Pack de localisation de base pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
+#### [Pack de localisation avancé pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Finances principales  
 ##### [Finances](LocalFunctionality/Czech/finance.md)
 ##### [Opérations de clôture d’exercice](LocalFunctionality/Czech/year-close-operations.md)
@@ -925,12 +972,15 @@
 ##### [État de contrôle de la TVA](LocalFunctionality/Czech/vat-control-report.md)
 #### COMPTES D’IMMOBILISATIONS
 ##### [Immobilisations](LocalFunctionality/Czech/fixed-assets.md)
+##### [Localisation des immobilisations pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banque et paiements
 ##### [Fonction de banque](LocalFunctionality/Czech/bank-feature.md)
+##### [Localisation des documents bancaires pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Gestion de caisse](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Localisation de caisse pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Enregistrement des ventes (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Avances](LocalFunctionality/Czech/advances.md)
+##### [Localisation des acomptes pour le tchèque (Extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Dépenses et recettes
 ##### [Dépenses et recettes](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Échanges intracommunautaires](LocalFunctionality/Czech/intrastat.md)
@@ -940,7 +990,6 @@
 #### Général
 ##### [Contrôle utilisateur étendu](LocalFunctionality/Czech/general.md)
 ##### [Pratiques recommandées](LocalFunctionality/Czech/best-practices.md)
-##### [Pack de localisation de base pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 
 ### Danemark
 #### [Fonctionnalité locale dans la version danoise](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -983,16 +1032,14 @@
 ##### [Exporter des écritures comptables vers un fichier XML](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Configuration requise pour la déclaration d’échanges de biens](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
 #### Banque et paiements
+##### [Gestion des paiements](LocalFunctionality/France/payment-management.md)
 ##### [Configurer des adresses de paiement](LocalFunctionality/France/how-to-set-up-payment-addresses.md)
-##### [Paramétrer des statuts règlement](LocalFunctionality/France/how-to-set-up-payment-statuses.md)
-##### [Paramétrer des étapes règlement](LocalFunctionality/France/how-to-set-up-payment-steps.md)
 ##### [Paramétrer des types de règlement](LocalFunctionality/France/how-to-set-up-payment-classes.md)
-##### [Archiver les bordereaux de paiement](LocalFunctionality/France/how-to-archive-payment-slips.md)
 ##### [Créer bordereaux paiement](LocalFunctionality/France/how-to-create-payment-slips.md)
 ##### [Exporter des paiements](LocalFunctionality/France/how-to-export-payments.md)
-##### [Exporter ou importer les paramètres de configuration de la gestion des paiements](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
-##### [Gestion des paiements](LocalFunctionality/France/payment-management.md)
 ##### [Valider des bordereaux paiement](LocalFunctionality/France/how-to-post-payment-slips.md)
+##### [Archiver les bordereaux de paiement](LocalFunctionality/France/how-to-archive-payment-slips.md)
+##### [Exporter ou importer les paramètres de configuration de la gestion des paiements](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
 #### Finances principales
 ##### [Écritures comptables](LocalFunctionality/France/general-ledger.md)
 ##### [Lettrer des écritures comptables](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
@@ -1049,7 +1096,7 @@
 ##### [Liste des ventes intracommunautaires en Allemagne](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 ##### [Inclure des numéros de SIRET de société sur les états vente et les états achat](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
 ##### [Imprimer les informations liées aux paramètres comptabilité](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
-##### [Certification de Business Central pour le marché allemand (le document est en allemand)](https://go.microsoft.com/fwlink/?linkid=875256)
+##### [Certification de Business Central pour le marché allemand (le document est en allemand)](https://go.microsoft.com/fwlink/?linkid=875256)
 
 ### Islande
 #### [Fonctionnalité locale dans la version islandaise](LocalFunctionality/Iceland/iceland-local-functionality.md)
@@ -1064,6 +1111,7 @@
 
 ### Inde
 #### [Aperçu](LocalFunctionality/India/india-local-functionality.md)
+#### [Configurer des souches de numéros de comptabilisation](LocalFunctionality/India/posting-no-series-setup.md)
 #### Moteur de taxe
 ##### [Aperçu](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Configuration d’importation et d’exportation du moteur de taxe](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1123,6 +1171,16 @@
 ###### [Facture E-Way GST](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [Ajustement du crédit d’écriture de la GST](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [Déclaration de GST](LocalFunctionality/India/GST-Settelement.md)
+###### [Facture électronique pour la GST](LocalFunctionality/India/GST-E-Invoice.md)
+##### GST sur le recouvrement
+###### [Configuration de la GST sur le recouvrement de base](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
+###### [Calcul de la GST sur le recouvrement](LocalFunctionality/India/GST-Cess-Calculations.md)
+##### GST sur la Gestion des services
+###### [GST sur la Gestion des services](LocalFunctionality/India/GST-Service-Management.md)
+##### Écriture de la GST sur la Distribution du service
+###### [Vue d′ensemble de l′écriture de la GST sur la Distribution du service](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
+###### [Processus d′écriture de la GST sur la Distribution du service](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
+###### [Transaction de l′écriture de la GST sur la Distribution du service](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
 #### TDS
 ##### [Vue d’ensemble de la TDS](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS sur les transactions](LocalFunctionality/India/TDS-Transactions.md)
@@ -1130,6 +1188,8 @@
 ##### [Écriture provisoire de la TDS](LocalFunctionality/India/TDS-Provisional-Entries.md)
 ##### [Écriture d’ajustement de la TDS](LocalFunctionality/India/TDS-Adjustment-Entries.md)
 ##### [Paiement de la TDS aux autorités](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
+##### [Vue d’ensemble de la section TDS 194Q](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
+##### [Transaction TDS 194Q](LocalFunctionality/India/TDS-194Q-Transactions.md)
 #### TDS pour le client
 ##### [Vue d’ensemble de la TDS pour le client](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 ##### [Calcul de la TDS pour le client](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
@@ -1140,9 +1200,24 @@
 ##### [Seuil de la TCS](LocalFunctionality/India/TCS-Threshold.md)
 ##### [Écriture d’ajustement de la TCS](LocalFunctionality/India/TCS-Adjustment-Entries.md)
 ##### [Paiement de la TCS aux autorités](LocalFunctionality/India/TCS-Payment-to-Authority.md)
+##### [206C-1H-Overview](LocalFunctionality/India/TCS-206C-1H-Overview.md)
+##### [206C-1H-Transaction](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
 #### Interface du N° document
 ##### [Vue d’ensemble de l’interface du N° document](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Transaction de l’interface du N° document](LocalFunctionality/India/Voucher-Interface-Transactions.md)
+#### Immobilisation
+##### [Vue d’ensemble des immobilisations](LocalFunctionality/India/FA_Overview.md)
+##### [Amortissement des immobilisations](LocalFunctionality/India/FA_Depreciation.md)
+#### Contrôle d′accès
+##### [Aperçu du contrôle d′accès](LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md)
+##### [Transaction entrante du contrôle d′accès](LocalFunctionality/India/Gate-Entry-Inward_Transactions.md)
+##### [Transaction sortante du contrôle d′accès](LocalFunctionality/India/Gate-Entry-Outward_Transactions.md)
+#### Sous-traitance
+##### [Aperçu de la sous-traitance](LocalFunctionality/India/Subcontracting-001-Basic-Setup.md)
+##### [Transactions de sous-traitance](LocalFunctionality/India/Subcontracting-Transactions.md)
+##### [Créer une responsabilité en matière de GST](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
+##### [Rapport de sous-traitance](LocalFunctionality/India/Subcontracting-Reports.md)
+#### [Chèque périmé](LocalFunctionality/India/Stale-Check.md)
 
 ### Italie
 #### [Fonctionnalité locale dans la version italienne](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1156,6 +1231,8 @@
 ##### [Préparation aux états de transactions de TVA](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
 ##### [Imprimer et réimprimez les registres comptables et les registres de TVA](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
 ##### [Imprimer des états intracomm. pour l’Italie](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
+#### Retenue à la source
+##### [Configurer la retenue à la source dans la version italienne](LocalFunctionality/Italy/set-up-withholding-tax.md)
 ##### [Pour imprimer des états de retenue à la source](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
 #### Banque et paiements
 ##### [Configurer des conditions de paiement](LocalFunctionality/Italy/how-to-set-up-payment-terms.md)
@@ -1185,28 +1262,26 @@
 #### [Fonctionnalité locale dans la version mexicaine](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Taxes
 ##### [Configurer et générer des états DIOT](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Taxes sur les taxes Mexique](LocalFunctionality/Mexico/mexico-sales-tax.md)  
-##### [Configurer la Use Tax et la Purchase Tax](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Configurer taxes sur les ventes calculées et remises paiement de taxe](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
-##### [Déclaration de la taxe sur les ventes au Mexique](LocalFunctionality/Mexico/mexico-sales-tax.md)
-##### [Créer des acomptes](LocalFunctionality/Mexico/how-to-create-deposits.md)  
+##### [Configurer des méthodes de calcul et de validation de la TVA](finance-setup-vat.md)  
 ##### [Types d’identification taxe du Mexique](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Nouveau calcul TVA](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Facturation électronique
-##### [Facturation électronique](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Paramétrer les facturation électronique](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Générer les factures électroniques](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Facturation électronique (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Paramétrer services web PAC](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Paramétrer les facturation électronique (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Générer les factures électroniques (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Bons de livraison bordereau d’expédition (Carta de Porte) et ordres de transfert (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### Général
 ##### [Réglementations de comptabilité électroniques au Mexique](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Effectuer des paiements électroniques](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### Général
-##### [Paramétrer services web PAC](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Imprimer des états dépannage](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
+##### [Créer des acomptes](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
 ### Pays-Bas
 #### [Fonctionnalité locale dans la version néerlandaise](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 #### TVA
 ##### [Créer un fichier d’audit pour l’administration fiscale](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
-##### [Paramétrer les catégories TVA](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
+##### [Paramétrer les catégories TVA](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
 ##### [Déclarations TVA et ICP électroniques](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 ##### [Paramétrer les déclarations TVA et ICP électroniques](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
 ##### [Soumission des déclarations TVA et ICP électroniques](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1217,7 +1292,7 @@
 ##### [Scénario de paiement 1 - paiements nationaux (DS en DS)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
 ##### [Scénario de paiement 2 - paiement étranger (DS en DS)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
 ##### [Scénario de paiement 3 - paiement étranger (DS en DS)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
-##### [Créer des propositions](LocalFunctionality\Netherlands\how-to-create-proposals.md)
+##### [Créer des propositions](LocalFunctionality/Netherlands/how-to-create-proposals.md)
 ##### [États du registre](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Indiquer et valider les journaux de trésorerie et opérations bancaires et les feuilles de virement](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 ##### [Imprimer des états test pour la trésorerie et les opérations bancaires ou les feuilles de virement](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
@@ -1225,7 +1300,7 @@
 ##### [Activer les règlements SEPA](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Envoyer des paiements fournisseur électroniques au format de paiement ISO 20022 de SEPA](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 ##### [Créer et exporter l’historique des paiements](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
-##### [Importer et rapprocher les relevés bancaires](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
+##### [Importer et rapprocher les relevés bancaires](LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md)
 #### Finances principales
 ##### [Lettrer et délettrer les écritures comptables](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Descriptions requises dans les écritures comptables](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
@@ -1511,9 +1586,9 @@
 #### Général
 ##### [Configurer un avertissement de date comptabilisation](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Entrer les informations statutaires](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
+##### [Envoyer des données de prévention de la fraude](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
 ##### [Extension GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Configurer l’extension GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
-##### [Entrer des numéros de document externe](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 
 ### États-Unis
 #### [Fonctionnalité locale dans la version des États-Unis](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
@@ -1531,20 +1606,135 @@
 ##### [Imprimer des états dépannage](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Soumettre des alertes de réglementation](submit-regulatory-alerts.md)
 
+<!--Reporting landing page-->
+# Business Intelligence et génération d’état 
+
+## [Aperçu](reports-bi-reporting.md)
+
+## Utiliser les rapports dans le travail quotidien
+### [Aperçu](reports-use-reports.md)
+### [Exécution d’états](ui-work-report.md)
+### [Ajout d’un signet à un état](ui-bookmarks.md)
+### [Analyse des données de rapport avec Excel](report-analyze-excel.md)
+<!--### [Using the report inbox] (missing.md)-->
+### [Impression d’états](ui-specify-printer-selection-reports.md#default)
+### [Planification d’états](ui-work-report.md#ScheduleReport)
+### [Gestion des paramètres d’états enregistrés](reports-saving-reusing-settings.md)
+### [Modification de la disposition de rapport par défaut](ui-how-change-layout-currently-used-report.md)
+
+## États prédéfinis
+### [Présentation du rapport](reports-available-reports.md)
+### Finances
+#### [Analyses financières](bi.md)
+#### [Analyser les états financiers avec Excel](finance-analyze-excel.md)
+#### [États financiers clés](finance-reports.md)
+#### [États de comptabilité client](receivables-reports.md)
+#### [États de comptabilité fournisseur](payables-reports.md)
+#### [Analyse des flux de trésorerie](finance-setup-cash-flow-analyses.md)
+#### [Consolider des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)
+
+### Ventes
+#### [États vente](sales-reports.md)
+#### [Statut de la commande cadre vente](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+#### [Suivi des colis](sales-how-track-packages.md)
+#### [Afficher des lignes de Commande cadre vente non validées et validées](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+
+### Achats
+#### [États des achats](purchase-reports.md)
+#### [Visualiser des écritures comptables achat](ui-post-purchases.md#viewing-ledger-entries)
+
+### Stock et entrepôt
+#### [États de stock et d’entrepôt](inventory-wms-reports.md)
+#### [Disponibilité article](inventory-how-availability-overview.md)
+#### [Effectuer le suivi des articles avec les numéros lot, de série et paquet](inventory-how-work-item-tracking.md)
+#### [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)
+#### [Vérifier le rapprochement de l’écriture inventaire et de la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+#### [Afficher les articles transbordés dans une expédition ou une feuille prélèvement](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+
+### Dossier
+#### [États de projet](project-reports.md)
+#### [Visualiser les estimations d’utilisation de projet](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Surveiller la progression et les performances](projects-how-monitor-progress-performance.md)
+
+### COMPTES D’IMMOBILISATIONS
+#### [États sur les immobilisations](fa-reports.md)
+#### [Surveillance des coûts de maintenance](fa-how-maintain.md#to-monitor-maintenance-costs)
+#### [Surveillance des couvertures d’assurance](fa-how-insure.md#to-monitor-insurance-coverage)
+#### [Afficher les valeurs comptables d’amortissement modifiées](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+#### [Afficher des écritures comptables cession](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+#### [Visualiser des valeurs de cession prévues](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+
+### Gestion des assemblages
+#### [États sur la gestion nomenclature d’assemblage](assembly-reports.md)
+#### [Afficher la structure de la nomenclature (BOM)](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+
+### Production
+#### [États de production](production-reports.md)
+#### [Affichage de la Charge centre de charge et des postes de charge](production-how-to-view-the-load-on-work-centers.md)
+#### [Affichage des écritures comptables centre de charge](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+
+### Gestion des services
+#### [Affichage des statistiques service](service-service-statistics.md)
+#### [Vue d’ensemble des commandes service](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Vue d’ensemble des Devis service](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Vue d’ensemble des documents service enregistrés](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+## Analyse de données ad hoc
+### [Aperçu](reports-adhoc-analysis.md)
+### [Tri, recherche et filtrage](ui-enter-criteria-filters.md)
+### [FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)
+### [Analyse des données de page dans Excel](across-work-with-excel.md)
+### [Analyse des données d’état avec Excel](ui-work-report.md#saving-a-report-to-a-file)
+### [Analyses financières](bi.md)
+
+## Analyses intégrées 
+### [Aperçu](reports-built-in-analytics.md)
+### [Informations intelligentes](about-intelligent-cloud.md)
+### [Utiliser les rapports Power BI](across-working-with-powerbi.md)
+### [Analyses financières](bi.md)
+### [Analyser les états financiers avec Excel](finance-analyze-excel.md)
+### [Consolider des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)
+### [Signaler l’utilisation de la télémétrie](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
+
+## Analyser les données dans Business Intelligence Tools
+### [Aperçu](reports-external-analysis.md)
+### [Utilisation de Power BI avec Business Central](admin-powerbi.md)
+### [Analyser les états financiers avec Excel](finance-analyze-excel.md)
+### [Extraction de données vers des entrepôts de données ou des lacs de données](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Lecture des données avec l’API Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+## Élaboration de rapports
+### [Aperçu](reports-develop-reports.md)
+### Élaboration de dispositions d’état
+#### [Types de disposition (Word et RDLC)](ui-manage-report-layouts.md)
+#### [Créer une disposition](ui-how-create-custom-report-layout.md)
+#### [Utilisation des polices dans les dispositions](ui-fonts.md)  
+#### [Utilisation des dispositions Word](ui-how-add-fields-word-report-layout.md)
+#### [Importer/exporter une disposition](ui-how-import-and-export-report-layout.md)
+#### [Mettre à jour une disposition](ui-update-report-layouts.md)
+#### [Modifier la disposition par défaut](ui-how-change-layout-currently-used-report.md)
+### Élaboration de jeux de données d’état
+#### [Guide de développement de rapports](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
+#### [Guide de réglage des performances des rapports](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+
+<!--Security landing page-->
 # Sécurité, confidentialité, conformité
 ## Sécurité et protection
-### [Vue d’ensemble de la sécurité et de la protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Vue d’ensemble de la sécurité et de la protection (en anglais uniquement)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Confidentialité
-### [Confidentialité (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
+### [Confidentialité (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Conformité
 ### [Vue d’ensemble de la conformité](compliance/compliance-overview.md)
 ### [Conformité des applications](compliance/compliance-application-compliance.md)
 ### [Conformité des services](compliance/compliance-service-compliance.md)
 ### [Certifications](compliance/compliance-certifications.md)
+## [Vue d’ensemble du service (en anglais uniquement)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 
 # Développement et administration
 ## [Mise en route avec la documentation de développement et d’administration](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
-## Tâches d’administration dans Business Central
+## Tâches d’administration dans Business Central
 ### [Tâches d’administration](admin-setup-and-administration.md)
 ### [Créer des utilisateurs en fonction des licences](ui-how-users-permissions.md)
 ### [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)
@@ -1557,6 +1747,7 @@
 ### [Journalisation des modifications](across-log-changes.md)
 ### [Utilisation des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)
 ### [Gérer le stockage en compressant des données ou en supprimant des documents](admin-manage-documents.md)
+### [Archiver les données](admin-archive-data.md)
 ### [Définition des stratégies de rétention des données](admin-data-retention-policies.md)
 ### [Publication d’un service Web](across-how-publish-web-service.md)
 ### [Configuration des modèles d’API](admin-configuring-api-template.md)
@@ -1565,9 +1756,10 @@
 ### [Inspection des pages](across-inspect-page.md)
 ### [Affichage des verrouillages base de données](admin-view-database-locks.md)
 ### [Affichage d’informations sur les tables](admin-view-table-information.md)
-### [Création d’un environnement Sandbox](across-how-create-sandbox-environment.md)
 ### [Activer les nouvelles fonctionnalités à l’avance](admin-feature-management.md)
-## Personnalisation de Business Central
+### [Intégrer des utilisateurs avec des listes de contrôle](admin-checklist.md)
+### [Environnements sandbox](admin-sandbox-environments.md)
+## Personnalisation de Business Central
 ### [Vue d’ensemble de la personnalisation](ui-customizing-overview.md)
 ### [Personnaliser les pages pour les profils](ui-personalization-manage.md)
 ### [Modifier les fonctionnalités affichées](ui-experiences.md)
@@ -1581,8 +1773,8 @@
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Informations commerciales essentielles](ui-extensions-essential-business-insights.md)
 #### [Analyseur Image](ui-extensions-image-analyzer.md)
-#### [Cloud intelligent](ui-extensions-data-replication.md)
-#### [Base du Cloud intelligent](ui-extensions-intelligent-cloud.md)
+#### [Extensions de migration vers le cloud](ui-extensions-data-replication.md)
+#### [Base de migration vers le cloud](ui-extensions-intelligent-cloud.md)
 #### [Prévisions de retard de paiement](ui-extensions-late-payment-prediction.md)
 #### [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
@@ -1597,7 +1789,7 @@
 #### [DK - Formats de fichier fiscal](ui-extensions-tax-file-formats-dk.md)
 #### [RU - Extension GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Envoi d’un avis de versement](ui-extensions-send-remittance-advice.md)
-#### [Extensions Business Central par d’autres fournisseurs](ui-extensions-other.md)
+#### [Extensions Business Central par d’autres fournisseurs](ui-extensions-other.md)
 ## Intégration à Dynamics 365 Sales
 ### [Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Intégration à Microsoft Dataverse
@@ -1605,21 +1797,21 @@
 ### [Modèles de propriété de données](admin-cds-company-concept.md)
 ### [Configuration des comptes d’utilisateur pour intégration à Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Se connecter à Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synchronisation de Business Central et de Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
+### [Synchronisation de Business Central et de Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Mappage des tables et des champs à synchroniser](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synchroniser manuellement les mappages de table](admin-manual-synchronization-of-table-mappings.md)
 ### [Programmer une synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Résolution des erreurs de synchronisation](admin-troubleshoot-sales-synchronization.md)
 <!--migrate to BC online-->
-## Migration vers Business Central Online
+## Migration vers Business Central Online
 ### [Migration des données sur site](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
 ### [Exécution de l’outil de migration vers le cloud](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)
 ### [Gestion de la migration vers le cloud](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
-### [Migration à partir de Business Central en local](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
+### [Migration à partir de Business Central en local](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Migration depuis Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
 ### [Migration depuis Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [FAQ sur la connexion au cloud intelligent](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
-## [Tâches d’administration de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
+### [FAQ sur la migration vers le cloud](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+## [Tâches d’administration de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Développement](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Sécurité et protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Performances](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)

@@ -2,25 +2,26 @@
 title: Fonctionnalités d’entreprise prises en charge par Business Central
 description: Fournit une fonctionnalité d’aperçu de toutes les fonctionnalités commerciales et des départements qui sont pris en charge par les domaines de l’application, comme les finances, le stock, et la gestion de projets.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 10/01/2020
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d1988bd3bbd9424f48431927dd6416eab636adf1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f25e6f2afbcb6f249bf3e04f35172d6678cbd113
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914429"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323126"
 ---
 # <a name="business-functionality"></a>Fonctionnalités d’entreprise
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l’assemblage, la fabrication, la maintenance et la gestion d’entrepôt suggérée sont également pris en charge.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez modifier la configuration pour l’adapter aux besoins de votre activité. À partir de votre tableau de bord, vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d’ajouter des fonctionnalités à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Plusieurs modules de fonctionnalités d’entreprise doivent être créés manuellement. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités pour les processus entreprise communs dans des PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l’assemblage, la fabrication, la maintenance et la gestion d’entrepôt suggérée sont également pris en charge.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] comprend des configurations standard pour la plupart des processus entreprise, mais vous pouvez modifier la configuration pour l’adapter aux besoins de votre activité. À partir de votre tableau de bord, vous pouvez accéder aux guides de configuration assistée qui vous permettent de configurer certains scénarios et d’ajouter des fonctionnalités à [!INCLUDE[prod_short](includes/prod_short.md)]. Plusieurs modules de fonctionnalités d’entreprise doivent être créés manuellement. Les articles [Démarrage rapide de Business Central](quick-start-business-central.md) peuvent vous aider à vous familiariser avec [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | À | Voir |
 | --- | --- |
@@ -40,12 +41,15 @@ ms.locfileid: "3914429"
 |Planifier des appels de service et configurer des commandes service et assurer le suivi des pièces et fournitures de réparation.|[Gestion des services](service-service.md)|
 |Configurez et utilisez des workflows qui connectent des tâches exécutées par différents utilisateurs ou par le système, telles que la validation automatique. Demander et accorder une approbation pour créer ou valider des documents sont des étapes classiques du workflow.|[Flux de travail](across-workflow.md)|
 |Activez des utilisateurs pour l’échange de données avec des sources externes lors de tâches quotidiennes, telles que les envoyer/recevoir des documents électroniques, importer/exporter des fichiers bancaires, et mettre à jour des taux de change des devises.|[Échanger des données par voir électronique](across-data-exchange.md)|
-|Enregistrez des documents externes dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
+|Enregistrez des documents externes dans [!INCLUDE[prod_short](includes/prod_short.md)], ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
 
 ## <a name="see-also"></a>Voir aussi
 
 [Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Administration](admin-setup-and-administration.md)  
-[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

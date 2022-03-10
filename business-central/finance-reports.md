@@ -1,41 +1,26 @@
 ---
-title: Rapports financiers dans Business Central
-description: Découvrez les rapports financiers disponibles dans la version standard de Business Central afin que vous puissiez suivre votre activité.
+title: États financiers et analyses
+description: Découvrez les états financiers et analyses disponibles dans la version standard de Business Central afin que vous puissiez suivre votre activité. Utilisez le rapport 38 pour les rapports de profit/perte (P&L).
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.date: 04/01/2021
+ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: a36e40796978ddd20df818c3bccb1e148d50a4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c31914e1c251f4cf04cd3b990c2570b51e1717f5
+ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783787"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311227"
 ---
-# <a name="financial-reports-in-business-central"></a>Rapports financiers dans Business Central
+# <a name="financial-reports-and-analytics-in-business-central"></a>États financiers et analyses dans Business Central
 
-La génération d’états financiers dans [!INCLUDE [prod_short](includes/prod_short.md)] permet aux professionnels de la finance et des affaires de créer, maintenir, déployer et consulter des états financiers. Ils vont au-delà des contraintes des rapports traditionnels pour vous aider à concevoir efficacement divers types de rapports. [!INCLUDE [prod_short](includes/prod_short.md)] comprend plusieurs rapports, fonctions de traçage et outils qui aident les auditeurs ou contrôleurs chargés de rendre compte au service financier. La génération d’états financiers inclut la prise en charge des dimensions, de sorte que les segments de compte ou les dimensions sont immédiatement disponibles. Aucun outil ou étape de configuration supplémentaire n’est requis.  
+La génération d’états financiers dans [!INCLUDE [prod_short](includes/prod_short.md)] permet aux professionnels de la finance et des affaires de créer, maintenir, déployer et consulter des états financiers. Ils vont au-delà des contraintes des rapports traditionnels pour vous aider à concevoir efficacement divers types de rapports. [!INCLUDE [prod_short](includes/prod_short.md)] comprend plusieurs rapports, fonctions de traçage et outils qui aident les auditeurs ou contrôleurs chargés de rendre compte au service financier. La génération d’états financiers inclut la prise en charge des dimensions, de sorte que les segments de compte ou les dimensions sont immédiatement disponibles. Aucun autre outil ou étape de configuration supplémentaire n’est requis.  
+
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
 ## <a name="reports"></a>États
-
-Le tableau suivant décrit certains des principaux rapports dans les rapports financiers.
-
-|État |Description  |
-|---------|---------|
-|**Ajuster coûts : Écr. article** | Ajuste les valeurs d’inventaire des écritures valeur afin que vous utilisiez le coût ajusté correct pour la mise à jour des écritures comptables et que les statistiques vente et profit soient à jour. L’ajustement des coûts transfère les modifications de coût des écritures entrantes, telles que celles des sorties achat ou production, aux écritures sortantes correspondantes, telles que les ventes ou les transferts.  |
-|**Balance**| Affiche le plan comptable avec les soldes et les soldes périodes. Vous pouvez choisir de visualiser la balance générale relative à des axes analytiques sélectionnés. Vous pouvez l’utiliser lors de la clôture d’une période comptable ou d’un exercice comptable. |
-|**Balance par période**  | Présente le solde d’ouverture par compte général, les mouvements pour la période sélectionnée (mois, trimestre ou année) et le solde de clôture qui en résulte.         |
-|**Comparaison balance/budget** | Affiche la balance comparée à un budget. Vous pouvez choisir de visualiser la balance générale relative à des axes analytiques sélectionnés. Vous pouvez l’utiliser lors de la clôture d’une période comptable ou d’un exercice comptable.        |
-|**Balance détaillée** |Affiche la balance détaillée pour les écritures comptables sélectionnées. Vous pouvez l’utiliser lors de la clôture d’une période comptable ou d’un exercice comptable. Vous pouvez définir les comptes qui seront inclus dans le rapport en définissant des filtres.         |
-|**Balance N/N-1**|Affiche la balance comparée aux chiffres de l’année précédente. Vous pouvez choisir de visualiser la balance générale relative à des axes analytiques sélectionnés. Vous pouvez l’utiliser lors de la clôture d’une période comptable ou d’un exercice comptable. Notez que l’*année précédente* signifie la même période de l’année calendaire précédente.|
-|**Tableau d’analyse**|Les tableaux d’analyse peuvent être utilisés pour afficher les comptes généraux d’une manière différente que dans le plan comptable. Par exemple, les tableaux d’analyse peuvent être utilisés pour les rapports qui concernent des chiffres-clés.|
-<!--|**Bilan** (Tableau d’analyse ou Excel) ou **Balance** |         |
-|**Déclaration des trésoreries** (Tableau d’analyse) |         |
-|**Détail/Résumé balance** |         |
-|**Comptes de gestion** (Tableau d’analyse ou Excel)||
-|**Budget** ||-->
+[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Tâches
 
@@ -58,6 +43,9 @@ Les articles suivants décrivent certaines des tâches clés pour analyser l’�
 [Préparation des états de clôture](year-prepare-close-statement.md)  
 [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  
 [Utilisation des axes analytiques](finance-dimensions.md)  
+[Rapports Comptabilité client et analyse](receivables-reports.md)  
+[Rapports Comptabilité fournisseur et analyse](payables-reports.md)  
+[États et analyses des immobilisations](fa-reports.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Finances](finance.md)  
 [Vue d’ensemble des fonctionnalités locales](about-localization.md)  

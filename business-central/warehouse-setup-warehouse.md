@@ -1,26 +1,26 @@
 ---
-title: Configuration des processus entrepôt | Microsoft Docs
-description: 'La stratégie de distribution d’une société se reflète dans la configuration de ses processus entrepôt : cela inclut la définition de la manière dont différents articles sont traités dans différents entrepôts (par exemple, degré de contrôle des emplacements et étendue du flux requis entre les activités entrepôt).'
+title: Configuration des processus entrepôt
+description: La stratégie de distribution d’une société se reflète dans la configuration de ses processus entrepôt, par exemple les emplacements d’entrepôt.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c96691ada97f0ee91b53d9cde303c2413e99025e
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: c2645f028dcf32e90d8e3f1260e4110401c4fe6f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024402"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145175"
 ---
 # <a name="setting-up-warehouse-management"></a>Configuration de la gestion des entrepôts
+
 La stratégie de distribution d’une société se reflète dans la configuration de ses processus entrepôt : cela inclut la définition de la manière dont différents articles sont traités dans différents entrepôts (par exemple, degré de contrôle des emplacements et étendue du flux requis entre les activités entrepôt).  
 
- Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
+Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
@@ -42,9 +42,13 @@ La stratégie de distribution d’une société se reflète dans la configuratio
 |Intégrez les lecteurs de code barres à votre solution de gestion d’entrepôt. Uniquement pour le déploiement sur site.|[Utilisation des systèmes de saisie automatisée (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Spécifiez les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [Stock](inventory-manage-inventory.md)  
-[Gestion des assemblages](assembly-assemble-items.md)    
-[Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
+[Gestion nomenclature d’assemblage](assembly-assemble-items.md)
+[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

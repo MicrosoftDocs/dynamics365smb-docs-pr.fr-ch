@@ -1,30 +1,32 @@
 ---
-title: WorldPay Payments Standard| Microsoft Docs
-description: Fournit des informations sur l'extension WorldPay Payments Standard
+title: WorldPay Payments Standard
+description: L’extension WorldPay Payments Standard Standard vous permet de fournir aux clients une alternative pratique pour effectuer des paiements par transfert bancaire ou carte de crédit.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: a61fd494235a3c939822c423d4b0044ad0709e4d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dfb523d70938cd4110cca9f963de05bdf8033623
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249299"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132409"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Extension WorldPay Payments Standard
-L'extension WorldPay Payments Standard Standard vous permet de fournir aux clients une alternative pratique pour effectuer des paiements par transfert bancaire ou carte de crédit. En outre, les paiements effectués par les services de paiement arrivent habituellement sur votre compte bancaire plus rapidement.
-Si vous activez l'extension, et envoyez une facture vente ou une commande vente par e-mail, le document contient un lien vers le service de paiement dans le corps du message et dans le document PDF joint. Un client peut cliquer sur le lien, puis utiliser le service de paiement pour effectuer les paiements.
+L’extension WorldPay Payments Standard Standard vous permet de fournir aux clients une alternative pratique pour effectuer des paiements par transfert bancaire ou carte de crédit. En outre, les paiements effectués par les services de paiement arrivent habituellement sur votre compte bancaire plus rapidement.
+Si vous activez l’extension, et envoyez une facture vente ou une commande vente par e-mail, le document contient un lien vers le service de paiement dans le corps du message et dans le document PDF joint. Un client peut cliquer sur le lien, puis utiliser le service de paiement pour effectuer les paiements.
 
-L'activation des extensions de service de paiement est gratuite dans [!INCLUDE[d365fin](includes/d365fin_md.md)], toutefois, vous devez contacter le service de paiement pour obtenir un compte. Pour plus d'informations, voir [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).
+L’activation des extensions de service de paiement est gratuite dans [!INCLUDE[prod_short](includes/prod_short.md)], toutefois, vous devez contacter le service de paiement pour obtenir un compte. Pour plus d’informations, voir [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide des extensions](ui-extensions.md)  
+[Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,23 @@
 ---
-title: Procédure de suivi des relations entre l’offre et la demande | Microsoft Docs
-description: À partir d’un document d’offre ou de demande dans le réseau d’ordres, vous pouvez suivre la demande de commande (quantité chaînée), les prévisions, les commandes ouvertes vente ou les paramètres de planification (quantité non chaînée) qui ont donné lieu à la ligne planning en question.
+title: Suivre les relations entre l’offre et la demande
+description: Cette rubrique explique les différentes manières de suivre les relations entre la demande et l’offre, telles que le suivi des articles associés et le traitement des éléments de planning non suivis.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 5830, 9101, 99000822, 99000855
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7ba774a7f7ba93c132e10e19f61b7df9cf825e7a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 27dce308070eb72ae7699bae084b6bedb0324ba7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383240"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146383"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Suivre les relations entre l’offre et la demande
+
 À partir d’un document d’offre ou de demande dans le réseau d’ordres, vous pouvez suivre la demande de commande (quantité chaînée), les prévisions, les commandes ouvertes vente ou les paramètres de planification (quantité non chaînée) qui ont donné lieu à la ligne planning en question.
 
 Les feuilles planning incluent également des informations de planification sur les entités sans rapport avec les commandes pour aider le gestionnaire à obtenir un programme d’approvisionnement optimal. Pour plus d’informations, voir [Éléments planning non chaînés](production-how-track-demand-supply.md#untracked-planning-elements).
@@ -27,7 +27,7 @@ Par l’intermédiaire des systèmes de planification et de réservation, le cha
 
 La procédure suivante décrit comment chaîner des articles liés sur un ordre de fabrication planifié ferme. La procédure est similaire pour tous les autres types de commande, et à partir des lignes feuille planning.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifié ferme**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. planifié ferme**, puis sélectionnez le lien associé.
 2. Ouvrez l’O.F. planifié ferme approprié dans la liste.
 3. Sur le raccourci **Lignes**, choisissez l’action **Fonctions**, puis l’action **Chaînage**.
 

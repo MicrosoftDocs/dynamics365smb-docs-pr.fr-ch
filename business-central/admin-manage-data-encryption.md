@@ -2,28 +2,30 @@
 title: Gérer le chiffrement des données | Microsoft Docs
 description: Vous pouvez chiffrer les données sur Business Central Server en générant de nouvelles clés de cryptage ou en important de existantes que bous activez sur le serveur.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8ca14916541a43d68968894870657319817911ef
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e9b04903b612609fc7d7c2dff4b3feffc184ae51
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924568"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147977"
 ---
 # <a name="managing-data-encryption"></a>Gestion du chiffrement des données
-Vous pouvez chiffrer des données sur le serveur [!INCLUDE[d365fin](includes/d365fin_md.md)] en générant de nouvelles clés de chiffrement ou en important des clés existantes que vous activez sur l’instance du serveur [!INCLUDE[d365fin](includes/d365fin_md.md)] qui est connectée à la base de données.
+Vous pouvez chiffrer des données sur le serveur [!INCLUDE[prod_short](includes/prod_short.md)] en générant de nouvelles clés de chiffrement ou en important des clés existantes que vous activez sur l’instance du serveur [!INCLUDE[prod_short](includes/prod_short.md)] qui est connectée à la base de données.
 
 Pour plus d’informations, voir [Chiffrement des données dans Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) de l’aide sur Developer and IT Pro.
 
 > [!Note]
-> Vous pouvez activer ou désactiver le cryptage uniquement si vous utilisez une version locale de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le chiffrement est toujours activé pour les versions en ligne et vous ne pouvez pas le désactiver.
+> Vous pouvez activer ou désactiver le cryptage uniquement si vous utilisez une version locale de [!INCLUDE[prod_short](includes/prod_short.md)]. Le chiffrement est toujours activé pour les versions en ligne et vous ne pouvez pas le désactiver.
 
 ## <a name="see-also"></a>Voir aussi  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,20 @@
 ---
-title: Écritures comptables article ouvertes
-description: Découvrez pourquoi le niveau de stock est nul alors qu’il existe des écritures comptables article ouvertes.
+title: Écritures comptables ouvertes d’articles non disponibles en stock
+description: Cet article traite du problème de niveau de stock nul alors qu’il existe des écritures comptables article ouvertes.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 8cb3aa1df0c67af09f0353504abceb2529df9f2f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 702fab8c5bca4cd4985e2fdd87a972e57e6169f7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751420"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143597"
 ---
 # <a name="design-details-known-item-application-issue"></a>Détails de conception : problème de lettrage article connu
 Cet article traite du problème de niveau de stock nul alors qu’il existe des écritures comptables article ouvertes dans [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -54,7 +53,7 @@ L’article commence par répertorier les symptômes courants du problème, puis
 
  Le schéma suivant décrit la façon dont les lettrages de quantité sont effectués.  
 
-![Flux de l’ajustement des coûts de l’achat à la vente](media/helene/TechArticleInventoryZero2.png "Flux de l’ajustement des coûts de l’achat à la vente")
+![Flux de l’ajustement des coûts de l’achat à la vente.](media/helene/TechArticleInventoryZero2.png "Flux de l’ajustement des coûts de l’achat à la vente")
 
  En outre, notez que l’écriture comptable article 1 (Achat) est le fournisseur de l’article et la source de coût de l’écriture comptable article lettrée, c’est-à-dire l’écriture comptable article 2 (Vente).  
 
@@ -78,7 +77,7 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 
  Le schéma suivant illustre le flux de coûts.  
 
-![Flux de l’ajustement des coûts de la vente au retour vente](media/helene/TechArticleInventoryZero4.png "Flux de l’ajustement des coûts de la vente au retour vente")
+![Flux de l’ajustement des coûts de la vente au retour vente.](media/helene/TechArticleInventoryZero4.png "Flux de l’ajustement des coûts de la vente au retour vente")
 
  En outre, notez que le coût est transféré vers l’écriture comptable article 2 (Vente), puis vers l’écriture comptable article 3 (Retour vente) et enfin vers l’écriture comptable article 4 (Vente 2).  
 
@@ -91,7 +90,7 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 
  Le schéma suivant illustre la façon dont les lettrages article sont effectués dans les deux scénarios.  
 
-![Le flux de l’ajustement des coûts va dans les deux directions](media/helene/TechArticleInventoryZero6.png "Le flux de l’ajustement des coûts va dans les deux directions")  
+![Le flux de l’ajustement des coûts va dans les deux directions.](media/helene/TechArticleInventoryZero6.png "Le flux de l’ajustement des coûts va dans les deux directions")  
 
  En outre, notez qu’un lettrage de coût est effectué (représenté par les flèches bleues) pour garantir que l’écriture comptable article 2 (Retour vente) a les mêmes coûts que l’écriture comptable article qu’elle contrepasse, c’est-à-dire l’écriture comptable article 1 (Vente 1). Toutefois, un lettrage de quantité (représenté par les flèches rouges) n’est pas créé.  
 
@@ -133,7 +132,7 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
      |N° écriture|N° écriture comptable article|N° écriture article entrant|N° écriture article sortant|Quantité|Date comptabilisation|Coût lettré|  
      |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
      |299|334|334|333|1|28/01/2018|Oui|  
-<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
+<!--![Why is inventory zero 8.](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
  En outre, notez que le coût de l’écriture comptable article entrante 334 est lettré à l’écriture comptable article sortante 333.  
 
@@ -151,3 +150,6 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : lettrage article](design-details-item-application.md)   
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

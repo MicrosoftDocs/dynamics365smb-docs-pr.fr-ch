@@ -1,27 +1,30 @@
 ---
-title: Configurer et publier les services Web KPI pour les tableaux d’analyse | Microsoft Docs
+title: Configuration et publication des services Web KPI pour les tableaux d’analyse
 description: Cette rubrique décrit comment afficher les données KPI basées sur des tableaux d’analyse spécifiques.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
+ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 54b0abc6b4c4834fd57cdc71d3d3ece024e3395c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 29816a5812ce5d5cfe19b8c27b475ddd2090710f
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913853"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335437"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Configuration et publication des services Web KPI sur la base de tableaux d’analyse
 La page **Tableau d’analyse - Paramètres du service web KPI** vous permet de configurer la manière dont les informations KPI du tableau d’analyse sont affichées et sur quels tableaux d’analyse spécifiques baser les KPI. Lorsque vous sélectionnez le bouton **Publier le service Web**, les informations KPI du tableau d’analyse spécifiées sont ajoutées à la liste des services Web publiés sur la page **Services web**.  
 
+> [!NOTE]
+> Si vous utilisez ce service Web, les dates de clôture ne sont pas incluses dans votre ensemble de données. Vous pouvez ainsi utiliser des filtres dans Power BI pour analyser différentes périodes.
+
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Configuration et de publication d’un service Web KPI sur la base de tableaux d’analyse  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableau d’analyse - Paramètres du service web KPI**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Tableau d’analyse Paramètres du service web KPI**, puis choisissez le lien associé.  
 2.  Sous le raccourci **Général**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
     |Champ|Désignation|  
@@ -54,4 +57,7 @@ La page **Tableau d’analyse - Paramètres du service web KPI** vous permet de 
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Les écritures comptables et le plan comptable](finance-general-ledger.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

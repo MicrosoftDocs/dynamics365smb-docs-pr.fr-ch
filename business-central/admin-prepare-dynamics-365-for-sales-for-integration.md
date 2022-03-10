@@ -2,7 +2,6 @@
 title: Intégration à Dynamics 365 Sales
 description: Découvrez Dynamics 365 Business Central et soyez prêt à intégrer Dynamics 365 Sales pour voir ce qui se passe dans le système principal.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,15 +9,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 437287401003cc008e3a998e7d28fb7862415abc
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: c0c1d4504a75a07ead734ad74e67567129e43dd5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325483"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130685"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Intégration à Dynamics 365 Sales
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Le rôle de vendeur est souvent considéré comme tourné vers l’extérieur dans une entreprise. Toutefois, il peut être utile pour les vendeurs d’être en mesure de regarder à l’intérieur de l’entreprise et d’observer ce qu’il s’y passe en arrière-plan. En intégrant [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[crm_md](includes/crm_md.md)], vous pouvez donner à vos vendeurs cet aperçu en leur permettant de visualiser les informations dans [!INCLUDE[prod_short](includes/prod_short.md)] pendant qu’ils travaillent dans [!INCLUDE[crm_md](includes/crm_md.md)]. Par exemple, dans le cadre de la préparation d’un devis, il peut s’avérer utile de savoir si vous avez suffisamment de stock pour répondre à la commande. Pour plus d’informations, voir [Utilisation de Dynamics 365 Sales depuis Business Central](marketing-integrate-dynamicscrm.md).
 
@@ -26,7 +25,7 @@ Le rôle de vendeur est souvent considéré comme tourné vers l’extérieur da
 > Cette rubrique décrit le processus d’intégration des versions en ligne de [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[prod_short](includes/prod_short.md)] au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Pour plus d’informations sur la configuration sur site, voir [Préparation de l’intégration à Dynamics 365 Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## <a name="integrating-through-dataverse"></a>Intégration au moyen de Dataverse
-[!INCLUDE[prod_short](includes/prod_short.md)] s’intègre également à [!INCLUDE[prod_short](includes/cds_long_md.md)], ce qui facilite la connexion et la synchronisation des données avec d’autres applications Dynamics 365 telles que [!INCLUDE[crm_md](includes/crm_md.md)], voire des applications que vous créez vous-même. S’il s’agit de votre toute première intégration, nous vous recommandons de l’effectuer au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Pour en savoir plus, consultez [Intégration à Dataverse](admin-common-data-service.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] s’intègre également à [!INCLUDE[prod_short](includes/cds_long_md.md)], ce qui facilite la connexion et la synchronisation des données avec d’autres applications Dynamics 365 telles que [!INCLUDE[crm_md](includes/crm_md.md)], voire des applications que vous créez vous-même. S’il s’agit de votre toute première intégration, vous devez l’effectuer au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Pour en savoir plus, consultez [Intégration à Dataverse](admin-common-data-service.md).
 
 Si vous avez déjà intégré [!INCLUDE[crm_md](includes/crm_md.md)] à [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez continuer à synchroniser les données à l’aide de votre configuration. Cependant, si vous mettez à niveau ou désactivez votre intégration [!INCLUDE[crm_md](includes/crm_md.md)], vous devez vous connecter au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)] pour la réactiver. Pour en savoir plus, consultez [Mise à niveau d’une intégration à Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
 
@@ -80,7 +79,7 @@ Outre les paramètres ci-dessus, saisissez les paramètres suivants pour [!INCLU
 |--|--|
 | **L’intégration des commandes vente est activée** | Laissez les utilisateurs envoyer les commandes vente et les devis activés dans [!INCLUDE[crm_md](includes/crm_md.md)], et les visualiser et les traiter dans [!INCLUDE[prod_short](includes/prod_short.md)]. Cela intègre le processus dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d’informations, voir [Activer l’intégration du traitement des commandes client](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Créer automatiquement des commandes vente** | Permet de créer une commande vente dans [!INCLUDE[prod_short](includes/prod_short.md)] lorsqu’un utilisateur en crée et en envoie une dans [!INCLUDE[crm_md](includes/crm_md.md)]. |
-| **Traiter automatiquement les devis** | Permet de traiter un devis dans [!INCLUDE[prod_short](includes/prod_short.md)] lorsqu’un utilisateur en crée et en active un dans [!INCLUDE[crm_md](includes/crm_md.md)]. |
+| **Traiter automatiquement les devis** | Permet de traiter un devis dans [!INCLUDE[prod_short](includes/prod_short.md)] lorsqu’un utilisateur en crée et en active un dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d’informations, reportez-vous à la rubrique [Gestion des données de devis spéciales](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
 
 <!--
 ### User Account Settings
@@ -94,9 +93,12 @@ Le tableau suivant répertorie le mappage standard entre les tables dans [!INCLU
 
 | [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[crm_md](includes/crm_md.md)] | Direction de synchronisation | Filtre par défaut |
 |--|--|--|--|
-| Unité de mesure | Groupe d’unités | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Unité | Groupe d’unités | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Article ; | Produit | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtre contact Sales : le **Type de produit** est **Stock de vente** |
 | Ressource | Produit | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtre contact Sales : le **Type de produit** est **Services** |
+| Unité article | UdM CRM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+| Unité ressource | UdM CRM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||
+| Groupe d’unités | CRM Uomschedule | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ||
 | Groupe prix client | Liste des prix | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Prix vente | Tarifs produit | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | Filtre contact [!INCLUDE[prod_short](includes/prod_short.md)] : le champ **Code de vente** n’est pas vide, le champ **Type de vente** est défini sur **Groupe prix client** |
 | Opportunité | Opportunité | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
@@ -104,6 +106,50 @@ Le tableau suivant répertorie le mappage standard entre les tables dans [!INCLU
 | Ligne facture vente | Produit facture | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | En-tête de commande vente | Ecriture réservation | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | Filtre en-tête de vente [!INCLUDE[prod_short](includes/prod_short.md)] : le champ **Type de document** est défini sur Commande, le champ **Statut** est défini sur Lancé. |
 | Remarques Commande vente | Remarques Commande vente | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+
+> [!NOTE]
+> Les mappages des tables Unité article, Unité ressource et Groupe d’unités ne sont disponibles que si l’administrateur a activé le commutateur de fonctionnalité **Mise à jour des fonctionnalités : synchronisation de plusieurs unités avec Dynamics 365 Sales** sur la page **Gestion des fonctionnalités**. Pour plus d’informations, consultez [Synchronisation des articles et des ressources avec des produits dans différentes unités](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
+
+## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Synchronisation des articles et des ressources avec des produits dans différentes unités
+Les entreprises produisent ou achètent souvent les articles dans une unité, puis les vendent dans une autre. Pour synchroniser des articles qui utilisent plusieurs unités, vous devez activer le commutateur de fonctionnalité **Mise à jour des fonctionnalités : synchronisation de plusieurs unités avec Dynamics 365 Sales** sur la page **Gestion des fonctionnalités**. 
+
+Lorsque vous le faites, une table Groupe d’unités est créée et affectée à chaque article et ressource dans [!INCLUDE[prod_short](includes/prod_short.md)]. Cela vous permet de mapper les tables Groupe d’unités, Unité article et Unité ressource dans [!INCLUDE[prod_short](includes/prod_short.md)] au groupe d’unités de Dynamics 365 Sales <!--Need to verify this name--> dans [!INCLUDE[crm_md](includes/crm_md.md)], comme le montre l’image suivante.
+
+:::image type="content" source="media/unit group 1.png" alt-text="Mappages de tables pour les groupes d’unités":::
+
+Vous pouvez créer plusieurs unités pour chaque groupe d’unités et affecter les groupes aux produits dans [!INCLUDE[crm_md](includes/crm_md.md)]. Ensuite, vous pourrez synchroniser les produits avec des articles et des ressources dans [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez coupler manuellement des unités article ou des unités ressource à un groupe d’unités. Lorsque vous le faites, si le groupe d’unités article ou ressource n’est pas couplé à un groupe d’unités dans [!INCLUDE[crm_md](includes/crm_md.md)], par exemple, parce que le groupe de base n’existait pas, [!INCLUDE[prod_short](includes/prod_short.md)] créera automatiquement le groupe d’unités dans [!INCLUDE[crm_md](includes/crm_md.md)].
+
+### <a name="mapping-items-and-resources-to-products"></a>Mappage d’articles et de ressources avec des produits
+Lorsque vous activez le commutateur de fonctionnalité **Mise à jour des fonctionnalités : synchronisation de plusieurs unités avec Dynamics 365 Sales**, ce qui suit se produit :
+
+* Des mappages sont créés pour les articles et les ressources.
+* Les mappages existants sont supprimés. <!--which mappings?-->
+* Une mise à niveau des données crée des groupes d’unités pour les articles et les ressources.
+
+Pour utiliser les nouveaux mappages, vous devez synchroniser les groupes d’unités, l’unité article et l’unité ressource. Vous devez également resynchroniser les articles et les ressources. 
+
+> [!NOTE]
+> [!INCLUDE[crm_md](includes/crm_md.md)] ne vous permet pas de modifier un groupe d’unités pour un produit. Par conséquent, vous devez supprimer vos produits et découpler les articles et les ressources, puis synchroniser en créant des produits dans [!INCLUDE[crm_md](includes/crm_md.md)]. 
+
+Les étapes suivantes décrivent les étapes de démarrage du mappage des groupes d’unités :
+
+1. Assurez-vous que les produits de [!INCLUDE[crm_md](includes/crm_md.md)] ne sont pas associés à des articles ou des ressources dans [!INCLUDE[prod_short](includes/prod_short.md)]. S’ils le sont, accédez aux pages **Articles** et/ou **Ressources** et utilisez les options de filtrage pour sélectionner les enregistrements associés. Ensuite, choisissez l’action **Dynamics 365 Sales** et sélectionnez **Découpler**. Cela planifie une tâche en arrière-plan pour découpler les enregistrements. Pendant que le travail est en cours d’exécution, vous pouvez vérifier son statut en utilisant l’action **Journal de synchronisation**. Pour plus d’informations, voir [Couplage et synchronisation](admin-how-to-couple-and-synchronize-records-manually.md). 
+2. Du fait que des produits seront créés dans [!INCLUDE[crm_md](includes/crm_md.md)] avec de nouveaux groupes d’unités, pour éviter les noms en double, effectuez l’une des opérations suivantes :
+    
+    * Renommez vos produits, puis supprimez-les de [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d’informations, voir [Supprimer des produits (Centre des ventes)](/dynamics365/sales-enterprise/retire-product). Pour modifier en bloc vos produits dans Microsoft Excel, connectez-vous à Power Apps, choisissez votre environnement, rendez-vous sur la table **Produit** et choisissez l’onglet **Données**. Effacez tous les filtres appliqués. Dans le groupe **Données**, choisissez l’action **Modifier les données dans Excel**. Ajoutez un préfixe ou un suffixe aux produits couplés, puis supprimez-les.
+    * Retirez vos produits et supprimez-les. 
+
+3. Suivez ces étapes pour synchroniser **Groupes d’unités**, **Unité**, **Articles**, et **Ressources** :
+    1. Dans [!INCLUDE[prod_short](includes/prod_short.md)], ouvrez la page **Paramètres de la connexion Dynamics 365 Sales**.
+    2. Utilisez l’action **Exécuter la synchronisation complète** pour ouvrir la page **Révision de synchr. complète Dataverse**.
+    3. Pour les mappages **UDM ARTICLE**, **UDM RESSOURCE**, ET **GROUPE D’UNITÉS**, choisissez l’action **Recommander la synchronisation complète**.
+    4. Sélectionnez l’action **Synchroniser tout**.
+
+    > [!NOTE]
+    > Pour les mappages qui n’ont pas encore été entièrement synchronisés, cette action les synchronisera entièrement. Pour empêcher ces mappages de se synchroniser, supprimez les mappages de la page. Cela les supprime uniquement de la synchronisation complète actuelle et ne supprime pas les mappages.
+    
+5. Choisir le mappage **ARTICLE-PRODUIT**, puis choisissez l’action **Redémarrage**. Cela crée des produits à partir des articles dans [!INCLUDE[crm_md](includes/crm_md.md)], et attribue un nouveau groupe d’unités spécifique à l’article.
+6. Choisir le mappage **RESSOURCE-PRODUIT**, puis choisissez l’action **Redémarrage**. Cela crée des produits à partir des ressources dans [!INCLUDE[crm_md](includes/crm_md.md)], et attribue un nouveau groupe d’unités spécifique aux ressources.
 
 ### <a name="synchronization-rules"></a>Règles de synchronisation
 
@@ -140,7 +186,7 @@ Le tableau suivant décrit les projets de synchronisation par défaut pour Sales
 
 |Écriture file d’attente des travaux|Description|Sens|Mappage de table d’intégration|Fréquence de synchronisation par défaut (minutes)|Temps de veille pour inactivité par défaut (minutes)|  
 |---------------------|---------------------------------------|---------------|-------------------------------|-----|-----|  
-|Projet de synchronisation Dynamics 365 Sales - UNITÉDEMESURE|Permet de synchroniser les groupes d’unités [!INCLUDE[crm_md](includes/crm_md.md)] avec les unités de mesure [!INCLUDE[prod_short](includes/prod_short.md)].|De [!INCLUDE[prod_short](includes/prod_short.md)] vers [!INCLUDE[crm_md](includes/crm_md.md)]|UNITÉ DE MESURE|30|720<br> (12 heures)|
+|Projet de synchronisation Dynamics 365 Sales - UNITÉDEMESURE|Permet de synchroniser les groupes d’unités [!INCLUDE[crm_md](includes/crm_md.md)] avec les unités de mesure [!INCLUDE[prod_short](includes/prod_short.md)].|De [!INCLUDE[prod_short](includes/prod_short.md)] vers [!INCLUDE[crm_md](includes/crm_md.md)]|UNITÉ|30|720<br> (12 heures)|
 |Projet de synchronisation Dynamics 365 Sales - RESSOURCE-PRODUIT|Permet de synchroniser les produits [!INCLUDE[crm_md](includes/crm_md.md)] avec les ressources [!INCLUDE[prod_short](includes/prod_short.md)].|De [!INCLUDE[prod_short](includes/prod_short.md)] vers [!INCLUDE[crm_md](includes/crm_md.md)]|RESSOURCE-PRODUIT|30|720<br> (12 heures)|
 |Projet de synchronisation Dynamics 365 Sales - ARTICLE - PRODUIT|Permet de synchroniser les produits [!INCLUDE[crm_md](includes/crm_md.md)] avec les articles [!INCLUDE[prod_short](includes/prod_short.md)].|De [!INCLUDE[prod_short](includes/prod_short.md)] vers [!INCLUDE[crm_md](includes/crm_md.md)]|ARTICLE-PRODUIT|30|1440<br> (24 heures)|
 |Projet de synchronisation Dynamics 365 Sales - GRPPRXCLI-PRIX|Permet de synchroniser les listes de prix de vente [!INCLUDE[crm_md](includes/crm_md.md)] avec les groupes de prix client [!INCLUDE[prod_short](includes/prod_short.md)].| |GROUPES DE PRIX CLIENT - LISTES DE PRIX DE VENTE|30|1440<br> (24 heures)|

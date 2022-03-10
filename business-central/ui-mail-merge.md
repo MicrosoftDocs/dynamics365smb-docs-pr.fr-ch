@@ -2,7 +2,6 @@
 title: Utilisation de modèles Word pour les communications en masse | Microsoft Docs
 description: Les modèles Word peuvent faciliter la création groupée de documents personnalisés pour des entités spécifiques.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c624d718d27de607aed49a82a506f81eec57247c
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 9e87e86ea4f267bea0e636f16fab55ae485ee8cf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588922"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145331"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Utilisation de modèles Word pour la communication en masse
 Les modèles Microsoft Word peuvent faciliter la communication de masse par documents papier ou e-mails avec des entités telles que les contacts, les clients et les fournisseurs. Par exemple, vous pouvez créer des brochures pour alerter les clients sur une campagne de vente, des lettres pour informer les fournisseurs d’une nouvelle politique d’achat ou des invitations à attirer des contacts pour un événement à venir.

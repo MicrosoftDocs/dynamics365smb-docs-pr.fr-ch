@@ -1,21 +1,20 @@
 ---
-title: Gestion des coûts ajustés | Microsoft Docs
-description: La gestion des coûts, aussi appelée comptabilité analytique, se charge de l’enregistrement et de la déclaration des coûts d’exploitation de la société. Cette activité inclut la déclaration des coûts de fabrication et de stock qui constituent la valeur des articles.
+title: Gestion des coûts ajustés
+description: La gestion des coûts consiste à enregistrer et à déclarer les coûts d’exploitation de l’entreprise, y compris la déclaration des coûts de fabrication et des coûts de stock.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0f356ec93a678b3cb370c5bc42a91d8440344f7f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 79498fe0e29a633f7d17a7940148728f544cb2d0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916891"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138533"
 ---
 # <a name="managing-inventory-costs"></a>Gestion des coûts ajustés
 La gestion des coûts, aussi appelée comptabilité analytique, se charge de l’enregistrement et de la déclaration des coûts d’exploitation de la société. Cette activité inclut la déclaration des coûts de fabrication et de stock qui constituent la valeur des articles.   
@@ -26,7 +25,8 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
-|Lire différentes informations conceptuelles pour comprendre les principes et définitions qui gouvernent la fonctionnalité Comptabilité des coûts de stock [!INCLUDE[d365fin](includes/d365fin_md.md)].|[À propos de l’évaluation des coûts de stock](finance-learn-about-costing.md)|  
+|Lire différentes informations conceptuelles pour comprendre les principes et définitions qui gouvernent la fonctionnalité Comptabilité des coûts de stock [!INCLUDE[prod_short](includes/prod_short.md)].|[À propos de l’évaluation des coûts de stock](finance-learn-about-costing.md)|  
+|Assurez-vous de connaître le coût des articles expédiés en affectant les coûts articles ajoutés, tels que le fret, la manutention, les assurances, et transport, que vous encourez après la vente.|[Utiliser des frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md)|
 |En savoir plus sur les mécanismes dans le système d’évaluation.|[Détails de conception : Évaluation stock](design-details-inventory-costing.md)|
 |Obtenir des informations sur la manière dont les périodes inventaire permettent à une société de contrôler la valeur du stock dans le temps en définissant des périodes plus courtes qui peuvent être fermées à la validation lorsque la fin de l’exercice comptable approche.|[Utiliser les périodes inventaire](finance-how-to-work-with-inventory-periods.md)|
 |Apprendre pourquoi les coûts standard sont souvent utilisés par les sociétés de production comme base d’évaluation pour les composants et les produits finis.|[À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md)|
@@ -37,10 +37,14 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Actualisez périodiquement les coûts standard des composants, dans les nomenclatures d’assemblage ou de production, et remonter les nouveaux coûts dans l’article parent.|[Mise à jour des coûts standard](finance-how-to-update-standard-costs.md)|
 |Visualiser et modifier manuellement certaines écritures lettrage article qui sont créées automatiquement lors des mouvements de stock.|[Supprimer et relettrer des écritures comptables article](finance-how-to-remove-and-reapply-item-entries.md)|
 |Effectuer un contrôle de clôture d’exercice et des tâches de création de rapports, tels que le calcul de la valeur du stock et la validation des coûts dans la comptabilité.|[Génération des coûts et rapprochement en comptabilité](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Découvrez comment vous pouvez utiliser la file d’attente des travaux pour déplacer les tâches d’ajustement du coût stocks ou de rapprochement avec la comptabilité en arrière-plan.|[Ajuster et rapprocher le coût stocks avec la comptabilité avec la file d’attente des travaux](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Voir aussi  
  [Finances](finance.md)  
  [STOCKS ET EN-COURS](inventory-manage-inventory.md)   
  [Ventes](sales-manage-sales.md)   
  [Achats](purchasing-manage-purchasing.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

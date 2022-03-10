@@ -1,8 +1,7 @@
 ---
 title: Mappage des tables et des champs à synchroniser | Microsoft Docs
-description: Découvrez comment mapper des tables et des champs pour synchroniser des données entre Business Central et Microsoft Dataverse.
+description: Découvrez comment mapper des tables et des champs pour synchroniser des données entre Business Central et Microsoft Dataverse.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,15 +9,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9c11e4f5acb0055b42a2d172f9a7deba75edfb08
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 844b053a307d88bd93d945a7927726fd28518000
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779822"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147153"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappage des tables et des champs à synchroniser
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 La base de la synchronisation des données consiste à mapper les tables et les champs dans [!INCLUDE[prod_short](includes/prod_short.md)] avec des tables et des colonnes dans [!INCLUDE[prod_short](includes/cds_long_md.md)] afin qu’ils échangent les données. Le mappage s’effectue via des tables d’intégration. 
 
@@ -50,6 +49,8 @@ Le mappage de tables ne constitue que la première étape. Vous devez également
 > [!Note]
 > Si vous utilisez une version locale de [!INCLUDE[prod_short](includes/prod_short.md)], les mappages de champs d’intégration sont définis dans la table 5336 Mappage de champs d’intégration.
 
+Vous pouvez mapper manuellement les champs, ou automatiser le processus en mappant plusieurs champs en même temps en fonction de critères de correspondance de leurs valeurs. Pour plus d’informations, consultez [Pour coupler plusieurs enregistrements en fonction de la correspondance de leurs valeurs de champ](admin-how-to-couple-and-synchronize-records-manually.md).
+
 ### <a name="handling-differences-in-field-values"></a>Gestion des différences de valeurs de champ
 Parfois, les valeurs des champs que vous souhaitez associer sont différentes. Par exemple, le code langue pour les États-Unis est « U.S. » dans [!INCLUDE[crm_md](includes/crm_md.md)], mais « US » dans [!INCLUDE[prod_short](includes/prod_short.md)]. Autrement dit, vous devez transformer la valeur lorsque vous synchronisez des données. Cela se fait via les règles de transformation que vous définissez pour les champs. Vous définissez des règles de transformation sur la page **Mappages de table d’intégration** en choisissant **Mappage**, puis **Champs**. Des règles prédéfinies sont fournies, mais vous pouvez également créer les vôtres. Pour plus d’informations, voir [Règles de transformation](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
@@ -68,7 +69,7 @@ Les couplages peuvent être configurés automatiquement à l’aide des projets 
 Si vous ne souhaitez pas synchroniser toutes les lignes pour une table spécifique dans [!INCLUDE[prod_short](includes/cds_long_md.md)] ou une table dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez définir des filtres pour limiter les données synchronisées. Vous configurez des filtres sur la page **Mappages de table d’intégration**.  
 
 #### <a name="to-filter-records-or-rows-for-synchronization"></a>Pour filtrer des enregistrements ou lignes en vue d’une synchronisation  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Mappages de table d’intégration**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Mappages de table d’intégration**, puis choisissez le lien associé.
 
 2.  Pour filtrer les enregistrements [!INCLUDE[prod_short](includes/prod_short.md)], définissez le champ **Filtre table**.  
 
@@ -80,7 +81,7 @@ Par défaut, seuls les enregistrements dans [!INCLUDE[prod_short](includes/prod_
 Par exemple, le projet de synchronisation Dynamics 365 Sales - VENDEURS utilise le mappage de table VENDEURS. Le projet de synchronisation copie les données des utilisateurs dans [!INCLUDE[prod_short](includes/cds_long_md.md)] vers les vendeurs dans [!INCLUDE[prod_short](includes/prod_short.md)]. Si vous définissez le mappage de table pour créer des enregistrements, pour chaque utilisateur dans [!INCLUDE[prod_short](includes/cds_long_md.md)] qui n’est pas encore couplé à un vendeur dans [!INCLUDE[prod_short](includes/prod_short.md)], une ligne de vendeur est créée dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Pour créer des enregistrements durant la synchronisation  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Mappages de table d’intégration**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Mappages de table d’intégration**, puis choisissez le lien associé.
 
 2.  Dans l’écriture de mappage de table de la liste, désactivez le champ **Synch. uniquement les enregistrements couplés**.  
 
@@ -96,7 +97,7 @@ Si vous installez la configuration de synchronisation par défaut, deux modèles
 -   Le compte **CDSACCOUNT** permet de créer et synchroniser de nouveaux comptes dans [!INCLUDE[prod_short](includes/cds_long_md.md)] sur la base d’un compte dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Pour spécifier des modèles de configuration dans un mappage de table  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Mappages de table d’intégration**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Mappages de table d’intégration**, puis choisissez le lien associé.
 
 2.  Dans l’écriture de mappage de table de la liste, dans le champ **Code modèle config. table**, choisissez le modèle de configuration à utiliser pour les nouveaux enregistrements dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -104,7 +105,7 @@ Si vous installez la configuration de synchronisation par défaut, deux modèles
 
 ## <a name="see-also"></a>Voir aussi  
 [À propos de l’intégration de Dynamics 365 Business Central avec [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md )   
-[Synchronisation de Business Central et de [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)   
+[Synchronisation de Business Central et de [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)   
 [Programmer une synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 
 

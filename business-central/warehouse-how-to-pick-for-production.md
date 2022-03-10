@@ -1,21 +1,20 @@
 ---
-title: Prélever pour la fabrication ou l’assemblage dans les configurations de stockage de base.
-description: Lorsque l’entrepôt appelle un traitement de prélèvement sans appeler de traitement d’expédition, vous pouvez utiliser la page **Prélèvement stock** pour organiser et enregistrer le prélèvement des composants.
+title: Prélever pour la production ou l’assemblage dans le stockage de base
+description: Lorsque l’entrepôt appelle un traitement de prélèvement sans appeler de traitement d’expédition, vous pouvez utiliser la page Prélèvement stock pour organiser et enregistrer le prélèvement des composants.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 005532799378248f67ff21b8e50955342ff1c24a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b824cec7e6169f20d3da6bf853828a103b3c2928
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782624"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144374"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Prélever pour la fabrication ou l’assemblage dans les configurations de stockage de base.
 Le mode de rangement de vos composants de prélèvement pour les ordres de fabrication ou d’assemblage dépend de la configuration du stockage en tant qu’emplacement. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).
@@ -24,11 +23,11 @@ Le mode de rangement de vos composants de prélèvement pour les ordres de fabri
 ## <a name="pick-for-production-in-basic-warehouse-configurations"></a>Prélever pour la fabrication dans les configurations de stockage de base
 La méthode de consommation affecte également le flux des composants en production. Pour plus d’informations, voir [Consommer en aval des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md).
 
-Dans les configurations d'entrepôt avancées où les emplacements nécessitent à la fois des prélèvements et des expéditions, vous devez utiliser la page **Prélèvement en entrepôt** pour amener les composants avec la méthode de consommation définie sur *Manuel*, *Prélever + Transférer*, *Prélever + en arrière* aux ordres de fabrication. Pour plus d’informations, consultez [Prélever pour la fabrication ou l’assemblage dans les configurations de stockage avancées](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
+Dans les configurations d’entrepôt avancées où les emplacements nécessitent à la fois des prélèvements et des expéditions, vous devez utiliser la page **Prélèvement en entrepôt** pour amener les composants avec la méthode de consommation définie sur *Manuel*, *Prélever + Transférer*, *Prélever + en arrière* aux ordres de fabrication. Pour plus d’informations, consultez [Prélever pour la fabrication ou l’assemblage dans les configurations de stockage avancées](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
 Dans les configurations de stockage de base où l’emplacement requiert un traitement de prélèvement sans appeler de traitement d’expédition, vous pouvez également utiliser la page **Prélèvement stock** pour organiser et enregistrer le prélèvement des composants avec la méthode consommation définie sur *Manuel*. Lorsque vous enregistrez un prélèvement stock pour une opération interne, telles que la production, la consommation des composants sélectionnés est validée en même temps. Vous pouvez également utiliser **Mouvement de stock** avec une référence à un document source pour amener les composants avec la méthode de consommation définie sur *Manuel*, *Prélever + Transférer*, *Prélever + en arrière* aux ordres de fabrication.
 
-Lorsque des opérations de fabrication sont intégrées dans les processus entrepôt, par des emplacements ou des prélèvement ou rangement suggérés, l'emplacement à partir duquel les composants sont consommés est l'emplacement qui est défini sur chaque ligne composant O.F. Tous les composants requis doivent être disponibles dans cet emplacement. Autrement, la validation manuelle ou par consommation du composant est annulée.
+Lorsque des opérations de fabrication sont intégrées dans les processus entrepôt, par des emplacements ou des prélèvement ou rangement suggérés, l’emplacement à partir duquel les composants sont consommés est l’emplacement qui est défini sur chaque ligne composant O.F. Tous les composants requis doivent être disponibles dans cet emplacement. Autrement, la validation manuelle ou par consommation du composant est annulée.
 
 **Mouvement de stock** avec des références au document source et **Prélèvement en entrepôt** ne peut pas être utilisé pour sélectionner des composants avec des méthodes de consommation *Amont* et *Aval*. **Prélèvement stock** ne peut pas être utilisé pour sélectionner des composants avec une méthode de consommation mais *Manuel*. Pour gérer les composants restants, utilisez **Mouvement stock** sans référence à un document source. Pour plus d’informations, voir [Déplacer les composants vers une zone opérations dans les configurations de stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
@@ -40,24 +39,24 @@ Lorsque des opérations de fabrication sont intégrées dans les processus entre
 
 Si une condition préalable du système pour le prélèvement ou le déplacement de composants pour les documents d’origine est qu’une demande de désenlogement existe pour informer la zone d’entrepôt du besoin de composant. La demande désenlogement est créée lorsque le statut de l’ordre de fabrication devient Lancé ou lorsqu’un ordre de fabrication lancé est créé.  
 
-## <a name="to-pick-production-components-in-basic-warehouse-configurations-using-inventory-pick"></a>Pour prélever des composants de production dans des configurations d'entrepôt de base à l'aide du prélèvement stock
+## <a name="to-pick-production-components-in-basic-warehouse-configurations-using-inventory-pick"></a>Pour prélever des composants de production dans des configurations d’entrepôt de base à l’aide du prélèvement stock
 Dans les configurations de stockage de base, dans lesquelles le magasin est configuré pour utiliser uniquement le prélèvement ainsi que l’expédition, vous pouvez prélever des composants pour les activités de fabrication et d’assemblage à l’aide de la page **Prélèvement entrepôt**. Pour plus d’informations, voir [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements stock**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements stock**, puis choisissez le lien associé.  
 2.  Pour accéder aux composants de l’ordre de fabrication, choisissez l’action **Extraire documents origine**, puis sélectionnez l’ordre de fabrication lancé.  
 3.  Procédez au prélèvement, puis enregistrez les informations sur le prélèvement réel dans le champ **Qté à traiter**.  
 4.  Lorsque les lignes sont prêtes à être validées, choisissez l’action **Valider**. Les écritures entrepôt nécessaires sont alors créées et la consommation des articles est validée.  
 
 Vous pouvez également créer un **Prélèvement de stock** directement à partir de la commande de fabrication lancée. Choisissez l’action **Créer prélèv./rangement stock/mouvement**, cochez la case **Créer prélèvement stock**, puis choisissez le bouton **OK**.
 
-Vous pouvez également utiliser le **Mouvement stock** en référence au document source pour déplacer des articles entre les conteneurs. Vous devrez enregistrer la consommation séparément. Pour plus d'informations, voir [Valider la consommation post production](production-how-to-post-consumption.md)
+Vous pouvez également utiliser le **Mouvement stock** en référence au document source pour déplacer des articles entre les conteneurs. Vous devrez enregistrer la consommation séparément. Pour plus d’informations, voir [Valider la consommation post production](production-how-to-post-consumption.md)
 
-## <a name="pick-for-assembly-in-basic-warehouse-configurations"></a>Prélever pour l'Assemblage dans les configurations de stockage de base
-Dans les configurations d’entrepôt avancées où les magasins requièrent des prélèvements et des expéditions, vous devez utiliser la page **Prélèvement entrepôt** pour ajouter des composants aux Ordres d'assemblage. Pour plus d’informations, consultez [Prélever pour la fabrication ou l’assemblage dans les configurations de stockage avancées](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
+## <a name="pick-for-assembly-in-basic-warehouse-configurations"></a>Prélever pour l’Assemblage dans les configurations de stockage de base
+Dans les configurations d’entrepôt avancées où les magasins requièrent des prélèvements et des expéditions, vous devez utiliser la page **Prélèvement entrepôt** pour ajouter des composants aux Ordres d’assemblage. Pour plus d’informations, consultez [Prélever pour la fabrication ou l’assemblage dans les configurations de stockage avancées](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
 Dans les configurations de stockage de base, vous pouvez également prélever les ordres d’assemblage à l’aide de la page **Mouvement de stock**. 
 
-Dans les configurations d'entrepôt de base où l'emplacement nécessite le traitement des prélèvements mais pas le traitement des expéditions, la page **Prélèvement stock** est également utilisée pour sélectionner, assembler et expédier pour une commande client où les articles doivent être assemblés avant de pouvoir être expédiés. Pour plus d’informations, voir [Traitement des articles à assembler pour commande dans les prélèvements stock](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
+Dans les configurations d’entrepôt de base où l’emplacement nécessite le traitement des prélèvements mais pas le traitement des expéditions, la page **Prélèvement stock** est également utilisée pour sélectionner, assembler et expédier pour une commande client où les articles doivent être assemblés avant de pouvoir être expédiés. Pour plus d’informations, voir [Traitement des articles à assembler pour commande dans les prélèvements stock](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Traitement des articles à assembler pour commande dans les prélèvements stock
 La page **Prélvmt invent** est également utilisée pour prélever et livrer les ventes lorsque les articles doivent être assemblés avant de pouvoir être livrés. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).
@@ -81,12 +80,12 @@ Dans les scénarios de combinaison, où une partie de la quantité doit d’abor
 ## <a name="filling-the-consumption-bin"></a>Renseigner l’emplacement consommation
 Ce graphique indique comment le champ **Code emplacement** sur les lignes composant O.F. est renseigné en fonction de la configuration de votre emplacement.
 
-![Organigramme Flux d’emplacement](media/binflow.png "BinFlow")
+![Organigramme Flux d’emplacement.](media/binflow.png "BinFlow")
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [Stock](inventory-manage-inventory.md)  
-[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
+[Configuration de Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

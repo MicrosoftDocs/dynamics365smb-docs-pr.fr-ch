@@ -1,27 +1,29 @@
 ---
-title: Installation d’extensions pour personnaliser Business Central
-description: En savoir plus sur l’ajout des fonctionnalités et la personnalisation de Business Central en installant des extensions.
+title: Installation d’extensions pour personnaliser Business Central
+description: En savoir plus sur l’ajout des fonctionnalités et la personnalisation de Business Central en installant des extensions ici.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/02/2021
+ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 7839c4364f299619707b0a346b9b5d0db07e627b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493293"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132435"
 ---
-# <a name="customizing-business-central-online-using-extensions"></a>Personnalisation de Business Central Online à l’aide d’extensions
+# <a name="customizing-business-central-online-using-extensions"></a>Personnalisation de Business Central Online à l’aide d’extensions
 
 Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en ligne en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l’application, ou vous permettent d’accéder à de nouveaux services en ligne, par exemple.
 
 > [!NOTE]
-> Pour installer des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez être membre du groupe d’utilisateurs D365 EXTENSION MGT ou disposer du jeu d’autorisations D365 EXTENSION MGT. Si vous êtes un administrateur, vous pouvez attribuer des groupes d’utilisateurs et des autorisations à d’autres utilisateurs de votre entreprise.
+> Pour installer ou désinstaller des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez soit être membre du groupe d’utilisateurs EXTEND. MGT. - ADMIN ou l’ensemble d’autorisation EXTEND. MGT. - ADMIN doit vous être accordé. Si vous êtes un administrateur, vous pouvez attribuer des groupes d’utilisateurs et des autorisations à d’autres utilisateurs de votre entreprise.
+>
+> Pour utiliser les fonctionnalités fournies par une extension, telles que l’ouverture de pages, la production de rapports, la sélection d’actions, etc., vous devez disposer des jeux d’autorisations installés avec cette extension.
 
-Pour utiliser les fonctionnalités fournies par une extension, telles que l’ouverture de pages, la production de rapports, la sélection d’actions, etc., vous devez disposer des jeux d’autorisations installés avec cette extension.
+> [!NOTE]  
+> L’ensemble d’autorisations **EXTEND. MGT. - ADMIN** a été introduit dans la première vague de lancement de Business Central 2021 pour remplacer l’ensemble d’autorisations **D365 EXTENSION MGT** des versions antérieures.
 
 > [!IMPORTANT]  
 > Le chargement des extensions par client et l’installation des extensions AppSource ne sont pas pris en charge via la page **Gestion des extensions** pour les installations sur site. Vous ne pouvez pas installer d’extensions AppSource sur site, y compris dans les déploiements basés sur Docker.
@@ -50,45 +52,46 @@ Si vous désinstallez une extension, et que vous changez ensuite d’avis, vous 
 
 Certaines extensions sont fournies par Microsoft, et d’autres sont fournies par [d’autres sociétés](ui-extensions-other.md). Toutes les sont extensions testées avant d’être mises à votre disposition, mais nous vous recommandons d’accéder aux liens qui sont inclus dans chaque extension pour en savoir plus sur l’extension avant de décider de l’installer.  
 
-Microsoft fournit les extensions suivantes :  
-
-* [Extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
-* [Extension Ceridian Payroll](ui-extensions-ceridian-payroll.md)
-* [Hub Entreprise](ui-extensions-company-hub.md)  
-* [Migration de données Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-* [Informations commerciales essentielles](ui-extensions-essential-business-insights.md)
-* [Analyseur Image](ui-extensions-image-analyzer.md)
-* [Cloud intelligent](ui-extensions-data-replication.md)
-* [Base du Cloud intelligent](ui-extensions-intelligent-cloud.md)  
-* [Prévisions de retard de paiement](ui-extensions-late-payment-prediction.md)
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
-* [Extension QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)
-* [Migration des données QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
-* [Extension Importer le fichier de paie de Quickbooks](ui-extensions-quickbooks-payroll.md)
-* [Stock prévu et ventes prévues](ui-extensions-sales-forecast.md)
-* [Groupe TVA](ui-extensions-vat-group.md)
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [DK – Migration de données C5](ui-extensions-c5-data-migration.md)
-* [DK – Paiements et rapprochements](ui-extensions-payments-reconciliation-formats-dk.md)
-* [DK – Formats de fichier fiscal](ui-extensions-tax-file-formats-dk.md)
-* [Extension GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
-* [É.-U./CA/R.-U./AU/N.-Z./ZA – Envoi d’un avis de versement](ui-extensions-send-remittance-advice.md)
-
 > [!NOTE]  
 > Vous pouvez vous tenir informé sur les nouvelles extensions de Microsoft et d’autres fournisseurs sur le site [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
+
+## <a name="extensions-and-data-transfer"></a>Extensions et transfert de données
+
+Comme les extensions suivantes communiquent avec d’autres services, elles peuvent transférer des données hors de la géographie de l’environnement [!INCLUDE[prod_short](includes/prod_short.md)] :
+
+* Extension AMC Banking 365 Fundamentals
+* Analyseur Image
+* Prévisions de retard de paiement
+* PayPal Payments Standard
+* Stock prévu et ventes prévues
+* WorldPay Payments Standard
+
+Cela s’applique également à certaines fonctionnalités de l’application de base, telles que les fonctionnalités suivantes :
+
+* Prévision de trésorerie
+* Service d’échange de documents
+* Connexions à Dataverse
+* Service OCR
+* Online Map
+* N° id. intracomm. Union européenne Service
+
+## <a name="recommended-apps"></a>Applications recommandées
+Les partenaires et revendeurs Microsoft peuvent créer des extensions utilisables pour compiler des listes d’applications qu’ils recommandent souvent à leurs clients. S’ils le font, et qu’ils ont déployé l’extension sur votre locataire, les applications seront disponibles sur la page **Applications recommandées**. Là, vous pouvez vous renseigner sur chaque application et décider de les installer.
+
+> [!NOTE]
+> Si vous êtes un partenaire ou un revendeur Microsoft et que vous souhaitez fournir une liste d’applications recommandées, consultez [Recommander des applications depuis AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
+
 ## <a name="see-also"></a>Voir aussi
 
-[Personnaliser Business Central](ui-customizing-overview.md)  
-[Extensions Business Central par d’autres fournisseurs](ui-extensions-other.md)  
+[Personnaliser Business Central](ui-customizing-overview.md)  
+[Extensions Business Central par d’autres fournisseurs](ui-extensions-other.md)  
 [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md)  
 [Migration des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de l’extension GetAddress.io UK Postal Code](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [Extensions [!INCLUDE[prod_short](includes/prod_short.md)] par d’autres fournisseurs](ui-extensions-other.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

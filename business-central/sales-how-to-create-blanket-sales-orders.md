@@ -2,20 +2,19 @@
 title: Utiliser des Commandes cadres vente ou des commandes achat
 description: Utilisez des commandes ouvertes quand un client a accepté d’acheter de grandes quantités à livrer en plusieurs expéditions de petite taille au cours d’une période déterminée. La même chose s’applique aux achats.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dca254fd842739db798c763087fe94217061bbcf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 29f4c7286547dcde0332fa587245da47aa2f503c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383065"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128661"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Utiliser des Commandes cadres vente ou des commandes cadres achat
 
@@ -32,7 +31,7 @@ Vous pouvez utiliser une commande ouverte vente, par exemple, lorsqu’un client
 
 ## <a name="to-create-a-blanket-sales-order"></a>Pour créer une commande vente ouverte.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes cadres vente**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes cadres vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Laissez vide le champ **Date commande**. Lors de la création de commandes vente séparées depuis la commande ouverte, la date commande de la commande vente est définie comme égale à la date du jour.
@@ -60,37 +59,37 @@ Ce qui suit s’applique aux commandes vente après leur création à partir de 
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Pour visualiser le statut d’une commande ouvertes vente  
 Vous pouvez visualiser le statut d’une commande ouverte vente sur la page **Statistiques Commande vente en cours**. Ceci peut s’avérer utile lorsque vous commencez à facturer une commande créée à partir de la commande vente en cours.  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes cadres vente**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes cadres vente**, puis sélectionnez le lien associé.  
 2.  Sélectionnez une commande vente en cours, puis sélectionnez l’action **Statistiques**.  
 3.  Sur la page **Statistiques Commande vente en cours**, sur le raccourci **Général**, vous pouvez visualiser des informations récapitulatives concernant l’intégralité de la commande. Elles se basent sur la quantité totale des **champs Quantité** sur les lignes commande vente en cours.  
 
 - Sur le raccourci **Facturation**, vous pouvez visualiser des informations récapitulatives concernant l’intégralité de la quantité dans les champs **Qté à facturer** des lignes de la commande vente en cours.  
 - Sur le raccourci **Livraison**, vous pouvez visualiser des informations récapitulatives concernant l’intégralité de la quantité dans les champs **Qté à recevoir** des lignes de la commande vente en cours.  
 - Sur le raccourci **Acompte**, vous pouvez visualiser des informations récapitulatives concernant les éventuels acomptes.  
-- Sur le raccourci **Fournisseur**, vous pouvez visualiser certaines informations de base concernant le fournisseur.    
+- Sur le raccourci **Fournisseur**, vous pouvez visualiser certaines informations de base concernant le fournisseur.
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Pour afficher des lignes de commande vente ouverte non validées et validées   
 Le lien entre la commande ouverte vente et la commande vente d’origine, et n’importe quel autre document vente, est conservé après validation en tant que liste des lignes facture validées et non validées de commande vente.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Commandes cadres vente**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes cadres vente**, puis sélectionnez le lien associé.
 2. Ouvrez la commande vente ouverte que vous souhaitez afficher.
 3. Pour visualiser les écritures non validées, sélectionnez la ligne en question, sélectionnez l’action **Ligne**, puis l’action **Lignes non validées**. Choisissez l’une des options suivantes.  
 
-    |Option|Désignation|
-    |--|--|
-    |**Commandes**|Spécifie les commandes ouvertes associées à la ligne sélectionnée.|
-    |**Factures**|Spécifie les factures ouvertes associées à la ligne sélectionnée. Ouvrez les factures associées manuellement à une commande ouverte en entrant le numéro de commande ouverte dans la ligne facture vente.|
-    |**Retours**|Spécifie les commandes retour ouvertes associées à la ligne sélectionnée.|
-    |**Avoirs**|Spécifie les avoirs ouverts associés à la ligne sélectionnée.|
+|Option|Désignation|
+|--|--|
+|**Commandes**|Spécifie les commandes ouvertes associées à la ligne sélectionnée.|
+|**Factures**|Spécifie les factures ouvertes associées à la ligne sélectionnée. Ouvrez les factures associées manuellement à une commande ouverte en entrant le numéro de commande ouverte dans la ligne facture vente.|
+|**Retours**|Spécifie les commandes retour ouvertes associées à la ligne sélectionnée.|
+|**Avoirs**|Spécifie les avoirs ouverts associés à la ligne sélectionnée.|
 
 4. Pour visualiser les écritures validées, sélectionnez la ligne en question, sélectionnez l’action **Ligne**, puis l’action **Lignes validées**. Choisissez l’une des options suivantes.  
 
-    |Option|Désignation|
-    |---|----|
-    |**Livraisons**|Livraisons validées associées à la ligne sélectionnée.|
-    |**Factures**|Factures validées associées à la ligne sélectionnée.|
-    |**Réceptions retour**|Réceptions retour validées associés à la ligne sélectionnée.|
-    |**Avoirs**|Avoirs validés associés à la ligne sélectionnée.|
+|Option|Désignation|
+|---|----|
+|**Livraisons**|Livraisons validées associées à la ligne sélectionnée.|
+|**Factures**|Factures validées associées à la ligne sélectionnée.|
+|**Réceptions retour**|Réceptions retour validées associés à la ligne sélectionnée.|
+|**Avoirs**|Avoirs validés associés à la ligne sélectionnée.|
 
 5. Sur la page **Lignes vente**, sélectionnez l’action **Afficher document** pour afficher l’écriture.
 

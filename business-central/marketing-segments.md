@@ -1,23 +1,22 @@
 ---
-title: Gérer les segments et sélectionner les contacts à inclure| Microsoft Docs
-description: Décrit les tâches pour créer un segment pour sélectionner un groupe de contacts en fonction de critères spécifiques, par exemple, les contacts dans un secteur que vous souhaitez cibler.
-services: project-madeira
+title: Gérer les segments et sélectionner les contacts
+description: Cette rubrique explique comment créer un segment en sélectionnant un groupe de contacts selon des critères spécifiques pour cibler ultérieurement ce segment avec une campagne.
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fe1054825058c30e0a26e11e258804e7256bfcb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c107a9ae74343663eea6a97fb0360852b49ecd05
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749845"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130347"
 ---
 # <a name="managing-segments"></a>Gestion des segments
 Vous pouvez créer des segments qui vous permettent de sélectionner un groupe de contacts en fonction de critères spécifiques. Par exemple, un segment peut être le secteur auquel les contacts appartiennent ou votre relation d’affaires avec les contacts. Vous pouvez créer un segment pour sélectionner les contacts ciblés par une campagne.
@@ -39,3 +38,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Gestion de contacts](marketing-contacts.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

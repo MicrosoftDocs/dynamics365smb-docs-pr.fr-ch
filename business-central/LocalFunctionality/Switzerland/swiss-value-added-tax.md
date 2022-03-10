@@ -1,26 +1,23 @@
 ---
-title: Taxe sur la valeur ajoutée, Suisse
-description: Les améliorations comprennent les fonctions spéciales de déclaration de TVA en Suisse.
-services: project-madeira
-documentationcenter: ''
+title: Taxe sur la valeur ajoutée, Suisse [CH]
+description: Cet article explique plusieurs améliorations apportées aux fonctions de déclaration de TVA en Suisse.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: d0a9c4bc1f589d8de1b137ea1e2a6363f6f5f969
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 67352d0f06215f96ca6944f486408cd99f0ed8d9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244811"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141776"
 ---
 # <a name="swiss-value-added-tax"></a>Taxe sur la valeur ajoutée, Suisse
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] inclut les améliorations suivantes à la déclaration de TVA en Suisse :  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] inclut les améliorations suivantes à la déclaration de TVA en Suisse :  
 
 - Ajustement automatique des montants de TVA pour les factures, en fonction des comptes.  
 - Taux de change de la TVA supplémentaires pour les factures en devises étrangères.  
@@ -41,3 +38,6 @@ Des informations supplémentaires, telles que le taux de TVA et le montant en de
  [Taux de TVA pour la Suisse](vat-rates-for-switzerland.md)   
  [Créer et imprimer une déclaration de TVA, Suisse](how-to-create-and-print-a-swiss-vat-statement.md)   
  [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

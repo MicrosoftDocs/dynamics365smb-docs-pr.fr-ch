@@ -2,7 +2,6 @@
 title: Gestion des QR-factures [CH]
 description: Cet article décrit les améliorations apportées à l'extension Gestion des QR-factures et la façon dont vous pouvez utiliser Business Central pour générer, envoyer et importer facilement vos QR-factures.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
 ms.date: 09/06/2021
 ms.author: soalex
-ms.openlocfilehash: a1ec0dfceba2755c70b8532ff00d49a4d76aba98
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 38aedb281643b549a05ce32e1fbb0c81f89053db
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482418"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139986"
 ---
 # <a name="qr-bill-management-in-the-swiss-version-of-business-central"></a>Gestion des QR-factures dans la version suisse de Business Central
 À partir du 1er juillet 2020, les sociétés en Suisse doivent pouvoir recevoir des QR-factures. Les QR-factures sont des bordereaux de paiement qui suivent les factures, et constituent une initiative nationale visant à rationaliser les processus de paiement. Les QR-factures remplacent tous les borderaux de paiement existants et les fonctionnalités liées à l'ESR. Elles contiennent toutes les informations nécessaires pour effectuer les paiements, et un code QR sur le borderau de paiement facilite l'importation des informations dans [!INCLUDE[prod_short](../../includes/prod_short.md)]. Toutes les informations pertinentes sont importées et utilisées pour générer des paiements pour le vendeur qui a envoyé la QR-facture, y compris la référence du paiement, qui est automatiquement incluse dans les écritures comptables fournisseurs et exportée dans les fichiers de paiement à la banque.
@@ -46,6 +45,9 @@ Pour les références ESR, vous pouviez par exemple configurer les informations 
 
 ## <a name="using-multiple-bank-accounts-as-issuers-of-qr-bills"></a>Utilisation de plusieurs comptes bancaires comme émetteurs de QR-factures
 Les émetteurs de QR-factures peuvent utiliser plusieurs comptes bancaires pour acheminer les paiements vers différents comptes bancaires. Cette fonctionnalité est liée au mode de paiement sur lequel vous pouvez spécifier le **N° compte bancaire des QR-factures**. Lorsqu'elle est spécifiée, l'information IBAN/QR-IBAN de ce compte bancaire sera utilisée sur les QR-factures qui utilisent la méthode de paiement donnée. Vous pouvez ainsi acheminer les paiements entrants vers le compte bancaire souhaité. Si vous n'utilisez pas plusieurs comptes bancaires et que vous spécifiez le **N° compte bancaire des QR-factures** sur la carte de mode de paiement, l'information QR-IBAN/IBAN provenant des informations sur la compagnie est utilisée sur les QR-factures à la place. Assurez-vous d'y avoir configuré au moins les informations de votre compte bancaire principal.
+
+> [!Note]
+> Si vous êtes un émetteur de QR-factures, veillez à configurer vos comptes bancaires de manière à vous identifier avec les bons comptes auprès de vos clients, selon que vous utilisez des QR-IBAN ou des IBAN ordinaires. Si vous êtes un receveur et payeur de QR-factures, nous vous recommandons de configurer correctement les comptes bancaires des fournisseurs pour le paiement et le transfert vers des comptes avec des IBAN ordinaires ou des QR-IBAN.
 
 ## <a name="scanning-and-importing-qr-bills"></a>Numérisation et importation de QR-factures
 Pour numériser ou importer une QR-facture, vous devez utiliser l'un des types de scanners suivants :
@@ -87,9 +89,6 @@ Vous pouvez numériser ou importer des QR-factures directement dans une **feuill
 
 ## <a name="reconciliation"></a>Rapprochement
 Lors de l'importation de transactions bancaires (camt) sur la page Feuille rapprochement bancaire, le fichier est supposé inclure la référence de paiement qui trouvera automatiquement les **écritures comptables client** correspondantes à régler.    
-
-## <a name="upcoming-capabilities-for-qr-bills"></a>Fonctionnalités futures des QR-factures
-Nous prévoyons d'ajouter des fonctionnalités à l'extension Gestion des QR-factures dans les prochaines mises à jour de la vague 1 de la version 2020. Par exemple, vous pourrez recevoir des QR-factures par le biais de documents achat et de feuilles achat. Cela fournira des validations supplémentaires et vous permettra d'automatiser et de rationaliser les processus de réception. Pour savoir quand cela aura lieu, gardez un œil sur notre [Plan de versions](/dynamics365-release-plan/2020wave1/dynamics365-business-central/qr-bill-management-switzerland).
 
 ## <a name="see-also"></a>Voir aussi
 [Fonctionnalité locale, Suisse](switzerland-local-functionality.md)  

@@ -1,21 +1,21 @@
 ---
 title: Modifier les paramètres de base pour l’utilisateur actuel
 description: Découvrez comment modifier certains paramètres de base dans Business Central, par exemple, votre rôle et votre centre de rôles, votre entreprise, votre date de travail et vos fuseaux horaires.
-author: SorenGP
-ms.service: dynamics365-business-central
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
+ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 2939b3b8545c1f0679052b51d76f596aae14cfc6
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443783"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322944"
 ---
 # <a name="change-basic-settings"></a>Modifier les paramètres de base
 
@@ -82,7 +82,7 @@ Si la date de travail n’est pas définie sur la date actuelle (aujourd’hui),
 
 ## <a name="region"></a><a name="region"></a> Région
 
-Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme.
+Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme. Il détermine également quel caractère est utilisé comme séparateur décimal lors de l’utilisation d’un clavier numérique pour saisir des données. Pour plus d’informations, voir [Saisie de données](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Langue
 

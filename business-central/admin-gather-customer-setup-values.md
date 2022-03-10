@@ -1,21 +1,20 @@
 ---
-title: Collecter les valeurs de configuration client | Microsoft Docs
-description: Vous pouvez utiliser le questionnaire de configuration pour réduire la charge de travail d’implémentation en rationalisant la tâche de configuration de la nouvelle société. Vous pouvez générer le questionnaire de configuration dans Business Central, puis le fournir à votre client sous forme de fichier Excel (.xlsx) ou XML.
+title: Collecter les valeurs de configuration client
+description: Le questionnaire de configuration permet de réduire la mise en œuvre en rationalisant la création de nouvelles entreprises et en proposant aux clients un fichier Excel ou XML.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 81f70d503f09e7dc6f2b555a21d249105060904b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378562"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145985"
 ---
 # <a name="gather-customer-setup-values"></a>Collecter les valeurs de configuration client
 Vous pouvez utiliser le questionnaire de configuration pour réduire la charge de travail d’implémentation en rationalisant la tâche de configuration de la nouvelle société. Vous pouvez générer le questionnaire de configuration dans [!INCLUDE[prod_short](includes/prod_short.md)], puis le fournir à votre client sous forme de fichier Excel ou XML.  
@@ -32,7 +31,7 @@ Vous pouvez utiliser un questionnaire pour vous aider à déterminer la portée 
 
 <!-- A configuration questionnaire has the following structure
 * The name of the questionnaire itself
-* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company information. Typically, configuration questionnaires have many question groups
 * Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  Vous pouvez créer des questionnaires uniquement pour les tables de type paramétrage. Par exemple, vous pouvez utiliser cet outil pour entrer des informations dans les pages suivantes :  
@@ -50,9 +49,9 @@ Vous pouvez utiliser un questionnaire pour vous aider à déterminer la portée 
 -   Paramètres entrepôt  
 
 > [!NOTE]  
->  Pour afficher la liste complète des tables de configuration, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration**, puis sélectionnez le lien associé. Pour déterminer la portée de la migration des données d’enregistrements, utilisez la fonctionnalité de migration. Pour plus d’informations, voir [Migration des données client](admin-migrate-customer-data.md).  
+>  Pour voir une liste complète des tables de configuration, choisissez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configurer**, puis choisissez le lien associé. Pour déterminer la portée de la migration des données d’enregistrements, utilisez la fonctionnalité de migration. Pour plus d’informations, voir [Migration des données client](admin-migrate-customer-data.md).  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 2.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Questionnaire de configuration**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.   
 3. Sur la page **Questionnaire configuration**, dans le champ **Code**, saisissez... 
 <!--4. In the **Name** field, enter...
@@ -82,7 +81,7 @@ Vous pouvez utiliser un questionnaire pour vous aider à déterminer la portée 
 5. Dans le champ **ID table**, sélectionnez l’ID de la table pour laquelle vous souhaitez collecter des informations. Le champ **Nom table** est automatiquement renseigné.  
 6. Sélectionnez l’action **Mettre à jour questions**. Chaque champ de la table est ajouté au questionnaire avec un point d’interrogation à la suite de son étiquette.
 
-Vous pouvez reformuler l’étiquette de manière à indiquer clairement comment répondre à la question. Par exemple, vous pouvez modifier un champ intitulé « Nom » en « Quel est le nom de <data being collected> ». Vous pouvez également fournir des instructions dans le champ **Référence**, notamment une URL vers une page qui fournit des informations supplémentaires.  
+Vous pouvez reformuler l’étiquette de manière à indiquer clairement comment répondre à la question. Par exemple, vous pouvez modifier un champ intitulé « Nom » en « Quel est le nom de \<data being collected\> ». Vous pouvez également fournir des instructions dans le champ **Référence**, notamment une URL vers une page qui fournit des informations supplémentaires.  
 
 Vous pouvez également supprimer les questions que vous souhaitez exclure du questionnaire.  
 
@@ -98,7 +97,7 @@ Utilisez le questionnaire de configuration pour structurer et documenter une dis
 >  Vous pouvez également créer votre propre de questionnaire de configuration afin qu’il corresponde à vos besoins.  
 
 1. Ouvrez la société pour laquelle vous souhaitez remplir le questionnaire.
-2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé.  
+2. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Questionnaire de configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez le questionnaire pour la société, puis choisissez l’action **Exporter vers Excel**, ou éventuellement l’action **Exporter vers un fichier XML**.
 4. Demandez au client de remplir le questionnaire de configuration en saisissant les réponses dans le classeur Excel. Il existe des feuilles pour chacune des zones question qui ont été créées pour le questionnaire.   
 5. Enregistrez le classeur Excel sous *Données XML*. Sélectionnez l’action **Importer d’un fichier XML**, puis sélectionnez le fichier .xms avec les réponses du client.
@@ -131,15 +130,16 @@ Une fois la validation terminée, les données peuvent être appliquées à la b
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Pour appliquer des réponses à partir du questionnaire de configuration
 Après avoir importé et validé les informations à partir d’un questionnaire de configuration, vous pouvez transférer ou appliquer les données de configuration dans les tables correspondantes de la base de données [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Questionnaire configuration**, puis sélectionnez le lien associé. La page **Questionnaire config.** s’ouvre.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 4.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Questionnaire de configuration**, puis sélectionnez le lien associé. La page **Questionnaire config.** s’ouvre.  
 2. Sélectionnez un questionnaire de configuration dans la liste, puis sélectionnez l’action **Modifier la liste**.  
 3. Vous pouvez appliquer les réponses de deux manières différentes.  
 
 - Pour appliquer l’ensemble du questionnaire, sélectionnez **Appliquer réponses**.  
 - Pour appliquer les réponses d’une **Zone question** spécifique, sélectionnez l’action **Zones question**, sélectionnez une **Zone question** dans la liste, puis sélectionnez l’action **Appliquer réponses**.  
 
-### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Pour vérifier que les réponses ont été correctement appliquées  
-1. Vérifiez les pages de paramétrage des différents modules de [!INCLUDE[prod_short](includes/prod_short.md)]. Pour localiser la page, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom de la page de configuration, puis sélectionnez le lien associé.  
+### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Pour vérifier que les réponses ont été correctement appliquées
+
+1. Vérifiez les pages de paramétrage des différents modules de [!INCLUDE[prod_short](includes/prod_short.md)]. Pour localiser la page, choisissez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 5](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom de la page de configuration, puis sélectionnez le lien associé.  
 2. Vérifiez que les champs ont été renseignés à l’aide des données appropriées à partir des diverses zones de questions du questionnaire de configuration.  
 
 Vous avez maintenant effectué le paramétrage à l’aide des informations commerciales et des règles du client.

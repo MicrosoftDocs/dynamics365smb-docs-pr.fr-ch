@@ -1,21 +1,21 @@
 ---
-title: "Procédure : Importer des numéros de compensation d'une banque suisse [CH]"
+title: Importer des numéros de compensation d'une banque suisse [CH]
 description: Cette rubrique vous indique la procédure d'importation de numéros de compensation d'une banque suisse à l'aide de la version suisse de Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 11501
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 85592d027ca90368bf8052587d3d5ed8700c96a5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 62ac4362592ee15dbc2ed9f748ab5411b0ae9b83
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435701"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135510"
 ---
 # <a name="import-swiss-bank-clearing-numbers-in-the-swiss-version"></a>Importer des numéros de compensation d'une banque suisse dans la version suisse
 Les numéros de compensation bancaire sont les numéros uniques utilisés pour identifier chaque agence ou succursale bancaire dans l'annuaire bancaire. Ces informations sont nécessaires pour le paiement électronique. Ce fichier peut être téléchargé à partir du site Web [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121).  

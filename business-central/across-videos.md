@@ -1,21 +1,21 @@
 ---
-title: Vidéos de présentation de l’utilisation de Business Central | Microsoft Docs
-description: Permet d’accéder aux vidéos de mise en route qui illustrent comment effectuer des tâches courantes.
+title: Visiter notre vidéothèque
+description: Visitez notre vidéothèque pour obtenir de l’aide, des vidéos de démarrage illustrant les tâches courantes « Procédure pour » de vidéos de produits thématiques.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 10/01/2020
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: fad4d9bdd68bc6299bf573432e0a33f6afb0ddfb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7786dab73b28a0107aac746f8029207592e6b78b
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752965"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323255"
 ---
 # <a name="visit-our-video-library"></a>Visitez notre vidéothèque
 
@@ -30,5 +30,8 @@ Vous pouvez également afficher nos vidéos de « procédures », ainsi que bi
 
 ## <a name="see-also"></a>Voir aussi
 
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Chaîne Dynamics 365 sur YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

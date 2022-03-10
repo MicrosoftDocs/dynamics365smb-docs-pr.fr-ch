@@ -1,25 +1,24 @@
 ---
-title: 'Procédure pas à pas : planification manuelle des approvisionnements | Microsoft Docs'
-description: Cette procédure pas à pas présente le processus de planification des commandes approvisionnement en vue de répondre à la nouvelle demande. Vous pouvez lancer la planification des approvisionnements à des intervalles fixes, par exemple, tous les matins ou tous les lundis, ou lorsque vous recevez une notification du département Ventes ou Production, en fonction du type de demande.
+title: 'Procédure pas à pas : planification manuelle des approvisionnements'
+description: Cette procédure pas à pas montre le processus de planification des commandes d’approvisionnement pour répondre à une nouvelle demande, notamment la planification d’un achat, d’un transfert et d’un ordre de fabrication.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: b01235241ccdcb837063f786157349ed7094e81e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4e9bd9e44a92c952fe01636b1ef724491e479cf1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918478"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145253"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procédure pas à pas : planification manuelle des approvisionnements
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Cette procédure pas à pas présente le processus de planification des commandes approvisionnement en vue de répondre à la nouvelle demande. Vous pouvez lancer la planification des approvisionnements à des intervalles fixes, par exemple, tous les matins ou tous les lundis, ou lorsque vous recevez une notification du département Ventes ou Production, en fonction du type de demande. Au cours de cette procédure, vous utiliserez la page **Planning commande**, un outil simplifié de planification des approvisionnements basé sur la prise de décision manuelle plutôt que la planification automatique basée sur des paramètres.  
 
@@ -38,10 +37,10 @@ Cette procédure pas à pas présente le processus de planification des commande
 -   préparateur de commandes vente ;  
 
 ## <a name="prerequisites"></a>Conditions préalables  
- Avant de commencer cette procédure pas à pas, vous devez installer la [!INCLUDE[d365fin](includes/d365fin_md.md)]. Les modifications suivantes doivent être apportées à la base de données :  
+ Avant de commencer cette procédure pas à pas, vous devez installer la [!INCLUDE[prod_short](includes/prod_short.md)]. Les modifications suivantes doivent être apportées à la base de données :  
 
 -   Supprimez toute commande vente existante de bicyclettes.  
--   Créez une commande vente pour 10 bicyclettes pour le magasin BLUE.  
+-   Créez une commande vente pour 10 bicyclettes pour le magasin EAST.  
 -   Supprimez tous les ordres de fabrication planifiés et planifiés fermes. Ne supprimez pas les ordres démarrés dont les écritures ont déjà été validées.  
 
  En règle générale, utilisez les données suggérées dans cette procédure pas à pas car elles incluent les enregistrements nécessaires.  
@@ -67,7 +66,7 @@ La page **Planification commande** est accessible de plusieurs endroits différe
 
 ### <a name="to-use-the-order-planning-page"></a>Pour utiliser la page Planification commande :  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Planning commande**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Planification commande**, puis choisissez le lien associé.  
 
      À la première ouverture de la page **Planning commande**, une planification doit être calculée pour afficher la nouvelle demande depuis le dernier calcul.  
 
@@ -148,7 +147,7 @@ La page **Planification commande** est accessible de plusieurs endroits différe
 4.  Cliquez sur le bouton **OK** pour réserver les dix articles disponibles.  
 
     > [!NOTE]  
-    >  Dans la ligne demande, l’achat proposé a été remplacé par un transfert à partir du magasin GREEN. La fonction **Créer commandes** crée un ordre de transfert du magasin GREEN vers le magasin demandé. Le champ **Articles de substitution** fonctionne de la même manière.  
+    >  Dans la ligne demande, l’achat proposé a été remplacé par un transfert à partir du magasin PRINCIPAL. La fonction **Créer commandes** crée un ordre de transfert du magasin PRINCIPAL vers le magasin demandé. Le champ **Articles de substitution** fonctionne de la même manière.  
 
 5.  Sélectionnez l’action **Créer commandes**. La page **Créer des commandes approvisionnement** s’ouvre.  
 6.  Sur le raccourci **Planning commande** dans le champ **Créer commandes pour**, sélectionnez l’option **La commande active**.  
@@ -225,10 +224,13 @@ La page **Planification commande** est accessible de plusieurs endroits différe
 
      Le message indique que tous les articles requis sont à présent approvisionnés. Vérifiez les ordres de fabrication planifiés fermes qui ont été créés.  
 
-13. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
+13. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
 
      Sur la page **O. F. planifiés fermes**, passez en revue la planification des heures de début et de fin de chaque commande par rapport à la structure produit. Les composants de niveau inférieur sont produits en premier. Par conséquent, vous devez planifier des commandes multi-niveaux conformément aux instructions de ce flux de planification.  
 
 ## <a name="see-also"></a>Voir aussi  
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)   
- [Procédure pas à pas : planification automatique des approvisionnements](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

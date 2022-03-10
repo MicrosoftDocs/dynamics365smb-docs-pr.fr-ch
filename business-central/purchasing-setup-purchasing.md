@@ -1,21 +1,21 @@
 ---
-title: Aperçu des tâches permettant de paramétrer vos achats | Microsoft Docs
+title: Aperçu des tâches permettant de paramétrer vos achats
 description: Décrit les tâches permettant de définir les stratégies d’approvisionnement de votre société et de déterminer vos processus d’achat.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2020
+ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 72c947263ccf736d9432c52b6256868ad346ad09
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 395af6b23c85c3f78eb970b9e2d9603bf336d34d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918752"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146217"
 ---
 # <a name="setting-up-purchasing"></a>Définition des achats
 Avant de pouvoir gérer les processus achat, vous devez configurer les règles et valeurs qui définissent les stratégies d’achat de la société.
@@ -32,13 +32,21 @@ Les configurations relatives à la finance, telles que les modes de règlement e
 | Entrer les différents remises et prix spéciaux que vous accordent les fournisseurs en fonction de l’article, des quantités et/ou de la date |[Enregistrer des accords sur les prix d’achat, les remises et les paiements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Octroyer une priorité aux fournisseurs |[Octroyer une priorité aux fournisseurs](purchasing-how-prioritize-vendors.md) |
 | Configurer les acheteurs |[Configurer les acheteurs](purchasing-how-setup-purchasers.md) |
+|Spécifiez les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
 > [!TIP]
 > En fonction de votre emplacement géographique, certaines pages peuvent contenir des champs qui ne sont pas décrits dans les articles répertoriés ici, car ils s’appliquent à des fonctionnalités locales ou à des personnalisations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+## <a name="external-document-number"></a>Numéro de document externe
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

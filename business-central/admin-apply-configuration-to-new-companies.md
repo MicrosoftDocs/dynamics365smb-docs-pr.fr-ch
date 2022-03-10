@@ -1,21 +1,20 @@
 ---
-title: Appliquer une configuration aux nouvelles sociétés | Microsoft Docs
-description: Après avoir créé un package de configuration, l’étape suivante consiste à déployer le package au niveau de votre client pour l’implémentation. Vous utilisez la configuration avec une nouvelle société vide.
+title: Appliquer une configuration aux nouvelles sociétés
+description: Après avoir créé un package de configuration, déployez le package au niveau de votre client pour l’implémentation. Vous utilisez la configuration avec une nouvelle société vide.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dc93e248b0691a23b9937579cd16213d1d6c2ae5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 439a717b37d5936c221992bcd7f85bb1d1db42eb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378788"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141504"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Appliquer des configurations aux nouvelles sociétés
 Après avoir créé un package de configuration, l’étape suivante consiste à déployer le package au niveau de votre client pour l’implémentation. Vous utilisez le package de configuration dans une nouvelle société vide.  

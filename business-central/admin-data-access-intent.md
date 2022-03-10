@@ -1,23 +1,22 @@
 ---
-title: Gérer l’accès intentionnel à la base de données dans Business Central | Microsoft Docs
+title: Gérer l’accès intentionnel à la base de données dans Business Central
 description: Modifiez l’accès intentionnel à la base de données pour les états, les pages API et les requêtes.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 9880
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 502add82d2f70f6ffd13ae04f7eb6d214105fb63
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 66473480ac2db86bc35adc7e60d7fcd2cafc7212
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378613"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142538"
 ---
-# <a name="managing-database-access-intent"></a>Gestion de l’accès intentionnel à la base de données 
+# <a name="managing-database-access-intent"></a>Gestion de l’accès intentionnel à la base de données
 
 En tant que superutilisateur ou administrateur, vous pouvez modifier l’accès intentionnel à la base de données pour les états, les pages du type API et les requêtes pour améliorer les performances du service.
 
@@ -33,7 +32,7 @@ En termes de base de données, cette fonction est communément appelée *échell
 
 ## <a name="to-change-the-database-access-intent"></a>Pour modifier l’accès intentionnel à la base de données
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste d’accès intentionnels à la base de données**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Liste d’accès intentionnels à la base de données**, puis choisissez le lien associé.
 
     La page répertorie l’ensemble des états, pages et requêtes. La colonne **Accès intentionnel** comprend l’une des valeurs suivantes :
 
@@ -56,7 +55,7 @@ En termes de base de données, cette fonction est communément appelée *échell
 [Fonctionnalités d’entreprise](across-business-functionality.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Mise en route](product-get-started.md)    
+[Préparation aux activités commerciales](ui-get-ready-business.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

@@ -2,17 +2,17 @@
 title: Sélection des états dans Business Central
 description: Découvrez comment configurer les états que vous utilisez pour imprimer différents types de documents dans Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
-ms.date: 01/18/2021
+ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d30baa44894658c03c3deffdf24a7923293b88fd
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 16ad3480c10da544c7fdd3a6a299dc6d86cfce46
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024652"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134085"
 ---
 # <a name="report-selection-in-business-central"></a>Sélection des états dans Business Central
 
@@ -32,7 +32,7 @@ Les pages **Sélection des états** spécifient quel état sera imprimé dans di
 |Définir des états pour la déclaration de TVA (Allemagne)|[Paramétrer les déclarations de TVA et les états d’échanges intracomm.](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> Votre [!INCLUDE [prod_short](includes/prod_short.md)] peut inclure des pages **Sélection des états** en fonction de votre emplacement et de votre secteur d’activité, par exemple. Vous pouvez toujours vérifier votre configuration en choisissant l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), en saisissant **Sélection des états**, puis choisissez le lien approprié.
+> Votre [!INCLUDE [prod_short](includes/prod_short.md)] peut inclure des pages **Sélection des états** en fonction de votre emplacement et de votre secteur d’activité, par exemple. Vous pouvez toujours vérifier votre configuration en choisissant l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") en saisissant **Sélection des états**, puis choisissez le lien approprié.
 
 La version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)] comprend les pages suivantes **Section des états** :
 
@@ -68,3 +68,6 @@ Par exemple, dans les pages **Sélection des états - Ventes** et **Sélection
 [Gestion des présentations d’état et de document](ui-manage-report-layouts.md)  
 [Définir des présentations de document pour les clients et les fournisseurs](ui-define-customer-vendor-document-layouts.md)  
 [Paramétrage imprimantes](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

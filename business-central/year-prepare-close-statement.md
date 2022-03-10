@@ -2,20 +2,19 @@
 title: Aperçu des états permettant de préparer les états de clôture | Microsoft Docs
 description: Fournit un aperçu des états que vous pouvez utiliser pour rassembler les informations pour préparer les états de clôture de votre société à la fin de l’année fiscale.
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 319ab4ec1f56be84bf3045567f4ca1cfe280c1d5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e9eb5243541cdd365aa6a92b1278f38da531ed54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391889"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141836"
 ---
 # <a name="preparing-closing-statements"></a>Préparation des états de clôture
 Il existe plusieurs états standard que vous pouvez utiliser pour rassembler les informations dont vous avez besoin pour préparer les états de clôture de votre société.
@@ -32,7 +31,7 @@ Le tableau suivant décrit un certain nombre d’états qui peuvent être utiles
 | Imprimer un tableau d’analyse pour analyser les chiffres des comptes généraux ou comparer les écritures comptabilité réelles et les écritures budget. |**Tableau d’analyse** |
 | Vérifier que les écritures comptables client et fournisseur sont équilibrées avec les écritures comptables correspondantes. |**Concordance cptes clt/fourn.** |
 
-Pour visualiser un état, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez le nom qui s’affiche dans la table, puis sélectionnez le lien associé.
+Pour voir un rapport, sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez le nom tel qu’il apparaît dans le tableau, puis choisissez le lien associé.
 
 ## <a name="see-also"></a>Voir aussi
 [Clôture des exercices et des périodes](year-close-years-periods.md)  

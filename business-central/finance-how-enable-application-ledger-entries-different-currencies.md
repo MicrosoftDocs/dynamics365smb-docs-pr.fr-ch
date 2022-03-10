@@ -1,53 +1,58 @@
 ---
-title: Lettrer des écritures dans des devises différentes| Microsoft Docs
+title: Lettrer des écritures dans des devises différentes
 description: Vous pouvez lettrer des écritures comptables dans différentes devises si vous effectuez une vente à un client dans une devise et recevez le règlement dans une autre devise.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
-ms.date: 04/01/2019
+ms.search.form: 148, 460
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1569ff45bbbf8c3bf63538abdab143f9851a23a6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a3ee04505d21455e05869b79bfad61dfa0c10dd5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239633"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147793"
 ---
-# <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Activer le lettrage d'écritures comptables client en devises différentes
-Si vous achetez des produits auprès d'un fournisseur dans une devise et que vous payez ces produits dans une autre devise, vous pouvez lettrer le paiement avec l'achat.
+# <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Activer le lettrage d’écritures comptables client en devises différentes
+
+Si vous achetez des produits auprès d’un fournisseur dans une devise et que vous payez ces produits dans une autre devise, vous pouvez lettrer le paiement avec l’achat.
 
 De même, si vous effectuez une vente à un client dans une devise et recevez le règlement dans une autre devise, vous pouvez lettrer le règlement avec la facture vente.
 
 La procédure suivante indique comment configurer cela pour les écritures comptables fournisseur sur la page **Paramètres achats**. La configuration est semblable à celle des écritures comptables client sur la page **Paramètres ventes**.
 
-## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Pour activer le lettrage d'écritures comptables fournisseur en devises différentes
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres achats**, puis sélectionnez le lien associé.
-2. Dans le champ **Lettrage entre devises**, sélectionnez l'une des options suivantes.
+## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Pour activer le lettrage d’écritures comptables fournisseur en devises différentes
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres achat**, puis choisissez le lien associé.
+2. Dans le champ **Lettrage entre devises**, sélectionnez l’une des options suivantes.
 
 | Option | Description |
 | --- | --- |
-| Aucun |Le lettrage entre devises n'est pas autorisé. |
+| Aucun |Le lettrage entre devises n’est pas autorisé. |
 | Devises U.M.E. |Le lettrage entre devises UME est autorisé. |
 | Tous |Lettrage autorisé entre toutes les devises. |
 
-## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Pour configurer des comptes généraux afin d'autoriser les différences d'arrondi des devises  
-Si vous lettrez des écritures dans différentes devises, vous devez configurer les comptes généraux sur lesquels valider les différences d'arrondi.  
+## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Pour configurer des comptes généraux afin d’autoriser les différences d’arrondi des devises
+
+Si vous lettrez des écritures dans différentes devises, vous devez configurer les comptes généraux sur lesquels valider les différences d’arrondi.  
 
 > [!NOTE]  
->  Vous devez configurer les comptes généraux avant de terminer la tâche. Pour plus d'informations, voir [Description des écritures comptables et du plan comptable](finance-general-ledger.md).
+> Vous devez configurer les comptes généraux avant de terminer la tâche. Pour plus d’informations, voir [Description des écritures comptables et du plan comptable](finance-general-ledger.md).
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes compta. client**, puis sélectionnez le lien associé.  
-2. Dans les champs **Cpte arr. lettr. dev. débit** et **Cpte arr. lettr. dev. crédit**, saisissez les comptes généraux correspondants pour valider les différences d'arrondi.  
-3. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Groupes compta. fournisseur**, puis sélectionnez le lien associé.  
-4. Dans les champs **Cpte arr. lettr. dev. débit** et **Cpte arr. lettr. dev. crédit**, saisissez les comptes généraux correspondants pour valider les différences d'arrondi.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes compta. client**, puis choisissez le lien associé.  
+2. Dans les champs **Cpte arr. lettr. dev. débit** et **Cpte arr. lettr. dev. crédit**, saisissez les comptes généraux correspondants pour valider les différences d’arrondi.  
+3. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes compta. fournisseur**, puis choisissez le lien associé.  
+4. Dans les champs **Cpte arr. lettr. dev. débit** et **Cpte arr. lettr. dev. crédit**, saisissez les comptes généraux correspondants pour valider les différences d’arrondi.  
 
 ## <a name="see-also"></a>Voir aussi
+
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

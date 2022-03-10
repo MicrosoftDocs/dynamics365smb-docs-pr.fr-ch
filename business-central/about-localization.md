@@ -1,21 +1,21 @@
 ---
-title: Fonctionnalités locales dans Business Central
+title: Fonctionnalité locale et stratégie de localisation
 description: Découvrez la disponibilité locale et la conformité de la réglementation de Business Central pour les pays où Microsoft offre les fonctionnalités locales.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 10/01/2020
+ms.search.form: 9018, 9020, 9022, 9027
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 73b4dcdbf5e2300fe579e263a2b19f533b0f0be4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 386953ce98bdd4d926c8ea8c698bb1463694d0ee
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385114"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334918"
 ---
 # <a name="local-functionality-in-prod_long"></a>Fonctionnalités locales dans [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -51,6 +51,7 @@ Pour en savoir plus sur les fonctionnalités locales de chaque pays/région, cli
 |        | États-Unis|[Fonctionnalité locale, États-unis](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Asie Pacifique |       |  |
 |        | Australie | [Fonctionnalité locale, Australie](localfunctionality/australia/australia-local-functionality.md) |
+|        | Inde | [Fonctionnalités locales pour l’Inde](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nouvelle-Zélande | [Fonctionnalité locale, Nouvelle-Zélande](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Autres pays
@@ -59,7 +60,7 @@ Pour en savoir plus sur les fonctionnalités locales de chaque pays/région, cli
 
 ## <a name="see-also"></a>Voir aussi
 
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Conformité](compliance/compliance-overview.md)  
 [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Disponibilité internationale de Microsoft Dynamics 365](/dynamics365/get-started/availability)  

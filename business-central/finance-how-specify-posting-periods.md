@@ -1,36 +1,37 @@
 ---
-title: Spécifier des périodes de validation| Microsoft Docs
-description: Vous spécifiez des dates début et fin de validation pour configurer quand les utilisateurs peuvent valider en comptabilité.
-services: project-madeira
-documentationcenter: ''
+title: Définir des périodes de validation
+description: Vous spécifiez des périodes de validation (dates début et fin) pour configurer quand les utilisateurs peuvent valider en comptabilité.
 author: SorenGP
 editor: ''
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 10/01/2020
+ms.search.form: 118
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2f7016bb826b553299c4fbfcb205b35894a87896
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 749f5d2dc901fae9db9c96d4f1c51e9590aa8184
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380978"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142200"
 ---
 # <a name="specify-posting-periods"></a>Définir des périodes de validation
+
 Utilisez des périodes de validation pour spécifier quand les utilisateurs peuvent valider en comptabilité.  
 
 ## <a name="to-specify-posting-periods"></a>Pour définir des périodes de validation
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 2. Sur la page **Paramètres comptabilité**, définissez la période en entrant des dates dans les champs **Début période validation** et **Fin période validation**.  
 
 > [!NOTE]  
->   Ces périodes de validation s’appliquent à la société et à tous les utilisateurs. Pour autoriser des exceptions, vous pouvez définir différentes périodes de validation pour des utilisateurs spécifiques sur la page **Paramètres utilisateur**. Ces périodes de validation sont prioritaires sur celles spécifiées sur la page **Paramètres comptabilité**. Pour plus d’informations, reportez-vous à [Pour configurer des contraintes de temps utilisateur](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
+> Ces périodes de validation s’appliquent à la société et à tous les utilisateurs. Pour autoriser des exceptions, vous pouvez définir différentes périodes de validation pour des utilisateurs spécifiques sur la page **Paramètres utilisateur**. Ces périodes de validation sont prioritaires sur celles spécifiées sur la page **Paramètres comptabilité**. Pour plus d’informations, reportez-vous à [Pour configurer des contraintes de temps utilisateur](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
 
 ## <a name="see-also"></a>Voir aussi
+
 [Finances](finance.md)  
 [Exécution des processus de clôture d’exercice](year-how-complete-period-end-processes.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

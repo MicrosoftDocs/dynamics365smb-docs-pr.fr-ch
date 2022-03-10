@@ -1,21 +1,20 @@
 ---
-title: 'Procédure : Vente d’articles à assembler pour commande | Microsoft Docs'
-description: Si l’article est paramétré pour l’assemblage pour commande, alors l’article ne devrait pas être en stock, et doit être assemblé spécifiquement à une commande vente. Lorsque vous entrez l’article dans une ligne commande vente, un ordre d’assemblage est automatiquement créé et lié à la commande vente.
+title: 'Procédure : Vente d’articles à assembler pour commande'
+description: Si l’article est paramétré pour l’assemblage pour commande, alors l’article ne devrait pas être en stock, et doit être assemblé spécifiquement à une commande vente.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.search.keywords: kit, kitting, substitute items
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 92a1faa77132e4f26c1999411f6d8304c24dd8f7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e32af0659ec78ae178dd0b49b18582beb66ba100
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772919"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146919"
 ---
 # <a name="sell-items-assembled-to-order"></a>Vente d’articles à assembler pour commande
 Si le champ **Stratégie d’assemblage** de la fiche article d’un élément d’assemblage est **Assembler pour commande**, alors l’article n’est pas supposé être en stock et doit être assemblé spécifiquement dans une commande vente. Lorsque vous entrez l’article dans une ligne commande vente, un ordre d’assemblage est automatiquement créé et lié à la commande vente.  
@@ -29,7 +28,7 @@ Dans cette procédure, vous effectuez la vente d’un article que vous assemblez
 >  La procédure suivante n’inclut pas les étapes standard de commande vente avant l’étape où vous entrez l’article à assembler pour commande dans une ligne commande vente.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Vendre un article qui est assemblé pour commande  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Créez une commande client. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
 3.  Dans le champ **N°**, , entrez un article qui est configuré pour l’assemblage pour commande.  
 4.  Dans le champ **Code magasin**, définissez le magasin à partir duquel l’article sera vendu. Le processus d’assemblage a lieu dans ce magasin.  
@@ -57,12 +56,15 @@ Dans cette procédure, vous effectuez la vente d’un article que vous assemblez
 10. Sur la commande vente, choisissez l’action **Lancer** pour informer le département d’assemblage que le processus d’assemblage peut démarrer.  
 11. Dans le département d’assemblage, suivez la procédure d’assemblage des articles qui sont vendus au cours de cette procédure. Pour plus d’informations, voir [Assembler des articles](assembly-how-to-assemble-items.md).  
 
+> [!NOTE]  
+> Sachez que les articles de substitution n’entraîneront pas automatiquement le remplacement d’un article par un autre, par exemple lors de la création d’une commande client ou dans une nomenclature. Au lieu de cela, vous serez alerté du fait qu’un substitut est disponible pour vous.
+
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
 [Stock](inventory-manage-inventory.md)  
-[Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Enregistrer de nouveaux articles](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

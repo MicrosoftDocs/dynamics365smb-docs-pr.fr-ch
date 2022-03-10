@@ -2,17 +2,17 @@
 title: Gérer le travail entre plusieurs entreprises dans le Hub Entreprise
 description: En savoir plus sur le Hub Entreprise Dynamics 365 Business Central que vous utilisez pour gérer votre travail dans plusieurs entreprises.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acc1bf44ddf3886d57729fb28ba81c6e7580ce40
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775204"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132070"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Gérer le travail entre plusieurs entreprises dans le Hub Entreprise
 
@@ -30,7 +30,7 @@ Si vous utilisez le rôle de **Hub Entreprise**, votre page d’accueil affiche 
 > [!TIP]
 > Pour accéder à une entreprise spécifique dans [!INCLUDE [prod_short](includes/prod_short.md)], choisissez le nom de l’entreprise ou choisissez l’élément de menu **Accéder à la société**, vous êtes connecté automatiquement dans un nouvel onglet de navigateur.
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions pour une entreprise répertoriée dans le Hub Entreprise":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions pour une entreprise répertoriée dans le Hub Entreprise.":::
 
 Vous pouvez ajouter de nouvelles sociétés, par exemple lorsque vous obtenez un nouveau client ou lorsque votre société ajoute une nouvelle filiale. Pour plus d’informations, voir [Ajouter des entreprises à votre Hub Entreprise](company-hub-add-company.md).  
 
@@ -76,7 +76,7 @@ Pour accéder au Hub Entreprise, vous devez avoir accès via le groupe d’utili
 > [!IMPORTANT]
 > Le Hub Entreprise est une liste à l’échelle de l’entreprise, de sorte que tout utilisateur qui a accès au Hub Entreprise pourra voir toutes les entreprises de leur propre chef. Le client [!INCLUDE [prod_short](includes/prod_short.md)] et tous les indicateurs de performance clés des entreprises auxquelles ils ont accès.
 
-Si vous ne parvenez pas à trouver le Hub Entreprise et que vous savez que vous y avez obtenu l’accès, vérifiez auprès de votre administrateur si le Hub Entreprise est répertorié dans la page **Gestion des extensions**. Pour plus d’informations, voir [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md).  
+Si vous ne parvenez pas à trouver le Hub Entreprise et que vous savez que vous y avez obtenu l’accès, vérifiez auprès de votre administrateur si le Hub Entreprise est répertorié dans la page **Gestion des extensions**. Pour plus d’informations, voir [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md).  
 
 ## <a name="set-up-the-company-hub"></a>Configurer le Hub Entreprise
 
@@ -84,15 +84,15 @@ Pour commencer à utiliser le Hub Entreprise, vous devez ajouter une ou plusieur
 
 Mais pour ajouter une entreprise, vous devez avoir accès à une ou plusieurs instances de [!INCLUDE [prod_short](includes/prod_short.md)] en plus de l’entreprise dans laquelle vous utilisez le Hub Entreprise.  
 
-Par exemple, si vous êtes comptable, vos clients peuvent vous inviter à leur [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Inviter votre comptable externe dans votre Business Central](finance-accounting.md#inviteaccountant).  
+Par exemple, si vous êtes comptable, vos clients peuvent vous inviter à leur [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Inviter votre comptable externe dans votre Business Central](finance-accounting.md#inviteaccountant).  
 
-Les administrateurs peuvent utiliser le même guide de configuration assistée pour vous ajouter à leur [!INCLUDE [prod_short](includes/prod_short.md)], ou ils peuvent vous ajouter au compte Azure AD dans le centre d’administration Microsoft 365. Pour en savoir plus, voir [Gérer les utilisateurs et les groupes](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+Les administrateurs peuvent utiliser le même guide de configuration assistée pour vous ajouter à leur [!INCLUDE [prod_short](includes/prod_short.md)], ou ils peuvent vous ajouter au compte Azure AD approprié dans le centre d’administration Microsoft 365. Pour en savoir plus, voir [Gérer les utilisateurs et les groupes](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
 ## <a name="see-also"></a>Voir aussi
 
 [Ajouter des entreprises à votre Hub Entreprise](company-hub-add-company.md)  
-[Expériences de comptables dans Business Central](finance-accounting.md)  
-[Hub Entreprise pour l’extension Business Central](ui-extensions-company-hub.md)  
+[Expériences de comptables dans Business Central](finance-accounting.md)  
+[Hub Entreprise pour l’extension Business Central](ui-extensions-company-hub.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 
 
