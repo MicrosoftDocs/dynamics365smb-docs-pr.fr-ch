@@ -1,18 +1,18 @@
 ---
 title: Passer à une autre entreprise ou un autre environnement
 description: Si vous travaillez pour plusieurs organisations, vous pouvez rapidement passer d’un environnement et d’une société à l’autre.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 265974a70dc54bae24ea26aa1385fbf2c2ef9cb5
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: fa2e18e135e9e81634a02e1b193b237c599fd5fc
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335281"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382222"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Passer à une autre entreprise ou un autre environnement
 

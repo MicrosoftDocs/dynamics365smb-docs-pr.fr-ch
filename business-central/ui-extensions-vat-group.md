@@ -1,8 +1,7 @@
 ---
 title: Extension de gestion du groupe TVA
 description: Vous pouvez vous engager avec d’autres entreprises pour former un groupe TVA et agir en tant que membre ou société représentante du groupe lors de la déclaration de TVA.
-author: bholtorf
-manager: annbe
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132461"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382572"
 ---
 # <a name="the-vat-group-management-extension"></a>Extension de gestion du groupe TVA
 
@@ -84,9 +83,9 @@ Configurez le membre du groupe TVA en démarrant le guide de configuration assis
 5. Choisissez le **Type d’authentification**, **OAuth2**, puis **Suivant**.
 6. Dans le champ **ID client**, saisissez l’ID fourni par la société représentante du groupe TVA.
 7. Dans le champ **Secret du client fourni par la société représentante du groupe TVA**, saisissez le secret fourni par la société représentante du groupe TVA.
-8. Dans le champ **Point de terminaison d’autorité OAuth 2.0**, entrez *https://login.microsoftonline.com/common/oauth2*.
-9. Dans le champ **URL de ressource OAuth 2.0**, entrez *https://api.businesscentral.dynamics.com/*.
-10. Dans le champ **URL de redirection OAuth 2.0**, entrez *https://businesscentral.dynamics.com/OAuthLanding.htm*. 
+8. Dans le champ **Point de terminaison d’autorité OAuth 2.0**, entrez `https://login.microsoftonline.com/common/oauth2`.
+9. Dans le champ **URL de ressource OAuth 2.0**, entrez `https://api.businesscentral.dynamics.com/`.
+10. Dans le champ **URL de redirection OAuth 2.0**, entrez `https://businesscentral.dynamics.com/OAuthLanding.htm`. 
 11. Lorsque vous avez spécifié les différents champs, choisissez **Suivant**, puis saisissez les informations d’identification de l’utilisateur fournies par la société représentante du groupe TVA.
 12. Choisissez la configuration de déclaration de TVA que vous utilisez pour déclarer la TVA aux autorités de votre pays.
 
@@ -94,7 +93,7 @@ Configurez le membre du groupe TVA en démarrant le guide de configuration assis
 
 ## <a name="using-the-vat-group-management-features"></a>Utilisation des fonctionnalités de gestion du groupe TVA
 
-Les membres du groupe TVA utilisent les processus standard pour préparer les déclarations de TVA. La seule différence est de choisir la version de déclaration **VATGROUP**, qui soumet la déclaration de TVA à la société représentante du groupe TVA plutôt qu’aux autorités. Pour plus d’informations, voir [À propos de la déclaration de retours de TVA](finance-how-report-vat.md#about-the-vat-return-report).
+Les membres du groupe TVA utilisent les processus standard pour préparer les déclarations de TVA. La seule différence est de choisir la version de déclaration **VATGROUP**, qui soumet la déclaration de TVA à la société représentante du groupe TVA plutôt qu’aux autorités. Pour plus d’informations, voir [À propos de la déclaration de retours de TVA](finance-how-report-vat.md#vatreturn).
 
 Les sections suivantes décrivent les tâches que les sociétés représentantes du groupe TVA doivent effectuer.
 

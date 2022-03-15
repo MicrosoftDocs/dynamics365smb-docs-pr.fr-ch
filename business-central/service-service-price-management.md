@@ -1,7 +1,7 @@
 ---
 title: Configuration de gestion de prix
 description: La gestion des prix de service vous permet de configurer des groupes de prix de service, la tarification des services, l’ajustement des prix de service, etc.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: e6cfc801e40bfae60dd687ede073bd4367e69092
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b4a4e528b2104c6b72f6be2ca149443802205e89
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142976"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381207"
 ---
 # <a name="service-price-management"></a>Configuration de gestion de prix
 La fonctionnalité de gestion de la tarification des services vous permet d’appliquer le meilleur prix à des commandes service, de configurer des accords prix service personnalisés pour des clients, d’améliorer le rendement des salariés de la maintenance et d’accélérer le processus de facturation.  

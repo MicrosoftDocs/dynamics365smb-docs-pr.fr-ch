@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/01/2021
+ms.date: 02/23/2022
 ms.author: edupont
-ms.openlocfilehash: 7c02bc46895c211748b8200c1490b08e54f0eb94
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f6586423ed8fa0254c84d2cd8737d1104f1ecea4
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138110"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366977"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>Annuler un abonnement ou supprimer [!INCLUDE[prod_short](includes/prod_short.md)]
 

@@ -1,26 +1,28 @@
 ---
-title: Comment trouver vos affectations d’entrepôt
+title: Trouver vos affectations d’entrepôt
 description: Cette rubrique explique comment rechercher les affectations d’entrepôt qui vous sont affectées sur la page Fiche article lorsque des instructions ont été créées pour vous.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5fe603b5cb2499c4b74e29725ee1747219d37e27
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5b27848474f26f92b54169e1d60e8e786a6ab95f
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141992"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382168"
 ---
 # <a name="find-your-warehouse-assignments"></a>Trouver vos affectations d’entrepôt
+
 Pour rechercher les affectations entrepôt, ouvrez la page correspondant à une article sélectionné. Si des instructions entrepôt ont été créées, les lignes Prélever et Emplacement sont visibles, et vous pouvez commencer à utiliser une affectation. Dans certains entrepôts, le responsable peut affecter des instructions propres à chaque magasinier. Pour plus d’informations, voir [Configurer des employés d’entrepôt](warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="to-find-an-instruction-assigned-to-you"></a>Pour rechercher une instruction qui vous est affectée  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Rangements entrepôt**, **Prélèvements entrepôt** ou **Mouvement entrepôt**, puis cliquez sur le lien associé.
+## <a name="to-find-an-instruction-assigned-to-you"></a>Pour rechercher une instruction qui vous est affectée
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Rangements entrepôt**, **Prélèvements entrepôt** ou **Mouvement entrepôt**, puis cliquez sur le lien associé.
 
     Les trois pages affichent les affectations de l’ensemble des entrepôts.  
 
@@ -29,12 +31,13 @@ Pour rechercher les affectations entrepôt, ouvrez la page correspondant à une 
 
 Vous pouvez utiliser le champ **Code utilisateur affecté** de l’en-tête pour demander des affectations travail, si le responsable de l’entrepôt n’affecte aucune instruction particulière aux employés. Saisissez simplement votre code utilisateur dans l’en-tête entrepôt avant d’utiliser une instruction. Vos collègues peuvent ensuite utiliser d’autres instructions. Cette opération permet ainsi d’éviter de faire deux fois le même travail.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
-[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
-[Gestion des assemblages](assembly-assemble-items.md)    
-[Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
+[Configuration de Warehouse Management](warehouse-setup-warehouse.md) 
+[Gestion nomenclature d’assemblage](assembly-assemble-items.md)
+[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
 
 

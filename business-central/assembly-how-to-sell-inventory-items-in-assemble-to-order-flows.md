@@ -1,5 +1,5 @@
 ---
-title: 'Procédure : Vente d’articles en stock dans des flux à assembler pour commande'
+title: Vente d’articles en stock dans des flux à assembler pour commande
 description: Si un article est configuré pour assembler pour commande, l’article doit être assemblé pour les commandes client et un ordre d’assemblage lié est automatiquement créé.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
+ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 2d68bb10c6ff7d153417dbdc491dd8abd75b7adc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: acf9afd490158ccca25e2fd13ecb30bb07c64bfe
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146997"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384087"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Vendre des éléments de stocks dans des flux à assembler pour commande
 Si le champ **Stratégie d’assemblage** de la fiche article d’un élément d’assemblage indique **Assembler pour commande**, le processus par défaut de commande vente considère que l’article n’est pas en stock et doit être assemblé pour cette commande vente spécifique. Par conséquent, un ordre d’assemblage lié est automatiquement créé lorsque vous ajoutez l’article à une ligne commande vente. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md). Toutefois, si une partie de la quantité sur commande vente est déjà disponible en stock, alors vous pouvez diminuer la quantité d’ordre d’assemblage en changeant le champ **Quantité à assembler pour commande** de la ligne commande vente.  

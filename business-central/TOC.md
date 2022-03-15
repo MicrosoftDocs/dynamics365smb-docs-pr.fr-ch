@@ -88,14 +88,16 @@
 ##### [Détails de conception : Structure du moteur de validation](design-details-posting-engine-structure.md)  
 
 ## Évaluations
+### [S’inscrire à un essai gratuit de Dynamics 365 Business Central](trial-signup.md)
+### [FAQ sur l’essai de Dynamics 365 Business Central](trial-faq.md)
 ### [Versions d’évaluation et abonnements](across-preview.md)
-### [Préparation aux activités commerciales](ui-get-ready-business.md)
+### [Se préparer aux activités commerciales](ui-get-ready-business.md)
 ### [Dépannage de l’inscription en self-service](ui-troubleshoot-self-signup.md)
 ### [Extension de votre version d’évaluation](admin-extend-trial.md)
 ### [Annuler un abonnement ou supprimer Business Central](admin-cancel.md)
 ## Achats
-### [Mise en route avec un abonnement](across-preview.md#getting-started-with-a-subscription)
-### [Préparation aux activités commerciales](ui-get-ready-business.md)
+### [Mise en route d’un abonnement](across-preview.md#get-started-with-a-subscription)
+### [Se préparer aux activités commerciales](ui-get-ready-business.md)
 
 ## Démarrages rapides
 ### [Démarrage rapide de Business Central](quick-start-business-central.md)
@@ -557,7 +559,7 @@
 #### [Supprimer et relettrer des écritures comptables article](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Clôturer les écritures comptables article ouvertes qui résultent d’un lettrage fixe dans la feuille article](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Génération des coûts et rapprochement en comptabilité
-##### [Génération des coûts](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Génération des coûts](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Rapprocher l’évaluation stock avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Surveiller la progression et les performances](projects-how-monitor-progress-performance.md)
 #### [Ajuster et rapprocher le coût stocks avec la comptabilité avec la file d’attente des travaux](finance-adjust-reconcile-inventory-cost-job-queue.md)

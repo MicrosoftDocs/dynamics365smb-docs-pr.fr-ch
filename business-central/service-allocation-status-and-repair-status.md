@@ -1,7 +1,7 @@
 ---
 title: Statut affectation et statut réparation | Microsoft Docs
 description: Découvrez la relation entre le statut réparation des articles de service et le statut affectation des écritures d’affectation associées.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8cc2b6dafb5217d652f398b1fc03db6870a7e8f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad74f4cd5049943fc3006ea66ab377b519012892
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148293"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382598"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Statut affectation et statut réparation des articles de service
 L’état réparation des articles de service et l’état affectation des écritures affectation des articles de service sont liés dans le module Gestion des services. L’état affectation change lorsque vous modifiez l’état réparation de l’article de service en **Terminé** ou **Service en partie réalisé**, et lorsque vous convertissez un devis service en commande service. L’état réparation de l’article de service change lorsque vous annulez l’affectation de l’article de service, ou que vous réaffectez l’article à une autre ressource. Vous pouvez visualiser l’état réparation des articles de service sur la page **Tâches service** et vous pouvez mettre à jour l’état réparation dans le champ **Code état réparation** de la page **Feuille activité article de service**. Vous pouvez visualiser l’état affectation dans le champ **Statut** de la page **Affectations ressources**.  

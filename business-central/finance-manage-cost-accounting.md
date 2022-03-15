@@ -1,23 +1,24 @@
 ---
-title: Comptabilité pour les coûts | Microsoft Docs
-description: La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activié. Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.
+title: Présentation de la comptabilité pour les coûts
+description: La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activié. Cet article fournit des liens vers d’autres articles contenant plus d’informations.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5add5fb45af8e12b86dbe72e12d0e38649b31464
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148651"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366817"
 ---
 # <a name="accounting-for-costs"></a>Comptabilité pour les coûts
-La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activité. Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.  
+La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activié. Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.  
 
 |Pour|Voir|  
 |--------|---------|  

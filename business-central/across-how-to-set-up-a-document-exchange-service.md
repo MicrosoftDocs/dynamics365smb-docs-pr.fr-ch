@@ -1,7 +1,7 @@
 ---
 title: Procédure de configuration d’un service d’échange de document | Microsoft Docs
 description: Utilisez un fournisseur de services externe pour échanger des documents électroniques avec vos partenaires commerciaux.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8804b9bb7f7b8112e54e8a9953198db8686f768d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cc0bda1808e33db7ea54aac2a1afdb932c01f629
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133397"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382992"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Configurer un service d’échange de document
 Dans le cadre de l’Infrastructure d’échange de données, vous pouvez échanger des documents de vente et d’achat avec vos partenaires commerciaux sans étapes supplémentaires, telles que joindre les documents aux e-mails sous forme de fichiers PDF. Par exemple, lorsque vous êtes prêt à facturer un client, vous pouvez publier la facture et l’envoyer pour paiement sous forme de fichier que votre client peut recevoir dans son application de gestion d’entreprise. Pour plus d’informations, voir [Échanger des données par voir électronique](across-data-exchange.md).

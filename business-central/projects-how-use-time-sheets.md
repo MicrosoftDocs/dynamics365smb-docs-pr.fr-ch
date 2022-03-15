@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 12/13/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 6cb8789b75350b3879fb0179759498394b6e22d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134992"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372147"
 ---
 # <a name="use-time-sheets"></a>Utiliser des feuilles de temps
 
@@ -32,7 +32,7 @@ Avant de pouvoir utiliser des feuilles de temps, vous devez définir des informa
 
 ## <a name="to-create-time-sheets"></a>Pour créer des feuilles de temps
 
-Vous pouvez utiliser le traitement par lots **Créer des feuilles de temps** pour configurer des feuilles de temps pour un nombre donné de périodes ou de semaines. Une fois qu’une feuille de temps est créée, son propriétaire peut l’ouvrir et y enregistrer le temps consacré à une tâche.  
+Vous pouvez utiliser le traitement par lots **Créer des feuilles de temps** pour configurer des feuilles de temps pour un nombre donné de périodes ou de semaines. Une fois qu’une feuille de temps est créée, son propriétaire peut l’ouvrir et y enregistrer le temps consacré à une tâche. Vous pouvez également [planifier le traitement par lots pour une exécution automatique](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > Vous devez disposer d’autorisations pour pouvoir créer des feuilles de temps. Pour plus d’informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
@@ -43,7 +43,9 @@ Vous pouvez utiliser le traitement par lots **Créer des feuilles de temps** pou
 
     > [!NOTE]  
     > Les champs **Utiliser la feuille de temps** et **ID utilisateur du propriétaire de la feuille de temps** doivent être renseignés sur la fiche de la ressource de la feuille de temps.
-4. Choisissez le bouton **OK**.  
+
+    Si vous le souhaitez, vous pouvez choisir l’action **Planifier** afin de spécifier la fréquence à laquelle vous souhaitez que la tâche s’exécute automatiquement. Par exemple, pour configurer la tâche de façon à ce qu’elle s’exécute chaque semaine pendant quatre semaines, sur la page **Planifier un état – Créer des feuilles de temps**, définissez le champ **Formule de date de la prochaine exécution** sur *4W*. Pour en savoir plus, consultez [Planifier un état à exécuter](ui-work-report.md#ScheduleReport)  
+4. Cliquez sur le bouton **OK**.  
 
 Vous pouvez afficher les feuilles de temps que vous avez créées sur la page **Feuilles de temps**. Chaque feuille de temps se compose d’une ou plusieurs lignes qui définissent l’heure à laquelle vous souhaitez soumettre pour approbation. Le tableau suivant décrit les types de lignes que vous pouvez ajouter à la feuille de temps.
 

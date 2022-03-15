@@ -1,21 +1,21 @@
 ---
 title: Enregistrer les prix d’achat spéciaux et les remises
 description: Vous pouvez définir des accords de prix et de remises différents ou secondaires et les lettrer dans les documents achat pour les fournisseurs.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.search.form: 26, 1346, 7012, 7014, 7017, 7018, 7189, 7190
+ms.search.form: 26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 02177f639bed0696a406a427485679bacb23ed18
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9f83f30a28011ea4722b529609bb9daa5e1a479
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137356"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383794"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Enregistrer les prix d’achat spéciaux et les remises
 > [!NOTE]

@@ -1,5 +1,5 @@
 ---
-title: 'Procédure : créer des ordres d’assemblage permanents | Microsoft Docs'
+title: Création d’ordres d’assemblage permanents
 description: Créez des commandes vente en cours pour les éléments d’assemblage personnalisés avant d’effectuer régulièrement les commandes vente réelles en fonction du contrat commande ouverte.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
+ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e565a07bf148043de47eab5cba4df5c76beceb5a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 45550b0aa5c3d55b8988b597ebef038df108a7a2
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146953"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384008"
 ---
 # <a name="create-blanket-assembly-orders"></a>Création d’ordres d’assemblage permanents
 Vous pouvez utiliser la gestion nomenclature d’assemblage pour personnaliser un élément d’assemblage sur la demande d’un client au cours du processus de vente. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  

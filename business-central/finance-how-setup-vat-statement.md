@@ -1,7 +1,7 @@
 ---
 title: Configurer une déclaration de TVA
 description: Cette rubrique vous explique comment configurer un modèle de déclaration de TVA et des noms de déclaration de TVA pour répondre aux exigences en pleine évolution de l’administration fiscale.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: c701813e596bb217cf6601091d55c528cf1ee2e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 356eb4fd32eff269b166767ae3b6cb3df6b67f1b
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142226"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383712"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Paramétrer des modèles de déclaration de TVA et des noms de déclaration de TVA
 

@@ -1,5 +1,5 @@
 ---
-title: Lier une commande vente à une commande achat pour une livraison directe (contient une vidéo) | Microsoft Docs
+title: Faire des livraisons directes (contient une vidéo)
 description: Décrit comment créer une commande vente liée à une commande achat pour permettre la livraison directe du fournisseur au client.
 author: SorenGP
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fe45eb6403798a7e64b9604321440a2fff38c3f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144842"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372091"
 ---
 # <a name="make-drop-shipments"></a>Effectuer des livraisons directes
 
@@ -40,12 +40,12 @@ Pour préparer une livraison directe, vous indiquez sur la commande achat qu’e
 2. Dans le champ **Destinataire**, sélectionnez **Adresse client**.
 3. Dans le champ **Client**, sélectionnez le client auquel vous souhaitez vendre l’article en question.
 4. Choisissez l’action **Livraisons directes**, puis choisissez l’option **Extraire commande vente**.
-5. Sur la page **Liste des ventes**, sélectionnez la commande vente que vous avez préparée dans [Créer une commande vente pour livraison directe](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
+5. Sur la page **Liste des ventes**, sélectionnez la commande vente que vous avez préparée dans [Créer une commande vente pour livraison directe](#to-create-a-sales-order-for-drop-shipment).
 6. Choisissez le bouton **OK**.
 
 Les informations de ligne de la commande vente sont insérées sur la/les ligne(s) commande achat.
 
-Vous pouvez maintenant informer le fournisseur quant à l’envoi des articles à votre client, par exemple en envoyant la commande achat au format PDF.     
+Vous pouvez maintenant informer le fournisseur quant à l’envoi des articles à votre client, par exemple en envoyant la commande achat au format PDF. Si votre fournisseur vous communique un numéro de suivi ou des informations similaires, vous pouvez choisir d’enregistrer ces informations dans une ligne de commande fournisseur de type *Commentaire*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Pour créer plusieurs commandes achat pour des livraisons directes
 
