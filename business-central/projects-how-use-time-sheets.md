@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
 ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.openlocfilehash: 1ed54a63f3747d9ea5a1010206f4faac74fa90b0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372147"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510910"
 ---
 # <a name="use-time-sheets"></a>Utiliser des feuilles de temps
 
@@ -220,11 +220,11 @@ Une fois les feuilles de temps validées, vous pouvez les archiver pour vous y r
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de projets](projects-manage-projects.md)  
-[Configuration de la gestion de projet](projects-setup-projects.md)  
+[Configuration de la gestion de projets](projects-setup-projects.md)  
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

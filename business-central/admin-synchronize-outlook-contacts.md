@@ -10,12 +10,12 @@ ms.search.keywords: contacts, Microsoft 365
 ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12ce99a79f465543ecc314b5042e70b6802f86ec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6c4ed5dfa89fdafe6e685d6566a57cb604adacdb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142434"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513137"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchroniser les contacts de Business Central avec les contacts de Microsoft Outlook
 
@@ -39,13 +39,13 @@ Dans la liste **Contacts**, vous pouvez synchroniser les contacts de deux maniè
 
 * **Synchronisation avec Microsoft 365**
 
-  Cette action synchronise toutes les modifications de Microsoft 365 vers [!INCLUDE[prod_short](includes/prod_short.md)] depuis la précédente synchronisation, en fonction de la dernière date de modification. Les nouveaux contacts dans Microsoft 365 sont également synchronisés dans [!INCLUDE[prod_short](includes/prod_short.md)]. Cette procédure est généralement plus rapide qu'une synchronisation complète.  
+  Cette action synchronise toutes les modifications de Microsoft 365 vers [!INCLUDE[prod_short](includes/prod_short.md)] depuis la précédente synchronisation, en fonction de la dernière date de modification. Les nouveaux contacts dans Microsoft 365 sont également synchronisés dans [!INCLUDE[prod_short](includes/prod_short.md)]. Cette procédure est généralement plus rapide qu’une synchronisation complète.  
 
 * **Synchronisation complète avec Microsoft 365**
 
   Cette action synchronise tous les contacts dans les deux directions, indépendamment de la dernière date de synchronisation et de la dernière date de modification.  
 
-Dans les deux cas, les contacts sont uniquement synchronisés à partir d'Outlook si les champs obligatoires sont renseignés. Les champs obligatoires à synchroniser avec Microsoft 365 sont **Nom**, **Adresse e-mail** et leur type doit être Personne. [!INCLUDE[prod_short](includes/prod_short.md)] est le maître des informations de contact, les informations de contact [!INCLUDE[prod_short](includes/prod_short.md)] seront donc enregistrées en cas de doublons.  
+Dans les deux cas, les contacts sont uniquement synchronisés à partir d’Outlook si les champs obligatoires sont renseignés. Les champs obligatoires à synchroniser avec Microsoft 365 sont **Nom**, **Adresse e-mail** et leur type doit être Personne. [!INCLUDE[prod_short](includes/prod_short.md)] est le maître des informations de contact, les informations de contact [!INCLUDE[prod_short](includes/prod_short.md)] seront donc enregistrées en cas de doublons.  
 
 Dans Outlook, les contacts de [!INCLUDE[prod_short](includes/prod_short.md)] sont affichés dans un dossier sous **Autre contacts** dans la vue **Personnes**. Si vous n’êtes pas familiarisé avec la vue Personne dans Outlook, vous pouvez y accéder à partir des options de navigation dans le coin inférieur gauche d’Outlook.  
 
@@ -54,7 +54,7 @@ Dans Outlook, les contacts de [!INCLUDE[prod_short](includes/prod_short.md)] son
 [Finances](finance.md)  
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation des contacts (personnes) dans Outlook sur le Web](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
+[Utiliser des contacts (personnes) dans Outlook sur le Web](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08d73d46283908a811fd9690b6e4ea43e35d5118
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137434"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520905"
 ---
 # <a name="set-up-resources-for-projects"></a>Configurer des ressources pour les projets
 
@@ -26,8 +26,10 @@ Lorsque des ressources sont utilisées ou vendues dans le cadre d’un projet, l
 Vous spécifiez le montant horaire par défaut lors de la création de la ressource. Par exemple, si vous utilisez une machine spécifique pour un projet de cinq heures, le projet sera calculé sur la base du montant horaire.
 
 > [!NOTE]
-> Vous pouvez acheter des ressources externes non liées à un projet, par exemple pour facturer un fournisseur pour le travail livré. Pour en savoir plus, consultez [Enregistrer des achats](purchasing-how-record-purchases.md).<br /><br />
-> Dans ce cas, il est recommandé de nommer ou de regrouper ces ressources externes pour indiquer leur finalité, afin qu’elles ne soient pas confondues avec vos ressources internes.
+> Vous pouvez acheter des ressources externes non liées à un projet, par exemple pour facturer un fournisseur pour le travail fourni. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).<br /><br />
+> Il est recommandé de nommer ou de regrouper les ressources externes afin de ne pas les confondre avec vos ressources internes.
+>  
+> Si vous validez des transactions intersociétés, même si vous pouvez affecter une ressource à une ligne d’une commande client, si vous convertissez la commande client en bon de commande côté réception, la ressource ne sera pas incluse. Pour utiliser des ressources dans des transactions intersociétés, utilisez le champ **N° cte gén achat parten IC** sur la fiche ressource pour spécifier le compte sur lequel comptabiliser les dépenses.
 
 ## <a name="to-set-up-a-resource"></a>Pour paramétrer une ressource
 Créez une fiche pour chaque ressource à utiliser dans les projets.
@@ -74,12 +76,12 @@ Outre le prix spécifié sur la fiche ressource, vous pouvez configurer des prix
 4. Répétez l’étape 3 pour chaque autre prix ressource à configurer.
 
 ## <a name="see-also"></a>Voir aussi
-[Configuration de la gestion de projet](projects-setup-projects.md)  
+[Configuration de la gestion de projets](projects-setup-projects.md)  
 [Gestion de projets](projects-manage-projects.md)  
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

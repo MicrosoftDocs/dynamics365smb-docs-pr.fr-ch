@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 01/27/2022
 ms.author: bholtorf
-ms.openlocfilehash: 39700bcb00aadf4a567da0487db58c17aefe58af
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381764"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517988"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -206,7 +206,7 @@ Lorsque vous définissez un champ de date, vous pouvez saisir la date manuelleme
 |a|Entrez la date actuelle. « T » signifie « today » (aujourd’hui).|
 |t|Entrez la date de travail. Pour plus d’informations, voir [Date du flux](ui-change-basic-settings.md#work-date)|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Raccourcis clavier dans l’aperçu de rapports
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Raccourcis clavier dans l’aperçu des états
 
 |Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
 |--------------------------------|----------|
@@ -240,12 +240,20 @@ L’explorateur de rôles vous donne une vue d’ensemble et un accès rapide à
 |Maj F3 ou Ctrl+Flèche haut|Déplace le focus sur la fonction précédente trouvée dans l’explorateur de rôles.|
 |Ctrl+Maj|Développez ou réduisez tous les sous-nœuds, en plus des nœuds de niveau supérieur, lorsque vous choisissez l’action **Développer** ou **Réduire**.|
 
+##  <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a> Raccourcis du pavé numérique
+
+Le tableau suivant décrit les raccourcis d’un pavé numérique.
+
+|Appuyez sur les touches suivantes<br />(dans macOS)|Pour|
+|--------------------------------|----------|
+|Alt+ Séparateur décimal|Basculez la sortie de la touche de séparateur décimal vers un point (.) ou le caractère déterminé par le paramètre **Région** de la page **Mes paramètres**. Pour plus d’informations, voir [Définition du séparateur décimal utilisé par les claviers numériques](ui-enter-data.md#decimal).|
+
 ## <a name="see-also"></a>Voir aussi
 
-[Référence rapide de raccourcis clavier - PC uniquement](keyboard-shortcuts-cheatsheet.md)  
+[Référence rapide de raccourcis clavier – PC uniquement](keyboard-shortcuts-cheatsheet.md)  
 [Fonctionnalités d’assistance](ui-accessibility.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Forum Aux Questions](across-faq.yml)  
 [Rechercher des écritures](ui-find-entries.md)  
 

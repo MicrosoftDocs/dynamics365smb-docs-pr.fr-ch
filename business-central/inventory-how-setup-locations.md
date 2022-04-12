@@ -10,16 +10,16 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a2d5234a78daf6243591cc478ab7b19957a196a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130363"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515526"
 ---
 # <a name="set-up-locations"></a>Configurer des magasins
 
-Les emplacements sont des endroits tels que des entrepôts où vous achetez, stockez ou vendez des articles. [!INCLUDE [prod_short](includes/prod_short.md)] utilise des magasins pour aider à suivre les stocks dans les cas simples et complexes dans les processus d’entrepôt.
+Les magasins sont des endroits tels que des entrepôts où vous achetez, stockez ou vendez des articles. [!INCLUDE [prod_short](includes/prod_short.md)] utilise des magasins pour aider à suivre les stocks dans les cas simples et complexes dans les processus d’entrepôt.
 
 Vous pouvez ensuite créer des lignes de document pour un magasin spécifique, voir la disponibilité par magasin, et transférer le stock entre magasins. Pour plus d’informations, reportez-vous à [Gestion du stock](inventory-manage-inventory.md).
 <br><br>  
@@ -29,7 +29,7 @@ Vous pouvez ensuite créer des lignes de document pour un magasin spécifique, v
 ## <a name="location-cards"></a>Fiches magasin
 Vous spécifiez des informations sur un magasin, par exemple un entrepôt ou un centre de distribution sur la page **Fiche magasin**. Affectez un nom et un code représentatifs à chaque magasin. Il vous suffit ensuite de saisir le code magasin dans d’autres parties du programme lorsque vous souhaitez enregistrer les transactions d’un magasin en particulier.  
 
-Vous pouvez entrer des informations sur les emplacements et les règles entrepôt pour chaque magasin. En fonction des règles entrepôt sélectionnées, vous pouvez utiliser les options du raccourci **Emplacements** pour définir les emplacements utilisés par défaut lorsque vous effectuez des transactions. Si vous utilisez les prélèvement et rangement suggérés, vous pouvez utiliser la plupart des options du raccourci **Config. emplacement** pour définir la façon dont vous souhaitez utiliser les différentes fonctions d’entrepôt avancées.  
+Vous pouvez entrer des informations sur les emplacements et les règles entrepôt pour chaque magasin. En fonction des règles entrepôt sélectionnées, vous pouvez utiliser les options du raccourci **Emplacements** pour définir les emplacements utilisés par défaut lorsque vous effectuez des transactions. Si vous utilisez les prélèvements et rangements suggérés, vous pouvez utiliser la plupart des options du raccourci **Config. emplacement** pour définir la façon dont vous souhaitez utiliser les différentes fonctions d’entrepôt avancées.  
 
 Certains champs d’option dépendent des paramètres dans la page **Fiche magasin** pour limiter les combinaisons de paramètres non pris en charge.  
 
@@ -37,7 +37,7 @@ Choisissez les actions **Zones** ou **Emplacements** pour visualiser des informa
 
 ### <a name="to-set-up-a-location"></a>Pour configurer un magasin
 
-1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Magasins**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
 3. Sur la page **Fiche magasin**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Répétez les étapes 2 et 3 pour chaque magasin dans lequel vous souhaitez conserver le stock.
@@ -75,6 +75,9 @@ Si vous souhaitez structurer vos emplacements en zones, vous pouvez le faire dan
 
 Toutefois, vous pouvez choisir de configurer une seule zone et d’organiser votre entrepôt uniquement en fonction des emplacements. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).  
 
+## <a name="default-dimensions-for-locations"></a>Axes analytiques par défaut pour les magasins
+Pour définir les axes analytiques par défaut pour un magasin, allez sur la page **Fiche magasin** et choisissez **Magasin**, puis **Axes analytiques**. Les axes analytiques par défaut du magasin sont copiés dans les journaux et les documents lorsque vous spécifiez le magasin sur une ligne, mais vous pouvez supprimer ou modifier l’axe analytique sur la ligne si nécessaire. Vous pouvez exiger que les personnes spécifient des axes analytiques pour des magasins spécifiques avant de pouvoir valider une écriture. Vous pouvez également inclure des sections analytiques de magasin dans **Affect. analytique prioritaire** et **Croisements analytiques** pour les combinaisons de règles de priorité et d’axe analytique.
+
 ## <a name="see-also"></a>Voir aussi
 
 [Gestion du stock](inventory-manage-inventory.md)  
@@ -82,7 +85,7 @@ Toutefois, vous pouvez choisir de configurer une seule zone et d’organiser vot
 [Créer emplacements](warehouse-how-to-create-individual-bins.md)  
 [Configurer des types d’emplacement](warehouse-how-to-set-up-bin-types.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
 

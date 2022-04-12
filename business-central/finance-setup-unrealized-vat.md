@@ -1,5 +1,5 @@
 ---
-title: Configuration de la TVA sur encaissement
+title: Configurer la TVA sur encaissement
 description: Si vous utilisez la comptabilité basée sur la trésorerie, vous pouvez spécifier comment gérer la TVA sur encaissement pour les ventes et les achats.
 author: brentholtorf
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.search.form: 118, 472, 473
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 168d73da4c2cb9d457071aa9f1116fc397aad648
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 1ae48b042cf3df00a1d62a6871136e2526b3db0c
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381261"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417710"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Configurer la TVA sur encaissement pour la comptabilité basée sur la trésorerie
 
@@ -23,7 +23,7 @@ Si vous utilisez des méthodes comptables basées sur la trésorerie, vous pouve
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Pour utiliser les comptes généraux pour la TVA sur encaissement
 
-Vous pouvez choisir de calculer et de valider les montants de TVA dans un compte général temporaire lorsqu’une facture est validée, puis de les valider dans le compte général approprié et de les inclure dans des déclarations de TVA lorsque le paiement réel de la facture est validé. Pour cela, vous devez définir des paramètres validation TVA.
+Vous pouvez choisir de calculer et de valider les montants de TVA dans un compte général temporaire lorsqu’une facture est validée, puis de les valider dans le compte général approprié et de les inclure dans des déclarations de TVA lorsque le paiement réel de la facture est validé. Pour cela, vous devez définir les [paramètres validation TVA](finance-setup-vat.md).
 
 Pour utiliser les comptes pour la TVA sur encaissement, procédez comme suit :
 

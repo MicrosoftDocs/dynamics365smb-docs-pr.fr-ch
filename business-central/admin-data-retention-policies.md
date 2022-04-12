@@ -10,12 +10,12 @@ ms.search.keywords: delete, data, retention, policy, policies
 ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1abd02f7c70e8fe624e7d8b18ec7b7cb8b7c2c9e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a6fee7aedd8fca20e032bc3ac67e5f9e26d1fb22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383954"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517097"
 ---
 # <a name="define-retention-policies"></a>Définir des stratégies de rétention
 Les administrateurs peuvent définir des stratégies de rétention pour spécifier à quelle fréquence ils souhaitent que [!INCLUDE[prod_short](includes/prod_short.md)] supprime les données obsolètes dans les tables contenant des entrées de journal et des enregistrements archivés. Par exemple, le nettoyage des entrées de journal peut faciliter l’utilisation des données réellement pertinentes. Les stratégies peuvent inclure toutes les données des tables qui ont dépassé la date d’expiration, ou vous pouvez ajouter des critères de filtre qui n’incluront que certaines données expirées dans la stratégie. 
@@ -107,6 +107,6 @@ Une fois qu’un développeur a ajouté des tables à la liste, un administrateu
 [Audit des modifications dans Business Central](across-log-changes.md)  
 [Filtrage](ui-enter-criteria-filters.md#filtering)  
 [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

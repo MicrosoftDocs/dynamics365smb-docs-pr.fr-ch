@@ -1,17 +1,17 @@
 ---
 title: Créer des nomenclatures de production
 description: Découvrez comment créer une nomenclature de production, de nouvelles versions d’une nomenclature de production et utiliser la formule de calcul de quantité.
-author: SorenGP
+author: bholtorf
 ms.topic: conceptual
 ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ff4e2068d8ba588b6d92839538df6bfd2ecade24
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130272"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516915"
 ---
 # <a name="create-production-boms"></a>Créer des nomenclatures de production
 
@@ -21,7 +21,7 @@ Une nomenclature de production contient les données de base qui décrivent les 
 
 Pour pouvoir configurer une gamme, les éléments suivants doivent être en place :  
 
-- Des fiches article sont créées pour les articles parents qui participent à la production. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
+- Des fiches article sont créées pour les articles parents qui participent à la production. Pour plus d’informations, reportez-vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 - Les ressources de production sont configurées. Pour plus d’informations, voir [Configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Pour créer une nomenclature de production
@@ -43,7 +43,7 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 9. Dans le champ **Code lien gamme**, vous pouvez entrer un code permettant de lier le composant à une opération spécifique. Pour plus d’informations, reportez-vous à [Pour créer des liens gamme](production-how-to-create-routings.md#to-create-routing-links).
 10. Pour copier des lignes à partir d’une nomenclature de production existante, choisissez l’action **Copier nomenclature** pour sélectionner des lignes existantes.  
 11. Certifiez la nomenclature de production.  
-12. Vous pouvez désormais joindre la nouvelle nomenclature de production à la fiche de l’article parent en question. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
+12. Vous pouvez désormais joindre la nouvelle nomenclature de production à la fiche de l’article parent en question. Pour plus d’informations, reportez-vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Pour recalculer le coût standard de l’article figurant sur la fiche article, choisissez l’action **Production**, puis l’action **Calculer coût standard**.  
@@ -85,6 +85,10 @@ La relation entre chacun des composants est définie par la formule de calcul. V
 - **Longueur x Largeur** - Quantité = Quantité par * Longueur x Largeur  
 - **Longueur x Largeur x Profondeur** - Quantité = Quantité par x Longueur x Largeur x Profondeur  
 - **Poids** - Quantité = Quantité par x Poids  
+- **Quantité fixe** - Quantité = Quantité par
+
+> [!NOTE]
+> La formule de calcul **Quantité fixe** permet de s’assurer que la consommation d’un composant reste la même, quelles que soient les quantités de rebuts ou de sorties. Pour les composants d’ordre de fabrication, lorsque le champ **Formule de calcul** est défini sur **Quantité fixe**, la valeur du champ **Quantité prévue** est toujours égale à celle du champ **Quantité par**. Le pourcentage de rebut défini sur la même ligne est ignoré. La quantité fixée est respectée par l’état **Disponibilité par nomenclature**. L’état affichera l’article comme goulot d’étranglement si la quantité disponible est inférieure à la quantité dans le champ **Quantité par parent**. Les champs **Capable de fabriquer le parent** et **Capable de fabriquer le meilleur article** sont toujours vides, quelle que soit la quantité disponible. La quantité fixe est également incluse dans les calculs des coûts standard. La taille du lot de l’article produit a un impact sur le coût alloué à un article.
 
 ### <a name="example"></a>Exemple :
 
@@ -98,7 +102,7 @@ Une nomenclature de production répertorie 70 feuilles de métal dotées des axe
 [Planifié](production-planning.md)   
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

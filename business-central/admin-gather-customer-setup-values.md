@@ -1,28 +1,29 @@
 ---
 title: Collecter les valeurs de configuration client
-description: Le questionnaire de configuration permet de réduire la mise en œuvre en rationalisant la création de nouvelles entreprises et en proposant aux clients un fichier Excel ou XML.
+description: Si vous souhaitez utiliser RapidStart Services, le questionnaire de configuration permet de réduire la mise en œuvre en rationalisant la création de nouvelles entreprises et en proposant aux clients un fichier Excel ou XML.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8610, 8613
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91c13c5b0fb67befd0c03e2662c545ff8231e6da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145985"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518404"
 ---
-# <a name="gather-customer-setup-values"></a>Collecter les valeurs de configuration client
+# <a name="gather-customer-setup-values-with-rapidstart-services"></a>Collecter les valeurs de configuration client avec RapidStart Services
 Vous pouvez utiliser le questionnaire de configuration pour réduire la charge de travail d’implémentation en rationalisant la tâche de configuration de la nouvelle société. Vous pouvez générer le questionnaire de configuration dans [!INCLUDE[prod_short](includes/prod_short.md)], puis le fournir à votre client sous forme de fichier Excel ou XML.  
 
 Vous pouvez modifier toutes les valeurs par défaut d’un questionnaire afin qu’elles correspondent plus étroitement aux besoins du client.  
 
 > [!TIP]  
->  Pour plus d’informations sur la définition des valeurs de paramétrage dans les champs de planification de l’approvisionnement, reportez\-vous à [Configurer des recommandations : planification de l’approvisionnement](setup-best-practices-supply-planning.md).  
+> Pour plus d’informations sur la définition des valeurs de paramétrage dans les champs de planification de l’approvisionnement, reportez\-vous à [Configurer des recommandations : planification de l’approvisionnement](setup-best-practices-supply-planning.md).  
 
 Lorsque le client remplit le questionnaire, vous importez le fichier dans la nouvelle société [!INCLUDE[prod_short](includes/prod_short.md)] du client. Votre client et vous-même devez valider les réponses au questionnaire avant de les appliquer à la société.
 

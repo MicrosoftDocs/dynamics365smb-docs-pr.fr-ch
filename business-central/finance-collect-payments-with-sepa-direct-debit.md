@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 371, 423, 424, 427, 1208, 1207, 1230
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a1de8defa88e9a2d744f5b8d25ebebda33c22649
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51875e782ca6ad0e96abd460f4e026b3e7b08073
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147819"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8484936"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Recouvrement de paiements par prélèvement automatique SEPA
 

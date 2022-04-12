@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 120, 121, 422
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: df267dab7bc0d292bcd90a3e8b1063a5e87e7e61
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: e21454f52564d4c679cd20171189b0dc14bfe49f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335099"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523068"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analyser les montants réalisés et les montants budgétés
 Lors de la collecte, l’analyse, et le partage des données de votre société, vous voyez les montants réels comparés aux montants budgétés de tous les comptes et pour plusieurs périodes.
@@ -70,7 +70,7 @@ Au lieu de visualiser les montants budgétés et réalisés de tous les comptes 
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Comptabilité et plan comptable](finance-general-ledger.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

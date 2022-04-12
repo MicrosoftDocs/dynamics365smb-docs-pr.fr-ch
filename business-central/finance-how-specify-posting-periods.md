@@ -11,12 +11,12 @@ ms.search.keywords: user setup
 ms.search.form: 118
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 749f5d2dc901fae9db9c96d4f1c51e9590aa8184
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 558dcdf68f8ecc6a7c8def0b6a61a33d78f8f68b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142200"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516332"
 ---
 # <a name="specify-posting-periods"></a>Définir des périodes de validation
 
@@ -34,7 +34,7 @@ Utilisez des périodes de validation pour spécifier quand les utilisateurs peuv
 
 [Finances](finance.md)  
 [Exécution des processus de clôture d’exercice](year-how-complete-period-end-processes.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

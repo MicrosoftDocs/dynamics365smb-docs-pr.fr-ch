@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d8cd59f77230fe7d7593510f0abfc24bf9c29a2a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 67e564271e54c7c6c7f1b141172a537cd2bd6286
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142590"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510963"
 ---
-# <a name="working-with-prod_short-data-in-power-bi"></a>Utilisation avec les données [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI
+# <a name="work-with-prod_short-data-in-power-bi"></a>Utiliser des données [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI
 
 Dans cet article, vous découvrirez quelques notions de base sur l’utilisation des états et des tableaux de bord dans Power BI qui utilisent [!INCLUDE [prod_short](includes/prod_short.md)] comme source de données. L’article traite de certains aspects qui vous aideront à démarrer en tant qu’utilisateur [!INCLUDE[prod_short](includes/prod_short.md)]. Pour obtenir des instructions générales et des instructions sur l’utilisation Power BI, voir [Documentation Power BI pour les consommateurs](/power-bi/consumer).
 
@@ -82,7 +82,7 @@ Pour partager un état, dans une liste d’états ou dans un état ouvert, séle
 [Business Central et Power BI](admin-powerbi.md)  
 [Création d’états Power BI pour afficher les données [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md)  
 [Vue d’ensemble Architecture et composant d’intégration Power BI pour [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Utilisation d’états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md)  
+[Utiliser les états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md)  
 [Power BI pour les consommateurs](/power-bi/consumer/end-user-consumer)  
 [Le « nouveau look » du service Power BI](/power-bi/service-new-look)  
 [Démarrage rapide : Se connecter aux données dans Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
@@ -91,9 +91,9 @@ Pour partager un état, dans une liste d’états ou dans un état ouvert, séle
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans Power Automate](across-how-use-financials-data-source-flow.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] dans Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

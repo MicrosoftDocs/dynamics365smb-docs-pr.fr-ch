@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e39bd85451406bc835624183a5e65a45935a62ab
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: fdf34ffe09f5a57c45772a58fe6e8e4e9735be11
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334670"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515266"
 ---
 # <a name="send-documents-and-emails"></a>Envoyer des documents et des e-mails
 
@@ -54,7 +54,7 @@ Cette procédure décrit comment joindre une facture vente enregistrée à un e-
 Vous pouvez rapidement composer des e-mails pour les contacts, les clients, les fournisseurs, les vendeurs/acheteurs et les comptes bancaires directement à partir des pages de ces entités. Il suffit de choisir **Traiter**, puis **Envoyer un e-mail** pour ouvrir l’éditeur de courrier électronique. Pour les comptes bancaires, l’action **Envoyer un e-mail** se trouve sous **Actions**.
 
 > [!TIP]
-> Si vous envoyez souvent des e-mails de nature similaire ou si vous souhaitez envoyer une communication en masse, par exemple pour annoncer une campagne commerciale, l’utilisation de modèles Word avec e-mail peut accélérer le processus. Vous pouvez créer un modèle pour des entités telles que des clients, des fournisseurs et des contacts, qui généreront le contenu d’un message électronique pour vous, et même personnaliseront le contenu pour le destinataire en fonction des données contenues dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, consultez [Utilisation de modèles Word pour la communication en masse](ui-mail-merge.md).  
+> Si vous envoyez souvent des e-mails de nature similaire ou si vous souhaitez envoyer une communication en masse, par exemple pour annoncer une campagne commerciale, l’utilisation de modèles Word avec e-mail peut accélérer le processus. Vous pouvez créer un modèle pour des entités telles que des clients, des fournisseurs et des contacts, qui généreront le contenu d’un message électronique pour vous, et même personnaliseront le contenu pour le destinataire en fonction des données contenues dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Utiliser les modèles Word pour la communication en masse](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documents marqués comme imprimés lors de leur envoi
 
@@ -76,7 +76,7 @@ La **Boîte d’envoi d’e-mails** est l’endroit où vous trouverez les e-mai
 [Gestion des présentations d’état et de document](ui-manage-report-layouts.md)  
 [Configurer la messagerie](admin-how-setup-email.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

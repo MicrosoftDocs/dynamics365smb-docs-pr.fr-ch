@@ -10,12 +10,12 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 44c7475921c679cc03ee25e8c05ffa78d04592f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ef243581ddd0df9b546e3f2a40b2f1d666f73dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135973"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515656"
 ---
 # <a name="financial-management"></a>Gestion financière
 
@@ -36,7 +36,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Gérer les coûts ajustés et de fabrication, générer des états sur les coûts et rapprocher les coûts avec la comptabilité.|[Gestion des coûts ajustés](finance-manage-inventory-costs.md)|
 | Comprendre les écritures comptables et le plan comptable. |[Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md) |
 |Combiner des écritures comptables de plusieurs sociétés dans une société consolidée virtuelle pour l’analyse financière.|[Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)|
-| Ajouter des axes analytiques pour un veille économique enrichie. |[Utilisation des axes analytiques](finance-dimensions.md) |
+| Ajouter des axes analytiques pour un veille économique enrichie. |[Utiliser les axes analytiques](finance-dimensions.md) |
 | Créer des budgets comptabilité pour prévoir différentes activités financières et affecter des axes analytiques à des fins de veille économique. |[Créer des budgets comptabilité](finance-how-create-budgets.md) |
 |Enregistrez les revenus ou les frais directement dans la comptabilité sans valider les documents commerciaux appropriés.|[Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)|
 |Valider les écritures contrepassées pour annuler les validations de valeur dans la feuille comptabilité ou les validations de quantité sur des documents achat et vente. |[Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)|
@@ -69,8 +69,8 @@ La vidéo suivante présente certaines des fonctionnalités clés de la gestion 
 [Clôture des périodes fiscales](year-close-years-periods.md)  
 [Gestion des projets](projects-manage-projects.md)  
 [Importation des données à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
-[Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

@@ -7,33 +7,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 9245, 99000919, 99000921, 99000922
-ms.date: 06/22/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 2992aaf0d28f6d46bdd942465659760f0622ac0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f734667385dcc1e26a4ace4903a88414ff12348
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140958"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512929"
 ---
 # <a name="create-a-demand-forecast"></a>Créer une prévision de la demande
 
-Vous pouvez créer des prévisions de vente et de production à l’aide de la page **Prévision demande**.  
+Vous pouvez créer des prévisions de vente et de production à l’aide de la page de liste **Prévisions de demande**. Ensuite, pour chaque prévision, vous devez spécifier divers paramètres dans la page **Aperçu prévision demande**.  
 
-La fonctionnalité de prévision permet de créer une demande anticipée ; la demande réelle est créée à partir de commandes vente et fabrication. Lors de la génération de la planification de production principale (PDP), la prévision est ajustée par rapport aux commandes vente et fabrication. L’option *Composant* sur la prévision détermine le type d’exigences à prendre en considération dans le processus d’ajustement. Si la prévision a trait à un article vente, seules les commandes vente ajustent la prévision. Si elle concerne les composants, seule la demande dépendante des composants O.F. ajuste la prévision.  
+La fonctionnalité de prévision permet de créer une demande anticipée ; la demande réelle est créée à partir de commandes vente et fabrication. Lors de la génération de la planification de production principale (PDP), la prévision est ajustée par rapport aux commandes vente et fabrication. Le champ **Type prévision** sur la prévision détermine le type d’exigences à prendre en considération dans le processus d’ajustement. Si la prévision concerne un *article vente*, seules les commandes vente ajustent la prévision. Si elle concerne les *composants*, seule la demande dépendante des composants O.F. ajuste la prévision.  
 
 Les prévisions permettent à votre société de créer des scénarios basés sur des hypothèses, de planifier et de répondre à la demande de façon efficace et rentable. Des prévisions précises peuvent faire la différence au niveau de la satisfaction de la clientèle en relation avec les dates promesse des livraisons et la ponctualité de ces dernières.  
 
+Avec la 1re vague de lancement 2022, vous pouvez aussi définir le niveau de détails souhaité dans les champs **Prévision par magasin** et **Prévision par variante** sur la page **Aperçu prévision demande**. Les filtres et autres paramètres sont stockés dans la table **Nom prévision demande**. Ainsi, vous pouvez facilement arrêter votre travail et le reprendre ultérieurement. Si votre organisation a effectué la mise à jour lors de la 1re vague de lancement 2022, vous devez activer la nouvelle expérience dans la page [Gestion des fonctionnalités](admin-feature-management.md).  
+
 ## <a name="sales-forecasts-and-production-forecasts"></a>Prévisions de vente et de fabrication
 
-La fonctionnalité de prévision de l’application permet de générer des prévisions de vente ou de fabrication, de façon combinée ou indépendante. Par exemple, la plupart des sociétés qui fabriquent à la commande ne gèrent pas un stock de produits finis parce que chaque article est produit au moment de la commande. L’anticipation sur les commandes (prévision de vente) est essentielle pour aboutit à un délai de production raisonnable des produits finis (prévision de production). À titre d’exemple, les composants nécessitant un délai de livraison important, s’il ne sont pas en commande ou en stock, peuvent retarder la fabrication.  
+La fonctionnalité de prévision de l’application permet de générer des prévisions de vente ou de fabrication, de façon combinée ou indépendante. Par exemple, la plupart des sociétés qui fabriquent à la commande ne gèrent pas un stock de produits finis parce que chaque article est produit au moment de la commande. L’anticipation sur les commandes (prévision de vente) est essentielle pour aboutit à un délai de production raisonnable des produits finis (prévision de production). À titre d’exemple, les composants nécessitant un délai de livraison important, s’ils ne sont pas en commande ou en stock, peuvent retarder la fabrication.  
 
 - La prévision de vente est le meilleur indicateur du service commercial en relation avec les ventes futures et est spécifiée par article et par période. Toutefois, la prévision de vente n’est pas toujours appropriée pour la fabrication.  
 - La prévision de production est l’estimation par le gestionnaire de production du nombre d’articles finis et de produits semi-finis à produire dans des périodes données afin de satisfaire les prévisions de vente.  
 
 Dès lors, le plus souvent, le gestionnaire de production modifie la prévision de vente pour l’adapter aux conditions de production, tout en satisfaisant à la prévision de vente.  
 
-Vous créez des prévisions manuellement sur la page **Prévision demande**. Plusieurs prévisions peuvent exister dans le système, qui se différencient par leur nom et leur type. Vous pouvez copier et modifier les prévisions si nécessaire. Notez qu’il ne peut y avoir qu’une seule prévision valide à la fois en relation avec le planning.  
+Vous créez des prévisions manuellement sur la page **Prévision demande**. Plusieurs prévisions peuvent exister dans le système, qui se différencient par leur nom et leur type. Vous pouvez copier et modifier les prévisions si nécessaire. 
+
+> [!NOTE]
+> Il ne peut y avoir qu’une seule prévision valide à la fois en relation avec le planning.
 
 La prévision consiste en un certain nombre d’enregistrements indiquant un numéro d’article, une date prévision et une quantité prévision. La prévision d’un article couvre une période qui est définie par la date prévision et la date prévision de l’enregistrement prévision suivant. Du point de vue du planning, la quantité prévue doit être disponible au début de la période de demande.  
 
@@ -113,7 +118,7 @@ Ensuite, vous créez une commande client avec une quantité de 12 sur le magasi
 [Achats](purchasing-manage-purchasing.md)  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

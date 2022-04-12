@@ -9,19 +9,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 1d3e30185d4e5486c6e56941d08cc1586b2c554f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138195"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520089"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procédure pas à pas : Configuration et utilisation d’un flux d’approbation achat
 
 Vous pouvez automatiser le processus d’approbation d’enregistrements nouveaux ou modifiés, par exemple de documents, de feuilles et de fiches client, en créant des flux de travail avec des étapes pour les approbations en question. Avant de créer des flux d’approbation, vous devez configurer un approbateur et un approbateur remplaçant pour chaque utilisateur approbation. Vous pouvez également définir les montants maximaux que les approbateurs sont qualifiés à approuver pour les enregistrements de vente et d’achat. Les demandes d’approbation et d’autres notifications peuvent être envoyées par e-mail ou note interne. Pour chaque configuration d’utilisateur d’approbation, vous pouvez également définir à quel moment ils reçoivent les notifications.
 
 > [!NOTE]
-> Outre la fonctionnalité de flux de travail dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez utiliser Power Automate pour définir des flux de travail des événements dans [!INCLUDE[prod_short](includes/prod_short.md)]. Remarquez que bien qu’ils soient deux systèmes de flux de travail distincts, tous les modèles Flow que vous créez dans Power Automate est ajouté à la liste des modèles de flux de travail dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md).  
+> Outre la fonctionnalité de flux de travail dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez utiliser Power Automate pour définir des flux de travail des événements dans [!INCLUDE[prod_short](includes/prod_short.md)]. Remarquez que bien qu’ils soient deux systèmes de flux de travail distincts, tous les modèles Flow que vous créez dans Power Automate est ajouté à la liste des modèles de flux de travail dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Utiliser Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md).  
 
  Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow. Pour plus d’informations, voir [Flux de travail](across-workflow.md).  
 
@@ -92,7 +92,7 @@ Créez le flux d’approbation de commande d’achat en copiant les étapes du m
     La page **Flux de travail** s’ouvre pour un nouveau flux de travail contenant toutes les informations du modèle sélectionné. La valeur du champ **Code** est étendue avec *-01* pour indiquer que ce premier flux de travail est créé à partir du modèle **Flux de travail approbation commande achat**.  
 4. Dans l’en-tête de la page **Flux de travail**, activez la case à cocher **Activé**.  
 
-## <a name="using-the-approval-workflow"></a>Utilisation du flux d’approbation
+## <a name="use-the-approval-workflow"></a>Utiliser le flux d’approbation
 
 Utilisez le nouveau Flux de travail approbation commande achat en vous connectant à [!INCLUDE[prod_short](includes/prod_short.md)] en tant qu’Alicia pour demander l’approbation d’une commande achat. Ensuite, connectez-vous en tant que vous-même, affichez la note dans le Tableau de bord, suivez le lien vers la demande d’approbation, puis approuvez la demande.  
 
@@ -128,7 +128,7 @@ Si un scénario d’entreprise requiert un événement ou une réponse de workfl
 [Créer des workflows](across-how-to-create-workflows.md)  
 [Utilisation des flux d’approbation](across-how-use-approval-workflows.md)  
 [Flux de travail](across-workflow.md)  
-[Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md)  
+[Utiliser Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

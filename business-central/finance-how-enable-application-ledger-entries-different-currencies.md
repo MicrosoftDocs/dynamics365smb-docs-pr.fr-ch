@@ -10,12 +10,12 @@ ms.search.keywords: multiple currencies, payment, reconcile
 ms.search.form: 148, 460, 25
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 24a0465b787afb6f78a82869f1025ffe60bd02ee
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: d7b83a2f53a41cc646b6480048fa4152035077c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366843"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510897"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Activer le lettrage d’écritures comptables client en devises différentes
 
@@ -52,7 +52,7 @@ Si vous lettrez des écritures dans différentes devises, vous devez configurer 
 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

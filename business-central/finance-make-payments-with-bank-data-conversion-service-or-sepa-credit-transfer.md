@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
 ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7ca67e062f2ea6720d0aa7cbf196fd2c6e612159
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: be2f6e3efdfd34d59c55a3addeefb5646454b3bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382652"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516280"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Effectuer des paiements avec l’extension AMC Banking 365 Fundamentals ou virement SEPA
 
@@ -31,7 +31,7 @@ Sur la page **Feuille paiement**, vous pouvez traiter les paiements à vos fourn
 
 ## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Configuration de l’extension AMC Banking 365 Fundamentals
 
-Activez l’extension AMC Banking 365 Fundamentals pour convertir les fichiers de relevé bancaire dans un format que vous pouvez importer, ou pour convertir les fichiers de paiement exportés au format imposé par votre banque. Pour plus d’informations, voir [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
+Activez l’extension AMC Banking 365 Fundamentals pour convertir les fichiers de relevé bancaire dans un format que vous pouvez importer, ou pour convertir les fichiers de paiement exportés au format imposé par votre banque. Pour plus d’informations, voir [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
 
 ## <a name="setting-up-sepa-credit-transfer"></a>Configuration des virements SEPA
 
@@ -93,7 +93,7 @@ Lorsque vous êtes prêt à effectuer des paiements à vos fournisseurs ou rembo
 Dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)], l’extension AMC Banking 365 Fundamentals est disponible. Dans les versions nord-américaines, la même extension peut être utilisée pour envoyer des fichiers de paiement comme transfert de fonds électronique (EFT), toutefois avec un processus légèrement différent. Voir l’étape 6 de [Pour exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
 > [!NOTE]  
-> Pour pouvoir exporter des fichiers de paiement à partir de la feuille paiement, vous devez spécifier le format électronique du compte bancaire concerné, et vous devez activer l’extension AMC Banking 365 Fundamentals. Pour plus d’informations, voir [Configuration des comptes bancaires](bank-how-setup-bank-accounts.md) et [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md). Vous devez aussi cocher la case **Autoriser exportation paiement** sur la page **Noms feuilles comptabilité**. Pour plus d’informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).  
+> Pour pouvoir exporter des fichiers de paiement à partir de la feuille paiement, vous devez spécifier le format électronique du compte bancaire concerné, et vous devez activer l’extension AMC Banking 365 Fundamentals. Pour plus d’informations, voir [Configurer des comptes bancaires](bank-how-setup-bank-accounts.md) et [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md). Vous devez aussi cocher la case **Autoriser exportation paiement** sur la page **Noms feuilles comptabilité**. Pour en savoir plus, consultez [Utiliser des feuilles comptabilité](ui-work-general-journals.md).  
 
 La page **Registres virement** vous permet d’afficher les fichiers paiement qui ont été exportés de la feuille paiement. À partir de cette page, vous pouvez également réexporter des fichiers paiement en cas d’erreurs techniques ou de modifications des fichiers. Notez toutefois que les fichiers EFT exportés ne sont pas affichés sur la page et ne peuvent pas être réexportés.  
 
@@ -156,9 +156,9 @@ Lorsque le paiement électronique est traité avec succès par la banque, valide
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
+[Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
-[Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
+[Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 
 

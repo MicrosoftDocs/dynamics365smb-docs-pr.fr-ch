@@ -10,12 +10,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: cdaa582e11d3d0deaabb7282da54f65c447013e1
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 55dd366b65ee831989e09ea08f80b5d656993609
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381395"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521587"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Extension WorldPay Payments Standard
 L’extension WorldPay Payments Standard Standard vous permet de fournir aux clients une alternative pratique pour effectuer des paiements par transfert bancaire ou carte de crédit. En outre, les paiements effectués par les services de paiement arrivent habituellement sur votre compte bancaire plus rapidement.
@@ -26,7 +26,7 @@ L’activation des extensions de service de paiement est gratuite dans [!INCLUDE
 ## <a name="see-also"></a>Voir aussi
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

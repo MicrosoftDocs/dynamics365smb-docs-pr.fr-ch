@@ -10,12 +10,12 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.search.form: 62, 233, 522, 623
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3ec4f46425a344276792f44fde29e23f695384f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 001d747391998df212bacf9dbde23ebbe240bc2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145643"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521951"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Rapprocher des paiements fournisseur avec la feuille paiement ou à partir des écritures comptables fournisseur
 Lorsque vous envoyez un règlement à un fournisseur ou recevez un remboursement de sa part, vous devez décider si vous souhaitez lettrer le paiement ou le remboursement avec une ou plusieurs écritures ouvertes. Vous pouvez indiquer le montant exact que vous souhaitez lettrer avec la réception paiement ou le remboursement, puis ne lettrer que partiellement les écritures comptables fournisseur. Vous devez lettrer toutes les écritures comptables fournisseur pour obtenir des statistiques fournisseur et des rapports corrects des états financiers et des intérêts de retard.
@@ -111,7 +111,7 @@ Lorsque vous délettrez un lettrage erroné, des écritures de correction (écri
 3. Sélectionnez l’action **Écritures comptables**.
 4. Sélectionnez l’écriture comptable appropriée, puis sélectionnez l’action **Délettrer les écritures**.
 5. Sinon, sélectionnez l’action **Écritures comptables détaillées**.
-6. Sélectionnez l’écriture de lettrage appropriée, puis sélectionnez l’action **Délettrer les écritures**.
+6. Sélectionnez l’écriture lettrage appropriée, puis sélectionnez l’action **Délettrer les écritures**.
 7. Renseignez les champs de l’en-tête, puis sélectionnez l’action **Délettrer**.
 
 > [!IMPORTANT]  
@@ -120,7 +120,7 @@ Lorsque vous délettrez un lettrage erroné, des écritures de correction (écri
 ## <a name="see-also"></a>Voir aussi
 [Fournisseurs](payables-manage-payables.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

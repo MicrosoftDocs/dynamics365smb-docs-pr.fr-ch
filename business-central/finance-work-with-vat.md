@@ -7,18 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases
-ms.search.form: 118, 130, 142, 459, 460, 525
+ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7543c60455794d9f004ea11b2baccf81264b9886
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382114"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417534"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utiliser la TVA sur les ventes et les achats
-Si votre pays ou région vous demande de calculer la TVA sur les transactions de vente et d’achat afin de pouvoir déclarer les montants à une administration fiscale, vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour calculer automatiquement la TVA sur les documents vente et achat. Pour plus d’informations, voir [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md).
+Si votre pays ou votre région vous oblige à calculer et déclarer la taxe sur la valeur ajoutée (TVA) sur les transactions vente et achat, vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour calculer la TVA. Pour plus d’informations, voir [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md).
 
 Il existe, cependant, certaines tâches associées à la TVA que vous pouvez effectuer manuellement. Par exemple, vous devrez peut-être corriger un montant validé si vous découvrez qu’un fournisseur utilise un mode d’arrondi différent.  
 
@@ -26,35 +26,48 @@ Il existe, cependant, certaines tâches associées à la TVA que vous pouvez eff
 > Vous pouvez laisser [!INCLUDE[prod_short](includes/prod_short.md)] valider les numéros d’identification intracommunautaire et d’autres informations société lorsque vous créez ou mettez à jour des documents. Pour plus d’informations, consultez [Valider des numéros d’identification intracommunautaire](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Calcul et affichage des montants de TVA dans des documents achat et vente  
-Vous pouvez calculer et afficher des montants de TVA dans des documents achat et vente de façon différente, en fonction du type de client ou de fournisseur avec lequel vous traitez. Vous pouvez également remplacer le montant de TVA calculé pour qu’il corresponde au montant de TVA calculé par le fournisseur sur une transaction donnée.  
+Lorsque vous sélectionnez un numéro d’article dans le champ **N°** sur un document vente ou achat, [!INCLUDE[prod_short](includes/prod_short.md)] remplit les champs **Prix unitaire** et **Montant ligne**. Le prix unitaire provient de la fiche **Article** ou des prix article autorisés pour l’article et le client. [!INCLUDE[prod_short](includes/prod_short.md)] calcule le montant ligne lorsque vous entrez une quantité pour la ligne.  
 
-### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Prix unitaire et montant ligne incluant/excluant la TVA sur les documents vente  
-Lorsque vous sélectionnez un numéro d’article dans le champ **N°** d’un document vente, [!INCLUDE[prod_short](includes/prod_short.md)] renseigne le champ **Prix unitaire**. Le prix unitaire provient de la fiche **Article** ou des prix article autorisés pour l’article et le client. [!INCLUDE[prod_short](includes/prod_short.md)] calcule le **Montant ligne** lorsque vous entrez une quantité pour la ligne.  
+Si vous souhaitez que les prix unitaires et les montants ligne incluent la TVA, par exemple, si vous vendez au détail à des particuliers, cochez la case **Prix TTC** sur le document. Pour plus d’informations, voir [Inclure ou exclure la TVA dans les prix et les montants ligne](#including-or-excluding-vat-in-prices-and-line-amounts). 
 
-Si vous vendez au détail à des consommateurs, vous souhaitez peut-être que les documents vente incluent la TTC. Pour ce faire, activez la case à cocher **Prix TTC** du document.  
+Vous pouvez calculer et afficher des montants TVA dans des documents achat et vente de façon différente, en fonction du type de client ou de fournisseur avec lequel vous traitez. Vous pouvez également changer manuellement le montant TVA calculé, par exemple pour qu’il corresponde au montant TVA calculé par le fournisseur sur une transaction donnée.
 
-### <a name="including-or-excluding-vat-on-prices"></a>Inclusion ou exclusion de la TVA sur les prix
-Si la case à cocher **Prix TTC** est activée sur un document vente, les champs **Prix unitaire** et **Montant ligne** incluent la TVA, ce que les noms de champ reflètent également. Par défaut, la TVA n’est pas incluse dans ces champs.  
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Inclure ou exclure la TVA dans les prix et les montants ligne
+Si vous cochez la case **Prix TTC** sur un document vente, les champs **Prix unitaire** et **Montant ligne** incluront la TVA. Par défaut, les valeurs de ces champs n’incluent pas la TVA. Les noms des champs indiquent si les prix incluent la TVA.  
 
-Si le champ n’est pas sélectionné, l’application renseigne les champs **Prix unitaire** et **Montant ligne** en excluant la TVA, ce que reflètent les noms de champ.  
-
-Vous pouvez configurer les paramètres par défaut de **Prix TTC** pour tous les documents vente relatifs à un client dans le champ **Prix TTC** sur la fiche **Client**. Vous pouvez également configurer des prix article pour inclure ou exclure la TVA. Normalement, les prix article contenus dans la fiche article sont les prix hors TVA. L’application utilise les informations du champ **Prix TTC** de la fiche **Article** pour déterminer le prix unitaire pour les documents vente.  
+Vous pouvez configurer les paramètres par défaut de **Prix TTC** pour tous les documents vente relatifs à un client dans le champ **Prix TTC** sur la fiche **Client**. Vous pouvez également configurer des prix article pour inclure ou exclure la TVA. En règle générale, les prix indiqués sur la fiche article n’incluent pas la TVA. 
 
 Le tableau suivant montre comment l’application calcule les montants de prix unitaire pour un document vente lorsque vous n’avez pas configuré de prix sur la page **Prix vente** :  
 
-|**Le prix inclut le champ TVA sur la fiche client.**|**Prix incluant le champ TVA dans l’en-tête vente**|**Action exécutée**|  
+|**Le prix inclut le champ TVA sur la fiche client.**|**Champ Prix TTC**|**Action exécutée**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
-|Désactivé|Désactivé|Le champ **Prix unitaire** de la fiche article est copié dans le champ **Prix unitaire HT** dans les lignes vente.|  
-|Désactivé|Activé|L’application calcule le montant de TVA par unité et l’ajoute au **Prix unitaire** sur la fiche article. Ce prix unitaire total est entré dans le champ **Prix unitaire TTC** dans les lignes vente.|  
-|Activé|Désactivé|L’application calcule le montant de la TVA inclus dans le **prix unitaire** sur la fiche article à l’aide du % TVA par rapport aux champs Gpe compta. marché TVA (prix) et Groupe compta. produit TVA. Le **prix unitaire** sur la fiche article, moins le montant de la TVA, est ensuite saisi dans le champ **Prix unitaire HT** dans les lignes de vente.|  
+|Non activé|Non activé|Le champ **Prix unitaire** de la fiche article est copié dans le champ **Prix unitaire HT** dans les lignes vente.|  
+|Non activé|Activé|L’application calcule le montant de TVA par unité et l’ajoute au **Prix unitaire** sur la fiche article. Ce prix unitaire total est entré dans le champ **Prix unitaire TTC** dans les lignes vente.|  
+|Activé|Non activé|L’application calcule le montant TVA inclus dans le champ **Prix unitaire** sur la **Fiche article** à l’aide du pourcentage de TVA par rapport aux champs Gpe compta. marché TVA (prix) et Groupe compta. produit TVA. Le **prix unitaire** sur la fiche article, moins le montant de la TVA, est ensuite saisi dans le champ **Prix unitaire HT** dans les lignes de vente. Pour plus d’informations, voir [Utilisation des groupes comptabilisation marché TVA et des groupes prix client](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
 |Activé|Activé|Le champ **Prix unitaire** de la fiche article est copié dans le champ **Prix unitaire TTC** dans les lignes vente.|
 
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Utilisation des groupes comptabilisation marché TVA et des groupes prix client 
+Si vous souhaitez que les prix incluent la TVA, vous pouvez utiliser des groupes comptabilisation marché TVA pour calculer le montant en fonction des paramètres comptabilisation TVA pour le groupe. Pour plus d’informations, voir [Configurer des groupes comptabilisation marché TVA](finance-setup-vat.md#set-up-vat-business-posting-groups).
+
+En fonction de ce que vous souhaitez faire, vous pouvez affecter un groupe comptabilisation marché TVA aux documents client ou vente des manières suivantes :
+
+* Pour utiliser le même taux de TVA pour tous les clients, vous pouvez choisir un groupe dans le champ **Groupe compta. marché TVA (Prix)** sur la page **Paramètres ventes**.
+* Pour utiliser un taux de TVA pour un client spécifique, vous pouvez choisir un groupe dans le champ **Groupe compta. marché TVA (Prix)** sur la page **Fiche client**. 
+* Pour utiliser un taux de TVA pour un groupe de clients spécifique, vous pouvez choisir un groupe dans le champ **Groupe compta. marché TVA (Prix)** sur la page **Groupe prix client**. Par exemple, cela s’avère utile lorsque vous souhaitez qu’un prix s’applique à tous les clients d’une certaine région géographique ou d’un secteur spécifique.
+* Sur tous les documents vente dans le champ **Groupe compta. marché TVA**. Le montant TVA spécifié pour le groupe est utilisé uniquement pour le document sur lequel vous travaillez actuellement.
+
+> [!NOTE]
+> Si vous ne spécifiez pas de groupe dans le champ **Groupe compta. marché TVA (Prix)**, la TVA ne sera pas incluse dans les prix.
+
+#### <a name="examples"></a>Exemples
+Des facteurs tels que le pays ou la région dans lesquels vous vendez, ou le type de secteurs auxquels vous vendez, peuvent avoir un impact sur le montant de la TVA que vous devez comptabiliser. Par exemple, un restaurant peut facturer 6 % de TVA pour les repas consommés sur place et 17 % pour les plats à emporter. Pour ce faire, vous créez un groupe comptabilisation marché TVA (prix) pour la restauration sur place et un autre pour les plats à emporter.
+
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Correction manuelle des montants de TVA dans des documents achat et vente  
-Vous pouvez apporter des corrections à des écritures TVA validées. Cela permet de modifier les montants de TVA vente ou achat sans modifier la base de TVA. Vous pouvez avoir besoin d’apporter des modifications, par exemple, si vous recevez une facture d’un fournisseur qui n’a pas calculé correctement la TVA.  
+Vous pouvez apporter des corrections à des écritures TVA validées afin de pouvoir modifier les montants TVA totaux vente ou achat sans changer la base TVA. Par exemple, si vous recevez une facture d’un fournisseur avec un montant TVA incorrect.  
 
 Bien que vous ayez configuré une ou plusieurs combinaisons pour traiter la TVA à l’importation, vous devez configurer au moins un groupe de comptabilisation produit TVA. Par exemple, vous pouvez l’appeler **CORRECT** à des fins de correction, à moins que vous puissiez utiliser le même compte général dans le champ **Compte TVA achat** sur la ligne des paramètres de comptabilisation TVA. Pour plus d’informations, voir [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md).
 
-Si un escompte a été calculé sur la base d’un montant facture TTC, vous remboursez la partie escompte du montant TVA lorsque l’escompte est accordé. Remarque : vous devez activer le champ **Ajustement des escomptes** à la fois dans les paramètres comptabilité (en général) et dans les paramètres comptabilisation TVA, pour des combinaisons particulières de groupes comptabilisation marché TVA et de groupes comptabilisation produit TVA.  
+Si un escompte a été calculé en fonction d’un montant de facture TTC, vous remboursez la partie escompte du montant TVA lorsque l’escompte est accordé. Remarque : vous devez activer le champ **Ajustement des escomptes** à la fois dans les paramètres comptabilité (en général) et dans les paramètres comptabilisation TVA, pour des combinaisons particulières de groupes comptabilisation marché TVA et de groupes comptabilisation produit TVA.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Pour configurer le système pour la saisie manuelle de la TVA dans les documents de vente
 La section suivante explique comment activer les modifications manuelles de la TVA sur les documents de vente. Les étapes sont similaires sur la page **Paramètres achats**.

@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 12/21/2021
 ms.author: edupont
-ms.openlocfilehash: 0534e2e5d54102d85a7cf49f20fb0a1700ff2012
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 901f3899ef164d3d24dbc5c4e2226b840c97c945
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137200"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522657"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gérer les paramètres enregistrés pour les états et les traitements par lots
 
-Lors de l’exécution d’un état, les utilisateurs voient généralement une page qui leur permet de sélectionner des options et de définir des filtres pour modifier les données incluses dans l’état généré. Cette page est appelée la *page de demande*. Un état peut inclure un ou plusieurs *paramètres enregistrés* que les utilisateurs peuvent appliquer à l’état à partir de la page de demande. Les *Paramètres enregistrés* sont essentiellement des options et des filtres prédéfinis. Le fait d’utiliser les paramètres enregistrés est une façon rapide et fiable de générer de façon cohérente des états qui contiennent les données adéquates. Pour plus d’informations, voir [Utilisation des valeurs par défaut – paramètres prédéfinis](ui-work-report.md#SavedSettings).
+Lors de l’exécution d’un état, les utilisateurs voient généralement une page qui leur permet de sélectionner des options et de définir des filtres pour modifier les données incluses dans l’état généré. Cette page est appelée la *page de demande*. Un état peut inclure un ou plusieurs *paramètres enregistrés* que les utilisateurs peuvent appliquer à l’état à partir de la page de demande. Les *Paramètres enregistrés* sont essentiellement des options et des filtres prédéfinis. Le fait d’utiliser les paramètres enregistrés est une façon rapide et fiable de générer de façon cohérente des états qui contiennent les données adéquates. Pour plus d’informations, voir [Utiliser les paramètres enregistrés](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
 > Cette rubrique fait référence aux *états*, mais des informations similaires s’appliquent aux *traitements par lots*.
@@ -57,6 +57,7 @@ Dans la page **Paramètres de l’état**, vous pouvez :
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)  
+[Utiliser des états, des traitements par lots et des XMLports](ui-work-report.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

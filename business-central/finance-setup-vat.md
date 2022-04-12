@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.author: bholtorf
-ms.openlocfilehash: 80264ff085ab9d88a2d6a32d8f0f1189b3622832
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383686"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519240"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurer des méthodes de calcul et de validation de la taxe sur la valeur ajoutée
 
@@ -31,7 +31,7 @@ Vous pouvez configurer manuellement les calculs de la TVA, mais cette procédure
 > [!NOTE]  
 > Vous pouvez utiliser le guide uniquement si vous avez créé un profil Ma société, et si vous n’avez pas validé de transactions incluant la TVA. Sinon, il serait très facile d’utiliser différents taux de TVA par erreur et de générer des états de TVA erronés.  
 
-Si vous souhaitez configurer vous-même les calculs de TVA, ou en savoir plus sur chaque étape, cette rubrique contient des descriptions de chaque étape.  
+Si vous souhaitez configurer vous-même les calculs de TVA, ou en savoir plus sur chaque étape, cet article contient des descriptions de chaque étape.  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
@@ -44,6 +44,14 @@ Pour démarrer le guide de configuration assistée, procédez comme suit :
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration assistée**.  
 2. Choisissez **Configuration TVA** et finalisez la procédure.
 3. Une fois la configuration assistée terminée, visitez la page **Paramètres comptabilisation TVA** et vérifiez si vous devez renseigner d’autres champs en fonction des exigences locales de votre version de [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Fonctionnalité locale dans Business Central](about-localization.md).  
+
+### <a name="check-the-vat-posting-setup"></a>Vérifier les paramètres comptabilisation TVA
+
+Pour vous aider à démarrer rapidement, [!INCLUDE [prod_short](includes/prod_short.md)] affichera des notifications s’il vous manque des comptes du grand livre général (G/L) dans les groupes comptabilisation ou les paramètres comptabilisation, par exemple la page **Paramètres comptabilisation TVA**. Vous pouvez activer ou désactiver ce type de notification à l’aide de la notification *Compte général manquant dans le groupe comptabilisation ou la configuration* de la page **Mes notifications**. Il vous suffit d’accéder à la page **Mes paramètres**, puis de choisir *Modifier lorsque je reçois des notifications*. .  
+
+Si vous choisissez une telle notification, [!INCLUDE [prod_short](includes/prod_short.md)] crée automatiquement ces paramètres comptabilisation en fonction des groupes comptabilisation du document ou de la feuille que vous utilisez actuellement.  
+
+À ce stade, vous pouvez simplement remplir les comptes généraux manquants. Puis, plus tard, lorsque vous affinez davantage les paramètres, il est possible que vous réalisiez que cette configuration n’est pas correcte. [!INCLUDE [prod_short](includes/prod_short.md)] n’autorise pas la suppression des paramètres comptabilisation TVA ni des paramètres comptabilisation lorsqu’il existe des écritures créées à partir de telles configurations. À partir de la 1re vague de lancement 2022, vous pouvez utiliser le champ **Bloqué** sur la page **Paramètres comptabilisation TVA** pour empêcher les utilisateurs d’utiliser par erreur une configuration qui n’est plus pertinente pour les nouvelles validations.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Configurer les numéros d’identification intracommunautaire pour votre pays ou région
 
@@ -94,7 +102,7 @@ Définissez autant de combinaisons que nécessaire. Si vous voulez regrouper des
 Pour regrouper des paramètres comptabilisation TVA, procédez comme suit :
 
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 5.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilisation TVA**, puis choisissez le lien associé.
-2. Renseignez les champs selon vos besoins.
+2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Affecter des groupes comptabilisation TVA par défaut à plusieurs entités
 

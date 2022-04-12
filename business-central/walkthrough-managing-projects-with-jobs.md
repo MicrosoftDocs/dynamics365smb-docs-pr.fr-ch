@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d053e800a8a873f84d30a078e1b9776ca17129f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a4be92935903c1572e43af0f035e101fe0567772
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142792"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513434"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procédure pas à pas : gestion des projets
 
@@ -453,7 +453,7 @@ Les procédures suivantes expliquent comment créer un projet, définir un prix 
  [Utiliser des ressources](projects-how-use-resources.md)   
  [Surveillance de la progression et des performances](projects-how-monitor-progress-performance.md)   
  [Facturation des projets](projects-how-invoice-jobs.md)  
- [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

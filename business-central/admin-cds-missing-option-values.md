@@ -1,21 +1,22 @@
 ---
 title: Gestion des valeurs option manquantes
-description: Découvrez comment empêcher l’échec de la synchronisation complète en raison d’options différentes dans les champs mappés. Ces processus nécessitent l’aide d’un développeur.
+description: Découvrez comment empêcher l’échec de la synchronisation complète en raison d’options différentes dans les champs mappés. Ce processus nécessite l’aide d’un développeur.
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 1735b1e3d04b9b35653047b19587f84234389735
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 03/23/2022
+ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383388"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512505"
 ---
 # <a name="handling-missing-option-values"></a>Gestion des valeurs option manquantes
-
+> [!NOTE]
+> Dans la 1re vague de lancement 2022, vous pouvez créer vos propres mappages d’options. Pour plus d’informations, voir [Personnalisation des mappages d’options avec Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Les nouvelles fonctionnalités nécessitent que votre administrateur active la fonctionnalité **Mise à jour la fonctionnalité : Mapper aux jeux d’options dans Dataverse sans code** sur la page **Gestion des fonctionnalités**. Pour plus d’informations, voir [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Cette rubrique est destinée à un public technique. Les processus qu’elle décrit nécessitent l’aide d’un développeur.
 

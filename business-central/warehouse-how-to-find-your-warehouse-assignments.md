@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5b27848474f26f92b54169e1d60e8e786a6ab95f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: fbf2f125f7be6e5baa215092d70f1e13ce9e6b7d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382168"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513304"
 ---
 # <a name="find-your-warehouse-assignments"></a>Trouver vos affectations d’entrepôt
 
@@ -38,7 +38,7 @@ Vous pouvez utiliser le champ **Code utilisateur affecté** de l’en-tête pour
 [Configuration de Warehouse Management](warehouse-setup-warehouse.md) 
 [Gestion nomenclature d’assemblage](assembly-assemble-items.md)
 [Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

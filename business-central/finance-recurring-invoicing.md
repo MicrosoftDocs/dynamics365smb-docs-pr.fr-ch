@@ -11,12 +11,12 @@ ms.search.form: 283
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 96a4330b880ecfe760c146d4b7ae5778716725ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128806"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513928"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Utiliser des revenus récurrents dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -29,11 +29,11 @@ Une feuille récurrente est une feuille comptabilité contenant des champs spéc
 
 ### <a name="why-use-this-option"></a>Pourquoi utiliser cette option
 
-Avec cette option, vous définissez des périodes de facturation flexibles avec des [Formules de date](ui-enter-date-ranges.md#using-date-formulas).
+Avec cette option, vous définissez des périodes de facturation flexibles avec des [Formules de date](ui-enter-date-ranges.md#use-date-formulas).
 
 Cependant, avec cette option, vous ne pouvez pas imprimer ni envoyer de factures dans la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Pour plus d’informations, voir [Utilisation des feuilles récurrentes](ui-work-general-journals.md#working-with-recurring-journals).  
+Pour plus d’informations, voir [Utiliser des feuilles abonnement](ui-work-general-journals.md#work-with-recurring-journals).  
 
 ## <a name="create-multiple-invoices-based-on-a-recurring-job-journal"></a>Créer plusieurs factures à partir d’une feuille projet récurrente
 
@@ -111,8 +111,8 @@ Vous pouvez obtenir des extensions pour Business Central sur le site [AppSource.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Formules de date](ui-enter-date-ranges.md#using-date-formulas)  
-[Utilisation de feuilles abonnement](ui-work-general-journals.md#working-with-recurring-journals)  
+[Formules de date](ui-enter-date-ranges.md#use-date-formulas)  
+[Utiliser des feuilles abonnement](ui-work-general-journals.md#work-with-recurring-journals)  
 [Créer des lignes feuille projet](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
 [Créer plusieurs factures vente projet](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
 [Créer des lignes ventes et achat récurrentes](sales-how-work-standard-lines.md)  

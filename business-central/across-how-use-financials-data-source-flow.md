@@ -9,14 +9,14 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 07/27/2021
 ms.author: edupont
 author: jswymer
-ms.openlocfilehash: 7335092e74c0f681ba14a81a7045f2688fbb1df4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 62718df1c80cb419501b72bcbdb6d7a6f9f18402
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133371"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518482"
 ---
-# <a name="using-prod_short-in-an-automated-workflow"></a>Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans un flux automatisé
+# <a name="use-prod_short-in-an-automated-workflow"></a>Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] dans un flux automatisé
 
 Vous pouvez utiliser vos données [!INCLUDE[prod_short](includes/prod_short.md)] en tant que partie du flux de travail dans Microsoft Power Automate.
 
@@ -45,7 +45,7 @@ Vous pouvez utiliser vos données [!INCLUDE[prod_short](includes/prod_short.md)]
     - *Lorsque l’approbation d’un nom feuille comptabilité est exigée* 
     - *Lorsque l’approbation d’un client est exigée*
     - *Lorsque l’approbation d’un article est exigée*
-    - *Lorsque l'approbation d'un document achat est exigée*
+    - *Lorsque l’approbation d’un document achat est exigée*
     - *Lorsque l’approbation d’un document vente est exigée*
 
 8. Power Automate vous invite à sélectionner un environnement et une société dans votre abonné [!INCLUDE[prod_short](includes/prod_short.md)], plus les conditions que vous souhaitez surveiller dans vos données.
@@ -69,7 +69,7 @@ Vous pouvez utiliser vos données [!INCLUDE[prod_short](includes/prod_short.md)]
     - *Demander l’approbation pour les avoirs achat Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]*  
     - *Demander l’approbation pour les articles Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]*
     - *Demander l’approbation pour les fournisseurs Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]*
-    - *Demander l'approbation pour les noms feuille comptabilité Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]*  
+    - *Demander l’approbation pour les noms feuille comptabilité Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]*  
     - *Demander l’approbation pour les lignes feuille comptabilité Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]*
 12. Power Automate affiche la liste des services utilisés dans le modèle de flux et tente de se connecter automatiquement à ces services. Si vous ne vous êtes pas déjà connecté à un service, vous serez invité à vous connecter à chacun des services auxquels vous devez vous connecter. Une coche verte apparaît à côté de chaque service une fois la connexion établie. Sélectionnez **Continuer**.
 13. Power Automate vous invite à sélectionner un environnement et une société dans le cadre de votre abonnement [!INCLUDE[prod_short](includes/prod_short.md)]. Comme chaque étape du flux est indépendante de la suivante, vous devrez peut-être définir plusieurs fois l’environnement et la société lorsque vous utilisez un modèle [!INCLUDE[prod_short](includes/prod_short.md)] Power Automate.

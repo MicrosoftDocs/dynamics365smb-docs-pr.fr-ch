@@ -10,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f5edc0985c9397aa15bd01ec590d6e35324f5ace
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 019dce4811470ef4c0d75ee3f69732e7f9af27f1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129411"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519403"
 ---
 # <a name="closing-years-and-periods"></a>Clôture des exercices et des périodes
 
@@ -25,7 +25,7 @@ Le tableau suivant fournit un aperçu des tâches que vous devez généralement 
 
 | À | Voir |
 | --- | --- |
-| Définissez votre exercice comptable, et séparer-le en périodes dans lesquelles rapporter le résultat financier. | [Utilisation des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)|
+| Définissez votre exercice comptable, et séparer-le en périodes dans lesquelles rapporter le résultat financier. | [Utiliser des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)|
 | Spécifier des plages de date de validation à l’échelle du système et spécifiques à l’utilisateur. En fonction des besoins de votre activité, vous pouvez restreindre les plages de date validation utilisateur au début du traitement de clôture d’exercice ou après ce dernier. |[Définir des périodes de validation](finance-how-specify-posting-periods.md) |
 | Obtenir un aperçu des activités qui sont généralement effectuées à la fin d’une période, telles que la validation de tous les documents et toutes les feuilles, ou l’exécution de tableaux d’analyse. |[Clôture périodes](year-how-complete-period-end-processes.md) |
 | Mettre à jour les taux de change devise des écritures client, fournisseur et compte bancaire validées. |[Mettre à jour des taux de change devise](finance-how-update-currencies.md) |
@@ -40,7 +40,7 @@ Le tableau suivant fournit un aperçu des tâches que vous devez généralement 
 ## <a name="see-also"></a>Voir aussi
 
 [Utiliser des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

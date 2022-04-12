@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1a5647045e3b7aff1b709096b8b856485ce762e9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381738"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519136"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Dépannage et correction des axes analytiques
 
@@ -103,7 +103,7 @@ Si l’action Annuler n’est pas disponible, par exemple parce que vous avez ef
 
 Soyez prudent lorsque vous corrigez de grands ensembles d’entrées, par exemple, des ensembles comprenant plus de 10 000 entrées. Si vous le pouvez, nous vous recommandons d’utiliser les filtres pour exécuter les corrections sur des jeux de données plus petits. Il est également judicieux d’exécuter des corrections en dehors des heures normales de bureau. 
 
-### <a name="using-analysis-views-with-dimension-corrections"></a>Utilisation des vues d’analyse avec des corrections d’axes analytiques
+### <a name="use-analysis-views-with-dimension-corrections"></a>Utiliser des vues d’analyse avec des corrections d’axes analytiques
 
 Si **Mise à jour sur la publication** est activé pour une vue d’analyse, [!INCLUDE[prod_short](includes/prod_short.md)] peut afficher la vue lorsque les documents et les journaux sont publiés. Vous pouvez également mettre à jour les vues avec ce paramètre activé avec les résultats des corrections d’axes analytiques. Pour ce faire, activez le bouton de basculement **Mettre à jour les vues d’analyse**. La mise à jour des vues d’analyse peut avoir un impact sur les performances, en particulier pour les grands jeux de données, c’est pourquoi nous vous recommandons de mettre à jour les vues d’analyse uniquement pour les petits jeux de données.  
 
@@ -118,11 +118,11 @@ Si une correction ne se termine pas, un avertissement s’affiche sur la carte d
 > [!NOTE]
 > La réinitialisation d’une correction incomplète n’affectera pas les mises à jour des vues d’analyse, car celles-ci se produisent à la fin du processus de correction.
 
-### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Utilisation de la comptabilité analytique avec les écritures comptables corrigées
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Utiliser la comptabilité analytique avec les écritures comptables corrigées
 
 Une fois les axes analytiques corrigés, vos données pour la comptabilité analytique seront désynchronisées. La comptabilité analytique utilise des axes analytiques pour agréger les montants des centres de coûts et des coûts associés, et pour exécuter les répartitions de coûts. La modification des axes analytiques des écritures comptables signifiera probablement que vous réexécuterez vos modèles de comptabilité analytique. Que vous deviez simplement supprimer quelques registres de coûts et réexécuter les allocations, ou que vous deviez tout supprimer et réexécuter tous vos modèles, cela dépend des données qui ont été mises à jour et de la configuration de vos capacités de comptabilité analytique. Vous devez manuellement identifier où les corrections d’axes analytiques auront un impact sur la comptabilité analytique et où des mises à jour sont nécessaires. [!INCLUDE[prod_short](includes/prod_short.md)] ne propose pas actuellement de moyen automatisé de le faire.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation des axes analytiques](finance-dimensions.md)
+[Utiliser les axes analytiques](finance-dimensions.md)
 [Analyser les données par axe analytique](bi-how-analyze-data-dimension.md)  

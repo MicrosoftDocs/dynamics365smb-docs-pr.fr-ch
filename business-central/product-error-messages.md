@@ -5,12 +5,12 @@ author: edupont04
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 75ba3591c676089fd971886fa32284b5aec5715e
+ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137642"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8419327"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Avertissements et messages d’erreur dans Dynamics 365 Business Central
 
@@ -18,9 +18,9 @@ Pendant votre journée de travail, vous pouvez voir des notifications dans [!INC
 
 ## <a name="in-product-user-assistance"></a>Assistance utilisateur intégrée au produit
 
-La version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)] comprend des descriptions de la plupart des champs, colonnes et actions auxquels vous pouvez accéder lorsque vous cliquez sur le nom. En combinaison avec des conseils d'apprentissage pour les pages importantes, des légendes descriptives et des instructions, ces info-bulles ou légendes sont notre implémentation actuelle de l’*assistance utilisateur intégrée*, qui est un principe important dans le monde actuel de la conception de logiciels.  
+La version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)] comprend des descriptions de la plupart des champs, colonnes et actions auxquels vous pouvez accéder lorsque vous cliquez sur le nom. En combinaison avec des conseils d’apprentissage pour les pages importantes, des légendes descriptives et des instructions, ces info-bulles ou légendes sont notre implémentation actuelle de l’*assistance utilisateur intégrée*, qui est un principe important dans le monde actuel de la conception de logiciels.  
 
-Pour toute question concernant un champ ou un autre élément de l’interface utilisateur, cliquez sur le nom pour faire apparaître une brève description. Cliquez sur le lien *En savoir plus* si cela ne suffit pas.  
+Pour toute question concernant un champ ou un autre élément de l’interface utilisateur, cliquez sur le nom pour faire apparaître une brève description. Cliquez sur le lien *En savoir plus* si cela ne suffit pas. Vous pouvez également utiliser le volet Aide du produit pour trouver des réponses à vos questions.  
 
 Pour plus d’informations, voir [Modèle d’assistance utilisateur Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/user-assistance) dans le contenu d’administration de [!INCLUDE [prod_short](includes/prod_short.md)].  
 

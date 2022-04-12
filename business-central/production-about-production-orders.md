@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 568b8f119cf741a16b7d20560e541d7995b7834f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0ac99e89d271a7511b400cda3498c94384e5d397
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135070"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522787"
 ---
 # <a name="about-production-orders"></a>À propos des ordres de fabrication
 
@@ -184,9 +184,9 @@ Dans la feuille production, les quantités consommées sont validées comme écr
 [Production](production-manage-manufacturing.md)
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Planifié](production-planning.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6f4966a1132c4e389cb3b37f31d9dcc883d27b5
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384217"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511612"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Référence rapide de raccourcis clavier - PC uniquement
 
@@ -79,11 +79,18 @@ ms.locfileid: "8384217"
 |-|-|
 |Ctrl+Maj+Entrée|Accéder au champ suivant Saisie rapide en dehors d’une liste|
 |Entrée/Maj+Entrée|Accéder au champ Saisie rapide précédent/suivant|
+
 ##### <a name="report-preview"></a>Aperçu de l’état
 
 |Appuyez sur les touches suivantes|Pour|
 |-|-|
 |Ctrl+Accueil/Fin|Aller à la première/dernière page|
+
+#### <a name="numeric-keypad"></a>Clavier numérique
+
+|Appuyez sur les touches suivantes|Pour|  
+|-|-|
+|Alt+ Séparateur décimal|Basculer la sortie de la touche de séparateur décimal sur le pavé numérique|
 
 > [!TIP]
 > Pour une version graphique imprimable, sélectionnez l’image suivante et téléchargez le fichier PDF.

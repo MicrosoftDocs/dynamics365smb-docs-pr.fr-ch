@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b7d1bec4dbdcd608193bc01b94300794c1bdaef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bd96db9a832f0a53a50252fe60d0c66168a2b09d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134111"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522211"
 ---
 # <a name="processing-incoming-documents"></a>Traitement des documents entrants
 Pour enregistrer un document externe dans [!INCLUDE[prod_short](includes/prod_short.md)], vous devez d’abord créer ou terminer un enregistrement de document externe. Vous pouvez effectuer cette opération manuellement ou prendre une photo du document externe puis créer l’enregistrement document entrant avec le fichier image joint.
@@ -34,7 +34,7 @@ Pour enregistrer un document externe dans [!INCLUDE[prod_short](includes/prod_sh
 ## <a name="see-also"></a>Voir aussi
 [Documents entrants](across-income-documents.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 391, 30
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 25c0701151e3250adb62f781f83e8483178f73e5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 92c741441d5a807f1757a1962acf06ce71a7af30
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138299"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521561"
 ---
 # <a name="add-extended-text"></a>Ajouter du texte étendu
 
@@ -43,7 +43,7 @@ Vous pouvez maintenant ajouter ce texte étendu aux documents. La procédure sui
 ## <a name="see-also"></a>Voir aussi
 
 [Configuration de stock](inventory-setup-inventory.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

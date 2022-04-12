@@ -8,22 +8,23 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323047"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528563"
 ---
 # <a name="entering-data"></a>Saisie de données
 
-Plusieurs fonctions générales vous permettent de saisir vos données de manière plus facile, rapide et précise. Les principes de base et les fonctionnalités avancées de saisie de données sont décrites dans cet article.  
+Plusieurs fonctions générales vous permettent de saisir vos données de manière plus facile, rapide et précise. Cet article présente les principes de base et les fonctionnalités avancées de saisie de données.  
 
 Les exemples contenus dans cet article utilisent les données de démonstration.
 
-## <a name="working-with-editable-fields"></a>Utilisation des champs modifiables
+## <a name="work-with-editable-fields"></a>Utiliser des champs modifiables
+
 Les champs dans [!INCLUDE[prod_short](includes/prod_short.md)] peuvent contenir différentes données modifiables, telles que des montants de texte ou de devise. Les champs modifiables affichent généralement une zone de saisie dans laquelle vous pouvez taper ou choisir une valeur. Les champs non modifiables sont généralement affichés sur fond gris.   
 
 Certains champs modifiables fournissent un sélecteur pour vous aider à spécifier une valeur.  
@@ -57,6 +58,8 @@ Lorsque le curseur apparaît à la fin de la valeur du champ :
 
 > [!NOTE]
 > Après avoir spécifié une valeur, Business Central vérifie uniquement sa validité après avoir cliqué en dehors du champ ou défini le focus sur un autre article, tel que le champ suivant.  
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
 ## <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -108,9 +111,9 @@ Même si un champ est obligatoire, vous n’êtes pas forcé de remplir le champ
 
  De nombreux champs ont un bouton de Flèche vers le bas que vous pouvez choisir. sélectionnez la flèche pour obtenir la liste des données disponibles pour le champ. Selon le type de champ, le bouton peut être associé à l’une deux fonctions suivantes :  
 
--   Liste - Affiche les informations d’une autre table que vous pouvez entrer dans le champ. Vous pouvez sélectionner un élément à la fois.  
+- Liste - Affiche les informations d’une autre table que vous pouvez entrer dans le champ. Vous pouvez sélectionner un élément à la fois.  
 
--   Consulter - Affiche les options qui existent pour le champ. Vous ne pouvez sélectionner qu’une des options.  
+- Consulter - Affiche les options qui existent pour le champ. Vous ne pouvez sélectionner qu’une des options.  
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>FAQ Copier et coller des champs et des lignes
 
@@ -160,7 +163,7 @@ Pour ouvrir la carte ou le document actuel dans une nouvelle fenêtre, choisisse
 > Si vous travaillez dans le navigateur Safari, un bloqueur de fenêtres publicitaires intempestives peut empêcher la nouvelle fenêtre de s’ouvrir. Si tel est le cas, spécifiez l’URL du produit en tant que site Web autorisé. Pour plus d’informations, voir [Modifier les préférences dans Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > La même chose peut se produire dans d’autres navigateurs, tels que Firefox. Pour plus d’informations, voir [Paramètres du bloqueur de fenêtres publicitaires intempestives dans Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Une autre façon d’effectuer plusieurs tâches simultanément consiste à ouvrir [!INCLUDE[prod_short](includes/prod_short.md)] sur deux ou plusieurs onglets du navigateur. Pour ce faire, vous devez créer un onglet, puis copier/coller l’URL de l’onglet initial dans le nouvel onglet. Cela crée une session.   
+Une autre façon d’effectuer plusieurs tâches simultanément consiste à ouvrir [!INCLUDE[prod_short](includes/prod_short.md)] sur deux onglets du navigateur ou plus. Pour ce faire, vous devez créer un onglet, puis copier/coller l’URL de l’onglet initial dans le nouvel onglet. Cela crée une session.   
 
 > [!NOTE]
 > N’utilisez pas la fonction **Dupliquer** du navigateur pour créer l’onglet : cela peut entraîner des actions sur un onglet pour bloquer des actions sur d’autres onglets, car elles font partie de la même session.
@@ -171,26 +174,26 @@ Lors de la saisie de nombres dans les champs de quantité, tels que le champ **Q
 
 ### <a name="examples"></a>Exemples  
 
--   Si vous entrez 19+19, le champ est renseigné à l’aide du nombre 38.  
+- Si vous entrez 19+19, le champ est renseigné à l’aide du nombre 38.  
 
--   Si vous entrez 41-9, le champ est renseigné à l’aide du nombre 32.  
+- Si vous entrez 41-9, le champ est renseigné à l’aide du nombre 32.  
 
--   Si vous entrez 12*4, le champ est renseigné à l’aide du nombre 48.  
+- Si vous entrez 12*4, le champ est renseigné à l’aide du nombre 48.  
 
--   Si vous entrez 12/4, le champ est renseigné à l’aide du nombre 3.  
+- Si vous entrez 12/4, le champ est renseigné à l’aide du nombre 3.  
 
 ## <a name="entering-negative-numbers"></a>Saisie de chiffres négatifs
 
 Vous pouvez saisir des chiffres négatifs de deux manières. Le numéro -20,5 peut être saisi de la manière suivante :  
 
--   -20,5  
+- -20,5  
 
-    Ou
--   20,5-  
+  Ou
+- 20,5-  
 
- Dans les deux cas, le montant est enregistré comme -20,5.  
+Dans les deux cas, le montant est enregistré comme -20,5.  
 
- Si le dernier caractère de l’expression est **+** ou **-**, l’expression entière est enregistrée avec ce caractère. Par exemple, **10-20+** aboutira à 10 et non -10.  
+Si le dernier caractère de l’expression est **+** ou **-**, l’expression entière est enregistrée avec ce caractère. Par exemple, **10-20+** aboutira à 10 et non -10.  
 
 ## <a name="entering-dates-and-times"></a>Saisie de dates et d’heures
 
@@ -201,15 +204,18 @@ Vous pouvez entrer des dates et des heures dans tous les champs affectés à des
 
 ### <a name="entering-dates"></a>Saisie de dates
 
-Vous pouvez utiliser le sélecteur de date pour choisir une date depuis un calendrier, ou vous pouvez saisir les dates manuellement. Cette section offre un bref aperçu de la manière de saisir les dates. Pour plus d’informations, reportez-vous à la rubrique [Utilisation de dates civiles et les heures](ui-enter-date-ranges.md).
+Vous pouvez utiliser le sélecteur de date pour choisir une date depuis un calendrier, ou vous pouvez saisir les dates manuellement. Cette section offre un bref aperçu de la manière de saisir les dates. Pour plus d’informations, voir [Utiliser les dates civiles et les heures](ui-enter-date-ranges.md).
 
 Pour la saisie manuelle de la date, saisissez deux, quatre, six ou huit chiffres :  
 
--   Deux chiffres sont interprétés comme le jour. Il ajoutera le mois et l’année de la date de travail.  
+- Deux chiffres sont interprétés comme le jour. Il ajoutera le mois et l’année de la date de travail.  
 
--   Quatre chiffres sont interprétés comme le jour et le mois. Il ajoutera l’année de la date de travail.  
+- Quatre chiffres sont interprétés comme le jour et le mois. Il ajoutera l’année de la date de travail.  
 
--   Si la date souhaitée se situe entre le 01/01/1930 et le 31/12/2029, entrez l’année à deux chiffres. Sinon, entrez l’année à quatre chiffres.  
+- Si la date souhaitée se situe entre le 01/01/1950 et le 31/12/2049, entrez l’année à deux chiffres. Sinon, entrez l’année à quatre chiffres.
+
+  > [!NOTE]
+  > Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, la plage d’années à deux chiffres peut être différente. Les administrateurs peuvent modifier la plage en modifiant le paramètre **CalendarTwoDigitYearMax** du serveur [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, reportez-vous à la rubrique [Configuration de Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
 
 Vous pouvez également saisir une date comme un jour de la semaine suivi d’un numéro de semaine. Ou, vous pouvez entrer une année. Par exemple, Lun25 ou lun25 signifie le lundi de la semaine 25.  
 
@@ -267,14 +273,17 @@ Voilà quelques exemples.
 
 ## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Définition du séparateur décimal utilisé par les claviers numériques
 
-Lorsque vous utilisez la touche du séparateur décimal du clavier numérique pour saisir des données, le séparateur décimal réel entré dans le champ est déterminé par le paramètre régional de votre Business Central. Vous définissez la région de Business Central sur la page **Mes paramètres**.
+Lorsque vous utilisez la touche du séparateur décimal du clavier numérique pour saisir des données, le séparateur décimal réel entré dans le champ est déterminé par votre paramètre régional dans Business Central. La plupart des régions utilisent le symbole point (.) ou virgule (,) comme séparateur pour les valeurs décimales, comme dans les montants en devise généralement. La touche décimale de votre clavier s’adapte à votre région. Elle diffère souvent des touches point ou virgule du reste de votre clavier. Vous devez définir la région de Business Central sur la page **Mes paramètres**.
 
-Par exemple, supposons que vous utilisez un clavier numérique qui utilise un point (.) comme touche de séparateur décimal. Cependant, vous entrez des données pour une langue régionale qui utilise une virgule (**,**) comme séparateur décimal, comme le danois (Danemark) ou le français (France). Donc, vous voulez que les décimales telles que « 1.23 » soient saisies comme « 1,23 ». Dans ce cas, vous pouvez vous rendre sur la page **Mes paramètres** et définir la **Région** sur la langue régionale cible, telles que le **Danois (Danemark)** ou le **Français (france)**. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md#region).
+Par exemple, supposons que vous utilisez un clavier numérique qui utilise un point (.) comme touche de séparateur décimal. Cependant, vous entrez des données pour une langue régionale qui utilise une virgule (**,**) comme séparateur décimal, comme le français (France). Donc, vous voulez que les décimales telles que « 1.23 » soient saisies comme « 1,23 ». Dans ce cas, vous pouvez vous rendre sur la page **Mes paramètres** et définir la **Région** sur la langue régionale cible **Français (France)**. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md#region).
+
+> [!TIP]
+> Il peut arriver que vous souhaitiez utiliser le séparateur décimal pour entrer un point (.). Par exemple, supposons que vous saisissiez une plage de dates dans un filtre, comme `01/01/2022..04/01/2022`, ou tout ce qui nécessite un point. Pour cela, appuyez sur les touches « Alt+Séparateur décimal » du pavé numérique. Cette combinaison de touches fait basculer le séparateur décimal entre la sortie d’un point et le séparateur décimal tel que déterminé par le paramètre **Région**.
 
 ## <a name="see-also"></a>Voir aussi
 
 [Tri, recherche et filtrage de listes](ui-enter-criteria-filters.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

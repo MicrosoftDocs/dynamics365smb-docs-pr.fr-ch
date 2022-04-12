@@ -6,17 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 48efb839720832ffdcfdb390aed64108c032704b
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 0f5910932e0a6bccaf31629fc182e5c451ec9f43
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323073"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516525"
 ---
-# <a name="working-with-prod_short"></a>Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-prod_short"></a>Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Dans le cadre de l’exécution des tâches, vous interagissez avec des données de différentes manières : création d’enregistrements et saisie de données, tri et filtrage de données, rédaction de procédures et sortie de données vers d’autres applications.
 
@@ -43,7 +43,7 @@ Le tableau suivant répertorie certaines des fonctionnalités générales et inc
 | Filtrer les données dans des vues, des états, ou des fonctions en utilisant des symboles et des caractères spéciaux. |[Tri, recherche et filtrage de listes](ui-enter-criteria-filters.md) |
 |Découvrez les nombreuses fonctionnalités générales qui vous permettent d’entrer des données de façon rapide et simple.|[Saisie de données](ui-enter-data.md)|
 |Découvrez comment rapidement copier et coller des données y compris à l’aide des raccourcis clavier.|[FAQ sur l’opération Copier et coller](faq-copy-paste.yml)|
-| Visualiser ou traiter les données dans des plages de dates spécifiques. |[Utilisation de dates civiles et les heures](ui-enter-date-ranges.md) |
+| Visualiser ou traiter les données dans des plages de dates spécifiques. |[Utiliser les dates civiles et les heures](ui-enter-date-ranges.md) |
 | Vérifier quels champs doivent être renseignés. |[Détection de champs obligatoires](ui-mandatory-fields.md) |
 |Découvrez comment les paramètres régionaux d’ordinateur affectent l’interface utilisateur et le site d’Aide et comment modifier la langue.|[Modification de la langue et des paramètres régionaux](about-locale-language.md)|
 |Découvrez comment interagir avec Excel pratiquement de n’importe où dans [!INCLUDE[prod_short](includes/prod_short.md)]|[Affichage et édition dans Excel](across-work-with-excel.md)|
@@ -51,7 +51,7 @@ Le tableau suivant répertorie certaines des fonctionnalités générales et inc
 | Modifier les paramètres de base tels que la société, la date de travail et le tableau de bord. |[Modifier les paramètres de base](ui-change-basic-settings.md) |
 |Soyez informé de certains événements ou modifications de statut, par exemple si vous êtes sur le point de facturer un client qui a un solde échu.|[Gérer les notifications](ui-smart-notifications.md)|
 | Changez quels éléments d’interface utilisateur et où ils s’affichent pour s’adapter à vos préférences.|[Personnaliser votre espace de travail](ui-personalization-user.md) |
-|Définissez, obtenez un aperçu, imprimez, ou enregistrez les états et définissez et exécutez des traitements par lots.|[Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)|
+|Définissez, obtenez un aperçu, imprimez, ou enregistrez les états et définissez et exécutez des traitements par lots.|[Utiliser des états, des traitements par lots et des XMLports](ui-work-report.md)|
 | Gérez le contenu et le format des états et des documents, dont les champs de données d’un ensemble de données de rapport apparaissant sur le rapport et la façon ils sont organisés, le style de texte, les images, et plus encore.|[Gestion des présentations de rapport et de document](ui-manage-report-layouts.md) |
 |En savoir plus sur les fonctions et les capacités qui permettent aux personnes handicapées accéder facilement à [!INCLUDE[prod_short](includes/prod_short.md)].|[Accessibilité et raccourcis clavier](ui-accessibility.md)|
 

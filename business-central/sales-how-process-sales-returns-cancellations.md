@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.search.form: 44, 134, 143, 9302, 9304, 6662
+ms.search.form: 44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
 ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: cf613ce6898165bca4a881a045ed4b86ef327f35
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: ad8dbaae34876678c199501648cf9d5e10a90ed0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367003"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522605"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Traiter les retours ou annulations de ventes
 
@@ -155,7 +155,7 @@ Pour plus d’informations, voir [Détails de conception : Évaluation stock](d
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Traiter les retours ou annulations d’achats](purchasing-how-process-purchase-returns-cancellations.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

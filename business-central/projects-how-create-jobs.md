@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ebfbdf04b577f60e20da899e0ba3512571ed5189
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 70bfd81f6fd331018fe6cafd6793ae1f1501f159
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140776"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519637"
 ---
 # <a name="create-jobs"></a>Créer des projets
 Lorsque vous démarrez un nouveau projet, vous devez créer une fiche projet avec des tâches intégrées et des lignes planning structurées en deux couches.  
@@ -26,6 +26,8 @@ La structure de couche permet de séparer le projet en tâches plus petites et a
 
 > [!TIP]
 > Choisissez l’action **Nouveau projet** du tableau de bord **Chef de projet** pour lancer un guide de configuration assistée qui vous dirige à travers les étapes de création d’un projet avec des tâches intégrées et des lignes planning. La procédure suivante décrit comment exécuter les étapes manuellement. Pour obtenir un exemple de la procédure pour créer manuellement un projet, reportez-vous à la rubrique [Vidéo : Créer un projet dans Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
+
+Parfois, la partie qui reçoit un service est différente de celle qui paie la facture. Sur la page **Projets**, vous pouvez spécifier le client qui bénéficiera du projet dans les champs **Donneur d’ordre** et la partie à facturer dans champs **Facturation**. Vous pouvez aussi spécifier l’emplacement où le travail aura lieu en sélectionnant dans une liste d’adresses de livraison pour le client, ajouter des informations sur les références externes pour simplifier la communication sur le projet et remplacer les conditions financières standard du projet spécifique.
 
 ## <a name="to-create-a-job-card"></a>Pour créer une fiche projet
 Vous devez créer une fiche projet, puis créez des Lignes tâche projet et des lignes planning projet pour ce projet.
@@ -73,7 +75,7 @@ Une ligne planning projet peut avoir l’un des types suivants :
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

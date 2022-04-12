@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8961e3a29664932d67c8670e1b2d42ecbee228c0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 521cf2700c16bab71d13ea1282fbf4b09164b004
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145024"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513980"
 ---
 # <a name="about-inventory-costing"></a>À propos de l’évaluation des coûts de stock
 La gestion des coûts ajustés fait référence à l’enregistrement et la déclaration des coûts d’exploitation de l’entreprise. Cette activité inclut la déclaration des coûts de fabrication et de stock qui constituent la valeur des articles.  
@@ -35,11 +35,11 @@ La gestion des coûts ajustés fait référence à l’enregistrement et la déc
 |Comprendre la manière donc la valeur du stock est reflétée dans la comptabilité.|[Rapprocher l’évaluation stock avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Apprendre la manière dont les frais annexes, tels que les frais de transport ou d’assurance, peuvent affecter des composantes supplémentaires au coût unitaire d’un article.|[Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md)|  
 |Obtenir des informations sur la manière dont les périodes inventaire permettent à une société de contrôler la valeur du stock dans le temps en définissant des périodes plus courtes qui peuvent être fermées à la validation lorsque la fin de l’exercice comptable approche.|[Utiliser les périodes inventaire](finance-how-to-work-with-inventory-periods.md)|  
-|Comprendre tous les mécanismes du moteur d’évaluation, notamment ce qui se produit lorsque vous validez des transactions d’assemblage et de production.|[Détails de conception : évaluation stock](design-details-inventory-costing.md)|  
+|Comprendre tous les mécanismes du moteur d’évaluation, notamment ce qui se produit lorsque vous validez des transactions d’assemblage et de production.|[Détails de conception : Évaluation stock](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)    
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

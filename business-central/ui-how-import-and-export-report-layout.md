@@ -9,14 +9,17 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 03d92e13adc9208ec98eda57cfc1d6b6e93ab028
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f8f0af4e34f57ebe64f454901e7f9e237fe7018c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148319"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512773"
 ---
-# <a name="import-and-export-custom-report-layouts"></a>Importer et exporter des présentations de rapport personnalisées
+# <a name="legacy-import-and-export-custom-report-layouts"></a>(Hérité) Importer et exporter des présentations de rapport personnalisées
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
+
 Vous pouvez importer et exporter une présentation de rapport personnalisée existante sous forme de fichier depuis ou vers un emplacement sur votre ordinateur et le réseau. Par exemple, vous pouvez exporter une présentation de rapport, puis envoyer le fichier à une autre personne pour modification. Cette personne peut ensuite apporter des modifications à la présentation et vous renvoyer le fichier pour que vous puissiez le réimporter.  
 
 > [!IMPORTANT]  
@@ -54,7 +57,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
 [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md)   
 [Gestion des présentations d’état et de document](ui-manage-report-layouts.md)  
-[Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)    
+[Utiliser des états, des traitements par lots et des XMLports](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

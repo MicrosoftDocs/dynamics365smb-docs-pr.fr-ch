@@ -10,12 +10,12 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605
 ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9dfe0ae8f0688f6494196f52cd5c4d57adf836e2
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 356a484df2445dac39c02b9341cb9a0660a07467
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367139"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511664"
 ---
 # <a name="managing-intercompany-transactions"></a>Gestion des transactions intersociétés
 
@@ -75,8 +75,8 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
-[Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

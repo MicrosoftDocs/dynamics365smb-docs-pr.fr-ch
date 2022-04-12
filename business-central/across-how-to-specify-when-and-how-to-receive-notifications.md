@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 261e2908f7f7ed3a47a337b2c3f49d7c633f1cce
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129191"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522367"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Spécifier quand et comment recevoir des notifications de workflow
 Lorsque vous configurez des utilisateurs d’approbation dans des workflows où vous souhaitez que quelqu’un approuve les modifications, par exemple lorsque des enregistrements sont créés ou lorsque quelqu’un demande une approbation, vous devez spécifier comment et quand l’utilisateur d’approbation sera averti. Par exemple, vous pouvez spécifier qu’un utilisateur d’approbation recevra immédiatement un e-mail lorsque quelqu’un créera un client. Sinon, vous pouvez programmer les notifications à envoyer, par exemple, sur une base hebdomadaire ou mensuelle.
@@ -73,7 +73,7 @@ Pour un grand nombre d’étapes d’approbation du workflow, il s’agit de not
  [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)   
  [Configuration de notifications de workflow](across-setting-up-workflow-notifications.md)   
  [Paramétrage des workflows](across-set-up-workflows.md)   
- [Utilisation des workflows](across-use-workflows.md)
+ [Utiliser des workflows](across-use-workflows.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

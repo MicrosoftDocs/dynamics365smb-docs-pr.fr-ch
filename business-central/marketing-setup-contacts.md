@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad7cb81559b27ffe1bb715cac30a4286d77f47da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137850"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516124"
 ---
 # <a name="set-up-contacts"></a>Configurer les contacts
 Lors de la création de contacts, vous pouvez saisir des informations spécifiques, telles que le secteur d’activité du contact et votre relation d’affaires avec elles.
@@ -140,7 +140,7 @@ Lorsque vous modifiez l’un des champs dans la fiche société contact, les mê
 
 Pour plus d’informations, reportez-vous à [Créer des contacts](marketing-create-contact-companies.md).
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Utilisation de paramètres par défaut prédéfinis sur les nouveaux contacts
+## <a name="use-predefined-defaults-on-new-contacts"></a>Utiliser des paramètres par défaut prédéfinis sur les nouveaux contacts
 Vous pouvez configurer l’application pour qu’elle affecte automatiquement des codes langue, secteur, vendeur et pays/région par défaut à chaque nouveau contact. Vous pouvez également entrer un code cycle de vente par défaut que l’application affecte automatiquement à chaque nouvelle opportunité. Vous définissez cela à partir de l’organisateur **Valeurs par défaut** sur la page **Paramètres marketing**
 
 Les valeurs héritées des champs sont prioritaires sur les valeurs par défaut que vous avez définies. Par exemple, si vous avez choisi le français comme langue par défaut alors que la langue de la société contact est l’allemand, l’application affecte automatiquement le code langue de l’allemand aux personnes contact enregistrées pour cette société.
@@ -157,9 +157,9 @@ Une fois que vous avez trouvé un doublon de contact, vous pouvez utiliser la pa
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  
-[Créez des contacts](marketing-create-contact-companies.md)  
+[Créer des contacts](marketing-create-contact-companies.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

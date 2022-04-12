@@ -1,6 +1,6 @@
 ---
 title: Créer emplacements
-description: Générez des groupes d’emplacements similaires dans la feuille de calcul prévue à cet effet, créez des emplacements individuellement sur la carte de localisation ou automatiquement sur la feuille de calcul de création des emplacements.
+description: Générez des groupes d’emplacements similaires dans la feuille de calcul prévue à cet effet, créez des emplacements individuellement sur la fiche magasin ou automatiquement sur la feuille de calcul de création des emplacements.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ffd6bd12a1655cc330370df2c9d2c64a2d89e0af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4e41f61156dbc7248cc9cb1a99ca2b5c790ee036
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144400"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518616"
 ---
 # <a name="create-bins"></a>Créer emplacements
 
@@ -82,8 +82,8 @@ Répétez l’opération pour un autre ensemble d’emplacements jusqu’à ce q
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
-[Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

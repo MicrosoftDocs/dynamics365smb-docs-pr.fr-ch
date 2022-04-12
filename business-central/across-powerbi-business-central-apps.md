@@ -1,6 +1,6 @@
 ---
 title: Utilisation des applications Business Central dans Power BI| Microsoft Docs
-description: Il est facile d’obtenir des informations exploitables, de la veille économique et des KPI de vos applications Business Central pour Power BI.
+description: Il est facile d’obtenir des informations exploitables, de la veille économique et des KPI de vos applications Business Central pour Power BI.
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd29453c816eabd8e9475ac7e818c120bd589f3b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134163"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519200"
 ---
-# <a name="using-the-prod_short-apps-in-power-bi"></a>Utilisation des applications [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI
+# <a name="use-the-prod_short-apps-in-power-bi"></a>Utiliser les applications [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI
 
 > **S’APPLIQUE À :** [!INCLUDE [prod_long](includes/prod_long.md)] en ligne 
 
@@ -156,7 +156,7 @@ L’application Power BI affichera uniquement les données de la société [!INC
 
 [Business Central et Power BI](admin-powerbi.md)  
 [Vue d’ensemble Architecture et composant d’intégration Power BI pour [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Utilisation avec les données [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI](across-working-with-business-central-in-powerbi.md)  
+[Utiliser des données [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI](across-working-with-business-central-in-powerbi.md)  
 [Création d’états Power BI pour afficher les données [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md)  
 [Power BI pour les consommateurs](/power-bi/consumer/end-user-consumer)  
 [Le « nouveau look » du service Power BI](/power-bi/service-new-look)  
@@ -166,9 +166,9 @@ L’application Power BI affichera uniquement les données de la société [!INC
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans Power Automate](across-how-use-financials-data-source-flow.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] dans Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

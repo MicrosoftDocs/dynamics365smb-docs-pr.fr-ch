@@ -10,12 +10,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a9f83f30a28011ea4722b529609bb9daa5e1a479
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 85445267dac39103ed9851604182f09cc9819ea0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383794"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522683"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Enregistrer les prix d’achat spéciaux et les remises
 > [!NOTE]
@@ -143,7 +143,7 @@ Si aucun prix spécial ne peut être calculé pour l’article de la ligne, alor
 ## <a name="see-also"></a>Voir aussi
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

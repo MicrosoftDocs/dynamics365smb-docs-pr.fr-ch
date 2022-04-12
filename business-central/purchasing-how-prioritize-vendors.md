@@ -10,12 +10,12 @@ ms.search.keywords: supplier, payment priority
 ms.search.form: 26, 27
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 41977fdf7d90082094e3cc9ff025a56b878a6b2c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 411163798b5af49a154e19243e556c010bffd5ee
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131238"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513798"
 ---
 # <a name="prioritize-vendors"></a>Octroyer une priorité aux fournisseurs
 [!INCLUDE[prod_short](includes/prod_short.md)] peut proposer différents paiements aux fournisseurs, par exemple les paiements arrivant à échéance ou les paiements donnant lieu à un escompte. Pour plus d’informations, reportez vous à [Proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md).
@@ -36,7 +36,7 @@ Si vous ne souhaitez pas attribuer de priorité à un fournisseur, laissez le ch
 ## <a name="see-also"></a>Voir aussi
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

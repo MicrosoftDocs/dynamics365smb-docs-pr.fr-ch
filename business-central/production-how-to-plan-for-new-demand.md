@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5522, 5524, 5526
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 8d26c606782193ee9017b4f57577d3e6cdf79cab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e95bc34c56364ebb12c63c250339f1de868b8a32
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148397"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516785"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planifier de nouvelles demandes commande par commande
 
@@ -124,7 +124,7 @@ Une fois que la planification est terminée sur la page **Planning commande** et
 [Achats](purchasing-manage-purchasing.md)  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)  
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

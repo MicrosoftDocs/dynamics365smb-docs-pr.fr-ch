@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 841e964408750ec60e406262cacd53c2320d3d8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c8f75b9f2d5be0a7916996362518bb5d49762484
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381703"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512064"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Recherche de pages et d’informations avec Tell Me  
 Cette rubrique décrit comment la fonction Tell me peut vous aider à accéder rapidement aux actions, pages ou états, à trouver des informations concernant la manière d’exécuter une tâche particulière et à découvrir des applications supplémentaires et des services de conseil pour [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -66,7 +66,7 @@ Nous avons présenté Tell Me à différents acteurs impliqués, noté les quest
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de Business Central](ui-work-product.md)  
+[Utiliser Business Central](ui-work-product.md)  
 [Ajouter une action de page à votre Tableau de bord](ui-bookmarks.md)
 
 

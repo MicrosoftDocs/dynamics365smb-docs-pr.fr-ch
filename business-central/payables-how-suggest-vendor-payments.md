@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 439db2ccacf165d27db44e4c786e71a4372171f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ab9844f52f74e79283daafbe02f8cc2139c3ac9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137798"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522813"
 ---
 # <a name="suggest-vendor-payments"></a>Proposer paiements fournisseur
 
@@ -54,8 +54,8 @@ Vous pouvez aussi créer manuellement des lignes de paiement à l’aide de la d
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Effectuer des paiements](payables-make-payments.md)  
-[Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

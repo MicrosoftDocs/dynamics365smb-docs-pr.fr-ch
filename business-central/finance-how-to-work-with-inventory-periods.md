@@ -10,12 +10,12 @@ ms.search.keywords: inventory, periods
 ms.search.form: 5828
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9812d6f5b58839d1374f443497553734b46865e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 69100f2194e9218e48bb5d4330b8b07ee0962826
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136051"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522185"
 ---
 # <a name="work-with-inventory-periods"></a>Utiliser les périodes inventaire
 
@@ -72,7 +72,7 @@ Une fois la période inventaire clôturée, vous ne pouvez plus la supprimer. En
 [Détails de conception : périodes inventaire](design-details-inventory-periods.md)  
 [Finances](finance.md)  
 [Stock](inventory-manage-inventory.md)  
-[Utilisation de Financials](ui-work-product.md)
+[Utiliser Financials](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

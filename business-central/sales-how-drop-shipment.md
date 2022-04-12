@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3fe45eb6403798a7e64b9604321440a2fff38c3f
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.openlocfilehash: 0ca22eaadb8ba4054ce22782881b487cab6bd5c4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372091"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521795"
 ---
 # <a name="make-drop-shipments"></a>Effectuer des livraisons directes
 
@@ -79,7 +79,7 @@ Lorsque le fournisseur a expédié les articles, vous pouvez valider la commande
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
 [Ventes](sales-manage-sales.md)  
 [Stock](inventory-manage-inventory.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

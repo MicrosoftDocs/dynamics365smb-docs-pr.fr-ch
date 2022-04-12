@@ -10,12 +10,12 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2939b3b8545c1f0679052b51d76f596aae14cfc6
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: f466a12898422fb7c936972f0874d38ab2a6ab4b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322944"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515968"
 ---
 # <a name="change-basic-settings"></a>Modifier les paramètres de base
 
@@ -109,7 +109,7 @@ Sélectionnez le lien *Modifier quand je reçois une notification* pour afficher
 ## <a name="see-also"></a>Voir aussi
 
 [Création de sociétés](about-new-company.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

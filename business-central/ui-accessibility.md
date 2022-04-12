@@ -10,12 +10,12 @@ ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: jswymer
-ms.openlocfilehash: 6389387e2b2e9dcaa2d709e7e376f38a3dd8e1a9
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 9361f3b5c425374b40f3ca3f8a8401822c277048
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334580"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513642"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Accessibilité et raccourcis clavier
 
@@ -84,7 +84,7 @@ Vous trouverez des informations supplémentaires sur l’accessibilité des prod
 ## <a name="see-also"></a>Voir aussi
 
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Forum Aux Questions](across-faq.yml)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

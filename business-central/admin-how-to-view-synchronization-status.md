@@ -10,12 +10,12 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6112b025c08468a3e0f5bdfbb9147b2fbdaf6744
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c98cadba0a9bdf21a89a6c50dd61d805f0547685
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383520"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521269"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Afficher le statut des projets de synchronisation
 
@@ -59,7 +59,7 @@ Si une entité avec un couplage unidirectionnel est supprimée dans [!INCLUDE[pr
 
 ## <a name="see-also"></a>Voir aussi  
 [Configuration des comptes d’utilisateur pour l’intégration à Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Utilisation de Dynamics 365 Sales depuis Business Central](marketing-integrate-dynamicscrm.md)
+[Utiliser Dynamics 365 Sales depuis Business Central](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

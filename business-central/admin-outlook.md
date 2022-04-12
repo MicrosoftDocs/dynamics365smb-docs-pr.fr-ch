@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 007d23bcb1d257402e33689ebe3ac57db10b84c2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323229"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518352"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Obtenir le complément Business Central pour Outlook
 
@@ -39,7 +39,7 @@ Le complément Business Central pour Outlook se compose de deux compléments plu
 
     Lorsqu’un e-mail fait référence à un numéro de document commercial dans le corps de l’e-mail, ce complément fournit un lien direct, en ligne, entre le corps de l’e-mail et le document commercial réel dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Pour plus d’informations sur les possibilités des compléments, consultez [Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](work-outlook-addin.md).
+Pour plus d’informations sur les possibilités des compléments, voir [Utiliser Business Central en tant que boîte de réception professionnelle dans Outlook](work-outlook-addin.md).
 
 Chaque complément est fourni sous forme de fichier XML, appelé *manifeste*, qui doit être installé dans Outlook pour toute personne souhaitant cette fonctionnalité. Ces fichiers décrivent comment activer les compléments et se connecter à Business Central lorsqu’ils sont utilisés dans Outlook. Ces fichiers sont généralement utilisés par un administrateur. En tant qu’utilisateur normal, dans la plupart des cas, vous n’aurez pas à gérer directement ces fichiers. Soit votre administrateur configurera le complément pour qu’il s’installe automatiquement pour vous, soit vous utiliserez la configuration assistée intégrée pour gérer l’installation.
 
@@ -84,7 +84,7 @@ Le déploiement centralisé est une fonctionnalité du centre d’administration
 > [!IMPORTANT]
 > Une coche verte apparaît lorsque le complément est déployé dans le centre d’administration. Cependant, il peut falloir jusqu’à 24 heures avant que les utilisateurs voient le complément dans l’application Outlook. Les utilisateurs devront peut-être également redémarrer Outlook.
 
-Une fois terminé, vous pouvez toujours modifier le déploiement dans le centre d’administration Microsoft 365, par exemple en affectant plus d’utilisateurs. Pour plus d’informations sur le déploiement de compléments dans le centre d’administration, consultez [Déployer des compléments dans le centre d’administration](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Une fois terminé, vous pouvez toujours modifier le déploiement dans le centre d’administration Microsoft 365, par exemple en affectant plus d’utilisateurs. Pour plus d’informations sur le déploiement de compléments dans le centre d’administration, voir [Déployer des compléments dans le centre d’administration](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installer le complément pour votre propre usage
 
@@ -130,7 +130,7 @@ Vous êtes maintenant prêt à commencer à utiliser le complément dans Outlook
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Configuration minimale requise pour Outlook](product-requirements.md#outlook)  
-[Utilisation des compléments dans Outlook sur le Web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Utiliser des compléments dans Outlook sur le Web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

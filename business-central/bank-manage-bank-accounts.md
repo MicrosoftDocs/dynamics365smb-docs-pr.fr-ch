@@ -10,12 +10,12 @@ ms.search.keywords: reconcile
 ms.search.form: 377, 378, 165, 1284
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: a533a49e3a34d33242d556758ebe5cb68165c0bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2903e6d8564a48464c1ae5ce493270f3b46781a1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139978"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516384"
 ---
 # <a name="manage-and-reconcile-your-bank-accounts"></a>Gérer et rapprocher vos comptes bancaires
 
@@ -48,7 +48,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Transfert de fonds à la banque](bank-how-transfer-bank-funds.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
 
 

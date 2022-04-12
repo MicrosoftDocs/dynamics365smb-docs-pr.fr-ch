@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d27ad94c21325808d92b8f71e97a5bb8a484ded5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f03e67b0205af92fcdbb731a74ffe7f4507c39d3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142616"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511274"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Affichage et édition dans Excel depuis Business Central
 
@@ -80,7 +80,7 @@ Si, pour une raison quelconque, le complément ne s’installe pas, contactez vo
 ## <a name="see-also"></a>Voir aussi
 
 [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  
-[Utilisation de Business Central](ui-work-product.md)  
+[Utiliser Business Central](ui-work-product.md)  
 [Améliorations de l’intégration d’Excel dans la deuxième vague de publication 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
 
 

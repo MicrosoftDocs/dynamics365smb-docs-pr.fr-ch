@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0220502f0c338ead004f5ed7ce704508a780a9f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a611abd26fd643e75d01aeaefb22a4d0083d5003
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146165"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510651"
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Configurer des recommandations : configuration du planning général
 Le raccourci **Planning** de la page **Paramètres production** comporte plusieurs champs permettant de définir les règles globales pour la planification des approvisionnements.  
@@ -33,7 +33,7 @@ Le raccourci **Planning** de la page **Paramètres production** comporte plusieu
  [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)   
  [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
  [Configurer des domaines d’application complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
- [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

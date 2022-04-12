@@ -10,17 +10,17 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 198, 490
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 994ae303d46e2e3d290ca297038a3bca6fc21d44
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: be92e23a1dece6225a0700dc4fb3b718481367cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335464"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523152"
 ---
 # <a name="business-intelligence"></a>Veille économique
 Les entreprises capturent une énorme quantité de données de par leur activité quotidienne. Ces données, qui reflètent par exemple les chiffres de vente de l’organisation, les achats, les dépenses opérationnelles, les salaires des employés et les budgets, peuvent devenir des informations précieuse, ou veille économique, pour les décisionnaires. [!INCLUDE[prod_short](includes/prod_short.md)] contient un certain nombre de fonctionnalités qui vous permettent de collecter, d’analyser et de partager les données de votre société.
 
-La fonctionnalité Axes analytiques joue un rôle important dans la veille économique. Un axe correspond à des données que vous pouvez ajouter à une écriture comme une sorte de marqueur. Ces données permettent de regrouper des écritures dotées de caractéristiques similaires, telles que les clients, les régions, les produits et les commerciaux, et de récupérer facilement ces groupes à des fins d’analyse. Entre autres utilisations, vous utilisez des axes analytiques lors de la définition de vues d’analyse et de la création des états financiers pour les états. Pour plus d’informations, reportez-vous à [Utilisation des axes](finance-dimensions.md).
+La fonctionnalité Axes analytiques joue un rôle important dans la veille économique. Un axe correspond à des données que vous pouvez ajouter à une écriture comme une sorte de marqueur. Ces données permettent de regrouper des écritures dotées de caractéristiques similaires, telles que les clients, les régions, les produits et les commerciaux, et de récupérer facilement ces groupes à des fins d’analyse. Entre autres utilisations, vous utilisez des axes analytiques lors de la définition de vues d’analyse et de la création des états financiers pour les états. Pour plus d’informations, voir [Utiliser des axes analytiques](finance-dimensions.md).
 
 > [!TIP]
 > Pour analyser rapidement les données transactionnelles par dimensions, vous pouvez filtrer les totaux du plan comptable et les entrées de toutes les pages **Entrées** par dimensions. Recherchez l’action **Définir le filtre axe**.  
@@ -39,10 +39,10 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)    
-[Utilisation de Business Central comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Utiliser Business Central comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Clôture des périodes fiscales](year-close-years-periods.md)  
 [Importation des données à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

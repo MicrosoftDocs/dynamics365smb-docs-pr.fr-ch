@@ -10,12 +10,12 @@ ms.search.keywords: costing methods, costing, item cost
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6803d47ec9e7be0abe7962fd881f5cdacf8865c4
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 1f726a40e23fcfcc5d00616965111254ebcd14d8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383600"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512349"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Détails de conception : Modifier le mode évaluation stock pour les articles
 
@@ -45,7 +45,7 @@ Lorsque vous configurez des articles de stock, vous devez affecter un mode éval
 
 Pour plus d’informations, [Détails de conception : modes évaluation stock](design-details-costing-methods.md).
 
-## <a name="using-assembly-orders-to-change-costing-method-assignments"></a>Utilisation des ordres d’assemblage pour modifier les affectations de mode évaluation stock
+## <a name="use-assembly-orders-to-change-costing-method-assignments"></a>Utiliser des ordres d’assemblage pour modifier les affectations de mode évaluation stock
 
 Cette section décrit les étapes suivantes pour modifier le mode évaluation stock affecté à un article :
 

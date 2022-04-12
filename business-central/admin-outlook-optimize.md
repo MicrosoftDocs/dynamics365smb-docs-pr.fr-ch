@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 1726162e25b3a488df0d179c702c9c99afcc5c91
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 053b834e122d5d5331642dcb9232a76a8bc1dbeb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143987"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514585"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Optimisation d’Outlook pour votre boîte de réception professionnelle 
 
@@ -81,7 +81,7 @@ Envisagez d’utiliser Outlook sur le web dans l’un des navigateurs pris en ch
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Configuration minimale requise pour Outlook](product-requirements.md#outlook)  
-[Utilisation des compléments dans Outlook sur le Web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Utiliser des compléments dans Outlook sur le Web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

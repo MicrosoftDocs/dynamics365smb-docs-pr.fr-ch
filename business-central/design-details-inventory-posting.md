@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: edff39ccb01cc7da7e8a0387a4737088b0be231d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f2265c8b447fa20d177b89cabf773a04aad31926
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138663"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513085"
 ---
 # <a name="design-details-inventory-posting"></a>Détails de conception : comptabilisation stock
 
@@ -133,7 +133,7 @@ Pour plus d’informations, voir [Détails de conception : modes évaluation st
  [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md)  
  [Détails de conception : Ajustement des coûts](design-details-cost-components.md) [Gestion des composants des coûts](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

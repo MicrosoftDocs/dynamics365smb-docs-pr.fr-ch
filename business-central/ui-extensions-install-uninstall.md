@@ -1,23 +1,23 @@
 ---
-title: Installation et désinstallation d’extensions dans Business Central | Microsoft Docs
+title: Installer et désinstaller des extensions
 description: Installation et désinstallation d’extensions dans Business Central.
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 06/03/2021
+ms.search.form: 2500
+ms.date: 03/25/2022
 ms.author: solsen
-ms.openlocfilehash: 7868e0dc10c3ec0f81f39b714b8d517fcf3c5f06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140412"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514766"
 ---
-# <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installation et désinstallation d’extensions dans Business Central
+# <a name="install-and-uninstall-extensions-in-business-central"></a>Installer et désinstaller des extensions dans Business Central
 
 Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en installant des extensions qui, par exemple, ajoutent des fonctionnalités, modifient le comportement de l’application, ou vous permettent d’accéder à de nouveaux services en ligne. Pour plus d’informations, voir [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md).
 
@@ -29,7 +29,7 @@ Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en installan
 > [!NOTE]  
 > L’ensemble d’autorisations **EXTEND. MGT. - ADMIN** a été introduit dans la première vague de lancement de Business Central 2021 pour remplacer l’ensemble d’autorisations **D365 EXTENSION MGT** des versions antérieures.
 
-## <a name="installing-an-extension"></a>Installation d’une extension
+## <a name="install-an-extension"></a><a name="install"></a>Installer une extension
 
 La page **Gestion des extensions** vous permet de gérer les extensions. Vous pouvez accéder à cette page à partir de la page d’accueil. Sinon, choisissez l’icône **Page ou état pour la recherche** ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") dans le coin supérieur droit, entrez **Extension**, puis choisissez le lien associé.  
 
@@ -75,14 +75,13 @@ Microsoft fournit les extensions suivantes :
 * [Extension GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [É.-U./CA/R.-U./AU/N.-Z./ZA – Envoi d’un avis de versement](ui-extensions-send-remittance-advice.md)
 
-
-## <a name="uploading-a-per-tenant-extension-pte"></a>Chargement d’une extension par locataire (PTE)
+## <a name="upload-a-per-tenant-extension-pte"></a>Charger une extension par locataire (PTE)
 
 Vous chargez un PTE en utilisant la page **Gestion des extensions**. Sur la page **Gestion des extensions**, accédez à **Gérer**, puis sélectionnez **Charger une extension**. Sur la page **Charger et déployer l’extension**, spécifiez le fichier .app à charger. Pour continuer, choisissez le bouton **Accepter**, puis le bouton **Déployer** ; cela lancera le processus de déploiement du PTE.
 
-Si le PTE contient d’importantes modifications de schéma, il est possible de *forcer* son chargement. Pour ce faire, en **Mode de synchronisation des schémas**, sélectionnez l’option **Forcer**. Vous verrez une boîte de dialogue de confirmation pour accepter avant de continuer. 
+Si le PTE contient d’importantes modifications de schéma, il est possible de *forcer* son chargement. Pour ce faire, en **Mode de synchronisation des schémas**, sélectionnez l’option **Forcer**. Vous verrez une boîte de dialogue de confirmation pour accepter avant de continuer.  
 
-## <a name="uninstalling-an-extension"></a>Désinstallation d’une extension
+## <a name="uninstall-an-extension"></a>Désinstaller une extension
 
 Pour désinstaller une extension, allez sur la page **Gestion des extensions**. Si vous désinstallez une extension, et que vous changez d’avis ensuite, vous pouvez la réinstaller à nouveau. Lorsque vous désinstallez une extension que vous avez utilisée, les données sont conservées par défaut si vous installez à nouveau l’extension. Vous pouvez à la place choisir de supprimer les données avec l’extension. Ceci est contrôlé par la case à cocher **Supprimer les données d’extension**. Par défaut, cette case *n’est pas activée*.
 

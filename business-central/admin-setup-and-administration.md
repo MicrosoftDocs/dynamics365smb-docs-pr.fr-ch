@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7a20d6f116a383332b5daab6aa059839f608276
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143883"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521191"
 ---
 # <a name="administration"></a>Administration
 
@@ -42,7 +42,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Répondre aux demandes des sujets des données concernant leurs données personnelles.|[Réponse aux demandes relatives aux données personnelles](admin-responding-to-requests-about-personal-data.md)|
 |Configurer un nouveau centre de profit à l’aide de modèles|[Création de sociétés](about-new-company.md)|
 |Suivre les modifications directes des données effectuées par les utilisateurs dans la base de données pour identifier l’origine des erreurs et les modifications de données.|[Journalisation des modifications](across-log-changes.md)|  
-|Entrer des demandes ponctuelles ou récurrentes pour exécuter des états ou des codeunits.|[Utilisation des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)|  
+|Entrer des demandes ponctuelles ou récurrentes pour exécuter des états ou des codeunits.|[Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)|  
 |Gérer, supprimer ou compresser des documents|[Suppression de documents](admin-manage-documents.md)|  
 |Afficher des pages, des codeunits et des requêtes comme des services Web.|[Publication d’un service Web](across-how-publish-web-service.md)|
 |Dans le cadre de la création de Connect Apps entre [!INCLUDE[prod_short](includes/prod_short.md)] et des solutions tierces via les API REST, définissez des modèles qui sont utilisés pour remplir les propriétés vides d’une entité lorsque vous créez une action POST via une API.|[Configuration des modèles d’API](admin-configuring-api-template.md)|
@@ -67,7 +67,7 @@ Les administrateurs internes et délégués ont accès au centre d’administrat
 
 [Fonctionnalités d’entreprise](across-business-functionality.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

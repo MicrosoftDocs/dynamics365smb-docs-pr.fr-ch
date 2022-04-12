@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: fc2d8e8df7e827d3e73a90b89ff6b14cee5c88ff
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e739536a3752671d74e9ea0d8b3a2b1b548d1d21
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144816"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511534"
 ---
 # <a name="calculate-order-promising-dates"></a>Calculer des dates promesse livraison
 Une société doit pouvoir informer ses clients des dates de livraison de commande. La page **Lignes promesse de livraison** vous permet d’effectuer cette opération à partir d’une commande vente.  
@@ -125,7 +125,7 @@ Avant qu’un article puisse être inclus dans le calcul de la promesse de livra
 ## <a name="see-also"></a>Voir aussi  
 [Ventes](sales-manage-sales.md)  
 [Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,14 +10,14 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 934fcefa552f01a05f95221d57d9a708b9acc26f
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323021"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518876"
 ---
-# <a name="working-with-calendar-dates-and-times"></a>Utilisation de dates civiles et les heures
+# <a name="work-with-calendar-dates-and-times"></a>Utiliser les dates civiles et les heures
 
 [!INCLUDE[prod_short](includes/prod_long.md)] offre plusieurs méthodes principales de saisie des dates et des heures, y compris des fonctions puissantes qui accélèrent la saisie de données, ou vous permettent de saisir des expressions de calendrier complexes. Il existe différents emplacements tout au long de l’application où vous pouvez entrer des dates et des heures dans les champs. Par exemple, dans une commande client, vous pouvez également définir la date d’expédition. En filtrant les données de liste ou d’état, vous pouvez entrer des dates et des heures pour désigner uniquement les données que vous intéressent.
 
@@ -63,12 +63,15 @@ Le schéma de numéros de semaine est toujours ISO 8601, où la semaine 1 est l
 
 Vous pouvez saisir deux, quatre, six ou huit chiffres dans un champ date :
 
--   Si vous ne saisissez que deux chiffres, ils sont interprétés comme le jour, et le mois et l’année de la date de travail sont ajoutés.
+- Si vous ne saisissez que deux chiffres, ils sont interprétés comme le jour, et le mois et l’année de la date de travail sont ajoutés.
 
--   Si vous saisissez quatre chiffres, ils sont interprétés comme le jour et le mois, et l’année de la date de travail est ajoutée. L’ordre du jour et du mois est déterminé par les paramètres de région. Même si vos paramètres de région ont l’année avant le jour et le mois, quatre chiffres sont interprétés en tant que jour et mois.
+- Si vous saisissez quatre chiffres, ils sont interprétés comme le jour et le mois, et l’année de la date de travail est ajoutée. L’ordre du jour et du mois est déterminé par les paramètres de région. Même si vos paramètres de région ont l’année avant le jour et le mois, quatre chiffres sont interprétés en tant que jour et mois.
 
--   Si la date que vous souhaitez saisir est comprise entre le 01/01/1930 et le 31/12/2029, vous pouvez saisir les deux chiffres de l’année ; sinon saisissez les quatre chiffres.
+- Si la date que vous souhaitez saisir est comprise entre le 01/01/1950 et le 31/12/2049, vous pouvez saisir les deux chiffres de l’année ; sinon saisissez les quatre chiffres.
 
+  > [!NOTE]
+  > Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, la plage d’années à deux chiffres peut être différente. Les administrateurs peuvent modifier la plage en modifiant le paramètre **CalendarTwoDigitYearMax** du serveur [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, reportez-vous à la rubrique [Configuration de Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
+ 
 ### <a name="today"></a>Aujourd’hui
 
 Entrez le mot pour _aujourd’hui_ dans la langue indiquée sur la page **Mes paramètres**, pour régler la date sur un enregistrement à la date d’aujourd’hui. Au lieu de saisir le mot entier, vous pouvez saisir une partie du mot, en commençant du début. Par exemple, en anglais, vous pouvez saisir _t_ ou _tod_, tant que ce n’est pas aussi le début d’un autre mot.
@@ -130,7 +133,7 @@ Sous Listes, totaux et états, vous pouvez définir des filtres sur les dates, h
 
 Vous pouvez utiliser l’un des formats valides dans les filtres Plage de dates. Par exemple, lun14 3..t 4p appliqué pour un champ Date/heure débouche sur un filtre à partir de 3h du matin le lundi de la semaine 14 de l’année de date de travail en cours, incluse, jusqu’à aujourd’hui à 16h, inclus.
 
-## <a name="using-date-formulas"></a>Utilisation de formules date
+## <a name="use-date-formulas"></a>Utiliser les formules de date
 Une formule date est une combinaison abrégée de lettres et de nombres qui spécifie comment calculer les dates. Vous pouvez entrer des formules date dans différents champs ou filtres de calcul de date.
 
 > [!NOTE]
@@ -216,7 +219,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## Using Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -336,7 +339,7 @@ Pour connaître l’unité de mesure utilisée pour un champ de durée, saisisse
 Par exemple, si l’unité est « heures », le chiffre 5 est converti en 5 h.
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)  
 [Saisir les critères pour les filtres](ui-enter-criteria-filters.md)  
 

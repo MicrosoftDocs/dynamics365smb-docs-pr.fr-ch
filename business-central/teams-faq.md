@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 34c669f955bebf84149959182bb1ce8bdeb139a0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: addfaaf3e5991e5e0bce4d7e39c47f645cd6a2de
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147507"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528594"
 ---
 # <a name="teams-faq"></a>FAQ Teams
 
@@ -70,10 +70,6 @@ Oui. Mais seules certaines fonctionnalités de l′application fonctionnent avec
 
 - L’application fonctionne avec des liens basés sur le modèle **\*.bc.dynamics.com** généralement utilisé avec Intégrer les applications.
 - La recherche de contacts n′est pas disponible pour les applications incorporées qui remplacent l′application de base de Microsoft.
-
-### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Où puis-je trouver l’intégration Teams dans le client Web [!INCLUDE [prod_short.md](includes/prod_short.md)] ? 
-
-Il n’y a actuellement aucune intégration des contrôles Teams ou présence de fonctionnalités Teams dans le client Web [!INCLUDE [prod_short.md](includes/prod_short.md)] ou autres clients.
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>[!INCLUDE [prod_short.md](includes/prod_short.md)] est-il compatible avec l’application mobile Teams ?
 
@@ -304,7 +300,11 @@ Oui. Toutes les fonctionnalités [!INCLUDE [prod_short.md](includes/prod_short.m
 
 ### <a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="location"></a>Puis-je accéder à mon emplacement depuis la fenêtre de détails dans Teams ?
 
-Si vous utilisez des fonctionnalités dans [!INCLUDE [prod_short.md](includes/prod_short.md)] qui accède à vos coordonnées de localisation actuelles, comme avec des fiches, vous devez utiliser Teams dans le navigateur ou l’application mobile Teams. La localisation n’est pas disponible lors de l’utilisation de l’application de bureau Teams. 
+Si vous utilisez des fonctionnalités dans [!INCLUDE [prod_short.md](includes/prod_short.md)] qui accède à vos coordonnées de localisation actuelles, comme avec des fiches, vous devez utiliser Teams dans le navigateur ou l’application mobile Teams. La localisation n’est pas disponible lors de l’utilisation de l’application de bureau Teams.
+
+### <a name="how-do-i-open-the-details-in-a-new-window"></a>Comment ouvrir les détails dans une nouvelle fenêtre ?
+
+L’affichage de la fenêtre de détails en tant que fenêtre séparée est utile pour le multitâche ou pour pouvoir travailler avec des données d’entreprise tout en pouvant utiliser le chat Teams et d’autres fonctions Teams. Pour ouvrir les détails dans sa propre fenêtre, choisissez **Ouvrir dans le navigateur** dans le menu des points de suspension (**...**) dans le coin supérieur droit de la fenêtre.
 
 ## <a name="collaborate-with-guests"></a>[Collaborer avec les invités](#tab/collaborating)
 
@@ -346,7 +346,7 @@ Non. Tout ce dont vous avez besoin est un compte valide qui a accès à Microsof
 
 ### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Est-ce que Partager avec Teams est disponible dans tous les clients Business Central ? 
 
-À l’heure actuelle, Partager avec Teams est disponible exclusivement dans le client web de bureau et dans la fenêtre de détails dans Teams.  
+À l’heure actuelle, Partager avec Teams est disponible dans le client Web de bureau, dans la fenêtre de détails de Teams et lors de l’ouverture d’une page dans une nouvelle fenêtre à partir du complément Outlook.
 
 ### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Où puis-je trouver Partager avec Teams dans Business Central ? 
 

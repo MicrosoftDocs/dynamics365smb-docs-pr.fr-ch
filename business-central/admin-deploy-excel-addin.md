@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141426"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518430"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Obtenir le complément Business Central pour Excel
 
@@ -79,13 +79,13 @@ Vous travaillerez à la fois dans [!INCLUDE[prod_short](includes/prod_short.md)]
     4. Examinez **Accepter les demandes d’autorisation**, puis sélectionnez **Suivant** > **Terminer le déploiement**.
     5. Attendez que la coche verte à côté de **Déployé** apparaisse pour le complément, puis sélectionnez **Terminé**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       Le complément apparaît sur la page **Compléments**. Pour plus d’informations sur le déploiement de compléments dans le centre d’administration Microsoft 365, consultez [Déployer des compléments dans le centre d’administration](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+       Le complément apparaît sur la page **Compléments**. Pour plus d’informations sur le déploiement de compléments dans le centre d’administration Microsoft 365, voir [Déployer des compléments dans le centre d’administration](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 4. Revenez à la configuration assistée du **Déploiement centralisé du complément Excel** dans [!INCLUDE[prod_short](includes/prod_short.md)] et choisissez **Suivant**.
 5. Activez **Utiliser le déploiement centralisé**, et choisissez **Terminer**.
 
     Si vous n’activez pas ce bouton à bascule, [!INCLUDE[prod_short](includes/prod_short.md)] obtiendra le complément directement depuis l’Office Store.
 
-Une fois terminé, vous pouvez toujours modifier le déploiement dans le centre d’administration Microsoft 365, par exemple en affectant plus d’utilisateurs. Pour plus d’informations sur le déploiement de compléments dans le centre d’administration, consultez [Déployer des compléments dans le centre d’administration](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Une fois terminé, vous pouvez toujours modifier le déploiement dans le centre d’administration Microsoft 365, par exemple en affectant plus d’utilisateurs. Pour plus d’informations sur le déploiement de compléments dans le centre d’administration, voir [Déployer des compléments dans le centre d’administration](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 
 > [!IMPORTANT]
 > Si vous avez plusieurs environnements, vous devez exécuter la configuration assistée du **Déploiement centralisé du complément Excel** sur chaque environnement pour lequel vous souhaitez utiliser le déploiement centralisé. Cependant, vous n’avez pas besoin de configurer à nouveau le déploiement centralisé dans Microsoft 365. La seule chose que vous avez à faire est d’activer le bouton à bascule **Utiliser le déploiement centralisé** dans la configuration assistée. 
@@ -171,8 +171,8 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 ## <a name="see-also"></a>Voir aussi
 
 [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  
-[Utilisation de Business Central](ui-work-product.md)  
-[Améliorations de l’intégration d’Excel dans la deuxième vague de publication 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+[Utiliser Business Central](ui-work-product.md)  
+[Améliorations de l’intégration d’Excel dans la 2e vague de lancement 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

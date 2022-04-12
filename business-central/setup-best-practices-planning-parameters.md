@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b491a986e3936389fa228fdb1bfc000627368b82
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6cb63f5fcc6f3fcf4262214c8fb162a6835b0c50
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130026"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513668"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Configurer des recommandations : paramètres de planification
 Le raccourci **Planning** de la fiche article est le cœur de la chaîne d’approvisionnement de la société. Définir des paramètres appropriés de planification est très important pour une gestion rentable des stocks et un service client de haute qualité.  
@@ -44,7 +44,7 @@ Le raccourci **Planning** de la fiche article est le cœur de la chaîne d’app
  [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
  [Configurer des domaines d’application complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
  [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md)  
- [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

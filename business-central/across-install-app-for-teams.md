@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: e19db53137980b986dabc933ae56d33a5a768350
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd127d1b313a0c060ef676c74f0df83e01896b53
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141530"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516462"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams
 
@@ -59,8 +59,8 @@ Cette option est le moyen le plus rapide d’installer l’application.
 4. Sélectionnez l’application lorsque vous la trouvez.
 5. Choisissez **Ajouter**.
 
-> [!NOTE]
-> Avec l’une ou l’autre option, vous pouvez être invité à vous connecter à [!INCLUDE [prod_short](includes/prod_short.md)]. Sélectionnez le lien **connexion** et suivez les instructions pour saisir le nom de connexion et le mot de passe pour [!INCLUDE [prod_short](includes/prod_short.md)].
+> [!TIP]
+> Si vous collez un lien vers une page Business Central dans une conversation d’équipe et que l’application n’est pas installée, vous recevez un message du type : **Business Central souhaite afficher un aperçu de ce lien.** Pour installer l’application, sélectionnez **Afficher l’aperçu** et suivez les instructions.
 
 **Option 3 : à partir de Business Central**
 
@@ -68,6 +68,9 @@ Cette option est le moyen le plus rapide d’installer l’application.
 2. Sélectionnez l’icône en forme ![de loupe qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Obtenir l’application Business Central pour Teams**, puis sélectionnez le lien associé.  
 3. Sélectionnez **Obtenir l’application auprès du Store**.
 4. Attendez que Teams s’ouvre et que l’application Business Central apparaisse, puis choisissez **Ajouter**.
+
+> [!NOTE]
+> Avec l’une ou l’autre option, vous pouvez être invité à vous connecter à [!INCLUDE [prod_short](includes/prod_short.md)]. Sélectionnez le lien **connexion** et suivez les instructions pour saisir le nom de connexion et le mot de passe pour [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="next-step"></a>Étape suivante
 

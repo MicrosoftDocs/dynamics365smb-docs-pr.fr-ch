@@ -7,26 +7,30 @@ ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: fa2e18e135e9e81634a02e1b193b237c599fd5fc
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 1190a09a1e4cb67cb5a7f75732a18980f0aff4aa
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382222"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514376"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Passer à une autre entreprise ou un autre environnement
+
+[!INCLUDE [prod_short](includes/prod_short.md)] est disponible dans de nombreux pays différents et prend en charge de nombreux types d’organisations. Votre organisation peut configurer [!INCLUDE [prod_short](includes/prod_short.md)] de sorte que vous devez comprendre les termes *entreprise* et *environnement*.  
 
 [!INCLUDE [company_environment](includes/company_environment.md)] Pour plus d’informations, voir [Création de sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > Si vous changez souvent d’entreprise ou utilisez [!INCLUDE[prod_short](includes/prod_short.md)] depuis une autre application comme Microsoft Teams, vous pouvez facilement perdre de vue où vous êtes. Pour vous aider à garder le fil, vous pouvez ajouter un badge qui affichera le nom de la société, afin que vous puissiez rapidement vérifier que vous êtes au bon endroit. Pour plus d’informations, voir [Pour afficher un badge d’entreprise pour un accès rapide aux informations de la société](ui-change-basic-settings.md#badge).
 
+Selon votre navigateur, vous pouvez également épingler les différentes entreprises à votre barre de favoris.  
+
 ## <a name="switch-to-another-environment"></a>Passer à un autre environnement
 
-Lorsque vous êtes connecté à [!INCLUDE[prod_short](includes/prod_short.md)], les environnements auxquels vous pouvez accéder sont disponibles sur le site Office.com. 
+Lorsque vous êtes connecté à [!INCLUDE[prod_short](includes/prod_short.md)], les environnements auxquels vous pouvez accéder sont disponibles sur le site Office.com.  
 
 1. Sélectionnez l’icône **Lanceur d’applications** ![Lanceur d’applications.](media/app-launcher-icon.png "Le lanceur d’applications donne accès à plus de fonctionnalités").
-2. Si vous ne voyez pas d’application pour [!INCLUDE[prod_short](includes/prod_short.md)] dans le volet qui s’ouvre, choisissez **Office 365**. Ensuite, entrez **Business Central** dans la zone **Rechercher**, ou sélectionnez **Toutes les applications** > **Applications métier**.   
+2. Si vous ne voyez pas d’application pour [!INCLUDE[prod_short](includes/prod_short.md)] dans le volet qui s’ouvre, choisissez **Office 365**. Ensuite, entrez **Business Central** dans la zone **Rechercher**, ou sélectionnez **Toutes les applications** > **Applications métier**.  
 3. Il y en aura une application [!INCLUDE[prod_short](includes/prod_short.md)] répertoriée pour chaque type d’environnement, tels que production et sandbox. Pour passer à un autre environnement, choisissez l’application [!INCLUDE[prod_short](includes/prod_short.md)] pour le type d’environnement dont il s’agit. S’il existe plusieurs environnements d’un certain type, il vous sera demandé de choisir l’environnement auquel accéder.
 
 <!--
@@ -51,8 +55,9 @@ Lorsque vous êtes connecté à [!INCLUDE[prod_short](includes/prod_short.md)], 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Centre d’administration Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
+[Environnements et des sociétés (en anglais uniquement)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+[Centre d’administration Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

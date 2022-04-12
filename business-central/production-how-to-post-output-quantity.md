@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000773, 99000778, 99000823, 99000827
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bbd2a3bf8eae3ced2ad063b0baa3b138cac46401
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7a1c30340efabed66e4ce359fc7680945e0db1de
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135713"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522761"
 ---
 # <a name="batch-post-output-and-run-times"></a>Valider par lots la production et les temps d’exécution
 La quantité de sortie représente l’avancement du travail sous la forme de la quantité finie et de la capacité utilisée du travail ou du poste de charge.
@@ -52,7 +52,7 @@ Si vous avez validé la dernière opération, l’article sera ajouté au stock.
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Planifié](production-planning.md)  
 [Stock](inventory-manage-inventory.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9f5eda0056c4c449a46f9f04064c3f2764087007
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b59e6fc824f9c386c12030163f51ef09622f74a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335025"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519611"
 ---
 # <a name="sorting-searching-and-filtering"></a>Tri, recherche et filtrage
 
@@ -132,7 +132,7 @@ Vous pouvez définir un filtre simple directement sur une liste à l’aide du v
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Définition de filtres dans les états, les traitements par lots et les XMLports
 
-Pour les états et les XMLports, les filtres sont visibles directement sur la page de demande. La page de demande affiche les derniers filtres utilisés en fonction de votre sélection dans le champ **Utiliser les valeurs par défaut de**. Pour plus d’informations, voir [Utilisation des paramètres enregistrés](ui-work-report.md#SavedSettings).
+Pour les états et les XMLports, les filtres sont visibles directement sur la page de demande. La page de demande affiche les derniers filtres utilisés en fonction de votre sélection dans le champ **Utiliser les valeurs par défaut de**. Pour plus d’informations, voir [Utiliser des paramètres enregistrés](ui-work-report.md#SavedSettings).
 
 La section **Filtre** principale affiche les champs de filtre par défaut que vous utilisez pour délimiter les enregistrements à inclure dans l’état ou le XMLport. Pour ajouter un filtre, choisissez l’action **+ Filtre**. Puis, tapez le nom du champ pour lequel vous souhaitez filtrer la liste ou choisissez un champ dans la liste déroulante.
 
@@ -154,7 +154,7 @@ Les colonnes qui ont déjà des filtres sont signalées par l’![Icône de filt
 Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et toutes les lettres que vous utilisez habituellement dans ce champ. Mais il existe également un ensemble de symboles spéciaux que vous pouvez utiliser comme opérateurs pour filtrer davantage les résultats. Les sections suivantes décrivent ces symboles et comment les utiliser comme opérateurs dans les filtres.
 
 > [!TIP]
-> Pour plus d’informations sur les dates et heures de filtrage, voir [Utilisation de dates civiles et des heures](ui-enter-date-ranges.md).
+> Pour plus d’informations sur les dates et heures de filtrage, voir [Utiliser des dates civiles et des heures](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]
 > - Il peut y avoir des situations où la valeur sur laquelle vous souhaitez filtrer contient un symbole qui est un opérateur. Pour plus d’informations sur la gestion de ces situations, consultez [Filtrage des valeurs contenant des symboles](#symbols) pour plus d’instructions sur la gestion de cette situation.
@@ -171,7 +171,10 @@ Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et 
 |`P8..`|Informations sur la période comptable 8 et les suivantes|  
 |`..23`|Antérieur au 23/mois en cours/année en cours 23:59:59|  
 |`23..`|Postérieur au 23/mois en cours/année en cours 0:00:00|  
-|`22..23`|Entre le 22/mois en cours/année en cours 0:00:00 et le 23/mois en cours/année en cours 23:59:59|  
+|`22..23`|Entre le 22/mois en cours/année en cours 0:00:00 et le 23/mois en cours/année en cours 23:59:59| 
+
+> [!TIP]
+> Si vous utilisez un pavé numérique, la touche de séparateur décimal peut produire un caractère autre qu’un point (.). Pour choisir un point, appuyez sur les touches « Alt+Séparateur décimal » du pavé numérique. Appuyez à nouveau sur « Alt+Séparateur décimal » pour revenir en arrière. Pour plus d’informations, voir [Définition du séparateur décimal utilisé par les claviers numériques](ui-enter-data.md#decimal).
 
 #### <a name="124-eitheror"></a>(&#124;) Et/ou
 
@@ -307,7 +310,7 @@ Utilisez `%myvendors` dans le champ **N°** fournisseur pour afficher tous les e
 
 [FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)  
 [Enregistrer et personnaliser les vues de liste](ui-views.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

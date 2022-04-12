@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91a97ab506f7536b9c468862709d1d39ed767d53
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335490"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512375"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Préparer la génération d’états financiers avec des tableaux d’analyse et des catégories de compte
 
@@ -54,10 +54,10 @@ Les tableaux d’analyse dans la version standard de [!INCLUDE[prod_short](inclu
 
 La page **Aperçu tableau d’analyse** vous permet de consulter l’état financier défini par le tableau d’analyse. Dans l’exemple suivant, il est important de comprendre que ce que vous créez en tant que lignes et colonnes de tableau d’analyse peut uniquement être vu et validé sur la page **Aperçu tableau d’analyse**, que vous ouvrez à partir d’un tableau d’analyse en choisissant l’action **Aperçu**. La page **Tableau d’analyse** elle-même est uniquement une zone de configuration.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.  
 2. Sur la page **Tableaux d’analyse**, choisissez **Nouveau** pour créer un nom pour le tableau d’analyse.
 3. Sinon, choisissez l’action **Copier le tableau d’analyse**, renseignez les deux champs, puis cliquez sur le bouton **OK**.
-4. Renseignez les champs selon vos besoins. Dans le champ **Présentation colonne par déf.** sélectionnez une présentation existante. Vous pouvez la modifier ultérieurement au besoin.
+4. Renseignez les champs selon vos besoins. Dans le champ **Présentation colonne par déf.**, sélectionnez une présentation existante. Vous pouvez la modifier ultérieurement au besoin.
 
     Vous utilisez les présentations de colonne pour définir des colonnes pour divers paramètres par lesquels les données financières dans les lignes sont affichées. Par exemple, vous pouvez créer une présentation de colonne de manière à comparer le solde période et le solde pour une même période de l’exercice actuel et du précédent, avec quatre colonnes. Pour plus d’informations, voir [Pour modifier une présentation de colonne](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
@@ -71,7 +71,7 @@ Vous avez désormais défini la base du tableau d’analyse, les lignes de donn�
 
 ### <a name="to-edit-a-column-layout"></a>Pour modifier une présentation de colonne
 
-Les présentations de colonne vous permettent de définir les colonnes devant être incluses dans l’état résultant. Par exemple, vous pouvez créer une présentation de manière à comparer le solde période et le solde pour une même période de l’exercice actuel et du précédent.
+Les présentations de colonne vous permettent de définir les colonnes devant être incluses dans l’état résultant. Par exemple, vous pouvez créer une présentation de manière à comparer le solde période et le solde pour une même période de l’exercice actuel et du précédent. Vous pouvez avoir jusqu’à 15 colonnes. Ceci s’avère utile, par exemple, si vous souhaitez afficher les budgets pour 12 mois et inclure une colonne indiquant le total.
 
 > [!NOTE]
 > Une version imprimée/aperçu/enregistrée du tableau d’analyse peut afficher un maximum de cinq colonnes. Si le tableau d’analyse est uniquement destiné pour l’analyse de la page **Aperçu tableau d’analyse**, vous pouvez créer autant de colonnes que vous le souhaitez.
@@ -88,7 +88,7 @@ Les présentations de colonne vous permettent de définir les colonnes devant ê
 
 Il se peut que vous vouliez inclure une colonne dans un tableau d’analyse pour calculer des pourcentages d’un total. Par exemple, si vous avez plusieurs lignes qui ventilent des ventes par dimension, vous pouvez juger utile de disposer d’une colonne indiquant le pourcentage des ventes totales que représente chaque ligne.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 2.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.
 2. Sur la page **Noms tableaux d’analyse**, sélectionnez le tableau d’analyse.  
 3. Choisissez l’action **Modifier tableau d’analyse** pour configurer une ligne de tableau d’analyse et calculer le total sur lequel le pourcentage sera basé.  
 4. Insérez une ligne juste au-dessus de la première ligne pour laquelle vous voulez afficher un pourcentage.  
@@ -101,11 +101,11 @@ Il se peut que vous vouliez inclure une colonne dans un tableau d’analyse pour
 
 Vous pouvez utiliser un tableau d’analyse pour créer un état comparant les chiffres de la comptabilité et les chiffres budgétés.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.
 2. Sur la page **Noms tableaux d’analyse**, sélectionnez le tableau d’analyse.  
 3. Choisissez l’action **Modifier tableau d’analyse**  
 4. Sur la page **Tableau d’analyse**, sélectionnez le nom du tableau d’analyse souhaité dans le champ **Nom**.
-5. Choisissez l’option **Insérer comptes**.  
+5. Choisissez l’action **Insérer des comptes généraux**.  
 6. Sélectionnez les comptes à inclure dans votre relevé, puis cliquez sur le bouton **OK**.
 
     Ces comptes sont à présent insérés dans le tableau d’analyse. Si vous le souhaitez, vous pouvez aussi modifier la présentation colonne.  
@@ -147,7 +147,17 @@ Pour effectuer des calculs basés par périodes, vous devez entrer une formule d
 > [!NOTE]
 > Il n’est pas toujours transparent de déterminer les périodes à comparer, car vous pouvez définir un filtre date sur un état qui couvre des dates différentes des périodes comptables représentées dans les données du plan comptable. Par exemple, vous créez un tableau d’analyse dans lequel vous souhaitez comparer cette période avec la même période l’année précédente. Vous définissez le champ **Formule date comparaison** sur *-1EC*. Ensuite, vous exécutez l’état le 28 février et définissez le filtre date sur Janvier et février. Par conséquent, le tableau d’analyse compare les mois de janvier et février de cette année au mois de janvier de l’année précédente, qui est la seule période comptable terminée des deux pour l’année précédente.  
 
-Pour plus d’informations sur les formules de date, voir [Utilisation de dates civiles et des heures](ui-enter-date-ranges.md).  
+Pour plus d’informations sur les formules de date, voir [Utiliser des dates civiles et des heures](ui-enter-date-ranges.md).  
+
+## <a name="import-or-export-account-schedules"></a>Importer ou exporter des tableaux d’analyse
+Vous pouvez importer et exporter des tableaux d’analyse comme des packages de configuration RapidStart. Par exemple, cela s’avère utile pour les partager avec d’autres sociétés. Le package est créé dans un fichier .rapidstart, qui fournit le contenu du package sous un format compressé.
+
+### <a name="to-import-and-export-account-schedules"></a>Pour importer et exporter des tableaux d’analyse
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 4.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tableaux d’analyse**, puis sélectionnez le lien associé.
+2. Choisissez le tableau d’analyse, puis choisissez les actions **Importer le tableau d’analyse** ou **Exporter le tableau d’analyse**, selon ce que vous souhaitez faire. 
+
+> [!NOTE]
+> Lorsque vous importez des tableaux d’analyse, les enregistrements existants portant les mêmes noms que ceux que vous importez seront supprimés.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
@@ -157,7 +167,7 @@ Pour plus d’informations sur les formules de date, voir [Utilisation de dates 
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Comptabilité et plan comptable](finance-general-ledger.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 7354, 7356, 7357, 7358, 7359, 7361
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9e0eae31f29e726c15add24ef9d4b48b81b3d299
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: f812b988c0cb48cd49890c20ab59a8095327c52f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383658"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512591"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Prélever et ranger sans document origine
 Lorsque les articles ont été rangés et avant d’être prélevés pour répondre aux besoins d’un ordre de fabrication ou d’une expédition, ils sont stockés dans l’entrepôt comme faisant partie du stock disponible.  
@@ -56,8 +56,8 @@ Les **rangements internes** vous permettent d’effectuer des rangements sans av
 [Stock](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
 [Gestion des assemblages](assembly-assemble-items.md)  
-[Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

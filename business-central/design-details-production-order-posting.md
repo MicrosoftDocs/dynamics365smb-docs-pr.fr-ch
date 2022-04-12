@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 21dfc90e25c33c26bc739ff32274d0a5088a6e2f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51d04edb267ba2d75b4ed57d1587b40994f009cc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146581"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511716"
 ---
 # <a name="design-details-production-order-posting"></a>Détails de conception : validation d’ordre de fabrication
 Comme pour la validation d’ordre d’assemblage, les composants consommés et le temps du poste utilisé sont convertis et sortis en tant qu’article produit lorsque l’ordre de fabrication est terminé. Pour plus d’informations, voir [Détails de conception : modes évaluation stock](design-details-assembly-order-posting.md). Toutefois, le flux des coûts des ordres d’assemblage est moins complexe, notamment parce que la validation du coût d’assemblage ne se produit qu’une fois et ne génère donc pas de stock encours.
@@ -108,7 +108,7 @@ Dans des environnements de coût standard, l’évaluation du stock d’un ordre
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : validation d’ordre d’assemblage](design-details-assembly-order-posting.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md) [Finance](finance.md)  
- [Utilisation de Business Central](ui-work-product.md)
+ [Utiliser Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

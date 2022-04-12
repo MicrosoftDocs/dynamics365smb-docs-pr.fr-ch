@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 581ffdce943844d466adc6320fe32aaaa29138b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b6ce2978ecd5c8687c75a3afd563ed6083a9a04
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143571"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515142"
 ---
 # <a name="design-details-item-application"></a>Détails de conception : lettrage article
 
@@ -249,7 +249,7 @@ En raison du mode de calcul du coût unitaire d’un article, un lettrage articl
 [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

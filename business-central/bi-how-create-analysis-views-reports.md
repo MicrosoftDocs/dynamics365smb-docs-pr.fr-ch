@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d874c55108a985cd4076e2bbcc8eec53287db008
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: c5b77c97edc202c90cf82b5820a31fa99cf97b8e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335515"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512401"
 ---
 #  <a name="create-analysis-reports"></a>Créer des rapports d’analyse
 Les directeurs des ventes doivent analyser de manière régulière les rotations, la marge bénéficiaire brute et d’autres indicateurs de performance des ventes clés. Les acheteurs, eux, s’intéressent plutôt à la dynamique des volumes d’achat, des performances des fournisseurs et des prix d’achat. Par ailleurs, les gestionnaires des stocks et directeurs de la logistique ont besoin d’informations sur la rotation des stocks, d’une analyse des mouvements de stock et de statistiques sur la valeur du stock.  
@@ -105,7 +105,7 @@ Les rapports d’analyse permettent d’analyser la dynamique de vos ventes en f
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Comptabilité et plan comptable](finance-general-ledger.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

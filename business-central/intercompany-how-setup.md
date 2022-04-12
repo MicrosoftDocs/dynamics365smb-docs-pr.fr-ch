@@ -7,34 +7,45 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 605, 620, 602, 603, 601, 600, 652, 606, 607, 609, 608, 621
-ms.date: 04/01/2021
+ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 7efbc6f80eb59b9f0be1640ea2bf6cb57afea4c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 398f5bbbe30730057093f8550cef27a514cbc20a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131810"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515552"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Configurer la validation des transactions intersociétés
 
-Pour envoyer une transaction (ligne feuille vente) à partir d’une société et créer automatiquement la transaction correspondante (ligne feuille achat) dans la société partenaire, les sociétés concernées doivent s’accorder sur un plan comptable et un ensemble d’axes analytiques communs à utiliser pour les transactions intersociétés. Le plan de compte intersociété peut être, par exemple, une version simplifiée du plan de compte de la société mère. Chaque société associe son plan de compte au plan de compte intersociété partagé, ainsi que ses axes analytiques aux axes analytiques intersociétés.  
+Les comptabilisations intersociétés facilitent la comptabilité de deux sociétés ou plus pour un service financier centralisé et pour les comptables des sociétés partenaires intersociétés. Pour envoyer une transaction (ligne feuille vente) à partir d’une société et créer automatiquement la transaction correspondante (ligne feuille achat) dans la société partenaire, les sociétés concernées doivent s’accorder sur un plan comptable et un ensemble d’axes analytiques communs à utiliser pour les transactions intersociétés. Le plan de compte intersociété peut être, par exemple, une version simplifiée du plan de compte de la société mère. Chaque société associe son plan de compte au plan de compte intersociété partagé, ainsi que ses axes analytiques aux axes analytiques intersociétés.  
 
-Vous devez également configurer un code partenaire intersociété pour chaque société partenaire, ce qui est convenu par toutes les sociétés, puis les affecter respectivement aux fichiers client et fournisseur en renseignant le champ **Code partenaire intersociété**.  
+Vous devez également configurer un code partenaire intersociété pour chaque société [!INCLUDE [prod_short](includes/prod_short.md)], décidé avec toutes les sociétés, puis l’attribuer à la fiche client et à la fiche fournisseur, respectivement.  
 
 Si vous créez ou recevez des lignes intersociétés contenant des articles, vous pouvez soit utiliser vos propres numéros d’article, soit configurer ceux de votre partenaire pour chaque article concerné, dans le champ **Référence fournisseur** ou **N° article commun** de la fiche article. Vous pouvez également utiliser la fonction **Référence article** : pour mapper vos numéros d’article avec vos descriptions de partenaires Intersociétés des articles, ouvrez la fiche de chaque article, puis choisissez l’action **Références article** afin de configurer les références entre vos descriptions d’article et celles du partenaire Intersociétés. Pour plus d’informations, voir [Utiliser les références article](inventory-how-use-item-cross-refs.md). 
 
-Si vous créez des transactions de vente intersociétés incluant des ressources, vous devez renseigner le champ **N° cte gén achat parten IC** de la fiche ressource de chaque ressource concernée. Il s’agit du numéro du compte général interentreprise sur lequel le montant de cette ressource va être validé dans la société partenaire. Pour plus d’informations, reportez-vous à [Configuration de ressources](projects-how-setup-resources.md).
+Si vous créez des transactions de vente intersociétés incluant des ressources, vous devez renseigner le champ **N° cte gén achat parten IC** de la fiche ressource de chaque ressource concernée. Il s’agit du numéro du compte général interentreprise sur lequel le montant de cette ressource va être validé dans la société partenaire. Pour plus d’informations, reportez-vous à [Configuration de ressources](projects-how-setup-resources.md). 
 
-## <a name="to-set-up-companies-for-intercompany-transactions"></a>Pour configurer des sociétés pour les transactions intersociétés
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Informations société**, puis choisissez le lien associé.  
-2. Sur la page **Informations société**, renseignez les champs **Code Partenaire Intersociétés**, **Type de boîte de réception Intersociétés** et **Détails boîte de réception intersociétés**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!NOTE]
+> Les transactions d’achat intersociétés qui incluent des ressources, des immobilisations et des frais annexes ne sont pas entièrement prises en charge. Dans la société de votre partenaire intersociété, le champ **Type de ligne** sera vide sur les lignes du document achat qui incluent ces entités. Vous devez mettre à jour manuellement le champ. 
 
-## <a name="to-set-intercompany-partners"></a>Pour paramétrer les partenaires intersociétés
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Partenaires intersociété**, puis sélectionnez le lien associé.
+## <a name="to-set-up-a-company-for-intercompany-transactions"></a>Pour configurer une société pour les transactions intersociétés
+
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres intersociétés**, puis sélectionnez le lien associé.  
+2. Sur la page **Paramètres intersociétés**, renseignez les champs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+  > [!NOTE]
+  > La 1re vague de lancement 2022 introduit une nouvelle page **Paramètres intersociétés** afin que vous puissiez également spécifier si cette société doit créer automatiquement des lignes de journal basées sur les validations d’un partenaire intersociété à partir de la page **Feuille comptabilité IC**. Si votre organisation a utilisé [!INCLUDE [prod_short](includes/prod_short.md)] avant cette vague de lancement, vous devez activer la nouvelle expérience dans la page **Gestion des fonctionnalités**. Pour plus d’informations, voir [Accepter automatiquement les transactions pour les feuilles intersociétés](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/intercompany-postings-have-auto-accept-transaction-enabled-intercompany-general-journals).
+
+Dans les versions antérieures à la 1re vague de lancement 2022, vous devez remplir trois champs intersociétés sur la page **Informations société** à la place.  
+
+## <a name="to-set-up-intercompany-partners"></a>Pour paramétrer les partenaires intersociétés
+
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Partenaires intersociété**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
 3. Sur la page **Partenaire Intersociétés**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Répétez les étapes 2 et 3 pour toutes les autres sociétés faisant partie de ces paramètres intersociétés.
 
 > [!NOTE]
 > Dans [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous ne pouvez pas utiliser les emplacements de fichiers pour transférer des transactions à vos partenaires, car [!INCLUDE[prod_short](includes/prod_short.md)] n’a pas accès à votre réseau local. Par conséquent, si vous choisissez **Emplacement du fichier** dans le champ **Type de transfert**, le champ **Chemin du dossier** n’est pas disponible. Au lieu de cela, le fichier sera téléchargé dans le dossier Téléchargements de votre ordinateur. Vous envoyez ensuite le fichier à une personne de l’entreprise partenaire, par exemple par e-mail. Pour un processus plus direct, nous vous recommandons de choisir **E-mail** plutôt.
@@ -47,9 +58,9 @@ Si vous créez des transactions de vente intersociétés incluant des ressources
 5. Répétez les étapes 1 à 4 pour les clients.
 
 ## <a name="to-set-up-intercompany-charts-of-accounts"></a>Pour configurer le plan comptable intersociété
-Pour qu’un groupe de sociétés puisse créer des transactions intersociétés, ses membres doivent convenir du plan comptable qui servira de référence commune. Avec vos sociétés partenaires, vous devez décider des numéros de compte à utiliser pour créer des transactions intersociétés. Par exemple, la société mère du groupe génère une version simplifiée de son propre plan comptable, l’exporte de sa base de données vers un fichier XML et la distribue à chaque société du groupe.  
+Pour qu’un groupe de sociétés puisse créer des transactions intersociétés, ses membres doivent convenir du plan comptable qui servira de référence commune. Avec vos sociétés partenaires, vous devez décider des numéros de compte à utiliser pour créer des transactions intersociétés. Par exemple, la société mère du groupe génère une version simplifiée de ses propres plans comptables, l’exporte dans un fichier XML qui est distribué à chaque société du groupe.  
 
-Si votre société est la société parent et contient le plan comptable intersociétés qui servira de référence commune au groupe, suivez la procédure [Configurer le plan comptable intersociétés de définition](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
+Si le plan comptable de votre société définit le plan comptable intersociétés de vos sociétés partenaires, suivez le processus décrit dans [Pour configurer la définition du plan comptable intersociété](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
 
 Si votre société est une filiale et que vous recevez un fichier XML contenant le plan comptable commun intersociété, suivez la procédure [Pour importer le plan comptable intersociété](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
@@ -92,7 +103,7 @@ Ensuite, si vous indiquez un compte général dans le champ **N° compte contrep
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Pour configurer des comptabilisations intersociétés
 
-Si vos partenaires intersociétés et vous souhaitez pouvoir échanger des transactions auxquelles des axes analytiques sont liés, vous devrez vous entendre sur les axes analytiques que vous allez tous utiliser. Par exemple, la société mère du groupe génère une version simplifiée de ses propres axes analytiques, l’exporte dans un fichier XML et la distribue à chaque société du groupe. Chaque filiale importe ensuite ce fichier XML sur la page **Axes analytiques intersociétés** et associe les axes analytiques intersociétés à ceux figurant dans sa propre page **Axes analytiques**.  
+Si vos partenaires intersociétés et vous souhaitez échanger des transactions auxquelles des axes analytiques sont liés, vous devez décider ensemble des axes analytiques que vous allez tous utiliser. Par exemple, la société mère du groupe génère une version simplifiée de son propre ensemble d’axes analytiques, l’exporte dans un fichier XML qui est distribué à chaque société du groupe. Chaque filiale importe ensuite ce fichier XML sur la page **Axes analytiques intersociétés** et associe les axes analytiques intersociétés à ceux figurant dans sa propre page **Axes analytiques**.  
 
 > [!NOTE]
 > Chaque entreprise dans [!INCLUDE [prod_short](includes/prod_short.md)] doit mapper les axes analytiques aux axes analytiques intersociétés pour les documents sortants et mapper les axes analytiques intersociétés à leurs propres axes analytiques pour les documents entrants. Cette cartographie permet d’assurer la cohérence entre les entreprises. Pour plus d’informations, consultez la section [Pour mapper les axes analytiques intersociétés aux axes analytiques de votre entreprise](#to-map-intercompany-dimensions-to-your-companys-dimensions).
@@ -126,7 +137,7 @@ Dans les étapes suivantes, vous devez d’abord mapper les axes analytiques int
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Dimensions intersociété**, puis sélectionnez le lien associé.
 2. Sur la page **Axes analytiques intersociétés**, sélectionnez les lignes à associer automatiquement, puis choisissez l’action **Faire correspondre à l’axe analytique ayant le même code**.
-3. Pour chaque axe intersociétés qui n’est pas associé automatiquement, renseignez le champ **Code axe à faire correspondre**.
+3. Pour chaque axe analytique intersociété qui n’est pas associé automatiquement, renseignez le champ **Code axe à faire correspondre**.
 
     Vous devrez peut-être ajouter le champ à votre vue. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 4. Choisissez l’action **Sections analytiques intersociétés**.
@@ -135,7 +146,7 @@ Dans les étapes suivantes, vous devez d’abord mapper les axes analytiques int
     Continuez à associer les axes analytiques aux axes analytiques intersociétés en effectuant les mêmes étapes.
 6. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Dimensions**, puis sélectionnez le lien associé.
 7. Sur la page **Axes analytiques**, sélectionnez les lignes à associer automatiquement, puis choisissez l’action **Faire correspondre à l’axe IC ayant le même code**.
-8. Pour chaque axe intersociétés qui n’est pas associé automatiquement, renseignez le champ **Code section analytique axe IC à faire correspondre**.
+8. Pour chaque axe analytique intersociété qui n’est pas associé automatiquement, renseignez le champ **Code sect an. axe IC => corres**.
 9. Choisissez l’action **Sections analytiques intersociétés**.
 10. Sur la page **Sections analytiques**, renseignez le champ **Code section analytique axe IC à faire correspondre**.
 
@@ -144,8 +155,8 @@ Dans les étapes suivantes, vous devez d’abord mapper les axes analytiques int
 [Gestion des transactions intersociétés](intercompany-manage.md)  
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
-[Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

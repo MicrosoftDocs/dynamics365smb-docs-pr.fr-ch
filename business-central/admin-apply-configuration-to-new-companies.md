@@ -1,6 +1,6 @@
 ---
 title: Appliquer une configuration aux nouvelles sociétés
-description: Après avoir créé un package de configuration, déployez le package au niveau de votre client pour l’implémentation. Vous utilisez la configuration avec une nouvelle société vide.
+description: Après avoir créé un package de configuration, déployez le package au niveau de votre client pour l’implémentation. Vous utilisez la configuration avec une nouvelle société vide si vous utilisez RapidStart Services.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 439a717b37d5936c221992bcd7f85bb1d1db42eb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 14b97b1f635fab5671c478106680c2b723ca86c2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141504"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522289"
 ---
-# <a name="apply-configurations-to-new-companies"></a>Appliquer des configurations aux nouvelles sociétés
+# <a name="apply-configurations-to-new-companies-with-rapidstart-services"></a>Appliquer des configurations aux nouvelles sociétés avec RapidStart Services
 Après avoir créé un package de configuration, l’étape suivante consiste à déployer le package au niveau de votre client pour l’implémentation. Vous utilisez le package de configuration dans une nouvelle société vide.  
 
  Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.

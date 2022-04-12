@@ -10,12 +10,12 @@ ms.search.keywords: cost accounting
 ms.search.form: 283, 284
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: f5270acb437ca600e145d0060b34b16f9b20a009
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a803a9a7533de5ff94bbb41e73cc1877a25044af
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140360"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512245"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Utiliser les clés de ventilation dans les feuilles de comptabilité
 Vous pouvez ventiler une écriture dans une feuille comptabilité dans différents comptes lorsque vous validez la feuille. La ventilation peut être effectuée par quantité, pourcentage ou montant.
@@ -42,9 +42,9 @@ Vous pouvez ventiler une écriture dans une feuille comptabilité dans différen
 4. Modifiez les champs appropriés, puis cliquez sur le bouton **OK**.
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
+[Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
 [Validation des documents et des feuilles](ui-post-documents-journals.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

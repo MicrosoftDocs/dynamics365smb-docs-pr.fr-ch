@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 29f4c7286547dcde0332fa587245da47aa2f503c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d421392a4428bc227cdbf6c5532d87e7360fe189
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128661"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519006"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Utiliser des Commandes cadres vente ou des commandes cadres achat
 
@@ -98,7 +98,7 @@ Le lien entre la commande ouverte vente et la commande vente d’origine, et n�
 [Ventes](sales-manage-sales.md)  
 [Création d’ordres d’assemblage permanents](assembly-how-to-create-blanket-assembly-orders.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

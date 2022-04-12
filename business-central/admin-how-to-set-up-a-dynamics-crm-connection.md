@@ -8,12 +8,12 @@ ms.search.keywords: ''
 ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f83764061bb341b0b9d6619a0c5d14cac6b664a9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 57f8091d81870f9e58af80462259006d4cb822ae
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383846"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485073"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Se connecter à Microsoft Dataverse
 
@@ -25,10 +25,10 @@ Cette rubrique décrit comment configurer une connexion entre [!INCLUDE[prod_sho
 
 Avant de créer la connexion, quelques informations doivent être préparées :  
 
-* L’URL pour l’environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)] auquel vous souhaitez vous connecter. Si vous utilisez le guide de configuration assistée **Paramétrage de la connexion Dataverse** pour créer la connexion, nous découvrirons vos environnements, mais vous pouvez également saisir l’URL d’un autre environnement dans votre abonné.  
+* L’URL pour l’environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)] auquel vous souhaitez vous connecter. Si vous utilisez le guide de configuration assistée **Configuration de la connexion Dataverse** pour créer la connexion, nous trouverons vos environnements. Vous pouvez également entrer l’URL d’un autre environnement dans votre abonné.  
 * Le nom d’utilisateur et le mot de passe d’un compte ayant les autorisations administrateur dans [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * Si vous avez une vague de lancement 1 de 2020 [!INCLUDE[prod_short](includes/prod_short.md)] sur site, version 16.5, lisez l’article [Quelques problèmes connus](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). Vous devrez effectuer la solution de contournement décrite avant de pouvoir créer votre connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-* La devise société de l′entreprise dans [!INCLUDE[prod_short](includes/prod_short.md)] doit être identique à la devise de la transaction de base dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Une fois une transaction de base définie dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)], elle ne peut pas être changée. Pour plus d′informations, voir [Entité de devise de transaction (devise)](/powerapps/developer/data-platform/transaction-currency-currency-entity). Autrement dit, toutes les entreprises [!INCLUDE[prod_short](includes/prod_short.md)] que vous connectez à une organisation [!INCLUDE[cds_long_md](includes/cds_long_md.md)] doivent utiliser la même devise.
+* La devise société de l′entreprise dans [!INCLUDE[prod_short](includes/prod_short.md)] doit être identique à la devise de la transaction de base dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Après avoir effectué une transaction dans la devise de base dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)], vous ne pouvez pas la modifier. Pour plus d′informations, voir [Entité de devise de transaction (devise)](/powerapps/developer/data-platform/transaction-currency-currency-entity). Toutes les sociétés [!INCLUDE[prod_short](includes/prod_short.md)] que vous connectez à une organisation [!INCLUDE[cds_long_md](includes/cds_long_md.md)] doivent utiliser la même devise.
 
 > [!IMPORTANT]
 > Votre environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)] ne doit pas être en mode Administration. Le mode Administration entraînera l’échec de la connexion car le compte d’utilisateur d’intégration pour la connexion ne dispose pas des autorisations d’administrateur. Pour plus d’informations, voir [Mode Administration](/power-platform/admin/admin-mode).
@@ -71,14 +71,14 @@ Le guide de configuration de connexion Dataverse peut faciliter la connexion des
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Pour créer ou conserver manuellement la connexion
 
-La procédure suivante décrit comment configurer manuellement la connexion sur la page **Paramétrage de la connexion Dataverse**. Il s’agit également de la page sur laquelle vous gérez les paramètres pour l’intégration.
+La procédure suivante décrit comment configurer manuellement la connexion sur la page **Paramétrage de la connexion Dataverse**. C’est sur la page **Configuration de la connexion Dataverse** que vous gérez les paramètres d’intégration.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration de la connexion Dataverse**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration de la connexion Dataverse**, puis choisissez le lien associé.
 2. Saisissez les informations suivantes pour la connexion de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] vers [!INCLUDE[prod_short](includes/prod_short.md)].
 
     |Champ|Description|
     |-----|-----|
-    |**URL Environnement**|Si vous possédez des environnements dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)], nous les trouverons lorsque vous exécuterez le guide de configuration. Si vous souhaitez vous connecter à un autre environnement dans un autre abonné, vous pouvez saisir les informations d’identification administrateur pour l’environnement et nous les découvrirons. |
+    |**URL Environnement**|Si vous possédez des environnements dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)], nous les trouverons lorsque vous exécuterez le guide de configuration. Si vous souhaitez vous connecter à un autre environnement dans un autre abonné, vous pouvez saisir les informations d’identification administrateur pour l’environnement et nous les trouverons. |
     |**Activé**|Commencez avec l’intégration. Si vous n’activez pas la connexion tout de suite, les paramètres de connexion seront sauvegardés, mais les utilisateurs ne seront pas en mesure d’accéder aux données [!INCLUDE[cds_long_md](includes/cds_long_md.md)] à partir de [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez revenir sur cette page et activer la connexion ultérieurement.  |
 
 3. Dans le champ **Modèle de propriété**, choisissez si vous souhaitez une table Équipe dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)] pour posséder de nouveaux enregistrements, ou un ou plusieurs utilisateurs spécifiques. Si vous choisissez **Personne**, vous devez indiquer chaque utilisateur. Si vous choisissez **Équipe**, le centre de profit par défaut s’affiche dans le champ **Centre de profit couplé**.
@@ -88,7 +88,7 @@ La procédure suivante décrit comment configurer manuellement la connexion sur 
 
     <!-- |Field|Description|
     |-----|-----|
-    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
+    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you're using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who don't have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account won't have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
     |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field|-->
 4. Pour tester les paramètres de connexion, choisissez **Connexion**, puis **Tester la connexion**.  
 
@@ -107,35 +107,33 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 ## <a name="customize-the-match-based-coupling"></a>Personnaliser le couplage par correspondance
 
-À partir de la deuxième vague de lancement de 2021, vous pouvez coupler des enregistrements dans [!INCLUDE [prod_short](includes/prod_short.md)] et [!INCLUDE [cds_long_md](includes/cds_long_md.md)] sur la base de critères de correspondance définis par l’administrateur.  
-
-L’algorithme de correspondance des enregistrements peut être lancé à partir des emplacements suivants dans [!INCLUDE [prod_short](includes/prod_short.md)] :
+À partir de la 2e vague de lancement de 2021, un administrateur peut saisir des critères pour coupler des enregistrements en fonction de correspondances. Vous pouvez lancer l’algorithme de correspondance des enregistrements à partir des emplacements suivants dans [!INCLUDE [prod_short](includes/prod_short.md)] :
 
 * Les pages de liste qui affichent les enregistrements synchronisés avec [!INCLUDE [cds_long_md](includes/cds_long_md.md)], telles que les pages Clients et Articles.  
 
     Sélectionnez plusieurs enregistrements, puis choisissez l’action **Associé**, choisissez **Dataverse**, choisissez **Couplage**, puis choisissez **Couplage par correspondance**.
 
-    Lorsque le processus de couplage par correspondance est lancé à partir d’une liste de données de base, une tâche de couplage sera planifiée directement après que vous ayez sélectionné les critères de couplage.  
+    Lorsque vous démarrez le processus de couplage par correspondance à partir d’une liste de données de base, une tâche de couplage est planifiée directement après que vous ayez spécifié les critères de couplage.  
 * La page **Révision synchronisation complète Dataverse**.  
 
-    Lorsque le processus de synchronisation complet détecte que vous avez des enregistrements découplés à la fois dans [!INCLUDE [prod_short](includes/prod_short.md)] et [!INCLUDE [cds_long_md](includes/cds_long_md.md)], un lien **Sélectionner les critères de couplage** apparaît pour la table d’intégration appropriée.  
+    Lorsque le processus de synchronisation complet détecte que vous avez des enregistrements découplés à la fois dans [!INCLUDE [prod_short](includes/prod_short.md)] et [!INCLUDE [cds_long_md](includes/cds_long_md.md)], un lien **Sélectionner les critères de couplage** apparaît pour la table d’intégration.  
 
-    Vous pouvez démarrer le processus **Exécuter la synchronisation complète** à partir des pages **Configuration de la connexion Dataverse** et **Configuration de la connexion Dynamics 365**, et il peut être lancé en tant qu’étape dans le guide de configuration assistée **Établir une connexion à Dataverse** lorsque vous choisissez de mener à bien la configuration et d’exécuter la synchronisation complète à la fin.  
+    Vous pouvez lancer le processus **Exécuter la synchronisation complète** depuis les pages **Configuration de la connexion Dataverse** et **Configuration de la connexion Dynamics 365**. Vous pouvez également le lancer dans le guide de configuration assistée **Configurer une connexion à Dataverse** lorsque vous avez terminé votre configuration.  
 
-    Lorsque le processus de couplage par correspondance est lancé à partir de la page **Révision synchronisation complète Dataverse**, une tâche de couplage sera planifiée directement après que vous ayez réalisé la configuration.  
+    Lorsque vous lancez le processus de couplage par correspondance à partir de la page **Révision synchronisation complète Dataverse**, une tâche de couplage est planifiée après que vous ayez terminé la configuration.  
 * La liste **Mappages de table d’intégration**.  
 
     Sélectionnez un mappage, choisissez l’action **Couplage**, puis choisissez **Couplage par correspondance**.
 
-    Lorsque le processus de couplage par correspondance est démarré à partir d’un mappage de table d’intégration, une tâche de couplage s’exécute pour tous les enregistrements non couplés dans ce mappage. Si elle a été exécutée pour un ensemble d’enregistrements sélectionnés dans la liste, elle ne s’exécutera que pour les enregistrements non couplés sélectionnés.
+    Lorsque vous lancez le processus de couplage par correspondance à partir du mappage d’une table d’intégration, une tâche de couplage s’exécute pour tous les enregistrements non couplés dans le mappage. Vous pouvez également sélectionner des enregistrements non couplés dans la liste pour exécuter la tâche uniquement pour ces enregistrements.
 
 Dans les trois cas, la page **Sélectionner les critères de couplage** s’ouvre pour vous permettre de définir les critères de couplage pertinents. Dans cette page, personnalisez le couplage avec les tâches suivantes :
 
-* Choisissez les champs selon lesquels faire correspondre les enregistrements [!INCLUDE [prod_short](includes/prod_short.md)] et les entités [!INCLUDE [cds_long_md](includes/cds_long_md.md)], et choisissez également si la correspondance sur ces champs sera sensible à la casse ou non.  
+* Choisissez les champs à utiliser pour faire correspondre les enregistrements [!INCLUDE [prod_short](includes/prod_short.md)] avec les entités [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Vous pouvez spécifier si la correspondance est sensible à la casse.  
 
-* Spécifiez s’il faut exécuter une synchronisation après le couplage des enregistrements et, si l’enregistrement utilise un mappage bidirectionnel, choisissez également ce qui se passe si des conflits sont répertoriés dans la page **Résoudre les conflits de mise à jour**.  
+* Spécifiez s’il faut synchroniser après avoir couplé des enregistrements. Si les enregistrements utilisent le mappage bidirectionnel, vous pouvez également spécifier ce qui se produit si des conflits sont répertoriés sur la page **Résoudre les conflits de mise à jour**.  
 
-* Hiérarchisez l’ordre de recherche des enregistrements en spécifiant une *priorité de correspondance* pour les champs de mappage pertinents. Les priorités de correspondance obligent l’algorithme à rechercher une correspondance dans un nombre d’itérations défini par les valeurs du champ **Priorité de correspondance** dans l’ordre croissant. Une valeur vide dans le champ **Priorité de correspondance** est interprétée comme une priorité 0, les champs avec cette valeur sont donc pris en compte en premier.  
+* Hiérarchisez l’ordre de recherche des enregistrements en spécifiant une *priorité de correspondance* pour les champs de mappage pertinents. [!INCLUDE [prod_short](includes/prod_short.md)] recherchera une correspondance dans l’ordre croissant en fonction de la valeur du champ **Priorité de correspondance**. Une valeur vide dans le champ **Priorité de correspondance** est égale à la priorité 0, qui est la priorité la plus élevée. Les champs avec la priorité 0 sont pris en compte en premier.  
 
 * Spécifiez s’il faut créer une nouvelle instance d’entité dans [!INCLUDE [cds_long_md](includes/cds_long_md.md)] au cas où aucune correspondance non couplée unique ne peut être trouvée en utilisant les critères de correspondance. Pour activer cette fonctionnalité, choisissez l’action **Créer si impossible de trouver une correspondance**.  
 
@@ -143,48 +141,44 @@ Dans les trois cas, la page **Sélectionner les critères de couplage** s’ouvr
 
 Pour afficher les résultats de la tâche de couplage, ouvrez la page **Mappages de table d’intégration**, sélectionnez le mappage pertinent, choisissez l’action **Couplage**, puis choisissez l’action **Journal des tâches de couplage d’intégration**.  
 
-S’il y a des enregistrements qui n’ont pas été couplés, vous pouvez explorer la valeur dans la colonne Échec, ce qui ouvrira une liste d’erreurs spécifiant pourquoi les enregistrements n’ont pas été couplés.  
+Si les enregistrements n’ont pas pu être couplés, vous pouvez choisir la valeur de la colonne **Échec** pour ouvrir une liste d’erreurs décrivant pourquoi cela s’est produit.  
 
-L’échec du couplage se produit souvent dans les cas suivants :
+En général, le couplage échoue pour les raisons suivantes :
 
 * Aucun critère de correspondance n’a été défini
 
-    Dans ce cas, exécutez à nouveau le couplage par correspondance, mais n’oubliez pas de définir les critères de couplage.
+    Exécutez à nouveau le couplage par correspondance, mais n’oubliez pas de définir les critères de couplage.
 
-* Aucune correspondance n’a été trouvée pour un certain nombre d’enregistrements, sur la base des champs de correspondance choisis
+* Aucune correspondance n’a été trouvée pour les champs spécifiés dans les critères de correspondance
 
-    Dans ce cas, répétez le couplage avec d’autres champs de correspondance.
+    Répétez le couplage en utilisant différents champs.
 
-* Plusieurs correspondances ont été trouvées pour un certain nombre d’enregistrements, sur la base des champs de correspondance choisis  
+* Plusieurs correspondances ont été trouvées pour plusieurs enregistrements en fonction des champs spécifiés dans les critères de correspondance  
 
-    Dans ce cas, répétez le couplage avec d’autres champs de correspondance.
+    Répétez le couplage en utilisant différents champs.
 
-* Une seule correspondance a été trouvée, mais l’enregistrement correspondant est déjà couplé à un autre enregistrement dans [!INCLUDE [prod_short](includes/prod_short.md)]  
+* Une correspondance a été trouvée, mais l’enregistrement est déjà couplé à un enregistrement dans [!INCLUDE [prod_short](includes/prod_short.md)]  
 
-    Dans ce cas, répétez le couplage avec d’autres champs de correspondance, ou recherchez pourquoi telle entité [!INCLUDE [cds_long_md](includes/cds_long_md.md)] est couplée à tel autre enregistrement dans [!INCLUDE [prod_short](includes/prod_short.md)].
+    Répétez le couplage en utilisant différents champs ou recherchez pourquoi cette entité [!INCLUDE [cds_long_md](includes/cds_long_md.md)] est couplée à l’enregistrement dans [!INCLUDE [prod_short](includes/prod_short.md)].
 
 > [!TIP]
-> Pour vous aider à avoir une vue d’ensemble de la progression du couplage, le champ **Couplé à Dataverse** indique si un enregistrement spécifique est couplé à une entité [!INCLUDE [cds_long_md](includes/cds_long_md.md)] ou non. Vous pouvez filtrer la liste des enregistrements synchronisés avec [!INCLUDE [cds_long_md](includes/cds_long_md.md)] selon ce champ.
+> Pour vous aider à avoir une vue d’ensemble de la progression du couplage, le champ **Couplé à Dataverse** indique si un enregistrement est couplé à une entité [!INCLUDE [cds_long_md](includes/cds_long_md.md)] . Vous pouvez utiliser le champ **Couplé à Dataverse** pour filtrer la liste des enregistrements que vous synchronisez.
 
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Mettre à niveau les connexions de Business Central Online pour utiliser l’authentification basée sur les certificats
 > [!NOTE]
 > Cette section s’applique uniquement aux locataires [!INCLUDE[prod_short](includes/prod_short.md)] en ligne hébergés par Microsoft. Les locataires en ligne hébergés par les développeurs de logiciels indépendants et les installations locales ne sont pas affectés.
 
-En avril 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] désapprouve le type d’authentification Office365 (nom d’utilisateur/mot de passe). Pour en savoir plus, voir [ Abandon du type d’authentification Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). De plus, en mars 2022, [!INCLUDE[prod_short](includes/prod_short.md)] abandonne l’utilisation de l’authentification service à service basée sur le secret client pour les locataires en ligne, et nécessitera l’utilisation de l’authentification service à service basée sur un certificat pour les connexions à [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Les locataires de [!INCLUDE[prod_short](includes/prod_short.md)] Online hébergés par les éditeurs de logiciels indépendants et les installations sur site peuvent continuer à utiliser l’authentification basée sur le secret client pour se connecter à [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+En avril 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] abandonne le type d’authentification Office365 (nom d’utilisateur/mot de passe). Pour en savoir plus, voir [ Abandon du type d’authentification Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). De plus, en mars 2022, [!INCLUDE[prod_short](includes/prod_short.md)] abandonne l’utilisation de l’authentification de service à service basée sur le secret client pour les abonnés en ligne. Vous devez utiliser l’authentification de service à service basée sur un certificat pour les connexions à [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Les abonnés [!INCLUDE[prod_short](includes/prod_short.md)] Online hébergés par les éditeurs de logiciels indépendants et les installations sur site peuvent continuer à utiliser l’authentification basée sur le secret client pour l’authentification.
 
 Pour éviter de perturber les intégrations, _vous devez mettre à niveau_ la connexion pour utiliser l’authentification par certificat. Bien que le changement soit prévu pour mars 2022, nous vous recommandons fortement de mettre à niveau dès que possible. Les étapes suivantes décrivent comment effectuer une mise à niveau vers l’authentification par certificat. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Pour mettre à niveau votre connexion de Business Central Online pour utiliser l’authentification basée sur les certificats
 
-> [!NOTE]
-> L’authentification basée sur les certificats est disponible dans la 1ère vague de lancement Business Central 2021 et versions ultérieures. Si vous utilisez une version antérieure, vous devez planifier une mise à jour vers la première vague de la version de Business Central 2021 avant mars 2022. Pour plus d’informations, consultez [Planification des mises à jour](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Si vous rencontrez des problèmes, contactez votre partenaire ou l’assistance.
-
-1. Dans le [Centre d’administration de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), vérifiez que vous utilisez la 1re vague de lancement 2021 de Business Central 2021 ou ultérieure (version 18 ou ultérieure).
-2. Selon que vous intégrez ou non à Dynamics 365 Sales, effectuez l’une des opérations suivantes :
+1. Selon que vous intégrez ou non à Dynamics 365 Sales, effectuez l’une des opérations suivantes :
    * Si vous le faites, ouvrez la page **Configuration de la connexion Microsoft Dynamics 365**.
    * Si vous ne le faites pas, ouvrez la page **Configuration de la connexion Dataverse**.
-3. Choisissez **Connexion**, puis **Utiliser l’authentification par certificat** pour mettre à niveau la connexion afin d’utiliser l’authentification basée sur un certificat.
-4. Connectez-vous avec les informations d’identification d’administrateur pour Dataverse. La connexion devrait prendre moins d’une minute.
+2. Choisissez **Connexion**, puis **Utiliser l’authentification par certificat** pour mettre à niveau la connexion afin d’utiliser l’authentification basée sur un certificat.
+3. Connectez-vous avec les informations d’identification d’administrateur pour Dataverse. La connexion doit prendre moins d’une minute.
 
 > [!NOTE]
 > Vous devez répéter ces étapes dans chaque environnement [!INCLUDE[prod_short](includes/prod_short.md)], y compris les environnements de production et de bac à sable, et dans chaque entreprise où vous êtes connecté à [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
@@ -193,7 +187,7 @@ Pour éviter de perturber les intégrations, _vous devez mettre à niveau_ la co
 
 Pour connecter [!INCLUDE[prod_short](includes/prod_short.md)] sur site à [!INCLUDE[cds_long_md](includes/cds_long_md.md)], vous devez spécifier quelques informations sur la page **Configuration de la connexion Dataverse**.
 
-Si vous souhaitez vous connecter à l’aide d’un compte Azure Active Directory (Azure AD), vous devez enregistrer une application dans Azure AD et fournir l’ID d’application, le secret Key Vault et l’URL de redirection à utiliser. L’URL de redirection est pré-remplie et devrait fonctionner pour la plupart des installations. Vous devez configurer votre installation pour utiliser HTTPS. Pour plus d’informations, voir [Configuration de SSL pour sécuriser la connexion du client Web Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Si vous configurez votre serveur pour avoir une page d’accueil différente, vous pouvez toujours changer l’URL. Le secret client sera enregistré sous forme de chaîne cryptée dans votre base de données. 
+Pour se connecter à l’aide d’un compte Azure Active Directory (Azure AD), vous devez enregistrer une application dans Azure AD. Vous devrez fournir l’ID de l’application, le secret du coffre de clés et l’URL de redirection à utiliser. L’URL de redirection est pré-remplie et devrait fonctionner pour la plupart des installations. Vous devez configurer votre installation pour utiliser HTTPS. Pour plus d’informations, voir [Configuration de SSL pour sécuriser la connexion du client Web Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Si vous configurez votre serveur pour avoir une page d’accueil différente, vous pouvez changer l’URL. Le secret client sera enregistré sous forme de chaîne cryptée dans votre base de données. 
 
 ### <a name="prerequisites"></a>Conditions préalables
 
@@ -221,7 +215,7 @@ Les étapes suivantes supposent que vous utilisez Azure AD pour gérer les ident
     > Le nom de l’API Dynamics CRM peut changer.
 
 5. Sous **Gérer**, choisissez **Certificats et secrets**, puis créez un nouveau secret pour votre application. Vous utiliserez le secret soit dans [!INCLUDE[prod_short](includes/prod_short.md)], dans le champ **Secret client** sur la page **Configuration de la connexion Dataverse** ou stockez-le dans un stockage sécurisé et fournissez-le dans un souscripteur d’événements, comme décrit précédemment dans cette rubrique.
-6. Choisissez **Aperçu**, puis recherchez la valeur **ID application (client)**. Il s’agit de l’ID client de votre application. Vous devez le saisir soit sur la page **Configuration de la connexion Dataverse** dans le champ **ID client** ou stockez-le dans un stockage sécurisé et fournissez-le à un souscripteur d’événements.
+6. Choisissez **Aperçu**, puis recherchez la valeur **ID application (client)**. Cet ID est l’ID client de votre application. Vous devez le saisir soit sur la page **Configuration de la connexion Dataverse** dans le champ **ID client** ou stockez-le dans un stockage sécurisé et fournissez-le à un souscripteur d’événements.
 7. Dans [!INCLUDE[prod_short](includes/prod_short.md)], sur la page **Configuration de la connexion Dataverse**, dans le champ **URL Environnement**, saisissez l’URL de votre environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 8. Pour activer la connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)], activez le bouton bascule **Activé**.
 9. Connectez-vous avec votre compte administrateur pour Azure Active Directory (ce compte doit avoir une licence valide pour [!INCLUDE[cds_long_md](includes/cds_long_md.md)] et être administrateur dans votre environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)]). Une fois connecté, vous serez invité à autoriser votre application enregistrée à se connecter à [!INCLUDE[cds_long_md](includes/cds_long_md.md)] au nom de l’organisation. Vous devez donner votre accord pour terminer la configuration.

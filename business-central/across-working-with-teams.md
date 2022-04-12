@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d8ca98d4e13d50bcf58f4a66956c33b1d0996f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147127"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528464"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Partage d’enregistrements et de liens de page Business Central dans Microsoft Teams
 
@@ -45,7 +45,7 @@ Les sections suivantes décrivent en détail les différentes méthodes.
 
 Avec l’application Business Central pour Teams, vous pouvez copier un lien à partir de n’importe quel enregistrement Business Central, comme un client ou une commande client, et coller le lien dans une conversation Teams. L’application connecte Microsoft Teams à vos données métier dans [!INCLUDE [prod_short](includes/prod_short.md)]\. Elle développe ensuite le lien en une fiche interactive compacte qui affiche des informations sur l’enregistrement. Une fois dans la conversation, vous et vos collègues pouvez afficher plus de détails sur l’enregistrement, modifier les données et prendre des mesures, sans quitter Teams.
 
-[![Intégration Teams avec Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Intégration Teams avec Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 ### <a name="prerequisites"></a>Conditions préalables
 
@@ -60,38 +60,36 @@ Avec l’application Business Central pour Teams, vous pouvez copier un lien à 
 1. Connectez-vous à [!INCLUDE [prod_short](includes/prod_short.md)] en utilisant votre navigateur.
 2. Ouvrez l’enregistrement que vous souhaitez partager.
 
-    L’application est conçue pour afficher des pages de type fiche à partir de [!INCLUDE [prod_short](includes/prod_short.md)]\. Ouvrez une page qui affiche un seul enregistrement, comme un article, un client ou une commande client. Vous ne pouvez pas l’utiliser pour les tableaux de bord ou les pages qui affichent plusieurs enregistrements dans une liste.
+    L’application est conçue pour afficher une carte pour presque tous les types de page [!INCLUDE [prod_short](includes/prod_short.md)]. Mais c’est lorsqu’elle est utilisée pour les pages qui affichent un seul enregistrement, tel qu’un article, un client ou une commande client, qu’elle offre la meilleure expérience.
+3. Copiez le lien vers la page.
 
-3. Copiez l’URL entière de la barre d’adresse du navigateur.
+    Vous pouvez copier le lien de deux manières. La manière la plus simple et préférée consiste à sélectionner **Partager** ![Icône Partager dans Business Central](media/share-icon.png) > **Copier le lien**. L’autre manière consiste à copier l’URL entière à partir de la barre d’adresse du navigateur.
 
-   ![Copiez l’URL de Business Central à partir du navigateur.](media/teams-url-v2.png)
+    [![Copier l’URL de Business Central à partir du navigateur.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 4. Accédez à Teams et démarrez une conversation, qui peut être une discussion avec une personne, un groupe de personnes ou un canal d’équipe.
+5. Collez le lien (URL) dans la zone de message où vous composez un message.
 
-    <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Collez l’URL dans la zone de message où vous composez un message.
+    ![Collez l’URL de Business Central dans Teams.](media/teams-paste-url-v2.png)
 
-   ![Collez l’URL de Business Central dans Teams.](media/teams-paste-url-v2.png)
+    > [!TIP]
+    > Si vous recevez un message du type : *Business Central souhaite afficher un aperçu de ce lien.*, cela signifie que l’application Business Central pour Teams n’est pas installée. Pour installer l’application, sélectionnez **Afficher l’aperçu** et suivez les instructions.
 6. La première fois que vous collez un lien dans une conversation, vous serez invité à vous connecter à [!INCLUDE [prod_short](includes/prod_short.md)] et à autoriser l’application à récupérer des données. Suivez simplement les instructions à l’écran.
 
     > [!NOTE]
     > Vous ne devez effectuer cette étape qu’une seule fois.
-
 7. Attendez un moment pendant qu’une fiche soit générée dans la boîte de message.
-
 8. Lorsque la fiche apparaît, examinez attentivement don contenu pour toute information sensible avant d’envoyer le message. Cette étape est importante, car une fois que vous envoyez le message, tous les participants à la conversation peuvent voir la fiche.
-
 9. Si la fiche semble bonne, sélectionnez **Envoyer** pour la soumettre à la conversation.
 
     > [!TIP]
     > Après l’apparition de la fiche et avant de sélectionner **Envoyer**, vous pouvez supprimer l’URL collée si vous le souhaitez.
-
 10. Pour afficher plus de détails ou apporter des modifications à l’enregistrement montré dans la fiche, sélectionnez **Détails**. Pour plus d’informations, voir la section suivante.
 
 ### <a name="view-card-details"></a>Afficher les détails de la fiche
 
-Une fois qu’une fiche a été envoyée à une conversation, tous les participants avec les [autorisations appropriées](admin-teams-integration.md#permissions) peuvent sélectionner **Détails** pour ouvrir une fenêtre qui affiche plus d’informations sur l’enregistrement&mdash; et éventuellement apporter des modifications à l’enregistrement. Peu importe que vous soyez celui qui envoie la fiche ou celui qui la reçoit. La fonctionnalité **Détails** est particulièrement utile pour les destinataires, car elle leur fournit rapidement des informations concises et ciblées sur l’enregistrement, au lieu de devoir scanner l’intégralité de l’enregistrement.
+Une fois qu’une fiche a été envoyée à une conversation, tous les participants avec les [autorisations appropriées](admin-teams-integration.md#permissions) peuvent sélectionner **Détails** pour ouvrir une fenêtre qui affiche plus d’informations sur l’enregistrement&mdash; et éventuellement apporter des modifications à l’enregistrement. Peu importe que vous soyez celui qui envoie la fiche ou celui qui la reçoit. La fonctionnalité **Détails** est particulièrement utile pour les destinataires, car elle leur fournit rapidement des informations concises et ciblées sur l’enregistrement.
 
-La fenêtre de détails est similaire à ce que vous voyez dans l’enregistrement [!INCLUDE [prod_short](includes/prod_short.md)]. Mais elle est légèrement rognée pour Teams. Lorsque vous avez terminé de consulter et d’apporter des modifications, fermez la fenêtre pour revenir à la conversation Teams.
+La fenêtre de détails est similaire à ce que vous voyez dans [!INCLUDE [prod_short](includes/prod_short.md)], mais elle se concentre sur la page ou l’enregistrement sur lequel porte la carte. Lorsque vous avez terminé de consulter et d’apporter des modifications, fermez la fenêtre pour revenir à la conversation Teams.
 
 Voici quelques points à garder à l’esprit lorsque vous travaillez avec les détails de la fiche :
 

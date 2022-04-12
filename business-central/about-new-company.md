@@ -10,46 +10,47 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f05fcf2fc3137fbdf97940e5b3d73922180253b4
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: bef90a9dab30391f310458cb0dde58cc4fac5268
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323180"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519370"
 ---
-# <a name="creating-new-companies-in-prod_short"></a>Création de sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="create-new-companies-in-prod_short"></a>Créer des sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Dans [!INCLUDE[prod_short](includes/prod_short.md)], le conteneur pour les données métier appartenant à une unité commerciale ou une entité juridique sont désignés en tant que *société*. Lorsque vous vous connectez à [!INCLUDE[prod_short](includes/prod_short.md)], une société de démonstration et une société vide vous sont attribuées, *Ma société*. Le basculement entre sociétés est facile : accédez simplement à **Mes paramètres** et passez à l’autre société. Vous pouvez également créer de nouvelles sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)], selon les besoins de votre activité. Lorsque vous créez une société, un guide de configuration assistée vous permet d’obtenir les fondements de base. Ensuite, vous pouvez importer des données appropriées à partir de votre système hérité ou d’une autre société dans [!INCLUDE[prod_short](includes/prod_short.md)].  
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], le conteneur pour les données métier appartenant à une unité commerciale ou une entité juridique sont désignés en tant que *société*. Lorsque vous vous connectez à [!INCLUDE[prod_short](includes/prod_short.md)], une société de démonstration et une société vide vous sont attribuées, *Ma société*. Le basculement entre sociétés est facile : accédez simplement à **Mes paramètres** et passez à l’autre société. Vous pouvez également créer de nouvelles sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)], selon les besoins de votre activité.  
 
-## <a name="creating-a-new-company"></a>Création d’une nouvelle société
+Lorsque vous créez une société, un guide de configuration assistée vous permet d’obtenir les fondements de base. Ensuite, vous pouvez importer des données appropriées à partir de votre système hérité ou d’une autre société dans [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+## <a name="choose-the-right-template"></a>Choisir le bon modèle
 
 Si vous décidez d’ajouter une société à votre [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez utiliser le guide de configuration assistée **Créer une nouvelle société** pour démarrer. L’assistant de configuration est disponible à partir de la page **Sociétés** et depuis la zone de recherche dans le champ **Société** de la page **Mes paramètres**.  
 
-L’assistant de configuration propose trois modèles et une option vierge :
+L’assistant de configuration propose deux modèles et une option vierge :
 
 - **Évaluation - Exemples de données**  
-    Cela crée une société qui est similaire à la société de démonstration avec des exemples de données et des données de configuration.  
+    Cela crée une société qui est similaire à la société de démonstration avec des exemples de données et des données de configuration. Ce type d’entreprise est à votre disposition sans passer à [une période d’essai de 30 jours](across-preview.md#add-your-own-data-to-an-empty-trial-company), ce que font les autres types.  
 - **Production - Données de configuration uniquement**  
-    Cela crée une société qui est similaire à **Ma société** avec des données de configuration, mais sans exemples de données.
-- **Évaluation avancée - Exemple de données complètes** Cela crée une société avec des données de configuration et des exemples de données complètes pour toutes les fonctions, y compris la production et la gestion des services.
+    Cela crée une société qui est similaire à **Ma société** avec des données de configuration, mais sans exemples de données. Vous pourrez utiliser cette société pendant une [période d’évaluation de 30 jours](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
 - **Créer nouveau - Aucune donnée**  
-    Cela crée une société vide sans données de configuration.  
+    Cela crée une société vide sans données de configuration. Vous pourrez utiliser cette société pendant une [période d’évaluation de 30 jours](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
 
 Si vous souhaitez démarrer facilement avec une nouvelle société, sélectionnez **Production - Données de configuration uniquement**, puis importez vos propres données métier, telles que les clients, les articles et les fournisseurs. Choisissez le modèle **Nouveau** si vous souhaitez tout redéfinir à zéro. Dans ce cas, vous pouvez utiliser le guide de configuration assistée **Configuration de la société** pour vous aider à commencer par des données de configuration essentielles.  
 
 > [!NOTE]  
 > Lorsque vous créez une société, cela prend quelques minutes avant de pouvoir y accéder dans [!INCLUDE[prod_short](includes/prod_short.md)]. L’état de configuration sur la page **Sociétés** s’affiche lorsque la nouvelle société est prête pour vous. Ensuite, vous pouvez basculer vers la nouvelle société en utilisant **Mes paramètres**.  
 
-Au cours de votre période d’évaluation de 30 jours, vous pouvez créer autant de sociétés que vous voulez, mais elles ne seront disponibles que durant cette période d’évaluation. Pour plus d’informations, contactez votre partenaire [!INCLUDE[prod_short](includes/prod_short.md)].  
+Au cours de votre période d’évaluation de 30 jours, vous pouvez créer autant de sociétés que vous voulez, mais elles ne seront disponibles que durant cette période d’évaluation. Pour plus d’informations, contactez votre partenaire [!INCLUDE[prod_short](includes/prod_short.md)]. Voir aussi l’article [FAQ sur la version d’essai Dynamics 365 Business Central](trial-faq.md).  
 
-## <a name="copying-a-company"></a>Copier une société
+## <a name="copy-a-company"></a>Copier une société
 
 Sur la page **Sociétés**, vous pouvez utiliser l’action **Copier** pour créer une deuxième société sur la base du contenu d’une société existante. Ceci est utile, par exemple, lorsque vous souhaitez tester une société sans perturber les données de production.
 
 > [!Important]
 > Cette fonction ne peut pas être utilisée pour sauvegarder une société. La sauvegarde d’une société commence par l’exportation de la base de données sous la forme d’un fichier .bacpac. Pour plus d’informations, voir [Exportation de bases de données](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) dans Aide dédiée au développement et à l’administration.
 
-## <a name="company-setup"></a>Configuration de la société
+## <a name="set-up-the-company"></a>Configurer la société
 
 Lorsque vous vous connectez à une nouvelle société, l’Assistant **Configuration de la société** s’exécute automatiquement et vous permet de démarrer. Il vous sera demandé des informations sur votre activité, telles que l’adresse, les coordonnées bancaires et le mode d’évaluation du stock. Ces informations sont nécessaires parce qu’elles servent de base dans plusieurs zones de [!INCLUDE[prod_short](includes/prod_short.md)], ce qui vous évitera de les configurer manuellement plus tard.  
 
@@ -57,26 +58,31 @@ Par exemple, l’adresse de votre société est incluse dans les factures et aut
 
 Une fois les bases en place, vous pouvez configurer les zones de base restantes. Maintenant, vous êtes prêt à ajouter des données métier, telles que les clients et les fournisseurs. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## <a name="companies-and-environments"></a>Entreprises et environnements
+## <a name="companies-and-environments"></a>Sociétés et environnements
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
-Pour plus d’informations, voir [Passer à une autre entreprise ou un autre environnement](ui-organization-switch.md). 
+Pour plus d’informations, voir [Passer à une autre entreprise ou un autre environnement](ui-organization-switch.md). Pour plus d’informations sur les environnements, voir [Comprendre l’infrastructure de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (en anglais uniquement).  
 
-## <a name="changing-a-companys-name"></a>Changer le nom d’une entreprise
+## <a name="changing-a-companys-name"></a>Changer le nom d’une société
 
 Une fois qu’une entreprise a été créée, vous ne pouvez pas changer son nom. Mais vous pouvez changer son **Nom complet**, qui est le texte qui sera affiché pour l’entreprise tout au long de l’application.  
 
 > [!TIP]
 > Vous pouvez renommer une entreprise si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site.
 
+## <a name="add-contoso-coffee"></a>Ajouter Contoso Coffee
+
+L’application Contoso Coffee fournit des données de démonstration qui peuvent vous aider à explorer les fonctionnalités avancées de [!INCLUDE [prod_short](includes/prod_short.md)]. Trouvez l’application dans AppSource et installez-la dans une société vide, par exemple une société dans un environnement sandbox. Pour plus d’informations, voir [Présentation des données de démonstration Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
+
 ## <a name="see-also"></a>Voir aussi
 
-[Personnalisation de Business Central](ui-customizing-overview.md)  
+[Personnalisation de Business Central](ui-customizing-overview.md)  
 [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
-
+[Versions d’évaluation et abonnements](across-preview.md)  
+[Comprendre l’infrastructure de Business Central Online (en anglais uniquement)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

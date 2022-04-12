@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fe9717f871fdc1db782ceeda4cbad267abddca90
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: afc3391712ca33ae01d916dc4f9ed2421a0451f0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383442"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519533"
 ---
-# <a name="using-word-templates-for-bulk-communication"></a>Utilisation de modèles Word pour la communication en masse
+# <a name="use-word-templates-for-bulk-communication"></a>Utiliser des modèles Word pour la communication en masse
 Les modèles Microsoft Word peuvent faciliter la communication de masse par documents papier ou e-mails avec des entités telles que les contacts, les clients et les fournisseurs. Par exemple, vous pouvez créer des brochures pour alerter les clients sur une campagne de vente, des lettres pour informer les fournisseurs d’une nouvelle politique d’achat ou des invitations à attirer des contacts pour un événement à venir.
 
 > [!NOTE]
@@ -55,7 +55,7 @@ Lorsque votre modèle Word est prêt, sur la page **Modèles Word** vous pouvez 
 
 Vous pouvez appliquer des modèles à une ou plusieurs entités du même type, comme un contact, directement dans le contexte de cette page ou à partir de la page Modèles Word pour appliquer le modèle à toutes les entités de ce type.
 
-## <a name="using-word-templates-with-email"></a>Utilisation de modèles Word avec la messagerie
+## <a name="use-word-templates-with-email"></a>Utiliser des modèles Word avec la messagerie
 Vous pouvez utiliser des modèles Word pour ajouter du contenu aux messages électroniques. Lorsque vous rédigez un e-mail, vous pouvez choisir l’action **Utiliser un modèle Word** pour appliquer le contenu d’un modèle au message. Cela nécessite que vous ayez créé un ou plusieurs modèles pour l’entité. Vous pouvez utiliser un modèle à la fois et lorsque vous passez d’un modèle à l’autre, le message change pour refléter le contenu du modèle choisi.
 
 De plus, vous pouvez utiliser l’action **Ajouter un fichier à partir d’un modèle Word** pour joindre le contenu du modèle à l’e-mail sous forme de fichier. Le fichier utilisera le format que vous avez spécifié pour la sortie du modèle.

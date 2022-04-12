@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3a6d6b680ebfb89c376872d2dcd5cb6fb535d4a3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c4ea2854ccc287b95c42bf942389d4dbfb2fd2e3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383310"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523620"
 ---
 # <a name="set-up-prices-and-discounts"></a>Configurer les prix et les remises
 > [!NOTE]
@@ -99,7 +99,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 ---
 
-## <a name="working-with-invoice-discounts-and-service-charges"></a>Utilisation des remises facture et des frais forfaitaires
+## <a name="work-with-invoice-discounts-and-service-charges"></a>Utiliser des remises facture et des frais forfaitaires
 Lorsque vous utilisez des remises facture, la valeur du montant de la facture détermine celle de la remise accordée. Dans la page **Remises facture**, vous pouvez également ajouter des frais forfaitaires aux factures supérieures à un montant donné.  <!--The Invoice Discounts page is hard to find.-->
 
 Pour pouvoir utiliser les remises facture avec les ventes, vous devez saisir certaines informations dans l’application. Vous devez décider quels clients bénéficieront de ce type de remise et les pourcentages remise que vous utiliserez.  
@@ -198,4 +198,4 @@ Lorsque vous avez enregistré des prix spéciaux et des remises ligne pour les v
 ## <a name="see-also"></a>Voir aussi
 [Définition des ventes](sales-setup-sales.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

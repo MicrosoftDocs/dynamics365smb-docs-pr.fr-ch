@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 1f7154c438437aacb3788c91ad9c17bba8673477
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 16da8facc119a9cacf86b0603baef24bf819558a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335359"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522473"
 ---
 # <a name="view-test-reports-before-posting"></a>Afficher des états de test avant la validation
 Lorsque vous êtes prêt à valider un document (commande, facture ou avoir, par exemple), vous pouvez vérifier le document pour vous assurer qu’aucun problème ne risque de bloquer la validation.
@@ -31,7 +31,7 @@ Tous les éléments de la facture achat sont vérifiés et le résultat est pré
 
 ## <a name="see-also"></a>Voir aussi
 [Validation des documents et des feuilles](ui-post-documents-journals.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

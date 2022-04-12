@@ -10,12 +10,12 @@ ms.search.keywords: rfq
 ms.search.form: 41, 9300
 ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a493c2de0747e7674bd9e9771b63f8d3ddd1f534
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0264e689947745122d3de8879dc7e050aef3103f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130191"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521743"
 ---
 # <a name="make-sales-quotes"></a>Créer des devis
 
@@ -104,6 +104,6 @@ La conversion supprime le devis de la base de données. Une facture vente ou une
 [Définition des ventes](sales-setup-sales.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Archiver des documents](across-how-to-archive-documents.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1b3e724a3dd0f6f8dadd0e6c233fd41795bcbfd9
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 49cc2e9c461974dcdb6fa0612aa9abc11629bd9b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366303"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523438"
 ---
 # <a name="managing-inventory-costs"></a>Gestion des coûts ajustés
 La gestion des coûts, aussi appelée comptabilité analytique, se charge de l’enregistrement et de la déclaration des coûts d’exploitation de la société. Cette activité inclut la déclaration des coûts de fabrication et de stock qui constituent la valeur des articles.   
@@ -44,7 +44,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
  [STOCKS ET EN-COURS](inventory-manage-inventory.md)   
  [Ventes](sales-manage-sales.md)   
  [Achats](purchasing-manage-purchasing.md)  
- [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

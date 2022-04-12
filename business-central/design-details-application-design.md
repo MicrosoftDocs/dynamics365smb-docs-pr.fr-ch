@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/26/2021
 ms.author: edupont
-ms.openlocfilehash: 5cec98907fd3ab3b95763abd45e03038e8ccec35
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 886099234469a475e831d8f767d0aa1cf0023ece
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146763"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518274"
 ---
 # <a name="application-design-details"></a>Détails de conception de l’application
 
@@ -38,6 +38,6 @@ Le contenu des détails de conception est destiné aux implémenteurs, développ
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [Configuration des modules complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -10,12 +10,12 @@ ms.search.keywords: tasks, work
 ms.search.form: 124, 30
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 63b65f697e12090f5e4bfbc2ca11e30a6e167bab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 64c66324d97ee3dad268f6ff9dd8c18566d1e247
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129149"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512531"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Ajouter des commentaires aux fiches et aux documents
 
@@ -40,7 +40,7 @@ La section suivante décrit comment ajouter un commentaire à une fiche article.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
 
 

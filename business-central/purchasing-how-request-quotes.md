@@ -10,12 +10,12 @@ ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3a44d2760760d3456c21da8ae693f4736f06e78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb2913c506362a7f4cbbed21f47093e3f5d8819a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137304"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517253"
 ---
 # <a name="request-quotes"></a>Demander des devis
 
@@ -36,7 +36,7 @@ La demande de prix est supprimée de la base de données. Une facture achat ou u
 [Achats](purchasing-manage-purchasing.md)  
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0f6594ae1e23f4047ff2bd8e44945eaf4284940c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 538efe22006246cd4e5d78efb7e9678166688274
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142304"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523464"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Expériences de comptable dans [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -104,10 +104,10 @@ Si vous souhaitez donner accès à plusieurs sociétés, vous devez vous connect
 [Configuration de Finance](finance-setup-finance.md)  
 [Comptabilité et plan comptable](finance-general-ledger.md)  
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
-[Utilisation des axes analytiques](finance-dimensions.md)  
+[Utiliser les axes analytiques](finance-dimensions.md)  
 [Analyse des états financiers dans Excel](finance-analyze-excel.md)  
 [Gérer le travail entre plusieurs entreprises dans le Hub Entreprise](company-hub.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Configuration d’une analyse de trésorerie](finance-setup-cash-flow-analyses.md)  
 
 

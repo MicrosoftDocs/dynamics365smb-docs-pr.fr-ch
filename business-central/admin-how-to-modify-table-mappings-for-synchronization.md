@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: dfae531d49166d3a95c841cfc27e7f73e181072d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383152"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515760"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappage des tables et des champs à synchroniser
 
@@ -85,7 +85,7 @@ Par exemple, le projet de synchronisation Dynamics 365 Sales - VENDEURS utilise 
 
 2.  Dans l’écriture de mappage de table de la liste, désactivez le champ **Synch. uniquement les enregistrements couplés**.  
 
-## <a name="using-configuration-templates-on-table-mappings"></a>Utilisation de modèles de configuration dans les mappages de table
+## <a name="use-configuration-templates-on-table-mappings"></a>Utiliser des modèles de configuration dans les mappages de table
 Vous pouvez affecter des modèles de configuration aux mappages de table à utiliser pour les enregistrements ou lignes créés dans [!INCLUDE[prod_short](includes/prod_short.md)] ou [!INCLUDE[prod_short](includes/cds_long_md.md)]. Pour chaque mappage de table, vous pouvez spécifier un modèle de configuration à utiliser pour les nouveaux enregistrements [!INCLUDE[prod_short](includes/prod_short.md)] et un autre modèle à utiliser pour les nouvelles lignes [!INCLUDE[prod_short](includes/cds_long_md.md)].  
 
 Si vous installez la configuration de synchronisation par défaut, deux modèles de configuration sont automatiquement créés et utilisés dans le mappage de table pour les clients [!INCLUDE[prod_short](includes/prod_short.md)] et les comptes [!INCLUDE[crm_md](includes/crm_md.md)] : **CDSCUST** et **CDSACCOUNT**.  

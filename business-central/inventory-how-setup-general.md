@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.form: 30, 456, 461
 ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: ae5b49a9397dad9b512432a0bb221a1be189df95
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 0cf56049c5c7d5b31cb75185bb26f9619317d9e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381553"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522029"
 ---
 # <a name="set-up-general-inventory-information"></a>Définir des informations générales relatives aux stocks
 
@@ -42,7 +42,7 @@ Vous pouvez inclure un délai entrepôt par défaut pour votre stock sur la page
 [Configuration du stock](inventory-setup-inventory.md)  
 [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 [Gestion du stock](inventory-manage-inventory.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 

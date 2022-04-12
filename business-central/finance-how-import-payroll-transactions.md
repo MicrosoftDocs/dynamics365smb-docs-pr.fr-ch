@@ -10,12 +10,12 @@ ms.search.keywords: Ceridian, Quickbooks, salary
 ms.search.form: 1660, 1661, 36601
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2bd2ab34093bc3aac8ff7d470936a39da893cf82
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2f4d5d7ab215a46e89551642739470d68cec761b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147767"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515078"
 ---
 # <a name="importing-payroll-transactions"></a>Importation des transactions de paie
 
@@ -39,8 +39,8 @@ Pour tenir compte des paiements des salaires et des transactions associées, vou
 ## <a name="see-also"></a>Voir aussi
 
 [Finances](finance.md)  
-[Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide d’extensions](ui-extensions.md)  
-[Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
+[Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
+[Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

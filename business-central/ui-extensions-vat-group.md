@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7d040289fbcf85b67c32147e56f13797e3bd5447
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382572"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519585"
 ---
 # <a name="the-vat-group-management-extension"></a>Extension de gestion du groupe TVA
 
@@ -91,7 +91,7 @@ Configurez le membre du groupe TVA en démarrant le guide de configuration assis
 
   Par exemple, au Royaume-Uni, la configuration de la déclaration de TVA serait configurée pour déclarer la TVA au HMRC. L’extension Gestion du groupe TVA copie cette configuration, mais remplace le codeunit de soumission par un codeunit qui prend en charge la soumission à la société représentante du groupe TVA plutôt qu’aux autorités fiscales. Le codeunit est fourni par Microsoft. Une fois que vous avez terminé, cliquez sur **Suivant**.
 
-## <a name="using-the-vat-group-management-features"></a>Utilisation des fonctionnalités de gestion du groupe TVA
+## <a name="use-the-vat-group-management-features"></a>Utiliser des fonctionnalités de gestion du groupe TVA
 
 Les membres du groupe TVA utilisent les processus standard pour préparer les déclarations de TVA. La seule différence est de choisir la version de déclaration **VATGROUP**, qui soumet la déclaration de TVA à la société représentante du groupe TVA plutôt qu’aux autorités. Pour plus d’informations, voir [À propos de la déclaration de retours de TVA](finance-how-report-vat.md#vatreturn).
 

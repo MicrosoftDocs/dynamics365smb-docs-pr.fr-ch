@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.search.form: 1,
+ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133669"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417628"
 ---
 # <a name="company-information-quick-start"></a>Démarrage rapide de Informations société
 
@@ -25,19 +26,14 @@ Vous pouvez saisir toutes les données pertinentes sur la page **Informations so
 ## <a name="to-set-up-company-information"></a>Pour configurer les informations sur la société  
 
 1. Choisissez l’icône en forme de ![pignon pour ouvrir le menu Paramètres.](media/ui-experience/settings_icon_small.png) puis choisissez l’action **Informations société**.
-2. Renseignez les informations dans le raccourci, comme indiqué dans le tableau ci-dessous.
+2. Renseignez les informations dans le raccourci, comme indiqué dans le tableau ci-dessous. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    |Champ|Description|  
-    |-------------|---------------------------------------|  
-    |**Général**|Entrez les informations générales sur votre entreprise, y compris un logo, car celui-ci apparaîtra sur les documents destinés aux clients, par exemple les factures que vous envoyez. |  
-    |**Communication**|Saisissez les coordonnées de base de l’entreprise, telles que le numéro de téléphone et l’adresse e-mail.|  
-    |**Paiements**| Remplissez les informations bancaires pertinentes pour vous assurer que vos clients seront en mesure de vous payer.|  
-    |**Expédition**|Remplissez les informations d’expédition pertinentes afin que vous puissiez envoyer et recevoir des marchandises.|  
-    |**Taxes**|Selon le pays dans lequel vous vivez, le raccourci Taxes peut être disponible. S’il est disponible, remplissez-le.|  
+    [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 Une fois que vous avez terminé de remplir les informations, vous pouvez fermer la page.  
 
 ## <a name="see-also"></a>Voir aussi  
 
+[Présentation des informations sur la société](admin-company-information.md)  
+[Configurer les informations société en Italie](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Démarrage rapide de Business Central](quick-start-business-central.md)  
-[Configurer les informations sur la société](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

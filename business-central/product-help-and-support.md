@@ -4,38 +4,63 @@ description: Trouvez des ressources pour l’Aide, des directives, des conseils 
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
+ms.search.form: HelpAndSupport
 ms.author: edupont
-ms.date: 10/26/2021
-ms.openlocfilehash: aa472df02891c6de1a786a9a4c3321c461a45395
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/21/2022
+ms.openlocfilehash: d97911cd7c3556e8ee447102e22b3764548b6f13
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145565"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516941"
 ---
 # <a name="resources-for-help-and-support"></a>Ressources pour l’Aide et le support
 
-Dans [!INCLUDE[prod_long](includes/prod_long.md)], l’article du menu Aide (le point d’interrogation dans l’angle supérieur droit) vous permet d’accéder à un volet d’aide où vous pouvez trouver des réponses à vos questions.  
+Des rubriques de conseils d’utilisation [!INCLUDE[prod_long](includes/prod_long.md)], de dépannage, pour en savoir plus et pour trouver des informations techniques sont toutes disponibles à partir de [!INCLUDE [prod_short](includes/prod_short.md)]. Cet article décrit comment trouver quoi.  
 
-## <a name="search-in-the-help-pane"></a>Rechercher dans le volet d’aide
-
-[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
-
-La deuxième vague de lancement 2021 comprend un nouveau volet d’aide doté d’un onglet de recherche. Utilisez le champ de recherche pour rechercher des conseils sur l’utilisation du produit, les capacités intégrées et les modules de formation disponibles. Selon vos termes de recherche, le volet affiche cinq liens ou plus, avec une courte description. Choisissez un lien ou affinez vos termes de recherche. Lorsque vous choisissez un lien, l’article cible s’ouvre dans un nouvel onglet de navigateur. Vous pouvez ensuite choisir de désancrer l’onglet du navigateur afin de pouvoir afficher les informations pertinentes côte à côte avec [!INCLUDE [prod_short](includes/prod_short.md)]. Le volet reste ouvert pendant que vous naviguez dans [!INCLUDE [prod_short](includes/prod_short.md)], de sorte que le contenu que vous avez recherché reste visible.  
-
-> [!NOTE]
-> Dans la version actuelle de [!INCLUDE [prod_short](includes/prod_short.md)], le champ de recherche du volet d’aide s’applique uniquement au contenu publié sur le site docs.microsoft.com.
+## <a name="in-product-tips"></a>Conseils sur les produits
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Ces liens peuvent également accéder au contenu publié sur d’autres sites web, tels que les sites web des fournisseurs de toutes les applications installées sur votre [!INCLUDE [prod_short](includes/prod_short.md)].  
 
+## <a name="help-pane"></a>Volet Aide
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+Dans [!INCLUDE [prod_short](includes/prod_short.md)], l’élément du menu Aide (le point d’interrogation dans l’angle supérieur droit) vous permet d’accéder à un volet Aide où vous pouvez trouver des réponses à vos questions. Le volet Aide a un contenu différent, selon la façon dont vous y accédez. La liste suivante décrit les fiches toujours ou presque toujours présentes :  
+
+[!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
+
+La liste suivante décrit comment vous pouvez accéder au volet Aide et si des fiches y sont ajoutées :
+
+- Cliquez sur le lien *En savoir plus* sur une info-bulle pour un champ
+
+  La fiche suivante est ajoutée au volet Aide :
+
+  - Info-bulle du champ
+- Cliquez sur le lien *En savoir plus* sur une info-bulle pour une action
+- Choisissez l’élément de menu Aide (le point d’interrogation dans le coin supérieur droit)
+- Utilisez le raccourci clavier Ctrl+F1 où que vous soyez
+
+> [!TIP]
+> Lorsque vous choisissez un lien, l’article cible s’ouvre dans un nouvel onglet de navigateur. Vous pouvez ensuite choisir de désancrer l’onglet du navigateur afin de pouvoir afficher les informations pertinentes côte à côte avec [!INCLUDE [prod_short](includes/prod_short.md)]. Le volet reste ouvert pendant que vous naviguez dans [!INCLUDE [prod_short](includes/prod_short.md)], de sorte que le contenu que vous avez recherché reste visible.  
+
+## <a name="search-in-the-help-pane"></a>Rechercher dans le volet Aide
+
+[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
+
+Utilisez le champ de recherche en haut du volet Aide pour rechercher des conseils sur l’utilisation du produit, les capacités intégrées et les modules de formation disponibles. Selon vos termes de recherche, le volet affiche cinq liens ou plus, avec une courte description. Choisissez un lien ou affinez vos termes de recherche. Lorsque vous choisissez un lien, l’article cible s’ouvre dans un nouvel onglet de navigateur. Vous pouvez ensuite choisir de désancrer l’onglet du navigateur afin de pouvoir afficher les informations pertinentes côte à côte avec [!INCLUDE [prod_short](includes/prod_short.md)]. Le volet reste ouvert pendant que vous naviguez dans [!INCLUDE [prod_short](includes/prod_short.md)], de sorte que le contenu que vous avez recherché reste visible.  
+
+> [!NOTE]
+> Dans la version actuelle de [!INCLUDE [prod_short](includes/prod_short.md)], le champ de recherche du volet Aide s’applique uniquement au contenu publié sur le site [Docs.microsoft.com](/dynamics365/business-central).
+
 ## <a name="help--support-page"></a>Page Aide et support
 
-Depuis le volet d’aide, vous pouvez accéder à la page **Aide et support** à l’intérieur de [!INCLUDE [prod_short](includes/prod_short.md)] qui comprend des liens utiles. Vous pouvez également voir comment contacter le support technique pour votre [!INCLUDE[prod_short](includes/prod_short.md)].  
+Depuis le volet Aide, vous pouvez accéder à la page **Aide et support** à l’intérieur de [!INCLUDE [prod_short](includes/prod_short.md)] qui comprend des liens utiles. Vous pouvez également voir comment contacter le support technique pour votre [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Cette section décrit les ressources à votre disposition dans les diverses sections de la page **Aide et support**, qui sont répertoriées dans la liste suivante :
 
 - [Trouver des réponses](#find-answers)  
-- [Aide relative aux produits](#product-help)  
+- [Aide](#product-help)  
 - [Communauté](#community)  
 - [Blog](#blog)  
 - [Fonctionnalités bientôt disponibles](#capabilities-coming-soon)  
@@ -59,9 +84,10 @@ La section **Rechercher** inclut deux liens vers l’Aide des produits :
 - Aide concernant la page que vous venez d’afficher dans [!INCLUDE[prod_short](includes/prod_short.md)]  
 
   Ce lien est généré automatiquement. Si [!INCLUDE[prod_short](includes/prod_short.md)] ne trouve pas le lien pertinent, la page de destination sur [Docs.microsoft.com](index.md) pour la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] s’affiche. Par exemple, si la page faisait partie d’une application qui n’a pas ajouté de mappage d’aide contextuelle à [!INCLUDE[prod_short](includes/prod_short.md)], le *Lien d’apprentissage* accède par défaut à la page de destination.  
+  
 - Page de destination de l’aide pour [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  La fonctionnalité de la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] est décrite sur le site [Docs.microsoft.com](/dynamics365/business-central). Pour plus d’informations, voir la section [Utilisation du site docs.microsoft.com pour en savoir plus](#use-the-docsmicrosoftcom-site-to-learn-more). Vous pouvez également étendre et personnaliser [!INCLUDE[prod_short](includes/prod_short.md)] avec des applications de AppSource. Toutes les applications fournissent des liens vers l’Aide relative aux produits pertinents afin que vous trouviez toujours des instructions pour les différents flux des opérations de votre version de [!INCLUDE[prod_short](includes/prod_short.md)].  
+  La fonctionnalité de la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] est décrite sur le site [Docs.microsoft.com](/dynamics365/business-central). Pour plus d’informations, voir la section [Utiliser le site docs.microsoft.com pour en savoir plus](#use-the-docsmicrosoftcom-site-to-learn-more). Vous pouvez également étendre et personnaliser [!INCLUDE[prod_short](includes/prod_short.md)] avec des applications de AppSource. Toutes les applications fournissent des liens vers l’Aide relative aux produits pertinents afin que vous trouviez toujours des instructions pour les différents flux des opérations de votre version de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="community"></a>Communauté
 
@@ -154,7 +180,7 @@ La table des matières comprend un groupe de contenu qui décrit les [fonctionna
 Le contenu des fonctionnalités locales décrit les capacités de [!INCLUDE [prod_short](includes/prod_short.md)] qui peuvent vous aider à être conforme sur les marchés pris en charge, telles que les déclarations fiscales et autres rapports. Dans certains cas, la différence entre la version par défaut et la version spécifique au pays est invisible pour les utilisateurs. Dans d’autres cas, les utilisateurs doivent configurer le reporting ou la facturation électronique d’une manière spécifique. Si vous ne trouvez pas la description d’un certain bouton ou d’une action dans la section générale, vous pouvez espérer la trouver dans la section *Fonctionnalités locales*.  
 
 > [!TIP]
-> Sur le site docs.microsoft.com, ainsi que dans le champ de recherche intégré au produit et dans le volet d’aide, les résultats de la recherche affichent un certain contexte pour l’article cible. Le contexte comprend le lien qui peut afficher le nom d’un pays, ou une courte description qui évoque une certaine fonctionnalité ou un pays, par exemple.
+> Sur le site docs.microsoft.com, ainsi que dans le champ de recherche intégré au produit et dans le volet Aide, les résultats de la recherche affichent un certain contexte pour l’article cible. Le contexte comprend le lien qui peut afficher le nom d’un pays, ou une courte description qui évoque une certaine fonctionnalité ou un pays, par exemple.
 
 ### <a name="finding-other-content"></a>Trouver un autre contenu
 

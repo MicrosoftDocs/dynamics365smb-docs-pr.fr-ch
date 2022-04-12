@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: edf08dfd87596da0a2c052651e323963ff13ce6a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c2c3e7cd0e9f5ae88e63bd305927a20341e7559b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128910"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513111"
 ---
 # <a name="design-details-expected-cost-posting"></a>Détails de conception : validation du coût prévu
 Les coûts prévus représentent l’estimation, par exemple, du coût d’un article acheté que vous enregistrez avant la réception de la facture de cet article.  
@@ -99,7 +99,7 @@ Vous validez une commande achat comme reçue. Le coût prévu est 95,00 DS.
  [Détails de conception : écart](design-details-variance.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

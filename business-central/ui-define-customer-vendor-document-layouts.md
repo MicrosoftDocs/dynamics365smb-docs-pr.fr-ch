@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4b417c689c02a0252e3967379e33a88386ad694f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cbd0fbea2e1567875dd7bda556271f693234a502
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147481"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510754"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Définir des présentations de document pour les clients et les fournisseurs
 Lorsque des présentations de rapport personnalisées sont définies, vous pouvez les sélectionner à partir des fiches client et fournisseur pour spécifier les présentations qui sont utilisées pour différents types de documents que vous créez pour le client ou le fournisseur en question. La valeur du champ **Utilisation** définit le processus pour lequel la présentation du document est utilisée, par exemple **Relance**, **Expédition** et **Confirmation**.
@@ -56,11 +56,11 @@ L’adresse e-mail du contact est maintenant insérée sur la ligne de présenta
 ## <a name="see-also"></a>Voir aussi  
 [Mettre à jour les présentations d’état personnalisées](ui-update-report-layouts.md)  
 [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)  
-[Importer et exporter une présentation de rapport ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
+[Importer et exporter une présentation d’état ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Gestion des présentations de rapport](ui-manage-report-layouts.md)  
-[Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)  
-[Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)  
+[Utiliser des états, des traitements par lots et des XMLports](ui-work-report.md)  
+[Utiliser des états, des traitements par lots et des XMLports](ui-work-report.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

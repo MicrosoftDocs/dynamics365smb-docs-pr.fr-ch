@@ -7,12 +7,12 @@ ms.search.keywords: profiles, users
 ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fa9bd31f0f9ff1705f9caa7f21d9f376febdb712
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b17a4f5a375e4fa1ad067d2679b37bb3d0f5da95
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133138"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514162"
 ---
 # <a name="manage-user-profiles"></a>Gérer les profils d’utilisateur
 
@@ -23,7 +23,7 @@ Tous les utilisateurs de [!INCLUDE[prod_short](includes/prod_short.md)] se voien
 
 En tant qu’administrateur, vous créez et gérez des profils sur la page **Profils (rôles)**. Chaque profil possède une carte dans laquelle vous devez gérer divers paramètres pour le rôle associé, tels que le nom du rôle, les paramètres utilisateur et le tableau de bord utilisé par le profil. Pour plus d’informations sur les paramètres utilisateur et les tableaux de bord, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
 
-Avant de pouvoir administrer des profils d’utilisateurs, ceux-ci doivent être créés et ajoutés via le Centre d’administration Microsoft 365. Vous pouvez ensuite attribuer des autorisations à chaque utilisateur ou groupe d'utilisateurs afin de définir les fonctionnalités qu'ils sont autorisés à afficher et/ou à modifier. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
+Avant de pouvoir administrer des profils d’utilisateurs, ceux-ci doivent être créés et ajoutés via le Centre d’administration Microsoft 365. Vous pouvez ensuite attribuer des autorisations à chaque utilisateur ou groupe d’utilisateurs afin de définir les fonctionnalités qu’ils sont autorisés à afficher et/ou à modifier. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
 
 ## <a name="page-customization"></a>Personnalisation de page
 Vous pouvez personnaliser les mises en page d’un profil afin que tous les utilisateurs auxquels ce profil a été attribué voient les pages personnalisées. En tant qu’administrateur, vous devez personnaliser les pages en utilisant les mêmes fonctionnalités que les utilisateurs lorsqu’ils personnalisent. Pour plus d’informations, voir [Personnaliser des pages pour les profils](ui-personalization-manage.md).
@@ -85,7 +85,7 @@ Lorsqu’un profil est créé, vous pouvez sélectionner différentes cases à c
     - **Afficher dans l’explorateur de rôles** pour spécifier si les actions sur les fonctionnalités métier incluses dans le profil sont affichées dans la vue étendue de l’explorateur de rôles, une vue d’ensemble des fonctionnalités. Pour en savoir plus, consultez [Recherche de pages avec l’explorateur de rôles](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>Pour exporter des profils
-Vous pouvez exporter des profils depuis [!INCLUDE[prod_short](includes/prod_short.md)], par exemple pour les réutiliser dans un autre abonné. Les profils sont exportés dans un fichier zip contenant les fichiers .al pouvant être réutilisés pour développer des extensions. Pour plus d’informations, voir [Utilisation du client pour créer des profils et des personnalisations de page](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Vous pouvez exporter des profils depuis [!INCLUDE[prod_short](includes/prod_short.md)], par exemple pour les réutiliser dans un autre abonné. Les profils sont exportés dans un fichier zip contenant les fichiers .al pouvant être réutilisés pour développer des extensions. Pour plus d’informations, voir [Utiliser le client pour créer des profils et des personnalisations de page](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * Sur la page **Profils (rôles)**, choisissez l’action **Exporter des profils**.
 

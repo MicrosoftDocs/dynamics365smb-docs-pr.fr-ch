@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 21665191cc2b6dbedc09321fd165ef2fab098fc3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95455b4100aa2628fe6f1e2eefdce8c8117f1166
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139952"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516410"
 ---
 # <a name="setting-up-banking"></a>Paramétrage des opérations bancaires
 
@@ -27,7 +27,7 @@ Pour utiliser les services bancaires électroniques pour importer des relevés b
 | --- | --- |
 | Configurer des fiches compte bancaire pour chacun de vos comptes bancaires, de manière à ce que vous puissiez gérer vos transactions bancaires. |[Configuration des comptes bancaires](bank-how-setup-bank-accounts.md) |
 | Configurer un service externe qui vous permet d’importer des relevés bancaires sous forme de flux bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
-| Configurer un service externe qui vous permet d’exporter vos paiements vers la banque pour traitement et d’importer des relevés bancaires sous forme de fichiers bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
+| Configurer un service externe qui vous permet d’exporter vos paiements vers la banque pour traitement et d’importer des relevés bancaires sous forme de fichiers bancaires pour le lettrage des paiements et les rapprochements bancaires. |[Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
@@ -36,7 +36,7 @@ Pour utiliser les services bancaires électroniques pour importer des relevés b
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

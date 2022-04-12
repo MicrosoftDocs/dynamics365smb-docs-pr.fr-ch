@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 28351ac57c6c1941446d5383b384b78fbdf1f77a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6457750589393b2f8cc9d76e732ab0c3e6064a9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131524"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518040"
 ---
 # <a name="set-up-units-of-measure"></a>Configuration d’unités
 
@@ -87,7 +87,7 @@ Si vous utilisez habituellement d’autres unités que l’unité de base pour v
 [Gestion du stock](inventory-manage-inventory.md)  
 [Gestion des achats](purchasing-manage-purchasing.md)  
 [Gestion des ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

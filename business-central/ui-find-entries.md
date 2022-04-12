@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: 344, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b77a8508d921f885276d3e0b7956d7785b7f29cb
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 6e6e6f6f622d1938fb2195bc2dde2c2ba689a59f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322996"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517702"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Recherche d’écritures associées pour les documents validés 
 
@@ -29,7 +29,7 @@ Cette fonctionnalité est très utile pour rechercher les écritures comptables 
 
 ## <a name="get-started"></a>Démarrer
 
-La fonctionnalité de recherche d’écritures est facilement disponible sur la plupart des pages qui affichent des documents validés ou des écritures de documents validés, pour les listes et les fiches. La première étape consiste donc à ouvrir l’une de ces pages. Ensuite, choisissez l’action **Rechercher des écritures** ou appuyez sur les touches Alt+G.
+La fonctionnalité de recherche d’écritures est facilement disponible sur la plupart des pages qui affichent des documents validés ou des écritures de documents validés, pour les listes et les fiches. La première étape consiste donc à ouvrir l’une de ces pages. Ensuite, choisissez l’action **Rechercher des écritures** ou appuyez sur les touches Ctrl+Alt+G.
 
 La page **Rechercher des écritures** comprend tous les documents et écritures liés basés sur le n° document et la date comptabilisation. La page est divisée en trois sections :
 
@@ -73,7 +73,7 @@ Après avoir effectué une sélection, entrez les informations de recherche pert
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation de Business Central](ui-work-product.md)  
+[Utiliser Business Central](ui-work-product.md)  
 [Ajouter une action de page à votre Tableau de bord](ui-bookmarks.md)  
 [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 5c9a0c61b2f02e3f3750c3d8c23153df2634299d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35151e830c44cb3edd28988887f86b8abf7a3b51
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132721"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514896"
 ---
 # <a name="date-calculation-for-purchases"></a>Calcul de la date des achats
 
@@ -34,7 +34,7 @@ Si la ligne commande achat indique une date réception demandée, le programme l
 Si vous indiquez une date réception demandée sur l’en-tête commande achat, le programme la copie dans le champ correspondant sur toutes les lignes. Vous pouvez modifier ou supprimer cette date sur n’importe quelle ligne.  
 
 > [!NOTE]
-> Si votre processus est basé sur un calcul en amont, par exemple, si vous utilisez la date de réception demandée pour obtenir la date de commande, nous vous recommandons d’utiliser des formules de date ayant des durées fixes, telles que "5D" pendant cinq jours ou "1W" pour une semaine. Les formules de date sans durée fixe, telles que "CW" pour la semaine en cours ou CM pour le mois en cours, peuvent entraîner des calculs de date incorrects. Pour plus d’informations sur les formules de date, voir [Utilisation de dates civiles et des heures](ui-enter-date-ranges.md).
+> Si votre processus est basé sur un calcul en amont, par exemple, si vous utilisez la date de réception demandée pour obtenir la date de commande, nous vous recommandons d’utiliser des formules de date ayant des durées fixes, telles que "5D" pendant cinq jours ou "1W" pour une semaine. Les formules de date sans durée fixe, telles que « CW » pour la semaine en cours ou CM pour le mois en cours, peuvent entraîner des calculs de date incorrects. Pour plus d’informations sur les formules de date, voir [Utiliser des dates civiles et des heures](ui-enter-date-ranges.md).
 
 ## <a name="calculating-without-a-requested-delivery-date"></a>Calcul sans date livraison demandée
 
@@ -58,7 +58,7 @@ Toutefois, la valeur du délai de réapprovisionnement sur la fiche fournisseur 
 
 [Calcul de la date des ventes](sales-date-calculation-for-sales.md)   
 [Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

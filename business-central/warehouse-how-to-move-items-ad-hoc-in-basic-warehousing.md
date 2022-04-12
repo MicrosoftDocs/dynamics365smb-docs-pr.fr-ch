@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 393, 7382
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 965a87d731a2e1d9cb2ae390add4536c77c6824c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: aa3c8b246d83ac222b4ceeb43124c835ca955850
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381051"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520619"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Déplacer des articles ad hoc dans les configurations de stockage de base
 Vous pouvez être amené à déplacer des articles d’un emplacement interne vers un autre (et non vers des emplacements de réception ou d’expédition) sans demande spécifique issue d’un document origine. Vous pouvez exécuter ces mouvements ad hoc, par exemple, pour réorganiser l’entrepôt, pour acheminer des articles vers une zone d’inspection, ou pour déplacer des articles supplémentaires vers et depuis une zone de production sans qu’il existe une relation système avec le document origine de l’ordre de fabrication.  
@@ -74,8 +74,8 @@ Au lieu d’utiliser des documents mouvement entrepôt, vous pouvez enregistrer 
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
-[Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

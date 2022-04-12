@@ -9,17 +9,17 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: addc48ca52ea27ee7c63b8f8c1b44af8a2f1eb63
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b4fb329c076cab03b6ea5ccc78813ad57ae29db3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383126"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517045"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Intégration à Dynamics 365 Sales
 
 
-Le rôle de vendeur est souvent considéré comme tourné vers l’extérieur dans une entreprise. Toutefois, il peut être utile pour les vendeurs d’être en mesure de regarder à l’intérieur de l’entreprise et d’observer ce qu’il s’y passe en arrière-plan. En intégrant [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[crm_md](includes/crm_md.md)], vous pouvez donner à vos vendeurs cet aperçu en leur permettant de visualiser les informations dans [!INCLUDE[prod_short](includes/prod_short.md)] pendant qu’ils travaillent dans [!INCLUDE[crm_md](includes/crm_md.md)]. Par exemple, dans le cadre de la préparation d’un devis, il peut s’avérer utile de savoir si vous avez suffisamment de stock pour répondre à la commande. Pour plus d’informations, voir [Utilisation de Dynamics 365 Sales depuis Business Central](marketing-integrate-dynamicscrm.md).
+Le rôle de vendeur est souvent considéré comme tourné vers l’extérieur dans une entreprise. Toutefois, il peut être utile pour les vendeurs d’être en mesure de regarder à l’intérieur de l’entreprise et d’observer ce qu’il s’y passe en arrière-plan. En intégrant [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[crm_md](includes/crm_md.md)], vous pouvez donner à vos vendeurs cet aperçu en leur permettant de visualiser les informations dans [!INCLUDE[prod_short](includes/prod_short.md)] pendant qu’ils travaillent dans [!INCLUDE[crm_md](includes/crm_md.md)]. Par exemple, dans le cadre de la préparation d’un devis, il peut s’avérer utile de savoir si vous avez suffisamment de stock pour répondre à la commande. Pour plus d’informations, voir [Utiliser Dynamics 365 Sales depuis Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
 > Cette rubrique décrit le processus d’intégration des versions en ligne de [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[prod_short](includes/prod_short.md)] au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Pour plus d’informations sur la configuration sur site, voir [Préparation de l’intégration à Dynamics 365 Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
@@ -80,6 +80,7 @@ Outre les paramètres ci-dessus, saisissez les paramètres suivants pour [!INCLU
 | **L’intégration des commandes vente est activée** | Laissez les utilisateurs envoyer les commandes vente et les devis activés dans [!INCLUDE[crm_md](includes/crm_md.md)], et les visualiser et les traiter dans [!INCLUDE[prod_short](includes/prod_short.md)]. Cela intègre le processus dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d’informations, voir [Activer l’intégration du traitement des commandes client](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Créer automatiquement des commandes vente** | Permet de créer une commande vente dans [!INCLUDE[prod_short](includes/prod_short.md)] lorsqu’un utilisateur en crée et en envoie une dans [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Traiter automatiquement les devis** | Permet de traiter un devis dans [!INCLUDE[prod_short](includes/prod_short.md)] lorsqu’un utilisateur en crée et en active un dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d’informations, reportez-vous à la rubrique [Gestion des données de devis spéciales](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
+|**Synchronisation bidirectionnelle des commandes vente**|Synchronisez les commandes client dans les deux sens. Par exemple, si un client change d’avis sur le produit ou la quantité qu’il a commandé dans [!INCLUDE[crm_md](includes/crm_md.md)], vous pouvez traiter la modification dans [!INCLUDE[prod_short](includes/prod_short.md)] en archivant le document de vente et en en créant un nouveau. Il en est de même pour les modifications dans [!INCLUDE[prod_short](includes/prod_short.md)]. Par exemple, lorsque les prix, les montants de taxe ou les dates d’expédition prévues changent, les modifications sont automatiquement synchronisées dans [!INCLUDE[crm_md](includes/crm_md.md)]. Cela permet de tenir vos vendeurs informés des dernières modifications et du statut des devis et des commandes.|
 
 <!--
 ### User Account Settings
@@ -104,7 +105,7 @@ Le tableau suivant répertorie le mappage standard entre les tables dans [!INCLU
 | Opportunité | Opportunité | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 | En-tête facture vente | Facturer | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Ligne facture vente | Produit facture | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| En-tête de commande vente | Ecriture réservation | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | Filtre en-tête de vente [!INCLUDE[prod_short](includes/prod_short.md)] : le champ **Type de document** est défini sur Commande, le champ **Statut** est défini sur Lancé. |
+| En-tête de commande vente | Ecriture réservation | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] <br><br> Pour synchroniser dans les deux sens, vous devez activer le bouton bascule **Synchronisation bidirectionnelle des commandes vente** sur la page **Paramètres de la connexion Dynamics 365**.| Filtre en-tête de vente [!INCLUDE[prod_short](includes/prod_short.md)] : le champ **Type de document** est défini sur Commande, le champ **Statut** est défini sur Lancé. |
 | Remarques Commande vente | Remarques Commande vente | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] et [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 
 > [!NOTE]

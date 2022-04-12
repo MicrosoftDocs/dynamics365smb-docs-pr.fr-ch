@@ -1,30 +1,32 @@
 ---
-title: Analyse des données de rapport avec Excel
-description: Découvrez comment utiliser Excel pour analyser un jeu de données de rapport.
+title: Analyse des données de rapport avec Excel et XML
+description: Découvrez comment utiliser Excel et XML pour analyser un jeu de données de rapport.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 02/09/2022
+ms.date: 03/16/2022
 ms.author: jswymer
-ms.openlocfilehash: f3996c051eed69974de9511aa570f232e44764fa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 46831a7b5c4672dd3d65142803aa77bbf2fce807
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145487"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521821"
 ---
-# <a name="analyzing-report-data-with-excel"></a>Analyse des données de rapport avec Excel
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Analyse des données de rapport avec Excel et XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
-En tant que développeur ou utilisateur avancé, il est utile d’inspecter les données générées pour un jeu de données de rapport donné lorsque vous créez des rapports ou modifiez des rapports existants. Pour prendre en charge cette fonctionnalité, vous pouvez exporter un jeu de données de rapport sous forme de données brutes vers une feuille de calcul Excel, directement à partir de la page de demande de rapport dans le client. Dans Excel, vous pouvez ensuite effectuer une analyse ad hoc des données et diagnostiquer les problèmes.
+En tant que développeur ou utilisateur avancé, il est utile d’inspecter les données générées pour un jeu de données de rapport donné lorsque vous créez des rapports ou modifiez des rapports existants. Pour prendre en charge cette fonctionnalité, vous pouvez exporter un jeu de données de rapport sous forme de données brutes directement vers une feuille de calcul Excel ou un fichier XML. Dans Excel, par exemple, vous pouvez ensuite effectuer une analyse ad hoc des données et diagnostiquer les problèmes.
 
 ## <a name="get-started"></a>Démarrer
 
-Pour exporter un jeu de données de rapport, ouvrez le rapport dans le client, puis sur la page de demande, sélectionnez **Envoyer à** > **Document Microsoft Excel (données uniquement)**. 
+Pour exporter un jeu de données de rapport vers une feuille de calcul Excel ou un fichier XML, ouvrez le rapport dans le client, puis sur la page de demande, sélectionnez **Envoyer à** > **Document Microsoft Excel (données uniquement)** ou **Document XML**. Le fichier sera téléchargé sur votre appareil.
+
+## <a name="more-about-excel-data-only"></a>En savoir plus sur Excel (données uniquement)
 
 L’option **Document Microsoft Excel (données uniquement)** exporte les résultats du rapport et les critères qui ont été utilisés pour les générer, mais il n’inclut pas la mise en page du rapport. Le fichier Excel comprendra l’ensemble de données complet, sous forme de données brutes, disposées en lignes et en colonnes. Toutes les colonnes de données de l’ensemble de données du rapport sont incluses, qu’elles soient ou non utilisées dans la présentation du rapport.
 

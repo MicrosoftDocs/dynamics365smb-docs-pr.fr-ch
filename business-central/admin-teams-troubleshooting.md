@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7bea8e591b92666c6d92ce34b0849ad774dcc35a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147023"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528490"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Dépannage de l’intégration de Microsoft Teams avec [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -155,6 +155,10 @@ Lorsque vous collez du texte dans la zone de message de la fenêtre **Partager a
 ## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Impossible de se connecter à la fenêtre Partager avec Teams 
 
 Ce problème peut être causé par diverses raisons. Par exemple, l’identité que vous utilisez pour vous connecter doit avoir accès à Microsoft Teams, par exemple via un abonnement Microsoft 365.
+
+## <a name="my-cards-no-longer-have-a-popout-button"></a>Mes cartes n’ont plus de bouton de fenêtre contextuelle
+
+À partir d’avril 2022, les liens affichés sous forme de carte compacte dans Teams ne contiendront plus le bouton **Fenêtre contextuelle**. Pour ouvrir la carte dans sa propre fenêtre, choisissez le bouton **Détails**, puis **Ouvrir dans le navigateur** dans le menu des points de suspension (**...**) dans le coin supérieur droit de la fenêtre.
 
 ## <a name="see-also"></a>Voir aussi
 

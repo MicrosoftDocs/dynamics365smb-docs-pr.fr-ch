@@ -4,14 +4,15 @@ description: Découvrez les états et analyses de projet disponibles dans la ver
 author: AndreiPanko
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_1006, Report_1007, Report_1008, Report_1009, Report_1010, Report_1011, Report_1012, Report_1013, Report_1014
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 7ec46596e4e69d4e83038d2e74bbcbc215c3033b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 43aded1d5b69d3e464221dd492df9a7ef96c19fa
+ms.sourcegitcommit: 670d589c6870a01e0655c2da800560ed69d18db2
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137406"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "8455764"
 ---
 # <a name="project-reports-and-analytics-in-business-central"></a>États et analyses de projet dans Business Central
 

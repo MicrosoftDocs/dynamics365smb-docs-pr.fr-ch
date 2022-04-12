@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 6560, 42, 50, 507, 509
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6a71c817570dd1a784995bbc41f095f0ce799c6f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 831087c068a75d37c30533e18f345d8a4de6129a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138845"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522341"
 ---
 # <a name="track-document-lines"></a>Suivre des lignes document
 Vous pouvez afficher les documents associés aux lignes commande vente et aux lignes commande achat, notamment à partir des lignes commande archivées. Les documents associés que vous pouvez suivre comprennent les devis, les expéditions, les réceptions et les commandes ouvertes. Cela vous aide à identifier les documents utilisés pour traiter les commandes.  
@@ -33,7 +33,7 @@ La procédure suivante décrit comment effectuer le suivi à partir d’une lign
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

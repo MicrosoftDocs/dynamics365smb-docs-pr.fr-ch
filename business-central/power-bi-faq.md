@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 1c0a19a9739ab537b6a5df562484d2d9d6f8e3a6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b19471cc3833c642ee65dc262fd5ca6cc1a57492
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137668"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520193"
 ---
 # <a name="power-bi--faq"></a>FAQ Power BI
 
@@ -257,7 +257,7 @@ Certaines pages API, y compris la plupart des pages API v2.0, ont des champs ba
 [Vue d’ensemble de l’intégration Power BI](admin-powerbi-overview.md)  
 [Activation de Power BI dans Business Central](admin-powerbi-setup.md)  
 [Utiliser les états Power BI dans Business Central](across-working-with-powerbi.md)  
-[Utilisation des données Business Central dans Power BI](across-working-with-business-central-in-powerbi.md)  
+[Utiliser des données Business Central dans Power BI](across-working-with-business-central-in-powerbi.md)  
 [Création d′états Power BI pour afficher les données Business Central](across-how-use-financials-data-source-powerbi.md)    
 [Documentation Power BI](/power-bi/)  
 

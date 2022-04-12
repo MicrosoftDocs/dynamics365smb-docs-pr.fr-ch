@@ -10,12 +10,12 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17f307f76f4f34e431b8ee2239886d91bc2c26e3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 366feb242578d79ece0553bc8fba570403d8cde1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140724"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520853"
 ---
 # <a name="set-up-purchasers"></a>Configurer les acheteurs
 Si plusieurs acheteurs travaillent dans votre société, vous pouvez les configurer sur la page et leur attribuer un code. Vous pouvez ensuite utiliser ces codes pour établir des statistiques et filtrer les informations des états imprimés.<br><br>  
@@ -35,7 +35,7 @@ Si plusieurs acheteurs travaillent dans votre société, vous pouvez les configu
 ## <a name="see-also"></a>Voir aussi
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

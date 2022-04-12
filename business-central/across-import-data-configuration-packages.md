@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c6dc9d386bde8e4f8496f086141589ea4c89c73
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f2918b554cf578baa0636f0a18bbbbf2fc8a4692
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136467"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516488"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importation des données métier à partir d’autres systèmes financiers
 
@@ -40,7 +40,7 @@ Pour importer des images d’article, utilisez une fonction dédiée sur la page
 > [!NOTE]  
 >   L’utilisation des packages de configuration est une fonctionnalité avancée, et il est préférable de contacter votre administrateur. Pour plus d’informations, voir [Importation des données à partir du logiciel de comptabilité hérité à l’aide d’un package de configuration](across-import-data-configuration-packages.md).
 
-## <a name="working-with-data-in-excel"></a>Utilisation de données dans Excel
+## <a name="work-with-data-in-excel"></a>Utiliser des données dans Excel
 Lorsque vous exportez le package de configuration par défaut dans Excel, le classeur généré contient une feuille de calcul pour chaque table du package. Pour simplifier vos tâches, vous pouvez mettre à profit les outils de gestion XML qui sont intégrés à Excel. Vous pouvez également utiliser les fonctions intégrées d’Excel pour procéder au formatage des données et placer des données dans la cellule qui convient. Ajoutez par exemple une feuille vide et copiez-y les données héritées. Ensuite, créez une formule Excel permettant d’associer les données de la feuille de calcul de transformation entre les champs de la feuille de calcul exportée et les données héritées du client. Après avoir associé toutes les données, copiez la plage de données dans la feuille de calcul de la table.  
 
 > [!IMPORTANT]  

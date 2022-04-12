@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 47ff4066e41cc225f7d02556b5e30f9f6d9eaa5d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cccfd5f5ca2b0e3d892e834465d628262f97151d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138559"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520401"
 ---
 # <a name="correct-prepayments"></a>Corriger des acomptes
 
@@ -43,7 +43,7 @@ La procédure suivante explique comment émettre un avoir acompte pour annuler t
 [Facturation d’acomptes](finance-invoice-prepayments.md)  
 [Procédure pas à pas : configuration et facturation d’acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

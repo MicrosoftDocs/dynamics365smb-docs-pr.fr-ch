@@ -10,12 +10,12 @@ ms.search.keywords: item reference, cross reference, inventory
 ms.search.forms: 5737, 5735, 5736
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 8d85acefe89d22f7ab6c86aca3af91a6f8a4d67c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: d99b304cec6fd9d834cc16a080040a721beede17
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384113"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514480"
 ---
 # <a name="use-item-references"></a>Utiliser références article
 
@@ -26,7 +26,7 @@ Si vous achetez ou vendez des articles pour lesquels vous et votre fournisseur o
 >
 > Toutes les entreprises n’utilisent pas de références d’articles. Pour minimiser l’encombrement des pages, nous avons masqué les champs et les actions associés par défaut. Si vous décidez de les utiliser, sélectionnez le champ **Utiliser les références article** sur la page **Paramètres stock**. Une fois que vous avez activé les références article, les champs et les actions sont disponibles sur les pages Fiche article, Fiche fournisseur et Fiche client, ainsi que dans les documents de vente et d’achat.
 >
-> Dans les versions antérieures à la 2e vague de lancement 2021, votre administrateur peut activer les fonctionnalité *Écrire des références d’articles plus longues* sur la page [Gestion des fonctionnalités](https://businesscentral.dynamics.com/?page=2610) (le lien nécessite que vous ayez un client [!INCLUDE [prod_short](includes/prod_short.md)]). La façon dont vous utilisez les références ne change pas, mais les noms d’articles, tels que les pages et les boutons le seront. Par exemple, la page **Entrées de références croisées d’article** deviendra la page **Entrées de référence d’article**.
+> Dans les versions antérieures à la 2e vague de lancement 2021, votre administrateur peut activer les fonctionnalité *Écrire des références d’articles plus longues* sur la page [Gestion des fonctionnalités](https://businesscentral.dynamics.com/?page=2610) (le lien nécessite que vous ayez un abonné [!INCLUDE [prod_short](includes/prod_short.md)]). La façon dont vous utilisez les références ne change pas, mais les noms d’articles, tels que les pages et les boutons le seront. Par exemple, la page **Entrées de références croisées d’article** deviendra la page **Entrées de référence d’article**.
 
 ## <a name="to-start-using-item-references"></a>Pour commencer à utiliser les références article
 
@@ -60,7 +60,7 @@ Le champ **Description** de la ligne est remplacé par la description d’articl
 
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Stock](inventory-manage-inventory.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

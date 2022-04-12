@@ -8,12 +8,12 @@ ms.search.keywords: projects
 ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: af4801956ce27bc282356400513fc22a03860784
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad87e0db86cb32b80aa14e80042264977605348a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146269"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517832"
 ---
 # <a name="project-management"></a>Gestion de projets
 
@@ -47,7 +47,7 @@ La gestion des projets est suffisamment compliquée en elle-même et découvrir 
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 07/08/2021
 ms.author: edupont
-ms.openlocfilehash: 7f25c192c43823c1f3594f21097fe7bd7081f889
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 6b82557463633959e62b4d2fed9484c8e2412b22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383574"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520271"
 ---
 # <a name="create-contacts"></a>Créez des contacts
 
@@ -120,7 +120,7 @@ La synchronisation des données entre les contacts et les clients, les fournisse
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  
 [Paramétrage des contacts](marketing-setup-contacts.md)  
-[Utilisation de Business Central](ui-work-product.md)
+[Utiliser Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

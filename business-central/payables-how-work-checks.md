@@ -10,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.search.form: 256, 404,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b2c57c4a96021beb6e02564e7b24577f52b60922
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1b4d3f152f74e1bba9f30e7da45e1b910301b4df
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137824"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520245"
 ---
 # <a name="make-check-payments"></a>Effectuer des paiements par chèque
 
@@ -83,7 +83,7 @@ Si vous souhaitez examiner les chèques validés, par exemple pour vérifier plu
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Exporter un fichier Positive Pay](finance-how-positive-pay.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

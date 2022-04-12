@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 201,206, 207, 271, 493
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 749ef6e4da9ffe8997647eae67d25362b7dbab6d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9e2d8b51381e3fd89f9fab423485fc52cee46071
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143467"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517383"
 ---
 # <a name="use-resources-for-jobs"></a>Utiliser des ressources pour des projets
 
@@ -77,9 +77,9 @@ Si vous avez déjà configuré des prix secondaires pour certaines ressources, v
 
 [Gestion de projets](projects-manage-projects.md)  
 [Finances](finance.md)  
-[Achats](purchasing-manage-purchasing.md)  
-[Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Achats](purchasing-manage-purchasing.md)         
+[Ventes](sales-manage-sales.md)     
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

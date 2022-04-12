@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: eb2ae1ab65a777ab928d38ee62de56f9995e9554
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb54a1baee3a6b7fc63a1f9db15bb79cddb0c108
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132565"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516551"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Pratiques de configuration recommandées : planification de l’approvisionnement
 La planification des approvisionnements est un domaine d’activité critique. Lorsqu’elle est configurée et utilisée correctement, la planification des approvisionnements évite les rupture de stocks et minimise les coûts de commande et de stockage.  
@@ -33,7 +33,7 @@ La planification des approvisionnements est un domaine d’activité critique. L
  [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
  [Détails de conception : paramètres de planification](design-details-planning-parameters.md)   
  [Configurer des domaines d’application complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
- [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

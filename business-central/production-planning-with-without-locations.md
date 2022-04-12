@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 27f9b5002d96d55121272f992f58c9cf9748111f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 97ba3a62954ae2d38106f0dc7aa4f1080e483ef5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137486"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517858"
 ---
 # <a name="planning-with-or-without-locations"></a>Planification avec/sans magasin.
 En ce qui concerne la planification avec ou sans code magasin sur les lignes demande, le système opère directement lorsque :  
@@ -67,7 +67,7 @@ Consultez les variantes des cas de figure ci-dessous.
 >
 > Vous pouvez également définir ceci pour un point de stock précis en sélectionnant un code magasin différent dans le champ **Mag. composant par déf** de la fiche point de stock. Remarquez toutefois que cette action est rarement utilisée, comme la logique planning peut être altérée lors de la planification pour le composant point de stock.
 
-Un autre champ important est le champ **Qté maximum commande** de la fiche **Article**. Il spécifie une quantité maximale autorisée pour une proposition commande article et est utilisé si l’article est expédié dans une unité de transport fixe, telle qu’un conteneur, dont vous souhaitez optimiser l’utilisation. Une fois le besoin de réapprovisionnement reconnu et la taille lot ajustée afin de répondre à la méthode réapprovisionnement spécifiée, la quantité est réduite, si nécessaire, pour satisfaire la quantité maximum commande que vous définissez pour l'article. Si des besoins supplémentaires demeurent, de nouvelles commandes sont calculées pour y répondre. Ce champ est généralement utilisé avec un mode de lancement fabrication sur stock.  
+Un autre champ important est le champ **Qté maximum commande** de la fiche **Article**. Il spécifie une quantité maximale autorisée pour une proposition commande article et est utilisé si l’article est expédié dans une unité de transport fixe, telle qu’un conteneur, dont vous souhaitez optimiser l’utilisation. Une fois le besoin de réapprovisionnement reconnu et la taille lot ajustée afin de répondre à la méthode réapprovisionnement spécifiée, la quantité est réduite, si nécessaire, pour satisfaire la quantité maximum commande que vous définissez pour l’article. Si des besoins supplémentaires demeurent, de nouvelles commandes sont calculées pour y répondre. Ce champ est généralement utilisé avec un mode de lancement fabrication sur stock.  
 
 ## <a name="demand-at-blank-location"></a>Demande dans un magasin blanc  
 Même si la case à cocher **Magasin obligatoire** est activée, le système autorise la création de lignes demande sans code magasin, ce que l’on appelle également « magasin *VIDE* ». Il s’agit d’un écart pour le système car il a plusieurs valeurs de paramétrage accordées pour gérez les emplacements (voir ci-dessus) et, par conséquent, le moteur de planification ne crée pas de ligne planning pour une telle ligne demande. Si le champ **Magasin obligatoire** n’est pas sélectionné mais si une des valeurs d’emplacement existe, c’est également considéré comme un écart et le système de planification réagira en proposant la « solution minimale » :   
@@ -157,7 +157,7 @@ Par conséquent, si vous planifiez souvent des demandes dans des magasins, nous 
 [Achats](purchasing-manage-purchasing.md)  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)  
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

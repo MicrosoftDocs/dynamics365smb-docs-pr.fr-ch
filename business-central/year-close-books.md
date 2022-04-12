@@ -10,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 242868f88883c6e62a9b43ca949289deb0cdf2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2c959f3c3c0aad3a44ea2ebfa60aed395720f562
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142765"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511907"
 ---
 # <a name="closing-the-books"></a>Clôture des livres
 Après vous être assuré que tous vos comptes sont à jour et avoir ventilé les coûts et les bénéfices, vous pouvez clôturer les livres d’un exercice ou d’une période comptable.
@@ -54,7 +54,7 @@ Vous pouvez valider dans un exercice comptable précédent, même après la clô
 ## <a name="see-also"></a>Voir aussi
 
 [Utiliser des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

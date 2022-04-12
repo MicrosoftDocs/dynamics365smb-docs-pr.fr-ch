@@ -1,23 +1,25 @@
 ---
 title: Modifier l’aspect d’un état en sélectionnant une disposition différente
 description: Vous pouvez utiliser différentes présentations d’un état, et passer d’une présentation à l’autre pour modifier l’aspect d’un état.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c02f1e2083ef47d5aeee5831b042128c065c411f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/07/2022
+ms.author: jswymer
+ms.openlocfilehash: af90fd2361a42c06f8af360119bb391efb184de5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144660"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515318"
 ---
-# <a name="change-the-current-report-layout"></a>Modifier la présentation actuelle de l’état
+# <a name="legacy-set-the-layout-used-by-a-report"></a>(Hérité) Définir la présentation utilisée par un état
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Un rapport peut être créé avec plus d’une présentation de rapport, que vous pouvez ensuite changer au besoin.
 
@@ -30,9 +32,13 @@ Lorsque des présentations de rapport personnalisées sont définies, vous pouve
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Pour modifier la présentation de rapport à utiliser pour un rapport ou un document
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
-   La page **Sélection présentation état** répertorie tous les états disponibles pour la société spécifiée dans le champ **Société** en haut de la page. Le champ **Présentation sélectionnée** spécifie la présentation qui est actuellement utilisée sur l’état.
-2. Définissez le champ **Société** en haut de la page sur la société qui inclut le rapport.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection présentation état**, puis sélectionnez le lien associé.
+  
+   La page **Sélection présentation état** répertorie tous les états disponibles pour la société spécifiée dans le champ **Société** en haut de la page. Le champ **Description présentation** <!-- **Selected Layout** -->spécifie la présentation qui est actuellement utilisée sur l’état.
+2. Définissez le champ **Société** en haut de la page sur la société qui inclut l’état.
+
+   Ce champ vous permet de définir différentes présentations pour le même état dans différentes entreprises.
+
 3. Pour modifier la présentation utilisée par un état, sur la ligne correspondant à l’état, définissez le champ **Présentation sélectionnée** sur l’une des options suivantes :
    * **RDLC (intégré)**, utilise la présentation d’état RDLC intégrée sur l’état.
    * **Word (intégré)**, utilise la présentation état Word intégrée sur l’état.
@@ -44,6 +50,7 @@ Lorsque des présentations de rapport personnalisées sont définies, vous pouve
 Si vous avez sélectionné une présentation de rapport RDLC ou Word intégrée, aucune action supplémentaire n’est requise, et la présentation sera utilisée la prochaine fois que le rapport sera exécuté.
 
 ## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Pour modifier la présentation personnalisée à utiliser pour une présentation de rapport
+
 Vous pouvez également modifier la présentation personnalisée actuellement utilisée. Pour plus d’informations, voir [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md).
 
 Toutes les présentations de rapport personnalisées qui existent pour les présentations de rapport dans une société sont répertoriées sur la page **Présentations état personnalisées**. Sur la page **Sélection présentation état**, il est possible de savoir quelles sont les présentations personnalisées disponibles pour chaque rapport dans le récapitulatif **Présentations personnalisées**.
@@ -59,7 +66,7 @@ Vous pouvez maintenant accéder à vos fiches client et fournisseur pour spécif
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des présentations de rapport](ui-manage-report-layouts.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

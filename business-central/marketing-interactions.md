@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5082,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 464940f091356f1a0eaa0b160e2850aded545487
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ea1460810e24d2e78a7d4791aaaaf8a09a4c056c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131394"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517962"
 ---
 # <a name="record-interactions-with-contacts"></a>Enregistrer les interactions avec les contacts
 La configuration de votre application pour enregistrer les interactions est constituée des tâches suivantes :
@@ -54,7 +54,7 @@ Vous pouvez supprimer les écritures journal interaction ayant été annulées. 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
-[Utilisation de Business Central](ui-work-product.md)  
+[Utiliser Business Central](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

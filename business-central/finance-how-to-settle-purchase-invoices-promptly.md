@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 51, 9308
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 39361f09520f17ab659ddc35e49fe4cd39d35354
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 8386d5e52086f1a291529d828b66163c5d2851d3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381956"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516306"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Établir rapidement des factures achat
 
@@ -35,7 +35,7 @@ Si vous devez payer le fournisseur en liquide ou par chèque, vous pouvez valide
 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

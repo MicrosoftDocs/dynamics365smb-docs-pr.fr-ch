@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9736a1ea6c0da0381a14c8e77eabaaf752ea9f34
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7847387049dd799044ed3dca4b62a657b726b069
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133293"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517149"
 ---
 # <a name="setting-up-data-exchange"></a>Configuration de l’échange de données
 Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et exporter des fichiers bancaires, vous devez configurer l’infrastructure d’échange de données pour traiter les fichiers concernés. En outre, vous devez configurer des zones associées, telles que les clients à qui vous envoyez des factures électroniques ou l’extension AMC Banking 365 Fundamentals si vous utilisez le fournisseur externe de services de conversion de vos fichiers bancaires. Pour plus d’informations, voir [Échanger des données par voir électronique](across-data-exchange.md).  
@@ -31,7 +31,7 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 |Configurer différentes données de base, telles que les informations sur la société, les clients, les fournisseurs, les articles et les unités de mesure associés au mappage des données dans [!INCLUDE[prod_short](includes/prod_short.md)]|[Configurer l’envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Configurer un compte bancaire, un fournisseur et une feuille paiement pour le virement SEPA.|[Configurer des virements SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
 |Préparez les formats de compte bancaire, les modes de paiement et les accords clients pour le prélèvement automatique SEPA.|[Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)|  
-|Configurez l’authentification de l’utilisateur et l’URL du fournisseur de l’extension AMC Banking 365 Fundamentals qui est nécessaire pour que les fichiers bancaires soient convertis au format de votre banque.|[Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
+|Configurez l’authentification de l’utilisateur et l’URL du fournisseur de l’extension AMC Banking 365 Fundamentals qui est nécessaire pour que les fichiers bancaires soient convertis au format de votre banque.|[Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
 |Configurer et activer un service externe qui vous permet d’importer des relevés bancaires, directement sous forme de flux bancaires.|[Configurer le service de relevés bancaires](bank-how-setup-bank-statement-service.md)|  
 |Une fois le service de relevés bancaires activé, lier les comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)]|[Configuration des comptes bancaires](bank-how-setup-bank-accounts.md)|  
 |Préparer à configurer une nouvelle définition d’échange de données pour un fichier ou flux de données à l’aide du schéma XML du fichier pour préremplir le raccourci **Définitions de colonnes** de la page **Définitions échange comptabilité**.|[Utiliser des schémas XML pour préparer des définitions d’échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: d7dc36d95a458e6edfa303540c97c2f4fb57da78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131023"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521295"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Créer des flux de travail pour connecter des tâches de processus entreprise
 
@@ -104,7 +104,7 @@ Pour les deux types d’événements, les événements sont définis par le syst
     >  Vous ne pouvez modifier que le retrait d’une étape qui n’a pas d’étape suivante.  
 
 12. Répétez les étapes 7 à 11 pour ajouter d’autres étapes de workflow, avant ou après l’étape que vous venez de créer.  
-13. Activez la case à cocher **Activé** pour spécifier que le workflow démarre lorsque l’événement de la première étape de type **Point d’entrée** se produit. Pour plus d’informations, voir [Utilisation des workflows](across-use-workflows.md).  
+13. Activez la case à cocher **Activé** pour spécifier que le workflow démarre lorsque l’événement de la première étape de type **Point d’entrée** se produit. Pour plus d’informations, voir [Utiliser des workflows](across-use-workflows.md).  
 
 > [!NOTE]  
 > N’activez pas un workflow tant que vous n’êtes pas sûr qu’il est terminé et que les étapes de workflow concernées peuvent démarrer.  
@@ -188,7 +188,7 @@ Ensuite, vous devez et tester le flux de travail en ouvrant un fournisseur exist
 [Supprimer des workflows](across-how-to-delete-workflows.md)  
 [Procédure pas à pas : configuration et utilisation d’un flux d’approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Paramétrage des workflows](across-set-up-workflows.md)  
-[Utilisation des workflows](across-use-workflows.md)  
+[Utiliser des workflows](across-use-workflows.md)  
 [Flux de travail](across-workflow.md)  
 
 

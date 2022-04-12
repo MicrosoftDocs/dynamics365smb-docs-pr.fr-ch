@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e2edca2f2a5b89575810ed2aa0ad3898cd6d01d3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 45fec99ad6082f8d0bb7258415477df833712b41
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135044"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523334"
 ---
 # <a name="setting-up-manufacturing"></a>Paramétrage de la production
 
@@ -44,9 +44,9 @@ Une fois que vous avez paramétré la production, vous pouvez planifier et exéc
 ## <a name="see-also"></a>Voir aussi
 [Production](production-manage-manufacturing.md)
 [Planification](production-planning.md)   
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

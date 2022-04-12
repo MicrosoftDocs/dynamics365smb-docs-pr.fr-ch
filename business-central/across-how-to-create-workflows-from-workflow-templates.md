@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d429b5acce6520b86a1272620379265fb01b1462
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 038494ebd8442c20239bc2426754389117ed95c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147283"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521347"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Créer des flux de travail à partir de modèles de flux de travail
 Pour gagner du temps lors de la création de workflows, vous pouvez créer des workflows à partir de modèles de workflow existants.  
@@ -42,7 +42,7 @@ Sur la page **Workflow**, créez un workflow en répertoriant les étapes concer
  [Supprimer des workflows](across-how-to-delete-workflows.md)   
  [Procédure pas à pas : Configuration et utilisation d’un flux d’approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Paramétrage des workflows](across-set-up-workflows.md)   
- [Utilisation des workflows](across-use-workflows.md)   
+ [Utiliser des workflows](across-use-workflows.md)   
  [Flux de travail](across-workflow.md)   
 
 

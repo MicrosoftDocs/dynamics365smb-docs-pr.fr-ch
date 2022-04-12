@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 317e8af407722be22babde39e1ac24ce5f8a6867
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b0ab0afa97af7c0fda88c963a585a2e1ba481dd6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128686"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516020"
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Configurer les modules complexes à l’aide des meilleures pratiques
 Il est important d’entrer des valeurs de configuration correctes dès le début pour garantir le succès de tout nouveau logiciel de gestion.  
@@ -30,7 +30,7 @@ Il est important d’entrer des valeurs de configuration correctes dès le débu
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
 [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5610, 5611, 5629, 5633, 5659, 5660, 5663, 5619, 5666
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0badc89eaf2cce78d175077301dc242786bd4d10
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 3202fb5906328da08eed10ad722b914eb5b5afcb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366503"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511119"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Amortir des immobilisations
 L’amortissement permet de ventiler le coût des immobilisations, telles que les machines et le matériel, sur leur durée d’amortissement. Vous devez définir la méthode d’amortissement de chaque immobilisation.  
@@ -114,10 +114,10 @@ Vous pouvez copier des écritures d’une loi d’amortissement vers une autre �
 Les lignes copiées sont créées dans la feuille comptabilisation immobilisation ou la feuille immobilisation, selon que la loi d’amortissement que vous copiez a été intégrée en comptabilité ou non.  
 
 ## <a name="see-also"></a>Voir aussi
-[Immobilisations](fa-manage.md)  
+[COMPTES D’IMMOBILISATIONS](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

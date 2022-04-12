@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: a2984aa0d33f95dc98db168b6c18299769583c9f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: db015f330a89a164b7636b4f44a265f528e9cc3f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149231"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513059"
 ---
 # <a name="design-details-variance"></a>Détails de conception : écart
 L’écart est défini comme la différence entre le coût réel et le coût standard, telle que décrite dans la formule suivante.  
@@ -60,9 +60,9 @@ L’écart est défini comme la différence entre le coût réel et le coût sta
 
 ## <a name="see-also"></a>Voir aussi  
  [Détails de conception : stock évaluation stock](design-details-inventory-costing.md)   
- [Détails de conception : Modes évaluation stock](design-details-costing-methods.md) [Gestion des composants des coûts](finance-manage-inventory-costs.md)  
+ [Détails de conception : modes évaluation stock](design-details-costing-methods.md) [Gestion des composants des coûts](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

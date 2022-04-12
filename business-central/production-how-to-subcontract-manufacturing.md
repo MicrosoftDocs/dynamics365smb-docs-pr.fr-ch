@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 116c19964bde7cc58a2c90be1f6b9143ceca3af6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ec85406518757c9ba2b8560e88153dc5c6d899b6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132747"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515370"
 ---
 # <a name="subcontract-manufacturing"></a>Sous-traiter la production
 
@@ -46,13 +46,13 @@ Pour plus d’informations, reportez-vous à [Créer des gammes](production-how-
 ## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Calculer des propositions de sous-traitance et créer des commandes achat de sous-traitance  
 Après le calcul des propositions sous-traitance, le document approprié, en l’occurrence une commande achat, est créé.  
 
-La page **Proposition sous\-traitance** fonctionne comme la **Feuille planning** en calculant les approvisionnements nécessaires \(dans ce cas, les commandes achat\) que vous vérifiez dans la feuille puis créez à l’aide de la fonction **Traiter messages d’action**.  
+La page **Proposition sous-traitance** fonctionne comme la **Feuille planning** en calculant les approvisionnements nécessaires \(dans ce cas, les commandes achat\) que vous vérifiez dans la feuille puis créez à l’aide de la fonction **Traiter messages d’action**.  
 
 > [!NOTE]  
 >  Seuls les ordres de fabrication dont l’état est **Lancé** sont accessibles et utilisables à partir d’une proposition sous-traitance.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Pour calculer des propositions sous-traitance  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille de calcul de sous-traitance**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Propositions sous-traitance**, puis sélectionnez le lien associé.  
 2.  Pour calculer la feuille, choisissez l’action **Générer sous-traitances**.  
 3.  Sur la page **Générer sous-traitances**, définissez des filtres pour les opérations de sous-traitance, ou les centres de charge où celles-ci sont effectuées, pour ne calculer que les ordres de fabrication appropriés.  
 4.  Choisissez le bouton **OK**.  
@@ -60,7 +60,7 @@ La page **Proposition sous\-traitance** fonctionne comme la **Feuille planning**
     Examinez les lignes de la page **Propositions sous-traitance**. Les informations de cette feuille proviennent des lignes de l’ordre de fabrication et de la gamme de l’ordre de fabrication et sont insérées dans la commande achat lors de la création de ce document. Vous pouvez supprimer une ligne de la feuille sans toucher aux informations d’origine, tout comme vous pouvez le faire avec les autres feuilles. Les informations réapparaissent à la prochaine exécution de la fonction **Générer sous-traitances**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Pour créer la commande achat sous-traitance  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille de calcul de sous-traitance**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Propositions sous-traitance**, puis sélectionnez le lien associé.  
 2.  Choisissez l’action **Traiter message d’action**.  
 3.  Sélectionnez le champ **Imprimer commandes** pour imprimer la commande achat lors de sa création.  
 4.  Cliquez sur le bouton **OK**.  
@@ -74,7 +74,7 @@ Une fois les commandes achat de sous-traitant créées, il est possible de les v
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Pour valider une commande achat sous-traitance  
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis sélectionnez le lien associé.  
-2.  Ouvrez une commande achat créée à partir de la feuille sous-traitant.  
+2.  Ouvrez une commande achat créée à partir de la proposition de sous-traitance.  
 
     Sur les lignes commande achat, vous pouvez visualiser les mêmes informations qui étaient dans la feuille. Les champs **N° ordre de fabrication**, **N° ligne O.F.**, **N° opération** et **N° centre de charge** sont renseignés avec les informations de l’ordre de fabrication source.  
 
@@ -95,7 +95,7 @@ Lorsque la commande achat est validée comme facturée, son coût direct est val
 [Planifié](production-planning.md)      
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

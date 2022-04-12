@@ -10,12 +10,12 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6cda8910fdd2f0bdaa3e79a193cae5274d6f9ba8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba8b80508fbab49fddb4d9927d47af3ae1d9708a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137772"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520931"
 ---
 # <a name="making-payments"></a>Effectuer des paiements
 
@@ -33,7 +33,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 | À | Voir |
 | --- | --- |
-|Comprendre les fonctions de base de la page **Feuille paiement**, qui est basée sur la feuille comptabilité, pour préparer la validation des paiements aux fournisseurs ou employés.|[Utilisation de feuilles comptabilité](ui-work-general-journals.md)|
+|Comprendre les fonctions de base de la page **Feuille paiement**, qui est basée sur la feuille comptabilité, pour préparer la validation des paiements aux fournisseurs ou employés.|[Utiliser des feuilles comptabilité](ui-work-general-journals.md)|
 |Valider les paiements aux fournisseurs ou aux salariés, et les remboursements aux clients et lettrer éventuellement les paiements aux factures/avoirs impayés pour les clôturer comme payés.|[Enregistrer des paiements et des remboursements](payables-how-post-payments-refunds.md)|
 | Utiliser une fonction sur la page **Feuille paiement** pour proposer des paiements fournisseur en fonction de critères sélectionnés, tels que la date d’échéance, la possibilité d’escompte et vos liquidités. |[Proposer paiements fournisseur](payables-how-suggest-vendor-payments.md) |
 | Émettre des chèques pour les paiements fournisseur ou les remboursements client, sous forme de documents imprimés ou de chèques informatiques. Annuler des chèques avant ou après la validation. |[Effectuer des paiements par chèque](payables-how-work-checks.md) |
@@ -45,7 +45,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

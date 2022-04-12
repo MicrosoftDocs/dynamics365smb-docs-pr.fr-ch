@@ -10,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 9275
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 3385d0a8d7158237a1f86e8d78785c7045490886
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9b4cbceb0dec26b242a4904ea40de7b8147dc8f4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146555"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515104"
 ---
 # <a name="insure-fixed-assets"></a>Assurer les immobilisations
 Une police d’assurance pour une immobilisation est représentée par une fiche assurance. Vous pouvez attribuer une immobilisation ou plusieurs immobilisations à une police d’assurance.
@@ -113,10 +113,10 @@ Si une immobilisation a été jointe à la mauvaise police d’assurance, vous p
 L’immobilisation sera détachée de la police d’assurance incorrecte, sur la seconde ligne, et rattachée à la police d’assurance correcte, sur la première ligne.  
 
 ## <a name="see-also"></a>Voir aussi
-[Immobilisations](fa-manage.md)  
+[COMPTES D’IMMOBILISATIONS](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

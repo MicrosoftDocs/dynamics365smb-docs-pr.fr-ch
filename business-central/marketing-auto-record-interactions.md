@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ef6e6561ca2a7c3d51a192e6565242dc6f82505b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 768cb420274450d38000fd6ffe8073c0c842f75a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140984"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519032"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Enregistrement automatique des interactions avec les contacts
 Vous pouvez configurer l’application de sorte à enregistrer automatiquement les interactions pour les documents vente, achat et service, les bordereaux d’envoi, les emails, les appels téléphoniques, et notamment :
@@ -32,7 +32,7 @@ Pour ouvrir la page **Paramètres modèles interaction**, choisissez l’icône 
 
 ## <a name="see-also"></a>Voir aussi
 [Enregistrement des interactions avec les contacts](marketing-interactions.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

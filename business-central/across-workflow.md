@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 02f03c3b3423de2b78aea7f4e61c65c968290341
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9cfdcc9bbf8e24675c6894b8ca2efbf10129d990
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130898"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511196"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Flux de travail dans Dynamics 365 Business Central
 
@@ -24,23 +24,23 @@ Vous pouvez configurer et utiliser des workflows qui connectent des tâches de p
 
  La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] inclut plusieurs workflows préconfigurés, représentés par des modèles de workflow que vous pouvez copier pour créer des workflows. Le code des modèles de workflow ajoutés par Microsoft a le préfixe « MS- ». Pour plus d’informations, voir la liste des modèles de flux de travail sur la page Modèles flux de travail.  
 
- Si un scénario d’entreprise requiert un événement ou une réponse de flux de travail qui n’est pas pris en charge, vous pouvez utiliser Power Automate ou travailler avec un partenaire Microsoft pour personnaliser le code de l’application. Pour plus d’informations, voir [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans un flux automatisé](across-how-use-financials-data-source-flow.md).
+ Si un scénario d’entreprise requiert un événement ou une réponse de flux de travail qui n’est pas pris en charge, vous pouvez utiliser Power Automate ou travailler avec un partenaire Microsoft pour personnaliser le code de l’application. Pour plus d’informations, voir [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] dans un flux automatisé](across-how-use-financials-data-source-flow.md).
 
-Tout modèle de flux de travail que vous créez avec Power Automate est ajouté à la liste des modèles de flux de travail dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Utilisation de Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md).  
+Tout modèle de flux de travail que vous créez avec Power Automate est ajouté à la liste des modèles de flux de travail dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Utiliser Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md).  
 
  Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
 |Configurer des utilisateurs du workflow, spécifier comment les utilisateurs sont notifiés et créer des workflows. Pour de nouveaux workflows pour des scénarios non pris en charge, implémentez les éléments requis du workflow en personnalisant le code d’application.|[Paramétrage des workflows](across-set-up-workflows.md)|  
-|Activer des workflows, agir sur les notifications du workflow, notamment les approbations de demandes et approuver des demandes pour effectuer une étape du workflow. Archiver et supprimer des workflows.|[Utilisation des workflows](across-use-workflows.md)|  
+|Activer des workflows, agir sur les notifications du workflow, notamment les approbations de demandes et approuver des demandes pour effectuer une étape du workflow. Archiver et supprimer des workflows.|[Utiliser des workflows](across-use-workflows.md)|  
 
 ## <a name="see-also"></a>Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Gestion des projets](projects-manage-projects.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

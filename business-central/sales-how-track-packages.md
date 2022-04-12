@@ -7,12 +7,12 @@ ms.search.keywords: rfq
 ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8124aa575b7cc1883ce4509834583651c6746b2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334501"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518955"
 ---
 # <a name="track-packages"></a>Suivre des colis
 La plupart des Transporteurs fournissent un service web qui vous permet de suivre le statut de vos colis pendant leur livraison. Ces informations peuvent être utiles dans de nombreux processus d’entreprise, par exemple, lors de la prestation d’un service clientèle. Si vous utilisez certains de ces transporteurs, vous pouvez saisir certaines informations de base les concernant, puis utiliser leur service de suivi de livraison directement auprès des pages Expéditions ventes enregistrées, les Factures ventes enregistrées, les Avoirs ventes enregistrés et les Accusés de réception retours enregistrées. Pour plus d’informations, voir [Configurer des transporteurs](sales-how-to-set-up-shipping-agents.md). 
@@ -36,7 +36,7 @@ La procédure suivante montre comment suivre un colis à partir d’une expédit
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

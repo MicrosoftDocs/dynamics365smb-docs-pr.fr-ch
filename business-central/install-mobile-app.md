@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9c550c5e62b025d59c451aed83a6dbf6f0e1e11b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35d2c97f888905584010c75c7529b4b66fec51c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138481"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515604"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Obtention de Business Central sur votre périphérique mobile
 
@@ -40,7 +40,7 @@ Vous êtes désormais en mesure d’accéder à [!INCLUDE[prod_short](includes/p
 > [!TIP]
 > Si vous souhaitez connecter l’application à un environnement sandbox, choisissez le bouton **Options avancées**, puis choisissez l’option de connexion **Bac à sable de cloud**. Ensuite, si vous disposez de plusieurs environnements sandbox, choisissez l’environnement approprié.
 
-## <a name="using-business-central-on-premises"></a>Utilisation de Business Central sur site ?
+## <a name="use-business-central-on-premises"></a>Utiliser Business Central sur site ?
 
 Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous pouvez également profiter des avantages de l’application mobile. L’installation est similaire, mais à quelques exceptions près.
 
@@ -64,7 +64,7 @@ Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous p
 
 [FAQ relative aux applications mobiles](ui-mobile-faq.yml)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

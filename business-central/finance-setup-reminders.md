@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 81c86841bd4000cab881e06783fd521ae18d1cbf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9456123c29b26c964acf974163ca31daa1e1b7c1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132851"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523386"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Configurer les conditions et niveaux de relance
 
@@ -94,7 +94,7 @@ Si vous créez plus de relances qu’il n’y a de niveaux relance, les conditio
     Par exemple, si vous saisissez **Vous devez %9 %7 dus au %2.**, la relance résultante contiendra le texte suivant : Vous devez **1 200,50 USD dus au 02/02/2014.**.
 
     > [!NOTE]
-    > La date d’échéance est calculée selon la formule de date que vous saisissez. Pour plus d’informations, voir [Utilisation de formules date](ui-enter-date-ranges.md#using-date-formulas).
+    > La date d’échéance est calculée selon la formule de date que vous saisissez. Pour plus d’informations, voir [Utiliser des formules date](ui-enter-date-ranges.md#use-date-formulas).
 
 Si vous avez configuré les conditions relance (avec des niveaux et du texte supplémentaires), saisissez l’un des codes sur chaque fiche client. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).  
 

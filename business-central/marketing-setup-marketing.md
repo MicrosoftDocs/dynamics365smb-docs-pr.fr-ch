@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.search.forms: 5172, 5173, 5170, 5094, 429
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8f43e37b540c9e3b3a89299f8609af7aea8398e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a91592818e5e486f58857da07d5d9dc0390d5fba
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130387"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517936"
 ---
 # <a name="setting-up-relationship-management"></a>Paramétrage de la Gestion des relations
 
@@ -30,9 +30,9 @@ Une partie des données relatives aux sociétés contact sont identiques aux don
 
 Lorsque vous modifiez l’un des champs dans la fiche société contact, l’application modifie automatiquement ce champ dans la fiche personne contact (sauf si vous avez modifié ce champ manuellement).
 
-Pour plus d’informations, reportez-vous à [Créer des contacts](marketing-create-contact-companies.md).
+Pour plus d’informations, voir [Créer des contacts](marketing-create-contact-companies.md).
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Utilisation de paramètres par défaut prédéfinis sur les nouveaux contacts
+## <a name="use-predefined-defaults-on-new-contacts"></a>Utiliser des paramètres par défaut prédéfinis sur les nouveaux contacts
 Vous pouvez configurer l’application pour qu’elle affecte automatiquement des codes langue, secteur, vendeur et pays/région par défaut à chaque nouveau contact. Vous pouvez également entrer un code cycle de vente par défaut que l’application affecte automatiquement à chaque nouvelle opportunité.
 
 Les valeurs héritées des champs sont prioritaires sur les valeurs par défaut que vous avez définies. Par exemple, si vous avez choisi le français comme langue par défaut alors que la langue de la société contact est l’allemand, l’application affecte automatiquement le code langue de l’allemand aux personnes contact enregistrées pour cette société.
@@ -59,7 +59,7 @@ Vous pouvez configurer l’application pour qu’elle recherche automatiquement 
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

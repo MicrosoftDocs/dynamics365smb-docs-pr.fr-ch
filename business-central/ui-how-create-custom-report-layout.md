@@ -10,14 +10,16 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b4642f6ca4c7701cbb49e8441debccfbd32b9be
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d629b2639325b95ab90db8aaf8ac9a3e5d51fc33
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134732"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511456"
 ---
-# <a name="create-and-modify-custom-report-layouts"></a>Créer et modifier des présentations de rapport personnalisées
+# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Hérité) Créer et modifier des présentations de rapport personnalisées
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Par défaut, un rapport aura une présentation de rapport intégrée, qui peut être soit une présentation de rapport RDLC ou une présentation de rapport Word, ou les deux. Vous ne pouvez pas modifier les présentations intégrées. Cependant, vous pouvez créer vos propres présentations personnalisées qui vous permettent de modifier l’apparence d’un rapport lorsqu’il est consulté, imprimé ou enregistré. Vous pouvez créer plusieurs présentations de rapport personnalisées pour le même rapport, puis faire basculer la présentation utilisée par un rapport selon vos besoins.
 
@@ -63,56 +65,56 @@ Pour modifier une présentation de rapport, vous devez d’abord exporter la pr�
 
 ### <a name="to-modify-a-custom-layout"></a>Pour modifier une présentation personnalisée
 
-1.  Vous exportez une présentation personnalisée à partir de la page **Présentations état personnalisées**. Si cette page n’est pas déjà ouverte, recherchez et ouvrez la page **Sélection présentation état**, sélectionnez l’état dont vous souhaitez modifier la présentation, puis choisissez l’action **Présentations personnalisées**.  
-2.  Sur la page **Présentations état personnalisées**, sélectionnez la présentation à modifier, choisissez l’action **Exporter présentation**, puis choisissez **Enregistrer** ou **Enregistrer sous** pour enregistrer le document de présentation d’état dans un emplacement sur votre ordinateur ou réseau.  
+1. Vous exportez une présentation personnalisée à partir de la page **Présentations état personnalisées**. Si cette page n’est pas déjà ouverte, recherchez et ouvrez la page **Sélection présentation état**, sélectionnez l’état dont vous souhaitez modifier la présentation, puis choisissez l’action **Présentations personnalisées**.  
+2. Sur la page **Présentations état personnalisées**, sélectionnez la présentation à modifier, choisissez l’action **Exporter présentation**, puis choisissez **Enregistrer** ou **Enregistrer sous** pour enregistrer le document de présentation d’état dans un emplacement sur votre ordinateur ou réseau.  
+3. Ouvrez le document de présentation de rapport que vous avez enregistré puis apportez les modifications.
 
-3.  Ouvrez le document de présentation de rapport que vous avez enregistré puis apportez les modifications.
+   Si vous modifiez une présentation Word, ouvrez le document de présentation dans Word. Pour plus de détails sur l’édition, voir [Utiliser des dispositions Word](ui-how-add-fields-word-report-layout.md)<!--the next section [Making Changes to the Report Layout](ui-how-create-custom-report-layout.md#MakeChangesToLayout)-->.
 
-      Si vous modifiez une présentation Word, ouvrez le document de présentation dans Word. Pour modifier les détails, reportez-vous à la section suivante [Apporter des modifications à la présentation de rapport](ui-how-create-custom-report-layout.md#MakeChangesToLayout).
+   Les présentations de rapport RDLC sont plus avancées que les présentations de rapport Word. Pour plus d’informations sur la modification d’une présentation de rapport RDLC, voir [Création de présentations de rapport RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
-      Les présentations de rapport RDLC sont plus avancées que les présentations de rapport Word. Pour plus d’informations sur la modification d’une présentation de rapport RDLC, voir [Création de présentations de rapport RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
+   Pensez à enregistrer vos modifications une fois effectuées.
 
-      Pensez à enregistrer vos modifications une fois effectuées.
-
-4.  Retournez à la page **Présentations état personnalisées**, sélectionnez la présentation d’état que vous avez exportée et modifiée, puis choisissez l’action **Importer présentation**.  
+4. Retournez à la page **Présentations état personnalisées**, sélectionnez la présentation d’état que vous avez exportée et modifiée, puis choisissez l’action **Importer présentation**.  
 
 5. Dans la boîte de dialogue **Importer**, sélectionnez **Choisir** pour rechercher et sélectionner le document de présentation d’état modifié, puis choisissez **Ouvrir**.
 
 > [!IMPORTANT]
 > N’oubliez pas d’importer le document de mise en page de rapport que vous avez modifié. Sinon, la nouvelle mise en page du rapport ne sera pas disponible.
 
-##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Créer et modifier des présentations de rapport personnalisées
+<!--
+##  <a name="MakeChangesToLayout"></a> Create and Modify Custom Report Layouts
 
-Pour apporter des modifications générales de mise en forme et de disposition (par exemple modifier la police texte, ajouter et modifier un tableau ou supprimer un champ de données), utilisez les fonctions de base d’édition de Word, tout comme vous le faites avec n’importe quel document Word.
+To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
 
-Si vous créez une présentation de rapport Word de A à Z ou en ajoutant de nouveaux champs de données, commencez par ajouter un tableau comprenant des lignes et colonnes qui finiront par contenir les champs de données.
+If you're designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.
 
 > [!TIP]  
-> Affiche les quadrillages de façon à visualiser les contours des cellules de la table. Pensez à masquer les quadrillages lorsque vous avez terminé l’édition. Pour masquer ou afficher des quadrillages dans la table, sélectionnez la table, puis sous **Mise en page** sous l’onglet **Table**, sélectionnez **Afficher les quadrillages**.
+> Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Incorporation de polices dans des présentations Word pour des raisons de cohérence
+### Embedding Fonts in Word Layouts for Consistency
 
-Pour vous assurer que les états affichent et impriment toujours avec les polices prévues, quel que soit l’emplacement où les utilisateurs ouvrent ou impriment des états, vous pouvez incorporer des polices au document Word. Toutefois, sachez qu’incorporer des polices peut augmenter de façon significative la taille des fichiers Word. Pour plus d’informations sur l’incorporation de polices à Word, voir [Incorporer des polices à Word, PowerPoint ou Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Suppression des champs d’étiquette et de données dans les présentations Word
+###  <a name="RemoveField"></a> Removing Label and Data Fields in Word Layouts
 
- L’étiquette les champs de données d’un état sont contenus dans des contrôles de contenu dans Word. La figure ci-après illustre un contrôle de contenu lorsqu’il est sélectionné dans le document Word.  
+ Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
- ![Contrôle de contenu d’un champ dans une présentation état Word.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+ ![Content control for field in Word report layout.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
 
- Le nom de l’étiquette ou le nom du champ de données s’affiche dans le contrôle de contenu. Dans l’exemple, le nom du champ est CompanyAddr1.  
+ The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a>Pour supprimer un champ étiquette ou données  
+### To remove a label or data field  
 
-1. Cliquez avec le bouton droit sur le champ que vous voulez supprimer, puis choisissez **Supprimer le contrôle de contenu**.  
+1. Right-click the field that you want to delete, and then choose **Remove Content Control**.  
 
-     Le contrôle de contenu est supprimé, mais le nom du champ reste sous forme de texte.  
+     The content control is removed, but the field name remains as text.  
 
-2. Supprimez le texte restant selon vos besoins.  
+2. Delete the remaining text as needed.  
 
-### <a name="adding-data-fields"></a>Ajout de champs de données
+### Adding data fields
 
-L’ajout de champs de données à partir d’un ensemble des données d’état est une fonction plus avancée qui exige des connaissances sur l’ensemble des données d’état. Pour plus d’informations sur l’ajout de champs pour les données, étiquettes et images, voir [Ajouter des champs à une présentation de rapport Word](ui-how-add-fields-word-report-layout.md).  
+Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
@@ -121,10 +123,10 @@ L’ajout de champs de données à partir d’un ensemble des données d’état
 [Gestion des présentations de rapport](ui-manage-report-layouts.md)  
 [Modifier la présentation actuelle de l’état](ui-how-change-layout-currently-used-report.md)  
 [Importer et exporter une présentation d’état ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
-[Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)  
+[Utiliser des états, des traitements par lots et des XMLports](ui-work-report.md)  
 [Préparer la génération d’états financiers avec des tableaux d’analyse et des catégories de compte](bi-how-work-account-schedule.md) 
 [Veille économique](bi.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

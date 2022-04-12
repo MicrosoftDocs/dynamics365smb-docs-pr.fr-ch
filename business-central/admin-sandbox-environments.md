@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: 1a80e5ba3fb54d618334f65de452984dc3c1c356
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 20637dcced16fe695d64c2b4d858483882c64f7a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142486"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518300"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Environnements Sandbox dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -66,13 +66,13 @@ When the assisted setup guide completes, you can start exploring the new company
 
 Dans un environnement sandbox, la fonctionnalité **Concepteur** est activée. Vous pouvez activer Concepteur en sélectionnant l’icône de conception ![Concepteur.](./media/across-sandbox/sandbox-inclient-design-icon.png) sur une page, ou en choisissant l’élément de menu **Conception** dans le menu ![Paramètres](media/ui-experience/settings_icon_small.png).  
 
-Pour plus d’informations, consultez [Utilisation du concepteur](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) dans le contenu dédié à l’équipe Administration et aux développeurs (en anglais uniquement).  
+Pour plus d’informations, voir [Utiliser le concepteur](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) dans le contenu dédié à l’équipe Administration et aux développeurs (en anglais uniquement).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 Versions d’évaluation et abonnements [[!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
 [Gestion des environnements dans le centre d’administration de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Environnements de production et sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types)  

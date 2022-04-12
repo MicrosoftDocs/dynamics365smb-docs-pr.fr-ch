@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/12/2021
+ms.date: 03/04/2022
 ms.author: jswymer
-ms.openlocfilehash: 1cbb122c313f60b79678d5e8ed3b186b52f25782
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4ee154f242eebb65f9ef61453c8ff51c770f2713
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138758"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511248"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Intégration de Business Central et Microsoft Teams
 
@@ -44,7 +44,7 @@ Pour plus d’informations, reportez-vous à la [Recherche de doublons de contac
 
 Copier un lien vers n’importe quel enregistrement Business Central et le coller dans une conversation Teams à partager avec vos collègues. L’application étendra le lien dans une carte interactive compacte qui affiche des informations sur l’enregistrement.
 
-[![Intégration Teams avec Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Intégration Teams avec Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 Une fois dans la conversation, vous et vos collègues pouvez afficher plus de détails sur l’enregistrement, modifier les données et prendre des mesures, sans quitter Teams.
 
@@ -65,7 +65,7 @@ Pour plus d’informations, consultez [Partager des enregistrements et des liens
     Si vous n’êtes pas certain de disposer d’un compte ou si vous ne connaissez pas vos informations d’identification pour vous connecter, contactez l’administrateur de votre société pour vous aider à commencer.
 
     > [!TIP]
-    > Si votre organisation n’a pas d’abonnement [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez vous inscrire pour un essai gratuit. Pour plus d’informations, voir [Mise en route avec une version d’essai](across-preview.md#getting-started-with-a-trial).
+    > Si votre organisation n’a pas d’abonnement [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez vous inscrire pour un essai gratuit. Pour plus d’informations, voir [Mise en route avec une version d’essai](across-preview.md#get-started-with-a-trial).
 
 2. En tant qu’administrateur, consultez [Gestion de l’intégration de Microsoft Teams avec Business Central](admin-teams-integration.md) pour obtenir des informations sur la manière dont les utilisateurs peuvent travailler avec [!INCLUDE [prod_short](includes/prod_short.md)] et Teams.
 3. Installer une application [!INCLUDE [prod_short](includes/prod_short.md)] dans Teams. Voir [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md).

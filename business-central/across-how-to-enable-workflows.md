@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ec39dfd6a8b9c209060fbd5d17ba429c56a6f92f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6ff238b213de72210908c89eae1da180a1a10fb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136493"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519318"
 ---
 # <a name="enable-workflows"></a>Activer des workflows
 Lorsque vous avez créé un workflow et que vous êtes sûr qu’il est prêt à démarrer, vous devez l’activer.  
@@ -31,7 +31,7 @@ Lorsque vous avez créé un workflow et que vous êtes sûr qu’il est prêt à
  [Afficher des instances d’étape de workflow archivées](across-how-to-view-archived-workflow-step-instances.md)   
  [Supprimer des workflows](across-how-to-delete-workflows.md)   
  [Paramétrage des workflows](across-set-up-workflows.md)   
- [Utilisation des workflows](across-use-workflows.md)   
+ [Utiliser des workflows](across-use-workflows.md)   
  [Procédure pas à pas : Configuration et utilisation d’un flux d’approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Flux de travail](across-workflow.md)   
 

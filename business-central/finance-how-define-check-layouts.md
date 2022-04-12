@@ -10,12 +10,12 @@ ms.search.keywords: print check, customize
 ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7be12b5fe3c6bac93a6ea51454a193ba76320a8e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ed0cf9383ed635e3f7b940ef4f28943ffb6bc1a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149064"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518118"
 ---
 # <a name="select-a-check-layout"></a>Sélectionner une mise en page de chèque
 
@@ -40,8 +40,7 @@ Une fois que vous avez défini les mises en page de chèques, vous pouvez imprim
 
 Pour modifier l’une de ces mises en page de chèque par défaut, utilisez l’intégration Word ou RDLC. Pour plus d’informations, voir [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md).
 
-## <a name="using-micr-and-security-fonts"></a>Utilisation des polices de sécurité et MICR
-
+## <a name="use-micr-and-security-fonts"></a>Utiliser les polices de sécurité et MICR
 La version en ligne de [!INCLUDE[prod_short](includes/prod_short.md)] contient des polices préinstallées sur les serveurs qui peuvent être utilisées lors de la définition des mises en page de chèque. Ci-après, découvrez les polices disponibles et des liens vers des informations détaillées fournies par les fournisseurs tiers de polices.
 
 > [!Important]
@@ -100,7 +99,7 @@ Les polices à d’autres fins sont également disponibles dans [!INCLUDE[prod_s
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)   
 [Exécution des processus de clôture d’exercice](year-how-complete-period-end-processes.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
 
 

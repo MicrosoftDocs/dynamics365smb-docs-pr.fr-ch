@@ -4,15 +4,15 @@ description: Découvrez les états et analyses disponibles dans la version stand
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 347
+ms.search.form: 347, Report_301, Report_304, Report_305, Report_312, Report_317, Report_319, Report_321, Report_322, Report_329
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: f55fb37ff9db8a7967cd3fbe480d88ca6fd3d75b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bf6783d39fd161c2f3ec104515cc10197c6150cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137720"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515448"
 ---
 # <a name="accounts-payable-reports-and-analytics-in-business-central"></a>États comptabilité fournisseur et analyses d’immobilisation dans Business Central
 
@@ -25,7 +25,7 @@ Pour vous aider à gérer votre comptabilité fournisseur dans [!INCLUDE [prod_s
 ## <a name="see-also"></a>Voir aussi
 
 [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  
-[Utilisation des axes analytiques](finance-dimensions.md)  
+[Utiliser les axes analytiques](finance-dimensions.md)  
 [Gestion des immobilisations](fa-manage.md)  
 [Vue d’ensemble des fonctionnalités locales](about-localization.md)  
 [Expériences de comptable dans [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  

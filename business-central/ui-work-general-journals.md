@@ -10,14 +10,14 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e697127998351040cb21c44c8383f1f64581bf4
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 365dae77b153794826681e500a1a753f6f749e55
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381341"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518772"
 ---
-# <a name="working-with-general-journals"></a>Utilisation de feuilles comptabilité
+# <a name="work-with-general-journals"></a>Utiliser des feuilles comptabilité
 
 La plupart des transactions financières sont validées en comptabilité via les documents commerciaux dédiés, tels que des factures achat et des commandes vente. Mais vous pouvez également traiter des activités commerciales comme l’achat, le paiement, à l’aide des feuilles périodiques pour valider les régularisations, ou le remboursement des frais d’un salarié en validant des lignes feuille dans les diverses feuilles de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -34,7 +34,7 @@ Les informations que vous saisissez dans une feuille sont temporaires et peuvent
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="using-journal-templates-and-batches"></a>Utilisation de modèles feuille et feuilles
+## <a name="use-journal-templates-and-batches"></a>Utiliser des modèles feuille et des feuilles
 
 Il existe plusieurs modèles feuille. Chaque modèle feuille est représenté par une page dédiée avec des fonctions particulières et les champs nécessaires pour la prise en charge de ces fonctions, notamment la page **Feuille rapprochement bancaire** qui permet de traiter les paiements bancaires et la page **Feuille paiement** qui permet de payer vos fournisseurs ou rembourser vos employés. Pour plus d’informations, consultez [Exécuter des paiements](payables-make-payments.md) et [Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client](receivables-how-apply-sales-transactions-manually.md).
 
@@ -51,7 +51,9 @@ Pour éviter les retards lors de la validation, vous pouvez activer une vérific
 
 Lorsque vous activez la validation, le Récapitulatif **Vérification de feuille** s’affiche à côté des lignes feuille et affiche les problèmes de la ligne actuelle et du lot entier. La validation se produit lorsque vous chargez une Feuille financière et lorsque vous choisissez une autre ligne feuille. La vignette **Nombre total d’erreurs** du Récapitulatif montre le nombre total de problèmes que [!INCLUDE[prod_short](includes/prod_short.md)] a trouvées, et vous pouvez le choisir pour ouvrir un aperçu des problèmes. 
 
-Vous pouvez utiliser les actions **Afficher les lignes avec des problèmes** et **Afficher toutes les lignes** pour basculer entre les lignes feuille qui ont ou n’ont pas de problèmes. Le nouveau Récapitulatif **Détails de la ligne feuille** fournit un aperçu rapide et un accès aux données des lignes feuille, telles que le compte général, le client ou le fournisseur, ainsi que la configuration de la validation pour des comptes spécifiques.     
+Vous pouvez utiliser les actions **Afficher les lignes avec des problèmes** et **Afficher toutes les lignes** pour basculer entre les lignes feuille qui ont ou n’ont pas de problèmes. Le nouveau Récapitulatif **Détails de la ligne feuille** fournit un aperçu rapide et un accès aux données des lignes feuille, telles que le compte général, le client ou le fournisseur, ainsi que la configuration de la validation pour des comptes spécifiques.   
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
 ### <a name="reversing-journals-to-correct-mistakes"></a>Annulation de feuilles pour corriger les erreurs
 Lorsque vous travaillez avec des feuilles qui comportent de nombreuses lignes et que quelque chose ne va pas, il est important de disposer d’un moyen simple de corriger les erreurs. La page **Feuille comptabilité validée** propose quelques actions qui peuvent vous aider.
@@ -73,7 +75,7 @@ Si vous avez configuré des comptes contrepartie par défaut pour les feuilles s
 > [!NOTE]  
 > La TVA est calculée séparément pour le compte principal et le compte contrepartie, afin qu’ils puissent utiliser des taux de pourcentage de TVA différents.
 
-## <a name="working-with-recurring-journals"></a>Utilisation de feuilles abonnement
+## <a name="work-with-recurring-journals"></a>Utiliser des feuilles abonnement
 Une feuille abonnement est une feuille comptabilité contenant des champs spécifiques pour la gestion des transactions que vous validez fréquemment avec peu ou pas de modifications comme le bail, les abonnements, l’électricité et le chauffage. Utilisez ces champs dans le cadre des transactions récurrentes pour valider les montants fixes et variables. Vous pouvez également définir des écritures de contrepassation automatique le lendemain de la date de validation. Vous pouvez également utiliser les clés de ventilation pour répartir les écritures récurrentes entre plusieurs comptes. Pour plus d’informations, reportez-vous à [Ventilation des montants feuille abonnement sur plusieurs comptes](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Avec une feuille abonnement, les écritures qui sont régulièrement validées ne sont saisies qu’une fois. Les comptes, axes, sections analytiques, etc., que vous saisissez restent ainsi dans la feuille après validation. Si des ajustements sont nécessaires, vous pouvez les faire à chaque validation.
@@ -97,7 +99,7 @@ Ce champ détermine la manière dont le montant de la ligne feuille est traité 
 > Les champs TVA peuvent être renseignés sur la ligne feuille abonnement ou sur la ligne feuille ventilation, mais pas sur les deux. Ils peuvent être renseignés sur la page **Ventilations** uniquement si les lignes correspondantes de la feuille abonnement ne sont pas renseignées.
 
 ### <a name="recurring-frequency-field"></a>Champ Périodicité abonnement
-Ce champ détermine la fréquence de validation de l’écriture de la ligne feuille. Il s’agit d’un champ de formule de date qui doit être renseigné pour les lignes feuille abonnement. Pour plus d’informations, voir [Utilisation de formules date](ui-enter-date-ranges.md#using-date-formulas).
+Ce champ détermine la fréquence de validation de l’écriture de la ligne feuille. Il s’agit d’un champ de formule de date qui doit être renseigné pour les lignes feuille abonnement. Pour plus d’informations, voir [Utiliser des formules date](ui-enter-date-ranges.md#use-date-formulas).
 
 #### <a name="examples"></a>Exemples
 Si la ligne feuille doit être validée tous les mois, saisissez "1M." Après chaque validation, la date du champ **Date comptabilisation** est mise à jour, elle est remplacée par la même date du mois suivant.
@@ -145,7 +147,7 @@ Les régularisations sont généralement validées avec des méthodes périodiqu
 > [!NOTE]
 > Par défaut, le champ **Calcul de la date de contrepassation** n’est pas disponible sur la page **Feuilles comptabilité périodiques**. Pour utiliser le champ, vous devez l’ajouter en personnalisant la page. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
-## <a name="working-with-standard-journals"></a>Utilisation de feuilles standard
+## <a name="work-with-standard-journals"></a>Utiliser des feuilles standard
 Lorsque vous créez des lignes feuille dont vous savez que vous risquez de les recréer ultérieurement, vous pouvez les enregistrer en tant que feuille standard avant de valider la feuille. Cette fonctionnalité s’applique aux feuilles article et aux feuilles comptabilité.
 
 > [!NOTE]  
@@ -215,10 +217,10 @@ Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, po
 ## <a name="see-also"></a>Voir aussi
 
 [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
-[Contrepasser une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
+[Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
 [Répartition des coûts et du revenu](year-allocate-costs-income.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Clôturer les écritures comptables article ouvertes qui résultent d’un lettrage fixe dans la feuille article](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Réévaluer le stock dans la Feuille réévaluation](inventory-how-revalue-inventory.md)  
 [Comptabiliser, ajuster et reclasser le stock avec les feuilles](inventory-how-count-adjust-reclassify.md)  

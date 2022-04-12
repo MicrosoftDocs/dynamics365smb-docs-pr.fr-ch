@@ -10,12 +10,12 @@ ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9018
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322866"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513616"
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
 [!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités dédiées pour les domaines d’activité courants, tels que la finance et les ventes. Pour plus d’informations, voir [Fonctionnalités d’entreprise](across-business-functionality.md).
@@ -23,7 +23,7 @@ ms.locfileid: "8322866"
 Pour prendre en charge ces tâches spécifiques à votre secteur d’activité, vous pouvez utiliser diverses fonctionnalités d’entreprise, comme définir un texte étendu pour les lignes document et organiser les tâches professionnelles en flux de travail.
 
 > [!NOTE]
-> Outre les fonctionnalités liées à l’entreprise décrites de cette section, vous utiliserez des fonctionnalités d’interface utilisateur générales chaque jour pour interagir avec le système. Pour plus d’informations, voir [Utilisation de Business Central](ui-work-product.md).
+> Outre les fonctionnalités liées à l’entreprise décrites de cette section, vous utiliserez des fonctionnalités d’interface utilisateur générales chaque jour pour interagir avec le système. Pour plus d’informations, voir [Utiliser Business Central](ui-work-product.md).
 
 Le tableau suivant répertorie ces secteurs d’activité généraux avec des liens vers les rubriques qui les décrivent.
 
@@ -40,7 +40,7 @@ Le tableau suivant répertorie ces secteurs d’activité généraux avec des li
 |Validez plusieurs documents de vente ou d’achat ensemble, immédiatement ou selon une planification.|[Valider plusieurs documents en même temps](ui-batch-posting.md)|  
 |Examinez le résultat de la validation avant de valider.|[Résultats de l’aperçu compta.](ui-how-preview-post-results.md)|
 |Modifiez les champs sélectionnés sur les documents de vente ou d’achat validés.|[Valider les documents validés](across-edit-posted-document.md)|
-|Apprendre à utiliser Les feuilles comptabilité, qui permettent de valider dans les comptes généraux et d’autres comptes tels que les comptes bancaires, client, fournisseur et immobilisations. |[Utilisation de feuilles comptabilité](ui-work-general-journals.md) |
+|Apprendre à utiliser Les feuilles comptabilité, qui permettent de valider dans les comptes généraux et d’autres comptes tels que les comptes bancaires, client, fournisseur et immobilisations. |[Utiliser des feuilles comptabilité](ui-work-general-journals.md) |
 | Planifier un état à exécuter à une date et une heure spécifiques. |[Planification d’un état à exécuter](ui-work-report.md#ScheduleReport) |
 |Le système peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même.|[Permettre à Business Central de proposer des valeurs](ui-let-system-suggest-values.md)|
 |Enregistrez des documents externes, ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
@@ -48,7 +48,7 @@ Le tableau suivant répertorie ces secteurs d’activité généraux avec des li
 | Configurer les définitions d’échange de données afin de pouvoir envoyer et recevoir des documents électroniques. |[Échanger des données par voir électronique](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administration](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

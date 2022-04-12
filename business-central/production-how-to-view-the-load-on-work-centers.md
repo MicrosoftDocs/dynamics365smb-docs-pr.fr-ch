@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000915, 99000916
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 456347d55a62864877a969ee7997463f37b1b8e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5e1963bb8978e67b98ff3e85d09e6294e084034b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140828"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515344"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Afficher la charge des centres de charge et des postes de charge
 
@@ -33,7 +33,7 @@ Les champs **Afficher par** et **Afficher en tant que** sur le raccourci **Optio
 [Planifié](production-planning.md)  
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

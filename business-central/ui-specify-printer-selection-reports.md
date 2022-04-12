@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900, 9018, 9022
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 317e90976aed760f55fc7122483377e8df11c906
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b52d90dfadfac794ff1a62088def7c26a903a57d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335177"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512669"
 ---
 # <a name="set-up-printers"></a>Paramétrage imprimantes
 
@@ -278,7 +278,7 @@ L’impression cloud est conçue pour des documents de taille raisonnable. La pl
 ## <a name="see-also"></a>Voir aussi
 
 [Impression d’un état](ui-work-report.md#PrintReport)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exécuter des traitements par lots](ui-how-run-batch-jobs.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 

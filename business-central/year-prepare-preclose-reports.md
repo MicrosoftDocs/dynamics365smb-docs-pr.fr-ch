@@ -9,20 +9,20 @@ ms.workload: na
 ms.search.form: 1393, 1394
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2ce238ea11f7bbe04639de64e6529ebe8c6ff2e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: af522d05f007959552f59922c52e2526a1a7e2b1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139042"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517728"
 ---
-# <a name="using-pre-closing-reports"></a>Utilisation d’états préalables à la clôture
+# <a name="use-pre-closing-reports"></a>Utiliser des états préalables à la clôture
 
 Il existe de nombreux états standard qui vous permettent de vérifier la précision des comptes avant de clôturer les livres à la fin d’un exercice ou d’une période. Par exemple, vous pouvez utiliser l’état **Clients : Balance** pour vérifier que le solde d’un groupe comptabilisation client est égal au solde du compte général correspondant à une date donnée.
 
 Le tableau suivant décrit un certain nombre d’états qui peuvent être utiles dans ce processus.
 
-| Pour | Afficher ce rapport |
+| Pour | Afficher cet état |
 | --- | --- |
 | Imprimer un état Balance détaillé pour un ou plusieurs comptes bancaires avec des informations supplémentaires sur des écritures individuelles. |Banque : Grand livre |
 | Imprimer un Grand livre pour les clients sélectionnés. |Clients : Balance |
@@ -39,7 +39,7 @@ Pour voir un rapport, sélectionnez l’icône ![Ampoule qui ouvre la fonction T
 ## <a name="see-also"></a>Voir aussi
 
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 

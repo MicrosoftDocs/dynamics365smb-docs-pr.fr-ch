@@ -11,12 +11,12 @@ ms.search.keywords: Posted document, editable, posted sales shipment, posted pur
 ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 09b6180606ba92c6f5fbaeeb5aca6a0ce7c70a7f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c8e4dde3ddf684f9402b98634cbc74c34058933
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136571"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519959"
 ---
 # <a name="edit-posted-documents"></a>Valider les documents validés
 
@@ -54,7 +54,7 @@ L’expédition vente enregistrée est mise à jour.
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Validation des documents et des feuilles](ui-post-documents-journals.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

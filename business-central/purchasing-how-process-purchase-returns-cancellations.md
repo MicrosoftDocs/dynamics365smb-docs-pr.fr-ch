@@ -10,12 +10,12 @@ ms.search.keywords: cancel, undo, correct
 ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b59271a3c1bf1558b7a4584ac3088b33ea0ee34
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 643a0206bb5c84cb1530e24403094474d98f28f9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382432"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517331"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Traiter les retours ou annulations d’achats
 
@@ -193,7 +193,7 @@ Lorsque des expéditions retour sont regroupées sur un avoir et validées, un a
 [Achats](purchasing-manage-purchasing.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
 [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md)  
 
 

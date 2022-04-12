@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: b73cad316dacb5170b8f63ce84dd134f505e5c1c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a485162cb194f7f16ff7c33c3e4a095865d35daf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383282"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520479"
 ---
 # <a name="undo-assembly-posting"></a>Annuler la validation d’assemblage
 Vous pouvez parfois être amené à annuler un ordre d’assemblage validé, par exemple, si la commande a été validée avec des erreurs qui doivent être corrigées, ou parce qu’il n’aurait pas dû être validé en premier et doit être annulé.
@@ -59,8 +59,8 @@ Le champ **Contrepassé** de l’en\-tête d’ordre d’assemblage prend la val
 [Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md)    
 [Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
 [Stock](inventory-manage-inventory.md)  
-[Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

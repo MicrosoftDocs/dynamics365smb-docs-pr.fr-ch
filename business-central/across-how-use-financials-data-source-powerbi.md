@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 51fb5e0f818974ed421b7f2bf282ad1c35c2eb0a
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 926c614dcb28c7bde4ee8c0a611ac45aa7145fb8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366358"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523230"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Créer des états Power BI pour afficher des données [!INCLUDE [prod_long](includes/prod_long.md)]
 
@@ -47,7 +47,7 @@ Cet article aborde la prise en main de Power BI Desktop pour créer des états q
 
 - Téléchargez le thème de l’état [!INCLUDE [prod_short](includes/prod_short.md)] (facultatif).
 
-  Pour plus d’informations, consultez [Utilisation du thème de l’état [!INCLUDE [prod_short](includes/prod_short.md)]](#theme) dans cet article.
+  Pour plus d’informations, consultez [Utiliser le thème de l’état [!INCLUDE [prod_short](includes/prod_short.md)]](#theme) dans cet article.
 
 ## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Ajouter [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données dans Power BI Desktop
 
@@ -82,7 +82,7 @@ La première tâche dans le cadre de la création d’états consiste à ajouter
       - **Nom de la société**
         - **API avancées**
 
-          Ce dossier répertorie les pages API avancées publiées par Microsoft, comme les [API d’automatisation de Business Central](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) et [pages d’API personnalisées pour Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Les pages d’API personnalisées sont en outre regroupées dans des dossiers par propriétés [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property) du code source de la page API.
+          Ce dossier répertorie les pages API avancées publiées par Microsoft, comme les [API d’automatisation de Business Central](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) et [pages d’API personnalisées pour Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Les pages d’API personnalisées sont en outre regroupées dans des dossiers par propriétés [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property) du code source de la page API.
 
         - **API standards v2.0**
 

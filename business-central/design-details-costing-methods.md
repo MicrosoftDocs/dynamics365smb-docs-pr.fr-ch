@@ -1,20 +1,20 @@
 ---
-title: Détails de conception - Modes évaluation stock
+title: 'Détails de conception : modes évaluation stock'
 description: Cette rubrique décrit en quoi le mode évaluation du stock affecte la façon dont les valeurs réelles et budgétées sont capitalisées et prises en compte dans le calcul des coûts.
-author: brentholtorf
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 30, 31, 8645
-ms.date: 06/14/2021
+ms.search.keywords: ''
+ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: c7c8106ff5e38efd35b361fcccc8ebd88602a475
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383362"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519819"
 ---
 # <a name="design-details-costing-methods"></a>Détails de conception : modes évaluation stock
 
@@ -35,7 +35,7 @@ Les méthodes suivantes sont prises en charge dans [!INCLUDE[prod_short](include
 
 L’image suivante montre la manière dont les coûts circulent dans le stock pour chaque mode d’évaluation du stock.  
 
- ![Modes évaluation stock.](media/design_details_inventory_costing_7_costing_methods.png "Modes évaluation stock")  
+![Visualisation des modes évaluation stock.](media/design_details_inventory_costing_7_costing_methods.png "Visualisation des modes évaluation stock")  
 
 Les méthodes d’évaluation du stock diffèrent dans la façon d’évaluer les sorties de stock et d’utiliser le coût réel ou le coût standard comme base d’évaluation. Le tableau suivant explique les différentes caractéristiques. (La méthode LIFO est exclue, car elle est presque identique à la méthode FIFO).  
 
@@ -64,31 +64,17 @@ Le tableau suivant montre les entrées et les sorties de stock sur lesquels les 
 > [!NOTE]  
 > La quantité qui en résulte dans le stock est égale à zéro. Par conséquent, la valeur du stock doit également être zéro, quel que soit le mode évaluation stock.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effet des modes évaluation stock sur l’évaluation des entrées de stock
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effet des modes évaluation stock sur l’évaluation des entrées de stock  
 
-- **FIFO**/**LIFO**/**Moyenne**/**Spécifique**  
-
-    Pour les articles utilisant les modes évaluation stock qui utilisent le coût réel comme base d’évaluation (**FIFO**, **LIFO**, **Moyenne** ou **Spécifique**), les entrées de stock sont évaluées au coût d’acquisition de l’article.  
-
-    Le tableau suivant montre la manière dont les entrées de stock sont évaluées pour tous les modes d’évaluation du stock, à l’exception de **Standard**.  
-
-    |Date comptabilisation|Quantité|Coût total (réel)|Numéro de la séquence|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01/01/20|1|10,00|1|  
-    |01/01/20|1|20,00|2|  
-    |01/01/20|1|30,00|3|  
+Pour les articles utilisant les modes évaluation stock qui utilisent le coût réel comme base d’évaluation (**FIFO**, **LIFO**, **Moyenne** ou **Spécifique**), les entrées de stock sont évaluées au coût d’acquisition de l’article.  
 
 - **Standard**  
 
     Pour les articles qui utilisent le mode d’évaluation du stock **Standard**, les entrées de stock sont évaluées au coût standard actuel de l’article.  
 
-    Le tableau suivant montre la manière dont les entrées de stock sont évaluées pour le mode d’évaluation du stock **Standard**.  
+#### <a name="standard"></a>Standard  
 
-    |Date comptabilisation|Quantité|Coût total (réel)|Numéro de la séquence|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01/01/20|1|15,00|1|  
-    |01/01/20|1|15,00|2|  
-    |01/01/20|1|15,00|3|  
+Pour les articles qui utilisent le mode d’évaluation stock **Standard**, les entrées de stock sont évaluées au coût standard actuel de l’article.  
 
 ### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Effet des modes évaluation stock sur l’évaluation des sorties de stock
 
@@ -96,9 +82,9 @@ Le tableau suivant montre les entrées et les sorties de stock sur lesquels les 
 
     Pour les articles utilisant le mode évaluation stock **FIFO**, les articles achetés en premier sont toujours les premiers vendus (numéros de séquence 3, 2 et 1, dans cet exemple). Par conséquent, les sorties de stock sont évaluées en prenant en compte la valeur de la première entrée de stock.  
 
-    La valeur sortie stock est calculée à l’aide de la valeur des premières acquisitions de stock.  
+     La valeur sortie stock est calculée à l’aide de la valeur des premières acquisitions de stock.  
 
-    Le tableau suivant montre la manière dont les sorties de stock sont évaluées pour le mode d’évaluation du stock **FIFO**.  
+     Le tableau suivant montre la manière dont les sorties de stock sont évaluées pour le mode d’évaluation du stock **FIFO**.  
 
     |Date comptabilisation|Quantité|Coût total (réel)|Numéro de la séquence|  
     |------------------|--------------|----------------------------|---------------|  
@@ -110,12 +96,12 @@ Le tableau suivant montre les entrées et les sorties de stock sur lesquels les 
 
     Pour les articles utilisant le mode évaluation stock **LIFO**, les articles achetés le plus récemment sont toujours les premiers vendus (numéros de séquence 3, 2 et 1, dans cet exemple). Par conséquent, les sorties de stock sont évaluées en prenant en compte la valeur de la dernière entrée de stock.  
 
-    La valeur sortie stock est calculée à l’aide de la valeur des acquisitions de stock les plus récentes.  
+     La valeur sortie stock est calculée à l’aide de la valeur des acquisitions de stock les plus récentes.  
 
-    Le tableau suivant montre la manière dont les sorties de stock sont évaluées pour le mode d’évaluation du stock **LIFO**.  
+     Le tableau suivant montre la manière dont les sorties de stock sont évaluées pour le mode d’évaluation du stock **LIFO**.  
 
     |Date comptabilisation|Quantité|Coût total (réel)|Numéro de la séquence|  
-    |------------------|--------------|----------------------------|---------------|  
+    |------------|--------|--------------------|---------|  
     |01/02/20|-1|-30,00|4|  
     |01/03/20|-1|-20,00|5|  
     |01/04/20|-1|-10,00|6|  
@@ -124,13 +110,13 @@ Le tableau suivant montre les entrées et les sorties de stock sur lesquels les 
 
     Pour les articles qui utilisent le mode d’évaluation du stock **Moyen**, les sorties de stock sont évaluées en calculant la moyenne pondérée du stock restant au dernier jour de la période coût moyen dans laquelle la sortie de stock a été validée. Pour plus d’informations, voir [Détails de conception : coût moyen](design-details-average-cost.md).  
 
-    Le tableau suivant montre la manière dont les sorties de stock sont évaluées pour le mode d’évaluation du stock **Moyen**.  
+     Le tableau suivant montre la manière dont les sorties de stock sont évaluées pour le mode d’évaluation du stock **Moyen**.  
 
-    |Date comptabilisation|Quantité|Coût total (réel)|Numéro de la séquence|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01/02/20|-1|-20,00|4|  
-    |01/03/20|-1|-20,00|5|  
-    |01/04/20|-1|-20,00|6|  
+    | Date comptabilisation | Quantité | Coût total (réel) | Numéro de la séquence |
+    |--|--|--|--|
+    | 01/02/20 | -1 | -20,00 | 4 |
+    | 01/03/20 | -1 | -20,00 | 5 |
+    | 01/04/20 | -1 | -20,00 | 6 |
 
 - **Standard**  
 
@@ -160,13 +146,13 @@ Le tableau suivant montre les entrées et les sorties de stock sur lesquels les 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Détails de conception : évaluation stock](design-details-inventory-costing.md)   
-[Détails de conception : écart](design-details-variance.md)   
-[Détails de conception : coût moyen](design-details-average-cost.md)   
-[Détails de conception : lettrage article](design-details-item-application.md)  
-[Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
-[Finances](finance.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
+ [Détails de conception : écart](design-details-variance.md)   
+ [Détails de conception : coût moyen](design-details-average-cost.md)   
+ [Détails de conception : lettrage article](design-details-item-application.md)  
+ [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
+ [Finances](finance.md)  
+ [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

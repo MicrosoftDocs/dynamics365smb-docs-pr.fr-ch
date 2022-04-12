@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: 4341abd51fa87e36394109dd71452b38df5062e1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6ee943f918ce1c4932a60daa60e45339ef1c368d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140386"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515292"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Extension Stock prévu et ventes prévues
 La gestion des stocks est un compromis entre le service client et la gestion de vos coûts. D’une part, un stock faible exige un capital travail inférieur, mais d’autre part, les ruptures de stock mènent potentiellement à des ventes non concrétisées. L’extension Stock prévu et ventes prévues prévoit les ventes potentielles à l’aide des données historiques et donne une présentation claire des ruptures de stock prévues. Selon la prévision, l’extension aide à créer des demandes de réapprovisionnement auprès de vos fournisseurs et vous fait gagner du temps.  
@@ -25,7 +25,7 @@ Dans [!INCLUDE[prod_short](includes/prod_short.md)], connexion à [Azure AI](htt
 > [!TIP]  
 >   Tenez compte de la durée des périodes utilisée par le service lors de ses calculs. Plus vous fournissez de données, plus les prévisions seront précises. En outre, soyez prudent en ce qui concerne les grands écarts entre les périodes. Cela aura également un impact sur les prévisions. Si Azure AI ne trouve pas suffisamment de données ou si les données varient considérablement, le service ne fera pas de prévisions.
 
-## <a name="using-the-forecasts"></a>À l’aide des prévisions
+## <a name="use-the-forecasts"></a>Utiliser les prévisions
 Cette extension utilise Azure AI pour prévoir les ventes futures en fonction de votre historique des ventes pour vous aider à éviter les ruptures de stock. Par exemple, lorsque vous choisissez un article sur la page **Articles**, le graphique du volet **Prévision des articles** affiche les ventes estimées de cet article dans la période à venir. Ainsi vous pouvez voir si vous risquez d’être bientôt en rupture de stock pour l’article.  
 
 Vous pouvez également utiliser l’extension pour suggérer quand réapprovisionner les stocks. Par exemple, si vous créez une commande achat pour Fabrikam, car vous souhaitez acheter sa nouvelle chaise de bureau, l’extension Stock prévu et ventes prévues vous suggèrera également de réapprovisionner la chaise dactylo LONDON que vous achetez généralement auprès de ce fournisseur. En effet, les prévisions de l’extension indiquent que vous allez arriver en rupture de stocks concernant la chaise dactylo LONDON dans les deux prochaines semaines. Aussi, nous vous recommandons de commander davantage de chaises dès à présent.  

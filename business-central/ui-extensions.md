@@ -1,29 +1,30 @@
 ---
-title: Installation d’extensions pour personnaliser Business Central
+title: Personnalisation de Business Central Online à l’aide d’extensions
 description: En savoir plus sur l’ajout des fonctionnalités et la personnalisation de Business Central en installant des extensions ici.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 08/25/2021
+ms.search.form: 2500, 2502
+ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 7839c4364f299619707b0a346b9b5d0db07e627b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 56c564274e396d9699286b18d882c2a21f8721ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132435"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510702"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Personnalisation de Business Central Online à l’aide d’extensions
 
 Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en ligne en installant des extensions qui ajoutent des fonctionnalités, modifient le comportement de l’application, ou vous permettent d’accéder à de nouveaux services en ligne, par exemple.
 
 > [!NOTE]
-> Pour installer ou désinstaller des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez soit être membre du groupe d’utilisateurs EXTEND. MGT. - ADMIN ou l’ensemble d’autorisation EXTEND. MGT. - ADMIN doit vous être accordé. Si vous êtes un administrateur, vous pouvez attribuer des groupes d’utilisateurs et des autorisations à d’autres utilisateurs de votre entreprise.
+> Pour installer ou désinstaller des extensions à partir de AppSource ou ajouter des extensions par locataire, vous devez disposer des autorisations adéquates. Vous devez être membre du groupe d’utilisateurs **D365 Extension Mgt.** ou disposer explicitement du jeu d’autorisations **EXTEN. MGT. - ADMIN**. Si vous êtes un administrateur, vous pouvez attribuer des groupes d’utilisateurs et des autorisations à d’autres utilisateurs de votre entreprise. Pour plus d’informations, voir [Créer des utilisateurs conformément aux licences](ui-how-users-permissions.md).  
 >
 > Pour utiliser les fonctionnalités fournies par une extension, telles que l’ouverture de pages, la production de rapports, la sélection d’actions, etc., vous devez disposer des jeux d’autorisations installés avec cette extension.
 
-> [!NOTE]  
-> L’ensemble d’autorisations **EXTEND. MGT. - ADMIN** a été introduit dans la première vague de lancement de Business Central 2021 pour remplacer l’ensemble d’autorisations **D365 EXTENSION MGT** des versions antérieures.
+<!-- [!NOTE]  
+> The **EXTEN. MGT. - ADMIN** permission set was introduced in 2021 release wave 1 as a replacement for the **D365 EXTENSION MGT** permission set in earlier versions.-->
 
 > [!IMPORTANT]  
 > Le chargement des extensions par client et l’installation des extensions AppSource ne sont pas pris en charge via la page **Gestion des extensions** pour les installations sur site. Vous ne pouvez pas installer d’extensions AppSource sur site, y compris dans les déploiements basés sur Docker.
@@ -84,6 +85,7 @@ Les partenaires et revendeurs Microsoft peuvent créer des extensions utilisable
 
 ## <a name="see-also"></a>Voir aussi
 
+[Installer et désinstaller des extensions](ui-extensions-install-uninstall.md)  
 [Personnaliser Business Central](ui-customizing-overview.md)  
 [Extensions Business Central par d’autres fournisseurs](ui-extensions-other.md)  
 [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  

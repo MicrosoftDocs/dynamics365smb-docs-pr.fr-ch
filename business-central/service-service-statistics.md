@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: c88081d9489e66979e4cfc757a9f5ed317a85b8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 37bd1ae61aae45a988ab38f1e25be3f870814f77
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382678"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512903"
 ---
 # <a name="viewing-service-statistics"></a>Affichage des statistiques service
 Vous pouvez utiliser des statistiques pour analyser les documents service et évaluer la bonne gestion de vos processus de service. Vous pouvez analyser les contrats de service, articles, devis, commandes, factures et avoirs en choisissant l’action **Statistiques**. Pour les articles et contrats de service, vous pouvez également utiliser les champs **Trendscape article de service** ou **Trendscape contrat** pour afficher un résumé des écritures comptables service pour un article de service spécifique.   
@@ -62,7 +62,7 @@ Pour chaque type d’écriture, vous pouvez visualiser le montant facturé, l’
 
 * (Montant facturé - activité (coût)) x 100 / montant facturé  
 
-## <a name="using-trendscapes"></a>Utilisation des trendscapes
+## <a name="use-trendscapes"></a>Utiliser des trendscapes
 Pour les articles de service et les contrats de service, les pages **Trendscape article de service** ou **Trendscape contrat de service** affichent une liste déroulante des écritures comptables service sur une période pour un article ou contrat de service spécifique. Pour afficher le trendscape, ouvrez l’article de service ou le contrat de service, choisissez l’action **Statistiques**, puis **Trendscape**.
 
 Lorsque vous faites défiler la liste, les montants sont calculés en devise société en fonction de l’intervalle spécifié. Tous les montants sont calculés à partir d’écritures comptables service, c’est-à-dire des écritures qui sont crées lorsque vous validez des commandes service ou des factures service.

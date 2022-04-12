@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8c4cca41beb49c05568d6e0c1c21946bb493e30b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6046562a16bd1f9736bd10bea5c4bda397d99df1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145409"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512194"
 ---
 # <a name="set-up-salespeople"></a>Configurer des vendeurs
 Beaucoup de sociétés souhaitent suivre les performances individuelles d’un collaborateur afin d’avoir une base de calcul pour les commissions et les bonus. Reportez-vous, par exemple, à l’état **Commissions vendeur**. Une société peut également souhaiter affecter un vendeur à chacun de ses contacts.
@@ -32,7 +32,7 @@ Vous pouvez utiliser les vendeurs dans la gestion des relations et les divers tr
 ## <a name="see-also"></a>Voir aussi
 [Définition des ventes](sales-setup-sales.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

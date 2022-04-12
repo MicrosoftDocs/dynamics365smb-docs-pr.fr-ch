@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: e3d8620c3691ec6fbf6929862a63f79eb46b5477
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 864b7854593fe0b0d8ecb739f580daa7bd035c58
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139692"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519292"
 ---
 # <a name="design-details-rounding"></a>Détails de conception : arrondi
 Des reliquats d’arrondi peuvent se produire lorsque vous évaluez le coût d’une sortie de stock qui est mesurée dans une quantité différente de l’entrée de stock correspondante. Les reliquats d’arrondi sont calculés pour tous les modes d’évaluation du stock lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**.  
@@ -63,7 +63,7 @@ Des reliquats d’arrondi peuvent se produire lorsque vous évaluez le coût d�
  [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)   
  [Détails de conception : Modes évaluation stock](design-details-costing-methods.md) [Gestion des composants des coûts](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

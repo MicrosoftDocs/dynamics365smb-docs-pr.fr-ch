@@ -4,14 +4,15 @@ description: Découvrez les états financiers et analyses disponibles dans la ve
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: c31914e1c251f4cf04cd3b990c2570b51e1717f5
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 2220bfacb8f94265363c30acbcde1cc6de745339
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311227"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514402"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>États financiers et analyses dans Business Central
 
@@ -39,10 +40,10 @@ Les articles suivants décrivent certaines des tâches clés pour analyser l’�
 [Création des budgets des coûts](finance-create-cost-budgets.md)  
 [Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)  
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
-[Utilisation d’états préalables à la clôture](year-prepare-preclose-reports.md)  
+[Utiliser des états préalables à la clôture](year-prepare-preclose-reports.md)  
 [Préparation des états de clôture](year-prepare-close-statement.md)  
 [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  
-[Utilisation des axes analytiques](finance-dimensions.md)  
+[Utiliser les axes analytiques](finance-dimensions.md)  
 [Rapports Comptabilité client et analyse](receivables-reports.md)  
 [Rapports Comptabilité fournisseur et analyse](payables-reports.md)  
 [États et analyses des immobilisations](fa-reports.md)  

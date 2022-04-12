@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 4c305d4ba1f4208eb7a3c5845d4b32bb40f930e6
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382326"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514136"
 ---
 # <a name="set-up-bank-accounts"></a>Configuration des comptes bancaires
 
@@ -29,6 +29,8 @@ Les comptes bancaires fonctionnent différemment selon qu’un code de devise es
 - Le code devise est spécifié
 
   Toutes les transactions effectuées sur ce compte doivent être dans la même devise que celle spécifiée sur le compte. Tous les chèques émis à partir de ce compte doivent également avoir cette devise.  
+
+Vous pouvez gagner du temps lors de la saisie des données en définissant un compte bancaire comme compte par défaut à utiliser pour la devise spécifiée pour le compte. Dans ce cas, le compte sera affecté aux documents vente et service qui utilisent la devise. Pour définir le compte le compte par défaut pour les documents vente et service, sur la page **Fiche compte bancaire**, activez le bouton bascule **Utiliser par défaut pour la devise**. Si nécessaire, vous pouvez choisir un autre compte lorsque vous travaillez sur un document.
 
 Un compte bancaire fait partie intégrante de [!INCLUDE[prod_short](includes/prod_short.md)] et joue un rôle dans de nombreuses autres fonctionnalités. L’illustration suivante montre les relations les plus importantes :
 
@@ -153,24 +155,24 @@ The following table explains key fields.
 |Bank Statement Import Format|Specifies the format of the bank statement file that can be imported into this bank account. The format is being used in both the payment reconciliation journals and the bank account reconciliations.|
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
-> [!NOTE]
-> Pour renseigner le champ **Solde** avec un solde ouvert, vous devez valider une écriture comptable compte bancaire avec le montant en question. Vous pouvez effectuer cette opération en effectuant un rapprochement bancaire. Pour plus d’informations, voir [Rapprocher des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).  
+
+## <a name="entering-an-opening-balance"></a>Saisie un solde d’ouverture
+Pour renseigner le champ **Solde** avec un solde ouvert, vous devez valider une écriture comptable compte bancaire avec le montant en question. Vous pouvez effectuer cette opération en effectuant un rapprochement bancaire. Pour plus d’informations, voir [Rapprocher des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Sinon, vous pouvez appliquer le solde ouvert dans le cadre de la création des données générales de nouvelles sociétés à l’aide du guide de configuration assistée **Effectuer migration données métier**. Pour plus d’informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> Il est important que vous ne comptabilisiez pas le solde d’ouverture directement dans la comptabilité. Le fait d’avoir des écritures dans le compte général qui sont comptabilisées directement sur le compte général vous empêchera généralement de rapprocher le compte bancaire ou, dans le cas de comptes bancaires en devise étrangère, entraînera l’accumulation de différences au fur et à mesure que vous postez plus de rapprochements bancaires. Souvent, vous comptabilisez le solde bancaire d’ouverture directement sur le compte bancaire, et le montant se retrouve ensuite dans le compte général. Sinon, contrepassez-le plus tard sur un compte général désigné que vous avez utilisé pour équilibrer le solde d’ouverture des écritures comptables. Dans les deux cas, vous devez équilibrer toute écriture directe sur le compte général avant de commencer votre premier rapprochement bancaire, et surtout si le compte bancaire est en devise étrangère.  
+> Il est important que vous ne comptabilisiez pas le solde d’ouverture directement dans la comptabilité. Le fait d’avoir des écritures dans le compte général qui sont validées directement sur le compte général vous empêchera généralement de rapprocher le compte bancaire ou, pour les comptes bancaires en devise étrangère, entraînera l’accumulation de différences au fur et à mesure que vous validez plus de rapprochements bancaires. Souvent, vous comptabilisez le solde bancaire d’ouverture directement sur le compte bancaire, et le montant se retrouve ensuite dans le compte général. Sinon, contrepassez-le plus tard sur un compte général que vous utilisez pour équilibrer le solde d’ouverture des écritures comptables. Dans les deux cas, vous devez équilibrer toute écriture directe sur le compte général avant de commencer votre premier rapprochement bancaire, et surtout si le compte bancaire est en devise étrangère.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Pour configurer votre compte bancaire pour importer ou exporter des fichiers bancaires
+Les champs associés à l’importation et à l’exportation des flux et des fichiers bancaires se trouvent sur le raccourci **Transfert** de la page **Fiche compte bancaire**. Pour plus d’informations, voir [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) et [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-Les champs du raccourci **Transfert** de la page **Fiche compte bancaire archivé** sont associés à l’importation/exportation des flux et des fichiers bancaires. Pour plus d’informations, voir [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) et [Configuration du service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
-
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche d’un compte bancaire pour lequel vous exporterez ou importerez des fichiers bancaires.
 3. Sur le raccourci **Transfert**, complétez les champs, comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> Différents services d’exportation de fichiers et leurs formats nécessitent des valeurs de configuration différentes sur la page **Fiche compte bancaire**. Vous serez informé si des valeurs de configuration sont manquantes ou fausses alors que vous essayez d’exporter le fichier. Lisez bien les courtes descriptions des champs ou reportez-vous aux rubriques de procédure associées. Par exemple, pour exporter un fichier de paiement pour un transfert électronique de fonds, les champs **Dernier n° avis de remise** et **N° interne** sont remplis. Pour plus d’informations, reportez-vous à [Exportation de paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+> Différents services d’exportation de fichiers et leurs formats nécessitent des valeurs de configuration différentes sur la page **Fiche compte bancaire**. Vous serez informé si des valeurs de configuration sont manquantes ou fausses lorsque vous exportez le fichier. Lisez les courtes descriptions des champs ou reportez-vous aux rubriques de procédure associées. Par exemple, pour exporter un fichier de paiement pour un transfert électronique de fonds, les champs **Dernier n° avis de remise** et **N° interne** sont remplis. Pour plus d’informations, reportez-vous à [Exportation de paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 Les champs sur le raccourci **Transit** sur le compte bancaire servent à des fins différentes, selon que le paiement est entrant ou sortant.
 
@@ -216,9 +218,9 @@ L’illustration montre l’itinéraire des paiements sortants :
 
 ## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Pour configurer des comptes bancaires fournisseur pour exporter des fichiers bancaires
 
-Les champs du raccourci **Transfert** de la page **Fiche compte bancaire fourn.** sont associés à l’exportation des flux et des fichiers bancaires. Pour plus d’informations, voir [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) et [Exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+Les champs du raccourci **Transfert** de la page **Fiche compte bancaire fourn.** sont associés à l’exportation des flux et des fichiers bancaires. Pour plus d’informations, voir [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) et [Exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Fournisseurs**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Fournisseurs**, puis choisissez le lien associé.
 2. Ouvrez la fiche d’un fournisseur pour le compte bancaire duquel vous exporterez des fichiers bancaires.
 3. Choisissez l’option **Comptes bancaires**.
 4. Dans la **Liste des comptes bancaires des fournisseurs**, choisissez le compte bancaire approprié ou ajoutez un nouveau compte bancaire.  
@@ -250,7 +252,7 @@ Pour obtenir une vue plus condensée de vos comptes de trésorerie dans les rapp
 [Effectuer des paiements avec l’extension AMC Banking 365 Fundamentals ou les virements SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Rapprochement paiement](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 815b4c406b203e32a0d424a2ecf76f7aa0564662
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 02c5ff657faba046ae7bd83a27e5694c8fb3ef8f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131498"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519689"
 ---
 # <a name="managing-contacts"></a>Gestion de contacts
 
@@ -36,7 +36,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Tri, recherche et filtrage](ui-enter-criteria-filters.md)  
-[Utilisation de Business Central](ui-work-product.md)  
+[Utiliser Business Central](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

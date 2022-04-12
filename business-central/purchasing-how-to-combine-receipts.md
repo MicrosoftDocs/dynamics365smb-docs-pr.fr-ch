@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 136, 145, 146, 9308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d108525de00685e0661b4817ecc5919501f14d9f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2fe6a0b680472ff695f9203c11868d79f51e9a0a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380922"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521847"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Regroupement de bons de réception sur une seule facture
 
@@ -52,7 +52,7 @@ Répétez les étapes 1 à 3 pour tous les autres documents affectés, comme des
 
 [Achats](purchasing-manage-purchasing.md)  
 [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

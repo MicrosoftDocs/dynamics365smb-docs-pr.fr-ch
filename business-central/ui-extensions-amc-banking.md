@@ -9,14 +9,14 @@ ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 277842528290f3d3974c7e4b22030fa33e237dbd
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ec7ba151f94a7209e81f8e695b3053885d0fcc24
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381181"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510549"
 ---
-# <a name="using-the-amc-banking-365-fundamentals-extension"></a>Utilisation de l’extension AMC Banking 365 Fundamentals
+# <a name="use-the-amc-banking-365-fundamentals-extension"></a>Utiliser l’extension AMC Banking 365 Fundamentals
 L’extension AMC Banking 365 Fundamentals facilite et précise l’envoi des données à vos banques. L’extension connecte [!INCLUDE[prod_short](includes/prod_short.md)] au service AMC Banking 365 Fundamentals pour Microsoft Dynamics 365 Business Central, qui peut convertir les données bancaires de [!INCLUDE[prod_short](includes/prod_short.md)] dans des formats exigés par plus de 600 banques du monde entier. Par exemple, cela facilite le transfert des paiements et des crédits aux fournisseurs en entrant les paiements dans [!INCLUDE[prod_short](includes/prod_short.md)], puis en les téléchargeant dans votre banque. Les formats peuvent également faciliter les processus de rapprochement bancaire. Pour plus d’informations, voir [AMC Banking pour Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/).
 
 > [!Note]
@@ -25,7 +25,7 @@ L’extension AMC Banking 365 Fundamentals facilite et précise l’envoi des do
 > [!NOTE]
 > Dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)], un fournisseur global de services pour convertir les données bancaires dans n’importe quel format de fichier que votre banque requiert est paramétré et connecté. Dans les versions nord-américaines, le même service peut être utilisé pour envoyer des fichiers de paiement sous forme de transfert de fonds électronique (EFT), par exemple le réseau ACH (Automated Clearing House), mais avec un processus légèrement différent.
 
-## <a name="using-our-demonstration-account"></a>Utilisation de notre compte de démonstration
+## <a name="use-our-demonstration-account"></a>Utiliser notre compte de démonstration
 [!INCLUDE[prod_short](includes/prod_short.md)] est fourni avec un compte de démonstration qui vous permet d’essayer l’extension AMC Banking 365 Fundamentals. Nous fournissons les paramètres par défaut pour la connexion à AMC Banking, en spécifiant les comptes bancaires à partir desquels obtenir des données dans [!INCLUDE[prod_short](includes/prod_short.md)], plus quelques définitions d’échange de données. Vous pouvez afficher les paramètres de connexion sur la page **Configuration AMC Banking**. Pour les comptes bancaires, l’extension applique des valeurs dans les champs **Nom banque**, **N° msg. virement**, **Format importation relevé bancaire** et **Format exportation paiement** dans les fiches de compte bancaire.
 
 Nous fournissons les paramètres, mais, pour essayer l’extension, vous devez exécuter le guide de configuration assistée pour les appliquer. Pour exécuter le guide, sur la page **Configuration AMC Banking**, choisissez l’action **Configuration assistée**.
@@ -63,7 +63,7 @@ Pour chaque nouvel ensemble d’autorisations, accordez uniquement l’autorisat
 4. Dans le champ **N° msg. virement**, choisissez la souche de numéros à utiliser pour les messages accompagnant les paiements.
 5. Dans les champs **Format importation relevé bancaire** et **Format exportation paiement**, choisissez les définitions d’échange de données requises par votre banque.
 
-## <a name="using-the-extension"></a>Utilisation de l’extension
+## <a name="use-the-extension"></a>Utiliser l’extension
 L’utilisation de cette extension consiste simplement à exporter des données sur la page **Feuilles paiement**, puis à les téléchargeant vers le service web de votre banque. Pour plus d’informations, voir [Exécution de paiements avec le service de conversion de données bancaires ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
 
 > [!Note]

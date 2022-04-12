@@ -10,12 +10,12 @@ ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2fd979106f1ec9923eb3fed5717eb7e2c05b23
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: afa3806cd0597ffe04c516f586ea58fab83c0bc2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141712"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515864"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Affichage de listes de différentes manières
 Dans le coin droit de toute liste de [!INCLUDE[prod_short](includes/prod_short.md)] vous trouverez les icônes qui vous permettent choisir l’affichage de la liste des enregistrements. La liste peut être affichée sous forme de lignes détaillées, ce qui est idéal lorsque vous devez utiliser plusieurs champs ou modifier des champs dans la liste. Mais vous pouvez également basculer sur l’affichage des enregistrements sous forme de mosaïques, ce qui est plus compact et affiche moins de champs sur l’enregistrement spécifique. Ceci est très utile pour obtenir une vue d’ensemble de plusieurs écritures. Elle est particulièrement utile sur les périphériques de petite taille, car elle est compacte et permet d’appuyer plus facilement sur chaque écriture.
@@ -26,7 +26,7 @@ Dans la page **Articles**, les images vous aident à obtenir rapidement une vue 
 Vous pouvez importer des images d’élément, un par un ou pour plusieurs articles à la fois. Pour plus d’informations, reportez-vous à la section [Importer plusieurs images d’article](inventory-how-import-item-pictures.md).  
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 
 

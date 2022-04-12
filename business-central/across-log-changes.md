@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: c04be33b2c84cd89872765a3781ad2c553ced442
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0fda7235af0868a87ac4d76afa3f1030cdf83600
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138793"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523256"
 ---
 # <a name="auditing-changes-in-business-central"></a>Audit des modifications dans Business Central
 
@@ -40,8 +40,7 @@ Le suivi des modifications peut avoir un impact sur les performances, ce qui peu
 > * L’utilisateur a sélectionné une autre société ou un autre Tableau de bord.
 > * L’utilisateur s’est déconnecté et s’est reconnecté.
 
-### <a name="working-with-the-change-log"></a>Utilisation du journal des modifications
-
+### <a name="work-with-the-change-log"></a>Utiliser le journal des modifications
 Vous devez activer et désactiver le journal des modifications sur la page **Paramètres journal modification**. Lorsqu’un utilisateur active ou désactive le journal des modifications, cette activité est enregistrée, ainsi vous pouvez toujours savoir quel utilisateur est à l’origine de la modification.
 
 Sur la page **Paramètres journal modification**, si vous choisissez l’option **Tables**, vous pouvez spécifier les tables dont vous souhaitez suivre les modifications, et quelles modifications suivre. [!INCLUDE[prod_short](includes/prod_short.md)] suit également plusieurs tables système.
@@ -55,8 +54,7 @@ Une fois que vous avez configuré et activé le journal des modifications et mod
 
 À partir des pages [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez afficher un journal d’activités indiquant l’état et les erreurs éventuelles des fichiers que vous exportez ou importez dans [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### <a name="working-with-activity-logs"></a>Utilisation des journaux d’activité
-
+### <a name="work-with-activity-logs"></a>Utiliser les journaux d’activité
 Les informations sont affichées dans la page **Journal des activités**, en fonction du contexte d’ouverture. Par exemple, vous pouvez ouvrir la page depuis les pages **Paramètres du service d’échange de documents**, **Document entrant**, **Facture vente validée** et **Avoir vente enregistré**, par exemple. Vous pouvez vider la liste des entrées du journal ou simplement effacer la liste des entrées de plus de sept jours.  
 
 ## <a name="monitoring-sensitive-fields"></a>Surveillance des champs sensibles
@@ -82,7 +80,7 @@ Vous pouvez gérer les paramètres de surveillance des champs, par exemple envoy
 > [!NOTE]
 > Après avoir ajouté un ou plusieurs champs et commencé la surveillance, déconnectez-vous de [!INCLUDE[prod_short](includes/prod_short.md)] et reconnectez-vous pour appliquer vos paramètres.
 
-### <a name="working-with-field-monitoring"></a>Utilisation de la surveillance des champs
+### <a name="work-with-field-monitoring"></a>Utiliser la surveillance des champs
 
 Les entrées de toutes les valeurs modifiées des champs surveillés sont disponibles sur la page **Entrées du journal des champs surveillés**. Pour cet exemple, les entrées contiennent les informations suivantes :
 
@@ -107,9 +105,9 @@ Vous pouvez créer des stratégies de rétention pour supprimer les données inu
 
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Tri, recherche et filtrage](ui-enter-criteria-filters.md)  
-[Recherche de pages et d’informations avec la fonction Tell Me](ui-search.md)  
+[Recherche de pages et d’informations avec Tell Me](ui-search.md)  
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)    
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Définir des stratégies de rétention](admin-data-retention-policies.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

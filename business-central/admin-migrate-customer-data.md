@@ -1,24 +1,26 @@
 ---
 title: Migrer des données client
-description: Vous pouvez migrer les données client existantes d’un système existant vers Business Central à l’aide de RapidStart Services ou tout simplement les saisir directement dans l’entreprise.
-author: SorenGP
+description: Vous pouvez migrer les données client existantes d’un système ERP existant vers Business Central à l’aide d’un guide de configuration assistée. Vous pouvez également utiliser Excel et RapidStart Services.
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.search.form: 1799, 1807, 8632, 1800, 1340, 8614, 8615
 ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 492ec993dfbf33f90fc601b1d6f8f27319ee39c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335385"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515734"
 ---
 # <a name="migrate-customer-data"></a>Migrer des données client
 
-Vous pouvez migrer les données client existantes d’un système ERP existant vers [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des outils de migration de données de RapidStart Services. Vous pouvez utiliser des fichiers Excel comme supports d’informations. Vous pouvez également déplacer manuellement les données en les entrant directement dans la société. Vous pouvez également utiliser le guide **Migration vers le cloud** pour vous aider à déplacer des données. Pour plus d’informations, voir [Migrer des données](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le centre d’administration.
+Vous pouvez migrer des données client existantes d’un système ERP existant vers [!INCLUDE[prod_short](includes/prod_short.md)] Online à l’aide du processus de migration vers le cloud pour les versions prises en charge. Vous pouvez également migrer vers [!INCLUDE [prod_short](includes/prod_short.md)] sur site à l’aide des outils de migration de données de RapidStart Services, puis passer au cloud. Pour plus d’informations, voir [Migrer des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le contenu pour administrateurs (en anglais uniquement).  
+
+Dans cet article, nous examinons les fichiers de configuration que vous pouvez exporter depuis et importer dans [!INCLUDE [prod_short](includes/prod_short.md)]. Le contenu a été rédigé en pensant aux déploiements sur site.  
 
 > [!NOTE]
 > Les champs de type Blob ne peuvent pas être exportés/importés à l’aide d’Excel.

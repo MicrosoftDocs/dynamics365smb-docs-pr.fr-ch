@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1855391f5bf2c0807ac4ffcd8d42e0ea8122fd87
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b4018d5ad18317cf5b62a99346c360d744b26939
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141872"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520037"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Activer le prélèvement d’articles par FEFO
 First-Expired-First-Out (FEFO) est une méthode de tri qui garantit que les articles les plus anciens, ceux qui ont les dates d’expiration les plus anciennes, sont prélevés en premier.  
@@ -24,7 +24,7 @@ First-Expired-First-Out (FEFO) est une méthode de tri qui garantit que les arti
 -   L’article doit avoir un numéro de série/lot.  
 -   Dans la configuration du code de traçabilité article de l’article, le champ **Traçabilité d’entrepôt par numéro de série** ou le champ **Traçabilité d’entrepôt par numéro de lot** doit être sélectionné.  
 -   L’article doit être validé dans le stock avec une date d’expiration.  
--   Sur l'emplacement, les boutons de basculement **Prélèvement requis**, **Prélèvement par FEFO**, et **Emplacement obligatoire** doivent être activés.  
+-   Sur l’emplacement, les boutons de basculement **Prélèvement requis**, **Prélèvement par FEFO**, et **Emplacement obligatoire** doivent être activés.  
 
  Lorsque tous les critères sont réunis, les articles aux numéros de série/lot à prélever sont triés par ancienneté de prélèvements et mouvements, sauf pour les articles qui utilisent la traçabilité par numéro de série ou de lot.  
 
@@ -43,9 +43,9 @@ Si le champ **Date expiration stricte** est sélectionné sur la **Fiche Code tr
 [Prélèvement des articles](warehouse-pick-items.md)   
 [Prélever des articles pour l’expédition entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md)   
-[Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
+[Stock](inventory-manage-inventory.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

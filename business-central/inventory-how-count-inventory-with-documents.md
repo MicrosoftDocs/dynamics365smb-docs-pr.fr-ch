@@ -10,12 +10,12 @@ ms.search.keywords: adjustment, status, negative, positive, increase, decrease, 
 ms.search.forms: 5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af091b33126d4098980c19329d7160ef1789c1b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 600ddd9d927712b4b27f9b4c12e233379808ebe4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131602"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522107"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Faire l’inventaire et l’ajuster à l’aide de documents
 
@@ -152,7 +152,7 @@ Imaginons un stock physique pour l’article A, enregistré en stock sous la for
 Vous observerez que l’état **Enregistrement de stock physique** contient dix lignes pour l’article A, un pour chaque numéro de série.
 
 ### <a name="example---record-and-post-counted-lot-number-differences"></a>Exemple - Enregistrer et valider les différences de numéro de lot comptabilisé
-Un article suivi est enregistré en stock avec la série de numéro « LOT ».
+Un article suivi est enregistré en stock avec la souche de numéros « LOT ».
 
 **Stock prévu** :
 
@@ -194,13 +194,13 @@ Les types de documents suivants sont utiles pour gérer votre entrepôt :
 Vous pouvez imprimer ces documents à tout moment, les libérer et les rouvrir, et attribuer des valeurs communes, y compris des dimensions, dans l’en-tête. Si vous souhaitez réimprimer les documents après leur publication, vous pouvez le faire sur les pages **Réception d’inventaire validée** et **Expédition du stock validé**.
 
 > [!NOTE]
-> Avant de pouvoir utiliser ces documents, vous devez spécifier une série de numéros pour créer leurs identificateurs. Pour plus d’informations, voir la section suivante.
+> Avant de pouvoir utiliser ces documents, vous devez spécifier une souche de numéros pour créer leurs identificateurs. Pour plus d’informations, voir la section suivante.
 
 ### <a name="to-set-up-numbering-for-inventory-documents"></a>Pour paramétrer la numérotation des documents de stock
 La procédure suivante indique comment définir la numérotation des documents stock.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres stock**, puis choisissez le lien associé.
-2. Sur le Raccourci **Numérotation**, spécifiez dans les champs suivants la série de numéros pour les documents :
+2. Sur le Raccourci **Numérotation**, spécifiez dans les champs suivants la souche de numéros pour les documents :
    - **N° réception stock**  
    - **N° réceptions stock validées**  
    - **N° expédition stock**  
@@ -220,7 +220,7 @@ Les fonctions suivantes sont disponibles sur la page **Réception stock** :
 - Choisissez l’action **Valider** pour enregistrer la réception stock, ou choisissez **Publier et imprimer** pour valider la réception et imprimer le rapport de test  
 
 ## <a name="printing-inventory-documents"></a>Impression des documents stock
-Vous pouvez spécifier les rapports à imprimer à différentes étapes en choisissant l’une des options suivantes dans le champ **Utilisation** de la page **Sélection de rapports – Stock** :
+Vous pouvez spécifier les états à imprimer à différentes étapes en choisissant l’une des options suivantes dans le champ **Utilisation** de la page **Sélection d’états – Stock** :
 
 - Réception stock
 - Expédition stock
@@ -228,7 +228,7 @@ Vous pouvez spécifier les rapports à imprimer à différentes étapes en chois
 - Expédition stock validée
 
 > [!NOTE]
-> Les rapports disponibles peuvent varier en fonction de la localisation de votre pays. L’application de base n’inclut aucune disposition.
+> Les rapports disponibles peuvent varier en fonction de la localisation de votre pays. L’application de base n’inclut aucune présentation.
 
 ## <a name="see-also"></a>Voir aussi
 [Comptabiliser, ajuster et reclasser le stock avec les feuilles](inventory-how-count-adjust-reclassify.md)  
@@ -237,7 +237,7 @@ Vous pouvez spécifier les rapports à imprimer à différentes étapes en chois
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)    
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

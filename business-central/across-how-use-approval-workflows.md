@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: bc60d2e8f7e79e717b8b79a9c18e7babf88d8fbb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b97b4fb9c09c646a69c78747079e7fde3fdae7dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134241"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517669"
 ---
 # <a name="use-approval-workflows"></a>Utilisation des flux d’approbation
 
@@ -20,7 +20,7 @@ Lorsqu’un enregistrement, tel qu’un document achat ou une fiche client, doit
 
 Vous configurez les flux d’approbation sur la page **Flux de travail**. Vous devez également configurer les utilisateurs d’approbation, y compris les limites de montant pertinentes, dans la page **Paramètres utilisateur approbation**. Pour plus d’informations, reportez-vous à [Paramétrage des workflows](across-set-up-workflows.md).  
 
-Outre les flux de travail approbation décrits dans cette rubrique, vous pouvez effectuer diverses autres tâches de flux de travail. Pour plus d’informations, voir [Utilisation des workflows](across-use-workflows.md).
+Outre les flux de travail approbation décrits dans cette rubrique, vous pouvez effectuer diverses autres tâches de flux de travail. Pour plus d’informations, voir [Utiliser des workflows](across-use-workflows.md).
 
 Les flux d’approbation de base pour les documents achat, les documents vente, les feuilles paiement, les fiches client et les fiches article sont prêts à être utilisés dans le cadre de guides. Pour plus d’informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).
 
@@ -89,7 +89,7 @@ La fonction **Envoyer des notifications d’approbations échues** passe en revu
 [Ventes](sales-manage-sales.md)  
 [Documents entrants](across-income-documents.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

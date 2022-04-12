@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: f1266ada40085e1999b9ea49281e8c5ec73f8394
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 99f6507eccebc91c9f530e05ad95ae4b23d5e1e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134189"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523126"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Afficher des instances d’étape de workflow archivées
 Toutes les instances d’étape de flux de travail terminées sont enregistrées sur la page **Instances d’étape de flux de travail archivées**.  
@@ -37,7 +37,7 @@ La page **Instances d’étape de flux de travail archivées** s’ouvre, affich
  [Activer des workflows](across-how-to-enable-workflows.md)   
  [Procédure pas à pas : Configuration et utilisation d’un flux d’approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Paramétrage des workflows](across-set-up-workflows.md)   
- [Utilisation des workflows](across-use-workflows.md)   
+ [Utiliser des workflows](across-use-workflows.md)   
  [Flux de travail](across-workflow.md)
 
 

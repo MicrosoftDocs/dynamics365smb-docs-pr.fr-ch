@@ -7,37 +7,44 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.search.form: 17, 18, 20, 21, 37, 65, 99, 118, 312, 313, 314, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 12/03/2021
+ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 5f168132dc747e76c514ae1bd78e8d2f86a7b609
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 1834cfe7bbbc933a1aebddbc94ea6dfe09523605
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366765"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510887"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Comprendre la comptabilité et le plan comptable
 
 Les écritures comptables stockent vos données financières, et le plan comptable affiche les comptes sur lesquels toutes les écritures comptables sont validées. [!INCLUDE[prod_short](includes/prod_short.md)] inclut un plan comptable standard prêt à prendre en charge votre société.
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a>Configuration des écritures comptable et configuration de la comptabilisation
+## <a name="general-ledger-setup-and-general-posting-setup"></a>Paramètres comptabilité et paramètres comptabilisation
 
-La configuration des écritures comptables est le composant principal des processus financiers car elle définit comment vous validez les données.  
+La configuration des écritures comptables est le composant principal des processus financiers car elle définit comment vous validez les données. Deux pages jouent un rôle important dans la configuration de vos processus financiers :  
 
-Sur la page **Paramètres comptabilité**, vous spécifiez comment gérer certains problèmes comptables dans votre société, par exemple :  
+* La page **Paramètres comptabilité**
 
-* Les détails arrondi facture  
-* Les formats d’adresse  
-* Les états financiers  
+    Sur la page **Paramètres comptabilité**, vous spécifiez comment gérer certains problèmes comptables dans votre société, par exemple :  
 
-> [!TIP]
-> La page **Paramètres comptabilité** comprend des champs génériques et des champs spécifiques à votre pays ou région. Si vous n’êtes pas sûr de la signification d’un champ, nous vous suggérons de travailler avec votre comptable pour déterminer s’il est pertinent pour votre organisation.  
+    * Les détails arrondi facture  
+    * Les formats d’adresse  
+    * Les états financiers  
 
-De même, sur la page **Paramètres comptabilisation**, vous spécifiez comment vous souhaitez configurer les combinaisons de groupes généraux comptabilisation marché et de groupes généraux comptabilisation produit. Les groupes comptabilisation mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux. Saisissez une ligne pour chaque combinaison de groupes comptabilisation marché et de groupes comptabilisation produit. Mais vous pouvez également ouvrir chaque ligne dans sa propre fiche paramètres comptabilisation. Pour plus d’informations, voir [Paramètres du groupe comptabilisation](finance-posting-groups.md).  
+    > [!TIP]
+    > La page **Paramètres comptabilité** comprend des champs génériques et des champs spécifiques à votre pays ou région. Si vous n’êtes pas sûr de la signification d’un champ, nous vous suggérons de travailler avec votre comptable pour déterminer s’il est pertinent pour votre organisation. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-> [!TIP]
-> Si vous ne pouvez pas voir les champs que vous recherchez sur la page **Paramètres comptabilisation**, utilisez la barre de défilement horizontale au bas de la page pour faire défiler l’affichage vers la droite.  
+    Ouvrez la page [ici](https://businesscentral.dynamics.com/?page=118)
+* La page **Paramètres comptabilisation**
+
+    De même, sur la page **Paramètres comptabilisation**, vous spécifiez comment vous souhaitez configurer les combinaisons de groupes généraux comptabilisation marché et de groupes généraux comptabilisation produit. Les groupes comptabilisation mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux. Saisissez une ligne pour chaque combinaison de groupes comptabilisation marché et de groupes comptabilisation produit. Mais vous pouvez également ouvrir chaque ligne dans sa propre fiche paramètres comptabilisation. Pour plus d’informations, voir [Paramètres du groupe comptabilisation](finance-posting-groups.md).  
+
+    > [!TIP]
+    > Si vous ne pouvez pas voir les champs que vous recherchez sur la page **Paramètres comptabilisation**, utilisez la barre de défilement horizontale au bas de la page pour faire défiler l’affichage vers la droite.  
+
+    Ouvrez la page [ici](https://businesscentral.dynamics.com/?page=314)
 
 ## <a name="the-chart-of-accounts"></a>Le plan comptable
 
@@ -49,7 +56,7 @@ Le plan comptable affiche tous les comptes généraux. Vous pouvez effectuer les
 * Consulter la liste des groupes comptabilisation qui effectuent les validations vers ce compte.
 * Afficher les soldes débit et crédit d’un seul compte  
 
-Vous pouvez ajouter, modifier ou supprimer des comptes généraux. Toutefois, pour éviter les différences, vous ne pouvez pas supprimer un compte général si ses données sont utilisées dans le plan comptable.  
+Vous pouvez ajouter, modifier ou supprimer des comptes généraux. Toutefois, pour éviter les différences, vous ne pouvez pas supprimer un compte général si ses données sont utilisées dans le plan comptable. De plus, à partir de la 2e vague de lancement 2022, vous pouvez également bloquer la suppression accidentelle de comptes pendant les périodes sensibles. Pour plus d’informations, voir [Suppression des comptes](finance-setup-chart-accounts.md#delete-accounts).  
 
 ## <a name="account-categories"></a>Catégories de compte
 
@@ -69,14 +76,14 @@ Par exemple, le solde relevé par défaut solde est doté d’une sous-catégori
 
     * Une pour le fonds de caisse  
     * Une pour votre compte courant  
-2. Spécifier la définition d’état supplémentaire **Comptes de trésorerie** pour ces sous-catégories.  
+2. Spécifier une autre définition d’état **Comptes de trésorerie** pour ces sous-catégories.  
 3. Effectuer une indentation sous la sous-catégorie **Trésorerie**.  
 
 À la prochaine génération des tableaux d’analyse, votre relevé solde suivant affichera un solde final pour la trésorerie et deux lignes avec les soldes pour le fonds de caisse et le compte chèque.  
 
-## <a name="getting-a-quick-overview"></a>Obtenir un aperçu rapide
+## <a name="get-a-quick-overview"></a>Obtenir un aperçu rapide
 
-La page Plan comptable affiche les comptes dans une liste hiérarchique qui offre un accès rapide aux informations clés pour chaque compte. Cependant, la liste est statique et si vous avez beaucoup de comptes, vous devrez peut-être défiler quelque peu pour afficher les informations de différents comptes. Si vous souhaitez simplement un aperçu rapide des éléments de base, tels que les variations nettes et les soldes, la page **Vue d’ensemble du plan comptable** est une alternative utile. La disposition des colonnes sur la page est désormais la même que celle que vous trouverez sur la page Plan comptable (il y en a juste moins) ; vous n’aurez donc pas à vous réorienter et vous pourrez développer ou réduire les niveaux hiérarchiques pour condenser la vue. Pour faciliter le passage d’une page à l’autre, la page **Vue d’ensemble du plan comptable** est disponible à partir de la page Plan comptable.
+La page **Plan comptable** affiche les comptes dans une liste hiérarchique qui offre un accès rapide aux informations clés pour chaque compte. Cependant, la liste est statique et si vous avez un grand nombre de comptes, vous devrez peut-être défiler quelque peu pour afficher les informations de différents comptes. Si vous souhaitez simplement un aperçu rapide des éléments de base, tels que les variations nettes et les soldes, la page **Vue d’ensemble du plan comptable** est une alternative utile. La disposition des colonnes sur la page est désormais la même que celle que vous trouverez sur la page **Plan comptable** (il y en a juste moins) ; vous n’aurez donc pas à vous réorienter et vous pourrez développer ou réduire les niveaux hiérarchiques pour condenser la vue. Pour faciliter le passage d’une page à l’autre, la page **Vue d’ensemble du plan comptable** est disponible à partir de la page **Plan comptable**.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Accès pour créer et modifier des comptes et des catégories de comptes
 
@@ -85,7 +92,7 @@ Dans une petite organisation, comme la société de démonstration CRONUS, la pl
 ## <a name="see-also"></a>Voir aussi
 
 [Finances](finance.md)  
-[Configuration ou modification du plan comptable](finance-setup-chart-accounts.md)  
+[Configurer ou modifier le plan comptable](finance-setup-chart-accounts.md)  
 [Veille économique](bi.md)  
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  
 

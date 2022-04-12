@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 0b367c59b3d9be298fa7f42fe0b94018d99c94a5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 28c9d8c9f24158f119ffffaeddd92590bee906cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148241"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515942"
 ---
 # <a name="preview-posting-results"></a>Résultats de l’aperçu compta.
 Sur chaque document et feuille qui peuvent être validés, vous pouvez cliquer sur le bouton **Aperçu compta.** pour examiner différents types d’entrées qui seront créées lorsque vous validez le document ou la feuille.
@@ -27,7 +27,7 @@ Sur chaque document et feuille qui peuvent être validés, vous pouvez cliquer s
 
 ## <a name="see-also"></a>Voir aussi
 [Validation des documents et des feuilles](ui-post-documents-journals.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)
 
 
