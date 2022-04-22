@@ -10,23 +10,23 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d629b2639325b95ab90db8aaf8ac9a3e5d51fc33
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 74a59567c7eb24673df62fe76b974c9b7bb58bf0
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511456"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557192"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Hérité) Créer et modifier des présentations de rapport personnalisées
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-Par défaut, un rapport aura une présentation de rapport intégrée, qui peut être soit une présentation de rapport RDLC ou une présentation de rapport Word, ou les deux. Vous ne pouvez pas modifier les présentations intégrées. Cependant, vous pouvez créer vos propres présentations personnalisées qui vous permettent de modifier l’apparence d’un rapport lorsqu’il est consulté, imprimé ou enregistré. Vous pouvez créer plusieurs présentations de rapport personnalisées pour le même rapport, puis faire basculer la présentation utilisée par un rapport selon vos besoins.
+Par défaut, un rapport aura une présentation de rapport intégrée, qui peut être soit une présentation de rapport RDLC, une présentation de rapport Word, ou les deux. Vous ne pouvez pas modifier les présentations intégrées, mais vous pouvez créer des présentations personnalisées. Un rapport peut avoir plusieurs présentations de rapport personnalisées, ce qui vous permettra de faire basculer la disposition utilisée selon vos besoins.
 
 > [!NOTE]  
 > Dans [!INCLUDE[prod_short](includes/prod_short.md)], le terme « état » couvre également les documents externes, tels que les factures vente et les confirmations de commande que vous envoyez à des clients comme fichiers PDF.
 
-Pour créer une présentation personnalisée, vous pouvez effectuer une copie d’une présentation personnalisée existante ou ajouter une nouvelle présentation personnalisée, qui est le plus souvent basée sur une présentation intégrée. Lorsque vous ajoutez une nouvelle présentation personnalisée, vous pouvez choisir d’ajouter un type de présentation de rapport RDLC, un type de présentation de rapport Word, ou les deux. La nouvelle présentation personnalisée est automatiquement basée sur la présentation intégrée pour le rapport s’il y en a une disponible. S’il n’y a pas de présentation intégrée pour le type, une nouvelle mise en page vierge est créée. Vous devez modifier et concevoir cette mise en page vierge à partir de zéro. Pour plus d’informations sur les présentations de rapport RDLC et Word, les présentations intégrées et personnalisées, et plus encore, reportez-vous à [Gérer la présentation des états](ui-manage-report-layouts.md).  
+Pour créer une présentation personnalisée, vous pouvez effectuer une copie d’une présentation personnalisée existante ou ajouter une nouvelle présentation personnalisée, qui est souvent basée sur une présentation intégrée. Lorsque vous ajoutez une nouvelle présentation personnalisée, vous pouvez choisir d’ajouter un type de présentation de rapport RDLC ou un type de présentation état Word, ou les deux. La nouvelle présentation personnalisée est basée sur la présentation intégrée pour le rapport s’il y en a une disponible. S’il n’y a pas de présentation intégrée pour le type, une nouvelle mise en page vierge est créée. Vous devez modifier et concevoir cette mise en page vierge à partir de zéro. Pour plus d’informations sur les présentations de rapport RDLC et Word, les présentations intégrées et personnalisées, et plus encore, reportez-vous à [Gérer la présentation des états](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Utilisez les tableaux d’analyse pour obtenir un aperçu des données financières enregistrées dans votre plan comptable. Pour plus d’informations, voir [Préparer la génération d’états financiers avec des tableaux d’analyse et des catégories de compte](bi-how-work-account-schedule.md).
@@ -73,7 +73,7 @@ Pour modifier une présentation de rapport, vous devez d’abord exporter la pr�
 
    Les présentations de rapport RDLC sont plus avancées que les présentations de rapport Word. Pour plus d’informations sur la modification d’une présentation de rapport RDLC, voir [Création de présentations de rapport RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
-   Pensez à enregistrer vos modifications une fois effectuées.
+   Pensez à enregistrer vos modifications une fois que vous avez terminé.
 
 4. Retournez à la page **Présentations état personnalisées**, sélectionnez la présentation d’état que vous avez exportée et modifiée, puis choisissez l’action **Importer présentation**.  
 

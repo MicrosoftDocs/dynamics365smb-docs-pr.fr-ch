@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e6e7d42af64db3c1725e9f4b54ba7ca4e4b16320
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515760"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557420"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappage des tables et des champs à synchroniser
 
@@ -28,6 +28,9 @@ Lorsque vous créez la connexion entre les applications, [!INCLUDE[prod_short](i
 
 > [!Note]
 > Si vous utilisez une version locale de [!INCLUDE[prod_short](includes/prod_short.md)], les mappages de tables d’intégration sont stockés dans la table 5335 Mappages de tables d’intégration, où vous pouvez afficher et modifier les mappages. Les règles de synchronisation et mappages complexes sont définis dans le codeunit 5341. 
+
+### <a name="additional-mappings"></a>Mappages supplémentaires 
+Les conditions de paiement, les méthodes d'expédition et les transporteurs peuvent changer, et il peut être important de pouvoir les ajuster. Si vous activez la fonctionnalité **Mise à jour de la fonctionnalité : Mapper aux ensembles d’options dans Dataverse sans code** sur la page [Gestion des fonctionnalités](https://businesscentral.dynamics.com/?page=2610), vous pouvez ajouter manuellement des mappages de table d'intégration pour les conditions de paiement (PAYMENT TERMS), les méthodes d'expédition (SHIPMENT METHOD) et les transporteurs (SHIPPING AGENT). Ce mappage peut vous aider à vous assurer que vos stratégies sont les mêmes pour ces configurations dans [!INCLUDE[prod_short](includes/cds_long_md.md)] et [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ### <a name="synchronization-rules"></a>Règles de synchronisation
 Un mappage de table d’intégration comprend également des règles qui contrôlent comment les travaux de synchronisation d’intégration synchronisent les enregistrements dans une table dans [!INCLUDE[prod_short](includes/prod_short.md)] et une entité dans [!INCLUDE[prod_short](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->

@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 54aed7a30225d074ab6651df63771924c7c1cd97
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523490"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557368"
 ---
 # <a name="update-currency-exchange-rates"></a>Mettre à jour des taux de change devise
 
@@ -62,12 +62,18 @@ Le montant du taux de change d’ajustement ou le montant du taux de change d’
 
 ## <a name="adjusting-exchange-rates"></a>Ajustement des taux de change
 
-Comme les taux de change ne cessent de fluctuer, il convient d’ajuster périodiquement les équivalents devise supplémentaires de votre système. À défaut d’effectuer ces ajustements, les montants convertis à partir de devises étrangères (ou supplémentaires) et publiés dans la comptabilité en DS risquent d’être erronés. En outre, les écritures quotidiennes validées avant la saisie d’un taux de change quotidien dans l’application doivent être mises à jour après la saisie des informations de taux de change quotidienne.
+Comme les taux de change ne cessent de fluctuer, il convient d’ajuster périodiquement les équivalents devise supplémentaires de votre système. À défaut d'effectuer ces ajustements, les montants convertis à partir de devises étrangères (ou supplémentaires) et publiés dans la comptabilité en DS risquent d'être erronés. En outre, les écritures quotidiennes validées avant la saisie d’un taux de change quotidien dans l’application doivent être mises à jour après la saisie des informations de taux de change quotidienne.
 
 Le traitement par lots **Ajuster taux de change** permet d’ajuster manuellement les taux de change d’écritures client, fournisseur et compte bancaire validées. Il peut également mettre à jour d’autres montants en devise report dans des écritures comptables.  
 
 > [!TIP]
 > Vous pouvez utiliser un service pour mettre à jour automatiquement les taux de change dans le système. Pour plus d’informations, reportez vous à [Configurer un service de taux de change des devises](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Cependant, cela n’ajuste pas les taux de change sur les transactions déjà enregistrées. Pour mettre à jour les taux de change sur les écritures validées, utilisez la tâche de traitement par lots **Ajuster les taux de change**.
+
+Vous pouvez consulter un aperçu de l’effet d’un ajustement sur la comptabilisation avant de valider réellement en choisissant **Aperçu** sur la page **Ajuster les taux de change**. De plus, vous pouvez sélectionner si la validation comptable sera détaillée (par écriture) ou résumée (par devise) en sélectionnant **Résumer les écritures**. Vous pouvez également spécifier comment traiter les axes analytiques des écritures de pertes et profits non réalisés en choisissant l’une des options suivantes dans le champ **Transférer les sections analytiques** :  
+
+- **Écriture d’origine** : Les sections analytiques des écritures comptables pour les pertes et profits non réalisées seront transférées à partir de l’écriture ajustée.
+- **Par compte général** : Les écritures comptables pour les pertes et profits non réalisés auront des sections analytiques transférées à partir de l’écriture source des paramètres des axes analytiques du compte général de pertes et profits non réalisés.
+- **Pas de transfert** : Les écritures comptables pour les pertes et profits non réalisés n’auront pas de sections analytiques.
 
 ### <a name="effect-on-customers-and-vendors"></a>Effet sur les clients et fournisseurs
 

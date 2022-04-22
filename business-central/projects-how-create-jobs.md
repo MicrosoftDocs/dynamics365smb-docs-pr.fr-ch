@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 70bfd81f6fd331018fe6cafd6793ae1f1501f159
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6996c82ee184db980879ea98a6f2cbdca1b10852
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519637"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557208"
 ---
 # <a name="create-jobs"></a>Créer des projets
 Lorsque vous démarrez un nouveau projet, vous devez créer une fiche projet avec des tâches intégrées et des lignes planning structurées en deux couches.  
@@ -27,7 +27,11 @@ La structure de couche permet de séparer le projet en tâches plus petites et a
 > [!TIP]
 > Choisissez l’action **Nouveau projet** du tableau de bord **Chef de projet** pour lancer un guide de configuration assistée qui vous dirige à travers les étapes de création d’un projet avec des tâches intégrées et des lignes planning. La procédure suivante décrit comment exécuter les étapes manuellement. Pour obtenir un exemple de la procédure pour créer manuellement un projet, reportez-vous à la rubrique [Vidéo : Créer un projet dans Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
-Parfois, la partie qui reçoit un service est différente de celle qui paie la facture. Sur la page **Projets**, vous pouvez spécifier le client qui bénéficiera du projet dans les champs **Donneur d’ordre** et la partie à facturer dans champs **Facturation**. Vous pouvez aussi spécifier l’emplacement où le travail aura lieu en sélectionnant dans une liste d’adresses de livraison pour le client, ajouter des informations sur les références externes pour simplifier la communication sur le projet et remplacer les conditions financières standard du projet spécifique.
+Parfois, la partie qui reçoit un service est différente de celle qui paie la facture. Sur la page **Projets**, vous pouvez spécifier le client qui bénéficiera du projet dans les champs **Donneur d’ordre** et la partie à facturer dans champs **Facturation**. Vous pouvez également fournir les informations suivantes : 
+
+* Où le travail aura lieu en sélectionnant parmi une liste d'adresses de livraison pour le client.
+* Ajouter des informations sur les références externes pour simplifier la communication sur le projet.
+* Remplacer les conditions financières standard du projet.
 
 ## <a name="to-create-a-job-card"></a>Pour créer une fiche projet
 Vous devez créer une fiche projet, puis créez des Lignes tâche projet et des lignes planning projet pour ce projet.
@@ -40,9 +44,9 @@ Vous devez créer une fiche projet, puis créez des Lignes tâche projet et des 
 >   Si vous utilisez des feuilles de temps dans le projet, vous devez également indiquer une personne responsable. Cette personne peut approuver les feuilles de temps pour les tâches des salariés associées à ce projet. Pour plus d’informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Pour créer une tâche pour un projet
-L’une des clés de la création d’un projet consiste à spécifier les différentes tâches impliquées dans le projet. Pour ce faire, ajoutez de nouvelles lignes dans le raccourci **Tâches** de la page **Fiche projet**, une tâche par ligne. Chaque projet doit avoir au minimum une tâche.
+L’une des clés de la création d’un projet consiste à spécifier les différentes tâches impliquées dans le projet. Spécifiez les tâches en créant une ligne par tâche sur le raccourci **Tâches** de la page **Fiche projet**. Chaque projet doit avoir au minimum une tâche.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.
 2. Ouvrez la fiche projet pour un projet concerné.
 3. Sur le raccourci **Tâches**, renseignez les champs, le cas échéant sur une ligne.
 4. Pour indenter des tâches et créer une hiérarchie, cliquez sur **Tâches**, puis sur **Indenter tâches projet**.
@@ -50,7 +54,7 @@ L’une des clés de la création d’un projet consiste à spécifier les diff�
 6. Pour spécifier les tâches du projet avec les informations d’autres tâches de projet, cliquez sur **Copier les tâches projet de**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Pour créer des lignes planning pour un projet
-Vous pouvez redéfinir vos nouvelles tâches projet sur les lignes planning projet. Une ligne planning peut être utilisée pour extraire toute information que vous souhaitez suivre pour un projet. Vous pouvez utiliser des lignes planning pour ajouter des informations telles que les ressources nécessaires ou pour capturer les articles nécessaires pour exécuter le projet. Par exemple, si vous avez une tâche pour obtenir l’accord d’un client sur un projet, vous pouvez associer cette tâche à des lignes planning article, comme un rendez-vous avec le client ou l’affectation d’une ressource.  
+Vous pouvez redéfinir vos nouvelles tâches projet sur les lignes planning projet. Une ligne planning peut extraire les information que vous souhaitez suivre pour un projet. Par exemple, vous pouvez suivre les ressources requises par le travail ou les éléments nécessaires. Par exemple, vous avez pour tâche d'amener un client à approuver un travail. Vous associez la tâche à des lignes planning article, comme un rendez-vous avec le client et l’affectation d’une ressource.  
 
 Une ligne planning projet peut avoir l’un des types suivants :  
 
@@ -60,13 +64,31 @@ Une ligne planning projet peut avoir l’un des types suivants :
 | **Facturable** |Permet de fournir un devis au client, généralement utilisé dans le cadre d’un projet à prix fixe. |
 | **Budget et Facturable** |Permet de faire correspondre l’activité budgétée au montant que vous souhaitez facturer. |
 
-**Remarque**. Au fur et à mesure de l’ajout d’informations sur les lignes planning projet, le coût est automatiquement mis à jour. Par exemple, le coût, le prix et la remise relatifs aux ressources et aux articles sont initialement calculés sur la base des informations définies dans les fiches ressource et article.
+> [!NOTE]
+> Tandis que vous ajoutez des informations sur les lignes planning projet, le coût est automatiquement mis à jour. Par exemple, le coût, le prix et la remise relatifs aux ressources et aux articles sont calculés sur la base des informations de la ressource et l’article. 
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.
 2. Ouvrez la fiche projet appropriée.
 3. Sélectionnez une tâche projet pour laquelle le champ **Type tâche projet** contient **Validation** puis, cliquez sur **Lignes planning projet**.  
 4. Sur la page **Lignes planning projet**, renseignez les champs, le cas échéant sur une nouvelle ligne.
 5. Répétez les étapes 3 et 4 pour toutes les lignes planning dont vous avez besoin pour la tâche projet.
+
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Créez des documents prélèvement entrepôt et stock pour un projet
+Pour créer des documents de prélèvement entrepôt et stock pour les projets, votre administrateur doit activer **Mise à jour des fonctionnalités : activer prélèvement stock et entrepôt à partir des projets** sur la page **Gestion des fonctionnalités**.
+
+La fonctionnalité ajoute les actions **Créer un prélèvement stock** et **Créer un prélèvement entrepôt** à la **Fiche projet**. Pour créer ou enregistrer un document de prélèvement, utilisez les actions **Rangement/Lignes prélèvement/Lignes Mouvements** ou **Lignes prélèvement enregistrées**.
+
+Vous pouvez utiliser les actions dans les conditions suivantes :
+* Le **Statut** du projet est **Ouvert**.
+* Le **Type de ligne** de la ligne de planning du projet est **Budget** ou **Budget et Facturable**.
+* Le **Type** de la ligne de planning du projet est **Article**.
+* **Prélèvement requis** est activé pour l'emplacement associé.
+* **Prélèv. et rangement dirigés** est désactivé.
+
+> [!NOTE] 
+> Bien que le paramètre s’appelle **Prélèvement requis**, vous pouvez toujours valider la consommation directement à partir de la ligne du journal des tâches pour l’emplacement. Si votre magasin est configuré pour exiger un traitement des prélèvements mais pas des expéditions, utilisez la page **Prélèvement stock** pour organiser et imprimer les informations de prélèvement. Vous utilisez également la page pour saisir et afficher le résultat du prélèvement, qui à son tour affiche la consommation des articles. 
+> 
+> Lorsque le magasin est configuré pour appeler un traitement de prélèvement et d’expédition, ce qui implique que vous avez activé les champs **Prélèvement requis** et **Expédition requise** sur la page **Fiche magasin**, utilisez le document **Prélèvement entrepôt** pour gérer le retrait. Les prélèvements entrepôt sont similaires aux prélèvements stock. La différence est qu'au lieu d'afficher les informations de prélèvement, vous enregistrez le prélèvement. Ce processus d’enregistrement ne valide pas la consommation, il rend simplement les articles disponibles pour la validation. En tant que responsable d’entrepôt, vous pouvez utiliser une feuille de calcul pour organiser les informations de prélèvement avant de créer les instructions de prélèvement d’entrepôt individuelles
 
 ## <a name="see-also"></a>Voir aussi
 

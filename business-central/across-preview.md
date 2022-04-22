@@ -1,45 +1,39 @@
 ---
 title: Versions d’évaluation et abonnements
-description: Découvrez comment obtenir une version d’évaluation de Business Central, comment utiliser les environnements sandbox et comment souscrire un abonnement.
+description: Découvrez comment démarrer, comment utiliser les environnements sandbox et comment obtenir un abonnement à Business Central Online.
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 02/22/2022
+ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: ce516bc49fce32c969097fbf17bb2a927f3db491
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fc77c63351a97e130c00910a2e66c9497a24d104
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511353"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557342"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versions d’évaluation et abonnements [!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] est disponible dans un nombre croissant de pays dans le monde. Si vous voulez en savoir plus sur [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez vous inscrire à une version d’évaluation gratuite. Ensuite, lorsque vous êtes prêt, vous pouvez contacter un partenaire revendeur pour souscrire un abonnement.  
+[!INCLUDE[prod_short](includes/prod_short.md)] est disponible dans un nombre croissant de pays dans le monde. Si vous voulez en savoir plus sur [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez vous inscrire à une version d’évaluation gratuite. Ensuite, quand vous êtes prêt, vous pouvez contacter un partenaire revendeur pour souscrire un abonnement.  
 
 Si vous ne travaillez pas encore avec un partenaire, consultez [Comment trouver un partenaire revendeur ?](/dynamics365/business-central/across-faq#findpartner).  
 
 ## <a name="get-started-with-a-trial"></a>Mise en route avec un essai
 
-Vous pouvez vous inscrire à une version d’évaluation gratuite [ici](https://go.microsoft.com/fwlink/?linkid=847861). Nous vous recommandons de travailler avec [un partenaire revendeur](/dynamics365/business-central/across-faq#findpartner) pour aider votre organisation à prendre en main [!INCLUDE[prod_short](includes/prod_short.md)]. Voir aussi l’article [S’inscrire gratuitement à l’essai gratuit de Dynamics 365 Business Central](trial-signup.md) pour commencer.  
+[!INCLUDE [trial-get](includes/trial-get.md)]
+
+Nous vous recommandons de travailler avec [un partenaire revendeur](/dynamics365/business-central/across-faq#findpartner) pour aider votre organisation à prendre en main [!INCLUDE[prod_short](includes/prod_short.md)]. Voir aussi l’article [S’inscrire gratuitement à l’essai gratuit de Dynamics 365 Business Central](trial-signup.md) pour commencer.  
 
 Selon votre pays ou votre région, la version d’évaluation inclut les langues et les fonctionnalités requises par votre pays ou votre région. Pour plus d’informations, voir [Modification de la langue et des paramètres régionaux](about-locale-language.md).  
 
-Dans [!INCLUDE[prod_short](includes/prod_short.md)], certains éléments vous seront très familiers, d’autres un peu moins. Lorsque vous vous connectez pour la première fois à la société de démonstration, vous accédez à la page Démarrer contenant des guides de configuration assistée qui peuvent vous aider à démarrer. Pour plus d’informations, consultez [Préparation aux activités commerciales](ui-get-ready-business.md) et les articles [Démarrage rapide](quick-start-business-central.md).  
-
-Si vous rencontrez des problèmes, la page [Forum aux questions](across-faq.yml) peut vous aider à répondre à certaines de vos questions. Si vous ne parvenez pas à vous inscrire à la version d’évaluation, la page [Dépannage de l’inscription en self-service](ui-troubleshoot-self-signup.md) peut être utile. Vous pouvez également contacter un [partenaire](/dynamics365/business-central/across-faq#findpartner) et lui demander de créer un essai gratuit ou un autre type de version préliminaire de [!INCLUDE[prod_short](includes/prod_short.md)] pour vous.  
-
-Si vous décidez de ne pas utiliser [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez laisser la période d’essai expirer.  
-
-[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
-
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Ajouter vos propres données à une société test vide
 
-Si vous souhaitez essayer [!INCLUDE[prod_short](includes/prod_short.md)] avec vos propres données, vous pouvez opter pour un essai gratuit de 30 jours sans exemples de données. Le guide de configuration assistée **Configurer ma société** peut vous aider à spécifier des informations de base sur votre activité. Vous pouvez également importer des données à partir de votre solution de gestion métier existante afin de pouvoir évaluer [!INCLUDE[prod_short](includes/prod_short.md)] avec vos propres données. Cependant, nous vous recommandons de ne pas utiliser d’essai gratuit pour vous aider à gérer votre entreprise. Contactez [un partenaire revendeur](/dynamics365/business-central/across-faq#findpartner) pour en savoir plus sur la prise en main de [!INCLUDE[prod_short](includes/prod_short.md)]. Le partenaire peut également vous aider à migrer vos données vers [!INCLUDE [prod_short](includes/prod_short.md)] online.  
+Si vous souhaitez essayer [!INCLUDE[prod_short](includes/prod_short.md)] avec vos propres données, vous pouvez opter pour un essai gratuit de 30 jours sans exemples de données. Le guide de configuration assistée **Configurer ma société** peut vous aider à spécifier des informations de base sur votre activité. Vous pouvez également importer des données à partir de votre solution de gestion métier existante afin de pouvoir évaluer [!INCLUDE[prod_short](includes/prod_short.md)] avec vos propres données. Cependant, nous vous recommandons vivement de ne pas utiliser d’essai gratuit pour vous aider à gérer votre entreprise. Contactez [un partenaire revendeur](/dynamics365/business-central/across-faq#findpartner) pour en savoir plus sur la prise en main de [!INCLUDE[prod_short](includes/prod_short.md)]. Le partenaire peut également vous aider à migrer vos données vers [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
-Si 30 jours ne suffisent pas pour vous décider, vous pouvez prolonger votre période d’évaluation. Pour plus d’informations, voir [Besoin de plus de temps pour décider si vous voulez vous abonner ?](admin-extend-trial.md).  
+Si 30 jours ne vous suffisent pas pour vous décider, vous pouvez prolonger votre période d’évaluation. Pour plus d’informations, voir [Besoin de plus de temps pour décider si vous voulez vous abonner ?](admin-extend-trial.md).  
 
 ### <a name="set-up-your-company-in-prod_short"></a>Configurer votre société dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -65,7 +59,7 @@ La page **Configuration assistée** peut contenir d’autres entrées. Lorsque v
 
 ### <a name="resetting-your-prod_short-trial-experience"></a>Réinitialisation de votre expérience d’évaluation de [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Si vous avez ajouté des données à votre version d’évaluation gratuite de [!INCLUDE[prod_short](includes/prod_short.md)] et que vous souhaitez recommencer à zéro, vous pouvez créer une société d’évaluation avant de supprimer la première société. Ouvrez la page **Sociétés** et choisissez **Nouveau** pour démarrer le guide de configuration assistée **Créer une société**. Le guide peut vous aider à configurer une nouvelle société d’évaluation avec des exemples de données. Vous pouvez également créer une copie de votre société actuelle, vous déconnecter, puis vous connecter à votre nouvelle société.  
+Si vous avez ajouté des données à votre essai gratuit [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez toujours recommencer avec une nouvelle expérience. Créez simplement une société d'évaluation, puis supprimez la société d'origine. Ouvrez la page **Sociétés** et choisissez l’action **Nouveau** pour démarrer le guide de configuration assistée **Créer une société**. Le guide peut vous aider à configurer une nouvelle société d’évaluation avec des exemples de données. Vous pouvez également créer une copie de votre société actuelle, vous déconnecter, puis vous connecter à votre nouvelle société.  
 
 > [!IMPORTANT]
 > Lorsque vous partagez [!INCLUDE[prod_short](includes/prod_short.md)] avec d’autres collaborateurs de votre entreprise, vous devez vous assurer que personne d’autre n’est connecté lorsque vous supprimez une société.  
@@ -85,14 +79,14 @@ Pour plus d’informations sur ce que vous pouvez faire avec [!INCLUDE [prod_sho
 
 ## <a name="get-started-with-sandboxes"></a>Mise en route des environnements sandbox
 
-Les environnements sandbox peuvent être utiles pour vous exercer à utiliser [!INCLUDE[prod_short](includes/prod_short.md)]. Un environnement sandbox est un environnement hors production que vous pouvez utiliser en plus de votre instance de production de [!INCLUDE[prod_short](includes/prod_short.md)]. Par exemple, si vous souhaitez suivre la formation en ligne gratuite de [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), votre administrateur peut [créer un environnement sandbox](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). De cette façon, vous et vos collègues pouvez vous entraîner dans un endroit sûr plutôt que dans votre environnement de production.  
+Les environnements sandbox vous permettent de vous exercer à utiliser [!INCLUDE[prod_short](includes/prod_short.md)]. Un environnement sandbox est un environnement hors production que vous utilisez en plus de votre instance de production de [!INCLUDE[prod_short](includes/prod_short.md)]. Par exemple, si vous souhaitez suivre la formation en ligne gratuite de [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), votre administrateur peut [créer un environnement sandbox](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). De cette façon, vous et vos collègues pouvez vous entraîner dans un endroit sûr plutôt que dans votre environnement de production.  
 
 Si vous êtes développeur, un environnement sandbox permet de créer et de tester en toute sécurité des extensions et de développer de nouvelles fonctionnalités pour personnaliser le service sans affecter les données et les paramètres de votre environnement de production.  
 
 À l’heure actuelle, tous les clients peuvent utiliser un environnement sandbox, y compris les organisations qui se sont inscrites pour une version d’essai. Pour plus d’informations sur la procédure pour démarrer avec un bac à sable, voir [Environnements sandbox](admin-sandbox-environments.md).  
 
 > [!NOTE]
-> Les environnements sandbox ainsi créés contiennent des données de démonstration pour la société fictive CRONUS. Aucune donnée n’est copiée ou autrement transférée à partir de l’environnement de production.   
+> Les environnements sandbox ainsi créés contiennent des données de démonstration pour la société fictive CRONUS. Aucune donnée n’est copiée ou autrement transférée à partir de l’environnement de production.  
 
 L’administrateur de votre [!INCLUDE[prod_short](includes/prod_short.md)] et votre partenaire revendeur peuvent créer d’autre environnements dans le centre d’administration. Pour plus d’informations, voir le [Centre d’administration Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
