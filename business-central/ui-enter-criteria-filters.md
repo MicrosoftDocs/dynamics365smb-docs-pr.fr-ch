@@ -7,19 +7,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b59e6fc824f9c386c12030163f51ef09622f74a0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 052ef7a0e6579398ba651783675674d059eb6785
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519611"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654879"
 ---
 # <a name="sorting-searching-and-filtering"></a>Tri, recherche et filtrage
 
 Il existe quelques fonctions que vous pouvez utiliser pour vous aider à analyser, rechercher et limiter des enregistrements d’une liste ou dans un état ou un XMLport. Il s’agit notamment du tri, de la recherche et du filtrage. Vous pouvez en appliquer certaines ou toutes simultanément pour trouver rapidement ou analyser vos données.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Pour les états et les XMLports, comme sur des listes, vous pouvez définir des filtres pour délimiter les données à inclure dans l’état ou le XMLport, mais vous ne pouvez pas trier et rechercher.
 

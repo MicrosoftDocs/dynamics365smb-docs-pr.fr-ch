@@ -7,26 +7,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518876"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655113"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Utiliser les dates civiles et les heures
 
-[!INCLUDE[prod_short](includes/prod_long.md)] offre plusieurs méthodes principales de saisie des dates et des heures, y compris des fonctions puissantes qui accélèrent la saisie de données, ou vous permettent de saisir des expressions de calendrier complexes. Il existe différents emplacements tout au long de l’application où vous pouvez entrer des dates et des heures dans les champs. Par exemple, dans une commande client, vous pouvez également définir la date d’expédition. En filtrant les données de liste ou d’état, vous pouvez entrer des dates et des heures pour désigner uniquement les données que vous intéressent.
+Vous pouvez saisir des dates et des heures de plusieurs façons. [!INCLUDE[prod_short](includes/prod_long.md)] inclut des fonctionnalités puissantes qui accélèrent la saisie de données ou vous aident à saisir des expressions de calendrier complexes. Il existe différents emplacements tout au long de l’application où vous pouvez entrer des dates et des heures dans les champs. Par exemple, dans une commande client, vous pouvez également définir la date d’expédition. En filtrant les données de liste ou d’état, vous pouvez entrer des dates et des heures pour désigner uniquement les données que vous intéressent.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="check-your-region-and-language-settings"></a>Vérifiez les paramètres de zone et de langue
+
 La page **Mes paramètres** spécifie la **Région** et la **Langue** que vous utilisez dans l’application. Ces paramètres ont une incidence sur la manière dont vous saisissez des dates et des heures.
 
--   Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme.
+- Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme.
 
--   Pour des modèles de date qui impliquent des mots, la langue des mots utilisée doit correspondre au paramètre **Langue**.
+- Pour des modèles de date qui impliquent des mots, la langue des mots utilisée doit correspondre au paramètre **Langue**.
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_long.md)] utilise le système du calendrier grégorien.
@@ -37,9 +40,13 @@ The following sections describe how you can enter dates, times, datetimes, durat
 
 ## <a name="entering-dates"></a>Saisie de dates
 
-Dans un champ de date, vous pouvez saisir une date à l’aide du format standard pour votre paramètre de zone. Les différentes régions peuvent utiliser différents séparateurs entre les jours, mois et années. Par exemple, certaines régions utilisent les tirets (mm-jj-aaaa) et d’autres les barres obliques (mm/jj/aaaa). Cependant, vous pouvez utiliser tous les séparateurs, même un espace, et la date est modifiée automatiquement pour utiliser les séparateurs correspondant à votre région.
+Dans un champ de date, vous pouvez saisir une date à l’aide du format standard pour votre paramètre de zone. Les différentes régions peuvent utiliser différents séparateurs entre les jours, mois et années. Par exemple, certaines régions utilisent les tirets (mm-jj-aaaa) et d’autres les barres obliques (mm/jj/aaaa).  
 
-Notez que le format des dates affichées sur les états imprimés ou les documents envoyés par e-mail n’est pas influencé par votre choix personnel de paramètre d’une zone.
+> [!TIP]
+> Vous pouvez utiliser tous les séparateurs, même un espace, et la date est modifiée automatiquement pour utiliser les séparateurs correspondant à votre région.
+
+> [!NOTE]
+> Le format des dates affichées sur les états imprimés ou les documents envoyés par e-mail n’est pas influencé par votre choix personnel de paramètre d’une zone.
 
 Pour travailler plus productivement avec des dates et des heures, vous pouvez utiliser les méthodes ou les formats décrits dans les sections suivantes.
 
@@ -55,7 +62,7 @@ Voir aussi [Raccourcis clavier du sélecteur de date civile](keyboard-shortcuts.
 
 Vous pouvez saisir une date comme un jour de la semaine suivi d’un numéro de semaine et, éventuellement, une année. Par exemple, Lun25 ou lun25 signifie le lundi de la semaine 25. Si vous ne saisissez pas une année, l’année de la date de travail est utilisée.
 
-Au lieu de saisir le mot entier du jour de la semaine, vous pouvez saisir une partie du mot, en commençant du début. Dans le cas de conflits (par exemple avec m qui peut être mardi ou mercredi), les jours sont évalués en fonction du paramètre d’une zone. L’entrée est d’abord évaluée par rapport à la date de travail et à la date du jour, ne l’oubliez pas en abrégeant. Par exemple, m signifie déjà maintenant, ce qui ne peut pas être mardi ou mercredi.
+Au lieu de saisir le mot entier du jour de la semaine, vous pouvez saisir une partie du mot, en commençant du début. En cas de conflits (par exemple avec m qui peut être mardi ou mercredi), les jours sont évalués en fonction du paramètre d’une zone. L’entrée est d’abord évaluée par rapport à la date de travail et à la date du jour ; vous devez donc en tenir compte en l’abrégeant. Par exemple, _m_ signifie déjà maintenant, ce qui ne peut pas être mardi ou mercredi.
 
 Le schéma de numéros de semaine est toujours ISO 8601, où la semaine 1 est la semaine avec le 4 janvier dans celle-ci, ou la semaine avec le premier jeudi de l’exercice.
 
@@ -76,9 +83,9 @@ Vous pouvez saisir deux, quatre, six ou huit chiffres dans un champ date :
 
 Entrez le mot pour _aujourd’hui_ dans la langue indiquée sur la page **Mes paramètres**, pour régler la date sur un enregistrement à la date d’aujourd’hui. Au lieu de saisir le mot entier, vous pouvez saisir une partie du mot, en commençant du début. Par exemple, en anglais, vous pouvez saisir _t_ ou _tod_, tant que ce n’est pas aussi le début d’un autre mot.
 
-### <a name="period"></a>Période
+### <a name="period"></a>Période.
 
-Pour filtrer une période comptable spécifique, dans un champ de date saisissez la lettre p, ou le mot période, suivi par un numéro qui identifie la période comptable, comme p2 ou période4. La période comptable est relative à l’exercice comptable de la date de travail en cours défini dans votre tableau de bord. Par exemple, si la date de travail est **21/03/22**, alors p1 ou simplement p filtre la première période comptable de l’exercice comptable 2022 (par exemple 01/01/22..31/01/22). p15 filtre la quinzième période comptable depuis le début de l’exercice comptable 2022 (par exemple 01/03/23..31/03/23).
+Pour filtrer une période comptable spécifique, dans un champ de date saisissez la lettre p, ou le mot période, suivi par un numéro qui identifie la période comptable, comme p2 ou période4. La période comptable est relative à l’exercice comptable de la date de travail en cours défini dans votre tableau de bord. Par exemple, si la date de travail est **21/03/22**, alors _p1_ ou simplement _p_ filtre la première période comptable de l’exercice comptable 2022 (par exemple 01/01/22..31/01/22). _p15_ filtre la 15e période comptable depuis le début de l’exercice comptable 2022 (par exemple 01/03/23..31/03/23).
 
 Les périodes comptables sont définies sur la page **Périodes comptables**. Pour visualiser ou modifier les périodes comptables, ouvrez la page [ici](https://businesscentral.dynamics.com/?page=100).
 
@@ -88,13 +95,13 @@ Utilisez une date de travail pour spécifier une date qui n’est pas la date du
 
 Un moyen rapide d’entrer la date de travail sur les enregistrements consiste à entrer tout ou partie du mot _travail_, en commençant par le début du mot, dans la langue dans laquelle vous utilisez [!INCLUDE[prod_short](includes/prod_long.md)]. Par exemple, en anglais, vous pouvez saisir _w_ ou _travail_. La langue est également indiquée sur la page **Mes paramètres**.
 
-Si vous n’avez pas spécifié de date de travail, la date d’aujourd’hui sera utilisée. Pour en savoir plus, voir [Modifier les paramètres de base, comme la date de travail](ui-change-basic-settings.md#work-date).
+Si vous n’avez pas spécifié de date de travail, la date du jour sera utilisée. Pour en savoir plus, voir [Modifier les paramètres de base, comme la date de travail](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Date de clôture
 
-Lorsque vous clôturez un exercice comptable, vous pouvez utiliser des dates de clôture pour indiquer qu’une écriture est une écriture de clôture. Techniquement, une date de clôture se trouve entre deux dates, par exemple le 31 décembre et le 1er janvier.
+Lorsque vous clôturez un exercice comptable, vous pouvez utiliser des dates de clôture pour indiquer qu’une écriture est une écriture de clôture. Techniquement, une date de clôture se trouve entre deux dates, par exemple le 31 décembre et le 1er janvier.
 
-Pour spécifier qu’une date est une date de clôture, placez un C devant cette date, comme C123101. Ceci peut être utilisé avec tous les modèles de date.
+Pour spécifier qu’une date est une date de clôture, placez un C devant cette date, comme C123101. Utilisez ce format avec tous les modèles de date.
 
 ### <a name="examples"></a>Exemples
 
@@ -134,18 +141,19 @@ Sous Listes, totaux et états, vous pouvez définir des filtres sur les dates, h
 Vous pouvez utiliser l’un des formats valides dans les filtres Plage de dates. Par exemple, lun14 3..t 4p appliqué pour un champ Date/heure débouche sur un filtre à partir de 3h du matin le lundi de la semaine 14 de l’année de date de travail en cours, incluse, jusqu’à aujourd’hui à 16h, inclus.
 
 ## <a name="use-date-formulas"></a>Utiliser les formules de date
+
 Une formule date est une combinaison abrégée de lettres et de nombres qui spécifie comment calculer les dates. Vous pouvez entrer des formules date dans différents champs ou filtres de calcul de date.
 
 > [!NOTE]
->  Dans tous les champs formule de données, un jour est automatiquement inclus pour couvrir le jour de début de la période. Par conséquent, si vous saisissez 1S, par exemple, la période est bien huit jours parce qu’aujourd’hui est inclus. Pour définir une période de sept jours \(une vraie semaine\) avec la date début de la période, vous devez saisir 6J ou 1S-1J.
+> Dans tous les champs formule de données, un jour est automatiquement inclus pour couvrir le jour de début de la période. Par conséquent, si vous saisissez 1S, par exemple, la période est bien huit jours parce qu’aujourd’hui est inclus. Pour définir une période de sept jours \(une vraie semaine\) avec la date début de la période, vous devez saisir 6J ou 1S-1J.
 
 Voici quelques exemples d’utilisation de formules date :
 
--   La formule date du champ périodicité récurrente des feuilles récurrentes détermine la fréquence de validation de l’écriture de la ligne feuille.
+- La formule date du champ périodicité récurrente des feuilles récurrentes détermine la fréquence de validation de l’écriture de la ligne feuille.
 
--   La formule date du champ **Période de carence** pour un niveau de relance précis détermine la période qui doit se passer entre la date d’échéance \(ou la date de la relance précédente\) avant la création d’une nouvelle relance.
+- La formule date du champ **Période de carence** pour un niveau de relance précis détermine la période qui doit se passer entre la date d’échéance \(ou la date de la relance précédente\) avant la création d’une nouvelle relance.
 
--   La formule date du champ **Calcul date échéance** détermine la manière dont la date d’échéance de la relance est calculée.
+- La formule date du champ **Calcul date échéance** détermine la manière dont la date d’échéance de la relance est calculée.
 
 La formule de la date peut comprendre un maximum de 20 caractères, des chiffres et des lettres. Vous pouvez utiliser les lettres suivantes qui sont des abréviations d’unités de calendrier.
 
@@ -171,7 +179,7 @@ L’exemple suivant indique comment utiliser un chiffre et une unité de temps. 
 
 |  Expression  |  Signification  |
 |--------------|-----------|
-|10J|10 jours à dater d’aujourd’hui|
+|10J|10 jours à dater d'aujourd'hui|
 |2S|2 semaines à dater d’aujourd’hui|
 
 L’exemple suivant indique comment utiliser une unité de temps et un chiffre.
@@ -223,15 +231,15 @@ Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
->  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
+> In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
 
 Here are some examples of how date formulas can be used:
 
--   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
+- The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
 
--   The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
+- The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
 
--   The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
+- The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
 
 The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.
 
@@ -280,12 +288,13 @@ The following example shows how you can use a minus sign to indicate a date in t
 |-1Y|1 year ago from today|
 
 > [!IMPORTANT]
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
+> If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
 
 -->
 
 ## <a name="entering-times"></a>Saisie des heures
-Lorsque vous saisissez des heures, vous pouvez insérer n’importe quel type de séparateur entre les unités, mais si vous utilisez des chiffres doubles pour chaque unité jusqu’aux millisecondes, ce n’est pas requis.
+
+Lorsque vous saisissez des heures, vous pouvez insérer n’importe quel séparateur autre qu’un espace entre les unités. Si vous utilisez des chiffres doubles pour chaque unité jusqu’aux millisecondes, cette opération est facultative.
 
 Vous n’avez qu’à entrer les plus grandes unités souhaitées ; les autres sont remis à zéro. Vous pouvez également omettre l’indicateur AM/PM.
 
@@ -305,12 +314,14 @@ Le tableau suivant répertorie les différents formats de saisie possibles pour 
 |0530|05:30:00|
 |5:30:5|05:30:05|
 |053005|05:30:05|
-|5:30:5,50|05:30:05.5|
+|5:30:5,50|05:30:050,5|
 |053005050|05:30:05.05|
 
-Tenez compte que les millisecondes sont interprétées comme des notations de décimales. Ainsi, par exemple 3, 30 et 300 signifient tous 300 millisecondes, alors que 03 signifie 30 et 003 signifie 3 millisecondes.
+> [!NOTE]
+> Les millisecondes sont interprétées comme des notations de décimales. Ainsi, par exemple 3, 30 et 300 signifient tous 300 millisecondes, alors que 03 signifie 30 et 003 signifie 3 millisecondes.
 
-Vous ne pouvez pas utiliser 24:00 pour dire minuit, ou utiliser une valeur supérieure à 24:00.
+> [!IMPORTANT]
+> Vous ne pouvez pas utiliser 24:00 pour dire minuit, ou utiliser une valeur supérieure à 24:00.
 
 Le mot pour « time » (heure) dans la langue utilisée par [!INCLUDE[prod_short](includes/prod_long.md)] est évalué sur l’heure actuelle sur votre ordinateur ou appareil mobile. Vous pouvez saisir n’importe quel partie du mot, en commençant au début, par exemple h ou HEU.
 
@@ -334,11 +345,12 @@ Voilà quelques exemples.
 
 Vous pouvez également saisir un nombre automatiquement converti en durée. Le nombre saisi est converti en fonction de l’unité de mesure par défaut spécifiée pour le champ de durée.
 
-Pour connaître l’unité de mesure utilisée pour un champ de durée, saisissez un nombre et observez l’unité de mesure dans laquelle il est convertit.
+Pour voir quelle unité de mesure est utilisée dans un champ de durée, saisissez un nombre. Ensuite, vous pouvez voir dans quelle unité de mesure il est converti.
 
 Par exemple, si l’unité est « heures », le chiffre 5 est converti en 5 h.
 
 ## <a name="see-also"></a>Voir aussi
+
 [Utiliser [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)  
 [Saisir les critères pour les filtres](ui-enter-criteria-filters.md)  

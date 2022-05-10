@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9018
+ms.search.form: 9020, 9022, 9027, 9024
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 47cd78dc6f706407a0be9814e170054b95e4403d
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513616"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655073"
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
 [!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités dédiées pour les domaines d’activité courants, tels que la finance et les ventes. Pour plus d’informations, voir [Fonctionnalités d’entreprise](across-business-functionality.md).
@@ -24,6 +24,8 @@ Pour prendre en charge ces tâches spécifiques à votre secteur d’activité, 
 
 > [!NOTE]
 > Outre les fonctionnalités liées à l’entreprise décrites de cette section, vous utiliserez des fonctionnalités d’interface utilisateur générales chaque jour pour interagir avec le système. Pour plus d’informations, voir [Utiliser Business Central](ui-work-product.md).
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Le tableau suivant répertorie ces secteurs d’activité généraux avec des liens vers les rubriques qui les décrivent.
 

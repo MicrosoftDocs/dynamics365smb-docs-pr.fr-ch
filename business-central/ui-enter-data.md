@@ -7,19 +7,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: fffc72eaa44207779a751c3d85381f830f651eb3
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528563"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655035"
 ---
 # <a name="entering-data"></a>Saisie de données
 
 Plusieurs fonctions générales vous permettent de saisir vos données de manière plus facile, rapide et précise. Cet article présente les principes de base et les fonctionnalités avancées de saisie de données.  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Les exemples contenus dans cet article utilisent les données de démonstration.
 
@@ -111,7 +113,7 @@ Même si un champ est obligatoire, vous n’êtes pas forcé de remplir le champ
 
  De nombreux champs ont un bouton de Flèche vers le bas que vous pouvez choisir. sélectionnez la flèche pour obtenir la liste des données disponibles pour le champ. Selon le type de champ, le bouton peut être associé à l’une deux fonctions suivantes :  
 
-- Liste - Affiche les informations d’une autre table que vous pouvez entrer dans le champ. Vous pouvez sélectionner un élément à la fois.  
+- Liste - Affiche les informations d'une autre table que vous pouvez entrer dans le champ. Vous pouvez sélectionner un élément à la fois.  
 
 - Consulter - Affiche les options qui existent pour le champ. Vous ne pouvez sélectionner qu’une des options.  
 

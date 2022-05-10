@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6996c82ee184db980879ea98a6f2cbdca1b10852
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5f75b1b7e4f08af7ff02c43ec30ec39c234f7704
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557208"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626410"
 ---
 # <a name="create-jobs"></a>Créer des projets
 Lorsque vous démarrez un nouveau projet, vous devez créer une fiche projet avec des tâches intégrées et des lignes planning structurées en deux couches.  
@@ -72,23 +72,6 @@ Une ligne planning projet peut avoir l’un des types suivants :
 3. Sélectionnez une tâche projet pour laquelle le champ **Type tâche projet** contient **Validation** puis, cliquez sur **Lignes planning projet**.  
 4. Sur la page **Lignes planning projet**, renseignez les champs, le cas échéant sur une nouvelle ligne.
 5. Répétez les étapes 3 et 4 pour toutes les lignes planning dont vous avez besoin pour la tâche projet.
-
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Créez des documents prélèvement entrepôt et stock pour un projet
-Pour créer des documents de prélèvement entrepôt et stock pour les projets, votre administrateur doit activer **Mise à jour des fonctionnalités : activer prélèvement stock et entrepôt à partir des projets** sur la page **Gestion des fonctionnalités**.
-
-La fonctionnalité ajoute les actions **Créer un prélèvement stock** et **Créer un prélèvement entrepôt** à la **Fiche projet**. Pour créer ou enregistrer un document de prélèvement, utilisez les actions **Rangement/Lignes prélèvement/Lignes Mouvements** ou **Lignes prélèvement enregistrées**.
-
-Vous pouvez utiliser les actions dans les conditions suivantes :
-* Le **Statut** du projet est **Ouvert**.
-* Le **Type de ligne** de la ligne de planning du projet est **Budget** ou **Budget et Facturable**.
-* Le **Type** de la ligne de planning du projet est **Article**.
-* **Prélèvement requis** est activé pour l'emplacement associé.
-* **Prélèv. et rangement dirigés** est désactivé.
-
-> [!NOTE] 
-> Bien que le paramètre s’appelle **Prélèvement requis**, vous pouvez toujours valider la consommation directement à partir de la ligne du journal des tâches pour l’emplacement. Si votre magasin est configuré pour exiger un traitement des prélèvements mais pas des expéditions, utilisez la page **Prélèvement stock** pour organiser et imprimer les informations de prélèvement. Vous utilisez également la page pour saisir et afficher le résultat du prélèvement, qui à son tour affiche la consommation des articles. 
-> 
-> Lorsque le magasin est configuré pour appeler un traitement de prélèvement et d’expédition, ce qui implique que vous avez activé les champs **Prélèvement requis** et **Expédition requise** sur la page **Fiche magasin**, utilisez le document **Prélèvement entrepôt** pour gérer le retrait. Les prélèvements entrepôt sont similaires aux prélèvements stock. La différence est qu'au lieu d'afficher les informations de prélèvement, vous enregistrez le prélèvement. Ce processus d’enregistrement ne valide pas la consommation, il rend simplement les articles disponibles pour la validation. En tant que responsable d’entrepôt, vous pouvez utiliser une feuille de calcul pour organiser les informations de prélèvement avant de créer les instructions de prélèvement d’entrepôt individuelles
 
 ## <a name="see-also"></a>Voir aussi
 

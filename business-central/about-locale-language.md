@@ -7,34 +7,37 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5187d4f98360d7cf43300f86eda9e99dcbda4063
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: cdac371269e523f30712d4cb0be1087e07e70d5e
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323152"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655529"
 ---
 # <a name="changing-language-and-region"></a>Modification de la langue et de la région
 
-[!INCLUDE[prod_short](includes/prod_short.md)] est disponible dans un certain nombre de marchés et de langues à travers le monde. Sur les marchés où [!INCLUDE[prod_short](includes/prod_short.md)] est disponible, un ensemble de fonctionnalités réglementaires sont disponibles pour aider les entreprises avec des charges réglementaires. [!INCLUDE[prod_short](includes/prod_short.md)] peut se présenter dans différentes langues et vous pouvez modifier la langue utilisée pour l’affichage des textes et ce changement est immédiat une fois que le système vous a déconnecté et reconnecté automatiquement. Le paramètre ne s’applique qu’à vous et non aux autres utilisateurs de votre société.  
+[!INCLUDE[prod_short](includes/prod_short.md)] est disponible dans plusieurs marchés et langues à travers le monde. Sur les marchés où [!INCLUDE[prod_short](includes/prod_short.md)] est disponible, des fonctionnalités réglementaires sont disponibles pour aider les entreprises avec des charges réglementaires. [!INCLUDE[prod_short](includes/prod_short.md)] peut s’afficher dans différentes langues. Vous pouvez même changer la langue utilisée pour afficher les textes. La modification est immédiate une fois que vous avez été automatiquement déconnecté et reconnecté. Le paramètre ne s’applique qu’à vous et non aux autres utilisateurs de votre société.  
 
-Par exemple, si vous utilisez la version canadienne de [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez afficher l’interface utilisateur en anglais, en allemand, en français ou dans une autre langue, mais pour tous les autres aspects de l’application, il s’agit toujours de la version canadienne de [!INCLUDE[prod_short](includes/prod_short.md)]. Ce n’est pas la même chose que, disons, [!INCLUDE[prod_short](includes/prod_short.md)] au Royaume-Uni où la fonctionnalité a été adaptée aux exigences de ce marché.  
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
+Par exemple, vous utilisez la version canadienne de [!INCLUDE[prod_short](includes/prod_short.md)]. Cela signifie que vous pouvez voir l'interface utilisateur en anglais, allemand, français ou une autre langue, mais il s’agit toujours de la version canadienne de [!INCLUDE[prod_short](includes/prod_short.md)]. Ce n’est pas la même chose que [!INCLUDE[prod_short](includes/prod_short.md)] en allemand où la fonctionnalité a été adaptée aux exigences de ce marché.  
 
 Pour modifier la langue de l’interface utilisateur, accédez à la page **Mes paramètres**. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
 > Le choix des langues sera réinitialisé à votre réglage sur votre profil Microsoft 365 si votre administrateur synchronise les utilisateurs de Microsoft 365 à [!INCLUDE[prod_short](includes/prod_short.md)].
 
-La modification des textes stockés sous forme de données d'application n'appartient pas à la fonctionnalité multilingue. C’est une question de conception de l’application. Il s’agit par exemple de textes tels que le nom des articles du stock ou les commentaires concernant un client. En d’autres termes, ces types de texte ne sont pas traduits.  
+Vous ne pouvez pas modifier les textes stockés en tant que données d’application. Il s’agit par exemple de textes tels que le nom des articles du stock ou les commentaires concernant un client. En d’autres termes, ces types de texte ne sont pas traduits.  
 
 > [!NOTE]  
-> [!INCLUDE[prod_short](includes/prod_short.md)] ne prend en charge qu’un jeu de caractères unique pour les données. Aussi, il se peut que certains caractères ne soient pas pris en charge dans votre environnement et vous pouvez rencontrer des problèmes de récupération des données saisies à l’aide d’un autre jeu de caractères. Par exemple, votre environnement peut ne prendre en charge que les caractères anglais et russes, et si vous entrez des données dans une autre langue, elles peuvent ne pas être stockées correctement. Vous devez contacter votre administrateur système pour connaître les langues prises en charge pour votre client [!INCLUDE[prod_short](includes/prod_short.md)].  
+> [!INCLUDE[prod_short](includes/prod_short.md)] ne prend en charge qu’un jeu de caractères unique pour les données. Aussi, il se peut que certains caractères ne soient pas pris en charge dans votre environnement et vous pouvez rencontrer des problèmes de récupération des données saisies à l’aide d’un autre jeu de caractères. Par exemple, votre environnement peut prendre en charge les caractères anglais et russes uniquement. Dans ce cas, si vous entrez des données dans une autre langue, il se peut que celles-ci ne soient pas stockées correctement. Vous devez contacter votre administrateur système pour connaître les langues prises en charge pour votre client [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="changing-your-region-setting"></a>Modification de votre paramètre de région
-La région diffère des exigences linguistiques et légales des marchés locaux. La région détermine la manière dont vos données s’affichent en termes de séparateur de virgule, aligné à gauche ou à droite, et certains autres paramètres. La région détermine également certains éléments du système dans le navigateur, par exemple l’action permettant de créer un élément dans une liste.  
+
+La région diffère des exigences linguistiques et légales des marchés locaux. La région détermine la manière dont vos données s’affichent, comme le séparateur de décimales, et la manière dont le texte est aligné à gauche ou à droite. La région détermine également certains éléments du système dans le navigateur, comme l’action pour créer un élément dans une liste.  
 
 Vous pouvez modifier la région dans l’onglet du navigateur que vous utilisez pour travailler dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les modifications ne s’appliquent qu’à vous et non aux autres utilisateurs de votre société.  Le choix de la région sera réinitialisé à votre réglage sur votre profil Microsoft 365 si votre administrateur synchronise les utilisateurs de Microsoft 365 à [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -44,6 +47,7 @@ Vous pouvez modifier la région dans l’onglet du navigateur que vous utilisez 
 Pour modifier la région, accédez à la page **Mes paramètres**. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
 
 ## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Modification du paramètre de région pour les clients, les contacts et les fournisseurs
+
 Certaines entreprises utilisent un service externe qui valide les informations d’adresse dans leur pays ou leur région. Cependant, lorsque vous devez mettre à jour les informations d’adresse, l’approche structurée utilisée par ces services peut ne pas toujours convenir à certains scénarios. Business Central offre un moyen plus flexible de saisir les détails de l’adresse.
 
 Sur la page **Paramètres comptabilité**, si vous activez le bouton à bascule **Exiger un code pays/région dans l’adresse**, les modifications apportées au champ **Code pays/région** des adresses des clients, des contacts ou des fournisseurs réinitialiseront les valeurs des autres champs d’adresse.
@@ -54,7 +58,7 @@ Dans la page **Aide et support**, vous pouvez voir quelle version de [!INCLUDE[p
 
 ## <a name="languages-of-the-prod_short-help"></a>Langues de l’aide de [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Le contenu de l’aide pour la fonctionnalité de base de [!INCLUDE[prod_short](includes/prod_short.md)] est publié sur le site de Microsoft Docs et est disponible dans de nombreuses langues différentes. Si vous accédez aux documents au sein de [!INCLUDE[prod_short](includes/prod_short.md)], le contenu s’affichera dans votre langue. Si une page spécifique n’est pas encore disponible dans votre langue, elle s’affichera en anglais.
+Le contenu de l’aide de la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] est publié sur le site Microsoft Docs. Le contenu est disponible dans différentes langues. Si vous accédez aux documents au sein de [!INCLUDE[prod_short](includes/prod_short.md)], le contenu s’affichera dans votre langue. Par défaut, si une page spécifique n’est pas encore disponible dans votre langue, elle s’affichera en anglais.
 
 ### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Comment changer la langue du site Microsoft Docs ?
 

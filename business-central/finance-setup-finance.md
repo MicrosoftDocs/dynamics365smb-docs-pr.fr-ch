@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: f0112cfb60321a44d833ad6a51db209a71494bf1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6026f9ea7a0adeb66f6c543365cf7caeb91a7628
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513954"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654957"
 ---
 # <a name="setting-up-finance"></a>Configuration de Finance
 Avant de commencer à gérer votre activité, vous devez spécifier des règles et des valeurs par défaut concernant le mode de gestion souhaité des processus financiers de cette société. Pour commencer, vous devez configurer l’élément essentiel des enregistrements comptables de la société, à savoir le plan comptable. Configurez ensuite des groupes comptabilisation afin d’accroître l’efficacité du processus d’affectation des comptes imputables de comptabilité par défaut aux clients, fournisseurs et articles.
@@ -23,7 +23,7 @@ Certaines configurations financières peuvent être effectuées automatiquement 
 
 Vous pouvez utiliser des axes analytiques pour ajouter différents types d’informations à chaque transaction. Vous pouvez configurer les axes analytiques de base de votre société, tels que *Projets* et *Départements*. Vous pouvez ensuite ajouter, le cas échéant, des axes analytiques supplémentaires, et configurer des axes analytiques temporaires à utiliser pendant une période limitée, par exemple, dans le cadre d’une campagne de vente. Pour plus d’informations, reportez-vous à [Utilisation des axes](finance-dimensions.md).
 
-De nombreuses tâches de configuration doivent être effectuées avant l’enregistrement des transactions financières, mais vous pouvez modifier la plupart des paramètres ultérieurement. Certaines tâches de configuration sont facultatives, par exemple, vous ne configurez des consolidations et des validations intersociétés que si vous utilisez plusieurs sociétés. D’autres tâches de configuration, telles que la spécification de la période durant laquelle la validation est autorisée, devront probablement être répétées régulièrement.  
+De nombreuses tâches de configuration doivent être effectuées avant l’enregistrement des transactions financières, mais vous pouvez modifier la plupart des paramètres ultérieurement. Certaines de ces tâches sont facultatives, par exemple, vous configurez uniquement les comptabilisations et les consolidations intersociétés si vous utilisez plusieurs sociétés. D’autres tâches de configuration, telles que la spécification de la période durant laquelle la validation est autorisée, devront probablement être répétées régulièrement.  
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 

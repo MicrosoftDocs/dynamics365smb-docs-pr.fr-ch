@@ -7,21 +7,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bef90a9dab30391f310458cb0dde58cc4fac5268
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519370"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654983"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Créer des sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], le conteneur pour les données métier appartenant à une unité commerciale ou une entité juridique sont désignés en tant que *société*. Lorsque vous vous connectez à [!INCLUDE[prod_short](includes/prod_short.md)], une société de démonstration et une société vide vous sont attribuées, *Ma société*. Le basculement entre sociétés est facile : accédez simplement à **Mes paramètres** et passez à l’autre société. Vous pouvez également créer de nouvelles sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)], selon les besoins de votre activité.  
 
 Lorsque vous créez une société, un guide de configuration assistée vous permet d’obtenir les fondements de base. Ensuite, vous pouvez importer des données appropriées à partir de votre système hérité ou d’une autre société dans [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="choose-the-right-template"></a>Choisir le bon modèle
 
@@ -54,9 +56,9 @@ Sur la page **Sociétés**, vous pouvez utiliser l’action **Copier** pour cré
 
 Lorsque vous vous connectez à une nouvelle société, l’Assistant **Configuration de la société** s’exécute automatiquement et vous permet de démarrer. Il vous sera demandé des informations sur votre activité, telles que l’adresse, les coordonnées bancaires et le mode d’évaluation du stock. Ces informations sont nécessaires parce qu’elles servent de base dans plusieurs zones de [!INCLUDE[prod_short](includes/prod_short.md)], ce qui vous évitera de les configurer manuellement plus tard.  
 
-Par exemple, l’adresse de votre société est incluse dans les factures et autres documents, vos coordonnées bancaires sont utilisées pour les paiements, et le mode d’évaluation du stock est utilisé pour calculer les prix, ainsi que pour l’évaluation du stock.  
+Par exemple, [!INCLUDE [prod_short](includes/prod_short.md)] inclut l’adresse de votre entreprise dans les factures et autres documents et vos coordonnées bancaires dans les paiements. Le mode d’évaluation du stock est utilisé pour calculer les prix, ainsi que pour l’évaluation du stock.  
 
-Une fois les bases en place, vous pouvez configurer les zones de base restantes. Maintenant, vous êtes prêt à ajouter des données métier, telles que les clients et les fournisseurs. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+Une fois les bases en place, vous pouvez configurer les zones de base restantes. Maintenant, vous êtes prêt à ajouter des données métier, telles que les clients et les fournisseurs. Pour plus d’informations, consultez [Configurer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
 ## <a name="companies-and-environments"></a>Sociétés et environnements
 
@@ -73,7 +75,7 @@ Une fois qu’une entreprise a été créée, vous ne pouvez pas changer son nom
 
 ## <a name="add-contoso-coffee"></a>Ajouter Contoso Coffee
 
-L’application Contoso Coffee fournit des données de démonstration qui peuvent vous aider à explorer les fonctionnalités avancées de [!INCLUDE [prod_short](includes/prod_short.md)]. Trouvez l’application dans AppSource et installez-la dans une société vide, par exemple une société dans un environnement sandbox. Pour plus d’informations, voir [Présentation des données de démonstration Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
+L’application Contoso Coffee fournit des données de démonstration pour vous aider à explorer les fonctionnalités avancées de [!INCLUDE [prod_short](includes/prod_short.md)]. Trouvez l’application dans AppSource et installez-la dans une société vide, par exemple une société dans un environnement sandbox. Pour plus d’informations, voir [Présentation des données de démonstration Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
 ## <a name="see-also"></a>Voir aussi
 

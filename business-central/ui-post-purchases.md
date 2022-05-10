@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9ae67b1ec8b989f0bd66360b9f5a2c8b76077d0b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ebf6c4c1a14bf14ed21a8661c14235efbee4a190
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520671"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655323"
 ---
 # <a name="posting-purchases"></a>Validation des achats
 Sur un document achat, vous pouvez faire votre choix parmi les actions de validation suivantes :
@@ -40,7 +40,7 @@ En outre, les documents achat sont toujours enregistrés dans les tables **En-t�
 Avant de commencer à valider, vous pouvez effectuer une impression test qui contient toutes les informations de la commande achat et indique les erreurs afférentes. Pour imprimer l’état, sélectionnez **Validation**, puis **Impression test**.
 
 > [!IMPORTANT]  
->   Lorsque vous validez une commande achat pour des articles, vous pouvez créer une réception et une facture. Celles-ci peuvent être faites simultanément ou séparément. Vous pouvez également créer une réception partielle et une facture partielle en renseignant les champs **Qté à recevoir** et **Qté à facturer** sur chaque ligne commande achat avant la validation. Remarquez que vous ne pouvez pas créer de facture pour un article qui n’a pas été reçu. C’est-à-dire que, avant de pouvoir facturer, vous devez avoir validé une réception, ou vous devez choisir de réceptionner et de facturer en même temps.
+>   Lorsque vous validez une commande achat pour des articles, vous pouvez créer une réception et une facture. Celles-ci peuvent être faites simultanément ou séparément. Vous pouvez également créer une réception partielle et une facture partielle en renseignant les champs **Qté à recevoir** et **Qté à facturer** sur chaque ligne commande achat avant la validation. Remarquez que vous ne pouvez pas créer de facture pour un article qui n'a pas été reçu. C’est-à-dire que, avant de pouvoir facturer, vous devez avoir validé une réception, ou vous devez choisir de réceptionner et de facturer en même temps.
 
 Vous pouvez soit valider, soit valider et imprimer. Si vous choisissez de valider et d’imprimer, un rapport est imprimé lorsque la commande est validée. Vous pouvez aussi choisir la fonction **Valider par lot**, qui vous permet de valider plusieurs commandes en même temps. Pour plus d’informations, voir [Valider plusieurs documents en même temps](ui-batch-posting.md).
 

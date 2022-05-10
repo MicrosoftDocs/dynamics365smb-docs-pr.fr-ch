@@ -4,15 +4,15 @@ description: Si vous travaillez pour plusieurs organisations, vous pouvez rapide
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1190a09a1e4cb67cb5a7f75732a18980f0aff4aa
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7a874890fe88b32668b309edb43563f8d11e7555
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514376"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655399"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Passer à une autre entreprise ou un autre environnement
 
@@ -24,6 +24,8 @@ ms.locfileid: "8514376"
 > Si vous changez souvent d’entreprise ou utilisez [!INCLUDE[prod_short](includes/prod_short.md)] depuis une autre application comme Microsoft Teams, vous pouvez facilement perdre de vue où vous êtes. Pour vous aider à garder le fil, vous pouvez ajouter un badge qui affichera le nom de la société, afin que vous puissiez rapidement vérifier que vous êtes au bon endroit. Pour plus d’informations, voir [Pour afficher un badge d’entreprise pour un accès rapide aux informations de la société](ui-change-basic-settings.md#badge).
 
 Selon votre navigateur, vous pouvez également épingler les différentes entreprises à votre barre de favoris.  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="switch-to-another-environment"></a>Passer à un autre environnement
 

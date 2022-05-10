@@ -6,21 +6,23 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0f5910932e0a6bccaf31629fc182e5c451ec9f43
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2eaec73818a437e0ebc729612de063b19a074561
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516525"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655088"
 ---
 # <a name="work-with-prod_short"></a>Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Dans le cadre de l’exécution des tâches, vous interagissez avec des données de différentes manières : création d’enregistrements et saisie de données, tri et filtrage de données, rédaction de procédures et sortie de données vers d’autres applications.
 
 Par exemple, vous pouvez ajuster la taille et la position de n’importe quelle page, étendre la largeur des colonnes et augmenter la hauteur des en-têtes de colonnes, puis modifiez le tri des données dans les colonnes. Si vous souhaitez utiliser la barre de défilement horizontale pour afficher toutes les colonnes dans une page de liste ou des lignes document, vous constatez la présence d’un volet Figer vertical pour empêcher le défilement de certaines colonnes.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Conseils
 

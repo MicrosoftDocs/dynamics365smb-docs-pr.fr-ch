@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: b50b55e8494d3a26b7f9abac7f0c48da75cb00b0
-ms.sourcegitcommit: 8ce029da695c19c76db30dcbf938631d53bbb466
+ms.openlocfilehash: 665ee0bd23c4ddc2f8a09648d2b0a2fb894c415b
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "8446505"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655789"
 ---
 # <a name="tell-me-faq"></a>FAQ Tell Me
 Cette rubrique répond aux questions que nos utilisateurs expérimentés posent souvent à propos de la fonctionnalité Tell Me.

@@ -7,19 +7,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
+ms.search.form: 1831, 1832
+ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518352"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654931"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Obtenir le complément Business Central pour Outlook
 
-Avec [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément Outlook pour [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez voir les données financières relatives aux clients et aux fournisseurs. Vous pouvez également créer et envoyer des documents financiers, tels que des devis et des factures.  
+Avec [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément [!INCLUDE[prod_short](includes/prod_short.md)] pour Outlook, vous pouvez voir les données financières relatives aux clients et aux fournisseurs. Vous pouvez également créer et envoyer des documents financiers, tels que des devis et des factures.  
 
 Il existe deux manières d’installer le complément Business Central pour Outlook, en fonction de votre rôle dans l’organisation :
 
@@ -42,6 +42,9 @@ Le complément Business Central pour Outlook se compose de deux compléments plu
 Pour plus d’informations sur les possibilités des compléments, voir [Utiliser Business Central en tant que boîte de réception professionnelle dans Outlook](work-outlook-addin.md).
 
 Chaque complément est fourni sous forme de fichier XML, appelé *manifeste*, qui doit être installé dans Outlook pour toute personne souhaitant cette fonctionnalité. Ces fichiers décrivent comment activer les compléments et se connecter à Business Central lorsqu’ils sont utilisés dans Outlook. Ces fichiers sont généralement utilisés par un administrateur. En tant qu’utilisateur normal, dans la plupart des cas, vous n’aurez pas à gérer directement ces fichiers. Soit votre administrateur configurera le complément pour qu’il s’installe automatiquement pour vous, soit vous utiliserez la configuration assistée intégrée pour gérer l’installation.
+
+> [!IMPORTANT]
+> Utilisation de plusieurs environnements ? Le complément Business Central pour Outlook est conçu pour fonctionner avec un seul environnement Business Central. Lorsque le complément est installé, le nom de l'environnement est inclus dans le manifeste du complément. Cette configuration signifie que le complément se connectera uniquement à l’environnement à partir duquel il a été installé. Pour utiliser le complément avec un autre environnement, ouvrez l’environnement et réinstallez le complément.
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Déployer le complément à l’aide du déploiement centralisé en tant qu’administrateur
 

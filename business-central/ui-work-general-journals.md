@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
-ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 365dae77b153794826681e500a1a753f6f749e55
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: aecfa9a0709205a781d974a1f901a5ddb3710ae7
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518772"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655009"
 ---
 # <a name="work-with-general-journals"></a>Utiliser des feuilles comptabilité
 
@@ -176,7 +176,7 @@ Une fois l’enregistrement de la feuille article standard effectué, la page Fe
     La page Feuilles article standard qui s’ouvre alors contient des codes et des descriptions de toutes les feuilles article standard existantes.
 3. Pour passer en revue une feuille article standard avant de la sélectionner pour la réutiliser, choisissez l’action **Afficher la feuille**.
 
-    Toutes les modifications que vous apportez dans une feuille article standard sont effectuées immédiatement. Elles seront là la prochaine fois que vous rouvrirez ou réutiliserez la feuille article en question. Il est donc recommandé de s’assurer que la modification en question est suffisamment importante pour devoir s’appliquer de manière générale. Sinon, effectuez la correction ponctuelle dans la feuille article après avoir inséré les lignes feuille article standard. Reportez-vous à l’étape 4 ci-dessous.
+    Toutes les modifications que vous apportez dans une feuille article standard sont effectuées immédiatement. Elles seront là la prochaine fois que vous rouvrirez ou réutiliserez la feuille article en question. Il est donc recommandé de s'assurer que la modification en question est suffisamment importante pour devoir s'appliquer de manière générale. Sinon, effectuez la correction ponctuelle dans la feuille article après avoir inséré les lignes feuille article standard. Reportez-vous à l’étape 4 ci-dessous.
 4. Sur la page **Feuilles article standard**, sélectionnez la feuille article standard à réutiliser et cliquez sur le bouton **OK**.
 
     La feuille article est alors remplie avec les lignes enregistrées en tant que feuille article standard. Si des lignes feuille figurent déjà dans la feuille article, les lignes insérées sont placées en dessous.

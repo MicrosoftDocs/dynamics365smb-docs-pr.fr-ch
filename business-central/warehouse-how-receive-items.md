@@ -6,21 +6,21 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510
+ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ebb230a7bd0e2008d16b33c0fb00bdbeac3177d6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 326e648b2d8fbe7185cc01c76f61c48c29fa3d40
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519507"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625784"
 ---
 # <a name="receive-items"></a>Réceptionner des articles
 
 Lorsque les articles arrivent dans un entrepôt qui n’est pas configuré pour un traitement de réception entrepôt, enregistrez simplement la réception du document d’entreprise associé, comme une commande achat, un retour vente ou un ordre de transfert entrant.
 
-Lorsque les articles arrivent dans un entrepôt configuré pour appeler un traitement de réception entrepôt, vous devez extraire les lignes du document origine lancé ayant déclenché leur réception. En présence d’emplacements, vous pouvez soit accepter l’emplacement par défaut qui est renseigné, soit renseigner l’emplacement de rangement de l’article concerné si cet article n’a jamais été utilisé dans l’entrepôt. Vous devez ensuite renseigner les quantités d’articles reçus et valider la réception.  
+Lorsque les articles arrivent dans un entrepôt configuré pour appeler un traitement de réception entrepôt, vous devez extraire les lignes du document origine lancé ayant déclenché leur réception. En présence d'emplacements, vous pouvez soit accepter l'emplacement par défaut qui est renseigné, soit renseigner l'emplacement de rangement de l'article concerné si cet article n'a jamais été utilisé dans l'entrepôt. Vous devez ensuite renseigner les quantités d’articles reçus et valider la réception.  
 
 ## <a name="to-receive-items-with-a-purchase-order"></a>Pour réceptionner des articles avec une commande achat
 
