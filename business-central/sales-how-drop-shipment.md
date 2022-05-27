@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ca22eaadb8ba4054ce22782881b487cab6bd5c4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bc6530a17e98d36a3f26e68e6231306aebfdda1d
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521795"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729790"
 ---
 # <a name="make-drop-shipments"></a>Effectuer des livraisons directes
 
@@ -30,28 +30,35 @@ Lorsqu’une commande vente est marquée pour la livraison directe, et lorsque v
 Pour préparer une livraison directe, vous créez une commande vente pour un article et indiquer sur la ligne vente que la vente exige la livraison directe.
 
 1. Créez une commande vente pour un article. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
-2. Sur la ligne commande vente pour l’article envoyé, cochez la case **Livraison directe**. Utilisez la fonction **Choisir les colonnes** si le champ n’est pas visible. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
+2. Sur la ligne commande vente pour l’article envoyé, cochez la case **Livraison directe**. 
+
+> [!TIP]
+> Par défaut, la case à cocher Livraison directe n’est pas disponible sur les lignes. Si ce n’est pas le cas, vous pouvez l’ajouter en personnalisant la section de page qui contient les lignes. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Pour créer la commande achat pour livraison directe
 
 Pour préparer une livraison directe, vous indiquez sur la commande achat qu’elle doit être expédiée à votre client, et non à vous-même.
 
-1. Créez une commande achat. Ne remplissez pas les champs sur les lignes. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
+1. Créez une commande achat. Ne remplissez aucun champ sur les lignes. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).
 2. Dans le champ **Destinataire**, sélectionnez **Adresse client**.
-3. Dans le champ **Client**, sélectionnez le client auquel vous souhaitez vendre l’article en question.
+3. Dans le champ **Client**, sélectionnez le client auquel vous vendez l’article.
 4. Choisissez l’action **Livraisons directes**, puis choisissez l’option **Extraire commande vente**.
 5. Sur la page **Liste des ventes**, sélectionnez la commande vente que vous avez préparée dans [Créer une commande vente pour livraison directe](#to-create-a-sales-order-for-drop-shipment).
 6. Choisissez le bouton **OK**.
 
 Les informations de ligne de la commande vente sont insérées sur la/les ligne(s) commande achat.
 
-Vous pouvez maintenant informer le fournisseur quant à l’envoi des articles à votre client, par exemple en envoyant la commande achat au format PDF. Si votre fournisseur vous communique un numéro de suivi ou des informations similaires, vous pouvez choisir d’enregistrer ces informations dans une ligne de commande fournisseur de type *Commentaire*.  
+Vous pouvez maintenant demander à votre fournisseur d’expédier les articles directement au client. Par exemple, vous pouvez lui envoyer la commande par message électronique. 
+
+Si votre fournisseur vous communique un numéro de suivi ou des informations similaires, vous pouvez ajouter ces informations dans une ligne de la commande achat de type *Commentaire*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Pour créer plusieurs commandes achat pour des livraisons directes
 
-Vous pouvez également utiliser la demande achat pour créer la commande achat du fournisseur. L’avantage d’utiliser la demande achat est qu’elle peut créer des commandes achat pour toutes les livraisons directes en attente, il n’est donc pas nécessaire de créer chacune d’elles individuellement.
+Vous pouvez également utiliser la demande achat pour créer la commande achat du fournisseur. 
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Demandes achat**, puis sélectionnez le lien associé.
+L’avantage d’utiliser la demande achat est qu’elle peut créer des commandes achat pour toutes les livraisons directes en attente. Cela signifie que vous n’avez pas à créer chacune individuellement.
+
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Demandes achat**, puis choisissez le lien associé.
 2. Choisissez l’action **Livraisons directes**, puis choisissez l’option **Extraire commande vente**.
 3. Cliquez sur le bouton **OK**.
 4. Passez en revue les lignes commande achat et, dans le champ **N° fournisseur**, sélectionnez le fournisseur qui fournit les marchandises requises. 
@@ -65,7 +72,7 @@ Vous pouvez également utiliser la demande achat pour créer la commande achat d
 
 Lorsque le fournisseur a expédié les articles, vous pouvez valider la commande vente comme envoyée. Vous pouvez également valider la commande achat, mais uniquement avec l’option **Réceptionner** jusqu’à ce que la commande vente ait été facturée.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
 2. Ouvrez les commandes vente que vous avez créées dans [Pour créer une commande vente pour une livraison directe](#to-create-a-sales-order-for-drop-shipment).
 3. Dans le champ **Qté à expédier**, spécifiez la quantité de commandes à envoyer, la quantité de commandes partielles ou totales.
 4. Sélectionnez l’action **Valider** ou **Valider et envoyer**.

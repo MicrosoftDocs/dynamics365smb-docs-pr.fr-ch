@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 03/04/2022
+ms.date: 04/12/2022
 ms.author: bholtorf
-ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519240"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740326"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurer des méthodes de calcul et de validation de la taxe sur la valeur ajoutée
 
@@ -41,7 +41,7 @@ Il est recommandé d’utiliser le guide de configuration assistée Paramètres 
 
 Pour démarrer le guide de configuration assistée, procédez comme suit :
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration assistée**.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration assistée**.  
 2. Choisissez **Configuration TVA** et finalisez la procédure.
 3. Une fois la configuration assistée terminée, visitez la page **Paramètres comptabilisation TVA** et vérifiez si vous devez renseigner d’autres champs en fonction des exigences locales de votre version de [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Fonctionnalité locale dans Business Central](about-localization.md).  
 
@@ -59,7 +59,7 @@ Pour garantir que les personnes entrent des numéros d’identification intracom
 
 Pour configurer des numéros d’identification intracommunautaire, procédez comme suit :
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 2.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Pays/Régions**.
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 2.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Pays/Régions**.
 2. Choisissez le pays ou la régions, puis cliquez sur **Formats n° identif. intracomm**.
 3. Dans le champ **Formats**, définissez le format en saisissant un ou plusieurs des caractères suivants :  
 
@@ -78,7 +78,7 @@ Utilisez des codes faciles à retenir et qui décrivent le groupe comptabilisati
 
 Pour configurer un groupe comptabilisation marché TVA, procédez comme suit :
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupe compta. marché TVA**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupe compta. marché TVA**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 
 Paramétrez les groupes comptabilisation marché TVA par défaut en les liant à des groupes comptabilisation marché. [!INCLUDE[prod_short](includes/prod_short.md)] affecte automatiquement le groupe comptabilisation marché TVA lorsque vous affectez le groupe comptabilisation marché à un client, un fournisseur ou un compte général.
@@ -90,7 +90,7 @@ Il est recommandé d’utiliser des codes faciles à retenir et qui décrivent l
 
 Pour configurer un groupe comptabilisation marché TVA, procédez comme suit :
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 4.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes compta. produit TVA**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 4.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes compta. produit TVA**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 
 ## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Regrouper des groupes comptabilisation TVA dans les paramètres comptabilisation TVA
@@ -101,7 +101,7 @@ Définissez autant de combinaisons que nécessaire. Si vous voulez regrouper des
 
 Pour regrouper des paramètres comptabilisation TVA, procédez comme suit :
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 5.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilisation TVA**, puis choisissez le lien associé.
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 5.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilisation TVA**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Affecter des groupes comptabilisation TVA par défaut à plusieurs entités
@@ -119,20 +119,20 @@ Les sections suivantes décrivent comment affecter des groupes comptabilisation 
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Pour affecter des groupes comptabilisation TVA à des comptes généraux individuels
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 6.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 6.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
 2. Ouvrez la fiche **Compte général** pour le compte.  
 3. Sous le raccourci **Comptabilisation**, dans le champ **Type compta. TVA**, choisissez **Vente** ou **Achat**.  
 4. Choisissez les groupes comptabilisation TVA à utiliser pour le compte vente ou achat.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Pour affecter des groupes comptabilisation marché TVA à des clients et des fournisseurs
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 7.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Client** ou **Fournisseur**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 7.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Client** ou **Fournisseur**, puis choisissez le lien associé.  
 2. Sur la fiche **Client** ou **Fournisseur**, développez le raccourci **Facturation**.  
 3. Choisissez le groupe comptabilisation marché TVA.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Pour affecter des groupes comptabilisation produit TVA à des articles et des ressources individuels
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 8.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Article** ou **Ressource**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 8.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Article** ou **Ressource**, puis choisissez le lien associé.  
 2. Exécutez l’une des opérations suivantes :  
 
     * Sur la fiche **Article**, développez le raccourci **Prix et validation**, puis sélectionnez **Afficher plus** pour afficher le champ **Groupe compta. produit TVA**.  
@@ -151,7 +151,7 @@ Vous pouvez modifier ou supprimer une clause TVA, et les modifications que vous 
 
 ### <a name="to-set-up-vat-clauses"></a>Pour configurer des clauses TVA
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 9.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clauses TVA**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 9.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clauses TVA**, puis choisissez le lien associé.  
 2. Sur la page **Clauses TVA**, créez une ligne.  
 3. Dans le champ **Code**, entrez un identificateur pour la clause. Vous utilisez ce code pour affecter la clause à des groupes comptabilisation TVA.  
 4. Dans le champ **Description**, saisissez le texte d’exonération de TVA que vous souhaitez afficher sur les documents pouvant inclure la TVA. Dans le champ **Description 2**, entrez du texte supplémentaire, si nécessaire. Le texte sera affiché sur de nouvelles lignes.
@@ -162,12 +162,12 @@ Vous pouvez modifier ou supprimer une clause TVA, et les modifications que vous 
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Pour affecter une clause TVA à un paramètre comptabilisation TVA
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 10.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilisation TVA**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 10.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilisation TVA**, puis choisissez le lien associé.  
 2. Dans la colonne **Clause TVA**, choisissez la clause à utiliser pour chaque paramètre comptabilisation TVA auquel elle s’applique.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Pour spécifier des traductions pour les clauses TVA
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 11.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clauses TVA**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 11.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clauses TVA**, puis choisissez le lien associé.  
 2. Sélectionnez l’option **Traductions**.  
 3. Dans le champ **Code langue**, sélectionnez la langue de traduction.  
 4. Dans les champs **Description** et **Description 2**, saisissez les traductions des descriptions. Ce texte s’affiche dans les documents état de TVA traduits.  
@@ -178,9 +178,9 @@ Utilisez la fonction *TVA à l’importation* pour valider un document dont le m
 
 Pour configurer des codes pour la TVA à l’importation, procédez comme suit :  
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 12.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes compta. produit TVA**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 12.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes compta. produit TVA**, puis choisissez le lien associé.  
 2. Sur la page Groupes compta. produit TVA, configurez un groupe comptabilisation produit TVA pour la TVA à l’importation.  
-3. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 13.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilisation TVA**, puis choisissez le lien associé.  
+3. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 13.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilisation TVA**, puis choisissez le lien associé.  
 4. Sur la page Paramètres compta. TVA, créez une ligne ou utilisez l’un des groupes comptabilisation marché TVA existants en combinaison avec le nouveau groupe comptabilisation produit TVA créé pour la TVA à l’importation.  
 5. Dans le champ **Mode calcul TVA**, sélectionnez **Exclusivement TVA**.  
 6. Dans le champ **Compte TVA achat**, indiquez le compte général à utiliser pour valider la TVA à l’importation. Tous les autres comptes sont facultatifs.  
@@ -218,13 +218,22 @@ Vous devez configurer des informations sur la façon dont les autorités fiscale
 
 ## <a name="see-also"></a>Voir aussi
 
-[Paramétrage des modèles de déclaration de TVA et des noms de déclaration de TVA](finance-how-setup-vat-statement.md)  
-[Configuration de la TVA sur encaissement](finance-setup-unrealized-vat.md)  
+[Paramétrer des modèles de déclaration de TVA et des noms de déclaration de TVA](finance-how-setup-vat-statement.md)  
+[Configurer la TVA sur encaissement](finance-setup-unrealized-vat.md)  
 [Déclarer la TVA à une autorité fiscale](finance-how-report-vat.md)  
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
 [Utiliser l’outil de modification du taux de TVA](finance-how-use-vat-rate-change-tool.md)  
 [Vérifier les numéros d’identification intracommunautaire](finance-how-validate-vat-registration-number.md)  
 [Fonctionnalités locales dans Business Central](about-localization.md)  
+[Déclaration de TVA dans la version allemande](LocalFunctionality/Germany/vat-reporting.md)  
+[TVA belge](LocalFunctionality/Belgium/belgian-vat.md)  
+[TVA, Italie](LocalFunctionality/Italy/italian-vat.md)  
+[Paramétrer les déclarations TVA et ICP électroniques dans la version néerlandaise](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)  
+[États de TVA dans la version espagnole](LocalFunctionality/Spain/vat-reports.md)  
+[Configurer la validation de la taxe sur les biens et services dans la version australienne](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)  
+[TVA dans la version tchèque](LocalFunctionality/Czech/finance-vat.md)  
+[Déclaration de TVA dans la version norvégienne](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Déclaration de la taxe sur les biens/services et de la taxe de vente harmonisée au Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

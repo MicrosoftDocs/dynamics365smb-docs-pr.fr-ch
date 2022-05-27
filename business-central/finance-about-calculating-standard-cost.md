@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c7be7f69c2b5d2c71b54ac3046900474e0c86f5f
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149168"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729926"
 ---
 # <a name="about-calculating-standard-cost"></a>À propos du calcul des coûts standard
 De nombreuses sociétés manufacturières sélectionnent une base d’évaluation du coût standard. Ceci est également vrai pour les sociétés qui effectuent une fabrication légère, comme l’assemblage et le montage. Un système de coûts standard détermine le coût unitaire du stock en fonction d’un coût historique ou prévu plausible. L’analyse des données précédentes et futures en termes de coût peut alors offrir une base pour l’estimation des coûts standard. Ces coûts sont gelés tant que leur modification n’est pas décidée. Le coût réel lié à la production d’un produit peut varier par rapport aux coûts standard estimés. À des fins de contrôle de gestion, le coût réel est comparé au coût standard pour un article spécifique et les différences, ou *écarts*, sont identifiées et analysées.  
@@ -78,7 +78,7 @@ Pour calculer le coût opératoire standard, vous devez déterminer les délais 
 Vous configurez les taux établis pour chaque type de délai pour chaque poste de charge ou centre de charge dans une gamme individuelle.  
 
 > [!NOTE]  
->  Si les délais d’exécution s’appliquent à chaque unité d’article produit, les délais de configuration s’appliquent pour chaque lot. Aussi, vous devez distribuer au prorata le délai de configuration de la gamme pour chaque opération par rapport à la taille lot. Vous spécifiez la taille lot dans le champ correspondant sur le raccourci **Commandes** de la fiche article.  
+>  Si les délais d’exécution s’appliquent à chaque unité d’article produit, les délais de configuration s’appliquent pour chaque lot. Aussi, vous devez distribuer au prorata le délai de configuration de la gamme pour chaque opération par rapport à la taille lot. Vous spécifiez la taille lot dans le champ correspondant sur le raccourci **Réapprovisionnement** de la page **Fiche article**.  
 
 Pour spécifier le délai de configuration dans la gamme à des fins de planification, sans toutefois inclure cette dépense dans le calcul des coûts standard, désactivez le champ **Inclure coût préparation** de la page **Paramètres production**.  
 

@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2530b6a5d562cfd22abd8ae097408388034a5711
-ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
+ms.openlocfilehash: d5b1358166f8d26a62da79059a73948bcd7b9784
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8485018"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740352"
 ---
 # <a name="set-up-and-report-intrastat"></a>Configurer et enregistrer un état intracommunautaire
 
@@ -53,7 +53,7 @@ Vous pouvez exporter les écritures vers un fichier que vous pouvez envoyer à v
 > [!Note]
 > Nous vous recommandons de configurer un seul lot de feuilles intracommunautaires par mois.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles feuille intracomm.**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles feuille intracomm.**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Créez un modèle pour chaque formulaire de D.E.B que vous utilisez.  
 3. Pour créer des lots, sélectionnez l’action **Lots**.  
 4. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Créez un modèle pour chaque formulaire de D.E.B que vous utilisez. 
@@ -63,14 +63,14 @@ Vous pouvez exporter les écritures vers un fichier que vous pouvez envoyer à v
 
 ### <a name="to-set-up-transport-methods"></a>Pour configurer des modes de transport
 
-1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modes de transport**, puis choisissez le lien associé.  
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modes de transport**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Pour configurer les champs de la D.E.B. obligatoires
 
 Dans certains pays, tels que l’Espagne et le R-U, les autorités nécessitent que les états Intracomm. comprennent, par exemple, le mode d’expédition des achats ou d’autres valeurs lorsque les ventes sont supérieures à un certain seuil. Sur la page **Configuration intracomm.**, vous pouvez sélectionner pour faire **Paramètres liste de contrôle de la déclaration d’échanges de biens** pour définir les champs obligatoires sur la page **Feuille intracomm.**.
 
-1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration intracomm.**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration intracomm.**, puis choisissez le lien associé.
 2. Choisissez l’action **Paramètres liste de contrôle de la déclaration d’échanges de biens**.
 3. Sur la page **Paramètres liste de contrôle de la déclaration d’échanges de biens**, cliquez dans **Nom de champ** pour prélever le champ de déclaration d’échanges de biens que vous souhaitez rendre obligatoire.
 
@@ -82,7 +82,7 @@ Notamment pour les entreprises tchèques, vous devez également paramétrer des 
 
 Tous les articles que vous achetez ou vendez doivent avoir un code marchandise.  
 
-1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes marchandise.**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes marchandise.**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Pour affecter un code marchandise à un article, accédez à la page **Fiche article**, développez le raccourci **Coûts et validation**, puis saisissez le code dans le champ **Code marchandise**.   
 
@@ -92,7 +92,7 @@ Notamment pour les entreprises italiennes, vous devez également paramétrer des
 
 #### <a name="to-set-up-transaction-nature-codes"></a>Pour configurer des codes nature de transaction
 
-1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes nature de transaction.**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes nature de transaction.**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
@@ -104,7 +104,7 @@ Après avoir renseigné la feuille intracommunautaire, vous pouvez exécuter l�
 
 ### <a name="to-fill-in-intrastat-journals"></a>Pour renseigner des feuilles intracommunautaires
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille intracomm.**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille intracomm.**, puis choisissez le lien associé.  
 2. Sur la page **Feuille intracomm.**, dans le champ **Nom de la feuille**, sélectionnez la feuille concernée, puis sélectionnez **OK**.  
 3. Choisissez l’action **Proposer lignes**. Les champs **Date début** et **Date fin** contiennent déjà les dates spécifiées sur la feuille pour la période statistique.  
 4. Dans le champ **% régulation coût**, entrez un pourcentage pour couvrir le transport et l’assurance. Lorsque vous saisissez un pourcentage, la valeur du champ **Valeur statistique** de la feuille augmente proportionnellement.  
@@ -117,7 +117,7 @@ Le traitement par lots récupère toutes les écritures article de la période s
 
 ### <a name="to-modify-intrastat-journals-lines"></a>Pour modifier les lignes des journaux Échanges intracommunautaires
 
-1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille intracomm.**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille intracomm.**, puis choisissez le lien associé.  
 2. Sur la page **Feuille intracomm.**, dans le champ **Nom de la feuille**, sélectionnez la feuille concernée, puis sélectionnez **OK**.  
 3. Utilisez le volet de filtre utilisateur pour filtrer les lignes du journal Échanges intracommunautaires en fonction de certains critères. Par exemple, filtrez les champs **Numéro de TVA du partenaire** avec la valeur *QV999999999999*.
 4. Choisissez l’icône **Partager** ![Partager une page dans une autre application.](media/share-icon.png) et sélectionnez **Modifier dans Excel**
@@ -125,13 +125,13 @@ Le traitement par lots récupère toutes les écritures article de la période s
 6. Publiez les modifications que vous avez apportées dans Excel dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!Note]
-> Dans les versions de [!INCLUDE[prod_short](includes/prod_short.md)] qui ne prennent pas en charge [**Modifier dans Excel**](across-work-with-excel.md#edit-in-excel) pour les journaux, vous pouvez [créer des packages de configuration](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) pour exporter et importer des lignes de journal Échanges intracommunautaires vers Excel. 
+> Dans les versions de [!INCLUDE[prod_short](includes/prod_short.md)] qui ne prennent pas en charge [**Modifier dans Excel**](across-work-with-excel.md#edit-in-excel) pour les feuilles, créez des packages de configuration pour exporter et importer des lignes feuille intracommunautaire vers Excel. Pour plus d’informations, voir [Migrer des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le contenu d’administration.
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Enregistrer un état intracommunautaire sur un formulaire ou un fichier
 
 Pour obtenir les informations requises sur le formulaire de D.E.B. à partir des autorités statistiques, vous devez imprimer l’état **D.E.B. : Formulaire**. Avant d’effectuer cette opération, vous devez préparer la feuille intracommunautaire et la renseigner. Si vous avez à la fois des transactions d’achat et de vente, vous devez compléter un formulaire distinct pour chaque type et donc imprimer l’état deux fois.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles intracomm.**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles intracomm.**, puis choisissez le lien associé.  
 2. Sur la page **Feuille intracomm.**, choisissez la feuille concernée dans le champ **Nom de la feuille**.  
 3. Si ce n’est déjà fait, renseignez la feuille manuellement ou sélectionnez l’action **Proposer lignes**.  
 4. Choisissez l’action **Imprime la feuille intracomm.**.  
@@ -142,7 +142,7 @@ Pour obtenir les informations requises sur le formulaire de D.E.B. à partir des
 
 Vous pouvez envoyer la déclaration d’échanges de biens en tant que fichier. Avant de créer le fichier, vous pouvez imprimer la liste de contrôle contenant les mêmes informations que le fichier.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille intracomm.**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille intracomm.**, puis choisissez le lien associé.  
 2. Sur la page **Feuille intracomm.**, sélectionnez la feuille concernée dans le champ **Nom de la feuille**.  
 3. Si ce n’est déjà fait, renseignez la feuille manuellement ou sélectionnez l’action **Proposer lignes**.  
 4. Choisissez l’action **Créer fichier**.  
@@ -154,7 +154,7 @@ Vous pouvez envoyer la déclaration d’échanges de biens en tant que fichier. 
 
 Parce que vous devez soumettre une D.E.B. chaque mois et créer une feuille pour chaque état, il peut donc exister de nombreuses feuilles. Les lignes feuille ne sont pas supprimées automatiquement. Vous pouvez réorganiser régulièrement les feuilles. Pour cela, il suffit de supprimer les feuilles dont vous n’avez plus besoin. Les lignes de ces feuilles sont également supprimées.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles intracomm.**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles intracomm.**, puis choisissez le lien associé.  
 2. Pour afficher les options, choisissez le champ **Nom de la feuille**.  
 3. Cliquez sur les feuilles à supprimer, puis sélectionnez le bouton **Supprimer**.  
 
@@ -167,6 +167,7 @@ Ajoutez tous les codes que vous utilisez dans la page **Nomenclatures produit**.
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
+
 [Gestion financière](finance.md)
 
 

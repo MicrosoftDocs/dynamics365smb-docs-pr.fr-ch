@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67536b129986343d67c2bc52cc3db8450e177d67
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520168"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729870"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Enregistrer les prix de vente spéciaux et les remises
 > [!NOTE]
@@ -52,7 +52,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 #### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience/)
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
 2. Choisissez le client, puis sélectionnez l’action **Prix**.
 3. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Renseignez une ligne pour chaque combinaison qui accorde un prix de vente spécial au client.
 
@@ -60,7 +60,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 Par défaut, l’état des nouvelles listes de prix est Brouillon. Les projets de tarifs ne sont pas inclus dans les calculs de prix. Lorsque vous avez terminé d’ajouter des lignes et que vous souhaitez commencer à utiliser les prix, remplacez le statut par Actif.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.
 2. Choisissez le client, puis sélectionnez l’action **Listes prix vente**. 
 3. Sélectionnez **Nouveau** pour créer une liste prix vente.
 4. Sur les raccourcis **Général** et **Taxes**, complétez les champs, comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -95,7 +95,14 @@ Lorsque vous activez la mise à jour de la fonctionnalité **Nouvelle expérienc
 > [!NOTE]
 > Si les prix sont définis uniquement sur les fiches d’articles ou de ressources, les tarifs par défaut ne seront pas renseignés avec ces prix au moment de la mise à jour des données de fonctionnalité. Cependant, vous pouvez ouvrir l’une des listes de prix par défaut ou la page Feuille de calcul des prix et utiliser l’action **Suggérer des lignes** pour ajouter les prix fixés sur les fiches article ou ressource. 
 
-* Pour utiliser les tarifs vente, désactivez-le. Les prix existants seront convertis en une nouvelle liste de prix pour chaque combinaison de client, groupe de clients ou campagne, ainsi que les dates de début et de fin, et les devises. Si vous disposez de plusieurs combinaisons, vous aurez plusieurs listes de prix.
+* Pour utiliser les tarifs vente, désactivez-le. Les prix existants sont convertis en une nouvelle liste de prix pour chacun combinaison des éléments suivants : 
+
+* Client
+* Groupe de clients ou campagne
+* Dates de début et de fin
+* Devises 
+
+Si vous disposez de plusieurs combinaisons, vous aurez plusieurs listes de prix.
 
 Si vous avez déjà activé la nouvelle expérience de tarification, vous pouvez créer manuellement des tarifs par défaut ou spécifier une liste de prix existante par défaut. Pour définir une liste de prix existante par défaut, activez le bouton de basculement **Autoriser la mise à jour des valeurs par défaut** sur la liste de prix. Ensuite, sur les pages **Paramètres vente**, **Paramètres achats**, ou **Paramètres projets**, définissez les tarifs comme valeurs par défaut.
 
@@ -118,7 +125,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 Pour copier des prix de vente, comme les prix appliqués à un client et qui doivent être appliqués à tout un groupe de clients, vous devez lancer le traitement par lots **Suggérer prix vente**. traitement par lots sur la page **Feuille prix vente**.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prix vente**, puis choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prix vente**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Suggérer prix vente** .  
 3. Sur le raccourci **Prix vente**, renseignez les champs **Type vente** et **Code vente** avec les prix de vente d’origine à copier.  
 4. Dans la partie supérieure de la page de demande, indiquez dans les champs **Type vente** et **Code vente** le type et le nom sous lesquels vous souhaitez copier les prix de vente.  
@@ -129,13 +136,14 @@ Pour copier des prix de vente, comme les prix appliqués à un client et qui doi
    > Ce traitement par lots crée uniquement des propositions ; il n’effectue pas les modifications proposées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c’est-à-dire les insérer sur la page **Prix vente**, choisissez l’action **Implémenter des modifications de prix**, sur la page **Feuille prix vente**.
 
 #### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience/)  
+Vous pouvez spécifier si la nouvelle liste de prix utilise les paramètres de l’en-tête de la liste que vous copiez ou les paramètres de la nouvelle liste vers laquelle vous copiez. Pour utiliser les paramètres de la liste de prix dans laquelle vous copiez les prix, activez **Utiliser les valeurs par défaut de la cible**.
 
-1. Choisissez l’icône ![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Listes prix vente**, puis choisissez le lien associé. 
+1. Choisissez l’icône ![ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Listes prix vente**, puis choisissez le lien associé. 
 2. Choisissez la liste de prix à copier, puis choisissez **Copier les lignes**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
    > [!NOTE]
-   > Vous ne pouvez pas avoir deux lignes ayant les mêmes paramètres mais des prix différents. Si cela se produit, un message s’affiche lorsque vous activez une liste de prix. Vous pouvez choisir le prix à utiliser en ouvrant la liste et en supprimant le prix incorrect.  
+   > Vous ne pouvez pas avoir deux articles qui ont les mêmes paramètres mais des prix différents. Si cela se produit, un message s’affiche lorsque vous activez la liste de prix. Vous pouvez choisir le prix à utiliser en ouvrant la liste et en supprimant le prix incorrect.  
   
 ---
 
@@ -146,10 +154,10 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 Pour mettre à jour en bloc des prix article, tels que l’augmentation de tous les prix article par un certain pourcentage, vous pouvez renseigner la page Feuille prix vente à l’aide des traitements par lots suivants :
 
-* **Suggérer prix vente** suggère des modifications en appliquant un facteur d’ajustement aux prix de vente existants ou en copiant les accords de prix de vente existants vers d’autres clients, groupes de prix client ou campagnes de vente.
-* **Suggérez prix article** suggère des modifications en appliquant un facteur d’ajustement aux prix unitaires existants sur les fiches article, ou en suggérant des prix pour de nouvelles combinaisons de devises, d’unités de mesure, etc. Les prix unitaires des articles ne sont pas modifiés par ce traitement par lots.  
+* **Suggérer prix vente** suggère des modifications de deux manières. Soit en appliquant un facteur d’ajustement aux prix de vente existants, soit en copiant les accords de prix de vente existants vers d’autres clients, groupes prix client ou campagnes de vente.
+* **Suggérez prix article** suggère des modifications de deux manières. Soit en appliquant un facteur d’ajustement aux prix unitaires existants sur les fiches article, soit en suggérant des prix pour les nouvelles combinaisons de monnaie, d’unités de mesure, etc. Les prix unitaires des articles ne sont pas modifiés par ce traitement par lots.  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prix vente**, puis choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prix vente**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Suggérer prix article** .  
 3. Sur le raccourci **Article**, renseignez le champ **N°**, ou **Groupe comptabilisation de stock** ou d’autres champs avec les prix article d’origine à mettre à jour.  
 4. Dans la partie supérieure de la page de demande, indiquez dans les champs **Type vente** et **Code vente** le type et le nom sous lesquels vous souhaitez copier les prix de vente.
@@ -163,14 +171,14 @@ Pour mettre à jour en bloc des prix article, tels que l’augmentation de tous 
 Pour mettre à jour les prix de plusieurs articles, vous devez créer une nouvelle liste de prix, puis copier les lignes d’une liste de prix existante. Lorsque vous copiez les lignes, vous pouvez utiliser des filtres pour spécifier les éléments à copier, et vous pouvez spécifier un nombre entier ou décimal dans le champ **Facteur appliqué** pour augmenter ou diminuer les prix. Le statut de la liste de prix doit être **Brouillon**. Si nécessaire, vous pouvez alors désactiver l’ancienne liste de prix.
 
 > [!NOTE]
-> Vous ne pouvez pas avoir deux lignes ayant les mêmes paramètres mais des prix différents. Si cela se produit, un message s’affiche lorsque vous activez une liste de prix. Vous pouvez choisir le prix à utiliser en ouvrant la liste et en supprimant le prix incorrect.  
+> Vous ne pouvez pas avoir deux lignes qui ont les mêmes paramètres mais des prix différents. Si cela se produit, un message s’affiche lorsque vous activez une liste de prix. Vous pouvez choisir le prix à utiliser en ouvrant la liste et en supprimant le prix incorrect.  
 
 ---
 
 ## <a name="best-price-calculation"></a>Calcul du meilleur prix
-Après avoir enregistré les prix spéciaux et les remises de ligne pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] veille à ce que vos profits soient toujours optimaux. Il calcule le meilleur prix sur les documents de vente et d’achat et sur les lignes de journal des travaux et des articles.
+Après avoir enregistré des prix spéciaux et des remises pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule le meilleur prix sur les documents vente et achat, et sur les lignes projet et lignes feuille article.
 
-Le meilleur prix est le prix le plus bas autorisé associé à la remise de ligne la plus élevée autorisée à une date donnée. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule les meilleurs prix lorsqu’il insère le prix unitaire et le pourcentage de remise de ligne pour des articles dans le nouveau document et les lignes feuille.
+Le meilleur prix est le prix le plus bas avec la remise de ligne la plus élevée autorisée à une date donnée. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule les meilleurs prix lorsqu’il ajoute les prix unitaires et les pourcentages de remise de ligne sur les lignes de document et les lignes feuille.
 
 > [!NOTE]  
 > Voici une description du calcul du meilleur prix pour la vente. Le calcul est le même pour les achats.
@@ -199,7 +207,7 @@ Pour pouvoir utiliser les remises facture avec les ventes, vous devez spécifier
 
 Sur la page **Paramètres ventes**, activez le bouton de basculement **Calculer remise facture** pour que les remises facture soient calculées automatiquement.  
 
-Pour chaque client, vous pouvez spécifier si vous aller offrir des remises facture si les critères sont remplis pour une facture. Par exemple, si le montant de la facture est suffisamment important. Les remises facture peuvent être définies en devise locales pour les clients nationaux ou en devise étrangère pour les clients étrangers.  
+Vous pouvez spécifier si vous proposerez des remises facture dès lors qu’une facture remplit certains critères pour chaque client. Par exemple, si le montant de la facture est suffisamment important. Les remises facture peuvent être définies en devise locales pour les clients nationaux ou en devise étrangère pour les clients étrangers.  
 
 Vous pouvez associer les pourcentages de remise à des montants de facture spécifiques sur la page **Remises facture client** pour chaque client. Vous pouvez entrer le nombre de pourcentages de votre choix. Chaque client peut avoir sa propre page, ou vous pouvez lier plusieurs clients à la même page.  
 
@@ -219,7 +227,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 #### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience/)  
 
-1. Choisissez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![en forme d’ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche client appropriée, puis sélectionnez l’action **Remises ligne**.
 3. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Renseignez une ligne pour chaque combinaison qui accorde une remise ligne vente au client.
 
@@ -230,7 +238,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 #### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience/)  
 
-1. Choisissez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![en forme d’ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
 2. Choisissez le client, puis sélectionnez l’action **Listes prix vente**.
 3. Ouvrez la liste de prix pour laquelle vous souhaitez spécifier la remise ligne.
 4. Créez une nouvelle ligne ou choisissez une ligne existante, puis remplissez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -248,7 +256,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Pour configurer une remise facture pour un client
 Après avoir décidé quels clients peuvent faire l’objet de remises facture, entrez le code remise facture sur les pages Fiche client. Ensuite, configurez les conditions pour chaque code.
 
-1. Choisissez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![en forme d’ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
 2. Ouvrez la page client d’un client pouvant faire l’objet de remises facture.
 3. Dans le champ **Code remise facture**, sélectionnez un code pour les conditions de remise facture appropriées à utiliser pour calculer les remises facture pour le client. <!--Looks like I can only choose customers in this list-->
 

@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 03/22/2022
 ms.search.form: 1680, 1811, 5076
 ms.author: bholtorf
-ms.openlocfilehash: fc755362a5b29cca9eb8e8e403374e173cff3630
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e14e3b353cd06d348de36c23caa4bcfb1981a6e5
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516150"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729952"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Suivre les échanges de messages électroniques entre les vendeurs et les contacts
 Tirez le meilleur parti des communications entre les vendeurs et les clients en transformant les échanges de courriers électroniques en opportunités exploitables. [!INCLUDE[prod_short](includes/prod_short.md)] peut utiliser Exchange Online pour conserver un journal des messages entrants et sortants. Vous pouvez afficher et analyser le contenu de chaque message sur la page **Écritures journal interaction**.
@@ -67,7 +67,7 @@ Les règles de flux de messagerie recherchent des conditions spécifiques sur le
 
 ---
 
-## <a name="setting-up-prod_short-to-log-email-messages"></a>Configuration de [!INCLUDE[prod_short](includes/prod_short.md)] pour enregistrer les messages électroniques
+## <a name="set-up-prod_short-to-log-email-messages"></a>Configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour enregistrer les messages électroniques
 Ces étapes sont les mêmes pour les expériences actuelles et nouvelles.
 
 Commencez avec la connexion à la messagerie en deux étapes :
@@ -89,14 +89,27 @@ Commencez avec la connexion à la messagerie en deux étapes :
 - Affichez le contenu du message électronique échangé en sélectionnant **Traitement**, puis **Afficher les Documents joints**.
 - Transformez un échange de courrier électronique en opportunité de vente. Si une entrée semble prometteuse, vous pouvez la transformer en opportunité, puis gérer son évolution vers une vente. Pour transformer un échange de courrier électronique en opportunité, choisissez l’entrée, puis **Traiter**, et **Créer opportunité**. Pour plus d’informations, voir [Gérer des opportunités de vente](marketing-manage-sales-opportunities.md).
 
-## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Connexion des versions locales à Microsoft Exchange
+## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Limites des boîtes aux lettres et des dossiers dans Exchange Online
+Il existe des limites de boîtes aux lettres et de dossiers dans Exchange Online, telles que les limites de tailles de dossier et le nombre de messages. Pour plus d’informations, voir [Limites pour Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) et [Limites pour les dossiers publics dans Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] stocke les messages électroniques enregistrés dans un dossier dans Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] stocke également un lien vers chaque message enregistré. Les liens ouvrent les messages enregistrés dans Exchange Online à partir des pages Écritures journal interaction, Fiche contact et Fiche vendeurs dans [!INCLUDE[prod_short](includes/prod_short.md)]. Si un message enregistré est déplacé dans un autre dossier, le lien est rompu. Par exemple, un message peut être déplacé manuellement ou Exchange Online peut démarrer automatiquement la fonction AutoSplit lorsqu’une limite de stockage est atteinte.
+
+Les étapes suivantes peuvent vous aider à éviter de rompre les liens vers les messages dans Exchange Online.
+
+1. Ne déplacez pas les messages existants vers un autre dossier après avoir modifié les paramètres de configuration de la connexion à la messagerie. En gardant les messages existants là où ils se trouvent, vous conservez les liens. Les liens vers les messages dans le nouveau dossier sont valides.
+2. Évitez d’atteindre les limites des boîtes aux lettres et des dossiers. Si vous êtes sur le point d’atteindre une limite, procédez comme suit :
+    1. Configurez une nouvelle boîte aux lettres partagée (nouvelle expérience) ou un nouveau dossier partagé (expérience actuelle) dans Exchange Online.
+    2. Mettez à jour les règles de flux de messagerie dans Exchange Online.
+    3. Mettre à jour la configuration de la connexion à la messagerie dans Business Central en conséquence
+
+## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Se connecter aux versions locales vers Microsoft Exchange
 
 Vous pouvez vous connecter à [!INCLUDE[prod_short](includes/prod_short.md)] sur site vers Exchange sur site ou Exchange Online pour la connexion à la messagerie. Pour les deux versions d’Exchange, les paramètres de connexion sont disponibles sur la page **Configuration marketing**. Pour Exchange Online, vous pouvez également utiliser un guide de configuration assistée.
 
 > [!IMPORTANT]
 > La nouvelle expérience ne prend pas en charge de connexion à Exchange sur site. Si vous devez utiliser Exchange sur site, n’activez pas la mise à jour des fonctionnalités pour la nouvelle expérience.
 
-## <a name="connecting-to-exchange-on-premises"></a>Connexion à Exchange sur site
+## <a name="connect-to-exchange-on-premises"></a>Se connecter à Exchange sur site
 ## <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience)
 Pour connecter [!INCLUDE[prod_short](includes/prod_short.md)] sur site à Exchange sur site, sur la page **Configuration marketing**, vous pouvez utiliser **De base** comme **Type d’identification**, puis entrez les informations d’identification pour le compte d’utilisateur pour Exchange sur site. Puis activez le bouton bascule **Activé** pour commencer à enregistrer les e-mails.
 
@@ -105,7 +118,7 @@ La nouvelle expérience ne prend pas en charge les connexions à Exchange sur si
 
 ---
 
-## <a name="connecting-to-exchange-online"></a>Connexion à Exchange Online
+## <a name="connect-to-exchange-online"></a>Se connecter à Exchange Online
 Pour se connecter à Exchange Online, vous devez enregistrer une application dans Azure Active Directory. Vous devez fournir l’ID de l’application, le secret du coffre de clés et l’URL de redirection à utiliser. L’URL de redirection est pré-définie et devrait fonctionner pour la plupart des installations. Pour plus d’informations, consultez [Enregistrer une application dans Azure AD pour se connecter de Business Central à Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 Vous devez aussi utiliser **OAuth2** comme **Type d’identification**. Vous devez également enregistrer une demande dans Azure Active Directory. Vous devez fournir l’ID de l’application, le secret du coffre de clés et l’URL de redirection à utiliser. L’URL de redirection est pré-remplie et devrait fonctionner pour la plupart des installations. Pour plus d’informations, consultez Pour enregistrer une application dans Azure AD pour se connecter de Business Central à Exchange Online ci-dessous.
@@ -188,11 +201,11 @@ Si vous n’utilisez pas Azure Active Directory pour gérer les identités et le
 
 ## <a name="to-stop-logging-email"></a>Pour arrêter la connexion à la messagerie
 ## <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience)
-1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration marketing**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration marketing**, puis choisissez le lien associé.
 1. Désactivez le bouton bascule **Activé**.
 
 ## <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience)
-1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexion à la messagerie**, puis sélectionnez le lien associé.
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexion à la messagerie**, puis sélectionnez le lien associé.
 2. Désactivez le bouton bascule **Activé**.
 
 ---
@@ -206,14 +219,16 @@ Désactivez votre configuration actuelle, modifiez l’utilisateur sur la page *
 ## <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience)
 ### <a name="prod_short-online"></a>[!INCLUDE[prod_short](includes/prod_short.md)] Online
 1. Connectez-vous à [!INCLUDE[prod_short](includes/prod_short.md)] avec le compte utilisé par la tâche planifiée pour se connecter à une boîte aux lettres partagée et traiter les e-mails. Ce compte doit avoir accès à [!INCLUDE[prod_short](includes/prod_short.md)] et Exchange Online.
-2. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexion à la messagerie**, puis sélectionnez le lien associé. 
+2. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexion à la messagerie**, puis sélectionnez le lien associé. 
 3. Choisissez **En rapport**, puis **Écriture file d’attente des travaux**.
 4. Redémarrez la tâche de **Connexion à la messagerie**.
 
 ### <a name="prod_short-on-premises"></a>[!INCLUDE[prod_short](includes/prod_short.md)] sur site
-1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexion à la messagerie**, puis sélectionnez le lien associé. 
+1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexion à la messagerie**, puis sélectionnez le lien associé. 
 2. Choisissez **Actions**, puis **Renouveler le jeton**.
 3. Connectez-vous à l’aide d’un compte Exchange Online que la tâche planifiée va utiliser le compte pour se connecter à une boîte aux lettres partagée et traiter les e-mails.
+
+
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion des relations](marketing-relationship-management.md)
