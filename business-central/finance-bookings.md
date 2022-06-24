@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.search.form: 1638, 6702, 6704
-ms.date: 06/16/2021
+ms.date: 05/20/2022
 ms.author: edupont
-ms.openlocfilehash: c0abb4d4389dd3896f1aceedb42d51aca0e61000
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4423b51e7cac952bb2abcf41f9e9364d7bc098c0
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139588"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799731"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Facturation en vrac pour Microsoft Bookings dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -28,7 +28,7 @@ Pour connecter votre [!INCLUDE[prod_short](includes/prod_short.md)] à Réservat
 Par exemple, si vous souhaitez synchroniser des clients entre Réservations et [!INCLUDE[prod_short](includes/prod_short.md)], vous devez spécifier le modèle par défaut à utiliser pour ajouter de nouveaux clients à [!INCLUDE[prod_short](includes/prod_short.md)] selon les clients de votre société de Réservations.  
 
 > [!NOTE]
-> L’applications Bookings est conçue pour réserver des rendez-vous pour des clients individuels, plutôt que des sociétés. La synchronisation avec [!INCLUDE[prod_short](includes/prod_short.md)], par conséquent, synchronise uniquement les contacts du client de type « Personne ». Un adresse électronique est également nécessaire pour synchroniser le contact.  
+> L’applications Bookings est conçue pour réserver des rendez-vous pour des clients individuels, plutôt que des sociétés. La synchronisation avec [!INCLUDE[prod_short](includes/prod_short.md)], par conséquent, synchronise uniquement les contacts du client de type *Personne*. Un adresse électronique est également nécessaire pour synchroniser le contact.  
 
 De même, si vous souhaitez synchroniser des articles service entre Bookings et [!INCLUDE[prod_short](includes/prod_short.md)], vous devez spécifier le modèle par défaut à utiliser pour ajouter de nouveaux articles service à [!INCLUDE[prod_short](includes/prod_short.md)] selon les services de notre société Bookings.  
 
@@ -40,6 +40,9 @@ De même, si vous souhaitez synchroniser des articles service entre Bookings et 
 Lorsqu’il est temps d’envoyer les factures pour les réservations terminées, vous consultez la page **Réservations non facturées**. Selon le nombre de fois où les informations sont synchronisées, la liste est long ou courte. Vous pouvez créer des factures pour toutes les réservations de la liste ou une réservation à la fois. Vous pouvez sélectionner une ou plusieurs écritures dans la liste et facturer celles-ci uniquement.  
 
 Le prise en charge de la facturation des rendez-vous dans Réservations est plus simple que le flux de travail plus complet consistant à utiliser des devis, des commandes vente, et des factures vente. Pour plus d’informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md). Vous pouvez choisir de vendre vos services à l’aide de [!INCLUDE[prod_short](includes/prod_short.md)] ou d’utiliser Réservations, selon les besoins de votre activité.  
+
+> [!NOTE]
+> En mai 2022, nous avons découvert un problème d’intégration avec Réservations. Actuellement, la synchronisation des réservations vers [!INCLUDE [prod_short](includes/prod_short.md)] vous oblige à associer manuellement les factures aux clients dans [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="see-also"></a>Voir aussi
 

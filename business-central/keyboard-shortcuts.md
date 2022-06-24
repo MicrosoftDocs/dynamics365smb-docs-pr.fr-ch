@@ -1,20 +1,20 @@
 ---
 title: Raccourcis clavier
 description: Liste complète des combinaisons de raccourcis clavier pour utiliser vos données avec efficacité.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 01/27/2022
-ms.author: bholtorf
-ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 0e5ad41e6109d53a998f1c3ad8280b92a602a50e
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517988"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799705"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -51,14 +51,15 @@ Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder aux 
 |Alt+Maj+F2|Basculer entre **Détails** et **Documents joints** dans le volet Récapitulatif.|
 |Alt+O|Ajouter une nouvelle note pour l’enregistrement sélectionné, même si le volet Récapitulatif n’est pas ouvert.|
 |Alt+Q<br />(Ctrl+Option+Q)|Ouvrir la fenêtre **Tell Me**. Pour plus d’informations, voir [Recherche de pages et d’informations avec Tell Me](ui-search.md).|
+|Ctrl+Alt+Q<br />(Ctrl+Option+Cmd+Q)|Ouvrez la page **Rechercher des écritures** pour rechercher des documents et des écritures liés les uns aux autres en fonction d’informations communes, comme le numéro de document ou la date de publication. Pour plus d’informations, voir [Recherche d’écritures associées pour les documents validés](ui-find-entries.md)|
 |Alt+N |Ouvrir une page pour créer un nouvel enregistrement. (Semblable au choix des actions **Nouveau** et **+**.)|
 |Alt+Maj+N |Fermer une page nouvellement créée et en ouvrir une nouvelle pour créer un enregistrement. De même, Alt + F9 valide un document et en crée un nouveau.|
 |Alt+T|Ouvrez la page **Mes paramètres**.|
-|Alt+Flèche vers la droite|Rechercher des informations supplémentaires ou des valeurs sous-jacentes pour un champ contenant le bouton ![AssistEdit](media/assist-edit-icon.png "Bouton AssistEdit"). . Ceci est utilisé lorsque le bouton déroulant habituel (Alt + Flèche vers le bas) dans le même champ est utilisé à une autre fin.|
+|Alt+Flèche vers la droite|Rechercher des informations supplémentaires ou des valeurs sous-jacentes pour un champ contenant le bouton ![AssistEdit](media/assist-edit-icon.png "Bouton AssistEdit"). . Utilisé lorsque le bouton déroulant habituel (Alt + Flèche vers le bas) dans le même champ est utilisé à une autre fin.|
 |Ctrl+Alt+Maj+C|Afficher des informations dans le badge société.|
 |Ctrl+Alt+F1|Ouvrez, puis fermez le volet d’inspection des pages. Ce dernier affiche les informations relatives à la page, comme sa table source, ses champs, ses filtres, ses extensions, etc.<br /><br />Pour plus d’informations, reportez-vous à la rubrique [Inspection des pages](across-inspect-page.md).|
 |Ctrl+C |Copiez la valeur du champ. Si le champ a le focus, et si vous n’avez pas sélectionné un texte dans le champ, l’intégralité de la valeur est copiée. Si vous avez sélectionné un texte dans le champ, seul le texte sélectionné est copié.|
-|Ctrl+F1|Ouvrez l’aide de Business Central pour la page.|
+|Ctrl+F1|Ouvrez le [volet d’aide](product-help-and-support.md#help-pane) ou un article d’aide de Business Central sur [Microsoft Docs](/dynamics365/business-central/), selon votre version de Business Central.|
 |Ctrl+F12|Passez de la vue de mise en page développée à la vue de mise en page réduite.|
 |Ctrl+Clic|Naviguer pendant la personnalisation lorsque l’action est mise en surbrillance avec une flèche. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).|  
 |Ctrl+F5|Rechargez l’application [!INCLUDE[prod_short](includes/prod_short.md)]. (Similaire à sélectionner l’actualisation/rechargement du navigateur.)|

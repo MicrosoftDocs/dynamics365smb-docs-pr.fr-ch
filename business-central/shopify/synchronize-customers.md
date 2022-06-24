@@ -1,18 +1,18 @@
 ---
 title: Synchroniser les clients
 description: Importer les clients de ou les exporter dans Shopify
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 92ac46e9f7e69204b4c7edee4aa430a8786b6c0b
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 75c4de7736572ff923c74464dc33b218d0665e3f
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768253"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808891"
 ---
 # <a name="synchronize-customers"></a>Synchroniser les clients
 
@@ -25,8 +25,8 @@ Lorsqu’une commande est importée à partir de Shopify, les informations sur l
 
 La fonction *Importer la commande à partir de Shopify* tente de sélectionner le client dans l’ordre suivant :
 
-1. Si le **N° client par défaut** est défini dans **Modèle client Shopify** pour le pays correspondant, **N° client par défaut** est utilisé quels que soient les paramètres dans **Importation client à partir de Shopify** et **Type de mappage client**.
-2. Si les champs **Importation client à partir de Shopify** et **N° client par défaut** sont définis, **N° client par défaut** est utilisé.
+1. Si le champ **N° client par défaut** est défini dans **Modèle client Shopify** pour le pays correspondant, **N° client par défaut** est utilisé quels que soient les paramètres dans **Importation client à partir de Shopify** et **Type de mappage client**. Pour plus d’informations, voir [Modèle client par pays](synchronize-customers.md#customer-template-per-country).
+2. Si le champ **Importation client à partir de Shopify** est défini sur *Aucun* et le champ **N° client par défaut** est défini dans **Fiche magasin Shopify**, alors le **N° client par défaut** est utilisé.
 
 Les étapes suivantes dépendent du champ **Type de mappage client**.
 
@@ -76,7 +76,7 @@ Les clients existants peuvent être exportés dans Shopify en bloc. Par conséqu
 
 ### <a name="populate-customer-information-in-shopify"></a>Remplir les informations client dans Shopify
 
-Un client dans Shopify a un prénom, un nom de famille, une adresse e-mail et/ou un numéro de téléphone. Vous pouvez renseigner le prénom et le nom en fonction des données présentes dans la fiche client dans [!INCLUDE[prod_short](../includes/prod_short.md)].
+Un client dans Shopify a un prénom, un nom de famille, une adresse e-mail et/ou un numéro de téléphone. Vous pouvez renseigner le prénom et le nom à partir de la fiche client dans [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |Priorité|Champ de la fiche client|Désignation|
 |------|------|-----------|
@@ -100,6 +100,8 @@ Pour les adresses où le pays/la province est utilisé(e), sélectionnez *Code* 
 3. Sélectionnez l’action **Synchroniser les clients**.
 
 Sinon, vous pouvez utiliser l’action **Lancer la synchronisation des clients** dans la fenêtre **Clients Shopify** ou rechercher le traitement par lots **Synchroniser les clients**.
+
+Vous pouvez programmer la tâche pour qu’elle soit exécutée de manière automatisée. Pour plus d’informations, voir [Programmer des tâches récurrentes](background.md#to-schedule-recurring-tasks).
 
 ## <a name="see-also"></a>Voir aussi
 

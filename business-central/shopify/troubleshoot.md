@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 01ff5ab1c5e6f132098f914f6bfe97e097cc88b0
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ff2e4aca52f479e461dab0d9d0f0ce4958d19353
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768254"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808892"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Dépannage de la synchronisation entre Shopify et Business Central
 
@@ -56,9 +56,8 @@ Si [!INCLUDE[prod_short](../includes/prod_short.md)] ne parvient pas à se conne
 
 1. Accédez à l’icône de recherche ![Ampoule qui ouvre la fonction de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Magasin Shopify**, puis choisissez le lien associé.
 2. Sélectionnez le magasin pour lequel vous voulez obtenir le jeton d’accès pour ouvrir la page **Fiche magasin Shopify**.
-3. Dans le champ **Code**, saisissez le code.  
-4. Sélectionnez l’action **Demander l’accès**.
-5. Si vous y êtes invité, connectez-vous à votre compte Shopify.
+3. Sélectionnez l’action **Demander l’accès**.
+4. Si vous y êtes invité, connectez-vous à votre compte Shopify.
 
 ## <a name="see-also"></a>Voir aussi
 

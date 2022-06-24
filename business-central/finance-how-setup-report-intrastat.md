@@ -8,20 +8,26 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 01/28/2022
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: d5b1358166f8d26a62da79059a73948bcd7b9784
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740352"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799760"
 ---
 # <a name="set-up-and-report-intrastat"></a>Configurer et enregistrer un état intracommunautaire
 
 Toutes les sociétés de l’Union européenne doivent déclarer leurs échanges avec les autres pays/régions de l’Union européenne. Vous devez déclarer les mouvements de marchandises aux autorités statistiques de votre pays/région mensuellement et la déclaration doit être remise aux autorités fiscales. Cette déclaration est appelée D.E.B. La page **Feuille intracomm.** permet de remplir des déclarations D.E.B. périodiques.  
 
 ## <a name="required-and-optional-setups"></a>Paramètres obligatoires et facultatifs
+
+> [!IMPORTANT]  
+> Les fiches client et les fiches fournisseur incluent un champ, **Type de partenaire de déclaration d’échanges de biens**, qui a les mêmes valeurs d’option que le champ **Type de partenaire** : *"" (Vide)*, *Société* et *Personne*. Le champ **Type de partenaire de déclaration d’échanges de biens** a remplacé le champ **Type de partenaire** dans la déclaration d’échanges de biens. **Type de partenaire** est utilisé dans SEPA pour définir le régime des prélèvements SEPA (Base ou B2B). **Type de partenaire de déclaration d’échanges de biens** est utilisé pour la déclaration d’échanges de biens uniquement. De cette façon, vous pouvez spécifier des valeurs différentes pour les deux champs, si nécessaire.
+> 
+> Cependant, notez que si le champ **Type de partenaire de déclaration d’échanges de biens** est laissé vide, la valeur du champ **Type de partenaire** est utilisée pour la déclaration d’échanges de biens.
+
 Avant d’utiliser la feuille intracommunautaire pour enregistrer des informations intracommunautaires, plusieurs éléments doivent être configurés :  
 
 * **Configuration intracomm.**  : la page Configuration intracomm. permet d’activer la D.E.B. et de définir des valeurs par défaut. Vous pouvez spécifier si vous devez enregistrer la D.E.B. à partir des expéditions (répartitions), des réceptions (arrivées) ou des deux, selon les seuils définis par vos réglementations locales. Vous pouvez également définir des types de transaction par défaut pour les documents classiques et de retour, utilisés pour la nature des états de transaction.
@@ -30,7 +36,7 @@ Avant d’utiliser la feuille intracommunautaire pour enregistrer des informatio
 * **Codes nature de transaction** : les pays et les régions ont différents codes pour les types de transactions intracommunautaires, comme l’achat et la vente ordinaires, l’échange de marchandises retournées et l’échange de marchandises non retournées. Configurez tous les codes qui s’appliquent à votre pays/région. Utilisez ces codes sur le raccourci **International** pour les documents achat et vente, et lorsque vous traitez des retours. 
 
     > [!NOTE]
-    > À partir de janvier 2022, les Échanges intracommunautaires exigent un code de nature de transaction différent pour les envois aux particuliers ou aux entreprises non assujetties à la TVA et aux entreprises assujetties à la TVA. Pour se conformer à cette exigence, nous vous recommandons de revoir et/ou d’ajouter de nouveaux codes de nature de transaction dans la page **Types de transactions** selon les exigences de votre pays. Vous devriez également revoir et mettre à jour le champ **Type de partenaire** sur *Personne* pour les clients particuliers ou entreprises non assujetties à la TVA dans la page **Client**. Si vous n’êtes pas sûr du type de partenaire ou de transaction correct à utiliser, nous vous recommandons de demander à un expert dans votre pays ou votre région. 
+    > À partir de janvier 2022, les Échanges intracommunautaires exigent un code de nature de transaction différent pour les envois aux particuliers ou aux entreprises non assujetties à la TVA et aux entreprises assujetties à la TVA. Pour se conformer à cette exigence, nous vous recommandons de revoir et/ou d’ajouter de nouveaux codes de nature de transaction dans la page **Types de transactions** selon les exigences de votre pays. Vous devriez également revoir et mettre à jour le champ **Type de partenaire de déclaration d’échanges de biens** sur *Personne* pour les clients particuliers ou les entreprises non assujetties à la TVA dans la page **Client**. Si vous n’êtes pas sûr du type de partenaire de déclaration d’échanges de biens ou de transaction correct à utiliser, nous vous recommandons de demander à un expert dans votre pays ou votre région. 
  
 * **Modes de transport**: Il existe, de sept codes à un chiffre pour les modes de transport intracommunautaire. **1** Mer, **2** Chemin de fer, **3** Route, **4** Air **5** Voie postale, **7** Transports fixes et **9** Propulsion propre (par exemple le transport en voiture en la conduisant). [!INCLUDE[prod_short](includes/prod_short.md)] ne requiert pas ces codes, cependant, il est préférable que les descriptions offrent une signification similaire.  
 * **Régimes** : Vous pouvez les utiliser pour renseigner les descriptions des types de transaction.  
@@ -113,7 +119,7 @@ Après avoir renseigné la feuille intracommunautaire, vous pouvez exécuter l�
 Le traitement par lots récupère toutes les écritures article de la période statistique et les insère sous forme de lignes dans la feuille intracommunautaire. Vous pouvez modifier au besoin les nouvelles lignes.  
 
 > [!IMPORTANT]  
-> Le traitement par lots récupère uniquement les écritures qui contiennent un code pays/région pour lequel un code intracommunautaire a été entré dans la page **Pays/Régions**. Vous devez donc entrer les codes intracommunautaires correspondant aux codes pays pour lesquels vous allez lancer le traitement par lots. Le traitement par lots définit le champ **Numéro de TVA du partenaire** sur *QV999999999999* pour les particuliers ou les entreprises non assujetties à la TVA (clients avec le champ **Type de partenaire** défini sur *Personne*), et il utilise la valeur du champ **Type de transaction** de l’écriture comptable de l’article comptabilisé ou de l’écriture comptable de la tâche. 
+> Le traitement par lots récupère uniquement les écritures qui contiennent un code pays/région pour lequel un code intracommunautaire a été entré dans la page **Pays/Régions**. Vous devez donc entrer les codes intracommunautaires correspondant aux codes pays pour lesquels vous allez lancer le traitement par lots. Le traitement par lots définit le champ **Numéro de TVA du partenaire** sur *QV999999999999* pour les particuliers ou les entreprises non assujetties à la TVA (clients avec le champ **Type de partenaire de déclaration d’échanges de biens** défini sur *Personne*), et il utilise la valeur du champ **Type de transaction** de l’écriture comptable de l’article comptabilisé ou de l’écriture comptable de la tâche. 
 
 ### <a name="to-modify-intrastat-journals-lines"></a>Pour modifier les lignes des journaux Échanges intracommunautaires
 
@@ -149,6 +155,9 @@ Vous pouvez envoyer la déclaration d’échanges de biens en tant que fichier. 
 5. Dans la page de tâche par lot, sélectionnez le bouton **OK**.  
 6. Choisissez **Enregistrer**.  
 7. Sélectionnez l’emplacement d’enregistrement du fichier, entrez son nom, puis choisissez **Enregistrer**.
+
+> [!NOTE]
+> Lorsqu’une ligne du rapport de déclaration d’échanges de biens a une unité de mesure supplémentaire, le poids de l’article ne sera pas affiché, car cette valeur n’est pas requise.
 
 ## <a name="reorganize-intrastat-journals"></a>Réorganiser les feuilles intracommunautaires
 

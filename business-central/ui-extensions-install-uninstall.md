@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500
-ms.date: 03/25/2022
+ms.date: 05/24/2022
 ms.author: solsen
-ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a70ea442ffb9d6e5f131e4d720da57f033474e16
+ms.sourcegitcommit: 6eeac924d8e211080316ce5068e3d4fb5a2d5ed9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514766"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8804671"
 ---
 # <a name="install-and-uninstall-extensions-in-business-central"></a>Installer et désinstaller des extensions dans Business Central
 
@@ -40,14 +40,14 @@ Vous pouvez obtenir de nouvelles extensions depuis le marché à l’adresse [Ap
 
 Vous pouvez également accéder au marché à partir de [!INCLUDE[prod_short](includes/prod_short.md)]. Sur la page **Gestion des extensions**, vous pouvez voir les extensions actuellement installées, et vous pouvez ouvrir la page **Marché des extensions** qui affiche les extensions [!INCLUDE[prod_short](includes/prod_short.md)] actuellement disponibles dans AppSource. Si vous optez pour le lien *Plus d’applications*, vous êtes dirigé vers le site [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-Si vous choisissez une extension, vous pouvez consulter une documentation relative à ses fonctionnalités, et accéder au service d’aide de l’extension pour en savoir plus. Lorsque vous choisissez d’obtenir une extension, vous devez être d’accord avec les conditions d’utilisation. Si vous obtenez l’extension à partir du site Web AppSource, vous serez connecté à [!INCLUDE[prod_short](includes/prod_short.md)] pour terminer l’installation.  
+Si vous choisissez une extension, vous pouvez consulter une documentation relative à ses fonctionnalités, et accéder au service d’aide de l’extension pour en savoir plus. Lorsque vous choisissez d’obtenir une extension, vous devez être d’accord avec les conditions d’utilisation. Si vous obtenez l’extension à partir du site web AppSource, vous serez connecté à [!INCLUDE[prod_short](includes/prod_short.md)] pour terminer l’installation.  
 
 Lorsque vous installez une extension, vous pouvez être amené à la configurer, par exemple spécifier un compte à utiliser avec l’extension **PayPal Payments Standard pour [!INCLUDE[prod_short](includes/prod_short.md)]**.
 D’autres extensions ajoutent simplement des champs à une page existante, ou ajoutent une nouvelle page, par exemple.
 
-Si vous désinstallez une extension, et que vous changez ensuite d’avis, vous pouvez la réinstaller. Lorsque vous désinstallez une extension que vous avez utilisée, les données sont conservées de sorte à demeurer disponibles si vous installez à nouveau l’extension. Certaines extensions sont nécessaires. Vous ne pouvez pas les désinstaller à partir de la page **Gestion des extensions**. Si vous essayez, un message d’erreur apparaît.
+Si vous désinstallez une extension, et que vous changez ensuite d’avis, vous pouvez la réinstaller. Lorsque vous désinstallez une extension que vous avez utilisée, les données sont conservées de sorte à demeurer disponibles si vous installez à nouveau l’extension. Certaines extensions sont nécessaires. Vous ne pouvez pas désinstaller ces extensions à partir de la page **Gestion des extensions**. Si vous essayez, un message d’erreur apparaît.
 
-Certaines extensions sont fournies par Microsoft, et d’autres sont fournies par [d’autres sociétés](ui-extensions-other.md). Toutes les sont extensions testées avant d’être mises à votre disposition, mais nous vous recommandons d’accéder aux liens qui sont inclus dans chaque extension pour en savoir plus sur l’extension avant de décider de l’installer.
+Certaines extensions sont fournies par Microsoft, et d’autres sont fournies par [d’autres sociétés](ui-extensions-other.md). Toutes les extensions sont testées avant d’être mises à votre disposition, mais nous vous recommandons d’accéder aux liens qui sont inclus dans chaque extension pour en savoir plus sur l’extension avant de décider de l’installer.
 
 Microsoft fournit les extensions suivantes :
 
@@ -77,17 +77,21 @@ Microsoft fournit les extensions suivantes :
 
 ## <a name="upload-a-per-tenant-extension-pte"></a>Charger une extension par locataire (PTE)
 
-Vous chargez un PTE en utilisant la page **Gestion des extensions**. Sur la page **Gestion des extensions**, accédez à **Gérer**, puis sélectionnez **Charger une extension**. Sur la page **Charger et déployer l’extension**, spécifiez le fichier .app à charger. Pour continuer, choisissez le bouton **Accepter**, puis le bouton **Déployer** ; cela lancera le processus de déploiement du PTE.
+Vous chargez un PTE en utilisant la page **Gestion des extensions**. Sur la page **Gestion des extensions**, accédez à **Gérer**, puis sélectionnez **Charger une extension**. Sur la page **Charger et déployer l’extension**, spécifiez le fichier .app à charger. Pour continuer, choisissez le bouton **Accepter**, puis le bouton **Déployer**, ce qui lancera le processus de déploiement du PTE.
 
-Si le PTE contient d’importantes modifications de schéma, il est possible de *forcer* son chargement. Pour ce faire, en **Mode de synchronisation des schémas**, sélectionnez l’option **Forcer**. Vous verrez une boîte de dialogue de confirmation pour accepter avant de continuer.  
+Si le PTE contient d’importantes modifications de schéma, il est possible de *forcer* son chargement. Pour ce faire, en **Mode de synchronisation des schémas**, sélectionnez l’option **Forcer**. Vous verrez une boîte de dialogue de confirmation qui vous permettra d’accepter avant de continuer.  
 
 ## <a name="uninstall-an-extension"></a>Désinstaller une extension
 
-Pour désinstaller une extension, allez sur la page **Gestion des extensions**. Si vous désinstallez une extension, et que vous changez d’avis ensuite, vous pouvez la réinstaller à nouveau. Lorsque vous désinstallez une extension que vous avez utilisée, les données sont conservées par défaut si vous installez à nouveau l’extension. Vous pouvez à la place choisir de supprimer les données avec l’extension. Ceci est contrôlé par la case à cocher **Supprimer les données d’extension**. Par défaut, cette case *n’est pas activée*.
+Pour désinstaller une extension, allez sur la page **Gestion des extensions**. Pour désinstaller une extension, sélectionnez-la sur la page, puis sélectionnez l’action **Désinstaller**. Si vous désinstallez une extension, et que vous changez d’avis ensuite, vous pouvez la réinstaller à nouveau.
+
+Lorsque vous désinstallez une extension que vous avez utilisée, les données sont conservées par défaut si vous installez à nouveau l’extension. Vous pouvez à la place choisir de supprimer les données avec l’extension. Cette opération est contrôlée par l’option **Supprimer les données d’extension**. Par défaut, cette option est **désactivée**. Lorsque vous essayez d’activer l’option **Supprimer les données d’extension** pour l’extension, vous obtiendrez une boîte de dialogue de confirmation, et vous devez choisir **Oui** pour l’activer. Lorsque l’option **Supprimer les données d’extension** est activée, vous pouvez désinstaller l’extension, et il vous sera demandé de reconfirmer que vous souhaitez désinstaller l’extension et supprimer les données.
 
 > [!IMPORTANT]  
-> Si vous activez la case à cocher **Supprimer les données d’extension**, une boîte de dialogue de confirmation s’affiche et vous devez choisir **OK**. Si la case à cocher **Supprimer les données d’extension** est activée, vous pouvez désormais désinstaller l’extension, et il vous sera demandé de reconfirmer que vous souhaitez désinstaller l’extension et supprimer les données. L’action ne peut pas être annulée.
-Certaines extensions sont requises. Vous ne pouvez pas les désinstaller à partir de la page **Gestion des extensions**. Si vous essayez, un message d’erreur apparaît.  
+> - Pour fonctionner, d’autres extensions peuvent nécessiter ou dépendre de l’extension que vous souhaitez désinstaller. Ces autres extensions sont appelées *dépendances*. Vous ne pouvez pas désinstaller une extension à moins que ses dépendances ne soient également désinstallées.
+> - Lorsque vous choisissez de désinstaller une extension qui a une ou plusieurs dépendances, une boîte de dialogue de confirmation s’affiche et répertorie les dépendances, et vous demande si vous souhaitez désinstaller l’extension et toutes ses dépendances. Pour continuer, vous devrez sélectionner **Oui**.
+> - Si vous activez l’option **Supprimer les données d’extension**, la désinstallation de l’extension supprimera toutes les données de l’extension **ainsi que** les données pour toutes les extensions dépendantes. L’action ne peut pas être annulée.
+> - Certaines extensions sont requises. Vous ne pouvez pas les désinstaller à partir de la page **Gestion des extensions**. Si vous essayez, un message d’erreur apparaît.  
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,43 +7,75 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
+ms.search.form: 5109, 5110
 ms.author: edupont
-ms.date: 06/22/2021
-ms.openlocfilehash: 42ef7c92d138d717f10eb98a7fa9208eaf73ef54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 05/20/2022
+ms.openlocfilehash: 135ca390dbf00e46deefbe6e195acfbcf11b959c
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140880"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799679"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Utiliser des questionnaires profil pour classer les contacts professionnels
-Vous pouvez configurer des questionnaires profil à utiliser au moment d’entrer des informations sur les profils de vos contacts. Dans chaque questionnaire, vous pouvez configurer les questions à poser à vos contacts.  
+
+Vous pouvez évaluer un prospect afin d'identifier les prospects idéaux sur lesquels axer votre compagne de vente. Vous pouvez configurer des questionnaires profil à utiliser au moment d’entrer des informations sur les profils de vos contacts. Dans chaque questionnaire, vous pouvez configurer les questions à poser à vos contacts. De cette façon, vous pouvez regrouper les contacts afin que vos campagnes soient plus susceptibles de cibler les personnes appropriées en fonction des critères que vous définissez avec les questionnaires.  
+
+Avec les questionnaires adaptés, vous pouvez évaluer vos prospects et les regrouper en catégories. Vous pouvez utiliser des questions et réponses existantes, et les combiner avec de nouvelles pour obtenir la base de votre évaluation. Chaque réponse de l’évaluation correspond à un nombre de points et, selon la plage que vous définissez pour les catégories (*Valeur début* et *Valeur fin*), le système d’évaluation place vos contacts dans les catégories définies. Par exemple, clients *ABC*, fournisseurs à *fidélité élevée/faible* ou prospects *Platinum/Gold/Silver*.  
 
 Vous pouvez également exécuter le questionnaire pour répondre automatiquement à certaines de ces questions en fonction des données contact, client ou fournisseur.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Pour ajouter un questionnaire profil
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration du questionnaire**, puis sélectionnez le lien associé.  
-2.  Sélectionnez l’action **Nouveau**.  
-3.  Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration du questionnaire**, puis sélectionnez le lien associé.  
+2. Sélectionnez l’action **Nouveau**.  
+3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Pour ajouter des questions à un questionnaire profil
-1.  Choisissez le questionnaire profil approprié, puis sélectionnez l’action **Modifier paramètres questionnaire**.  
-2.  Sur la première ligne vide, dans le champ **Type**, choisissez **Question**, puis tapez la question dans le champ **Désignation**. Renseignez les autres champs sur cette ligne.  
-3.  Sur la ligne vide suivante, dans le champ **Type**, choisissez **Réponse**, puis tapez la réponse dans le champ **Désignation**.  
-4.  Dans le champ **Priorité**, sélectionnez la priorité. Dans les champs **Valeur début** et **Valeur fin**, définissez une plage de points. Les contacts obtenant un nombre de points compris dans la plage définie recevront la réponse.  
+
+1. Choisissez le questionnaire profil approprié, puis sélectionnez l’action **Modifier paramètres questionnaire**.  
+2. Sur la première ligne vide, dans le champ **Type**, choisissez **Question**, puis tapez la question dans le champ **Désignation**. Renseignez les autres champs sur cette ligne.  
+
+    Ajoutez éventuellement des détails à la question.
+
+    1. Choisissez la ligne avec la question, puis choisissez le menu **Ligne**, puis choisissez **Questionnaire**.  
+
+    2. Sur le raccourci **Méthode classification** de la fenêtre **Questionnaire profil**, sélectionnez le champ **Classification contact auto**.  
+
+    3. Dans le champ **Champ class. contact**, sélectionnez l’option **Évaluation**.  
+
+    4. Renseignez le champ **% min. questions traitées**. Par défaut, il s’agit de **0**.  
+
+        Ceci indique le nombre de questions (sous forme de pourcentage) devant obtenir une réponse pour que cette évaluation soit calculée.
+
+    5. Sous l’onglet **Actions**, dans le groupe **Page**, choisissez **Points réponse**. Indiquez le nombre de points à attribuer à chaque réponse répertoriée dans la page **Points réponse**.
+
+        Si vous voulez avoir un aperçu des points que vous avez donnés pour chaque réponse, choisissez l’action **Points de réponse**.
+
+    6. Pour exécuter une mise à jour, revenez à la page **Paramètres quest. profil**. Dans le menu **Actions** , dans le groupe **Fonctions**, choisissez **Mettre à jour la classification**.
+
+    Sur la page **Paramètres quest. profil**, le nombre de contacts répondant à ces critères est affiché dans le champ **Nbre contacts**, ainsi que sur la **Fiche contact** de chaque contact.
+
+3. Sur la ligne vide suivante, dans le champ **Type**, choisissez **Réponse**, puis tapez la réponse dans le champ **Désignation**.  
+4. Dans le champ **Priorité**, sélectionnez la priorité. Dans les champs **Valeur début** et **Valeur fin**, définissez une plage de points. Les contacts obtenant un nombre de points compris dans la plage définie recevront la réponse.  
 
 Répétez ces étapes pour entrer toutes les questions et réponses du questionnaire profil.
 
-Après avoir créé un questionnaire, vous devez créer des évaluations contact pour classer vos contacts. Vous pouvez également définir des questions qui sont évaluées automatiquement en fonction des informations de la fiche contact.  
+Après avoir créé un questionnaire, vous pouvez l’utiliser pour évaluer et classer vos contacts. Vous pouvez également définir des questions qui sont évaluées automatiquement en fonction des informations de la fiche contact.  
 
 > [!NOTE]
-> Si vous entrez une question dont la réponse est automatique, choisissez <STRONG>Ligne</STRONG>, puis <STRONG>Questionnaire</STRONG> pour entrer les critères de réponse automatique.
+> Si vous entrez une question dont la réponse est automatique, choisissez **Ligne**, puis **Questionnaire** pour entrer les critères de réponse automatique.
+
+## <a name="apply-questionnaires-to-contacts"></a>Appliquer des questionnaires aux contacts
+
+Vous pouvez appliquer vos questionnaires aux contacts manuellement. Il vous suffit d’ouvrir la fiche contact appropriée, puis de choisir l’action **Profils**. Ensuite, une fois que vous avez appliqué les questionnaires que vous souhaitez appliquer, vous pouvez commencer à utiliser les catégories dans vos campagnes.  
 
 ## <a name="the-automatic-classification-of-contacts"></a>Classification automatique des contacts
+
 Vous pouvez configurer le programme pour qu’il classe automatiquement les contacts en fonction des données client, fournisseur et contact. Pour cela, configurez des questions profil à réponse automatique sur la page **Paramètres questionnaires profil**.  
 
 > [!NOTE]
-> Vous ne pouvez affecter une classification basée sur les données contact qu’aux contacts enregistrés en tant que clients. De même, seuls les contacts enregistrés en tant que fournisseurs peuvent se voir affecter une classification basée sur les données fournisseur. La classification automatique n’est pas mise à jour automatiquement. Par conséquent, vous pouvez être amené à mettre à jour les questionnaires profil après avoir mis à jour les données client, fournisseur ou contact dont ils dépendent.  
+> Vous ne pouvez affecter une classification basée sur les données contact qu’aux contacts enregistrés en tant que clients. De même, seuls les contacts enregistrés en tant que fournisseurs peuvent se voir affecter une classification basée sur les données fournisseur. La classification automatique n'est pas mise à jour automatiquement. Par conséquent, vous pouvez être amené à mettre à jour les questionnaires profil après avoir mis à jour les données client, fournisseur ou contact dont ils dépendent.  
 
 Une fois que vous avez configuré les questions profil à réponse automatique, affectez à un contact le questionnaire profil qui les contient. [!INCLUDE[prod_short](includes/prod_short.md)] répond ensuite automatiquement aux questions.  
 

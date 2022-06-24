@@ -1,18 +1,18 @@
 ---
 title: Synchroniser les articles et le stock
 description: Configurer et exécuter des synchronisations d’articles entre Shopify et Business Central
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: fac1a3df12070a2030d6d2d8dfd5e740d8cca4f9
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768238"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808974"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synchroniser les articles et le stock
 
@@ -23,7 +23,7 @@ Les **Articles** dans [!INCLUDE[prod_short](../includes/prod_short.md)] correspo
 
 Ces deux scénarios sont toujours activés.
 
-Autre scénario : lorsque les données sont gérées dans Shopify et pour importer ces articles en bloc dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Ce scénario peut être utile pour les événements de migration de données, si une boutique en ligne existante doit être connectée à un nouveau [!INCLUDE[prod_short](../includes/prod_short.md)].
+Un troisième scénario consiste à gérer les données dans Shopify, mais à importer ces articles en vrac dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Ce scénario peut être utile pour les événements de migration de données, si vous souhaitez connecter une boutique en ligne existante à un nouvel environnement [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="to-define-item-synchronizations"></a>Pour définir les synchronisations des articles
 
@@ -32,9 +32,9 @@ Autre scénario : lorsque les données sont gérées dans Shopify et pour impor
 
 |Option|Désignation|
 |------|-----------|
-|**Vide**| Les produits sont importés avec l’importation des commandes. Les produits sont exportés vers Shopify si l’utilisateur exécute l’action **Ajouter un article** dans la fenêtre **Produits Shopify**. Il s’agit du paramétrage par défaut. |
-|**À Shopify**| Sélectionnez cette option si, après la synchronisation initiale déclenchée par l’action **Ajouter un article**, vous prévoyez de mettre à jour les produits manuellement en utilisant l’action **Synchroniser le produit** ou via la file d’attente des tâches pour les mises à jour récurrentes. N’oubliez pas d’activer le champ **Peut mettre à jour le produit Shopify**. S’il n’est pas activé, cela équivant à l’option **Vide**. |
-|**De Shopify**| Choisissez cette option si vous prévoyez d’importer des produits de Shopify en bloc, soit manuellement en utilisant l’action **Synchroniser le produit**, soit via la file d’attente des tâches pour les mises à jour récurrentes. Si aucune option n’est sélectionnée, cela équivaut à l’option **Vide**.|
+|**Vide**| Les produits sont importés avec l’importation des commandes. Les produits sont exportés vers Shopify si un utilisateur exécute l’action **Ajouter un article** dans la page **Produits Shopify**. Il s’agit du processus par défaut. |
+|**À Shopify**| Sélectionnez cette option si, après la synchronisation initiale déclenchée par l’action **Ajouter un article**, vous prévoyez de mettre à jour les produits manuellement en utilisant l’action **Synchroniser le produit** ou via la file d’attente des tâches pour les mises à jour récurrentes. N’oubliez pas d’activer le champ **Peut mettre à jour le produit Shopify**. S’il n’est pas activé, cela équivant à l’option **Vide**. Pour plus d’informations, voir [Exporter les articles dans Shopify](synchronize-items.md#export-items-to-shopify)|
+|**De Shopify**| Choisissez cette option si vous prévoyez d’importer des produits de Shopify en bloc, soit manuellement en utilisant l’action **Synchroniser le produit**, soit via la file d’attente des tâches pour les mises à jour récurrentes. Si aucune option n’est sélectionnée, cela équivaut à l’option **Vide**. Pour en savoir plus sur l’importation d’articles, voir [Importer des articles à partir de Shopify](synchronize-items.md#import-items-from-shopify)|
 
 ## <a name="import-items-from-shopify"></a>Importer des articles de Shopify
 
@@ -42,9 +42,9 @@ Que vous importiez les articles de Shopify en bloc ou en même temps que l’imp
 
 |Champ|Désignation|
 |------|-----------|
-|**Créer automatiquement des articles inconnus**|Lorsque les produits et variantes Shopify sont importés dans [!INCLUDE[prod_short](../includes/prod_short.md)], la fonction [!INCLUDE[prod_short](../includes/prod_short.md)] tente toujours de trouver d’abord l’enregistrement correspondant dans la liste d’articles. L’option **Mappage point de stock** a un impact sur la correspondance et crée un article et/ou une variante article. Pour plus d’informations, voir [Mappage du produit](synchronize-items.md#). Activez cette option pour créer un article ou lorsqu’un enregistrement correspondant n’existe pas. Le nouvel article est créé en utilisant les données importées et le **Code modèle article**. Si cette option n’est pas activée, vous devez créer un élément manuellement et utiliser l’action **Mapper le produit** dans la page **Produits Shopify**.|
+|**Créer automatiquement des articles inconnus**|Lorsque les produits et variantes Shopify sont importés dans [!INCLUDE[prod_short](../includes/prod_short.md)], la fonction [!INCLUDE[prod_short](../includes/prod_short.md)] tente toujours de trouver d’abord l’enregistrement correspondant dans la liste d’articles. L’option **Mappage point de stock** a un impact sur la correspondance et crée un article et/ou une variante article. Activez cette option pour créer un article ou lorsqu’un enregistrement correspondant n’existe pas. Le nouvel article est créé en utilisant les données importées et le **Code modèle article**. Si cette option n’est pas activée, vous devez créer un élément manuellement et utiliser l’action **Mapper le produit** dans la page **Produits Shopify**.|
 |**Code modèle article**|Utilisé avec **Créer automatiquement des articles inconnus**. <br> Choisissez le modèle à utiliser pour les articles créés automatiquement.|
-|**Mappage point de stock**|Choisissez comment vous voulez utiliser la valeur **Point de stock** importée de Shopify lors du mappage et de la création de l’article/de la variante. Pour plus d’informations, voir [Comment le point de stock et le code à barres définis dans le produit Shopify affectent le mappage et la création d’articles et de variantes](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
+|**Mappage point de stock**|Choisissez comment vous voulez utiliser la valeur **Point de stock** importée de Shopify lors du mappage et de la création de l’article/de la variante. Pour plus d’informations, voir [Comment le point de stock et le code à barres définis dans le produit Shopify affectent le mappage et la création d’articles et de variantes](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
 |**Séparateur de champ de point de stock**|Utilisé avec le paramètre **Mappage point de stock** défini sur **N° article + Code variante**.<br> Définissez un séparateur qui doit servir à diviser le point de stock. <br>Par exemple, si, dans Shopify, vous créez la variante avec le point de stock 1000/001, tapez « / » dans le champ **Séparateur de champ de point de stock** pour obtenir le numéro d’article dans [!INCLUDE[prod_short](../includes/prod_short.md)] comme 1000 et le code variante article comme 001.
 |**Préfixe variante**|Utilisé avec le paramètre **Mappage point de stock** défini sur **Code variante** ou **N° article + Code variante** comme stratégie de secours lorsque le point de stock provenant de Shopify est vide.<br>Pour créer la variante article dans [!INCLUDE[prod_short](../includes/prod_short.md)] automatiquement, saisissez une valeur dans **Code**. Par défaut, la valeur définie dans le champ Point de stock importé de Shopify est utilisée. Cependant, si le point de stock est vide, il génère le code commençant par le préfixe de la variante défini et 001.|
 |**Shopify peut mettre à jour l’article**| Choisissez cette option pour mettre à jour les articles et/ou les variantes automatiquement.|
@@ -100,10 +100,10 @@ Les paramètres suivants permettent de gérer l’exportation des articles :
 |Titre de la page du SEO|Valeur fixe : vide, voir [Mises à jour ponctuelles des produits Shopify](synchronize-items.md#ad-hock-updates-of-shopify-products). |Aucun affichage.|
 |Description méta du SEO|Valeur fixe : vide, voir [Mises à jour ponctuelles des produits Shopify](synchronize-items.md#ad-hock-updates-of-shopify-products). |Aucun affichage.|
 |Support|**Image**, pour plus d’informations, voir [Synchroniser les images d’articles](synchronize-items.md#sync-item-images)|**Image**|
-|Prix|Le prix du client final est calculé par rapport au groupe prix article, au groupe remises article, au code monnaie et au code modèle client. |Aucun affichage.|
-|Comparer au prix|Le prix sans remise est calculé par rapport au groupe prix article, au groupe remises article, au code monnaie et au code modèle client. |Aucun affichage.|
+|Prix|Le calcul du prix du client final comprend le groupe prix article, le groupe remises article, le code devise et le code modèle client. |Aucun affichage.|
+|Comparer au prix|Le calcul du prix sans remise comprend le groupe prix article, le groupe remises article, le code devise et le code modèle client. |Aucun affichage.|
 |Coût par article|**Coût unitaire**|**Coût unitaire**|
-|Point de stock|Voir **Mappage point de stock** dans [Exporter les articles dans Shopify](synchronize-items.md#export-items-to-shopify)| Voir [Comment le point de stock et le code à barres définis dans le produit Shopify affectent le mappage et la création d’articles et de variantes](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-business-central)|
+|Point de stock|Voir **Mappage point de stock** dans [Exporter les articles dans Shopify](synchronize-items.md#export-items-to-shopify)| Voir [Comment le point de stock et le code à barres définis dans le produit Shopify affectent le mappage et la création d’articles et de variantes](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
 |Code-barres|**Références articles** de type Code à barres|**Références articles** de type Code à barres|
 |Suivi quantité|En fonction de **Suivi stock** dans la page **Fiche magasin Shopify**. Pour plus d’informations, voir [Stock](synchronize-items.md#sync-inventory-to-shopify).|Aucun affichage.|
 |Poursuivre la vente même en cas de rupture de stock|En fonction de **Stratégie de stock par défaut** dans la page **Fiche magasin Shopify**. Non importé.|Aucun affichage.|
@@ -115,7 +115,7 @@ Les paramètres suivants permettent de gérer l’exportation des articles :
 
 ### <a name="tags"></a>Balises
 
-Les balises importées peuvent être examinées dans le récapitulatif **Balises** dans **Produit Shopify**. Pour modifier les balises, choisissez l’action **Balises** dans la page **Produit Shopify**.
+Examinez les balises importées dans le récapitulatif **Balises** de la page **Produit Shopify**. Pour modifier les balises, choisissez l’action **Balises** dans la page **Produit Shopify**.
 Si l’option **À Shopify** est sélectionnée dans le champ **Synchroniser l’article**, les balises attribuées sont exportées vers Shopify à la prochaine synchronisation.
 
 ## <a name="run-item-synchronization"></a>Exécuter la synchronisation des articles
@@ -139,6 +139,8 @@ Les articles résultants sont automatiquement créés dans Shopify avec les prix
 3. Sélectionnez l’action **Synchroniser les produits**.
 
 Sinon, utilisez l’action **Synchroniser les produits** dans la fenêtre **Produits Shopify** ou recherchez le traitement par lots **Synchroniser les produits**.
+
+Vous pouvez programmer la tâche pour qu’elle soit exécutée de manière automatisée. Pour plus d’informations, voir [Programmer des tâches récurrentes](background.md#to-schedule-recurring-tasks).
 
 ### <a name="ad-hock-updates-of-shopify-products"></a>Mises à jour ponctuelles des produits Shopify
 
@@ -195,8 +197,8 @@ Les prix peuvent être exportés pour les articles synchronisés de la manière 
 
 ### <a name="price-calculation-remarks"></a>Remarques sur le calcul des prix
 
-* Pour le calcul des prix, il est important que le champ **Modèle client par défaut** contienne une valeur.
-* N’oubliez pas de saisir un **Code monnaie** si la boutique en ligne utilise une monnaie différente de DS.
+* Pour le calcul des prix, il est important que le champ **Modèle client par défaut** contienne une valeur. [!INCLUDE[prod_short](../includes/prod_short.md)] utilise la valeur du champ **Groupe compta. marché TVA** pour calculer le prix TTC. Vous pouvez créer un groupe de prix client dans lequel vous sélectionnez le champ **Prix TTC** et spécifiez la valeur appropriée dans le champ **Gpe compta. marché TVA (prix)**.
+* Saisissez un **Code devise** si la boutique en ligne utilise une monnaie différente de DS. La devise spécifiée doit avoir des taux de change configurés. Si votre boutique en ligne utilise la même devise que [!INCLUDE[prod_short](../includes/prod_short.md)], laissez le champ vide.
 * Lors de la détermination d’un prix, [!INCLUDE[prod_short](../includes/prod_short.md)] utilise le prix le plus bas. Autrement dit, si le prix unitaire défini dans la fiche article est inférieur à celui défini dans le groupe prix, le prix unitaire de la fiche article est utilisé.
 
 ## <a name="sync-inventory-to-shopify"></a>Synchroniser le stock sur Shopify

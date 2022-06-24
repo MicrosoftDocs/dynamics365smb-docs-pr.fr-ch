@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 6cb42322383506a7b6633952cb171cb7c6602339
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 368ed714fb7b8367ff1876cb5be83e422860b684
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367323"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805167"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>FAQ sur l'essai de Dynamics 365 Business Central
 
@@ -19,11 +19,11 @@ ms.locfileid: "8367323"
 
 ### <a name="can-i-convert-the-trial-to-a-paid-license"></a>Puis-je convertir la version d’évaluation en licence payante ?
 
-Oui, vous pouvez ! Pour plus d’informations, voir [Mise en route avec un abonnement](across-preview.md#get-started-with-a-subscription).  
+Oui, vous pouvez ! Pour plus d’informations, voir [Mise en route avec un abonnement](trial-signup.md#get-started-with-a-subscription).  
 
 ### <a name="what-are-the-trial-limits-and-quotas"></a>Quelles sont les limites et les quotas de l'essai ?
 
-L'essai comprend des exemples de données. Si vous voulez essayer Business Central avec vos propres données, vous pouvez opter pour un essai gratuit de 30 jours avec une société vide. Pour plus d'informations, voir [[!INCLUDE[prod_long](includes/prod_long.md)]Essais et abonnements](across-preview.md).  
+L'essai comprend des exemples de données. Si vous voulez essayer Business Central avec vos propres données, vous pouvez opter pour un essai gratuit de 30 jours avec une société vide. Votre administrateur peut en savoir plus sur les essais et les abonnements [ici](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ### <a name="how-do-i-start-using-the-trial"></a>Comment puis-je commencer à utiliser l’essai ?
 
@@ -54,4 +54,4 @@ Vous ne pouvez pas. Si vous supprimez accidentellement des exemples de données,
 [S’inscrire à un essai gratuit de Dynamics 365 Business Central](trial-signup.md)  
 [Foire aux questions sur l’utilisation de Business Central](across-faq.yml)  
 [Dépannage de l’inscription en self-service](ui-troubleshoot-self-signup.md)  
-Versions d’évaluation et abonnements [[!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
+[Versions d’évaluation et abonnements [!INCLUDE[prod_long](includes/prod_long.md)]](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

@@ -7,27 +7,27 @@ ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
 ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9106b1ac3f6b179e26c8dfb01212b88e92b694fe
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512479"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950214"
 ---
 # <a name="report-selection-in-business-central"></a>Sélection des états dans Business Central
 
-Vous pouvez configurer les états par défaut qui seront utilisés pour imprimer les divers documents vente et achat : commandes, devis, factures et avoirs. Par exemple, si vous avez une mise en page spécifique pour les factures vente, vous pouvez spécifier cet état sur la page **Sélection des états - Vente** afin qu’elle soit utilisée pour envoyer ou imprimer les factures vente.  
+Vous pouvez configurer des rapports par défaut à utiliser pour imprimer des documents de vente et d’achat, tels que des commandes, des devis et des factures. Par exemple, si vous avez une mise en page spécifique pour les factures vente, vous pouvez spécifier cet état sur la page **Sélection des états - Vente** afin qu’elle soit utilisée pour envoyer ou imprimer les factures vente.  
 
-Les pages **Sélection des états** spécifient quel état sera imprimé dans différentes situations. [!INCLUDE [prod_short](includes/prod_short.md)] inclut les configurations par défaut, mais vous pouvez modifier ces valeurs par défaut. Vous pouvez également ajouter des états aux pages **Sélection des états** si vous souhaitez imprimer plus qu’un état par type de document, par exemple.  
+Les pages **Sélection des états** spécifient quel état sera imprimé dans différentes situations. [!INCLUDE [prod_short](includes/prod_short.md)] fournit des configurations par défaut, mais vous pouvez les modifier si nécessaire. Vous pouvez également ajouter des états aux pages **Sélection des états** si vous souhaitez imprimer plus qu’un état par type de document, par exemple.  
 
 ## <a name="available-report-selections"></a>Sélection des états disponible
 
-[!INCLUDE [prod_short](includes/prod_short.md)] comprend différentes pages **Sélection des états** pour différents domaines. Les tableaux suivants décrivent où vous pouvez trouver des informations sur les différentes pages.  
+[!INCLUDE [prod_short](includes/prod_short.md)] comprend différentes pages **Sélection des états** pour différents domaines. Le tableau suivant décrit où vous pouvez trouver des informations sur les différentes pages.  
 
 |Zone ou tâche  |En savoir plus|
 |--------------|----------|
 |Exemple de fonctionnement de la sélection des états (Sales)|[Sélection des états pour les documents de vente](#example-report-selection-for-sales-documents)|
-|Mise en page par défaut des e-mails avec des documents vente et achat  |[Configurer des textes et des mises en page d’e-mail réutilisables pour les documents vente et achat](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents) |
+|Mise en page par défaut des e-mails avec des documents vente et achat  |[Configurer des textes et des mises en page d’e-mail réutilisables pour les documents vente et achat](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Définir les mises en page de chèques     |[Sélectionner une mise en page de chèque](finance-how-define-check-layouts.md) |
 |Définir des états pour la déclaration de TVA (Allemagne)|[Paramétrer les déclarations de TVA et les états d’échanges intracomm.](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
@@ -51,19 +51,19 @@ La page **Sélection des états - Ventes** définit les états par défaut à 
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Certains types de documents peuvent être envoyés sous forme de pièces jointes à un e-mail, et d’autres non. Chaque page **Sélection des états** affiche des champs supplémentaires si le type de courrier électronique de support est prêt à l’emploi.  
+Certains types de document peuvent être envoyés sous forme de pièces jointes à un e-mail, et d’autres non. Si un type de document peut être envoyé par e-mail, la page **Sélection des états** contiendra des champs supplémentaires.  
 
 Par exemple, dans les pages **Sélection des états - Ventes** et **Sélection des états -Achat**, les champs suivants vous aident à configurer l’envoi d’e-mails :
 
-|Nom du champ |Description  |
+|Nom du champ |Désignation  |
 |-----------|-------------|
-|**Utiliser pour le corps du message**| Spécifie que les informations résumées, telles que le numéro de facture, la date d’échéance et le lien de service de paiement, vont être insérées dans le corps de l’e-mail que vous envoyez.        |
-|**Utiliser comme pièce jointe**| Spécifie que le document associé sera joint à l’e-mail.|
-|**Description de la présentation du corps du message e-mail**|Spécifie la mise en page du corps de l’e-mail utilisée, généralement une mise en page d’état personnalisée. |
+|**Utiliser pour le corps du message**| Insérez des informations résumées, telles que le numéro de facture, la date d’échéance et le lien de service de paiement, dans un e-mail.        |
+|**Utiliser comme pièce jointe**| Joignez le document correspondant à l’e-mail.|
+|**Description de la présentation du corps du message e-mail**|Spécifiez la mise en page à utiliser pour le corps du message. En règle générale, la mise en page est une mise en page d’état personnalisée. |
 
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer des textes et des mises en page d’e-mail réutilisables pour les documents vente et achat](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents)  
+[Configurer des textes et des mises en page d’e-mail réutilisables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Sélectionner une mise en page de chèque](finance-how-define-check-layouts.md)  
 [Paramétrer les déclarations de TVA et les états d’échanges intracomm. (Allemagne)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 [Gestion des présentations d’état et de document](ui-manage-report-layouts.md)  

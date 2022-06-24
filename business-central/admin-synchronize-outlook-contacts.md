@@ -1,7 +1,7 @@
 ---
 title: Partager des contacts entre Business Central et Outlook
 description: Ce service a une intégration étroite avec Microsoft 365, ce qui vous permet de partager des contacts entre Outlook et Business Central.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,45 +9,54 @@ ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
 ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311
 ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 6c4ed5dfa89fdafe6e685d6566a57cb604adacdb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.author: bholtorf
+ms.openlocfilehash: 571dce9d79532cb3659ec952a585764af78c5161
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513137"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799893"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchroniser les contacts de Business Central avec les contacts de Microsoft Outlook
 
-Vous pouvez voir les mêmes contacts dans [!INCLUDE[prod_short](includes/prod_short.md)] que dans Outlook si vous configurez la synchronisation des contacts. Par exemple, si vous êtes un vendeur, vous pouvez effectuer une partie de votre travail dans Outlook et l’autre partie dans [!INCLUDE[prod_short](includes/prod_short.md)]. Si les contacts sont les mêmes dans les deux emplacements, votre travail est plus simple.  
+Vous pouvez configurer la synchronisation des contacts afin que vos contacts dans [!INCLUDE[prod_short](includes/prod_short.md)] aient les mêmes informations que vos contacts dans Microsoft Outlook. Par exemple, si vous êtes un vendeur, vous pouvez travailler dans Outlook et dans [!INCLUDE[prod_short](includes/prod_short.md)] simultanément. Si les contacts sont les mêmes dans les deux emplacements, votre travail est plus simple.  
 
-Un dossier dédié dans Outlook facilite la recherche des contacts, et vous pouvez définir un filtre pour synchroniser uniquement les contacts de [!INCLUDE[prod_short](includes/prod_short.md)] que vous souhaitez voir dans Outlook. Une fois que la synchronisation des contacts est configurée, vous pouvez démarrer manuellement la synchronisation ou configurer la synchronisation automatique des contacts à des intervalles planifiés.  
+Par défaut, les contacts que vous synchronisez sont conservés dans un dossier **Business Central** dans vos favoris sur le volet des dossiers dans Outlook. Le dossier Business Central peut faciliter l’identification des contacts que vous synchronisez. Vous pouvez définir des filtres pour synchroniser uniquement des contacts spécifiques à partir de [!INCLUDE[prod_short](includes/prod_short.md)] vers Outlook. Après avoir configuré la synchronisation, vous pouvez synchroniser manuellement ou automatiser le processus pour synchroniser à des intervalles planifiés.  
 
 ## <a name="set-up-synchronization"></a>Configurer la synchronisation
-Vous configurez le mode de synchronisation des contacts avec Outlook sur la page **Configuration de la synchronisation Exchange** de [!INCLUDE[prod_short](includes/prod_short.md)]. Au préalable, votre profil utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)] doit spécifier votre compte de messagerie Microsoft 365. Vous pouvez vérifier cela dans la section **Authentification Microsoft 365** de votre profil utilisateur dans la liste **Utilisateurs**.  
+Vous configurez le mode de synchronisation des contacts avec Outlook sur la page **Configuration de la synchronisation Exchange** de [!INCLUDE[prod_short](includes/prod_short.md)]. Au préalable, votre profil utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)] doit spécifier votre compte de messagerie Microsoft 365. Vous pouvez vérifier ce paramètre dans la section **Authentification Microsoft 365** de votre profil utilisateur dans la liste **Utilisateurs**. 
 
-Ensuite, sur la page **Configuration de la synchronisation Exchange**, vous pouvez valider que la connexion à Exchange fonctionne avant de configurer la synchronisation des contacts. Ouvrez la page **Paramètres synch. contacts** et démarrez la synchronisation. Appliquez éventuellement un filtre pour définir les contacts à synchroniser entre [!INCLUDE[prod_short](includes/prod_short.md)] et Outlook. Par exemple, vous pouvez définir un filtre par nom, type, société ou autre. Vous pouvez également modifier le nom par défaut du dossier avec lequel les contacts seront synchronisés dans Outlook. Le nom par défaut est *Business Central*.  
+Sur la page **Configuration de la synchronisation Exchange**, vous pouvez valider que la connexion à Exchange fonctionne avant de configurer la synchronisation des contacts. À partir de la page **Configuration de la synchronisation Exchange**, vous pouvez ouvrir la page **Paramètres synch. contacts** page et lancer la synchronisation. Vous pouvez définir un filtre pour spécifier les contacts à synchroniser. Par exemple, vous pouvez filtrer par nom, type, société, etc. Vous pouvez également modifier le nom par défaut du dossier dans Outlook avec lequel les contacts seront synchronisés.  
 
-Une fois que cette synchronisation a été configurée, les modifications apportées au contact dans Outlook ou dans [!INCLUDE[prod_short](includes/prod_short.md)] sont synchronisées avec l’autre.  
+Chacun de vos collègues peut également configurer sa propre synchronisation Exchange et définir ses propres filtres de synchronisation des contacts.  
 
-Chacun de vos collègues peut également configurer sa propre synchronisation Exchange et définir son propre filtre de synchronisation des contacts.  
+Après avoir configuré la synchronisation, vous pouvez synchroniser manuellement les modifications apportées au contact ou automatiser le processus en configurant une entrée de file d’attente des tâches. Pour plus d’informations sur l’automatisation, consultez la section suivante de cet article.
+
+### <a name="automate-synchronization"></a>Automatiser la synchronisation
+Vous pouvez créer une entrée de file d’attente de tâches qui synchronisera les contacts selon un calendrier que vous définissez. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md). 
+
+Le tableau suivant répertorie les paramètres de la page **Fiche écriture file d’attente des travaux** qui servent à synchroniser les contacts :
+
+|Champ|Paramètre de synchronisation des contacts|
+|-----|-----|
+|Type objet à exécuter|Codeunit|
+|ID objet à exécuter|6700|
 
 ## <a name="synchronize-contacts"></a>Synchroniser les contacts
-Si vous avez l’habitude d’utiliser les contacts dans [!INCLUDE[prod_short](includes/prod_short.md)], il vous sera facile de démarrer manuellement la synchronisation au moment qui vous convient à partir de la liste **Contacts**. Choisissez simplement l’action **Synchronisation avec Microsoft 365** et décidez si vous souhaitez modifier le filtre que vous avez défini. Lorsque vous cliquez sur le bouton OK, la synchronisation démarre immédiatement, et les dernières modifications sont appliquées à vos contacts dans Outlook.  
-
-Dans la liste **Contacts**, vous pouvez synchroniser les contacts de deux manières :
+Si vous avez l’habitude d’utiliser les contacts dans [!INCLUDE[prod_short](includes/prod_short.md)], il vous sera facile de synchroniser manuellement au moment qui vous convient à partir de la liste **Contacts**. Vous pouvez synchroniser vos contacts de deux manières :
 
 * **Synchronisation avec Microsoft 365**
 
-  Cette action synchronise toutes les modifications de Microsoft 365 vers [!INCLUDE[prod_short](includes/prod_short.md)] depuis la précédente synchronisation, en fonction de la dernière date de modification. Les nouveaux contacts dans Microsoft 365 sont également synchronisés dans [!INCLUDE[prod_short](includes/prod_short.md)]. Cette procédure est généralement plus rapide qu’une synchronisation complète.  
+  Synchroniser toutes les modifications de Microsoft 365 vers [!INCLUDE[prod_short](includes/prod_short.md)] effectuées après la dernière synchronisation, en fonction de la dernière date de modification. Les nouveaux contacts dans Microsoft 365 seront également synchronisés dans [!INCLUDE[prod_short](includes/prod_short.md)]. En règle générale, cette action est plus rapide qu’une synchronisation complète. 
 
 * **Synchronisation complète avec Microsoft 365**
 
-  Cette action synchronise tous les contacts dans les deux directions, indépendamment de la dernière date de synchronisation et de la dernière date de modification.  
+  Synchroniser tous les contacts dans les deux directions, indépendamment de la dernière date de synchronisation et de la dernière date de modification.  
 
-Dans les deux cas, les contacts sont uniquement synchronisés à partir d’Outlook si les champs obligatoires sont renseignés. Les champs obligatoires à synchroniser avec Microsoft 365 sont **Nom**, **Adresse e-mail** et leur type doit être Personne. [!INCLUDE[prod_short](includes/prod_short.md)] est le maître des informations de contact, les informations de contact [!INCLUDE[prod_short](includes/prod_short.md)] seront donc enregistrées en cas de doublons.  
+Dans les deux cas, les contacts sont uniquement synchronisés à partir d’Outlook si les champs obligatoires sont renseignés. Les champs obligatoires à synchroniser avec Microsoft 365 sont **Nom**, **Adresse e-mail** et le contact doit être **Personne**. [!INCLUDE[prod_short](includes/prod_short.md)] est la source des informations de contact, les informations de contact [!INCLUDE[prod_short](includes/prod_short.md)] seront donc enregistrées en cas de doublons.  
 
-Dans Outlook, les contacts de [!INCLUDE[prod_short](includes/prod_short.md)] sont affichés dans un dossier sous **Autre contacts** dans la vue **Personnes**. Si vous n’êtes pas familiarisé avec la vue Personne dans Outlook, vous pouvez y accéder à partir des options de navigation dans le coin inférieur gauche d’Outlook.  
+> [!NOTE]
+> Si vous supprimez un contact dans Outlook, mais que vous le conservez dans [!INCLUDE[prod_short](includes/prod_short.md)], le contact sera recréé dans Outlook lors de la synchronisation suivante. 
 
 ## <a name="see-also"></a>Voir aussi
 [Préparation aux activités commerciales](ui-get-ready-business.md)  

@@ -1,5 +1,5 @@
 ---
-title: Paramétrer les prix de vente et les remises client | Microsoft Docs
+title: Enregistrer les prix de vente spéciaux et les remises
 description: Décrit comment définir et appliquer des accords de tarification et de remise pour les documents vente.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2021
+ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 5f3d851356954ddf71411190f5f486633936c05a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729870"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950162"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Enregistrer les prix de vente spéciaux et les remises
+
 > [!NOTE]
-> Dans la deuxième vague de lancement de 2020, nous avons lancé des processus rationalisés pour la configuration et la gestion des prix et des remises. Si vous êtes un nouveau client utilisant cette version, vous utilisez la nouvelle expérience. Si vous êtes un client existant, l’utilisation ou non de la nouvelle expérience dépend du fait que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes** dans **Gestion des fonctionnalités**. Pour plus d’informations, consultez [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> Dans la 2e vague de lancement de 2020, nous avons lancé de nouveaux processus rationnalisés pour la configuration et la gestion des prix et des remises. Si vous êtes un nouveau client utilisant la dernière version, vous utilisez la nouvelle expérience. Si vous êtes un client existant, l’utilisation ou non de la nouvelle expérience dépend du fait que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes** dans **Gestion des fonctionnalités**. Pour plus d’informations, consultez [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge diverses stratégies de tarification, telles que :
+
 * Modèles à prix unique où un article est toujours vendu au même prix.
 * Accords de prix spéciaux avec des clients spécifiques ou des groupes de clients.
 * Campagnes lorsqu’une vente répond aux critères d’une offre spéciale. Parmi les critères, il peut par exemple y avoir le moment où une commande atteint une quantité minimale, est antérieure à une certaine date ou inclut un certain type d’article.  
 
-Pour utiliser un modèle de tarification de base, il vous suffit de spécifier un prix unitaire lorsque vous configurez un article ou une ressource. Ce prix sera toujours utilisé sur les documents vente. Pour les modèles plus avancés, par exemple, lorsque vous proposez des prix spéciaux pour une campagne de vente, vous pouvez spécifier des critères sur la page **Prix de vente**. Vous pouvez proposer des prix spéciaux basés sur une combinaison des informations suivantes : 
+Pour utiliser un modèle de tarification de base, il vous suffit de spécifier un prix unitaire lorsque vous configurez un article ou une ressource. Ce prix sera toujours utilisé sur les documents vente. Pour les modèles plus avancés, par exemple, lorsque vous proposez des prix spéciaux pour une campagne de vente, vous pouvez spécifier des critères sur la page **Prix de vente**. Vous pouvez proposer des prix spéciaux basés sur une combinaison des informations suivantes :  
 
 * Client
 * Article ;
@@ -176,34 +178,36 @@ Pour mettre à jour les prix de plusieurs articles, vous devez créer une nouvel
 ---
 
 ## <a name="best-price-calculation"></a>Calcul du meilleur prix
-Après avoir enregistré des prix spéciaux et des remises pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule le meilleur prix sur les documents vente et achat, et sur les lignes projet et lignes feuille article.
 
-Le meilleur prix est le prix le plus bas avec la remise de ligne la plus élevée autorisée à une date donnée. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule les meilleurs prix lorsqu’il ajoute les prix unitaires et les pourcentages de remise de ligne sur les lignes de document et les lignes feuille.
+Après avoir enregistré des prix spéciaux et des remises pour les ventes et les achats, [!INCLUDE[prod_short](includes/prod_short.md)] calcule le meilleur prix sur les documents vente et achat, et sur les lignes projet et lignes feuille article.
+
+Le meilleur prix est le prix le plus bas avec la remise de ligne la plus élevée autorisée à une date donnée. [!INCLUDE[prod_short](includes/prod_short.md)] calcule les meilleurs prix lorsqu’il ajoute les prix unitaires et les pourcentages de remise de ligne sur les lignes de document et les lignes feuille.
 
 > [!NOTE]  
-> Voici une description du calcul du meilleur prix pour la vente. Le calcul est le même pour les achats.
+> Voici une description du calcul du meilleur prix pour la vente. Pour les achats, le calcul est similaire, mais se base sur les paramètres disponibles. Par exemple, les groupes remises article ne sont pas pris en charge pour l’achat.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie la combinaison client facturé et article, et calcule le prix unitaire applicable et le pourcentage remise de ligne à l’aide des critères suivants :
+1. [!INCLUDE[prod_short](includes/prod_short.md)] vérifie la combinaison client facturé et article, et calcule le prix unitaire applicable et le pourcentage remise de ligne à l’aide des critères suivants :
 
-    - Ce client a-t-il un accord pour des prix ou des remises ou appartient-il à un groupe bénéficiant d’un tel accord ?
-    - L’article ou le groupe remises article est-il sur la ligne incluse dans l’un ou l’autre de ces accords prix/remise ?
-    - La date de commande (ou la date de validation pour la facture et l’avoir) est-elle comprise entre les dates de début et de fin de l’accord prix/remise ?
-    - Un code unité est-il spécifié ? Si c’est le cas, [!INCLUDE[d365fin](includes/d365fin_md.md)] recherche des prix/remises possédant le même code unité, et des prix/remises sans code unité.
+    * Ce client a-t-il un accord pour des prix ou des remises ou appartient-il à un groupe bénéficiant d’un tel accord ?
+    * L’article ou le groupe remises article est-il sur la ligne incluse dans l’un ou l’autre de ces accords prix/remise ?
+    * La date de commande (ou la date de validation pour la facture et l’avoir) est-elle comprise entre les dates de début et de fin de l’accord prix/remise ?
+    * Un code unité est-il spécifié ? Si c’est le cas, [!INCLUDE[prod_short](includes/prod_short.md)] recherche des prix/remises possédant le même code unité, et des prix/remises sans code unité.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie si des accords de prix/remise s’appliquent aux informations du document ou de la ligne de journal. Il insère ensuite le prix unitaire applicable et le pourcentage de remise de ligne en utilisant les critères suivants :
+2. [!INCLUDE[prod_short](includes/prod_short.md)] vérifie si des accords de prix/remise s’appliquent aux informations du document ou de la ligne de journal. Il insère ensuite le prix unitaire applicable et le pourcentage de remise de ligne en utilisant les critères suivants :
 
-    - Existe-t-il une quantité minimum à respecter dans l’accord de prix/remises ?
-    - Existe-t-il une exigence en matière de devise à respecter dans l’accord de prix/remises ? Si c’est le cas, le prix le plus bas et la remise de ligne la plus élevée pour cette devise sont insérés, même si la devise société permettrait d’offrir un meilleur prix. S’il n’existe aucun accord de prix/remise dans le code devise indiqué, [!INCLUDE[d365fin](includes/d365fin_md.md)] insère le prix le plus bas et la remise de ligne la plus élevée en devise société.
+    * Existe-t-il une quantité minimum à respecter dans l’accord de prix/remises ?
+    * Existe-t-il une exigence en matière de devise à respecter dans l’accord de prix/remises ? Si c’est le cas, le prix le plus bas et la remise de ligne la plus élevée pour cette devise sont insérés, même si la devise société permettrait d’offrir un meilleur prix. S’il n’existe aucun accord de prix/remise dans le code devise indiqué, [!INCLUDE[prod_short](includes/prod_short.md)] insère le prix le plus bas et la remise de ligne la plus élevée en devise société.
 
 Si aucun prix spécial ne peut être calculé pour l’article de la ligne, alors soit le coût unitaire direct, soit le prix unitaire à partir de la fiche article est inséré.
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Remises facture vente et frais forfaitaires
+
 Lorsque vous utilisez des remises facture, le montant total de la facture détermine celui de la remise accordée. Dans la page **Remises facture client**, vous pouvez également ajouter des frais forfaitaires aux factures supérieures à un montant donné.  
 
 Pour pouvoir utiliser les remises facture avec les ventes, vous devez spécifier certaines informations. Vous devez décider ce qui suit :  
 
-- les clients qui se verront accorder ce type de remise ;  
-- les pourcentages de remise à appliquer.  
+* les clients qui se verront accorder ce type de remise ;  
+* les pourcentages de remise à appliquer.  
 
 Sur la page **Paramètres ventes**, activez le bouton de basculement **Calculer remise facture** pour que les remises facture soient calculées automatiquement.  
 
@@ -231,7 +235,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 2. Ouvrez la fiche client appropriée, puis sélectionnez l’action **Remises ligne**.
 3. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Renseignez une ligne pour chaque combinaison qui accorde une remise ligne vente au client.
 
-> [!Note]
+> [!NOTE]
 > Lorsque vous ouvrez les pages **Prix de vente** et **Remises ligne vente** à partir d’un client spécifique, les champs **Filtre type vente** et **Filtre code vente** sont définis pour le client et ne peuvent pas être modifiés ou supprimés.
 >
 > Pour configurer des prix ou des remises ligne pour tous les clients, un groupe de prix client ou une campagne, vous devez ouvrir les pages à partir d’une fiche article. Sinon, pour les prix de vente, utilisez la page **Feuille prix vente**. Pour plus d’informations, voir [Mettre à jour en bloc des prix d’articles](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
@@ -277,6 +281,8 @@ Configurez de nouvelles conditions de remise facture vente.
 
 [Définition des ventes](sales-setup-sales.md)  
 [Ventes](sales-manage-sales.md)  
+[Configuration de groupes tarifs client](sales-how-to-set-up-customer-price-groups.md)  
+[Configuration des groupes remises client](sales-how-to-set-up-customer-discount-groups.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

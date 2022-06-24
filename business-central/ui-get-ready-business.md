@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 09/29/2021
+ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 7f9d04f5437ab37273fd02f8c40b3f44b3247b9c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513591"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805141"
 ---
 # <a name="get-ready-for-doing-business"></a>Se préparer aux activités commerciales
 
@@ -77,6 +77,28 @@ Une fois les utilisateurs créés dans Microsoft 365, ils peuvent être importé
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Pour plus d’informations, reportez-vous à [Ressources pour l’aide et l’assistance technique](product-help-and-support.md).  
 
+### <a name="set-up-your-company-in-prod_short"></a>Configurer votre société dans [!INCLUDE[prod_short](includes/prod_short.md)]
+
+Les articles [Démarrage rapide](quick-start-business-central.md) peuvent vous aider à faire vos premiers pas dans la configuration de [!INCLUDE [prod_short](includes/prod_short.md)] pour votre organisation. À l’intérieur de [!INCLUDE [prod_short](includes/prod_short.md)], la page **Configuration assistée** répertorie les guides de configuration assistée qui peuvent vous aider. Selon votre rôle et votre pays ou région, la page affiche différents guides de configuration assistée, comme illustré dans le tableau suivant :
+
+| Configuration assistée | Description |
+| -------------- | ----------- |
+| Configurer ma société |Crée une nouvelle société test qui vous permet de saisir des données et d’essayer [!INCLUDE[prod_short](includes/prod_short.md)]. |
+| Configurer des flux de travail approbation |Configure la possibilité d’avertir automatiquement un approbateur lorsqu’un utilisateur tente de créer ou modifier certaines valeurs sur des documents, des lignes feuille ou des fiches. Par exemple, vous pouvez configurer l’approbation des montants supérieurs à une limite spécifiée. |
+| Configurer la messagerie |Vous prépare à envoyer des e-mails directement à partir des commandes vente ou des contacts, par exemple, dans [!INCLUDE[prod_short](includes/prod_short.md)]. |
+| Configurer votre boîte de réception professionnelle dans Outlook |Vous aide à gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. |
+| Effectuer migration données métier |Vous permet d’importer vos données de société existantes telles que les fournisseurs, les clients et les articles à partir d’Excel ou de Quickbooks. |
+| Config. identifiant messagerie |Configure la capacité à archiver les correspondances par e-mail dans [!INCLUDE[prod_short](includes/prod_short.md)] pour assurer le suivi des interactions. |
+| Configurer un flux de travail approbation article |Configure la capacité d’envoyer une notification à un approbateur lorsqu’un utilisateur modifie ou crée un article. |
+| Configurer un flux de travail approbation client |Configure la capacité à avertir automatiquement un approbateur chaque fois qu’un utilisateur essaie de créer ou modifier une fiche client. |
+| Configurer un flux de travail approbation paiement |Configure la capacité d’envoyer une notification à un approbateur lorsqu’un utilisateur soumet des lignes de feuille paiement à l’approbation. |
+| Configurer une connexion Dynamics 365 Sales |Configure une connexion vers Dynamics 365 Sales, ce qui vous permet de synchroniser les données telles que les contacts et les informations des commandes vente. |
+| Configurer Prévision de trésorerie |Configure le graphique Prévision de trésorerie, de sorte que vous puissiez afficher les mouvements de trésorerie entrants et sortants de votre entreprise. Le graphique est disponible dans le **tableau de bord Comptable**. |
+| Configurer les données d’état|Configure des ensembles de données que vous pouvez utiliser pour créer des rapports puissants à l’aide d’Excel ou de Power BI, par exemple. |
+| Inviter un comptable externe |Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, vous pouvez les inviter à votre [!INCLUDE[prod_short](includes/prod_short.md)] afin qu’ils puissent travailler vous et utiliser vos données fiscales. |
+
+La page **Configuration assistée** peut contenir d’autres entrées. Lorsque vous effectuez une configuration, celle-ci est marquée comme **Terminé**. Vous pouvez configurer d’autres zones de la société à l’aide de la configuration manuelle. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+
 ## <a name="next-steps"></a>Étapes suivantes
 
 En fonction de la migration de vos données, vous pouvez maintenant passer à la création de documents vente ou achat. Utilisez la section **Actions** de votre page d’accueil pour créer rapidement un devis, une facture vente, une commande vente, une facture achat, ou un enregistrement de paiement. Consultez les articles de [démarrage rapide](quick-start-business-central.md) pour vous aider à faire vos premiers pas.  
@@ -88,13 +110,13 @@ En fonction de la migration de vos données, vous pouvez maintenant passer à la
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Présentation des informations sur la société](admin-company-information.md)  
 [Accessibilité et raccourcis clavier](ui-accessibility.md)  
-[Versions d’évaluation et abonnements](across-preview.md)  
 [Fonctionnalités d’entreprise](across-business-functionality.md)  
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  
 [Rechercher dans le volet d’aide](product-help-and-support.md#search-in-the-help-pane)  
 [Ressources pour l’Aide et le support](product-help-and-support.md)  
 [Site Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Migrer des données](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+[Versions d’évaluation et abonnements](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

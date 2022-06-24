@@ -8,37 +8,39 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 04/01/2021
+ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 74a59567c7eb24673df62fe76b974c9b7bb58bf0
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5e25685241e85a1a90ac23c7eb47f9808f3239b9
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557192"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950397"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Hérité) Créer et modifier des présentations de rapport personnalisées
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-Par défaut, un rapport aura une présentation de rapport intégrée, qui peut être soit une présentation de rapport RDLC, une présentation de rapport Word, ou les deux. Vous ne pouvez pas modifier les présentations intégrées, mais vous pouvez créer des présentations personnalisées. Un rapport peut avoir plusieurs présentations de rapport personnalisées, ce qui vous permettra de faire basculer la disposition utilisée selon vos besoins.
+Par défaut, les rapports ont une présentation de rapport intégrée. La présentation peut être une présentation état RDLC, une présentation état Word, ou les deux. Vous ne pouvez pas modifier les présentations intégrées, mais vous pouvez créer des présentations personnalisées. Un rapport peut avoir plusieurs présentations état personnalisées.
 
 > [!NOTE]  
 > Dans [!INCLUDE[prod_short](includes/prod_short.md)], le terme « état » couvre également les documents externes, tels que les factures vente et les confirmations de commande que vous envoyez à des clients comme fichiers PDF.
 
-Pour créer une présentation personnalisée, vous pouvez effectuer une copie d’une présentation personnalisée existante ou ajouter une nouvelle présentation personnalisée, qui est souvent basée sur une présentation intégrée. Lorsque vous ajoutez une nouvelle présentation personnalisée, vous pouvez choisir d’ajouter un type de présentation de rapport RDLC ou un type de présentation état Word, ou les deux. La nouvelle présentation personnalisée est basée sur la présentation intégrée pour le rapport s’il y en a une disponible. S’il n’y a pas de présentation intégrée pour le type, une nouvelle mise en page vierge est créée. Vous devez modifier et concevoir cette mise en page vierge à partir de zéro. Pour plus d’informations sur les présentations de rapport RDLC et Word, les présentations intégrées et personnalisées, et plus encore, reportez-vous à [Gérer la présentation des états](ui-manage-report-layouts.md).  
+Pour créer une présentation personnalisée, copiez une présentation personnalisée existante ou ajoutez une nouvelle présentation personnalisée. Les présentations personnalisées sont souvent basées sur une présentation intégrée. Lorsque vous ajoutez une nouvelle présentation personnalisée, vous pouvez choisir d’ajouter un type de présentation de rapport RDLC ou un type de présentation état Word, ou les deux. La nouvelle présentation personnalisée est basée sur la présentation intégrée pour le rapport s’il y en a une disponible. S’il n’y a pas de présentation intégrée pour le type, une nouvelle mise en page vierge est créée. Vous devez modifier et concevoir cette mise en page vierge à partir de zéro. Pour plus d’informations sur les présentations de rapport RDLC et Word, les présentations intégrées et personnalisées, et plus encore, reportez-vous à [Gérer la présentation des états](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Utilisez les tableaux d’analyse pour obtenir un aperçu des données financières enregistrées dans votre plan comptable. Pour plus d’informations, voir [Préparer la génération d’états financiers avec des tableaux d’analyse et des catégories de compte](bi-how-work-account-schedule.md).
 
-Lorsque des présentations de rapport personnalisées sont définies, vous pouvez les sélectionner à partir des fiches client et fournisseur pour spécifier que les présentations sélectionnées sont utilisées pour les documents que vous créez pour le client ou le fournisseur en question. Pour plus d’informations, voir [Définir des présentations de document pour les clients et les fournisseurs](ui-define-customer-vendor-document-layouts.md).
+Après avoir défini des présentations état personnalisées, vous pouvez les sélectionner sur les pages Fiche client et Fiche fournisseur. Les présentations seront utilisées lorsque vous créerez des documents pour le client ou le fournisseur. Pour plus d’informations, voir [Définir des présentations de document pour les clients et les fournisseurs](ui-define-customer-vendor-document-layouts.md).
+
+Vous pouvez également utiliser des présentations d’état personnalisées pour ajouter du contenu aux messages électroniques. Les présentations d’état peuvent vous faire gagner du temps et contribuer à assurer la cohérence, car elles réutilisent le même contenu lorsque vous communiquez avec vos clients. Pour utiliser des présentations d’état personnalisées avec le courrier électronique, le type de fichier de la mise en page doit être Word. Vous ne pouvez pas utiliser le type de fichier RDLC. Pour plus d’informations, voir [Configurer des textes et des mises en page d’e-mail réutilisables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="to-create-a-custom-layout"></a>Pour créer une présentation personnalisée
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection présentation état**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection présentation état**, puis sélectionnez le lien associé.
 
     La page **Sélection présentation état** répertorie tous les états disponibles pour la société spécifiée dans le champ **Nom de la société** en haut de la page.
-2. Définissez le champ **Société** sur la société pour laquelle vous souhaitez créer la présentation de rapport.
+2. Dans le champ **Nom de la société**, choisissez la société pour laquelle vous souhaitez créer la présentation de rapport.
 3. Sélectionnez la ligne de l’état pour lequel vous souhaitez créer la présentation, puis sélectionnez l’action **Présentations personnalisées**.  
 
    La page **Présentations état personnalisées** s’affiche et répertorie toutes les présentations personnalisées disponibles pour l’état sélectionné.
@@ -47,8 +49,8 @@ Lorsque des présentations de rapport personnalisées sont définies, vous pouve
    La copie de la présentation personnalisée s’affiche sur la page **Présentations état personnalisées**. Le terme *Copie* figure dans le champ **Description**.
 5. Si vous voulez ajouter une nouvelle présentation personnalisée basée sur une présentation intégrée, procédez comme suit :  
    1. Sélectionnez l’action **Nouveau**. La page **Insérer présentation intégrée pour un état** s’affiche. Les champs **ID** et **Nom** sont automatiquement renseignés.
-   2. Pour ajouter un type de présentation état Word, cochez la case **Insérer présentation Word**.
-   3. Pour ajouter un type de présentation état RDLC, cochez la case **Insérer présentation RDLC**.
+   2. Pour ajouter un type de présentation état Word, activez la case **Insérer présentation Word**.
+   3. Pour ajouter un type de présentation état RDLC, activez la case **Insérer présentation RDLC**.
    4. Cliquez sur le bouton **OK**.  
 
     La nouvelle présentation personnalisée s’affiche désormais sur la page **Présentations état personnalisées**. Si une nouvelle présentation est basée sur une présentation intégrée, les termes **Copie d’une présentation intégrée** figurent dans le champ **Description**. S’il n’y avait aucune présentation intégrée pour l’état, les termes **Nouvelle présentation** figurent dans le champ **Description** de la nouvelle présentation, ce qui indique que la présentation personnalisée est vide.

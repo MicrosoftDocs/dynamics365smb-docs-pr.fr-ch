@@ -1,18 +1,18 @@
 ---
 title: Synchroniser et exécuter les commandes vente
 description: Configurer et exécuter l’importation et le traitement des commandes vente à partir de Shopify.
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: e7c54cc620011d238942c093a05918e2f4e57c7d
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 4e8d640f6de61d642037a55fdfeb09e32f197a96
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768237"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809028"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Synchroniser et exécuter les commandes vente
 
@@ -27,7 +27,7 @@ Une commande Shopify régulière peut contenir des montants supplémentaires, co
 - **Compte de pourboires**  
 
 Activez **Créer automatiquement des commandes** pour créer automatiquement des documents vente dans [!INCLUDE[prod_short](../includes/prod_short.md)] après l’importation de la commande Shopify.
-Le document vente dans [!INCLUDE[prod_short](../includes/prod_short.md)] contient un lien vers la commande Shopify. Si vous activez **N° commande sur n° ligne doc. Shopify**, ces informations sont répétées dans la ligne de vente de type *Commentaire*.
+Le document vente dans [!INCLUDE[prod_short](../includes/prod_short.md)] contient un lien vers la commande Shopify. Si vous sélectionnez le champ **N° commande sur n° ligne doc. Shopify**, ces informations sont répétées dans les ligne vente de type *Commentaire*.
 
 Dans le champ **Origine zone recouvrement**, vous pouvez définir la priorité en matière de sélection du code zone recouvrement ou du groupe comptabilisation marché TVA en fonction de l’adresse. Cette étape est pertinente pour les pays avec taxe de vente, mais peut être utilisée pour les pays avec TVA. Pour plus d’informations, voir [Remarques sur les taxes](synchronize-orders.md#tax-remarks).
 
@@ -71,16 +71,20 @@ La procédure suivante décrit comment importer et mettre à jour les commandes 
 
 Sinon, vous pouvez rechercher un traitement par lots **Synchroniser les commandes à partir de Shopify**.
 
-Une fois l’importation terminée, vous pouvez explorer la commande Shopify et trouver toutes les informations associées comme les transactions de paiement, les frais d’expédition, les exécutions et le niveau de risque. Vous pouvez également voir la confirmation de commande envoyée au client en sélectionnant l’action **Page de statut Shopify**.
+Vous pouvez programmer la tâche pour qu’elle soit exécutée de manière automatisée. Pour plus d’informations, voir [Programmer des tâches récurrentes](background.md#to-schedule-recurring-tasks).
+
+## <a name="review-imported-orders"></a>Passer en revue les commandes importées
+
+Une fois l’importation terminée, vous pouvez explorer la commande Shopify et rechercher toutes les informations connexes. Vous pouvez par exemple rechercher les transactions de paiement, les frais d’expédition, le niveau de risque ou les exécutions si la commande a déjà été exécutée dans Shopify. Vous pouvez également voir les confirmations de commande envoyées au client en sélectionnant l’action **Page de statut Shopify**.
 
 > [!NOTE]  
 > Vous pouvez accéder directement à la fenêtre **Commandes Shopify** pour afficher les commandes dont le statut est défini sur *Ouvert* dans tous les magasins. Pour consulter les commandes terminées, vous devez ouvrir la page **Commandes Shopify** à partir de la fenêtre **Fiche magasin Shopify** spécifique.
 
-## <a name="create-sales-document-in-business-central"></a>Créer un document vente dans Business Central
+## <a name="create-sales-documents-in-business-central"></a>Créer des documents vente dans Business Central
 
-Si la bascule **Créer automatiquement des commandes** est activée sur la page **Fiche magasin Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] tente de créer un document vente après l’importation de la commande. Si le processus rencontre des problèmes, par exemple si un client ou un produit est manquant, vous devez résoudre le problème et tenter à nouveau de créer une commande vente.
+Si la bascule **Créer automatiquement des commandes** est activée sur la page **Fiche magasin Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] tente de créer un document vente après l’importation de la commande. Si le processus rencontre des problèmes, par exemple si un client ou un produit est manquant, vous devrez résoudre le problème. Ensuite, vous pouvez essayer de créer à nouveau la commande vente.
 
-### <a name="to-create-sales-document"></a>Pour créer un document vente
+### <a name="to-create-sales-documents"></a>Pour créer des documents vente
 
 1. Accédez à l’icône de recherche ![Ampoule qui ouvre la fonction de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Magasin Shopify**, puis choisissez le lien associé.
 2. Sélectionnez le magasin pour lequel vous voulez synchroniser les commandes pour ouvrir la page **Fiche magasin Shopify**.
@@ -88,7 +92,7 @@ Si la bascule **Créer automatiquement des commandes** est activée sur la page 
 4. Sélectionnez la commande pour laquelle vous voulez créer un document vente et sélectionnez l’action **Créer documents vente**.
 5. Choisissez **Oui**.
 
-Si la commande Shopify exige une exécution, la **Commande vente** est créé pour les commandes Shopify exécutées. Par exemple, pour celles qui ne contiennent que des cartes cadeaux, la **Facture vente** est créée.
+Si la commande Shopify exige une exécution, la **Commande vente** est créée. Pour les commandes Shopify entièrement exécutées, telles que les commandes qui ne contiennent qu’une carte-cadeau ou qui sont déjà traitées dans Shopify, la **Facture vente** est créée.
 
 Un document vente est maintenant créé et peut être géré en utilisant les fonctionnalités standard [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -102,7 +106,7 @@ Si vos paramètres empêchent la création automatique d’un client et qu’un 
 
 ### <a name="tax-remarks"></a>Remarques sur les taxes
 
-Même si la commande Shopify importée contient des informations sur les taxes, les taxes sont recalculées lorsque vous créez un document vente. C’est pourquoi il est important que les paramètres TVA/Taxe soient corrects dans [!INCLUDE[prod_short](../includes/prod_short.md)].
+Même si la commande Shopify importée contient des informations sur les taxes, les taxes sont recalculées lorsque vous créez le document vente. Pour ce nouveau calcul, il est important que les paramètres TVA/Taxe soient corrects dans [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 - Plusieurs taux de TVA/Taxe sur les produits. Par exemple, certaines catégories de produits sont soumises à des taux de taxe réduits. Ces articles doivent exister dans [!INCLUDE[prod_short](../includes/prod_short.md)] et être mappés avec les produits Shopify. Sinon, avec la création automatique des articles manquants, le groupe comptabilisation produit TVA est utilisé.
 

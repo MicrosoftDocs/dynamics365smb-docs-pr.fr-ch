@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 03/31/2022
+ms.date: 06/08/2022
 ms.author: jswymer
-ms.openlocfilehash: 8a2c342f31dc4c17bb34af22ffc912dcc51c5cf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 05ff8b9acb0c69f42c8ad36ab8a588c9b597424a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514429"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950451"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Configuration minimale requise pour l’utilisation de Business Central
 
@@ -22,17 +22,20 @@ Avant d’accéder à [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, n
 
 ## <a name="browsers"></a>Navigateurs
 
-**Microsoft Edge :** [!INCLUDE[prod_short](includes/prod_short.md)] est conçu pour fonctionner avec la nouvelle version de Microsoft Edge.
+**Microsoft Edge :** [!INCLUDE[prod_short](includes/prod_short.md)] est conçu pour fonctionner avec la version actuelle de Microsoft Edge.
   
-**Chrome pour Windows et Firefox pour Windows :** [!INCLUDE[prod_short](includes/prod_short.md)] est conçu pour fonctionner avec la version actuelle de ces navigateurs pour ordinateurs de bureau. L’application de bureau Business Central ne fonctionne pas avec Firefox.
+**Chrome pour Windows et Firefox pour Windows :** [!INCLUDE[prod_short](includes/prod_short.md)] est conçu pour fonctionner avec la version actuelle de ces navigateurs pour ordinateurs de bureau.
  
 **Safari :** [!INCLUDE[prod_short](includes/prod_short.md)] est conçu pour fonctionner avec la version actuelle de Safari sur macOS.  
 
+> [!TIP]
+> Installez l’application [!INCLUDE[prod_short](includes/prod_short.md)] [dans le menu Démarrer](install-desktop-app.md#install-the-app-for-business-central-online) en utilisant les navigateurs Microsoft Edge ou Chrome.
+
 ## <a name="mobile-devices"></a>Périphériques mobiles
 
-**Android (tablette et téléphone):** L’une des trois dernières versions majeures et leurs mises à jour.
+**Android (tablette et téléphone):** L’une des trois dernières versions de système d’exploitation majeures et leurs mises à jour.
 
-**iOS (iPad ou iPhone) :** L’une des trois dernières versions majeures et leurs mises à jour.
+**iOS (iPad ou iPhone) :** L’une des trois dernières versions de système d’exploitation majeures et leurs mises à jour.
 
 ## <a name="outlook"></a>Outlook
 
@@ -51,7 +54,9 @@ Avant d’accéder à [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, n
 
 **Navigateurs :** lorsque vous utilisez l’application [!INCLUDE[prod_short](includes/prod_short.md)] pour Teams dans le navigateur (client Web), l’application exige que votre ordinateur exécute l’un des navigateurs répertoriés précédemment dans cette rubrique. 
 
-**Plate-formes :** lorsque vous utilisez l’application [!INCLUDE[prod_short](includes/prod_short.md)] dans Teams pour iOS ou Android, l’application exige que votre appareil mobile exécute l’une des plate-formes mobiles prises en charge, répertoriées précédemment dans cette rubrique.
+**Plateformes :** lorsque vous utilisez l’application [!INCLUDE[prod_short](includes/prod_short.md)] dans Teams pour iOS ou Android, elle exige que votre appareil mobile exécute l’une des plateformes mobiles prises en charge, répertoriées précédemment dans cet article.
+
+**Abonnement pris en charge :** L’application [!INCLUDE[prod_short](includes/prod_short.md)] pour Teams prend en charge les abonnements Microsoft 365 Business et Enterprise, mais pas les abonnements Teams autonomes tels que Microsoft Teams (gratuit) ou Microsoft Teams Essentials.
 
 ## <a name="excel"></a>Excel
 
@@ -64,18 +69,22 @@ Avant d’accéder à [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, n
 
 Le centre d’administration est conçu pour fonctionner avec la version actuelle des navigateurs suivants :
 
-- Le nouveau Microsoft Edge
+- Microsoft Edge
 - Chrome pour Windows
 - Firefox pour Windows
 - Safari pour macOS
 
 ## <a name="use-business-central-on-premises"></a>Utiliser Business Central sur site
 
-Si vous souhaitez déployer Business Central sur site, vous devez vérifier la configuration système requise. Pour plus d’informations, voir [Configuration requise pour Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) et [Vue d’ensemble du déploiement](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Si vous souhaitez déployer Business Central sur site, vous devez vérifier la configuration système requise. Pour plus d’informations, voir [Configuration requise pour Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) et [Vue d’ensemble du déploiement](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## <a name="see-also"></a>Voir aussi
 
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
-[Configuration système requise pour Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
+[Configuration système requise pour Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20)  
+[Installation de l’application Business Central sur votre bureau](install-desktop-app.md)  
+[Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)  
+[Gestion des interactions commerciales dans Microsoft Outlook](admin-outlook.md)  
+[Intégration de Business Central et Microsoft Teams](across-teams-overview.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2fcc04c05274922a13131178d16c3e27e0b18da1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: aa5e24755b44b2ce7b36a9a6062bf0168c5ddb89
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518746"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799574"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procédure pas à pas : configuration et facturation d’acomptes
 
@@ -95,9 +95,9 @@ Phyllis requiert que tous les clients soient facturés avec un acompte de 20 % 
 
     |**Type vente**|**Code vente**|**N° article**|**% acompte**|  
     |--------------------|--------------------|------------------|----------------------|  
-    |**Client**|**20000**|**1896-S**|**40**|  
-    |**Tous les clients**| |**1896-S**|**20**|  
-
+    |**Client**|**20000**|**1896-S**|**40**|
+    |**Client**|**20000**|**1900-S**|**30**|  
+    
     > [!TIP]
     > En fonction de votre pays/région, vous devez également spécifier un code groupe taxes sur le raccourci **Coûts et validation** pour l’article 1896-S. Lorsque vous utilisez la société de démonstration, ce champ est déjà défini.
 

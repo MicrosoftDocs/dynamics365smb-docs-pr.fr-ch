@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e791eb8f066085b8230aeac4c85a82c67093f06
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 632591160ab5cfad7d33fc26bf3f9a9b4877176a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655619"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950505"
 ---
 # <a name="send-documents-and-emails"></a>Envoyer des documents et des e-mails
 
@@ -44,7 +44,7 @@ Cette procédure décrit comment joindre une facture vente enregistrée à un e-
 7. Dans le champ **Document joint**, la facture générée est jointe par défaut en tant que fichier PDF.
 8. Dans le champ **Corps**, entrez un message court au destinataire.
 
-    Si le corps d’un message spécifique à un document est configuré sur la page **Sélection des états : Ventes**, le champ **Corps** est renseigné automatiquement. Pour en savoir plus, voir [Configurer des textes et des mises en page d’e-mail réutilisables pour les documents vente et achat](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents).
+    Si le corps d’un message spécifique à un document est configuré sur la page **Sélection des états : Ventes**, le champ **Corps** est renseigné automatiquement. Pour plus d’informations, voir [Configurer des textes et des mises en page d’e-mail réutilisables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 9. Cliquez sur le bouton **OK** pour envoyer l’e-mail.
 
 > [!NOTE]  

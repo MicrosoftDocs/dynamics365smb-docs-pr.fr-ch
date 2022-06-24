@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e8229b1d911b51e065b3d5a94fff1a0253bd5e26
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518430"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950106"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Obtenir le complément Business Central pour Excel
 
@@ -130,8 +130,7 @@ Parfois, les utilisateurs rencontrent des problèmes avec le complément Excel. 
 |Les données ne peuvent pas être republiées sur [!INCLUDE [prod_short](includes/prod_short.md)].|Testez la connexion en ouvrant le classeur dans Excel dans un navigateur. |Parfois, une extension peut bloquer le travail de publication. Si la page est étendue ou personnalisée, supprimez les extensions, puis réessayez.|
 |Les dates sont fausses  |Excel peut afficher les heures et les dates dans un format différent de celui de [!INCLUDE [prod_short](includes/prod_short.md)]. Cette situation ne les rend pas erronées, et les données contenues dans [!INCLUDE [prod_short](includes/prod_short.md)] ne seront pas compromises.|         |
 |Pour certaines pages de liste, la modification de plusieurs lignes dans Excel provoque systématiquement des erreurs. Cette situation peut se produire si des appels OData incluent des FlowFields et des champs hors de contrôle du répéteur.|Sur la page **Services web**, cochez les cases **Exclure les FlowFields non modifiables** et **Exclure les champs hors de contrôle du répéteur** pour la page publiée. La sélection de ces cases à cocher exclut les champs FlowFields et non modifiables du calcul de l’eTag. |Ces cases à cocher sont masquées par défaut. Pour les afficher sur la page **Services web**, utilisez la [personnalisation](/dynamics365/business-central/ui-personalization-user). |
-
-
+|Les utilisateurs ne peuvent plus se connecter au complément. Lorsqu’ils essaient de se connecter, le processus s’arrête sans s’achever.| Ce problème peut être causé par une mise à jour que nous avons apportée au complément, en juillet 2022. Pour obtenir plus d’informations et un correctif, voir [Modifier la configuration du complément Excel pour prendre en charge la mise à jour de juillet 2022](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|S’applique à [!INCLUDE [prod_short](includes/prod_short.md)] sur site uniquement|
 
 <!--
 ## Deploy the Excel add-in for Business Central online

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: df2500afba5eb695680347a41169dafc78b0facd
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655763"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799471"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Recherche de pages et d’informations avec Tell Me  
 Cette rubrique décrit comment la fonction Tell me peut vous aider à accéder rapidement aux actions, pages ou états, à trouver des informations concernant la manière d’exécuter une tâche particulière et à découvrir des applications supplémentaires et des services de conseil pour [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -50,11 +50,13 @@ Les pages et les tâches répertoriées dépendent de l’expérience utilisateu
 ### <a name="finding-a-report-or-archived-information"></a>Rechercher un état ou des informations archivées
 La section **Accéder à États et analyse** offre un accès aux outils création de rapports. Par exemple, vous pouvez ouvrir l’état **Bilan** dans la liste, ou accéder aux documents archivés et à d’autres informations.  
 
-### <a name="finding-information-in-the-help"></a>Rechercher des informations dans l’aide
-Sous **Documentation**, vous pouvez visualiser les articles de la documentation [!INCLUDE[prod_short](includes/prod_short.md)] qui décrivent les concepts et fournissent des conseils détaillés sur l’exécution de tâches dans l’application.    
+<!-- removed in v20 because of Help pane
+### Finding Information in the Help
+Under **Documentation** you will see articles from the [!INCLUDE[prod_short](includes/prod_short.md)] documentation that describe concepts and provide step-by-step guidance for completing tasks in the application.    
 
 > [!NOTE]  
-> La documentation des extensions tierces n’est pas incluse dans les résultats.
+> Documentation for third-party extensions is not included in the results.
+-->
 
 ### <a name="getting-more-functionality-by-finding-an-app-on-microsoft-appsource"></a>Obtenir davantage de fonctionnalités en recherchant une application sur Microsoft AppSource
 Notre communauté de partenaires développe activement des applications qui ajoutent des fonctionnalités à [!INCLUDE[prod_short](includes/prod_short.md)]. La rubrique **Extraire à partir de Microsoft AppSource** répertorie les applications pour [!INCLUDE[prod_short](includes/prod_short.md)] qui sont disponibles sur Microsoft AppSource et relatives au mot-clé pour lequel vous avez effectué la recherche.

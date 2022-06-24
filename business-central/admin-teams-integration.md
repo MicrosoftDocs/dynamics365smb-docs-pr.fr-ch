@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 03e283bc2664b1f73a56c48fefdde9cba78918d2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147049"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799787"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Gestion de l’intégration de Microsoft Teams à [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -30,16 +30,18 @@ Cette section décrit la configuration minimale requise pour les fonctionnalité
 
 - Licences requises
 
-    Ce tableau vous donne un aperçu des licences nécessaires pour les fonctionnalités de l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour travailler dans Teams.
+    L’application [!INCLUDE[prod_short](includes/prod_short.md)] nécessite une licence Teams via un abonnement Microsoft 365 Business ou Enterprise. Les abonnements Teams autonomes tels que Microsoft Teams (gratuit) ou Microsoft Teams Essentials ne sont pas pris en charge.
 
-    |Quoi|Licence Teams|Licence [!INCLUDE [prod_short](includes/prod_short.md)]|
-    |----|---|---|
-    |Recherche de contacts [!INCLUDE [prod_short](includes/prod_short.md)].|![coche.](media/check.png "coche")|![coche](media/check.png "coche")|
-    |Coller un lien vers un enregistrement [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation et l’envoyer sous forme de fiche.|![coche](media/check.png "coche")|![coche](media/check.png "coche")|
-    |Partager un lien entre une page dans [!INCLUDE [prod_short](includes/prod_short.md)] et une conversation Teams.|![coche](media/check.png "coche")|![coche](media/check.png "coche")|
-    |Afficher une fiche d’un enregistrement [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation.|![coche](media/check.png "coche")||
-    |Afficher plus de détails d’une fiche pour un enregistrement [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation.|![coche](media/check.png "coche")|![coche](media/check.png "coche")|
-    |Ouvrir un lien de page dans [!INCLUDE [prod_short](includes/prod_short.md)] à partir d’une conversation.|![coche](media/check.png "coche")|![coche](media/check.png "coche")|
+    La plupart des fonctionnalités de l’application [!INCLUDE[prod_short](includes/prod_short.md)] pour Teams nécessite également une licence [!INCLUDE [prod_short](includes/prod_short.md)], comme indiqué dans le tableau suivant.
+
+    |Quoi|Licence [!INCLUDE [prod_short](includes/prod_short.md)]|
+    |----|---|
+    |Recherche de contacts [!INCLUDE [prod_short](includes/prod_short.md)].|![coche](media/check.png "chèque ;")|
+    |Coller un lien vers un enregistrement [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation et l’envoyer sous forme de fiche.|![coche](media/check.png "chèque ;")|
+    |Partager un lien entre une page dans [!INCLUDE [prod_short](includes/prod_short.md)] et une conversation Teams.|![coche](media/check.png "chèque ;")|
+    |Afficher une fiche d’un enregistrement [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation.||
+    |Afficher plus de détails d’une fiche pour un enregistrement [!INCLUDE [prod_short](includes/prod_short.md)] dans une conversation.|![coche](media/check.png "chèque ;")|
+    |Ouvrir un lien de page dans [!INCLUDE [prod_short](includes/prod_short.md)] à partir d’une conversation.|![coche](media/check.png "chèque ;")|
 
 - Autoriser les aperçus d’URL
 
@@ -85,7 +87,7 @@ Le centre d’administration Microsoft Teams est l’endroit où vous configurez
 > [!NOTE]
 > Pour configurer le déploiement centralisé, votre compte Teams doit avoir le rôle **Administrateur du service Teams** ou le rôle **Administrateur global**.
 
-1. Dans Business Central, sélectionnez ![la loupe qui ouvre la fonctionnalité Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Déploiement centralisé de l’application Teams**, puis sélectionnez le lien associé. Ou sélectionnez [ici](https://businesscentral.dynamics.com/?page=1833) pour ouvrir la page directement.
+1. Dans Business Central, sélectionnez ![la loupe qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Déploiement centralisé de l’application Teams**, puis sélectionnez le lien associé. Ou sélectionnez [ici](https://businesscentral.dynamics.com/?page=1833) pour ouvrir la page directement.
 2. Lire les informations sur la page **Configurer l’application Business Central pour teams**, puis sélectionnez **Suivant** quand vous êtes prêt.
 3. Ouvrez le [Centre d’administration Teams](https://go.microsoft.com/fwlink/?linkid=2163970), et procédez comme suit.
     1. Accédez à **Applications teams** > **Stratégies de configuration**.

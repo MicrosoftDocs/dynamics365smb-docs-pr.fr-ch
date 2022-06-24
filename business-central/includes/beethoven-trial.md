@@ -1,20 +1,20 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 06/08/2022
 ms.author: edupont
-ms.openlocfilehash: 8f46c780d88df95264137814f0f49d72dd17bc75
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: fd1448c9fd32b359bf40a02b90a3ee6a66a5d685
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367328"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950270"
 ---
 ## <a name="sign-up"></a>S’inscrire
 
 ### <a name="which-email-address-i-should-use-to-sign-up"></a>Quelle adresse e-mail dois-je utiliser pour m’inscrire ?
 
-Utilisez votre adresse e-mail professionnelle ou scolaire. Nous établirons votre essai sur le compte de votre organisation. Vous ne pouvez pas utiliser les adresses e-mail fournies par les services de messagerie grand public ou les fournisseurs de télécommunications, comme outlook.com, hotmail.com, gmail.com, etc.  
+Utilisez votre adresse e-mail professionnelle ou scolaire. Nous établirons votre essai sur le compte de votre organisation. Vous ne pouvez pas utiliser les adresses e-mail fournies par les services de messagerie grand public ou les fournisseurs de télécommunications, comme *outlook.com*, *hotmail.com*, *gmail.com*, etc.  
 
 ### <a name="what-are-the-system-requirements-for-the-trial"></a>Quelle est la configuration système requise pour l’essai ?
 
@@ -39,7 +39,7 @@ Lorsque vous vous inscrivez à l’essai, vous recevez un e-mail comportant les 
 
 ### <a name="how-do-i-add-more-users-to-a-trial"></a>Comment ajouter plusieurs utilisateurs à un essai ?
 
-Pour ajouter des utilisateurs, demandez à votre administrateur d’accéder au [Centre d’administration Microsoft 365](https://admin.microsoft.com) où ils peuvent suivre les [conseils du Centre d’administration](/microsoft-365/admin/add-users/add-users) pour ajouter des utilisateurs jusqu’à la limite de la licence d’essai. Si l’utilisateur que vous ajoutez a déjà un compte Microsoft 365, attribuez-lui la licence appropriée. Pour plus d’informations, voir [Attribuer des licences aux utilisateurs](/microsoft-365/admin/manage/assign-licenses-to-users) dans le contenu Microsoft 365.
+Pour ajouter des utilisateurs, votre administrateur doit se rendre dans le [centre d’administration Microsoft 365](https://admin.microsoft.com). Il peut ensuite suivre les [conseils du centre d’administration](/microsoft-365/admin/add-users/add-users) pour ajouter des utilisateurs jusqu’à la limite de la licence d’essai. Si l’utilisateur que vous ajoutez a déjà un compte Microsoft 365, attribuez-lui la licence appropriée. Pour plus d’informations, voir [Attribuer des licences aux utilisateurs](/microsoft-365/admin/manage/assign-licenses-to-users) dans le contenu Microsoft 365.
 
 ### <a name="how-many-users-can-i-add-to-my-trial-environment"></a>Combien d’utilisateurs puis-je ajouter à mon environnement d’essai ?
 
@@ -47,11 +47,9 @@ Vous pouvez ajouter un nombre illimité d’utilisateurs à l’environnement d�
 
 ### <a name="how-do-i-reset-the-trial-environment"></a>Comment réinitialiser l’environnement d’essai ?
 
-Vous ne pouvez pas réinitialiser l’environnement d’essai. Toutefois, votre administrateur peut créer de nouveaux environnements sandbox dans lesquels vous pouvez tester les différentes fonctionnalités. Pour plus d’informations, voir [Environnements de production et sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types) dans le contenu pour administrateurs.  
+Vous ne pouvez pas réinitialiser l’environnement d’essai. Demandez à votre administrateur de créer un environnement sandbox pour tester les différentes fonctionnalités. Pour plus d’informations, voir [Environnements de production et sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types) dans le contenu pour administrateurs.  
 
 Pour annuler [!INCLUDE [prod_short](prod_short.md)] pendant une période d’essai, vous devez demander à votre administrateur Microsoft 365 de supprimer l’abonnement d’essai du compte de votre entreprise dans le [Centre d’administration Microsoft 365](https://admin.microsoft.com/). Voir aussi [Annuler un abonnement ou Supprimer [!INCLUDE[prod_short](prod_short.md)]](../admin-cancel.md).  
-
-Si vous vous êtes inscrit à Dynamics 365 Business Central à l’aide d’un compte Microsoft 365 non professionnel, vous n’avez pas d’administrateur Microsoft 365. Pour annuler votre abonnement, vous devez contacter l’équipe d’annulation [!INCLUDE[prod_short](prod_short.md)] en lui envoyant un e-mail à l’adresse [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Vous devez inclure votre nom d’abonné [!INCLUDE[prod_short](prod_short.md)] dans le message de sorte que nous puissions vous identifier. Vous trouverez ces informations sur la page **Aide et support** à laquelle vous pouvez accéder depuis le **?** . Pour plus d’informations, voir [Ressources pour l’aide et l’assistance technique](../product-help-and-support.md).  
 
 ## <a name="trial-expiration-and-extension"></a>Expiration et prolongation de l’essai
 

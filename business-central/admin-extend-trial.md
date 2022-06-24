@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 756d40cb590a4944d0abbbd3c02991b5135eabb9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2da669b7bc7675c1af7143e0a4702ab6655a7bca
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381253"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805115"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Besoin de plus de temps pour décider si vous voulez vous abonner ?
 
@@ -52,8 +52,8 @@ Votre période d’essai prolongée a expiré, vous pouvez [vous abonner](https:
 
 ## <a name="see-also"></a>Voir aussi
 
+[Essais et abonnements (en anglais uniquement)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Création de sociétés](about-new-company.md)  
-[Versions d’évaluation et abonnements](across-preview.md)  
 [Comment trouver un partenaire revendeur ?](/dynamics365/business-central/across-faq#findpartner)  
 [Prolongement des périodes d’essai (en tant qu’administrateur)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Débuter en tant que revendeur de Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  

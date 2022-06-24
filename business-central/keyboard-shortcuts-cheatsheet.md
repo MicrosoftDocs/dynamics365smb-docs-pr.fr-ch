@@ -1,20 +1,20 @@
 ---
 title: Référence rapide de raccourcis clavier PC
 description: Feuille de référence imprimable contenant les raccourcis clavier les plus populaires pour les utilisateurs de PC.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 399dd54ea89937dc29def09831688642a9889742
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511612"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799549"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Référence rapide de raccourcis clavier - PC uniquement
 
@@ -27,6 +27,7 @@ ms.locfileid: "8511612"
 |Alt+Maj+N|Fermer un enregistrement nouvellement créé et en créer un nouveau|
 |Alt+O|Ajouter une nouvelle note pour l’enregistrement sélectionné|
 |Alt+Q|Ouvrir **Dites-moi**|
+|Ctrl+Alt+Q|Ouvrir **Rechercher des écritures**|
 |Alt+Haut|Ouvrir une info-bulle ou une erreur de validation|
 |Alt+Flèche bas|Ouvrir un menu déroulant ou une recherche|
 |Alt+T|Ouvrir la page **Mes paramètres**|
@@ -34,9 +35,9 @@ ms.locfileid: "8511612"
 |Ctrl+Inser|Insérer une nouvelle ligne sur un document|
 |Ctrl+Suppr|Supprimer la ligne sur un document, un journal ou une feuille de calcul|
 |Ctrl+Maj+F12|Maximiser la partie des éléments de ligne sur une page de document|
-|Ctrl+F1|Ouvrir l’aide de la page<br />Naviguer lors de la personnalisation|
+|Ctrl+F1|Ouvrir le volet d’aide ou un article d’aide|
 |Ctrl+Clic|Naviguer lors de la personnalisation|
-|Shift+F12|Ouvrir l’explorateur de rôles, une vue d’ensemble des fonctionnalités|
+|Maj+F12|Ouvrir l’explorateur de rôles, une vue d’ensemble des fonctionnalités|
 |F5/Ctrl+F5|Actualiser/recharger la page|
 |Tab/Maj+Tab|Déplacer le focus sur l’élément suivant/précédent|
 |F6/Maj+F6|Accéder au raccourci/à l’élément suivant|
