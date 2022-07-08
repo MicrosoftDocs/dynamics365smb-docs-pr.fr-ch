@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 59fd78c106f6a5b7d44aa3b2c84232c6441d0d31
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 00be9cdf2e76df93f144662e70bb8558e9b12a2e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517279"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076944"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Corriger ou annuler des factures vente impayées
 
@@ -37,7 +37,7 @@ Lorsque vous corrigez ou annulez une facture vente enregistrée, l’avoir vente
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Pour annuler une facture vente validée
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
 2. Sélectionnez la facture vente validée à annuler.
 
     > [!NOTE]  
@@ -53,7 +53,7 @@ Si l’annulation est liée à une validation de facture partielle, la ligne de 
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Pour corriger une facture vente validée
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
 2. Sélectionnez la facture vente validée à corriger.
 
     > [!NOTE]  
@@ -66,6 +66,8 @@ Si l’annulation est liée à une validation de facture partielle, la ligne de 
 
     Un avoir vente est automatiquement créé et validé pour annuler la facture vente validée initiale.
 5. Sélectionnez l’action **Afficher un avoir correctif** pour afficher l’avoir vente validé qui annule la facture vente validée initiale.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

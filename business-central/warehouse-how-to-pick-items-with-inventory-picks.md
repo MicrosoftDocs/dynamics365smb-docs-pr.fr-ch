@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: edb133005292c0309de09273b6a2c5c43669eeed
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8764fa82ef8bf408e85655b5a97719d9f649e7be
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514740"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078377"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Prélever des articles avec les prélèvements stock
 
@@ -35,7 +35,7 @@ Vous pouvez créer un prélèvement stock de trois manières :
 
 Pour les commandes vente, de retours achat et de désenlogements transfert, vous créez la demande entrepôt en lançant l’ordre. Ce qui suit décrit comment faire cela pour une commande vente.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
 2. Sélectionnez la commande vente que vous voulez lancer, puis sélectionnez l’action **Lancer**.
 
 Pour les ordres de fabrication, vous créez automatiquement la demande entrepôt pour le prélèvement de composants, appelé *consommation* lorsque le statut de l’ordre de fabrication passe à **Lancé** ou lorsque l’ordre de fabrication lancé est créé. Pour plus d’informations, voir [Prélever pour la fabrication ou l’assemblage](warehouse-how-to-pick-for-production.md).
@@ -46,7 +46,7 @@ Une fois la demande entrepôt créée, le magasinier affecté aux prélèvements
 
 Maintenant que la demande est créée, le magasinier peut créer un nouveau prélèvement stock sur la base du document origine lancé.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements stock**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements stock**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
     Assurez-vous que le champ **N°** du raccourci **Général** est rempli.
 3. Dans le champ **Document origine**, sélectionnez le type de document origine relatif au prélèvement.  
@@ -62,7 +62,7 @@ Maintenant que la demande est créée, le magasinier peut créer un nouveau pré
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Pour créer plusieurs prélèvements stock avec un traitement par lots
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Créer prélèv./rangement stock**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Créer prélèv./rangement stock**, puis choisissez le lien associé.  
 2. Sur le raccourci **Demande entrepôt**, utilisez les champs **Document origine** et **N° origine** pour opérer un filtrage sur certains types de documents ou des plages de numéros de document. Par exemple, vous pouvez créer des prélèvements uniquement pour des commandes vente.  
 3. Dans le raccourci **Options**, cochez la case **Créer rangement stock. prélèvement**.
 4. Cliquez sur le bouton **OK**. Les prélèvements stock spécifiés sont créés.
@@ -74,7 +74,7 @@ Maintenant que la demande est créée, le magasinier peut créer un nouveau pré
 
 ## <a name="to-record-the-inventory-picks"></a>Pour enregistrer les prélèvements stock
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvement stock**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvement stock**, puis choisissez le lien associé.  
 2. Dans le champ **Code emplacement** sur les lignes prélèvement, l’emplacement à partir duquel les articles doivent être prélevés est proposé sur la base d’un emplacement par défaut de l’article. Vous pouvez modifier l’emplacement sur la page, si nécessaire.  
 3. Exécutez le prélèvement et saisissez les informations pour la quantité effectivement rangée dans le champ **Quantité à traiter**.
 
@@ -111,6 +111,8 @@ Si un flux de résultats d’assemblage est paramétré pour le magasin, la vale
 Si aucun code magasin n’est spécifié sur la ligne commande vente et qu’aucun flux résultats d’assemblage n’est paramétré pour le magasin, le champ **Code emplacement** de la ligne prélèvement stock est vide. Le magasinier doit ouvrir la page **Contenu emplacement** et sélectionner l’emplacement où les articles d’assemblage sont assemblés.
 
 Dans les scénarios de combinaison, où une partie de la quantité doit d’abord être assemblée et l’autre doit être prélevée des stocks, un minimum de deux lignes prélèvement stock sont créées. Une ligne prélèvement est calculée pour la quantité à assembler pour commande. L’autre ligne prélèvement dépend des magasins dans lesquels les emplacements peuvent satisfaire la quantité restante du stock. Les codes emplacement sur les deux lignes sont renseignés de différentes manières comme indiqué pour les deux types vente différents respectivement. Pour plus d’informations, voir la section « Scénarios de combinaison » dans [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

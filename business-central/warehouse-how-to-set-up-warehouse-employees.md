@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7328, 7348
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7c04e2e81876628a8b6fe9534bb7ecdbb960bcc8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f0018b5ad58644783b24d2c3b3fd82ae83d132fb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511344"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075176"
 ---
 # <a name="set-up-warehouse-employees"></a>Configurer des employés d’entrepôt
 
@@ -22,19 +22,21 @@ Chaque utilisateur exerçant une activité dans un entrepôt doit être configur
 
 ## <a name="to-set-up-warehouse-employees"></a>Pour configurer des employés d’entrepôt  
 
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Sélectionnez le champ **Code utilisateur**, puis sélectionnez l’utilisateur à ajouter comme magasinier. Cliquez sur le bouton **OK**.  
 4. Dans le champ **Code magasin**, entrez le code du magasin dans lequel va travailler l’utilisateur.  
 5. Activez la case à cocher **Par défaut** pour définir le magasin comme seul emplacement pour les activités entrepôt de l’employé.  
 6. Répétez ces étapes pour affecter d’autres employés à des magasins ou affecter d’autres magasins à des employés d’entrepôt existants.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+
 ## <a name="see-also"></a>Voir aussi
 
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
-[Configuration de Warehouse Management](warehouse-setup-warehouse.md) 
-[Gestion nomenclature d’assemblage](assembly-assemble-items.md)
+[Stock](inventory-manage-inventory.md)  
+[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
+[Gestion des assemblages](assembly-assemble-items.md)  
 [Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

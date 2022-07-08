@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9dafc8e193ccf3c47947be6508a0917a45393c91
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 600b7e3117b4c75e1e6599c7b1e568c34e6bbbf1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950054"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078481"
 ---
 # <a name="get-started-creating-report-layouts"></a>Bien démarrer avec la création de présentations d’état
 
@@ -188,10 +188,11 @@ Suivez ces étapes si vous souhaitez modifier le nom et la description d’une p
 
 ## <a name="see-also"></a>Voir aussi
 
-[Gestion des présentations de rapport](ui-manage-report-layouts.md)
-[Utiliser des présentations Word](ui-how-add-fields-word-report-layout.md)  
+[Gestion des présentations d’état](ui-manage-report-layouts.md)  
+[Utilisation des présentations Word](ui-how-add-fields-word-report-layout.md)  
 [Utilisation des présentations Excel](ui-excel-report-layouts.md)  
 [Utilisation des états, des traitements par lots et des ports XML](ui-work-report.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

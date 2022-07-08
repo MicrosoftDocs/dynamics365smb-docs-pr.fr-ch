@@ -10,14 +10,15 @@ ms.search.keywords: online payment
 ms.search.forms: 1060, 1061, 1062
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 872b261e482a1d54839443f02a25fac8f191855c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7dad5bcdc5f3c98364bffc81787639e1f3ff11d2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520723"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074422"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Activer les paiements client via les services de paiement
+
 Au lieu de collecter des paiements par l’intermédiaire de transferts bancaires ou de cartes de crédit, vos clients peuvent vous payer via leur compte avec des services de paiement, tels que PayPal ou WorldPay.  
 
 Après avoir activé un service de paiement dans [!INCLUDE[prod_short](includes/prod_short.md)], un lien est disponible vers le service sur les documents vente que vous envoyez par e-mail à vos clients. Les clients peuvent utiliser le lien pour accéder au service de paiement et payer la facture, directement à partir du document vente. Si vous ne souhaitez pas inclure le lien, par exemple, si un client paie en liquide, vous pouvez supprimer le service de paiement de la facture avant la validation.  
@@ -25,7 +26,8 @@ Après avoir activé un service de paiement dans [!INCLUDE[prod_short](includes/
 Les extensions PayPal Payments Standard et WorldPay Payments Standard sont installées dans [!INCLUDE[prod_short](includes/prod_short.md)] et sont prêtes à être activées.  
 
 ## <a name="to-enable-a-payment-service-in-prod_short"></a>Pour activer un service de paiement dans [!INCLUDE[prod_short](includes/prod_short.md)]
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Services de paiement**, puis sélectionnez le lien associé.  
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Services de paiement**, puis sélectionnez le lien associé.  
 2. Sur la page **Services de paiement**, sélectionnez l’action **Nouveau**.  
 3. Sélectionnez le service de paiement, puis fermez la page.  
 4. Sur la page **Services de paiement**, sélectionnez l’action **Configuration**.  
@@ -33,14 +35,18 @@ Les extensions PayPal Payments Standard et WorldPay Payments Standard sont insta
 6. Fermez la page.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Pour sélectionner un service de paiement dans une facture vente
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.  
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.  
 2. Ouvrez la facture vente que vous souhaitez payer en utilisant le service de paiement.  
 3. Dans le champ **Service de paiement**, sélectionnez le service de paiement.  
 
     > [!NOTE]  
     > Le champ **Service de paiement** est uniquement disponible si vous avez activé le service de paiement.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Voir aussi
+
 [Définition des ventes](sales-setup-sales.md)  
 [Ventes](sales-manage-sales.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  

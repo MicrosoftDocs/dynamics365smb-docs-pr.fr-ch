@@ -10,12 +10,12 @@ ms.search.keywords: rfq
 ms.search.form: 41, 9300
 ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: 0264e689947745122d3de8879dc7e050aef3103f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7c3540b7ccc54cb4aed342e0963dd66a3a7adb88
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521743"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076424"
 ---
 # <a name="make-sales-quotes"></a>Créer des devis
 
@@ -27,7 +27,7 @@ Dans la plupart des cas, vous envoyez des devis aux clients potentiels. Vous ave
 
 ## <a name="to-create-a-sales-quote"></a>Pour créer un devis
 
-1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devis**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devis**, puis sélectionnez le lien associé.
 2. Spécifiez le contact ou le client auquel vous souhaitez envoyer le devis.
 
     - Si le devis concerne un contact existant, indiquez le nom dans le champ **N° de contact** .  
@@ -97,6 +97,8 @@ La conversion supprime le devis de la base de données. Une facture vente ou une
 ## <a name="external-document-number"></a>Numéro de document externe
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -10,14 +10,15 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01fd408e08dab78667eaa58bac55f39087b27f74
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 7a08a9f53329693a44a7da1e293561d27fff4b78
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655477"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075800"
 ---
 # <a name="customize-business-central"></a>Personnaliser Business Central
+
 Il existe différentes méthodes pour personnaliser l’application, afin de donner à vous et vos collègues l’accès aux fonctions, fonctionnalités et données dont vous avez le plus besoin, de la manière la mieux adaptée à vos opérations quotidiennes. L’accessibilité aux modifications dépend de ce que vous faites, comme décrit dans ce tableau.
 
 > [!NOTE]
@@ -32,7 +33,10 @@ Il existe différentes méthodes pour personnaliser l’application, afin de don
 > [!NOTE]
 > Tous les descriptions de fonctions de la documentation utilisateur de [!INCLUDE[prod_short](includes/prod_short.md)] assument l’expérience **Premium**, ce qui signifie que les descriptions couvrent la portée complète des éléments de l’interface utilisateur. Par conséquent, les utilisateurs avec l’expérience **Essentiel** peuvent dans certaines rubriques rencontrer des fonctionnalités et des éléments de l’interface utilisateur qui ne sont pas visibles dans leur interface utilisateur. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
+
 ## <a name="see-also"></a>Voir aussi
+
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -7,12 +7,12 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 56c564274e396d9699286b18d882c2a21f8721ef
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 88f445116f1b9897cabc2cc3756f6c6f414288c3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510702"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079027"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Personnalisation de Business Central Online à l’aide d’extensions
 
@@ -34,7 +34,7 @@ La première fois que vous lancez [!INCLUDE[prod_short](includes/prod_short.md)]
 Par exemple, Microsoft propose une extension qui fournit une intégration à PayPal Payments Standard. Cette extension est installée par défaut.
 Si une autre extension proposant une intégration à un autre service de paiement devenait disponible, vous pouvez installer cette nouvelle extension et choisir lequel des deux services vous souhaitez utiliser.  
 
-La page **Gestion des extensions** vous permet de gérer les extensions. Vous pouvez accéder à cette page à partir de la page d’accueil. Sinon, choisissez l’icône **Page ou état pour la recherche** ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") dans le coin supérieur droit, entrez **Extension**, puis sélectionnez le lien associé. Pour plus d’informations, consultez [Installation et désinstallation d’extensions](ui-extensions-install-uninstall.md).
+La page **Gestion des extensions** vous permet de gérer les extensions. Vous pouvez accéder à cette page à partir de la page d’accueil. Sinon, choisissez l’icône **Page ou état pour la recherche** ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") dans le coin supérieur droit, entrez **Extension**, puis sélectionnez le lien associé. Pour plus d’informations, consultez [Installation et désinstallation d’extensions](ui-extensions-install-uninstall.md).
 
 > [!NOTE]  
 > Si vous voulez accéder à une extension mais que vous ne pouvez pas trouver sa fonctionnalité, vérifiez la page **Gestion des extensions**, si l’extension n’est pas répertoriée, vous pouvez la configurer comme décrit dans la section suivante.  
@@ -82,6 +82,8 @@ Les partenaires et revendeurs Microsoft peuvent créer des extensions utilisable
 
 > [!NOTE]
 > Si vous êtes un partenaire ou un revendeur Microsoft et que vous souhaitez fournir une liste d’applications recommandées, consultez [Recommander des applications depuis AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

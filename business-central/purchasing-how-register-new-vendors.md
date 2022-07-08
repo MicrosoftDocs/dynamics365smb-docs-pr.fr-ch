@@ -10,12 +10,12 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: eaa10e4ed7890dd1e6cc8fb2fe76be7770689b75
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2c6b1b37398d0121c5c79bb0c9d9786abe14120f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521873"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074629"
 ---
 # <a name="register-new-vendors"></a>Enregistrer un nouveau fournisseur
 
@@ -32,6 +32,7 @@ Les fiches fournisseur contiennent les informations requises pour acheter des pr
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Ajouter de nouveaux fournisseurs
+
 Vous pouvez ajouter de nouveaux fournisseurs manuellement, en remplissant les champs sur la page **Fiche fournisseur**, ou vous pouvez utiliser des modèles contenant des informations prédéfinies. Par exemple, vous pouvez créer des modèles pour différents types de profils de fournisseurs. L’utilisation de modèles permet de gagner du temps lors de l’ajout de nouveaux fournisseurs et permet de garantir que les informations sont correctes à chaque fois. Si vous créez des modèles pour plusieurs types de fournisseurs, vous pouvez choisir le modèle à utiliser lorsque vous ajoutez un fournisseur. Si vous ne créez qu’un seul modèle, il sera utilisé pour tous les nouveaux fournisseurs. Après avoir créé un modèle, vous pouvez utiliser l’action **Appliquer le modèle** pour l’appliquer à un ou plusieurs fournisseurs sélectionnés. Pour créer un modèle, vous remplissez les informations que vous souhaitez réutiliser sur la page Fiche fournisseur, puis l’enregistrez en tant que modèle. Pour plus d’informations, consultez [Pour enregistrer la fiche fournisseur en tant que modèle](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
@@ -57,7 +58,6 @@ Vous pouvez modifier les informations des fiches fournisseur à tout moment. Tou
 > [!TIP]
 > Vous pouvez modifier l’IBAN sur le compte bancaire d’un fournisseur sans que le changement n’affecte vos écritures d’historique de registre de virements. Les écritures du registre des virements stockent l’IBAN du destinataire et le numéro de compte bancaire du destinataire qui ont été spécifiés dans les champs Compte bancaire du fournisseur et Nom du destinataire de la page Fiche fournisseur lorsque les écritures ont été créées.
 
-
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Pour enregistrer la fiche fournisseur en tant que modèle
 
 1. Sur la page **Fiche fournisseur**, sélectionnez l’action **Sauvegarder comme modèle**. La page **Modèle fournisseur** s’ouvre et affiche la fiche fournisseur comme modèle.
@@ -67,6 +67,8 @@ Vous pouvez modifier les informations des fiches fournisseur à tout moment. Tou
 5. Lorsque vous avez terminé le nouveau modèle fournisseur, cliquez sur le bouton **OK**.  
    Le modèle fournisseur est ajouté à la liste des modèles fournisseur. Vous pouvez ainsi l’utiliser pour créer des fiches fournisseur.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Voir aussi
 
 [Fusionner l’enregistrement des doublons](sales-how-merge-duplicate-records.md)  
@@ -74,5 +76,6 @@ Vous pouvez modifier les informations des fiches fournisseur à tout moment. Tou
 [Achats](purchasing-manage-purchasing.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

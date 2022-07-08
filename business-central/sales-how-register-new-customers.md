@@ -10,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: e0bd4ae513428cb951e4b8cc23fe46b91dd1f683
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 80544cf5d3e2f9e55fcf22037c7d44df98f22635
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520141"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076892"
 ---
 # <a name="register-new-customers"></a>Enregistrer de nouveaux clients
 
@@ -26,6 +26,7 @@ Avant de pouvoir enregistrer de nouveaux clients, vous devez configurer divers c
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Ajout de nouveaux clients
+
 Vous pouvez ajouter de nouveaux clients manuellement, en remplissant les champs sur la page **Fiche client**, ou vous pouvez utiliser des modèles contenant des informations prédéfinies. Par exemple, vous pouvez créer des modèles pour différents types de profils de client. L’utilisation de modèles permet de gagner du temps lors de l’ajout de nouveaux clients et permet de garantir que les informations sont correctes à chaque fois. Si vous créez des modèles pour plusieurs types de client, vous pouvez choisir le modèle à utiliser lorsque vous ajoutez un client. Si vous ne créez qu’un seul modèle, il sera utilisé pour tous les nouveaux clients. Après avoir créé un modèle, vous pouvez utiliser l’action **Appliquer le modèle** pour l’appliquer à un ou plusieurs client sélectionnés. Pour créer un modèle, vous remplissez les informations que vous souhaitez réutiliser sur la page Fiche client, puis l’enregistrez en tant que modèle. Pour plus d’informations, consultez [Pour enregistrer la fiche client en tant que modèle](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
 > [!TIP]
@@ -69,7 +70,7 @@ Vous pouvez choisir de ne pas afficher les alertes vous indiquant que le crédit
 
 ### <a name="to-specify-credit-limit-warnings"></a>Pour spécifier les alertes crédit autorisé
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres ventes**, puis choisissez le lien associé.
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres ventes**, puis choisissez le lien associé.
 
 2. Sur le raccourci **Général**, dans le champ **Alertes crédit**, choisissez l’option appropriée comme décrit dans le tableau suivant :
 
@@ -79,6 +80,8 @@ Vous pouvez choisir de ne pas afficher les alertes vous indiquant que le crédit
     |**Crédit autorisé**|Le programme compare la valeur du champ **Crédit autorisé** de la fiche client et le solde du client, et affiche une alerte si le solde du client dépasse ce montant.|
     |**Solde échu**|Le champ **Solde dû** de la fiche client est contrôlé et une alerte s’affiche si le client a un solde échu.|
     |**Aucune alerte**|Aucune alerte n’est affichée sur le statut du client.|
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 991df58fde5f525772d5b9eeadbf802429965575
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dcc7b1586f50d3d9436d237592279007f38c05fa
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517435"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077256"
 ---
 # <a name="trace-item-tracked-items"></a>Tracer des articles - Articles suivis
+
 Vous pouvez voir où un article suivi a été utilisé, y compris le mode et le moment de réception ou de production, de transfert, de vente, de consommation ou de retour. Vous pouvez également rechercher toutes les instances d’informations d’un numéro de série ou de lot particulier dans la base de données. Vous procédez à l’aide des fonctionnalités Traçabilité et [Rechercher des écritures](ui-find-entries.md).  
 
 Ces fonctions sont particulièrement utiles pour le contrôle qualité, lorsque vous devez déterminer quels clients ont reçus des produits correspondant à un numéro de lot particulier ou le lot dont provenait un composant défectueux.  
@@ -30,7 +31,7 @@ Ces fonctions sont particulièrement utiles pour le contrôle qualité, lorsque 
 
 ## <a name="to-trace-item-tracked-items"></a>Pour tracer des articles suivis  
 
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Traçabilité**, puis choisissez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Traçabilité**, puis choisissez le lien associé.  
 2.  Dans les champs de filtre dans le haut de la page, entrez les numéros d’article spécifiques ou un filtre pour les numéros d’article que vous voulez suivre.  
 3.  Dans le champ **Afficher composants**, sélectionnez si vous voulez aussi voir d’où provenaient les composants des articles. Le tableau suivant décrit les options.  
 
@@ -59,10 +60,12 @@ Ces fonctions sont particulièrement utiles pour le contrôle qualité, lorsque 
 
 ## <a name="to-find-item-tracked-items-with-find-entries"></a>Pour rechercher des articles suivis avec Rechercher des écritures  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Rechercher des écritures**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Rechercher des écritures**, puis sélectionnez le lien associé.  
 2. Choisissez **Actions** > **Rechercher par** > **Rechercher par référence d’article**.
 3. Dans les champs **N° de série** et **N° lot**, entrez les numéros traçabilité que vous voulez suivre.  
 4. Sélectionnez l’action **Rechercher** pour rechercher toutes les instances du numéro de série ou de lot dans la base de données.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/prepare-item-tracking/)
 
 ## <a name="see-also"></a>Voir aussi
 

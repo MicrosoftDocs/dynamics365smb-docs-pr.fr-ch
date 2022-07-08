@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550,
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: 883a2d75b2d12f87a49eb84a6b545da30310274c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f458f1dca9f2aa23fcc7942ad6556b1d86848b5f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518014"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074837"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Effectuer le suivi des articles avec les numéros lot, de série et paquet
 
@@ -52,7 +52,7 @@ Les sociétés peuvent également effectuer le suivi des articles dès leur arri
 
 De cette façon, les numéros sont automatiquement transférés à travers toutes les activités d’entrepôt sortantes sans interaction des magasiniers.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.  
 2. Ouvrez une commande achat existante ou créez une commande achat.
 3. Sélectionnez la ligne document appropriée et dans le raccourci **Lignes**, sélectionnez l’action **Ligne**, puis l’action **Lignes traçabilité** pour ouvrir la page **Modifier – Lignes traçabilité**.  
 
@@ -91,7 +91,7 @@ La fonctionnalité prend en charge les processus sortants suivants :
 
 Dans tous ces cas, les lignes traçabilité préexistantes sont automatiquement copiées dans la facture ou l’avoir. La page **Lignes traçabilité** ne permet toutefois pas de changer les numéros de série ou de lot. Seules les quantités peuvent être modifiées.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.  
 2. Ouvrez une facture achat pour les articles achetés avec des numéros de série ou de lot.  
 3. À partir d’une ligne facture achat, sur le raccourci **Lignes**, sélectionnez l’action **Extraire lignes réception**.  
 4. Sur la page **Extraire lignes réception**, sélectionnez la ligne réception avec des lignes traçabilité, puis cliquez sur le bouton **OK**.  
@@ -160,7 +160,7 @@ Les procédures de traitement des numéros de série et de lot transférés entr
 
 Toutefois, l’ordre de transfert est unique dans le sens où l’expédition et la réception sont effectuées à partir de la même ligne transfert et, par conséquent, utilisent la même instance de la page **Lignes traçabilité**. Cela signifie que les numéros traçabilité expédiés d’un magasin doivent être reçus intacts dans l’autre magasin.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Ordres de transfert**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Ordres de transfert**, puis sélectionnez le lien associé.  
 2. Ouvrez l’ordre de transfert à traiter. Dans le raccourci **Lignes**, cliquez sur l’action **Ligne**, sélectionnez l’action **Lignes traçabilité**, puis sélectionnez l’action **Expédition**.  
 3. Sur la page **Lignes traçabilité**, affectez ou sélectionnez des numéros de série ou de lot, comme pour toute autre transaction article sortante.  
 
@@ -190,7 +190,7 @@ Vous pouvez modifier ultérieurement les fiches d’informations de série ou de
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Pour modifier des informations relatives au numéro de série ou de lot
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Sélectionnez un article qui comporte un code traçabilité et des informations de numéro de série ou de lot.
 3. Sur la page **Fiche article**, choisissez l’action **Écritures**, puis choisissez **Écritures comptables**.
 4. Cliquez sur le champ **N° lot** ou **N° de série**. S’il existe des informations en relation avec ce numéro de traçabilité article, alors la page **Liste information n° lot** ou **Liste information n° de série** s’ouvre.  
@@ -203,7 +203,7 @@ Vous ne pouvez pas modifier les numéros de série ou de lot ni les quantités. 
 
 Le reclassement de la traçabilité pour un article consiste à remplacer un numéro de lot ou de série par un autre ou à remplacer la date de péremption par une autre. Si vous travaillez avec des lots, vous pouvez fusionner plusieurs lots en un seul. Vous traitez ces tâches à l’aide de la feuille reclassement.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille reclassement article**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille reclassement article**, puis choisissez le lien associé.  
 2. Renseignez la ligne à l’aide des informations appropriées. Pour plus d’informations, voir [Faire l’inventaire à l’aide de documents](inventory-how-count-inventory-with-documents.md) ou [Comptabiliser, ajuster et reclasser le stock avec les feuilles](inventory-how-count-adjust-reclassify.md).
 3. Choisissez l’action **Lignes traçabilité**.  
 4. Dans le champ **N° de série** ou **N° lot**, sélectionnez le numéro de série/lot actuel.  
@@ -225,6 +225,8 @@ Le reclassement de la traçabilité pour un article consiste à remplacer un num
 
 8. Si vous voulez modifier les informations existantes du numéro de lot ou de série, vous pouvez enregistrer des informations de lot ou de série.  
 9. Validez la feuille pour lier les nouveaux numéros traçabilité ou dates d’expiration à l’écriture comptable article qui leur est associée.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/prepare-item-tracking/)
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 56757c07ae0bbc41ae2ac9fad6bc3318a1d0ab93
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 171e046e68cd3eaabbb10b0e1aeacb508cbc76b4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520427"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078141"
 ---
 # <a name="creating-cost-budgets"></a>Création des budgets des coûts
 
@@ -22,7 +22,7 @@ La budgétisation en comptabilité analytique ressemble à la budgétisation en 
 
 Un budget de coûts est créé pour une certaine période, par exemple, un exercice comptable. Vous pouvez créer autant de budgets de coûts que vous le souhaitez. Vous pouvez créer un budget de coûts manuellement, en important un budget de coûts ou en copiant un budget de coûts existant comme base budgétaire. Pour plus d’informations, voir [Créer des budgets comptabilité](finance-how-create-budgets.md).
 
-Vous utilisez les pages suivantes pour créer et analyser les budgets de coûts. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") pour trouver une page, puis lisez l’info-bulle pour chacune.
+Vous utilisez les pages suivantes pour créer et analyser les budgets de coûts. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") pour trouver une page, puis lisez l’info-bulle pour chacune.
 
 |À|Voir|  
 |--------|---------|  
@@ -32,11 +32,13 @@ Vous utilisez les pages suivantes pour créer et analyser les budgets de coûts.
 |Consultez les registres du budget des coûts et les écritures correspondantes.|Page **Registres du budget des coûts**|  
 |Imprimez les comparaisons budgétaires de coûts à l’aide de divers états.|État **Budget/Solde comptabilité analytique**<br /><br /> État **Budget/Relevé comptabilité analytique**<br /><br /> État **Budget des coûts par centre de coûts**<br /><br /> État **Budget des coûts par coûts associés**|  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/cost-accounting-reports-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Voir aussi
 
 [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  
 [Créer des budgets comptabilité](finance-how-create-budgets.md)  
-[Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)   
+[Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)  
 [Définition et répartition des coûts](finance-define-and-allocate-costs.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

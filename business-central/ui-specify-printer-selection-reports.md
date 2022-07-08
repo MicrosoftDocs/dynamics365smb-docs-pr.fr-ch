@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e9c7cc2166581c318ff8febcf112765b4f78923c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 86f808aca7223115a3124d24dfc517ed6f96ae33
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655306"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075670"
 ---
 # <a name="set-up-printers"></a>Paramétrage imprimantes
 
@@ -143,7 +143,7 @@ L′ajout d′imprimantes individuellement vous permet de configurer plusieurs f
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des imprimantes**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des imprimantes**, puis sélectionnez le lien associé.
 2. Sélectionnez **l′impression universelle**, puis l’une des options suivantes :
 
     - **Ajouter toutes les imprimantes l′impression universelle** pour ajouter toutes les imprimantes qui ne sont pas déjà ajoutées. Vous pouvez utiliser cette option même si des imprimantes ont déjà été ajoutées. 
@@ -203,7 +203,7 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 La page **Gestion des imprimantes** affiche les imprimantes configurées actuellement. La page vous donne également accès à la page **Paramètres** pour chaque imprimante pour modifier une configuration existante ou configurer une nouvelle imprimante.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des imprimantes**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des imprimantes**, puis sélectionnez le lien associé.
 2. Sélectionner **Imprimer par e-mail**, puis choisissez **Ajouter une imprimante e-mail**.
 3. Sur la page **Paramètres de l′imprimante par e-mail**, renseignez les champs nécessaires. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -227,7 +227,7 @@ Il existe plusieurs façons de configurer les imprimantes qui seront utilisées 
 
 La page **Gestion des imprimantes** vous permet de configurer une imprimante comme imprimante par défaut pour tous les travaux d′impression. Vous pouvez spécifier l′imprimante par défaut pour vous uniquement ou pour tous les utilisateurs.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des imprimantes**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des imprimantes**, puis sélectionnez le lien associé.
 
     > [!TIP]
     > Vous pouvez également ouvrir la page **Gestion des imprimantes** de la page **Sélections d′imprimantes** en choisissant **Gestion des imprimantes**.  
@@ -243,7 +243,7 @@ La page **Sélections d′imprimantes** vous permet de spécifier l′imprimante
 > [!IMPORTANT]
 > Pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site, la page **Sélections d′imprimantes** ne peut être utilisée que pour les imprimantes cloud définies par les extensions d′imprimante, telles que les imprimantes Impression par e-mail et l′impression universelle. Elle ne peut pas être utilisée pour les imprimantes locales.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélections d’imprimantes**, puis sélectionnez le lien associé. Sinon, sur la page **Gestion des imprimantes**, sélectionnez une imprimante, puis l’action **Sélections d’imprimantes**.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélections d’imprimantes**, puis sélectionnez le lien associé. Sinon, sur la page **Gestion des imprimantes**, sélectionnez une imprimante, puis l’action **Sélections d’imprimantes**.
 2. Choisissez l’action **Nouveau** pour ajouter une sélection d’imprimante pour un état spécifique.
 3. Renseignez les champs selon vos besoins.
 
@@ -269,11 +269,14 @@ Vous pouvez ou l’administrateur peut également utiliser la page **Sélections
 > Des sélections d’imprimantes plus spécifiques prévalent sur des sélections d’imprimantes plus générales. Par exemple, une sélection d’imprimante ayant des valeurs dans les champs **ID utilisateur**, **ID état** et **Nom de l’imprimante** prévaut sur une sélection d’imprimante ayant des entrées vides dans le champ **ID utilisateur** ou **ID état**.
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Choix de l’imprimante pendant l’exécution d’un rapport
+
 Au lieu d’utiliser l’imprimante par défaut lors de l’exécution d’un rapport, vous pouvez remplacer ce paramètre à partir de la page de demande. Choisissez simplement l’imprimante que vous souhaitez utiliser pour cette invocation du rapport dans le menu déroulant **Imprimante**.
 
 ### <a name="sizing-print-jobs"></a>Dimensionnement des travaux d’impression
 
 L’impression cloud est conçue pour des documents de taille raisonnable. La plupart des services cloud, y compris PrintNode et HP ePrint, ont une limite de 10 Mo par tâche. Si vous devez imprimer des rapports plus volumineux, vous devrez peut-être les diviser en plusieurs impressions.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

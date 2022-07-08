@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d46916a96a55cf71c6b018fc66b4165c742b632
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 730308e265f7a3fef3ad4a8069ea3f5c6bf0a7d2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518590"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078403"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Prélever des articles pour l’expédition entrepôt
+
 Lorsque le magasin est configuré pour appeler un traitement de prélèvement entrepôt et un traitement d’expédition entrepôt, vous pouvez utiliser les documents prélèvement entrepôt pour créer et traiter les informations préalables à la validation de l’expédition entrepôt.  
 
 Vous ne pouvez pas créer de toutes pièces un document prélèvement entrepôt car une activité de prélèvement fait toujours partie d’un flux de travail, soit dans un scénario d’extraction, soit dans un scénario de déplacement.  
@@ -36,8 +37,9 @@ Vous pouvez également créer des documents prélèvement entrepôt en mode pous
 >   
 >  Pour plus d’informations sur le prélèvement de composants pour les ordres d’assemblage en général, notamment les situations où l’élément d’assemblage n’est pas dû dans une expédition vente, voir [Prélever pour la fabrication ou l’assemblage](warehouse-how-to-pick-for-production.md).  
 
-## <a name="to-pick-items-for-warehouse-shipment"></a>Pour prélever des articles pour l’expédition entrepôt  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements**, puis choisissez le lien associé.  
+## <a name="to-pick-items-for-warehouse-shipment"></a>Pour prélever des articles pour l’expédition entrepôt
+
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements**, puis choisissez le lien associé.  
 
     Si vous souhaitez travailler à un prélèvement particulier, sélectionnez-le dans la liste ou filtrez cette dernière afin de trouver les prélèvements qui vous ont été spécifiquement affectés. Ouvrez la fiche prélèvement.  
 2.  Si le champ **ID utilisateur affecté** est vide, entrez votre ID pour vous identifier si nécessaire.  
@@ -54,6 +56,7 @@ La personne responsable de l’expédition peut alors apporter les articles au q
 En plus de prélever les documents origine, comme indiqué dans cette rubrique, vous pouvez prendre et placer les articles entre les emplacements sans faire référence aux documents origine. Pour plus d’informations, voir [Prélever et ranger sans document origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
 ## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Traitement des articles à assembler pour commande dans les expéditions entrepôt
+
 Dans des scénarios d’assemblage pour commande, le champ **Qté à expédier** sur les lignes expédition entrepôt est utilisé pour enregistrer le nombre d’unités assemblées. La quantité spécifiée est ensuite validée comme résultats d’assemblage lorsque l’expédition entrepôt est validée.
 
 Pour d’autres lignes expédition entrepôt, la valeur du champ **Qté à expédier** est zéro dès le début.
@@ -72,10 +75,13 @@ Une fois l’expédition entrepôt validée, divers champs de la ligne commande 
 
 > Dans ce cas, la quantité à assembler pour commande est traitée comme décrite dans cette rubrique, et la quantité en stock est traitée comme toute autre ligne expédition entrepôt normale. Pour plus d’informations sur les scénarios de combinaison, consultez [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+
+## <a name="see-also"></a>Voir aussi
+
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
-[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
+[Stock](inventory-manage-inventory.md)  
+[Configuration de Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

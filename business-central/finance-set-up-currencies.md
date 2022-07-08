@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: f36d255c555c9ac83205a675bc7647cb02e0b3c2
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
+ms.openlocfilehash: e501f61f61aec9d9ffc4acd9607ee6b9cf22e74f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419690"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074915"
 ---
 # <a name="set-up-currencies"></a>Configurer des devises
 
@@ -81,9 +81,9 @@ Le tableau suivant décrit les actions clés sur la page **Devises**.
 
 Pour gérer les devises qui n’utilisent pas de décimales et pour éviter l’emploi de décimales inutiles dans les devises étrangères, vous pouvez utiliser deux fonctions d’arrondi différentes :
 
-- Arrondi montant unité  
+- arrondi montant unité ;  
 
-- Arrondi montant  
+- arrondi montant.  
 
 Ces fonctions peuvent fonctionner indépendamment ou conjointement. En outre, les fonctions peuvent fonctionner avec l’arrondi facture.
 
@@ -109,15 +109,20 @@ Vous pouvez conserver les taux de change historiques sur la page **Taux de chang
 
 ## <a name="general-ledger-accounts"></a>Comptes généraux
 
-Vous ne pouvez pas associer de codes devise aux comptes généraux car les montants de ces derniers sont en devise locale. Si vous disposez d’un prêt bancaire en USD et placez des acomptes dans un compte bancaire en SEK, vous pouvez suivre ces comptes en configurant les comptes bancaires en USD et SEK. Avec les groupes comptabilisation, vous pouvez associer les comptes aux comptes généraux appropriés. Dans la comptabilité, la valeur des montants est indiquée en devise société (DS).
+Vous ne pouvez pas associer de codes devise aux comptes généraux car les montants de ces derniers sont en devise locale. Si vous disposez d’un prêt bancaire en USD et placez des acomptes dans un compte bancaire en SEK, vous pouvez suivre ces comptes en configurant les comptes bancaires en USD et SEK. Avec les groupes comptabilisation, vous pouvez associer les comptes aux comptes généraux appropriés. Dans la comptabilité, la valeur des montants est indiquée en devise locale (DS).
 
-Vous pouvez entrer un code devise sur une ligne feuille comptabilité et valider celle-ci dans un compte général. Le taux de change adéquat permet de convertir le montant en devise société (DS) avant sa validation dans le compte général.  
+Vous pouvez entrer un code devise sur une ligne feuille comptabilité et valider celle-ci dans un compte général. Le taux de change adéquat permet de convertir le montant en devise locale (DS) avant sa validation dans le compte général.  
 
 ## <a name="example-of-a-receivable-currency-transaction"></a>Exemple de transaction en devise comptabilité
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/currencies-exchange-rates-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Voir aussi
 
 [Mettre à jour des taux de change devise](finance-how-update-currencies.md)  
 [Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

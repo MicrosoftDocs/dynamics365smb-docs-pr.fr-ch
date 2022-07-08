@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8f938adf6a7629c4f9aedde32c4f8f10cb6f20e6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0594134585fe85540c7ed87e1588fd218b7a561a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513408"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074473"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procédure pas à pas : Prélèvement et expédition dans les configurations de stockage de base
 
@@ -67,6 +67,7 @@ Ellen, la gestionnaire d’entrepôt de CRONUS, configure l’entrepôt SUD pour
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
 ### <a name="setting-up-the-bin-codes"></a>Configuration des codes emplacement
+
 Une fois que vous avez configuré le magasin, vous devez ajouter deux emplacements.
 
 #### <a name="to-setup-the-bin-codes"></a>Pour configurer les codes emplacement
@@ -80,7 +81,7 @@ Pour utiliser cette fonctionnalité, vous devez vous ajouter au magasin en tant 
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>Pour vous ajouter en tant que magasinier
 
-  1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me pour la première fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
+  1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche pour la première fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
   2. Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Magasiniers**.
   3. Dans le champ **Code magasin**, entrez SUD.  
   4. Sélectionnez le champ **Par défaut**, puis cliquez sur le bouton **Oui**.  
@@ -89,7 +90,7 @@ Pour utiliser cette fonctionnalité, vous devez vous ajouter au magasin en tant 
 
 Pour rend l’article 1928-S disponible dans le magasin SUD, suivez cette procédure :  
 
-  1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me pour la deuxième fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles article**, puis choisissez le lien associé.  
+  1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche pour la deuxième fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles article**, puis choisissez le lien associé.  
   2. Ouvrez la feuille par défaut, puis créez deux lignes feuille article avec les informations de date de travail suivantes (23 janvier).  
 
         |Type écriture|Numéro d’article|Code magasin|Code emplacement|Quantité|  
@@ -108,7 +109,7 @@ Les commandes vente sont le type de document d’origine sortant le plus répand
 
 ### <a name="to-create-the-sales-order"></a>Pour créer la commande vente
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me pour la troisième fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche pour la troisième fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Créez une commande vente pour le client 10000 à la date de travail (23 janvier) comportant la ligne commande vente suivante.  
 
@@ -128,7 +129,7 @@ Sur la page **Prélèvement stock**, vous pouvez gérer toutes les activités en
 
 ### <a name="to-pick-and-ship-items"></a>Pour prélever et expédier des articles
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me pour la quatrième fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements stock**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche pour la quatrième fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements stock**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 
     Assurez-vous que le champ **N°** du raccourci **Général** est rempli.
@@ -142,6 +143,8 @@ Sur la page **Prélèvement stock**, vous pouvez gérer toutes les activités en
 6. Choisissez l’action **Valider**, sélectionnez **Expédier**, puis cliquez sur le bouton **OK**.  
 
     Les 30 lampes Amsterdam sont à présent enregistrées comme prélevées depuis les emplacements S-01-0001 et S-01-0002, et une écriture comptable article négative est créée pour refléter l’expédition vente validée.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

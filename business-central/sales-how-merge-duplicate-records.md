@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3068a64df18b184df1cefe42b7a268f5f633a596
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 412dd6ae2842c408ac0a4be7be369c01019a814b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510676"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074500"
 ---
 # <a name="merge-duplicate-records"></a>Fusionner les doublons d’enregistrements
+
 Puisque différents utilisateurs créent de nouvelles fiches contact, fournisseur ou client au fil du temps, ou puisque de nouveaux enregistrements sont créés automatiquement pendant la migration, un client, fournisseur ou contact peut être représenté dans le système avec plusieurs enregistrements. Dans ce cas, vous pouvez utiliser la page **Fusionner le doublon** depuis la fiche de l’enregistrement que vous souhaitez conserver. La page vous donne un aperçu des valeurs de champ dupliquées et vous fournit des fonctions pour sélectionner quelles valeurs conserver ou ignorer lors de la fusion des deux enregistrements en un seul.
 
 > [!NOTE]
@@ -27,7 +28,7 @@ Puisque différents utilisateurs créent de nouvelles fiches contact, fournisseu
 
 La procédure suivante se base sur une fiche article. La procédure est identique pour les fiches fournisseur ou contact.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Sélectionnez le client pour lequel vous savez, ou vous supposez, qu’il existe un doublon d’enregistrement, puis sélectionnez l’action **Modifier**.
 3. Sur la page **Fiche client**, sélectionnez l’action **Fusionner avec**.
 4. Sur la page **Fusionner le doublon**, dans le champ **Fusionner avec**, sélectionnez le client pour lequel vous soupçonnez qu’il existe un doublon de celui que vous avez ouvert, indiqué dans le champ **Actuel**.
@@ -61,7 +62,10 @@ La procédure suivante se base sur une fiche article. La procédure est identiqu
 > [!NOTE]
 > Pour les contacts, vous pouvez utiliser la fonctionnalité pour trouver des doublons de contact avant d’utiliser la page **Fusionner le doublon**. Pour plus d’informations, reportez-vous à la rubrique [Recherche de doublons de contact](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Voir aussi
+
 [Ventes](sales-manage-sales.md)  
 [Configurer les contacts](marketing-setup-contacts.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

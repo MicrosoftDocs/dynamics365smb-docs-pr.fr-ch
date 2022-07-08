@@ -1,8 +1,6 @@
 ---
 title: Configurer les informations pour les contacts| Microsoft Docs
 description: Décrit les tâches pour spécifier les informations et les codes, par exemple, sur les secteurs d’activité et les relations d’affaires, avant de paramétrer des contacts.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ad7cb81559b27ffe1bb715cac30a4286d77f47da
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2f325a332093765e35a807bc4a9d4fede88f7150
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516124"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074811"
 ---
 # <a name="set-up-contacts"></a>Configurer les contacts
 Lors de la création de contacts, vous pouvez saisir des informations spécifiques, telles que le secteur d’activité du contact et votre relation d’affaires avec elles.

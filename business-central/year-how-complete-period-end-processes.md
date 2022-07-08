@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 8803669a32df335275e9419cf247e501c408a2f9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b8ff6bebf418a5473e2a53bfc8021d8f47d71abf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514272"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079469"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Aperçu des tâches de clôture des périodes comptables
 
@@ -62,6 +62,8 @@ ms.locfileid: "8514272"
 ## <a name="calculate-and-process-sales-tax"></a>Calculez et traitez la Sales Tax.
 
 * Renseignez les déclarations de TVA.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

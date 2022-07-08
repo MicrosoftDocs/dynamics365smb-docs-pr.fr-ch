@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc6530a17e98d36a3f26e68e6231306aebfdda1d
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 9a5ec7fb14adc453eb29c49474109b17d35d177b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729790"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076918"
 ---
 # <a name="make-drop-shipments"></a>Effectuer des livraisons directes
 
@@ -58,7 +58,7 @@ Vous pouvez également utiliser la demande achat pour créer la commande achat d
 
 L’avantage d’utiliser la demande achat est qu’elle peut créer des commandes achat pour toutes les livraisons directes en attente. Cela signifie que vous n’avez pas à créer chacune individuellement.
 
-1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Demandes achat**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Demandes achat**, puis choisissez le lien associé.
 2. Choisissez l’action **Livraisons directes**, puis choisissez l’option **Extraire commande vente**.
 3. Cliquez sur le bouton **OK**.
 4. Passez en revue les lignes commande achat et, dans le champ **N° fournisseur**, sélectionnez le fournisseur qui fournit les marchandises requises. 
@@ -72,11 +72,13 @@ L’avantage d’utiliser la demande achat est qu’elle peut créer des command
 
 Lorsque le fournisseur a expédié les articles, vous pouvez valider la commande vente comme envoyée. Vous pouvez également valider la commande achat, mais uniquement avec l’option **Réceptionner** jusqu’à ce que la commande vente ait été facturée.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
 2. Ouvrez les commandes vente que vous avez créées dans [Pour créer une commande vente pour une livraison directe](#to-create-a-sales-order-for-drop-shipment).
 3. Dans le champ **Qté à expédier**, spécifiez la quantité de commandes à envoyer, la quantité de commandes partielles ou totales.
 4. Sélectionnez l’action **Valider** ou **Valider et envoyer**.
 5. Sélectionnez l’option **Livrer** pour facturer ultérieurement ou l’option **Livrer et facturer** pour facturer immédiatement.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

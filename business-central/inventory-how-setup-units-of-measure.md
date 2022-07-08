@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6457750589393b2f8cc9d76e732ab0c3e6064a9d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8b03ca934a87573feded023311f01349066f886c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518040"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074863"
 ---
 # <a name="set-up-units-of-measure"></a>Configuration d’unités
 
@@ -31,7 +31,7 @@ Un autre outil qui facilite l’utilisation de plusieurs unités de mesure pour 
 
 ## <a name="to-set-up-units-of-measure"></a>Pour configurer des unités
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Unités de mesure**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Unités de mesure**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. Une nouvelle ligne vide est insérée.  
 3. Remplissez les champs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Si vous savez que votre organisation vendra des articles avec cette unité à des clients dans d’autres pays, vous pouvez ajouter des traductions.  
@@ -44,7 +44,7 @@ Lorsque vous enregistrez un nouvel article, vous pouvez choisir l’unité de ba
 
 ## <a name="to-set-up-multiple-item-units-of-measure"></a>Pour configurer plusieurs unités article
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
 2. Ouvrez la fiche article pour laquelle vous souhaitez configurer des unités de remplacement.
 3. Choisissez l’action **Unités de mesure**. La page **Unités article** s’ouvre.
 4. Si le champ **Unité de base** de la fiche article est renseigné, cette unité est déjà installée.
@@ -64,7 +64,7 @@ Vous pouvez maintenant utiliser les unités de remplacement sur les documents ac
 
 Lorsque vous vendez des articles à des clients étrangers, vous pouvez être amené à indiquer l’unité dans leur langue. Vous pouvez le faire en spécifiant des traductions pour les unités de mesure.
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Unités de mesure**, puis choisissez le lien associé.
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Unités de mesure**, puis choisissez le lien associé.
 2. Sélectionnez le code pour lequel vous souhaitez définir des traductions, puis cliquez sur **Traductions**.
 3. Dans le champ **Code langue**, sélectionnez la flèche déroulante pour visualiser la liste des codes langue disponibles. Sélectionnez le code langue pour lequel vous souhaitez entrer une traduction, puis choisissez le bouton OK pour copier le code dans le champ.
 4. Dans le champ **Désignation**, saisissez le texte approprié.
@@ -74,11 +74,13 @@ Lorsque vous vendez des articles à des clients étrangers, vous pouvez être am
 
 Si vous utilisez habituellement d’autres unités que l’unité de base pour vos achats et vos ventes, vous pouvez indiquer des unités distinctes. Pour cela, vous devez configurer les unités sur la page **Unités article**.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
 2. Ouvrez la fiche article appropriée pour laquelle vous souhaitez indiquer un code unité par défaut pour les achats et les ventes.
 3. Pour les ventes, sur le raccourci **Facturation**, dans le champ **Unité de vente**, ouvrez la page **Unités article**.
 4. Pour les achats, sur le raccourci **Réapprovisionnement**, dans le champ **Unité d’achat**, ouvrez la page **Unités article**.
 5. Sélectionnez le code que vous souhaitez configurer comme unité par défaut pour les ventes ou les achats respectivement, puis cliquez sur le bouton **OK**.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

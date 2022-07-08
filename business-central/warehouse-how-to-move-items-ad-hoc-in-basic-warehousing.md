@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.form: 393, 7382
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: aa3c8b246d83ac222b4ceeb43124c835ca955850
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 08e8d8a0f8507f1b67d5209d8e76a5f1268d2548
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520619"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078455"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Déplacer des articles ad hoc dans les configurations de stockage de base
+
 Vous pouvez être amené à déplacer des articles d’un emplacement interne vers un autre (et non vers des emplacements de réception ou d’expédition) sans demande spécifique issue d’un document origine. Vous pouvez exécuter ces mouvements ad hoc, par exemple, pour réorganiser l’entrepôt, pour acheminer des articles vers une zone d’inspection, ou pour déplacer des articles supplémentaires vers et depuis une zone de production sans qu’il existe une relation système avec le document origine de l’ordre de fabrication.  
 
 Dans les configurations d’entrepôt de base, où les magasins utilisent le champ de configuration **Emplacement obligatoire** et éventuellement les champs **Prélèvement requis** et **Rangement requis**, vous pouvez enregistrer des mouvements ad hoc sans documents origine en procédant comme suit :  
@@ -28,15 +29,16 @@ Dans les configurations d’entrepôt de base, où les magasins utilisent le cha
 > [!NOTE]  
 >  Dans les configurations d’entrepôt avancées, où les magasins utilisent le champ de configuration **Prélèv. et rangement suggérés**, vous utilisez la page **Feuille mouvement** ou les pages **Prélèvement interne entrepôt** ou **Rangement interne entrepôt** pour déplacer des articles ad hoc entre différents emplacements.  
 
-## <a name="to-move-items-as-an-internal-movement"></a>Pour déplacer des articles en tant que mouvement interne  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Mouvement interne**, puis sélectionnez le lien associé.  
+## <a name="to-move-items-as-an-internal-movement"></a>Pour déplacer des articles en tant que mouvement interne
+
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Mouvement interne**, puis sélectionnez le lien associé.  
 2.  Sur le raccourci **Général**, renseignez le champ **N°**. en le laissant tel quel ou en cliquant sur le bouton **AssistEdit** pour effectuer une sélection parmi la souche de numéros.  
 3.  Dans le champ **Code magasin**, entrez le magasin où le mouvement a lieu.  
 
     Si le magasin est configuré comme votre magasin par défaut en tant que magasinier, le code magasin est inséré automatiquement.  
 4.  Dans le champ **Vers code emplacement**, entrez le code de l’emplacement vers lequel vous souhaitez déplacer l’article. Pour la production, il s’agit du code emplacement des consommations ou du code emplacement atelier ouvert, par exemple, tel qu’il est défini sur la fiche magasin ou dans le centre de charge.  
 5.  Dans le champ **Date d’échéance**, entrez la date à laquelle le mouvement doit être terminé.  
-6.  Sur le raccourci **Lignes**, cliquez sur le champ **N° article** pour ouvrir la page **Liste contenus emplacement**, puis sélectionnez l’article à déplacer sur la base de sa disponibilité dans les emplacements. Vous pouvez également choisir l’action **Extraire contenu emplacement** pour renseigner les lignes mouvement internes sur la base des filtres. Pour plus d’informations, voir l’info-bulles pour l’action **Extraire contenu emplacement**.   
+6.  Sur le raccourci **Lignes**, cliquez sur le champ **N° article** pour ouvrir la page **Liste contenus emplacement**, puis sélectionnez l’article à déplacer sur la base de sa disponibilité dans les emplacements. Vous pouvez également choisir l’action **Extraire contenu emplacement** pour renseigner les lignes mouvement internes sur la base des filtres. Pour plus d’informations, voir l’info-bulles pour l’action **Extraire contenu emplacement**.  
 
     Lorsque vous avez sélectionné l’article, le champ **Du code emplacement** est renseigné automatiquement en fonction du contenu d’emplacement sélectionné, mais vous pouvez le remplacer par un autre emplacement dans lequel l’article est disponible.  
 
@@ -57,8 +59,10 @@ Dans les configurations d’entrepôt de base, où les magasins utilisent le cha
     Vous effectuez le reste du mouvement ad hoc sur la page **Mouvement de stock** de la même manière que pour un mouvement basé sur des documents origine. Pour plus d’informations, voir par exemple [Déplacer les composants vers une zone opérations dans les configurations de stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Pour déplacer des articles avec la feuille reclassement article
-Au lieu d’utiliser des documents mouvement entrepôt, vous pouvez enregistrer le déplacement d’articles en reclassant leurs codes emplacement. Pour plus d’informations, voir [Inventaire, ajustement et reclassement du stock avec les journaux](inventory-how-count-adjust-reclassify.md).   
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille reclassement article**, puis choisissez le lien associé.  
+
+Au lieu d’utiliser des documents mouvement entrepôt, vous pouvez enregistrer le déplacement d’articles en reclassant leurs codes emplacement. Pour plus d’informations, voir [Inventaire, ajustement et reclassement du stock avec les journaux](inventory-how-count-adjust-reclassify.md).
+
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille reclassement article**, puis choisissez le lien associé.  
 2.  Sur chaque ligne feuille, définissez les emplacements depuis et vers lesquels vous souhaitez déplacer des articles en renseignant les champs **Code emplacement** et **Nouveau code emplacement**.  
 
     1.  Pour déplacer tout le contenu d’un emplacement à un autre, choisissez l’action **Extraire contenu emplacement**.  
@@ -69,11 +73,14 @@ Au lieu d’utiliser des documents mouvement entrepôt, vous pouvez enregistrer 
     > [!NOTE]  
     >  Contrairement aux documents mouvement, un mouvement validé avec la feuille reclassement ne crée pas de demande entrepôt pour effectuer la tâche physique.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+
+## <a name="see-also"></a>Voir aussi
+
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
-[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
-[Gestion des assemblages](assembly-assemble-items.md)    
+[Stock](inventory-manage-inventory.md)  
+[Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
+[Gestion des assemblages](assembly-assemble-items.md)  
 [Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9325, 99000815, 99000829, 9900083
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 814770db81744306120445a509325cff8502041d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b47525b8f552cb4446497a0edafa7661aa25f17b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516863"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074733"
 ---
 # <a name="create-production-order-headers"></a>Créer des en-têtes O.F.
 
@@ -26,12 +26,12 @@ La procédure suivante s’appuie sur un ordre de fabrication planifié ferme. V
 
 ## <a name="to-create-a-production-order-header"></a>Pour créer un en-tête O.F.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Dans le champ **N°**, insérez le numéro suivant de la souche.  
 4. Dans le champ **Type origine**, sélectionnez la source de l’ordre de fabrication.
 
-Vous pouvez choisir de produire une famille d’articles. Pour plus d’informations, voir [Utiliser les familles de production](production-how-work-family.md).
+    Vous pouvez choisir de produire une famille d’articles. Pour plus d’informations, voir [Utiliser les familles de production](production-how-work-family.md).
 5. Dans le champ **N° origine**, sélectionnez le numéro d’article, la famille, ou l’en-tête vente pour lequel l’ordre de fabrication doit être créé.  
 6. Renseignez les champs **Quantité** et **Délai** en fonction de vos spécifications.  
 

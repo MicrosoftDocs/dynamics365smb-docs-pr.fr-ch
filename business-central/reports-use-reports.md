@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
-ms.openlocfilehash: e96ccd4ab5f64776379b7c70a0d7f58f5f56ce05
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d3eca2b850e189045257cd6c979db3017d72323a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144868"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077907"
 ---
 # <a name="use-reports-in-daily-work"></a>Utiliser les rapports dans le travail quotidien
 
@@ -30,8 +30,11 @@ Un rapport dans [!INCLUDE[prod_short](includes/prod_short.md)] rassemble des inf
 | Vous exécutez un rapport avec les mêmes options et filtres ? Découvrez comment utiliser les paramètres enregistrés dans la page de demande | [Gestion des paramètres d’états enregistrés](reports-saving-reusing-settings.md)|
 | Vous souhaitez modifier la disposition par défaut d’un rapport ? | [Modification de la disposition de rapport par défaut](ui-how-change-layout-currently-used-report.md) |
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Voir aussi
 
+[Présentation du rapport](reports-available-reports.md)  
 [Vue d’ensemble de Business Intelligence et Reporting](ui-work-report.md)
 
 

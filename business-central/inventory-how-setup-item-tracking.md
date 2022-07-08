@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: f4fedcf64f560cef7e4b2f96d5baf884161fd75e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: be30d89ca6ad6c80b27b0cc8f5e619b6ad5c7782
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511573"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078037"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Configuration du suivi des articles avec les numéros lot, de série et paquet
 
@@ -35,7 +35,7 @@ En fonction de votre configuration, vous utilisez ces différents numéros pour 
 
 Les codes traçabilité reflètent les différents positionnements d’une société par rapport à l’utilisation des numéros de série et de lot pour les articles qu’elle traite.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes traçabilité**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes traçabilité**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Sur les raccourcis **N° de série**, **N° lot**, et le **N° paquet**, définissez des règles de traçabilité par numéros de série, de lot et de paquet respectivement.  
@@ -52,7 +52,7 @@ Comme ce champ de configuration couvre toutes les transactions réalisables avec
 
 Pour certains articles, vous pouvez configurer des règles et des dates d’expiration spécifiques dans le code traçabilité. Cette fonctionnalité permet d’effectuer le suivi de la date d’expiration de numéros de série et de lot spécifiques.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes traçabilité**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes traçabilité**, puis choisissez le lien associé.
 2. Sélectionnez un code traçabilité existant, puis sélectionnez l’action **Modifier**.  
 3. Sur le raccourci **Divers**, sélectionnez les champs suivants :  
 
@@ -66,7 +66,7 @@ Pour certains articles, vous pouvez configurer des règles et des dates d’expi
 
 Pour certains articles, vous souhaitez peut-être configurer des garanties spécifiques dans le code traçabilité. Cette fonctionnalité vous permet d’effectuer le suivi de la date d’expiration des garanties concernant des numéros de série ou de lot spécifiques de votre stock.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes traçabilité**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Codes traçabilité**, puis choisissez le lien associé.  
 2. Sélectionnez un code traçabilité existant, puis sélectionnez l’action **Modifier**.  
 3. Sur le raccourci **Divers**, renseignez le champ **Formule date garantie**, puis sélectionnez les champs comme suit :  
 
@@ -80,15 +80,17 @@ Pour certains articles, vous souhaitez peut-être configurer des garanties spéc
 
 Pour activer la traçabilité, vous devez d’abord attribuer les codes traçabilité à un article. Il existe deux façons d’ajouter des codes traçabilité, en sélectionnant le code dans une liste prédéfinie ou en attribuant un nouveau code unique. Positionnez le curseur sur les champs pour lire une brève description.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Article**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Article**, puis choisissez le lien associé.
 2. Sélectionnez un élément existant dans la liste et ouvrez la page **Fiche article**.  
 3. Sur le raccourci **Traçabilité**, attribuez les codes traçabilité appropriés et choisissez les **Code traçabilité**, **N° de série** et **N° lot**.
     1. Vous pouvez également créer un code traçabilité en sélectionnant l’action **Nouveau**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+
 ## <a name="see-also"></a>Voir aussi
 
-[Utiliser des numéros de série et lot](inventory-how-work-item-tracking.md)
-[Suivi d’articles – traçabilité](inventory-how-to-trace-item-tracked-items.md)  
+[Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)  
+[Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
 [Stock](inventory-manage-inventory.md)  
 [Détails de conception : traçabilité](design-details-item-tracking.md)  
 [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  

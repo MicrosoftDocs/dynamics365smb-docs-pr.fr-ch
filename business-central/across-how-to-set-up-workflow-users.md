@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3026ab37ced1f1529d2a9fee2e22aeccce557c53
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 57d106918230007484f37979b416d44277c86035
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522393"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075149"
 ---
 # <a name="set-up-workflow-users"></a>Configurer des utilisateurs de flux de travail
 
@@ -31,7 +31,7 @@ Les utilisateurs de flux de travail dont la fonction est utilisateurs approbatio
 
 ## <a name="to-set-up-a-workflow-user"></a>Configurer un utilisateur de workflow
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Groupes utilisateur workflow**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Groupes utilisateur workflow**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. La page **Groupe d’utilisateurs du flux de travail** s’ouvre.  
 3. Dans le champ **Code**, entrez 20 caractères maximum pour identifier le flux de travail.  
 4. Dans le champ **Description**, décrivez le workflow.  
@@ -43,6 +43,8 @@ Les utilisateurs de flux de travail dont la fonction est utilisateurs approbatio
     |**N° séquence**|Spécifiez l’ordre dans lequel l’utilisateur du flux de travail s’engage dans un flux par rapport à d’autres utilisateurs. Ce champ peut être utilisé, par exemple, pour indiquer à quel moment l’utilisateur approuve, par rapport à d’autres approbateurs, lorsque vous utilisez l’option **Groupe d’utilisateurs de flux de travail** dans le champ **Type approbateur** de la réponse de flux de travail lié. **CONSEIL :**  pour indiquer qu’une demande d’approbation n’est pas approuvée tant que plusieurs approbateurs de même niveau ne l’ont pas approuvée, quelle que soit la hiérarchie, configurez un groupe d’utilisateurs horizontal en affectant le même numéro de séquence aux approbateurs appropriés.|  
 6. Répétez l’étape 5 pour ajouter des utilisateurs de workflow dans le groupe d’utilisateurs.  
 7. Répétez l’étape 2 à 6 pour ajouter des groupes d’utilisateurs de workflow.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-workflows/)
 
 ## <a name="see-also"></a>Voir aussi
 

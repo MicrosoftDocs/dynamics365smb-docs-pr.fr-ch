@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01c8b40b5217faccabc93e931472ad3aad64b7a1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521061"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075619"
 ---
 # <a name="design-details-assembly-order-posting"></a>Détails de conception : validation d’ordre d’assemblage
 La validation d’ordre d’assemblage est basée sur les mêmes principes que la validation des activités similaires des commandes vente et de la consommation de production/production. Cependant, les principes sont combinés du fait que les ordres d’assemblage ont leur propre interface utilisateur de validation, comme celle des commandes vente, alors que la validation des écritures réelle se produit en arrière-plan en tant que validations directes d’article et de feuille ressource, comme pour la consommation de production, la production et la capacité.  
@@ -108,8 +108,15 @@ Les écritures comptables article de type Vente qui résultent de la validation 
 
 La validation de lignes commande vente dont une partie est une quantité en stock et une autre partie est une quantité à assembler pour commande entraîne la création d’écritures comptables article distinctes, une pour la quantité en stock et une pour la quantité à assembler pour commande.  
 
+### <a name="posting-dates"></a>Dates comptabilisation
+
+En général, les dates comptabilisation sont copiées d’une commande client vers l’ordre d’assemblage lié. La date comptabilisation dans l’ordre d’assemblage est automatiquement mise à jour lorsque vous modifiez la date comptabilisation dans la commande client directement ou indirectement, par exemple si vous modifiez la date comptabilisation dans l’expédition d’entrepôt, le prélèvement de stock ou dans le cadre d’une validation groupée.
+
+Vous pouvez modifier manuellement la date comptabilisation dans l’ordre d’assemblage. Cependant, elle ne peut pas être postérieure à la date comptabilisation dans la commande client liée. Le système conservera cette date, à moins que vous ne mettiez à jour la date comptabilisation dans la commande client.
+
+
 ## <a name="see-also"></a>Voir aussi  
- [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
+ [Détails de conception : stock évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : validation d’ordre de fabrication](design-details-production-order-posting.md)   
  [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  

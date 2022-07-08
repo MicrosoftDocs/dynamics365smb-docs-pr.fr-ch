@@ -10,12 +10,12 @@ ms.search.keywords: item, finished good, component, raw material, assembly item,
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 83ebbe21771c8836e6998747733b82f5e4999c83
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 893efecd282352ac44d10e15983a8f0f3923b224
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522055"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075462"
 ---
 # <a name="register-new-items"></a>Enregistrer de nouveaux articles
 
@@ -71,7 +71,7 @@ Si vous souhaitez enregistrer des articles qui sont ensuite utilisés dans des o
 
 Si vous achetez le même article chez plusieurs fournisseurs, vous devez saisir, pour chacun des fournisseurs de cet article des informations concernant, par exemple, ses prix, ses délais, ses escomptes, etc.  
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Sélectionnez l’article concerné, puis cliquez sur l’action **Modifier**.  
 3. Sélectionnez l’action **Fournisseurs**.  
 4. Cliquez sur le champ **N° fournisseur**, puis sélectionnez le fournisseur à paramétrer pour l’article.  
@@ -86,7 +86,7 @@ Vous pouvez configurer des articles pour qu’ils aient des substituts, tels que
 
 ### <a name="to-make-an-item-substitution"></a>Pour affecter le statut de substitut à un article
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Recherchez l’article concerné, puis cliquez sur le **N° article** pour ouvrir la fiche article.  
 3. Choisissez l’action **Association**, **Article**, puis **Substitutions** pour ouvrir la page Saisie de substitution d’article.  
 4. Sélectionnez le champ **N° substitut**, puis sélectionnez l’article de substitution dans la liste.
@@ -116,6 +116,8 @@ Si votre organisation configure ultérieurement la gestion de l’entrepôt, dan
 Lorsque votre entreprise utilise les processus de planification des approvisionnements dans [!INCLUDE [prod_short](includes/prod_short.md)], vous devez remplir les champs correspondants sur le raccourci **Planification**. Pour une introduction à la zone de planification, voir [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md).  
 
 Pour des exemples d’utilisation des champs du raccourci **Planification**, voir [Configurer des recommandations : paramètres de planification](setup-best-practices-planning-parameters.md).  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-items/)
 
 ## <a name="see-also"></a>Voir aussi
 

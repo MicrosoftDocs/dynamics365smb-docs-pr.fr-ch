@@ -10,12 +10,12 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 02/03/2022
 ms.author: kepontop
-ms.openlocfilehash: a51175dc5dd124b58ef92e87ab6874f04e4bea41
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b7a806b3e12298fe493b943cf57446c824a5c34
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144894"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076970"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Vue d’ensemble de Business Intelligence et Reporting
 
@@ -30,14 +30,16 @@ Les petites et moyennes entreprises répondent sur des analyses et des rapports 
 | Découvrez comment intégrer des outils de veille économique externes avec [!INCLUDE[prod_short](includes/prod_short.md)].| [Outils externes de Business Intelligence](reports-external-analysis.md) |
 |Apprenez à modifier la mise en page des rapports ou même à développer vos propres rapports à partir de rien. |[Élaboration de rapports](reports-develop-reports.md)|
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Voir aussi
 
-[Utiliser les rapports dans le travail quotidien](reports-use-reports.md)
-[Présentation du rapport](reports-available-reports.md)
-[Analyse de données ad hoc](reports-adhoc-analysis.md)
-[Analytique intégrée](reports-built-in-analytics.md)
-[Outils externes de Business Intelligence](reports-external-analysis.md)
-[Élaboration de rapports](reports-develop-reports.md)
+[Utiliser les rapports dans le travail quotidien](reports-use-reports.md)  
+[Présentation du rapport](reports-available-reports.md)  
+[Analyse de données ad hoc](reports-adhoc-analysis.md)  
+[Analytique intégrée](reports-built-in-analytics.md)  
+[Outils externes de Business Intelligence](reports-external-analysis.md)  
+[Élaboration de rapports](reports-develop-reports.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

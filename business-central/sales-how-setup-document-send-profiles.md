@@ -1,8 +1,6 @@
 ---
 title: Paramétrer les méthodes préférées d’envoi des documents vente (contient une vidéo) | Microsoft Docs
 description: Décrit comment configurer la méthode préférée de chaque client pour l’envoi de documents vente, par exemple par e-mail, au format PDF, sous forme de document électronique, etc.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 38072f85f88e5c5ae64f6ceb30e9585a8abe7841
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d858c39b26ae75446bd73fc09f8df3845c1fb73d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519058"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076398"
 ---
 # <a name="set-up-document-sending-profiles"></a>Configurer des profils d’envoi de documents
 Vous pouvez associer chaque client avec une méthode par défaut d’envoi de documents vente, afin d’éviter d’avoir à sélectionner une option d’envoi chaque fois que vous sélectionnez l’action **Valider et envoyer**.
@@ -29,12 +27,12 @@ Lorsque vous sélectionnez l’action **Valider et envoyer** dans un document ve
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH?rel=0]
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Configurer un profil d’envoi de documents
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Profils d’envoi de documents**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Profils d’envoi de documents**, puis choisissez le lien associé.
 2. Sur la page **Profils d’envoi de documents**, sélectionnez l’action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Spécifier un profil d’envoi pour une fiche client
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Ouvrez la fiche du client pour laquelle vous souhaitez configurer un profil d’envoi.
 3. Dans le champ **Profil d’envoi de documents**, sélectionnez un profil configuré comme décrit dans la procédure précédente.
 

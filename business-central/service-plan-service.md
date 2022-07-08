@@ -1,8 +1,6 @@
 ---
 title: Planification des processus de service
 description: Cette rubrique décrit les différentes tâches permettant de configurer des règles et des valeurs pour définir vos stratégies de services et vos processus de vente.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: a255601103526cf633101e9f59155af21082a5f9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 157ac179e51330cc5d9606872a8a121a4bbb67f2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380895"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077569"
 ---
 # <a name="planning-services"></a>Services de planification
 Grâce à [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez configurer les tâches standard qui permettent de répondre aux besoins du service clientèle. Pour cela, vous devez déterminer quels articles et offres de service sont pris en charge par votre organisation de prestation de services, et à quel prix.   

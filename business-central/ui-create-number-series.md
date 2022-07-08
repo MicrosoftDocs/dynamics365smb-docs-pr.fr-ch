@@ -10,12 +10,12 @@ ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: ad82c9aa86210c5f89e24fcced0af70751788ef8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: cef011656fcd705a598d54719d4f7328debb8cea
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510624"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077491"
 ---
 # <a name="create-number-series"></a>Création des souches de numéros
 
@@ -65,7 +65,7 @@ Lorsque vous ouvrez un nouveau document ou une nouvelle fiche pour lequel il exi
 
 ## <a name="to-create-a-new-number-series"></a>Pour créer des souches de numéros
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Souches de n°**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Souches de n°**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Nouveau**.  
 3. Sur la nouvelle ligne, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Sélectionnez l’option **Lignes**.  
@@ -81,7 +81,7 @@ Vous pouvez attribuer des souches de numéros aux modèles que vous configurez p
 
 Si vous avez défini plusieurs codes souche de numéros pour un même type d’informations ou de transactions de base, vous pouvez créer des liens entre ces codes. Cette fonction peut vous aider à choisir parmi ces codes lorsque vous utilisez un numéro. Lorsque vous établissez un lien entre plusieurs souches de numéros, vous associez toutes les souches de numéros liées à un code souche de numéros. Ensuite, vous pouvez entrer ce code dans un champ sur le Raccourci **Numérotage** dans l’une des pages de configuration pertinentes, telles que **Paramètres ventes**.  
 
-1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Souches de n°**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Souches de n°**, puis choisissez le lien associé.
 2. Sélectionnez la ligne avec la souche de numéros pour laquelle vous souhaitez créer des relations, puis cliquez sur **Relations**.
 3. Dans le champ **Code souche**, entrez le code de la souche de numéros à lier à la souche sélectionnée à l’étape 2.
 4. Ajoutez une ligne pour chaque code à lier à la souche de numéros sélectionnée.
@@ -93,16 +93,15 @@ Désormais, pour créer un élément nécessitant un numéro, vous pourrez utili
 
 La procédure suivante indique comment définir des souches de numéros pour la zone Ventes. La procédure est identique pour d’autres secteurs.  
 
-1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres ventes**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres ventes**, puis choisissez le lien associé.
 2. Sur la page **Ventes**, dans le raccourci **Souche de numéros**, sélectionnez la souche de numéros souhaitée pour chaque fiche ou document vente.
 
 Le numéro sélectionné est désormais utilisé pour renseigner le champ **N°** sur la fiche ou le document en question, en fonction des paramètres définis sur la ligne souche de numéros.  
 
-
-
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
+
 [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

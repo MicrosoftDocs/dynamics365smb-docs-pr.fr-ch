@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fe69109b512ea0e37c4564e08e1d35eb82e898c9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521295"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077751"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Créer des flux de travail pour connecter des tâches de processus entreprise
 
@@ -47,7 +47,7 @@ Pour les deux types d’événements, les événements sont définis par le syst
 
 ## <a name="to-create-a-workflow"></a>Pour créer un workflow
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. La page **Flux de travail** s’ouvre.  
 3. Dans le champ **Code**, entrez 20 caractères maximum pour identifier le workflow.  
 4. Pour créer le flux de travail à partir d’un modèle de flux de travail, dans la page **Flux de travail**, choisissez l’action **Créer le flux de travail à partir du modèle**. Pour plus d’informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -110,13 +110,13 @@ Pour les deux types d’événements, les événements sont définis par le syst
 > N’activez pas un workflow tant que vous n’êtes pas sûr qu’il est terminé et que les étapes de workflow concernées peuvent démarrer.  
 
 > [!TIP]  
-> Pour voir les relations entre les tables utilisées dans les flux de travail, sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") puis entrez **Flux de travail - Relations de table**.  
+> Pour voir les relations entre les tables utilisées dans les flux de travail, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") puis entrez **Flux de travail - Relations de table**.  
 
 ## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Exemple de création d’un nouveau flux de travail à l’aide d’événements existants
 
 Dans l’exemple suivant, un nouveau flux de travail est créé pour approuver les modifications apportées au nom d’un fournisseur existant :
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. La page **Flux de travail** s’ouvre.
 3. Dans la section Flux de travail, renseignez les champs requis comme indiqué dans le tableau suivant.
 
@@ -178,6 +178,8 @@ Les illustrations suivantes donnent un aperçu du résultat de cette procédure.
 :::image type="content" source="media/Workflows/workflow-example-2.png" alt-text="Illustration du flux de travail Approbation du nom du fournisseur.":::
 
 Ensuite, vous devez et tester le flux de travail en ouvrant un fournisseur existant et en changeant le nom. Vérifiez qu’une demande d’approbation est effectuée lors de la modification du nom du fournisseur.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-workflows/)
 
 ## <a name="see-also"></a>Voir aussi
 

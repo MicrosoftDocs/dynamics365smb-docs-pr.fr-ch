@@ -10,12 +10,12 @@ ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 6a3d7244beef57a1b5a82b881ec193316fe968fe
-ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
+ms.openlocfilehash: 779c2ac1b043cee6f2578f3a642a26a8bb3156c8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "8841881"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079547"
 ---
 # <a name="calculate-dates-for-purchases"></a>Calculer les dates des achats
 
@@ -59,14 +59,16 @@ Si vous modifiez la date de commande sur la ligne, [!INCLUDE[prod_short](include
 
 Vous pouvez spécifier manuellement la formule de date sur les lignes. Sinon, [!INCLUDE[prod_short](includes/prod_short.md)] utilisera les formules qui sont définies sur les pages suivantes dans l’ordre de priorité suivant :
 
-1. Catalogue d'articles par fournisseur
+1. Catalogue d’articles par fournisseur
 2. Fiche article
 3. Fiche point de stock
 4. Fiche fournisseur
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/estimate-receipt-dates-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Voir aussi
 
-[Calcul de la date des ventes](sales-date-calculation-for-sales.md)   
+[Calcul de la date des ventes](sales-date-calculation-for-sales.md)  
 [Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 04ef2fdd1020444711257230688fea927332ed83
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 1cfb8fcb086b258ece6de68850b627c19f3bfbcd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626280"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075852"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Enregistrer la consommation ou l′utilisation pour les projets
 
@@ -27,7 +27,7 @@ Les procédures suivantes décrivent comment enregistrer les quantités (budgét
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Pour enregistrer l’utilisation d’une ligne planning projet de type Budget
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez le projet concerné, puis cliquez sur **Lignes planning projet**.
 3. Sélectionnez une ligne planning projet de type **Budget** ou **Budget et Facturable** pour laquelle vous voulez enregistrer une utilisation.  
 
@@ -49,7 +49,7 @@ Les procédures suivantes décrivent comment enregistrer les quantités (budgét
 
 ## <a name="to-create-job-journal-lines-manually"></a>Pour créer des lignes feuille projet manuellement
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
 2. Dans le champ **Nom de la feuille**, choisissez un nom de feuille projet approprié.  
 3. Dans une nouvelle ligne, entrez le numéro de document, le numéro de projet, le numéro tâche projet, le type et la quantité du type consommé.  
 4. Lorsque les lignes feuilles projets sont renseignées, cliquez sur **Valider**.  
@@ -63,7 +63,7 @@ Cela vous permet de suivre vos estimations initiales, de les comparer aux résul
 > [!NOTE]  
 >   Les écritures article créent des écritures comptables article et diminuent les articles en stock. Le traitement par lots **Valider coûts ajustés** permet de transférer le coût du stock à la comptabilité. Les écritures ressource créent des écritures comptables ressource.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
 2. Sélectionnez une feuille projet appropriée, puis cliquez sur l’action **Calc. utilisation restante**.  
 3. Sur la page **Projet Calc. utilisation restante**, entrez le numéro et la date de comptabilisation du document devant être insérés dans la feuille, puis sélectionnez le bouton **OK**.  
 4. Mettez à jour la feuille avec toutes les modifications qui peuvent être nécessaires.  
@@ -79,13 +79,13 @@ Vous pouvez utiliser les actions dans les conditions suivantes :
 * Le **Statut** du projet est **Ouvert**.
 * Le **Type de ligne** de la ligne de planning du projet est **Budget** ou **Budget et Facturable**.
 * Le **Type** de la ligne de planning du projet est **Article**.
-* **Prélèvement requis** est activé pour l'emplacement associé.
+* **Prélèvement requis** est activé pour l’emplacement associé.
 * **Prélèv. et rangement dirigés** est désactivé.
 
 > [!NOTE] 
 > Bien que le paramètre s’appelle **Prélèvement requis**, vous pouvez toujours valider la consommation directement à partir de la ligne du journal des tâches pour l’emplacement. Si votre magasin est configuré pour exiger un traitement des prélèvements mais pas des expéditions, utilisez la page **Prélèvement stock** pour organiser et imprimer les informations de prélèvement. Vous utilisez également la page pour saisir et afficher le résultat du prélèvement, qui à son tour affiche la consommation des articles. 
 > 
-> Lorsque le magasin est configuré pour appeler un traitement de prélèvement et d’expédition, ce qui implique que vous avez activé les champs **Prélèvement requis** et **Expédition requise** sur la page **Fiche magasin**, utilisez le document **Prélèvement entrepôt** pour gérer le retrait. Les prélèvements entrepôt sont similaires aux prélèvements stock. La différence est qu'au lieu d'afficher les informations de prélèvement, vous enregistrez le prélèvement. Ce processus d’enregistrement ne valide pas la consommation, il rend simplement les articles disponibles pour la validation. En tant que responsable d’entrepôt, vous pouvez utiliser une feuille de calcul pour organiser les informations de prélèvement avant de créer les instructions de prélèvement d’entrepôt individuelles
+> Lorsque le magasin est configuré pour appeler un traitement de prélèvement et d’expédition, ce qui implique que vous avez activé les champs **Prélèvement requis** et **Expédition requise** sur la page **Fiche magasin**, utilisez le document **Prélèvement entrepôt** pour gérer le retrait. Les prélèvements entrepôt sont similaires aux prélèvements stock. La différence est qu’au lieu d’afficher les informations de prélèvement, vous enregistrez le prélèvement. Ce processus d’enregistrement ne valide pas la consommation, il rend simplement les articles disponibles pour la validation. En tant que responsable d’entrepôt, vous pouvez utiliser une feuille de calcul pour organiser les informations de prélèvement avant de créer les instructions de prélèvement d’entrepôt individuelles
 
 
 ## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Pour consulter les lignes planning pour une écriture comptable projet
@@ -95,11 +95,14 @@ Après avoir validé les lignes feuilles projets, vous pouvez voir les lignes pl
 > [!NOTE]  
 > Cela nécessite que la case **Appliquer le lien d′utilisation** soit cochée pour le projet. Pour plus d’informations, voir [Configuration de projets](projects-how-setup-jobs.md).  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
 2. Sélectionnez une feuille projet appropriée, puis cliquez sur **Écritures comptables**.  
 3. Sur la page **Écritures comptables projet**, cliquez sur **Afficher les lignes planning projet liées**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/post-job-usage-sales/)
+
 ## <a name="see-also"></a>Voir aussi
+
 [Gestion de projets](projects-manage-projects.md)  
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)         

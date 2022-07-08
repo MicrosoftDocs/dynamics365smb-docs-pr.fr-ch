@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: b9453285ce1bf18f3eeef3c3148f6dd00921c03f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1c5314d8aba0b31d02491da1e588f7a23c83a38
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510832"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078975"
 ---
 # <a name="set-up-time-sheets"></a>Paramétrer des feuilles de temps
 
@@ -65,7 +65,7 @@ Les sections suivantes décrivent comment configurer des feuilles de temps si vo
 
 ### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Pour configurer manuellement des informations générales pour les feuilles de temps
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration des ressources.**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration des ressources.**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Sélectionnez l’une des options suivantes pour le champ **Feuille de temps par approbation de projet**.
 
@@ -77,7 +77,7 @@ Les sections suivantes décrivent comment configurer des feuilles de temps si vo
 
 ### <a name="to-assign-a-time-sheet-administrator-manually"></a>Pour affecter manuellement un administrateur de feuille de temps
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres utilisateur**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres utilisateur**, puis choisissez le lien associé.  
 2. Ajoutez un nouvel utilisateur (si la personne que vous souhaitez désigner en tant qu’administrateur de feuille de temps ne figure pas dans la liste des utilisateurs). Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
 3. Sélectionnez l’utilisateur qui deviendra l’administrateur de feuille de temps et sélectionnez la case à cocher **Admin. feuille de temps**.  
 
@@ -86,7 +86,7 @@ Les sections suivantes décrivent comment configurer des feuilles de temps si vo
 
 ### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>Pour affecter manuellement un propriétaire et un approbateur de feuille de temps
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Ressources**, puis choisissez le lien associé.
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Ressources**, puis choisissez le lien associé.
 2. Sélectionnez la ressource pour laquelle vous souhaitez configurer la capacité d’utiliser des feuilles de temps, puis sélectionnez la case à cocher **Utiliser la feuille de temps**.  
 3. Entrez l’ID du propriétaire de la feuille de temps dans le champ **ID utilisateur du propriétaire de la feuille de temps**. Le propriétaire peut entrer le temps d’utilisation dans une feuille de temps et la soumettre pour approbation. En règle générale, lorsque la ressource est une personne, cette personne est également le propriétaire.  
 4. Entrez l’ID de l’approbateur de la feuille de temps dans le champ **ID utilisateur de l’approbateur de la feuille de temps**. L’approbateur peut approuver, rejeter ou rouvrir une feuille de temps.  
@@ -94,12 +94,14 @@ Les sections suivantes décrivent comment configurer des feuilles de temps si vo
 > [!NOTE]  
 > Vous ne pouvez pas modifier l’ID de l’approbateur de feuille de temps s’il existe des feuilles de temps qui n’ont pas encore été traitées et dont le statut est **Soumis** ou **En cours**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+
 ## <a name="see-also"></a>Voir aussi
 
 [Utiliser des feuilles de temps pour des projets](projects-how-use-time-sheets.md)  
-[Pour créer des feuilles de temps](projects-how-use-time-sheets.md#to-create-time-sheets)  
+[Procédure : créer des feuilles de temps](projects-how-use-time-sheets.md#to-create-time-sheets)  
 [Enregistrer la consommation ou l′utilisation pour les projets](projects-how-record-job-usage.md)  
-[Configuration de la gestion de projet](projects-setup-projects.md)  
+[Configuration de la gestion de projets](projects-setup-projects.md)  
 [Gestion de projets](projects-manage-projects.md)  
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)  

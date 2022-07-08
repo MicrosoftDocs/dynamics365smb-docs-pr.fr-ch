@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d4d2134945f0beb15853bc9cca227cde74285c9d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520089"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074531"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procédure pas à pas : Configuration et utilisation d’un flux d’approbation achat
 
@@ -51,7 +51,7 @@ Une fois connecté comme vous-même, définissez Alicia en tant qu’utilisateur
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Pour configurer votre propre profil et celui d’Alicia en tant qu’utilisateurs approbation
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres utilisateur approbation**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres utilisateur approbation**, puis choisissez le lien associé.  
 2. Sur la page **Paramètres utilisateur approbation**, sélectionnez l’action **Nouveau**.  
 
     > [!NOTE]  
@@ -85,7 +85,7 @@ Créez le flux d’approbation de commande d’achat en copiant les étapes du m
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Pour créer et activer un flux d’approbation de commande d’achat
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
 2. Sur la page **Flux de travail**, sélectionnez **Actions**, puis sélectionnez **Nouveau**, puis choisissez l’action **Créer flux de travail à partir du modèle**.  
 3. Sur la page **Modèles de flux de travail**, sélectionnez le modèle de flux de travail nommé **Flux de travail approbation commande achat**.  
 
@@ -99,7 +99,7 @@ Utilisez le nouveau Flux de travail approbation commande achat en vous connectan
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Pour demander l’approbation d’une commande achat en tant qu’Alicia
 
 1. Connectez-vous en tant qu’Alicia.
-2. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.  
+2. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.  
 3. Sélectionnez la ligne pour ouvrir le bon de commande 106001.  
 4. Sur la page **Commande achat**, choisissez **Actions**, puis **Demander l’approbation**, puis choisissez l’action **Envoyer demande d’approbation**.  
 
@@ -120,6 +120,8 @@ La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] inclut 
 Définissez les variations des flux de travail en renseignant les champs des lignes à partir des listes fixes de valeurs d’événement et de réponse qui sont les scénarios pris en charge par le code d’application. Pour plus d’informations, voir [Créer des flux de travail](across-how-to-create-workflows.md).  
 
 Si un scénario d’entreprise requiert un événement ou une réponse de workflow qui n’est pas pris en charge, un partenaire Microsoft doit l’implémenter via le code, ou vous pouvez configurer un workflow avec Power Automate. Pour en savoir plus, voir [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] dans un workflow automatique](across-how-use-financials-data-source-flow.md) ou [Événements dans AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) dans l’aide du développeur, respectivement.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/use-approval-workflows/)
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8357659f42976c7e3bc9b64a3c0aa10fe5b32364
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
+ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950477"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9041441"
 ---
 # <a name="set-up-email"></a>Configurer la messagerie
 Les utilisateurs au sein des entreprises envoient des informations et des documents, tels que des commandes vente et achat et des factures, par e-mail, au quotidien. Les administrateurs peuvent se connecter à un ou plusieurs comptes de messagerie à [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez donc envoyer des documents sans avoir à ouvrir une application de messagerie. Vous pouvez composer chaque message individuellement avec des outils de mise en forme de base, tels que des polices, des styles, des couleurs, etc., et ajouter des pièces jointes pouvant atteindre 100 Mo. De plus, les présentations d’états permettent aux administrateurs d’inclure uniquement les informations clés des documents. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
@@ -44,7 +44,7 @@ Le tableau suivant décrit les extensions de messagerie disponibles par défaut.
 |**Connecteur SMTP**|Utilisez le protocole SMTP pour envoyer des e-mails.|Autorisez les communications via votre serveur de messagerie SMTP. |
 
 > [!NOTE]
-> Les extensions **Connecteur Microsoft 365** et **Connecteur utilisateur actuel** utilisent les comptes que vous configurez pour les utilisateurs dans le centre d’administration Microsoft 365 pour votre abonnement Microsoft 365. Pour envoyer des e-mails à l’aide des extensions, les utilisateurs doivent disposer d’une licence valide pour Exchange Online. De plus, ces extensions nécessitent que le paramètre **Autoriser les demandes HttpClient** soit activé. Pour vérifier s’il est activé pour ces extensions, rendez-vous sur la page **Gestion des extensions**, choisissez l’extension, puis choisissez l’option **Configurer**.
+> Les extensions **Connecteur Microsoft 365** et **Connecteur utilisateur actuel** utilisent les comptes que vous configurez pour les utilisateurs dans le centre d’administration Microsoft 365 pour votre abonnement Microsoft 365. Pour envoyer des e-mails à l’aide des extensions, les utilisateurs doivent disposer d’une licence valide pour Exchange Online. De plus, dans les environnements sandbox, ces extensions nécessitent que le paramètre **Autoriser les demandes HttpClient** soit activé. Pour vérifier s’il est activé pour ces extensions, rendez-vous sur la page **Gestion des extensions**, choisissez l’extension, puis choisissez l’option **Configurer**.
 
 > Les utilisateurs externes, tels que les administrateurs délégués et les comptables externes, ne peuvent pas utiliser ces extensions pour envoyer des e-mails à partir de [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -62,7 +62,7 @@ Le guide de configuration assistée **Configurer la messagerie** peut vous aider
 > [!NOTE]
 > Vous devez disposer d’un compte de messagerie par défaut, même si vous n’ajoutez qu’un seul compte. Le compte par défaut sera utilisé pour tous les scénarios de messagerie qui ne sont pas attribués à un compte. Pour plus d’informations, consultez [Attribuer des scénarios de messagerie aux comptes de messagerie](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configurer les comptes de messagerie**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configurer les comptes de messagerie**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
@@ -106,7 +106,7 @@ Vous pouvez utiliser des états pour inclure des informations clés provenant de
 > [!NOTE]
 > Pour utiliser la mise en page afin de créer du contenu pour les e-mails, vous devez utiliser le type de fichier Word pour votre mise en page.
 
-1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection des états - Ventes**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection des états - Ventes**, puis sélectionnez le lien associé.
 2. Sur la page **Sélection des états : Ventes**, dans le champ **Utilisation**, sélectionnez **Facture**
 3. Sur une nouvelle ligne, dans le champ **ID état**, sélectionnez, par exemple, l’état standard 1306.
 4. Cochez la case **Utiliser pour le corps du message e-mail**.

@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 1
 ms.date: 04/20/2022
 ms.author: edupont
-ms.openlocfilehash: 1adf94a191b2e0514f7a7435ac1807ca19498b14
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 5de13d4f6e625db0d0871a3f7a94f62d726abc8f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626254"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077725"
 ---
 # <a name="company-information-overview"></a>Présentation des informations sur la société
 
@@ -35,6 +35,8 @@ Si votre [!INCLUDE [prod_short](includes/prod_short.md)] inclut plusieurs socié
 
 L’expérience utilisateur par défaut dans une version d’évaluation de [!INCLUDE [prod_short](includes/prod_short.md)] ne révèle pas toutes les fonctionnalités. Vous pouvez passer à l’expérience complète dans la page **Informations société**. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Voir aussi
 
 [Aperçu des tâches permettant de paramétrer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
@@ -42,3 +44,6 @@ L’expérience utilisateur par défaut dans une version d’évaluation de [!IN
 [Configurer les informations société en Italie](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

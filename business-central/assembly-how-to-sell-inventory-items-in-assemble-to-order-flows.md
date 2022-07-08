@@ -10,14 +10,16 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f25dab624644b028cffce5e21080910fc87dfaf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9ce2494e929613d69c22d125adffb6465d1717cd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514532"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075045"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Vendre des éléments de stocks dans des flux à assembler pour commande
+
+
 Si le champ **Stratégie d’assemblage** de la fiche article d’un élément d’assemblage indique **Assembler pour commande**, le processus par défaut de commande vente considère que l’article n’est pas en stock et doit être assemblé pour cette commande vente spécifique. Par conséquent, un ordre d’assemblage lié est automatiquement créé lorsque vous ajoutez l’article à une ligne commande vente. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md). Toutefois, si une partie de la quantité sur commande vente est déjà disponible en stock, alors vous pouvez diminuer la quantité d’ordre d’assemblage en changeant le champ **Quantité à assembler pour commande** de la ligne commande vente.  
 
 Ce scénario est rare parce que les articles à assembler pour commande sont toujours censés être personnalisés, et la probabilité qu’il soient en stock dans la configuration qui est demandée par un autre client est faible. Néanmoins, si une société a des quantités à assembler pour commande en stock à cause de retours ou d’annulations de commande, alors ces quantités doivent être prélevées et vendues avant que de nouvelles soient assemblées.  
@@ -32,8 +34,9 @@ Une fonctionnalité identique est disponible lorsque vous vendez des éléments 
 
 Dans cette procédure, vous remplacez les quantités à assembler pour commande par les quantités en stock sur une ligne commande vente. Les étapes comprennent la vérification des disponibilités existantes, la détection de la quantité de l’ordre d’assemblage associé, puis la réservation de la quantité en stock pour s’assurer qu’elle est prélevée et expédiée pour la commande.  
 
-## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>pour vendre des articles en stock dans des flux à assembler pour commande  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
+## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>pour vendre des articles en stock dans des flux à assembler pour commande
+
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Créez une commande client. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
 3.  Sur une ligne de commande vente pour un article à assembler pour commande, dans le champ **Quantité**, entrez la quantité demandée.  
 4.  Dans le récapitulatif **Détails ligne vente**, déterminez si une partie ou la totalité de la quantité demandée est disponible.  
@@ -48,7 +51,10 @@ Dans cette procédure, vous remplacez les quantités à assembler pour commande 
 > [!CAUTION]  
 >  Le champ **Code emplacement** de la commande vente peut être prérempli en fonction du champ **Code empl. exp. ass. pr comm.** ou du champ **Code empl. depuis assemblage** de la fiche magasin. Dans ce cas, le champ **Code emplacement** de la ligne commande vente peut être incorrect dans cette combinaison des quantités à assembler pour commande et à assembler pour stock. Il est judicieux de consulter le champ **Code emplacement** et de s’assurer que le placement fonctionne pour toutes les quantités. Sinon, entrez les deux quantités différentes sur des lignes commande vente distinctes.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Voir aussi
+
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Réserver des articles](inventory-how-to-reserve-items.md)  
 [Utiliser les nomenclatures](inventory-how-work-BOMs.md)  

@@ -9,27 +9,29 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d263be575b6f4102c25ff1b7fe2aa288058cbd22
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 3f9cb0690bf21c3b4571ff65486038499af010e9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518928"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078559"
 ---
 # <a name="create-special-orders"></a>Créer des commandes spéciales
+
 Vous pouvez créer une commande spéciale pour un article de catalogue spécifique à expédier à un client particulier. Le fournisseur expédie l’article à votre entrepôt et vous pouvez ensuite l’expédier à votre client seul ou avec d’autres articles issus d’autres commandes.  
 
 Dans le cadre d’une commande spéciale, la commande achat et la commande vente sont liées pour s’assurer que l’article de catalogue précis est prélevé et expédié au client.  
 
 Pour pouvoir utiliser cette fonction, vous devez d’abord configurer les fiches client, fournisseur, et article nécessaires à la commande.  
 
-## <a name="to-create-a-special-order"></a>Pour créer une commande spéciale  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commande vente**, puis sélectionnez le lien associé.  
+## <a name="to-create-a-special-order"></a>Pour créer une commande spéciale
+
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commande vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. Créez et renseignez une commande vente pour l’article. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
 3.  Sous le raccourci **Lignes**, renseignez la ligne vente. Dans le champ **Procédure achat**, sélectionnez une procédure achat dont le champ **Commande spéciale** est sélectionné.
 
     Vous devez maintenant créer une commande achat à partir d’une demande achat.  
-4. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Demande d’achat**, puis sélectionnez le lien associé.  
+4. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Demande d’achat**, puis sélectionnez le lien associé.  
 5. Choisissez l’action **Commande spéciale**, puis choisissez l’option **Extraire commandes vente**.  
 6.  Sur la page **Extraire commandes vente**, affichez les résultats dans lesquels le **N° document** correspond au numéro de commande vente. Cliquez sur le bouton **OK**. Une ligne demande achat est créée pour l’article.  
 7.  Dans la ligne demande achat, sélectionnez **Nouveau** dans le champ **Message d’action**.  
@@ -42,7 +44,10 @@ Une commande achat créée comme commande spéciale pour une commande client est
 > [!NOTE]  
 >  Vous ne pouvez pas utiliser la fonctionnalité de commande spéciale si l’élément est déjà réservé. Par conséquent, pour les articles qui sont vendus en commandes spéciales, assurez\-vous que le champ **Réserver** sur la fiche article n’est pas défini sur **Toujours**.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Voir aussi
+
 [Utiliser des articles de catalogue](inventory-how-work-nonstock-items.md)  
 [Ventes](sales-manage-sales.md)  
 [Effectuer des livraisons directes](sales-how-drop-shipment.md)   

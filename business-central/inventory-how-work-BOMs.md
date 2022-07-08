@@ -9,17 +9,19 @@ ms.workload: na
 ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6f2ac75c4a00804c0fef47dfb7885fa2d50fbf19
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d538ea3e1bb00772a3a3183c09c2220893380058
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515500"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079573"
 ---
 # <a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
+
 Les nomenclatures d’assemblage permettent de structurer les articles parents qui doivent être assemblés ou produits par des ressources ou des postes de charge à partir des composants. Une nomenclature d’assemblage peut également être utilisée pour vendre un article parent sous la forme d’un kit constitué de ses composants.
 
 ## <a name="assembly-boms-or-production-boms"></a>Nomenclatures d’assemblage ou nomenclatures de production
+
 Vous utilisez des ordres d’assemblage pour fabriquer des produits finis à partir de composants dans le cadre d’un processus simple qui peut être exécuté par une ou plusieurs ressources de base, qui ne sont pas des postes ou centres de charge, ou sans ressource. Par exemple, un processus d’assemblage peut consister à prélever deux bouteilles de vin et un sachet de café puis à les emballer comme article de cadeau.  
 
 Une nomenclature d’assemblage contient les données de base qui définissent les composants d’un produit fini assemblé, ainsi que les ressources utilisées pour assembler l’élément d’assemblage. Lorsque vous entrez un élément d’assemblage et une quantité dans l’en-tête d’un nouvel ordre d’assemblage, les lignes d’ordre d’assemblage sont renseignées automatiquement d’après la nomenclature d’assemblage, avec une ligne d’ordre d’assemblage par composant ou ressource. Pour plus d’informations, voir [Gestion des assemblages](assembly-assemble-items.md).
@@ -35,6 +37,7 @@ Le concept de ressources est beaucoup plus avancé dans la production que dans l
 Les ordres d’assemblage et les ordres de fabrication peuvent être liés directement aux commandes vente. Cependant, vous pouvez uniquement utiliser des ordres d’assemblage pour personnaliser le produit fini directement par rapport à la demande d’un client via la commande vente.
 
 ## <a name="to-create-an-assembly-bom"></a>Pour créer une nomenclature d’assemblage
+
 Pour définir un article parent constitué d’autres articles, et potentiellement des ressources nécessaires pour regrouper les articles parents, vous devez créer une nomenclature d’assemblage.  
 
 Les nomenclatures d’assemblage contiennent généralement des articles mais peuvent également contenir une ou plusieurs ressources requises pour regrouper les articles d’assemblage.
@@ -54,21 +57,24 @@ Il y a deux parties pour créer une nomenclature d’assemblage :
 3. Renseignez les champs nécessaires sur la page **Nomenclature d’élément d’assemblage**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-edit-assembly-boms"></a>Pour modifier les nomenclatures d’assemblage
+
 Vous pouvez modifier les lignes d’une nomenclature d’assemblage à tout moment. Mais sachez que la nomenclature peut être utilisée sur les ventes en cours ou les assemblages du parent, qui peuvent être affectés par le changement. Sélectionnez l’action **Cas d’emploi** pour voir dans quels articles elle est utilisée et si les ordres d’assemblage ou de vente peuvent être affectés.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
 2. Sélectionnez **Oui** dans la colonne **Nomenclature d’assemblage**.
 3. Sur la page **Nomenclature d’assemblage**, sélectionnez l’action **Modifier la liste**, puis modifiez n’importe quel champ selon vos besoins.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Pour afficher les composants et les ressources indentés selon la structure de la nomenclature
+
 Sur la page **Nomenclature d’élément d’assemblage**, vous pouvez ouvrir une page distincte qui affiche les composants et les ressources indentés selon la position de leur nomenclature sous l’article d’assemblage.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
 2. Ouvrez la fiche d’un article d’assemblage. (Le champ **Nomenclature d’élément d’assemblage** sur la page **Articles** contient **Oui**.)
 3. Sur la page **Fiche article**, sélectionnez l’action **Assemblage**, puis l’action **Nomenclature d’élément d’assemblage**.
 4. Sur la page **Nomenclature d’élément d’assemblage**, sélectionnez l’action **Afficher nomenclature**.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Pour remplacer l’article d’assemblage par ses composants dans les lignes document
+
 Dans n’importe quel document vente et achat qui contient un élément d’assemblage, vous pouvez utiliser une fonction spéciale pour remplacer la ligne de l’élément d’assemblage par de nouvelles lignes pour ses composants. Cette option est utile, par exemple, si vous souhaitez vendre des composants sous forme de kit représentant l’élément d’assemblage.
 
 L’action **Éclater nomenclature** est également disponible sur la page **Nomenclature d’élément d’assemblage** en tant que moyen d’afficher les éléments d’assemblage enfants sur une nomenclature d’élément d’assemblage.
@@ -78,7 +84,7 @@ L’action **Éclater nomenclature** est également disponible sur la page **Nom
 
 La procédure suivante se base sur une facture vente. Les mêmes étapes s’appliquent à d’autres documents vente et à tous les documents achat.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.
 2. Ouvrez une facture vente qui contient une ligne pour un élément d’assemblage.
 3. Sélectionnez la ligne pour un élément d’assemblage, puis la ligne d’action **Éclater nomenclature**.
 
@@ -113,9 +119,12 @@ Le coût unitaire d’une nomenclature d’assemblage équivaut toujours au tota
 
 Les coûts des articles constituant la nomenclature d’assemblage sont copiés à partir des fiches article du composant. Le coût de chaque article est multiplié par sa quantité, et le coût total est affiché dans le champ **Coût unitaire** sur la fiche article.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/set-up-assembly-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Voir aussi
+
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
-[Voir la disponibilité des articles](inventory-how-availability-overview.md)     
+[Voir la disponibilité des articles](inventory-how-availability-overview.md)  
 [Stock](inventory-manage-inventory.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

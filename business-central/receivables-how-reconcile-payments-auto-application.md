@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 389, 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2418ca1164d0a3d67ca9ae3403733dfbd9a56660
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8c4d11dd4e031388ea5ec28bb8a181122b50b470
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520827"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074603"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Rapprocher les paiements à l’aide de l’application automatique
 
@@ -44,7 +44,8 @@ Pour chaque ligne feuille de la page **Feuille rapprochement bancaire**, vous po
 > Vous pouvez lancer l’importation des transactions bancaires en même temps que vous ouvrez la page **Feuille rapprochement bancaire** pour une feuille existante. La procédure suivante décrit comment importer des transactions bancaires sur la page **Feuille rapprochement bancaire** après avoir créé une nouvelle feuille.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Pour rapprocher les paiements à l’aide du lettrage automatique
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles rapprochement bancaire**, puis sélectionnez le lien associé.
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles rapprochement bancaire**, puis sélectionnez le lien associé.
 2. Pour travailler dans une nouvelle feuille rapprochement bancaire, sélectionnez l’action **Nouvelle feuille**.
 3. Sur la page **Liste comptes bancaires paiement**, sélectionnez le compte bancaire pour lequel vous voulez rapprocher des paiements, puis cliquez sur le bouton **OK**.
    La page **Feuille rapprochement bancaire** s’ouvre préparée pour le compte bancaire sélectionné.
@@ -88,7 +89,10 @@ Vous pouvez comparer la valeur du champ **Solde sur compte bancaire après valid
 > [!NOTE]  
 >   Si vous ne souhaitez pas rapprocher le compte bancaire à partir de la page **Feuille rapprochement bancaire**, vous devez utiliser la page **Rapprochement bancaire**. Pour plus d’informations, voir [Rapprocher des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/use-journals-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Voir aussi
+
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

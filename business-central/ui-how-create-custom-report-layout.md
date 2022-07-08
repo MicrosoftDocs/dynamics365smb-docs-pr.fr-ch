@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 5e25685241e85a1a90ac23c7eb47f9808f3239b9
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 81073838cc6bfd1858a3b3d18cd554b62080704a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950397"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075358"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Hérité) Créer et modifier des présentations de rapport personnalisées
 
@@ -37,7 +37,7 @@ Vous pouvez également utiliser des présentations d’état personnalisées pou
 
 ## <a name="to-create-a-custom-layout"></a>Pour créer une présentation personnalisée
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection présentation état**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection présentation état**, puis sélectionnez le lien associé.
 
     La page **Sélection présentation état** répertorie tous les états disponibles pour la société spécifiée dans le champ **Nom de la société** en haut de la page.
 2. Dans le champ **Nom de la société**, choisissez la société pour laquelle vous souhaitez créer la présentation de rapport.
@@ -126,7 +126,7 @@ Adding data fields from a report dataset is a more advanced and requires some kn
 [Modifier la présentation actuelle de l’état](ui-how-change-layout-currently-used-report.md)  
 [Importer et exporter une présentation d’état ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
 [Utiliser des états, des traitements par lots et des XMLports](ui-work-report.md)  
-[Préparer la génération d’états financiers avec des tableaux d’analyse et des catégories de compte](bi-how-work-account-schedule.md) 
+[Préparer Financial Reporting avec des tableaux d’analyse et des catégories de compte](bi-how-work-account-schedule.md)  
 [Veille économique](bi.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

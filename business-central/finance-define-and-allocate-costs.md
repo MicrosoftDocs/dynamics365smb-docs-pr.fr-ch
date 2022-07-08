@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11d979329860d72476a6c2ae2ad6fcf57bd2485e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 78dd79ab8a0f2b966b60dd9d75e95a521b83f4a2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149142"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075566"
 ---
 # <a name="defining-and-allocating-costs"></a>Définition et répartition des coûts
 
@@ -40,7 +40,7 @@ Chaque affectation comporte une source et au moins une cible. La source d’affe
 
 ### <a name="to-set-up-cost-allocations"></a>Pour configurer les affectations de coûts
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Affectation des coûts**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Affectation des coûts**, puis choisissez le lien associé.  
 2. Sur la page **Affectation des coûts**, sélectionnez l’action **Modifier**.  
 3. Dans le champ **ID**, entrez un ID pour la source d’affectation.  
 4. Définissez un niveau compris entre les chiffres 1 et 99 dans le champ **Niveau**. La validation d’affectation suit l’ordre des niveaux.  
@@ -87,7 +87,7 @@ Cette rubrique décrit comment définir trois nouveaux coûts associés pour la 
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Pour définir le centre de coûts PROD de la source d’affectation sur le raccourci Général  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Affectation des coûts**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Affectation des coûts**, puis choisissez le lien associé.  
 2. Sur la page **Affectation des coûts**, sélectionnez l’action **Nouveau**.  
 3. Dans le champ **ID**, appuyez sur Entrée ou saisissez un ID.  
 4. Dans le champ **Niveau**, saisissez **1**.  
@@ -125,7 +125,7 @@ Cette rubrique explique comment définir les affectations à l’aide du mode de
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Pour définir les ventilations dynamique en fonction des articles vendus de l’exercice précédent  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Affectation des coûts**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Affectation des coûts**, puis choisissez le lien associé.  
 2. Sur la page **Affectation des coûts**, sélectionnez l’action **Nouveau**.  
 3. Dans le champ **ID**, appuyez sur Entrée ou saisissez un ID.  
 4. Dans le champ **Niveau**, saisissez **1**.  
@@ -143,12 +143,14 @@ Cette rubrique explique comment définir les affectations à l’aide du mode de
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] utilise les chiffres de ventes des exercices précédents pour calculer une part de 1596,50 DS avec 100 % alloués pour les packages ÉQUIPEMENT IT. Cela signifie que tous les articles vendus au cours de l’exercice précédent seront affectés au ÉQUIPEMENT IT des coûts associés.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/allocate-costs-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Voir aussi
 
- [Paramétrage du contrôle de gestion](finance-set-up-cost-accounting.md)   
- [Transfert et validation des écritures de coûts](finance-transfer-and-post-cost-entries.md)   
- [Comptabilité pour les coûts](finance-manage-cost-accounting.md)   
- [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)   
+ [Paramétrage du contrôle de gestion](finance-set-up-cost-accounting.md)  
+ [Transfert et validation des écritures de coûts](finance-transfer-and-post-cost-entries.md)  
+ [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  
+ [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)  
  [À propos de la comptabilité analytique](finance-about-cost-accounting.md)
 
 

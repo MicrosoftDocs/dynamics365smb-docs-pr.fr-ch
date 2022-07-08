@@ -6,12 +6,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 6b128f79cb8e629147bdd5ae77f2545ad0f7025c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c5552d81dc612070b5dd5512222806527e18ce7e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525330"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078767"
 ---
 # <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Procédure pas à pas : Combiner la consommation automatique et la consommation manuelle
 
@@ -23,7 +23,9 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez créer un
 
 ## <a name="steps"></a>Étapes
 
-1. Créer un ordre de fabrication planifié ferme pour 5 unités de l’article **SP-SCM1004, AutoDrip**. Pour obtenir des conseils, voir [Procédure pas à pas : Créer un ordre de fabrication planifié ferme et le modifier](create-firm-planned-production-order-change.md).  
+> [Remarque !] N’oubliez pas d’ajuster le stock en validant la feuille article avec les soldes d’ouverture.
+
+1. Créez un ordre de fabrication planifié ferme pour 5 unités de l’article **SP-SCM1004, AutoDrip** à l’emplacement *NORD*. Pour obtenir des conseils, voir [Procédure pas à pas : Créer un ordre de fabrication planifié ferme et le modifier](create-firm-planned-production-order-change.md).  
 
 2. Lancez l’ordre de fabrication.
 
@@ -37,7 +39,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez créer un
 
 3. Vérifiez les écritures comptables article et capacité pour l’ordre de fabrication.
 
-    1. Sélectionnez ![l’icône Ampoule qui ouvre la fonction Tell Me.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. lancé**, puis sélectionnez le lien associé.  
+    1. Sélectionnez ![l’icône Ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. lancé**, puis sélectionnez le lien associé.  
 
     2. Ouvrez l’ordre de fabrication avec les 5 unités de la machine à café AutoDrip.  
 
@@ -49,7 +51,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez créer un
 
     Vous pouvez consommer manuellement les composants à l’aide de la feuille consommation ou de la feuille production. La consommation manuelle vous permet d’ajuster la quantité avant de valider. Par exemple, si une quantité supplémentaire est nécessaire pour couvrir des matières premières de faible qualité.
 4. Consommer les composants manuellement.  
-    1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille consommation**, puis choisissez le lien associé.  
+    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille consommation**, puis choisissez le lien associé.  
 
     2. Choisissez l’action **Calculer consommation**.  
 
@@ -61,7 +63,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez créer un
 
     Vous devez renseigner manuellement les champs **Temps de préparation** et **Temps d’exécution**. Vous pouvez également spécifier la quantité réellement produite et le rebut. Entrer *3* comme quantité de production et validez la production.
 
-    1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille production**, puis choisissez le lien associé.  
+    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille production**, puis choisissez le lien associé.  
 
     2. Sur la page **Feuille production**, créez une ligne feuille.  
 

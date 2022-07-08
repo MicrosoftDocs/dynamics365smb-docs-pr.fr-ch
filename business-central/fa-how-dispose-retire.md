@@ -10,12 +10,12 @@ ms.search.keywords: scrap
 ms.search.form: 5628, 5610, 5611, 5629, 5633
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 210cfc51b9a9ffc68166636a2ff2d0e33edcbb62
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dd8e374a0f7124084d789858767d08c4935d1631
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523594"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077334"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Céder ou annuler des immobilisations
 
@@ -28,7 +28,7 @@ Les étapes suivantes supposent que vous avez déjà configuré les groupes comp
 
 ## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>Valider une cession à partir d’une feuille comptabilisation immobilisation
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuilles compta. immo.**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuilles compta. immo.**, puis choisissez le lien associé.  
 2. Créez une feuille comptable initiale et complétez les champs, le cas échéant. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Dans le champ **Type compta. immo**, sélectionnez **Cession**.  
 4. Sélectionnez l’action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la cession.  
@@ -40,9 +40,10 @@ Les étapes suivantes supposent que vous avez déjà configuré les groupes comp
 Si vous vendez une immobilisation ou en cédez une partie, vous devez d’abord diviser l’immobilisation avant de pouvoir enregistrer la transaction cession. Pour en savoir plus, voir [Transférer, fractionner ou regrouper les immobilisations](fa-how-trans-split-combine.md).  
 
 ## <a name="to-view-disposal-ledger-entries"></a>Pour visualiser des écritures comptables cession
+
 Lorsque vous vendez ou cédez une immobilisation, la valeur de cession est validée en comptabilité où vous pouvez afficher le résultat.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Immobilisations**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Immobilisations**, puis choisissez le lien associé.  
 2. Sélectionnez l’immobilisation pour laquelle vous souhaitez afficher les écritures, puis sélectionnez l’action **Lois d’amortissement**.  
 3. Sélectionnez la loi d’amortissement pour laquelle vous souhaitez afficher les écritures, puis sélectionnez l’action **Écritures comptables**.  
 4. Sélectionnez une ligne avec **Cession** dans le champ **Catégorie compta. immo.**, puis sélectionnez l’action **Rechercher des écritures**.  
@@ -50,9 +51,11 @@ Lorsque vous vendez ou cédez une immobilisation, la valeur de cession est valid
 
 La page **Écritures comptables** s’ouvre. Vous pouvez y voir les écritures résultant de la validation de la cession.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/dispose-fixed-assets/)
+
 ## <a name="see-also"></a>Voir aussi
 
-[Immobilisations](fa-manage.md)  
+[COMPTES D’IMMOBILISATIONS](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Pour configurer des groupes compabilisation immobilisation](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Finances](finance.md)  

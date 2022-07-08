@@ -1,8 +1,6 @@
 ---
 title: 'Procédure : créer des états avec XBRL'
 description: XBRL est basé sur le langage XML et est utilisé pour marquer des données financières et permettre aux sociétés de traiter et de partager leurs données de manière efficace et précise.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d25637f00d8b7e6641d994a13e135a78bd72a215
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b282ea2aeec8e28b36bdadfdb57065e8c9e0c727
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511768"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075071"
 ---
 # <a name="create-reports-with-xbrl"></a>Création d’états avec XBRL
 
@@ -74,7 +72,7 @@ Une fois que vous avez importé ou mis à jour la taxonomie, les lignes des sch�
 
 Pour configurer les lignes XBRL, mappez les données de taxonomie aux données comptables.  
 
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Taxonomies XBRL**, puis choisissez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Taxonomies XBRL**, puis choisissez le lien associé.  
 2.  Sur la page **Taxonomies XBRL**, sélectionnez une taxonomie dans la liste.  
 3.  Sélectionnez l’option **Lignes**.  
 4.  Sélectionnez une ligne et renseignez les champs.   
@@ -94,7 +92,7 @@ Pour configurer les lignes XBRL, mappez les données de taxonomie aux données 
  ## <a name="to-import-an-xbrl-taxonomy"></a>Pour importer une taxonomie XBRL  
 Lorsque vous utilisez la fonctionnalité XBRL, la première étape consiste à importer la taxonomie correspondante dans la base de données de votre société. Une taxonomie est composée d’un ou de plusieurs schémas, et de liens ressources. Une fois l’import des schémas et des liens ressources effectué, et une fois les liens ressources appliqués aux schémas, vous pouvez configurer les lignes et associer les comptes généraux du plan comptable aux lignes taxonomie appropriées.  
 
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Taxonomies XBRL**, puis choisissez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Taxonomies XBRL**, puis choisissez le lien associé.  
 2.  Sur la page **Taxonomies XBRL**, créez une ligne et entrez le nom et la description de la taxonomie.  
 3.  Sélectionnez l’action **Schémas**, puis insérez la description du schéma.  
 4.  Pour importer le schéma, sur la page **Schémas XBRL**, sélectionnez l’action **Importer**, puis sélectionnez un dossier et un fichier XSD. Cliquez sur le bouton **Ouvrir**.  
@@ -108,7 +106,7 @@ Lorsque vous utilisez la fonctionnalité XBRL, la première étape consiste à 
 ## <a name="to-update-an-xbrl-taxonomy"></a>Pour mettre à jour une taxonomie XBRL  
 Lorsqu’une taxonomie est modifiée, vous devez mettre à jour la taxonomie actuelle en conséquence. Une mise à jour est nécessaire en cas de modification d’un schéma ou d’un lien ressources, ou en cas de création d’un nouveau lien ressources. Une fois la taxonomie mise à jour, il vous suffit d’ associer les lignes modifiées ou les nouvelles lignes.  
 
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Taxonomies XBRL**, puis choisissez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Taxonomies XBRL**, puis choisissez le lien associé.  
 2.  Sur la page **Taxonomies XBRL**, sélectionnez l’action **Schémas**.  
 3.  Pour mettre un schéma à jour, sélectionnez-le, puis sélectionnez l’action **Importer**.  
 4.  Pour mettre à jour ou ajouter un nouveau lien de ressources, sélectionnez l’action **Liens ressources**.  

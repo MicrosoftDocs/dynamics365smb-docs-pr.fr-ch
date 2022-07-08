@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c36461ccebcad870cead8fa0958125b778f4a8ae
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0fa9923c9bdec0c5f70ef07977cb7bf87550ab3a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514188"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078819"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Établissement d’un devis de vente Assembler pour commande
+
 Vous pouvez utiliser la gestion nomenclature d’assemblage pour personnaliser un élément d’assemblage sur la demande d’un client au cours du processus de vente. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  
 
 Lorsque vous vendez tout autre type d’article, vous pouvez également créer un devis pour un élément d’assemblage personnalisé avant de le convertir en commande vente. Ce processus implique plusieurs étapes supplémentaires lorsque vous le comparez à la création d’un devis normal et il recourt à une variation d’un ordre d’assemblage associé, qui est un devis d’assemblage.
@@ -25,8 +26,9 @@ Lorsque vous vendez tout autre type d’article, vous pouvez également créer u
 > [!NOTE]  
 >  Comme tous les types de devis, les quantités sur les devis d’assemblage ne sont pas utilisées en termes de disponibilité, planification ou réservations.  
 
-## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Créer un devis pour un article à assembler pour commande  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devis**, puis sélectionnez le lien associé.  
+## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Créer un devis pour un article à assembler pour commande
+
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devis**, puis sélectionnez le lien associé.  
 2.  Créez une ligne devis avec une ligne pour un élément d’assemblage. Pour plus d’informations, voir [Créer des devis](sales-how-make-offers.md).  
 3.  Dans le champ **Quantité à assembler pour commande**, entrez la quantité entière.
 
@@ -38,7 +40,10 @@ Lorsque vous vendez tout autre type d’article, vous pouvez également créer u
 6.  Lorsque vous avez ajusté les lignes d’ordre d’assemblage en fonction du devis, fermez la page **Lignes d’assemblage pour commande** pour revenir à la page **Devis**.  
 7.  Si le client accepte le devis, créez une commande vente pour l’élément d’assemblage qui a fait l’objet du devis. Pour plus d’informations, voir [Créer des devis](sales-how-make-offers.md). Le devis d’assemblage associé et toutes les personnalisations sont liées à cette nouvelle commande vente à préparer pour l’assemblage de l’article ou des articles à vendre.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Voir aussi
+
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
 [Stock](inventory-manage-inventory.md)  

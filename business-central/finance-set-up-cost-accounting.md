@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ceba015b16e990bc71e0217ed2f8ee85ca6ae1ec
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520349"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074889"
 ---
 # <a name="setting-up-cost-accounting"></a>Paramétrage du contrôle de gestion
 
@@ -39,7 +39,7 @@ Le plan des types de coûts a la même fonction que le plan comptable général.
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Pour transférer le plan comptable général vers le plan des types de coûts
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable des types de coûts**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable des types de coûts**, puis choisissez le lien associé.  
 2. Choisissez l’action **Obtenir les types de coûts à partir du plan comptable**. Dans la boîte de dialogue, cliquez sur **Oui** pour confirmer le transfert. La fonction utilise le plan comptable général pour créer le plan des types de coûts.  
 
     Le plan des types de coûts contient désormais tous les comptes de gestion en comptabilité, et comprend les titres et les totaux. Vous pouvez modifier le plan des types de coûts, selon vos besoins. Par exemple, vous pouvez supprimer les types de coûts existants en double.  
@@ -108,7 +108,7 @@ Les centres de coûts sont les départements responsables des coûts et des reve
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Pour transférer des sections analytiques de la comptabilité vers le plan des centres de coûts.
 
 1. Définissez un axe analytique pour être celui de la dimension des centres de coûts sur la page **Mettre à jour les axes analytiques de comptabilité analytique**. Seules les valeurs de cet axe analytique sont transférées.  
-2. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 2.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable des centres de coûts**, puis choisissez le lien associé.  
+2. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 2.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable des centres de coûts**, puis choisissez le lien associé.  
 3. Sous l’onglet **Actions**, dans le groupe **Fonctions**, choisissez **Extraire les centres de coûts de l’axe analytique** pour transférer des sections du plan des centres de coûts. La fonction transfère les sections analytiques que vous avez définis dans l’étape 1.  
 
     > [!NOTE]  
@@ -141,9 +141,10 @@ Les coûts associés sont les projets, les biens ou les services d’une sociét
 * Transférez des sections analytiques de la comptabilité vers le plan comptable des coûts associés. Vous pouvez effectuer tous les ajustements nécessaires après le transfert.  
 * Créez un nouveau plan des coûts associés, qui est indépendant de la comptabilité ou ajoutez un nouveau coût associé à un plan existant des coûts associés. Vous devez créer chaque coût associé individuellement.  
 
-### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Pour transférer des sections analytiques depuis la comptabilité vers le plan comptable des coûts associés  
+### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Pour transférer des sections analytiques depuis la comptabilité vers le plan comptable des coûts associés
+
 1.  Définissez un axe analytique pour être celui des coûts associés sur la page **Actualiser axes analytiques CA**. Seules les valeurs de cet axe analytique sont transférées.  
-2.  Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable des coûts**, puis choisissez le lien associé.  
+2.  Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable des coûts**, puis choisissez le lien associé.  
 3.  Choisissez l’action **Extraire les coûts associés de l’axe analytique** pour transférer des sections analytiques du plan comptable de coûts associés. La fonction transfère les axes analytiques que vous avez définis dans l’étape 1.  
 
     > [!NOTE]  
@@ -151,7 +152,8 @@ Les coûts associés sont les projets, les biens ou les services d’une sociét
 
 Le plan comptable de coûts associés comprend désormais toutes les sections analytiques spécifiées provenant de la comptabilité. Il inclut les titres et les sous-totaux.  
 
-### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Pour créer de nouveaux coûts associés sur la page Plan comptable des coûts associés  
+### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Pour créer de nouveaux coûts associés sur la page Plan comptable des coûts associés
+
 Vous pouvez configurer et gérer les coûts associés, soit sur la page **Fiche coûts associés**, soit sur la page **Plan comptable des coûts associés**. Dans cette procédure, vous configurez de nouveaux coûts associés sur la page **Plan comptable des coûts associés**.  
 
 1.  Ouvrez la page **Plan comptable des coûts associés** en mode édition.  
@@ -169,9 +171,11 @@ Vous pouvez configurer et gérer les coûts associés, soit sur la page **Fiche 
 >  Si vous avez saisi des définitions dans les champs **Total De/À** pour les coûts associés **Fin total** avant d’exécuter la fonction d’indentation, vous devez les saisir à nouveau. La fonction remplace les valeurs dans tous les champs **Fin total**.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Définition des centres de coûts et des coûts associés pour le plan comptable
+
 Vous pouvez transférer automatiquement les écritures de dépenses et de revenus à partir de la comptabilité générale vers la comptabilité analytique, que ce soit pour la validation comptable ou avec un traitement par lots. Lors du transfert, [!INCLUDE[prod_short](includes/prod_short.md)] transfère uniquement les écritures déjà liées à un centre de coûts ou aux coûts associés. Pour préparer un transfert pertinent, assurez-vous que les centres de coûts et les coûts associés sont définis correctement.  
 
-### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Définition des sections analytiques par défaut pour des comptes généraux  
+### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Définition des sections analytiques par défaut pour des comptes généraux
+
 Pour chaque compte général, vous pouvez définir des sections analytiques par défaut dans la table **Affectation analytique**. L’exemple suivant décrit la configuration requise pour avoir un centre de coût DÉPARTEMENT sans jamais avoir de coûts associés PROJET lors de la validation d’un compte général.  
 
 |**Code axe analytique**|**Contrôle validation**|  
@@ -179,7 +183,8 @@ Pour chaque compte général, vous pouvez définir des sections analytiques par 
 |Département|Code obligatoire|  
 |Dossier|Pas de code|  
 
-### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Définition des sections analytiques pour les frais généraux et les coûts directs  
+### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Définition des sections analytiques pour les frais généraux et les coûts directs
+
  Vous pouvez transférer des frais généraux à un centre de coûts, et des coûts directs aux coûts associés. Le tableau suivant décrit comment optimiser la combinaison des valeurs de paramétrage des axes analytiques.  
 
 |Transférer vers|Validation du centre de coûts|Validation des coûts associés|  
@@ -190,9 +195,12 @@ Pour chaque compte général, vous pouvez définir des sections analytiques par 
 > [!NOTE]  
 >  Pour vous assurer que le centre de coûts et les coûts associés prédéfinis et configurés en comptabilité générale sont reportés automatiquement dans la comptabilité analytique, cochez la case **Vérifier validations compta** sur la page Paramètres comptabilité analytique.
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Voir aussi
+
 [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  
-[Transfert et validation des écritures de coûts](finance-transfer-and-post-cost-entries.md)   
+[Transfert et validation des écritures de coûts](finance-transfer-and-post-cost-entries.md)  
 [Définition et répartition des coûts](finance-define-and-allocate-costs.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

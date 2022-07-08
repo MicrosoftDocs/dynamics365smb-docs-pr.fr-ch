@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 24ea5d30b184018b69735768a6a721393086a95a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 13f1a68ebb3c9a16c06cdc0cf9382867403ba5ca
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521165"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079261"
 ---
 # <a name="assemble-items"></a>Assembler des articles
+
 Si le champ **Système réappro.** de la fiche client contient **Assemblage**, la méthode par défaut d’approvisionnement de l’article consiste à l’assembler à partir des composants définis et potentiellement par une ressource définie.  
 
 Les composants et les ressources utilisés dans ce type d’élément d’assemblage doivent être définis dans une nomenclature d’assemblage. Pour plus d’informations, reportez-vous à [Utiliser les nomenclatures](inventory-how-work-BOMs.md).  
@@ -40,8 +41,9 @@ Ces options de configuration sont les paramètres par défaut qui gèrent le tra
 
 Dans cette procédure, vous allez créer et traiter un ordre d’assemblage pour des articles qui sont assemblés pour stock, autrement dit sans commande vente liée. Les étapes incluent le lancement de l’ordre d’assemblage, le traitement des éventuels problèmes de disponibilité des composants et la validation partielle du résultat d’assemblage.
 
-## <a name="to-assemble-an-item"></a>Pour assembler un article  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Ordres d’assemblage**, puis sélectionnez le lien associé.  
+## <a name="to-assemble-an-item"></a>Pour assembler un article
+
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Ordres d’assemblage**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l’action **Nouveau**. La page **Nouvel ordre d’assemblage** s’ouvre.  
 3.  Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Dans le champ **N° article**, sélectionnez l’élément d’assemblage à traiter. Le champ est filtré pour n’afficher que les articles qui sont configurés pour assemblage, ce qui signifie qu’une nomenclature d’assemblage leur est affectée.  
@@ -67,7 +69,10 @@ Dans cette procédure, vous allez créer et traiter un ordre d’assemblage pour
 
 Une fois la validation réussie, l’élément d’assemblage est validé comme production dans le code magasin et le code emplacement potentiel qui sont définis sur l’ordre de assemblage. Pour les ordres d’assemblage créés manuellement, le magasin peut être copié à partir du champ de configuration **Emplacement par défaut pour les commandes**. Pour les flux d’assemblage pour commande, le code magasin peut être copié à partir de la ligne commande vente.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Voir aussi
+
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
 [Stock](inventory-manage-inventory.md)  

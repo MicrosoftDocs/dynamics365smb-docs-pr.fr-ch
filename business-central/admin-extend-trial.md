@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2da669b7bc7675c1af7143e0a4702ab6655a7bca
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: f1c1ba7640c03314c53bceee13711c66f03a3c09
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805115"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079313"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Besoin de plus de temps pour décider si vous voulez vous abonner ?
 
@@ -26,10 +26,10 @@ Le prolongement de la période d’essai par vous-même est une action unique. V
 
 1. Connectez-vous à [!INCLUDE[prod_short](includes/prod_short.md)] sur [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
-    Connectez-vous avec le compte de messagerie que vous avez utilisé lors de votre inscription à l'essai.  
+    Connectez-vous avec le compte de messagerie que vous avez utilisé lors de votre inscription à l’essai.  
 
     Si vous vous êtes inscrit avec un compte de messagerie dans le cadre d’une [période d’essai de 30 jours pour Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), vous devez d’abord prolonger votre version d’évaluation Microsoft 365 ou acheter un abonnement Microsoft 365. Pour en savoir plus, consultez [Prolonger votre version d’évaluation pour Microsoft 365 pour les entreprises](/microsoft-365/commerce/extend-your-trial).
-2. Dans la notification en haut de l'espace de travail, choisissez **Prolonger la version d'évaluation**.
+2. Dans la notification en haut de l’espace de travail, choisissez **Prolonger la version d’évaluation**.
 
     Si vous avez ignoré la notification, vous devez vous déconnecter et vous reconnecter.
 
@@ -49,6 +49,8 @@ Cependant, après cette deuxième extension qui a donné à votre organisation j
 Votre période d’essai prolongée a expiré, vous pouvez [vous abonner](https://go.microsoft.com/fwlink/?linkid=828659) à [!INCLUDE[prod_short](includes/prod_short.md)] au cours des 90 prochains jours et continuer à travailler dans la société que vous avez créée. 90 jours après l’expiration de l’essai prolongé, nous supprimerons votre entreprise et vos données, sauf si vous vous abonnez.  
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

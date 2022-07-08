@@ -1,8 +1,6 @@
 ---
 title: Traitement des opportunités de vente dans les cycles de vente
 description: Cette rubrique décrit les différentes manières dont vous pouvez traiter les opportunités de vente dans les cycles de vente et déplacer une opportunité à travers les étapes d’un cycle de vente.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 927e90a5e25205873a3d0784c7065b9735dc7b24
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 60ce53dc750812dc7519e6d3894a51f4e16d71eb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515474"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076450"
 ---
 # <a name="process-sales-opportunities"></a>Traiter des opportunités de vente
 Une fois que vous avez créé une opportunité, il existe plusieurs fonctionnalités permettant de gérer l’opportunité et de la faire avancer jusqu’à l’achèvement.
@@ -26,9 +24,9 @@ Les opportunités de vente existantes sont disponibles sur la page **Liste des o
 
 | Pour afficher les opportunités pour | Alors |
 | --- | --- |
-| Tous les vendeurs et contacts |Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Liste des opportunités**, puis choisissez le lien associé. |
-| Un vendeur spécifique |Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Vendeurs**, puis sélectionnez le lien associé. Sélectionnez le vendeur, sélectionnez l’action **Opportunités**, puis l’action **Liste**. |
-| Un contact spécifique |Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Contacts**, puis sélectionnez le lien associé. Sélectionnez le contact dans la liste, puis sélectionnez l’action **Opportunités**. |
+| Tous les vendeurs et contacts |Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Liste des opportunités**, puis choisissez le lien associé. |
+| Un vendeur spécifique |Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Vendeurs**, puis sélectionnez le lien associé. Sélectionnez le vendeur, sélectionnez l’action **Opportunités**, puis l’action **Liste**. |
+| Un contact spécifique |Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Contacts**, puis sélectionnez le lien associé. Sélectionnez le contact dans la liste, puis sélectionnez l’action **Opportunités**. |
 
 Chacune de ces tâches ouvre la page **Liste des opportunités**.
 
@@ -65,7 +63,7 @@ Pour supprimer des opportunités clôturées à partir de la page **Liste des op
 
 Pour supprimer des opportunités clôturées à l’aide du traitement par lots **Supprimer les opportunités clôturées**, procédez comme suit :
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Supprimer les opportunités**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Supprimer les opportunités**, puis choisissez le lien associé.
 2. Dans la section **Opportunité**, configurez les filtres qui spécifient les opportunités clôturées à supprimer.
 3. Cliquez sur le bouton **OK**.
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef6b031cfb87c74a62da85d0c7073a91e5e176e9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9135514b6f788aab99b3433a04ad28ec36064e30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520540"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074369"
 ---
 # <a name="create-bin-contents"></a>Créer le contenu d’un emplacement
 
@@ -22,7 +22,7 @@ Une fois la configuration des emplacements terminée, vous pouvez configurer leu
 
 ## <a name="to-create-bin-content-manually"></a>Pour créer le contenu d’emplacement manuellement
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
 2. Sélectionnez le magasin à partir duquel vous souhaitez créer un contenu d’emplacement, puis choisissez l’action **Emplacements**.  
 3. Sélectionnez l’emplacement à partir duquel vous souhaitez créer un contenu, puis choisissez l’action **Contenus**.  
 4. Pour chaque article que vous souhaitez stocker dans l’emplacement, renseignez une ligne de la page **Contenu emplacement** avec les informations appropriées. Certains champs sont déjà renseignés avec des informations relatives à l’emplacement.  
@@ -41,7 +41,7 @@ Si vous sélectionnez le champ **Fixe**, vous associez l’article à l’emplac
 
 Lorsque vous avez créé vos emplacements, vous pouvez créer le contenu de chaque emplacement dans la feuille de création de contenu d’emplacement.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille création contenu emplacement**, et choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille création contenu emplacement**, et choisissez le lien associé.  
 2. Dans l’en-tête feuille, cliquez dans le champ **Nom** et sélectionnez la feuille du magasin où vous souhaitez créer le contenu d’un emplacement.  
 3. Dans le champ **Code emplacement**, sélectionnez le code de l’emplacement dont vous souhaitez définir le contenu.  
 
@@ -55,11 +55,13 @@ Lorsque vous avez créé vos emplacements, vous pouvez créer le contenu de chaq
 
 Dans cette feuille, vous pouvez utiliser des lignes contenu de l’emplacement pour plusieurs emplacements, afin d’obtenir un aperçu convenable des articles que vous placez dans différents emplacements d’une zone, d’une allée, ou d’un casier donné.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/set-up-zones-bins/)
+
 ## <a name="see-also"></a>Voir aussi
 
 [Calculer réappro. emplacement](warehouse-how-to-calculate-bin-replenishment.md)  
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Détails de conception : Warehouse Management](design-details-warehouse-management.md)  

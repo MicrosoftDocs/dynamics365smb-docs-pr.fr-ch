@@ -9,12 +9,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 05/12/2022
 ms.author: edupont
 author: jswymer
-ms.openlocfilehash: 93eb177ff9ba102277a50f9686ea941df33d5563
-ms.sourcegitcommit: 13ac10624bee47c73989b2b20942a01c849b4a6a
+ms.openlocfilehash: f1128a9fb4e9643286e4305695e1d40719d86301
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8744125"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079339"
 ---
 # <a name="use-prod_short-in-power-automate-flows"></a>Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] dans les flux Power Automate
 
@@ -50,6 +50,8 @@ Vous pouvez créer des flux sur le site Web [powerautomate.microsoft.com](https:
 ## <a name="manage-workflows"></a>Gérer les flux de travail
 
 Vous pouvez obtenir un aperçu de tous les flux de travail auxquels vous avez accès en sélectionnant l’action **Gérer les flux de travail** dans le menu **Power Automate**. La liste s’ouvre dans un nouvel onglet du navigateur et vous êtes automatiquement connecté à Power Automate. Là, vous affichez la date de dernière exécution pour chaque flux.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/use-power-automate/)
 
 ## <a name="see-also"></a>Voir aussi
 

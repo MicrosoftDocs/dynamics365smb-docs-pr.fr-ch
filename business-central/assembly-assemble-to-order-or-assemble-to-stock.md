@@ -10,20 +10,22 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 317c8d5da772dbead39330f068df59e1603d525b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6228c53173995680bcef50f3135ba406a24e1d23
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517019"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075982"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Description des processus Assembler pour commande et Assembler pour stock
+
 Les éléments d’assemblage peuvent être fournis dans le cadre des deux processus suivants :  
 
 -   Assembler pour commande.  
 -   Assembler pour stock.  
 
-## <a name="assemble-to-order"></a>Assembler pour commande  
+## <a name="assemble-to-order"></a>Assembler pour commande
+
 En règle générale, vous utilisez *l’assemblage pour commande* pour les articles que vous ne souhaitez pas stocker parce que vous comptez les personnaliser en fonction des demandes des clients ou parce que vous voulez réduire les frais de transport associés au stock. La fonctionnalité de prise en charge inclut les points suivants :  
 
 -   Possibilité de personnaliser les éléments d’assemblage lors d’une prise de commande vente.  
@@ -43,7 +45,8 @@ Lorsque vous entrez un article à assembler pour commande sur une ligne vente, u
 
  Pour activer ce processus, il faut que le champ **Stratégie d’assemblage** de la fiche article contienne la valeur **Assembler pour commande**.  
 
-## <a name="assemble-to-stock"></a>Assembler pour stock  
+## <a name="assemble-to-stock"></a>Assembler pour stock
+
  En règle générale, vous utilisez *l’assemblage pour stock* pour les articles que vous souhaitez assembler avant les ventes (par exemple, pour préparer des articles pour une campagne de kit et les conserver dans le stock jusqu’à ce qu’ils soient commandés). Ces articles sont généralement des articles standard tels que les kits emballés qui ne peuvent pas être personnalisés en fonction des demandes des clients.  
 
  Dans le processus d’assemblage pour stock, l’article est assemblé sans demande vente immédiate puis il est stocké dans l’entrepôt en tant qu’article de stock en vue d’une vente ultérieure ou d’une consommation en tant que produit semi-fini. Pour plus d’informations, voir [Assembler des articles](assembly-how-to-assemble-items.md). À ce stade, l’article est prélevé et traité en tant qu’article unique. Il est considéré comme un article fini.  
@@ -55,7 +58,8 @@ Lorsque vous entrez un article à assembler pour commande sur une ligne vente, u
 
  Pour activer ce processus, il faut que le champ **Stratégie d’assemblage** de la fiche article contienne la valeur **Assembler pour stock**.  
 
-## <a name="combination-scenarios"></a>Scénarios de combinaison  
+## <a name="combination-scenarios"></a>Scénarios de combinaison
+
  Un principe général de la gestion nomenclature d’assemblage stipule qu’une fois regroupées sur une ligne commande vente, les quantités à assembler pour commande doivent être expédiées avant les quantités de stock.  
 
  Si un ordre d’assemblage est lié à une ligne commande vente, la valeur du champ **Qté vers Assembler pour commande** sur la ligne commande vente est copiée dans le champ **Quantité à assembler** via le champ **Quantité** dans l’en\-tête d’ordre d’assemblage. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -90,6 +94,8 @@ D’après cet exemple, vous ne pouvez modifier que le champ **Quantité à asse
 
 - La quantité minimum que vous pouvez saisir est 1. En effet, vous devez assembler au moins une unité pour pouvoir vendre les quatre, en supposant que les trois autres soient disponibles dans le stock.  
 - La quantité maximum que vous pouvez saisir est 4. Cela permet de s’assurer que vous n’assemblez pas une quantité d’articles assemblés pour commande supérieure à celle requise pour la vente.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

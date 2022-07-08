@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/14/2022
 ms.author: jswymer
-ms.openlocfilehash: 609678742ccf9593407e96ea412a377f37c8abf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c0800642804b8e8c9e1dc629224bfac77b174500
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525384"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075748"
 ---
 # <a name="working-with-excel-layouts"></a>Utilisation des présentations Excel
 
@@ -143,10 +143,10 @@ Pour résumer ce que vous pouvez et ne pouvez pas faire sur la feuille de **Donn
 [Modifier la présentation actuelle de l’état](ui-how-change-layout-currently-used-report.md)  
 [Importer et exporter une présentation d’état ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
 [Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)  
-[Préparer la génération d’états financiers avec des tableaux d’analyse et des catégories de compte](bi-how-work-account-schedule.md) 
-[Décisionnel](bi.md)  
+[Préparer Financial Reporting avec des tableaux d’analyse et des catégories de compte](bi-how-work-account-schedule.md)  
+[Veille économique](bi.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Analyse des données d’état avec Excel](report-analyze-excel.md).
+[Analyse des données de rapport avec Excel](report-analyze-excel.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

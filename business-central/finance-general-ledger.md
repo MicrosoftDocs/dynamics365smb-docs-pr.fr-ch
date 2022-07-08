@@ -10,12 +10,12 @@ ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 1834cfe7bbbc933a1aebddbc94ea6dfe09523605
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bb94f725c57f538f9d8704ba66e3d66e120d41d2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510887"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079157"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Comprendre la comptabilité et le plan comptable
 
@@ -88,6 +88,8 @@ La page **Plan comptable** affiche les comptes dans une liste hiérarchique qui 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Accès pour créer et modifier des comptes et des catégories de comptes
 
 Dans une petite organisation, comme la société de démonstration CRONUS, la plupart des utilisateurs peuvent modifier le plan comptable, à l’exception des utilisateurs disposant d’une licence MEMBRE D’ÉQUIPE. Cependant, dans les grandes organisations, l’accès pour modifier le plan comptable est limité selon les rôles et les autorisations. Si vous êtes administrateur ou si vous avez le rôle de *Chef d’entreprise* ou de *Comptable*, vous pouvez vérifier les autorisations de tous les utilisateurs pour vous assurer que les bonnes personnes ont accès aux tables pertinentes. Pour plus d’informations, voir [Pour afficher ou modifier les autorisations d’un utilisateur](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/business-central-configure-general-ledger-setup/)
 
 ## <a name="see-also"></a>Voir aussi
 

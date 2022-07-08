@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.search.form: 6, 494
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: de00eb7e96e2903872a3ef312d096bd91d97577d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 565654d8f7a4dd38aceccbcc39e722bad89bf67e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142070"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077621"
 ---
 # <a name="set-up-finance-charge-terms"></a>Configurer les conditions intérêts de retard
 
@@ -41,7 +41,7 @@ En outre, chaque condition de la table Conditions intérêts de retard est lié 
 
 ### <a name="to-set-up-finance-charge-terms"></a>Pour configurer des conditions intérêts de retard
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions intérêts de retard**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions intérêts de retard**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 3. Pour utiliser plusieurs combinaisons de conditions intérêts de retard, créez un code pour chacun d’eux.
 
@@ -67,6 +67,8 @@ En outre, chaque condition de la table Conditions intérêts de retard est lié 
 |%7|Montant total de la relance|  
 |%8|Contenu du champ **Code devise** de l’en-tête de facture d’intérêts|  
 |%9|Contenu du champ **Date comptabilisation** de l’en-tête de facture d’intérêts|  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/send-memos-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

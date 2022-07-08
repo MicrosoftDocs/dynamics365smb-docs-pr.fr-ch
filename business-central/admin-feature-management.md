@@ -7,12 +7,12 @@ ms.search.keywords: administration, admin, key, optional, feature management, ea
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: a3cc650067c18da1594e2381413f8dd76966ab3a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ca23cb79f3ef95db1cb7c9528805d37a7560fc8a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141400"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077673"
 ---
 # <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Activer les fonctionnalités inédites et celles à venir à l’avance
 
@@ -21,6 +21,8 @@ Certaines nouvelles fonctionnalités peuvent être activées à l’avance, vous
 Lorsque Microsoft publie des fonctionnalités ou des améliorations de conception de fonctionnalités dans le cadre de mises à jour mineures, certaines fonctionnalités ne sont pas immédiatement activées. Les administrateurs peuvent activer chaque fonctionnalité à partir de la page **Gestion des fonctionnalités**. Une fois qu’une fonctionnalité est activée, elle devient disponible pour tous les utilisateurs de cet environnement, quel que soit leur accès [!INCLUDE[prod_short](includes/prod_short.md)]. Les fonctionnalités peuvent être désactivées en toute sécurité. Ces fonctionnalités ne sont facultatives que pendant un certain temps.
 
 En savoir plus sur la [gestion des fonctionnalités](/dynamics365/business-central/dev-itpro/administration/feature-management).  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Voir aussi
 

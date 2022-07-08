@@ -229,13 +229,11 @@
 ### Documents entrants
 #### [Vue d’ensemble des documents entrants](across-income-documents.md)
 #### [Configurer des documents entrants](across-how-setup-income-documents.md)
-#### Traiter les documents entrants
-##### [Traiter les documents entrants](across-process-income-documents.md)
-##### [Créer des enregistrements document entrant](across-how-create-income-document-records.md)
-##### [Utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md)
-##### [Créer des enregistrements document entrant directement à partir de documents et d’écritures](across-how-connect-disconnect-income-document-records.md)
-##### [Rechercher des enregistrements validés sans enregistrements document entrant](across-how-find-posted-documents-without-income-document-records.md)
-##### [Gérer de nombreux enregistrements document entrant](across-how-manage-many-income-document-records.md)
+#### [Créer des enregistrements document entrant](across-how-create-income-document-records.md)
+#### [Utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md)
+#### [Créer des enregistrements document entrant directement à partir de documents et d’écritures](across-how-connect-disconnect-income-document-records.md)
+#### [Rechercher des enregistrements validés sans enregistrements document entrant](across-how-find-posted-documents-without-income-document-records.md)
+#### [Gérer de nombreux enregistrements document entrant](across-how-manage-many-income-document-records.md)
 
 ### Flux de travail
 #### [Vue d’ensemble du workflow](across-workflow.md)
@@ -1421,11 +1419,11 @@
 
 ### États-Unis
 #### [Fonctionnalité locale dans la version des États-Unis](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
-#### Taxes
+#### Taxe
 ##### [Sales Tax américaine](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Génération de déclarations sur les taxes sur les ventes aux États-Unis](LocalFunctionality/UnitedStates/us-sales-tax.md)  
-##### [Génération d’états de transactions soumis à la 1099 aux États-Unis](LocalFunctionality/UnitedStates/tax-1099.md)  
 ##### [Configurer et utiliser le formulaire IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
+##### [Modifications réglementaires et détails du format 1099](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Configurer la Use Tax et la Purchase Tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Configurer taxes sur les ventes calculées et remises paiement de taxe](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banque et paiements

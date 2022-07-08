@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 84d4a87a0edab18be342b9ed5732de0350a31645
-ms.sourcegitcommit: bc645e7ecb1940a85b2c433aa894d3494c9b10df
+ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743686"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075097"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Flux de travail dans Dynamics 365 Business Central
 
@@ -47,6 +47,8 @@ Pour configurer et utiliser des flux de travail qui ne sont pas définis dans Po
 |Configurer des utilisateurs du workflow, spécifier comment les utilisateurs sont notifiés et créer des workflows. Pour de nouveaux workflows pour des scénarios non pris en charge, implémentez les éléments requis du workflow en personnalisant le code d’application.|[Configuration des workflows](across-set-up-workflows.md)|  
 |Activer des workflows, agir sur les notifications du workflow, notamment les approbations de demandes et approuver des demandes pour effectuer une étape du workflow. Archiver et supprimer des workflows.|[Utiliser des workflows](across-use-workflows.md)|  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-workflows/)
+
 ## <a name="see-also"></a>Voir aussi
 
 [Ventes](sales-manage-sales.md)  
@@ -55,5 +57,6 @@ Pour configurer et utiliser des flux de travail qui ne sont pas définis dans Po
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] dans les flux Power Automate](across-how-use-financials-data-source-flow.md)  
 [Dépanner les flux de travail automatisés [!INCLUDE[prod_short](includes/prod_short.md)]](across-flow-troubleshoot.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
