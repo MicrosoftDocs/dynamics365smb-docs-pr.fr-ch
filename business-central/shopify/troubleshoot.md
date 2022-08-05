@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 83678c6c81b29a524405699425be877459b6568d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075332"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129656"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Dépannage de la synchronisation entre Shopify et Business Central
 
@@ -77,7 +77,7 @@ Les procédures suivantes décrivent comment faire tourner le jeton d’accès u
 ### <a name="in-shopify"></a>Dans Shopify
 
 1. Depuis votre **Administration Shopify**, accédez à [Applications](https://www.shopify.com/admin/apps).
-2. Dans la ligne avec l’application *Dynamics 365 Business Central**, sélectionnez **Effacer**.
+2. Dans la ligne avec l’application **Dynamics 365 Business Central**, sélectionnez **Effacer**.
 3. Dans le message qui s’affiche, sélectionnez **Supprimer**.
 
 ### <a name="in-prod_short"></a>Dans [!INCLUDE[prod_short](../includes/prod_short.md)]

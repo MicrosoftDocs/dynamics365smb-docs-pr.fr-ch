@@ -9,44 +9,44 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6f4109b7de28938ac21945fce57179837aeb70b8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 18a9d4ba7e2865e41d660261a598b1b755c68023
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076788"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129738"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Créer des flux de travail à partir de modèles de flux de travail
 
-Pour gagner du temps lors de la création de workflows, vous pouvez créer des workflows à partir de modèles de workflow existants.  
+Pour gagner du temps lors de la création de flux de travail, vous pouvez créer des flux de travail à partir de modèles de flux de travail existants.  
 
- Les modèles de workflow sont des workflows non modifiables qui existent dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)]. Les codes des modèles de workflow ajoutés par Microsoft ont le préfixe « MS- ».  
+Les modèles de flux de travail sont des flux de travail non modifiables qui existent dans la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)]. Les codes des modèles de flux de travail créés par Microsoft ont le préfixe « MS- ».  
 
- Un autre moyen rapide de créer un workflow consiste à importer un workflow existant qui est stocké dans un fichier en dehors de [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Exporter et importer des flux de travail](across-how-to-export-and-import-workflows.md).  
+Un autre moyen rapide de créer un flux de travail consiste à importer un flux de travail existant qui est stocké dans un fichier en dehors de [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Exporter et importer des flux de travail](across-how-to-export-and-import-workflows.md).  
 
-Sur la page **Workflow**, créez un workflow en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de workflow modéré par des conditions d’événement, et une réponse de workflow modérée par des options de réponse. Définissez les étapes de workflow en renseignez les champs des lignes de workflow à partir de listes fixes de valeurs d’événement et de réponse qui sont les scénarios pris en charge par le code d’application. Pour plus d’informations, voir [Créer des flux de travail](across-how-to-create-workflows.md).  
+Sur la page **Flux de travail**, créez un flux de travail en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de flux de travail modéré par des conditions d’événement, et une réponse de flux de travail modérée par des options de réponse. Définissez les étapes de flux de travail en renseignez les champs des lignes de flux de travail à partir de listes fixes de valeurs d’événement et de réponse qui sont les scénarios pris en charge par le code d’application. Pour plus d’informations, voir [Créer des flux de travail](across-how-to-create-workflows.md).  
 
-## <a name="to-create-a-workflow-from-workflow-template"></a>Pour créer un workflow à partir d’un modèle de workflow
+## <a name="to-create-a-workflow-from-a-workflow-template"></a>Pour créer un flux de travail à partir d’un modèle de flux de travail
 
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
-2.  Choisissez l’action **Créer le flux de travail à partir du modèle**. La page **Modèles flux de travail** s’ouvre.  
-3.  Sélectionnez un modèle de workflow et cliquez sur le bouton **OK**.  
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
+2. Choisissez l’action **Créer flux de travail à partir du modèle**. La page **Modèles flux de travail** s’ouvre.  
+3. Sélectionnez un modèle de flux de travail et cliquez sur le bouton **OK**.  
 
-     La page **Flux de travail** s’ouvre pour un nouveau flux de travail contenant toutes les informations du modèle sélectionné. La valeur du champ **Code** est étendue avec « -01 », par exemple, pour indiquer que ce premier workflow est créé à partir du modèle de workflow.  
-4.  Créez ensuite le workflow en modifiant les étapes de workflow ou en ajoutant de nouvelles étapes. Pour plus d’informations, voir [Créer des flux de travail](across-how-to-create-workflows.md).  
+   La page **Flux de travail** s’ouvre pour un nouveau flux de travail contenant toutes les informations du modèle sélectionné. La valeur du champ **Code** est étendue avec « -01 », par exemple, « -01 » pour indiquer que ce premier flux de travail est créé à partir du modèle de flux de travail.  
+4. Créez ensuite le flux de travail en modifiant les étapes de flux de travail ou en ajoutant de nouvelles étapes. Pour plus d’informations, voir [Créer des flux de travail](across-how-to-create-workflows.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-workflows/)
 
 ## <a name="see-also"></a>Voir aussi
 
- [Créer des workflows](across-how-to-create-workflows.md)  
- [Exporter et importer des workflows](across-how-to-export-and-import-workflows.md)  
- [Afficher des instances d’étape de workflow archivées](across-how-to-view-archived-workflow-step-instances.md)  
- [Supprimer des workflows](across-how-to-delete-workflows.md)  
- [Procédure pas à pas : Configuration et utilisation d’un flux d’approbation d’achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
- [Paramétrage des workflows](across-set-up-workflows.md)  
- [Utiliser des workflows](across-use-workflows.md)  
- [Flux de travail](across-workflow.md)  
+[Créer des flux de travail](across-how-to-create-workflows.md)  
+[Exporter et importer des flux de travail](across-how-to-export-and-import-workflows.md)  
+[Afficher des instances d’étape de flux de travail archivées](across-how-to-view-archived-workflow-step-instances.md)  
+[Supprimer des flux de travail](across-how-to-delete-workflows.md)  
+[Procédure pas à pas : Configuration et utilisation d’un flux d’approbation d’achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Paramétrage des flux de travail](across-set-up-workflows.md)  
+[Utiliser des flux de travail](across-use-workflows.md)  
+[Flux de travail](across-workflow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

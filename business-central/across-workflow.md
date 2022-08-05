@@ -1,5 +1,5 @@
 ---
-title: Flux de travail dans Dynamic 365 Business Central
+title: Flux de travail dans Dynamics 365 Business Central
 description: Utilisez les fonctionnalités de flux de travail intégrées pour configurer des flux de travail approbation afin de compléter les flux de travail automatisés basés sur Power Automate. Vous pouvez configurer des étapes pour affecter des tâches à différentes personnes dans le cadre des différentes tâches de processus métier.
 author: SorenGP
 ms.topic: conceptual
@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ab7d131e965b0698c6e33a0b1a43c8f408a7b1b2
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075097"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129918"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Flux de travail dans Dynamics 365 Business Central
 
-Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.  
+Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du flux de travail, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.  
 
 La version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)] prend en charge 3 types de flux de travail :
 
@@ -32,13 +32,13 @@ La version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)] prend 
 
 ## <a name="power-automate-flows"></a>Flux Power Automate
 
-Pour [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, vous pouvez vous inscrire à Power Automate et créer de puissants flux automatisés exécutables dans [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] dans les flux Power Automate](across-how-use-financials-data-source-flow.md).  
+À l'aide de [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, vous pouvez vous inscrire à Power Automate et créer de puissants flux automatisés exécutables dans [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] dans les flux Power Automate](across-how-use-financials-data-source-flow.md).  
 
 ## <a name="automated-approval-workflows"></a>Les flux de travail approbation automatisés
 
 Créez un flux de travail approbation en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de workflow modéré par des conditions d’événement, et une réponse de workflow modérée par des options de réponse. Définissez les étapes de workflow en renseignez les champs des lignes de workflow à partir de listes fixes de valeurs d’événement et de réponse qui sont les scénarios pris en charge par le code d’application.  
 
-Si un scénario métier nécessite un événement de flux de travail ou une réponse qui n’est pas pris(e) en charge dans la version par défaut, inscrivez-vous à Power Automate. Pour plus d’informations, voir [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] dans les flux Power Automate](across-how-use-financials-data-source-flow.md). Sinon, obtenez une application ou collaborez avec un partenaire Microsoft pour personnaliser le code de l’application.  
+[!INCLUDE[workflow](includes/workflow.md)]
 
 Pour configurer et utiliser des flux de travail qui ne sont pas définis dans Power Automate, consultez les articles suivants :  
 

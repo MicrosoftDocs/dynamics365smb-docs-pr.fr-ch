@@ -440,7 +440,7 @@
 ### [Vendre des produits](sales-how-sell-products.md)
 ### [Imprimer la liste des prélèvements](sales-how-print-picking-list.md)
 ### [Valider les ventes](ui-post-sales.md)
-### [Créer des lignes ventes et achat récurrentes](sales-how-work-standard-lines.md)
+### [Créer des lignes vente récurrentes](sales-how-work-standard-lines.md)
 ### [Effectuer des livraisons directes](sales-how-drop-shipment.md)
 ### [Créer des commandes spéciales](sales-how-to-create-special-orders.md)
 ### [Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md)
@@ -472,7 +472,7 @@
 ### [Utiliser des commandes ouvertes achat](sales-how-to-create-blanket-sales-orders.md)
 ### [Numéros de document externe sur les documents achat](purchasing-ext-doc-no.md)
 ### [Entrer des numéros de document externe](across-enter-external-document-numbers.md)
-
+### [Créer des lignes achat récurrentes](purchasing-how-work-recurring-purchase-lines.md)
 
 ## Stock
 ### [Vue d’ensemble du stock](inventory-manage-inventory.md)
@@ -1472,6 +1472,7 @@
 #### [Configuration des ventes](sales-setup-sales.md)
 #### [Enregistrer de nouveaux clients](sales-how-register-new-customers.md)
 #### [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md)
+#### [Configurer les prix et les remises](across-prices-and-discounts.md)
 #### [Enregistrer les prix de vente spéciaux et les remises](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Configurer des groupes tarifs client](sales-how-to-set-up-customer-price-groups.md)
 #### [Configurer des groupes remises client](sales-how-to-set-up-customer-discount-groups.md)
@@ -1483,9 +1484,11 @@
 ### Configurer les procédures achat
 #### [Configurer les procédures achat](purchasing-setup-purchasing.md)
 #### [Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)
-#### [Enregistrer les prix d’achat spéciaux et les remises](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Configurer des comptes bancaires fournisseur](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Octroyer une priorité aux fournisseurs](purchasing-how-prioritize-vendors.md)
 #### [Configurer les acheteurs](purchasing-how-setup-purchasers.md)
+#### [Configurer les prix et les remises](across-prices-and-discounts.md)
+#### [Enregistrer les prix d’achat spéciaux et les remises](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### Configurer le stock
 #### [Configuration du stock](inventory-setup-inventory.md)
 #### [Définir des informations générales relatives aux stocks](inventory-how-setup-general.md)
@@ -1772,6 +1775,7 @@
 ### [Gérer les paramètres et les préférences de l’utilisateur](admin-manage-user-settings-preferences.md)
 ### [Paramétrage imprimantes](ui-specify-printer-selection-reports.md)
 ### [Classifier la sensibilité des données](admin-classifying-data-sensitivity.md)
+### [Statut des déclarations de confidentialité](privacy-notices-status.md)
 ### [Répondre aux demandes relatives aux données personnelles](admin-responding-to-requests-about-personal-data.md)
 ### [Créer de nouvelles sociétés](about-new-company.md)
 ### [Journaliser les modifications](across-log-changes.md)

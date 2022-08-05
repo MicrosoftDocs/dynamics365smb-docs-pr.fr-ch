@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 07/13/2022
 ms.author: jswymer
-ms.openlocfilehash: c893513098d5078995e6cab09abcf0d2e0bb2769
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 5be0366c2d26e809e966844fc6851cfc5d9e29b7
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950371"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144317"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Activation de l’intégration de Power BI à [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -31,28 +31,28 @@ Avec [!INCLUDE[prod_short](includes/prod_short.md)], les utilisateurs bénéfici
 
 Pour plus d’informations, consultez [Gestion des licences du service Power BI pour les utilisateurs de votre organisation](/power-bi/admin/service-admin-licensing-organization) ou [S’inscrire au service Power BI en tant que particulier](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="expose-data-through-api-pages-or-odata-web-services"></a><a name="exposedata"></a>Exposer des données via des pages API ou des services Web OData
+## <a name="expose-data-through-api-or-odata-web-services"></a><a name="exposedata"></a>Exposer des données via des API ou des services Web OData
 
-Business Central propose deux manières d’exposer les données qui peuvent être consommées par les rapports Power BI : pages API et services Web Open Data Protocol (OData).
+Business Central propose deux manières d’exposer les données qui peuvent être consommées par les rapports Power BI : des pages ou des requêtes API et des services Web Open Data Protocol (OData).
 
-### <a name="api-pages"></a>Pages API
+### <a name="api-pages-and-queries"></a>Pages et requêtes API
 
-> **S’APPLIQUE À :** Business Central Online uniquement 
+> **S’APPLIQUE À :** Business Central Online uniquement
 
-Une page API est un type de page spécifique créé dans le code AL qui permet d’accéder aux tables de la base de données via un service REST pris en charge par les webhooks et OData v4. Ce type de page ne peut pas être affiché dans l’interface utilisateur, mais est destiné à créer des services d’intégration fiables.
+Les développeurs peuvent définir des objets de page et des objets de requête de type *API*. De cette façon, ils peuvent exposer les données des tables de base de données via un service REST pris en charge par le Webhook et compatible avec OData v4. Ce type de données ne peut pas être affiché dans l’interface utilisateur, mais est destiné à créer des services d’intégration fiables.
 
 Business Central Online est disponible avec un ensemble d’API intégrées, que vous pouvez utiliser pour obtenir des données pour les entités commerciales les plus courantes, telles que les clients, les articles, les commandes client, etc. Aucun travail ou configuration supplémentaire n’est requis pour utiliser ces API comme source de données pour les rapports Power BI. Pour plus d’informations sur ces API, consultez [API Business Central V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
 
-Business Central Online prend également en charge les API personnalisées. Les développeurs d’applications des solutions Business Central peuvent créer leurs propres pages API et les regrouper dans des extensions. Vous pouvez ensuite installer les extensions sur votre locataire. Une fois installé, vous utiliser les pages API pour vos rapports Power BI, comme vous le feriez avec les API intégrées (v2.0). Pour plus d’informations sur la création de pages d’API, consultez [Développement d’une API personnalisée](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+Business Central Online prend également en charge les API personnalisées. Les développeurs d’applications des solutions Business Central peuvent créer leurs propres pages et requêtes API et les regrouper dans des applications. Vous pouvez ensuite installer les applications sur votre locataire. Une fois installé, vous utiliser les pages API pour vos rapports Power BI, comme vous le feriez avec les API intégrées (v2.0). Pour plus d’informations sur la création d'une API en exposant des pages ou des requêtes, consultez [Développement d’une API personnalisée](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
 
 > [!IMPORTANT]
-> À partir de février 2022, les états Power BI pour [!INCLUDE[prod_short](includes/prod_short.md)] Online proviennent d’une réplique de base de données secondaire en lecture seule pour des raisons de performances. Par conséquent, les développeurs AL doivent éviter de concevoir des pages d’API qui modifient la base de données pendant que les pages s’ouvrent ou chargent des enregistrements. En particulier, prenez en compte le code sur les déclencheurs AL : OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord et OnAfterGetCurrRecord. Ces modifications de la base de données, dans certains cas, peuvent entraîner des problèmes de performances et empêcher le rapport d’actualiser les données. Pour plus d’informations, voir [Articles sur les performances pour les développeurs](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) dans l’aide au développement de Business Central.
+> À partir de février 2022, les états Power BI pour [!INCLUDE[prod_short](includes/prod_short.md)] Online proviennent d’une réplique de base de données secondaire en lecture seule pour des raisons de performances. Par conséquent, les développeurs AL doivent éviter de concevoir des pages d’API qui modifient la base de données pendant que les pages s’ouvrent ou chargent des enregistrements. En particulier, prenez en compte le code sur les déclencheurs AL : OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord et OnAfterGetCurrRecord. Ces modifications de la base de données, dans certains cas, peuvent entraîner des problèmes de performances et empêcher le rapport d’actualiser les données. Pour plus d’informations, voir [Articles sur les performances pour les développeurs](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) dans le contenu de développement de Business Central.
 >
-> Dans de rares cas, le comportement entraînera une erreur lorsqu’un utilisateur essaiera d’obtenir des données à partir de la page API pour un rapport dans Power BI Desktop. Toutefois, si des modifications de la base de données sont nécessaires dans la page API personnalisée, les utilisateurs de Power BI Desktop peuvent forcer le comportement. Pour plus d’informations, consultez [Création d’états Power BI pour afficher les données Business Central](across-how-use-financials-data-source-powerbi.md#fixing-problems).
+> Dans de rares cas, le comportement entraînera une erreur lorsqu’un utilisateur essaiera d’obtenir des données à partir de l'API pour un rapport dans Power BI Desktop. Toutefois, si des modifications de la base de données sont nécessaires dans l'API personnalisée, les utilisateurs de Power BI Desktop peuvent forcer le comportement. Pour plus d’informations, consultez [Création d’états Power BI pour afficher les données Business Central](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
 ### <a name="odata-web-services"></a>Services Web OData
 
-Vous pouvez publier des objets d’application Business Central, tels que des unités de code, des pages et des requêtes, comme les [services Web OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). Avec Business Central Online, de nombreux services Web sont publiés par défaut. Pour trouver facilement les services Web, il suffit de rechercher *services web* dans [!INCLUDE[prod_short](includes/prod_short.md)]. Sur la page **Services Web**, assurez-vous que le champ **Publier** est sélectionné pour les services Web répertoriés ci-dessus. Pour plus d’informations sur la publication des services Web, voir [Publier un service Web](across-how-publish-web-service.md).
+Vous pouvez publier des objets d’application Business Central, tels que des codeunits, des pages et des requêtes, comme les [services Web OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). Avec Business Central Online, de nombreux services Web sont publiés par défaut. Pour trouver facilement les services Web, il suffit de rechercher *services web* dans [!INCLUDE[prod_short](includes/prod_short.md)]. Sur la page **Services Web**, assurez-vous que le champ **Publier** est sélectionné pour les services Web répertoriés ci-dessus. Pour plus d’informations sur la publication des services Web, voir [Publier un service Web](across-how-publish-web-service.md).
 
 Pour savoir ce que vous pouvez faire pour garantir les meilleures performances des services Web, comme observé depuis Business Central Server (point de terminaison) et le consommateur (client), consultez [Écrire des services Web efficaces](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
 
@@ -94,7 +94,7 @@ Cette section explique les conditions requises pour un déploiement [!INCLUDE[pr
 
     Avant que les utilisateurs finaux puissent utiliser Power BI dans [!INCLUDE[prod_short](includes/prod_short.md)], un administrateur de l’application Azure devra donner son accord au service Power BI.
 
-    Pour établir la connexion initiale, ouvrez [!INCLUDE[prod_short](includes/prod_short.md)], et exécutez **Mise en route avec Power BI** à partir du Tableau de bord. Cette action vous guidera tout au long du processus de consentement et vérifiera votre licence Power BI. Lorsque vous y êtes invité, connectez-vous à l’aide d’un compte d’administrateur Azure. Pour en savoir plus, consultez [Se connecter à Power BI – une fois seulement](across-working-with-powerbi.md#connect).
+    Pour établir la connexion initiale, ouvrez [!INCLUDE[prod_short](includes/prod_short.md)], et exécutez **Mise en route avec Power BI** à partir de la page d'accueil. Cette action vous guidera tout au long du processus de consentement et vérifiera votre licence Power BI. Lorsque vous y êtes invité, connectez-vous à l’aide d’un compte d’administrateur Azure. Pour en savoir plus, consultez [Se connecter à Power BI – une fois seulement](across-working-with-powerbi.md#connect).
 
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)

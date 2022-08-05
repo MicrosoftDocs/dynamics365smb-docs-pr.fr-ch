@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: 1171195822d45cd38393e30947ec50539f11aae4
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c1e576d24e9a9ca3b81e58e534449729776c6fa1
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076684"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130189"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Environnements Sandbox dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -75,7 +75,7 @@ Pour plus d’informations, voir [Utiliser le concepteur](/dynamics365/business-
 ## <a name="see-also"></a>Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Versions d’évaluation et abonnements [!INCLUDE[prod_long](includes/prod_long.md)]]((/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
+[Versions d’évaluation et abonnements [!INCLUDE[prod_long](includes/prod_long.md)]](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 [Gestion des environnements dans le centre d’administration de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Environnements de production et sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types)  
 

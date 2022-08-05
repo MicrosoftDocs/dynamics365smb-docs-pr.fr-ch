@@ -11,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8beaa37b20acbbad54b46e231a5c60694f7a7d75
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c397de29bf2d2c23d5fedb9f3566ebd0e62dd183
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518092"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144101"
 ---
 # <a name="about-item-types"></a>À propos des types d’articles
 Dans le champ **Type** de la page **Fiche article**, vous pouvez sélectionner ce pourquoi l’article est utilisé dans votre activité, ce qui a une incidence sur le niveau de gestion que vous pouvez exercer sur l’article en stock. Le tableau suivant répertorie et décrit les trois types d’éléments disponibles.
@@ -32,11 +32,11 @@ Dans le champ **Type** de la page **Fiche article**, vous pouvez sélectionner c
 
 Le tableau suivant répertorie les fonctions que les trois types d’article prennent en charge.
 
-|Type d’article|Ventes|Achats|Consommation de projet|Consommation de service|Consommation d’assemblage|Production Consommation|Résultat d’assemblage|Production|Magasin, Acheminement|Inventaire physique|Réévaluation du stock|Évaluation stock|Traçabilité|Réservation|Entreposage|Planning|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|STOCKS ET EN-COURS|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
-|Hots stock|Oui|Oui|Oui|Oui|Oui|Oui|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|
-|Service|Oui|Oui|Oui|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|
+|Type d’article|Ventes|Achats|Consommation de projet|Consommation de service|Consommation d’assemblage|Production Consommation|Résultat d’assemblage|Production|Magasin, Acheminement|Inventaire physique|Réévaluation du stock|Évaluation stock|Traçabilité|Réservation|Entreposage|Planification|Planning commande|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|Stock|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
+|Hors stock|Oui|Oui|Oui|Oui|Oui|Oui|N°|N°|N°|N°|N°|N°|N°|N°|N°|N°|Oui|
+|Service|Oui|Oui|Oui|N°|N°|N°|N°|N°|N°|N°|N°|N°|N°|N°|N°|N°|Oui|
 
 ## <a name="costing-methods-for-types-of-items"></a>Modes évaluation stock pour les types d’articles
 Lorsque vous validez des transactions de stock, les changements de quantité et de valeur en stock sont enregistrés dans les écritures comptables article et les écritures valeur, respectivement. 

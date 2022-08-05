@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077282"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129693"
 ---
 # <a name="set-up-locations"></a>Configurer des magasins
 
@@ -77,8 +77,7 @@ Si vous souhaitez structurer vos emplacements en zones, vous pouvez le faire dan
 Toutefois, vous pouvez choisir de configurer une seule zone et d’organiser votre entrepôt uniquement en fonction des emplacements. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Axes analytiques par défaut pour les magasins
-
-Pour définir les axes analytiques par défaut pour un magasin, allez sur la page **Fiche magasin** et choisissez **Magasin**, puis **Axes analytiques**. Les axes analytiques par défaut du magasin sont copiés dans les journaux et les documents lorsque vous spécifiez le magasin sur une ligne, mais vous pouvez supprimer ou modifier l’axe analytique sur la ligne si nécessaire. Vous pouvez exiger que les personnes spécifient des axes analytiques pour des magasins spécifiques avant de pouvoir valider une écriture. Vous pouvez également inclure des sections analytiques de magasin dans **Affect. analytique prioritaire** et **Croisements analytiques** pour les combinaisons de règles de priorité et d’axe analytique.
+Pour définir les axes analytiques par défaut pour un magasin, allez sur la page **Fiche magasin** et choisissez **Axes analytiques**. Par la suite, les axes analytiques par défaut du magasin sont attribuées aux documents lorsque vous choisissez l'emplacement sur une ligne. Au besoin, vous pouvez supprimer ou modifier les axes analytiques sur les lignes. Dans le champ **Contrôle validation**, pouvez exiger que les personnes spécifient des axes analytiques pour des magasins spécifiques avant de pouvoir valider une écriture. Si vous souhaitez que les utilisateurs puissent choisir uniquement certaines sections analytiques, vous pouvez spécifier celles-ci dans le champ **Filtre valeurs autorisées**. Vous pouvez également inclure des sections analytiques de magasin sur la page **Affect. analytique prioritaire** et **Croisements analytiques** pour les combinaisons de règles de priorité et d’axe analytique.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 

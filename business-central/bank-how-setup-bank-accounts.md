@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0feba901ac569c0cbd714f8ea3d3c271c82425bd
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078793"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144155"
 ---
 # <a name="set-up-bank-accounts"></a>Configuration des comptes bancaires
 
@@ -88,7 +88,7 @@ Plus les informations de mappage que vous faites dans le journal de rapprochemen
 
 ## <a name="to-set-up-bank-accounts"></a>Pour configurer des comptes bancaires
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Sur la page **Comptes bancaires**, sélectionnez l’action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -169,7 +169,7 @@ Pour renseigner le champ **Solde** avec un solde ouvert, vous devez valider une 
 
 Les champs associés à l’importation et à l’exportation des flux et des fichiers bancaires se trouvent sur le raccourci **Transfert** de la page **Fiche compte bancaire**. Pour plus d’informations, voir [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) et [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 2.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Ouvrez la fiche d’un compte bancaire pour lequel vous exporterez ou importerez des fichiers bancaires.
 3. Sur le raccourci **Transfert**, complétez les champs, comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -222,18 +222,11 @@ L’illustration montre l’itinéraire des paiements sortants :
 
 Les champs du raccourci **Transfert** de la page **Fiche compte bancaire fourn.** sont associés à l’exportation des flux et des fichiers bancaires. Pour plus d’informations, voir [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) et [Exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Fournisseurs**, puis choisissez le lien associé.
-2. Ouvrez la fiche d’un fournisseur pour le compte bancaire duquel vous exporterez des fichiers bancaires.
-3. Choisissez l’option **Comptes bancaires**.
-4. Dans la **Liste des comptes bancaires des fournisseurs**, choisissez le compte bancaire approprié ou ajoutez un nouveau compte bancaire.  
-5. Renseignez les champs selon vos besoins sur la page **Fiche compte bancaire fourn.** du raccourci **Transfert**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!WARNING]
-> Certains champs du compte bancaire fournisseur peuvent contenir des données sensibles, comme les champs **Code établissement**, **N° de compte bancaire**, **Code BIC** et **Code IBAN**. Pour plus d’informations, voir [Surveillance des champs sensibles](across-log-changes.md#monitoring-sensitive-fields).
+[!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 ## <a name="changing-your-bank-account"></a>Changer votre compte bancaire
 
-Si vous souhaitez utiliser un autre compte bancaire pour votre entreprise, vous devez créer le compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)]. Nous vous recommandons de ne pas simplement remplacer les informations sur le compte que vous utilisez actuellement, car cela peut entraîner des données incorrectes. Par exemple, votre solde d’ouverture peut être incorrect ou votre flux bancaire peut cesser de fonctionner correctement. Il est important que vous fassiez la distinction entres comptes actuels et nouveaux comptes.
+Si vous souhaitez utiliser un autre compte bancaire pour votre entreprise, vous devez créer le compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)]. Nous vous recommandons de ne pas simplement remplacer les informations sur le compte que vous utilisez actuellement, car cela peut entraîner des données incorrectes. Par exemple, votre solde d’ouverture peut être incorrect ou votre flux bancaire peut cesser de fonctionner correctement. Il est important que vous fassiez la distinction entre comptes actuels et nouveaux comptes.
 
 Après avoir créé le compte bancaire, vous devez également créer un groupe d’écritures bancaires et l’affecter à un nouveau compte général. Vous pouvez réutiliser un groupe comptabilisation bancaire existant et les transactions bancaires seront comptabilisées sur les mêmes comptes généraux que les autres comptes bancaires qui partagent le groupe comptabilisation bancaire. Cependant, nous vous recommandons de créer un groupe d’écriture bancaire et un nouveau compte général afin que les rapprochements soient plus faciles à faire.
 
@@ -257,6 +250,5 @@ Pour obtenir une vue plus condensée de vos comptes de trésorerie dans les rapp
 [Rapprochement paiement](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

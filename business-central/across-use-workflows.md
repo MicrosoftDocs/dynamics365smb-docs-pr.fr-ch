@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: b7e6574567e07b42187d3e33cfbf7f99e13096f8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4f66b334df678ff27e094858dd0cec44c1bb8e75
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077386"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130242"
 ---
 # <a name="use-workflows"></a>Utiliser des workflows
 
@@ -37,7 +37,7 @@ L’illustration suivante montre un exemple de flux de travail avec approbation 
 
 ![Illustration d’un flux de travail avec approbation séquentielle.](media/Workflows/approval-flow.png)
 
-Dans cet exemple, la demande doit être approuvée par le premier approbateur avant que la demande ne soit envoyée au prochain approbateur. Si la demande n’est pas approuvée par le premier approbateur, la demande ne sera jamais transmise au prochain approbateur.  
+Dans cet exemple, la demande doit être approuvée par le premier approbateur avant que la demande ne soit envoyée au prochain approbateur. Si la demande n’est pas approuvée par le premier approbateur, elle ne sera jamais transmise au prochain approbateur.  
 
 Le chemin emprunté depuis le déclenchement initial du workflow peut varier en fonction de la nature de l’approbation.  
 
@@ -52,21 +52,21 @@ Cependant, le flux de travail n’est pas approuvé tant que toutes les demandes
 > [!NOTE]  
 > Il n’est pas possible de créer un flux de travail avec plusieurs approbateurs et de s’attendre à ce que l’ensemble du flux de travail soit approuvé après l’approbation de la première demande. Toutes les demandes doivent être approuvées pour que le flux de travail soit approuvé.
 
-Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Il est également possible de créer plusieurs fois le même flux de travail. Chaque flux de travail déclenché par un événement utilisant des filtres différents. Ceci est utile si une demande d’approbation dans un service doit être approuvée par un approbateur, alors que les demandes d’approbation dans d’autres services doivent être approuvées par un autre approbateur. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.  
+Vous pouvez configurer et utiliser des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Il est également possible de créer plusieurs fois le même flux de travail. Chaque flux de travail peut-être déclenché par un événement utilisant des filtres différents. Ceci est utile si une demande d’approbation dans un service doit être approuvée par un approbateur, alors que les demandes d’approbation dans d’autres services doivent être approuvées par un autre approbateur. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.  
 
- Avant de pouvoir commencer à utiliser des workflows, vous devez configurer des utilisateurs de workflow, créer les workflows, potentiellement précédés d’une personnalisation de code et spécifier la manière dont les utilisateurs reçoivent les notifications. Pour plus d’informations, reportez-vous à [Paramétrage des workflows](across-set-up-workflows.md).  
+Avant de pouvoir commencer à utiliser des workflows, vous devez configurer des utilisateurs de workflow, créer les workflows, potentiellement précédés d’une personnalisation de code et spécifier la manière dont les utilisateurs reçoivent les notifications. Pour plus d’informations, reportez-vous à [Paramétrage des workflows](across-set-up-workflows.md).  
 
 > [!NOTE]  
 > Les étapes d’un workflow traitent en général des utilisateurs qui demandent l’approbation des tâches et des approbateurs qui acceptent ou rejettent les demandes d’approbations. Par conséquent, la plupart des rubriques sur l’utilisation des workflows concernent les approbations.  
 
- Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
+ Le tableau suivant décrit une série de tâches et inclut des liens vers les articles qui les décrivent.  
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
 |Définissez un workflow pour démarrer lorsque le premier événement de point d’entrée se produit.|[Activer des workflows](across-how-to-enable-workflows.md)|  
 |Demander l’approbation d’une tâche, en tant qu’approbateur, accepter, décliner ou déléguer des approbations, et envoyer ou afficher des notifications d’approbation.|[Utilisation des flux d’approbation](across-how-use-approval-workflows.md)|  
 |Créez des étapes de workflow qui limitent l’utilisation d’un certain type d’enregistrement avant qu’un certain événement ne se produise, par exemple que l’enregistrement est approuvé.|[Restreindre et autoriser l’utilisation d’un enregistrement](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Affichez les instances d’étape du workflow dont le statut est Terminé.|[Afficher des instances d’étape de workflow archivées](across-how-to-view-archived-workflow-step-instances.md)|  
+|Affichez les instances d’étape du workflow dont le statut est **Terminé**.|[Afficher des instances d’étape de flux de travail archivées](across-how-to-view-archived-workflow-step-instances.md)|  
 |Supprimez un workflow que vous êtes sûr de ne plus utiliser.|[Supprimer des workflows](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-workflows/)
