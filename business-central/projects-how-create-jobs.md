@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 04/01/2021
+ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8d70c11aa3d467ada4f7aae3a1cf3efa1603bbe4
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074727"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227488"
 ---
 # <a name="create-jobs"></a>Créer des projets
 
@@ -43,7 +43,15 @@ Vous devez créer une fiche projet, puis créez des Lignes tâche projet et des 
 3. Pour spécifier le projet avec les informations d’autres projets, cliquez sur **Copier projet**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
 
 > [!NOTE]  
->   Si vous utilisez des feuilles de temps dans le projet, vous devez également indiquer une personne responsable. Cette personne peut approuver les feuilles de temps pour les tâches des salariés associées à ce projet. Pour plus d’informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
+> Si vous utilisez des feuilles de temps dans le projet, vous devez également indiquer une personne responsable. Cette personne peut approuver les feuilles de temps pour les tâches des salariés associées à ce projet. Pour plus d’informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
+
+Si vous le souhaitez, marquez les actions sur le projet comme bloquées à l’aide du champ **Bloqué**. Le tableau suivant décrit l'effet de ces options sur ce champ.
+
+|Option  |Désignation  |
+|---------|---------|
+|Vide |Toutes les actions sont autorisées.|
+|Valider    |Vous pouvez utiliser des lignes planning, mais la validation du projet est bloquée. Choisir cette option implique que vous ne pouvez pas valider d'activité ni de vente sur le projet.|
+|Tous  |Toutes les actions sont bloquées.|
 
 ## <a name="to-create-tasks-for-a-job"></a>Pour créer une tâche pour un projet
 

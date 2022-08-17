@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
-ms.date: 05/09/2022
+ms.date: 07/27/2022
 ms.author: edupont
-ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 2b5bba12afb2fbb05dbfd3240088c2726f5d8337
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729859"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227515"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Attribuer des autorisations aux utilisateurs et aux groupes
 
@@ -83,9 +83,13 @@ Pour définir rapidement un nouveau groupe d’utilisateurs, vous pouvez copier 
 
 Le nouveau groupe d’utilisateurs est ajouté à la page **Groupes d’utilisateurs**. Ajoutez ensuite des utilisateurs. Pour plus d’informations, voir la section [Pour ajouter des utilisateurs à un groupe d’utilisateurs](#to-add-users-to-a-user-group).  
 
+> [!IMPORTANT]
+> Vous obtiendrez une erreur de validation si vous essayez d'attribuer un groupe d'utilisateurs à l'utilisateur qui fait référence à un ensemble d'autorisations défini dans une extension désinstallée. C’est parce que l’ID d’application de l’extension est validé chaque fois qu’il est référencé. Pour affecter ce groupe d'utilisateurs à un utilisateur, vous pouvez soit réinstaller l'extension, soit supprimer la référence de l'extension désinstallée de l'ensemble d'autorisations, soit supprimer cet ensemble d'autorisations du groupe d'utilisateurs.
+
+
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Pour affecter des ensembles d’autorisations à des groupes d’utilisateurs
 
-1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Groupes utilisateur**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Groupes utilisateur**, puis choisissez le lien associé.
 2. Sélectionnez le groupe d’utilisateurs auquel affecter des autorisations.  
 
     Tous les ensembles d’autorisations qui sont affectés à l’utilisateur sont affichés dans le récapitulatif **Ensemble d’autorisations utilisateur**.
