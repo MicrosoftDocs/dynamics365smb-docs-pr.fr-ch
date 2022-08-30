@@ -7,18 +7,20 @@ ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7a874890fe88b32668b309edb43563f8d11e7555
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 0f8c8bf1f9f9c56f1790bf8fd6727eab6977ad3c
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655399"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317396"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Passer à une autre entreprise ou un autre environnement
 
 [!INCLUDE [prod_short](includes/prod_short.md)] est disponible dans de nombreux pays différents et prend en charge de nombreux types d’organisations. Votre organisation peut configurer [!INCLUDE [prod_short](includes/prod_short.md)] de sorte que vous devez comprendre les termes *entreprise* et *environnement*.  
 
-[!INCLUDE [company_environment](includes/company_environment.md)] Pour plus d’informations, voir [Création de sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
+[!INCLUDE [company_environment](includes/company_environment.md)]
+
+Pour plus d’informations, voir [Création de sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > Si vous changez souvent d’entreprise ou utilisez [!INCLUDE[prod_short](includes/prod_short.md)] depuis une autre application comme Microsoft Teams, vous pouvez facilement perdre de vue où vous êtes. Pour vous aider à garder le fil, vous pouvez ajouter un badge qui affichera le nom de la société, afin que vous puissiez rapidement vérifier que vous êtes au bon endroit. Pour plus d’informations, voir [Pour afficher un badge d’entreprise pour un accès rapide aux informations de la société](ui-change-basic-settings.md#badge).
@@ -32,8 +34,11 @@ Selon votre navigateur, vous pouvez également épingler les différentes entrep
 Lorsque vous êtes connecté à [!INCLUDE[prod_short](includes/prod_short.md)], les environnements auxquels vous pouvez accéder sont disponibles sur le site Office.com.  
 
 1. Sélectionnez l’icône **Lanceur d’applications** ![Lanceur d’applications.](media/app-launcher-icon.png "Le lanceur d’applications donne accès à plus de fonctionnalités").
-2. Si vous ne voyez pas d’application pour [!INCLUDE[prod_short](includes/prod_short.md)] dans le volet qui s’ouvre, choisissez **Office 365**. Ensuite, entrez **Business Central** dans la zone **Rechercher**, ou sélectionnez **Toutes les applications** > **Applications métier**.  
-3. Il y en aura une application [!INCLUDE[prod_short](includes/prod_short.md)] répertoriée pour chaque type d’environnement, tels que production et sandbox. Pour passer à un autre environnement, choisissez l’application [!INCLUDE[prod_short](includes/prod_short.md)] pour le type d’environnement dont il s’agit. S’il existe plusieurs environnements d’un certain type, il vous sera demandé de choisir l’environnement auquel accéder.
+2. Dans le volet qui s’ouvre, recherchez et sélectionnez [!INCLUDE[prod_short](includes/prod_short.md)]. Si vous ne voyez pas [!INCLUDE[prod_short](includes/prod_short.md)], choisissez **Toutes les applications**, puis saisissez **Business Central** dans la zone de **recherche**.
+
+   :::image type="content" source="media/app-launcher-bc-tile.png" alt-text="Lanceur d'applications Microsoft 365 affichant la vignette Business Central.":::  
+
+3. S’il existe plusieurs environnements, il vous sera demandé de choisir l’environnement auquel accéder.
 
 <!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.

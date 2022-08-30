@@ -1,18 +1,18 @@
 ---
 title: Dépannage de la synchronisation entre Shopify et Business Central
 description: Découvrez ce qu’il faut faire si une erreur se produit lors de la synchronisation des données entre Shopify et Business Central
-ms.date: 05/16/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 4ccbe8ac97eba568ff82d965f24b86ab58c95f81
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129656"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317261"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Dépannage de la synchronisation entre Shopify et Business Central
 
@@ -86,6 +86,16 @@ Les procédures suivantes décrivent comment faire tourner le jeton d’accès u
 2. Sélectionnez le magasin pour lequel vous voulez faire tourner le jeton d’accès pour ouvrir la page **Fiche magasin Shopify**.
 3. Sélectionnez l’action **Demander l’accès**.
 4. Si vous y êtes invité, connectez-vous à votre compte Shopify, passez en revue la confidentialité et les autorisations, puis cliquez sur le bouton **Installer l’application**.
+
+## <a name="known-issues"></a>Problèmes connus
+
+### <a name="gen-bus-posting-group-must-have-a-value-in-customer-it-cannot-be-zero-or-empty"></a>Groupe. Groupe compta. marché doit comporter une valeur dans Client. La valeur ne peut pas être zéro et le champ ne peut pas être vide.
+
+Remplissez le champ **Code modèle client** dans la fenêtre **Fiche magasin Shopify** avec le modèle pour lequel **Groupe compta. marché** est renseigné. Le modèle client est utilisé non seulement pour la création de clients, mais également pour le calcul du prix de vente et lors de la création de documents vente.
+
+### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>L'importation de données dans votre boutique Shopify n’est pas activée. Accédez à la fiche magasin pour l’activer.
+
+Dans la fenêtre **Fiche magasin Shopify**, activez le bouton bascule **Autoriser la synchronisation des données vers Shopify**.  Ce bouton bascule est destiné à empêcher la boutique en ligne d’obtenir des données de démonstration de [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="see-also"></a>Voir aussi
 

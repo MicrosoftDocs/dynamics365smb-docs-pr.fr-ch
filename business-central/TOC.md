@@ -665,6 +665,7 @@
 ### [Synchroniser les articles avec Shopify](shopify/synchronize-items.md)
 ### [Synchroniser les clients avec Shopify](shopify/synchronize-customers.md)
 ### [Synchroniser et remplir les commandes vente avec Shopify](shopify/synchronize-orders.md)
+### [Configurer les taxes pour la connexion Shopify](shopify/setup-taxes.md)
 ### [Exécuter les tâches en arrière-plan](shopify/background.md)
 ### [Dépanner le connecteur Shopify](shopify/troubleshoot.md)
 ### [FAQ pour le connecteur Shopify](shopify/shopify-faq.md)

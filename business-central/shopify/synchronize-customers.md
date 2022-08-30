@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: c5a77e5258f4d70a35a1751ff01dc210210b3a6e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0c1402c4f41f108b504ad31829ede5a1095b6ce4
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077803"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317342"
 ---
 # <a name="synchronize-customers"></a>Synchroniser les clients
 
@@ -47,7 +47,7 @@ Que vous importiez des clients à partir de Shopify en bloc ou lors de l’impor
 |**Type de mappage client**|Définissez comment le connecteur effectue le mappage.<br>- **Par e-mail/téléphone**, pour que le connecteur mappe le client Shopify importé sur un client existant dans [!INCLUDE[prod_short](../includes/prod_short.md)] en utilisant l’e-mail et le téléphone.</br>- **Par informations de facturation**, pour que le connecteur mappe le client Shopify importé sur un client existant dans [!INCLUDE[prod_short](../includes/prod_short.md)] en utilisant les informations d’adresse de la partie qui réceptionne la facture.</br>Sélectionnez **Toujours prendre le client par défaut** pour que le système utilise un client du champ **N° client par défaut** . |
 |**Shopify peut mettre à jour les clients**| Sélectionnez pour que le connecteur mette à jour les clients trouvés si les options **Par e-mail/téléphone** ou **Par informations de facturation** sont sélectionnées dans le champ **Type de mappage client**.|
 |**Créer automatiquement des clients inconnus**| Sélectionnez pour que le connecteur crée les clients manquants si les options **Par e-mail/téléphone** ou **Par informations de facturation** sont sélectionnées dans le champ **Type de mappage client**. Un client est créé en utilisant les données importées et **Code modèle client** défini dans les pages **Fiche magasin Shopify** ou **Modèle client Shopify**. Remarquez que le client Shopify doit avoir au moins une adresse. Si cette option n’est pas activée, vous devez créer un client manuellement et le lier au client Shopify. Vous pouvez toujours lancer la création manuelle d’un client à partir de la page **Commande Shopify**.|
-|**Code modèle client**|Utilisé avec **Créer automatiquement des clients inconnus**.<br> Choisissez le modèle par défaut à utiliser pour les clients créés automatiquement. Assurez-vous que le modèle sélectionné contient les champs obligatoires, tels que les champs **Groupe compta. marché**, **Groupe compta. client**, de TVA ou relatifs aux taxes.<br> Vous pouvez définir des modèles par pays/région dans la page **Modèles client Shopify**, ce qui est utile pour calculer correctement les taxes. Pour plus d’informations, voir [Remarques sur les taxes](synchronize-orders.md#tax-remarks).|
+|**Code modèle client**|Utilisé avec **Créer automatiquement des clients inconnus**.<br> Choisissez le modèle par défaut à utiliser pour les clients créés automatiquement. Assurez-vous que le modèle sélectionné contient les champs obligatoires, tels que les champs **Groupe compta. marché**, **Groupe compta. client**, de TVA ou relatifs aux taxes.<br> Vous pouvez définir des modèles par pays/région dans la page **Modèles client Shopify**, ce qui est utile pour calculer correctement les taxes. <br>Pour plus d’informations, voir [Paramètres taxe](setup-taxes.md).|
 
 ### <a name="customer-template-per-country"></a>Modèle client par pays
 
@@ -57,7 +57,8 @@ Certains paramètres peuvent être définis au niveau du pays/de la région ou a
 
 1. Indiquer le **N° client par défaut**, qui a priorité sur la sélection présente dans les champs **Importation client à partir de Shopify** et **Type de mappage client**. Il est utilisé dans la commande vente importée.
 2. Définir le **Code modèle client**, qui est utilisé pour créer des clients manquants, si l’option **Créer automatiquement des clients inconnus** est activée. Si le **Code modèle client** est vide, la fonction utilise le **Code modèle client** défini dans la page **Fiche magasin Shopify**.
-3. Dans certains cas, le **Code modèle client** défini par pays ne suffit pas pour assurer le calcul correct des taxes. Par exemple, pour les pays avec taxe de vente. Dans ce cas, les **Zones de recouvrement** peuvent constituer un complément utile.
+3. Définissez si les prix incluent les taxes/la TVA pour les commandes importées.
+4. Dans certains cas, le **Code modèle client** défini par pays ne suffit pas pour assurer le calcul correct des taxes. Par exemple, pour les pays avec taxe de vente. Dans ce cas, les **Zones de recouvrement** peuvent constituer un complément utile.
 
 > [!NOTE]  
 > Les codes pays sont les codes pays ISO 3166-1 alpha-2. Pour plus d’informations, voir [Code pays](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -68,7 +69,7 @@ Les clients existants peuvent être exportés dans Shopify en bloc. Par conséqu
 
 |Champ|Désignation|
 |------|-----------|
-|**Exporter les clients dans Shopify**|Sélectionnez si vous prévoyez d’exporter tous les clients avec une adresse e-mail valide à partir de [!INCLUDE[prod_short](../includes/prod_short.md)] dans Shopify en bloc, soit manuellement en utilisant l’action **Synchroniser les clients**, soit via la file d’attente des tâches pour les mises à jour récurrentes.|
+|**Exporter les clients dans Shopify**|Sélectionnez si vous prévoyez d’exporter tous les clients avec une adresse e-mail valide à partir de [!INCLUDE[prod_short](../includes/prod_short.md)] dans Shopify en bloc, soit manuellement en utilisant l’action **Synchroniser les clients**, soit via la file d’attente des tâches pour les mises à jour récurrentes.<br> Lorsque vous exportez des clients avec des provinces/états, assurez-vous que **Code ISO** est rempli pour les pays/régions.|
 |**Peut mettre à jour les clients Shopify**|Utilisé avec le paramètre **Exporter le client dans Shopify**. Activez-le pour générer des mises à jour ultérieurement à partir de [!INCLUDE[prod_short](../includes/prod_short.md)] pour les clients qui existent déjà dans Shopify.|
 
 > [!NOTE]  
