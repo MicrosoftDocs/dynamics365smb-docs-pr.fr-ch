@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 0aa467b636be3be75c38c87b2592a69b70440c11
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 1c26882670321a3a2957302413f6f7ebd11a1f6d
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075254"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362322"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procédure pas à pas : configuration et facturation d’acomptes
 
@@ -22,7 +22,7 @@ Cette procédure pas à pas vous guide tout au long du processus de configuratio
 
 [!INCLUDE [prepayment_req](includes/prepayment_req.md)]
 
-Par exemple, vous pouvez également envoyer des factures acompte supplémentaires si des articles supplémentaires sont ajoutés à la commande.  
+Par exemple, vous pouvez également envoyer plus de factures acompte si davantage d’articles supplémentaires sont ajoutés à la commande.  
 
 ## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas  
 
@@ -59,7 +59,7 @@ Cette procédure pas à pas inclut les tâches correspondant aux rôles suivants
 
  Arnie enregistre le paiement du client et le lettre avec la facture, puis envoie la facture finale.  
 
-## <a name="setting-up-prepayments"></a>Configuration d’acomptes
+## <a name="set-up-prepayments"></a>Configuration des acomptes
 
 Phyllis configure le système afin qu’il gère les acomptes des clients.  
 
@@ -83,7 +83,7 @@ Vous ne pouvez pas expédier ou facturer une commande dont le montant d’acompt
 
 Par défaut, Phyllis requiert que le client 20000 soit facturé avec un acompte de 30 % sur toutes les commandes. Pour cela, elle entre un pourcentage d’acompte par défaut dans la fiche client.  
 
-Phyllis requiert que tous les clients soient facturés avec un acompte de 20 % pour l’article 1896-S. Le client 20000 a un mauvais historique de paiements. Par conséquent, elle demande un acompte de 40 % au client 20000 pour l’article 1896-S. La procédure suivante présente le mode de configuration des pourcentages d’acompte par défaut.  
+Phyllis requiert que tous les clients soient facturés avec un acompte de 20 % pour l’article 1896-S. Le client 20000 a un mauvais historique des paiements, c’est pourquoi elle requiert un acompte de 40 % pour ce client pour l’article 1896-S. La procédure suivante présente le mode de configuration des pourcentages d’acompte par défaut.  
 
 ### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Pour affecter des pourcentages d’acompte par défaut aux clients et aux articles
 
@@ -112,13 +112,13 @@ Phyllis requiert que tous les clients soient facturés avec un acompte de 20 % 
 > [!TIP]
 > Si vous ne pouvez pas voir le champ de la page **Paramètres comptabilisation**, utilisez la barre de défilement horizontale au bas de la page pour faire défiler l’affichage vers la droite.  
 
-## <a name="creating-an-order-that-requires-a-prepayment"></a>Création d’une commande nécessitant un acompte
+## <a name="create-an-order-that-requires-a-prepayment"></a>Création d’une commande nécessitant un acompte
 
- Dans le scénario suivant, Susan, la préparatrice des commandes, crée une commande en discutant avec le client. Les articles que le client commande nécessitent un acompte et le client a connu des retards de paiement par le passé. Susan a donc reçu l’ordre de demander un montant fixe de **800** comme acompte sur la commande.  
+ Dans le scénario suivant, Susan, la préparatrice des commandes, crée une commande en discutant avec le client. Les articles commandés par le client nécessitent un prépaiement. De plus, le client a effectué des paiements en retard dans le passé. Susan a reçu l’ordre de demander un montant fixe de **800** comme acompte sur la commande.  
 
-Le client demande à pouvoir payer 35 %, ce que Susan peut accepter. Elle modifie donc la commande.  
+Le client demande à payer 35 %. Susan accepte et modifie la commande en conséquence.  
 
-Susan crée la facture acompte et l’envoie au client.  
+Susan crée la facture acompte et l'envoie au client.  
 
 ### <a name="to-create-a-sales-order-with-a-prepayment"></a>Pour créer une commande vente avec acompte
 
@@ -133,15 +133,15 @@ Susan crée la facture acompte et l’envoie au client.
     |**Article**|**1896-S**|**1**|  
     |**Article**|**1900-S**|**1**|
 
-    Par défaut, les champs de l’acompte étant masqués, vous devez les afficher. Pour cela, vous devez personnaliser la page. Pour plus d’informations, consultez [Commencer à personnaliser une page au moyen de la bannière Personnalisation](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+    Par défaut, les champs de l’acompte sont masqués. Pour afficher les champs vous devez personnaliser la page. Pour plus d’informations, consultez [Commencer à personnaliser une page au moyen de la bannière Personnalisation](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 6. Vérifiez que le champ **% acompte** de la ligne correspondant à l’article **1900-S** a pour valeur **30**. La valeur par défaut a été prise dans l’en-tête vente, qui a été renseigné à partir de la fiche client.  
 
-    Le champ **% acompte** de la ligne correspondant à l’article **1896-S** a pour valeur **40**. Il s’agit du pourcentage que vous avez entré sur la page **Pourcentages acompte vente** pour l’article **1896-S** et le client **20000**.  
+    Le champ **% acompte** de la ligne correspondant à l’article **1896-S** a pour valeur **40**. 40 désigne le pourcentage que vous avez entré sur la page **Pourcentages acompte vente** pour l’article **1896-S** et le client **20000**.  
 
     Pour plus d’informations, reportez\-vous à [Configuration des acomptes](finance-set-up-prepayments.md).  
 7. Dans l’action **Ordre**, choisissez **Statistiques**.  
-8. Sur le raccourci **Acompte**, le champ **Montant acompte HT** indique **458,16**. Si vous créez une facture acompte pour la commande dès maintenant, c’est le montant qui s’affiche sur la facture.  
+8. Sur le raccourci **Acompte**, le champ **Montant acompte HT** indique **458,16**. Si vous créez une facture acompte pour la commande dès maintenant, 458,16 est le montant qui s’affiche sur la facture.  
 
     Dans ce scénario, Susan a reçu des instructions lui demandant de proposer un acompte total de **800** pour la commande.  
 
@@ -157,9 +157,9 @@ Susan crée la facture acompte et l’envoie au client.
 12. Dans l’avertissement qui s’affiche, cliquez sur le bouton **Oui** . Un taux de 35 % sera appliqué comme pourcentage du paiement de l’ensemble de la commande.  
 13. Vérifiez que les lignes ont été mises à jour en conséquence.  
 
-## <a name="creating-a-prepayment-invoice"></a>Création d’une facture acompte
+## <a name="create-a-prepayment-invoice"></a>Créer une facture acompte
 
-Après avoir entré la valeur d’acompte correcte sur la commande, Susan crée la facture acompte et l’envoie au client.  
+Après avoir entré la valeur d'acompte correcte sur la commande, Susan crée la facture acompte et l'envoie au client.  
 
 ### <a name="to-create-a-prepayment-invoice"></a>Pour créer une facture acompte
 
@@ -169,22 +169,22 @@ Après avoir entré la valeur d’acompte correcte sur la commande, Susan crée 
 > [!NOTE]  
 > Susan doit maintenant envoyer la facture au client.  
 
-## <a name="creating-an-additional-prepayment-invoice"></a>Création d’une facture acompte supplémentaire
+## <a name="create-an-additional-prepayment-invoice"></a>Créer une facture acompte supplémentaire
 
-Le jour suivant, le client appelle Susan et modifie sa commande. Il souhaite deux exemplaires de l’article 1896-S. Susan rouvre et met à jour la commande, puis crée une seconde facture acompte sur la commande et l’envoie au client.  
+Le jour suivant, le client appelle Susan et modifie sa commande. Il souhaite deux exemplaires de l’article 1896-S. Susan rouvre la commande et la met à jour. Susan crée ensuite une seconde facture acompte pour la commande et l’envoie au client.  
 
 ### <a name="to-create-an-additional-prepayment-invoice"></a>Pour créer une facture acompte supplémentaire
 
 1. Sur la page **Commande vente**, choisissez l’action **Lancer**, puis **Rouvrir**  
 2. Sur la ligne de l’article **1896-S**, dans le champ **Quantité**, entrez **2**.  
 
-    Dans l’action **Ordre**, choisissez **Statistiques**. Le champ **Montant acompte HT** indique à présent **768,04** et le champ **Montant fact. acompte HT** indique **417,76**. Ceci indique qu’il existe un montant d’acompte supplémentaire qui n’a pas encore été facturé.  
-3. Pour valider une facture pour le montant d’acompte supplémentaire, choisissez **Actions**, puis **Validation**, puis **Acompte**, puis **Valider et imprimer facture acompte**.
+    Dans l’action **Ordre**, choisissez **Statistiques**. Le champ **Montant acompte HT** indique à présent **768,04** et le champ **Montant fact. acompte HT** indique **417,76**. Ces valeurs indiquent qu’il existe un montant d’acompte supplémentaire qui n’a pas encore été facturé.  
+3. Pour valider une facture pour le montant d’acompte supplémentaire, choisissez **Actions**, puis **Validation**, puis **Acompte**, puis **Valider et imprimer facture acompte**
 4. Choisissez le bouton **Oui** pour valider la facture.  
 
-## <a name="applying-the-prepayments"></a>Lettrage des acomptes
+## <a name="apply-the-prepayments"></a>Lettrer les acomptes
 
-Le client paie le montant des acomptes. Arnie, qui travaille au département Comptabilité, enregistre le paiement et le lettre avec les factures acompte.  
+Le client paie le montant de l’acompte. Arnie, du service comptabilité, enregistre le paiement et le lettre aux factures d’acompte.  
 
 ### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Pour lettrer un paiement avec les factures acompte
 
@@ -206,7 +206,7 @@ Le client paie le montant des acomptes. Arnie, qui travaille au département Com
 7. Pour valider la feuille, choisissez l’action **Valider/Imprimer**, puis sélectionnez **Valider**.
 8. Cliquez sur le bouton **Oui**.
 
-## <a name="invoicing-the-remaining-amount"></a>Facturation du montant ouvert
+## <a name="invoice-the-remaining-amount"></a>Facturer le montant ouvert
 
 Arnie a été informé que les articles de la commande ont été expédiés et que la commande est prête pour facturation. Il crée donc la facture correspondante.  
 
@@ -224,13 +224,22 @@ Arnie a été informé que les articles de la commande ont été expédiés et q
 
 5. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
 
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Mettre à jour automatiquement le statut des commandes prépayées et des factures
+
+Vous pouvez accélérer le traitement des commandes et des factures en configurant des entrées de file d’attente qui mettent automatiquement à jour le statut de ces documents. Lorsqu’une facture d’acompte est payée, les entrées de la file d’attente des travaux peuvent changer automatiquement le statut du document de **Acompte en attente** sur **Validé**. Lorsque vous configurez les entrées de la file d’attente des travaux, les unités de code que vous devrez utiliser sont **383 Mise à jour En attente Acompte Ventes** et **383 Mise à jour En attente Acompte Achats**. Nous vous recommandons de programmer les entrées pour qu’elles s’exécutent fréquemment, par exemple, toutes les minutes. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
+
 ## <a name="next-steps"></a>Étapes suivantes
 
-Cette procédure pas-à-pas vous a présenté les étapes de configuration de [!INCLUDE[prod_short](includes/prod_short.md)] pour la gestion des acomptes. Vous avez configuré des pourcentages d’acompte par défaut pour des clients et des articles et vous avez également utilisé différentes méthodes pour calculer les acomptes d’une commande. Vous avez essayé d’affecter un montant d’acompte total à la commande et vous avez enregistré le montant acompte calculé en tant que pourcentage de l’ensemble de la commande.  
+Cette procédure pas-à-pas vous a présenté les étapes de configuration de [!INCLUDE[prod_short](includes/prod_short.md)] pour la gestion des acomptes. 
+
+- Configurez les pourcentages d’acompte par défaut sur les clients et les articles.
+- Utilisez différentes méthodes pour calculer les acomptes sur une commande.  
+- Calculez le montant de l’acompte en pourcentage du total de la commande.
+- Attribuez un montant total d’acompte à la commande.  
 
 Vous avez également validé une facture acompte, créé une deuxième lorsque la commande est modifiée, et validé la facture finale pour le montant ouvert.  
 
-La fonctionnalité d’acompte de [!INCLUDE[prod_short](includes/prod_short.md)] facilite la configuration et la mise en place de règles d’acompte pour les clients et les articles. Elle vous permet également de valider tous les paiements d’une facture.  
+Les fonctionnalités d’acompte facilitent la configuration et l’application des règles d’acompte pour les clients et les articles. Ils vous permettent également de reporter chaque paiement sur une facture.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
 

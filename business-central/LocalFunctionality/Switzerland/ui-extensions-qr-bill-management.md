@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
+ms.search.form: 11502, 11510, 11511, 11512, 11513, 11514, 11515, 11516, 11517, 11518
 ms.date: 03/22/2022
 ms.author: soalex
-ms.openlocfilehash: 8afa3d3891fe6f7e399363d92512e83f078d4c5f
-ms.sourcegitcommit: 902da19b0ab7a3fbc051cd69ab2802f30d0f378f
+ms.openlocfilehash: 6c6ef19fce8af5e9fe9e9b07f8d4cba4d955eec7
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/01/2022
-ms.locfileid: "9213711"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362212"
 ---
 # <a name="qr-bill-management-in-the-swiss-version-of-business-central"></a>Gestion des QR-factures dans la version suisse de Business Central
 

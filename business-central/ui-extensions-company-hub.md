@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: ''
+ms.search.form: 1151, 1152, 1153, 1154, 1155, 1165, 1166, 1167,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 71efcfc54da6462525d4900c4879e984b59f27e3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51f3d27e59301d9d094afb6826a0f025ecf0d7e4
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138325"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361490"
 ---
 # <a name="the-company-hub-for-business-central-extension"></a>Hub Entreprise pour l’extension Business Central
 
@@ -24,7 +25,7 @@ Ce tableau de bord est un tableau de bord hautement spécialisé permettant d’
 
 Lorsque vous configurez l’extension pour la première fois, un exemple de société vous permet de démarrer. Vous pouvez supprimer l’exemple de société à tout moment.
 
-## <a name="installing-the-extension"></a>Installation de l’extension
+## <a name="installing-the-extension"></a>Installation de l'extension
 
 Lorsque vous installez l’extension dans votre [!INCLUDE [prod_short](includes/prod_short.md)], il vous est demandé si vous souhaitez l’utiliser maintenant. Si vous le faites, vous devrez vous déconnecter et vous reconnecter, parce que l’extension remplacera votre Tableau de bord actuel et ajoutera des autorisations à votre profil utilisateur.
 
@@ -33,6 +34,5 @@ Lorsque vous installez l’extension dans votre [!INCLUDE [prod_short](includes/
 [Gérer le travail entre plusieurs entreprises dans le Hub Entreprise](company-hub.md)  
 [Expériences de comptables dans Business Central](finance-accounting.md)  
 [Finances](finance.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

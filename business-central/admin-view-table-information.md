@@ -1,24 +1,24 @@
 ---
 title: Afficher les informations sur les tables
-description: Découvrez comment afficher des informations sur les tables de base de données directement depuis l’interface client de Business Central.
+description: Découvrez comment afficher des informations sur les tables de base de données dans Business Central.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 8700
-ms.date: 06/14/2021
+ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: db1a5ef84d4174b960de6f3e20f7d4e29c8c44c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 990a8f56108bacfe82e6fe591858d238396f16be
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133111"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362178"
 ---
 # <a name="viewing-table-information"></a>Affichage d’informations sur les tables
 
-La page **Informations sur les tables 8700** fournit des informations sur toutes les tables système et métier d’une solution Business Central. En particulier, la page affiche des informations sur la quantité de données contenues dans les tables.
+La page **Informations sur les tables 8700** fournit des informations sur le nombre d’enregistrements dans toutes les tables système et métier dans [!INCLUDE[prod_short](includes/prod_short.md)], et la quantité de données que chaque table contient.
 
 Ces informations sont utiles pour résoudre les problèmes de performances, car nous allons voir la répartition de la taille des données entre les tables.
 
@@ -31,10 +31,17 @@ Le tableau suivant décrit les informations fournies pour chaque table :
 |Colonne|Description|
 |------|-----------|
 |Nom de la société|Nom de la société, si existant, à laquelle appartient la table.|
-|Nom de la table|Nom de la table.|
-|Numéro table|ID unique de la table|
-|Non. d’enregistrements|Nombre total d’enregistrements stockés dans la table.|
-|Taille enregistrement|La taille d’enregistrement moyenne en Ko/enregistrement. La valeur est calculée à l’aide de la formule suivante : 1024 (Taille)/N° d’enregistrements)`. |
+|Nom de table|Nom de la table.|
+|N° table|ID unique de la table.|
+|N° d’enregistrements|Nombre total d’enregistrements stockés dans la table.|
+|Taille enregistrement|La taille d’enregistrement moyenne en Ko/enregistrement. La valeur est calculée à l’aide de la formule suivante : 1024 (Taille)/N° d’enregistrements). |
+|Taille (Ko)|Espace total occupé par la table dans la base de données. La valeur indiquée est la somme des valeurs des champs Taille des données et Taille de l’index.|
+|Taille des données (Ko)|Espace occupé par les données de la table dans la base de données.|
+|Taille de l’index (Ko)|Espace occupé par les index de la table (clés) dans la base de données.|
+|Compression|Le type de compression, **Ligne**, **Page**, ou **Aucun**, qui est appliqué à la table dans la base de données. Pour plus d’informations, consultez [Compression de données](/sql/relational-databases/data-compression/data-compression?).|
+
+> [!NOTE]
+> Si vous supprimez des données dans une table, [!INCLUDE[prod_short](includes/prod_short.md)] lance plusieurs processus en arrière-plan pour s’assurer que tout est nettoyé dans votre base de données. Les valeurs de la page Informations sur la table ne seront pas mises à jour tant que ces processus ne seront pas terminés, ce qui peut prendre un certain temps. Le temps d’attente peut varier en fonction de la taille de votre base de données.
 
 ## <a name="see-also"></a>Voir aussi
 

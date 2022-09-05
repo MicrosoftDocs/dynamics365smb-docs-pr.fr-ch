@@ -1,6 +1,6 @@
 ---
 title: Gestion du stock
-description: Cette rubrique décrit comment gérer les produits physiques que vous échangez en créant une fiche d’article d’inventaire.
+description: Cet article décrit comment gérer les produits physiques que vous échangez en créant une fiche d’article d’inventaire.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -10,31 +10,31 @@ ms.search.keywords: warehouse, stock
 ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4653d961edd26f220160abca97bd5c7f236f05c2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f14c7d9f4fc99c0b6d44ff1cd971f05f979b7fdd
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079105"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361734"
 ---
 # <a name="manage-inventory"></a>Gestion du stock
 
 Pour chaque produit physique que vous commercialisez, vous devez créer une fiche article de type **Stock**. Les articles que vous proposez aux clients, mais que vous n’avez pas en stock, peuvent être enregistrés comme articles de catalogue. Vous pouvez ensuite les convertir en articles stockés, le cas échéant. Vous pouvez augmenter ou diminuer la quantité d’un article en stock en validant directement les écritures comptables de l’article, par exemple, après un inventaire ou si vous n’enregistrez pas les achats.
 
-Les entrées et les sorties de stock sont également évidemment enregistrées lorsque vous validez des documents achat et vente, respectivement. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md), [Vendre des produits](sales-how-sell-products.md) et [Facturer des ventes](sales-how-invoice-sales.md). Les transferts entre magasins modifient les quantités en stock dans tous les entrepôts de votre société.   
+Les entrées et les sorties de stock sont également évidemment enregistrées lorsque vous validez des documents achat et vente, respectivement. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md), [Vendre des produits](sales-how-sell-products.md) et [Facturer des ventes](sales-how-invoice-sales.md). Les transferts entre magasins modifient les quantités en stock dans tous les entrepôts de votre société.
 
-Pour accroître votre aperçu d’articles et pour vous aider à les trouver, vous pouvez catégoriser les articles et leur donner des attributs pour vos opérations de recherche et de tri.
+Pour améliorer votre aperçu d’articles et pour vous aider à les trouver, vous pouvez catégoriser les articles et leur donner des attributs pour vos opérations de recherche et de tri.
 
 > [!NOTE]
-> Le traitement physique des articles est appelé Activités entrepôt. Pour plus d’informations, voir [Gestion d’entrepôt](warehouse-manage-warehouse.md).
+> Le traitement physique des articles est appelé Activités entrepôt. En savoir plus sur [Gestion d’entrepôt](warehouse-manage-warehouse.md).
 
-Le planning d’articles pour répondre à la demande est couvert dans le cadre de la fonctionnalité de planning de l’offre. Pour plus d’informations, voir [Planification](production-planning.md).  
+Le planning d’articles pour répondre à la demande est couvert dans le cadre de la fonctionnalité de planning de l’offre. En savoir plus sur [Planification](production-planning.md).  
 
 ## <a name="inventory-reconciliation"></a>Rapprochement stock
 
-Lorsque vous validez des mouvements de stock, tels que des expéditions vente, des factures achat ou des ajustements de stock, les coûts article modifiés sont enregistrés dans les écritures valeur. Pour refléter ces modifications de la valeur stock dans vos livres financiers, les coûts stocks sont automatiquement validés dans les comptes stock associés dans les écritures comptables. Pour chaque mouvement stock que vous validez, les valeurs appropriées sont validées dans le compte stocks, le compte ajustement et le compte validation stock dans la comptabilité. Pour plus d’informations, voir [Rapprocher les coûts ajustés avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
+Lorsque vous validez des mouvements de stock, tels que des expéditions vente, des factures achat ou des ajustements de stock, les coûts article modifiés sont enregistrés dans les écritures valeur. Pour refléter ces modifications de la valeur stock dans vos livres financiers, les coûts stocks sont automatiquement validés dans les comptes stock associés dans les écritures comptables. Pour chaque mouvement stock que vous validez, les valeurs appropriées sont validées dans le compte stocks, le compte ajustement et le compte validation stock dans la comptabilité. En savoir plus sur [Rapprocher l’évaluation stock avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Bien que les coûts soient automatiquement validés en comptabilité, il est malgré tout nécessaire de vous assurer que les coûts des biens sont transmis à la transaction de vente sortante associée, notamment dans les situations où vous vendez des biens avant de facturer l’achat. Il s’agit d’un ajustement des coûts. Le coût des articles est ajusté automatiquement lorsque vous validez des transactions article, mais vous pouvez également les ajuster manuellement. Pour en savoir plus, voir [Ajuster coûts article](inventory-how-adjust-item-costs.md).  
+Bien que les coûts soient automatiquement validés en comptabilité, il est malgré tout nécessaire de vous assurer que les coûts des biens sont transmis à la transaction de vente sortante associée, notamment dans les situations où vous vendez des biens avant de facturer l’achat. Il s’agit d’un ajustement des coûts. Le coût des articles est ajusté automatiquement lorsque vous validez des transactions article, mais vous pouvez également les ajuster manuellement. En savoir plus sur [Ajuster les coûts des articles](inventory-how-adjust-item-costs.md).  
 
 ## <a name="related-tasks"></a>Tâches connexes
 
@@ -51,14 +51,14 @@ Le tableau suivant présente les tâches associées.
 |Effectuer un inventaire physique, faire des ajustements négatifs ou positifs, et modifier des informations, telles que le magasin ou le numéro de lot, sur des écritures comptables article.|[Comptabiliser, ajuster et reclasser le stock avec les feuilles](inventory-how-count-adjust-reclassify.md)|
 |Afficher la disponibilité des articles par emplacement, par période, par événement de vente ou d’achat, ou encore en fonction de leur utilisation dans les nomenclatures d’assemblage ou de production.|[Voir la disponibilité des articles](inventory-how-availability-overview.md)|
 |Transférer des articles en stock entre des magasins avec des ordres de transfert pour gérer les activités entrepôt ou avec la feuille reclassement.|[Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)|
-|Réserver des articles en stock ou entrants pour les commandes vente, les commandes achat, les commandes service, les ordres d’assemblage ou les ordres de fabrication.|[Réserver des articles](inventory-how-to-reserve-items.md)|
+|Réserver des articles en stock ou entrants pour les commandes vente, les commandes achat, les commandes service, les ordres de transfert, les ordres d’assemblage ou les ordres de fabrication.|[Réserver des articles](inventory-how-to-reserve-items.md)|
 |Configurez la traçabilité afin de pouvoir suivre les numéros de série des articles, par exemple pour suivre les articles en cas de rappel.|[Configuration du suivi des articles avec les numéros lot, de série et paquet](inventory-how-setup-item-tracking.md)|
 |Attribuez des numéros de série ou des numéros lot à tout document ou ligne feuille sortant ou entrant.|[Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)|
 |Rechercher où un numéro de série ou de lot a été utilisé dans sa chaîne d’approvisionnement, par exemple dans les situations de rappel.|[Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)|
 |Configurer la désignation d’un article propre à un fournisseur ou à un client sur votre fiche article, afin de pouvoir insérer rapidement leur désignation de l’article dans les documents commerciaux.|[Utiliser références article](inventory-how-use-item-cross-refs.md)|
 |Bloquez des article pour la saisie dans des lignes de vente ou d’achat, ou pour la validation dans n’importe quelle transaction.|[Bloquer les articles](inventory-how-block-items.md)|
 |Gérer les opérations commerciales dans les bureaux de vente, les départements d’achat ou les bureaux de planification d’usine pour plusieurs magasins.|[Utiliser les centres de gestion](inventory-responsibility-centers.md)|
-|Utilisez des ressources avec des compétences spécifiques pour divers services et éléments de service.|[Configurer l’affectation des ressources](service-how-setup-resource-allocation.md)|
+|Utilisez des ressources avec des fonctions spécifiques pour divers services et éléments de service.|[Configurer l’affectation des ressources](service-how-setup-resource-allocation.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/get-started-inventory-management/)
 
@@ -71,6 +71,5 @@ Le tableau suivant présente les tâches associées.
 [Fonctionnalités marché](ui-across-business-areas.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

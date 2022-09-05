@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6619789b38cc8dc33e7985f35d77075df4914ad2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 3d7162b3035188539fba92a677659dd7803c340f
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074941"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362037"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilisation des écarts de règlement et des écarts d’escompte
 
@@ -44,7 +44,7 @@ Pour plus d’informations, voir [Pour activer ou désactiver l’alerte d’éc
 
 ## <a name="to-set-up-tolerances"></a>Pour configurer les écarts
 
-Le fait de configurer des écarts pour la date ou le montant permet de fermer une facture alors que le règlement ne couvre pas le montant indiqué sur la facture, que ce soit parce que l’échéance de l’escompte est dépassée ou que des marchandises ont été déduites, ou suite à une erreur anodine. Ceci est également vrai pour les remboursements et les avoirs.  
+L’écart au niveau des jours et des montants vous permet de fermer une facture même si le paiement ne couvre pas entièrement le montant de la facture. Par exemple, parce que la date d’échéance de l’escompte de paiement a été dépassée, des marchandises ont été déduites ou à cause d’une erreur mineure. Ceci est également vrai pour les remboursements et les avoirs.  
 
 Pour configurer l’écart, vous devez configurer plusieurs comptes écart, spécifier des méthodes de comptabilisation d’écart escompte et d’écart règlement, puis exécuter le traitement par lots **Modifier écart de règlement**.  
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilisation**, puis choisissez le lien associé.  
@@ -57,17 +57,21 @@ Pour configurer l’écart, vous devez configurer plusieurs comptes écart, spé
 8. Ouvrez la page **Paramètres comptabilité**.  
 9. Sur le raccourci **Lettrage**, renseignez les champs **Validation écart d’escompte**, **Période carence escompte** et **Validation écart de règlement**.   
 10. Choisissez l’action **Modifier écart de règlement**.
+
+    > [!NOTE]
+    > Lorsque vous sélectionnez **Au plus ancien** dans le champ **Mode de lettrage** sur une page **Fiche client**, [!INCLUDE[prod_short](includes/prod_short.md)] n’affichera pas automatiquement les tolérances de paiement, même lorsqu’elles sont dans les seuils définis sur la page **Paramètres comptabilité**. [!INCLUDE[prod_short](includes/prod_short.md)] suppose que le paramètre Au plus ancien indique que le client (ou vous en tant que client de votre fournisseur) a un compte chez vous où il paie régulièrement le solde. Par conséquent, les montants restants ne doivent pas être supprimés en enregistrant une écriture d’écart de paiement.
+
 11. Sur la page **Modifier écart de règlement**, renseignez les champs **% écart de règlement** et **Montant écart règlement max.**, puis cliquez sur le bouton **OK**.
 
 > [!IMPORTANT]  
->  Vous n’avez configuré l’écart que pour la devise société. Si vous souhaitez que [!INCLUDE[prod_short](includes/prod_short.md)] gère l’écart pour les paiements, les avoirs et les remboursements en devise étrangère, vous devez exécuter le traitement par lots **Modifier écart de règlement** avec une valeur dans le champ **Code devise**.  
+> Vous n’avez configuré l’écart que pour la devise société. Si vous souhaitez que [!INCLUDE[prod_short](includes/prod_short.md)] gère l’écart pour les paiements, les avoirs et les remboursements en devise étrangère, vous devez exécuter le traitement par lots **Modifier écart de règlement** avec une valeur dans le champ **Code devise**.  
 
 > [!NOTE]  
->  Si vous souhaitez recevoir une alerte écart règlement chaque fois que vous validez un lettrage dans l’écart, vous devez activer l’alerte écart règlement. Pour plus d’informations, voir [Pour activer ou désactiver l’alerte d’écart de règlement](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
+> Si vous souhaitez recevoir une alerte écart règlement chaque fois que vous validez un lettrage dans l’écart, vous devez activer l’alerte écart règlement. Pour plus d’informations, voir [Pour activer ou désactiver l’alerte d’écart de règlement](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  Pour désactiver l’écart pour un client ou un fournisseur, vous devez bloquer les écarts sur la fiche client ou fournisseur correspondante. Pour plus d’informations, voir [Pour bloquer l’écart règlement pour des clients](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
+> Pour désactiver l’écart pour un client ou un fournisseur, vous devez bloquer les écarts sur la fiche client ou fournisseur correspondante. Pour plus d’informations, voir [Pour bloquer l’écart règlement pour des clients](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Lorsque vous configurez un écart, [!INCLUDE[prod_short](includes/prod_short.md)] vérifie s’il existe des écritures ouvertes et calcule l’écart pour ces écritures.
+> Lorsque vous configurez un écart, [!INCLUDE[prod_short](includes/prod_short.md)] vérifie s’il existe des écritures ouvertes et calcule l’écart pour ces écritures.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Pour activer ou désactiver les alertes d’écart de règlement
 
@@ -76,7 +80,7 @@ L’alerte écart règlement apparaît lorsque vous validez un lettrage dont le 
 2. Sur la page **Paramètres comptabilité**, sur le raccourci **Application**, activez le bouton bascule **Alerte écart de règlement** pour activer l’alerte. Pour désactiver l’avertissement, désactivez le bouton bascule.  
 
 > [!NOTE]  
->  L’option par défaut de la page **Alerte écart de règlement** est **Laisser le solde ouvert**. L’option par défaut de la page **Alerte écart d’escompte** est **Ne pas accepter d’escompte tardif**.
+> L’option par défaut de la page **Alerte écart de règlement** est **Laisser le solde ouvert**. L’option par défaut de la page **Alerte écart d’escompte** est **Ne pas accepter d’escompte tardif**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Pour bloquer l’écart règlement pour des clients
 
@@ -86,7 +90,7 @@ Par défaut, un écart règlement est accordé. Pour ne pas accorder un écart r
 2. Sur le raccourci **Paiements**, cochez la case **Bloquer écart de règlement**.  
 
 > [!NOTE]  
->  Si le client ou le fournisseur possède des écritures ouvertes, vous devez d’abord supprimer l’écart règlement des écritures actuellement ouvertes.
+> Si le client ou le fournisseur possède des écritures ouvertes, vous devez d’abord supprimer l’écart règlement des écritures actuellement ouvertes.
 
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Exemple 1 - Calculs de l’écart pour un seul document
 
@@ -164,7 +168,7 @@ Règles de lettrage normales
 
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Exemple 2 - Calculs de l’écart pour plusieurs documents
 
-Voici quelques exemples de scénarios illustrant les calculs et comptabilisations d’écart qui sont effectués dans différentes situations. Ces exemples se limitent aux scénarios permettant à toutes les écritures du lettrage d’être clôturées.  
+Voici quelques exemples de scénarios illustrant les calculs et comptabilisations d'écart qui sont effectués dans différentes situations. Ces exemples se limitent aux scénarios permettant à toutes les écritures du lettrage d’être clôturées.  
 
 La page **Configuration comptabilité** contient le paramétrage suivant :
 - Période carence escompte 5D  

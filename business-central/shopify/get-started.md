@@ -5,14 +5,15 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
+ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 64fae9efdda832f14593564b9a19101d120c9712
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: e59dd0dcf757fbcf76d4068756adfe7bc9475f54
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808948"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361571"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Mise en route du connecteur Shopify
 
@@ -26,26 +27,26 @@ Le connecteur Shopify prend en charge les capacités suivantes :
 - Synchronisation bidirectionnelle d’articles ou de produits  
 
   - Le connecteur synchronisera les images, les variantes article, les codes-barres, les références fournisseur, les textes étendus et les balises.  
-  - Exportez les attribut article dans Shopify.  
-  - Utilisez les groupes prix client et les remises sélectionnés pour définir les prix exportés vers Shopify.  
-  - Décidez si les articles peuvent être créés automatiquement ou n’autorisez que les mises à jour des produits existants.  
+  -    Exportez les attribut article dans Shopify.  
+  -    Utilisez les groupes prix client et les remises sélectionnés pour définir les prix exportés vers Shopify.  
+  -    Décidez si les articles peuvent être créés automatiquement ou n’autorisez que les mises à jour des produits existants.  
 - Synchronisation des niveaux de stock  
 
-  - Choisissez certains ou tous les emplacements disponibles dans [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  - Mettez à jour les niveaux de stock sur plusieurs emplacements dans Shopify.  
+  -    Choisissez certains ou tous les emplacements disponibles dans [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  -    Mettez à jour les niveaux de stock sur plusieurs emplacements dans Shopify.  
 - Synchronisation bidirectionnelle des clients  
 
-  - Mappez intelligemment les clients par téléphone et e-mail.  
-  - Utilisez des modèles spécifiques au pays lors de la création de clients, ce qui permet de garantir que les paramètres fiscaux sont corrects.  
+  -    Mappez intelligemment les clients par téléphone et e-mail.  
+  -    Utilisez des modèles spécifiques au pays lors de la création de clients, ce qui permet de garantir que les paramètres fiscaux sont corrects.  
 - Importer des commandes depuis Shopify  
 
-  - Lors de l’importation, vous pouvez créer automatiquement des clients dans [!INCLUDE [prod_short](../includes/prod_short.md)] ou décider de gérer les clients dans Shopify.  
-  - Incluez les commandes créées dans d’autres canaux, tels que Shopify PDV ou Amazon.  
-  - Frais d’expédition, cartes-cadeaux, pourboires, modes d’expédition et de paiement, transactions et risque de fraude.  
+  -    Lors de l’importation, vous pouvez créer automatiquement des clients dans [!INCLUDE [prod_short](../includes/prod_short.md)] ou décider de gérer les clients dans Shopify.  
+  -    Incluez les commandes créées dans d’autres canaux, tels que Shopify PDV ou Amazon.  
+  -    Frais d’expédition, cartes-cadeaux, pourboires, modes d’expédition et de paiement, transactions et risque de fraude.  
   - Recevez des informations de paiement de Shopify Payments.  
 - Suivi facile des informations d’exécution  
 
-  - Choisissez éventuellement d’écrire des informations de suivi des articles à partir de [!INCLUDE [prod_short](../includes/prod_short.md)] dans Shopify.  
+  -    Choisissez éventuellement d’écrire des informations de suivi des articles à partir de [!INCLUDE [prod_short](../includes/prod_short.md)] dans Shopify.  
 
 Pour utiliser Shopify avec [!INCLUDE [prod_short](../includes/prod_short.md)], vous devez d’abord effectuer quelques actions. Cet article sert de guide pour terminer l’intégration de votre magasin Shopify avec [!INCLUDE [prod_short](../includes/prod_short.md)].
 

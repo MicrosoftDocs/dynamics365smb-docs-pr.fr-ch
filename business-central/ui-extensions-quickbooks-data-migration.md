@@ -6,22 +6,23 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, import, implement
+ms.search.keywords: app, add-in, manifest, customize, import, implement
+ms.search.form: 1911, 1912, 1913, 1914, 1915, 1916, 1918, 1919
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0b608fb83b643e548b5400c6339ce35e09e5617f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 99a7e12543751fef0297051a64f19c2fb5700022
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078533"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361652"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Extension QuickBooks Data Migration
 
 Cette extension facilite la migration des clients, des fournisseurs, des articles et des comptes de QuickBooks vers [!INCLUDE[prod_short](includes/prod_short.md)]. Si votre entreprise utilise QuickBooks aujourd’hui, vous pouvez exporter les informations appropriées puis ouvrir un guide de configuration assistée pour télécharger les données vers [!INCLUDE[prod_short](includes/prod_short.md)].  
 Pour plus d’informations, voir [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md).
 
-## <a name="data-from-quickbooks-desktop"></a>Date début QuickBooks Desktop
+## <a name="data-from-quickbooks-desktop"></a>Données de QuickBooks Desktop
 
 Vous pouvez importer les données suivantes de QuickBooks Online vers Business Central :
 
@@ -71,6 +72,5 @@ Vérifiez les soldes de début des comptes du grand livre. QuickBooks ne stocke 
 
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions ](ui-extensions.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

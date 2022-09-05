@@ -5,33 +5,42 @@ author: edupont04
 ms.topic: overview
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027
-ms.date: 04/01/2021
+ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: db9701317d43464378ccf557dd6a77c41a681bd8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 43b5a4181b50da65f25be3f3fc73a0e01fd885af
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516967"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361777"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analyse des états financiers dans Microsoft Excel
 
-Dans [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez visualiser les KPI et obtenir des aperçus de l’état financier de la société. Vous pouvez également ouvrir des listes dans Excel et analyser les données afférentes. De plus, vous pouvez exporter des états financiers volumineux, tels que le bilan ou les comptes de gestion vers Excel, analyser les données et imprimer les états.  
+[!INCLUDE [prod_short](includes/prod_short.md)] fournit des KPI et obtient des aperçus des finances de votre entreprise. Voici des exemples de façons d’analyser les KPI et les aperçus dans Excel :
 
-Depuis les tableaux de bord Gestionnaire d’activité et Comptable, vous pouvez choisir les états financiers à afficher dans Excel à partir d’un menu déroulant dans la section pour personnaliser le ruban. Lorsque vous sélectionnez un état, il est ouvert dans Excel ou Excel Online. Une macro complémentaire connecte les données à [!INCLUDE [prod_short](includes/prod_short.md)]. Cependant, vous devez vous connecter avec le même compte que celui utilisé avec [!INCLUDE [prod_short](includes/prod_short.md)].  
+* Ouvrez des listes dans Excel et analysez les données. 
+* Exportez des états financiers volumineux, tels que votre bilan ou vos comptes de gestion vers Excel, analysez les données et imprimez les états.  
+
+> [!TIP]
+> Par défaut, les rapports que vous pouvez visualiser dans Excel sont conçus pour vous aider à analyser l’année en cours. Le rapport sur l’exercice comptable fait toutefois exception. Ce rapport vous permet de filtrer les données pour inclure les années précédentes dans vos analyses.
 
 ## <a name="getting-the-overview-and-the-details-in-excel"></a>Affichage de l’aperçu et des détails dans Excel
 
-Dans le ruban, sélectionnez l’état Excel approprié, et laissez-le ouvert afin d’accéder à l’aperçu que vous recherchiez. Dans cette version de [!INCLUDE [prod_short](includes/prod_short.md)], nous offrons les états Excel suivants :
+Dans les tableaux de bord Gestionnaire d’activité et Comptable, l’action **États** vous permet de choisir les états financiers à afficher dans Excel. Lorsque vous sélectionnez un état, il est ouvert dans Excel ou Excel Online. Une macro complémentaire connecte les données à [!INCLUDE [prod_short](includes/prod_short.md)]. Cependant, vous devez vous connecter avec le même compte que celui utilisé avec [!INCLUDE [prod_short](includes/prod_short.md)]. Le tableau suivant répertorie les états et indique où ils sont disponibles.  
 
-- Bilan  
-- Comptes de gestion  
-- Déclaration de trésorerie  
-- Déclaration de réserves  
-- Comptabilité fournisseur âgée  
-- Comptabilité client âgée  
 
-Supposons que vous souhaitiez analyser en profondeur votre trésorerie. Depuis les tableaux de bord Gestionnaire d’activité et Comptable, vous pouvez ouvrir l’état **Déclaration de trésorerie** dans Excel, mais ce qui se produit réellement est que nous exportons les données appropriées pour vous et créons un classeur Excel sur la base d’un modèle prédéfini. Selon votre navigateur, vous pouvez être invité à ouvrir ou enregistrer le classeur.  
+|État  |Tableau de bord  |
+|---------|---------|
+|Bilan                 | Gestionnaire d’activité, Comptable |
+|Compte de gestion              | Gestionnaire d’activité, Comptable |
+|Déclaration des trésoreries       | Gestionnaire d’activité, Comptable |
+|Déclaration des réserves| Gestionnaire d’activité, Comptable |
+|Sales Taxes collectées         | Gestionnaire d’activité, Comptable |
+|Relevés client           | Gestionnaire d’activité, Comptable |
+|Comptabilité fournisseur chronologique         | Comptable |
+|Comptabilité client chronologique      | Comptable |
+
+Supposons que vous souhaitiez analyser en profondeur votre trésorerie. Depuis les tableaux de bord Gestionnaire d’activité et Comptable, vous pouvez ouvrir l’état **Déclaration des trésoreries** dans Excel, mais ce qui se produit réellement est que nous exportons les données appropriées pour vous et créons un classeur Excel sur la base d’un modèle prédéfini. Selon votre navigateur, vous pouvez être invité à ouvrir ou enregistrer le classeur.  
 
 Dans Excel, vous pouvez voir un onglet où les données sont présentées sur la première feuille. Toutes les données qui ont été exportées sont également présentes dans d’autres feuilles en cas de besoin. Vous pouvez imprimer l’état immédiatement, ou vous pouvez le modifier jusqu’à ce que vous ayez l’aperçu et les détails que vous souhaitez. Utilisez la macro complémentaire [!INCLUDE [prod_short](includes/prod_short.md)] pour Excel afin de mieux filtrer et analyser les données.  
 
@@ -39,7 +48,7 @@ Dans Excel, vous pouvez voir un onglet où les données sont présentées sur la
 
 Les états Excel prédéfinis sont basés sur les données de l’entreprise actuelle. Par exemple, la société de démonstration a mis en place le plan comptable pour répertorier trois comptes règlement sous *Actifs actuels* : 10100 **Compte chèque**, 10200 **Compte épargne** et 10300 **Fonds de caisse**. Les comptes ont le champ **Sous-catégorie de compte** défini sur *Espèces*, et c’est leur montant combiné qui apparaît comme *Espèces* dans l’état Excel **Bilan**.  
 
-Des feuilles supplémentaires dans le classeur Excel affichent les données derrière l’état. Mais pour savoir ce qui se cache derrière les regroupements dans les états Excel, vous devrez peut-être revenir à [!INCLUDE [prod_short](includes/prod_short.md)] et appliquer des filtres aux listes, par exemple.  
+D’autres feuilles dans le classeur Excel affichent les données derrière l’état. Pour savoir ce qui se cache derrière les regroupements dans les rapports Excel, vous devrez peut-être filtrer les listes dans [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## <a name="the-prod_short-excel-add-in"></a>Module complémentaire [!INCLUDE [prod_short](includes/prod_short.md)] pour Excel
 

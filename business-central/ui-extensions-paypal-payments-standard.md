@@ -6,17 +6,19 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize
+ms.search.keywords: app, add-in, manifest, customize
+ms.search.form: 1070, 1071, 1073, 1074
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: dd29eca71dc0484238d75162039c12235082a081
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 19e44bf675e02df3494338fb729f9d28081ca6bd
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077465"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361855"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Extension PayPal Payments Standard
+
 Les clients sont toujours plus exigeants en ce qui concerne le service clientèle, en termes de qualité de produits mais aussi en termes d’options de livraison et de paiement. Le service PayPal Payments Standard vous aide à développer votre service clientèle.
 
 Au lieu de collecter des paiements par l’intermédiaire de transferts bancaires ou de cartes de crédit, vous pouvez proposer à vos clients de vous payer via leur compte Paypal. Lorsque vous envoyez une facture vente par e-mail, le corps du message et le document PDF en pièce jointe contiennent un lien Paypal. Lorsque le client clique sur le lien, la page de service de leur compte Paypal s’ouvre et affiche les détails de paiement pour la vente. Le client peut ensuite payer la facture comme tout autre paiement Paypal.
@@ -34,9 +36,9 @@ Le service PayPal Payments Standard fournit les avantages suivants :
 Pour plus d’informations, reportez-vous à [Activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Voir aussi
+
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
