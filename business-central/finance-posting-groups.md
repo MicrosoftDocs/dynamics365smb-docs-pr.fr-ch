@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 03/24/2022
+ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: e3cb6fd841dc4d6e0f9b00d2966ca00bab577b15
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076580"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460794"
 ---
 # <a name="set-up-posting-groups"></a>Configuration des groupes comptabilisation
 
@@ -59,9 +59,11 @@ Le tableau suivant décrit les groupes comptabilisation spécifiques aux types d
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Autorisation de groupes comptabilisation client ou fournisseur de remplacement sur les documents
 
+[!INCLUDE [preview](includes/preview.md)]
+
 Vous pouvez permettre aux utilisateurs de choisir des groupes de validation client et fournisseur différents de ceux par défaut lorsqu’ils utilisent des documents et des feuilles vente ou achat.
 
-Pour autoriser les modifications des groupes comptabilisation client, choisissez **Autoriser la modification du groupe comptabilisation** sur les pages **Paramètres ventes** et **Paramètres Gestion des services**, et sur la page **Paramètres achats** page pour les modifications des groupes comptabilisation fournisseur.
+Pour autoriser les modifications des groupes comptabilisation client, choisissez **Autoriser plusieurs groupes comptabilisation** sur les pages **Paramètres ventes** et **Paramètres Gestion des services**, et sur la page **Paramètres achats** page pour les modifications des groupes comptabilisation fournisseur.
 
 Sur les pages **Groupes compta. client** ou **Groupes compta. fournisseur**, vous pouvez spécifier les groupes de validation à autoriser comme substituts en choisissant **Articles de substitution**. Les groupes de comptabilisation de substitution peuvent remplacer les groupes comptabilisation client ou fournisseur par défaut spécifié pour un client ou un fournisseur.
 

@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7c57b608800bdd67d633698d984b34c3143418b3
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077517"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461037"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Inscrivez-vous pour un essai gratuit de Dynamics 365 Business Central
 
@@ -32,7 +32,7 @@ Votre environnement d’essai comprend les mêmes fonctionnalités que la versio
 
 ## <a name="get-started-with-a-subscription"></a>Mise en route d’un abonnement
 
-À chaque connexion au cours de la période gratuite, une notification s’affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous abonner, recherchez un partenaire [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Comment trouver un partenaire revendeur ?](/dynamics365/business-central/across-faq#findpartner). Le partenaire revendeur peut vous aider à configurer [!INCLUDE[prod_short](includes/prod_short.md)] en fonction des besoins de votre entreprise, notamment importer vos données à partir de votre système précédent. Vous pouvez également personnaliser [!INCLUDE[prod_short](includes/prod_short.md)] en ajoutant des applications provenant du [Marketplace commercial de Microsoft ](https://go.microsoft.com/fwlink/?linkid=2081646).  
+À chaque connexion au cours de la période gratuite, une notification s’affiche dans une barre bleue en haut et indique le temps restant. Si vous décidez de vous abonner, recherchez un partenaire [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Comment trouver un partenaire revendeur ?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner). Le partenaire revendeur peut vous aider à configurer [!INCLUDE[prod_short](includes/prod_short.md)] en fonction des besoins de votre entreprise, notamment importer vos données à partir de votre système précédent. Vous pouvez également personnaliser [!INCLUDE[prod_short](includes/prod_short.md)] en ajoutant des applications provenant du [Marketplace commercial de Microsoft ](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] en ligne utilise Microsoft 365. Si votre société utilise un autre type de configuration de messagerie, le partenaire revendeur peut vous aider à choisir la procédure de migration, ou si vous devez utiliser [!INCLUDE[prod_short](includes/prod_short.md)] sur site.  
 

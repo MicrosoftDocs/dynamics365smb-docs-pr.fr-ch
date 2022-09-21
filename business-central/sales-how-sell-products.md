@@ -6,35 +6,35 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, partial deliveries, customer sales order
+ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments,
 ms.search.form: 42, 48, 9305
-ms.date: 01/19/2022
+ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 102fa04db203d8b1fe05d63629fbe24f49193112
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: d40adc9e0d21b89f7b648862b08be8456287bd50
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077855"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460983"
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Vente de produits avec une commande vente client  
+# <a name="sell-products-with-a-customer-sales-order"></a>Vente de produits avec une commande vente client
 
-Cet article fournit des conseils aux utilisateurs sur le moment d’utiliser une commande client plutôt qu’une simple facture. Si votre processus de vente requiert que vous expédiiez uniquement des parties d’une quantité de commande, par exemple, si la quantité totale est pas disponible d’un coup, puis de vendre ces produits en effectuant une commande vente client.  
+Cet article fournit des conseils aux utilisateurs sur le moment d’utiliser une commande vente plutôt qu’une simple facture. Si votre processus de vente exige que vous ne livriez que partiellement une commande, par exemple si la quantité totale n’est pas disponible d’un coup, vous devez traiter cette vente en créer une commande vente.
 
-Si vous commercialisez des articles en les livrant directement du fournisseur au client, vous devez également utiliser les commandes vente. Pour plus d’informations, voir [Effectuer des livraisons directes](sales-how-drop-shipment.md). Pour tous les autres aspects, les commandes vente fonctionnent de la même manière que les factures vente. Pour plus d’informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md).
+Vous devez également utiliser les commandes vente si vous commercialisez des articles en les livrant directement du fournisseur au client, dans ce qui est appelé une livraison directe. En savoir plus sur [Créer des livraisons directes](sales-how-drop-shipment.md). Pour tous les autres aspects, les commandes vente fonctionnent de la même manière que les factures vente. En savoir plus sur [Facturer des ventes](sales-how-invoice-sales.md).
 
-Lorsque vous fournissez les produits, entièrement ou partiellement, vous validez la commande vente comme étant expédiée ou expédiée et facturée pour créer l’article et les écritures comptables client associés dans votre système. Lorsque vous validez la commande vente, vous pouvez également envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé des informations de commande et de paiement, par exemple un lien vers Paypal. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
+Lorsque vous fournissez les produits, entièrement ou partiellement, vous validez la commande vente comme étant expédiée ou expédiée et facturée pour créer l’article et les écritures comptables client associés dans votre système. Lorsque vous validez la commande vente, vous pouvez également envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé des informations de commande et de paiement, par exemple un lien vers Paypal. En savoir plus sur [Expédier des articles](warehouse-how-ship-items.md) et [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
 
-Dans les environnements d’entreprise où le client paie immédiatement, par exemple par PayPal ou en espèces, le paiement est enregistré immédiatement lorsque vous validez la commande vente comme facturée, c’est-à-dire la facture vente validée est clôturée comme entièrement lettrée. Vous sélectionnez la méthode appropriée dans le champ **Code mode de règlement** de la commande vente. Voir l’étape 8. Pour les paiements électroniques, tels que PayPal, vous devez également renseigner le champ **Service de paiement**. Pour plus d’informations, voir [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).
+Dans les environnements d’entreprise où le client paie immédiatement, par exemple par PayPal ou en espèces, le paiement est enregistré immédiatement lorsque vous validez la commande vente comme facturée, c’est-à-dire la facture vente validée est clôturée comme entièrement lettrée. Vous sélectionnez la méthode appropriée dans le champ **Code mode de règlement** de la commande vente. Reportez-vous à l'étape 5 ci-dessous. Pour les paiements électroniques, tels que PayPal, vous devez également renseigner le champ **Service de paiement**. En savoir plus, [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).
 
-Vous pouvez même créer des commandes à paiement direct pour les clients non enregistrés en configurant une fiche « client en espèces », vers laquelle vous pointez sur la commande vente. Pour plus d’informations, reportez-vous à [Configurer des clients effectuant un achat au comptoir](finance-how-to-set-up-cash-customers.md).
+Vous pouvez même créer des commandes à paiement direct pour les clients non enregistrés en configurant une fiche « client en espèces », vers laquelle vous pointez sur la commande vente. En savoir plus sur [Configurer les clients effectuant un achat au comptoir](finance-how-to-set-up-cash-customers.md).
 
-## <a name="to-create-a-sales-order"></a>Pour créer une commande vente
+## <a name="create-a-sales-order"></a>Créer une commande vente
 
 > [!NOTE]  
 > La procédure suivante suppose que le client est déjà configuré. Pour obtenir des instructions sur la façon de procéder, voir [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).
 
-1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
 2. Sélectionnez **Nouveau** pour créer une écriture.
 3. Dans le champ **Client**, entrez le nom d’un client existant.
 
@@ -43,7 +43,7 @@ Vous pouvez même créer des commandes à paiement direct pour les clients non e
 4. Renseignez les champs restants de la page **Commande vente**, selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    > Si vous autorisez le client à payer immédiatement, par exemple, par carte de crédit ou par PayPal, renseignez le champ **Code mode de règlement**. Le paiement est ensuite enregistré dès que vous validez la commande vente comme facturée. Si vous sélectionnez ESPÈCES, le paiement est enregistré dans un compte contrepartie spécifié.
+    > Si vous autorisez le client à payer immédiatement, par exemple, par carte de crédit ou par PayPal, renseignez le champ **Code mode de règlement**. Le paiement est ensuite enregistré dès que vous validez la commande vente comme facturée. Si vous sélectionnez *Espèces*, le paiement est enregistré dans un compte contrepartie spécifié.
 
     Vous êtes maintenant prêt à renseigner les lignes commande vente avec les articles en stock ou les services que vous voulez vendre au client.
 
@@ -52,23 +52,23 @@ Vous pouvez même créer des commandes à paiement direct pour les clients non e
 
 6. Dans le champ **N°**, saisissez le numéro d’un article de stock ou d’un service.
 
-    Laissez le champ **N°** vide dans les cas suivants :
+    Laissez le champ **N°** vide si la ligne est destinée à un :
 
-    * Si la ligne est destinée à un commentaire. Saisissez le commentaire dans le champ **Description**.
-    * Si la ligne est destinée à un article de catalogue. Sélectionnez l’action **Sélectionner articles de catalogue**. Pour en savoir plus, voir [Utiliser des articles de catalogue](inventory-how-work-nonstock-items.md).
+    * Commentaire. Saisissez le commentaire dans le champ **Description**.
+    * Article de catalogue. Sélectionnez l’action **Sélectionner articles de catalogue**. En savoir plus sur [Utiliser des éléments de catalogue](inventory-how-work-nonstock-items.md).
 7. Dans le champ **Quantité**, saisissez le nombre d’articles à vendre.
 
     > [!NOTE]  
     > Pour les articles de type *Ressource* ou *Service*, la quantité est une unité de temps, telle que les heures, comme indiqué dans le champ **Code unité** de la ligne. Pour plus d’informations, reportez-vous à [Configuration d’unités article](inventory-how-setup-units-of-measure.md).
 
-    Le champ **Montant ligne** est mis à jour pour indiquer la valeur du champ **Prix unitaire** multipliée par la valeur du champ **Quantité**.
+    Le champ **Montant ligne** est mis à jour pour indiquer la valeur du champ **Prix unitaire** multipliée par le nombre du champ **Quantité**.
 
     Le prix et les montants ligne sont affichés avec ou sans la Sales Tax en fonction de la valeur que vous avez sélectionné dans le champ **Prix incluant les taxes** de la fiche client.
 8. Dans le champ **% remise ligne**, saisissez un pourcentage si vous souhaitez accorder au client une remise sur le produit. La valeur du champ **Montant ligne** est mise à jour en conséquence.
 
-    Si vous avez défini des prix article spéciaux sur le raccourci **Prix vente et remises ligne vente** dans la fiche client ou article, le prix et le montant de la ligne devis sont automatiquement mis à jour si les critères de prix convenus sont réunis. Pour plus d’informations, reportez-vous à [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).
-9. Pour ajouter un commentaire sur la ligne commande que le client peut afficher dans la commande vente imprimée, saisissez un commentaire dans le champ **Description** sur une ligne vierge.  
-10. Répétez les étapes 5 à 9 pour chaque article que vous souhaitez à vendre au client.
+    Si vous avez défini des prix article spéciaux sur le raccourci **Prix vente et remises ligne vente** dans la fiche client ou article, le prix et le montant de la ligne devis sont automatiquement mis à jour si les critères de prix convenus sont réunis. En savoir plus, [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).
+9. Pour ajouter un commentaire sur la ligne commande que le client peut afficher dans la commande vente imprimée, saisissez un commentaire sur une ligne vierge, dans le champ **Description**.  
+10. Répétez les étapes 5 à 9 pour chaque article que vous souhaitez vendre au client.
 
     Les champs totaux sous les lignes sont automatiquement mises à jour comme vous créez ou modifiez des lignes pour afficher les montants qui seront validés en comptabilité.
 
@@ -79,14 +79,17 @@ Vous pouvez même créer des commandes à paiement direct pour les clients non e
 
 11. Dans le champ **Montant remise facture**, vous pouvez entrer un montant qui doit être déduit de la valeur indiquée dans le champ **Total TTC**.
 
-    Si vous avez défini des remises facture pour le client, le pourcentage spécifié est automatiquement inséré dans le champ **% remise facture** si les critères sont réunis, et le montant associé est inséré dans le champ **Montant remise facture sans TVA**. Pour plus d’informations, reportez-vous à [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).
-12. Pour expédier seulement une partie de la quantité commandée, entrez la quantité dans le champ **Qté à expédier**. La valeur est copiée dans le champ **Qté à facturer**.
+    Si vous avez défini des remises facture pour le client, le pourcentage spécifié est automatiquement inséré dans le champ **% remise facture** si les critères sont réunis, et le montant associé est inséré dans le champ **Montant remise facture sans TVA**. En savoir plus, [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).
+12. Pour expédier seulement une partie de la quantité commandée, entrez la quantité dans le champ **Qté à expédier**. La valeur est copiée automatiquement dans le champ **Qté à facturer**.
+
+    > [!NOTE]
+    > Si le champ **Avis d’expédition** est défini comme **Terminé** dans le raccourci **Expédition et facturation**, vous ne pouvez pas valider de livraisons partielles. En savoir plus sur [Traiter les livraisons partielles](sales-how-send-partial-shipments.md).
 13. Pour facturer seulement une partie de la quantité expédiée, entrez la quantité dans le champ **Qté à facturer**. La quantité doit être inférieure à la valeur du champ **Qté à expédier**.  
 14. Lorsque les lignes commande vente sont renseignées, sélectionnez l’action **Valider et envoyer**.
 
 [!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
-La boîte de dialogue **Valider et envoyer la confirmation** s’ouvre et indique le mode de réception de documents par défaut du client. Vous pouvez modifier le mode d’envoi en cliquant sur le bouton de recherche pour le champ **Envoyer le document à**. Pour plus d’informations, reportez vous à [Configurer des profils d’envoi de documents](sales-how-setup-document-send-profiles.md).
+La boîte de dialogue **Valider et envoyer la confirmation** s’ouvre et indique le mode de réception de documents par défaut du client. Vous pouvez modifier le mode d’envoi en cliquant sur le bouton de recherche pour le champ **Envoyer le document à**. En savoir plus, [Configurer des profils d’envoi de documents](sales-how-setup-document-send-profiles.md).
 
 Les écritures comptables article et client associés sont à présent créés dans votre système, et la commande vente est sortie en tant que document au format PDF. Lorsque la commande vente est entièrement validée, elle est supprimée de la liste des commandes vente et remplacée par de nouveaux documents dans la liste des factures vente validées et la liste des expéditions vente enregistrées.  
 
@@ -94,16 +97,20 @@ Les écritures comptables article et client associés sont à présent créés d
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Voir aussi
 
+[Facturer des ventes](sales-how-invoice-sales.md)  
+[Validation des ventes](ui-post-sales.md)  
+[Expédier des articles](warehouse-how-ship-items.md)  
+[Effectuer des livraisons directes](sales-how-drop-shipment.md)  
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Imprimer la liste des prélèvements](sales-how-print-picking-list.md)  
+[Traiter les livraisons partielles](sales-how-send-partial-shipments.md)  
 [Stock](inventory-manage-inventory.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
-[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

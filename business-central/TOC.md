@@ -1,4 +1,4 @@
-# [Bienvenue dans Business Central](index.md)
+# [Bienvenue dans Business Central](index.md)  
 # [Fonctionnalités nouvelles et prévues](product-news.md)
 # Démarrer
 ## [Aperçu des fonctionnalités d’entreprise](across-business-functionality.md)
@@ -225,6 +225,7 @@
 ### [Utiliser des feuilles comptabilité](ui-work-general-journals.md)
 ### [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)
 ### [Permettre à Business Central de suggérer des valeurs](ui-let-system-suggest-values.md)
+### [Utilisez des cartes en ligne pour trouver des emplacements et des directions](across-online-maps.md)
 
 ### Documents entrants
 #### [Vue d’ensemble des documents entrants](across-income-documents.md)
@@ -442,6 +443,7 @@
 ### [Imprimer la liste des prélèvements](sales-how-print-picking-list.md)
 ### [Valider les ventes](ui-post-sales.md)
 ### [Créer des lignes vente récurrentes](sales-how-work-standard-lines.md)
+### [Traiter les livraisons partielles avec avis d’expédition](sales-how-send-partial-shipments.md)
 ### [Effectuer des livraisons directes](sales-how-drop-shipment.md)
 ### [Créer des commandes spéciales](sales-how-to-create-special-orders.md)
 ### [Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md)
@@ -1635,6 +1637,7 @@
 ### [Création des souches de numéros](ui-create-number-series.md)
 ### [Configurer des calendriers principaux](across-how-to-assign-base-calendars.md)
 ### [Paramétrage imprimantes](ui-specify-printer-selection-reports.md)
+### [Configurer les cartes en ligne](across-online-maps-setup.md)
 ### [Obtenir Business Central sur votre périphérique mobile](install-mobile-app.md)
 ### [Installer Business Central sur votre bureau](install-desktop-app.md)
 <!--Reporting landing page-->
@@ -1838,6 +1841,7 @@
 ### [Synchroniser manuellement les mappages de table](admin-manual-synchronization-of-table-mappings.md)
 ### [Programmer une synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Résoudre des erreurs de synchronisation](admin-troubleshoot-sales-synchronization.md)
+### [Utiliser un flux Power Automate pour les alertes aux changements d’entité Dataverse](admin-power-automate-flow-dataverse.md)
 ## Détails de conception
 ### [Vue d’ensemble des détails de conception d’application](design-details-application-design.md)
 ### Détails de conception : planification de l’approvisionnement

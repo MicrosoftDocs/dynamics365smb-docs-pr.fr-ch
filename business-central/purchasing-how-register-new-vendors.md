@@ -10,18 +10,18 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 07/04/2022
 ms.author: edupont
-ms.openlocfilehash: 00ce5d3014d0154f877b9d58fc4e0fd0585f13ac
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 88b6c57fb93b5ef3e2a4cf02ce7a802e4d8aef22
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144344"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460762"
 ---
 # <a name="register-new-vendors"></a>Enregistrer un nouveau fournisseur
 
 Les fournisseurs fournissent les produits que vous vendez. Chaque fournisseur à qui vous achetez des biens doit être enregistré en tant que fiche fournisseur.
 
-Avant de pouvoir enregistrer de nouveaux fournisseurs, vous devez configurer divers codes achat que vous pouvez sélectionner lorsque vous renseignez les fiches fournisseur. Lorsque toutes les données de base requises sont créées, vous pouvez configurer des éléments supplémentaires sur le fournisseur, comme par exemple attribuer une priorité au fournisseur à des fins de paiement et répertorier les articles offerts par les fournisseurs. Un autre groupe de tâches de configuration consiste à enregistrer vos accords concernant les remises, les prix et les modes de règlement. Pour plus d’informations, reportez-vous à [Définition des achats](purchasing-setup-purchasing.md).
+Avant de pouvoir enregistrer de nouveaux fournisseurs, vous devez configurer divers codes achat que vous pouvez sélectionner lorsque vous renseignez les fiches fournisseur. Lorsque toutes les données de base requises sont créées, vous pouvez ajouter des caractéristiques uniques pour un fournisseur, comme par exemple attribuer une priorité au fournisseur à des fins de paiement et répertorier les articles offerts par les fournisseurs. Un autre groupe de tâches de configuration consiste à enregistrer vos accords concernant les remises, les prix et les modes de règlement. En savoir plus sur [Configurer les achats](purchasing-setup-purchasing.md).
 
 Les fiches fournisseur contiennent les informations requises pour acheter des produits au fournisseur. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md) et [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 <br /><br />  
@@ -30,17 +30,17 @@ Les fiches fournisseur contiennent les informations requises pour acheter des pr
 
 ## <a name="adding-new-vendors"></a>Ajouter de nouveaux fournisseurs
 
-Vous pouvez ajouter de nouveaux fournisseurs manuellement, en remplissant les champs sur la page **Fiche fournisseur**, ou vous pouvez utiliser des modèles contenant des informations prédéfinies. Par exemple, vous pouvez créer un modèle pour différents types de profils de fournisseurs. L’utilisation de modèles permet de gagner du temps lors de l’ajout de nouveaux fournisseurs et permet de garantir que les informations sont correctes à chaque fois.
+Vous pouvez ajouter de nouveaux fournisseurs manuellement, en remplissant les champs sur la page **Fiche fournisseur**, ou vous pouvez utiliser des modèles contenant des informations prédéfinies. Par exemple, vous pouvez créer des modèles pour différents types de profils de fournisseurs. L’utilisation de modèles permet de gagner du temps lors de l’ajout de nouveaux fournisseurs et permet de garantir que les informations sont correctes à chaque fois.
 
 > [!NOTE]  
 > Si des modèles fournisseur existent pour différents types de fournisseurs, une page s’affiche lorsque vous créez une fiche fournisseur à partir de laquelle vous pouvez sélectionner un modèle approprié. Si un seul modèle fournisseur existe, les nouvelles fiches fournisseur utiliseront toujours ce modèle.
 
-Après avoir créé un modèle, vous pouvez utiliser l’action **Appliquer le modèle** pour l’appliquer à un ou plusieurs fournisseurs sélectionnés. Pour créer un modèle, vous remplissez les informations que vous souhaitez réutiliser sur la page Fiche fournisseur, puis l’enregistrez en tant que modèle. Pour plus d’informations, consultez [Pour enregistrer la fiche fournisseur en tant que modèle](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
+Après avoir créé un modèle, vous pouvez utiliser l’action **Appliquer le modèle** pour l’appliquer à un ou plusieurs fournisseurs sélectionnés. Pour créer un modèle, vous remplissez les informations que vous souhaitez réutiliser sur la page **Fiche fournisseur**, puis l’enregistrez en tant que modèle. Pour plus d’informations, consultez [Pour enregistrer la page Fiche fournisseur en tant que modèle](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
-> Il peut être utile de personnaliser la page **Modèle de fournisseur** lorsque vous créez un modèle. Par exemple, vous souhaiterez peut-être ajouter un champ qui n’est pas déjà affiché sur la page. Pour plus d’informations, voir [Personnaliser votre espace de travail](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Il peut être utile de personnaliser la page **Modèle de fournisseur** lorsque vous créez un modèle. Par exemple, vous souhaiterez peut-être ajouter un champ qui n’est pas déjà affiché sur la page. Pour plus d’informations, voir la section [Personnaliser votre espace de travail](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-Vous pouvez également créer un fournisseur à partir d’un contact. Pour plus d’informations, reportez-vous à [Création d'un client, fournisseur, employé ou compte bancaire à partir d’un contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+Vous pouvez également créer un fournisseur à partir d’un contact. Pour plus d’informations, reportez-vous à la section [Créer un contact comme client, fournisseur, employé ou compte bancaire à partir d’un contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
 ### <a name="to-create-a-new-vendor"></a>Pour créer un fournisseur
 
@@ -51,14 +51,14 @@ Vous pouvez également créer un fournisseur à partir d’un contact. Pour plus
 
 Le fournisseur est désormais enregistré, et la fiche fournisseur est prête à être utilisée sur les documents d’achat.
 
-Si vous souhaitez utiliser cette fiche fournisseur comme modèle lorsque vous créez de nouvelles fiches fournisseur, enregistrez-la comme modèle fournisseur. Pour plus d’informations, consultez la section [Pour enregistrer la fiche fournisseur en tant que modèle](#to-save-the-vendor-card-as-a-template).
+Si vous souhaitez utiliser cette fiche fournisseur comme modèle lorsque vous créez de nouvelles fiches fournisseur, enregistrez-la comme modèle fournisseur. Pour plus d’informations, consultez [Pour enregistrer la fiche fournisseur en tant que modèle](#to-save-the-vendor-card-as-a-template).
 
 ### <a name="deleting-and-editing-vendor-information"></a>Suppression et modification des informations sur le fournisseur
 
 Vous pouvez modifier les informations des fiches fournisseur à tout moment. Toutefois, si vous avez enregistré une transaction pour un fournisseur, vous ne pouvez pas supprimer la fiche car les écritures comptables peuvent être nécessaires aux fins d’audit. Pour supprimer des fiches fournisseur avec des écritures comptables, contactez votre partenaire Microsoft pour le faire via le code.
 
 > [!TIP]
-> Vous pouvez modifier l’IBAN sur le compte bancaire d’un fournisseur sans que le changement n’affecte vos écritures d’historique de registre de virements. Les écritures du registre des virements stockent l’IBAN du destinataire et le numéro de compte bancaire du destinataire qui ont été spécifiés dans les champs Compte bancaire du fournisseur et Nom du destinataire de la page Fiche fournisseur lorsque les écritures ont été créées.
+> Vous pouvez modifier l’IBAN sur le compte bancaire d’un fournisseur sans que le changement n’affecte vos écritures d’historique de registre de virements. Les écritures du registre des virements stockent l’*IBAN du destinataire* et le *numéro de compte bancaire du destinataire* qui ont été spécifiés dans les champs **Compte bancaire du fournisseur** et **Nom du destinataire** de la page **Fiche fournisseur** lorsque les écritures ont été créées.
 
 > [!TIP]
 > Vous pouvez ajouter des adresses alternatives sur les fiches fournisseurs en choisissant l'action **Adresses de commande**.
@@ -72,7 +72,7 @@ Vous pouvez modifier les informations des fiches fournisseur à tout moment. Tou
 5. Lorsque vous avez terminé le nouveau modèle fournisseur, cliquez sur le bouton **OK**.  
    Le modèle fournisseur est ajouté à la liste des modèles fournisseur. Vous pouvez ainsi l’utiliser pour créer des fiches fournisseur.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -82,6 +82,7 @@ Vous pouvez modifier les informations des fiches fournisseur à tout moment. Tou
 [Configurer les acheteurs](purchasing-how-setup-purchasers.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
+[Utilisez des cartes en ligne pour trouver des emplacements et des directions](across-online-maps.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
