@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 242c3e65401f188068c6e1fbea20212d4a3a7653
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7238b4de3b4a48c61560bc9a96a6923afe82eb93
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076164"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533497"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procédure pas-à-pas : créer des prévisions de trésorerie à l’aide de tableaux d’analyse
 
@@ -142,7 +142,7 @@ Ken est désormais prêt à affecter la présentation de colonne au nom de table
 2. Sur la page **Aperçu tableau d’analyse**, vous pouvez sélectionner un montant, puis afficher les écritures de prévisions de trésorerie qui constituent ce montant. En outre, vous pouvez afficher la formule qui est utilisée pour calculer le montant. Vous pouvez également filtrer les montants par date et par axe analytique.  
 3. Choisissez l’action **Imprimer** pour imprimer les prévisions de trésorerie.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

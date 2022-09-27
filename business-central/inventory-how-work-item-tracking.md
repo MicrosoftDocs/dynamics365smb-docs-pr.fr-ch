@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550,
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: f458f1dca9f2aa23fcc7942ad6556b1d86848b5f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 38b71a036ac4334a7d7ac641aaa1868f01253a03
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074837"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530070"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Effectuer le suivi des articles avec les numéros lot, de série et paquet
 
@@ -215,7 +215,7 @@ Le reclassement de la traçabilité pour un article consiste à remplacer un num
 6. Si vous voulez entrer une nouvelle date de péremption pour le numéro de lot ou de série, entrez-la dans le champ **Nouvelle date expiration**.  
 
     > [!IMPORTANT]  
-    >  Si vous reclassez un lot sur le même numéro de lot mais une autre date d’expiration, vous devez reclasser le lot entier en utilisant une ligne de feuille reclassement article. Si vous reclassez plusieurs lots sur un nouveau numéro de lot, ce qui signifie que vous fusionnez plusieurs lots en un nouveau lot, vous devez entrer la même date d’expiration pour tous les lots. Si vous reclassez un lot existant sur un autre dont la date d’expiration diffère, vous devez utiliser la date d’expiration du second lot. Si vous laissez le champ **Nouvelle date expiration** vide, le numéro de lot ou de série est reclassé avec une date d’expiration vide.  
+    >  Si vous reclassez un lot sur le même numéro de lot mais une autre date d’expiration, vous devez reclasser le lot entier en utilisant une ligne de feuille reclassement article. Si vous reclassez plusieurs lots sur un nouveau numéro de lot, ce qui signifie que vous fusionnez plusieurs lots en un nouveau lot, vous devez entrer la même date d'expiration pour tous les lots. Si vous reclassez un lot existant sur un autre dont la date d'expiration diffère, vous devez utiliser la date d'expiration du second lot. Si vous laissez le champ **Nouvelle date expiration** vide, le numéro de lot ou de série est reclassé avec une date d’expiration vide.  
 
 7. Si des informations figurent sur l’ancien numéro de lot ou de série, vous pouvez les copier vers le nouveau numéro de lot ou de série.  
 
@@ -226,7 +226,7 @@ Le reclassement de la traçabilité pour un article consiste à remplacer un num
 8. Si vous voulez modifier les informations existantes du numéro de lot ou de série, vous pouvez enregistrer des informations de lot ou de série.  
 9. Validez la feuille pour lier les nouveaux numéros traçabilité ou dates d’expiration à l’écriture comptable article qui leur est associée.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/prepare-item-tracking/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

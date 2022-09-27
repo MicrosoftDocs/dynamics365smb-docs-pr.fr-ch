@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4d90980030453dd2b152d2b85901a9db12cadf2f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ce664efeb299072e73c2b25ea87ed28596164015
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078325"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528506"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ranger des articles avec le rangement stock
 
@@ -77,7 +77,7 @@ Maintenant que la demande est créée, le magasinier peut créer un nouveau rang
 
 Le processus de validation valide la réception, ou la production pour les ordres de fabrication, des lignes document origine qui ont été rangées et, si le magasin utilise des emplacements, la validation crée également des écritures entrepôt pour valider les modifications apportées aux quantités emplacement.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/receive-put-away-items/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

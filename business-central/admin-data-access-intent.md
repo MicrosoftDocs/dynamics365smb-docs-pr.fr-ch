@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3ca69d95ae40965c83df56e1454ca9984a448cbb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 15300f780cbe92a1f5e288979a1c84f34f63cb1a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511004"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532446"
 ---
 # <a name="managing-database-access-intent"></a>Gestion de l’accès intentionnel à la base de données
 
@@ -49,7 +49,7 @@ En termes de base de données, cette fonction est communément appelée *échell
     > [!NOTE]
     > Si un objet modifiable, comme la fiche client, est défini sur **Lecture seule**, la base de données principale est toujours utilisée, quelle que soit l’accès intentionnel, permettant aux utilisateurs d’apporter des modifications comme d’habitude.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 [Fonctionnalités d’entreprise](across-business-functionality.md)  

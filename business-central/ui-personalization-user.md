@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8ab57ff6e28abf3a40b9507375d33ffb4f1f33a3
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 7739ead50f07adc5a7a14c6c9e57cc623da275c9
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655503"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528828"
 ---
 # <a name="personalize-your-workspace"></a>Personnaliser votre espace de travail
 
@@ -150,7 +150,7 @@ Pour vous aider à mieux comprendre la personnalisation, voici quelques points c
 - Les modifications d’une page dans un volet s’appliquent à la page, où qu’elle s’affiche.  
 - Vous ne pouvez ajouter de champs et de colonnes qu’à partir d’une liste prédéfinie, laquelle est basée sur la page. Vous ne pouvez pas en créer de nouveaux.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 [Personnaliser les pages pour les profils](ui-personalization-manage.md)  

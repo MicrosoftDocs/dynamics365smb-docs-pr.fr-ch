@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5271203a9936f268e23df9b8e38a2373d875e5f9
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: e61c61f760dd14145ecea76f36903f8a4124cac5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076502"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533848"
 ---
 # <a name="set-up-stockkeeping-units"></a>Configurer des points de stock
 
@@ -40,7 +40,7 @@ Pour créer plusieurs points de stock pour un article, utilisez le traitement pa
 > Si le point de stock est expédié à la fabrication, le champ **Coût standard** n’est pas utilisé lors de la facturation et de l’ajustement du coût réel de l’article fabriqué. Celui utilisé est plutôt le champ **Coût standard** de la fiche article sous-jacente. En outre, tous les écarts sont calculés par rapport aux coûts totaux de l’article.<br /><br />
 > Étant donné qu’il n’est pas possible d’affecter les nomenclatures de production et la gamme aux points de stock, le calcul du coût unitaire et le calcul lié des coûts totaux ne sont également pas disponibles sur les points de stock. Pour plus d’informations, voir [À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/control-inventory-multiple-locations/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/control-inventory-multiple-locations/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

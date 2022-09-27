@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 600b7e3117b4c75e1e6599c7b1e568c34e6bbbf1
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0b9c74b7bdd81151b2b290db6cae6bed791d5a23
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078481"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534415"
 ---
 # <a name="get-started-creating-report-layouts"></a>Bien démarrer avec la création de présentations d’état
 
@@ -184,7 +184,7 @@ Suivez ces étapes si vous souhaitez modifier le nom et la description d’une p
     > Pour vous aider à trouver la présentation, utilisez la case **Rechercher**, le volet **Filtrer** et le tri des colonnes.
 3. Changez le **Nom de la présentation**, puis cliquez sur **OK**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5629, 5633
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: ec81b14510d89729f7c51f95a3907db38e3876ea
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f4f748e15a3bc3b911488cff74a7e51be4a75142
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075956"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535090"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Méthodes amortissement pour les immobilisations
 
@@ -46,7 +46,7 @@ Lorsque vous utilisez la méthode linéaire, vous devez indiquer l’une des opt
 * Période de l’amortissement (en années ou en mois) ou date fin de l’amortissement  
 * Pourcentage annuel fixe  
 * Montant annuel fixe  
-* Période d’amortissement  
+* Période d'amortissement  
 
 ### <a name="depreciation-period"></a>Période d’amortissement
 
@@ -234,7 +234,7 @@ Cette méthode d’amortissement peut être utilisée en combinaison avec les m�
 Lorsque vous appliquez la règle de la demi-année, une immobilisation a un amortissement de six mois lors du premier exercice comptable, quelle que soit la valeur du champ **Date début amortissement**.  
 
 > [!NOTE]  
-> Avec la règle de la demi-année, la durée de vie restante estimée pour l’immobilisation à la fin de l’exercice comptable indique toujours une demi-année. Par conséquent, pour que la méthode Utiliser règle de la demi-année soit appliquée correctement, le champ **Date fin amortissement** de la **loi d’amortissement de l’immobilisation** doit toujours contenir une date antérieure de six mois à la date fin de l’exercice comptable au cours duquel l’immobilisation sera complètement amortie.  
+> Avec la règle de la demi-année, la durée de vie restante estimée pour l'immobilisation à la fin de l'exercice comptable indique toujours une demi-année. Par conséquent, pour que la méthode Utiliser règle de la demi-année soit appliquée correctement, le champ **Date fin amortissement** de la **loi d’amortissement de l’immobilisation** doit toujours contenir une date antérieure de six mois à la date fin de l’exercice comptable au cours duquel l’immobilisation sera complètement amortie.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Exemple - Amortissement selon la règle de la demi-année
 
@@ -300,7 +300,7 @@ Lorsque vous saisissez une écriture pour B1 dans la feuille validation immobili
 > [!NOTE]  
 > Vous ne pouvez pas utiliser la même souche de numéros dans la feuille validation immobilisation et la feuille immobilisation. Lorsque vous validez des écritures dans la feuille validation immobilisation, vous devez laisser le champ **N° document** vide. Si vous saisissez un numéro dans le champ, il est copié dans la feuille immobilisation. Vous devez modifier manuellement le numéro de document avant de pouvoir valider la feuille.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/configure-depreciation-books/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

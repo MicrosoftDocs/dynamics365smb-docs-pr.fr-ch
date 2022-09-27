@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 171e046e68cd3eaabbb10b0e1aeacb508cbc76b4
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 71ed144297e1f7b98b5fcb7252a216258719f68a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078141"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533659"
 ---
 # <a name="creating-cost-budgets"></a>Création des budgets des coûts
 
@@ -32,7 +32,7 @@ Vous utilisez les pages suivantes pour créer et analyser les budgets de coûts.
 |Consultez les registres du budget des coûts et les écritures correspondantes.|Page **Registres du budget des coûts**|  
 |Imprimez les comparaisons budgétaires de coûts à l’aide de divers états.|État **Budget/Solde comptabilité analytique**<br /><br /> État **Budget/Relevé comptabilité analytique**<br /><br /> État **Budget des coûts par centre de coûts**<br /><br /> État **Budget des coûts par coûts associés**|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/cost-accounting-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/cost-accounting-reports-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

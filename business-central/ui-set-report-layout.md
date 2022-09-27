@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 9cc827630c5acfeba2efc860d8baf67cd31bb404
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525312"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535869"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Définition de la présentation utilisée par un état
 
@@ -62,7 +62,7 @@ Il existe deux manières de définir la présentation utilisée par un état. Un
 
 Les états sont conçus pour utiliser une présentation par défaut. Vous pouvez revenir à la présentation par défaut d’origine à partir de la page **Sélection présentation état**. Sélectionnez simplement l’état, puis sélectionnez l’action **Restaurer la sélection par défaut** en haut de la page.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 

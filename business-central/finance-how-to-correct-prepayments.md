@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d45fc8f3b3636e79c17fec799f8f3682f0772e1b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 45bc013c983e4c58d2c4b54dfa074c2170165652
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075514"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529702"
 ---
 # <a name="correct-prepayments"></a>Corriger des acomptes
 
@@ -38,7 +38,7 @@ La procédure suivante explique comment émettre un avoir acompte pour annuler t
 5. Pour valider une facture acompte pour les nouvelles lignes dans l’avoir vente, sélectionnez l’action **Acompte**, puis l’action **Valider facture acompte** ou **Publier et imprimer facture acompte**.  
 6. Pour émettre une autre facture acompte, augmentez le montant d’acompte sur une ou plusieurs lignes, puis validez la facture acompte. Une nouvelle facture est créée pour la différence entre les montants d’acompte facturés et le nouveau montant d’acompte.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

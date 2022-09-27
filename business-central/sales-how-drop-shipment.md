@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9a5ec7fb14adc453eb29c49474109b17d35d177b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f04f49c301b38236be1dda3334e8560584a4e6b4
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076918"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528909"
 ---
 # <a name="make-drop-shipments"></a>Effectuer des livraisons directes
 
@@ -78,7 +78,7 @@ Lorsque le fournisseur a expédié les articles, vous pouvez valider la commande
 4. Sélectionnez l’action **Valider** ou **Valider et envoyer**.
 5. Sélectionnez l’option **Livrer** pour facturer ultérieurement ou l’option **Livrer et facturer** pour facturer immédiatement.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

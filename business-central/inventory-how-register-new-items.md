@@ -10,12 +10,12 @@ ms.search.keywords: item, finished good, component, raw material, assembly item,
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 893efecd282352ac44d10e15983a8f0f3923b224
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7af83072b6b20ba9b56c06c0fb7321707a425776
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075462"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532932"
 ---
 # <a name="register-new-items"></a>Enregistrer de nouveaux articles
 
@@ -117,7 +117,7 @@ Lorsque votre entreprise utilise les processus de planification des approvisionn
 
 Pour des exemples d’utilisation des champs du raccourci **Planification**, voir [Configurer des recommandations : paramètres de planification](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-items/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-items/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

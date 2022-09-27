@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: b927faed205e64088ce399a9a973d7fcea0d1eda
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383820"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532743"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Déclarer la TVA aux autorités fiscales
 
@@ -137,7 +137,7 @@ Le tableau suivant décrit les codeunits que vous devez créer pour votre état.
 > [!Note]
 > Lorsque vous créez des codeunits pour la déclaration, faites attention à la valeur du champ **Version de la déclaration TVA**. Ce champ doit refléter la version de l’état qui est ou a été requis par l’administration fiscale. Par exemple, vous pouvez saisir **2021** dans le champ pour indiquer que l’état remplit les conditions qui étaient en place cette année. Pour trouver la version en cours, contactez votre administration fiscale.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

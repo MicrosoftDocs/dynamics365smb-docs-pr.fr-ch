@@ -10,12 +10,12 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ec826560a44908b0635bf7698040b1c0e088b04
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7d537d22d3273c2185016904779eab0ff030d201
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076658"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530259"
 ---
 # <a name="setting-up-fixed-assets"></a>Paramétrage d’immobilisations
 
@@ -42,7 +42,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | En savoir plus sur les différentes méthodes d’amortissement des immobilisations. |[Méthodes d’amortissement](fa-depreciation-methods.md) |
 | Découvrez comment appliquer des méthodes d’amortissement paramétrables. |[Définir des méthodes d’amortissement paramétrables](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/set-up-fixed-assets-management/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

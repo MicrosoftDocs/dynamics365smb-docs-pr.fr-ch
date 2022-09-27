@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7351
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: eafddef05562e5b63c291f8ea9ca130b878dcd68
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 1c1f86cae4ad411efe21453d58761b436bb7470d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075202"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532527"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Déplacer des articles dans les configurations de stockage avancées
 
@@ -50,7 +50,7 @@ Si, en cas d’utilisation d’un prélèvement et d’un rangement suggérés d
 2.  Renseignez les champs **N° article**, **Du code zone**, **Du code emplacement**, **Vers code zone** et **Du code emplacement**.  
 3.  Sélectionnez l’action **Enregistrer**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/manage-internal-warehouse-processes/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -10,12 +10,12 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 021837a5ec2be9fb5b2234fcc85103b8ad3746f8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4acc962c596bf2ba8eb857d488eb4fc0045f79cc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078585"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529206"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique
 
@@ -58,7 +58,7 @@ Pour toujours valider les dépenses liées aux frais d’une banque spécifique,
 | --- | --- | --- | --- | --- |
 | MyBank |VIDE |60400|Compte général |VIDE |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/use-journals-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

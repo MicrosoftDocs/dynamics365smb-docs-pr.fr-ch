@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8984d007f2082c6a21a3d2226a20f2ad585b131a
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 780034b8c53e7bb1704e13d0b1a00158583c11db
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129755"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531744"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Préparer la génération d’états financiers avec des tableaux d’analyse et des catégories de compte
 
@@ -164,7 +164,7 @@ Vous pouvez importer et exporter des tableaux d’analyse comme des packages de 
 > [!NOTE]
 > Lorsque vous importez des tableaux d’analyse, les enregistrements existants portant les mêmes noms que ceux que vous importez seront supprimés.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/configure-financial-reports-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1103, 1104, 1108, 1113, 1135
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f3743e49795f8673bc8fe24e9def11686863954f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: b822ed9b6a9fa6d784d8f2846d74cd0c98550b0d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078089"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532878"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transfert et validation des écritures de coûts
 
@@ -104,7 +104,7 @@ Pour les écritures de coûts uniques, [!INCLUDE[prod_short](includes/prod_short
 
 Dans la table **Registre de coûts**, [!INCLUDE[prod_short](includes/prod_short.md)] crée une écriture à l’aide du transfert source depuis la comptabilité. L’écriture enregistre le premier et le dernier numéros des écritures comptables transférées, outre le premier et le dernier numéros des écritures de coûts créées.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/transfer-gl-entries-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/transfer-gl-entries-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

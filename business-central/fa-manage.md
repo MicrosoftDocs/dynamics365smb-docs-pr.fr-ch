@@ -10,12 +10,12 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0346150f53006cc5ae34bf9ad8fcb19c8bbcb271
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 5bd6ff8d27b17e413c418de64bea7ded8428e892
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079183"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529314"
 ---
 # <a name="managing-fixed-assets"></a>Gestion des immobilisations
 
@@ -27,7 +27,7 @@ Pour conserver une trace des amortissements d’immobilisations ainsi que des au
 
 Pour chaque immobilisation, vous pouvez enregistrer des coûts de maintenance et la date de la prochaine visite d’entretien. Le suivi des frais de maintenance peut être utile dans le cadre de l’élaboration du budget et de la prise de décisions concernant le remplacement éventuel d’une immobilisation.
 
-Chaque immobilisation peut être liée à une ou à plusieurs polices d’assurance. Vous pouvez ainsi vérifier facilement la concordance des montants des polices d’assurance avec la valeur des immobilisations associées à ces polices. Cela facilite également le contrôle des primes d’assurance annuelles.
+Chaque immobilisation peut être liée à une ou à plusieurs polices d’assurance. Vous pouvez ainsi vérifier facilement la concordance des montants des polices d'assurance avec la valeur des immobilisations associées à ces polices. Cela facilite également le contrôle des primes d’assurance annuelles.
 
 > [!NOTE]  
 >   Vous pouvez enregistrer les transactions immobilisation sur la page **Feuille compta. immo.** ou sur la page **Feuille immo.**, selon que les transactions sont destinées pour des rapports financiers ou pour la gestion interne. L’aide pour les immobilisations décrit uniquement la procédure d’utilisation de la page **Feuille compta. immo.**. Pour en savoir plus, voir [Configurer l’amortissement d’immobilisation](fa-how-setup-depreciation.md).
@@ -53,7 +53,7 @@ La vidéo suivante couvre les notions de base des immobilisations.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/manage-fixed-assets-transactions/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

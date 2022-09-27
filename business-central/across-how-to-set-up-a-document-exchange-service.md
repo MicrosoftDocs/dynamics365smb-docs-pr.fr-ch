@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 4a502dc56f45673c0a052b0081518ae0ec888a14
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 611f3ac405c66996ed5ec1e1f275ccb5eaccd3d5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076034"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530745"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Configurer un service d’échange de document
 
@@ -67,7 +67,7 @@ Pour connecter Business Central sur site, vous devez créer une application dans
 
 Si vous préférez stocker l’ID d’application et le secret dans un emplacement différent, vous pouvez laisser les champs ID client et Secret client vides et écrire une extension pour récupérer l’ID et le secret depuis l’emplacement. Vous pouvez fournir le secret lors de l’exécution en vous abonnant aux événements OnGetClientId et OnGetClientSecret dans codeunit 1410 « Doc. Exch. Service Mgt. »
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

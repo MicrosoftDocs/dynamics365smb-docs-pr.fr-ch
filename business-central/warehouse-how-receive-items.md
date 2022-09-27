@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 8bd79a13bb7ecc806fea0dcdea33ec604bd98c41
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 6cca8d8f9b0ec28b149532581f9bc458022c3cd5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460902"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529530"
 ---
 # <a name="receive-items"></a>Réceptionner des articles
 
@@ -122,7 +122,7 @@ Lorsque vous traitez une sur-réception, vous pouvez augmenter la valeur dans le
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] n’inclut pas de fonctionnalité permettant d’initier automatiquement l’administration financière des sur-réceptions. Vous devez gérer cela manuellement en accord avec le fournisseur, qui peut par exemple vous envoyer une facture nouvelle ou mise à jour.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index) associée.
 
 ## <a name="see-also"></a>Voir aussi
 

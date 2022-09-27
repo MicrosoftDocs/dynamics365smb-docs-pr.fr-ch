@@ -10,18 +10,18 @@ ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 18be12c81ddfebd07c1311e6a0f338712f842f21
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: db722d702dbfa6499c5ae259313af8915b95d51c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078219"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534253"
 ---
 # <a name="maintain-fixed-assets"></a>Mettre à jour des immobilisations
 
 Les frais de maintenance sont des coûts périodiques de routine engagés pour préserver la valeur des immobilisations. Contrairement aux améliorations de capital, ils n’augmentent pas les valeurs.
 
-Vous pouvez enregistrer et mettre à jour un fichier sur la maintenance et l’entretien des immobilisations afin d’accéder facilement aux enregistrements de maintenance complets des immobilisations. Chaque fois qu’une immobilisation est envoyée en réparation, vous enregistrez toutes les informations importantes, par exemple la date de réparation, le numéro du fournisseur et le numéro de téléphone de l’intervenant. La saisie de la maintenance est effectuée pour chaque immobilisation à partir de la fiche immobilisation.
+Vous pouvez enregistrer et mettre à jour un fichier sur la maintenance et l’entretien des immobilisations afin d’accéder facilement aux enregistrements de maintenance complets des immobilisations. Chaque fois qu'une immobilisation est envoyée en réparation, vous enregistrez toutes les informations importantes, par exemple la date de réparation, le numéro du fournisseur et le numéro de téléphone de l'intervenant. La saisie de la maintenance est effectuée pour chaque immobilisation à partir de la fiche immobilisation.
 
 L’actualisation permet d’ajuster des valeurs en fonction de modifications générales de niveau de prix. Le traitement par lots **Réévaluer immobilisations** permet de recalculer les coûts de maintenance.
 
@@ -90,7 +90,7 @@ Dans l’état **Maintenance - Détails**, vous pouvez afficher ou imprimer les 
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/manage-fixed-assets-maintenance-insurances/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

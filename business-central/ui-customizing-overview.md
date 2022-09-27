@@ -10,12 +10,12 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 7a08a9f53329693a44a7da1e293561d27fff4b78
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 877e4bf26b0af7675fe71f791e0bfe53159b9d70
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075800"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533094"
 ---
 # <a name="customize-business-central"></a>Personnaliser Business Central
 
@@ -33,7 +33,7 @@ Il existe différentes méthodes pour personnaliser l’application, afin de don
 > [!NOTE]
 > Tous les descriptions de fonctions de la documentation utilisateur de [!INCLUDE[prod_short](includes/prod_short.md)] assument l’expérience **Premium**, ce qui signifie que les descriptions couvrent la portée complète des éléments de l’interface utilisateur. Par conséquent, les utilisateurs avec l’expérience **Essentiel** peuvent dans certaines rubriques rencontrer des fonctionnalités et des éléments de l’interface utilisateur qui ne sont pas visibles dans leur interface utilisateur. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/tailor-roles-design-ui/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

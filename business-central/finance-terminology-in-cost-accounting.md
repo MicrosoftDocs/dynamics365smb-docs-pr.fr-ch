@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 92f44504f97c4203585486fc937ed3bb560ad5d4
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: cee2ced8b51de66de847c0132e8ce35a08b7b229
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076554"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532176"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologie en comptabilité analytique
 
@@ -49,7 +49,7 @@ Cette rubrique définit les conditions principales qui sont utilisés en comptab
 |Coût variable|Les coûts variables sont des frais qui varient proportionnellement à l’activité d’une société. Les coûts variables représentent la somme de coûts marginaux dans toutes les unités produites. Les coûts fixes et les coûts variables constituent les deux composants des coûts totaux.|  
 |Variante|Une variante est utilisée comme un libellé facultatif et défini par l’utilisateur pour les affectations. Son objectif consiste à filtrer les groupes d’affectation.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

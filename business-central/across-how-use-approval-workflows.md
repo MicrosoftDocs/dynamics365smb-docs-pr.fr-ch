@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: a4dcb5c9f12190a662c4f45bbadcfdddee70fa7f
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 55e7861d479ee5d4415ca776f969b722464ddcc3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129837"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531933"
 ---
 # <a name="use-approval-workflows"></a>Utilisation des flux d’approbation
 
@@ -83,7 +83,7 @@ La fonction **Envoyer des notifications d’approbations échues** passe en revu
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Demandes approbations échues**, puis sélectionnez le lien associé.
 2. Sur la page **Demandes approbations échues**, sélectionnez l’action **Envoyer les notifications d’approbation échues**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/use-approval-workflows/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

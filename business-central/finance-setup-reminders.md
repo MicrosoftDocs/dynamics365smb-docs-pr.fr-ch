@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 09e6bf269e8561dab5d205bc61d81ac40787200c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 24188a9eddda8d91e33058039b092ed8fcb37414
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075488"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534631"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Configurer les conditions et niveaux de relance
 
@@ -38,7 +38,7 @@ Si des clients ont des impayés, vous devez décider quand et comment leur envoy
 
 Vous pouvez définir un nombre illimité de niveaux de relance pour chaque code de condition de relance. La première fois qu’une relance est créée pour un client, le paramétrage utilisé est celui du niveau 1. Lorsque la relance est émise, le numéro du niveau est enregistré dans les écritures relance qui sont créées et associées à l’écriture comptable client spécifique. S’il est nécessaire de relancer le client, toutes les écritures comptables relance associées aux écritures comptables client ouvertes sont vérifiées afin de localiser le numéro de niveau le plus élevé. Les conditions du niveau suivant seront alors utilisées pour la nouvelle relance.
 
-Si vous créez plus de relances qu’il n’y a de niveaux relance, les conditions utilisées seront celles du niveau le plus élevé. Vous pouvez utiliser autant de relances que le champ **Nombre max. de relances** des conditions relance le permet.
+Si vous créez plus de relances qu'il n'y a de niveaux relance, les conditions utilisées seront celles du niveau le plus élevé. Vous pouvez utiliser autant de relances que le champ **Nombre max. de relances** des conditions relance le permet.
 
 ### <a name="to-set-up-reminder-levels"></a>Pour configurer des niveaux de relance
 
@@ -98,7 +98,7 @@ Si vous créez plus de relances qu’il n’y a de niveaux relance, les conditio
 
 Si vous avez configuré les conditions relance (avec des niveaux et du texte supplémentaires), saisissez l’un des codes sur chaque fiche client. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/send-reminders-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

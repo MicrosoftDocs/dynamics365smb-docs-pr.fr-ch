@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: ab7d131e965b0698c6e33a0b1a43c8f408a7b1b2
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 0bd4c54bc089906877052efdbf471fc3dbe1fc30
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129918"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533445"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Flux de travail dans Dynamics 365 Business Central
 
@@ -45,9 +45,9 @@ Pour configurer et utiliser des flux de travail qui ne sont pas définis dans Po
 |**Pour**|**Voir**|  
 |------------|-------------|  
 |Configurer des utilisateurs du workflow, spécifier comment les utilisateurs sont notifiés et créer des workflows. Pour de nouveaux workflows pour des scénarios non pris en charge, implémentez les éléments requis du workflow en personnalisant le code d’application.|[Configuration des workflows](across-set-up-workflows.md)|  
-|Activer des workflows, agir sur les notifications du workflow, notamment les approbations de demandes et approuver des demandes pour effectuer une étape du workflow. Archiver et supprimer des workflows.|[Utiliser des workflows](across-use-workflows.md)|  
+|Activer des workflows, agir sur les notifications du workflow, notamment les approbations de demandes et approuver des demandes pour effectuer une étape du workflow. Archiver et supprimer des workflows.|[Utiliser des flux de travail](across-use-workflows.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

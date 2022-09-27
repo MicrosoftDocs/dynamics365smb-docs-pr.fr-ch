@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 35d2c97f888905584010c75c7529b4b66fec51c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 075af1a6b1d02a68a84d504b7ffa8602b50b17f8
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515604"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534101"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Obtention de Business Central sur votre périphérique mobile
 
@@ -58,7 +58,7 @@ Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous p
 > [!NOTE]
 > Si vous rencontrez des problèmes pour que l’application fonctionne correctement, parlez-en à votre administrateur. Il peut s’agir d’un prérequis manquant ou d’une configuration incomplète. Pour plus d’informations, consultez [Préparer l’environnement pour l’application mobile](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) ou [Résoudre les problèmes de l’application mobile Business Central sur site](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 

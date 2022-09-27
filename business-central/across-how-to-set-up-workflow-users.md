@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 187ff9bad2fb8bf320872759115e98b326b689c8
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 95730ff31c963695c94a64d36a8f980bddfbb72b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130215"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530961"
 ---
 # <a name="set-up-workflow-users"></a>Configurer des utilisateurs de flux de travail
 
@@ -44,7 +44,7 @@ Les utilisateurs de flux de travail dont la fonction est utilisateurs approbatio
 6. Répétez l’étape 5 pour ajouter des utilisateurs de flux de travail dans le groupe d’utilisateurs.  
 7. Répétez l’étape 2 à 6 pour ajouter des groupes d’utilisateurs de flux de travail.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

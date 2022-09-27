@@ -10,20 +10,20 @@ ms.search.keywords: ''
 ms.search.forms: 5714, 5715
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2c5b4f6835618e57212ac7b3b4a9ecf1c672052f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 3aabc4f60d30d6a5eaef838fa1b8b03e58c2341d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077985"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530016"
 ---
 # <a name="work-with-responsibility-centers"></a>Utiliser les centres de gestion
 
-Les centres de gestion permettent de gérer les centres administratifs. Un centre de gestion peut être un centre de coûts, un centre de profit, un centre d’investissement ou tout autre centre administratif défini par la société. Un bureau de vente, un département d’achat pour plusieurs emplacements, un bureau de planification d’usine, etc. sont des exemples de centres de gestion. Par exemple, cette fonctionnalité permet aux sociétés de paramétrer des vues spécifiques à l’utilisateur des documents vente et achat associés exclusivement à un centre de gestion particulier.  
+Les centres de gestion permettent de gérer les centres administratifs. Un centre de gestion peut être un centre de coûts, un centre de profit, un centre d’investissement ou tout autre centre administratif défini par la société. Un bureau de vente, un département d'achat pour plusieurs emplacements, un bureau de planification d'usine, etc. sont des exemples de centres de gestion. Par exemple, cette fonctionnalité permet aux sociétés de paramétrer des vues spécifiques à l’utilisateur des documents vente et achat associés exclusivement à un centre de gestion particulier.  
 
 L’utilisation de plusieurs magasins avec des centres de gestion permet de gérer les activités commerciales de façon flexible et optimale.
 
-Des magasins multiples permettent aux sociétés de gérer leur stock dans plusieurs magasins au moyen d’une seule base de données. Deux concepts, des magasins et des points de stock, sont les pierres angulaires du granule. Un magasin est défini comme un lieu qui gère l’emplacement physique et la quantité des articles. Le concept est assez étendu pour inclure des magasins tels que les usines ou les unités de fabrication et les centres de distribution, les entrepôts, les magasins d’exposition et les véhicules de service. Un point de stock est défini comme un article d’un magasin spécifique et/ou comme une variante. Grâce aux points de stock, les sociétés utilisant plusieurs magasins peuvent ajouter des informations de réapprovisionnement, des adresses et des informations financières de validation au niveau du magasin. Elles peuvent ainsi réapprovisionner les variantes du même article dans chaque magasin et commander des articles pour chaque magasin d’après les informations de réapprovisionnement spécifiques du magasin.  
+Des magasins multiples permettent aux sociétés de gérer leur stock dans plusieurs magasins au moyen d’une seule base de données. Deux concepts, des magasins et des points de stock, sont les pierres angulaires du granule. Un magasin est défini comme un lieu qui gère l’emplacement physique et la quantité des articles. Le concept est assez étendu pour inclure des magasins tels que les usines ou les unités de fabrication et les centres de distribution, les entrepôts, les magasins d'exposition et les véhicules de service. Un point de stock est défini comme un article d'un magasin spécifique et/ou comme une variante. Grâce aux points de stock, les sociétés utilisant plusieurs magasins peuvent ajouter des informations de réapprovisionnement, des adresses et des informations financières de validation au niveau du magasin. Elles peuvent ainsi réapprovisionner les variantes du même article dans chaque magasin et commander des articles pour chaque magasin d’après les informations de réapprovisionnement spécifiques du magasin.  
 
 ## <a name="to-set-up-a-responsibility-center"></a>Pour configurer un centre de gestion
 
@@ -55,7 +55,7 @@ Pour configurer cela, vous devez affecter des centres de gestion à des utilisat
 > [!NOTE]  
 > Les utilisateurs peuvent afficher uniquement les documents publiés liés à leur propre centre de responsabilité. Cependant, ils peuvent afficher toutes les écritures comptables et accéder à d’autres documents validés à partir des écritures comptables.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/set-up-responsibility-centers/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/set-up-responsibility-centers/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 08/11/2022
 ms.author: edupont
-ms.openlocfilehash: d727242c772d1eba2959747c2fcd151a7a330009
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: e68a85cfb15841f45b048cabaad2e279de19b73b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361679"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534901"
 ---
 # <a name="reserve-items"></a>Réserver des articles
 
@@ -107,7 +107,7 @@ La procédure suivante se base sur une commande vente.
 7. Cliquez sur le bouton **OK** pour ouvrir une page **Réservation** affichant uniquement l’approvisionnement portant le numéro de traçabilité spécifié. S’il y a des réservations non spécifiques sur l’un des numéros traçabilité que vous avez spécifiés pour cette ligne, vous êtes informé que la quantité a déjà été réservée.  
 8. Sélectionnez l’action **Réservation automatique** ou **Réserver à partir de la ligne courante** pour créer la réservation sur les numéros traçabilité spécifiques.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/manage-outbound-serial-lot-numbers/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/manage-outbound-serial-lot-numbers/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

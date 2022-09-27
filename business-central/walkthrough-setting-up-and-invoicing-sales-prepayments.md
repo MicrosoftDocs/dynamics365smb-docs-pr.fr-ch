@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 1c26882670321a3a2957302413f6f7ebd11a1f6d
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: aaa277f97d1abe36fdffbb97212f1498723e116c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362322"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535547"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procédure pas à pas : configuration et facturation d’acomptes
 
@@ -241,7 +241,7 @@ Vous avez également validé une facture acompte, créé une deuxième lorsque l
 
 Les fonctionnalités d’acompte facilitent la configuration et l’application des règles d’acompte pour les clients et les articles. Ils vous permettent également de reporter chaque paiement sur une facture.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

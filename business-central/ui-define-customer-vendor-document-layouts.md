@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 21, 9650
 ms.date: 04/07/2022
 ms.author: edupont
-ms.openlocfilehash: 722d457705b80787aa60c49ff02e4ba36ff6f250
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 809e29160e45bed28a5d79a7af32c3e98b19a490
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076866"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531609"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Définir des présentations de document pour les clients et les fournisseurs
 
@@ -51,7 +51,7 @@ Pour gagner du temps lorsque vous envoyez des documents aux contacts des clients
 1. Sur la page **Présentations document**, sur la ligne d’une présentation de rapport que vous souhaitez envoyer à un contact spécifique pour le client, choisissez l’action **Sélectionner une adresse e-mail dans Contacts**.
 2. Sur la page **Contacts**, sélectionnez un ou plusieurs contacts, puis choisissez **OK**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

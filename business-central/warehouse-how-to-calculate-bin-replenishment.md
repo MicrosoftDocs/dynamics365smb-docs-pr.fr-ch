@@ -10,20 +10,20 @@ ms.search.keywords: ''
 ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f59670f427eb530eabaa69aa7596d610cb117078
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0f2653087df90ca6801f0d2e972f142e1f65b889
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076138"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530827"
 ---
 # <a name="calculate-bin-replenishment"></a>Calculer réappro. emplacement
 
-Lorsque le magasin est configuré pour utiliser le prélèvement et le rangement suggérés, les priorités du modèle de rangement du magasin sont prises en compte lors du rangement des réceptions. Les priorités incluent les quantités minimale et maximale du contenu de l’emplacement qui ont été définies pour un emplacement particulier, ainsi que les priorités emplacement. Par conséquent, si des articles arrivent régulièrement, les emplacements prélèvement les plus utilisés sont remplis dès qu’ils sont vides.  
+Lorsque le magasin est configuré pour utiliser le prélèvement et le rangement suggérés, les priorités du modèle de rangement du magasin sont prises en compte lors du rangement des réceptions. Les priorités incluent les quantités minimale et maximale du contenu de l’emplacement qui ont été définies pour un emplacement particulier, ainsi que les priorités emplacement. Par conséquent, si des articles arrivent régulièrement, les emplacements prélèvement les plus utilisés sont remplis dès qu'ils sont vides.  
 
-Mais les articles n’arrivent pas toujours de manière régulière. Parfois, votre société achète des articles en grande quantité afin d’obtenir une remise ou votre unité de production fabrique un article en grande quantité afin de réduire le coût unitaire. L’entrepôt ne reçoit aucun article pendant un certain temps et doit périodiquement déplacer des articles de zones de stockage en vrac vers des emplacements prélèvement.  
+Mais les articles n'arrivent pas toujours de manière régulière. Parfois, votre société achète des articles en grande quantité afin d'obtenir une remise ou votre unité de production fabrique un article en grande quantité afin de réduire le coût unitaire. L'entrepôt ne reçoit aucun article pendant un certain temps et doit périodiquement déplacer des articles de zones de stockage en vrac vers des emplacements prélèvement.  
 
-Il se peut aussi que l’entrepôt attende l’arrivée imminente d’un nouveau stock et veuille vider la zone de stockage en vrac des articles avant l’arrivée de la nouvelle marchandise.  
+Il se peut aussi que l'entrepôt attende l'arrivée imminente d'un nouveau stock et veuille vider la zone de stockage en vrac des articles avant l'arrivée de la nouvelle marchandise.  
 
 Enfin, si vous avez défini vos emplacements stockage en vrac avec un emplacement de type **Rangement** uniquement c’est à dire que l’action **Prélèvement** n’est pas activée, vos emplacements prélèvement doivent toujours être réapprovisionnés, étant donné que les prélèvements de stock ne sont pas proposés à partir d’un emplacement de type Rangement uniquement.  
 
@@ -47,7 +47,7 @@ Lorsque vous calculez un nouvel approvisionnement emplacement, les propositions 
 >   
 >  alors les champs **De zone** et **D’emplacement** sont vides, car l’algorithme qui permet de calculer d’où déplacer les articles est déclenché uniquement lorsque vous activez la fonction **Créer mouvement**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/move-items/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/move-items/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

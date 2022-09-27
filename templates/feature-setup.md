@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 837dc686f3a926683a736e2f4f3108d752bb791b
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 66327ff91c22111e288bcb6b15d7b510cf498688
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311192"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535386"
 ---
 # <a name="set-up-this-feature-in-max-100-characters"></a>Configurer cette fonctionnalité en 100 caractères maximum
 
 Utilisez [!INCLUDE [prod_short](includes/prod_short.md)] pour le nom du produit, et écrivez des phrases actives, telles que « Faire le travail plus rapidement » et « Avec cette fonctionnalité, vous pouvez blablabla ».  
 
-Pour obtenir des conseils sur le balisage et le stle, consultez [Guide de création pour Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide).  
+Pour obtenir des conseils sur le balisage et le stle, consultez [Guide de création pour Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 N’oubliez pas d’ajouter des liens Voir aussi et d’ajouter le nouvel article au fichier TOC.md.  
 

@@ -10,12 +10,12 @@ ms.search.keywords: extension, migrate, data, QuickBooks, import
 ms.search.form: 1830,
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: f2e7c3243a2633534dc36dd37aef5d096a7d1f28
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 4c0e9a89b81e9d967482d79e91b4aa05619fc658
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361383"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528587"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Extension de migration des données QuickBooks Online
 
@@ -67,7 +67,7 @@ Il existe quelques éléments en particulier que vous devez effectuer :
 * Si vous utilisez la taxe sur la valeur ajoutée (TVA), vous devez ajouter un groupe comptabilisation marché et un groupe comptabilisation produit au paramétrage de la validation de manière à pouvoir valider les montants TVA.
 * Vérifiez les soldes de début des comptes du grand livre. QuickBooks Online ne stocke pas le solde actuel de tous les comptes, vous pouvez être amené à corriger les soldes d’ouverture.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

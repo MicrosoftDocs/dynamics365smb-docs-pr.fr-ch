@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 80a34d18c94038ded7bcf405cabd1c67ddf82539
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 2814fe1f9ca71c3a14bb288427c9b12603d0463a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078429"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529153"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Prélever pour la fabrication ou l’assemblage dans les configurations de stockage de base.
 
@@ -87,7 +87,7 @@ Ce graphique indique comment le champ **Code emplacement** sur les lignes compos
 
 ![Organigramme Flux d’emplacement.](media/binflow.png "BinFlow")
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/pick-ship-items-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: c1e576d24e9a9ca3b81e58e534449729776c6fa1
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: f921660e82bb288b64a0ab559290c7645f1e9007
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130189"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529746"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Environnements Sandbox dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -28,7 +28,7 @@ Votre administrateur gère les environnements sandbox dans le [centre d’admini
 
 Par exemple, si vous souhaitez créer un environnement sandbox à des fins d’évaluation, votre administrateur peut créer un environnement dédié dans le centre d’administration. Pour plus d’informations, voir [Environnements de production et sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types) dans le contenu pour développeurs et administrateurs.  
 
-Vous pouvez également utiliser les environnements sandbox en toute sécurité pour la formation, par exemple pour suivre un parcours d’apprentissage de [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), car c’est un environnement sûr pour l’expérimentation. Si un problème se produit, supprimez simplement l’environnement sandbox et recommencez.  
+Vous pouvez également utiliser les environnements sandbox en toute sécurité pour la formation, par exemple pour suivre un parcours d’apprentissage de la [formation Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), car c’est un environnement sûr pour l’expérimentation. Si un problème se produit, supprimez simplement l’environnement sandbox et recommencez.  
 
 Une fois que vous avez terminé, vous pouvez supprimer l’environnement sandbox, en utilisant le centre d’administration.  
 
@@ -70,7 +70,7 @@ Pour plus d’informations, voir [Utiliser le concepteur](/dynamics365/business-
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/admin-online-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

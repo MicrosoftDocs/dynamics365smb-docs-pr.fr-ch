@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0fa9923c9bdec0c5f70ef07977cb7bf87550ab3a
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 79d7e9ac5e3a71002af168ee02feef1a76671fce
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078819"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528427"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Établissement d’un devis de vente Assembler pour commande
 
@@ -40,7 +40,7 @@ Lorsque vous vendez tout autre type d’article, vous pouvez également créer u
 6.  Lorsque vous avez ajusté les lignes d’ordre d’assemblage en fonction du devis, fermez la page **Lignes d’assemblage pour commande** pour revenir à la page **Devis**.  
 7.  Si le client accepte le devis, créez une commande vente pour l’élément d’assemblage qui a fait l’objet du devis. Pour plus d’informations, voir [Créer des devis](sales-how-make-offers.md). Le devis d’assemblage associé et toutes les personnalisations sont liées à cette nouvelle commande vente à préparer pour l’assemblage de l’article ou des articles à vendre.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

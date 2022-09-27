@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2eaec73818a437e0ebc729612de063b19a074561
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 761bd759e66ca557dfd7537bb2b4fefb049da3da
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655088"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528560"
 ---
 # <a name="work-with-prod_short"></a>Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -86,7 +86,7 @@ Lorsque vous recherchez une page de liste ouverte, telle que la liste **Commande
 
 Mais lorsque vous ouvrez la même page de liste à partir de votre page d’accueil, l’action **Gérer** n’est pas présente. Au lieu de cela, pour ouvrir une commande vente individuelle, il vous suffit de sélectionner le champ **Nombre**. Dans cette vue, vous ne pouvez pas épingler la barre d’action.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/work-pro-data-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

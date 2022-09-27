@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 88fa36a84b88ccb44df3c1412ac217461febc883
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: eef49d2ad6d1f52e8b85b1c3e06695668d19fd4f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078287"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530103"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Configurer des magasins de sorte qu’ils utilisent des emplacements
 
@@ -35,7 +35,7 @@ Pour utiliser la fonctionnalité liée au magasin, vous devez d’abord l’acti
 6.  Ouvrez la fiche de l’emplacement pour lequel vous souhaitez configurer des emplacements.
 7.  Sur le raccourci **Emplacements**, sélectionnez les emplacements que vous voulez utiliser par défaut pour les réceptions, les expéditions, les enlogements et les désenlogements, ainsi que pour les emplacements atelier ouverts.  
 8.  Les codes emplacement que vous indiquez ici s’affichent automatiquement dans les en-têtes et sur les lignes de différents documents entrepôt. Les emplacements par défaut définissent tous les placements de début ou de fin des articles dans l’entrepôt.  
-9.  En cas d’utilisation d’un prélèvement et d’un rangement suggérés, sélectionnez un emplacement pour les ajustements entrepôt. Le code emplacement dans le champ **Code empl. ajustement** définit l’emplacement virtuel dans lequel enregistrer les différences de stock lorsque vous enregistrez soit les différences observées dans la feuille article entrepôt, soit les différences calculées lorsque vous enregistrez un inventaire entrepôt.  
+9.  En cas d'utilisation d'un prélèvement et d'un rangement suggérés, sélectionnez un emplacement pour les ajustements entrepôt. Le code emplacement dans le champ **Code empl. ajustement** définit l’emplacement virtuel dans lequel enregistrer les différences de stock lorsque vous enregistrez soit les différences observées dans la feuille article entrepôt, soit les différences calculées lorsque vous enregistrez un inventaire entrepôt.  
 10. Renseignez les champs du raccourci **Config. emplacement** s’ils sont appropriés à votre entrepôt. Les champs les plus importants sont les suivants : **Politique capacité empl**, **Autoriser déconditionnement** et **Code modèle rangement**.  
 11. Sur les champs **Entrepôt**, renseignez les champs **Délai désenlogement**, **Délai enlogement** et **Code calendrier principal**. Pour plus d’informations, voir [Configurer des calendriers principaux](across-how-to-assign-base-calendars.md).
 
@@ -45,7 +45,7 @@ Ce graphique indique comment le champ **Code emplacement** sur les lignes compos
 
 ![Organigramme Flux d’emplacement.](media/binflow.png "BinFlow")  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/configure-bins-location/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

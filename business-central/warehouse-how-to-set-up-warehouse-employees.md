@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.form: 7328, 7348
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0018b5ad58644783b24d2c3b3fd82ae83d132fb
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a3d851ff0f44fdae3880aea841d1145fc83e7e13
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075176"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530124"
 ---
 # <a name="set-up-warehouse-employees"></a>Configurer des employés d’entrepôt
 
-Chaque utilisateur exerçant une activité dans un entrepôt doit être configuré en tant qu’employé d’entrepôt affecté à un magasin par défaut, et éventuellement à d’autres magasins. Cette configuration d’utilisateur filtre toutes les activités entrepôt dans la base de donnée pour le magasin de l’employé, de sorte que l’employé peut uniquement effectuer les activités entrepôt dans le magasin par défaut. Un utilisateur peut être affecté à d’autres magasins pour lesquels il peut consulter les lignes activité sans pour autant exécuter les activités.
+Chaque utilisateur exerçant une activité dans un entrepôt doit être configuré en tant qu’employé d’entrepôt affecté à un magasin par défaut, et éventuellement à d’autres magasins. Cette configuration d'utilisateur filtre toutes les activités entrepôt dans la base de donnée pour le magasin de l'employé, de sorte que l'employé peut uniquement effectuer les activités entrepôt dans le magasin par défaut. Un utilisateur peut être affecté à d’autres magasins pour lesquels il peut consulter les lignes activité sans pour autant exécuter les activités.
 
 ## <a name="to-set-up-warehouse-employees"></a>Pour configurer des employés d’entrepôt  
 
@@ -29,7 +29,7 @@ Chaque utilisateur exerçant une activité dans un entrepôt doit être configur
 5. Activez la case à cocher **Par défaut** pour définir le magasin comme seul emplacement pour les activités entrepôt de l’employé.  
 6. Répétez ces étapes pour affecter d’autres employés à des magasins ou affecter d’autres magasins à des employés d’entrepôt existants.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/get-started-warehouse-management/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

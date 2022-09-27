@@ -7,12 +7,12 @@ ms.search.keywords: reporting
 ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: 865b547cb91f6cfda4b5b9a020d77c0fd4e54ba0
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7e9ad9fa80a4690439b34abe2ccf65d84ed714ca
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078115"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529233"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>États financiers et analyses dans Business Central
 
@@ -35,7 +35,7 @@ Les articles suivants décrivent certaines des tâches clés pour analyser l’�
 * [Création d’états avec XBRL](bi-create-reports-with-xbrl.md)  
 * [Gérer l’accès intentionnel à la base de données](admin-data-access-intent.md)  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -10,12 +10,12 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: aecfa9a0709205a781d974a1f901a5ddb3710ae7
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 223930af41410c649d18a567bc5f2a736e0403fa
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655009"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535896"
 ---
 # <a name="work-with-general-journals"></a>Utiliser des feuilles comptabilité
 
@@ -212,12 +212,12 @@ La procédure suivante est basée sur la page **Feuille comptabilité**, mais s�
 
 Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, pour que le numéro de document sur les lignes feuille individuelles ou groupées soit dans un ordre séquentiel. Une fois que les documents sont renumérotés, vous pouvez procéder à la validation de la feuille.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/use-journals-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 
 [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
-[Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
+[Inverser des validations feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
 [Répartition des coûts et du revenu](year-allocate-costs-income.md)  
 [Finances](finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

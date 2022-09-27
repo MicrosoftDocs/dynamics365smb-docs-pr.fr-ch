@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 3ec9760cc2b1225f4b06b142a0b32ac4178dcca6
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: dc225dad42ba5f05fc4cbd4b091377fa04063b9f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311276"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528480"
 ---
 # <a name="achieve-some-task-in-max-100-characters"></a>Réaliser une tâche en 100 caractères maximum
 
 Pour plus de détails sur la manière d’effectuer des tâches complexes, consultez les articles de procédure dédiés. Utilisez [!INCLUDE [prod_short](includes/prod_short.md)] pour le nom du produit.  
 
-Pour obtenir des conseils sur le balisage et le stle, consultez [Guide de création pour Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide).  
+Pour obtenir des conseils sur le balisage et le stle, consultez [Guide de création pour Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 N’oubliez pas d’ajouter des liens Voir aussi et d’ajouter le nouvel article au fichier TOC.md.  
 

@@ -6,16 +6,16 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: 887a8f94db8f289769c2fba7a1938d7b7960e400
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c1912cf6c6e755949e8aa32b749145efc8b70783
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079209"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534685"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Configurer un amortissement immobilisation
 
-Vous pouvez utiliser plusieurs méthodes d’amortissement pour préparer les états financiers et les déclarations de revenus. De nombreuses sociétés de grande taille utilisent la méthode de l’amortissement linéaire dans leurs états financiers car elle permet généralement la déclaration des bénéfices supérieurs. Aux fins de l’impôt sur le revenu, cependant, de nombreuses entreprises utilisent une méthode d’amortissement accélérée, comme l’amortissement dégressif. Vous définissez la méthode d’amortissement d’un actif avec le champ **Méthode d’amortissement** sur la page **Fiche immobilisation**. Pour plus d’informations sur les fonctions des différentes méthodes, consultez [Méthodes d’amortissement](fa-depreciation-methods.md).
+Vous pouvez utiliser plusieurs méthodes d’amortissement pour préparer les états financiers et les déclarations de revenus. De nombreuses sociétés de grande taille utilisent la méthode de l'amortissement linéaire dans leurs états financiers car elle permet généralement la déclaration des bénéfices supérieurs. Aux fins de l’impôt sur le revenu, cependant, de nombreuses entreprises utilisent une méthode d’amortissement accélérée, comme l’amortissement dégressif. Vous définissez la méthode d’amortissement d’un actif avec le champ **Méthode d’amortissement** sur la page **Fiche immobilisation**. Pour plus d’informations sur les fonctions des différentes méthodes, consultez [Méthodes d’amortissement](fa-depreciation-methods.md).
 
 Vous paramétrez des lois d’amortissement lorsque vous définissez les différentes manières dont l’amortissement doit être calculé pour vos différents types d’immobilisation. Chaque loi d’amortissement spécifie des conditions d’amortissement individuelles. Par exemple, vous pouvez spécifier qu’une immobilisation doit être amortie sur une période de trois ans dans une loi et sur une période de cinq ans dans une autre loi.
 
@@ -95,7 +95,7 @@ Lorsque le traitement par lots Calculer amortissement calcule les amortissements
 
 Si vous activez ce champ, le traitement par lots Calculer amortissement utilise l’année civile de 365 jours, où chaque mois est calculé avec le même nombre de jours que le calendrier. La seule exception est le mois de février des années bissextiles, que le traitement par lots traitera comme ayant 28 jours et non 29. Pour cette raison, toutes les années, également les années bissextiles, sont considérées comme ayant 365 jours.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/configure-depreciation-books/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

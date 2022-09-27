@@ -3,9 +3,9 @@
 # Démarrer
 ## [Aperçu des fonctionnalités d’entreprise](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
-## Apprentissage
+## En savoir plus
 ### [Catalogue d’apprentissage Business Central](readiness/readiness-learning-catalog.md)
-### [Business Central sur Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Formation Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Procédures pas à pas liées au processus entreprise
 #### [Procédures pas à pas disponibles](walkthrough-business-process-walkthroughs.md)
 #### [Procédure pas à pas : Mise en place d’une campagne de vente](walkthrough-conducting-a-sales-campaign.md)

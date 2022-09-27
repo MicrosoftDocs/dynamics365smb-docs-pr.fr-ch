@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 6, 25, 440, 443, 448, 452
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 271b9f032df685b5eac1c3bddca037326ea4c1d6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fb3616fdffc340ec8d4a327cfc2fefd577b78af1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520749"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528130"
 ---
 # <a name="collect-outstanding-balances"></a>Collecte des soldes restants
 
@@ -42,16 +42,16 @@ Vous pouvez utiliser des relances pour rappeler aux clients les soldes échus. V
 
 ## <a name="finance-charges"></a>Frais financiers
 
-Lorsqu’un client n’effectue pas son paiement à la date d’échéance, des intérêts de retard peuvent être calculés automatiquement et ajoutés aux montants échus sur le compte du client. Vous pouvez informer le client des frais ajoutés en lui envoyant une facture d’intérêts.  
+Lorsqu’un client n’effectue pas son paiement à la date d’échéance, des intérêts de retard peuvent être calculés automatiquement et ajoutés aux montants échus sur le compte du client. Vous pouvez informer le client des frais ajoutés en lui envoyant une facture d'intérêts.  
 
 > [!NOTE]  
-> Les factures d’intérêts permettent de calculer les intérêts et les intérêts de retard et d’en informer vos clients sans leur rappeler les paiements échus. Vous pouvez également calculer les intérêts sur les paiements échus lorsque vous créez des relances.  
+> Les factures d'intérêts permettent de calculer les intérêts et les intérêts de retard et d'en informer vos clients sans leur rappeler les paiements échus. Vous pouvez également calculer les intérêts sur les paiements échus lorsque vous créez des relances.  
 
 Pour pouvoir créer des factures d’intérêts, vous devez configurer des conditions. Pour plus d’informations, voir [Configurer les conditions intérêts de retard](finance-setup-finance-charges.md).  
 
 Vous pouvez créer manuellement une facture d’intérêts pour un client particulier et renseigner les lignes automatiquement. Vous pouvez également utiliser la tâche de fonction **Créer factures d’intérêts** pour créer des factures d’intérêts pour tous les clients ayant des soldes échus ou pour une sélection de clients ayant des soldes échus.  
 
-Une fois que vous avez créé les factures d’intérêts, vous pouvez les modifier. Le texte apparaissant au début et à la fin de chaque facture d’intérêts est déterminé par les conditions intérêts de retard de la colonne **Désignation** de chaque ligne. Si un montant calculé a été inséré automatiquement dans le texte de début ou de fin, ce texte ne sera pas ajusté si vous supprimez des lignes. Vous devez alors utiliser la fonction **Mise à jour du texte des intérêts de retard**.  
+Une fois que vous avez créé les factures d'intérêts, vous pouvez les modifier. Le texte apparaissant au début et à la fin de chaque facture d’intérêts est déterminé par les conditions intérêts de retard de la colonne **Désignation** de chaque ligne. Si un montant calculé a été inséré automatiquement dans le texte de début ou de fin, ce texte ne sera pas ajusté si vous supprimez des lignes. Vous devez alors utiliser la fonction **Mise à jour du texte des intérêts de retard**.  
 
 Une fois que vous avez créé des factures d’intérêts et effectué toutes les modifications requises, vous pouvez effectuer des impressions test ou émettre des factures d’intérêts; en général par e-mail.
 
@@ -113,7 +113,7 @@ Lorsque vous émettez une relance, une écriture relance est créée sur la page
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Pour plus d’informations, reportez vous à [Paramétrer plusieurs taux d’intérêt](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

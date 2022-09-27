@@ -10,12 +10,12 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4267e7de6f34c3aa419d3d3fc78739c372b48a64
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 40e11554ab073c62b33b0623fc2bbd5a8038f686
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078063"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533310"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Comptabiliser, ajuster et reclasser le stock avec les feuilles
 
@@ -96,7 +96,7 @@ Synchronisez les écritures article et entrepôt avant d’effectuer la commande
 2. Choisissez l’action **Calculer stock**. Le formulaire de sélection du traitement par lots **Calculer stock entrepôt** s’ouvre.  
 3. Positionnez les filtres permettant de limiter les articles comptés dans la feuille, puis sélectionnez le bouton **OK**.
 
-    L’application crée une ligne pour chaque emplacement répondant aux exigences des filtres. A ce stade, vous pouvez encore supprimer certaines lignes, mais si vous souhaitez valider les résultats en tant qu’inventaire, vous devez compter l’article dans tous les emplacements le contenant.  
+    L’application crée une ligne pour chaque emplacement répondant aux exigences des filtres. A ce stade, vous pouvez encore supprimer certaines lignes, mais si vous souhaitez valider les résultats en tant qu'inventaire, vous devez compter l'article dans tous les emplacements le contenant.  
 
      Si le temps dont vous disposez vous permet uniquement de compter l’article dans certains emplacements, vous pouvez noter les différences, les enregistrer, puis les valider dans la feuille article à l’aide de la fonction **Calculer ajustement entrepôt**.  
 
@@ -118,10 +118,10 @@ Les employés peuvent maintenant poursuivre le comptage du stock et noter les é
 
     Lorsque vous enregistrez la feuille, l’application crée dans l’historique entrepôt deux écritures entrepôt pour chaque ligne comptée et enregistrée.  
 
-    -   Si les quantités calculées et les quantités réelles sont différentes, une quantité négative ou positive est enregistrée pour l’emplacement, et la quantité équilibre est validée dans l’emplacement ajustement du magasin.  
-    -   Si la quantité calculée est égale à la quantité réelle, l’application enregistre une écriture de 0 pour l’emplacement et l’emplacement ajustement. Les écritures indiquent qu’à la date d’enregistrement, un inventaire entrepôt a été effectué et qu’il n’y avait aucune différence pour l’article au niveau de l’inventaire.  
+    -   Si les quantités calculées et les quantités réelles sont différentes, une quantité négative ou positive est enregistrée pour l'emplacement, et la quantité équilibre est validée dans l'emplacement ajustement du magasin.  
+    -   Si la quantité calculée est égale à la quantité réelle, l’application enregistre une écriture de 0 pour l’emplacement et l’emplacement ajustement. Les écritures indiquent qu'à la date d'enregistrement, un inventaire entrepôt a été effectué et qu'il n'y avait aucune différence pour l'article au niveau de l'inventaire.  
 
-Lorsque vous enregistrez l’inventaire entrepôt, vous ne validez ni dans l’écriture article ni dans l’écriture inventaire ni dans l’écriture valeur, mais les enregistrements peuvent être utilisés lorsqu’un rapprochement immédiat est nécessaire. Cependant, si vous souhaitez conserver des enregistrements précis des événements entrepôt et que vous avez compté tous les emplacements où les articles étaient enregistrés, validez immédiatement les résultats entrepôt en tant qu’inventaire physique. Pour plus d’informations, consultez [synchroniser les quantités dans les écritures article et entrepôt](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+Lorsque vous enregistrez l'inventaire entrepôt, vous ne validez ni dans l'écriture article ni dans l'écriture inventaire ni dans l'écriture valeur, mais les enregistrements peuvent être utilisés lorsqu'un rapprochement immédiat est nécessaire. Cependant, si vous souhaitez conserver des enregistrements précis des événements entrepôt et que vous avez compté tous les emplacements où les articles étaient enregistrés, validez immédiatement les résultats entrepôt en tant qu’inventaire physique. Pour plus d’informations, consultez [synchroniser les quantités dans les écritures article et entrepôt](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
 
 ## <a name="to-perform-cycle-counting"></a>Pour effectuer l’inventaire périodique
 
@@ -202,7 +202,7 @@ A la différence de la validation des ajustements dans la feuille article stock,
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille article entrep.**, puis choisissez le lien associé.  
 2.  Renseignez les informations d’en-tête.  
 3.  Renseignez le champ **N° article** de la ligne.  
-4.  Saisissez l’emplacement dans lequel vous placez les articles supplémentaires ou dans lequel des articles sont manquants.  
+4.  Saisissez l'emplacement dans lequel vous placez les articles supplémentaires ou dans lequel des articles sont manquants.  
 5.  Saisissez la différence de quantité dans le champ **Quantité**. Si vous avez trouvé des articles supplémentaires, saisissez une quantité positive. Si des articles sont manquants, saisissez une quantité négative.  
 6.  Sélectionnez l’action **Enregistrer**.
 
@@ -233,7 +233,7 @@ L’exemple suivant est basé sur un code magasin. Les étapes sont similaires p
 
 Pour plus d’informations sur le transfert des articles avec un contrôle complet des quantités expédiées et reçues, voir [Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/adjust-inventory/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

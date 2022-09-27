@@ -7,12 +7,12 @@ metadata:
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
   ms.date: 09/07/2022
   ms.author: edupont
-  ms.openlocfilehash: 13f6de4c6f01fbe7a525d7b1f18d3f83f12cb6c3
-  ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+  ms.openlocfilehash: 186731bff985900492a7353556f97862984b60cc
+  ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
   ms.translationtype: HT
   ms.contentlocale: fr-CH
-  ms.lasthandoff: 09/09/2022
-  ms.locfileid: "9461010"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "9535360"
 title: Foire aux questions sur l’utilisation de Business Central
 summary: "Cette section contient des réponses aux questions les plus fréquentes sur l’inscription à une version d’évaluation, l’achat d’un abonnement et l’utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez également apprendre comment obtenir le support technique.  \n"
 sections:
@@ -36,7 +36,7 @@ sections:
       Oui. [!INCLUDE [prod_short](includes/prod_short.md)] est optimisé pour le déploiement en ligne, et certaines fonctionnalités peuvent s’exécuter sur site uniquement dans certaines circonstances, tandis que d’autres ne sont pas prises en charge du tout. Pour plus d’informations, voir [Fonctions non implémentées dans les déploiements sur site de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (en anglais uniquement).
   - question: >
       Puis-je suivre une formation sur Business Central ?
-    answer: "Oui, vous pouvez ! Vous pouvez trouver du contenu eLearning gratuit sur le site [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Vous pouvez également demander une formation supplémentaire à votre revendeur. Si vous ne savez pas de qui il s’agit, consultez la section [Comment trouver un partenaire revendeur ?](#how-do-i-find-a-reselling-partner).  \n\nPour plus d’informations sur la formation Dynamics 365 fournie par Microsoft, voir la page [Formation Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  \n\nLe contenu supplémentaire est fourni par la communauté [!INCLUDE[prod_short](includes/prod_short.md)], comme le [Guide de terrain Microsoft Dynamics 365 Business Central](https://leanpub.com/dynamics) écrit par un partenaire.  \n"
+    answer: "Oui, vous pouvez ! Vous pouvez trouver du contenu eLearning gratuit sur le [site de formation Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Vous pouvez également demander une formation supplémentaire à votre revendeur. Si vous ne savez pas de qui il s’agit, consultez la section [Comment trouver un partenaire revendeur ?](#how-do-i-find-a-reselling-partner).  \n\nPour plus d’informations sur la formation Dynamics 365 fournie par Microsoft, voir la page [Formation Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  \n\nLe contenu supplémentaire est fourni par la communauté [!INCLUDE[prod_short](includes/prod_short.md)], comme le [Guide de terrain Microsoft Dynamics 365 Business Central](https://leanpub.com/dynamics) écrit par un partenaire.  \n"
   - question: Comment obtenir un support technique pour Business Central ?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] est vendu via des partenaires, et vous devriez contacter votre partenaire revendeur pour obtenir de l’aide avec des problèmes techniques. Si votre partenaire [!INCLUDE[prod_short](includes/prod_short.md)] ne peut pas résoudre le problème, il déclenchera un ticket d’assistance avec Microsoft.  \n\nPour plus d’informations, voir les sections [Aide et support](product-help-and-support.md) et [Comment trouver un partenaire revendeur ?](#how-do-i-find-a-reselling-partner).  \n"
   - question: >
@@ -50,7 +50,7 @@ sections:
     answer: "Si votre paramètre Expérience sur la page **Informations société** est définie sur **Essentiel**, les éléments de l’interface utilisateur pour les fonctionnalités de fabrication et de gestion des services ne sont pas visibles pour vous, car ils requièrent l’expérience **Premium**. Une note textuelle est insérée dans des rubriques d’aide de haut niveau pour ces zones de fonction. En savoir plus, [Modifier les fonctionnalités affichées](ui-experiences.md).  \n"
   - question: >
       Pourquoi les nouvelles informations ne sont-elles pas disponibles dans ma langue ?
-    answer: "Sur le site docs.microsoft.com, le contenu sur les fonctionnalités d’entreprise est publié dans plusieurs langues. Le contenu est rédigé en anglais et publié sur des URL avec *fr-fr* comme code langue. Lorsque de nouvelles informations sont publiées en anglais, elles sont ensuite envoyées pour traduction dans les langues prises en charge. Cela signifie que vous ne pourrez pas lire ce nouveau contenu dans votre propre langue pendant 4 semaines maximum.  \n\nNous comprenons les problèmes que cela peut causer et nous encourageons les utilisateurs à rechercher ce qu’ils cherchent en anglais s’ils ne le trouvent pas dans leur propre langue.  \n"
+    answer: "Le contenu Microsoft Learn sur les fonctionnalités d’entreprise est publié dans plusieurs langues. Le contenu est rédigé en anglais et publié sur des URL avec *fr-fr* comme code langue. Lorsque de nouvelles informations sont publiées en anglais, elles sont ensuite envoyées pour traduction dans les langues prises en charge. Cela signifie que vous ne pourrez pas lire ce nouveau contenu dans votre propre langue pendant 4 semaines maximum.  \n\nNous comprenons les problèmes que cela peut causer et nous encourageons les utilisateurs à rechercher ce qu’ils cherchent en anglais s’ils ne le trouvent pas dans leur propre langue.  \n"
   - question: Quelle adresse e-mail puis-je utiliser avec Business Central Online ?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] en ligne exige que vous utilisiez une adresse e-mail professionnelle ou scolaire pour votre inscription. [!INCLUDE[prod_short](includes/prod_short.md)] en ligne ne prend pas en charge les adresses e-mail fournies par les services de messagerie publics ni les opérateurs de télécommunications. Cela comprend outlook.com, hotmail.com, gmail.com, et d’autres.  \n\nSi vous essayez d’effectuer votre inscription à l’aide d’une adresse e-mail personnelle, vous recevez un message vous demandant d’utiliser une adresse professionnelle ou scolaire. En savoir plus, [Dépannage de l’inscription en self-service](ui-troubleshoot-self-signup.md).  \n\nSi vous souhaitez déployer [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous pouvez utiliser d’autres méthodes d’authentification. En savoir plus sur [Déploiement de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  \n"
   - question: >

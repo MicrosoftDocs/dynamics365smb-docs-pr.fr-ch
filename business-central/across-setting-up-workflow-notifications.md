@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 99c08769429eef51a1d52e142d455ccd227781c7
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 9405af9c52b17ab34fded263692e3294ed8aaf11
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130026"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533983"
 ---
 # <a name="workflow-notifications"></a>Notifications flux de travail
 
@@ -53,7 +53,7 @@ Vous pouvez configurer différents aspects des notifications du workflow dans le
 
     Pour les flux de travail d’approbation, ajoutez une étape de réponse de flux de travail pour informer l’expéditeur lorsque la demande a été approuvée ou rejetée. Pour plus d’informations, reportez-vous à l’étape 9 dans [Créer des workflows](across-how-to-create-workflows.md#to-create-a-workflow).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

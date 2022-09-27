@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8b03ca934a87573feded023311f01349066f886c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: cb1366e5d4eb2c2ec578b313379deffde7f62764
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074863"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532905"
 ---
 # <a name="set-up-units-of-measure"></a>Configuration d’unités
 
@@ -80,7 +80,7 @@ Si vous utilisez habituellement d’autres unités que l’unité de base pour v
 4. Pour les achats, sur le raccourci **Réapprovisionnement**, dans le champ **Unité d’achat**, ouvrez la page **Unités article**.
 5. Sélectionnez le code que vous souhaitez configurer comme unité par défaut pour les ventes ou les achats respectivement, puis cliquez sur le bouton **OK**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

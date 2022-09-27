@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 3e8240b2bd74d71e46937ae63ab6053b0f39528e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: d7eac169dc75f81f1d696a4a1e7344b5235a83a3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078741"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529109"
 ---
 # <a name="defer-revenues-and-expenses"></a>Echelonner les recettes et les dépenses
 
@@ -96,7 +96,7 @@ Les écritures comptables à valider vers le compte d’échelonnement spécifi�
 2. Sur la page **Résumé échelonnement ventes**, dans le champ **Balance au**, saisissez la date à laquelle vous souhaitez voir les recettes échelonnées.
 3. Cliquez sur le bouton **Aperçu**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

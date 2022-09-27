@@ -10,12 +10,12 @@ ms.search.keywords: multiple currencies, foreign exchange rates
 ms.search.form: 5, 16,118, 483, 495
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 43933346f68fef474dc1f68c7eadbe295732bad8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 12441e9c34f443835dfaccc1a2a8ddedadd7d3c6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515052"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532662"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Configurer une devise report supplémentaire
 
@@ -33,16 +33,16 @@ Votre comptabilité est configurée pour utiliser votre devise société (DS), m
 > Par exemple, vous avez un grand nombre de comptes clients en livres sterling (GBP) et vous avez configuré votre devise de déclaration supplémentaire (DR) en GBP. Dans ce scénario, les montants des comptes clients qui utilisent la livre sterling ne seront pas ajustés pour les gains/pertes de change dans la DR, mais uniquement les montants des comptes clients qui sont dans d’autres devises. Cela signifie que si vous utilisez la DR pour déclarer vos états financiers, cela peut entraîner des soldes impayés sous-estimés ou surestimés des comptes débiteurs.
 
 ## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Affichage d’états et de montants dans la devise report
-L’utilisation d’une devise report peut faciliter le processus de génération d’états d’une société dans les cas suivants :
+L'utilisation d'une devise report peut faciliter le processus de génération d'états d'une société dans les cas suivants :
 
-- Sociétés situées dans des pays/régions extérieur(e)s à l’UE qui effectuent un grand nombre de transactions avec des sociétés situées dans des pays/régions de l’UE. Dans ce cas, la société extérieure à l’UE peut vouloir générer des états financiers en euros afin qu’ils soient plus lisibles pour les partenaires commerciaux de l’UE.
+- Sociétés situées dans des pays/régions extérieur(e)s à l'UE qui effectuent un grand nombre de transactions avec des sociétés situées dans des pays/régions de l'UE. Dans ce cas, la société extérieure à l’UE peut vouloir générer des états financiers en euros afin qu’ils soient plus lisibles pour les partenaires commerciaux de l’UE.
 - Sociétés qui souhaitent pouvoir générer des états financiers dans une devise davantage utilisée au niveau international que leur devise société.
 
 Plusieurs états financiers sont basés sur les écritures comptables. Pour afficher les données d’états en devise report supplémentaire, activez simplement le champ **Afficher montants en devise report** sur le raccourci **Options** pour l’état comptable approprié.
 
 ## <a name="adjusting-exchange-rates"></a>Ajustement des taux de change
 
-Comme les taux de change ne cessent de fluctuer, il convient d’ajuster périodiquement les équivalents devise supplémentaires de votre système. À défaut d’effectuer ces ajustements, les montants convertis à partir de devises étrangères (ou supplémentaires) et publiés dans la comptabilité en DS risquent d’être erronés. En outre, les écritures quotidiennes validées avant la saisie d’un taux de change quotidien dans l’application doivent être mises à jour après la saisie des informations de taux de change quotidienne. Le traitement par lots **Ajuster taux de change** permet d’ajuster les taux de change d’écritures client, fournisseur et compte bancaire validées. Il peut également mettre à jour d’autres montants en devise report dans des écritures comptables. Pour plus d’informations, voir [Mettre à jour les taux de change devise](finance-how-update-currencies.md).
+Comme les taux de change ne cessent de fluctuer, il convient d’ajuster périodiquement les équivalents devise supplémentaires de votre système. À défaut d'effectuer ces ajustements, les montants convertis à partir de devises étrangères (ou supplémentaires) et publiés dans la comptabilité en DS risquent d'être erronés. En outre, les écritures quotidiennes validées avant la saisie d’un taux de change quotidien dans l’application doivent être mises à jour après la saisie des informations de taux de change quotidienne. Le traitement par lots **Ajuster taux de change** permet d’ajuster les taux de change d’écritures client, fournisseur et compte bancaire validées. Il peut également mettre à jour d’autres montants en devise report dans des écritures comptables. Pour plus d’informations, voir [Mettre à jour les taux de change devise](finance-how-update-currencies.md).
 
 ## <a name="setting-up-an-additional-reporting-currency"></a>Configuration d’une devise report supplémentaire
 
@@ -130,7 +130,7 @@ En outre, toutes les écritures futures du même type ont des montants enregistr
 > [!NOTE]  
 > Le champ **Devise report** n’est activé qu’après que vous avez cliqué sur le bouton **OK** dans le traitement par lots **Ajuster devise report**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

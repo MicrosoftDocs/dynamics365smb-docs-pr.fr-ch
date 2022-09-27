@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 78dd79ab8a0f2b966b60dd9d75e95a521b83f4a2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7561b157d1167e528d900fc2bf610906c7ad6a23
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075566"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531879"
 ---
 # <a name="defining-and-allocating-costs"></a>Définition et répartition des coûts
 
@@ -143,7 +143,7 @@ Cette rubrique explique comment définir les affectations à l’aide du mode de
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] utilise les chiffres de ventes des exercices précédents pour calculer une part de 1596,50 DS avec 100 % alloués pour les packages ÉQUIPEMENT IT. Cela signifie que tous les articles vendus au cours de l’exercice précédent seront affectés au ÉQUIPEMENT IT des coûts associés.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

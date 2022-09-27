@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/21/2022
 ms.author: jswymer
-ms.openlocfilehash: ac75505d2f9987037cf04bbe96a0a1eb398c737c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 94ff94bab70582f4f9b4dcd73a5923931317d6f1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655865"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530340"
 ---
 # <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Utiliser Business Central en tant que boîte de réception professionnelle dans Outlook
 
@@ -128,12 +128,12 @@ Si vous utilisez l’application Outlook, sélectionnez simplement le **Lien ver
 > À partir la 1re vague de lancement 2022, les documents s’ouvrent dans une nouvelle fenêtre de navigateur avec toutes les fonctionnalités que vous connaissez de [!INCLUDE [prod_short](includes/prod_short.md)]. Vous pouvez naviguer d’un document à une liste et inversement, ouvrir des listes dans Excel, envoyer des documents à imprimer et exécuter ou prévisualiser des états associés. Vous disposez également de tous les raccourcis clavier familiers lorsque vous ouvrez des documents à partir d’Outlook.  
 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
-[Obtention de Business Central sur mon périphérique mobile](install-mobile-app.md)  
+[Obtention de Business Central sur mon périphérique mobile](install-mobile-app.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Finances](finance.md)  
 [Ventes](sales-manage-sales.md)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: 6d8e7ca27450d22ea3ae065cd0dcdf72effd82d1
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 211798c30c3f94fb24fac2bf706baeb2811b99b0
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079651"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529503"
 ---
 # <a name="manage-many-incoming-document-records"></a>Gérer de nombreux enregistrements document entrant
 
@@ -53,7 +53,7 @@ Tous les enregistrements de documents entrants sont affichés, y compris les enr
 > [!NOTE]  
 > Vous pouvez également effectuer cette action pour un enregistrement spécifique sur la page **Fiche document entrant**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
   

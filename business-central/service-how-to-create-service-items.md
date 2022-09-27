@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 80c8eab293fbabd05e385c89f63f7900a7e7cbde
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 89434ef4ac6b9421859791e4e04f895d506e78bb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074556"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530178"
 ---
 # <a name="create-service-items"></a>Créer des articles de service
 
@@ -60,9 +60,9 @@ La procédure suivante explique comment créer des articles de service lorsque v
 2. Sélectionnez l’action **Feuille activité article**.
 3. Choisissez la ligne service, puis sélectionnez **Actions**, **Fonctions**, puis l’action **Insérer frais forfaitaires**.  
 
-    Une ligne service de type **Coût** est insérée avec les frais forfaitaires. Les frais forfaitaires s’appliquent à l’article de service sélectionné.
+    Une ligne service de type **Coût** est insérée avec les frais forfaitaires. Les frais forfaitaires s'appliquent à l'article de service sélectionné.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-items/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-items/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

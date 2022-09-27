@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 07/04/2022
 ms.author: a-reishima
-ms.openlocfilehash: 1839f54de2382ad5b7d8b6b936181e105a56e06b
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 8c6faa8adadb62449d1067f877b40176bc15d034
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144435"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529646"
 ---
 # <a name="set-up-vendor-bank-accounts"></a>Configurer des comptes bancaires fournisseur
 
@@ -32,7 +32,7 @@ Si un fournisseur possède un ou plusieurs comptes bancaires et que vous souhait
 2. Ouvrez la fiche pour le fournisseur.
 3. Sur le raccourci **Paiements**, choisissez le compte bancaire fournisseur par défaut dans le champ **Code de compte bancaire préféré**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/cash-management-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

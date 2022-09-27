@@ -10,12 +10,12 @@ ms.search.keywords: cancel, undo, correct
 ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 643a0206bb5c84cb1530e24403094474d98f28f9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ee86f0211c4694a355c4ec55b8c66e202035ae8e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517331"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530583"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Traiter les retours ou annulations d’achats
 
@@ -133,7 +133,7 @@ L’avoir achat est supprimé et remplacé par un nouveau document dans la liste
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Pour créer une commande achat de remplacement à partir d’un retour achat ouvert
 
-Vous pouvez vous accorder avec le fournisseur pour qu’il compense l’achat d’un article en remplaçant cet article. L’article de remplacement peut être identique à l’article d’origine ou il peut être différent. Le fournisseur peut vous avoir livré par erreur le mauvais article.  
+Vous pouvez vous accorder avec le fournisseur pour qu’il compense l’achat d’un article en remplaçant cet article. L'article de remplacement peut être identique à l'article d'origine ou il peut être différent. Le fournisseur peut vous avoir livré par erreur le mauvais article.  
 
 1.  Sur la page **Retour achat** pour un processus de retour actif, sur une ligne vide, entrez une écriture négative pour l’article de remplacement en insérant un montant négatif dans le champ **Quantité**.  
 2. Sélectionnez l’action **Déplacer lignes négatives**.  
@@ -187,7 +187,7 @@ Lorsque des expéditions retour sont regroupées sur un avoir et validées, un a
 2. Renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.  
 3. Vous pouvez également supprimer chacun des retours achat manuellement.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/return-items-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 [Achats](purchasing-manage-purchasing.md)  

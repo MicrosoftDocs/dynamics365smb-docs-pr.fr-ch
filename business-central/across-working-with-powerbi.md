@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b51aa003aa37ed95545d4f9d94e3c34d25d02270
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510951"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535333"
 ---
 # <a name="work-with-power-bi-reports-in-prod_short"></a>Utiliser les états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -127,7 +127,7 @@ Ce message apparaît si l’état par défaut n’a pas pu être déployé sur v
 
 C’est probablement parce que le nom de l’état ne contient pas le nom de la page de liste. Effacez le filtre pour obtenir la liste complète des états disponibles dans Power BI.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 

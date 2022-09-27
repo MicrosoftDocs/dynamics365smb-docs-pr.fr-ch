@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 120, 121, 422
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e21454f52564d4c679cd20171189b0dc14bfe49f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8be263821e288d314f0c5b91415ca204e767a98e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523068"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535117"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analyser les montants réalisés et les montants budgétés
 Lors de la collecte, l’analyse, et le partage des données de votre société, vous voyez les montants réels comparés aux montants budgétés de tous les comptes et pour plusieurs périodes.
@@ -62,7 +62,7 @@ Au lieu de visualiser les montants budgétés et réalisés de tous les comptes 
 3. En haut de la page, renseignez les champs nécessaires pour définir ce qui est affiché.   
 4. Pour voir le détail d’un montant affiché, sélectionnez ce champ.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 [Veille économique](bi.md)  

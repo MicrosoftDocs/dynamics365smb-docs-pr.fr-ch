@@ -10,12 +10,12 @@ ms.search.keywords: undo, credit memo, return
 ms.search.form: 138, 140, 146
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7cfff3b5140dfa01aa3028b47cf9e52bad47cd8c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 71356d981573447b6dc012066eedce38d1b77c38
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078637"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534604"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Corriger ou annuler des factures achat impayées
 
@@ -57,7 +57,7 @@ Sur la page **Facture achat enregistrée**, vous pouvez cliquer sur le bouton **
 
 Si l’annulation est liée à une validation de facture partielle, la ligne de commande d’achat d’origine est mise à jour pour refléter la quantité facturée annulée. Les champs **Qté à facturer** et **Qté facturée** de la ligne de commande d’achat associée sont réinitialisés aux valeurs avant l’enregistrement partiel.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

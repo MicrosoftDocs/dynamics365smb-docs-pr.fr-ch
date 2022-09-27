@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.form: 30, 461
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 90d0a563fa9be14bcc2aaa5a3dceb4d05bcff840
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7d637ae9b0413bb069927166fc8a5ac74e9dd7e2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512977"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531501"
 ---
 # <a name="setting-up-inventory"></a>Configuration de stock
 Avant de pouvoir gérer les activités entrepôt et les coûts de stock, vous devez configurer les règles et les valeurs qui définissent les stratégies de stock de la société.
@@ -38,7 +38,7 @@ Lorsque vous avez configuré votre stock, vous pouvez gérer différents process
 |Importez plusieurs images d’article en une seule fois depuis un fichier zip où les fichiers sont nommés selon les numéros d’article.|[Importer plusieurs images d’article](inventory-how-import-item-pictures.md)|
 |Spécifiez les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

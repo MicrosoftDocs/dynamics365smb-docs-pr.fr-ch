@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 8a310ba099c6eb5c90d116304240db3291bac67c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ebe70f9fdd98f68616b15eaf37154c6072c601a8
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079521"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533578"
 ---
 # <a name="calculate-order-promising-dates"></a>Calculer des dates promesse livraison
 
@@ -134,7 +134,7 @@ Avant qu’un article puisse être inclus dans le calcul de la promesse de livra
     - Choisissez **Simulation de délai** si vous savez que l’article est actuellement en rupture de stock et que vous souhaitez calculer la date la plus proche à laquelle cet article sera disponible grâce à l’émission de demandes de réapprovisionnement.  
 5.  Cliquez sur le bouton **Accepter** pour accepter la date d’expédition disponible la plus proche.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

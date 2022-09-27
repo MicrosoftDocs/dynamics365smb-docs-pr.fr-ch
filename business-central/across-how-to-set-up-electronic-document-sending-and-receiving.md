@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bcc706a221c40019792167b4b75cb8826216457d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 49280683e865e1c86f50532999dfa182e15015a2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147257"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530313"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Configurer l’envoi et la réception de documents électroniques
 
@@ -142,7 +142,7 @@ La rubrique contient les procédures suivantes :
     |---------------------------------|---------------------------------------|  
     |**Compte général pour lignes non-article**|Spécifie le compte G/L inséré automatiquement dans les lignes d’achat créées à partir de documents électroniques lorsque la ligne de document entrant ne contient pas d’article identifiable. Une ligne document entrant sans GTIN ni numéro d’article du fournisseur sera convertie en ligne achat de type **Compte général** et le champ **N°**. de la ligne achat affichera le compte que vous sélectionnez dans le champ **Compte général pour lignes non-article**.<br /><br /> Si vous laissez le champ **Compte général pour lignes non-article** vide et que le document entrant possède des lignes sans articles identifiables, alors le document d’achat ne sera pas créé. Un message d’erreur vous donnera des instructions pour remplir le champ **Compte général pour lignes non-article** avant de pouvoir terminer la tâche.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi  
 [Échanger des données par voir électronique](across-data-exchange.md)   

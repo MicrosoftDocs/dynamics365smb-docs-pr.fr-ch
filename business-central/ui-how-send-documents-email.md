@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 632591160ab5cfad7d33fc26bf3f9a9b4877176a
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950505"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532365"
 ---
 # <a name="send-documents-and-emails"></a>Envoyer des documents et des e-mails
 
@@ -69,7 +69,7 @@ Certains documents dans [!INCLUDE[prod_short](includes/prod_short.md)] comporten
 
 La **Boîte d’envoi d’e-mails** est l’endroit où vous trouverez les e-mails que vous avez enregistrés en tant que brouillons et les e-mails qui n’ont pas pu être envoyés, par exemple, si l’adresse e-mail n’était pas valide. Pour les messages dont l’envoi a échoué, vous pouvez choisir **Afficher erreur** ou **Enquêter sur une erreur** pour résoudre le problème.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/set-up-email/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/set-up-email/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

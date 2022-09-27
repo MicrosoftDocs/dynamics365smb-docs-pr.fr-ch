@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9ce2494e929613d69c22d125adffb6465d1717cd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 3b9955ece6a5f76269915b18ecfe22c722d2e59d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075045"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532986"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Vendre des éléments de stocks dans des flux à assembler pour commande
 
@@ -51,7 +51,7 @@ Dans cette procédure, vous remplacez les quantités à assembler pour commande 
 > [!CAUTION]  
 >  Le champ **Code emplacement** de la commande vente peut être prérempli en fonction du champ **Code empl. exp. ass. pr comm.** ou du champ **Code empl. depuis assemblage** de la fiche magasin. Dans ce cas, le champ **Code emplacement** de la ligne commande vente peut être incorrect dans cette combinaison des quantités à assembler pour commande et à assembler pour stock. Il est judicieux de consulter le champ **Code emplacement** et de s’assurer que le placement fonctionne pour toutes les quantités. Sinon, entrez les deux quantités différentes sur des lignes commande vente distinctes.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

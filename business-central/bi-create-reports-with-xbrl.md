@@ -9,19 +9,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: b282ea2aeec8e28b36bdadfdb57065e8c9e0c727
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c10fc78e461b273483a16720dafdf7f99882573e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075071"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529341"
 ---
 # <a name="create-reports-with-xbrl"></a>Création d’états avec XBRL
 
 > [!NOTE]
 > Nous sommes en train de supprimer les fonctionnalités de création de rapports XBRL de [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Modifications dans la 1re vague de lancement 2022](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
 
-XBRL, qui signifie eXtensible Business Reporting Language, est basé sur le langage XML et est utilisé pour marquer des données financières et permettre aux sociétés de traiter et de partager leurs données de manière efficace et précise. L’initiative XBRL permet la génération d’états financiers généraux par de nombreux éditeurs de logiciels ERP et organisations comptables internationales. L’objectif de cette initiative et de fournir un standard pour la génération d’états d’informations financières uniformes pour les banques, les investisseurs et les autorités gouvernementales. Les rapports commerciaux générés de cette manière peuvent inclure :  
+XBRL, qui signifie eXtensible Business Reporting Language, est basé sur le langage XML et est utilisé pour marquer des données financières et permettre aux sociétés de traiter et de partager leurs données de manière efficace et précise. L'initiative XBRL permet la génération d'états financiers généraux par de nombreux éditeurs de logiciels ERP et organisations comptables internationales. L'objectif de cette initiative et de fournir un standard pour la génération d'états d'informations financières uniformes pour les banques, les investisseurs et les autorités gouvernementales. Les rapports commerciaux générés de cette manière peuvent inclure :  
 
  • des états financiers ;  
  • des informations financières ;  
@@ -57,13 +57,13 @@ Un **document instancié** XBRL est un rapport financier, par exemple un état 
 Une taxonomie peut se composer d’une taxonomie de base, par exemple les taxonomies USGAAP ou IAS, ainsi que d’une ou de plusieurs extensions. Ce type de taxonomie illustre cette structure en se référant à des schémas représentant chacun une taxonomie différente. Lorsque les taxonomies supplémentaires sont chargées dans la base de données, les nouveaux éléments sont simplement ajoutés à la suite des éléments existants.  
 
 ## <a name="linkbases"></a>Liens ressources  
- Dans la spécification 2 du langage XBRL, la taxonomie est décrite dans plusieurs fichiers XML. Le fichier XML principal est le fichier schéma de la taxonomie (fichier .xsd), qui ne contient qu’une liste désordonnée d’éléments ou d’informations à communiquer. Des liens ressources (fichiers .xml) y sont généralement associés. Les liens ressources contiennent des données complémentaires à la taxonomie brute (fichier .xsd). Il existe six types de lien ressources, dont quatre concernent le langage XBRL pour nom de produit. Il s’agit des types suivants :  
+ Dans la spécification 2 du langage XBRL, la taxonomie est décrite dans plusieurs fichiers XML. Le fichier XML principal est le fichier schéma de la taxonomie (fichier .xsd), qui ne contient qu'une liste désordonnée d'éléments ou d'informations à communiquer. Des liens ressources (fichiers .xml) y sont généralement associés. Les liens ressources contiennent des données complémentaires à la taxonomie brute (fichier .xsd). Il existe six types de lien ressources, dont quatre concernent le langage XBRL pour nom de produit. Il s’agit des types suivants :  
 
 -   Liens ressources libellés : Ce lien ressources contient les libellés ou noms des éléments. Ce fichier peut contenir des libellés en plusieurs langues identifiées par l’attribut XML ’lang’. Les identifiants de langue XML sont généralement des abréviations de deux lettres. Ces abréviations sont le plus souvent explicites, mais n’ont aucun lien avec les codes de langue utilisés par Windows ou dans les données de démonstration. Ainsi, lorsque l’utilisateur recherche les langues d’une taxonomie, il peut visualiser tous les libellés du premier élément de la taxonomie et donc voir les différentes langues utilisées. Une taxonomie peut être associée à plusieurs liens ressources libellés si chaque lien ressources correspond à une langue.  
 
 -   Liens ressources présentation : Ce lien de ressources comprend des informations sur la structure des éléments, ou plus précisément, il explique comment le créateur de la taxonomie propose que l’application présente la taxonomie à l’utilisateur. Le lien de ressources affiche une série de liens. Chacun d’entre eux connecte deux éléments, dans une relation parent-enfant. En appliquant tous ces liens, les éléments peuvent s’afficher de manière hiérarchique. Notez que les liens de ressources de présentation servent principalement à présenter les éléments à l’utilisateur.  
 
--   Lien ressources calcul : Ce lien ressources fournit des informations sur les éléments et sur les relations qui les unissent. Sa structure est très semblable à celle du lien ressources présentation, mais chaque lien ou « arc » est pondéré. Un lien peut avoir un poids de 1 ou de 1, selon que l’élément doit être ajouté à son parent ou soustrait de ce dernier. Les relations ne sont pas nécessairement conformes à la représentation visuelle de la taxonomie.  
+-   Lien ressources calcul : Ce lien ressources fournit des informations sur les éléments et sur les relations qui les unissent. Sa structure est très semblable à celle du lien ressources présentation, mais chaque lien ou « arc » est pondéré. Un lien peut avoir un poids de 1 ou de 1, selon que l'élément doit être ajouté à son parent ou soustrait de ce dernier. Les relations ne sont pas nécessairement conformes à la représentation visuelle de la taxonomie.  
 
 -   Lien ressources de référence : Ce lien ressources est un fichier xml contenant des informations supplémentaires sur les données requises par le créateur de la taxonomie.
 
@@ -114,7 +114,7 @@ Lorsqu’une taxonomie est modifiée, vous devez mettre à jour la taxonomie act
 6.  Pour importer le lien de ressources, sélectionnez l’action **Importer**.  
 7.  Cliquez sur le bouton **Oui** pour appliquer le lien de ressources au schéma.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/xbrl-reports-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)    

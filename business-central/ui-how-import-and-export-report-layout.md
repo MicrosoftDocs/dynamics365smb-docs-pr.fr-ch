@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f8f0af4e34f57ebe64f454901e7f9e237fe7018c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f0384ea780065c72e6fd4ca3ff95d2ec771a20ea
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512773"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528157"
 ---
 # <a name="legacy-import-and-export-custom-report-layouts"></a>(Hérité) Importer et exporter des présentations de rapport personnalisées
 
@@ -51,7 +51,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
  La présentation de rapport personnalisé d’origine est remplacée par la présentation de rapport importée.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 

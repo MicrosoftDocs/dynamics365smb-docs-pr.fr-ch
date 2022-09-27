@@ -10,12 +10,12 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.search.form: 2026, 2027, 2029,
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8852056c5981c8db65f9048af850abbfe086c658
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 814224ed0ba9453c0e787a673dd03e2817ed666f
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361897"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524643"
 ---
 # <a name="the-image-analyzer-extension"></a>Extension d’analyseur Image
 
@@ -39,7 +39,7 @@ Certaines exigences s’appliquent aux images :
 * Taille maxi. de fichier : inférieure à 4 Mo  
 * Dimensions des images : supérieure à 50 x 50 pixels  
 
-## <a name="to-enable-image-analyzer"></a>Pour activer l’analyseur Image
+## <a name="switch-on-the-image-analyzer-extension"></a>Activer l’extension d’analyseur Image
 
 L’extension d’analyseur Image est intégrée à [!INCLUDE[prod_short](includes/prod_short.md)]. Vous devez juste l’activer.
 
@@ -48,78 +48,73 @@ L’extension d’analyseur Image est intégrée à [!INCLUDE[prod_short](includ
 
 Pour activer l’extension d’analyseur Image, effectuez l’une des actions suivantes :
 
-* Ouvrez une fiche Article ou Contact. Dans la barre de notification, choisissez **Analyser les images**, puis suivez la procédure du guide de configuration assistée.  
-* Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexions de services**, puis choisissez **Configuration de l’analyse d’image**. Activez la case à cocher **Activer l’analyseur Image**, puis suivez la procédure du guide de configuration assistée.  
+* Ouvrez une fiche Article ou Contact. Dans la barre de notification, choisissez **Analyser l’image**, puis suivez la procédure du guide de configuration assistée.  
+* Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexions de services**, puis choisissez **Configuration de l’analyse d’image**. Activez la case à cocher **Activer l’analyseur Image**, puis suivez la procédure du guide de configuration assistée.  
 
     > [!TIP]  
     > La page **Configuration de l’analyse de l’image** vous permet également de modifier le degré de confiance des suggestions d’attribut. Par exemple, si vous souhaitez avoir besoin d’un niveau de confiance supérieur, vous pouvez saisir un pourcentage plus élevé.
 
-## <a name="to-analyze-an-image-of-an-item"></a>Pour analyser la photo d’un article
+## <a name="analyze-an-item-image"></a>Analyser l’image d’un article
 
 Les étapes suivantes décrivent comment analyser une image importée avant que vous ayez activé l’extension d’analyseur Image.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Sélectionnez l’article, puis cliquez sur **Analyser l’image**.  
-3. La page **Attributs d’analyseur Image** affiche les attributs détectés, le niveau de confiance, et d’autres détails sur l’attribut. Utilisez les options **Action à effectuer** pour spécifier ce qu’il faut faire avec l’attribut ou choisissez **Ajouter à la description de l’article** pour ajouter le nom de l’attribut à la description de l’article. Par exemple, cela peut être utile pour ajouter rapidement un détail. 
+3. La page **Attributs d’analyseur Image** affiche les attributs détectés, le niveau de confiance, et d’autres détails sur l’attribut. Utilisez les options **Action à effectuer** pour spécifier ce qu’il faut faire avec l’attribut ou choisissez **Ajouter à la description de l’article** pour ajouter le nom de l’attribut à la description de l’article. Par exemple, cette action peut être utile pour ajouter rapidement un détail.
 
-L’action **Action à effectuer** comporte les options suivantes :
+Le champ **Action à effectuer** comporte les options suivantes :
 
-  * *Ignorer*
+| Action | Désignation |
+| ------ | ----------- |
+| *Ignorer* | Aucune action ne sera effectuée. |
+| *Utiliser comme attribut* | La valeur est ajoutée aux attributs de l’article. En savoir plus sur [Utiliser les attributs d’article](inventory-how-work-item-attributes.md). |
+| *Utiliser comme catégorie* | La valeur sélectionnée est ajoutée en tant que catégorie. En savoir plus sur [Classer les articles](inventory-how-categorize-items.md). |
+| *Ajouter à la liste de blocage* | Si l’analyse suggère un attribut que vous ne souhaitez pas voir, vous pouvez le bloquer. Faites attention, cependant. Les attributs bloqués ne sont pas non plus suggérés pour les autres articles. Si vous regrettez d’avoir bloqué un attribut, choisissez **Afficher les attributs bloqués**, puis supprimez l’attribut de la liste. |
 
-    Aucune action ne sera effectuée
-  * *Utiliser comme attribut*
+> [!NOTE]  
+> Par défaut **Attributs article** affiche les attributs où **Score de fiabilité** est supérieur à la valeur de **Niveau de score de fiabilité %** définie dans **Configuration de l’analyse d’image**. Pour voir tous les attributs détectés, choisissez laction **Afficher tous les attributs**.
 
-    La valeur est ajoutée aux attributs de l’article. Pour en savoir plus, consulter [Utiliser les attributs d’article](inventory-how-work-item-attributes.md).
-  * *Utiliser comme catégorie*
-
-    La valeur sélectionnée est ajoutée en tant que catégorie. Pour plus d’informations, consultez [Catégoriser des articles](inventory-how-categorize-items.md).
-  * *Ajouter à la liste de blocage*
-
-    Si l’analyse suggère un attribut que vous ne souhaitez pas voir, vous pouvez le bloquer. Faites attention, cependant. Les attributs bloqués ne sont pas non plus suggérés pour les autres articles. Si vous regrettez d’avoir bloqué un attribut, choisissez **Afficher les attributs bloqués**, puis supprimez l’attribut de la liste.
-  
-    > [!NOTE]  
-    > Par défaut **Attributs article** affiche les attributs où **Score de fiabilité** est supérieur à la valeur de **Niveau de score de fiabilité %** définie dans **Configuration de l’analyseur Image**. Pour voir tous les attributs détectés, choisissez laction **Afficher tous les attributs**.
-
-## <a name="to-analyze-a-picture-of-a-contact-person"></a>Pour analyser la photo d’un contact
+## <a name="analyze-a-contact-person-picture"></a>Analyser la photo d’un contact
 
 Les étapes suivantes décrivent comment analyser une image importée avant que vous ayez activé l’extension d’analyseur Image.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Contacts**, puis sélectionnez le lien associé.  
 2. Sélectionnez le contact, puis cliquez sur **Analyser l’image**.  
-3. Sur le raccourci **Questionnaire profil**, consultez les suggestions, et faites des corrections si nécessaire. Pour plus d’informations, consultez [Utiliser des questionnaires profil pour classer les contacts professionnels](marketing-create-contact-profile-questionnaire.md).  
+3. Sur le raccourci **Questionnaire profil**, consultez les suggestions, et faites des corrections si nécessaire. En savoir plus, [Utiliser des questionnaires profil pour classer les contacts professionnels](marketing-create-contact-profile-questionnaire.md).  
 
     > [!NOTE]  
-    > 
+    >
     > L’API Vision par ordinateur renvoie les attributs suivants :
+    >
     > * *âge*
     >
     >     Un « âge visuel » estimé en années. Il s’agit de l’âge que semble avoir une personne par opposition à l’âge biologique réel.
     > * *sexe*
     >
     >    Masculin ou féminin
-    > 
-    > L’API Vision par ordinateur ne renvoie pas le niveau de fiablité pour les attributs d’âge et de sexe.
+    >
+    > L’API Vision par ordinateur ne renvoie pas le niveau de fiabilité pour les attributs d’âge et de sexe.
   
-## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Pour utiliser vôtre propre compte pour l’API Vision par ordinateur
+## <a name="use-your-own-computer-vision-api-account"></a>Utiliser votre propre compte pour l’API Vision par ordinateur
 
-Vous pouvez également utiliser votre propre compte pour l’API Vision par ordinateur, par exemple, si vous souhaitez analyser plus d’images qu’autorisé.  
+Vous pouvez également utiliser votre propre compte pour l’API Vision par ordinateur, par exemple, si vous souhaitez analyser plus d’images que ce que permet l’intégration par défaut.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration d’analyseur image**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration d’analyse d’image**, puis choisissez le lien associé.
 2. Entrez l’**URI d’API** et la **clé d’API** que vous avez reçus pour l’API Vision par ordinateur.  
 
     > [!NOTE]  
-    > Vous devez ajouter **/analyze** à la fin de l’URI d’API, si ce n’est pas déjà le cas. Par exemple : ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```
+    > Vous devez ajouter **/analyze** à la fin de l’URI d’API, si ce n’est pas déjà le cas. Par exemple, ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Pour visualiser le nombre d’analyses restant pour la période en cours
+## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Visualiser le nombre d’analyses restant pour la période en cours
 
 Vous pouvez afficher le nombre d’analyses effectué, et le nombre restant, pour la période actuelle.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration d’analyseur image**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration d’analyse d’image**, puis choisissez le lien associé.
 2. **Type limite**, **Valeur limite** et **Analyses effectuées** vous fournissent des informations sur l’utilisation.  
 
-## <a name="to-stop-using-the-image-analyzer-extension"></a>Pour arrêter d’utiliser l’extension d’analyseur Image
+## <a name="stop-using-the-image-analyzer-extension"></a>Arrêter d’utiliser l’extension d’analyseur Image
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexions de services**, puis choisissez **Configuration de l’analyseur d’image**.  
+1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexions de services**, puis choisissez **Configuration de l’analyse d’image**.  
 2. Désactivez la case à cocher **Activer l’analyseur Image**.  
 
 Vous pouvez également désinstaller complètement l’extension. Vous pouvez toujours la récupérer à partir de AppSource. Pour plus d’informations, voir [Installation et désinstallation d’extensions dans Business Central](ui-extensions-install-uninstall.md#uninstall-an-extension).  

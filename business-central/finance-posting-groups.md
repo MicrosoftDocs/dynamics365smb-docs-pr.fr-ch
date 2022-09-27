@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: e3cb6fd841dc4d6e0f9b00d2966ca00bab577b15
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 96505ae8097131b6c02aba65c9ab751b3e331224
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460794"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535198"
 ---
 # <a name="set-up-posting-groups"></a>Configuration des groupes comptabilisation
 
@@ -132,7 +132,7 @@ Quand quelque chose ne va pas, [!INCLUDE[prod_short](includes/prod_short.md)] af
 > [!NOTE]
 > La gestion des erreurs décrite ci-dessus n’est pas disponible sur les feuilles article, ressource, employé et immobilisation, ni pour les comptes de la comptabilité ajoutés dans des versions locales des groupes comptabilisation.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/posting-groups-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/posting-groups-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

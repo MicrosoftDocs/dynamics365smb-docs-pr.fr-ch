@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 393, 7382
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 08e8d8a0f8507f1b67d5209d8e76a5f1268d2548
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 46b6cbd88cf23974e5fd11453c328c1669c8e19c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078455"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534442"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Déplacer des articles ad hoc dans les configurations de stockage de base
 
@@ -73,7 +73,7 @@ Au lieu d’utiliser des documents mouvement entrepôt, vous pouvez enregistrer 
     > [!NOTE]  
     >  Contrairement aux documents mouvement, un mouvement validé avec la feuille reclassement ne crée pas de demande entrepôt pour effectuer la tâche physique.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/manage-internal-warehouse-processes/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

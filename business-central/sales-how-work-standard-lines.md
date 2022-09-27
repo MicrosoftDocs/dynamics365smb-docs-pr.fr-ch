@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell, replenishment
 ms.search.form: 172
 ms.date: 07/06/2022
 ms.author: edupont
-ms.openlocfilehash: 7b5e0b32306fad7a4379aca6e3dbc23eb609c99e
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 1d4223bb324a10644e0974f8b92564f5bf85dce2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144128"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535647"
 ---
 # <a name="create-recurring-sales"></a>Créer des factures vente
 
@@ -76,7 +76,7 @@ Vous pouvez utiliser le traitement par lots **Créer des factures vente récurre
 
 Les factures vente sont créées pour les clients ayant le code vente client standard spécifié, et toute information de prélèvement automatique spécifiée, pour la validation à la date spécifiée.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

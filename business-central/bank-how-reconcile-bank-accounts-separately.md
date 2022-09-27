@@ -10,12 +10,12 @@ ms.search.keywords: bank account balance, bank statement
 ms.search.form: 379, 388, 389, 1290, 1692, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: e74df84ac5119e87aecd6a15e270dfd50fb1b117
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d12ac9b5aa8718c2445cd7a4054ff0549e5d8ada
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514506"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534955"
 ---
 # <a name="reconcile-bank-accounts"></a>Rapprochement des comptes bancaires
 
@@ -166,7 +166,7 @@ Si le prochain rapprochement bancaire que vous effectuez concerne le mois d’ao
 >
 >Le dernier relevé de solde est conservé sur le compte bancaire pour minimiser les erreurs lors des rapprochements bancaires, mais il est également modifiable, vous permettant d’effectuer vos rapprochements bancaires dans l’ordre de votre choix. Cela signifie également que si vous annulez un relevé bancaire, le nouveau solde de clôture peut ne pas être le dernier relevé du solde sur le prochain relevé bancaire. Il n’y a aucune fonctionnalité qui vous permet de transférer un solde vers tous les relevés bancaires suivants, donc soyez conscient de cela lorsque vous utilisez Annuler. 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/bank-reconciliation-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 

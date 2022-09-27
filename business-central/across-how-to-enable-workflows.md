@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 994dd652c5339dbdf1dead483e10192a12084fc7
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: f9efb91e608bffc0d5da789191b5732ae90e8305
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130080"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531798"
 ---
 # <a name="enable-workflows"></a>Activer des flux de travail
 
@@ -28,7 +28,7 @@ Sur la page **Flux de travail**, créez un flux de travail en répertoriant les 
 2. Ouvrez le flux de travail que vous souhaitez activer.  
 3. Sur la page **Flux de travail**, activez le bouton à bascule **Activé**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

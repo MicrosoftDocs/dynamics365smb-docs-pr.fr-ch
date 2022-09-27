@@ -10,12 +10,12 @@ ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: cef011656fcd705a598d54719d4f7328debb8cea
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 980159c84e139b5adde024d7c6b1ff832eb79923
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077491"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528641"
 ---
 # <a name="create-number-series"></a>Création des souches de numéros
 
@@ -98,7 +98,7 @@ La procédure suivante indique comment définir des souches de numéros pour la 
 
 Le numéro sélectionné est désormais utilisé pour renseigner le champ **N°** sur la fiche ou le document en question, en fonction des paramètres définis sur la ligne souche de numéros.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/number-series-trail-codes-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 

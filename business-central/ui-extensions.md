@@ -7,12 +7,12 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 88f445116f1b9897cabc2cc3756f6c6f414288c3
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8ff68bbeb2d7603b1c4d1b612413279cca5eec86
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079027"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530475"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Personnalisation de Business Central Online à l’aide d’extensions
 
@@ -83,7 +83,7 @@ Les partenaires et revendeurs Microsoft peuvent créer des extensions utilisable
 > [!NOTE]
 > Si vous êtes un partenaire ou un revendeur Microsoft et que vous souhaitez fournir une liste d’applications recommandées, consultez [Recommander des applications depuis AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/customize-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

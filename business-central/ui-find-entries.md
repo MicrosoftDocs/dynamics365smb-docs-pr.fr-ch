@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: c5c35c8bc6a3a7827ae2893c79ce883bff6b05ea
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 3c89d9f3044a8fd0d0fa7f811f1b2f01978e4302
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799864"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532392"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Recherche d’écritures associées pour les documents validés 
 
@@ -69,7 +69,7 @@ Après avoir effectué une sélection, entrez les informations de recherche pert
 > [!TIP]
 > Pour consulter quelques exemples d’utilisation de **Recherche des écritures**, voir [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 

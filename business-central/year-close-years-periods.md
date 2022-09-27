@@ -10,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 019dce4811470ef4c0d75ee3f69732e7f9af27f1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 832e0d2d606549f51c9f16884dd8d760c0f81a79
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519403"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535466"
 ---
 # <a name="closing-years-and-periods"></a>Clôture des exercices et des périodes
 
@@ -35,7 +35,7 @@ Le tableau suivant fournit un aperçu des tâches que vous devez généralement 
 | Clôturer des périodes et l’exercice comptables, transférer des soldes de comptes de gestion dans des comptes de bilan et valider l’écriture de clôture d’exercice. |[Clôture plans](year-close-books.md) |
 | Imprimer des états qui peuvent vous aider à créer des états financiers. |[Préparation des états de clôture](year-prepare-close-statement.md) |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 

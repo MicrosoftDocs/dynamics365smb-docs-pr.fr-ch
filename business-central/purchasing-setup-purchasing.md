@@ -10,12 +10,12 @@ ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
 ms.date: 07/04/2022
 ms.author: edupont
-ms.openlocfilehash: a289d51127360fa5fe155072ff3f7f6695b95b59
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 008c0d35c8bfefdf002e08b967ddc1a9336b04a5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144241"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530394"
 ---
 # <a name="setting-up-purchasing"></a>Définition des achats
 
@@ -48,7 +48,7 @@ Les configurations relatives à la finance, telles que les modes de règlement e
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

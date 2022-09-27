@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 167ad75bceeec8e0e5bb998f8075f547a51b2157
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805141"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535815"
 ---
 # <a name="get-ready-for-doing-business"></a>Se préparer aux activités commerciales
 
@@ -114,9 +114,9 @@ En fonction de la migration de vos données, vous pouvez maintenant passer à la
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  
 [Rechercher dans le volet d’aide](product-help-and-support.md#search-in-the-help-pane)  
 [Ressources pour l’Aide et le support](product-help-and-support.md)  
-[Site Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Formation Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Migrer des données](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-[Versions d’évaluation et abonnements](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
+[Versions d’évaluation et abonnements](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1360d4189bfeb8ca446e4a372613bed9f14284a4
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: acfbde293bb05aa7b09c7911045c161ece504cc8
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075410"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533605"
 ---
 # <a name="suggest-vendor-payments"></a>Proposer paiements fournisseur
 
@@ -53,7 +53,7 @@ Vous pouvez aussi créer manuellement des lignes de paiement à l’aide de la d
 > [!NOTE]  
 >   Si la facture achat est en retard, la date comptabilisation est définie sur la date de travail et la police de la ligne devient rouge.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/suggest-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/suggest-vendor-payments-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

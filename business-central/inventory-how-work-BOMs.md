@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d538ea3e1bb00772a3a3183c09c2220893380058
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 1b0b3aa0813a4ede91232235b319e8bf72961e6c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079573"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529725"
 ---
 # <a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
 
@@ -119,7 +119,7 @@ Le coût unitaire d’une nomenclature d’assemblage équivaut toujours au tota
 
 Les coûts des articles constituant la nomenclature d’assemblage sont copiés à partir des fiches article du composant. Le coût de chaque article est multiplié par sa quantité, et le coût total est affiché dans le champ **Coût unitaire** sur la fiche article.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/set-up-assembly-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/set-up-assembly-items-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

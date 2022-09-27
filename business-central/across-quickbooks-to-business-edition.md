@@ -10,12 +10,12 @@ ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.search.form: 1808
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 871181121d409c336526bbc2a569d163d2b671f5
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 01a02459e75d20c217b747502db8548567db597d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078845"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535306"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Le passage d’une application QuickBooks à Dynamics 365 Business Central
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur l’extension correspondant à votre application 
 
 Si vous êtes prêt à commencer maintenant, choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration assistée**, puis choisissez le lien associé. Choisissez **Migrer des données métier**, puis suivez les étapes du guide.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

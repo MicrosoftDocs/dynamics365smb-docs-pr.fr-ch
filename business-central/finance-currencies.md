@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 4163e1789754b565e4233d58d360018ed00feead
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
+ms.openlocfilehash: 7eabe6a9c17431b3e2965edcbf832d37133f4f9f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419685"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532770"
 ---
 # <a name="currencies-in-business-central"></a>Devises dans Business Central
 
@@ -35,7 +35,7 @@ Vous spécifiez les codes devise dans la liste **Devises**, y compris les inform
 
 Les taux de change permettent de calculer la valeur en devise société (DS) de chaque transaction en devise. Pour plus d’informations, voir [Mettre à jour les taux de change devise](finance-how-update-currencies.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

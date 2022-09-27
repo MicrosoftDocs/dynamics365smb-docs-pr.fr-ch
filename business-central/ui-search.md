@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: df2500afba5eb695680347a41169dafc78b0facd
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 0e1f394be1503c76bbf071ca188612b06231e107
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799471"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532311"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Recherche de pages et d’informations avec Tell Me  
 Cette rubrique décrit comment la fonction Tell me peut vous aider à accéder rapidement aux actions, pages ou états, à trouver des informations concernant la manière d’exécuter une tâche particulière et à découvrir des applications supplémentaires et des services de conseil pour [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -67,7 +67,7 @@ La fonction **Dites-moi ce que vous voulez faire** n’effectue pas de recherche
 ## <a name="questions"></a>Vous avez des questions ?
 Nous avons présenté Tell Me à différents acteurs impliqués, noté les questions qu’ils avaient en commun, et transformé nos notes en une liste de questions fréquemment posées. Si cela vous intéresse, voir [FAQ Tell Me](ui-search-faq.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 [Utiliser Business Central](ui-work-product.md)  

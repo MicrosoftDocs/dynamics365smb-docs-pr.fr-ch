@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832
 ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 302de4dbae96280f7127091a367184af25c8c29a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654931"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532824"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Obtenir le complément Business Central pour Outlook
 
@@ -122,12 +122,12 @@ Si vous utilisez Business Central sur site, l’installation du complément peut
 
 Vous êtes maintenant prêt à commencer à utiliser le complément dans Outlook.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
-[Obtention de Business Central sur mon périphérique mobile](install-mobile-app.md)  
+[Obtention de Business Central sur mon périphérique mobile](install-mobile-app.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Finances](finance.md)  
 [Ventes](sales-manage-sales.md)  

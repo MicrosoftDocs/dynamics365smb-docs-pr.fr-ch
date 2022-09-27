@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: ccdcf519d33c9b4ee23526e773ec8eccc9e0ebdd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7aa2fee69e6d7725e4986b44d3f657d6ca9c4819
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517189"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534334"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Création d’états Power BI pour afficher les données de liste dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -122,7 +122,7 @@ Vérifiez que la page que vous souhaitez afficher est la première page de votre
 
 Vérifiez que la taille de l’état est configurée sur 325 pixels x 310 pixels. Enregistrez l’état, puis actualisez la page de liste.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 

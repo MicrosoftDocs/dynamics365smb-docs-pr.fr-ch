@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5779, 5798, 7343, 7345, 7357, 7359, 7377, 7392, 7395, 7397, 9313, 9316, 9344
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6f85c37a9a781493f1a67f00c9dcaade540697c7
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 07cb13480146496c7186cef2d845c4a799eb699a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078871"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535599"
 ---
 # <a name="pick-items"></a>Prélèvement d’articles
 
@@ -44,7 +44,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Divisez une ligne prélèvement en plusieurs lignes, par exemple si l’emplacement désigné ne contient pas suffisamment d’articles à prélever.|[Répartir des lignes activité entrepôt](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Accéder immédiatement aux prélèvements qui vous ont été affectés en tant que magasinier.|[Trouver vos affectations d’entrepôt](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/pick-ship-items-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 

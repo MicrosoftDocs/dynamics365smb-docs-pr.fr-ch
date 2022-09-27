@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: bda2bc95c78f5cc2119a6725b7dd57491938d67b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 12b51af89894c428120ddd6c4639a397bd8a4d97
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075540"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529260"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Paramétrer des modèles de déclaration de TVA et des noms de déclaration de TVA
 
@@ -45,7 +45,7 @@ Après avoir défini une déclaration de TVA, vous pouvez en afficher un aperçu
 4. Sur les lignes où le champ **Type** indique la valeur **TVA**, vous pouvez afficher la liste des écritures TVA en choisissant le montant figurant dans le champ **Montant colonne**.
 5. Vous pouvez utiliser la personnalisation pour afficher plus de champs dans les lignes. Par exemple, le montant de base sur encaissement prévu et le montant de TVA sur encaissement prévu, si vous utilisez la TVA sur encaissement.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
 
 ## <a name="see-also"></a>Voir aussi
 
