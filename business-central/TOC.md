@@ -113,8 +113,11 @@
 ## Démarrages rapides
 ### [Démarrage rapide de Business Central](quick-start-business-central.md)
 ### [Configurer les informations sur la société](quick-start-company-information.md)
+### [Saisir des informations financières](quick-start-financial-information.md)
 ### [Vendre des produits et des services](quick-start-sell-products-and-services.md)
 ### [Acheter des produits et des services](quick-start-procurement.md)
+### [Personnaliser et imprimer des rapports et des documents](quick-start-reports-and-documents.md)
+### [Obtenir des informations grâce à la Business Intelligence](quick-start-business-intelligence.md)
 
 <!--use-->
 ## Améliorer la productivité dans Business Central
@@ -239,13 +242,13 @@
 ### Flux de travail
 #### [Vue d’ensemble du workflow](across-workflow.md)
 #### [Utiliser Business Central dans les flux Power Automate](across-how-use-financials-data-source-flow.md)
-#### Utiliser des workflows
-##### [Utiliser des workflows](across-use-workflows.md)
-##### [Activer des workflows](across-how-to-enable-workflows.md)
-##### [Utilisation des flux d’approbation](across-how-use-approval-workflows.md)
+#### Utilisation des flux d’approbation
+##### [Utilisation des flux d’approbation](across-use-workflows.md)
+##### [Activation des flux d’approbation](across-how-to-enable-workflows.md)
+##### [Procédure : utilisation des flux d’approbation](across-how-use-approval-workflows.md)
 ##### [Restreindre et autoriser l’utilisation d’un enregistrement](across-how-to-restrict-and-allow-usage-of-a-record.md)
-##### [Afficher des instances d’étape de workflow archivées](across-how-to-view-archived-workflow-step-instances.md)
-##### [Supprimer des workflows](across-how-to-delete-workflows.md)
+##### [Afficher des instances d’étape de flux de travail archivées](across-how-to-view-archived-workflow-step-instances.md)
+##### [Suppression des flux d’approbation](across-how-to-delete-workflows.md)
 <!--data exchange-->
 ### Échanger des données par voir électronique
 #### [Vue d’ensemble de OData Exchange](across-data-exchange.md)
@@ -1585,11 +1588,11 @@
 #### [Configurer les flux de travail approbation](across-set-up-workflows.md)
 #### [Configurer des utilisateurs de flux de travail](across-how-to-set-up-workflow-users.md)
 #### [Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md)
-#### [Notifications flux de travail](across-setting-up-workflow-notifications.md)
+#### [Notifications flux de travail approbation](across-setting-up-workflow-notifications.md)
 #### [Spécifier quand et comment recevoir les notifications de flux de travail](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Créer des workflows](across-how-to-create-workflows.md)
+#### [Créer des flux de travail approbation](across-how-to-create-workflows.md)
 #### [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Exporter et importer des workflows](across-how-to-export-and-import-workflows.md)
+#### [Exporter et importer des flux de travail approbation](across-how-to-export-and-import-workflows.md)
 #### [Procédure pas à pas : Configurer et utiliser un flux d’approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Configurer les connexions
@@ -1626,7 +1629,7 @@
 ###### [Utiliser des applications Business Central dans Power BI](across-powerbi-business-central-apps.md)
 ##### [FAQ](power-bi-faq.md)
 #### Utiliser Power Automate avec Business Central
-##### [Utiliser Business Central dans les flux Power Automate](across-how-use-financials-data-source-flow.md)
+##### [Utiliser les flux Power Automate dans Business Central](across-how-use-financials-data-source-flow.md)
 ##### [Dépanner les flux de travail automatisés](across-flow-troubleshoot.md)  
 #### Utiliser Power Apps avec Business Central
 ##### [Connecter vos données Business Central pour générer une application professionnelle à l’aide de Power Apps](across-how-use-financials-data-source-powerapps.md)

@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 7873091d64e55460986437cf255d98cd0d00b6d3
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 2542dac4eba91d0d6d7dd3c773b19e1f6fd235a5
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130161"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585988"
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Restreindre et autoriser l’utilisation d’un enregistrement
 
@@ -26,12 +26,12 @@ Si vous souhaitez restreindre l’utilisation d’un enregistrement à certaines
 > [!NOTE]  
 > La fonctionnalité de flux de travail pour restreindre et autoriser l’utilisation d’un enregistrement n’est pas liée à la fonctionnalité de blocage de la validation d’un enregistrement d’article, de client et de fournisseur.
 
-La procédure suivante explique comment restreindre la validation de commandes d’achat tant qu’elles n’ont pas été approuvées. Le nouveau flux de travail sera basé sur le modèle de Flux de travail approbation facture achat existant.  
+La procédure suivante explique comment restreindre la validation de commandes d’achat tant qu’elles n’ont pas été approuvées. Le nouveau flux de travail sera basé sur le modèle de *flux de travail approbation facture achat existant*.  
 
-## <a name="to-create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a>Pour créer une étape de flux de travail qui limite la validation de commandes d’achat non approuvées
+## <a name="create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a>Créer une étape de flux de travail qui limite la validation de commandes d’achat non approuvées
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
-2. Sur la page **Flux de travail**, choisissez l’action **Créer flux de travail à partir du modèle**. Pour plus d’informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
+2. Sur la page **Flux de travail**, choisissez l’action **Créer flux de travail à partir du modèle**. En savoir plus sur [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).
 3. Sur la page **Modèles de flux de travail**, sélectionnez le modèle *Flux de travail approbation facture achat*.  
 
    Remarquez que les deux premières étapes du flux de travail concernent la restriction, puis l’autorisation de l’utilisation des factures d’achat. Modifiez la condition d’événement de la première étape du nouveau flux de travail pour indiquer qu’il s’applique aux commandes d’achat.  
@@ -40,8 +40,8 @@ La procédure suivante explique comment restreindre la validation de commandes d
 
 ## <a name="see-also"></a>Voir aussi
 
-[Créer des flux de travail](across-how-to-create-workflows.md)  
+[Utilisation des flux d’approbation](across-use-workflows.md)  
+[Créer des flux de travail approbation](across-how-to-create-workflows.md)  
 [Flux de travail](across-workflow.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

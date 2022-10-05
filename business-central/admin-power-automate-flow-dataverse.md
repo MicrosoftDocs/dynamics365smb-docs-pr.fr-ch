@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524521"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585907"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Utiliser un flux Power Automate pour les alertes aux changements d’entité Dataverse
 
@@ -54,11 +54,14 @@ Les administrateurs peuvent créer un flux automatisé dans Power Automate qui a
 Les données sont synchronisées entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE [cds_long_md](includes/cds_long_md.md)] via un compte utilisateur d’intégration. Pour ignorer les modifications apportées par la synchronisation, créez une étape de condition dans votre flux qui exclut les modifications apportées par le compte d’utilisateur d’intégration.  
 
 1. Ajoutez une étape **Obtenir une ligne de Dataverse par son identificateur** après le déclencheur de flux avec les paramètres suivants. Pour plus d’informations, voir [Obtenir une ligne de Dataverse par son identificateur](/power-automate/dataverse/get-row-id).
+
     1. Dans le champ **Nom de table**, choisissez **Utilisateurs**
     2. Dans le champ **ID de ligne**, choisissez **Modifié par (valeur)** depuis le déclencheur de flux.  
+
 2. Ajoutez une étape de condition avec ce qui suit **ou** les paramètres pour identifier le compte d’utilisateur d’intégration.
     1. Les utilisateurs **Adresse e-mail principale** contient **contoso.com**
     2. Le **Nom complet** de l’utilisateur contient **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+
 3. Ajoutez un contrôle Terminer pour arrêter le flux si l’entité a été modifiée par le compte d’utilisateur d’intégration.
 
 L’image suivante montre comment définir le déclencheur de flux et la condition de flux.
@@ -73,6 +76,7 @@ Si le flux n’est pas arrêté par la condition, vous devez notifier [!INCLUDE[
 2. Sélectionnez l’action **Créer un enregistrement (V3)**.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Paramètres pour le connecteur [!INCLUDE[prod_short](includes/prod_short.md)]":::
+
 3. Utilisez le bouton **assist edit (...)** dans le coin supérieur droit pour ajouter la connexion à votre environnement [!INCLUDE[prod_short](includes/prod_short.md)].
 4. Une fois connecté, remplissez les champs **Nom de l’environnement** et **Nom de l’entreprise**.
 5. Dans le champ **Catégorie d’API**, entrez **microsoft/dataverse/v1.0**.
@@ -87,7 +91,8 @@ L’image suivante indique à quoi doit ressembler votre flux.
 Lorsque vous ajoutez, supprimez ou modifiez un compte dans votre environnement [!INCLUDE [cds_long_md](includes/cds_long_md.md)], ce flux effectue les actions suivantes :
 
 1. Appelez l’environnement [!INCLUDE[prod_short](includes/prod_short.md)] que vous avez spécifié dans le connecteur [!INCLUDE[prod_short](includes/prod_short.md)].
-2. Utilisez l’API [!INCLUDE[prod_short](includes/prod_short.md)] pour insérer un enregistrement avec le **Nom de l’entité** défini sur **compte** dans la table **Modification de l’entrée Dataverse**. 3. [!INCLUDE[prod_short](includes/prod_short.md)] lance l’entrée de la file d’attente des tâches qui synchronise les clients avec les comptes.
+2. Utilisez l’API [!INCLUDE[prod_short](includes/prod_short.md)] pour insérer un enregistrement avec **entityName** défini sur **compte** dans la table **Modification de l’entrée Dataverse**. Ce paramètre est le nom exact de l’entité Dataverse pour laquelle vous créez le flux.
+3. [!INCLUDE[prod_short](includes/prod_short.md)] lance l’entrée de la file d’attente des tâches qui synchronise les clients avec les comptes.
 
 ## <a name="see-also"></a>Voir aussi
 

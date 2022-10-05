@@ -1,5 +1,5 @@
 ---
-title: Créer des flux de travail pour connecter des tâches
+title: Créer des flux de travail approbation pour connecter des tâches
 description: Vous pouvez créer des flux de travail qui relient les tâches de processus métier effectuées par différents utilisateurs et inclure des tâches système, telles que la validation automatique, en tant qu’étapes de flux de travail.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/30/2021
+ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 7f3db5df7c4ea03969eff2efe1a8d019f006ad40
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d2d9f3f91210b2a4d8d67890d01018565d8ef087
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531825"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9586015"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Créer des flux de travail pour connecter des tâches de processus entreprise
 
@@ -24,7 +24,7 @@ Sur la page **Flux de travail**, créez un flux de travail en répertoriant les 
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-Lorsque vous créez des flux de travail, vous pouvez copier les étapes à partir de flux de travail existants ou de modèles de flux de travail. Les modèles de flux de travail représentent des flux de travail non modifiables qui existent dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)]. Le code des modèles de flux de travail ajoutés par Microsoft a le préfixe « MS- », comme dans « MS-PIW ». Pour plus d’informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
+Lorsque vous créez des flux de travail, vous pouvez copier les étapes à partir de flux de travail existants ou de modèles de flux de travail. Les modèles de flux de travail représentent des flux de travail non modifiables qui existent dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)]. Le code des modèles de flux de travail ajoutés par Microsoft a le préfixe « MS- », comme dans « MS-PIW ». En savoir plus sur [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
 
 > [!NOTE]  
 > Toutes les notifications relatives aux étapes du flux de travail sont envoyées à l’aide d’une file projets. Veillez à ce que la file d’attente de tâches reflète les besoins de votre entreprise. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).  
@@ -35,52 +35,51 @@ Le flux de travail est divisé en trois sections :
 
 1. **En cas d'événement**  
    C’est là que le déclencheur est sélectionné.  
-   Des exemples de déclencheur pourraient être :
+   Des exemples de déclencheur :
    * Un enregistrement de données de base est modifié
    * Une ligne feuille est créée
    * Un document entrant est créé ou lancé
    * L’approbation d’un document est exigée
-
 2. **Condition**  
-   Les **conditions** sont liées à l’événement ; s’ouvre pour créer des filtres lorsque l’événement est déclenché.
+   Les **conditions** sont liées à l’événement et permettent de créer des filtres pour décider de la suite du flux de travail.
 3. **Alors, réponse**  
-   Les **Réponses** répondent à la prochaine étape du travail.
+   Les **réponses** spécifient les prochaines étapes du flux de travail.
 
-Pour les deux types d’événements, les événements sont définis par le système. De nouveaux événements doivent être ajoutés via le développement d’une extension.
+Pour les deux types d’événements et de réponses, les options sont définies par le système. De nouveaux événements doivent être ajoutés via le développement d’une extension.
 
 ## <a name="to-create-a-workflow"></a>Pour créer un flux de travail
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. La page **Flux de travail** s’ouvre.  
 3. Dans le champ **Code**, entrez 20 caractères maximum pour identifier le flux de travail.  
-4. Pour créer le flux de travail à partir d’un modèle de flux de travail, dans la page **Flux de travail**, choisissez l’action **Créer le flux de travail à partir du modèle**. Pour plus d’informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
+4. Pour créer le flux de travail à partir d’un modèle de flux de travail, dans la page **Flux de travail**, choisissez l’action **Créer le flux de travail à partir du modèle**. En savoir plus sur [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
 5. Dans le champ **Description**, décrivez le flux de travail.  
 6. Dans le champ **Catégorie**, spécifiez la catégorie à laquelle le flux de travail appartient.  
 7. Dans le champ **En cas d’événement**, spécifiez l’événement qui doit se produire pour démarrer l’étape du flux de travail.  
 
-    Lorsque vous choisissez le champ, la page **Événements de flux de travail** s’ouvre pour vous permettre de choisir parmi tous les événements de flux de travail disponibles.  
+   Lorsque vous choisissez le champ, la page **Événements de flux de travail** s’ouvre pour vous permettre de choisir parmi tous les événements de flux de travail disponibles.  
 8. Dans le champ **Condition**, spécifiez une ou plusieurs conditions qui doivent être remplies pour que l’événement dans le champ **En cas d’événement** puisse se produire.  
 
-    Lorsque vous sélectionnez le champ, la page **Conditions d’événement** s’ouvre pour vous permettre de choisir dans une liste de champs de filtre pouvant être utilisés comme conditions pour l’événement en question. Vous pouvez ajouter des champs de filtre à utiliser comme conditions d’événement. Définissez des filtres de condition d’événement comme vous définissez des filtres sur les pages de demande d’état.  
+   Lorsque vous sélectionnez le champ, la page **Conditions d’événement** s’ouvre pour vous permettre de choisir dans une liste de champs de filtre pouvant être utilisés comme conditions pour l’événement en question. Vous pouvez ajouter des champs de filtre à utiliser comme conditions d’événement. Définissez des filtres de condition d’événement comme vous définissez des filtres sur les pages de demande d’état.  
 
-    Si l’événement de flux de travail est la modification d’un champ spécifique d’un enregistrement, la page **Conditions d’événement** s’ouvre avec des options pour sélectionner le champ et le type de modification.  
+   Si l’événement de flux de travail est la modification d’un champ spécifique d’un enregistrement, la page **Conditions d’événement** s’ouvre avec des options pour sélectionner le champ et le type de modification.  
 
-    1. Pour spécifier une modification de champ pour l’événement, sur la page **Conditions d’événement**, dans le champ **Champ**, sélectionnez le champ qui est modifié.  
-    2. Dans le champ **Opérateur**, sélectionnez **Diminué**, **Augmenté** ou **Modifié**.  
+   1. Pour spécifier une modification de champ pour l’événement, sur la page **Conditions d’événement**, dans le champ **Champ**, sélectionnez le champ qui est modifié.  
+   2. Dans le champ **Opérateur**, sélectionnez **Diminué**, **Augmenté** ou **Modifié**.  
 9. Dans le champ **Alors, réponse**, spécifiez la réponse qui suivra lorsque l’événement de flux de travail se produira.  
 
-     Lorsque vous choisissez le champ, la page **Réponses de flux de travail** s’ouvre pour vous permettre de choisir parmi toutes les réponses de flux de travail disponibles qui existent et de définir des options de réponse pour la réponse sélectionnée.  
+   Lorsque vous choisissez le champ, la page **Réponses de flux de travail** s’ouvre pour vous permettre de choisir parmi toutes les réponses de flux de travail disponibles qui existent et de définir des options de réponse pour la réponse sélectionnée.  
 10. Dans le raccourci **Options pour la réponse sélectionnée**, spécifiez les options pour la réponse de flux de travail, en sélectionnant des valeurs dans les différents champs qui s’affichent, comme suit :  
 
     1. Pour spécifier des options pour une réponse de flux de travail impliquant l’envoi d’une notification, renseignez les champs comme indiqué dans le tableau suivant.  
 
-        |Champ|Description|  
-        |-----|-----------|  
-        |**Notifier l’expéditeur**|Indiquez si le demandeur de l’approbation est notifié au lieu du destinataire de la demande d’approbation. Si vous activez la case à cocher, le champ **ID utilisateur du destinataire** est désactivé, car le demandeur de l’approbation, c’est-à-dire l’expéditeur, est notifié à la place. Le nom de la réponse du flux de travail est modifié en conséquence, en **Créer une notification pour &lt;Expéditeur&gt;**. Si la case à cocher n’est pas activée, le nom de la réponse du flux de travail est **Créer une notification pour &lt;Utilisateur&gt;**.
-        |**Code utilisateur du destinataire**|Spécifiez l’utilisateur auquel la notification doit être envoyée. **Remarque** : cette option n’est disponible que pour les réponses de flux de travail avec un espace réservé pour un utilisateur spécifique. Pour les réponses de flux de travail sans espaces réservés pour les utilisateurs, le destinataire de la notification est généralement défini par les **Paramètres utilisateur approbation**.|  
-        |**Type écriture notification**|Spécifie si la notification de flux de travail est déclenchée par une modification d’enregistrement, une demande d’approbation ou des données échues transmises.|
-        |**Page cible du lien**|Spécifiez une autre page que le lien de la notification ouvre au lieu de la page par défaut. La page doit avoir la même table source que l’enregistrement impliqué.|
-        |**Lien personnalisé**|Spécifiez l’URL d’un lien qui est ajouté à la notification en complément du lien vers une page.|  
+       |Champ|Description|
+       |-----|-----------|
+       |**Notifier l’expéditeur**|Indiquez si le demandeur de l’approbation est notifié au lieu du destinataire de la demande d’approbation. Si vous activez la case à cocher, le champ **ID utilisateur du destinataire** est désactivé, car le demandeur de l’approbation, c’est-à-dire l’expéditeur, est notifié à la place. Le nom de la réponse du flux de travail est modifié en conséquence, en **Créer une notification pour &lt;Expéditeur&gt;**. Si la case à cocher n’est pas activée, le nom de la réponse du flux de travail est **Créer une notification pour &lt;Utilisateur&gt;**.|
+       |**Code utilisateur du destinataire**|Spécifiez l’utilisateur auquel la notification doit être envoyée. **Remarque** : cette option n’est disponible que pour les réponses de flux de travail avec un espace réservé pour un utilisateur spécifique. Pour les réponses de flux de travail sans espaces réservés pour les utilisateurs, le destinataire de la notification est généralement défini par les **Paramètres utilisateur approbation**.|
+       |**Type écriture notification**|Spécifiez si la notification de flux de travail est déclenchée par une modification d’enregistrement, une demande d’approbation ou des données échues transmises.|
+       |**Page cible du lien**|Spécifiez une autre page que le lien de la notification ouvre au lieu de la page par défaut. La page doit avoir la même table source que l’enregistrement impliqué.|
+       |**Lien personnalisé**|Spécifiez l’URL d’un lien qui est inclus dans la notification en complément du lien vers la page.|
 
     2. Pour spécifier des options pour une réponse de flux de travail impliquant la création d’une demande d’approbation, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -88,7 +87,7 @@ Pour les deux types d’événements, les événements sont définis par le syst
         |-----|-----------|  
         |**Formule échéance**|Spécifiez le nombre de jours suite auxquels la demande d’approbation doit être résolue, à compter de la date à laquelle elle a été envoyée.|
         |**Déléguer après**|Spécifiez si et quand une demande d’approbation est automatiquement déléguée au substitut approprié. Vous pouvez choisir de déléguer automatiquement un, deux ou cinq jours après la date de demande d’approbation.|
-        |**Type approbateur**|Spécifiez l’approbateur, en fonction des paramètres des utilisateurs d’approbation et de flux de travail. Lorsque le champ est défini sur **Vendeur/Acheteur**, cela indique que l’utilisateur configuré dans le champ **Code vendeur/acheteur** de la page **Paramètres utilisateur approbation** détermine l’approbateur. Les écritures de demande d’approbation sont ensuite créées en fonction de la valeur du champ **Type limite approbateur**. Pour plus d’informations, voir [Configurer des utilisateurs d’approbation](across-how-to-set-up-workflow-users.md).|
+        |**Type approbateur**|Spécifiez l’approbateur, en fonction des paramètres des utilisateurs d’approbation et de flux de travail. Lorsque le champ est défini sur **Vendeur/Acheteur**, l’utilisateur défini dans le champ **Code vendeur/acheteur** sur la page **Paramètres utilisateur approbation** détermine l’approbateur. Les écritures de demande d’approbation sont ensuite créées en fonction de la valeur du champ **Type limite approbateur**. En savoir plus sur [Configurer des utilisateurs d’approbation](across-how-to-set-up-workflow-users.md).|
         |**Afficher le message de confirmation**|Spécifiez si un message de confirmation apparaît aux utilisateurs après leur demande d’approbation.|
         |**Type limite approbateur**|Spécifiez les effets des limites d’approbation des approbateurs lorsque les écritures demande d’approbation sont créées pour eux. Un approbateur qualifié est un approbateur pour lequel la limite d’approbation est supérieure à la valeur de la demande. Les options possibles sont les suivantes : <ol><li>**Chaîne d’approbateurs** spécifie que les écritures demande d’approbation sont créées pour tous les approbateurs du demandeur jusqu’au et y compris le premier approbateur qualifié.</li><li>**Approbateur direct** spécifie qu’une écriture de demandes d’approbation n’est créée que pour l’approbateur immédiat du demandeur, quelle que soit la limite d’approbation de l’approbateur.</li><li>**Premier approbateur qualifié** spécifie qu’une écriture de demandes d’approbation n’est créée que pour le premier approbateur qualifié du demandeur.</li></ol>|
     3. Pour spécifier des options pour une réponse de flux de travail impliquant la création de lignes feuille, renseignez les champs comme indiqué dans le tableau suivant.  
@@ -107,7 +106,7 @@ Pour les deux types d’événements, les événements sont définis par le syst
     >  Vous ne pouvez modifier que le retrait d’une étape qui n’a pas d’étape suivante.  
 
 12. Répétez les étapes 7 à 11 pour ajouter d’autres étapes de flux de travail, avant ou après l’étape que vous avez créée.  
-13. Activez le bouton à bascule **Activé** pour spécifier que le flux de travail démarre lorsque l’événement de la première étape de type **Point d’entrée** se produit. Pour plus d’informations, voir [Utiliser des flux de travail](across-use-workflows.md).  
+13. Activez le bouton à bascule **Activé** pour spécifier que le flux de travail démarre lorsque l’événement de la première étape de type **Point d’entrée** se produit. En savoir plus sur [Utiliser des flux de travail](across-use-workflows.md).  
 
 > [!NOTE]  
 > N’activez pas un flux de travail tant que vous n’êtes pas sûr qu’il soit terminé et que les étapes de flux de travail concernées puissent démarrer.  
@@ -119,7 +118,7 @@ Pour les deux types d’événements, les événements sont définis par le syst
 
 Dans l’exemple suivant, un nouveau flux de travail est créé pour approuver les modifications apportées au nom d’un fournisseur existant :
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. La page **Flux de travail** s’ouvre.
 3. Dans la section Flux de travail, renseignez les champs requis comme indiqué dans le tableau suivant.
 
@@ -132,48 +131,40 @@ Dans l’exemple suivant, un nouveau flux de travail est créé pour approuver l
 4. Pour créer la première étape du flux de travail, procédez comme suit.
 
     1. Dans le champ **En cas d’événement**, précisez *Un enregistrement fournisseur a été modifié*.  
-    2. Dans le champ **Condition**, choisissez le mot **Toujours**, puis, sur la page **Conditions d’événement**, choisissez le lien **Ajouter une condition au cas où une valeur de champ serait modifiée**, puis sélectionnez le champ *Nom*.  
-
-      Le résultat de cette étape est que la condition se lit comme *Le nom a changé*.  
-    3. Dans le champ **Alors, réponse**, sélectionnez le lien **Sélectionner la réponse**, puis, dans la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez le champ *Rétablir la valeur de \<Field\> sur l’enregistrement et enregistrez la réponse de modification*, puis dans la section **Options pour la réponse sélectionnée**, précisez le champ *Nom*.  
-    4. Choisissez le lien **Ajouter d’autres réponses**, puis ajoutez une entrée pour la réponse *Créer une demande d’approbation pour l’enregistrement à l’aide du type approbateur <%1> et <%2>.* .  
-    5. Dans la section **Options pour la réponse sélectionnée** pour la nouvelle réponse, modifiez le champ **Type d’approbateur** sur *Groupe d’utilisateurs du flux de travail*, puis, dans le champ **Groupe d’utilisateurs du flux de travail**, spécifiez le groupe d’utilisateurs concerné.  
-
-    Pour plus d’informations, voir [Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md).  
+    2. Dans le champ **Condition**, laissez la valeur définie sur **Toujours**. Dans le champ **Conditions d’événement**, choisissez le lien **Ajoutez une condition au cas où une valeur de champ serait modifiée**, puis sélectionnez le champ *Nom*. Le résultat de cette étape est que la condition se lit comme *Le nom a changé*.  
+    3. Dans le champ **Alors, réponse**, choisissez le lien **Sélectionner la réponse**. Puis, sur la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez le champ *Rétablir la valeur de \<Field\> sur l’enregistrement et enregistrer la réponse de modification*. Puis, dans la section **Options pour la réponse sélectionnée**, spécifiez le champ *Nom*.  
+    4. Choisissez le lien **Ajouter d’autres réponses**, puis ajoutez une entrée pour la réponse *Créer une demande d’approbation pour l’enregistrement à l’aide du type approbateur <%1> et <%2>*.  
+    5. Dans la section **Options pour la réponse sélectionnée** pour la nouvelle réponse, modifiez le champ **Type d’approbateur** sur *Groupe d’utilisateurs du flux de travail*, puis, dans le champ **Groupe d’utilisateurs du flux de travail**, spécifiez le groupe d’utilisateurs concerné. En savoir plus sur [Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md).  
     6. Ajoutez une troisième réponse, *Envoyer une demande d’approbation pour l’enregistrement et créer une notification.*  
-    7. Ajoutez une quatrième réponse, *Afficher le message « %1 »*, puis, dans la section **Options pour la réponse sélectionnée**, dans le champ Message, spécifiez **Une demande d’approbation a été envoyée**.  
-    8. Cliquez sur le bouton  **OK** pour revenir à l’étape du flux de travail.  
+    7. Ajoutez une quatrième réponse, *Afficher le message « %1 »*, puis, dans la section **Options pour la réponse sélectionnée**, dans le champ **Message**, spécifiez **Une demande d’approbation a été envoyée**.  
+    8. Cliquez sur le bouton **OK** pour revenir à l’étape du flux de travail.  
 
-5. Sur la ligne suivante, ajoutez une nouvelle étape de flux de travail pour l’événement *Une demande d’approbation est approuvée.* .  
+5. Sur la ligne suivante, ajoutez une nouvelle étape de flux de travail pour l’événement *Une demande d’approbation est approuvée.* .
 
     1. Dans le champ **En cas d’événement**, précisez *Une demande d’approbation est approuvée*.  
     2. Choisissez le menu en ligne, puis choisissez **Augmenter le retrait**.  
-    3. Dans le **Condition**, choisissez le mot **Toujours**, puis, dans le champ **Approbations en attente**, précisez *0*.  
-
-      Le résultat de cette étape est que la condition se lit comme *Approbations en attente : 0* pour indiquer qu’il s’agit du dernier approbateur.  
-    4. Dans le champ **Alors, réponse**, choisissez le lien **Sélectionner la réponse**, puis, sur la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez la réponse *Envoyer une demande d’approbation pour l’enregistrement et créer une notification*.  
-    5. Cliquez sur le bouton **OK**.  
+    3. Dans le champ **Condition**, choisissez le mot **Toujours**, puis, dans le champ **Approbations en attente**, précisez *0*. Le résultat de cette étape est que la condition se lit comme *Approbations en attente : 0* pour indiquer qu’il s’agit du dernier approbateur.  
+    4. Dans le champ **Alors, réponse**, choisissez le lien **Sélectionner la réponse**. Puis, sur la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez la réponse *Envoyer une demande d’approbation pour l’enregistrement et créer une notification*.  
+    5. Cliquez sur **OK**.  
 6. Sur la ligne suivante, ajoutez une deuxième étape de flux de travail pour l’événement *Une demande d’approbation est approuvée*.  
 
     1. Dans le champ **En cas d’événement**, précisez *Une demande d’approbation est approuvée*.
-    2. Dans le **Condition**, choisissez le mot **Toujours**, puis, dans le champ **Approbations en attente**, précisez *>0*.  
-
-      Le résultat de cette étape est que la condition se lit comme *Approbations en attente : >0* pour indiquer qu’il ne s’agit *pas* du dernier approbateur.  
-    3. Dans le champ **Alors, réponse**, choisissez le lien **Sélectionner la réponse**, puis, sur la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez la réponse *Envoyer une demande d’approbation pour l’enregistrement et créer une notification*.  
-    4. Cliquez sur le bouton **OK**.  
+    2. Dans le champ **Condition**, choisissez le mot **Toujours**, puis, dans le champ **Approbations en attente**, précisez *>0*. Le résultat de cette étape est que la condition se lit comme *Approbations en attente : >0* pour indiquer qu’il ne s’agit *pas* du dernier approbateur.  
+    3. Dans le champ **Alors, réponse**, choisissez le lien **Sélectionner la réponse**. Puis, sur la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez la réponse *Envoyer une demande d’approbation pour l’enregistrement et créer une notification*.  
+    4. Cliquez sur **OK**.  
 7. Sur la ligne suivante, ajoutez une deuxième étape de flux de travail pour l’événement *Une demande d'approbation est déléguée*.  
 
     1. Dans le champ **En cas d’événement**, précisez *Une demande d'approbation est déléguée*.  
     2. Dans le champ **Condition**, laissez la valeur définie sur *Toujours*.  
-    3. Dans le champ **Alors, réponse**, choisissez le lien **Sélectionner la réponse**, puis, sur la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez la réponse *Envoyer une demande d’approbation pour l’enregistrement et créer une notification*.  
-    4. Cliquez sur le bouton **OK**.  
+    3. Dans le champ **Alors, réponse**, choisissez le lien **Sélectionner la réponse**. Puis, sur la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez la réponse *Envoyer une demande d’approbation pour l’enregistrement et créer une notification*.  
+    4. Cliquez sur **OK**.  
 8. Sur la ligne suivante, ajoutez une deuxième étape de flux de travail pour l’événement *Une demande d’approbation est rejetée*.  
 
     1. Dans le champ **En cas d’événement**, précisez *Une demande d’approbation est rejetée*.  
     2. Dans le champ **Condition**, laissez la valeur définie sur *Toujours*.  
-    3. Dans le champ **Alors, réponse**, choisissez le lien **Sélectionner la réponse**, puis, sur la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez la réponse *Ignorer les nouvelles valeurs*.  
+    3. Dans le champ **Alors, réponse**, choisissez le lien **Sélectionner la réponse**. Ensuite, sur la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez la réponse *Ignorer les nouvelles valeurs*.  
     4. Choisissez le lien **Ajouter d’autres réponses**, puis ajoutez une entrée pour la réponse *Rejeter la demande d’approbation pour l’enregistrement et créer une notification*.
-    5. Cliquez sur le bouton **OK**.  
+    5. Cliquez sur **OK**.  
 9. Pour activer le flux de travail, activez le bouton à bascule **Activé**.  
 
 L'illustration suivante donne un aperçu du résultat de cette procédure.  
@@ -188,13 +179,12 @@ Ensuite, testez le flux de travail en ouvrant une fiche fournisseur existante et
 
 [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)  
 [Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md)  
-[Configuration de notifications de flux de travail](across-setting-up-workflow-notifications.md)  
+[Configuration de notifications de flux de travail approbation](across-setting-up-workflow-notifications.md)  
 [Afficher des instances d’étape de flux de travail archivées](across-how-to-view-archived-workflow-step-instances.md)  
-[Supprimer des flux de travail](across-how-to-delete-workflows.md)  
-[Procédure pas à pas : configuration et utilisation d’un flux d’approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Paramétrage des flux de travail](across-set-up-workflows.md)  
-[Utiliser des flux de travail](across-use-workflows.md)  
+[Suppression des flux d’approbation](across-how-to-delete-workflows.md)  
+[Procédure pas à pas : Configuration et utilisation d’un flux d’approbation d’achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Configurer les flux de travail approbation](across-set-up-workflows.md)  
+[Utilisation des flux d’approbation](across-use-workflows.md)  
 [Flux de travail](across-workflow.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

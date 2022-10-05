@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
-ms.date: 04/01/2021
+ms.date: 09/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: a25fdcf9760d5677885c3927cb07d20cfa7e8387
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46055056fc17b4997b5e49ccefe8cd104bef0a6d
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521009"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585880"
 ---
 # <a name="use-dynamics-365-sales-from-business-central"></a>Utiliser Dynamics 365 Sales depuis Business Central
 Si vous utilisez Dynamics 365 Sales for Customer Engagement, bénéficiez de l’intégration parfaite dans le processus allant du prospect à l’encaissement à l’aide de [!INCLUDE[prod_short](includes/prod_short.md)] pour les activités principales, telles que le traitement des commandes, la gestion des stocks et de vos finances.
@@ -76,7 +76,7 @@ Ceci peut également fonctionner si la commande vente d’origine indique les bi
 
 Si la désignation de l’article sur la commande vente d’origine est très longue, alors une ligne commande vente supplémentaire de type **Commentaire** est créée pour stocker le texte intégral de la commande vente dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Les mises à jour vers les champs d’en-tête commande vente, tels que Date dernière expédition ou Date livraison demandée, qui sont mappés dans le mappage de tables d’intégration **COMMANDEVENTE-COMMANDE**, sont synchronisées régulièrement avec [!INCLUDE[crm_md](includes/crm_md.md)]. Les processus tels que lancer une commande vente et expédier ou facturer une commande vente sont validés vers la chronologie de commande vente dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour en savoir plus, voir [Introduction aux flux d’activité](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
+Les mises à jour vers les champs d’en-tête commande vente, tels que Date dernière expédition ou Date livraison demandée, qui sont mappés dans le mappage de tables d’intégration **COMMANDEVENTE-COMMANDE**, sont synchronisées régulièrement avec [!INCLUDE[crm_md](includes/crm_md.md)]. Les processus tels que lancer une commande vente et expédier ou facturer une commande vente sont validés vers la chronologie de commande vente dans [!INCLUDE[crm_md](includes/crm_md.md)]. Pour en savoir plus, voir [Introduction aux flux d’activité](/dynamics365/sales-enterprise/manage-activities). Pour activer la publication et les activités des commandes dans [!INCLUDE[crm_md](includes/crm_md.md)], voir [Configurer le contrôle Notes pour accéder aux informations sur les publications d’une entité personnalisée](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) dans la documentation Customer Engagement. L’article fait référence à Customer Engagement (on-premises), mais les étapes sont les mêmes pour la version en ligne. <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
 > La synchronisation périodique basée sur le mappage de tables d’intégration **COMMANDEVENTE-COMMANDE** fonctionne uniquement lorsque l’intégration de la commande vente est activée. Pour en savoir plus, consultez [Paramètres de connexion sur la page Paramètres de connexion Sales](admin-prepare-dynamics-365-for-sales-for-integration.md). Seules les commandes vente créées à partir des commandes vente envoyées dans [!INCLUDE[crm_md](includes/crm_md.md)] sont synchronisées. Pour plus d’informations, voir [Activer l’intégration du traitement des commandes vente](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
