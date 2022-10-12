@@ -1,6 +1,6 @@
 ---
 title: Paramétrage imprimantes
-description: Découvrez comment configurer des imprimantes que vous pouvez utiliser pour les rapports et les documents et les différentes fonctionnalités d’impression disponibles dans Business Central.
+description: Découvrez comment configurer des imprimantes que vous pouvez utiliser pour les états et les documents et les différentes fonctionnalités d’impression disponibles dans Business Central.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900,
-ms.date: 06/24/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: c1b55f213ad738deb03a5f13afccbc8f4bac10b2
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 07cda9c796a08436dc48d623f64fcc1252305a14
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585718"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607758"
 ---
 # <a name="set-up-printers"></a>Paramétrage imprimantes
 
@@ -50,15 +50,16 @@ La configuration complète nécessite que vous travailliez dans Microsoft Azure,
 
 **Pour [!INCLUDE[prod_short](includes/prod_short.md)]**
 
-- 1re vague de lancement 2021 de [!INCLUDE[prod_short](includes/prod_short.md)] ou ultérieure
-- L′extension **Intégration d′impression universelle** est installée
+- 1re vague de lancement 2021 de [!INCLUDE[prod_short](includes/prod_short.md)] ou ultérieure.
+- L′extension **Intégration d′impression universelle** est installée.
 
-    Cette extension est publiée et installée par défaut dans le cadre de [!INCLUDE[prod_short](includes/prod_short.md)] Online et sur site.  Vous pouvez vérifier s′il est installé sur la page **Gestion des extensions**. Pour plus d’informations, consultez [Installation et désinstallation d’extensions dans Business Central](ui-extensions-install-uninstall.md).
+    Cette extension est publiée et installée par défaut dans le cadre de [!INCLUDE[prod_short](includes/prod_short.md)] Online et sur site. Vous pouvez vérifier s′il est installé sur la page **Gestion des extensions**. En savoir plus sur [Installation et désinstallation d’extensions dans Business Central](ui-extensions-install-uninstall.md).
+
 - [!INCLUDE[prod_short](includes/prod_short.md)] sur site :
-  - L’authentification NavUserPassword ou Azure Active Directory (AD) est configurée
-  - Une application pour Business Central est enregistrée dans votre abonné Azure AD et [!INCLUDE[prod_short](includes/prod_short.md)]
+  - L’authentification NavUserPassword ou Azure Active Directory (AD) est configurée.
+  - Une application pour Business Central est enregistrée dans votre abonné Azure AD et [!INCLUDE[prod_short](includes/prod_short.md)].
 
-      Comme d′autres services Azure qui fonctionnent avec [!INCLUDE[prod_short](includes/prod_short.md)], l′impression universelle nécessite une inscription d′application pour [!INCLUDE[prod_short](includes/prod_short.md)] dans Azure Active Directory (Azure AD). L’enregistrement de l’application fournit des services d’authentification et d’autorisation entre [!INCLUDE[prod_short](includes/prod_short.md)] et l′impression universelle.
+      Comme d′autres services Azure qui fonctionnent avec [!INCLUDE[prod_short](includes/prod_short.md)], l′impression universelle nécessite une inscription d′application pour [!INCLUDE[prod_short](includes/prod_short.md)] dans Azure AD. L’enregistrement de l’application fournit des services d’authentification et d’autorisation entre [!INCLUDE[prod_short](includes/prod_short.md)] et l′impression universelle.
 
       Votre déploiement utilise peut-être déjà une inscription d′application pour d′autres services Azure, comme Power BI. Si tel est le cas, utilisez également l′enregistrement d′application existant pour l′impression universelle, au lieu d′en ajouter un nouveau. La seule chose que vous devez faire, dans ce cas, est de modifier l′inscription de l′application pour inclure les autorisations d′impression appropriées pour l′API Microsoft Graph.
 
@@ -68,7 +69,7 @@ La configuration complète nécessite que vous travailliez dans Microsoft Azure,
 
 - Un abonnement/licence à l′impression universelle pour votre organisation.
 
-    Pour plus d′informations, consultez [Licence d′impression universelle](/universal-print/fundamentals/universal-print-license).
+    En savoir plus sur l’[Licence d’impression universelle](/universal-print/fundamentals/universal-print-license).
 
 - Vous avez les rôles **Gestion des imprimantes** et **Administrateur général** dans Azure.
 
@@ -86,15 +87,15 @@ Pour obtenir des instructions détaillées sur la configuration, consultez [Prem
 
     - Avec [!INCLUDE[prod_short](includes/prod_short.md)] Online, vous attribuez des licences à l′aide du centre d′administration Microsoft 365.
 
-      Pour plus d′informations, consultez [Aide du Centre d′administration Microsoft – Attribuer des licences aux utilisateurs](/microsoft-365/admin/manage/assign-licenses-to-users).
+      En savoir plus sur [Aide du Centre d′administration Microsoft – Attribuer des licences aux utilisateurs](/microsoft-365/admin/manage/assign-licenses-to-users).
 
     - Avec [!INCLUDE[prod_short](includes/prod_short.md)] local, vous attribuez des licences dans votre client Azure à l′aide du portail Azure.
 
-      Pour plus d′informations, consultez [Azure Directory – Attribuez ou supprimez des licences dans le portail Azure Active Directory](/azure/active-directory/fundamentals/license-users-groups).
+      En savoir plus sur [Azure Directory – Attribuez ou supprimez des licences dans le portail Azure Active Directory](/azure/active-directory/fundamentals/license-users-groups).
 
 2. Installez le connecteur de l′impression universelle pour enregistrer les imprimantes qui ne peuvent pas communiquer directement avec l′impression universelle.
 
-    La plupart des imprimantes du marché ne peuvent pas communiquer directement avec l′impression universelle. Vous devrez installer le connecteur l′impression universelle pour ces imprimantes. Pour plus d′informations, consultez [Installation du connecteur d′impression universel](/universal-print/fundamentals/universal-print-connector-installation).
+    La plupart des imprimantes du marché ne peuvent pas communiquer directement avec l′impression universelle. Aussi, vous devez installer le connecteur d’impression universelle. Pour plus d′informations, consultez [Installation du connecteur d′impression universel](/universal-print/fundamentals/universal-print-connector-installation).
 
 3. Enregistrez vos imprimantes dans l′impression universelle.
 
@@ -104,7 +105,7 @@ Pour obtenir des instructions détaillées sur la configuration, consultez [Prem
 
     - Pour les autres imprimantes, enregistrez les imprimantes à l′aide du connecteur d′impression universelle. 
 
-      Pour plus d’informations, voir [Enregistrement d′une imprimante](/universal-print/fundamentals/universal-print-connector-printer-registration).
+      En savoir plus sur l’[enregistrement de l’imprimante](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Modifier les propriétés de l′imprimante (facultatif)
 
@@ -116,34 +117,34 @@ Pour obtenir des instructions détaillées sur la configuration, consultez [Prem
 
     Toute imprimante que vous souhaitez utiliser [!INCLUDE[prod_short](includes/prod_short.md)] devra être partagé dans l′impression universelle.
 
-    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+    <!--Learn more at [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
 
-    Pour plus d’informations, voir [Partager une imprimante](/universal-print/portal/share-printers).
+    En savoir plus sur [Partager une imprimante](/universal-print/portal/share-printers).
 
 6. Donnez aux utilisateurs l′autorisation pour accéder aux imprimantes partagées.
 
-    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+    <!--Learn more at [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
 
-    Pour plus d’informations, voir [Autorisations d′une imprimante](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+    En savoir plus sur [Autorisations de l’imprimante](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
 
 
 7. Activez la conversion de documents.
 
     L′impression universelle rend le contenu pour l′impression au format XPS. Certaines imprimantes existantes sur le marché ne prennent pas en charge le rendu de contenu XPS&mdash; dans de nombreux cas, uniquement au format PDF. L′impression sur ces imprimantes échouera à moins que l′impression universelle ne soit configuré pour convertir les documents au format pris en charge par l′imprimante.
 
-    Pour plus d′informations, consultez [Présentation de la conversion de documents](/universal-print/portal/document-conversion).
+    En savoir plus sur [Présentation de la conversion de documents](/universal-print/portal/document-conversion).
 
-Vous êtes maintenant prêt à ajouter les imprimantes à [!INCLUDE[prod_short](includes/prod_short.md)], configurez les imprimantes par défaut pour les rapports et imprimez.  
+Vous êtes maintenant prêt à ajouter les imprimantes à [!INCLUDE[prod_short](includes/prod_short.md)], configurez les imprimantes par défaut pour les états et imprimez.  
 
 ### <a name="add-universal-print-printers-to-business-central"></a>Ajouter des imprimantes d′impression universelle à Business Central
 
 Une fois les imprimantes configurées et partagées dans l′impression universelle, vous êtes prêt à les utiliser dans Business Central. Il existe deux façons d′ajouter des imprimantes à impression universelle. Vous pouvez ajouter les imprimantes toutes à la fois ou individuellement, une à la fois.
 
-L′ajout d′imprimantes individuellement vous permet de configurer plusieurs fois la même imprimante d′impression universelle dans Business Central. Ensuite, pour chaque imprimante ajoutée, vous pouvez modifier les paramètres d′impression, tels que le bac à papier, le format et l′orientation. De cette façon, vous pouvez configurer des imprimantes pour différents rapports et documents qui ont des exigences de sortie spéciales.
+L′ajout d′imprimantes individuellement vous permet de configurer plusieurs fois la même imprimante d′impression universelle dans Business Central. Ensuite, pour chaque imprimante ajoutée, vous pouvez modifier les paramètres d′impression, tels que le bac à papier, le format et l′orientation. De cette façon, vous pouvez configurer des imprimantes pour différents états et documents qui ont des exigences de sortie spéciales.
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des imprimantes**, puis sélectionnez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des imprimantes**, puis sélectionnez le lien associé.
 2. Sélectionnez **l′impression universelle**, puis l’une des options suivantes :
 
     - **Ajouter toutes les imprimantes l′impression universelle** pour ajouter toutes les imprimantes qui ne sont pas déjà ajoutées. Vous pouvez utiliser cette option même si des imprimantes ont déjà été ajoutées. 
@@ -160,7 +161,7 @@ L′ajout d′imprimantes individuellement vous permet de configurer plusieurs f
     > [!NOTE]
     > Pour les sites locaux, s′il s′agit de la première connexion à l′impression universelle, la page AUTORISATIONS AZURE ACTIVE DIRECTORY SERVICE s′affiche et vous serez invité à donner votre consentement aux services Azure. Vous ne devez accorder votre consentement qu’une seule fois.
 
-Une fois qu′une imprimante a été ajoutée, vous pouvez afficher et modifier ses paramètres à partir de **Gestion des imprimantes**. Sélectionnez simplement l′imprimante, puis choisissez **Modifier les paramètres de l′imprimante**. 
+Une fois qu′une imprimante a été ajoutée, vous pouvez afficher et modifier ses paramètres à partir de la page **Gestion des imprimantes**. Sélectionnez simplement l′imprimante, puis choisissez **Modifier les paramètres de l′imprimante**. 
 
 <!--
 ### Troubleshooting
@@ -183,9 +184,9 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 ## You don't have access to the printer
 
-- You have not been assigned a Up license
+- You have not been assigned an UP license
 - You have not been given access to the printer in UP.
-- (On-prem) The app registration has been broken
+- (On-premises) The app registration has been broken.
 -->
 ## <a name="set-up-email-print"></a>Configurer l′impression d′e-mails
 
@@ -194,16 +195,16 @@ There is a technical problem withe the printer. Unsupported document-format: app
 - 1re vague de lancement 2020 de [!INCLUDE[prod_short](includes/prod_short.md)] ou ultérieure
 - L′extension **Envoyer à une imprimante e-mail** est installée
 
-    Cette extension est installée par défaut. Pour plus d′informations sur l′installation d′extensions, consultez 
+    Cette extension est installée par défaut. Pour plus d′informations sur l′installation d′extensions, consultez<!--see what?--> 
 - La fonctionnalité de messagerie est configurée.
 
-   Pour plus d’informations, voir [Configurer la messagerie](admin-how-setup-email.md).
+   En savoir plus sur [Configurer les e-mails](admin-how-setup-email.md).
 
 ### <a name="add-an-email-printer"></a>Ajouter une imprimante par e-mail
 
 La page **Gestion des imprimantes** affiche les imprimantes configurées actuellement. La page vous donne également accès à la page **Paramètres** pour chaque imprimante pour modifier une configuration existante ou configurer une nouvelle imprimante.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des imprimantes**, puis sélectionnez le lien associé.
+1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des imprimantes**, puis sélectionnez le lien associé.
 2. Sélectionner **Imprimer par e-mail**, puis choisissez **Ajouter une imprimante e-mail**.
 3. Sur la page **Paramètres de l′imprimante par e-mail**, renseignez les champs nécessaires. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -216,8 +217,7 @@ La page **Gestion des imprimantes** affiche les imprimantes configurées actuell
 
 Si vous utilisez l’extension Imprimante par e-mail, tout ou partie des travaux d’impression sont envoyés à l’adresse e-mail configurée pour l’imprimante. Nous vous recommandons vivement d’associer un ID e-mail unique à un périphérique d’impression en utilisant uniquement les services officiels fournis par le fabricant du matériel, tels que HP ePrint, KonicaMinolta EveryonePrint ou Epson Email Print.
 
-Prenez toutes les précautions de confidentialité nécessaires, notamment en veillant à configurer correctement les autorisations, les paramètres de confidentialité et les stratégies de conservation de la solution d’impression d’e-mails. Il est de votre responsabilité de fournir une adresse e-mail correcte, vérifiée et opérationnelle. Pour en savoir plus, consultez la [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/privacystatement).
-
+Prenez toutes les précautions de confidentialité nécessaires, notamment en veillant à configurer correctement les autorisations, les paramètres de confidentialité et les stratégies de conservation de la solution d’impression d’e-mails. Il est de votre responsabilité de fournir une adresse e-mail correcte, vérifiée et opérationnelle. En savoir plus sur la [déclaration de confidentialité Microsoft](https://privacy.microsoft.com/privacystatement).
 
 ## <a name="set-up-default-printers"></a><a name="default"></a>Paramétrer des imprimantes par défaut
 
@@ -227,7 +227,7 @@ Il existe plusieurs façons de configurer les imprimantes qui seront utilisées 
 
 La page **Gestion des imprimantes** vous permet de configurer une imprimante comme imprimante par défaut pour tous les travaux d′impression. Vous pouvez spécifier l′imprimante par défaut pour vous uniquement ou pour tous les utilisateurs.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des imprimantes**, puis sélectionnez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des imprimantes**, puis sélectionnez le lien associé.
 
     > [!TIP]
     > Vous pouvez également ouvrir la page **Gestion des imprimantes** de la page **Sélections d′imprimantes** en choisissant **Gestion des imprimantes**.  
@@ -257,7 +257,7 @@ L’état spécifié est désormais configuré pour être imprimé sur l’impri
 
 Vous pouvez ou l’administrateur peut également utiliser la page **Sélections d’imprimantes** pour définir d’autres variantes d’impression pour les utilisateurs et les états. Le tableau suivant décrit les combinaisons de valeurs nécessaires pour spécifier une autre configuration d’impression pour un état.
 
-|Pour                                                 |Définir les valeurs suivantes                                             |
+|À                                                 |Définir les valeurs suivantes                                             |
 |---------------------------------------------------|---------------------------------------------------------------------|
 |Imprimer un état sur une imprimante spécifique pour tous les utilisateurs |Spécifiez une valeur dans les champs **ID état** et **Nom de l’imprimante** et ne renseignez pas le champ **ID utilisateur**.|
 |Imprimer tous les états sur une imprimante spécifique pour un utilisateur spécifique|Spécifiez une valeur dans les champs **ID utilisateur** et **Nom de l’imprimante** et ne renseignez pas le champ **ID état**. Cette entrée fait la même chose que l′action **Définir comme imprimante par défaut** sur la page **Gestion d′impression**.|
@@ -276,7 +276,7 @@ Au lieu d’utiliser l’imprimante par défaut lors de l’exécution d’un ra
 
 L’impression cloud est conçue pour des documents de taille raisonnable. La plupart des services cloud, y compris PrintNode et HP ePrint, ont une limite de 10 Mo par tâche. Si vous devez imprimer des rapports plus volumineux, vous devrez peut-être les diviser en plusieurs impressions.
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/) associée.
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -284,6 +284,5 @@ L’impression cloud est conçue pour des documents de taille raisonnable. La pl
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exécuter des traitements par lots](ui-how-run-batch-jobs.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

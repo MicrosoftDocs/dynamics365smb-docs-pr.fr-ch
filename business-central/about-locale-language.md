@@ -10,12 +10,12 @@ ms.search.keywords: language, locale, localization, culture, region, regional se
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdac371269e523f30712d4cb0be1087e07e70d5e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 23cb50952e1fda9a8dc46398aaf5054e7e03e3ed
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655529"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606845"
 ---
 # <a name="changing-language-and-region"></a>Modification de la langue et de la région
 
@@ -23,7 +23,7 @@ ms.locfileid: "8655529"
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-Par exemple, vous utilisez la version canadienne de [!INCLUDE[prod_short](includes/prod_short.md)]. Cela signifie que vous pouvez voir l'interface utilisateur en anglais, allemand, français ou une autre langue, mais il s’agit toujours de la version canadienne de [!INCLUDE[prod_short](includes/prod_short.md)]. Ce n’est pas la même chose que [!INCLUDE[prod_short](includes/prod_short.md)] en allemand où la fonctionnalité a été adaptée aux exigences de ce marché.  
+Par exemple, vous utilisez la version canadienne de [!INCLUDE[prod_short](includes/prod_short.md)]. Cela signifie que vous pouvez voir l’interface utilisateur en anglais, allemand, français ou une autre langue, mais il s’agit toujours de la version canadienne de [!INCLUDE[prod_short](includes/prod_short.md)]. Ce n’est pas la même chose que [!INCLUDE[prod_short](includes/prod_short.md)] en allemand où la fonctionnalité a été adaptée aux exigences de ce marché.  
 
 Pour modifier la langue de l’interface utilisateur, accédez à la page **Mes paramètres**. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md#language). 
 
@@ -58,14 +58,14 @@ Dans la page **Aide et support**, vous pouvez voir quelle version de [!INCLUDE[p
 
 ## <a name="languages-of-the-prod_short-help"></a>Langues de l’aide de [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Le contenu de l’aide de la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] est publié sur le site Microsoft Docs. Le contenu est disponible dans différentes langues. Si vous accédez aux documents au sein de [!INCLUDE[prod_short](includes/prod_short.md)], le contenu s’affichera dans votre langue. Par défaut, si une page spécifique n’est pas encore disponible dans votre langue, elle s’affichera en anglais.
+Le contenu de l’aide de la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] publié sur Microsoft Learn. Le contenu est disponible dans différentes langues. Si vous accédez à la documentation à partir de [!INCLUDE[prod_short](includes/prod_short.md)], le contenu s’affichera dans votre langue. Par défaut, si une page spécifique n’est pas encore disponible dans votre langue, elle s’affichera en anglais.
 
-### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Comment changer la langue du site Microsoft Docs ?
+### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Comment changer la langue du site Microsoft Learn ?
 
 C’est simple - accédez au bas de la page du navigateur et choisissez le symbole de globe dans le coin inférieur gauche.
 
 > [!NOTE]  
-> La liste indique toutes les langues qui sont prises en charge par le site Microsoft Docs. [!INCLUDE[prod_short](includes/prod_short.md)] est disponible dans un nombre limité de pays/régions, et le contenu de l’aide [!INCLUDE [prod_short](includes/prod_short.md)] n’est pas disponible dans toutes les langues prises en charge par le site Microsoft Docs.
+> La liste indique toutes les langues qui sont prises en charge par le site Microsoft Learn. [!INCLUDE[prod_short](includes/prod_short.md)] est disponible dans un nombre limité de pays/régions, et le contenu de l’aide [!INCLUDE [prod_short](includes/prod_short.md)] n’est pas disponible dans toutes les langues prises en charge par le site Microsoft Learn.
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -10,16 +10,16 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/14/2022
 ms.author: jswymer
-ms.openlocfilehash: 45f321afeb411eee4cb9f9dd215cefc393f58458
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 2a46c6eab31e89da0956a7d847a64792b18a2fcd
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529584"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606953"
 ---
-# <a name="working-with-excel-layouts"></a>Utilisation des présentations Excel
+# <a name="working-with-microsoft-excel-layouts"></a>Utilisation des présentations Microsoft Excel
 
-Les présentations d’état d’Excel sont basées sur les classeurs Microsoft Excel (fichiers .xlsx). Elles vous permettent de créer des rapports en utilisant des fonctionnalités Excel familières pour résumer, analyser et présenter des données, telles que des formules, des tableaux croisés dynamiques et des graphiques croisés dynamiques.
+Les présentations d’état de Microsoft Excel sont basées sur les classeurs Excel (fichiers .xlsx). Elles vous permettent de créer des états en utilisant des fonctionnalités Excel familières pour résumer, analyser et présenter des données avec des outils comme des formules, des tableaux croisés dynamiques et des graphiques croisés dynamiques, etc.
 
 ![Affiche un exemple de présentation Excel.](media/excel-layout-2.png)
 
@@ -27,18 +27,18 @@ Cet article explique certaines des choses les plus importantes que vous devez sa
 
 ## <a name="why-use-excel-layouts"></a>Pourquoi utiliser des présentations Excel ?
 
-Voici quelques autres avantages de l’utilisation des présentations Excel :
+Avantages de l’utilisation des mises en page Excel :
 
-- Vous pouvez créer des rapports interactifs à l’aide de visualisations telles que des segments
-- Vous pouvez afficher les données brutes de l’ensemble de données du rapport pour vous aider à comprendre comment il fonctionne et d’où proviennent les données sur les visuels
-- Vous pouvez utiliser les fonctionnalités Office intégrées pour effectuer un post-traitement sur les rapports rendus, comme :
-  - [Protéger les feuilles de travail](https://support.microsoft.com/en-us/office/protect-a-worksheet-3179efdb-1285-4d49-a9c3-f4ca36276de6)
-  - [Appliquer des étiquettes de sensibilité](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
-  - [Ajouter des commentaires et des notes](https://support.microsoft.com/en-us/office/insert-comments-and-notes-in-excel-65f504d8-160b-4a05-ac30-46fbd5227a52)
-  - [Faire des prévisions et des analyses](https://support.microsoft.com/en-us/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4) 
+- Vous pouvez créer des états interactifs à l’aide de visualisations telles que des segments.
+- Vous pouvez afficher les données brutes de l’ensemble de données de rapport pour vous aider à comprendre comment il fonctionne et d’où proviennent les données sur les visuels.
+- Vous pouvez utiliser les fonctionnalités Microsoft Office intégrées pour effectuer un post-traitement sur les rapports rendus, comme :
+  - [Protéger les feuilles de travail](https://support.microsoft.com/office/protect-a-worksheet-3179efdb-1285-4d49-a9c3-f4ca36276de6)
+  - [Appliquer des étiquettes de sensibilité](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+  - [Ajouter des commentaires et des notes](https://support.microsoft.com/office/insert-comments-and-notes-in-excel-65f504d8-160b-4a05-ac30-46fbd5227a52)
+  - [Faire des prévisions et des analyses](https://support.microsoft.com/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4)
 - Vous pouvez utiliser les compléments installés et les intégrations d’applications, comme les flux Power Automate ou OneDrive.
 
-## <a name="get-started"></a>Démarrer
+## <a name="get-started"></a>Mise en route
 
 Il existe essentiellement deux tâches impliquées dans la configuration d’une présentation Excel sur un état :
 
@@ -47,22 +47,22 @@ Il existe essentiellement deux tâches impliquées dans la configuration d’une
 
 ## <a name="task-1-create-the-excel-layout-file"></a>Tâche 1 : Créer le fichier de présentation Excel
 
-Il existe trois façons de créer un fichier de présentation Excel pour un rapport, comme expliqué dans cette section
+Il existe trois façons de créer un fichier de présentation Excel pour un rapport, comme expliqué dans cette section.
 
 ### <a name="from-any-report"></a>[À partir d’un rapport quelconque](#tab/any-report)
 
-Vous pouvez utiliser les étapes suivantes pour créer une présentation Excel à partir de n’importe quel état, quel que soit le type de présentation actuel. La présentation Excel contiendra la feuille **Données** et le tableau requis, une feuille **Métadonnées de l’état**, et rien d’autre.
+Procédez comme suit pour créer une présentation Excel à partir de n’importe quel état, quel que soit le type de présentation actuel. La présentation Excel contiendra la feuille **Données** et le tableau requis, une feuille **Métadonnées de l’état**, et rien d’autre.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-2. Dans la liste **Présentations d’état**, sélectionnez une présentation pour l’état, puis choisissez l’action **Exécuter état**.
+2. Sur la page **Présentations d’état**, sélectionnez une présentation pour l’état, puis choisissez l’action **Exécuter état**.
 3. Sur la page de demande d’état, sélectionnez **Envoyer à** > **Document Microsoft Excel (données uniquement)** > **OK**.
 
    Cette étape télécharge un classeur Excel contenant le jeu de données de l’état.
 4. Ouvrez le fichier Excel téléchargé, effectuez vos modifications, puis enregistrez le fichier.
 
-### <a name="from-another-excel-layout-on-a-report"></a>[À partir d’une autre présentation Excel sur un état](#tab/other-layout)
+### <a name="from-another-excel-report-layout"></a>[À partir d’une autre présentation Excel sur un état](#tab/other-layout)
 
-S’il existe déjà une présentation Excel pour un état, utilisez celle existante comme point de départ. Il existe deux approches pour obtenir une copie de la présentation. Vous pouvez exporter la présentation existante à partir de la page **Présentations d’état** ou télécharger la présentation à partir de la page de demande d’état. Les deux méthodes téléchargent un fichier de présentation Excel qui inclut toutes les feuilles du fichier existant. La différence est qu’à partir de la page de demande, la présentation inclura les données réelles. Les données ne sont pas obligatoires, mais elles aident lors de la conception de la présentation.
+S’il existe déjà une présentation Excel pour un état, utilisez celle existante comme point de départ. Il existe deux approches pour obtenir une copie de la présentation. Vous pouvez exporter la présentation existante à partir de la page **Présentations d’état** ou télécharger la présentation à partir de la page de demande d’état. Les deux méthodes téléchargent un fichier de présentation Excel qui inclut toutes les feuilles du fichier existant. La différence est qu’à partir de la page de demande, la présentation inclura les données réelles. (Les données ne sont pas obligatoires, mais elles aident lors de la conception de la présentation.)
 
 #### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Approche 1 : Exporter la présentation à partir de la page **Présentations d’état**
 
@@ -73,13 +73,13 @@ S’il existe déjà une présentation Excel pour un état, utilisez celle exist
 #### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Approche 2 : Téléchargez la présentation à partir de la page de demande de l’état
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
-2. Dans la liste **Présentations d’état**, sélectionnez une présentation pour l’état, puis choisissez l’action **Exécuter état**.
+2. Sur la page **Présentations d’état**, sélectionnez une présentation pour l’état, puis choisissez l’action **Exécuter état**.
 3. Sur la page de demande de l’état, sélectionnez **Télécharger**.
 4. Ouvrez le fichier Excel, effectuez vos modifications, puis enregistrez le fichier.
 
 ### <a name="from-al-code"></a>[À partir du code AL](#tab/from-code)
 
-Cette façon de faire est la plus avancée. Elle nécessite une connaissance du code AL, elle cible donc les programmeurs. Les mises en page Excel, dans ce cas, font partie d’un package d’extension que vous installez. Pour plus d’informations, voir [Création d’une présentation état Excel](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) dans l′aide dédiée aux développeurs et aux professionnels de l’informatique.
+Il s’agit de la méthode la plus avancée pour créer une présentation d’état Excel. Elle nécessite une connaissance du code AL, elle cible donc les programmeurs. Avec cette approche, les mises en page Excel, dans ce cas, font partie d’un package d’extension que vous installez. Pour plus d’informations, voir [Création d’une présentation état Excel](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) dans l′aide dédiée aux développeurs et aux professionnels de l’informatique.
 
 ---
 
@@ -89,28 +89,27 @@ Une fois que vous avez le fichier de présentation Excel, la tâche suivante con
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Sélectionnez **Nouvelle présentation**.
-3. Définissez le champ **ID état** sur état.
+3. Définissez **ID état** sur *État*.
 4. Entrez un nom dans **Nom présentation**.
 5. Définissez **Options de format** sur **Excel**.
-6. Sélectionnez **OK** > **Choisir** pour ouvrir l’explorateur de fichiers sur votre appareil. 
+6. Sélectionnez **OK** > **Choisir** pour ouvrir l’explorateur de fichiers sur votre appareil.
 7. Recherchez et sélectionnez le fichier Excel, puis sélectionnez **Ouvrir**.
 
-   Le fichier sélectionné est chargé dans la présentation et vous revenez à la page **Présentations d’état**.
+   Le fichier sélectionné est chargé dans la présentation et la page **Présentations d’état** s’ouvre.
 8. Si vous voulez voir à quoi ressemble l’état avec la nouvelle présentation, sélectionnez la présentation dans la liste, puis sélectionnez **Exécuter état**.
-
 
 <!--
 
 **Data** sheet
   - An Excel layout must contain a sheet named **Data**.
-  - The **Data** sheet can only include one table named **Data**.
+  - The **Data** sheet must include a table named **Data**.
 
 **Data** table
-  - The **Data** sheet must include a table that has the name **Data**.
-  - The table must have at least one column and can only include columns that are also in report dataset.
-  - The table must start in the first cell A1 of the **Data** sheet.
+  - The **Data** sheet must include a table named **Data**.
+  - The table must have at least one column and can only include columns that are also in the report dataset.
+  - The table must start in the first cell **A1** of the **Data** sheet.
 
-3. Report Metadata 
+3. Report metadata 
 -->
 
 ## <a name="understanding-excel-layouts"></a>Comprendre les présentations Excel
@@ -121,19 +120,19 @@ Il existe certaines exigences spécifiques à la structure du classeur Excel. Si
 
 [![Affiche les différents éléments d’une présentation Excel.](media/excel-layout-callouts-2.png)](media/excel-layout-callouts-2.png#lightbox)
 
-|Non.|Élément|Description|Obligatoire|
+|Non.|Élément|Désignation|Obligatoire|
 |---|-------|----|---|
-|1|Feuille de **Données**|<ul><li>Doit avoir le nom **Données**</li><li>Ne peut inclure qu’une seule table, et la table doit être nommée **Données**</li></ul>|![Est obligatoire](media/check.png) | 
-|2|Table de **Données**|<ul><li>Doit avoir le nom **Données**</li><li>Doit avoir au moins une colonne.</li><li>Ne peut inclure que les colonnes qui se trouvent dans le jeu de données de l’état.</li><li>Doit commencer dans la première cellule **A1** de la feuille de **Données**</li></ul>|![Est obligatoire](media/check.png)|
+|0|Feuille de **Données**|<ul><li>Doit avoir le nom **Données**.</li><li>Ne peut inclure qu’une seule table, et la table doit être nommée **Données**.</li></ul>|![Est obligatoire](media/check.png) | 
+|2|Table de **Données**|<ul><li>Doit avoir le nom **Données**.</li><li>Doit avoir au moins une colonne.</li><li>Ne peut inclure que les colonnes qui se trouvent dans le jeu de données de l’état.</li><li>Doit commencer dans la première cellule **A1** de la feuille de **Données**.</li></ul>|![Est obligatoire](media/check.png)|
 |3|Feuilles de présentation|<ul><li>Utilisées pour présenter des données.</li><li>Les données proviennent de la feuille de **Données**. </li></ul>||
-|4|Feuille de **Métadonnées de l’état**|<ul><li>Inclus automatiquement si la présentation a été créée en exportant un autre état au format Excel</li><li>Contient des informations générales sur l’état</li><li>Peut être supprimée</li></ul>|
+|4|Feuille de **Métadonnées de l’état**|<ul><li>Inclus automatiquement si la présentation a été créée en exportant un autre état au format Excel.</li><li>Contient des informations générales sur l’état.</li><li>Peut être supprimée.</li></ul>|
 
-Pour résumer ce que vous pouvez et ne pouvez pas faire sur la feuille de **Données** :
+En résumé, voici ce que vous devriez et ne devriez pas faire sur la feuille **Données** :
 
 - Ne changez pas le nom de la feuille de **Données**, de la table de **Données** ou des colonnes.
 - Vous pouvez supprimer ou masquer des colonnes.
 - N’ajoutez aucune colonne à moins qu’elle ne soit incluse dans l’ensemble de données de l’état.
-- Vous pouvez placer les feuilles dans n’importe quel ordre. Par exemple, la feuille de **Données** peut être la première ou la dernière.
+- Vous pouvez placer les feuilles dans n’importe quel ordre, avec la feuille **Données** en premier ou en dernier.
 
 ## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
@@ -142,11 +141,10 @@ Pour résumer ce que vous pouvez et ne pouvez pas faire sur la feuille de **Donn
 [Gestion des présentations d’état](ui-manage-report-layouts.md)  
 [Modifier la présentation actuelle de l’état](ui-how-change-layout-currently-used-report.md)  
 [Importer et exporter une présentation d’état ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
-[Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)  
-[Préparer Financial Reporting avec des tableaux d’analyse et des catégories de compte](bi-how-work-account-schedule.md)  
+[Utilisation des états, des traitements par lots et des ports XML](ui-work-report.md)  
+[Préparer Financial Reporting avec des données financières et des catégories de compte](bi-how-work-account-schedule.md)  
 [Veille économique](bi.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Analyse des données de rapport avec Excel](report-analyze-excel.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

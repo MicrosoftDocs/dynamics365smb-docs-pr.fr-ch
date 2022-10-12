@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135999"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605126"
 ---
 # <a name="set-up-payment-terms"></a>Configurer des conditions de paiement
 
@@ -35,7 +35,7 @@ Après avoir configuré les conditions de paiement, affectez-les aux clients et 
 > [!TIP]
 > Dans la version de base de [!INCLUDE [prod_short](includes/prod_short.md)], les conditions de paiement avec paiements partiels ne sont pas prises en charge. Au lieu de cela, vous devez utiliser la fonctionnalité de prépaiement. Pour plus d’informations, reportez\-vous à [Configuration des acomptes](finance-set-up-prepayments.md).
 >
-> Dans certains pays, vous *pouvez* mettre en place des conditions de paiement avec des paiements partiels. Pour savoir si cette fonctionnalité est prise en charge dans votre pays, consultez la section **Fonctionnalité locale** dans le volet de navigation sur le côté gauche du site [Docs.microsoft.com](about-localization.md).
+> Dans certains pays, vous *pouvez* mettre en place des conditions de paiement avec des paiements partiels. Pour savoir si cette fonctionnalité est prise en charge dans votre pays, consultez la section **Fonctionnalité locale** dans le volet de navigation sur le côté gauche d’un article [Microsoft Learn](about-localization.md).
 
 ## <a name="see-also"></a>Voir aussi
 

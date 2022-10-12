@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 82d08e1c072f74434ad50943a97baf77712cb171
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 1348066d757abc9768fe97fd6b5f7a337f96c5f6
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529422"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607142"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Affichage et édition dans Excel depuis Business Central
 
-Avec des pages qui affichent une liste d’enregistrements dans des lignes et des colonnes, comme une liste de clients, de commandes client ou de factures, vous pouvez exporter la liste vers Microsoft Excel et l’y afficher. Selon la page, vous avez deux options pour l’affichage dans Excel. Les deux options sont disponibles à partir de l’icône **Partager** ![Partager une page dans une autre application.](media/share-icon.png) en haut d’une page. Vous pouvez sélectionner l’action **Ouvrir dans Excel** ou l’action **Modifier dans Excel** sur la page. Cet article explique les différences entre les deux actions.
+Avec des pages qui affichent une liste d’enregistrements dans des lignes et des colonnes, comme une liste de clients, de commandes client ou de factures, vous pouvez exporter la liste vers Microsoft Excel et l’y afficher. Selon la page, vous avez deux options pour l’affichage dans Excel. Les deux options sont disponibles à partir de l’icône **Partager** ![Partager une page dans une autre application.](media/share-icon.png) en haut d’une page. Vous pouvez sélectionner l’action **Ouvrir dans Excel** ou l’action **Modifier dans Excel** sur la page. Cet article explique les deux actions.
 
 ## <a name="open-in-excel"></a>Ouvrir dans Excel
 
@@ -27,8 +27,7 @@ Avec l’action **Ouvrir dans Excel**, vous pouvez apporter des modifications au
 - Avec cette action, Excel tient compte de tous les filtres de la page qui limitent les enregistrements affichés. Le classeur Excel contiendra les mêmes lignes et colonnes figurant sur la page dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - Cette action fonctionne sur Windows et macOS.
-
-- À partir de la mise à jour 18.3, vous pouvez également afficher les listes affichées dans les parties de page, comme les lignes d’une commande client. 
+- [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
 > [!NOTE]
 > Pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site, l’action **Ouvrir dans Excel** est disponible par défaut. Cependant, si vous configurez [!INCLUDE[prod_short](includes/prod_short.md)] sur site pour la modification de données dans Excel, l’action **Ouvrir dans Excel** est alors remplacée par l’action **Modifier dans Excel**.
@@ -42,11 +41,20 @@ L’action **Modifier dans Excel** est disponible sur la plupart des listes, mai
 - Avec cette action, Excel respecte la plupart des filtres de la page qui limitent les enregistrements affichés, de sorte que le classeur Excel contiendra presque les mêmes enregistrements et colonnes.
 
 - Pour obtenir les dernières données de [!INCLUDE[prod_short](includes/prod_short.md)], choisissez **Actualiser** dans le volet Complément Excel.
+- [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
-- Vous pouvez changer la société en cours d’utilisation. Pour changer de société, sélectionnez l’icône **Options** ![Options de complément Excel.](media/cogwheel.png "Options du module complémentaire Excel") dans le volet Complément Excel, puis sélectionnez la société dans le champ **Société**.  
+### <a name="first-time-sign-in"></a>Première connexion
 
-    > [!IMPORTANT]
-    > Lors du changement de société, assurez-vous que le champ **Environnement** n’est pas vide. Si tel est le cas, définissez-le sur l’une des options disponibles ; sinon, le module complémentaire ne fonctionnera pas correctement.  
+L’action **Modifier dans Excel** nécessite que le complément Business Central soit installé dans Excel. Dans certains cas, votre administrateur peut avoir configuré le complément pour qu’il s’installe automatiquement pour vous. Dans ce cas, il vous suffit de vous connecter à Business Central dans le volet **Complément Excel** avec votre nom d’utilisateur et votre mot de passe. Sinon, le volet **Nouveau complément Office** s’ouvre. Pour installer le complément, sélectionnez **Faire confiance à ce complément**, ce qui a pour effet d’installer le complément directement depuis l’Office Store.
+
+Si le complément ne s’installe pas, contactez votre administrateur ou essayez de l’installer manuellement. Pour plus d’informations, consultez [Installer le complément manuellement pour votre propre usage](admin-deploy-excel-addin.md#install).
+
+### <a name="work-across-environments-and-companies"></a>Travailler dans plusieurs environnements et sociétés
+
+Vous pouvez changer la société en cours d’utilisation. Pour changer de société, sélectionnez l’icône **Options** ![Options de complément Excel.](media/cogwheel.png "Options du module complémentaire Excel") dans le volet Complément Excel, puis sélectionnez la société dans le champ **Société**.  
+
+> [!IMPORTANT]
+> Lors du changement de société, assurez-vous que le champ **Environnement** n’est pas vide. Si tel est le cas, définissez-le sur l’une des options disponibles ; sinon, le module complémentaire ne fonctionnera pas correctement.  
 
 Si vous apportez des modifications au module complémentaire, vous devez le recharger afin de mettre à jour la connexion. Pour recharger, utilisez le ![menu Module complémentaire Excel](media/excel-addin-menu.png "Menu Module complémentaire Excel") dans le coin supérieur droit du module complémentaire. Si vous ne pouvez pas charger le complément, parlez-en à votre administrateur. Si vous êtes l’administrateur, consultez [Obtenir le complément Business Central pour Excel](admin-deploy-excel-addin.md).
 
@@ -55,20 +63,9 @@ Si vous apportez des modifications au module complémentaire, vous devez le rech
 >
 > Pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site, l’action **Modifier dans Excel** est disponible seulement si le module complémentaire Excel a été configuré par votre administrateur, et uniquement pour le client web. Pour les administrateurs, si vous souhaitez connaître la manière de configurer le module complémentaire Excel, consultez [Configuration du module complémentaire Excel pour modifier des données Business Central](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
+### <a name="limits-when-using-excel-for-the-web"></a>Limites lors de l’utilisation d’Excel pour le Web 
 
-<!-- Note for later: here we're immediately jumping to pretty advanced topics like changing company or reloading the addin. Fine to keep them for now. In the future, we will first need to explain in more detail the actual functionality of the addin, primarily these sub-sections:
-
-Refreshing record data in Excel
-Editing and publishing back to Business Central
-Creating new records from Excel
-Crafting your own editable Excel.
-Point (4) is where it gets interesting for changing/specifying company, environment and other connection settings-->
-
-### <a name="first-time-sign-in"></a>Première connexion
-
-L’action **Modifier dans Excel** nécessite que le complément Business Central soit installé dans Excel. Dans certains cas, votre administrateur peut avoir configuré le complément pour qu’il s’installe automatiquement pour vous. Dans ce cas, il vous suffit de vous connecter à Business Central dans le volet **Complément Excel** avec votre nom d’utilisateur et votre mot de passe. Sinon, le volet **Nouveau complément Office** s’ouvre. Pour installer le complément, sélectionnez **Faire confiance à ce complément**, ce qui a pour effet d’installer le complément directement depuis l’Office Store.
-
-Si, pour une raison quelconque, le complément ne s’installe pas, contactez votre administrateur ou essayez de l’installer manuellement. Pour plus d’informations, consultez [Installer le complément manuellement pour votre propre usage](admin-deploy-excel-addin.md#install).
+Lorsque vous utilisez **Modifier dans Excel** sur les pages de liste pour les tables comportant de nombreuses colonnes, le classeur résultant peut comporter trop de colonnes pour que le fichier puisse être affiché dans Excel pour le Web. [!INCLUDE[prod_short](includes/prod_short.md)] limite automatiquement le classeur exporté à 100 colonnes lorsque OneDrive est configuré pour les fonctionnalités du système. 
 
 ## <a name="see-the-differences-between-the-options"></a>Voir les différences entre les options
 <br><br>  

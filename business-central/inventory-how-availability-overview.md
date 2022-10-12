@@ -9,16 +9,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
 ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
-ms.date: 06/16/2021
+ms.date: 09/21/2022
 ms.author: edupont
-ms.openlocfilehash: d87f18b6af045e371cefe88ed35f62bc028fab2f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b30c38789dcfe3c6fd639fedc1f8f2a7b0d0d47a
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515000"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605862"
 ---
 # <a name="view-the-availability-of-items"></a>Voir la disponibilité des articles
+
 Dans le contexte d’une tâche professionnelle, vous pouvez obtenir des informations avancées sur la disponibilité et l’emplacement d’un article, par exemple en discutant avec un client à propos d’une date de livraison.
 
 Vous pouvez afficher la disponibilité de tous les articles par magasin, et vous pouvez afficher la disponibilité de chaque article par événement ou par période. Un événement désigne tout mouvement de stock prévu, par exemple une expédition vente ou une réception enlogement transfert.
@@ -40,6 +41,7 @@ Dans [!INCLUDE[prod_short](includes/prod_short.md)], les chiffres de disponibili
 >   Les procédures suivantes décrivent comment afficher des informations avancées sur la disponibilité de la liste des articles et de la fiche article. Vous pouvez également accéder aux informations à partir des lignes de document vente, pour l’article sur la ligne. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Pour afficher la disponibilité d’un article en fonction de sa réception ou de sa livraison
+
 Vous pouvez afficher la disponibilité d’un article en fonction des mouvements de stock attendus sur la page **Disponibilité par événement**.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
@@ -50,6 +52,7 @@ Vous pouvez afficher la disponibilité d’un article en fonction des mouvements
 4. Sélectionnez la valeur dans le champ **Stock prévisionnel** pour afficher les écritures comptables articles ou ouvrez des documents qui constituent la valeur.
 
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Pour afficher la disponibilité d’un article dans différentes périodes
+
 Vous pouvez visualiser la disponibilité d’un article dans le temps pour les périodes définies sur la page **Disponibilité art. par période**.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
@@ -60,6 +63,7 @@ Vous pouvez visualiser la disponibilité d’un article dans le temps pour les p
 4. Sélectionnez la valeur dans le champ **Stock prévisionnel** pour afficher les écritures comptables articles ou ouvrez des documents qui constituent la valeur.
 
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Pour afficher la disponibilité d’un article dans les magasins dans lesquels il est stocké
+
 Vous pouvez afficher la disponibilité d’un article dans les magasins dans lesquels il est stocké sur la page **Disponibilité art. par magasin**.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
@@ -71,6 +75,7 @@ Vous pouvez afficher la disponibilité d’un article dans les magasins dans les
 5. Sélectionnez la valeur dans le champ **Stock prévisionnel** pour afficher les écritures comptables articles ou ouvrez des documents qui constituent la valeur.
 
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Pour afficher la disponibilité de tous les articles en fonction des magasins où ils sont stockés
+
 Vous pouvez afficher la disponibilité de tous vos articles dans tous vos magasins sur la page **Articles par magasin**.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
@@ -80,6 +85,7 @@ Vous pouvez afficher la disponibilité de tous vos articles dans tous vos magasi
 3. Sélectionnez la valeur dans le champ **Qté disponible** pour afficher les écritures comptables articles qui constituent la valeur.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Pour afficher la disponibilité d’un article en fonction de son utilisation dans les nomenclatures d’assemblage ou de production
+
 Si un article figure dans les nomenclatures d’assemblage ou de production, comme article parent ou composant, vous pouvez afficher le nombre d’unités nécessaires sur la page **Disponibilité article par niveau de nomenclature**. La page indique le nombre d’unités d’un article parent vous pouvez réaliser en fonction de la disponibilité des éléments enfants sur les lignes sous-jacentes. Tout article qui a une nomenclature d’assemblage ou de production est affiché sur la page sous forme de ligne réductible. Vous pouvez développer cette ligne pour afficher les composants sous-jacents et les sous-assemblages de niveau inférieur avec leurs propres nomenclatures.
 
 Par exemple, vous pouvez utiliser la page pour déterminer si vous pouvez traiter une commande vente d’un article à une date spécifique, en consultant sa disponibilité actuelle et les quantités que ses composants peuvent fournir. Vous pouvez également utiliser la page pour identifier les goulets d’étranglement dans des nomenclatures associées.
@@ -92,6 +98,7 @@ Sur chaque ligne de la page pour les articles parents et les éléments enfants,
 |**Capable de fabriquer le meilleur article**|Indique le nombre d’unités de l’article supérieur que vous pouvez effectuer. Ce champ indique combien d’unités de l’article de la nomenclature sur la ligne supérieure vous pouvez assembler. La valeur est basée sur la disponibilité de l’article sur la ligne.|
 
 ### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>Pour afficher la disponibilité d’un article en fonction de la demande pour son parent
+
 La page **Disponibilité article par niveau de nomenclature** affiche les informations de l’article figurant sur la fiche ou la ligne document pour laquelle la page est ouverte. l’article est toujours indiqué sur la ligne supérieure. Vous pouvez visualiser les informations d’autres articles ou de tous les articles en changeant la valeur du champ **Filtre article**.
 
 > [!NOTE]  
@@ -100,12 +107,29 @@ La page **Disponibilité article par niveau de nomenclature** affiche les inform
 Le champ **Goulot d’étranglement** spécifie quel article dans la structure de la nomenclature vous empêche de réaliser une quantité supérieure à la quantité affichée dans le champ **Capable de fabriquer le meilleur article**. Par exemple, l’article goulot d’étranglement peut être un composant achat avec une date de réception prévue qui est trop tardive pour fabriquer des unités supplémentaires de l’élément qui le comporte à la date du champ **Requis par date**.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Pour afficher la disponibilité d’un article par ses unités de mesure
+
 La page **Disponibilité de l’article par unité de mesure** affiche la disponibilité d’un article dans les différentes unités de mesure dans lesquelles il est stocké.
 
 > [!NOTE]  
 > Pour conserver ces informations exactes, vous devez convertir les unités article. Par exemple, si vous achetez un article dans une unité, comme des boîtes, et que vous vendez des articles dans une autre unité, comme des pièces, vous devez utiliser un journal d’articles pour convertir les unités de mesure, ou "déballer" les articles. Vous pouvez utiliser une ligne feuille d’ajustement négatif pour réduire le stock dans l’unité d’achat, par exemple des boîtes, et un ajustement positif pour augmenter le stock dans l’unité de vente, par exemple des pièces. 
 
+## <a name="to-view-the-availability-of-an-item-by-its-variants"></a>Pour afficher la disponibilité d’un article par ses variantes
+
+La page **Dispo. article par variante** présente la disponibilité réelle et projetée d’un article regroupé selon le code variante.
+
+1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
+2. Ouvrez la fiche d’un article dont vous voulez afficher la disponibilité.
+3. Cliquez sur **Disponibilité article par**, puis sur **Variante**.
+
+    La page **Dispo. article par variante** affiche la disponibilité pour chaque variante qui existe pour l’article. La page est vide si aucune variante n’existe pour l’article.
+
+4. Dans le champ **Afficher par**, sélectionnez la durée de la période à afficher.
+5. Affichez les chiffres de disponibilité dans les différents champs de quantité pour chaque ligne.
+
+[!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
+
 ## <a name="assembly-availability-page"></a>Page Disponibilité assemblage
+
 La page **Disponibilité assemblage** affiche des informations de disponibilité détaillées pour l’élément d’assemblage. Elle s’ouvre :
 
 - Automatiquement à partir d’une ligne commande vente dans les scénario Assembler pour commande lorsque vous entrez une quantité à l’origine d’un problème de disponibilité des composants.
@@ -121,14 +145,16 @@ Le raccourci **Lignes** affiche des informations de disponibilité détaillées 
 Si un ou plusieurs composants d’assemblage ne sont pas disponibles, cela est alors reflété dans le champ **Capacité d’assembler** de la ligne en question comme quantité inférieure à la quantité dans le champ **Quantité restante** sur le raccourci **Détails** .
 
 ## <a name="see-also"></a>Voir aussi
+
 [Gestion du stock](inventory-manage-inventory.md)  
 [Gestion des assemblages](assembly-assemble-items.md)  
-[Utiliser les nomenclatures](inventory-how-work-BOMs.md)    
+[Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
+[Utilisation des nomenclatures d’assemblage](assembly-how-work-assembly-boms.md)  
+[Créer des nomenclatures de production](production-how-to-create-production-boms.md)  
 [Configurer des magasins](inventory-how-setup-locations.md)  
 [Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)  
-[Vendre des produits](sales-how-sell-products.md)      
+[Vendre des produits](sales-how-sell-products.md)  
+[Fonctionnalités marché](ui-across-business-areas.md)  
 [Utiliser Business Central](ui-work-product.md)  
-[Fonctionnalités marché](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,20 +7,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: 06adf2a30a7487fa3bc66e1aebec42e6c55184e2
-ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
+ms.openlocfilehash: 5968cd8d2348b0fac7c81c4b588dfd89388a27f5
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9227434"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606483"
 ---
 # <a name="business-central-and-onedrive-for-business-integration"></a>Intégration de Business Central et OneDrive Entreprise
 
 OneDrive Entreprise est un service de stockage cloud inclus dans Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] facilite le stockage, la gestion et le partage de fichiers avec d’autres personnes via OneDrive. Lorsqu’un fichier est dans votre OneDrive, vous pouvez profiter des riches expériences collaboratives des versions en ligne des produits Microsoft, telles que Word, Excel et PowerPoint. Par exemple, vous pouvez partager un document Word, puis vous et vos collègues pouvez le modifier ensemble en temps réel. OneDrive vous permet également d’ouvrir d’autres types de fichiers, tels que des fichiers PDF. 
 
-## <a name="get-started"></a>Mise en route
+## <a name="get-started-with-onedrive-features"></a>Prise en main des fonctionnalités de OneDrive
 
-Nous avons créé un lien entre [!INCLUDE[prod_short](includes/prod_short.md)] en ligne et OneDrive pour faciliter votre démarrage. La seule exigence est que les utilisateurs aient ouvert OneDrive au moins une fois. 
+Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] Online, nous avons déjà créé le lien entre [!INCLUDE[prod_short](includes/prod_short.md)] Online et OneDrive pour faciliter votre démarrage. La seule exigence est que les utilisateurs aient ouvert OneDrive au moins une fois. Avec [!INCLUDE[prod_short](includes/prod_short.md)] sur site, un administrateur doit configurer la connexion avant que vous ne puissiez commencer. Pour plus d’informations, consultez [Gestion de l’intégration de OneDrive avec Business Central](admin-onedrive-integration.md).
+
+<!-- We've created the connection between [!INCLUDE[prod_short](includes/prod_short.md)] online and OneDrive, so it's easy to get started. The only requirement is that users have opened OneDrive at least one time. -->
+
+### <a name="open-and-share-in-onedrive"></a>Ouvrir et partager dans OneDrive
 
 Sur la plupart des pages où les fichiers sont disponibles, comme la Boîte de réception état ou les fichiers joints à des enregistrements, vous trouverez des actions **Ouvrir dans OneDrive** et **Partager**.
 
@@ -34,6 +38,15 @@ Sur la plupart des pages où les fichiers sont disponibles, comme la Boîte de r
 |Ouvrir dans OneDrive|Copiez le fichier dans un dossier Business Central de votre OneDrive et ouvrez le fichier.|[Ouvrir dans OneDrive](across-share-onedrive.md#open-in-onedrive) |
 |Part|Copiez le fichier sur votre OneDrive et partagez-le avec d’autres personnes.|[Partager dans OneDrive](across-share-onedrive.md#share) |
 
+### <a name="save-excel-workbooks-and-report-files-in-onedrive"></a>Enregistrer des classeurs Excel et des fichiers d’état dansOneDrive
+
+Avec la configuration de l’intégration OneDrive, quelques autres fonctionnalités familières utiliseront automatiquement OneDrive pour enregistrer les fichiers au lieu de les enregistrer sur votre appareil :
+
+- Les fonctions **Ouvrir dans Excel** et **Modifier dans Excel** sur les pages de liste copient automatiquement le fichier Excel dans OneDrive, puis l’ouvrent dans Excel Online. Pour plus d’informations, voir [Affichage et édition dans Excel](across-work-with-excel.md).
+- L’envoi de tout rapport vers un fichier Excel ou Word copie automatiquement le fichier dans OneDrive, puis l’ouvrira dans Excel ou Word Online. Pour en savoir plus, consultez [Enregistrer un rapport dans un fichier](ui-work-report.md#saving-a-report-to-a-file).
+
+Ces fonctionnalités ne sont pas activées par défaut. Mais en tant qu’administrateur, vous pouvez facilement les activer en utilisant le guide de configuration assistée **Configuration de OneDrive**.
+
 <!--
 When you use the **Open in OneDrive** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following in your OneDrive:
 
@@ -45,10 +58,10 @@ The folder and its content are private until you decide to share them with other
 -->
 
 > [!NOTE]
-> Vous pouvez également connecter votre [!INCLUDE[prod_short](includes/prod_short.md)] sur site avec OneDrive. Cependant, il y a quelques choses à faire pour que cela fonctionne. Pour plus d’informations, voir [Configuration de Business Central sur site](admin-onedrive-integration.md#configuring-business-central-on-premises).
+> Vous pouvez également connecter votre [!INCLUDE[prod_short](includes/prod_short.md)] sur site avec OneDrive. Cependant, il y a quelques choses à faire pour que cela fonctionne. Pour plus d’informations, consultez [Configuration de Business Central sur site](admin-onedrive-integration-onpremises.md).
 
 ## <a name="see-also"></a>Voir aussi
 
 [Gestion de l’intégration de OneDrive avec Business Central](admin-onedrive-integration.md)  
 [Ouverture des fichiers Business Central dans OneDrive](across-share-onedrive.md)  
-[FAQ sur OneDrive](admin-onedrive-faq.md)
+[FAQ sur OneDrive](admin-onedrive-faq.md)  

@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: bb39763e80acc25604f3a1528f5c6db286a5c1dc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535520"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607678"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Aperçu des tâches de clôture des périodes comptables
 
@@ -24,18 +24,18 @@ ms.locfileid: "9535520"
 
 * Spécifiez des plages de date de validation à l’échelle du système.  
 
-    Cela spécifie les dates entre lesquelles les validation sont autorisées. En fonction des besoins de votre activité, vous pouvez autoriser la validation au début du traitement de clôture d’exercice ou vers la fin. Pour plus d’informations, reportez vous à [Spécifier des périodes de validation](finance-how-specify-posting-periods.md).  
+    Cela spécifie les dates entre lesquelles les validation sont autorisées. En fonction des besoins de votre activité, vous pouvez autoriser la validation au début du traitement de clôture d’exercice ou vers la fin. En savoir plus sur [Spécifier les périodes comptables](finance-how-specify-posting-periods.md).  
 * Effectuez tous les ajustements comptables nécessaires.  
 * Mettez à jour et validez les feuilles abonnement.  
   <!--* Process Consolidations-->
-* Exécutez les tableaux d’analyse comme suit :  
-  * Ouvrez la page **Tableau d’analyse**, puis sélectionnez l’action **Imprimer**.  
+* Exécutez les états financiers comme suit :  
+  * Ouvrez la page **États financiers**, puis sélectionnez l’action **Imprimer**.  
 
 ## <a name="sales-and-receivables"></a>Ventes
 
 * Validez l’ensemble des commandes, factures, avoirs et retours vente.  
 * Validez l’ensemble des feuilles règlement.  
-* Mettez à jour et validez les feuilles abonnement associées aux ventes.  
+* Mettez à jour et validez les  feuilles abonnement relatives aux ventes.  
 * Rapprochez la comptabilité client de la comptabilité.  
 * Exécutez le traitement par lots **Supprimer cdes vente facturées**.  
 
@@ -43,11 +43,11 @@ ms.locfileid: "9535520"
 
 * Validez l’ensemble des commandes, factures, avoirs et retours achat.  
 * Validez l’ensemble des feuilles paiement.  
-* Mettez à jour et validez les feuilles abonnement associées aux achats.  
+* Mettez à jour et validez les  feuilles abonnement relatives aux achats.  
 * Générez l’état **Comptabilité fournisseur âgée** et rapprochez la comptabilité fournisseur de la comptabilité.  
 * Exécutez le traitement par lots **Supprimer cdes achat facturées**.  
 
-## <a name="fixed-assets"></a>COMPTES D’IMMOBILISATIONS
+## <a name="fixed-assets"></a>Immobilisations
 
 * Validez que tous les frais de maintenance ont été validés via les feuilles immobilisation ou factures.
 * Validez les ajustements.
@@ -57,9 +57,9 @@ ms.locfileid: "9535520"
 
 ## <a name="intercompany"></a>Intersociétés
 
-* Traitement des transactions intersociétés
+* Traitez les transactions intersociétés.
 
-## <a name="calculate-and-process-sales-tax"></a>Calculez et traitez la Sales Tax.
+## <a name="calculate-and-process-sales-tax"></a>Calculer et traiter la taxe de vente
 
 * Renseignez les déclarations de TVA.  
 
@@ -70,6 +70,5 @@ ms.locfileid: "9535520"
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Clôture plans](year-close-books.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

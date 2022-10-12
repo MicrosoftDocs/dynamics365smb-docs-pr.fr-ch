@@ -10,34 +10,41 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6fa22b84284d05d77bd04919403435d99050cded
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f11eeacd21d39a9b816fa763ae333fc4cb4efd54
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517806"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606602"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Rapprocher les paiements client à partir de la liste des documents vente échus
-Lorsque vos clients ont effectué des paiements sur votre compte bancaire électronique, vous devez lettrer chaque montant payé avec le document vente associé, puis valider le paiement pour mettre à jour les écritures client, comptables et banque. Selon les besoins de votre entreprise, vous pouvez être payé et enregistrer ce paiement de diverses manières : manuellement, automatiquement, et via des services de paiement.  
+
+Une fois que les clients ont effectué des paiements électroniques sur votre compte bancaire, vous devez effectuer les actions suivantes :
+
+* Appliquer chaque paiement au document vente validé lié
+* Validez le paiement pour mettre à jour les écritures de paiement dans les comptes général, bancaire, et client. 
+
+Selon les besoins de votre entreprise, vous pouvez être payé et enregistrer ce paiement de diverses manières : manuellement, automatiquement, et via des services de paiement.  
 
 > [!NOTE]  
->   Vous pouvez effectuer les mêmes tâches, y compris les paiements fournisseur sur la page **Feuille rapprochement bancaire** à l’aide des fonctions dédiées à l’importation de relevés bancaires, au lettrage automatique et au rapprochement bancaire. Pour plus d’informations, voir [Rapprocher les paiements à l’aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
+> Vous pouvez effectuer les mêmes tâches, y compris les paiements fournisseur sur la page **Feuille rapprochement bancaire** à l’aide des fonctions dédiées à l’importation de relevés bancaires, au lettrage automatique et au rapprochement bancaire. Pour plus d’informations, voir [Rapprocher les paiements à l’aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 
-La page **Enregistrer les paiements client** est conçue pour vous aider à réaliser les tâches de contrepartie des comptes internes à l’aide des chiffres réels pour vous assurer que les paiements sont collectés de façon efficace auprès des clients. Cet outil de traitement des paiements vous permet de vérifier et valider rapidement les paiements individuels ou forfaitaires, de traiter les paiements escomptés, et de rechercher des documents impayés spécifiques pour lesquels un paiement est effectué.
+Utilisez la page **Enregistrer les paiements client** pour réaliser les tâches de contrepartie des comptes internes en utilisant les chiffres de trésorerie réels pour s’assurer que les paiements sont collectés. Vous pouvez rapidement vérifier et valider les paiements individuels ou forfaitaires, traiter des paiements escomptés et trouver les documents impayés.
 
-Les paiements pour des clients différents qui ont des dates d’échéance différentes doivent être validés en tant que paiements individuels. Les paiements pour le même client qui ont la même date d’échéance peuvent être validés comme paiement forfaitaire. Cela est utile, par exemple, lorsqu’un client a effectué un paiement unique qui couvre plusieurs factures vente.
+Les paiements pour des clients différents qui ont des dates d’échéance différentes doivent être validés en tant que paiements individuels. Les paiements pour le même client qui ont la même date d’échéance peuvent être validés comme paiement forfaitaire. Les paiements forfaitaires sont utiles, par exemple, lorsqu’un client a effectué un paiement unique qui couvre plusieurs factures vente.
 
 ## <a name="to-set-up-the-payment-registration-journal"></a>Pour configurer la feuille enregistrement de paiement
 Étant donné que vous pouvez valider différents types de règlement dans différents comptes de contrepartie, vous devez sélectionner un compte de contrepartie sur la page **Paramétrage de l’enregistrement de paiement** avant de commencer le traitement des paiements client. Si vous validez toujours sur le même compte contrepartie, vous pouvez définir ce compte par défaut et éviter cette étape chaque fois que vous ouvrez la page **Enregistrer les paiements client**.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramétrage de l’enregistrement de paiement**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramétrage de l’enregistrement de paiement**, puis choisissez le lien associé. Vous pouvez également choisir l’action **Configurer** sur la page **Enregistrer les paiements client**.
+2. Renseignez les champs de la page **Paramétrage de l’enregistrement de paiement**. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)] Choisissez un champ pour lire une brève description du champ ou du lien des informations connexes.  
 
-    Sinon, sur la page **Enregistrer les paiements client**, sélectionnez l’action **Configuration**.    
-2. Renseignez les champs de la page **Paramétrage de l’enregistrement de paiement**. Choisissez un champ pour lire une brève description du champ ou du lien des informations connexes.  
+> [!TIP]
+> Pour faciliter l’identification ultérieure des écritures qui ont été validées via le journal, vous pouvez affecter une série de numéros spécifique au journal. Ceci est utile si vous utilisez des journaux de rapprochement bancaire pour enregistrer et imputer les paiements.
 
 ## <a name="to-register-customer-payments-individually"></a>Pour enregistrer les paiements client individuellement
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Enregistrer les paiements client**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Enregistrer les paiements client**, puis choisissez le lien associé.  
 
     La page **Enregistrer les paiements client** affiche tous les documents validés pour lesquels un paiement peut être enregistré. La page peut également être ouverte à partir des pages **Clients** et **Fiche client** dans lesquelles elle sera automatiquement filtrée pour le client spécifié.  
 2. Cochez la case **Paiement effectué** de la ligne représentant le document validé pour lequel un paiement a été effectué.
@@ -46,7 +53,7 @@ Les paiements pour des clients différents qui ont des dates d’échéance diff
 3. Dans le champ **Date de réception**, entrez la date de réception du paiement. Cette date peut être différent de la date de travail.  
 4. Dans le champ **Montant reçu**, saisissez le montant payé.
 
-    Pour les paiements intégraux, le montant est le même que celui du champ **Montant ouvert** de la ligne. Pour les paiements partiels, le montant est inférieur à celui du champ **Montant ouvert** de la ligne.    
+    Pour les paiements intégraux, le montant est le même que celui du champ **Montant ouvert** de la ligne. Pour les paiements partiels, le montant est inférieur à celui du champ **Montant ouvert** de la ligne.
 5. Répétez les étapes 2 à 4 pour les autres lignes représentant des documents validés pour lesquels des paiements sont effectués.  
 6. Sélectionnez l’action **Valider les paiements**.  
 
@@ -75,7 +82,7 @@ Les écritures de paiement sont validées dans les comptes général, bancaire, 
 
 Les écritures de paiement sont validées dans les comptes général, bancaire, et client. Chaque paiement est lettré au document vente validé lié.  
 
-Si un paiement avec la banque n’est pas représenté par une ligne sur la page **Enregistrement de paiement**, cela peut être parce que le document connexe n’a pas encore été validé. Dans ce cas, vous pouvez utiliser la fonction de recherche pour trouver rapidement le document et le valider pour traiter le paiement. Pour plus d’informations, voir [Pour rechercher un document vente spécifique qui n’est pas totalement facturé](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
+Si un paiement avec la banque n’est pas représenté par une ligne sur la page **Enregistrement de paiement**, cela peut être parce que le document connexe n’a pas encore été validé. Dans ce cas, vous pouvez utiliser la fonction de recherche pour trouver rapidement le document et le valider pour traiter le paiement. Pour plus d’informations, voir [Pour rechercher un document vente spécifique qui n’est pas totalement facturé](#to-find-a-specific-sales-document-that-isnt-fully-invoiced).  
 
 Si un paiement avec la banque n’est représenté par aucun document dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez ouvrir une ligne feuille comptabilité préremplie depuis la page **Enregistrement de paiement** pour valider le paiement directement dans le compte contrepartie sans lettrer le paiement avec un document. Sinon, vous pouvez enregistrer le paiement dans la feuille jusqu’à ce que l’origine du paiement soit résolue. Pour plus d’informations, reportez-vous à [Pour enregistrer ou valider un paiement sans document connexe](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
@@ -85,7 +92,7 @@ Si vous avez convenu d’un escompte avec le client, les montants règlement peu
 Les procédures suivantes expliquent quatre méthodes différentes permettant de valider des paiements escomptés sur la page **Enregistrement de paiement**.  
 
 * Le montant règlement est égal au montant escompté ouvert, et la date d’échéance est antérieure à la date d’escompte. Vous validez le paiement tel quel.  
-* Le montant règlement est égal au montant escompté ouvert, mais la date d’échéance est postérieure à la date d’escompte. Vous validez le paiement comme partiel. Le document reste ouvert pour collecter/payer le montant ouvert. Sinon, vous définirez la date d’escompte ultérieurement pour permettre la réalisation de la totalité du paiement.  
+* Le montant règlement est égal au montant escompté ouvert, mais la date d’échéance est postérieure à la date d’escompte. Vous validez le paiement comme partiel. Le document reste ouvert pour collecter/payer le montant ouvert. Vous pouvez également définir la date d’escompte ultérieurement pour permettre la réalisation de la totalité du paiement.  
 * Le montant règlement est inférieur au montant escompté ouvert. Vous validez le paiement comme partiel. Le document reste ouvert pour collecter/payer le montant ouvert.  
 * Le montant règlement est supérieur au montant escompté ouvert. Vous validez les paiements tels quels. Seul le montant ouvert est validé. Le montant supplémentaire est crédité au client.  
 
@@ -138,7 +145,7 @@ Le document connexe reste ouvert.
 
 Le document connexe est clôturé, et le client est crédité du montant règlement excédentaire.  
 
-## <a name="to-find-a-specific-sales-document-that-is-not-fully-invoiced"></a>Pour rechercher un document vente spécifique qui n’est pas totalement facturé
+## <a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a>Pour rechercher un document vente spécifique qui n’est pas totalement facturé
 La page **Enregistrement de paiement** vous aide dans les tâches de contrepartie des comptes internes avec les chiffres réels de règlement pour assurer une collecte efficace auprès des clients et le paiement des sommes dues aux fournisseurs. Elle affiche les paiements entrants en attente sous la forme de lignes représentant les documents vente pour lesquels un montant doit être payé.  
 
 Généralement, lorsqu’un paiement a été effectué, enregistré dans la banque ou autre, le document vente ou achat associé est représenté par une ligne sur la page **Enregistrement de paiement** parce que le document en question attend que le paiement soit validé par rapport au montant ouvert. Cependant, parfois un paiement qui a effectué n’est pas représenté par une ligne sur la page **Enregistrement de paiement**, généralement parce que la facture du document en question n’a pas encore été totalement validé.
@@ -164,20 +171,18 @@ La procédure suivante explique comment trouver un document spécifique à l’a
 
 La fonction de recherche effectue une recherche parmi les documents qui n’ont pas été entièrement facturés selon les critères spécifiés.  
 
-Si un ou plusieurs documents correspondent aux critères de recherche, la page **Résultat de la recherche de documents** s’ouvre et affiche les lignes représentant ces documents. Chaque ligne contient un numéro de document, une description et un montant de manière à ce que vous puissiez facilement rechercher un document spécifique, par exemple à l’aide des informations de votre relevé bancaire.  
+Si un ou plusieurs documents correspondent aux critères de recherche, la page **Résultat de la recherche de documents** s’ouvre et affiche les lignes représentant ces documents. Chaque ligne contient un numéro de document, une description et un montant. Ces informations facilitent la recherche d’un document spécifique.
 
 Si un paiement avec la banque n’est représenté par aucun document dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez ouvrir une ligne feuille comptabilité préremplie depuis la page **Enregistrement de paiement** pour valider le paiement directement dans le compte contrepartie sans lettrer le paiement avec un document. Sinon, vous pouvez enregistrer le paiement dans la feuille jusqu’à ce que l’origine du paiement soit résolue.  
 
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Pour enregistrer ou valider un paiement sans document connexe
 Si un paiement avec la banque n’est représenté par aucun document dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez ouvrir une ligne feuille comptabilité préremplie depuis la page **Enregistrement de paiement** pour valider le paiement directement dans le compte contrepartie sans lettrer le paiement avec un document. Sinon, vous pouvez enregistrer le paiement dans la feuille jusqu’à ce que l’origine du paiement soit clarifiée.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Enregistrement de paiement**, puis choisissez le lien associé.  
-
-    Enregistrez un paiement non documenté.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Enregistrement de paiement**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Feuille comptabilité**.  
 
     La page **Feuille comptabilité** s’affiche avec une ligne préremplie où figure le compte contrepartie du nom de feuille défini sur la page **Paramétrage de l’enregistrement de paiement**.  
-3. Renseignez les autres champs de la ligne feuille comptabilité, tel que le montant et le numéro de client ou d’autres informations du relevé bancaire. Pour plus d’informations, reportez-vous à [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).  
+3. Renseignez les autres champs de chaque ligne feuille. Par exemple, fournissez le montant, le numéro de client ou les informations du relevé bancaire. Pour plus d’informations, reportez-vous à [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).  
 
 Vous pouvez soit valider la ligne feuille mettre à jour le total sur le compte contrepartie. Sinon, vous pouvez laisser la ligne feuille non validée et ajouter par exemple une note indiquant que le paiement a besoin d’une autre analyse.  
 

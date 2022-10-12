@@ -5,22 +5,23 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
-ms.date: 04/12/2021
+ms.date: 08/24/2022
 ms.author: edupont
-ms.openlocfilehash: 7e9ad9fa80a4690439b34abe2ccf65d84ed714ca
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 8838569a1077a5c9befc1ab11daab49432563d3c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529233"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605099"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>États financiers et analyses dans Business Central
 
-La génération d’états financiers dans [!INCLUDE [prod_short](includes/prod_short.md)] permet aux professionnels de la finance et des affaires de créer, maintenir, déployer et consulter des états financiers. Ils vont au-delà des contraintes des rapports traditionnels pour vous aider à concevoir efficacement divers types de rapports. [!INCLUDE [prod_short](includes/prod_short.md)] comprend plusieurs rapports, fonctions de traçage et outils qui aident les auditeurs ou contrôleurs chargés de rendre compte au service financier. La génération d’états financiers inclut la prise en charge des dimensions, de sorte que les segments de compte ou les dimensions sont immédiatement disponibles. Aucun autre outil ou étape de configuration supplémentaire n’est requis.  
+La génération d’états financiers dans [!INCLUDE [prod_short](includes/prod_short.md)] permet aux professionnels de la finance et des affaires de créer, maintenir, déployer et consulter des états financiers. Cela va au-delà des contraintes des rapports traditionnels pour vous aider à concevoir efficacement divers types d’états. [!INCLUDE [prod_short](includes/prod_short.md)] comprend plusieurs rapports, fonctions de traçage et outils qui aident les auditeurs ou contrôleurs chargés de rendre compte au service financier. La génération d’états financiers inclut la prise en charge des dimensions, de sorte que les segments de compte ou les dimensions sont immédiatement disponibles ; aucun autre outil ou aucune autre étape de configuration n’est requis(e).  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
 ## <a name="reports"></a>États
+
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Tâches
@@ -28,8 +29,8 @@ La génération d’états financiers dans [!INCLUDE [prod_short](includes/prod_
 Les articles suivants décrivent certaines des tâches clés pour analyser l’état de votre entreprise :
 
 * [Analyser les montants réalisés et les montants budgétés](bi-how-analyze-actual-versus-budget.md)  
-* [Préparer Financial Reporting avec des tableaux d’analyse et des catégories de compte](bi-how-work-account-schedule.md)  
-* [Configuration et publication des services Web KPI sur la base de tableaux d’analyse](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
+* [Préparer Financial Reporting avec des données financières et des catégories de compte](bi-how-work-account-schedule.md)  
+* [Configuration et publication des services Web KPI sur la base d’états financiers](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
 * [Analyse des données par axe analytique](bi-how-analyze-data-dimension.md)  
 * [Créer des rapports d’analyse](bi-how-create-analysis-views-reports.md)  
 * [Création d’états avec XBRL](bi-create-reports-with-xbrl.md)  

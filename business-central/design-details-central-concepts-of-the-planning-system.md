@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: bce2c42900b67c24801098d2bacae3a0f0aee14a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148683"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605180"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Détails de conception : concepts centraux du système de planification
 
@@ -98,7 +98,7 @@ Les chiffres indiquent dans quelle séquence le système fait des propositions p
 
 Pour plus d’informations sur la fabrication, voir [Chargement des profils de stock](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
-#### <a name="optimizing-performance-for-low-level-calculations"></a>Optimisation des performances pour les calculs plus bas niveau
+#### <a name="optimizing-performance-for-low-level-calculations"></a>Optimisation des performances pour les calculs de plus bas niveau
 
 Les calculs de code plus bas niveau peuvent avoir un impact sur les performances du système. Pour atténuer l’impact, vous pouvez désactiver **Calcul de code plus bas niveau dynamique** sur la page **Configuration de la fabrication**. Quand vous le faites, [!INCLUDE[prod_short](includes/prod_short.md)] vous suggère de créer une entrée de file d’attente de tâches récurrente qui met à jour quotidiennement les codes plus bas niveau. Vous pouvez vous assurer que la tâche s’exécutera en dehors des heures de travail en spécifiant une heure de début dans le champ **Date/heure de début au plus tôt**.
 
@@ -125,15 +125,15 @@ Dans un point de stock donné, la date demandée ou disponible représente la pr
 
 Pour en savoir plus, voir [Affecter une priorité aux commandes](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
-## <a name="demand-forecasts-and-blanket-orders"></a>Prévisions de demande et commandes ouvertes
+## <a name="demand-forecasts-and-blanket-orders"></a>Prévisions de demande et commandes cadres
 
-Les prévisions et les commandes ouvertes représentent la demande anticipée. La commande ouverte, qui regroupe les achats prévus d’un client sur une certaine période, se charge d’amortir l’incertitude de la prévision globale. La commande ouverte est une prévision spécifique au client qui s’ajoute à la prévision non spécifiée comme illustré ci-dessous.  
+Les prévisions et les commandes ouvertes représentent la demande anticipée. La commande cadre, qui regroupe les achats prévus d’un client sur une certaine période, se charge d’amortir l’incertitude de la prévision globale. La commande ouverte est une prévision spécifique au client qui s’ajoute à la prévision non spécifiée comme illustré ci-dessous.  
 
 ![Planification avec prévisions.](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planification avec prévisions")  
 
 Pour plus d’informations, reportez-vous à la section [La demande de prévision est réduite par les commandes vente](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
-## <a name="planning-assignment"></a>Affectation planning
+## <a name="planning-assignment"></a>Affectation de planification
 
 Tous les articles doivent être planifiés. Cependant, il n’existe aucune raison de calculer une planification pour un article à moins qu’il n’y ait eu une modification de la configuration de l’offre ou de la demande depuis la dernière fois qu’un plan a été calculé.  
 
@@ -292,14 +292,14 @@ Le champ peut être manuellement défini par l’utilisateur, cependant, dans ce
 
 Pour plus d’informations sur l’utilisation de ce champ, voir [Détails de conception : transferts de planification](design-details-transfers-in-planning.md).  
 
-## <a name="order-planning"></a>Planification commande
+## <a name="order-planning"></a>Planning commande
 
 L’outil de base de planification de l’approvisionnement représenté par la page **Planification commande** est conçu pour la prise de décision manuelle. Il ne tient compte d’aucun paramètre de planification et n’est donc pas traité ultérieurement dans ce document. Pour plus d’informations, consultez [Planifier de nouvelles demandes commande par commande](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Il n’est pas recommandé d’utiliser la Planification commande si la société utilise déjà les feuilles planning ou demande. Les commandes approvisionnement créées via la page **Planning commande** peuvent être modifiées ou supprimées pendant les planifications automatisées. En effet, la planification automatisée utilise les paramètres de planification qui n’ont peut-être pas été pris en compte par l’utilisateur ayant créé la planification manuelle sur la page Planning commande.  
 
-##  <a name="finite-loading"></a>Chargement limité
+## <a name="finite-loading"></a>Chargement limité
 
 [!INCLUDE[prod_short](includes/prod_short.md)] est un système ERP standard, et non un système d’affectation ou de gestion d’atelier. Il prévoit une utilisation des ressources faisable via une planification approximative, mais il ne crée ni ne met à jour automatiquement des plannings détaillés sur la base des priorités ou des règles d’optimisation.  
 
@@ -308,7 +308,7 @@ L’utilisation prévue de la fonction Capacité critique est 1) : pour éviter
 Lors de la planification avec des ressources avec contraintes de capacité, le système veille à ce qu’aucune ressource ne soit chargée au-dessus de sa capacité définie (charge critique). Ceci est effectué en affectant chaque opération à l’emplacement du temps disponible le plus proche. Si le créneau n’est pas assez long pour effectuer toute l’opération, l’opération est répartie en au moins deux parties placées dans les créneaux disponibles les plus proches.  
 
 > [!NOTE]  
->  En cas de répartition des opérations, le temps de préparation n’est affecté qu’une fois car on suppose qu’un certain ajustement manuel est effectué pour optimiser le planning.  
+> En cas de répartition des opérations, le temps de préparation n’est affecté qu’une fois car on suppose qu’un certain ajustement manuel est effectué pour optimiser le planning.  
 
 Le seuil peut être ajouté aux ressources pour réduire la répartition des opérations. Cela permet au système de planifier la charge sur le dernier jour possible en dépassant légèrement le pourcentage de charge critique si ceci peut réduire le nombre d’opérations qui sont divisées.  
 
@@ -316,11 +316,10 @@ Cela complète la planification des concepts centraux en relation avec la planif
 
 ## <a name="see-also"></a>Voir aussi
 
-[Détails de conception : transferts de planification](design-details-transfers-in-planning.md)   
-[Détails de conception : paramètres de planification](design-details-planning-parameters.md)   
-[Détails de conception : tableau d’affectation de planification](design-details-planning-assignment-table.md)   
-[Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
-[Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)
-
+[Détails de conception : transferts de planification](design-details-transfers-in-planning.md)  
+[Détails de conception : paramètres de planification](design-details-planning-parameters.md)  
+[Détails de conception : tableau d’affectation de planification](design-details-planning-assignment-table.md)  
+[Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)  
+[Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,14 +8,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 06/24/2021
+  ms.date: 08/09/2022
   ms.author: mikebc
-  ms.openlocfilehash: 6140dd6e114a8967a4e20196feb88e25fbd06bb1
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: ff5b79e1aeb7954712dc624cef9a6bbaf486279f
+  ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
   ms.translationtype: HT
   ms.contentlocale: fr-CH
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8144608"
+  ms.lasthandoff: 09/30/2022
+  ms.locfileid: "9607650"
 title: FAQ sur les vues de liste
 summary: Cet article répond aux questions fréquemment posées par nos utilisateurs expérimentés sur l’utilisation des vues de liste et la sauvegarde des filtres.
 sections:
@@ -47,7 +47,7 @@ sections:
   - question: >
       Les vues sont-elles également disponibles sur d’autres facteurs de forme ?
     answer: >
-      Oui. Toutes les vues que vous enregistrez sur votre navigateur ou application de bureau seront également disponibles sur votre tablette ou votre smartphone. Vous ne pouvez pas modifier ou personnaliser les vues sur les appareils mobiles.
+      Oui. Toutes les vues que vous enregistrez sur votre navigateur ou application de bureau seront également disponibles sur votre tablette, votre smartphone ou quand intégré dans Microsoft Teams. Vous ne pouvez pas modifier ou personnaliser les vues sur les appareils mobiles.
   - question: >
       Mes vues personnelles sont-elles toujours accessibles ?
     answer: >
@@ -63,7 +63,7 @@ sections:
   - question: >
       Comment puis-je partager mes vues avec d’autres ?
     answer: >
-      [!INCLUDE[prod_short](includes/prod_short.md)] ne fournit pas un moyen de partager la vue de liste précise. Mais vous pouvez partager vos filtres actuels afin que les autres utilisateurs puissent voir une liste similaire d’enregistrements. Dans le navigateur de votre ordinateur de bureau, copiez simplement l’URL et partagez-la avec vos collègues. Le partage des filtres ne garantit pas au destinataire un ensemble de filtres identique à celui que vous voyez dans votre navigateur.
+      [!INCLUDE[prod_short](includes/prod_short.md)] ne fournit pas un moyen de partager la vue de liste précise. Mais vous pouvez partager vos filtres actuels afin que les autres utilisateurs puissent voir une liste similaire d’enregistrements. Dans le client Web Business Central, choisissez une vue, puis utilisez la fonctionnalité **Copier le lien** pour copier l’URL dans votre presse-papiers. copiez simplement l’URL et partagez-la avec vos collègues. Le partage des filtres ne garantit pas au destinataire un ensemble de filtres identique à celui que vous voyez dans votre navigateur.
   - question: >
       Puis-je rechercher des vues dans la fenêtre Tell Me ?
     answer: >
@@ -88,17 +88,9 @@ sections:
       Les vues que vous voyez sur une liste sont une combinaison de vos vues personnelles avec des vues système. Les vues système peuvent provenir de l’application métier, des extensions ou être spécifiques à un rôle si la liste a été personnalisée pour votre rôle.
   - question: >
       Pourquoi certaines vues offrent-elles moins d’options ?
-    answer: >
-      Certaines vues offrent uniquement la possibilité d’enregistrer une copie de la vue, tandis que d’autres n’autorisent pas l’enregistrement des modifications apportées à la vue. Comment le mode de création de la vue détermine-il les options disponibles pour cette vue , Les vues peuvent être créées de plusieurs manières :
-
-
-      - Vues personnelles que vous avez enregistrées
-
-      - Les vues système qui font partie de l’application métier ou qui sont ajoutées par des extensions ou des vues spécifiques à un rôle. Contrairement aux vues personnelles, vous ne pouvez pas enregistrer les modifications apportées aux filtres dans cette vue système.
-
-      - Les vues système héritées faisant partie de l’application métier mais ayant été créées à l’aide de versions antérieures de [!INCLUDE[prod_short](includes/prod_short.md)]. Ces vues offrent moins d’options. Vous ne pouvez les enregistrer que dans une nouvelle vue et vous ne pouvez pas non plus les masquer ou les réorganiser. Les vues système héritées seront supprimées lors d’une prochaine mise à jour [!INCLUDE[prod_short](includes/prod_short.md)].
+    answer: "Certaines vues offrent uniquement la possibilité d’enregistrer une copie de la vue, tandis que d’autres n’autorisent pas l’enregistrement des modifications apportées à la vue. Comment le mode de création de la vue détermine-il les options disponibles pour cette vue , Les vues peuvent être créées de plusieurs manières :\n\n- Vues personnelles que vous avez enregistrées\n- Les vues système qui font partie de l’application métier ou qui sont ajoutées par des extensions ou des vues spécifiques à un rôle. Contrairement aux vues personnelles, vous ne pouvez pas enregistrer les modifications apportées aux filtres dans cette vue système.\n- Les vues système héritées faisant partie de l’application métier mais ayant été créées à l’aide de versions antérieures de [!INCLUDE[prod_short](includes/prod_short.md)]. Ces vues offrent moins d’options. Vous ne pouvez les enregistrer que dans une nouvelle vue et vous ne pouvez pas non plus les masquer ou les réorganiser. Les vues système héritées seront supprimées lors d’une prochaine mise à jour [!INCLUDE[prod_short](includes/prod_short.md)].\n\n> [!NOTE]\n> À compter de la 2è vague de lancement 2023 de Business Central, les vues héritées ne seront plus prises en charge et ne seront pas affichées dans la page de liste. Découvrez des détails techniques sur la manière dont les développeurs peuvent migrer vers des vues de liste modernes sur [Migration des vues héritées vers les vues modernes](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). \n"
   - question: >
-      Comment convertir des vues système héritées ?
+      Comment puis-je dépasser les limites des vues système héritées ?
     answer: >
       Les vues système héritées sont des vues de liste créées par les développeurs d’anciennes versions de [!INCLUDE[prod_short](includes/prod_short.md)] en les plaçant sur la page Tableau de bord. Ces vues sont maintenant affichées directement sur la page de liste, mais elles offrent une expérience plus mauvaise et moins d’options. Vous pouvez convertir une vue système héritée en une vue personnelle entièrement personnalisable, simplement en enregistrant cette vue héritée en tant que nouvelle vue. De même, les administrateurs peuvent choisir de convertir les vues système héritées spécifiques à un rôle en personnalisant le rôle d’utilisateur et en enregistrant la vue héritée en tant que nouvelle vue spécifique à un rôle.
 

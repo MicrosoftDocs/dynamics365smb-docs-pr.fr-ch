@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf0ea7f023eed4dced53477d72ff844d4da04e37
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532743"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617865"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Déclarer la TVA aux autorités fiscales
 
@@ -30,7 +30,7 @@ Vous pouvez utiliser les déclarations intégrées suivantes :
 
     La déclaration Retour TVA inclut la TVA pour les ventes et les achats aux clients et auprès des fournisseurs dans tous les pays utilisant la TVA.  
 
-Dans les deux cas, la TVA est calculée sur la base des paramètres validation TVA et des groupes comptabilisation TVA que vous avez définis.
+Dans les deux cas, la TVA est calculée sur la base des paramètres validation TVA et des groupes comptabilisation TVA que vous avez définis. [!INCLUDE[prod_short](includes/prod_short.md)] affiche les écritures de TVA en fonction de leur **Date TVA**.
 
 Si vous souhaitez afficher un historique complet des écritures TVA, chaque validation impliquant la TVA crée une écriture dans la page **Écritures TVA**. Ces écritures sont utilisées pour calculer le montant de votre déclaration TVA, tel que paiement et remboursement, pour une période donnée. Pour afficher les écritures de TVA, sélectionnez l’icône ![Ampoule qui ouvre la fonction Fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Écritures TVA**, puis choisissez le lien associé.
 

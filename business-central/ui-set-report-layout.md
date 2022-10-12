@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 03/07/2022
+ms.date: 08/12/2022
 ms.author: jswymer
-ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d63bfb699932261e0e9b74ef3aebcbd52bc53604
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535869"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606899"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Définition de la présentation utilisée par un état
 
@@ -25,17 +25,19 @@ La présentation d’un état détermine l’apparence de ce dernier. Elle déte
 
 Lorsqu’il y a plusieurs sociétés dans l’application, les présentations sont définies pour chaque société. Ainsi, le même état dans une société peut avoir une présentation différente dans une autre société.
 
-## <a name="get-started"></a>Démarrer
+## <a name="get-started"></a>Mise en route
 
-Il existe deux manières de définir la présentation utilisée par un état. Une façon consiste à aller sur la page **Sélection présentation état**. L’autre façon consiste à aller sur la page **Présentations d’état**. Chaque page a des avantages, par exemple : 
+Il existe quelques manières de définir la présentation utilisée par un état. Chaque méthode présente des avantages, selon ce que vous cherchez à faire : 
 
-- La page **Sélection présentation état** affiche la liste de tous les états.
+- Depuis la page de demande de l’état
 
-  Cette page indique la présentation actuelle d’un état. De plus, vous pouvez définir des présentations dans différentes sociétés, sans avoir à changer celle avec laquelle vous travaillez.
+  Lors de la configuration d’un état à exécuter, la page de demande de l’état inclut le champ **Présentation des états** qui affiche la mise en page par défaut actuelle utilisée par l’état. Vous pouvez utiliser ce champ pour passer temporairement à une autre mise en page disponible l’état que vous exécutez. Après avoir exécuté l’état, la mise en page revient à la mise en page par défaut. Pour en savoir plus, consultez [Exécuter et imprimer les états](ui-work-report.md#switching-the-report-layout).
 
-- La page **Présentations d’état** affiche toutes les présentations disponibles pour chaque état dans la société actuelle.
+- Depuis la page **Sélection présentation état**
 
-  Il est facile de trouver une présentation spécifique en triant ou en filtrant la liste. Une fois que vous avez trouvé la présentation, vous pouvez la définir pour un état avec une seule sélection.
+  La page **Sélection présentation état** affiche la liste de tous les états. Cette page indique la présentation actuelle par défaut d’un état. Vous pouvez définir des présentations dans différentes sociétés, sans avoir à changer celle avec laquelle vous travaillez.
+
+- Depuis la page **Présentations d’état** La page **Présentations d’état** affiche toutes les présentations disponibles pour chaque état dans la société actuelle. Elle est également utilisée pour spécifier la mise en page par défaut des états. Il est facile de trouver une présentation spécifique en triant ou en filtrant la liste. Une fois que vous avez trouvé la présentation, vous pouvez la définir pour un état avec une seule sélection.
 
   > [!NOTE]
   > Vous ne pouvez pas utiliser la page **Présentations d’état** pour les présentations Word et RDLC qui ont été créées à l’aide de la fonctionnalité **Présentations personnalisées** héritée. En fait, vous ne verrez même pas ces présentations personnalisées répertoriées sur la page **Présentations d’état**. Vous ne pouvez définir ces présentations qu’en utilisant la page **Sélection présentation état**.

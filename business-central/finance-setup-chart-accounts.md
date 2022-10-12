@@ -1,5 +1,5 @@
 ---
-title: Configurer le plan comptable (contient une vidéo)
+title: Configurer ou modifier le plan comptable (contient une vidéo)
 description: Le plan comptable affiche les comptes généraux qui stockent vos données financières. Vous pouvez modifier les comptes par défaut dans le plan comptable, et vous pouvez ajouter de nouveaux comptes.
 author: edupont04
 ms.topic: conceptual
@@ -10,24 +10,23 @@ ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 57dadabe2e96654a919127f17fcc6391786eb90f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 15eca1f6bc4a75ca6758e5be351d4a459226ac5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533632"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606710"
 ---
 # <a name="set-up-or-change-the-chart-of-accounts"></a>Configurer ou modifier le plan comptable
 
-Le plan comptable affiche les comptes généraux qui stockent vos données financières. [!INCLUDE[prod_short](includes/prod_short.md)] inclut un plan comptable standard prêt à prendre en charge votre société.
-Cependant, vous pouvez modifier les comptes par défaut, et vous pouvez ajouter de nouveaux comptes.
+Le plan comptable affiche les comptes généraux qui stockent vos données financières. [!INCLUDE[prod_short](includes/prod_short.md)] inclut un plan comptable standard prêt à prendre en charge votre société. Vous pouvez, cependant, modifier les comptes par défaut, et vous pouvez ajouter de nouveaux comptes.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
 ## <a name="add-or-change-accounts"></a>Ajouter ou modifier les comptes
 
-À partir du plan comptable, vous pouvez ouvrir chaque compte général et ajouter ou modifier des paramètres. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+À partir du plan comptable, vous pouvez ouvrir chaque compte général et ajouter ou modifier des paramètres. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
 Vous pouvez, au besoin, utiliser plusieurs lignes pour le nom d’un compte général. Sur la page **Fiche compte général**, dans le groupe **Compte**, choisissez **Textes étendus**, puis remplissez une ou plusieurs lignes avec le texte à copier et le nom du compte.  
 
@@ -44,7 +43,7 @@ Vous pouvez supprimer un compte général. Toutefois, avant que de le supprimer,
 * Le champ **Autoriser suppr. cpte gén. av.** doit être défini sur la page **Paramètres comptabilité**, et le compte ne doit pas comporter d’écritures comptables à cette date ou après celle-ci.  
 * Si le champ **Vérifier activité cpte général** de la page **Paramètres comptabilité** est sélectionné, le compte ne doit pas être utilisé dans les groupes comptabilisation ni dans une configuration de la validation.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] vous empêchera de supprimer un compte général qui stocke les données nécessaires au plan comptable.  
+[!INCLUDE[prod_short](includes/prod_short.md)] vous empêche de supprimer un compte général qui stocke les données nécessaires au plan comptable.  
 
 ## <a name="block-deletion-of-gl-accounts"></a>Bloquer la suppression des comptes généraux
 
@@ -52,11 +51,9 @@ Vous pouvez supprimer un compte général. Toutefois, avant que de le supprimer,
 
 La 2e vague de lancement 2022 introduit une protection supplémentaire contre la suppression accidentelle de comptes généraux, même dans les scénarios où les critères sont satisfaits.  
 
-Un nouveau champ, **Bloquer la suppression des comptes généraux**, est ajouté à la page **Paramètres comptabilité**. Le champ agit comme une validation supplémentaire lorsqu’un utilisateur essaie de supprimer un compte qui comporte des écritures comptables après la date spécifiée dans le champ **Vérifier suppr. cpte gén. av.**.
+Un nouveau champ, **Bloquer la suppression des comptes généraux**, est ajouté à la page **Paramètres comptabilité**. Quand il est défini sur *Oui*, le champ agit comme validation supplémentaire. Autrement dit, vous ne pouvez pas supprimer les comptes généraux qui ont des écritures comptables postérieures à la date indiquée dans le champ **Vérifier suppr. cpte gén. av.**. Afin de supprimer un tel compte, un utilisateur ayant accès à la page **Paramètres comptabilité** doit d’abord définir ce champ sur *Non*.  
 
-Quand le champ **Bloquer la suppression des comptes généraux** est défini sur *Oui*, vous ne pouvez pas supprimer les comptes généraux qui ont des écritures comptables postérieures à la date indiquée dans le champ **Vérifier suppr. cpte gén. av.**. Afin de supprimer un tel compte, un utilisateur ayant accès à la page **Paramètres comptabilité** doit d’abord définir ce champ sur *Non*. Ensuite, le compte peut être supprimé.  
-
-Nous recommandons de définir le champ **Bloquer la suppression des comptes généraux** sur *Oui*. Nous vous recommandons également de toujours définir une date dans le champ **Vérifier suppr. cpte gén. av.**, par exemple pour tenir compte du temps dont vous avez besoin pour stocker vos données financières.  
+Le fait de régler le champ **Bloquer la suppression des comptes généraux** sur *Oui* peut être considéré comme une pratique exemplaire, tout comme définir la date dans le champ **Vérifier suppr. cpte gén. ap.**, par exemple à la date à laquelle vous devez stocker vos données financières.  
 
 ## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/chart-accounts-dynamics-365-business-central/index) associée
 
@@ -66,7 +63,7 @@ Nous recommandons de définir le champ **Bloquer la suppression des comptes gén
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Utiliser les axes analytiques](finance-dimensions.md)  
 [Importation des données à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
-[Utilisation des tableaux d’analyse](bi-how-work-account-schedule.md)  
+[Utiliser les états financiers](bi-how-work-account-schedule.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Clôturer les comptes de gestion dans la version française](LocalFunctionality/France/how-to-close-income-statement-accounts.md)  
 [Imprimer les comptes de résultat dans la version australienne](LocalFunctionality/Australia/how-to-print-income-statements.md)  
@@ -75,6 +72,5 @@ Nous recommandons de définir le champ **Bloquer la suppression des comptes gén
 [Indenter et valider le plan comptable dans la version espagnole](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

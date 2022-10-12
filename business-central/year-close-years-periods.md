@@ -1,5 +1,5 @@
 ---
-title: Clôturer un exercice comptable et des périodes comptables
+title: Clôturer des exercices comptables et des périodes comptables
 description: Décrit les tâches permettant de clôturer un exercice fiscal ou une période comptable, par exemple, en vérifiant que les documents et les feuilles sont validés et en vérifiant les soldes bancaires.
 author: jswymer
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.search.form: 100
-ms.date: 04/01/2021
+ms.date: 08/18/2022
 ms.author: jswymer
-ms.openlocfilehash: 832e0d2d606549f51c9f16884dd8d760c0f81a79
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: a6b21fd03cbfebdefb102074e97121bf2187bf49
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535466"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605943"
 ---
 # <a name="closing-years-and-periods"></a>Clôture des exercices et des périodes
 
@@ -27,7 +27,7 @@ Le tableau suivant fournit un aperçu des tâches que vous devez généralement 
 | --- | --- |
 | Définissez votre exercice comptable, et séparer-le en périodes dans lesquelles rapporter le résultat financier. | [Utiliser des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)|
 | Spécifier des plages de date de validation à l’échelle du système et spécifiques à l’utilisateur. En fonction des besoins de votre activité, vous pouvez restreindre les plages de date validation utilisateur au début du traitement de clôture d’exercice ou après ce dernier. |[Définir des périodes de validation](finance-how-specify-posting-periods.md) |
-| Obtenir un aperçu des activités qui sont généralement effectuées à la fin d’une période, telles que la validation de tous les documents et toutes les feuilles, ou l’exécution de tableaux d’analyse. |[Clôture périodes](year-how-complete-period-end-processes.md) |
+| Obtenir un aperçu des activités qui sont généralement effectuées à la fin d’une période, telles que la validation de tous les documents et toutes les feuilles, ou l’exécution d’états financiers. |[Clôture périodes](year-how-complete-period-end-processes.md) |
 | Mettre à jour les taux de change devise des écritures client, fournisseur et compte bancaire validées. |[Mettre à jour des taux de change devise](finance-how-update-currencies.md) |
 | Ventiler des coûts et des bénéfices dans des comptes et des axes. |[Répartition des coûts et du revenu](year-allocate-costs-income.md) |
 | Préparer la déclaration des montants de taxe sur la valeur ajoutée que vous avez recueillis sur les ventes au site Web des autorités fiscales. |[Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)|
@@ -43,6 +43,5 @@ Le tableau suivant fournit un aperçu des tâches que vous devez généralement 
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

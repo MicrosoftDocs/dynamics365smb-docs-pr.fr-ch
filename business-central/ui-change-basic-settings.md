@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 08/31/2022
 ms.author: jswymer
-ms.openlocfilehash: 36bf0ca4de4fb7caef9c26ae60ed6013387adca4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: de393807ae00efb5bc01a5f6c1fb0be8e98fdf36
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528668"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606078"
 ---
 # <a name="change-basic-settings"></a>Modifier les paramètres de base
 
@@ -29,41 +29,48 @@ Le rôle détermine la page d’accueil, un écran de démarrage conçu pour les
 
 * En haut, la navigation vous permet de permuter entre les clients, les fournisseurs, les articles et d’autres listes d’informations importantes. De même, les actions vous permettent de lancer des tâches, comme la création d’une facture vente, directement à partir de la page d’accueil.
 
-* Le tableau de bord contient une zone **Activités** qui affiche les données actuelles, vous pouvez cliquer ou appuyer dessus pour afficher des informations plus détaillées. Les indicateurs de performance clés peuvent être configurés afin d’afficher un graphique sélectionné pour une représentation visuelle, par exemple, de la trésorerie ou des revenus et des dépenses. Vous pouvez également générer la liste des clients favoris sur la page d’accueil pour les comptes d’entreprise avec lesquels vous travaillez souvent ou auxquels vous devez accorder une attention particulière.
+* Le tableau de bord contient une zone **Activités** qui affiche les données actuelles, vous pouvez sélectionner pour afficher des informations plus détaillées. Les indicateurs de performance clés peuvent être configurés afin d’afficher un graphique sélectionné pour une représentation visuelle, par exemple, de la trésorerie ou des revenus et des dépenses. Vous pouvez également générer la liste des clients favoris sur la page d’accueil pour les comptes d’entreprise avec lesquels vous travaillez souvent ou auxquels vous devez accorder une attention particulière.
 
-### <a name="to-change-the-role"></a>Pour modifier le rôle
+### <a name="change-the-role"></a>Modifier le rôle
 
 Le rôle par défaut est **Gestionnaire d’activité**, mais vous pouvez sélectionner un autre rôle pour utiliser un Tableau de bord qui correspond mieux à vos besoins.  
 
 1. Dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres.](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis choisissez l’action **Mes paramètres**.
 2. Sur la page **Mes paramètres**, dans le champ **Rôle** , sélectionnez le rôle que vous souhaitez utiliser par défaut. Par exemple, sélectionnez **Comptable**.
-3. Cliquez sur le bouton **OK**.
+3. Cliquez sur **OK**.
 
 ## <a name="company"></a><a name="company"></a>Société
 
-Dans [!INCLUDE[prod_short](includes/prod_short.md)], une société fonctionne comme un conteneur de données. Il peut y avoir plusieurs sociétés dans une seule base de données, mais une seule peut être sélectionnée à la fois.
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], une société fonctionne comme un conteneur de données. Il peut y avoir plusieurs sociétés dans une seule base de données, mais une seule peut être sélectionnée à la fois. La société par défaut est appelée CRONUS et contient uniquement des données de démonstration.
+
+Le champ **Société** indique l’entreprise où vous travaillez actuellement et vous pouvez l’utiliser pour passer à une autre entreprise. Le nom de la société est toujours affiché dans le coin supérieur gauche et fonctionne comme une action que vous pouvez choisir pour revenir dans le Tableau de bord.
+
+> [!TIP]
+> Vous pouvez également changer la société à l’aide du sélecteur de société (Crtl+O). Pour plus d’informations sur cette fonctionnalité et sur les autres façons de changer d’entreprise ou d’environnement, voir [Passer à une autre entreprise ou à un autre environnement](ui-organization-switch.md).
 
 La société par défaut est appelée CRONUS et contient uniquement des données de démonstration. Vous pouvez créer une nouvelle société avec des données personnalisées. Pour plus d’informations, voir [Création de sociétés](about-new-company.md).
 
-### <a name="to-change-the-company-name"></a>Pour changer le nom de la société
+<!--
+### To change the company name
 
-Le nom de la société est toujours affiché dans le coin supérieur gauche et fonctionne comme une action que vous pouvez choisir pour revenir dans le Tableau de bord. Vous pouvez changer ce nom sur la page **Informations société**.
+The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
-1. Choisissez l’icône ![Pignon pour ouvrir le menu Paramètres.](media/ui-experience/settings_icon_small.png) puis choisissez l’action **Informations société**.
-2. Dans le champ **Nom**, saisissez le nom de la nouvelle société.
-3. Quittez la page. Le système redémarre et affiche la nouvelle société dans le coin supérieur gauche.
+1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
+2. In the **Name** field, enter the new company name.
+3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>Pour afficher un badge d’entreprise pour un accès rapide aux informations de la société
+### <a name="badge"></a>To display a company badge for quick access to company information
 
-Vous pouvez ajouter un badge personnalisé dans le coin supérieur droit, vous pouvez ensuite choisir d’afficher rapidement le nom de la société et les informations sur l’abonné dans une fenêtre contextuelle. Le badge société est également utile lorsque [!INCLUDE[prod_short](includes/prod_short.md)] est intégré dans une autre application, comme Microsoft Teams ou dans une autre application Web. Dans ces cas, parce que le [!INCLUDE[web_client](includes/web_client.md)] affiche moins d’informations contextuelles adjacentes, le badge société est le seul moyen de déterminer à quelle société ou environnement appartient un enregistrement.
+You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Informations société**, puis choisissez le lien associé.
-2. Sur le raccourci **Badge société**, renseignez les champs, le cas échéant. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+2. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
-> Si un badge de société est défini, vous ne pouvez pas modifier le nom de la société comme décrit dans [Pour changer le nom de la société](ui-change-basic-settings.md#to-change-the-company-name)
+> If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
 ## <a name="work-date"></a><a name="work-date"></a>Date de travail
+
 La date de travail la plus couramment utilisée est la date du jour. Vous pouvez être amené à modifier temporairement la date de travail pour effectuer des tâches telles que l’exécution de transactions à une date différente de la date du jour.
 
 > [!TIP]  
@@ -84,7 +91,7 @@ Si la date de travail n’est pas définie sur la date actuelle (aujourd’hui),
 
 ## <a name="region"></a><a name="region"></a> Région
 
-Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme. Il détermine également quel caractère est utilisé comme séparateur décimal lors de l’utilisation d’un clavier numérique pour saisir des données. Pour plus d’informations, voir [Saisie de données](ui-enter-data.md#decimal).
+Le paramètre **Région** détermine la manière dont les dates, heures, nombres et devises sont affichés ou mis en forme. Il détermine également quel caractère est utilisé comme séparateur décimal lors de l’utilisation d’un clavier numérique pour saisir des données. En savoir plus sur [Saisie de données](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Langue
 
@@ -100,7 +107,7 @@ Définit le fuseau horaire dans lequel vous vous trouvez. Lorsque vous vous conn
 
 ## <a name="notifications"></a>Notifications
 
-Sélectionnez le lien *Modifier quand je reçois une notification* pour afficher ou modifier les notifications que vous recevez au sujet de certains événements ou modification de statut, lorsque vous êtes sur le point de facturer un client avec des écritures échues, ou lorsque le stock disponible est inférieur à la quantité que vous êtes sur le point de vendre. Pour plus d’informations, voir [Gérer les notifications](ui-smart-notifications.md).
+Sélectionnez le lien *Modifier quand je reçois une notification* pour afficher ou modifier les notifications que vous recevez au sujet de certains événements ou modification de statut, lorsque vous êtes sur le point de facturer un client avec des écritures échues, ou lorsque le stock disponible est inférieur à la quantité que vous êtes sur le point de vendre. En savoir plus sur [Gestion des notifications](ui-smart-notifications.md).
 
 ## <a name="teaching-tips"></a>Conseils d’apprentissage
 
@@ -110,8 +117,8 @@ Sélectionnez le lien *Modifier quand je reçois une notification* pour afficher
 
 ## <a name="see-also"></a>Voir aussi
 
-[Création de sociétés](about-new-company.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
+[Création de sociétés](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

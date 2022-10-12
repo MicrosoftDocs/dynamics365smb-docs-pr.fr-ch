@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: a485162cb194f7f16ff7c33c3e4a095865d35daf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8a3588e83ad0a75c4ac9167329659b25ed52320e
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520479"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606348"
 ---
 # <a name="undo-assembly-posting"></a>Annuler la validation d’assemblage
+
 Vous pouvez parfois être amené à annuler un ordre d’assemblage validé, par exemple, si la commande a été validée avec des erreurs qui doivent être corrigées, ou parce qu’il n’aurait pas dû être validé en premier et doit être annulé.
 
 Lorsque vous annulez un ordre d’assemblage validé, un ensemble d’écritures comptables article de correction est créé pour contrepasser les écritures d’origine. Chaque écriture production positive pour l’élément d’assemblage est contrepassée par une écriture production négative. Chaque écriture production négative pour un composant d’assemblage est contrepassée par une écriture production positive. Le lettrage des coûts fixes est créé automatiquement entre les écritures de correction et les écritures d’origine afin de garantir une inversion de même coût.  
@@ -39,7 +40,8 @@ De plus, les ordres d’assemblage existants ne peuvent être restaurés que si 
 
 La procédure suivante décrit comment annuler les ordres d’assemblage validés où les articles ont été assemblés pour stockage. Si vous souhaitez annuler les ordres d’assemblage validés pour lesquels les articles ont été assemblés pour une commande vente, vous devez exécuter la fonction **Annuler expédition** sur l’expédition validée qui se rapporte à l’ordre d’assemblage validé. Pour plus d’informations, voir [Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md). L’annulation de l’ordre d’assemblage validé se produit alors automatiquement de la même manière que celle décrite dans cette rubrique.  
 
-## <a name="to-undo-posting-of-an-assembly-order"></a>Pour annuler la validation d’un ordre d’assemblage  
+## <a name="to-undo-posting-of-an-assembly-order"></a>Pour annuler la validation d’un ordre d’assemblage
+
 1.  Pour annuler un ordre d’assemblage entièrement ou partiellement validé, choisissez l’![ampoule qui ouvre la fonction Fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Ordres d’assemblage validés**, puis sélectionnez le lien associé.  
 
     La page **Ordres d’assemblage validés** s’ouvre avec un ou plusieurs ordres d’assemblage qui ont été validés à partir de l’ordre d’assemblage en question. Chaque validation partielle crée un ordre d’assemblage validé distinct.  
@@ -53,11 +55,12 @@ Le champ **Contrepassé** de l’en\-tête d’ordre d’assemblage prend la val
 > [!NOTE]  
 >  Pour restaurer les quantités de plusieurs validations partielles dans un ordre d’assemblage, vous devez annuler tous les ordres d’assemblage validés concernés en suivant les étapes 1 à 3 ci-dessus pour chaque ordre d’assemblage validé.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Gestion des assemblages](assembly-assemble-items.md)  
-[Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
-[Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md)    
-[Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
+[Inverser des validations feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
+[Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md)  
+[Utilisation des nomenclatures d’assemblage](assembly-how-work-assembly-boms.md)  
 [Stock](inventory-manage-inventory.md)  
 [Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -8,16 +8,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 04/01/2021
+ms.date: 09/19/2022
 ms.author: edupont
-ms.openlocfilehash: 47cd78dc6f706407a0be9814e170054b95e4403d
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655073"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605916"
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
+
 [!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités dédiées pour les domaines d’activité courants, tels que la finance et les ventes. Pour plus d’informations, voir [Fonctionnalités d’entreprise](across-business-functionality.md).
 
 Pour prendre en charge ces tâches spécifiques à votre secteur d’activité, vous pouvez utiliser diverses fonctionnalités d’entreprise, comme définir un texte étendu pour les lignes document et organiser les tâches professionnelles en flux de travail.
@@ -42,18 +43,20 @@ Le tableau suivant répertorie ces secteurs d’activité généraux avec des li
 |Validez plusieurs documents de vente ou d’achat ensemble, immédiatement ou selon une planification.|[Valider plusieurs documents en même temps](ui-batch-posting.md)|  
 |Examinez le résultat de la validation avant de valider.|[Résultats de l’aperçu compta.](ui-how-preview-post-results.md)|
 |Modifiez les champs sélectionnés sur les documents de vente ou d’achat validés.|[Valider les documents validés](across-edit-posted-document.md)|
+| Comprendre le statut disponible pour les devis, les commandes et les documents d’avoirs, tels que **En cours** et **Lancé** | [Champ statut sur les documents](ui-document-status.md) |
 |Apprendre à utiliser Les feuilles comptabilité, qui permettent de valider dans les comptes généraux et d’autres comptes tels que les comptes bancaires, client, fournisseur et immobilisations. |[Utiliser des feuilles comptabilité](ui-work-general-journals.md) |
 | Planifier un état à exécuter à une date et une heure spécifiques. |[Planification d’un état à exécuter](ui-work-report.md#ScheduleReport) |
 |Le système peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même.|[Permettre à Business Central de proposer des valeurs](ui-let-system-suggest-values.md)|
 |Enregistrez des documents externes, ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
 |Configurez et utilisez des workflows qui connectent des tâches exécutées par différents utilisateurs ou par le système, telles que la validation automatique. Demander et accorder une approbation pour créer ou valider des documents sont des étapes classiques du workflow.|[Flux de travail](across-workflow.md)|
 | Configurer les définitions d’échange de données afin de pouvoir envoyer et recevoir des documents électroniques. |[Échanger des données par voir électronique](across-data-exchange.md) |
+| Utilisez des cartes en ligne pour trouver des emplacements et des itinéraires vers des clients, des fournisseurs et des adresses en général. | [Utilisez des cartes en ligne pour trouver des emplacements et des directions](across-online-maps.md) |
 
 ## <a name="see-also"></a>Voir aussi
+
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Administration](admin-setup-and-administration.md)
+[Administration](admin-setup-and-administration.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

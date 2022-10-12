@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 0f1e728b67555fcbde041f556265824b1a64a169
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 139ecb336cbfa637ad723322dad2b205050864b4
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529044"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604991"
 ---
 # <a name="welcome-to-prod_long"></a>Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -28,16 +28,16 @@ Si vous avez déjà [!INCLUDE[prod_short](includes/prod_short.md)], connectez-vo
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="microsoft-docs"></a>Microsoft Docs
+## <a name="microsoft-learn"></a>Microsoft Learn
 
 Dans le panneau de navigation à gauche, vous trouverez des informations sur l’utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans votre société. Trouvez des liens vers des descriptions des fonctionnalités les plus couramment utilisées dans la section [Processus d’entreprise](#business-processes). Voir aussi la section [En savoir plus à l’aide de la documentation du produit](product-help-and-support.md#learn-more-using-the-product-documentation).
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-Vous pouvez également [visiter notre vidéothèque](across-videos.md), ou lancer le parcours d’apprentissage [Prise en main de Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/) sur la [formation Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+Vous pouvez également [visiter notre vidéothèque](across-videos.md), ou commencer par le parcours d’apprentissage [Prise en main de Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/) sur [Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Sauf indication contraire, le contenu du site Docs.microsoft.com reflète la dernière version de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne. Si votre organisation utilise une version différente de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, il se peut que certaines fonctionnalités ne soient pas encore disponibles. De plus, si votre organisation utilise [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous utilisez peut-être une version antérieure. Pour plus d’informations, voir [Forum aux questions](across-faq.yml).
+> Sauf indication contraire, les articles sur Microsoft Learn reflètent la dernière version de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne. Si votre organisation utilise une version différente de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, il se peut que certaines fonctionnalités ne soient pas encore disponibles. De plus, si votre organisation utilise [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous utilisez peut-être une version antérieure. Pour plus d’informations, voir [Forum aux questions](across-faq.yml).
 
 Les sections suivantes présentent des articles clés qui peuvent vous aider à vous familiariser avec [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -76,9 +76,9 @@ Les sections suivantes présentent des articles clés qui peuvent vous aider à 
 - [Environnement de développement AL](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Règles et instructions du code d’AL](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
-## <a name="learn"></a>En savoir plus
+## <a name="microsoft-learn-training"></a>Formation Microsoft Learn
 
-Trouvez du contenu e-learning gratuit pour [!INCLUDE[prod_short](includes/prod_short.md)] sur la [formation Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+Trouvez du contenu e-learning gratuit pour [!INCLUDE[prod_short](includes/prod_short.md)] sur la [formation Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
 Vous pouvez également visionner des vidéos de fonctionnalités nouvelles et couramment utilisées dans notre vidéothèque. Pour plus d’informations, voir [Visiter notre vidéothèque](across-videos.md).  
 
@@ -94,14 +94,14 @@ Vous pouvez également visionner des vidéos de fonctionnalités nouvelles et co
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) associée
+## <a name="see-related-microsoft-learn-training"></a>Voir la [formation Microsoft Learn Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) associée
 
 ## <a name="see-also"></a>Voir aussi
 
 [Formation Dynamics 365 Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Démarrage rapide de Business Central](quick-start-business-central.md)  
 [Mise en route de Business Central](ui-get-ready-business.md)  
-[Visitez notre vidéothèque](across-videos.md)  
+[Visiter notre vidéothèque](across-videos.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
 [Obtention de [!INCLUDE[prod_short](includes/prod_short.md)] sur votre périphérique mobile](install-mobile-app.md)  
@@ -114,7 +114,6 @@ Vous pouvez également visionner des vidéos de fonctionnalités nouvelles et co
 [Documentation Dynamics 365](/dynamics365/)  
 [Dynamics 365 Business Central sur microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Présentation de docs.microsoft.com (article de blog original)](/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

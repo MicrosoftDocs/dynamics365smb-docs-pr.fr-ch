@@ -5,14 +5,14 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2022
+ms.date: 09/21/2022
 ms.author: jswymer
-ms.openlocfilehash: 8fd3d76ed8affd506ad4cd1838a182e595ecb0bf
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: e54cabd331253a40b160a6cc89b4ab170bd1db89
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528520"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607488"
 ---
 # <a name="sharing-business-data-from-business-central"></a>Partage de données métier à partir de Business Central
 
@@ -42,7 +42,7 @@ Pour plus d’informations, voir [Tri, recherche et filtrage](ui-enter-criteria-
 
 ![Prise en charge](media/check.png) Business Central Online ![Non pris en charge](media/x-icon.png) Business Central sur site
 
-Directement à partir de la plupart des pages de collection et de détails, vous pouvez envoyer un lien vers la page à des personnes, des discussions de groupe ou des canaux. Par exemple, partagez un lien vers une vue filtrée de vos enregistrements. Les destinataires sélectionnent ensuite le lien pour ouvrir la page dans Business Central.
+Directement à partir de la plupart des pages de collection et de détails, vous pouvez envoyer un lien vers la page à des personnes, des discussions de groupe ou des canaux. Par exemple, partagez un lien vers une vue filtrée de vos enregistrements. Si vous avez installé l’application [!INCLUDE[prod_short](includes/prod_short.md)] pour Teams, le lien se développera automatiquement en une fiche compacte que vous pourrez inclure dans votre message. Les destinataires sélectionnent ensuite le lien ou la fiche pour ouvrir la page dans Business Central.
 
 Pour plus d’informations, consultez [Partage d’enregistrements et de liens de page dans Teams](across-working-with-teams.md).
 

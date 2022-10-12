@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 05/23/2022
+ms.date: 08/16/2022
 ms.author: jswymer
-ms.openlocfilehash: 3fe47ef19e9a8dbc66c13461aa1255bc21490421
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 38dec472417e49fe974ed72f6eac2fdf4dffde3c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531151"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606683"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -56,15 +56,16 @@ Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder aux 
 |Alt+Maj+N |Fermer une page nouvellement créée et en ouvrir une nouvelle pour créer un enregistrement. De même, Alt + F9 valide un document et en crée un nouveau.|
 |Alt+T|Ouvrez la page **Mes paramètres**.|
 |Alt+Flèche vers la droite|Rechercher des informations supplémentaires ou des valeurs sous-jacentes pour un champ contenant le bouton ![AssistEdit](media/assist-edit-icon.png "Bouton AssistEdit"). . Utilisé lorsque le bouton déroulant habituel (Alt + Flèche vers le bas) dans le même champ est utilisé à une autre fin.|
-|Ctrl+Alt+Maj+C|Afficher des informations dans le badge société.|
+|Ctrl+Alt+Maj+C|Afficher des informations dans le badge société. Ce raccourci a été supprimé dans la 2è vague de lancement 2022 de Business Central (version 21) et remplacé par Ctrl+O. |
 |Ctrl+Alt+F1|Ouvrez, puis fermez le volet d’inspection des pages. Ce dernier affiche les informations relatives à la page, comme sa table source, ses champs, ses filtres, ses extensions, etc.<br /><br />Pour plus d’informations, reportez-vous à la rubrique [Inspection des pages](across-inspect-page.md).|
 |Ctrl+C |Copiez la valeur du champ. Si le champ a le focus, et si vous n’avez pas sélectionné un texte dans le champ, l’intégralité de la valeur est copiée. Si vous avez sélectionné un texte dans le champ, seul le texte sélectionné est copié.|
-|Ctrl+F1|Ouvrez le [volet d’aide](product-help-and-support.md#help-pane) ou un article d’aide de Business Central sur [Microsoft Docs](/dynamics365/business-central/), selon votre version de Business Central.|
+|Ctrl+F1|Ouvrez le [volet d’aide](product-help-and-support.md#help-pane) ou un article d’aide de Business Central sur [Microsoft Learn](/dynamics365/business-central/), selon votre version de Business Central.|
 |Ctrl+F12|Passez de la vue de mise en page développée à la vue de mise en page réduite.|
 |Ctrl+Clic|Naviguer pendant la personnalisation lorsque l’action est mise en surbrillance avec une flèche. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).|  
 |Ctrl+F5|Rechargez l’application [!INCLUDE[prod_short](includes/prod_short.md)]. (Similaire à sélectionner l’actualisation/rechargement du navigateur.)|
 |F5|Actualiser les données sur la page actuelle.<br /><br />Utilisez cette touche pour vous assurer que les données sont à jour sur la page avec les modifications que d’autres ont effectués pendant que vous travaillez.|
-|Saisissez|Activer ou accéder à l’élément ou au contrôle qui a le focus.|
+|Ctrl+O|Ouvrez le volet **Entreprises disponibles** de basculement vers une autre entreprise ou un autre environnement. Pour plus d’informations, voir [Passer à une autre entreprise ou un autre environnement](ui-organization-switch.md).|
+|Entrée|Activer ou accéder à l’élément ou au contrôle qui a le focus.|
 |Echap|Fermer la page actuelle ou la liste déroulante.|
 |Tab|Déplacer le focus sur le contrôle ou l’élément suivant d’une page, par exemple les actions, les boutons, les champs ou les en-têtes d’une liste.|
 |MAJ+Tab|Déplacer le focus sur le contrôle ou l’élément précédent d’une page, par exemple les actions, les boutons, les champs ou les en-têtes d’une liste.|

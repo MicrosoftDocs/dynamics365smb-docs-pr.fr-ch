@@ -1,24 +1,24 @@
 ---
 title: À propos de la fonctionnalité Planification
-description: Le système de planification dans Dynamics 365 Business Central prend en compte toutes les données d’offre et de demande, ajuste les résultats et génère des suggestions pour l’équilibrage de l’offre en fonction de la demande.
-author: SorenGP
+description: La planification prend en compte toutes les données d’offre et de demande, ajuste les résultats et génère des suggestions pour l’équilibrage de l’offre en fonction de la demande.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5430
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: 029666cdfd0ad75d62eb21f6e719295c67d88ed1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 08/30/2022
+ms.author: bholtorf
+ms.openlocfilehash: df67568094e76dccbc62b9dbf6d78dc9c0e58caf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535439"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606980"
 ---
 # <a name="about-planning-functionality"></a>À propos de la fonctionnalité Planification
 
-Le système de planification prend en compte toutes les données d’offre et de demande, ajuste les résultats et génère des suggestions pour l’équilibrage de l’offre en fonction de la demande.  
+Le système de planification prend en compte toutes les données d'offre et de demande, ajuste les résultats et génère des suggestions pour l'équilibrage de l'offre en fonction de la demande.  
 
 Pour plus d’informations, voir [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md).  
 
@@ -30,7 +30,7 @@ Pour plus d’informations, voir [Détails de conception : planification de l�
 La planification comporte deux volets : l’offre et la demande. Ces derniers doivent être équilibrés pour garantir que la demande soit satisfaite rapidement et efficacement.  
 
 - Le mot demande désigne tout sorte de besoin brut, tel qu’une commande vente, une commande service, un besoin composant d’un ordre d’assemblage ou de fabrication, un désenlogement transfert, une commande ouverte ou une prévision. En outre, l’application autorise d’autres types techniques de demande - tels qu’un ordre de fabrication ou une commande achat négatif, un stock négatif et un retour achat.  
-- Le mot offre désigne toute sorte de réapprovisionnement telle qu’un stock, une commande achat, un ordre d’assemblage, un ordre de fabrication ou un enlogement transfert. Par conséquent, il peut y avoir une commande vente ou une commande service négative, un besoin de composant ou un retour vente négatif – tous représentant aussi l’offre d’une certaine façon.  
+- Le réapprovisionnement fait référence à toute sorte de réapprovisionnement telle qu’un stock, une commande achat, un ordre d’assemblage, un ordre de fabrication ou un transfert enlogement. Par conséquent, il peut y avoir une commande vente ou une commande service négative, un besoin de composant ou un retour vente négatif – tous représentant aussi l’offre d’une certaine façon.  
 
 Un autre objectif du système de planification est de garantir que le stock ne croisse pas inutilement. En cas de baisse de la demande, le système de planification suggère de reporter, de réduire ou d'annuler des ordres de réapprovisionnement existants.  
 
@@ -158,9 +158,12 @@ La page **Demande achat** répertorie les articles que vous souhaitez commander.
 
 - Vous pouvez utiliser l’action **Commande spéciale** pour renseigner les lignes demande achat. Cette action utilise le traitement par lots **Extraire commandes vente** pour déterminer les lignes commande vente que vous souhaitez désigner pour une commande spéciale.
 
-Les lignes demande achat contiennent des informations détaillées sur les articles devant être recommandés. Vous pouvez modifier et supprimer les lignes pour ajuster le plan de réapprovisionnement et poursuivre le traitement des lignes à l’aide du traitement par lots **Traiter messages d’action**.
+Les lignes demande achat contiennent des informations détaillées sur les articles devant être recommandés. Vous pouvez modifier et supprimer les lignes pour ajuster le plan de réapprovisionnement et poursuivre le traitement des lignes à l’aide du traitement par lots **Traiter messages d’action**. 
 
 Pour plus d’informations sur la planification à l’aide de magasins et de transferts, voir [Planification avec/sans magasin](production-planning-with-without-locations.md).
+
+> [!TIP]
+> Lorsque vous travaillez sur les pages **Demande achat** ou **Feuille planning**, vous pouvez organiser les lignes en triant sur un nom de colonne. Ceci est particulièrement utile sur la page Feuille planning, car ils peuvent être utilisés pour les ordres de fabrication à plusieurs niveaux. Par défaut, les lignes sont triées par le champ **Numéro d’article**. Pour regrouper les lignes d’une commande à plusieurs niveaux, triez par **N° ordre de référence** . En outre, les champs **Ordre PDP** et **Niveau de planification** peuvent aider à montrer la hiérarchie des lignes.
 
 ## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/plan-items-dynamics-365-business-central/) associée
 

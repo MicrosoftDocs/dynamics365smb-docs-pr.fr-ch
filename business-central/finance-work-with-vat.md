@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 0a8d8f32613af2c0aab6905f62682e3c93307993
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530934"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617836"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utiliser la TVA sur les ventes et les achats
 Si votre pays ou votre région vous oblige à calculer et déclarer la taxe sur la valeur ajoutée (TVA) sur les transactions vente et achat, vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour calculer la TVA. Pour plus d’informations, voir [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md).
@@ -61,6 +61,18 @@ En fonction de ce que vous souhaitez faire, vous pouvez affecter un groupe compt
 
 #### <a name="examples"></a>Exemples
 Des facteurs tels que le pays ou la région dans lesquels vous vendez, ou le type de secteurs auxquels vous vendez, peuvent avoir un impact sur le montant de la TVA que vous devez comptabiliser. Par exemple, un restaurant peut facturer 6 % de TVA pour les repas consommés sur place et 17 % pour les plats à emporter. Pour ce faire, vous créez un groupe comptabilisation marché TVA (prix) pour la restauration sur place et un autre pour les plats à emporter.
+
+## <a name="working-with-vat-date"></a>Utilisation de la date de TVA
+### <a name="vat-date-in-documents"></a>Date de TVA dans les documents
+Lorsque vous créez des documents de vente ou d’achat, la **Date de TVA** est basée sur le réglage dans le champ **Date de TVA par défaut** sur la page **Paramètres comptabilité**. Cette valeur par défaut peut être la même que **Date de validation** ou **Date du document**. Si vous avez besoin d’une autre date de TVA, vous pouvez modifier manuellement la valeur dans le champ **Date de TVA**. Lorsque vous validez le document, la **Date de TVA** apparaît sur le document de validation et sur les écritures TVA et G/L.
+
+### <a name="correcting-vat-date-in-posted-entries"></a>Correction de la date de TVA dans les écritures publiées
+Dans certaines situations, il est nécessaire de modifier la date de TVA même si le document a été enregistré et cela peut être fait dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour changer la **Date de TVA** pour les documents validés, vous devez suivre ces étapes :
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures TVA**, puis choisissez le lien associé.
+2. Trouvez l’entrée avec une date de TVA incorrecte.
+3. Cliquez sur **Modifier la liste** et entrez la date correcte dans le champ **Date de TVA**.
+4. Fermez la page.
+5. La nouvelle date de TVA est modifiée dans le champ **Écritures comptables** associé et dans le document validé s’il existe.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Correction manuelle des montants de TVA dans des documents achat et vente  
 Vous pouvez apporter des corrections à des écritures TVA validées afin de pouvoir modifier les montants TVA totaux vente ou achat sans changer la base TVA. Par exemple, si vous recevez une facture d’un fournisseur avec un montant TVA incorrect.  
@@ -109,14 +121,14 @@ Au lieu d’utiliser des feuilles comptabilité pour valider une facture TVA imp
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Pour paramétrer l’achat pour une validation des factures TVA à l’importation  
 1. Paramétrer une fiche fournisseur pour l’administration d’importation qui vous envoie la facture TVA à l’importation. Les champs **Groupe compta. marché** et **Groupe compta. marché TVA** doivent être configurés de la même manière que le compte général pour la TVA à l’importation.  
 2. Créez un **Groupe compta. produit** pour la TVA importation et paramétrez un **Gpe compta. produit TVA défaut** (TVA importation) pour le **Groupe compta. produit** lié.  
-3. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
+3. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
 4. Sélectionnez le compte général de TVA à l’importation, puis sélectionnez l’action **Modifier**.  
 5. Sur le raccourci **Validation**, sélectionnez la configuration **Groupe compta. produit** pour importer la TVA. [!INCLUDE[prod_short](includes/prod_short.md)] renseigne automatiquement le champ **Groupe compta. produit TVA**.  
-6. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilisation**, puis choisissez le lien associé.  
+6. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilisation**, puis choisissez le lien associé.  
 7. Créez une combinaison de **Groupe comptabilisation marché** pour l’administration fiscale et de **Groupe compta. produit** pour la TVA d’importation. Pour cette nouvelle combinaison, dans le champ **Compte achat**, sélectionnez le compte général de la TVA à l’importation.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Pour créer une facture pour le fournisseur de l’administration d’importation, une fois le paramétrage terminé  
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.  
 2. Créez une facture achat.  
 3. Dans le champ **N° fournisseur**, sélectionnez le fournisseur de l’administration d’importation, puis cliquez sur **OK**.  
 4. Sur la ligne achat, dans le champ **Type**, sélectionnez **Compte général** et dans le champ **N°**, sélectionnez le compte général TVA importation.  
@@ -128,7 +140,7 @@ Au lieu d’utiliser des feuilles comptabilité pour valider une facture TVA imp
 Lorsque vous vendez des biens à un client dans un autre pays/une autre région de l’UE, vous devez envoyer au client un certificat d’approvisionnement que le client doit signer et vous renvoyer. Les procédures suivantes servent à traiter les certificats d’approvisionnement pour des expéditions vente, mais les mêmes étapes s’appliquent aux expéditions service des articles, ainsi qu’aux expéditions retour aux fournisseurs.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Pour afficher les détails d’un certificat d’approvisionnement  
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expéditions vente enreg.**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expéditions vente enreg.**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’expédition vente appropriée à un client dans un autre pays/une autre région de l’UE.  
 3. Sélectionnez **Détails certificat d’approvisionnement**.  
 4. Par défaut, si la case à cocher **Certificat d’approvisionnement requis** est activée pour la configuration de groupe comptabilisation TVA pour le client, le champ **Statut** est défini sur **Requis**. Vous pouvez mettre à jour le champ pour indiquer si le client a retourné le certificat.  
@@ -147,7 +159,7 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
 >  Vous pouvez afficher un aperçu ou imprimer le document. Lorsque vous choisissez **Imprimer le certificat d’approvisionnement** et que vous imprimez le document, la case à cocher **Imprimé** est automatiquement sélectionnée. En outre, s’il n’est pas déjà renseigné, le statut du certificat est mis à jour sur **Requis**. Si nécessaire, vous incluez le certificat imprimé à l’expédition.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Pour imprimer un certificat d’approvisionnement  
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expéditions vente enreg.**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expéditions vente enreg.**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’expédition vente appropriée à un client dans un autre pays/une autre région de l’UE.  
 3. Sélectionnez l’action **Imprimer le certificat d’approvisionnement**.  
 
@@ -165,7 +177,7 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
 8. Envoyez le certificat d’approvisionnement imprimé au client pour signature.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Pour mettre à jour le statut d’un certificat d’approvisionnement pour une expédition  
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expéditions vente enreg.**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expéditions vente enreg.**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’expédition vente appropriée à un client dans un autre pays/une autre région de l’UE.  
 3. Dans le champ **Statut**, sélectionnez l’option appropriée.  
 
@@ -178,7 +190,7 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
 Pour afficher un groupe de certificats, vous commencez à partir de la page **Certificats d’approvisionnement**, puis mettez à jour les informations concernant le statut des certificats en attente à mesure que vous les recevez de la part de vos clients. Ceci peut être utile si vous souhaitez rechercher tous les certificats ayant un certain statut, par exemple, **Requis**, si vous souhaitez mettre à jour leur statut en **Non reçu**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Pour mettre à jour le statut d’un groupe de certificats d’approvisionnement  
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Certificats d’approvisionnement**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Certificats d’approvisionnement**, puis sélectionnez le lien associé.  
 2. Filtrez le champ **Statut** sur la valeur que vous souhaitez afin de créer la liste des certificats que vous souhaitez gérer.  
 3. Pour mettre les informations de statut à jour, sélectionnez **Modifier la liste**.  
 4. Dans le champ **Statut**, sélectionnez l’option appropriée.  

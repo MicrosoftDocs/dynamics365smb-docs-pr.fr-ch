@@ -7,24 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 100
-ms.date: 04/01/2021
+ms.date: 08/25/2022
 ms.author: bholtorf
-ms.openlocfilehash: 44c9cdadc47a40f8915f3134018c062d90fe06c5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 93dcf334d65bda2859f8fcd91c976c3d85e6b18f
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511690"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605666"
 ---
 # <a name="work-with-accounting-periods-and-fiscal-years"></a>Utiliser des périodes et exercices comptables
 
-Les périodes comptables, également appelées périodes de report, sont des périodes pour lesquelles une société ou une organisation présente ses performances financières, par exemple, en générant leurs comptes de gestion ou leur bilan. Généralement, les périodes comptables sont liées à l’exercice comptable de la société, qui peut contenir plusieurs périodes comptables, telles que des mois ou des trimestres.
+Les périodes comptables, également appelées périodes de report, sont des périodes pour lesquelles une société ou une organisation présente ses performances financières, en générant par exemple leurs résultats ou leur bilan. Généralement, les périodes comptables sont liées à l’exercice comptable de la société, qui peut contenir plusieurs périodes comptables, telles que des mois ou des trimestres.
 
-Pour la plupart des sociétés, l’exercice comptable ne s’aligne pas sur l’année civile. Par exemple, l’exercice comptable peut se terminer le 30 juin au lieu du 31 décembre. Pour les sociétés que vous venez de créer, l’exercice fiscal peut être en vrai supérieur à 12 mois.  
+Pour de nombreuses entreprises, l’année fiscale ne correspond pas à l’année civile, par exemple lorsque l’année fiscale se termine le 30 juin au lieu du 31 décembre. Pour les sociétés que vous venez de créer, l’exercice fiscal peut même durer plus de 12 mois.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] nécessite uniquement des périodes comptables si vous souhaitez fermer un compte de gestion, ou exécuter des tâches de compression de données. 
+[!INCLUDE[prod_short](includes/prod_short.md)] nécessite uniquement des périodes comptables si vous souhaitez fermer un compte de gestion, ou exécuter des tâches de compression de données.
 
-Vous pouvez utiliser des périodes comptables dans les états. Par exemple, lorsque vous consultez les écritures validées sur la page **Réalisé/budget** où l’intervalle de génération d’état peut être spécifié. L’une des options consiste à spécifier la génération de rapport par période comptable. Vous pouvez également créer un tableau d’analyse qui compare les résultats de différentes périodes comptables.
+Vous pouvez utiliser des périodes comptables dans la génération d’états, par exemple lorsque vous consultez les écritures validées sur la page **Réalisé/budget** où l’intervalle de génération d’état est spécifié. L’une des options consiste à spécifier la génération d’état par période comptable. Vous pouvez également créer un état financier qui compare les résultats de différentes périodes comptables.
 
 ## <a name="creating-a-new-fiscal-year"></a>Création d’exercice comptable
 
@@ -34,18 +34,18 @@ Vous pouvez créer des périodes comptables en bloc, à l’aide du traitement p
 
 Utilisez le traitement par lots **Créer exercice comptable** pour diviser un exercice comptable en périodes de même durée.  
 
-1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") entrez **Périodes comptables**, puis sélectionnez le lien associé.  
-2. Choisissez l’action **Créer exercice**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
+1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Rechercher une page ou un état") entrez **Périodes comptables**, puis sélectionnez le lien associé.  
+2. Choisissez l’action **Créer exercice**.
 3. Dans le champ **Date début**, saisissez la date à laquelle l’exercice comptable commence.  
 4. Dans le champ **Nombre de périodes**, spécifiez le nombre de périodes comptables composant l’exercice comptable. Il peut y avoir un maximum de 365 périodes dans une année.  
-5. Dans le champ **Base période**, entrez une durée pour chaque période. Par exemple, 1M pour un mois, 1T pour un trimestre, et 1Y pour une année.  
+5. Dans le champ **Base période**, entrez une durée pour chaque période. Les identificateurs de durée sont 1M pour un mois, 1T pour un trimestre, et 1Y pour une année.  
 6. Cliquez sur **OK**.  
 
 ### <a name="how-to-create-accounting-periods-manually"></a>Comment créer des périodes comptables manuellement
 
 Si les périodes comptables de l’exercice comptable ont différentes durées, comme le calendrier 4-4-5 utilisé dans la vente au détail, vous pouvez les établir manuellement.  
   
-1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") entrez **Périodes comptables**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Rechercher une page ou un état") entrez **Périodes comptables**, puis sélectionnez le lien associé.  
 2. Dans le champ **Date début**, saisissez la date à laquelle l’exercice comptable commence. Le champ **Nom** affiche à présent le nom du mois.  
 3. Activez la case à cocher **Nouvel exercice comptable** pour indiquer qu’il s’agit de la première période de l’exercice. [!INCLUDE[prod_short](includes/prod_short.md)] utilise cette période pour déterminer les périodes à clôturer en fin d’exercice.
 4. Répétez les étapes 2 et 3 pour chaque période restante.  
@@ -68,7 +68,6 @@ Même si un exercice comptable est clôturé, vous pouvez toujours y valider des
 
 [Clôture des livres](year-close-books.md)  
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
-[Procédure d’utilisation des tableaux d’analyse](bi-how-work-account-schedule.md)  
-
+[Comment utiliser les états financiers](bi-how-work-account-schedule.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

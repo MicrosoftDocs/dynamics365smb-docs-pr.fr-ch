@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9203aa99271bc5fba840b3d568adc098686ef961
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b911692aa899eac88b74322e21454c87659a75a8
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136110"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605585"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Gestion des coûts ajustés et des coûts de fabrication
+
 Bien que la comptabilité analytique soit constituée de processus ne nécessitant pas d’interaction utilisateur, telle que le lettrage d’écritures et l’ajustement automatique des coûts, un certain nombre de champs, pages et états sont destinés aux utilisateurs qui gèrent directement ou indirectement le coût des articles ou opérations.  
 
  L’affectation de frais annexes aux documents achat est un exemple d’une tâche de comptabilité analytique indirecte. La mise à jour du coût unitaire de l’article d’assemblage ou de nomenclature production est un exemple de tâche de comptabilité analytique directe.  
@@ -28,13 +29,14 @@ Bien que la comptabilité analytique soit constituée de processus ne nécessita
 |Mettre à jour périodiquement ou automatiquement le coût unitaire d’un ou plusieurs articles afin de faire suivre toutes les modifications de prix des écritures entrantes, telles que celles des achats ou des sorties de production, vers les écritures sortantes, telles que la consommation ou les transferts.|[Ajuster coûts et prix article](inventory-how-adjust-item-costs.md)|  
 |Obtenir un aperçu de la dynamique coût moyen afin de prendre des décisions relatives aux prix ou de suivre les fluctuations des coûts causées par les erreurs de saisie.|[Enregistrer de nouveaux articles](inventory-how-register-new-items.md)|  
 |Créer le coût standard d’un article de production en saisissant les trois éléments de coût : le coût matière, le coût opératoire et le coût de sous-traitance.|[À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md)|  
-|Calculer le coût unitaire d’un article de nomenclature à partir des coûts unitaires de ses composants sous-jacents.|[Utiliser les nomenclatures](inventory-how-work-BOMs.md)|  
+|Calculer le coût unitaire d’un article de nomenclature à partir des coûts unitaires de ses composants sous-jacents.|[Utiliser les nomenclatures](inventory-how-work-BOMs.md) |  
 |Terminer le cycle de vie de l’évaluation stock en ajustant les coûts et en rapprochant les écritures valeur de la comptabilité.|[À propos des coûts des O.F. terminés](finance-about-finished-production-order-costs.md)|  
 |Modifier la valeur d’un article dans le stock ou la valeur d’une écriture comptable article, telle qu’une transaction achat.|[Réévaluer le stock](inventory-how-revalue-inventory.md)|
 |Délettrer manuellement un article ou relettrer des écritures comptables article créées par l’application.|[Supprimer et relettrer des écritures comptables article](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Utilisez le champ **Lettrage à partir écriture** dans la feuille article pour créer manuellement un lettrage fixe entre une transaction entrante et la transaction sortante initiale.|[Clôturer les écritures comptables article ouvertes qui résultent d’un lettrage fixe dans la feuille article](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)
 

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d006df90aa6eba3b1970db971cdb14700a3bbd6b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531717"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607731"
 ---
 # <a name="resources-for-help-and-support"></a>Ressources pour l’Aide et le support
 
@@ -51,7 +51,7 @@ La liste suivante décrit comment vous pouvez accéder au volet Aide et si des f
 Utilisez le champ de recherche en haut du volet Aide pour rechercher des conseils sur l’utilisation du produit, les capacités intégrées et les modules de formation disponibles. Selon vos termes de recherche, le volet affiche cinq liens ou plus, avec une courte description. Choisissez un lien ou affinez vos termes de recherche. Lorsque vous choisissez un lien, l’article cible s’ouvre dans un nouvel onglet de navigateur. Vous pouvez ensuite choisir de désancrer l’onglet du navigateur afin de pouvoir afficher les informations pertinentes côte à côte avec [!INCLUDE [prod_short](includes/prod_short.md)]. Le volet reste ouvert pendant que vous naviguez dans [!INCLUDE [prod_short](includes/prod_short.md)], de sorte que le contenu que vous avez recherché reste visible.  
 
 > [!NOTE]
-> Dans la version actuelle de [!INCLUDE [prod_short](includes/prod_short.md)], le champ de recherche du volet Aide s’applique uniquement au contenu publié sur le site [Docs.microsoft.com](/dynamics365/business-central).
+> Dans la version actuelle de [!INCLUDE [prod_short](includes/prod_short.md)], le champ de recherche du volet Aide s’applique uniquement au contenu publié sur la [documentation Dynamics 365 Business Central](/dynamics365/business-central) sur Microsoft Learn.
 
 ## <a name="help--support-page"></a>Page Aide et support
 
@@ -83,7 +83,7 @@ La section **Rechercher** inclut deux liens vers l’Aide des produits :
 
 - Aide concernant la page que vous venez d’afficher dans [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Ce lien est généré automatiquement. Si [!INCLUDE[prod_short](includes/prod_short.md)] ne trouve pas le lien pertinent, la page de destination sur [Docs.microsoft.com](index.md) pour la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] s’affiche. Par exemple, si la page faisait partie d’une application qui n’a pas ajouté de mappage d’aide contextuelle à [!INCLUDE[prod_short](includes/prod_short.md)], le *Lien d’apprentissage* accède par défaut à la page de destination.  
+  Ce lien est généré automatiquement. Si [!INCLUDE[prod_short](includes/prod_short.md)] ne trouve pas le lien pertinent, la [page de destination sur Microsoft Learn](index.md) pour la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] s’affiche. Par exemple, si la page faisait partie d’une application qui n’a pas ajouté de mappage d’aide contextuelle à [!INCLUDE[prod_short](includes/prod_short.md)], le *Lien d’apprentissage* accède par défaut à la page de destination.  
   
 - Page de destination de l’aide pour [!INCLUDE[prod_short](includes/prod_short.md)]  
 

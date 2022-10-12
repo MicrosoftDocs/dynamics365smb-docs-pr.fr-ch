@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 70bcc50bd419a73e242390d5a21e41360ae8d8cf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535333"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606456"
 ---
 # <a name="work-with-power-bi-reports-in-prod_short"></a>Utiliser les états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -52,7 +52,7 @@ Lorsque vous vous connectez pour la première fois [!INCLUDE [prod_short](includ
     - Si vous ne vous êtes pas encore inscrit à Power BI, sélectionnez [Accéder à la page d′accueil Power BI](https://powerbi.microsoft.com). Créez un compte, puis revenez sur [!INCLUDE[prod_short](includes/prod_short.md)] et terminez la configuration.
 
     - Si vous possédez déjà une licence, sélectionnez **Suivant**.
-4. Dans la page suivante, [!INCLUDE[prod_short](includes/prod_short.md)] va maintenant charger un rapport de démonstration sur Power BI. Cela prendra quelques minutes, donc c′est fait en arrière-plan. Pour terminer la configuration, sélectionnez **Suivant**, puis **Terminer**.
+4. Dans la page suivante, [!INCLUDE[prod_short](includes/prod_short.md)] va maintenant charger un rapport de démonstration sur Power BI. Cette étape prendra quelques minutes, donc c′est fait en arrière-plan. Pour terminer la configuration, sélectionnez **Suivant**, puis **Terminer**.
 
 Le processus de connexion démarre. Pendant le processus, [!INCLUDE [prod_short](includes/prod_short.md)] communique avec le service Power BI pour déterminer si vous avez un compte et une licence Power BI valides. Une fois votre licence vérifiée, l’état Power BI par défaut s’affiche sur la page. Si aucun état n’est affiché, vous pouvez sélectionner un état dans la partie.
 
@@ -69,9 +69,14 @@ Une fois connecté, vous pouvez sélectionner un état dans la partie Power BI s
 
 ### <a name="show-reports-on-list-pages"></a>Afficher les états sur les pages de liste
 
-[!INCLUDE[prod_long](includes/prod_long.md)] comprend un Récapitulatif Power BI sur plusieurs pages de liste clé. Ce Récapitulatif fournit des informations supplémentaires sur les données de la liste. Lorsque vous vous déplacez entre les lignes de la liste, l’état est mis à jour et filtré pour l’écriture sélectionnée. Si vous ne voyez pas cette partie, dans la barre d’action, sélectionnez **Actions** > **Afficher** > **Afficher/Masquer les états Power BI**.
+[!INCLUDE[prod_long](includes/prod_long.md)] comprend un Récapitulatif Power BI sur plusieurs pages de liste clé. Ce Récapitulatif fournit des informations supplémentaires sur les données de la liste. Lorsque vous vous déplacez entre les lignes de la liste, l’état est mis à jour et filtré pour l’écriture sélectionnée.
 
 Pour savoir comment créer des états pour les pages de liste, voir [Création d′états Power BI pour l′affichage des données de liste dans [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+
+> [!TIP]
+> Si vous ne voyez pas le récapitulatif Power BI, il peut être masqué sur votre espace de travail par personnalisation. Sélectionnez l’icône ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord"), puis l’action **Personnaliser**. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
+>
+> Ou si vous avez une ancienne version de Business Central, accédez à la barre d’action, sélectionnez **Actions** > **Afficher** > **Afficher/Masquer les rapports Power BI**.
 
 ### <a name="switch-reports"></a>Changer de rapports
 
@@ -143,7 +148,6 @@ C’est probablement parce que le nom de l’état ne contient pas le nom de la 
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] dans Power Automate](across-how-use-financials-data-source-flow.md)  
 

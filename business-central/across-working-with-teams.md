@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 05/19/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 17be576dad0eaf31918951e4e11a73acdd0ae70e
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528464"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617809"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Partage d’enregistrements et de liens de page Business Central dans Microsoft Teams
 
@@ -102,18 +102,24 @@ Pour en savoir plus sur l’utilisation des fiches et des détails de fiche, con
 
 Directement à partir de la plupart des pages de collection, comme la page **Articles**, et des pages de détails, comme la fiche **Articles**, vous pouvez envoyer un lien vers la page à des destinataires spécifiques dans une conversation Teams. Par exemple, vous pouvez partager un lien vers une vue filtrée de vos enregistrements. Les destinataires peuvent ensuite sélectionner le lien pour ouvrir la page dans [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
- ![!Le menu Partager affiché sur une fiche.](media/teams-share-link.png "Le menu Partager affiché sur une fiche.")
+[![!Le menu Partager affiché sur une fiche.](media/teams-share-link-v2.png "Le menu Partager affiché sur une fiche.")](media/teams-share-link-v2.png#lightbox)
 
 ### <a name="prerequisites"></a>Conditions préalables
-Vous avez accès à Microsoft Teams.
+
+- Vous avez accès à Microsoft Teams.
+- (Facultatif) Vous avez installé l’application [!INCLUDE [prod_short](includes/prod_short.md)] dans Teams. 
+
+  Une fois l’application installée, les messages que vous envoyez avec le lien incluront également une fiche compacte pour la page. Pour plus d’informations sur l’installation de l’application, consultez [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md).
 
 ### <a name="share-a-link"></a>Partager un lien
 
 1. Dans [!INCLUDE [prod_short](includes/prod_short.md)]\, ouvrez la page que vous souhaitez partager.
 2. En haut de la page, choisissez l’action ![ !Partager avec d’autres applications sur les pages.](media/share-icon.png) puis **Partager avec Teams**.
 3. Si vous y êtes invité, connectez-vous à Teams avec votre nom d’utilisateur et votre mot de passe.
-4. Sur la page **Partager avec Teams**, saisissez le nom d’une personne, d’un groupe ou d’un canal auquel vous souhaitez envoyer le message. 
-5. La zone de message comprendra un lien vers la page. Ajoutez d’autres informations si vous le souhaitez, puis choisissez **Partager**.
+4. Sur la page **Partager avec Teams**, saisissez le nom d’une personne, d’un groupe ou d’un canal auquel vous souhaitez envoyer le message.
+5. La zone de message comprendra un lien vers la page. Si l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams est installée, une fiche pour l’enregistrement ou la page lié apparaîtra également dans la boîte de message.
+
+   Ajoutez d’autres informations si vous le souhaitez, puis choisissez **Partager**.
 6. Le lien a maintenant été partagé. Si vous voulez aller à la conversation, choisissez **Accéder à Teams**.
 
 ## <a name="see-also"></a>Voir aussi
@@ -127,6 +133,5 @@ Vous avez accès à Microsoft Teams.
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

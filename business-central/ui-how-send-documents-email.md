@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532365"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607218"
 ---
 # <a name="send-documents-and-emails"></a>Envoyer des documents et des e-mails
 
@@ -51,10 +51,13 @@ Cette procédure décrit comment joindre une facture vente enregistrée à un e-
 > Si vous ne souhaitez pas spécifier les paramètres d’e-mail à chaque fois que vous envoyez un document par e-mail, vous pouvez sélectionner l’option **Oui (Utiliser les paramètres par défaut)** dans le champ **E-mail** de la page **Envoyer le document à**. Dans ce cas, la page **Envoyer e-mail** ne s’affiche pas. Reportez-vous à l’étape 4. Pour plus d’informations, reportez vous à [Configurer des profils d’envoi de documents](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Pour rédiger et envoyer un e-mail
+
 Vous pouvez rapidement composer des e-mails pour les contacts, les clients, les fournisseurs, les vendeurs/acheteurs et les comptes bancaires directement à partir des pages de ces entités. Il suffit de choisir **Traiter**, puis **Envoyer un e-mail** pour ouvrir l’éditeur de courrier électronique. Pour les comptes bancaires, l’action **Envoyer un e-mail** se trouve sous **Actions**.
 
 > [!TIP]
 > Si vous envoyez souvent des e-mails de nature similaire ou si vous souhaitez envoyer une communication en masse, par exemple pour annoncer une campagne commerciale, l’utilisation de modèles Word avec e-mail peut accélérer le processus. Vous pouvez créer un modèle pour des entités telles que des clients, des fournisseurs et des contacts, qui généreront le contenu d’un message électronique pour vous, et même personnaliseront le contenu pour le destinataire en fonction des données contenues dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Utiliser les modèles Word pour la communication en masse](ui-mail-merge.md).  
+
+Si vous êtes affecté à un scénario d’e-mail lié à l’entité à laquelle vous envoyez l’e-mail ou au document que vous envoyez, une pièce jointe peut être automatiquement ajoutée à votre message. En effet, une pièce jointe par défaut a été attribuée au scénario de courrier électronique. Vous pouvez supprimer la pièce jointe si vous ne souhaitez pas l’envoyer avec votre message. Pour plus d’informations, consultez [Attribuer des scénarios de messagerie aux comptes de messagerie](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documents marqués comme imprimés lors de leur envoi
 

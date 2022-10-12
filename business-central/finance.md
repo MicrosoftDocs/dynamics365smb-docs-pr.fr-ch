@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 06/15/2021
+ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: 3ef243581ddd0df9b546e3f2a40b2f1d666f73dc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bd8bd7089be89c9d5a2f57b53b104a2b5ac2a565
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515656"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605018"
 ---
 # <a name="financial-management"></a>Gestion financière
 
-[!INCLUDE[prod_short](includes/prod_short.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l’adapter à votre activité. Pour plus d’informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l’adapter à vos besoins d’activité. En savoir plus sur [Configurer Finance](finance-setup-finance.md).
 
 La configuration par défaut inclut un plan comptable et des groupes comptabilisation standard qui permettent d’accroître l’efficacité du processus d’affectation des comptes de validation de comptabilité par défaut aux clients, fournisseurs et articles.  
 
@@ -30,34 +30,34 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Lettrer des paiements entrants, rapprocher des comptes bancaires pendant le lettrage de paiement et collecter des soldes échus. |[Gestion des comptes client](receivables-manage-receivables.md) |
 | Effectuer des paiements, lettrer les paiements sortants et traiter les chèques. |[Gestion des comptes fournisseur](payables-manage-payables.md) |
 |Faire en sorte que vos clients envoient leur règlement avant la livraison ou envoyer le paiement à vos fournisseurs avant qu’ils n’effectuent la livraison.|[Facturation d’acomptes](finance-invoice-prepayments.md)|
-| Rapprocher des comptes bancaires et transférer des fonds entre comptes bancaires. |[Rapprochement de comptes bancaires](bank-manage-bank-accounts.md) |
+| Rapprocher et transférer des fonds entre comptes bancaires. |[Rapprochement de comptes bancaires](bank-manage-bank-accounts.md) |
 |Configurer les partenaires intersociétés et traiter les transactions, manuellement ou automatiquement, entre les personnes morales dans la même société.|[Gestion des transactions intersociétés](intercompany-manage.md)|
 |Analyser les coûts de fonctionnement de votre activité en affectant les coûts réels et budgétés des opérations, des départements, des produits et des projets relatifs aux centres de coûts.|[Comptabilité pour les coûts](finance-manage-cost-accounting.md)|
 |Gérer les coûts ajustés et de fabrication, générer des états sur les coûts et rapprocher les coûts avec la comptabilité.|[Gestion des coûts ajustés](finance-manage-inventory-costs.md)|
-| Comprendre les écritures comptables et le plan comptable. |[Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md) |
+| En savoir plus sur la comptabilité et le plan comptable. |[Familiarisation avec les écritures comptables et les COA](finance-general-ledger.md) |
 |Combiner des écritures comptables de plusieurs sociétés dans une société consolidée virtuelle pour l’analyse financière.|[Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)|
 | Ajouter des axes analytiques pour un veille économique enrichie. |[Utiliser les axes analytiques](finance-dimensions.md) |
 | Créer des budgets comptabilité pour prévoir différentes activités financières et affecter des axes analytiques à des fins de veille économique. |[Créer des budgets comptabilité](finance-how-create-budgets.md) |
-|Enregistrez les revenus ou les frais directement dans la comptabilité sans valider les documents commerciaux appropriés.|[Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)|
-|Valider les écritures contrepassées pour annuler les validations de valeur dans la feuille comptabilité ou les validations de quantité sur des documents achat et vente. |[Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)|
-|Ventiler une écriture d’une feuille comptabilité dans différents comptes lorsque vous validez la feuille. |[Répartition des coûts et du revenu](year-allocate-costs-income.md) |
-| Affectez les surcoûts, tels que le fret et la manutention que vous encourez lors de la transaction, jusqu’aux articles impliqués afin que les coûts soient répercutées dans l’évaluation du stock. |[Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md) |
-|Valider les frais personnels des salariés pour les activités commerciales et remboursez les salariés en effectuant le paiement sur leur compte bancaire.|[Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)|
-| Identifiez les revenus et les dépenses dans des périodes autres que celles de la validation des transactions. |[Échelonner les recettes et les dépenses](finance-how-defer-revenue-expenses.md)|
+|Enregistrer les revenus et les frais directement dans la comptabilité sans valider les documents commerciaux appropriés.|[Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)|
+|Contrepasser les écritures contrepassées pour annuler les validations de valeur dans la feuille comptabilité ou les validations de quantité sur des documents achat et vente. |[Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)|
+|Ventiler une écriture d’une feuille comptabilité dans différents comptes lorsque vous validez la feuille. |[Ventiler des coûts et des bénéfices](year-allocate-costs-income.md) |
+| Affecter les surcoûts, tels que le fret et la manutention que vous encourez lors de la transaction, jusqu’aux articles impliqués. De cette façon, le coût est reflété dans l’évaluation du stock. |[Utiliser des frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md) |
+|Afficher les dépenses des employés pour les activités liées au travail et effectuer les remboursements directement sur les comptes bancaires des employés.|[Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)|
+| Identifier les revenus et les dépenses dans des périodes autres que celles de la validation des transactions. |[Échelonner les recettes et les dépenses](finance-how-defer-revenue-expenses.md)|
 | Découvrez les options disponibles pour automatiser l’envoi de factures d’abonnement à vos clients et enregistrer des revenus récurrents. |[Utiliser des revenus récurrents](finance-recurring-invoicing.md)|
 |En savoir plus sur l’utilisation de devises supplémentaires et mettre à jour les taux de change devise automatiquement. |[Mettre à jour des taux de change devise](finance-how-update-currencies.md)|
 | Importez des transactions de paie de votre fournisseur de paie dans les écritures comptables. |[Importer les transactions de paie](finance-how-import-payroll-transactions.md)|
-|Utiliser des fonctions pour calculer la taxe sur la valeur ajoutée (TVA) sur les transactions de vente et d’achat afin de pouvoir déclarer les montants aux autorités fiscales.|[Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)|
+|Calculer la taxe sur la valeur ajoutée (TVA) sur les transactions de vente et d’achat afin de pouvoir déclarer les montants aux autorités fiscales.|[Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)|
 |Préparer une déclaration qui répertorie la TVA des ventes, et envoyer la déclaration à l’administration fiscale de l’UE. | [Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)|
 |Convertir manuellement les contrats de service pour modifier leur taux de TVA.|[Convertir les contrats de service incluant des montants TVA](service-how-to-convert-service-contracts.md)|
 | Contrôlez le flux de trésorerie entrant et sortant de votre entreprise. |[Analyse des trésoreries dans votre société](finance-analyze-cash-flow.md) |
-|Procédure de suivi et de bout en bout sur l’utilisation des tableaux d’analyse pour effectuer des prévisions de trésorerie.|[Procédure pas-à-pas : créer des prévisions de trésorerie à l’aide de tableaux d’analyse](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
-| Utiliser des états financiers et des aperçus dans Excel. |[Analyse des états financiers dans Excel](finance-analyze-excel.md) |
+|Procédure de suivi et de bout en bout sur l’utilisation des états financiers pour effectuer des prévisions de trésorerie.|[Procédure pas-à-pas : créer des prévisions de trésorerie à l’aide d’états financiers](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+| Utiliser des états financiers et des aperçus dans Microsoft Excel. |[Analyse des états financiers dans Excel](finance-analyze-excel.md) |
 |Apprendre à utiliser le tableau de bord Comptable, à inviter un comptable externe et à utiliser le Hub Entreprise pour gérer les comptes de plusieurs clients.|[Expériences de comptables dans Business Central](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Faire une visite vidéo
 
-La vidéo suivante présente certaines des fonctionnalités clés de la gestion des finances. <br><br>  
+Cette vidéo suivante présente certaines des fonctionnalités clés de la gestion des finances. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
@@ -73,6 +73,5 @@ La vidéo suivante présente certaines des fonctionnalités clés de la gestion 
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

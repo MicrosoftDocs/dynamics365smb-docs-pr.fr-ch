@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 28ac84b76f40771cf29c4d504035f01458cb1631
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 85c83a08907f9f5b441b3f09c1a09131684707a8
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517201"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606510"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspection des pages dans Business Central
 
@@ -26,11 +26,7 @@ La fonction Inspection des pages vous permet d’obtenir des détails sur une pa
 
 Vous commencez l’inspection des pages dans la page **Aide et support**. Cliquez sur le point d’interrogation dans le coin supérieur droit, sur **Aide et support**, puis sur **Inspecter les pages et les données**. Sinon, vous pouvez utiliser le raccourci clavier **Ctrl+Alt+F1**.
 
-Le volet **Inspection des pages** s’ouvre sur le côté. La figure suivante illustre le volet **Inspection des pages** sur la page **Commande vente**.
-
-![Inspection des pages.](media/page-inspection-example.png)
-
-Lorsque le volet **Inspection des pages** s’ouvre pour la première fois, il affiche les informations qui concernent le principal objet de la page.
+Le volet **Inspection des pages** s’ouvre sur le côté. Lorsque le volet s’ouvre pour la première fois, il affiche les informations qui concernent le principal objet de la page.
 
 Utilisez le clavier ou le dispositif de pointage pour déplacer le focus vers différents éléments de la page. Lorsque vous sélectionnez un élément de type Récapitulatif ou une partie de la page principale, la zone de délimitation est mise en avant par une bordure, et le volet **Inspection des pages** présente les informations relatives à l’élément sélectionné. Par exemple, l’image précédente présente les informations relatives à la partie de la liste sur la page **Commande vente**. Comme vous accédez à d’autres pages de l’application, le volet **Inspection des pages** se met automatiquement à jour avec les informations de la page au fur et à mesure de votre navigation.
 
@@ -47,6 +43,5 @@ Les utilisateurs qui ne disposent pas des autorisations sur **Objet système 533
 ## <a name="see-also"></a>Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

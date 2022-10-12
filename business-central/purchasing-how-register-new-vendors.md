@@ -1,21 +1,21 @@
 ---
 title: Créer une fiche fournisseur pour enregistrer de nouveaux fournisseurs (contient une vidéo)
 description: Découvrez comment créer une fiche fournisseur pour enregistrer un nouveau fournisseur et enregistrer les fiches fournisseur en tant que modèle.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 07/04/2022
-ms.author: edupont
-ms.openlocfilehash: e5fac9d278d289f6526d544324adcc8f5ce3185a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 09/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: ca4cca577b8105ddbf2625715a1585df2bb7b20d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532055"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606656"
 ---
 # <a name="register-new-vendors"></a>Enregistrer un nouveau fournisseur
 
@@ -41,6 +41,10 @@ Après avoir créé un modèle, vous pouvez utiliser l’action **Appliquer le m
 > Il peut être utile de personnaliser la page **Modèle de fournisseur** lorsque vous créez un modèle. Par exemple, vous souhaiterez peut-être ajouter un champ qui n’est pas déjà affiché sur la page. Pour plus d’informations, voir la section [Personnaliser votre espace de travail](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 Vous pouvez également créer un fournisseur à partir d’un contact. Pour plus d’informations, reportez-vous à la section [Créer un contact comme client, fournisseur, employé ou compte bancaire à partir d’un contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+
+Les adresses de remise sont utilisées lorsque vous imprimez des chèques pour payer vos fournisseurs, et les fournisseurs peuvent avoir plusieurs adresses de paiement pour les paiements. Par exemple, un fournisseur peut fournir un article d’une filiale, mais souhaite recevoir le paiement à son siège social. [!INCLUDE [prod_short](includes/prod_short.md)] vous permet de configurer plusieurs adresses postales pour chaque fournisseur et vous pouvez choisir le bon emplacement pour envoyer les paiements facture par facture.
+
+Vous spécifiez les adresses de paiement sur les pages Fiche fournisseur et sur la raccourci Expédition et paiements sur les bons de commande et les factures. Lorsque vous créez des lignes de journal des paiements à l’aide des actions Payer le fournisseur ou Créer un paiement sur la page Liste des fournisseurs ou la page Fiche fournisseur, ou l’action Appliquer des écritures sur un journal des paiements, le code de paiement sur l’écriture comptable du fournisseur est affecté. Vous pouvez remplacer cette valeur.
 
 ### <a name="to-create-a-new-vendor"></a>Pour créer un fournisseur
 

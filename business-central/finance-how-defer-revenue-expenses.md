@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d7eac169dc75f81f1d696a4a1e7344b5235a83a3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9d6acc41574870d691a14913ed0222df36dbeb74
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529109"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605531"
 ---
 # <a name="defer-revenues-and-expenses"></a>Echelonner les recettes et les dépenses
 
@@ -95,6 +95,18 @@ Les écritures comptables à valider vers le compte d’échelonnement spécifi�
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Résumé échelonnement vente**, puis sélectionnez le lien associé.
 2. Sur la page **Résumé échelonnement ventes**, dans le champ **Balance au**, saisissez la date à laquelle vous souhaitez voir les recettes échelonnées.
 3. Cliquez sur le bouton **Aperçu**.
+
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Pour spécifier une période au cours de laquelle autoriser la validation de l’échelonnement
+
+Vous pouvez spécifier une période au cours de laquelle les personnes peuvent enregistrer des transactions en saisissant des dates dans les champs **Début période validation** et **Fin période validation**, comme suit :
+
+* Pour tous les utilisateurs, sur la page **Paramètres comptabilité** :
+* Pour des utilisateurs spécifiques, sur la page **Paramètres utilisateur**
+
+Si vous l’avez fait, vous devez faire une exception pour les reports afin de leur permettre d’être affichés en dehors de la période. Pour définir la période, procédez comme suit :
+
+1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité** ou **Paramètres utilisateur**, puis choisissez le lien associé.
+2. Dans les champs **Autoriser la validation des reports à partir de** et **Autoriser la validation des reports jusqu’au**, entrez une date de début et de fin pour la période.
 
 ## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) associée
 

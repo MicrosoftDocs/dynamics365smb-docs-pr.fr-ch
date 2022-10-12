@@ -10,12 +10,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate,
 ms.search.form: 1500,
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 369ee2b4aded272a8a3a21fe810b4b6c62dd1de0
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 5fe089c0330a8d2b7a71f4907212665722d27d38
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585506"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606537"
 ---
 # <a name="use-power-automate-flows-in-prod_short"></a>Utiliser les flux Power Automate dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -43,9 +43,7 @@ Avec Power Automate, vous pouvez créer des flux métiers directement en interne
 
 ## <a name="instant-flows"></a>Flux instantanés
 
-À compter de la 1ère vague de lancement 2022 (mai 2022), les administrateurs de [!INCLUDE [prod_short](includes/prod_short.md)] en ligne peuvent [activer une fonctionnalité](admin-feature-management.md) pour permettre d’exécuter un flux Power Automate de la plupart des pages de liste, fiche et document. Pour plus d’informations, voir [Configurer des flux de travail automatisés](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) dans le contenu d’administration.
-
-Une fois l’administrateur connecté à [!INCLUDE [prod_short](includes/prod_short.md)] avec Power Automate, vous affichez tous les flux ajoutés par votre organisation lorsque vous sélectionnez l’action **Automatiser** dans les pages concernées. Les flux instantanés sont exécutés sans quitter [!INCLUDE [prod_short](includes/prod_short.md)].
+[!INCLUDE [prod_short](includes/prod_short.md)] peut exécuter un flux Power Automate depuis la plupart des pages de liste, de fiche et de document. Une fois l’administrateur connecté à [!INCLUDE [prod_short](includes/prod_short.md)] avec Power Automate, vous affichez tous les flux ajoutés par votre organisation lorsque vous sélectionnez l’action **Automatiser** dans les pages concernées. Les flux instantanés sont exécutés sans quitter [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Configurer des flux de travail automatisés](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) dans le contenu d’administration.
 
 Ces flux de travail instantanés s’ouvrent sur une page dans [!INCLUDE [prod_short](includes/prod_short.md)] en ligne afin que vous restiez dans le contexte du processus métier dans lequel vous vous trouviez. Sélectionnez l’action **Automatiser** sur certaines pages imbriquées sous le menu **Plus d’options**, trouvez-la, sélectionnez l’élément de menu **Power Automate**, puis sélectionnez le lien approprié pour déclencher le flux de travail. La connexion à Power Automate est déjà configurée pour vous.
 
@@ -62,7 +60,7 @@ Vous pouvez trouver des exemples de modèles à adapter à votre entreprise et �
 
 ## <a name="manage-automated-workflows"></a>Gérer les flux de travail automatisés
 
-Vous pouvez créer des flux ou gérer des flux Power Automate existants dans [!INCLUDE [prod_short](includes/prod_short.md)] sur la page **Gérer les flux Power Automate**. Pour plus d’informations, voir [Gérer les flux Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows.md) dans le contenu d’administration.
+Vous pouvez créer des flux ou gérer des flux Power Automate existants dans [!INCLUDE [prod_short](includes/prod_short.md)] sur la page **Gérer les flux Power Automate**. Pour plus d’informations, consultez l’article [Gérer les flux Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) dans le contenu d’administration.
 
 Vous pouvez également gérer les flux de travail Power Automate disponibles sur la page **Flux de travail** dans [!INCLUDE[prod_short](includes/prod_short.md)]. La page répertorie à la fois l’approbation intégrée et les flux de travail Power Automate, avec des options permettant à ces derniers d’activer/désactiver, de supprimer et d’afficher le flux de travail sur le site web Power Automate.
 

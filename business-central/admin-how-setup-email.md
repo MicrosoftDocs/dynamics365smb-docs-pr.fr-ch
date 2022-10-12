@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 02/06/2022
+ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 44a590997d7c0ddaa342861068b818bf905f9c5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534307"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606402"
 ---
 # <a name="set-up-email"></a>Configurer la messagerie
 Les utilisateurs au sein des entreprises envoient des informations et des documents, tels que des commandes vente et achat et des factures, par e-mail, au quotidien. Les administrateurs peuvent se connecter à un ou plusieurs comptes de messagerie à [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez donc envoyer des documents sans avoir à ouvrir une application de messagerie. Vous pouvez composer chaque message individuellement avec des outils de mise en forme de base, tels que des polices, des styles, des couleurs, etc., et ajouter des pièces jointes pouvant atteindre 100 Mo. De plus, les présentations d’états permettent aux administrateurs d’inclure uniquement les informations clés des documents. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
@@ -73,7 +73,9 @@ Le guide de configuration assistée **Configurer la messagerie** peut vous aider
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Affecter des scénarios de messagerie aux comptes de messagerie
 Les scénarios de messagerie sont des processus qui impliquent l’envoi d’un document. Par exemple, une commande vente ou achat ou une notification, telle qu’une invitation à un comptable externe. Des comptes de messagerie spécifiques peuvent être utilisés pour des scénarios spécifiques. Par exemple, vous pouvez spécifier que tous les utilisateurs envoient toujours les documents de vente à partir d’un compte, les documents d’achat d’un autre et les documents d’entrepôt ou de production à partir d’un troisième compte. Vous pouvez attribuer, réattribuer et supprimer des scénarios quand vous le souhaitez. Un scénario ne peut être attribué qu’à un seul compte de messagerie à la fois. Le compte de messagerie par défaut sera utilisé pour tous les scénarios qui ne sont pas attribués à un compte.
- 
+
+Sur la page **Affectation des scénarios par e-mail**, vous pouvez choisir l’action **Définir les pièces jointes par défaut** pour ajouter des pièces jointes aux scénarios d’e-mail. Les pièces jointes seront toujours disponibles lorsque vous composerez un e-mail pour un document lié au scénario. Chaque scénario d’e-mail peut avoir une ou plusieurs pièces jointes par défaut. Les pièces jointes par défaut sont automatiquement ajoutées aux e-mails pour le scénario d’e-mail. Par exemple, lorsque vous envoyez une commande client par e-mail, la pièce jointe par défaut spécifiée pour le scénario Commande vente sera ajoutée. Les pièces jointes par défaut s’affichent dans la section **Pièces jointes** au bas de la page **Composer un e-mail**. Vous pouvez ajouter manuellement des pièces jointes autres que par défaut à l’e-mail.
+
 <!--
 ## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
@@ -101,12 +103,12 @@ Dans **Stratégies affichage e-mail utilisateur**, choisissez un utilisateur, pu
 >  Si vous laissez le champ **ID utilisateur** vide, puis choisissez l’action Stratégie d’affichage des e-mails, la stratégie que vous définissez s’applique à tous les utilisateurs.
 
 ## <a name="set-up-reusable-email-texts-and-layouts"></a>Configurer des textes et des mises en page d’e-mail réutilisables
-Vous pouvez utiliser des états pour inclure des informations clés provenant de documents de vente et d’achat dans des textes pour e-mails. Cette procédure décrit comment configurer l’état **Vente - Facture** pour les factures vente enregistrées, mais le processus est similaire pour les autres états.
+Vous pouvez utiliser des états pour inclure des informations clés provenant de documents de vente, d’achat et de service dans des textes pour e-mails. Cette procédure décrit comment configurer l’état **Vente - Facture** pour les factures vente enregistrées, mais le processus est similaire pour les autres états.
 
 > [!NOTE]
 > Pour utiliser la mise en page afin de créer du contenu pour les e-mails, vous devez utiliser le type de fichier Word pour votre mise en page.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection des états - Ventes**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection des états - Ventes**, puis sélectionnez le lien associé.
 2. Sur la page **Sélection des états : Ventes**, dans le champ **Utilisation**, sélectionnez **Facture**
 3. Sur une nouvelle ligne, dans le champ **ID état**, sélectionnez, par exemple, l’état standard 1306.
 4. Cochez la case **Utiliser pour le corps du message e-mail**.

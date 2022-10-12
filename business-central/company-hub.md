@@ -7,18 +7,20 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fdc84068220e16ac82d97ec005d69ec3496d902
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132070"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606186"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Gérer le travail entre plusieurs entreprises dans le Hub Entreprise
 
-Certaines personnes travaillent dans plusieurs entreprises [!INCLUDE [prod_short](includes/prod_short.md)], et certains travaillent également dans plus d’une organisation, comme des comptables externes, ou des employés et des gestionnaires de sociétés ayant plusieurs filiales. Pour ces utilisateurs, et bien d’autres, le Hub Entreprise sert de page de destination pour gérer le travail dans les différents environnements dans lesquels ils travaillent, entre les entreprises, les environnements et les régions.  
+Certaines personnes travaillent dans plusieurs entreprises [!INCLUDE [prod_short](includes/prod_short.md)], et certains travaillent également dans plus d’une organisation, comme des comptables externes, ou des employés et des gestionnaires de sociétés ayant plusieurs filiales. Pour ces utilisateurs, et bien d’autres, le Hub Entreprise sert de page de destination qui donne une vue d’ensemble financière des entreprises et des environnements. Il offre aux utilisateurs un outil pour gérer le travail dans les différents environnements dans lesquels ils travaillent, entre les entreprises, les environnements et les régions.  
 
 Vous pouvez accéder au hub de l’entreprise en passant au rôle **Hub Entreprise** dans Mes paramètres, ou en ouvrant la page **Hub Entreprise**. Vous pouvez faire le même travail aux deux endroits, mais les actions sont placées légèrement différemment dans les menus.  
+
+[![Affiche la page Hub Entreprise qui répertorie toutes les entreprises.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
 > [!NOTE]
 > Vous pouvez connecter le Hub Entreprise à autant d’entreprises que vous le souhaitez. Cependant, vous ne pouvez connecter le Hub Entreprise qu’aux entreprises hébergées dans [!INCLUDE [prod_short](includes/prod_short.md)] en ligne.
@@ -63,9 +65,9 @@ La liste **Mes tâches utilisateur** vous permet de planifier votre journée en 
 
 Vous pouvez effectuer un tri par date d’échéance, par exemple, ou tout autre type de données vous permettant de planifier votre journée. Par défaut, la liste affiche toutes les tâches qui vous sont affectées, mais vous pouvez définir des filtres pour afficher uniquement les tâches qui sont marquées comme ayant une priorité élevée, par exemple.  
 
-Pour sélectionner une tâche, il suffit de cliquer dessus dans la liste des tâches utilisateur en attente. Dans le ruban, le lien **Atteindre l’élément de tâche** ouvre la page sur laquelle vous pouvez effectuer le travail.  
+Pour sélectionner une tâche, cliquez dessus dans la liste des tâches utilisateur en attente. Dans le ruban, le lien **Atteindre l’élément de tâche** ouvre la page sur laquelle vous pouvez effectuer le travail.  
 
-Lorsque vous avez terminé une tâche, marquez-la simplement comme terminée.  
+Lorsque vous avez terminé une tâche, marquez-la comme terminée.  
 
 Pour plus d’informations sur les entreprises et les environnements, voir [Liens d’environnements](company-hub-add-company.md#environment-links).  
 

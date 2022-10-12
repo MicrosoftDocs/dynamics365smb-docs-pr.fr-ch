@@ -9,23 +9,38 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5e485827ed5fb5fcef9a807650993734099377de
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382300"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607353"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Configuration des comptes d’utilisateur pour intégration à Microsoft Dataverse
 
+Cet article fournit un aperçu de la manière dont la configuration des comptes d’utilisateur requis pour intégrer [!INCLUDE[prod_short](includes/cds_long_md.md)] à [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Cet article fournit un aperçu de la manière dont la configuration des comptes d’utilisateur requis pour intégrer [!INCLUDE[prod_short](includes/cds_long_md.md)] à [!INCLUDE[prod_short](includes/prod_short.md)].  
+## <a name="set-up-the-administrator-user-account"></a>Configuration du compte d’utilisateur administrateur
 
-## <a name="setting-up-the-administrator-user-account"></a>Configuration du compte d’utilisateur administrateur
-Vous devez ajouter votre compte d’utilisateur administrateur pour [!INCLUDE[prod_short](includes/prod_short.md)] en tant qu’utilisateur dans [!INCLUDE[prod_short](includes/cds_long_md.md)]. Lorsque vous configurez la connexion entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)], nous utilisons ce compte une fois pour installer et configurer certains composants requis. 
+Vous devez ajouter votre compte d’utilisateur administrateur pour [!INCLUDE[prod_short](includes/prod_short.md)] en tant qu’utilisateur dans [!INCLUDE[cds_long](includes/cds_long_md.md)]. Lorsque vous configurez la connexion entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)], nous utilisons ce compte une seule fois pour installer et configurer certains composants requis.
+
+> [!IMPORTANT]
+> Le compte d’utilisateur administrateur doit être un utilisateur sous licence possédant le rôle de sécurité **Administrateur système** dans l’environnement [!INCLUDE[prod_short](includes/cds_long_md.md)] et d’administrateur général sur le locataire auquel l’environnement appartient. Ce compte n’a pas besoin de licence pour [!INCLUDE[prod_short](includes/prod_short.md)], car il ne sera utilisé que pour provisionner le service dans le locataire [!INCLUDE[prod_short](includes/cds_long_md.md)] et pour effectuer des tâches de configuration.
+>
+> Une fois la configuration de la connexion terminée, cet utilisateur [!INCLUDE[prod_short](includes/cds_long_md.md)] peut être supprimé. L’intégration continuera à utiliser le compte d’utilisateur qui est automatiquement créé spécialement pour l’intégration.
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Autorisations et rôles de sécurité pour les comptes d’utilisateur dans [!INCLUDE[prod_short](includes/cds_long_md.md)]
-Lorsque vous installez la solution d’intégration de base CDS, les autorisations pour le compte d’utilisateur d’intégration sont configurées. Si ces autorisations sont modifiées manuellement, vous pouvez les réinitialiser. Vous pouvez le faire en réinstallant la solution d’intégration de base CDS en choisissant **Redéployer la solution d’intégration** sur la page **Paramétrage de la connexion Common Data Service**. Le rôle de sécurité Intégration Business Central CDS est déployé.
+
+La solution d’intégration de base crée les rôles suivants dans [!INCLUDE[cds_long](includes/cds_long_md.md)] pour l’intégration :
+
+* **Administrateur d’intégration** : permet aux utilisateurs de gérer la connexion entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[cds_long](includes/cds_long_md.md)]. En général, cela est attribué uniquement au compte d’utilisateur automatiquement créé pour la synchronisation.
+* **Utilisateur d’intégration** : permet aux utilisateurs d’accéder aux données synchronisées. En général, cela est attribué au compte d’utilisateur automatiquement créé pour la synchronisation et aux autres utilisateurs devant consulter les données synchronisées ou y accéder.
+
+> [!NOTE]
+>
+> Les rôles **Administrateur d’intégration** et **Utilisateur d’intégration** ne doivent être utilisés que par l’utilisateur de l’application qui exécute l’intégration. L’utilisateur de l’application n’a pas besoin de licence [!INCLUDE[prod_short](includes/prod_short.md)] ou [!INCLUDE[cds_long](includes/cds_long_md.md)] attribuée.
+
+Lorsque vous installez la solution d’intégration de base, elle configure les autorisations pour le compte d’utilisateur d’intégration. Si ces autorisations sont modifiées manuellement, vous pouvez les réinitialiser. Sélectionnez **Redéployer la solution d’intégration** sur la page **Configuration de la connexion Dataverse** pour réinstaller la solution d’intégration de base. Cette étape déploiera le rôle de sécurité Intégration Business Central.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -120,9 +135,9 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>Voir aussi  
-[Intégration à Microsoft Dataverse](admin-common-data-service.md)  
-[Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+## <a name="see-also"></a>Voir aussi
 
+[Intégration à Microsoft Dataverse](admin-common-data-service.md)  
+[Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

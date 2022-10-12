@@ -10,12 +10,12 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.search.form: 2026, 2027, 2029,
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 814224ed0ba9453c0e787a673dd03e2817ed666f
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: bd729acaab521cb32b152f297950c7616c78aad7
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524643"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606024"
 ---
 # <a name="the-image-analyzer-extension"></a>Extension d’analyseur Image
 
@@ -117,7 +117,7 @@ Vous pouvez afficher le nombre d’analyses effectué, et le nombre restant, pou
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexions de services**, puis choisissez **Configuration de l’analyse d’image**.  
 2. Désactivez la case à cocher **Activer l’analyseur Image**.  
 
-Vous pouvez également désinstaller complètement l’extension. Vous pouvez toujours la récupérer à partir de AppSource. Pour plus d’informations, voir [Installation et désinstallation d’extensions dans Business Central](ui-extensions-install-uninstall.md#uninstall-an-extension).  
+Vous pouvez également désinstaller complètement l’extension. Vous pouvez toujours la récupérer à partir de AppSource. Pour plus d’informations, voir [Installation et désinstallation d’extensions dans Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
 ## <a name="see-also"></a>Voir aussi
 
