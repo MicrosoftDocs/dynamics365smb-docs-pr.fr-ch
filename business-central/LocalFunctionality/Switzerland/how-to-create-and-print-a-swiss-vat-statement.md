@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11023, 11024
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c00157642f2f6ab0d6dc8d769a540536350b6e87
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d9a7323ebc505f90d6f76c105211b3c6bab51de0
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145999"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617902"
 ---
 # <a name="create-and-print-a-swiss-vat-statement-in-the-swiss-version"></a>Créer et imprimer une déclaration de TVA, Suisse dans la version suisse
 Selon les informations spécifiées dans la page **Paramètres compta. TVA**, [!INCLUDE[prod_short](../../includes/prod_short.md)] peut créer automatiquement une nouvelle configuration de relevé de TVA pour le report TVA réalisé. Avant de continuer avec les procédures de cette rubrique, assurez-vous que vous avez configuré les paramètres comptabilisation TVA ayant des valeurs spécifiées pour les champs de chiffre d'affaires ventes et achats.  
@@ -34,8 +34,9 @@ Selon les informations spécifiées dans la page **Paramètres compta. TVA**, [!
 1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Déclaration de TVA suisse**, puis sélectionnez le lien associé.  
 2.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
-    |Champ|Désignation|  
+    |Champ|Description|  
     |---------------------------------|---------------------------------------|  
+    |**Type date période**|Spécifie le type de date utilisé pour la période à partir de laquelle les écritures TVA sont traitées par le traitement par lots.|
     |**Date début**|Saisissez la date à laquelle vous souhaitez que l'intervalle de temps des lignes déclaration de TVA figurant sur l'état commence.|  
     |**Date fin**|Saisissez la date à laquelle vous souhaitez que l'intervalle de temps des lignes déclaration de TVA figurant sur l'état se termine.|  
     |**Clôture avec n° de déclaration de TVA**|Sélectionnez le registre de TVA qui contient la source de comptabilisation des écritures d'ajustement de la TVA. Cette option évalue les périodes comptables qui ont déjà établies. Lorsque vous choisissez cette option, vous ne spécifiez pas les options dans les champs **Inclure écritures TVA** suivants.|  
