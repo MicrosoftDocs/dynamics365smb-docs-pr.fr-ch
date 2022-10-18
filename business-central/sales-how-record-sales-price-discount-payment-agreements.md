@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: ed59e73dce1847e2edb02def981abdf869a275d9
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 5560a9a1b5c5eb031136a7c1320019eac75239e0
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606159"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652207"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Enregistrer les prix de vente spéciaux et les remises
 
@@ -93,7 +93,7 @@ Lorsque vous activez la mise à jour de la fonctionnalité **Nouvelle expérienc
     * Ventes
     * Achats
     * Ventes projet
-    * Achats projet 
+    * Achats projet
 
     Vous pouvez modifier tous les prix pour ces zones sur la page **Feuille prix**. Les listes de prix par défaut seront définies sur les pages **Configuration des ventes et des comptes clients**, **Paramètres ventes**, et **Paramètres projets**. 
 
@@ -252,7 +252,7 @@ Vous pouvez associer les pourcentages de remise à des montants de facture spéc
 En plus du pourcentage de remise (ou à sa place), vous pouvez lier un montant de frais forfaitaires au montant d’une facture.  
 
 > [!TIP]  
-> Avant de saisir ces informations dans le programme, il est conseillé de préparer la structure de la remise à utiliser. Ainsi, vous pouvez visualiser plus facilement les clients pouvant être liés à la même page de remise facture. Plus le nombre de pages à configurer est faible, plus vous pouvez saisir rapidement les informations de base.
+> Avant de saisir ces informations dans le programme, il est conseillé de préparer la structure de la remise à utiliser. La structure vous permet de déterminer plus facilement les clients pouvant être liés à la même page de remise facture. Plus le nombre de pages à configurer est faible, plus vous pouvez saisir rapidement les informations de base.
 
 Pour la formation sur les remises sur les ventes, voir [Configurer des remises pour vos clients](/training/modules/customer-discounts-dynamics-365-business-central/index).
 

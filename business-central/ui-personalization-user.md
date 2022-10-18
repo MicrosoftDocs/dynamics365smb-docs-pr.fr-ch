@@ -1,21 +1,21 @@
 ---
 title: Personnalisation des pages (contient une vidéo)
 description: Découvrez comment personnaliser l’interface utilisateur et votre espace de travail pour l’adapter à votre façon de travailler et aux préférences personnelles dans Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 7739ead50f07adc5a7a14c6c9e57cc623da275c9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 10/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528828"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652180"
 ---
 # <a name="personalize-your-workspace"></a>Personnaliser votre espace de travail
 
@@ -79,9 +79,15 @@ En ce qui concerne les autres personnalisations, les modifications apportées à
 |Ajoutez une nouvelle action à une page ou à un état sur votre tableau de bord.|Dans la page cible, la page de demande d’état, ou la fenêtre Tell Me, choisissez l’icône de signet.|Voir [Ajouter un signet à une page ou à un état sur votre tableau de bord](ui-bookmarks.md)|
 |Toujours démarrer une liste comme développée ou réduite|Choisissez le bouton **Développer tout** ou **Réduire tout** dans le coint supérieur gauche de la liste. Sinon, choisissez l’action **Développer tout** ou **Réduire tout** dans le menu de la première colonne. |S’applique aux listes hiérarchiques réductibles|
 
-## <a name="personalizing-actions"></a><a name="Actions"></a>Personnalisation des actions
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Personnalisation de la barre d’action et des menus
 
-La personnalisation vous permet de choisir les actions à afficher sur les barres de navigation et d’actions et sur le Tableau de bord et où les afficher. Vous pouvez afficher, masquer ou déplacer les actions individuelles ou groupes d’action. La personnalisation des barres de navigation et d’actions est exécutée essentiellement de la même façon qu’avec les autres éléments de l’interface utilisateur. Toutefois, ce que vous pouvez faire avec une action ou un groupe dépend de l’emplacement de l’action ou du groupe. La meilleure façon de le savoir consiste à passer en mode de personnalisation et à vous laisser guider par les flèches.
+La personnalisation vous permet de choisir les actions à afficher sur les barres de navigation et d’actions et sur les tableaux de bord et où les afficher. Vous pouvez afficher, masquer ou déplacer les actions individuelles ou groupes d’action.
+
+Dans la 2e vague de lancement 2022, nous vous avons proposé d’autres moyens d’adopter Business Central. La vidéo suivante montre comment vous pouvez personnaliser les actions sur les pages et les tableaux de bord.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
+
+La personnalisation des barres de navigation et d’actions est exécutée essentiellement de la même façon qu’avec les autres éléments de l’interface utilisateur. Toutefois, ce que vous pouvez faire avec une action ou un groupe dépend de l’emplacement de l’action ou du groupe. La meilleure façon de le savoir consiste à passer en mode de personnalisation et à vous laisser guider par les flèches.
 
 Vous devez vous familiariser avec certains termes pour mieux comprendre la personnalisation de la barre d’actions : *groupe d’actions* et *catégorie promue*.  
 
