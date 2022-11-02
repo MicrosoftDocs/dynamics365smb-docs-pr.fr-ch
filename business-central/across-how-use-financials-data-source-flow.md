@@ -2,67 +2,113 @@
 title: Utiliser les flux Power Automate dans Business Central
 description: Configurez et utilisez les flux Power Automate pour créer ou modifier les données Business Central.
 author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate,
 ms.search.form: 1500,
-ms.date: 09/13/2022
-ms.author: edupont
-ms.openlocfilehash: 5fe089c0330a8d2b7a71f4907212665722d27d38
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 10/10/2022
+ms.custom: bap-template
+ms.openlocfilehash: ce1af0b2a07aa570141f9d4684930e303cbca742
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606537"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716583"
 ---
 # <a name="use-power-automate-flows-in-prod_short"></a>Utiliser les flux Power Automate dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Vous pouvez utiliser vos données [!INCLUDE[prod_short](includes/prod_short.md)] en tant que partie du flux de travail dans Microsoft Power Automate. Créez vos propres flux et connectez-vous à vos données depuis des sources internes et externes avec le connecteur [!INCLUDE [prod_short](includes/prod_short.md)].
+Avec [!INCLUDE[prod_short](includes/prod_short.md)], vous obtenez une licence de Microsoft Power Automate. Cette licence vous permet d’utiliser vos données [!INCLUDE[prod_short](includes/prod_short.md)] dans le cadre d’un flux de travail dans Microsoft Power Automate. Vous créez des flux personnalisés et vous vous connectez à vos données dans des sources internes et externes à l’aide du connecteur [!INCLUDE [prod_short](includes/prod_short.md)].
+
+Les flux Power Automate sont déclenchés par des événements, comme un enregistrement a été créé, modifié ou supprimé. Ils peuvent également être exécutés selon une planification définie par l’utilisateur ou à la demande.
 
 > [!NOTE]
-> Vous devez disposer d’un compte valide avec [!INCLUDE[prod_short](includes/prod_short.md)] et Power Automate.  
+> Les administrateurs peuvent restreindre l’accès à Power Automate. Si vous vous rendez compte que vous avez du mal à accéder à tout ou partie des fonctionnalités décrites dans cet article, Adressez-vous à un administrateur. Si vous voulez apprendre à contrôler l’accès à Power Automate en tant qu’administrateur, voir [Configuration de l’intégration de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
+
+<!-- You must have a valid account with both [!INCLUDE[prod_short](includes/prod_short.md)] and Power Automate. --> 
 
 > [!TIP]
 > Outre Power Automate, vous pouvez utiliser les modèles de flux de travail approbation dans [!INCLUDE[prod_short](includes/prod_short.md)]. Bien qu’il existe deux systèmes de flux de travail distincts, tous les modèles de flux de travail approbation que vous créez dans Power Automate sont ajoutés à la liste des flux de travail dans [!INCLUDE[prod_short](includes/prod_short.md)]. En savoir plus sur [Flux de travail](across-workflow.md).
 
-Les flux Power Automate sont déclenchés par des événements tels que la création, la modification ou la suppression d’enregistrements et de documents (flux automatisés). Les flux peuvent également s’exécuter selon une planification définie par l’utilisateur (flux planifiés) ou à la demande (flux instantanés).
+## <a name="about-power-automate-flows"></a>À propos des flux Power Automate
+
+Power Automate est un service qui vous aide à créer des workflows (ou flux) automatisés entre vos applications et services comme [!INCLUDE[prod_short](includes/prod_short.md)]. Les flux Power Automate nécessitent peu ou pas de connaissances en codage. Ils peuvent être associés à une grande variété d’événements et de réponses, notamment :
+- Modifications d’enregistrement
+- Mises à jour des fichiers externes
+- Documents validés
+- Différents services Microsoft et tiers, comme Microsoft Outlook, Excel, Dataverse, Teams, SharePoint, Power Apps, etc.
+
+Trois types distincts de flux de cloud que vous pouvez utiliser :
+
+|Type de flux|Désignation|
+|---------|-----------|
+|Automatisé|Ce type de flux est exécuté automatiquement par un événement. Dans [!INCLUDE[prod_short](includes/prod_short.md)], un événement peut être la création, la modification ou la suppression d’un enregistrement ou d’un document. Par exemple, une nouvelle facture vente peut déclencher un flux pour un requête d’approbation, qui peut se composer de différents ensembles d’événements selon la réponse de l’approbateur. Une réponse négative envoie une notification et un e-mail au demandeur d’approbation. Une réponse positive met simultanément à jour une feuille de calcul Excel située dans un dossier SharePoint et envoie une mise à jour à une conversation Teams. Les flux automatisés peuvent être démarrés par des événements internes et externes dans [!INCLUDE[prod_short](includes/prod_short.md)].|
+|Planifié|Ce type de flux est également exécuté automatiquement mais il s’exécute régulièrement à une date et heure planifiées. |
+|Instantané |Ce type de flux est exécuté à la demande. L’utilisateur doit l’exécuter manuellement à l’aide d‘un bouton ou d’une action dans une autre application ou un autre appareil. Dans ce cas, le client [!INCLUDE[prod_short](includes/prod_short.md)]. Les flux instantanés fonctionnent de la même manière que les raccourcis par lots, effectuant plusieurs étapes longues en appuyant sur quelques boutons et sont lancés à partir de pages ou de tableaux spécifiques. Par exemple, un flux peut ajouter un bouton au menu d’action sur la page **Fournisseurs** pour bloquer les paiements à un fournisseur et, en même temps, envoyer des e-mails personnalisables au contact du fournisseur et aux acheteurs de votre entreprise ainsi que mettre à jour le contact dans Outlook. |
 
 ## <a name="power-automate-features-in-prod_short"></a>Fonctionnalités Power Automate dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Les flux étendent les fonctionnalités d’approbation intégrées disponibles dans [!INCLUDE[prod_short](includes/prod_short.md)] sans connaissances en codage particulières, et peuvent être associés à une vaste plage d’événements et de réponses, tels que des modifications d’enregistrement, des mises à jour de fichiers externes, des documents validés, ainsi que différents services Microsoft et tiers tels que Microsoft Outlook, Microsoft Excel, Microsoft Dataverse, Microsoft Teams, Microsoft SharePoint, Microsoft Power Apps, etc.
+Vous pouvez explorer les flux Power Automate disponibles actuellement pour vous en vous connectant à [Power Automate](https://powerautomate.com) et en sélectionnant **Mes flux** sur la barre de navigation à gauche. Vous trouverez des flux que vous avez créés vous-même et les flux partagés avec vous par un administrateur ou un collègue. Ces flux sont également rendus disponibles de l’intérieur de [!INCLUDE [prod_short](includes/prod_short.md)] à partir de différentes pages. Avec les flux automatisés dans [!INCLUDE[prod_short](includes/prod_short.md)], vous n’avez rien à faire, sauf si vous voulez les changer ou les désactiver. Sinon ils ne fonctionneront qu’une fois déclenchés. Pour un flux instantané sur les données [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez les exécuter pour la plupart des listes, cartes et pages de documents en les sélectionnant dans l’élément **Automatiser** de l’action. En savoir plus sur les sections suivantes.
 
-Ainsi, par exemple, une nouvelle facture de vente peut déclencher un flux de travail pour une demande d’approbation, qui peut avoir différents événements définis en fonction de la réponse de l’approbateur. Une réponse négative envoie une notification et un e-mail au demandeur d’approbation. Une réponse positive met simultanément à jour une feuille de calcul Excel située dans un dossier SharePoint et envoie une mise à jour à une conversation Teams.
+<!--
 
-Les flux instantanés fonctionnent de la même manière que les raccourcis par lots, effectuant plusieurs étapes longues en appuyant sur quelques boutons et sont lancés à partir de pages ou de tableaux spécifiques. Par exemple, un flux peut ajouter un bouton au menu d’action sur la page **Fournisseurs** pour bloquer les paiements à un fournisseur et, en même temps, envoyer des e-mails personnalisables au contact du fournisseur et aux acheteurs de votre entreprise ainsi que mettre à jour le contact dans Outlook.
+## Automated flows
 
-## <a name="automated-workflows"></a>Flux de travail automatisés
+With Power Automate, you can create business flows directly in-house and rely on citizen developers. Automated workflows can be started by both internal and external events in [!INCLUDE[prod_short](includes/prod_short.md)], and also be set to run periodically. Learn more and get instructions on how to create flows in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
 
-Avec Power Automate, vous pouvez créer des flux métiers directement en interne et vous appuyer sur des développeurs citoyens. Les flux de travail automatisés peuvent être lancés par des événements internes et externes dans [!INCLUDE[prod_short](includes/prod_short.md)], et également être configurés pour s’exécuter périodiquement. En savoir plus et obtenir des instructions sur la façon de créer des flux de travail dans l’article [Configurer des flux de travail automatisés](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) dans le contenu de l’administration.
+-->
 
-## <a name="instant-flows"></a>Flux instantanés
+## <a name="run-instant-flows"></a>Exécuter des flux instantanés
 
-[!INCLUDE [prod_short](includes/prod_short.md)] peut exécuter un flux Power Automate depuis la plupart des pages de liste, de fiche et de document. Une fois l’administrateur connecté à [!INCLUDE [prod_short](includes/prod_short.md)] avec Power Automate, vous affichez tous les flux ajoutés par votre organisation lorsque vous sélectionnez l’action **Automatiser** dans les pages concernées. Les flux instantanés sont exécutés sans quitter [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Configurer des flux de travail automatisés](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) dans le contenu d’administration.
+Les flux instantanés s’ouvrent dans [!INCLUDE [prod_short](includes/prod_short.md)] Online pour pouvoir conserver le contexte du processus métier au milieu duquel vous vous trouvez. Vous ne pouvez pas exécuter de flux instantané de la plupart des listes, cartes ou documents.
 
-Ces flux de travail instantanés s’ouvrent sur une page dans [!INCLUDE [prod_short](includes/prod_short.md)] en ligne afin que vous restiez dans le contexte du processus métier dans lequel vous vous trouviez. Sélectionnez l’action **Automatiser** sur certaines pages imbriquées sous le menu **Plus d’options**, trouvez-la, sélectionnez l’élément de menu **Power Automate**, puis sélectionnez le lien approprié pour déclencher le flux de travail. La connexion à Power Automate est déjà configurée pour vous.
+1. Dans la barre d’actions, choisissez **Automatiser**, puis sélectionnez un flux dans les la liste des flux disponibles sous l’action **Power Automate**
 
-La plupart des flux vous demandent de remplir un champ ou deux avant de sélectionner l’action **Exécuter le flux**.
+    :::image type="content" source="media/power-automate-action-intro.png" alt-text="Affiche l’action Automatiser dans la barre d’actions avec les actions développée.":::
+
+    Sur certaines pages, **Automatiser** est imbriqué sous **Plus d’options (...)**. 
+2. Sur le volet **Exécuter le flux**, complétez les champs obligatoires, puis sélectionnez **Continuer** pour exécuter le flux.
+
+> [!NOTE]
+> La première fois que vous utilisez l’élément **Automatiser**, vous pouvez ne voir que l’action **Mise en route de Power Automate**. Vous voyez cette action, car vous n'avez pas approuvé la déclaration de confidentialité pour Microsoft Power Automate. Pour continuer, sélectionnez **Déclaration de confidentialité de Power Automate** et suivez les instructions pour approuver ou désapprouver.  
+>
+> :::image type="content" source="media/power-automate-action.png" alt-text="Affiche l’élément Automatiser dans la barre d’actions.":::
+
+<!--
+
+[!INCLUDE [prod_short](includes/prod_short.md)] can run a Power Automate flow from most list, card, and document pages. Once the admin has connected [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate, you'll see any flows your organization has added when you choose the **Automate** action on the relevant pages. Instant flows are run without leaving [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
+
+These instant flows open on a page inside [!INCLUDE [prod_short](includes/prod_short.md)] online so you can remain within the context of the business process you were in the middle of. Choose the **Automate** action—on some pages nested under the **More Options** menu—choose the **Power Automate** menu item, then choose the relevant link to trigger the workflow. The connection to Power Automate is already set up for you.
+
+Most flows require you to fill in a field or two before you choose the **Run flow** action.
 
 > [!TIP]
-> Si vous n’affichez pas l’action **Automatiser**, il est possible que [!INCLUDE [prod_short](includes/prod_short.md)] ne soit pas encore configuré pour utiliser Power Automate. En savoir plus auprès de votre administrateur.
+> If you don't see an **Automate** action, then your [!INCLUDE [prod_short](includes/prod_short.md)] probably hasn't yet been set up to use Power Automate. Learn more from your admin.-->
 
-## <a name="add-more-automated-flows-and-instant-flows"></a>Ajouter plus de flux automatisés et de flux instantanés
+## <a name="create-edit-and-manage-flows"></a>Créez, modifier et gérer les flux
 
-Vous pouvez créer des flux sur le site Web [powerautomate.microsoft.com](https://powerautomate.microsoft.com). Toutefois, si votre administrateur a activé la possibilité d’exécuter les flux Power Automate depuis [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, vous pouvez démarrer le processus de création d’un flux à partir de l’action **Automatiser** sur les pages correspondantes, qui se trouvent sous le menu **Autres options** selon la page. Puis sélectionnez l’élément du menu **Power Automate**, puis sélectionnez l’action **Créer un flux**. Power Automate s’ouvre alors dans un nouvel onglet du navigateur et vous êtes automatiquement connecté.
+La création de nouveaux flux, la modification et la gestion des flux existants (comme les activer ou les désactiver) peuvent effectués directement dans Power Automate. Mais vous pouvez initier certaines de ces tâches depuis l’intérieur de [!INCLUDE[prod_short](includes/prod_short.md)] :
 
-Vous pouvez trouver des exemples de modèles à adapter à votre entreprise et à tous les événements déclencheurs disponibles, en utilisant à la fois [!INCLUDE [prod_short](includes/prod_short.md)] et des outils externes, en choisissant le menu **Connecteurs** sur le site web Power Automate. Pour plus d’informations sur les modèles et déclencheurs disponibles, voir [Configurer des flux de travail automatisés](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) dans le contenu d’administration.
+- Pour créer un flux instantané à partir d’une liste, carte ou une page de document, sélectionnez **Automatiser** > **Créer un flux**.
+- Pour ouvrir Power Automate à partir d’une liste, carte ou une page de document, sélectionnez **Automatiser** > **Gérer des flux**.
+- Pour créer des flux ou gérer des flux existants depuis l’intérieur de [!INCLUDE[prod_short](includes/prod_short.md)], accédez à la page **Gérer les flux de Power Automate**.
 
-## <a name="manage-automated-workflows"></a>Gérer les flux de travail automatisés
+Ces tâches sont généralement effectuées par un administrateur ou un super utilisateur. Les tâches nécessitent des connaissances élargies des processus métier dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour en savoir plus, voir [Configuration des flux automatisés](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows), [Configuration des flux instantanés](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) et [Gestion des flux Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+<!-- 
 
-Vous pouvez créer des flux ou gérer des flux Power Automate existants dans [!INCLUDE [prod_short](includes/prod_short.md)] sur la page **Gérer les flux Power Automate**. Pour plus d’informations, consultez l’article [Gérer les flux Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) dans le contenu d’administration.
+## Add more automated flows and instant flows
 
-Vous pouvez également gérer les flux de travail Power Automate disponibles sur la page **Flux de travail** dans [!INCLUDE[prod_short](includes/prod_short.md)]. La page répertorie à la fois l’approbation intégrée et les flux de travail Power Automate, avec des options permettant à ces derniers d’activer/désactiver, de supprimer et d’afficher le flux de travail sur le site web Power Automate.
+You can create flows through the [powerautomate.microsoft.com](https://powerautomate.microsoft.com) website. However, if your admin has switched on the capability to run Power Automate flows from inside [!INCLUDE [prod_short](includes/prod_short.md)] online, you can start the process of building a flow from the **Automate** action on the relevant pages, which can be found under the **More Options** menu depending on the page. Then choose the **Power Automate** menu item, and then choose the **Create a flow** action. Power Automate then opens in a new browser tab, and you're signed in automatically.
+
+You can find sample templates to adapt to your company and all available trigger events, using both [!INCLUDE [prod_short](includes/prod_short.md)] and external tools, by choosing the **Connectors** menu on the Power Automate website. Learn more about available templates and triggers in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
+
+## Create and manage Power Automate flows
+
+You can create new flows or manage existing Power Automate flows in [!INCLUDE [prod_short](includes/prod_short.md)] on the **Manage Power Automate Flows** page. Learn more in the [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) article in the administration content.
+
+<!--
+You can also manage available Power Automate workflows on the **Workflows** page in [!INCLUDE[prod_short](includes/prod_short.md)]. The page lists both the built-in approval and Power Automate workflows, with options for the latter to enable/disable, delete, and view the workflow on the Power Automate website.-->
 
 ## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/use-power-automate/) associée
 
@@ -80,3 +126,4 @@ Vous pouvez également gérer les flux de travail Power Automate disponibles sur
 [Activer les flux instantanés](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
+m

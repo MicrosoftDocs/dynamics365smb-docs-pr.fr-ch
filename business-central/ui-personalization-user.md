@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
+ms.openlocfilehash: 436adf8dcfd9d5825530a1a51f5ed0efad7d9b7c
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652180"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716607"
 ---
 # <a name="personalize-your-workspace"></a>Personnaliser votre espace de travail
 
@@ -155,6 +155,12 @@ Pour vous aider à mieux comprendre la personnalisation, voici quelques points c
 - Les modifications que vous apportez s’appliquent à tous vos tableaux de bord. Par exemple, si vous modifiez la liste Clients lorsque le tableau de bord est défini sur Gestionnaire d’activité, vous verrez également la modification de la page **Clients** lorsque le tableau de bord est défini sur Préparateur de commandes vente.
 - Les modifications d’une page dans un volet s’appliquent à la page, où qu’elle s’affiche.  
 - Vous ne pouvez ajouter de champs et de colonnes qu’à partir d’une liste prédéfinie, laquelle est basée sur la page. Vous ne pouvez pas en créer de nouveaux.
+- Élément de **Power Automate** dans la barre d’actions
+  - Vous ne pouvez pas masquer ou déplacer l’élément **Automatiser** ou le sous-élément de **Power Automate** et ses actions **Créer un flux** et **Gérer les flux**.
+  - Vous pouvez déplacer les flux inclus dans l’élément **Automatiser**, mais vous ne pouvez pas les masquer à l’aide de la personnalisation. Déplacer le flux crée une copie du flux vers la destination qui ne sera pas supprimée de l’élément **Automatiser**.
+
+   > [!TIP]
+   > En tant qu’administrateur, vous pouvez masquer l’élément **Automatisation** des utilisateurs. En savoir plus sur [Configuration de l’intégration Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
 ## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) associée
 

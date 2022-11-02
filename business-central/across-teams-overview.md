@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: fbedf23a65940b73e521d06d17abbbaef77fd512
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: f826ceaca3ae6f5a68a60a43f4824fcbe60c0753
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607440"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716597"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Intégration de Business Central et Microsoft Teams
 
@@ -54,7 +54,9 @@ Pour plus d’informations, consultez [Partager des enregistrements dans Microso
 
 Directement à partir de la plupart des pages de collection et de détails dans Business Central, vous pouvez utiliser l’action **Partager avec teams** à partir de ![ !l’icône du menu Partager sur les pages.](media/share-icon.png "Le menu Partager affiché sur une fiche.") pour saisir un message, choisir des destinataires, tels que des membres de l’équipe, des groupes ou des canaux, et envoyer le message avec un lien vers la page Business Central.
 
-![!Le menu Partager affiché sur une fiche.](media/teams-share-link.png "Le menu Partager affiché sur une fiche.")
+[![!Menu Partage affiché sur une carte.](media/teams-share-link-v2.png "Le menu Partager affiché sur une fiche.")](media/teams-share-link-v2.png#lightbox)
+
+<!--![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 Pour plus d’informations, consultez [Partager des enregistrements et des liens de page dans Microsoft Teams](across-working-with-teams.md#share-link).
 
