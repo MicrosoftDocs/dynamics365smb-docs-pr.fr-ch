@@ -8,12 +8,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
-ms.openlocfilehash: c8cd251a2e82cd1a721f070f14986dd78c6f1730
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.openlocfilehash: fd43becad8bd2272c4d1babf2ed2cfce40edfd2d
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716615"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728507"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Flux de travail dans Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ La version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)] prend 
 * Flux Power Automate
 
   * Les flux automatisés qui sont déclenchés par des événements (tels que la création, la modification ou la suppression d’enregistrements ou de documents) dans [!INCLUDE[prod_short](includes/prod_short.md)]. Sont également inclus les flux d’approbation créés dans Power Automate qui se déclenchent quand une approbation est demandée dans [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Les flux instantanés déclenchés manuellement par l’action **Automatiser** à partir de listes, de cartes et de pages de document. 
+  * Les flux instantanés déclenchés manuellement par l’action **Automatiser** à partir de listes, de cartes et de pages de document.
 
     Créez et déclenchez manuellement un flux Power Automate sur un enregistrement [!INCLUDE[prod_short](includes/prod_short.md)], tel qu’un client, un article ou une commande client, avec des options pour manipuler les informations à la fois en interne et en externe (à l’aide d’outils intégrés).
 
@@ -44,11 +44,12 @@ Avec [!INCLUDE [prod_short](includes/prod_short.md)] Online, vous pouvez vous in
 
 ## <a name="approval-workflows"></a>Flux de travail d’approbation
 
-Créez un flux de travail approbation en répertoriant les étapes concernées sur les lignes. Chaque étape comporte les éléments suivants :
-- Un événement de flux de travail, qui est modéré par les conditions de l’événement
-- Une réponse de flux de travail, qui est modérée par les options de réponse.
+Créez un flux de travail approbation en définissant ce qui démarre le flux de travail et ce qui se passe ensuite, comme suit :
 
-Pour définir les étapes de flux de travail, renseignez les champs des lignes de flux de travail à partir de listes fixes de valeurs d’événement et de réponse qui sont les scénarios pris en charge par le code d’application.<!--What are the "values"? Can we give an example?-->
+* Un événement de flux de travail, qui est modéré par les conditions de l’événement.
+* Une réponse de flux de travail, qui est modérée par les options de réponse.
+
+Pour définir les étapes de flux de travail, renseignez les champs des lignes de flux de travail à partir des valeurs d’événement et de réponse qui représentent les scénarios pris en charge.
 
 Les exemples d’événements de flux de travail approbation incluent la création de bons de commande/devis/factures, les modifications de prix, les modifications de fournisseur ou de client, et plus encore.
 

@@ -1,19 +1,19 @@
 ---
 title: Champ statut sur les documents
 description: En savoir plus sur le statut « En cours » et « Lancé » figurant sur les documents de devis, de commande ou d’avoir.
-author: rubenseishima
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,
 ms.search.form: ''
 ms.date: 09/19/2022
-ms.author: a-reishima
-ms.openlocfilehash: c96909b4ee37673ee7b0c752224478a144ad853e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: f48f499277155aaf60ae0992199d7895225f1ef5
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608268"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728642"
 ---
 # <a name="status-field-on-documents"></a>Champ statut sur les documents
 
@@ -24,11 +24,11 @@ Après avoir renseigné le document, vous pouvez le lancer et [!INCLUDE[prod_sho
 | Statut | Désignation |
 | ------ | ----------- |
 | Ouvrir   | Vous pouvez apporter des modifications à ce document. |
-| Lancé | Le document a été lancé vers l’étape suivante du traitement et vous ne pouvez pas modifier les lignes de type *Article* et *Immobilisation*.<br /><br />Vous pouvez rouvrir un document lancé pour le modifier. Pour transférer le document modifié vers l'étape suivante du traitement, vous devez le lancer une nouvelle fois. |
-| Approbation suspendue   | Le document est en attente d'approbation. |
+| Lancé | Le document a été lancé vers l’étape suivante du traitement et vous ne pouvez pas modifier les lignes de type *Article* et *Immobilisation*.<br /><br />Vous pouvez rouvrir un document lancé pour le modifier. Pour transférer le document modifié vers l’étape suivante du traitement, vous devez le lancer une nouvelle fois. |
+| Approbation suspendue   | Le document est en attente d’approbation. |
 | Acompte en attente | Une facture acompte a été validée pour ce document. |
 
-## <a name="releasing"></a>Lancement
+## <a name="release-process"></a>Traitement des versions
 
 Vous pouvez utiliser le processus de lancement de différentes manières afin de faciliter le flux de travail normal, et de suivre, par exemple, les procédures de la société concernant les approbations ou l’état des activités entrepôt.
 
@@ -36,26 +36,26 @@ Vous pouvez utiliser le processus de lancement de différentes manières afin de
 
 Votre société peut utiliser la procédure de lancement pour indiquer qu’un autre utilisateur a approuvé le document, ou qu’un contact externe peut répondre aux spécifications du document, comme l’indiquent les exemples suivants :
 
-* Vous pouvez uniquement lancer une commande achat lorsque le fournisseur vous a indiqué qu'il est en mesure d'y répondre.
-* Vous créez un ordre et un deuxième utilisateur doit l'approuver (par exemple, pour des raisons de sécurité) avant que vous soyez autorisé à le lancer.
-* L'avoir que vous avez créé doit être lancé par le responsable chargé d'approuver tous les remboursements.
+* Vous pouvez uniquement lancer une commande achat lorsque le fournisseur vous a indiqué qu’il est en mesure d’y répondre.
+* Vous créez un ordre et un deuxième utilisateur doit l’approuver (par exemple, pour des raisons de sécurité) avant que vous soyez autorisé à le lancer.
+* L’avoir que vous avez créé doit être lancé par le responsable chargé d’approuver tous les remboursements.
 
 En savoir plus sur les flux de travail approbation sur [Utiliser les flux de travail](across-use-workflows.md).
 
 ### <a name="warehouse-activities"></a>Activités entrepôt
 
-Si le statut de l’ordre est **En cours**, l’entrepôt ne commence pas à préparer l’expédition et ne prévoit pas de recevoir les articles d’une commande achat. Lorsque vous lancez l'ordre, vous indiquez qu'il est terminé et que l'entrepôt peut l'inclure dans ses activités.
+Si le statut de l’ordre est **En cours**, l’entrepôt ne commence pas à préparer l’expédition et ne prévoit pas de recevoir les articles d’une commande achat. Lorsque vous lancez l’ordre, vous indiquez qu’il est terminé et que l’entrepôt peut l’inclure dans ses activités.
 
-## <a name="reopening-a-released-order"></a>Réouverture d'un ordre lancé
+## <a name="reopen-a-released-order"></a>Réouverture d’un ordre lancé
 
-Vous pouvez modifier un ordre lancé en le rouvrant. Cependant, vous pouvez uniquement augmenter la quantité de lignes déjà traitées par l'entrepôt.
+Vous pouvez modifier un ordre lancé en le rouvrant. Cependant, vous pouvez uniquement augmenter la quantité de lignes déjà traitées par l’entrepôt.
 
-Lorsque vous avez modifié l’ordre et que vous le relancez, le programme recalcule la TVA et la remise facture.
+Lorsque vous avez modifié l’ordre et que vous le relancez, [!INCLUDE [prod_short](includes/prod_short.md)] calcule à nouveau la TVA et la remise facture.
 
-Si vous apportez des modifications à un ordre lancé, vous devez les notifier à l'entrepôt.
+Si vous apportez des modifications à un ordre lancé, vous devez les notifier à l’entrepôt.
 
 > [!NOTE]
-> Si vous souhaitez valider un seul ordre ouvert ou un avoir sans le lancer au préalable, le programme lance automatiquement le document lorsque vous le validez. Si vous validez des ordres ou des avoirs à l’aide de la fonction **Valider par lot**, vous pouvez uniquement valider ceux que vous avez lancés.
+> Si vous souhaitez valider un seul ordre ouvert ou un avoir sans le lancer au préalable, [!INCLUDE [prod_short](includes/prod_short.md)] lance automatiquement le document lorsque vous le validez. Si vous validez des ordres ou des avoirs à l’aide de la fonction **Valider par lot**, vous pouvez uniquement valider ceux que vous avez lancés.
 
 ## <a name="see-also"></a>Voir aussi
 

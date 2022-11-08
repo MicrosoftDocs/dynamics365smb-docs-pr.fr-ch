@@ -1,18 +1,18 @@
 ---
 title: Créer des nomenclatures de production
 description: Découvrez comment créer une nomenclature de production, de nouvelles versions d’une nomenclature de production et utiliser la formule de calcul de quantité.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: production bom, bills of material,
 ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: 06d1b507e4414b3d77bbeb6a500342e5269438e3
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607839"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728561"
 ---
 # <a name="create-production-boms"></a>Créer des nomenclatures de production
 
@@ -21,7 +21,7 @@ Une nomenclature de production contient les données de base qui décrivent les 
 [!INCLUDE[prod_short](includes/prod_short.md)] prend également en charge les nomenclatures d’assemblage. Vous utilisez des ordres d’assemblage pour fabriquer des produits finis à partir de composants dans le cadre d’un processus simple qui peut être exécuté par une ou plusieurs ressources de base, qui ne sont pas des postes ou centres de charge, ou sans ressource. Par exemple, un processus d’assemblage peut consister à prélever deux bouteilles de vin et un sachet de café puis à les emballer comme article de cadeau. Pour plus d’informations, voir [Nomenclatures d’assemblage ou nomenclatures de production](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 > [!TIP]
-> L’application **Données de démonstration Contoso Coffee** comprend des produits de démonstration pour une variété de scénarios de nomenclature de production qui peuvent être utilisés dans un environnement de test, y compris lors d’un essai. Découvrez comment configurer les données Contoso Coffee et trouvez des procédures pas à pas pour différents scénarios dans la section [Présentation des données de démonstration Contoso Coffee](/contoso-coffee/contoso-coffee-intro.md).
+> L’application **Données de démonstration Contoso Coffee** comprend des produits de démonstration pour une variété de scénarios de nomenclature de production qui peuvent être utilisés dans un environnement de test, y compris lors d’un essai. Découvrez comment configurer les données Contoso Coffee et trouvez des procédures pas à pas pour différents scénarios dans la section [Présentation des données de démonstration Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).
 
 Pour pouvoir configurer une gamme, les éléments suivants doivent être en place :  
 
@@ -36,7 +36,7 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 4. Pour modifier la nomenclature, définissez le champ **Statut** sur **Création en cours** ou sur **Modification en cours**. Pour l’activer, définissez le champ **Statut** sur **Validée**.  
 
     Renseignez les lignes nomenclature de production.
-5. Dans le champ **Type**, indiquez si l’article sur la ligne nomenclature est un article ordinaire ou s’il s’agit d’une nomenclature de production. Dans le dernier cas, l'article doit déjà exister en tant que nomenclature de production certifiée.  
+5. Dans le champ **Type**, indiquez si l’article sur la ligne nomenclature est un article ordinaire ou s’il s’agit d’une nomenclature de production. Dans le dernier cas, l’article doit déjà exister en tant que nomenclature de production certifiée.  
 6. Dans le champ **N°**, consultez et sélectionnez l’article ou la nomenclature de production concernée \(ou entrez l’un ou l’autre\).  
 7. Dans le champ **Quantité par**, spécifiez le nombre d’unités de l’article intégrant l’article parent, par exemple, les 4 roues d’une voiture.  
 8. Dans le champ **% rebut**, vous pouvez indiquer le taux fixe de perte de composants lors de la production. Une fois qu’ils sont prêts à être consommés dans un ordre de fabrication lancé, ce taux est ajouté à la quantité prévue dans le champ **Quantité consommée** dans une feuille production. Pour plus d’informations, voir [Comment enregistrer la consommation et la production](production-how-to-register-consumption-and-output.md).  
@@ -78,9 +78,9 @@ La validité de la version est définie par le champ **Date début**.
 
 ## <a name="quantity-calculation-formula-on-production-boms"></a>Formule de calcul de la quantité sur les nomenclatures de production
 
-Le calcul de la quantité tient compte des différents axes analytiques également insérés dans les lignes nomenclature de production. Ces axes se rapportent à une unité de commande de l'article concerné. Les axes ainsi entrés peuvent être une longueur, une largeur, une profondeur ou un poids.  
+Le calcul de la quantité tient compte des différents axes analytiques également insérés dans les lignes nomenclature de production. Ces axes se rapportent à une unité de commande de l’article concerné. Les axes ainsi entrés peuvent être une longueur, une largeur, une profondeur ou un poids.  
 
-Les colonnes Formule de calcul, Longueur, Largeur, Profondeur et Poids ne s’affichent pas car seuls quelques utilisateurs les emploient. Si vous souhaitez utiliser le calcul de la quantité, vous devez d'abord afficher ces colonnes.  
+Les colonnes Formule de calcul, Longueur, Largeur, Profondeur et Poids ne s’affichent pas car seuls quelques utilisateurs les emploient. Si vous souhaitez utiliser le calcul de la quantité, vous devez d’abord afficher ces colonnes.  
 
 La relation entre chacun des composants est définie par la formule de calcul. Vous pouvez utiliser les formules de calcul comme suit :  
 
@@ -102,7 +102,7 @@ Une nomenclature de production répertorie 70 feuilles de métal dotées des axe
 
 [Créer des gammes](production-how-to-create-routings.md)  
 [Gérer les variantes de produits](inventory-item-variants.md)  
-[Procédure pas à pas : variantes](/contoso-coffee/variants.md)  
+[Procédure pas à pas : variantes](contoso-coffee/variants.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)  
 [Planifié](production-planning.md)  

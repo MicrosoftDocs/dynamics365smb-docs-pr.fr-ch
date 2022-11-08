@@ -8,12 +8,12 @@ ms.search.form: 30105, 30106, 30107, 30108, 30109,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: d4ff86179fa5b82bcc398ee58cf92fc121c486d8
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 1a796d1094401cd2ebc0efd54f752211d22bfb12
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361437"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728669"
 ---
 # <a name="synchronize-customers"></a>Synchroniser les clients
 
@@ -21,22 +21,6 @@ Lorsqu’une commande est importée à partir de Shopify, les informations sur l
 
 * Utiliser un client spécial pour toutes les commandes.
 * Importez les informations client réelles à partir de Shopify. Cette option est également disponible lorsque vous exportez des clients dans Shopify à partir de [!INCLUDE[prod_short](../includes/prod_short.md)] en premier.
-
-## <a name="how-the-connector-chooses-which-customer-to-use"></a>Comment le connecteur choisit le client à utiliser
-
-La fonction *Importer la commande à partir de Shopify* tente de sélectionner le client dans l’ordre suivant :
-
-1. Si le champ **N° client par défaut** est défini dans **Modèle client Shopify** pour le pays correspondant, le **N° client par défaut** est utilisé quels que soient les paramètres dans les champs **Importation client à partir de Shopify** et **Type de mappage client**. En savoir plus sur [Modèle client par pays](synchronize-customers.md#customer-template-per-country).
-2. Si le champ **Importation client à partir de Shopify** est défini sur *Aucun* et le champ **N° client par défaut** est défini sur la page **Fiche magasin Shopify**, alors le **N° client par défaut** est utilisé.
-
-Les étapes suivantes dépendent du champ **Type de mappage client**.
-
-* **Toujours prendre le client par défaut**, puis le connecteur utilise le client défini dans le champ **N° client par défaut** dans la page **Fiche magasin Shopify**.
-* **Par e-mail/téléphone**, le connecteur tente d’abord de trouver le client existant par ID, puis par e-mail, puis par téléphone. Si le client est introuvable, le connecteur crée un client.
-* **Par informations de facturation**, le connecteur tente d’abord de trouver le client existant par ID, puis par adresse facturation. Si le client est introuvable, le connecteur crée un client.
-
-> [!NOTE]  
-> Le connecteur utilise les informations de l’adresse facturation et crée le client facturé dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Le client vendeur est le même que le client facturé.
 
 ## <a name="important-settings-when-importing-customers-from-shopify"></a>Paramètres importants lors de l’importation de clients à partir de Shopify
 
@@ -48,7 +32,7 @@ Que vous importiez des clients à partir de Shopify en bloc ou lors de l’impor
 |**Type de mappage client**|Définissez comment le connecteur effectue le mappage.<br>- **Par e-mail/téléphone**, pour que le connecteur mappe le client Shopify importé sur un client existant dans [!INCLUDE[prod_short](../includes/prod_short.md)] en utilisant l’e-mail et le téléphone.</br>- **Par informations de facturation**, pour que le connecteur utilise l’adresse du destinataire de la facture pour mapper le client Shopify importé sur un client existant dans [!INCLUDE[prod_short](../includes/prod_short.md)] en utilisant les informations d’adresse de la partie qui réceptionne la facture.</br>- Sélectionnez **Toujours prendre le client par défaut** pour que le système utilise un client du champ **N° client par défaut** . |
 |**Shopify peut mettre à jour les clients**| Sélectionnez ce champ pour que le connecteur mette à jour les clients trouvés si les options **Par e-mail/téléphone** ou **Par informations de facturation** sont sélectionnées dans le champ **Type de mappage client**.|
 |**Créer automatiquement des clients inconnus**| Sélectionnez ce champ pour que le connecteur crée les clients manquants si les options **Par e-mail/téléphone** ou **Par informations de facturation** sont sélectionnées dans le champ **Type de mappage client**. Un client est créé en utilisant les données importées et **Code modèle client** défini dans les pages **Fiche magasin Shopify** ou **Modèle client Shopify**. Remarquez que le client Shopify doit avoir au moins une adresse. Si cette option n’est pas activée, vous devez créer un client manuellement et le lier au client Shopify. Vous pouvez toujours lancer la création manuelle d’un client à partir de la page **Commande Shopify**.|
-|**Code modèle client**|Ce champ est utilisé avec **Créer automatiquement des clients inconnus**.<br>- Choisissez le modèle par défaut à utiliser pour les clients créés automatiquement. Assurez-vous que le modèle sélectionné contient les champs obligatoires, tels que les champs **Groupe compta. marché**, **Groupe compta. client**, de TVA ou relatifs aux taxes.<br>- Vous pouvez définir des modèles par pays/région dans la page **Modèles client Shopify**, ce qui est utile pour calculer correctement les taxes. <br>- En savoir plus sur [Configurer les taxes](setup-taxes.md).|
+|**Code modèle client**|Ce champ est utilisé avec **Créer automatiquement des clients inconnus**.<br>- Choisissez le modèle par défaut à utiliser pour les clients créés automatiquement. Assurez-vous que le modèle sélectionné contient les champs obligatoires, tels que les champs **Groupe compta. marché**, **Groupe compta. client**, de TVA ou relatifs aux taxes.<br>- Vous pouvez définir des modèles par pays/région dans la page **Modèles client Shopify**, ce qui est utile pour calculer correctement les taxes. <br>- En savoir plus sur [Configurer les taxes](setup-taxes.md).|
 
 ### <a name="customer-template-per-country"></a>Modèle client par pays
 
@@ -66,15 +50,25 @@ Vous pouvez procéder comme suit pour chaque client avec le **Modèle client Sho
 
 ## <a name="export-customers-to-shopify"></a>Exporter les clients dans Shopify
 
-Les clients existants peuvent être exportés dans Shopify en bloc. Dans chaque cas, un client et une adresse par défaut sont créés. Vous pouvez gérer le processus avec les paramètres suivants :
+Vous pouvez exporter les clients existants dans Shopify en bloc. Dans chaque cas, un client et une adresse par défaut sont créés. Vous pouvez gérer le processus avec les paramètres suivants :
 
 |Champ|Désignation|
 |------|-----------|
-|**Exporter les clients dans Shopify**|Sélectionnez cette option si vous prévoyez d’exporter tous les clients avec une adresse e-mail valide de [!INCLUDE[prod_short](../includes/prod_short.md)] vers Shopify en bloc. Vous pouvez le faire soit manuellement, en utilisant l’action **Synchroniser les clients**, ou automatiquement, en utilisant une file d’attente de travaux pour les mises à jour récurrentes.<br> Lorsque vous exportez des clients avec des provinces/états, assurez-vous que **Code ISO** est rempli pour les pays/régions.|
+|**Exporter les clients dans Shopify**|Sélectionnez cette option si vous prévoyez d’exporter tous les clients de [!INCLUDE[prod_short](../includes/prod_short.md)] vers Shopify en bloc. Vous pouvez le faire soit manuellement, en utilisant l’action **Synchroniser les clients**, ou automatiquement, en utilisant une file d’attente de travaux pour les mises à jour récurrentes.<br> Lorsque vous exportez des clients avec des provinces/états, assurez-vous que **Code ISO** est rempli pour les pays/régions.|
 |**Peut mettre à jour les clients Shopify**|Utilisé avec le paramètre **Exporter le client dans Shopify**. Activez-le pour générer des mises à jour ultérieurement à partir de [!INCLUDE[prod_short](../includes/prod_short.md)] pour les clients qui existent déjà dans Shopify.|
 
-> [!NOTE]  
-> Une fois que vous avez créé les clients dans Shopify, vous pouvez leur envoyer des invitations directes les incitant à activer leurs comptes.
+Voici les conditions requises pour exporter un client :
+
+* Le client doit avoir une adresse e-mail valide.
+* Un pays/région est sélectionné sur la fiche client, pour les clients locaux, avec pays/région vide, le pays/région spécifié sur la page **Informations sur la société** doit avoir un code ISO défini.
+* Si le client a un numéro de téléphone, ce numéro doit être unique, car Shopify n’acceptera pas un deuxième client avec le même numéro de téléphone.
+* Si le client a un numéro de téléphone, celui-ci doit être au format E.164. Différents formats sont pris en charge s’ils représentent un numéro qui peut être composé de n’importe où dans le monde. Les formats suivants sont valides :
+  * xxxxxxxxxx
+  * +xxxxxxxxxxx
+  * (xxx)xxx-xxxx
+  * +x xxx-xxx-xxxx
+
+Une fois que vous avez créé les clients dans Shopify, vous pouvez leur envoyer des invitations directes les incitant à activer leurs comptes.
 
 ### <a name="populate-customer-information-in-shopify"></a>Remplir les informations client dans Shopify
 

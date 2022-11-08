@@ -8,14 +8,14 @@ ms.search.form: 30118, 30119, 30120,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 47b0d72283b4d017bb522c3e71f6c61501b59d5b
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 37fb8069f6149cc89c1c53f671eafe3788f54ccf
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361957"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728372"
 ---
-# <a name="troubleshooting-shopify-and-business-central-synchronization"></a>Dépannage de la synchronisation entre Shopify et Business Central
+# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Dépannage de la synchronisation entre Shopify et Business Central
 
 Vous pouvez vous trouver face à des situations où vous devez résoudre des problèmes lors de la synchronisation de données entre Shopify et [!INCLUDE[prod_short](../includes/prod_short.md)]. Cette page définit les étapes permettant de dépanner certains scénarios courants.
 
@@ -67,7 +67,7 @@ Le bouton à bascule **A une clé d’accès** sera activé.
 Pour fonctionner correctement, l’extension de connecteur Shopify nécessite une autorisation pour effectuer des requêtes HTTP. Lors des tests en sandbox, les requêtes HTTP sont interdites pour toutes les extensions.
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des extensions**, puis sélectionnez le lien associé.
-2. Sélectionnez l’extension *Connecteur Shopify*.
+2. Sélectionnez l’extension **Connecteur Shopify**.
 3. Choisissez l’action **Configurer** pour ouvrir la page **Paramètres de l’extension**.
 4. Assurez-vous que le bouton à bascule **Autoriser les requêtes HTTPClient** est activé.
 
@@ -90,13 +90,17 @@ Les procédures suivantes décrivent comment faire tourner le jeton d’accès u
 
 ## <a name="known-issues"></a>Problèmes connus
 
-Le champ *Groupe compta. marché* ne peut pas être nul ou vide ; il doit y avoir une valeur dans le champ client. Pour corriger :
+### <a name="the-gen-bus-posting-group-cannot-be-zero-or-empty-there-must-be-a-value-in-the-customer-field"></a>Le champ *Groupe compta. marché* ne peut pas être nul ou vide ; il doit y avoir une valeur dans le champ client
 
 Sur la page **Fiche magasin Shopify**, remplissez le champ **Code modèle client** dans la fenêtre Fiche magasin  avec le modèle pour lequel **Groupe compta. marché** est renseigné. Le modèle client est utilisé non seulement pour la création de clients, mais également pour le calcul du prix de vente et lors de la création de documents vente.
 
-### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>L'importation de données dans votre boutique Shopify n’est pas activée. Accédez à la fiche magasin pour l’activer
+### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>L’importation de données dans votre boutique Shopify n’est pas activée. Accédez à la fiche magasin pour l’activer
 
-Dans la fenêtre **Fiche magasin Shopify**, activez le bouton bascule **Autoriser la synchronisation des données vers Shopify**.  Ce bouton bascule est destiné à empêcher la boutique en ligne d’obtenir des données de démonstration de [!INCLUDE[prod_short](../includes/prod_short.md)].
+Dans la fenêtre **Fiche magasin Shopify**, activez le bouton bascule **Autoriser la synchronisation des données vers Shopify**. Ce bouton bascule est destiné à empêcher la boutique en ligne d’obtenir des données de démonstration de [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+### <a name="oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Oauth error invalid_request : Impossible de trouver l’application de l’API Shopify avec api_key
+
+Selon toute vraisemblance, vous utilisez l’[application intégrée](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), où l’URL du client a le format : `https://[application name].bc.dynamics.com`. Le connecteur Shopify ne fonctionne pas pour les applications intégrées. Pour en savoir plus, voir [Quels sont les produits Microsoft pour lesquels le connecteur Shopify est disponible ?](shopify-faq.md#what-microsoft-products-is-the-shopify-connector-available-for).
 
 ## <a name="see-also"></a>Voir aussi
 

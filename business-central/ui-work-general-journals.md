@@ -10,24 +10,29 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 223930af41410c649d18a567bc5f2a736e0403fa
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9fa231ea56c15836d2a3139fc6a35148292a449c
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535896"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728499"
 ---
 # <a name="work-with-general-journals"></a>Utiliser des feuilles comptabilité
 
-La plupart des transactions financières sont validées en comptabilité via les documents commerciaux dédiés, tels que des factures achat et des commandes vente. Mais vous pouvez également traiter des activités commerciales comme l’achat, le paiement, à l’aide des feuilles périodiques pour valider les régularisations, ou le remboursement des frais d’un salarié en validant des lignes feuille dans les diverses feuilles de [!INCLUDE[prod_short](includes/prod_short.md)].  
+La plupart des transactions financières sont validées en comptabilité via les documents, tels que des factures achat et des commandes vente. Cependant, vous pouvez également traiter des activités commerciales telles que :
 
-La plupart des feuilles sont basées sur la *Feuille comptabilité*, et vous pouvez traiter toutes les transactions sur la page **Feuille comptabilité**. Pour plus d’informations, reportez-vous à [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).  
+* Achats
+* Paiements
+* Utilisation de feuilles abonnement pour valider les régularisations
+* Remboursement des dépenses des employés en validant des lignes feuille dans les feuilles  
 
-Par exemple, vous pouvez valider les dépenses d’argent propre de vos salariés pour des activités liées à l’entreprise, afin de les rembourser ultérieurement. Pour plus d’informations, voir [Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md).
+La plupart des feuilles sont basées sur la feuille comptabilité, et vous pouvez traiter toutes les transactions sur la page **Feuille comptabilité**. En savoir plus sur [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).  
 
-Mais dans de nombreux cas, vous devrez utiliser les feuilles qui sont optimisées pour les types de transactions spécifiques, telles que **Feuille paiement** pour enregistrer les paiements. Pour plus d’informations, voir [Enregistrer les paiements et remboursements dans la feuille paiement](payables-how-post-payments-refunds.md).  
+Par exemple, vous pouvez utiliser les dépenses des employés pour le remboursement. En savoir plus sur [Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md).
 
-Les feuilles comptabilité vous permettent de valider des transactions financières directement dans les comptes généraux et dans d’autres comptes tels que les comptes bancaires, client, fournisseur et salarié. La validation avec une feuille comptabilité crée toujours des écritures dans les comptes généraux. C’est le cas même lorsque, par exemple, vous validez une ligne feuille dans un compte client, parce qu’une écriture est validée dans un compte client de la comptabilité via un groupe comptabilisation.
+Cependant, [!INCLUDE [prod_short](includes/prod_short.md)] propose également des feuilles qui sont optimisées pour les types de transactions spécifiques, telles que **Feuille paiement** pour enregistrer les paiements. Pour plus d’informations, voir [Enregistrer les paiements et remboursements dans la feuille paiement](payables-how-post-payments-refunds.md).  
+
+Vous utilisez les feuilles comptabilité pour valider des transactions financières dans les comptes généraux et autres comptes divers. Parmi les autres comptes figurent les comptes bancaires, clients, fournisseurs et employés. La validation avec une feuille comptabilité génère des écritures sur les comptes généraux même lorsque, par exemple, vous validez une ligne feuille sur un compte client. L’écriture est validée sur un compte client général via un groupe de validation.
 
 Les informations que vous saisissez dans une feuille sont temporaires et peuvent être modifiées tant qu’elles sont dans la feuille. Lorsque vous validez la feuille, les informations sont transférées vers des écritures de comptes individuels, où elles ne peuvent pas être modifiées. Toutefois, vous pouvez délettrer des écritures validées et valider des écritures de contrepassation ou de correction. Pour plus d’informations, voir [Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md).
 
@@ -47,48 +52,37 @@ Pour chaque modèle feuille, vous pouvez configurer votre propre feuille personn
 > Pour ajouter ou supprimer des champs dans des journaux, utilisez la bannière **Personnalisation**. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>Validation Noms feuilles comptabilité
-Pour éviter les retards lors de la validation, vous pouvez activer une vérification des antécédents qui vous avertira en cas d’erreur dans la feuille financière sur laquelle vous travaillez et qui vous empêchera de valider la feuille. Sur la page **Noms feuilles comptabilités**, vous pouvez choisir **Vérification des erreurs d’arrière-plan** pour que [!INCLUDE[prod_short](includes/prod_short.md)] valide les feuilles financières, telles que les feuilles comptabilité ou règlements, pendant que vous les utilisez. 
 
-Lorsque vous activez la validation, le Récapitulatif **Vérification de feuille** s’affiche à côté des lignes feuille et affiche les problèmes de la ligne actuelle et du lot entier. La validation se produit lorsque vous chargez une Feuille financière et lorsque vous choisissez une autre ligne feuille. La vignette **Nombre total d’erreurs** du Récapitulatif montre le nombre total de problèmes que [!INCLUDE[prod_short](includes/prod_short.md)] a trouvées, et vous pouvez le choisir pour ouvrir un aperçu des problèmes. 
+Vous pouvez activer une vérification des antécédents qui aidera à éviter les retards lors de la validation. Le contrôle vous informe lorsqu’une erreur dans le journal financier sur lequel vous travaillez vous empêche de valider le journal. Sur la page **Noms feuilles comptabilités**, vous pouvez choisir **Vérification des erreurs d’arrière-plan** pour que [!INCLUDE[prod_short](includes/prod_short.md)] valide les feuilles financières, telles que les feuilles comptabilité ou règlements, pendant que vous les utilisez. 
 
-Vous pouvez utiliser les actions **Afficher les lignes avec des problèmes** et **Afficher toutes les lignes** pour basculer entre les lignes feuille qui ont ou n’ont pas de problèmes. Le nouveau Récapitulatif **Détails de la ligne feuille** fournit un aperçu rapide et un accès aux données des lignes feuille, telles que le compte général, le client ou le fournisseur, ainsi que la configuration de la validation pour des comptes spécifiques.   
+Lorsque vous activez la validation, le Récapitulatif **Vérification de feuille** affiche les problèmes de la ligne actuelle et du lot entier. La validation se produit lorsque vous chargez une Feuille financière et lorsque vous choisissez une autre ligne feuille. La vignette **Nombre total d’erreurs** du Récapitulatif montre le nombre total de problèmes que [!INCLUDE[prod_short](includes/prod_short.md)] a trouvées, et vous pouvez le choisir pour ouvrir un aperçu des problèmes. 
+
+Vous pouvez utiliser les actions **Afficher les lignes avec des problèmes** et **Afficher toutes les lignes** pour basculer entre les lignes feuille qui ont ou n’ont pas de problèmes. Le nouveau Récapitulatif **Détails de la ligne feuille** fournit un aperçu rapide et un accès aux données des lignes feuille, telles que le compte général, le client ou le fournisseur, ainsi que la configuration de la validation pour des comptes spécifiques.
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
-### <a name="reversing-journals-to-correct-mistakes"></a>Annulation de feuilles pour corriger les erreurs
-Lorsque vous travaillez avec des feuilles qui comportent de nombreuses lignes et que quelque chose ne va pas, il est important de disposer d’un moyen simple de corriger les erreurs. La page **Feuille comptabilité validée** propose quelques actions qui peuvent vous aider.
-
-* **Copier les lignes sélectionnées dans la feuille** : Copiez uniquement les lignes que vous sélectionnez.
-* **Copier l’historique des transactions de comptabilité dans la feuille** : Copiez toutes les lignes appartenant au même historique des transactions de comptabilité.
-
-Ces actions vous permettent de créer une copie d’une ligne feuille comptabilité ou d’un lot, puis de spécifier les éléments suivants :
-
-* La feuille dans laquelle copier les lignes
-* Avec ou sans signes opposés (une feuille de contrepassation)
-* Une date comptabilisation ou un numéro de document différent
-
-Pour permettre la copie de feuilles dans des feuilles comptabilité validées, sur la page **Modèles de feuilles comptabilité**, cochez la case **Copier sur les lignes feuille validées**. Une fois que vous avez autorisé les utilisateurs à copier des feuilles comptabilité validées, si nécessaire, vous pouvez désactiver la copie pour des lots spécifiques.
-
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Compte principaux et comptes contrepartie
+
 Si vous avez configuré des comptes contrepartie par défaut pour les feuilles sur la page **Feuilles comptabilité**, le compte contrepartie sera renseigné automatiquement lorsque vous renseignez le champ **Numéro du compte**. Sinon, renseignez manuellement les champs **Numéro du compte** et **N° compte contrepartie**. Un montant positif dans le champ **Montant** est débité du compte principal et crédité dans le compte contrepartie. Un montant négatif est crédité sur le compte principal et débité du compte contrepartie.
 
 > [!NOTE]  
 > La TVA est calculée séparément pour le compte principal et le compte contrepartie, afin qu’ils puissent utiliser des taux de pourcentage de TVA différents.
 
 ## <a name="work-with-recurring-journals"></a>Utiliser des feuilles abonnement
-Une feuille abonnement est une feuille comptabilité contenant des champs spécifiques pour la gestion des transactions que vous validez fréquemment avec peu ou pas de modifications comme le bail, les abonnements, l’électricité et le chauffage. Utilisez ces champs dans le cadre des transactions récurrentes pour valider les montants fixes et variables. Vous pouvez également définir des écritures de contrepassation automatique le lendemain de la date de validation. Vous pouvez également utiliser les clés de ventilation pour répartir les écritures récurrentes entre plusieurs comptes. Pour plus d’informations, reportez-vous à [Ventilation des montants feuille abonnement sur plusieurs comptes](#allocating-recurring-journal-amounts-to-several-accounts).
 
-Avec une feuille abonnement, les écritures qui sont régulièrement validées ne sont saisies qu’une fois. Les comptes, axes, sections analytiques, etc., que vous saisissez restent ainsi dans la feuille après validation. Si des ajustements sont nécessaires, vous pouvez les faire à chaque validation.
+Une feuille abonnement est une feuille comptabilité contenant des champs spécifiques pour la gestion des transactions que vous validez fréquemment avec peu ou pas de modifications. Par exemple, les transactions pour les dépenses telles que le loyer, les abonnements, l’électricité et le chauffage. L’utilisation de feuilles abonnement vous permet de valider des montants fixes et variables et de spécifier des écritures d’annulation automatique pour le jour suivant la date de validation. Les clés de ventilation vous permettent de répartir les écritures récurrentes entre plusieurs comptes. Pour plus d’informations, reportez-vous à [Ventilation des montants feuille abonnement sur plusieurs comptes](#allocating-recurring-journal-amounts-to-several-accounts).
+
+Avec une feuille abonnement, vous ne créez les écritures qui sont régulièrement validées qu’une fois. Par exemple, les comptes, axes, sections analytiques, etc. que vous saisissez restent dans la feuille après validation. Si des modifications sont nécessaires, vous pouvez les apporter à chaque validation.
 
 ### <a name="recurring-method-field"></a>Champ Mode abonnement
 
-Ce champ détermine la manière dont le montant de la ligne feuille est traité après validation. Par exemple, si vous utilisez le même montant chaque fois que vous validez la ligne, vous pouvez conserver ce montant. Si vous utilisez les mêmes comptes et le même texte pour la ligne mais que le montant varie chaque fois que vous validez, vous pouvez choisir de supprimer le montant après validation.
+Ce champ détermine la manière dont le montant de la ligne feuille est traité après validation. Par exemple, si vous utilisez le même montant chaque fois que vous validez la ligne, vous pouvez conserver ce montant. Si vous utilisez les mêmes comptes et le même texte pour la ligne, mais que le montant varie chaque fois que vous validez, vous pouvez choisir de supprimer le montant après validation.
 
 | À | Voir |
 | --- | --- |
 |F Fixe|Le montant de la ligne feuille est conservé après validation.|
 |V Variable|Le montant de la ligne feuille est supprimé après validation.|
-|S Solde|Le montant validé sur le compte de la ligne est ventilé sur les comptes spécifiés pour la ligne de la table Ventilation feuille compta. Le solde du compte est donc positionné à zéro. Pensez à renseigner le champ **% ventilation** sur la page **Ventilations**. Pour plus d’informations, reportez-vous à [Ventilation des montants feuille abonnement sur plusieurs comptes](#allocating-recurring-journal-amounts-to-several-accounts).|
+|S Solde|Le montant validé sur le compte de la ligne est ventilé sur les comptes spécifiés pour la ligne de la table Ventilation feuille compta. Le solde du compte est positionné à zéro. Pensez à renseigner le champ **% ventilation** sur la page **Ventilations**. Pour plus d’informations, reportez-vous à [Ventilation des montants feuille abonnement sur plusieurs comptes](#allocating-recurring-journal-amounts-to-several-accounts).|
 |FI Fixe inverse|Le montant de la ligne feuille est conservé après validation, et une écriture contrepartie est validée le lendemain.|
 |VI Variable inverse|Le montant de la ligne feuille est supprimé après validation, et une écriture contrepartie est validée le lendemain.|
 |SI Solde inverse|Le montant validé sur le compte de la ligne est ventilé sur les comptes spécifiés pour la ligne de la page **Ventilations**. Le solde du compte est défini sur zéro, et une écriture contrepartie est validée le lendemain.|
@@ -99,21 +93,24 @@ Ce champ détermine la manière dont le montant de la ligne feuille est traité 
 > Les champs TVA peuvent être renseignés sur la ligne feuille abonnement ou sur la ligne feuille ventilation, mais pas sur les deux. Ils peuvent être renseignés sur la page **Ventilations** uniquement si les lignes correspondantes de la feuille abonnement ne sont pas renseignées.
 
 ### <a name="recurring-frequency-field"></a>Champ Périodicité abonnement
-Ce champ détermine la fréquence de validation de l’écriture de la ligne feuille. Il s’agit d’un champ de formule de date qui doit être renseigné pour les lignes feuille abonnement. Pour plus d’informations, voir [Utiliser des formules date](ui-enter-date-ranges.md#use-date-formulas).
+
+Ce champ de formule de date détermine la fréquence de validation de l’écriture sur la ligne feuille et doit être renseigné. En savoir plus sur [Utiliser des formules de date](ui-enter-date-ranges.md#use-date-formulas).
 
 #### <a name="examples"></a>Exemples
+
 Si la ligne feuille doit être validée tous les mois, saisissez "1M." Après chaque validation, la date du champ **Date comptabilisation** est mise à jour, elle est remplacée par la même date du mois suivant.
 
 Si vous souhaitez valider une écriture le dernier jour de chaque mois, vous pouvez suivre l’un des deux exemples ci-dessous :
 
-- Validez la première écriture le dernier jour d’un mois en saisissant la formule 1J+1M-1J (1 jour + 1 mois - 1 jour). Avec cette formule, la date de validation est calculée correctement, quel que soit le nombre de jours que comprend le mois.
+* Validez la première écriture le dernier jour d’un mois en saisissant la formule 1J+1M-1J (1 jour + 1 mois - 1 jour). Avec cette formule, la date de validation est calculée correctement, quel que soit le nombre de jours que comprend le mois.
 
-- Validez la première écriture n’importe quel jour en saisissant la formule : 1M+FM. Avec cette formule, la date de validation sera située après un mois entier + le nombre de jours restants du mois en cours.
+* Validez la première écriture n’importe quel jour en saisissant la formule : 1M+FM. Avec cette formule, la date de validation sera située après un mois entier + le nombre de jours restants du mois en cours.
 
 ### <a name="expiration-date-field"></a>Champ Date expiration
+
 Ce champ détermine la date à laquelle la ligne est validée pour la dernière fois. La ligne n’est plus validée après cette date.
 
-L’avantage d’utiliser ce champ réside dans le fait que la ligne n’est pas immédiatement supprimée de la feuille et que vous pouvez toujours remplacer la date d’expiration par une date ultérieure afin de pouvoir continuer à utiliser la ligne.
+L’avantage d’utiliser le champ Date d’expiration est que la ligne n’est pas supprimée immédiatement de la feuille. Vous pouvez entrer une date ultérieure afin de pouvoir utiliser la ligne à l’avenir.
 
 Si le champ est blanc, la ligne est validée à chaque validation, jusqu’à ce qu’elle soit supprimée de la feuille.
 
@@ -121,11 +118,14 @@ Si le champ est blanc, la ligne est validée à chaque validation, jusqu’à ce
 
 Sur la page **Feuille abonnement**, vous pouvez choisir l’action **Ventilations** pour visualiser ou gérer la manière dont les montants de la ligne feuille abonnement sont affectés à plusieurs comptes et axes analytiques. Notez qu’une ventilation fonctionne comme une ligne compte contrepartie pour la ligne feuille abonnement.
 
-Tout comme dans une feuille abonnement, vous n’avez à saisir qu’une fois une ventilation. La ventilation reste dans la feuille ventilation après validation, ainsi vous n’avez pas à saisir les montants et les ventilations chaque fois que vous validez la ligne feuille abonnement.
+À l’instar d’une feuille abonnement, vous entrez une ventilation une fois et elle reste dans la feuille ventilation après validation. Vous n’avez pas besoin d’entrer des montants et des ventilations chaque fois que vous validez la ligne feuille abonnement.
 
-Si le *mode abonnement* est paramétré sur **Solde** ou sur **Solde inverse**, tous les codes section de la feuille abonnement sont ignorés lorsque le compte est défini sur zéro. Par conséquent, si vous ventilez une ligne abonnement vers diverses sections analytiques sur la page **Ventilations**, une seule écriture opposée est créée. De ce fait, si vous ventilez une ligne feuille abonnement qui comporte un code section, vous ne devez pas saisir le même code sur la page **Ventilations**. Si vous le faites, les sections analytiques sont incorrectes.  
+Si le mode récurrent est paramétré sur **Solde** ou sur **Solde inverse**, tous les codes axe analytique de la feuille récurrente sont ignorés lorsque le compte est défini sur zéro. Si vous ventilez une ligne abonnement vers diverses sections analytiques sur la page **Ventilations**, une seule écriture opposée est créée. 
 
-Pour allouer des montants de feuille abonnement en fonction des axes analytiques, définissez le champ **Mode abonnement** sur **Solde par axe analytique** ou **Solde inverse par axe analytique**. Si le mode abonnement est paramétré sur **Solde par axe analytique** ou sur **Solde inverse par axe analytique**, tous les codes axe analytique de la feuille abonnement sont pris en compte lorsque le compte est défini sur zéro. Ainsi, si vous allouez une ligne abonnement à différentes sections analytiques sur la page **Allocations**, alors un certain nombre d’écritures contrepassées correspondant au nombre de combinaisons de section analytique dont le solde est composé sont créés. Si vous allouez le solde du compte via la feuille abonnement qui contient un code section, n’oubliez pas d’utiliser **Solde par axe analytique** ou **Solde inverse par axe analytique** pour vous assurer que les sections analytiques sont correctement équilibrées ou inversées à partir du compte source.  
+> [!NOTE]
+> Si vous ventilez une ligne feuille abonnement qui comporte un code section, vous ne devez pas saisir le même code sur la page **Ventilations**. Si vous le faites, les sections analytiques sont incorrectes.  
+
+Pour allouer des montants de feuille abonnement en fonction des axes analytiques, définissez le champ **Mode abonnement** sur **Solde par axe analytique** ou **Solde inverse par axe analytique**. Si le mode abonnement est paramétré sur **Solde par axe analytique** ou sur **Solde inverse par axe analytique**, tous les codes axe analytique de la feuille abonnement sont pris en compte lorsque le compte est défini sur zéro. Si vous allouez une ligne abonnement à différentes sections analytiques sur la page **Ventilations**, alors un certain nombre d’écritures contrepassées correspondant au nombre de combinaisons de section analytique dont le solde est composé sont créés. Si vous allouez le solde du compte via la feuille abonnement qui contient un code section, n’oubliez pas d’utiliser **Solde par axe analytique** ou **Solde inverse par axe analytique** pour vous assurer que les sections analytiques sont correctement équilibrées ou inversées à partir du compte source.  
 
 Par exemple, votre société a quelques centres de profit et une poignée de départements que vos contrôleurs ont configurés en tant qu’axes analytiques. Pour accélérer le processus de saisie des factures achat, vous décidez de demander aux personnes chargées des comptes fournisseurs de saisir uniquement les axes analytiques des centres de profit. Étant donné que chaque centre de profit dispose de clés de ventilation spécifiques pour l’axe analytique Département, par exemple en fonction du nombre d’employés, vous pouvez utiliser les modes abonnement **Solde BD par axe analytique** ou **Solde inverse RBD par axe analytique** pour réaffecter les dépenses de chaque centre de profit aux départements qui conviennent en fonction des clés de ventilation.  
 
@@ -133,13 +133,21 @@ Par exemple, votre société a quelques centres de profit et une poignée de dé
 > Les dimensions que vous définissez sur les lignes ventilation ne sont pas calculées automatiquement et vous devez spécifier les sections analytiques à définir sur les comptes de ventilation. Si vous souhaitez conserver le lien entre l’axe analytique du compte source et l’axe analytique du compte de ventilation, nous vous recommandons d’utiliser la fonctionnalité [Comptabilité analytique](finance-about-cost-accounting.md) à la place.
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Exemple : Ventilation des paiements du loyer entre plusieurs départements
-Vous payez un loyer tous les mois, vous avez saisi le montant du loyer sur le compte règlement d’une ligne feuille abonnement. Sur la page **Ventilations**, vous pouvez diviser les dépenses entre plusieurs départements (section analytique Département) selon le nombre de mètres carrés occupé par chacun d’eux. Le calcul est basé sur le pourcentage de ventilation de chaque ligne. Vous pouvez saisir divers comptes sur différentes lignes ventilation (si le loyer est aussi divisé entre plusieurs comptes) ou saisir le même compte, mais avec divers codes section de la section analytique Département sur chaque ligne.
+
+Vous payez un loyer tous les mois, vous avez saisi le montant du loyer sur le compte règlement d’une ligne feuille abonnement. Sur la page **Ventilations**, vous pouvez utiliser l’axe analytique Département pour répartir les dépenses entre plusieurs départements. Par exemple, selon le nombre de pieds carrés qu’occupe chaque département. Le calcul est basé sur le pourcentage de ventilation de chaque ligne. Vous pouvez ventiler de diverses manières :
+
+* Saisissez différents comptes sur différentes lignes de ventilation pour répartir les dépenses de location entre plusieurs comptes.
+* Entrez le même compte, mais utilisez des codes de valeur d’axe analytique différents pour l’axe analytique Département sur chaque ligne.
+
+[!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
 ### <a name="reversal-date-calculation"></a>Calcul de date de contrepassation
+
 Lorsque vous utilisez des feuilles comptabilité périodiques pour comptabiliser les régularisations à la fin d’une période, il est important d’avoir un contrôle total sur les écritures de contrepassation. Sur la page **Feuilles comptabilité périodiques**, le champ **Calcul de date de contrepassation** vous permet de contrôler la date à laquelle les écritures de contrepassation seront validées lorsque les méthodes de contrepassation périodiques seront utilisées.
 
 #### <a name="example"></a>Exemple :
-Les régularisations sont généralement validées avec des méthodes périodiques Fixe, Variable ou Solde sur la ligne feuille. La date comptabilisation du montant comptabilisé sur le compte sur la ligne feuille est calculée en utilisant la fréquence périodique. La date comptabilisation de l’écriture contrepartie est calculée à l’aide du champ **Calcul de la date de contrepassation**, comme suit :
+
+Les régularisations sont généralement validées avec des méthodes périodiques **Fixe**, **Variable** ou **Solde** sur la ligne feuille. La date comptabilisation du montant comptabilisé sur le compte sur la ligne feuille est calculée en utilisant la fréquence périodique. La date comptabilisation de l’écriture contrepartie est calculée à l’aide du champ **Calcul de la date de contrepassation**, comme suit :
 
 * Si le champ est vide, l’écriture contrepartie sera validée le jour suivant.
 * Si le champ contient une formule de date (par exemple, **5D** pendant cinq jours), l’écriture contrepartie sera validée avec une date comptabilisation calculée à l’aide du calcul de la date de contrepassation.
@@ -148,52 +156,54 @@ Les régularisations sont généralement validées avec des méthodes périodiqu
 > Par défaut, le champ **Calcul de la date de contrepassation** n’est pas disponible sur la page **Feuilles comptabilité périodiques**. Pour utiliser le champ, vous devez l’ajouter en personnalisant la page. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
 ## <a name="work-with-standard-journals"></a>Utiliser des feuilles standard
-Lorsque vous créez des lignes feuille dont vous savez que vous risquez de les recréer ultérieurement, vous pouvez les enregistrer en tant que feuille standard avant de valider la feuille. Cette fonctionnalité s’applique aux feuilles article et aux feuilles comptabilité.
+
+Lorsque vous créez des lignes feuille dont vous savez que vous risquez de les recréer ultérieurement, vous pouvez les enregistrer en tant que feuille standard avant de valider la feuille. La même chose s’applique aux feuilles article et aux feuilles comptabilité.
 
 > [!NOTE]  
->   la procédure suivante traite de la feuille article mais concerne également la feuille comptabilité.
+> la procédure suivante traite de la feuille article mais concerne également la feuille comptabilité.
 
 ### <a name="to-save-a-standard-journal"></a>Pour enregistrer une feuille standard
+
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles article**, puis choisissez le lien associé.
 2. Entrez le code sur une ou plusieurs lignes feuille.
 3. Sélectionnez les lignes feuille à réutiliser.
 4. Choisissez l’action **Enregistrer en tant que feuille standard**.
 5. Sur la page de demande **Enregistrer en tant que feuille standard**, définissez une feuille article standard, nouvelle ou existante, dans laquelle enregistrer les lignes.
 
-    Si vous avez déjà créé une ou plusieurs feuilles article standard et souhaitez en remplacer une avec la nouvelle série de lignes feuille article, dans le champ Code, sélectionnez le code souhaité.
-6. Cliquez sur le bouton **OK** pour vérifier que vous souhaitez écraser la feuille article standard existante et remplacer tout son contenu.
-7. Sélectionnez le champ **Enregistrer le montant unitaire** si vous souhaitez enregistrer les valeurs dans le champ **Montant unitaire** de la feuille article standard.
-8. Sélectionnez le champ **Enregistrer la quantité** si vous souhaitez que l’application enregistre les valeurs dans le champ **Quantité**.
-9. Cliquez sur le bouton **OK** pour enregistrer la feuille article standard.
+    Si vous avez déjà créé une ou plusieurs feuilles article standard et souhaitez en remplacer une avec la nouvelle série de lignes feuille article, dans le champ **Code**, sélectionnez la feuille article.
+6. Cliquez sur le bouton **OK** pour vérifier que vous souhaitez remplacer le contenu de la feuille article standard existante.
+7. Pour enregistrer les valeurs dans le champ **Montant unitaire** de la feuille article standard, sélectionnez **Enregistrer le montant unitaire**.
+8. Pour enregistrer les valeurs dans le champ **Quantité**, choisissez le champ **Enregistrer la quantité**.
+9. Sélectionnez **OK** pour enregistrer la feuille article standard.
 
-Une fois l’enregistrement de la feuille article standard effectué, la page Feuille article s’affiche. Vous pouvez alors procéder à la validation tout en sachant que vous pouvez très facilement recréer cette feuille si vous devez valider des lignes identiques ou analogues.
+Lorsque vous enregistrez la feuille article standard, la page Feuille article s’affiche afin que vous puissiez la valider.
 
 ### <a name="to-reuse-a-standard-journal"></a>Pour réutiliser une feuille standard
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles article**, puis choisissez le lien associé.
+1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles article**, puis choisissez le lien associé.
 2. Choisissez l’action **Obtenir les feuilles standard**.
 
     La page Feuilles article standard qui s’ouvre alors contient des codes et des descriptions de toutes les feuilles article standard existantes.
 3. Pour passer en revue une feuille article standard avant de la sélectionner pour la réutiliser, choisissez l’action **Afficher la feuille**.
 
-    Toutes les modifications que vous apportez dans une feuille article standard sont effectuées immédiatement. Elles seront là la prochaine fois que vous rouvrirez ou réutiliserez la feuille article en question. Il est donc recommandé de s'assurer que la modification en question est suffisamment importante pour devoir s'appliquer de manière générale. Sinon, effectuez la correction ponctuelle dans la feuille article après avoir inséré les lignes feuille article standard. Reportez-vous à l’étape 4 ci-dessous.
+    Toute modification apportée à une feuille article standard est immédiatement appliquée et reste en vigueur lorsque vous rouvrez ou réutilisez cette feuille. Il est donc recommandé de s’assurer que la modification en question est suffisamment importante pour devoir s’appliquer de manière générale. Sinon, effectuez la correction ponctuelle dans la feuille article après avoir inséré les lignes feuille article standard. Reportez-vous à l’étape 4.
 4. Sur la page **Feuilles article standard**, sélectionnez la feuille article standard à réutiliser et cliquez sur le bouton **OK**.
 
-    La feuille article est alors remplie avec les lignes enregistrées en tant que feuille article standard. Si des lignes feuille figurent déjà dans la feuille article, les lignes insérées sont placées en dessous.
+    La feuille article contient les lignes que vous avez enregistrées. Si la feuille article comporte déjà des lignes, les nouvelles lignes apparaissent après celles-ci.
 
-    Si vous n’avez pas coché le champ **Enregistrer le montant unitaire** au cours de la tâche de fonction **Enregistrer en tant que feuille article standard**, alors le champ **Montant unitaire** des lignes insérées adopte automatiquement la valeur actuelle de l’article, copiée du champ **Coût unitaire** de la fiche article.
+    Si vous n’activez pas le bouton à bascule **Enregistrer le montant unitaire**, le champ **Montant unitaire** sur les lignes ajoutées à partir de la feuille standard contient la valeur du champ **Coût unitaire** sur la fiche article.
 
     > [!NOTE]  
-    > Si vous avez sélectionné les champs **Enregistrer le montant unitaire** ou **Enregistrer la quantité**, assurez-vous que les valeurs insérées sont adaptées à cet ajustement de stock précis avant de valider la feuille article.
+    > Si vous avez activé les boutons à bascule **Enregistrer le montant unitaire** ou **Enregistrer la quantité**, assurez-vous que les valeurs insérées sont adaptées à cet ajustement de stock précis avant de valider la feuille article. <!--need to say where and when these were turned on-->
 
-    Si les lignes feuille article insérées contiennent des montants unitaires enregistrés que vous ne souhaitez pas valider, vous pouvez rapidement les ajuster à la valeur actuelle de l’article comme suit.
+    Si les lignes feuille article insérées contiennent des montants unitaires enregistrés que vous ne souhaitez pas valider, vous pouvez rapidement les ajuster à la valeur actuelle de l’article comme suit. <!--as follows where?-->
 
-5. Sélectionnez les feuilles articles standard que vous souhaitez ajuster, puis sélectionnez l’action **Recalculer le montant unitaire**. Le champ Montant unitaire est mis à jour avec le coût unitaire actuel de l’article.
-6. Sélectionnez l’action **valider**.
+5. Sélectionnez les feuilles articles standard que vous souhaitez ajuster, puis sélectionnez l’action **Recalculer le montant unitaire**. Cette action met à jour avec le champ Montant unitaire avec le coût unitaire actuel de l’article.
+6. Sélectionnez l’action **Valider**.
 
 ## <a name="to-renumber-document-numbers-in-journals"></a>Pour renuméroter des numéros de document dans les feuilles
 
-Pour vous assurer de ne pas recevoir d’erreurs de validation en raison de l’ordre des numéros de document, vous pouvez utiliser la fonction **Renuméroter les numéros de document** avant de valider une feuille.
+Pour éviter de valider les erreurs associées au numéro de document, vous pouvez utiliser l’action **Renuméroter les numéros de document** avant de valider une feuille.
 
 Dans toutes les feuilles basées sur la feuille comptabilité, le champ **N° document** est modifiable de sorte que vous puissiez spécifier des numéros de document différents pour des lignes feuille différentes, ou le même numéro de document pour les lignes feuille associées.
 
@@ -201,7 +211,7 @@ Si le champ **Souches de n°** du nom feuille est rempli, la fonction de validat
 
 Cette fonction fonctionne également sur les vues filtrées.
 
-Toute renumérotation des numéros de document respectera les lettrages associés, par exemple un lettrage de paiement qui a été effectué à partir du document de la ligne feuille pour un compte fournisseur. Par conséquent, les champs **ID lettrage** et les champs **N° doc. lettrage** sur les écritures comptables affectées peuvent être mis à jour.
+Toute renumérotation des numéros de document respectera les lettrages associés, par exemple un lettrage de paiement qui a été effectué à partir du document de la ligne feuille pour un compte fournisseur. Par conséquent, les champs **ID lettrage** et les champs **N° doc. lettrage** sur les écritures comptables peuvent être mises à jour.
 
 ### <a name="to-renumber-documents-in-journals"></a>Pour renuméroter des documents dans les feuilles
 

@@ -1,5 +1,5 @@
 ---
-title: Exécuter des tâches en arrière-plan
+title: Exécuter des tâches en arrière-plan et de manière récurrente
 description: Configurer la synchronisation des données entre Business Central et Shopify en arrière-plan.
 ms.date: 05/11/2022
 ms.topic: article
@@ -7,23 +7,23 @@ ms.service: dynamics365-business-central
 ms.reviewer: solsen
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: f353edb4c505fd7b3eb498392abca3ce481b6009
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 4a67f6fc58fb8b158563ce58baab55e7fda2ccb1
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768230"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728615"
 ---
 # <a name="run-tasks-in-the-background"></a>Exécuter des tâches en arrière-plan
 
 Il est efficace d’exécuter certaines tâches simultanément et de manière automatisée. Vous pouvez effectuer ces tâches en arrière-plan et également définir un calendrier pour les exécuter automatiquement. Pour exécuter des tâches en arrière-plan, deux modes sont pris en charge :
 
-- Les tâches déclenchées manuellement sont planifiées immédiatement via **Écritures file d’attente des travaux**
-- Les tâches récurrentes sont planifiées dans **Écritures file d’attente des travaux**
+- Les tâches déclenchées manuellement sont planifiées immédiatement via **Écritures file d’attente des travaux**.
+- Les tâches récurrentes sont planifiées dans **Écritures file d’attente des travaux**.
 
 ## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Exécuter des tâches en arrière-plan pour un magasin spécifique
 
-1. Accédez à l’icône de recherche ![Ampoule qui ouvre la fonction de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez le nom du **Magasin Shopify**, puis choisissez le nom du magasin dans la liste.
+1. Sélectionnez ![l’icône Ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez le nom du **Magasin Shopify**, puis choisissez le nom du magasin dans la liste.
 2. Sélectionnez le magasin pour lequel vous voulez synchroniser les articles pour ouvrir la page **Fiche magasin Shopify**.
 3. Activez **Autoriser les synchronisations en arrière-plan**.
 
@@ -31,7 +31,7 @@ Désormais, lorsque l’action de synchronisation est déclenchée, au lieu d’
 
 ## <a name="to-schedule-recurring-tasks"></a>Pour programmer des tâches récurrentes
 
-Vous pouvez programmer les activités récurrentes suivantes pour qu’elles soient exécutées de manière automatisée. Pour plus d’informations sur la planification des tâches, voir [File d’attente des travaux](../admin-job-queues-schedule-tasks.md).
+Vous pouvez programmer les activités récurrentes suivantes pour qu’elles soient exécutées de manière automatisée. Pour plus d’informations sur la planification des tâches, voir [File d’attente](../admin-job-queues-schedule-tasks.md).
 
 |Tâche|Objet|
 |------|------------|
@@ -43,6 +43,9 @@ Vous pouvez programmer les activités récurrentes suivantes pour qu’elles soi
 |**Synchroniser les images**|État 30107 Synchroniser les images Shopify|
 |**Synchroniser les clients**|État 30100 Synchroniser les clients Shopify|
 |**Synchroniser les paiements**|État 30105 Synchroniser les paiements Shopify|
+
+> [!NOTE]
+> Certains éléments peuvent être mis à jour par plusieurs tâches, par exemple lorsque vous importez des commandes, selon le paramétrage dans la **fiche magasin Shopify**, le système peut également importer et mettre à jour des données client et/ou produit. N’oubliez pas d’utiliser la même catégorie de file d’attente pour éviter les conflits.
 
 ## <a name="see-also"></a>Voir aussi
 

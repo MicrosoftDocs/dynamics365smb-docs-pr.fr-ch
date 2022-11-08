@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 0df97fbafd160e932700b5f66de455d50ff8f645
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607731"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728588"
 ---
 # <a name="resources-for-help-and-support"></a>Ressources pour l’Aide et le support
 
@@ -114,7 +114,11 @@ Cette section vous donne des raccourcis vers Microsoft AppSource où vous trouve
 
 ### <a name="give-feedback"></a>Envoyer des commentaires
 
-Sur le [site Dynamics 365 Ideas](https://aka.ms/bcideas), vous pouvez faire part de vos suggestions pour de nouvelles fonctionnalités. Votre saisie va directement vers la file d’attente d’ingénierie de Business Central pour enquête et priorisation.  
+Environ une fois par trimestre, l’équipe [!INCLUDE [prod_short](includes/prod_short.md)] recueille les commentaires de nos utilisateurs sur leur niveau de satisfaction avec le produit. En plus des évaluations, vous pouvez également fournir un commentaire écrit. En nous donnant des commentaires spécifiques et exploitables, vous aidez nos équipes d’ingénieurs à prioriser les améliorations de produits dans lesquelles nous investissons. Vous pouvez également accepter d’être contacté au sujet de votre commentaire. Si vous le faites, vous serez invité à une réunion Teams à un moment qui vous convient. Vous pouvez fournir des suggestions de produits à tout moment sur notre site web [Idées Dynamics 365](https://aka.ms/bcideas).  
+
+### <a name="product-suggestions"></a>Suggestions de produits
+
+Sur le site web [Idées Dynamics 365](https://aka.ms/bcideas), vous pouvez faire part de vos suggestions pour de nouvelles fonctionnalités. Votre saisie va directement vers la file d’attente d’ingénierie de Business Central pour enquête et priorisation.  
 
 Veillez à effectuer votre recherche dans la liste des suggestions proposées. Il est possible que quelqu’un ait déjà envoyé une suggestion similaire et que cette entrée ait déjà reçu des votes. Votez si une idée a déjà été envoyée pour lui accorder une priorité dans la file d’attente d’ingénierie.  
 

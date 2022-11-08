@@ -4,16 +4,16 @@ description: Configurer et exécuter l’importation et le traitement des comman
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30124, 30125, 30128, 30129, 30130, 30131, 30132, 30133, 30134,
+ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 3a8f6b2188c2a315bbed1ef99e23b6bbfafae40f
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 2e79d19fd2fd03ec245c020cb9004809bccb5ec4
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361408"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728345"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Synchroniser et exécuter les commandes vente
 
@@ -21,22 +21,23 @@ Cet article décrit les paramètres et les étapes à effectuer pour synchronise
 
 ## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Définir l’importation des commandes sur la Fiche magasin Shopify
 
-Une commande Shopify classique peut inclure des coûts en plus du sous-total, comme les frais d'expédition ou, s'ils sont activés, les pourboires. Ces montants sont validés directement dans le compte général que vous souhaitez utiliser pour des types de transactions spécifiques :
+Une commande Shopify classique peut inclure des coûts en plus du sous-total, comme les frais d’expédition ou, s’ils sont activés, les pourboires. Ces montants sont validés directement dans le compte général que vous souhaitez utiliser pour des types de transactions spécifiques :
 
-- **Compte frais d’expédition**
-- **Compte carte cadeau vendu** ; en savoir plus dans la rubrique [Carte cadeau](synchronize-orders.md#gift-cards)
-- **Compte de pourboires**  
+* **Compte frais d’expédition**
+* **Compte carte cadeau vendu** ; en savoir plus dans la rubrique [Carte cadeau](synchronize-orders.md#gift-cards)
+* **Compte de pourboires**  
 
 Activez **Créer automatiquement des commandes** pour créer automatiquement des documents vente dans [!INCLUDE[prod_short](../includes/prod_short.md)] après l’importation de la commande Shopify.
+
 Le document vente dans [!INCLUDE[prod_short](../includes/prod_short.md)] contient un lien vers la commande Shopify. Si vous sélectionnez le champ **N° commande sur n° ligne doc. Shopify**, ces informations sont répétées dans les ligne vente de type *Commentaire*.
 
-Dans le champ **Origine zone recouvrement**, vous pouvez définir la priorité en matière de sélection du code zone recouvrement ou du groupe comptabilisation marché TVA en fonction de l’adresse. Cette étape concerne aussi bien les pays où la taxe sur les ventes est appliquée que ceux où la TVA est appliquée. En savoir plus dans la section [Remarques sur les taxes](synchronize-orders.md#tax-remarks).
+Dans le champ **Origine zone recouvrement**, vous pouvez définir la priorité en matière de sélection du code zone recouvrement ou du groupe comptabilisation marché TVA en fonction de l’adresse. La commande Shopify importée contient des informations sur les taxes, mais celles-ci sont recalculées lorsque vous créez le document de vente. Il est donc important que les paramètres de TVA/taxe soient corrects dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Pour plus d’informations sur les taxes, voir [Configurer les taxes pour la connexion Shopify](setup-taxes.md).
 
 ### <a name="shipment-method-mapping"></a>Mappage des conditions de livraison
 
 Le **Code condition livraison** pour les documents vente importés de Shopify peut être rempli automatiquement. Vous devez configurer le **Mappage conditions livraison**.
 
-1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Magasins Shopify**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Magasins Shopify**, puis sélectionnez le lien associé.
 2. Sélectionnez le magasin pour lequel vous voulez définir le mappage pour ouvrir la page **Fiche magasin Shopify**.
 3. Sélectionnez l’action **Mappage conditions livraison**. Cela crée automatiquement les enregistrements des conditions de livraison définis dans les paramètres [**Expédition**](https://www.shopify.com/admin/settings/payments) dans l’**administration Shopify**.
 4. Dans le champ **Nom**, vous affichez le nom de la condition de livraison de Shopify.
@@ -45,32 +46,19 @@ Le **Code condition livraison** pour les documents vente importés de Shopify pe
 > [!NOTE]  
 > Si plusieurs frais d’expédition sont associés à une commande vente, un seul est sélectionné comme la condition de livraison et est affecté au document vente.
 
-### <a name="payment-method-mapping"></a>Mappage du mode de paiement
-
-Pour remplir le **Code mode de règlement** pour les documents vente importés de Shopify automatiquement, vous devez configurer **Mappage du mode de paiement**.
-
-1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Magasins Shopify**, puis sélectionnez le lien associé.
-2. Sélectionnez le magasin pour lequel vous voulez définir le mappage pour ouvrir la page **Fiche magasin Shopify**.
-3. Sélectionnez l’action **Mappage du mode de paiement**.
-4. Dans les champs **Passerelle** et **Société de carte de crédit**, saisissez le nom du mode de paiement Shopify. L’enregistrement est créé automatiquement lorsque vous importez des commandes Shopify.
-5. Saisissez le **Code mode de règlement** avec le mode de règlement correspondant dans [!INCLUDE[prod_short](../includes/prod_short.md)].
-6. Définissez la **Priorité** pour les cas où le client utilise plusieurs moyens de paiement. Le mode de paiement avec la priorité la plus élevée est sélectionné dans le document vente. Si les deux modes de paiement ont la même priorité, le mode de paiement avec le montant le plus élevé est utilisé.
-
-> [!NOTE]  
-> Si le mode de règlement correspondant dans [!INCLUDE[prod_short](../includes/prod_short.md)] a les champs **Type compte contrepartie** et **N° compte contrepartie** renseignés, alors, lors de la validation, le système de facturation créera une écriture contrepartie du type *Règlement* et l'appliquera au type *Facture* dans l’écriture comptable client.
-
 ### <a name="location-mapping"></a>Cartographie de localisation
 
-Pour remplir le **Code magasin** pour les documents vente importés de Shopify automatiquement, vous devez configurer les **Emplacements des magasins Shopify**.
+Le mappage de l’emplacement est requis à trois fins :
+
+* Pour en savoir plus sur la façon de synchroniser le stock, voir [Synchroniser le stock sur Shopify](synchronize-items.md#sync-inventory-to-shopify)
+* Pour remplir le **Code d’emplacement** pour les documents de vente importés de Shopify. C’est important lorsque le bouton à bascule **Magasin Obligatoire** est activé dans la fiche **Paramètres stock**, sinon vous ne pourrez pas créer de documents vente.
+* Pour mettre à jour la commande Shopify avec les informations d’exécution basées sur la page **Expédition vente enregistrée**.
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Magasins Shopify**, puis sélectionnez le lien associé.
 2. Sélectionnez le magasin pour lequel vous voulez configurer le mappage des emplacements pour ouvrir la page **Fiche magasin Shopify**.
 3. Sélectionnez l’action **Emplacements** pour ouvrir les **Emplacements des magasins Shopify**.
 4. Sélectionnez l’action **Obtenir les emplacements Shopify** pour importer tous les emplacements définis dans Shopify. Ils se trouvent dans les paramètres [**Emplacements**](https://www.shopify.com/admin/settings/locations) du volet **Administration Shopify**. Notez que l’emplacement marqué comme *Par défaut* sera utilisé lors de l’importation de commandes Shopify non remplies.
 5. Entrez le **Code magasin par défaut** avec l’emplacement correspondant dans [!INCLUDE[prod_short](../includes/prod_short.md)].
-
-> [!NOTE]  
-> Vous devez configurer le mappage d’emplacement si le bouton à bascule **Magasin Obligatoire** est activé dans la fiche **Paramètres stock**, ou vous ne pourrez pas créer de documents vente.
 
 ## <a name="run-the-order-synchronization"></a>Exécuter la synchronisation des commandes
 
@@ -92,14 +80,14 @@ Vous pouvez programmer la tâche pour qu’elle soit exécutée de manière auto
 
 ## <a name="review-imported-orders"></a>Passer en revue les commandes importées
 
-Une fois l’importation terminée, vous pouvez explorer la commande Shopify et trouver toutes les informations associées comme les transactions de paiement, les frais d'expédition, le niveau de risque ou les exécutions, si la commande a déjà été exécutée dans Shopify. Vous pouvez également voir les confirmations de commande envoyées au client en sélectionnant l’action **Page de statut Shopify**.
+Une fois l’importation terminée, vous pouvez explorer la commande Shopify et trouver toutes les informations associées comme les transactions de paiement, les frais d’expédition, le niveau de risque ou les exécutions, si la commande a déjà été exécutée dans Shopify. Vous pouvez également voir les confirmations de commande envoyées au client en sélectionnant l’action **Page de statut Shopify**.
 
 > [!NOTE]  
 > Vous pouvez accéder directement à la fenêtre **Commandes Shopify** pour afficher les commandes dont le statut est défini sur *Ouvert* dans tous les magasins. Pour consulter les commandes terminées, vous devez ouvrir la page **Commandes Shopify** à partir de la fenêtre **Fiche magasin Shopify** spécifique.
 
 ## <a name="create-sales-documents-in-business-central"></a>Créer des documents vente dans Business Central
 
-Si le bouton à bascule **Créer automatiquement des commandes** est activée sur la **Fiche magasin Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] tente de créer un document vente après l’importation de la commande. Si des problèmes tels qu'un client ou un produit manquant surviennent, vous devrez les résoudre, puis créer à nouveau la commande vente.
+Si le bouton à bascule **Créer automatiquement des commandes** est activée sur la **Fiche magasin Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] tente de créer un document vente après l’importation de la commande. Si des problèmes tels qu’un client ou un produit manquant surviennent, vous devrez les résoudre, puis créer à nouveau la commande vente.
 
 ### <a name="to-create-sales-documents"></a>Pour créer des documents vente
 
@@ -117,19 +105,25 @@ Un document vente est maintenant créé et peut être géré en utilisant les fo
 
 Si vos paramètres empêchent la création automatique d’un client et qu’un client existant approprié est introuvable, vous devez attribuer un client à la commande Shopify manuellement. Il explique plusieurs méthodes pour y parvenir :
 
-- Vous pouvez attribuer le **N° donneur d’ordre** directement dans la page **Commandes Shopify** en choisissant un client dans la liste des clients existants.
-- Vous pouvez sélectionner un code modèle client, puis créer et affecter le client par l’action **Créer un client** dans la page **Commandes Shopify**.
-- Vous pouvez mapper un client existant avec le **Client Shopify** existant dans la fenêtre **Clients Shopify**, puis sélectionner l’action **Trouver le mappage** dans la page **Commandes Shopify**.
+* Vous pouvez attribuer le **N° donneur d’ordre** et **N° client facturé** directement dans la page **Commandes Shopify** en choisissant un client dans la liste des clients existants.
+* Vous pouvez sélectionner un code modèle client, puis créer et affecter le client par l’action **Créer un client** dans la page **Commandes Shopify**.
+* Vous pouvez mapper un client existant avec le **Client Shopify** existant dans la fenêtre **Clients Shopify**, puis sélectionner l’action **Trouver le mappage** dans la page **Commandes Shopify**.
 
-### <a name="tax-remarks"></a>Remarques sur les taxes
+### <a name="how-the-connector-chooses-which-customer-to-use"></a>Comment le connecteur choisit le client à utiliser
 
-La commande Shopify importée contient des informations sur les taxes, mais celles-ci sont recalculées lorsque vous créez le document de vente. Il est donc important que les paramètres de TVA/taxe soient corrects dans [!INCLUDE[prod_short](../includes/prod_short.md)].
+La fonction *Importer la commande à partir de Shopify* tente de sélectionner le client dans l’ordre suivant :
 
-- Plusieurs taux de TVA/Taxe sur les produits. Par exemple, certaines catégories de produits sont soumises à des taux de taxe réduits. Ces articles doivent exister dans [!INCLUDE[prod_short](../includes/prod_short.md)] et être mappés avec les produits Shopify. Sinon, avec la création automatique des articles manquants, le groupe comptabilisation produit TVA est utilisé.
+1. Si le champ **N° client par défaut** est défini dans **Modèle client Shopify** pour le pays correspondant, le **N° client par défaut** est utilisé quels que soient les paramètres dans les champs **Importation client à partir de Shopify** et **Type de mappage client**. En savoir plus sur [Modèle client par pays](synchronize-customers.md#customer-template-per-country).
+2. Si le champ **Importation client à partir de Shopify** est défini sur *Aucun* et le champ **N° client par défaut** est défini sur la page **Fiche magasin Shopify**, alors le **N° client par défaut** est utilisé.
 
-- Taux de taxe dépendant de l’adresse. Utilisez le champ **Priorité zone recouvrement** avec le tableau **Modèles client** pour remplacer la logique standard qui remplit le **Code zone recouvrement** dans le document vente. Le champ **Priorité zone recouvrement** indique la priorité utilisée pour déterminer les informations sur le pays/la région et l’état/la province. L’enregistrement correspondant dans les modèles client Shopify est ensuite trouvé et les champs **Code zone recouvrement**, **Soumis à recouvrement** et **Groupe compta. marché TVA** sont utilisés lors de la création d’un document vente.
+Les étapes suivantes dépendent du champ **Type de mappage client**.
 
-- Prix TTC. Le champ **Prix incluant les taxes**/**Prix TTC** dans le document vente créé ne dépend pas du client, mais du **Modèle client** de la page **Fiche magasin Shopify** ou du modèle client par pays.
+* **Toujours prendre le client par défaut**, puis le connecteur utilise le client défini dans le champ **N° client par défaut** dans la page **Fiche magasin Shopify**.
+* **Par e-mail/téléphone**, le connecteur tente d’abord de trouver le client existant par ID, puis par e-mail, puis par téléphone. Si le client est introuvable, le connecteur crée un client.
+* **Par informations de facturation**, le connecteur tente d’abord de trouver le client existant par ID, puis par adresse facturation. Si le client est introuvable, le connecteur crée un client.
+
+> [!NOTE]  
+> Le connecteur utilise les informations de l’adresse facturation et crée le client facturé dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Le client vendeur est le même que le client facturé.
 
 ### <a name="impact-of-order-editing"></a>Impact des modifications des commandes
 
@@ -160,18 +154,23 @@ Lorsqu’une commande vente créée à partir d’une commande Shopify est livr�
 
 La commande dans Shopify est marquée comme exécutée. Le client reçoit automatiquement un message électronique ou un SMS d’avis d’expédition. Si un transporteur et un code de suivi sont spécifiés sur la livraison, les informations de suivi sont indiquées dans le message électronique.
 
-> [!NOTE]  
-> N’oubliez pas d’exécuter **Synchroniser les commandes à partir de Shopify** pour mettre à jour le statut d’exécution d'une commande dans [!INCLUDE[prod_short](../includes/prod_short.md)]. La fonctionnalité du connecteur archive également les commandes entièrement payées et exécutées à la fois dans Shopify et dans [!INCLUDE[prod_short](../includes/prod_short.md)] si les conditions sont remplies.
+Sinon, utilisez l’action **Synchroniser les expéditions** sur les pages Commandes vente Shopify ou Magasin Shopify.
+
+Vous pouvez programmer la tâche pour qu’elle soit exécutée de manière automatisée. En savoir plus dans la section [Programmer des tâches récurrentes](background.md#to-schedule-recurring-tasks).
+
+>[Important] L’emplacement, y compris l’emplacement vide, défini dans la ligne d’expédition enregistrée doit avoir un enregistrement correspondant dans l’emplacement Shopify. Sinon, cette ligne ne sera pas renvoyée à Shopify. En savoir plus sur le [Mappage d’emplacement](synchronize-orders.md#location-mapping).
+
+N’oubliez pas d’exécuter **Synchroniser les commandes à partir de Shopify** pour mettre à jour le statut d’exécution d’une commande dans [!INCLUDE[prod_short](../includes/prod_short.md)]. La fonctionnalité du connecteur archive également les commandes entièrement payées et exécutées à la fois dans Shopify et dans [!INCLUDE[prod_short](../includes/prod_short.md)] si les conditions sont remplies.
 
 ### <a name="shipping-agents-and-tracking-url"></a>Transporteurs et URL de suivi
 
 Si le document **Expédition vente enregistrée** contient le **Code transporteur** et/ou le **N° récépissé**, ces informations sont envoyées à Shopify et au client dans le message électronique de confirmation de livraison.
 
-La société de suivi est renseignée dans l'ordre de priorité suivant (du plus élevé au plus faible), en fonction de l’enregistrement du transporteur :
+La société de suivi est renseignée dans l’ordre de priorité suivant (du plus élevé au plus faible), en fonction de l’enregistrement du transporteur :
 
-- **Société de suivi Shopify**
-- **Nom**
-- **Code**
+* **Société de suivi Shopify**
+* **Nom**
+* **Code**
 
 Si le champ **URL de suivi des colis** est rempli pour l’enregistrement du transporteur, la confirmation de livraison contient aussi une URL de suivi.
 
@@ -181,33 +180,7 @@ Dans le magasin Shopify, vous pouvez vendre des cartes cadeaux, qui peuvent êtr
 
 En matière de cartes cadeaux, il est important de saisir une valeur dans le champ **Compte carte cadeau vendu** dans la fenêtre **Fiche magasin Shopify**. La carte cadeau vendue est synchronisée avec les commandes en cours. Une carte cadeau lettrée est également importée avec la commande mais en tant que transaction. Notez que la carte cadeau ne diminue pas le montant à facturer.
 
-Pour examiner les cartes cadeaux lettrées et émises, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Cartes cadeaux**, puis choisissez le lien associé.
-
-## <a name="transactions-and-payouts"></a>Transactions et règlements
-
-Lorsqu'un client a réglé sa commande dans la boutique en ligne, les informations relatives aux paiements sont enregistrées en tant que **Transaction**. Il peut y avoir plusieurs transactions liées à la commande, par exemple lorsqu'un client utilise une carte cadeau pour payer une partie du coût et utilise ensuite une carte de crédit ou PayPal pour le montant restant. 
-
-Si vous utilisez le paiement Shopify comme fournisseur de paiement, en plus des informations sur l'argent reçu du client par le fournisseur de paiement, vous pouvez également visualiser les règlements de Shopify sur votre compte bancaire. 
-
-### <a name="transactions"></a>Transactions
-
-Les transactions réalisées sur Shopify sont synchronisées avec les commandes et s’affichent dans la page *Commandes Shopify*.
-
-Pour examiner toutes les transactions, sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Transactions**, puis choisissez le lien associé.
-
-Si vous avez configuré le mappage des modes de règlement, un code de mode de règlement est attribué au document de vente créé. En savoir plus dans la section [Mappage du mode de paiement](#payment-method-mapping).
-
-### <a name="payouts"></a>Règlements
-
-Si votre magasin utilise Shopify Payments, vous recevez les paiements via *Règlements Shopify* lorsqu’un client paie en utilisant le service Shopify Payments et les règlements accélérés.
-
-1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Magasins Shopify**, puis sélectionnez le lien associé.
-2. Sélectionnez le magasin pour lequel vous voulez synchroniser les règlements pour ouvrir la page **Fiche magasin Shopify**.
-3. Sélectionnez l’action **Synchroniser les règlements**.
-
-Pour examiner tous les règlements, sélectionnez l’icône en forme ![d’ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Règlements**, puis choisissez le lien associé.
-
-Les **règlements** n'ont qu'une valeur informative et n'ont pas d'impact sur la comptabilité ou le Grand Livre bancaire, bien qu'ils puissent être utiles lorsque vous traitez votre relevé de compte bancaire.
+Pour examiner les cartes cadeaux lettrées et émises, sélectionnez l’icône ![Ampoule qui ouvre la fonction de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Cartes cadeaux**, puis choisissez le lien associé.
 
 ## <a name="see-also"></a>Voir aussi
 
