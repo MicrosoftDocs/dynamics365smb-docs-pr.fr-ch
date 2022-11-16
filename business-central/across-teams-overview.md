@@ -2,19 +2,19 @@
 title: Vue d’ensemble de l’intégration de Business Central et Microsoft Teams | Microsoft Docs
 description: Partagez des enregistrements Business Central directement dans une conversation Teams.
 author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
-ms.author: jswymer
-ms.openlocfilehash: f826ceaca3ae6f5a68a60a43f4824fcbe60c0753
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.custom: bap-template
+ms.openlocfilehash: 13c5e71ff35bf0bb45cabebe2124864c7875f526
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716597"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744912"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Intégration de Business Central et Microsoft Teams
 
@@ -60,7 +60,15 @@ Directement à partir de la plupart des pages de collection et de détails dans 
 
 Pour plus d’informations, consultez [Partager des enregistrements et des liens de page dans Microsoft Teams](across-working-with-teams.md#share-link).
 
-## <a name="get-started"></a>Démarrer
+### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Ajout d’un onglet Business Central au canal ou à la conversation instantanée Teams
+
+Avec l’application Business Central pour Teams installée, vous pouvez ajouter un onglet dans un canal ou une conversation instantanée qui affiche les données Business Central à partir de listes et de pages de carte.
+
+![Onglets dans Teams](media/teams-tabs-border.png)
+
+Pour plus d’informations, voir [Ajout d’un onglet Business Central dans Teams](across-teams-tab.md).
+
+## <a name="get-started"></a>Mise en route
 
 1. Un compte d’utilisateur [!INCLUDE [prod_short](includes/prod_short.md)] Online est requis pour l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams.
 

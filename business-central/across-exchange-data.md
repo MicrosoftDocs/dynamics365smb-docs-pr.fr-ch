@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 00bac7c92cf6b29cbd79f5b3f04eaa9dfab1ee2d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bb5886d46e780a32f0d0e58d0f62c58cacdc91a7
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133449"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744750"
 ---
 # <a name="exchanging-data"></a>Échange de données
 Vous pouvez échanger des données entre [!INCLUDE[prod_short](includes/prod_short.md)] et des fichiers ou flux externes en relation avec des tâches courantes d’entreprise, comme l’envoi et la réception de documents électroniques et l’importation et l’exportation de fichiers bancaires.  
@@ -34,6 +34,7 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 |Demander à votre banque de transférer les montants de paiement des comptes bancaires de vos clients vers le compte de votre société en fonction de votre configuration du prélèvement automatique SEPA.|[Créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)|  
 |Utiliser un fournisseur de services de taux de change des devises pour mettre à jour la page **Devises**.|[Mettre à jour des taux de change devise](finance-how-update-currencies.md)|  
 |Consulter les éléments de fichier mappés aux champs dans [!INCLUDE[prod_short](includes/prod_short.md)] lors de l’importation de fichiers de déclaration SEPA CAMT.|[Mappage de champs lors de l’importation de fichiers SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)|  
+|Exporter les données pour la déclaration Échanges intracommunautaires dans [!INCLUDE[prod_short](includes/prod_short.md)].|[Paramétrer les états intracommunautaires](finance-how-setup-report-intrastat.md)|
 |Découvrez quels sont les champs de [!INCLUDE[prod_short](includes/prod_short.md)] qui sont mappés à des éléments de fichier lorsque vous exportez des fichiers de paiement à l’aide de l’extension AMC Banking 365 Fundamentals.|[Mappage de champ lors de l’exportation de fichiers de paiement à l’aide de l’extension AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
 ## <a name="see-also"></a>Voir aussi  

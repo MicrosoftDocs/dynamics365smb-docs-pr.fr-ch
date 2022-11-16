@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 064780473eb98f4fde4d170f0aa5c16a998799af
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528490"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744777"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Dépannage de l’intégration de Microsoft Teams avec [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -159,6 +159,23 @@ Ce problème peut être causé par diverses raisons. Par exemple, l’identité 
 ## <a name="my-cards-no-longer-have-a-popout-button"></a>Mes cartes n’ont plus de bouton de fenêtre contextuelle
 
 À partir d’avril 2022, les liens affichés sous forme de carte compacte dans Teams ne contiendront plus le bouton **Fenêtre contextuelle**. Pour ouvrir la carte dans sa propre fenêtre, choisissez le bouton **Détails**, puis **Ouvrir dans le navigateur** dans le menu des points de suspension (**...**) dans le coin supérieur droit de la fenêtre.
+
+## <a name="cant-pin-a-card-to-tab"></a>Impossible d’épingler une carte à l’onglet
+
+Deux raisons expliquent ce problème.
+
+- Si la carte a été partagée à partir de Search ME, elle ne peut pas être épinglée à un onglet. 
+
+- Impossible d’épingler tant que vous n’avez pas ajouté votre premier onglet Business Central. Ce problème est connu dans Teams. 
+
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Quelqu’un a ajouté un onglet, mais l’onglet ne s’affiche pas pour moi
+
+Ce problème est dû au fait que l’application BC pour Teams n’est pas installée. Seuls ceux qui ont installé l’application verront les onglets Business Central.
+
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>D’autres voient un tri ou une disposition des colonnes différents de ce que voit l’auteur de l’onglet
+
+Ce problème est probablement dû au fait que vous avez partagé une vue de liste qui est une vue personnelle. Dans ce cas, travaillez avec l’administrateur pour créer des vues de liste spécifiques aux rôles qui couvrent les différents rôles dans le canal/la discussion instantanée, ou créez cette vue pour l’ensemble de l’organisation afin que tout le monde puisse obtenir une vue cohérente.
+
 
 ## <a name="see-also"></a>Voir aussi
 

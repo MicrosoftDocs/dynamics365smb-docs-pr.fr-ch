@@ -10,16 +10,16 @@ ms.search.keywords: Data exchange framework, data files, data exchange, electron
 ms.search.form: 189,
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: c48d6a304e0938bbae70e61545b4a4e8d72fbdde
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d5c8a96066311eb7e2050507b6c4f27066a70f62
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134397"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744666"
 ---
 # <a name="about-the-data-exchange-framework"></a>À propos de l’infrastructure d’échange de données
 
-Vous pouvez utiliser l’infrastructure d’échange de données pour gérer les échanges des documents commerciaux, des fichiers bancaires, des taux de change devise et tous les autres fichiers de données avec vos partenaires commerciaux.
+Vous pouvez utiliser l’infrastructure d’échange de données pour gérer les échanges des documents commerciaux, des fichiers bancaires, des taux de change devise et tous les autres fichiers de données avec vos partenaires commerciaux ou les autorités.
 
 En tant qu’administrateur ou partenaire Microsoft, vous pouvez utiliser l’infrastructure dans de nouvelles fonctionnalités d’intégration en configurant les données à échanger et comment les échanger. Par exemple, le format des fichiers utilisés pour l’échange de données bancaires, les documents électroniques, les taux de change de devises, et d’autres fichiers utilisés avec les systèmes ERP varient selon le fournisseur du fichier de données ou du flux, et selon le pays ou la région. [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge différents formats de fichiers bancaires et différentes normes de service de données. Pour assurer la prise en charge d’autres formats de documents électroniques, vous pouvez utiliser l’infrastructure d’échange de données.
 
@@ -58,6 +58,10 @@ Pour exporter des virements SEPA, choisissez le bouton **Exporter les paiements
 vous pouvez configurer un service externe pour tenir vos taux de change des devises à jour. Le service qui fournit des taux de change des devises mis à jour est activé par une définition d’échange de données. Par conséquent, la page **Fiche Paramètres de mise à jour des taux de change** est une vue condensée de la page **Définition d’échange de données** de la définition d’échange de données en question.  
 
 Pour tous les échanges de données dans les fichiers XML, vous pouvez préparer la configuration d’échange de données en chargeant le fichier schéma XML associé sur la page **Visionneuse de schéma XML**. Il s’agit de l’emplacement où vous pouvez sélectionner les éléments de données que vous souhaitez échanger avec [!INCLUDE[prod_short](includes/prod_short.md)], puis initialiser une définition d’échange de données ou générer un XMLport.
+
+## <a name="intrastat"></a>Déclaration d’échanges de biens
+
+[!INCLUDE[prod_short](includes/prod_short.md)] utilise la structure d’échange de données pour les rapports Échanges intracommunautaires où vous pouvez facilement créer des fichiers horodatés dans différents formats pour l’exportation. [!INCLUDE[prod_short](includes/prod_short.md)] contient des formats préparés pour les pays localisés ainsi que pour la version par défaut. Mais vous pouvez modifier le rapport prêt à l’emploi ou créer le vôtre.
 
 ## <a name="see-also"></a>Voir aussi
 

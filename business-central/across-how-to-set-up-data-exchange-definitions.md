@@ -1,19 +1,19 @@
 ---
 title: Définir le mode d’échange électronique de documents
 description: Définissez comment Business Central échange des données avec des fichiers externes tels que des documents électroniques, des données bancaires, des catalogues d’articles, etc.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
-ms.date: 09/15/2022
-ms.author: edupont
-ms.openlocfilehash: 53cb2bc92b4d56f767944593a5f5300510c2a944
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 11/03/2022
+ms.author: bholtorf
+ms.openlocfilehash: 324fa2e1576deb3f9cb4b082f065218d1576fd78
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607542"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744885"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurer les définitions d’échange de données
 
@@ -129,6 +129,7 @@ L’étape suivante de la création de la définition d’échange de données c
     |**ID Table**|Indiquez la table qui contient les champs vers lesquels ou à partir desquels des données sont échangées en fonction du mappage.|  
     |**Utiliser comme table intermédiaire**|Spécifiez si la table que vous sélectionnez dans le champ **ID table** est une table intermédiaire de stockage des données importées avant leur mappage vers la table cible.<br /><br /> Vous utilisez généralement une table intermédiaire lorsque la définition d’échange de données est utilisée pour importer et convertir des documents électroniques, tels que des factures fournisseur en factures achat dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, consultez [Échanger des données par voir électronique](across-data-exchange.md).|  
     |**Nom**|Saisissez un nom pour les paramètres de mappage.|  
+    |**Index de clé**|Spécifiez l’index de clé pour trier les enregistrements source avant l’exportation.|
     |**Codeunit pré-mappage**|Spécifiez le codeunit qui prépare le mappage entre les champs dans [!INCLUDE[prod_short](includes/prod_short.md)] et les données externes.|  
     |**Codeunit mappage**|Spécifiez le codeunit qui est utilisé pour mapper les colonnes ou les éléments de données XML spécifiés aux champs dans [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Codeunit post-mappage**|Spécifiez le codeunit qui effectue le mappage entre les champs dans [!INCLUDE[prod_short](includes/prod_short.md)] et les données externes. **Remarque :** lors de l’utilisation de l’extension AMC Banking 365 Fundamentals, le codeunit convertit les données exportées depuis [!INCLUDE[prod_short](includes/prod_short.md)] vers un format générique prêt pour l’exportation. Pour l’importation, le codeunit convertit les données externes dans un format prêt à l’importation dans [!INCLUDE[prod_short](includes/prod_short.md)].|
@@ -161,6 +162,13 @@ L’étape suivante de la création de la définition d’échange de données c
      |**Règle de transformation**|Spécifie la règle qui transforme un texte importé en valeur prise en charge avant de pouvoir être mappé dans un champ spécifié. Lorsque vous choisissez une valeur dans ce champ, la même valeur est saisie dans le champ **Règle de transformation** dans la table **Tampon correspondance champ échge données** et inversement. Consultez la section suivante pour plus d’informations sur les règles de transformation disponibles pouvant être appliquées.|
      |**Priorité**|Spécifie l’ordre dans lequel les mappages de champs doivent être traités. Le mappage de champ avec le numéro de priorité le plus élevé sera traité en premier.|
 
+4. Sur le raccourci **Groupement de champs**, spécifiez les règles à utiliser pour regrouper vos champs quand vous créez le fichier en remplissant les champs comme décrit dans le tableau suivant.  
+
+     |Champ|Désignation|  
+     |--------------------------------- |---------------------------------------|  
+     |**ID de champ**|Spécifiez le numéro du champ du fichier externe utilisé pour le regroupement. Ce champ doit être défini par l’utilisateur.|
+     |**Légende du champ**|Spécifiez la légende du champ dans le fichier externe utilisé pour le regroupement.|
+
 ## <a name="transformation-rules"></a>Règles de transformation
 
 Si les valeurs des champs que vous mappez sont différentes, vous devez utiliser des règles de transformation pour les définitions d’échange de données afin de les rendre identiques. Pour définir des règles de transformation pour des définitions d’échange de données, ouvrez une définition existante ou créez-en une nouvelle, puis, sur le raccourci **Définitions de ligne**, choisissez **Gérer**, puis **Mappage de champs**. Des règles prédéfinies sont fournies, mais vous pouvez également créer les vôtres. Le tableau suivant décrit les types de transformations que vous pouvez effectuer.
@@ -180,6 +188,8 @@ Si les valeurs des champs que vous mappez sont différentes, vous devez utiliser
 |**Expression régulière - Correspondance**|Utiliser une expression régulière pour trouver une ou plusieurs valeurs. Cette règle est similaire aux options **Sous-chaîne** et **Expression régulière - Remplacer**.|
 |**Personnalisé**|Cette règle de transformation et une option avancée qui nécessite l’aide d’un développeur. Elle active un événement d’intégration auquel vous pouvez vous abonner si vous souhaitez utiliser votre propre code de transformation. Si vous êtes développeur et souhaitez utiliser cette option, consultez la section ci-dessous.|
 |**Mise en forme de la date et de l’heure**|Définir comment afficher la date actuelle ainsi que l’heure de la journée.|
+|**Recherche de champ**|Utilisez des champs de différentes tables. Pour l’utiliser, vous devez suivre certaines règles. Premièrement, utilisez l’**ID de table** pour spécifier l’ID de la table qui contient l’enregistrement pour la recherche de champ. Deuxièmement, dans le champ **ID du champ source**, spécifiez l’ID du champ qui contient l’enregistrement pour la recherche de champ. Troisièmement, dans le champ **ID du champ cible**, spécifiez l’ID du champ pour rechercher l’enregistrement pour la recherche de champ. En option, utilisez le champ **Règle de recherche de champ** pour spécifier le type de recherche de champ. Pour le champ **Cible**, la valeur de l’**ID de champ cible** est utilisée, même si elle est vide. Pour le champ **Original, si Cible est vide**, la valeur d’origine est utilisée si la cible est vide.|
+|**Arrondir**|Arrondissez la valeur de ce champ à l’aide de règles supplémentaires. D’abord, dans le champ **Précision**, spécifiez une précision d’arrondi. Ensuite, dans le champ **Direction**, indiquez le sens de l’arrondi.|
 
 > [!NOTE]  
 > Pour plus d’informations sur le formatage de la date et de l’heure, consultez [Chaînes de format de date et heure standard](/dotnet/standard/base-types/standard-date-and-time-format-strings).

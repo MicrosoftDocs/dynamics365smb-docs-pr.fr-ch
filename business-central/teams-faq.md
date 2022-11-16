@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: aac91da92b51831951bd890248d7f80f8bc5104d
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606132"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744720"
 ---
 # <a name="teams-faq"></a>FAQ Teams
 
@@ -34,7 +34,7 @@ Pour vous déconnecter de votre identité d’utilisateur actuelle dans Teams ut
 
 ### <a name="does-the-app-for-teams-connect-to-prod_shortmd-on-premises"></a>L’application pour Teams se connecte-t-elle à [!INCLUDE [prod_short.md](includes/prod_short.md)] en local ? 
 
-N° L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams ne fonctionne qu’avec [!INCLUDE [prod_short.md](includes/prod_short.md)] en ligne. Il n’y a pas de plan pour soutenir les types de déploiement [!INCLUDE [prod_short.md](includes/prod_short.md)] &mdash; comme en local, en cloud hybride ou en cloud privé&mdash; que Microsoft n’héberge pas ou ne gère pas directement.
+Non. L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams ne fonctionne qu’avec [!INCLUDE [prod_short.md](includes/prod_short.md)] en ligne. Il n’y a pas de plan pour soutenir les types de déploiement [!INCLUDE [prod_short.md](includes/prod_short.md)] &mdash; comme en local, en cloud hybride ou en cloud privé&mdash; que Microsoft n’héberge pas ou ne gère pas directement.
 
 ### <a name="does-the-app-work-with-multiple-companies-and-environments"></a>L’application fonctionne-t-elle avec plusieurs entreprises et environnements ? 
 
@@ -86,7 +86,7 @@ Les utilisateurs mobiles sont encouragés à installer à la fois l’applicatio
 
 ### <a name="does-the-prod_shortmd-app-work-in-all-teams-clients"></a>L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] est-elle compatible avec tous les clients Teams ?
 
-N° L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams n’est pas prise en charge lorsqu’elle est installée en tant que package pour macOS ou Linux. Sur ces plates-formes, vous pouvez accéder à Teams à la place à l’aide d’un navigateur pris en charge.
+Non. L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams n’est pas prise en charge lorsqu’elle est installée en tant que package pour macOS ou Linux. Sur ces plates-formes, vous pouvez accéder à Teams à la place à l’aide d’un navigateur pris en charge.
 
 Pour connaître la configuration minimale requise dans [!INCLUDE [prod_short.md](includes/prod_short.md)], voir [Configuration minimale requise pour l’utilisation de Business Central](product-requirements.md#teams).
 
@@ -145,6 +145,92 @@ Si vous souhaitez participer à l’amélioration de l’application pour Teams,
 
 Pour en savoir plus sur les fonctionnalités du client web lié à Teams, consultez la section [Partager des enregistrements et des liens de page dans Microsoft Teams](across-working-with-teams.md#share-link).
 
+## <a name="business-central-tabs"></a>[Onglets Business Central](#tab/tabs)
+
+### <a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-view"></a>Qui peut voir le contenu d’un onglet ?
+
+Toute personne de votre conversation instantanée ou canal :
+
+1. Doit disposer de l’application Business Central pour Teams installée.
+2. Doit être doté d’une licence Business Central ou d’un accès à Business Central octroyé à l’aide de sa licence Microsoft 365.
+3. Doit disposer d’autorisations d’afficher les données sur la page.
+
+### <a name="where-does-the-recommended-content-come-from"></a><a name=#recommended-content></a>D’où provient le contenu recommandé ?
+
+Le contenu recommandé au sein duquel vous pouvez choisir l’option **Contenu de l’onglet** sur un onglet est basé sur votre tableau de bord. Le contenu recommandé ne comprend que des pages de liste, telles que Clients, Commandes client et Fournisseurs, et non la page de carte individuelle comme un client ou un fournisseur spécifique.
+
+Plus précisément, le contenu recommandé comprend :
+
+- Des actions dans le menu de navigation au-dessus du tableau de bord
+- Toutes les pages de liste que vous avez mises en signet.
+- Si une page de liste propose différentes vues, y compris les vues que vous avez créées, vous pouvez également choisir parmi ces vues
+
+Vous pouvez ajouter des pages de liste au contenu recommandé en ajoutant des signets. Vous pouvez également supprimer le contenu recommandé en supprimant les signets. Pour savoir comment ajouter ou supprimer des signets, voir [Ajouter un signet à une page ou à un état sur votre tableau de bord](ui-bookmarks.md).
+
+Si vous changez d’environnement ou d’entreprise dans l’option d’onglet, le contenu recommandé sera modifié en fonction du tableau de bord et des signets de l’environnement et de l’entreprise vers lesquels vous basculez.
+
+
+
+### <a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a>Quand je crée un onglet, cela accorde-t-il des autorisations aux personnes du canal ou de la conversation instantanée ?
+
+Non. La création d’onglets n’affecte pas les autorisations et les utilisateurs doivent déjà avoir l’autorisation d’accéder à ces données quand ils accèdent à l’onglet.
+
+### <a name="can-i-chat-alongside-a-tab"></a>Puis-je discuter à côté d’un onglet ?
+
+Oui. Utilisez l’icône de conversation instantanée pour démarrer la conversation. Ce fil de conversation instantanée est alors associé à l’onglet. 
+
+### <a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a>Si je supprime un onglet d’une conversation instantanée ou d’un canal, des données Business Central sont-elles supprimées ?
+
+Non.
+
+### <a name="can-i-safely-rename-a-tab"></a>Puis-je renommer un onglet en toute sécurité ?
+
+Oui. Le contenu de l’onglet n’est pas lié au nom réel de l’onglet. Renommer à volonté ! 
+
+### <a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a>J’ai besoin de travailler sur plusieurs tâches dans différentes fenêtres. Puis-je le faire ?
+
+Oui. Vous pouvez faire apparaître l’onglet dans sa propre fenêtre de navigateur pour afficher le client web Business Central. 
+
+### <a name="can-i-add-or-pin-tab-in-team-meetings"></a>Puis-je ajouter ou épingler un onglet dans les réunions Teams ?
+
+Non. L’application Business Central pour Teams ne prend pas en charge les onglets dans les réunions.
+
+### <a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a>Impossible d’ajouter un onglet si vous utilisez des URL d’ISV comme *.bc.dynamics.com (mais peut épingler)
+
+Non pris en charge.
+
+### <a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a>Quand j’effectue des actions dans l’onglet, telles que la navigation, le tri, l’application d’un filtre ou la recherche, les autres utilisateurs voient-ils mes modifications ?
+
+Non. Seules les modifications de champ ou les actions en cours affectent la façon dont les autres voient le contenu de l’onglet.
+
+### <a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a>Le contenu de l’onglet s’actualise-t-il automatiquement ? Sinon, comment puis-je l’actualiser ?
+
+Le contenu ne s’actualise pas automatiquement, et il n’y a actuellement pas de bouton d’actualisation. La meilleure façon d’actualiser le contenu pour s’assurer qu’il est conforme aux données est de quitter l’onglet, puis de revenir. 
+
+### <a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a>Cela affiche-t-il les listes et les enregistrements de mes personnalisations et modules complémentaires ?
+
+Oui. 
+
+### <a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a>Quand j’ajoute un onglet, les utilisateurs le verront-ils dans ma langue ?
+
+Non. Chaque utilisateur affiche le contenu de l’onglet dans les paramètres de langue, de région et de fuseau horaire de Business Central. 
+
+### <a name="can-i-have-multiple-tabs-pointing-to-different-content"></a>Puis-je avoir plusieurs onglets pointant vers différents contenus ?
+
+Oui.
+
+### <a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a>Puis-je également ajouter des onglets pour discuter avec une seule personne ?
+
+Oui, tant que la conversation instantanée n’est pas un brouillon (c’est-à-dire qu’aucun message n’a été envoyé pour lancer cette conversation instantanée) et que l’autre personne a également installé l’application Business Central.
+
+### <a name="can-i-switch-companies-within-a-tab"></a>Puis-je changer d’entreprise dans un onglet ?
+
+Non. 
+
+### <a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a>Est-ce différent de l’utilisation de la capacité générique de Teams pour créer un onglet qui héberge un site web ?
+
+Oui. Nous ne vous recommandons pas d’utiliser cette approche. Dans de nombreux cas, c’la ne fonctionne pas pour Business Central.
+
 ## <a name="search-for-contacts"></a>[Recherche de contacts](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>Dans quelles tables l′application recherche-t-elle ?
@@ -156,6 +242,7 @@ Lors de la recherche de contacts à partir de l′application [!INCLUDE [prod_sh
 Lorsque vous tapez vos termes de recherche dans le champ de recherche, les termes sont mis en correspondance avec la plupart des champs de la table **Contacts**. Les champs incluent, par exemple, les champs **Numéro**, **Nom**, **Adresse**, **N° de téléphone** ou **N° de téléphone portable** et **E-mail**. 
 
 Les termes de recherche ne correspondent à aucun champ personnalisé ajouté à la table **Contacts** par les applications et les extensions.
+
 ### <a name="do-search-results-include-companies-and-persons"></a>Les résultats de recherche incluent-ils des entreprises et des personnes ?
 
 Oui. Dans [!INCLUDE [prod_short.md](includes/prod_short.md)], les contacts peuvent être de type **Société** ou saisissez **Personne**, où une ou plusieurs personnes peuvent être associées à une entreprise. Dans les résultats de recherche, les entreprises et les personnes ont des icônes différentes.

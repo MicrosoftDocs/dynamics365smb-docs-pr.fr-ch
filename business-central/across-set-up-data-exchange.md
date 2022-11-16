@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d2b4ac035f3c6336a5bc5646cbc0145bb671788a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 2cabd68e2ec22aaef4ad1f0b34305a95a2e93a5e
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529449"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744939"
 ---
 # <a name="setting-up-data-exchange"></a>Configuration de l’échange de données
 
@@ -34,7 +34,8 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 |Préparez les formats de compte bancaire, les modes de paiement et les accords clients pour le prélèvement automatique SEPA.|[Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)|  
 |Configurez l’authentification de l’utilisateur et l’URL du fournisseur de l’extension AMC Banking 365 Fundamentals qui est nécessaire pour que les fichiers bancaires soient convertis au format de votre banque.|[Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
 |Configurer et activer un service externe qui vous permet d’importer des relevés bancaires, directement sous forme de flux bancaires.|[Configurer le service de relevés bancaires](bank-how-setup-bank-statement-service.md)|  
-|Une fois le service de relevés bancaires activé, lier les comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)]|[Configuration des comptes bancaires](bank-how-setup-bank-accounts.md)|  
+|Une fois le service de relevés bancaires activé, lier les comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)]|[Configurer des comptes bancaires](bank-how-setup-bank-accounts.md)|  
+|Configurez l’exportation des données pour la déclaration Échanges intracommunautaires dans [!INCLUDE[prod_short](includes/prod_short.md)].|[Paramétrer les états intracommunautaires](finance-how-setup-report-intrastat.md)|
 |Préparer à configurer une nouvelle définition d’échange de données pour un fichier ou flux de données à l’aide du schéma XML du fichier pour préremplir le raccourci **Définitions de colonnes** de la page **Définitions échange comptabilité**.|[Utiliser des schémas XML pour préparer des définitions d’échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Configurer l’infrastructure d’échange de données pour permettre aux utilisateurs de recevoir un nouveau format de documents achat, d’envoyer un nouveau format de documents vente, d’importer un nouveau fichier bancaire, ou autre échange de données.|[Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md)|  
 

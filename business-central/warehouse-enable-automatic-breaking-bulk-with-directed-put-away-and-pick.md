@@ -1,50 +1,53 @@
 ---
 title: Rupture de charge avec prélèvement et rangement dirigé
 description: Découvrez comment activer la rupture de charge automatique avec prélèvement et rangement dirigé, ainsi que le déconditionnement pour prélèvement, rangement, mouvement, etc.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 5703, 7352
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 86ad8c18c58eaf24665310f3455ae801ebe611a2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 11/04/2022
+ms.author: bholtorf
+ms.openlocfilehash: d5e8ab6f0e60ab8874669c7e5127411acc58957b
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518694"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744693"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Activer la rupture de charge automatique avec prélèvement et rangement dirigé
-En cas d’utilisation d’un prélèvement et d’un rangement suggérés dans les entrepôts, [!INCLUDE[prod_short](includes/prod_short.md)] peut procéder, dans de nombreux cas, à un déconditionnement automatique (division d’une unité en unités plus petites) lorsqu’il crée des instructions entrepôt répondant aux exigences de documents origine, d’ordres de fabrication ou de prélèvements et de rangements internes. Parfois, le déconditionnement peut également nécessiter le regroupement de petites unités afin de répondre à des demandes sortantes en divisant l’unité la plus grande du document origine ou de l’ordre de fabrication en unités plus petites disponibles dans l’entrepôt.   
 
-## <a name="breakbulking-in-picks"></a>Déconditionnement pour prélèvement  
-Pour stocker des articles dans plusieurs unités et permettre de les combiner automatiquement selon vos besoins au cours du prélèvement, sélectionnez le champ **Autoriser déconditionnement** de la fiche magasin.  
+En cas d’utilisation d’un prélèvement et d’un rangement suggérés dans les entrepôts, [!INCLUDE[prod_short](includes/prod_short.md)] peut diviser des unités plus grandes en unités plus petites pendant la création des instructions entrepôt répondant aux exigences de documents origine, d’ordres de fabrication ou de prélèvements et de rangements internes. Le déconditionnement peut également signifier rassembler des articles dans des unités de mesure plus petites pour égaler la quantité d’une unité de mesure plus grande sur un document source ou un ordre de fabrication.
 
-Pour répondre à une tâche, l’application recherche automatiquement un article de la même unité. S’il ne trouve pas ce type d’article et que vous avez sélectionné ce champ, l’application vous propose de diviser une unité plus grande en fonction de l’unité nécessaire.  
+## <a name="breakbulk-in-picks"></a>Déconditionnement pour prélèvements  
 
-Si le système trouve uniquement des unités plus petites, il vous suggère de rassembler des articles afin de répondre à la quantité de l’expédition ou de l’ordre de fabrication. En fait, il divise la plus grande unité du document origine en unités de prélèvement plus petites.  
+Pour stocker des articles dans plusieurs unités à un emplacement et permettre de les combiner automatiquement au cours du prélèvement, activer le bouton de bascule **Autoriser déconditionnement** de la fiche Carte du magasin. Ensuite, pour répondre à une tâche, [!INCLUDE [prod_short](includes/prod_short.md)] recherchera automatiquement un article de la même unité. S’il n’en trouve pas, [!INCLUDE [prod_short](includes/prod_short.md)] suggérera que vous divisiez une plus grande unité de mesure dans l’unité de mesure qui est nécessaire.  
 
-## <a name="breakbulking-in-put-aways"></a>Déconditionnement pour rangement  
-Au niveau du rangement de l’entrepôt, l’application propose automatiquement des lignes action Emplacement dans l’unité de rangement, par exemple, pièces, même si les articles arrivent dans une unité différente.  
+Si seules des unités plus petites sont disponibles, [!INCLUDE [prod_short](includes/prod_short.md)] vous suggère de rassembler des articles afin de répondre à la quantité de l’expédition ou de l’ordre de fabrication. En fait, il divise la plus grande unité du document origine en unités de prélèvement plus petites.  
 
-## <a name="breakbulking-in-movements"></a>Déconditionnement pour mouvement  
-L’application effectue également un déconditionnement automatique au niveau des mouvements de réapprovisionnement, si le champ **Autoriser déconditionnement** est sélectionné sur le raccourci **Option** de la page **Calculer réappro. emplacement**.  
+## <a name="breakbulk-in-put-aways"></a>Déconditionnement pour rangement  
+
+Dans les rangements des entrepôts, [!INCLUDE [prod_short](includes/prod_short.md)] suggère Placer les lignes d’action dans l’unité de mesure de rangement. Par exemple, il peut suggérer des pièces même si les articles arrivent dans une unité de mesure différente.  
+
+## <a name="breakbulk-in-movements"></a>Déconditionnement pour mouvement  
+
+[!INCLUDE [prod_short](includes/prod_short.md)] peut également se déconditionner dans les mouvements de réapprovisionnement si le bouton de basculement **Autoriser le déconditionnement** sur la page **Calculer le réapprovisionnement du bac** est activé.  
 
 Vous pouvez afficher les résultats de la conversion entre deux unités sous forme de lignes déconditionnement intermédiaire dans les instructions rangement, prélèvement, ou mouvement.  
 
 > [!NOTE]  
->  Si vous sélectionnez le champ **Paramétrer filtre déconditionnement** dans l’en-tête instruction entrepôt, l’application masque les lignes déconditionnement chaque fois que la plus grande unité est utilisée dans son intégralité. Par exemple, si une palette comprend 12 pièces et que vous allez utiliser les 12 pièces, le prélèvement vous indique de prendre 1 palette et d’y placer les 12 pièces. Par contre, si vous ne devez prélever que 9 pièces, les lignes déconditionnement ne sont pas masquées, même si vous avez sélectionné le champ **Filtre déconditionnement**, étant donné que vous devez placer les trois pièces restantes dans un autre endroit de l’entrepôt.  
+> Si vous sélectionnez le champ **Paramétrer filtre déconditionnement** dans l’en-tête instruction entrepôt, l’application masque les lignes déconditionnement chaque fois que la plus grande unité est utilisée dans son intégralité. Par exemple, si une palette comprend 12 pièces et que vous utiliserez les 12 pièces, le prélèvement vous indique de prendre 1 palette et d’y placer les 12 pièces. Cependant, si vous ne devez choisir que 9 pièces, les lignes de marchandises diverses ne sont pas masquées, même si vous avez sélectionné le champ **Filtre de déconditionnement**. Les lignes ne sont pas masquées, car vous devez placer les trois pièces restantes quelque part dans l’entrepôt.  
 
 > [!NOTE]  
->  Pour optimiser l’utilisation des unités dans l’entrepôt (également avec la fonctionnalité de déconditionnement), effectuez dès que vous le pouvez les opérations suivantes :  
->   
+> Pour optimiser l’utilisation des unités dans l’entrepôt (également avec le déconditionnement), effectuez dès que vous le pouvez ce qui suit :  
+>
 > - Configurez l’unité de base d’un article en tant que plus petite unité à gérer dans les processus concernant l’entrepôt.  
 > - Configurez les autres unités de l’article en tant que multiples de l’unité de base.  
 
 ## <a name="see-also"></a>Voir aussi  
+
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de Warehouse Management](warehouse-setup-warehouse.md) 

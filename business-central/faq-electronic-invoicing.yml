@@ -3,30 +3,32 @@ metadata:
   title: FAQ Facturation électronique
   description: Obtenez des réponses sur le service d’échange de documents et les versions prises en charge de PEPPOL.
   ms.topic: faq
-  ms.openlocfilehash: 0351a756d8b07eee489ff5457c8463f8587dded4
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  author: edupont04
+  ms.author: edupont
+  ms.openlocfilehash: 42e9278371ac9736d9d6a0d4b8e288fbe295c863
+  ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
   ms.translationtype: HT
   ms.contentlocale: fr-CH
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8136233"
+  ms.lasthandoff: 11/04/2022
+  ms.locfileid: "9744831"
 title: FAQ Facturation électronique
-summary: "Le service d’échange de documents intégré soumet les factures électroniques à TradeShift, un fournisseur de services qui relaie les factures électroniques aux destinataires PEPPOL ou NemHandel. Mais le service prend en charge un nombre limité de versions.   \n\nCette FAQ répond à certaines des questions clés sur la facturation électronique.  \n"
+summary: "Le service d’échange de documents intégré soumet les factures électroniques à TradeShift, fournisseur de services qui relaie les factures électroniques aux destinataires PEPPOL ou NemHandel. Mais le service prend en charge un nombre limité de versions.   \n\nCette FAQ répond à certaines des questions clés sur la facturation électronique.  \n"
 sections:
 - name: Général
   questions:
   - question: Quel est le problème ?
     answer: Le support intégré de PEPPOL utilise une API fournie par TradeShift. Mais cette API ne prend pas en charge les nouvelles versions de PEPPOL.
   - question: Quelle est la dernière version de PEPPOL prise en charge par l’API TradeShift ?
-    answer: La dernière version de PEPPOL prise en charge par l’API TradeShift est  **PEPPOL BIS 2.1**.
+    answer: La dernière version de PEPPOL prise en charge par l’API TradeShift est **PEPPOL BIS 2.1**.
   - question: Quelle est la dernière version de PEPPOL prise en charge par Business Central ?
-    answer: La dernière version de PEPPOL prise en charge par la version par défaut de Business Central est **PEPPOL BIS 3.0**. Nous maintiendrons le service d’échange de documents existant basé sur TradeShift en cours d’exécution tant que TradeShift prend en charge l’API actuelle. De plus, nous continuons à prendre en charge les formats de facturation électronique actuellement pris en charge.
-- name: 'Applications '
+    answer: La dernière version de PEPPOL prise en charge par la version par défaut de Business Central est **PEPPOL BIS 3.0**. Nous maintiendrons le service d’échange de documents existant basé sur TradeShift en cours d’exécution tant que TradeShift prend en charge l’API actuelle. De plus, nous continuons à prendre en charge les formats de facturation électronique actuellement pris en charge.
+- name: Applications
   questions:
   - question: Existe-t-il des applications qui peuvent nous aider avec la facturation électronique ?
     answer: >
       Oui ! La liste suivante fournit des exemples d’applications existantes pour Business Central qui prennent en charge la facturation électronique dans les derniers formats. Notez qu’il ne s’agit pas d’une liste complète :
 
-      - [Pagero - Application de facturation électronique (Danemark, Allemagne, Finlande, France, Norvège, Espagne, Suède, Royaume-Uni)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
+      - [Pagero – application de facturation électronique (Belgique, Danemark, Allemagne, Finlande, France, Italie, Luxembourg, Norvège, Arabie saoudite, Singapour, Espagne, Suède, Royaume-Uni et États-Unis)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
 
       - [Oseberg Solutions - E-facture PEPPOL Bis (Norvège)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.oseberg_solutions%7CAID.oseberg_peppol%7CPAPPID.49206e10-c889-400d-8465-bde6555e00fc)
 
@@ -36,7 +38,7 @@ sections:
 
       - [NAVlab - FTE LITE CLOUD (Italie)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.navlab-1990684%7CAID.felight%7CPAPPID.a239eef8-4446-4379-a0af-e0f8f1e7f260?tab=Overview)
 
-      - [AppVision - Facture électronique pour la Hongrie](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.appvision-5226274%7CAID.hungarian_electronic_invoice%7CPAPPID.f5891011-91e3-416e-92c7-db21f1f3a939?tab=Overview) 
+      - [AppVision - Facture électronique pour la Hongrie](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.appvision-5226274%7CAID.hungarian_electronic_invoice%7CPAPPID.f5891011-91e3-416e-92c7-db21f1f3a939?tab=Overview)
 
       - [Estonian Dynamics Partners - Telema EDI (Estonie)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.telema-edi%7CPAPPID.0f6cfaa0-c4d6-49af-a644-4194e69420be)
 
@@ -50,5 +52,5 @@ sections:
 - name: Exigence B2G en Allemagne
   questions:
   - question: Qu’en est-il de l’exigence B2G en Allemagne ?
-    answer: Pour les utilisateurs de Business Central qui ont des clients au gouvernement allemand et qui ont besoin d’une facturation B2G, à compter du 27 novembre 2020, ils doivent envoyer des factures dans des formats locaux, tels que *XRechnung* ou *ZUGFeRD*.  Cela sera pris en charge par des applications telles que [Belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview), ou [Pagero E-Invoicing](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6). 
+    answer: Pour les utilisateurs de Business Central qui ont des clients au gouvernement allemand et qui ont besoin d’une facturation B2G, à compter du 27 novembre 2020, ils doivent envoyer des factures dans des formats locaux, tels que *XRechnung* ou *ZUGFeRD*.  Cela sera pris en charge par des applications telles que [Belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview), ou [Pagero E-Invoicing](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6).
 additionalContent: "## <a name=\"next-steps\"></a>Étapes suivantes\nTrouvez des informations relatives ici : \n  - [Envoyer des documents électroniques](sales-how-to-send-electronic-documents.md)  \n  \n"

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
-ms.date: 02/06/2022
+ms.date: 10/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 515f95506bfae97ba0c66389d219751ea5b6896e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 54d3ce9c571973482fe1ba0fdb8cad76a87752c2
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530556"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744966"
 ---
 # <a name="calculate-dates-for-purchases"></a>Calculer les dates des achats
 
@@ -44,9 +44,9 @@ Si vous spécifiez une date de réception demandée sur une ligne commande achat
 > [!NOTE]
 > Si votre processus est basé sur un calcul en amont, par exemple, si vous utilisez la date de réception demandée pour obtenir la date de commande, nous vous recommandons d’utiliser des formules de date ayant des durées fixes, telles que "5D" pendant cinq jours ou "1W" pour une semaine. Les formules de date sans durée fixe, telles que « CW » pour la semaine en cours ou CM pour le mois en cours, peuvent entraîner des calculs de date incorrects. Pour plus d’informations sur les formules de date, voir [Utiliser des dates civiles et des heures](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-delivery-date"></a>Calcul sans date livraison demandée
+## <a name="calculating-without-a-requested-receipt-date"></a>Calcul sans date réception demandée
 
-Si vous indiquez une ligne commande achat sans date livraison demandée, le champ **Date commande** sur la ligne indique la date du champ **Date commande** sur l’en-tête commande achat. Cette date est celle que vous avez indiquée ou la date de travail. Les dates sont ensuite calculées pour la ligne commande achat, la date commande étant utilisée comme point de départ, comme suit :  
+Si vous indiquez une ligne commande achat sans date de réception demandée, le champ **Date commande** sur la ligne indique la date du champ **Date commande** sur l’en-tête commande achat. Cette date est celle que vous avez indiquée ou la date de travail. Les dates sont ensuite calculées pour la ligne commande achat, la date commande étant utilisée comme point de départ, comme suit :  
 
 - date commande + délai réapprovisionnement = date livraison fourn. prévue  
 - date livraison fourn. prévue + délai enlogement + délai sécurité = date réception prévue  
@@ -59,7 +59,7 @@ Si vous modifiez la date de commande sur la ligne, [!INCLUDE[prod_short](include
 
 Vous pouvez spécifier manuellement la formule de date sur les lignes. Sinon, [!INCLUDE[prod_short](includes/prod_short.md)] utilisera les formules qui sont définies sur les pages suivantes dans l’ordre de priorité suivant :
 
-1. Catalogue d'articles par fournisseur
+1. Catalogue d’articles par fournisseur
 2. Fiche article
 3. Fiche point de stock
 4. Fiche fournisseur
