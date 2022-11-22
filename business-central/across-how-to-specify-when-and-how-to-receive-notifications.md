@@ -1,24 +1,25 @@
 ---
 title: Spécifier quand et comment recevoir des notifications de flux de travail
 description: Lorsque vous configurez des utilisateurs dans des flux de travails d’approbation, vous pouvez spécifier comment et quand chaque utilisateur d’approbation reçoit des notifications.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 663, 1500, 1512, 1513,
 ms.date: 09/09/2022
-ms.author: edupont
-ms.openlocfilehash: 7b70da08a4fb8ffdb7ff16544b511576f9af0f86
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.author: bholtorf
+ms.openlocfilehash: 74387ee5cb8581d8b8e1cce5c1d1c8850cd6c842
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585529"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763294"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Spécifier quand et comment recevoir des notifications de flux de travail
 
-Lorsque vous configurez des utilisateurs d’approbation dans des flux de travail où vous souhaitez que quelqu’un approuve les modifications, par exemple lorsque des enregistrements sont créés ou lorsque quelqu’un demande une approbation, vous devez spécifier comment et quand l’utilisateur d’approbation sera averti. Par exemple, vous pouvez spécifier qu’un utilisateur d’approbation recevra immédiatement un e-mail lorsque quelqu’un créera un client. Sinon, vous pouvez programmer les notifications à envoyer, par exemple, sur une base hebdomadaire ou mensuelle.
+Lorsque vous configurez des utilisateurs d’approbation dans des flux de travail où vous souhaitez que quelqu’un approuve les modifications, par exemple lorsque des enregistrements sont créés ou lorsque quelqu’un demande une approbation, vous devez spécifier comment et quand avertir l’utilisateur d’approbation. Par exemple, vous pouvez spécifier qu’un utilisateur d’approbation recevra immédiatement un e-mail lorsque quelqu’un créera un client. Sinon, vous pouvez programmer les notifications à envoyer, par exemple, sur une base hebdomadaire ou mensuelle.
 
 Les personnes peuvent également modifier leur paramètre de notification en choisissant le bouton **Changer les paramètres de notification** sur toute notification.  
 
@@ -38,10 +39,10 @@ Pour un grand nombre d’étapes d’approbation du flux de travail, il s’agit
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres utilisateur approbation**, puis choisissez le lien associé.  
 2. Sélectionnez la ligne pour l’utilisateur pour lequel vous souhaitez paramétrer des préférences de notification, puis choisissez l’action **Paramètre de notification**.  
-3. Sur la page **Paramètres de notification**, renseignez les champs comme indiqué dans le tableau suivant.  
+3. Sur la page **Paramètres de notification de workflow**, renseignez les champs comme indiqué dans le tableau suivant.  
 
    > [!NOTE]
-   > Si vous ouvrez la page **Configuration des notifications** de la page **Paramètres utilisateur d’approbation**, la configuration de la notification est liée à l’utilisateur d’approbation. L’utilisateur d’approbation recevra toujours des notifications de flux de travail en fonction de cette configuration de notification. Si vous utilisez la fonctionnalité *Tell Me* pour ouvrir la page **Configuration des notifications**, la configuration de la notification s’appliquera à tous les utilisateurs.
+   > Si vous ouvrez la page **Paramètres de notification de workflow** de la page **Paramètres utilisateur d’approbation**, la configuration de la notification est liée à l’utilisateur d’approbation. L’utilisateur d’approbation recevra toujours des notifications de flux de travail en fonction de cette configuration de notification. Si vous utilisez la fonctionnalité *Tell Me* pour ouvrir la page **Paramètres de notification de workflow**, la configuration de la notification s’appliquera à tous les utilisateurs.
 
    |Champ|Désignation|
    |-----|-----------|
@@ -66,7 +67,7 @@ Pour un grand nombre d’étapes d’approbation du flux de travail, il s’agit
 ## <a name="change-when-and-how-you-receive-notifications"></a>Modifier le moment et le mode de réception des notifications
 
 1. Sur l’une des notifications que vous avez reçue, par e-mail ou par note, sélectionnez le bouton **Modifier les paramètres de notification**.  
-2. Sur la page **Paramètres de notification**, modifiez vos préférences de notification décrites dans les étapes 3 à 5 ci-dessus.
+2. Sur la page **Paramètres de notification de workflow**, modifiez vos préférences de notification décrites dans les étapes 3 à 5 ci-dessus.
    1. Confirmez que la bonne notification est sélectionnée sous le champ **Type de notification**.
    2. Choisissez si vous souhaitez recevoir un e-mail ou une note de notification sous le champ **Mode de notification**.
    3. Sélectionnez le **Calendrier des notifications** pour modifier la fréquence et la récurrence d’envoi des notifications.

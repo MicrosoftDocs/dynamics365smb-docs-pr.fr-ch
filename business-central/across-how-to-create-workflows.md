@@ -1,24 +1,24 @@
 ---
 title: Créer des flux de travail approbation pour connecter des tâches
-description: Vous pouvez créer des flux de travail qui relient les tâches de processus métier effectuées par différents utilisateurs et inclure des tâches système, telles que la validation automatique, en tant qu’étapes de flux de travail.
-author: SorenGP
+description: Découvrez comment créer des flux de travail qui connectent des tâches exécutées par différentes personnes dans les processus entreprise.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/08/2022
-ms.author: edupont
-ms.openlocfilehash: d2d9f3f91210b2a4d8d67890d01018565d8ef087
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.date: 11/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9586015"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763283"
 ---
-# <a name="create-workflows-to-connect-business-process-tasks"></a>Créer des flux de travail pour connecter des tâches de processus entreprise
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Créer des flux de travail pour connecter des tâches aux processus entreprise
 
-Vous pouvez créer des flux de travail qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du flux de travail, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du flux de travail.  
+Vous pouvez créer des flux de travail qui connectent des tâches aux processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du flux de travail, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du flux de travail.  
 
 Sur la page **Flux de travail**, créez un flux de travail en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de flux de travail modéré par des conditions d’événement, et une réponse de flux de travail avec des options de réponse. Définissez les étapes de flux de travail en renseignez les champs des lignes de flux de travail à partir de listes fixes de valeurs d’événement et de réponse qui sont les scénarios pris en charge par le code d’application.  
 
@@ -73,7 +73,10 @@ Pour les deux types d’événements et de réponses, les options sont définies
 
     1. Pour spécifier des options pour une réponse de flux de travail impliquant l’envoi d’une notification, renseignez les champs comme indiqué dans le tableau suivant.  
 
-       |Champ|Description|
+    > [!NOTE]
+    > Ces champs varient en fonction de la réponse que vous avez choisie.
+
+       |Champ|Désignation|
        |-----|-----------|
        |**Notifier l’expéditeur**|Indiquez si le demandeur de l’approbation est notifié au lieu du destinataire de la demande d’approbation. Si vous activez la case à cocher, le champ **ID utilisateur du destinataire** est désactivé, car le demandeur de l’approbation, c’est-à-dire l’expéditeur, est notifié à la place. Le nom de la réponse du flux de travail est modifié en conséquence, en **Créer une notification pour &lt;Expéditeur&gt;**. Si la case à cocher n’est pas activée, le nom de la réponse du flux de travail est **Créer une notification pour &lt;Utilisateur&gt;**.|
        |**Code utilisateur du destinataire**|Spécifiez l’utilisateur auquel la notification doit être envoyée. **Remarque** : cette option n’est disponible que pour les réponses de flux de travail avec un espace réservé pour un utilisateur spécifique. Pour les réponses de flux de travail sans espaces réservés pour les utilisateurs, le destinataire de la notification est généralement défini par les **Paramètres utilisateur approbation**.|
@@ -83,19 +86,19 @@ Pour les deux types d’événements et de réponses, les options sont définies
 
     2. Pour spécifier des options pour une réponse de flux de travail impliquant la création d’une demande d’approbation, renseignez les champs comme indiqué dans le tableau suivant.  
 
-        |Champ|Désignation|  
-        |-----|-----------|  
-        |**Formule échéance**|Spécifiez le nombre de jours suite auxquels la demande d’approbation doit être résolue, à compter de la date à laquelle elle a été envoyée.|
-        |**Déléguer après**|Spécifiez si et quand une demande d’approbation est automatiquement déléguée au substitut approprié. Vous pouvez choisir de déléguer automatiquement un, deux ou cinq jours après la date de demande d’approbation.|
-        |**Type approbateur**|Spécifiez l’approbateur, en fonction des paramètres des utilisateurs d’approbation et de flux de travail. Lorsque le champ est défini sur **Vendeur/Acheteur**, l’utilisateur défini dans le champ **Code vendeur/acheteur** sur la page **Paramètres utilisateur approbation** détermine l’approbateur. Les écritures de demande d’approbation sont ensuite créées en fonction de la valeur du champ **Type limite approbateur**. En savoir plus sur [Configurer des utilisateurs d’approbation](across-how-to-set-up-workflow-users.md).|
-        |**Afficher le message de confirmation**|Spécifiez si un message de confirmation apparaît aux utilisateurs après leur demande d’approbation.|
-        |**Type limite approbateur**|Spécifiez les effets des limites d’approbation des approbateurs lorsque les écritures demande d’approbation sont créées pour eux. Un approbateur qualifié est un approbateur pour lequel la limite d’approbation est supérieure à la valeur de la demande. Les options possibles sont les suivantes : <ol><li>**Chaîne d’approbateurs** spécifie que les écritures demande d’approbation sont créées pour tous les approbateurs du demandeur jusqu’au et y compris le premier approbateur qualifié.</li><li>**Approbateur direct** spécifie qu’une écriture de demandes d’approbation n’est créée que pour l’approbateur immédiat du demandeur, quelle que soit la limite d’approbation de l’approbateur.</li><li>**Premier approbateur qualifié** spécifie qu’une écriture de demandes d’approbation n’est créée que pour le premier approbateur qualifié du demandeur.</li></ol>|
+       |Champ|Désignation|  
+       |-----|-----------|  
+       |**Formule échéance**|Spécifiez le nombre de jours suite auxquels la demande d’approbation doit être résolue, à compter de la date à laquelle elle a été envoyée.|
+       |**Déléguer après**|Spécifiez si et quand une demande d’approbation est automatiquement déléguée au substitut approprié. Vous pouvez choisir de déléguer automatiquement un, deux ou cinq jours après la date de demande d’approbation.|
+       |**Type approbateur**|Spécifiez l’approbateur, en fonction des paramètres des utilisateurs d’approbation et de flux de travail. Lorsque le champ est défini sur **Vendeur/Acheteur**, l’utilisateur défini dans le champ **Code vendeur/acheteur** sur la page **Paramètres utilisateur approbation** détermine l’approbateur. Les écritures de demande d’approbation sont ensuite créées en fonction de la valeur du champ **Type limite approbateur**. En savoir plus sur [Configurer des utilisateurs d’approbation](across-how-to-set-up-workflow-users.md).|
+       |**Afficher le message de confirmation**|Spécifiez si un message de confirmation apparaît aux utilisateurs après leur demande d’approbation.|
+       |**Type limite approbateur**|Spécifiez les effets des limites d’approbation des approbateurs lorsque les écritures demande d’approbation sont créées pour eux. Un approbateur qualifié est un approbateur pour lequel la limite d’approbation est supérieure à la valeur de la demande. Les options possibles sont les suivantes : <ol><li>**Chaîne d’approbateurs** spécifie que les écritures demande d’approbation sont créées pour tous les approbateurs du demandeur jusqu’au et y compris le premier approbateur qualifié.</li><li>**Approbateur direct** spécifie qu’une écriture de demandes d’approbation n’est créée que pour l’approbateur immédiat du demandeur, quelle que soit la limite d’approbation de l’approbateur.</li><li>**Premier approbateur qualifié** spécifie qu’une écriture de demandes d’approbation n’est créée que pour le premier approbateur qualifié du demandeur.</li><li>**Approbateur spécifique** indique que vous avertissez l’utilisateur choisi dans le champ **ID approbateur**.</li></ol>|
     3. Pour spécifier des options pour une réponse de flux de travail impliquant la création de lignes feuille, renseignez les champs comme indiqué dans le tableau suivant.  
 
-        |Champ|Désignation|  
-        |-----|-----------|  
-        |**Nom du modèle feuille comptabilité**|Spécifiez le nom du modèle feuille comptabilité dans lequel les lignes feuille spécifiées sont créées.|  
-        |**Nom feuille comptabilité**|Spécifiez le nom feuille comptabilité dans lequel les lignes feuille spécifiées sont créées.|  
+       |Champ|Désignation|  
+       |-----|-----------|  
+       |**Nom du modèle feuille comptabilité**|Spécifiez le nom du modèle feuille comptabilité dans lequel les lignes feuille spécifiées sont créées.|  
+       |**Nom feuille comptabilité**|Spécifiez le nom feuille comptabilité dans lequel les lignes feuille spécifiées sont créées.|  
 
 11. Choisissez les boutons **Augmenter le retrait** et **Réduire le retrait** pour mettre en retrait le nom de l’événement dans le champ **Si** pour définir la position de l’étape dans le flux de travail.  
 
