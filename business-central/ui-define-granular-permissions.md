@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
-ms.date: 09/19/2022
+ms.date: 11/29/2022
 ms.author: bholtorf
-ms.openlocfilehash: d265566e21388978f9ee7cba9372d3d337cbf97e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 058019ec9ce336b701c66c0de277ad57e73344da
+ms.sourcegitcommit: bcd3e5dcbb3d839f38f2321b7ef35d4a2ce492c1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604903"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806015"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Attribuer des autorisations aux utilisateurs et aux groupes
 
@@ -140,9 +140,9 @@ Créez un nouvel ensemble d’autorisations en en copiant un autre. Le nouvel en
 2. Sur la page **Ensembles d’autorisations**, cliquez sur l’option **Nouveau**.
 3. Sur une nouvelle ligne, renseignez les champs selon vos besoins.
 4. Sélectionnez l’option **Autorisations**.
-5. Sur la page **Autorisations**, choisissez l’action **Enregistrer autorisations**, puis sélectionnez l’action **Démarrer**.
-
-    Un processus d’enregistrement démarre et capture toutes vos actions dans l’interface utilisateur.
+1. Sur la page **Autorisations**, choisissez l’action **Enregistrer autorisations**, puis sélectionnez l’action **Démarrer**.  
+    L’enregistrement doit être effectué soit en utilisant la fonction **Ouvrir cette page dans une nouvelle fenêtre** (contextuelle) pour avoir la fenêtre d’enregistrement **Autorisations** côte à côte, ou en travaillant dans le même onglet.  
+    Un processus d’enregistrement démarre et capture désormais toutes vos actions dans l’interface utilisateur.
 6. Accédez aux différentes pages et activités dans [!INCLUDE[prod_short](includes/prod_short.md)] auxquelles vous voulez que les utilisateurs avec cet ensemble d’autorisations puissent accéder. Vous devez exécuter les tâches pour lesquelles vous souhaitez enregistrer des autorisations.
 7. Lorsque vous souhaitez terminer l’enregistrement, revenez sur la page **Autorisations** et choisissez l’option **Arrêter**.
 8. Cliquez sur le bouton **Oui** pour ajouter les autorisations enregistrées au nouvel ensemble d’autorisations.
@@ -214,7 +214,7 @@ Pour définir rapidement un nouveau groupe d’utilisateurs, vous pouvez copier 
 Le nouveau groupe d’utilisateurs est ajouté à la page **Groupes d’utilisateurs**. Ajoutez ensuite des utilisateurs. Pour plus d’informations, voir la section [Pour ajouter des utilisateurs à un groupe d’utilisateurs](#to-add-users-to-a-user-group).  
 
 > [!IMPORTANT]
-> Vous obtiendrez une erreur de validation si vous essayez d'attribuer un groupe d'utilisateurs à l'utilisateur qui fait référence à un ensemble d'autorisations défini dans une extension désinstallée. C’est parce que l’ID d’application de l’extension est validé chaque fois qu’il est référencé. Pour affecter ce groupe d'utilisateurs à un utilisateur, vous pouvez soit réinstaller l'extension, soit supprimer la référence de l'extension désinstallée de l'ensemble d'autorisations, soit supprimer cet ensemble d'autorisations du groupe d'utilisateurs.
+> Vous obtiendrez une erreur de validation si vous essayez d’attribuer un groupe d’utilisateurs à l’utilisateur qui fait référence à un ensemble d’autorisations défini dans une extension désinstallée. C’est parce que l’ID d’application de l’extension est validé chaque fois qu’il est référencé. Pour affecter ce groupe d’utilisateurs à un utilisateur, vous pouvez soit réinstaller l’extension, soit supprimer la référence de l’extension désinstallée de l’ensemble d’autorisations, soit supprimer cet ensemble d’autorisations du groupe d’utilisateurs.
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Pour affecter des ensembles d’autorisations à des groupes d’utilisateurs
 

@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 23ae8513cf14aa99f8ae1a437b0544c66bf5360e
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362122"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788257"
 ---
 # <a name="introduction-to-contoso-coffee-demo-data"></a>Introduction aux données de démonstration Contoso Coffee
 
@@ -26,13 +26,13 @@ L’application propose quatre produits optimisés pour différents scénarios 
 
 - **SP-SCM1011 Airpot Duo**  
 
-  Ce produit requiert une traçabilité et possède un composant qui requiert également une traçabilité. Le mode d’évaluation stock est *Spécial*.  
+  Ce produit requiert une traçabilité et possède un composant qui requiert également une traçabilité. Le mode d’évaluation stock est *Spécifique*.  
 
 - **SP-SCM1004 Autodrip**  
 
   Ce produit est une nomenclature avec un sous-ensemble, **Gamme**. Nous le recommandons pour faire la démonstration des différentes méthodes de consommation à la fois pour les composants et les opérations. Le mode d’évaluation stock est *Standard*.
 
-- **SP-SCM1008 AutoDripLite**
+- **SP-SCM1006 AutoDripLite**
 
   Ce produit comporte trois variantes et trois nomenclatures pouvant être affectées à des points de stock. Le produit utilise le concept de nomenclature fantôme. Le mode d’évaluation stock est *Standard*.
 

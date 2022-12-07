@@ -6,12 +6,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 93c30d401cd5b9f689f757621b12a09dfd73b4b4
-ms.sourcegitcommit: 902da19b0ab7a3fbc051cd69ab2802f30d0f378f
+ms.openlocfilehash: 534b4aa47820bc3738a8ffc22a02151efef64863
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 08/01/2022
-ms.locfileid: "9213678"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802918"
 ---
 # <a name="faq-for-technical-details"></a>FAQ pour les détails techniques
 
@@ -25,6 +25,29 @@ Shopify est un logiciel basé sur un abonnement qui permet à quiconque de crée
 
 Grâce au connecteur Shopify, les entreprises ont la possibilité de connecter leur magasin (ou leurs magasins) Shopify avec [!INCLUDE[prod_short](../includes/prod_short.md)] pour accroître leur productivité. Le connecteur Shopify leur permet de gérer et d’afficher les informations de leur entreprise et de leur boutique en ligne Shopify comme une seule unité. 
 
+### <a name="capabilities"></a>Fonctionnalités
+
+- Prise en charge de plusieurs magasins Shopify
+  - Chaque magasin a sa propre configuration, y compris un ensemble de produits, d’emplacements utilisés pour calculer le stock et des listes de prix.  
+- Synchronisation bidirectionnelle d’articles ou de produits
+  - Le connecteur synchronisera les images, les variantes article, les codes-barres, les références fournisseur, les textes étendus et les balises.  
+  - Exportez les attribut article dans Shopify.  
+  - Utilisez les groupes prix client et les remises sélectionnés pour définir les prix exportés vers Shopify.  
+  - Décidez si les articles peuvent être créés automatiquement ou n’autorisez que les mises à jour des produits existants.  
+- Synchronisation des niveaux de stock
+  - Choisissez certains ou tous les emplacements disponibles dans [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  - Mettez à jour les niveaux de stock sur plusieurs emplacements dans Shopify.  
+- Synchronisation bidirectionnelle des clients
+  - Mappez intelligemment les clients par téléphone et e-mail.  
+  - Utilisez des modèles spécifiques au pays lors de la création de clients, ce qui permet de garantir que les paramètres fiscaux sont corrects.  
+- Importer des commandes depuis Shopify
+  - Incluez les commandes créées dans différents canaux de vente, tels qu’une boutique en ligne ou d’un **PDV Shopify**. 
+  - Frais d’expédition, cartes-cadeaux, pourboires, modes d’expédition et de paiement, transactions et risque de fraude.  
+  - Lors de l’importation, vous pouvez créer automatiquement des clients dans [!INCLUDE [prod_short](../includes/prod_short.md)] ou décider de gérer les clients dans Shopify.  
+  - Recevez des informations de paiement de Shopify Payments. 
+- Suivez les informations d’exécution
+  - Choisissez éventuellement de transférer des informations de suivi des articles à partir de [!INCLUDE [prod_short](../includes/prod_short.md)] dans Shopify.  
+
 ## <a name="why-did-microsoft-and-shopify-form-this-partnership"></a>Pourquoi Microsoft et Shopify ont-ils formé ce partenariat ? 
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] fait équipe avec Shopify pour aider nos clients à créer une meilleure expérience d’achat. Shopify offre aux commerçants une solution e-commerce conviviale et [!INCLUDE[prod_short](../includes/prod_short.md)] offre une solution complète de gestion d’entreprise qui connecte les équipes de finances, de ventes, de services et d’opérations dans une même application. Une connexion transparente entre les deux systèmes synchronise les infos sur les commandes, le stock et les clients, afin que les commerçants puissent exécuter les commandes plus vite et fournissent un meilleur service à leurs clients.
@@ -37,19 +60,34 @@ Le connecteur Shopify ne fonctionne pas pour [Intégrer les applications](/dynam
 
 ## <a name="what-support-is-offered-for-the-shopify-connector"></a>Quel support est proposé pour le connecteur Shopify ?
 
+### [!INCLUDE[prod_short](../includes/prod_short.md)]
+
 Le connecteur Shopify est couvert par le modèle de support actuel. En savoir plus dans la rubrique [Support technique](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (en anglais uniquement). 
 
-Obtenez de l’aide concernant Shopify en commençant par accéder au [Centre d’aide Shopify général](https://help.shopify.com/) ou contactez l’[assistance 24h/24 et 7j/7 pour votre magasin en tant que commerçant Shopify](https://help.shopify.com/questions#/).
+Obtenez l’aide d’un consultant qui connaît le connecteur Shopify pour [!INCLUDE[prod_short](../includes/prod_short.md)], afin de répondre aux exigences spécifiques de votre entreprise.
+ 
+Rechercher dans [Services de conseil](https://aka.ms/BCShopifyConsultant).
+
+### <a name="shopify"></a>Shopify
+
+Obtenez de l’aide concernant Shopify en commençant par accéder au [Centre d’aide Shopify général](https://help.shopify.com/) ou contactez l’[assistance 24h/24 et 7j/7 pour votre magasin en tant que commerçant Shopify](https://help.shopify.com/questions#/). 
+
+Vous pouvez également explorer la [place de marché Experts](https://experts.shopify.com/) pour trouver les bons experts qui proposent des services aux marchands Shopify.
+
+## <a name="currently-not-supported-features-however-were-tracking-them-and-may-consider-adding-them-in-the-future"></a>Fonctionnalités actuellement non prises en charge, cependant, nous les suivons et pourrions envisager de les ajouter à l’avenir :
+
+- Fonctionnalités B2B, y compris les entreprises, les listes de prix des entreprises, les conditions de paiement
+- Marchés
+  - Traductions multiples des données de base. Vous pouvez choisir une langue qui sera utilisée pour l’exportation des informations sur les produits.
+  - Prix par pays/région. Une liste de prix est disponible pour la devise sélectionnée. La conversion dans d’autres devises sera gérée par Shopify.
 
 ## <a name="is-the-shopify-connector-extensible"></a>Le connecteur Shopify est-il extensible ?
 
-Actuellement, cette application n'est pas extensible, mais il est prévu de la rendre extensible à un moment (encore indéterminé) dans le futur.
+Actuellement, cette application n’est pas extensible avec des plans pour la rendre extensible en 2023. 
 
 ## <a name="is-the-shopify-connector-open-for-contribution"></a>Le connecteur Shopify est-il ouvert à la participation ?
 
 Oui, cette extension est ouverte à la participation de la communauté. Vous pouvez trouver le [code source](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) dans le référentiel des modules complémentaires de l’application Microsoft AL.
-
-
 
 
 ## <a name="see-also"></a>Voir aussi

@@ -8,18 +8,22 @@ ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 3
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 2e79d19fd2fd03ec245c020cb9004809bccb5ec4
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: 70c401e072e742e508b8f623ae3242d8e647ccb6
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728345"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802946"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Synchroniser et exécuter les commandes vente
 
 Cet article décrit les paramètres et les étapes à effectuer pour synchroniser et exécuter les commandes vente avec Shopify dans [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Définir l’importation des commandes sur la Fiche magasin Shopify
+
+Saisissez un **Code monnaie** si la boutique en ligne utilise une monnaie différente de DS. La devise spécifiée doit avoir des taux de change configurés. Si votre boutique en ligne utilise la même devise que [!INCLUDE[prod_short](../includes/prod_short.md)], laissez le champ vide. 
+
+Vous pouvez voir la devise du magasin dans les paramètres [Détails du magasin](https://www.shopify.com/admin/settings/general) dans votre Admin Shopify. Shopify peut être configuré pour accepter différentes devises, cependant, les commandes importées dans [!INCLUDE[prod_short](../includes/prod_short.md)] utilisent la devise du magasin.
 
 Une commande Shopify classique peut inclure des coûts en plus du sous-total, comme les frais d’expédition ou, s’ils sont activés, les pourboires. Ces montants sont validés directement dans le compte général que vous souhaitez utiliser pour des types de transactions spécifiques :
 
@@ -80,7 +84,7 @@ Vous pouvez programmer la tâche pour qu’elle soit exécutée de manière auto
 
 ## <a name="review-imported-orders"></a>Passer en revue les commandes importées
 
-Une fois l’importation terminée, vous pouvez explorer la commande Shopify et trouver toutes les informations associées comme les transactions de paiement, les frais d’expédition, le niveau de risque ou les exécutions, si la commande a déjà été exécutée dans Shopify. Vous pouvez également voir les confirmations de commande envoyées au client en sélectionnant l’action **Page de statut Shopify**.
+Une fois l’importation terminée, vous pouvez explorer la commande Shopify et trouver toutes les informations associées comme les transactions de paiement, les frais d’expédition, le niveau de risque, les attributs et balises de commande ou les exécutions, si la commande a déjà été exécutée dans Shopify. Vous pouvez également voir les confirmations de commande envoyées au client en sélectionnant l’action **Page de statut Shopify**.
 
 > [!NOTE]  
 > Vous pouvez accéder directement à la fenêtre **Commandes Shopify** pour afficher les commandes dont le statut est défini sur *Ouvert* dans tous les magasins. Pour consulter les commandes terminées, vous devez ouvrir la page **Commandes Shopify** à partir de la fenêtre **Fiche magasin Shopify** spécifique.
@@ -132,6 +136,7 @@ Dans Shopify :
 |Modifier|Impact|
 |------|-----------|
 |Modifier l’emplacement d’exécution | L’emplacement d’origine sera synchronisé avec [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Modifier le lieu d’exécution et enregistrer l’exécution dans Shopify| Si la commande a déjà été importée, les lignes ne seront pas mises à jour. Sinon, la commande importée utilisera l’emplacement d’exécution. |
 |Modifier une commande et modifier la quantité| L’en-tête de la commande et les tableaux supplémentaires seront mis à jour dans [!INCLUDE[prod_short](../includes/prod_short.md)], les lignes ne le seront pas. |
 |Modifier une commande et ajouter un nouvel article | L’en-tête de la commande sera mis à jour, pas les lignes. |
 

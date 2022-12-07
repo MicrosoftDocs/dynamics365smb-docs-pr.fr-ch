@@ -21,6 +21,7 @@
 #### [Procédure pas à pas : Prélèvement et expédition dans les configurations de stockage de base](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Procédure pas-à-pas : créer des prévisions de trésorerie à l’aide d’états financiers](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Procédure pas à pas : configurer et utiliser le connecteur Shopify](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
 ### Données de démonstration Contoso Coffee concernant la fabrication
 #### [Introduction aux données de démonstration Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
@@ -671,6 +672,7 @@
 <!--Shopify-->
 ## Boutique en ligne avec Shopify
 ### [Mise en route avec le connecteur Shopify](shopify/get-started.md)
+#### [Création et configuration d’un compte Shopify](shopify/shopify-account.md)
 ### [Synchroniser les articles avec Shopify](shopify/synchronize-items.md)
 ### [Synchroniser les clients avec Shopify](shopify/synchronize-customers.md)
 ### [Synchroniser et remplir les commandes vente avec Shopify](shopify/synchronize-orders.md)
@@ -679,6 +681,7 @@
 ### [Exécuter des tâches en arrière-plan](shopify/background.md)
 ### [Dépanner le connecteur Shopify](shopify/troubleshoot.md)
 ### [FAQ pour le connecteur Shopify](shopify/shopify-faq.md)
+### [Procédure pas à pas : configurer et utiliser le connecteur Shopify](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
 ## Hub Entreprise
@@ -1789,7 +1792,7 @@
 #### [Vue d’ensemble](admin-access-with-m365-license.md)
 #### [Configuration de l’accès avec les licences Microsoft 365](admin-access-with-m365-license-setup.md)
 #### [Flux d’accès utilisateur](admin-access-with-m365-license-flow.md)
-<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [FAQ](admin-access-with-m365-license-faq.md)
 #### [Résolution de problèmes](admin-access-with-m365-license-troubleshooting.md) 
 ### [Gérer les profils](admin-users-profiles-roles.md)
 ### [Gérer les paramètres et les préférences de l’utilisateur](admin-manage-user-settings-preferences.md)
