@@ -8,32 +8,38 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 08/16/2022
+ms.date: 11/22/2022
 ms.author: bholtorf
-ms.openlocfilehash: 44a590997d7c0ddaa342861068b818bf905f9c5b
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 20246e01fab861a3d4af7d6a1778531f17e97987
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606402"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822492"
 ---
 # <a name="set-up-email"></a>Configurer la messagerie
-Les utilisateurs au sein des entreprises envoient des informations et des documents, tels que des commandes vente et achat et des factures, par e-mail, au quotidien. Les administrateurs peuvent se connecter à un ou plusieurs comptes de messagerie à [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez donc envoyer des documents sans avoir à ouvrir une application de messagerie. Vous pouvez composer chaque message individuellement avec des outils de mise en forme de base, tels que des polices, des styles, des couleurs, etc., et ajouter des pièces jointes pouvant atteindre 100 Mo. De plus, les présentations d’états permettent aux administrateurs d’inclure uniquement les informations clés des documents. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
 
-Les capacités de messagerie dans [!INCLUDE[prod_short](includes/prod_short.md)] s’appliquent aux messages sortants uniquement. Vous ne pouvez pas recevoir de réponses. Cela signifie qu’il n’y a pas de page « Boîte de réception » dans [!INCLUDE[prod_short](includes/prod_short.md)].
+Les utilisateurs au sein des entreprises envoient des informations et des documents, tels que des commandes vente et achat et des factures, par e-mail, au quotidien. Les administrateurs peuvent se connecter à un ou plusieurs comptes de messagerie à [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez donc envoyer des documents sans avoir à ouvrir une application de messagerie. Vous pouvez composer chaque message individuellement avec des outils de mise en forme de base, tels que des polices, des styles, des couleurs, etc., et ajouter des pièces jointes pouvant atteindre 100 Mo. De plus, les présentations d’états permettent aux administrateurs d’inclure uniquement les informations clés des documents. En savoir plus sur [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
+
+Les capacités de messagerie dans [!INCLUDE[prod_short](includes/prod_short.md)] s’appliquent aux messages sortants uniquement. Vous ne pouvez pas recevoir de réponses, c’est-à-dire qu’il n’existe pas de page « Boîte de réception ».
 
 > [!NOTE]
 > Vous pouvez utiliser les capacités de messagerie de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne uniquement avec Exchange Online. Nous ne prenons pas en charge les scénarios hybrides, tels que la connexion de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne vers une version locale d’Exchange.
-> 
+>
 > Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] en local, avant de pouvoir configurer la messagerie électronique, vous devez créer une inscription d’application pour [!INCLUDE[prod_short](includes/prod_short.md)] dans le portail Azure. L’enregistrement de l’application activera [!INCLUDE[prod_short](includes/prod_short.md)] pour autoriser et s’authentifier auprès de votre fournisseur de messagerie. Pour plus d’informations, voir [Configuration des e-mails pour Business Central en local](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). Dans [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, nous nous en chargeons pour vous.
 
-## <a name="required-permissions"></a>Autorisations requises
-Pour configurer la messagerie électronique, vous devez disposer de l’ensemble d’autorisations **PARAMÉTRAGE COURRIER**. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md). 
+## <a name="requirements"></a>Conditions requises
+
+Il y a des conditions requises pour la configuration et l’utilisation des fonctionnalités de messagerie.
+
+* Pour configurer la messagerie électronique, vous devez disposer de l’ensemble d’autorisations **PARAMÉTRAGE COURRIER**. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
+* Chaque utilisateur qui utilisera les fonctionnalités de messagerie doit disposer d’une licence [!INCLUDE [prod_short](includes/prod_short.md)]. Par exemple, les administrateurs délégués et les utilisateurs invités ne peuvent pas utiliser le compte de messagerie du client.
 
 ## <a name="adding-email-accounts"></a>Ajouter des comptes de messagerie
+
 Vous ajoutez des comptes de messagerie via des extensions qui permettent aux comptes de différents fournisseurs de se connecter à [!INCLUDE[prod_short](includes/prod_short.md)]. Les extensions standard vous permettent d’utiliser les comptes de Microsoft Exchange Online. Cependant, d’autres extensions vous permettant de connecter des comptes d’autres fournisseurs, tels que Gmail, peuvent être disponibles.
 
-Vous pouvez spécifier des scénarios professionnels prédéfinis dans lesquels utiliser un compte de messagerie pour envoyer des e-mails. Par exemple, vous pouvez spécifier que tous les utilisateurs envoient des documents de vente à partir d’un compte et achètent des documents à partir d’un autre. Pour plus d’informations, consultez [Attribuer des scénarios de messagerie aux comptes de messagerie](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
+Vous pouvez spécifier des scénarios professionnels prédéfinis dans lesquels utiliser un compte de messagerie pour envoyer des e-mails. Par exemple, vous pouvez spécifier que tous les utilisateurs envoient des documents de vente à partir d’un compte et achètent des documents à partir d’un autre. En savoir plus sur [Affecter des scénarios de messagerie aux comptes de messagerie](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
 Le tableau suivant décrit les extensions de messagerie disponibles par défaut.
 
@@ -51,18 +57,22 @@ Le tableau suivant décrit les extensions de messagerie disponibles par défaut.
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## <a name="using-smtp"></a>Utilisation de SMTP
-Si vous souhaitez utiliser le protocole SMTP pour envoyer des e-mails à partir de [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez utiliser l’extension Connecteur SMTP. Lorsque vous configurez un compte qui utilise SMTP, le champ Type d’expéditeur est important. Si vous choisissez Utilisateur spécifique, les e-mails seront envoyés en utilisant le nom et d’autres informations du compte que vous configurez. En revanche, si vous choisissez Utilisateur actuel, les e-mails seront envoyés à partir du compte de messagerie spécifié pour le compte de chaque utilisateur. La fonction Utilisateur actuel est similaire à la fonction Envoyer en tant que. Pour plus d’informations, voir [Utiliser une adresse d’expéditeur de remplacement pour les e-mails sortants](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
+
+Si vous souhaitez utiliser le protocole SMTP pour envoyer des e-mails à partir de [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez utiliser l’extension Connecteur SMTP. Lorsque vous configurez un compte qui utilise SMTP, le champ **Type d’expéditeur** est important. Si vous sélectionnez **Utilisateur spécifique**, les e-mails seront envoyés en utilisant le nom et d’autres informations du compte configuré. Cependant, si vous sélectionnez **Utilisateur actuel**, les e-mails seront envoyés à partir du compte de messagerie spécifié pour le compte de chaque utilisateur. La fonction Utilisateur actuel est similaire à la fonction Envoyer en tant que. Pour plus d’informations, voir [Utiliser une adresse d’expéditeur de remplacement pour les e-mails sortants](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous pouvez utiliser la méthode OAuth 2.0 pour l’authentification. Vous devez créer un enregistrement d’application dans le portail Azure, puis exécuter le guide d’installation assisté **Configurer Azure Active Directory** dans [!INCLUDE[prod_short](includes/prod_short.md)] pour se connecter à Azure AD. Pour plus d’informations, consultez [Créer une inscription d’application pour Business Central dans le portail Azure](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] local, vous pouvez utiliser le protocole OAuth 2.0 pour l’authentification. Vous devez créer un enregistrement d’application dans le portail Azure, puis exécuter le guide d’installation assisté **Configurer Azure Active Directory** dans [!INCLUDE[prod_short](includes/prod_short.md)] pour se connecter à Azure AD. Pour plus d’informations, consultez [Créer une inscription d’application pour Business Central dans le portail Azure](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+>
+> Exchange Online ne prend pas en charge l’authentification de base pour SMTP. Les clients qui utilisent actuellement l’authentification SMTP ne seront pas affectés par ce changement. Cependant, nous vous recommandons fortement d’utiliser la version la plus récente de [!INCLUDE [prod_short](includes/prod_short.md)] et de configurer l’authentification OAuth 2.0 pour SMTP. Nous n’ajouterons pas l’authentification basée sur les certificats pour les versions antérieures de [!INCLUDE [prod_short](includes/prod_short.md)], par exemple, version 14. Si vous ne pouvez pas configurer l’authentification OAuth 2.0, nous vous encourageons à explorer d’autres moyens si vous souhaitez utiliser la messagerie SMTP dans des versions antérieures.
 
 ## <a name="add-email-accounts"></a>Ajouter des comptes de messagerie
+
 Le guide de configuration assistée **Configurer la messagerie** peut vous aider à démarrer rapidement avec les e-mails.
 
 > [!NOTE]
-> Vous devez disposer d’un compte de messagerie par défaut, même si vous n’ajoutez qu’un seul compte. Le compte par défaut sera utilisé pour tous les scénarios de messagerie qui ne sont pas attribués à un compte. Pour plus d’informations, consultez [Attribuer des scénarios de messagerie aux comptes de messagerie](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
+> Vous devez disposer d’un compte de messagerie par défaut, même si vous n’ajoutez qu’un seul compte. Le compte par défaut sera utilisé pour tous les scénarios de messagerie qui ne sont pas attribués à un compte. En savoir plus sur [Affecter des scénarios de messagerie aux comptes de messagerie](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configurer les comptes de messagerie**, puis sélectionnez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Configurer les comptes de messagerie**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
@@ -72,9 +82,10 @@ Le guide de configuration assistée **Configurer la messagerie** peut vous aider
 
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Affecter des scénarios de messagerie aux comptes de messagerie
+
 Les scénarios de messagerie sont des processus qui impliquent l’envoi d’un document. Par exemple, une commande vente ou achat ou une notification, telle qu’une invitation à un comptable externe. Des comptes de messagerie spécifiques peuvent être utilisés pour des scénarios spécifiques. Par exemple, vous pouvez spécifier que tous les utilisateurs envoient toujours les documents de vente à partir d’un compte, les documents d’achat d’un autre et les documents d’entrepôt ou de production à partir d’un troisième compte. Vous pouvez attribuer, réattribuer et supprimer des scénarios quand vous le souhaitez. Un scénario ne peut être attribué qu’à un seul compte de messagerie à la fois. Le compte de messagerie par défaut sera utilisé pour tous les scénarios qui ne sont pas attribués à un compte.
 
-Sur la page **Affectation des scénarios par e-mail**, vous pouvez choisir l’action **Définir les pièces jointes par défaut** pour ajouter des pièces jointes aux scénarios d’e-mail. Les pièces jointes seront toujours disponibles lorsque vous composerez un e-mail pour un document lié au scénario. Chaque scénario d’e-mail peut avoir une ou plusieurs pièces jointes par défaut. Les pièces jointes par défaut sont automatiquement ajoutées aux e-mails pour le scénario d’e-mail. Par exemple, lorsque vous envoyez une commande client par e-mail, la pièce jointe par défaut spécifiée pour le scénario Commande vente sera ajoutée. Les pièces jointes par défaut s’affichent dans la section **Pièces jointes** au bas de la page **Composer un e-mail**. Vous pouvez ajouter manuellement des pièces jointes autres que par défaut à l’e-mail.
+Sur la page **Affectation des scénarios par e-mail**, vous pouvez sélectionner l’action **Définir les pièces jointes par défaut** pour ajouter des pièces jointes aux scénarios de messagerie. Les pièces jointes seront toujours disponibles lorsque vous composerez un e-mail pour un document lié au scénario. Chaque scénario d’e-mail peut avoir une ou plusieurs pièces jointes par défaut. Les pièces jointes par défaut sont automatiquement ajoutées aux e-mails pour le scénario d’e-mail. Par exemple, lorsque vous envoyez une commande client par e-mail, la pièce jointe par défaut spécifiée pour le scénario Commande vente sera ajoutée. Les pièces jointes par défaut s’affichent dans la section **Pièces jointes** au bas de la page **Composer un e-mail**. Vous pouvez ajouter manuellement des pièces jointes autres que par défaut à l’e-mail.
 
 <!--
 ## To set up email
@@ -89,8 +100,9 @@ Sur la page **Affectation des scénarios par e-mail**, vous pouvez choisir l’a
 
 -->
 
-## <a name="set-up-view-policies"></a>Configurer les stratégies d’affichage
-Vous pouvez contrôler les e-mails qu’un utilisateur peut voir dans les pages Boîte d’envoi d’e-mails et E-mails envoyés.
+## <a name="set-up-view-policies"></a>Configurer des politiques d’affichage
+
+Vous pouvez contrôler les messages électroniques auxquels un utilisateur peut accéder sur les pages Boîte d’envoi d’e-mails et E-mails envoyés.
 
 Dans **Stratégies affichage e-mail utilisateur**, choisissez un utilisateur, puis choisissez l’une des options suivantes dans le champ **Stratégie d’affichage des e-mails** :
 
@@ -100,9 +112,23 @@ Dans **Stratégies affichage e-mail utilisateur**, choisissez un utilisateur, pu
 * **Afficher si accès à tous les enregistrements associés** – L’utilisateur peut afficher les e-mails envoyés par d’autres personnes s’il a accès à au moins un enregistrement lié à l’enregistrement envoyé. Par exemple, l’utilisateur A a envoyé une facture vente validée à un client. L’utilisateur B peut voir l’e-mail s’il a accès à la facture ou au client.
 
 > [!NOTE]
->  Si vous laissez le champ **ID utilisateur** vide, puis choisissez l’action Stratégie d’affichage des e-mails, la stratégie que vous définissez s’applique à tous les utilisateurs.
+> Si vous laissez le champ **Identifiant utilisateur** vide, puis sélectionnez l’action **Politique d’affichage des e-mails**, la politique d’affichage s’applique à tous les utilisateurs.
 
-## <a name="set-up-reusable-email-texts-and-layouts"></a>Configurer des textes et des mises en page d’e-mail réutilisables
+## <a name="specify-how-many-messages-an-account-can-send-per-minute"></a>Indiquer combien de messages peuvent être envoyés par un compte par minute
+
+Certains fournisseurs de messagerie (FAI) limitent le nombre de messages électroniques pouvant être envoyés par un compte de messagerie en une seule fois, ou dans un certain laps de temps, ou les deux. Connue sous le nom de *limitation d’e-mails*, cette pratique permet aux FAI de contrôler le trafic sur leurs serveurs et d’empêcher le courrier indésirable. Si un compte de messagerie dépasse la limite, le FAI est susceptible de bloquer les messages. Pour être sûr que le nombre de messages envoyés depuis [!INCLUDE [prod_short](includes/prod_short.md)] respecte la limite de votre FAI, indiquez la limite pour chacun de vos comptes de messagerie.
+
+La limite par défaut pour les types de comptes Microsoft 365 et Utilisateur actuel est 30, ce qui correspond à la limite définie par Exchange Online.
+
+Il existe deux manières de définir la limite :
+
+* Lorsque vous utilisez le guide de configuration assistée Configurer la messagerie électronique pour créer un nouveau compte, indiquez la limite dans le champ **Limite de taux par minute**.
+* Pour les comptes de messagerie existants, indiquez la limite dans le champ **Limite de taux d’e-mail** du compte.
+
+
+
+## <a name="set-up-reusable-email-texts-and-layouts"></a>Configurer des textes et dispositions d’e-mails réutilisables
+
 Vous pouvez utiliser des états pour inclure des informations clés provenant de documents de vente, d’achat et de service dans des textes pour e-mails. Cette procédure décrit comment configurer l’état **Vente - Facture** pour les factures vente enregistrées, mais le processus est similaire pour les autres états.
 
 > [!NOTE]
@@ -121,7 +147,8 @@ Vous pouvez utiliser des états pour inclure des informations clés provenant de
 
 Désormais, lorsque vous sélectionnez, par exemple, l’action **Envoyer** sur la page **Facture vente enregistrée**, le corps du message comporte les informations de document de l’état 1306 précédé d’un texte standard auquel sont appliqués des attributs de style en fonction de la présentation d’état que vous avez sélectionnée à l’étape 5.
 
-## <a name="use-a-substitute-sender-address-on-outbound-email-messages"></a>Utiliser une adresse d’expéditeur de remplacement pour les e-mails sortants
+## <a name="use-a-substitute-sender-address-on-outbound-email-messages"></a>Utiliser une adresse d’expéditeur de substitution dans les messages électroniques sortants
+
 Si vous utilisez l’extension Connecteur SMTP, vous pouvez utiliser les fonctionnalités **Envoyer en tant que** ou **Envoyer de la part de** sur Microsoft Exchange pour modifier l’adresse de l’expéditeur dans les messages sortants. [!INCLUDE[prod_short](includes/prod_short.md)] utilisera le compte SMTP pour s’authentifier auprès d’Exchange, mais remplacera l’adresse de l’expéditeur par celle que vous spécifiez ou la modifiera avec « pour le compte de ».
 
 Lorsque vous configurez un compte et que vous souhaitez utiliser les fonctionnalités Exchange Envoyer en tant que ou Envoyer de la part de, dans le champ **Type d’expéditeur**, choisissez **Utilisateur spécifique**.
@@ -130,8 +157,8 @@ Vous pouvez également choisir **Utilisateur actuel** pour permettre aux utilisa
 
 Voici des exemples d’utilisation des fonctionnalités Envoyer en tant que et Envoyer de la part de dans [!INCLUDE[prod_short](includes/prod_short.md)] :
 
- * Vous pouvez souhaiter que les commandes achat ou les commandes vente que vous envoyez à des fournisseurs et à des clients apparaissent comme provenant d’une adresse _noreply@yourcompanyname.com_.
- * Lorsque votre flux de travail envoie une demande d’approbation par courrier électronique à l’aide de l’adresse électronique du demandeur.
+* Vous pouvez souhaiter que les commandes achat ou les commandes vente que vous envoyez à des fournisseurs et à des clients apparaissent comme provenant d’une adresse _noreply@yourcompanyname.com_.
+* Lorsque votre flux de travail envoie une demande d’approbation par courrier électronique à l’aide de l’adresse électronique du demandeur.
 
 > [!Note]
 > Vous ne pouvez utiliser qu’un seul compte pour remplacer les adresses d’expéditeur. En d’autres termes, vous ne pouvez pas avoir une adresse de remplacement pour les processus d’achat et une autre pour les processus de vente.
@@ -156,19 +183,23 @@ Voici des exemples d’utilisation des fonctionnalités Envoyer en tant que et E
 > [!INCLUDE[prod_short](includes/prod_short.md)] will determine which address to display in the following order: <br><br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page. -->
 
 ## <a name="set-up-document-sending-profiles"></a>Configurer des profils d’envoi de documents
+
 Vous pouvez gagner du temps en configurant une méthode préférée d’envoi des documents de vente pour chacun de vos clients. Vous n’aurez pas à sélectionner une option d’envoi, par exemple si vous souhaitez envoyer le document par e-mail ou sous forme de document électronique, chaque fois que vous envoyez un document. Pour plus d’informations, reportez vous à [Configurer des profils d’envoi de documents](sales-how-setup-document-send-profiles.md).
 
-## <a name="optional-set-up-email-logging-in-exchange-online"></a>Facultatif : Configurer la connexion à la messagerie dans Exchange Online
-Tirez le meilleur parti des communications entre les vendeurs et vos clients existants ou potentiels. Vous pouvez suivre les échanges d’e-mails, puis les transformer en opportunités exploitables. Pour plus d’informations, voir [Suivre les échanges de messages électroniques entre les vendeurs et les contacts](marketing-set-up-email-logging.md).  
+## <a name="optional-set-up-email-logging-in-exchange-online"></a>Facultatif : Configurer la journalisation des e-mails dans Exchange Online
+
+Tirez le meilleur parti des communications entre les vendeurs et vos clients existants ou potentiels. Vous pouvez suivre les échanges d’e-mails, puis les transformer en opportunités exploitables. En savoir plus sur [Suivre les échanges de messages électroniques entre les commerciaux et les contacts](marketing-set-up-email-logging.md).  
 <!--
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
 Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  -->
 
-## <a name="setting-up-email-for-business-central-on-premises"></a>Configuration de la messagerie sur site pour Business Central 
+## <a name="setting-up-email-for-business-central-on-premises"></a>Configurer la messagerie pour Business Central on-premises
+
 [!INCLUDE[prod_short](includes/prod_short.md)] sur site peut s’intégrer à des services basés sur Microsoft Azure. Par exemple, vous pouvez utiliser Cortana Intelligence pour des prévisions de trésorerie plus intelligentes, Power BI pour visualiser votre entreprise, et Exchange Online pour envoyer un e-mail. L’intégration avec ces services est basée sur l’enregistrement d’une application dans Azure Active Directory. L’enregistrement de l’application fournit des services d’authentification et d’autorisation pour les communications. Pour utiliser les fonctionnalités de messagerie dans [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous devez vous inscrire [!INCLUDE[prod_short](includes/prod_short.md)] en tant qu’application dans le portail Azure, puis connectez [!INCLUDE[prod_short](includes/prod_short.md)] à l’enregistrement de l’application. Les sections suivantes décrivent comment.
 
-### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Créer une inscription d’application pour Business Central dans le portail Azure
+### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Créer une inscription d’application pour Business Central dans le portail Azure
+
 Les étapes pour inscrire [!INCLUDE[prod_short](includes/prod_short.md)] dans le portail Azure sont décrits dans [Enregistrer une application dans Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). Les paramètres spécifiques aux fonctionnalités de messagerie sont les autorisations déléguées que vous accordez à l’inscription de votre application. Le tableau suivant répertorie les autorisations minimales.
 
 |API / Nom d’autorisation  |Type  |Description  |
@@ -190,16 +221,17 @@ Si vous utilisez le connecteur SMTP et que vous souhaitez utiliser OAuth 2.0 po
 
 Lorsque vous créez l’inscription de votre application, vous devez spécifier les informations suivantes. Vous en aurez besoin pour connecter [!INCLUDE[prod_short](includes/prod_short.md)] à l’enregistrement de votre application.
  
-* ID de l’application (client) 
+* ID de l’application (client)
 * Rediriger l’URI (facultatif)
 * Le secret du client
 
-Pour les instructions générales pour enregistrer une application, voir [Démarrage rapide : enregistrer une application avec la plateforme d’identité Microsoft](/azure/active-directory/develop/quickstart-register-app). 
+En savoir plus sur les directives générales pour l’inscription d’une application sur [Démarrage rapide : enregistrer une application avec la plateforme d’identités Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
 > [!NOTE]
 Si vous ne parvenez pas à utiliser le protocole SMTP pour envoyer un e-mail après avoir connecté [!INCLUDE[prod_short](includes/prod_short.md)] à l’inscription de votre application, cela peut être dû au fait que SMTP AUTH n’est pas activé pour votre locataire. Nous vous recommandons d’utiliser à la place les connecteurs de messagerie Microsoft 365 et Utilisateur actuel, car ils utilisent les API Microsoft Graph Mail. Cependant, si vous devez utiliser le protocole SMTP, vous pouvez activer SMTP AUTH. Pour plus d’informations, consultez [Activer ou désactiver la soumission SMTP du client authentifié (SMTP AUTH) dans Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-prod_short-to-your-app-registration"></a>Connecter l’application [!INCLUDE[prod_short](includes/prod_short.md)] à l’enregistrement de votre application
+### <a name="connect-prod_short-to-your-app-registration"></a>Connecter [!INCLUDE[prod_short](includes/prod_short.md)] à votre inscription d’application
+
 Après avoir enregistré votre application dans le portail Azure, dans [!INCLUDE[prod_short](includes/prod_short.md)], utilisez le guide de configuration assistée **Enregistrement AAD de l’application de messagerie** pour y connecter [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Dans [!INCLUDE[prod_short](includes/prod_short.md)], choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Enregistrement AAD de l’application de messagerie**, puis sélectionnez le lien associé.

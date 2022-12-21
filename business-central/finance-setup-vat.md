@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
-ms.date: 07/08/2022
+ms.date: 12/01/2022
 ms.author: bholtorf
-ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
+ms.openlocfilehash: d401e6d9a0b8fb4f05bcc379322b2f81bfc03c57
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617927"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822444"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurer des méthodes de calcul et de validation de la taxe sur la valeur ajoutée
 
@@ -233,7 +233,12 @@ Pour calculer correctement la TVA sur les ventes effectuées dans des pays/régi
 * Configurez une ligne pour les ventes contenant les mêmes informations que pour les achats. Si vous avez déjà configuré des lignes sur la page **Paramètres comptabilisation TVA** pour les achats effectués dans des pays/régions de l’UE, vous pouvez également utiliser ces lignes pour les ventes.  
 * Affectez des groupes comptabilisation marché TVA dans le champ **Groupe compta. marché TVA** sur le raccourci **Facturation** de la fiche de chaque client de l’UE. Vous devez également saisir le numéro d’identification de la TVA client dans le champ **N° identif. intracomm.** sur le raccourci **International**.  
 
-Lorsque vous validez une vente à un client situé dans un autre pays/une autre région de l’UE, le montant de TVA est calculé et une écriture TVA est créée à l’aide des informations sur la TVA déductible et la base TVA (montant utilisé pour calculer la TVA). Aucune écriture n’est validée dans les comptes TVA de la comptabilité.
+Lorsque vous validez une vente à un client situé dans un autre pays/une autre région de l’UE, le montant de TVA est calculé et une écriture TVA est créée à l’aide des informations sur la TVA déductible et la base TVA (montant utilisé pour calculer la TVA). Aucune écriture n'est validée dans les comptes TVA de la comptabilité.
+
+Si vous souhaitez utiliser la combinaison du groupe compta. marché TVA et du groupe compta. produit TVA pour le reporting des services dans les rapports de TVA périodiques, sélectionnez le champ **Service UE**.
+
+> [!NOTE]  
+> Le champ **Service UE** s’applique uniquement aux rapports de TVA. Ce champ n’est pas associé aux fonctionnalités **Déclaration de service** ni **Déclaration d’échanges de biens pour les services**.
 
 ## <a name="vat-rounding-for-documents"></a>Arrondi TVA pour les documents
 

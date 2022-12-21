@@ -1,21 +1,19 @@
 ---
 title: Utilisation des Fonctionnalités communes aux différents secteurs d’activité
 description: En savoir plus sur les fonctionnalités utilisées dans différents secteurs d’activité dans Business Central.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 09/19/2022
-ms.author: edupont
-ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 12/01/2022
+ms.custom: bap-template
+ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605916"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822507"
 ---
 # <a name="general-business-functionality"></a>Fonctionnalités marché
 
@@ -43,7 +41,8 @@ Le tableau suivant répertorie ces secteurs d’activité généraux avec des li
 |Validez plusieurs documents de vente ou d’achat ensemble, immédiatement ou selon une planification.|[Valider plusieurs documents en même temps](ui-batch-posting.md)|  
 |Examinez le résultat de la validation avant de valider.|[Résultats de l’aperçu compta.](ui-how-preview-post-results.md)|
 |Modifiez les champs sélectionnés sur les documents de vente ou d’achat validés.|[Valider les documents validés](across-edit-posted-document.md)|
-| Comprendre le statut disponible pour les devis, les commandes et les documents d’avoirs, tels que **En cours** et **Lancé** | [Champ statut sur les documents](ui-document-status.md) |
+|Découvrez comment rechercher des documents et des écritures qui sont associés entre eux en fonction d’informations sur un document, un contact ou un article. | [Rechercher les écritures associées aux documents](ui-find-entries.md) |
+|Comprendre le statut disponible pour les devis, les commandes et les documents d’avoirs, tels que **En cours** et **Lancé** | [Champ statut sur les documents](ui-document-status.md) |
 |Apprendre à utiliser Les feuilles comptabilité, qui permettent de valider dans les comptes généraux et d’autres comptes tels que les comptes bancaires, client, fournisseur et immobilisations. |[Utiliser des feuilles comptabilité](ui-work-general-journals.md) |
 | Planifier un état à exécuter à une date et une heure spécifiques. |[Planification d’un état à exécuter](ui-work-report.md#ScheduleReport) |
 |Le système peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même.|[Permettre à Business Central de proposer des valeurs](ui-let-system-suggest-values.md)|

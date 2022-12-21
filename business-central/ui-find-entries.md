@@ -1,6 +1,6 @@
 ---
-title: Recherche d’écritures
-description: Cet article décrit comment accéder aux documents et écritures liés
+title: Rechercher les écritures associées aux documents
+description: Découvrez comment rechercher des documents, des contacts professionnels et des écritures d’éléments associés entre eux.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -10,72 +10,58 @@ ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 3c89d9f3044a8fd0d0fa7f811f1b2f01978e4302
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ae1ae9293530a36a635af48e1711f502b64add4d
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532392"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822469"
 ---
-# <a name="finding-related-entries-for-posted-documents"></a>Recherche d’écritures associées pour les documents validés 
+# <a name="finding-related-entries-for-documents"></a>Rechercher les écritures associées aux documents
 
-Dans cet article, vous apprenez à rechercher des documents et des écritures liés les uns aux autres en fonction d’informations communes, telles que :
+Découvrez comment rechercher des documents et des écritures qui sont associés entre eux en fonction d’informations communes, notamment :
 
-- Un numéro de document ou une date comptabilisation
-- Type de contact professionnel, numéro ou numéro de document externe
-- Numéro de série ou numéro de lot de l’article
+- Numéro de document ou date de comptabilisation.
+- Type de contact professionnel, numéro ou numéro de document externe.
+- Numéro de série ou de lot d’article.
 
-Cette fonctionnalité est très utile pour rechercher les écritures comptables qui résultent de certaines transactions. Lors d’une recherche par numéros de document, vous pouvez imprimer le résumé à partir de l’état Écritures document.
+Cette fonctionnalité est très utile pour rechercher les écritures comptables qui résultent de certaines transactions. Lors de la recherche par numéro de document, vous pouvez imprimer la synthèse à partir du rapport **Écritures de documents**.
 
 ## <a name="get-started"></a>Mise en route
 
-La fonction de recherche d’écritures est facilement disponible à partir de presque toutes les pages en appuyant sur les touches Ctrl+Alt+Q. À partir des pages qui affichent spécifiquement des documents validés ou des écritures de documents validés, pour les listes et les pour les fiches, vous pouvez également ouvrir la fonctionnalité en choisissant l’action **Rechercher des écritures**.
+La fonction de recherche d’écritures est facilement disponible à partir de presque toutes les pages en appuyant sur les touches Ctrl+Alt+Q. À partir des pages qui affichent spécifiquement les documents validés ou les écritures validées&mdash;pour les listes et les cartes&mdash;, vous pouvez également ouvrir la fonctionnalité en sélectionnant l’action **Rechercher des écritures**.
 
-La page **Rechercher des écritures** comprend tous les documents et écritures liés basés sur le n° document et la date comptabilisation. La page est divisée en trois sections :
+La page **Rechercher des écritures** inclut l’ensemble des écritures et documents associés en fonction du numéro de document et de la date de comptabilisation. La page est divisée en trois sections :
 
 - La section supérieure affiche les champs et les actions que vous utilisez pour filtrer votre recherche.
 - La section du milieu affiche les documents associés en fonction de la recherche.
 - La section inférieure affiche des informations sur le document source qui a été trouvé lors de la recherche.
 
-
-<!--
- There are two ways to open this page:
-
-- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
-
-    With this way, the **Find Entries** page might be empty, and you'll have to start searching for entries from scratch.
-    
-- Open a page that displays posted documents or posted documents entries, either a list or a card. Then, locate and select the **Find Entries** action.
-
-    With this way, the **Find Entries**, page will include all related documents and entries based on the document no. and posting date.
-
-
-    > [!TIP]
-    > If you are on a page that has the **Find Entries** action, press crtl+G to open the **Find Entries** page directly. 
--->
-
 ## <a name="search-for-entries"></a>Rechercher des écritures
 
-Vous pouvez rechercher des écritures en fonction des informations relatives au document, au contact professionnel ou à la référence d’article. Pour modifier la recherche, sélectionnez **Actions**, **Rechercher par**, puis l’une des actions suivantes :
+Vous pouvez rechercher des écritures en fonction des informations relatives au document, au contact professionnel ou à la référence d’article. Dans la section supérieure, sélectionnez l’une des options suivantes en fonction du type d’informations dont vous disposez :
 
-|Action|Description|
+|Action|Désignation|
 |------|-----------|
-|Rechercher par document|Affichez les écritures en fonction d’un numéro de document ou d’une date comptabilisation spécifique.|
-|Contact professionnel |Affichez les écritures en fonction d’un type de contact spécifique, d’un numéro de contact, et/ou d’un numéro de document externe. Vous pouvez saisir des informations qui ont été affectées par un fournisseur ou un client. Utilisez les champs disponibles pour rechercher des documents du fournisseur en utilisant les numéros que le fournisseur a affecté aux documents.|
-|Référence d’article|Afficher les écritures en fonction d’un n° de série ou d’un n° lot. Vous pouvez spécifier le n° de série ou lot, ou un filtre sur le n° de série ou lot à rechercher. Cette action est utile pour voir où un numéro de traçabilité spécifique a été utilisé, de quel vendeur il provient ou à quel client il a été vendu.|
+| **Rechercher des documents** | Affichez les écritures en fonction d’un numéro de document ou d’une date comptabilisation spécifique. |
+| **Rechercher des contacts professionnels** | Affichez les écritures en fonction d’un type de contact, d’un numéro de contact et/ou d’un numéro de document externe spécifique. Cette dernière option vous permet de rechercher des documents d’un fournisseur ou d’un client en utilisant le numéro affecté par le contact. |
+| **Rechercher des références dְ’articles** | Affichez les écritures en fonction d’un numéro de série ou de lot. Vous pouvez spécifier le n° de série ou lot, ou un filtre sur le n° de série ou lot à rechercher. Cette action est utile pour voir où un numéro de traçabilité spécifique a été utilisé, de quel vendeur il provient ou à quel client il a été vendu. |
 
-Après avoir effectué une sélection, entrez les informations de recherche pertinentes dans les champs d’en haut. Utilisez les info-bulles sur les champs pour vous aider. Lorsque vous avez terminé, choisissez **Rechercher** pour lancer la recherche. Si vous modifiez l’un des filtres, vous devez cliquer sur **Rechercher** à nouveau.
+Après avoir fait un choix, entrez les informations de recherche pertinentes dans les champs en haut de la page. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Lorsque vous avez terminé, sélectionnez **Trouver** pour commencer la recherche. Si vous modifiez l’un des filtres, vous devez cliquer sur **Rechercher** à nouveau.
 
 > [!TIP]
-> Pour consulter quelques exemples d’utilisation de **Recherche des écritures**, voir [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
+> Pour des exemples d’utilisation de **Rechercher des écritures**, voir [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md) et [Guide pas-à-pas : Suivi des numéros de série/lot](walkthrough-tracing-serial-lot-numbers.md).
 
 ## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) associée
 
 ## <a name="see-also"></a>Voir aussi
 
+[Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
+[Rechercher des enregistrements validés sans enregistrements document entrant](across-how-find-posted-documents-without-income-document-records.md)  
+[Accessibilité et raccourcis clavier](ui-accessibility.md)  
 [Utiliser Business Central](ui-work-product.md)  
 [Ajouter une action de page à votre Tableau de bord](ui-bookmarks.md)  
-[Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
-
+[Rechercher des pages et des informations avec Tell Me](ui-search.md)  
+[Rechercher des pages avec l’explorateur de rôles](ui-role-explorer.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
