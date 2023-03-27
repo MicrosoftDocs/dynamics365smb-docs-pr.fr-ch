@@ -106,6 +106,13 @@
 ### [Résolution des problèmes d’inscription en self-service](ui-troubleshoot-self-signup.md)
 ### [Extension de votre version d’essai](admin-extend-trial.md)
 ### [Annulation d’un abonnement ou suppression de Business Central](admin-cancel.md)
+### Texte marketing article optimisé par l’IA avec Copilot
+#### [Vue d’ensemble](ai-overview.md)
+#### [Obtenir la version préliminaire - Édition Copilot](ai-preview-getstarted.md)
+#### [Configuration du texte marketing article optimisé par l’IA](enable-ai.md)
+#### [Création de texte marketing article optimisé par l’IA](item-marketing-text.md)
+#### [FAQ](ai-faq.md)
+
 ## Achats
 ### [Mise en route d’un abonnement](trial-signup.md#get-started-with-a-subscription)
 ### [Mise en route](ui-get-ready-business.md)
@@ -492,6 +499,7 @@
 ### [Gestion des variantes de produits](inventory-item-variants.md)  
 ### [Utilisation des attributs d’articles](inventory-how-work-item-attributes.md)
 ### [Utilisation des articles de catalogue](inventory-how-work-nonstock-items.md)
+### [Ajout de texte marketing pour les articles](item-marketing-text.md)
 ### [Inventaire et ajustement du stock à l’aide de documents](inventory-how-count-inventory-with-documents.md)
 ### [Inventaire, ajustement et reclassement des feuilles utilisation stock](inventory-how-count-adjust-reclassify.md)
 ### [Afficher la disponibilité des articles](inventory-how-availability-overview.md)
@@ -1523,10 +1531,11 @@
 #### [Configuration des points de stock](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Classement des articles par catégorie](inventory-how-categorize-items.md)
 #### [Importation de plusieurs images d’article](inventory-how-import-item-pictures.md)
+#### [Configuration du texte marketing article optimisé par l’IA avec Copilot](enable-ai.md)
 ### Configuration de la gestion des stocks
 #### [Configuration des projets](projects-setup-projects.md)
 #### [Configuration des ressources](projects-how-setup-resources.md)
-#### [Configurer les feuilles de temps](projects-how-setup-time-sheets.md)
+#### [Configuration des feuilles de temps](projects-how-setup-time-sheets.md)
 #### [Configuration de projets](projects-how-setup-jobs.md)
 ### Configuration des immobilisations
 #### [Configuration des immobilisations](fa-setup.md)
@@ -1594,6 +1603,7 @@
 ##### [Obtention du complément Business Central pour Outlook](admin-outlook.md)
 ##### [Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook](work-outlook-addin.md)
 ##### [Synchronisation avec les contacts dans Outlook](admin-synchronize-outlook-contacts.md)
+###### [Configuration de la synchronisation des contacts sur site](admin-contact-sync-setup-onprem.md)
 ##### [Optimisation d’Outlook](admin-outlook-optimize.md)
 ##### [Utilisation de Business Central sans Outlook](admin-no-outlook.md)
 ##### [FAQ](ui-outlook-addin-faq.yml)
@@ -1615,6 +1625,7 @@
 #### Utilisation de Business Central en tant que boîte de réception professionnelle dans Outlook 
 ##### [Vue d’ensemble](admin-outlook.md)
 ##### [Synchronisation avec les contacts dans Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+###### [Configuration de la synchronisation des contacts sur site](admin-contact-sync-setup-onprem.md)
 ##### [Utilisation de Business Central sans Outlook](admin-no-outlook.md)
 #### Utilisation de Microsoft Teams avec Business Central
 ##### [Vue d’ensemble](across-teams-overview.md)
