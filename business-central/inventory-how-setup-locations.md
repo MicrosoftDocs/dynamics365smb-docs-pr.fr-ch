@@ -1,23 +1,17 @@
 ---
 title: Configurer une fiche magasin et définir des acheminements de transfert (contient une vidéo)
-description: Si vous achetez, stockez ou commercialisez des articles à plusieurs endroits, vous pouvez configurer chaque lieu en tant qu’emplacement.
+description: 'Si vous achetez, stockez ou commercialisez des articles à plusieurs endroits, vous pouvez configurer chaque lieu en tant qu’emplacement.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, distribution center
-ms.search.forms: 5703, 15
+ms.search.keywords: 'warehouse, distribution center'
+ms.search.forms: '5703, 15'
 ms.date: 07/05/2022
 ms.author: bholtorf
-ms.openlocfilehash: 882c7c0506439aba55d5b1c2d0cc23bd79db9d6e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605822"
 ---
-# <a name="set-up-locations"></a>Configurer des magasins
+# Configurer des magasins
 
 Les magasins sont des endroits tels que des entrepôts où vous achetez, stockez ou vendez des articles. [!INCLUDE [prod_short](includes/prod_short.md)] utilise des magasins pour aider à suivre les stocks dans les cas simples et complexes dans les processus d’entrepôt.
 
@@ -26,7 +20,7 @@ Vous pouvez ensuite créer des lignes de document pour un magasin spécifique, v
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
-## <a name="location-cards"></a>Fiches magasin
+## Fiches magasin
 
 Vous spécifiez des informations sur un magasin, par exemple un entrepôt ou un centre de distribution sur la page **Fiche magasin**. Affectez un nom et un code représentatifs à chaque magasin. Il vous suffit ensuite de saisir le code magasin dans d’autres parties du programme lorsque vous souhaitez enregistrer les transactions d’un magasin en particulier.  
 
@@ -36,7 +30,7 @@ Certains champs d’option dépendent des paramètres dans la page **Fiche magas
 
 Choisissez les actions **Zones** ou **Emplacements** pour visualiser des informations sur les zones et les emplacements sont définis pour le magasin.
 
-### <a name="to-set-up-a-location"></a>Pour configurer un magasin
+### Pour configurer un magasin
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Magasins**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
@@ -50,7 +44,7 @@ Vous pouvez modifier la configuration d’un emplacement tant qu’il n’a pas 
 
 Si vous avez plusieurs magasins, vous pouvez définir des acheminements transfert entre les magasins. Pour plus d’informations, reportez-vous à [Créer des acheminement transfert ](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
-### <a name="to-create-a-transfer-route"></a>Pour créer un acheminement transfert
+### Pour créer un acheminement transfert
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Acheminements de transfert**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
@@ -58,7 +52,7 @@ Si vous avez plusieurs magasins, vous pouvez définir des acheminements transfer
 
 Vous pouvez à présent transférer des articles en stock entre deux magasins. Pour plus d’informations, voir [Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md).    
 
-## <a name="bins"></a>Emplacements
+## Emplacements
 
 Les emplacements représentent la structure de base de l’entrepôt et peuvent suggérer où placer les articles. Vos emplacements peuvent avoir du contenu ou être flottants sans contenu spécifique. 
 
@@ -67,17 +61,17 @@ Pour utiliser la fonctionnalité d’emplacement liée au magasin, vous devez d�
 > [!NOTE]
 > Avant de pouvoir spécifier les codes emplacement sur un magasin, vous devez les créer. Pour plus d’informations, voir [Créer des emplacements](warehouse-how-to-create-individual-bins.md) et [Configurer des types d’emplacement](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="zones"></a>Zones
+## Zones
 
 Si vous souhaitez structurer vos emplacements en zones, vous pouvez le faire dans la page **Zones**. Lorsque vous affectez une zone à des emplacements, [!INCLUDE [prod_short](includes/prod_short.md)] copie les informations de la zone vers les emplacements. Vous pouvez également choisir de configurer une zone et d’utiliser des emplacements seuls pour organiser votre entrepôt. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).  
 
-## <a name="default-dimensions-for-locations"></a>Axes analytiques par défaut pour les magasins
+## Axes analytiques par défaut pour les magasins
 
-Pour définir les axes analytiques par défaut pour un magasin, allez sur la page **Fiche magasin** et choisissez **Axes analytiques**. Par la suite, les axes analytiques par défaut du magasin sont attribuées aux documents lorsque vous choisissez l'emplacement sur une ligne. Au besoin, vous pouvez supprimer ou modifier les axes analytiques sur les lignes. Dans le champ **Contrôle validation**, pouvez exiger que les personnes spécifient des axes analytiques pour des magasins spécifiques avant de pouvoir valider une écriture. Si vous souhaitez que les utilisateurs puissent choisir uniquement certaines sections analytiques, vous pouvez spécifier celles-ci dans le champ **Filtre valeurs autorisées**. Vous pouvez également inclure des sections analytiques de magasin sur la page **Affect. analytique prioritaire** et **Croisements analytiques** pour les combinaisons de règles de priorité et d’axe analytique.
+Pour définir les axes analytiques par défaut pour un magasin, allez sur la page **Fiche magasin** et choisissez **Axes analytiques**. Par la suite, les axes analytiques par défaut du magasin sont attribuées aux documents lorsque vous choisissez l’emplacement sur une ligne. Au besoin, vous pouvez supprimer ou modifier les axes analytiques sur les lignes. Dans le champ **Contrôle validation**, pouvez exiger que les personnes spécifient des axes analytiques pour des magasins spécifiques avant de pouvoir valider une écriture. Si vous souhaitez que les utilisateurs puissent choisir uniquement certaines sections analytiques, vous pouvez spécifier celles-ci dans le champ **Filtre valeurs autorisées**. Vous pouvez également inclure des sections analytiques de magasin sur la page **Affect. analytique prioritaire** et **Croisements analytiques** pour les combinaisons de règles de priorité et d’axe analytique.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion du stock](inventory-manage-inventory.md)  
 [Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)  

@@ -1,6 +1,6 @@
 ---
 title: Configurer des utilisateurs d’approbation
-description: Avant de pouvoir créer des flux de travail qui impliquent des étapes d’approbation, vous devez configurer les utilisateurs du flux de travail qui sont impliqués dans les processus d’approbation sur la page Paramètres utilisateur approbation.
+description: 'Avant de pouvoir créer des flux de travail qui impliquent des étapes d’approbation, vous devez configurer les utilisateurs du flux de travail qui sont impliqués dans les processus d’approbation sur la page Paramètres utilisateur approbation.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2654dcb68b579d90fe3218bcd0bba3bde4cb5036
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585853"
 ---
-# <a name="set-up-approval-users"></a>Configurer des utilisateurs d’approbation
+# Configurer des utilisateurs d’approbation
 
 Avant de pouvoir créer des flux de travail qui impliquent des étapes d’approbation, vous devez configurer les utilisateurs du flux de travail qui sont impliqués dans les processus d’approbation. Sur la page **Paramètres utilisateur d’approbation**, vous pouvez également définir les limites pour des types spécifiques de demandes et définir des approbateurs remplaçants à qui des demandes d’approbation sont déléguées lorsque l’approbateur initial est absent.  
 
@@ -28,7 +22,7 @@ Lorsque vous configurez des utilisateurs approbation, vous pouvez créer de rép
 > [!NOTE]  
 > Pour indiquer qu’une demande d’approbation n’est pas approuvée tant que plusieurs utilisateurs dans une chaîne d’approbation ne l’ont pas approuvée, configurez les approbateurs selon une hiérarchie. Pour le type d’approbateur **Approbateur**, configurez les approbateurs sur la page **Paramètres utilisateur d’approbation**. Pour le type d’approbateur **Groupe d’utilisateurs de flux de travail**, configurez les approbateurs sur la page **Groupe d’utilisateurs du flux de travail** et définissez la hiérarchie en affectant des numéros incrémentiels à chaque approbateur dans le champ **N° séquence** . En savoir plus sur [Configurer des utilisateurs de flux de travail](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>Configurer un utilisateur approbation
+## Configurer un utilisateur approbation
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres utilisateur approbation**, puis choisissez le lien associé.  
 2. Créez une ligne sur la page **Paramètres utilisateur d’approbation**, puis renseignez les champs comme indiqué dans le tableau suivant.  
@@ -54,9 +48,9 @@ Lorsque vous configurez des utilisateurs approbation, vous pouvez créer de rép
 3. Pour test le paramétrage utilisateur approbation, choisissez l’action **Tester paramètres utilisateur approbation**.  
 4. Répétez les étapes 2 et 3 pour chaque utilisateur que vous souhaitez configurer en tant qu’utilisateur approbation.  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configurer des utilisateurs de flux de travail](across-how-to-set-up-workflow-users.md)  
 [Configuration de notifications de flux de travail](across-setting-up-workflow-notifications.md)  

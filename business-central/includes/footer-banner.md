@@ -1,4 +1,8 @@
-> [!NOTE]
->Pouvez-vous nous indiquer vos préférences de langue pour la documentation ? [Répondez à un court questionnaire.](https://aka.ms/BAG_Docs_Language_Survey) (veuillez noter que ce questionnaire est en anglais)
->
->Le questionnaire vous prendra environ sept minutes. Aucune donnée personnelle n’est collectée ([déclaration de confidentialité](https://go.microsoft.com/fwlink/?LinkId=521839)).
+---
+author: edupont04
+ms.topic: include
+ms.date: 11/01/2022
+ms.author: edupont
+---
+[Trouvez des modules d’apprentissage en ligne gratuits pour Business Central ici](/training/dynamics365/business-central)
+

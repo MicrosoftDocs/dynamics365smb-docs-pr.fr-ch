@@ -1,27 +1,21 @@
 ---
 title: Terminologie en comptabilité analytique
-description: Cette rubrique définit les termes clés utilisés dans la comptabilité analytique, tels que la clé de répartition et la source de répartition.
+description: 'Cette rubrique définit les termes clés utilisés dans la comptabilité analytique, tels que la clé de répartition et la source de répartition.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cee2ced8b51de66de847c0132e8ce35a08b7b229
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532176"
 ---
-# <a name="terminology-in-cost-accounting"></a>Terminologie en comptabilité analytique
+# Terminologie en comptabilité analytique
 
 Cette rubrique définit les conditions principales qui sont utilisés en comptabilité analytique.  
 
-## <a name="key-terms"></a>Conditions principales
+## Conditions principales
 
  Le tableau suivant définit les conditions principales en comptabilité analytique.  
 
@@ -49,9 +43,9 @@ Cette rubrique définit les conditions principales qui sont utilisés en comptab
 |Coût variable|Les coûts variables sont des frais qui varient proportionnellement à l’activité d’une société. Les coûts variables représentent la somme de coûts marginaux dans toutes les unités produites. Les coûts fixes et les coûts variables constituent les deux composants des coûts totaux.|  
 |Variante|Une variante est utilisée comme un libellé facultatif et défini par l’utilisateur pour les affectations. Son objectif consiste à filtrer les groupes d’affectation.|  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
  [À propos de la comptabilité analytique](finance-about-cost-accounting.md)  
  [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  

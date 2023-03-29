@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: 8dcebacabc62e9744fb0c70e535f9fdd498047e6
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461064"
 ---
 1. Accédez [au site d’essai](https://go.microsoft.com/fwlink/?linkid=847861), choisissez *Finances et opérations*, puis sur la carte **Dynamics 365 Business Central**, choisissez le bouton **Essayer gratuitement**.  
 2. Entrez votre adresse e-mail professionnelle ou scolaire et d’autres informations. Vous serez redirigé vers votre essai sur [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
@@ -24,4 +18,4 @@ Si vous décidez de ne pas utiliser [!INCLUDE [prod_short](prod_short.md)], vous
 
 [!INCLUDE [admin-viral-trial-expiry](admin-viral-trial-expiry.md)]
 
-Si vous rencontrez des problèmes, vérifiez les articles [FAQ sur l'essai](../trial-faq.md) ou [Questions fréquemment posées](../across-faq.yml) pour trouver des réponses à certaines de vos questions. Si vous ne parvenez pas à vous inscrire à la version d’évaluation, consultez l’article [Dépannage de l’inscription en self-service](../ui-troubleshoot-self-signup.md) pour obtenir des conseils. Vous pouvez également contacter un [partenaire](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) et lui demander de créer un essai gratuit ou un autre type de version préliminaire de [!INCLUDE[prod_short](prod_short.md)] pour vous.  
+Si vous rencontrez des problèmes, vérifiez les articles [FAQ sur l’essai](../trial-faq.md) ou [Questions fréquemment posées](../across-faq.yml) pour trouver des réponses à certaines de vos questions. Si vous ne parvenez pas à vous inscrire à la version d’évaluation, consultez l’article [Dépannage de l’inscription en self-service](../ui-troubleshoot-self-signup.md) pour obtenir des conseils. Vous pouvez également contacter un [partenaire](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) et lui demander de créer un essai gratuit ou un autre type de version préliminaire de [!INCLUDE[prod_short](prod_short.md)] pour vous.  

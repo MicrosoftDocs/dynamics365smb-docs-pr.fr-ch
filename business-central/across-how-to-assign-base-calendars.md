@@ -1,26 +1,20 @@
 ---
 title: Configurer des calendriers principaux
-description: Vous pouvez affecter un calendrier de base à votre entreprise et à ses partenaires commerciaux, pour calculer les dates de livraison et de réception en fonction des jours ouvrés spécifiés.
+description: 'Vous pouvez affecter un calendrier de base à votre entreprise et à ses partenaires commerciaux, pour calculer les dates de livraison et de réception en fonction des jours ouvrés spécifiés.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7600, 7601, 7602, 5703
+ms.search.form: '7600, 7601, 7602, 5703'
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 0c6be4bc0c602363e4ae54cc27663d1eaa4091e9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511859"
 ---
-# <a name="set-up-base-calendars"></a>Configurer des calendriers principaux
+# Configurer des calendriers principaux
 
 Vous pouvez affecter un calendrier principal à votre société et à ses partenaires commerciaux, tels que ses clients, ses fournisseurs, ou ses magasins. Les dates de livraison et de réception sur les lignes commande vente, commande achat, ordre de transfert, et ordre de fabrication sont calculées en fonction des jours ouvrés définis dans le calendrier. Lorsque vous paramétrez un nouveau calendrier principal, votre tâche consiste essentiellement à indiquer et à définir les jours chômés à appliquer.  
 
-## <a name="to-set-up-a-base-calendar"></a>Pour configurer un calendrier principal
+## Pour configurer un calendrier principal
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Calendrier principal**, puis choisissez le lien associé.  
 2.  Sélectionnez l’action **Nouveau**.  
@@ -42,7 +36,7 @@ Lorsque vous créez une écriture, le champ **Jour chômé** est sélectionné. 
 >  Le calendrier principal défini pour le fournisseur ou le magasin affecte uniquement la manière dont les dates sont calculées et arrondies en jours ouvrés.
 Spécifie une formule date pour le délai nécessaire au réapprovisionnement de l’article. Permet de calculer le champ **Date planifiée de réception**, si calcul en aval, et le champ **Date commande**, si calcul en amont. Voir [Calcul du délai](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
-## <a name="lead-time-calculation"></a>Calcul du délai
+## Calcul du délai
 
 Le calendrier principal défini pour le fournisseur ou le magasin affecte uniquement la manière dont les dates sont calculées et arrondies en jours ouvrés. En conséquence, les deux champs date sur les lignes commande achat sont calculés comme suit sous différentes conditions.
 
@@ -59,7 +53,7 @@ Le calendrier principal défini pour le fournisseur ou le magasin affecte unique
 
 La valeur du champ **Délai de réappro.** est copiée à partir de la fiche article ou de la fiche point de stock, si le délai est défini pour l’article, ou sur la page **Catalogue fournisseur articles**, si le délai est défini pour le fournisseur.
 
-## <a name="to-customize-a-calendar"></a>Pour personnaliser un calendrier
+## Pour personnaliser un calendrier
 Lorsque vous personnalisez un calendrier principal pour votre société ou pour l’un de ses partenaires commerciaux, votre tâche consiste essentiellement à modifier le statut des jours ouvrés et chômés.
 
 Par exemple, bien qu’un calendrier principal définisse en général tous les samedis comme des jours chômés, le calendrier personnalisé d’un magasin peut indiquer tous les samedis des mois de novembre et décembre, jusqu’aux vacances de Noël, comme des jours ouvrés.
@@ -92,12 +86,12 @@ Si vous ne renseignez pas le champ **Code transporteur** de la ligne commande, l
 > [!NOTE]  
 > Si vous modifiez un calendrier principal auquel sont associés des calendriers personnalisés ayant fait l’objet de modifications, tous les calendriers personnalisés existants sont automatiquement mis à jour.
 
-## <a name="to-assign-a-base-calendar"></a>Pour affecter un calendrier principal  
+## Pour affecter un calendrier principal  
 La procédure suivante planifie les dates de livraison sur les lignes commande vente pour un client comme exemple.
 
 Les calendriers principaux sont affectés à votre propre société, à vos clients, fournisseurs, magasins et transporteurs comme suit :  
 
--   Sur les fiches **Informations société** et **Client**, le calendrier principal est affecté sur le raccourci **Expédition** .  
+-   Sur les fiches **Informations société** et **Client**, le calendrier principal est affecté sur le raccourci **Expédition**.  
 -   Sur la fiche **Fournisseur**, le calendrier principal est affecté sur le raccourci **Réception**.  
 -   Sur la fiche **Magasin**, le calendrier principal est affecté sur le raccourci **Entrepôt**.  
 -   Sur la page **Transporteurs** , le calendrier principal est affecté sur la page **Prestations transporteur**.  
@@ -114,7 +108,7 @@ Les calendriers principaux sont affectés à votre propre société, à vos clie
 > [!NOTE]  
 >  Pour créer des écritures calendrier personnalisé, vous devez d’abord affecter un calendrier principal à la société.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Achats](purchasing-manage-purchasing.md)  
 [Production](production-manage-manufacturing.md)    
 [Stock](inventory-manage-inventory.md)  

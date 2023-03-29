@@ -8,14 +8,8 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
-ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822507"
 ---
-# <a name="general-business-functionality"></a>Fonctionnalités marché
+# Fonctionnalités marché
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités dédiées pour les domaines d’activité courants, tels que la finance et les ventes. Pour plus d’informations, voir [Fonctionnalités d’entreprise](across-business-functionality.md).
 
@@ -33,7 +27,7 @@ Le tableau suivant répertorie ces secteurs d’activité généraux avec des li
 |Ajoutez des informations supplémentaires dans les comptes, les fiches client, ou les commandes vente pour communiquer des accords, tels qu’un prix spécial ou un mode de livraison, pour d’autres utilisateurs.|[Ajouter des commentaires aux fiches et aux documents](across-how-use-comments.md)|
 |Affichez les documents ouverts, validés ou archivés qui sont liés aux ventes et aux lignes commande achat.|[Suivre des lignes document](across-how-to-track-document-lines.md)|
 | Communiquer le contenu des documents commerciaux rapidement à vos partenaires commerciaux, comme les informations de paiement sur les documents vente aux clients. |[Envoyer des documents par e-mail](ui-how-send-documents-email.md) |
-|Archiver des commandes vente et achat, des devis, des retours et des commandes ouvertes, et utiliser le document archivé pour recréer le document d’origine.|[Archiver des documents](across-how-to-archive-documents.md)|
+|Archiver des commandes vente et achat, des devis, des retours et des commandes cadres, et utiliser le document archivé pour recréer le document d’origine.|[Archiver des documents](across-how-to-archive-documents.md)|
 | Définir des codes texte standard de façon à étendre le texte standard en ajoutant des lignes supplémentaires et définir des conditions d’utilisation des lignes supplémentaires. |[Ajouter un texte d’article étendu](ui-how-define-ext-text.md) |
 |Créez des tâches pour vous rappeler le travail à faire. Vous pouvez créer des tâches pour vous-même, mais vous pouvez également affecter des tâches à d’autres personne ou avoir une tâche affectée à vous-même par une autre personne de votre organisation.|[Définir les tâches utilisateur](across-user-tasks.md)|
 |Utilisez vos données Business Central dans Excel.|[Exportation de vos données métier vers Excel](about-export-data.md)|
@@ -51,7 +45,7 @@ Le tableau suivant répertorie ces secteurs d’activité généraux avec des li
 | Configurer les définitions d’échange de données afin de pouvoir envoyer et recevoir des documents électroniques. |[Échanger des données par voir électronique](across-data-exchange.md) |
 | Utilisez des cartes en ligne pour trouver des emplacements et des itinéraires vers des clients, des fournisseurs et des adresses en général. | [Utilisez des cartes en ligne pour trouver des emplacements et des directions](across-online-maps.md) |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administration](admin-setup-and-administration.md)  

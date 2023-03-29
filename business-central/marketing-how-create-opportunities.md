@@ -1,29 +1,23 @@
 ---
 title: Créer des opportunités de vente
-description: Cet article décrit comment créer des opportunités avec un commercial ou un contact dans Business Central.
+description: "Cet article décrit comment créer des opportunités avec un commercial ou un contact dans Business\_Central."
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
+ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: d3e427a4fbff866edfa7b03b23f22ee797ef037b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074801"
 ---
-# <a name="create-sales-opportunities"></a>Créer des opportunités de vente
+# Créer des opportunités de vente
 Vous pouvez créer des opportunités pour les opportunités de vente à partir de vos contacts. Toutes les opportunités doivent être affectées à un vendeur ou un acheteur et doivent avoir un contact.
 
 Utilisez la page **Liste des opportunités** pour créer des opportunités. Généralement, vous créerez plutôt des opportunités à partir du contact ou des vendeurs spécifiques.
 
 Pour pouvoir créer des opportunités, vous devez configurer les cycles de vente opportunité. Pour plus d’informations reportez-vous à [Configurer des cycles et des étapes de vente opportunité](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="to-create-an-opportunity-from-a-salesperson"></a>Pour créer une opportunité à partir d’un vendeur
+## Pour créer une opportunité à partir d’un vendeur
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Vendeurs**, puis sélectionnez le lien associé.
 2. Sélectionnez dans la liste le vendeur pour lequel vous souhaitez créer une opportunité.
 3. Sélectionnez l’action **Opportunités**, puis sélectionnez **Liste**.
@@ -31,7 +25,7 @@ Pour pouvoir créer des opportunités, vous devez configurer les cycles de vente
 
 
 
-## <a name="to-create-an-opportunity-from-a-contact"></a>Pour créer une opportunité à partir d’un contact
+## Pour créer une opportunité à partir d’un contact
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Contacts**, puis sélectionnez le lien associé.
 2. Sélectionnez dans la liste le contact pour lequel vous souhaitez créer une opportunité.
 3. Exécutez l’une des opérations suivantes :
@@ -39,7 +33,7 @@ Pour pouvoir créer des opportunités, vous devez configurer les cycles de vente
    * Sélectionnez l’action **Opportunités**, puis sélectionnez **Nouveau**.
 4. Renseignez les champs de votre choix.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Création et gestion des contacts](marketing-contacts.md)  
 [Utiliser Business Central](ui-work-product.md)

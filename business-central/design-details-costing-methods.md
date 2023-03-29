@@ -1,22 +1,16 @@
 ---
-title: 'Détails de conception : modes évaluation stock'
+title: "Détails de conception\_: modes évaluation stock"
 description: Cette rubrique décrit en quoi le mode évaluation du stock affecte la façon dont les valeurs réelles et budgétées sont capitalisées et prises en compte dans le calcul des coûts.
 author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519819"
 ---
-# <a name="design-details-costing-methods"></a>Détails de conception : modes évaluation stock
+# Détails de conception : modes évaluation stock
 
 Le mode évaluation stock détermine si une valeur réelle ou budgétée est capitalisée et prise en compte dans le calcul des coûts. Au même titre que la date comptabilisation et la séquence, le mode d’évaluation du stock a une incidence sur l’enregistrement du flux des coûts.
 
@@ -46,7 +40,7 @@ Les méthodes d’évaluation du stock diffèrent dans la façon d’évaluer le
 |Réévaluation|Réévalue uniquement la quantité facturée.<br /><br /> Peut être effectué par article ou par écriture comptable article.<br /><br /> Peut être fait à une date antérieure.|Réévalue uniquement la quantité facturée.<br /><br /> Peut être effectué par article uniquement.<br /><br /> Peut être fait à une date antérieure.|Réévalue les quantités facturées et non facturées.<br /><br /> Peut être effectué par article ou par écriture comptable article.<br /><br /> Peut être fait à une date antérieure.|Réévalue uniquement la quantité facturée.<br /><br /> Peut être effectué par article ou par écriture comptable article.<br /><br /> Peut être fait à une date antérieure.|  
 |Charges diverses de gestion|Si vous antidatez une sortie de stock, les écritures existantes ne sont PAS relettrées pour présenter un flux de coût FIFO correct.|Si vous antidatez une entrée ou une sortie de stock, le coût moyen est recalculé, et toutes les écritures affectées sont ajustées.<br /><br /> Si vous modifiez la période ou un type de calcul, toutes les écritures affectées doivent être ajustées.|Utilisez la page **Feuille standard** pour régulièrement mettre à jour et rouler les coûts standard.<br /><br /> N’est PAS pris en charge par le point de stock.<br /><br /> Aucun enregistrement historique n’existe pour les coûts standard.|Vous pouvez utiliser le suivi d’article spécifique sans utiliser le mode d’évaluation spécifique. Alors le coût ne suit PAS le numéro de lot, mais l’acceptation du coût du mode d’évaluation sélectionné.|  
 
-## <a name="example"></a>Exemple :
+## Exemple :
 
 Cette section donne des exemples de la manière dont les divers modes d’évaluation affectent la valeur stock.  
 
@@ -64,7 +58,7 @@ Le tableau suivant montre les entrées et les sorties de stock sur lesquels les 
 > [!NOTE]  
 > La quantité qui en résulte dans le stock est égale à zéro. Par conséquent, la valeur du stock doit également être zéro, quel que soit le mode évaluation stock.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effet des modes évaluation stock sur l’évaluation des entrées de stock  
+### Effet des modes évaluation stock sur l’évaluation des entrées de stock  
 
 Pour les articles utilisant les modes évaluation stock qui utilisent le coût réel comme base d’évaluation (**FIFO**, **LIFO**, **Moyenne** ou **Spécifique**), les entrées de stock sont évaluées au coût d’acquisition de l’article.  
 
@@ -72,11 +66,11 @@ Pour les articles utilisant les modes évaluation stock qui utilisent le coût r
 
     Pour les articles qui utilisent le mode d’évaluation du stock **Standard**, les entrées de stock sont évaluées au coût standard actuel de l’article.  
 
-#### <a name="standard"></a>Standard  
+#### Standard  
 
 Pour les articles qui utilisent le mode d’évaluation stock **Standard**, les entrées de stock sont évaluées au coût standard actuel de l’article.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Effet des modes évaluation stock sur l’évaluation des sorties de stock
+### Effet des modes évaluation stock sur l’évaluation des sorties de stock
 
 - **FIFO**  
 
@@ -144,7 +138,7 @@ Pour les articles qui utilisent le mode d’évaluation stock **Standard**, les 
     |01/03/20|-1|-10,00|**1**|5|  
     |01/04/20|-1|-30,00|**3**|6|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : écart](design-details-variance.md)   

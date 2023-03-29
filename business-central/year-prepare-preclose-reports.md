@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1393, 1394
+ms.search.form: '1393, 1394'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: af522d05f007959552f59922c52e2526a1a7e2b1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517728"
 ---
-# <a name="use-pre-closing-reports"></a>Utiliser des états préalables à la clôture
+# Utiliser des états préalables à la clôture
 
 Il existe de nombreux états standard qui vous permettent de vérifier la précision des comptes avant de clôturer les livres à la fin d’un exercice ou d’une période. Par exemple, vous pouvez utiliser l’état **Clients : Balance** pour vérifier que le solde d’un groupe comptabilisation client est égal au solde du compte général correspondant à une date donnée.
 
@@ -36,7 +30,7 @@ Le tableau suivant décrit un certain nombre d’états qui peuvent être utiles
 
 Pour voir un rapport, sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez le nom tel qu’il apparaît dans le tableau, puis choisissez le lien associé.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

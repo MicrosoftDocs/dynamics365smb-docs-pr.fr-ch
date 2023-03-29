@@ -1,19 +1,13 @@
 ---
 title: Configurer des conditions de paiement
-description: Dans la version de base de Business Central, utilisez les conditions de paiement pour gérer les dates d’échéance et les remises de paiement.
+description: "Dans la version de base de Business\_Central, utilisez les conditions de paiement pour gérer les dates d’échéance et les remises de paiement."
 author: edupont04
 ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605126"
 ---
-# <a name="set-up-payment-terms"></a>Configurer des conditions de paiement
+# Configurer des conditions de paiement
 
 Les conditions de paiement déterminent la façon dont vous gérez les dates d’échéance et les remises de paiement. Vous pouvez configurer n’importe quel nombre de codes condition de paiement et utiliser des formules date pour définir les conditions de paiement. Lorsque vous vous inscrivez pour la première fois à [!INCLUDE [prod_short](includes/prod_short.md)], la société de démonstration fournit quelques méthodes de paiement que les entreprises utilisent souvent. Vous pouvez cependant en ajouter autant que nécessaire.  
 
@@ -25,7 +19,7 @@ De même, lorsque vous publiez un avoir, [!INCLUDE [prod_short](includes/prod_sh
 
 Si vous souhaitez envoyer à vos clients des rappels de paiements en retard, vous devez configurer des niveaux et des conditions de rappel. Pour plus d’informations, voir [Configurer les conditions et niveaux de relance](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a>Pour configurer des conditions de paiement
+## Pour configurer des conditions de paiement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions de paiement**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +31,7 @@ Après avoir configuré les conditions de paiement, affectez-les aux clients et 
 >
 > Dans certains pays, vous *pouvez* mettre en place des conditions de paiement avec des paiements partiels. Pour savoir si cette fonctionnalité est prise en charge dans votre pays, consultez la section **Fonctionnalité locale** dans le volet de navigation sur le côté gauche d’un article [Microsoft Learn](about-localization.md).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Paramétrer les modes de paiement](finance-payment-methods.md)  
 [Configuration des acomptes](finance-set-up-prepayments.md)  

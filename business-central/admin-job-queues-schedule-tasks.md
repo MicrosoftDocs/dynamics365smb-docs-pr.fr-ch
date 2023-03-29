@@ -1,22 +1,16 @@
 ---
 title: Planifier des projets à exécuter automatiquement
-description: Les tâches planifiées sont gérées par la file d’attente des travaux. Ces projets exécutent des états et des codeunits. Vous pouvez définir des projets à exécuter une fois, ou sur une base récurrente.
+description: 'Les tâches planifiées sont gérées par la file d’attente des travaux. Ces projets exécutent des états et des codeunits. Vous pouvez définir des projets à exécuter une fois, ou sur une base récurrente.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 672, 673, 674, 671
+ms.search.form: '672, 673, 674, 671'
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: cfbfffdf52e072133451e968e872c7f66a733069
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607115"
 ---
-# <a name="use-job-queues-to-schedule-tasks"></a>Utiliser des files d’attente des travaux pour planifier des tâches
+# Utiliser des files d’attente des travaux pour planifier des tâches
 
 La page Écritures file d’attente des travaux permet aux utilisateurs de planifier et d’exécuter des états et codeunits spécifiques. Vous pouvez définir des projets à exécuter une fois, ou sur une base récurrente. Par exemple, vous souhaiterez peut-être exécuter l’état **Statistiques vente * commerciaux** sur une base hebdomadaire, pour suivre les ventes par vendeur chaque semaine, ou exécuter le codeunit **Déléguer les demandes d’approbation** quotidiennement, pour empêcher les documents de s’empiler ou de bloquer le flux de travail.
 
@@ -40,7 +34,7 @@ Une fois les files d’attente des travaux configurées et en cours de exécutio
 
 Une fois qu’un travail s’est terminé correctement, il est supprimé de la liste d’écritures file d’attente des travaux, sauf en cas de projet récurrent. Pour les travaux récurrents, le champ **Heure de début (au plus tôt)** est ajusté pour afficher la prochaine heure d’exécution planifiée pour le projet.  
 
-## <a name="monitor-status-or-errors-in-the-job-queue"></a>Surveiller le statut ou les erreurs dans la file d’attente des travaux
+## Surveiller le statut ou les erreurs dans la file d’attente des travaux
 
 Les données générées par la file d’attente des travaux sont stockées dans la base de données, de sorte que vous pouvez résoudre les erreurs de la file d’attente des travaux.  
 
@@ -59,7 +53,7 @@ Le tableau suivant décrit les valeurs du champ **Statut**.
 > [!Tip]  
 > Les écriture de la file d’attente des tâches cessent de s’exécuter en cas d’erreur. Par exemple, cela peut être un problème lorsqu’une entrée se connecte à un service externe, tel qu’un flux bancaire. Si le service est temporairement indisponible et que l’entrée de la file d’attente des travaux ne peut pas se connecter, l’entrée affichera une erreur et cessera de s’exécuter. Vous devrez redémarrer manuellement l’entrée de la file d’attente des travaux. Cependant, les champs **Nombre maximal de tentatives** et **Délai de réexécution (sec.)** peuvent vous aider à éviter cette situation. Le champ **Nombre maximal de tentatives** vous permet de spécifier combien de fois l’entrée de la file d’attente des travaux peut échouer avant qu’elle n’arrête d’essayer de s’exécuter. Le champ **Délai de réexécution (sec.)** vous permet de spécifier la durée, en secondes, entre les tentatives. La combinaison de ces deux champs peut maintenir l’entrée de la file d’attente des travaux en cours d’exécution jusqu’à ce que le service externe soit disponible.
 
-### <a name="to-view-status-for-any-job"></a>Pour visualiser le statut de tous les travaux
+### Pour visualiser le statut de tous les travaux
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures file d’attente des travaux**, puis sélectionnez le lien associé.
 2. Sur la page **Écritures file d’attente des travaux**, sélectionnez une écriture file d’attente des travaux, puis sélectionnez l’action **Écritures journal**.  
@@ -67,7 +61,7 @@ Le tableau suivant décrit les valeurs du champ **Statut**.
 > [!TIP]
 > Vous pouvez également voir le statut des écritures file d’attente des travaux en utilisant Application Insights dans Microsoft Azure pour une analyse plus approfondie basée sur la télémétrie. Pour plus d’informations, voir [Surveillance et analyse de la télémétrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) et [Analyse de la télémétrie de suivi du cycle de vie de la file d’attente des travaux](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) dans le contenu [!INCLUDE [prod_short](includes/prod_short.md)] pour développeurs et administrateurs.
 
-## <a name="view-scheduled-tasks"></a>Afficher les tâches planifiées
+## Afficher les tâches planifiées
 
 La page **Tâches planifiées** dans [!INCLUDE [prod_short](includes/prod_short.md)] indique quelles tâches sont prêtes à être exécutées dans la file d’attente des travaux. La page affiche également des informations sur l’entreprise dans laquelle chaque tâche est configurée pour s’exécuter. Cependant, seules les tâches marquées comme appartenant à l’environnement actuel peuvent s’exécuter.  
 
@@ -76,7 +70,7 @@ Par exemple, toutes les tâches planifiées s’arrêtent si l’entreprise se t
 > [!NOTE]
 > Les administrateurs internes et les utilisateurs sous licence peuvent planifier l’exécution des tâches. Les administrateurs délégués peuvent configurer et programmer des tâches à exécuter, mais seuls les utilisateurs sous licence peuvent les exécuter.
 
-## <a name="the-my-job-queue-part"></a>Composant Ma file d’attente des travaux
+## Composant Ma file d’attente des travaux
 
 Le composant **Ma file d’attente des travaux** sur votre Tableau de bord répertorie les écritures files d’attente des travaux que vous avez commencées, mais qui ne sont pas terminées. Par défaut, le composant n’est pas affiché, mais vous pouvez l’ajouter à votre tableau de bord. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).  
 
@@ -87,32 +81,32 @@ Le composant affiche les informations suivantes :
 
 Le composant Ma file d’attente des travaux permet également d’annuler une validation de document.
 
-### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Pour afficher une erreur dans le composant Ma file d’attente des travaux
+### Pour afficher une erreur dans le composant Ma file d’attente des travaux
 
 1. Sur une écriture indiquant le statut **Erreur**, sélectionnez l’action **Afficher erreur**.
 2. Examinez le message d’erreur et résolvez le problème.
 
-## <a name="examples-of-what-can-be-scheduled-using-job-queue"></a>Exemples de ce qui peut être planifié à l’aide de la file d’attente des travaux
+## Exemples de ce qui peut être planifié à l’aide de la file d’attente des travaux
 
-### <a name="schedule-reports"></a>Planifier des états
+### Planifier des états
 
 Vous pouvez planifier ou traiter par lots un état à exécuter à une date et une heure spécifiques. Les états prévus ou les traitements par lots sont entrés dans la file projets et traités au moment prévu, comme les autres projets. Vous devez choisir l’option **Planifié** après avoir cliqué sur l’action **Envoyer à**, puis vous devez entrer des informations telles que l’imprimante, l’heure et la date, et la récurrence.  
 
 Pour en savoir plus, consultez [Planifier un état à exécuter](ui-work-report.md#ScheduleReport)
 
-### <a name="schedule-synchronization-between-prod_short-and-prod_short"></a>Planifier la synchronisation entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### Planifier la synchronisation entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Si vous avez intégré [!INCLUDE[prod_short](includes/prod_short.md)] avec [!INCLUDE[prod_short](includes/cds_long_md.md)], la file d’attente des travaux vous permet de planifier à quel moment synchroniser les données. Selon la direction et les règles que vous avez définies, l’entrée de la file d’attente des tâches peut créer des enregistrements dans une application pour faire correspondre les enregistrements dans l’autre. Un bon exemple est lorsque vous enregistrez un contact dans [!INCLUDE[crm_md](includes/crm_md.md)], l’entrée de la file d’attente peut configurer ce contact pour vous dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Planification d’une synchronisation entre Business Central et Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
-### <a name="schedule-the-posting-of-sales-and-purchase-orders"></a>Planifier la validation des commande vente et achat
+### Planifier la validation des commande vente et achat
 
 Vous pouvez utiliser les entrées de la file d’attente des travaux pour planifier l’exécution des processus métier en arrière-plan. Par exemple, les tâches en arrière-plan sont utiles quand plusieurs utilisateurs valident des commandes vente en même temps, mais qu’une seule commande peut être traitée à la fois. Pour plus d’informations, voir [Pour paramétrer la validation en arrière-plan avec les files d’attente des travaux](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
 
-## <a name="monitor-the-job-queue-with-telemetry"></a>Surveiller la file d’attente des travaux avec la télémétrie
+## Surveiller la file d’attente des travaux avec la télémétrie
 
 En tant qu’administrateur, vous pouvez utiliser [Application Insights](/azure/azure-monitor/app/app-insights-overview) pour recueillir et analyser la télémétrie que vous pouvez utiliser pour identifier les problèmes. Pour plus d’informations, consultez [Surveillance et analyse de la télémétrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) dans le contenu pour développeurs et administrateurs.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Administration](admin-setup-and-administration.md)  
 [Configuration de Business Central](setup.md)  

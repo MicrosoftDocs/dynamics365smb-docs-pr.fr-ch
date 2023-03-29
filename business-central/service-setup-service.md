@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, service items, repairs, maintenance, fix
+ms.search.keywords: 'service, service items, repairs, maintenance, fix'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 062e74b422f2190feb15d54cea47af90db468d3b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140568"
 ---
-# <a name="setting-up-service-management"></a>Paramétrage de la gestion des services
+
+# Paramétrage de la gestion des services
 Avant de pouvoir démarrer l’utilisation des fonctionnalités de gestion des services dans [!INCLUDE[prod_short](includes/prod_short.md)], il y a quelques éléments à configurer. Par exemple, vous pouvez établir le codage des services standard, les codes symptôme et panne, ainsi que configurer les articles de service et les types d’article de service requis par le service clientèle.  
 
 Lorsque vous configurez la gestion des services, vous devez choisir les services que vous allez fournir aux clients et les planifier. Un service correspond à un type de travail exécuté par une ou plusieurs ressources et fourni à un client. Ce peut être un type de réparation informatique. Un article de service correspond à l’équipement ou l’article associé au service : par exemple, un ordinateur à réparer, installé chez un client spécifique. Vous pouvez configurer les services afin de les intégrer au groupe d’articles de réparation ou de maintenance associés.  
@@ -40,7 +35,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Configurer les articles de service et les composants article de service. |[Configurer des articles de service](service-how-setup-service-items.md) |
 | Définir les bases pour créer des contrats de service et des devis contrat. |[Configurer des contrats de service](service-how-setup-service-contracts.md) |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Gestion des services](service-service.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 

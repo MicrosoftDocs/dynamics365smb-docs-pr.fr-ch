@@ -5,14 +5,9 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530205"
 ---
-# <a name="business-central-learning-catalog"></a>Catalogue d’apprentissage Business Central
+
+# Catalogue d’apprentissage Business Central
 
 Trouvez la bonne formation en ligne, les ateliers en personne et les événements adaptés à votre rôle d’utilisateur ou de partenaire de Business Central.
 
@@ -20,7 +15,7 @@ Trouvez la bonne formation en ligne, les ateliers en personne et les événement
 
     :::column:::
 
-    ### <a name="business-decision-maker"></a>Décideur
+    ### Décideur
 
     Décidez-vous d’investir dans les nouvelles technologies ? 
 
@@ -36,7 +31,7 @@ Trouvez la bonne formation en ligne, les ateliers en personne et les événement
 
     :::column:::
 
-    ### <a name="business-user"></a>Utilisateur professionnel
+    ### Utilisateur professionnel
 
     Vous venez de recevoir une nouvelle application ? 
 
@@ -54,7 +49,7 @@ Trouvez la bonne formation en ligne, les ateliers en personne et les événement
 
     :::column:::
 
-    ### <a name="developer"></a>Développeur
+    ### Développeur
 
     Avez-vous besoin d’écrire du code pour intégrer d’autres sources de données, étendre les fonctionnalités principales du système ou créer une application complexe ?
 
@@ -66,7 +61,7 @@ Trouvez la bonne formation en ligne, les ateliers en personne et les événement
 
     :::column:::
 
-    ### <a name="functional-consultant"></a>Consultant fonctionnel
+    ### Consultant fonctionnel
     
     Êtes-vous un expert en implémentation pour un domaine métier ? 
 

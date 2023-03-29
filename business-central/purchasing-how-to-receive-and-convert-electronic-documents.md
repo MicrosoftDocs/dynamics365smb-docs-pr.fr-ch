@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 189, 190, 191
+ms.search.keywords: null
+ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: ff1b79447091df53f45eff49779e1c73b2fe0fd5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534199"
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Recevoir et convertir des documents électroniques
+# Recevoir et convertir des documents électroniques
 
 La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge la réception de factures et d’avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d’échange de documents. Pour recevoir une facture d’un fournisseur en tant que document électronique PEPPOL, traitez le document sur la page Documents entrants pour le convertir en facture achat ou en ligne feuille comptabilité dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -32,7 +26,7 @@ Le trafic des documents électroniques dans et hors de [!INCLUDE[prod_short](inc
 Vous pouvez démarrer la conversion des documents électroniques manuellement, comme décrit dans cette procédure, ou vous pouvez activer un flux de travail pour convertir les documents électroniques automatiquement lorsque vous les recevez. La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] comprend un modèle de workflow, *Du document électronique entrant via le service OCR au workflow de factures achat ouvertes*, qui est prêt à être copié dans un workflow et activé. Pour plus d’informations, voir [Flux de travail](across-workflow.md).  
 
 > [!NOTE]  
-> Lorsque vous convertissez des documents électroniques reçus du service ROC en documents ou lignes feuille dans [!INCLUDE[prod_short](includes/prod_short.md)], plusieurs lignes du document source seront résumées sur une ligne. La ligne unique sera de type Compte général et les champs **Description** et **N°** (compte général) seront vides. La valeur du champ **Montant** est égal au montant total hors TVA de toutes les lignes du document source.  
+> Lorsque vous convertissez des documents électroniques reçus du service ROC en documents ou lignes feuille dans [!INCLUDE[prod_short](includes/prod_short.md)], plusieurs lignes du document origine seront résumées sur une ligne. La ligne unique sera de type Compte général et les champs **Description** et **N°** (compte général) seront vides. La valeur du champ **Montant** est égal au montant total hors TVA de toutes les lignes du document origine.  
 >
 > Pour vous assurer que les champs **Description** et **N°** sont remplis, vous pouvez choisir le bouton **Mapper le texte avec le compte** sur la page **Documents entrants** pour définir qu’un texte de facture donné doit toujours être associé à un compte de débit ou crédit donné dans la comptabilité. Ultérieurement, le champ **Description** des lignes document ou feuille créées à partir d’un document électronique pour ce fournisseur ou client sera renseigné avec le texte spécifié et le champ **N°** (compte général) avec le compte en question.  
 >
@@ -40,7 +34,7 @@ Vous pouvez démarrer la conversion des documents électroniques manuellement, c
 
 La procédure suivante décrit comment recevoir une facture fournisseur et la convertir en une facture achat dans [!INCLUDE[prod_short](includes/prod_short.md)]. La procédure est la même lorsque vous convertissez une facture fournisseur en une ligne feuille comptabilité.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Pour recevoir une facture électronique et la convertir en une facture achat
+### Pour recevoir une facture électronique et la convertir en une facture achat
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Documents entrants**, puis choisissez le lien associé.  
 
@@ -58,9 +52,9 @@ La procédure suivante décrit comment recevoir une facture fournisseur et la co
 
     Les erreurs de validation, généralement associées à des données de base erronées ou manquantes dans [!INCLUDE[prod_short](includes/prod_short.md)], seront affichées dans le raccourci **Messages d’erreur**.  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) associée
+## Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Documents entrants](across-income-documents.md)  

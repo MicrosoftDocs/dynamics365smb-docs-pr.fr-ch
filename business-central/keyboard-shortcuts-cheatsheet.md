@@ -6,93 +6,88 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
+ms.search.keywords: 'accessibility, shortcuts, keyboarding'
 ms.date: 08/19/2022
 ms.author: jswymer
-ms.openlocfilehash: ddcee165f275b3e7ad757b5a8a448c9a65a7d33c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605835"
 ---
-# <a name="keyboard-quick-reference---pc-only"></a>Référence rapide de raccourcis clavier - PC uniquement
 
-#### <a name="general"></a>Général
+# Référence rapide de raccourcis clavier - PC uniquement
 
-|Appuyez sur les touches suivantes|Pour|  
+#### Général
+
+|Sélectionnez ces touches|Pour|  
 |-|-|
-|Alt+F2|Afficher et masquer le volet Récapitulatif|
-|Alt+N|Créer un enregistrement|
-|Alt+Maj+N|Fermer un enregistrement nouvellement créé et en créer un nouveau|
-|Alt+O|Ajouter une nouvelle note pour l’enregistrement sélectionné|
-|Alt+Q|Ouvrir **Dites-moi**|
-|Ctrl+Alt+Q|Ouvrir **Rechercher des écritures**|
-|Alt+Haut|Ouvrir une info-bulle ou une erreur de validation|
-|Alt+Flèche bas|Ouvrir un menu déroulant ou une recherche|
-|Alt+T|Ouvrir la page **Mes paramètres**|
-|Alt+Maj+W|Ouvrir la fiche ou le document en cours dans une nouvelle fenêtre|
-|Ctrl+Inser|Insérer une nouvelle ligne sur un document|
-|Ctrl+Suppr|Supprimer la ligne sur un document, un journal ou une feuille de calcul|
-|Ctrl+Maj+F12|Maximiser la partie des éléments de ligne sur une page de document|
-|Ctrl+F1|Ouvrir le volet d’aide ou un article d’aide|
-|Ctrl+Clic|Naviguer lors de la personnalisation|
-|Ctrl+O|Changer d’entreprise ou d’environnement|
-|Maj+F12|Ouvrir l’explorateur de rôles, une vue d’ensemble des fonctionnalités|
-|F5/Ctrl+F5|Actualiser/recharger la page|
-|Tab/Maj+Tab|Déplacer le focus sur l’élément suivant/précédent|
-|F6/Maj+F6|Accéder au raccourci/à l’élément suivant|
+|<kbd>Alt</kbd>+<kbd>F2</kbd>|Afficher et masquer le volet Récapitulatif|
+|<kbd>Alt</kbd>+<kbd>N</kbd>|Créer un enregistrement|
+|<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>N</kbd>|Fermer un enregistrement nouvellement créé et en créer un nouveau|
+|<kbd>Alt</kbd>+<kbd>O</kbd>|Ajouter une nouvelle note pour l’enregistrement sélectionné|
+|<kbd>Alt</kbd>+<kbd>Q</kbd>|Ouvrir **Dites-moi**|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|Ouvrir **Rechercher des écritures**|
+|<kbd>Alt</kbd>+<kbd>Haut</kbd>|Ouvrir une info-bulle ou une erreur de validation|
+|<kbd>Alt</kbd>+<kbd>Flèche bas</kbd>|Ouvrir un menu déroulant ou une recherche|
+|<kbd>Alt</kbd>+<kbd>T</kbd>|Ouvrir la page **Mes paramètres**|
+|<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>W</kbd>|Ouvrir la fiche ou le document en cours dans une nouvelle fenêtre|
+|<kbd>Ctrl</kbd>+<kbd>Inser</kbd>|Insérer une nouvelle ligne sur un document|
+|<kbd>Ctrl</kbd>-<kbd>Suppr</kbd>|Supprimer la ligne sur un document, un journal ou une feuille de calcul|
+|<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>F12</kbd>|Maximiser la partie des éléments de ligne sur une page de document|
+|<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Ouvrir le volet d’aide ou un article d’aide|
+|<kbd>Ctrl</kbd>+Clic|Naviguer lors de la personnalisation|
+|<kbd>Ctrl</kbd>+<kbd>O</kbd>|Changer d’entreprise ou d’environnement|
+|<kbd>Maj</kbd>+<kbd>F12</kbd>|Ouvrir l’explorateur de rôles, une vue d’ensemble des fonctionnalités|
+|<kbd>F5</kbd>/<kbd>Ctrl</kbd>+<kbd>F5</kbd>|Actualiser/recharger la page|
+|<kbd>Tab</kbd>/<kbd>Maj</kbd>+<kbd>Tab</kbd>|Déplacer le focus sur l’élément suivant/précédent|
+|<kbd>F6</kbd>/<kbd>Maj</kbd>+<kbd>F6</kbd>|Accéder au raccourci/à l’élément suivant|
 
-#### <a name="navigate--select-rows"></a>Naviguer et sélectionner des lignes
+#### Naviguer et sélectionner des lignes
 
-|Appuyez sur les touches suivantes|Pour|
+|Sélectionnez ces touches|Pour|
 |-|-|
-|Accueil/fin|Aller au premier/dernier champ|
-|Ctrl+Accueil/Fin |Aller à la première/dernière ligne|
-|Ctrl+Haut/Bas|Naviguer sans perdre la sélection|
-|Ctrl+A |Sélectionner tout|
-|Ctrl+Espace|Basculer la sélection de ligne|
-|Ctrl/Shift+Clic|Ajoutez la ou les lignes à la sélection|
-|Maj+Haut/Bas|Ajouter une ligne au-dessus/au dessous de la sélection|
-|Maj+Haut/Bas de page|Sélectionner les lignes visibles ci-dessus/ci-dessous|
-|Ctrl+Enter|Focus hors de la liste|
+|<kbd>Accueil/fin|Aller au premier/dernier champ|
+|<kbd>Ctrl</kbd>+<kbd>Début</kbd>/<kbd>Fin</kbd>|Aller à la première/dernière ligne|
+|<kbd>Ctrl</kbd>+<kbd>Haut</kbd>/<kbd>Bas</kbd>|Naviguer sans perdre la sélection|
+|<kbd>Ctrl</kbd>+<kbd>A</kbd>|Sélectionner tout|
+|<kbd>Ctrl</kbd>+<kbd>Espace</kbd>|Basculer la sélection de ligne|
+|<kbd>Ctrl</kbd>/<kbd>Maj</kbd>+Clic|Ajoutez la ou les lignes à la sélection|
+|<kbd>Maj</kbd>+<kbd>Haut</kbd>/<kbd>Bas</kbd>|Ajouter une ligne au-dessus/au dessous de la sélection|
+|<kbd>Maj</kbd>+<kbd>Haut</kbd>/<kbd>Bas</kbd>|Sélectionner les lignes visibles ci-dessus/ci-dessous|
+|<kbd>Ctrl</kbd>+<kbd>Entrée</kbd>|Focus hors de la liste|
 
-#### <a name="copy--paste"></a>Copier et coller
+#### Copier et coller
 
-|Appuyez sur les touches suivantes|Pour|
+|Sélectionnez ces touches|Pour|
 |-|-|
-|Ctrl+C/V|Copier/coller des lignes|
-|F8|Copier le champ au-dessus dans la ligne actuelle|
+|<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Copier/coller des lignes|
+|<kbd>F8</kbd>|Copier le champ au-dessus dans la ligne actuelle|
 
-#### <a name="search-filter--sort"></a>Rechercher, filtrer et trier
+#### Rechercher, filtrer et trier
 
-|Appuyez sur les touches suivantes|Pour|
+|Sélectionnez ces touches|Pour|
 |-|-|
-|Alt+F7|Trier la colonne dans l’ordre croissant ou décroissant|
-|F3|Basculer la recherche|
-|Maj+F3|Basculer le volet Filtre ; focus sur les filtres de champ|
-|Alt+F3|Filtrer la valeur sélectionnée de cellules|
-|Maj+Alt+F3|Ajouter un filtre au champ sélectionnée|
-|Ctrl+Alt+Maj+F3|Réinitialiser les filtres|
+|<kbd>Alt</kbd>+<kbd>F7</kbd>|Trier la colonne dans l’ordre croissant ou décroissant|
+|<kbd>F3</kbd>|Basculer la recherche|
+|<kbd>Maj</kbd>+<kbd>F3</kbd>|Basculer le volet Filtre ; focus sur les filtres de champ|
+|<kbd>Alt</kbd>+<kbd>F3</kbd>|Filtrer la valeur sélectionnée de cellules|
+|<kbd>Maj</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Ajouter un filtre au champ sélectionnée|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>F3</kbd>|Réinitialiser les filtres|
 
-#### <a name="quick-entry"></a>Entrée rapide
+#### Entrée rapide
 
-|Appuyez sur les touches suivantes|Pour|
+|Sélectionnez ces touches|Pour|
 |-|-|
-|Ctrl+Maj+Entrée|Accéder au champ suivant Saisie rapide en dehors d’une liste|
-|Entrée/Maj+Entrée|Accéder au champ Saisie rapide précédent/suivant|
+|<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Entrée</kbd>|Accéder au champ suivant Saisie rapide en dehors d’une liste|
+|<kbd>Entrée</kbd>/<kbd>Maj</kbd>+<kbd>Entrée</kbd>|Accéder au champ Saisie rapide précédent/suivant|
 
-##### <a name="report-preview"></a>Aperçu de l’état
+##### Aperçu de l’état
 
-|Appuyez sur les touches suivantes|Pour|
+|Sélectionnez ces touches|Pour|
 |-|-|
-|Ctrl+Accueil/Fin|Aller à la première/dernière page|
+|<kbd>Ctrl</kbd>+<kbd>Début</kbd>/<kbd>Fin</kbd>|Aller à la première/dernière page|
 
-#### <a name="numeric-keypad"></a>Clavier numérique
+#### Clavier numérique
 
-|Appuyez sur les touches suivantes|Pour|  
+|Sélectionnez ces touches|Pour|  
 |-|-|
-|Alt+ Séparateur décimal|Basculer la sortie de la touche de séparateur décimal sur le pavé numérique|
+|<kbd>Alt</kbd>+<kbd>Séparateur décimal</kbd>|Basculer la sortie de la touche de séparateur décimal sur le pavé numérique|
 
 > [!TIP]
 > Pour une version graphique imprimable, sélectionnez l’image suivante et téléchargez le fichier PDF.

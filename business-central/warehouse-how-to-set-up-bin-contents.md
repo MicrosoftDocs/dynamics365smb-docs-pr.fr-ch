@@ -1,6 +1,6 @@
 ---
 title: Créer le contenu d’un emplacement
-description: Une fois que vous avez configuré vos emplacements, vous pouvez spécifier les articles à y stocker et configurer des règles qui contrôlent la fréquence de remplissage des emplacements.
+description: 'Une fois que vous avez configuré vos emplacements, vous pouvez spécifier les articles à y stocker et configurer des règles qui contrôlent la fréquence de remplissage des emplacements.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86d5d8410a884fa2a8357490c92658582fc9b9f5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530448"
 ---
-# <a name="create-bin-contents"></a>Créer le contenu d’un emplacement
+# Créer le contenu d’un emplacement
 
 Une fois la configuration des emplacements terminée, vous pouvez configurer leur contenu. En d’autres termes, vous pouvez configurer les articles à stocker dans un emplacement donné et définir les règles qui régissent le remplissage de l’emplacement avec un article spécifique. Vous pouvez effectuer cette opération manuellement sur la page **Contenu emplacement** ou automatiquement sur la page **Créer feuille contenu emplacement**.
 
-## <a name="to-create-bin-content-manually"></a>Pour créer le contenu d’emplacement manuellement
+## Pour créer le contenu d’emplacement manuellement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
 2. Sélectionnez le magasin à partir duquel vous souhaitez créer un contenu d’emplacement, puis choisissez l’action **Emplacements**.  
@@ -37,7 +31,7 @@ Si vous sélectionnez le champ **Fixe**, vous associez l’article à l’emplac
 > [!NOTE]  
 > Vous pouvez configurer simultanément plusieurs contenus emplacement sur la page **Feuille création contenu emplacement**.  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a>Pour créer le contenu d’un emplacement avec une feuille
+## Pour créer le contenu d’un emplacement avec une feuille
 
 Lorsque vous avez créé vos emplacements, vous pouvez créer le contenu de chaque emplacement dans la feuille de création de contenu d’emplacement.
 
@@ -55,17 +49,14 @@ Lorsque vous avez créé vos emplacements, vous pouvez créer le contenu de chaq
 
 Dans cette feuille, vous pouvez utiliser des lignes contenu de l’emplacement pour plusieurs emplacements, afin d’obtenir un aperçu convenable des articles que vous placez dans différents emplacements d’une zone, d’une allée, ou d’un casier donné.  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/set-up-zones-bins/) associée
+## Voir la [formation Microsoft](/training/modules/set-up-zones-bins/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
-[Calculer réappro. emplacement](warehouse-how-to-calculate-bin-replenishment.md)  
-[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
+[Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
 [Gestion des assemblages](assembly-assemble-items.md)  
-[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
-[Détails de conception : paramètres entrepôt](design-details-warehouse-setup.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

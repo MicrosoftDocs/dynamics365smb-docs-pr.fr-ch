@@ -1,23 +1,17 @@
 ---
 title: Configuration des opérations bancaires
-description: Utilisez les fiches compte bancaire pour suivre vos comptes bancaires et paramétrer le flux bancaire, telles que Yodlee, pour échanger des données.
+description: 'Utilisez les fiches compte bancaire pour suivre vos comptes bancaires et paramétrer le flux bancaire, telles que Yodlee, pour échanger des données.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
+ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95455b4100aa2628fe6f1e2eefdce8c8117f1166
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516410"
 ---
-# <a name="setting-up-banking"></a>Paramétrage des opérations bancaires
+# Paramétrage des opérations bancaires
 
 Les fiches compte bancaire vous permettent de gérer tous vos comptes bancaires, dans n’importe quelle devise. Une fois que vous avez configuré les comptes bancaires, vous pouvez également utiliser l’option d’impression de chèque.
 
@@ -31,7 +25,7 @@ Pour utiliser les services bancaires électroniques pour importer des relevés b
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  

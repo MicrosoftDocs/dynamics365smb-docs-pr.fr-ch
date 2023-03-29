@@ -1,26 +1,20 @@
 ---
 title: Configurer les centres de charge et les postes de charge
-description: Les fiches Centre de charge organisent les exigences et les valeurs fixes des ressources de production, et régissent ainsi la production des centres de charge.
+description: 'Les fiches Centre de charge organisent les exigences et les valeurs fixes des ressources de production, et régissent ainsi la production des centres de charge.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
+ms.search.form: '99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 639a0a8cc8c7c3efa9e7331a1db45dc031f4515b
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557238"
 ---
-# <a name="set-up-work-centers-and-machine-centers"></a>Configurer les centres de charge et les postes de charge
+# Configurer les centres de charge et les postes de charge
 
 L’application distingue trois types de capacité. Ces capacités sont ordonnées de façon hiérarchique. Chaque niveau contient les niveaux subordonnés.  
 
-Le premier niveau correspond au groupe centres de charge. Des centres de charge sont affectés aux groupes centres de charge. Chaque centre de charge ne peut appartenir qu'à un seul groupe centres de charge.
+Le premier niveau correspond au groupe centres de charge. Des centres de charge sont affectés aux groupes centres de charge. Chaque centre de charge ne peut appartenir qu’à un seul groupe centres de charge.
 
 Vous pouvez affecter plusieurs postes de charge à chaque centre de charge. Un poste de charge ne peut appartenir qu’à un seul centre de charge.  
 
@@ -31,7 +25,7 @@ La disponibilité est enregistrée dans les écritures calendrier.
 > [!IMPORTANT]
 > Avant de configurer des centres ou postes de charge, vous devez configurer des calendriers usine. Pour plus d’informations, voir [Créer des calendriers usine](production-how-to-create-work-center-calendars.md).
 
-## <a name="to-set-up-a-work-center"></a>Pour configurer un centre de charge
+## Pour configurer un centre de charge
 
 La procédure suivante décrit essentiellement comment configurer un centre de charge. La procédure de configuration d’un calendrier poste de charge est similaire, sauf pour le raccourci **Paramètres gamme**.  
 
@@ -39,7 +33,7 @@ La procédure suivante décrit essentiellement comment configurer un centre de c
 2. Sélectionnez l’action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Dans le champ **Groupe centres de charge**, sélectionnez le regroupement de ressources de niveau supérieur sous lequel le centre de charge est organisé, au besoin. Choisissez l’action **Nouveau** dans la liste déroulante.  
-5. Dans le champ **Autre centre de charge**, sélectionnez le Centre de charge à utiliser si ce Centre de charge n'est pas disponible ou quand la demande dépasse sa capacité. L’autre Centre de charge est à titre informatif uniquement et n'est pas automatiquement inclus dans les processus de planification.
+5. Dans le champ **Autre centre de charge**, sélectionnez le Centre de charge à utiliser si ce Centre de charge n’est pas disponible ou quand la demande dépasse sa capacité. L’autre Centre de charge est à titre informatif uniquement et n’est pas automatiquement inclus dans les processus de planification.
 6. Sélectionnez le champ **Bloqué** pour empêcher le centre de charge d’être utilisé pour quelque traitement que ce soit. Cela signifie que la production ne peut pas être validée pour un article produit dans le centre de charge. Pour plus d’informations, voir [Valider la production](production-how-to-post-output-quantity.md).
 7. Dans le champ **Coût unitaire direct**, entrez le coût de production d’une unité de mesure dans le centre de charge, sans intégrer les autres éléments de coût. Ce coût est souvent appelé *frais de main-d’œuvre directs*.  
 8. Dans le champ **% coût indirect**, entrez les coûts opératoires généraux de l’utilisation du centre de charge sous la forme d’un pourcentage du coût unitaire direct. Ce pourcentage est ajouté au coût direct lors du calcul du coût unitaire.  
@@ -77,13 +71,13 @@ La procédure suivante décrit essentiellement comment configurer un centre de c
 > [!NOTE]
 > Utilisez les files d’attente pour fournir un tampon entre le moment où un composant arrive sur une machine ou un centre de travail et le moment où l’opération démarre réellement. Par exemple, une pièce est livrée à un poste de charge à 10h00, mais il faut une heure pour la monter sur la machine de sorte que l’opération ne démarre pas avant 11h00. Pour tenir compte de cette heure, le temps d’attente serait d’une heure. La valeur du champ **File d’attente** sur une fiche poste de charge ou centre de charge spécifique plus la somme des valeurs des champs **Temps de préparation**, **Temps de fonctionnement**, **Temps d’attente** et **Temps de transfert** sur la ligne gamme article se combinent pour donner le délai de fabrication de l’article. Cela permet de fournir des temps de production globaux précis.  
 
-## <a name="considerations-about-capacity"></a>Considérations sur la capacité
+## Considérations sur la capacité
 
 La capacité et l’efficacité spécifiées pour un centre de charge et de poste de charge n’affectent pas seulement la capacité disponible. Elles ont également un impact sur le temps de production global qui se compose du temps de préparation et du temps d’exécution, qui sont tous deux définis sur la ligne gamme.  
 
 Lorsqu’une ligne gamme spécifique est affectée à un centre de charge et de poste de charge, le système calcule la capacité nécessaire et le temps nécessaire pour terminer l’opération.  
 
-### <a name="run-time"></a>Temps d’exécution
+### Temps d’exécution
 
 Pour calculer le temps d’exécution, le système alloue le temps exact qui est défini dans le champ **Durée** de la ligne gamme. Ni l’efficacité ni la capacité n’ont d’impact sur le temps alloué. Par exemple, si le temps d’exécution est défini sur 2 heures, le temps alloué sera de 2 heures, quelles que soient les valeurs des champs d’efficacité et de capacité du Centre de charge.  
 
@@ -99,7 +93,7 @@ La *durée* d’une opération, au contraire, considère à la fois l’efficaci
 
 La capacité fractionnelle est délicate, et nous en discuterons plus tard. 
 
-### <a name="setup-time"></a>Temps de préparation
+### Temps de préparation
 
 La répartition du temps pour le Temps de préparation dépend de la capacité et est calculée comme *Temps de préparation * Capacité*. Par exemple, si la capacité est définie sur *2*, votre temps de préparation alloué sera doublé, car vous devez configurer deux machines pour l’opération.  
 
@@ -110,7 +104,7 @@ La *Durée* du temps de préparation dépend de l’efficacité et est calculée
 
 La capacité fractale n’est pas quelque chose de facile à employer, et elle est utilisée dans des cas très spécifiques.
 
-### <a name="work-center-processing-multiple-orders-simultaneously"></a>Centre de charge traitant plusieurs commandes simultanément
+### Centre de charge traitant plusieurs commandes simultanément
 
 Prenons l’exemple d’une cabine de peinture au pistolet. Elle a la même configuration et le même temps d’exécution pour chaque lot traité. Mais chaque lot peut contenir plusieurs commandes individuelles peintes simultanément.  
 
@@ -128,7 +122,7 @@ Le temps de préparation alloué pour chaque ordre individuel sera dans l’ordr
 Dans les deux cas, le temps total alloué pour tous les ordres est de deux heures.
 
 
-### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Une ressource efficace ne peut consacrer qu’une partie de sa date de travail à un travail productif
+### Une ressource efficace ne peut consacrer qu’une partie de sa date de travail à un travail productif
 
 > [!NOTE]
 > Ce scénario n’est pas recommandé. Nous vous recommandons d’utiliser plutôt l’efficacité. 
@@ -139,7 +133,7 @@ Le temps d’exécution alloué est de deux heures et la durée est de quatre he
 
 N’utilisez pas le temps de préparation pour de tels scénarios, car le système n’allouera que 50 % du temps. Si le Temps de préparation est défini sur *2*, le Temps de préparation alloué est d’une heure et la durée est de deux heures.
 
-### <a name="consolidated-calendar"></a>Calendrier consolidé
+### Calendrier consolidé
 
 Lorsque le champ **Calendrier consolidé** est sélectionné, le Centre de charge n’a pas de capacité propre. Au lieu de cela, sa capacité est égale à la somme des capacités de tous les Postes de charge qui sont affectés au Centre de charge.  
 
@@ -151,17 +145,17 @@ Par exemple, si vous avez deux Postes de charge avec une efficacité de 80 et 
 > [!NOTE]
 >  Utilisez le champ **Calendrier consolidé** lorsque vous structurez vos gammes pour planifier les opérations de production au niveau du Poste de charge, et non au niveau du centre de charge. Lorsque vous consolidez le calendrier, la page **Charge centre de charge** et les rapports deviennent une vue d’ensemble de la charge globale dans tous les centres de charge qui sont affectés au Poste de charge.
 
-### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Exemple - Plusieurs postes de charge sont affectés à un centre de charge
+### Exemple - Plusieurs postes de charge sont affectés à un centre de charge
 
 Lors de la configuration des postes et des centres de charge, il convient de planifier les capacités constituant la capacité totale.
 
-Si différents postes de charge (tels que 210 Table d'emballage 1, 310 Cabine de peinture...) sont affectés à un centre de charge, il convient de prendre en compte les capacités de chaque poste de charge, car la panne de l'un de ces postes risque d'interrompre l'ensemble du processus. Vous pouvez saisir les groupes postes en fonction de leur capacité mais vous ne pouvez pas les inclure dans le planning. Lorsque vous désactivez le champ **Calendrier consolidé**, seule la capacité du centre de charge est affectée au planning, pas le poste de charge.
+Si différents postes de charge (tels que 210 Table d’emballage 1, 310 Cabine de peinture...) sont affectés à un centre de charge, il convient de prendre en compte les capacités de chaque poste de charge, car la panne de l’un de ces postes risque d’interrompre l’ensemble du processus. Vous pouvez saisir les groupes postes en fonction de leur capacité mais vous ne pouvez pas les inclure dans le planning. Lorsque vous désactivez le champ **Calendrier consolidé**, seule la capacité du centre de charge est affectée au planning, pas le poste de charge.
 
-Toutefois, lorsqu'un centre de charge combine des postes de charge identiques (tels que 210 Table d'emballage 1 et 220 Table d'emballage 2), il convient de prendre en compte ce centre de charge en tant que somme des postes de charge affectés. Le centre de charge est donc répertorié avec une capacité zéro. La capacité commune est affectée au centre de charge lorsque vous activez le champ **Calendrier consolidé**.
+Toutefois, lorsqu’un centre de charge combine des postes de charge identiques (tels que 210 Table d’emballage 1 et 220 Table d’emballage 2), il convient de prendre en compte ce centre de charge en tant que somme des postes de charge affectés. Le centre de charge est donc répertorié avec une capacité zéro. La capacité commune est affectée au centre de charge lorsque vous activez le champ **Calendrier consolidé**.
 
 Lorsque les capacités des centres de charge n’ajoutent en rien à la capacité totale, vous pouvez paramétrer Rendement = 0.
 
-## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Pour configurer un centre de charge ou un poste de charge à la capacité critique
+## Pour configurer un centre de charge ou un poste de charge à la capacité critique
 
 Vous devez configurer les ressources de production que vous considérez comme critique et de l’accepter comme une charge limitée au lieu de la charge illimitée par défaut que d’autres ressources de production acceptent. Une capacité critique peut être un centre de charge ou un poste de charge que vous avez identifié comme étant un goulot d’étranglement et pour lequel vous souhaitez établir une charge limitée.
 
@@ -180,7 +174,7 @@ Lors de la planification avec des ressources avec contraintes de capacité, le s
 
 > En cas de répartition des opérations, le temps de préparation n’est affecté qu’une fois car on suppose qu’un certain ajustement manuel est effectué pour optimiser le planning.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Créer des calendriers usine](production-how-to-create-work-center-calendars.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  

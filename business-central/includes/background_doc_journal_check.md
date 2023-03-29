@@ -3,14 +3,8 @@ author: bholtorf
 ms.topic: include
 ms.date: 02/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: 7441e5632c5d1541f76ecc4c64c334e1c1853068
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525404"
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Vérifier des données dans des documents et des feuilles pendant votre travail
+## Vérifier des données dans des documents et des feuilles pendant votre travail
 
 Dans la 1re vague de lancement de 2022, nous avons introduit une fonctionnalité qui validera pendant la saisie les données que vous saisissez dans les documents et les feuilles. Par exemple, l’activation de cette fonctionnalité peut aider à éviter les erreurs de saisie de données ou l’impossibilité de valider quelque chose en raison d’une erreur. 
 

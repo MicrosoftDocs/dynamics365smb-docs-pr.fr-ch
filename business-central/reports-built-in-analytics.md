@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
-ms.openlocfilehash: 8968c050701871f610c051432229f88f73804f32
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607785"
 ---
-# <a name="built-in-analytics"></a>Analyses intégrées
+# Analyses intégrées
 
 [!INCLUDE[prod_short](includes/prod_short.md)] est livré avec certaines fonctionnalités qui vous permettent d’analyser les données sous une forme agrégée. Cette fonctionnalité est utile si, par exemple, vous souhaitez suivre les indicateurs de performance clés (KPI) financiers ou analyser les états financiers dans Microsft Excel. Vous trouverez ci-dessous des liens pour vous aider à apprendre comment l’utiliser.
 
@@ -29,7 +23,7 @@ ms.locfileid: "9607785"
 |Analyser les données financières de plusieurs sociétés | [Consolider des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md) |
 |Obtenir des informations sur les états utilisés par les utilisateurs| [Signaler l’utilisation de la télémétrie](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble de Business Intelligence et Reporting](reports-use-reports.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Valider le rebut manuellement
-description: Si le traitement produit un rebut, vous pouvez entrer ce rebut dans la feuille production. Remarquez que la quantité perte n’augmente pas la quantité produite.
+description: 'Si le traitement produit un rebut, vous pouvez entrer ce rebut dans la feuille production. Remarquez que la quantité perte n’augmente pas la quantité produite.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,21 +9,15 @@ ms.workload: na
 ms.search.form: 99000823
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d28439357d179e41dfacbaa8504dc0a7fa98230e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516707"
 ---
-# <a name="post-scrap-manually"></a>Valider le rebut manuellement
+# Valider le rebut manuellement
 
 Si le traitement produit un rebut, vous pouvez entrer ce rebut dans la feuille production.  
 
 > [!NOTE]
 > La quantité mise au rebut n’augmente pas la quantité produite.  
 
-## <a name="to-post-scrap-manually"></a>Pour valider le rebut manuellement
+## Pour valider le rebut manuellement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille production**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -31,7 +25,7 @@ Si le traitement produit un rebut, vous pouvez entrer ce rebut dans la feuille p
 4. Dans le champ **Code rebut**, saisissez le code rebut.  
 5. Choisissez l’action **Valider** pour valider le rebut spécifié par opération.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Production](production-manage-manufacturing.md)
 [Paramétrage de la production](production-configure-production-processes.md)  

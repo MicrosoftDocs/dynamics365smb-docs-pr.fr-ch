@@ -1,32 +1,25 @@
 ---
 title: Créer des factures d’acompte
-description: Traitez les situations où votre fournisseur ou vous-même exigez un acompte. Utilisez les pourcentages par défaut pour chaque ligne vente ou achat, ou ajustez le montant en fonction si nécessaire.
-author: edupont04
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 42, 50, 9305, 9307
-ms.date: 12/02/2021
-ms.author: edupont
-ms.openlocfilehash: ffb2adb5a0ec43da14ee7fd9126c3293ea73ab22
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534928"
+description: 'Traitez les situations où votre fournisseur ou vous-même exigez un acompte. Utilisez les pourcentages par défaut pour chaque ligne vente ou achat, ou ajustez le montant en fonction si nécessaire.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bhielse
+ms.topic: how-to
+ms.date: 02/02/2023
+ms.custom: bap-template
+ms.search.form: '42, 50, 9305, 9307'
 ---
-# <a name="create-prepayment-invoices"></a>Créer des factures d’acompte
+# Créer des factures d’acompte
 
 Si vous demandez aux clients de payer avant d’expédier leur commande, vous pouvez utiliser les fonctionnalités de prépaiement. Il en va de même si votre fournisseur vous demande de paiement avant de vous expédier une commande.  
 
-Vous pouvez lancer le traitement de l’acompte lorsque vous créez une commande vente ou achat. Si vous avez un pourcentage acompte par défaut pour un article donné sur la commande ou pour le client ou fournisseur, celui-ci sera automatiquement inclus dans la facture acompte résultante. Vous pouvez également spécifier un pourcentage acompte pour l’ensemble du document.
+Vous pouvez lancer le traitement de l’acompte lorsque vous créez une commande vente ou achat. Le pourcentage acompte par défaut pour un article donné sur la commande, ou pour le client ou le fournisseur, sera automatiquement inclus dans la facture acompte résultante. Vous pouvez également spécifier un pourcentage acompte pour l’ensemble du document.
 
 Après avoir créé une commande vente ou achat, vous pouvez créer une facture acompte. Utilisez les pourcentages par défaut pour chaque ligne vente ou achat, ou ajustez le montant en fonction si nécessaire. Par exemple, vous pouvez spécifier un montant total pour la commande entière.  
 
 La procédure suivante décrit comment facturer un acompte pour une commande vente. La procédure est identique pour des commandes achat.  
 
-## <a name="to-create-a-prepayment-invoice"></a>Pour créer une facture acompte
+## Pour créer une facture acompte
 
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Créez une commande vente pour le client approprié. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
@@ -41,6 +34,14 @@ La procédure suivante décrit comment facturer un acompte pour une commande ven
     Si vous souhaitez spécifier une facture acompte avec une ligne pour chaque ligne commande vente à laquelle un pourcentage d’acompte est associé, alors ne choisissez pas le champ **Compresser acompte**.  
 
     La date d’échéance de l’acompte est calculée automatiquement en fonction de la valeur du **Code conditions paiement acompte**.
+
+    > [!NOTE]
+    > Lorsque certaines lignes d’une facture nécessitent un acompte de 100 % et d’autres non, et qu’il y a de la TVA sur le compte d’acompte, le montant arrondi peut entraîner une erreur lorsque vous créez une facture d’acompte. L’erreur se produit car le montant de la facture d’acompte est supérieur aux montants des lignes du document. Pour résoudre le problème, modifiez les montants d’une ou de toutes les lignes nécessitant un acompte de 100 %. Le changement recalculera l’arrondi du montant de la TVA et utilisera la différence d’arrondi cumulée sur la dernière ligne modifiée.
+    >
+    > Deux autres façons de résoudre le problème sont les suivantes :
+    >
+    > * Créez un groupe comptabilisation produit TVA et des paramètres comptabilisation TVA distincts avec un identifiant de TVA distinct, et utilisez-les pour les articles ou les lignes qui nécessitent un acompte de 100 %. L’arrondi est effectué pour chaque identifiant de TVA, de sorte qu’un arrondi séparé sera effectué pour les articles affectés au groupe comptabilisation produit TVA.
+    > * Utilisez une facture distincte pour les articles ou les lignes nécessitant ou non des acomptes à 100 %.
 
 3. Renseignez les lignes vente.  
 
@@ -69,13 +70,13 @@ Vous pouvez émettre des factures acompte supplémentaires pour la commande. Pou
 
  Lorsque vous êtes prêt à valider le reste de la facture, validez-le comme n’importe quelle facture. Le montant d’acompte est automatiquement déduit du montant dû.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Mettre à jour automatiquement le statut des commandes prépayées et des factures
+## Mettre à jour automatiquement le statut des commandes prépayées et des factures
 
 Vous pouvez accélérer le traitement des commandes et des factures en configurant des entrées de file d’attente qui mettent automatiquement à jour le statut de ces documents. Lorsqu’une facture d’acompte est payée, les entrées de la file d’attente des travaux peuvent changer automatiquement le statut du document de **Acompte en attente** sur **Validé**. Lorsque vous configurez les entrées de la file d’attente des travaux, les unités de code que vous devrez utiliser sont **383 Mise à jour En attente Acompte Ventes** et **383 Mise à jour En attente Acompte Achats**. Nous vous recommandons de programmer les entrées pour qu’elles s’exécutent fréquemment, par exemple, toutes les minutes. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Facturation d’acomptes](finance-invoice-prepayments.md)  
 [Procédure pas à pas : configuration et facturation d’acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

@@ -1,23 +1,17 @@
 ---
 title: Affecter un niveau de priorité à un fournisseur (contient une vidéo)
-description: Vous pouvez affecter des numéros à vos fournisseurs pour les classer par ordre de priorité et faciliter des propositions de paiement dans Business Central.
+description: "Vous pouvez affecter des numéros à vos fournisseurs pour les classer par ordre de priorité et faciliter des propositions de paiement dans Business\_Central."
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: supplier, payment priority
-ms.search.form: 26, 27
+ms.search.keywords: 'supplier, payment priority'
+ms.search.form: '26, 27'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ed025f130fc2de9be77c373ab9b651844496b8a7
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144263"
 ---
-# <a name="prioritize-vendors"></a>Octroyer une priorité aux fournisseurs
+# Octroyer une priorité aux fournisseurs
 
 [!INCLUDE[prod_short](includes/prod_short.md)] peut proposer différents paiements aux fournisseurs, par exemple les paiements arrivant à échéance ou les paiements donnant lieu à un escompte. Pour plus d’informations, reportez vous à [Proposer des paiements fournisseur](payables-how-suggest-vendor-payments.md).
 
@@ -25,7 +19,7 @@ Tout d’abord, vous devez attribuer une priorité à vos fournisseurs en leur a
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
-## <a name="to-prioritize-vendors"></a>Pour octroyer une priorité à des fournisseurs
+## Pour octroyer une priorité à des fournisseurs
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Fournisseurs**, puis choisissez le lien associé.
 2. Sélectionnez le fournisseur approprié, puis sélectionnez **Modifier**.
@@ -35,7 +29,7 @@ Tout d’abord, vous devez attribuer une priorité à vos fournisseurs en leur a
 
 Si vous ne souhaitez pas attribuer de priorité à un fournisseur, laissez le champ **Priorité** blanc. Par la suite, lorsque vous utilisez la fonction de proposition de paiements, ce fournisseur est répertorié après tous les fournisseurs possédant un numéro prioritaire. Vous pouvez saisir autant de niveaux de priorité que nécessaire.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)  
 [Définition des achats](purchasing-setup-purchasing.md)  

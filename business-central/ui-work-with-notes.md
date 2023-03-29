@@ -1,23 +1,17 @@
 ---
 title: Ajout d’informations aux enregistrements | Microsoft Docs
-description: Ajoutez une note à un enregistrement dans l’application. Par exemple, si vous disposez d’informations supplémentaires sur une commande vente qui ne correspondent à aucun des champs de la commande vente, vous pouvez rédiger une procédure.
+description: 'Ajoutez une note à un enregistrement dans l’application. Par exemple, si vous disposez d’informations supplémentaires sur une commande vente qui ne correspondent à aucun des champs de la commande vente, vous pouvez rédiger une procédure.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ROBOTS: NOINDEX,NOFOLLOW
+ms.search.keywords: null
+ROBOTS: 'NOINDEX,NOFOLLOW'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dde082a69ff9074dc0afd86e6b4e71f0d68d5cbd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511959"
 ---
-# <a name="add-and-view-notes-on-records"></a>Ajouter et afficher des notes sur des enregistrements
+# Ajouter et afficher des notes sur des enregistrements
  Vous <!--OnPrem and your colleagues -->pouvez ajouter des notes à des enregistrements dans l’application. De nombreuses page, en particulier celles qui affichent une liste d’enregistrements, comme la page **Commandes vente**, incluent l’action **Notes** ou le récapitulatif **Notes**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
  > [!NOTE]  
@@ -46,7 +40,7 @@ ms.locfileid: "8511959"
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -1,6 +1,6 @@
 ---
 title: Configurer des types d’emplacement
-description: Affectez des types et des activités de flux de base aux emplacements et, ce faisant, définissez la manière dont les emplacements sont utilisés pour des activités d’entrepôt particulières.
+description: 'Affectez des types et des activités de flux de base aux emplacements et, ce faisant, définissez la manière dont les emplacements sont utilisés pour des activités d’entrepôt particulières.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,20 +9,14 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2bec10341df30f451e05289573c48132cf20b00a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534010"
 ---
-# <a name="set-up-bin-types"></a>Configurer des types d’emplacement
+# Configurer des types d’emplacement
 
 Vous pouvez diriger la circulation des articles vers les emplacements que vous avez définis pour des activités entrepôt particulières. Vous attribuez à chaque emplacement des activités circulation de base, et définissez de cette façon la manière dont un emplacement est utilisé, en lui affectant un type.  
 
 Il existe six types. Votre entrepôt peut fonctionner avec la totalité de ces six types d’emplacement, mais vous pouvez également décider de n’utiliser que les types RECEPT., RANGPRELEV., EXPED. et CQ. Ces quatre types d’emplacement permettent à des propositions relatives à la prise en charge de la circulation des articles d’être effectuées et vous permettent d’enregistrer les différences de stock.  
 
-## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Pour configurer les types d’emplacement que vous souhaitez utiliser
+## Pour configurer les types d’emplacement que vous souhaitez utiliser
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Types d’emplacement**, puis sélectionnez le lien associé.  
 2.  Sur la page **Types emplacement**, créez un code à 10 caractères pour chaque type d’emplacement.  
@@ -44,15 +38,14 @@ Les types d’emplacement que vous pouvez créer sont répertoriés ciaprès.
 |RANGPRELEV.|Articles dans des emplacements qui sont proposés à la fois pour les fonctions de rangement et de prélèvement. Les emplacements de ce type ont vraisemblablement un classement différent. Vous pouvez configurer vos emplacements de stockage en vrac comme ce type d’emplacement avec un classement peu élevé par rapport à vos emplacements prélèvement ordinaires ou vos emplacements prélèvement en aval.|  
 |CQ|Cet emplacement est utilisé pour des ajustements stock, si vous le spécifiez sur la fiche magasin dans le champ **Code empl. ajustement**. Vous pouvez également configurer des emplacements de ce type pour des articles défectueux ou en cours de contrôle. vous pouvez déplacer des articles vers ce type d’emplacement afin que la circulation habituelle des articles ne puisse pas y accéder.<br /><br /> **REMARQUE :** contrairement à tous les autres types d’emplacement, les cases à cocher pour le traitement des articles sont toutes désactivées par défaut pour le type **CQ**. Cela signifie que tout contenu que vous placez dans un emplacement de type CQ est exclu des flux d’articles.|  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/set-up-zones-bins/) associée
+## Voir la [formation Microsoft](/training/modules/set-up-zones-bins/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
-[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
+[Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
 [Gestion des assemblages](assembly-assemble-items.md)  
-[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

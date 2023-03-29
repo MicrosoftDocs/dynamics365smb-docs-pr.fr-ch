@@ -7,17 +7,11 @@ ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
-ms.search.keywords: kit, kitting, substitute items
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.search.keywords: 'kit, kitting, substitute items'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
-ms.openlocfilehash: a9c686531a813e9eaf849d30fbcb41fc4f31c696
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804488"
 ---
-# <a name="sell-items-assembled-to-order"></a>Vente d’articles à assembler pour commande
+# Vente d’articles à assembler pour commande
 
 Les articles paramétrés pour assembler pour commande ne devraient pas être en stock, et seront assemblés une fois inclus dans une commande vente. Un article est configuré pour assembler sur commande quand le champ **Stratégie d’assemblage** sur la fiche article contient **Assembler pour commande**. Quand vous entrez l’article dans une ligne commande vente, un ordre d’assemblage est automatiquement créé et lié à la commande vente.  
 
@@ -34,7 +28,7 @@ Dans cette procédure, vous effectuez la vente d’un article que vous assemblez
 > [!NOTE]  
 > La procédure suivante n’inclut pas les étapes de création d’une commande vente standard ayant lieu avant l’étape où vous entrez l’article à assembler pour commande dans une ligne commande vente. En savoir plus sur la création de commandes vente sur [Vendre des produits avec une commande vente client](sales-how-sell-products.md).  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Vendre un article qui est assemblé pour commande
+## Vendre un article qui est assemblé pour commande
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Créez une commande client. 
@@ -66,15 +60,15 @@ Dans cette procédure, vous effectuez la vente d’un article que vous assemblez
 > [!NOTE]  
 > Les substitutions d’articles n’entraînent pas automatiquement le remplacement d’un article par un autre, par exemple pendant la création d’une commande vente ou dans une nomenclature. Au lieu de cela, vous serez alerté du fait qu’un substitut est disponible.
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Utilisation des nomenclatures d’assemblage](assembly-how-work-assembly-boms.md)  
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Stock](inventory-manage-inventory.md)  
-[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
+[Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

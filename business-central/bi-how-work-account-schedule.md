@@ -1,23 +1,16 @@
 ---
 title: Créer des états financiers avec des données financières et des catégories de compte
 description: Décrit comment utiliser des états financiers pour créer différentes vues et différents états pour l’analyse des données de performances financières.
-author: edupont04
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
-ms.search.form: 103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766
-ms.date: 08/12/2022
-ms.author: edupont
-ms.openlocfilehash: 3b71bec5ca7f1c903913b4244eb176dbf1c53c86
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605261"
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 02/27/2023
+ms.custom: bap-template
+ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial report'
+ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ---
-# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Préparer Financial Reporting avec des données financières et des catégories de compte
+# Préparer Financial Reporting avec des données financières et des catégories de compte
 
 Les états financiers vous donnent un aperçu des données financières enregistrées dans votre plan comptable (COA). Les états financiers analysent les chiffres de la comptabilité et comparent les écritures comptables et les écritures comptables budget. Les résultats s’affichent dans les graphiques et les états de votre tableau de bord, comme le graphique Trésorerie et les états Comptes de gestion et Bilan.
 
@@ -27,7 +20,7 @@ Vous accédez à ces deux états, par exemple, avec l’action **Relevés financ
 
 La configuration des états financiers exige une compréhension des données financières du plan comptable. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget; mais cela nécessite d’avoir créé des budgets. Pour plus d’informations, consultez [Créer des budgets](finance-how-create-budgets.md).
 
-## <a name="financial-reports"></a>États financiers
+## États financiers
 
 Les états financiers organisent les comptes à partir de votre plan comptable de manière à faciliter la présentation des données. Vous pouvez configurer différentes présentations pour définir les informations que vous souhaitez extraire du plan comptable. Les états financiers fournissent un emplacement pour les calculs qui ne peuvent pas être effectués directement dans le plan comptable. Par exemple, vous pouvez créer des sous-totaux pour des groupes de comptes, puis inclure ce total dans d’autres totaux. Un autre exemple consiste à calculer les marges bénéficiaires dans des axes tels que les départements ou les groupes client. De plus, vous pouvez filtrer les écritures comptables et les écritures comptables budget, par exemple, par solde période ou par montant débit.
 
@@ -37,7 +30,7 @@ Vous pouvez également comparer deux ou plusieurs états financiers et définiti
 * créer autant d’états financiers que nécessaire, chacun étant doté d’un nom unique ;
 * configurer différentes présentations d’états et imprimer les états avec les chiffre actuels.
 
-## <a name="gl-account-categories"></a>Catégories de compte général
+## Catégories de compte général
 
 Vous pouvez utiliser les catégories de compte général pour modifier la présentation de vos états financiers. Par exemple, une fois que vous avez configuré vos catégories de compte sur la page **Catégories de compte général**, vous pouvez choisir l’action **Générer les états financiers**, et mettre à jour les états financiers sous-jacents pour les états financiers de base. La prochaine fois que vous exécuterez l’un de ces états, par exemple l’état **Relevé de solde**, de nouveaux totaux et des sous-entrées seront ajoutés.
 
@@ -46,7 +39,7 @@ Vous pouvez utiliser les catégories de compte général pour modifier la prése
 >
 > Il est recommandé de créer et de structurer vos propres catégories de compte général de niveau inférieur à partir de zéro, dans une hiérarchie si nécessaire, plutôt que d’essayer de réorganiser les catégories existantes. Par exemple, vous pouvez restructurer le nœud **Passif** pour contenir un nouveau nœud **Équité** suivi des nœuds **Passif à court terme** et **Passif à long terme**.
 
-## <a name="create-a-new-financial-report"></a>Créer un état financier
+## Créer un état financier
 
 Vous utilisez les états financiers pour analyser les comptes généraux ou pour comparer les écritures comptables et les écritures comptables budget. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget.
 
@@ -54,6 +47,9 @@ Les états financiers dans la version standard de [!INCLUDE[prod_short](includes
 
 > [!TIP]
 > Après avoir créé un état financier, vous pouvez utiliser la page **État financier** pour prévisualiser et valider votre état financier nouvellement défini. Pour ouvrir la page, sélectionnez l’action **Modifier l’état financier**.  
+
+> [!NOTE]
+> Lorsque vous ouvrez un état financier en mode Afficher ou Modifier, le volet Filtre est disponible. Cependant, n’utilisez pas le volet pour définir des filtres pour les données de votre état. Les filtres peuvent provoquer des erreurs ou ne pas réellement filtrer les données. À la place, utilisez les champs de filtre des raccourcis **Options** et **Axes analytiques**.
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **États financiers**, puis choisissez le lien associé.  
 2. Sur la page **États financiers**, choisissez l’action **Nouveau** pour créer un nom d’état financier.
@@ -68,15 +64,15 @@ Les états financiers dans la version standard de [!INCLUDE[prod_short](includes
     > [!NOTE]
     > Le champ **N° ligne** affiche les 10 premiers caractères d’un identifiant, par exemple, un numéro de compte. Si vous ajoutez des éléments avec des identifiants qui commencent par les mêmes 10 caractères, vous aurez des doublons dans le champ **N° ligne** . Si nécessaire, vous pouvez modifier manuellement les identifiants après avoir inséré les éléments. Les identifiants complets sont affichés dans le champ **Totalisation**.
 
-7. Sur la page **États financiers**, choisissez l’action **Modifier l’état financier** pour voir l’état financier qui en résulte.
+7. Sur la page **États financiers**, choisissez l’action **Modifier l’état financier** pour accéder à l’état financier qui en résulte.
 8. Sur la page **État financier**, dans le champ **Définition de colonne**, sélectionnez une autre définition de colonne pour explorer les données financières selon d’autres paramètres.
 9. Cliquez sur **OK**.
 
-Vous avez désormais défini la base de l’état financier, les lignes de données financières à afficher, et une disposition existante de colonnes pour afficher les données sur les lignes selon des paramètres personnalisés. Si la définition de colonne par défaut que vous avez sélectionnée dans l’étape 4 ne convient pas à votre objectif, suivez la procédure suivante.
+Vous avez désormais défini la base suivante de l’état financier, les lignes de données financières à afficher, et une disposition existante de colonnes pour afficher les données sur les lignes selon des paramètres personnalisés. Si la définition de colonne par défaut que vous avez sélectionnée à l’étape 4 ne vous convient pas, suivez les étapes de la section [Modifier une définition de colonne](#edit-a-column-definition).
 
-### <a name="edit-a-column-definition"></a>Modifier une définition de colonne
+### Modifier une définition de colonne
 
-Les définitions de colonne vous permettent de spécifier les colonnes devant être incluses dans l’état résultant. Par exemple, vous pouvez créer une présentation de manière à comparer le solde période et le solde pour une même période de l’exercice actuel et du précédent. Vous pouvez avoir jusqu’à 15 colonnes, ce qui est utile, par exemple, pour afficher les budgets sur 12 mois avec une colonne indiquant le total.
+Utilisez les définitions de colonne pour spécifier les colonnes à inclure dans l’état. Par exemple, vous pouvez créer une présentation de manière à comparer le solde période et le solde pour une même période de l’exercice actuel et du précédent. Vous pouvez avoir jusqu’à 15 colonnes, ce qui est utile, par exemple, pour afficher les budgets sur 12 mois avec une colonne indiquant le total.
 
 > [!NOTE]
 > Une version imprimée/aperçu/enregistrée d’un état financier affiche un maximum de cinq colonnes. Par opposition, si un état financier est uniquement destiné pour l’analyse sur la page **État financier**, vous pouvez créer autant de colonnes que vous le souhaitez.
@@ -89,7 +85,7 @@ Les définitions de colonne vous permettent de spécifier les colonnes devant ê
 > [!NOTE]
 > Les colonnes que vous définissez sur chaque ligne représentent les colonnes 3 et supérieures de la page **État financier**. Les deux premières colonnes, **N° ligne** et **Description**, sont fixes.  
 
-### <a name="create-a-column-that-calculates-percentages"></a>Créer une colonne qui calcule des pourcentages
+### Créer une colonne qui calcule des pourcentages
 
 Il se peut que vous vouliez inclure une colonne dans un état financier pour calculer des pourcentages d’un total. Par exemple, si vous avez des lignes qui ventilent des ventes par dimension, vous pouvez juger utile de disposer d’une colonne indiquant le pourcentage des ventes totales que représente chaque ligne.
 
@@ -102,7 +98,7 @@ Il se peut que vous vouliez inclure une colonne dans un état financier pour cal
 7. Renseignez les champs de la ligne comme suit : dans le champ **Type colonne**, sélectionnez **Formule**. Dans le champ **Formule**, saisissez une formule correspondant au montant pour lequel vous voulez calculer un pourcentage, suivie du symbole de pourcentage %. Ainsi, si le numéro de colonne N contient le solde période, saisissez **N%**.  
 8. Répétez les étapes 4 à 7 pour chaque groupe de lignes que vous voulez ventiler par pourcentage.
 
-## <a name="set-up-financial-reports-with-overviews"></a>Configurer des états financiers avec des aperçus
+## Configurer des états financiers avec des aperçus
 
 Vous pouvez utiliser un état financier pour créer un état comparant les chiffres de la comptabilité et les chiffres budgétés.
 
@@ -120,7 +116,7 @@ Vous pouvez utiliser un état financier pour créer un état comparant les chiff
 
 Vous pouvez maintenant copier et coller votre budget dans un classeur.  
 
-## <a name="comparing-accounting-periods-using-period-formulas"></a>Comparaison de périodes comptables à l’aide de formules de période
+## Comparaison de périodes comptables à l’aide de formules de période
 
 Votre état financier peut comparer les résultats de différentes périodes comptables, par exemple le mois dernier et le même mois l’année précédente. Pour ce faire, ouvrez la page **Définition de colonne** et personnalisez-la en ajoutant le champ **Formule période comparaison** sous forme de colonne. Pour plus d’informations, consultez [Personnaliser votre espace de travail](ui-personalization-user.md). Vous pouvez ensuite définir ce champ sur une formule de période.  
 
@@ -154,7 +150,7 @@ Pour effectuer des calculs basés par périodes, vous devez entrer une formule d
 
 Pour plus d’informations, consultez [Utiliser des dates civiles et des heures](ui-enter-date-ranges.md).
 
-## <a name="print-and-save-financial-reports"></a>Imprimer et enregistrer des états financiers
+## Imprimer et enregistrer des états financiers
 
 Vous pouvez imprimer des états financiers à l’aide des services d’impression de votre appareil. [!INCLUDE[prod_short](includes/prod_short.md)] offre également la possibilité d’enregistrer les états sous forme de classeurs Microsoft Excel, de documents Microsoft Word, de fichiers PDF et XML.
 
@@ -165,7 +161,7 @@ Vous pouvez imprimer des états financiers à l’aide des services d’impressi
     1. L’option **(Géré par le navigateur)** indique qu’il n’y a pas d’imprimante désignée pour l’état. Dans ce cas, le navigateur gérera l’impression et affichera une expérience standard, où vous pourrez choisir une imprimante locale connectée à votre appareil. **(Géré par le navigateur)** n’est pas disponible dans l’application mobile [!INCLUDE[prod_short](includes/prod_short.md)] ou application pour Microsoft Teams.
 5. Choisissez l’action **Imprimer**.
 
-### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Planifier un état financier ou l’enregistrer au format PDF, Word ou Excel
+### Planifier un état financier ou l’enregistrer au format PDF, Word ou Excel
 
 Un état financier peut être enregistré sous forme de fichier dans différents formats, tels que PDF, XML, Word ou Excel. Alternativement, [!INCLUDE[prod_short](includes/prod_short.md)] peut être configuré pour générer des états financiers récurrents :
 
@@ -176,11 +172,11 @@ Un état financier peut être enregistré sous forme de fichier dans différents
 5. Pour générer un état financier planifié ou récurrent, remplissez les champs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
    * Pour les états financiers récurrents, définissez les champs **Date/heure de début au plus tôt** et **Date/heure d’expiration** avec la première et la dernière date, respectivement, pour générer l’état financier. Sélectionnez également les jours où l’état est généré en définissant le champ **Formule de la date de la prochaine exécution** en suivant le format expliqué dans la section [Utiliser des formules de date](ui-enter-date-ranges.md#use-date-formulas).
 
-## <a name="importing-or-exporting-financial-reports"></a>Importer ou exporter des états financiers
+## Importer ou exporter des états financiers
 
 Vous pouvez importer et exporter des états financiers sous forme de packages de configuration RapidStart, utiles pour partager les informations avec d’autres entreprises, par exemple. Le package est créé dans un fichier .rapidstart, qui compresse le contenu.
 
-### <a name="import-and-export-financial-reports"></a>Importer et exporter les états financiers
+### Importer et exporter les états financiers
 
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 4.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **États financiers**, puis choisissez le lien associé.
 2. Choisissez l’état financier, puis choisissez l’action **Importer l’état financier** ou **Exporter l’état financier**, selon ce que vous voulez faire.
@@ -188,9 +184,9 @@ Vous pouvez importer et exporter des états financiers sous forme de packages de
 > [!NOTE]
 > Lorsque vous importez des états financiers, les enregistrements existants portant les mêmes noms que ceux que vous importez seront supprimés.
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/configure-financial-reports-dynamics-365-business-central/index) associée.
+## Voir la [formation Microsoft](/training/modules/configure-financial-reports-dynamics-365-business-central/index) associée.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Exécuter et imprimer des états](ui-work-report.md)  
 [Décisionnel pour le secteur de la finance](bi.md)  

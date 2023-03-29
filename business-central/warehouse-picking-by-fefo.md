@@ -1,22 +1,16 @@
 ---
 title: Comment activer le prélèvement par FEFO | Microsoft Docs
-description: First-Expired-First-Out (FEFO) est une méthode de tri qui garantit que les articles les plus anciens, ceux qui ont les dates d’expiration les plus anciennes, sont prélevés en premier.
+description: 'First-Expired-First-Out (FEFO) est une méthode de tri qui garantit que les articles les plus anciens, ceux qui ont les dates d’expiration les plus anciennes, sont prélevés en premier.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b4018d5ad18317cf5b62a99346c360d744b26939
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520037"
 ---
-# <a name="enable-picking-items-by-fefo"></a>Activer le prélèvement d’articles par FEFO
+# Activer le prélèvement d’articles par FEFO
 First-Expired-First-Out (FEFO) est une méthode de tri qui garantit que les articles les plus anciens, ceux qui ont les dates d’expiration les plus anciennes, sont prélevés en premier.  
 
  Cette fonctionnalité ne fonctionne que lorsque les critères suivants sont réunis :  
@@ -39,11 +33,10 @@ Pour activer des mouvements selon FEFO, laissez le champ **D’emplacement** vid
 <br /><br />
 Si le champ **Date expiration stricte** est sélectionné sur la **Fiche Code traçabilité**, seuls les articles non expirés seront inclus dans le prélèvement et les lignes seront triées selon le principe FEFO.
 
-## <a name="see-also"></a>Voir aussi  
-[Prélèvement des articles](warehouse-pick-items.md)   
+## Voir aussi  
 [Prélever des articles pour l’expédition entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md)   
-[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
+[Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

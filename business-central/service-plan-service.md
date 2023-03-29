@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, work hours, configure, price, pricing
+ms.search.keywords: 'service, work hours, configure, price, pricing'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 157ac179e51330cc5d9606872a8a121a4bbb67f2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077569"
 ---
-# <a name="planning-services"></a>Services de planification
+# Services de planification
 Grâce à [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez configurer les tâches standard qui permettent de répondre aux besoins du service clientèle. Pour cela, vous devez déterminer quels articles et offres de service sont pris en charge par votre organisation de prestation de services, et à quel prix.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fournit également des outils statistiques permettant d’évaluer les performances et d’identifier les points à améliorer.
@@ -31,7 +25,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Comprendre la relation entre l’état d’une réparation et l’effet sur les ressources affectées, et vice versa.|[Description du statut d’affectation et l’état réparation](service-allocation-status-and-repair-status.md)|  
 |Utiliser les statistiques pour analyser vos processus de service. | [Affichage des statistiques service](service-service-statistics.md) |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Exécution des contrats de service](service-fulfill-service-contracts.md)  
 [Exécution du service](service-deliver-service.md)  
 [Configurer la tarification et les frais supplémentaires pour les services](service-how-setup-service-costs-pricing.md)  

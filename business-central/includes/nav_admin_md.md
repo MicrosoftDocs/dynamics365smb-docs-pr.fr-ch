@@ -1,1 +1,1 @@
-Outil d'administration de Microsoft Dynamics NAV Server
+Outil d’administration de Microsoft Dynamics NAV Server

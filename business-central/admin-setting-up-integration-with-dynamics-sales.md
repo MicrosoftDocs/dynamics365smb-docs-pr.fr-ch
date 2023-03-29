@@ -1,26 +1,20 @@
 ---
 title: Configuration des comptes d’utilisateur pour l’intégration à Microsoft Dataverse | Microsoft Docs
-description: Découvrez comment configurer les comptes d’utilisateur que les applications utilisent pour échanger les données, et que les utilisateurs emploient pour accéder aux données et les synchroniser dans les applications.
+description: 'Découvrez comment configurer les comptes d’utilisateur que les applications utilisent pour échanger les données, et que les utilisateurs emploient pour accéder aux données et les synchroniser dans les applications.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607353"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Configuration des comptes d’utilisateur pour intégration à Microsoft Dataverse
+# Configuration des comptes d’utilisateur pour intégration à Microsoft Dataverse
 
 Cet article fournit un aperçu de la manière dont la configuration des comptes d’utilisateur requis pour intégrer [!INCLUDE[prod_short](includes/cds_long_md.md)] à [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="set-up-the-administrator-user-account"></a>Configuration du compte d’utilisateur administrateur
+## Configuration du compte d’utilisateur administrateur
 
 Vous devez ajouter votre compte d’utilisateur administrateur pour [!INCLUDE[prod_short](includes/prod_short.md)] en tant qu’utilisateur dans [!INCLUDE[cds_long](includes/cds_long_md.md)]. Lorsque vous configurez la connexion entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)], nous utilisons ce compte une seule fois pour installer et configurer certains composants requis.
 
@@ -29,7 +23,7 @@ Vous devez ajouter votre compte d’utilisateur administrateur pour [!INCLUDE[pr
 >
 > Une fois la configuration de la connexion terminée, cet utilisateur [!INCLUDE[prod_short](includes/cds_long_md.md)] peut être supprimé. L’intégration continuera à utiliser le compte d’utilisateur qui est automatiquement créé spécialement pour l’intégration.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Autorisations et rôles de sécurité pour les comptes d’utilisateur dans [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Autorisations et rôles de sécurité pour les comptes d’utilisateur dans [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 La solution d’intégration de base crée les rôles suivants dans [!INCLUDE[cds_long](includes/cds_long_md.md)] pour l’intégration :
 
@@ -135,7 +129,7 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Intégration à Microsoft Dataverse](admin-common-data-service.md)  
 [Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

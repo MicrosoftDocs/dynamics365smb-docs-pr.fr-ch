@@ -7,18 +7,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: BI, add-in, insight, headline, data
-ms.search.form: 1439,
+ms.search.keywords: 'BI, add-in, insight, headline, data'
+ms.search.form: '1439,'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: f703448f15c7284f51a2876ccd2b83b9a2351b9d
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361787"
 ---
-# <a name="the-essential-business-insights-extension"></a>Extension Informations commerciales essentielles
+
+# Extension Informations commerciales essentielles
 
 L’extension Informations commerciales essentielles recherche des faits commerciaux intéressants dans les données de votre société et les affiche sous forme de titres de journaux sur les tableaux de bord. Selon ce que l’extension trouve dans les données, des les informations datent de la semaine, du mois ou du trimestre précédent la date du jour. Les informations se mettent à jour toutes les 10 minutes.  
 
@@ -37,7 +32,7 @@ Le tableau suivant décrit les informations que cette extension fournit à chaqu
 |Chef de projet| Affiche une salutation, et le lien vers des informations sur le produit.|
 |Administrateur| Affiche une salutation, et le lien vers des informations sur le produit.|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)
 

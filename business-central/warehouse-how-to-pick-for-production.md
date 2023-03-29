@@ -1,107 +1,185 @@
 ---
-title: Prélever pour la fabrication, l’assemblage ou les tâches dans l’entrepôt de base
-description: Lorsque l’entrepôt appelle un traitement de prélèvement sans appeler de traitement d’expédition, vous pouvez utiliser la page Prélèvement stock pour organiser et enregistrer le prélèvement des composants.
+title: 'Prélever ou déplacer des articles pour la fabrication, l’assemblage ou les tâches dans les configurations de stockage de base'
+description: 'Lorsque l’entrepôt appelle un traitement de prélèvement sans appeler de traitement d’expédition, vous pouvez utiliser la page Prélèvement stock pour organiser et enregistrer le prélèvement des composants.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 08/02/2022
 ms.author: bholtorf
-ms.openlocfilehash: 859c70ebc51f2649000d41817d173292ed5b0870
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617892"
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: conceptual
+ms.date: 12/16/2022
+ms.custom: bap-template
+ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Prélever pour la fabrication, l’assemblage ou les tâches dans les configurations de stockage de base
+# Prélever pour la fabrication, l’assemblage ou les tâches dans les configurations de stockage de base
 
-Le mode de rangement de vos composants de prélèvement pour les ordres de fabrication ou d’assemblage dépend de la configuration du stockage en tant qu’emplacement. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).
+Le mode de prélèvement de vos composants pour les ordres de fabrication, d’assemblage ou les tâches dépend de la configuration de l’entrepôt en tant qu’emplacement. Learn more at [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).
 
-## <a name="pick-for-production-in-basic-warehouse-configurations"></a>Prélever pour la fabrication dans les configurations de stockage de base
+Dans une configuration d’entrepôt de base pour le flux sortant (prélèvement), sur la page **Fiche magasin** du site, activez le bouton à bascule **Prélèvement requis** mais désactivez le bouton à bascule **Expédition requise**.
 
-Si un emplacement exige un traitement de prélèvement, mais pas de traitement d’expédition, vous pouvez utiliser la page **Prélèvement stock**. La page **Prélèvement stock** vous permet d’organiser et d’enregistrer le prélèvement des articles dont le mode de consommation est défini sur **Manuel**. Lorsque vous enregistrez un prélèvement stock, la consommation des composants prélevés est enregistrée. Vous pouvez également utiliser un **Mouvement de stock** avec une référence à un document source pour amener les composants avec la méthode de consommation définie sur **Manuel**, **Prélever + Transférer**, **Prélever + en arrière** aux ordres de fabrication.
+Utilisez les documents suivants pour les opérations internes :
 
-Lorsque des opérations de fabrication sont intégrées dans les processus entrepôt, par des emplacements ou des prélèvement ou rangement suggérés, l’emplacement à partir duquel les composants sont consommés est l’emplacement qui est défini sur chaque ligne composant O.F. Tous les composants requis doivent être disponibles dans cet emplacement. Autrement, la validation manuelle ou par consommation du composant est annulée.
+* Prélvmt invent
+* Mouvement de stock
 
-> [!NOTE]  
-> Les différences importantes suivantes existent entre les prélèvements de stock, les mouvements de stock et les prélèvements en entrepôt :  
->
-> - Lorsque vous enregistrez un prélèvement stock pour une opération interne, telles que la production, la consommation des composants sélectionnés est validée en même temps. Lorsque vous enregistrez un mouvement stock ou un prélèvement en entrepôt pour une opération interne, vous enregistrez seulement le mouvement physique des articles requis dans un emplacement de la zone Opérations sans valider la consommation.  
-> - Lorsque vous utilisez des prélèvements stock, le champ **Code emplacement** sur une ligne composant d’ordre de fabrication. définit l’emplacement de *prélèvement* où les composants sont déduits lors de la validation de la consommation. Lorsque vous utilisez des mouvements de stock ou un prélèvement en entrepôt, le **Code emplacement** sur des lignes composant d’ordre cde fabrication définit l’emplacement *placement* dans la zone Opérations où l’employé du magasin doit placer les composants.  
+## Prélèvements stock
 
-Pour prélever ou déplacer des composants, une demande d’entrepôt sortante doit notifier la zone d’entrepôt du besoin de composant. La demande d’entrepôt sortante est créée lorsque vous procédez comme suit :
+* Lorsque vous enregistrez un prélèvement stock pour une opération interne, telles que la production ou une tâche, la consommation des composants sélectionnés est validée en même temps.
+* Le bouton à bascule **Emplacement obligatoire** sur la page **Fiche magasin** est facultatif.
+* Lorsque vous utilisez les prélèvements stock, le champ **Code emplacement** sur une ligne de composant d’ordre de fabrication ou les lignes planning d’une tâche définit l’emplacement *prendre*. Les composants sont diminués dans le bac « prendre » lorsque vous validez la consommation.
 
-- Modifier le statut d’un ordre de fabrication sur Lancé.
-- Créez un ordre de fabrication lancé.  
+## Mouvements de stock
 
-Les modes de consommation affectent également le flux des composants en production. Pour plus d’informations, voir [Consommer en aval des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md). **Mouvement de stock** avec des références au document source et **Prélèvement en entrepôt** ne peut pas être utilisé pour sélectionner des composants avec des modes de consommation *Amont* et *Aval*. **Prélèvement stock** ne peut pas être utilisé pour sélectionner des composants avec une méthode de consommation, mais *Manuel*. Pour gérer les composants restants, utilisez **Mouvement stock** sans référence à un document source. Pour plus d’informations, voir [Déplacer les composants vers une zone opérations dans les configurations de stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+* Les mouvements de stock nécessitent que vous activiez le bouton à bascule **Emplacement obligatoire** sur la page **Fiche magasin** pour l’emplacement.
+* Les mouvements de stock ne fonctionnent qu’avec les lignes de composants d’ordre de fabrication et les lignes d’ordre d’assemblage.
+* Lorsque vous enregistrez un mouvement stock pour une opération interne, vous enregistrez seulement le mouvement physique des composants dans un emplacement de la zone d’opération. Vous ne validez pas la consommation.
+* Lorsque vous utilisez les mouvements stock, le champ **Code emplacement** sur une ligne de composant d’ordre de fabrication définit l’emplacement *placer* dans la zone d’opération. L’emplacement « placer » est l’endroit où les magasiniers doivent placer les composants.
+* Enregistrez séparément la consommation des composants prélevés en publiant une feuille consommation ou un ordre d’assemblage.
 
-Dans les configurations d’entrepôt avancées où les emplacements nécessitent à la fois des prélèvements et des expéditions, vous devez utiliser la page **Prélèvement en entrepôt** pour amener les composants avec la méthode de consommation définie sur *Manuel*, *Prélever + Transférer*, *Prélever + en arrière* aux ordres de fabrication. Pour plus d’informations, consultez [Prélever pour la fabrication ou l’assemblage dans les configurations de stockage avancées](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
+>[!NOTE]
+> Même si le bouton à bascule **Prélèvement requis** est désactivé, vous pouvez utiliser un document **Prélèvement entrepôt**. Les documents de prélèvement entrepôt sont similaires aux documents **Prélèvement stock**. Ceci est utile si vous souhaitez utiliser les prélèvements dans les opérations et expédier dans les flux sortants de l’entrepôt.
 
-## <a name="to-pick-components-for-production-and-jobs-in-basic-warehouse-configurations"></a>Pour prélever les composants pour la fabrication et les tâches dans les configurations entrepôt de base
+### Fabrication
 
-Dans les configurations de stockage de base, dans lesquelles le magasin est configuré pour utiliser uniquement le prélèvement ainsi que l’expédition, vous pouvez prélever des composants pour les activités de fabrication et les lignes planning des tâches sur la page **Prélèvement entrepôt**. Pour plus d’informations, voir [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).
+Utilisez les documents **Prélèvement stock** pour prélever des composants de production dans le flux vers la production.
+
+Pour un magasin qui utilise des emplacements, vous pouvez étendre le flux jusqu’à la production en utilisant les documents **Mouvement stock**. Les mouvements de stock sont particulièrement utiles pour la consommation des composants. Pour en savoir plus sur la façon dont la consommation de composants passe des emplacements de consommation aux emplacements atelier ouverts, consultez [Consommer les composants pour la production dans une configuration d’entrepôt de base](#flushing-production-components-in-a-basic-warehouse-configuration).
+
+### Assemblage  
+
+Utilisez les documents **Mouvement stock** pour déplacer les composants d’assemblage vers la zone d’assemblage.
+
+> [!NOTE]
+> Les documents **Mouvement stock** nécessitent des emplacements.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] prend en charge les types de flux d’assemblage Assembler pour stock et Assembler pour commande. Pour en savoir plus sur l’assemblage pour commande dans le flux d’entrepôt sortant, accédez à [Traitement des articles à assembler pour commande dans des prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
+
+### Gestion de projets  
+
+Utilisez les documents **Prélèvement stock** pour sélectionner les composants de la tâche dans le flux vers la gestion de projet.
+
+Pour les magasins qui utilisent des emplacements, vous pouvez étendre le flux jusqu’aux projets en utilisant les documents **Mouvement stock**.
 
 > [!NOTE]
 > La possibilité de sélectionner des composants pour les lignes de planning des tâches a été ajoutée à [!INCLUDE[d365fin](includes/d365fin_md.md)] dans la 2è vague de lancement 2022. Pour commencer à utiliser la capacité, un administrateur doit activer **Mise à jour des fonctionnalités : activer prélèvement stock et entrepôt à partir des projets** sur la page **Gestion des fonctionnalités**.
 >
->[!INCLUDE[prod_short](includes/prod_short.md)] utilise la valeur dans le champ **Quantité restante** sur la ligne de planning des tâches lorsqu’il crée des prélèvements stock. Pour utiliser les prélèvements d’inventaire pour les tâches, vous devez activer le bouton à bascule **Appliquer le lien d’utilisation** sur la page **Fiche projet** pour les tâches. Cela vous permet de suivre l’utilisation par rapport à votre forfait. Si vous n’activez pas le bouton à bascule, la quantité restante restera à **0** et le choix de stock ne sera pas créé. Pour plus d’informations, voir [Configurer le suivi de l’utilisation des tâches](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] utilise la valeur dans le champ **Quantité restante** sur la ligne de planning des tâches lorsqu’il crée des prélèvements stock. Pour utiliser les prélèvements d’inventaire pour les tâches, vous devez activer le bouton à bascule **Appliquer le lien d’utilisation** sur la page **Fiche projet** pour les tâches. Cela vous permet de suivre l’utilisation par rapport à votre forfait. Si vous n’activez pas le bouton à bascule, la quantité restante restera à **0** et le choix de stock ne sera pas créé. Learn more at [Pour configurer un suivi d’utilisation de projet](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements stock**, puis choisissez le lien associé.  
-2. Pour accéder aux composants de l’ordre de fabrication, choisissez l’action **Extraire documents origine**, puis sélectionnez l’ordre de fabrication lancé.  
-3. Prélevez le composant, puis enregistrez les informations sur le prélèvement réel dans le champ **Qté à traiter**.  
-4. Lorsque les lignes sont prêtes à être validées, choisissez l’action **Valider**. Les écritures entrepôt nécessaires sont alors créées et la consommation des articles est validée.  
+## Prélever ou déplacer pour la production, l’assemblage ou les projets dans les configurations de stockage de base
 
-Vous pouvez également créer un **Prélèvement de stock** directement à partir de la commande de fabrication lancée. Choisissez l’action **Créer prélèv./rangement stock/mouvement**, cochez la case **Créer prélèvement stock**, puis choisissez le bouton **OK**.
+Vous pouvez créer un prélèvement stock ou un mouvement stock de trois manières :  
 
-Sinon, utilisez un **Mouvement stock** en référence au document source pour déplacer des articles entre les conteneurs. Vous devrez enregistrer la consommation séparément. Pour plus d’informations, voir [Valider la consommation post production](production-how-to-post-consumption.md)
+* À partir du document origine lui-même.  
+* Pour plusieurs documents origine en même temps en utilisant un traitement par lots.  
+* En deux étapes. Publiez le document origine pour qu’il soit prêt pour le prélèvement. Créez le prélèvement ou le mouvement stock à partir des documents **Prélèvement stock** ou **Mouvement stock**. Le prélèvement ou le mouvement stock est basé sur le document origine.  
 
-## <a name="pick-for-assembly-in-basic-warehouse-configurations"></a>Prélever pour l’Assemblage dans les configurations de stockage de base
+### Pour créer un prélèvement stock à partir du document origine
 
-Utilisez les pages suivantes pour prélever des ordres d’assemblage :
+1. Sur le document origine, qui peut être un ordre de fabrication ou un projet, choisissez l’action **Créer prélèv./rangement stock**.  
+2. Activez la case à cocher **Créer prélèvement stock**.
+3. Cliquez sur le bouton **OK**.
 
-- La page **Mouvement de stock**.
-- Si l’emplacement exige des prélèvements, mais pas d’expéditions, utilisez la page **Prélvmt invent** pour prélever, assembler et expédier les ventes client lorsque les articles doivent être assemblés avant de pouvoir être livrés. Pour plus d’informations, voir [Traitement des articles à assembler pour commande dans les prélèvements stock](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
+### Pour créer un mouvement de stock à partir du document origine
 
-Dans les configurations d’entrepôt avancées où les magasins requièrent des prélèvements et des expéditions, vous devez utiliser la page **Prélèvement entrepôt** pour ajouter des composants aux Ordres d’assemblage. Pour plus d’informations, consultez [Prélever pour la fabrication ou l’assemblage dans les configurations de stockage avancées](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
+1. Sur le document origine, qui peut être un ordre de fabrication, un ordre d'assemblage ou un projet, choisissez l’action **Créer prélèv./rangement stock**.  
+2. Activez la case à cocher **Créer mouvement stock**.
+3. Cliquez sur le bouton **OK**.
 
-## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Traitement des articles à assembler pour commande dans les prélèvements stock
+### Pour créer plusieurs prélèvements ou mouvements stock avec un traitement par lots
 
-La page **Prélvmt invent** est également utilisée pour prélever et livrer les ventes lorsque les articles doivent être assemblés avant de pouvoir être livrés. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Créer rangement/prélèvement/mouvement stock**, puis choisissez le lien associé.  
+2. Sur le raccourci **Demande entrepôt**, utilisez les champs **Document origine** et **N° origine** pour opérer un filtrage sur les types de documents ou des plages de numéros de document. Par exemple, vous pouvez créer des prélèvements uniquement pour des ordres de fabrication.
+3. Dans le raccourci **Options**, activez les boutons à bascule **Créer prélèvement stock** ou **Créer mouvement stock**.
+4. Cliquez sur le bouton **OK**.
 
-Les articles à expédier ne sont pas physiquement présents dans un emplacement tant qu’ils ne sont pas assemblés et enregistrés comme production dans un emplacement de la zone d’assemblage. Par conséquent, le prélèvement de ces articles pour l’expédition suit un flux spécial. Depuis un emplacement, les magasiniers extraient des éléments d’assemblage sur le poste d’accueil de livraison puis valident le prélèvement stock. Le prélèvement stock enregistré valide ensuite les résultats d’assemblage, la consommation de composants et l’expédition vente.
+### Pour créer des prélèvements ou des mouvements stock en deux étapes
 
-Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour créer automatiquement un mouvement stock lors de la création du prélèvement stock pour l’élément d’assemblage. Pour créer automatiquement des mouvements, sélectionnez le champ **Créer des mouvements automatiquement** sur la page **Paramètres d’assemblage**. Pour plus d’informations, voir [Déplacer les composants vers une zone opérations dans le stockage de base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Pour prélever ou déplacer des composants pour des documents origine en deux étapes, vous devez émettre le document origine pour qu’il soit prêt pour le prélèvement. Lancez les documents origine des opérations internes en procédant comme suit.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] crée des lignes prélèvement stock pour les articles vente de différentes manières, selon qu’aucune, certaines ou toutes les quantités des lignes vente sont assemblées pour commande.
+|Document origine|Méthode de lancement|  
+|---------------------|--------------------|  
+|Ordre de fabrication|Sur la page **Ordre de fabrication planifié**, changez le statut d’une commande en **Lancé** , ou utilisez la page **Ordre de fabrication lancé**pour créer un ordre de fabrication lancé.|  
+|Ordre d’assemblage|Modifiez le statut d’un ordre d’assemblage en **Lancé**.|
+|Projets | Changez le statut d’un projet en **Ouvert** ou créez un projet avec le statut Ouvert immédiatement.|  
 
-- Dans les ventes où vous utilisez des prélèvements de stock pour valider l’expédition de stock, [!INCLUDE[prod_short](includes/prod_short.md)] crée une ligne de prélèvement de stock pour chaque ligne de commande client. Si l’article est placé dans différents emplacements, plusieurs lignes seront créées. Les lignes prélèvement sont basées sur la quantité indiquée dans le champ **Qté à expédier**.
-- Dans les ventes où la quantité totale de la ligne commande vente est assemblée pour commande, une ligne prélèvement stock est créée pour cette quantité. La valeur du champ Quantité à assembler correspond à la valeur du champ **Qté à expédier**. Le champ **Assembler pour commande** est sélectionné sur la ligne.
+Un magasinier affecté au prélèvement d’articles peut créer un document de rangement de stock pour le document origine.  
 
-Si un flux de résultats d’assemblage est paramétré pour le magasin, la valeur du champ **Code empl. exp. ass. pr comm.** ou la valeur du champ **Code empl. depuis assemblage**, de cette commande, est insérée dans le champ **Code emplacement** de la ligne prélèvement stock.
+1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements stock** or **Inventory Movement**, and then choose the related link.  
+2. Sélectionnez l’action **Nouveau**.  
+3. Dans le champ **Document origine**, sélectionnez le type de document origine que concerne le rangement.
 
-Si aucun code magasin n’est spécifié sur la ligne commande vente et qu’aucun flux résultats d’assemblage n’est paramétré pour le magasin, le champ **Code emplacement** de la ligne prélèvement stock est vide. Le magasinier doit ouvrir la page **Contenu emplacement** et sélectionner l’emplacement où les articles d’assemblage sont assemblés.
+    > [!NOTE]
+    > Vous ne pouvez pas utiliser les documents **Prélèvement stock** pour prélever des composants d’assemblage.
+4. Dans le champ **N° origine**, sélectionnez le document origine.  
+5. Sinon, choisissez l’action **Extraire document origine** pour sélectionner le document à partir de la liste des documents origine entrants prêts pour le prélèvement dans le magasin.  
+6. Cliquez sur le bouton **OK** pour renseigner les lignes prélèvement ou mouvement en fonction du document origine sélectionné.  
 
-Si une partie de la quantité doit d’abord être assemblée tout d’abord, et l’autre doit être prélevée des stocks, [!INCLUDE[prod_short](includes/prod_short.md)] crée au minimum deux lignes prélèvement stock. Une ligne prélèvement est calculée pour la quantité à assembler pour commande. L’autre ligne prélèvement dépend des magasins dans lesquels les emplacements peuvent satisfaire la quantité restante du stock. Les codes emplacement sur les deux lignes sont renseignés de différentes manières comme indiqué pour les deux types vente différents respectivement. Pour plus d’informations, voir la section « Scénarios de combinaison » dans [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md).
+## Pour enregistrer le prélèvement stock
 
-## <a name="filling-the-consumption-bin"></a>Renseigner l’emplacement consommation
+1. Sur la page **Prélèvement stock**, ouvrez le document pour lequel enregistrer un prélèvement.  
+2. Dans le champ **Code emplacement** sur les lignes prélèvement, l’emplacement à partir duquel les articles doivent être prélevés à partir de l’emplacement où l’article est disponible. Si nécessaire, vous pouvez modifier l’emplacement.
+3. Exécutez le prélèvement, puis saisissez la quantité prélevée dans le champ **Quantité à traiter**.
 
-Ce graphique indique comment le champ **Code emplacement** sur les lignes composant O.F. est renseigné en fonction de la configuration de votre emplacement.
+    Si vous devez prélever les articles d’une ligne à partir de plusieurs emplacements, par exemple parce qu’un emplacement ne contient pas la quantité totale, utilisez l’action**Fractionner la ligne** sur le raccourci **Lignes**. L’action crée une ligne pour la quantité restante à gérer.  
+4. Sélectionnez l’action **Valider**.  
 
-![Organigramme Flux d’emplacement.](media/binflow.png "BinFlow")
+Voici ce qui se passe pendant le processus de validation :
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/pick-ship-items-business-central/) associée
+* Validation de la consommation des lignes du document origine qui ont été prélevées.
+* Si le magasin utilise des emplacements, la validation crée également des écritures entrepôt pour valider les modifications de la quantité de l’emplacement.
 
-## <a name="see-also"></a>Voir aussi
+## Pour enregistrer le mouvement stock
 
-[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
+1. Sur la page **Mouvement stock**, ouvrez le document pour lequel enregistrer le mouvement.  
+2. Dans le champ **Code emplacement** sur les lignes de mouvement, l’emplacement à prélever est suggéré en fonction de l’emplacement par défaut et de la disponibilité de l’article. Si nécessaire, vous pouvez modifier l’emplacement.  
+3. Exécutez le mouvement, puis saisissez la quantité déplacée dans le champ **Quantité à traiter**. La valeur sur les lignes prélèvement et emplacement doit être la même. Sinon, vous ne pouvez pas enregistrer le mouvement.
+
+    Si vous devez prendre les articles d’une ligne dans plusieurs emplacements, par exemple parce qu'un emplacement ne contient pas la quantité totale, utilisez l’action **Fractionner la ligne** sur le raccourci **Lignes**. L’action crée une ligne pour la quantité restante à gérer.  
+4. Sélectionnez l’action **Enregistrer mouvement de stock**.  
+
+Voici ce qui se passe pendant le processus de validation :
+
+* Les écritures entrepôt indiquent maintenant que les composants se trouvent dans les emplacements spécifiés sur les lignes d’ordre d’assemblage du document origine. Par exemple, la ligne d’ordre d’assemblage, de composant de production ou de planning projet.
+
+>[!NOTE]
+> Contrairement au déplacement de composants à l’aide de prélèvements stock, la consommation n’est pas validée lorsque vous enregistrez un mouvement de stock. Vous enregistrez la consommation dans une étape distincte en validant le document origine.
+
+## Consommer les composants pour la production dans une configuration d’entrepôt de base
+
+Les modes de consommation affectent le flux des composants en production. Learn more at [Consommer des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md). En fonction de la méthode de consommation sélectionnée, vous pouvez prélever des composants pour la production des manières suivantes :
+
+* Utilisez un document **Prélèvement stock** pour enregistrer le prélèvement des articles qui utilisent la méthode de consommation **manuelle**. Lorsque vous enregistrez un prélèvement stock, la consommation des composants prélevés est enregistrée. 
+* Utilisez un document **Mouvement stock** avec une référence à un document origine pour enregistrer les prélèvements pour les composants qui utilisent la méthode de consommation **Manuelle**. Vous devrez enregistrer la consommation séparément. Learn more at [Valider par lots la consommation de la production](production-how-to-post-consumption.md). 
+* Utilisez un document **Mouvement stock** avec une référence à un document origine pour enregistrer les prélèvements pour les composants qui utilisent la méthode de consommation **Prélèvement + Aval**, **Prélèvement + Amont**. La consommation des composants se produira automatiquement, soit lorsque vous modifiez le statut de l’ordre de fabrication, soit en démarrant ou en terminant une opération. Tous les composants requis doivent être disponibles. Autrement, la validation de la consommation du composant est arrêtée.
+* Utilisez un document **Mouvement stock** sans référence à un document origine ou d’autres moyens d’enregistrer le mouvement des composants qui utilisent la méthode de consommation **Aval** ou **Amont**. La consommation des composants se produira automatiquement, soit lorsque vous modifiez le statut de l’ordre de fabrication, soit lorsque vous démarrez ou terminez une opération. Tous les composants requis doivent être disponibles. Autrement, la validation de la consommation s’arrête pour ce composant. Learn more at [Déplacement des articles en interne dans les configurations entrepôt de base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
+
+### Exemple :
+
+Vous avez un ordre de fabrication pour 15 pièces de l’article SP-SCM1004. Certains articles sur la liste des composants doivent être consommés manuellement dans une feuille consommation et d’autres articles peuvent être prélevés et consommés automatiquement à l’aide de la méthode de consommation **Prélèvement + Amont**.  
+
+Les étapes suivantes illustrent les actions prises par divers utilisateurs et les réponses associées :  
+
+1. Le chef atelier lance l’ordre de fabrication. Les articles utilisant la méthode de consommation **Aval** et aucun lien gamme sont déduits de l’emplacement atelier ouvert.  
+2. Le chef d’atelier choisit l’action **Créer prélèv./rangement stock** sur l’ordre de fabrication et active les boutons à bascule **Créer prélèvement stock** et **Créer mouvement de stock**. Un document de prélèvement stock est créé pour les articles avec la méthode de consommation **manuelle**, et un mouvement de stock est créé pour les articles avec les méthodes de consommation **Prélèvement + Amont** et **Prélèvement + Aval**.
+3. Le gestionnaire d’entrepôt affecte les prélèvements et les mouvements à un magasinier.
+4. Le magasinier prélève les articles dans les emplacements appropriés et les place dans l’emplacement des consommations ou dans l’emplacement spécifié sur le mouvement stock. L’emplacement peut être un emplacement de poste de travail ou de poste de charge.  
+5. Le magasinier valide le prélèvement. La quantité est déduite des emplacements.
+6. Le magasinier valide le mouvement. La quantité est déduite des emplacements prélèvement et ajoutée à l’emplacement de consommation. Le champ **Qté prélevée** sur la liste des composants de tous les articles prélevés est mis à jour.  
+7. L’opérateur indique au gestionnaire de production que les articles finis sont terminés.  
+8. Le chef d’atelier utilise la feuille production pour valider la sortie. La quantité des composants qui utilisent les méthodes de consommation **Prélèvement + Aval** ou **Prélèvement + Amont** avec des liens gammes est déduite de l’emplacement des consommations.
+9. Le gestionnaire de production modifie le statut de l’ordre de fabrication en **Terminé**. La quantité de composants qui utilisent la méthode de consommation **Amont** est déduite de l’emplacement atelier ouvert, et la quantité de composants qui utilisent la méthode de consommation **Prélèvement + Amont** et pas de lien gamme est déduite de l’emplacement des consommations.  
+
+ La figure ci-après indique la date à laquelle le champ **Code emplacement** de la liste des composants est renseigné en fonction du paramétrage de votre magasin ou poste/centre de charge.  
+
+:::image type="content" source="media/binflow.png" alt-text="Aperçu de quand et comment le champ Code emplacement est renseigné.":::
+
+## Voir la [formation Microsoft](/training/paths/pick-ship-items-business-central/) associée
+
+## Voir aussi
+
 [Stock](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
 [Gestion des assemblages](assembly-assemble-items.md)  
-[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
+[Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

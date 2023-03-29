@@ -1,25 +1,19 @@
 ---
-title: 'Détails de conception : intégration avec le stock'
+title: "Détails de conception\_: intégration avec le stock"
 description: Les zones d’application Warehouse Management et Inventory interagissent dans le stock physique et dans l’ajustement de stock ou entrepôt.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 58cb2222f2533e2ba952727243a5fdb830b34e75
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145903"
 ---
-# <a name="design-details-integration-with-inventory"></a>Détails de conception : intégration avec le stock
+# Détails de conception : intégration avec le stock
 La zone d’application Warehouse Management et la zone d’application Inventory interagissent dans le stock physique et dans l’ajustement de stock ou entrepôt.  
   
-## <a name="physical-inventory"></a>Inventaire  
+## Inventaire  
  La page **Feuille inventaire entrepôt** est utilisée avec la page **Feuille inventaire** pour tous les entrepôts avancés. Le stock au niveau de l’emplacement est calculé, et une liste imprimée est donnée au magasinier. La liste indique les articles dans lesquels les emplacements doivent être comptabilisés.  
   
  Le magasinier entre la quantité comptée sur la page **Feuille inventaire entrepôt** puis valide la feuille.  
@@ -32,7 +26,7 @@ La zone d’application Warehouse Management et la zone d’application Inventor
   
  Lorsque vous validez la feuille stock physique, le stock et l’emplacement d’ajustement par défaut sont mis à jour.  
   
-### <a name="warehouse-adjustments-to-the-item-ledger"></a>Ajustements d’entrepôt dans l’écriture article  
+## Ajustements d’entrepôt dans l’écriture article  
  Vous utilisez la page **Feuille article** et la fonction **Calculer ajustement entrepôt** pour ajuster le stock dans l’écriture article conformément à ajustement qui a été apporté sur la quantité d’un article dans un emplacement entrepôt. Pour créer un lien entre stock et l’entrepôt, vous devez définir un emplacement d’ajustement par défaut par magasin.  
   
  L’emplacement ajustement par défaut enregistre les articles dans l’entrepôt lorsque vous validez une entrée de stock. Toutefois, si vous validez une sortie, la quantité sur l’emplacement par défaut est également diminuée. Dans les deux cas, les écritures comptables article et les écritures entrepôt sont créées.  
@@ -44,8 +38,8 @@ La zone d’application Warehouse Management et la zone d’application Inventor
   
  Si vous saisissez une quantité positive et validez la ligne, le stock enregistré dans les entrées de l’emplacement, et la quantité de l’emplacement ajustement par défaut diminue en conséquence.  
   
-## <a name="see-also"></a>Voir aussi  
- [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)   
- [Détails de conception : disponibilité dans l’entrepôt](design-details-availability-in-the-warehouse.md)
+## Voir aussi  
+[Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
+[Détails de conception : disponibilité dans l’entrepôt](design-details-availability-in-the-warehouse.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

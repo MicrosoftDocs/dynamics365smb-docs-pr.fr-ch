@@ -6,23 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
+ms.search.form: '7312, 7313, 7314, 7321, 7322, 7323, 7329'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 83d15ea1db01ef8161c81465a8c521128c7b8407
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529827"
 ---
-# <a name="set-up-put-away-templates"></a>Configurer des modèles rangement
+# Configurer des modèles rangement
 
 A l’aide de la fonctionnalité de prélèvement et de rangement suggérés, l’emplacement le mieux approprié à vos articles à un moment donné est suggéré, en fonction du modèle rangement configuré pour l’entrepôt, des priorités affectées aux emplacements et des quantités minimale et maximale définies pour les emplacements associés.  
 
 Vous pouvez configurer un certain nombre de modèles rangement et en sélectionner un pour gérer les rangements dans votre entrepôt. Vous pouvez également sélectionner un modèle rangement pour un article ou un point de stock disposant d’exigences spéciales en matière de rangement.  
 
-## <a name="to-set-up-put-away-templates"></a>Pour configurer des modèles rangement
+## Pour configurer des modèles rangement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles rangement**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -37,15 +31,13 @@ Vous pouvez configurer un certain nombre de modèles rangement et en sélectionn
 
 Vous pouvez créer plusieurs modèles rangement et les appliquer comme vous le souhaitez. On se réfère d’abord au modèle rangement sélectionné éventuel pour l’article ou le point de stock. Si ces champs ne sont pas renseignés, alors le modèle rangement sélectionné pour l’entrepôt sur le raccourci **Config. emplacement** de la fiche magasin sera utilisé.  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/put-away-templates/) associée
+## Voir la [formation Microsoft](/training/modules/put-away-templates/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
-[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
+[Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
-[Gestion des assemblages](assembly-assemble-items.md)  
-[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

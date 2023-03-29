@@ -1,24 +1,19 @@
 ---
 title: Catalogue d’apprentissage Utilisateurs professionnels
-description: Trouvez toutes les formations disponibles pour Business Central.
+description: "Trouvez toutes les formations disponibles pour Business\_Central."
 author: loreleishannonmsft
 ms.date: 08/29/2022
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 5b977ba37c4bd827fd44e6cd897010eaadd64ec1
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607812"
 ---
-# <a name="business-users-learning-catalog"></a>Catalogue d’apprentissage Utilisateurs professionnels
+
+# Catalogue d’apprentissage Utilisateurs professionnels
 
 Vous venez de recevoir une nouvelle application ?
 
 Le catalogue suivant est organisé en partant des connaissances de base jusqu’aux spécialisées, et des plus élémentaires aux plus avancées. Si le contenu existe en plusieurs formats, nous vous le ferons savoir afin que vous puissiez choisir le format de formation qui répond le mieux à vos besoins.  
 
-## <a name="getting-started"></a>Mise en route
+## Mise en route
 
 | Contenu                                                                                                                               | Description                                                                                                                                                                                                                                                                                      | Format                                | Longueur             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -26,7 +21,7 @@ Le catalogue suivant est organisé en partant des connaissances de base jusqu’
 | [Utilisation de l’interface utilisateur de Microsoft Dynamics 365 Business Central](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Voulez-vous en savoir plus sur l’interface utilisateur de Business Central ? Ce parcours d’apprentissage vous montre l’interface utilisateur et comment la personnaliser. Il aborde également d’autres interfaces telles que celle sur smartphone.                                                                               | Parcours d’apprentissage en ligne gratuit et personnalisé | 2 heures 27 minutes |
 | [Exploiter les données comme un pro dans Business Central](/training/paths/work-pro-data-dynamics-365-business-central)                                    | Vous venez juste de démarrer avec Business Central ? Ce parcours d’apprentissage vous aidera à vous préparer aux types de données dans Business Central et à trouver les informations dont vous avez besoin dans l’application.                                                                                                  | Parcours d’apprentissage en ligne gratuit et personnalisé | 2 heures 27 minutes |
 
-## <a name="financials"></a>Finances
+## Finances
 | Contenu                                                                                                                                                         | Description                                                                                                                                                                                                                                                                                            | Format                                | Longueur             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
 | [Configurer la gestion financière dans Microsoft Dynamics 365 Business Central](/training/paths/set-up-financial-management-dynamics-365-business-central/)                     | Voulez-vous utiliser Business Central pour la gestion financière ? Alors, ce parcours d’apprentissage est fait pour vous. Il traite de la configuration des souches de numéros, des codes de trace d’audit, des groupes d’enregistrement, des dimensions et du plan comptable.                                                                                   | Parcours d’apprentissage en ligne gratuit et personnalisé | 3 heures 13 minutes |
@@ -36,7 +31,7 @@ Le catalogue suivant est organisé en partant des connaissances de base jusqu’
 | [Utiliser plusieurs devises dans Microsoft Dynamics 365 Business Central](/training/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Utilisez-vous plusieurs devises ? Si vous le faites, ce parcours vous aidera à comprendre les étapes à suivre pour configurer et utiliser plusieurs devises, traiter les paiements et les factures dans différentes devises et ajuster les taux de change le cas échéant.                                             | Parcours d’apprentissage en ligne gratuit et personnalisé | 3 heures 4 minutes  |
 | [Créer des rapports financiers dans Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central/)                           | Êtes-vous responsable de la génération de rapports financiers à partir de Business Central ? Ce parcours pédagogique traite de la création de budgets et de l’utilisation des planifications de compte, des dimensions et du langage de reporting d’entreprise eXtensible (XBRL) pour générer les rapports financiers généralement nécessaires à la plupart des entreprises. | Parcours d’apprentissage en ligne gratuit et personnalisé | 3 heures 44 minutes |
 | [Traiter les activités financières périodiques dans Microsoft Dynamics 365 Business Central](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) | Êtes-vous responsable des processus de clôture des périodes et des exercices ? Complétez ce module, qui explique comment envoyer des rappels et financer des factures d’intérêts aux clients. Il couvre également le traitement et la création de rapports intracommunautaires, ainsi que de la clôture d’un exercice comptable.                                                     | Parcours d’apprentissage en ligne gratuit et personnalisé | 3 heures 3 minutes  |
-## <a name="trade"></a>Commerce<a name="trade"></a>
+## Commerce<a name="trade"></a>
 | Contenu                                                                                                                                                        | Description                                                                                                                                                                                                                                                                                             | Format                                | Longueur             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
 | [Mise en route avec le Commerce dans Microsoft Dynamics 365 Business Central](/training/paths/trade-get-started-dynamics-365-business-central/)                                  | Utilisez-vous Commerce dans Business Central ? Ce parcours pédagogique traite des exigences de configuration et explique comment commencer à utiliser Commerce dans Business Central.                                                                                                                                                          | Parcours d’apprentissage en ligne gratuit et personnalisé | 1 heure 55 minutes  |

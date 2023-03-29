@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 1500, 1501, 1503, 1504, 1505
+ms.search.keywords: null
+ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 4b4a46071173c7371a306570227be5fffebd36d6
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585799"
 ---
-# <a name="use-approval-workflows"></a>Utilisation des flux d’approbation
+# Utilisation des flux d’approbation
 
 Un flux de travail est une séquence de tâches déclenchées par une action, une condition ou une règle. Les flux de travail sont généralement mis en œuvre pour intégrer la logique métier à une organisation, telle que la séparation des tâches, l’unification des processus ou pour appliquer les bonnes pratiques.
 
@@ -70,9 +64,9 @@ Avant de pouvoir commencer à utiliser des flux de travail, vous devez configure
 | Affichez les instances d’étape de flux de travail dont le statut est **Terminé**. | [Afficher des instances d’étape de flux de travail archivées](across-how-to-view-archived-workflow-step-instances.md) |
 | Supprimez un flux de travail approbation que vous êtes sûr de ne plus utiliser. | [Suppression des flux d’approbation](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configurer les flux de travail approbation](across-set-up-workflows.md)  
 [Flux de travail](across-workflow.md)  

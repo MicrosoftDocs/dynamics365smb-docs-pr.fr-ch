@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 44cd8156e66be7736da4f1c51f507715d7842478
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147429"
 ---
 Lorsque vous saisissez les dates/heures, qui sont une date et heure combinées en un champ, vous devez saisir un espace entre la date et l’heure. La partie de la date ne peut contenir des espaces sous forme de séparateur de date officiel de vos paramètres de région. L’heure peut contenir des espaces autour de l’indicateur AM/PM dans les paramètres régionaux correspondants.
 

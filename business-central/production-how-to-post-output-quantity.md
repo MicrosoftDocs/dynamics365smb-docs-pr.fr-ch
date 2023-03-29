@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000773, 99000778, 99000823, 99000827
+ms.search.form: '99000773, 99000778, 99000823, 99000827'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a1c30340efabed66e4ce359fc7680945e0db1de
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522761"
 ---
-# <a name="batch-post-output-and-run-times"></a>Valider par lots la production et les temps d’exécution
+# Valider par lots la production et les temps d’exécution
 La quantité de sortie représente l’avancement du travail sous la forme de la quantité finie et de la capacité utilisée du travail ou du poste de charge.
 
 Vous pouvez utiliser la feuille production pour :
@@ -30,7 +24,7 @@ Vous pouvez utiliser la feuille production pour :
 
 La fenêtre **Feuille production** vous permet d’exécuter les mêmes tâches que celles de la fenêtre **Feuille production** et exécuter en même temps les tâches connexes de validation de la consommation. Pour plus d’informations, voir [Enregistrer la consommation et la production pour une ligne ordre de fabrication lancé](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Pour valider les quantités produites et/ou enregistrer les temps d’exécution pour une ou plusieurs lignes ordre de fabrication
+## Pour valider les quantités produites et/ou enregistrer les temps d’exécution pour une ou plusieurs lignes ordre de fabrication
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille production**, puis choisissez le lien associé.  
 2. Renseignez les champs en indiquant les données relatives à la fabrication et/ou les temps d’exécution. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -44,7 +38,7 @@ Les écritures comptables de capacité sont mises à jour pour les postes de cha
 
 Si vous avez validé la dernière opération, l’article sera ajouté au stock.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Valider le rebut manuellement](production-how-to-post-scrap.md)
 [Contrepasser la validation de production](production-how-to-reverse-output-posting.md)

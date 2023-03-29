@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accounting, auditing, bookkeeping
+ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: 64b6b3e3aa74d51b78a62bf2c89e630452c662bb
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605454"
 ---
-# <a name="setting-up-finance"></a>Configuration de Finance
+# Configuration de Finance
 
 Avant de commencer à gérer votre activité, vous devez spécifier comment vous souhaitez gérer les processus financiers de cette société. Pour commencer, vous devez configurer l’élément essentiel des enregistrements comptables de la société, à savoir le plan comptable. Configurez ensuite des groupes comptabilisation afin d’accroître l’efficacité du processus d’affectation des comptes imputables de comptabilité par défaut aux clients, fournisseurs et articles.
 
@@ -57,9 +51,9 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 > [!TIP]
 > En fonction de votre emplacement géographique, certaines pages Business Central peuvent contenir des champs qui ne sont pas décrits dans les articles répertoriés ci-dessus, car ils s’appliquent à des fonctionnalités locales ou à des personnalisations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Finances](finance.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  

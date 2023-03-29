@@ -1,23 +1,17 @@
 ---
-title: Paramétrer les ressources, les feuilles de temps et les projets
-description: Cette rubrique décrit comment configurer les ressources, les feuilles de temps et les projets pour la gestion des projets et leurs budgets.
+title: 'Paramétrer les ressources, les feuilles de temps et les projets'
+description: 'Cette rubrique décrit comment configurer les ressources, les feuilles de temps et les projets pour la gestion des projets et leurs budgets.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
+ms.search.form: '289, 290, 376, 462, 463, 1029, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2f238da69365edcdd797f00e62e6d766b00feec7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522735"
 ---
-# <a name="setting-up-project-management"></a>Configuration de la gestion de projet
+# Configuration de la gestion de projet
 
 Avant de pouvoir utiliser le module [!INCLUDE[prod_short](includes/prod_short.md)] pour gérer les projets, vous devez définir des ressources, des feuilles de temps et des projets.
 
@@ -32,7 +26,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Vous pouvez permettre aux ressources d’enregistrer le temps d’utilisation d’une personne ou d’un poste, et permettre à un administrateur de consulter l’activité d’une ressource et son affectation. |[Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md) |
 | Vous pouvez créer des fiches projet et préparer les tâches projet. Vous pouvez configurer les articles projet et les ressources de projet et définir les groupes comptabilisation projet. |[Configuration de projets](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des projets](projects-manage-projects.md)  
 [Vidéo : Créer un projet dans Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fbf2f125f7be6e5baa215092d70f1e13ce9e6b7d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513304"
 ---
-# <a name="find-your-warehouse-assignments"></a>Trouver vos affectations d’entrepôt
+# Trouver vos affectations d’entrepôt
 
 Pour rechercher les affectations entrepôt, ouvrez la page correspondant à une article sélectionné. Si des instructions entrepôt ont été créées, les lignes Prélever et Emplacement sont visibles, et vous pouvez commencer à utiliser une affectation. Dans certains entrepôts, le responsable peut affecter des instructions propres à chaque magasinier. Pour plus d’informations, voir [Configurer des employés d’entrepôt](warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="to-find-an-instruction-assigned-to-you"></a>Pour rechercher une instruction qui vous est affectée
+## Pour rechercher une instruction qui vous est affectée
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Rangements entrepôt**, **Prélèvements entrepôt** ou **Mouvement entrepôt**, puis cliquez sur le lien associé.
 
@@ -31,14 +25,13 @@ Pour rechercher les affectations entrepôt, ouvrez la page correspondant à une 
 
 Vous pouvez utiliser le champ **Code utilisateur affecté** de l’en-tête pour demander des affectations travail, si le responsable de l’entrepôt n’affecte aucune instruction particulière aux employés. Saisissez simplement votre code utilisateur dans l’en-tête entrepôt avant d’utiliser une instruction. Vos collègues peuvent ensuite utiliser d’autres instructions. Cette opération permet ainsi d’éviter de faire deux fois le même travail.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
-[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
-[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
+[Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
+[Stock](inventory-manage-inventory.md)  
 [Configuration de Warehouse Management](warehouse-setup-warehouse.md) 
-[Gestion nomenclature d’assemblage](assembly-assemble-items.md)
-[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
-[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
+[Gestion des assemblages](assembly-assemble-items.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

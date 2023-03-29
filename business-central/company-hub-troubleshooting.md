@@ -6,26 +6,20 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accountant, accounting, troubleshoot
+ms.search.keywords: 'accountant, accounting, troubleshoot'
 ms.search.form: 1151
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 585e23a25397952ede809a76d4e001df9c60b449
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128846"
 ---
-# <a name="troubleshooting-your-company-hub"></a>Dépannage de votre Hub Entreprise
+# Dépannage de votre Hub Entreprise
 
 L’ajout de sociétés au tableau de bord Hub Entreprise est assez facile, mais cet article traite des problèmes que vous pouvez rencontrer en route.  
 
-## <a name="check-errors"></a>Vérifier les erreurs
+## Vérifier les erreurs
 
 Utilisez l’action **Vérifier les erreurs** pour afficher une liste des erreurs récentes. Vous pouvez voir des détails supplémentaires pour chaque erreur et vous pouvez nettoyer le journal en supprimant les anciennes entrées.  
 
-## <a name="connection-failed"></a>Échec de la connexion
+## Échec de la connexion
 
 Il peut y avoir plusieurs raisons pour lesquelles vous ne pouvez pas vous connecter à une entreprise, notamment les suivantes :
 
@@ -39,13 +33,13 @@ Il peut y avoir plusieurs raisons pour lesquelles vous ne pouvez pas vous connec
 
   Dans [!INCLUDE [prod_short](includes/prod_short.md)], une organisation peut avoir plusieurs centres de profit appelés entreprises et vous n’aurez peut-être pas accès à toutes les entreprises. Communiquez avec votre administrateur ou client pour vous assurer que vous avez accès aux sociétés dans lesquelles vous devez travailler.  
 
-## <a name="data-does-not-refresh"></a>Les données ne s’actualisent pas
+## Les données ne s’actualisent pas
 
 Lorsque vous ajoutez une société ou que vous demandez une actualisation des données, [!INCLUDE [prod_short](includes/prod_short.md)] récupère les données. Mais vous devez actualiser la page vous-même, par exemple en choisissant l’action **Afficher à nouveau toutes les sociétés**, actualisez la page du navigateur, quittez le tableau de bord puis retournez-y, ou similaire.  
 
 Si vous avez ajouté une entreprise, mais qu’elle ne s’affiche pas dans la liste, vous pouvez également utiliser l’action **Recharger toutes les entreprises** pour mettre à jour la liste.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gérer le travail entre plusieurs entreprises dans le Hub Entreprise](company-hub.md)  
 [Ajouter des entreprises à votre Hub Entreprise](company-hub-add-company.md)  

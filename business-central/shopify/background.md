@@ -7,21 +7,16 @@ ms.service: dynamics365-business-central
 ms.reviewer: solsen
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 4a67f6fc58fb8b158563ce58baab55e7fda2ccb1
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728615"
 ---
-# <a name="run-tasks-in-the-background"></a>Exécuter des tâches en arrière-plan
+
+# Exécuter des tâches en arrière-plan
 
 Il est efficace d’exécuter certaines tâches simultanément et de manière automatisée. Vous pouvez effectuer ces tâches en arrière-plan et également définir un calendrier pour les exécuter automatiquement. Pour exécuter des tâches en arrière-plan, deux modes sont pris en charge :
 
 - Les tâches déclenchées manuellement sont planifiées immédiatement via **Écritures file d’attente des travaux**.
 - Les tâches récurrentes sont planifiées dans **Écritures file d’attente des travaux**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Exécuter des tâches en arrière-plan pour un magasin spécifique
+## Exécuter des tâches en arrière-plan pour un magasin spécifique
 
 1. Sélectionnez ![l’icône Ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez le nom du **Magasin Shopify**, puis choisissez le nom du magasin dans la liste.
 2. Sélectionnez le magasin pour lequel vous voulez synchroniser les articles pour ouvrir la page **Fiche magasin Shopify**.
@@ -29,7 +24,7 @@ Il est efficace d’exécuter certaines tâches simultanément et de manière au
 
 Désormais, lorsque l’action de synchronisation est déclenchée, au lieu d’exécuter une tâche au premier plan, vous serez invité à attendre. Une fois la synchronisation terminée, vous pouvez passer à l’action suivante. La tâche est créée comme **Écriture file d’attente des travaux** et démarre instantanément de manière non bloquante.
 
-## <a name="to-schedule-recurring-tasks"></a>Pour programmer des tâches récurrentes
+## Pour programmer des tâches récurrentes
 
 Vous pouvez programmer les activités récurrentes suivantes pour qu’elles soient exécutées de manière automatisée. Pour plus d’informations sur la planification des tâches, voir [File d’attente](../admin-job-queues-schedule-tasks.md).
 
@@ -47,6 +42,6 @@ Vous pouvez programmer les activités récurrentes suivantes pour qu’elles soi
 > [!NOTE]
 > Certains éléments peuvent être mis à jour par plusieurs tâches, par exemple lorsque vous importez des commandes, selon le paramétrage dans la **fiche magasin Shopify**, le système peut également importer et mettre à jour des données client et/ou produit. N’oubliez pas d’utiliser la même catégorie de file d’attente pour éviter les conflits.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Mise en route du connecteur pour Shopify](get-started.md)  

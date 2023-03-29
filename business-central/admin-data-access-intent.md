@@ -1,6 +1,6 @@
 ---
-title: Gérer l’accès intentionnel à la base de données dans Business Central
-description: Modifiez l’accès intentionnel à la base de données pour les états, les pages API et les requêtes.
+title: "Gérer l’accès intentionnel à la base de données dans Business\_Central"
+description: 'Modifiez l’accès intentionnel à la base de données pour les états, les pages API et les requêtes.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 15300f780cbe92a1f5e288979a1c84f34f63cb1a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532446"
 ---
-# <a name="managing-database-access-intent"></a>Gestion de l’accès intentionnel à la base de données
+# Gestion de l’accès intentionnel à la base de données
 
 En tant que superutilisateur ou administrateur, vous pouvez modifier l’accès intentionnel à la base de données pour les états, les pages du type API et les requêtes pour améliorer les performances du service.
 
-## <a name="overview"></a>Aperçu
+## Aperçu
 
 [!INCLUDE[prod_short](includes/prod_short.md)] peut être configuré pour utiliser des répliques en lecture seule de la base de données principale (en lecture-écriture). L’utilisation de répliques de la base de données réduit la charge sur la base de données principale. Dans certains cas, cela améliore également les performances lors de l’affichage des données dans le client. Les répliques sont avantageuses pour les objets tels que les états, les requêtes et les pages API, qui permettent uniquement d’afficher les données, et non de les modifier.
 
@@ -30,7 +24,7 @@ La page **Liste d’accès intentionnels à la base de données** vous permet de
 
 En termes de base de données, cette fonction est communément appelée *échelle horizontale en lecture*. Pour en savoir plus sur l’échelle horizontale en lecture et l’accès intentionnel aux données dans [!INCLUDE[prod_short](includes/prod_short.md)], consultez [Utilisation de l’échelle horizontale en lecture pour de meilleures performances](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) dans l’aide [!INCLUDE[prod_short](includes/prod_short.md)] sur Developer and Administration.
 
-## <a name="to-change-the-database-access-intent"></a>Pour modifier l’accès intentionnel à la base de données
+## Pour modifier l’accès intentionnel à la base de données
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Liste d’accès intentionnels à la base de données**, puis choisissez le lien associé.
 
@@ -49,9 +43,9 @@ En termes de base de données, cette fonction est communément appelée *échell
     > [!NOTE]
     > Si un objet modifiable, comme la fiche client, est défini sur **Lecture seule**, la base de données principale est toujours utilisée, quelle que soit l’accès intentionnel, permettant aux utilisateurs d’apporter des modifications comme d’habitude.
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Fonctionnalités d’entreprise](across-business-functionality.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

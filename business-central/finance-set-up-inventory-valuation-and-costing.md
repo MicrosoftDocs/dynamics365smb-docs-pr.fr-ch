@@ -1,19 +1,13 @@
 ---
 title: Configuration de l’évaluation du stock
-description: Pour vous assurer que les coûts ajustés sont enregistrés correctement, vous devez configurer plusieurs champs et pages avant de commencer à effectuer des transactions article.
+description: 'Pour vous assurer que les coûts ajustés sont enregistrés correctement, vous devez configurer plusieurs champs et pages avant de commencer à effectuer des transactions article.'
 author: SorenGP
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6b7289aff7d111804806bb1afbdfb822c9922492
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520323"
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Configuration de l’évaluation du stock
+# Configuration de l’évaluation du stock
 
 Pour vous assurer que les coûts ajustés sont enregistrés correctement, vous devez configurer plusieurs champs et pages avant de commencer à effectuer des transactions article. En règle générale, les entreprises choisissent une méthode de calcul des coûts spécifique et l’appliquent aux articles en stock, par exemple, pour les aider à suivre la valeur des articles en stock.  
 
@@ -32,11 +26,11 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Définir si le coût moyen doit être calculé uniquement par article ou par article pour chaque point de stock et pour chaque variante de l’article.|Champ **Type calcul coût moyen** sur la page **Paramètres stock**|  
 |Sélectionnez la période que l’application doit utiliser pour calculer le coût moyen pondéré des articles qui utilisent la méthode évaluation stock Moyen.|Champ **Période coût moyen** sur la page **Paramètres stock**|  
 |Définir des périodes inventaire pour contrôler la valeur du stock dans le temps en refusant d’accorder la validation de transactions lorsque les périodes inventaire sont clôturées.|[Utiliser les périodes inventaire](finance-how-to-work-with-inventory-periods.md)|  
-|S’assurer que les retours vente sont rapprochés des transactions sortantes afin de préserver la valeur du stock.|Champ **Coût retour identique obligatoire** sur la page **Ventes**|  
+|S’assurer que les retours vente sont rapprochés des transactions sortantes afin de préserver la valeur du stock.|Champ**Coût retour identique obligatoire** sur la page **Ventes**|  
 |S’assurer que les retours achat sont rapprochés des transactions entrantes afin de préserver la valeur du stock.|Champ **Coût retour identique obligatoire** sur la page **Achats**|
 |Configurer les règles d’arrondi à appliquer lors de l’ajustement ou de la proposition des prix article et lors de l’ajustement ou de la proposition des coûts standard.|Page **Mode arrondi**|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Définir des informations générales relatives aux stocks](inventory-how-setup-general.md)  

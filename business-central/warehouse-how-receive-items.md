@@ -1,136 +1,102 @@
 ---
 title: Réceptionner des articles
-description: Cet article donne un aperçu des différentes manières de recevoir des articles dans un entrepôt, par exemple des articles avec une commande achat ou des articles avec un reçu d’entrepôt.
-author: SorenGP
-ms.topic: conceptual
+description: Cet article est un aperçu des différentes manières de recevoir des articles dans un entrepôt avec une réception entrepôt.
+author: brentholtorf
+ms.author: bholtorf
+ms.topic: how-to
+ms.date: 09/02/2022
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
-ms.date: 09/02/2022
-ms.author: edupont
-ms.openlocfilehash: 6cca8d8f9b0ec28b149532581f9bc458022c3cd5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529530"
+ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ---
-# <a name="receive-items"></a>Réceptionner des articles
+# Réceptionner des articles avec une réception entrepôt
 
-Lorsque les articles arrivent dans un entrepôt qui n’est pas configuré pour un traitement de réception entrepôt, enregistrez simplement la réception du document d’entreprise associé, comme une commande achat, un retour vente ou un ordre de transfert entrant.
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous recevez des articles et les rangez en utilisant l’une des quatre méthodes décrites dans le tableau suivant.
 
-Lorsque les articles arrivent dans un entrepôt configuré pour appeler un traitement de réception entrepôt, vous devez extraire les lignes du document origine lancé ayant déclenché leur réception. En présence d’emplacements, vous pouvez soit accepter l’emplacement par défaut qui est renseigné, soit renseigner l’emplacement de rangement de l’article concerné si cet article n’a jamais été utilisé dans l’entrepôt. Vous devez ensuite renseigner les quantités d’articles reçus et valider la réception.  
+|Méthode|Processus entrant|Réceptions requises|Rangements requis|Niveau de complexité (pour plus d’informations, consultez [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md))|  
+|------------|---------------------|--------------|----------------|------------|  
+|A|Validation de la réception et du rangement à partir de la ligne commande|||Aucune activité entrepôt dédiée.|  
+|B|Validation de la réception et du rangement à partir d’un document de rangement stock||Activé|De base : commande par commande.|  
+|A|Validation de la réception et du rangement à partir d’un document réception entrepôt|Activé||De base : envoi/réception regroupés pour plusieurs commandes.|  
+|J|Validation de la réception d’un document réception entrepôt et validation du rangement à partir d’un document de rangement entrepôt|Activé|Activé|Avancé|  
 
-## <a name="receive-items-with-a-purchase-order"></a>Pour réceptionner des articles avec une commande achat
+Pour en savoir plus sur la gestion des articles entrants, consultez [Flux d’enlogement](design-details-inbound-warehouse-flow.md).
 
-Ce qui suit décrit comment réceptionner des articles avec une commande achat. Les étapes sont similaires pour les retours vente et les ordres de transfert.  
+L’article suivant fait référence aux méthodes C et D dans le tableau précédent.
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.
-2. Ouvrez une commande achat existante, ou créez-en une nouvelle. En savoir plus sur [Enregistrer les achats](purchasing-how-record-purchases.md).
-3. Dans le champ **Qté à recevoir**, indiquez la quantité reçue.
+## Réceptionner des articles avec une réception entrepôt
 
-   > [!NOTE]
-   > Si la quantité reçue est supérieure à celle commandée sur la commande achat, selon le champ **Quantité**, et que le fournisseur a été configuré pour autoriser les sur-réceptions, utilisez le champ **Sur-réception** pour gérer la quantité excédentaire. Pour en savoir plus, consultez la section [Pour réceptionner plus d’articles que commandés](warehouse-how-receive-items.md#receive-more-items-than-ordered).
-4. Sélectionnez l’action **Valider**.
+Lorsque les articles arrivent dans un entrepôt configuré pour traiter les réceptions entrepôt, vous devez extraire les lignes du document origine lancé ayant déclenché la réception. Si vous utilisez des emplacements, vous pouvez soit accepter l’emplacement par défaut, soit spécifier l’emplacement dans lequel placer les articles. Ce dernier peut être nécessaire lorsque vous recevez un article pour la première fois. Alors, renseignez les quantités d’articles reçus et validez la réception.  
 
-  La valeur du champ **Qté reçue** est mise à jour en conséquence. Si c’est une réception partielle, la valeur est inférieure à la valeur dans le champ **Quantité**.
+Vous pouvez créer une réception entrepôt de deux manières :
 
-> [!NOTE]
-> Si vous utilisez un document entrepôt pour valider la réception, vous ne pouvez pas utiliser l’action **Valider** sur la commande achat. Au lieu de cela, un magasinier a déjà validé la quantité de la commande achat telle qu’elle a été reçue. En savoir plus, [Pour réceptionner des articles avec une réception entrepôt](warehouse-how-receive-items.md#receive-items-with-a-warehouse-receipt).
+* En mode « push », lorsque le travail est effectué commande par commande. Sélectionnez l’action **Créer réception entrepôt** dans le document origine, tel qu’une commande achat, un retour vente ou un ordre de transfert pour créer une réception entrepôt pour un document origine.
+*-* En mode « pull », où vous utilisez l’action **Lancer** du document origine, action in the source document, tel qu’une commande achat, un retour vente ou un ordre de transfert pour lancer le document dans l’entrepôt. Un magasinier crée une **Réception entrepôt** pour un ou plusieurs documents origine lancés. La procédure suivante décrit comment créer une réception entrepôt en mode « push ». La procédure suivante décrit comment créer une réception entrepôt en mode « pull ». 
 
-## <a name="receive-items-with-a-warehouse-receipt"></a>Réceptionner des articles avec une réception entrepôt
-
-1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Réceptions entrepôt**, puis choisissez le lien associé.  
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Réceptions entrepôt**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 
-    Renseignez les champs du raccourci **Général**. Lorsque vous récupérez des lignes document origine, certaines des informations de l’en-tête sont copiées dans chaque ligne.  
+    Renseignez le champ **Code magasin** dans le raccourci **Général**. Lorsque vous récupérez des lignes document origine, certaines des informations de l’en-tête sont copiées dans chaque ligne. 
 
-    Pour une configuration de stockage avec un prélèvement et un rangement suggérés : Si le magasin possède une zone et un emplacement par défaut pour les réceptions, les champs **Code zone** et **Code emplacement** seront renseignés, mais vous pouvez les modifier selon vos besoins.  
+    Pour un magasin qui nécessite des emplacements, remplissez le champ **Code emplacement**. Selon votre configuration, [!INCLUDE[prod_short](includes/prod_short.md)] peut ajouter le code emplacement pour vous. Learn more at [Codes zone et emplacement](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
-    > [!NOTE]  
-    > Pour réceptionner des articles portant des codes classe entrepôt différents du code classe de l’emplacement indiqué dans le champ **Code emplacement** de l’en-tête du document, vous devez supprimer la valeur du champ **Code emplacement** de l’en-tête avant d’extraire les lignes des documents origine des articles.  
-3. Choisissez l’action **Extraire documents origine**. La page **Documents origine** s’ouvre.
+3. Vous pouvez obtenir le document origine de deux manières :
 
-    À partir d’une réception entrepôt nouvelle ou ouverte, vous pouvez utiliser la page **Filtres pour extr. doc. orig.** afin d’extraire les lignes du document origine lancé qui définissent les articles à recevoir ou à expédier.
+    1. Choisissez l’action **Extraire documents origine**. La page **Documents origine - Entrant** s’ouvre. Ici, vous pouvez sélectionner un ou plusieurs documents origine lancés dans l’entrepôt qui nécessitent une réception.
+    2. Choisissez l’action **Filtrer pour extr. doc. orig.**. La page **Filtres pour extr. doc. orig. - Entrants** s’ouvre. Ici, vous pouvez sélectionner le filtre de document origine et l’exécuter. Toutes les lignes du document origine lancé qui répondent aux critères de filtre sont ajoutées sur la page **Réception entrepôt**. Learn more at [Procédure : utiliser des filtres afin d’obtenir des documents origine](warehouse-how-receive-items.md#how-to-use-filters-to-get-source-documents).
 
-    1. Choisissez l’action **Filtrer pour extr. doc. orig.**.  
-    2. Pour configurer un nouveau filtre, entrez un code descriptif dans le champ **Code**, puis choisissez l’action **Modifier**.  
-    3. Définissez le type de ligne document origine que vous souhaitez extraire en renseignant les champs de filtre appropriés.  
-    4. Choisir **Exécuter**.  
+4. Définissez la quantité à recevoir.
 
-    Toutes les lignes du document origine lancé qui correspondent aux critères du filtre sont à présent insérées sur la page **Réception entrepôt** à partir de laquelle vous avez activé la fonction filtre. 
+    Le champ **Qté à recevoir** contient la quantité restante pour chaque ligne, mais vous pouvez modifier cette quantité selon vos besoins. 
 
-    Les combinaisons de filtres que vous définissez sont stockées sur la page **Filtres pour extr. doc. orig.** jusqu’à la prochaine utilisation. Le nombre de combinaisons de filtres est illimité. Vous pouvez modifier les critères à tout moment en choisissant l’action **Modifier**.
+    Pour définir la valeur dans le champ **Qté à recevoir** sur toutes les lignes à zéro, choisissez l’action **Supprimer qté à recevoir**. Par exemple, définir les quantités sur zéro est utile si vous utilisez un lecteur de code-barres pour mettre à jour les quantités reçues. Pour ajouter à nouveau les quantités restantes à partir du document origine, choisissez l’action **Remplir qté à recevoir**.  
 
-4. Sélectionnez le document origine pour lequel vous souhaitez recevoir des articles, puis sélectionnez le bouton **OK**.  
+    Sur un document réception entrepôt où la quantité reçue est supérieure à celle commandée, saisissez la quantité réellement reçue dans le champ **Qté à recevoir**. Si l’augmentation est inférieure ou égale à la tolérance indiquée par le code de sur-réception attribué, le champ **Quantité de sur-réception** est mis à jour pour afficher la quantité de dépassement de la valeur dans le champ **Quantité**. Si l’augmentation est supérieure à la tolérance, la sur-réception n’est pas autorisée.
 
-    Les lignes des documents origine s’affichent sur la page **Réception entrepôt**. Le champ **Qté à recevoir** est renseigné avec la quantité restante pour chaque ligne, mais vous pouvez modifier cette quantité selon vos besoins. Si vous avez supprimé la valeur du champ **Code emplacement** du raccourci **Général** avant d’accéder aux lignes, vous devez alors renseigner un code emplacement approprié sur chaque ligne réception.  
+5. Validez la réception entrepôt. Les champs relatifs à la quantité dans les documents origine sont mis à jour et les articles sont ajoutés au stock.  
 
-    > [!NOTE]  
-    >  Pour renseigner le champ **Qté à recevoir** sur toutes les lignes à zéro, choisissez l’action **Supprimer qté à recevoir**. Pour y insérer à nouveau la quantité restante, choisissez l’action **Remplir qté à recevoir**.  
-    >
-    >  Vous ne pouvez pas réceptionner un nombre d’articles supérieur au nombre figurant dans le champ **Qté ouverte** de la ligne document origine. Pour expédier des articles supplémentaires, utilisez la fonction filtre pour récupérer un autre document origine contenant une ligne pour l’article concerné.  
-
-5. Validez la réception entrepôt. Les champs relatifs à la quantité dans les documents origine sont mis à jour et les articles enregistrés dans le cadre du stock de la société.  
-
-En cas d’utilisation d’un rangement entrepôt, les lignes réception sont transmises à la fonction de rangement entrepôt. Les articles, bien que réceptionnés, ne peuvent pas être prélevés avant d’avoir été rangés. Les articles réceptionnés sont identifiés en tant que stock disponible une fois le rangement enregistré uniquement.  
-
-En cas de non-utilisation d’un rangement entrepôt et d’utilisation d’emplacements, le rangement des articles est enregistré dans l’emplacement spécifié sur la ligne document origine.  
+    > [!TIP]
+    > Si vous utilisez le rangement entrepôt, qui fait référence à la méthode D du tableau au début de cet article, les articles sont reçus mais ne peuvent pas être prélevés tant qu’ils n’ont pas été rangés. Pour en savoir plus sur le rangement d’articles, consultez [Ranger des articles avec le rangement entrepôt](warehouse-how-to-put-items-away-with-warehouse-put-aways.md). 
+    > 
+    > Sinon, envisagez d’utiliser l’action **Valider et imprimer**. L’action validera la réception et l’imprimera en tant qu’instruction de rangement indiquant où placer l’article.
 
 > [!NOTE]  
-> En utilisant la fonction **Valider et Imprimer**, vous effectuez à la fois la validation de la réception et l’impression d’une instruction de rangement qui indique les articles à ranger en stock.  
->
-> En cas d’utilisation d’un prélèvement et d’un rangement suggérés, les modèles rangement sont utilisés pour procéder au calcul du meilleur emplacement de rangement des articles. Il est ensuite imprimé sur l'instruction de rangement.
+> Si votre entrepôt utilise le transbordement, vous pouvez vérifier si vous pouvez transborder des articles sans les ranger. Pour en savoir plus sur le transbordement, consultez [Transborder des articles](warehouse-how-to-cross-dock-items.md).
 
-## <a name="receive-more-items-than-ordered"></a>Réceptionner plus d’articles que commandés
+## Procédure : utiliser des filtres afin d’obtenir des documents origine
 
-Lorsque vous recevez plus de produits que commandés, vous pouvez les réceptionner au lieu d’annuler la réception. Par exemple, il peut être moins coûteux de conserver les stocks excédentaires que de les retourner ou votre fournisseur peut vous proposer un rabais pour les conserver.
+À partir d’une réception entrepôt, vous pouvez utiliser la page **Filtres pour extr. doc. orig.** afin d’extraire les lignes du document origine lancé qui indiquent les articles à recevoir.
 
-### <a name="set-up-over-receipts"></a>Configurer des sur-réceptions
+1. Dans la réception entrepôt, choisissez l’action **Filtrer pour extr. doc. orig.**.
+2. Pour configurer un nouveau filtre, entrez un code descriptif dans le champ **Code**, puis choisissez l’action **Modifier**.
 
-Vous devez définir un pourcentage de dépassement autorisé de la quantité commandée lors de la réception. Vous le définissez sous un code de sur-réception, qui contient le pourcentage dans le champ **% de tolérance de sur-réception**. Vous affectez ensuite le code aux fiches des articles et/ou fournisseurs concernés.  
+    La page **Fiche filtre document origine - Entrants** s’ouvre.
 
-Ce qui suit décrit comment configurer un code de sur-réception et l’attribuer à un article. La procédure est identique pour la configuration pour un fournisseur.
+3. Utilisez les filtres pour définir le type de lignes du document origine à récupérer. Par exemple, vous pouvez sélectionner des types de documents origine, tels que des commande achat ou des ordres de transfert.
+4. Choisir **Exécuter**.  
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
-2. Ouvrez la fiche pour un article que vous soupçonnez parfois d’être livré avec une quantité supérieure à celle commandée.
-3. Cliquez sur **Recherche** dans le champ **Code de sur-réception**.
-4. Sélectionnez l’action **Nouveau**.
-5. Sur la page **Codes de sur-réception**, créez une ou plusieurs lignes définissant différentes stratégies de sur-réception. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
-6. Sélectionnez une ligne, puis sélectionnez **OK**.
+Toutes les lignes du document origine lancé qui répondent aux critères de filtre sont ajoutées sur la page **Réception entrepôt** sur laquelle vous avez activé les filtres.
 
-Le code de sur-réception est affecté à l’article. Toute commande achat ou réception entrepôt pour l’article permet désormais de réceptionner une quantité supérieure à celle commandée selon le pourcentage de tolérance de sur-réception indiqué.
+Le nombre de combinaisons de filtres est illimité. Les filtres sont enregistrés sur la page **Filtres pour extr. doc. orig.** et seront disponibles la prochaine fois que vous en aurez besoin. Vous pouvez modifier les critères à tout moment en choisissant l’action **Modifier**.
 
-> [!NOTE]
-> Vous pouvez configurer un flux de travail approbation pour exiger l’approbation des sur-réceptions avant leur traitement. Dans ce cas, vous devez sélectionner le champ **Approbation requise** sur la page **Codes de sur-réception**. En savoir plus sur [Créer des flux de projet](across-how-to-create-workflows.md).
+## Codes zone et emplacement
 
-### <a name="perform-an-over-receipt"></a>Effectuer une sur-réception
+Pour réceptionner des articles portant des codes classe entrepôt différents du code classe de l’emplacement indiqué dans le champ **Code emplacement** de l’en-tête du document, effacez la valeur du champ **Code emplacement** de l’en-tête avant d’extraire les lignes des documents origine des articles.  
+<!-- TBD, table with comparison of various options-->
 
-Sur les lignes achat et les lignes réception entrepôt, le champ **Quantité de sur-réception** permet d’enregistrer les quantités excédentaires reçues, c’est-à-dire les quantités dépassant la valeur dans le champ **Quantité**, la quantité commandée.
+Si des emplacements sont obligatoires pour un magasin, les codes zone et emplacement sont ajoutés aux documents de réception entrepôt comme suit :
 
-Lorsque vous traitez une sur-réception, vous pouvez augmenter la valeur dans le champ **Qté à recevoir** pour la faire correspondre à la quantité réellement reçue. Le champ **Quantité de sur-réception** est ensuite mis à jour pour afficher la quantité excédentaire. Vous pouvez également saisir la quantité excédentaire dans le champ **Quantité de sur-réception**. Le champ **Qté à recevoir** est ensuite mis à jour pour afficher la quantité commandée augmentée de la quantité excédentaire. La procédure suivante décrit comment renseigner le champ **Qté à recevoir**.  
+* Pour les configurations avancées qui utilisent le rangement et le prélèvement dirigés, [!INCLUDE [prod_short](includes/prod_short.md)] utilise le code emplacement réception de la page **Fiche magasin** du magasin. Si aucun code emplacement réception n’est spécifié, aucun emplacement n’est spécifié. Si l’article et les emplacements de réception ne correspondent pas, le code emplacement réception est vide.
+* Dans d’autres configurations, si aucun code emplacement réception n’est spécifié, [!INCLUDE [prod_short](includes/prod_short.md)] utilise le code emplacement du document origine.
 
-1. Sur une commande achat ou un document réception entrepôt où la quantité reçue est supérieure à celle commandée, saisissez la quantité réellement reçue dans le champ **Qté à recevoir**.
+## Voir la [formation Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index) associée.
 
-    Si l’augmentation est inférieure ou égale à la tolérance indiquée par le code de sur-réception attribué, le champ **Quantité de sur-réception** est mis à jour pour afficher la quantité de dépassement de la valeur dans le champ **Quantité**.
+## Voir aussi
 
-    Si l’augmentation est supérieure à la tolérance indiquée, la sur-réception n’est pas autorisée. Dans ce cas, vous pouvez rechercher s’il existe un autre code de sur-réception qui l’autorisera. Sinon, seule la quantité commandée peut être réceptionnée et la quantité excédentaire doit être traitée autrement, par exemple en la renvoyant au fournisseur.
-
-2. Validez la réception comme vous le feriez pour toute autre réception.
-
-> [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)] n’inclut pas de fonctionnalité permettant d’initier automatiquement l’administration financière des sur-réceptions. Vous devez gérer cela manuellement en accord avec le fournisseur, qui peut par exemple vous envoyer une facture nouvelle ou mise à jour.
-
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index) associée.
-
-## <a name="see-also"></a>Voir aussi
-
-[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
+[Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
-[Gestion des assemblages](assembly-assemble-items.md)  
-[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

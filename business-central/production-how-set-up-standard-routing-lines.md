@@ -6,28 +6,22 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000799, 99000803, 99000804, 99000805, 99000807
+ms.search.form: '99000799, 99000803, 99000804, 99000805, 99000807'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: c58d361a9b3d9732d4e29b4fea70e9f101c5e71f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520219"
 ---
-# <a name="set-up-standard-routing-lines"></a>Configurer des lignes gamme standard
+# Configurer des lignes gamme standard
 
 L’utilisation de tâches standard simplifie la création et la maintenance des gammes. Elles vous permettent d’associer rapidement des informations supplémentaires aux opérations récurrentes.
 
-## <a name="to-set-up-a-standard-task"></a>Pour configurer une tâche standard
+## Pour configurer une tâche standard
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tâches standard**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choisissez l’action **Outils**, **Personnel**, **Description** ou **Outils**, puis, sur la page qui s’ouvre, ajoutez l’écriture appropriée.
 
-## <a name="to-add-a-standard-task-to-an-operation"></a>Pour ajouter une tâche standard à une opération
+## Pour ajouter une tâche standard à une opération
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Gammes**, puis sélectionnez le lien associé.
 2. Ouvrez la gamme appropriée.
@@ -35,7 +29,7 @@ L’utilisation de tâches standard simplifie la création et la maintenance des
 
 Lorsque vous imprimez la feuille de gamme, vous pouvez choisir d’inclure les éléments de la tâche standard que vous avez ajoutée aux lignes gamme.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Créer des gammes](production-how-to-create-routings.md)  
 [Créer des nomenclatures de production](production-how-to-create-production-boms.md)  

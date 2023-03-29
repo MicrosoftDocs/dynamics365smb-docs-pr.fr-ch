@@ -1,24 +1,18 @@
 ---
 title: Exécuter une planification complète et un calcul PDP ou MRP
-description: Le système de planification peut calculer la planification de production (PDP) ou la planification des besoins matière (MRP, Material Requirements Planning) à la demande ou les deux simultanément.
+description: 'Le système de planification peut calculer la planification de production (PDP) ou la planification des besoins matière (MRP, Material Requirements Planning) à la demande ou les deux simultanément.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000852, 99000860
+ms.search.form: '99000852, 99000860'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 35263f54400865c88694a483bda195957a8f8db4
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557264"
 ---
-# <a name="run-full-planning-mps-or-mrp"></a>Exécuter une planification complète et un calcul PDP ou MRP
+# Exécuter une planification complète et un calcul PDP ou MRP
 
-Les termes « exécution de la feuille planning » ou « exécution d'un calcul MRP » font référence au calcul de la planification de fabrication principale et aux besoins matière sur la base de la demande réelle et prévue. Le système de planification peut calculer la planification de production (PDP) ou la planification des besoins matière (MRP, Material Requirements Planning) à la demande ou calculer les deux simultanément.  
+Les termes « exécution de la feuille planning » ou « exécution d’un calcul MRP » font référence au calcul de la planification de fabrication principale et aux besoins matière sur la base de la demande réelle et prévue. Le système de planification peut calculer la planification de production (PDP) ou la planification des besoins matière (MRP, Material Requirements Planning) à la demande ou calculer les deux simultanément.  
 
 -   Le calcul PDP est le calcul de la planification de production principale basé sur la demande réelle et la prévision de la demande. Le calcul PDP est utilisé pour les articles finis disposant de prévisions ou d’une ligne commande vente. Ces articles sont appelés « articles PDP » et identifiés de façon dynamique au début du calcul.  
 -   Le calcul MRP est le calcul des besoins matière basé sur la demande réelle de composants et la prévision de la demande au niveau du composant. Le calcul MRP n’est effectué que pour les articles qui ne sont pas des articles PDP. Le but du calcul MRP est de générer des plans formels en phases, par article, afin de fournir le bon article, au bon moment, au bon endroit, et dans la bonne quantité.  
@@ -29,7 +23,7 @@ Les liens créés par le moteur de planification entre la demande et son approvi
 
 Les résultats d’une planification appropriée dépendent de la configuration effectuée au niveau des fiches article, des nomenclatures d’assemblage et des gammes.  
 
-## <a name="methods-for-generating-a-plan"></a>Méthodes de génération d’une planification  
+## Méthodes de génération d’une planification  
 
 -   **Calculer planning régénératif** : cette fonction traite ou régénère la planification matières. Ce processus commence par supprimer toutes les commandes approvisionnement actuellement chargées. Tous les articles figurant dans la base de données son replanifiés.  
 -   **Calculer planning par écart** : cette fonction traite une planification par écart. Dans une planification par écart, les articles sont considérés comme le résultat de deux types de modifications :  
@@ -44,7 +38,7 @@ Avec chaque méthode planifiée, [!INCLUDE[prod_short](includes/prod_short.md)] 
 >   
 >  Vous pouvez exécuter la fonction Planning d’extraction de messages d’action entre un planning par écart et un planning régénératif pour visualiser instantanément l’impact de changements de planification, mais celui-ci n’est pas destiné à remplacer les processus de planning par écart ou de planning régénératif.  
 
-## <a name="to-calculate-the-planning-worksheet"></a>Pour calculer la feuille planning  
+## Pour calculer la feuille planning  
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles planning**, puis sélectionnez le lien associé.  
 2.  Choisissez l’action **Calculer planning régénératif** pour ouvrir la page **Calculer planning**.  
 3.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
@@ -54,7 +48,7 @@ Avec chaque méthode planifiée, [!INCLUDE[prod_short](includes/prod_short.md)] 
     |**PDP**|Sélectionnez pour lancer le calcul d’une planification de production. Les articles avec des commandes vente ou des prévisions de demande ouvertes sont pris en considération.|  
     |**MRP**|Sélectionnez pour lancer le calcul de la planification des besoins matière. Les articles avec des besoins dépendants sont pris en compte. En général, les PDP et les MRP sont exécutés simultanément. Pour les exécuter simultanément, le champ **Calcul PDP/MRP combiné** doit être sélectionné sur le raccourci **Planification** de la page **Paramètres production**.|  
     |**Date début**|Cette date permet d’évaluer la disponibilité des articles. Si la quantité disponible d’un article est inférieure au point de commande, le système planifie en aval un ordre de réapprovisionnement à partir de cette date. Si la quantité disponible d’un article est inférieure à son stock de sécurité (à partir de la date début), le système planifie en amont un ordre de réapprovisionnement dû à la date début planning.|  
-    |**Date fin**|Il s’agit de la date fin de l’horizon de planification. Ni la demande ni l'approvisionnement ne sont pris en compte au-delà de cette date. Si le regroupement pour un article s’étend au-delà de la date fin, l’horizon de planification effectif pour cet article équivaut à la date commande + le regroupement.<br /><br /> L’horizon de planification est la durée d’extension de la planification. Si l’horizon est trop court, les articles dont le temps de fabrication est plus long ne sont pas commandés à temps. Si l'horizon est trop long, trop de temps est consacré à l'examen et au traitement d'informations qui changent probablement avant que ce soit nécessaire. Vous pouvez définir un horizon de planification pour la production et un autre, plus long, pour les achats, même si ce n'est pas obligatoire. Un horizon de planification pour les achats et la production doit être défini pour couvrir le temps de fabrication cumulé des composants.|  
+    |**Date fin**|Il s’agit de la date fin de l’horizon de planification. Ni la demande ni l’approvisionnement ne sont pris en compte au-delà de cette date. Si le regroupement pour un article s’étend au-delà de la date fin, l’horizon de planification effectif pour cet article équivaut à la date commande + le regroupement.<br /><br /> L’horizon de planification est la durée d’extension de la planification. Si l’horizon est trop court, les articles dont le temps de fabrication est plus long ne sont pas commandés à temps. Si l’horizon est trop long, trop de temps est consacré à l’examen et au traitement d’informations qui changent probablement avant que ce soit nécessaire. Vous pouvez définir un horizon de planification pour la production et un autre, plus long, pour les achats, même si ce n’est pas obligatoire. Un horizon de planification pour les achats et la production doit être défini pour couvrir le temps de fabrication cumulé des composants.|  
     |**Arrêter et afficher la première erreur**|Sélectionnez si vous souhaitez arrêter l’exécution de la planification dès qu’elle rencontre une erreur. Au même moment, un message affiche des informations sur la première erreur. S’il y a une erreur, seules les lignes planning traitées avant la détection de l’erreur apparaissent dans la feuille planning. Si vous ne sélectionnez pas ce champ, le traitement par lots **Calculer planning** se poursuivra jusqu’à son achèvement, ce qui signifie que des erreurs éventuelles ne l’interrompent pas. Si des erreurs existent, un message s’affichera un message après le traitement avec des informations sur le nombre d’articles affectés. La page **Journal des erreurs de planning** affiche ensuite des informations supplémentaires sur l’erreur et des liens vers les fiches article concernées.|  
     |**Utiliser prévisions**|Sélectionnez la prévision à inclure en tant que demande lors de l’exécution du traitement par lots de planification. La prévision par défaut est configurée sur le raccourci **Planning** sur la page **Paramètres production**.|  
     |**Exclure prévisions avant**|Définissez la part de la prévision sélectionnée à inclure dans le planning exécuté en entrant une date avant laquelle une demande prévue n’est pas incluse, ce qui permet d’exclure les informations anciennes.|  
@@ -63,7 +57,7 @@ Avec chaque méthode planifiée, [!INCLUDE[prod_short](includes/prod_short.md)] 
 4.  Sur le raccourci **Article**, définissez des filtres pour exécuter la planification sur la base de l’article, de la désignation de l’article, ou du magasin.  
 5.  Cliquez sur le bouton **OK**. Le traitement par lot est exécuté, puis la feuille planning est renseignée à l’aide des lignes planning.  
 
-## <a name="to-perform-action-messages"></a>Pour traiter les messages d’action  
+## Pour traiter les messages d’action  
 1.  Sur la page **Feuille planning**, sélectionnez l’action **Traiter messages d’action**.  
 2.  Sur le raccourci **Options**, spécifiez comment créer des approvisionnements. Renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -81,7 +75,7 @@ Avec chaque méthode planifiée, [!INCLUDE[prod_short](includes/prod_short.md)] 
 
 Le traitement par lots supprime les lignes dans la feuille planning après génération du message d’action. Les autres lignes restent dans la feuille planning jusqu’à ce qu’elles soient acceptées à une date ultérieure ou supprimées. Vous pouvez également supprimer les lignes manuellement.  
 
-## <a name="action-messages"></a>Messages d’action  
+## Messages d’action  
 Des messages d’action sont émis par le système de suivi des ordres quand l’équilibre est inaccessible dans le réseau d’ordres existant. Vous pouvez les consulter comme des suggestions pour traiter les modifications qui rétablissent l’équilibre entre l’approvisionnement et la demande.  
 
 La génération de messages d’action se produit à un niveau à la fois, pour le code plus bas niveau de chaque article. Cela garantit que tous les articles faisant ou devant faire l’objet de modifications au niveau de l’approvisionnement ou de la demande sont pris en compte.  
@@ -103,7 +97,7 @@ En réponse à tout déséquilibre entre l’approvisionnement et la demande, le
 |**Replanifier & changer qté**|Si tant les dates que les quantités d’un ordre ont été modifiées, vous devez modifier les plannings en relation avec les deux circonstances. Le système de génération de messages d’action regroupe les deux actions dans un seul message, **Replan. et changer qté**, pour garantir le retour à l’équilibre du réseau d’ordres.|  
 |**Annuler**|Si une demande qui a été couverte sur la base d’une relation ordre pour ordre est supprimée, un message d’action est généré pour annuler la commande approvisionnement qui y est liée. Si la relation n’est pas une relation ordre pour ordre, un message d’action est généré pour modifier l’ordre afin de réduire l’approvisionnement. Si, en vertu d’autres facteurs, tels que des ajustements de stock, une commande d’approvisionnement n’est pas requise au moment de la génération des messages d’action par l’utilisateur, [!INCLUDE[prod_short](includes/prod_short.md)] suggère un message d’action **Annuler** dans la feuille de calcul.|  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
 [Planifié](production-planning.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)    

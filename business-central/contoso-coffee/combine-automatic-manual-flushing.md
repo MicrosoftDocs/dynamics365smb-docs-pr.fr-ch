@@ -6,22 +6,17 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: c5552d81dc612070b5dd5512222806527e18ce7e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078767"
 ---
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Procédure pas à pas : Combiner la consommation automatique et la consommation manuelle
+
+# Procédure pas à pas : Combiner la consommation automatique et la consommation manuelle
 
 Dans cet article, nous vous expliquons comment utiliser les données de démonstration Contoso Coffee dans la consommation.  
 
-## <a name="scenario"></a>Scénario
+## Scénario
 
 Vous êtes planificateur de production chez Contoso Coffee. Vous devez créer un nouvel ordre de fabrication pour 10 unités de l’article SP-SCM1004, AutoDrip. Certains composants et certaines opérations seront consommés en aval et d’autres consommés en amont en fonction de différentes conditions.
 
-## <a name="steps"></a>Étapes
+## Étapes
 
 > [Remarque !] N’oubliez pas d’ajuster le stock en validant la feuille article avec les soldes d’ouverture.
 
@@ -108,7 +103,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez créer un
 
 C’est tout pour la consommation manuelle et automatique des composants.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Consommer des composants en fonction de la production réalisée](../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduction aux données de démonstration Contoso Coffee](contoso-coffee-intro.md)  

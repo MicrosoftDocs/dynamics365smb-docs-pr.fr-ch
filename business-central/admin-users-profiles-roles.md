@@ -1,34 +1,43 @@
 ---
 title: Gestion des utilisateurs et des rôles
-description: Découvrez comment gérer les profils utilisateur et les tableaux de bord dans Business Central. Les profils permettent aux administrateurs de définir et de gérer de manière centralisée ce que les utilisateurs peuvent voir et faire.
-author: SorenGP
-ms.topic: conceptual
-ms.search.keywords: profiles, users
+description: "Découvrez comment gérer les profils utilisateur et les tableaux de bord dans Business\_Central. Les profils permettent aux administrateurs de définir et de gérer de manière centralisée ce que les utilisateurs peuvent voir et faire."
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 01/11/2023
+ms.custom: bap-template
 ms.search.form: 9171
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 98f20082b6519412c5f860e9cfd0b52a9fdb57fa
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529368"
 ---
-# <a name="manage-user-profiles"></a>Gérer les profils d’utilisateur
+# Gérer les profils d’utilisateur
 
-Tous les utilisateurs de [!INCLUDE[prod_short](includes/prod_short.md)] se voient attribuer un profil reflétant leur rôle professionnel, le département dans lequel ils travaillent ou une autre catégorisation. Les profils permettent aux administrateurs de définir et de gérer de manière centralisée ce que différents types d’utilisateurs peuvent voir et faire dans l’interface utilisateur afin de pouvoir effectuer leurs tâches de manière efficace.
+Attribuez tous les utilisateurs à des profils qui reflètent :
+
+* Leur rôle commercial
+* Le service où ils travaillent
+* Un autre type de catégorisation
+
+Les profils permettent aux administrateurs de définir et de gérer de manière centralisée ce à quoi différents types d’utilisateurs peuvent accéder dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > L’utilisation professionnelle classique d’un profil est un rôle. Un profil est donc nommé *Profil (rôle)* dans l’interface utilisateur.
 
-En tant qu’administrateur, vous créez et gérez des profils sur la page **Profils (rôles)**. Chaque profil possède une carte dans laquelle vous devez gérer divers paramètres pour le rôle associé, tels que le nom du rôle, les paramètres utilisateur et le tableau de bord utilisé par le profil. Pour plus d’informations sur les paramètres utilisateur et les tableaux de bord, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
+En tant qu’administrateur, vous créez et gérez des profils sur la page **Profils (rôles)**. Chaque profil dispose d’une carte dans laquelle vous gérez les paramètres du rôle associé. Pour cet exemple, la carte contient les informations suivantes :
 
-Avant de pouvoir administrer des profils d’utilisateurs, ceux-ci doivent être créés et ajoutés via le Centre d’administration Microsoft 365. Vous pouvez ensuite attribuer des autorisations à chaque utilisateur ou groupe d’utilisateurs afin de définir les fonctionnalités qu’ils sont autorisés à afficher et/ou à modifier. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
+* Nom du rôle
+* Préférences client
+* Tableau de bord utilisé par le profil
 
-## <a name="page-customization"></a>Personnalisation de page
+Pour plus d’informations sur les paramètres utilisateur et les tableaux de bord, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
+
+Avant de pouvoir administrer des profils d’utilisateurs, il convient de les créer et de les ajouter via le Centre d’administration Microsoft 365. Vous pouvez ensuite attribuer des autorisations à chaque utilisateur ou groupe d’utilisateurs. Les autorisations définissent les fonctionnalités auxquelles les utilisateurs peuvent accéder. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
+
+## Personnalisation de page
+
 Vous pouvez personnaliser les mises en page d’un profil afin que tous les utilisateurs auxquels ce profil a été attribué voient les pages personnalisées. En tant qu’administrateur, vous devez personnaliser les pages en utilisant les mêmes fonctionnalités que les utilisateurs lorsqu’ils personnalisent. Pour plus d’informations, voir [Personnaliser des pages pour les profils](ui-personalization-manage.md).
 
-## <a name="to-create-a-profile"></a>Pour créer un profil
+## Pour créer un profil
 
 Si vous ne pouvez pas copier un profil existant, vous pouvez en créer un manuellement.
 
@@ -39,7 +48,8 @@ Si vous ne pouvez pas copier un profil existant, vous pouvez en créer un manuel
 > [!TIP]
 > Si vous souhaitez qu’un profil particulier ne soit disponible que pour des utilisateurs très spécifiques, vous pouvez définir le champ **Description** sur `Navigation menu only.`. De cette façon, le profil est exclu de la liste des rôles disponibles dans **Mes paramètres**.
 
-## <a name="to-copy-a-profile"></a>Pour copier un profil
+## Pour copier un profil
+
 Pour gagner du temps, vous pouvez créer un nouveau profil en copiant un profil existant. Copiez celui qui a des paramètres similaires à celui que vous voulez créer.
 
 > [!NOTE]
@@ -49,13 +59,15 @@ Pour gagner du temps, vous pouvez créer un nouveau profil en copiant un profil 
 2. Renseignez les champs **ID profil** et **Nom complet**, puis cliquez sur le bouton **OK**.
 3. Sur la page **Profils (rôles)**, ouvrez la fiche du profil nouvellement créée, puis modifiez les autres champs si nécessaire.
 
-## <a name="to-edit-a-profile"></a>Pour modifier un profil
+## Pour modifier un profil
+
 Vous pouvez modifier un profil en modifiant les champs de la page **Profil (rôle)**. Toutefois, les modifications apportées ne seront pas visibles par l’utilisateur auquel le profil a été attribué tant qu’il ne se sera pas déconnecté/reconnecté.
 
 > [!Caution]
 > Ne renommez pas de profil lorsque les utilisateurs auxquels ce profil a été attribué sont connectés, car ils risquent de constater un blocage et de devoir redémarrer.
 
-## <a name="to-assign-a-profile-to-a-user"></a>Pour affecter un profil à un utilisateur
+## Pour affecter un profil à un utilisateur
+
 Les utilisateurs peuvent s’attribuer eux-mêmes un rôle (représentant un profil) en choisissant le champ **Rôle** sur la page **Mes paramètres**. En tant qu’administrateur, vous pouvez en faire de même avec la page **Profils (rôles)**.
 
 1. Sur la page **Profils (rôles)**, sélectionnez le profil à attribuer, puis sélectionnez l’action **Liste des personnalisations utilisateur**.
@@ -65,33 +77,38 @@ Les utilisateurs peuvent s’attribuer eux-mêmes un rôle (représentant un pro
 > [!NOTE]
 > Si vous attribuez un autre profil à un utilisateur, toutes les personnalisations effectuées par l’utilisateur avec le profil précédent sont conservées.
 
-## <a name="to-define-user-settings-for-a-profile"></a>Pour définir les paramètres utilisateur d’un profil
+## Pour définir les paramètres utilisateur d’un profil
+
 Sur la page **Mes paramètres**, les utilisateurs peuvent définir le comportement de base de leur compte, tel que le Tableau de bord, la langue et les notifications qu’ils reçoivent. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
 
-En tant qu’administrateur, vous pouvez définir ces paramètres pour un profil et les appliquer ainsi à tous les utilisateurs du rôle associé.
+En tant qu’administrateur, vous pouvez définir les paramètres d’un profil. Les paramètres s’appliquent à tous les utilisateurs affectés au rôle.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Profils (Rôles)**, puis sélectionnez le lien associé.
+1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Profils (Rôles)**, puis sélectionnez le lien associé.
 2. Sélectionnez la ligne du profil pour lequel vous souhaitez modifier les paramètres utilisateur, puis choisissez l’action **Liste de personnalisations utilisateur**.
 3. Sur la page **Personnalisations utilisateur**, ouvrez la fiche de l’utilisateur dont vous souhaitez modifier les paramètres.
 4. Sur la page **Fiche de personnalisation utilisateur**, modifiez les champs si nécessaire.
 
-## <a name="to-activate-a-profile"></a>Pour activer un profil
-Lorsqu’un profil est créé, vous pouvez sélectionner différentes cases à cocher qui définissent si, où et comment le profil et ses informations sont mis à la disposition des utilisateurs.
+## Pour activer un profil
 
-* Sur la page **Profil (rôle)**, activez les cases à cocher suivantes :
-    - **Activé** pour spécifier si le rôle associé est visible dans la page **Rôles disponibles** pour être choisi par les utilisateurs.  
-    - **Utiliser comme profil par défaut** pour spécifier le profil qui s’applique aux utilisateurs auxquels aucun rôle spécifique n’est attribué.
-    - **Désactiver la personnalisation** pour spécifier si les utilisateurs du rôle associé peuvent personnaliser leur espace de travail.
-    - **Afficher dans l’explorateur de rôles** pour spécifier si les actions sur les fonctionnalités métier incluses dans le profil sont affichées dans la vue étendue de l’explorateur de rôles, une vue d’ensemble des fonctionnalités. Pour en savoir plus, consultez [Recherche de pages avec l’explorateur de rôles](ui-role-explorer.md).
+Lorsque vous créez un profil, vous pouvez définir si, où et comment le profil et ses informations sont mis à la disposition des utilisateurs.
 
-## <a name="to-export-profiles"></a>Pour exporter des profils
-Vous pouvez exporter des profils depuis [!INCLUDE[prod_short](includes/prod_short.md)], par exemple pour les réutiliser dans un autre abonné. Les profils sont exportés dans un fichier zip contenant les fichiers .al pouvant être réutilisés pour développer des extensions. Pour plus d’informations, voir [Utiliser le client pour créer des profils et des personnalisations de page](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Sur la page **Profil (rôle)**, activez les cases à cocher suivantes :
+
+* **Activé** pour spécifier si le rôle associé est visible dans la page **Rôles disponibles** pour être choisi par les utilisateurs.  
+* **Utiliser comme profil par défaut** pour spécifier le profil qui s’applique aux utilisateurs auxquels aucun rôle spécifique n’est attribué.
+* **Désactiver la personnalisation** pour spécifier si les utilisateurs du rôle associé peuvent personnaliser leur espace de travail.
+* **Afficher dans l’explorateur de rôles** pour spécifier si les actions sur les fonctionnalités métier incluses dans le profil sont affichées dans la vue étendue de l’explorateur de rôles, une vue d’ensemble des fonctionnalités. Pour en savoir plus, consultez [Recherche de pages avec l’explorateur de rôles](ui-role-explorer.md).
+
+## Pour exporter des profils
+
+Vous pouvez exporter des profils depuis [!INCLUDE[prod_short](includes/prod_short.md)], par exemple pour les réutiliser dans un autre abonné. Les profils sont exportés vers un fichier zip contenant des fichiers AL. Vous pouvez réutiliser les fichiers AL pour développer des extensions. Pour plus d’informations, voir [Utiliser le client pour créer des profils et des personnalisations de page](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * Sur la page **Profils (rôles)**, choisissez l’action **Exporter des profils**.
 
-Un fichier zip contenant les fichiers .al pour tous les profils est exporté.
+    Cette action exporte un fichier zip contenant les fichiers AL pour tous les profils.
 
-## <a name="to-import-profiles"></a>Pour importer des profils
+## Pour importer des profils
+
 Vous pouvez importer des profils ayant été exportés depuis [!INCLUDE[prod_short](includes/prod_short.md)]. La procédure d’importation est plus ou moins l’inverse de la procédure d’exportation de profils. Pour en savoir plus, consultez [Pour exporter des profils](admin-users-profiles-roles.md#to-export-profiles).
 
 1. Sur la page **Profils (rôles)**, choisissez l’action **Importer des profils**.
@@ -100,19 +117,21 @@ Vous pouvez importer des profils ayant été exportés depuis [!INCLUDE[prod_sho
     Si vous souhaitez uniquement importer des profils spécifiques, utilisez le champ **Sélection** pour les indiquer.
 3. Cliquez sur le bouton **Importer les sélections**.
 
-Un fichier zip contenant les fichiers .al pour tous les profils sléectionnés est importé.
+    Cette action importe un fichier zip contenant les fichiers AL pour les profils sélectionnés.
 
-## <a name="to-delete-a-profile"></a>Pour supprimer un profil
+## Pour supprimer un profil
+
 Vous pouvez supprimer un profil en choisissant l’action **Supprimer** sur la page **Profils (rôles)**. Cependant, les limitations suivantes s’appliquent :
 
-- Vous ne pouvez pas supprimer un profil attribué à un utilisateur ou à un groupe d’utilisateurs.
-- Vous ne pouvez pas supprimer les profils provenant d’extensions. L’extension doit d’abord être désinstallée.
-- Vous ne pouvez supprimer qu’un profil à la fois.
+* Vous ne pouvez pas supprimer un profil attribué à un utilisateur ou à un groupe d’utilisateurs.
+*-* Vous ne pouvez pas supprimer les profils provenant d’extensions. L’extension doit d’abord être désinstallée.
+*-* Vous ne pouvez supprimer qu’un profil à la fois.
 
-## <a name="to-delete-all-personalizations-made-by-a-user"></a>Pour supprimer toutes les personnalisations effectuées par un utilisateur
-Vous pouvez supprimer toutes les modifications qu’un utilisateur a apportées aux pages qui constituent son espace de travail. Cela peut être utile, par exemple, si un employé a changé de rôle et n’a plus besoin des personnalisations. La suppression des personnalisations des utilisateurs ramène la mise en page à ce qui est défini par le profil.
+## Pour supprimer toutes les personnalisations effectuées par un utilisateur
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Personnalisations utilisateur**, puis choisissez le lien associé.
+Vous pouvez supprimer toutes les modifications qu’un utilisateur a apportées aux pages. Supprimer les modifications peut être utile, par exemple, si un employé a changé de rôle et n’en a plus besoin. Les suppressions ramènent la mise en page à ce qui est défini par le profil.
+
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Personnalisations utilisateur**, puis choisissez le lien associé.
 
     La page **Personnalisations utilisateur** répertorie tous les utilisateurs qui ont apporté des personnalisations.
 
@@ -123,10 +142,11 @@ L’utilisateur verra les modifications lors de sa prochaine connexion.
 
 Vous pouvez également supprimer toutes les personnalisations de page pour un profil. Pour plus d’informations, voir [Supprimer toutes les personnalisations d’un profil](ui-personalization-manage.md#to-delete-all-customizations-for-a-profile).
 
-## <a name="to-delete-personalizations-for-specific-pages"></a>Pour supprimer des personnalisations pour des pages spécifiques
-Vous pouvez supprimer les personnalisations qu’un ou plusieurs utilisateurs ont apportées à des pages spécifiques constituant leur espace de travail. Cela peut être utile, par exemple, si un processus d’entreprise modifié signifie qu’une personnalisation ne doit plus être utilisée par les utilisateurs. La suppression des personnalisations des utilisateurs ramène la mise en page à ce qui est défini par le profil.
+## Pour supprimer des personnalisations pour des pages spécifiques
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Personnalisations de la page utilisateur**, puis choisissez le lien associé.
+Vous pouvez supprimer les personnalisations qu’un ou plusieurs utilisateurs ont apportées à des pages spécifiques. Supprimer des personnalisations peut être utile, par exemple, si un processus d’entreprise modifié signifie qu’une personnalisation ne peut plus être utilisée. Les suppressions ramènent la mise en page à ce qui est défini par le profil.
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Personnalisations de la page utilisateur**, puis choisissez le lien associé.
 
     La page **Personnalisations des pages utilisateur** répertorie toutes les pages qui ont été personnalisées et l’utilisateur à qui elles appartiennent.
 
@@ -139,15 +159,15 @@ L’utilisateur les verra les modifications lors de sa prochaine connexion.
 
 Vous pouvez également supprimer toutes les personnalisations de page individuelle pour un profil. Pour plus d’informations, voir [Supprimer la personnalisation de pages spécifiques d’un profil](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
 
-## <a name="managing-user-sessions"></a>Gestion des sessions utilisateur
+## Gestion des sessions utilisateur
 
-En tant qu’administrateur de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous pouvez gérer les sessions utilisateur dans le centre d’administration. Pour plus d’informations, voir [Gérer les sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) dans le contenu d’administration.  
+En tant qu’administrateur de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous pouvez gérer les sessions utilisateur dans le centre d’administration. Pour plus d’informations, voir [Gérer les sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions) dans le contenu d’administration.  
 
 Pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous pouvez gérer des sessions à l’aide de SQL Server Management Studio, par exemple. Pour plus d’informations, voir [Documentation technique SQL Server](/sql/sql-server).  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/users-security-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/users-security-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  
 [Personnaliser les pages pour les profils](ui-personalization-manage.md)  

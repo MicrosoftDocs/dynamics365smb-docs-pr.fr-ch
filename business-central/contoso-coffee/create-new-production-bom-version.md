@@ -6,24 +6,19 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 3c631e0285e0fdc6db5bf70cd0f5167741f602f9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525276"
 ---
-# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Procédure pas à pas : Créer une nomenclature de production et une version de nomenclature
+
+# Procédure pas à pas : Créer une nomenclature de production et une version de nomenclature
 
 Dans cet article, nous vous expliquons comment utiliser les données de démonstration Contoso Coffee pour les nomenclatures dans les processus de production.  
 
-## <a name="scenario"></a>Scénario
+## Scénario
 
 Contoso Coffee a décidé d’ajouter une autre cafetière à sa gamme de produits : **SP-SCM1008 Airpot Lite**. Cette cafetière est identique à l’article existant **SP-SCM1009 Airpot**, sauf qu’elle ne comporte pas la plaque chauffante, **SP-BOM1104**. Dans une étape distincte, le voyant marche/arrêt, **SP-BOM1106** est supprimé pour une version de la nomenclature Airpot Lite.
 
 Oscar, l’ingénieur de processus chez Contoso Coffee, doit configurer une nouvelle nomenclature de production pour définir les exigences initiales en matière de composants pour le modèle Airpot Lite. Il doit ensuite mettre en place une nouvelle version de la nomenclature, avec une date de début au 1er juillet, pour s’aligner sur les plans ultérieurs de lancement d’une autre édition.
 
-## <a name="steps"></a>Étapes
+## Étapes
 
 1. Créez une nomenclature de production pour le modèle Airpot Lite.
 
@@ -78,6 +73,6 @@ Oscar, l’ingénieur de processus chez Contoso Coffee, doit configurer une nouv
 
 La nouvelle cafetière est désormais configurée en tant que nomenclature de production avec une version.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Introduction aux données de démonstration Contoso Coffee](contoso-coffee-intro.md)  

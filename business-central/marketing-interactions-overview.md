@@ -1,22 +1,16 @@
 ---
 title: Créer et gérer les interactions avec les contacts
-description: Dans Business Central, les interactions désignent tous les types de communication entre votre société et vos contacts. Découvrez comment créer et gérer vos contacts.
+description: "Dans Business\_Central, les interactions désignent tous les types de communication entre votre société et vos contacts. Découvrez comment créer et gérer vos contacts."
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
+ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b489cc9977b6711de8c5851ea7c95899c6dfaf14
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074759"
 ---
-# <a name="managing-interactions-with-your-contacts"></a>Gérer les interactions avec vos contacts
+# Gérer les interactions avec vos contacts
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], les interactions désignent tous les types de communication entre votre société et vos contacts. Par exemple, les communications peuvent s’effectuer par e-mail, par lettre, par téléphone, lors de réunions et ainsi de suite.
 
 Vous pouvez enregistrer toutes les interactions vente et marketing avec vos contacts afin d’effectuer le suivi des efforts mis en œuvre, et d’améliorer vos futures relations commerciales.

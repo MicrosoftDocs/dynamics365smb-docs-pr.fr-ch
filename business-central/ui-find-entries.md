@@ -1,6 +1,6 @@
 ---
 title: Rechercher les écritures associées aux documents
-description: Découvrez comment rechercher des documents, des contacts professionnels et des écritures d’éléments associés entre eux.
+description: 'Découvrez comment rechercher des documents, des contacts professionnels et des écritures d’éléments associés entre eux.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -10,14 +10,8 @@ ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: ae1ae9293530a36a635af48e1711f502b64add4d
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822469"
 ---
-# <a name="finding-related-entries-for-documents"></a>Rechercher les écritures associées aux documents
+# Rechercher les écritures associées aux documents
 
 Découvrez comment rechercher des documents et des écritures qui sont associés entre eux en fonction d’informations communes, notamment :
 
@@ -27,17 +21,17 @@ Découvrez comment rechercher des documents et des écritures qui sont associés
 
 Cette fonctionnalité est très utile pour rechercher les écritures comptables qui résultent de certaines transactions. Lors de la recherche par numéro de document, vous pouvez imprimer la synthèse à partir du rapport **Écritures de documents**.
 
-## <a name="get-started"></a>Mise en route
+## Mise en route
 
-La fonction de recherche d’écritures est facilement disponible à partir de presque toutes les pages en appuyant sur les touches Ctrl+Alt+Q. À partir des pages qui affichent spécifiquement les documents validés ou les écritures validées&mdash;pour les listes et les cartes&mdash;, vous pouvez également ouvrir la fonctionnalité en sélectionnant l’action **Rechercher des écritures**.
+La fonction de recherche d’écritures est facilement disponible à partir de presque toutes les pages en appuyant sur les touches <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>. À partir des pages qui affichent spécifiquement les documents validés ou les écritures validées&mdash;pour les listes et les cartes&mdash;, vous pouvez également ouvrir la fonctionnalité en sélectionnant l’action **Rechercher des écritures**.
 
 La page **Rechercher des écritures** inclut l’ensemble des écritures et documents associés en fonction du numéro de document et de la date de comptabilisation. La page est divisée en trois sections :
 
 - La section supérieure affiche les champs et les actions que vous utilisez pour filtrer votre recherche.
 - La section du milieu affiche les documents associés en fonction de la recherche.
-- La section inférieure affiche des informations sur le document source qui a été trouvé lors de la recherche.
+- La section inférieure affiche des informations sur le document origine qui a été trouvé lors de la recherche.
 
-## <a name="search-for-entries"></a>Rechercher des écritures
+## Rechercher des écritures
 
 Vous pouvez rechercher des écritures en fonction des informations relatives au document, au contact professionnel ou à la référence d’article. Dans la section supérieure, sélectionnez l’une des options suivantes en fonction du type d’informations dont vous disposez :
 
@@ -52,9 +46,9 @@ Après avoir fait un choix, entrez les informations de recherche pertinentes dan
 > [!TIP]
 > Pour des exemples d’utilisation de **Rechercher des écritures**, voir [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md) et [Guide pas-à-pas : Suivi des numéros de série/lot](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) associée
+## Voir la [formation Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
 [Rechercher des enregistrements validés sans enregistrements document entrant](across-how-find-posted-documents-without-income-document-records.md)  

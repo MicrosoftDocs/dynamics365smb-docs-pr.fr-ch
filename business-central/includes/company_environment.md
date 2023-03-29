@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: edupont
-ms.openlocfilehash: 74cf1897792ab15c9c74ff76e3674ca31fe599f1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317390"
 ---
 Les utilisateurs [!INCLUDE[prod_short](prod_short.md)] prennent parfois en charge plusieurs services ou sous-organisations au sein d’une unité commerciale. Par exemple, une entreprise peut avoir des bureaux de vente dans différentes villes et plusieurs pays. Elle a donc créé un centre de profit pour chaque bureau. Les bureaux situés dans le même pays sont constitués en *sociétés* distinctes dans un *environnement* partagé. D’autres bureaux sont créés en tant que sociétés dans des environnements distincts car ils sont géographiquement basés dans d’autres pays.
 

@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: undo, credit memo, return
-ms.search.form: 138, 140, 146
+ms.search.keywords: 'undo, credit memo, return'
+ms.search.form: '138, 140, 146'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 71356d981573447b6dc012066eedce38d1b77c38
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534604"
 ---
-# <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Corriger ou annuler des factures achat impayées
+# Corriger ou annuler des factures achat impayées
 
 Vous pouvez corriger ou annuler une facture achat validée. Cela est utile si vous souhaitez corriger une erreur de saisie, ou si vous souhaitez modifier l’achat assez tôt dans le processus de commande.
 
@@ -27,7 +21,7 @@ Sur la page **Facture achat enregistrée**, vous pouvez cliquer sur le bouton **
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
-## <a name="to-correct-a-posted-purchase-invoice"></a>Pour corriger une facture achat validée
+## Pour corriger une facture achat validée
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat validées**, puis sélectionnez le lien associé.  
 2. Sélectionnez la facture achat validée à corriger.  
@@ -41,7 +35,7 @@ Sur la page **Facture achat enregistrée**, vous pouvez cliquer sur le bouton **
     Un avoir achat est automatiquement créé et validé pour annuler la facture achat validée initiale.
 4. Sélectionnez **Afficher un avoir correctif** pour afficher l’avoir achat validé qui annule la facture achat validée initiale.
 
-## <a name="to-cancel-a-posted-purchase-invoice"></a>Pour annuler une facture achat validée
+## Pour annuler une facture achat validée
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat validées**, puis sélectionnez le lien associé.  
 2. Sélectionnez la facture achat validée à annuler.
@@ -53,13 +47,13 @@ Sur la page **Facture achat enregistrée**, vous pouvez cliquer sur le bouton **
     Un avoir achat est automatiquement créé et validé pour annuler la facture achat validée initiale. La valeur du champ **Annulé** de la facture achat validée initiale devient **Oui**.
 4. Sélectionnez **Afficher un avoir correctif** pour afficher l’avoir achat validé qui annule la facture achat validée initiale.
 
-### <a name="partial-invoice-posting-also-supported"></a>Validation partielle de facture également prise en charge
+### Validation partielle de facture également prise en charge
 
 Si l’annulation est liée à une validation de facture partielle, la ligne de commande d’achat d’origine est mise à jour pour refléter la quantité facturée annulée. Les champs **Qté à facturer** et **Qté facturée** de la ligne de commande d’achat associée sont réinitialisés aux valeurs avant l’enregistrement partiel.
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Achats](purchasing-manage-purchasing.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
