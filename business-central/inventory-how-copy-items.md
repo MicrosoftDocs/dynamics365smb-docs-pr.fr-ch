@@ -1,27 +1,21 @@
 ---
-title: 'Procédure : Copier des articles existants pour créer de nouveaux articles'
-description: Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utiliser la fonction Copier article pour copier un article existant et l’utiliser comme modèle pour un nouvel article.
+title: "Procédure\_: Copier des articles existants pour créer de nouveaux articles"
+description: 'Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utiliser la fonction Copier article pour copier un article existant et l’utiliser comme modèle pour un nouvel article.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.forms: 729
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3e31f64136f09c1623236f976f70fea088a4106c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130312"
 ---
-# <a name="copy-existing-items-to-create-new-items"></a>Copier des articles existants pour créer de nouveaux articles
+# Copier des articles existants pour créer de nouveaux articles
 
 Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utiliser la fonction **Copier article** pour copier un article existant et l’utiliser comme modèle pour un nouvel article.  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a>Pour copier un article existant dans un nouvel article
+## Pour copier un article existant dans un nouvel article
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Sélectionnez l’article que vous souhaitez copier, puis choisissez l’action **Copier article**.  
@@ -35,7 +29,7 @@ Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utilis
 
 4. Pour copier vos choix dans le nouvel article, choisissez le bouton **OK**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Configuration de stock](inventory-setup-inventory.md)  

@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: OData, Power App, SOAP
+ms.search.keywords: 'OData, Power App, SOAP'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d7dbc334edcd22bb41ea5ad3a37ff53a52bfe970
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531906"
 ---
-# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Connexion à vos données Business Central pour générer un application professionnelle à l’aide de Power Apps
+# Connexion à vos données Business Central pour générer un application professionnelle à l’aide de Power Apps
 
 Vous pouvez rendre vos données [!INCLUDE[prod_short](includes/prod_short.md)] disponibles sous forme de source de données dans Power Apps.  
 
 > [!NOTE]  
 > Vous devez disposer d’un compte valide avec [!INCLUDE[prod_short](includes/prod_short.md)] et avec Power Apps.  
 
-## <a name="to-add-prod_short-as-a-data-source-in-power-apps"></a>Pour ajouter [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données dans Power Apps
+## Pour ajouter [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données dans Power Apps
 
 1. Dans votre navigateur, accédez à [powerapps.microsoft.com](https://powerapps.microsoft.com/), puis connectez-vous.
 2. Sur la page d’accueil, dans la section **Commencer à partir des données**, choisissez la vignette **Autres sources de données**.  
@@ -49,9 +43,9 @@ Lorsque vous avez conçu et créé votre application, vous pouvez la partager av
 > [!NOTE]
 > Si vous souhaitez vous connecter à [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous devez choisir le connecteur **Business Central (sur site)** dans l’étape 3.  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/power-apps-power-automate-business-central/) associée
+## Voir la [formation Microsoft](/training/paths/power-apps-power-automate-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Créer une application de canevas à partir d’un modèle dans Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  

@@ -7,16 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/24/2021
-ms.search.form: ''
+ms.search.form: null
 ms.author: edupont
-ms.openlocfilehash: e306cc27753e86e8e1a0a315406643bcf6f44d8a
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822534"
 ---
-# <a name="posting-documents-and-journals"></a>Validation des documents et des feuilles
+# Validation des documents et des feuilles
 
 La validation est une action de comptabilité qui consiste à enregistrer des transactions commerciales dans les divers livres comptables de la société.
 
@@ -33,7 +27,7 @@ Le tableau suivant décrit les tâches associées, et inclut des liens vers les 
 | Obtenir un aperçu, sur la page, des écritures qui seront créées lors de la validation. |[Résultats de l’aperçu compta.](ui-how-preview-post-results.md) |
 | Obtenir un aperçu, dans un état, des écritures qui seront créées lors de la validation. |[Afficher des états de test avant la validation](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Valider les documents validés](across-edit-posted-document.md)  
 [Rechercher les écritures associées aux documents](ui-find-entries.md)  

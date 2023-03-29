@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
+ms.search.keywords: 'consolidation, subsidiaries, consolidate'
+ms.search.form: '1826, 1827'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 5e6e633155131c7a397a4214d9d22d9464b0847d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518170"
 ---
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidation des données financières de plusieurs sociétés
+
+# Consolidation des données financières de plusieurs sociétés
 
 Certaines organisations utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans plusieurs centres de profit ou entités juridiques. D’autres utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans les filiales qui doivent rendre compte aux organisations mères. Dans les deux cas, les comptables utilisent des outils intégrés pour aider à consolider les données financières.  
 
@@ -40,17 +35,17 @@ Vous configurez la société consolidée de la même manière que vous configure
 > [!TIP]
 > La consolidation des données financières peut être particulièrement appropriée en association avec des processus intersociétés. Pour plus d’informations, voir [Gestion des transactions intersociétés](intercompany-manage.md).
 
-## <a name="trial-balance"></a>Balance
+## Balance
 
 Si vous avez plusieurs sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)], l’état **Balance consolidé** peut vous donner un aperçu de leur santé financière dans leur ensemble.  
 
 L’état regroupe les écritures comptables de chacune de vos sociétés dans une nouvelle société que vous créez pour stocker les données consolidées. Cette société est généralement appelée « société consolidée ». La société consolidée est un conteneur pour les données consolidées, et ne contient pas de données métier en temps réel. Les sociétés que vous incluez dans la société consolidée deviennent des **centres de profit** dans l’état. Pour plus d’informations, voir [Configurer la consolidation de la société](finance-consolidated-company-reporting-setup.md).  
 
-## <a name="consolidate-data"></a>Consolider les données
+## Consolider les données
 
 Le processus de transfert des chiffres des centres de profit vers la société consolidée est la *consolidation* à proprement parler. Avant de réaliser cette opération, il peut être intéressant de rechercher les éventuelles différences entre les informations de base dans les centres de profit et dans la société consolidée. Il existe deux états que vous pouvez utiliser pour tester la base de données et le fichier.
 
-### <a name="to-test-the-data-before-you-consolidate"></a>Pour tester les données avant la consolidation
+### Pour tester les données avant la consolidation
 
 Vous pouvez tester vos données avant de les transférer vers la société consolidée. [!INCLUDE[prod_short](includes/prod_short.md)] recherche des différences dans les informations des centres de profit et de la société consolidée. Par exemple, si les numéros de compte ou les codes axe sont différents. Vous devez corriger les erreurs avant d’exécuter l’état. Vous pouvez tester la base de données ou, si vous importez des données à partir d’un fichier XML, vous pouvez tester le fichier.  
 
@@ -61,7 +56,7 @@ Vous pouvez tester vos données avant de les transférer vers la société conso
     * Pour tester un fichier, choisissez l’action **Tester fichier**, entrez le nom du fichier à tester, puis choisissez **Imprimer**.  
     * Pour tester la base de données, choisissez **Tester base de données**.  
 
-### <a name="run-the-consolidation"></a>Exécuter la consolidation
+### Exécuter la consolidation
 
 Une fois les données testées, vous pouvez les transférer vers la société consolidée.  
 
@@ -71,7 +66,7 @@ Une fois les données testées, vous pouvez les transférer vers la société co
 4. Dans la section Filtre, définissez un filtre pour le centre de profit ou le nom de l’entreprise concerné.  
 5. Planifiez éventuellement l’état à exécuter à une heure spécifique.  
 
-## <a name="eliminate-repeated-transactions"></a>Éliminer les transactions répétées
+## Éliminer les transactions répétées
 
 Après que vous avez consolidé toutes les sociétés, vous devez rechercher toutes les transactions enregistrées dans plusieurs sociétés, puis valider les écritures d’élimination pour les supprimer.
 
@@ -98,7 +93,7 @@ Chaque compte s’affiche individuellement sur une ligne, selon la structure du 
 * Le texte de validation copié à partir de la feuille comptabilité.
 * Le total de la société consolidée après les éliminations, si elles sont validées.
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Exporter et importer des données consolidées entre des bases de données
+## Exporter et importer des données consolidées entre des bases de données
 
 Si les données d’un centre de profit se trouvent dans une autre base de données, vous devez exporter les données dans un fichier avant de les inclure dans la consolidation. Chaque société doit être exportée séparément. À cette fin, utilisez le traitement par lots **Exporter fichier consolidation**.  
 
@@ -114,7 +109,7 @@ Les écritures exportées contiennent les champs suivants : **N° compte**, **D
 3. La section analytique exportée pour la saisie est celle de la société consolidée configurée dans le champ **Code consolidation** pour cette section analytique. Si aucune section analytique de société consolidée n’a été entrée dans le champ **Code consolidé** à cette fin, la section analytique proprement dite est exportée vers la ligne.  
 4. Les fichiers XML contiennent également les taux de change devise correspondant à la période de consolidation. Ces taux sont inclus dans une section distincte au début du fichier.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configurer la consolidation de la société](finance-consolidated-company-reporting-setup.md)  
 [Gestion des transactions intersociétés](intercompany-manage.md)  

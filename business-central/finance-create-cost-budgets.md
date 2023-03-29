@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
+ms.search.form: '1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 71ed144297e1f7b98b5fcb7252a216258719f68a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533659"
 ---
-# <a name="creating-cost-budgets"></a>Création des budgets des coûts
+# Création des budgets des coûts
 
 La budgétisation en comptabilité analytique ressemble à la budgétisation en comptabilité générale. Un budget de coûts est créé en fonction des types de coûts, tel qu’un budget est créé pour les écritures comptables en fonction des comptes généraux.  
 
@@ -32,9 +26,9 @@ Vous utilisez les pages suivantes pour créer et analyser les budgets de coûts.
 |Consultez les registres du budget des coûts et les écritures correspondantes.|Page **Registres du budget des coûts**|  
 |Imprimez les comparaisons budgétaires de coûts à l’aide de divers états.|État **Budget/Solde comptabilité analytique**<br /><br /> État **Budget/Relevé comptabilité analytique**<br /><br /> État **Budget des coûts par centre de coûts**<br /><br /> État **Budget des coûts par coûts associés**|  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/cost-accounting-reports-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/cost-accounting-reports-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  
 [Créer des budgets comptabilité](finance-how-create-budgets.md)  

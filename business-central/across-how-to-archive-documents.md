@@ -1,29 +1,23 @@
 ---
 title: Archiver les documents vente et les documents achat
-description: Vous pouvez archiver les commandes vente et les commandes achat, les devis, les retours et les commandes cadres, et restaurer les documents originaux si nécessaire.
+description: 'Vous pouvez archiver les commandes vente et les commandes achat, les devis, les retours et les commandes cadres, et restaurer les documents originaux si nécessaire.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
+ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.date: 03/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: c81248844f603f80304822c0ce089c666f9be9bc
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950344"
 ---
-# <a name="archive-documents"></a>Archiver des documents
+# Archiver des documents
 Vous pouvez archiver les commandes vente et les commandes achat, les devis, les retours et les commandes cadres. L’archivage des documents vous permet de restaurer les documents originaux, si nécessaire. Vous pouvez archiver des documents vente ou achat plusieurs fois, en enregistrant une version archivée différente chaque fois.
 
 Pour les documents de vente archivés où l’original existe et n’est pas validé, vous pouvez utiliser l’action **Restaurer** pour remplacer le document actuel par une version archivée. 
 
 Pour les documents archivés où l’original est désactivé, vous pouvez réutiliser le contenu uniquement en copiant les données, par exemple en utilisant l’action **Copier à partir du document**.  
 
-## <a name="to-set-up-automatic-document-archiving"></a>Pour configurer l’archivage automatique des documents
+## Pour configurer l’archivage automatique des documents
 
 Vous pouvez configurer l’archivage automatique des commandes vente et achat, des devis, des commandes cadres et des retours. Lorsque l’archivage automatique est activé, une nouvelle version du document archivé est créée lorsque quelqu’un effectue les actions suivantes :
 
@@ -45,9 +39,9 @@ Le tableau suivant décrit les options disponibles pour le champ **Archiver devi
 |**Question**|Invitez l’utilisateur à archiver ou non les devis lorsqu’ils sont supprimés.|
 |**Toujours**|Archivez automatiquement les devis lorsqu’ils sont supprimés.|
 
-## <a name="to-archive-a-sales-order"></a>Pour archiver une commande vente
+## Pour archiver une commande vente
 
-La procédure suivante décrit comment archiver une commande vente. La procédure est identique pour les commandes, les commandes ouvertes, les retours et les devis.
+La procédure suivante décrit comment archiver une commande vente. La procédure est identique pour les commandes, les commandes cadres, les retours et les devis.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Ouvrez une commande vente que vous souhaitez archiver.  
@@ -55,16 +49,16 @@ La procédure suivante décrit comment archiver une commande vente. La procédur
 
 La commande vente est archivée. Vous pouvez l’afficher sur la page **Commandes vente archivées**.
 
-## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Pour restaurer une commande vente non validée depuis les archives
+## Pour restaurer une commande vente non validée depuis les archives
 
-La procédure suivante décrit comment restaurer une commande vente archivée dans la commande vente d’origine. Il est possible de restaurer un document seulement lorsque le document d’origine n’a pas été validé. La procédure est identique pour les commandes, les commandes ouvertes, les retours et les devis.
+La procédure suivante décrit comment restaurer une commande vente archivée dans la commande vente d’origine. Il est possible de restaurer un document seulement lorsque le document d’origine n’a pas été validé. La procédure est identique pour les commandes, les commandes cadres, les retours et les devis.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Archives commandes vente**, puis sélectionnez le lien associé.
 2. Sélectionnez la commande vente archivée, ou une version de celle-ci, que vous voulez restaurer, puis sélectionnez l’action **Restaurer**.  
 
 Le contenu de la commande vente d’origine est remplacé par celui de la version archivée.
 
-## <a name="to-delete-archived-sales-orders"></a>Pour supprimer des commandes vente archivées
+## Pour supprimer des commandes vente archivées
 
 La procédure suivante décrit comment supprimer des commandes vente archivées. La procédure est identique pour les autres documents achat et vente archivés.
 
@@ -72,7 +66,7 @@ La procédure suivante décrit comment supprimer des commandes vente archivées.
 2. Choisissez l’action **Supprimer les anciennes versions**, puis, sur la page **Supprimer versions cde vente archivées**, sélectionnez les filtres appropriés.  
 3. Choisissez le bouton **OK**.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Suivre des lignes document](across-how-to-track-document-lines.md)  
 [Ventes](sales-manage-sales.md)  

@@ -3,18 +3,13 @@ title: Activer les fonctionnalités à venir à l’avance
 description: Découvrez comment activer certaines fonctionnalités facultatives avant qu’elles ne deviennent obligatoires.
 author: mikebcMSFT
 ms.topic: conceptual
-ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
+ms.search.keywords: 'administration, admin, key, optional, feature management, early access, preview'
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: 0ff7ee2a56b762609e2b15f101c1e4abc9bd46cd
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533364"
 ---
-# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Activer les fonctionnalités inédites et celles à venir à l’avance
+
+# Activer les fonctionnalités inédites et celles à venir à l’avance
 
 Certaines nouvelles fonctionnalités peuvent être activées à l’avance, vous permettant d’en profiter le plus tôt possible. L’activation précoce des fonctionnalités vous donne le temps de tester et de préparer votre organisation au changement.
 
@@ -22,9 +17,9 @@ Lorsque Microsoft publie des fonctionnalités ou des améliorations de conceptio
 
 En savoir plus sur la [gestion des fonctionnalités](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/admin-online-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/admin-online-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Fonctionnalités nouvelles et prévues](/dynamics365-release-plan/2021wave1/)  
 

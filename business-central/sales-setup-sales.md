@@ -1,23 +1,17 @@
 ---
 title: Aperçu des tâches de configuration des processus de vente
-description: Présentation des tâches requises pour configurer les règles et les valeurs qui définissent vos politiques et processus de vente, y compris la configuration générale et la configuration des ventes liées aux finances.
+description: 'Présentation des tâches requises pour configurer les règles et les valeurs qui définissent vos politiques et processus de vente, y compris la configuration générale et la configuration des ventes liées aux finances.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, sell, configure
-ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
+ms.search.keywords: 'trade, sell, configure'
+ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 2346c246fdf0d9973f40e7d0073dee9004c68669
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531366"
 ---
-# <a name="setting-up-sales"></a>Définition des ventes.
+# Définition des ventes.
 Avant de pouvoir gérer les processus de vente, vous devez configurer les règles et valeurs qui définissent les stratégies de vente de la société.
 
 Vous devez définir la configuration générale sur la page **Paramètres ventes**, telle que les documents de vente requis, la manière dont leurs valeurs sont enregistrées et le type de lignes à créer par défaut. Celle-ci a généralement lieu une seule fois au cours de la phase initiale de l’implémentation.
@@ -39,9 +33,9 @@ La configuration des ventes en relation avec les finances, comme les modes de r�
 |Entrer des informations sur les différents transporteurs utilisés, notamment un lien vers les prestations de traçabilité des colis.|[Configurer des transporteurs](sales-how-to-set-up-shipping-agents.md)|
 |Spécifiez les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

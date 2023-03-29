@@ -6,25 +6,19 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 600, 610
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.form: '600, 610'
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 0d0b4404df9f322c9d642fb06c08e912c24f9fd3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519741"
 ---
-# <a name="work-with-intercompany-documents-and-journals"></a>Utiliser les documents et les feuilles intersociétés
+# Utiliser les documents et les feuilles intersociétés
 Les documents ou les feuilles intersociétés permettent de valider les transactions effectuées avec vos partenaires intersociétés. Lorsque vous validez un document ou une ligne feuille intersociétés dans votre société, le programme crée le document ou la ligne feuille correspondant dans votre boîte d’envoi intersociétés : vous pouvez le transmettre au partenaire concerné. Celui-ci peut ensuite valider la transaction correspondante dans sa société sans avoir à réentrer les données.
 
 Pour les documents achat et vente, le code partenaire intersociétés du client ou du fournisseur concerné garantit que toutes les commandes et factures générées en relation avec les transactions avec ces sociétés produisent des documents correspondants dans la société partenaire. Il en résulte un équilibrage correct des comptes.
 
 Dans le cas des lignes feuilles comptabilité intersociétés, vous ne devez pas spécifier les comptes pour un ensemble de documents comptables particulier, mais simplement fournir l’identification de la société concernée. Les lignes feuille comptabilité intersociétés correspondantes sont alors créées dans la société partenaire, ce qui entraîne un équilibrage des documents comptables des deux sociétés impliquées dans une transaction.
 
-## <a name="to-fill-in-and-send-an-intercompany-sales-order"></a>Pour renseigner et envoyer une commande vente intersociétés
+## Pour renseigner et envoyer une commande vente intersociétés
 Vous pouvez envoyer les commandes vente et achat, ainsi que les retours avant qu’ils soient validés. En revanche, l’envoi des factures et avoirs est impossible tant qu’ils ne sont pas validés.
 
 La procédure suivante explique comment renseigner et envoyer une commande vente intersociété. Les mêmes étapes s’appliquent aux commandes fournisseur intersociétés et aux retours, ainsi qu’aux factures et avoirs intersociétés validés.  
@@ -38,7 +32,7 @@ La procédure suivante explique comment renseigner et envoyer une commande vente
 > [!NOTE]
 > Si vous effectuez l’étape 4, la commande vente est déplacée vers votre boîte d’envoi intersociétés, d’où vous pouvez l’envoyer ultérieurement. Pour plus d’informations, voir [Gérer la boîte de réception et la boîte d’envoi intersociétés](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Pour renseigner et valider une feuille intersociétés
+## Pour renseigner et valider une feuille intersociétés
 
 Lorsque vous validez une ligne feuille comptabilité intersociétés dans votre société, le programme crée la ligne feuille correspondante dans votre boîte d’envoi intersociétés : vous pouvez la transmettre au partenaire concerné. Avec la 1re vague de lancement 2022, vous pouvez également configurer la société afin que soient créées automatiquement les transactions intersociétés reçues des partenaires intersociétés, validées via la feuille comptabilité intersociété. Celui-ci peut ensuite valider la transaction correspondante dans sa société sans avoir à réentrer les données.
 
@@ -53,7 +47,7 @@ Lorsque vous validez une ligne feuille comptabilité intersociétés dans votre 
 
 Les écritures associées sont validées dans votre société et une feuille avec les écritures correspondantes est créée dans votre boîte d’envoi intersociétés ; vous pouvez l’envoyer à votre partenaire. Pour plus d’informations, voir [Gérer la boîte de réception et la boîte d’envoi intersociétés](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des transactions intersociétés](intercompany-manage.md)  
 [Finances](finance.md)  

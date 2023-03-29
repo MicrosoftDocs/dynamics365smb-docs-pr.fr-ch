@@ -1,21 +1,15 @@
 ---
 title: Créer une Fiche projet pour un projet et spécifier des tâches
-description: Pour un nouveau projet, vous créez une fiche projet qui contient les tâches projet et les lignes planning, pour vous aider à gérer la progression et les budgets.
+description: 'Pour un nouveau projet, vous créez une fiche projet qui contient les tâches projet et les lignes planning, pour vous aider à gérer la progression et les budgets.'
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: project management, task
-ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
+ms.search.keywords: 'project management, task'
+ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
 ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 180a6cfc4ce6efb11df8faccd5909f527f6393e3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528963"
 ---
-# <a name="create-jobs"></a>Créer des projets
+# Créer des projets
 
 Lorsque vous démarrez un nouveau projet, vous devez créer une fiche projet avec des tâches intégrées et des lignes planning structurées en deux couches.  
 
@@ -34,7 +28,7 @@ Parfois, la partie qui reçoit un service est différente de celle qui paie la f
 * Ajouter des informations sur les références externes pour simplifier la communication sur le projet.
 * Remplacer les conditions financières standard du projet.
 
-## <a name="to-create-a-job-card"></a>Pour créer une fiche projet
+## Pour créer une fiche projet
 
 Vous devez créer une fiche projet, puis créez des Lignes tâche projet et des lignes planning projet pour ce projet.
 
@@ -45,15 +39,15 @@ Vous devez créer une fiche projet, puis créez des Lignes tâche projet et des 
 > [!NOTE]  
 > Si vous utilisez des feuilles de temps dans le projet, vous devez également indiquer une personne responsable. Cette personne peut approuver les feuilles de temps pour les tâches des salariés associées à ce projet. Pour plus d’informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
 
-Si vous le souhaitez, marquez les actions sur le projet comme bloquées à l’aide du champ **Bloqué**. Le tableau suivant décrit l'effet de ces options sur ce champ.
+Si vous le souhaitez, marquez les actions sur le projet comme bloquées à l’aide du champ **Bloqué**. Le tableau suivant décrit l’effet de ces options sur ce champ.
 
 |Option  |Désignation  |
 |---------|---------|
 |Vide |Toutes les actions sont autorisées.|
-|Valider    |Vous pouvez utiliser des lignes planning, mais la validation du projet est bloquée. Choisir cette option implique que vous ne pouvez pas valider d'activité ni de vente sur le projet.|
+|Valider    |Vous pouvez utiliser des lignes planning, mais la validation du projet est bloquée. Choisir cette option implique que vous ne pouvez pas valider d’activité ni de vente sur le projet.|
 |Tous  |Toutes les actions sont bloquées.|
 
-## <a name="to-create-tasks-for-a-job"></a>Pour créer une tâche pour un projet
+## Pour créer une tâche pour un projet
 
 L’une des clés de la création d’un projet consiste à spécifier les différentes tâches impliquées dans le projet. Spécifiez les tâches en créant une ligne par tâche sur le raccourci **Tâches** de la page **Fiche projet**. Chaque projet doit avoir au minimum une tâche.
 
@@ -64,7 +58,7 @@ L’une des clés de la création d’un projet consiste à spécifier les diff�
 5. Répétez les étapes 3 et 4 pour toutes les tâches dont vous avez besoin pour le projet.
 6. Pour spécifier les tâches du projet avec les informations d’autres tâches de projet, cliquez sur **Copier les tâches projet de**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
 
-## <a name="to-create-planning-lines-for-a-job"></a>Pour créer des lignes planning pour un projet
+## Pour créer des lignes planning pour un projet
 
 Vous pouvez redéfinir vos nouvelles tâches projet sur les lignes planning projet. Une ligne planning peut extraire les information que vous souhaitez suivre pour un projet. Par exemple, vous pouvez suivre les ressources requises par le travail ou les éléments nécessaires. Par exemple, vous avez pour tâche d’amener un client à approuver un travail. Vous associez la tâche à des lignes planning article, comme un rendez-vous avec le client et l’affectation d’une ressource.  
 
@@ -85,9 +79,9 @@ Une ligne planning projet peut avoir l’un des types suivants :
 4. Sur la page **Lignes planning projet**, renseignez les champs, le cas échéant sur une nouvelle ligne.
 5. Répétez les étapes 3 et 4 pour toutes les lignes planning dont vous avez besoin pour la tâche projet.
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-new-job/) associée
+## Voir la [formation Microsoft](/training/modules/create-new-job/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion de projets](projects-manage-projects.md)  
 [Vidéo : Créer un projet dans Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

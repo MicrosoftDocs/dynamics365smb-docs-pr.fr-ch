@@ -7,19 +7,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.search.forms: 5725, 5726, 5732
+ms.search.forms: '5725, 5726, 5732'
 ms.date: 06/20/2022
 ms.author: bholtorf
-ms.openlocfilehash: deeca03327afa4b231cb9b4ce23088334fa50153
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532122"
 ---
-# <a name="work-with-catalog-items"></a>Utiliser des articles de catalogue
+# Utiliser des articles de catalogue
 
-Les articles de catalogue sont des éléments que vous ne gérez pas dans [!INCLUDE[prod_short](includes/prod_short.md)] jusqu’à ce que vous les vendiez. Lorsque vous utilisez l'action **Sélectionner un article de catalogue** pour ajouter un article de catalogue à une ligne d’une commande client ou d’un devis, l’article de catalogue est converti en article standard.
+Les articles de catalogue sont des éléments que vous ne gérez pas dans [!INCLUDE[prod_short](includes/prod_short.md)] jusqu’à ce que vous les vendiez. Lorsque vous utilisez l’action **Sélectionner un article de catalogue** pour ajouter un article de catalogue à une ligne d’une commande client ou d’un devis, l’article de catalogue est converti en article standard.
 
 > [!NOTE]  
 > Vous ne pouvez pas sélectionner d’article de catalogue à partir de la page **Facture vente**.
@@ -29,7 +23,7 @@ Un article de catalogue a généralement le numéro d’article du fournisseur q
 > [!IMPORTANT]
 > Les articles de catalogue ne doivent pas être confondus avec les articles hors stock, qui sont des articles normaux qui ont le type **Hors stock** pour les conserver hors les calculs de disponibilité et d’évaluation, par exemple parce qu’ils sont uniquement utilisés en interne et ont un coût bas. Pour plus d’informations sur les types, voir [À propos des types d’articles](inventory-about-item-types.md).
 
-## <a name="create-a-catalog-item"></a>Créer un article de catalogue
+## Créer un article de catalogue
 
 Les fiches article de catalogue ont moins d’informations que les fiches article normales, car vous ne les utilisez que pour proposer des devis ainsi que pour d’autres procédures. Pour cette raison, elles doivent être converties en fiches article normales, avant que vous puissiez valider les transactions commerciales pour elles.
 
@@ -37,14 +31,14 @@ Les fiches article de catalogue ont moins d’informations que les fiches articl
 2. Sélectionnez l’action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="specify-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Spécifier comment les numéros d’article de catalogue sont convertis en votre propre numérotation
+## Spécifier comment les numéros d’article de catalogue sont convertis en votre propre numérotation
 
 Avant de pouvoir convertir un article de catalogue en article normal, vous devez spécifier comment convertir les numéros d’article du fournisseur en votre numérotation d’article.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres article de catalogue**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins.
 
-## <a name="convert-a-catalog-item-to-a-normal-item"></a>Convertir un article de catalogue en un article normal
+## Convertir un article de catalogue en un article normal
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles de catalogue**, puis choisissez le lien associé.
 2. Ouvrez la fiche pour un article de catalogue que vous pouvez convertir en un article normal.
@@ -52,7 +46,7 @@ Avant de pouvoir convertir un article de catalogue en article normal, vous devez
 
 Une nouvelle fiche article pré-remplie avec les informations de l’article de catalogue ainsi qu’un modèle d’article pertinent sont créés. Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article, le cas échéant. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
-## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Pour vendre un article de catalogue et le convertir en article normal
+## Pour vendre un article de catalogue et le convertir en article normal
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau**. Complétez les champs du raccourci **Général** comme pour toute commande vente. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
@@ -68,9 +62,9 @@ Vous pouvez ensuite remplir ou modifier les champs sur la nouvelle fiche article
 > [!NOTE]  
 > Une référence article est automatiquement créée entre le numéro article fournisseur et votre nouveau numéro article. Pour plus d’informations, voir [Utiliser les références article](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Créer des commandes spéciales](sales-how-to-create-special-orders.md)  

@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 5a3e15669bfc590d663b7774fba84017ae842521
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372067"
 ---
+
 Le tableau suivant décrit certains des principaux états dans les états de production.
 
 | État | Description | ID | 
@@ -22,7 +17,7 @@ Le tableau suivant décrit certains des principaux états dans les états de pro
 | [Liste de comparaison des nomenclatures article](https://businesscentral.dynamics.com?report=99000758)|Cet état vous donne la possibilité de comparer des produits finis similaires concernant les coûts. Vous verrez une liste de tous les composants et leurs coûts, ainsi que les quantités nécessaires. La date de calcul est normalement fixée à la date de travail. |99000758|
 | [Statistiques O.F.](https://businesscentral.dynamics.com?report=99000791)|Spécifie les différents coûts qui se sont cumulés de l’ordre de fabrication sélectionné.<br>Le contenu de l’état est presque identique à la page **Statistiques O.F.**.<br>Pour les ordres de fabrication utilisant la méthode de fabrication *Fabrication à la commande*, la fenêtre n’affiche que le coût matière et capacité des articles au niveau de nomenclature le plus élevé.|99000791|
 | [Liste des tâches par capacité](https://businesscentral.dynamics.com?report=99000780)|Indique les ordres de fabrication en attente de traitement dans les centres ou les postes de charge. Les documents imprimés indiquent la capacité du centre ou du poste de charge). L’état comprend les données telles que l’heure début et fin, la date O.F. et la quantité d’entrée.|99000780|
-| [Charge centre de charge](https://businesscentral.dynamics.com?report=99000783)|Affiche la liste de la charge d'un centre de charge. La charge d'un centre de charge représente la somme du nombre d'heures nécessaires pour exécuter toutes les commandes réelles et planifiées dans un centre de charge, sur une période précise.|99000783|
-| [Charge poste de charge](https://businesscentral.dynamics.com?report=99000784)|Affiche la liste de la charge d'un poste de charge. La charge d'un poste de charge représente la somme du nombre d'heures nécessaires pour exécuter toutes les commandes réelles et planifiées sur un centre de charge pendant une période précise.|99000784|
+| [Charge centre de charge](https://businesscentral.dynamics.com?report=99000783)|Affiche la liste de la charge d’un centre de charge. La charge d’un centre de charge représente la somme du nombre d’heures nécessaires pour exécuter toutes les commandes réelles et planifiées dans un centre de charge, sur une période précise.|99000783|
+| [Charge poste de charge](https://businesscentral.dynamics.com?report=99000784)|Affiche la liste de la charge d’un poste de charge. La charge d’un poste de charge représente la somme du nombre d’heures nécessaires pour exécuter toutes les commandes réelles et planifiées sur un centre de charge pendant une période précise.|99000784|
 | [Liste des ruptures O.F.](https://businesscentral.dynamics.com?report=99000788)|Cet état peut être utilisé pour voir tous les composants qui ne sont pas disponibles en raison d’un stock manquant. Ainsi, cet aperçu peut être utilisé pour voir si le calendrier d’un ordre de fabrication planifié ou lancé et si le temps planifié peuvent être respectés.|99000788|
 |[O.F. : Coût](https://businesscentral.dynamics.com?report=99000767)|Fournit la liste des ordres de fabrication et de leurs coûts. Il indique les coûts opératoires prévus, les coûts composants prévus et les coûts totaux.|99000767|

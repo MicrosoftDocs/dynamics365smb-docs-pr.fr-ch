@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 11/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9763283"
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Créer des flux de travail pour connecter des tâches aux processus entreprise
+# Créer des flux de travail pour connecter des tâches aux processus entreprise
 
 Vous pouvez créer des flux de travail qui connectent des tâches aux processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du flux de travail, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du flux de travail.  
 
@@ -33,7 +27,7 @@ Lorsque vous créez des flux de travail, vous pouvez copier les étapes à parti
 
 Le flux de travail est divisé en trois sections :
 
-1. **En cas d'événement**  
+1. **En cas d’événement**  
    C’est là que le déclencheur est sélectionné.  
    Des exemples de déclencheur :
    * Un enregistrement de données de base est modifié
@@ -47,7 +41,7 @@ Le flux de travail est divisé en trois sections :
 
 Pour les deux types d’événements et de réponses, les options sont définies par le système. De nouveaux événements doivent être ajoutés via le développement d’une extension.
 
-## <a name="to-create-a-workflow"></a>Pour créer un flux de travail
+## Pour créer un flux de travail
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. La page **Flux de travail** s’ouvre.  
@@ -117,7 +111,7 @@ Pour les deux types d’événements et de réponses, les options sont définies
 > [!TIP]  
 > Pour voir les relations entre les tables utilisées dans les flux de travail, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") puis entrez **Flux de travail - Relations de table**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Exemple de création d’un nouveau flux de travail à l’aide d’événements existants
+## Exemple de création d’un nouveau flux de travail à l’aide d’événements existants
 
 Dans l’exemple suivant, un nouveau flux de travail est créé pour approuver les modifications apportées au nom d’un fournisseur existant :
 
@@ -155,9 +149,9 @@ Dans l’exemple suivant, un nouveau flux de travail est créé pour approuver l
     2. Dans le champ **Condition**, choisissez le mot **Toujours**, puis, dans le champ **Approbations en attente**, précisez *>0*. Le résultat de cette étape est que la condition se lit comme *Approbations en attente : >0* pour indiquer qu’il ne s’agit *pas* du dernier approbateur.  
     3. Dans le champ **Alors, réponse**, choisissez le lien **Sélectionner la réponse**. Puis, sur la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez la réponse *Envoyer une demande d’approbation pour l’enregistrement et créer une notification*.  
     4. Cliquez sur **OK**.  
-7. Sur la ligne suivante, ajoutez une deuxième étape de flux de travail pour l’événement *Une demande d'approbation est déléguée*.  
+7. Sur la ligne suivante, ajoutez une deuxième étape de flux de travail pour l’événement *Une demande d’approbation est déléguée*.  
 
-    1. Dans le champ **En cas d’événement**, précisez *Une demande d'approbation est déléguée*.  
+    1. Dans le champ **En cas d’événement**, précisez *Une demande d’approbation est déléguée*.  
     2. Dans le champ **Condition**, laissez la valeur définie sur *Toujours*.  
     3. Dans le champ **Alors, réponse**, choisissez le lien **Sélectionner la réponse**. Puis, sur la page **Réponses de flux de travail**, dans le champ **Sélectionner la réponse**, choisissez la réponse *Envoyer une demande d’approbation pour l’enregistrement et créer une notification*.  
     4. Cliquez sur **OK**.  
@@ -170,15 +164,15 @@ Dans l’exemple suivant, un nouveau flux de travail est créé pour approuver l
     5. Cliquez sur **OK**.  
 9. Pour activer le flux de travail, activez le bouton à bascule **Activé**.  
 
-L'illustration suivante donne un aperçu du résultat de cette procédure.  
+L’illustration suivante donne un aperçu du résultat de cette procédure.  
 
 :::image type="content" source="media/Workflows/workflow-example-2.png" alt-text="Illustration du flux de travail Approbation du nom du fournisseur.":::
 
 Ensuite, testez le flux de travail en ouvrant une fiche fournisseur existante et en changeant son nom. Vérifiez qu’une demande d’approbation est envoyée après la modification du nom du fournisseur.
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)  
 [Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md)  

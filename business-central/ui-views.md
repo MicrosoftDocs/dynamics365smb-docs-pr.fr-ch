@@ -1,22 +1,16 @@
 ---
 title: Enregistrer et personnaliser les vues de liste
-description: Découvrez comment créer vos propres vues pour les listes filtrées ainsi que la manière d’enregistrer, de renommer et de gérer ces vues.
+description: 'Découvrez comment créer vos propres vues pour les listes filtrées ainsi que la manière d’enregistrer, de renommer et de gérer ces vues.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: ''
+ms.search.form: null
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2a87bfa59ad6b5ccef9232afb57aa7400aea6ff2
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655685"
 ---
-# <a name="save-and-personalize-list-views"></a>Enregistrer et personnaliser les vues de liste
+# Enregistrer et personnaliser les vues de liste
 
 Lorsque vous avez défini un filtre sur une liste et que vous souhaitez conserver le filtre pour plus tard, vous pouvez l’enregistrer en tant que vue. Pour plus d’informations sur le filtrage des listes, voir [Définition de filtres sur les listes](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
@@ -24,32 +18,32 @@ Si des vues existent, le groupe **Vues** apparaît en haut du volet Filtre. Les 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="to-save-a-view"></a>Pour enregistrer une vue
+## Pour enregistrer une vue
 
 1. Ouvrez n’importe quelle page de liste.
-2. Sélectionnez ![l’icône Volet Filtre.](media/open-filter-pane-icon.png "Icône de volet Filtre") en haut de la liste ou appuyez sur Maj+F3 pour ouvrir le volet Filtre.
+2. Sélectionnez ![l’icône Volet Filtre.](media/open-filter-pane-icon.png "Icône de volet Filtre") en haut de la liste ou sélectionnez <kbd>Maj</kbd>+<kbd>F3</kbd> pour ouvrir le volet Filtre.
 3. Définissez un ou plusieurs nouveaux filtres. Pour plus d’informations, reportez-vous à [Définition de filtres sur les listes](ui-enter-criteria-filters.md#setting-filters-on-lists).
 4. Lorsque vous avez défini les filtres, choisissez l’icône ![Enregistrer la vue.](media/save_view_icon.png "Enregistrer la vue") .
 
     Si vous définissez un filtre pour une vue de liste déjà enregistrée en tant que vue, la vue existante est mise à jour lors de la sauvegarde.
 5. Si vous enregistrez une nouvelle vue, entrez un nom pour la vue dans la zone **Tous (copier)**, par exemple « Articles que je possède ».
-6. Appuyez sur la touche Entrée ou déplacez le curseur de la zone de texte pour accepter le nom.
+6. Sélectionnez la touche <kbd>Entrée</kbd> ou déplacez le curseur de la zone de texte pour accepter le nom.
 
 Si vous ne lui donnez pas de nom, il sera nommé **Tous (copier)**.
 
 > [!TIP]
 > Vous ne voyez pas l’icône ![Enregistrer la vue](media/save_view_icon.png "Enregistrer la vue") ? Pour plus d’informations, voir [Pourquoi n’ai-je pas d’icône Enregistrer](/dynamics365/business-central/ui-views-faq#save).
 
-## <a name="to-rename-or-remove-a-view"></a>Pour renommer ou supprimer une vue
+## Pour renommer ou supprimer une vue
 
 1. Pour la vue qui affiche actuellement la liste, choisissez l’icône ![Afficher d’autres options.](media/show-more-options-icon.png "Afficher plus d’options") pour voir quelles options sont disponibles.
 2. Choisissez soit l’action **Renommer** ou **Supprimer**.
 
-## <a name="managing-many-views"></a>Gestion de plusieurs vues
+## Gestion de plusieurs vues
 
 À mesure que le nombre de vues sur une page augmente, vous aurez peut-être besoin d’un contrôle supplémentaire sur la manière dont elles sont présentées dans le volet Filtre. Avec la bannière **Personnalisation**, vous pouvez masquer des vues indésirables ou réorganiser vos vues pour obtenir la séquence parfaite. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [FAQ sur les vues de liste](ui-views-faq.yml)  
 [Personnaliser votre espace de travail](ui-personalization-user.md)    

@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c2f5f4c264150802920169139c90c0456f9a27c4
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334865"
 ---
+
 Le tableau suivant décrit certains des principaux états dans les états de comptabilité fournisseur.
 
 | État | Description | ID | 
