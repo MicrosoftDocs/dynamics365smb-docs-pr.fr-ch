@@ -1,21 +1,15 @@
 ---
 title: Créer des utilisateurs en fonction des licences
-description: Décrit comment ajouter des utilisateurs à Business Central en ligne ou sur site en fonction des licences.
+description: "Décrit comment ajouter des utilisateurs à Business\_Central en ligne ou sur site en fonction des licences."
 author: jswymer
 ms.topic: conceptual
-ms.search.keywords: access, right, security
-ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
+ms.search.keywords: 'access, right, security'
+ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
 ms.date: 05/09/2022
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.openlocfilehash: f0a9231b68df913c122c4118a5585f8464fdbd00
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804542"
 ---
-# <a name="create-users-according-to-licenses"></a>Créer des utilisateurs en fonction des licences
+# Créer des utilisateurs en fonction des licences
 
 Cet article décrit comment les administrateurs créent des utilisateurs et définissent qui peut se connecter à [!INCLUDE[prod_short](includes/prod_short.md)]. Vous allez également apprendre comment attribuer des autorisations à différents utilisateurs en fonction des licences de produit.
 
@@ -26,7 +20,7 @@ Pour plus d’informations sur les différents types de licences et le fonctionn
 > [!NOTE]
 > Le processus de gestion des utilisateurs et des licences varie selon que [!INCLUDE[prod_short](includes/prod_short.md)] est déployé en ligne ou sur site. Pour [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, vous devez ajouter des utilisateurs depuis Microsoft 365. Dans les déploiements sur site, vous pouvez créer, modifier et supprimer directement des utilisateurs.  
 
-## <a name="manage-users-and-licenses-in-online-tenants"></a>Gérer des utilisateurs et des licences dans les abonnés en ligne
+## Gérer des utilisateurs et des licences dans les abonnés en ligne
 
 Les comptes d’utilisateurs dans [!INCLUDE[prod_short](includes/prod_short.md)] doivent d’abord être créés dans le centre d’administration Microsoft 365. Ces comptes d’utilisateurs ne sont pas exclusifs à Business Central. Si vous souscrivez à d’autres plans, ils peuvent être utilisés pour vous connecter à d’autres applications, telles que Power BI. Pour plus d’informations sur la création d’utilisateurs dans le centre d’administration Microsoft 365, accédez à [Ajouter des utilisateurs dans le centre d’administration Microsoft](/microsoft-365/admin/add-users/add-users).
 
@@ -41,11 +35,11 @@ Pour plus d’informations, voir [Administration de Business Central Online](/d
 
 Une fois les comptes utilisateur créés dans le centre d’administration Microsoft 365, il existe deux façons de les importer dans Business Central :
 
-- Un compte d’utilisateur est importé automatiquement quand l’utilisateur se connecte à Business Central pour la première fois.
+- Un compte d’utilisateur est importé automatiquement quand l’utilisateur se connecte à [!INCLUDE [prod_short](includes/prod_short.md)] pour la première fois.
 
 - L’administrateur peut importer des utilisateurs en sélectionnant l’action  **Mettre à jour les utilisateurs à partir de Microsoft 365**  sur la page **Utilisateurs* .
 
-Les deux approches ont leurs propres avantages et vous pouvez les utiliser simultanément. Chaque approche permet aux administrateurs de configurer de manière proactive Business Central pour attribuer les autorisations de démarrage, les groupes d’utilisateurs et les profils d’utilisateurs. L’utilisation de l’action **Mettre à jour les utilisateurs depuis Microsoft 365** donne aux administrateurs plus de contrôle pour ajuster les autorisations, les groupes d’utilisateurs et les profils. C’est une approche idéale quand vous configurez Business Central pour la première fois, avant que des utilisateurs ne se connectent ou au moment de l’ajout d’une nouvelle équipe d’utilisateurs.
+Les deux approches ont leurs propres avantages et vous pouvez les utiliser simultanément. Chaque approche permet aux administrateurs de configurer de manière proactive [!INCLUDE [prod_short](includes/prod_short.md)] pour attribuer les autorisations de démarrage, les groupes d’utilisateurs et les profils d’utilisateurs. L’utilisation de l’action **Mettre à jour les utilisateurs depuis Microsoft 365** donne aux administrateurs plus de contrôle pour ajuster les autorisations, les groupes d’utilisateurs et les profils. C’est une approche idéale quand vous configurez [!INCLUDE [prod_short](includes/prod_short.md)] pour la première fois, avant que des utilisateurs ne se connectent ou au moment de l’ajout d’une nouvelle équipe d’utilisateurs.
 
 > [!NOTE]
 > Après avoir ajouté des utilisateurs dans le Centre d’administration Microsoft 365, nous vous recommandons de mettre à jour les informations utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)] dès que possible. Il est facile de tenir à jour les informations des utilisateurs et de garantir qu’ils peuvent toujours se connecter. Pour plus d’informations, voir [Pour ajouter des utilisateurs ou mettre à jour les informations utilisateur et les attributions de licence dans Business Central](#adduser).<br>
@@ -58,7 +52,7 @@ Les deux approches ont leurs propres avantages et vous pouvez les utiliser simul
 
 Pour plus d’informations, voir [Accès administrateur délégué à Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Configurer les autorisations en fonction des licences
+### <a name="licensespermissions"></a>Configurer les autorisations en fonction des licences
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -88,13 +82,16 @@ Si cette configuration par défaut n’est pas la bonne pour un environnement pa
 > [!IMPORTANT]
 > Cette personnalisation des autorisations ne prend effet que pour les nouveaux utilisateurs auxquels vous attribuez la licence correspondante. Les utilisateurs existants ne sont pas mis à jour. Nous vous recommandons de personnaliser les autorisations avant de commencer à attribuer des licences utilisateur dans le Centre d’administration Microsoft 365.
 
-### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Pour ajouter des utilisateurs ou mettre à jour les informations utilisateur et les attributions de licence dans Business Central
+### <a name="adduser"></a>Pour ajouter des utilisateurs ou mettre à jour les informations utilisateur et les attributions de licence dans Business Central
 
 Après avoir ajouté des utilisateurs ou modifié les informations utilisateur dans le centre d’administration Microsoft 365, vous pouvez importer rapidement les informations utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)]. L’importation inclut les attributions de licence.  
 
 1. Connectez-vous à [!INCLUDE[prod_short](includes/prod_short.md)] en tant qu’administrateur.
 2. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Utilisateurs**, puis choisissez le lien associé.  
 3. Choisissez **Mettre à jour les utilisateurs depuis Microsoft 365**.
+
+> [!NOTE]
+> L’action **Mettre à jour les utilisateurs de Microsoft 365** ne met pas à jour les utilisateurs auxquels aucune licence n’a été attribuée, comme une personne qui est administrateur général et administrateur Dynamics 365. Ces utilisateurs mettront à jour la prochaine fois qu’ils se connecteront à l’environnement.
 
 L’étape suivante pour les utilisateurs récemment créés, l’étape suivante consiste à attribuer des groupes d’utilisateurs et des autorisations. Pour plus d’informations, accédez à [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md). Si vous mettez à jour un utilisateur et que la mise à jour inclut un changement de licence, les utilisateurs sont affectés au groupe d’utilisateurs approprié et leurs ensembles d’autorisations sont mis à jour. Pour plus d’informations, voir [Pour gérer les autorisations via les groupes d’utilisateurs](ui-define-granular-permissions.md).  
 
@@ -106,7 +103,7 @@ Pour en savoir plus sur la synchronisation des informations utilisateur avec Mic
 > [!NOTE]
 > Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, vous pouvez les inviter dans votre Business Central afin qu’ils puissent travailler avec vous et utiliser vos données fiscales. Pour plus d’informations, voir [Inviter votre comptable externe dans votre Business Central](finance-accounting.md#inviteaccountant).
 
-### <a name="to-remove-a-users-access-to-the-system"></a>Pour supprimer l’accès d’un utilisateur au système
+### Pour supprimer l’accès d’un utilisateur au système
 
 Vous pouvez supprimer l’accès d’un utilisateur à [!INCLUDE[prod_short](includes/prod_short.md)] en ligne. Toutes les références à l’utilisateur sont conservées. Cependant, l’utilisateur ne peut pas se connecter et les sessions actives de l’utilisateur sont arrêtées.
 
@@ -116,7 +113,7 @@ Vous pouvez supprimer l’accès d’un utilisateur à [!INCLUDE[prod_short](inc
 
 Vous pouvez également supprimer la licence d’un utilisateur dans le Centre d’administration Microsoft 365. L’utilisateur ne peut alors plus se connecter. Pour en savoir plus, consultez [Supprimer des licences d’utilisateurs](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Synchronisation avec Microsoft 365
+### <a name="m365"></a>Synchronisation avec Microsoft 365
 
 Lorsque vous attribuez une licence [!INCLUDE[prod_short](includes/prod_short.md)] à un utilisateur dans Microsoft 365, il existe deux façons de créer l’utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -141,13 +138,13 @@ Découvrez comment sécuriser l’accès aux environnements à l’aide de group
 
 Obtenez un aperçu de l’accès à Business Central dans Teams avec des licences Microsoft 365 sur [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
-## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Gérer des utilisateurs et des licences dans les déploiements sur site
+## Gérer des utilisateurs et des licences dans les déploiements sur site
 
 Pour les déploiements sur site, le nombre de licences utilisateur est spécifié dans le fichier de licence (.bclicense ou .flf). Lorsqu’un administrateur ou un partenaire Microsoft télécharge le fichier de licence, il peut spécifier les utilisateurs qui peuvent se connecter à [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Pour les déploiements sur site, l’administrateur crée, édite et supprime les utilisateurs directement à partir de la page **Utilisateurs**.
 
-### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>Pour modifier ou supprimer un utilisateur dans un déploiement sur site
+### Pour modifier ou supprimer un utilisateur dans un déploiement sur site
 
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Utilisateurs**, puis choisissez le lien associé.
 2. Sélectionnez l’utilisateur que vous souhaitez modifier, puis choisissez l’action **Modifier**.
@@ -159,7 +156,7 @@ Pour les déploiements sur site, l’administrateur crée, édite et supprime le
 >
 > Pour plus d’informations, consultez [Authentification et types d’informations d’identification](/dynamics365/business-central/dev-itpro/administration/users-credential-types) dans l’aide dédiée à l’administration pour [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  
 [Gérer les profils](admin-users-profiles-roles.md)  

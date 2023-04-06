@@ -28,7 +28,7 @@ Le tableau suivant décrit les informations fournies pour chaque table :
 |Nom de la société|Nom de la société, si existant, à laquelle appartient la table.|
 |Nom de table|Nom de la table.|
 |N° table|ID unique de la table.|
-|N° d’enregistrements|Nombre total d’enregistrements stockés dans la table.|
+|Non d’enregistrements|Nombre total d’enregistrements stockés dans la table.|
 |Taille enregistrement|La taille d’enregistrement moyenne en Ko/enregistrement. La valeur est calculée à l’aide de la formule suivante : 1024 (Taille)/N° d’enregistrements). |
 |Taille (Ko)|Espace total occupé par la table dans la base de données. La valeur indiquée est la somme des valeurs des champs Taille des données et Taille de l’index.|
 |Taille des données (Ko)|Espace occupé par les données de la table dans la base de données.|

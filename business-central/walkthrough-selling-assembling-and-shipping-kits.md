@@ -159,7 +159,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 5.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles article**, puis choisissez le lien associé. La page **Feuille article** s’ouvre.  
 6.  Sélectionnez l’action **Calculer ajustement entrepôt**.  
-7.  Sur la page **Calculer ajustement entrepôt**, cliquez sur le bouton **OK**.  
+7.  Sur la page **Calculer ajustement entrepôt**, cliquez sur le bouton **OK** .  
 8.  Sur la page **Feuille article**, choisissez l’action **Valider**, puis cliquez sur le bouton **Oui**.  
 
 ### Création des articles d’assemblage  
@@ -241,7 +241,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 7.  Sur la ligne d’ordre d’assemblage pour l’article 80210, choisissez le champ **N°** , puis sélectionnez l’article 80209 à la place.  
 8.  Créez une ligne ordre d’assemblage à l’aide des informations suivantes.  
 
-    |Type|N°|Quantité par|  
+    |Type|Non|Quantité par|  
     |----------|---------|------------------|  
     |Article|80203|1|  
 
@@ -255,7 +255,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 13. Sur le raccourci **Lignes**, sélectionnez **Ligne**, puis **Assembler pour commande** et **Lignes d’assemblage pour commande**.  
 14. Sur la page **Lignes Assembler pour commande**, créez une ligne ordre d’assemblage à l’aide des informations suivantes.  
 
-    |Type|N°|Quantité par|  
+    |Type|Non|Quantité par|  
     |----------|---------|------------------|  
     |Article ;|80203|1|  
 
@@ -272,7 +272,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 2.  Choisissez l’action **Calculer planning régénératif**.  
 3.  Sur la page **Calculer planning**, définissez les filtres suivants.  
 
-    |Date de début|Date de fin|N°|  
+    |Date de début|Date de fin|Non|  
     |-------------------|-----------------|---------|  
     |23-01-2014|27-01-2014|Kit A - PC de base|  
 

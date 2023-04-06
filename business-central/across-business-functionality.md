@@ -1,23 +1,17 @@
 ---
-title: Fonctionnalités d’entreprise prises en charge par Business Central
-description: Fournit une fonctionnalité d’aperçu de toutes les fonctionnalités commerciales et des départements qui sont pris en charge par les domaines d’application, comme les finances, le stock et la gestion de projets.
+title: "Fonctionnalités d’entreprise prises en charge par Business\_Central"
+description: 'Fournit une fonctionnalité d’aperçu de toutes les fonctionnalités commerciales et des départements qui sont pris en charge par les domaines d’application, comme les finances, le stock et la gestion de projets.'
 author: SorenGP
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 3e174ae2218dfe4b5b83a8a567deaba91987d2ea
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606818"
 ---
-# <a name="business-functionality"></a>Fonctionnalités d’entreprise
+# Fonctionnalités d’entreprise
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités pour les processus entreprise communs dans les PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l’assemblage, la fabrication, la maintenance et la gestion d’entrepôt suggérée sont également pris en charge. [Découvrez comment obtenir un essai gratuit ici](trial-signup.md).  
 
@@ -39,13 +33,13 @@ ms.locfileid: "9606818"
 |Planifier les opérations de production requises pour convertir les entrées en produits finis.|[Planifié](production-planning.md)|
 |Regrouper les articles vendables dans des étapes simples afin de créer un nouvel article, tel qu’un kit.|[Gestion des assemblages](assembly-assemble-items.md)|
 |Définir les ressources des ateliers et leur capacité, planifier les opérations, extraire les composants de production et exécuter les opérations de production.|[Production](production-manage-manufacturing.md)|
-|Assurer un flux efficace des marchandises reçues et expédiées.|[Gestion d’entrepôt](warehouse-manage-warehouse.md)|
+|Assurer un flux efficace des marchandises reçues et expédiées.|[Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)|
 |Planifier des appels de service et configurer des commandes service et assurer le suivi des pièces et fournitures de réparation.|[Gestion des services](service-service.md)|
 |Configurez et utilisez des workflows qui connectent des tâches exécutées par différents utilisateurs ou par le système, telles que la validation automatique. Demander et accorder une approbation pour créer ou valider des documents sont des étapes classiques du workflow.|[Flux de travail](across-workflow.md)|
 |Activez des utilisateurs pour l’échange de données avec des sources externes lors de tâches quotidiennes, telles que les envoyer/recevoir des documents électroniques, importer/exporter des fichiers bancaires, et mettre à jour des taux de change des devises.|[Échanger des données par voir électronique](across-data-exchange.md)|
 |Enregistrez des documents externes dans [!INCLUDE[prod_short](includes/prod_short.md)], ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Administration](admin-setup-and-administration.md)    
 [Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  

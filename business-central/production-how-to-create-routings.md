@@ -28,7 +28,7 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Gammes**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Dans le champ **Type**, sélectionnez **Série** pour calculer la gamme de fabrication en fonction de la valeur de **N° opération**. .  
+4. Dans le champ **Type**, sélectionnez **Série** pour calculer la gamme de fabrication en fonction de la valeur de **N° opération** . .  
     Sélectionnez **Parallèle** pour calculer les opérations en fonction de la valeur de **Numéro de l’opération suivante**. .  
 5. Pour modifier la gamme, définissez le champ **Statut** sur **Création en cours** ou sur **Modification en cours**. Pour l’activer, définissez le champ **Statut** sur **Validée**.  
 

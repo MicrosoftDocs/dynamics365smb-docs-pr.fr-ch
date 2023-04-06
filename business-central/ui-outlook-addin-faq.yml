@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
-  title: Business Central Add-in for Outlook FAQ
-  description: See answers to frequently asked questions about using Business Central add-in for Outlook.
+  title: FAQ sur le complément Business Central pour Outlook
+  description: Consultez les réponses aux questions fréquentes sur l’utilisation du complément Business Central pour Outlook.
   author: jswymer
   ms.topic: faq
   ms.devlang: na
@@ -10,30 +10,21 @@ metadata:
   ms.search.keywords: 'phone, tablet'
   ms.date: 04/27/2022
   ms.author: jswymer
-title: Business Central Add-in for Outlook FAQ
+title: FAQ sur le complément Business Central pour Outlook
 summary: |
-  This article answers questions that users often ask about the Business Central add-in for Outlook.   
+  Cet article répond aux questions que nos utilisateurs posent souvent à propos du complément Business Central pour Outlook.   
 sections:
-  - name: Ignored
+  - name: Ignoré
     questions:
-      - question: |
-          How do I change the environment my add-in is pointing to?  
+      - question: "Comment modifier l’environnement vers lequel pointe mon complément\_?  \n"
         answer: |
-          The environment URL is configured in the add-in when the add-in is installed (specifically, in the add-in's manifest file). If you want the add-in to point to a different environment, open the desired Business Central environment and deploy the add-in again, for example, by running the <bpt id="p1">**</bpt>Get the Outlook Add-in<ept id="p1">**</ept> assisted setup. This action  will redeploy the add-in with updated environment URLs. 
+          L’URL de l’environnement est configurée dans le complément lorsque ce dernier est installé (notamment dans le fichier manifeste du complément). Si vous souhaitez que le complément pointe vers un environnement différent, ouvrez l’environnement Business Central souhaité et déployez à nouveau le complément, par exemple en exécutant la configuration assistée **Obtenir le complément Outlook**. Cette action redéploie le complément avec les URL d’environnement mises à jour. 
 
           > [!NOTE]
-          > It might take some time before the change takes effect.
-      - question: |
-          Can I customize the add-in to connect to multiple environments?
+          > Cela peut prendre un certain temps avant que le changement ne prenne effet.
+      - question: "Puis-je personnaliser le complément pour me connecter à plusieurs environnements\_?\n"
         answer: |
-          Yes. As an administrator, developer, or partner, you can modify and build your own add-in manifests. One way is to download the Contact Insights manifest from each environment that the users want to connect to. Then, modify the <ph id="ph1">`&lt;Id&gt;`</ph> and <ph id="ph2">`&lt;DisplayName&gt;`</ph> tags to allow multiple versions of the add-in to be installed. These modifications will let the user have multiple Business Central add-ins installed, each pointing to their own environment.
+          Oui. En tant qu’administrateur, développeur ou partenaire, vous pouvez modifier et créer vos propres manifestes de complément. Une façon consiste à télécharger le manifeste Contact Insights à partir de chaque environnement auquel les utilisateurs souhaitent se connecter. Modifiez ensuite les balises `<Id>` et `<DisplayName>` pour autoriser l’installation de plusieurs versions du complément. Ces modifications permettront à l’utilisateur d’installer plusieurs compléments Business Central, chacun pointant vers son propre environnement.
 
-          ![Multiple Business Central add-ins for Outlook.](media/outlook-multiple-addins.png) 
-additionalContent: |
-
-  ## See also
-
-  <bpt id="p1">[</bpt>Get the Business Central Add-in for Outlook<ept id="p1">](admin-outlook.md)</ept>  
-  <bpt id="p1">[</bpt>Use Business Central as your Business Inbox in Outlook<ept id="p1">](work-outlook-addin.md)</ept>  
-
-  [!INCLUDE[footer-include](includes/footer-banner.md)]
+          ![Plusieurs compléments Business Central pour Outlook.](media/outlook-multiple-addins.png) 
+additionalContent: "\n## Voir aussi\n\n[Obtenir le complément Business Central pour Outlook](admin-outlook.md)  \n[Utiliser Business\_Central en tant que boîte de réception professionnelle dans Outlook](work-outlook-addin.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]\n"

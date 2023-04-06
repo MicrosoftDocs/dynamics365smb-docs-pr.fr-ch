@@ -80,7 +80,7 @@ Vous pouvez créer un prélèvement stock ou un mouvement stock de trois manièr
 
 ### Pour créer un mouvement de stock à partir du document origine
 
-1. Sur le document origine, qui peut être un ordre de fabrication, un ordre d'assemblage ou un projet, choisissez l’action **Créer prélèv./rangement stock**.  
+1. Sur le document origine, qui peut être un ordre de fabrication, un ordre d’assemblage ou un projet, choisissez l’action **Créer prélèv./rangement stock**.  
 2. Activez la case à cocher **Créer mouvement stock**.
 3. Cliquez sur le bouton **OK**.
 
@@ -127,13 +127,15 @@ Voici ce qui se passe pendant le processus de validation :
 * Validation de la consommation des lignes du document origine qui ont été prélevées.
 * Si le magasin utilise des emplacements, la validation crée également des écritures entrepôt pour valider les modifications de la quantité de l’emplacement.
 
+[!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 ## Pour enregistrer le mouvement stock
 
 1. Sur la page **Mouvement stock**, ouvrez le document pour lequel enregistrer le mouvement.  
 2. Dans le champ **Code emplacement** sur les lignes de mouvement, l’emplacement à prélever est suggéré en fonction de l’emplacement par défaut et de la disponibilité de l’article. Si nécessaire, vous pouvez modifier l’emplacement.  
 3. Exécutez le mouvement, puis saisissez la quantité déplacée dans le champ **Quantité à traiter**. La valeur sur les lignes prélèvement et emplacement doit être la même. Sinon, vous ne pouvez pas enregistrer le mouvement.
 
-    Si vous devez prendre les articles d’une ligne dans plusieurs emplacements, par exemple parce qu'un emplacement ne contient pas la quantité totale, utilisez l’action **Fractionner la ligne** sur le raccourci **Lignes**. L’action crée une ligne pour la quantité restante à gérer.  
+    Si vous devez prendre les articles d’une ligne dans plusieurs emplacements, par exemple parce qu’un emplacement ne contient pas la quantité totale, utilisez l’action **Fractionner la ligne** sur le raccourci **Lignes**. L’action crée une ligne pour la quantité restante à gérer.  
 4. Sélectionnez l’action **Enregistrer mouvement de stock**.  
 
 Voici ce qui se passe pendant le processus de validation :

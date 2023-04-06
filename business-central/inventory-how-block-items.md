@@ -25,7 +25,7 @@ Le tableau suivant décrit ce qui se produit lorsque les articles sont bloqués.
 > [!NOTE]
 > Les articles bloqués peuvent être retournés. Cela signifie qu’aucun des paramètres ci-dessus ne s’applique à des commandes retour et des avoirs.
 
-Quand vous utilisez l’action **Copier à partir du document** pour créer des documents à partir de documents existants, vous êtes averti si des articles sur les lignes du document origine sont bloqués. Les lignes de document bloquées sont exclues du nouveau document et une notification affiche une vue d’ensemble de toutes les lignes de document bloquées dans le document origine.
+Quand vous utilisez l’action **Copier à partir du document** pour créer des documents à partir de documents existants, vous êtes averti si des articles sur les lignes du document source sont bloqués. Les lignes de document bloquées sont exclues du nouveau document et une notification affiche une vue d’ensemble de toutes les lignes de document bloquées dans le document source.
 
 ## Pour bloquer un article pour la saisie sur des lignes vente  
 

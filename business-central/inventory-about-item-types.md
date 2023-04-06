@@ -29,8 +29,8 @@ Le tableau suivant répertorie les fonctions que les trois types d’article pre
 |Type d’article|Ventes|Achats|Consommation de projet|Consommation de service|Consommation d’assemblage|Production Consommation|Résultat d’assemblage|Production|Magasin, Acheminement|Inventaire physique|Réévaluation du stock|Évaluation stock|Traçabilité|Réservation|Entreposage|Planification|Planning commande|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Stock|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|
-|Hors stock|Oui|Oui|Oui|Oui|Oui|Oui|N°|N°|N°|N°|N°|N°|N°|N°|N°|N°|Oui|
-|Service|Oui|Oui|Oui|N°|N°|N°|N°|N°|N°|N°|N°|N°|N°|N°|N°|N°|Oui|
+|Hors stock|Oui|Oui|Oui|Oui|Oui|Oui|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|Oui|
+|Service|Oui|Oui|Oui|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|Oui|
 
 ## Modes évaluation stock pour les types d’articles
 Lorsque vous validez des transactions de stock, les changements de quantité et de valeur en stock sont enregistrés dans les écritures comptables article et les écritures valeur, respectivement. 

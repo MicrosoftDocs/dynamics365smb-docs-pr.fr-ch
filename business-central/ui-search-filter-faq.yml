@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
-  title: About Searching and Filtering in Business Central
-  description: Answers frequently-asked questions about Search and Filter.
+  title: "À propos de la recherche et du filtrage dans Business\_Central"
+  description: Réponses aux questions posées fréquemment sur la recherche et le filtre.
   author: mikebcMSFT
   ms.topic: faq
   ms.reviewer: edupont04
@@ -9,68 +9,50 @@ metadata:
   ms.search.form: TellMe
   ms.date: 04/01/2021
   ms.author: mikebc
-title: Searching and Filtering FAQ
-summary: This article answers some common questions you might have about searching and filtering in Business Central.
+title: FAQ sur la recherche et le filtrage
+summary: "Cet article répond à des questions courantes que vous pouvez avoir à propos de la recherche et du filtrage dans Business\_Central."
 sections:
-  - name: Ignored
+  - name: Ignoré
     questions:
-      - question: |
-          Is there a difference between searching and filtering?
+      - question: "Existe-t-il une différence entre la recherche et le filtrage\_?\n"
+        answer: "Oui.\n- La recherche est simple et large\_: elle faire correspondre des enregistrements contenant le texte de recherche dans tous les champs visibles de la page, puis ne respecte pas la casse.\n- Le filtrage est très flexible et peut être appliqué à des champs spécifiques, notamment ceux qui ne sont pas visibles dans la page\_: il affiche les enregistrements qui comportent des correspondances exactes et respectant la casse, mais il peut être ajusté avec des symboles, des jetons et des formules de recherche puissants. Pour plus d’informations sur l’utilisation de ces fonctions, voir [Tri, recherche et filtrage](ui-enter-criteria-filters.md).\n"
+      - question: "Quels champs correspondent exactement lors de la recherche\_?\n"
+        answer: "[!INCLUDE[prod_short](includes/prod_short.md)] applique les critères de recherche à tous les champs visibles sur la page. Si un champ a été masqué, par exemple en utilisant la personnalisation, la recherche ne tiendra pas compte de ce champ. Les critères de recherche sont appliqués aux champs uniquement si leur type de données correspond à celui des critères de recherche. Par exemple, rechercher le terme *aujourd’hui* recherchera dans tous les champs de texte et de code la valeur littérale «\_aujourd’hui\_», ainsi que dans tous les champs de date où *aujourd’hui* est évalué comme une expression pour la date actuelle, mais ne recherche dans aucun champ numérique. Pour plus d’informations sur les critères de filtre, voir [Tri, recherche et filtrage](ui-enter-criteria-filters.md#-filter-criteria-and-operators).\n"
+      - question: "Existe-t-il une expérience clavier pour la recherche et le filtre\_?\n"
         answer: |
-          Yes.
-          - Search is simple and broad: it matches records that contain the search text across any visible fields on the page, and is case insensitive.
-          - Filtering is highly flexible and can be applied to specific fields, including those not visible on the page: it displays records with exact, case-sensitive matches, but can be adjusted with powerful search symbols, tokens, and formulas. For more information on how to use these features, see <bpt id="p1">[</bpt>Sorting, Searching, and Filtering<ept id="p1">](ui-enter-criteria-filters.md)</ept>.
-      - question: |
-          Exactly which fields are matched when searching?
+          La recherche et le filtre ont été fortement optimisés pour les utilisateurs qui préfèrent l’interaction sans souris pour utiliser efficacement leurs données. Il existe un grand choix de touches de raccourci qui peuvent être utilisées dans l’ordre pour travailler à grande vitesse. Pour plus d’informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#KeyboardFilter).
+      - question: "Le volet Filtre est-il disponible sur toutes les listes\_?\n"
         answer: |
-          <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> applies the search criteria to all fields that are visible on the page. If a field has been hidden, such as by using personalization, search won't consider this field. Search criteria are applied to fields only if their data type matches that of the search criteria. For example, searching for the term <bpt id="p1">*</bpt>today<ept id="p1">*</ept> will search all text and code fields for the literal value "today", and also any date fields where <bpt id="p2">*</bpt>today<ept id="p2">*</ept> is evaluated as an expression for the current date, but won't search in any numeric fields. For more information on filter criteria, see <bpt id="p1">[</bpt>Sorting, Searching, and Filtering<ept id="p1">](ui-enter-criteria-filters.md#-filter-criteria-and-operators)</ept>.
-      - question: |
-          Is there a keyboard experience for search and filter?
+          Le volet Filtre est disponible sur les pages où la liste est le principal contenu sur la page, tels que des feuilles de calcul et des pages de liste, y compris les listes accessibles depuis la barre de navigation. Le volet Filtre n’est pas encore disponible pour les listes qui s’affichent sous forme de parties, telles que les Récapitulatifs ou les parties du tableau de bord, ou pour les listes affichées sous forme de boîtes de dialogue, comme dans les recherches. Lorsqu’une liste est intégrée sur une page, comme des lignes vente dans une commande vente, le volet Filtre est disponible lorsque vous vous focalisez sur cette liste à l’aide du bouton Mode focalisation. Pour en savoir plus, reportez-vous à la rubrique [Concentration sur les articles de ligne](ui-enter-data.md#Focus).
+      - question: "Comment enregistrer mes filtres\_?\n"
         answer: |
-          Search and filter have been highly optimized for users who prefer mouse-free interaction to work efficiently with their data. There are a variety of shortcut keys that can be used in sequence to work at high speed. For more information see <bpt id="p1">[</bpt>Keyboard Shortcuts<ept id="p1">](keyboard-shortcuts.md#KeyboardFilter)</ept>.
-      - question: |
-          Is the filter pane available on all lists?
-        answer: |
-          The filter pane is available on pages where the list is the primary content on the page, such as worksheets and list pages, including lists reachable from the navigation bar. The filter pane is not yet available for lists that are displayed as parts, such as FactBoxes or Role Center parts, or for lists that are shown as dialogs, such as in lookups. When a list is embedded on a page, such as sales lines on a sales order, the filter pane is available when focusing on that list using the focus mode button. For more information, see <bpt id="p1">[</bpt>Focusing on Line Items<ept id="p1">](ui-enter-data.md#Focus)</ept>.
-      - question: |
-          How can I save my filters?
-        answer: |
-          Your filters and adjustments to predefined filters are remembered throughout the session (while you remain signed in), even if you navigate away from the page. You can permanently save filters as a named view of the list by choosing the <bpt id="p1">![</bpt>Save View<ept id="p1">](media/save_view_icon.png "|::ref1::|")</ept> icon in the filter pane. For more information, see <bpt id="p1">[</bpt>List Views FAQ<ept id="p1">](ui-views-faq.yml)</ept>. Note that, unlike filters, search text is not remembered when you navigate away from a page and is not saved when you save a view.
+          Vos filtres et ajustements des filtres prédéfinis sont enregistrés tout au long de la session (lorsque vous restez connecté), même si vous quittez la page. Vous pouvez enregistrer les filtres de manière permanente en tant que vue nommée de la liste en choisissant l’icône ![Enregistrer la vue](media/save_view_icon.png "Enregistrer la vue") dans le volet Filtre. Pour plus d’informations, voir [FAQ sur les vues de liste](ui-views-faq.yml). Notez que, contrairement aux filtres, le texte de recherche n’est pas mémorisé lorsque vous quittez une page et n’est pas enregistré lorsque vous enregistrez une vue.
 
-          On report request pages, you can also save filters or use predefined filters. For more information, see <bpt id="p1">[</bpt>Use Saved Settings<ept id="p1">](ui-work-report.md#SavedSettings)</ept>.
-      - question: |
-          Is this the same as Advanced Filters and Limit Totals in Microsoft Dynamics NAV?
+          Sur les pages de demande de rapport, vous pouvez également enregistrer des filtres ou utiliser des filtres prédéfinis. Pour plus d’informations, voir [Utiliser des paramètres enregistrés](ui-work-report.md#SavedSettings).
+      - question: "Est-ce pareil qu’avec les filtres avancés et les totaux de limite dans Microsoft Dynamics NAV\_?\n"
         answer: |
-          <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> builds upon these popular features and delivers a modern and highly usable experience for finding and analyzing your data. With more keyboard shortcuts and the introduction of search, <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> surpasses the functionality provided in Dynamics NAV.  
-      - question: |
-          Can I search and filter using the companion apps and add-ins for Microsoft 365?
+          [!INCLUDE[prod_short](includes/prod_short.md)] s’appuie sur ces fonctions populaires et présente une expérience moderne et extrêmement utilisable pour rechercher et analyser vos données. Avec plus de raccourcis clavier et l’introduction de la recherche, [!INCLUDE[prod_short](includes/prod_short.md)] surpasse la fonctionnalité fournie dans Dynamics NAV.  
+      - question: "Puis-je rechercher et filtrer à l’aide des applications complémentaires pour Microsoft 365\_?\n"
         answer: |
-          On different display targets, such as mobile devices or in Outlook, you can search in lists but can't filter on individual fields in most cases. In the <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> app for Microsoft Teams, both search and filter are available on lists.
-      - question: |
-          How do I view how my search terms have been applied to fields in the list?
+          Sur différentes cibles d’affichage, telles que des appareils mobiles ou dans Outlook, vous pouvez rechercher dans les listes mais ne pouvez pas filtrer sur les différents champs dans la plupart des cas. Dans l’application [!INCLUDE[prod_short](includes/prod_short.md)] pour Microsoft Teams, la recherche et le filtre sont disponibles sur les listes.
+      - question: "Comment voir comment mes termes de recherche ont été appliqués aux champs de la liste\_?\n"
         answer: |
-          After entering search terms in the search box, you can view the exact search criteria and which fields they have been applied to by opening the page inspection pane (<bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>Alt<ept id="p2">&lt;/kbd&gt;</ept><ph id="ph2">+</ph><bpt id="p3">&lt;kbd&gt;</bpt>F1<ept id="p3">&lt;/kbd&gt;</ept>) and choosing the <bpt id="p4">**</bpt>Page Filters<ept id="p4">**</ept> tab.
-      - question: |
-          Can I do anything about the "Searching for rows is taking too long" message?
+          Après avoir saisi les termes de recherche dans la zone de recherche, vous pouvez afficher les critères de recherche exacts et les champs auxquels ils ont été appliqués en ouvrant le volet d’inspection de page (<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>) et en choisissant l’onglet **Filtres de page**.
+      - question: "Puis-je faire quelque chose concernant le message «\_La recherche de lignes prend trop de temps\_»\_?\n"
+        answer: "Il existe une limite de temps concernant une opération de recherche. Premièrement, essayez de modifier les critères de recherche et recherchez à nouveau. Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] local, contactez votre administrateur système, parce qu’un administrateur peut augmenter le délai des recherches.\n\nEn tant qu’administrateur local, vous développez le délai des recherches en modifiant le paramètre **Expiration de la recherche** du serveur [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Configuration de Business\_Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) dans l’Aide destinée aux développeurs et aux professionnels de l’informatique Business\_Central.\n"
+      - question: "Microsoft étendra-il l’expérience du volet Filtre\_?\n"
         answer: |
-          There is a time-limit on how a long a search operation can take. First, try changing the search criteria and search again. If you are using <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> on-premises, contact your system administrator, because an administrator can increase the time-limit for searches.
-
-          As an on-premises administrator, you increase the time-limit on searches by changing the <bpt id="p1">**</bpt>Search Timeout<ept id="p1">**</ept> setting of <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> server. For more information, see <bpt id="p1">[</bpt>Configuring Business Central Server<ept id="p1">](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database)</ept> in the Business Central Developer and IT Pro Help.
-      - question: |
-          Will Microsoft extend the filter pane experience?
+          Chez Microsoft, nous écoutons constamment les commentaires de notre communauté diverse d’utilisateurs et prenons les mesures nécessaires pour agir sur les principales propositions de la communauté. Si vous souhaitez étendre le volet Filtre à plus de facteurs d’écrans et plus de types de listes et d’états, ou que vous avez une excellente idée pour l’améliorer, ajoutez une idée ou votez pour les idées existantes à l’adresse [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
+      - question: "Comment modifier la sortie de la touche de séparateur décimal sur mon pavé numérique\_?\n"
         answer: |
-          At Microsoft, we're constantly listening to feedback from our diverse community of users and acting upon the top community suggestions. If you are interested in extending the filter pane to more form factors and more types of lists, or have a great idea on how to improve it, add an idea or vote for existing ideas at <bpt id="p1">[</bpt>aka.ms/BusinessCentralIdeas<ept id="p1">](https://aka.ms/businesscentralideas)</ept>.
-      - question: |
-          How do I change the output of the decimal separator key on my numeric keypad?
-        answer: |
-          By default, the output character of the decimal separator is determined by the region setting of Business Central, which you set on the <bpt id="p1">**</bpt>My Settings<ept id="p1">**</ept> page. You can temporarily switch it to a period (.) by selecting the <bpt id="p1">&lt;kbd&gt;</bpt>Alt<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>Decimal Separator<ept id="p2">&lt;/kbd&gt;</ept> keys on the keypad. Select <bpt id="p1">&lt;kbd&gt;</bpt>Alt<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>Decimal Separator<ept id="p2">&lt;/kbd&gt;</ept> again to switch back. For more information, see <bpt id="p1">[</bpt>Setting the decimal separator used by numeric keyboards<ept id="p1">](ui-enter-data.md#decimal)</ept>.
+          Par défaut, le caractère de sortie du séparateur décimal est déterminé par le paramètre de région de Business Central, défini sur la page **Mes paramètres**. Vous pouvez temporairement le remplacer par un point (.) en appuyant sur les touches <kbd>Alt</kbd>+<kbd>Séparateur décimal</kbd> du clavier. Appuyez à nouveau sur <kbd>Alt</kbd>+<kbd>Séparateur décimal</kbd> pour revenir en arrière. Pour plus d’informations, voir [Définition du séparateur décimal utilisé par les claviers numériques](ui-enter-data.md#decimal).
 additionalContent: |
 
-  ## See also
-     <bpt id="p1">[</bpt>Sorting, Searching, and Filtering<ept id="p1">](ui-enter-criteria-filters.md)</ept>  
-     <bpt id="p1">[</bpt>Finding Pages and Information with Tell Me<ept id="p1">](ui-search.md)</ept>  
-     <bpt id="p1">[</bpt>Finding Pages with the Role Explorer<ept id="p1">](ui-role-explorer.md)</ept>  
-     <bpt id="p1">[</bpt>Getting Ready for Doing Business<ept id="p1">](ui-get-ready-business.md)</ept>  
+  ## Voir aussi
+     [Tri, recherche et filtrage](ui-enter-criteria-filters.md)  
+     [Recherche de pages et d’informations avec Tell Me](ui-search.md)  
+     [Recherche de pages avec l’explorateur de rôles](ui-role-explorer.md)  
+     [Préparation aux activités commerciales](ui-get-ready-business.md)  
           
           
      [!INCLUDE[footer-include](includes/footer-banner.md)]

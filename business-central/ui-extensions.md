@@ -14,6 +14,8 @@ Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en ligne en 
 
 ## Gérer les applications
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 La première fois que vous lancez [!INCLUDE[prod_short](includes/prod_short.md)], certaines applications sont déjà installées. Au fil du temps, davantage d’applications seront disponibles. Il vous appartient de choisir si vous souhaitez les utiliser ou non.
 
 Par exemple, Microsoft propose une application qui fournit une intégration à PayPal Payments Standard. Cette extension est installée par défaut. Si une autre extension proposant une intégration à un autre service de paiement devenait disponible, vous pouvez installer cette nouvelle extension et choisir lequel des deux services vous souhaitez utiliser.  

@@ -31,7 +31,7 @@ Cet article explique comment configurer des imprimantes compatibles avec les e-m
 La page **Gestion des imprimantes**affiche les imprimantes configurées actuellement. La page vous donne également accès à la page **Paramètres** pour chaque imprimante pour modifier une configuration existante ou configurer une nouvelle imprimante.
 
 1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion des imprimantes**, puis sélectionnez le lien associé.
-2. Sélectionner **Imprimer par e-mail**, puis choisissez **Ajouter une imprimante par e-mail**.
+2. Sélectionner **Imprimer par e-mail**, puis choisissez **Ajouter une imprimante e-mail**.
 3. Sur la page **Paramètres de l′imprimante par e-mail**, renseignez les champs nécessaires. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]

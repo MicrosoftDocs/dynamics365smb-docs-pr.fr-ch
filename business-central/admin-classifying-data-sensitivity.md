@@ -28,6 +28,7 @@ Le tableau suivant décrit les niveaux de sensibilité des données que vous pou
 |Normal | Données générales qui n’appartiennent pas aux autres catégories.|
 
 ## Comment classer mes données ?
+
 Classer la sensibilité d’un grand nombre de champs un par un peut prendre beaucoup de temps. Pour aider à accélérer le processus, nous fournissons des outils qui permettent de classer en bloc la sensibilité des champs et d’affiner les classifications pour des champs spécifiques. Vous trouverez les outils dans la feuille Classification des données, qui est disponible dans le tableau de bord Administration des utilisateurs, des groupes d’utilisateurs et des autorisations. Vous devez être un administrateur système pour utiliser la feuille.
 
 > [!Important]

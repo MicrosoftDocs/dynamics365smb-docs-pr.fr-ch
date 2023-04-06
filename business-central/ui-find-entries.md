@@ -29,7 +29,7 @@ La page **Rechercher des écritures** inclut l’ensemble des écritures et docu
 
 - La section supérieure affiche les champs et les actions que vous utilisez pour filtrer votre recherche.
 - La section du milieu affiche les documents associés en fonction de la recherche.
-- La section inférieure affiche des informations sur le document origine qui a été trouvé lors de la recherche.
+- La section inférieure affiche des informations sur le document source qui a été trouvé lors de la recherche.
 
 ## Rechercher des écritures
 

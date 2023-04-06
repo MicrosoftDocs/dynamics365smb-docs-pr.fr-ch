@@ -5,31 +5,25 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
+ms.search.form: 1480
+ms.search.keywords: 'Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource'
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: e9120463e2876e7513ac8011918039167760172d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533013"
 ---
-# <a name="get-the-business-central-add-in-for-excel"></a>Obtenir le complément Business Central pour Excel
+# Obtenir le complément Business Central pour Excel
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inclut un complément pour Excel qui permet aux utilisateurs de sélectionner une action **Modifier dans Excel** sur certaines pages pour ouvrir les données dans une feuille de calcul Excel. Cette action est différente de l’action **Ouvrir dans Excel** car elle permet aux utilisateurs d’apporter des modifications dans Excel, puis de publier de retour les modifications dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
-## <a name="overview"></a>Aperçu
+## Aperçu
 
-### <a name="about-the-add-in"></a>À propos du complément
+### À propos du complément
 
 Le complément s’appelle **Complément Office Microsoft Dynamics** et il est disponible pour l’installation à partir de l’[Office Store (AppSource)](https://appsource.microsoft.com/). Une fois le complément installé, l’action **Modifier dans Excel** est disponible sur la plupart des pages de liste et de liste partielle à l’aide de l’icône **Partager** ![Partager une page dans une autre application.](media/share-icon.png). Pour plus d’informations sur l’utilisation du complément, voir [Affichage et édition dans Excel depuis Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > Le complément fonctionne uniquement sur Windows, pas sur macOS.
 
-### <a name="about-deployment-as-an-admin"></a>À propos du déploiement en tant qu’administrateur
+### À propos du déploiement en tant qu’administrateur
 
 [!INCLUDE[prod_short](includes/prod_short.md)] en ligne comprend quelques options de déploiement pour fournir le complément aux utilisateurs. Une option est l’*acquisition individuelle*, où vous laissez les utilisateurs installer eux-mêmes le complément. Avec cette option, les utilisateurs doivent avoir accès au téléchargement de fichiers depuis l’Office Store. Une autre option consiste à configurer le *Déploiement centralisé* dans le centre d’administration de Microsoft 365 pour déployer automatiquement le complément sur l’ensemble de votre organisation, ou pour des groupes ou des utilisateurs spécifiques. Le déploiement centralisé fournit un moyen de mettre le complément à disposition des utilisateurs si votre organisation ne leur donne pas accès à l’Office Store.
 
@@ -41,21 +35,21 @@ Pour l’utilisateur final, l’expérience d’installation est différente dan
 
 Avec ces deux options de déploiement, le complément est automatiquement configuré pour se connecter à [!INCLUDE[prod_short](includes/prod_short.md)]. Une troisième option de déploiement est l’installation manuelle du complément directement à partir d’Excel. Avec cette option, l’utilisateur doit configurer le complément pour se connecter à [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Passage de l’acquisition individuelle au déploiement Centralisé, ou inversement
+### <a name="switch"></a>Passage de l’acquisition individuelle au déploiement Centralisé, ou inversement
 
 Lorsque vous passez de l’acquisition individuelle du complément au déploiement centralisé, ou vice versa, les fichiers Excel créés par les utilisateurs avant la transition sont affectés. Après la transition, les utilisateurs peuvent toujours ouvrir toutes les feuilles de calcul Excel précédemment créées à l’aide de l’action **Modifier dans Excel** ou créés manuellement en configurant le complément Excel. Mais ils ne peuvent pas mettre à jour les données du fichier provenant de Business Central ni de transmettre les mises à jour à Business Central
 
 Cette situation est causée par le fait que chaque fichier Excel se voit attribuer un identifiant de « complément ». Lors de la transition vers ou depuis le déploiement centralisé, un ID différent est attribué, de sorte que l’ID précédent est bloqué.
 
-## <a name="preparation-on-premises-only"></a>Préparation (sur site uniquement)
+## Préparation (sur site uniquement)
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sur site nécessite que votre environnement soit configuré pour le complément. Si ce n’est pas le cas, l’action **Modifier dans Excel** ne sera pas disponible pour les utilisateurs. Pour plus d’informations, consultez [Configuration du complément Excel pour la modification des données Business Central](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin) dans l’Aide pour les développeurs et les professionnels de l’informatique.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment"></a>Déployer le complément à l’aide du déploiement centralisé
+## Déployer le complément à l’aide du déploiement centralisé
 
 Le déploiement centralisé est une fonctionnalité du centre d’administration de Microsoft 365 que vous utilisez pour installer automatiquement des compléments dans les applications Office des utilisateurs, comme Excel. Pour vous aider dans le déploiement centralisé, [!INCLUDE[prod_short](includes/prod_short.md)] comprend la configuration assistée **Déploiement centralisé du complément Excel**.
 
-### <a name="before-you-begin"></a>Avant de commencer
+### Avant de commencer
 
 - Pour savoir comment empêcher les utilisateurs de réaliser des téléchargements à partir de l’Office Store, voir [Gérer les compléments dans le centre d’administration](/microsoft-365/admin/manage/manage-addins-in-the-admin-center).
 - Vérifiez que le déploiement centralisé fonctionnera pour votre organisation. Pour plus d’informations, consultez [Déterminer si le déploiement centralisé des compléments fonctionne pour votre organisation](/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
@@ -64,7 +58,7 @@ Le déploiement centralisé est une fonctionnalité du centre d’administration
 > [!NOTE]
 > L’activation du déploiement centralisé affecte les fonctionnalités qui utilisent le complément Excel, telles que l’action **Modifier dans Excel**. Cela n’a aucun effet sur les autres fonctionnalités et/ou autorisations liées à Excel et attribuées aux utilisateurs dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="set-up-centralized-deployment-of-the-add-in"></a>Configurer le déploiement centralisé du complément
+### Configurer le déploiement centralisé du complément
 
 Vous travaillerez à la fois dans [!INCLUDE[prod_short](includes/prod_short.md)] et dans le centre d’administration de Microsoft 365.
 
@@ -93,7 +87,7 @@ Une fois terminé, vous pouvez toujours modifier le déploiement dans le centre 
 > [!NOTE]
 > Il peut s’écouler jusqu’à 24 heures avant que le complément ne se déploie automatiquement dans l’instance Excel des utilisateurs.
 
-## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use"></a><a name="install"></a>Acquisition individuelle : installer le complément manuellement pour votre propre usage
+## <a name="install"></a>Acquisition individuelle : installer le complément manuellement pour votre propre usage
 
 Dans la plupart des cas, lorsque vous ouvrez Excel à partir de Business Central, le complément sera soit installé automatiquement pour vous, soit vous serez invité à l’installer. Cependant, il peut arriver que vous deviez installer manuellement le complément.
 
@@ -103,7 +97,7 @@ Dans la plupart des cas, lorsque vous ouvrez Excel à partir de Business Central
 
 Lorsque le complément est installé, il apparaît sous forme de volet dans Excel. À présent, configurez la connexion.
 
-### <a name="configure-the-business-central-connection"></a>Configurer la connexion Business Central
+### Configurer la connexion Business Central
 
 Si un utilisateur ne parvient pas à se connecter automatiquement, vous pouvez le débloquer en lui demandant de suivre ces étapes :
 
@@ -115,17 +109,17 @@ Si un utilisateur ne parvient pas à se connecter automatiquement, vous pouvez l
 
 Le complément est maintenant connecté à [!INCLUDE [prod_short](includes/prod_short.md)] et vous pouvez modifier les données et publier les modifications dans [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Préparer les appareils et le réseau pour le complément Excel
+## Préparer les appareils et le réseau pour le complément Excel
 
 Les services réseau tels que les proxys ou les pare-feu doivent autoriser le routage entre tous les appareils clients sur lesquels le complément est installé et de nombreux points de terminaison de service. Pour obtenir la liste des points de terminaison, consultez [Préparation de votre réseau pour le complément Excel](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
-## <a name="troubleshooting"></a>Incident
+## Incident
 
 Parfois, les utilisateurs rencontrent des problèmes avec le complément Excel. Cette section donne quelques conseils sur la façon de débloquer des utilisateurs dans certaines circonstances.
 
 |Problème  |Solution ou contournement  |Commentaires  |
 |---------|---------|---------|
-|Le complément ne démarre pas|Vérifiez si le complément est déployé de manière centralisée. Sinon, vérifiez si l’utilisateur n’est pas autorisé à l’installer localement. | L’administrateur peut configurer Office de sorte que les utilisateurs ne puissent pas acquérir de compléments. Dans ces cas, l’administrateur doit déployer le complément de manière centralisée. Pour plus d’informations, consultez [Déployer des compléments dans le centre d’administration](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
+|Le complément ne démarre pas <br><br>Par exemple, l’utilisateur reçoit le message "Avertissement de complément : ce complément n’est plus disponible." quand vous essayez d’utiliser le complément. Ce problème particulier peut se produire si le déploiement centralisé est correctement configuré, mais que l’accès n’a pas été attribué à l’utilisateur.|Vérifiez si le complément est déployé de manière centralisée. Sinon, vérifiez si l’utilisateur n’est pas autorisé à l’installer localement. | L’administrateur peut configurer Office de sorte que les utilisateurs ne puissent pas acquérir de compléments. Dans ces cas, l’administrateur doit déployer le complément de manière centralisée. Pour plus d’informations, consultez [Déployer des compléments dans le centre d’administration](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
 |Les données ne se chargent pas dans Excel|Testez la connexion en ouvrant une autre liste dans Excel à partir de [!INCLUDE [prod_short](includes/prod_short.md)]. Sinon, ouvrez le classeur dans Excel dans un navigateur.|Si l’utilisateur a spécifié un nom de société contenant des caractères spéciaux, le complément ne peut pas se connecter. |
 |Les données ne peuvent pas être republiées sur [!INCLUDE [prod_short](includes/prod_short.md)].|Testez la connexion en ouvrant le classeur dans Excel dans un navigateur. |Parfois, une extension peut bloquer le travail de publication. Si la page est étendue ou personnalisée, supprimez les extensions, puis réessayez.|
 |Les dates sont fausses  |Excel peut afficher les heures et les dates dans un format différent de celui de [!INCLUDE [prod_short](includes/prod_short.md)]. Cette situation ne les rend pas erronées, et les données contenues dans [!INCLUDE [prod_short](includes/prod_short.md)] ne seront pas compromises.|         |
@@ -165,9 +159,9 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
+## Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  
 [Utiliser Business Central](ui-work-product.md)  

@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
+ms.search.keywords: 'warehouse, stock'
+ms.search.forms: '5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 568ccee7e01aacb429e6ed2e2b69daf91f67b488
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530043"
 ---
-# <a name="manage-inventory"></a>Gestion du stock
+
+# Gestion du stock
 
 Pour chaque produit physique que vous commercialisez, vous devez créer une fiche article de type **Stock**. Les articles que vous proposez aux clients, mais que vous n’avez pas en stock, peuvent être enregistrés comme articles de catalogue. Vous pouvez ensuite les convertir en articles stockés, le cas échéant. Vous pouvez augmenter ou diminuer la quantité d’un article en stock en validant directement les écritures comptables de l’article, par exemple, après un inventaire ou si vous n’enregistrez pas les achats.
 
@@ -26,17 +21,17 @@ Les entrées et les sorties de stock sont également évidemment enregistrées l
 Pour améliorer votre aperçu d’articles et pour vous aider à les trouver, vous pouvez catégoriser les articles et leur donner des attributs pour vos opérations de recherche et de tri.
 
 > [!NOTE]
-> Le traitement physique des articles est appelé Activités entrepôt. En savoir plus sur [Gestion d’entrepôt](warehouse-manage-warehouse.md).
+> Le traitement physique des articles est appelé Activités entrepôt. En savoir plus, consultez la [Vue d’ensemble de Warehouse Management](design-details-warehouse-management.md).
 
 Le planning d’articles pour répondre à la demande est couvert dans le cadre de la fonctionnalité de planning de l’offre. En savoir plus sur [Planification](production-planning.md).  
 
-## <a name="inventory-reconciliation"></a>Rapprochement stock
+## Rapprochement stock
 
 Lorsque vous validez des mouvements de stock, tels que des expéditions vente, des factures achat ou des ajustements de stock, les coûts article modifiés sont enregistrés dans les écritures valeur. Pour refléter ces modifications de la valeur stock dans vos livres financiers, les coûts stocks sont automatiquement validés dans les comptes stock associés dans les écritures comptables. Pour chaque mouvement stock que vous validez, les valeurs appropriées sont validées dans le compte stocks, le compte ajustement et le compte validation stock dans la comptabilité. En savoir plus sur [Rapprocher l’évaluation stock avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Bien que les coûts soient automatiquement validés en comptabilité, il est malgré tout nécessaire de vous assurer que les coûts des biens sont transmis à la transaction de vente sortante associée, notamment dans les situations où vous vendez des biens avant de facturer l’achat. Il s’agit d’un ajustement des coûts. Le coût des articles est ajusté automatiquement lorsque vous validez des transactions article, mais vous pouvez également les ajuster manuellement. En savoir plus sur [Ajuster les coûts des articles](inventory-how-adjust-item-costs.md).  
 
-## <a name="related-tasks"></a>Tâches connexes
+## Tâches connexes
 
 Le tableau suivant présente les tâches associées.
 
@@ -60,12 +55,12 @@ Le tableau suivant présente les tâches associées.
 |Gérer les opérations commerciales dans les bureaux de vente, les départements d’achat ou les bureaux de planification d’usine pour plusieurs magasins.|[Utiliser les centres de gestion](inventory-responsibility-centers.md)|
 |Utilisez des ressources avec des fonctions spécifiques pour divers services et éléments de service.|[Configurer l’affectation des ressources](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/get-started-inventory-management/) associée
+## Voir la [formation Microsoft](/training/paths/get-started-inventory-management/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
-[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
-[Achats](purchasing-manage-purchasing.md)  
+[Vue d’ensemble de Warehouse Management](design-details-warehouse-management.md)
+[Achat](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  

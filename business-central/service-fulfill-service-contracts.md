@@ -23,7 +23,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Créer des contrats de service manuellement ou à partir d’un devis contrat de service.| [Créer des devis et contrats de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
 |Ajuster le montant annuel d’un contrat de service ou d’un devis contrat, afin de facturer le bon montant.|[Modifier le montant annuel du contrat service ou du devis contrat](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
 
-## Voir aussi
+## Voir aussi .
 [Services de planification](service-plan-service.md)  
 [Exécution du service](service-deliver-service.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  

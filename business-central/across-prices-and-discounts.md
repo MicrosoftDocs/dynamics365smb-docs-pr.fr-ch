@@ -6,25 +6,19 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
-ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
+ms.search.keywords: 'price, pricing, discount, discounting, rebate, sale, purchase, invoice'
+ms.search.form: '459, 460, 7001, 7011, 7015, 7016, 7017, 7018'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5afe559e9f3e741db5c75b5cf3026caf50a1ce97
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530718"
 ---
-# <a name="set-up-prices-and-discounts"></a>Configurer les prix et les remises
+# Configurer les prix et les remises
 
 > [!NOTE]
 > Dans la deuxième vague de lancement de 2020, nous avons lancé des processus rationalisés pour la configuration et la gestion des prix et des remises. Si vous êtes un nouveau client utilisant cette version, vous utilisez la nouvelle expérience. Si vous êtes un client existant, l’utilisation ou non de la nouvelle expérience dépend du fait que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes** sur la page **Gestion des fonctionnalités**. Pour plus d’informations, consultez [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Les stratégies de prix et de remise pour l’achat et la vente d’articles et de services sont des outils fondamentaux pour les entreprises prospères. Une fois que vous avez configuré les articles et services que votre entreprise achète et vend, vous pouvez définir ce que vous payez ou facturez pour eux, et ces montants seront automatiquement ajoutés aux documents vente et achat. 
 
-## <a name="setting-up-prices-and-discounts"></a>Configuration des prix et des remises
+## Configuration des prix et des remises
 
 Avant de créer des listes de prix, vous devez définir vos stratégies de tarification et de remise sur les pages **Paramètres ventes** et **Paramètres achats**.
 
@@ -40,21 +34,21 @@ Dans la mesure où les prix de vente et les remises ligne vente sont basés sur 
 > [!TIP]  
 > Si un article ne doit jamais être vendu avec une remise, laissez les champs de remise de la page article vides, et n’incluez pas l’article dans un quelconque paramétrage de remise ligne.
 
-## <a name="about-price-lists"></a>À propos des listes de prix
+## À propos des listes de prix
 
 Les listes de prix sont flexibles et vous permettent de spécifier le partenaire commercial ou l’activité auquel elles s’appliquent. Par exemple, vous pouvez configurer une liste de prix qui s’applique à tous les fournisseurs et clients, ou proposer des remises ou des prix spéciaux pour chaque partenaire commercial, peut-être en fonction d’une quantité minimale sur les commandes d’achat ou de vente, ou d’une certaine combinaison client, article, quantité minimale, unité de mesure ou périodes de temps. Les prix et remises que vous définissez sont automatiquement appliqués aux documents d’achat et de vente. 
 
-## <a name="set-up-prices"></a>Configurer les prix
+## Configurer les prix
 
 Ces étapes diffèrent selon que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes**. 
 
-#### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience)  
+#### [Expérience actuelle](#tab/current-experience)  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Choisissez le client, puis sélectionnez l’action **Prix**.
 3. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Renseignez une ligne pour chaque combinaison qui accorde un prix de vente spécial au client.
 
-#### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience)  
+#### [Nouvelle expérience](#tab/new-experience)  
 
 Vous pouvez ajouter des articles et des services manuellement pour chaque ligne, ou vous pouvez utiliser l’action **Proposer lignes** pour créer de nouveaux prix pour les articles sélectionnés, les groupes remises article, les ressources et d’autres types de produits. Si vous choisissez **Proposer lignes**, sur la page **Lignes de prix - Créer un nouveau** vous pouvez utiliser des filtres pour sélectionner les articles ou les services à inclure dans la liste de prix. Vous pouvez également indiquer s’il faut prendre en compte une quantité minimale lors du calcul des prix, le facteur d’ajustement à appliquer pour les nouvelles lignes de liste de prix et la méthode d’arrondi à appliquer aux prix. 
 
@@ -74,11 +68,11 @@ Pour consulter les listes de prix et les prix qui s’appliquent à des clients 
 
 ---
 
-## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Pour définir une remise ligne vente pour un client
+## Pour définir une remise ligne vente pour un client
 
 Ces étapes diffèrent selon que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes**. 
 
-#### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience/)  
+#### [Expérience actuelle](#tab/current-experience/)  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Ouvrez la fiche client appropriée, puis sélectionnez l’action **Remises ligne**.
@@ -89,7 +83,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 >
 > Pour configurer des prix ou des remises ligne pour tous les clients, un groupe de prix client ou une campagne, vous devez ouvrir les pages à partir d’une fiche article. Sinon, pour les prix de vente, utilisez la page **Feuille prix vente**. Pour plus d’informations, voir [Mettre à jour en bloc des prix d’articles](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
-#### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience/)  
+#### [Nouvelle expérience](#tab/new-experience/)  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Choisissez le client, puis sélectionnez l’action **Listes prix vente**.
@@ -104,7 +98,7 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 ---
 
-## <a name="work-with-invoice-discounts-and-service-charges"></a>Utiliser des remises facture et des frais forfaitaires
+## Utiliser des remises facture et des frais forfaitaires
 
 Lorsque vous utilisez des remises facture, la valeur du montant de la facture détermine celle de la remise accordée. Dans la page **Remises facture**, vous pouvez également ajouter des frais forfaitaires aux factures supérieures à un montant donné.  <!--The Invoice Discounts page is hard to find.-->
 
@@ -121,7 +115,7 @@ En plus du pourcentage de remise (ou à sa place), vous pouvez lier un montant d
 > [!TIP]  
 > Avant de commencer à saisir ces informations, il est judicieux de préparer au préalable votre structure de remise, de sorte qu’il soit plus facile de voir quels clients associer à la même page de remise facture. Pour plus d’informations sur les remises sur les ventes, voir [Configurer des remises pour vos clients](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
-### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Pour configurer une remise facture pour un client
+### Pour configurer une remise facture pour un client
 
 Après avoir décidé des clients pouvant faire l’objet de remises facture, entrez le code remise facture dans les fiches client et configurez les conditions de chaque code.
 
@@ -142,11 +136,11 @@ Configurez de nouvelles conditions de remise facture vente.
 
 La remise facture est désormais configurée et affectée au client concerné. Lorsque vous sélectionnez le code client dans le champ **Code remise facture** dans d’autres fiches client, la même remise facture est affecté à ces clients.
 
-## <a name="to-copy-sales-prices"></a>Pour copier des prix de vente
+## Pour copier des prix de vente
 
 Ces étapes diffèrent selon que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes**. 
 
-#### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience/)  
+#### [Expérience actuelle](#tab/current-experience/)  
 
 Pour copier des prix de vente, comme les prix appliqués à un client et qui doivent être appliqués à tout un groupe de clients, vous devez lancer le traitement par lots **Suggérer prix vente**. traitement par lots sur la page **Feuille prix vente**.  
 
@@ -160,7 +154,7 @@ Pour copier des prix de vente, comme les prix appliqués à un client et qui doi
    > [!NOTE]  
    > Ce traitement par lots crée uniquement des propositions ; il n’effectue pas les modifications proposées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c’est-à-dire les insérer sur la page **Prix vente**, choisissez l’action **Implémenter des modifications de prix**, sur la page **Feuille prix vente**.
 
-#### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience/)  
+#### [Nouvelle expérience](#tab/new-experience/)  
 
 Le statut de la liste de prix doit être **Brouillon**. 
 
@@ -173,11 +167,11 @@ Le statut de la liste de prix doit être **Brouillon**.
   
 ---
 
-## <a name="to-bulk-update-item-prices"></a>Pour mettre à jour en bloc des prix d’articles
+## Pour mettre à jour en bloc des prix d’articles
 
 Ces étapes diffèrent selon que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes**. 
 
-#### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience/)
+#### [Expérience actuelle](#tab/current-experience/)
 
 Si vous souhaitez mettre à jour en bloc des prix article, tels que l’augmentation de tous les prix article par un certain pourcentage, vous devez exécuter **Suggérer prix article**. traitement par lots . Vous pouvez rechercher un lien vers le traitement par lots sur la page **Feuille prix vente**.  
 
@@ -192,7 +186,7 @@ Si vous souhaitez mettre à jour en bloc des prix article, tels que l’augmenta
 > [!NOTE]
 > Ce traitement par lots crée uniquement des propositions ; il n’effectue pas les modifications proposées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c’est-à-dire les insérer dans la table **Prix vente**, vous pouvez utiliser le traitement par lots **Implémenter nouveaux prix**, accessible via l’onglet **Actions**, dans le groupe **Fonctions**, sur la page **Feuille prix vente**.
 
-#### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience/)
+#### [Nouvelle expérience](#tab/new-experience/)
 
 Pour mettre à jour les prix de plusieurs articles, vous devez créer une nouvelle liste de prix, puis copier les lignes d’une liste de prix existante. Lorsque vous copiez les lignes, vous pouvez utiliser des filtres pour spécifier les éléments à copier, et vous pouvez spécifier un nombre entier ou décimal dans le champ **Facteur appliqué** pour augmenter ou diminuer les prix. Le statut de la liste de prix doit être **Brouillon**. Si nécessaire, vous pouvez alors désactiver l’ancienne liste de prix.
 
@@ -201,13 +195,13 @@ Pour mettre à jour les prix de plusieurs articles, vous devez créer une nouvel
 
 ---
 
-## <a name="calculating-the-best-price"></a>Calcul du meilleur prix
+## Calcul du meilleur prix
 
 Lorsque vous avez enregistré des prix spéciaux et des remises ligne pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] s’assure que votre marge pour l’article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article. Pour plus d’informations, voir [Calcul du meilleur prix](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/customer-discounts-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/customer-discounts-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Définition des ventes](sales-setup-sales.md)  
 [Ventes](sales-manage-sales.md)  

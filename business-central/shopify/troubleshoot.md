@@ -87,7 +87,7 @@ Les procédures suivantes décrivent comment faire tourner le jeton d’accès u
 
 ### Le champ *Groupe compta. marché* ne peut pas être nul ou vide ; il doit y avoir une valeur dans le champ client
 
-Sur la page **Fiche magasin Shopify**, remplissez le champ **Code modèle client** dans la fenêtre Fiche magasin avec le modèle pour lequel **Groupe compta. marché** est renseigné. Le modèle client est utilisé non seulement pour la création de clients, mais également pour le calcul du prix de vente et lors de la création de documents vente.
+Sur la page **Fiche magasin Shopify**, remplissez le champ **Code modèle client** dans la fenêtre Fiche magasin  avec le modèle pour lequel **Groupe compta. marché** est renseigné. Le modèle client est utilisé non seulement pour la création de clients, mais également pour le calcul du prix de vente et lors de la création de documents vente.
 
 ### L’importation de données dans votre boutique Shopify n’est pas activée. Accédez à la fiche magasin pour l’activer
 

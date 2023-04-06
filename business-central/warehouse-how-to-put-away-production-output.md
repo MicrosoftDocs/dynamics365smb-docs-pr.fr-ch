@@ -41,6 +41,8 @@ La première étape du rangement de la production consiste à créer la demande 
 4. Renseignez les lignes rangement en fonction des besoins.
 5. Lorsque les lignes sont prêtes à être validées, choisissez l’action **Valider**. Les écritures entrepôt nécessaires sont alors créées et la production des articles est validée.  
 
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 Vous pouvez également créer un **rangement stock** directement à partir de l’ordre de fabrication de lancé. Learn more at [Ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 Lorsque vous validez un rangement stock, il est supposé que toutes les opérations sont validées selon la gamme standard. C’est-à-dire que la quantité produite est validée conformément à la dernière opération. Vous pouvez utiliser la feuille production pour valider les écarts de quantité produite et les temps d’exécution et de préparation. Si vous devez effectuer une validation partielle après la création d’un rangement stock, vous pouvez le faire au niveau des temps de préparation et des quantités pour toutes les opérations, à l’exception de la dernière. La dernière opération est contrôlée par le rangement stock.  

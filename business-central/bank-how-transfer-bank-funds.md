@@ -18,7 +18,7 @@ Il peut vous arriver de devoir transférer un montant d’un compte bancaire dan
 ## Pour valider un transfert entre comptes bancaires avec le même code devise
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille comptabilité**, puis choisissez le lien associé.
-2. Dans une ligne feuille, renseignez les champs **Date comptabilisation** et **N° document**.
+2. Dans une ligne feuille, renseignez les champs **Date comptabilisation** et **N° document** .
 3. Cliquez sur le champ **Type compte**, sélectionnez le **Compte bancaire**.
 4. Dans le champ **N° compte**, sélectionnez le compte bancaire à partir duquel vous souhaitez transférer les fonds.
 5. Dans le champ **Montant**, entrez le total à transférer.

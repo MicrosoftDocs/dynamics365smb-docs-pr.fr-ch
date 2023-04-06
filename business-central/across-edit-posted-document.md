@@ -7,18 +7,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
-ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
+ms.search.keywords: 'Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document'
+ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: ae59d920f4c560caff2bb545b1922bcd4bff65db
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822561"
 ---
-# <a name="edit-posted-documents"></a>Valider les documents validés
+# Valider les documents validés
 
 Parfois, vous devez mettre à jour un document validé, car les informations pertinentes pour le document ont été modifiées. Sur un document de vente validé, il peut s’agir du numéro de suivi du colis du transporteur, par exemple. Sur un document d’achat validé, il peut s’agir d’un texte de référence de paiement.
 
@@ -38,7 +32,7 @@ Les documents supplémentaires suivants peuvent être modifiés dans les pays ou
 - RU : avoir vente enregistré
 - IT : expédition de transfert validée, expédition de service validée
 
-## <a name="to-edit-a-posted-sales-shipment"></a>Pour modifier une expédition vente enregistrée
+## Pour modifier une expédition vente enregistrée
 
 Ce qui suit explique comment modifier une expédition vente enregistrée Les étapes sont similaires pour les autres documents pris en charge.
 
@@ -49,7 +43,7 @@ Ce qui suit explique comment modifier une expédition vente enregistrée Les ét
 
 L’expédition vente enregistrée est mise à jour.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Validation des documents et des feuilles](ui-post-documents-journals.md)  
 [Rechercher les écritures associées aux documents](ui-find-entries.md)  

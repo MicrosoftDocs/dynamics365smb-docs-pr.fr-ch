@@ -1,28 +1,22 @@
 ---
 title: Rapports Comptabilité client et analyse
-description: Découvrez les états et analyses disponibles dans la version standard de Business Central afin que vous puissiez suivre vos comptes client.
+description: "Découvrez les états et analyses disponibles dans la version standard de Business\_Central afin que vous puissiez suivre vos comptes client."
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316
+ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316'
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: f674102844cf6dd6c5c93aa0036f8b73f10b8b61
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514792"
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>États comptabilité client et analyses d’immobilisation dans Business Central
+# États comptabilité client et analyses d’immobilisation dans Business Central
 
 Pour vous aider à gérer votre comptabilité client dans [!INCLUDE [prod_short](includes/prod_short.md)], des états et des analyses standard sont intégrés. Ils vont au-delà des contraintes des rapports traditionnels pour vous aider à concevoir efficacement divers types de rapports.  
 
-## <a name="reports"></a>États
+## États
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  
 [Utiliser les axes analytiques](finance-dimensions.md)  

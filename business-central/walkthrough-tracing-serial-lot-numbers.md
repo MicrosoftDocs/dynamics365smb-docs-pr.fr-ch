@@ -258,7 +258,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
  Le contrôleur qualité a déterminé que les cadres de course défectueux provenaient du LOT1. Il doit maintenant retrouver les autres vélos de course équipés d’un cadre provenant du lot défectueux afin de pouvoir stopper ou rappeler ces vélos.  
 
- Une manière de préparer cette tâche de suivi sur la page **Traçabilité** est d’entrer manuellement LOT1 dans le champ **Filtre n° lot** et 2000 dans le champ **Filtre article**. Toutefois, cette procédure pas-à-pas utilisera la fonction **Opposé suivi - Ligne d’origine**.  
+ Une manière de préparer cette tâche de suivi sur la page **Traçabilité** est d’entrer manuellement LOT1 dans le champ **Filtre n° lot** et 2000 dans le champ **Filtre article**. Toutefois, cette procédure pas-à-pas utilisera la fonction **Opposé suivi - Ligne d’origine** .  
 
 ### Pour trouver toutes les activités du lot défectueux  
 

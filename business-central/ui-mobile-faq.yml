@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
-  title: Mobile Apps FAQ
-  description: See answers to frequently asked questions about using Business Central on your phone or tablet.
+  title: FAQ relative aux applications mobiles
+  description: Consultez les réponses aux questions fréquemment posées sur l’utilisation de Business Central sur votre téléphone ou votre tablette.
   author: edupont04
   ms.topic: faq
   ms.devlang: na
@@ -10,63 +10,21 @@ metadata:
   ms.search.keywords: 'phone, tablet'
   ms.date: 10/25/2021
   ms.author: edupont
-title: Mobile Apps FAQ
+title: FAQ relative aux applications mobiles
 summary: |
-  This article answers questions that our advanced users often ask about the mobile apps for <ph id="ph1">[!INCLUDE [prod_short](includes/prod_short.md)]</ph>.  
+  Cet article répond aux questions que nos utilisateurs expérimentés posent souvent à propos des applications mobiles pour [!INCLUDE [prod_short](includes/prod_short.md)].  
 sections:
-  - name: Ignored
+  - name: Ignoré
     questions:
-      - question: |
-          Is there an app for my device?
+      - question: "Existe-t-il une application pour mon appareil\_?\n"
+        answer: "Probablement\_! Installez l’application [!INCLUDE[prod_short](includes/prod_short.md)] sur votre périphérique mobile en la téléchargeant à partir de Windows Store, d’App Store ou de Google Play.\n\n- [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (PC uniquement)\n- [Plate-forme de téléchargement des applications](https://go.microsoft.com/fwlink/?LinkId=734847)\n- [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)\n"
+      - question: "Est-ce la même expérience dans les applications que dans le navigateur\_?\n"
+        answer: "Non, pas exactement. Par exemple, nous montrons uniquement le groupe d’activité **Accueil** en raison de la taille d’écran limitée sur les appareils mobiles. De même, les raccourcis clavier ne sont pas disponibles, car vous utilisez principalement la fonction tactile plutôt qu’un clavier pour naviguer sur les appareils mobiles.\n\nLe tableau suivant décrit certaines des différences et limitations les plus courantes que vous pouvez rencontrer lors de l’utilisation de [!INCLUDE [prod_short](includes/prod_short.md)] sur les appareils mobiles, par rapport au navigateur.\n\n| Concept | Sur les tablettes | Sur les téléphones | Exemple depuis le navigateur |\n|--|--|--|--|\n| Groupes d’activités | Seule le groupe d’activités **Accueil** s’affiche. | Seule le groupe d’activités **Accueil** s’affiche. | **Accueil** et **Documents validés** sur le tableau de bord `Sales Order Processor`. |  |\n| Sélection de plusieurs enregistrements dans des listes | Non disponible. | Non disponible. | <kbd>Ctrl</kbd>+<kbd>A</kbd> ou <kbd>Ctrl</kbd>+<kbd>Clic</kbd> sur les lignes d’une liste dans le navigateur. |\n| Actions dans la barre d’actions | Seules les actions sponsorisées sont affichées. | Seules les actions sponsorisées sont affichées. |  |\n| Récapitulatifs | Non affiché sur les pages de liste ou les pages de feuille de travail. | Non affiché sur les pages de liste ou les pages de feuille de travail. | Liste `Customer` sur le tableau de bord `Small Business`. |\n| Filtres avancés | Aucun filtrage spécifique à la colonne n’est disponible. | Aucun filtrage spécifique à la colonne n’est disponible. | Sur la page de liste `Customer`. |\n| Tell Me | Pas encore disponible. | Pas encore disponible. | Voir [Recherche de pages et d’informations avec Tell Me](ui-search.md). |  |\n| Explorateur de rôles | Pas encore disponible. | Pas encore disponible. | Voir [Recherche de pages avec l’explorateur de rôles](ui-role-explorer.md). |\n| Champs dans les raccourcis | Les champs dans les raccourcis des pages de liste ne sont pas affichés. Seule la commande de répéteur est affichée dans la zone de contenu de la page. | Non disponible. |  |\n| Sélectionner dans la liste complète | Non disponible sur les recherches. Les utilisateurs ne sont pas en mesure d’exécuter des actions sur une page de recherche et ils ne peuvent pas accéder à l’ensemble complet des enregistrements. | Non disponible sur les recherches. Les utilisateurs ne sont pas en mesure d’exécuter des actions sur une page de recherche et ils ne peuvent pas accéder à l’ensemble complet des enregistrements. | Sur la `Item Card` lors de la sélection des **Unités de mesure de base**. |\n| Rechercher dans les colonnes de la liste | Partiellement pris en charge. La recherche n’inclura pas FlowFields. | Partiellement pris en charge. La recherche n’inclura pas FlowFields. | Voir des exemples sur la page de liste `Customers`. |\n| Consultations | Disponible. | Disponible, à la différence que les recherches avancées et simples se comportent de la même manière sur le téléphone. La recherche n’affiche pas la fiche, affiche les Récapitulatifs ou aucun groupe de champs. | Voir des exemples sur la page `Customer Card`. |\n| Contrôles de la matrice | Non disponible. | Non disponible. | Voir l’exemple dans `G/L Budget`. |\n| Télécharger le fichier | Disponible. Impossible de télécharger plusieurs fichiers en même temps. | Disponible. Impossible de télécharger plusieurs fichiers en même temps. | État `Trial Balance` dans la case à cocher **Imprimer vers Excel**. |\n| Pages de feuille de travail | Disponible. | Indisponible\_; un message d’erreur s’affiche. | Feuille de travail `Sales Price` ou `Cash Flow`. |\n| Listes | Disponible. | Disponible, à la différence que ceux-ci sont affichés dans une disposition en brique. | Pages Commandes vente ou client. |\n| Indentation dans les commandes du répéteur | Disponible. | Non disponible. Le contrôle de répéteur sera rendu comme une disposition de brique plate régulière. | Pages du plan comptable et de la liste de contacts. |\n| Mise au point automatique sur le premier champ modifiable d’une page | Non disponible. | Non disponible. | Page `Customer Card`.<BR /><BR />Dans le navigateur, le focus sera automatiquement sur le premier champ modifiable (tel que le champ `Name`), vous permettant de modifier la valeur immédiatement.<BR /><BR />Dans les applications pour tablettes et téléphones, ce champ ne sera pas mis au point\_; au lieu de cela, vous devrez d’abord sélectionner manuellement le champ afin d’apporter des modifications.|\n"
+      - question: "Est-ce la même expérience sur les tablettes et les téléphones\_?\n"
+        answer: "Presque, mais pas tout à fait. Voir la liste dans la section [Est-ce la même expérience dans les applications que dans le navigateur\_?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  \n"
+      - question: "Puis-je connecter l’application à notre solution sur site\_?\n"
+        answer: "Oui, vous pouvez\_! C’est une façon légèrement différente de se connecter, c’est tout. Pour plus d’informations, voir [Utiliser Business Central en local\_?](install-mobile-app.md#use-business-central-on-premises).  \n"
+      - question: "Un utilisateur invité peut-il utiliser l’application pour accéder à notre solution Business Central\_?\n"
         answer: |
-          Probably! Install the <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.
-
-          - <bpt id="p1">[</bpt>Windows Store<ept id="p1">](https://go.microsoft.com/fwlink/?LinkId=734848)</ept> (PC only)
-          - <bpt id="p1">[</bpt>App Store<ept id="p1">](https://go.microsoft.com/fwlink/?LinkId=734847)</ept>
-          - <bpt id="p1">[</bpt>Google Play<ept id="p1">](https://go.microsoft.com/fwlink/?LinkId=734849)</ept>
-      - question: |
-          Is it the same experience in the apps as in the browser?
-        answer: |
-          No, not exactly. For example, we show only the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> activity group due to the limited screen size on mobile devices. Similarly, the keyboard shortcuts are not available because you mainly use touch rather than a keyboard to navigate on mobile devices.
-
-          The following table describes some of the most common differences and limitations that you might experience when using <ph id="ph1">[!INCLUDE [prod_short](includes/prod_short.md)]</ph> on mobile devices, compared to the browser.
-
-          | Concept | On tablets | On phones | Example from the browser |
-          |--|--|--|--|
-          | Activity groups | Only the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> activity group is shown. | Only the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> activity group is shown. | <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Posted Documents<ept id="p2">**</ept> on the <ph id="ph1">`Sales Order Processor`</ph> Role Center. |  |
-          | Selecting multiple records in lists | Not available. | Not available. | <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>A<ept id="p2">&lt;/kbd&gt;</ept> or <bpt id="p3">&lt;kbd&gt;</bpt>Ctrl<ept id="p3">&lt;/kbd&gt;</ept><ph id="ph2">+</ph><bpt id="p4">&lt;kbd&gt;</bpt>Click<ept id="p4">&lt;/kbd&gt;</ept> on rows in a list in the browser. |
-          | Actions in the action bar | Only Promoted actions are shown. | Only Promoted actions are shown. |  |
-          | FactBoxes | Not shown on List pages or Worksheet pages. | Not shown on List pages or Worksheet pages. | <ph id="ph1">`Customer`</ph> list on the <ph id="ph2">`Small Business`</ph> Role Center. |
-          | Advanced filters | No column-specific filtering is available. | No column-specific filtering is available. | On the <ph id="ph1">`Customer`</ph> list page. |
-          | Tell Me | Not available yet. | Not available yet. | See <bpt id="p1">[</bpt>Finding Pages and Information with Tell Me<ept id="p1">](ui-search.md)</ept>. |  |
-          | Role Explorer | Not available yet. | Not available yet. | See <bpt id="p1">[</bpt>Finding Pages with the Role Explorer<ept id="p1">](ui-role-explorer.md)</ept>. |
-          | Fields in FastTabs | Fields in FastTabs on list pages are not shown. Only the repeater control is shown in the content area of the page. | Not available. |  |
-          | Select from full list | Not available on lookups. Users are not able to run actions on a lookup page, and they cannot access the full set of records. | Not available on lookups. Users are not able to run actions on a lookup page, and they cannot access the full set of records. | On the <ph id="ph1">`Item Card`</ph> when selecting the <bpt id="p1">**</bpt>Base Units of Measure<ept id="p1">**</ept>. |
-          | Search across list columns | Partly supported. Search will not include FlowFields. | Partly supported. Search will not include FlowFields. | See examples on the <ph id="ph1">`Customers`</ph> list page. |
-          | Lookups | Available. | Available, with the difference that advanced and simple lookups behave similarly on the phone. The lookup will not bring up the card, show FactBoxes, or any field groups. | See examples on the <ph id="ph1">`Customer Card`</ph> page. |
-          | Matrix controls | Not available. | Not available. | See example in <ph id="ph1">`G/L Budget`</ph>. |
-          | File download | Available. Cannot download multiple files at the same time. | Available. Cannot download multiple files at the same time. | <ph id="ph1">`Trial Balance`</ph> report in the <bpt id="p1">**</bpt>Print to Excel<ept id="p1">**</ept> check box. |
-          | Worksheet pages | Available. | Not available; an error message is displayed. | <ph id="ph1">`Sales Price`</ph> Worksheet or <ph id="ph2">`Cash Flow`</ph> Worksheet. |
-          | Lists | Available. | Available, with the difference that these are displayed in a brick layout. | Customers or Sales Orders pages. |
-          | Indentation in repeater controls | Available. | Not available. The repeater control will be rendered as a regular flat brick layout. | Chart of Accounts and Contacts List pages. |
-          | Automatic input focus on first editable field of a page | Not available. | Not available. | <ph id="ph1">`Customer Card`</ph> page.<BR /><BR />In the browser, focus will automatically be on the first editable field (such as the <ph id="ph1">`Name`</ph> field), enabling you to change the value right away.<BR /><BR />In the tablet and phone apps, this field will not be in focus; instead, you will have to manually select the field first in order to make changes.|
-      - question: |
-          Is it the same experience on tablets and phones?
-        answer: |
-          Almost, but not quite. See the list in the <bpt id="p1">[</bpt>Is it the same experience in the apps as in the browser?<ept id="p1">](#is-it-the-same-experience-in-the-apps-as-in-the-browser-)</ept> section.  
-      - question: |
-          Can I connect the app to our on-premises solution?
-        answer: |
-          Yes, you can! It's a slightly different way to signing in, that's all. For more information, see <bpt id="p1">[</bpt>Use Business Central on-premises?<ept id="p1">](install-mobile-app.md#use-business-central-on-premises)</ept>.  
-      - question: |
-          Can a guest user use the app to access our Business Central solution?
-        answer: |
-          No. Guest users are invited users from a different Azure Active Directory (AD) tenant than yours. In this case, the app will authenticate to the guest user's primary Azure AD tenant and try open the Business Central endpoint on that tenant instead of yours.  
-additionalContent: |
-
-  ## See also
-
-  <bpt id="p1">[</bpt>Getting Business Central on Your Mobile Device<ept id="p1">](install-mobile-app.md)</ept>  
-  <bpt id="p1">[</bpt>Install the Business Central App for Microsoft Teams<ept id="p1">](across-install-app-for-teams.md)</ept>  
-
-  [!INCLUDE[footer-include](includes/footer-banner.md)]
+          Non. Les utilisateurs invités sont des utilisateurs invités d’un autre client Azure Active Directory (AD) que le vôtre. Dans ce cas, l’application s’authentifiera auprès du locataire principal Azure AD de l’utilisateur invité et essayez d’ouvrir le point de terminaison Business Central sur ce locataire au lieu du vôtre.  
+additionalContent: "\n## Voir aussi\n\n[Obtention de Business\_Central sur votre périphérique mobile](install-mobile-app.md)  \n[Installer l’application Business Central pour Microsoft Teams](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]\n"

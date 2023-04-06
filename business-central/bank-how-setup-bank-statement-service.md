@@ -87,7 +87,7 @@ Le service de flux bancaire est activé lorsque vous liez un compte bancaire à 
 
     Le service de flux bancaire se prépare à lier votre compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)] au compte bancaire en ligne connexe.  
 
-    Une fois le processus terminé avec succès, le nom de la banque s’affiche dans le volet **Mes comptes** sous l’onglet **Lié**. Si la banque a plusieurs comptes bancaires, seul le compte bancaire que vous avez sélectionné à l’étape 2 est lié.  
+    Une fois le processus terminé avec succès, le nom de la banque s’affiche dans le volet **Mes comptes** sous l’onglet **Lié** . Si la banque a plusieurs comptes bancaires, seul le compte bancaire que vous avez sélectionné à l’étape 2 est lié.  
 5. Choisissez le bouton **OK**.
 
 Sur la page **Liste des comptes bancaires**, la case **Lié** est cochée.

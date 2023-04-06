@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 41e682a54861857ce0ee36bbbf34924c5795b11b
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605477"
 ---
-# <a name="create-blanket-assembly-orders"></a>Création d’ordres d’assemblage permanents
+# Création d’ordres d’assemblage permanents
 
 Vous pouvez utiliser la gestion nomenclature d’assemblage pour personnaliser un élément d’assemblage sur la demande d’un client au cours du processus de vente. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -26,7 +20,7 @@ Vous pouvez utiliser la gestion nomenclature d’assemblage pour personnaliser u
 > [!NOTE]  
 >  Comme toutes les commandes ouvertes, les quantités des ordres d’assemblage ouverts sont uniquement des prévisions et ne sont pas opérationnelles avant d’être converties en ordres d’assemblage réels. Par conséquent, la fonctionnalité commande, comme le calcul de disponibilité, la réservation et la traçabilité des articles, n’est pas active sur les ordres d’assemblage ouverts.  
 
-## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Pour créer un ordre d’assemblage ouvert pour un article à assembler pour commande  
+## Pour créer un ordre d’assemblage ouvert pour un article à assembler pour commande  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes cadres vente**, puis sélectionnez le lien associé.  
 2. Créez une commande vente ouverte avec une ligne pour un élément d’assemblage. Pour plus de détails, reportez-vous à la rubrique [Créer des commandes ouvertes vente](sales-how-to-create-blanket-sales-orders.md).  
@@ -42,13 +36,13 @@ Vous pouvez utiliser la gestion nomenclature d’assemblage pour personnaliser u
 
 L’ordre d’assemblage ouvert associé et toutes les personnalisations sont liées à cette nouvelle commande vente à préparer pour l’assemblage de l’article ou des articles à vendre.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Créer des commandes vente ouvertes](sales-how-to-create-blanket-sales-orders.md)  
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Utilisation des nomenclatures d’assemblage](assembly-how-work-assembly-boms.md)  
 [Stock](inventory-manage-inventory.md)  
-[Détails de conception : Warehouse Management](design-details-warehouse-management.md)  
+[Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

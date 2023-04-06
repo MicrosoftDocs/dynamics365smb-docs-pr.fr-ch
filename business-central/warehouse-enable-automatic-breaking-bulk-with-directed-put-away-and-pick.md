@@ -13,7 +13,7 @@ ms.author: bholtorf
 ---
 # Activer la rupture de charge automatique avec prélèvement et rangement dirigé
 
-En cas d’utilisation d’un prélèvement et d’un rangement suggérés dans les entrepôts, [!INCLUDE[prod_short](includes/prod_short.md)] peut diviser des unités plus grandes en unités plus petites pendant la création des instructions entrepôt répondant aux exigences de documents origine, d’ordres de fabrication ou de prélèvements et de rangements internes. Le déconditionnement peut également signifier rassembler des articles dans des unités de mesure plus petites pour égaler la quantité d’une unité de mesure plus grande sur un document origine ou un ordre de fabrication.
+En cas d’utilisation d’un prélèvement et d’un rangement suggérés dans les entrepôts, [!INCLUDE[prod_short](includes/prod_short.md)] peut diviser des unités plus grandes en unités plus petites pendant la création des instructions entrepôt répondant aux exigences de documents origine, d’ordres de fabrication ou de prélèvements et de rangements internes. Le déconditionnement peut également signifier rassembler des articles dans des unités de mesure plus petites pour égaler la quantité d’une unité de mesure plus grande sur un document source ou un ordre de fabrication.
 
 ## Déconditionnement pour prélèvements  
 

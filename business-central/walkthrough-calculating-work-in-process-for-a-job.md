@@ -143,7 +143,7 @@ Avec les projets, vous pouvez planifier l’utilisation des ressources de votre 
 3.  Sur la page **Projet Valider TEC en comptabilité**, sur le raccourci **Projet**, sélectionnez **Deerfield** dans le champ **N°**. .  
 4.  Sur le raccourci **Options**, dans le champ **N° document contrepassation**, entrez **1**.  
 5.  Dans le champ **Date validation contrepassation**, saisissez la date validation originale. La date doit correspondre à celle utilisée initialement pour calculer les TEC.  
-6.  Sélectionnez le champ **Contrepasser uniquement**. Cela permettra de contrepasser les TEC précédemment validés, sans valider de nouveaux TEC en comptabilité.  
+6.  Sélectionnez le champ **Contrepasser uniquement** . Cela permettra de contrepasser les TEC précédemment validés, sans valider de nouveaux TEC en comptabilité.  
 7.  Cliquez sur le bouton **OK** pour exécuter le traitement par lots, puis sur le bouton **OK** pour fermer la page de confirmation.  
 8.  Ouvrez la fiche **Projet** correspondant à **Deerfield**.  
 9. Sur le raccourci **TEC et Réception** , vérifiez qu’il n’y a pas d’écritures TEC validées.  

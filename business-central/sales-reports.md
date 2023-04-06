@@ -1,27 +1,21 @@
 ---
 title: États et analyses de vente
-description: Découvrez les états et analyses de vente disponibles dans la version standard de Business Central afin que vous puissiez suivre votre activité.
+description: "Découvrez les états et analyses de vente disponibles dans la version standard de Business\_Central afin que vous puissiez suivre votre activité."
 author: AndreiPanko
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_107, Report_111, Report_112, Report_113, Report_119, Report_121, Report_129, Report_209, Report_708, Report_713, Report_718, Report_813, Report_7313
+ms.search.form: 'Report_107, Report_111, Report_112, Report_113, Report_119, Report_121, Report_129, Report_209, Report_708, Report_713, Report_718, Report_813, Report_7313'
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 416318805626e853fcd8d1964c3ed4e172de0f90
-ms.sourcegitcommit: 670d589c6870a01e0655c2da800560ed69d18db2
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "8455522"
 ---
-# <a name="sales-reports-and-analytics-in-business-central"></a>États et analyses de vente dans Business Central
+# États et analyses de vente dans Business Central
 
 Les états de vente dans [!INCLUDE [prod_short](includes/prod_short.md)] permettent aux professionnels des ventes et des affaires d’obtenir des informations et des statistiques sur les activités de vente actuelles et passées.  
 
-## <a name="reports"></a>États
+## États
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## <a name="tasks"></a>Tâches
+## Tâches
 
 Les articles suivants décrivent certaines des tâches clés pour analyser l’état de votre entreprise :
 
@@ -29,7 +23,7 @@ Les articles suivants décrivent certaines des tâches clés pour analyser l’�
 * [Voir la disponibilité des articles](inventory-how-availability-overview.md)
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Définition des ventes](sales-setup-sales.md)  
 [Ventes](sales-manage-sales.md)  

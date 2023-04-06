@@ -1,23 +1,17 @@
 ---
 title: Configuration d’une analyse de trésorerie (contient une vidéo)
-description: Utilisez les graphiques du tableau de bord Comptes pour aider à analyser le flux de trésorerie dans vos activités, y compris les dépenses et les recettes, liquidités, et les règlements entrants moins les règlements sortants.
+description: 'Utilisez les graphiques du tableau de bord Comptes pour aider à analyser le flux de trésorerie dans vos activités, y compris les dépenses et les recettes, liquidités, et les règlements entrants moins les règlements sortants.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
+ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds'
+ms.search.form: '846, 847, 849, 851, 855, 862, 869, 1818'
 ms.date: 08/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8074e7342740efa1466bc6fea3c4fd192ddbfd56
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605073"
 ---
-# <a name="setting-up-cash-flow-analysis"></a>Configuration d’une analyse de trésorerie
+# Configuration d’une analyse de trésorerie
 
 Si vous souhaitez de l’aide pour décider quelles opérations effectuer avec votre trésorerie, consultez les graphiques dans le tableau de bord Comptable :
 
@@ -31,7 +25,7 @@ Cet article décrit d’où proviennent les données dans les graphiques et, si 
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc?rel=0]
 
-## <a name="the-cash-cycle-and-income--expense-charts"></a>Les graphiques Cycle trésorerie et Revenus et dépenses
+## Les graphiques Cycle trésorerie et Revenus et dépenses
 
 Les graphiques **Cycle trésorerie** et **Revenus et dépenses** sont prêts à être utilisés, en fonction du plan comptable et des états financiers. Les données sont issues de ces comptes, et les états financiers calculent les relations entre les ventes et les créances. Certains comptes et états financiers sont fournis. Vous pouvez les utiliser tels quels, les modifier, puis en ajouter de nouveaux. Si vous ajoutez des comptes généraux à votre plan comptable, par exemple, en les important de QuickBooks, vous devez les associer aux comptes sur la page **États financiers** pour les états suivants :
 
@@ -50,7 +44,7 @@ Saisissez les comptes dans le champ **Totalisation** pour **Total produits**, **
 > [!TIP] 
 > Vérifiez votre mappage en choisissant l’option **Aperçu**.  
 
-## <a name="set-up-the-cash-flow-chart"></a>Configurer le plan comptable de trésorerie
+## Configurer le plan comptable de trésorerie
 
 Le plan comptable de trésorerie est basé sur ce qui suit :  
 
@@ -61,7 +55,7 @@ Pour vous aider à poursuivre, certains comptes et paramétrages de trésorerie 
 
 Pour les configurer, recherchez **Comptes de trésorerie**, choisissez le lien, puis renseignez les champs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Répétez ces étapes pour **Paramètres trésorerie**.
 
-## <a name="set-up-cash-flow-forecasts"></a>Configurer les prévisions de trésorerie
+## Configurer les prévisions de trésorerie
 
 Le graphique **Prévision de trésorerie** utilise les comptes de trésorerie, les paramétrages de trésorerie et les prévisions de trésorerie. Certains comptes sont fournis, cependant, vous pouvez définir les vôtres à l’aide d’un guide de configuration assistée. Le guide vous aide à spécifier des éléments, tels que la fréquence de mise à jour des prévisions, les comptes sur lesquels les baser, les informations concernant l’échéance de paiement des taxes et s’il convient d’utiliser [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
@@ -86,7 +80,7 @@ Pour utiliser une procédure manuelle :
 > [!TIP]  
 > Tenez compte de la durée des périodes utilisée par le service lors de ses calculs. Plus vous fournissez de données, plus les prévisions seront précises. En outre, soyez prudent en ce qui concerne les grands écarts entre les périodes. Cela aura également un impact sur les prévisions. Si Azure AI ne trouve pas suffisamment de données ou si les données varient considérablement, le service ne fera pas de prévisions.  
 
-## <a name="design-details"></a>Détails de conception
+## Détails de conception
 
 Les abonnements à [!INCLUDE[prod_short](includes/prod_short.md)] fournissent un accès à plusieurs services web prévisionnels dans toutes les régions où [!INCLUDE[prod_short](includes/prod_short.md)] est disponible. En savoir plus sur le guide des licences Microsoft Dynamics 365 Business Central. Le guide est téléchargeable sur le site Internet [Business Central](https://dynamics.microsoft.com/business-central/overview/).
 
@@ -96,11 +90,11 @@ Ces services web sont sans état. Autrement dit, ils utilisent des données uniq
 >
 > Vous pouvez utiliser votre propre service web prévisionnel au lieu du nôtre. Pour plus d’informations, voir [Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie](#AnchorText).
 
-### <a name="data-required-for-forecast"></a>Données requises pour les prévisions
+### Données requises pour les prévisions
 
 Pour faire des prévisions sur les revenus et dépenses futurs, les services web nécessitent des données historiques sur les créances, les dettes et les taxes.
 
-#### <a name="receivables"></a>Clients
+#### Clients
 
 Champs **Date d’échéance** et **Montant DS** sur la page **Écritures comptables client**, où :
 
@@ -109,7 +103,7 @@ Champs **Date d’échéance** et **Montant DS** sur la page **Écritures compta
 
 Avant d’utiliser le service web prédictif, [!INCLUDE[prod_short](includes/prod_short.md)] comprime les transactions par **Date d’échéance** sur la base de la valeur dans le champ **Type de période** sur la page **Paramètres trésorerie**.
 
-#### <a name="payables"></a>Fournisseurs
+#### Fournisseurs
 
 Champs **Date d’échéance** et **Montant DS** sur la page **Écritures comptables fournisseur**, où :
 
@@ -118,7 +112,7 @@ Champs **Date d’échéance** et **Montant DS** sur la page **Écritures compta
 
 Avant d’utiliser le service web prédictif, [!INCLUDE[prod_short](includes/prod_short.md)] comprime les transactions par **Date d’échéance** sur la base de la valeur dans le champ **Type de période** sur la page **Paramètres trésorerie**.
 
-#### <a name="tax"></a>Taxe
+#### Taxe
 
 Champs **Date document** et **Montant** sur la page **Écritures comptables TVA (taxe)**, où :
 
@@ -127,7 +121,7 @@ Champs **Date document** et **Montant** sur la page **Écritures comptables TVA 
 
 Avant d’utiliser le service web prédictif, [!INCLUDE[prod_short](includes/prod_short.md)] comprime les transactions par **Date document** sur la base de la valeur dans le champ **Type de période** sur la page **Paramètres trésorerie**.
 
-## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"></a>Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie
+## <a name="AnchorText"></a>Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie
 
 Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un modèle public intitulé **Modèle de prévision pour Microsoft Business Central**. Ce modèle prévisionnel est disponible en ligne dans la galerie Azure AI. Pour utiliser le modèle, procédez comme suit :  
 
@@ -140,9 +134,9 @@ Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un m
 7. Développez le raccourci **Azure AI**, puis renseignez les champs, y compris l’URL de l’API et la clé d’API fournie depuis Azure Machine Learning studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Dans le tableau de bord Comptable, sous le graphique **Prévision de trésorerie**, sélectionnez l’action **Recalculer la prévision**.
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) associée
+## Voir la [formation Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  
 [Configuration de Finance](finance-setup-finance.md)  

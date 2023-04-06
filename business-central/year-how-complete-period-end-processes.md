@@ -6,21 +6,15 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments'
 ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607678"
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a>Aperçu des tâches de clôture des périodes comptables
+# Aperçu des tâches de clôture des périodes comptables
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ne vous oblige pas à clôturer les périodes. Toutefois, il existe de nombreuses activités de clôture de période (fin de mois) que vous pouvez effectuer. Cette rubrique présente un aperçu des activités et des processus facultatifs pour les périodes de clôture.  
 
-## <a name="general-ledger"></a>Écritures comptables
+## Écritures comptables
 
 * Spécifiez des plages de date de validation à l’échelle du système.  
 
@@ -31,7 +25,7 @@ ms.locfileid: "9607678"
 * Exécutez les états financiers comme suit :  
   * Ouvrez la page **États financiers**, puis sélectionnez l’action **Imprimer**.  
 
-## <a name="sales-and-receivables"></a>Ventes
+## Ventes
 
 * Validez l’ensemble des commandes, factures, avoirs et retours vente.  
 * Validez l’ensemble des feuilles règlement.  
@@ -39,7 +33,7 @@ ms.locfileid: "9607678"
 * Rapprochez la comptabilité client de la comptabilité.  
 * Exécutez le traitement par lots **Supprimer cdes vente facturées**.  
 
-## <a name="purchases-and-payables"></a>Achats
+## Achats
 
 * Validez l’ensemble des commandes, factures, avoirs et retours achat.  
 * Validez l’ensemble des feuilles paiement.  
@@ -47,7 +41,7 @@ ms.locfileid: "9607678"
 * Générez l’état **Comptabilité fournisseur âgée** et rapprochez la comptabilité fournisseur de la comptabilité.  
 * Exécutez le traitement par lots **Supprimer cdes achat facturées**.  
 
-## <a name="fixed-assets"></a>Immobilisations
+## Immobilisations
 
 * Validez que tous les frais de maintenance ont été validés via les feuilles immobilisation ou factures.
 * Validez les ajustements.
@@ -55,17 +49,17 @@ ms.locfileid: "9607678"
 * Validez l’amortissement.
 * Mettez à jour et validez la feuille abonnement immobilisations.
 
-## <a name="intercompany"></a>Intersociétés
+## Intersociétés
 
 * Traitez les transactions intersociétés.
 
-## <a name="calculate-and-process-sales-tax"></a>Calculer et traiter la taxe de vente
+## Calculer et traiter la taxe de vente
 
 * Renseignez les déclarations de TVA.  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Clôture plans](year-close-books.md)  

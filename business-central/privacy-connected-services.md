@@ -17,16 +17,18 @@ Le tableau ci-dessous indique les connexions aux services Microsoft qui sont aut
 
 |Nom de service|La connexion est activée automatiquement |Le service est contacté lors de la connexion à Business Central |Exemple de fonctionnalité qui utilise ce service | Apprenez à gérer la connexion et les fonctionnalités qui l’utilisent|  
 |------------|-------------|--------|------------|-------------|
-|Microsoft Teams|Oui|N°|Action **Partager avec Teams** sur la fiche **Article** |[Gestion de l’intégration de Teams avec Business Central](admin-teams-integration.md)|  
-|Microsoft OneDrive Entreprise|Oui|N°|**Ouvrir dans l’action OneDrive** sur les pièces jointes **Article** |[Gestion de l’intégration de OneDrive avec Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
-| Microsoft Power Automate |Oui|N°|Actions **Automatiser** sur fiche **Article** |[Configuration de l’intégration de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|  
+|Microsoft Teams|Oui|Non|Action **Partager avec Teams** sur la fiche **Article** |[Gestion de l’intégration de Teams avec Business Central](admin-teams-integration.md)|  
+|Microsoft OneDrive Entreprise|Oui|Non|**Ouvrir dans l’action OneDrive** sur les pièces jointes **Article** |[Gestion de l’intégration de OneDrive avec Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
+| Microsoft Power Automate |Oui|Non|Actions **Automatiser** sur fiche **Article** |[Configuration de l’intégration de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
+| Microsoft Azure OpenAI Automate |Oui |Non|**Copilote (version préliminaire)** |[Configuration du texte marketing article optimisé par l’IA avec Copilot](enable-ai.md)|
 
 > [!NOTE]
 > En utilisant les fonctionnalités qui se connectent à ces services : 
 >
 > - Vous consentez à ce que vos données soient partagées avec ce service Microsoft. Si votre organisation a déployé ces services dans un autre pays ou une autre région, la connexion au service peut entraîner le dépassement des limites de résidence des données. Assurez-vous de vérifier les politiques de votre organisation et les exigences de conformité de votre gouvernement concernant la résidence des données avant d’utiliser ces fonctionnalités. 
 > - Vous pouvez affecter des services qui ne sont pas des versions d’évaluation. Si ces services sont utilisés en production par votre organisation et ne sont pas évalués avec Business Central, les autres utilisateurs de ces services qui ne participent pas à cette version d’évaluation de [!INCLUDE[prod_short](includes/prod_short.md)] peuvent être affectés.
-> - [!INCLUDE[prod_short](includes/prod_short.md)] peut également se connecter à des services Microsoft ou à des services tiers en fonction des personnalisations et des extensions que vous ou votre administrateur avez installées dans votre évaluation [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations sur la manière dont vos extensions traitent vos données, contactez le développeur de l’extension ou suivez le lien de confidentialité de l’extension sur AppSource. 
+> - [!INCLUDE[prod_short](includes/prod_short.md)] peut également se connecter à des services Microsoft ou à des services tiers en fonction des personnalisations et des extensions que vous ou votre administrateur avez installées dans votre évaluation [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations sur la manière dont vos extensions traitent vos données, contactez le développeur de l’extension ou suivez le lien de confidentialité de l’extension sur AppSource.
+> - Pour les fonctionnalités en version préliminaire, vous acceptez les [conditions de la version préliminaire](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/?wt.mc_id=power-virtual-agents_inproduct).
 
 Votre vie privée est importante pour notre société. Pour en savoir plus sur la manière dont Microsoft traite vos données, consultez [Déclaration de confidentialité Microsoft](https://go.microsoft.com/fwlink/?linkid=521839).
 

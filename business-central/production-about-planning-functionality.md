@@ -23,7 +23,7 @@ Pour plus d’informations, voir [Détails de conception : planification de l�
 
 La planification comporte deux volets : l’offre et la demande. Ces derniers doivent être équilibrés pour garantir que la demande soit satisfaite rapidement et efficacement.  
 
-- Le mot demande désigne tout sorte de besoin brut, tel qu’une commande vente, une commande service, un besoin composant d’un ordre d’assemblage ou de fabrication, un désenlogement transfert, une commande cadre ou une prévision. En outre, l’application autorise d’autres types techniques de demande - tels qu’un ordre de fabrication ou une commande achat négatif, un stock négatif et un retour achat.  
+- Le mot demande désigne tout sorte de besoin brut, tel qu’une commande vente, une commande service, un besoin composant d’un ordre d’assemblage ou de fabrication, un désenlogement transfert, une commande ouverte ou une prévision. En outre, l’application autorise d’autres types techniques de demande - tels qu’un ordre de fabrication ou une commande achat négatif, un stock négatif et un retour achat.  
 - Le réapprovisionnement fait référence à toute sorte de réapprovisionnement telle qu’un stock, une commande achat, un ordre d’assemblage, un ordre de fabrication ou un transfert enlogement. Par conséquent, il peut y avoir une commande vente ou une commande service négative, un besoin de composant ou un retour vente négatif – tous représentant aussi l’offre d’une certaine façon.  
 
 Un autre objectif du système de planification est de garantir que le stock ne croisse pas inutilement. En cas de baisse de la demande, le système de planification suggère de reporter, de réduire ou d’annuler des ordres de réapprovisionnement existants.  
@@ -66,7 +66,7 @@ Les paramètres de planification suivants existent pour l’article ou la fiche 
 - Stratégie d’assemblage  
 - Mode de lancement  
 
-Les modificateurs de commande suivants existent pour l’article ou la fiche point de stock :  
+Les modificateurs d’ordre suivants existent pour l’article ou la fiche point de stock :  
 
 - Qté minimum commande  
 - Qté maximum commande  

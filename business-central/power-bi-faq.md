@@ -71,7 +71,7 @@ Les enregistrements de ligne les plus couramment utilisés sont disponibles dans
 5. Faites défiler vers la droite jusqu’à ce que vous trouviez une colonne nommée comme les lignes, par exemple **SalesInvoiceLines**.
 6. Sélectionnez le bouton Développer dans l’en-tête de la colonne, à côté du nom de la colonne.
 
-   :::image type="content" source="media/saleinvoicelines.png" alt-text="Affiche la colonne SalesInvoiceLines dans Power BI Desktop.":::
+   :::image type="content" source="media/saleinvoicelines.png" alt-text="Affiche la colonne SalesInvoiceLines dans Power BI Desktop .":::
 <!-- 11 --> 
 ### Est-il possible de choisir depuis quel environnement Business Central obtenir les données pour Power BI, comme un bac à sable ou un environnement de production ? 
 

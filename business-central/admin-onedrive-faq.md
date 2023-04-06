@@ -42,11 +42,11 @@ Oui, mais contrairement à [!INCLUDE[prod_short](includes/prod_short.md)] en lig
 
 ## Est-ce que [!INCLUDE[prod_short](includes/prod_short.md)] sur site se connecte avec SharePoint Server ?
 
-N° Cette combinaison de déploiement n’est pas prise en charge, même si SharePoint Server a activé Mes sites.  
+Non Cette combinaison de déploiement n’est pas prise en charge, même si SharePoint Server a activé Mes sites.  
 
 ## Est-ce que [!INCLUDE[prod_short](includes/prod_short.md)] en ligne se connecte avec SharePoint Server ?
 
-N° Cette combinaison de déploiement n’est pas prise en charge, même si SharePoint Server a activé Mes sites.  
+Non Cette combinaison de déploiement n’est pas prise en charge, même si SharePoint Server a activé Mes sites.  
 
 ## Comment cela fonctionne-t-il dans une organisation avec plusieurs environnements ?
 

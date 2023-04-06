@@ -91,7 +91,7 @@ La procédure suivante planifie les dates de livraison sur les lignes commande v
 
 Les calendriers principaux sont affectés à votre propre société, à vos clients, fournisseurs, magasins et transporteurs comme suit :  
 
--   Sur les fiches **Informations société** et **Client**, le calendrier principal est affecté sur le raccourci **Expédition**.  
+-   Sur les fiches **Informations société** et **Client**, le calendrier principal est affecté sur le raccourci **Expédition** .  
 -   Sur la fiche **Fournisseur**, le calendrier principal est affecté sur le raccourci **Réception**.  
 -   Sur la fiche **Magasin**, le calendrier principal est affecté sur le raccourci **Entrepôt**.  
 -   Sur la page **Transporteurs** , le calendrier principal est affecté sur la page **Prestations transporteur**.  

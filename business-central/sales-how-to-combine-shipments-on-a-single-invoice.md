@@ -47,7 +47,7 @@ Pour créer un regroupement de bons de livraison, plusieurs bons de livraison ve
 
 ## Pour supprimer des commandes vente ouvertes après la validation des expéditions regroupées
 
-Lorsque des bons de livraison sont regroupés sur une facture et validés, une Facture vente enregistrée est créée pour les lignes facturées. Le champ **Quantité facturée** de la commande cadre vente ou de la commande vente d’origine est mis à jour sur la base de la quantité facturée.  
+Lorsque des bons de livraison sont regroupés sur une facture et validés, une Facture vente enregistrée est créée pour les lignes facturées. Le champ **Quantité facturée** de la commande ouverte vente ou de la commande vente d’origine est mis à jour sur la base de la quantité facturée.  
 
 Lorsque vous facturez des livraisons de cette manière, les commandes à partir desquelles les livraisons ont été validées continuent à exister, même si elles ont été entièrement validées et facturées.   
 

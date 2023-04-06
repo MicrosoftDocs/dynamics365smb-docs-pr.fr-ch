@@ -1,27 +1,21 @@
 ---
-title: Configurer des projets, des prix et des groupes comptabilisation projet
-description: Décrit comment configurer des informations générales de projets, et des prix d’articles de projet, des ressources, ainsi que des comptes généraux et des groupes de comptabilisation projets.
+title: 'Configurer des projets, des prix et des groupes comptabilisation projet'
+description: 'Décrit comment configurer des informations générales de projets, et des prix d’articles de projet, des ressources, ainsi que des comptes généraux et des groupes de comptabilisation projets.'
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
-ms.search.form: 211, 463, 1012
+ms.search.form: '211, 463, 1012'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4e768b9cdcf4b6a7e32ee26a74a876604bad614f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535650"
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Configurer des projets, des prix et des groupes comptabilisation projet
+# Configurer des projets, des prix et des groupes comptabilisation projet
 
 En tant que chef de projet, vous pouvez définir des projets qui définissent chacun des projets que vous gérez dans [!INCLUDE[prod_short](includes/prod_short.md)]. Sur la page **Paramètres projets**, vous devez spécifier comment utiliser certaines fonctions de projet.
 
 Pour chaque projet, vous précisez ensuite les fiches projet individuelles avec des informations concernant les prix pour les articles, les ressources et les comptes généraux du projet, puis vous devez configurer des groupes comptabilisation du projet.
 
-## <a name="to-set-general-information-for-jobs"></a>Pour configurer des informations générales pour les projets
+## Pour configurer des informations générales pour les projets
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres projets**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -29,7 +23,7 @@ Pour chaque projet, vous précisez ensuite les fiches projet individuelles avec 
 > [!NOTE]
 > Le champ **Appliquer le lien d′utilisation par défaut** indique si les écritures comptables projet sont liées aux lignes planning projet par défaut. Sélectionnez le champ si vous souhaitez appliquer ce paramètre à tous les nouveaux projets que vous créez. Vous pouvez activer ou désactiver le suivi de l′utilisation des projets pour un projet donné en modifiant la valeur du champ **Appliquer le lien d′utilisation** sur la fiche projet individuelle. Les conséquences sont expliquées dans la section suivante.
 
-### <a name="to-set-up-job-usage-tracking"></a>Pour configurer un suivi d’utilisation de projet
+### Pour configurer un suivi d’utilisation de projet
 
 Lors de l’utilisation d’un projet, vous avez peut-être besoin de savoir si votre utilisation est conforme au plan. Pour entreprendre facilement cette action, vous pouvez créer un lien entre vos lignes planning du projet et l’utilisation réelle. Cela vous permet de suivre vos coûts et de voir aisément le travail qui reste à effectuer. Par défaut, le type ligne planning projet est *Budget*, mais l’utilisation du type ligne **Budget et Facturable** a des effets similaires.
 
@@ -49,14 +43,14 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 -->
 
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Pour paramétrer les prix pour des ressources, des articles et des comptes généraux pour des projets
+## Pour paramétrer les prix pour des ressources, des articles et des comptes généraux pour des projets
 
 > [!NOTE]
 > Dans la deuxième vague de lancement de 2020, nous avons lancé de nouveaux processus pour la configuration et la gestion des prix et des remises. Si vous êtes un nouveau client, vous utilisez la nouvelle expérience. Si vous êtes un client existant, l’utilisation ou non de la nouvelle expérience dépend du fait que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes** dans **Gestion des fonctionnalités**. Pour plus d’informations, consultez [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Vous pouvez paramétrer les prix pour des articles, des ressources et des comptes généraux associés à un projet. 
 
-#### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience)
+#### [Expérience actuelle](#tab/current-experience)
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez le projet, puis cliquez sur l’action **Ressource**, **Article** ou **Compte général**.
@@ -70,14 +64,14 @@ Le tableau suivant montre comment les informations des champs facultatifs seront
 |**Articles du projet**|Champs **N° tâche projet**, **Code devise** et **% Remise ligne**. La valeur du champ **Prix unitaire** pour l’article sera utilisée sur les lignes planning du projet et les feuilles projet lorsque cet article sera entré. Notez que ce prix remplace toujours le prix client habituel (mécanisme du « meilleur prix ») des articles. Pour utiliser les mécanismes des prix client habituels, ne créez pas de prix article projet pour le projet.|
 |**Comptes généraux**|Les informations contenues dans les champs **N° tâche projet**, **Code devise**, **% remise ligne**, **Facteur coût unitaire** et **Coût unitaire** serviront sur les lignes planning projet et les feuilles projet lorsque ce compte général sera entré et ajouté à un projet. La valeur du champ **Prix unitaire** pour les dépenses du compte général sera utilisée sur les lignes planning du projet et les feuilles projet lorsque le compte général sera entré.|
 
-#### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience)
+#### [Nouvelle expérience](#tab/new-experience)
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez le projet concerné, puis cliquez sur l’action **Listes prix vente**.
 
 ---
 
-## <a name="to-set-up-job-posting-groups"></a>Pour configurer les groupes compta. projet
+## Pour configurer les groupes compta. projet
 
 L’un des aspects des projets de planification est de décider quels comptes de validation utiliser pour l’évaluation du stock projet. Pour valider des projets, vous configurez des comptes afin de valider chaque groupe compta. projet. Un groupe comptabilisation représente un lien entre le projet et la manière dont il doit être traité dans la comptabilité. Lorsque vous créez un projet, vous pouvez spécifier un groupe comptabilisation et, par défaut, chaque tâche que vous créez pour le projet est associée avec ce groupe comptabilisation. Toutefois, lorsque vous créez des tâches, vous pouvez remplacer la valeur par défaut et sélectionner un groupe comptabilisation plus approprié.  
 
@@ -105,9 +99,9 @@ L’un des aspects des projets de planification est de décider quels comptes de
 | **Compte coûts récep.** |Compte frais contenant les coûts réceptionnés du projet. Il s’agit ordinairement d’un compte frais pour débit. |
 | **Compte ventes récep.** |Compte de revenu contenant les revenus réceptionnés du projet. Il s’agit ordinairement d’un compte de revenu pour crédit. |
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/set-up-jobs-resources/) associée
+## Voir la [formation Microsoft](/training/paths/set-up-jobs-resources/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configurer la gestion de projet](projects-setup-projects.md)  
 [Vidéo : Créer un projet dans Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

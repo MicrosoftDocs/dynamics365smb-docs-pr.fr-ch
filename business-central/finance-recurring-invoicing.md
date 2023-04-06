@@ -76,7 +76,7 @@ Il existe plusieurs fonctionnalités associées dans [!INCLUDE[prod_short](inclu
 ### Commandes cadres vente
 
 Une commande cadre vente représente le cadre d’un accord à long terme entre votre société et votre client.
-Une commande cadre est généralement établie quand un client s’est engagé à acheter de grandes quantités à livrer en plusieurs expéditions de plus petite taille au cours d’une période déterminée. Souvent, les commandes cadres ne portent que sur un seul article avec des dates de livraison prédéterminées. La principale raison d’utiliser une commande cadre plutôt qu’une commande vente est que les quantités entrées dans une commande cadre n’affectent pas la disponibilité de l’article ; toutefois, elle peut être utilisée à des fins de planification.
+Une commande ouverte est généralement établie quand un client s’est engagé à acheter de grandes quantités à livrer en plusieurs expéditions de plus petite taille au cours d’une période déterminée. Souvent, les commandes ouvertes ne portent que sur un seul article avec des dates de livraison prédéterminées. La principale raison d’utiliser une commande cadre plutôt qu’une commande vente est que les quantités entrées dans une commande cadre n’affectent pas la disponibilité de l’article ; toutefois, elle peut être utilisée à des fins de planification.
 
 #### Pourquoi utiliser cette option
 
@@ -112,7 +112,7 @@ Vous pouvez obtenir des extensions pour Business Central sur le site [AppSource.
 [Créer des lignes ventes et achat récurrentes](sales-how-work-standard-lines.md)  
 [Utiliser des contrats de service et des devis contrat de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Facturer plusieurs contrats de service](service-how-create-invoices.md#to-invoice-several-service-contracts)  
-[Prévisions de demande et commandes cadres](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
+[Prévisions de demande et commandes ouvertes](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Utiliser des commandes ouvertes vente](sales-how-to-create-blanket-sales-orders.md)  
 [Commandes récurrentes (Norvège)](LocalFunctionality/Norway/recurring-orders.md)  
 

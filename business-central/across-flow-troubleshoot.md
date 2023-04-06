@@ -6,36 +6,31 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,
+ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
 ms.date: 08/04/2022
 ms.author: edupont
-ms.openlocfilehash: 42b9a61f40afda0a50d6c6ec86d9984e53ae9ffb
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585934"
 ---
-# <a name="troubleshoot-your-prod_short-automated-workflows"></a>Dépanner les flux de travail automatisés [!INCLUDE[prod_short](includes/prod_short.md)]
+
+# Dépanner les flux de travail automatisés [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Lorsque vous vous connectez [!INCLUDE [prod_short](includes/prod_short.md)] avec Power Automate pour créer des flux de travail automatisés, des messages d’erreur peuvent apparaitre. Cet article fournit des suggestions de solution aux problèmes récurrents.
 
-## <a name="flow-doesnt-run-on-all-records-created-or-changed"></a>Le flux ne s’exécute pas sur tous les enregistrements créés ou modifiés
+## Le flux ne s’exécute pas sur tous les enregistrements créés ou modifiés
 
-### <a name="problem"></a>Problème
+### Problème
 
 Si un événement crée ou modifie de nombreux enregistrements, le flux ne s’exécute pas sur certains ou sur tous les enregistrements.
 
-### <a name="possible-cause"></a>Cause possible
+### Cause possible
 
 Actuellement, le nombre d’enregistrements traités par un flux est limité. Si plus de 100 enregistrements sont créés ou modifiés en 30 secondes, le flux n’est pas déclenché.
 
 > [!NOTE]
 > Pour les développeurs, le déclenchement du flux se fait par les notifications webhook et cette limitation est due à la façon dont le connecteur Business Central gère les notifications `collection`. En savoir plus sur [Utilisation des webhooks dans Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) dans l’aide pour les développeurs et les administrateurs.
 
-## <a name="entity-set-not-found-error"></a>Erreur « Ensemble d’entités introuvable »
+## Erreur « Ensemble d’entités introuvable »
 
-### <a name="problem"></a>Problème
+### Problème
 
 Lorsque vous créez un flux Power Automate en utilisant un déclencheur d’approbation [!INCLUDE[prod_short](includes/prod_short.md)], comme *Lorsque l’approbation d’un document achat est exigée*, un message d’erreur identique au suivant peut apparaitre :
 
@@ -43,11 +38,11 @@ Lorsque vous créez un flux Power Automate en utilisant un déclencheur d’appr
 
 L’espace réservé `\<name\>` correspond au nom du service Web manquant, comme *workflowWebhookSubscriptions* ou *workflowPurchaseDocumentLines*.
 
-### <a name="possible-cause"></a>Cause possible
+### Cause possible
 
 L’utilisation de Power Automate pour les approbations nécessite que certains objets de page et de codeunit soient publiés en tant que services Web. Par défaut, la plupart des objets requis sont publiés en tant que services Web pour vous. Mais dans certains cas, votre environnement a peut-être été personnalisé pour que ces objets ne soient plus publiés.
 
-### <a name="fix"></a>Corriger
+### Corriger
 
 Allez à la page **Services Web** et assurez-vous que les objets suivants sont publiés en tant que services Web. Il devrait y avoir une entrée dans la liste pour chaque objet, avec la case **Publié** cochée.  
 
@@ -70,9 +65,9 @@ Allez à la page **Services Web** et assurez-vous que les objets suivants sont p
 
 Pour plus d’informations sur la publication des services Web, voir [Publier un service Web](across-how-publish-web-service.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/use-power-automate/).
+## Voir la formation associée sur [Microsoft Learn](/learn/modules/use-power-automate/).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utiliser les flux Power Automate dans [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)  
 [Flux de travail](across-workflow.md)  

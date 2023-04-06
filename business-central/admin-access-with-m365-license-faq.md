@@ -11,6 +11,8 @@ ms.custom: bap-template
 ---
 # FAQ sur l’accès avec les licences Microsoft 365
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Les utilisateurs peuvent accéder aux données de Business Central dans Microsoft Teams à l’aide de leur licence Microsoft 365. Cet article répond aux questions fréquemment posées par les administrateurs, les consultants et autres. Les développeurs doivent se référer à la FAQ des développeurs. Pour toute question sur l’intégration de Business Central avec Microsoft Teams, accédez à la [FAQ Teams](teams-faq.md).
 
 ## [Autorisations](#tab/permissions) 
@@ -91,7 +93,7 @@ Pour maximiser la productivité et rationaliser leurs opérations, les PME achè
 
 ### Est-ce 100 % gratuit ?
  
-N° L’accès aux données de Business Central dans Microsoft Teams nécessite que chaque utilisateur dispose d’une licence Business Central ou d’une licence Microsoft 365 de la liste des plans pris en charge.
+Non L’accès aux données de Business Central dans Microsoft Teams nécessite que chaque utilisateur dispose d’une licence Business Central ou d’une licence Microsoft 365 de la liste des plans pris en charge.
 
 ### Cela fonctionne-t-il avec les versions d’essai de Microsoft 365 et de Business Central ?
 

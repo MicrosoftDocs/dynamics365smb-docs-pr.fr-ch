@@ -1,22 +1,17 @@
 ---
 title: Modification de la société et d’autres paramètres dans Teams
-description: Découvrez comment modifier les paramètres de connexion Business Central à partir de Microsoft Teams.
+description: "Découvrez comment modifier les paramètres de connexion Business\_Central à partir de Microsoft Teams."
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 21edfebd4507c383d9af217fa0617d22867e204d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133241"
 ---
-# <a name="changing-company-and-other-settings-in-teams"></a>Modification de la société et d’autres paramètres dans Teams
+
+# Modification de la société et d’autres paramètres dans Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -28,11 +23,11 @@ Il existe deux façons d’ouvrir la page **Paramètres** : 1) à partir de la 
 
     ![Paramètres de Business Central à partir de la boîte de commande.](media/teams-settings-message-box.png)
 
-2. Dans la zone de commande en haut, recherchez **@Business Central**, sélectionnez **... (Plus d’options)**, puis sélectionnez **Paramètres**.
+2. Dans la zone de commande en haut, recherchez **@Business Central**, sélectionnez **... (Plus d’options)**, puis sélectionnez **Paramètres**.
 
    ![Paramètres de Business Central à partir de la zone de message.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble de l’intégration de Business Central et Microsoft Teams](across-teams-overview.md)  
 [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)  

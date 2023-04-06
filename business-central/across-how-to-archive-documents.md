@@ -41,7 +41,7 @@ Le tableau suivant décrit les options disponibles pour le champ **Archiver devi
 
 ## Pour archiver une commande vente
 
-La procédure suivante décrit comment archiver une commande vente. La procédure est identique pour les commandes, les commandes cadres, les retours et les devis.
+La procédure suivante décrit comment archiver une commande vente. La procédure est identique pour les commandes, les commandes ouvertes, les retours et les devis.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Ouvrez une commande vente que vous souhaitez archiver.  
@@ -51,7 +51,7 @@ La commande vente est archivée. Vous pouvez l’afficher sur la page **Commande
 
 ## Pour restaurer une commande vente non validée depuis les archives
 
-La procédure suivante décrit comment restaurer une commande vente archivée dans la commande vente d’origine. Il est possible de restaurer un document seulement lorsque le document d’origine n’a pas été validé. La procédure est identique pour les commandes, les commandes cadres, les retours et les devis.
+La procédure suivante décrit comment restaurer une commande vente archivée dans la commande vente d’origine. Il est possible de restaurer un document seulement lorsque le document d’origine n’a pas été validé. La procédure est identique pour les commandes, les commandes ouvertes, les retours et les devis.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Archives commandes vente**, puis sélectionnez le lien associé.
 2. Sélectionnez la commande vente archivée, ou une version de celle-ci, que vous voulez restaurer, puis sélectionnez l’action **Restaurer**.  

@@ -36,7 +36,7 @@ La page **Éléments planning non chaînés** s’affiche lorsque vous cliquez s
 la page inclut les écritures représentant une quantité excédentaire non chaînée du réseau de chaînage. Ces écritures sont générées au cours de l’exécution de la planification et expliquent la provenance de la quantité excédentaire non chaînée des lignes chaînage. Cet excédent non chaîné peut provenir des lignes suivantes :
 
 - Prévisions production ;
-- commandes cadres ;
+- Commandes ouvertes ;
 - Stock de sécurité ;
 - Point de commande ;
 - Stock maximum ;
