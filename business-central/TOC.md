@@ -23,16 +23,23 @@
 #### [Procédure pas-à-pas : créer des prévisions de trésorerie à l’aide d’états financiers](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Procédure pas à pas : configurer et utiliser le connecteur Shopify](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Données de démonstration Contoso Coffee concernant la fabrication
+### Données de démonstration Contoso Coffee
 #### [Introduction aux données de démonstration Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
-#### [Création d’une nomenclature de production et d’une version de nomenclature](contoso-coffee/create-new-production-bom-version.md)
-#### [Création d’une gamme](contoso-coffee/create-new-routing.md)
-#### [Création d’un ordre de fabrication planifié fixe et le modifier](contoso-coffee/create-firm-planned-production-order-change.md)
-#### [Combinaison de la consommation automatique et de la consommation manuelle](contoso-coffee/combine-automatic-manual-flushing.md)
-#### [Utilisation de la planification des commandes pour créer et réserver un approvisionnement](contoso-coffee/order-planning-create-reserve-supply.md)
-#### [Configuration et traitement d’une opération de sous-traitance](contoso-coffee/set-up-process-subcontracting-operation.md)
-#### [Configuration d’une nouvelle capacité](contoso-coffee/set-up-new-capacity.md)
-#### [Variantes](contoso-coffee/variants.md)
+#### Fabrication
+##### [Introduction à la fabrication chez Contoso Coffee](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Création d’une nomenclature de production et d’une version de nomenclature](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Création d’une gamme](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Création d’un ordre de fabrication planifié fixe et le modifier](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Combinaison de la consommation automatique et de la consommation manuelle](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Utilisation de la planification des commandes pour créer et réserver un approvisionnement](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Configuration et traitement d’une opération de sous-traitance](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Configuration d’une nouvelle capacité](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Variantes](contoso-coffee/manufacturing/variants.md)
+#### Entreposage
+##### [Introduction aux entrepôts de Contoso Coffee](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt de base](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt mixtes](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt avancées avec prélèvement et rangement suggérés](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Détails de conception
 #### [Vue d’ensemble des détails de conception d’application](design-details-application-design.md)
@@ -106,11 +113,11 @@
 ### [Résolution des problèmes d’inscription en self-service](ui-troubleshoot-self-signup.md)
 ### [Extension de votre version d’essai](admin-extend-trial.md)
 ### [Annulation d’un abonnement ou suppression de Business Central](admin-cancel.md)
-### Texte marketing article optimisé par l’IA avec Copilot
+### Texte marketing d’article optimisé par l’IA avec Copilot
 #### [Vue d’ensemble](ai-overview.md)
-#### [Obtenir la version préliminaire - Édition Copilot](ai-preview-getstarted.md)
-#### [Configuration du texte marketing article optimisé par l’IA](enable-ai.md)
-#### [Création de texte marketing article optimisé par l’IA](item-marketing-text.md)
+#### [Obtention de la version préliminaire](ai-preview-getstarted.md)
+#### [Configuration du texte marketing d’article optimisé par l’IA](enable-ai.md)
+#### [Création de texte marketing d’article optimisé par l’IA](item-marketing-text.md)
 #### [FAQ](ai-faq.md)
 
 ## Achats
@@ -409,8 +416,12 @@
 ### Consolidation des données financières de plusieurs sociétés
 #### [Consolidation de la société](finance-consolidated-company-reporting.md)
 #### [Configuration de la consolidation de la société](finance-consolidated-company-reporting-setup.md)
+
+### Utilisation du plan comptable et de la comptabilité
+#### [Familiarisation avec la comptabilité et le plan comptable](finance-general-ledger.md)
+#### [Vérification des comptes](finance-review-accounts.md)
+
 ### [Consolidation des soldes d’une société à la fois cliente et fournisseur](finance-consolidate-customer-vendor-balances.md)
-### [Familiarisation avec la comptabilité et le certificat d’authenticité](finance-general-ledger.md)
 ### [Utilisation des axes analytiques](finance-dimensions.md)
 ### [Dépannage et correction des axes analytiques](finance-troubleshooting-correcting-dimensions.md)
 ### [Devises dans Business Central](finance-currencies.md)
@@ -436,6 +447,7 @@
 ## Business intelligence financière et rapports
 ### [Vue d’ensemble de la business intelligence financière et des rapports](bi.md)
 ### [États financiers](finance-reports.md)
+### [Analyse des données avec les comptes statistiques](bi-use-statistical-accounts.md)
 ### [Analyse des montants réalisés et budgétés](bi-how-analyze-actual-versus-budget.md)
 ### [Préparation de Financial Reporting avec des données financières et des catégories de compte](bi-how-work-account-schedule.md)
 ### [Configuration et publication des services web d’indicateur de performance clé sur la base d’états financiers](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -1511,14 +1523,16 @@
 #### [Envoi de documents par courrier électronique](ui-how-send-documents-email.md)
 #### [Configuration des conditions de livraison](sales-how-set-up-shipment-methods.md)
 #### [Configuration des transporteurs](sales-how-to-set-up-shipping-agents.md)
+#### [Définition d’une stratégie de validation des factures pour les utilisateurs](admin-setup-invoice-posting-policy.md)
 ### Configuration des achats
 #### [Configuration des achats](purchasing-setup-purchasing.md)
 #### [Enregistrement des nouveaux fournisseurs](purchasing-how-register-new-vendors.md)
-#### [Configuration de vos comptes bancaires fournisseur](purchasing-how-set-up-vendors-bank-accounts.md)
+#### [Configuration des comptes bancaires fournisseur](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Classement par ordre de priorité des fournisseurs](purchasing-how-prioritize-vendors.md)
 #### [Configuration des acheteurs](purchasing-how-setup-purchasers.md)
 #### [Configuration des prix et remises](across-prices-and-discounts.md)
 #### [Enregistrement des prix d’achat spéciaux et des remises](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Définition d’une stratégie de validation des factures pour les utilisateurs](admin-setup-invoice-posting-policy.md)
 ### Configuration du stock
 #### [Configuration du stock](inventory-setup-inventory.md)
 #### [Configuration des informations générales relatives au stock](inventory-how-setup-general.md)
@@ -1631,6 +1645,7 @@
 ##### [Vue d’ensemble](across-teams-overview.md)
 ##### [Gestion de l’intégration de Teams](admin-teams-integration.md)
 ##### [Installation de l’application Business Central pour Teams](across-install-app-for-teams.md)
+##### [Accès aux données dans Teams sans licence Business Central](teams-access-with-m365-license.md)
 ##### [Recherche des clients, des fournisseurs et des contacts](across-search-contacts-teams.md)
 ##### [Ajout d’un onglet Business Central au canal ou à la conversation instantanée](across-teams-tab.md)
 ##### [Partage d’enregistrements et de liens de pages dans Teams](across-working-with-teams.md)
@@ -1755,6 +1770,7 @@
 ### [FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)
 ### [Analyse des données de page dans Excel](across-work-with-excel.md)
 ### [Analyse des données d’état avec Excel](report-analyze-excel.md)
+### [Analyse des données de liste avec le mode d’analyse](analysis-mode.md)
 ### [Business Intelligence financière](bi.md)
 
 ## Analyses intégrées 
@@ -1884,6 +1900,9 @@
 ### [Planification d’une synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Résolution des problèmes de synchronisation](admin-troubleshoot-sales-synchronization.md)
 ### [Utilisation d’un flux Power Automate pour les alertes en cas de changement d’entité Dataverse](admin-power-automate-flow-dataverse.md)
+## Synchronisation des données principales entre les entreprises
+### [Préparation à la synchronisation des données principales](admin-set-up-data-sync.md)
+### [Gestion de la synchronisation des données principales](admin-sync-master-data.md)
 ## Détails de conception
 ### [Vue d’ensemble des détails de conception d’application](design-details-application-design.md)
 ### Détails de conception : planification de l’approvisionnement
