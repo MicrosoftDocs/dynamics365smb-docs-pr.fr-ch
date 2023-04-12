@@ -48,11 +48,6 @@ Dans les méthodes A, B et C, les actions de réception et de rangement sont co
 > * Le rangement stock utilisé dans la méthode B, ainsi que l’enregistrement des informations de rangement, valide également la réception du document source.
 > * Le rangement entrepôt utilisé dans la méthode D ne peut pas être validé et enregistre uniquement le rangement. L’enregistrement rend les articles disponibles pour un traitement ultérieur mais ne valide pas la réception. Dans le flux entrant, le rangement entrepôt nécessite une réception entrepôt.
 
-> [!NOTE]
-> Bien que les rangements entrepôt et les rangements stock semblent similaires, ce sont des documents différents et ils sont utilisés dans des processus différents.
-> * Le rangement stock utilisé dans la méthode B, ainsi que l’enregistrement des informations de rangement, valide également la réception du document source.
-> * Le rangement entrepôt utilisé dans la méthode D ne peut pas être validé et enregistre uniquement le rangement. L’enregistrement rend les articles disponibles pour un traitement ultérieur mais ne valide pas la réception. Dans le flux entrant, le rangement entrepôt nécessite une réception entrepôt.
-
 ## Aucune activité entrepôt dédiée
 
 Les articles suivants fournissent des informations sur le traitement des réceptions pour les documents origine si vous n’avez pas d’activités entrepôt dédiées.

@@ -90,8 +90,12 @@ Lorsque vous utilisez la fonctionnalité XBRL, la première étape consiste à 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Taxonomies XBRL**, puis choisissez le lien associé.  
 2. Sur la page **Taxonomies XBRL**, créez une ligne et entrez le nom et la description de la taxonomie.  
 3. Sélectionnez l’action **Schémas**, puis insérez la description du schéma.  
-4. Pour importer le schéma, sur la page **Schémas XBRL**, sélectionnez l’action **Importer**, puis sélectionnez un dossier et un fichier XSD. Choisissez **Ouvrir**.  
-5. Pour importer le lien ressources, sur la page **Schémas XBRL**, sélectionnez l’action **Liens ressources**, puis sélectionnez un dossier et un fichier XML. Choisissez **Ouvrir**.  
+4. Pour importer le schéma, sur la page **Schémas XBRL**, sélectionnez l’action **Importer**, puis exécutez l’une des étapes suivantes pour télécharger le fichier :
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
+5. Pour importer le lien ressources, sur la page **Schémas XBRL**, sélectionnez l’action **Liens ressources**, puis exécutez l’une des étapes suivantes pour télécharger le fichier :
+
+   [!INCLUDE[file-upload](includes/file-upload.md)] 
 6. Vous pouvez alors appliquer le lien ressources au schéma. Répétez ces opérations jusqu’à avoir importé tous les liens ressources.  
 7. Sélectionnez l’action **Appliquer à la taxonomie** pour appliquer le lien de ressources au schéma.  
 

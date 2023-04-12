@@ -1,15 +1,12 @@
 ---
 title: Annuler une validation en validant une écriture opposée
-description: 'Si vous avez effectué une validation erronée dans la feuille comptabilité, vous pouvez utiliser la fonction de contrepassation de transaction pour annuler la validation avec une piste d’audit correcte.'
+description: 'Si vous trouvez une erreur dans une feuille comptabilité validée, vous pouvez utiliser l’action de contrepassation de transaction pour annuler la validation avec une piste d’audit correcte.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: reimbursement
-ms.search.form: '20, 25, 29, 38, 202, 5912,'
-ms.date: 07/22/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ---
 # Contrepasser une validation feuille et annuler les réceptions/envois
 
@@ -93,6 +90,5 @@ La procédure est identique pour les réceptions retour enregistrées.
 [Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
 [Finances](finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

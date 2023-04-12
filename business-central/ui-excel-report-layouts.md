@@ -86,8 +86,9 @@ Une fois que vous avez le fichier de présentation Excel, la tâche suivante con
 3. Définissez **ID état** sur *État*.
 4. Entrez un nom dans **Nom présentation**.
 5. Définissez **Options de format** sur **Excel**.
-6. Sélectionnez **OK** > **Choisir** pour ouvrir l’explorateur de fichiers sur votre appareil.
-7. Recherchez et sélectionnez le fichier Excel, puis sélectionnez **Ouvrir**.
+6. Sélectionnez **OK**, puis effectuez une des étapes suivantes pour télécharger le fichier pour le rapport :
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Le fichier sélectionné est chargé dans la présentation et la page **Présentations d’état** s’ouvre.
 8. Si vous voulez voir à quoi ressemble l’état avec la nouvelle présentation, sélectionnez la présentation dans la liste, puis sélectionnez **Exécuter état**.

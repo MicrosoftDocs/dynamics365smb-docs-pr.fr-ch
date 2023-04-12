@@ -39,15 +39,15 @@ Cette procédure pas à pas inclut les tâches correspondant aux rôles suivants
 
 ## Scénario
 
- Phyllis est responsable de la comptabilité. Elle décide des clients qui doivent payer un acompte avant que les articles soient fabriqués ou expédiés. Phyllis configure [!INCLUDE[prod_short](includes/prod_short.md)] de façon à calculer automatiquement les acomptes.  
+ Phyllis est un comptable qui décide des clients qui doivent payer un acompte avant que les articles soient fabriqués ou expédiés. Phyllis configure [!INCLUDE[prod_short](includes/prod_short.md)] de façon à calculer automatiquement les acomptes.  
 
- Susan est préparatrice de commandes vente. Lorsque le client appelle pour passer une commande, elle entre la commande dans le système pendant que le client est au téléphone. Elle peut ainsi vérifier immédiatement les prix et les conditions de paiement avec le client et ajuster la commande pendant qu’elle négocie avec le client.  
+ Susan est préparatrice de commandes vente. Lorsque le client appelle pour passer une commande, Susan entre la commande dans le système pendant que le client est au téléphone. Susan peut ainsi vérifier immédiatement les prix et les conditions de paiement avec le client et ajuster la commande pendant qu’elle négocie avec le client.  
 
  Arnie travaille dans le département Comptabilité client où sa fonction consiste à valider les factures et les paiements.  
 
  Dans ce scénario, Phyllis configure les conditions d’acompte pour le client Selangorian, en se basant sur leurs antécédents en matière de crédit. Elle donne à Susan des instructions sur le traitement de leurs commandes.  
 
- Lorsque le client appelle, Susan négocie avec lui jusqu’à ce qu’ils arrivent à un accord. Elle peut alors choisir de calculer l’acompte de différentes manières.  
+ Lorsque le client appelle, Susan négocie jusqu’à ce qu’ils arrivent à un accord : le système lui permet de calculer les acomptes de différentes manières.  
 
  Après que Susan a envoyé la facture, le client commande un article supplémentaire. Susan met à jour la commande et crée une seconde facture acompte.  
 
@@ -75,9 +75,9 @@ Les procédures suivantes décrivent le mode d’exécution des tâches de Phyll
 
 Vous ne pouvez pas expédier ou facturer une commande dont le montant d’acompte n’est pas réglé.  
 
-Par défaut, Phyllis requiert que le client 20000 soit facturé avec un acompte de 30 % sur toutes les commandes. Pour cela, elle entre un pourcentage d’acompte par défaut dans la fiche client.  
+Par défaut, Phyllis requiert que le client 20000 soit facturé avec un acompte de 30 % sur toutes les commandes. Pour cela, Phyllis entre un pourcentage d’acompte par défaut dans la fiche client.  
 
-Phyllis requiert que tous les clients soient facturés avec un acompte de 20 % pour l’article 1896-S. Le client 20000 a un mauvais historique des paiements, c’est pourquoi elle requiert un acompte de 40 % pour ce client pour l’article 1896-S. La procédure suivante présente le mode de configuration des pourcentages d’acompte par défaut.  
+Phyllis requiert que tous les clients soient facturés avec un acompte de 20 % pour l’article 1896-S. Le client 20000 a un mauvais historique des paiements, c’est pourquoi Phyllis requiert un acompte de 40 % pour ce client pour l’article 1896-S. La procédure suivante présente le mode de configuration des pourcentages d’acompte par défaut.  
 
 ### Pour affecter des pourcentages d’acompte par défaut aux clients et aux articles
 
@@ -148,7 +148,7 @@ Susan crée la facture acompte et l’envoie au client.
 
      À présent, le client demande si le pourcentage de l’acompte peut être fixé à 35 %. Le chef de Susan accepte la modification.
 11. Sur la page **Commande vente**, sur le raccourci **Acompte**, dans le champ **% acompte**, entrez **35**.  
-12. Dans l’avertissement qui s’affiche, cliquez sur le bouton **Oui**. Un taux de 35 % sera appliqué comme pourcentage du paiement de l’ensemble de la commande.  
+12. Dans l’avertissement qui s’affiche, cliquez sur le bouton **Oui** . Un taux de 35 % sera appliqué comme pourcentage du paiement de l’ensemble de la commande.  
 13. Vérifiez que les lignes ont été mises à jour en conséquence.  
 
 ## Créer une facture acompte
@@ -165,7 +165,7 @@ Après avoir entré la valeur d’acompte correcte sur la commande, Susan crée 
 
 ## Créer une facture acompte supplémentaire
 
-Le jour suivant, le client appelle Susan et modifie sa commande. Il souhaite deux exemplaires de l’article 1896-S. Susan rouvre la commande et la met à jour. Susan crée ensuite une seconde facture acompte pour la commande et l’envoie au client.  
+Le jour suivant, le client appelle Susan et modifie sa commande. Il souhaite deux exemplaires de l’article 1896-S. Susan rouvre et met à jour la commande, puis crée une seconde facture acompte sur la commande et l’envoie au client.  
 
 ### Pour créer une facture acompte supplémentaire
 

@@ -36,13 +36,14 @@ Le paramètre **Expérience** s’applique à tous les utilisateurs d’une soci
 Les utilisateurs sont affectés à des plans dans le centre d’administration Microsoft 365 dans le cadre de la tâche générale de création des utilisateurs Business Central. Pour plus d’informations, consultez [Ajouter des utilisateurs et attribuer des licences en simultané](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### Pour mettre à jour les modifications de plan des groupes d’utilisateurs
-Si vous avez modifié les plans des utilisateurs dans le centre d’administration Microsoft 365, par exemple en affectant plus d’utilisateurs au plan Premium, vous devez refléter les modifications dans [!INCLUDE[prod_short](includes/prod_short.md)].
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
+Si vous avez modifié les plans des utilisateurs dans le centre d’administration Microsoft 365, par exemple en affectant plus d’utilisateurs au plan Premium, vous devez mettre à jour [!INCLUDE[prod_short](includes/prod_short.md)] pour refléter les modifications.
 
 1. Connectez-vous en tant qu’administrateur.
-2. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Utilisateurs**, puis choisissez le lien associé.
-3. Sur la page **Utilisateurs**, sélectionnez l’action **Actualiser tous les groupes d’utilisateurs**.
-
-Toutes les nouvelles informations relatives aux plans des utilisateurs et aux groupes d’utilisateurs qui leur sont affectés sont maintenant mises à jour en fonction des modifications du plan.
+2. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Utilisateurs**, puis choisissez le lien associé.
+3. Sur la page **Utilisateurs**, choisissez l’action **Mettre à jour les utilisateurs depuis Microsoft 365**.
 
 ### Pour sélectionner l’expérience Premium
 Vous pouvez maintenant sélectionner la nouvelle expérience.

@@ -53,7 +53,7 @@ Ricardo, le contrôleur qualité, se charge d’un retour vente de l’article 1
 - le lot de cadres défectueux ;  
 - la commande achat sur laquelle le lot défectueux apparaît.  
 
-Dans le département des ventes, le contrôleur qualité sait que le vélo de course renvoyé, l’article 1002, porte le numéro de série SN1. En utilisant cette information de base, il doit déterminer l’endroit où le vélo de course fini a été utilisé en dernier, puis il doit remonter jusqu’à l’origine pour connaître le numéro de lot duquel le composant défectueux provient.  
+Dans le département des ventes, le contrôleur qualité sait que le vélo de course renvoyé, l’article 1002, porte le numéro de série SN1. En utilisant cette information de base, ils doivent déterminer l’endroit où le vélo de course fini a été utilisé en dernier, puis ils doivent remonter jusqu’à l’origine pour connaître le numéro de lot duquel le composant défectueux provient.  
 
 Les résultats de cette première tâche de traçabilité permettent d’identifier les cadres défectueux et le fournisseur qui les a vendus. Ensuite, mais toujours dans la même procédure de traçabilité générale, le contrôleur qualité doit trouver tous les vélos de course vendus qui sont équipés d’un cadre provenant du lot défectueux, de manière à pouvoir stopper ou rappeler ces commandes. Enfin, le contrôleur qualité doit trouver des documents ouverts dans lesquels le lot défectueux est utilisé afin d’empêcher d’autres transactions.  
 
@@ -225,7 +225,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
 ## Traçabilité de l’activité à l’origine
 
- Dans le département des ventes, le contrôleur qualité sait que le vélo de course renvoyé, l’article 1002, porte le numéro de série SN1. En utilisant cette information de base, il peut déterminer l’endroit où le vélo de course a été utilisé en dernier, dans ce cas, sur l’expédition vente de Selangorian Ltd. Il doit ensuite remonter jusqu’à l’origine pour connaître le numéro de lot duquel le composant défectueux provient.  
+ Dans le département des ventes, le contrôleur qualité sait que le vélo de course renvoyé, l’article 1002, porte le numéro de série SN1. En utilisant cette information de base, ils peuvent déterminer l’endroit où le vélo de course a été utilisé en dernier, dans ce cas, sur l’expédition vente de Selangorian Ltd. Il doit ensuite remonter jusqu’à l’origine pour connaître le numéro de lot duquel le composant défectueux provient.  
 
 ### Pour déterminer de quel lot le cadre défectueux provient et qui la fournit
 
@@ -247,7 +247,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
     - Le document validé suivant en amont est la validation de la consommation à partir du premier O.F. lancé. Dans ce cas, le contrôleur qualité constate qu’un cadre de course du LOT1 a été utilisé.  
     - Le document validé situé le plus bas dans cet enchaînement est la réception achat validée sur laquelle les cadres de course du LOT1 ont été entrés dans le stock.  
 
-    Le contrôleur qualité a maintenant déterminé le lot de cadres de course défectueux et il peut rechercher la dernière ligne de suivi pour connaître leur fournisseur, dans ce cas Custom Metals Incorporated.  
+    Le contrôleur qualité a maintenant déterminé le lot de cadres de course défectueux et ils peuvent rechercher la dernière ligne de suivi pour connaître leur fournisseur, dans ce cas Custom Metals Incorporated.  
 
     > [!NOTE]  
     >  Ne modifiez plus le résultat de la traçabilité, car vous allez l’utiliser dans la prochaine section.  
@@ -256,7 +256,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
 ## Traçabilité de l’origine à l’activité
 
- Le contrôleur qualité a déterminé que les cadres de course défectueux provenaient du LOT1. Il doit maintenant retrouver les autres vélos de course équipés d’un cadre provenant du lot défectueux afin de pouvoir stopper ou rappeler ces vélos.  
+ Le contrôleur qualité a déterminé que les cadres de course défectueux provenaient du LOT1. Ils doivent maintenant retrouver les autres vélos de course équipés d’un cadre provenant du lot défectueux afin de pouvoir stopper ou rappeler ces vélos.  
 
  Une manière de préparer cette tâche de suivi sur la page **Traçabilité** est d’entrer manuellement LOT1 dans le champ **Filtre n° lot** et 2000 dans le champ **Filtre article**. Toutefois, cette procédure pas-à-pas utilisera la fonction **Opposé suivi - Ligne d’origine** .  
 
@@ -274,13 +274,13 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
     Le contrôleur qualité en informe immédiatement le département des ventes afin qu’il puisse envoyer un rappel du vélo de course défectueux au client, Cannon Group PLC.  
 
-    Au même moment, il constate dans les trois dernières lignes de suivi que deux autres articles, SN3 et SN4, ont été fabriqués avec les cadres de course du LOT1. Il bloque ces articles dans le stock.  
+    Au même moment, ils constatent dans les trois dernières lignes de suivi que deux autres articles, SN3 et SN4, ont été fabriqués avec les cadres de course du LOT1. Ils peuvent bloquer ces articles dans le stock.  
 
     Ainsi se termine la deuxième tâche de gestion des défauts à l’aide de la page **Traçabilité**. Étant donné que la page **Traçabilité** est basée uniquement sur des écritures validées, le contrôleur qualité doit poursuivre jusqu’à la page **Rechercher des écritures** pour vérifier que le LOT1 n’est pas utilisé dans des documents qui ne sont pas validés.  
 
 ## Rechercher tous les enregistrements d’un numéro de série/lot
 
- La page **Traçabilité** a permis au contrôleur qualité de constater que le LOT1 contenait les cadres de course défectueux, d’en découvrir le fournisseur ainsi que la transaction validée dans laquelle ils avaient été utilisés. Il doit maintenant déterminer si le LOT1 apparaît dans des documents ouverts en intégrant les résultats du suivi dans la page **Rechercher des écritures** dans laquelle il peut faire une recherche sur l’ensemble des enregistrements de base de données.  
+ La page **Traçabilité** a permis au contrôleur qualité de constater que le LOT1 contenait les cadres de course défectueux, d’en découvrir le fournisseur ainsi que la transaction validée dans laquelle ils avaient été utilisés. Ils doivent maintenant déterminer si le LOT1 apparaît dans des documents ouverts en intégrant les résultats du suivi dans la page **Rechercher des écritures** dans laquelle ils peuvent faire une recherche sur l’ensemble des enregistrements de base de données.  
 
 ### Pour rechercher toutes les occurrences du LOT1 dans les enregistrements non validés, comme les commandes ouvertes  
 
@@ -293,7 +293,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
 3.  Pour ouvrir l’enregistrement de ligne vente, sélectionnez la seconde ligne de la fenêtre Rechercher des écritures, choisissez l’action **Afficher**. Sinon, choisissez la valeur dans le champ **Nombre d’enregistrements**.  
 
-    Dans ce cas, le contrôleur qualité constate une ligne vente ouverte pour les cadres de course défectueux. Il suggère immédiatement au département des ventes l’annulation de cette commande et la création d’un autre O.F., basé sur des cadres de course non défectueux.  
+    Dans ce cas, le contrôleur qualité constate une ligne vente ouverte pour les cadres de course défectueux. Ils suggèrent immédiatement au département des ventes l’annulation de cette commande et la création d’un autre O.F., basé sur des cadres de course non défectueux.  
 
  Ainsi se termine la procédure pas à pas sur l’utilisation de la page **Rechercher des écritures** pour la gestion des défauts en association avec la page **Traçabilité**.  
 

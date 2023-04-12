@@ -1,14 +1,14 @@
 ---
-title: Référence rapide de raccourcis clavier PC
+title: Référence rapide de raccourcis clavier - PC uniquement
 description: Feuille de référence imprimable contenant les raccourcis clavier les plus populaires pour les utilisateurs de PC.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'accessibility, shortcuts, keyboarding'
-ms.date: 08/19/2022
+ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Référence rapide de raccourcis clavier - PC uniquement
@@ -17,6 +17,7 @@ ms.author: jswymer
 
 |Sélectionnez ces touches|Pour|  
 |-|-|
+|<kbd>Alt</kbd>|Afficher les clés d’accès pour naviguer dans la barre d’action ou le menu de navigation|
 |<kbd>Alt</kbd>+<kbd>F2</kbd>|Afficher et masquer le volet Récapitulatif|
 |<kbd>Alt</kbd>+<kbd>N</kbd>|Créer un enregistrement|
 |<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>N</kbd>|Fermer un enregistrement nouvellement créé et en créer un nouveau|
@@ -70,14 +71,14 @@ ms.author: jswymer
 |<kbd>Maj</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Ajouter un filtre au champ sélectionnée|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>F3</kbd>|Réinitialiser les filtres|
 
-#### Entrée rapide
+#### Saisie rapide
 
 |Sélectionnez ces touches|Pour|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Entrée</kbd>|Accéder au champ suivant Saisie rapide en dehors d’une liste|
 |<kbd>Entrée</kbd>/<kbd>Maj</kbd>+<kbd>Entrée</kbd>|Accéder au champ Saisie rapide précédent/suivant|
 
-##### Aperçu de l’état
+##### Aperçu d’état
 
 |Sélectionnez ces touches|Pour|
 |-|-|

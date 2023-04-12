@@ -1,15 +1,14 @@
 ---
 title: Surveiller la progression et les performances
 description: Décrit la manière dont vous pouvez créer une méthode de travaux en cours (TEC) et calculer les TEC pour estimer la valeur financière des projets lorsqu’ils sont en cours.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
-ms.date: 08/04/2022
-ms.author: edupont
 ---
 # Surveiller la progression et les performances
 

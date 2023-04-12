@@ -2,19 +2,17 @@
 title: "Synchronisation de Business\_Central et de Dataverse"
 description: "En savoir plus sur la synchronisation des données entre Business\_Central et Dataverse."
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'sales, crm, integration, sync, synchronize'
-ms.date: 06/14/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
 # Planification d’une synchronisation entre Business Central et Dataverse
 
-
-Vous pouvez synchroniser [!INCLUDE[prod_short](includes/prod_short.md)] avec [!INCLUDE[cds_long_md](includes/cds_long_md.md)] à des intervalles planifiés en configurant des projets dans la file projets. Les projets de synchronisation permettent de synchroniser les données des enregistrements [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[cds_long_md](includes/cds_long_md.md)] qui ont été précédemment couplés ensemble. Ou bien, pour les enregistrements qui ne sont pas encore couplés, selon la direction et les règles de synchronisation, les projets de synchronisation peuvent créer des enregistrements et les coupler dans le système de destination. 
+Vous pouvez synchroniser [!INCLUDE[prod_short](includes/prod_short.md)] avec [!INCLUDE[cds_long_md](includes/cds_long_md.md)] à des intervalles planifiés en configurant des projets dans la file projets. Les projets de synchronisation permettent de synchroniser les données des enregistrements [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[cds_long_md](includes/cds_long_md.md)] qui sont couplés. Pour les enregistrements qui ne sont pas encore couplés, selon la direction et les règles de synchronisation, les projets de synchronisation peuvent créer des enregistrements et les coupler dans le système de destination.
 
 Plusieurs projets de synchronisation sont disponibles et prêts à l’emploi. Les projets sont exécutés dans l’ordre suivant pour éviter les dépendances de couplage entre les tables. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
 
@@ -24,7 +22,7 @@ Plusieurs projets de synchronisation sont disponibles et prêts à l’emploi. L
 4. Projet de synchronisation CLIENT - Common Data Service.
 5. Projet de synchronisation VENDEURS - Common Data Service.
 
-Vous pouvez visualiser les projets sur la page **Écritures file d’attente des travaux**. Pour en savoir plus, consultez [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
+Vous pouvez visualiser les projets sur la page **Écritures file d’attente des travaux**. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
 
 ## Écritures de file projets de synchronisation par défaut
 
@@ -44,12 +42,12 @@ Chaque écriture de file projets de synchronisation utilise un mappage de table 
 
 Pour synchroniser les données, les enregistrements de table [!INCLUDE[cds_long_md](includes/cds_long_md.md)] doivent être couplés à des enregistrements [!INCLUDE[prod_short](includes/prod_short.md)]. Par exemple, un client [!INCLUDE[prod_short](includes/prod_short.md)] doit être couplé à un compte [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Vous pouvez définir des couplages manuellement, avant d’exécuter les projets de synchronisation, ou laisser les projets de synchronisation définir automatiquement des couplages. La liste suivante décrit la manière dont les données sont synchronisées entre [!INCLUDE[cds_long_md](includes/cds_long_md.md)] et [!INCLUDE[prod_short](includes/prod_short.md)] lorsque vous utilisez les écritures de file projets de synchronisation. Pour en savoir plus, reportez-vous à la rubrique [Coupler et synchroniser manuellement les enregistrements](admin-how-to-couple-and-synchronize-records-manually.md).
 
-- La case à cocher **Synch. uniquement les enregistrements couplés** contrôle si de nouveaux enregistrements sont créés lors de la synchronisation. Par défaut, la case à cocher est activée, ce qui signifie que seuls les enregistrements couplés sont synchronisés. Dans le mappage de la table d’intégration, vous pouvez modifier le mappage de table entre une table [!INCLUDE[cds_long_md](includes/cds_long_md.md)] et une table [!INCLUDE[prod_short](includes/prod_short.md)] afin que les projets de synchronisation de l’intégration créent des enregistrements dans la base de données de destination pour chaque ligne de la base de données source qui n’est pas couplé. Pour plus d’informations, voir [Création d’enregistrements](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
+- La case à cocher **Synch. uniquement les enregistrements couplés** contrôle si de nouveaux enregistrements sont créés lors de la synchronisation. Par défaut, la case à cocher est activée, ce qui signifie que seuls les enregistrements couplés sont synchronisés. Dans le mappage de la table d’intégration, vous pouvez modifier le mappage de table entre une table [!INCLUDE[cds_long_md](includes/cds_long_md.md)] et une table [!INCLUDE[prod_short](includes/prod_short.md)] afin que les projets de synchronisation de l’intégration créent des enregistrements dans la base de données de destination pour chaque ligne de la base de données source qui n’est pas couplé. Pour plus d’informations, voir [Création d’enregistrements](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
     **Exemple** Si vous désactivez la case à cocher **Synch. uniquement les enregistrements couplés**, lorsque vous synchronisez les clients dans [!INCLUDE[prod_short](includes/prod_short.md)] avec les comptes dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)], un nouveau compte est créé pour chaque client dans [!INCLUDE[prod_short](includes/prod_short.md)] et couplé automatiquement. En outre, puisque la synchronisation est bidirectionnelle dans ce cas, un client est créé et couplé pour chaque compte [!INCLUDE[cds_long_md](includes/cds_long_md.md)] qui n’est pas encore couplé.  
 
     > [!NOTE]  
-    > Des règles et des filtres permettent de déterminer les données synchronisées. Pour plus d’informations, reportez-vous à la rubrique [Règles de synchronisation](admin-synchronizing-business-central-and-sales.md).
+    > Des règles et des filtres permettent de déterminer les données synchronisées. Pour plus d’informations, accédez à [Règles de synchronisation](admin-synchronizing-business-central-and-sales.md).
 
 - Lorsque des enregistrements sont créés dans [!INCLUDE[prod_short](includes/prod_short.md)], ils utilisent le modèle défini pour le mappage de table d’intégration ou le modèle par défaut qui est disponible pour le type de ligne. Les champs sont renseignés avec des données depuis [!INCLUDE[prod_short](includes/prod_short.md)] ou [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en fonction du sens de synchronisation. Pour en savoir plus, voir [Modifier les mappages de table pour la synchronisation](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
@@ -60,6 +58,7 @@ Pour synchroniser les données, les enregistrements de table [!INCLUDE[cds_long_
 - Avec la synchronisation bidirectionnelle, le projet effectue une synchronisation de [!INCLUDE[prod_short](includes/prod_short.md)] vers [!INCLUDE[cds_long_md](includes/cds_long_md.md)], puis de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] vers [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## À propos des délais d’inactivité
+
 Certaines écritures de la file d’attente des travaux, comme celles qui planifient la synchronisation entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[cds_long_md](includes/cds_long_md.md)] utilisent le champ **Délai d’inactivité** sur la PAGE Écriture file d’attente des travaux pour empêcher l’exécution inutile des écritures de la file d’attente des travaux.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Organigramme de la mise en attente des écritures de la file d’attente des travaux pour cause d’inactivité.":::

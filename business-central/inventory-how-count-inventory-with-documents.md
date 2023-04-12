@@ -83,10 +83,10 @@ Lorsque les employés ont comptabilisé les quantités en stock, vous devez pré
 4. Sélectionnez la case à cocher **Enregistrée** sur chaque ligne.
 5. Une fois que vous avez saisi toutes les données pour un enregistrement de stock physique, sélectionnez l’action **Terminer**. Vous observerez que toutes les lignes doivent avoir la case **Enregistrée** sélectionnée.
 
-> [!NOTE]
-> Lorsque vous avez terminé un enregistrement de stock physique, chaque ligne est transférée vers la ligne sur la commande de stock physique associée qui correspond exactement. Pour correspondre, les valeurs des champs **N° article**, **Code variante**, **Code magasin** et **Code emplacement** doivent être identiques sur l’enregistrement et les lignes de commande.<br /><br />
-> Si aucune ligne de commande de stock physique correspondante n’existe, et si la case **Autoriser l’enregistrement sans commande** est cochée, une nouvelle ligne est insérée automatiquement et la case **Enregistré sans commande** sur la ligne de commande de stock physique concernée est sélectionnée. Sinon, un message d’erreur s’affiche et le processus est annulé.<br /><br />
-> Si plusieurs lignes d’enregistrement de stock physique correspondent à une ligne de commande de stock physique, un message s’affiche et le processus est annulé. Si, pour une raison ou une autre, deux lignes de stock physique identiques arrivent sur la commande de stock physique, vous pouvez utiliser une fonction pour résoudre le problème. Pour plus d’informations, reportez-vous à la rubrique [Rechercher des lignes de commande de stock physique](#to-find-duplicate-physical-inventory-order-lines).
+    > [!NOTE]
+    > Lorsque vous avez terminé un enregistrement de stock physique, chaque ligne est transférée vers la ligne sur la commande de stock physique associée qui correspond exactement. Pour correspondre, les valeurs des champs **N° article**, **Code variante**, **Code magasin** et **Code emplacement** doivent être identiques sur l’enregistrement et les lignes de commande.<br /><br />
+    > Si aucune ligne de commande de stock physique correspondante n’existe, et si la case **Autoriser l’enregistrement sans commande** est cochée, une nouvelle ligne est insérée automatiquement et la case **Enregistré sans commande** sur la ligne de commande de stock physique concernée est sélectionnée. Sinon, un message d’erreur s’affiche et le processus est annulé.<br /><br />
+    > Si plusieurs lignes d’enregistrement de stock physique correspondent à une ligne de commande de stock physique, un message s’affiche et le processus est annulé. Si, pour une raison ou une autre, deux lignes de stock physique identiques arrivent sur la commande de stock physique, vous pouvez utiliser une fonction pour résoudre le problème. Pour plus d’informations, reportez-vous à la rubrique [Rechercher des lignes de commande de stock physique](#to-find-duplicate-physical-inventory-order-lines).
 
 ## Pour finaliser une commande de stock physique
 
@@ -102,7 +102,7 @@ Vous pouvez aussi choisir l’action **Diff. commande de stock physique** pour v
 2. Ouvrez la commande de stock physique pour laquelle vous souhaitez afficher les doublons de lignes.
 3. Choisissez l’action **Afficher les doublons de lignes**.
 
-Tout doublon de ligne de commande de stock physique est affiché de telle sorte que vous puissiez les supprimer et ne conserver qu’une ligne avec un ensemble de valeurs unique dans les champs **N° article**, **Code variante**, **Code magasin** et **Code emplacement**.
+Tout doublon de ligne de commande de stock physique s’affiche de telle sorte que vous puissiez les supprimer et ne conserver qu’une ligne avec un ensemble de valeurs unique dans les champs **N° article**, **Code variante**, **Code magasin** et **Code emplacement**.
 
 ### Pour valider une commande de stock physique
 
@@ -121,7 +121,9 @@ Après avoir effectué une commande de stock physique et modifié son statut sur
     La valeur dans le champ **Statut** est passée sur **Terminé**, et la commande peut être modifiée maintenant uniquement en sélectionnant tout d’abord l’action **Rouvrir**.
 4. Pour valider la commande, sélectionnez l’action **Valider**, puis le bouton **OK**.
 
-Les écritures comptables des articles concernés sont mises à jour ainsi que les écritures de suivi des articles concernées.
+    Les écritures comptables des articles sont mises à jour ainsi que les écritures de suivi des articles concernées.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ### Pour afficher les commandes de stock physique validées
 
@@ -141,9 +143,9 @@ La case à cocher **Utiliser le suivi des articles** sur les lignes de commande 
 
 Imaginons un stock physique pour l’article A, enregistré en stock sous la forme de dix différents numéros de série.
 1. Sur la ligne d’enregistrement pour l’article, sélectionnez la case **Utiliser le suivi des articles**.
-2.  Sélectionnez le champ **N° de série**, sélectionnez le premier numéro de série existant dans le stock pour l’article, puis cliquez sur le bouton **OK**.
+2. Sélectionnez le champ **N° de série**, sélectionnez le premier numéro de série existant dans le stock pour l’article, puis cliquez sur le bouton **OK**.
 
-    Commencez par copier la ligne pour le premier article suivi pour insérer des lignes supplémentaires correspondant au nombre de numéros de série enregistrés en stock.
+    Copiez la ligne pour le premier article suivi pour insérer des lignes supplémentaires correspondant au nombre de numéros de série enregistrés en stock.
 
 3. Choisissez l’action **Fonctions**, puis l’action **Copier ligne**.
 4. Sur la page **Copier la ligne enregistrement de stock physique**, saisissez 9 dans le champ **Nombre de copies**, puis sélectionnez le bouton **OK**.
@@ -192,8 +194,8 @@ Sur la page **Commande de stock physique**, le champ **Qté négative (de base)*
 
 Les types de documents suivants sont utiles pour gérer votre entrepôt :
 
-- Utilisez **Réception d’inventaire** pour enregistrer les ajustements positifs des articles en fonction de la qualité, de la quantité et du coût.
-- Utilisez **Expéditions d’inventaire** pour radier les marchandises manquantes ou endommagées.
+* Utilisez **Réception d’inventaire** pour enregistrer les ajustements positifs des articles en fonction de la qualité, de la quantité et du coût.
+* Utilisez **Expéditions d’inventaire** pour radier les marchandises manquantes ou endommagées.
 
 Vous pouvez imprimer ces documents à tout moment, les libérer et les rouvrir, et attribuer des valeurs communes, y compris des dimensions, dans l’en-tête. Si vous souhaitez réimprimer les documents après leur publication, vous pouvez le faire sur les pages **Réception d’inventaire validée** et **Expédition du stock validé**.
 
@@ -206,10 +208,11 @@ La procédure suivante indique comment définir la numérotation des documents s
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres stock**, puis choisissez le lien associé.
 2. Sur le Raccourci **Numérotation**, spécifiez dans les champs suivants la souche de numéros pour les documents :
-   - **N° réception stock**  
-   - **N° réceptions stock validées**  
-   - **N° expédition stock**  
-   - **N° expédition stock validée**  
+
+   * **N° réception stock**  
+   * **N° réceptions stock validées**  
+   * **N° expédition stock**  
+   * **N° expédition stock validée**  
 
 ### Pour créer et publier un document d’inventaire
 
@@ -222,17 +225,19 @@ La procédure suivante montre comment créer, imprimer et valider un reçu d’i
 
 Les fonctions suivantes sont disponibles sur la page **Réception stock** :
 
-- Choisissez les actions **Libérer** ou **Rouvrir** pour définir le statut de la prochaine étape de traitement  
-- Choisissez l’action **Valider** pour enregistrer la réception stock, ou choisissez **Publier et imprimer** pour valider la réception et imprimer le rapport de test  
+* Choisissez les actions **Libérer** ou **Rouvrir** pour définir le statut de la prochaine étape de traitement  
+* Choisissez l’action **Valider** pour enregistrer la réception stock, ou choisissez **Publier et imprimer** pour valider la réception et imprimer le rapport de test  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Impression des documents stock
 
 Vous pouvez spécifier les états à imprimer à différentes étapes en choisissant l’une des options suivantes dans le champ **Utilisation** de la page **Sélection d’états – Stock** :
 
-- Réception stock
-- Expédition stock
-- Réception en stock validée
-- Expédition stock validée
+* Réception stock
+* Expédition stock
+* Réception en stock validée
+* Expédition stock validée
 
 > [!NOTE]
 > Les rapports disponibles peuvent varier en fonction de la localisation de votre pays. L’application de base n’inclut aucune présentation.

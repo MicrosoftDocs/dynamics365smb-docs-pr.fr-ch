@@ -117,8 +117,9 @@ La copie est un moyen rapide de créer une nouvelle présentation identique à u
    |Description| Tapez des informations plus détaillées sur la présentation. |non|
    |Options de format|Définissez ce champ pour qu’il corresponde au type de présentation, comme Word, Excel ou RDLC.|oui|
 
-6. Sélectionnez **OK** > **Choisir** pour ouvrir l’explorateur de fichiers sur votre appareil.
-7. Recherchez et sélectionnez le fichier Excel, puis sélectionnez **Ouvrir**.
+6. Sélectionnez **OK**, puis effectuez une des étapes suivantes pour télécharger le fichier pour le rapport :
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Le fichier sélectionné est chargé dans la présentation et vous revenez à la page **Présentations d’état**.
 

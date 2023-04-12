@@ -44,7 +44,7 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 
 ## Scénario
 
- Le directeur marketing du département Ventes de CRONUS est responsable de la planification et de l’exécution des campagnes. Il prend les décisions relatives à la participation ou non de la société à des salons commerciaux et évalue l’évolution des campagnes.  
+ Le directeur marketing du département Ventes de CRONUS est responsable de la planification et de l’exécution des campagnes. Le responsable marketing prend les décisions relatives à la participation ou non de la société à des salons commerciaux et évalue l’évolution des campagnes.  
 
  Les membres de l’équipe marketing du département Marketing gèrent la production, la distribution, et le placement des supports marketing.  
 

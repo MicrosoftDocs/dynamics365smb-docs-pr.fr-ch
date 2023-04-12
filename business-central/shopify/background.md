@@ -18,11 +18,11 @@ Il est efficace d’exécuter certaines tâches simultanément et de manière au
 
 ## Exécuter des tâches en arrière-plan pour un magasin spécifique
 
-1. Sélectionnez ![l’icône Ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez le nom du **Magasin Shopify**, puis choisissez le nom du magasin dans la liste.
-2. Sélectionnez le magasin pour lequel vous voulez synchroniser les articles pour ouvrir la page **Fiche magasin Shopify**.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasin Shopify**, puis choisissez le lien associé.
+2. Sélectionnez le magasin pour lequel vous voulez exécuter la synchronisation à l’arrière-plan pour ouvrir la page **Fiche magasin Shopify**.
 3. Activez **Autoriser les synchronisations en arrière-plan**.
 
-Désormais, lorsque l’action de synchronisation est déclenchée, au lieu d’exécuter une tâche au premier plan, vous serez invité à attendre. Une fois la synchronisation terminée, vous pouvez passer à l’action suivante. La tâche est créée comme **Écriture file d’attente des travaux** et démarre instantanément de manière non bloquante.
+Désormais, lorsque l’action de synchronisation est déclenchée, au lieu d’exécuter une tâche au premier plan, vous serez invité à attendre. Une fois la synchronisation terminée, vous pouvez passer à l’action suivante. La tâche est créée comme **Écriture file d’attente des travaux** et démarre immédiatement.
 
 ## Pour programmer des tâches récurrentes
 
@@ -41,6 +41,15 @@ Vous pouvez programmer les activités récurrentes suivantes pour qu’elles soi
 
 > [!NOTE]
 > Certains éléments peuvent être mis à jour par plusieurs tâches, par exemple lorsque vous importez des commandes, selon le paramétrage dans la **fiche magasin Shopify**, le système peut également importer et mettre à jour des données client et/ou produit. N’oubliez pas d’utiliser la même catégorie de file d’attente pour éviter les conflits.
+
+Autres tâches pouvant être utiles pour automatiser le traitement ultérieur des documents de vente :
+
+- état 497 TPL validation factures achat
+- état 496 TPL validation commandes achat
+
+Vous pouvez utiliser le champ **N° de commande Shopify** pour identifier les documents commerciaux importés depuis Shopify.
+
+Pour en savoir plus sur la validation de commandes client par lot, accédez à [Pour créer une entrée de file d’attente de tâches pour la validation par lots de commandes client](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
 ## Voir aussi
 

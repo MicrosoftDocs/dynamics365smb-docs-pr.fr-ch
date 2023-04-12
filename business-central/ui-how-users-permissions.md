@@ -5,11 +5,13 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 05/09/2022
+ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
 # Créer des utilisateurs en fonction des licences
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
 Cet article décrit comment les administrateurs créent des utilisateurs et définissent qui peut se connecter à [!INCLUDE[prod_short](includes/prod_short.md)]. Vous allez également apprendre comment attribuer des autorisations à différents utilisateurs en fonction des licences de produit.
 
@@ -90,8 +92,11 @@ Après avoir ajouté des utilisateurs ou modifié les informations utilisateur d
 2. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Utilisateurs**, puis choisissez le lien associé.  
 3. Choisissez **Mettre à jour les utilisateurs depuis Microsoft 365**.
 
+> [!IMPORTANT]  
+> L’exécution de la synchronisation des utilisateurs depuis Microsoft 365 à l’aide du guide **Mettre à jour les utilisateurs depuis Microsoft 365** , nécessite l’ensemble d’autorisations SUPER.
+
 > [!NOTE]
-> L’action **Mettre à jour les utilisateurs de Microsoft 365** ne met pas à jour les utilisateurs auxquels aucune licence n’a été attribuée, comme une personne qui est administrateur général et administrateur Dynamics 365. Ces utilisateurs mettront à jour la prochaine fois qu’ils se connecteront à l’environnement.
+> Le guide **Mettre à jour les utilisateurs de Microsoft 365** ne met pas à jour les utilisateurs auxquels aucune licence n’a été attribuée, comme une personne qui est administrateur général et administrateur Dynamics 365. Ces utilisateurs mettront à jour la prochaine fois qu’ils se connecteront à l’environnement.
 
 L’étape suivante pour les utilisateurs récemment créés, l’étape suivante consiste à attribuer des groupes d’utilisateurs et des autorisations. Pour plus d’informations, accédez à [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md). Si vous mettez à jour un utilisateur et que la mise à jour inclut un changement de licence, les utilisateurs sont affectés au groupe d’utilisateurs approprié et leurs ensembles d’autorisations sont mis à jour. Pour plus d’informations, voir [Pour gérer les autorisations via les groupes d’utilisateurs](ui-define-granular-permissions.md).  
 
@@ -101,7 +106,7 @@ L’étape suivante pour les utilisateurs récemment créés, l’étape suivant
 Pour en savoir plus sur la synchronisation des informations utilisateur avec Microsoft 365, voir la section [Synchronisation avec Microsoft 365](#m365).
 
 > [!NOTE]
-> Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, vous pouvez les inviter dans votre Business Central afin qu’ils puissent travailler avec vous et utiliser vos données fiscales. Pour plus d’informations, voir [Inviter votre comptable externe dans votre Business Central](finance-accounting.md#inviteaccountant).
+> Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, vous pouvez les inviter à votre [!INCLUDE[prod_short](includes/prod_short.md)] afin qu’ils puissent travailler vous et utiliser vos données fiscales. Pour plus d’informations, voir [Inviter votre comptable externe dans votre Business Central](finance-accounting.md#inviteaccountant).
 
 ### Pour supprimer l’accès d’un utilisateur au système
 
@@ -134,9 +139,9 @@ Si vous modifiez les informations utilisateur dans Microsoft 365, vous pouvez me
 
 Les utilisateurs peuvent accéder aux enregistrements de [!INCLUDE[prod_short](includes/prod_short.md)] dans Teams uniquement à l’aide de leur licence Microsoft 365. Quand l’accès est activé pour un environnement, la synchronisation à l’aide de l’action **Mettre à jour les utilisateurs à partir de Microsoft 365** n’inclut pas les utilisateurs qui ne disposent que d’une licence Microsoft 365. Pour inclure ces utilisateurs dans la synchronisation, vous devez d’abord mettre à jour les paramètres d’environnement en attribuant un groupe de sécurité qui contient des utilisateurs avec une licence [!INCLUDE[prod_short](includes/prod_short.md)] et des utilisateurs avec seulement une licence Microsoft 365.
 
-Découvrez comment sécuriser l’accès aux environnements à l’aide de groupes de sécurité sur [Gérer l’accès à l’aide de groupes Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups). 
+Découvrez comment sécuriser l’accès aux environnements à l’aide de groupes de sécurité sur [Gérer l’accès à l’aide de groupes Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
-Obtenez un aperçu de l’accès à Business Central dans Teams avec des licences Microsoft 365 sur [admin-access-with-m365-license](admin-access-with-m365-license.md).
+Obtenez un aperçu de l’accès à [!INCLUDE[prod_short](includes/prod_short.md)] dans Teams avec des licences Microsoft 365 sur [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
 ## Gérer des utilisateurs et des licences dans les déploiements sur site
 

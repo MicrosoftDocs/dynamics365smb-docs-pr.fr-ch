@@ -1,14 +1,12 @@
 ---
 title: Utilisez vos données pour créer une application | Microsoft Docs
 description: Vous pouvez rendre vos données Business Central disponibles sous forme de source de données et spécifier une URL OData de vos services Web pour générer une application métier à l’aide de Power Apps.
-author: edupont04
+author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.service: dynamics365-business-central
 ms.search.keywords: 'OData, Power App, SOAP'
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 04/01/2023
+ms.author: jswymer
 ---
 # Connexion à vos données Business Central pour générer un application professionnelle à l’aide de Power Apps
 
@@ -34,7 +32,7 @@ Vous pouvez rendre vos données [!INCLUDE[prod_short](includes/prod_short.md)] d
 Ces tables sont exposées en tant que points de terminaison par le connecteur [!INCLUDE[prod_short](includes/prod_short.md)] pour Power Apps.  
 
 > [!NOTE]
-> Si vous souhaitez inclure des données d’autres tables de [!INCLUDE[prod_short](includes/prod_short.md)] dans votre application, vous devez faire appel à un développeur pour définir une API personnalisée [!INCLUDE[prod_short](includes/prod_short.md)] et utiliser cette API personnalisée via un connecteur personnalisé dans Power Apps. Pour plus d’informations, voir [Créer un connecteur personnalisé à partir de zéro](/connectors/custom-connectors/define-blank).  
+> Si vous souhaitez inclure des données d’autres tables dans [!INCLUDE[prod_short](includes/prod_short.md)] dans votre application, vous devez travailler avec un développeur pour définir une API personnalisée dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 À ce stade, vous êtes connecté à vos données [!INCLUDE[prod_short](includes/prod_short.md)] et vous êtes prêt à générer votre application PowerApp. Vous pouvez ajouter des écrans supplémentaires et vous connecter à des données supplémentaires à partir de votre [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Créer une application de canevas à partir d’un exemple dans Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 

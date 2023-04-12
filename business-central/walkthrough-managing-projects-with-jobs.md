@@ -69,9 +69,9 @@ Cette procédure pas-à-pas présente les fonctionnalités de gestion de projets
 
 ## Scénario
 
-Cette procédure pas à pas se concentre sur la société CRONUS, une entreprise de conception et de conseil, qui conçoit et équipe de nouvelles infrastructures (telles que des salles de conférence et des bureaux) avec du mobilier, des accessoires et des unités de stockage. La plus grande partie de son travail est orientée vers des projets. Prakash est chef de projet chez CRONUS. Il utilise les projets pour avoir un aperçu de chaque projet en cours entrepris par CRONUS, ainsi que les projets terminés. C’est généralement lui qui conduit les négociations avec les clients et entre les principaux éléments du projet (lignes tâche et planning, ainsi que les prix) dans [!INCLUDE[prod_short](includes/prod_short.md)]. Il trouve que la création, la gestion et la consultation des informations sont simples. Prakash aime également la manière dont [!INCLUDE[prod_short](includes/prod_short.md)] permet de copier des projets et d’effectuer un paiement en plusieurs versements.
+Cette procédure pas à pas se concentre sur la société CRONUS, une entreprise de conception et de conseil, qui conçoit et équipe de nouvelles infrastructures (telles que des salles de conférence et des bureaux) avec du mobilier, des accessoires et des unités de stockage. La plus grande partie de son travail est orientée vers des projets. Prakash, chef de projet chez CRONUS, utilise les projets pour avoir un aperçu de chaque projet en cours entrepris par CRONUS, ainsi que les projets terminés. C’est généralement Prakash qui conduit les négociations avec les clients et entre les principaux éléments du projet (lignes tâche et planning, ainsi que les prix) dans [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash trouve que la création, la gestion et la consultation des informations sont simples. Prakash aime également la manière dont [!INCLUDE[prod_short](includes/prod_short.md)] permet de copier des projets et d’effectuer un paiement en plusieurs versements.
 
- Tricia, membre de l’équipe de projet qui rend compte à Prakash, est responsable de la surveillance quotidienne du projet. Elle entre dans le système son propre travail, ainsi que celui accompli par les techniciens sur chaque tâche. Elle enregistre les articles qu’ils ont utilisés et les coûts exposés.  
+ Tricia, membre de l’équipe de projet qui rend compte à Prakash, est responsable de la surveillance quotidienne du projet. Tricia entre dans le système son propre travail, ainsi que celui accompli par les techniciens sur chaque tâche, notamment les articles qu’ils ont utilisés et les coûts exposés.  
 
 ## Préparation d’exemples de données
 
@@ -98,11 +98,11 @@ Cette procédure pas à pas se concentre sur la société CRONUS, une entreprise
 
 6. Fermez la page.
 
-Dans la procédure suivante, vous créez une feuille projet nominative pour Tricia pour valider son activité.  
+Dans la procédure suivante, vous créez une feuille projet nominative pour Tricia pour valider leur activité.  
 
 ### Pour créer un nom feuille projet  
 
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
+1.  Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Feuilles projet**, puis choisissez le lien associé.  
 2.  Sur la page **Feuille projet**, choisissez le champ **Nom de la feuille**. La page **Noms feuilles projet** s’ouvre.  
 3.  Choisissez l’action **Nouveau** pour créer une ligne avec les informations suivantes :  
 
@@ -182,7 +182,7 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
 - **Facturable** : facturé mais pas ajouté au planning.  
 - **Budget et Facturable** : facturé et ajouté au planning.  
 
- Dans cette procédure pas à pas, le chef de projet utilise le type **Budget et Facturable**. Il crée trois lignes planning pour la tâche 1010 et deux lignes planning pour la tâche 1020.  
+ Dans cette procédure pas à pas, le chef de projet utilise le type **Budget et Facturable**. Ils créent trois lignes planning pour la tâche 1010 et deux lignes planning pour la tâche 1020.  
 
 ### Pour créer des lignes planning  
 
@@ -208,7 +208,7 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
 
 ## Calcul de l’activité restante
 
- Tricia, qui fait partie de l’équipe du projet, travaille depuis quelque temps sur le projet et souhaite enregistrer les heures et l’activité qu’elle y a consacrées. Elle n’a pas consacré plus de temps que ce qui avait été convenu à l’avance avec le client. Elle utilise le traitement par lots **Calc. activité restante** pour calculer l’activité restante pour le projet dans une feuille projet. Pour chaque tâche, le traitement par lots calcule la différence entre l’activité planifiée des articles, des ressources et des dépenses générales et l’activité réelle validée dans les écritures comptables projet. L’activité restante est ensuite affichée dans la feuille projet à partir de laquelle elle peut la valider.  
+ Tricia, qui fait partie de l’équipe du projet, travaille depuis quelque temps sur le projet et souhaite enregistrer les heures et l’activité qu’elle y a consacrées. Tricia n’a pas consacré plus de temps que ce qui avait été convenu à l’avance avec le client. Tricia utilise le traitement par lots **Calc. activité restante** pour calculer l’activité restante pour le projet dans une feuille projet. Pour chaque tâche, le traitement par lots calcule la différence entre l’activité planifiée des articles, des ressources et des dépenses générales et l’activité réelle validée dans les écritures comptables projet. L’activité restante est ensuite affichée dans la feuille projet à partir de laquelle elle peut la valider.  
 
 ### Pour calculer l’activité restante  
 
@@ -226,7 +226,7 @@ Les lignes sont à présent validées.
 
 ## Création et validation d’une facture vente projet
 
- Ensuite, Tricia peut créer une facture pour l’ensemble du projet ou une partie du projet. Elle peut également joindre la facture à une autre destinée au même client pour le même projet. Dans ce cas, elle facture l’ensemble du projet, car celui-ci est à présent terminé.  
+ Ensuite, Tricia peut créer une facture pour l’ensemble du projet ou une partie du projet. Tricia peut également joindre la facture à une autre destinée au même client pour le même projet. Dans ce cas, Tricia facture l’ensemble du projet, car celui-ci est à présent terminé.  
 
 ### Pour créer une facture vente projet  
 
@@ -250,7 +250,7 @@ Les lignes sont à présent validées.
 2.  Sélectionnez l’une des lignes planning qui ont été facturées, puis choisissez l’action **Facture vente/Avoir**.
 3. Sur la page **Factures projet**, choisissez l’action **Ouvrir la facture vente/l’avoir**.  
 
- Tricia se pose une question concernant les prix, les coûts et les marges en relation avec ce projet particulier. Par conséquent, elle peut accéder à ces informations sur la page **Statistiques**.  
+ Tricia se pose une question concernant les prix, les coûts et les marges en relation avec ce projet particulier. Par conséquent, Tricia peut accéder à ces informations sur la page **Statistiques**.  
 
 ### Pour ouvrir la page Statistiques  
 
@@ -260,7 +260,7 @@ Les lignes sont à présent validées.
 
 ## Gestion de prix fixes
 
- L’installation de salles de conférence a été confiée à CRONUS. En tant que chef de projet, Prakash souhaite disposer d’une bonne vue d’ensemble des tâches liées au projet ainsi que des coûts budgétisés et exposés associés à chacune d’elle. Il souhaite, en outre, connaître le prix total convenu pour le projet et les montants déjà facturés à ce stade. Il a conclu un accord avec le client concernant le prix fixe du projet.  
+ L’installation de salles de conférence a été confiée à CRONUS. En tant que chef de projet, Prakash souhaite disposer d’une bonne vue d’ensemble des tâches liées au projet ainsi que des coûts budgétisés et exposés associés à chacune d’elle. Prakash souhaite, en outre, connaître le prix total convenu pour le projet et les montants déjà facturés à ce stade. Ils ont conclu un accord avec le client concernant le prix fixe du projet.  
 
 ### Pour gérer un prix fixe dans des projets  
 
@@ -268,7 +268,7 @@ Les lignes sont à présent validées.
 2. Sélectionnez le numéro de projet **Guildford**, puis choisissez l’action **Lignes tâche projet**.  
 3. Sélectionnez la ligne 1120, puis, dans le champ **Budget (coût total)**, cliquez avec le bouton droit sur le montant et sélectionnez **Détail**.  
 
-     Les lignes planning projet permettent à Prakash de déterminer qu’il aura besoin de Tricia pendant 30 heures à ce stade du projet. Il convient d’un prix fixe avec le client.  
+     Les lignes planning projet permettent à Prakash de déterminer qu’il aura besoin de Tricia pendant 30 heures à ce stade du projet. Prakash convient d’un prix fixe avec le client.  
 
 4. Sur la page **Lignes tâche projet**, sélectionnez la ligne 1120, puis choisissez l’action **Lignes planning projet**. Créez une ligne planning avec les informations suivantes :  
 
@@ -280,7 +280,7 @@ Les lignes sont à présent validées.
 5. Dans le champ **Budget (coût total)**, cliquez avec le bouton droit sur le champ, puis choisissez de nouveau **Détail** sur la page **Lignes tâche projet**. Affichez les modifications apportées au planning. Vous pouvez voir que 30 heures ont été ajoutées au planning.  
 6. Fermez les pages.  
 
-Une fois Tricia ajoutée au planning pour cette ligne tâche, celle-ci va consacrer 25 heures au projet. Elle entre ces heures dans la feuille projet.  
+Une fois Tricia ajoutée au planning pour cette ligne tâche, celle-ci va consacrer 25 heures au projet et saisit ces heures dans la Feuille projet.  
 
 ### Pour entrer des heures dans la Feuille projet  
 
@@ -298,7 +298,7 @@ Une fois Tricia ajoutée au planning pour cette ligne tâche, celle-ci va consac
 
 3. Sélectionnez l’action **Valider**.  
 
-     Quelques jours plus tard, Tricia consacre 10 heures supplémentaires au projet. Elle a désormais presté un total de 35 heures. Comme l’accord porte sur 30 heures de prestation avec le client, seules 5 heures lui seront facturées. Tricia ajoutera manuellement au planning les cinq heures de travail supplémentaires qu’elle a effectuées.  
+     Quelques jours plus tard, Tricia travaille encore 10 heures sur la tâche, et a maintenant travaillé 35 heures en tout. Comme l’accord porte sur 30 heures de prestation avec le client, seules 5 heures lui seront facturées. Tricia ajoutera manuellement au planning les cinq heures de travail supplémentaires qu’elle a effectuées.  
 
 4. Sur la page **Feuille projet**, choisissez l’action **Calc. activité restante**.  
 5. Sur la page **Projet Calc. activité restante**, dans le raccourci **Options**, entrez les informations suivantes :  
@@ -442,7 +442,7 @@ Les procédures suivantes expliquent comment créer un projet, définir un prix 
 
 11. Créez une écriture de ligne planning similaire pour la tâche projet 4000.  
 
- Une fois les lignes tâche et planning entrées, Prakash crée une facture pour le premier paiement. Il le fait à partir des lignes tâche projet pour être certain que la facture ne contienne que les lignes relatives au premier paiement. Vous pouvez ouvrir la commande vente à partir des lignes planning ou des lignes tâche.  
+ Une fois les lignes tâche et planning entrées, Prakash crée une facture pour le premier paiement. Prakash le fait à partir des lignes tâche projet pour être certain que la facture ne contienne que les lignes relatives au premier paiement. Vous pouvez ouvrir la commande vente à partir des lignes planning ou des lignes tâche.  
 
 ### Pour créer une facture  
 

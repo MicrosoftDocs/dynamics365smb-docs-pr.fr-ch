@@ -2,17 +2,17 @@
 title: Définir des autorisations granulaires
 description: Cet article décrit comment définir des autorisations granulaires et affecter à chaque utilisateur les ensembles d’autorisations dont il a besoin pour effectuer son travail.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'access, right, security'
 ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
-ms.date: 11/29/2022
-ms.author: bholtorf
+ms.date: 02/08/2023
 ---
 
 # Attribuer des autorisations aux utilisateurs et aux groupes
+
+[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
 Le système de sécurité [!INCLUDE[prod_short](includes/prod_short.md)] contrôle les objets auxquels un utilisateur peut accéder dans chaque base de données ou environnement, en combinaison avec la licence de l’utilisateur attribuée. Vous pouvez spécifier pour chaque utilisateur s’il peut lire, modifier ou saisir des données dans les objets de base de données. Pour des informations détaillées, voir [Sécurité des données](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) dans le contenu pour développeurs et administrateurs pour [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -26,16 +26,16 @@ Dans [!INCLUDE[prod_short](includes/prod_short.md)], il existe deux niveaux d’
 
 - Autorisations détaillées que vous attribuez dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
-  Cet article décrit comment vous pouvez définir, utiliser et appliquer des autorisations dans [!INCLUDE [prod_short](includes/prod_short.md)] pour changer la configuration par défaut.  
+Cet article décrit comment vous pouvez définir, utiliser et appliquer des autorisations dans [!INCLUDE [prod_short](includes/prod_short.md)] pour changer la configuration par défaut.  
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
 Pour plus d’informations, voir [Accès administrateur délégué à Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-[!INCLUDE [prod_short](includes/prod_short.md)] en ligne inclut des groupes d’utilisateurs par défaut qui sont attribués automatiquement aux utilisateurs en fonction de leur licence. Vous pouvez modifier la configuration par défaut en modifiant ou en ajoutant des groupes d’utilisateurs, des ensembles d’autorisations et des autorisations. Le tableau suivant décrit les principaux scénarios de modification des autorisations par défaut.  
+[!INCLUDE [prod_short](includes/prod_short.md)] en ligne inclut des groupes d’utilisateurs par défaut qui sont attribués automatiquement aux utilisateurs en fonction de leur licence. Vous pouvez modifier la configuration par défaut en modifiant ou en ajoutant des groupes de sécurité, des ensembles d’autorisations et des autorisations. Le tableau suivant décrit les principaux scénarios de modification des autorisations par défaut.  
 
 |À  |Voir  |
 |---------|---------|
-|Pour faciliter la gestion des autorisations pour plusieurs utilisateurs, vous pouvez les organiser en groupes d’utilisateurs, puis affecter ou modifier un ensemble d’autorisations pour plusieurs utilisateurs en une seule action.| [Pour gérer les autorisations via des groupes d’utilisateurs](#to-manage-permissions-through-user-groups) |
+|Pour faciliter la gestion des autorisations pour plusieurs utilisateurs, vous pouvez les organiser en groupes de sécurité, puis affecter ou modifier un ensemble d’autorisations pour plusieurs utilisateurs en une seule action.| [Pour gérer les autorisations via des groupes d’utilisateurs](#to-manage-permissions-through-user-groups) |
 |Pour gérer des ensembles d’autorisations pour des utilisateurs spécifiques | [Pour affecter des ensembles d’autorisations à des utilisateurs](#to-assign-permission-sets-to-users) |
 |Pour savoir comment définir un ensemble d’autorisations|[Pour créer un ensemble d’autorisations](#to-create-a-permission-set)|
 |Pour afficher ou résoudre les autorisations d’un utilisateur|[Pour afficher l’aperçu des autorisations d’un utilisateur](#to-get-an-overview-of-a-users-permissions)|
@@ -76,11 +76,11 @@ La maintenance est également plus facile. Lorsque vous ajoutez une autorisation
   |**Réduire à Indirect**|Modifiez le niveau d’accès sur Indirect si des ensembles d’autorisations donnent un accès Direct à l’objet. Par exemple, choisissez cette option si l’ensemble d’autorisations donne un accès direct aux écritures comptables, mais vous ne voulez pas que les utilisateurs aient un accès complet aux écritures.|
   
   > [!NOTE]
-  > L’ensemble d’autorisations le plus élevé dans la hiérarchie détermine si l’autorisation est incluse ou exclue. Si deux ensembles sont au même niveau dans la hiérarchie et qu’une autorisation est incluse dans un ensemble, mais exclue dans l’autre, l’autorisation sera exclue.
+  > Si une autorisation est à la fois incluse et exclue, l’autorisation sera exclue.
 
 6. Utilisez les champs **Type d’objet** et **ID d’objet** pour spécifier l’objet auquel vous donnez accès.
 
-> [!TIP]
+  > [!TIP]
   > Les nouvelles lignes affichent les valeurs par défaut. Par exemple, le champ **Type d’objet** contient **Données de table**, et le champ **ID d’objet** contient **0**. Les valeurs par défaut ne sont que des espaces réservés et ne sont pas utilisées. Vous devez choisir un type d’objet et un objet dans le champ **ID d’objet** avant de pouvoir créer une autre ligne.
 
 7. Facultatif : si vous définissez des autorisations pour un type d’objet Données de table, dans le champ **Filtre de sécurité** vous pouvez filtrer les données auxquelles un utilisateur peut accéder dans les champs de la table sélectionnée. Par exemple, vous pouvez souhaiter laisser un utilisateur accéder uniquement aux enregistrements qui contiennent des informations relatives à un client particulier. Pour plus d’informations, voir [Les filtres de sécurité limitent l’accès d’un utilisateur à des enregistrements spécifiques dans une table](#security-filters-limit-a-users-access-to-specific-records-in-a-table) et [Utilisation des filtres de sécurité](/dynamics365/business-central/dev-itpro/security/security-filters).
@@ -105,9 +105,16 @@ Sur le volet **Résultat**, utilisez le champ **Statut d’inclusion** pour iden
 
 Pour une vue globale des autorisations dans l’ensemble d’autorisations, choisissez l’option **Afficher toutes les autorisations**. La page **Autorisations étendues** affiche toutes les autorisations déjà attribuées à l’ensemble d’autorisations et les autorisations dans les ensembles d’autorisations ajoutés.
 
-Pour exclure complètement un ensemble d’autorisations que vous avez ajouté, sur le volet **Résultat**, sélectionnez la ligne, choisissez **Afficher plus d’options**, puis choisissez **Exclure**. Lorsque vous excluez un ensemble d’autorisations, une ligne est créée sur le volet **Ensembles d’autorisations** de type Exclu. Si vous avez exclu un ensemble d’autorisations, mais souhaitez l’inclure à nouveau, supprimez la ligne sur le volet **Ensembles d’autorisations**.
+Pour exclure toutes les autorisations que vous avez ajoutées depuis un ensemble d’autorisations, sur le volet **Résultat**, sélectionnez la ligne, choisissez **Afficher plus d’options**, puis choisissez **Exclure**. Lorsque vous excluez un ensemble d’autorisations, une ligne est créée sur le volet **Ensembles d’autorisations** de type Exclu. Si vous avez exclu un ensemble d’autorisations, mais souhaitez l’inclure à nouveau, supprimez la ligne sur le volet **Ensembles d’autorisations**.
 
-Pour exclure totalement ou partiellement une autorisation spécifique dans un ensemble que vous avez ajouté, sous **Autorisations**, créez une ligne pour l’objet. Les champs de niveau d’accès, Permission d’insertion, Permission de modification, etc. contiendront tous Exclure. Pour autoriser un certain niveau d’accès, choisissez l’option appropriée.
+Pour exclure totalement ou partiellement une autorisation spécifique dans un ensemble que vous avez ajouté, sous **Autorisations**, créez une ligne pour l’objet. Les champs de niveau d’accès, Permission d’insertion, Permission de modification, etc. contiendront tous **Exclure**. Pour autoriser un certain niveau d’accès, choisissez l’option appropriée.
+
+> [!NOTE]
+> L’exclusion d’un ensemble d’autorisations exclut toutes les autorisations de l’ensemble. [!INCLUDE [prod_short](includes/prod_short.md)] calcule les autorisations comme suit :
+
+> 1. Calculer la liste complète des autorisations incluses
+> 2. Calculer la liste complète des autorisations exclues
+> 3. Supprimer les autorisations exclues de la liste des autorisations incluses (la suppression d’une autorisation indirecte est identique à Réduire à indirecte)
 
 ## Pour copier un ensemble d’autorisations
 
@@ -135,7 +142,7 @@ Créez un nouvel ensemble d’autorisations en en copiant un autre. Le nouvel en
 2. Sur la page **Ensembles d’autorisations**, cliquez sur l’option **Nouveau**.
 3. Sur une nouvelle ligne, renseignez les champs selon vos besoins.
 4. Sélectionnez l’option **Autorisations**.
-1. Sur la page **Autorisations**, choisissez l’action **Enregistrer autorisations**, puis sélectionnez l’action **Démarrer**.  
+5. Sur la page **Autorisations**, choisissez l’action **Enregistrer autorisations**, puis sélectionnez l’action **Démarrer**.  
     L’enregistrement doit être effectué soit en utilisant la fonction **Ouvrir cette page dans une nouvelle fenêtre** (contextuelle) pour avoir la fenêtre d’enregistrement **Autorisations** côte à côte, ou en travaillant dans le même onglet.  
     Un processus d’enregistrement démarre et capture désormais toutes vos actions dans l’interface utilisateur.
 6. Accédez aux différentes pages et activités dans [!INCLUDE[prod_short](includes/prod_short.md)] auxquelles vous voulez que les utilisateurs avec cet ensemble d’autorisations puissent accéder. Vous devez exécuter les tâches pour lesquelles vous souhaitez enregistrer des autorisations.
@@ -166,9 +173,9 @@ Les ensembles d’autorisations sont importés.
 
 ## Pour supprimer des autorisations obsolètes de tous les ensembles d’autorisations
 
-1. Dans la page **Ensemble d’autorisations**, choisissez l’option **Supprimer les autorisations obsolètes**.
+Dans la page **Ensemble d’autorisations**, choisissez l’option **Supprimer les autorisations obsolètes**.
 
-## Pour configurer des contraintes de temps utilisateur
+## Pour configurer des contraintes de temps pour les utilisateurs
 
 Les administrateurs peuvent définir des périodes pendant lesquelles certains utilisateurs peuvent publier. Les administrateurs peuvent également spécifier si le système enregistre la durée de connexion des utilisateurs. De même, les administrateurs peuvent affecter des centres de gestion aux utilisateurs. Pour plus d’informations, voir [Utiliser les centres de gestion](inventory-responsibility-centers.md).
 

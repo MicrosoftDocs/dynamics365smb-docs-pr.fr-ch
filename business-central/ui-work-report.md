@@ -3,9 +3,6 @@ title: Exécuter et imprimer des états
 description: En savoir plus sur l’entrée d’un état dans une file d’attente de projets et la planification de son traitement à une date et à une heure spécifiques.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.search.form: null
 ms.date: 09/09/2022
@@ -136,6 +133,12 @@ Une présentation d’état contrôle les éléments affichés sur un état, leu
 - Pour modifier la mise en page par défaut utilisée par un état, accédez aux pages **Présentations état** ou **Sélection présentation état**.
 
 En savoir plus sur [(Hérité) Définir la présentation utilisée par un état](ui-set-report-layout.md). Ou, si vous voulez personnaliser votre propre présentation d’état, voir [Bien démarrer avec la création de présentations](ui-get-started-layouts.md).
+
+## Modifier la langue et le format des nombres, des dates et des heures
+
+Par défaut, la langue du texte et le format des nombres, des dates et des heures dans un rapport sont basés sur vos paramètres de langue de travail et de région, qui sont définis sur la page **Mes paramètres**. Vous pouvez toutefois modifier la langue et la région de format au cas par cas lorsque vous prévisualisez, imprimez ou envoyez un rapport. Sur la page de demande, sélectionnez **Avancé**, puis définissez les options **Langue** et **Région de format** comme vous le souhaitez.
+
+Pour plus d’informations sur la page **Mes paramètres**, accédez à [Modifier les paramètres de base](ui-change-basic-settings.md#region).
 
 ## Options avancées
 

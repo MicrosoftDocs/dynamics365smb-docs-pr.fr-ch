@@ -47,11 +47,11 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 ## Scénario  
  Le client, Cannon Group PLC, commande cinq vélos cyclotourisme pour une expédition le 05/02/2021 (5 février).  
 
- Eduardo, Gestionnaire de production, procède à la planification de l’approvisionnement courante pour la première semaine de février 2021. Il filtre sur son propre magasin, EAST, et entre un intervalle de planification de la date de travail du 23/01/2021 au 07/02/2021 avant qu’il ne calcule un programme d’approvisionnement initial.  
+ Eduardo, Gestionnaire de production, procède à la planification de l’approvisionnement courante pour la première semaine de février 2021. Eduardo filtre sur son propre magasin, EAST, et entre un intervalle de planification de la date de travail du 23/01/2021 au 07/02/2021 avant qu’il ne calcule un programme d’approvisionnement initial.  
 
  La seule demande cette semaine concerne la commande vente de Cannon Group. Eduardo constate qu’aucune ligne planning ne comporte d’avertissement et il crée des commandes approvisionnement sans modifications pour les lignes planning proposées.  
 
- Le lendemain, avant que les commandes approvisionnement initiales ne soient démarrées ou comptabilisées, Eduardo est averti qu’un autre client a commandé dix vélos cyclotourisme pour une expédition le 12/02/2021. Il adapte son calcul du programme d’approvisionnement en fonction de la modification de la demande. Ce nouveau calcul aboutit à une planification par écart proposant des changements de temps et de quantités de certaines commandes approvisionnement créées dans un premier temps.  
+ Le lendemain, avant que les commandes approvisionnement initiales ne soient démarrées ou comptabilisées, Eduardo est averti qu’un autre client a commandé dix vélos cyclotourisme pour une expédition le 12/02/2021. Eduardo adapte son calcul du programme d’approvisionnement en fonction de la modification de la demande. Ce nouveau calcul aboutit à une planification par écart proposant des changements de temps et de quantités de certaines commandes approvisionnement créées dans un premier temps.  
 
  Au cours des diverses étapes de la planification, Eduardo recherche les commandes concernées et utilise la fonction Chaînage pour voir quelle demande est couverte par quel approvisionnement.  
 
@@ -80,7 +80,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
  Vous venez de préparer les données d’exemple de la procédure pas à pas.  
 
 ## Création d’un programme d’approvisionnement régénératif  
- En réaction à une commande vente pour cinq vélos, Ricardo démarre le processus de planification en définissant les options, filtres et intervalles de planification afin d’exclure toutes les autres demandes sauf celle de la première semaine de février du magasin EAST. Il commence par calculer un programme directeur de production (PDP), puis un programme d’approvisionnement complet pour toute demande de niveau inférieur (MRP).  
+ En réaction à une commande vente pour cinq vélos, Ricardo démarre le processus de planification en définissant les options, filtres et intervalles de planification afin d’exclure toutes les autres demandes sauf celle de la première semaine de février du magasin EAST. Ricardo commence par calculer un programme directeur de production (PDP), puis un programme d’approvisionnement complet pour toute demande de niveau inférieur (MRP).  
 
 ### Pour créer la commande vente  
 
@@ -198,7 +198,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
  Le calcul initial, l’analyse et la création d’un programme d’approvisionnement pour la demande au magasin EAST la première semaine de février sont terminés. Dans la section suivante, un autre client commande dix vélos cyclotourisme, et Eduardo doit procéder à une nouvelle planification.  
 
 ## Création d’un planning par écart  
- Le lendemain, avant même qu’une commande approvisionnement ne soit démarrée ou comptabilisée, une nouvelle commande vente arrive de Libros S.A. pour dix vélos cyclotourisme à livrer le 12/02/2021. Eduardo est averti de cette nouvelle demande et il procède à une nouvelle planification afin d’adapter le programme d’approvisionnement actif. Eduardo ne calcule, à l’aide de la fonction Planning par écart, que les modifications apportées à la demande ou à l’approvisionnement depuis la dernière exécution de la planification. En outre, il prolonge la période de planification au 14/02/2021 afin d’inclure la nouvelle demande de vente du 12/02/2014.  
+ Le lendemain, avant même qu’une commande approvisionnement ne soit démarrée ou comptabilisée, une nouvelle commande vente arrive de Libros S.A. pour dix vélos cyclotourisme à livrer le 12/02/2021. Eduardo est averti de cette nouvelle demande et il procède à une nouvelle planification afin d’adapter le programme d’approvisionnement actif. Eduardo ne calcule, à l’aide de la fonction Planning par écart, que les modifications apportées à la demande ou à l’approvisionnement depuis la dernière exécution de la planification. En outre, Eduardo prolonge la période de planification au 14/02/2021 afin d’inclure la nouvelle demande de vente du 12/02/2014.  
 
  Le système de planification calcule le meilleur moyen de couvrir la demande de ces deux produits identiques, par exemple consolider certaines commandes achat et certains ordres de fabrication, replanifier d’autres commandes et en créer de nouvelles, s’il y a lieu.  
 

@@ -13,19 +13,20 @@ ms.author: bholtorf
 ---
 # Personnaliser votre espace de travail
 
-Vous pouvez personnaliser votre espace de travail en fonction de vos habitudes et préférences. Modifiez les pages afin qu’elles n’affichent que les informations dont vous avez besoin, où vous en avez besoin. Les modifications de personnalisation n’affectent que ce que *vous* voyez, pas ce que voient les autres utilisateurs.
+Vous pouvez personnaliser votre espace de travail en fonction de vos habitudes et préférences. Modifiez les pages afin qu’elles n’affichent que les informations dont vous avez besoin, où vous en avez besoin. La personnalisation n’affecte que votre espace de travail. Cela ne change pas la façon dont les autres fonctionnent.
 
-Vous pouvez personnaliser tous les types de pages, y compris la page Tableau de bord. Pour plus d’informations sur le Tableau de bord, voir [Tableau de bord](ui-change-basic-settings.md#role-center).  
+Vous pouvez personnaliser tous les types de pages, y compris la page Tableau de bord. Pour en savoir plus sur les tableaux de bord, accédez à [Tableau de bord](ui-change-basic-settings.md#role-center).  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Vous pouvez apporter différentes modifications, comme déplacer ou masquer des champs, des colonnes et des actions, déplacer et masquer des pièces entières, et ajouter de nouveaux champs. La plupart des personnalisations doivent être effectuées en activant d’abord la bannière **Personnalisation**. Des ajustements simples, comme la largeur de colonne, peuvent être effectués immédiatement sur n’importe quelle liste.
 
 > [!NOTE]
-> Les administrateurs peuvent effectuer les mêmes modifications de présentation que les utilisateurs en personnalisant l’espace de travail pour un profil attribué à plusieurs utilisateurs. Pour plus d’informations, voir [Personnaliser des pages pour les rôles](ui-personalization-manage.md).<br /><br />
+> Les administrateurs peuvent effectuer les mêmes modifications de présentation que les utilisateurs en personnalisant l’espace de travail pour un profil attribué à plusieurs utilisateurs. Pour en savoir plus sur les pages pour les rôles, accédez à [Personnaliser les pages pour les rôles](ui-personalization-manage.md)<br /><br />
 Les administrateurs peuvent aussi remplacer ou désactiver des personnalisations des utilisateurs et définir les fonctionnalités accessibles dans toutes les sociétés ou des sociétés spécifiques. Pour plus d’informations, voir [Personnalisation de Business Central](ui-customizing-overview.md).
 
-## Présentation de la vidéo
+## Vidéo
+
 La vidéo suivante montre quelques-unes des façons dont vous pouvez personnaliser votre tableau de bord.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
@@ -77,7 +78,7 @@ En ce qui concerne les autres personnalisations, les modifications apportées à
 
 La personnalisation vous permet de choisir les actions à afficher sur les barres de navigation et d’actions et sur les tableaux de bord et où les afficher. Vous pouvez afficher, masquer ou déplacer les actions individuelles ou groupes d’action.
 
-Dans la 2e vague de lancement 2022, nous vous avons proposé d’autres moyens d’adopter Business Central. La vidéo suivante montre comment vous pouvez personnaliser les actions sur les pages et les tableaux de bord.
+La vidéo suivante montre comment vous pouvez personnaliser les actions sur les pages et les tableaux de bord.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
 
@@ -126,6 +127,7 @@ Les parties sont des zones d’une page généralement composées de plusieurs c
 Vous pouvez effacer toutes les modifications de personnalisation que vous avez apportées dans une seule pièce en sélectionnant l’option **Effacer la personnalisation** sous la pointe de flèche de la pièce. L’effacement de la personnalisation d’une pièce n’affecte que les modifications apportées au contenu de la pièce, et non le placement ou la visibilité de la pièce sur la page.  
 
 ## Pour annuler la personnalisation
+
 Vous pouvez souhaiter annuler toutes les modifications de personnalisation apportées à une page au fil du temps.
 
 1. Sur la bannière **Personnalisation**, choisissez l’action **Effacer la personnalisation**.
@@ -138,7 +140,7 @@ Vous pouvez souhaiter annuler toutes les modifications de personnalisation appor
 |------|------------
 |**Menu de navigation uniquement**|Efface toutes les modifications de personnalisation que vous avez apportées au menu de navigation partagé entre le tableau de bord et d’autres pages. Ces modifications incluent toutes les nouvelles actions ajoutées en tant que signets et toutes les modifications apportées aux liens et aux groupes dans le menu.|  
 |**Actions seules**|Efface toutes les modifications de personnalisation apportées à la barre de navigation ou d’actions sur la page.|
-|**Uniquement les champs, les colonnes et les pièces**|Efface toutes les modifications de personnalisation apportées à la page, hormis les modifications de la barre de navigation ou d’actions. Ces modifications incluent les modifications apportées aux champs, colonnes, parties et mosaïques. |
+|**Uniquement les champs et les colonnes**|Efface toutes les modifications de personnalisation apportées à la page, hormis les modifications de la barre de navigation ou d’actions. Ces modifications incluent les modifications apportées aux champs, colonnes, parties et mosaïques. |
 |**Tous**|Efface toutes les modifications de personnalisation apportées à cette page afin qu’elle retrouve son aspect d’origine. Ces modifications incluent les modifications apportées aux barres de navigation et d’actions, aux champs, colonnes, parties et mosaïques.|
 
 ## Autres points d’intérêts

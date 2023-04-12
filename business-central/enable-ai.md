@@ -39,7 +39,7 @@ Vous utilisez une [version préliminaire](ai-preview-getstarted.md) de Business 
 
 ## Étapes suivantes
 
-Une fois que vous disposez d’un bac à sable ou d’un environnement d’essai, vous êtes prêt à essayer Copilot sur des éléments dans Business Central. Accédez à [Ajouter du texte marketing aux articles](item-marketing-text.md).  
+Après avoir activé et accepté la fonctionnalité, vous êtes prêt à essayer Copilot sur des éléments dans Business Central. Accédez à [Ajouter du texte marketing aux articles](item-marketing-text.md).  
 
 ## Voir aussi
 

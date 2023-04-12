@@ -39,7 +39,7 @@ Cette procédure pas à pas présente les tâches effectuées par le rôle utili
 
 ## Scénario
 
-Ken est un contrôleur chez CRONUS, chargé d’élaborer des prévisions mensuelles de trésorerie. Il inclut les finances, les ventes, les achats et les immobilisations dans les prévisions, puis les présente à CFO Sara dans un souci de visibilité commerciale.  
+Ken est un contrôleur chez CRONUS, chargé d’élaborer des prévisions mensuelles de trésorerie. Ken inclut les finances, les ventes, les achats et les immobilisations dans les prévisions, et les présente à CFO Sara dans un souci de visibilité commerciale.  
 
 ## Configuration d’un nouveau nom de l’état financier
 
@@ -95,12 +95,12 @@ Une fois le nom de l’état financier défini, Ken définit chaque ligne de l�
 
 ## Configuration d’une nouvelle définition de colonne
 
-Avant de pouvoir imprimer les prévisions de trésorerie, Ken doit créer la définition de colonne pour les informations numériques. Dans les colonnes, il définit les informations qu’il souhaite utiliser dans les lignes.
+Avant de pouvoir imprimer les prévisions de trésorerie, Ken doit créer la définition de colonne pour les informations numériques. Dans les colonnes, Ken définit les informations qu’il souhaite utiliser dans les lignes.
 
 - La première colonne porte le numéro *C10* avec l’intitulé **Montant** et indique le solde de la période.  
 - La deuxième colonne porte le numéro *C20* avec l’intitulé **Solde au** et indique les transactions de la période.  
 - La troisième colonne porte le numéro *C30* avec l’intitulé **Exercice comptable** et indique le solde de la période dans les soldes pour l’exercice comptable.  
-- Pour finir, il définit la définition de colonne par défaut pour l’état financier **Prévision**.  
+- Pour finir, Ken définit la définition de colonne par défaut pour l’état financier **Prévision**.  
 
 ### Configurer une nouvelle définition de colonne
 

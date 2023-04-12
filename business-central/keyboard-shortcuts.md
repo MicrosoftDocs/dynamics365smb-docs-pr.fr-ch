@@ -1,14 +1,14 @@
 ---
-title: Raccourcis clavier
+title: "raccourcis clavier\_;"
 description: Liste complète des combinaisons de raccourcis clavier pour utiliser vos données avec efficacité.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 08/16/2022
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Raccourcis clavier
@@ -39,6 +39,7 @@ Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder aux 
 
 |Sélectionnez ces touches<br />(dans macOS)|Pour|
 |--------------------------------|----------|
+|<kbd>Alt</kbd>|Affichez les touches d’accès pour sélectionner des actions dans la barre d’action et le menu de navigation sur la page. Pour plus d’informations, consultez [Touches d’accès](#access-keys-for-action-bar-and-navigation-menu).|
 |<kbd>Alt</kbd>+<kbd>Flèche vers le haut</kbd>|Ouvrir une liste déroulante ou rechercher la valeur d’un champ.|
 |<kbd>Alt</kbd>+<kbd>Flèche vers le haut</kbd>|Afficher l’info-bulle pour un champ ou un en-tête de colonne d’une table. Si le champ a des erreurs de validation, sélectionnez <kbd>Alt</kbd>+<kbd>Flèche vers le haut</kbd> pour afficher l’erreur de validation. Sélectionnez <kbd>Échap</kbd> ou <kbd>Alt</kbd>+<kbd>Flèche vers le haut</kbd> pour fermer l’info-bulle.|
 |<kbd>F2</kbd>|Basculez entre la sélection de la valeur entière du champ ou le placement du curseur à la fin de la valeur du champ.|
@@ -51,7 +52,7 @@ Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder aux 
 |<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>N</kbd> |Fermer une page nouvellement créée et en ouvrir une nouvelle pour créer un enregistrement. De même, <kbd>Alt</kbd>+<kbd>F9</kbd> valide un document et en crée un nouveau.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Ouvrez la page **Mes paramètres**.|
 |<kbd>Alt</kbd>+<kbd>Flèche droite</kbd>|Rechercher des informations supplémentaires ou des valeurs sous-jacentes pour un champ contenant le bouton ![AssistEdit](media/assist-edit-icon.png "Bouton AssistEdit"). . Utilisé lorsque le bouton déroulant habituel (<kbd>Alt</kbd>+<kbd>Flèche vers le haut</kbd>) dans le même champ est utilisé à une autre fin.|
-|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>C</kbd>|Afficher des informations dans le badge société. Ce raccourci a été supprimé dans la 2è vague de lancement 2022 de Business Central (version 21) et remplacé par <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>C</kbd>|Afficher des informations dans le badge société. Démarrer dans la 2è vague de lancement 2022 de Business Central (version 21, ce raccourci n’est plus pris en charge et remplacé par <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Ouvrez, puis fermez le volet d’inspection des pages. Ce dernier affiche les informations relatives à la page, comme sa table source, ses champs, ses filtres, ses extensions, etc.<br /><br />Pour plus d’informations, reportez-vous à la rubrique [Inspection des pages](across-inspect-page.md).|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd> |Copiez la valeur du champ. Si le champ a le focus, et si vous n’avez pas sélectionné un texte dans le champ, l’intégralité de la valeur est copiée. Si vous avez sélectionné un texte dans le champ, seul le texte sélectionné est copié.|
 |<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Ouvrez le [volet d’aide](product-help-and-support.md#help-pane) ou un article d’aide de Business Central sur [Microsoft Learn](/dynamics365/business-central/), selon votre version de Business Central.|
@@ -245,6 +246,19 @@ Le tableau suivant décrit les raccourcis d’un pavé numérique.
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>Séparateur décimal</kbd>|Basculez la sortie de la touche de séparateur décimal vers un point (.) ou le caractère déterminé par le paramètre **Région** de la page **Mes paramètres**. Pour plus d’informations, voir [Définition du séparateur décimal utilisé par les claviers numériques](ui-enter-data.md#decimal).|
 
+
+## Touches d’accès à la barre d’action et au menu de navigation
+
+Les touches d’accès sont des raccourcis clavier qui sélectionnent des actions spécifiques dans la barre d’action et le menu de navigation, vous permettant de parcourir les actions pour accéder à la page souhaitée. Les touches d’accès sont disponibles dans le client Web Business Central et sont similaires aux touches d’accès dans Excel et Word Online.  
+
+Pour utiliser les touches d’accès sur une page, sélectionnez d’abord la touche <kbd>Alt</kbd> pour afficher *les conseils sur les touches*, qui sont des lettres en petite casse à côté des actions dans la barre d’action et le menu de navigation. 
+
+![Image qui montre les touches d’accès sur la page de la liste des clients.](media/access-keys.png) 
+
+Pour sélectionner une action, sélectionnez la combinaison de touches affichée dans l’info-bulle, par exemple <kbd>H</kbd> ou <kbd>J</kbd>+<kbd>F</kbd>.
+- Si l’action s’ouvre sur un sous-menu d’autres actions, les astuces des touches du sous-menu s’affichent, vous permettant de continuer à utiliser les touches d’accès si vous le souhaitez.
+- Si l’action ouvre une page différente, les conseils clés sont désactivés. Pour les afficher à nouveau, sélectionnez la touche <kbd>Alt</kbd>. 
+ 
 ## Voir aussi
 
 [Référence rapide de raccourcis clavier – PC uniquement](keyboard-shortcuts-cheatsheet.md)  

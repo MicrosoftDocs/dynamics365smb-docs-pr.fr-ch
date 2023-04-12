@@ -340,6 +340,10 @@ La suppression d’un message contenant une fiche ne supprime ni n’affecte auc
 
 Non. Les valeurs de champ sur une carte dans Teams, y compris les images, sont basées sur les données disponibles lorsque cette fiche a été envoyée à la discussion instantanée. Les fiches [!INCLUDE [prod_short.md](includes/prod_short.md)] ne s’actualisent pas automatiquement dans Teams. 
 
+### Pourquoi les fiches n’affichent-elles pas plus d’informations au lieu d’afficher uniquement le nom de la page et le bouton Détails ?
+
+Un administrateur peut avoir configuré l’intégration Teams afin que les fiches n’affichent pas de données sur les enregistrements. Pour plus d’informations, voir [Afficher ou masquer les données d’enregistrement sur les fiches](admin-teams-integration.md#show-or-hide-record-data-on-cards).
+
 ### Les autres verront-ils ma fiche s’ils n’ont pas l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams ? 
 
 Lorsque vous rédigez et envoyez un message à la discussion instantanée qui inclut une fiche, tous les utilisateurs verront la fiche,&mdash;même s’ils n’ont pas installé l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams.
