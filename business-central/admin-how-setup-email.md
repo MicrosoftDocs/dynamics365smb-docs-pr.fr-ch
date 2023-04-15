@@ -60,6 +60,8 @@ Si vous souhaitez utiliser le protocole SMTP pour envoyer des e-mails à partir 
 >
 > Exchange Online ne prend pas en charge l’authentification de base pour SMTP. Les clients qui utilisent actuellement l’authentification SMTP ne seront pas affectés par ce changement. Cependant, nous vous recommandons fortement d’utiliser la version la plus récente de [!INCLUDE [prod_short](includes/prod_short.md)] et de configurer l’authentification OAuth 2.0 pour SMTP. Nous n’ajouterons pas l’authentification basée sur les certificats pour les versions antérieures de [!INCLUDE [prod_short](includes/prod_short.md)], par exemple, version 14. Si vous ne pouvez pas configurer l’authentification OAuth 2.0, nous vous encourageons à explorer d’autres moyens si vous souhaitez utiliser la messagerie SMTP dans des versions antérieures.
 
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
+
 ## Ajouter des comptes de messagerie
 
 Le guide de configuration assistée **Configurer la messagerie** peut vous aider à démarrer rapidement avec les e-mails.
