@@ -1,26 +1,20 @@
 ---
-title: Exporter des paiements en mode LSV [CH]
+title: 'Exporter des paiements en mode LSV [CH]'
 description: Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) contenant des informations sur les paiements après la fermeture du prélèvement LSV.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
+ms.search.keywords: null
+ms.search.form: '3010830, 3010831, 3010832,3010834, 3010835'
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 6b028dfb4a33c3bfa54dc12411e41952eaf3afbd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136622"
 ---
-# <a name="export-payments-using-lsv-in-the-swiss-version"></a>Exporter des paiements en mode LSV dans la version suisse
+# Exporter des paiements en mode LSV dans la version suisse
 Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) contenant des informations sur les paiements après la fermeture du prélèvement LSV. Vous pouvez envoyer les fichiers générés à la banque sur un disque, ou utiliser un transfert de fichiers électronique tel que votre logiciel de banque en ligne ou un portail Internet.  
 
-## <a name="to-export-payments-using-lsv"></a>Pour exporter des paiements en mode LSV  
+## Pour exporter des paiements en mode LSV  
 
 1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Liste feuilles LSV**, puis sélectionnez le lien associé.  
 2.  Dans la page **Liste feuilles LSV**, sélectionnez la feuille LSV nécessaire.  
@@ -34,7 +28,7 @@ Vous pouvez exporter ou écrire des fichiers Lastschrift Verfahren (LSV +) conte
 
 5.  Toutes les lignes sont été transférées à la feuille LSV. Le fichier LSV est généré dans le dossier prédéterminé.  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Paiements électroniques à l'aide de LSV+, Suisse](swiss-electronic-payments-using-lsv-.md)   
  [Traiter un prélèvement LSV](how-to-process-an-lsv-collection.md)   
  [Fermer un prélèvement LSV](how-to-close-an-lsv-collection.md)   

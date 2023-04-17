@@ -3,19 +3,14 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d8fd310dc1e843c859c99e6ce6e8e63cb484bd7f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135542"
 ---
+
 Dans [!INCLUDE[prod_short](../../../includes/prod_short.md)], vous pouvez créer des relances livraison lorsqu'un achat n'a pas été livré comme prévu. Vous pouvez créer une relance livraison unique manuellement, ou vous pouvez générer des relances livraison pour toutes les livraisons échues.  
 
 > [!NOTE]
 > Pour créer des relances livraison, vous devez avoir configuré les conditions, les niveaux et les textes des relances livraison.
 
-## <a name="to-create-a-delivery-reminder-manually"></a>Pour créer une relance livraison manuellement  
+## Pour créer une relance livraison manuellement  
 
 1. Choisissez l'![icône Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Relance livraison**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  

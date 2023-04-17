@@ -1,26 +1,20 @@
 ---
-title: 'Procédure : Générer des relances livraison [CH]'
-description: Dans Business Central, vous pouvez générer des relances livraison pour toutes les livraisons échues, ou vous pouvez créer une relance livraison unique manuellement.
+title: "Procédure\_: Générer des relances livraison [CH]"
+description: 'Dans Business Central, vous pouvez générer des relances livraison pour toutes les livraisons échues, ou vous pouvez créer une relance livraison unique manuellement.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 467cfae623a5282657fb924b984e780fe9cd68cb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145995"
 ---
-# <a name="generate-delivery-reminders-in-the-swiss-version"></a>Générer des relances livraison dans la version suisse
+# Générer des relances livraison dans la version suisse
 
 [!INCLUDE [delivery-reminders-generate](../includes/ATCHDE/delivery-reminders-generate.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)  
 [Configurer des relances livraison](how-to-set-up-delivery-reminders.md)  

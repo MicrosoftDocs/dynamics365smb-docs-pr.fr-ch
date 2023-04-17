@@ -1,35 +1,29 @@
 ---
-title: Créer et imprimer une déclaration de TVA, Suisse [CH]
+title: 'Créer et imprimer une déclaration de TVA, Suisse [CH]'
 description: Cette rubrique explique la procédure de création d'une déclaration de TVA suisse basée sur les informations spécifiées sur la page Paramètres comptabilisation TVA.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 11023, 11024
+ms.search.keywords: null
+ms.search.form: '11023, 11024'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d9a7323ebc505f90d6f76c105211b3c6bab51de0
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617902"
 ---
-# <a name="create-and-print-a-swiss-vat-statement-in-the-swiss-version"></a>Créer et imprimer une déclaration de TVA, Suisse dans la version suisse
+# Créer et imprimer une déclaration de TVA, Suisse dans la version suisse
 Selon les informations spécifiées dans la page **Paramètres compta. TVA**, [!INCLUDE[prod_short](../../includes/prod_short.md)] peut créer automatiquement une nouvelle configuration de relevé de TVA pour le report TVA réalisé. Avant de continuer avec les procédures de cette rubrique, assurez-vous que vous avez configuré les paramètres comptabilisation TVA ayant des valeurs spécifiées pour les champs de chiffre d'affaires ventes et achats.  
 
-## <a name="to-set-up-a-swiss-vat-statement-template"></a>Pour configurer un modèle de déclaration de TVA suisse  
+## Pour configurer un modèle de déclaration de TVA suisse  
 
 1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Mettre à jour modèle déclaration TVA**, puis sélectionnez le lien associé.  
 2.  Sélectionnez un modèle dans le champ **Nom modèle déclaration de TVA**.
 3.  Cliquez sur le bouton **OK**. Cliquez sur **Oui** pour confirmer que vous souhaitez créer un modèle.  
 4.  Vérifiez la déclaration TVA qui en résulte et ajustez-la autant que nécessaire.  
 
-     La page de déclaration TVA indique le champ **Chiffre de déclaration TVA**, qui indique dans quel zone de la déclaration le résultat sera imprimé. Ce champ est automatiquement renseigné par le traitement par lots selon les informations de la page **Paramètres compta. TVA**. Le champ peut être modifié, si nécessaire.  
+     La page de déclaration TVA indique le champ **Chiffre de déclaration TVA**, qui indique dans quelle zone de la déclaration le résultat sera imprimé. Ce champ est automatiquement renseigné par le traitement par lots selon les informations de la page **Paramètres compta. TVA**. Le champ peut être modifié, si nécessaire.  
 
-## <a name="to-print-the-swiss-vat-statement"></a>Pour imprimer la déclaration TVA suisse  
+## Pour imprimer la déclaration TVA suisse  
 
 1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Déclaration de TVA suisse**, puis sélectionnez le lien associé.  
 2.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
@@ -50,7 +44,7 @@ Selon les informations spécifiées dans la page **Paramètres compta. TVA**, [!
     |**% Hôtel (Autre taux)**|Saisissez un taux TVA secondaire pour l'hébergement s'appliquant à certaines transactions au cours de la période.|  
     |**Afficher montants en devise report**|Choisissez d'afficher les montants dans une devise de report supplémentaire.|  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Taxe sur la valeur ajoutée, Suisse](swiss-value-added-tax.md)
 
 

@@ -3,18 +3,12 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 67161f4a1cfc016ea4161778b455e9a8340cde27
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132243"
 ---
 Après avoir créé des relances livraison, vous devez les émettre et les imprimer afin de pouvoir les envoyer aux fournisseurs. Avant d'émettre les relances livraison, vous pouvez imprimer un rapport de test.  
 
 Lorsque vous émettez les relances livraison, des écritures comptables de relance livraison sont créées. Vous pouvez afficher les écritures comptables créées dans la page **Écritures comptables relance livraison**.  
 
-## <a name="to-issue-delivery-reminders"></a>Pour émettre des relances livraison  
+## Pour émettre des relances livraison  
 
 1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Relance livraison**, puis sélectionnez le lien associé.  
 2. Dans la page **Relance livraison**, sélectionnez la relance livraison que vous souhaitez émettre, puis choisissez l'action **Modifier**.  
@@ -36,7 +30,7 @@ Lorsque vous émettez les relances livraison, des écritures comptables de relan
 
 Vous pouvez afficher les relances émises dans la page **Relances livraison émises**. En option, vous pouvez maintenant imprimer une relance livraison.  
 
-## <a name="to-view-delivery-reminder-ledger-entries"></a>Pour afficher des écritures comptables de relance livraison  
+## Pour afficher des écritures comptables de relance livraison  
 
 1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Commandes achat**, puis sélectionnez le lien associé.  
 2. Sélectionnez la commande achat pour laquelle vous souhaitez afficher le statut de relance, puis choisissez l'action **Modifier**.  

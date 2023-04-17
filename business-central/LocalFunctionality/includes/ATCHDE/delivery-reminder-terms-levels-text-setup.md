@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 431549db0b073711bb3411f3357f4e3e182b34a4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135467"
 ---
+
 Pour créer des relances livraison, vous devez configurer ce qui suit :  
 
 - Conditions de relance livraison  
@@ -18,7 +13,7 @@ Pour créer des relances livraison, vous devez configurer ce qui suit :
 
 Chaque condition de relance livraison a deux niveaux ou plusieurs niveaux de relance livraison, et pour chaque niveau de relance livraison, vous pouvez spécifier le texte constituant la relance livraison.  
 
-## <a name="to-set-up-delivery-reminder-terms"></a>Pour configurer des conditions de relance livraison  
+## Pour configurer des conditions de relance livraison  
 
 1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Conditions de relance livraison**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
@@ -32,7 +27,7 @@ Chaque condition de relance livraison a deux niveaux ou plusieurs niveaux de rel
 
 4. Cliquez sur le bouton **OK**.  
 
-## <a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a>Pour ajouter des niveaux de relance livraison à une seule condition de relance livraison  
+## Pour ajouter des niveaux de relance livraison à une seule condition de relance livraison  
 
 1. Dans la page **Conditions de relance livraison**, sélectionnez la condition pour laquelle vous souhaitez configurer des niveaux, puis choisissez l'action **Niveaux**.  
 2. Sélectionnez l'action **Nouveau**.  
@@ -49,7 +44,7 @@ Pour chaque niveau de relance livraison, vous pouvez définir les messages texte
 
 La procédure suivante décrit comment configurer des messages texte de début, mais les mêmes étapes s'appliquent également pour configurer des messages texte de fin.  
 
-## <a name="to-set-up-delivery-reminder-text-messages"></a>Pour configurer des messages textuels de relance livraison  
+## Pour configurer des messages textuels de relance livraison  
 
 1. Dans la page **Niveaux de relance livraison**, sélectionnez un niveau, puis sélectionnez l'action **Texte de début**.  
 2. Sélectionnez l'action **Nouveau**.  

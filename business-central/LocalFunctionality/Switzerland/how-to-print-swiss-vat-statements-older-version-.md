@@ -1,22 +1,16 @@
 ---
-title: 'Procédure : Imprimer les relevés de TVA suisse (ancienne version)'
+title: "Procédure\_: Imprimer les relevés de TVA suisse (ancienne version)"
 description: La Déclaration TVA suisse est l'état de calcul standard pour la réalisation de la TVA. Vous pouvez imprimer cet état et l'utiliser avec la déclaration de taxe trimestrielle.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 068054ac2178e83296a8abe840036767ae8acf67
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139994"
 ---
-# <a name="print-swiss-vat-statements-older-version"></a>Imprimer les relevés de TVA suisse (ancienne version)
+# Imprimer les relevés de TVA suisse (ancienne version)
 
 > [!NOTE]  
 >  Cette rubrique est conservée pour une rétrocompatibilité avec l'état **Déclaration TVA suisse**. Pour plus d'informations sur l'utilisation de la dernière déclaration TVA suisse, voir Déclaration de TVA en Suisse.  
@@ -27,7 +21,7 @@ La **Déclaration TVA suisse** est l'état de calcul standard pour la réalisati
 - Écritures d'ajustement de la TVA  
 - Feuille de comptabilité  
 
-## <a name="to-print-the-swiss-vat-statement"></a>Pour imprimer la déclaration TVA suisse  
+## Pour imprimer la déclaration TVA suisse  
 
 1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Déclaration de TVA suisse**, puis sélectionnez le lien associé.  
 
@@ -52,7 +46,7 @@ La **Déclaration TVA suisse** est l'état de calcul standard pour la réalisati
 
 3.  Sélectionnez le bouton **Imprimer** pour imprimer la déclaration de TVA, ou le bouton **Aperçu** pour l'afficher à l'écran.  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Taxe sur la valeur ajoutée, Suisse](swiss-value-added-tax.md)   
  [Taux de TVA pour la Suisse](vat-rates-for-switzerland.md)
 

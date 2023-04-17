@@ -1,26 +1,20 @@
 ---
-title: 'Procédure : Valider les paiements LSV+'
+title: "Procédure\_: Valider les paiements LSV+"
 description: Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschrift Verfahren (LSV+) de la banque.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
+ms.search.keywords: null
+ms.search.form: '3010830, 3010831, 3010832,3010834, 3010835'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a4c5fd5b0f4e89c9d6e04ffb09dbdf5229df6c83
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135506"
 ---
-# <a name="post-lsv-payments"></a>Valider les paiements LSV+
+# Valider les paiements LSV+
 Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschrift Verfahren (LSV+) de la banque.  
 
-## <a name="to-post-lsv-payments"></a>Pour valider les paiements LSV+  
+## Pour valider les paiements LSV+  
 
 1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles règlement**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la feuille requise, puis cliquez sur l'action **Modifier journal**.  
@@ -42,7 +36,7 @@ Vous pouvez valider les paiements après avoir reçu l'avis de paiement Lastschr
 
 6.  Sélectionnez l'action **Valider**.  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Paiements électroniques à l'aide de LSV+, Suisse](swiss-electronic-payments-using-lsv-.md)   
  [Traiter un prélèvement LSV](how-to-process-an-lsv-collection.md)   
  [Fermer un prélèvement LSV](how-to-close-an-lsv-collection.md)   

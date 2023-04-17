@@ -1,25 +1,19 @@
 ---
-title: 'Procédure : Importer les codes postaux suisses [CH]'
+title: "Procédure\_: Importer les codes postaux suisses [CH]"
 description: Vous pouvez réimporter le dernier fichier des codes postaux suisses et l'utiliser pour mettre la table Code postal à jour afin de définir des codes postaux pour les clients ou les fournisseurs.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 50614decaf1148eeecbdf063c79efcd9c77d24f9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138116"
 ---
-# <a name="import-swiss-post-codes-in-the-swiss-version"></a>Importer les codes postaux suisses dans la version suisse
+# Importer les codes postaux suisses dans la version suisse
 Vous pouvez réimporter le dernier fichier des codes postaux et l'utiliser pour mettre la table **Code postal** à jour. Le fichier Code postal peut être téléchargé du site Web de la [Poste suisse](https://go.microsoft.com/fwlink/?LinkId=150292). Après avoir importé le dernier code postal, vous pouvez définir des codes postaux pour des clients ou des fournisseurs. Pour plus d'informations, reportez vous à [Enregistrer de nouveaux fournisseurs](../../purchasing-how-register-new-vendors.md).  
 
-## <a name="to-import-post-codes"></a>Pour importer des codes postaux  
+## Pour importer des codes postaux  
 
 1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Codes postaux**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Importer codes postaux**.  
@@ -30,7 +24,7 @@ Vous pouvez réimporter le dernier fichier des codes postaux et l'utiliser pour 
 
 La procédure suivante décrit comment définir les codes postaux pour les clients, mais les mêmes étapes s'appliquent également pour définir les codes postaux pour les fournisseurs.  
 
-## <a name="to-define-post-codes-for-customers"></a>Pour définir des codes postaux pour les clients  
+## Pour définir des codes postaux pour les clients  
 
 1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Clients**, puis sélectionnez le lien associé.  
 2.  Sélectionnez le client pour lequel vous souhaitez définir un code postal, puis sélectionnez l'action **Modifier**.  
@@ -41,7 +35,7 @@ La procédure suivante décrit comment définir les codes postaux pour les clien
 
 4.  Cliquez sur le bouton **OK**.  
 
-## <a name="see-also"></a>Voir aussi   
+## Voir aussi   
  [Documents vente et Documents achat, Suisse](swiss-purchase-documents-and-sales-documents.md)   
  [Imprimer la liste des prélèvements de stock d'une commande vente](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Enregistrer un nouveau fournisseur](../../purchasing-how-register-new-vendors.md)  

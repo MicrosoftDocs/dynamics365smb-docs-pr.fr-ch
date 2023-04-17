@@ -1,23 +1,17 @@
 ---
-title: Paiements électroniques à l'aide de ESR, Suisse [CH]
+title: 'Paiements électroniques à l''aide de ESR, Suisse [CH]'
 description: Cette rubrique explique les différentes tâches que vous pouvez effectuer avec le service de prélèvement électronique Einzahlungsschein mit Referenznummer (ESR).
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 3010531, 3010532
+ms.search.keywords: null
+ms.search.form: '3010531, 3010532'
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 9fcea031264d5cf12dad97a5ba430f9829d9836e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147329"
 ---
-# <a name="swiss-electronic-payments-using-esr-in-the-swiss-version"></a>Paiements électroniques à l'aide de ESR dans la version suisse
+# Paiements électroniques à l'aide de ESR dans la version suisse
 La méthode de paiement électronique Einzahlungsschein mit Referenznummer (ESR) est un service de prélèvement électronique qui permet au client de facturer les factures ouvertes en francs suisses (CHF) et en euros (EUR), et de comptabiliser efficacement les paiements entrants. Le numéro de référence, ou la ligne de code, contient toutes les données de comptabilité pertinentes.  
 
 Avec les paiements électroniques ESR, vous pouvez effectuer les opérations suivantes :  
@@ -39,7 +33,7 @@ Lorsque vous configurez des souches de numéros pour les factures, vous devez su
 - Utilisez uniquement des caractères numériques.  
 - Ne précédez pas les nombres de zéros.  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Paiements électroniques, Suisse](swiss-electronic-payments.md)   
  [Imprimer des factures ESR](how-to-print-esr-invoices.md)   
  [Importation de paiements ESR](how-to-import-esr-payments.md)   

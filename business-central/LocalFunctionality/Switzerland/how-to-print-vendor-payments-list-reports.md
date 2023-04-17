@@ -1,29 +1,23 @@
 ---
-title: Imprimer des rapports contenant les listes de paiements fournisseurs [CH]
+title: 'Imprimer des rapports contenant les listes de paiements fournisseurs [CH]'
 description: Le rapport Liste de paiements fournisseur fournit la liste des paiements pour chaque fournisseur. Le rapport peut trier les paiements par ordre chronologique ou groupés par fournisseur.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6d3c52b52090a8bff9d70c983a0bfa8170aad1ff
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145962"
 ---
-# <a name="print-vendor-payments-list-reports-in-the-swiss-version"></a>Imprimer des rapports contenant les listes de paiements fournisseurs dans la version suisse
+# Imprimer des rapports contenant les listes de paiements fournisseurs dans la version suisse
 
 Le rapport **Liste de paiements fournisseur** fournit la liste des paiements pour chaque fournisseur. Le rapport peut trier les paiements par ordre chronologique ou groupés par fournisseur.  
 
 > [!NOTE]
 > Le rapport **Liste de paiements fournisseurs** est disponible dans les marchés suivants : Autriche, Allemagne, Suisse.
 
-## <a name="to-print-the-vendor-payments-list-report"></a>Pour imprimer des rapports contenant les listes de paiements fournisseurs  
+## Pour imprimer des rapports contenant les listes de paiements fournisseurs  
 
 1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Liste de paiements fournisseurs**, puis sélectionnez le lien associé.  
 2. Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
@@ -35,7 +29,7 @@ Le rapport **Liste de paiements fournisseur** fournit la liste des paiements pou
 
  À la fin du rapport, le nombre de paiements traités est affiché.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Effectuer des paiements](../../payables-make-payments.md)
 
