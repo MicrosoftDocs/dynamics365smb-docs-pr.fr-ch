@@ -1,12 +1,12 @@
 ---
 title: "Configurer la synchronisation du contact avec Outlook pour Business\_Central en local"
-description: Découvrez comment configurer un environnement Business Central sur site. Configurez la synchronisation des contacts avec Outlook pour Business Central sur site
+description: "Découvrez comment configurer un environnement local Business\_Central pour synchroniser les contacts dans Business\_Central et Outlook."
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 03/17/2023
+ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
