@@ -810,6 +810,7 @@
 ##### [Limitation de la période de validation](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Définition de la date de travail comme date comptabilisation](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Désignation des modèles feuille obligatoires](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Échelonnements dans les rapports Journal des ventes et Journal des achats](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Canada
 #### [Fonctionnalité locale dans la version canadienne](LocalFunctionality/Canada/canada-local-functionality.md)
