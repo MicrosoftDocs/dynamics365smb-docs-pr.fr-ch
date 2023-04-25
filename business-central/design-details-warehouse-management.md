@@ -28,9 +28,9 @@ Implémentez ces fonctionnalités dans différentes combinaisons pour adapter vo
 
 ## Aperçu des différentes options de configuration
 
-Vous pouvez configurer les fonctionnalités d’entrepôt de différentes manières. Il est important que les options que vous choisissez améliorent vos processus sans entraîner de surcharge. Le tableau suivant donne un aperçu des configurations typiques qui sont utilisées lorsqu’il s’agit de biens physiques.
+Vous pouvez configurer les fonctionnalités d’entrepôt de différentes manières. Il est important de choisir les options qui améliorent vos processus sans entraîner de surcharge. Le tableau suivant donne un aperçu des configurations typiques lorsqu’il s’agit de biens physiques.
 
-|Niveau de complexité|Description|Paramètres|Code emplacement|Exemple de flux entrant|Exemple de flux sortant|Exemple de flux interne|  
+|Niveau de complexité|Désignation|Paramètres|Code emplacement|Exemple de flux entrant|Exemple de flux sortant|Exemple de flux interne|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |Aucune activité entrepôt dédiée.|Validation à partir des ordres et des feuilles.||Facultatif. Contrôlé par le bouton à bascule **Code emplacement obligatoire**.|Commande achat|Commande vente| Ordre de fabrication -> Feuille consommation|  
 |Basique|Envoi/réception regroupés pour plusieurs commandes.|**Réception requise**<br>**Expédition requise**.|Facultatif. Contrôlé par le bouton à bascule Code emplacement obligatoire|Commande(s) achat -> Réception entrepôt|Commande vente -> Expédition entrepôt|Comme ci-dessus.|
@@ -61,7 +61,7 @@ Pour manipuler des biens physiques, vous devez avoir au moins un magasin. Vous p
 En règle générale, les magasins sont le moyen privilégié pour organiser des opérations réparties sur plusieurs zones géographiques. Dans certains cas, cependant, vous souhaiterez peut-être créer plusieurs magasins situés au même endroit. L’utilisation des magasins présente les avantages suivants :
 
 * Accordez l’accès en utilisant les pages **Magasiniers** et **Centres de gestion** pages.
-* Définissez les calendriers, les routages et les heures de traitement entrant et sortant pour le calcul et la planification des dates. [À propos de la fonctionnalité Planification](production-about-planning-functionality.md).
+* Définissez les calendriers, les routages et les heures de traitement entrant et sortant pour le calcul et la planification des dates. Pour plus d’informations, voir [À propos de la fonctionnalité Planification](production-about-planning-functionality.md).
 * Spécifiez les axes analytiques par défaut et utilisez différentes configurations de validation de stock.
 * Configurez les paramètres de planification. Learn more at [Paramètres de planification](production-about-planning-functionality.md#planning-parameters).  
 * Utilisez différentes fonctionnalités d’entrepôt pour chaque magasin.

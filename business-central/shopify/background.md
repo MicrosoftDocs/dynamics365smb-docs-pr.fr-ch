@@ -18,7 +18,7 @@ Il est efficace d’exécuter certaines tâches simultanément et de manière au
 
 ## Exécuter des tâches en arrière-plan pour un magasin spécifique
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasin Shopify**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasin Shopify**, puis sélectionnez le lien associé.
 2. Sélectionnez le magasin pour lequel vous voulez exécuter la synchronisation à l’arrière-plan pour ouvrir la page **Fiche magasin Shopify**.
 3. Activez **Autoriser les synchronisations en arrière-plan**.
 
@@ -44,8 +44,8 @@ Vous pouvez programmer les activités récurrentes suivantes pour qu’elles soi
 
 Autres tâches pouvant être utiles pour automatiser le traitement ultérieur des documents de vente :
 
-- état 497 TPL validation factures achat
-- état 496 TPL validation commandes achat
+- état 297 TPL validation factures vente
+- état 296 TPL validation commandes vente
 
 Vous pouvez utiliser le champ **N° de commande Shopify** pour identifier les documents commerciaux importés depuis Shopify.
 

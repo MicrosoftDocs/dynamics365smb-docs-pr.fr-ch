@@ -1,15 +1,14 @@
 ---
 title: Créer des sociétés en utilisant le guide de configuration assistée
-description: 'Il est facile de créer une nouvelle société vide dans Business Central. Un guide de configuration assistée vous aide à l’aide de procédures, et vous pouvez importer les données métier existantes.'
-author: edupont04
+description: 'Il est facile de créer une nouvelle société vide dans Business Central. Un guide de configuration assistée vous aide à l’aide de procédures, et vous pouvez importer vos données métier.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 04/14/2023
+ms.custom: bap-template
 ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 04/01/2021
-ms.author: edupont
 ---
 # Créer des sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -32,7 +31,7 @@ L’assistant de configuration propose deux modèles et une option vierge :
 - **Créer nouveau - Aucune donnée**  
     Cela crée une société vide sans données de configuration. Vous pourrez utiliser cette société pendant une période d’évaluation de 30 jours.  
 
-Si vous souhaitez démarrer facilement avec une nouvelle société, sélectionnez **Production - Données de configuration uniquement**, puis importez vos propres données métier, telles que les clients, les articles et les fournisseurs. Choisissez le modèle **Nouveau** si vous souhaitez tout redéfinir à zéro. Dans ce cas, vous pouvez utiliser le guide de configuration assistée **Configuration de la société** pour vous aider à commencer par des données de configuration essentielles.  
+Si vous souhaitez démarrer facilement avec une nouvelle société, sélectionnez **Production - Données de configuration uniquement**, puis importez vos propres données métier, telles que les clients, les articles et les fournisseurs. Sélectionnez le modèle **Nouveau** si vous souhaitez tout redéfinir à zéro. Dans ce cas, vous pouvez utiliser le guide de configuration assistée **Configuration de la société** pour vous aider à commencer par des données de configuration essentielles.  
 
 > [!NOTE]  
 > Lorsque vous créez une société, cela prend quelques minutes avant de pouvoir y accéder dans [!INCLUDE[prod_short](includes/prod_short.md)]. L’état de configuration sur la page **Sociétés** s’affiche lorsque la nouvelle société est prête pour vous. Ensuite, vous pouvez basculer vers la nouvelle société en utilisant **Mes paramètres**.  
@@ -46,7 +45,9 @@ Votre administrateur peut en savoir plus sur les essais et les abonnements [ici]
 Sur la page **Sociétés**, vous pouvez utiliser l’action **Copier** pour créer une deuxième société sur la base du contenu d’une société existante. Ceci est utile, par exemple, lorsque vous souhaitez tester une société sans perturber les données de production.
 
 > [!Important]
-> Cette fonction ne peut pas être utilisée pour sauvegarder une société. La sauvegarde d’une société commence par l’exportation de la base de données sous la forme d’un fichier .bacpac. Pour plus d’informations, voir [Exportation de bases de données](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) dans Aide dédiée au développement et à l’administration.
+> N’utilisez pas l’action Copier pour effectuer une sauvegarde d’une société. Pour effectuer une sauvegarde, commencez par exporter la base de données sous forme de fichier .bacpac. Pour plus d’informations, voir [Exportation de bases de données](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) dans Aide dédiée au développement et à l’administration.
+
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
 ## Configurer la société
 
