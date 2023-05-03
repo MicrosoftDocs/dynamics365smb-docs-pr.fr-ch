@@ -109,12 +109,11 @@ Pour exclure toutes les autorisations que vous avez ajoutées depuis un ensemble
 
 Pour exclure totalement ou partiellement une autorisation spécifique dans un ensemble que vous avez ajouté, sous **Autorisations**, créez une ligne pour l’objet. Les champs de niveau d’accès, Permission d’insertion, Permission de modification, etc. contiendront tous **Exclure**. Pour autoriser un certain niveau d’accès, choisissez l’option appropriée.
 
-> [!NOTE]
-> L’exclusion d’un ensemble d’autorisations exclut toutes les autorisations de l’ensemble. [!INCLUDE [prod_short](includes/prod_short.md)] calcule les autorisations comme suit :
+L’exclusion d’un ensemble d’autorisations exclut toutes les autorisations de l’ensemble. [!INCLUDE [prod_short](includes/prod_short.md)] calcule les autorisations comme suit :
 
-> 1. Calculer la liste complète des autorisations incluses
-> 2. Calculer la liste complète des autorisations exclues
-> 3. Supprimer les autorisations exclues de la liste des autorisations incluses (la suppression d’une autorisation indirecte est identique à Réduire à indirecte)
+1. Calculer la liste complète des autorisations incluses
+2. Calculer la liste complète des autorisations exclues
+3. Supprimer les autorisations exclues de la liste des autorisations incluses (la suppression d’une autorisation indirecte est identique à Réduire à indirecte)
 
 ## Pour copier un ensemble d’autorisations
 
