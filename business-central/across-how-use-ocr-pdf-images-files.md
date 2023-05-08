@@ -44,7 +44,7 @@ Le trafic de fichiers à destination et en provenance du service OCR est traité
 Puisqu’aucun enregistrement de document entrant n’existe pour le fichier, un enregistrement est automatiquement créé sur la page **Documents entrants** lorsque le service OCR envoie le document électronique résultant. Pour plus d’informations, voir [Créer des enregistrements document entrant](across-how-create-income-document-records.md).
 
 > [!NOTE]  
-> Si vous utilisez une tablette ou un téléphone, vous pouvez envoyer le fichier au service OCR dès que vous avez pris une photo du document, ou vous pouvez créer un document entrant directement. Pour plus d’informations, voir [Créer un enregistrement de document entrant en prenant une photo](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
+> Si vous utilisez une tablette ou un téléphone, vous pouvez envoyer le fichier au service OCR dès que vous avez pris une photo du document, ou vous pouvez créer un document entrant directement. Pour plus d’informations, voir [Créer un enregistrement de document entrant en prenant une photo](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
 ## Réceptionner le document électronique résultant du service ORC
 

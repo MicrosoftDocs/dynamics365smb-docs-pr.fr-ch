@@ -32,12 +32,12 @@ Lorsque les articles arrivent dans un entrepôt configuré pour traiter les réc
 Vous pouvez créer une réception entrepôt de deux manières :
 
 * En mode « push », lorsque le travail est effectué commande par commande. Sélectionnez l’action **Créer réception entrepôt** dans le document origine, tel qu’une commande achat, un retour vente ou un ordre de transfert pour créer une réception entrepôt pour un document origine.
-*-* En mode « pull », où vous utilisez l’action **Lancer** du document origine, action in the source document, tel qu’une commande achat, un retour vente ou un ordre de transfert pour lancer le document dans l’entrepôt. Un magasinier crée une **Réception entrepôt** pour un ou plusieurs documents origine lancés. La procédure suivante décrit comment créer une réception entrepôt en mode « push ». La procédure suivante décrit comment créer une réception entrepôt en mode « pull ». 
+* En mode « pull », où vous utilisez l’action **Lancer** du document origine, action in the source document, tel qu’une commande achat, un retour vente ou un ordre de transfert pour lancer le document dans l’entrepôt. Un magasinier crée une **Réception entrepôt** pour un ou plusieurs documents origine lancés. La procédure suivante décrit comment créer une réception entrepôt en mode « push ». La procédure suivante décrit comment créer une réception entrepôt en mode « pull ».
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Réceptions entrepôt**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 
-    Renseignez le champ **Code magasin** dans le raccourci **Général**. Lorsque vous récupérez des lignes document origine, certaines des informations de l’en-tête sont copiées dans chaque ligne. 
+    Renseignez le champ **Code magasin** dans le raccourci **Général**. Lorsque vous récupérez des lignes document origine, certaines des informations de l’en-tête sont copiées dans chaque ligne.
 
     Pour un magasin qui nécessite des emplacements, remplissez le champ **Code emplacement**. Selon votre configuration, [!INCLUDE[prod_short](includes/prod_short.md)] peut ajouter le code emplacement pour vous. Learn more at [Codes zone et emplacement](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
@@ -56,13 +56,15 @@ Vous pouvez créer une réception entrepôt de deux manières :
 
 5. Validez la réception entrepôt. Les champs relatifs à la quantité dans les documents origine sont mis à jour et les articles sont ajoutés au stock.  
 
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
+
     > [!TIP]
-    > Si vous utilisez le rangement entrepôt, qui fait référence à la méthode D du tableau au début de cet article, les articles sont reçus mais ne peuvent pas être prélevés tant qu’ils n’ont pas été rangés. Pour en savoir plus sur le rangement d’articles, consultez [Ranger des articles avec le rangement entrepôt](warehouse-how-to-put-items-away-with-warehouse-put-aways.md). 
-    > 
+    > Si vous utilisez le rangement entrepôt, qui fait référence à la méthode D du tableau au début de cet article, les articles sont reçus mais ne peuvent pas être prélevés tant qu’ils n’ont pas été rangés. Pour en savoir plus sur le rangement d’articles, consultez [Ranger des articles avec le rangement entrepôt](warehouse-how-to-put-items-away-with-warehouse-put-aways.md).
+    >
     > Sinon, envisagez d’utiliser l’action **Valider et imprimer**. L’action validera la réception et l’imprimera en tant qu’instruction de rangement indiquant où placer l’article.
 
-> [!NOTE]  
-> Si votre entrepôt utilise le transbordement, vous pouvez vérifier si vous pouvez transborder des articles sans les ranger. Pour en savoir plus sur le transbordement, consultez [Transborder des articles](warehouse-how-to-cross-dock-items.md).
+    > [!NOTE]  
+    > Si votre entrepôt utilise le transbordement, vous pouvez vérifier si vous pouvez transborder des articles sans les ranger. Pour en savoir plus sur le transbordement, consultez [Transborder des articles](warehouse-how-to-cross-dock-items.md).
 
 ## Procédure : utiliser des filtres afin d’obtenir des documents origine
 

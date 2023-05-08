@@ -1,18 +1,18 @@
 ---
 title: Écart de règlement et écart d’escompte
-description: Vous pouvez configurer l’écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture.
+description: Cet article explique comment configurer l’écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '118, 314, 395'
-ms.date: 10/29/2021
+ms.date: 04/03/2023
 ms.author: edupont
 ---
 # Utilisation des écarts de règlement et des écarts d’escompte
 
-Vous pouvez configurer un écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture. Par exemple, les écarts de règlement concernent généralement de petits montants qui coûteraient plus cher à corriger qu’à accepter. Vous pouvez configurer un écart de règlement pour accorder un escompte après expiration de la date d’escompte.  
+Vous pouvez configurer l’écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture. Par exemple, les écarts de règlement concernent généralement de petits montants qui coûteraient plus cher à corriger qu’à accepter. Vous pouvez configurer un écart de règlement pour accorder un escompte après expiration de la date d’escompte.  
 
 Vous pouvez utiliser les écarts de règlement pour qu’un écart de règlement maximum autorisé soit défini pour chaque montant en commande. Si l’écart de règlement est rempli, le montant règlement est analysé. Si le montant règlement est un moins-perçu, alors le montant en commande est totalement clôturé par le moins-perçu. Une écriture comptable détaillée est validée dans l’écriture règlement de sorte qu’il ne subsiste aucun montant ouvert dans l’écriture facture lettrée. Si le montant règlement est un trop-perçu, alors une nouvelle écriture comptable détaillée est validée dans l’écriture règlement de sorte qu’il ne subsiste aucun montant ouvert dans l’écriture règlement.
 
@@ -66,6 +66,9 @@ Pour configurer l’écart, vous devez configurer plusieurs comptes écart, spé
 > Pour désactiver l’écart pour un client ou un fournisseur, vous devez bloquer les écarts sur la fiche client ou fournisseur correspondante. Pour plus d’informations, voir [Pour bloquer l’écart règlement pour des clients](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 > Lorsque vous configurez un écart, [!INCLUDE[prod_short](includes/prod_short.md)] vérifie s’il existe des écritures ouvertes et calcule l’écart pour ces écritures.
+
+> [!IMPORTANT]  
+> Lorsque vous activez le champ **Ajuster pour escompte** sur la page **Paramètres comptabilisation TVA**, le montant de la TVA est pris en compte puisqu’il est associé aux montants **Écarts de paiement** et **Escomptes**, et la TVA sera déduite pour les deux montants de transaction, s’ils existent. Le système ne peut pas être configuré pour utiliser la réduction de TVA uniquement pour un type de transaction.  
 
 ## Pour activer ou désactiver les alertes d’écart de règlement
 

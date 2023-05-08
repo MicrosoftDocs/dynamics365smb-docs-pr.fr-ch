@@ -39,6 +39,7 @@ Vous pouvez procéder comme suit pour chaque client avec le **Modèle client Sho
 2. Définir le **Code modèle client**, qui est utilisé pour créer des clients manquants, si l’option **Créer automatiquement des clients inconnus** est activée. Si le **Code modèle client** est vide, la fonction utilise le **Code modèle client** défini dans la page **Fiche magasin Shopify**.
 3. Définissez si les prix incluent les taxes/la TVA pour les commandes importées.
 4. Dans certains cas, le **Code modèle client** défini pour un pays n’est pas suffisant pour assurer le calcul correct des taxes (par exemple, pour les pays avec taxe de vente). Dans ce cas, les **Zones de recouvrement** peuvent constituer un complément utile.
+5. Le champ **Zone recouvrement** contient également une paire **Code pays** et **Nom de la région**. Cette paire est utile lorsque le connecteur doit convertir un code en un nom, ou vice versa.
 
 > [!NOTE]  
 > Les codes pays sont les codes pays ISO 3166-1 alpha-2. En savoir plus sur le [Code postal](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -58,6 +59,7 @@ Voici les conditions requises pour exporter un client :
 * Un pays/région est sélectionné sur la fiche client, pour les clients locaux, avec pays/région vide, le pays/région spécifié sur la page **Informations sur la société** doit avoir un code ISO défini.
 * Si le client a un numéro de téléphone, ce numéro doit être unique, car Shopify n’acceptera pas un deuxième client avec le même numéro de téléphone.
 * Si le client a un numéro de téléphone, celui-ci doit être au format E.164. Différents formats sont pris en charge s’ils représentent un numéro qui peut être composé de n’importe où dans le monde. Les formats suivants sont valides :
+
   * xxxxxxxxxx
   * +xxxxxxxxxxx
   * (xxx)xxx-xxxx
@@ -82,7 +84,8 @@ Un client dans Shopify a également une adresse par défaut. L’adresse pourrai
 |0|**Nom**|Priorité la plus élevée, si le champ **Origine nom** dans la page **Fiche magasin Shopify** contient *Nom de la société*.|
 |2|**Nom 2**|Priorité la moins élevée, si le champ **Source nom 2** dans la page **Fiche magasin Shopify** contient *Nom de la société*.|
 
-Pour les adresses où le pays/la province est utilisé(e), sélectionnez *Code* ou *Nom* dans le champ **Source pays** dans la page **Fiche magasin Shopify**. Ceci spécifie le type de données stockées dans [!INCLUDE[prod_short](../includes/prod_short.md)] dans le champ **Pays**.
+Pour les adresses où la région/la province est utilisé(e), sélectionnez **Code** ou **Nom** dans le champ **Source région** sur la page **Fiche magasin Shopify**. Ceci spécifie le type de données stockées dans [!INCLUDE[prod_short](../includes/prod_short.md)] dans le champ **Région**. N’oubliez pas d’initialiser les modèles de clients par pays afin que le mappage code/nom de la région soit prêt. 
+
 
 ## Synchroniser les clients
 

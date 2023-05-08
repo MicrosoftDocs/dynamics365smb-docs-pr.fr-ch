@@ -87,6 +87,8 @@ Au lieu d’utiliser des documents de mouvement, vous pouvez enregistrer des mou
 3. Renseignez les autres champs de chaque ligne feuille.
 4. Valider la feuille reclassement.  
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 ## Voir la [formation Microsoft](/training/modules/manage-internal-warehouse-processes/) associée
 
 ## Voir aussi
