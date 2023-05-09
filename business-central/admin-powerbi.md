@@ -2,15 +2,13 @@
 title: "Introduction à Business\_Central et Power BI"
 description: "Obtenez une vue d’ensemble de l’utilisation de Power BI pour obtenir des informations, des informations décisionnelles et des indicateurs de performance clés à partir de vos données Business\_Central."
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
-ms.reviewer: edupont
-ms.date: 08/30/2022
+ms.reviewer: jswymer
+ms.date: 04/26/2023
 ms.author: jswymer
+ms.custom: bap-template
 ---
 # Présentation de [!INCLUDE[prod_short](includes/prod_short.md)] et de Power BI
 
@@ -28,9 +26,9 @@ Il existe différentes fonctionnalités pour utiliser [!INCLUDE[prod_short](incl
 |Afficher les états Power BI dans le client [!INCLUDE[prod_short](includes/prod_short.md)].| Les états Power BI qui affichent les données [!INCLUDE[prod_short](includes/prod_short.md)] peuvent être intégrés directement dans les pages [!INCLUDE[prod_short](includes/prod_short.md)] des composants. Vous pouvez changer de partie pour afficher tout état mis à votre disposition. |![fonctionne en ligne.](media/check.png)|![Fonctionne en local](media/check.png)<sup>[*](#onprem)</sup>|[Ici...](across-working-with-powerbi.md).|
 |Créez des états et des tableaux de bord dans Power BI qui affichent les données [!INCLUDE[prod_short](includes/prod_short.md)].|Utilisez Power BI Desktop pour créer vos propres états et tableaux de bord. Vous pouvez publier les états vers votre propre service Power BI ou les partager avec tous les utilisateurs de votre organisation.|![Fonctionne en ligne.](media/check.png)|![fonctionne en local](media/check.png)|[Ici...](across-how-use-financials-data-source-powerbi.md)|
 |Applications [!INCLUDE[prod_short](includes/prod_short.md)] dans Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publie trois applications pour Power BI sur Microsoft AppSource. Ces applications créent des états et des tableaux de bord détaillés dans votre service Power BI pour visualiser les données [!INCLUDE[prod_short](includes/prod_short.md)]. Les applications disponibles incluent : <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Fonctionne en ligne.](media/check.png)||[Ici...](across-powerbi-business-central-apps.md)|
-|Utiliser les données [!INCLUDE [prod_short](includes/prod_short.md)] dans les datamarts et les flux de données|Depuis juillet 2022, vous pouvez utiliser le connecteur [!INCLUDE [prod_short](includes/prod_short.md)] dans Power Query Online aux flux de données que vous partagez dans différents rapports et tableaux de bord.|[Ici...](across-powerbi-business-central-apps.md)|
+|Utiliser les données [!INCLUDE [prod_short](includes/prod_short.md)] dans les datamarts et les flux de données|Depuis juillet 2022, vous pouvez utiliser le connecteur [!INCLUDE [prod_short](includes/prod_short.md)] dans Power Query Online aux flux de données que vous partagez dans différents rapports et tableaux de bord.|![fonctionne en ligne.](media/check.png)||[Ici...](across-powerbi-business-central-apps.md)|
 
-<a name="onprem"><sup>*</sup></a>Cette fonctionnalité nécessite une application enregistrée pour Business Central dans Microsoft Azure. Pour plus d’informations, consultez [Enregistrer Business Central sur site dans Azure AD pour l’intégration avec d’autres services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+<a name="onprem"><sup>*</sup></a>Cette fonctionnalité nécessite une application enregistrée pour Business Central dans Microsoft Azure. Pour plus d’informations, consultez [Enregistrer Business Central en local dans Azure AD pour l’intégration avec d’autres services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
 ## Prise en main de Power BI
 
@@ -47,36 +45,37 @@ Il y a quelques tâches à effectuer avant de pouvoir commencer à utiliser Powe
 |Exposer les données Business Central à Power BI||![c’est une coche.](media/check.png)|![encore une coche](media/check.png)|[Exposer des données via des pages API ou des services Web OData](admin-powerbi-setup.md#exposedata)
 |Activer l’intégration de Power BI<br />(en local uniquement)||![c’est une coche.](media/check.png)||[Configurer Business Central en local pour l’intégration Power BI](admin-powerbi-setup.md#setup)|
 
+## Suivre vos KPI métier avec les mesures Power BI
 
-<!--
+Si vous utilisez Power BI sur les données [!INCLUDE[prod_short](includes/prod_short.md)], il est facile de suivre les KPI ou les mesures qui sont importants pour vous. 
 
+Avec les mesures dans Power BI, vous pouvez organiser vos propres mesures et les suivre par rapport à des objectifs métier clés, dans un seul volet. Cette fonctionnalité améliore la culture des données en favorisant la responsabilité, l’alignement et la visibilité pour les équipes et les initiatives au sein des organisations. 
 
+Suivez ce processus en quatre étapes pour configurer les mesures Power BI :
 
-1. If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, make sure your deployment meets the requirements outlined in [Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration](admin-powerbi-setup.md#setup). This task is typically an administrative task.
+1. Créez un tableau de bord dans le service Power BI. Voir [Créer des tableaux de bord dans Power BI](/power-bi/create-reports/service-goals-create).
+2. Ajoutez les _mesures_ que vous souhaitez suivre en vous connectant à votre rapport Power BI sur la télémétrie. Voir [Créer des mesures connectées](/power-bi/create-reports/service-goals-create-connected).
+3. Pour ajouter des alertes, définissez des règles de statut pour vos mesures. Voir [Créer des règles de statut automatisées pour les mesures](/power-bi/create-reports/service-metrics-status-rules).
 
-2. Expose Business Central data through API pages or published web services.
+   Cette étape automatise les mises à jour de statut en fonction des règles qui régissent cette mesure. Les règles déclenchent des modifications en fonction de la valeur, du pourcentage de l’objectif atteint, des conditions de date ou d’une combinaison des trois, ce qui rend les règles aussi versatiles que possible. Pour les mesures connectées, ces règles de statut sont actualisées à chaque actualisation des données de votre tableau de bord.
+4. Enfin, suivez les mesures pour recevoir des alertes dans Teams ou par e-mail. Voir [Suivre vos mesures](/power-bi/create-reports/service-metrics-follow).
 
-    Business Central online automatically included several pages as APIs. For more information, see [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/). Application developers for Business Central online can create custom API pages that you can then consume in reports. For more information, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+Pour plus d’informations sur les mesures Power BI, voir [Bien démarrer avec les mesures dans Power BI](/power-bi/create-reports/service-goals-introduction).
 
-   Codeunit, page, and query objects can be published as OData web services. There are many web services published by default. An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
+> [!NOTE]
+> Il n’est pas possible actuellement d’intégrer des tableaux de bord à partir des mesures Power BI dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
-3. Get a Power BI account.
+## Étapes suivantes
 
-   To do anything with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)], whether you're an administrator or just a consumer, you'll need Power BI service account. To get an account, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). To sign up for an account, use your work email address and password. Sign-up requires that you have a license, but in most cases you should already have a free license. For more information, see [Power BI Licensing](admin-powerbi-setup.md#license).
+- Si vous êtes un administrateur qui doit configurer Power BI dans [!INCLUDE[prod_short](includes/prod_short.md)], accédez à [Activation de l’intégration de Power BI](admin-powerbi-setup.md).
+- Si Power BI est déjà configuré et vous souhaitez essayer les fonctionnalités, accédez à [Utiliser les rapports Power BI dans Business Central](across-working-with-powerbi.md).
 
-4. If you want to create your own Power BI reports, get Power BI Desktop.
-
-   You can download [Power BI Desktop](https://powerbi.microsoft.com/desktop/). For more information, see [Get Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
-
--->
 
 ## Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
 
 ## Voir aussi
 
 [Veille économique](bi.md)  
-[Se préparer aux activités commerciales](ui-get-ready-business.md)  
-[Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configurer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  
@@ -86,7 +85,5 @@ Il y a quelques tâches à effectuer avant de pouvoir commencer à utiliser Powe
 [Démarrage rapide : Se connecter aux données dans Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Présentation des datamarts](/power-bi/transform-model/datamarts/datamarts-overview)  
 [Introduction aux flux de données et à la préparation des données en libre-service](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
-
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

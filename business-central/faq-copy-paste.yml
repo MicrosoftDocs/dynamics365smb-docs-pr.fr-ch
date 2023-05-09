@@ -1,70 +1,52 @@
 ### YamlMime:FAQ
 metadata:
-  title: Copy and paste data FAQ
-  description: Get answers to frequently asked questions about copying and pasting data from fields and rows from Business Central pages.
+  title: FAQ Copier et coller des données
+  description: Obtenez des réponses aux questions fréquemment posées sur la copie et le collage de données à partir de champs et de lignes à partir des pages Business Central.
   ms.topic: faq
-title: Copy and Paste FAQ
+title: FAQ sur l’opération Copier et coller
 summary: |
-  You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email).  
+  Vous pouvez copier une ou plusieurs lignes (enregistrements) dans une liste ou un champ unique sur une page, puis collez ce que vous avez copié dans la même page, une autre page, ou un document externe (comme Microsoft Excel et un e-mail Outlook).  
 
-  In short, to copy, you select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>C<ept id="p2">&lt;/kbd&gt;</ept> (cmd+C in macOS) on your keyboard. To paste, you select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>V<ept id="p2">&lt;/kbd&gt;</ept> (<bpt id="p3">&lt;kbd&gt;</bpt>Cmd<ept id="p3">&lt;/kbd&gt;</ept><ph id="ph2">+</ph><bpt id="p4">&lt;kbd&gt;</bpt>V<ept id="p4">&lt;/kbd&gt;</ept> in macOS). There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see <bpt id="p1">[</bpt>Keyboard Shortcuts<ept id="p1">](keyboard-shortcuts.md#CopyRows)</ept>. This article answers common questions you might have about copying and pasting.  
+  En raccourci, pour copier, appuyez sur <kbd>Ctrl</kbd>+<kbd>C</kbd> (cmd+C dans macOS) sur votre clavier. Pour coller, appuyez sur <kbd>CTRLV</kbd>+<kbd>V</kbd> (<kbd>Cmd</kbd>+<kbd>V</kbd> dans macOS). Plusieurs autres raccourcis clavier permettent de copier et coller afin de faire gagner du temps pendant la saisie des données. Pour plus d’informations sur ceux-ci, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#CopyRows). Cet article répond à des questions courantes que vous pouvez avoir à propos de copier et coller.  
 sections:
-  - name: General
+  - name: Général
     questions:
-      - question: What can I copy and paste?
+      - question: "Que puis-je copier et coller\_?"
+        answer: "Vous pouvez copier et coller ce type de données\_:\n- Copier une ou plusieurs lignes dans [!INCLUDE[prod_short](includes/prod_short.md)] vers la même liste, ou dans n’importe quelle liste avec des colonnes identiques.\n- Copier une ou plusieurs lignes dans [!INCLUDE[prod_short](includes/prod_short.md)] et les collez dans Excel ou d’autres applications.\n- Copier une ou plusieurs lignes dans Excel et les coller dans une liste [!INCLUDE[prod_short](includes/prod_short.md)].\n- Copier la valeur d’un champ individuel dans [!INCLUDE[prod_short](includes/prod_short.md)] et la collez n’importe où ailleurs.\n"
+      - question: "La fonction Copier/Coller fonctionne-t-elle avec des vignettes\_?"
         answer: |
-          You can copy and paste this type of data:
-          - Copy one or more rows in <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> to the same list, or to any list with identical columns.
-          - Copy one or more rows in <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> and paste into Excel or other applications.
-          - Copy one or more rows in Excel and paste into a <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> list.
-          - Copy the value of an individual field in <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> and paste it anywhere.
-      - question: Does copy and paste work with tiles?
+          Oui, mais seulement pour une seule vignette sélectionnée.
+      - question: "Comment copier une ligne\_?"
+        answer: "Pour copier une ligne unique, sélectionnez <kbd>Ctrl</kbd>+<kbd>C</kbd>.\n\nPour copier plusieurs lignes, vous pouvez\_:\n- appuyer sur <kbd>Ctrl</kbd>+clic sur une autre ligne ou appuyer sur <kbd>Maj</kbd>+clic pour sélectionner la ligne et toutes les lignes entre les deux. Voir [Raccourcis clavier](keyboard-shortcuts.md#CopyRows) pour plusieurs combinaisons souris et clavier pour sélectionner des lignes.\n- Sélectionnez ![Afficher plus d’options](media/show-more-options-icon.png \"Icône Afficher plus d’options\") dans la première colonne, sélectionnez **Sélectionner davantage**, cochez la case à côté de chaque ligne à copier, puis appuyez sur <kbd>Ctrl</kbd>+<kbd>C</kbd>.\n"
+      - question: "Comment coller des lignes\_?"
         answer: |
-          Yes, but only for a single selected tile.
-      - question: How do I copy a row?
-        answer: |
-          To copy a single row, select it, and then select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>C<ept id="p2">&lt;/kbd&gt;</ept>.
+          Sélectionnez une ligne vide, avec le focus dans n’importe quelle cellule, puis appuyez sur <kbd>Crtl</kbd>+<kbd>V</kbd>.
 
-          If you want to copy more rows, you can:
-          - select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept>+Click on another row or select <bpt id="p2">&lt;kbd&gt;</bpt>Shift<ept id="p2">&lt;/kbd&gt;</ept>+Click to select the row and all rows in between. See <bpt id="p1">[</bpt>Keyboard Shortcuts<ept id="p1">](keyboard-shortcuts.md#CopyRows)</ept> for more mouse and keyboard combinations for selecting rows.
-          - Select <bpt id="p1">![</bpt>Show more options<ept id="p1">](media/show-more-options-icon.png "|::ref1::|")</ept> in the first column, choose <bpt id="p2">**</bpt>Select More<ept id="p2">**</ept>, select the check box next to each row that you want to copy, and then select <bpt id="p3">&lt;kbd&gt;</bpt>Ctrl<ept id="p3">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p4">&lt;kbd&gt;</bpt>C<ept id="p4">&lt;/kbd&gt;</ept>.
-      - question: How do I paste rows?
-        answer: |
-          Select an empty row, with focus in any cell, and then select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>V<ept id="p2">&lt;/kbd&gt;</ept>.
-
-          If you want to replace existing rows, select the rows, and then select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>V<ept id="p2">&lt;/kbd&gt;</ept>. In this case, you can only paste the same number of rows that you selected.
+          Pour remplacer des lignes existantes, sélectionnez-les, puis appuyez sur <kbd>Ctrl</kbd>+<kbd>V</kbd>. Dans ce cas, vous pouvez uniquement coller le même nombre de lignes que vous avez sélectionnées.
 
           > [!NOTE]
-          > The list that you are pasting into must be editable.
+          > La liste dans laquelle vous collez doit être modifiable.
 
           <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
-      - question: Can I paste rows into an Outlook email?
+      - question: "Puis-je coller des lignes dans un e-mail Outlook\_?"
         answer: |
-          Yes. This is pasted as a nicely-formatted table that preserves indentation, numeric alignment and coloring, just as you would see in <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>.
-      - question: In which lists can I copy and paste rows?
+          Oui. Le collage s’effectue dans un tableau convivial qui conserve l’indentation, l’alignement numérique et les couleurs, tout comme vous le verriez dans [!INCLUDE[prod_short](includes/prod_short.md)].
+      - question: "Dans quelles listes puis-je copier et coller des lignes\_?"
         answer: |
-          You can copy rows in any kind of list, including worksheets, FactBoxes, or list that are embedded on a page (like lines of a sales order). However, to paste rows, the list must be editable.
+          Vous pouvez copier des lignes dans tout type de liste, y compris les feuilles de calcul, les récapitulatifs, ou les listes qui sont incorporées sur une page (telles que les lignes d’une commande vente). Toutefois, pour coller des lignes, la liste doit être modifiable.
 
-          On some pages, the application design may prevent you from pasting rows. Contact your administrator or application developer to change the <bpt id="p1">[</bpt>Editable property<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property)</ept> on the page or <bpt id="p2">[</bpt>PasteIsValid property<ept id="p2">](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property)</ept> on the source table.
-      - question: On which clients is copy and paste available?
+          Dans certaines pages, la conception de l’application peut vous empêcher de coller des lignes. Contactez votre administrateur ou développeur d’application pour modifier la [propriété modifiable](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) dans la page ou la [propriété PasteIsValid](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) du tableau source.
+      - question: "Sur quels clients la fonction Copier/Coller est-elle disponible\_?"
+        answer: "La fonction Copier/Coller est disponible dans le navigateur ou l’application [!INCLUDE[prod_short](includes/prod_short.md)] Windows\_10.\n"
+      - question: "Quel est le nombre maximal de lignes pouvant être copié\_?"
+        answer: "Vous pouvez copier autant de lignes que vous pouvez faire défiler dans la vue. Par exemple, pour copier 1\_000\_lignes dans une page, vous devez d’abord faire défiler jusqu’au bas de la page et attendre que les lignes s’affichent avant de les copier. Le nombre maximal de lignes que vous pouvez copier est uniquement limité par la mémoire de votre périphérique.\n"
+      - question: "Dois-je avoir exactement le même nombre de colonnes en collant des lignes\_?"
         answer: |
-          Copy and paste are available in the browser or the <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> app for Windows 10.
-      - question: What is the maximum number of rows that can be copied?
+          Oui. Que vous copiiez depuis [!INCLUDE[prod_short](includes/prod_short.md)], d’Excel, ou d’un autre tableau d’origine, les lignes que vous collez dans [!INCLUDE[prod_short](includes/prod_short.md)] doivent avoir les mêmes colonnes correspondantes - ni plus ni moins.
+      - question: "Pourquoi est-ce que j’obtiens des erreurs en collant des lignes\_?"
         answer: |
-          You can copy as many rows as you have scrolled into view. For example, to copy all 1000 rows on a page, you must first scroll to the bottom of the page and wait for the rows to appear before copying. The maximum number of rows you can copy is only limited by the memory of your device.
-      - question: Must I have the exact same number of columns when pasting rows?
+          Lorsque vous collez dans [!INCLUDE[prod_short](includes/prod_short.md)], chaque ligne est vérifiée pour s’assurer que les valeurs de chaque colonne sont valides. Si une colonne contient une valeur qui n’est pas valide, le collage arrêté, et un message d’erreur s’affiche. Pour éviter cela, assurez-vous que les colonnes ont des valeurs valides avant de les coller.
+      - question: "Puis-je également copier des liens vers des pages et des enregistrements\_?"
         answer: |
-          Yes. Whether you are copying from <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>, from Excel, or from some other table source, the rows that you paste into <ph id="ph2">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> must have the exact matching columns - no more no less.
-      - question: Why do I get errors when pasting rows?
-        answer: |
-          When pasting into <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>, each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them.
-      - question: Can I also copy links to pages and records?
-        answer: |
-          Yes. For more information, see <bpt id="p1">[</bpt>Sharing Business Data from Business Central<ept id="p1">](across-share-data-features.md)</ept>.
-additionalContent: |
-  ## Next steps
-  Find related information here: 
-    - <bpt id="p1">[</bpt>Assistive Features<ept id="p1">](ui-accessibility.md)</ept>  
-    - <bpt id="p1">[</bpt>Getting Ready for Doing Business<ept id="p1">](ui-get-ready-business.md)</ept>  
-    - <bpt id="p1">[</bpt>Work with <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph><ept id="p1">](ui-work-product.md)</ept>  
-    - <bpt id="p1">[</bpt>Frequently Asked Questions<ept id="p1">](across-faq.yml)</ept>
+          Oui. Pour plus d’informations, voir [Partage de données métier à partir de Business Central](across-share-data-features.md).
+additionalContent: "## Étapes suivantes\nTrouvez des informations relatives ici\_: \n  - [Fonctionnalités d’assistance](ui-accessibility.md)  \n  - [Préparation aux activités commerciales](ui-get-ready-business.md)  \n  - [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Forum Aux Questions](across-faq.yml)  \n"

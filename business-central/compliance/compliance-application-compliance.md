@@ -1,26 +1,25 @@
 ---
 title: Conformité des applications
-description: 'Cette rubrique explique la conformité des applications concernant Business Central, comme les normes internationales de génération d’états financiers, les fonctionnalités locales et le RGPD.'
+description: 'Cet article explique comment Business Central respecte les normes internationales sur les états financiers, la fonctionnalité locale et les lois et réglementations sur la confidentialité.'
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 08/25/2022
 ms.author: soalex
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 04/25/2023
+ms.custom: bap-template
 ---
+
 # Conformité des applications
 
-Ce contenu comporte des informations sur la conformité des applications concernant [!INCLUDE[prod_short](../includes/prod_short.md)], comme les normes internationales de génération d’états financiers, les fonctionnalités locale, le Règlement général sur la protection des données (RGPD) et plus encore. La confiance dans une solution de gestion d’entreprise est essentielle à un activité efficace. Avec Business Central, les sociétés ont la possibilité de rationaliser les processus d’entreprise tout en respectant uniformément et de façon rentable les exigences de plus en plus strictes en matière de réglementation et de génération d’états.
+Cet article fournit des informations sur la façon dont [!INCLUDE [prod_short](../includes/prod_short.md)] permet aux sociétés de rationaliser les processus d’entreprise tout en respectant de manière cohérente et rentable les exigences de plus en plus strictes en matière de réglementation et de rapports.
 
 ## Confidentialité des données
 
-Business Central prend en charge les initiatives relatives à la confidentialité des données, telles que le Règlement général sur la protection des données (RGPD) entré en vigueur le 25 mai 2018. Découvrez de quelle manière [Business Central prend en charge le RGPD](../admin-responding-to-requests-about-personal-data.md).  
+[!INCLUDE [prod_short](../includes/prod_short.md)] prend en charge les lois et réglementations sur la confidentialité des données. [Découvrez comment répondre aux demandes de la personne concernée dans Business Central](../admin-responding-to-requests-about-personal-data.md).
 
-Si vous êtes développeur d’extensions Business Central, vous devez savoir comment classer les données. Découvrez plus d’informations sur [cette page](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
-Si vous souhaitez plus d’informations sur le RGPD d’une perspective plus vaste que Dynamics 365, consultez [cette liste de livres blancs](/dynamics365/get-started/gdpr/).
+Si vous développez des extensions [!INCLUDE [prod_short](../includes/prod_short.md)], vous devez savoir [comment les données sont classées dans Dynamics 365](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
+
+[En savoir plus sur la confidentialité des données dans Dynamics 365](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## Processus et contrôles comptables pour favoriser la conformité
 
@@ -36,7 +35,7 @@ Le conformité dépend non seulement d’informations précises et de processus 
 
 ## Découvrir les avantages d’une solution de gestion d’entreprise intégrée
 
-Business Central fournit des informations opérationnelles et financières, intégrées et en temps réel, de l’ensemble de votre organisation, afin que vous puissiez :
+[!INCLUDE [prod_short](../includes/prod_short.md)] fournit des informations opérationnelles et financières, intégrées et en temps réel, de l’ensemble de votre organisation, afin que vous puissiez :
 
 - Effectuer le suivi des données financières à l’aide d’états financiers personnalisés pour la trésorerie, les recettes, les bilans, les immobilisations, la structure financière, les indicateurs de performance clés, et plus encore.
 - Aider à assurer la précision avec une sécurité basée sur les rôles et des contrôles d’application configurables qui empêchent la saisie de données non valides ou en double.
@@ -45,7 +44,7 @@ Business Central fournit des informations opérationnelles et financières, int
 
 ## Prendre le contrôle de données, processus et des états confidentiels
 
-Business Central améliore le contrôle des fonctions clés et des informations essentielles au bon fonctionnement financier de votre entreprise.
+[!INCLUDE [prod_short](../includes/prod_short.md)] améliore le contrôle des fonctions clés et des informations essentielles au bon fonctionnement financier de votre entreprise.
 
 ### Gérer la conformité par rapport aux normes qui importent
 
@@ -90,7 +89,7 @@ Microsoft crée des versions localisées de Business Central pour un nombre lim
 
 > [!NOTE]  
 > **IAS/IFRS : Normes de constatation et de mesure**  
-> Selon les GAAP locaux actuellement en service, l’une des principales modifications de la constatation et de la mesure pour les normes IAS/IFRS est l’utilisation étendue de principes de juste valeur au lieu du coût historique. Business Central peut aider les sociétés à calculer les concepts de juste valeur et de valeur actuelle nette, qui sont concentrés sur les flux de trésorerie actuels et anticipés au lieu du prix d’achat historique. Du côté de la génération d’états, il peut fournir la génération d’états de dimension de segment par centre de profit et emplacement géographique.
+> Selon les GAAP locaux actuellement en service, l’une des principales modifications de la constatation et de la mesure pour les normes IAS/IFRS est l’utilisation étendue de principes de juste valeur au lieu du coût historique. [!INCLUDE [prod_short](../includes/prod_short.md)] peut aider les sociétés à calculer les concepts de juste valeur et de valeur actuelle nette, qui sont concentrés sur les flux de trésorerie actuels et anticipés au lieu du prix d’achat historique. Du côté de la génération d’états, il peut fournir la génération d’états de dimension de segment par centre de profit et emplacement géographique.
 
 > [!NOTE]  
 > **Bâle II : Implications pour la génération d’états et l’analyse**  
