@@ -28,7 +28,9 @@ Une commande Shopify classique peut inclure des coûts en plus du sous-total, co
 
 Activez **Créer automatiquement des commandes** pour créer automatiquement des documents vente dans [!INCLUDE[prod_short](../includes/prod_short.md)] après l’importation de la commande Shopify.
 
-Le document vente dans [!INCLUDE[prod_short](../includes/prod_short.md)] contient un lien vers la commande Shopify. Si vous sélectionnez le champ **N° commande sur n° ligne doc. Shopify**, ces informations sont répétées dans les ligne vente de type *Commentaire*.
+Si vous souhaitez lancer automatiquement un document de vente, activez le bouton bascule **Lancer automatiquement les commandes vente**.
+
+Le document de vente dans [!INCLUDE[prod_short](../includes/prod_short.md)] génère un lien vers la commande Shopify, et vous pouvez ajouter un champ qui n’est pas déjà affiché sur la page. Pour en savoir plus sur l’ajout d’un champ, accédez à [Commencer à personnaliser une page via la bannière **Personnalisation**](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Si vous sélectionnez le champ **N° commande sur n° ligne doc. Shopify**, ces informations sont répétées dans les ligne vente de type **Commentaire**.
 
 Dans le champ **Origine zone recouvrement**, vous pouvez définir la priorité en matière de sélection du code zone recouvrement ou du groupe comptabilisation marché TVA en fonction de l’adresse. La commande Shopify importée contient des informations sur les taxes, mais celles-ci sont recalculées lorsque vous créez le document de vente. Il est donc important que les paramètres de TVA/taxe soient corrects dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Pour plus d’informations sur les taxes, voir [Configurer les taxes pour la connexion Shopify](setup-taxes.md).
 
@@ -75,11 +77,11 @@ La procédure suivante décrit comment importer et mettre à jour les commandes 
 > [!NOTE]  
 > Lors du filtrage par balise, vous devez utiliser les jetons de filtre `@` et `*`. Par exemple, si vous souhaitez importer des commandes contenant *tag1*, utilisez `@*tag1*`. `@` assurera que le résultat respecte la casse, tandis que `*` recherche des commandes avec plusieurs balises.
 
-7. Cliquez sur le bouton **OK**.
+6. Cliquez sur le bouton **OK**.
 
 Sinon, vous pouvez rechercher le traitement par lots **Synchroniser les commandes à partir de Shopify**.
 
-Vous pouvez programmer la tâche pour qu’elle soit exécutée de manière automatisée. En savoir plus dans la section [Programmer des tâches récurrentes](background.md#to-schedule-recurring-tasks).
+Vous pouvez programmer la tâche pour qu’elle soit exécutée automatiquement. En savoir plus dans la section [Programmer des tâches récurrentes](background.md#to-schedule-recurring-tasks).
 
 ## Passer en revue les commandes importées
 
@@ -132,20 +134,24 @@ Les étapes suivantes dépendent du champ **Type de mappage client**.
 
 Dans Shopify :
 
-|Modifier|Impact|
-|------|-----------|
-|Modifier l’emplacement d’exécution | L’emplacement d’origine sera synchronisé avec [!INCLUDE[prod_short](../includes/prod_short.md)]. |
-|Modifier le lieu d’exécution et enregistrer l’exécution dans Shopify| Si la commande a déjà été importée, les lignes ne seront pas mises à jour. Sinon, la commande importée utilisera l’emplacement d’exécution. |
-|Modifier une commande et modifier la quantité| L’en-tête de la commande et les tableaux supplémentaires seront mis à jour dans [!INCLUDE[prod_short](../includes/prod_short.md)], les lignes ne le seront pas. |
-|Modifier une commande et ajouter un nouvel article | L’en-tête de la commande sera mis à jour, pas les lignes. |
+|Modifier|Impact pour la commande déjà importée|Impact pour la commande importée pour la première fois|
+|------|-----------|-----------|
+|Modifier l’emplacement d’exécution | L’emplacement d’origine est dans les lignes | L’emplacement d’exécution est synchronisé avec [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Modifier une commande et accroître sa quantité| L’en-tête de la commande et les tableaux supplémentaires seront mis à jour dans [!INCLUDE[prod_short](../includes/prod_short.md)], les lignes ne le seront pas.| La commande importée utilise la nouvelle quantité|
+|Modifier une commande et réduire sa quantité| L’en-tête de la commande et les tableaux supplémentaires seront mis à jour dans [!INCLUDE[prod_short](../includes/prod_short.md)], les lignes ne le seront pas.| La commande importée utilise la quantité d’origine, le champ Quantité réalisable contient une nouvelle valeur.|
+|Modifier une commande et supprimer un article existant | L’en-tête de la commande et les tableaux supplémentaires seront mis à jour dans [!INCLUDE[prod_short](../includes/prod_short.md)], les lignes ne le seront pas.| L’article supprimé est toujours importé, le champ Quantité réalisable contient la valeur zéro. |
+|Modifier une commande et ajouter un nouvel article | L’en-tête de la commande sera mis à jour, pas les lignes. | Les articles originaux et ajoutés sont importés. |
+|Traiter la commande : remplir, mettre à jour les informations de paiement | L’en-tête de la commande est mis à jour, pas les lignes. |Le changement n’a aucun impact sur la façon dont la commande est importée.|
+|Annuler une commande | L’en-tête de la commande est mis à jour, pas les lignes. |La commande annulée n’est pas importée |
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)] :
 
 |Modifier|Impact|
 |------|-----------|
-|Changez l’emplacement en un autre emplacement, mappé sur les magasins Shopify. Validez l’expédition. | Après la synchronisation de l’exécution, l’emplacement sera mis à jour dans Shopify. |
+|Changez l’emplacement en un autre emplacement, mappé sur les magasins Shopify. Validez l’expédition. | La commande est marquée comme exécutée. L’emplacement d’origine est utilisé. |
 |Changez l’emplacement en un autre emplacement, non mappé sur les magasins Shopify. Validez l’expédition. | Le traitement ne sera pas synchronisé avec Shopify. |
-|Modifiez la diminution de quantité. Validez l’expédition. | La commande Shopify est marquée comme partiellement exécutée. |
+|Réduisez la quantité. Validez l’expédition. | La commande Shopify est marquée comme partiellement exécutée. |
+|Augmentez la quantité. Validez l’expédition. | Le traitement ne sera pas synchronisé avec Shopify. |
 |Ajoutez un nouvel article. Validez l’expédition. | La commande Shopify est marquée comme exécutée. Les lignes ne sont pas mises à jour. |
 
 ## Synchroniser les livraisons avec Shopify
@@ -162,7 +168,8 @@ Sinon, utilisez l’action **Synchroniser les expéditions** sur les pages Comma
 
 Vous pouvez programmer la tâche pour qu’elle soit exécutée de manière automatisée. En savoir plus dans la section [Programmer des tâches récurrentes](background.md#to-schedule-recurring-tasks).
 
->[Important] L’emplacement, y compris l’emplacement vide, défini dans la ligne d’expédition enregistrée doit avoir un enregistrement correspondant dans l’emplacement Shopify. Sinon, cette ligne ne sera pas renvoyée à Shopify. En savoir plus sur le [Mappage d’emplacement](synchronize-orders.md#location-mapping).
+>[!Important]
+>L’emplacement, y compris l’emplacement vide, défini dans la ligne d’expédition enregistrée doit avoir un enregistrement correspondant dans l’emplacement Shopify. Sinon, cette ligne ne sera pas renvoyée à Shopify. En savoir plus sur le [Mappage d’emplacement](synchronize-orders.md#location-mapping).
 
 N’oubliez pas d’exécuter **Synchroniser les commandes à partir de Shopify** pour mettre à jour le statut d’exécution d’une commande dans [!INCLUDE[prod_short](../includes/prod_short.md)]. La fonctionnalité du connecteur archive également les commandes entièrement payées et exécutées à la fois dans Shopify et dans [!INCLUDE[prod_short](../includes/prod_short.md)] si les conditions sont remplies.
 
