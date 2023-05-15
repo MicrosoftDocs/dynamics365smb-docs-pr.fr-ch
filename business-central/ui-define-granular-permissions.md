@@ -76,7 +76,7 @@ La maintenance est également plus facile. Lorsque vous ajoutez une autorisation
   |**Réduire à Indirect**|Modifiez le niveau d’accès sur Indirect si des ensembles d’autorisations donnent un accès Direct à l’objet. Par exemple, choisissez cette option si l’ensemble d’autorisations donne un accès direct aux écritures comptables, mais vous ne voulez pas que les utilisateurs aient un accès complet aux écritures.|
   
   > [!NOTE]
-  > Si une autorisation est à la fois incluse et exclue, l’autorisation sera exclue.
+  > Si une autorisation se trouve à la fois dans un ensemble d’autorisations qui est inclus et dans un ensemble d’autorisations qui est exclu, l’autorisation sera exclue.
 
 6. Utilisez les champs **Type d’objet** et **ID d’objet** pour spécifier l’objet auquel vous donnez accès.
 
