@@ -350,9 +350,11 @@
 #### Configuration de la TVA
 ##### [Configuration de la TVA (taxe sur la valeur ajoutée)](finance-setup-vat.md)
 ##### [Configuration du groupe comptabilisation](finance-posting-groups.md#tax-posting-groups)
+##### [Configuration de la TVA non déductible](finance-setup-nondeductible-vat.md)
 ##### [Configuration de la TVA sur encaissement](finance-setup-unrealized-vat.md)
 ##### [Configuration d’une déclaration de TVA](finance-how-setup-vat-statement.md)
 #### [Utilisation de la TVA sur les ventes et les achats](finance-work-with-vat.md)
+#### [Utilisation de la TVA non déductible](finance-how-use-non-deductible-vat.md)
 #### [Envoi des déclarations de TVA aux autorités fiscales](finance-how-report-vat.md)
 #### [Gestion des changements de taux de TVA](finance-how-use-vat-rate-change-tool.md)
 #### [Validation des n° identif. intracomm.](finance-how-validate-vat-registration-number.md)
