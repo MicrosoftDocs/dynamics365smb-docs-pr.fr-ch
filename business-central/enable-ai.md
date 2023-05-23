@@ -1,6 +1,6 @@
 ---
 title: Configuration du texte marketing article optimisé par l’IA (version préliminaire) avec Copilot
-description: Cet article explique comment obtenir une version d’essai Copilot de Business Central et activer Copilot sur un environnement
+description: Cet article explique comment obtenir une version d’essai Copilot de Business Central et activer Copilot sur un environnement.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -24,10 +24,10 @@ Si l’une de ces conditions n’est pas remplie, la fonctionnalité ne pourra p
 
 Vous utilisez une [version préliminaire](ai-preview-getstarted.md) de Business Central qui est activée pour Copilot. L’activation de Copilot est effectuée par un administrateur. Pour plus d’informations, accédez à [Configurer le texte marketing d’un article basé sur l’IA avec Copilot](enable-ai.md).
 
-## Activez ou désactivez la fonctionnalité « Création de descriptions de produits optimisées par l’IA avec Copilot »
+## Activez ou désactivez la fonctionnalité Création de descriptions de produits optimisées par l’IA avec Copilot
 
 1. Dans Business Central, recherchez et ouvrez la page **Gestion des fonctionnalités**.
-2. Définissez la colonne **Activé pour** pour **version préliminaire de la fonctionnalité : Créer des descriptions de produits basées sur l’IA avec la fonctionnalité Copilot** sur **Tous les utilisateurs** pour activer la fonctionnalité ou **Aucun** pour la désactiver.
+2. Définissez la colonne **Activé pour** pour **version préliminaire de la fonctionnalité : Créer des descriptions de produits basées sur l’IA avec Copilot** sur **Tous les utilisateurs** pour activer la fonctionnalité ou **Aucun** pour la désactiver.
 
    Pour plus d’informations sur la gestion des fonctionnalités en général, accédez à [Gestion des fonctionnalités](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -39,7 +39,7 @@ Vous utilisez une [version préliminaire](ai-preview-getstarted.md) de Business 
 
 ## Étapes suivantes
 
-Après avoir activé et accepté la fonctionnalité, vous êtes prêt à essayer Copilot sur des éléments dans Business Central. Accédez à [Ajouter du texte marketing aux articles](item-marketing-text.md).  
+Après avoir activé et accepté la fonctionnalité, vous êtes prêt à essayer Copilot sur des éléments dans Business Central. Accédez à [Ajouter du texte marketing aux articles](item-marketing-text.md).  
 
 ## Voir aussi
 
