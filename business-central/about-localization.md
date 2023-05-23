@@ -53,7 +53,7 @@ Pour en savoir plus sur les fonctionnalités locales de chaque pays/région, cli
 [!INCLUDE[prod_short](includes/prod_short.md)] est également disponible sur d’autres marchés via des applications de localisation. Si un partenaire Microsoft a développé une application de localisation pour votre pays/région, vous pouvez la trouver dans [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## Voir aussi
-
+[Créer des environnements](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Conformité](compliance/compliance-overview.md)  
 [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

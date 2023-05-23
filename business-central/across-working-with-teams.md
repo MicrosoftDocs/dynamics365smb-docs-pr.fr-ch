@@ -2,13 +2,13 @@
 title: "Partage d’enregistrements Business\_Central dans Microsoft Teams"
 description: "Découvre comment utiliser l’application Business\_Central pour Microsoft Teams."
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.service: dynamics365-business-central
+ms.reviewer: jswymer
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records'
-ms.date: 09/22/2022
+ms.date: 16/18/2023
 ms.author: jswymer
+ms.custom: bap-template
 ---
 
 # Partage d’enregistrements et de liens de page Business Central dans Microsoft Teams
@@ -68,17 +68,16 @@ Avec l’application Business Central pour Teams, vous pouvez copier un lien à 
 
     > [!TIP]
     > Si vous recevez un message du type : *Business Central souhaite afficher un aperçu de ce lien.*, cela signifie que l’application Business Central pour Teams n’est pas installée. Pour installer l’application, sélectionnez **Afficher l’aperçu** et suivez les instructions.
-6. La première fois que vous collez un lien dans une conversation, vous serez invité à vous connecter à [!INCLUDE [prod_short](includes/prod_short.md)] et à autoriser l’application à récupérer des données. Suivez simplement les instructions à l’écran.
 
     > [!NOTE]
-    > Vous ne devez effectuer cette étape qu’une seule fois.
-7. Attendez un moment pendant qu’une fiche soit générée dans la boîte de message.
-8. Lorsque la fiche apparaît, examinez attentivement don contenu pour toute information sensible avant d’envoyer le message. Cette étape est importante, car une fois que vous envoyez le message, tous les participants à la conversation peuvent voir la fiche.
-9. Si la fiche semble bonne, sélectionnez **Envoyer** pour la soumettre à la conversation.
+    > Selon votre version de Business Central, la première fois que vous collez un lien dans une conversation, vous pouvez être invité à vous connecter [!INCLUDE [prod_short](includes/prod_short.md)] et à autoriser l’application à récupérer des données. Suivez simplement les instructions à l’écran. Vous n’aurez à effectuer cette étape qu’une seule fois.
+6. Attendez un moment pendant qu’une fiche soit générée dans la boîte de message.
+7. Lorsque la fiche apparaît, examinez attentivement don contenu pour toute information sensible avant d’envoyer le message. Cette étape est importante, car une fois que vous envoyez le message, tous les participants à la conversation peuvent voir la fiche.
+8. Si la fiche semble bonne, sélectionnez **Envoyer** pour la soumettre à la conversation.
 
     > [!TIP]
     > Après l’apparition de la fiche et avant de sélectionner **Envoyer**, vous pouvez supprimer l’URL collée si vous le souhaitez.
-10. Pour afficher plus de détails ou apporter des modifications à l’enregistrement montré dans la fiche, sélectionnez **Détails**. Pour plus d’informations, voir la section suivante.
+9. Pour afficher plus de détails ou apporter des modifications à l’enregistrement montré dans la fiche, sélectionnez **Détails**. Pour plus d’informations, voir la section suivante.
 
 ### Afficher les détails de la fiche
 

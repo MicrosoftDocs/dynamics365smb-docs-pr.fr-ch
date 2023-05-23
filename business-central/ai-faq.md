@@ -35,15 +35,15 @@ Pour que Copilot soit disponible, les conditions suivantes doivent être remplie
 - La langue que vous utilisez dans Business Central doit être l’anglais. Tous les paramètres régionaux anglais disponibles fonctionneront, comme l’anglais (États-Unis), l’anglais (Royaume-Uni) ou l’anglais (Afrique du Sud).
 
   Pour modifier la langue, dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") > **Mes paramètres** > **Langue**. Pour plus d’informations, consultez [Modifier les paramètres de base](ui-change-basic-settings.md#language).
-- Vous devez utiliser la version 22 ou ultérieure de Business Central Online (si vous êtes déjà client) ou une version d’évaluation.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->.
+- Vous devez utiliser la version 22 ou ultérieure de Business Central Online (si vous êtes déjà client) ou une version d’évaluation.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->
 
-   Pour vérifier la version, sélectionnez le point d’interrogation dans le coin supérieur droit, puis **Aide et support**. Sous **Résolution des problèmes**, recherchez la version de l’application. Pour plus d’informations sur la façon d’obtenir la bonne version préliminaire, accédez à [Commencer par une version préliminaire de Business Central](ai-preview-getstarted.md).
+   Pour vérifier la version, sélectionnez le point d’interrogation dans le coin supérieur droit, puis sélectionnez **Aide et support**. Sous **Résolution des problèmes**, recherchez la version de l’application. Pour plus d’informations sur la façon d’obtenir la bonne version préliminaire, accédez à [Commencer par une version préliminaire de Business Central](ai-preview-getstarted.md).
 - La fonctionnalité **Créer des descriptions de produits optimisées par l’IA avec Copilot** doit être activée.
 
-   Pour plus d’informations, accédez à [Activer ou désactiver la fonctionnalité "Créer des descriptions de produits basées sur l’IA avec Copilot"](enable-ai.md#enable-or-disable-the-create-ai-powered-product-descriptions-with-copilot-feature).
+   Pour plus d’informations, accédez à [Activer ou désactiver la fonctionnalité "Créer des descriptions de produits basées sur l’IA avec Copilot"](enable-ai.md#enable-or-disable-create-ai-powered-product-descriptions-with-copilot).
 - Un administrateur a accepté les termes et conditions.
 
-   Pour plus d’informations, accédez à [Accepter ou rejeter les conditions d’utilisation de la version préliminaire et de confidentialité pour tous les utilisateurs](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+   Pour plus d’informations, accédez à [Accepter ou rejeter les conditions d’utilisation de la version préliminaire et de confidentialité pour tous les utilisateurs](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ### Est-ce que Copilot est disponible en version préliminaire dans Business Central sur site ?
 
@@ -63,9 +63,9 @@ Pour plus d’informations sur les suggestions inappropriées, consultez [Que fa
 
 Il y a plusieurs choses que vous pouvez faire pour tirer le meilleur parti des suggestions de Copilot :
 
-- Ajouter plus d’attributs à un article pour promouvoir les fonctionnalités et caractéristiques spécifiques qui vous intéressent
+- Ajouter plus d’attributs à un article pour promouvoir les fonctionnalités et caractéristiques spécifiques qui vous intéressent.
 - Modifiez les options de ton de voix et d’accentuation de la qualité en fonction de vos préférences personnelles.
-- Améliorer la description de l’article
+- Améliorer la description de l’article.
 - Assurez-vous que l’article est attribué à la catégorie la plus appropriée.
 
 Pour en savoir plus, accédez à [Améliorer et personnaliser les suggestions de texte](item-marketing-text.md#improve-and-tailor-text-suggestions).
@@ -98,7 +98,7 @@ Actuellement, Copilot ne prend en charge que l’anglais. Des réponses inexacte
 
 ### Que fait-on des suggestions de texte abusives et préjudiciables ?
 
-Le service Azure OpenAI stocke les invites et les réalisations du service pour surveiller les utilisations abusives et pour développer et améliorer la qualité des systèmes de gestion de contenu d’Azure OpenAI. [En savoir plus sur notre gestion et notre filtrage de contenu](/azure/cognitive-services/openai/concepts/content-filter).
+Le service Azure OpenAI stocke les invites et les réalisations du service pour surveiller les utilisations abusives et pour développer et améliorer la qualité des systèmes de gestion de contenu d’Azure OpenAI. [En savoir plus sur notre gestion et notre filtrage de contenu](/azure/cognitive-services/openai/concepts/content-filter)
 
 Les employés Microsoft autorisés peuvent accéder à vos données d’invite et d’achèvement qui ont déclenché nos systèmes automatisés à des fins d’enquête et de vérification d’abus potentiels ; pour les clients qui ont déployé Azure OpenAI Service dans l’Union européenne, les employés Microsoft autorisés seront situés dans l’Union européenne. Ces données peuvent être utilisées pour améliorer nos systèmes de gestion de contenu. En cas de violation confirmée de la stratégie, nous pouvons vous demander de prendre des mesures immédiates pour résoudre le problème et empêcher de nouveaux abus. Le fait de ne pas résoudre le problème peut entraîner la suspension ou la résiliation de l’accès aux ressources Azure OpenAI.
 
@@ -106,7 +106,9 @@ Pour plus d’informations, consultez [Données, confidentialité et sécurité 
 
 ### Puis-je désactiver le processus de journalisation et d’examen humain ?  
 
-Dans le cadre de la fourniture des versions préliminaires d’Azure Open AI, Microsoft traitera et stockera les données client soumises au service, ainsi que le contenu de sortie, à des fins de (1) surveillance et prévention des utilisations ou sorties abusives ou nuisibles du service ; et (2) développer, tester et améliorer les capacités conçues pour empêcher l’utilisation abusive et/ou les sorties nuisibles du service. Le personnel autorisé de Microsoft peut examiner les données qui ont déclenché nos systèmes automatisés pour enquêter et vérifier les abus potentiels, et peut s’engager dans un échantillonnage aléatoire limité de termes qui ne sont pas signalés par nos systèmes automatisés pour s’assurer que les systèmes fonctionnent correctement. Le personnel autorisé de Microsoft peut également accéder à ces données et les utiliser pour améliorer nos systèmes qui surveillent et empêchent les utilisations ou sorties abusives ou nuisibles du service. En savoir plus sur [les conditions de la version préliminaire](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/)
+Dans le cadre de la fourniture des versions préliminaires d’Azure OpenAI, Microsoft traitera et stockera les données client soumises au service, ainsi que le contenu de sortie, à des fins de (1) surveillance et prévention des utilisations ou sorties abusives ou nuisibles du service ; et (2) développer, tester et améliorer les capacités conçues pour empêcher l’utilisation abusive ou les sorties nuisibles du service. 
+
+Le personnel autorisé de Microsoft peut examiner les données qui ont déclenché nos systèmes automatisés pour enquêter et vérifier les abus potentiels, et peut s’engager dans un échantillonnage aléatoire limité de termes qui ne sont pas signalés par nos systèmes automatisés pour s’assurer que les systèmes fonctionnent correctement. Le personnel autorisé de Microsoft peut également accéder à ces données et les utiliser pour améliorer nos systèmes qui surveillent et empêchent les utilisations ou sorties abusives ou nuisibles du service. En savoir plus sur [les conditions de la version préliminaire](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
 
 ## [Confidentialité](#tab/privacy)
 
@@ -125,4 +127,4 @@ Nous utilisons ces données afin d’évaluer et d’améliorer la qualité de l
 [Vue d’ensemble du texte marketing article optimisé par l’IA avec Copilot](ai-overview.md)  
 [Configuration du texte marketing article optimisé par l’IA avec Copilot en tant qu’administrateur](enable-ai.md)  
 [Créer un texte marketing pour les articles à l’aide de Copilot](item-marketing-text.md)  
-[FAQ sur le texte marketing article optimisé par l’IA avec Copilot](ai-faq.md)  
+
