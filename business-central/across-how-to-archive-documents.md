@@ -2,18 +2,18 @@
 title: Archiver les documents vente et les documents achat
 description: 'Vous pouvez archiver les commandes vente et les commandes achat, les devis, les retours et les commandes cadres, et restaurer les documents originaux si nécessaire.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
-ms.date: 03/06/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 06/02/2023
+ms.custom: bap-template
+ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ---
 # Archiver des documents
+
 Vous pouvez archiver les commandes vente et les commandes achat, les devis, les retours et les commandes cadres. L’archivage des documents vous permet de restaurer les documents originaux, si nécessaire. Vous pouvez archiver des documents vente ou achat plusieurs fois, en enregistrant une version archivée différente chaque fois.
 
-Pour les documents de vente archivés où l’original existe et n’est pas validé, vous pouvez utiliser l’action **Restaurer** pour remplacer le document actuel par une version archivée. 
+Pour les documents de vente archivés où l’original existe et n’est pas validé, vous pouvez utiliser l’action **Restaurer** pour remplacer le document actuel par une version archivée.
 
 Pour les documents archivés où l’original est désactivé, vous pouvez réutiliser le contenu uniquement en copiant les données, par exemple en utilisant l’action **Copier à partir du document**.  
 
@@ -39,9 +39,9 @@ Le tableau suivant décrit les options disponibles pour le champ **Archiver devi
 |**Question**|Invitez l’utilisateur à archiver ou non les devis lorsqu’ils sont supprimés.|
 |**Toujours**|Archivez automatiquement les devis lorsqu’ils sont supprimés.|
 
-## Pour archiver une commande vente
+## Pour archiver manuellement une commande vente
 
-La procédure suivante décrit comment archiver une commande vente. La procédure est identique pour les commandes, les commandes ouvertes, les retours et les devis.
+La procédure suivante décrit comment archiver manuellement une commande vente. La procédure est identique pour les commandes, les commandes ouvertes, les retours et les devis.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Ouvrez une commande vente que vous souhaitez archiver.  
@@ -60,18 +60,19 @@ Le contenu de la commande vente d’origine est remplacé par celui de la versio
 
 ## Pour supprimer des commandes vente archivées
 
-La procédure suivante décrit comment supprimer des commandes vente archivées. La procédure est identique pour les autres documents achat et vente archivés.
+Utilisez une stratégie de rétention pour nettoyer les documents archivés dont vous n’avez plus besoin. Les stratégies de rétention permettent aux administrateurs de définir la durée de stockage des données. Par exemple, ils peuvent configurer une stratégie qui supprime les données après une date d’expiration. Pour plus d’informations, voir [Définir les stratégies de rétention](admin-data-retention-policies.md).
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Archives commandes vente**, puis sélectionnez le lien associé.  
-2. Choisissez l’action **Supprimer les anciennes versions**, puis, sur la page **Supprimer versions cde vente archivées**, sélectionnez les filtres appropriés.  
-3. Choisissez le bouton **OK**.
+Il y a quelques points à noter concernant la création de stratégies de rétention pour les documents archivés :
+
+* *Si le document d’origine n’a pas été supprimé, Business Central ne supprime pas les versions archivées. Les versions archivées n’expirent pas tant que l’original existe.
+* Lorsque vous configurez la stratégie de rétention, vous pouvez spécifier que vous souhaitez que la stratégie supprime toutes les versions archivées d’un document, à l’exception de la plus récente. Par exemple, vous pouvez avoir 10 versions d’un document et vouloir conserver une copie de la dernière. 
+* Business Central calcule la date d’expiration des documents en fonction de la date de la version archivée la plus récente.
 
 ## Voir aussi
 
-[Suivre des lignes document](across-how-to-track-document-lines.md)  
+[Suivi des lignes document](across-how-to-track-document-lines.md)  
 [Ventes](sales-manage-sales.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -14,17 +14,20 @@ ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 902
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], le conteneur pour les données métier appartenant à une unité commerciale ou une entité juridique sont désignés en tant que *société*. Lorsque vous vous connectez à [!INCLUDE[prod_short](includes/prod_short.md)], une société de démonstration et une société vide vous sont attribuées, *Ma société*. Le basculement entre sociétés est facile : accédez simplement à **Mes paramètres** et passez à l’autre société. Vous pouvez également créer de nouvelles sociétés dans [!INCLUDE[prod_short](includes/prod_short.md)], selon les besoins de votre activité.  
 
+> [!NOTE]
+> Pour créer une entreprise, vous devez être affecté à l’ensemble d’autorisations **Super**.
+
 Lorsque vous créez une société, un guide de configuration assistée vous permet d’obtenir les fondements de base. Ensuite, vous pouvez importer des données appropriées à partir de votre système hérité ou d’une autre société dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## Choisir le bon modèle
 
-Si vous décidez d’ajouter une société à votre [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez utiliser le guide de configuration assistée **Créer une nouvelle société** pour démarrer. L’assistant de configuration est disponible à partir de la page **Sociétés** et depuis la zone de recherche dans le champ **Société** de la page **Mes paramètres**.  
+Si vous décidez d’ajouter une société à votre [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez utiliser le guide de configuration assistée **Créer une nouvelle société** pour démarrer. Le guide de configuration est disponible à partir de la page **Sociétés** et depuis la zone de recherche dans le champ **Société** de la page **Mes paramètres**.  
 
-L’assistant de configuration propose deux modèles et une option vierge :
+Le guide de configuration propose deux modèles et une option vierge :
 
-- **Évaluation - Exemples de données**  
+- **Évaluation — Exemples de données**  
     Cela crée une société qui est similaire à la société de démonstration avec des exemples de données et des données de configuration. Ce type de société est à votre disposition sans passer à une période d’essai de 30 jours, ce qui est le cas des autres types.  
 - **Production - Données de configuration uniquement**  
     Cela crée une société qui est similaire à **Ma société** avec des données de configuration, mais sans exemples de données. Vous pourrez utiliser cette société pendant une période d’évaluation de 30 jours.  
