@@ -64,7 +64,7 @@ Cette fonction ne s’applique qu’aux synchronisations de Shopify à [!INCLUDE
 
 ## Demander le jeton d’accès
 
-Si [!INCLUDE[prod_short](../includes/prod_short.md)] ne parvient pas à se connecter à votre compte Shopify, tentez de réinitialiser le jeton d’accès auprès de Shopify. Le jeton peut être nécessaire en cas de modifications des clés de sécurité ou des autorisations requises (étendues).
+Si [!INCLUDE[prod_short](../includes/prod_short.md)] ne parvient pas à se connecter à votre compte Shopify, tentez de réinitialiser le jeton d’accès auprès de Shopify. Le jeton peut être nécessaire en cas de modifications des clés de sécurité ou des autorisations requises (étendues d’application).
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Magasins Shopify** et choisissez le lien associé.
 2. Sélectionnez le magasin pour lequel vous voulez obtenir le jeton d’accès pour ouvrir la page **Fiche magasin Shopify**.
@@ -73,7 +73,7 @@ Si [!INCLUDE[prod_short](../includes/prod_short.md)] ne parvient pas à se conne
 
 Le bouton à bascule **A une clé d’accès** sera activé.
 
-### Vérifier et activer les autorisations pour effectuer des requêtes HTTP dans un environnement hors production
+## Vérifier et activer les autorisations pour effectuer des requêtes HTTP dans un environnement hors production
 
 Pour fonctionner correctement, l’extension de connecteur Shopify nécessite une autorisation pour effectuer des requêtes HTTP. Lors des tests en sandbox, les requêtes HTTP sont interdites pour toutes les extensions.
 
@@ -134,6 +134,10 @@ Sur la page **Fiche magasin Shopify**, activez le bouton bascule **Autoriser la 
 ### Erreur : Oauth error invalid_request: Could not find Shopify API application with api_key
 
 Selon toute vraisemblance, vous utilisez l’[application intégrée](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), où l’URL du client a le format : `https://[application name].bc.dynamics.com`. Le connecteur Shopify ne fonctionne pas pour les applications intégrées. Pour en savoir plus, consultez [Quels sont les produits Microsoft pour lesquels le connecteur Shopify est disponible ?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
+
+### Erreur : erreur interne. Il semble qu’un problème se soit produit de votre côté. Identifiant de la demande : XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+
+Veuillez contacter le support Shopify dans les 7 jours suivant l’apparition de cette erreur, et fournissez l’identifiant de la demande. Pour en savoir plus, rendez-vous sur [Options de support pour Shopify](shopify-faq.md#shopify).
 
 ## Voir aussi
 

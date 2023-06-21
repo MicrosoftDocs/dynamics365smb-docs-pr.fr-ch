@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 03/24/2022
+ms.date: 05/12/2023
 ms.author: bholtorf
 ---
 # Détails de conception : modes évaluation stock
@@ -32,13 +32,22 @@ L’image suivante montre la manière dont les coûts circulent dans le stock po
 ![Visualisation des modes évaluation stock.](media/design_details_inventory_costing_7_costing_methods.png "Visualisation des modes évaluation stock")  
 
 Les méthodes d’évaluation du stock diffèrent dans la façon d’évaluer les sorties de stock et d’utiliser le coût réel ou le coût standard comme base d’évaluation. Le tableau suivant explique les différentes caractéristiques. (La méthode LIFO est exclue, car elle est presque identique à la méthode FIFO).  
-
-|Catégorie|FIFO|Moyenne|Standard|Spécifique|  
+<!--Old  table
+|Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
-|Caractéristiques générales|Facile à comprendre|Sur la base des options de période : **Jour**/**Semaine**/**Mois**/**Trimestre**/**Période comptable**.<br /><br /> Peut être calculé par article ou par article/magasin/variante.|Facile à utiliser, mais requiert une maintenance qualifiée.|Requiert une traçabilité à la fois sur les transactions entrante et sortante.<br /><br /> Généralement utilisé pour les articles fabriqués de série.|  
-|Lettrage/Ajustement|Le lettrage effectue le suivi de **la quantité restante**.<br /><br /> L’ajustement transfère les coûts en fonction de l’application de quantité.|Le lettrage effectue le suivi de la **quantité restante**.<br /><br /> Les coûts sont calculés et transférés par **date d’évaluation**.|Le lettrage effectue le suivi de la **quantité restante**.<br /><br /> Le lettrage est basé sur la méthode FIFO.|Tous les lettrages sont fixes.|  
-|Réévaluation|Réévalue uniquement la quantité facturée.<br /><br /> Peut être effectué par article ou par écriture comptable article.<br /><br /> Peut être fait à une date antérieure.|Réévalue uniquement la quantité facturée.<br /><br /> Peut être effectué par article uniquement.<br /><br /> Peut être fait à une date antérieure.|Réévalue les quantités facturées et non facturées.<br /><br /> Peut être effectué par article ou par écriture comptable article.<br /><br /> Peut être fait à une date antérieure.|Réévalue uniquement la quantité facturée.<br /><br /> Peut être effectué par article ou par écriture comptable article.<br /><br /> Peut être fait à une date antérieure.|  
-|Charges diverses de gestion|Si vous antidatez une sortie de stock, les écritures existantes ne sont PAS relettrées pour présenter un flux de coût FIFO correct.|Si vous antidatez une entrée ou une sortie de stock, le coût moyen est recalculé, et toutes les écritures affectées sont ajustées.<br /><br /> Si vous modifiez la période ou un type de calcul, toutes les écritures affectées doivent être ajustées.|Utilisez la page **Feuille standard** pour régulièrement mettre à jour et rouler les coûts standard.<br /><br /> N’est PAS pris en charge par le point de stock.<br /><br /> Aucun enregistrement historique n’existe pour les coûts standard.|Vous pouvez utiliser le suivi d’article spécifique sans utiliser le mode d’évaluation spécifique. Alors le coût ne suit PAS le numéro de lot, mais l’acceptation du coût du mode d’évaluation sélectionné.|  
+|General characteristic|Easy to understand|Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period**.<br /><br /> Can be calculated per item or per item/location/variant.|Easy to use, but requires qualified maintenance.|Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialized items.|  
+|Application/Adjustment|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|All applications are fixed.|  
+|Revaluation|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|  
+|Miscellaneous|If you back-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
+-->
+<!--Table flipped for slightly better readability -->
+
+||Caractéristiques générales|Lettrage/Ajustement |Réévaluation|Charges diverses de gestion |
+|-|---------|---------|---------|---------|
+|**FIFO**     |Facile à comprendre|Le lettrage effectue le suivi de **la quantité restante**.<br /><br /> L’ajustement transfère les coûts en fonction de l’application de quantité. |Réévalue uniquement la quantité facturée.<br /><br /> Peut être effectué par article ou par écriture comptable article.<br /><br /> Peut être fait à une date antérieure.|Si vous antidatez une sortie de stock, les écritures existantes ne sont PAS relettrées pour présenter un flux de coût FIFO correct.|
+|**Moyenne**     |Sur la base des options de période : **Jour**/**Semaine**/**Mois**/**Trimestre**/**Période comptable**.<br /><br /> Peut être calculé par article ou par article/magasin/variante.|Le lettrage effectue le suivi de la **quantité restante**.<br /><br /> Les coûts sont calculés et transférés par **date d’évaluation**. |Réévalue uniquement la quantité facturée.<br /><br /> Peut être effectué par article uniquement.<br /><br /> Peut être fait à une date antérieure. |Si vous antidatez une entrée ou une sortie de stock, le coût moyen est recalculé, et toutes les écritures affectées sont ajustées.<br /><br /> Si vous modifiez la période ou un type de calcul, toutes les écritures affectées doivent être ajustées.|
+|**Standard**     |Facile à utiliser, mais requiert une maintenance qualifiée.|Le lettrage effectue le suivi de la **quantité restante**.<br /><br /> Le lettrage est basé sur la méthode FIFO.|Réévalue les quantités facturées et non facturées.<br /><br /> Peut être effectué par article ou par écriture comptable article.<br /><br /> Peut être fait à une date antérieure.|Utilisez la page **Feuille standard** pour régulièrement mettre à jour et rouler les coûts standard.<br /><br /> N’est PAS pris en charge par le point de stock.<br /><br /> Aucun enregistrement historique n’existe pour les coûts standard.|
+|**Spécifique**     |Requiert une traçabilité à la fois sur les transactions entrante et sortante.<br /><br /> Généralement utilisé pour les articles fabriqués de série.|Tous les lettrages sont fixes.|Réévalue uniquement la quantité facturée.<br /><br /> Peut être effectué par article ou par écriture comptable article.<br /><br /> Peut être fait à une date antérieure.|Vous pouvez utiliser le suivi d’article spécifique sans utiliser le mode d’évaluation spécifique. Alors le coût ne suit PAS le numéro de lot, mais l’acceptation du coût du mode d’évaluation sélectionné.|
 
 ## Exemple :
 
@@ -140,13 +149,14 @@ Pour les articles qui utilisent le mode d’évaluation stock **Standard**, les 
 
 ## Voir aussi
 
- [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
- [Détails de conception : écart](design-details-variance.md)   
- [Détails de conception : coût moyen](design-details-average-cost.md)   
- [Détails de conception : lettrage article](design-details-item-application.md)  
- [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
- [Finances](finance.md)  
- [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Détails de conception : mode d’évaluation stock](design-details-inventory-costing.md)  
+[Détails de conception : écart](design-details-variance.md)  
+[Détails de conception : coût moyen](design-details-average-cost.md)  
+[Détails de conception : lettrage article](design-details-item-application.md)  
+[Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
+[Finance](finance.md)  
+[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Glossaire des termes dans les processus métier Dynamics 365](/dynamics365/guidance/business-processes/glossary)  
+[Vue d’ensemble Définir les coûts des produits et des services](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

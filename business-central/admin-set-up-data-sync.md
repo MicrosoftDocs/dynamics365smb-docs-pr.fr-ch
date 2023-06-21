@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# Se préparer à synchroniser les données de base
+# Préparation à la synchronisation des données principales
 
-Lorsque vous avez deux sociétés ou plus qui utilisent au moins certaines des mêmes données de base, vous pouvez gagner du temps lors de la saisie des données en les synchronisant dans les sociétés. La synchronisation des données est particulièrement utile lorsque vous créez des filiales.
+Lorsqu’au moins deux sociétés utilisent certaines des mêmes données principales, vous pouvez synchroniser les données plutôt que de les ajouter manuellement dans chaque société. Par exemple, la synchronisation des données est particulièrement utile lorsque vous créez des filiales.
 
-Les données de base incluent les paramètres et les informations non transactionnelles sur les entités commerciales, telles que les clients, les fournisseurs, les articles et les employés. Les données fournissent un contexte pour les transactions commerciales. Voici quelques exemples de données de base pour un client :
+Les données de base incluent les paramètres et les informations non transactionnelles sur les entités commerciales. Par exemple, les clients, les fournisseurs, les articles et les employés. Les données fournissent un contexte pour les transactions commerciales. Voici quelques exemples de données de base pour un client :
 
 * Name
 * Numéro d’identification
@@ -23,7 +23,7 @@ Les données de base incluent les paramètres et les informations non transactio
 * Conditions de paiement
 * Limite de crédit
 
-Vous configurez la synchronisation dans les succursales. À l’aide d’un modèle d’extraction, les filiales extraient les données de l’entreprise source dont elles ont besoin pour faire affaire avec elles. Après avoir configuré la synchronisation et synchronisé les données pour la première fois, vous êtes prêt. Les enregistrements dans les tables sont couplés et les entrées de la file d’attente des tâches commencent immédiatement à mettre à jour les données dans les filiales lorsque quelqu’un apporte une modification à la société source.
+Vous configurez la synchronisation dans les succursales. À l’aide d’un modèle d’extraction, les filiales extraient les données de l’entreprise source dont elles ont besoin pour faire affaire avec elles. Après avoir configuré la synchronisation et synchronisé les données pour la première fois, vous êtes prêt. Les entrées de la file d’attente mettent à jour les enregistremetns couplés dans les filiales lorsque quelqu’un apporte des modifications à la société source.
 
 ## Synchronisation unidirectionnelle uniquement
 
@@ -37,7 +37,10 @@ Vous pouvez synchroniser uniquement les données de la société source vers les
 Ce sont les conditions requises pour configurer la synchronisation.
 
 * Toutes les entreprises doivent être dans le même environnement.
-* L’utilisateur qui configure la filiale doit disposer de l’ensemble d’autorisations **Master Data Mgt. - Afficher**. L’ensemble d’autorisations est disponible dans les licences Premium et Essential. La licence Team Member permet à quelqu’un d’accéder, mais pas de modifier les enregistrements, elle ne peut donc pas être utilisée pour configurer la synchronisation.
+* L’utilisateur qui configure la filiale doit disposer de la licence de type **Essential**, **Premium** ou **Basic ISV**.
+
+> [!NOTE]
+> La licence Team Member et la licence Administrateur interne vous permettent d’accéder, mais pas de modifier les enregistrements, elles ne peuvent donc pas être utilisées pour configurer la synchronisation. La licence d’administrateur délégué ne vous permet pas de planifier des tâches en arrière-plan, vous ne pourrez donc pas terminer la configuration.
 
 ## Spécifier la société source
 
@@ -52,7 +55,7 @@ L’étape suivante consiste à activer les tables et les champs pour la synchro
 
 ## Activer ou désactiver des tables et des champs
 
-Pour gagner du temps, [!INCLUDE [prod_short](includes/prod_short.md)] fournit une liste de tableaux que les entreprises synchronisent souvent. Par défaut, ces tables sont activées pour la synchronisation, mais vous pouvez les modifier, les désactiver ou les supprimer comme bon vous semble. Pour gagner du temps supplémentaire, certains champs des tables sont déjà désactivés, car ils ne sont probablement pas pertinents pour la filiale.
+Pour gagner du temps, [!INCLUDE [prod_short](includes/prod_short.md)] fournit une liste de tableaux que les entreprises synchronisent souvent. Par défaut, ces tables sont activées pour la synchronisation. Vous pouvez les modifier, les désactiver ou les supprimer comme bon vous semble. Pour gagner du temps supplémentaire, certains champs des tables sont déjà désactivés, car ils ne sont probablement pas pertinents pour la filiale.
 
 > [!NOTE]
 > Si une ou plusieurs extensions sont installées dans la société source, lorsqu’une filiale configure la synchronisation, la page **Tables de synchronisation** inclut les tables des extensions, et vous pouvez accéder à leurs champs. Cependant, si la société source ajoute une extension après la mise en place de la synchronisation, chaque filiale doit ajouter manuellement les tables. Pour en savoir plus sur l’ajout de tables, accédez à [Ajouter ou supprimer des tables de la liste des tables de synchronisation](#add-or-delete-tables-from-the-synchronization-tables-list). Pour en savoir plus sur les extensions de [!INCLUDE [prod_short](includes/prod_short.md)], accédez à [Développer des extensions dans Visual Studio Code](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview#developing-extensions-in-visual-studio-code).
@@ -85,8 +88,11 @@ Vous pouvez spécifier les données à synchroniser pour une table en faisant co
 
 Lorsque vous êtes prêt, sur la page **Configuration de la gestion des données de référence**, choisissez l’action **Démarrer la synchronisation initiale**. Sur la page **Synchronisation initiale des données principale**, choisissez le type de synchronisation que vous souhaitez utiliser pour chaque table.
 
-* Si vous avez déjà des enregistrements dans la société source et les filiales, et que vous souhaitez faire correspondre des enregistrements existants, choisissez l’action **Utiliser le couplage par correspondance**. [!INCLUDE [prod_short](includes/prod_short.md)] fera correspondre les enregistrements dans la filiale avec les enregistrements de la société source, sur la base des critères que vous avez définis. Pour plusieurs tables par défaut, [!INCLUDE [prod_short](includes/prod_short.md)] a déjà mis en correspondance les enregistrements existants en utilisant leur clé primaire, mais vous pouvez modifier cela si vous le souhaitez. Vous pouvez également laisser la synchronisation créer des enregistrements dans la filiale pour les enregistrements de la société source que la filiale n’a pas. Pour en savoir plus sur la correspondance, accédez à [Utiliser le couplage par correspondance](#use-match-based-coupling).
-* Si vous choisissez **Exécuter la synchronisation complète**, la synchronisation crée des enregistrements pour tous les enregistrements de la société source qui ne sont pas encore couplés. Généralement, cette option est utile si la filiale n’a pas de données dans la table, ou si vous souhaitez simplement ajouter des enregistrements de la société source, sans correspondance.  
+* Si vous avez déjà des enregistrements dans la société source et les filiales, et que vous souhaitez faire correspondre des enregistrements existants, choisissez l’action **Utiliser le couplage par correspondance**. [!INCLUDE [prod_short](includes/prod_short.md)] fait correspondre les enregistrements de la filiale avec les enregistrements de la société source. Les correspondances sont basées sur des critères de correspondance que vous définissez. Pour plusieurs tables par défaut, [!INCLUDE [prod_short](includes/prod_short.md)] a déjà mis en correspondance les enregistrements existants en utilisant leur clé primaire, mais vous pouvez modifier cela si vous le souhaitez. Vous pouvez également laisser la synchronisation créer des enregistrements dans la filiale pour les enregistrements de la société source que la filiale n’a pas. Pour en savoir plus sur la correspondance, accédez à [Utiliser le couplage par correspondance](#use-match-based-coupling).
+* Si vous choisissez **Exécuter la synchronisation complète**, la synchronisation crée des enregistrements pour tous les enregistrements de la société source qui ne sont pas encore couplés. Par exemple, cette option est utile dans les scénarios suivants :
+
+    * La filiale n’a pas de données dans la table.
+    * Vous souhaitez ajouter des enregistrements de la société source sans correspondance.  
 
 Après avoir choisi l’option à utiliser, choisissez l’action **Démarrer tout** pour lancer la synchronisation.
 
@@ -118,7 +124,7 @@ Pour accéder aux détails, tels que le nombre d’enregistrements insérés ou 
 
 ## Utiliser l’exportation et l’importation pour partager une configuration de synchronisation
 
-Si vous configurez plusieurs filiales qui utiliseront les mêmes paramètres de synchronisation ou des paramètres similaires, vous pouvez gagner du temps en configurant une filiale, puis en exportant sa configuration dans un fichier .xml. Le fichier contient l’intégralité de la configuration, y compris les mappages de tables et de champs et les critères de filtrage. Vous pouvez ensuite importer le fichier dans la filiale suivante. Pour importer ou exporter une configuration, sur la page **Configuration de la gestion des données de référence**, utilisez les actions **Importer** ou **Exporter**.
+Si vous configurez plusieurs filiales qui utilisent les mêmes paramètres de synchronisation ou des paramètres similaires, vous gagnez du temps. Configurez une filiale, puis exportez sa configuration dans un fichier .xml. Le fichier contient l’intégralité de la configuration, y compris les mappages de tables et de champs et les critères de filtrage. Vous pouvez ensuite importer le fichier dans la filiale suivante. Pour importer ou exporter une configuration, sur la page **Configuration de la gestion des données de référence**, utilisez les actions **Importer** ou **Exporter**.
 
 ## Voir aussi
 

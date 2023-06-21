@@ -1,18 +1,18 @@
 ---
 title: Synchroniser les clients
 description: Importer les clients de ou les exporter dans Shopify
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30105, 30106, 30107, 30108, 30109,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synchroniser les clients
 
-Lorsqu’une commande est importée à partir de Shopify, les informations sur le client sont essentielles pour le traitement ultérieur du document dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Il existe deux options principales et leurs combinaisons :
+Lorsque vous importez une commande à partir de Shopify, les informations sur le client sont essentielles pour le traitement ultérieur du document dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Il existe deux options principales et plusieurs combinaisons :
 
 * Utiliser un client spécial pour toutes les commandes.
 * Importez les informations client réelles à partir de Shopify. Cette option est également disponible lorsque vous exportez des clients dans Shopify à partir de [!INCLUDE[prod_short](../includes/prod_short.md)] en premier.
@@ -36,10 +36,9 @@ Certains paramètres peuvent être définis au niveau du pays/de la région ou a
 Vous pouvez procéder comme suit pour chaque client avec le **Modèle client Shopify** :
 
 1. Indiquer le **N° client par défaut**, qui a priorité sur la sélection présente dans les champs **Importation client à partir de Shopify** et **Type de mappage client**. Il est utilisé dans la commande vente importée.
-2. Définir le **Code modèle client**, qui est utilisé pour créer des clients manquants, si l’option **Créer automatiquement des clients inconnus** est activée. Si le **Code modèle client** est vide, la fonction utilise le **Code modèle client** défini dans la page **Fiche magasin Shopify**.
-3. Définissez si les prix incluent les taxes/la TVA pour les commandes importées.
-4. Dans certains cas, le **Code modèle client** défini pour un pays n’est pas suffisant pour assurer le calcul correct des taxes (par exemple, pour les pays avec taxe de vente). Dans ce cas, les **Zones de recouvrement** peuvent constituer un complément utile.
-5. Le champ **Zone recouvrement** contient également une paire **Code pays** et **Nom de la région**. Cette paire est utile lorsque le connecteur doit convertir un code en un nom, ou vice versa.
+2. Définir le **Code modèle client**, qui est utilisé pour créer des clients manquants, si l’option **Créer automatiquement des clients inconnus** est activée. Si le **Code modèle client** est vide, la fonction utilise le **Code modèle client** défini dans la page **Fiche magasin Shopify**. Le système essaie d’abord de trouver un modèle pour le **Code pays/région** pour l’adresse par défaut. S’il ne trouve pas de modèle, il utilise la première adresse.
+3. Dans certains cas, le **Code modèle client** défini pour un pays n’est pas suffisant pour assurer le calcul correct des taxes (par exemple, pour les pays avec taxe de vente). Dans ce cas, la **Zone de recouvrement** peut constituer un complément utile.
+4. Le champ **Zone recouvrement** contient également une paire **Code pays** et **Nom de la région**. Cette paire est utile lorsque le connecteur doit convertir un code en un nom, ou vice versa.
 
 > [!NOTE]  
 > Les codes pays sont les codes pays ISO 3166-1 alpha-2. En savoir plus sur le [Code postal](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).

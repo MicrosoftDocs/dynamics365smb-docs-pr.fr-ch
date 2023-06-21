@@ -1,13 +1,13 @@
 ---
 title: Synchroniser les articles et le stock
 description: Configurer et exécuter des synchronisations d’articles entre Shopify et Business Central
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: AndreiPanko
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synchroniser les articles et le stock
@@ -98,17 +98,17 @@ Les paramètres suivants permettent de gérer l’exportation des articles :
 |------|-----------------|-----------------|
 |Statut|En fonction du champ **Statut des produits créés** dans la page **Fiche magasin Shopify**. Pour plus d’informations, voir [Mises à jour ponctuelles des produits Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Aucun affichage.|
 |Titre | **Description**. Si le code langue est défini et qu’il existe une traduction article correspondante, cette dernière remplace la description.|**Description**|
-|Désignation|Combine les textes étendus et les attributs si les bascules correspondantes dans la fiche magasin Shopify sont activées. Respecte le code langue.|Aucun affichage.|
+|Désignation|Combine les textes étendus, le texte marketing et les attributs si vous activez les bascules correspondantes dans la fiche magasin Shopify. Respecte le code langue.|Aucun affichage.|
 |Titre de la page du SEO|Valeur fixe : vide. Pour plus d’informations, voir [Mises à jour ponctuelles des produits Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Aucun affichage.|
 |Description méta du SEO|Valeur fixe : vide. Pour plus d’informations, voir [Mises à jour ponctuelles des produits Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Aucun affichage.|
 |Support|**Image**. En savoir plus dans la section [Synchroniser les images des articles](synchronize-items.md#sync-item-images)|**Image**|
-|Prix|Le calcul du prix du client final comprend le prix unitaire de l’article, le groupe de prix client, le groupe de remises client et le code devise. En savoir plus dans la section [Synchroniser les prix](synchronize-items.md#sync-prices-with-shopify)|**Prix unitaire**|
+|Prix|Le calcul du prix du client final comprend le prix unitaire de l’article, le groupe de prix client, le groupe de remises client et le code devise. En savoir plus dans la section [Synchroniser les prix](synchronize-items.md#sync-prices-with-shopify)|**Prix unitaire**. Le prix est uniquement importé dans les articles récemment créés, mais il ne sera pas mis à jour lors des synchronisations ultérieures.|
 |Comparer au prix|Le calcul du prix sans remise.|Aucun affichage.|
-|Coût par article|**Coût unitaire**|**Coût unitaire**|
-|Point de stock|En savoir plus sous **Mappage point de stock** dans la section [Exporter des articles vers Shopify](synchronize-items.md#export-items-to-shopify).|En savoir plus dans la section [Effet des points de stock et codes barres de produit Shopify sur le mappage et la création d’articles et de variants dans Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
+|Coût par article|**Coût unitaire**|**Coût unitaire**. Le coût unitaire est uniquement importé dans les articles récemment créés et il ne sera pas mis à jour lors des synchronisations ultérieures.|
+|SKU|En savoir plus sous **Mappage point de stock** dans la section [Exporter des articles vers Shopify](synchronize-items.md#export-items-to-shopify).|En savoir plus dans la section [Effet des points de stock et codes barres de produit Shopify sur le mappage et la création d’articles et de variants dans Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Code-barres|**Références articles** de type Code à barres.|**Références articles** de type Code à barres.|
-|Suivi quantité|En fonction du champ **Suivi stock** dans la page **Fiche magasin Shopify**. Consultez la section [Stock](synchronize-items.md#sync-inventory-to-shopify).|Aucun affichage.|
-|Poursuivre la vente même en cas de rupture de stock|En fonction de **Stratégie de stock par défaut** dans la page **Fiche magasin Shopify**. Non importé.|Aucun affichage.|
+|Suivi quantité|En fonction du champ **Suivi stock** dans la page **Fiche magasin Shopify**. Consultez la section [Stock](synchronize-items.md#sync-inventory-to-shopify). Utilisé uniquement lorsque vous exportez un produit pour la première fois.|Aucun affichage.|
+|Poursuivre la vente même en cas de rupture de stock|En fonction de **Stratégie de stock par défaut** dans la page **Fiche magasin Shopify**. Utilisé uniquement lorsque vous exportez un produit pour la première fois.|Aucun affichage.|
 |Type|**Description** de **Code catégorie article**. Si le type n’est pas spécifié dans Shopify, il est ajouté en tant que type personnalisé.|**Code catégorie article**. Mappage par description.|
 |Fournisseur|**Nom** du fournisseur provenant de **N° fournisseur**|Mappage par nom de **N° fournisseur**.|
 |Poids|**Poids brut**.|Aucun affichage.|

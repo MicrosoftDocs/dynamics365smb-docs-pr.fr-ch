@@ -50,6 +50,9 @@ Après la création de la boutique dans **Administration de Shopify** de la bout
   1. *(pour les tests) Bogus Gateway*. Pour plus d’informations, voir [Activer Bogus Gateway pour les tests](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify payments* en mode Test. En savoir plus sur la [Test de Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
+> [!Note]  
+> Les magasins de développement sont généralement protégées par un mot de passe. Lorsque vous essayez d’ouvrir une page spécifique de votre boutique en ligne à partir de [!INCLUDE [prod_short](../includes/prod_short.md)], par exemple pour accéder à un produit ou à une commande spécifique, vous devrez saisir votre mot de passe. Pendant que vous testez, pour éviter d’avoir à entrer votre mot de passe, connectez-vous à votre administrateur Shopify  et ouvrez votre magasin à partir de là. Vous n’aurez pas besoin d’entrer le mot de passe du magasin jusqu’à ce que vous fermiez votre navigateur ou que votre session expire.  
+
 ## Voir aussi
 
 [Mise en route avec le connecteur Shopify](get-started.md)  

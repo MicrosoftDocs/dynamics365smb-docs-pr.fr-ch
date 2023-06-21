@@ -1,16 +1,14 @@
 ---
 title: Enregistrer les prix de vente spéciaux et les remises
 description: Décrit comment définir et appliquer des accords de tarification et de remise pour les documents vente.
-author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 06/13/2023
+ms.custom: bap-template
 ms.search.keywords: 'special price, alternate price, pricing'
 ms.search.form: '7022, 7024'
-ms.date: 06/03/2022
-ms.author: bholtorf
 ---
 
 # Enregistrer les prix de vente spéciaux et les remises
@@ -22,7 +20,11 @@ ms.author: bholtorf
 
 * Modèles à prix unique où un article est toujours vendu au même prix.
 * Accords de prix spéciaux avec des clients spécifiques ou des groupes de clients.
-* Campagnes lorsqu’une vente répond aux critères d’une offre spéciale. Parmi les critères, il peut par exemple y avoir le moment où une commande atteint une quantité minimale, est antérieure à une certaine date ou inclut un certain type d’article.  
+* Campagnes lorsqu’une vente répond aux critères d’une offre spéciale. Par exemple, vous pouvez avoir les critères suivants pour une commande :
+
+  * Elle répond à une quantité minimale
+  * Elle est antérieure à une certaine date
+  * Elle inclut un certain type d’article  
 
 Pour utiliser un modèle de tarification de base, il vous suffit de spécifier un prix unitaire lorsque vous configurez un article ou une ressource. Ce prix sera toujours utilisé sur les documents vente. Pour les modèles plus avancés, par exemple, lorsque vous proposez des prix spéciaux pour une campagne de vente, vous pouvez spécifier des critères sur la page **Prix de vente**. Vous pouvez proposer des prix spéciaux basés sur une combinaison des informations suivantes :  
 
@@ -36,9 +38,9 @@ Après avoir défini des prix spéciaux, [!INCLUDE[prod_short](includes/prod_sho
 
 Pour les remises, vous pouvez configurer deux types différents :
 
-| Type de remise | Description |
+| Type de remise | Désignation |
 | --- | --- |
-| **Remise ligne vente** |Montant inséré sur les lignes vente si elles contiennent une certaine combinaison de client, d’article, de quantité minimale, d’unité ou de date de début et date de fin. Ce type fonctionne de la même manière que pour les prix de vente. |
+| **Remise ligne vente** |Ajoutez un montant utilisé sur les lignes vente s’il existe une certaine combinaison de client, d’article, de quantité minimale, d’unité ou de date de début et date de fin. Ce type fonctionne de la même manière que pour les prix de vente. |
 | **Remise facture** |Pourcentage de remise qui est soustrait du total du document vente si la somme de toutes les lignes du document dépasse un montant minimal donné. |
 
 > [!TIP]  
@@ -85,22 +87,22 @@ Lorsque vous activez la mise à jour de la fonctionnalité **Nouvelle expérienc
 
 * Si vous souhaitez utiliser tous les prix sur une seule page, activez-le. Les prix existants seront convertis en une liste de prix par défaut pour chacun des documents suivants :
 
-    * Ventes
-    * Achats
-    * Ventes projet
-    * Achats projet
+  * Ventes
+  * Achats
+  * Ventes projet
+  * Achats projet
 
-    Vous pouvez modifier tous les prix pour ces zones sur la page **Feuille prix**. Les listes de prix par défaut seront définies sur les pages **Configuration des ventes et des comptes clients**, **Paramètres ventes**, et **Paramètres projets**. 
+  Vous pouvez modifier tous les prix pour ces zones sur la page **Feuille prix**. Les listes de prix par défaut seront définies sur les pages **Configuration des ventes et des comptes clients**, **Paramètres ventes**, et **Paramètres projets**.
 
 > [!NOTE]
 > Si les prix sont définis uniquement sur les fiches d’articles ou de ressources, les tarifs par défaut ne seront pas renseignés avec ces prix au moment de la mise à jour des données de fonctionnalité. Cependant, vous pouvez ouvrir l’une des listes de prix par défaut ou la page **Feuille prix** et utiliser l’action **Proposer lignes** pour ajouter les prix fixés sur les fiches article ou ressource.
 
-* Pour utiliser les tarifs vente, désactivez-le. Les prix existants sont convertis en une nouvelle liste de prix pour chacun combinaison des éléments suivants : 
+* Pour utiliser les tarifs vente, désactivez-le. Les prix existants sont convertis en une nouvelle liste de prix pour chacun combinaison des éléments suivants :
 
-* Client
-* Groupe de clients ou campagne
-* Dates de début et de fin
-* Devises 
+  * Client
+  * Groupe de clients ou campagne
+  * Dates de début et de fin
+  * Devises
 
 Si vous disposez de plusieurs combinaisons, vous aurez plusieurs listes de prix.
 
@@ -166,9 +168,12 @@ Pour copier des prix de vente, comme les prix appliqués à un client et qui doi
 
 #### [Nouvelle expérience](#tab/new-experience/)  
 
-Vous pouvez spécifier si la nouvelle liste de prix utilise les paramètres de l’en-tête de la liste que vous copiez ou les paramètres de la nouvelle liste vers laquelle vous copiez. Pour utiliser les paramètres de la liste de prix dans laquelle vous copiez les prix, activez **Utiliser les valeurs par défaut de la cible**.
+Vous pouvez préciser les réglages que les tarifs utiliseront :
 
-1. Choisissez l’icône ![ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Listes prix vente**, puis choisissez le lien associé. 
+* Utilisez les paramètres de l’en-tête de la liste que vous copiez.
+* Utilisez les paramètres à partir de la liste vers laquelle vous effectuez la copie. Pour utiliser les paramètres de la liste de prix dans laquelle vous copiez les prix, activez **Utiliser les valeurs par défaut de la cible**.
+
+1. Choisissez l’icône ![ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Listes prix vente**, puis choisissez le lien associé.
 2. Choisissez la liste de prix à copier, puis choisissez **Copier les lignes**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -185,8 +190,17 @@ Ces étapes diffèrent selon que votre administrateur a activé ou non la foncti
 
 Pour mettre à jour en bloc des prix article, tels que l’augmentation de tous les prix article par un certain pourcentage, vous pouvez renseigner la page Feuille prix vente à l’aide des traitements par lots suivants :
 
-* **Suggérer prix vente** suggère des modifications de deux manières. Soit en appliquant un facteur d’ajustement aux prix de vente existants, soit en copiant les accords de prix de vente existants vers d’autres clients, groupes prix client ou campagnes de vente.
-* **Suggérez prix article** suggère des modifications de deux manières. Soit en appliquant un facteur d’ajustement aux prix unitaires existants sur les fiches article, soit en suggérant des prix pour les nouvelles combinaisons de monnaie, d’unités de mesure, etc. Les prix unitaires des articles ne sont pas modifiés par ce traitement par lots.  
+* **Suggérer prix vente** suggère des modifications de deux manières :
+
+  * En appliquant un facteur d’ajustement aux prix de vente existants.
+  * En copiant les accords de prix de vente existants vers d’autres clients, groupes de prix client ou campagnes de vente.
+
+* **Suggérer prix article** suggère des modifications de deux manières :
+
+  * En appliquant un facteur d’ajustement aux prix de vente existants sur les fiches article.
+  * En suggérant des prix pour de nouvelles combinaisons de devises, d’unités de mesure, etc.
+
+  Ce traitement par lots ne change pas les tarifs sur les articles.  
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prix vente**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Suggérer prix article** .  
@@ -219,7 +233,7 @@ Le meilleur prix est le prix le plus bas avec la remise de ligne la plus élevé
 
     * Ce client a-t-il un accord pour des prix ou des remises ou appartient-il à un groupe bénéficiant d’un tel accord ?
     * L’article ou le groupe remises article est-il sur la ligne incluse dans l’un ou l’autre de ces accords prix/remise ?
-    * La date de commande (ou la date de validation pour la facture et l’avoir) est-elle comprise entre les dates de début et de fin de l’accord prix/remise ?
+    * La date se trouve-t-elle dans la plage de date de début et de fin de l’accord tarifaire/de remise ? Pour les factures et les avoirs, il s’agit de la date figurant sur le champ **Date de validation** dans l’en-tête du document. Pour tous les autres documents, il s’agit de la date indiquée dans le champ **Date de commande** sur leurs en-têtes.
     * Un code unité est-il spécifié ? Si c’est le cas, [!INCLUDE[prod_short](includes/prod_short.md)] recherche des prix/remises possédant le même code unité, et des prix/remises sans code unité.
 
 2. [!INCLUDE[prod_short](includes/prod_short.md)] vérifie si des accords de prix/remise s’appliquent aux informations du document ou de la ligne de journal. Il insère ensuite le prix unitaire applicable et le pourcentage de remise de ligne en utilisant les critères suivants :

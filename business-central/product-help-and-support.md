@@ -78,7 +78,7 @@ La section **Rechercher** inclut deux liens vers l’Aide des produits :
 
 - Aide concernant la page que vous venez d’afficher dans [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Ce lien est généré automatiquement. Si [!INCLUDE[prod_short](includes/prod_short.md)] ne trouve pas le lien pertinent, la [page de destination sur Microsoft Learn](index.md) pour la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] s’affiche. Par exemple, si la page faisait partie d’une application qui n’a pas ajouté de mappage d’aide contextuelle à [!INCLUDE[prod_short](includes/prod_short.md)], le *Lien d’apprentissage* accède par défaut à la page de destination.  
+  Ce lien est généré automatiquement. Si [!INCLUDE[prod_short](includes/prod_short.md)] ne trouve pas le lien pertinent, la [page de destination sur Microsoft Learn](index.yml) pour la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] s’affiche. Par exemple, si la page faisait partie d’une application qui n’a pas ajouté de mappage d’aide contextuelle à [!INCLUDE[prod_short](includes/prod_short.md)], le *Lien d’apprentissage* accède par défaut à la page de destination.  
   
 - Page de destination de l’aide pour [!INCLUDE[prod_short](includes/prod_short.md)]  
 
@@ -152,9 +152,9 @@ Pour alerter votre partenaire en cas de problème, choisissez le lien pour envoy
 
 ## En savoir plus à l’aide de la documentation du produit
 
-La version de base de [!INCLUDE [prod_short](includes/prod_short.md)] est étendue et personnalisée par une large communauté de partenaires. Chaque partenaire et de nombreux clients déploient leur propre aide sur leur propre site web. Mais vous pouvez toujours vous rendre sur le site de [documentation Dynamics 365 Business Central](index.md) pour en savoir plus. Le site héberge différents types de contenu, tels que les suivants :
+La version de base de [!INCLUDE [prod_short](includes/prod_short.md)] est étendue et personnalisée par une large communauté de partenaires. Chaque partenaire et de nombreux clients déploient leur propre aide sur leur propre site web. Mais vous pouvez toujours vous rendre sur le site de [documentation Dynamics 365 Business Central](index.yml) pour en savoir plus. Le site héberge différents types de contenu, tels que les suivants :
 
-- [Contenu conceptuel sur la fonctionnalité commerciale](index.md)  
+- [Contenu conceptuel sur la fonctionnalité commerciale](welcome.md)  
 - [Documentation pour développeurs](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 - [Parcours d’apprentissage gratuits et modules d’apprentissage en ligne pour plusieurs profils d’utilisateurs](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
@@ -164,7 +164,7 @@ Dans cette section, vous pouvez découvrir comment naviguer dans le contenu des 
 
 ### Contenu sur le site
 
-[Cette section](index.md) de Microsoft Learn héberge du contenu de Microsoft qui représente le pilier *En savoir plus* du modèle d’assistance aux utilisateurs. En partie, le contenu *En savoir plus* a l’intention de répondre aux questions auxquelles l’interface utilisateur ne peut pas répondre, telles que les suivantes :
+[Cette section](welcome.md) de Microsoft Learn héberge du contenu de Microsoft qui représente le pilier *En savoir plus* du modèle d’assistance aux utilisateurs. En partie, le contenu *En savoir plus* a l’intention de répondre aux questions auxquelles l’interface utilisateur ne peut pas répondre, telles que les suivantes :
 
 - Où cette page s’intègre-t-elle dans le workflow plus large ?  
 - Que ce passe t-il après ?  

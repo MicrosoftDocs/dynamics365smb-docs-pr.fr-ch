@@ -39,7 +39,7 @@ Pour obtenir une vue d’ensemble des marchés actuellement pris en charge pour 
 
 [S’inscrire à un essai gratuit de Dynamics 365 Business Central](trial-signup.md)  
 [FAQ sur l’essai de Dynamics 365 Business Central](trial-faq.md)  
-[Bienvenue dans [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
+[Bienvenue dans [!INCLUDE[prod_short](includes/prod_long.md)]](welcome.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités locales](about-localization.md)  
 [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

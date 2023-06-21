@@ -60,7 +60,7 @@ Répétez les étapes 2 à 6 pour toutes les boutiques en ligne que vous voule
 
 - Le navigateur bloque la fenêtre contextuelle. Lorsque vous activez le bouton **Activé**, [!INCLUDE [prod_short](../includes/prod_short.md)] ouvre la page **En attente d’une réponse - ne fermez pas cette page** en attendant un jeton d’accès de Shopify. Si cette page est fermée ou bloquée, vous ne pouvez pas vous connecter à Shopify. En savoir plus sur [Demander le jeton d’accès](troubleshoot.md#request-the-access-token)
 - [Erreur : Oauth error invalid_request: c not find Shopify API application with api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
-- [Impossible de se connecter depuis le bac à sable](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+- [Impossible de se connecter depuis le bac à sable](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Étapes suivantes
 
@@ -96,7 +96,11 @@ Si vous devez utiliser cette configuration, nous vous recommandons de vérifier 
 * **Shopify peut mettre à jour les clients** pour ne pas mettre à jour les clients existants
 * **Créer automatiquement des commandes vente** pour ne pas créer de commandes ni de factures vente
 
+Pour plus d’informations, voir [Restauration d’un environnement](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
+
 ### Production Shopify et bac à sable Business Central
+
+Il peut être judicieux de sauvegarder vos données. Par exemple, exportez vos produits et vos clients. Pour plus d’informations, voir [Utiliser des fichiers CSV pour sauvegarder les informations du magasin](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
 Désactivez l’option **Autoriser la synchronisation des données vers Shopify** pour que [!INCLUDE[prod_short](../includes/prod_short.md)] n’écrive pas dans Shopify. Dans ce cas, vous pourrez importer des produits, des images, des clients et des commandes depuis Shopify. Mais vous ne pourrez pas envoyer d’articles, de prix, de niveaux de stock, de clients, d’informations d’exécution à Shopify.
 

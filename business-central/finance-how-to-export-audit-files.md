@@ -11,7 +11,7 @@ ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
 ms.date: 04/04/2023
 ms.author: altotovi
-ms.reviewer: null
+ms.reviewer: kfend
 ---
 
 # Exportation de fichier d’audit
@@ -98,10 +98,9 @@ Procédez comme suit pour fournir le mappage du compte général pour l’export
 > Si vous avez plusieurs entrées à exporter, nous vous déconseillons de les exporter dans la session en cours, en raison d’éventuels problèmes de performances. Au lieu de cela, nous vous recommandons d’utiliser le traitement parallèle pendant les jours ou les heures non ouvrables.
 
 ## Voir aussi
-
 [Gestion financière](finance.md)  
 [Comprendre la comptabilité et le plan comptable](finance-general-ledger.md)  
 [Utilisation des axes analytiques](finance-dimensions.md)  
-[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utiliser Business Central](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -39,7 +39,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 ## Voir aussi  
 [Gestion des comptes client](receivables-manage-receivables.md)   
 [Projets](projects-how-create-jobs.md)   
-[Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
+[Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
