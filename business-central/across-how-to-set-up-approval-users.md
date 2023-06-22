@@ -10,7 +10,7 @@ ms.search.form: '663,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-approval-users" />Configuration des utilisateurs des approbations
+# Configuration des utilisateurs des approbations
 
 Avant de pouvoir créer des flux de travail qui impliquent des étapes d’approbation, vous devez configurer les utilisateurs du flux de travail impliqués dans les processus d’approbation sur la page **Paramètres utilisateur approbation**. Vous pouvez également définir des limites de montant pour différents types de demandes, définir des approbateurs de remplacement et configurer des notifications.  
 
@@ -19,7 +19,7 @@ Lorsque vous configurez des utilisateurs approbation, vous pouvez créer de rép
 > [!TIP]
 > Vous pouvez exiger que plusieurs approbateurs réagissent à une demande d’approbation en créant un groupe d’approbateurs sur la page **Groupe d’utilisateurs de workflow**. En savoir plus sur [Configurer des groupes d’utilisateurs de flux de travail](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user" />Configurer un utilisateur approbation
+## Configurer un utilisateur approbation
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -46,9 +46,9 @@ Lorsque vous configurez des utilisateurs approbation, vous pouvez créer de rép
 
 L’étape suivante consiste à spécifier comment vous souhaitez [!INCLUDE [prod_short](includes/prod_short.md)] informer les personnes qu’une demande est en attente de leur attention. En savoir plus dans la rubrique [Configuration de notifications de flux de travail approbation](across-setting-up-workflow-notifications.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
-## <a name="see-also" />Voir aussi
+## Voir aussi
 
 [Configuration des utilisateurs des flux de travail](across-how-to-set-up-workflow-users.md)  
 [Configuration de notifications de flux de travail](across-setting-up-workflow-notifications.md)  
