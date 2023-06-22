@@ -11,7 +11,7 @@ ms.search.form: '663, 1500, 1512, 1513,'
 ms.date: 09/09/2022
 ms.author: bholtorf
 ---
-# Spécifier quand et comment recevoir des notifications de flux de travail
+# <a name="specify-when-and-how-to-receive-workflow-notifications" />Spécifier quand et comment recevoir des notifications de flux de travail
 
 Lorsque vous configurez des utilisateurs d’approbation dans des flux de travail où vous souhaitez que quelqu’un approuve les modifications, par exemple lorsque des enregistrements sont créés ou lorsque quelqu’un demande une approbation, vous devez spécifier comment et quand avertir l’utilisateur d’approbation. Par exemple, vous pouvez spécifier qu’un utilisateur d’approbation recevra immédiatement un e-mail lorsque quelqu’un créera un client. Sinon, vous pouvez programmer les notifications à envoyer, par exemple, sur une base hebdomadaire ou mensuelle.
 
@@ -25,11 +25,11 @@ Avant de pouvoir paramétrer des préférences de notification d’un utilisateu
 > [!NOTE]
 > Si vous souhaitez utiliser l’e-mail comme méthode de notification, vous devez configurer l’adresse e-mail de l’expéditeur et du destinataire dans [!INCLUDE [prod_short](includes/prod_short.md)]. En savoir plus sur [Configurer les e-mails](admin-how-setup-email.md).
 
-## Étapes de flux de travail
+## <a name="steps-in-workflows" />Étapes de flux de travail
 
 Pour un grand nombre d’étapes d’approbation du flux de travail, il s’agit de notifier des utilisateurs qu’un événement s’est produit et qu’ils peuvent agir dessus. Par exemple, sur une étape de flux de travail, l’événement peut être que l’Utilisateur 1 demande l’approbation d’un nouvel enregistrement. La réponse associée est qu’une notification est envoyée à l’Utilisateur 2, l’approbateur. Sur la prochaine étape de flux de travail, l’événement peut être que l’Utilisateur 2 approuve l’enregistrement. La réponse associée est qu’une notification est envoyée à l’Utilisateur 3 afin de commencer un processus avec l’enregistrement approuvé. Pour les étapes de flux de travail concernant des approbations, chaque notification est liée à une écriture d’approbation. En savoir plus sur [Flux de travail](across-workflow.md).  
 
-## Spécifier quand et comment les utilisateurs d’approbation reçoivent des notifications  
+## <a name="specify-when-and-how-approval-users-receive-notifications" />Spécifier quand et comment les utilisateurs d’approbation reçoivent des notifications
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres utilisateur approbation**, puis choisissez le lien associé.  
 2. Sélectionnez la ligne pour l’utilisateur pour lequel vous souhaitez paramétrer des préférences de notification, puis choisissez l’action **Paramètre de notification**.  
@@ -58,7 +58,7 @@ Pour un grand nombre d’étapes d’approbation du flux de travail, il s’agit
    |**Date du mois**|Spécifiez si l’utilisateur reçoit des notifications le premier ou le dernier jour du mois, ou à une date spécifique du mois.|
    |**Date de notification mensuelle**|Spécifiez à quelle date du mois l’utilisateur reçoit des notifications lorsque la valeur dans le champ **Date du mois** est **Personnalisé**.|
 
-## Modifier le moment et le mode de réception des notifications
+## <a name="change-when-and-how-you-receive-notifications" />Modifier le moment et le mode de réception des notifications
 
 1. Sur l’une des notifications que vous avez reçue, par e-mail ou par note, sélectionnez le bouton **Modifier les paramètres de notification**.  
 2. Sur la page **Paramètres de notification de workflow**, modifiez vos préférences de notification décrites dans les étapes 3 à 5 ci-dessus.
@@ -66,7 +66,7 @@ Pour un grand nombre d’étapes d’approbation du flux de travail, il s’agit
    2. Choisissez si vous souhaitez recevoir un e-mail ou une note de notification sous le champ **Mode de notification**.
    3. Sélectionnez le **Calendrier des notifications** pour modifier la fréquence et la récurrence d’envoi des notifications.
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md)  
 [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)  

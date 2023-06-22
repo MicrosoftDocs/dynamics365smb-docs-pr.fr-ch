@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# Modification de la société et d’autres paramètres dans Teams
+# <a name="changing-company-and-other-settings-in-teams" />Modification de la société et d’autres paramètres dans Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,7 +27,7 @@ Il existe deux façons d’ouvrir la page **Paramètres** : 1) à partir de la 
 
    ![Paramètres de Business Central à partir de la zone de message.](media/teams-settings-command-box.png)
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Vue d’ensemble de l’intégration de Business Central et Microsoft Teams](across-teams-overview.md)  
 [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)  
@@ -37,7 +37,7 @@ Il existe deux façons d’ouvrir la page **Paramètres** : 1) à partir de la 
 [Résolution des incidents dans Teams](admin-teams-troubleshooting.md)  
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -11,7 +11,7 @@ ms.search.form: '118, 472, 737, 743'
 ms.date: 01/31/2023
 ms.author: altotovi
 ---
-# Vue d’ensemble de la gestion de la TVA
+# <a name="vat-management-overview" />Vue d’ensemble de la gestion de la TVA
 La taxe sur la valeur ajoutée (TVA) est un impôt indirect sur la consommation de biens et de services. La TVA est prélevée à chaque étape de la chaîne d’approvisionnement, où une valeur est ajoutée entre la production initiale et le point de vente. Pour vous familiariser avec la gestion de la TVA, reportez-vous aux rubriques suivantes.  
 
 |  Article  |  Désignation  |  
@@ -28,7 +28,7 @@ La taxe sur la valeur ajoutée (TVA) est un impôt indirect sur la consommation 
 | [Validation des n° identif. intracomm.](finance-how-validate-vat-registration-number.md) | Cet article explique comment utiliser la validation par Business Central des numéros d’immatriculation de TVA pour vos contacts, clients et fournisseurs, sur la base du service de validation du numéro d’identification intra-communautaire de l’UE.|
 
 
-## Voir aussi  
+## <a name="see-also" />Voir aussi
 [Finance](finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

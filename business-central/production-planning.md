@@ -10,7 +10,7 @@ ms.search.for: '291, 292, 293, 295, 517, 9010, 9038'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Planning
+# <a name="planning" />Planning
 
 Les opérations de production nécessaires à la transformation d’entrées en produits finis doivent être planifiées de manière quotidienne ou hebdomadaire en fonction du volume et de la nature des produits. [!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités permettant de répondre à la demande réelle et anticipée des ventes, de l’assemblage et de la production, et inclut des fonctionnalités pour une planification de la distribution basée sur les points de stock et les transferts d’emplacement.
 
@@ -39,9 +39,9 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Afficher le stock disponible prévu sous différents types d’affichage et voir quels besoins bruts, réceptions de commandes planifiées et autres événements l’influencent dans le temps.|[Voir la disponibilité des articles](inventory-how-availability-overview.md)|  
 <!--|Effectuer des activités de planification sélectionnées, comme la modification ou l’ajout de lignes feuille planning, dans une vue graphique du programme d’approvisionnement.|[Modifier les propositions planning dans une vue graphique](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## Voir la [formation Microsoft](/training/modules/plan-items-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/plan-items-dynamics-365-business-central/) associée
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)  
@@ -51,7 +51,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

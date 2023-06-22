@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# Exporter et importer des flux de travail approbation
+# <a name="export-and-import-approval-workflows" />Exporter et importer des flux de travail approbation
 
 Pour transférer des flux de travail vers d’autres bases de données [!INCLUDE[prod_short](includes/prod_short.md)], par exemple pour gagner du temps lors de la création de flux de travail, vous pouvez exporter et importer des flux de travail.  
 
@@ -18,12 +18,12 @@ Un autre moyen rapide de créer des flux de travail consiste à les utiliser à 
 
 Sur la page **Flux de travail**, créez un flux de travail en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de flux de travail modéré par des conditions d’événement, et une réponse de flux de travail modérée par des options de réponse. Définissez les étapes de flux de travail en renseignez les champs des lignes de flux de travail à partir de listes fixes de valeurs d’événement et de réponse qui sont les scénarios pris en charge par le code d’application. En savoir plus sur [Créer des flux de projet](across-how-to-create-workflows.md).  
 
-## Exporter un flux de travail
+## <a name="export-a-workflow" />Exporter un flux de travail
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
 2. Sélectionnez un flux de travail, puis sélectionnez l’action **Exporter vers un fichier**.  
 
-## Importer un flux de travail
+## <a name="import-a-workflow" />Importer un flux de travail
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
 2. Choisissez l’action **Importer à partir d’un fichier**.  
@@ -32,7 +32,7 @@ Sur la page **Flux de travail**, créez un flux de travail en répertoriant les 
 > [!CAUTION]  
 > Si le code du flux de travail existe déjà dans la base de données, les étapes du flux de travail sont remplacées par celles du flux de travail importé.  
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Créer des flux de travail approbation](across-how-to-create-workflows.md)  
 [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)  

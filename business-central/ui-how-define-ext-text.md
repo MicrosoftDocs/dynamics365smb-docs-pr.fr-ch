@@ -10,13 +10,13 @@ ms.search.form: '391, 30'
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# Ajouter du texte étendu
+# <a name="add-extended-text" />Ajouter du texte étendu
 
 Vous pouvez étendre la description des articles, des unités de stockage, des comptes généraux et des ressources en ajoutant des lignes supplémentaires en tant que texte étendu. Vous pouvez également définir des conditions d’utilisation des lignes supplémentaires.  
 
 La section suivante décrit comment ajouter du texte étendu à une description d’un élément. Mais les mêmes étapes s’appliquent aux unités de stockage, aux comptes généraux et aux ressources.  
 
-## Pour définir le texte étendu pour une description
+## <a name="to-define-extended-text-for-an-description" />Pour définir le texte étendu pour une description
 
 1. Ouvrez la fiche correspondant à l’article auquel vous voulez ajouter du texte étendu, puis sélectionnez **Texte étendu**.
 2. Renseignez les champs **Code** et **Désignation**.
@@ -29,12 +29,12 @@ La section suivante décrit comment ajouter du texte étendu à une description 
 
 Vous pouvez maintenant ajouter ce texte étendu aux documents. La procédure suivante explique comment ajouter du texte étendu à une commande vente, mais les mêmes étapes s’appliquent à tout autre document que vous avez spécifié pour le texte étendu.  
 
-## Pour ajouter un texte d’article étendu à une ligne commande vente
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line" />Pour ajouter un texte d’article étendu à une ligne commande vente
 
 1. Ouvrez une commande vente avec une ligne vente pour un article qui a étendu le texte défini. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
 2. Sélectionnez la ligne en question, puis sélectionnez l’action **Insérer textes étendus**.
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Configuration de stock](inventory-setup-inventory.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

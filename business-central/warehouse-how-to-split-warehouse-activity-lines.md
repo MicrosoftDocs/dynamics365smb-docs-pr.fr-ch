@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 9314, 9313, 9315, 9330'
 ---
-# Répartir des lignes activité entrepôt
+# <a name="split-warehouse-activity-lines" />Répartir des lignes activité entrepôt
 
 Dans le cadre de rangements, mouvements ou prélèvements entrepôt et de rangements et prélèvements stock, des emplacements sont proposés pour le prélèvement et le rangement des articles. Il arrive parfois que la quantité réelle disponible dans l’emplacement soit insuffisante ou que l’espace de l’emplacement soit insuffisant pour le rangement de la quantité nécessaire. Dans ces cas, vous pouvez répartir la ligne de telle sorte que les articles d’une ligne soient pris ou placés dans plusieurs emplacements.  
 
@@ -23,7 +23,7 @@ La procédure suivante s’applique aux documents d’entrepôt suivants :
 * Mouvements de stock
 * Prélèvements stock  
 
-## Pour éclater des lignes activité entrepôt  
+## <a name="to-split-warehouse-activity-lines" />Pour éclater des lignes activité entrepôt
 
 1. Ouvrez une ligne activité entrepôt dans laquelle vous tentez de traiter une quantité insuffisante.  
 2. Dans le champ **Quantité à traiter**, entrez la quantité réduite que vous pouvez gérer.  
@@ -33,7 +33,7 @@ La procédure suivante s’applique aux documents d’entrepôt suivants :
 > [!NOTE]  
 > Si, en cas d’utilisation d’un prélèvement et d’un rangement suggérés dans l’entrepôt, vous répartissez les lignes, vous devez bien connaître l’entrepôt et être capable de choisir un emplacement répondant aux conditions de stockage de l’article et aux exigences générales du document entrepôt. Par exemple, vous n’allez pas répartir une ligne d’un document prélèvement et placer certains articles dans le stockage en vrac.  
 
-## Voir aussi  
+## <a name="see-also" />Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  

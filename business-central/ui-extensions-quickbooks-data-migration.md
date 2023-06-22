@@ -12,12 +12,12 @@ ms.date: 06/24/2021
 ms.author: edupont
 ---
 
-# Extension QuickBooks Data Migration
+# <a name="the-quickbooks-data-migration-extension" />Extension QuickBooks Data Migration
 
 Cette extension facilite la migration des clients, des fournisseurs, des articles et des comptes de QuickBooks vers [!INCLUDE[prod_short](includes/prod_short.md)]. Si votre entreprise utilise QuickBooks aujourd’hui, vous pouvez exporter les informations appropriées puis ouvrir un guide de configuration assistée pour télécharger les données vers [!INCLUDE[prod_short](includes/prod_short.md)].  
 Pour plus d’informations, voir [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md).
 
-## Données de QuickBooks Desktop
+## <a name="data-from-quickbooks-desktop" />Données de QuickBooks Desktop
 
 Vous pouvez importer les données suivantes de QuickBooks Online vers Business Central :
 
@@ -34,7 +34,7 @@ Nous effectuons une migration uniquement pour les montants complets dans les doc
 > [!NOTE]
 > Nous n’effectuons pas de migration des commandes achat ou des commandes vente.
 
-## Avant de commencer
+## <a name="before-you-start" />Avant de commencer
 
 Une grande partie du processus de migration consiste à spécifier les comptes vers lesquels migrer les transactions. Il est judicieux de planifier ce mappage avant d’exécuter la migration de données. Par exemple, les comptes où vous validez des transactions :
 
@@ -50,20 +50,20 @@ Afin d’obtenir vos données de l’application QuickBooks Desktop vous devez t
 > [!NOTE]
 > Actuellement, l’outil d’exportation de données fonctionne uniquement avec QuickBooks 2017 et 2018.
 
-## Recherche de l’extension QuickBooks Data Migration
+## <a name="finding-the-quickbooks-data-migration-extension" />Recherche de l’extension QuickBooks Data Migration
 
 L’extension QuickBooks Data Migration est installée et prête à être utilisée comme partie intégrante du guide de configuration assistée Migration des données. Si vous êtes prêt à commencer maintenant et à exporter vos données depuis QuickBooks, choisissez l’![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration assistée**, puis choisissez le lien associé. Choisissez **Migrer des données métier**, puis suivez les étapes du guide.  
 
-## Que faire après une migration des données ?
+## <a name="what-do-i-do-after-i-migrate-data" />Que faire après une migration des données ?
 
 Après avoir effectué une migration des données, les transactions ont le statut Non validé, vous pouvez les consulter et faire des ajustements. Pour consulter les transactions, accédez à la page où vous les trouveriez normalement. Par exemple, pour examiner les factures vente non validées, accédez à la page Factures vente. Pour consulter des feuilles paiement, accédez à la page Feuilles paiement.
 Il existe quelques éléments en particulier que vous devez effectuer : si les transactions dans QuickBooks avaient les montants de majoration ou de remise, vous devez ajouter manuellement les montants aux transactions associées dans Business Central avant de les valider.
 Si vous utilisez la taxe sur la valeur ajoutée (TVA), vous devez ajouter un groupe comptabilisation marché et un groupe comptabilisation produit au paramétrage de la validation de manière à pouvoir valider les montants TVA.
 Vérifiez les soldes de début des comptes du grand livre. QuickBooks ne stocke pas le solde actuel de tous les comptes, vous pouvez être amené à corriger les soldes d’ouverture.
 
-## Voir la [formation Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) associée
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  

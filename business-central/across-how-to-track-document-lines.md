@@ -10,10 +10,10 @@ ms.search.form: '6560, 42, 50, 507, 509'
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# Suivre des lignes document
+# <a name="track-document-lines" />Suivre des lignes document
 Vous pouvez afficher les documents associés aux lignes commande vente et aux lignes commande achat, notamment à partir des lignes commande archivées. Les documents associés que vous pouvez suivre comprennent les devis, les expéditions, les réceptions et les commandes ouvertes. Cela vous aide à identifier les documents utilisés pour traiter les commandes.  
 
-## Pour suivre les documents associés à une ligne commande vente
+## <a name="to-track-documents-related-to-a-sales-order-line" />Pour suivre les documents associés à une ligne commande vente
 La procédure suivante décrit comment effectuer le suivi à partir d’une ligne commande vente. La procédure est identique pour les lignes commande achat et commande ouverte.
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
@@ -24,7 +24,7 @@ La procédure suivante décrit comment effectuer le suivi à partir d’une lign
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

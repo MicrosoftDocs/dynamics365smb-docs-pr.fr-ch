@@ -11,30 +11,30 @@ ms.search.form: '431, 432, 436, 478'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# Configurer les conditions et niveaux de relance
+# <a name="set-up-reminder-terms-and-levels" />Configurer les conditions et niveaux de relance
 
 Vous pouvez utiliser des relances pour rappeler aux clients les soldes échus. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
-## Conditions de relance
+## <a name="reminder-terms" />Conditions de relance
 
 Si des clients ont des impayés, vous devez décider quand et comment leur envoyer une relance. En outre, vous pouvez être amené à débiter leurs comptes d’intérêts ou de frais. Vous pouvez configurer autant de conditions relance que vous le souhaitez.  
 
 > [!NOTE]
 > Si vous souhaitez calculer les intérêts sur les paiements échus, vous pouvez le faire lorsque vous créez des relances. Cependant, si vous souhaitez calculer les intérêts et en informer vos clients sans envoyer de relances, utilisez les [factures d’intérêts](finance-setup-finance-charges.md). Pour plus d’informations, consultez [Relances](receivables-collect-outstanding-balances.md#reminders) ou [Frais financiers](receivables-collect-outstanding-balances.md#finance-charges), respectivement.
 
-### Pour configurer des conditions de relance
+### <a name="to-set-up-reminder-terms" />Pour configurer des conditions de relance
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions de relance**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Pour utiliser plusieurs combinaisons de conditions de relance, créez un code pour chacun d’eux.
 
-## Niveaux relance
+## <a name="reminder-levels" />Niveaux relance
 
 Vous pouvez définir un nombre illimité de niveaux de relance pour chaque code de condition de relance. La première fois qu’une relance est créée pour un client, le paramétrage utilisé est celui du niveau 1. Lorsque la relance est émise, le numéro du niveau est enregistré dans les écritures relance qui sont créées et associées à l’écriture comptable client spécifique. S’il est nécessaire de relancer le client, toutes les écritures comptables relance associées aux écritures comptables client ouvertes sont vérifiées afin de localiser le numéro de niveau le plus élevé. Les conditions du niveau suivant seront alors utilisées pour la nouvelle relance.
 
 Si vous créez plus de relances qu’il n’y a de niveaux relance, les conditions utilisées seront celles du niveau le plus élevé. Vous pouvez utiliser autant de relances que le champ **Nombre max. de relances** des conditions relance le permet.
 
-### Pour configurer des niveaux de relance
+### <a name="to-set-up-reminder-levels" />Pour configurer des niveaux de relance
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions de relance**, puis sélectionnez le lien associé.  
 2. Sur la page **Conditions de relance**, cliquez sur la ligne comportant les conditions pour lesquelles configurer des niveaux, puis cliquez sur l’action **Niveaux**.  
@@ -92,9 +92,9 @@ Si vous créez plus de relances qu’il n’y a de niveaux relance, les conditio
 
 Si vous avez configuré les conditions relance (avec des niveaux et du texte supplémentaires), saisissez l’un des codes sur chaque fiche client. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).  
 
-## Voir la [formation Microsoft](/training/modules/send-reminders-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/send-reminders-dynamics-365-business-central/) associée
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
 [Envoyer des rappels de soldes impayés](receivables-send-reminders.md)  

@@ -12,13 +12,13 @@ ms.date: 03/14/2022
 ms.author: edupont
 ---
 
-# Démarrage rapide de Informations société
+# <a name="company-information-quick-start" />Démarrage rapide de Informations société
 
 Pour vous aider à mettre votre entreprise en ordre de marche dans [!INCLUDE[prod_short](includes/prod_short.md)], vous devez d’abord renseigner certains détails de base de l’entreprise et des informations pertinentes en fonction des besoins de votre entreprise.  
 
 Vous pouvez saisir toutes les données pertinentes sur la page **Informations société** lorsque vous créez une nouvelle entreprise.
 
-## Pour configurer les informations sur la société  
+## <a name="to-set-up-company-information" />Pour configurer les informations sur la société
 
 1. Choisissez l’icône en forme de ![pignon pour ouvrir le menu Paramètres.](media/ui-experience/settings_icon_small.png) puis choisissez l’action **Informations société**.
 2. Renseignez les informations dans le raccourci, comme indiqué dans le tableau ci-dessous. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -27,9 +27,9 @@ Vous pouvez saisir toutes les données pertinentes sur la page **Informations so
 
 Une fois que vous avez terminé de remplir les informations, vous pouvez fermer la page.  
 
-## Voir la [formation Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) associée
 
-## Voir aussi  
+## <a name="see-also" />Voir aussi
 
 [Présentation des informations sur la société](admin-company-information.md)  
 [Configurer les informations société en Italie](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

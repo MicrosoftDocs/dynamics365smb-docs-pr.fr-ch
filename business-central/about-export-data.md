@@ -11,11 +11,11 @@ ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Exporter vos données métier vers Excel
+# <a name="export-your-business-data-to-excel" />Exporter vos données métier vers Excel
 
 Excel est un outil puissant à utiliser avec les données. À partir de [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez ouvrir n’importe quelle liste dans Excel. Vous pouvez même modifier les données dans Excel, puis les renvoyer vers [!INCLUDE [prod_short](includes/prod_short.md)]. La même capacité vous permet d’emporter facilement vos données avec vous si vous décidez d’annuler votre abonnement.
 
-## Ouverture de listes dans Excel
+## <a name="opening-lists-in-excel" />Ouverture de listes dans Excel
 
 Vous pouvez ouvrir des données dans Excel à partir de n’importe quelle feuille ou liste. Il vous suffit d’ouvrir la page que vous souhaitez, puis de cliquer sur **Ouvrir dans Excel**. Par exemple, ouvrez la liste des clients (recherchez **Clients**), puis sélectionnez **Ouvrir dans Excel**. Votre navigateur vous invite alors à ouvrir ou à enregistrer le classeur Excel généré.  
 
@@ -24,11 +24,11 @@ Vous pouvez ouvrir des données dans Excel à partir de n’importe quelle feuil
 
 Chaque liste inclut des colonnes. L’exportation vers Excel inclut toutes les colonnes qui se trouvent dans votre vue actuelle. Modifiez les colonnes en ouvrant le menu contextuel d’une colonne, puis en spécifiant les colonnes que vous souhaitez voir. La liste des colonnes est différente pour la plupart des listes. Les colonnes reflètent la structure de la base de données qui stocke vos données. Si vous n’êtes pas sûr du type de données que contient une certaine colonne, ajoutez-la à votre vue. Vous pouvez toujours la supprimer à nouveau.  
 
-### Modifier des données dans Excel
+### <a name="edit-data-in-excel" />Modifier des données dans Excel
 
 Votre expérience [!INCLUDE[prod_short](includes/prod_short.md)] inclut un complément pour Excel vous permettant de modifier des données dans Excel. Pour plus d’informations, voir [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md).  
 
-## Exportation de données vers d’autres systèmes financiers
+## <a name="exporting-data-to-other-finance-systems" />Exportation de données vers d’autres systèmes financiers
 
 Si vous décidez d’annuler votre abonnement à [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez exporter vos données vers Excel et les transférer ensuite dans votre système financier suivant.  
 
@@ -72,9 +72,9 @@ Nous recommandons également d’exporter des données à partir des pages suiva
 
 Pour plus d’informations, voir [Pour afficher ou modifier les autorisations d’un utilisateur](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 [Annuler pour votre abonnement [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  

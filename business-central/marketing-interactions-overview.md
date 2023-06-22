@@ -10,7 +10,7 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# Gérer les interactions avec vos contacts
+# <a name="managing-interactions-with-your-contacts" />Gérer les interactions avec vos contacts
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], les interactions désignent tous les types de communication entre votre société et vos contacts. Par exemple, les communications peuvent s’effectuer par e-mail, par lettre, par téléphone, lors de réunions et ainsi de suite.
 
 Vous pouvez enregistrer toutes les interactions vente et marketing avec vos contacts afin d’effectuer le suivi des efforts mis en œuvre, et d’améliorer vos futures relations commerciales.

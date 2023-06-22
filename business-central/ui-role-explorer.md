@@ -12,7 +12,7 @@ ms.date: 08/01/2021
 ms.author: jswymer
 ---
 
-# Recherche de pages avec l’explorateur de rôles
+# <a name="finding-pages-with-the-role-explorer" />Recherche de pages avec l’explorateur de rôles
 
 Vous pouvez obtenir une vue d’ensemble de toutes les fonctionnalités métier disponibles pour votre rôle et pour d’autres rôles si vous allez encore plus loin. Dans la documentation suivante, cette présentation de la fonctionnalité est appelée *explorateur de rôles*.
 
@@ -20,7 +20,7 @@ Chaque élément de l’explorateur de rôles est une action qui ouvre une page.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Ouvrir l’explorateur de rôles
+## <a name="open-the-role-explorer" />Ouvrir l’explorateur de rôles
 
 Vous pouvez ouvrir l’explorateur de rôles à partir du Tableau de bord, de toutes les pages de liste et de la fenêtre **de recherche**.
 
@@ -29,7 +29,7 @@ Vous pouvez ouvrir l’explorateur de rôles à partir du Tableau de bord, de to
 
 Lorsque vous ouvrez le tableau de bord des rôles pour la première fois, il affiche des liens vers la plupart des fonctionnalités disponibles pour votre rôle.
 
-## Naviguer dans les fonctionnalités
+## <a name="navigate-features" />Naviguer dans les fonctionnalités
 
 Les actions qui ouvrent des pages sont organisées sous des nœuds nommés d’après les fonctions ou les domaines d’application. Chaque nœud peut être réduit ou développé individuellement et vous pouvez réduire/développer tous les nœuds ensemble.
 
@@ -37,11 +37,11 @@ Les actions qui ouvrent des pages sont organisées sous des nœuds nommés d’a
 - Pour développer/réduire tous les nœuds de niveau supérieur sur la page, mais laisser les sous-nœuds tels qu’ils sont, choisissez **...** en haut, puis choisissez **Développer** ou **Réduire**.
 - Pour développer/réduire tous les nœuds de niveau supérieur et tous les sous-nœuds en-dessous, choisissez **...** en haut, puis choisissez l’action **Développer tout** ou **Réduire tout**.
 
-## Rechercher des fonctionnalités
+## <a name="search-for-features" />Rechercher des fonctionnalités
 
 Pour localiser rapidement des fonctionnalités, sélectionnez **Rechercher**, puis saisissez un mot ou une phrase pour la fonctionnalité que vous essayez de trouver. Le tableau de bord des rôles mettra en surbrillance tout texte correspondant. Si une fonctionnalité est masquée dans le nœud réduit, le nœud réduit est marqué d’un point. 
 
-## Découvrir d’autres rôles
+## <a name="explore-other-roles" />Découvrir d’autres rôles
 
 Pour explorer des rôles autres que le vôtre, sélectionnez **Explorer plus de rôles**. Le tableau de bord des rôles affiche chaque rôle sous son propre titre, avec des liens vers ses fonctionnalités. Vous pouvez ensuite naviguer et trouver des fonctionnalités comme vous le faites lorsque vous explorez votre rôle.
 
@@ -57,7 +57,7 @@ Lorsque vous explorez d’autres rôles, vous pouvez également affiner l’expl
 > Pour les développeurs, vous catégorisez les pages et les états en définissant la [Propriété UsageCategory](/dynamics365/business-central/dev-itpro/developer/properties/devenv-usagecategory-property) dans le code AL de l’objet.
 <!--
  
-## Role explorer actions
+## <a name="role-explorer-actions" />Role explorer actions
 
 There a several actions along the top of the role explorer to help you locate features of your role and other roles.
 
@@ -80,7 +80,7 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 > Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 -->
 
-## Développer et réduire des nœuds dans l’explorateur de rôles
+## <a name="expand-and-collapse-nodes-on-the-role-explorer" />Développer et réduire des nœuds dans l’explorateur de rôles
 
 Les actions qui ouvrent des pages sont organisées sous des nœuds nommés d’après les fonctions ou les domaines d’application. Chaque nœud peut être réduit ou développé individuellement et vous pouvez réduire/développer tous les nœuds ensemble.
 
@@ -90,7 +90,7 @@ Les actions qui ouvrent des pages sont organisées sous des nœuds nommés d’a
   - Appuyez sur les touches <kbd>Ctrl</kbd>+<kbd>Maj</kbd> pendant que vous choisissez l’action **Développer** ou **Réduire** dans le coin supérieur droit.
   - Choisissez **...** dans le coin supérieur droit, puis choisissez l’action **Développer tout** ou **Réduire tout**.
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 [Recherche de pages et d’informations avec Tell Me](ui-search.md)  
 [Gérer les profils](admin-users-profiles-roles.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

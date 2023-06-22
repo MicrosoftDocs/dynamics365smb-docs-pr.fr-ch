@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# Annuler la validation d’assemblage
+# <a name="undo-assembly-posting" />Annuler la validation d’assemblage
 
 Annulez la validation d’un ordre d’assemblage pour corriger une erreur ou supprimer une validation indésirable.
 
@@ -33,7 +33,7 @@ Les ordres d’assemblage ne peuvent être restaurés que si le numéro et la s�
 
 La procédure suivante décrit comment annuler les ordres d’assemblage validés qui contiennent des articles assemblés pour stock. Pour annuler des ordres d’assemblage validés avec des articles qui ont été assemblés pour commande, utilisez l’action **Annuler l’expédition** sur l’expédition validée associée. Pour en savoir plus sur l’annulation des expéditions, consultez [Inverser des validations feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md). L’annulation de l’ordre d’assemblage validé se déroule de la même manière que celle décrite dans cet article.  
 
-## Pour annuler la validation d’un ordre d’assemblage
+## <a name="to-undo-posting-of-an-assembly-order" />Pour annuler la validation d’un ordre d’assemblage
 
 Vous pouvez annuler des ordres d’assemblage entièrement ou partiellement validés.
 
@@ -50,7 +50,7 @@ Le champ **Contrepassé** de l’ordre d’assemblage prend la valeur **Oui**. L
 > [!NOTE]  
 > Pour restaurer les quantités de plusieurs validations partielles dans un ordre d’assemblage, vous devez annuler tous les ordres d’assemblage validés en suivant les étapes 1 à 3.  
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Inverser des validations feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Pour créer des devis service
+# <a name="create-service-quotes" />Pour créer des devis service
 Vous pouvez considérer les devis service comme la base des commandes service. En réalité, ils sont quasiment identiques. Tous deux contiennent des informations, telles que l’identité du client, le type de commande, l’article nécessitant une maintenance, les informations de facturation et d’expédition et les informations sur la tâche de service réelle.
  
 Vous pouvez utiliser un devis service comme brouillon d’une commande service, et convertir le devis en commande.  
   
-## Pour créer un devis service  
+## <a name="to-create-a-service-quote" />Pour créer un devis service
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devis service**, puis choisissez le lien associé.  
 2. Créez un devis service.  
 3. Dans le champ **N°**, saisissez le numéro du devis service. Si vous avez configuré une souche de numéros pour les devis service sur la page **Paramètres Gestion des services**, vous pouvez appuyer sur <kbd>Entrée</kbd> pour renseigner le numéro devis service suivant.  
@@ -28,7 +28,7 @@ Vous pouvez utiliser un devis service comme brouillon d’une commande service, 
 6. Renseignez les lignes article de service.  
 7. Enregistrez les coûts estimés dans les lignes service.  
   
-## Voir aussi  
+## <a name="see-also" />Voir aussi
 [Créer commande service](service-how-to-create-service-orders.md)  
 [Travailler sur des tâches service](service-how-to-work-on-service-tasks.md)  
 

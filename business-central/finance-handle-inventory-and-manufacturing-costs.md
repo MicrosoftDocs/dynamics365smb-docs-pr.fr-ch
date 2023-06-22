@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Gestion des coûts ajustés et des coûts de fabrication
+# <a name="handling-inventory-and-manufacturing-costs" />Gestion des coûts ajustés et des coûts de fabrication
 
 Bien que la comptabilité analytique soit constituée de processus ne nécessitant pas d’interaction utilisateur, telle que le lettrage d’écritures et l’ajustement automatique des coûts, un certain nombre de champs, pages et états sont destinés aux utilisateurs qui gèrent directement ou indirectement le coût des articles ou opérations.  
 
@@ -29,7 +29,7 @@ Bien que la comptabilité analytique soit constituée de processus ne nécessita
 |Délettrer manuellement un article ou relettrer des écritures comptables article créées par l’application.|[Supprimer et relettrer des écritures comptables article](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Utilisez le champ **Lettrage à partir écriture** dans la feuille article pour créer manuellement un lettrage fixe entre une transaction entrante et la transaction sortante initiale.|[Clôturer les écritures comptables article ouvertes qui résultent d’un lettrage fixe dans la feuille article](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)

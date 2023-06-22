@@ -10,7 +10,7 @@ ms.search.form: '506, 521, 9125'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Supprimer et relettrer des écritures comptables article
+# <a name="remove-and-reapply-item-ledger-entries" />Supprimer et relettrer des écritures comptables article
 Sur la page **Feuille lettrage**, vous pouvez visualiser et modifier manuellement certaines écritures lettrage article qui sont créées automatiquement lors des mouvements de stock.  
 
 Lorsque vous validez une transaction où des articles entrent ou sortent du stock, un lettrage article est créé entre chaque entrée de stock et sortie du stock. Ces applications déterminent le flux des coûts de biens entrant dans le stock vers des coûts de biens sortant du stock. En raison du mode de calcul du coût unitaire, un lettrage article incorrect peut produire un coût moyen ou un coût unitaire erroné. Pour plus d’informations, voir Détails de conception : traçabilité.
@@ -33,7 +33,7 @@ Si vous ne pouvez pas utiliser un document pour un relettrage, par exemple si vo
     - Vous pouvez supprimer des lettrages de plusieurs écritures à la fois dans la feuille lettrage. Toutefois, comme le lettrage d’écritures affecte l’ensemble des écritures qui sont disponibles pour le lettrage, vous ne pouvez pas créer un lettrage pour plusieurs écritures à la fois.
     - La feuille lettrage ne peut pas effectuer de lettrage dans la situation suivante : si la quantité en stock est insuffisante pour le lettrage, la feuille lettrage ne peut pas effectuer un lettrage lorsque vous tentez de lettrer une écriture de sortie de stock sans informations de traçabilité sur une écriture d’entrée de stock avec des informations traçabilité.
 
-## Pour supprimer un lettrage article en utilisant la feuille lettrage
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet" />Pour supprimer un lettrage article en utilisant la feuille lettrage
 
 1.  Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille lettrage**, puis sélectionnez le lien associé.  
 2.  La page **Feuille lettrage** s’ouvre en affichant les écritures comptables article existantes de tous les articles.  
@@ -50,7 +50,7 @@ Si vous ne pouvez pas utiliser un document pour un relettrage, par exemple si vo
 >   
 >  **Il est impossible d’effectuer cette opération car les écritures de l’article \<item\> ne sont pas lettrées dans la feuille lettrage par l’utilisateur \<user\>.**  
 
-## Pour relettrer un lettrage article en utilisant la feuille lettrage
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet" />Pour relettrer un lettrage article en utilisant la feuille lettrage
 
 1.  Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 2.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille lettrage**, puis sélectionnez le lien associé.  
 2.  La page **Feuille lettrage** s’ouvre en affichant les écritures comptables article existantes de tous les articles.  
@@ -67,7 +67,7 @@ Si vous ne pouvez pas utiliser un document pour un relettrage, par exemple si vo
     >  Si vous avez choisi d’effectuer un lettrage qui créerait une boucle infinie dans le processus d’ajustement des coûts, le lettrage que vous avez proposé n’est pas appliqué. Cela peut se produire lorsque les écritures originales ont créé un stock négatif. Le lettrage n’est pas effectué. Par conséquent, vous devez sélectionner une autre écriture pour le lettrage.  
 6.  Si, dans les **Paramètres stock**, le champ **Ajustement automatique des coûts** est défini sur **Toujours**, le traitement par lots d’ajustement des coûts est exécuté automatiquement après que vous avez effectué un relettrage. Sinon, exécutez le traitement par lots **Ajuster coûts - Écr. article** pour être sûr que tous les coûts sont actualisés.  
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Clôturer les écritures comptables article ouvertes qui résultent d’un lettrage fixe dans la feuille article](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Traiter les retours ou annulations d’achats](purchasing-how-process-purchase-returns-cancellations.md)  

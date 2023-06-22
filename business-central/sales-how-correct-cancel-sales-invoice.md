@@ -10,7 +10,7 @@ ms.search.keywords: 'undo, credit memo, return'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Corriger ou annuler des factures vente impayées
+# <a name="correct-or-cancel-unpaid-sales-invoices" />Corriger ou annuler des factures vente impayées
 
 Vous pouvez corriger ou annuler une facture de vente impayée, à condition qu’elle n’ait pas été entièrement expédiée. Cela est utile si vous faites une erreur ou si le client demande une modification avant l’exécution de l’expédition. Dans tous les autres scénarios, nous vous recommandons de créer directement un avoir vente correctif. Pour plus d’informations, consultez [Créer un avoir vente à partir d’une facture vente enregistrée](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).  
 
@@ -29,7 +29,7 @@ Lorsque vous corrigez ou annulez une facture vente enregistrée, l’avoir vente
 > [!TIP]
 > Si vous avez enregistré une facture de prépaiement pour une facture vente que vous corrigez ou annulez ensuite, vous devez également corriger ou annuler le prépaiement. Pour plus d’informations, voir [Corriger des acomptes](finance-how-to-correct-prepayments.md).
 
-## Pour annuler une facture vente validée
+## <a name="to-cancel-a-posted-sales-invoice" />Pour annuler une facture vente validée
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
 2. Sélectionnez la facture vente validée à annuler.
@@ -41,11 +41,11 @@ Lorsque vous corrigez ou annulez une facture vente enregistrée, l’avoir vente
     Un avoir vente est automatiquement créé et validé pour annuler la facture vente validée initiale. La valeur du champ **Annulé** de la facture vente validée initiale devient **Oui**.
 4. Sélectionnez l’action **Afficher un avoir correctif** pour afficher l’avoir vente validé qui annule la facture vente validée initiale.
 
-### Validation partielle de facture également prise en charge
+### <a name="partial-invoice-posting-also-supported" />Validation partielle de facture également prise en charge
 
 Si l’annulation est liée à une validation de facture partielle, la ligne de commande vente d’origine est mise à jour pour refléter la quantité facturée annulée. Les champs **Qté à facturer** et **Qté facturée** de la ligne de commande vente associée sont réinitialisés aux valeurs avant l’enregistrement partiel.
 
-## Pour corriger une facture vente validée
+## <a name="to-correct-a-posted-sales-invoice" />Pour corriger une facture vente validée
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
 2. Sélectionnez la facture vente validée à corriger.
@@ -61,9 +61,9 @@ Si l’annulation est liée à une validation de facture partielle, la ligne de 
     Un avoir vente est automatiquement créé et validé pour annuler la facture vente validée initiale.
 5. Sélectionnez l’action **Afficher un avoir correctif** pour afficher l’avoir vente validé qui annule la facture vente validée initiale.
 
-## Voir la [formation Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/) associée
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  

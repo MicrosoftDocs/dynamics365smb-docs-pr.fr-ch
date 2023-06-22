@@ -10,7 +10,7 @@ ms.search.keywords: 'design, inventory, item, tracking, serial number, lot numbe
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Détails de conception : page Lignes traçabilité
+# <a name="design-details-item-tracking-lines-page" />Détails de conception : page Lignes traçabilité
 Les enregistrements de traçabilité et de réservation sont créés dans le système de réservation, et leur disponibilité est calculée de façon dynamique. Les données qui sont saisies sur la page **Lignes traçabilité** sont gérées dans une version temporaire de la table **Spécification traçabilité**. Lorsque la page est fermée, les données actives sont validées dans le tableau **Écriture réservation** et les données historiques sont validées dans le tableau **Spécification traçabilité**. Pour plus d’informations, voir [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md).  
   
 Les recherches sur les champs **N° de série** et **N° lot** montrent une disponibilité sur la base des deux tables **Écriture comptable article** et **Écriture réservation**, sans le filtre date. La matrice des champs de quantité figurant dans l’en-tête de la page **Lignes traçabilité** affiche de façon dynamique les quantités et les sommes des numéros traçabilité qui sont saisis dans les lignes de la page. Les quantités doivent être égales à celles qui figurent dans la ligne document, comme l’indique la valeur **0** dans les champs **Non défini** de l’en-tête de la page.  
@@ -23,7 +23,7 @@ Pour coordonner le flux des numéros de série et de lot par le stock, les règl
   
 Les règles de saisie des données de la page **Lignes traçabilité** prennent également en charge les principes de couplage qui gouvernent le chaînage, la planification et la réservation. Pour plus d’informations, reportez\-vous à [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-planning.md).  
   
-## Voir aussi  
+## <a name="see-also" />Voir aussi
 [Détails de conception : traçabilité](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

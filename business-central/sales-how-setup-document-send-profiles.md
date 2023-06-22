@@ -10,7 +10,7 @@ ms.search.keywords: 'email, PDF, electronic document'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Configurer des profils d’envoi de documents
+# <a name="set-up-document-sending-profiles" />Configurer des profils d’envoi de documents
 Vous pouvez associer chaque client avec une méthode par défaut d’envoi de documents vente, afin d’éviter d’avoir à sélectionner une option d’envoi chaque fois que vous sélectionnez l’action **Valider et envoyer**.
 
 Sur la page **Profils d’envoi de documents**, configurez différents profils d’envoi que vous pouvez sélectionner dans le champ **Profil d’envoi de documents** d’une fiche client. Vous pouvez cocher la case **Par défaut** pour spécifier que le profil d’envoi du document est le profil par défaut pour tous les clients, sauf pour les clients dont le champ **Profil d’envoi de documents** est renseigné avec un autre profil d’envoi.
@@ -20,17 +20,17 @@ Lorsque vous sélectionnez l’action **Valider et envoyer** dans un document ve
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH?rel=0]
 
-## Configurer un profil d’envoi de documents
+## <a name="to-set-up-a-document-sending-profile" />Configurer un profil d’envoi de documents
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Profils d’envoi de documents**, puis choisissez le lien associé.
 2. Sur la page **Profils d’envoi de documents**, sélectionnez l’action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Spécifier un profil d’envoi pour une fiche client
+## <a name="to-specify-a-sending-profile-on-a-customer-card" />Spécifier un profil d’envoi pour une fiche client
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Ouvrez la fiche du client pour laquelle vous souhaitez configurer un profil d’envoi.
 3. Dans le champ **Profil d’envoi de documents**, sélectionnez un profil configuré comme décrit dans la procédure précédente.
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 [Définition des ventes](sales-setup-sales.md)  
 [Ventes](sales-manage-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

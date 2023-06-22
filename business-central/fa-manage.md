@@ -11,7 +11,7 @@ ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 563
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Gestion des immobilisations
+# <a name="managing-fixed-assets" />Gestion des immobilisations
 
 Le module Immobilisations dans [!INCLUDE[prod_short](includes/prod_short.md)] offre un aperçu des immobilisations et garantit un amortissement périodique correct. Elle vous permet également de connaître les coûts de maintenance, de gérer les polices d’assurance, de valider les transactions d’immobilisations, et de générer des états et des statistiques variés.
 
@@ -41,15 +41,15 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Valider les transactions de cession, visualiser les écritures comptables cession et valider les cessions partielles. |[Céder ou annuler des immobilisations](fa-how-dispose-retire.md) |
 | Gérer les budgets d’immobilisations, budgéter les coûts d’acquisition, les cessions d’immobilisations et l’amortissement. |[Gérer les budgets pour les immobilisations](fa-how-manage-budgets.md) |
 
-## Présentation de la vidéo
+## <a name="video-overview" />Présentation de la vidéo
 
 La vidéo suivante couvre les notions de base des immobilisations.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Voir la [formation Microsoft](/training/paths/manage-fixed-assets-transactions/) associée
+## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" />Voir la [formation Microsoft](/training/paths/manage-fixed-assets-transactions/) associée
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
@@ -57,7 +57,7 @@ La vidéo suivante couvre les notions de base des immobilisations.
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

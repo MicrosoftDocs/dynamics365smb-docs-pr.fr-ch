@@ -11,10 +11,10 @@ ms.search.form: '3903, 3901'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Définir des stratégies de rétention
+# <a name="define-retention-policies" />Définir des stratégies de rétention
 Les administrateurs peuvent définir des stratégies de rétention pour spécifier à quelle fréquence ils souhaitent que [!INCLUDE[prod_short](includes/prod_short.md)] supprime les données obsolètes dans les tables contenant des entrées de journal et des enregistrements archivés. Par exemple, le nettoyage des entrées de journal peut faciliter l’utilisation des données réellement pertinentes. Les stratégies peuvent inclure toutes les données des tables qui ont dépassé la date d’expiration, ou vous pouvez ajouter des critères de filtre qui n’incluront que certaines données expirées dans la stratégie. 
 
-## Paramètres et autorisations obligatoires
+## <a name="required-setups-and-permissions" />Paramètres et autorisations obligatoires
 Avant de pouvoir utiliser des stratégies de rétention, vous devez définir les éléments suivants.
 
 |Configuration  |Description  |
@@ -27,13 +27,13 @@ En outre, vous devez disposer des autorisations d’utilisateur AVANCÉ ou de l�
 > [!NOTE]
 > Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] en local, et que vous souhaitez essayer les stratégies de rétention dans la base de données de démonstration Cronus, vous devez effectuer certaines opérations. La société de démonstration ne contient pas de tables que vous pouvez utiliser avec des stratégies de rétention, vous devez donc les ajouter. Pour ce faire, créez une société vierge dans la base de données de démonstration. Dans la nouvelle société, importez le package de configuration RapidStart pour votre pays qui correspond au package standard NAV17.0.W1.ENU.STANDARD.rapidstart. Les données de configuration des stratégies de rétention seront disponibles dans la nouvelle société.
 
-### Pour créer des périodes de rétention
+### <a name="to-create-retention-periods" />Pour créer des périodes de rétention
 Les périodes de rétention peuvent être aussi longues ou aussi courtes que vous le souhaitez. Pour créer des périodes de rétention, sur la page **Stratégies de rétention**, utilisez l’action **Durée de rétention**. Les périodes que vous définissez seront disponibles pour toutes les stratégies.
 
 > [!NOTE]
 > Pour des raisons de conformité, nous avons défini une période de rétention minimale pour certaines tables. Si vous définissez une période de rétention plus courte que le minimum requis, un message affichera la période obligatoire.
 
-### Configurer une stratégie de rétention
+### <a name="set-up-a-retention-policy" />Configurer une stratégie de rétention
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Stratégies de rétention**, puis choisissez le lien associé.
 2. Dans le champ **ID table**, sélectionnez la table que vous souhaitez inclure dans la stratégie.
 3. Dans le champ **Durée de rétention**, spécifiez la durée pendant laquelle conserver les données dans la table.
@@ -42,17 +42,17 @@ Les périodes de rétention peuvent être aussi longues ou aussi courtes que vou
    > [!NOTE]
    > Chaque ligne a sa propre période de rétention. Si vous spécifiez des périodes de rétention différentes pour les mêmes données, la période la plus longue sera utilisée. En outre, certaines tables contiennent des filtres que vous ne pouvez ni modifier ni supprimer. Pour vous aider à identifier ces filtres, ils apparaissent dans une police de couleur plus claire.
 
-## Application des stratégies de rétention
+## <a name="applying-retention-policies" />Application des stratégies de rétention
 Vous pouvez utiliser une entrée de file d’attente de tâches pour appliquer des stratégies de rétention afin de supprimer automatiquement les données, ou vous pouvez appliquer manuellement des stratégies.
 
 Pour appliquer automatiquement une stratégie de rétention, créez et activez simplement une stratégie. Lorsque vous activez une stratégie, nous créons une entrée de file d’attente de tâches qui appliquera les stratégies de rétention en fonction de la période de rétention que vous spécifiez. Toutes les stratégies de rétention utiliseront la même entrée de file d’attente de tâches. Par défaut, l’entrée de la file d’attente des tâches applique la stratégie tous les jours à 02 h 00. Vous pouvez modifier la valeur par défaut, mais si vous le faites, nous vous recommandons de l’exécuter en dehors des heures d’ouverture. Pour en savoir plus, consultez [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md). 
 
 Vous pouvez appliquer manuellement une stratégie en utilisant l’action **Appliquer manuellement** sur la page **Stratégies de rétention**. Si vous souhaitez toujours appliquer une stratégie manuellement, activez le bouton de basculement **Manuel**. L’entrée de la file d’attente des tâches ne tiendra pas compte de la stratégie lors de son exécution.
 
-## Affichage des entrées du journal des stratégies de rétention
+## <a name="viewing-retention-policy-log-entries" />Affichage des entrées du journal des stratégies de rétention
 Vous pouvez afficher l’activité liée aux stratégies de rétention dans la page **Journal des stratégies de rétention**. Par exemple, des entrées sont créées lorsqu’une stratégie est appliquée ou si des erreurs se sont produites lorsque cela s’est produit. 
 
-## Inclusion de votre extension dans une stratégies de rétention (nécessite l’aide d’un développeur)
+## <a name="including-your-extension-in-a-retention-policy-requires-help-from-a-developer" />Inclusion de votre extension dans une stratégies de rétention (nécessite l’aide d’un développeur)
 Par défaut, les stratégies de rétention couvrent uniquement les tables incluses dans la liste des tableaux [!INCLUDE[prod_short](includes/prod_short.md)] que nous fournissons. Vous pouvez supprimer les tables par défaut de la liste et ajouter des tables qui vous appartiennent. Autrement dit, vous ne pouvez pas ajouter une table que vous n’avez pas créée vous-même. Par exemple, vous ne pouvez pas ajouter d’autres tables à partir de [!INCLUDE[prod_short](includes/prod_short.md)] ou à partir d’une extension que vous avez achetée.
 
 Pour ajouter vos tables à la liste des tables autorisées, un développeur doit ajouter du code, par exemple au codeunit d’installation de l’extension (un codeunit avec le sous-type *install*). 
@@ -95,7 +95,7 @@ L’exemple suivant inclut un filtre obligatoire.
 
 Une fois qu’un développeur a ajouté des tables à la liste, un administrateur peut les inclure dans une stratégie de rétention. 
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Analyse de la télémétrie de suivi des stratégies de rétention](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Audit des modifications dans Business Central](across-log-changes.md)  

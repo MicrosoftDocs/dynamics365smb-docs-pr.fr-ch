@@ -10,7 +10,7 @@ ms.search.form: '283, 5629'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Répartition des coûts et du revenu
+# <a name="allocate-costs-and-income" />Répartition des coûts et du revenu
 
 Vous pouvez ventiler une écriture dans une feuille comptabilité dans différents comptes lorsque vous validez la feuille. La ventilation peut être effectuée de trois manières différentes :
 
@@ -23,7 +23,7 @@ Les fonctions de ventilation peuvent être utilisées avec les feuilles abonneme
 
 Les procédures suivantes décrivent comment se préparer à affecter des coûts dans une feuille abonnement en définissant des clés de ventilation. Lorsque des clés de ventilation sont définies, vous renseignez et validez la feuille comme toute autre feuille abonnement. Pour en savoir plus, voir [Utiliser des feuilles comptabilité](ui-work-general-journals.md).
 
-## Pour définir des clés de ventilation
+## <a name="to-set-up-allocation-keys" />Pour définir des clés de ventilation
 
 Vous pouvez ventiler une écriture dans une feuille abonnement dans différents comptes lorsque vous validez la feuille. La ventilation peut être effectuée par quantité, pourcentage ou montant.  
 
@@ -41,13 +41,13 @@ Vous pouvez ventiler une écriture dans une feuille abonnement dans différents 
 10. Après avoir saisi les lignes de ventilation, cliquez sur **OK** pour revenir à la page **Feuille abonnement**. Le champ **Montant imputé DS** est renseigné et correspond au champ **Montant**.
 11. Validez la feuille.
 
-## Pour modifier une clé de ventilation déjà configurée
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up" />Pour modifier une clé de ventilation déjà configurée
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille récurrente**, puis sélectionnez le lien associé.
 2. Sur la page **Feuille récurrente**, sélectionnez la feuille contenant la ventilation.
 3. Sélectionnez la ligne de la ventilation, puis sélectionnez l’action **Ventilations**.
 4. Modifiez les champs appropriés, puis cliquez sur le bouton **OK**.
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Utiliser des feuilles comptabilité](ui-work-general-journals.md)    
 [Validation des documents et des feuilles](ui-post-documents-journals.md)    

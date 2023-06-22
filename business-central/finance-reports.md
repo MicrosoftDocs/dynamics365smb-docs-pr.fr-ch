@@ -8,17 +8,17 @@ ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# États financiers et analyses dans Business Central
+# <a name="financial-reports-and-analytics-in-business-central" />États financiers et analyses dans Business Central
 
 La génération d’états financiers dans [!INCLUDE [prod_short](includes/prod_short.md)] permet aux professionnels de la finance et des affaires de créer, maintenir, déployer et consulter des états financiers. Cela va au-delà des contraintes des rapports traditionnels pour vous aider à concevoir efficacement divers types d’états. [!INCLUDE [prod_short](includes/prod_short.md)] comprend plusieurs rapports, fonctions de traçage et outils qui aident les auditeurs ou contrôleurs chargés de rendre compte au service financier. La génération d’états financiers inclut la prise en charge des dimensions, de sorte que les segments de compte ou les dimensions sont immédiatement disponibles ; aucun autre outil ou aucune autre étape de configuration n’est requis(e).  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## États
+## <a name="reports" />États
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Tâches
+## <a name="tasks" />Tâches
 
 Les articles suivants décrivent certaines des tâches clés pour analyser l’état de votre entreprise :
 
@@ -30,9 +30,9 @@ Les articles suivants décrivent certaines des tâches clés pour analyser l’�
 * [Création d’états avec XBRL](bi-create-reports-with-xbrl.md)  
 * [Gérer l’accès intentionnel à la base de données](admin-data-access-intent.md)  
 
-## Voir la [formation Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/) associée
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Création des budgets des coûts](finance-create-cost-budgets.md)  
 [Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)  

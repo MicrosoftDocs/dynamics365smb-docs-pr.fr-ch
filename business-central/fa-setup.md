@@ -11,7 +11,7 @@ ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Paramétrage d’immobilisations
+# <a name="setting-up-fixed-assets" />Paramétrage d’immobilisations
 
 Avant de pouvoir utiliser les immobilisations, vous devez définir les éléments suivants :  
 
@@ -36,9 +36,9 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | En savoir plus sur les différentes méthodes d’amortissement des immobilisations. |[Méthodes d’amortissement](fa-depreciation-methods.md) |
 | Découvrez comment appliquer des méthodes d’amortissement paramétrables. |[Définir des méthodes d’amortissement paramétrables](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Voir la [formation Microsoft](/training/paths/set-up-fixed-assets-management/) associée
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Voir la [formation Microsoft](/training/paths/set-up-fixed-assets-management/) associée
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [COMPTES D’IMMOBILISATIONS](fa-manage.md)  
 [Finances](finance.md)  

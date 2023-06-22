@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Procédure pas-à-pas : Configurer une nouvelle capacité
+# <a name="walkthrough-set-up-new-capacity" />Procédure pas-à-pas : Configurer une nouvelle capacité
 
 Dans cet article, nous vous expliquons comment utiliser les données de démonstration de Contoso Coffee pour gérer les capacités.  
 
-## Scénario
+## <a name="scenario" />Scénario
 
 Vous êtes planificateur de production chez Contoso Coffee. En réponse à des changements dans l’atelier, vous devez créer un nouveau centre de charge, un département de test. Le nouveau centre de charge dispose d’un poste de charge pour effectuer des tests. Le nouveau poste doit avoir un calendrier de capacité pour un seul quart de travail de 8 h 00 à 16 h 00, du lundi au vendredi.  
 
-## Étapes
+## <a name="steps" />Étapes
 
 1. Configurez le centre de charge.
 
@@ -84,6 +84,6 @@ Vous êtes planificateur de production chez Contoso Coffee. En réponse à des c
 
 Sur la page **Écritures calendrier**, les écritures de capacité journalière du champ **Capacité (totale)** sont de 480 minutes. Cela correspond à un quart de travail de huit heures pour chaque journée de travail. De plus , le champ **Capacité (réelle)** indique 432 minutes. Cela reflète le taux d’efficacité de 90 % que vous avez attribué au poste de charge.  
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Introduction aux données de démonstration Contoso Coffee](../contoso-coffee-intro.md)  

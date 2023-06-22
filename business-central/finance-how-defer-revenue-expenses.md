@@ -11,13 +11,13 @@ ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Echelonner les recettes et les dépenses
+# <a name="defer-revenues-and-expenses" />Echelonner les recettes et les dépenses
 
 Pour identifier une recette ou une dépense dans une période autre que la période de validation de la transaction, vous pouvez utiliser la fonctionnalité pour échelonner automatiquement les recettes et les dépenses selon un calendrier précis.
 
 Pour répartir les recettes et les dépenses sur les périodes comptables concernées, configurez un modèle d’échelonnement pour la ressource, l’article ou le compte général pour lequel/laquelle les recettes ou les dépenses seront validées. Lorsque vous validez le document vente ou achat concerné, les recettes ou les dépenses sont échelonnées sur les périodes comptables concernées, selon un tableau d’échelonnement régi par des paramètres dans le modèle d’échelonnement et la date de validation.
 
-## Pour configurer un compte général pour échelonnement
+## <a name="to-set-up-a-gl-account-for-deferral" />Pour configurer un compte général pour échelonnement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
@@ -26,7 +26,7 @@ Pour répartir les recettes et les dépenses sur les périodes comptables concer
 
 Pour les deux types d’échelonnement, sélectionnez **Bilan** dans le champ **Type** et nommez les comptes en conséquence, comme « Revenus comptabilisés d’avance » pour les recettes différées et « Dépenses impayées » pour les dépenses différées.
 
-## Pour configurer un modèle d’échelonnement
+## <a name="to-set-up-a-deferral-template" />Pour configurer un modèle d’échelonnement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles échelonnement**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
@@ -48,7 +48,7 @@ Pour les deux types d’échelonnement, sélectionnez **Bilan** dans le champ **
 
 Exemple : la date de comptabilisation est le 06/02/2016. Si vous saisissez « Dépenses échelonnées pour %4 %6 », la description affichée sera « Dépenses échelonnées pour février 2016 ».
 
-## Pour affecter un modèle d’échelonnement à un article
+## <a name="to-assign-a-deferral-template-to-an-item" />Pour affecter un modèle d’échelonnement à un article
 
 > [!NOTE]  
 > Les étapes de cette procédure sont les mêmes que lorsque vous affectez un modèle d’échelonnement à un compte général ou une ressource.
@@ -57,7 +57,7 @@ Exemple : la date de comptabilisation est le 06/02/2016. Si vous saisissez « 
 2. Ouvrez la fiche de l’article pour lequel les recettes ou les dépenses doivent être échelonnées selon les périodes comptables lorsque l’article a été vendu ou acheté.
 3. Dans le champ **Modèle échelonnement par défaut**, sélectionnez le modèle d’échelonnement pertinent.
 
-## Pour modifier un calendrier d’échelonnement à partir d’une facture vente
+## <a name="to-change-a-deferral-schedule-from-a-sales-invoice" />Pour modifier un calendrier d’échelonnement à partir d’une facture vente
 
 > [!NOTE]  
 > Les étapes de cette procédure sont identiques lorsque vous modifiez un calendrier d’échelonnement, pour les dépenses, à partir d’une facture achat.
@@ -71,7 +71,7 @@ Exemple : la date de comptabilisation est le 06/02/2016. Si vous saisissez « 
 5. Sélectionnez l’action **Calculer tableau**.
 6. Cliquez sur le bouton **OK**. Le tableau d’échelonnement est mis à jour pour la facture vente. Le modèle d’échelonnement associé reste inchangé.
 
-## Pour obtenir un aperçu de la façon dont les recettes et les dépenses seront validées en comptabilité
+## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger" />Pour obtenir un aperçu de la façon dont les recettes et les dépenses seront validées en comptabilité
 
 > [!NOTE]  
 > Les étapes de cette procédure sont identiques lorsque vous prévisualisez la manière dont les échelonnements des dépenses sont validés.
@@ -81,7 +81,7 @@ Exemple : la date de comptabilisation est le 06/02/2016. Si vous saisissez « 
 
 Les écritures comptables à valider vers le compte d’échelonnement spécifié, par exemple, les Revenus comptabilisés d’avance, sont désignées par la description que vous avez saisie dans le champ **Description de la période** du modèle d’échelonnement, par exemple « Dépenses échelonnées pour février 2016 ».
 
-## Pour examiner les échelonnements validés dans l’état Résumé échelonnement ventes
+## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report" />Pour examiner les échelonnements validés dans l’état Résumé échelonnement ventes
 
 > [!NOTE]  
 > Les étapes de cette procédure sont identiques lorsque vous prévisualisez l’état Résumé échelonnement achats.
@@ -90,7 +90,7 @@ Les écritures comptables à valider vers le compte d’échelonnement spécifi�
 2. Sur la page **Résumé échelonnement ventes**, dans le champ **Balance au**, saisissez la date à laquelle vous souhaitez voir les recettes échelonnées.
 3. Cliquez sur le bouton **Aperçu**.
 
-## Pour spécifier une période au cours de laquelle autoriser la validation de l’échelonnement
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting" />Pour spécifier une période au cours de laquelle autoriser la validation de l’échelonnement
 
 Vous pouvez spécifier une période au cours de laquelle les personnes peuvent enregistrer des transactions en saisissant des dates dans les champs **Début période validation** et **Fin période validation**, comme suit :
 
@@ -102,9 +102,9 @@ Si vous l’avez fait, vous devez faire une exception pour les reports afin de l
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité** ou **Paramètres utilisateur**, puis choisissez le lien associé.
 2. Dans les champs **Autoriser la validation des reports à partir de** et **Autoriser la validation des reports jusqu’au**, entrez une date de début et de fin pour la période.
 
-## Voir la [formation Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) associée
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  

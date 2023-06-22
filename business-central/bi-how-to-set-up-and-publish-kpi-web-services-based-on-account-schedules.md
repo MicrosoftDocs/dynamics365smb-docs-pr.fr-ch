@@ -10,14 +10,14 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ---
-# Configurer et publier des services Web de KPI basés sur des états financiers
+# <a name="set-up-and-publish-kpi-web-services-based-on-financial-reports" />Configurer et publier des services Web de KPI basés sur des états financiers
 
 La page **État financier - Paramètres du service web KPI** vous permet de configurer la manière dont les données des KPI (indicateurs de performances clés) des états financiers sont affichées, et sur quels états financiers spécifiques baser les KPI. Lorsque vous sélectionnez **Publier le service Web**, les données de KPI de l’état financier spécifié sont ajoutées à la liste des services Web publiés sur la page **Services web**.
 
 > [!NOTE]
 > Si vous utilisez ce service Web, les dates de clôture ne sont pas incluses dans votre ensemble de données. Vous pouvez utiliser des filtres dans Power BI pour analyser différentes périodes.
 
-## Configurer et publier des services Web de KPI basés sur des états financiers
+## <a name="set-up-and-publish-a-kpi-web-service-based-on-financial-reports" />Configurer et publier des services Web de KPI basés sur des états financiers
   
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration du service web de KPI des états financiers**, puis choisissez le lien associé.
 2. Renseignez les champs du raccourci **Général**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -32,7 +32,7 @@ Vous pouvez désormais créer des états financiers dans Power BI basés sur le 
 > [!NOTE]  
 > Vous pouvez également publier le service Web de KPI en pointant vers l’objet de page **Configuration du service web de KPI des états financiers** à partir de la page **Services web**. Pour plus d’informations, consultez [Publier un service Web](across-how-publish-web-service.md).
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Décisionnel pour le secteur de la finance](bi.md)  
 [Finances](finance.md)  

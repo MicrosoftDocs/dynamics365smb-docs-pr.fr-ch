@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 03/23/2022
 ---
 
-# Gestion des valeurs option manquantes
+# <a name="handling-missing-option-values" />Gestion des valeurs option manquantes
 > [!NOTE]
 > Dans la 1re vague de lancement 2022, vous pouvez créer vos propres mappages d’options. Pour plus d’informations, voir [Personnalisation des mappages d’options avec Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Les nouvelles fonctionnalités nécessitent que votre administrateur active la fonctionnalité **Mise à jour la fonctionnalité : Mapper aux jeux d’options dans Dataverse sans code** sur la page **Gestion des fonctionnalités**. Pour plus d’informations, voir [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Toutes les énumérations [!INCLUDE[prod_short](includes/prod_short.md)] ci-dessus sont mappées à des ensembles d’options dans [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### Extension des ensembles d’options dans [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="extending-option-sets-in-includeprodshortincludesprodshortmd" />Extension des ensembles d’options dans [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Créez une extension AL.
 
 2. Ajoutez une extension Énumération pour les options que vous souhaitez étendre. Veillez à utiliser la même valeur. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Les dix premiers caractères des nouveaux noms et légendes de valeur option doivent être uniques. Par exemple, deux options nommées « Transférer 20 jours ouvrables » et « Transférer 20 jours calendaires » provoquent une erreur, car leurs 10 premiers caractères (« Transférer ») sont identiques. Nommez-les, par exemple, « TRF20 JO » et « TRF20 JC ».
 
-### Mettre à jour le mappage option [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### <a name="update-includeprodshortincludescdslongmdmd-option-mapping" />Mettre à jour le mappage option [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Vous pouvez maintenant recréer le mappage entre les options [!INCLUDE[prod_short](includes/cds_long_md.md)] et les enregistrements [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Sur la page **Mappage de table d’intégration**, choisissez la ligne pour le mappage **Conditions de paiement**, puis l’action **Synchroniser les enregistrements modifiés**. La page **Mappage option Dataverse** est mise à jour avec les enregistrements supplémentaires ci-dessous.
@@ -140,7 +140,7 @@ La table **Conditions de paiement** dans [!INCLUDE[prod_short](includes/prod_sho
 | *NET60*      |                      |                           | 0.         | FAUX                         |                   |
 | ***TRANSFERT*** |                      |                           | 0.         | FAUX                         |                   |
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 [Mappage des tables et des champs à synchroniser](admin-how-to-modify-table-mappings-for-synchronization.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

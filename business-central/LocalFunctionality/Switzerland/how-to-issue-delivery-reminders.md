@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Émettre des relances livraison dans la version suisse
+# <a name="issue-delivery-reminders-in-the-swiss-version" />Émettre des relances livraison dans la version suisse
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)]
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Imprimer des rapports de test pour les relances livraison](how-to-print-test-reports-for-delivery-reminders.md)  
 [relances livraison](delivery-reminders.md)  

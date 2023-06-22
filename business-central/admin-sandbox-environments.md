@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# Environnements Sandbox dans [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-includeprodshortincludesprodshortmd" />Environnements Sandbox dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Avec [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous pouvez facilement obtenir un environnement sûr dans lequel vous pouvez tester, former ou résoudre les problèmes sans perturber les processus de travail ou les données métier de votre société. Cet environnement hors production est appelé *sandbox*. Isolé de la production, un environnement Sandbox est l’emplacement où vous pouvez explorer, apprendre, démontrer, développer et tester en toute sécurité le service sans que les données et les paramètres de votre environnement de production en soient affectés.  
 
@@ -35,13 +35,13 @@ L’environnement sandbox n’est pas moins utile, car il comprend quelques fonc
 <!--* [Complete sample data](#complete-sample-data)  -->
 * [Concepteur](#designer)  
 
-## Expérience utilisateur avancée
+## <a name="advanced-user-experience" />Expérience utilisateur avancée
 
 Il est possible d’activer et de tester la fonctionnalité complète de la version standard de [!INCLUDE[prod_short](includes/prod_short.md)] dans un abonné Sandbox en définissant le champ **Expérience** sur la page **Informations société** sur *Premium*. Trouvez la page **Informations société** dans le menu :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Icône Paramètres."::: .  
 
 Après avoir activé l’expérience utilisateur *Premium*, vous avez accès à tous les profils (rôles) et tableaux de bord standard dans la version standard. Vous pouvez également contacter un partenaire revendeur pour une démonstration des fonctionnalités. Pour plus d’informations, voir [Comment trouver un partenaire revendeur ?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
-### Exemples de données complets
+### <a name="complete-sample-data" />Exemples de données complets
 
 Pour les situations où vous avez besoin d’exemples de données supplémentaires, veuillez vous adresser à votre partenaire revendeur.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
@@ -56,7 +56,7 @@ Pour les situations où vous avez besoin d’exemples de données supplémentair
 
 When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-## Concepteur
+## <a name="designer" />Concepteur
 
 Dans un environnement sandbox, la fonctionnalité **Concepteur** est activée. Vous pouvez activer Concepteur en sélectionnant l’icône de conception ![Concepteur.](./media/across-sandbox/sandbox-inclient-design-icon.png) sur une page, ou en choisissant l’élément de menu **Conception** dans le menu ![Paramètres](media/ui-experience/settings_icon_small.png).  
 
@@ -64,9 +64,9 @@ Pour plus d’informations, voir [Utiliser le concepteur](/dynamics365/business-
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## Voir la [formation Microsoft](/training/modules/admin-online-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/admin-online-dynamics-365-business-central/) associée
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Versions d’évaluation et abonnements [!INCLUDE[prod_long](includes/prod_long.md)]](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

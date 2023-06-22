@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# Détails de conception : comptabilisation stock
+# <a name="design-details-inventory-posting" />Détails de conception : comptabilisation stock
 
 Chaque mouvement stock, par exemple une réception achat ou une expédition vente, valide deux écritures de différents types.  
 
@@ -27,26 +27,26 @@ Chaque mouvement stock, par exemple une réception achat ou une expédition vent
 
  ![Flux d’écriture lors du rapprochement du stock avec la comptabilité.](media/design_details_inventory_costing_1_entry_flow.png "Flux d’écriture lors du rapprochement du stock avec la comptabilité")  
 
-## Exemple :
+## <a name="example" />Exemple :
 
 L’exemple suivant indique comment les écritures comptables article, les écritures valeur et les écritures lettrage article créent des écritures comptables.  
 
  Vous validez une commande achat comme reçue et facturée pour 10 articles avec un coût unitaire direct de 7 LCY et des frais généraux d’1 LCY. La date comptabilisation est 01-01-20. Les écritures suivantes sont créées.  
 
-### Écritures comptables article (1)
+### <a name="item-ledger-entries-" />Écritures comptables article (1)
 
 |Date comptabilisation|Type écriture|Coût total (réel)|Quantité|Numéro de la séquence|  
 |------------|----------|--------------------|--------|---------|  
 |01/01/20|Achats|80,00|10|1|  
 
-### Écritures valeur (1)
+### <a name="value-entries-" />Écritures valeur (1)
 
 |Date comptabilisation|Type écriture|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |------------|----------|--------------------|---------------------|---------|  
 |01/01/20|Coût direct|70,00|1|1|  
 |01/01/20|Coût indirect|10,00|1|2|  
 
-### Écritures lettrage article (1)
+### <a name="item-application-entries-" />Écritures lettrage article (1)
 
 |Numéro de la séquence|N° écriture comptable article|N° écriture article entrant|N° écriture article sortant|Quantité|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ L’exemple suivant indique comment les écritures comptables article, les écri
 
  Ensuite, vous validez une vente de 10 unités de l’article avec une date validation de 15/01/20.  
 
-### Écritures comptables article (2)
+### <a name="item-ledger-entries-" />Écritures comptables article (2)
 
 |Date comptabilisation|Type écriture|Coût total (réel)|Quantité|Numéro de la séquence|  
 |------------|----------|--------------------|--------|---------|  
 |15/01/20|Vente|-80,00|-10|2|  
 
-### Écritures valeur (2)
+### <a name="value-entries-" />Écritures valeur (2)
 
 |Date comptabilisation|Type écriture|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |------------|----------|--------------------|---------------------|---------|  
 |15/01/20|Coût direct|-80,00|2|3|  
 
-### Écritures lettrage article (2)
+### <a name="item-application-entries-" />Écritures lettrage article (2)
 
 |Numéro de la séquence|N° écriture comptable article|N° écriture article entrant|N° écriture article sortant|Quantité|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ L’exemple suivant indique comment les écritures comptables article, les écri
 
  Les tables suivantes indiquent le résultat du rapprochement des mouvements de stock de cet exemple avec la comptabilité.  
 
-### Écritures valeur (3)  
+### <a name="value-entries-" />Écritures valeur (3)
 
 |Date comptabilisation|Type écriture|Coût total (réel)|Coût validé en comptabilité|N° écriture comptable article|Numéro de la séquence|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ L’exemple suivant indique comment les écritures comptables article, les écri
 |01/01/20|Coût indirect|10,00|10,00|1|2|  
 |15/01/20|Coût direct|-80,00|-80,00|2|3|  
 
-### Écritures comptables (3)
+### <a name="general-ledger-entries-" />Écritures comptables (3)
 
 |Date comptabilisation|Compte général|N° compte (démonstration Fr-FR)|Montant|Numéro de la séquence|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ L’exemple suivant indique comment les écritures comptables article, les écri
 
  La relation entre les écritures valeur et les écritures comptables est stockée dans la table **Compta. Relation écritures article**.  
 
-### Liens écritures dans la comptabilité – Table Écriture comptable article (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Liens écritures dans la comptabilité – Table Écriture comptable article (3)
 
 |N° séquence compta.|N° écriture valeur|N° hist. transaction compta.|  
 |-------------|---------------|----------------|  
@@ -115,13 +115,13 @@ L’exemple suivant indique comment les écritures comptables article, les écri
 |5|3|1|  
 |6|3|1|  
 
-## Validation d’assemblage et de production
+## <a name="assembly-and-production-posting" />Validation d’assemblage et de production
 
 Les écritures comptables capacité et ressource représentent le délai qui est validé comme étant consommé dans la production ou l’assemblage. Ces coûts opératoires sont validés comme écritures valeur en comptabilité en même temps que les coûts matière impliqués dans une structure similaire telle que décrite pour les écritures comptables article de cette rubrique.  
 
 Pour plus d’informations, voir [Détails de conception : modes évaluation stock](design-details-assembly-order-posting.md).  
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
  [Détails de conception : Évaluation stock](design-details-inventory-costing.md)  
  [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md)  

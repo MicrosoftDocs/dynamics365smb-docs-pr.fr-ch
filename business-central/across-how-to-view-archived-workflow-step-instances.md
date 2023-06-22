@@ -11,7 +11,7 @@ ms.search.form: '1530,'
 ms.date: 09/09/2022
 ms.author: edupont
 ---
-# Afficher des instances d’étape de flux de travail archivées
+# <a name="view-archived-workflow-step-instances" />Afficher des instances d’étape de flux de travail archivées
 
 Toutes les instances d’étape de flux de travail terminées sont enregistrées sur la page **Instances d’étape de flux de travail archivées**.  
 
@@ -20,7 +20,7 @@ Sur la page **Flux de travail**, créez un flux de travail en répertoriant les 
 > [!NOTE]
 > Pour afficher l’historique et l’état des flux de travail à l’aide de l’intégration Power Automate, choisissez l’action **Mes flux** sur la page **Power Automate**, puis choisissez un flux pour afficher son historique d’exécution et son état.
 
-## Pour afficher des instances d’étape de flux de travail archivées
+## <a name="to-view-archived-workflow-step-instances" />Pour afficher des instances d’étape de flux de travail archivées
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
 2. Ouvrez le flux de travail pour lequel vous souhaitez afficher toutes les instances d’étape de flux de travail archivées.  
@@ -31,7 +31,7 @@ Sur la page **Flux de travail**, créez un flux de travail en répertoriant les 
 
    La page **Instances d’étape de flux de travail archivées** s’ouvre, affichant toutes les instances d’étape de flux de travail archivées. Dans le champ **Code flux de travail**, vous pouvez voir le flux de travail auquel l’instance d’étape de flux de travail a appartenu.  
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Suppression des flux d’approbation](across-how-to-delete-workflows.md)  
 [Créer des flux de travail approbation](across-how-to-create-workflows.md)  

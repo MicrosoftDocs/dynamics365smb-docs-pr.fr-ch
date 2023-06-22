@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# Synchroniser manuellement les mappages de table
+# <a name="manually-synchronize-table-mappings" />Synchroniser manuellement les mappages de table
 
 
 Un mappage de table d’intégration associe une table [!INCLUDE[prod_short](includes/prod_short.md)], telle qu’un client, à une table [!INCLUDE[prod_short](includes/cds_long_md.md)], telle qu’un compte. Synchroniser un mappage de table d’intégration vous permet de synchroniser les données dans tous les enregistrements de la table [!INCLUDE[prod_short](includes/prod_short.md)] et de la table [!INCLUDE[prod_short](includes/cds_long_md.md)] qui sont couplés. En outre, selon la configuration du mappage de la table, la synchronisation peut créer et coupler de nouveaux enregistrements dans la solution de destination pour les enregistrements non couplés dans le source.  
@@ -20,7 +20,7 @@ Synchroniser manuellement les mappages de table d’intégration peut être util
 
 Cet article décrit trois méthodes pour synchroniser manuellement les mappages de table d’intégration. Chaque méthode fournit un autre niveau de synchronisation.
 
-## Exécuter une synchronisation complète
+## <a name="run-a-full-synchronization" />Exécuter une synchronisation complète
 Une synchronisation complète exécute tous les projets de synchronisation d’intégration par défaut pour synchroniser les enregistrements [!INCLUDE[prod_short](includes/prod_short.md)] et les tables [!INCLUDE[prod_short](includes/cds_long_md.md)], comme défini sur la page **Mappages de table d’intégration**. 
 
 Une synchronisation complète exécute les opérations suivantes pour les enregistrements [!INCLUDE[prod_short](includes/prod_short.md)] ou [!INCLUDE[prod_short](includes/cds_long_md.md)] qui :
@@ -36,7 +36,7 @@ La condition de création d’une ligne et son emplacement de création dépende
 > [!IMPORTANT]  
 >  Généralement, vous utilisez uniquement la synchronisation complète lors de la configuration initiale de l’intégration entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)] et lorsqu’une seule des solutions contient des données que vous souhaitez copier vers l’autre solution. Une synchronisation complète peut être utile dans un environnement de démonstration. Parce que la synchronisation complète crée et couple automatiquement les enregistrements entre les solutions, il est plus rapide de commencer à travailler avec la synchronisation des données entre les enregistrements. D’autre part, vous devez exécuter une synchronisation complète uniquement si vous souhaitez une ligne dans [!INCLUDE[prod_short](includes/prod_short.md)] pour chaque ligne dans [!INCLUDE[prod_short](includes/cds_long_md.md)] pour les mappages de table donnés. Sinon, vous vous exposez à un risque d’enregistrements non désirés ou en double dans [!INCLUDE[prod_short](includes/prod_short.md)] ou [!INCLUDE[prod_short](includes/cds_long_md.md)].  
 
-### Pour exécuter une synchronisation complète  
+### <a name="to-run-a-full-synchronization" />Pour exécuter une synchronisation complète
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration de la connexion Dataverse**, puis choisissez le lien associé.
 
     > [!NOTE]
@@ -51,7 +51,7 @@ La condition de création d’une ligne et son emplacement de création dépende
 
 Vous pouvez afficher les résultats de la synchronisation complète sur la page **Projets de synchronisation d’intégration**. Pour plus d’informations, voir [Afficher le statut d’une synchronisation](admin-how-to-view-synchronization-status.md).  
 
-## Synchronisation de tous les enregistrements modifiés
+## <a name="synchronizing-all-modified-records" />Synchronisation de tous les enregistrements modifiés
 Vous pouvez utiliser la page **Configuration de la connexion Common Data Service** pour synchroniser les modifications des données dans tous les mappages de table d’intégration. Ce processus est similaire à une synchronisation complète. Cela synchronisera les données dans tous les enregistrements couplés dans les tables [!INCLUDE[prod_short](includes/prod_short.md)] et les tables [!INCLUDE[prod_short](includes/cds_long_md.md)] définies dans les mappages de table. Par défaut, seules les données qui ont été modifiées depuis la dernière synchronisation seront synchronisés. Les projets de synchronisation permettente de synchroniser les mappages de table dans l’ordre suivant pour éviter les dépendances de couplage entre les tables :  
 
 1.  DEVISE  
@@ -65,18 +65,18 @@ Vous pouvez afficher les résultats de la synchronisation sur la page **Projets 
 > [!TIP]  
 >  En modifiant le mappage de table d’intégration à l’avance, vous pouvez créer des filtres pour contrôler les données à synchroniser, ou configurer les mappages pour créer de nouvelles données dans la solution de destination pour les enregistrements ou les lignes non couplés dans la source. Pour en savoir plus, voir [Modifier les mappages de table pour la synchronisation](admin-how-to-modify-table-mappings-for-synchronization.md).
 
-### Pour synchroniser les données pour toutes les tables  
+### <a name="to-synchronize-data-for-all-tables" />Pour synchroniser les données pour toutes les tables
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration de la connexion Microsoft Dynamics 365 Sales**, puis choisissez le lien associé.
 2.  Choisissez l’action **Synchroniser les enregistrements modifiés**, puis sélectionnez **Oui**.  
 
-## Synchroniser les mappages de table individuels
+## <a name="synchronize-individual-table-mappings" />Synchroniser les mappages de table individuels
 Vous pouvez utiliser la page **Mappages de table d’intégration** pour exécuter des mappages de table à un projet de synchronisation. Cela synchronisera les données dans tous les enregistrements et lignes couplés dans les tables [!INCLUDE[prod_short](includes/prod_short.md)] et l’entité [!INCLUDE[prod_short](includes/cds_long_md.md)] définies dans le mappage de table. Par défaut, seules les données qui ont été modifiées depuis la dernière synchronisation seront synchronisés.  
 
-### Pour synchroniser les enregistrements d’un mappage de table d’intégration  
+### <a name="to-synchronize-records-of-an-integration-table-mapping" />Pour synchroniser les enregistrements d’un mappage de table d’intégration
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Mappages de table d’intégration**, puis choisissez le lien associé.
 2.  Choisissez l’action **Synchroniser les enregistrements modifiés**, puis sélectionnez **Oui**.  
 
-## Voir aussi  
+## <a name="see-also" />Voir aussi
 [Synchronisation de Business Central et Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Configuration des comptes d’utilisateur pour l’intégration à Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
 

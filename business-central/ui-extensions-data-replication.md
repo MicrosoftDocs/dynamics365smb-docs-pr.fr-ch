@@ -13,7 +13,7 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# Extensions de migration vers le cloud pour la migration vers Business Central Online
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online" />Extensions de migration vers le cloud pour la migration vers Business Central Online
 
 En fonction de votre solution sur site, vous devez utiliser différentes extensions pour connecter vos données avec [!INCLUDE[prod_short](includes/prod_short.md)] en ligne à des fins de migration de votre solution vers le cloud.  
 
@@ -21,22 +21,22 @@ Si vous utilisez l’un des produits pris en charge sur site, vous pouvez config
 
 Pour en savoir plus, voir la rubrique [Migration des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le contenu d’administration pour [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Business Central sur site
+## <a name="business-central-on-premises" />Business Central sur site
 
 Si vous utilisez un déploiement sur site de [!INCLUDE[prod_short](includes/prod_short.md)], obtenez l’extension **Base du Cloud intelligent** et l’extension **Cloud intelligent Business Central**, puis exécutez le guide de configuration assistée **Configuration de la migration cloud**.  
 
-## Dynamics GP
+## <a name="dynamics-gp" />Dynamics GP
 
 Si vous utilisez Dynamics GP, obtenez les extensions **Base du Cloud intelligent** et **Cloud intelligent Dynamics GP**, puis exécutez le guide de configuration assistée **Configuration de la migration cloud**.  
 
 > [!IMPORTANT]
 > La migration à partir de Dynamics GP à l’aide du guide de configuration assistée **Configuration de la migration cloud** n’est actuellement prise en charge que pour les marchés suivants : États-Unis, Canada, Royaume-Uni.
 
-## Dynamics SL
+## <a name="dynamics-sl" />Dynamics SL
 
 Si vous utilisez Dynamics SL, obtenez l’extension **Base du Cloud intelligent**, l’extension **Cloud intelligent Microsoft Dynamics SL** et l’extension **SmartLists historiques Microsoft Dynamics SL**, puis exécutez le guide de configuration assistée **Configuration de la migration cloud**.  
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Extensions de base de migration vers le cloud](ui-extensions-intelligent-cloud.md)  
 [Migration des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# Vue d’ensemble de la conformité
+# <a name="compliance-overview" />Vue d’ensemble de la conformité
 
 Ce contenu comprend des informations sur la conformité concernant [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
@@ -24,7 +24,7 @@ Dans cette section, vous trouverez plus d’informations sur notre approche de l
 |Consultez les informations sur les différentes certifications liées à Business Central. Vous y trouverez des informations sur les certifications générales et les certifications spécifiques au pays.|[Certifications](compliance-certifications.md)|  
 |En savoir plus sur les conditions du contrat de niveau de service et les autres conditions d’utilisation|[Conditions d’utilisation](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

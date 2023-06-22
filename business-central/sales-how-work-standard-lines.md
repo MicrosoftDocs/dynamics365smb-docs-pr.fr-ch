@@ -11,11 +11,11 @@ ms.search.form: 172
 ms.date: 07/06/2022
 ms.author: edupont
 ---
-# Créer des factures vente
+# <a name="create-recurring-sales" />Créer des factures vente
 
 Si vous devez souvent créer des lignes ventes comportant des informations similaires, vous pouvez configurer des lignes standard que vous pouvez ensuite insérer dans les documents vente, par exemple, pour les commandes de réapprovisionnement récurrentes.  
 
-## Configurer des lignes vente récurrentes
+## <a name="set-up-recurring-sales-lines" />Configurer des lignes vente récurrentes
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Lignes vente récurrentes**, puis sélectionnez le lien associé.  
 2. Sur la page **Lignes vente récurrentes**, cliquez sur l’action **Nouveau**.  
@@ -27,7 +27,7 @@ Si vous devez souvent créer des lignes ventes comportant des informations simil
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## Affecter des lignes vente récurrentes à un client
+## <a name="assign-recurring-sales-lines-to-a-customer" />Affecter des lignes vente récurrentes à un client
 
 Affectez une ou plusieurs lignes vente récurrentes à un client afin qu’elles soient disponibles pour insertion sur les documents vente pour ce client.
 
@@ -49,7 +49,7 @@ Affectez une ou plusieurs lignes vente récurrentes à un client afin qu’elles
 |**Automatique**|Si plusieurs lignes vente récurrentes existent pour le client, vous recevrez une notification pour vous permettre de sélectionner la ligne à insérer. Si une seule ligne vente récurrente existe, elle sera insérée automatiquement.<br /><br />Cela ne fonctionne que si le nouveau document a été créé à partir d’une liste de documents, par exemple en sélectionnant l’action **Nouveau** sur la page **Commandes vente**. Cela ne fonctionne pas si le document a été créé à partir d’une fiche client, par exemple.|
 |**Toujours demander**|Une notification s’affiche et toutes les lignes vente récurrentes existantes sont affichées afin que vous puissiez en sélectionner une.
 
-## Insérer des lignes vente récurrentes dans une facture vente
+## <a name="insert-recurring-sales-lines-on-a-sales-invoice" />Insérer des lignes vente récurrentes dans une facture vente
 
 Si des lignes vente récurrentes existent pour le client, vous pouvez les insérer ou demander à les insérer sur tous les types de documents vente, par exemple une facture vente. Si vous avez activé les options **Toujours demander** tout en affectant des lignes vente récurrentes aux clients, vous serez informé si des lignes vente récurrentes existent.
 
@@ -59,7 +59,7 @@ Si des lignes vente récurrentes existent pour le client, vous pouvez les insér
 4. Sur la page **Lignes vente récurrentes**, cliquez sur le bouton de recherche du champ **Code**, puis sélectionnez un ensemble de lignes vente standard.
 5. Cliquez sur le bouton **OK** pour insérer les lignes vente standard dans la facture, que vous pouvez réutiliser comme tels ou modifier les informations.
 
-## Créer plusieurs factures vente à partir de lignes vente récurrentes
+## <a name="create-multiple-sales-invoices-based-on-recurring-sales-lines" />Créer plusieurs factures vente à partir de lignes vente récurrentes
 
 Vous pouvez utiliser le traitement par lots **Créer des factures vente récurrentes** pour créer des factures vente en fonction des lignes vente standard qui sont affectées aux clients et avec des dates comptabilisation comprises entre les dates de début et de fin de validité que vous spécifiez dans les lignes vente standard.
 
@@ -70,9 +70,9 @@ Vous pouvez utiliser le traitement par lots **Créer des factures vente récurre
 
 Les factures vente sont créées pour les clients ayant le code vente client standard spécifié, et toute information de prélèvement automatique spécifiée, pour la validation à la date spécifiée.
 
-## Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Configuration des ventes](sales-setup-sales.md)  

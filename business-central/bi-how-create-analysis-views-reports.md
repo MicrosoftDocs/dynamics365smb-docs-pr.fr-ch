@@ -11,7 +11,7 @@ ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022
 ms.author: edupont
 ---
-# Créer des rapports d’analyse
+# <a name="create-analysis-reports" />Créer des rapports d’analyse
 
 Les directeurs des ventes doivent analyser de manière régulière les rotations, la marge bénéficiaire brute et d’autres indicateurs de performance des ventes clés. Les acheteurs, eux, s’intéressent plutôt à la dynamique des volumes d’achat, des performances des fournisseurs et des prix d’achat. Par ailleurs, les gestionnaires des stocks et directeurs de la logistique ont besoin d’informations sur la rotation des stocks, d’une analyse des mouvements de stock et de statistiques sur la valeur du stock. Il n’y a donc pas de rapport d’analyse qui convienne à toutes les situations.
 
@@ -23,7 +23,7 @@ Les rapports d’analyse sont constitués des objets à analyser (par exemple, l
 
 Outre les rapports d’analyse, vous pouvez créer et afficher des informations similaires dans des vues d’analyse (basées sur des axes analytiques). Pour plus d’informations, consultez [Analyse des données par axe analytique](bi-how-analyze-data-dimension.md).
 
-## Exemple :
+## <a name="example" />Exemple :
 
 Vous pouvez configurer ces lignes (objets que vous souhaitez analyser) :  
 
@@ -37,7 +37,7 @@ Ensuite, vous pouvez configurer ces colonnes (comment vous voulez que les objets
 - Ventes mois précédent  
 - Ventes mois précédent (en %)  
 
-## Configuration des dispositions de ligne et de colonne
+## <a name="setting-up-line-and-column-layouts" />Configuration des dispositions de ligne et de colonne
 
 Sur la page **Rapport d’analyse**, vous pouvez afficher différentes présentations de ligne et de colonne, à définir sur :
 
@@ -57,7 +57,7 @@ Selon les lignes et les colonnes configurées, [!INCLUDE[prod_short](includes/pr
 
 Vous pouvez, par exemple, définir un groupe de lignes et plusieurs groupes de dispositions de colonne afin d’afficher respectivement les rapports mensuel et annuel.
 
-## Configurer des modèles de colonne d’analyse
+## <a name="set-up-analysis-column-templates" />Configurer des modèles de colonne d’analyse
 
 La procédure suivante se base sur des vues d’analyse des ventes. Les étapes sont similaires aux vues d’analyse d’achat et d’inventaire.
 
@@ -74,7 +74,7 @@ Un modèle de colonne d’analyse contient un ensemble de lignes, chacune repré
     Si vous sélectionnez **Ecritures article** dans le champ **Type écriture comptable**, les chiffres réels à partir de l’écriture comptable article sont copiés. Si vous sélectionnez **Ecritures budget article**, les chiffres budgétés à partir du budget sont copiés.  
 5. Sélectionnez **OK** pour enregistrer vos modifications.  
 
-## Configurer des modèles de ligne d’analyse
+## <a name="set-up-analysis-line-templates" />Configurer des modèles de ligne d’analyse
 
 La procédure suivante se base sur des rapports d’analyse des ventes. Les étapes sont similaires aux rapports d’analyse d’achat et d’inventaire.
 
@@ -88,7 +88,7 @@ Un modèle de colonne d’analyse contient un ensemble de lignes, chacune repré
 > [!NOTE]  
 > Autrement, pour créer plusieurs lignes distinctes pour chaque article, client, etc., vous pouvez également sélectionner l’option d’insertion appropriée pour renseigner tous les champs pertinents de la ligne. Si vous le souhaitez, vous pouvez alors modifier les lignes manuellement. Pour insérer des lignes, choisissez l’action **Insérer des articles** ou **Insérer des groupes articles**.  
 
-## Créer un rapport d’analyse vente
+## <a name="create-a-new-sales-analysis-report" />Créer un rapport d’analyse vente
 
 La procédure suivante se base sur des rapports d’analyse des ventes. Les étapes sont similaires aux rapports d’analyse d’achat et d’inventaire.
 
@@ -103,7 +103,7 @@ Avec les rapports d’analyse, vous pouvez analyser la dynamique de vos ventes e
 > [!NOTE]  
 > Si vous le souhaitez, vous pouvez mettre au point des combinaisons de modèles de ligne et de colonne pour créer des états et leur affecter des noms uniques. Dans ce cas, vous n’aurez pas à sélectionner des modèles de ligne et de colonne sur la page **Rapport d’analyse vente**. Une fois que vous avez choisi un nom de rapport, vous pouvez changer individuellement les modèles de ligne et de colonne et ensuite sélectionner une nouvelle fois le nom du rapport afin de restaurer la combinaison d’origine.
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Décisionnel pour le secteur de la finance](bi.md)  
 [Finances](finance.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# Consommer en aval des composants en fonction de la production réalisée
+# <a name="flush-components-according-to-operation-output" />Consommer en aval des composants en fonction de la production réalisée
 Vous pouvez définir différentes stratégies de rinçage, pour automatiser l’enregistrement de la consommation des composants. 
 
 Cette fonctionnalité est utile pour les motifs suivants :  
@@ -29,14 +29,14 @@ Cette fonctionnalité est utile pour les motifs suivants :
 
     La possibilité de consommer automatiquement une opération permet d’automatiser tout le processus d’enregistrement de la consommation et de la production. L’inconvénient de la consommation automatique est que vous risquez de ne pas enregistrer précisément voire d’omettre les rebuts.
 
-## Méthodes de validation de la consommation automatique (consommation)  
+## <a name="automatic-consumption-posting-flushing-methods" />Méthodes de validation de la consommation automatique (consommation)
 
 - Consommation en aval de l’ordre entier  
 - Consommation en aval par opération  
 - Consommation en amont par opération  
 - Consommation en amont de l’ordre entier  
 
-### Génération d’état automatique - Consommation en aval de l’ordre entier  
+### <a name="automatic-reporting---forward-flush-the-entire-order" />Génération d’état automatique - Consommation en aval de l’ordre entier
 Si vous consommez en aval l’ordre de fabrication au début du projet, le comportement l’application est très similaire à une consommation manuelle. La principale différence réside dans le fait que la consommation est effectuée automatiquement.  
 
 - Le contenu entier de la nomenclature de production est consommé et déduit du stock lors de l’actualisation de l’ordre de fabrication lancé.  
@@ -51,7 +51,7 @@ La consommation en aval d’une commande entière est appropriée dans des envir
 -   petit nombre d’opérations ;  
 -   consommation de composants importante dans les opérations précoces.  
 
-### Génération d’état automatique - Consommation en aval par opération  
+### <a name="automatic-reporting---forward-flushing-by-operation" />Génération d’état automatique - Consommation en aval par opération
 La consommation par opération permet de déduire le stock durant une opération spécifique dans la gamme de l’article parent. Les matières sont liées à la gamme à l’aide de codes lien gamme qui correspondent aux codes lien gamme appliqués aux composants dans la nomenclature de production.  
 
 La consommation a lieu au démarrage de l’opération auquel le code lien gamme correspond. Le démarrage intervient quand une certaine activité est enregistrée dans la feuille production pour cette opération. Cette activité peut être simplement l’entrée d’un temps de préparation.  
@@ -62,7 +62,7 @@ Il est recommandé d’utiliser cette technique lorsqu’il y a de nombreuses op
 
 Il est possible de consommer des matières durant les opérations à l’aide de codes lien gamme. Il se peut que certains composants ne soient pas utilisés avant les opérations d’assemblage finales, auquel cas ils ne doivent pas être soustraits du stock auparavant.  
 
-### Génération d’état automatique - Consommation en amont par opération  
+### <a name="automatic-reporting---back-flushing-by-operation" />Génération d’état automatique - Consommation en amont par opération
 La consommation en amont par opération enregistre la consommation après la validation de l’opération dans la feuille production.  
 
 L’avantage de cette méthode est que le nombre de pièces parentes finies dans l’opération est connu.  
@@ -71,7 +71,7 @@ Les matières dans la nomenclature de production sont liées aux enregistrements
 
 La quantité consommée est calculée pour la quantité par assemblage sur la nomenclature de production multipliée par le nombre d’articles parents validés comme quantité produite pour cette opération. Cette quantité peut différer de la quantité prévue.  
 
-### Génération d’état automatique - Consommation en amont de l’ordre entier  
+### <a name="automatic-reporting---back-flushing-the-entire-order" />Génération d’état automatique - Consommation en amont de l’ordre entier
 Cette méthode de génération d’état ne tient pas compte des codes lien gamme.  
 
 Aucun composant n’est prélevé tant que le statut de l’ordre de fabrication lancé n’est pas *Terminé*. La quantité consommée est calculée pour la quantité par assemblage sur la nomenclature de production multipliée par le nombre d’articles parents terminés et introduits dans le stock.  
@@ -82,7 +82,7 @@ La consommation en amont de l’ordre de fabrication tout entier requiert la mê
 
 Par exemple, si un ordre de fabrication de 800 mètres nécessite pour son exécution 8 kilogrammes d’un composant, lorsque vous validez 200 mètres de production, 2 kilogrammes sont automatiquement validés comme étant consommés. Pour y parvenir, combinez la méthode de consommation en amont et les codes lien gamme pour que la quantité consommée par chaque opération soit proportionnelle à la production réelle de cette opération terminée. Pour les articles créés avec la méthode de consommation en amont le comportement par défaut est de calculer et de valider la consommation de composants lorsque vous affectez à l’ordre de fabrication lancé le statut **Terminé**. Si vous définissez également les codes lien gamme, le calcul et la validation ont lieu lorsque chaque opération est terminée et la quantité effectivement consommée au cours de l’opération est validée. Pour plus d’informations, reportez-vous à [Créer des gammes](production-how-to-create-routings.md).  
 
-## Pour consommer en aval des composants en fonction de la production réalisée
+## <a name="to-flush-components-according-to-operation-output" />Pour consommer en aval des composants en fonction de la production réalisée
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Modifier**.  
@@ -100,7 +100,7 @@ Par exemple, si un ordre de fabrication de 800 mètres nécessite pour son exé
 
 La consommation sera affichée automatiquement lorsque vous enregistrez la sortie. Pour plus d’informations, voir [Valider par lots la production et les temps d’exécution](production-how-to-post-output-quantity.md)
 
-## Méthodes consommation
+## <a name="flushing-methods" />Méthodes consommation
 
 Le tableau suivant décrit les options de méthode consommation disponibles que vous pouvez spécifier sur les cartes **Article** et **Unité de gestion des stocks**.
 
@@ -112,7 +112,7 @@ Le tableau suivant décrit les options de méthode consommation disponibles que 
 |Prélèvement + Aval|Identique à la méthode de consommation aval, sauf qu’elle ne fonctionne que pour les magasins qui utilisent une configuration d’entrepôt avancée ou une configuration d’entrepôt de base avec des emplacements obligatoires.<br><br> La consommation est calculée et validée à partir de l’emplacement défini dans le champ **Code empl. des consommations** sur le magasin ou le poste de charge après le prélèvement du composant de l’entrepôt.<br><br> **Remarque** <br>Si un composant est configuré avec le prélèvement et la méthode de consommation en aval, vous ne pouvez pas avoir un code lien gamme pour une opération configurée avec la méthode de consommation en aval. Le composant est ensuite automatiquement consommé lorsque l’opération commence, rendant impossible toute demande d’activité de prélèvement.|
 |Prélèvement + Amont|Identique à la méthode de consommation amont, sauf qu’elle ne fonctionne que pour les magasins qui utilisent une configuration d’entrepôt avancée ou une configuration d’entrepôt de base avec des emplacements obligatoires.<br><br> La consommation est calculée et validée à partir de l’emplacement défini dans le champ **Code empl. des consommations** sur le magasin ou le poste de charge après le prélèvement du composant de l’entrepôt.|
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Créer des nomenclatures de production](production-how-to-create-production-boms.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  

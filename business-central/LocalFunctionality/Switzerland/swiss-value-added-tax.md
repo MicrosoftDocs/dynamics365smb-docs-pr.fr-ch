@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Taxe sur la valeur ajoutée, Suisse
+# <a name="swiss-value-added-tax" />Taxe sur la valeur ajoutée, Suisse
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] inclut les améliorations suivantes à la déclaration de TVA en Suisse :  
 
@@ -19,11 +19,11 @@ ms.author: edupont
 
 Pour plus d'informations sur la déclaration et les exigences de codage de TVA en Suisse, voir [Informations sur la TVA en Suisse](https://www.estv.admin.ch/estv/en/home/value-added-tax.html). Ces informations sont disponibles en français, allemand, italien et en anglais.  
 
-## Montants TVA et taux de change TVA
+## <a name="vat-amounts-and-vat-exchange-rates" />Montants TVA et taux de change TVA
 
 Conformément aux lois locales sur la TVA, le montant de base de TVA pour une facture peut être réduit de l'escompte accordé si une remise est accordée. Pour autoriser l'ajustement automatique de TVA pour un escompte sur une facture, le champ **Ajuster pour escompte** est activé par défaut dans la page **Paramètres comptabilité**. Vous pouvez également activer cette fonction dans les paramètres comptabilisation TVA. Pour plus d'informations, voir la table Paramètres comptabilité et la table Paramètres comptabilisation TVA.  
 
-### Taux de change pour la déclaration de la TVA
+### <a name="currency-exchange-rates-for-vat-reporting" />Taux de change pour la déclaration de la TVA
 
 Pour les factures en devise étrangère, vous devez utiliser le taux de change fourni par le gouvernement pour le calcul de la TVA proprement dit. Vous pouvez également définir des taux de change supplémentaires pour la TVA, que vous pouvez utiliser pour d'autres aspects de la facture que le calcul de la TVA. Vous pouvez indiquer le taux de change de TVA gouvernemental correct pour chaque devise étrangère pertinente dans la configuration du taux de change pour les factures. Pour plus d'informations, voir la table Taux de change devise.  
 
@@ -31,7 +31,7 @@ Vous pouvez ajuster tous les montants TVA dans les écritures TVA qui résultent
 
 Des informations supplémentaires, telles que le taux de TVA et le montant en devise d'origine, sont transférées vers les écritures de TVA. Pour plus d'informations, voir la table Écriture TVA.  
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Taux de TVA pour la Suisse](vat-rates-for-switzerland.md)   
 [Créer et imprimer une déclaration de TVA, Suisse](how-to-create-and-print-a-swiss-vat-statement.md)   

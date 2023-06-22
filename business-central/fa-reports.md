@@ -8,15 +8,15 @@ ms.search.form: 'Report_5600, Report_5601, Report_5603, Report_5604, Report_5605
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# États et analyses d’immobilisation dans Business Central
+# <a name="fixed-assets-reports-and-analytics-in-business-central" />États et analyses d’immobilisation dans Business Central
 
 Pour vous aider à gérer vos immobilisations dans [!INCLUDE [prod_short](includes/prod_short.md)], des états et des analyses standard sont intégrés. Ils vont au-delà des contraintes des rapports traditionnels pour vous aider à concevoir efficacement divers types de rapports.  
 
-## États
+## <a name="reports" />États
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  
 [Utiliser les axes analytiques](finance-dimensions.md)  

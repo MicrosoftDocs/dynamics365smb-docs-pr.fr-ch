@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# Procédure pas à pas : planification automatique des approvisionnements
+# <a name="walkthrough-planning-supplies-automatically" />Procédure pas à pas : planification automatique des approvisionnements
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -23,7 +23,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
  Le résultat de la planification est obtenu en partie grâce aux ensembles d’offre et de demande de la base de données et en partie grâce au paramétrage des fiches point de stock ou des fiches article, des nomenclatures de production et des gammes.  
 
-## À propos de cette procédure pas à pas  
+## <a name="about-this-walkthrough" />À propos de cette procédure pas à pas
  Cette procédure pas à pas démontre comment utiliser le système de planification de l’approvisionnement pour planifier automatiquement tous les ordres de fabrication et toutes les commandes achat nécessaires à la production de 15 vélos cyclotourisme figurant sur différentes commandes vente. Pour que cette procédure soit claire et réaliste, le nombre de lignes planning a été délimité en filtrant tous les autres ensembles d’offre et de demande de la société fictive CRONUS, à l’exception de la demande de vente pour le magasin EAST.  
 
  Cette procédure pas à pas présente les tâches suivantes :  
@@ -33,18 +33,18 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 -   création automatique des commandes approvisionnement proposées ;  
 -   création de demandes de vente et replanification en conséquence.  
 
-## Rôles  
+## <a name="roles" />Rôles
 
 -   Gestionnaire de production  
 -   Agent d’achats  
 
-## Conditions préalables  
+## <a name="prerequisites" />Conditions préalables
  Pour exécuter ce processus pas à pas, vous devez :  
 
 -   utiliser la société fictive CRONUS International Ltd. ;  
 -   Modifier plusieurs valeurs de paramétrage des articles en suivant les instructions de la section « Préparation d’exemples de données », dans la suite de cette procédure.  
 
-## Scénario  
+## <a name="story" />Scénario
  Le client, Cannon Group PLC, commande cinq vélos cyclotourisme pour une expédition le 05/02/2021 (5 février).  
 
  Eduardo, Gestionnaire de production, procède à la planification de l’approvisionnement courante pour la première semaine de février 2021. Eduardo filtre sur son propre magasin, EAST, et entre un intervalle de planification de la date de travail du 23/01/2021 au 07/02/2021 avant qu’il ne calcule un programme d’approvisionnement initial.  
@@ -55,17 +55,17 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
  Au cours des diverses étapes de la planification, Eduardo recherche les commandes concernées et utilise la fonction Chaînage pour voir quelle demande est couverte par quel approvisionnement.  
 
-## Préparation d’exemples de données  
+## <a name="preparing-sample-data" />Préparation d’exemples de données
  Créez des points de stock pour chaque vélo cyclotourisme et une sélection de ses composants, dont les numéros d’article vont de 1001 à 1300. (Certains composants sont exclus pour simplifier les procédures.) Ajustez les paramètres de planification des composants sélectionnés pour présenter un résultat plus transparent.  
 
-### Pour créer des points de stock  
+### <a name="to-create-stockkeeping-units" />Pour créer des points de stock
 
 1.  Ouvrez la fiche article pour l’article 1001, vélo cyclotourisme.  
 2.  Choisissez l’action **Créer point de stock**.  
 3.  Sur la page **Créer point de stock**, ne modifiez aucune option ni aucun filtre, puis cliquez sur le bouton **OK**.  
 4.  Répétez les étapes 1 à 3 pour chaque article dont le numéro est compris entre 1100 et 1300.  
 
-### Pour modifier des paramètres de planification sélectionnés  
+### <a name="to-change-selected-planning-parameters" />Pour modifier des paramètres de planification sélectionnés
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Centres de stock**, puis choisissez le lien associé.  
 2.  Ouvrez la fiche point de stock EAST de l’article 1100, Roue avant.  
@@ -79,10 +79,10 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
  Vous venez de préparer les données d’exemple de la procédure pas à pas.  
 
-## Création d’un programme d’approvisionnement régénératif  
+## <a name="creating-a-regenerative-supply-plan" />Création d’un programme d’approvisionnement régénératif
  En réaction à une commande vente pour cinq vélos, Ricardo démarre le processus de planification en définissant les options, filtres et intervalles de planification afin d’exclure toutes les autres demandes sauf celle de la première semaine de février du magasin EAST. Ricardo commence par calculer un programme directeur de production (PDP), puis un programme d’approvisionnement complet pour toute demande de niveau inférieur (MRP).  
 
-### Pour créer la commande vente  
+### <a name="to-create-the-sales-order" />Pour créer la commande vente
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l’action **Nouveau**.  
@@ -94,7 +94,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
 4.  Acceptez l’avertissement de disponibilité et choisissez le bouton **Oui** pour enregistrer la nouvelle quantité demandée.  
 
-### Pour créer un planning régénératif afin de répondre à la demande du magasin EAST  
+### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east" />Pour créer un planning régénératif afin de répondre à la demande du magasin EAST
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille planning**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Calculer planning régénératif**.  
@@ -117,7 +117,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
 7.  Refermez les pages **Commande vente** et **Chaînage**.  
 
-### Pour calculer MRP afin d’inclure les besoins en composants sous-jacents  
+### <a name="to-calculate-mrp-to-include-underlying-component-needs" />Pour calculer MRP afin d’inclure les besoins en composants sous-jacents
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille planning**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Calculer planning régénératif**.  
@@ -131,14 +131,14 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
      Un total de 14 lignes planning est créé suggérant des commandes approvisionnement pour l’ensemble de la demande représentée par la commande vente des vélos cyclotourisme au magasin EAST.  
 
-## Analyse du résultat de la planification  
+## <a name="analyzing-the-planning-result" />Analyse du résultat de la planification
  Pour analyser les quantités proposées, Eduardo examine les lignes planning sélectionnées en descendant pour afficher les écritures chaînage et les paramètres de planification.  
 
  Sur la page **Feuille planning**, notez que dans la colonne **Date d’échéance**, les commandes approvisionnement proposées sont planifiées en amont à partir de la date d’échéance de la commande vente, le 05/02/2021. La chronologie commence avec la ligne planning supérieure par l’ordre de fabrication visant à produire les vélos cyclotourisme terminés. La chronologie se termine sur la ligne planning inférieure par la commande achat de l’un des articles de niveau inférieur, 1255, arrière de douille, prévue le 30/01/2021. Tout comme la ligne planning de l’article 1251, Axe roue arrière, cette ligne représente une commande achat pour les composants dus à la date de début de son parent produit, l’article de sous-assemblage 1250, qui est dû au 02-03-2014. Tout au long de la feuille, vous pouvez voir que tous les articles sous-jacents sont dus à la date de début de leurs parents.  
 
  La ligne planning de l’article 1300, ensemble chaîne, indique dix pièces. Ceci diffère des cinq pièces que nous prévoyons comme nécessaires pour répondre à la commande vente. Visualisez les écritures chaînage.  
 
-### Pour afficher les écritures chaînage de l’article 1300  
+### <a name="to-view-order-tracking-entries-for-item-" />Pour afficher les écritures chaînage de l’article 1300
 
 1.  Sélectionnez la ligne planning correspondant à l’article 1300, puis choisissez l’action **Chaînage**.  
 
@@ -148,7 +148,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
      La page **Éléments planning non chaînés** indique que l’article 1300 utilise un paramètre de planification, Qté minimum commande, de 10,00. Par conséquent, la ligne planning concerne dix pièces au total, mais seulement cinq d’entre elles peuvent être suivies jusqu’à une demande. Les cinq dernières pièces correspondent à une quantité non chaînée afin de satisfaire le paramètre de planification. Revisualisez le paramètre de planification.  
 
-### Pour vérifier les paramètres de planification  
+### <a name="to-check-the-planning-parameter" />Pour vérifier les paramètres de planification
 
 1.  Sur la page **Éléments planning non chaînés**, sélectionnez la ligne de chaînage pour l’article 1300.  
 2.  Cliquez sur le champ **N° article**, puis choisissez l’action **Avancé**.  
@@ -157,7 +157,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 5.  Dans le raccourci **Planning**, notez que le champ **Qté minimum commande** contient 10.  
 6.  Refermez toutes les pages, exceptée **Feuille planning**.  
 
-### Pour afficher des écritures chaînage  
+### <a name="to-view-more-order-tracking-entries" />Pour afficher des écritures chaînage
 
 1.  Sélectionnez la ligne planning correspondant à l’article 1110, puis choisissez l’action **Chaînage**.  
 
@@ -179,10 +179,10 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
  L’analyse du programme d’approvisionnement initial est terminée. Notez que la case à cocher **Accepter message d’action** est activée dans toutes les lignes planning, ce qui indique qu’elles sont prêtes à être converties en commandes approvisionnement.  
 
-## Exécution de messages d’action  
+## <a name="carrying-out-action-messages" />Exécution de messages d’action
  Eduardo convertit ensuite les lignes planning proposées en commandes approvisionnement à l’aide de la fonction **Traiter msg. action**.  
 
-### Pour créer automatiquement les commandes approvisionnement proposées  
+### <a name="to-automatically-create-the-suggested-supply-orders" />Pour créer automatiquement les commandes approvisionnement proposées
 
 1.  Activez la case à cocher **Accepter message d’action** sur toutes les lignes planning avec un avertissement de type Exception.  
 2.  Choisissez l’action **Traiter message d’action**.  
@@ -197,12 +197,12 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
  Le calcul initial, l’analyse et la création d’un programme d’approvisionnement pour la demande au magasin EAST la première semaine de février sont terminés. Dans la section suivante, un autre client commande dix vélos cyclotourisme, et Eduardo doit procéder à une nouvelle planification.  
 
-## Création d’un planning par écart  
+## <a name="creating-a-net-change-plan" />Création d’un planning par écart
  Le lendemain, avant même qu’une commande approvisionnement ne soit démarrée ou comptabilisée, une nouvelle commande vente arrive de Libros S.A. pour dix vélos cyclotourisme à livrer le 12/02/2021. Eduardo est averti de cette nouvelle demande et il procède à une nouvelle planification afin d’adapter le programme d’approvisionnement actif. Eduardo ne calcule, à l’aide de la fonction Planning par écart, que les modifications apportées à la demande ou à l’approvisionnement depuis la dernière exécution de la planification. En outre, Eduardo prolonge la période de planification au 14/02/2021 afin d’inclure la nouvelle demande de vente du 12/02/2014.  
 
  Le système de planification calcule le meilleur moyen de couvrir la demande de ces deux produits identiques, par exemple consolider certaines commandes achat et certains ordres de fabrication, replanifier d’autres commandes et en créer de nouvelles, s’il y a lieu.  
 
-### Pour créer les demandes de vente et replanifier en conséquence  
+### <a name="to-create-the-new-sales-demand-and-replan-accordingly" />Pour créer les demandes de vente et replanifier en conséquence
 
 1.  Sélectionnez l’action **Nouveau**.  
 2.  Sur la page **Commande vente**, renseignez les champs comme indiqué dans le tableau suivant.  
@@ -229,12 +229,12 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
  Toutes les autres lignes planning ont un message d’action **Replanifier & changer qté**. Ceci signifie que, outre le fait de voir leur quantité augmentée, les dates d’échéance sont déplacées par rapport au programme d’approvisionnement afin d’inclure la quantité supplémentaire au temps de production disponible (capacité). Les composants achetés sont replanifiés et augmentés pour répondre aux ordres de fabrication. Analysez la nouvelle planification.  
 
-## Analyse du résultat de la planification modifié  
+## <a name="analyzing-the-changed-planning-result" />Analyse du résultat de la planification modifié
  Étant donné que tous les articles lot pour lot planifiés du filtre, 1100 à 1300, ont une période de replanification de deux semaines, toutes leurs commandes approvisionnement existantes sont modifiées pour répondre à la nouvelle demande, qui a lieu dans la période de deux semaines spécifiée.  
 
  Plusieurs lignes planning sont simplement multipliées par trois pour fournir trois 15 vélos au lieu de 5, et les dates d’échéance sont remontées dans le temps pour fournir les quantités augmentées au plus tard à la date d’expédition de la commande vente à Cannon Group. Pour ces lignes planning, toutes les quantités peuvent être chaînées. Les autres lignes planning sont augmentées de dix pièces, et leurs dates d’échéance sont déplacées. Pour ces lignes planning, une partie des quantités est non chaînée en raison de différents paramètres de planification. Visualisez certaines de ces écritures chaînage.  
 
-### Pour afficher les écritures chaînage de l’article 1250  
+### <a name="to-view-order-tracking-entries-for-item-" />Pour afficher les écritures chaînage de l’article 1250
 
 1.  Sélectionnez la ligne planning correspondant à l’article 1250, puis choisissez l’action **Chaînage**.  
 
@@ -248,7 +248,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
 3.  Refermez toutes les pages, exceptée **Feuille planning**.  
 
-### Pour afficher une commande existante  
+### <a name="to-view-an-existing-order" />Pour afficher une commande existante
 
 1.  Dans la ligne planning de l’article 1250, sélectionnez le champ **N° ordre référence** .  
 2.  Sur la page **O.F. planifié ferme** pour le moyeu arrière. La commande existante pour dix pièces, que vous avez créée dans la première exécution de la planification, s’ouvre.  
@@ -256,7 +256,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
  La procédure pas à pas, relative au mode d’utilisation du système de planification permettant de détecter automatiquement la demande, de calculer les commandes approvisionnement adéquates en fonction de la demande et des paramètres de planification, puis de créer automatiquement différents types de commandes approvisionnement avec les dates et quantités appropriées, est terminée.  
 
-## Voir aussi  
+## <a name="see-also" />Voir aussi
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)

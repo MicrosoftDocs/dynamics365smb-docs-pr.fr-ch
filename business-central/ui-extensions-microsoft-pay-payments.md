@@ -10,7 +10,7 @@ ms.search.form: '1080, 1081, 1083, 1085, 1087, 1089'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Extension Microsoft Pay
+# <a name="the-microsoft-pay-extension" />Extension Microsoft Pay
 
 > [!IMPORTANT]
 > À compter du 8 février 2020, les changements dans le service Microsoft Pay affecteront l’extension Microsoft Pay dans Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. En raison des changements, après le 8 février, les liens de paiement **Payer maintenant** que l’extension Microsoft Pay génère pour les factures dans [!INCLUDE[prod_short](includes/prod_short.md)] n’ouvriront pas Microsoft Pay. Les clients qui utilisent l’extension doivent modifier la configuration de leurs services de paiement pour qu’ils démarrent plutôt avec l’extension PayPal.<br /></br>
@@ -36,7 +36,7 @@ L’extension Microsoft Pay offre les avantages suivants :
 
 L’activation des extensions de service de paiement est gratuite dans [!INCLUDE[prod_short](includes/prod_short.md)], toutefois, vous devez contacter le service de paiement pour obtenir un compte. Pour plus d’informations, voir [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Définition des ventes](sales-setup-sales.md)  

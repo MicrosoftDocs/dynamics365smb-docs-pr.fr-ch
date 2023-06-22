@@ -11,16 +11,16 @@ ms.search.form: '49, 97, 9306, 9346'
 ms.date: 08/08/2022
 ms.author: edupont
 ---
-# Demander des devis
+# <a name="request-quotes" />Demander des devis
 
 Vous pouvez utiliser une demande de prix en tant que phase préliminaire d’une commande achat, et convertir cette commande en facture achat ou en commande.
 
-## Créer une demande de prix
+## <a name="create-a-purchase-quote" />Créer une demande de prix
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Demandes de prix**, puis sélectionnez le lien associé.
 2. Créez un document, de la même manière que vous passez une commande achat. En savoir plus sur [Enregistrer les achats](purchasing-how-record-purchases.md).
 
-## Convertir une demande de prix en commande achat
+## <a name="convert-a-purchase-quote-to-a-purchase-order" />Convertir une demande de prix en commande achat
 
 Lorsque vous avez accepté le devis du fournisseur, vous pouvez le convertir en commande pour procéder à l’achat.
 
@@ -31,9 +31,9 @@ La demande de prix est supprimée de la base de données. Une facture achat ou u
 > [!NOTE]
 > Il n’est pas possible de convertir directement un devis d’achat en facture d’achat, comme c’est le cas avec les devis de vente. Pour plus de détails sur la création d’une facture d’achat, consultez [Enregistrer les achats avec les factures d’achat](purchasing-how-record-purchases.md).
 
-## Voir la [formation Microsoft](/training/modules/create-purchase-documents-dynamics-365-business-central/) associée.
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-purchase-documents-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/create-purchase-documents-dynamics-365-business-central/) associée.
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Achats](purchasing-manage-purchasing.md)  
 [Définition des achats](purchasing-setup-purchasing.md)  
