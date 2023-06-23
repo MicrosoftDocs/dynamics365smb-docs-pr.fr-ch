@@ -9,15 +9,15 @@ ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="troubleshooting-self-service-sign-up" />Dépannage de l’inscription en self-service
+# Dépannage de l’inscription en self-service
 L’inscription à [!INCLUDE[prod_short](includes/prod_short.md)] est simple et peut être effectuée très rapidement. Vous pouvez créer un compte gratuit même si vous représentez une société existante. Cet article aborde les problèmes que vous pouvez rencontrer lors de l’inscription.
 
-## <a name="what-email-address-can-i-use-with-business-central" />Quelle adresse e-mail puis-je utiliser avec Business Central ?
+## Quelle adresse e-mail puis-je utiliser avec Business Central ?
 [!INCLUDE[prod_short](includes/prod_short.md)] exige que vous utilisiez une adresse e-mail professionnelle ou scolaire pour votre inscription. [!INCLUDE[prod_short](includes/prod_short.md)] ne prend pas en charge les adresses e-mail fournies par les services de messagerie publics ni les opérateurs de télécommunications. Cela comprend outlook.com, hotmail.com, gmail.com, et d’autres.
 
 Si vous essayez d’effectuer votre inscription à l’aide d’une adresse e-mail personnelle, vous recevez un message vous demandant d’utiliser une adresse professionnelle ou scolaire.
 
-## <a name="troubleshooting" />Incident
+## Incident
 Dans de nombreux cas, vous pouvez effectuer votre inscription à [!INCLUDE[prod_short](includes/prod_short.md)] en suivant simplement le processus d’inscription. Toutefois, il existe plusieurs raisons pour lesquelles vous pouvez ne pas être en mesure de terminer l’inscription en self-service. La table ci-dessous récapitule certaines des raisons les plus courantes pour lesquelles vous pouvez ne pas être en mesure de terminer l’inscription en self-service, ainsi que des solutions pour remédier au problème.
 
 | Symptôme/Message d’erreur | Cause et solution de contournement |
@@ -29,13 +29,13 @@ Dans de nombreux cas, vous pouvez effectuer votre inscription à [!INCLUDE[prod_
 | L’adresse e-mail n’est pas un ID Microsoft 365. Vous recevez un message semblable au suivant lors de votre inscription :<br /><br />**Nous ne vous trouvons pas sur contoso.com. Utilisez-vous un autre identifiant dans votre entreprise ou établissement scolaire ? Essayez d’effectuer votre inscription avec celui-ci. Si cela ne fonctionne pas, contactez votre service informatique.** |Votre entreprise utilise pour l’inscription à Microsoft 365 et à d’autres services Microsoft des identifiants différents de votre adresse e-mail. Par exemple, votre adresse e-mail peut être Nancy.Smith@contoso.com alors que votre identifiant est nancys@contoso.com. Pour terminer votre inscription, utilisez l’identifiant que votre entreprise vous a affecté pour l’inscription à Microsoft 365 ou à d’autres services Microsoft. Si vous ne connaissez pas cet identifiant, contactez votre administrateur informatique. Si vous ne parvenez toujours pas à vous inscrire et que vous pouvez effectuer un processus de configuration plus avancé, vous pouvez prendre un nouvel abonnement gratuit Microsoft 365 et utiliser cette adresse e-mail pour vous inscrire. |
 | Si votre compte Microsoft 365 est enregistré dans un pays pris en charge, et que vous vous inscrivez à [!INCLUDE[prod_short](includes/prod_short.md)] depuis un autre pays, vous recevrez un message comme le suivant pendant l’inscription :<br /><br />**L’inscription n’a pas fonctionné. Nous ne prenons pas encore en charge votre pays ou région.**| L’abonnement Microsoft 365 de votre organisation est enregistré dans un pays spécifique dans le portail Administration Microsoft 365. L’expérience d’inscription à [!INCLUDE[prod_short](includes/prod_short.md)] utilise la langue et les paramètres régionaux que votre navigateur actuel utilise, et par conséquent, vous pouvez recevoir le message d’erreur même si vous être dans un pays pris en charge. Demander à votre administrateur informatique de vérifier le pays spécifié dans le profil de l’organisation dans le [Portail d’administration Microsoft 365](https://portal.office.com/adminportal/home#/companyprofile). Vous pouvez être amené à utiliser un autre compte pour [!INCLUDE[prod_short](includes/prod_short.md)].|
 
-## <a name="regional-availability" />Disponibilité régionale
+## Disponibilité régionale
 
 [!INCLUDE[prod_short](includes/prod_short.md)] est disponible dans plusieurs pays ou régions avec une localisation fournie par Microsoft ou un partenaire de localisation agréé. Pour obtenir la liste complète des pays et régions pris en charge, voir [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 Pour obtenir une vue d’ensemble des marchés actuellement pris en charge pour Dynamics 365, voir la plateforme [Disponibilité internationale de Microsoft Dynamics 365](/dynamics365/get-started/availability). Pour obtenir une vue d’ensemble des fonctionnalités locales dans [!INCLUDE[prod_short](includes/prod_short.md)], voir la page d’arrivée [Fonctionnalités locales](about-localization.md).  
 
-## <a name="see-also" />Voir aussi
+## Voir aussi
 
 [S’inscrire à un essai gratuit de Dynamics 365 Business Central](trial-signup.md)  
 [FAQ sur l’essai de Dynamics 365 Business Central](trial-faq.md)  
