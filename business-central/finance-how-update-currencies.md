@@ -122,7 +122,7 @@ Vous pouvez utiliser un service externe pour tenir vos taux de change des devise
 
 La valeur dans le champ **Taux de change** de la page **Devises** est mise à jour avec le dernier taux de change des devises.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

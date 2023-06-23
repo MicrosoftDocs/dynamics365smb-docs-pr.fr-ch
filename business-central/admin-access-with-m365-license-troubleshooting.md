@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="troubleshoot-access-with-microsoft--licenses" />Résoudre les problèmes d’accès avec les licences Microsoft 365
+# <a name="troubleshoot-access-with-microsoft-365-licenses" />Résoudre les problèmes d’accès avec les licences Microsoft 365
 
 ## <a name="this-page-uses-data-from-related-tables-that-you-do-not-have-access-to-error-message" />Message d’erreur « Cette page utilise des données de tables associées auxquelles vous n’avez pas accès. »
 
@@ -24,7 +24,7 @@ Quand vous accédez à un enregistrement dans Teams, un message d’erreur s’a
 
 Il vous manque très probablement des autorisations d’objet pour les tables auxquelles la page ou l’enregistrement actuel est lié.
 
-## <a name="microsoft--access-has-been-enabled-but-users-get-a-permission-error" />L’accès Microsoft 365 a été activé, mais les utilisateurs reçoivent un message d’erreur d’autorisation
+## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />L’accès Microsoft 365 a été activé, mais les utilisateurs reçoivent un message d’erreur d’autorisation
 
 ### <a name="symptoms" />Symptômes
 

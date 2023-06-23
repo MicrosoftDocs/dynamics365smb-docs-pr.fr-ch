@@ -61,7 +61,7 @@ Il existe quelques éléments en particulier que vous devez effectuer : si les 
 Si vous utilisez la taxe sur la valeur ajoutée (TVA), vous devez ajouter un groupe comptabilisation marché et un groupe comptabilisation produit au paramétrage de la validation de manière à pouvoir valider les montants TVA.
 Vérifiez les soldes de début des comptes du grand livre. QuickBooks ne stocke pas le solde actuel de tous les comptes, vous pouvez être amené à corriger les soldes d’ouverture.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

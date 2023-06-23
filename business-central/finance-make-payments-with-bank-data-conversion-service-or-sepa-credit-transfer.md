@@ -11,7 +11,7 @@ ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
 ms.date: 07/06/2021
 ms.author: bholtorf
 ---
-# <a name="make-payments-with-the-amc-banking--fundamentals-extension-or-sepa-credit-transfer" />Effectuer des paiements avec l’extension AMC Banking 365 Fundamentals ou virement SEPA
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer" />Effectuer des paiements avec l’extension AMC Banking 365 Fundamentals ou virement SEPA
 
 Sur la page **Feuille paiement**, vous pouvez traiter les paiements à vos fournisseurs en exportant un fichier avec les informations de paiement provenant des lignes feuille. Vous pouvez ensuite télécharger le fichier vers votre banque électronique, où sont traités les transferts d’argent associés. [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge le format de virement SEPA, mais dans votre pays/région, d’autres formats de paiements électroniques peuvent être disponibles.
 
@@ -23,7 +23,7 @@ Sur la page **Feuille paiement**, vous pouvez traiter les paiements à vos fourn
 > [!NOTE]  
 > Lorsque vous avez vérifié que les paiements sont traités avec succès par la banque, vous pouvez passer aux lignes feuille paiement.  
 
-## <a name="setting-up-the-amc-banking--fundamentals-extension" />Configuration de l’extension AMC Banking 365 Fundamentals
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension" />Configuration de l’extension AMC Banking 365 Fundamentals
 
 Activez l’extension AMC Banking 365 Fundamentals pour convertir les fichiers de relevé bancaire dans un format que vous pouvez importer, ou pour convertir les fichiers de paiement exportés au format imposé par votre banque. Pour plus d’informations, voir [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
 

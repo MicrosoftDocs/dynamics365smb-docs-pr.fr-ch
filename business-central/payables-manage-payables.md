@@ -35,7 +35,7 @@ Le tableau suivant décrit une série de tâches associées aux comptes fourniss
 |Pour une évaluation de stock correcte, affectez les coûts articles ajoutés, tels que le fret, la manutention, les assurances, et transport, que vous encourez lorsque vous achetez.|[Utiliser Frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md)|
 |Remboursez les frais personnels des salariés pour les activités liées à l’entreprise en effectuant le paiement sur leur compte bancaire.|[Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-customer-vendor-payments-dynamics--business-central" /><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-customer-vendor-payments-dynamics-365-business-central" /><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) associée
 
 ## <a name="see-also" /><a name="see-also"></a>Voir aussi
 [Achats](purchasing-manage-purchasing.md)  

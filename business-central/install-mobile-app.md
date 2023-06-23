@@ -53,7 +53,7 @@ Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous p
 > [!NOTE]
 > Si vous rencontrez des problèmes pour que l’application fonctionne correctement, parlez-en à votre administrateur. Il peut s’agir d’un prérequis manquant ou d’une configuration incomplète. Pour plus d’informations, consultez [Préparer l’environnement pour l’application mobile](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) ou [Résoudre les problèmes de l’application mobile Business Central sur site](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

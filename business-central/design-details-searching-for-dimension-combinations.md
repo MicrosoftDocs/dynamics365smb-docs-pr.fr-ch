@@ -16,7 +16,7 @@ Lorsque vous fermez une page après avoir modifié un ensemble de dimensions, [!
 ## <a name="building-search-tree" />Création d’un arbre de recherche
  La table 481 **Nœud d’arbre ensemble de dimensions** est utilisé lorsque [!INCLUDE[prod_short](includes/prod_short.md)] évalue si un ensemble de dimensions existe déjà dans la table **Écriture de l’ensemble de dimensions** de la table 480. L’évaluation est exécutée en parcourant de manière récursive l’arbre de recherche en commençant par le niveau numéroté 0. Le plus haut niveau 0 représente un ensemble de dimensions sans les écritures d’ensemble de dimensions. Les enfants cet ensemble de dimensions représentent des ensembles de dimensions avec une seule écriture d’ensemble de dimensions. Les enfants de ces ensembles de dimensions représentent des ensembles de dimensions avec deux enfants, etc.  
 
-### <a name="example-" />Exemple 1
+### <a name="example-1" />Exemple 1
  Le schéma suivant représente un arbre de recherche avec six ensembles de dimensions. Seule l’écriture d’ensemble de dimensions distinctive est affichée dans le schéma.  
 
  ![Exemple de structure arborescente des dimensions.](media/nav2013_dimension_tree.png "Exemple de structure arborescente des dimensions")  
@@ -33,7 +33,7 @@ Lorsque vous fermez une page après avoir modifié un ensemble de dimensions, [!
 |Ensemble 5|AREA 40|  
 |Ensemble 6|AREA 40, PROJ VW|  
 
-### <a name="example-" />Exemple 2
+### <a name="example-2" />Exemple 2
  Cet exemple montre la manière dont [!INCLUDE[prod_short](includes/prod_short.md)] évalue si un ensemble de dimensions constitué des écritures de l’ensemble de dimensions AREA 40, DEPT PROD existe.  
 
  D’abord, [!INCLUDE[prod_short](includes/prod_short.md)] met également à jour la table **Nœud d’arbre ensemble de dimensions** pour s’assurer que l’arbre de recherche ressemble au schéma suivant. Ainsi, l’ensemble de dimensions 7 devient un enfant de l’ensemble de dimensions 5.  

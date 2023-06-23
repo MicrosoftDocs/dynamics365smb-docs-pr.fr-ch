@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics--business-central" />Flux de travail dans Dynamics 365 Business Central
+# <a name="workflows-in-dynamics-365-business-central" />Flux de travail dans Dynamics 365 Business Central
 
 Vous pouvez configurer et utiliser des flux de travail qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches système, telles que la validation automatique, peuvent être incluses en tant qu’étapes dans les workflows. Les tâches système peuvent être précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.
 

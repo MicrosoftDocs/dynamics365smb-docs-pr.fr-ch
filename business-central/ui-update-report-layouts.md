@@ -58,7 +58,7 @@ Si aucune erreur ne se produit, la mise à jour est appliquée aux présentation
 
 Une fois que vous avez modifié la présentation, essayez de mettre de nouveau à jour la présentation.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
  [Gestion des présentations d’état](ui-manage-report-layouts.md)  

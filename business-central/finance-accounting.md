@@ -45,7 +45,7 @@ Nous avons simplifié pour vous la façon d’inviter votre comptable externe. O
 >
 > Cette tâche nécessite un accès à la gestion des utilisateurs et des licences dans Azure Active Directory. L’utilisateur qui envoie cette invitation doit se voir attribuer le rôle **Administrateur général** ou **Administrateur utilisateur** dans le centre d’administration Microsoft 365. Pour plus d’informations, voir [À propos des rôles d’administrateur](/microsoft-365/admin/add-users/about-admin-roles) dans le centre d’administration Microsoft 365.  
 
-### <a name="adding-your-accountant-to-your-microsoft--in-the-azure-portal" />Ajout de votre comptable à votre Microsoft 365 dans le Portail Azure
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal" />Ajout de votre comptable à votre Microsoft 365 dans le Portail Azure
 
 Si votre administrateur ou partenaire revendeur ne souhaite pas utiliser le guide **Inviter un comptable externe**, il peut ajouter un utilisateur externe dans le Portail Azure et attribuer à cet utilisateur la licence *Comptable externe*. Pour plus d’informations, voir [Démarrage rapide : Ajouter des utilisateurs invités à votre annuaire dans le portail Azure](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

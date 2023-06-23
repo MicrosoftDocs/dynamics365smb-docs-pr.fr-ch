@@ -43,7 +43,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

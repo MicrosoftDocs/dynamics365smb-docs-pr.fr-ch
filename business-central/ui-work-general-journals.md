@@ -220,7 +220,7 @@ La procédure suivante est basée sur la page **Feuille comptabilité**, mais s�
 
 Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, pour que le numéro de document sur les lignes feuille individuelles ou groupées soit dans un ordre séquentiel. Une fois que les documents sont renumérotés, vous pouvez procéder à la validation de la feuille.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-journals-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/use-journals-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathsuse-journals-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/use-journals-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -57,7 +57,7 @@ Le processus de document entrant est composé des activités principales suivant
 | Depuis les pages **Plan comptable** et **Écritures comptables**, utiliser la fonction de recherche pour rechercher les écritures comptables pour des documents validés qui n’ont pas d’enregistrement de document entrant, puis les lier de façon centralisée à des enregistrements existants ou en créer de nouveaux avec des fichiers joints. |[Rechercher des enregistrements validés sans enregistrements document entrant](across-how-find-posted-documents-without-income-document-records.md) |
 | Obtenir une meilleure vue d’ensemble en définissant les enregistrements de document entrant sur *Traité* afin de les supprimer de la vue par défaut. |[Gérer de nombreux enregistrements document entrant](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

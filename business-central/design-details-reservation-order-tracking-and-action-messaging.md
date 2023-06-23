@@ -133,13 +133,13 @@ Sur la page **Paramètres production**, le champ **Mag. composant par déf.** es
 
  ![Premier exemple d’écritures chaînage dans la table Écriture réservation.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### <a name="entry-numbers--and-" />Numéros d’écriture 8 et 9
+### <a name="entry-numbers-8-and-9" />Numéros d’écriture 8 et 9
  Pour le besoin composant de LOTA et de LOTB respectivement, des liens traçabilité commande sont créés entre la demande dans la table 5407, **Composant O.F.**, et l’approvisionnement dans la table 32, **Écriture comptable article**. Le champ **État de la réservation** contient **Traçabilité** pour indiquer que ces écritures sont des liens traçabilité commande dynamiques entre l’approvisionnement et la demande.  
 
 > [!NOTE]  
 >  Le champ **N° lot** est vide sur les lignes demande, parce que les numéros de lot ne sont pas spécifiés sur les lignes composant de l’ordre de fabrication lancé.  
 
-### <a name="entry-numbers-" />Numéros d’écriture 10
+### <a name="entry-numbers-10" />Numéros d’écriture 10
  Depuis la demande vente dans la table 37, **Ligne vente**, un lien de chaînage est créé avec l’approvisionnement dans la table 5406, **Ligne O.F.**. Le champ **État de la réservation** contient **Réservation**, et le champ **Lien** indique **Ordre pour ordre**. Ceci est dû au fait que l’ordre de fabrication émis a été généré spécifiquement pour la commande vente et doit rester lié contrairement aux liens de suivi de commande avec le statut de réservation **Traçabilité**, qui sont créés et modifiés de façon dynamique. Pour plus d’informations, voir la section « Réservations automatiques » de cette rubrique.  
 
  A ce stade dans ce scénario, les 100 unités de LOTA et LOTB sont transférées au magasin EAST par un ordre de transfert.  
@@ -151,12 +151,12 @@ Sur la page **Paramètres production**, le champ **Mag. composant par déf.** es
 
  ![Deuxième exemple d’écritures chaînage dans la table Écriture réservation.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers--and-" />Numéros d’écriture 8 et 9
+### <a name="entry-numbers-8-and-9" />Numéros d’écriture 8 et 9
  Les écritures chaînage pour les deux lots du composant correspondant à la demande dans la table 5407 sont modifiées d’un statut de réservation **Traçabilité** à **Excédent**. La raison est que les approvisionnements qui ont été liés précédemment, dans la table 32, ont été utilisés par l’expédition de l’ordre de transfert.  
 
  Un excédent véritable, comme dans ce cas, reflète un excédent d’approvisionnement ou de demande qui reste non chaîné. Il s’agit d’une indication de déséquilibre dans le réseau d’ordres, qui génère un message d’action par le système de planification, sauf s’il est résolu de façon dynamique.  
 
-### <a name="entry-numbers--to-" />Numéros d’écriture 12 à 16
+### <a name="entry-numbers-12-to-16" />Numéros d’écriture 12 à 16
  Dans la mesure où les deux lots du composant sont validés sur l’ordre de transfert comme réceptionnés mais non acceptés, toutes les écritures chaînage positives associées sont du type de réservation **Excédent**, indiquant qu’elles ne sont affectées à aucune demande. Pour chaque numéro de lot, une écriture est liée au tableau 5741, **Ligne transfert**, et une écriture est liée à l’écriture comptable article au magasin transit où les articles sont disponibles à présent.  
 
  A ce stade dans ce scénario, l’ordre de transfert des composants du magasin EAST vers le magasin WEST est validé comme étant reçu.  
@@ -173,7 +173,7 @@ Sur la page **Paramètres production**, le champ **Mag. composant par déf.** es
 
  ![Quatrième exemple d’écritures chaînage dans la table Écriture réservation.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### <a name="entry-numbers--and-" />Numéros d’écriture 21 et 22
+### <a name="entry-numbers-21-and-22" />Numéros d’écriture 21 et 22
  Comme le besoin composant a été modifié au magasin EAST, et que l’approvisionnement est disponible comme écritures comptables article au magasin EAST, toutes les écritures chaînage pour les deux numéros de lot sont à présent entièrement suivis, comme indiqué par le statut **Traçabilité**de la réservation.  
 
  Le champ **N° lot** est désormais renseigné dans l’écriture chaînage de la table 5407, car les numéros de lot ont été affectés aux lignes composant O.F.  

@@ -39,7 +39,7 @@ Il existe essentiellement deux tâches impliquées dans la configuration d’une
 1. Créer le nouveau fichier de présentation Excel.
 2. Ajouter la nouvelle présentation au rapport.
 
-## <a name="task--create-the-excel-layout-file" />Tâche 1 : Créer le fichier de présentation Excel
+## <a name="task-1-create-the-excel-layout-file" />Tâche 1 : Créer le fichier de présentation Excel
 
 Il existe trois façons de créer un fichier de présentation Excel pour un rapport, comme expliqué dans cette section.
 
@@ -58,13 +58,13 @@ Procédez comme suit pour créer une présentation Excel à partir de n’import
 
 S’il existe déjà une présentation Excel pour un état, utilisez celle existante comme point de départ. Il existe deux approches pour obtenir une copie de la présentation. Vous pouvez exporter la présentation existante à partir de la page **Présentations d’état** ou télécharger la présentation à partir de la page de demande d’état. Les deux méthodes téléchargent un fichier de présentation Excel qui inclut toutes les feuilles du fichier existant. La différence est qu’à partir de la page de demande, la présentation inclura les données réelles. (Les données ne sont pas obligatoires, mais elles aident lors de la conception de la présentation.)
 
-#### <a name="approach--export-the-layout-from-the-report-layouts-page" />Approche 1 : Exporter la présentation à partir de la page **Présentations d’état**
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page" />Approche 1 : Exporter la présentation à partir de la page **Présentations d’état**
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Sélectionnez la mise en page Excel dans la liste, puis choisissez l’action **Exporter présentation** en haut de la page.
 3. Ouvrez le fichier Excel, effectuez vos modifications, puis enregistrez le fichier.
 
-#### <a name="approach--download-the-layout-from-the-reports-request-page" />Approche 2 : Téléchargez la présentation à partir de la page de demande de l’état
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page" />Approche 2 : Téléchargez la présentation à partir de la page de demande de l’état
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Sur la page **Présentations d’état**, sélectionnez une présentation pour l’état, puis choisissez l’action **Exécuter état**.
@@ -77,7 +77,7 @@ Il s’agit de la méthode la plus avancée pour créer une présentation d’é
 
 ---
 
-## <a name="task--add-the-excel-layout-to-the-report" />Tâche 2: Ajouter la présentation Excel à l’état
+## <a name="task-2-add-the-excel-layout-to-the-report" />Tâche 2: Ajouter la présentation Excel à l’état
 
 Une fois que vous avez le fichier de présentation Excel, la tâche suivante consiste à l’ajouter en tant que nouvelle présentation pour l’état.
 

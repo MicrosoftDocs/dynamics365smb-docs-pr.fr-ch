@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="warnings-and-error-messages-in-dynamics--business-central" />Avertissements et messages d’erreur dans Dynamics 365 Business Central
+# <a name="warnings-and-error-messages-in-dynamics-365-business-central" />Avertissements et messages d’erreur dans Dynamics 365 Business Central
 
 Pendant votre journée de travail, vous pouvez voir des notifications dans [!INCLUDE [prod_short](includes/prod_short.md)] indiquant qu’un problème s’est produit ou que la validation a échoué, par exemple. Dans de nombreux cas, la notification permet de résoudre facilement le problème ou d’annuler les modifications effectuées. Dans d’autres cas, vous ne disposez peut-être pas des informations nécessaires pour résoudre le problème. Cet article fournit des conseils pour vous permettre d’avancer.  
 

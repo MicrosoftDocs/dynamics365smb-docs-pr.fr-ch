@@ -68,7 +68,7 @@ De manière similaire à la budgétisation dans la comptabilité, vous pouvez cr
 
 La plupart des états et des statistiques reposent sur les écritures de coûts validées. Vous pouvez définir le tri des résultats et utiliser des filtres pour définir les informations à afficher. Vous pouvez créer des états pour analyser la distribution des coûts. En outre, vous pouvez utiliser les états financiers standard pour définir le mode d’affichage du plan des types de coûts.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

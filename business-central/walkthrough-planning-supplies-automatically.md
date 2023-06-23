@@ -138,7 +138,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
  La ligne planning de l’article 1300, ensemble chaîne, indique dix pièces. Ceci diffère des cinq pièces que nous prévoyons comme nécessaires pour répondre à la commande vente. Visualisez les écritures chaînage.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Pour afficher les écritures chaînage de l’article 1300
+### <a name="to-view-order-tracking-entries-for-item-1300" />Pour afficher les écritures chaînage de l’article 1300
 
 1.  Sélectionnez la ligne planning correspondant à l’article 1300, puis choisissez l’action **Chaînage**.  
 
@@ -234,7 +234,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
  Plusieurs lignes planning sont simplement multipliées par trois pour fournir trois 15 vélos au lieu de 5, et les dates d’échéance sont remontées dans le temps pour fournir les quantités augmentées au plus tard à la date d’expédition de la commande vente à Cannon Group. Pour ces lignes planning, toutes les quantités peuvent être chaînées. Les autres lignes planning sont augmentées de dix pièces, et leurs dates d’échéance sont déplacées. Pour ces lignes planning, une partie des quantités est non chaînée en raison de différents paramètres de planification. Visualisez certaines de ces écritures chaînage.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Pour afficher les écritures chaînage de l’article 1250
+### <a name="to-view-order-tracking-entries-for-item-1250" />Pour afficher les écritures chaînage de l’article 1250
 
 1.  Sélectionnez la ligne planning correspondant à l’article 1250, puis choisissez l’action **Chaînage**.  
 

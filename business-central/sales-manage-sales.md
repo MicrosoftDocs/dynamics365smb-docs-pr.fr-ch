@@ -53,7 +53,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Informez vos clients des dates de livraison en calculant, soit la date de simulation de délai, soit la date disponible à la vente.|[Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md)|
 |Résolvez la confusion lorsque deux enregistrements ou plus existent pour le même client.|[Fusionner l’enregistrement des doublons](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssell-items-services-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/sell-items-services-dynamics-365-business-central/) associée.
+## <a name="see-related-microsoft-trainingtrainingpathssell-items-services-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/sell-items-services-dynamics-365-business-central/) associée.
 
 [Définition des ventes](sales-setup-sales.md)  
 [Enregistrer de nouveaux clients](sales-how-register-new-customers.md)  

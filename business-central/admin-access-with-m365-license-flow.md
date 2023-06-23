@@ -10,7 +10,7 @@ ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
-# <a name="user-access-flow-for-microsoft--licenses" />Flux d’accès utilisateur pour les licences Microsoft 365
+# <a name="user-access-flow-for-microsoft-365-licenses" />Flux d’accès utilisateur pour les licences Microsoft 365
 
 Cet article décrit de ce qui se passe quand un utilisateur accède pour la première fois aux données de Business Central à l’aide de sa licence Microsoft 365. La compréhension de ce flux permet aux administrateurs de planifier leur approche et de configurer Business Central en fonction de leurs besoins métier.
 

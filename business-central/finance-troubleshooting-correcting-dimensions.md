@@ -117,7 +117,7 @@ Si une correction ne se termine pas, un avertissement s’affiche sur la carte d
 
 Une fois les axes analytiques corrigés, vos données pour la comptabilité analytique seront désynchronisées. La comptabilité analytique utilise des axes analytiques pour agréger les montants des centres de coûts et des coûts associés, et pour exécuter les répartitions de coûts. La modification des axes analytiques des écritures comptables signifiera probablement que vous réexécuterez vos modèles de comptabilité analytique. Que vous deviez simplement supprimer quelques registres de coûts et réexécuter les allocations, ou que vous deviez tout supprimer et réexécuter tous vos modèles, cela dépend des données qui ont été mises à jour et de la configuration de vos capacités de comptabilité analytique. Vous devez manuellement identifier où les corrections d’axes analytiques auront un impact sur la comptabilité analytique et où des mises à jour sont nécessaires. [!INCLUDE[prod_short](includes/prod_short.md)] ne propose pas actuellement de moyen automatisé de le faire.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/dimensions-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/dimensions-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

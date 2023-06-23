@@ -72,7 +72,7 @@ Lorsque le fournisseur a expédié les articles, vous pouvez valider la commande
 4. Sélectionnez l’action **Valider** ou **Valider et envoyer**.
 5. Sélectionnez l’option **Livrer** pour facturer ultérieurement ou l’option **Livrer et facturer** pour facturer immédiatement.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -8,7 +8,7 @@ ms.author: edupont
 ms.date: 05/25/2022
 ---
 
-# <a name="sign-up-for-a-free-dynamics--business-central-trial" />Inscrivez-vous pour un essai gratuit de Dynamics 365 Business Central
+# <a name="sign-up-for-a-free-dynamics-365-business-central-trial" />Inscrivez-vous pour un essai gratuit de Dynamics 365 Business Central
 
 Business Central propose un essai gratuit. Après une inscription rapide, vous aurez accès à de nombreuses fonctionnalités clés de l’application. L’essai vous permet de tester l’application avec des exemples de données. Si vous voulez faire des essais avec vos propres données, vous devez passer à un essai gratuit de 30 jours. [En savoir plus sur les fonctionnalités de Business Central](across-business-functionality.md).  
 
@@ -38,7 +38,7 @@ Vous pouvez également contacter l’[équipe commerciale [!INCLUDE[prod_short](
 
 Pour plus d’informations sur ce que vous pouvez faire avec [!INCLUDE [prod_short](includes/prod_short.md)], voir [Se préparer à faire des affaires](ui-get-ready-business.md) et [Fonctionnalité commerciale](across-business-functionality.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/trial-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/trial-dynamics-365-business-central/) associée
 
 ## <a name="additional-resources" />Ressources supplémentaires
 

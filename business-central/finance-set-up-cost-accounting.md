@@ -189,7 +189,7 @@ Pour chaque compte général, vous pouvez définir des sections analytiques par 
 > [!NOTE]  
 >  Pour vous assurer que le centre de coûts et les coûts associés prédéfinis et configurés en comptabilité générale sont reportés automatiquement dans la comptabilité analytique, cochez la case **Vérifier validations compta** sur la page Paramètres comptabilité analytique.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/cost-accounting-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/cost-accounting-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

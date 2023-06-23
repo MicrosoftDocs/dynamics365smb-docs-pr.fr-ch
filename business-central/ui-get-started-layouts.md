@@ -179,7 +179,7 @@ Suivez ces étapes si vous souhaitez modifier le nom et la description d’une p
     > Pour vous aider à trouver la présentation, utilisez la case **Rechercher**, le volet **Filtrer** et le tri des colonnes.
 3. Changez le **Nom de la présentation**, puis cliquez sur **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

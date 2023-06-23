@@ -45,7 +45,7 @@ Dans la mise à jour 15.3 et les versions ultérieures, les polices MICR sont i
 > [!NOTE]
 > Pour des raisons de sécurité et juridiques, vous ne pouvez pas télécharger de polices personnalisées sur l’environnement [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### <a name="micr-e-b-specifications" />Spécifications MICR E-13B
+### <a name="micr-e-13b-specifications" />Spécifications MICR E-13B
 
 Voici un résumé des spécifications des polices MICR E-13B qui peuvent se révéler utiles lors du calibrage des polices sur les mises en page de chèque avec des imprimantes MICR spécifiques.
 
@@ -57,7 +57,7 @@ Voici un résumé des spécifications des polices MICR E-13B qui peuvent se rév
 
 La spécification complète des polices MICR E-13B est disponible dans la documentation du fournisseur ici : (https://www.idautomation.com/micr-fonts/e13b/).
 
-### <a name="micr-cmc--specifications" />Spécifications MICR CMC-7
+### <a name="micr-cmc-7-specifications" />Spécifications MICR CMC-7
 
 Les polices CMC-7 suivantes sont disponibles dans [!INCLUDE[prod_short](includes/prod_short.md)] en ligne :
 

@@ -95,7 +95,7 @@ Pour gérer le coût de l’article pour la réception partielle, sur le **Affec
 
 Lorsque vous êtes prêt à gérer l’article manquant, mettez à jour le champ **Quantité à traiter** et valider la commande.
 
-## <a name="see-related-microsoft-trainingtrainingmodulespost-purchase-item-charges-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/post-purchase-item-charges-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulespost-purchase-item-charges-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/post-purchase-item-charges-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

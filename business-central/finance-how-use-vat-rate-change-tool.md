@@ -100,7 +100,7 @@ Vous utilisez l’outil de modification de la TVA pour gérer les variations du 
 > [!IMPORTANT]  
 > Après la conversion, le champ **Converti** de la table **Écriture journal modification taux TVA** est activé et le champ **Date conversion** de la table **Écriture journal modification taux TVA** affiche la date de conversion.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/rate-change-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/rate-change-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

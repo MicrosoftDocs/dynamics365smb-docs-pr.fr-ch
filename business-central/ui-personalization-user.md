@@ -158,7 +158,7 @@ Pour vous aider à mieux comprendre la personnalisation, voici quelques points c
    > [!TIP]
    > En tant qu’administrateur, vous pouvez masquer l’élément **Automatisation** des utilisateurs. En savoir plus sur [Configuration de l’intégration Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics--business-centralindex" />Voir la [formation Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 [Personnaliser les pages pour les profils](ui-personalization-manage.md)  

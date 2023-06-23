@@ -47,7 +47,7 @@ Dans la plupart des cas, vous pouvez ouvrir des écritures comptables à partir 
 
 Vous pouvez modifier certains champs dans les documents d’achat validés, tels que le champ **N° de suivi du colis**. . Pour plus d’informations, voir [Modifier les documents validés](across-edit-posted-document.md). Pour les champs plus critiques qui concernent la piste d’audit, vous devez inverser ou annuler la validation. Pour plus d’informations, voir [Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics--business-centralindex" />Voir la [formation Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

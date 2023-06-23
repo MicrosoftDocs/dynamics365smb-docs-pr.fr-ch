@@ -282,7 +282,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
  La page **Traçabilité** a permis au contrôleur qualité de constater que le LOT1 contenait les cadres de course défectueux, d’en découvrir le fournisseur ainsi que la transaction validée dans laquelle ils avaient été utilisés. Ils doivent maintenant déterminer si le LOT1 apparaît dans des documents ouverts en intégrant les résultats du suivi dans la page **Rechercher des écritures** dans laquelle ils peuvent faire une recherche sur l’ensemble des enregistrements de base de données.  
 
-### <a name="to-find-all-occurrences-of-lot-in-non-posted-records-such-as-open-orders" />Pour rechercher toutes les occurrences du LOT1 dans les enregistrements non validés, comme les commandes ouvertes
+### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders" />Pour rechercher toutes les occurrences du LOT1 dans les enregistrements non validés, comme les commandes ouvertes
 
 1.  Sur la page **Traçabilité**, sélectionnez la première ligne de suivi, c’est-à-dire la réception achat du LOT1.  
 2.  Sélectionnez l’action **Rechercher des écritures**.  

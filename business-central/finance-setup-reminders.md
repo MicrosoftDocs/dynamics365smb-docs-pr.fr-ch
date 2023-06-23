@@ -92,7 +92,7 @@ Si vous créez plus de relances qu’il n’y a de niveaux relance, les conditio
 
 Si vous avez configuré les conditions relance (avec des niveaux et du texte supplémentaires), saisissez l’un des codes sur chaque fiche client. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/send-reminders-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/send-reminders-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

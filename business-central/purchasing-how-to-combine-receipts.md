@@ -42,7 +42,7 @@ Vous pouvez également supprimer chacune des commandes manuellement.
 
 Répétez les étapes 1 à 3 pour tous les autres documents affectés, comme des commandes ouvertes achat.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

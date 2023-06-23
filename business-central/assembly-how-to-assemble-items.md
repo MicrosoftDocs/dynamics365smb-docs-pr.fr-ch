@@ -61,7 +61,7 @@ Suivez les étapes de cette procédure pour assembler un article à stocker. Pou
 
 Une fois la validation réussie, l’élément d’assemblage est validé comme production dans le code magasin et le code emplacement potentiel qui sont définis sur l’ordre de assemblage. Pour les ordres d’assemblage créés manuellement, le magasin peut être copié à partir du champ de configuration **Emplacement par défaut pour les commandes**. Pour les flux d’assemblage pour commande, le code magasin peut être copié à partir de la ligne commande vente.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

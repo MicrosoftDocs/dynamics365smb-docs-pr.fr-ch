@@ -13,7 +13,7 @@ ms.author: edupont
 # <a name="design-details-table-structure" />Détails de conception : structure de la table
 Pour comprendre comment les écritures analytiques sont stockées et validées, il est important de comprendre la structure de la table.  
 
-## <a name="table--dimension-set-entry" />Table 480 : Écriture ensemble de dimensions
+## <a name="table-480-dimension-set-entry" />Table 480 : Écriture ensemble de dimensions
 Vous ne pouvez pas modifier cette table. Une fois les données écrites dans la table, vous ne pouvez plus les supprimer ou les modifier.
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
@@ -25,7 +25,7 @@ Vous ne pouvez pas modifier cette table. Une fois les données écrites dans la 
 |5|**Nom axe analytique**|Texte 30|CalcField. Rechercher dans la table 348.|  
 |6|**Nom de la section analytique**|Texte 30|CalcField. Rechercher dans la table 349.|  
 
-## <a name="table--dimension-set-tree-node" />Table 481 : Nœud d’arbre ensemble de dimensions
+## <a name="table-481-dimension-set-tree-node" />Table 481 : Nœud d’arbre ensemble de dimensions
 Vous ne pouvez pas modifier cette table. Elle est utilisée pour trouver un ensemble de dimensions. Si l’ensemble de dimensions est introuvable, un nouvel ensemble est créé.  
 
 |N° champ|Nom du champ|Type de données|Commentaires|  
@@ -35,7 +35,7 @@ Vous ne pouvez pas modifier cette table. Elle est utilisée pour trouver un ense
 |3|**ID ensemble de dimensions**|Entier|Incrémentez automatiquement. Utilisé dans le champ 1 du tableau 480.|  
 |4|**Utilisé**|Booléen|Faux si non utilisé.|  
 
-## <a name="table--reclas-dimension-set-buffer" />Table 482 : Tampon ensemble de dimensions reclass.
+## <a name="table-482-reclas-dimension-set-buffer" />Table 482 : Tampon ensemble de dimensions reclass.
 Cette table est utilisée lorsque vous modifiez un code section analytique, par exemple, pour une écriture comptable article en utilisant la page **Feuille reclassement article**.  
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
@@ -56,7 +56,7 @@ En plus des autres champs d’axe dans la table, ce champ est important :
 |---------------|----------------|---------------|-------------|  
 |480|**ID ensemble de dimensions**|Entier|Champ de références 1 dans la table 480.|  
 
-### <a name="table--item-journal-line" />Table 83 : Ligne feuille article
+### <a name="table-83-item-journal-line" />Table 83 : Ligne feuille article
 En plus des autres champs d’axe dans la table, ces champs sont importants :  
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
@@ -64,7 +64,7 @@ En plus des autres champs d’axe dans la table, ces champs sont importants :
 |480|**ID ensemble de dimensions**|Entier|Champ de références 1 dans la table 480.|  
 |481|**ID du nouvel ensemble de dimensions**|Entier|Champ de références 1 dans la table 480.|  
 
-### <a name="table--dimension-value" />Table 349 : section analytique
+### <a name="table-349-dimension-value" />Table 349 : section analytique
 En plus des autres champs d’axe dans la table, ces champs sont importants :  
 
 |N° champ|Nom de champ|Type de données|Commentaire|  

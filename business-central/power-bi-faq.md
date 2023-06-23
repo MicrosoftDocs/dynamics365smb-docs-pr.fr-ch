@@ -147,7 +147,7 @@ Cette fonctionnalité sera bientôt disponible. À partir de février 2022, les
 
 Si vous avez d’anciens rapports basés sur des données Business Central, ils ne se connecteront pas au réplica de base de données en lecture seule.
 
-### <a name="a-namedatabasemodsaive-tried-the-preview-of-the-new-connector-for-the-february--update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>J’ai essayé la version préliminaire du nouveau connecteur pour la mise à jour de février 2022. Lorsque je me connecte à ma page API Business Central personnalisée, j’obtiens l’erreur « Impossible d’insérer un enregistrement. L’intention de connexion actuelle est en lecture seule. ». Comment puis-je résoudre ce problème ?
+### <a name="a-namedatabasemodsaive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>J’ai essayé la version préliminaire du nouveau connecteur pour la mise à jour de février 2022. Lorsque je me connecte à ma page API Business Central personnalisée, j’obtiens l’erreur « Impossible d’insérer un enregistrement. L’intention de connexion actuelle est en lecture seule. ». Comment puis-je résoudre ce problème ?
 
 Avec le nouveau connecteur, les nouveaux rapports qui utilisent les données Business Central se connecteront par défaut à une réplique en lecture seule de la base de données Business Central. Ce changement apportera une amélioration des performances. Cependant, dans de rares cas, cela peut provoquer l’erreur. Cette erreur se produit généralement parce que votre API personnalisée apporte des modifications aux enregistrements Business Central alors que Power BI essaie d’obtenir les données. En particulier, cela se produit dans le cadre des déclencheurs AL : OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord et OnAfterGetCurrRecord.
 
@@ -237,14 +237,14 @@ Oui. Ce scénario avancé aiderait Business Central à rester performant car l�
 
 Nous étudions cette fonctionnalité. Power BI propose des API riches pour contrôler les déploiements d′états. Pour plus d′informations, voir [Introduction aux pipelines de déploiement](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-x-what-are-these-values" />Lorsque je reçois des données de Business Central à utiliser dans mes états Power BI, je vois des valeurs comme « _x0020_ ». Quelles sont ces valeurs ?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-x0020-what-are-these-values" />Lorsque je reçois des données de Business Central à utiliser dans mes états Power BI, je vois des valeurs comme « _x0020_ ». Quelles sont ces valeurs ?
 
 Certaines pages API, y compris la plupart des pages API v2.0, ont des champs basés sur les [objets AL Enum](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Les champs basés sur les objets AL Enum doivent avoir des noms cohérents et toujours identiques afin que les filtres de l′état fonctionnent toujours, quels que soient la langue ou le système d′exploitation utilisés. Pour cette raison, les champs basés sur AL Enum ne sont pas traduits et sont codés pour éviter tout caractère spécial dont l′espace. En particulier, chaque fois qu′il y a une option vide dans l′objet AL Enum, elle est codée en « _x0020_ ». Vous pouvez toujours appliquer une transformation à vos données sur Power BI pour afficher une valeur différente pour ces champs, par exemple « Vide ».
 
 
 ---
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

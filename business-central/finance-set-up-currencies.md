@@ -111,7 +111,7 @@ Vous pouvez entrer un code devise sur une ligne feuille comptabilité et valider
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescurrencies-exchange-rates-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/currencies-exchange-rates-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulescurrencies-exchange-rates-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/currencies-exchange-rates-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

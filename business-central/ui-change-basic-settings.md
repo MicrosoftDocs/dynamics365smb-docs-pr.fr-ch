@@ -107,7 +107,7 @@ Sélectionnez le lien *Modifier quand je reçois une notification* pour afficher
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics--business-centralindex" />Voir la [formation Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

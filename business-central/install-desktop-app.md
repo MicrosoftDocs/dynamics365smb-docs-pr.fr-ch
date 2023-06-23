@@ -66,7 +66,7 @@ La différence est lorsque vous avez plusieurs locataires. Contrairement à [!IN
 > [!IMPORTANT]
 > Si vous utilisez la 1re vague de lancement 2021 Business Central (version 18) ou une version antérieure, vous ne pouvez pas installer l’application comme décrit dans cet article. Au lieu de cela, installez l’application à partir de [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Pour plus d’informations et de l’aide sur l’installation de cette application héritée, voir [Préparation et installation de l’application Business Central](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

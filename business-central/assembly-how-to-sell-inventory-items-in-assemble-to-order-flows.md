@@ -47,7 +47,7 @@ Dans cette procédure, vous remplacez les quantités à assembler pour commande 
 > [!CAUTION]  
 > Le champ **Code emplacement** de la commande vente peut contenir la valeur provenant des champs **Code empl. exp. ass. pr comm.** ou **Code empl. depuis assemblage** de la fiche magasin. Si c’est le cas, le champ **Code emplacement** de la ligne commande vente peut être incorrect pour cette combinaison des quantités à assembler pour commande et à assembler pour stock. Il est bon de revérifier que l’emplacement dans le champ **Code emplacement** fonctionne pour toutes les quantités. Sinon, entrez les deux quantités différentes sur des lignes commande vente distinctes.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

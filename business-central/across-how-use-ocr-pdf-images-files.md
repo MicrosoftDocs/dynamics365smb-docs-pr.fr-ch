@@ -120,7 +120,7 @@ La page **Correction des données OCR**, que vous ouvrez à partir de la page **
 
 Les champs du raccourci **Informations financières** de la page **Document entrant** sont mis à jour avec les nouvelles valeurs que vous avez entrées à l’étape 4.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

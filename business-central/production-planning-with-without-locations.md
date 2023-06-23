@@ -67,71 +67,71 @@ Le champ **Magasin obligatoire** de la page **Paramètres stock** et le champ **
 
 Consultez les variantes des scénarios de configuration ci-dessous.
 
-### <a name="setup-" />Configuration 1
+### <a name="setup-1" />Configuration 1
 
 * Magasin obligatoire = *Oui*  
 * Le point de stock a pour valeur *OUEST*  
 * Mag. composant par déf = *EST*  
 
-#### <a name="case--demand-is-at-west-location" />Situation 1.1 : la demande concerne un magasin *OUEST*
+#### <a name="case-11-demand-is-at-west-location" />Situation 1.1 : la demande concerne un magasin *OUEST*
 
 L’article est planifié en fonction des paramètres de planification de la fiche point de stock (y compris, un éventuel transfert).
 
-#### <a name="case--demand-is-at-east-location" />Situation 1.2 : la demande concerne un magasin *EST*
+#### <a name="case-12-demand-is-at-east-location" />Situation 1.2 : la demande concerne un magasin *EST*
 
 L’article est planifié en fonction des paramètres de planification de la fiche article.
 
-#### <a name="case--demand-is-at-north-location" />Situation 1.3 : la demande concerne un magasin *NORD*
+#### <a name="case-13-demand-is-at-north-location" />Situation 1.3 : la demande concerne un magasin *NORD*
 
 L’article est planifié comme suit : Méthode réapprovisionnement = *Lot pour Lot* (l’*ordre* conserve la valeur *Ordre*), Inclure stock = *Oui*. Tous les autres paramètres de planification ont la valeur Vide.
 
-#### <a name="case--demand-is-at-blank-location" />Situation 1.4 : la demande concerne un magasin *VIDE*
+#### <a name="case-14-demand-is-at-blank-location" />Situation 1.4 : la demande concerne un magasin *VIDE*
 
 L’article est planifié comme suit : Méthode réapprovisionnement = *Lot pour Lot* (l’*ordre* conserve la valeur *Ordre*), Inclure stock = *Oui*. Tous les autres paramètres de planification ont la valeur Vide.
 
-### <a name="setup-" />Configuration 2
+### <a name="setup-2" />Configuration 2
 
 * Magasin obligatoire = *Oui*  
 * Il n ’existe pas de point de stock.  
 * Mag. composant par déf = *EST*  
 
-#### <a name="case--demand-is-at-west-location" />Situation 2.1 : la demande concerne un magasin *OUEST*
+#### <a name="case-21-demand-is-at-west-location" />Situation 2.1 : la demande concerne un magasin *OUEST*
 
 L’article est planifié comme suit : Méthode réapprovisionnement = *Lot pour Lot* (l’*ordre* conserve la valeur *Ordre*), Inclure stock = *Oui*. Tous les autres paramètres de planification ont la valeur Vide.
 
-#### <a name="case--demand-is-at-east-location" />Situation 2.2 : la demande concerne un magasin *EST*
+#### <a name="case-22-demand-is-at-east-location" />Situation 2.2 : la demande concerne un magasin *EST*
 
 L’article est planifié en fonction des paramètres de planification de la fiche article.  
 
-### <a name="setup-" />Configuration 3
+### <a name="setup-3" />Configuration 3
 
 * Magasin obligatoire = *Non*  
 * Il n ’existe pas de point de stock.  
 * Mag. composant par déf = *EST*  
 
-#### <a name="case--demand-is-at-west-location" />Situation 3.1 : la demande concerne un magasin *OUEST*
+#### <a name="case-31-demand-is-at-west-location" />Situation 3.1 : la demande concerne un magasin *OUEST*
 
 L’article est planifié comme suit : Méthode réapprovisionnement = *Lot pour Lot* (l’*ordre* conserve la valeur *Ordre*), Inclure stock = *Oui*. Tous les autres paramètres de planification ont la valeur Vide.
 
-#### <a name="case--demand-is-at-east-location" />Situation 3.2 : la demande concerne un magasin *EST*
+#### <a name="case-32-demand-is-at-east-location" />Situation 3.2 : la demande concerne un magasin *EST*
 
 L’article est planifié en fonction des paramètres de planification de la fiche article.  
 
-#### <a name="case--demand-is-at-blank-location" />Situation 3.3 : la demande concerne un magasin *VIDE*
+#### <a name="case-33-demand-is-at-blank-location" />Situation 3.3 : la demande concerne un magasin *VIDE*
 
 L’article est planifié comme suit : Méthode réapprovisionnement = *Lot pour Lot* (l’*ordre* conserve la valeur *Ordre*), Inclure stock = *Oui*. Tous les autres paramètres de planification ont la valeur Vide.
 
-### <a name="setup-" />Configuration 4
+### <a name="setup-4" />Configuration 4
 
 * Magasin obligatoire = *Non*  
 * Il n ’existe pas de point de stock.  
 * Mag. composant par déf = *VIDE*  
 
-#### <a name="case--demand-is-at-east-location" />Situation 4.1 : la demande concerne un magasin *EST*
+#### <a name="case-41-demand-is-at-east-location" />Situation 4.1 : la demande concerne un magasin *EST*
 
 L’article est planifié comme suit : Méthode réapprovisionnement = *Lot pour Lot* (l’*ordre* conserve la valeur *Ordre*), Inclure stock = *Oui*. Tous les autres paramètres de planification ont la valeur Vide.
 
-#### <a name="case--demand-is-at-blank-location" />Situation 4.2 : la demande concerne un magasin *VIDE*
+#### <a name="case-42-demand-is-at-blank-location" />Situation 4.2 : la demande concerne un magasin *VIDE*
 
 L’article est planifié en fonction des paramètres de planification de la fiche article.
 
@@ -139,7 +139,7 @@ Comme vous pouvez le voir au dernier cas de figure, le seul moyen d’obtenir de
 
 Par conséquent, si vous planifiez souvent des demandes dans des magasins, nous vous recommandons d’utiliser la fonction Points de stock.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />Voir la formation associée sur [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />Voir la formation associée sur [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Voir aussi
 

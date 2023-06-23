@@ -17,7 +17,7 @@ ms.custom: bap-template
 
  Pour plus d’informations sur la création ou l’ajustement de définition d’échange de données, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-" />Mappage des données de CAMT aux champs de la table Feuille comptabilité (81)
+## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81" />Mappage des données de CAMT aux champs de la table Feuille comptabilité (81)
 
 |Chemin d’accès d’articles|Élément message|Type de données|Désignation|Identifiant signe négatif|N° champ|Nom du champ|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -29,14 +29,14 @@ ms.custom: bap-template
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Non structuré|Texte.|Les informations à votre disposition pour activer la correspondance/le rapprochement d’une écriture avec les articles que le paiement doit régler, telles que les factures commerciales dans un système comptes-clients, sous forme non structurée||8|Désignation|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texte.|Informations supplémentaires sur l’écriture.||1 222|Informations transaction|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-" />Mappage des données de CAMT aux champs de la table Rapprochement bancaire (273)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273" />Mappage des données de CAMT aux champs de la table Rapprochement bancaire (273)
 
 |Chemin d’accès d’articles|Élément message|Type de données|Désignation|Identifiant signe négatif|N° champ|Nom du champ|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Date|Date et heure de création du message||3|Date relevé|  
 |Stmt/Bal/Amt|Montant|Décimale|Le montant résultant des montants ajustés pour toutes les écritures débit et crédit||4|Solde final du relevé|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-" />Mappage des données de CAMT aux champs de la table Ligne rapprochement bancaire (274)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274" />Mappage des données de CAMT aux champs de la table Ligne rapprochement bancaire (274)
 
 |Chemin d’accès d’articles|Élément message|Type de données|Désignation|Identifiant signe négatif|N° champ|Nom du champ|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  

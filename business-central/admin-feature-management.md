@@ -17,7 +17,7 @@ Lorsque Microsoft publie des fonctionnalités ou des améliorations de conceptio
 
 En savoir plus sur la [gestion des fonctionnalités](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/admin-online-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/admin-online-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

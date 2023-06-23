@@ -30,7 +30,7 @@ Les articles suivants décrivent certaines des tâches clés pour analyser l’�
 * [Création d’états avec XBRL](bi-create-reports-with-xbrl.md)  
 * [Gérer l’accès intentionnel à la base de données](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

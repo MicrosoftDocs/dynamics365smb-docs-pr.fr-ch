@@ -16,7 +16,7 @@ Cet article répond aux questions fréquemment posées concernant le connecteur 
 
 Shopify est une application basée sur un abonnement qui permet à quiconque de créer une boutique en ligne et de vendre leurs produits. La plateforme Shopify offre aux détaillants en ligne une suite de services pour le paiement, le marketing, l’expédition et l’engagement client.
 
-## <a name="what-is-the-microsoft-dynamics--business-central-shopify-connector" />Qu’est-ce que le connecteur Microsoft Dynamics 365 Business Central Shopify ?
+## <a name="what-is-the-microsoft-dynamics-365-business-central-shopify-connector" />Qu’est-ce que le connecteur Microsoft Dynamics 365 Business Central Shopify ?
 
 Grâce au connecteur Shopify, les entreprises ont la possibilité de connecter leur magasin (ou leurs magasins) Shopify avec [!INCLUDE[prod_short](../includes/prod_short.md)] pour accroître leur productivité. Le connecteur Shopify leur permet d’accéder et de gérer les informations de leur entreprise et de leur boutique en ligne Shopify comme une seule unité.
 

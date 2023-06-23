@@ -134,7 +134,7 @@ Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un m
 7. Développez le raccourci **Azure AI**, puis renseignez les champs, y compris l’URL de l’API et la clé d’API fournie depuis Azure Machine Learning studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Dans le tableau de bord Comptable, sous le graphique **Prévision de trésorerie**, sélectionnez l’action **Recalculer la prévision**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics--business-centralindex" />Voir la [formation Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -16,7 +16,7 @@ Dans [AppSource.microsoft.com](https://appsource.microsoft.com/), vous pouvez ob
 
 La liste des extensions par d’autres sociétés évolue chaque mois. Tenez-vous informé sur la page [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) et obtenez des applications pour vous aider à faire votre travail dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/customize-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/customize-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

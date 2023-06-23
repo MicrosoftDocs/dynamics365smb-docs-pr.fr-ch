@@ -33,7 +33,7 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 |Préparer à configurer une nouvelle définition d’échange de données pour un fichier ou flux de données à l’aide du schéma XML du fichier pour préremplir le raccourci **Définitions de colonnes** de la page **Définitions échange comptabilité**.|[Utiliser des schémas XML pour préparer des définitions d’échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Configurer l’infrastructure d’échange de données pour permettre aux utilisateurs de recevoir un nouveau format de documents achat, d’envoyer un nouveau format de documents vente, d’importer un nouveau fichier bancaire, ou autre échange de données.|[Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

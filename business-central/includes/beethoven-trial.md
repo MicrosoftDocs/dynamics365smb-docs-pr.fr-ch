@@ -14,11 +14,11 @@ Utilisez votre adresse e-mail professionnelle ou scolaire. Nous établirons votr
 
 Cette application est un service basé sur le cloud qui ne nécessite pas de logiciel spécial autre qu’un navigateur web à jour, bien que certaines restrictions s’appliquent.  
 
-### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft--tenant" />Comment puis-je m’inscrire à la version d’évaluation sans abonné Microsoft 365 ?
+### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant" />Comment puis-je m’inscrire à la version d’évaluation sans abonné Microsoft 365 ?
 
 Vous ne pouvez pas. Utilisez une adresse e-mail professionnelle ou scolaire.
 
-### <a name="can-i-sign-up-for-other-dynamics--apps-such-as-sales-marketing-and-customer-service" />Puis-je m’inscrire à d’autres applications Dynamics 365 telles que Sales, Marketing et Customer Service ?
+### <a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service" />Puis-je m’inscrire à d’autres applications Dynamics 365 telles que Sales, Marketing et Customer Service ?
 
 Oui, vous pouvez. Pour voir tous les essais disponibles, [visitez la page du hub d’essai](https://dynamics.microsoft.com/dynamics-365-free-trial). Vous pouvez utiliser le même compte de messagerie pour vous inscrire à différents essais.<!-- However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.-->
 

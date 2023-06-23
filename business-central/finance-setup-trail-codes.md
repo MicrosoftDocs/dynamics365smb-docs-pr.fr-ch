@@ -79,7 +79,7 @@ Le code motif sélectionné est copié dans les nouvelles feuilles créées sous
 
 Lors de la validation de la facture, le code motif est copié dans chaque écriture comptable, client et fournisseur. Vous ne pouvez pas affecter un code motif différent à chacune des lignes achat et vente, car toutes les lignes sont validées sous la forme d’une écriture unique.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

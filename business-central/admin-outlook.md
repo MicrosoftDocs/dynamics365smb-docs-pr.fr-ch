@@ -116,7 +116,7 @@ Si vous utilisez Business Central sur site, l’installation du complément peut
 
 Vous êtes maintenant prêt à commencer à utiliser le complément dans Outlook.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

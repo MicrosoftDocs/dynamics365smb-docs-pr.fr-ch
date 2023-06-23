@@ -25,13 +25,13 @@ La table **Lien écriture article**, qui sert à lier une ligne document validé
   
 La fonctionnalité du champ **N° séquence** existant, qui relie une écriture comptable article à une ligne document validé, gère la relation typique un pour un lorsqu’aucun numéro traçabilité n’est indiqué dans la ligne document validé. Si des numéros traçabilité existent, le champ **N° séquence** est laissé vide, et la relation un à plusieurs est gérée par la table **Lien écriture article**. Si la ligne document validée possède des numéros traçabilité mais n’est liée qu’à une seule écriture comptable article, le champ **N° séquence** gère la relation, et le n° d’enregistrement est créé dans la table **Lien écriture article**.  
   
-## <a name="codeunits--and-" />Codeunits 80 et 90
+## <a name="codeunits-80-and-90" />Codeunits 80 et 90
 Pour répartir les écritures comptables article lors de la validation, le code dans codeunit 80 et codeunit 90 est encerclé par des boucles qui s’exécutent à travers des variables de bilan temporaire global. Ce code appelle codeunit 22 avec une ligne feuille article. Ces variables sont initialisées lorsque les numéros de suivi des articles existent pour la ligne document. Pour garder un code simple, cette structure de bouclage est toujours utilisée. Si aucun numéro traçabilité n’existe pour la ligne document, un enregistrement unique est inséré, et la boucle ne s’exécute qu’une fois.  
   
 ## <a name="posting-the-item-journal" />Validation de la feuille article
 Des numéros traçabilité sont transférés via des écritures réservation en relation avec l’écriture comptable article, et le bouclage par l’intermédiaire des numéros traçabilité se produit dans le codeunit 22. Ce concept fonctionne de la même manière lorsqu’une ligne feuille article est utilisée indirectement pour valider une commande vente ou achat que lorsqu’une ligne feuille article est utilisée directement. Lorsque la feuille article est utilisée directement, le champ **Lien origine** pointe vers la ligne feuille article elle-même.  
   
-## <a name="code-unit-" />Unité de code 22
+## <a name="code-unit-22" />Unité de code 22
 Codeunits 80 et 90 bouclent l’appel du codeunit 22 lors de la validation de facture des numéros traçabilité et lors de la facturation des expéditions ou des réceptions existantes.  
   
 Lors de la validation de quantité des numéros traçabilité, le codeunit 22 extrait les numéros traçabilité des écritures dans T337 liées à la validation. Ces écritures sont placées directement sur la ligne feuille article.  

@@ -89,7 +89,7 @@ Par défaut, un écart règlement est accordé. Pour ne pas accorder un écart r
 > [!NOTE]  
 > Si le client ou le fournisseur possède des écritures ouvertes, vous devez d’abord supprimer l’écart règlement des écritures actuellement ouvertes.
 
-## <a name="example----tolerance-calculations-for-a-single-document" />Exemple 1 - Calculs de l’écart pour un seul document
+## <a name="example-1---tolerance-calculations-for-a-single-document" />Exemple 1 - Calculs de l’écart pour un seul document
 
 Voici quelques exemples de scénarios illustrant les calculs et comptabilisations d’écart qui sont effectués dans différentes situations.  
 
@@ -127,7 +127,7 @@ Scénarios comportant deux alternatives, A et B. En voici la signification :
 
 Sur la base du scénario ci-avant, les diagrammes des plages de dates de règlement se présentent sous la forme suivante :  
 
-#### <a name="-payment-date--scenarios--" />(1) Date de règlement <=15/01/03 (scénarios 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Date de règlement <=15/01/03 (scénarios 1-3)
 
 Montant ouvert par  
 
@@ -139,7 +139,7 @@ Règles de lettrage normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) La date de règlement est comprise entre le 16/01/03 et le 20/01/03 (scénarios 4-9).
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9" />(2) La date de règlement est comprise entre le 16/01/03 et le 20/01/03 (scénarios 4-9).
 
 Montant ouvert par  
 
@@ -151,7 +151,7 @@ Règles de lettrage normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(3) La date de règlement est située après le 20/01/03 (scénarios 10-15).
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15" />(3) La date de règlement est située après le 20/01/03 (scénarios 10-15).
 
 Montant ouvert par  
 
@@ -163,7 +163,7 @@ Règles de lettrage normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-## <a name="example----tolerance-calculations-for-multiple-documents" />Exemple 2 - Calculs de l’écart pour plusieurs documents
+## <a name="example-2---tolerance-calculations-for-multiple-documents" />Exemple 2 - Calculs de l’écart pour plusieurs documents
 
 Voici quelques exemples de scénarios illustrant les calculs et comptabilisations d’écart qui sont effectués dans différentes situations. Ces exemples se limitent aux scénarios permettant à toutes les écritures du lettrage d’être clôturées.  
 
@@ -215,7 +215,7 @@ Scénarios comportant deux alternatives, A, B, C ou D. En voici la signification
 
 Sur la base du scénario ci-avant, les diagrammes des plages de dates de règlement se présentent sous la forme suivante :  
 
-#### <a name="-payment-date--scenarios--" />(1) Date de règlement <=15/01/03 (scénarios 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Date de règlement <=15/01/03 (scénarios 1-3)
 
 Montant ouvert par  
 
@@ -227,7 +227,7 @@ Règles de lettrage normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) La date de règlement est comprise entre le 16/01/03 et le 17/01/03 (scénarios 4-9).
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9" />(2) La date de règlement est comprise entre le 16/01/03 et le 17/01/03 (scénarios 4-9).
 
 Montant ouvert par  
 
@@ -239,7 +239,7 @@ Règles de lettrage normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(3) La date de règlement est comprise entre le 18/01/03 et le 20/01/03 (scénarios 10-21).
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21" />(3) La date de règlement est comprise entre le 18/01/03 et le 20/01/03 (scénarios 10-21).
 
 Montant ouvert par  
 
@@ -251,7 +251,7 @@ Règles de lettrage normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(4) La date de règlement est comprise entre le 21/01/03 et le 22/01/03 (scénarios 22-27).
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27" />(4) La date de règlement est comprise entre le 21/01/03 et le 22/01/03 (scénarios 22-27).
 
 Montant ouvert par  
 
@@ -263,7 +263,7 @@ Règles de lettrage normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(5) La date de règlement est située après le 22/01/03 (scénarios 28-30).
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30" />(5) La date de règlement est située après le 22/01/03 (scénarios 28-30).
 
 Montant ouvert par  
 
@@ -275,7 +275,7 @@ Règles de lettrage normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/enter-payments-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/enter-payments-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

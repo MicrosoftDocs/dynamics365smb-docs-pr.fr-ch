@@ -75,7 +75,7 @@ Selon la banque, le commerçant peut voir cette transaction entrante sur son com
 
 Plusieurs options sur la façon de gérer les transactions de paiement sont disponibles dans [!INCLUDE[prod_short](../includes/prod_short.md)]
   
-### <a name="option--reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Option 1 : rapprocher les virements entrants vers le compte bancaire avec les factures originales
+### <a name="option-1-reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Option 1 : rapprocher les virements entrants vers le compte bancaire avec les factures originales
   
 Le commerçant importe la commande client dans [!INCLUDE[prod_short](../includes/prod_short.md)] et valide l’expédition et la facture.
 
@@ -88,7 +88,7 @@ Problèmes :
 1. Cela peut être difficile s’il y a plusieurs factures (et avoirs), mais un seul paiement du fournisseur de service de paiement avec une somme forfaitaire.
 2. Le montant ne correspond généralement pas en raison de la commission. Vous pouvez utiliser la tolérance de paiement ou/et les escomptes de paiement pour gérer les frais.
 
-### <a name="option--reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Option 2 : rapprocher les virements entrants vers le compte bancaire par rapport au compte d’attente représentant l’argent chez le fournisseur de service de paiement
+### <a name="option-2-reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Option 2 : rapprocher les virements entrants vers le compte bancaire par rapport au compte d’attente représentant l’argent chez le fournisseur de service de paiement
   
 Le commerçant importe la commande client dans [!INCLUDE[prod_short](../includes/prod_short.md)] et valide l’expédition et la facture.
   

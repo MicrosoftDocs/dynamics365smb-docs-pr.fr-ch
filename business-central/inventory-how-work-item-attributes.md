@@ -75,7 +75,7 @@ Vous pouvez également allouer les attributs d’article aux catégories d’art
 
 Les articles de la page **Articles** sont filtrés selon les valeurs attribut article spécifiées.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -50,7 +50,7 @@ Dans le mode d’analyse des données, la page est divisée en deux zones :
 - La zone principale, qui comprend la zone de données (1), la barre de résumé (2) et la barre d’onglets (5)
 - La zone de manipulation des données, qui se compose de deux volets : les colonnes (3) et les filtres d’analyse (4).
 
-### <a name="data-area-" />Zone de données (1)
+### <a name="data-area-1" />Zone de données (1)
 
 La zone de données est l’endroit où les lignes et les colonnes de la page de liste sont affichées et où les données sont résumées. La zone de données offre un moyen polyvalent de contrôler la disposition des colonnes et un moyen rapide d’obtenir un résumé des données. Pour les colonnes contenant des valeurs numériques, la somme de toutes les valeurs de la colonne s’affiche dans une dernière ligne, sauf si vous avez défini des groupes de lignes. Dans ce cas, les sommes s’affichent comme un sous-total pour les groupes.  
 
@@ -64,7 +64,7 @@ La zone de données est l’endroit où les lignes et les colonnes de la page de
 - Utilisez la zone de données pour interagir avec les données. Pour les colonnes qui contiennent des valeurs numériques sommables, vous pouvez obtenir des statistiques descriptives sur un ensemble de champs en les marquant. Les statistiques apparaissent dans la barre d’état (2) en bas de la page.
 - Exportez les données au format Excel ou csv. Faites simplement un clic droit sur la zone de données ou sur une sélection de cellules à exporter.
 
-### <a name="summary-bar-" />Barre récapitulative (2)
+### <a name="summary-bar-2" />Barre récapitulative (2)
 
 La barre de résumé se trouve en bas de la page et affiche des statistiques sur les données de la liste. Lorsque vous interagissez avec des colonnes dont les valeurs peuvent être additionnées, comme la sélection de plusieurs lignes dans une colonne qui affiche des montants, les données sont mises à jour.
 
@@ -83,7 +83,7 @@ La table suivante décrit les différents nombres affichés dans la zone des tot
 |Max|La valeur maximale dans tous les champs sommables sélectionnés.|
 |Somme|La somme totale de toutes les valeurs dans les champs sommables sélectionnés.|
 
-### <a name="columns-" />Colonnes (3)
+### <a name="columns-3" />Colonnes (3)
 
 Les **Colonnes** est l’un des deux volets qui fonctionnent ensemble pour définir votre analyse. L’autre zone est le volet **Filtres d’analyse**. Le volet **Colonnes** est utilisé pour résumer les données. Utilisez le volet **Colonnes** pour définir les colonnes à inclure dans l’analyse.
 
@@ -98,7 +98,7 @@ Les **Colonnes** est l’un des deux volets qui fonctionnent ensemble pour défi
 
 Pour déplacer un champ d’une zone à une autre, sélectionnez l’icône de saisie ![Affiche une vue d’ensemble d’une page sur le mode d’analyse](media/column-grab-icon.png) en regard de la colonne dans la liste ci-dessus et faites glisser dans la zone cible. Vous ne pouvez pas déplacer un champ dans une zone où cela n’est pas autorisé.
 
-### <a name="analysis-filters-" />Filtres d’analyse (4)
+### <a name="analysis-filters-4" />Filtres d’analyse (4)
 
 Le volet **Filtres d’analyse** vous permet de définir d’autres filtres de données sur les colonnes pour limiter les entrées dans la liste. Définissez des filtres sur les colonnes pour limiter les entrées de la liste et les sommes suivantes aux seules entrées qui vous intéressent en fonction des critères que vous définissez. Par exemple, supposons que vous ne vous intéressiez qu’aux données d’un client spécifique ou aux commandes client qui dépassent un montant spécifique. Pour définir un filtre, sélectionnez la colonne, choisissez l’opération de comparaison dans la liste (comme **Égal à** ou **Commence par**), puis entrez la valeur.
 
@@ -107,7 +107,7 @@ Le volet **Filtres d’analyse** vous permet de définir d’autres filtres de d
 > [!NOTE]
 > Les filtres supplémentaires s’appliquent uniquement à l’onglet d’analyse en cours. Cela vous permet de définir exactement les filtres de données supplémentaires qui sont nécessaires pour une analyse spécifique.
 
-### <a name="tabs-" />Onglets (5)
+### <a name="tabs-5" />Onglets (5)
 
 La zone des onglets en haut vous permet de créer différentes configurations (colonnes et filtres d’analyse) sur des onglets séparés, où vous pouvez manipuler les données sur les onglets indépendamment les unes des autres. Il y a toujours au moins un onglet, appelé **Analyse 1** par défaut. L’ajout d’onglets supplémentaires est utile pour enregistrer les configurations d’analyse fréquemment utilisées sur un jeu de données. Par exemple, vous pouvez avoir des onglets pour analyser les données en mode pivot et d’autres onglets qui filtrent sur un sous-ensemble de lignes. Certains onglets peuvent afficher une vue détaillée avec de nombreuses colonnes, tandis que d’autres n’affichent que quelques colonnes clés.
 

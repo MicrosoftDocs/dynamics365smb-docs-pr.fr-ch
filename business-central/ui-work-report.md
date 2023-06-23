@@ -153,7 +153,7 @@ Les champs sous **Avancé** définissent des limites sur l’état généré pou
 > [!NOTE]
 > Les valeurs maximales peuvent être différentes pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site et un administrateur peut les modifier. Pour plus d’informations, reportez-vous à la rubrique [Configuration de Business Central Server – États](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Pour un aperçu des limites des états [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, voir [Limites opérationnelles](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) associée.
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) associée.
 
 ## <a name="see-also" />Voir aussi
 

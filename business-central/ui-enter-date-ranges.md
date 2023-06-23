@@ -345,7 +345,7 @@ Pour voir quelle unité de mesure est utilisée dans un champ de durée, saisiss
 
 Par exemple, si l’unité est « heures », le chiffre 5 est converti en 5 h.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

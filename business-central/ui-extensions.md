@@ -87,7 +87,7 @@ Les partenaires et revendeurs Microsoft peuvent créer une application utilisabl
 > [!NOTE]
 > Si vous êtes un partenaire ou un revendeur Microsoft et que vous souhaitez fournir une liste d’applications recommandées, consultez [Recommander des applications depuis AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) dans le contenu d’administration.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/customize-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/customize-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

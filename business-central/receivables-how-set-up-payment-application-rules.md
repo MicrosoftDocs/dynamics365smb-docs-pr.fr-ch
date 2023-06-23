@@ -74,7 +74,7 @@ Le tableau suivant décrit les règles de lettrage de paiement standard dans [!I
 | Mauvaises              | 4        | Non                    | Non                             | Une correspondance                      |
 | Mauvaises              | 5        | Non                    | Non                             | Correspondances multiples               |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreconciliation-journals-dynamics--business-centralindex" />Voir la [formation Microsoft](/training/modules/reconciliation-journals-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesreconciliation-journals-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/reconciliation-journals-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 [Rapprocher les paiements à l’aide de l’application automatique](receivables-how-reconcile-payments-auto-application.md)  

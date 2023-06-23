@@ -60,7 +60,7 @@ Dans cette procédure, vous effectuez la vente d’un article que vous assemblez
 > [!NOTE]  
 > Les substitutions d’articles n’entraînent pas automatiquement le remplacement d’un article par un autre, par exemple pendant la création d’une commande vente ou dans une nomenclature. Au lieu de cela, vous serez alerté du fait qu’un substitut est disponible.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

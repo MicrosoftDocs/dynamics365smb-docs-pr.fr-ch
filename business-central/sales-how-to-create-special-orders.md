@@ -38,7 +38,7 @@ Une commande achat créée comme commande spéciale pour une commande client est
 > [!NOTE]  
 >  Vous ne pouvez pas utiliser la fonctionnalité de commande spéciale si l’élément est déjà réservé. Par conséquent, pour les articles qui sont vendus en commandes spéciales, assurez\-vous que le champ **Réserver** sur la fiche article n’est pas défini sur **Toujours**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

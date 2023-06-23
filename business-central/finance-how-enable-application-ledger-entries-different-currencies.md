@@ -42,7 +42,7 @@ Si vous lettrez des écritures dans différentes devises, vous devez configurer 
 3. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes compta. fournisseur**, puis choisissez le lien associé.  
 4. Dans les champs **Cpte arr. lettr. dev. débit** et **Cpte arr. lettr. dev. crédit**, saisissez les comptes généraux correspondants pour valider les différences d’arrondi.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocess-foreign-currency-payments-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesprocess-foreign-currency-payments-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

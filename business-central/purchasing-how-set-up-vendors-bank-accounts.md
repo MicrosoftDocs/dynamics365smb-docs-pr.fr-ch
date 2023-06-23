@@ -26,7 +26,7 @@ Si un fournisseur possède un ou plusieurs comptes bancaires et que vous souhait
 2. Ouvrez la fiche pour le fournisseur.
 3. Sur le raccourci **Paiements**, choisissez le compte bancaire fournisseur par défaut dans le champ **Code de compte bancaire préféré**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/cash-management-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/cash-management-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

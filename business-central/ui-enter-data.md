@@ -275,7 +275,7 @@ Par exemple, supposons que vous utilisez un clavier numérique qui utilise un po
 > [!TIP]
 > Il peut arriver que vous souhaitiez utiliser le séparateur décimal pour entrer un point (.). Par exemple, supposons que vous saisissiez une plage de dates dans un filtre, comme `01/01/2022..04/01/2022`, ou tout ce qui nécessite un point. Pour cela, appuyez sur les touches <kbd>Alt</kbd>+<kbd>Séparateur décimal</kbd> du pavé numérique. Cette combinaison de touches fait basculer le séparateur décimal entre la sortie d’un point et le séparateur décimal tel que déterminé par le paramètre **Région**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

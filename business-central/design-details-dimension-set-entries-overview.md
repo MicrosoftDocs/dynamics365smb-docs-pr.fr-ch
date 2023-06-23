@@ -33,7 +33,7 @@ Lorsque vous créez une ligne de feuille, un en-tête de document ou une ligne d
 
 Lorsque vous modifiez et fermez la page **Modifier les écritures de l’ensemble de dimensions**, une vérification est exécutée pour voir si la combinaison de sections analytiques existe comme un ensemble de dimensions dans la table. Si la combinaison se produit dans la table, l’ID d’ensemble de dimensions correspondant est affecté à la ligne de feuille, à l’en-tête du document ou à la ligne du document. Sinon, un nouvel ensemble de dimensions est ajouté à la table, et le nouvel ID d’ensemble de dimensions est affecté à la ligne de feuille, à l’en-tête du document ou à la ligne du document.
 
-## <a name="codeunit--dimension-management" />Codeunit 408 Gestion des axes analytiques
+## <a name="codeunit-408-dimension-management" />Codeunit 408 Gestion des axes analytiques
 Codeunit 408 Gestion des axes analytiques est une bibliothèque de fonctions qui gère les tâches courantes qui sont liées aux axes analytiques, tels que copier d’une table à une autre ou d’un document à un autre.
 
 ## <a name="performance-improvement" />Amélioration des performances

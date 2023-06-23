@@ -54,7 +54,7 @@ Les administrateurs internes et délégués ont accès au centre d’administrat
 |Gérez les sessions utilisateur, y compris l’annulation d’une session si l’utilisateur est bloqué.|[Gérer des sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Configurer l’abonné pour envoyer les données de télémétrie à Azure Application Insights pour une meilleure analyse et résolution des problèmes.|[Activer l’envoi de télémétrie à Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

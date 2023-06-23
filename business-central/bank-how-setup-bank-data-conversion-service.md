@@ -11,7 +11,7 @@ ms.search.form: '304, 20106, 20105, 20100, 20101, 20107, 20109'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-the-amc-banking--fundamentals-extension" />Configurer l’extension AMC Banking 365 Fundamentals
+# <a name="set-up-the-amc-banking-365-fundamentals-extension" />Configurer l’extension AMC Banking 365 Fundamentals
 Un fournisseur global de services permettant de convertir les informations de paiement dans n’importe quel format de données que votre banque requiert est connecté et prêt à être activé dans [!INCLUDE[prod_short](includes/prod_short.md)]. Dans cette rubrique [!INCLUDE[prod_short](includes/prod_short.md)], il s’agit de l’extension AMC Banking 365 Fundamentals.
 
 Vous pouvez exporter des lignes de paiement à partir de la page **Feuille paiement** vers un fichier ou un flux de données que vous téléchargez ensuite vers votre banque pour un traitement automatique. Ainsi, vous n’avez pas à effectuer de paiements électroniques individuels. Pour plus d’informations, reportez-vous à [Exportation de paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
@@ -25,7 +25,7 @@ Pour importer ou exporter des fichiers bancaires, vous devez configurer votre pr
 > [!NOTE]  
 > L’extension AMC Banking 365 Fundamentals peut fixer une limite imposée du nombre de lignes qui peuvent être exportées dans un fichier. Si cette limite est dépassée, vous recevrez un message d’erreur. Il est conseillé que les fichiers de relevé bancaire ne dépassent pas 1 000 lignes, sans quoi le temps de traitement dans l’extension AMC Banking 365 Fundamentals peut augmenter de façon significative.
 
-## <a name="to-sign-your-company-up-for-the-amc-banking--fundamentals-extension" />Pour inscrire votre société à l’extension AMC Banking 365 Fundamentals
+## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension" />Pour inscrire votre société à l’extension AMC Banking 365 Fundamentals
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres service conv. données banque**, puis choisissez le lien associé.  
 2. La page **Paramètres service conv. données banque** s’ouvre avec trois champs préremplis avec les URL appropriées du fournisseur de l’extension AMC Banking 365 Fundamentals.
 

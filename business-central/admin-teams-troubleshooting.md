@@ -182,7 +182,7 @@ Ce problème est probablement dû au fait que vous avez partagé une vue de list
 [Modification de la société et d’autres paramètres dans Teams](across-teams-settings.md)  
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includedfinincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
+## <a name="included365finincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

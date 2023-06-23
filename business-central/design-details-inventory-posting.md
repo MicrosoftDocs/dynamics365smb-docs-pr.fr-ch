@@ -33,20 +33,20 @@ L’exemple suivant indique comment les écritures comptables article, les écri
 
  Vous validez une commande achat comme reçue et facturée pour 10 articles avec un coût unitaire direct de 7 LCY et des frais généraux d’1 LCY. La date comptabilisation est 01-01-20. Les écritures suivantes sont créées.  
 
-### <a name="item-ledger-entries-" />Écritures comptables article (1)
+### <a name="item-ledger-entries-1" />Écritures comptables article (1)
 
 |Date comptabilisation|Type écriture|Coût total (réel)|Quantité|Numéro de la séquence|  
 |------------|----------|--------------------|--------|---------|  
 |01/01/20|Achats|80,00|10|1|  
 
-### <a name="value-entries-" />Écritures valeur (1)
+### <a name="value-entries-1" />Écritures valeur (1)
 
 |Date comptabilisation|Type écriture|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |------------|----------|--------------------|---------------------|---------|  
 |01/01/20|Coût direct|70,00|1|1|  
 |01/01/20|Coût indirect|10,00|1|2|  
 
-### <a name="item-application-entries-" />Écritures lettrage article (1)
+### <a name="item-application-entries-1" />Écritures lettrage article (1)
 
 |Numéro de la séquence|N° écriture comptable article|N° écriture article entrant|N° écriture article sortant|Quantité|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ L’exemple suivant indique comment les écritures comptables article, les écri
 
  Ensuite, vous validez une vente de 10 unités de l’article avec une date validation de 15/01/20.  
 
-### <a name="item-ledger-entries-" />Écritures comptables article (2)
+### <a name="item-ledger-entries-2" />Écritures comptables article (2)
 
 |Date comptabilisation|Type écriture|Coût total (réel)|Quantité|Numéro de la séquence|  
 |------------|----------|--------------------|--------|---------|  
 |15/01/20|Vente|-80,00|-10|2|  
 
-### <a name="value-entries-" />Écritures valeur (2)
+### <a name="value-entries-2" />Écritures valeur (2)
 
 |Date comptabilisation|Type écriture|Coût total (réel)|N° écriture comptable article|Numéro de la séquence|  
 |------------|----------|--------------------|---------------------|---------|  
 |15/01/20|Coût direct|-80,00|2|3|  
 
-### <a name="item-application-entries-" />Écritures lettrage article (2)
+### <a name="item-application-entries-2" />Écritures lettrage article (2)
 
 |Numéro de la séquence|N° écriture comptable article|N° écriture article entrant|N° écriture article sortant|Quantité|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ L’exemple suivant indique comment les écritures comptables article, les écri
 
  Les tables suivantes indiquent le résultat du rapprochement des mouvements de stock de cet exemple avec la comptabilité.  
 
-### <a name="value-entries-" />Écritures valeur (3)
+### <a name="value-entries-3" />Écritures valeur (3)
 
 |Date comptabilisation|Type écriture|Coût total (réel)|Coût validé en comptabilité|N° écriture comptable article|Numéro de la séquence|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ L’exemple suivant indique comment les écritures comptables article, les écri
 |01/01/20|Coût indirect|10,00|10,00|1|2|  
 |15/01/20|Coût direct|-80,00|-80,00|2|3|  
 
-### <a name="general-ledger-entries-" />Écritures comptables (3)
+### <a name="general-ledger-entries-3" />Écritures comptables (3)
 
 |Date comptabilisation|Compte général|N° compte (démonstration Fr-FR)|Montant|Numéro de la séquence|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ L’exemple suivant indique comment les écritures comptables article, les écri
 
  La relation entre les écritures valeur et les écritures comptables est stockée dans la table **Compta. Relation écritures article**.  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Liens écritures dans la comptabilité – Table Écriture comptable article (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3" />Liens écritures dans la comptabilité – Table Écriture comptable article (3)
 
 |N° séquence compta.|N° écriture valeur|N° hist. transaction compta.|  
 |-------------|---------------|----------------|  

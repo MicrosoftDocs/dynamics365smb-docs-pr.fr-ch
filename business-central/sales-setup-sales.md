@@ -33,7 +33,7 @@ La configuration des ventes en relation avec les finances, comme les modes de r�
 |Entrer des informations sur les différents transporteurs utilisés, notamment un lien vers les prestations de traçabilité des colis.|[Configurer des transporteurs](sales-how-to-set-up-shipping-agents.md)|
 |Spécifiez les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 [Ventes](sales-manage-sales.md)  

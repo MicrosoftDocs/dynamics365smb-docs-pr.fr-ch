@@ -124,7 +124,7 @@ En outre, toutes les écritures futures du même type ont des montants enregistr
 > [!NOTE]  
 > Le champ **Devise report** n’est activé qu’après que vous avez cliqué sur le bouton **OK** dans le traitement par lots **Ajuster devise report**.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -82,7 +82,7 @@ Vous pouvez choisir de ne pas afficher les alertes vous indiquant que le crédit
     |**Solde échu**|Le champ **Solde dû** de la fiche client est contrôlé et une alerte s’affiche si le client a un solde échu.|
     |**Aucune alerte**|Aucune alerte n’est affichée sur le statut du client.|
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée.
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée.
 
 ## <a name="see-also" />Voir aussi
 

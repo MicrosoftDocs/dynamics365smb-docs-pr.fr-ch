@@ -73,7 +73,7 @@ Suivez la procédure suivante pour mettre à jour une vue d’analyse à partir 
 > [!NOTE]  
 > Pour mettre à jour tout ou partie des vues d’analyse en même temps, vous devez utiliser le traitement par lots **Mise à jour vues d’analyse**.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-financial-reports-dynamics--business-centralindex" />Voir la formation associée sur [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-financial-reports-dynamics-365-business-centralindex" />Voir la formation associée sur [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Voir aussi
 

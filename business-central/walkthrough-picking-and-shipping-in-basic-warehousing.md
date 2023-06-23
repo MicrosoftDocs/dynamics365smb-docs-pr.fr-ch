@@ -77,7 +77,7 @@ Pour utiliser cette fonctionnalité, vous devez vous ajouter au magasin en tant 
   3. Dans le champ **Code magasin**, entrez SUD.  
   4. Sélectionnez le champ **Par défaut**, puis cliquez sur le bouton **Oui**.  
 
-### <a name="making-item--s-available" />Rendre l’article 1928-S disponible
+### <a name="making-item-1928-s-available" />Rendre l’article 1928-S disponible
 
 Pour rend l’article 1928-S disponible dans le magasin SUD, suivez cette procédure :  
 

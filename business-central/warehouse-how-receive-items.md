@@ -92,7 +92,7 @@ Si des emplacements sont obligatoires pour un magasin, les codes zone et emplace
 * Pour les configurations avancées qui utilisent le rangement et le prélèvement dirigés, [!INCLUDE [prod_short](includes/prod_short.md)] utilise le code emplacement réception de la page **Fiche magasin** du magasin. Si aucun code emplacement réception n’est spécifié, aucun emplacement n’est spécifié. Si l’article et les emplacements de réception ne correspondent pas, le code emplacement réception est vide.
 * Dans d’autres configurations, si aucun code emplacement réception n’est spécifié, [!INCLUDE [prod_short](includes/prod_short.md)] utilise le code emplacement du document origine.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d-business-centralindex" />Voir la [formation Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index) associée.
+## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-centralindex" />Voir la [formation Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index) associée.
 
 ## <a name="see-also" />Voir aussi
 

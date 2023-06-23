@@ -32,7 +32,7 @@ Lorsque vous avez configuré votre stock, vous pouvez gérer différents process
 |Importez plusieurs images d’article en une seule fois depuis un fichier zip où les fichiers sont nommés selon les numéros d’article.|[Importer plusieurs images d’article](inventory-how-import-item-pictures.md)|
 |Spécifiez les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -80,7 +80,7 @@ Pour cet exemple, l’écriture comptable immobilisation se présente comme suit
 | 30/06/27 |Amortissements |180 |-6 250,00 |6,250.00 |
 | 31/12/27 |Amortissements |180 |-6 250,00 |0 |
 
-## <a name="declining-balance--depreciation" />Amortissement dégressif 1
+## <a name="declining-balance-1-depreciation" />Amortissement dégressif 1
 
 Il s’agit d’une méthode d’amortissement accélérée qui ventile la plus grande portion du coût d’une immobilisation sur les premières années de sa durée de vie. Si vous utilisez cette méthode, vous devez saisir un pourcentage annuel fixe.  
 
@@ -92,7 +92,7 @@ La base d’amortissement correspond à la valeur comptable moins l’amortissem
 
 Le montant de l’amortissement validé peut contenir des écritures avec divers types de validation (dépréciation, paramétrable 1 et paramétrable 2) validés depuis la date de début de l’exercice comptable en cours. Ces types de validation sont inclus dans le montant d’amortissement validé si vous avez coché les champs **Type amortissement** et **Élément valeur comptable** sur la page **Type paramètre compta. immo.**.  
 
-### <a name="example---declining-balance--depreciation" />Exemple - Amortissement dégressif 1
+### <a name="example---declining-balance-1-depreciation" />Exemple - Amortissement dégressif 1
 
 Une immobilisation a un coût d’acquisition de 100 000 DS. Le champ **% dégressif** indique la valeur 25. Le traitement par lots **Calculer amortissement** est exécuté tous les semestres.  
 
@@ -122,11 +122,11 @@ Méthode de calcul :
 
 Le calcul continue jusqu’à ce que la valeur comptable soit égale à la valeur résiduelle ou au montant final arrondi que vous avez saisi.  
 
-## <a name="declining-balance--depreciation" />Amortissement dégressif 2
+## <a name="declining-balance-2-depreciation" />Amortissement dégressif 2
 
 Les méthodes Dégressif 1 et Dégressif 2 calculent le même montant d’amortissement total chaque année. Toutefois, si vous lancez le traitement par lots **Calculer amortissement** plusieurs fois par an, la méthode Dégressif 1 permet d’obtenir des montants d’amortissement équitables pour chaque période d’amortissement. En revanche, la méthode Dégressif 2 permet d’obtenir des montants d’amortissement qui sont dégressifs pour chaque période.  
 
-### <a name="example---declining-balance--depreciation" />Exemple - Amortissement dégressif 2
+### <a name="example---declining-balance-2-depreciation" />Exemple - Amortissement dégressif 2
 
 Une immobilisation a un coût d’acquisition de 100 000 DS. Le champ **% dégressif** indique la valeur 25. Le traitement par lots **Calculer amortissement** est exécuté tous les semestres. Les écritures comptables immobilisation se présentent comme suit :  
 
@@ -159,7 +159,7 @@ Les valeurs d’amortissement sont les suivantes :
 | 30/06/21 |MA = 75 000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10 048,09 |
 | 31/12/21 |MA = 64 951.91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8 701,91 |
 
-## <a name="dbsl-depreciation" />Amortissement Dégr1/Lin
+## <a name="db1sl-depreciation" />Amortissement Dégr1/Lin
 
 Dégr1/Lin est l’abréviation combinée de Dégressif 1 et de Linéaire. Le calcul continue jusqu’à ce que la valeur comptable soit égale à la valeur résiduelle ou au montant final arrondi que vous avez saisi.  
 
@@ -169,7 +169,7 @@ Vous pouvez utiliser divers pourcentages pour calculer le montant dégressif.
 
 Si vous utilisez cette méthode, saisissez la durée de vie estimée et un pourcentage dégressif sur la page **Loi d’amortissement**.  
 
-### <a name="example---db-sl-depreciation" />Exemple - Amortissement Dégr1/Lin
+### <a name="example---db1-sl-depreciation" />Exemple - Amortissement Dégr1/Lin
 
 Une immobilisation a un coût d’acquisition de 100 000 DS. Sur la page **Loi d’amortissement**, le champ **% dégressif** indique la valeur 25 et le champ **Nombre années amortissement** indique la valeur 8. Le traitement par lots **Calculer amortissement** est exécuté tous les semestres.  
 
@@ -246,7 +246,7 @@ Les écritures comptables immobilisation se présentent comme suit :
 | 31/12/24 |Amortissements |360 |-20 000,00 |10,000.00 |
 | 31/12/25 |Amortissements |180 |-10 000,00 |0.00 |
 
-## <a name="example---dbsl-depreciation-using-half-year-convention" />Exemple - Amortissement dégressif 1/linéaire selon la règle de la demi-année
+## <a name="example---db1sl-depreciation-using-half-year-convention" />Exemple - Amortissement dégressif 1/linéaire selon la règle de la demi-année
 
 Une immobilisation a un coût d’acquisition de 100 000 DS. Le champ **Date début amortissement** indique la valeur 01/11/20. La durée de vie est estimée à cinq ans, ce qui implique que le champ **Date fin amortissement** doit impérativement être paramétré sur la valeur 30/06/25. Sur la page **Loi d’amortissement**, le champ **% dégressif** indique la valeur 40. Le traitement par lots **Calculer amortissement** est exécuté tous les ans. Cet exemple est basé sur un exercice comptable.  
 

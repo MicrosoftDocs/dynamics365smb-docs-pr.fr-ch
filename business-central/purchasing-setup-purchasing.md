@@ -75,7 +75,7 @@ Avec la fonctionnalité activée, une transaction de retour peut être validée 
 | Examinez les reçus de dépenses, convertissez les documents papier et électroniques en lignes de journal et numérisez les factures papier des fournisseurs. | [Configurer des documents entrants](across-how-setup-income-documents.md) |
 | Spécifiez les états par défaut à utiliser pour différents types de documents. |[Sélection des états dans Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics--business-central" /><a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics-365-business-central" /><a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" /><a name="see-also"></a>Voir aussi
 

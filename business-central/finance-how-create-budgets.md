@@ -53,7 +53,7 @@ Vous saisissez 1 200 000 sur la ligne d’en-tête, exportez le budget vers Ex
 
 Le département Paies distribue le montant des trois comptes de validation. Lorsque vous réimportez le budget comptable, les trois comptes sont renseignés avec les nouvelles données Excel, pour une somme de 1 200 000 en devise société, et la ligne d’en-tête est vide.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbudgets-exchange-rates-dynamics--business-centralindex" />Voir la [formation Microsoft](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesbudgets-exchange-rates-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -172,7 +172,7 @@ Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et 
 > [!TIP]
 > Si vous utilisez un pavé numérique, la touche de séparateur décimal peut produire un caractère autre qu’un point (.). Pour choisir un point, sélectionnez les touches <kbd>Alt</kbd>+<kbd>séparateur décimal</kbd> du pavé numérique. Pour revenir en arrière, sélectionnez à nouveau <kbd>Alt</kbd>+<kbd>séparateur décimal</kbd>. Pour plus d’informations, voir [Définition du séparateur décimal utilisé par les claviers numériques](ui-enter-data.md#decimal).
 
-#### <a name="-eitheror" />(&#124;) Et/ou
+#### <a name="124-eitheror" />(&#124;) Et/ou
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
@@ -302,7 +302,7 @@ Utilisez `%myvendors` dans le champ **N°** fournisseur pour afficher tous les e
 |-----------------------|-----------------------|  
 |`%myvendors`|Fournisseurs dans **Mes fournisseurs** de votre tableau de bord. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics--business-central" />Voir la [formation Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

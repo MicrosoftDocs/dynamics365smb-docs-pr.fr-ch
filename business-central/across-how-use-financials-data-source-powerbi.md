@@ -180,7 +180,7 @@ Il existe plusieurs façons de transmettre des états à vos collègues et à d�
 9. Cliquez sur **Terminé**.
 10. Sélectionner **Fermer et appliquer** à partir du ruban pour enregistrer les modifications et fermer l’éditeur Power Query.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

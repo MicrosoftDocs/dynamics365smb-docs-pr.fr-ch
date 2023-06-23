@@ -148,7 +148,7 @@ Le tableau suivant décrit les codeunits que vous devez créer pour votre état.
 > [!Note]
 > Lorsque vous créez des codeunits pour la déclaration, faites attention à la valeur du champ **Version de la déclaration TVA**. Ce champ doit refléter la version de l’état qui est ou a été requis par l’administration fiscale. Par exemple, vous pouvez saisir **2021** dans le champ pour indiquer que l’état remplit les conditions qui étaient en place cette année. Pour trouver la version en cours, contactez votre administration fiscale.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics--business-central" />Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 
