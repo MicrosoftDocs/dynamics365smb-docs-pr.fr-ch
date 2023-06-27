@@ -8,45 +8,45 @@ ms.author: edupont
 ms.date: 02/23/2022
 ---
 
-# <a name="dynamics-365-business-central-trial-faq" />FAQ sur l’essai de Dynamics 365 Business Central
+# <a name="dynamics-365-business-central-trial-faq"></a>FAQ sur l’essai de Dynamics 365 Business Central
 
 [!INCLUDE [beethoven-trial](includes/beethoven-trial.md)]
 
-### <a name="can-i-convert-the-trial-to-a-paid-license" />Puis-je convertir la version d’évaluation en licence payante ?
+### <a name="can-i-convert-the-trial-to-a-paid-license"></a>Puis-je convertir la version d’évaluation en licence payante ?
 
 Oui, vous pouvez ! Pour plus d’informations, voir [Mise en route avec un abonnement](trial-signup.md#get-started-with-a-subscription).  
 
-### <a name="what-are-the-trial-limits-and-quotas" />Quelles sont les limites et les quotas de l’essai ?
+### <a name="what-are-the-trial-limits-and-quotas"></a>Quelles sont les limites et les quotas de l’essai ?
 
 L’essai comprend des exemples de données. Si vous voulez essayer Business Central avec vos propres données, vous pouvez opter pour un essai gratuit de 30 jours avec une société vide. Votre administrateur peut en savoir plus sur les essais et les abonnements [ici](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-### <a name="how-do-i-start-using-the-trial" />Comment puis-je commencer à utiliser l’essai ?
+### <a name="how-do-i-start-using-the-trial"></a>Comment puis-je commencer à utiliser l’essai ?
 
 Après vous être inscrit à l’essai, vous arriverez sur la page d’accueil par défaut. La page d’accueil fournit des liens vers certaines des tâches les plus courantes et vous pouvez accéder à des conseils et à des visites guidées du produit.  
 
 Les guides de configuration assistée peuvent vous aider à configurer la version. Pour plus d’informations, voir [Se préparer aux activités commerciales](ui-get-ready-business.md).  
 
-### <a name="what-features-are-available-in-the-trial" />Quelles fonctionnalités sont disponibles dans l’essai ?
+### <a name="what-features-are-available-in-the-trial"></a>Quelles fonctionnalités sont disponibles dans l’essai ?
 
 L’essai gratuit comprend presque toutes les fonctionnalités du vaste portefeuille de [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Se préparer aux activités commerciales](ui-get-ready-business.md).  
 
-### <a name="how-long-does-the-trial-last" />Quelle est la durée de l’essai ?
+### <a name="how-long-does-the-trial-last"></a>Quelle est la durée de l’essai ?
 
 L’essai gratuit de Business Central dure aussi longtemps que vous le souhaitez, à condition que vous restiez connecté. Mais si vous souhaitez utiliser vos propres données, vous devez passer à un essai de 30 jours.  
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-### <a name="how-do-i-remove-sample-data-from-the-trial" />Comment supprimer les exemples de données de l’essai ?
+### <a name="how-do-i-remove-sample-data-from-the-trial"></a>Comment supprimer les exemples de données de l’essai ?
 
 Passez à l’essai de 30 jours, puis ajoutez vos propres données. Pour plus d’informations, voir [Migrer des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le contenu pour administrateurs (en anglais uniquement).  
 
-### <a name="how-do-i-restore-sample-data" />Comment restaurer des exemples de données ?
+### <a name="how-do-i-restore-sample-data"></a>Comment restaurer des exemples de données ?
 
 Vous ne pouvez pas. Si vous supprimez accidentellement des exemples de données, demandez à votre administrateur de créer un nouvel environnement sandbox. Pour plus d’informations, voir [Environnements de production et sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types) dans le contenu pour administrateurs (en anglais uniquement).  
 
-## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/trial-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/trial-dynamics-365-business-central/) associée
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [S’inscrire à un essai gratuit de Dynamics 365 Business Central](trial-signup.md)  
 [Foire aux questions sur l’utilisation de Business Central](across-faq.yml)  

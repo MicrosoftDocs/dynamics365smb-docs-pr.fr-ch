@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
-# <a name="scheduling-a-synchronization-between-business-central-and-dataverse" />Planification d’une synchronisation entre Business Central et Dataverse
+# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Planification d’une synchronisation entre Business Central et Dataverse
 
 Vous pouvez synchroniser [!INCLUDE[prod_short](includes/prod_short.md)] avec [!INCLUDE[cds_long_md](includes/cds_long_md.md)] à des intervalles planifiés en configurant des projets dans la file projets. Les projets de synchronisation permettent de synchroniser les données des enregistrements [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[cds_long_md](includes/cds_long_md.md)] qui sont couplés. Pour les enregistrements qui ne sont pas encore couplés, selon la direction et les règles de synchronisation, les projets de synchronisation peuvent créer des enregistrements et les coupler dans le système de destination.
 
@@ -24,7 +24,7 @@ Plusieurs projets de synchronisation sont disponibles et prêts à l’emploi. L
 
 Vous pouvez visualiser les projets sur la page **Écritures file d’attente des travaux**. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
 
-## <a name="default-synchronization-job-queue-entries" />Écritures de file projets de synchronisation par défaut
+## <a name="default-synchronization-job-queue-entries"></a>Écritures de file projets de synchronisation par défaut
 
 Le tableau suivant décrit les projets de synchronisation par défaut pour [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -36,7 +36,7 @@ Le tableau suivant décrit les projets de synchronisation par défaut pour [!INC
 | Projet de synchronisation FOURNISSEUR - Common Data Service | Permet de synchroniser les comptes [!INCLUDE[cds_long_md](includes/cds_long_md.md)] avec les clients [!INCLUDE[prod_short](includes/prod_short.md)]. | Bidirectionnel | FOURNISSEUR | 30 | 720<br> (12 heures) |
 | Projet de synchronisation VENDEURS - Common Data Service | Permet de synchroniser les vendeurs [!INCLUDE[prod_short](includes/prod_short.md)] avec les utilisateurs [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. | De [!INCLUDE[cds_long_md](includes/cds_long_md.md)] vers [!INCLUDE[prod_short](includes/prod_short.md)] | VENDEURS | 30 | 1440<br> (24 heures) |
 
-## <a name="synchronization-process" />Processus de synchronisation
+## <a name="synchronization-process"></a>Processus de synchronisation
 
 Chaque écriture de file projets de synchronisation utilise un mappage de table d’intégration spécifique qui indique la table [!INCLUDE[prod_short](includes/prod_short.md)] et la table [!INCLUDE[cds_long_md](includes/cds_long_md.md)] à synchroniser. Les mappages de table incluent également des paramètres qui contrôlent les enregistrements de la table [!INCLUDE[prod_short](includes/prod_short.md)] et de la table [!INCLUDE[cds_long_md](includes/cds_long_md.md)] à synchroniser.  
 
@@ -57,7 +57,7 @@ Pour synchroniser les données, les enregistrements de table [!INCLUDE[cds_long_
 
 - Avec la synchronisation bidirectionnelle, le projet effectue une synchronisation de [!INCLUDE[prod_short](includes/prod_short.md)] vers [!INCLUDE[cds_long_md](includes/cds_long_md.md)], puis de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] vers [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="about-inactivity-timeouts" />À propos des délais d’inactivité
+## <a name="about-inactivity-timeouts"></a>À propos des délais d’inactivité
 
 Certaines écritures de la file d’attente des travaux, comme celles qui planifient la synchronisation entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[cds_long_md](includes/cds_long_md.md)] utilisent le champ **Délai d’inactivité** sur la PAGE Écriture file d’attente des travaux pour empêcher l’exécution inutile des écritures de la file d’attente des travaux.  
 
@@ -70,7 +70,7 @@ Par exemple, par défaut, l’écriture de la file d’attente des travaux CURRE
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] active automatiquement les écritures de la file d’attente des travaux qui sont en attente uniquement lorsque des modifications sont apportées dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les modifications dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)] n’activent pas les écritures de la file d’attente des travaux.
 
-## <a name="to-view-the-synchronization-job-log" />Pour afficher le journal des projets de synchronisation
+## <a name="to-view-the-synchronization-job-log"></a>Pour afficher le journal des projets de synchronisation
 
 1. Choisissez l’icône :::image type="icon" source="media/ui-search/search_small.png" border="false":::, entrez **Journal de synchronisation de l’intégration**, puis choisissez le lien associé.
 2. Si une ou plusieurs erreurs se sont produites pour un projet de synchronisation, le nombre d’erreurs s’affiche dans la colonne **Échec**. Pour afficher les erreurs pour le projet, sélectionnez le numéro.  
@@ -78,16 +78,16 @@ Par exemple, par défaut, l’écriture de la file d’attente des travaux CURRE
     > [!TIP]  
     > Vous pouvez afficher toutes les erreurs du projet de synchronisation en ouvrant directement le journal des erreurs du projet de synchronisation.
 
-## <a name="to-view-the-synchronization-job-log-from-the-table-mappings" />Pour afficher le journal du projet de synchronisation à partir des mappages de table
+## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Pour afficher le journal du projet de synchronisation à partir des mappages de table
 
 1. Choisissez l’icône :::image type="icon" source="media/ui-search/search_small.png" border="false":::, entrez **Mappages de table d’intégration**, puis choisissez le lien associé.
 2. Sur la page **Mappages de table d’intégration**, sélectionnez une écriture, puis choisissez **Journal projet synch. intégration**.  
 
-## <a name="to-view-the-synchronization-error-log" />Pour afficher le journal des erreurs de synchronisation
+## <a name="to-view-the-synchronization-error-log"></a>Pour afficher le journal des erreurs de synchronisation
 
 - Choisissez l’icône :::image type="icon" source="media/ui-search/search_small.png" border="false":::, entrez **Erreurs de synchronisation d’intégration**, puis choisissez le lien associé.
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Synchronisation des données dans Business Central et [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Synchroniser manuellement les mappages de table](admin-manual-synchronization-of-table-mappings.md)  

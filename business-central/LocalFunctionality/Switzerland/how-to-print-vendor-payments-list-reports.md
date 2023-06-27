@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="print-vendor-payments-list-reports-in-the-swiss-version" />Imprimer des rapports contenant les listes de paiements fournisseurs dans la version suisse
+# <a name="print-vendor-payments-list-reports-in-the-swiss-version"></a>Imprimer des rapports contenant les listes de paiements fournisseurs dans la version suisse
 
 Le rapport **Liste de paiements fournisseur** fournit la liste des paiements pour chaque fournisseur. Le rapport peut trier les paiements par ordre chronologique ou groupés par fournisseur.  
 
 > [!NOTE]
 > Le rapport **Liste de paiements fournisseurs** est disponible dans les marchés suivants : Autriche, Allemagne, Suisse.
 
-## <a name="to-print-the-vendor-payments-list-report" />Pour imprimer des rapports contenant les listes de paiements fournisseurs
+## <a name="to-print-the-vendor-payments-list-report"></a>Pour imprimer des rapports contenant les listes de paiements fournisseurs
 
 1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Liste de paiements fournisseurs**, puis sélectionnez le lien associé.  
 2. Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
@@ -29,7 +29,7 @@ Le rapport **Liste de paiements fournisseur** fournit la liste des paiements pou
 
  À la fin du rapport, le nombre de paiements traités est affiché.  
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Effectuer des paiements](../../payables-make-payments.md)
 

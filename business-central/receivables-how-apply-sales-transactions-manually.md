@@ -11,7 +11,7 @@ ms.search.form: '25, 255'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries" />Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client
+# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client
 
 Lorsque vous recevez un règlement en espèces d’un client ou que vous effectuez un remboursement, vous pouvez lettrer le paiement ou le remboursement pour clôturer une ou plusieurs écritures débit ou crédit. Vous pouvez indiquer le montant à appliquer. Par exemple, vous pouvez appliquer des paiements partiels aux écritures comptables client. La clôture des écritures comptables client garantit que les statistiques clients, les relevés bancaires et les intérêts de retard, etc. sont à jour.
 
@@ -31,7 +31,7 @@ Vous pouvez lettrer les écritures comptables client de plusieurs manières :
 > [!NOTE]  
 >   Si le champ **Mode de lettrage** de la fiche client contient **Au plus ancien**, les paiements sont automatiquement lettrés avec l’écriture de crédit ouverte la plus ancienne sauf si vous spécifiez une écriture manuellement. Si le mode de lettrage pour un fournisseur est **Manuel**, vous devez toujours lettrer les écritures manuellement.
 
-## <a name="to-fill-and-post-a-cash-receipt-journal" />Pour renseigner et valider une feuille règlement
+## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Pour renseigner et valider une feuille règlement
 Une feuille règlement est un type de journal général. Vous pouvez l’utiliser pour valider les transactions sur les comptes généraux, bancaires, client, fournisseur et immobilisation. Vous pouvez lettrer le règlement sur une ou plusieurs écritures débit lorsque vous validez le règlement. Vous pouvez également lettrer à partir des écritures validées ultérieurement.
 1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille règlement**, puis choisissez le lien associé.
 2. Sélectionnez **Modifier journal**.
@@ -48,7 +48,7 @@ Une feuille règlement est un type de journal général. Vous pouvez l’utilise
 11. Dans le champ **N° compte contrepartie**, sélectionnez le compte pour les règlements ou le compte bancaire approprié pour d’autres paiements.
 12. Validez la feuille.
 
-## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry" />Pour lettrer un paiement avec une seule écriture comptable client
+## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Pour lettrer un paiement avec une seule écriture comptable client
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille règlement**, puis choisissez le lien associé.
 2. Sélectionnez **Modifier journal**.
 3. Dans la première ligne feuille, saisissez les informations appropriées sur l’écriture à lettrer.
@@ -63,7 +63,7 @@ Une feuille règlement est un type de journal général. Vous pouvez l’utilise
 10. Cliquez sur le bouton **OK**. La page **Feuille règlement** affiche désormais l’écriture des champs **Type doc. lettrage** et **N° doc. lettrage**.
 11. Validez la feuille règlement.
 
-## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries" />Pour lettrer un paiement avec plusieurs écritures client
+## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Pour lettrer un paiement avec plusieurs écritures client
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille règlement**, puis choisissez le lien associé.
 2. Sélectionnez **Modifier journal**.
 3. Dans la première ligne feuille, saisissez les informations appropriées sur l’écriture à lettrer.
@@ -79,7 +79,7 @@ Une feuille règlement est un type de journal général. Vous pouvez l’utilise
 11. Cliquez sur le bouton **OK**.
 12. Validez la feuille règlement.
 
-## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry" />Pour lettrer un avoir avec une seule écriture comptable client
+## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Pour lettrer un avoir avec une seule écriture comptable client
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Avoirs vente**, puis sélectionnez le lien associé.
 2. Ouvrez l’avoir vente souhaité.
 3. Pour lettrer l’avoir avec une seule écriture comptable client lors de la validation, dans le champ **N° doc. lettrage**, sélectionnez l’écriture avec laquelle lettrer le paiement.
@@ -89,7 +89,7 @@ Une feuille règlement est un type de journal général. Vous pouvez l’utilise
 5. Choisissez le bouton **OK**. La page **Avoir vente** affiche désormais l’écriture que vous avez saisie dans les champs **Type doc. lettrage** et **N° doc. lettrage**. Et le montant de l’avoir à valider, escomptes éventuels déduits.
 6. Valider l’avoir.
 
-## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries" />Pour lettrer un avoir avec plusieurs écritures comptables client
+## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Pour lettrer un avoir avec plusieurs écritures comptables client
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Avoirs vente**, puis sélectionnez le lien associé.
 2. Ouvrez l’avoir vente souhaité.
 3. Pour lettrer l’avoir avec plusieurs écritures comptables client lors de la validation, sélectionnez l’action **Lettrer écritures**.
@@ -100,7 +100,7 @@ Une feuille règlement est un type de journal général. Vous pouvez l’utilise
 6. Choisissez le bouton **OK**. La page **Avoir vente** affiche désormais le montant de l’avoir à valider, escomptes éventuels déduits.
 7. Valider l’avoir.
 
-## <a name="to-apply-posted-customer-ledger-entries" />Pour lettrer des écritures comptables client validées
+## <a name="to-apply-posted-customer-ledger-entries"></a>Pour lettrer des écritures comptables client validées
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Ouvrez la fiche du client possédant les écritures que vous souhaitez lettrer.
 3. Sélectionnez l’action **Écritures comptables**, puis sélectionnez la ligne où figure l’écriture qui sera l’écriture lettrage.
@@ -120,7 +120,7 @@ Dans la liste écritures comptables, sur la ligne contenant l’écriture compta
 > [!NOTE]  
 >   Une fois que vous avez sélectionné une écriture de la page **Lettrer écritures client** ou plusieurs écritures avec l’**ID lettrage**, le champ **Montant lettré** de la ligne feuille contient la somme des montants restants des écritures validées que vous avez sélectionnées, cela à moins que le champ ne soit déjà renseigné. Si vous sélectionnez **Au plus ancien** dans le champ **Mode de lettrage** sur la fiche client, le lettrage intervient automatiquement.
 
-## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another" />Pour lettrer des écritures comptables client avec d’autres écritures dans différentes devises
+## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Pour lettrer des écritures comptables client avec d’autres écritures dans différentes devises
 Si vous effectuez une vente à un client dans une devise et recevez le règlement dans une autre devise, vous pouvez toujours lettrer la facture avec le paiement.  
 
 Prenons un exemple. Vous lettrez une écriture (Écriture 1) dans une devise avec une autre écriture (Écriture 2) dans une autre devise. La date de comptabilisation de l’Écriture 1 est utilisée pour trouver le taux de change adéquat et convertir les montants de l’Écriture 2. Le taux de change se trouve sur la page **Taux de change devise**.  
@@ -137,7 +137,7 @@ Le lettrage d’écritures comptables client en devises différentes doit être 
 > [!IMPORTANT]  
 >   Lorsque vous lettrez des écritures en devises différentes, les écritures sont converties en USD. Bien que le taux de change des deux devises concernées soit fixe, comme entre l’USD et l’EUR, leur conversion en USD peut donner un petit montant résiduel. Le programme valide ces petits montants résiduels en tant que gains et pertes dans le compte défini dans les champs **Cpte gains constatés report** ou **Cpte pertes constatées report** de la page **Devises**. La valeur du champ **Montant (USD)** est également ajustée sur les écritures comptables fournisseur.  
 
-## <a name="to-correct-an-application-of-customer-entries" />Pour créer un lettrage des écritures client
+## <a name="to-correct-an-application-of-customer-entries"></a>Pour créer un lettrage des écritures client
 Lorsque vous corrigez une application, des écritures de correction sont créées et validées pour toutes les écritures. Les écritures de correction sont les mêmes que les originales mais elles ont un signe opposé dans le champ **Montant**. Les écritures de correction incluent toutes les écritures du grand livre issues de l’application. Par exemple, l’escompte et les pertes et gains en devise. Les écritures fermées par l’application sont rouvertes.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
@@ -151,7 +151,7 @@ Lorsque vous corrigez une application, des écritures de correction sont créée
 > [!IMPORTANT]  
 >   Si une écriture a été lettrée par plusieurs écritures lettrage, vous devez commencer par délettrer la dernière écriture lettrage.  
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

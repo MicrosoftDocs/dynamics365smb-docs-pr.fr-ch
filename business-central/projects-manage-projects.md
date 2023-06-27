@@ -9,7 +9,7 @@ ms.search.form: '89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="project-management" />Gestion de projets
+# <a name="project-management"></a>Gestion de projets
 
 Le module [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge les tâches de gestion courantes : configuration d’un projet, planification d’une ressource, spécification des informations nécessaires à la gestion des budgets et à la surveillance de la progression, etc. Vous pouvez suivre les heures machines et salariés sur le projet à l’aide de feuilles de temps. Il offre aux chefs de projet un aperçu pertinent des projets individuels, des affectations des employés, des machines et des autres ressources en cours d’utilisation dans le cadre des projets.
 
@@ -29,11 +29,11 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Validez la consommation de matières, des ressources, et d’autres frais de travaux en cours (TEC) du projet pour contrôler sa valeur financière et maintenir des états financiers appropriés bien que vous ayez validé des frais de projet avant de facturer le projet. |[Surveiller la progression et les performances](projects-how-monitor-progress-performance.md) |
 | Enregistrez les coûts du projet (utilisation de ressources, matières et achats associés au projet) sur une base actuelle et facturez le client, soit une fois le projet terminé soit en fonction d’un calendrier de facturation. |[Facturation des projets](projects-how-invoice-jobs.md) |
 
-## <a name="get-started-with-projects" />Mise en route des projets
+## <a name="get-started-with-projects"></a>Mise en route des projets
 
 La gestion des projets est suffisamment compliquée en elle-même et découvrir comment créer des projets et gérer le travail en cours dans un nouvel outil peut se révéler tout aussi complexe. Pour vous aider à mettre en route la gestion de projet dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez voir [une vidéo sur la création des projets](https://www.youtube.com/watch?v=VqaPWr7BWmw) sur le canal [!INCLUDE[prod_short](includes/prod_short.md)] YouTube.  
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Configuration de la gestion de projet](projects-setup-projects.md)  
 [Vidéo : Créer un projet dans Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

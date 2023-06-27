@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams" />Recherche de clients, de fournisseurs et autres contacts dans Microsoft Teams
+# <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Recherche de clients, de fournisseurs et autres contacts dans Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]. Introduit dans la 1re vague de lancement 2021.
 
@@ -21,7 +21,7 @@ ms.author: jswymer
 - Partagez un contact sous forme de carte dans une conversation Teams.
 - Affichez des détails sur le contact, l′historique des interactions et d′autres informations telles que les paiements impayés ou les documents ouverts.
 
-## <a name="prerequisites" />Conditions préalables
+## <a name="prerequisites"></a>Conditions préalables
 
 - Vous avez accès à Microsoft Teams.
 - Vous avez installé l’application [!INCLUDE [prod_short](includes/prod_short.md)] dans Teams. Pour plus d’informations, voir [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)
@@ -30,7 +30,7 @@ ms.author: jswymer
 > [!NOTE]
 > Que vous recherchiez à partir de la boîte de commande ou de la boîte de rédaction de message, vous pouvez être invité à vous connecter ou à configurer l’application la première fois. Cette étape est nécessaire pour rechercher des contacts dans la bonne entreprise Business Central. Pour plus d’informations sur la configuration de l’application pour choisir votre entreprise, consultez [Modification de la société et d’autres paramètres dans les équipes](across-teams-settings.md).
 
-## <a name="look-up-contacts-from-the-command-box" />Rechercher des contacts dans la boîte de commande
+## <a name="look-up-contacts-from-the-command-box"></a>Rechercher des contacts dans la boîte de commande
 
 La boîte de commande est en haut de chaque écran dans Teams. Il vous permet de rechercher, d’effectuer des actions rapides ou de lancer des applications, comme l’application [!INCLUDE [prod_short](includes/prod_short.md)]. La recherche à partir de la boîte de commande est idéale pour rechercher rapidement des contacts et leurs données associées pour votre propre usage. Par exemple, supposons que vous souhaitiez rechercher l’adresse e-mail d’un fournisseur pour configurer une réunion de calendrier. Ou peut-être souhaitez-vous consulter l’historique des interactions lors d’une réunion avec un client.
 
@@ -51,7 +51,7 @@ La boîte de commande est en haut de chaque écran dans Teams. Il vous permet de
 
 Pour plus d’informations générales sur la zone de commande dans Teams, voir [Teams – Utiliser la boîte de commande](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
-## <a name="look-up-contacts-from-the-message-compose-box" />Rechercher des contacts dans la zone de composition de message
+## <a name="look-up-contacts-from-the-message-compose-box"></a>Rechercher des contacts dans la zone de composition de message
 
 L’avantage d’utiliser la boîte de rédaction de message est que vous pouvez ajouter une fiche de contact directement à une conversation, pour que les autres puissent la voir.
 
@@ -73,13 +73,13 @@ L’avantage d’utiliser la boîte de rédaction de message est que vous pouvez
     > [!NOTE]
     > La carte de visite n’est pas immédiatement envoyée à la conversation pour que les autres puissent la voir. Vous avez la possibilité de revoir le contenu de la carte et d’ajouter du texte avant ou après celle-ci à votre guise. Ensuite, envoyez votre message au chat lorsque vous êtes prêt.
 
-### <a name="heres-another-way" />Voici une autre façon
+### <a name="heres-another-way"></a>Voici une autre façon
 
 1. Au lieu d’utiliser l’icône **Business Central**, saisissez **@Business Central** directement dans la zone de rédaction du message.
 2. Entrez vos termes de recherche dans la zone.
 3. Utilisez les touches fléchées haut et bas du clavier pour choisir un contact, puis appuyez sur <kbd>Entrée</kbd> pour le sélectionner.
 
-## <a name="viewing-contact-card-details" />Affichage des détails de la carte de visite
+## <a name="viewing-contact-card-details"></a>Affichage des détails de la carte de visite
 
 La carte de visite dans Teams vous donne un aperçu rapide du client, du fournisseur ou du contact. La carte est interactive,&mdash;ce qui signifie que vous pouvez afficher plus d’informations ou même modifier un contact en utilisant les boutons **Détails** ou **Contextuel**.
 
@@ -90,7 +90,7 @@ La carte de visite fonctionne exactement comme les cartes pour les enregistremen
 > [!NOTE]
 > Tous les participants à une conversation Teams pourront afficher les fiches des contacts Business Central que vous soumettez à une conversation. Mais pour afficher plus de détails sur les enregistrements, en utilisant les boutons **Détails** ou **Contextuel** sur une fiche, ils auront besoin d’accéder à [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Gestion de l’intégration Microsoft Teams](admin-teams-integration.md#minimum-requirements-1).
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble de l’intégration de Business Central et Microsoft Teams](across-teams-overview.md)  
 [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)  

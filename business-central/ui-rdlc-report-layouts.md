@@ -11,13 +11,13 @@ ms.search.form: '9650, 9652'
 ms.date: 03/14/2022
 ms.author: jswymer
 ---
-# <a name="working-with-rdlc-layouts" />Utilisation des présentations RDLC
+# <a name="working-with-rdlc-layouts"></a>Utilisation des présentations RDLC
 
 Les présentations RDLC sont basées sur les fichiers de présentation de définition d’état client (types de fichier .rdl ou .rdlc). Les concepts de présentations RDLC sont similaires à ceux des autres types de présentations. La présentation détermine les champs à afficher et la façon dont ils sont disposés. Toutefois, la conception de présentations RDLC est plus avancée que celles de Word et Excel.
 
 [![Affiche les différents éléments d’une présentation RDLC.](media/rdlc-layout.png)](media/rdlc-layout.png#lightbox)
 
-## <a name="required-tools" />Outils requis
+## <a name="required-tools"></a>Outils requis
 
 Pour modifier les présentations RDL, vous pouvez utiliser soit Microsoft SQL Server Report Builder, soit Microsoft RDLC Report Designer.
 
@@ -25,7 +25,7 @@ Pour modifier les présentations RDL, vous pouvez utiliser soit Microsoft SQL Se
 
 - RDLC Report Designer est une extension pour Visual Studio 2017 et ultérieures. Vous pouvez télécharger et installer RDLC Report Designer à partir de [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001).
 
-## <a name="create-and-modify-rdlc-layouts" />Créer et modifier des présentations RDLC
+## <a name="create-and-modify-rdlc-layouts"></a>Créer et modifier des présentations RDLC
 
 La création et la modification des présentations RDLC est une tâche avancée, qui est généralement effectuée par des utilisateurs expérimentés ou des développeurs. Les concepts de base ne sont pas spécifiques aux présentations d’état Business Central. C’est pourquoi, nous vous renvoyons à la documentation suivante :
 
@@ -41,9 +41,9 @@ de RDL/RDLC, et comment utiliser Report Builder.
 > [!NOTE]
 > Report Builder ne reconnaît que le type de fichier .rdl ; pas .rdlc. Les fichiers de présentation exportés depuis Business Central sont des types de fichiers .rdlc. Donc, pour modifier ces présentations dans Report Builder, renommez le type de fichier en .rdl.
 
-## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion des présentations d’état](ui-manage-report-layouts.md)  
 [Définir la présentation utilisée par un état](ui-set-report-layout.md)  

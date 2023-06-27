@@ -10,7 +10,7 @@ ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts,
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="configure-service-processes" />Configuration des processus de service
+# <a name="configure-service-processes"></a>Configuration des processus de service
 Voici quelques exemples des paramètres que vous pouvez appliquer aux processus de gestion des services :  
   
 * Certains paramètres généraux pour différents processus, comme les avertissements, les calculs de service suivants pour les articles de service, les frais de démarrage à évaluer, le niveau de reporting panne à utiliser, etc.  
@@ -19,11 +19,11 @@ Voici quelques exemples des paramètres que vous pouvez appliquer aux processus 
 * Les paramètres pour les contrats, tels que le nombre maximum de jours que vous pouvez utiliser pour les commandes contrat de service, si vous utilisez des codes motif lorsqu’un contrat est annulé, des textes standard pour les descriptions de contrat et les valeurs contractuelles.  
 * Les souches de numéros à utiliser pour les documents et les articles relatifs au service.  
 
-## <a name="to-enter-general-and-mandatory-settings" />Pour saisir les paramètres généraux et obligatoires
+## <a name="to-enter-general-and-mandatory-settings"></a>Pour saisir les paramètres généraux et obligatoires
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres Gestion des services**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Configurer le reporting panne](service-how-setup-fault-reporting.md)  
 [Configurer l’affectation des ressources](service-how-setup-resource-allocation.md)  
 [Configurer des codes prestations standards](service-how-setup-service-coding.md)  

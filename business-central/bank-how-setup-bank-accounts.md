@@ -11,7 +11,7 @@ ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
 ms.date: 01/24/2022
 ms.author: edupont
 ---
-# <a name="set-up-bank-accounts" />Configuration des comptes bancaires
+# <a name="set-up-bank-accounts"></a>Configuration des comptes bancaires
 
 [!INCLUDE[prod_short](includes/prod_short.md)] vous permet de gérer vos transactions bancaires à l’aide des comptes bancaires. Les comptes peuvent être en devise société ou en devise étrangère. Après avoir configuré des comptes bancaires, vous pouvez aussi utiliser l’option d’impression de chèque. Les comptes bancaires incluent des fonctionnalités supplémentaires pour le [rapprochement des paiements](receivables-apply-payments-auto-reconcile-bank-accounts.md), le [rapprochement bancaire](bank-how-reconcile-bank-accounts-separately.md) et l’import et l’export de fichiers bancaires. Les comptes bancaires peuvent également être inclus dans les transactions en comptabilité. Chaque compte bancaire est lié à un compte du plan comptable via le groupe de comptabilisation du compte bancaire affecté. L’utilisation d’un compte bancaire dans une opération de paiement créera automatiquement une entrée à la fois sur le compte bancaire et sur le compte général connecté.  
 
@@ -81,7 +81,7 @@ Regardez dans la vidéo ci-dessous les étapes de base pour créer un compte ban
 > [!WARNING]
 > Certains champs peuvent contenir des données sensibles, comme les champs **Code établissement**,**N° de compte bancaire**, **Code BIC** et **Code IBAN**. Pour plus d’informations, consultez [Surveillances des champs sensibles](across-log-changes.md#monitoring-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts" />Pour configurer des comptes bancaires
+## <a name="to-set-up-bank-accounts"></a>Pour configurer des comptes bancaires
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Sur la page **Comptes bancaires**, sélectionnez l’action **Nouveau**.
@@ -151,7 +151,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## <a name="to-enter-an-opening-balance" />Pour entrer un solde d’ouverture
+## <a name="to-enter-an-opening-balance"></a>Pour entrer un solde d’ouverture
 
 Pour renseigner le champ **Solde** avec un solde ouvert, vous devez valider une écriture comptable compte bancaire avec le montant en question. Vous pouvez effectuer cette opération en effectuant un rapprochement bancaire. Pour plus d’informations, consultez [Rapprochement des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).  
 >
@@ -160,7 +160,7 @@ Pour renseigner le champ **Solde** avec un solde ouvert, vous devez valider une 
 > [!IMPORTANT]
 > Ne validez pas le solde d’ouverture directement dans la comptabilité. Le fait d’avoir des écritures dans le compte général qui y ont été comptabilisées directement vous empêche généralement de rapprocher le compte bancaire. Avec les comptes bancaires en devise étrangère, une telle pratique entraîne l’accumulation de différences à mesure que vous validez davantage de rapprochements bancaires. En règle générale, vous comptabilisez le solde bancaire d’ouverture directement sur le compte bancaire, et le montant se retrouve ensuite dans le compte général. Sinon, vous pourrez le contrepasser plus tard en dehors du compte général que vous utilisez pour équilibrer le solde d’ouverture des écritures comptables. Dans les deux cas, vous devez équilibrer toute écriture directe sur le compte général avant de commencer votre premier rapprochement bancaire (surtout si le compte bancaire est en devise étrangère).
 
-## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files" />Pour configurer votre compte bancaire pour importer ou exporter des fichiers bancaires
+## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Pour configurer votre compte bancaire pour importer ou exporter des fichiers bancaires
 
 Les champs associés à l’importation et à l’exportation des flux et des fichiers bancaires se trouvent sur le raccourci **Transfert** de la page **Fiche compte bancaire**. Pour plus d’informations, consultez [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) et [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -213,13 +213,13 @@ L’illustration ci-dessous montre l’itinéraire des paiements sortants (les n
   :::column-end:::
 :::row-end:::
 
-## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files" />Pour configurer des comptes bancaires fournisseur pour exporter des fichiers bancaires
+## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Pour configurer des comptes bancaires fournisseur pour exporter des fichiers bancaires
 
 Les champs du raccourci **Transfert** de la page **Fiche compte bancaire fourn.** sont associés à l’exportation des flux et des fichiers bancaires. Pour plus d’informations, consultez [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) et [Exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## <a name="changing-your-bank-account" />Changer votre compte bancaire
+## <a name="changing-your-bank-account"></a>Changer votre compte bancaire
 
 Pour utiliser un autre compte bancaire pour votre entreprise, vous devez créer le compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)]. Nous vous recommandons de ne pas simplement remplacer les informations sur le compte que vous utilisez actuellement, car cela peut entraîner des données incorrectes. Par exemple, votre solde d’ouverture peut être incorrect ou votre flux bancaire peut cesser de fonctionner correctement. Il est important que vous fassiez la distinction entre comptes actuels et nouveaux comptes.
 
@@ -230,9 +230,9 @@ Après avoir créé le compte bancaire, vous devez également créer un groupe d
 
 Pour obtenir une vue plus condensée de vos comptes de trésorerie dans les rapports financiers, utilisez les comptes **Début total** et **Total final** dans votre plan comptable, les lignes **Totalisation** dans les états financiers ou les catégories de comptes généraux. Pour plus d’informations, consultez la section [Vue d’ensemble de Business Intelligence et Financial Reporting](bi.md).
 
-## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/cash-management-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/cash-management-dynamics-365-business-central/) associée
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Configuration de groupes comptabilisation](finance-posting-groups.md)  

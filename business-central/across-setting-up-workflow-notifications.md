@@ -14,7 +14,7 @@ ms.contentlocale: fr-CH
 ms.lasthandoff: 09/23/2022
 ms.locfileid: "9585484"
 ---
-# <a name="approval-workflow-notifications" /><a name="approval-workflow-notifications"></a>Notifications flux de travail approbation
+# <a name="approval-workflow-notifications"></a><a name="approval-workflow-notifications"></a>Notifications flux de travail approbation
 
 Configurez vos flux de travail pour avertir automatiquement les utilisateurs lorsque leur attention est requise pour une étape de ce flux de travail. Pour un grand nombre de réponses du flux de travail, il s’agit de notifier un utilisateur qu’un événement s’est produit et qu’il doit agir dessus.
 
@@ -26,7 +26,7 @@ Par exemple, vous pouvez définir que l’utilisateur 2, l’approbateur, reçoi
 > [!IMPORTANT]  
 > Toutes les notifications du workflow sont envoyées à l’aide d’une file projets. Assurez-vous que la file projets dans votre installation est configurée pour traiter les notifications du flux de travail, et que la case à cocher **Démarrer automatiquement à partir du serveur** est activée. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications" /><a name="set-up-notifications"></a>Configurer les notifications
+## <a name="set-up-notifications"></a><a name="set-up-notifications"></a>Configurer les notifications
 
 Vous pouvez configurer différents aspects des notifications du workflow dans les emplacements suivants :  
 
@@ -55,9 +55,9 @@ Vous pouvez configurer différents aspects des notifications du workflow dans le
 
   Pour les flux de travail d’approbation, ajoutez une étape de réponse de flux de travail pour informer l’expéditeur lorsque la demande a été approuvée ou rejetée. En savoir plus à partir de l’étape 9 de la section [Créer des flux de travail](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
-## <a name="see-also" /><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md)  
 [Configurer des utilisateurs de flux de travail](across-how-to-set-up-workflow-users.md)  

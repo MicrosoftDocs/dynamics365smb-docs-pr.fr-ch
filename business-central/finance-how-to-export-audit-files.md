@@ -14,7 +14,7 @@ ms.author: altotovi
 ms.reviewer: kfend
 ---
 
-# <a name="audit-file-export" />Exportation de fichier d’audit
+# <a name="audit-file-export"></a>Exportation de fichier d’audit
 
 L’exportation d’informations comptables à partir du système représente une demande courante de certaines autorités ou de certains auditeurs au niveau local. Les formats d’exportation et les informations requises peuvent différer. Les écritures pour l’exportation sont généralement des écritures comptables ou des écritures de taxe sur la valeur ajoutée (TVA). Cependant, d’autres informations sont parfois requises.
 
@@ -23,7 +23,7 @@ L’exportation d’informations comptables à partir du système représente un
 > [!NOTE]
 > Actuellement, vous pouvez sélectionner le format SIE ou SAF-T comme application supplémentaire. Les partenaires peuvent également développer un format personnalisé. Le nombre de formats disponibles augmentera avec le temps.
 
-## <a name="set-up-audit-file-export" />Configurer l’exportation de fichiers d’audit
+## <a name="set-up-audit-file-export"></a>Configurer l’exportation de fichiers d’audit
 
 1. Sélectionnez le bouton de recherche ![Bouton de la loupe qui ouvre la fonction Fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration de l’exportation de fichiers d’audit**, et sélectionnez le lien correspondant.
 2. Sur la page **Configuration de l’exportation de fichiers d’audit** , suivez ces étapes :
@@ -44,7 +44,7 @@ L’exportation d’informations comptables à partir du système représente un
     2. Dans le champ **Nom de fichier d’audit**, spécifiez le nom de fichier par défaut ou le modèle de nom de fichier pour le fichier d’audit que vous souhaitez exporter.
     3. Cochez la case **Archiver vers zip** pour compresser automatiquement les fichiers exportés.
 
-## <a name="provide-the-gl-account-mapping-for-audit-file-export" />Fournir le mappage du compte général pour l’exportation de fichiers d’audit
+## <a name="provide-the-gl-account-mapping-for-audit-file-export"></a>Fournir le mappage du compte général pour l’exportation de fichiers d’audit
 
 La plupart des formats requis par les autorités pour les comptes généraux nécessitent un plan comptable standard spécifique. Par conséquent, après avoir configuré vos comptes généraux, votre fichier exporté sera basé sur les mappages. Vous pouvez utiliser plus de mappages dans votre système.
 
@@ -69,7 +69,7 @@ Procédez comme suit pour fournir le mappage du compte général pour l’export
     1. Pour générer des lignes sur la page de **mappage de compte général** sur la base d’un plan de comptes existant, sélectionnez **Initialiser la source du mappage**. Pour copier le mappage du compte général à partir d’un autre code de mappage, sélectionnez **Copier depuis un autre mappage**. Lorsque vous avez terminé de créer des lignes, tous les comptes généraux qui ont enregistré des écritures seront marqués en vert.
     2. Pour marquer uniquement les comptes généraux qui ont des écritures, sélectionnez **Mettre à jour la disponibilité de l’écriture comptable**. Si l’option **Inclure le solde entrant** est activée, toutes les écritures comptables validées sont prises en compte pour le calcul. Sinon, seules les écritures comptables de la période de déclaration sont prises en compte.
 
-## <a name="export-the-audit-file" />Exporter le fichier d’audit
+## <a name="export-the-audit-file"></a>Exporter le fichier d’audit
 
 1. Sélectionnez le bouton de recherche ![Bouton de la loupe qui ouvre la fonction Fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Documents d’exportation de fichiers d’audit**, et sélectionnez le lien correspondant.
 2. Sur la page **Documents d’exportation de fichier d’audit**, sélectionnez **Nouveau**.
@@ -97,7 +97,7 @@ Procédez comme suit pour fournir le mappage du compte général pour l’export
 > [!IMPORTANT]
 > Si vous avez plusieurs entrées à exporter, nous vous déconseillons de les exporter dans la session en cours, en raison d’éventuels problèmes de performances. Au lieu de cela, nous vous recommandons d’utiliser le traitement parallèle pendant les jours ou les heures non ouvrables.
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Gestion financière](finance.md)  
 [Comprendre la comptabilité et le plan comptable](finance-general-ledger.md)  
 [Utilisation des axes analytiques](finance-dimensions.md)  

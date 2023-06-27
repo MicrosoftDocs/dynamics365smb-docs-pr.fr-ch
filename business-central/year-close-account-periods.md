@@ -11,11 +11,11 @@ ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
 ---
-# <a name="close-accounting-periods" />Clôturer des périodes comptables
+# <a name="close-accounting-periods"></a>Clôturer des périodes comptables
 
 Lorsqu’un exercice comptable est terminé, vous devez clôturer les périodes qui le composent.
 
-## <a name="to-close-accounting-periods" />Pour clôturer des périodes comptables
+## <a name="to-close-accounting-periods"></a>Pour clôturer des périodes comptables
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Périodes comptables**, puis sélectionnez le lien associé.
 2. Sur la page **Périodes comptables**, sélectionnez l’action **Clôturer exercice**.
@@ -32,7 +32,7 @@ Même si un exercice comptable a été clôturé, vous pouvez toujours y valider
 
 Une fois qu’un exercice comptable a été clôturé, vous devez clôturer les comptes de gestion et transférer les résultats de l’exercice sur un compte du bilan. Vous pouvez répéter cette opération chaque fois que vous validez dans l’exercice comptable clôturé.
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Clôture plans](year-close-books.md)  
 [Valider l’écriture de clôture d’exercice](year-how-post-year-end-close-entry.md)  

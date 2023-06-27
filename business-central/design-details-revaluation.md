@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-revaluation" />Détails de conception : réévaluation
+# <a name="design-details-revaluation"></a>Détails de conception : réévaluation
 Vous pouvez réévaluer le stock en fonction de la base d’évaluation reflétant le plus précisément la valeur de stock. Vous pouvez également antidater une réévaluation, afin que le coût des biens vendus (COGS) soit correctement mis à jour pour les articles qui ont déjà été vendus. Les articles utilisant le mode évaluation stock standard qui n’ont pas été entièrement facturés peuvent également être réévalués.  
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], la flexibilité suivante est prise en charge sur la réévaluation :  
@@ -19,7 +19,7 @@ Dans [!INCLUDE[prod_short](includes/prod_short.md)], la flexibilité suivante es
 -   Pour les articles utilisant le mode évaluation stock standard, les écritures coût prévu sont incluses dans la réévaluation.  
 -   Des sorties de stock affectées par la réévaluation sont détectées.  
 
-## <a name="calculating-the-revaluable-quantity" />Calcul de la quantité réévaluable
+## <a name="calculating-the-revaluable-quantity"></a>Calcul de la quantité réévaluable
  La quantité réévaluable est la quantité restante en stock qui est disponible pour la réévaluation à une date donnée. Elle est calculée comme somme totale des quantités des écritures comptables article entièrement facturées qui ont une date comptabilisation égale ou antérieure à la date comptabilisation de réévaluation.  
 
 > [!NOTE]  
@@ -29,7 +29,7 @@ Une fois qu’une réévaluation a été validée, vous pouvez valider une entr�
 
 Étant donné que la réévaluation peut être effectuée à n’importe quelle date, vous devez avoir des conventions pour le moment où un article est considéré comme une partie du stock du point de vue bancaire. Par exemple, lorsque l’article est en stock et lorsque l’article est encours (WIP).  
 
-### <a name="example" />Exemple :
+### <a name="example"></a>Exemple :
 L’exemple suivant montre à quel moment un article TEC se transforme pour devenir une partie du stock. L’exemple est basé sur la production d’une chaîne de 150 liens.  
 
 ![Stock et réévaluation TEC.](media/design_details_inventory_costing_10_revaluation_wip.png "Stock et réévaluation TEC")  
@@ -77,7 +77,7 @@ La date d’évaluation est définie sur la date de la validation de la consomma
 |01/02/20|Coût direct|01/02/20|-150,00|2|2|  
 |15/02/20|Coût direct|15/02/20|150,00|3|3|  
 
-## <a name="expected-cost-in-revaluation" />Coût prévu de la réévaluation
+## <a name="expected-cost-in-revaluation"></a>Coût prévu de la réévaluation
 La quantité réévaluable est calculée comme la somme de la quantité des écritures comptables article entièrement facturées avec une date comptabilisation égale ou antérieure à la date de réévaluation. Cela signifie que lorsque certains articles sont reçus/livrés mais pas facturés, leur valeur de stock ne peut pas être calculée. Les articles utilisant le mode évaluation stock standard ne sont pas limités à cet égard.  
 
 > [!NOTE]  
@@ -89,7 +89,7 @@ Lors du calcul de la quantité réévaluable pour les articles utilisant le mode
 -   Une écriture valeur avec le type d’écriture **Écart**. Cette écriture enregistre la différence entre le coût facturé et le coût standard réévalué.  
 -   Une écriture valeur avec le type d’écriture **Réévaluation**. Cette écriture enregistre l’inversion de la réévaluation du coût prévu.  
 
-### <a name="example-1" />Exemple :
+### <a name="example-1"></a>Exemple :
 L’exemple suivant, basé sur la production de la chaîne dans l’exemple précédent, illustre la manière dont les trois types d’écritures sont créés. Il est basé sur le scénario suivant :  
 
 1.  L’utilisateur valide les liens achetés comme reçus avec un coût unitaire de 2,00 LCY.  
@@ -109,7 +109,7 @@ Le tableau suivant montre les écritures valeur résultantes.
 |3.b.|15/01/20|Réévaluation|20/01/20|-150,00|0.00|1|4|  
 |3.c.|15/01/20|Ecart|15/01/20|0.00|450,00|1|5|  
 
-## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation" />Déterminer si une sortie de stock est liée à la réévaluation
+## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Déterminer si une sortie de stock est liée à la réévaluation
 La date de la validation ou de la réévaluation est utilisée pour déterminer si une sortie de stock est affectée par une réévaluation.  
 
 Le tableau suivant montre les critères utilisés pour un article qui n’utilise pas le mode évaluation stock moyen.  
@@ -123,7 +123,7 @@ Le tableau suivant montre les critères utilisés pour un article qui n’utilis
 |E|Ultérieur au n° d’écriture réévaluation.|Égal à la date comptabilisation de réévaluation|Oui|  
 |F|Ultérieur au n° d’écriture réévaluation.|Ultérieur à la date comptabilisation de réévaluation|Oui|  
 
-### <a name="example-2" />Exemple :
+### <a name="example-2"></a>Exemple :
 L’exemple suivant, qui illustre la réévaluation d’un article qui utilise le mode d’évaluation du stock FIFO, est basé sur le scénario suivant :  
 
 1.  Le 01/01/20, l’utilisateur valide un achat de 6 unités.  
@@ -153,7 +153,7 @@ Le tableau suivant montre les écritures valeur résultantes.
 |F|01/04/20|Vente|01/04/20|-1|-10,00|7|8|  
 ||01/04/20|Vente|01/04/20|-1|2,00|7|12|  
 
-## <a name="wip-inventory-revaluation" />Réévaluation du stock en-cours
+## <a name="wip-inventory-revaluation"></a>Réévaluation du stock en-cours
 La réévaluation du stock en-cours implique de réévaluer les composants qui sont enregistrés en tant que membres du stock en-cours au moment de la réévaluation.  
 
 Pour cela, il est important d’établir des conventions sur le moment où un article est considéré comme une partie du stock TEC d’un point de vue financier. Dans [!INCLUDE[prod_short](includes/prod_short.md)], les conventions disponibles sont les suivantes :  
@@ -169,7 +169,7 @@ Stock TEC peut être réévalué tant que la date de réévaluation n’est pas 
 > [!CAUTION]  
 >  L’état **Évaluation du stock - TEC** affiche la valeur des écritures d’ordre de fabrication validées et peut donc créer un peu de confusion pour les articles TEC qui ont été réévalués.  
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : modes évaluation stock](design-details-costing-methods.md)   
  [Détails de conception : Évaluation du stock](design-details-inventory-valuation.md) [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  

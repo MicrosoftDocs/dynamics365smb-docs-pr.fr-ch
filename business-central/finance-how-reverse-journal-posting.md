@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 03/28/2023
 ms.custom: bap-template
 ---
-# <a name="reverse-journal-postings-and-undo-receiptsshipments" />Contrepasser une validation feuille et annuler les réceptions/envois
+# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Contrepasser une validation feuille et annuler les réceptions/envois
 
 La contrepassation des validations feuille est utile, par exemple, pour corriger les erreurs et pour effacer une ancienne écriture de régularisation avant d’en saisir une nouvelle. Une écriture contrepassée est identique à l’entrée d’origine, mais a un signe opposé dans le champ **Montant**. L’écriture contrepassée doit avoir le même numéro de document et la même date de publication que l’entrée d’origine. Une fois l’écriture contrepassée, créez l’écriture correcte.
 
@@ -20,7 +20,7 @@ Si vous avez effectué une validation de quantité négative incorrecte, comme u
 
 Si vous avez effectué une validation de quantité positive incorrecte, comme une expédition vente ou une expédition retour achat avec un nombre d’articles incorrect et que vous l’avez validée comme étant livrée (mais non facturée), vous pouvez annuler cette validation.
 
-## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry" />Pour contrepasser la validation feuille d’une écriture comptable
+## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Pour contrepasser la validation feuille d’une écriture comptable
 
 Vous pouvez inverser des écritures sur toutes les pages **Écritures comptables**. La procédure suivante se base sur la page **Écritures comptables**.
 
@@ -34,7 +34,7 @@ Vous pouvez inverser des écritures sur toutes les pages **Écritures comptables
 3. Sur la page **Contrepasser les écritures de transaction**, choisissez l’action **Contrepasser**.
 4. Cliquez sur **Oui** pour confirmer la contrepassation.
 
-## <a name="to-post-a-negative-entry" />Pour valider une écriture négative
+## <a name="to-post-a-negative-entry"></a>Pour valider une écriture négative
 
 Utilisez le champ **Correction** pour valider un débit négatif au lieu d’un crédit, ou pour valider un crédit négatif au lieu d’un débit sur un compte. Par défaut, le champ est disponible dans toutes les feuilles. Les champs **Montant débit** et **Montant crédit** comprennent l’écriture initiale et l’écriture corrigée. Ces champs n’ont aucune incidence sur le solde du compte.  
 
@@ -44,7 +44,7 @@ Utilisez le champ **Correction** pour valider un débit négatif au lieu d’un 
 4. Dans la ligne feuille que vous souhaitez activer pour les écritures négatives, sélectionnez la case à cocher **Correction**.  
 5. Pour valider la feuille, sélectionnez l’action **Valider**, puis le bouton **Oui**.
 
-## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt" />Pour annuler une validation de quantité sur une réception d’achat enregistrée
+## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>Pour annuler une validation de quantité sur une réception d’achat enregistrée
 
 Les étapes suivantes décrivent comment annuler une réception validée d’articles ou de ressources est décrite ci-après. La procédure est identique pour des livraison validées.
 
@@ -57,7 +57,7 @@ Une ligne de correction est ajoutée sous la ligne de la réception sélectionn�
 
 Les champs **Quantité reçue** et **Qté reçue non facturée** de la commande achat associée sont remis à zéro.
 
-## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment" />Pour annuler, puis effectuer à nouveau la validation de quantité sur les expéditions retour enregistrées
+## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Pour annuler, puis effectuer à nouveau la validation de quantité sur les expéditions retour enregistrées
 
 Les étapes suivantes décrivent comment :
 
@@ -83,7 +83,7 @@ La procédure est identique pour les réceptions retour enregistrées.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Annuler la validation d’assemblage](assembly-how-to-undo-assembly-posting.md)  
 [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  

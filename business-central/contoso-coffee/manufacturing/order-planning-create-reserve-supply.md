@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply" />Procédure pas-à-pas : Utiliser la planification des commandes pour créer et réserver un approvisionnement
+# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Procédure pas-à-pas : Utiliser la planification des commandes pour créer et réserver un approvisionnement
 
 Dans cet article, nous vous expliquons comment utiliser les données de démonstration de Contoso Coffee dans la planification des commandes.
 
-## <a name="scenario" />Scénario
+## <a name="scenario"></a>Scénario
 
 Vous êtes planificateur de production chez Contoso Coffee. Vous avez créé un ordre de fabrication pour 100 unités de l’article **SP-SCM1009, Airpot**, et vous souhaitez planifier des produits semi-finis pour cette commande. Vous utilisez la planification des commandes pour créer l’ordre de fabrication requis pour l’approvisionnement. Étant donné que vous créez l’ordre de fabrication pour répondre aux exigences d’une commande spécifique, vous décidez de réserver la production de l’ordre de fabrication.  
 
-## <a name="steps" />Étapes
+## <a name="steps"></a>Étapes
 
 1. Créez le nouvel ordre de fabrication lancé pour 100 unités d’article **SP-SCM1009, Airpot**.
 
@@ -59,7 +59,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous avez créé un 
 
 C’est tout pour la planification des commandes dans [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Introduction aux données de démonstration Contoso Coffee](../contoso-coffee-intro.md)  
 [À propos des ordres de fabrication](../../production-about-production-orders.md)  

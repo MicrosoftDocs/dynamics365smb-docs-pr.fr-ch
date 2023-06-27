@@ -8,15 +8,15 @@ ms.search.form: 'Report_707, Report_716, Report_813, Report_1001, Report_5807, R
 ms.date: 04/13/2023
 ms.author: andreipa
 ---
-# <a name="inventory-and-warehouse-reports-and-analytics-in-business-central" />États et analyses de stock et d’entrepôt dans Business Central
+# <a name="inventory-and-warehouse-reports-and-analytics-in-business-central"></a>États et analyses de stock et d’entrepôt dans Business Central
 
 Les états de stock et d’entrepôt dans [!INCLUDE [prod_short](includes/prod_short.md)] permettent aux professionnels des stocks et des affaires d’obtenir des informations et des statistiques sur les activités de stock et d’entrepôt actuelles et passées.  
 
-## <a name="reports" />États
+## <a name="reports"></a>États
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
 
-## <a name="tasks" />Tâches
+## <a name="tasks"></a>Tâches
 
 Les articles suivants décrivent certaines des tâches clés pour analyser l’état de votre entreprise :
 
@@ -24,7 +24,7 @@ Les articles suivants décrivent certaines des tâches clés pour analyser l’�
 * [Voir la disponibilité des articles](inventory-how-availability-overview.md)
 
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Configuration de stock](inventory-setup-inventory.md)  
 [Stock](inventory-manage-inventory.md)  

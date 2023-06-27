@@ -10,7 +10,7 @@ ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="allocate-costs-to-intercompany-partners" />Allouer les coûts aux partenaires intersociétés
+# <a name="allocate-costs-to-intercompany-partners"></a>Allouer les coûts aux partenaires intersociétés
 Lorsque vous utilisez des écritures intersociétés pour transférer des documents entre sociétés partenaires, les paramètres liés à la TVA (principalement le groupe de comptabilisation TVA) affectés aux comptes client ou fournisseur (associés au partenaire intersociétés) contrôlent si et comment la TVA est calculée et enregistrée. Vous pouvez également effectuer des répartitions de coûts directement à partir d’une commande d’achat vers des sociétés partenaires. Par exemple, si vous enregistrez une facture achat d’un fournisseur externe et si vous souhaitez répartir tout ou partie des coûts à un ou plusieurs partenaires intersociétés.
 
 Vous pouvez affecter les coûts à un ou plusieurs partenaires intersociétés en utilisant les éléments suivants :
@@ -18,7 +18,7 @@ Vous pouvez affecter les coûts à un ou plusieurs partenaires intersociétés e
 * **Journaux généraux intersociétés** - Ces journaux sont utiles lors de l’achat d’un service. Par exemple, lorsqu’une société mère engage un service pour mettre en place des systèmes informatiques dans deux filiales. La facture est envoyée à la société mère, mais les coûts sont imputés aux partenaires intersociétés. Pour plus d’informations, consultez [Utiliser les documents et les feuilles intersociétés](intercompany-how-work-documents-journals.md).
 * Commandes achat et factures - L’utilisation des documents d’achat est utile lorsque les fonctions d’achat, par exemple, les dépenses d’exploitation, sont centralisées dans une entreprise, puis allouées aux partenaires intersociétés.
 
-## <a name="to-allocate-costs-using-an-intercompany-general-journal" />Pour allouer les coûts à l’aide d’un journal général intersociétés
+## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Pour allouer les coûts à l’aide d’un journal général intersociétés
 Pour saisir une ligne dans un journal général intersociétés, procédez comme suit. 
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles feuille intracom.**, puis sélectionnez le lien associé.
@@ -42,7 +42,7 @@ Pour saisir une ligne dans un journal général intersociétés, procédez comme
    1. Renseignez les champs restants selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Répétez ces étapes pour chaque partenaire intersociétés qui doit partager le coût.
 1. Pour valider le document et répartir les coûts, sélectionnez **Valider**.  
 
-## <a name="to-allocate-costs-using-a-purchase-document" />Pour allouer les coûts à l’aide d’un document d’achat
+## <a name="to-allocate-costs-using-a-purchase-document"></a>Pour allouer les coûts à l’aide d’un document d’achat
 La procédure suivante décrit comment répartir les coûts à l’aide d’une facture achat. La procédure est identique pour des commandes achat.
 
 > [!NOTE]
@@ -60,12 +60,12 @@ La procédure suivante décrit comment répartir les coûts à l’aide d’une 
 1. Renseignez les champs restants selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 1. Pour valider la commande achat, choisissez **Valider**.
 
-## <a name="to-send-the-allocated-costs-to-intercompany-partners" />Pour envoyer les coûts alloués aux partenaires intersociétés
+## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Pour envoyer les coûts alloués aux partenaires intersociétés
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Transactions boîte d’envoi IC**, puis choisissez le lien associé.
 2. Choisissez les lignes à envoyer, puis choisissez l’action **Envoyer au partenaire IC**. 
 3. Pour allouer les coûts, choisissez l’action **Terminer les actions des lignes**.
 
-## <a name="calculating-vat-for-cost-distributions" />Calcul de la TVA pour les répartitions de coûts
+## <a name="calculating-vat-for-cost-distributions"></a>Calcul de la TVA pour les répartitions de coûts
 Lorsque vous utilisez un document pour répartir les coûts entre les partenaires intersociétés, deux paramètres de TVA doivent être pris en compte : 
 * Les paramètres du compte général pour les dépenses :
    * Si les groupes de comptabilisation commerciale générale ou commerciale TVA sont configurés sur le compte général, le calcul dépend des groupes et des groupes de produits de la ligne de document.
@@ -77,7 +77,7 @@ Lorsque vous utilisez un document pour répartir les coûts entre les partenaire
 > [!NOTE]
 > Il est important de valider à la fois la configuration du partenaire intersociétés et la configuration du compte général (pour le compte de dépenses utilisé pour la répartition des coûts) avant d’allouer les coûts aux partenaires intersociétés.
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Configuration des fonctionnalités intersociétés](intercompany-how-setup.md)  
 [Gestion des transactions intersociétés](intercompany-manage.md)  
 [Finances](finance.md)  

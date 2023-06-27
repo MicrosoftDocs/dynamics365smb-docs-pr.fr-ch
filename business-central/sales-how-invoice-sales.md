@@ -11,7 +11,7 @@ ms.search.form: '43, 48, 9301'
 ms.date: 09/01/2022
 ms.author: edupont
 ---
-# <a name="invoice-sales" />Facturer des ventes
+# <a name="invoice-sales"></a>Facturer des ventes
 
 Vous pouvez généralement créer une commande vente ou une facture vente pour enregistrer votre accord avec un client pour vendre certains produits selon certaines conditions de livraison et de paiement.  
 
@@ -25,7 +25,7 @@ Pour toutes les autres situations, les commandes vente et les factures vente fon
 
 Vous pouvez négocier avec le client en créant d’abord un devis, que vous pouvez convertir en facture vente ou en commande vente lorsque vous êtes d’accord sur la vente. En savoir plus, [Créer des devis](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices" />Créer des factures vente
+## <a name="create-sales-invoices"></a>Créer des factures vente
 
 Si le client décide d’acheter, vous validez la facture vente pour créer les écritures quantité et valeur associées. Lorsque vous validez la facture vente, vous pouvez également envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé des informations de facturation et de paiement, par exemple un lien vers Paypal. En savoir plus sur [Envoyer des documents par e-mail](ui-how-send-documents-email.md). Lorsque le client paie la facture, vous pouvez enregistrer ce paiement de différentes manières, selon la taille et les flux de travail favoris de votre organisation. En savoir plus sur la section [Enregistrement des paiements](#registering-payments).  
 
@@ -33,7 +33,7 @@ Les fiches article peuvent être de type **Stock**, **Service** et **Hors stock*
 
 Vous pouvez remplir les champs relatifs au client sur la facture vente de deux façons selon que le client est déjà enregistré ou non. Reportez-vous à l’étape 2 de la procédure ci-dessous.
 
-### <a name="to-create-a-sales-invoice" />Pour créer une facture vente :
+### <a name="to-create-a-sales-invoice"></a>Pour créer une facture vente :
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.  
 2. Dans le champ **Client**, entrez le nom d’un client existant. Si, toutefois, le client est nouveau et n’est donc pas enregistré, suivez ces étapes pour remplir les informations client standard sur la page **Facture vente** :
@@ -88,11 +88,11 @@ La boîte de dialogue **Valider et envoyer la confirmation** s’ouvre et indiqu
 
 Les écritures comptables article et client associés sont à présent créés dans votre système, et la facture vente est sortie en tant que document au format PDF. La facture vente est supprimée de la liste des factures vente et remplacée par un nouveau document dans la liste des factures vente validées.  
 
-### <a name="calculating-invoice-discounts-on-sales" />Calcul de remises facture pour des ventes
+### <a name="calculating-invoice-discounts-on-sales"></a>Calcul de remises facture pour des ventes
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices" />Factures enregistrées
+## <a name="posted-invoices"></a>Factures enregistrées
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -100,7 +100,7 @@ Vous pouvez facilement corriger ou annuler une facture vente validée avant qu�
 
 [Ouvrir la liste des **factures vente validées**](https://businesscentral.dynamics.com/?page=143) dans [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="registering-payments" />Enregistrement des paiements
+## <a name="registering-payments"></a>Enregistrement des paiements
 
 Selon les besoins de votre entreprise, vous pouvez être payé et enregistrer ce paiement de diverses manières : manuellement, automatiquement, et via des services de paiement.  
 
@@ -115,13 +115,13 @@ Vous pouvez même créer des factures à paiement direct pour les clients non en
 > [!TIP]
 > Si vous souhaitez envoyer à vos clients des rappels de paiements en retard, vous devez configurer des niveaux et des conditions de rappel. En savoir plus, [Configurer les conditions et niveaux et textes de relance](finance-setup-reminders.md).  
 
-## <a name="external-document-numbers" />Numéros de document externe
+## <a name="external-document-numbers"></a>Numéros de document externe
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index) associée.
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index) associée.
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  

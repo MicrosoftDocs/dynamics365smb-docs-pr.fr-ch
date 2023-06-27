@@ -10,7 +10,7 @@ ms.search.form: 100
 ms.date: 08/25/2022
 ms.author: bholtorf
 ---
-# <a name="work-with-accounting-periods-and-fiscal-years" />Utiliser des périodes et exercices comptables
+# <a name="work-with-accounting-periods-and-fiscal-years"></a>Utiliser des périodes et exercices comptables
 
 Les périodes comptables, également appelées périodes de report, sont des périodes pour lesquelles une société ou une organisation présente ses performances financières, en générant par exemple leurs résultats ou leur bilan. Généralement, les périodes comptables sont liées à l’exercice comptable de la société, qui peut contenir plusieurs périodes comptables, telles que des mois ou des trimestres.
 
@@ -20,11 +20,11 @@ Pour de nombreuses entreprises, l’année fiscale ne correspond pas à l’ann�
 
 Vous pouvez utiliser des périodes comptables dans la génération d’états, par exemple lorsque vous consultez les écritures validées sur la page **Réalisé/budget** où l’intervalle de génération d’état est spécifié. L’une des options consiste à spécifier la génération d’état par période comptable. Vous pouvez également créer un état financier qui compare les résultats de différentes périodes comptables.
 
-## <a name="creating-a-new-fiscal-year" />Création d’exercice comptable
+## <a name="creating-a-new-fiscal-year"></a>Création d’exercice comptable
 
 Vous pouvez créer des périodes comptables en bloc, à l’aide du traitement par lots **Créer exercice comptable**, ou manuellement.
 
-### <a name="how-to-create-accounting-periods-in-bulk" />Comment créer des périodes comptables en bloc
+### <a name="how-to-create-accounting-periods-in-bulk"></a>Comment créer des périodes comptables en bloc
 
 Utilisez le traitement par lots **Créer exercice comptable** pour diviser un exercice comptable en périodes de même durée.  
 
@@ -35,7 +35,7 @@ Utilisez le traitement par lots **Créer exercice comptable** pour diviser un ex
 5. Dans le champ **Base période**, entrez une durée pour chaque période. Les identificateurs de durée sont 1M pour un mois, 1T pour un trimestre, et 1Y pour une année.  
 6. Cliquez sur **OK**.  
 
-### <a name="how-to-create-accounting-periods-manually" />Comment créer des périodes comptables manuellement
+### <a name="how-to-create-accounting-periods-manually"></a>Comment créer des périodes comptables manuellement
 
 Si les périodes comptables de l’exercice comptable ont différentes durées, comme le calendrier 4-4-5 utilisé dans la vente au détail, vous pouvez les établir manuellement.  
   
@@ -44,7 +44,7 @@ Si les périodes comptables de l’exercice comptable ont différentes durées, 
 3. Activez la case à cocher **Nouvel exercice comptable** pour indiquer qu’il s’agit de la première période de l’exercice. [!INCLUDE[prod_short](includes/prod_short.md)] utilise cette période pour déterminer les périodes à clôturer en fin d’exercice.
 4. Répétez les étapes 2 et 3 pour chaque période restante.  
 
-## <a name="closing-a-fiscal-year" />Clôture d’un exercice comptable
+## <a name="closing-a-fiscal-year"></a>Clôture d’un exercice comptable
 
 Clôturer l’exercice comptable est l’une des tâches pour clôturer les livres. Une fois l’exercice comptable clôturé, les cases **Fermé** et **Verrouillage date** sont activées pour toutes les périodes de l’exercice. Vous ne pouvez pas rouvrir un exercice ou désactiver les cases.
 
@@ -54,11 +54,11 @@ Clôturer l’exercice comptable est l’une des tâches pour clôturer les livr
 1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") entrez **Périodes comptables**, puis sélectionnez le lien associé.  
 2. Choisissez l’action **Clôturer exercice**.  
 
-## <a name="posting-entries-to-a-closed-fiscal-year" />Validation d’écritures dans un exercice comptable clôturé
+## <a name="posting-entries-to-a-closed-fiscal-year"></a>Validation d’écritures dans un exercice comptable clôturé
 
 Même si un exercice comptable est clôturé, vous pouvez toujours y valider des écritures. Dans ce cas, les écritures sont marquées comme validées dans un exercice comptable clôturé et la case à cocher **Ecr. exercice précédent** est activée. Par défaut, la case à cocher n’est pas affichée sur la page, mais vous pouvez l’ajouter. Les étapes suivantes consistent à clôturer les comptes de gestion traités et à transférer les résultats de l’année sur un compte de bilan. Répétez ces étapes chaque fois que vous validez des écritures dans un exercice comptable clôturé.
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Clôture des livres](year-close-books.md)  
 [Clôture des exercices et des périodes](year-close-years-periods.md)  

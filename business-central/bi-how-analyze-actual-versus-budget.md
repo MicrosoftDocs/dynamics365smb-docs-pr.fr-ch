@@ -11,13 +11,13 @@ ms.search.form: '120, 121, 422'
 ms.date: 09/14/2022
 ms.author: edupont
 ---
-# <a name="analyze-actual-amounts-versus-budgeted-amounts" />Analyser les montants réalisés et les montants budgétés
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analyser les montants réalisés et les montants budgétés
 
 Lors de la collecte, l’analyse, et le partage des données de votre société, vous voyez les montants réels comparés aux montants budgétés de tous les comptes et pour plusieurs périodes.
 
 Pour analyser les montants budgétés, vous devez d’abord créer des budgets comptabilité. Pour plus d’informations, consultez [Créer des budgets](finance-how-create-budgets.md).
 
-## <a name="view-a-gl-budget" />Afficher un budget comptabilité
+## <a name="view-a-gl-budget"></a>Afficher un budget comptabilité
 
 Dans un budget doté d’axes, vous pouvez filtrer les écritures et visualiser des budgets spécifiques.
 
@@ -34,7 +34,7 @@ Dans un budget doté d’axes, vous pouvez filtrer les écritures et visualiser 
 > [!TIP]  
 > Utilisez l’action **Modifier le budget** pour modifier le budget. Sur la page des budgets, choisissez un montant pour afficher les écritures Budget sous-jacentes.
 
-## <a name="view-actual-and-budgeted-amounts-for-all-accounts" />Afficher les montants budgétés et réalisés de tous les comptes
+## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>Afficher les montants budgétés et réalisés de tous les comptes
 
 Vous pouvez afficher des budgets et les comparer aux chiffres réels dans différents modules de [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -51,7 +51,7 @@ Les colonnes les plus à gauche contiennent le plan comptable. Sur les cinq colo
 > [!TIP]  
 > Le champ **Afficher par** de la page **Réalisé/Budget par compte** permet de sélectionner la longueur de la période. Le champ **Afficher en tant que** permet de sélectionner le mode de calcul des montants, à savoir **Solde période** ou **Solde au**. Choisissez **Période précédente** ou **Période suivante** pour changer de période.  
 
-## <a name="to-view-actual-and-budgeted-amounts-for-several-periods" />Pour afficher les montants budgétés et réalisés de plusieurs périodes
+## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Pour afficher les montants budgétés et réalisés de plusieurs périodes
 
 Au lieu de visualiser les montants budgétés et réalisés de tous les comptes au sein d’une seule période, vous pouvez afficher un certain nombre de périodes pour un seul compte.  
 
@@ -60,9 +60,9 @@ Au lieu de visualiser les montants budgétés et réalisés de tous les comptes 
 3. Dans le raccourci **Options**, renseignez les champs nécessaires pour définir ce qui est affiché dans la table.  
 4. Dans le raccourci **Lignes**, survolez un champ de la table pour lire une brève description du montant affiché.  
 
-## <a name="see-related-training-at-microsoft-learn" />Voir la formation associée sur [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Décisionnel pour le secteur de la finance](bi.md)  
 [Utiliser les états financiers](bi-how-work-account-schedule.md)  

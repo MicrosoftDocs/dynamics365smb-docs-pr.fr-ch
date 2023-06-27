@@ -10,13 +10,13 @@ ms.search.form: '7312, 7313, 7314, 7321, 7322, 7323, 7329'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up-put-away-templates" />Configurer des modèles rangement
+# <a name="set-up-put-away-templates"></a>Configurer des modèles rangement
 
 A l’aide de la fonctionnalité de prélèvement et de rangement suggérés, l’emplacement le mieux approprié à vos articles à un moment donné est suggéré, en fonction du modèle rangement configuré pour l’entrepôt, des priorités affectées aux emplacements et des quantités minimale et maximale définies pour les emplacements associés.  
 
 Vous pouvez configurer un certain nombre de modèles rangement et en sélectionner un pour gérer les rangements dans votre entrepôt. Vous pouvez également sélectionner un modèle rangement pour un article ou un point de stock disposant d’exigences spéciales en matière de rangement.  
 
-## <a name="to-set-up-put-away-templates" />Pour configurer des modèles rangement
+## <a name="to-set-up-put-away-templates"></a>Pour configurer des modèles rangement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles rangement**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -31,9 +31,9 @@ Vous pouvez configurer un certain nombre de modèles rangement et en sélectionn
 
 Vous pouvez créer plusieurs modèles rangement et les appliquer comme vous le souhaitez. On se réfère d’abord au modèle rangement sélectionné éventuel pour l’article ou le point de stock. Si ces champs ne sont pas renseignés, alors le modèle rangement sélectionné pour l’entrepôt sur le raccourci **Config. emplacement** de la fiche magasin sera utilisé.  
 
-## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/put-away-templates/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/put-away-templates/) associée
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="use-the--apps-in-power-bi" />Utiliser les applications [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI
+# <a name="use-the--apps-in-power-bi"></a>Utiliser les applications [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI
 
 > **S’APPLIQUE À :** [!INCLUDE [prod_long](includes/prod_long.md)] en ligne 
 
@@ -20,7 +20,7 @@ ms.author: jswymer
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Finance  
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Sales
 
-## <a name="overview" />Aperçu
+## <a name="overview"></a>Aperçu
 
 Chaque application comprend plusieurs états dans lesquels vous pouvez explorer les données, y compris les fonctionnalités suivantes :
 
@@ -34,7 +34,7 @@ Les applications sont conçues pour fonctionner avec les données de toute soci�
 > [!NOTE]
 > Vous pouvez également générer vos propres états et tableaux de bord dans Power BI selon vos données [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Connexion de vos données métier à Power BI](across-how-use-financials-data-source-powerbi.md). 
 
-## <a name="prerequisites" />Conditions préalables
+## <a name="prerequisites"></a>Conditions préalables
 
 Les applications Power BI nécessitent des autorisations sur les tables à partir desquelles les données sont extraites et les services Web utilisés pour récupérer les données. La table suivante répertorie les services Web requis pour chaque application Power BI :
     
@@ -47,11 +47,11 @@ Les applications Power BI nécessitent des autorisations sur les tables à parti
 > [!TIP]
 > Pour trouver facilement les services Web, il suffit de rechercher *services web* dans [!INCLUDE[prod_short](includes/prod_short.md)]. Sur la page **Services Web**, assurez-vous que le champ **Publier** est sélectionné pour les services Web répertoriés ci-dessus. Pour plus d’informations, voir [Publication d’un service Web](across-how-publish-web-service.md).
 
-## <a name="get-ready" />Mise en route
+## <a name="get-ready"></a>Mise en route
 
 Inscrivez-vous au service Power BI. Si vous ne vous êtes pas encore inscrit, accédez à [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Au moment de votre inscription, utilisez votre adresse e-mail professionnelle et votre mot de passe.
 
-## <a name="install-a--app-in-power-bi" />Installer une application [!INCLUDE[prod_short](includes/prod_short.md)] dans Power BI
+## <a name="install-a--app-in-power-bi"></a>Installer une application [!INCLUDE[prod_short](includes/prod_short.md)] dans Power BI
 
 1. Ouvrez votre navigateur, accédez à [https://powerbi.microsoft.com](https://powerbi.microsoft.com) et connectez-vous à votre compte.
 2. Sélectionnez **Extraire les données** en bas du volet de navigation gauche.  
@@ -69,7 +69,7 @@ Inscrivez-vous au service Power BI. Si vous ne vous êtes pas encore inscrit, ac
 
     Ensuite l’application sera disponible à partir d’**Applications** dans le menu de navigation dans Power BI.
 
-## <a name="connect-the--app-to-your-data" />Connecter l’application [!INCLUDE[prod_short](includes/prod_short.md)] à vos données
+## <a name="connect-the--app-to-your-data"></a>Connecter l’application [!INCLUDE[prod_short](includes/prod_short.md)] à vos données
 
 1. Sous **Applications**, sélectionnez l’application Business Central, puis **Connecter**.
 2. À l’invite, renseignez les champs **Nom de la société** et **Environnement** avec les informations concernant l’instance [!INCLUDE[prod_short](includes/prod_short.md)] à laquelle vous souhaitez vous connecter.
@@ -84,23 +84,23 @@ Inscrivez-vous au service Power BI. Si vous ne vous êtes pas encore inscrit, ac
 
     ![Sélectionnez Dynamics 365 Business Central et sélectionnez Obtenir maintenant.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-## <a name="fixing-problems" />Résolution des problèmes
+## <a name="fixing-problems"></a>Résolution des problèmes
 
 Le tableau de bord Power BI repose sur les services Web publiés répertoriés ci-dessus. Il affiche les données de la société de démonstration ou de votre propre entreprise si vous importez des données de votre solution financière actuelle. Toutefois, si une erreur se produit, cette section fournit une solution de rechange pour les problèmes les plus courants.  
 
-### <a name="you-dont-have-a-power-bi-account" />Vous n’avez pas de compte Power BI
+### <a name="you-dont-have-a-power-bi-account"></a>Vous n’avez pas de compte Power BI
 
 Aucun compte Power BI n’a été créé. Vous devez avoir une licence pour obtenir un compte Power BI valide. De plus, vous devez vous être déjà connecté à Power BI pour créer votre espace de travail Power BI.  
 
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display" />Message : Aucun état n’est activé. Choisissez Sélectionner un état pour afficher la liste des états disponibles.
+### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Message : Aucun état n’est activé. Choisissez Sélectionner un état pour afficher la liste des états disponibles.
 
 Ce message apparaît si l’état par défaut n’a pas pu être déployé sur votre espace de travail Power BI. Ou l’état a été déployé, mais n’a pas été actualisé avec succès. Si ce problème se produit, accédez à l’état dans votre espace de travail Power BI, sélectionnez **Ensemble de données**, **Paramètres**, puis mettez à jour les informations d’identification manuellement. Une fois le jeu de données actualisé, revenez dans [!INCLUDE[prod_short](includes/prod_short.md)] et sélectionnez manuellement l’état dans la page **Sélectionner des états**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi" />Vous devez disposer d’une licence Power BI Pro pour installer l’application [!INCLUDE[prod_short](includes/prod_short.md)] dans Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi"></a>Vous devez disposer d’une licence Power BI Pro pour installer l’application [!INCLUDE[prod_short](includes/prod_short.md)] dans Power BI
 
 Vous avez besoin d’une [licence Power BI Pro](/power-bi/service-features-license-type) pour partager votre contenu, ainsi que les personnes avec lesquelles vous le partagez. Le contenu doit se trouver dans un espace de travail dans une [Capacité Premium](/power-bi/service-premium-what-is). Pour en savoir plus, consultez [Moyens de partager votre travail dans Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
-### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid" />« Échec de la validation des paramètres, assurez-vous que tous les paramètres sont valides »
+### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>« Échec de la validation des paramètres, assurez-vous que tous les paramètres sont valides »
 
 Cette erreur indique qu’un ou plusieurs paramètres ne sont pas valides.
 
@@ -109,7 +109,7 @@ Cette erreur indique qu’un ou plusieurs paramètres ne sont pas valides.
 - Si vous vous connectez à [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous avez entré une URL qui n’est pas valide. Vous pouvez vérifier l’URL sur la page **Services Web** dans [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Un port n’est pas ouvert pour permettre à la demande de passer par votre pare-feu.
 
-### <a name="cant-sign-in" />Connexion impossible
+### <a name="cant-sign-in"></a>Connexion impossible
 
 Si vous obtenez un message d’erreur de type échec après avoir utilisé vos informations d’identification utilisateur [!INCLUDE[prod_short](includes/prod_short.md)] pour vous connecter, vous rencontrez peut-être l’un des problèmes suivants :
 
@@ -117,36 +117,36 @@ Si vous obtenez un message d’erreur de type échec après avoir utilisé vos i
 - Vous avez sélectionné un type d’authentification autre que Basique si vous vous connectez à [!INCLUDE[prod_short](includes/prod_short.md)] sur site.
 - Vous n’avez pas entré de nom d’utilisateur ni de mot de passe valide.
 
-### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again" />Message : Votre source de données ne peut pas être actualisée, car les informations d’identification ne sont pas valides. Veuillez mettre à jour vos informations d’identification et réessayer.
+### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again"></a>Message : Votre source de données ne peut pas être actualisée, car les informations d’identification ne sont pas valides. Veuillez mettre à jour vos informations d’identification et réessayer.
 
 Pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site, le problème peut être que l’URL OData n’est exposée qu’au réseau local.
 
-### <a name="incorrect-company-name" />Nom de société incorrect
+### <a name="incorrect-company-name"></a>Nom de société incorrect
 
 Une erreur commune consiste à entrer le nom complet de la société au lieu du nom de la société. Pour trouver le nom de la société, cherchez dans **Sociétés**. Utilisez ensuite le champ **Nom** au moment de saisir le nom de votre société.
 
-### <a name="the-key-didnt-match-any-rows-in-the-table" />La clé ne correspond à aucune ligne de la table
+### <a name="the-key-didnt-match-any-rows-in-the-table"></a>La clé ne correspond à aucune ligne de la table
 
 Si vous entrez un nom de société non valide pendant le processus de connexion, le message d’erreur suivant « La clé ne correspond à aucune ligne de la table » peut s’afficher. Indiquez le nom de société correct, puis reconnectez-vous.
 
-### <a name="historical-data-appears-to-be-missing" />Les données historiques semblent manquer
+### <a name="historical-data-appears-to-be-missing"></a>Les données historiques semblent manquer
 
 Une fois que l’application Power BI est installée et que vos données apparaissent dans Power BI, vous remarquerez peut-être que toutes vos données ne s’affichent pas. Les ensembles de données sont filtrés pour ne renvoyer que les 365 derniers jours de données. Ce paramètre par défaut est en place pour accélérer les états.  
 
-### <a name="i-only-see-data-for-a-single-company" />Je ne vois que des données pour une seule société
+### <a name="i-only-see-data-for-a-single-company"></a>Je ne vois que des données pour une seule société
 
 L’application Power BI affichera uniquement les données de la société [!INCLUDE[prod_short](includes/prod_short.md)] qui a été définie lorsque l’application Power BI a été installée. Les données provenant d’autres sociétés peuvent être ajoutées aux états en ajoutant de nouvelles requêtes utilisant différentes sociétés en tant que source de données.  
 
-### <a name="what-now" />Et ensuite ?
+### <a name="what-now"></a>Et ensuite ?
 
 - Cliquez sur [poser une question dans la zone Q&R](/power-bi/service-q-and-a-tips) en haut du tableau de bord.
 - [Modifiez les mosaïques](/power-bi/service-dashboard-edit-tile) du tableau de bord.  
 - [Sélectionnez une mosaïque](/power-bi/service-dashboard-tiles) pour ouvrir l’état sous-jacent.  
 - Par défaut, votre ensemble de données n’est pas planifié pour être actualisé. Vous pouvez modifier le calendrier d’actualisation ou essayer de l’actualiser à la demande à l’aide de **Actualiser maintenant**. Pour plus d’informations, voir [Configuration d’une actualisation planifiée](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Business Central et Power BI](admin-powerbi.md)  
 [Vue d’ensemble Architecture et composant d’intégration Power BI pour [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
