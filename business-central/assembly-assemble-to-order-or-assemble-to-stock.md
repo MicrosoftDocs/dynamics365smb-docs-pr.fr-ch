@@ -96,7 +96,7 @@ D’après cet exemple, vous pouvez modifier le champ **Quantité à assembler**
 * La quantité minimum que vous pouvez saisir est 1. Vous devez assembler au moins une unité pour pouvoir vendre les quatre, en supposant que les trois autres soient disponibles dans le stock.  
 * La quantité maximum que vous pouvez saisir est 4. Cette limite garantit que vous n’assemblez pas plus d’articles que nécessaire pour la vente.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

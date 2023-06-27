@@ -122,7 +122,7 @@ Si vous utilisez l’application Outlook, sélectionnez simplement le **Lien ver
 > À partir la 1re vague de lancement 2022, les documents s’ouvrent dans une nouvelle fenêtre de navigateur avec toutes les fonctionnalités que vous connaissez de [!INCLUDE [prod_short](includes/prod_short.md)]. Vous pouvez naviguer d’un document à une liste et inversement, ouvrir des listes dans Excel, envoyer des documents à imprimer et exécuter ou prévisualiser des états associés. Vous disposez également de tous les raccourcis clavier familiers lorsque vous ouvrez des documents à partir d’Outlook.  
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

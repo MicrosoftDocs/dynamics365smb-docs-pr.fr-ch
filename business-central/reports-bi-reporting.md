@@ -26,7 +26,7 @@ Le tableau suivant couvre les principales fonctionnalités d’informatique déc
 | Intégrer des outils de veille économique externes avec [!INCLUDE[prod_short](includes/prod_short.md)].| [Outils externes de Business Intelligence](reports-external-analysis.md) |
 |Modifier la mise en page des rapports ou même à développer vos propres rapports à partir de rien. |[Élaboration de rapports](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) associée.
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) associée.
 
 ## <a name="see-also" />Voir aussi
 

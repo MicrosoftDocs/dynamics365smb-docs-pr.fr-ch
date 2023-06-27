@@ -37,7 +37,7 @@ Il existe deux façons d’ouvrir la page **Paramètres** : 1) à partir de la 
 [Résolution des incidents dans Teams](admin-teams-troubleshooting.md)  
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -66,7 +66,7 @@ Vous pouvez regrouper plusieurs immobilisations en une, par exemple lorsque vous
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreclassify-fixed-assets" />Voir la [formation Microsoft](/training/paths/reclassify-fixed-assets/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/reclassify-fixed-assets/) associée
 
 ## <a name="see-also" />Voir aussi
 

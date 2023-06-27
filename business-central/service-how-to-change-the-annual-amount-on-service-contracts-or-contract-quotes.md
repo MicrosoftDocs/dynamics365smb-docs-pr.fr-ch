@@ -75,7 +75,7 @@ Si vous modifiez le montant annuel du contrat service ou du devis contrat, vous 
 
 Les étapes sont répétées pour chaque ligne contrat.  
 
-#### <a name="example" />Exemple :
+#### <a name="example-1" />Exemple :
 La case à cocher **Autoriser montants non soldés** n’est pas activé dans le contrat service qui contient trois lignes de contrat avec les informations suivantes.  
 
 |Article ;|Coût ligne|Valeur ligne|% remise ligne|Montant remise ligne|Montant ligne|Marge|  
@@ -113,7 +113,7 @@ Si vous modifiez le montant annuel du contrat service ou du devis contrat, vous 
     * % remise ligne = Montant remise ligne / Valeur ligne * 100.  
     * Marge = Montant ligne - Coût ligne.  
 
-#### <a name="example" />Exemple :
+#### <a name="example-2" />Exemple :
 La case à cocher **Autoriser montants non soldés** n’est pas activé dans le contrat service qui contient trois lignes de contrat avec les informations suivantes.  
 
 |Article ;|Coût ligne|Valeur ligne|% remise ligne|Montant remise ligne|Montant ligne|Marge|  

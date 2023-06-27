@@ -26,7 +26,7 @@ Il est important d’entrer des valeurs de configuration correctes dès le débu
 [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

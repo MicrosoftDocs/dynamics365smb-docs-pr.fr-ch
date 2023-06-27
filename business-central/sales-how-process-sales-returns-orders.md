@@ -95,7 +95,7 @@ Vous pouvez valider ce prix augmenté en tant que frais annexes dans un avoir ou
 
 Lorsque vous validez la commande retour vente, les frais de restockage sont ajoutés au montant de l’écriture vente appropriée. De cette manière, vous pouvez maintenir la précision de l’évaluation stock.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/return-items-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/return-items-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

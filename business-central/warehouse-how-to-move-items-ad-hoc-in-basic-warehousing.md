@@ -89,7 +89,7 @@ Au lieu d’utiliser des documents de mouvement, vous pouvez enregistrer des mou
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Voir la [formation Microsoft](/training/modules/manage-internal-warehouse-processes/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/manage-internal-warehouse-processes/) associée
 
 ## <a name="see-also" />Voir aussi
 

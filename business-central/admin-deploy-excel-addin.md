@@ -35,7 +35,7 @@ Pour l’utilisateur final, l’expérience d’installation est différente dan
 
 Avec ces deux options de déploiement, le complément est automatiquement configuré pour se connecter à [!INCLUDE[prod_short](includes/prod_short.md)]. Une troisième option de déploiement est l’installation manuelle du complément directement à partir d’Excel. Avec cette option, l’utilisateur doit configurer le complément pour se connecter à [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="a-nameswitchaswitching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Passage de l’acquisition individuelle au déploiement Centralisé, ou inversement
+### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Passage de l’acquisition individuelle au déploiement Centralisé, ou inversement
 
 Lorsque vous passez de l’acquisition individuelle du complément au déploiement centralisé, ou vice versa, les fichiers Excel créés par les utilisateurs avant la transition sont affectés. Après la transition, les utilisateurs peuvent toujours ouvrir toutes les feuilles de calcul Excel précédemment créées à l’aide de l’action **Modifier dans Excel** ou créés manuellement en configurant le complément Excel. Mais ils ne peuvent pas mettre à jour les données du fichier provenant de Business Central ni de transmettre les mises à jour à Business Central
 
@@ -87,7 +87,7 @@ Une fois terminé, vous pouvez toujours modifier le déploiement dans le centre 
 > [!NOTE]
 > Il peut s’écouler jusqu’à 24 heures avant que le complément ne se déploie automatiquement dans l’instance Excel des utilisateurs.
 
-## <a name="a-nameinstallaindividual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Acquisition individuelle : installer le complément manuellement pour votre propre usage
+## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Acquisition individuelle : installer le complément manuellement pour votre propre usage
 
 Dans la plupart des cas, lorsque vous ouvrez Excel à partir de Business Central, le complément sera soit installé automatiquement pour vous, soit vous serez invité à l’installer. Cependant, il peut arriver que vous deviez installer manuellement le complément.
 
@@ -159,7 +159,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

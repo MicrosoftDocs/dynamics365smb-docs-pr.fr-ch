@@ -81,7 +81,7 @@ Un magasinier peut créer un nouveau rangement stock basé sur le document origi
     * Valider la réception des lignes du document origine qui ont été rangées
     * Si le magasin utilise des emplacements, la validation crée également des écritures entrepôt pour valider les modifications apportées aux quantités emplacement.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Voir la [formation Microsoft](/training/modules/receive-put-away-items/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/receive-put-away-items/) associée
 
 ## <a name="see-also" />Voir aussi
 

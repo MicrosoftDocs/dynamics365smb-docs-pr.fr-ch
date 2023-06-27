@@ -27,7 +27,7 @@ Vous pouvez saisir toutes les données pertinentes sur la page **Informations so
 
 Une fois que vous avez terminé de remplir les informations, vous pouvez fermer la page.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

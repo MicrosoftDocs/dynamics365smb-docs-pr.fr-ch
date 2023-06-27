@@ -55,7 +55,7 @@ Le connecteur Shopify ne fonctionne pas pour [Intégrer les applications](/dynam
 
 ## <a name="what-support-is-offered-for-the-shopify-connector" />Quel support est proposé pour le connecteur Shopify ?
 
-### <a name="includeprodshortincludesprodshortmd" />[!INCLUDE[prod_short](../includes/prod_short.md)]
+### [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 Le connecteur Shopify est couvert par le modèle de support actuel. En savoir plus dans la rubrique [Support technique](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (en anglais uniquement).
 

@@ -174,7 +174,7 @@ Les étapes suivantes illustrent les actions prises par divers utilisateurs et l
 
 :::image type="content" source="media/binflow.png" alt-text="Aperçu de quand et comment le champ Code emplacement est renseigné.":::
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Voir la [formation Microsoft](/training/paths/pick-ship-items-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/pick-ship-items-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -32,6 +32,6 @@ Le tableau ci-dessous indique les connexions aux services Microsoft qui sont aut
 
 Votre vie privée est importante pour notre société. Pour en savoir plus sur la manière dont Microsoft traite vos données, consultez [Déclaration de confidentialité Microsoft](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

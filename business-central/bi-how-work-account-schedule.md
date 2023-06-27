@@ -184,7 +184,7 @@ Vous pouvez importer et exporter des états financiers sous forme de packages de
 > [!NOTE]
 > Lorsque vous importez des états financiers, les enregistrements existants portant les mêmes noms que ceux que vous importez seront supprimés.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/configure-financial-reports-dynamics-365-business-central/index) associée.
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/configure-financial-reports-dynamics-365-business-central/index) associée.
 
 ## <a name="see-also" />Voir aussi
 

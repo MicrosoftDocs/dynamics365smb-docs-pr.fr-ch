@@ -139,7 +139,7 @@ Toutes les écritures liées à des projets sont enregistrées dans des historiq
 
 Sur la page **Écritures comptables projet** vous pouvez passer en revue les écritures associées à un projet.  
 
-## <a name="find-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Trouver la [formation Microsoft](/training/paths/calculate-post-job-wip/) associée
+## <a name="find-related-microsoft-training" />Trouver la [formation Microsoft](/training/paths/calculate-post-job-wip/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -119,10 +119,10 @@ Pour plus d’informations, reportez\-vous à [Détails de conception : flux de
 
 La procédure pas à pas suivante illustre la méthode B dans la table précédente.
 
-### <a name="scenario" />Scénario
+### <a name="scenario-1" />Scénario
 Susan, préparatrice de commandes, crée une commande client pour divers grains torréfiés et la transmet à l’entrepôt. Jean, le magasinier, doit s’assurer que l’expédition est préparée et livrée au client. Jean gère toutes les tâches impliquées sur la page **Prélèvement stock**, qui indique automatiquement les endroits où les grains torréfiés sont stockés.
 
-### <a name="steps" />Étapes
+### <a name="steps-1" />Étapes
 C’est une suite de [Flux entrant : Réception et rangement dans les configurations de stockage de base](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Configurez la page **Fiche magasin** pour définir les flux d’entrepôt entrants de la société.  
@@ -159,7 +159,7 @@ C’est une suite de [Flux entrant : Réception et rangement dans les configura
 
 5. Choisissez l’action **Valider**, sélectionnez **Expédier**, puis cliquez sur le bouton **OK**.  
 
-### <a name="results" />Résultats
+### <a name="results-1" />Résultats
  - les grains torréfiés sont maintenant enregistrés comme prélevés depuis des emplacements spécifiés
  - le **Prélèvement stock enreg.** est créé
  - l’**Expédition vente enregistrée** est créée

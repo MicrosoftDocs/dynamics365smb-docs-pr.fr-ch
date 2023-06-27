@@ -74,7 +74,7 @@ Si vous utilisez habituellement d’autres unités que l’unité de base pour v
 4. Pour les achats, sur le raccourci **Réapprovisionnement**, dans le champ **Unité d’achat**, ouvrez la page **Unités article**.
 5. Sélectionnez le code que vous souhaitez configurer comme unité par défaut pour les ventes ou les achats respectivement, puis cliquez sur le bouton **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

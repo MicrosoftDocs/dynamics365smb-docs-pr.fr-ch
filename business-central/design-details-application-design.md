@@ -34,4 +34,4 @@ Le contenu des détails de conception est destiné aux implémenteurs, développ
 [Configuration des modules complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]

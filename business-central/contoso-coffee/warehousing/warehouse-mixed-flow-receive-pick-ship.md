@@ -92,10 +92,10 @@ Pour plus d’informations, reportez\-vous à [Détails de conception : flux de
 
 La procédure pas à pas suivante illustre la méthode D dans la table précédente.
 
-### <a name="scenario" />Scénario
+### <a name="scenario-1" />Scénario
 Susan, préparatrice de commandes, crée commandes client pour divers grains torréfiés et les transmet à l’entrepôt. Comme toutes les commandes proviennent du même client, Ellen, responsable de l’entrepôt, décide de les expédier ensemble. Jean, le magasinier, doit s’assurer que l’expédition est préparée et livrée au client.
 
-### <a name="steps" />Étapes
+### <a name="steps-1" />Étapes
 C’est une suite de [Flux entrant : Réception et rangement dans les configurations de stockage de base](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Traitez les commandes client vers l’entrepôt.  
@@ -137,7 +137,7 @@ C’est une suite de [Flux entrant : Réception et rangement dans les configura
     4. Sélectionnez ensuite l’action **Valider expédition**.
     5. Confirmez l’option **Expédier**.
 
-### <a name="results" />Résultats
+### <a name="results-1" />Résultats
  - les grains torréfiés sont maintenant enregistrés comme prélevés 
  - le **Prélèvement entrepôt enreg.** est créé
  - l’**Expédition entrepôt enregistrée** est créée

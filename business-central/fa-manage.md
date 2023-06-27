@@ -47,7 +47,7 @@ La vidéo suivante couvre les notions de base des immobilisations.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" />Voir la [formation Microsoft](/training/paths/manage-fixed-assets-transactions/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/manage-fixed-assets-transactions/) associée
 
 ## <a name="see-also" />Voir aussi
 
@@ -57,7 +57,7 @@ La vidéo suivante couvre les notions de base des immobilisations.
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

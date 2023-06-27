@@ -92,13 +92,13 @@ Voici quelques points à garder à l’esprit lorsque vous travaillez avec les d
 
 Pour en savoir plus sur l’utilisation des fiches et des détails de fiche, consultez [FAQ Teams](teams-faq.md).
 
-## <a name="a-nameshare-linkashare-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Partager un lien vers une page entre Business Central et Teams
+## <a name="share-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Partager un lien vers une page entre Business Central et Teams
 
 Directement à partir de la plupart des pages de collection, comme la page **Articles**, et des pages de détails, comme la fiche **Articles**, vous pouvez envoyer un lien vers la page à des destinataires spécifiques dans une conversation Teams. Par exemple, vous pouvez partager un lien vers une vue filtrée de vos enregistrements. Les destinataires peuvent ensuite sélectionner le lien pour ouvrir la page dans [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![!Le menu Partager affiché sur une fiche.](media/teams-share-link-v2.png "Le menu Partager affiché sur une fiche.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites" />Conditions préalables
+### <a name="prerequisites-1" />Conditions préalables
 
 - Vous avez accès à Microsoft Teams.
 - (Facultatif) Vous avez installé l’application [!INCLUDE [prod_short](includes/prod_short.md)] dans Teams. 
@@ -126,6 +126,6 @@ Directement à partir de la plupart des pages de collection, comme la page **Art
 [Résolution des incidents dans Teams](admin-teams-troubleshooting.md)  
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

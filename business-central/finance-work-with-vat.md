@@ -234,7 +234,7 @@ Pour afficher un groupe de certificats, vous commencez à partir de la page **Ce
 > * Pour créer manuellement un certificat d’approvisionnement.  
 > * Pour imprimer un certificat d’approvisionnement.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -31,7 +31,7 @@ Pour plus d’informations sur l’extension correspondant à votre application 
 
 Si vous êtes prêt à commencer maintenant, choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration assistée**, puis choisissez le lien associé. Choisissez **Migrer des données métier**, puis suivez les étapes du guide.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

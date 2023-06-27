@@ -59,7 +59,7 @@ Il est également possible de supprimer chacune des commandes vente manuellement
 
 Répétez les étapes 1 à 3 pour tous les autres documents affectés, comme des commandes ouvertes vente.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -70,7 +70,7 @@ Lorsque vous utilisez **Modifier dans Excel** sur les pages de liste pour les ta
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

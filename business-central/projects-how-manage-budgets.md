@@ -17,7 +17,7 @@ Vous pouvez configurer un budget pour chaque projet. Le budget permet de planifi
 
 La procédure suivante décrit comment estimer les coûts budgétés lors de la planification. Pour plus d’informations sur l’enregistrement budgété par rapport aux prix et aux coûts réels du projet, voir [Enregistrer l’utilisation pour les projets](projects-how-record-job-usage.md).  
 
-## <a name="a-namejobbudgetcostsa-to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Pour estimer les coûts budgétés d’un projet
+## <a name="to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Pour estimer les coûts budgétés d’un projet
 Lorsqu’un client souhaite connaître le prix d’un projet qui sera facturé en fonction de l’activité, vous devez déterminer les coûts budgétés du projet. Réalisez cette opération sur la page **Lignes tâche projet**.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
@@ -43,7 +43,7 @@ Sur la page **Fiche projet**, vous pouvez désormais voir un résumé des coûts
 
 Pour plus d’informations sur l’enregistrement budgété par rapport aux prix et aux coûts réels du projet, voir [Enregistrer l’utilisation pour les projets](projects-how-record-job-usage.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-job-planning-lines" />Voir la [formation Microsoft](/training/modules/set-up-job-planning-lines/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/set-up-job-planning-lines/) associée
 
 ## <a name="see-also" />Voir aussi
 

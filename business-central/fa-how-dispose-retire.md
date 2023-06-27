@@ -45,7 +45,7 @@ Lorsque vous vendez ou cédez une immobilisation, la valeur de cession est valid
 
 La page **Écritures comptables** s’ouvre. Vous pouvez y voir les écritures résultant de la validation de la cession.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdispose-fixed-assets" />Voir la [formation Microsoft](/training/modules/dispose-fixed-assets/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/dispose-fixed-assets/) associée
 
 ## <a name="see-also" />Voir aussi
 

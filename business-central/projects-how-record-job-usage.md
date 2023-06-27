@@ -96,7 +96,7 @@ Après avoir validé les lignes feuilles projets, vous pouvez voir les lignes pl
 2. Sélectionnez une feuille projet appropriée, puis cliquez sur **Écritures comptables**.  
 3. Sur la page **Écritures comptables projet**, cliquez sur **Afficher les lignes planning projet liées**.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Voir la [formation Microsoft](/training/paths/post-job-usage-sales/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/post-job-usage-sales/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -109,7 +109,7 @@ Pour les importations en bloc, utilisez des packages de configuration pour impor
 > [!NOTE]
 > Vous ne pouvez pas utiliser **Modifier dans Excel** pour créer des lignes feuille avec des informations de suivi.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Voir la [formation Microsoft](/training/modules/prepare-item-tracking/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/prepare-item-tracking/) associée
 
 ## <a name="see-also" />Voir aussi
 

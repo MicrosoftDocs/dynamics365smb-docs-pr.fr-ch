@@ -202,7 +202,7 @@ Validez les enregistrements d’emplacement d’ajustement dans le registre des 
 5. Cliquez sur **OK**. Les ajustements positifs et négatifs sont totalisés pour chaque article et des lignes sont créées dans la feuille article.  
 6. Validez des lignes feuille pour entrer les différences de quantité dans la feuille article. Les inventaires dans les emplacements et le registre des articles correspondent maintenant.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Voir la [formation Microsoft](/training/modules/adjust-inventory/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/adjust-inventory/) associée
 
 ## <a name="see-also" />Voir aussi
 

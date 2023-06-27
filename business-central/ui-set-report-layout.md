@@ -58,7 +58,7 @@ Il existe quelques manières de définir la présentation utilisée par un état
 
 Les états sont conçus pour utiliser une présentation par défaut. Vous pouvez revenir à la présentation par défaut d’origine à partir de la page **Sélection présentation état**. Sélectionnez simplement l’état, puis sélectionnez l’action **Restaurer la sélection par défaut** en haut de la page.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

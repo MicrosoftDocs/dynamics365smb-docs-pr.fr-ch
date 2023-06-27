@@ -30,7 +30,7 @@ Les actions, les pages et les états qui proviennent d’extensions sont extrait
 
 La recherche de page s’est transformée en Tell Me pour vous aider à obtenir rapidement des résultats. La recherche de page pouvait uniquement vous aider à accéder aux pages ou aux états. À un niveau technique, Tell Me n’est plus basé sur le concept MenuSuite hérité.
 
-### <a name="i-use-on-premises-includeprodshortincludesprodshortmd-does-that-include-tell-me" />J’utilise [!INCLUDE[prod_short](includes/prod_short.md)] local. La fonction Tell Me est-elle incluse ?
+### <a name="i-use-on-premises--does-that-include-tell-me" />J’utilise [!INCLUDE[prod_short](includes/prod_short.md)] local. La fonction Tell Me est-elle incluse ?
 
 Vous pouvez utiliser la fonctionnalité de fenêtre de recherche (Tell Me) dans le client Web local pour trouver des actions, des pages et des états, mais pas les applications et les services de conseils sur AppSource.
 

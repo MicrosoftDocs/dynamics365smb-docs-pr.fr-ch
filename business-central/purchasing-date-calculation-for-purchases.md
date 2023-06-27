@@ -58,7 +58,7 @@ Vous pouvez spécifier manuellement la formule de date sur les lignes. Sinon, [!
 3. Fiche point de stock
 4. Fiche fournisseur
 
-## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/estimate-receipt-dates-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/estimate-receipt-dates-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

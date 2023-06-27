@@ -52,7 +52,7 @@ Pour toujours valider les dépenses liées aux frais d’une banque spécifique,
 | --- | --- | --- | --- | --- |
 | MyBank |VIDE |60400|Compte général |VIDE |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/use-journals-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/use-journals-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

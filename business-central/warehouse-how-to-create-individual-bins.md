@@ -70,7 +70,7 @@ Pour travailler avec la page **Feuille création emplacement**, vous devez être
 
 Répétez l’opération pour un autre ensemble d’emplacements jusqu’à ce que vous ayez créé tous les emplacements de votre entrepôt.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-bins" />Voir la [formation Microsoft](/training/modules/create-new-bins/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/create-new-bins/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -106,7 +106,7 @@ Le coût unitaire d’une nomenclature d’assemblage équivaut toujours au tota
 
 Les coûts des articles constituant la nomenclature d’assemblage sont copiés à partir des fiches article du composant. Le coût de chaque article est multiplié par sa quantité, et le coût total est affiché dans le champ **Coût unitaire** sur la fiche article.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-assembly-items-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/set-up-assembly-items-dynamics-365-business-central/) associée.
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/set-up-assembly-items-dynamics-365-business-central/) associée.
 
 ## <a name="see-also" />Voir aussi
 

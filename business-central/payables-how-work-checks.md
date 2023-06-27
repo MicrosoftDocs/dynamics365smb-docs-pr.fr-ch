@@ -75,7 +75,7 @@ Si vous souhaitez examiner les chèques validés, par exemple pour vérifier plu
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Compte bancaire : Liste chèques émis**, puis sélectionnez le lien associé.
 2. Définissez les filtres appropriés, puis cliquez sur le bouton **Aperçu**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-checks-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/use-checks-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/use-checks-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

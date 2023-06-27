@@ -11,7 +11,7 @@ ms.search.form: '9652, 9650, 9660'
 ms.date: 05/23/2023
 ms.author: jswymer
 ---
-# Vue d’ensemble des présentations d’état et de document
+# <a name="report-and-document-layouts-overview" />Vue d’ensemble des présentations d’état et de document
 
 Une présentation d’état contrôle le contenu et le format du rapport, dont les champs de données d’un ensemble de données d’état apparaissant sur le rapport et la façon ils sont organisés, le style de texte, les images, et plus encore. À partir de [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez modifier la présentation utilisée sur un rapport, créer une nouvelle présentation ou modifier les présentations existantes.
 
@@ -20,7 +20,7 @@ Une présentation d’état contrôle le contenu et le format du rapport, dont l
 
 Vous pouvez également utiliser des présentations d’état pour ajouter du contenu aux messages électroniques. Par exemple, les présentations d’état peuvent vous faire gagner du temps et contribuer à assurer la cohérence, car elles réutilisent le même contenu lorsque vous communiquez avec vos clients. Pour utiliser des présentations d’état personnalisées avec le courrier électronique, le type de fichier de la mise en page doit être Word. Vous ne pouvez pas utiliser le type de fichier RDLC. Pour plus d’informations, voir [Configurer des textes et des mises en page d’e-mail réutilisables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## Introduction
+## <a name="introduction" />Introduction
 
 Une présentation d’état configure notamment ce qui suit :
 
@@ -35,11 +35,11 @@ Un état peut être créé avec plusieurs présentations d’état, que vous pou
 
 Deux aspects importants des présentations d’états influenceront la manière dont vous les utiliserez : le *type de présentation* et la *source de la présentation*. Le type de présentation indique le type de fichier sur lequel la présentation est basée. La source de la présentation indique l’origine de la présentation.
 
-## Types de présentation
+## <a name="layout-types" />Types de présentation
 
 Il existe quatre types de présentation que vous pouvez utiliser pour les états : Word, RDLC, Excel et externe.
 
-### Word
+### <a name="word" />Word
 
 Les présentations Word sont basées sur les documents Word (type de fichier .docx). Les présentations Word vous permettent de concevoir des présentations d’état à l’aide de Microsoft Word. Une présentation Word détermine le contenu de l’état, contrôle la manière dont les éléments de contenu sont organisés ainsi que leur apparence. Un document de présentation Word utilisera généralement des tableaux pour organiser le contenu, dans lequel les cellules peuvent contenir des champs de données, du texte ou des images.
 
@@ -49,7 +49,7 @@ Les présentations Word sont basées sur les documents Word (type de fichier .do
 
 Pour plus d’informations, voir [Utiliser des présentations Word](ui-how-add-fields-word-report-layout.md).
 
-### Excel
+### <a name="excel" />Excel
 
 Les présentations Excel sont basées sur les classeurs Microsoft Excel (type de fichier .xlsx). Elles vous permettent de créer des états en utilisant des fonctionnalités Excel familières pour résumer, analyser et présenter des données avec des outils comme des formules, des tableaux croisés dynamiques et des graphiques croisés dynamiques, etc.
 
@@ -57,7 +57,7 @@ Les présentations Excel sont basées sur les classeurs Microsoft Excel (type de
 
 Pour plus d’informations, voir [Utiliser des présentations Excel](ui-excel-report-layouts.md).
 
-### RDLC
+### <a name="rdlc" />RDLC
 
 Les présentations RDLC sont basées sur les fichiers de présentation de définition d’état client (types de fichier .rdl ou .rdlc). Ces présentations sont créées et modifiées à l’aide du Générateur d’états SQL Server ou Microsoft RDLC Report Designer. Le concept de conception des présentations RDLC est similaire à celui des présentations Word, où la présentation détermine les champs à afficher et leur disposition. Toutefois, la création de présentations RDLC est plus avancée que les présentations Word.
 
@@ -65,13 +65,13 @@ Les présentations RDLC sont basées sur les fichiers de présentation de défin
 
 Pour plus d’informations, voir [Utiliser des présentations RDLC](ui-rdlc-report-layouts.md).
 
-### Externe
+### <a name="external" />Externe
 
 Un type de présentation externe fait référence à un type avancé spécialement conçu pour des états spécifiques. Les états et les présentations elles-mêmes sont généralement fournies par des partenaires, et non par Microsoft. Le type de fichier réel de la présentation varie selon le fournisseur.
 
 Pour plus d’informations, voir [Développement d’un rendu d’état personnalisé](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
-## Sources de présentation
+## <a name="layout-sources" />Sources de présentation
 
 En plus du type, les présentations sont divisées en trois catégories, en fonction de leur source ou de leur origine.
 
@@ -97,7 +97,7 @@ Pour obtenir des informations qui vous aideront à choisir le type qui vous conv
 > Une chose importante à retenir est que vous ne pouvez pas modifier les présentations d’extension à partir du client Business Central. Par exemple, vous n’êtes pas autorisé à modifier le nom ou le type de la présentation, ni à la télécharger et à la remplacer par une autre version. Si vous essayez, vous recevez un message d’erreur. Vous devrez plutôt créer une présentation définie par l’utilisateur ou personnalisée basée sur la présentation d’extension.
 
 <!--
-### Built-in and custom report layouts
+### <a name="built-in-and-custom-report-layouts" />Built-in and custom report layouts
 
 
 
@@ -120,9 +120,9 @@ For information about how to switch the layout currently used on a report, see [
 
 
 
-## Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Mettre à jour les présentations d’état personnalisées](ui-update-report-layouts.md)  
 [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)  

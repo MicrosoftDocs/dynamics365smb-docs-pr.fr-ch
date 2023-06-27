@@ -231,7 +231,7 @@ Lors du prélèvement selon FEFO, les articles qui expirent en premier sont rass
 
 Les modèles de rangement spécifient un ensemble de règles de priorité qui s’appliquent lorsque vous créez des rangements. Par exemple, un modèle de rangement peut vous obliger à placer des articles dans un emplacement dont le contenu a la même unité de mesure. S’il est impossible de trouver un emplacement similaire d’une capacité suffisante, l’article doit être placé dans un emplacement vide. Vous affectez un modèle de rangement à un article et à un magasin.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Voir la [formation Microsoft](/training/modules/get-started-warehouse-management/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/get-started-warehouse-management/) associée
 
 ## <a name="see-also" />Voir aussi
 
@@ -239,6 +239,6 @@ Les modèles de rangement spécifient un ensemble de règles de priorité qui s�
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

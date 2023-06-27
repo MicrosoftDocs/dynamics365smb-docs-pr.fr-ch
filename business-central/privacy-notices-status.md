@@ -11,7 +11,7 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# <a name="privacy-notices-status-in-includeprodlongincludesprodlongmd" />Statut des déclarations de confidentialité dans [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="privacy-notices-status-in-" />Statut des déclarations de confidentialité dans [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Cet article explique ce qu’est une déclaration de confidentialité et le but de la page **Statut des déclarations de confidentialité** dans [!INCLUDE[prod_short](includes/prod_short.md)]. Vous apprendrez également comment les administrateurs peuvent utiliser cette page.
 

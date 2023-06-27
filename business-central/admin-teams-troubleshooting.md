@@ -11,7 +11,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# <a name="troubleshooting-microsoft-teams-integration-with-include-prodshortincludesprodshortmd" />Dépannage de l’intégration de Microsoft Teams avec [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="troubleshooting-microsoft-teams-integration-with-" />Dépannage de l’intégration de Microsoft Teams avec [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -182,7 +182,7 @@ Ce problème est probablement dû au fait que vous avez partagé une vue de list
 [Modification de la société et d’autres paramètres dans Teams](across-teams-settings.md)  
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="included365finincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

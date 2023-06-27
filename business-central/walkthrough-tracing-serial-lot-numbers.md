@@ -297,7 +297,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
  Ainsi se termine la procédure pas à pas sur l’utilisation de la page **Rechercher des écritures** pour la gestion des défauts en association avec la page **Traçabilité**.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-serial-lot-numbers" />Voir la [formation Microsoft](/training/paths/use-serial-lot-numbers/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/use-serial-lot-numbers/) associée
 
 ## <a name="see-also" />Voir aussi
 

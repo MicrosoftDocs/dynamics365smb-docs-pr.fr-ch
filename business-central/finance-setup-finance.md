@@ -51,7 +51,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 > [!TIP]
 > En fonction de votre emplacement géographique, certaines pages Business Central peuvent contenir des champs qui ne sont pas décrits dans les articles répertoriés ci-dessus, car ils s’appliquent à des fonctionnalités locales ou à des personnalisations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 
@@ -62,6 +62,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

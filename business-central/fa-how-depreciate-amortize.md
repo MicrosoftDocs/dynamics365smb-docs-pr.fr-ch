@@ -115,7 +115,7 @@ Vous pouvez copier des écritures d’une loi d’amortissement vers une autre �
 
 Les lignes copiées sont créées dans la feuille comptabilisation immobilisation ou la feuille immobilisation, selon que la loi d’amortissement que vous copiez a été intégrée en comptabilité ou non.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescalculate-post-depreciations" />Voir la [formation Microsoft](/training/modules/calculate-post-depreciations/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/calculate-post-depreciations/) associée
 
 ## <a name="see-also" />Voir aussi
 

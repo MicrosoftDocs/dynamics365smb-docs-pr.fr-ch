@@ -21,7 +21,7 @@ Vous pouvez trouver les états sous l’onglet **États** sur les pages, listes 
 
 Lorsque vous choisissez un état, une page de demande s’affiche généralement avec un titre selon le nom de l’état pour vous permettre de définir plusieurs options et filtres qui déterminent les éléments à inclure dans l’état. Les sections suivantes expliquent comment utiliser la page de demande pour créer, afficher un aperçu et imprimer un état.
 
-## <a name="a-namesavedsettingsausing-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Utilisation des valeurs par défaut – paramètres prédéfinis
+## <a name="using-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Utilisation des valeurs par défaut – paramètres prédéfinis
 
 La plupart des pages de demande incluent le champ **Utiliser les valeurs par défaut de**. Avec ce champ, vous pouvez sélectionner des paramètres prédéfinis pour l’état, qui définissent automatiquement les options et les filtres. Sélectionnez une entrée dans la liste déroulante, et vous verrez les options et les filtres sur la page de demande se modifier en conséquence.
 
@@ -80,7 +80,7 @@ Si votre organisation a configuré OneDrive pour les fonctionnalités système, 
 >
 > Vous pouvez également utiliser l’option **Document Microsoft Excel (données uniquement)** pour créer des présentations Excel pour un état donné. En savoir plus sur [Utiliser les présentations Excel](ui-excel-report-layouts.md).  
 
-## <a name="a-nameschedulereporta-scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Planification d’un état pour une exécution ultérieure ou périodique
+## <a name="scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Planification d’un état pour une exécution ultérieure ou périodique
 
 Vous pouvez planifier ou traiter par lots un état ponctuel ou récurrent à exécuter à une date et une heure spécifiques. Les états prévus sont entrés dans la file projets et traités au moment prévu, comme les autres projets. Vous devez choisir l’option **Planifié** après avoir cliqué sur le bouton **Envoyer à**, puis vous devez entrer des informations telles que l’imprimante, l’heure et la date. L’état est alors ajouté à la file d’attente des travaux et sera exécuté au moment spécifié. Lorsque l’état a été traité, l’article est supprimé de la file projets. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).  
 
@@ -103,13 +103,13 @@ Après avoir modifié les options de l’état, répétez les deux premières é
 
 En savoir plus sur la gestion de la file d’attente des travaux sur [Utiliser les files d’attente de travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).  
 
-## <a name="a-nameprintreportaprinting-a-report" /><a name="PrintReport"></a>Impression d’un état
+## <a name="printing-a-report" /><a name="PrintReport"></a>Impression d’un état
 
 Pour imprimer un état, sélectionnez **Imprimer** sur la page de demande d’état ou dans la barre de menu de la page **Aperçu**.
 
 Lorsqu’un état utilise une présentation Excel, le champ **Imprimante** et les boutons **Imprimer** ou **Aperçu** ne sont pas affichés. Au lieu de cela, il y a une option **Télécharger**. Pour imprimer, sélectionnez **Télécharger**, puis ouvrez le fichier téléchargé dans Excel et imprimez à partir de là.
 
-### <a name="a-nameprinteraprinter" /><a name="Printer"></a>Imprimante
+### <a name="printer" /><a name="Printer"></a>Imprimante
 
 Le champ **Imprimante** de la page de demande d’état affiche le nom de l’imprimante à laquelle l’état sera transmis. Pour changer d’imprimante, sélectionnez simplement l’imprimante dans la liste.
 
@@ -153,7 +153,7 @@ Les champs sous **Avancé** définissent des limites sur l’état généré pou
 > [!NOTE]
 > Les valeurs maximales peuvent être différentes pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site et un administrateur peut les modifier. Pour plus d’informations, reportez-vous à la rubrique [Configuration de Business Central Server – États](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Pour un aperçu des limites des états [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, voir [Limites opérationnelles](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) associée.
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) associée.
 
 ## <a name="see-also" />Voir aussi
 

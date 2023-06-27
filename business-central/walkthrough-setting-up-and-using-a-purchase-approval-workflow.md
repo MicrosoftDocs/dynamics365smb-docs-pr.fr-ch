@@ -117,7 +117,7 @@ Définissez les variations des flux de travail en renseignant les champs des lig
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Voir la [formation Microsoft](/training/modules/use-approval-workflows/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/use-approval-workflows/) associée
 
 ## <a name="see-also" />Voir aussi
 

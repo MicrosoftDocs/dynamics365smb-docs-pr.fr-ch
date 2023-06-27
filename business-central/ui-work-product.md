@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-includeprodshortincludesprodshortmd" />Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-" />Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Dans le cadre de l’exécution des tâches, vous interagissez avec des données de différentes manières : création d’enregistrements et saisie de données, tri et filtrage de données, rédaction de procédures et sortie de données vers d’autres applications.
 
@@ -18,7 +18,7 @@ Par exemple, vous pouvez ajuster la taille et la position de n’importe quelle 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namecheatsheetatips-and-tricks" /><a name="cheatsheet"></a>Conseils
+## <a name="tips-and-tricks" /><a name="cheatsheet"></a>Conseils
 
 > [!TIP]
 > Pour obtenir un aperçu facile à imprimer des fonctions les plus utilisées, sélectionnez l’image suivante et téléchargez le fichier PDF.
@@ -80,7 +80,7 @@ Lorsque vous recherchez une page de liste ouverte, telle que la liste **Commande
 
 Mais lorsque vous ouvrez la même page de liste à partir de votre page d’accueil, l’action **Gérer** n’est pas présente. Au lieu de cela, pour ouvrir une commande vente individuelle, il vous suffit de sélectionner le champ **Nombre**. Dans cette vue, vous ne pouvez pas épingler la barre d’action.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/work-pro-data-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/work-pro-data-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 
@@ -89,7 +89,7 @@ Mais lorsque vous ouvrez la même page de liste à partir de votre page d’accu
 [Fonctionnalités marché](ui-across-business-areas.md)  
 [Conseils hautes performances pour les utilisateurs professionnels](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

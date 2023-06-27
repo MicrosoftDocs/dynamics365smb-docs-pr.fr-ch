@@ -36,7 +36,7 @@ Les tâches de comptage, d’ajustement et de reclassement des articles peuvent 
 |Utilisez la feuille mouvement entrepôt, le prélèvement et le rangement internes pour déplacer des articles dans des configurations d’entrepôt avancées avec un prélèvement et un rangement dirigés.|[Déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Restructurez votre entrepôt avec de nouveaux codes et caractéristiques emplacement et déplacez-les potentiellement autour.|[Restructurer les entrepôts](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Voir la [formation Microsoft](/training/modules/manage-internal-warehouse-processes/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/manage-internal-warehouse-processes/) associée
 
 ## <a name="see-also" />Voir aussi
 

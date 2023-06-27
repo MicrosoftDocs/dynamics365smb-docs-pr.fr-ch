@@ -138,7 +138,7 @@ Pour synchroniser les listes de prix, sur la page **Liste prix vente**, choisiss
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)    
 [Vue d’ensemble de Sales et du centre des ventes](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

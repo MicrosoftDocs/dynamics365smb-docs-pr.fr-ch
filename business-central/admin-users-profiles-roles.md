@@ -165,7 +165,7 @@ En tant qu’administrateur de [!INCLUDE[prod_short](includes/prod_short.md)] en
 
 Pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous pouvez gérer des sessions à l’aide de SQL Server Management Studio, par exemple. Pour plus d’informations, voir [Documentation technique SQL Server](/sql/sql-server).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesusers-security-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/users-security-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/users-security-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

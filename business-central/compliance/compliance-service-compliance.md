@@ -31,7 +31,7 @@ Si vous êtes intéressé par la liste complète des offres de conformité de Mi
 [Conformité des applications](compliance-application-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -128,7 +128,7 @@ Avant qu’un article puisse être inclus dans le calcul de la promesse de livra
     - Choisissez **Simulation de délai** si vous savez que l’article est actuellement en rupture de stock et que vous souhaitez calculer la date la plus proche à laquelle cet article sera disponible grâce à l’émission de demandes de réapprovisionnement.  
 5.  Cliquez sur le bouton **Accepter** pour accepter la date d’expédition disponible la plus proche.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

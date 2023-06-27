@@ -31,7 +31,7 @@ La page **Documents validés sans document entrant** s’ouvre et affiche des do
 
 Si un enregistrement document entrant approprié n’existe pas sur la page **Documents entrants**, vous pouvez le créer. Pour plus d’informations, voir [Créer des enregistrements document entrant](across-how-create-income-document-records.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -54,7 +54,7 @@ Les deux approches ont leurs propres avantages et vous pouvez les utiliser simul
 
 Pour plus d’informations, voir [Accès administrateur délégué à Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="a-namelicensespermissionsaconfigure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Configurer les autorisations en fonction des licences
+### <a name="configure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Configurer les autorisations en fonction des licences
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -84,7 +84,7 @@ Si cette configuration par défaut n’est pas la bonne pour un environnement pa
 > [!IMPORTANT]
 > Cette personnalisation des autorisations ne prend effet que pour les nouveaux utilisateurs auxquels vous attribuez la licence correspondante. Les utilisateurs existants ne sont pas mis à jour. Nous vous recommandons de personnaliser les autorisations avant de commencer à attribuer des licences utilisateur dans le Centre d’administration Microsoft 365.
 
-### <a name="a-nameadduserato-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Pour ajouter des utilisateurs ou mettre à jour les informations utilisateur et les attributions de licence dans Business Central
+### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Pour ajouter des utilisateurs ou mettre à jour les informations utilisateur et les attributions de licence dans Business Central
 
 Après avoir ajouté des utilisateurs ou modifié les informations utilisateur dans le centre d’administration Microsoft 365, vous pouvez importer rapidement les informations utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)]. L’importation inclut les attributions de licence.  
 
@@ -118,7 +118,7 @@ Vous pouvez supprimer l’accès d’un utilisateur à [!INCLUDE[prod_short](inc
 
 Vous pouvez également supprimer la licence d’un utilisateur dans le Centre d’administration Microsoft 365. L’utilisateur ne peut alors plus se connecter. Pour en savoir plus, consultez [Supprimer des licences d’utilisateurs](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="a-namem365asynchronization-with-microsoft-365" /><a name="m365"></a>Synchronisation avec Microsoft 365
+### <a name="synchronization-with-microsoft-365" /><a name="m365"></a>Synchronisation avec Microsoft 365
 
 Lorsque vous attribuez une licence [!INCLUDE[prod_short](includes/prod_short.md)] à un utilisateur dans Microsoft 365, il existe deux façons de créer l’utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 

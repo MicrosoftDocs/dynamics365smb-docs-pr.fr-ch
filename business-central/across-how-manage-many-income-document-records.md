@@ -47,7 +47,7 @@ Tous les enregistrements de documents entrants sont affichés, y compris les enr
 > [!NOTE]  
 > Vous pouvez également effectuer cette action pour un enregistrement spécifique sur la page **Fiche document entrant**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
   

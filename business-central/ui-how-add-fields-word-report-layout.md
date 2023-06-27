@@ -37,7 +37,7 @@ Un ensemble de données d’état peut être constitué de champs affichant des 
 > [!NOTE]  
 >  Vous ne pouvez pas modifier les présentations d’état intégrées<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="a-nameopenxmlparta-to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a> Pour ouvrir le composant XML personnalisé de l’état dans Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a> Pour ouvrir le composant XML personnalisé de l’état dans Word
   
 1. Si ce n’est pas déjà le cas, ouvrez le document de présentation d’état Word dans Word.  
   
@@ -103,7 +103,7 @@ Les images s’alignent dans le coin supérieur gauche du contrôle de contenu e
   
 3. Pour développer ou réduire la taille de l’image, faites glisser une poignée de redimensionnement pour l’éloigner ou la rapprocher du centre du contrôle de contenu.  
 
-## <a name="a-nameremovefielda-removing-label-and-data-fields" /><a name="RemoveField"></a> Suppression des champs d’étiquette et de données
+## <a name="removing-label-and-data-fields" /><a name="RemoveField"></a> Suppression des champs d’étiquette et de données
 
 L’étiquette les champs de données d’un état sont contenus dans des contrôles de contenu dans Word. La figure ci-après illustre un contrôle de contenu lorsqu’il est sélectionné dans le document Word.  
 

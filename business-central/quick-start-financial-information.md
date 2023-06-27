@@ -79,7 +79,7 @@ Les comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)] enregi
    Le champ est différent du champ **Numéro de compte bancaire** également disponible dans le raccourci **Général**.
 4. Sur la page **Fiche compte bancaire**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central" />Voir la formation associée sur [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />Voir la formation associée sur [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
 ## <a name="see-also" />Voir aussi
 

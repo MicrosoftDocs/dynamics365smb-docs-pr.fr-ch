@@ -57,7 +57,7 @@ ms.author: jswymer
 
 * Renseignez les déclarations de TVA.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

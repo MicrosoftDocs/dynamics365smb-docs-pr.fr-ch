@@ -155,7 +155,7 @@ Vous pouvez modifier les valeurs dans ces champs, mais si vous sélectionnez le 
 
 Si vous sélectionnez une valeur dans le champ **Code de type de transaction de service**, mais que vous ne sélectionnez pas le champ **S’applique à la déclaration de service**, vous pouvez publier le document, mais la ligne ne sera pas calculée.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Voir la formation associée sur [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Voir la formation associée sur [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Voir aussi
 

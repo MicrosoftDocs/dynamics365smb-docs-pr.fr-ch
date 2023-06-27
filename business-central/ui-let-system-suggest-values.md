@@ -10,7 +10,7 @@ ms.search.form: '39, 251, 981'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="letting-includeprodshortincludesprodshortmd-suggest-values" />Laisser [!INCLUDE[prod_short](includes/prod_short.md)] suggérer des valeurs
+# <a name="letting--suggest-values" />Laisser [!INCLUDE[prod_short](includes/prod_short.md)] suggérer des valeurs
 [!INCLUDE[prod_short](includes/prod_short.md)] peut vous aider à effectuer ces tâches plus rapidement et précisément en préremplissant les champs ou en complétant les lignes avec des données que vous devriez sinon calculer et saisir vous-même. Bien qu’une telle saisie de données automatisée soit toujours correcte, vous pouvez la modifier par la suite si vous le souhaitez.
 
 La fonctionnalité qui saisit les valeurs de champ pour vous est en général proposée pour les tâches qui demandent la saisie de volumes importants de données transactionnelles et pour lesquelles vous souhaitez éviter les erreurs et gagner du temps. Cette rubrique contient une sélection de ces fonctionnalités. Davantage de sections seront ajoutées dans les prochaines mises à jour de [!INCLUDE[prod_short](includes/prod_short.md)].

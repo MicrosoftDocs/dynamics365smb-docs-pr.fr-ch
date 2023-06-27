@@ -61,7 +61,7 @@ Pour connecter Business Central sur site, vous devez créer une application dans
 
 Si vous préférez stocker l’ID d’application et le secret dans un emplacement différent, vous pouvez laisser les champs ID client et Secret client vides et écrire une extension pour récupérer l’ID et le secret depuis l’emplacement. Vous pouvez fournir le secret lors de l’exécution en vous abonnant aux événements OnGetClientId et OnGetClientSecret dans codeunit 1410 « Doc. Exch. Service Mgt. »
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

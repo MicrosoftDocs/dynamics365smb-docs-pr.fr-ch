@@ -57,7 +57,7 @@ Les exemples d’événements de flux de travail approbation incluent la créati
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
 ## <a name="see-also" />Voir aussi
 

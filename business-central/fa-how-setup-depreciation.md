@@ -90,7 +90,7 @@ Lorsque le traitement par lots Calculer amortissement calcule les amortissements
 
 Si vous activez ce champ, le traitement par lots Calculer amortissement utilise l’année civile de 365 jours, où chaque mois est calculé avec le même nombre de jours que le calendrier. La seule exception est le mois de février des années bissextiles, que le traitement par lots traitera comme ayant 28 jours et non 29. Pour cette raison, toutes les années, également les années bissextiles, sont considérées comme ayant 365 jours.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-depreciation-books" />Voir la [formation Microsoft](/training/modules/configure-depreciation-books/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/configure-depreciation-books/) associée
 
 ## <a name="see-also" />Voir aussi
 

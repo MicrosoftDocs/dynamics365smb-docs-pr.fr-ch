@@ -60,7 +60,7 @@ Au lieu de visualiser les montants budgétés et réalisés de tous les comptes 
 3. Dans le raccourci **Options**, renseignez les champs nécessaires pour définir ce qui est affiché dans la table.  
 4. Dans le raccourci **Lignes**, survolez un champ de la table pour lire une brève description du montant affiché.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex" />Voir la formation associée sur [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Voir la formation associée sur [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Voir aussi
 

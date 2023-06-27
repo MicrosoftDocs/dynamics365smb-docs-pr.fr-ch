@@ -84,7 +84,7 @@ Dans l’état **Maintenance - Détails**, vous pouvez afficher ou imprimer les 
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-maintenance-insurances" />Voir la [formation Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/) associée
 
 ## <a name="see-also" />Voir aussi
 

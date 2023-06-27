@@ -220,7 +220,7 @@ Le reclassement de la traçabilité pour un article consiste à remplacer un num
 8. Si vous voulez modifier les informations existantes du numéro de lot ou de série, vous pouvez enregistrer des informations de lot ou de série.  
 9. Validez la feuille pour lier les nouveaux numéros traçabilité ou dates d’expiration à l’écriture comptable article qui leur est associée.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Voir la [formation Microsoft](/training/modules/prepare-item-tracking/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/prepare-item-tracking/) associée
 
 ## <a name="see-also" />Voir aussi
 

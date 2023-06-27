@@ -172,7 +172,7 @@ L’illustration suivante donne un aperçu du résultat de cette procédure.
 
 Ensuite, testez le flux de travail en ouvrant une fiche fournisseur existante et en changeant son nom. Vérifiez qu’une demande d’approbation est envoyée après la modification du nom du fournisseur.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
 ## <a name="see-also" />Voir aussi
 

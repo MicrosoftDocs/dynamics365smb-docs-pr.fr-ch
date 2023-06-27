@@ -100,7 +100,7 @@ Vous pouvez gagner du temps en configurant une écriture file d’attente de tra
 3. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures file d’attente des travaux**, puis sélectionnez le lien associé.
 4. Configurez l’écriture file d’attente des travaux **Mise à jour En attente Acompte Ventes**, par exemple, en utilisant les paramètres du raccourci **Récurrence** pour programmer la fréquence à laquelle vous souhaitez qu’il s’exécute. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

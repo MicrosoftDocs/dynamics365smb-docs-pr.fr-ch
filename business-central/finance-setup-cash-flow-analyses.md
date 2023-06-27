@@ -121,7 +121,7 @@ Champs **Date document** et **Montant** sur la page **Écritures comptables TVA 
 
 Avant d’utiliser le service web prédictif, [!INCLUDE[prod_short](includes/prod_short.md)] comprime les transactions par **Date document** sur la base de la valeur dans le champ **Type de période** sur la page **Paramètres trésorerie**.
 
-## <a name="a-nameanchortextacreate-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie
 
 Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un modèle public intitulé **Modèle de prévision pour Microsoft Business Central**. Ce modèle prévisionnel est disponible en ligne dans la galerie Azure AI. Pour utiliser le modèle, procédez comme suit :  
 
@@ -134,7 +134,7 @@ Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un m
 7. Développez le raccourci **Azure AI**, puis renseignez les champs, y compris l’URL de l’API et la clé d’API fournie depuis Azure Machine Learning studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Dans le tableau de bord Comptable, sous le graphique **Prévision de trésorerie**, sélectionnez l’action **Recalculer la prévision**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

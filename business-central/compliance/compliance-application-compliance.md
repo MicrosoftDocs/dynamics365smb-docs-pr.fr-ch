@@ -101,6 +101,6 @@ Microsoft crée des versions localisées de Business Central pour un nombre lim
 [Conformité des services](compliance-service-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

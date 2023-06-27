@@ -54,7 +54,7 @@ La mise en page personnalisée a été créée et vous pouvez la modifier à vot
 > [!TIP]
 > Vous pouvez exporter les résultats d’état dans un fichier Microsoft Excel pour afficher l’ensemble de données complet, y compris toutes les colonnes, mais sans la présentation. Le fichier Excel peut vous aider à valider que l’état renvoie les données attendues ou les problèmes de diagnostic. En savoir plus [Analyse des données d’état avec Excel](report-analyze-excel.md).
 
-## <a name="a-namemodifycustomlayoutamodifying-a-custom-layout" /><a name="ModifyCustomLayout"></a>Modification d’une présentation personnalisée
+## <a name="modifying-a-custom-layout" /><a name="ModifyCustomLayout"></a>Modification d’une présentation personnalisée
 
 Pour modifier une présentation d’état personnalisée, vous devez d’abord exporter la présentation d’état sous forme de fichier vers un emplacement sur votre ordinateur ou réseau. Ensuite, ouvrez le document exporté et apportez les modifications. Lorsque vous avez terminé d’apporter les modifications, vous importez la présentation de rapport.
 
@@ -78,7 +78,7 @@ Pour modifier une présentation d’état personnalisée, vous devez d’abord e
 > N’oubliez pas d’importer le document de mise en page de rapport que vous avez modifié. Sinon, la nouvelle mise en page du rapport ne sera pas disponible.
 
 <!--
-## <a name="a-namemakechangestolayouta-create-and-modify-custom-report-layouts" /><a name="MakeChangesToLayout"></a> Create and modify custom report layouts
+## <a name="create-and-modify-custom-report-layouts" /><a name="MakeChangesToLayout"></a> Create and modify custom report layouts
 
 To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word like you do with any Word document.
 
@@ -91,7 +91,7 @@ If you're designing a Word report layout from scratch or adding new data fields,
 
 To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. Learn more about embedding fonts in Word at [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-### <a name="a-nameremovefielda-removing-label-and-data-fields-in-word-layouts" /><a name="RemoveField"></a> Removing label and data fields in Word layouts
+### <a name="removing-label-and-data-fields-in-word-layouts" /><a name="RemoveField"></a> Removing label and data fields in Word layouts
 
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
@@ -111,7 +111,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

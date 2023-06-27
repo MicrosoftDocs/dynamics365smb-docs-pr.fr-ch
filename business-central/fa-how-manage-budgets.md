@@ -54,7 +54,7 @@ Vous pouvez utiliser l’état **Immo. - Valeur projetée** pour calculer l’am
 4. Ne renseignez pas le raccourci **Immobilisation** pour inclure toutes les immobilisations. Dans le champ **Immo. budgétée**, vous pouvez saisir **Non** afin d’exclure les immobilisations budgétées ou sur **Oui** pour les visualiser.
 5. Cliquez sur le bouton **Imprimer** ou **Aperçu**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbudget-fixed-assets" />Voir la [formation Microsoft](/training/modules/budget-fixed-assets/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/budget-fixed-assets/) associée
 
 ## <a name="see-also" />Voir aussi
 

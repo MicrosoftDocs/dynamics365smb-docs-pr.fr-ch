@@ -55,7 +55,7 @@ Les règles de flux de messagerie recherchent des conditions spécifiques sur le
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] traite uniquement les messages du dossier Boîte de réception dans la boîte aux lettres partagée. Si une règle déplace des messages de la boîte de réception vers un autre dossier, ces messages ne seront pas traités. De plus, les messages du dossier Courriers indésirables sont également ignorés.
 
-## <a name="set-up-includeprodshortincludesprodshortmd-to-log-email-messages" />Configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour enregistrer les messages électroniques
+## <a name="set-up--to-log-email-messages" />Configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour enregistrer les messages électroniques
 
 Commencez avec la connexion à la messagerie en deux étapes :
 
@@ -145,14 +145,14 @@ Si vous n’utilisez pas Azure Active Directory pour gérer les identités et le
 
 ## <a name="to-change-the-user-account-used-for-email-logging" />Pour modifier le compte utilisateur utilisé pour la connexion à la messagerie
 
-### <a name="includeprodshortincludesprodshortmd-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
+### <a name="-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Connectez-vous à [!INCLUDE[prod_short](includes/prod_short.md)] avec le compte utilisé par la tâche planifiée pour se connecter à une boîte aux lettres partagée et traiter les e-mails. Ce compte doit avoir accès à [!INCLUDE[prod_short](includes/prod_short.md)] et Exchange Online.
 2. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexion à la messagerie**, puis sélectionnez le lien associé. 
 3. Choisissez **En rapport**, puis **Écriture file d’attente des travaux**.
 4. Redémarrez la tâche de **Connexion à la messagerie**.
 
-### <a name="includeprodshortincludesprodshortmd-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] sur site
+### <a name="-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] sur site
 
 1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexion à la messagerie**, puis sélectionnez le lien associé.
 2. Choisissez **Actions**, puis **Renouveler le jeton**.

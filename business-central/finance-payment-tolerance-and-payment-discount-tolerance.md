@@ -211,11 +211,11 @@ Scénarios comportant deux alternatives, A, B, C ou D. En voici la signification
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**>22/01/03**|**2000**|**Aucun**|**Oui**|**0**|**0**|  
 |30|1 000 <br />1 000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|1990|PaymentTolerance|Oui|0|5|  
 
-### <a name="payment-range-diagrams" />Schémas de chaîne de paiement
+### <a name="payment-range-diagrams-1" />Schémas de chaîne de paiement
 
 Sur la base du scénario ci-avant, les diagrammes des plages de dates de règlement se présentent sous la forme suivante :  
 
-#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Date de règlement <=15/01/03 (scénarios 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3-1" />(1) Date de règlement <=15/01/03 (scénarios 1-3)
 
 Montant ouvert par  
 
@@ -275,7 +275,7 @@ Règles de lettrage normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/enter-payments-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/enter-payments-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -31,7 +31,7 @@ Vous pouvez configurer un certain nombre de modèles rangement et en sélectionn
 
 Vous pouvez créer plusieurs modèles rangement et les appliquer comme vous le souhaitez. On se réfère d’abord au modèle rangement sélectionné éventuel pour l’article ou le point de stock. Si ces champs ne sont pas renseignés, alors le modèle rangement sélectionné pour l’entrepôt sur le raccourci **Config. emplacement** de la fiche magasin sera utilisé.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesput-away-templates" />Voir la [formation Microsoft](/training/modules/put-away-templates/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/put-away-templates/) associée
 
 ## <a name="see-also" />Voir aussi
 

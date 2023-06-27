@@ -47,7 +47,7 @@ Les tâches varieront selon le cas. Utilisez le tableau suivant pour vous aider 
 |Basculer la présentation actuelle utilisée par un état vers une autre présentation|[Définition de la présentation utilisée par un état](ui-set-report-layout.md)|
 |Modifier le nom et la description d’une présentation|[Renommer une présentation](#rename)|
 
-## <a name="a-namedecideadecide-what-type-of-layout-you-want" /><a name="decide"></a>Décider du type de présentation souhaité
+## <a name="decide-what-type-of-layout-you-want" /><a name="decide"></a>Décider du type de présentation souhaité
 
 La première chose à faire lors de la création d’une présentation est de décider de la [présentation](ui-manage-report-layouts.md#layout-types) que vous voulez. Vous pouvez choisir entre Word, Excel ou RDLC. Le type de présentation dépendra de l’aspect que vous souhaitez donner à l’état généré. De plus, cela dépend de votre connaissance des logiciels d’application pour créer les présentations, comme Word, Excel et SQL Server Report Builder.
 
@@ -66,7 +66,7 @@ La première chose à faire lors de la création d’une présentation est de d�
 
 * Les concepts généraux pour les présentations Word et RDLC sont similaires. Cependant, la conception de chaque type présente certaines fonctionnalités qui affectent la manière dont l’état généré s’affiche dans [!INCLUDE[prod_short](includes/prod_short.md)]. Le même rapport peut sembler différent selon que vous utilisez une présentation Word ou une présentation RDLC.
 
-## <a name="a-namecreateacreate-a-new-layout" /><a name="create"></a>Créer une présentation
+## <a name="create-a-new-layout" /><a name="create"></a>Créer une présentation
 
 Il existe deux manières de créer une nouvelle présentation à partir d’une présentation existante. Une façon consiste à enregistrer la présentation existante dans une copie. L’autre méthode consiste à exporter la présentation existante.
 
@@ -127,7 +127,7 @@ Si vous voulez voir à quoi ressemble l’état avec la nouvelle présentation, 
 
 ---
 
-## <a name="a-namemodifyamodify-a-layout" /><a name="modify"></a>Modifier une présentation
+## <a name="modify-a-layout" /><a name="modify"></a>Modifier une présentation
 
 Suivez ces étapes pour modifier une présentation existante définie par l’utilisateur.
 
@@ -156,7 +156,7 @@ Suivez ces étapes pour modifier une présentation existante définie par l’ut
    Le fichier sélectionné est chargé dans la présentation et vous revenez à la page **Présentations d’état**.
 7. Si vous voulez voir à quoi ressemble l’état avec la nouvelle présentation, sélectionnez la présentation dans la liste, puis sélectionnez **Exécuter état**.
 
-## <a name="a-namereplaceareplace-a-layout" /><a name="replace"></a>Remplacer une présentation
+## <a name="replace-a-layout" /><a name="replace"></a>Remplacer une présentation
 
 Suivez ces étapes pour remplacer le fichier de présentation défini par l’utilisateur existant par un nouveau fichier.
 
@@ -168,7 +168,7 @@ Suivez ces étapes pour remplacer le fichier de présentation défini par l’ut
    Le fichier sélectionné est chargé dans la présentation et vous revenez à la page **Présentations d’état**.
 5. Si vous voulez voir à quoi ressemble l’état avec la nouvelle présentation, sélectionnez la présentation dans la liste, puis sélectionnez **Exécuter état**.
 
-## <a name="a-namerenamearename-a-layout" /><a name="rename"></a>Renommer une présentation
+## <a name="rename-a-layout" /><a name="rename"></a>Renommer une présentation
 
 Suivez ces étapes si vous souhaitez modifier le nom et la description d’une présentation définie par l’utilisateur.
 
@@ -179,7 +179,7 @@ Suivez ces étapes si vous souhaitez modifier le nom et la description d’une p
     > Pour vous aider à trouver la présentation, utilisez la case **Rechercher**, le volet **Filtrer** et le tri des colonnes.
 3. Changez le **Nom de la présentation**, puis cliquez sur **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

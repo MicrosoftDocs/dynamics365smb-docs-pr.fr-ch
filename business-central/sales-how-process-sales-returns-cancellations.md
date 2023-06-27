@@ -140,7 +140,7 @@ Pour réaliser manuellement la contrepassation exacte, sélectionnez **Écriture
 
 Pour plus d’informations, voir [Détails de conception : Évaluation stock](design-details-inventory-costing.md).
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/return-items-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/return-items-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

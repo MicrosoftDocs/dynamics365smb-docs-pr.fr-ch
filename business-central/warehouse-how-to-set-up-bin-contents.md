@@ -49,7 +49,7 @@ Lorsque vous avez créé vos emplacements, vous pouvez créer le contenu de chaq
 
 Dans cette feuille, vous pouvez utiliser des lignes contenu de l’emplacement pour plusieurs emplacements, afin d’obtenir un aperçu convenable des articles que vous placez dans différents emplacements d’une zone, d’une allée, ou d’un casier donné.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-zones-bins" />Voir la [formation Microsoft](/training/modules/set-up-zones-bins/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/set-up-zones-bins/) associée
 
 ## <a name="see-also" />Voir aussi
 

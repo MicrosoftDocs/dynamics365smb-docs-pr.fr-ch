@@ -44,13 +44,13 @@ Les états Excel prédéfinis sont basés sur les données de l’entreprise act
 
 D’autres feuilles dans le classeur Excel affichent les données derrière l’état. Pour savoir ce qui se cache derrière les regroupements dans les rapports Excel, vous devrez peut-être filtrer les listes dans [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="the-include-prodshortincludesprodshortmd-excel-add-in" />Module complémentaire [!INCLUDE [prod_short](includes/prod_short.md)] pour Excel
+## <a name="the--excel-add-in" />Module complémentaire [!INCLUDE [prod_short](includes/prod_short.md)] pour Excel
 
 Votre expérience [!INCLUDE [prod_short](includes/prod_short.md)] inclut une macro complémentaire pour Excel. Selon votre abonnement, vous êtes connecté automatiquement, ou vous devez spécifier les mêmes informations de connexion utilisées pour [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Affichage et édition dans Excel depuis Business Central](across-work-with-excel.md).  
 
 Le module complémentaire vous permet d’obtenir des données actualisées à partir de [!INCLUDE [prod_short](includes/prod_short.md)] et d’appliquer les modifications à [!INCLUDE [prod_short](includes/prod_short.md)]. Toutefois, la possibilité de transférer les données vers la base de données est désactivée pour les états financiers Excel dans la liste ci-dessus.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

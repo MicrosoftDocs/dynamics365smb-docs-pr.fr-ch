@@ -29,13 +29,13 @@ Le tableau suivant fournit un aperçu des tâches que vous devez généralement 
 | Clôturer des périodes et l’exercice comptables, transférer des soldes de comptes de gestion dans des comptes de bilan et valider l’écriture de clôture d’exercice. |[Clôture plans](year-close-books.md) |
 | Imprimer des états qui peuvent vous aider à créer des états financiers. |[Préparation des états de clôture](year-prepare-close-statement.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 
 [Utiliser des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

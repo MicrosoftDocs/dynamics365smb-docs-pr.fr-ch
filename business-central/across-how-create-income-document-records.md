@@ -61,7 +61,7 @@ Si vous approuvez l’enregistrement document entrant, la case à cocher **Lanc�
 6. Sur la page **Insérer un fichier**, sélectionnez le fichier qui représente le document entrant concerné, puis choisissez le bouton **Ouvrir**.
 7. Sur la page **Document entrant**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

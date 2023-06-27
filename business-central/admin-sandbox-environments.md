@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# <a name="sandbox-environments-in-includeprodshortincludesprodshortmd" />Environnements Sandbox dans [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-" />Environnements Sandbox dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Avec [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous pouvez facilement obtenir un environnement sûr dans lequel vous pouvez tester, former ou résoudre les problèmes sans perturber les processus de travail ou les données métier de votre société. Cet environnement hors production est appelé *sandbox*. Isolé de la production, un environnement Sandbox est l’emplacement où vous pouvez explorer, apprendre, démontrer, développer et tester en toute sécurité le service sans que les données et les paramètres de votre environnement de production en soient affectés.  
 
@@ -64,7 +64,7 @@ Pour plus d’informations, voir [Utiliser le concepteur](/dynamics365/business-
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/admin-online-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/admin-online-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

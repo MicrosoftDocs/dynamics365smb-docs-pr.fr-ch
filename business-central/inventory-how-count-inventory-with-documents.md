@@ -242,7 +242,7 @@ Vous pouvez spécifier les états à imprimer à différentes étapes en choisis
 > [!NOTE]
 > Les rapports disponibles peuvent varier en fonction de la localisation de votre pays. L’application de base n’inclut aucune présentation.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Voir la [formation Microsoft](/training/modules/adjust-inventory/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/adjust-inventory/) associée
 
 ## <a name="see-also" />Voir aussi
 

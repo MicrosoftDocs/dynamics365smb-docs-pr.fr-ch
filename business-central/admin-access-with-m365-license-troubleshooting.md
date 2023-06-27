@@ -26,11 +26,11 @@ Il vous manque très probablement des autorisations d’objet pour les tables au
 
 ## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />L’accès Microsoft 365 a été activé, mais les utilisateurs reçoivent un message d’erreur d’autorisation
 
-### <a name="symptoms" />Symptômes
+### <a name="symptoms-1" />Symptômes
 
 L’accès avec Microsoft 365 a été activé dans le centre d’administration Business Central, mais les utilisateurs reçoivent un message d’erreur d’autorisation quand ils accèdent à un enregistrement.
 
-### <a name="cause" />Motif
+### <a name="cause-1" />Motif
 
 Si vous activez l’accès dans le centre d’administration Business Central, mais n’attribuez pas d’autorisations dans la page **Configuration de la licence**, toute personne qui tente d’accéder aux enregistrements Business Central dans Teams verra son enregistrement utilisateur approvisionné sans autorisation sur aucun objet. Business Central est sécurisé par conception : les administrateurs doivent d’abord configurer les données accessibles dans Teams. 
 
@@ -40,25 +40,25 @@ La personnalisation des autorisations dans la page Configuration de la licence n
 
 ## <a name="you-shared-a-link-in-teams-but-users-get-a-message-that-they-can-only-view-data" />Vous avez partagé un lien dans Teams, mais les utilisateurs reçoivent un message indiquant qu’ils ne peuvent afficher que les données
 
-### <a name="symptoms" />Symptômes
+### <a name="symptoms-2" />Symptômes
 
 Quand vous partagez un lien dans Teams, en tant qu’utilisateur Business Central, d’autres obtiennent l’erreur « Pendant l’accès à Business Central avec une licence Microsoft 365, vous ne pouvez afficher que les données dans Microsoft Teams ».
 
-### <a name="cause" />Motif
+### <a name="cause-2" />Motif
 
 Pendant le partage d’un lien Business Central vers une conversation instantanée ou des canaux Teams, la navigation avec un lien sortira toujours de Microsoft Teams où les données ne deviennent plus accessibles à une personne ayant une licence Microsoft 365.
 
-### <a name="resolution" />Résolution
+### <a name="resolution-1" />Résolution
 
 Pendant le partage de pages ou d’enregistrements, incluez l’aperçu du lien sous forme de carte ou partagez les données sous forme d’onglet dans la discussion instantanée ou le canal.
 
 ## <a name="card-from-shared-link-is-minimal-and-doesnt-include-details-button" />La carte du lien partagé est minimale et n’inclut pas le bouton Détails
 
-### <a name="symptoms" />Symptômes
+### <a name="symptoms-3" />Symptômes
 
 Lorsqu’un titulaire de licences Microsoft 365 sans licence Business Central partage un lien Business Central dans Teams, il se développe automatiquement en une carte qui ne contient aucune information utile et affiche uniquement Business Central sans bouton **Détails**.
 
-### <a name="cause" />Motif
+### <a name="cause-3" />Motif
 
 Les utilisateurs qui ont une licence Microsoft 365, mais pas de licence Business Central ne sont pas autorisés à partager des liens sous forme de cartes. Si l’utilisateur a installé l’application Business Central pour Teams et colle un lien dans la zone de rédaction, seule une carte minimale s’affiche. 
 

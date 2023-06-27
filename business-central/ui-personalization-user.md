@@ -58,7 +58,7 @@ En ce qui concerne les autres personnalisations, les modifications apportées à
 6. Choisissez l’élément, puis choisissez soit **Déplacer**, **Supprimer**, **Masquer**, **Afficher**, **Afficher sous « Afficher plus »**, **Afficher si réduit**, **Afficher toujours**, **Définir/Effacer le volet Figer**, ou **Inclure/Exclure de la saisie rapide**, en fonction du type et de l’état de l’élément d’interface utilisateur. Pour plus d’informations, voir [Ce que vous pouvez personnaliser](#What).
 7. Lorsque vous avez fini de modifier la mise en page sur une ou plusieurs pages, choisissez le bouton **Terminé** sur la bannière **Personnalisation**.
 
-## <a name="a-namewhatawhat-you-can-personalize" /><a name="What"></a>Ce que vous pouvez personnaliser
+## <a name="what-you-can-personalize" /><a name="What"></a>Ce que vous pouvez personnaliser
 
 |Ce que vous voulez faire|Comment procéder|Remarques|
 |----|------------|-------|
@@ -74,7 +74,7 @@ En ce qui concerne les autres personnalisations, les modifications apportées à
 |Ajoutez une nouvelle action à une page ou à un état sur votre tableau de bord.|Dans la page cible, la page de demande d’état, ou la fenêtre Tell Me, choisissez l’icône de signet.|Voir [Ajouter un signet à une page ou à un état sur votre tableau de bord](ui-bookmarks.md)|
 |Toujours démarrer une liste comme développée ou réduite|Choisissez le bouton **Développer tout** ou **Réduire tout** dans le coint supérieur gauche de la liste. Sinon, choisissez l’action **Développer tout** ou **Réduire tout** dans le menu de la première colonne. |S’applique aux listes hiérarchiques réductibles|
 
-## <a name="a-nameactionsapersonalizing-the-action-bar-and-menus" /><a name="Actions"></a>Personnalisation de la barre d’action et des menus
+## <a name="personalizing-the-action-bar-and-menus" /><a name="Actions"></a>Personnalisation de la barre d’action et des menus
 
 La personnalisation vous permet de choisir les actions à afficher sur les barres de navigation et d’actions et sur les tableaux de bord et où les afficher. Vous pouvez afficher, masquer ou déplacer les actions individuelles ou groupes d’action.
 
@@ -116,7 +116,7 @@ L’emplacement où vous pouvez déplacer des actions ou groupes d’actions est
 1. Pour déplacer une action ou un groupe d’actions, faites-la/le glisser sur la position souhaitée, comme avec les champs et les colonnes.
 2. Pour déplacer une action ou un groupe d’actions dans un autre groupe d’actions vide, déplacez l’action ou le groupe d’actions vers le nouveau groupe et placez-la/le dans la zone **Déplacer une action ici**.
 
-## <a name="a-namepartsapersonalizing-parts" /><a name="Parts"></a>Personnalisation des pièces
+## <a name="personalizing-parts" /><a name="Parts"></a>Personnalisation des pièces
 
 Les parties sont des zones d’une page généralement composées de plusieurs champs, graphiques ou autres contenus. Une partie peut être identifiée par une bordure colorée lors du réglage du focus sur la partie. Par exemple, un écran d’accueil Tableau de bord comporte plusieurs pièces. En raison de sa limite bien définie, vous pouvez personnaliser l’ensemble de la partie et son contenu.
 
@@ -158,7 +158,7 @@ Pour vous aider à mieux comprendre la personnalisation, voici quelques points c
    > [!TIP]
    > En tant qu’administrateur, vous pouvez masquer l’élément **Automatisation** des utilisateurs. En savoir plus sur [Configuration de l’intégration Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 [Personnaliser les pages pour les profils](ui-personalization-manage.md)  

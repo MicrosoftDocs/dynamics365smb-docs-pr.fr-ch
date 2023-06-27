@@ -63,7 +63,7 @@ Il existe plusieurs raccourcis clavier qui vous permettent de travailler "sans s
 
 Pour plus d’informations sur les raccourcis, reportez-vous à la rubrique [Raccourcis clavier](keyboard-shortcuts.md). Certains raccourcis clavier font l’objet de cet article.
 
-## <a name="a-namequickentryaaccelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Accélérer la saisie de données à l’aide de la fonction Saisie rapide
+## <a name="accelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Accélérer la saisie de données à l’aide de la fonction Saisie rapide
 
 La saisie rapide est une fonction conçue pour saisir les données avec le clavier. La fonction Saisie rapide fonctionne sur les champs (comme les pages Fiche) et dans les listes (lignes et colonnes). Cela est avantageux lorsque vous effectuez des tâches de frappe répétitives qui nécessitent de créer plusieurs enregistrements en séquence. Les exemples incluent un lot de commandes vente ou l’enregistrement de nouveaux articles.
 
@@ -125,7 +125,7 @@ Pour commencer à filtrer, sélectionnez ![icône de volet Filtre](media/open-fi
 
 La fonction Filtrage est utile notamment pour afficher et analyser de longs documents. Imaginez que vous ouvrez une facture de vente enregistrée. Ensuite, vous filtrez les articles de ligne pour afficher tous les articles de ligne dont la remise individuelle est supérieure à 5 %. Ou, vous filtrez pour afficher uniquement les accessoires de vélo avec "pro" dans le nom.
 
-## <a name="a-namefocusafocusing-on-line-items" /><a name="Focus"></a>Se concentrer sur les articles de ligne
+## <a name="focusing-on-line-items" /><a name="Focus"></a>Se concentrer sur les articles de ligne
 
 Lorsque vous travaillez sur des documents qui comprennent une pièce des articles de ligne, vous pouvez basculer votre vue pour vous concentrer uniquement sur les articles de ligne. Les exemples de documents sont la page de commande client ou de facture. La partie des articles de ligne se développe pour occuper presque tout l’espace de travail. Elle masque les autres parties de la page à l’exception de la zone d’actions en haut. Cette disposition vous donne un meilleur aperçu des articles de ligne et offre un plus grand espace pour les exploiter.
 
@@ -266,7 +266,7 @@ Voilà quelques exemples.
 
  Si l’unité est « heures », 5 est converti en 5h.  
 
-## <a name="a-namedecimalasetting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Définition du séparateur décimal utilisé par les claviers numériques
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Définition du séparateur décimal utilisé par les claviers numériques
 
 Quand vous utilisez la touche du <kbd>séparateur décimal</kbd> du clavier numérique pour saisir des données, le séparateur décimal réel entré dans le champ est déterminé par votre paramètre régional dans Business Central. La plupart des régions utilisent le symbole point (.) ou virgule (,) comme séparateur pour les valeurs décimales, comme dans les montants en devise généralement. La touche décimale de votre clavier s’adapte à votre région. Elle diffère souvent des touches point ou virgule du reste de votre clavier. Vous devez définir la région de Business Central sur la page **Mes paramètres**.
 
@@ -275,7 +275,7 @@ Par exemple, supposons que vous utilisez un clavier numérique qui utilise un po
 > [!TIP]
 > Il peut arriver que vous souhaitiez utiliser le séparateur décimal pour entrer un point (.). Par exemple, supposons que vous saisissiez une plage de dates dans un filtre, comme `01/01/2022..04/01/2022`, ou tout ce qui nécessite un point. Pour cela, appuyez sur les touches <kbd>Alt</kbd>+<kbd>Séparateur décimal</kbd> du pavé numérique. Cette combinaison de touches fait basculer le séparateur décimal entre la sortie d’un point et le séparateur décimal tel que déterminé par le paramètre **Région**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -64,7 +64,7 @@ R Le fichier d’état généré est automatiquement enregistré dans le dossier
 
 Pour en savoir plus sur la personnalisation des états et des documents en fonction des besoins de votre entreprise, rendez-vous sur [Présentations des états et des documents](ui-manage-report-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleswork-with-reports" />Voir la formation associée sur [Microsoft Learn](/learn/modules/work-with-reports/).
+## <a name="see-related-training-at-microsoft-learn" />Voir la formation associée sur [Microsoft Learn](/learn/modules/work-with-reports/).
 
 ## <a name="see-also" />Voir aussi
 

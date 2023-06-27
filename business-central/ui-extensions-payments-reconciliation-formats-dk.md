@@ -47,7 +47,7 @@ Voici quelques étapes pour commencer.
 
 En outre, vous devez affecter les fournisseurs à un **Groupe compta. marché** et à un **Groupe compta. fournisseur** nationaux. Le paramètre de pays/région du fournisseur doit être le Danemark (DK). Pour plus d’informations, voir [Configuration de groupes comptabilisation](finance-posting-groups.md).  
 
-### <a name="to-allow-includeprodshortincludesprodshortmd-to-export-payment-data" />Pour autoriser [!INCLUDE[prod_short](includes/prod_short.md)] à exporter des données de règlement
+### <a name="to-allow--to-export-payment-data" />Pour autoriser [!INCLUDE[prod_short](includes/prod_short.md)] à exporter des données de règlement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille paiement**, puis choisissez le lien associé.  
 2. Sur la page **Modifier feuille paiement**, choisissez le lot **Banque**.  

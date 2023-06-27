@@ -119,7 +119,7 @@ Vous pouvez même créer des factures à paiement direct pour les clients non en
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index) associée.
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index) associée.
 
 ## <a name="see-also" />Voir aussi
 

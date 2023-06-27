@@ -37,7 +37,7 @@ Vous pouvez éventuellement ajouter des conditions de paiement à votre mode de 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Client** ou **Fournisseur**, puis choisissez le lien associé.
 2. Dans le champ **Code mode de règlement**, choisissez le mode à utiliser par défaut pour le client ou le fournisseur.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/cash-management-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/cash-management-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

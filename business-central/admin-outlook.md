@@ -83,7 +83,7 @@ Le déploiement centralisé est une fonctionnalité du centre d’administration
 
 Une fois terminé, vous pouvez toujours modifier le déploiement dans le centre d’administration Microsoft 365, par exemple en affectant plus d’utilisateurs. Pour plus d’informations sur le déploiement de compléments dans le centre d’administration, voir [Déployer des compléments dans le centre d’administration](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="a-nameinstallainstall-the-add-in-for-your-own-use" /><a name="install"></a>Installer le complément pour votre propre usage
+## <a name="install-the-add-in-for-your-own-use" /><a name="install"></a>Installer le complément pour votre propre usage
 
 Si votre organisation le permet, vous pouvez installer le complément Business Central pour votre propre compte. Si vous n’êtes pas sûr, demandez à votre administrateur.
 
@@ -94,7 +94,7 @@ Si votre organisation le permet, vous pouvez installer le complément Business C
 
 Business Central se connectera à votre serveur de messagerie et installera le complément dans votre instance d’Outlook. Cela ne prendra pas longtemps. Vous êtes maintenant prêt à commencer à utiliser le complément dans Outlook.
 
-### <a name="a-nameonpremafor-business-central-on-premises" /><a name="onprem"></a>Pour Business Central local
+### <a name="for-business-central-on-premises" /><a name="onprem"></a>Pour Business Central local
 
 Si vous utilisez Business Central sur site, l’installation du complément peut être légèrement différente.
 
@@ -116,7 +116,7 @@ Si vous utilisez Business Central sur site, l’installation du complément peut
 
 Vous êtes maintenant prêt à commencer à utiliser le complément dans Outlook.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

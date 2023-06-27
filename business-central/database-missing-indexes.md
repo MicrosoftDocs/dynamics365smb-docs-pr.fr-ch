@@ -10,7 +10,7 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/09/2022
 ---
-# <a name="database-missing-indexes-in-includeprodlongincludesprodlongmd" />Base de données dans laquelle les index sont manquants dans [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="database-missing-indexes-in-" />Base de données dans laquelle les index sont manquants dans [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Les administrateurs et les développeurs peuvent rendre la base de données plus efficace et améliorer les performances de l’application en utilisant les informations extraites par **Base de données dans laquelle les index sont manquants** dans [!INCLUDE[prod_short](includes/prod_short.md)].
 

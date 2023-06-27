@@ -51,7 +51,7 @@ Ce graphique indique comment le champ **Code emplacement** sur les lignes compos
 
 :::image type="content" source="media/binflow.png" alt-text="Champ de code d’emplacement sur les lignes de composant d’ordre de fabrication.":::
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-bins-location" />Voir la [formation Microsoft](/training/modules/configure-bins-location/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/configure-bins-location/) associée
 
 ## <a name="see-also" />Voir aussi
 

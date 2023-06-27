@@ -151,7 +151,7 @@ Sur la page **Paramètres production**, le champ **Mag. composant par déf.** es
 
  ![Deuxième exemple d’écritures chaînage dans la table Écriture réservation.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers-8-and-9" />Numéros d’écriture 8 et 9
+### <a name="entry-numbers-8-and-9-1" />Numéros d’écriture 8 et 9
  Les écritures chaînage pour les deux lots du composant correspondant à la demande dans la table 5407 sont modifiées d’un statut de réservation **Traçabilité** à **Excédent**. La raison est que les approvisionnements qui ont été liés précédemment, dans la table 32, ont été utilisés par l’expédition de l’ordre de transfert.  
 
  Un excédent véritable, comme dans ce cas, reflète un excédent d’approvisionnement ou de demande qui reste non chaîné. Il s’agit d’une indication de déséquilibre dans le réseau d’ordres, qui génère un message d’action par le système de planification, sauf s’il est résolu de façon dynamique.  

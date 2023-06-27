@@ -46,7 +46,7 @@ Après avoir fait un choix, entrez les informations de recherche pertinentes dan
 > [!TIP]
 > Pour des exemples d’utilisation de **Rechercher des écritures**, voir [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md) et [Guide pas-à-pas : Suivi des numéros de série/lot](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

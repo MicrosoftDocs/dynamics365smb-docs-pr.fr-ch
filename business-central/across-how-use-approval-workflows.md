@@ -78,7 +78,7 @@ La fonctionnalité **Envoyer des notifications d’approbations échues** passe 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Demandes approbations échues**, puis sélectionnez le lien associé.
 2. Sur la page **Demandes approbations échues**, sélectionnez l’action **Envoyer les notifications d’approbation échues**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Voir la [formation Microsoft](/training/modules/use-approval-workflows/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/use-approval-workflows/) associée
 
 ## <a name="see-also" />Voir aussi
 

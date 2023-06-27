@@ -35,7 +35,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Obtenir des conseils relatifs à la réorganisation des magasins, emplacements ou zones pour générer des activités entrepôt plus efficaces.|[Restructurer les entrepôts](warehouse-how-to-restructure-warehouses.md)|
 |Spécifier les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-warehouse-management" />Voir la [formation Microsoft](/training/paths/set-up-warehouse-management/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/set-up-warehouse-management/) associée
 
 ## <a name="see-also" />Voir aussi
 

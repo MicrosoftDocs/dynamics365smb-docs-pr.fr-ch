@@ -53,7 +53,7 @@ Avant d’accéder à [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, n
 
 **Modifier dans Excel** : pour utiliser le complément Excel pour apporter des modifications dans Excel et les appliquer dans [!INCLUDE[prod_short](includes/prod_short.md)], Excel 2019 ou une version ultérieure est requis. Pour plus d’informations, voir [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="a-nametaca-using-the-business-central-administration-center" /><a name="TAC"></a> Utilisation du Centre d’administration Business Central
+## <a name="using-the-business-central-administration-center" /><a name="TAC"></a> Utilisation du Centre d’administration Business Central
 
 Le centre d’administration est conçu pour fonctionner avec la version actuelle des navigateurs suivants :
 

@@ -99,7 +99,7 @@ L’un des aspects des projets de planification est de décider quels comptes de
 | **Compte coûts récep.** |Compte frais contenant les coûts réceptionnés du projet. Il s’agit ordinairement d’un compte frais pour débit. |
 | **Compte ventes récep.** |Compte de revenu contenant les revenus réceptionnés du projet. Il s’agit ordinairement d’un compte de revenu pour crédit. |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Voir la [formation Microsoft](/training/paths/set-up-jobs-resources/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/set-up-jobs-resources/) associée
 
 ## <a name="see-also" />Voir aussi
 

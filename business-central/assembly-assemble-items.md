@@ -51,7 +51,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Apprenez à utiliser les nomenclatures d’assemblage et leurs différences avec les nomenclatures de production.|[Utilisation des nomenclatures d’assemblage](assembly-how-work-assembly-boms.md)|
 |Découvrez plus d’informations sur la validation de la consommation de l’assemblage et de la production, et sur la manière dont [!INCLUDE [prod_short](includes/prod_short.md)] répartit les coûts des articles et des ressources dans la comptabilité.|[Détails de conception : validation d’ordre d’assemblage](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 
@@ -63,6 +63,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

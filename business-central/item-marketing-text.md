@@ -15,7 +15,7 @@ Pour tous les articles enregistrés dans Business Central, vous pouvez écrire d
 
 Il existe deux manières de créer du texte marketing. Le moyen le plus simple de commencer est d’utiliser Copilot, qui vous suggère un texte généré par l’IA. L’autre façon est de repartir de zéro. 
 
-## <a name="a-namecopilotacreate-ai-generated-marketing-text-preview-with-copilot" /><a name=copilot></a>Créer un texte marketing généré par l’IA (version préliminaire) avec Copilot
+## <a name="create-ai-generated-marketing-text-preview-with-copilot" /><a name=copilot></a>Créer un texte marketing généré par l’IA (version préliminaire) avec Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 

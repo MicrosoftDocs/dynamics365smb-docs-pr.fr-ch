@@ -89,7 +89,7 @@ Le lien entre la commande cadre vente et la commande vente d’origine, et n’i
 
 5. Sur la page **Lignes vente**, sélectionnez l’action **Afficher document** pour afficher l’écriture.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

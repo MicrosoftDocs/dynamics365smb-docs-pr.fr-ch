@@ -158,7 +158,7 @@ Les groupes d’utilisateurs qui ne sont pas autorisés à effectuer des validat
 
 ## <a name="item-charge-scenario" />Scénario de frais annexes
 
-### <a name="prerequisites" />Conditions préalables
+### <a name="prerequisites-1" />Conditions préalables
 
 Veuillez saisir les valeurs suivantes :
 
@@ -184,7 +184,7 @@ Veuillez saisir les valeurs suivantes :
 
 - Fin période validation = Vide  
 
-### <a name="to-test-the-scenario" />Pour tester le scénario
+### <a name="to-test-the-scenario-1" />Pour tester le scénario
 
 Testez ce scénario en effectuant les étapes suivantes :
 

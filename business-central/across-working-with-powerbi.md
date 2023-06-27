@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="work-with-power-bi-reports-in-include-prodshortincludesprodshortmd" />Utiliser les états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-" />Utiliser les états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Dans cet article, vous découvrirez quelques notions de base sur l’affichage des états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -35,7 +35,7 @@ Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, il doi
 
 Avant de pouvoir utiliser Power BI avec [!INCLUDE[prod_short](includes/prod_short.md)], vous devrez vous inscrire au service Power BI. Si vous ne vous êtes pas encore inscrit, accédez à [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Au moment de votre inscription, utilisez votre adresse e-mail professionnelle et votre mot de passe.
 
-## <a name="a-nameconnectaconnect-to-power-bi---one-time-only" /><a name="connect"></a>Se connecter à Power BI - une fois seulement
+## <a name="connect-to-power-bi---one-time-only" /><a name="connect"></a>Se connecter à Power BI - une fois seulement
 
 Lorsque vous vous connectez pour la première fois [!INCLUDE [prod_short](includes/prod_short.md)], vous verrez peut-être une partie Power BI vide (comme indiqué dans la figure précédente) sur différentes pages. La première chose à faire est de vous connecter à votre compte Power BI. Une fois connecté, vous pouvez voir les états. Vous ne devez effectuer cette étape qu’une seule fois.
 
@@ -53,7 +53,7 @@ Le processus de connexion démarre. Pendant le processus, [!INCLUDE [prod_short]
 > [!TIP]
 > Avec [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, cette étape téléchargera automatiquement les états Power BI par défaut utilisés dans [!INCLUDE [prod_short](includes/prod_short.md)] vers votre espace de travail Power BI.
 
-#### <a name="from-include-prodshortincludesprodshortmd-on-premises" />Depuis [!INCLUDE [prod_short](includes/prod_short.md)] sur site
+#### <a name="from--on-premises" />Depuis [!INCLUDE [prod_short](includes/prod_short.md)] sur site
 
 Se connecter à Power BI depuis [!INCLUDE [prod_short](includes/prod_short.md)] est identique à la version en ligne. Cependant, vous pouvez être invité sur la page **AUTORISATIONS DE SERVICE AZURE ACTIVE DIRECTORY** pour accorder l’accès aux services Power BI. Pour accorder l’accès, sélectionnez **Autoriser les services Azure**, puis **Accepter**.
 
@@ -99,7 +99,7 @@ Lorsque vous revenez au tableau de bord, l’état mis à jour apparaîtra. Si v
 > [!NOTE]
 > Cette fonctionnalité n’est pas disponible avec [!INCLUDE [prod_short](includes/prod_short.md)] sur site.
 
-### <a name="a-nameuploadaupload-reports" /><a name="upload"></a>Télécharger des états
+### <a name="upload-reports" /><a name="upload"></a>Télécharger des états
 
 Les états Power BI peuvent être distribués entre les utilisateurs sous forme de fichiers .pbix. Si vous avez des fichiers .pbix, vous pouvez les télécharger et les partager avec tous les utilisateurs de [!INCLUDE [prod_short](includes/prod_short.md)]. Les états sont partagés au sein de chaque société dans [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -126,7 +126,7 @@ Ce message apparaît si l’état par défaut n’a pas pu être déployé sur v
 
 C’est probablement parce que le nom de l’état ne contient pas le nom de la page de liste. Effacez le filtre pour obtenir la liste complète des états disponibles dans Power BI.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

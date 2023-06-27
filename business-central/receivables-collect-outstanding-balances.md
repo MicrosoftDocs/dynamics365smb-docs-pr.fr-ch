@@ -107,7 +107,7 @@ Lorsque vous émettez une relance, une écriture relance est créée sur la page
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Pour plus d’informations, reportez vous à [Paramétrer plusieurs taux d’intérêt](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-financial-periodic-activities-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

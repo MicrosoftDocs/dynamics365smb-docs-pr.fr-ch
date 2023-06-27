@@ -69,7 +69,7 @@ Lorsque vous validez une sortie de stock, une écriture lettrage article qui lie
 
 Dans la table **Ecriture article**, le champ **Quantité restante** présente la quantité qui n’a pas encore été lettrée. Si la quantité restante est supérieure à 0, la case à cocher **Ouvrir** est activée.  
 
-### <a name="example" />Exemple :
+### <a name="example-1" />Exemple :
 L’exemple suivant montre l’écriture lettrage article créée lors de la validation d’une expédition vente de 5 unités des articles réceptionnés dans l’exemple précédent. La première écriture lettrage article est la réception achat. La deuxième écriture lettrage est l’expédition vente.  
 
 Le tableau suivant montre les deux écritures lettrage article qui résultent de l’entrée de stock et de la sortie de stock, respectivement.  

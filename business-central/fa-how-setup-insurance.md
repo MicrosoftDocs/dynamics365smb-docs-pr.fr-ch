@@ -55,7 +55,7 @@ Vous pouvez définir des feuilles dans un modèle feuille assurance. Les valeurs
 > [!NOTE]  
 >   Les numéros remplissent une fonction spéciale dans les noms de feuille. Si un nom de feuille ou de modèle feuille indique un numéro, ce numéro est incrémenté automatiquement de 1 à chaque fois que la feuille est validée. Par exemple, si vous saisissez HH1 dans le champ **Nom**, la feuille prend le nom HH2 après validation de la feuille HH1.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Voir la [formation Microsoft](/training/paths/set-up-fixed-assets-management/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/set-up-fixed-assets-management/) associée
 
 ## <a name="see-also" />Voir aussi
 

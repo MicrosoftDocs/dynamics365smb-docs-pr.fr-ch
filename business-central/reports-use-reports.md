@@ -25,7 +25,7 @@ Un rapport dans [!INCLUDE[prod_short](includes/prod_short.md)] rassemble des inf
 | Découvrez comment modifier la disposition par défaut d’un état. | [Modification de la disposition de rapport par défaut](ui-how-change-layout-currently-used-report.md) |
 | Afficher et analyser les données d’un jeu de données de rapport dans Microsoft Excel. | [Enregistrer le jeu de données du rapport dans Excel à partir de la page de demande](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) associée.
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) associée.
 
 ## <a name="see-also" />Voir aussi
 

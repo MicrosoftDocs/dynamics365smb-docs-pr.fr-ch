@@ -10,7 +10,7 @@ ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="overview-of-tasks-to-set-up-includeprodshortincludesprodshortmd" />Aperçu des tâches permettant de paramétrer [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-" />Aperçu des tâches permettant de paramétrer [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] comprend des configurations standard pour la plupart des processus métier, mais vous pouvez les modifier pour les adapter aux besoins de votre organisation. Les articles [Démarrage rapide de Business Central](quick-start-business-central.md) peuvent vous aider à vous familiariser avec [!INCLUDE [prod_short](includes/prod_short.md)]. Cet article fournit un aperçu de la façon dont vous pouvez configurer [!INCLUDE [prod_short](includes/prod_short.md)] pour votre organisation.
 
@@ -79,6 +79,6 @@ Vous pouvez également ajouter des fonctionnalités à votre [!INCLUDE [prod_sho
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Démarrage rapide de Business Central](quick-start-business-central.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

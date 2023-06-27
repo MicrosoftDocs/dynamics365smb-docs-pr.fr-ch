@@ -43,7 +43,7 @@ La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] prend e
     > [!NOTE]  
     >  Vous pouvez également envoyer une facture vente validée en tant que document électronique. La procédure est la même que celle décrite dans cette rubrique pour les documents vente non validés. Sur la page **Facture vente enregistrée**, sélectionnez l’action **Journal des activités** pour afficher le statut du document électronique.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

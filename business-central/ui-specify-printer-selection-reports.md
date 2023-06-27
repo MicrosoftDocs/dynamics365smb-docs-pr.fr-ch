@@ -11,7 +11,7 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="a-namedefaultaspecify-a-default-printer" /><a name="default"></a>Spécification d’une imprimante par défaut
+# <a name="specify-a-default-printer" /><a name="default"></a>Spécification d’une imprimante par défaut
 
 Une fois les imprimantes configurées dans Business Central, vous pouvez ensuite spécifier l’imprimante que vous souhaitez utiliser par défaut. Il existe plusieurs façons de spécifiez les imprimantes qui seront utilisées par défaut pour les déclarations et autres travaux d′impression. Une imprimante par défaut est utile si vous utilisez différents états nécessitant différentes imprimantes en raison de leur placement dans la société ou de leurs capacités d’impression.
 

@@ -114,7 +114,7 @@ Si vous n’avez pas coché la case **Amort. jusqu’à date compta.**, l’acti
 
 *Amortissement total = 100 + 15 + 55,54 = 170,54*
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-advanced-fixed-assets-transactions" />Voir la [formation Microsoft](/training/paths/manage-advanced-fixed-assets-transactions/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/manage-advanced-fixed-assets-transactions/) associée
 
 ## <a name="see-also" />Voir aussi
 

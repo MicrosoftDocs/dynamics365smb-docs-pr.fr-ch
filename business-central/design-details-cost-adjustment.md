@@ -158,7 +158,7 @@ Pour configurer l’ajustement des coûts à exécuter automatiquement lorsque v
 
 La sélection effectuée dans le champ **Ajustement automatique des coûts** est importante pour les performances et la précision et de vos coûts. Des périodes plus courtes, telles que **Jour** ou **Semaine**, affectent moins les performances système, car elles offrent la condition plus stricte que seuls les prix validés le jour ou la semaine précédente peuvent être automatiquement ajustés. Cela signifie que l’ajustement automatique des coûts n’est pas effectué aussi fréquemment et affecte donc moins les performances du système. Toutefois, cela signifie également que les coûts unitaires peuvent être moins précis.  
 
-### <a name="example" />Exemple :
+### <a name="example-1" />Exemple :
 
 L’exemple suivant présente scénario d’ajustement automatique des coûts :  
 

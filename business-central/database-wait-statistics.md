@@ -10,7 +10,7 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/15/2022
 ---
-# <a name="database-wait-statistics-in-includeprodlongincludesprodlongmd" />Statistiques d’attente de base de données dans [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="database-wait-statistics-in-" />Statistiques d’attente de base de données dans [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Les administrateurs et les développeurs peuvent avoir un aperçu des performances de la base de données en consultant les **Statistiques d’attente de la base de données** dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les informations présentées par les **Statistiques d’attente de la base de données** peuvent aider à vérifier le type de ressources utilisées et le type de retards auxquels sont confrontés les processus de base de données. En analysant ces statistiques d’attente, vous pouvez trouver la cause première du ralentissement des performances de votre base de données, et éventuellement prendre de meilleures décisions pour les performances de l’application.
 

@@ -39,7 +39,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Afficher le stock disponible prévu sous différents types d’affichage et voir quels besoins bruts, réceptions de commandes planifiées et autres événements l’influencent dans le temps.|[Voir la disponibilité des articles](inventory-how-availability-overview.md)|  
 <!--|Effectuer des activités de planification sélectionnées, comme la modification ou l’ajout de lignes feuille planning, dans une vue graphique du programme d’approvisionnement.|[Modifier les propositions planning dans une vue graphique](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/plan-items-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/plan-items-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 
@@ -51,7 +51,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

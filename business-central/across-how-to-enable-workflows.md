@@ -22,7 +22,7 @@ Sur la page **Flux de travail**, créez un flux de travail en répertoriant les 
 2. Ouvrez le flux de travail que vous souhaitez activer.  
 3. Sur la page **Flux de travail**, activez le bouton à bascule **Activé**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
 ## <a name="see-also" />Voir aussi
 

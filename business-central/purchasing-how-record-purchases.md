@@ -193,9 +193,9 @@ Dans la plupart des cas, vous pouvez ouvrir des écritures comptables à partir 
 
 Vous pouvez modifier certains champs dans les documents d’achat validés, tels que le champ **Référence de paiement**. En savoir plus sur [Modifier les documents validés](across-edit-posted-document.md). Pour les champs plus critiques qui concernent la piste d’audit, vous devez inverser ou annuler la validation. En savoir plus, [Inverser des validations feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-centralindex" />Voir la [formation Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index) associée.
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index) associée.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training-1" />Voir la [formation Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 

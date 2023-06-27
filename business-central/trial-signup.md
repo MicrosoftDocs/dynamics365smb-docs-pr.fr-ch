@@ -38,7 +38,7 @@ Vous pouvez également contacter l’[équipe commerciale [!INCLUDE[prod_short](
 
 Pour plus d’informations sur ce que vous pouvez faire avec [!INCLUDE [prod_short](includes/prod_short.md)], voir [Se préparer à faire des affaires](ui-get-ready-business.md) et [Fonctionnalité commerciale](across-business-functionality.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/trial-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/trial-dynamics-365-business-central/) associée
 
 ## <a name="additional-resources" />Ressources supplémentaires
 

@@ -72,7 +72,7 @@ Nous vous invitons à utiliser Microsoft Dynamics Lifecycle Services (LCS) pour 
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Bienvenue dans Business Central](index.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

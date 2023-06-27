@@ -70,7 +70,7 @@ Vous pouvez modifier les informations des fiches fournisseur à tout moment. Tou
 5. Lorsque vous avez terminé le nouveau modèle fournisseur, cliquez sur le bouton **OK**.  
    Le modèle fournisseur est ajouté à la liste des modèles fournisseur. Vous pouvez ainsi l’utiliser pour créer des fiches fournisseur.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée.
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée.
 
 ## <a name="see-also" />Voir aussi
 

@@ -132,11 +132,11 @@ Dans **Administration Shopify** notez que la commande est maintenant marquée co
 
 ## <a name="walkthrough-invite-your-customers-to-your-new-online-store" />Procédure pas à pas : invitez vos clients dans votre nouvelle boutique en ligne
 
-### <a name="scenario" />Scénario
+### <a name="scenario-1" />Scénario
 
 Après un lancement rapide et réussi de votre nouvelle boutique en ligne, vous souhaitez que vos clients actuels la visitent et commencent à passer des commandes.
 
-### <a name="steps" />Étapes
+### <a name="steps-1" />Étapes
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)], exécutez l’une des étapes suivantes :
 
@@ -148,11 +148,11 @@ Dans **Administration Shopify** notez que les clients ont été importés. Ouvre
 
 ## <a name="walkthrough-fine-tuning-of-item-management" />Procédure pas à pas : ajustement de la gestion des éléments
 
-### <a name="scenario" />Scénario
+### <a name="scenario-2" />Scénario
 
 Vous aimerez ajouter plus de flexibilité et de contrôle à vos processus de gestion des articles. Vous souhaitez améliorer la description du produit et souhaitez ajouter plus d’étapes de révision avant que les produits ne soient disponibles pour le client final.
 
-### <a name="steps" />Étapes
+### <a name="steps-2" />Étapes
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)], exécutez l’une des étapes suivantes :
 
@@ -241,11 +241,11 @@ Dans la **boutique en ligne Shopify**, ouvrez le catalogue de produits, recherch
 
 ## <a name="walkthrough-import-items-from-shopify" />Procédure pas à pas : importer des articles de Shopify
 
-### <a name="scenario" />Scénario
+### <a name="scenario-3" />Scénario
 
 Vous avez déjà une boutique en ligne performante et souhaitez commencer à l’utiliser [!INCLUDE[prod_short](../includes/prod_short.md)] comme logiciel de gestion d’entreprise. Vous souhaitez importer autant de données de Shopify que possible. 
 
-### <a name="steps" />Étapes
+### <a name="steps-3" />Étapes
 
 Ceci est la suite de la [Procédure pas à pas : Commencez à vendre des produits en ligne](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Vous pouvez également essayer avec vos propres données, par exemple votre boutique ou bac à sable Shopify.
 

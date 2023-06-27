@@ -135,7 +135,7 @@ Sur la page **Prélèvement stock**, vous pouvez gérer toutes les activités en
 
     Les 30 lampes Amsterdam sont à présent enregistrées comme prélevées depuis les emplacements S-01-0001 et S-01-0002, et une écriture comptable article négative est créée pour refléter l’expédition vente validée.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Voir la [formation Microsoft](/training/paths/pick-ship-items-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/pick-ship-items-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

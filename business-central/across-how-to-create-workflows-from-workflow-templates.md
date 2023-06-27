@@ -29,7 +29,7 @@ Sur la page **Flux de travail**, créez un flux de travail en répertoriant les 
    La page **Flux de travail** s’ouvre pour un nouveau flux de travail contenant toutes les informations du modèle sélectionné. La valeur du champ **Code** est étendue avec « -01 », par exemple, « -01 » pour indiquer que ce premier flux de travail est créé à partir du modèle de flux de travail.  
 4. Créez ensuite le flux de travail en modifiant les étapes de flux de travail ou en ajoutant de nouvelles étapes. En savoir plus sur [Créer des flux de projet](across-how-to-create-workflows.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
 ## <a name="see-also" />Voir aussi
 

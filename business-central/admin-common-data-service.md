@@ -24,7 +24,7 @@ Les étapes suivantes offrent un aperçu des étapes pour intégrer [!INCLUDE[pr
 
 3. Synchronisez les données entre les applications. Pour plus d’informations, voir la rubrique [Synchronisation de Business Central et de Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-includeprodshortincludescdslongmdmd" />Mise en route de [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## <a name="getting-started-with-" />Mise en route de [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Pour prendre en main [!INCLUDE[prod_short](includes/cds_long_md.md)], vous avez besoin d’un compte Microsoft Power Apps. Si vous ne disposez pas encore d’un compte Power Apps, vous pouvez en obtenir un gratuitement en visitant [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) et en cliquant sur le lien **Démarrer gratuitement**. Pour en savoir plus sur la prise en main de [!INCLUDE[prod_short](includes/cds_long_md.md)], consultez le module [Mise en route avec le module Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) de la formation Microsoft.
 
@@ -57,7 +57,7 @@ Pour plus de détails sur chaque rôle, tels que les autorisations et les niveau
 
 Lors de la configuration de la connexion, les mappages de table d’intégration nécessaires à la synchronisation des données sont créés. Les entités dans [!INCLUDE[prod_short](includes/cds_long_md.md)] sont mappées à des tables et des champs de table dans Business Central au moyen de tables d’intégration. Pour en savoir plus, consultez [Mappage d’entité standard pour la synchronisation](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-model-driven-apps-common-data-service" />Voir la [formation Microsoft](/training/modules/use-model-driven-apps-common-data-service/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/use-model-driven-apps-common-data-service/) associée
 
 ## <a name="see-also" />Voir aussi
 

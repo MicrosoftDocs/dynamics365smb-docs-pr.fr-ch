@@ -42,7 +42,7 @@ Cette vidéo montre comment configurer un flux de travail qui exigera qu’un ut
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
 ## <a name="see-also" />Voir aussi
 

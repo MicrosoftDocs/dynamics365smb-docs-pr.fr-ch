@@ -41,7 +41,7 @@ Vous pouvez supprimer des fichiers joints de documents non validés à tout mome
 
 La connexion au document validé est supprimée. Vous pouvez maintenant connecter un autre enregistrement document entrant au document validé, comme cela est décrit dans cet article.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

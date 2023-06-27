@@ -64,7 +64,7 @@ Avant de pouvoir commencer à utiliser des flux de travail, vous devez configure
 | Affichez les instances d’étape de flux de travail dont le statut est **Terminé**. | [Afficher des instances d’étape de flux de travail archivées](across-how-to-view-archived-workflow-step-instances.md) |
 | Supprimez un flux de travail approbation que vous êtes sûr de ne plus utiliser. | [Suppression des flux d’approbation](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
 ## <a name="see-also" />Voir aussi
 

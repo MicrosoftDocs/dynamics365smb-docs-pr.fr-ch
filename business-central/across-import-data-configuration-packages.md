@@ -80,7 +80,7 @@ Le package de configuration par défaut prend en charge les tables suivantes :
 [Extension QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
 [Importer plusieurs images d’article](inventory-how-import-item-pictures.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

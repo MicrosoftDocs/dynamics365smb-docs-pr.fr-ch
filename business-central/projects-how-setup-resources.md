@@ -74,7 +74,7 @@ Outre le prix spécifié sur la fiche ressource, vous pouvez configurer des prix
 3. Sur la page **Prix ressource**, renseignez les champs sur une ligne selon vos besoins.
 4. Répétez l’étape 3 pour chaque autre prix ressource à configurer.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Voir la [formation Microsoft](/training/paths/set-up-jobs-resources/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/set-up-jobs-resources/) associée
 
 ## <a name="see-also" />Voir aussi
 

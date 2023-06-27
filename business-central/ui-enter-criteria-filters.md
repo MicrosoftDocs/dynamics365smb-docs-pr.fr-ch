@@ -77,7 +77,7 @@ Le tableau suivant fournit des exemples expliquant comment vous pouvez utiliser 
 |`@*man`|Tous les enregistrements finissant par **man**, quelle que soit la casse. Par exemple, **Sportsman**, mais pas **Manchester** ni **manuel**.|
 
 
-## <a name="a-namefilteringafiltering" /><a name="filtering"></a>Filtrage
+## <a name="filtering" /><a name="filtering"></a>Filtrage
 
 Le filtrage fournit une manière plus avancée et plus souple de contrôler les enregistrements affichés dans une liste ou à inclure dans un état ou un XMLport. Il existe deux différences majeures entre rechercher et filtrer, comme décrit dans le tableau ci-dessous.
 
@@ -249,7 +249,7 @@ Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et 
 |`..1299|1400..`|Inclure tous les enregistrements qui portent un numéro inférieur ou égal à 1299 ou un numéro supérieur ou égal à 1400 (tous les numéros sauf ceux compris entre 1300 et 1399).|  
 |`>50&<100`|Inclure les enregistrements qui portent un numéro supérieur à 50 et inférieur à 100 (numéros 51 à 99).|  
 
-### <a name="a-namesymbolsafiltering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtrage des valeurs contenant des symboles
+### <a name="filtering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtrage des valeurs contenant des symboles
 
 Il peut y avoir des cas où les valeurs de champ contiennent l’un des symboles suivants :
 
@@ -302,7 +302,7 @@ Utilisez `%myvendors` dans le champ **N°** fournisseur pour afficher tous les e
 |-----------------------|-----------------------|  
 |`%myvendors`|Fournisseurs dans **Mes fournisseurs** de votre tableau de bord. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

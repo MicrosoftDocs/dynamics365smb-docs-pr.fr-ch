@@ -28,7 +28,7 @@ Si votre [!INCLUDE [prod_short](includes/prod_short.md)] inclut plusieurs socié
 
 Il existe quelques fonctionnalités que vous pouvez utiliser pour changer d’entreprise, comme le sélecteur de société (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Pour plus d’informations, consultez [Passer à une autre entreprise ou un autre environnement](ui-organization-switch.md).
 
-## <a name="a-namebadgeadisplay-a-company-badge" /><a name="badge"></a>Afficher un badge de société
+## <a name="display-a-company-badge" /><a name="badge"></a>Afficher un badge de société
 
 Lorsqu’il y a plus d’une société ou d’un environnement, vous verrez le sélecteur d’entreprise sur le côté supérieur droit de la barre d’application, près de l’icône de recherche dans la barre d’application. Par défaut, le sélecteur de société utilise une icône d’entreprise standard, comme le ![Lanceur Icône de l’entreprise.](media/ui-experience/company-icon.png "Affiche l’icône de changement d’entreprise utilisée lorsqu’il n’y a qu’un seul environnement") et ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Affiche l’icône de changement d’entreprise utilisée lorsqu’il y a plusieurs environnements").
 
@@ -54,7 +54,7 @@ Le nom de la société est toujours affiché dans le coin supérieur gauche et f
 
 L’expérience utilisateur par défaut dans une version d’évaluation de [!INCLUDE [prod_short](includes/prod_short.md)] ne révèle pas toutes les fonctionnalités. Vous pouvez passer à l’expérience complète dans la page **Informations société**. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

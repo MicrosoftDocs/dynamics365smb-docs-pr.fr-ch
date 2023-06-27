@@ -294,7 +294,7 @@ Lorsque vous saisissez une écriture pour B1 dans la feuille validation immobili
 > [!NOTE]  
 > Vous ne pouvez pas utiliser la même souche de numéros dans la feuille validation immobilisation et la feuille immobilisation. Lorsque vous validez des écritures dans la feuille validation immobilisation, vous devez laisser le champ **N° document** vide. Si vous saisissez un numéro dans le champ, il est copié dans la feuille immobilisation. Vous devez modifier manuellement le numéro de document avant de pouvoir valider la feuille.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-depreciation-books" />Voir la [formation Microsoft](/training/modules/configure-depreciation-books/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/configure-depreciation-books/) associée
 
 ## <a name="see-also" />Voir aussi
 

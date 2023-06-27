@@ -138,7 +138,7 @@ Si vous devez enregistrer le fait que des articles ont déjà été déplacés v
 2. Renseignez les champs **N° article**, **Du code zone**, **Du code emplacement**, **Vers code zone** et **Du code emplacement**.  
 3. Sélectionnez l’action **Enregistrer**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Voir la [formation Microsoft](/training/modules/manage-internal-warehouse-processes/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/manage-internal-warehouse-processes/) associée
 
 ## <a name="see-also" />Voir aussi
 

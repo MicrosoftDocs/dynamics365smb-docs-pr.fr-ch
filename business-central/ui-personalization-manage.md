@@ -62,7 +62,7 @@ Vous pouvez supprimer des personnalisations de page individuelles effectuées po
 
 La disposition sur les pages sélectionnées reflète désormais les modifications que vous avez apportées.
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Voir la [formation Microsoft](/training/paths/tailor-roles-design-ui/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/tailor-roles-design-ui/) associée
 
 ## <a name="see-also" />Voir aussi
 

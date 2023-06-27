@@ -11,7 +11,7 @@ ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="accountant-experiences-in-includeprodlongincludesprodlongmd" />Expériences de comptable dans [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="accountant-experiences-in-" />Expériences de comptable dans [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Chaque entreprise doit tenir ses comptes et valider sa comptabilité. Certaines sociétés utilisent un comptable externe, et d’autres ont un comptable dans le personnel. Peu importe le type de comptable que vous êtes, vous pouvez utiliser le tableau de bord **Comptable** comme pages d’accueil de [!INCLUDE[prod_short](includes/prod_short.md)]. De là, vous pouvez accéder à toutes les pages nécessaires pour votre travail.  
 
@@ -25,7 +25,7 @@ Si vous débutez avec [!INCLUDE[prod_short](includes/prod_short.md)], vous pouve
 
 Si vous travaillez dans plusieurs entreprises [!INCLUDE [prod_short](includes/prod_short.md)], vous trouverez peut-être utile d’utiliser la page **Hub Entreprise** pour suivre votre travail.  Pour plus d’informations, voir [Gérer le travail entre plusieurs entreprises dans le Hub Entreprise](company-hub.md).  
 
-## <a name="a-nameinviteaccountantainviting-your-external-accountant-to-your-includeprodshortincludesprodshortmd" /><a name="inviteaccountant"></a>Inviter votre comptable externe dans votre [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviting-your-external-accountant-to-your-" /><a name="inviteaccountant"></a>Inviter votre comptable externe dans votre [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Si vous utilisez un comptable externe pour gérer votre comptabilité et vos états financiers, votre administrateur peut l’inviter à votre [!INCLUDE[prod_short](includes/prod_short.md)] afin qu’il puisse travailler avec vous sur vos données fiscales. [!INCLUDE[prod_short](includes/prod_short.md)] comprend trois licences de type Comptable externe. Pour plus d’informations sur la gestion des licences, voir le [Guide des licences Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
@@ -64,7 +64,7 @@ Si votre administrateur ou partenaire revendeur ne souhaite pas utiliser le guid
 
 Ensuite, vous devez attribuer au nouvel utilisateur invité une licence pour [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-includeprodshortincludesprodshortmd" />Pour donner à votre comptable accès à votre [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-" />Pour donner à votre comptable accès à votre [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Dans le Portail Azure, pour le nouvel utilisateur ajouté, choisissez **Profil**, puis **Modifier**
 2. Mettez à jour le champ **Lieu d’utilisation** et indiquez le pays concerné, puis choisissez **Enregistrer**.
@@ -78,7 +78,7 @@ Ensuite, vous devez attribuer au nouvel utilisateur invité une licence pour [!I
 
 En cas de réussite, la licence est attribuée à l’utilisateur invité et le compte invité est créé.
 
-### <a name="importing-the-new-user-into-includeprodshortincludesprodshortmd" />Importation du nouvel utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-" />Importation du nouvel utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Le comptable recevra un e-mail l’informant qu’on lui a accordé l’accès à votre Active Directory. Ensuite, vous devez lui donner accès à la bonne société dans [!INCLUDE[prod_short](includes/prod_short.md)].
 

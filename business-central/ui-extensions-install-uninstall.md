@@ -22,7 +22,7 @@ Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en installan
 
 Pour utiliser une extension, vous devez disposer des ensembles d’autorisations qui l’accompagnent.
 
-## <a name="a-nameinstallainstall-an-extension" /><a name="install"></a>Installer une extension
+## <a name="install-an-extension" /><a name="install"></a>Installer une extension
 
 La page **Gestion des extensions** vous permet de gérer les applications et les extensions. Vous pouvez accéder à cette page à partir de la page d’accueil. Sinon, choisissez l’icône **Rechercher une page ou un état** ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") dans le coin supérieur droit, entrez **Extension**, puis choisissez le lien associé.  
 
@@ -103,7 +103,7 @@ Par défaut, lorsque vous désinstallez une application que vous utilisiez, vos 
 [Extensions [!INCLUDE[prod_short](includes/prod_short.md)] par d’autres fournisseurs](ui-extensions-other.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -55,7 +55,7 @@ Vous pouvez configurer différents aspects des notifications du workflow dans le
 
   Pour les flux de travail d’approbation, ajoutez une étape de réponse de flux de travail pour informer l’expéditeur lorsque la demande a été approuvée ou rejetée. En savoir plus à partir de l’étape 9 de la section [Créer des flux de travail](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" /><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
 ## <a name="see-also" /><a name="see-also"></a>Voir aussi
 

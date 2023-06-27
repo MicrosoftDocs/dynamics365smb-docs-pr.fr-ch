@@ -125,7 +125,7 @@ Si la quantité a été expédiée dans une expédition entrepôt, une ligne de 
 
 Pour terminer la correction, rouvrez l’ordre transfert, entrez la quantité correcte, puis validez l’ordre. Si la commande doit être expédiée à l’aide d’une expédition entrepôt, créez et validez une expédition entrepôt.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-items" />Voir la [formation Microsoft](/training/modules/transfer-items/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/transfer-items/) associée
 
 ## <a name="see-also" />Voir aussi
 

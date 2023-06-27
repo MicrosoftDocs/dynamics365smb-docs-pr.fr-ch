@@ -16,7 +16,7 @@ Utilisez un service externe pour obtenir les derniers taux de change des devises
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="a-namecurracurrencies" /><a name="curr"></a>Devises
+## <a name="currencies" /><a name="curr"></a>Devises
 
 Le tableau suivant décrit les champs de la liste **Devises**.
 
@@ -111,7 +111,7 @@ Vous pouvez entrer un code devise sur une ligne feuille comptabilité et valider
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescurrencies-exchange-rates-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/currencies-exchange-rates-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/currencies-exchange-rates-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

@@ -70,7 +70,7 @@ Voici un résumé des spécifications des polices MICR CMC-7 qui peuvent se rév
 
 ![Spécifications MICR CMC-7.](media/font_MICR_CMC-7_Specifications.png "Spécifications MICR CMC-7")
 
-### <a name="delimiter-characters" />Caractères séparateurs
+### <a name="delimiter-characters-1" />Caractères séparateurs
 
 ![Caractères séparateurs pour CMC-7.](media/font-cmc7-letters.png "Caractères séparateurs pour CMC-7")
 

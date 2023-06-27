@@ -133,7 +133,7 @@ Ken est désormais prêt à affecter la définition de colonne au nom d’état 
 2. Sur la page **État financier**, vous pouvez sélectionner un montant, puis afficher les écritures de prévisions de trésorerie qui constituent ce montant. En outre, vous pouvez afficher la formule qui est utilisée pour calculer le montant. Vous pouvez également filtrer les montants par date et par axe analytique.  
 3. Choisissez l’action **Imprimer** pour imprimer les prévisions de trésorerie.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

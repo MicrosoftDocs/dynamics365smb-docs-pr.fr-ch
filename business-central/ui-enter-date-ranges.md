@@ -123,7 +123,7 @@ Le tableau suivant affiche des exemples de dates à l’aide de tous les formats
 |m 23|Mardi de la semaine 23 de l’année de date de travail|
 |m-1|Mardi de la semaine 1 de l’année de date de travail|
 
-## <a name="a-namebkmksettingdaterangesa-setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Définition des plages
+## <a name="setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Définition des plages
 
 Sous Listes, totaux et états, vous pouvez définir des filtres sur les dates, heures et dates/heures contenant une valeur de début et éventuellement une valeur de fin pour afficher uniquement les données contenues dans cette plage. Les règles standard s’appliquent à la définition des plages de dates.
 
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas" />Use Date Formulas
+## <a name="use-date-formulas-1" />Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -345,7 +345,7 @@ Pour voir quelle unité de mesure est utilisée dans un champ de durée, saisiss
 
 Par exemple, si l’unité est « heures », le chiffre 5 est converti en 5 h.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

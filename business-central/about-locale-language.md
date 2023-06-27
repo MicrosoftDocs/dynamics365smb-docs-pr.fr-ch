@@ -50,7 +50,7 @@ Sur la page **Paramètres comptabilité**, si vous activez le bouton à bascule 
 
 Dans la page **Aide et support**, vous pouvez voir quelle version de [!INCLUDE[prod_short](includes/prod_short.md)] utilise votre entreprise. Si vous souhaitez baser une entreprise sur une version différente, votre administrateur peut créer un nouvel environnement de production. Pour plus d’informations, voir [Créer un nouvel environnement de production](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) dans le contenu pour les développeurs et les professionnels de l’informatique.  
 
-## <a name="languages-of-the-includeprodshortincludesprodshortmd-help" />Langues de l’aide de [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="languages-of-the--help" />Langues de l’aide de [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Le contenu de l’aide de la version par défaut de [!INCLUDE[prod_short](includes/prod_short.md)] publié sur Microsoft Learn. Le contenu est disponible dans différentes langues. Si vous accédez à la documentation à partir de [!INCLUDE[prod_short](includes/prod_short.md)], le contenu s’affichera dans votre langue. Par défaut, si une page spécifique n’est pas encore disponible dans votre langue, elle s’affichera en anglais.
 

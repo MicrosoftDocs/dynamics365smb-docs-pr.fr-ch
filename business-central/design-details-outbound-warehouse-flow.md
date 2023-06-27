@@ -83,7 +83,7 @@ Le schéma suivant présente les processus d’entrepôt sortants pour différen
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Affiche les étapes d’un flux sortant avancé dans un entrepôt.":::
 
-### <a name="1-release-a-source-document" />1 : Lancer un document origine
+### <a name="1-release-a-source-document-1" />1 : Lancer un document origine
 
 Le lancement d’un document origine dans les configurations avancées a le même effet que pour les configurations de base. Les articles deviennent disponibles pour être manipulés dans l’entrepôt. Par exemple, ils peuvent être inclus dans une expédition.  
 

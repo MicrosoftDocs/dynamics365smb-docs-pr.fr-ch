@@ -60,7 +60,7 @@ Vous pouvez créer une facture à partir des lignes planning projet et indiquer 
 > [!NOTE]  
 >   La procédure ci-dessus permet également de créer, de consulter, puis de valider un avoir vente associé à un projet.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Voir la [formation Microsoft](/training/paths/post-job-usage-sales/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/post-job-usage-sales/) associée
 
 ## <a name="see-also" />Voir aussi
 

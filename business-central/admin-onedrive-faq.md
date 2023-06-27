@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 Cet article répond à certaines des questions que vous pourriez vous poser sur l’utilisation de OneDrive et [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="does-this-work-with-all-includeprodshortincludesprodshortmd-clients" />Est-ce que ça marche avec tous mes clients [!INCLUDE[prod_short](includes/prod_short.md)] ?
+## <a name="does-this-work-with-all--clients" />Est-ce que ça marche avec tous mes clients [!INCLUDE[prod_short](includes/prod_short.md)] ?
 
 Oui. Vous pouvez ouvrir des fichiers dans OneDrive depuis les applications mobiles [!INCLUDE[prod_short](includes/prod_short.md)], lors de l’affichage des détails de carte dans Microsoft Teams, ou même à partir du complément Outlook.  
 
@@ -24,7 +24,7 @@ Oui. Vous pouvez ouvrir des fichiers dans OneDrive depuis les applications mobil
 
 Dans le cadre de votre abonnement Microsoft 365, votre organisation vous fournit OneDrive, votre stockage de fichiers dans le cloud. OneDrive est privé par défaut ; vous y organisez votre contenu et choisissez quels fichiers ou dossiers partager, et avec qui. D’autre part, SharePoint fournit un référentiel de fichiers dans le cloud qui est partagé avec d’autres personnes de votre organisation.  
 
-## <a name="does-includeprodshortincludesprodshortmd-support-consumer-onedrive" />Est-ce que [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge OneDrive pour le grand public ?
+## <a name="does--support-consumer-onedrive" />Est-ce que [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge OneDrive pour le grand public ?
 
 Non. Cette intégration est exclusivement destinée à OneDrive Entreprise et ne prend en charge que votre compte professionnel. 
 
@@ -36,15 +36,15 @@ Non. Cette intégration est exclusivement destinée à OneDrive Entreprise et ne
 
 Les administrateurs peuvent accéder au tableau de bord d’intégrité des services dans le cadre du centre d’administration Microsoft 365. Ce tableau de bord comprend la disponibilité des services OneDrive. Accédez à [https://admin.microsoft.com/Adminportal/Home?#/servicehealth](https://admin.microsoft.com/Adminportal/Home?#/servicehealth).
  
-## <a name="is-onedrive-integration-available-to-includeprodshortincludesprodshortmd-on-premises" />Est-ce que l’intégration de OneDrive est disponible pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site ?
+## <a name="is-onedrive-integration-available-to--on-premises" />Est-ce que l’intégration de OneDrive est disponible pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site ?
 
 Oui, mais contrairement à [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, elle nécessite une configuration supplémentaire. Pour plus d’informations, consultez [Configuration de Business Central sur site](admin-onedrive-integration-onpremises.md).  
 
-## <a name="does-includeprodshortincludesprodshortmd-on-premises-connect-with-sharepoint-server" />Est-ce que [!INCLUDE[prod_short](includes/prod_short.md)] sur site se connecte avec SharePoint Server ?
+## <a name="does--on-premises-connect-with-sharepoint-server" />Est-ce que [!INCLUDE[prod_short](includes/prod_short.md)] sur site se connecte avec SharePoint Server ?
 
 Non Cette combinaison de déploiement n’est pas prise en charge, même si SharePoint Server a activé Mes sites.  
 
-## <a name="does-includeprodshortincludesprodshortmd-online-connect-with-sharepoint-server" />Est-ce que [!INCLUDE[prod_short](includes/prod_short.md)] en ligne se connecte avec SharePoint Server ?
+## <a name="does--online-connect-with-sharepoint-server" />Est-ce que [!INCLUDE[prod_short](includes/prod_short.md)] en ligne se connecte avec SharePoint Server ?
 
 Non Cette combinaison de déploiement n’est pas prise en charge, même si SharePoint Server a activé Mes sites.  
 
@@ -56,7 +56,7 @@ L’intégration suppose que les noms d’entreprise sont uniques dans tous les 
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ne migre pas automatiquement les fichiers que vous avez ouverts plus tôt dans OneDrive vers le nouveau dossier. Après avoir renommé votre entreprise, l’action Ouvrir dans OneDrive copiera les fichiers dans un dossier portant le nouveau nom de l’entreprise.   
 
-## <a name="when-attaching-files-to-includeprodshortincludesprodshortmd-how-do-i-pick-a-file-from-onedrive" />Lorsque je joins des fichiers à [!INCLUDE[prod_short](includes/prod_short.md)], comment puis-je choisir un fichier à partir de OneDrive ?
+## <a name="when-attaching-files-to--how-do-i-pick-a-file-from-onedrive" />Lorsque je joins des fichiers à [!INCLUDE[prod_short](includes/prod_short.md)], comment puis-je choisir un fichier à partir de OneDrive ?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ne fournit pas de sélecteur de fichiers cloud. Vous devez télécharger le fichier de OneDrive sur votre appareil, puis le charger dans [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -72,11 +72,11 @@ Exécutez le guide de configuration assistée **Configuration de OneDrive** et d
 
 Il s’agit d’une fonctionnalité héritée où tous les fichiers [!INCLUDE[prod_short](includes/prod_short.md)] de tous les utilisateurs sont envoyés à un seul dossier SharePoint. Nous vous recommandons de ne pas configurer le raccourci Documents partagés sur la page **Configuration de la connexion SharePoint** parce que cette page est [obsolète](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup) et sera supprimée dans la deuxième vague de lancement 2023, version 23.0.  Nous vous recommandons d’utiliser plutôt la **Configuration de OneDrive**.  
 
-## <a name="which-version-of-includeprodshortincludesprodshortmd-supports-onedrive" />Quelle version de [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge OneDrive ?
+## <a name="which-version-of--supports-onedrive" />Quelle version de [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge OneDrive ?
 
 L’intégration à OneDrive est devenue disponible dans la 2e vague de lancement 2021.  
 
-## <a name="a-namefeaturesawhich-features-are-affected-by-onedrive-integration" /><a name="features"></a>Quelles fonctionnalités sont affectées par l’intégration de OneDrive ?
+## <a name="which-features-are-affected-by-onedrive-integration" /><a name="features"></a>Quelles fonctionnalités sont affectées par l’intégration de OneDrive ?
 
 Dans le guide de configuration assistée **Configuration de OneDrive** pour configurer l’intégration de OneDrive, vous pouvez activer ou désactiver les fonctionnalités de gestion des fichiers Business Central dans OneDrive. Les fonctionnalités sont réparties entre deux options :
 

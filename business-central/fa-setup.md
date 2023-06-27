@@ -36,7 +36,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | En savoir plus sur les différentes méthodes d’amortissement des immobilisations. |[Méthodes d’amortissement](fa-depreciation-methods.md) |
 | Découvrez comment appliquer des méthodes d’amortissement paramétrables. |[Définir des méthodes d’amortissement paramétrables](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Voir la [formation Microsoft](/training/paths/set-up-fixed-assets-management/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/set-up-fixed-assets-management/) associée
 
 ## <a name="see-also" />Voir aussi
 

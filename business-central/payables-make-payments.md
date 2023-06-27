@@ -35,7 +35,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Payez un fournisseur en liquide ou par chèque et validez le paiement lorsque vous validez la facture. |[Établir rapidement des factures achat](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Assurez-vous que la banque efface uniquement les chèques et les montants validés en envoyant un fichier contenant des informations de paiement, du chèque et du fournisseur. |[Exporter un fichier Positive Pay](finance-how-positive-pay.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-customer-vendor-payments-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

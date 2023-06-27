@@ -34,7 +34,7 @@ LSV+ est un service de prélèvement utilisé pour traiter les paiements. Les so
 
 Pour exporter des paiements selon la norme SEPA, vous devez utiliser un compte bancaire. Sur ces comptes bancaires, le champ **Groupe compta. banque** doit spécifier le compte général pertinent. De cette façon, les écritures du grand livre associées seront cohérentes avec les écritures générées pour les modes de paiement suisses. Pour plus d'informations sur l'exportation des paiements SEPA, voir [Procédure : créer des écritures de collection prélèvement automatique SEPA et les exporter vers un fichier bancaire](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
 
-### <a name="a-nameiban-qraiban-and-qr-iban" /><a name="iban-qr"></a>IBAN et QR-IBAN
+### <a name="iban-and-qr-iban" /><a name="iban-qr"></a>IBAN et QR-IBAN
 
 En Suisse, les demandes de paiement basées sur les virements SEPA peuvent inclure un code IBAN normal pour le compte bancaire ou un code QR-IBAN. Pour plus d'informations, voir [Gestion des QR-factures](ui-extensions-qr-bill-management.md).  
 

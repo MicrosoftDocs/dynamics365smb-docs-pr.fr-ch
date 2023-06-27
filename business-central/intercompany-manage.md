@@ -75,7 +75,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 [Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

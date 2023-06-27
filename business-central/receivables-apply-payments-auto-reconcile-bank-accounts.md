@@ -37,7 +37,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Lier le texte des paiements à un client spécifique, fournisseur ou comptes généraux pour toujours valider les réceptions récurrentes en liquide ou les dépenses vers ces comptes quand ils ne peuvent être appliqués à aucun document. |[Mapper du texte sur des paiements récurrents avec des comptes pour un rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Configurez les règles pour définir comment les paiements/transactions bancaires doivent être automatiquement lettrés avec leurs écritures comptables ouvertes associées lorsque vous utilisez la fonction **Lettrer automatiquement** sur la page **Feuille rapprochement bancaire**.|[Définir des règles pour le lettrage automatique des paiements](receivables-how-set-up-payment-application-rules.md)|
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-centralindex" />Voir la [formation Microsoft](/training/modules/use-journals-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/use-journals-dynamics-365-business-central/index) associée
 
 ## <a name="see-also" />Voir aussi
 [Rapprochement des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md)  

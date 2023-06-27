@@ -98,7 +98,7 @@ La page **Plan comptable** affiche les comptes dans une liste hiérarchique qui 
 
 Dans une petite organisation, comme la société de démonstration CRONUS, la plupart des utilisateurs peuvent modifier le plan comptable, à l’exception des utilisateurs disposant d’une licence MEMBRE D’ÉQUIPE. Cependant, les grandes organisations utilisent généralement des rôles et des autorisations d’utilisation pour limiter l’accès pour modifier le plan comptable. Si vous êtes administrateur ou si vous avez le rôle de *Gestionnaire d’activité* ou de *Comptable*, vous pouvez contrôler les autorisations utilisateur pour vous assurer que les bonnes personnes ont accès aux tables pertinentes. Pour plus d’informations, consultez la section [Pour afficher ou modifier les autorisations d’un utilisateur](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbusiness-central-configure-general-ledger-setup" />Voir la [formation Microsoft](/training/modules/business-central-configure-general-ledger-setup/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/business-central-configure-general-ledger-setup/) associée
 
 ## <a name="see-also" />Voir aussi
 

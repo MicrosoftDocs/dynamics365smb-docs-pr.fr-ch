@@ -112,7 +112,7 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
 
 4.  Cliquez sur le bouton **OK** pour enregistrer les modifications.
 
-## <a name="setting-up-a-job" />Configuration d’un projet
+## <a name="setting-up-a-job-1" />Configuration d’un projet
 
  Dans ce cas, CRONUS a décroché un contrat avec un client, Progressive Home Furnishings, pour la conception d’une salle de conférence/repas. Le client est basé aux États-Unis et le projet nécessitera l’utilisation d’un logiciel spécial. Le chef de projet conclut un accord avec le client et crée un projet en relation avec cet accord.  
 
@@ -258,7 +258,7 @@ Les lignes sont à présent validées.
 2.  Sélectionnez l’action **Statistiques**. Vous pouvez consulter des informations détaillées sur les prix, les coûts et les profits d’un projet dans la devise locale et dans une devise étrangère.  
 3.  Cliquez sur le bouton **Fermer** pour fermer la page **Statistiques projet**.  
 
-## <a name="handling-fixed-prices" />Gestion de prix fixes
+## <a name="handling-fixed-prices-1" />Gestion de prix fixes
 
  L’installation de salles de conférence a été confiée à CRONUS. En tant que chef de projet, Prakash souhaite disposer d’une bonne vue d’ensemble des tâches liées au projet ainsi que des coûts budgétisés et exposés associés à chacune d’elle. Prakash souhaite, en outre, connaître le prix total convenu pour le projet et les montants déjà facturés à ce stade. Ils ont conclu un accord avec le client concernant le prix fixe du projet.  
 
@@ -454,7 +454,7 @@ Les procédures suivantes expliquent comment créer un projet, définir un prix 
 
  Cette procédure pas à pas vous a présenté l’utilisation de base des projets dans [!INCLUDE[prod_short](includes/prod_short.md)]. Vous avez appris à créer un projet, à copier un projet et à gérer les paiements. Vous avez également vu comment assurer le suivi des heures et créer des factures.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-jobs" />Voir la [formation Microsoft](/training/paths/create-jobs/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/create-jobs/) associée
 
 ## <a name="see-also" />Voir aussi
 

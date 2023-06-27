@@ -36,6 +36,6 @@ Vous pouvez également explorer le site [Fonctionnalités de Dynamics 365 Busine
 [Tarification de Business Central](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Communauté Dynamics 365 Business Central](https://community.dynamics.com/business/)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

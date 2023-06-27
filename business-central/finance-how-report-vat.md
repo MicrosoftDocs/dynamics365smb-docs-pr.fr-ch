@@ -35,7 +35,7 @@ Si vous souhaitez afficher un historique complet des écritures TVA, chaque vali
 > [!NOTE]
 > Chaque environnement [!INCLUDE[prod_short](includes/prod_short.md)] est destiné à gérer les rapports réglementaires dans un seul pays. Par exemple, la version néerlandaise de [!INCLUDE[prod_short](includes/prod_short.md)] gère la déclaration de TVA aux Pays-Bas mais pas dans d’autres pays. De même, la version américaine de [!INCLUDE[prod_short](includes/prod_short.md)] gère la déclaration 1099 aux États-Unis et ne prend pas en charge la déclaration de TVA dans d’autres pays, sauf si elle est apportée par une extension fournie par notre écosystème partenaire ou une modification de code spécifique au client.
 
-## <a name="a-nameecsaleslistaabout-the-ec-sales-list-report" /><a name="ecsaleslist"></a>À propos de la déclaration Liste des ventes UE
+## <a name="about-the-ec-sales-list-report" /><a name="ecsaleslist"></a>À propos de la déclaration Liste des ventes UE
 
 Dans l’Union européenne (UE) et au Royaume-Uni, toutes les sociétés qui vendent des biens et des services aux clients enregistrés pour la TVA, y compris les clients dans d’autres pays de l’Union européenne (UE), doivent envoyer une version électronique de l’état Liste des ventes de la Communauté européenne (CE) à leurs administrations douanières et fiscales. L’état **Liste des ventes UE** ne fonctionne que pour les pays de l’UE.
 
@@ -53,7 +53,7 @@ Une fois que l’administration fiscale aura examiné votre état, elle devra en
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="a-namevatreturnaabout-the-vat-return-report" /><a name="vatreturn"></a>À propos de la déclaration Retour TVA
+## <a name="about-the-vat-return-report" /><a name="vatreturn"></a>À propos de la déclaration Retour TVA
 
 Utilisez cet état pour envoyer les documents relatifs à la TVA sur les ventes et les achats, tels que les commandes d’achat et de vente, les factures et les avoirs. Les informations contenues dans l’état sont au même format que dans la déclaration de l’administration fiscale et douanière.  
 
@@ -73,7 +73,7 @@ Pour déclarer la TVA à une administration par voie électronique, vous devez c
     > [!NOTE]  
     > Il est judicieux de tester votre connexion. Pour cela, cochez la case **Mode Test**, puis préparez et envoyez votre déclaration de TVA comme décrit dans la section [Préparer et envoyer une déclaration de TVA](#to-prepare-and-submit-a-vat-report). En mode Test, le service vérifie si l’administration fiscale peut recevoir votre état, et le statut de l’état indiquera si l’envoi du test a réussi. Il est important de retenir que ce n’est pas un envoi réel. Pour réellement envoyer l’état, vous devez désactiver la case à cocher **Mode test**, puis répéter le processus d’envoi.
 
-## <a name="to-set-up-vat-reports-in-includeprodshortincludesprodshortmd" />Pour configurer les états TVA dans [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-set-up-vat-reports-in-" />Pour configurer les états TVA dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
@@ -148,7 +148,7 @@ Le tableau suivant décrit les codeunits que vous devez créer pour votre état.
 > [!Note]
 > Lorsque vous créez des codeunits pour la déclaration, faites attention à la valeur du champ **Version de la déclaration TVA**. Ce champ doit refléter la version de l’état qui est ou a été requis par l’administration fiscale. Par exemple, vous pouvez saisir **2021** dans le champ pour indiquer que l’état remplit les conditions qui étaient en place cette année. Pour trouver la version en cours, contactez votre administration fiscale.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

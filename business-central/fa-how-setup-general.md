@@ -123,7 +123,7 @@ Si vous utilisez les immobilisations dans [!INCLUDE[prod_short](includes/prod_sh
 
 Si les immobilisations ne sont pas intégrées en comptabilité, omettez les étapes 6 et 8.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Voir la [formation Microsoft](/training/paths/set-up-fixed-assets-management/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/set-up-fixed-assets-management/) associée
 
 ## <a name="see-also" />Voir aussi
 

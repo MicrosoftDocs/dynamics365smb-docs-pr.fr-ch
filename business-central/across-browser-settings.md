@@ -50,7 +50,7 @@ Si le navigateur n’autorise pas les cookies, vous obtiendrez l’erreur suivan
 1. Dans Microsoft Edge, accédez à **Réglages** > **Cookies et autorisations du site** > **Cookies et données de site**.
 2. Déplacez le bouton bascule **Autoriser les sites à enregistrer et lire les données des cookies** vers la droite (activé).  
 
-## <a name="a-namepopupaallow-pop-ups-from-business-central" /><a name="popup"></a>Autoriser les fenêtres contextuelles depuis Business Central
+## <a name="allow-pop-ups-from-business-central" /><a name="popup"></a>Autoriser les fenêtres contextuelles depuis Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] s’intègre à plusieurs produits. Dans certains cas, comme avec Microsoft Teams, [!INCLUDE[prod_short](includes/prod_short.md)] s’ouvre, ou « ouvre une fenêtre contextuelle » dans le produit. Cette fonctionnalité nécessite que votre navigateur autorise les fenêtres contextuelles de [!INCLUDE[prod_short](includes/prod_short.md)].
 

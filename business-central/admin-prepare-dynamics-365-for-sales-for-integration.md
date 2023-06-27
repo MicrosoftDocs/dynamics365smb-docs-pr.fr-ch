@@ -25,7 +25,7 @@ Si vous avez déjà intégré [!INCLUDE[crm_md](includes/crm_md.md)] à [!INCLUD
 > [!NOTE]
 > La reconnexion au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)] applique les paramètres de synchronisation par défaut et remplace toute configuration dont vous disposez. Par exemple, les mappages de table par défaut sont appliqués.
 
-## <a name="integration-settings-that-are-specific-to-a-includecrmmdincludescrmmdmd-integration" />Paramètres d’intégration dédiés à une intégration [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="integration-settings-that-are-specific-to-a--integration" />Paramètres d’intégration dédiés à une intégration [!INCLUDE[crm_md](includes/crm_md.md)]
 L’intégration à [!INCLUDE[prod_short](includes/prod_short.md)] se produit au moyen de [!INCLUDE[prod_short](includes/cds_long_md.md)], et de nombreux paramètres et tables standard sont fournis. Outre les paramètres standard, certains sont dédiés à [!INCLUDE[crm_md](includes/crm_md.md)]. Les sections suivantes répertorient ces paramètres.
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-sales" />Autorisations et rôles de sécurité pour les comptes d’utilisateur dans Sales

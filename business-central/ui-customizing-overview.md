@@ -28,13 +28,13 @@ Il existe différentes méthodes pour personnaliser l’application, afin de don
 > [!NOTE]
 > Tous les descriptions de fonctions de la documentation utilisateur de [!INCLUDE[prod_short](includes/prod_short.md)] assument l’expérience **Premium**, ce qui signifie que les descriptions couvrent la portée complète des éléments de l’interface utilisateur. Par conséquent, les utilisateurs avec l’expérience **Essentiel** peuvent dans certaines rubriques rencontrer des fonctionnalités et des éléments de l’interface utilisateur qui ne sont pas visibles dans leur interface utilisateur. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Voir la [formation Microsoft](/training/paths/tailor-roles-design-ui/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/paths/tailor-roles-design-ui/) associée
 
 ## <a name="see-also" />Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

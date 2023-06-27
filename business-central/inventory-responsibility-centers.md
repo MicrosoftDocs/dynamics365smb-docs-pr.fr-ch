@@ -49,7 +49,7 @@ Pour configurer cela, vous devez affecter des centres de gestion à des utilisat
 > [!NOTE]  
 > Les utilisateurs peuvent afficher uniquement les documents publiés liés à leur propre centre de responsabilité. Cependant, ils peuvent afficher toutes les écritures comptables et accéder à d’autres documents validés à partir des écritures comptables.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-responsibility-centers" />Voir la [formation Microsoft](/training/modules/set-up-responsibility-centers/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/set-up-responsibility-centers/) associée
 
 ## <a name="see-also" />Voir aussi
 

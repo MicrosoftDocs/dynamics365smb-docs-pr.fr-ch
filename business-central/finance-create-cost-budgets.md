@@ -26,7 +26,7 @@ Vous utilisez les pages suivantes pour créer et analyser les budgets de coûts.
 |Consultez les registres du budget des coûts et les écritures correspondantes.|Page **Registres du budget des coûts**|  
 |Imprimez les comparaisons budgétaires de coûts à l’aide de divers états.|État **Budget/Solde comptabilité analytique**<br /><br /> État **Budget/Relevé comptabilité analytique**<br /><br /> État **Budget des coûts par centre de coûts**<br /><br /> État **Budget des coûts par coûts associés**|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-reports-dynamics-365-business-central" />Voir la [formation Microsoft](/training/modules/cost-accounting-reports-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/cost-accounting-reports-dynamics-365-business-central/) associée
 
 ## <a name="see-also" />Voir aussi
 

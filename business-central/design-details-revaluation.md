@@ -89,7 +89,7 @@ Lors du calcul de la quantité réévaluable pour les articles utilisant le mode
 -   Une écriture valeur avec le type d’écriture **Écart**. Cette écriture enregistre la différence entre le coût facturé et le coût standard réévalué.  
 -   Une écriture valeur avec le type d’écriture **Réévaluation**. Cette écriture enregistre l’inversion de la réévaluation du coût prévu.  
 
-### <a name="example" />Exemple :
+### <a name="example-1" />Exemple :
 L’exemple suivant, basé sur la production de la chaîne dans l’exemple précédent, illustre la manière dont les trois types d’écritures sont créés. Il est basé sur le scénario suivant :  
 
 1.  L’utilisateur valide les liens achetés comme reçus avec un coût unitaire de 2,00 LCY.  
@@ -123,7 +123,7 @@ Le tableau suivant montre les critères utilisés pour un article qui n’utilis
 |E|Ultérieur au n° d’écriture réévaluation.|Égal à la date comptabilisation de réévaluation|Oui|  
 |F|Ultérieur au n° d’écriture réévaluation.|Ultérieur à la date comptabilisation de réévaluation|Oui|  
 
-### <a name="example" />Exemple :
+### <a name="example-2" />Exemple :
 L’exemple suivant, qui illustre la réévaluation d’un article qui utilise le mode d’évaluation du stock FIFO, est basé sur le scénario suivant :  
 
 1.  Le 01/01/20, l’utilisateur valide un achat de 6 unités.  
