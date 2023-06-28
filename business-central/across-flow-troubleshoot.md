@@ -3,12 +3,11 @@ title: Dépanner les flux de travail automatisés
 description: Découvrez comment dépanner la connexion entre Business Central et Power Automate lorsque vous créez un flux de travail automatisé.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 08/04/2022
-ms.author: edupont
+ms.date: 06/16/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: d365-business-central
 ---
 
 # Dépanner les flux de travail automatisés [!INCLUDE[prod_short](includes/prod_short.md)]
@@ -27,6 +26,20 @@ Actuellement, le nombre d’enregistrements traités par un flux est limité. Si
 
 > [!NOTE]
 > Pour les développeurs, le déclenchement du flux se fait par les notifications webhook et cette limitation est due à la façon dont le connecteur Business Central gère les notifications `collection`. En savoir plus sur [Utilisation des webhooks dans Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) dans l’aide pour les développeurs et les administrateurs.
+
+## Erreur « La réponse du service Business Central est trop volumineuse »
+
+### Problème
+
+Lors de l’utilisation d’une action qui interagit avec les enregistrements (telle que *Créer un enregistrement (V3)* et *Obtenir un enregistrement (V3)*), Power Automate peut afficher une erreur semblable à celle-ci :
+
+`The response from the Business Central service is too large`
+
+### Cause possible
+
+Même si Business Central n’a pas défini de limite sur la taille des enregistrements renvoyés par les API, le connecteur Dynamics 365 Business Central pour Power Automate ne peut gérer que les enregistrements jusqu’à 8 Mo.
+
+Toutes les API Business Central fournies par Microsoft renvoient des enregistrements inférieurs à cette limite, mais les API fournies par des partenaires peuvent ne pas le faire. Si vous voyez une erreur « La réponse du service Business Central est trop volumineuse », contactez le partenaire qui a créé l’API que vous utilisez.
 
 ## Erreur « Ensemble d’entités introuvable »
 
