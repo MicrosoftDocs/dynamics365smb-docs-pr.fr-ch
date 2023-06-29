@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics-365-business-central"></a>Flux de travail dans Dynamics 365 Business Central
+# <a name="workflows-in-dynamics-365-business-central"></a><a name="workflows-in-dynamics-365-business-central"></a>Flux de travail dans Dynamics 365 Business Central
 
 Vous pouvez configurer et utiliser des flux de travail qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches système, telles que la validation automatique, peuvent être incluses en tant qu’étapes dans les workflows. Les tâches système peuvent être précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow.
 
@@ -26,7 +26,7 @@ La version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)] prend 
 
   Dans la page **Modèles flux de travail**, vous affichez tous les flux de travail disponibles. La version d’essai de [!INCLUDE[prod_short](includes/prod_short.md)] inclut plusieurs flux de travail préconfigurés, représentés par des modèles de flux de travail que vous pouvez copier pour créer des flux de travail. Lorsque vous ouvrez un modèle de flux de travail depuis la page **Modèles flux de travail** et que le nom du flux de travail commence par *MS-*, le modèle de flux de travail est ajouté par Microsoft.
 
-## <a name="power-automate-flows"></a>Flux Power Automate
+## <a name="power-automate-flows"></a><a name="power-automate-flows"></a>Flux Power Automate
 
 Avec [!INCLUDE [prod_short](includes/prod_short.md)] Online, vous pouvez vous inscrire à Power Automate pour créer de puissants workflows automatisés. Vous exécutez ces workflows depuis l’intérieur de [!INCLUDE [prod_short](includes/prod_short.md)]. Les flux peuvent se connecter aux sources de données internes et externes et les outils, sans connaissances en matière de codage.
 
@@ -36,7 +36,7 @@ Avec [!INCLUDE [prod_short](includes/prod_short.md)] Online, vous pouvez vous in
 |Découvrez comment créer, modifier et gérer des flux|[Configuration de flux automatisés et de flux instantanés](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) et [Configuration de flux instantanés](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
 |Configuration de l’intégration de Power Automate avec [!INCLUDE[prod_short](includes/prod_short.md)] pour les utilisateurs en tant qu’administrateurs|[Configuration de l’intégration de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
-## <a name="approval-workflows"></a>Flux de travail d’approbation
+## <a name="approval-workflows"></a><a name="approval-workflows"></a>Flux de travail d’approbation
 
 Créez un flux de travail approbation en définissant ce qui démarre le flux de travail et ce qui se passe ensuite, comme suit :
 
@@ -57,9 +57,9 @@ Les exemples d’événements de flux de travail approbation incluent la créati
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  

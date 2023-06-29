@@ -4,11 +4,11 @@ ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
 ---
-## <a name="setting-up-the-location"></a>Configuration du magasin
+## <a name="setting-up-the-location"></a><a name="setting-up-the-location"></a>Configuration du magasin
 
 La configuration de la page **Fiche magasin** définit les flux d’entrepôt de la société. Utilisez la fiche Magasins pour configurer un magasin avec le nom de code *SUD*.
 
-### <a name="to-set-up-the-location-south"></a>Pour configurer le magasin SUD
+### <a name="to-set-up-the-location-south"></a><a name="to-set-up-the-location-south"></a>Pour configurer le magasin SUD
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
 2. Créer une fiche magasin nommée *SUD*.  

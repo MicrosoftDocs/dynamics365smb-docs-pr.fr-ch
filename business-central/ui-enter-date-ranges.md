@@ -12,13 +12,13 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# <a name="work-with-calendar-dates-and-times"></a>Utiliser les dates civiles et les heures
+# <a name="work-with-calendar-dates-and-times"></a><a name="work-with-calendar-dates-and-times"></a>Utiliser les dates civiles et les heures
 
 Vous pouvez saisir des dates et des heures de plusieurs façons. [!INCLUDE[prod_short](includes/prod_long.md)] inclut des fonctionnalités puissantes qui accélèrent la saisie de données ou vous aident à saisir des expressions de calendrier complexes. Il existe différents emplacements tout au long de l’application où vous pouvez entrer des dates et des heures dans les champs. Par exemple, dans une commande client, vous pouvez également définir la date d’expédition. En filtrant les données de liste ou d’état, vous pouvez entrer des dates et des heures pour désigner uniquement les données que vous intéressent.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="check-your-region-and-language-settings"></a>Vérifiez les paramètres de zone et de langue
+## <a name="check-your-region-and-language-settings"></a><a name="check-your-region-and-language-settings"></a>Vérifiez les paramètres de zone et de langue
 
 La page **Mes paramètres** spécifie la **Région** et la **Langue** que vous utilisez dans l’application. Ces paramètres ont une incidence sur la manière dont vous saisissez des dates et des heures.
 
@@ -33,7 +33,7 @@ La page **Mes paramètres** spécifie la **Région** et la **Langue** que vous u
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
-## <a name="entering-dates"></a>Saisie de dates
+## <a name="entering-dates"></a><a name="entering-dates"></a>Saisie de dates
 
 Dans un champ de date, vous pouvez saisir une date à l’aide du format standard pour votre paramètre de zone. Les différentes régions peuvent utiliser différents séparateurs entre les jours, mois et années. Par exemple, certaines régions utilisent les tirets (mm-jj-aaaa) et d’autres les barres obliques (mm/jj/aaaa).  
 
@@ -45,7 +45,7 @@ Dans un champ de date, vous pouvez saisir une date à l’aide du format standar
 
 Pour travailler plus productivement avec des dates et des heures, vous pouvez utiliser les méthodes ou les formats décrits dans les sections suivantes.
 
-### <a name="picking-dates-from-the-calendar"></a>Choisir des dates dans le calendrier
+### <a name="picking-dates-from-the-calendar"></a><a name="picking-dates-from-the-calendar"></a>Choisir des dates dans le calendrier
 
 Tout champ affichant une icône de calendrier peut être paramétré à l’aide du sélecteur de date civile. Pour afficher le sélecteur de date civile, activer l’icône de calendrier ou appuyer sur le raccourci clavier <kbd>Ctrl</kbd>+<kbd>Accueil</kbd> dans le champ.
 
@@ -53,7 +53,7 @@ Tout champ affichant une icône de calendrier peut être paramétré à l’aide
 
 Voir aussi [Raccourcis clavier du sélecteur de date civile](keyboard-shortcuts.md#calendarshortcuts).
 
-### <a name="day-week-year-pattern"></a>Modèle jour\-semaine\-année
+### <a name="day-week-year-pattern"></a><a name="day-week-year-pattern"></a>Modèle jour\-semaine\-année
 
 Vous pouvez saisir une date comme un jour de la semaine suivi d’un numéro de semaine et, éventuellement, une année. Par exemple, Lun25 ou lun25 signifie le lundi de la semaine 25. Si vous ne saisissez pas une année, l’année de la date de travail est utilisée.
 
@@ -61,7 +61,7 @@ Au lieu de saisir le mot entier du jour de la semaine, vous pouvez saisir une pa
 
 Le schéma de numéros de semaine est toujours ISO 8601, où la semaine 1 est la semaine avec le 4 janvier dans celle-ci, ou la semaine avec le premier jeudi de l’exercice.
 
-### <a name="digit-patterns"></a>Modèles de chiffres
+### <a name="digit-patterns"></a><a name="digit-patterns"></a>Modèles de chiffres
 
 Vous pouvez saisir deux, quatre, six ou huit chiffres dans un champ date :
 
@@ -74,17 +74,17 @@ Vous pouvez saisir deux, quatre, six ou huit chiffres dans un champ date :
   > [!NOTE]
   > Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, la plage d’années à deux chiffres peut être différente. Les administrateurs peuvent modifier la plage en modifiant le paramètre **CalendarTwoDigitYearMax** du serveur [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, reportez-vous à la rubrique [Configuration de Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
  
-### <a name="today"></a>Aujourd’hui
+### <a name="today"></a><a name="today"></a>Aujourd’hui
 
 Entrez le mot pour _aujourd’hui_ dans la langue indiquée sur la page **Mes paramètres**, pour régler la date sur un enregistrement à la date d’aujourd’hui. Au lieu de saisir le mot entier, vous pouvez saisir une partie du mot, en commençant du début. Par exemple, en anglais, vous pouvez saisir _t_ ou _tod_, tant que ce n’est pas aussi le début d’un autre mot.
 
-### <a name="period"></a>Période.
+### <a name="period"></a><a name="period"></a>Période.
 
 Pour filtrer une période comptable spécifique, dans un champ de date saisissez la lettre p, ou le mot période, suivi par un numéro qui identifie la période comptable, comme p2 ou période4. La période comptable est relative à l’exercice comptable de la date de travail en cours défini dans votre tableau de bord. Par exemple, si la date de travail est **21/03/22**, alors _p1_ ou simplement _p_ filtre la première période comptable de l’exercice comptable 2022 (par exemple 01/01/22..31/01/22). _p15_ filtre la 15e période comptable depuis le début de l’exercice comptable 2022 (par exemple 01/03/23..31/03/23).
 
 Les périodes comptables sont définies sur la page **Périodes comptables**. Pour visualiser ou modifier les périodes comptables, ouvrez la page [ici](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="work-date"></a>Date de travail
+### <a name="work-date"></a><a name="work-date"></a>Date de travail
 
 Utilisez une date de travail pour spécifier une date qui n’est pas la date du jour sur les enregistrements. Par exemple, une date de travail est utile lorsque vous devez définir une date particulière pour plusieurs enregistrements. Vous spécifiez la date de travail sur la page **Mes paramètres**. 
 
@@ -92,13 +92,13 @@ Un moyen rapide d’entrer la date de travail sur les enregistrements consiste �
 
 Si vous n’avez pas spécifié de date de travail, la date du jour sera utilisée. Pour en savoir plus, voir [Modifier les paramètres de base, comme la date de travail](ui-change-basic-settings.md#work-date).
 
-### <a name="closing-date"></a>Date de clôture
+### <a name="closing-date"></a><a name="closing-date"></a>Date de clôture
 
 Lorsque vous clôturez un exercice comptable, vous pouvez utiliser des dates de clôture pour indiquer qu’une écriture est une écriture de clôture. Techniquement, une date de clôture se trouve entre deux dates, par exemple le 31 décembre et le 1er janvier.
 
 Pour spécifier qu’une date est une date de clôture, placez un C devant cette date, comme C123101. Utilisez ce format avec tous les modèles de date.
 
-### <a name="examples"></a>Exemples
+### <a name="examples"></a><a name="examples"></a>Exemples
 
 Le tableau suivant affiche des exemples de dates à l’aide de tous les formats. Il considère les paramètres de région selon lesquels format les dates : **année.mois.jour.**, une semaine commençant lundi, et l’anglais.
 
@@ -123,7 +123,7 @@ Le tableau suivant affiche des exemples de dates à l’aide de tous les formats
 |m 23|Mardi de la semaine 23 de l’année de date de travail|
 |m-1|Mardi de la semaine 1 de l’année de date de travail|
 
-## <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Définition des plages
+## <a name="setting-ranges"></a><a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Définition des plages
 
 Sous Listes, totaux et états, vous pouvez définir des filtres sur les dates, heures et dates/heures contenant une valeur de début et éventuellement une valeur de fin pour afficher uniquement les données contenues dans cette plage. Les règles standard s’appliquent à la définition des plages de dates.
 
@@ -135,7 +135,7 @@ Sous Listes, totaux et états, vous pouvez définir des filtres sur les dates, h
 
 Vous pouvez utiliser l’un des formats valides dans les filtres Plage de dates. Par exemple, lun14 3..t 4p appliqué pour un champ Date/heure débouche sur un filtre à partir de 3h du matin le lundi de la semaine 14 de l’année de date de travail en cours, incluse, jusqu’à aujourd’hui à 16h, inclus.
 
-## <a name="use-date-formulas"></a>Utiliser les formules de date
+## <a name="use-date-formulas"></a><a name="use-date-formulas"></a>Utiliser les formules de date
 
 Une formule date est une combinaison abrégée de lettres et de nombres qui spécifie comment calculer les dates. Vous pouvez entrer des formules date dans différents champs ou filtres de calcul de date.
 
@@ -199,7 +199,7 @@ L’exemple ci-dessous illustre comment vous pouvez utiliser le signe moins pour
 > [!IMPORTANT]
 > Si le magasin utilise un calendrier principal, la formule de date que vous entrez par exemple le champ **Délai d’expédition**, est interprétée en fonction des jours ouvrés du calendrier. Par exemple, 1S un signifie sept jours ouvrés.
 <!--
-# <a name="entering-date-ranges"></a>Entering Date Ranges
+# <a name="entering-date-ranges"></a><a name="entering-date-ranges"></a>Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
 ![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas-1"></a>Use Date Formulas
+## <a name="use-date-formulas-1"></a><a name="use-date-formulas-1"></a>Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -287,7 +287,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 -->
 
-## <a name="entering-times"></a>Saisie des heures
+## <a name="entering-times"></a><a name="entering-times"></a>Saisie des heures
 
 Lorsque vous saisissez des heures, vous pouvez insérer n’importe quel séparateur autre qu’un espace entre les unités. Si vous utilisez des chiffres doubles pour chaque unité jusqu’aux millisecondes, cette opération est facultative.
 
@@ -320,11 +320,11 @@ Le tableau suivant répertorie les différents formats de saisie possibles pour 
 
 Le mot pour « time » (heure) dans la langue utilisée par [!INCLUDE[prod_short](includes/prod_long.md)] est évalué sur l’heure actuelle sur votre ordinateur ou appareil mobile. Vous pouvez saisir n’importe quel partie du mot, en commençant au début, par exemple h ou HEU.
 
-## <a name="entering-combined-dates-and-times"></a>Saisie de dates et d’heures combinées
+## <a name="entering-combined-dates-and-times"></a><a name="entering-combined-dates-and-times"></a>Saisie de dates et d’heures combinées
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## <a name="entering-duration"></a>Saisie des durées
+## <a name="entering-duration"></a><a name="entering-duration"></a>Saisie des durées
 
 Certains champs de l’application représentent une durée, ou la quantité de temps écoulé, au lieu d’une date ou d’une heure spécifique. Vous devez saisir les durées sous la forme d’un chiffre suivi d’une unité de mesure.
 
@@ -345,9 +345,9 @@ Pour voir quelle unité de mesure est utilisée dans un champ de durée, saisiss
 
 Par exemple, si l’unité est « heures », le chiffre 5 est converti en 5 h.
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)  

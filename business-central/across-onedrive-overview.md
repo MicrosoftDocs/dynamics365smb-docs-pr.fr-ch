@@ -9,17 +9,17 @@ ms.date: 02/28/2022
 ms.author: jswymer
 ---
 
-# <a name="business-central-and-onedrive-for-business-integration"></a>Intégration de Business Central et OneDrive Entreprise
+# <a name="business-central-and-onedrive-for-business-integration"></a><a name="business-central-and-onedrive-for-business-integration"></a>Intégration de Business Central et OneDrive Entreprise
 
 OneDrive Entreprise est un service de stockage cloud inclus dans Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] facilite le stockage, la gestion et le partage de fichiers avec d’autres personnes via OneDrive. Lorsqu’un fichier est dans votre OneDrive, vous pouvez profiter des riches expériences collaboratives des versions en ligne des produits Microsoft, telles que Word, Excel et PowerPoint. Par exemple, vous pouvez partager un document Word, puis vous et vos collègues pouvez le modifier ensemble en temps réel. OneDrive vous permet également d’ouvrir d’autres types de fichiers, tels que des fichiers PDF. 
 
-## <a name="get-started-with-onedrive-features"></a>Prise en main des fonctionnalités de OneDrive
+## <a name="get-started-with-onedrive-features"></a><a name="get-started-with-onedrive-features"></a>Prise en main des fonctionnalités de OneDrive
 
 Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] Online, nous avons déjà créé le lien entre [!INCLUDE[prod_short](includes/prod_short.md)] Online et OneDrive pour faciliter votre démarrage. La seule exigence est que les utilisateurs aient ouvert OneDrive au moins une fois. Avec [!INCLUDE[prod_short](includes/prod_short.md)] sur site, un administrateur doit configurer la connexion avant que vous ne puissiez commencer. Pour plus d’informations, consultez [Gestion de l’intégration de OneDrive avec Business Central](admin-onedrive-integration.md).
 
 <!-- We've created the connection between [!INCLUDE[prod_short](includes/prod_short.md)] online and OneDrive, so it's easy to get started. The only requirement is that users have opened OneDrive at least one time. -->
 
-### <a name="open-and-share-in-onedrive"></a>Ouvrir et partager dans OneDrive
+### <a name="open-and-share-in-onedrive"></a><a name="open-and-share-in-onedrive"></a>Ouvrir et partager dans OneDrive
 
 Sur la plupart des pages où les fichiers sont disponibles, comme la Boîte de réception état ou les fichiers joints à des enregistrements, vous trouverez des actions **Ouvrir dans OneDrive** et **Partager**.
 
@@ -33,7 +33,7 @@ Sur la plupart des pages où les fichiers sont disponibles, comme la Boîte de r
 |Ouvrir dans OneDrive|Copiez le fichier dans un dossier Business Central de votre OneDrive et ouvrez le fichier.|[Ouvrir dans OneDrive](across-share-onedrive.md#open-in-onedrive) |
 |Part|Copiez le fichier sur votre OneDrive et partagez-le avec d’autres personnes.|[Partager dans OneDrive](across-share-onedrive.md#share) |
 
-### <a name="save-excel-workbooks-and-report-files-in-onedrive"></a>Enregistrer des classeurs Excel et des fichiers d’état dansOneDrive
+### <a name="save-excel-workbooks-and-report-files-in-onedrive"></a><a name="save-excel-workbooks-and-report-files-in-onedrive"></a>Enregistrer des classeurs Excel et des fichiers d’état dansOneDrive
 
 Avec la configuration de l’intégration OneDrive, quelques autres fonctionnalités familières utiliseront automatiquement OneDrive pour enregistrer les fichiers au lieu de les enregistrer sur votre appareil :
 
@@ -55,7 +55,7 @@ The folder and its content are private until you decide to share them with other
 > [!NOTE]
 > Vous pouvez également connecter votre [!INCLUDE[prod_short](includes/prod_short.md)] sur site avec OneDrive. Cependant, il y a quelques choses à faire pour que cela fonctionne. Pour plus d’informations, consultez [Configuration de Business Central sur site](admin-onedrive-integration-onpremises.md).
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Gestion de l’intégration de OneDrive avec Business Central](admin-onedrive-integration.md)  
 [Ouverture des fichiers Business Central dans OneDrive](across-share-onedrive.md)  

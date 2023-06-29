@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-manufacturing-batch-units-of-measure"></a>Utiliser les unités de lot de fabrication
+# <a name="work-with-manufacturing-batch-units-of-measure"></a><a name="work-with-manufacturing-batch-units-of-measure"></a>Utiliser les unités de lot de fabrication
 Si un article est stocké dans une unité mais produit dans une autre, un ordre de fabrication utilisant une unité de lot de fabrication est créé pour calculer la quantité correcte des composants durant le traitement par lots **Actualiser O.F.**. Une situation dans laquelle un article fabriqué est stocké en pièces mais produit en tonnes est un exemple d’un calcul d’unité de lot de fabrication.  
 
-## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Pour créer une nomenclature de production à l’aide d’une unité de lot
+## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a><a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Pour créer une nomenclature de production à l’aide d’une unité de lot
 1.  L’unité de lot de fabrication est configurée comme unité alternative sur la page **Unités article** pour l’article à produire. L’unité de lot ne remplace pas l’unité de base pour l’article.  
 2.  Créez une nomenclature de production pour l’article configuré avec l’unité de lot de fabrication. Pour plus d’informations, reportez-vous à [Créer des nomenclatures de production](production-how-to-create-production-boms.md).  
 3.  Dans le champ **Code unité**, sélectionnez l’unité de lot de fabrication.  
@@ -26,7 +26,7 @@ Si un article est stocké dans une unité mais produit dans une autre, un ordre 
 
 Sur le raccourci **Lignes**, choisissez l’action **Ligne**, puis l’action **Composants** pour afficher le résultat. L’application calcule la quantité correcte de composants nécessaire pour satisfaire la nomenclature de production, basée sur l’unité de lot de fabrication.  
 
-## <a name="to-calculate-a-manufacturing-batch-unit-of-measure-on-a-production-order"></a>Pour calculer une unité de lot de fabrication sur un ordre de fabrication
+## <a name="to-calculate-a-manufacturing-batch-unit-of-measure-on-a-production-order"></a><a name="to-calculate-a-manufacturing-batch-unit-of-measure-on-a-production-order"></a>Pour calculer une unité de lot de fabrication sur un ordre de fabrication
 1.  Créez un en-tête d’ordre de fabrication en utilisant l’article configuré avec l’unité de lot de fabrication.  
 2.  Dans le champ **N° article** de la ligne ordre de fabrication, tapez le numéro article utilisé dans l’en-tête.  
 3.  Dans le champ **Quantité**, entrez la quantité utilisée dans l’en-tête.  
@@ -36,7 +36,7 @@ Sur le raccourci **Lignes**, choisissez l’action **Ligne**, puis l’action **
 7.  Cliquez sur le bouton **OK**.  
 8.  Sur le raccourci **Lignes**, choisissez l’action **Ligne**, puis l’action **Composants** pour afficher le résultat. La quantité correcte de composants nécessaire pour satisfaire la nomenclature de production est calculée sur la base de l’unité de lot de fabrication.  
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 [Créer des gammes](production-how-to-create-routings.md)  
 [Créer des nomenclatures de production](production-how-to-create-production-boms.md)     
 [Paramétrage de la production](production-configure-production-processes.md)  

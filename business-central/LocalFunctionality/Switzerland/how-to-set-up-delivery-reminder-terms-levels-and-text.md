@@ -11,11 +11,11 @@ ms.search.form: '5005270, 5005272'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a>Configurer les conditions, niveaux et textes de relance livraison dans la version suisse
+# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a><a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a>Configurer les conditions, niveaux et textes de relance livraison dans la version suisse
 
 [!INCLUDE [delivery-reminder-terms-levels-text-setup](../includes/ATCHDE/delivery-reminder-terms-levels-text-setup.md)]
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [relances livraison](delivery-reminders.md)  
 [Configurer des relances livraison](how-to-set-up-delivery-reminders.md)  

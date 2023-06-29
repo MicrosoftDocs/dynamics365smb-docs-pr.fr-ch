@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Rapprocher les paiements qui ne peuvent pas être lettrés automatiquement
+# <a name="reconcile-payments-that-cannot-be-applied-automatically"></a><a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Rapprocher les paiements qui ne peuvent pas être lettrés automatiquement
 Vous serez parfois amené à gérer des paiements sur votre compte bancaire, qui ne peuvent pas être lettrés à un client, un fournisseur ou une écriture comptable compte bancaire ouvertes associées. Les motifs peuvent être qu’il n’existe dans [!INCLUDE[prod_short](includes/prod_short.md)] aucun document auquel le paiement puisse être lettré, ou que le document associé dans [!INCLUDE[prod_short](includes/prod_short.md)] affiche un montant différent du montant de la transaction, par exemple, en raison du taux de change. Sur la page **Feuille rapprochement bancaire**, tous les montants de transaction pour les paiements qui n’ont pas encore été lettrés s’affichent dans le champ **Différence**, y compris les montants qui ne peuvent pas être lettrés pour des motifs tels que celui qui précède.
 
 Méthodes de résolution de ces types de paiements non lettrés :
@@ -29,7 +29,7 @@ Pour rapprocher de tels paiements, vous pouvez choisir l’action **Transférer 
 > [!TIP]  
 >   Il existe une fonctionnalité similaire permettant de configurer le rapprochement automatique des paiements récurrents qui ne peuvent pas être lettrés aux écritures comptables client, fournisseur ou compte bancaire ouvertes associées. Pour plus d’informations, reportez-vous à [Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-## <a name="to-reconcile-payments-that-cannot-be-applied-automatically"></a>Pour rapprocher les paiements qui ne peuvent pas être lettrés automatiquement
+## <a name="to-reconcile-payments-that-cannot-be-applied-automatically"></a><a name="to-reconcile-payments-that-cannot-be-applied-automatically"></a>Pour rapprocher les paiements qui ne peuvent pas être lettrés automatiquement
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles rapprochement bancaire**, puis sélectionnez le lien associé.
 2. Ouvrez une feuille de rapprochement de paiement. Pour plus d’informations, voir [Rapprocher les paiements à l’aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 3. Sélectionnez l’action **Transférer la différence vers un compte**. La page **Transférer la différence vers un compte** s’ouvre.
@@ -42,7 +42,7 @@ Si la valeur du champ **Différence** est égale à la valeur du champ **Montant
 
 Si la valeur du champ **Différence** était inférieure à la valeur du champ **Montant transaction**, une ligne feuille supplémentaire est créée avec le même texte et la même date et avec la différence insérée dans le champ **Montant transaction**. Sur la ligne feuille d’origine, la différence est déduite de la valeur du champ **Montant transaction**, et le paiement demeure lettré à son écriture comptable client, fournisseur ou compte bancaire associée. Lorsque vous validez la feuille rapprochement bancaire, une partie du paiement est validée en tant que paiement lettré. L’autre partie du paiement est validée directement dans le compte spécifié.
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

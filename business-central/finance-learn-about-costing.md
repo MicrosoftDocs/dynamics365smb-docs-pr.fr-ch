@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="about-inventory-costing"></a>À propos de l’évaluation des coûts de stock
+# <a name="about-inventory-costing"></a><a name="about-inventory-costing"></a>À propos de l’évaluation des coûts de stock
 La gestion des coûts ajustés fait référence à l’enregistrement et la déclaration des coûts d’exploitation de l’entreprise. Cette activité inclut la déclaration des coûts de fabrication et de stock qui constituent la valeur des articles.  
 
  Il est essentiel de comprendre les principes suivants : les méthodes d’évaluation des stocks au prix coûtant définissent le mode d’évaluation des articles lors de leur sortie de stock, l’ajustement des coûts met à jour le coût des biens vendus avec les coûts d’achat associés validés après la vente, les valeurs en stock doivent être validées vers les comptes généraux appropriés à des intervalles réguliers.  
@@ -31,7 +31,7 @@ La gestion des coûts ajustés fait référence à l’enregistrement et la déc
 |Obtenir des informations sur la manière dont les périodes inventaire permettent à une société de contrôler la valeur du stock dans le temps en définissant des périodes plus courtes qui peuvent être fermées à la validation lorsque la fin de l’exercice comptable approche.|[Utiliser les périodes inventaire](finance-how-to-work-with-inventory-periods.md)|  
 |Comprendre tous les mécanismes du moteur d’évaluation, notamment ce qui se produit lorsque vous validez des transactions d’assemblage et de production.|[Détails de conception : Évaluation stock](design-details-inventory-costing.md)|  
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)    
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

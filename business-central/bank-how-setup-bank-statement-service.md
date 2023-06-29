@@ -11,7 +11,7 @@ ms.search.form: '1280, 1290'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurer le service Envestnet Yodlee Bank Feeds
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a><a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurer le service Envestnet Yodlee Bank Feeds
 
 Vous pouvez importer des relevés bancaires électroniques auprès de votre banque pour renseigner rapidement la page **Feuille rapprochement bancaire** de sorte à pouvoir lettrer les paiements et rapprocher le compte bancaire. Pour plus d’informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
@@ -41,7 +41,7 @@ Lorsque le service de flux bancaire est activé, vous pouvez configurer un compt
 > [!NOTE]  
 > Si vous utilisez le guide de configuration assistée Configurer la société, certaines étapes des procédures suivantes s’effectuent automatiquement lorsque vous parvenez à la configuration de compte bancaire de la société. Pour plus d’informations, voir [Préparation aux activités commerciales](ui-get-ready-business.md).
 
-## <a name="to-enable-the-bank-feed-service"></a>Pour activer le service de flux bancaire
+## <a name="to-enable-the-bank-feed-service"></a><a name="to-enable-the-bank-feed-service"></a>Pour activer le service de flux bancaire
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Ouvrez le compte bancaire que vous allez utiliser pour le service de flux bancaire.
 3. Sur la page **Compte bancaire**, dans le champ **Format importation relevé bancaire**, sélectionnez YODLEEBANKFEED.  
@@ -51,7 +51,7 @@ Le service de flux bancaire est activé lorsque vous liez un compte bancaire à 
 > [!NOTE]
 > Si vous utilisez le guide de configuration assistée **Configuration de la société**, vous activez le service en activant la case à cocher **Utilisez un service de flux bancaire**. Pour plus d’informations, voir [Création de sociétés dans Business Central](about-new-company.md).
 
-## <a name="to-create-a-new-linked-bank-account"></a>Pour créer un compte bancaire lié
+## <a name="to-create-a-new-linked-bank-account"></a><a name="to-create-a-new-linked-bank-account"></a>Pour créer un compte bancaire lié
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Sélectionnez le compte bancaire approprié, puis sélectionnez **Créer un compte bancaire lié**. La page **Comptes bancaires liés** s’ouvre au bout de quelques instants.
 
@@ -79,7 +79,7 @@ Le service de flux bancaire est activé lorsque vous liez un compte bancaire à 
 9. Sur la page **Comptes bancaires liés**, sélectionnez la ligne correspondant à un compte bancaire en ligne, puis sélectionnez l’action **Lier à un compte bancaire existant**.
 10. Sur la page **Liste des comptes bancaires**, sélectionnez le compte bancaire que vous voulez lier, puis cliquez sur le bouton **OK**.
 
-## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Pour lier un compte bancaire à un compte bancaire en ligne
+## <a name="to-link-a-bank-account-to-an-online-bank-account"></a><a name="to-link-a-bank-account-to-an-online-bank-account"></a>Pour lier un compte bancaire à un compte bancaire en ligne
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Sélectionnez la ligne correspondant à un compte bancaire qui n’est pas lié à un compte bancaire en ligne, puis sélectionnez l’action **Lier au compte bancaire en ligne**. La page **Comptes bancaires en ligne liés** s’ouvre, préremplie avec le nom de la banque dans le volet **Lier un compte**.
 3. Choisissez le nom de la banque. Le volet **Connexion** s’ouvre.
@@ -92,25 +92,25 @@ Le service de flux bancaire est activé lorsque vous liez un compte bancaire à 
 
 Sur la page **Liste des comptes bancaires**, la case **Lié** est cochée.
 
-## <a name="to-edit-the-credentials-for-an-online-bank-account"></a>Pour modifier les informations d’identification d’un compte bancaire en ligne
+## <a name="to-edit-the-credentials-for-an-online-bank-account"></a><a name="to-edit-the-credentials-for-an-online-bank-account"></a>Pour modifier les informations d’identification d’un compte bancaire en ligne
 1. Choisissez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte bancaire**, puis sélectionnez le lien associé.  
 2. Sélectionnez la ligne correspondant à un compte bancaire qui est liée à un compte bancaire en ligne, puis sélectionnez l’action **Modifier les informations sur le compte bancaire en ligne**.
 3. Mettez à jour les informations de connexion.
 
-## <a name="to-unlink-a-bank-account"></a>Pour détacher un compte bancaire en ligne
+## <a name="to-unlink-a-bank-account"></a><a name="to-unlink-a-bank-account"></a>Pour détacher un compte bancaire en ligne
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.  
 2. Sélectionnez la ligne correspondant à un compte bancaire lié que vous souhaitez détacher du compte bancaire en ligne connexe, puis sélectionnez l’action **Détacher le compte bancaire en ligne**.
 
 > [!NOTE]  
 > Si vous choisissez **Oui** dans la boîte de dialogue de confirmation, le lien vers le compte bancaire en ligne est supprimé, et les informations de connexion sont effacées. Pour lier à nouveau le compte bancaire au compte bancaire en ligne, vous devez vous connecter de nouveau à la banque. Pour en savoir plus, voir la section « Pour lier un compte bancaire à un compte bancaire en ligne ».
 
-## <a name="to-update-bank-account-linking"></a>Pour mettre à jour la liaison des comptes bancaires
+## <a name="to-update-bank-account-linking"></a><a name="to-update-bank-account-linking"></a>Pour mettre à jour la liaison des comptes bancaires
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Sélectionnez le compte bancaire approprié, puis sélectionnez l’action **Mettre à jour la liaison des comptes bancaires**.
 
 Si des problèmes existent pour les comptes bancaires liés sur la page **Liste des comptes bancaires**, la page **Comptes bancaires liés** s’ouvre et indique les comptes bancaires affectés par des problèmes. Le meilleur moyen de résoudre ces problèmes est de détacher le compte bancaire en ligne, puis de recréer le lien. Pour en savoir plus, voir la section « Pour lier un compte bancaire à un compte bancaire en ligne ».
 
-## <a name="to-enable-automatic-import-of-bank-statements"></a>Pour activer l’importation automatique des relevés bancaires
+## <a name="to-enable-automatic-import-of-bank-statements"></a><a name="to-enable-automatic-import-of-bank-statements"></a>Pour activer l’importation automatique des relevés bancaires
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
 2. Sélectionnez la ligne correspondant à un compte bancaire lié, puis sélectionnez l’action **Configuration de l’importation de relevés bancaires automatique**.
 3. Sur la page **Configuration de l’importation de relevés bancaires automatique**, dans le champ **Nombre de jours inclus**, indiquez jusqu’à quelle date il faut remonter dans le temps pour obtenir les nouvelles transactions bancaires.
@@ -124,7 +124,7 @@ Toutes les heures, la page **Feuille rapprochement bancaire** affichera les nouv
 > [!NOTE]  
 > Les transactions pour les paiements qui ont déjà été validés comme lettrés et/ou rapprochés sur la page **Feuille rapprochement bancaire** ne sont pas importées.
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md)  

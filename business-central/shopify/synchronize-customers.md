@@ -10,14 +10,14 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# Synchroniser les clients
+# <a name="synchronize-customers"></a>Synchroniser les clients
 
 Lorsque vous importez une commande à partir de Shopify, les informations sur le client sont essentielles pour le traitement ultérieur du document dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Il existe deux options principales et plusieurs combinaisons :
 
 * Utiliser un client spécial pour toutes les commandes.
 * Importez les informations client réelles à partir de Shopify. Cette option est également disponible lorsque vous exportez des clients dans Shopify à partir de [!INCLUDE[prod_short](../includes/prod_short.md)] en premier.
 
-## Paramètres importants lors de l’importation de clients à partir de Shopify
+## <a name="important-settings-when-importing-customers-from-shopify"></a>Paramètres importants lors de l’importation de clients à partir de Shopify
 
 Que vous importiez des clients à partir de Shopify en bloc ou lors de l’importation de commandes, les paramètres suivants permettent de gérer le processus :
 
@@ -29,7 +29,7 @@ Que vous importiez des clients à partir de Shopify en bloc ou lors de l’impor
 |**Créer automatiquement des clients inconnus**| Sélectionnez ce champ pour que le connecteur crée les clients manquants si les options **Par e-mail/téléphone** ou **Par informations de facturation** sont sélectionnées dans le champ **Type de mappage client**. Un client est créé en utilisant les données importées et **Code modèle client** défini dans les pages **Fiche magasin Shopify** ou **Modèle client Shopify**. Remarquez que le client Shopify doit avoir au moins une adresse. Les commandes créées via le canal de vente du PDV Shopify manquent souvent de détails d’adresse. Si cette option n’est pas activée, vous devez créer un client manuellement et le lier au client Shopify.|
 |**Code modèle client**|Ce champ est utilisé avec **Créer automatiquement des clients inconnus**.<br>- Choisissez le modèle par défaut à utiliser pour les clients créés automatiquement. Assurez-vous que le modèle sélectionné contient les champs obligatoires, tels que les champs **Groupe compta. marché**, **Groupe compta. client**, de TVA ou relatifs aux taxes.<br>- Vous pouvez définir des modèles par pays/région dans la page **Modèles client Shopify**, ce qui est utile pour calculer correctement les taxes. <br>- En savoir plus sur [Configurer les taxes](setup-taxes.md).|
 
-### Modèle client par pays
+### <a name="customer-template-per-country"></a>Modèle client par pays
 
 Certains paramètres peuvent être définis au niveau du pays/de la région ou au niveau de l’état/de la province. Les paramètres peuvent être configurés dans [Expédition et livraison](https://www.shopify.com/admin/settings/shipping) sur Shopify.
 
@@ -43,7 +43,7 @@ Vous pouvez procéder comme suit pour chaque client avec le **Modèle client Sho
 > [!NOTE]  
 > Les codes pays sont les codes pays ISO 3166-1 alpha-2. En savoir plus sur le [Code postal](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## Exporter les clients dans Shopify
+## <a name="export-customers-to-shopify"></a>Exporter les clients dans Shopify
 
 Vous pouvez exporter les clients existants dans Shopify en bloc. Dans chaque cas, un client et une adresse par défaut sont créés. Vous pouvez gérer le processus avec les paramètres suivants :
 
@@ -66,7 +66,7 @@ Voici les conditions requises pour exporter un client :
 
 Une fois que vous avez créé les clients dans Shopify, vous pouvez leur envoyer des invitations directes les incitant à activer leurs comptes.
 
-### Remplir les informations client dans Shopify
+### <a name="populate-customer-information-in-shopify"></a>Remplir les informations client dans Shopify
 
 Un client dans Shopify a un prénom, un nom de famille, une adresse e-mail et/ou un numéro de téléphone. Vous pouvez renseigner le prénom et le nom de famille à partir de la fiche client dans [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -86,7 +86,7 @@ Un client dans Shopify a également une adresse par défaut. L’adresse pourrai
 Pour les adresses où la région/la province est utilisé(e), sélectionnez **Code** ou **Nom** dans le champ **Source région** sur la page **Fiche magasin Shopify**. Ceci spécifie le type de données stockées dans [!INCLUDE[prod_short](../includes/prod_short.md)] dans le champ **Région**. N’oubliez pas d’initialiser les modèles de clients par pays afin que le mappage code/nom de la région soit prêt. 
 
 
-## Synchroniser les clients
+## <a name="sync-customers"></a>Synchroniser les clients
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Magasin Shopify**, puis sélectionnez le lien associé.
 2. Sélectionnez le magasin spécifique pour lequel vous voulez synchroniser les clients.
@@ -96,6 +96,6 @@ Sinon, vous pouvez utiliser l’action **Lancer la synchronisation des clients**
 
 Vous pouvez programmer la tâche pour qu’elle soit exécutée de manière automatisée. En savoir plus dans la section [Programmer des tâches récurrentes](background.md#to-schedule-recurring-tasks).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Mise en route du connecteur pour Shopify](get-started.md)  

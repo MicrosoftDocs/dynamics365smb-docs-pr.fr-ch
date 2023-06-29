@@ -11,14 +11,14 @@ ms.search.form: null
 ms.date: 09/05/2022
 ms.author: bholtorf
 ---
-# <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Utiliser un flux Power Automate pour les alertes aux changements d’entité Dataverse
+# <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a><a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Utiliser un flux Power Automate pour les alertes aux changements d’entité Dataverse
 
 Les administrateurs peuvent créer un flux automatisé dans Power Automate qui avertit votre [!INCLUDE[prod_short](includes/prod_short.md)] sur les modifications apportées aux enregistrements de votre organisation [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
 
 > [!NOTE]
 > Cet article suppose que vous avez connecté votre version en ligne de [!INCLUDE[prod_short](includes/prod_short.md)] avec [!INCLUDE [cds_long_md](includes/cds_long_md.md)] et une synchronisation planifiée entre les deux applications.
 
-## <a name="import-the-flow-template"></a>Importer le modèle de flux
+## <a name="import-the-flow-template"></a><a name="import-the-flow-template"></a>Importer le modèle de flux
 
 > [!TIP]
 > Pour faciliter la configuration du flux, nous avons créé un modèle qui définira pour vous le déclencheur et la condition du flux. Pour utiliser le modèle, suivez les étapes de cette section. Pour créer le flux vous-même, ignorez cette section et commencez par les étapes disponibles dans la section [Définir le déclencheur de flux](#define-the-flow-trigger).
@@ -30,7 +30,7 @@ Les administrateurs peuvent créer un flux automatisé dans Power Automate qui a
 3. Choisissez le modèle **Notifier Business Central d’un changement de compte**.
 4. Continuez avec les étapes indiquées à la section [Notifier Business Central d’un changement](#notify-business-central-about-a-change).
 
-## <a name="define-the-flow-trigger"></a>Définir le déclencheur de flux
+## <a name="define-the-flow-trigger"></a><a name="define-the-flow-trigger"></a>Définir le déclencheur de flux
 
 1. Connectez-vous à [Power Automate](https://flow.microsoft.com).
 2. Créez un flux cloud automatisé qui démarre lorsqu’une ligne pour une entité [!INCLUDE [cds_long_md](includes/cds_long_md.md)] est ajoutée, modifiée ou supprimée. Pour plus d’informations, voir [Déclencher des flux lorsqu’une ligne est ajoutée, modifiée ou supprimée](/power-automate/dataverse/create-update-delete-trigger). Cet exemple utilise l’entité **Comptes**. L’image suivante montre les paramètres de la première étape de la définition d’un déclencheur de flux.
@@ -39,7 +39,7 @@ Les administrateurs peuvent créer un flux automatisé dans Power Automate qui a
 3. Utilisez le bouton **AssistEdit (...)** dans le coin supérieur droit pour ajouter la connexion à votre environnement [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
 4. Sélectionnez **Afficher les options avancées**, et dans le champ **Filtrer les lignes**, saisissez **customertypecode eq 3** ou **customertypecode eq 11** et **statecode eq 0**. Ces valeurs signifient que le déclencheur ne réagira que lorsque des modifications seront apportées aux comptes actifs du type **client** ou **fournisseur**.
 
-## <a name="define-the-flow-condition"></a>Définir la condition du flux
+## <a name="define-the-flow-condition"></a><a name="define-the-flow-condition"></a>Définir la condition du flux
 
 Les données sont synchronisées entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE [cds_long_md](includes/cds_long_md.md)] via un compte utilisateur d’intégration. Pour ignorer les modifications apportées par la synchronisation, créez une étape de condition dans votre flux qui exclut les modifications apportées par le compte d’utilisateur d’intégration.  
 
@@ -58,7 +58,7 @@ L’image suivante montre comment définir le déclencheur de flux et la conditi
 
 :::image type="content" source="media/power-automate-flow-dataverse.png" alt-text="Présentation du déclencheur de flux et des paramètres de condition":::
 
-## <a name="notify-business-central-about-a-change"></a>Notifier Business Central d’un changement
+## <a name="notify-business-central-about-a-change"></a><a name="notify-business-central-about-a-change"></a>Notifier Business Central d’un changement
 
 Si le flux n’est pas arrêté par la condition, vous devez notifier [!INCLUDE[prod_short](includes/prod_short.md)] qu’un changement s’est produit. Utiliser le connecteur [!INCLUDE[prod_short](includes/prod_short.md)] pour ce faire.
 
@@ -84,7 +84,7 @@ Lorsque vous ajoutez, supprimez ou modifiez un compte dans votre environnement [
 2. Utilisez l’API [!INCLUDE[prod_short](includes/prod_short.md)] pour insérer un enregistrement avec **entityName** défini sur **compte** dans la table **Modification de l’entrée Dataverse**. Ce paramètre est le nom exact de l’entité Dataverse pour laquelle vous créez le flux.
 3. [!INCLUDE[prod_short](includes/prod_short.md)] lance l’entrée de la file d’attente des tâches qui synchronise les clients avec les comptes.
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Utiliser Business Central dans les flux Power Automate](across-how-use-financials-data-source-flow.md)  
 [Configurer des flux de travail automatisés](/business-central/dev-itpro/powerplatform/automate-workflows)  

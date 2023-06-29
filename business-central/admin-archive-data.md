@@ -10,13 +10,13 @@ ms.custom: bap-template
 ms.search.form: 630
 ---
 
-# <a name="the-data-archive-extension"></a>L’extension d’archivage de données
+# <a name="the-data-archive-extension"></a><a name="the-data-archive-extension"></a>L’extension d’archivage de données
 
 Au fil du temps, votre entreprise accumulera une quantité substantielle de données et, en tant qu’administrateur, il est probablement judicieux d’avoir une stratégie d’archivage des données. Avoir beaucoup de données peut ralentir les choses. Par exemple, il peut falloir un peu plus de temps pour générer des rapports, ou même pour verrouiller des enregistrements. De plus, de grandes quantités de données peuvent entraîner une augmentation des coûts de stockage.
 
 L’extension Data Archive fournit une infrastructure de base pour l’archivage et la sauvegarde des données dans le cadre de la compression selon la date. La compression de données regroupe les entrées associées en une seule entrée et supprime les originaux. Pour plus d’informations, voir [Compresser les données avec la compression selon la date](admin-manage-documents.md#compress-data-with-date-compression). Cependant, il peut être utile de conserver ces données, donc plutôt que de les supprimer, vous pouvez les archiver pour les utiliser ultérieurement.
 
-## <a name="start-archiving-data"></a>Démarrer l’archivage des données
+## <a name="start-archiving-data"></a><a name="start-archiving-data"></a>Démarrer l’archivage des données
 
 L’extension est pré-installée et disponible dans la **Gestion des extensions**, vous n’avez donc rien à faire pour commencer. L’extension est également disponible sur AppSource.
 
@@ -50,10 +50,10 @@ L’extension Data Archive est utilisée par les traitements par lots suivants p
 
 Pour démarrer l’archivage des données lorsque vous exécutez l’un des traitements par lots, activez le bouton à bascule **Archiver les entrées supprimées**.
 
-## <a name="storage-considerations"></a>Considérations relatives au stockage
+## <a name="storage-considerations"></a><a name="storage-considerations"></a>Considérations relatives au stockage
 
 Les données archivées sont stockées dans la table **Média abonné**. Nous vous recommandons d’exporter les anciennes archives vers, par exemple, un fichier CSV, puis de supprimer les anciens enregistrements d’archives.
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Gérer le stockage en supprimant des documents ou en compressant des données](admin-manage-documents.md)

@@ -10,13 +10,13 @@ ms.date: 06/16/2021
 ms.author: andregu
 ---
 
-# <a name="validate-vat-registration-numbers"></a>Valider des numéros d’identification intracommunautaire
+# <a name="validate-vat-registration-numbers"></a><a name="validate-vat-registration-numbers"></a>Valider des numéros d’identification intracommunautaire
 
 Il est important que les numéros d’identification intra-communautaire des clients, fournisseurs et contacts soient valides, si vous utilisez [!INCLUDE [prod_short](includes/prod_short.md)] dans un pays où la TVA est utilisée. Par exemple, les sociétés modifient parfois leur statut d’assujettissement à la TVA, et dans certains pays, les autorités fiscales peuvent vous demander de fournir des états, tels que l’état **Liste des ventes UE**, qui répertorient les numéros d’identification intra-communautaire à utiliser lorsque vous faites des affaires.
 
 La Commission européenne fournit le service VIES de validation des numéros TVA sur son site Web, qui est public et gratuit. [!INCLUDE [prod_short](includes/prod_short.md)] vous permet de supprimer cette étape et d’utiliser le service VIES pour valider et suivre les numéros de TVA et d’autres informations de société pour les clients, fournisseurs et contacts. Le service de [!INCLUDE [prod_short](includes/prod_short.md)] s’appelle **Services validation N° id. intracomm. Union européenne**. Il est disponible sur la page **Connexions au service**, et vous pouvez commencer à l’utiliser immédiatement. La connexion au service est gratuite, et aucune inscription supplémentaire n’est obligatoire.
 
-## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Configurer le service pour vérifier automatiquement les numéros d’identification intra-communautaire
+## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a><a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Configurer le service pour vérifier automatiquement les numéros d’identification intra-communautaire
 
 Pour activer **Services validation N° id. intracomm. Union européenne**, ouvrez l’entrée sur la page **Connexion au service**. Si le champ **Point de terminaison de service** n’est pas déjà rempli, utilisez l’action **Définir le point de terminaison par défaut**. Puis définissez le champ **Activé**.  
 
@@ -37,7 +37,7 @@ Voici quelques points à noter concernant le service VIES de validation de numé
 > [!IMPORTANT]
 > Il vous incombe de vérifier la validité des données. Parfois, des données comportant des erreurs sont renvoyées par le service VIES de validation des numéros de TVA. Si la validation échoue, validez les numéros d’identification TVA sur le [site web](https://ec.europa.eu/taxation_customs/vies/), imprimez le résultat ou enregistrez-le dans un emplacement partagé, puis ajoutez le lien vers l’enregistrement de votre client, fournisseur ou contact. Pour plus d’informations, voir [Gérer les pièces jointes, les liens et les notes sur les fiches et les documents](ui-how-add-link-to-record.md).
 
-## <a name="validation-templates"></a>Modèles de validation
+## <a name="validation-templates"></a><a name="validation-templates"></a>Modèles de validation
 
 Vous pouvez utiliser le service VIES pour vérifier également d’autres informations société, telles que l’adresse, ainsi que le numéro d’identification intra-communautaire. Dans la page **Modèles Validation n° identif. intracomm.**, créez une entrée pour chaque pays pour lequel vous souhaitez obtenir une validation supplémentaire, puis spécifiez les informations que vous souhaitez faire valider automatiquement.  
 
@@ -48,7 +48,7 @@ Par exemple, ajoutez une entrée pour l’Espagne dans laquelle vous souhaitez o
 
 La prochaine fois que vous spécifiez un numéro d’identification intra-communautaire, le service valide le numéro et toutes les données supplémentaires déterminées par vos modèles de validation. Si les valeurs spécifiées sont différentes des valeurs renvoyées par le service, vous verrez les détails dans la page **Détails de validation** sur laquelle vous pouvez accepter ou réinitialiser les valeurs.  
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Configuration de la TVA](finance-setup-vat.md)  
 [Configuration de la TVA sur encaissement](finance-setup-unrealized-vat.md)  

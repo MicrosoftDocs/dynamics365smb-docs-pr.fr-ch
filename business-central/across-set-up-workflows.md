@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# <a name="set-up-approval-workflows"></a>Configurer des flux de travail approbation
+# <a name="set-up-approval-workflows"></a><a name="set-up-approval-workflows"></a>Configurer des flux de travail approbation
 
 Vous pouvez configurer et utiliser des flux de travail qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du flux de travail, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du flux de travail. En savoir plus sur [Utiliser des flux de travail approbation](across-use-workflows.md).
 
@@ -35,16 +35,16 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Partager des workflows avec d’autres bases de données [!INCLUDE[prod_short](includes/prod_short.md)].|[Exporter et importer des flux de travail approbation](across-how-to-export-and-import-workflows.md)|  
 |Apprendre comment configurer un workflow pour des documents vente avec approbation en suivant la procédure de bout en bout.|[Procédure pas à pas : Configuration et utilisation d’un flux d’approbation d’achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a>Exemple de flux de travail approbation
+## <a name="example-of-an-approval-workflow"></a><a name="example-of-an-approval-workflow"></a>Exemple de flux de travail approbation
 
 Cette vidéo montre comment configurer un flux de travail qui exigera qu’un utilisateur demande l’approbation d’une autre personne avant de pouvoir modifier les informations sur un client existant ou de créer un nouveau client.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Utilisation des flux d’approbation](across-use-workflows.md)  
 [Flux de travail](across-workflow.md)  

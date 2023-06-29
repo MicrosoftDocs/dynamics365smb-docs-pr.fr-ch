@@ -12,17 +12,17 @@ ms.date: 04/01/2021
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-mixed-warehouse-configurations"></a>Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt mixtes
+# <a name="walkthrough-of-inbound-and-outbound-flow-in-mixed-warehouse-configurations"></a><a name="walkthrough-of-inbound-and-outbound-flow-in-mixed-warehouse-configurations"></a>Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt mixtes
 
 Cette procédure pas à pas montre comment effectuer des flux entrants et sortants dans une configuration mixte, où pour le flux entrant, l’entrepôt est configuré sur De base : commande par commande et pour le flux sortant, la configuration avancée est utilisée. Pour plus d’informations, voir [Présentation des différentes options de configuration](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Conditions préalables
+## <a name="prerequisites"></a><a name="prerequisites"></a>Conditions préalables
 Pour exécuter cette procédure, vous devez faire de vous un magasinier sur le site *JAUNE* en procédant comme suit :  
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
 2. Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Utilisateurs**.  
 3. Dans le champ **Code magasin**, saisissez *JAUNE*.  
 
-## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Flux entrant : Réception et rangement dans les configurations de stockage de base
+## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a><a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Flux entrant : Réception et rangement dans les configurations de stockage de base
 
 Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], les processus entrants de réception et de rangement peuvent être effectués de quatre manières, à l’aide de différentes fonctionnalités en fonction du niveau de complexité de l’entrepôt.  
 
@@ -37,10 +37,10 @@ Pour plus d’informations, reportez\-vous à [Détails de conception : flux d�
 
 La procédure pas à pas suivante illustre la méthode C dans la table précédente.  
 
-### <a name="scenario"></a>Scénario
+### <a name="scenario"></a><a name="scenario"></a>Scénario
 Alicia, l’agent achat, crée des commandes client pour divers grains torréfiés au fur et à mesure que la demande s’affiche. Lorsque la livraison associée arrive à l’entrepôt, Jean, le magasinier, range les articles dans des emplacements par défaut définis pour les articles. Lorsque Jean valide la réception, les articles sont validés comme étant reçus dans le stock et disponibles à la vente ou pour d’autres demandes.  
 
-### <a name="steps"></a>Étapes
+### <a name="steps"></a><a name="steps"></a>Étapes
 1. Configurez la page **Fiche magasin** pour définir les flux d’entrepôt entrants de la société.  
 
     1.  Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 2.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Magasins**, puis choisissez le lien associé.  
@@ -69,7 +69,7 @@ Alicia, l’agent achat, crée des commandes client pour divers grains torréfi�
     4. Dans la seconde ligne, changez la valeur du champ **Quantité à recevoir** de *200* à *190*.
     5. Sélectionnez l’action **Valider la réception**.
 
-### <a name="results"></a>Résultats
+### <a name="results"></a><a name="results"></a>Résultats
  - les grains torréfiés sont maintenant enregistrés comme rangés
  - la **Réception entrepôt enregistrée** est créée
  - la **Réceptions achat enregistrées** est créée
@@ -77,7 +77,7 @@ Alicia, l’agent achat, crée des commandes client pour divers grains torréfi�
  - le **Stock** d’articles est augmenté de la quantité choisie
     
 
-## <a name="outbound-flow-picking-and-shipping-in-advanced-warehouse-configurations"></a>Flux sortant : prélèvement et expédition dans les configurations d’entrepôt avancées
+## <a name="outbound-flow-picking-and-shipping-in-advanced-warehouse-configurations"></a><a name="outbound-flow-picking-and-shipping-in-advanced-warehouse-configurations"></a>Flux sortant : prélèvement et expédition dans les configurations d’entrepôt avancées
 
 Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], les processus sortants de prélèvement et d’expédition peuvent être effectués de quatre manières, à l’aide de différentes fonctionnalités en fonction du niveau de complexité de l’entrepôt.  
 
@@ -92,10 +92,10 @@ Pour plus d’informations, reportez\-vous à [Détails de conception : flux de
 
 La procédure pas à pas suivante illustre la méthode D dans la table précédente.
 
-### <a name="scenario-1"></a>Scénario
+### <a name="scenario-1"></a><a name="scenario-1"></a>Scénario
 Susan, préparatrice de commandes, crée commandes client pour divers grains torréfiés et les transmet à l’entrepôt. Comme toutes les commandes proviennent du même client, Ellen, responsable de l’entrepôt, décide de les expédier ensemble. Jean, le magasinier, doit s’assurer que l’expédition est préparée et livrée au client.
 
-### <a name="steps-1"></a>Étapes
+### <a name="steps-1"></a><a name="steps-1"></a>Étapes
 C’est une suite de [Flux entrant : Réception et rangement dans les configurations de stockage de base](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Traitez les commandes client vers l’entrepôt.  
@@ -137,7 +137,7 @@ C’est une suite de [Flux entrant : Réception et rangement dans les configura
     4. Sélectionnez ensuite l’action **Valider expédition**.
     5. Confirmez l’option **Expédier**.
 
-### <a name="results-1"></a>Résultats
+### <a name="results-1"></a><a name="results-1"></a>Résultats
  - les grains torréfiés sont maintenant enregistrés comme prélevés 
  - le **Prélèvement entrepôt enreg.** est créé
  - l’**Expédition entrepôt enregistrée** est créée
@@ -146,7 +146,7 @@ C’est une suite de [Flux entrant : Réception et rangement dans les configura
  - le **Stock** d’articles est réduit de la quantité choisie
 
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 [Recevoir des articles](../../warehouse-how-receive-items.md)
 [Configurer des entrepôts de base avec les zones d’opérations](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
 [Détails de conception : flux d’enlogement](../../design-details-inbound-warehouse-flow.md)

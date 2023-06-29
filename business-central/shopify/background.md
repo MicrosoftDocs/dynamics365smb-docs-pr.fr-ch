@@ -9,14 +9,14 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="run-tasks-in-the-background"></a>Exécuter des tâches en arrière-plan
+# <a name="run-tasks-in-the-background"></a><a name="run-tasks-in-the-background"></a>Exécuter des tâches en arrière-plan
 
 Il est efficace d’exécuter certaines tâches simultanément et de manière automatisée. Vous pouvez effectuer ces tâches en arrière-plan et également définir un calendrier pour les exécuter automatiquement. Pour exécuter des tâches en arrière-plan, deux modes sont pris en charge :
 
 - Les tâches déclenchées manuellement sont planifiées immédiatement via **Écritures file d’attente des travaux**.
 - Les tâches récurrentes sont planifiées dans **Écritures file d’attente des travaux**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Exécuter des tâches en arrière-plan pour un magasin spécifique
+## <a name="run-tasks-in-the-background-for-a-specific-shop"></a><a name="run-tasks-in-the-background-for-a-specific-shop"></a>Exécuter des tâches en arrière-plan pour un magasin spécifique
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasin Shopify**, puis sélectionnez le lien associé.
 2. Sélectionnez le magasin pour lequel vous voulez exécuter la synchronisation à l’arrière-plan pour ouvrir la page **Fiche magasin Shopify**.
@@ -24,7 +24,7 @@ Il est efficace d’exécuter certaines tâches simultanément et de manière au
 
 Désormais, lorsque l’action de synchronisation est déclenchée, au lieu d’exécuter une tâche au premier plan, vous serez invité à attendre. Une fois la synchronisation terminée, vous pouvez passer à l’action suivante. La tâche est créée comme **Écriture file d’attente des travaux** et démarre immédiatement.
 
-## <a name="to-schedule-recurring-tasks"></a>Pour programmer des tâches récurrentes
+## <a name="to-schedule-recurring-tasks"></a><a name="to-schedule-recurring-tasks"></a>Pour programmer des tâches récurrentes
 
 Vous pouvez programmer les activités récurrentes suivantes pour qu’elles soient exécutées de manière automatisée. Pour plus d’informations sur la planification des tâches, voir [File d’attente](../admin-job-queues-schedule-tasks.md).
 
@@ -51,6 +51,6 @@ Vous pouvez utiliser le champ **N° de commande Shopify** pour identifier les do
 
 Pour en savoir plus sur la validation de commandes client par lot, accédez à [Pour créer une entrée de file d’attente de tâches pour la validation par lots de commandes client](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Mise en route du connecteur pour Shopify](get-started.md)  

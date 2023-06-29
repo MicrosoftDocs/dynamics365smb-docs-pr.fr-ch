@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/29/2021
 ms.author: edupont
 ---
-# <a name="calculate-order-promising-dates"></a>Calculer des dates promesse livraison
+# <a name="calculate-order-promising-dates"></a><a name="calculate-order-promising-dates"></a>Calculer des dates promesse livraison
 
 Une société doit pouvoir informer ses clients des dates de livraison de commande. La page **Lignes promesse de livraison** vous permet d’effectuer cette opération à partir d’une commande vente.  
 
@@ -28,7 +28,7 @@ Si vous ne spécifiez aucune date livraison demandée sur une ligne de commande 
 - Date d’expédition + délai désenlogement = date d’expédition planifiée  
 - Date livraison planifiée - délai d’expédition = date expédition planifiée  
 
-## <a name="about-order-promising"></a>À propos de la promesse de livraison
+## <a name="about-order-promising"></a><a name="about-order-promising"></a>À propos de la promesse de livraison
 
 La fonctionnalité de configuration des promesses livraison vous permet de promettre la livraison ou l’expédition d’une commande à une date donnée. La date à laquelle un article est disponible afin de le promettre ou de pouvoir le promettre est calculée, et des lignes commande sont créées pour les dates que vous acceptez. Cette fonctionnalité calcule la date la plus proche à laquelle un article est disponible pour la livraison ou l’expédition. Elle crée également des lignes demande, dans le cas où les articles doivent d’abord être achetés ou produits, pour les dates que vous acceptez.
 
@@ -37,19 +37,19 @@ La fonctionnalité de configuration des promesses livraison vous permet de prome
 - Disponible à la vente (DAV)  
 - Simulation de délai (SDD)  
 
-### <a name="available-to-promise"></a>Disponible à la vente
+### <a name="available-to-promise"></a><a name="available-to-promise"></a>Disponible à la vente
 
 La fonction Disponible à la vente (ATP) calcule les dates sur la base du système de réservation. Elle effectue une vérification de la disponibilité des quantités non réservées en stock vis-à-vis de la production, des achats, des transferts et des retours vente planifiés. En fonction de ces informations, [!INCLUDE[prod_short](includes/prod_short.md)] calcule automatiquement la date de livraison de la commande du client, dans la mesure où les articles sont disponibles (en stock ou avec entrée planifiée).  
 
-### <a name="capable-to-promise"></a>Simulation de délai
+### <a name="capable-to-promise"></a><a name="capable-to-promise"></a>Simulation de délai
 
 La fonction Simulation de délai (CTP) considère un scénario basé sur l’hypothèse, qui s’applique uniquement aux quantités d’articles qui ne sont pas en stock ou des commandes planifiées. En fonction de ce scénario, [!INCLUDE[prod_short](includes/prod_short.md)] calcule la date la plus proche à laquelle cet article sera disponible s’il doit être produit, acheté ou transféré.
 
-#### <a name="example"></a>Exemple :
+#### <a name="example"></a><a name="example"></a>Exemple :
 
 Dans le cas d’une commande de 10 pièces, lorsque 6 pièces sont disponibles en stock ou dans des commandes planifiées, alors le calcul de simulation de délai est basé sur 4 pièces.
 
-### <a name="calculations"></a>Calculs
+### <a name="calculations"></a><a name="calculations"></a>Calculs
 
 Lorsque [!INCLUDE[prod_short](includes/prod_short.md)] calcule la date de livraison du client, il effectue deux tâches :  
 
@@ -74,7 +74,7 @@ Le préparateur de commandes finit le processus CTP en acceptant les dates. Cela
 
 En plus de la promesse de livraison externe que vous pouvez effectuer sur la page **Lignes promesse de livraison**, vous pouvez également promettre des dates de livraison internes ou externes pour les articles de nomenclature. Pour plus d’informations, voir [Voir la disponibilité des articles](inventory-how-availability-overview.md).
 
-## <a name="to-set-up-order-promising"></a>Pour configurer une promesse livraison
+## <a name="to-set-up-order-promising"></a><a name="to-set-up-order-promising"></a>Pour configurer une promesse livraison
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres promesses livraison**, puis choisissez le lien associé.  
 2. Entrez un numéro et un code unité de temps dans le champ **Décalage (durée)**. Sélectionnez l’une des options suivantes.  
@@ -92,16 +92,16 @@ En plus de la promesse de livraison externe que vous pouvez effectuer sur la pag
 4. Entrez un modèle promesse de livraison dans le champ **Modèle promesse de livraison** en sélectionnant une ligne de la liste de la page **Liste des modèles demande achat**.  
 5. Entrez une demande achat dans le champ **Feuille promesse de livraison** en sélectionnant une ligne de la liste de la page **Noms demandes achat**.
 
-### <a name="inbound-and-outbound-warehouse-handling-times-in-order-promising"></a>Délais de traitement entrepôts entrants et sortants dans les promesses de livraison
+### <a name="inbound-and-outbound-warehouse-handling-times-in-order-promising"></a><a name="inbound-and-outbound-warehouse-handling-times-in-order-promising"></a>Délais de traitement entrepôts entrants et sortants dans les promesses de livraison
 
 Pour inclure un délai entrepôt dans le calcul de la promesse de livraison sur la ligne achat, sur la page **Paramètres stock** vous pouvez spécifier un délai d’enlogement par défaut à utiliser sur les documents achat et vente. Vous pouvez également saisir des heures spécifiques pour chacun de vos emplacements sur la page **Fiche magasin**. 
 
-#### <a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a>Pour saisir les délais de traitement d’entrepôt d’entrée et de sortie par défaut pour les documents vente et dachat
+#### <a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a><a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a>Pour saisir les délais de traitement d’entrepôt d’entrée et de sortie par défaut pour les documents vente et dachat
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres stock**, puis choisissez le lien associé.  
 2. Sur le raccourci **Général**, dans les champs **Délai enlogement** et **Délai désenlogement**, indiquez le nombre de jours que vous souhaitez inclure dans les calculs de la promesse de livraison.  
 
-#### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>Pour entrer des délais d’enlogement et de désenlogement dans les fiches magasin
+#### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a><a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>Pour entrer des délais d’enlogement et de désenlogement dans les fiches magasin
 
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacement**, puis choisissez le lien associé.  
 2.  Ouvrez la fiche magasin appropriée.  
@@ -110,14 +110,14 @@ Pour inclure un délai entrepôt dans le calcul de la promesse de livraison sur 
 > [!NOTE]  
 >  Lorsque vous créez une commande achat, si vous choisissez **Emplacement** dans le champ **Destinataire** sur le raccourci **Expédition et paiement**, puis choisissez un emplacement dans le champ **Code magasin**, les champs **Délai désenlogement** et **Délai enlogement** utiliseront le temps de traitement spécifié pour l’emplacement. Pour les commandes vente, il en va de même si vous choisissez un emplacement dans le champ **Code magasin**. Si aucun délai de traitement n’est spécifié pour l’emplacement, les champs **Délai désenlogement** et **Délai enlogement** seront vides. Si vous laissez le champ **Code magasin** vide sur les documents vente et achat, le calcul utilise le temps de traitement indiqué sur la page **Paramètres stock**.
 
-## <a name="to-make-an-item-critical"></a>Pour affecter le statut critique à un article
+## <a name="to-make-an-item-critical"></a><a name="to-make-an-item-critical"></a>Pour affecter le statut critique à un article
 
 Avant qu’un article puisse être inclus dans le calcul de la promesse de livraison, il doit être signalé comme critique. Cette configuration garantit que les articles non critiques ne génèrent pas de calculs inutiles de promesse de livraison.   
 1.  Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2.  Ouvrez la fiche article appropriée.  
 3.  Sur le raccourci **Planifié**, sélectionnez le champ **Critique**.  
 
-## <a name="to-calculate-an-order-promising-date"></a>Pour calculer une date promesse livraison
+## <a name="to-calculate-an-order-promising-date"></a><a name="to-calculate-an-order-promising-date"></a>Pour calculer une date promesse livraison
 
 1.  Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commande vente**, puis sélectionnez le lien associé.  
 2.  Ouvrez la commande vente appropriée et sélectionnez les lignes de commande vente que vous souhaitez que l’application calcule.  
@@ -128,9 +128,9 @@ Avant qu’un article puisse être inclus dans le calcul de la promesse de livra
     - Choisissez **Simulation de délai** si vous savez que l’article est actuellement en rupture de stock et que vous souhaitez calculer la date la plus proche à laquelle cet article sera disponible grâce à l’émission de demandes de réapprovisionnement.  
 5.  Cliquez sur le bouton **Accepter** pour accepter la date d’expédition disponible la plus proche.  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)  

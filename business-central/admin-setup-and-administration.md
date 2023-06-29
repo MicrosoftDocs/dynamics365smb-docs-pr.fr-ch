@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 01/11/2023
 ms.custom: bap-template
 ---
-# <a name="administration-tasks"></a>Tâches d’administration
+# <a name="administration-tasks"></a><a name="administration-tasks"></a>Tâches d’administration
 
 Les tâches d’administration centrale sont généralement effectuées par une fonction dans la société. La portée de ces tâches peut dépendre de la taille de la société et des responsabilités de l’administrateur. Ces tâches sont notamment la gestion de la synchronisation de la base de données des files projets et messages, la configuration des utilisateurs et la personnalisation de l’interface utilisateur.  
 
@@ -43,7 +43,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Connectez Dynamics 365 Sales à [!INCLUDE[prod_short](includes/prod_short.md)] pour obtenir l’intégration transparente entre les relations client et le traitement des commandes dans le processus allant du prospect à l’encaissement.|[Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Modifier les champs et les actions affichés dans l’interface utilisateur pour correspondre aux processus entreprise de votre société et étendre la solution avec des applications.|[Personnaliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
-## <a name="administration-in-the-admin-center"></a>Administration dans le centre d’administration
+## <a name="administration-in-the-admin-center"></a><a name="administration-in-the-admin-center"></a>Administration dans le centre d’administration
 
 Les administrateurs internes et délégués ont accès au centre d’administration [!INCLUDE [prod_short](includes/prod_short.md)] où ils peuvent configurer, surveiller et résoudre les problèmes des environnements [!INCLUDE [prod_short](includes/prod_short.md)]. Le tableau suivant décrit quelques-unes des tâches clés, avec des liens vers les articles qui les décrivent.  
 
@@ -54,9 +54,9 @@ Les administrateurs internes et délégués ont accès au centre d’administrat
 |Gérez les sessions utilisateur, y compris l’annulation d’une session si l’utilisateur est bloqué.|[Gérer des sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Configurer l’abonné pour envoyer les données de télémétrie à Azure Application Insights pour une meilleure analyse et résolution des problèmes.|[Activer l’envoi de télémétrie à Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Fonctionnalités d’entreprise](across-business-functionality.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  

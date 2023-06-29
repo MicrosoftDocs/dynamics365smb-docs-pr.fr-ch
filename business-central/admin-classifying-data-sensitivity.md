@@ -10,7 +10,7 @@ ms.search.form: 1752
 ms.date: 06/14/2021
 ---
 
-# <a name="classifying-data-sensitivity-fields"></a>Champs Classification de la sensibilité des données
+# <a name="classifying-data-sensitivity-fields"></a><a name="classifying-data-sensitivity-fields"></a>Champs Classification de la sensibilité des données
 Pour classer les champs contenant des données sensibles ou personnelles, un partenaire Microsoft peut définir la propriété ```DataClassification``` des champs. Cela nécessite un accès aux tables de base de données, par le biais de l’environnement de développement ou en exécutant un script Windows PowerShell. Pour plus d’informations, voir [Classification des données](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 En tant que client, vous pouvez ajouter un deuxième niveau de classification en spécifiant des niveaux de sensibilité pour les données que vous stockez dans les champs standard et personnalisés. La classification de la sensibilité des données vous permet de savoir où vous conservez vos informations personnelles dans votre système, et de répondre facilement aux demandes des sujets des données. Par exemple, si un contact ou un client vous demande d’exporter ses données personnelles. Pour plus d’informations, voir [Réponse aux demandes relatives aux données personnelles](admin-responding-to-requests-about-personal-data.md).
@@ -27,7 +27,7 @@ Le tableau suivant décrit les niveaux de sensibilité des données que vous pou
 |Confidentiel | Données métier que vous utilisez à des fins comptables ou à d’autres fins commerciales et que vous ne souhaitez pas exposer à d’autres entités. Cela peut inclure, par exemple, les écritures comptables.|
 |Normal | Données générales qui n’appartiennent pas aux autres catégories.|
 
-## <a name="how-do-i-classify-my-data"></a>Comment classer mes données ?
+## <a name="how-do-i-classify-my-data"></a><a name="how-do-i-classify-my-data"></a>Comment classer mes données ?
 
 Classer la sensibilité d’un grand nombre de champs un par un peut prendre beaucoup de temps. Pour aider à accélérer le processus, nous fournissons des outils qui permettent de classer en bloc la sensibilité des champs et d’affiner les classifications pour des champs spécifiques. Vous trouverez les outils dans la feuille Classification des données, qui est disponible dans le tableau de bord Administration des utilisateurs, des groupes d’utilisateurs et des autorisations. Vous devez être un administrateur système pour utiliser la feuille.
 
@@ -43,7 +43,7 @@ Par exemple, la feuille Classification des données vous permet d’effectuer le
 > [!Tip]
 > Nous avons défini des exemples de classifications de la sensibilité pour les tables et les champs de la société de démonstration Cronus. Vous pouvez vous inspirer de ces classifications lorsque vous classez vos propres tables et champs.
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Classification des données](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
 

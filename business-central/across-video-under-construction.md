@@ -11,7 +11,7 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 ---
 
-# <a name="sorry-this-content-is-under-construction"></a>Désolé, ce contenu est en cours de révision
+# <a name="sorry-this-content-is-under-construction"></a><a name="sorry-this-content-is-under-construction"></a>Désolé, ce contenu est en cours de révision
 
 :::image type="content" source="media/helene/empty illustration_BCdocs.png" alt-text="Il n’y a rien ici en ce moment." border="false":::
 
@@ -21,7 +21,7 @@ Nous ajoutons et améliorons constamment [!INCLUDE[prod_short](includes/prod_sho
 
 Revenez bientôt cependant, et en attendant vous pouvez explorer d’autres sujets sur le [Canal Dynamics 365 activé YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4).
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 [Visitez notre vidéothèque](across-videos.md)
 
  

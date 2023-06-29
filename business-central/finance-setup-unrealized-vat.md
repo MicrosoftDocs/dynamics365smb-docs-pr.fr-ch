@@ -12,11 +12,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Configurer la TVA sur encaissement pour la comptabilité basée sur la trésorerie
+# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a><a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Configurer la TVA sur encaissement pour la comptabilité basée sur la trésorerie
 
 Si vous utilisez des méthodes comptables basées sur la trésorerie, vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour gérer la TVA sur encaissement.
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Pour utiliser les comptes généraux pour la TVA sur encaissement
+## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a><a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Pour utiliser les comptes généraux pour la TVA sur encaissement
 
 Vous pouvez choisir de calculer et de valider les montants de TVA dans un compte général temporaire lorsqu’une facture est validée, puis de les valider dans le compte général approprié et de les inclure dans des déclarations de TVA lorsque le paiement réel de la facture est validé. Pour cela, vous devez définir les [paramètres validation TVA](finance-setup-vat.md).
 
@@ -46,7 +46,7 @@ Pour utiliser les comptes pour la TVA sur encaissement, procédez comme suit :
 > [!NOTE]  
 > Le montant de la TVA est validé sur ce compte jusqu’à ce que le paiement de la facture soit validé. Le montant est alors transféré sur le compte pour la TVA achat.
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 [Configurer des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

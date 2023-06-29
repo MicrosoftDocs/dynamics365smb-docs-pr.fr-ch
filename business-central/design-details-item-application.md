@@ -10,7 +10,7 @@ ms.search.keywords: 'design, items, ledger entries, posting, inventory'
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-application"></a>Détails de conception : lettrage article
+# <a name="design-details-item-application"></a><a name="design-details-item-application"></a>Détails de conception : lettrage article
 
 Lorsque vous validez une transaction de stock, la validation de quantité est enregistrée dans les écritures comptables article, la validation de valeur dans les écritures valeur. Pour plus d’informations, voir [Détails de conception : comptabilisation stock](design-details-inventory-posting.md).  
 
@@ -54,22 +54,22 @@ Une écriture lettrage article enregistre les informations suivantes.
 |**Quantité**|quantité lettrée.|  
 |**Date de validation**|date de comptabilisation de la transaction.|  
 
-## <a name="inventory-increase"></a>Entrée de stock
+## <a name="inventory-increase"></a><a name="inventory-increase"></a>Entrée de stock
 Lorsque vous validez une entrée de stock, une simple écriture lettrage article est enregistrée sans lettrage dans une écriture sortante.  
 
-### <a name="example"></a>Exemple :
+### <a name="example"></a><a name="example"></a>Exemple :
 Le tableau suivant montre l’écriture lettrage article qui est créée lorsque vous validez une réception achat de 10 unités.  
 
 |Date comptabilisation|N° écriture article entrant|N° écriture article sortant|Quantité|N° écriture comptable article|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01/01/20|1|0|10|1|  
 
-## <a name="inventory-decrease"></a>Sortie de stock
+## <a name="inventory-decrease"></a><a name="inventory-decrease"></a>Sortie de stock
 Lorsque vous validez une sortie de stock, une écriture lettrage article qui lie la sortie de stock à une entrée de stock est créée. Ce lien est créé en utilisant le mode évaluation stock de l’article comme base d’instructions. Pour les articles utilisant les modes évaluation du stock FIFO, standard, et moyen, le lien est basé sur le principe du premier entré, premier sorti. La sortie de stock est lettrée avec l’entrée de stock ayant la date comptabilisation la plus proche. Pour les articles utilisant le mode évaluation stock LIFO, le lien est basé sur le principe du dernier entré, premier sorti. La sortie de stock est lettrée avec l’entrée de stock ayant la date comptabilisation la plus récente.  
 
 Dans la table **Ecriture article**, le champ **Quantité restante** présente la quantité qui n’a pas encore été lettrée. Si la quantité restante est supérieure à 0, la case à cocher **Ouvrir** est activée.  
 
-### <a name="example-1"></a>Exemple :
+### <a name="example-1"></a><a name="example-1"></a>Exemple :
 L’exemple suivant montre l’écriture lettrage article créée lors de la validation d’une expédition vente de 5 unités des articles réceptionnés dans l’exemple précédent. La première écriture lettrage article est la réception achat. La deuxième écriture lettrage est l’expédition vente.  
 
 Le tableau suivant montre les deux écritures lettrage article qui résultent de l’entrée de stock et de la sortie de stock, respectivement.  
@@ -79,12 +79,12 @@ Le tableau suivant montre les deux écritures lettrage article qui résultent de
 |01/01/20|1|0|10|1|  
 |03/01/20|1|2|-5|2|  
 
-## <a name="fixed-application"></a>Lettrage fixe
+## <a name="fixed-application"></a><a name="fixed-application"></a>Lettrage fixe
 Vous effectuez un lettrage fixe lorsque vous spécifiez que le coût d’une entrée de stock doit être lettré sur une sortie de stock spécifique ou inversement. Ce lettrage fixe affecte les quantités restantes des écritures, mais le lettrage fixe rétablit également le coût exact de l’écriture d’origine sur laquelle vous lettrez (ou à partir de laquelle vous lettrez).  
 
 Pour créer un lettrage fixe, vous utilisez les champs **Écr. article de lettrage** ou **Écr. article à lettrer** des lignes document pour spécifier l’écriture comptable article sur laquelle \(ou à partir de laquelle\) vous voulez que la ligne de transaction soit lettrée. Par exemple, vous pouvez effectuer un lettrage fixe lorsque vous voulez créer un coût lettré qui spécifie qu’un retour vente doit être lettré sur une expédition vente spécifique afin de contrepasser le coût de l’expédition vente. Dans ce cas, [!INCLUDE[prod_short](includes/prod_short.md)] ignore le mode d’évaluation du stock et lettre la sortie de stock (ou l’entrée de stock en cas de retour vente) sur l’écriture comptable article que vous spécifiez. L’avantage d’effectuer un lettrage fixe est que le coût de la transaction initiale est transmis à la nouvelle transaction.  
 
-### <a name="example--fixed-application-in-purchase-return"></a>Exemple – lettrage fixe dans le retour achat
+### <a name="example--fixed-application-in-purchase-return"></a><a name="example--fixed-application-in-purchase-return"></a>Exemple – lettrage fixe dans le retour achat
 L’exemple suivant, qui illustre l’effet du lettrage fixe d’un retour achat d’un article utilisant le mode d’évaluation du stock FIFO, est basé sur le scénario suivant :  
 
 1. Dans la séquence 1, l’utilisateur valide un achat à un coût de 10,00 DS.  
@@ -109,7 +109,7 @@ Le tableau suivant montre l’écriture lettrage article générée par le lettr
 
 Le coût du second achat, 20,00 DS, est ensuite transmis correctement au retour achat.  
 
-### <a name="example--fixed-application-with-average-cost"></a>Exemple – lettrage fixe avec le coût moyen
+### <a name="example--fixed-application-with-average-cost"></a><a name="example--fixed-application-with-average-cost"></a>Exemple – lettrage fixe avec le coût moyen
 L’exemple suivant, qui indique l’effet du lettrage fixe, est basé sur le scénario suivant pour un article qui utilise le mode évaluation stock moyen :  
 
 1. Dans les numéros de séquence 1 et 2, l’utilisateur valide deux factures achat. La seconde facture a un coût unitaire direct incorrect de 1000,00 DS.  
@@ -149,7 +149,7 @@ Dans le numéro de séquence 5, la valeur du champ **Coût total (réel)** de c
 > [!NOTE]  
 >  Si vous effectuez un lettrage fixe pour une sortie de stock d’un article qui utilise le mode évaluation stock Moyen, la sortie de stock ne reçoit pas le coût moyen pour l’article comme d’habitude mais reçoit le coût de l’entrée de stock que vous avez spécifiée. Cette sortie de stock ne fait alors plus partie du calcul du coût moyen.  
 
-### <a name="example--fixed-application-in-sales-return"></a>Exemple – lettrage fixe dans le retour vente
+### <a name="example--fixed-application-in-sales-return"></a><a name="example--fixed-application-in-sales-return"></a>Exemple – lettrage fixe dans le retour vente
 Les lettrages fixes sont également un excellent moyen de contrepasser un coût exactement, par exemple avec des retours vente.  
 
 L’exemple suivant, qui indique la manière dont un lettrage fixe garantit la contrepassation du coût exact, est basé sur le scénario suivant :  
@@ -190,10 +190,10 @@ Lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**
 > [!NOTE]  
 >  Si vous validez une transaction avec un lettrage fixe et si l’écriture comptable article que vous lettrez doit être clôturée, ce qui signifie que la quantité restante est égale à zéro, l’ancien lettrage est automatiquement annulé et l’écriture comptable article est réappliquée à l’aide du lettrage fixe que vous avez spécifié.  
 
-## <a name="transfer-application"></a>Application de transfert
+## <a name="transfer-application"></a><a name="transfer-application"></a>Application de transfert
 Lorsqu’un article est transféré d’un magasin à un autre, dans le stock de la société, alors une application est créée entre les deux écritures de transfert. L’évaluation d’une écriture de transfert dépend du mode d’évaluation. Pour les articles utilisant le mode évaluation stock moyen, l’évaluation est créée à l’aide du coût moyen dans la période coût moyen où se trouve la date évaluation du transfert. Pour les articles utilisant d’autres modes évaluation stock, l’évaluation est effectuée en remontant jusqu’au coût de l’entrée de stock d’origine.  
 
-### <a name="example--average-costing-method"></a>Exemple – mode évaluation stock moyen
+### <a name="example--average-costing-method"></a><a name="example--average-costing-method"></a>Exemple – mode évaluation stock moyen
 L’exemple suivant, qui indique comment les écritures de transfert sont lettrées, est basé sur le scénario suivant pour un article utilisant le mode évaluation stock moyen et une période coût moyen Jour.  
 
 1. L’utilisateur achète l’article à un montant de 10,00 LCY.  
@@ -209,7 +209,7 @@ Le tableau suivant montre l’effet du transfert sur les écritures valeur de l�
 |01/02/20|Transfert|EAST|-1|15,00|3|  
 |01/02/20|Transfert|WEST|1|15,00|4|  
 
-### <a name="example--standard-costing-method"></a>Exemple – Mode d’évaluation du stock Standard
+### <a name="example--standard-costing-method"></a><a name="example--standard-costing-method"></a>Exemple – Mode d’évaluation du stock Standard
 L’exemple suivant, qui indique comment les écritures de transfert sont lettrées, est basé sur le scénario suivant pour un article utilisant le mode évaluation stock Standard et une période coût moyen Jour.  
 
 1. L’utilisateur achète l’article à un montant standard de 10,00 LCY.  
@@ -225,7 +225,7 @@ Le tableau suivant montre l’effet du transfert sur les écritures valeur de l�
 
 Étant donné que la valeur de l’entrée de stock d’origine est de 10,00 DS, le transfert est évalué à ce coût, et non à 12,00 DS.  
 
-## <a name="reapplication"></a>Relettrage
+## <a name="reapplication"></a><a name="reapplication"></a>Relettrage
 En raison du mode de calcul du coût unitaire d’un article, un lettrage article incorrect peut produire un coût moyen ou un coût unitaire erroné. Les scénarios suivants peuvent générer des lettrages article incorrects, qui nécessitent d’annuler des lettrages article et relettrer des écritures comptables article :  
 
 * Vous avez oublié d’effectuer un lettrage fixe.  
@@ -235,7 +235,7 @@ En raison du mode de calcul du coût unitaire d’un article, un lettrage articl
 
 [!INCLUDE[prod_short](includes/prod_short.md)] propose une fonction pour analyser et corriger des lettrages article. Cela s’effectue sur la page **Feuille lettrage**.  
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 [Détails de conception : problème de lettrage article connu](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)  
 [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  

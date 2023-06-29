@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="create-service-invoices-or-credit-memos"></a>Créer des factures service ou des avoirs
+# <a name="create-service-invoices-or-credit-memos"></a><a name="create-service-invoices-or-credit-memos"></a>Créer des factures service ou des avoirs
 La simplicité de facturation des commandes service est une fonctionnalité clé de [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez aussi configurer votre [!INCLUDE[prod_short](includes/prod_short.md)] afin qu’un technicien de service sur le terrain puisse créer une facture pour un service qui n’est pas connecté à un contrat ou une commande. Sinon, configurez [!INCLUDE[prod_short](includes/prod_short.md)] afin de facturer régulièrement les contrats de service. La période de facturation de chaque contrat définit la fréquence de facturation.
 
-## <a name="to-invoice-several-service-contracts"></a>Pour facturer plusieurs contrats de service
+## <a name="to-invoice-several-service-contracts"></a><a name="to-invoice-several-service-contracts"></a>Pour facturer plusieurs contrats de service
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Créer des factures de contrat de service**, puis sélectionnez le lien associé.  
 2. Définissez les filtres que vous souhaitez appliquer.  
@@ -24,7 +24,7 @@ La simplicité de facturation des commandes service est une fonctionnalité clé
   
 Vous pouvez également facturer un contrat de service directement à partir de la page **Contrat de service** si la date de la prochaine facture sur le contrat est antérieure à la date du jour.
 
-## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Pour facturer un contrat de service à partir de la page Contrat de service
+## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a><a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Pour facturer un contrat de service à partir de la page Contrat de service
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Contrats de service**, puis sélectionnez le lien associé.  
 2. Sélectionnez le contrat de service à facturer, puis ouvrez la fiche de contrat.  
 3. Choisissez l’action **Créer facture service**. 
@@ -33,7 +33,7 @@ Vous pouvez également facturer un contrat de service directement à partir de l
   > [!NOTE]  
   > Vous ne pouvez pas créer de factures service pour le contrat de service lorsque la valeur du champ **Changer statut** est paramétrée sur **Ouvert**.  
 
-## <a name="to-post-an-invoice-from-a-service-order"></a>Pour valider une consommation à partir d’une commande service
+## <a name="to-post-an-invoice-from-a-service-order"></a><a name="to-post-an-invoice-from-a-service-order"></a>Pour valider une consommation à partir d’une commande service
 La procédure suivante décrit comment définir la partie du service que vous allez facturer au client.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes service**, puis choisissez le lien associé.  
@@ -52,7 +52,7 @@ La procédure suivante décrit comment définir la partie du service que vous al
   
  Lorsque vous validez la commande avec l’option **Facturer**, une facture service validée est générée ainsi que les écritures comptables correspondantes et les champs appropriés sont mis à jour dans les lignes service de la commande. En outre, les documents expédition validés précédemment sont mis à jour avec les quantités facturées. Si vous sélectionnez l’option de validation **Livrer et facturer**, une expédition validée est également générée.
 
-## <a name="to-create-a-service-invoice-manually"></a>Pour créer une facture service manuellement
+## <a name="to-create-a-service-invoice-manually"></a><a name="to-create-a-service-invoice-manually"></a>Pour créer une facture service manuellement
 Typiquement, après avoir validé une facture service avec l’option **Facturer** ou **Livrer et facturer**, une facture service validée est crée automatiquement. Toutefois, il se peut que vous deviez émettre une facture qui est non liée à un contrat de service ou à une facture service. Cette procédure explique comment émettre une facture au moment où le client reçoit le service.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures service**, puis sélectionnez le lien associé.  
@@ -70,7 +70,7 @@ Typiquement, après avoir validé une facture service avec l’option **Facturer
 6. Renseignez le champ **Date document**. La date que vous entrez apparaît sur la facture imprimée et est utilisée pour calculer la date d’échéance.  
 7. Renseignez les lignes service de la facture. Renseignez les champs **Type**, **N°**, et **Quantité** pour enregistrer des articles, des ressources et/ou des coûts utilisés pour la maintenance. 
 
-## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Pour créer une facture qui combine les lignes expédition enregistrées d’une ou de plusieurs commandes service
+## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a><a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Pour créer une facture qui combine les lignes expédition enregistrées d’une ou de plusieurs commandes service
 Il se peut que vous deviez créer une facture service pour le service qui a déjà été expédié, à partir d’une ou plusieurs commandes service, mais pas encore facturé ni consommé. Vous pouvez renseigner les lignes facture automatiquement avec les lignes expédition validées sélectionnées pour un client spécifique.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures service**, puis sélectionnez le lien associé.  
@@ -80,7 +80,7 @@ Il se peut que vous deviez créer une facture service pour le service qui a déj
   
  La facture service validée et les écritures comptables correspondantes sont créées. Les documents expédition validés précédemment sont mis à jour avec les quantités facturées et les quantités appropriées des lignes service des ordres origine.  
 
-## <a name="to-create-a-service-credit-memo"></a>Pour créer un avoir service
+## <a name="to-create-a-service-credit-memo"></a><a name="to-create-a-service-credit-memo"></a>Pour créer un avoir service
 Un document avoir service est typiquement utilisé lorsqu’un client retourne un article, mais il peut également être utilisé pour offrir au client une compensation ou pour corriger une facture erronée.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Avoirs service**, puis sélectionnez le lien associé.  
@@ -88,7 +88,7 @@ Un document avoir service est typiquement utilisé lorsqu’un client retourne u
 3. Les champs **Date comptabilisation** et **Date document** affichent la date de travail. Si nécessaire, vous pouvez la modifier.    
 4. Sur les lignes avoir, entrez les informations relatives aux articles retournés ou retirés, ou à la compensation qui sera donnée au client.  
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 [Valider des factures service](service-how-to-post-service-orders.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
 [Validation de service](service-service-posting.md)  

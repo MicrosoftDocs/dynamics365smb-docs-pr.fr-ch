@@ -8,21 +8,21 @@ ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# <a name="assembly-reports-and-analytics-in-business-central"></a>États et analyses d’assemblage dans Business Central
+# <a name="assembly-reports-and-analytics-in-business-central"></a><a name="assembly-reports-and-analytics-in-business-central"></a>États et analyses d’assemblage dans Business Central
 
 Les états d’assemblage dans [!INCLUDE [prod_short](includes/prod_short.md)] permettent aux professionnels de la production et des affaires d’obtenir des informations et des statistiques sur les activités d’assemblage actuelles et passées.  
 
-## <a name="reports"></a>États
+## <a name="reports"></a><a name="reports"></a>États
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-## <a name="tasks"></a>Tâches
+## <a name="tasks"></a><a name="tasks"></a>Tâches
 
 Les articles suivants décrivent certaines des tâches clés pour analyser l’état de votre entreprise :
 
 * [Voir la disponibilité des articles](inventory-how-availability-overview.md)
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Utilisation des nomenclatures d’assemblage](assembly-how-work-assembly-boms.md)  

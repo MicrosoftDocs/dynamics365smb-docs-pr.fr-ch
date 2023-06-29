@@ -9,7 +9,7 @@ ms.date: 02/02/2023
 ms.custom: bap-template
 ms.search.form: '42, 50, 9305, 9307'
 ---
-# <a name="create-prepayment-invoices"></a>Créer des factures d’acompte
+# <a name="create-prepayment-invoices"></a><a name="create-prepayment-invoices"></a>Créer des factures d’acompte
 
 Si vous demandez aux clients de payer avant d’expédier leur commande, vous pouvez utiliser les fonctionnalités de prépaiement. Il en va de même si votre fournisseur vous demande de paiement avant de vous expédier une commande.  
 
@@ -19,7 +19,7 @@ Après avoir créé une commande vente ou achat, vous pouvez créer une facture 
 
 La procédure suivante décrit comment facturer un acompte pour une commande vente. La procédure est identique pour des commandes achat.  
 
-## <a name="to-create-a-prepayment-invoice"></a>Pour créer une facture acompte
+## <a name="to-create-a-prepayment-invoice"></a><a name="to-create-a-prepayment-invoice"></a>Pour créer une facture acompte
 
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Créez une commande vente pour le client approprié. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
@@ -70,13 +70,13 @@ Vous pouvez émettre des factures acompte supplémentaires pour la commande. Pou
 
  Lorsque vous êtes prêt à valider le reste de la facture, validez-le comme n’importe quelle facture. Le montant d’acompte est automatiquement déduit du montant dû.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Mettre à jour automatiquement le statut des commandes prépayées et des factures
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a><a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Mettre à jour automatiquement le statut des commandes prépayées et des factures
 
 Vous pouvez accélérer le traitement des commandes et des factures en configurant des entrées de file d’attente qui mettent automatiquement à jour le statut de ces documents. Lorsqu’une facture d’acompte est payée, les entrées de la file d’attente des travaux peuvent changer automatiquement le statut du document de **Acompte en attente** sur **Validé**. Lorsque vous configurez les entrées de la file d’attente des travaux, les unités de code que vous devrez utiliser sont **383 Mise à jour En attente Acompte Ventes** et **383 Mise à jour En attente Acompte Achats**. Nous vous recommandons de programmer les entrées pour qu’elles s’exécutent fréquemment, par exemple, toutes les minutes. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Facturation d’acomptes](finance-invoice-prepayments.md)  
 [Procédure pas à pas : configuration et facturation d’acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

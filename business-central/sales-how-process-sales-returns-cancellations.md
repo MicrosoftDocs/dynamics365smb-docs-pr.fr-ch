@@ -11,7 +11,7 @@ ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/27/2021
 ms.author: edupont
 ---
-# <a name="process-sales-returns-or-cancellations"></a>Traiter les retours ou annulations de ventes
+# <a name="process-sales-returns-or-cancellations"></a><a name="process-sales-returns-or-cancellations"></a>Traiter les retours ou annulations de ventes
 
 Si votre client souhaite retourner des articles ou obtenir un remboursement pour des articles, ou encore annuler des services, que vous lui avez vendus et pour lesquels vous avez reçu un paiement, vous devez créer et valider un avoir vente qui indique la modification demandée. Pour inclure les informations correctes sur la facture vente, vous pouvez procéder comme suit :  
 
@@ -30,7 +30,7 @@ La validation de l’avoir rétablira également tous les frais annexes affecté
 > [!NOTE]
 > Les aspects comptables des retours de ventes, tels que les paiements aux clients à titre de remboursement, sont considérés comme des travaux comptables et ne sont pas décrits ici. Pour plus d’informations, reportez-vous à [Gestion des comptes fournisseur](payables-manage-payables.md).
 
-## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Pour créer un avoir vente à partir d’une facture vente validée
+## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a><a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Pour créer un avoir vente à partir d’une facture vente validée
 
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
 2. Sur la page **Factures vente enregistrées**, sélectionnez la facture vente validée que vous souhaitez contrepasser, sélectionnez l’action **Annuler**, puis sélectionnez l’action **Créer un avoir correctif**.
@@ -53,7 +53,7 @@ La boîte de dialogue **Valider et envoyer la confirmation** s’ouvre et indiqu
 
 Les documents vente validés auxquels vous avez lettré l’avoir sont à présent contrepassés, et un remboursement peut être créé pour le client. L’avoir vente est supprimé et remplacé par un nouveau document dans la liste des avoirs vente validés.
 
-## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Pour créer un avoir vente en copiant une facture vente validée
+## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a><a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Pour créer un avoir vente en copiant une facture vente validée
 
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Avoirs vente**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau** pour ouvrir un nouvel avoir vente vierge.
@@ -65,7 +65,7 @@ Les documents vente validés auxquels vous avez lettré l’avoir sont à prése
 8. Cliquez sur le bouton **OK**. Les lignes facture copiées sont insérées dans l’avoir vente.
 9. Remplissez l’avoir vente en vous reportant à [Pour créer un avoir vente à partir d’une facture vente validée](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
-## <a name="to-create-a-sales-allowance"></a>Pour créer des frais de vente
+## <a name="to-create-a-sales-allowance"></a><a name="to-create-a-sales-allowance"></a>Pour créer des frais de vente
 Vous pouvez envoyer un avoir à un client avec une réduction si le client a reçu des articles légèrement endommagés ou avec du retard.  
 Vous pouvez valider ce prix réduit en tant que frais annexes dans un avoir ou un retour et l’affecter à l’expédition validée. Ce qui suit décrit la procédure pour un avoir, mais les mêmes étapes s’appliquent à un retour vente.
 
@@ -81,7 +81,7 @@ Vous pouvez valider ce prix réduit en tant que frais annexes dans un avoir ou u
 
 Lorsque vous validez la commande retour vente, le rabais sur la vente est ajouté au montant de l’écriture vente appropriée. De cette manière, vous pouvez maintenir la précision de l’évaluation stock.
 
-## <a name="to-combine-return-receipts"></a>Pour regrouper des réceptions retour
+## <a name="to-combine-return-receipts"></a><a name="to-combine-return-receipts"></a>Pour regrouper des réceptions retour
 Vous pouvez regrouper des réceptions retour si votre client retourne plusieurs articles couverts par différentes commandes retour vente.  
 
 Lorsque vous recevez les articles dans votre entrepôt, validez les retours vente comme concernés comme reçus. Cela crée des réceptions retour validées.  
@@ -90,7 +90,7 @@ Lorsque vous êtes prêt à facturer ce client, au lieu de facturer chaque comma
 
 Pour regrouper les réceptions retour, activer la case à cocher **Regrouper les B.L.** sur la page **Fiche client**.  
 
-### <a name="to-manually-combine-return-receipts"></a>Pour regrouper manuellement des réceptions retour
+### <a name="to-manually-combine-return-receipts"></a><a name="to-manually-combine-return-receipts"></a>Pour regrouper manuellement des réceptions retour
 
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Avoirs vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.
@@ -104,7 +104,7 @@ Pour regrouper les réceptions retour, activer la case à cocher **Regrouper les
 6.  Si une ligne expédition incorrecte a été sélectionnée ou si vous voulez recommencer, supprimez simplement les lignes de l’avoir, puis exécutez de nouveau la fonction **Extraire lignes récept. retour**.  
 7.  Validez la facture.  
 
-### <a name="to-automatically-combine-return-receipts"></a>Pour regrouper automatiquement des réceptions retour
+### <a name="to-automatically-combine-return-receipts"></a><a name="to-automatically-combine-return-receipts"></a>Pour regrouper automatiquement des réceptions retour
 
 Vous pouvez regrouper automatiquement des réceptions retour et avoir la possibilité de valider automatiquement l’avoir à l’aide de la fonction **Regrouper réceptions retour**.  
 
@@ -113,7 +113,7 @@ Vous pouvez regrouper automatiquement des réceptions retour et avoir la possibi
 3. Cochez la case **Valider avoirs**. Sinon, vous devrez valider manuellement les avoirs achat qui en résulteront.
 4. Cliquez sur le bouton **OK**.  
 
-### <a name="to-remove-a-received-and-invoiced-return-order"></a>Pour supprimer un retour reçu et facturé
+### <a name="to-remove-a-received-and-invoiced-return-order"></a><a name="to-remove-a-received-and-invoiced-return-order"></a>Pour supprimer un retour reçu et facturé
 
 Lorsque vous facturez des réceptions retour de cette manière, les commandes retour à partir desquelles les réceptions retour ont été validées continuent à exister, même si elles ont été entièrement reçues et facturées.  
 
@@ -125,7 +125,7 @@ Lorsque des réceptions retour sont regroupées sur un avoir et validées, un av
 
 Vous pouvez également supprimer chacune des commandes retour vente manuellement.  
 
-## <a name="inventory-costing"></a>Évaluation stock
+## <a name="inventory-costing"></a><a name="inventory-costing"></a>Évaluation stock
 
 Pour préserver l’évaluation correcte du stock, vous voudrez généralement remettre les articles retournés dans l’inventaire au coût unitaire auquel ils ont été vendus, et non à leur coût unitaire actuel. On appelle cela une inversion de même coût.
 
@@ -140,9 +140,9 @@ Pour réaliser manuellement la contrepassation exacte, sélectionnez **Écriture
 
 Pour plus d’informations, voir [Détails de conception : Évaluation stock](design-details-inventory-costing.md).
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/return-items-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/return-items-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  

@@ -11,11 +11,11 @@ ms.search.form: '1950, 1951,'
 ms.date: 12/20/2021
 ms.author: bholtorf
 ---
-# Extension Prévisions de retard de paiement
+# <a name="the-late-payment-prediction-extension"></a>Extension Prévisions de retard de paiement
 
 Une gestion efficace des créances est importante pour la santé financière générale d’une société. L’extension de prévision de retard de paiement peut vous aider à minimiser les créances ouvertes et à ajuster votre stratégie de collectes en prévoyant si les factures vente seront payées à temps. Par exemple, si un retard de paiement est prévu, vous pouvez décider d’ajuster les conditions de paiement ou le mode de règlement du client.
 
-## Mise en route
+## <a name="getting-started"></a>Mise en route
 
 Lorsque vous ouvrez un document vente validé, une notification s’affiche en haut de la page. Pour utiliser l’extension Prévision de retard de paiement vous pouvez choisir de sélectionner **Activer** dans la notification. Sinon, vous pouvez configurer l’extension manuellement. Par exemple, si vous regrettez d’ignorer la notification.  
 
@@ -27,7 +27,7 @@ Pour activer manuellement l’extension, procédez comme suit :
 > [!NOTE]
 > Si vous décidez d’activer l’extension manuellement, sachez que [!INCLUDE[prod_short](includes/prod_short.md)] ne vous permet pas de le faire si la qualité du modèle est faible. La qualité du modèle indique la probabilité de précision des prévisions du modèle. Plusieurs facteurs peuvent affecter la qualité d’un modèle. Par exemple, il n’y avait peut-être pas suffisamment de données ou les données n’avaient peut-être pas de variation suffisante. Vous pouvez afficher la qualité du modèle que vous utilisez actuellement sur la page **Configuration des prévisions de retard de paiement**. Vous pouvez également spécifier un seuil minimum pour la qualité du modèle.   
 
-## Affichage de toutes les prévisions de paiement
+## <a name="viewing-all-payment-predictions"></a>Affichage de toutes les prévisions de paiement
 
 Si vous activez l’extension, une vignette **Retards de paiements prévus** est disponible dans le tableau de bord **Gestionnaire d’activité**. La vignette affiche le nombre de retards de paiements prévus, et vous permet d’ouvrir la page **Écritures comptables client** où vous pouvez examiner plus en détail dans les factures validées. Il existe trois colonnes à examiner attentivement :  
 
@@ -38,14 +38,14 @@ Si vous activez l’extension, une vignette **Retards de paiements prévus** est
 > [!TIP]
 > La page Écritures comptables client affiche également un récapitulatif à droite. Lorsque vous vérifiez les prévisions, les informations de la section **Détails client** peuvent être utile. Lorsque vous sélectionnez la facture dans la liste, la section affiche des informations sur le client. Elle vous permet également de prendre une mesure immédiate. Par exemple, si un client égare fréquemment son portefeuille, vous pouvez ouvrir la fiche client dans le récapitulatif et bloquer le client pour des ventes futures.  
 
-## Affichage d’une prévision de paiement pour un document vente spécifique
+## <a name="viewing-a-payment-prediction-for-a-specific-sales-document"></a>Affichage d’une prévision de paiement pour un document vente spécifique
 
 Vous pouvez également prévoir des retards de paiement par avance. Sur les pages **Devis**, **Commandes vente**, et **Factures vente**, vous pouvez utiliser l’action **Prévoir le paiement** pour générer des prévisions pour le document vente que vous visualisez.
 
 <!--## Scheduling Payment Predictions
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
-## Détails de conception
+## <a name="design-details"></a>Détails de conception
 
 Microsoft déploie et exploite plusieurs services web prédictifs dans toutes les régions où [!INCLUDE[prod_short](includes/prod_short.md)] est disponible. L’accès à ces services web est inclus dans votre abonnement [!INCLUDE[prod_short](includes/prod_short.md)]. Pour en savoir plus, consultez le guide des licences Microsoft Dynamics 365 Business Central. Le guide est téléchargeable sur le site Internet [Business Central](https://dynamics.microsoft.com/business-central/overview/).
 
@@ -60,7 +60,7 @@ Ces services web sont sans état. Autrement dit, ils utilisent des données uniq
 > [!NOTE]  
 > Vous pouvez utiliser votre propre service web prévisionnel au lieu du nôtre. Pour en savoir plus, consultez [Créer et utiliser votre propre service web prévisionnel pour des prévisions de retard de paiement](#AnchorText).
 
-### Données nécessaires pour former et évaluer le modèle
+### <a name="data-required-to-train-and-evaluate-the-model"></a>Données nécessaires pour former et évaluer le modèle
 
 Pour chaque **Écriture comptable client** ayant une **Facture vente enregistrée** associée :
 
@@ -83,7 +83,7 @@ En outre, l’enregistrement est enrichi de données agrégées provenant d’au
 > [!NOTE]
 > Les informations sur le client ne sont pas incluses dans l’ensemble de données.
 
-### Modèle standard et Mon modèle
+### <a name="standard-model-and-my-model"></a>Modèle standard et Mon modèle
 
 L’extension Prévision de retard de paiement contient un modèle prédictif formé à l’aide de données représentant un éventail de PME. Lorsque vous commencez à valider des factures et à recevoir des paiements, [!INCLUDE[prod_short](includes/prod_short.md)] évalue si le modèle standard correspond à votre flux d’activité. 
 
@@ -93,13 +93,13 @@ S’il s’avère que vos processus ne correspondent pas au modèle standard, vo
 
 [!INCLUDE[prod_short](includes/prod_short.md)] exécute automatiquement la formation et l’évaluation lorsque le nombre de factures payées et en retard est suffisant, mais vous pouvez l’exécuter manuellement quand vous le souhaitez.
 
-#### Pour former et utiliser votre modèle
+#### <a name="to-train-and-use-your-model"></a>Pour former et utiliser votre modèle
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration de prévision de paiement en retard**, puis sélectionnez le lien associé.  
 2. Dans le champ **Modèle sélectionné**, choisissez **Mon modèle**.
 3. Choisissez l’action **Créer mon modèle** pour former le modèle sur vos données.  
 
-## <a name="AnchorText"> </a>Créer et utiliser votre propre service web prévisionnel pour des prévisions de retard de paiement
+## <a name="a-nameanchortext-acreate-and-use-your-own-predictive-web-service-for-late-payment-prediction"></a><a name="AnchorText"> </a>Créer et utiliser votre propre service web prévisionnel pour des prévisions de retard de paiement
 
 Vous pouvez également utiliser votre propre service web prévisionnel basé sur un modèle public nommé **Expérience prévisionnelle pour Dynamics 365 Business Central**. Ce modèle prévisionnel est disponible en ligne dans la galerie Azure AI. Pour utiliser le modèle, procédez comme suit :  
 
@@ -112,9 +112,9 @@ Vous pouvez également utiliser votre propre service web prévisionnel basé sur
 7. Activez la case à cocher **Utiliser mon abonnement Azure**.
 8. Sur l’organisateur **Mes informations d’identification du modèle**, saisissez l’URL d’API et la clé API de votre modèle.  .  
 
-## Voir la [formation Microsoft](/training/modules/predict-late-payments-sales-documents/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/predict-late-payments-sales-documents/) associée
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Documentation Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md)  
