@@ -998,6 +998,7 @@
 ### Inde
 #### [Vue d’ensemble](LocalFunctionality/India/india-local-functionality.md)
 #### [Définition de la validation des souches de numéros](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Piste d’audit et journaux d’édition pour les logiciels de comptabilité en Inde](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Moteur de taxe
 ##### [Vue d’ensemble](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Configuration d’importation et d’exportation du moteur de taxe](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
