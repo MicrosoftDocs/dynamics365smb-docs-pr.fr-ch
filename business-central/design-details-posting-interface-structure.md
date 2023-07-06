@@ -10,7 +10,7 @@ ms.search.keywords: 'posting, interface, design'
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-posting-interface-structure"></a><a name="design-details-posting-interface-structure"></a>Détails de conception : Structure de l’interface de validation
+# <a name="design-details-posting-interface-structure"></a><a name="design-details-posting-interface-structure"></a><a name="design-details-posting-interface-structure"></a>Détails de conception : Structure de l’interface de validation
 Dans la structure de l’interface de validation [!INCLUDE[prod_short](includes/prod_short.md)], il y a plusieurs procédures globales utilisant la même structure :  
   
 * Code de procédure d’appel RunWithCheck et RunWithoutCheck – interface de validation générique pour Gen. Jnl Line.  
@@ -19,7 +19,7 @@ Dans la structure de l’interface de validation [!INCLUDE[prod_short](includes/
 * UnapplyCustLedgEntry – validation de la désapplication de l’application du client, appelée à partir du codeunit 226 CustEntry-Appliquer les écritures validées  
 * UnapplyVendLedgEntry – validation de la désapplication de l’application du fournisseur, appelée à partir du codeunit 227 VendEntry-Appliquer les écritures validées  
   
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 [Détails de conception : Structure du moteur de validation](design-details-posting-engine-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

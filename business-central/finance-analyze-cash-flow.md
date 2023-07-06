@@ -11,7 +11,7 @@ ms.search.form: '762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862
 ms.date: 12/20/2021
 ms.author: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a><a name="analyzing-cash-flow-in-your-company"></a>Analyse de la trésorerie dans votre société
+# <a name="analyzing-cash-flow-in-your-company"></a><a name="analyzing-cash-flow-in-your-company"></a><a name="analyzing-cash-flow-in-your-company"></a>Analyse de la trésorerie dans votre société
 Les graphiques du tableau de bord Comptable offrent des analyses qui peuvent vous aider à prendre des décisions judicieuses sur les opérations à effectuer avec votre trésorerie.  
 
 | Pour répondre à des questions comme celles-ci | Utiliser ce graphique |
@@ -36,15 +36,15 @@ Si vous souhaitez vérifier la prévision, outre les écritures de prévision, v
 * Retire les dépenses et ajoute les recettes.  
 * Ignore les commandes ventes et les commandes achats en double.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a><a name="to-view-a-cash-flow-worksheet"></a>Pour afficher une feuille d’activité de trésorerie
+## <a name="to-view-a-cash-flow-worksheet"></a><a name="to-view-a-cash-flow-worksheet"></a><a name="to-view-a-cash-flow-worksheet"></a>Pour afficher une feuille d’activité de trésorerie
 
 1. Recherchez **Prévisions de trésorerie**, puis sélectionnez le lien associé.  
 2. Choisissez une prévision de trésorerie, puis sélectionnez l’option **Feuille trésorerie**.  
 3. Sur la page **Feuille trésorerie**, sélectionnez l’action **Proposer lignes feuille activité**.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Configuration de Finance](finance-setup-finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

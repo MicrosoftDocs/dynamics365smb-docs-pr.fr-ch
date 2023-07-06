@@ -8,7 +8,7 @@ ms.search.form: '911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# <a name="create-production-boms"></a><a name="create-production-boms"></a>Créer des nomenclatures de production
+# <a name="create-production-boms"></a><a name="create-production-boms"></a><a name="create-production-boms"></a>Créer des nomenclatures de production
 
 Une nomenclature de production contient les données de base qui décrivent les composants et les produits semi-finis utilisés lors de la fabrication d’un article parent. Après la création d’un ordre de fabrication pour cet article parent, sa nomenclature de production gouvernera le calcul de besoins matériels tels que représentés sur la page **Composants ordre prod.**.
 
@@ -22,7 +22,7 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 - Des fiches article sont créées pour les articles parents qui participent à la production. Pour plus d’informations, reportez-vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 - Les ressources de production sont configurées. Pour plus d’informations, voir [Configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-production-bom"></a><a name="to-create-a-production-bom"></a>Pour créer une nomenclature de production
+## <a name="to-create-a-production-bom"></a><a name="to-create-a-production-bom"></a><a name="to-create-a-production-bom"></a>Pour créer une nomenclature de production
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Nomenclatures de production**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -46,7 +46,7 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Pour recalculer le coût standard de l’article figurant sur la fiche article, choisissez l’action **Production**, puis l’action **Calculer coût standard**.  
 
-## <a name="to-create-a-new-version-of-a-production-bom"></a><a name="to-create-a-new-version-of-a-production-bom"></a>Pour créer une nouvelle version d’une nomenclature de production
+## <a name="to-create-a-new-version-of-a-production-bom"></a><a name="to-create-a-new-version-of-a-production-bom"></a><a name="to-create-a-new-version-of-a-production-bom"></a>Pour créer une nouvelle version d’une nomenclature de production
 
 Les nouvelles versions des nomenclatures de production sont utilisées lorsque, par exemple, un article est remplacé par un autre article, ou lorsqu’un client demande une version spéciale d’un produit. Le principe de la version permet de gérer différentes versions d’une nomenclature de production. La structure des versions de nomenclature de production correspond à celle des nomenclatures de production. La principale différence réside dans la validité des versions. La validité est définie par la date début.  
 
@@ -70,7 +70,7 @@ La validité de la version est définie par le champ **Date début**.
 >
 > Les nomenclatures fantômes servent à structurer les produits. Ce type de nomenclature de production n’aboutit jamais à un produit fini, mais est exclusivement destiné à déterminer la demande dépendante. Les nomenclatures fantômes ne possèdent pas de données de base article propres.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a><a name="quantity-calculation-formula-on-production-boms"></a>Formule de calcul de la quantité sur les nomenclatures de production
+## <a name="quantity-calculation-formula-on-production-boms"></a><a name="quantity-calculation-formula-on-production-boms"></a><a name="quantity-calculation-formula-on-production-boms"></a>Formule de calcul de la quantité sur les nomenclatures de production
 
 Le calcul de la quantité tient compte des différents axes analytiques également insérés dans les lignes nomenclature de production. Ces axes se rapportent à une unité de commande de l’article concerné. Les axes ainsi entrés peuvent être une longueur, une largeur, une profondeur ou un poids.  
 
@@ -88,11 +88,11 @@ La relation entre chacun des composants est définie par la formule de calcul. V
 > [!NOTE]
 > La formule de calcul **Quantité fixe** permet de s’assurer que la consommation d’un composant reste la même, quelles que soient les quantités de rebuts ou de sorties. Pour les composants d’ordre de fabrication, lorsque le champ **Formule de calcul** est défini sur **Quantité fixe**, la valeur du champ **Quantité prévue** est toujours égale à celle du champ **Quantité par**. Le pourcentage de rebut défini sur la même ligne est ignoré. La quantité fixée est respectée par l’état **Disponibilité par nomenclature**. L’état affichera l’article comme goulot d’étranglement si la quantité disponible est inférieure à la quantité dans le champ **Quantité par parent**. Les champs **Capable de fabriquer le parent** et **Capable de fabriquer le meilleur article** sont toujours vides, quelle que soit la quantité disponible. La quantité fixe est également incluse dans les calculs des coûts standard. La taille du lot de l’article produit a un impact sur le coût alloué à un article.
 
-### <a name="example"></a><a name="example"></a>Exemple :
+### <a name="example"></a><a name="example"></a><a name="example"></a>Exemple :
 
 Une nomenclature de production répertorie 70 feuilles de métal dotées des axes suivants : longueur = 0,20 m et largeur = 0,15 m. Les valeurs suivantes sont saisies : Formule de calcul = Longueur x Largeur, Longueur = 20, Largeur = 15, Quantité par = 70. La quantité est donnée par la valeur Quantité par x Longueur * Largeur, c’est-à-dire Quantité = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Créer des gammes](production-how-to-create-routings.md)  
 [Gérer les variantes de produits](inventory-item-variants.md)  

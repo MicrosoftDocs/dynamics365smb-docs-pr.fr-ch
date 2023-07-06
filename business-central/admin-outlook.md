@@ -11,7 +11,7 @@ ms.search.form: '1831, 1832'
 ms.date: 04/27/2022
 ms.author: jswymer
 ---
-# <a name="get-the-business-central-add-in-for-outlook"></a><a name="get-the-business-central-add-in-for-outlook"></a>Obtenir le complément Business Central pour Outlook
+# <a name="get-the-business-central-add-in-for-outlook"></a><a name="get-the-business-central-add-in-for-outlook"></a><a name="get-the-business-central-add-in-for-outlook"></a>Obtenir le complément Business Central pour Outlook
 
 Avec [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez gérer les interactions commerciales avec vos clients et fournisseurs, directement dans Microsoft Outlook. Avec le complément [!INCLUDE[prod_short](includes/prod_short.md)] pour Outlook, vous pouvez voir les données financières relatives aux clients et aux fournisseurs. Vous pouvez également créer et envoyer des documents financiers, tels que des devis et des factures.  
 
@@ -21,7 +21,7 @@ Il existe deux manières d’installer le complément Business Central pour Outl
 
 - En tant qu’utilisateur quelconque, installez le complément pour votre propre usage, si votre administrateur ne l’a pas déjà déployé pour vous.
 
-## <a name="about-the-business-central-add-in-for-outlook"></a><a name="about-the-business-central-add-in-for-outlook"></a>À propos du complément Business Central pour Outlook
+## <a name="about-the-business-central-add-in-for-outlook"></a><a name="about-the-business-central-add-in-for-outlook"></a><a name="about-the-business-central-add-in-for-outlook"></a>À propos du complément Business Central pour Outlook
 
 Le complément Business Central pour Outlook se compose de deux compléments plus petits :
 
@@ -40,20 +40,20 @@ Chaque complément est fourni sous forme de fichier XML, appelé *manifeste*, qu
 > [!IMPORTANT]
 > Utilisation de plusieurs environnements ? Le complément Business Central pour Outlook est conçu pour fonctionner avec un seul environnement Business Central. Lorsque le complément est installé, le nom de l’environnement est inclus dans le manifeste du complément. Cette configuration signifie que le complément se connectera uniquement à l’environnement à partir duquel il a été installé. Pour utiliser le complément avec un autre environnement, ouvrez l’environnement et réinstallez le complément.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a><a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Déployer le complément à l’aide du déploiement centralisé en tant qu’administrateur
+## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a><a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a><a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Déployer le complément à l’aide du déploiement centralisé en tant qu’administrateur
 
 Le déploiement centralisé est une fonctionnalité du centre d’administration de Microsoft 365 que vous utilisez pour installer automatiquement des compléments dans les applications Office des utilisateurs, comme Outlook. C’est la méthode recommandée aux administrateurs pour déployer des compléments Office pour les utilisateurs et les groupes au sein de l’organisation.
 
 > [!NOTE]
 > Pour Business Central local, voir [Configuration du complément pour l’intégration d’Outlook avec Business Central local](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) dans le contenu administratif (en anglais uniquement).
 
-### <a name="prerequisites"></a><a name="prerequisites"></a>Conditions préalables
+### <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Conditions préalables
 
 - Un abonnement Microsoft 365  
 - Les utilisateurs se voient attribuer une licence Microsoft 365  
 - Votre compte Microsoft 365 a le rôle *Administrateur global* ou *Administrateur Exchange*
 
-### <a name="deploy-the-add-in"></a><a name="deploy-the-add-in"></a>Déploiement du complément
+### <a name="deploy-the-add-in"></a><a name="deploy-the-add-in"></a><a name="deploy-the-add-in"></a>Déploiement du complément
 
 1. Dans Business Central, sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonctionnalité Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration assistée**, puis choisissez le lien associé.
 2. Sélectionnez **Déploiement centralisé du complément Outlook** pour démarrer le guide de configuration assistée.
@@ -83,7 +83,7 @@ Le déploiement centralisé est une fonctionnalité du centre d’administration
 
 Une fois terminé, vous pouvez toujours modifier le déploiement dans le centre d’administration Microsoft 365, par exemple en affectant plus d’utilisateurs. Pour plus d’informations sur le déploiement de compléments dans le centre d’administration, voir [Déployer des compléments dans le centre d’administration](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="install-the-add-in-for-your-own-use"></a><a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installer le complément pour votre propre usage
+## <a name="install-the-add-in-for-your-own-use"></a><a name="install-the-add-in-for-your-own-use"></a><a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installer le complément pour votre propre usage
 
 Si votre organisation le permet, vous pouvez installer le complément Business Central pour votre propre compte. Si vous n’êtes pas sûr, demandez à votre administrateur.
 
@@ -94,7 +94,7 @@ Si votre organisation le permet, vous pouvez installer le complément Business C
 
 Business Central se connectera à votre serveur de messagerie et installera le complément dans votre instance d’Outlook. Cela ne prendra pas longtemps. Vous êtes maintenant prêt à commencer à utiliser le complément dans Outlook.
 
-### <a name="for-business-central-on-premises"></a><a name="for-business-central-on-premises"></a><a name="onprem"></a>Pour Business Central local
+### <a name="for-business-central-on-premises"></a><a name="for-business-central-on-premises"></a><a name="for-business-central-on-premises"></a><a name="onprem"></a>Pour Business Central local
 
 Si vous utilisez Business Central sur site, l’installation du complément peut être légèrement différente.
 
@@ -116,9 +116,9 @@ Si vous utilisez Business Central sur site, l’installation du complément peut
 
 Vous êtes maintenant prêt à commencer à utiliser le complément dans Outlook.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Obtention de Business Central sur mon périphérique mobile](install-mobile-app.md)  

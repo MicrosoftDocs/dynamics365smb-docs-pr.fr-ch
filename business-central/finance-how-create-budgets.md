@@ -11,7 +11,7 @@ ms.search.form: '113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 921
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# <a name="create-gl-budgets"></a><a name="create-gl-budgets"></a>Créer des budgets comptabilité
+# <a name="create-gl-budgets"></a><a name="create-gl-budgets"></a><a name="create-gl-budgets"></a>Créer des budgets comptabilité
 
 Vous pouvez avoir plusieurs budgets pour des périodes identiques en les créant sous des noms différents. Vous indiquez d’abord le nom du budget et entrez les chiffres correspondants. Le nom du budget est ensuite inclus sur toutes les écritures budget que vous créez.  
 
@@ -21,7 +21,7 @@ Les budgets jouent un rôle important dans la veille économique. Par exemple da
 
 En comptabilité analytique, vous travaillez avec des budgets de coûts de manière similaire. Pour plus d’informations, consultez [Création des budgets des coûts](finance-create-cost-budgets.md).  
 
-## <a name="to-create-a-new-gl-budget"></a><a name="to-create-a-new-gl-budget"></a>Pour créer un budget comptabilité
+## <a name="to-create-a-new-gl-budget"></a><a name="to-create-a-new-gl-budget"></a><a name="to-create-a-new-gl-budget"></a>Pour créer un budget comptabilité
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Budgets comptables**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Modifier la liste**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ En comptabilité analytique, vous travaillez avec des budgets de coûts de mani�
 > [!NOTE]  
 > Sur le raccourci **Filtres**, vous pouvez filtrer les informations sur le budget selon les axes budget configurés sous le nom du budget.
 
-## <a name="exporting-and-importing-gl-budgets-with-excel"></a><a name="exporting-and-importing-gl-budgets-with-excel"></a>Exportation et importation de budgets comptables vers Excel
+## <a name="exporting-and-importing-gl-budgets-with-excel"></a><a name="exporting-and-importing-gl-budgets-with-excel"></a><a name="exporting-and-importing-gl-budgets-with-excel"></a>Exportation et importation de budgets comptables vers Excel
 
 Comme pour la majorité des autres pages, vous pouvez exporter des données des pages de budget vers Microsoft Excel pour les traiter ou les analyser ultérieurement. Pour plus d’informations, consultez [Exportation de vos données métier vers Excel](about-export-data.md).
 
@@ -45,7 +45,7 @@ Comme pour la majorité des autres pages, vous pouvez exporter des données des 
 
 En conséquence, lorsque vous importez un budget comptable, toutes les valeurs qui existaient sur les lignes En-têtes seront supprimées. Cette fonctionnalité permet d’éviter des totaux erronés après l’importation de données créées ou modifiées dans Excel.
 
-### <a name="scenario"></a><a name="scenario"></a>Scénario
+### <a name="scenario"></a><a name="scenario"></a><a name="scenario"></a>Scénario
 
 Vous savez que le nouveau coût des salaires budgétisé sera de 1 200 000 en devise locale (DS). Vous souhaitez permettre au département Paies de budgétiser trois lignes spécifiques (du type de compte Validation) pour les salariés à temps plein, les salariés à temps partiel et les intérimaires. Les trois lignes sont regroupées sous une ligne d’en-tête Paies.
 
@@ -53,9 +53,9 @@ Vous saisissez 1 200 000 sur la ligne d’en-tête, exportez le budget vers Ex
 
 Le département Paies distribue le montant des trois comptes de validation. Lorsque vous réimportez le budget comptable, les trois comptes sont renseignés avec les nouvelles données Excel, pour une somme de 1 200 000 en devise société, et la ligne d’en-tête est vide.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Exportation de vos données métier vers Excel](about-export-data.md)  
 [Finances](finance.md)  

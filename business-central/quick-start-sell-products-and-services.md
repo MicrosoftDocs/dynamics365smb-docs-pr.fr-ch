@@ -11,11 +11,11 @@ ms.date: 09/29/2021
 ms.author: edupont
 ---
 
-# <a name="sales-quick-start"></a><a name="sales-quick-start"></a>Démarrage rapide des ventes
+# <a name="sales-quick-start"></a><a name="sales-quick-start"></a><a name="sales-quick-start"></a>Démarrage rapide des ventes
 
 Pour pouvoir vendre des produits et des services, vous devez d’abord configurer des articles et des clients. Une fois cela fait, vous pouvez commencer à enregistrer les commandes vente et à envoyer les factures.
 
-## <a name="set-up-items-to-sell"></a><a name="set-up-items-to-sell"></a>Configurer des articles à vendre
+## <a name="set-up-items-to-sell"></a><a name="set-up-items-to-sell"></a><a name="set-up-items-to-sell"></a>Configurer des articles à vendre
 
 Cette vidéo montre comment configurer un article à vendre dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -23,13 +23,13 @@ Cette vidéo montre comment configurer un article à vendre dans [!INCLUDE[prod_
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE47eLx?rel=0]
 
-### <a name="set-up-a-new-item"></a><a name="set-up-a-new-item"></a>Configurer un nouvel article
+### <a name="set-up-a-new-item"></a><a name="set-up-a-new-item"></a><a name="set-up-a-new-item"></a>Configurer un nouvel article
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 Pour plus d’informations et apprendre les autres choses que vous pouvez faire lorsque vous configurez des articles, consultez [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
 
-## <a name="set-up-customers"></a><a name="set-up-customers"></a>Configurer des clients
+## <a name="set-up-customers"></a><a name="set-up-customers"></a><a name="set-up-customers"></a>Configurer des clients
 
 Cette vidéo montre comment configurer un nouveau client dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -37,17 +37,17 @@ Cette vidéo montre comment configurer un nouveau client dans [!INCLUDE[prod_sho
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-### <a name="set-up-a-new-customer"></a><a name="set-up-a-new-customer"></a>Configurer un nouveau client
+### <a name="set-up-a-new-customer"></a><a name="set-up-a-new-customer"></a><a name="set-up-a-new-customer"></a>Configurer un nouveau client
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 Pour plus d’informations et apprendre les autres choses que vous pouvez faire lorsque vous configurez des clients, consultez [Enregistrer de nouveaux clients](sales-how-register-new-customers.md)
 
-## <a name="create-a-sales-order"></a><a name="create-a-sales-order"></a>Créer une commande vente
+## <a name="create-a-sales-order"></a><a name="create-a-sales-order"></a><a name="create-a-sales-order"></a>Créer une commande vente
 
 Lorsque vous vendez quelque chose à un client, vous avez deux options. La première, et la plus simple, consiste simplement à créer une facture vente. Cependant, si votre processus de vente est plus complexe, par exemple si vous vous trouvez dans des situations où vous n’expédiez que des parties d’une quantité commandée, vous utilisez une commande vente.
 
-### <a name="to-create-a-sales-order"></a><a name="to-create-a-sales-order"></a>Pour créer une commande vente
+### <a name="to-create-a-sales-order"></a><a name="to-create-a-sales-order"></a><a name="to-create-a-sales-order"></a>Pour créer une commande vente
 
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 10.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.
 2. Sélectionnez **Nouveau** pour créer une écriture.
@@ -77,11 +77,11 @@ Lorsque vous vendez quelque chose à un client, vous avez deux options. La premi
 
 Pour plus d’informations et voir d’autres choses que vous pouvez faire lors de la création de commandes vente, voir [Vendre des produits avec une commande client](sales-how-sell-products.md).  
 
-## <a name="create-a-sales-invoice"></a><a name="create-a-sales-invoice"></a>Créer une facture vente
+## <a name="create-a-sales-invoice"></a><a name="create-a-sales-invoice"></a><a name="create-a-sales-invoice"></a>Créer une facture vente
 
 Lorsque vous créez et validez une facture vente, vous créez non seulement la facture que vous envoyez au client, mais vous créez également les écritures de quantité et de valeur associées dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### <a name="to-create-and-post-a-sales-invoice"></a><a name="to-create-and-post-a-sales-invoice"></a>Pour créer et valider une facture vente
+### <a name="to-create-and-post-a-sales-invoice"></a><a name="to-create-and-post-a-sales-invoice"></a><a name="to-create-and-post-a-sales-invoice"></a>Pour créer et valider une facture vente
 
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 20.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.  
 
@@ -107,7 +107,7 @@ Lorsque vous créez et validez une facture vente, vous créez non seulement la f
 
 Pour plus d’informations et d’autres choses que vous pouvez faire lors de la création d’une facture vente client, consultez [Facturer des ventes](sales-how-invoice-sales.md)
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Démarrage rapide de Business Central](quick-start-business-central.md)  
 [Vue d’ensemble des ventes](sales-manage-sales.md)  

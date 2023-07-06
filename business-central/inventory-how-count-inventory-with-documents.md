@@ -11,7 +11,7 @@ ms.search.forms: '5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 58
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="count-and-adjust-inventory-using-documents"></a><a name="count-and-adjust-inventory-using-documents"></a>Faire l’inventaire et l’ajuster à l’aide de documents
+# <a name="count-and-adjust-inventory-using-documents"></a><a name="count-and-adjust-inventory-using-documents"></a><a name="count-and-adjust-inventory-using-documents"></a>Faire l’inventaire et l’ajuster à l’aide de documents
 
 Vous pouvez effectuer l’inventaire d’un stock physique de vos articles à l’aide des documents Commande de stock physique et Enregistrement de stock physique. La page **Commande de stock physique** est utilisée pour organiser le projet d’inventaire complet, par exemple un par magasin. La page **Enregistrement de stock physique** est utilisée pour communiquer et capturer le nombre réel d’articles. Vous pouvez créer plusieurs enregistrements pour une commande, par exemple, pour répartir les groupes d’articles vers différents employés.
 
@@ -29,7 +29,7 @@ Réaliser l’inventaire à l’aide de documents se produit comme suit :
 3. Saisissez les quantités d’articles répertoriés sur les enregistrements, comme saisis sur les bordereaux, par exemple, puis sélectionnez le statut **Terminé**.
 4. Exécutez et validez la commande de stock physique.
 
-## <a name="to-create-a-physical-inventory-order"></a><a name="to-create-a-physical-inventory-order"></a>Pour créer une commande de stock physique
+## <a name="to-create-a-physical-inventory-order"></a><a name="to-create-a-physical-inventory-order"></a><a name="to-create-a-physical-inventory-order"></a>Pour créer une commande de stock physique
 
 Une commande de stock physique est un document complet composé d’une en-tête de commande de stock physique et de quelques lignes de commande de stock physique. Les informations relatives à une en-tête de stock physique décrivent comment effectuer l’inventaire. Les lignes de commande de stock physique contiennent les informations relatives aux articles et à leurs magasins.
 
@@ -51,7 +51,7 @@ Une ligne pour chaque article qui existe sur l’emplacement sélectionné et co
 
 Vous pouvez désormais commencer en créant un ou plusieurs enregistrements, qui correspondent aux instructions données aux employés en charge du décompte réel.  
 
-## <a name="to-create-a-physical-inventory-recording"></a><a name="to-create-a-physical-inventory-recording"></a>Pour créer un enregistrement de stock physique
+## <a name="to-create-a-physical-inventory-recording"></a><a name="to-create-a-physical-inventory-recording"></a><a name="to-create-a-physical-inventory-recording"></a>Pour créer un enregistrement de stock physique
 
 Pour chaque commande de stock physique, vous pouvez créer un ou plusieurs documents d’enregistrement de stock physique sur lesquels les employés saisissent les quantités comptabilisées, manuellement ou via un appareil de lecture intégré.
 
@@ -73,7 +73,7 @@ En cas de décompte manuel, vous pouvez imprimer une liste, l’état **Enregist
 8. Pour les articles qui utilisent le suivi des articles, créez une ligne supplémentaire pour chaque numéro de lot ou code de numéro de série en sélectionnant l’action **Fonctions**, puis l’action **Copier la ligne**. Pour plus d’informations, reportez-vous à la section [Gérer le suivi des articles lors de la réalisation de l’inventaire](#handling-item-tracking-when-counting-inventory).  
 9. Choisissez l’action **Imprimer** pour préparer le document physique que les employés utiliseront pour écrire les quantités comptabilisées.
 
-## <a name="to-finish-a-physical-inventory-recording"></a><a name="to-finish-a-physical-inventory-recording"></a>Pour finaliser un enregistrement de stock physique
+## <a name="to-finish-a-physical-inventory-recording"></a><a name="to-finish-a-physical-inventory-recording"></a><a name="to-finish-a-physical-inventory-recording"></a>Pour finaliser un enregistrement de stock physique
 
 Lorsque les employés ont comptabilisé les quantités en stock, vous devez préparer leur enregistrement dans le système.
 
@@ -88,7 +88,7 @@ Lorsque les employés ont comptabilisé les quantités en stock, vous devez pré
     > Si aucune ligne de commande de stock physique correspondante n’existe, et si la case **Autoriser l’enregistrement sans commande** est cochée, une nouvelle ligne est insérée automatiquement et la case **Enregistré sans commande** sur la ligne de commande de stock physique concernée est sélectionnée. Sinon, un message d’erreur s’affiche et le processus est annulé.<br /><br />
     > Si plusieurs lignes d’enregistrement de stock physique correspondent à une ligne de commande de stock physique, un message s’affiche et le processus est annulé. Si, pour une raison ou une autre, deux lignes de stock physique identiques arrivent sur la commande de stock physique, vous pouvez utiliser une fonction pour résoudre le problème. Pour plus d’informations, reportez-vous à la rubrique [Rechercher des lignes de commande de stock physique](#to-find-duplicate-physical-inventory-order-lines).
 
-## <a name="to-complete-a-physical-inventory-order"></a><a name="to-complete-a-physical-inventory-order"></a>Pour finaliser une commande de stock physique
+## <a name="to-complete-a-physical-inventory-order"></a><a name="to-complete-a-physical-inventory-order"></a><a name="to-complete-a-physical-inventory-order"></a>Pour finaliser une commande de stock physique
 
 Lorsque vous avez terminé un enregistrement de stock physique, le champ **Quantité enregistrée (base)** sur la commande de stock physique associée est mis à jour avec les valeurs comptabilisées (enregistrées) et la case à cocher **Lors de l’enregistrement** est sélectionnée. Si une valeur comptabilisée diffère de la valeur prévue, cette différence s’affiche respectivement dans les champs **Qté positive (de base)** et **Qté négative (de base)**.
 
@@ -96,7 +96,7 @@ Pour voir les quantités prévues et toute différence enregistrée pour les art
 
 Vous pouvez aussi choisir l’action **Diff. commande de stock physique** pour visualiser les différences entre la quantité prévue et la quantité comptabilisé.
 
-### <a name="to-find-duplicate-physical-inventory-order-lines"></a><a name="to-find-duplicate-physical-inventory-order-lines"></a>Pour rechercher les doublons de lignes de commande de stock physique
+### <a name="to-find-duplicate-physical-inventory-order-lines"></a><a name="to-find-duplicate-physical-inventory-order-lines"></a><a name="to-find-duplicate-physical-inventory-order-lines"></a>Pour rechercher les doublons de lignes de commande de stock physique
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Commandes de stock**, puis choisissez le lien associé.
 2. Ouvrez la commande de stock physique pour laquelle vous souhaitez afficher les doublons de lignes.
@@ -104,7 +104,7 @@ Vous pouvez aussi choisir l’action **Diff. commande de stock physique** pour v
 
 Tout doublon de ligne de commande de stock physique s’affiche de telle sorte que vous puissiez les supprimer et ne conserver qu’une ligne avec un ensemble de valeurs unique dans les champs **N° article**, **Code variante**, **Code magasin** et **Code emplacement**.
 
-### <a name="to-post-a-physical-inventory-order"></a><a name="to-post-a-physical-inventory-order"></a>Pour valider une commande de stock physique
+### <a name="to-post-a-physical-inventory-order"></a><a name="to-post-a-physical-inventory-order"></a><a name="to-post-a-physical-inventory-order"></a>Pour valider une commande de stock physique
 
 Après avoir effectué une commande de stock physique et modifié son statut sur **Terminé**, vous pouvez la valider. Vous pouvez définir uniquement le statut d’une commande de stock physique sur **Terminé** si les éléments suivants sont vrais :
 
@@ -125,7 +125,7 @@ Après avoir effectué une commande de stock physique et modifié son statut sur
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-### <a name="to-view-posted-physical-inventory-orders"></a><a name="to-view-posted-physical-inventory-orders"></a>Pour afficher les commandes de stock physique validées
+### <a name="to-view-posted-physical-inventory-orders"></a><a name="to-view-posted-physical-inventory-orders"></a><a name="to-view-posted-physical-inventory-orders"></a>Pour afficher les commandes de stock physique validées
 
 Après validation, la commande de stock physique est supprimée et vous pouvez afficher et évaluer le document en tant que commande de stock physique validée, y compris ses enregistrements de stock physique et tout commentaire effectué.
 
@@ -133,13 +133,13 @@ Après validation, la commande de stock physique est supprimée et vous pouvez a
 2. Sur la page **Commandes de stock physique validées**, sélectionnez la commande de stock validée que vous souhaitez afficher, puis sélectionnez l’action **Afficher**.
 3. Pour afficher une liste des enregistrements de stock physique concernés, sélectionnez l’action **Enregistrements**.
 
-## <a name="handling-item-tracking-when-counting-inventory"></a><a name="handling-item-tracking-when-counting-inventory"></a>Gestion du suivi des articles lors de l’exécution de l’inventaire
+## <a name="handling-item-tracking-when-counting-inventory"></a><a name="handling-item-tracking-when-counting-inventory"></a><a name="handling-item-tracking-when-counting-inventory"></a>Gestion du suivi des articles lors de l’exécution de l’inventaire
 
 Le suivi des articles concerne les numéros de lot ou de série attribués aux articles. Lors de la comptabilisation d’un article enregistré dans le stock, par exemple, 10 différents numéros de lot, l’employé doit être en mesure d’enregistrer quelles unités, et leur nombre, de chaque numéro de lot figurent en stock. Pour plus d’informations sur la fonctionnalité de suivi des articles, reportez-vous à la rubrique [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md).
 
 La case à cocher **Utiliser le suivi des articles** sur les lignes de commande de stock physique est automatiquement sélectionnée si un code de suivi des articles est configuré pour l’article, mais vous pouvez également la cocher ou la décocher manuellement.
 
-### <a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a><a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a>Exemple - Préparer un enregistrement de stock physique pour un article - Article suivi
+### <a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a><a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a><a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a>Exemple - Préparer un enregistrement de stock physique pour un article - Article suivi
 
 Imaginons un stock physique pour l’article A, enregistré en stock sous la forme de dix différents numéros de série.
 1. Sur la ligne d’enregistrement pour l’article, sélectionnez la case **Utiliser le suivi des articles**.
@@ -155,7 +155,7 @@ Imaginons un stock physique pour l’article A, enregistré en stock sous la for
 
 Vous observerez que l’état **Enregistrement de stock physique** contient dix lignes pour l’article A, un pour chaque numéro de série.
 
-### <a name="example---record-and-post-counted-lot-number-differences"></a><a name="example---record-and-post-counted-lot-number-differences"></a>Exemple - Enregistrer et valider les différences de numéro de lot comptabilisé
+### <a name="example---record-and-post-counted-lot-number-differences"></a><a name="example---record-and-post-counted-lot-number-differences"></a><a name="example---record-and-post-counted-lot-number-differences"></a>Exemple - Enregistrer et valider les différences de numéro de lot comptabilisé
 
 Un article suivi est enregistré en stock avec la souche de numéros « LOT ».
 
@@ -190,7 +190,7 @@ Un article suivi est enregistré en stock avec la souche de numéros « LOT »
 
 Sur la page **Commande de stock physique**, le champ **Qté négative (de base)** contiendra *8*. Pour la ligne de commande en question, la page **Liste traçabilité stock physique** contiendra les quantités positives ou négatives pour les numéros de lot individuels.
 
-## <a name="inventory-documents"></a><a name="inventory-documents"></a>Documents d’inventaire
+## <a name="inventory-documents"></a><a name="inventory-documents"></a><a name="inventory-documents"></a>Documents d’inventaire
 
 Les types de documents suivants sont utiles pour gérer votre entrepôt :
 
@@ -202,7 +202,7 @@ Vous pouvez imprimer ces documents à tout moment, les libérer et les rouvrir, 
 > [!NOTE]
 > Avant de pouvoir utiliser ces documents, vous devez spécifier une souche de numéros pour créer leurs identificateurs. Pour plus d’informations, voir la section suivante.
 
-### <a name="to-set-up-numbering-for-inventory-documents"></a><a name="to-set-up-numbering-for-inventory-documents"></a>Pour paramétrer la numérotation des documents de stock
+### <a name="to-set-up-numbering-for-inventory-documents"></a><a name="to-set-up-numbering-for-inventory-documents"></a><a name="to-set-up-numbering-for-inventory-documents"></a>Pour paramétrer la numérotation des documents de stock
 
 La procédure suivante indique comment définir la numérotation des documents stock.
 
@@ -214,7 +214,7 @@ La procédure suivante indique comment définir la numérotation des documents s
    * **N° expédition stock**  
    * **N° expédition stock validée**  
 
-### <a name="to-create-and-post-an-inventory-document"></a><a name="to-create-and-post-an-inventory-document"></a>Pour créer et publier un document d’inventaire
+### <a name="to-create-and-post-an-inventory-document"></a><a name="to-create-and-post-an-inventory-document"></a><a name="to-create-and-post-an-inventory-document"></a>Pour créer et publier un document d’inventaire
 
 La procédure suivante montre comment créer, imprimer et valider un reçu d’inventaire. La procédure est identique pour des expéditions de stock.
 
@@ -230,7 +230,7 @@ Les fonctions suivantes sont disponibles sur la page **Réception stock** :
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="printing-inventory-documents"></a><a name="printing-inventory-documents"></a>Impression des documents stock
+## <a name="printing-inventory-documents"></a><a name="printing-inventory-documents"></a><a name="printing-inventory-documents"></a>Impression des documents stock
 
 Vous pouvez spécifier les états à imprimer à différentes étapes en choisissant l’une des options suivantes dans le champ **Utilisation** de la page **Sélection d’états – Stock** :
 
@@ -242,9 +242,9 @@ Vous pouvez spécifier les états à imprimer à différentes étapes en choisis
 > [!NOTE]
 > Les rapports disponibles peuvent varier en fonction de la localisation de votre pays. L’application de base n’inclut aucune présentation.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/adjust-inventory/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/adjust-inventory/) associée
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Comptabiliser, ajuster et reclasser le stock avec les feuilles](inventory-how-count-adjust-reclassify.md)  
 [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)  

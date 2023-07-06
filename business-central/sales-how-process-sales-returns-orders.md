@@ -11,13 +11,13 @@ ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/08/2021
 ms.author: edupont
 ---
-# <a name="process-sales-return-orders"></a><a name="process-sales-return-orders"></a>Traitement des retours vente
+# <a name="process-sales-return-orders"></a><a name="process-sales-return-orders"></a><a name="process-sales-return-orders"></a>Traitement des retours vente
 
 Si vous souhaitez davantage de contrôle sur le processus de retour vente, par exemple les documents entrepôt pour la manutention des articles, ou une meilleure vue d’ensemble lors de la réception d’articles à partir de plusieurs documents vente avec un retour vente, vous pouvez créer des retours vente. Un retour vente émet automatiquement l’avoir vente associé et les autres documents relatifs au retour, comme une commande vente de remplacement, le cas échéant.
 
 Outre la facture vente validée d’origine, vous pouvez lettrer l’avoir vente ou le retour vente à d’autres documents vente, par exemple une autre facture vente validée, parce que le client renvoie également des articles livrés avec cette facture.
 
-## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a><a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Créer un retour vente à partir d’un ou plusieurs documents vente validés
+## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a><a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a><a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Créer un retour vente à partir d’un ou plusieurs documents vente validés
 
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Retours vente**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau**.  
@@ -67,7 +67,7 @@ Outre la facture vente validée d’origine, vous pouvez lettrer l’avoir vente
 10. Sur la page **Retour vente**, dans le champ **Code motif retour** de chaque ligne, sélectionnez le motif de ce retour.
 11. Sélectionnez l’action **valider**.
 
-## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a><a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Pour créer une commande vente de remplacement à partir de la commande retour vente
+## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a><a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a><a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Pour créer une commande vente de remplacement à partir de la commande retour vente
 Vous pouvez décider de compenser la vente d’un article au client en remplaçant cet article. Vous pouvez le remplacer par le même article ou par un autre. Cette situation survient, par exemple, si vous avez par erreur expédié un mauvais article au client.  
 
 1. Sur la page **Retour vente** pour un processus de retour actif, sur une ligne vide, entrez une écriture négative pour l’article de remplacement en insérant un montant négatif dans le champ **Quantité**.  
@@ -75,7 +75,7 @@ Vous pouvez décider de compenser la vente d’un article au client en remplaça
 3. Sur la page **Déplacer lignes vente nég.**, renseignez les champs selon vos besoins.
 4. Choisissez le bouton **OK**. La ligne négative pour l’article de remplacement est supprimée de la commande retour vente et insérée sur une nouvelle page **Commande vente**. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
 
-## <a name="to-create-return-related-documents-from-a-sales-return-order"></a><a name="to-create-return-related-documents-from-a-sales-return-order"></a>Pour créer des documents associés au retour depuis un retour vente
+## <a name="to-create-return-related-documents-from-a-sales-return-order"></a><a name="to-create-return-related-documents-from-a-sales-return-order"></a><a name="to-create-return-related-documents-from-a-sales-return-order"></a>Pour créer des documents associés au retour depuis un retour vente
 Vous pouvez faire en sorte de créer automatiquement tous les documents de vente, de retour achat et de commande achat de remplacement au cours du processus de retour vente. Cela est utile, par exemple, dans les situations où vous voulez gérer des articles bénéficiant des garanties fournies par les fournisseurs.
 
 1. Sur la page **Retour vente** pour un processus de retour actif, choisissez l’action **Créer documents associés retour**.
@@ -84,7 +84,7 @@ Vous pouvez faire en sorte de créer automatiquement tous les documents de vente
 4. Si vous devez commander un article retourné au fournisseur, activez la case à cocher **Créer commande achat**.
 5. Si vous devez créer une commande vente de remplacement, activez la case à cocher **Créer retour vente**.
 
-## <a name="to-create-a-restock-charge"></a><a name="to-create-a-restock-charge"></a>Pour créer des frais de déstockage
+## <a name="to-create-a-restock-charge"></a><a name="to-create-a-restock-charge"></a><a name="to-create-a-restock-charge"></a>Pour créer des frais de déstockage
 Vous pouvez facturer à votre client les frais de restockage pour couvrir les coûts de manutention physique occasionnés par le retour d’un article. Cela peut arriver si, par exemple, le client commande par erreur le mauvais article ou change d’avis après réception de l’article.
 
 Vous pouvez valider ce prix augmenté en tant que frais annexes dans un avoir ou un retour et l’affecter à l’expédition validée. Ce qui suit décrit cette procédure pour un retour vente, mais les mêmes étapes s’appliquent à un avoir vente.
@@ -95,9 +95,9 @@ Vous pouvez valider ce prix augmenté en tant que frais annexes dans un avoir ou
 
 Lorsque vous validez la commande retour vente, les frais de restockage sont ajoutés au montant de l’écriture vente appropriée. De cette manière, vous pouvez maintenir la précision de l’évaluation stock.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/return-items-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/return-items-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  

@@ -10,7 +10,7 @@ ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 732
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="setting-up-warehouse-management"></a><a name="setting-up-warehouse-management"></a>Configuration de la gestion des entrepôts
+# <a name="setting-up-warehouse-management"></a><a name="setting-up-warehouse-management"></a><a name="setting-up-warehouse-management"></a>Configuration de la gestion des entrepôts
 
 La stratégie de distribution d’une société se reflète dans la configuration de ses processus entrepôt : cela inclut la définition de la manière dont différents articles sont traités dans différents entrepôts (par exemple, degré de contrôle des emplacements et étendue du flux requis entre les activités entrepôt).  
 
@@ -35,9 +35,9 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Obtenir des conseils relatifs à la réorganisation des magasins, emplacements ou zones pour générer des activités entrepôt plus efficaces.|[Restructurer les entrepôts](warehouse-how-to-restructure-warehouses.md)|
 |Spécifier les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/set-up-warehouse-management/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/set-up-warehouse-management/) associée
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Stock](inventory-manage-inventory.md)  
 [Gestion des assemblages](assembly-assemble-items.md)  

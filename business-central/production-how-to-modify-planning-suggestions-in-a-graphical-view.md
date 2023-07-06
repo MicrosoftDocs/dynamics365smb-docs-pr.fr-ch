@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="modify-planning-suggestions-in-a-graphical-view"></a><a name="modify-planning-suggestions-in-a-graphical-view"></a>Modifier les propositions planning dans une vue graphique
+# <a name="modify-planning-suggestions-in-a-graphical-view"></a><a name="modify-planning-suggestions-in-a-graphical-view"></a><a name="modify-planning-suggestions-in-a-graphical-view"></a>Modifier les propositions planning dans une vue graphique
 
 Une activité de planification courante est d’ajouter ou de modifier les lignes feuille planning pour modifier les commandes approvisionnement proposées avant de les valider en exécutant la fonction **Traiter message d’action**. Une alternative à utiliser la feuille planning est d’utiliser une vue graphique. Cependant, ceci n’est actuellement pas pris en charge dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -28,7 +28,7 @@ When you choose **Save Changes** on the **Item Availability by Timeline** page, 
 
 The following procedure shows how to modify supply suggestions by drag and drop. As an alternative, you can change the **Due Date** and **Quantity** fields on the **Event Changes** FastTab and immediately see the changes graphically on the **Timeline** FastTab on the **Planning Worksheet** page.  
 
-## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a><a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>To modify suggested supply orders in the graphical view
+## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a><a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a><a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>To modify suggested supply orders in the graphical view
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 
@@ -53,7 +53,7 @@ The following procedure shows how to modify supply suggestions by drag and drop.
 
 To implement the supply plan changes, you must follow the resulting action messages from the planning or requisition worksheet. For more information, see Carry Out Action Msg.-Plan..
 
-## <a name="symbols-and-icons-on-the-timeline-fasttab"></a><a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symbols and Icons on the Timeline FastTab
+## <a name="symbols-and-icons-on-the-timeline-fasttab"></a><a name="symbols-and-icons-on-the-timeline-fasttab"></a><a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symbols and Icons on the Timeline FastTab
  |Symbol/Icon|Description|  
  |------------------|---------------------------------------|  
  |Black cross|Orders (both supply and demand).<br /><br /> -   Cannot be modified.<br />-   Visible when the **Show Projected Inventory** field is selected (orange graph).|  
@@ -86,7 +86,7 @@ To implement the supply plan changes, you must follow the resulting action messa
  |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
 -->
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Planifié](production-planning.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  

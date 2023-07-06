@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 01/06/2023
 ms.custom: bap-template
 ---
-# <a name="field-mapping-when-importing-sepa-camt-files"></a><a name="field-mapping-when-importing-sepa-camt-files"></a>Mappage de champs lors de l’importation de fichiers SEPA CAMT
+# <a name="field-mapping-when-importing-sepa-camt-files"></a><a name="field-mapping-when-importing-sepa-camt-files"></a><a name="field-mapping-when-importing-sepa-camt-files"></a>Mappage de champs lors de l’importation de fichiers SEPA CAMT
 
 [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge les normes régionales SEPA (Espace unique de paiement en euros) pour importer les relevés bancaires SEPA (format CAMT). Pour plus d’informations, voir [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
  Pour plus d’informations sur la création ou l’ajustement de définition d’échange de données, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a><a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>Mappage des données de CAMT aux champs de la table Feuille comptabilité (81)
+## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a><a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a><a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>Mappage des données de CAMT aux champs de la table Feuille comptabilité (81)
 
 |Chemin d’accès d’articles|Élément message|Type de données|Désignation|Identifiant signe négatif|N° champ|Nom du champ|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -29,14 +29,14 @@ ms.custom: bap-template
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Non structuré|Texte.|Les informations à votre disposition pour activer la correspondance/le rapprochement d’une écriture avec les articles que le paiement doit régler, telles que les factures commerciales dans un système comptes-clients, sous forme non structurée||8|Désignation|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texte.|Informations supplémentaires sur l’écriture.||1 222|Informations transaction|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a><a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a>Mappage des données de CAMT aux champs de la table Rapprochement bancaire (273)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a><a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a><a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a>Mappage des données de CAMT aux champs de la table Rapprochement bancaire (273)
 
 |Chemin d’accès d’articles|Élément message|Type de données|Désignation|Identifiant signe négatif|N° champ|Nom du champ|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Date|Date et heure de création du message||3|Date relevé|  
 |Stmt/Bal/Amt|Montant|Décimale|Le montant résultant des montants ajustés pour toutes les écritures débit et crédit||4|Solde final du relevé|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a><a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a>Mappage des données de CAMT aux champs de la table Ligne rapprochement bancaire (274)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a><a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a><a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a>Mappage des données de CAMT aux champs de la table Ligne rapprochement bancaire (274)
 
 |Chemin d’accès d’articles|Élément message|Type de données|Désignation|Identifiant signe négatif|N° champ|Nom du champ|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -55,7 +55,7 @@ ms.custom: bap-template
 > [!IMPORTANT]
 > Dans une importation de relevés bancaires CAMT, [!INCLUDE[prod_short](includes/prod_short.md)] s’attend à ce que chaque transaction soit unique, ce qui signifie que le champ **ID transaction** qui provient de la balise *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* dans le fichier CAMT, doit être unique dans le rapprochement du compte bancaire ouvert. Si les informations ne sont pas présentes, [!INCLUDE[prod_short](includes/prod_short.md)] ignore le paiement. Si un rapprochement bancaire antérieur sur le même compte bancaire a été validé avec le même ID de transaction que lors de l’importation en cours, la transaction en cours ne sera pas automatiquement rapprochée, mais elle peut toujours être importée.
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Configuration de l’échange de données](across-set-up-data-exchange.md)  
 [Échanger des données par voir électronique](across-data-exchange.md)  

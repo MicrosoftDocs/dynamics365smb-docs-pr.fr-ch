@@ -10,7 +10,7 @@ ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-tracking-design"></a><a name="design-details-item-tracking-design"></a>Détails de conception : création de traçabilité
+# <a name="design-details-item-tracking-design"></a><a name="design-details-item-tracking-design"></a><a name="design-details-item-tracking-design"></a>Détails de conception : création de traçabilité
 
 Traçabilité dans [!INCLUDE[prod_short](includes/prod_short.md)] commencé avec [!INCLUDE [navnow_md](includes/navnow_md.md)]. La fonctionnalité de traçabilité se trouve dans une structure d’objet distincte avec des liens complexes vers les documents validés et les écritures comptables article, et elle est intégrée au système de réservation, qui gère la réservation, le suivi des commandes et la messagerie d’action. Pour plus d’informations, voir [Détails de conception : réservations, suivi de commande et messages d’action](design-details-reservation-order-tracking-and-action-messaging.md) dans les détails de conception de la planification des approvisionnements.  
 
@@ -33,7 +33,7 @@ Codeunit 22, **Feuille article – Valider ligne**, fractionne alors la validati
 
 Pour plus d’informations, reportez-vous à [Détails de conception : structure de validation de traçabilité](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Détails de conception : traçabilité](design-details-item-tracking.md)
 

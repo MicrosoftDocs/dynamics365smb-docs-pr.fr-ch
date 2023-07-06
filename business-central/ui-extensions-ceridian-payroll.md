@@ -11,7 +11,7 @@ ms.search.form: '1665,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="the-ceridian-payroll-extension"></a><a name="the-ceridian-payroll-extension"></a>Extension Ceridian Payroll
+# <a name="the-ceridian-payroll-extension"></a><a name="the-ceridian-payroll-extension"></a><a name="the-ceridian-payroll-extension"></a>Extension Ceridian Payroll
 
 Pour tenir compte des paiements des salaires et des transactions associées, vous devez importer et valider des transactions financières effectuées par votre fournisseur de paie dans la comptabilité.
 
@@ -19,7 +19,7 @@ Pour cela, vous devez commencer par importer un fichier que vous recevez du four
 
 L’extension Ceridian Payroll vous permet d’importer des transactions de paie à partir des services Ceridian HR/Payroll (US) et Ceridian PowerPay (Canada).
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions ](ui-extensions.md)  
 [Finances](finance.md)  

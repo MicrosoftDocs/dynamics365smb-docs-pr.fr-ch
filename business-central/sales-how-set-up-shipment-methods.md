@@ -11,13 +11,13 @@ ms.search.form: '11, 130'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-shipment-methods"></a><a name="set-up-shipment-methods"></a>Configurer des conditions de livraison
+# <a name="set-up-shipment-methods"></a><a name="set-up-shipment-methods"></a><a name="set-up-shipment-methods"></a>Configurer des conditions de livraison
 
 Les conditions de livraison dépendent souvent des articles, des clients et des fournisseurs. Par exemple, si le client habite sur une île, il peut choisir d’être toujours livré par voie aérienne ou maritime. Certains clients peuvent exiger une livraison le lendemain. Certains voudront peut-être récupérer la commande. Vous pouvez spécifier le type de livraison souhaité sur les fiches client et les fiches fournisseur.
 
 Vous définissez la désignation et le code de chaque condition de livraison sur la page **Conditions de livraison**. Par exemple, vous définissez le code F.O.B., et saisissez Franco bord dans le champ **Désignation**. Vous pouvez ensuite saisir ce code dans les champs **Code de méthode de livraison** ailleurs dans le système, par exemple sur une fiche client. Ensuite, lorsque vous créez des commandes, des factures, des avoirs, etc., le système copie la désignation représentée par le code. Au besoin, vous pouvez le modifier sur le document.
 
-## <a name="to-set-up-a-shipment-method"></a><a name="to-set-up-a-shipment-method"></a>Pour configurer une condition de livraison
+## <a name="to-set-up-a-shipment-method"></a><a name="to-set-up-a-shipment-method"></a><a name="to-set-up-a-shipment-method"></a>Pour configurer une condition de livraison
 
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions de livraison**, puis sélectionnez le lien associé.
 2. Sur la page **Conditions de livraison**, sélectionnez l’action **Nouveau**.
@@ -26,7 +26,7 @@ Vous définissez la désignation et le code de chaque condition de livraison sur
 > [!TIP]
 > Si vous utilisez des incoterms, configurez des conditions de livraison pour représenter les règles d’incoterms pertinentes.  
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Configurer les transporteurs](sales-how-to-set-up-shipping-agents.md)  
 [Suivre des colis](sales-how-track-packages.md)  

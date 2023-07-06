@@ -10,7 +10,7 @@ ms.search.keywords: 'year closing, close accounting period, close fiscal year, a
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="preparing-closing-statements"></a><a name="preparing-closing-statements"></a>Préparation des états de clôture
+# <a name="preparing-closing-statements"></a><a name="preparing-closing-statements"></a><a name="preparing-closing-statements"></a>Préparation des états de clôture
 Il existe plusieurs états standard que vous pouvez utiliser pour rassembler les informations dont vous avez besoin pour préparer les états de clôture de votre société.
 
 Le tableau suivant décrit un certain nombre d’états qui peuvent être utiles dans ce processus.  
@@ -27,7 +27,7 @@ Le tableau suivant décrit un certain nombre d’états qui peuvent être utiles
 
 Pour voir un état, sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez le nom tel qu’il apparaît dans le tableau, puis choisissez le lien associé.
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Veille économique](bi.md)

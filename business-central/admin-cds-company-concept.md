@@ -11,12 +11,12 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="data-ownership-models"></a><a name="data-ownership-models"></a>Modèles de propriété de données
+# <a name="data-ownership-models"></a><a name="data-ownership-models"></a><a name="data-ownership-models"></a>Modèles de propriété de données
 
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] nécessite que vous indiquiez un propriétaire pour les données que vous stockez. Pour en savoir plus, consultez [Types de tables](/powerapps/maker/data-platform/types-of-entities) dans la documentation Power Apps. Lorsque vous configurez l’intégration entre [!INCLUDE[prod_short](includes/cds_long_md.md)] et [!INCLUDE[prod_short](includes/prod_short.md)], vous devez choisir la propriété **Utilisateur ou équipe** pour les enregistrements synchronisés. Les actions pouvant être effectuées sur ces enregistrements peuvent être contrôlées au niveau de l’utilisateur. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
-## <a name="team-ownership"></a><a name="team-ownership"></a>Propriété Équipe
+## <a name="team-ownership"></a><a name="team-ownership"></a><a name="team-ownership"></a>Propriété Équipe
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], une société est une table juridique et commerciale qui permet de sécuriser et visualiser les données métier. Les utilisateurs travaillent toujours dans le cadre d’une société. L’élément de [!INCLUDE[prod_short](includes/cds_long_md.md)] le plus proche de ce concept est la table Centre de profit, qui n’a aucune implication juridique ou commerciale.
 
 Comme les centres de profit n’ont aucune implication juridique ou commerciale, vous ne pouvez pas forcer un mappage un à un (1:1) pour synchroniser les données entre une société et un centre de profit, que la synchronisation soit unidirectionnelle ou bidirectionnelle. Pour rendre la synchronisation possible, lorsque vous activez la synchronisation pour une société dans [!INCLUDE[prod_short](includes/prod_short.md)], ce qui suit se produit dans [!INCLUDE[prod_short](includes/cds_long_md.md)] :
@@ -50,21 +50,21 @@ La synchronisation détermine l’équipe devant posséder les enregistrements. 
 > [!NOTE]
 > Les enregistrements passent en lecture seule après l’ajout et la sauvegarde d’une société. Veillez donc à choisir la société adéquate.
 
-## <a name="choosing-a-different-business-unit"></a><a name="choosing-a-different-business-unit"></a>Choix d’un autre centre de profit
+## <a name="choosing-a-different-business-unit"></a><a name="choosing-a-different-business-unit"></a><a name="choosing-a-different-business-unit"></a>Choix d’un autre centre de profit
 Vous pouvez modifier la sélection du centre de profit si vous utilisez le modèle de propriété Teams. Si vous utilisez le modèle de propriété Personne, le centre de profit par défaut est toujours sélectionnée. 
 
 Si vous choisissez un autre centre, par exemple un que vous avez créé précédemment dans [!INCLUDE[prod_short](includes/cds_long_md.md)], il conserve son nom initial. Autrement dit, il n’est pas suivi de l’ID société. Nous allons créer une équipe qui utilise la convention de nommage.
 
 Lorsque vous modifiez un centre de profit, vous ne pouvez choisir que les centres de profit situés un niveau en dessous du centre de profit racine.
 
-## <a name="person-ownership"></a><a name="person-ownership"></a>Propriété Personne
+## <a name="person-ownership"></a><a name="person-ownership"></a><a name="person-ownership"></a>Propriété Personne
 Si vous choisissez le modèle de propriété Personne, vous devez indiquer chaque vendeur qui possédera de nouveaux enregistrements. Le centre de profit et l’équipe sont créés comme décrit dans la section [Propriété Équipe](admin-cds-company-concept.md#team-ownership).
 
 Le centre de profit par défaut est utilisé lorsque le modèle de propriété Personne est choisi et que vous ne pouvez pas choisir un autre centre de profit. L’équipe associée au centre de profit par défaut détiendra des enregistrements pour des tables communes, telles que la table Produit, qui ne sont pas liées à des vendeurs spécifiques.
 
 Lorsque vous associez des vendeurs [!INCLUDE[prod_short](includes/prod_short.md)] aux utilisateurs de [!INCLUDE[prod_short](includes/cds_long_md.md)], [!INCLUDE[prod_short](includes/prod_short.md)] ajoute l’utilisateur à l’équipe par défaut dans [!INCLUDE[prod_short](includes/cds_long_md.md)]. Vous pouvez vérifier que les utilisateurs sont ajoutés en consultant la colonne **Membre de l’équipe par défaut** sur la page **Utilisateurs – Common Data Service**. Si l’utilisateur n’est pas ajouté, vous pouvez l’ajouter manuellement en utilisant l’action **Ajouter des utilisateurs couplés à l’équipe**. Pour plus d’informations, voir [Synchronisation des données dans Business Central avec Dataverse](admin-synchronizing-business-central-and-sales.md).
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 [À propos de [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

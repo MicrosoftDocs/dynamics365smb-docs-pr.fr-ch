@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 11/07/2022
 ms.author: bholtorf
 ---
-# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a><a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Configurer des articles et des emplacements pour prélèvement et rangement suggérés
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a><a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a><a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Configurer des articles et des emplacements pour prélèvement et rangement suggérés
 
 Lorsque vous configurez un entrepôt pour prélèvement et rangement suggérés, vous disposez de nouvelles fonctionnalités pour vous aider à exploiter l’entrepôt le plus efficacement possible. Afin de pouvoir utiliser pleinement cette fonctionnalité, vous devez fournir des informations supplémentaires concernant les articles, permettant ainsi d’exécuter les calculs nécessaires pour suggérer les méthodes les plus efficaces pour gérer les activités de l’entrepôt. 
 
-## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a><a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Pour configurer l’article pour prélèvement et rangement suggérés
+## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a><a name="to-set-up-an-item-for-directed-put-away-and-pick"></a><a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Pour configurer l’article pour prélèvement et rangement suggérés
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis choisissez le lien associé.  
 2. Ouvrez la fiche de l’article que vous souhaitez configurer pour prélèvement et rangement suggérés.
@@ -25,7 +25,7 @@ Lorsque vous configurez un entrepôt pour prélèvement et rangement suggérés,
 6. Choisissez l’action **Contenu emplacement**.
 7. Sur la page **Contenu emplacement**, définissez le magasin et l’emplacement auxquels l’article doit être associé. Le champ **Par défaut** n’est pas utilisé lorsque l’emplacement est configuré pour prélèvement et rangement suggérés.  
 
-## <a name="to-start-using-directed-put-away-and-pick"></a><a name="to-start-using-directed-put-away-and-pick"></a>Pour commencer à utiliser le rangement et le prélèvement dirigés
+## <a name="to-start-using-directed-put-away-and-pick"></a><a name="to-start-using-directed-put-away-and-pick"></a><a name="to-start-using-directed-put-away-and-pick"></a>Pour commencer à utiliser le rangement et le prélèvement dirigés
 
 Les prélèvement et rangement suggérés permettent d’accéder à des fonctionnalités de configuration entrepôt évoluées qui peuvent améliorer considérablement votre efficacité et la fiabilité de vos données. Pour pouvoir utiliser cette fonctionnalité, vous devez tout d’abord définir divers paramètres dans votre entrepôt.  
 
@@ -46,7 +46,7 @@ Vous pouvez également définir des codes classe entrepôt si l’entrepôt comp
 
 Vous êtes maintenant prêt à configurer des zones, si vous le souhaitez. L’utilisation de zones réduit le nombre de champs à renseigner lors de la configuration des emplacements, étant donné que les emplacements créés dans une zone héritent de plusieurs propriétés de cette zone. Les zones peuvent également faciliter l’orientation des nouveaux employés ou des intérimaires dans l’entrepôt. Notez que le flux est contrôlé par des emplacements ; vous pouvez donc choisir d’utiliser plusieurs emplacements et une seule zone.  
 
-## <a name="to-set-up-a-zone-in-your-warehouse"></a><a name="to-set-up-a-zone-in-your-warehouse"></a>Pour configurer une zone de l’entrepôt
+## <a name="to-set-up-a-zone-in-your-warehouse"></a><a name="to-set-up-a-zone-in-your-warehouse"></a><a name="to-set-up-a-zone-in-your-warehouse"></a>Pour configurer une zone de l’entrepôt
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
 2. Sélectionnez le magasin dans lequel vous souhaitez paramétrer une zone et ouvrez la fiche magasin, puis choisissez l’action **Zones**.  
@@ -61,7 +61,7 @@ L’étape suivante consiste à définir des emplacements. Pour en savoir plus, 
 
 En outre, vous devez créer des modèles et les périodes d’inventaire de rangement. Learn more at [Configurer des modèles rangement](warehouse-how-to-set-up-put-away-templates.md).  
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  

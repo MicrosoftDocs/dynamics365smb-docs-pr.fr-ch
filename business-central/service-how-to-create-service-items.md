@@ -10,18 +10,18 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="create-service-items"></a><a name="create-service-items"></a>Créer des articles de service
+# <a name="create-service-items"></a><a name="create-service-items"></a><a name="create-service-items"></a>Créer des articles de service
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], le terme « article de service » fait référence à un équipement ou un article nécessitant une maintenance. Lorsque vous créez une commande service, vous spécifiez les articles nécessitant une maintenance. Dans la commande, vous pouvez lier un article de service à un article en stock ou à un groupe articles de service.    
 
 Lorsque vous recevez un article nécessitant une maintenance, vous pouvez l’enregistrer en tant qu’article de service. Plusieurs méthodes sont possibles. Par exemple, vous pouvez créer un article de service sur la page **Articles de service**, ou dans le cadre d’un autre traitement, par exemple en utilisant une commande service.   
 
-## <a name="to-create-a-service-item"></a><a name="to-create-a-service-item"></a>Pour créer un article de service
+## <a name="to-create-a-service-item"></a><a name="to-create-a-service-item"></a><a name="to-create-a-service-item"></a>Pour créer un article de service
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles de service**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-create-service-items-within-a-service-order"></a><a name="to-create-service-items-within-a-service-order"></a>Pour créer des articles de service dans des commandes service
+## <a name="to-create-service-items-within-a-service-order"></a><a name="to-create-service-items-within-a-service-order"></a><a name="to-create-service-items-within-a-service-order"></a>Pour créer des articles de service dans des commandes service
 
 Lorsque vous recevez des articles que vous souhaitez enregistrer comme articles de service, vous pouvez les créer en tant que tels sur la page **Commande service** ou **Devis service**.  
 
@@ -31,7 +31,7 @@ Lorsque vous recevez des articles que vous souhaitez enregistrer comme articles 
 
     Un numéro est affecté à l’article de service et une fiche article de service est créée. Le champ **N° article de service** est rempli par le numéro du nouvel article de service.
 
-## <a name="to-create-a-service-item-when-shipping-items"></a><a name="to-create-a-service-item-when-shipping-items"></a>Pour créer un article de service lors de l’expédition d’articles
+## <a name="to-create-a-service-item-when-shipping-items"></a><a name="to-create-a-service-item-when-shipping-items"></a><a name="to-create-a-service-item-when-shipping-items"></a>Pour créer un article de service lors de l’expédition d’articles
 
 Si vous expédiez des articles en validant les commandes vente ou les factures vente, ces articles sont enregistrés automatiquement en tant qu’ articles de service si la condition suivante est remplie. Les articles doivent appartenir à un groupe articles de service et la case à cocher **Créer article de service** doit être activée. Si ces articles portent des numéros de série enregistrés sur la page Lignes traçabilité, cette information est copiée automatiquement dans le champ **N° de série** de la fiche article de service, lorsque les articles de service sont créés.  
 
@@ -48,7 +48,7 @@ La procédure suivante explique comment créer des articles de service lorsque v
 >   
 >  Si un article est une nomenclature que vous n’avez pas éclatée, un article de service est créé à partir des mêmes conditions (groupe articles de service et numéro de série).  
 
-## <a name="to-insert-a-starting-fee-for-a-service-item"></a><a name="to-insert-a-starting-fee-for-a-service-item"></a>Pour insérer des frais forfaitaires pour un article service
+## <a name="to-insert-a-starting-fee-for-a-service-item"></a><a name="to-insert-a-starting-fee-for-a-service-item"></a><a name="to-insert-a-starting-fee-for-a-service-item"></a>Pour insérer des frais forfaitaires pour un article service
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tâches service**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Feuille activité article**.
@@ -56,9 +56,9 @@ La procédure suivante explique comment créer des articles de service lorsque v
 
     Une ligne service de type **Coût** est insérée avec les frais forfaitaires. Les frais forfaitaires s’appliquent à l’article de service sélectionné.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-items/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-items/) associée
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Configurer les articles de service et les composants article de service](service-how-setup-service-items.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  

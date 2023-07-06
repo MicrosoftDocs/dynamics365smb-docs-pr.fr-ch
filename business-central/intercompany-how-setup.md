@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621'
 ---
-# <a name="set-up-intercompany-transactions"></a><a name="set-up-intercompany-transactions"></a>Configurer les transactions intersociétés
+# <a name="set-up-intercompany-transactions"></a><a name="set-up-intercompany-transactions"></a><a name="set-up-intercompany-transactions"></a>Configurer les transactions intersociétés
 
 Les partenariats interentreprises facilitent la gestion des processus comptables lorsque deux ou plusieurs filiales d’une entreprise font fréquemment affaire entre elles. Les partenaires peuvent échanger des transactions, telles que des ventes et des achats, et les gérer manuellement ou automatiquement. Par exemple, lorsqu’un partenaire envoie une ligne de journal des ventes à un autre partenaire, une ligne de journal des achats est créée pour le partenaire destinataire.
 
@@ -21,7 +21,7 @@ Le plan de compte intersociété peut être, par exemple, une version simplifié
 >
 > Les tâches décrites dans cet article supposent que le commutateur de fonctionnalité est activé. Si vous avez déjà mis en place un partenariat intersociétés, vous pouvez continuer à l’utiliser.
 
-## <a name="before-you-start"></a><a name="before-you-start"></a>Avant de commencer
+## <a name="before-you-start"></a><a name="before-you-start"></a><a name="before-you-start"></a>Avant de commencer
 
 Avant de commencer à mettre en place votre partenariat intersociétés, il y a quelques décisions à prendre.
 
@@ -35,7 +35,7 @@ Avant de commencer à mettre en place votre partenariat intersociétés, il y a 
 |Comment souhaitez-vous traiter les numéros d’article ?     | Si les lignes intersociétés contiennent des articles, vous pouvez soit utiliser vos propres numéros d’article, soit configurer ceux de votre partenaire pour chaque article concerné, dans le champ **Référence fournisseur** ou **N° article commun** de la fiche article. Vous pouvez également utiliser l’action **Référence d’article** pour faire correspondre les numéros de vos articles aux descriptions des articles de vos partenaires intersociétés. Pour en savoir plus sur les références d’articles, accédez à [Utiliser les références d’articles](inventory-how-use-item-cross-refs.md).        |
 |Des ressources sont-elles impliquées ?     | Si vous créez des transactions de vente intersociétés incluant des ressources, vous devez renseigner le champ **N° cte gén achat parten IC** de la fiche ressource de chaque ressource concernée. Le champ contient le numéro du compte général interentreprise sur lequel le montant de cette ressource va être validé dans la société partenaire. Pour en savoir plus sur la configuration des ressources, consultez [Configurer des ressources](projects-how-setup-resources.md).<br><br>**REMARQUE**<br>Les transactions d’achat intersociétés qui incluent des ressources, des immobilisations et des frais annexes ne sont pas entièrement prises en charge. Dans la société de votre partenaire, le champ **Type de ligne** sera vide sur les lignes du document achat qui incluent ces entités. Vous devez mettre à jour manuellement le champ.        |
 
-## <a name="overview-of-the-steps-to-get-started"></a><a name="overview-of-the-steps-to-get-started"></a>Présentation des étapes pour commencer
+## <a name="overview-of-the-steps-to-get-started"></a><a name="overview-of-the-steps-to-get-started"></a><a name="overview-of-the-steps-to-get-started"></a>Présentation des étapes pour commencer
 
 Utilisez la page **Configuration intersociétés** pour configurer les composants suivants des transactions intersociétés :
 
@@ -47,7 +47,7 @@ Utilisez la page **Configuration intersociétés** pour configurer les composant
 * Les entreprises qui sont les partenaires intersociétés.
 * Les entreprises qui sont des fournisseurs ou des clients, ou les deux.
 
-## <a name="set-up-a-synchronization-partner"></a><a name="set-up-a-synchronization-partner"></a>Configurer un partenaire de synchronisation
+## <a name="set-up-a-synchronization-partner"></a><a name="set-up-a-synchronization-partner"></a><a name="set-up-a-synchronization-partner"></a>Configurer un partenaire de synchronisation
 
 Tous les partenaires doivent utiliser le même plan comptable inter-sociétés et, si nécessaire, les mêmes axes analytiques inter-sociétés. Vous pouvez gagner du temps lors de la configuration du partenariat en utilisant le plan comptable et les axes analytiques de l’un des partenaires comme référence pour le plan comptable et les axes analytiques intersociétés. La société que vous utilisez comme référence est appelée le *partenaire de synchronisation*. En règle générale, le partenaire de synchronisation est le siège social, mais ce n’est pas obligatoire.
 
@@ -58,7 +58,7 @@ Lorsque vous êtes prêt à synchroniser les données avec votre partenaire de s
 > [!NOTE]
 > Il est important de mapper les comptes et les axes analytiques dans les deux sens. Autrement dit, à la fois vers le plan comptable et les axes analytiques intersociétés, et de ceux-ci vers vos propres comptes et axes analytiques.
 
-## <a name="set-up-the-intercompany-charts-of-accounts"></a><a name="set-up-the-intercompany-charts-of-accounts"></a>Configurer les plans comptables intersociétés
+## <a name="set-up-the-intercompany-charts-of-accounts"></a><a name="set-up-the-intercompany-charts-of-accounts"></a><a name="set-up-the-intercompany-charts-of-accounts"></a>Configurer les plans comptables intersociétés
 
 Tous les partenaires doivent utiliser le même plan comptable intersociétés et y associer les comptes de leur propre plan comptable. Si le plan comptable de votre société définit le plan comptable intersociétés de vos sociétés partenaires, suivez les étapes décrites dans cette section.
 
@@ -76,7 +76,7 @@ Si vous utilisez un fichier XML contenant le plan comptable intersociétés, sui
 
 La prochaine étape consiste à mapper votre plan comptable aux plans comptables intersociétés. En savoir plus [Mapper le plan comptable intersociétés aux plans comptables de votre société](#map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts).
 
-### <a name="import-or-export-an-intercompany-chart-of-accounts"></a><a name="import-or-export-an-intercompany-chart-of-accounts"></a>Importer ou exporter un plan comptable intersociété
+### <a name="import-or-export-an-intercompany-chart-of-accounts"></a><a name="import-or-export-an-intercompany-chart-of-accounts"></a><a name="import-or-export-an-intercompany-chart-of-accounts"></a>Importer ou exporter un plan comptable intersociété
 
 La société de synchronisation peut partager son plan comptable avec des partenaires en l’exportant dans un fichier. Les partenaires peuvent importer le fichier pour obtenir le plan comptable.
 
@@ -87,7 +87,7 @@ La société de synchronisation peut partager son plan comptable avec des parten
 
 La page **Plan comptable IC** est remplie avec les lignes nouvelles ou modifiées du compte général en fonction du plan comptable intersociété dans le fichier. Les lignes existantes non connexes présentes sur la page ne changent pas.
 
-## <a name="map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts"></a><a name="map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts"></a>Mapper le plan comptable intersociétés au plan comptable de votre société
+## <a name="map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts"></a><a name="map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts"></a><a name="map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts"></a>Mapper le plan comptable intersociétés au plan comptable de votre société
 
 Lorsque vous avez défini ou importé le plan comptable intersociétés, mappez chaque compte intersociétés avec l’un de vos comptes. Sur la page **Plan comptable IC**, indiquez comment les comptes généraux intersociétés des transactions entrantes doivent être convertis en comptes généraux du plan comptable de votre société.
 
@@ -108,7 +108,7 @@ Si les comptes intersociétés et vos comptes ont les mêmes numéros, vous pouv
     > [!TIP]
     > Si vous souhaitez mapper plusieurs ou peut-être tous les comptes, choisissez une ligne, choisissez :::image type="icon" source="media/show-more-options-icon.png" border="false":::, puis choisissez **Sélectionnez plus**.
 
-## <a name="set-up-intercompany-dimensions"></a><a name="set-up-intercompany-dimensions"></a>Configurer des axes analytiques intersociétés
+## <a name="set-up-intercompany-dimensions"></a><a name="set-up-intercompany-dimensions"></a><a name="set-up-intercompany-dimensions"></a>Configurer des axes analytiques intersociétés
 
 Si les partenaires intersociétés échangent des transactions auxquelles des axes analytiques sont liés, vous devez décider ensemble des axes analytiques que vous allez tous utiliser. Par exemple, la société de synchronisation peut créer une version simplifiée de leurs axes analytiques, les exporter dans un fichier XML qui est distribué à chaque partenaire. Chaque partenaire peut importer le fichier XML sur la page **Axes analytiques intersociétés** , puis associez les axes analytiques intersociétés à leurs axes analytiques. En savoir plus [Mapper les axes analytiques intersociétés aux axes analytiques de votre société](#map-intercompany-dimensions-to-your-companys-dimensions).
 
@@ -127,7 +127,7 @@ Si les partenaires utilisent les axes analytiques intersociétés du partenaire 
     > [!TIP]
     > Si vous copiez les axes analytiques inter-sociétés d’un partenaire de synchronisation, vous pouvez utiliser l’action **Configuration de la synchronisation** pour mettre à jour vos axes analytiques intersociétés avec toute modification apportée par le partenaire aux leurs.  
 
-### <a name="import-or-export-intercompany-dimensions"></a><a name="import-or-export-intercompany-dimensions"></a>Importer ou exporter les axes analytiques intersociétés
+### <a name="import-or-export-intercompany-dimensions"></a><a name="import-or-export-intercompany-dimensions"></a><a name="import-or-export-intercompany-dimensions"></a>Importer ou exporter les axes analytiques intersociétés
 
 La société de synchronisation peut partager ses axes analytiques avec des partenaires en les exportant dans un fichier. Les partenaires peuvent importer le fichier pour obtenir les axes analytiques.
 
@@ -138,7 +138,7 @@ La société de synchronisation peut partager ses axes analytiques avec des part
 
 La prochaine étape consiste à mapper les axes analytiques aux axes analytiques intersociétés. En savoir plus [Mapper les axes analytiques intersociétés aux axes analytiques de votre société](#map-intercompany-dimensions-to-your-companys-dimensions).
 
-### <a name="map-intercompany-dimensions-to-your-companys-dimensions"></a><a name="map-intercompany-dimensions-to-your-companys-dimensions"></a>Mapper les axes analytiques intersociétés aux axes analytiques de votre société
+### <a name="map-intercompany-dimensions-to-your-companys-dimensions"></a><a name="map-intercompany-dimensions-to-your-companys-dimensions"></a><a name="map-intercompany-dimensions-to-your-companys-dimensions"></a>Mapper les axes analytiques intersociétés aux axes analytiques de votre société
 
 Après avoir spécifié les axes analytiques intersociétés à utiliser, mappez chaque axe analytique intersociété avec l’un des axes analytiques de votre société, et vice versa. Utilisez la page **Mappage des axes analytiques intersociétés** pour spécifier le mappage. Ensuite, répétez le processus pour les sections analytiques.
 
@@ -163,7 +163,7 @@ Dans les étapes suivantes, vous devez d’abord mapper les axes analytiques int
 5. Choisissez l’action **Mappage des sections analytiques**.
 6. Sur la page **Mappage des sections analytiques intersociétés** , les étapes de création du mappage sont similaires à ce que vous venez de faire pour les axes analytiques.
 
-## <a name="set-up-intercompany-general-journal-templates-and-batches"></a><a name="set-up-intercompany-general-journal-templates-and-batches"></a>Configurer les modèles et lots de feuille intersociétés
+## <a name="set-up-intercompany-general-journal-templates-and-batches"></a><a name="set-up-intercompany-general-journal-templates-and-batches"></a><a name="set-up-intercompany-general-journal-templates-and-batches"></a>Configurer les modèles et lots de feuille intersociétés
 
 Vous devez configurer un modèle de feuille général et un lot de feuilles général à utiliser par défaut pour les transactions intersociétés. Le modèle et le lot sont particulièrement importants si vous acceptez automatiquement les transactions intersociétés de vos partenaires. Pour en savoir plus sur l’acceptation automatique des transactions, accédez à [Accepter automatiquement les transactions des partenaires intersociétés](#auto-accept-transactions-from-intercompany-partners).   
 
@@ -172,7 +172,7 @@ Vous devez configurer un modèle de feuille général et un lot de feuilles gén
 
 Pour en savoir plus sur les modèles et les lots de feuilles comptabilité, accédez à [Utiliser des modèles et des lots de feuille](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## <a name="set-up-a-company-for-intercompany-transactions"></a><a name="set-up-a-company-for-intercompany-transactions"></a>Configurer une société pour les transactions intersociétés
+## <a name="set-up-a-company-for-intercompany-transactions"></a><a name="set-up-a-company-for-intercompany-transactions"></a><a name="set-up-a-company-for-intercompany-transactions"></a>Configurer une société pour les transactions intersociétés
 
 Les étapes suivantes supposent qu’un partenaire de synchronisation est configuré avec le plan de comptes et les axes analytiques sur lesquels vous allez baser le plan de comptes et les axes analytiques intersociétés. Vous pouvez les configurer vous-même, mais il est généralement plus rapide de démarrer et la maintenance est plus facile si vous utilisez un partenaire de synchronisation. Pour en savoir plus sur le partenaire de synchronisation, accédez à [Configurer un partenaire de synchronisation](#set-up-a-synchronization-partner).
 
@@ -190,7 +190,7 @@ Les étapes suivantes supposent qu’un partenaire de synchronisation est config
 
 L’étape suivante consiste à configurer les entreprises partenaires.
 
-## <a name="set-up-intercompany-partners"></a><a name="set-up-intercompany-partners"></a>Paramétrer les partenaires intersociétés
+## <a name="set-up-intercompany-partners"></a><a name="set-up-intercompany-partners"></a><a name="set-up-intercompany-partners"></a>Paramétrer les partenaires intersociétés
 
 Chaque partenaire doit ajouter toutes les autres sociétés du partenariat en tant que partenaire.
 
@@ -202,7 +202,7 @@ Chaque partenaire doit ajouter toutes les autres sociétés du partenariat en ta
 > [!NOTE]
 > Pour la validation intersociétés, lorsque vous avez activé le bouton à bascule **Accepter automatiquement les transactions** sur la page **Fiche partenaire intersociétés** [!INCLUDE[prod_short](includes/prod_short.md)] supprime les messages d’avertissement concernant les factures d’achat dupliquant l’ordre d’achat d’origine. Il est important d’avoir un processus métier pour gérer les doublons. Par exemple, en supprimant ces bons de commande lorsque la facture d’achat est reçue du partenaire intersociétés.
 
-### <a name="set-up-intercompany-partners-as-customers-and-vendors"></a><a name="set-up-intercompany-partners-as-customers-and-vendors"></a>Configurer les paramètres intersociétés en tant que clients et fournisseurs
+### <a name="set-up-intercompany-partners-as-customers-and-vendors"></a><a name="set-up-intercompany-partners-as-customers-and-vendors"></a><a name="set-up-intercompany-partners-as-customers-and-vendors"></a>Configurer les paramètres intersociétés en tant que clients et fournisseurs
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Paramètres intersociétés**, puis sélectionnez le lien associé.
 2. Dans le raccourci **Partenaires intersociétés**, ouvrez la page de carte du partenaire.
@@ -214,7 +214,7 @@ Chaque partenaire doit ajouter toutes les autres sociétés du partenariat en ta
     > [!TIP]
     > Vous pouvez également préciser un client ou un fournisseur en tant que partenaire intersociété en complétant le champ **Code partenaire IC** sur les pages **Fiche client** et **Fiche fournisseur**.
 
-### <a name="set-up-default-intercompany-partner-general-ledger-accounts"></a><a name="set-up-default-intercompany-partner-general-ledger-accounts"></a>Configurer des comptes généraux par défaut des partenaires intersociétés
+### <a name="set-up-default-intercompany-partner-general-ledger-accounts"></a><a name="set-up-default-intercompany-partner-general-ledger-accounts"></a><a name="set-up-default-intercompany-partner-general-ledger-accounts"></a>Configurer des comptes généraux par défaut des partenaires intersociétés
 
 Lorsque vous créez une ligne vente ou achat intersociété à envoyer comme transaction sortante, vous indiquez un compte du plan comptable intersociété en tant que compte par défaut associé au compte de la société de votre partenaire dans lequel le montant est validé. Sur la page **Fiche compte général**, pour les comptes que vous utilisez régulièrement dans des lignes vente ou achat intersociétés sortantes, vous pouvez spécifier un compte général par défaut de partenaire intersociété. Par exemple, pour les comptes client, vous pouvez entrer les comptes fournisseur correspondants du plan comptable intersociété. Les comptes clients et fournisseurs sont utilisés comme compte de contrepartie pour le partenaire intersociétés lorsque vous validez des transactions dans les journaux généraux intersociétés.  
 
@@ -224,7 +224,7 @@ Ensuite, si vous indiquez un compte général dans le champ **N° compte contrep
 2. Ouvrez la ligne d’un compte général utilisé pour les transactions intersociétés, dans le champ **Compte général par défaut de partenaire IC**, entrez le compte général intersociété que votre partenaire utilisera lors de la validation du compte général de la ligne.
 3. Répétez l’étape 2 pour chaque compte que vous entrez souvent dans le champ **N° compte contrepartie** d’une ligne dans la feuille ou le document intersociétés.
 
-### <a name="auto-accept-transactions-from-intercompany-partners"></a><a name="auto-accept-transactions-from-intercompany-partners"></a>Accepter automatiquement les transactions des partenaires intersociétés
+### <a name="auto-accept-transactions-from-intercompany-partners"></a><a name="auto-accept-transactions-from-intercompany-partners"></a><a name="auto-accept-transactions-from-intercompany-partners"></a>Accepter automatiquement les transactions des partenaires intersociétés
 
 Pour accélérer le traitement des transactions intersociétés, vous pouvez spécifier si cette société crée automatiquement des lignes de journal basées sur les publications d’un partenaire intersociétés à partir de la page **Feuille comptabilité IC**. Pour créer automatiquement des transactions entrantes et sortantes, vous devez activer les boutons à bascule suivantes pour chaque partenaire :
 
@@ -240,17 +240,17 @@ Les lignes feuille sont créées pour vous, mais ne sont pas validées.
 > [!NOTE]
 > Si votre organisation a utilisé des fonctionnalités intersociétés dans [!INCLUDE [prod_short](includes/prod_short.md)] avant la 1e vague de lancement 1 2022, pour accepter automatiquement les transactions, votre administrateur doit activer la fonctionnalité **Accepter automatiquement les transactions feuille comptabilité intersociétés** sur la page **Gestion des fonctionnalités**.
 
-### <a name="specify-the-bank-accounts-to-use-for-intercompany-partners"></a><a name="specify-the-bank-accounts-to-use-for-intercompany-partners"></a>Spécifier les comptes bancaires à utiliser pour les partenaires intersociétés
+### <a name="specify-the-bank-accounts-to-use-for-intercompany-partners"></a><a name="specify-the-bank-accounts-to-use-for-intercompany-partners"></a><a name="specify-the-bank-accounts-to-use-for-intercompany-partners"></a>Spécifier les comptes bancaires à utiliser pour les partenaires intersociétés
 
 Pour faciliter les paiements rapides, spécifiez un ou plusieurs comptes bancaires à utiliser pour les partenaires intersociétés. Lorsqu’un partenaire utilise une feuille comptabilité intersociétés pour effectuer un paiement, il peut spécifier le compte bancaire sur la ligne. Le compte bancaire est utilisé comme compte d’équilibre dans la société réceptrice, ce qui minimise la nécessité de saisir manuellement les transactions.
 
 * Pour spécifier le compte bancaire à utiliser, sur la page **Partenaires intersociétés**, choisissez l’action **Comptes bancaires**. Sur la **Fiche de compte bancaire intersociétés**, entrez les informations du compte.
 
-## <a name="troubleshoot-your-intercompany-setup"></a><a name="troubleshoot-your-intercompany-setup"></a>Dépanner votre configuration intersociété
+## <a name="troubleshoot-your-intercompany-setup"></a><a name="troubleshoot-your-intercompany-setup"></a><a name="troubleshoot-your-intercompany-setup"></a>Dépanner votre configuration intersociété
 
 Sur la page **Configuration intersociété**, le volet **Diagnostics de configuration intersociétés** contient des vignettes qui indiquent si vous avez configuré tous les composants nécessaires pour échanger des transactions intersociétés. Les vignettes sont également disponibles sur le tableau de bord Business Manager. Choisissez les vignettes pour découvrir ce qui manque. Pour un aperçu des composants requis, rendez-vous sur [Présentation des étapes pour commencer](#overview-of-the-steps-to-get-started).
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Gestion des transactions intersociétés](intercompany-manage.md)  
 [Finances](finance.md)  

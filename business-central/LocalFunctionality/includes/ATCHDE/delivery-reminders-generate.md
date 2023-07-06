@@ -10,7 +10,7 @@ Dans [!INCLUDE[prod_short](../../../includes/prod_short.md)], vous pouvez créer
 > [!NOTE]  
 > Pour créer des relances livraison, vous devez avoir configuré les conditions, les niveaux et les textes des relances livraison.  
 
-## <a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a><a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a>Pour générer des relances livraison pour toutes les livraisons échues
+## <a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a><a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a><a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a>Pour générer des relances livraison pour toutes les livraisons échues
 
 1. Choisissez l'![icône Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Relance livraison**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  

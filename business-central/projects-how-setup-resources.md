@@ -11,7 +11,7 @@ ms.search.form: '72, 76, 77, 203, 204'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-resources-for-projects"></a><a name="set-up-resources-for-projects"></a>Configurer des ressources pour les projets
+# <a name="set-up-resources-for-projects"></a><a name="set-up-resources-for-projects"></a><a name="set-up-resources-for-projects"></a>Configurer des ressources pour les projets
 
 Pour gérer correctement les activités liées aux ressources, vous devez configurer ces dernières, ainsi que les coûts et prix associés. Les prix, remises et règles de facteur coût associés au projet, sont définis dans la fiche projet. Vous pouvez spécifier les coûts et prix pour des ressources individuelles, des groupes de ressources, ou toutes les ressources disponibles de la société.
 
@@ -25,7 +25,7 @@ Vous spécifiez le montant horaire par défaut lors de la création de la ressou
 >  
 > Si vous validez des transactions intersociétés, même si vous pouvez affecter une ressource à une ligne d’une commande client, si vous convertissez la commande client en bon de commande côté réception, la ressource ne sera pas incluse. Pour utiliser des ressources dans des transactions intersociétés, utilisez le champ **N° cte gén achat parten IC** sur la fiche ressource pour spécifier le compte sur lequel comptabiliser les dépenses.
 
-## <a name="to-set-up-a-resource"></a><a name="to-set-up-a-resource"></a>Pour paramétrer une ressource
+## <a name="to-set-up-a-resource"></a><a name="to-set-up-a-resource"></a><a name="to-set-up-a-resource"></a>Pour paramétrer une ressource
 
 Créez une fiche pour chaque ressource à utiliser dans les projets.
 
@@ -33,7 +33,7 @@ Créez une fiche pour chaque ressource à utiliser dans les projets.
 2. Sélectionnez l’action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-set-up-a-resource-group"></a><a name="to-set-up-a-resource-group"></a>Pour configurer un groupe de ressources
+## <a name="to-set-up-a-resource-group"></a><a name="to-set-up-a-resource-group"></a><a name="to-set-up-a-resource-group"></a>Pour configurer un groupe de ressources
 
 Vous pouvez combiner plusieurs ressources dans un groupe ressources. Toutes les capacités et tous les budgets du groupe ressources sont additionnés à partir des ressources. Il est également possible de saisir des capacités pour les groupes ressource, indépendamment des valeurs cumulées ou en plus de ces valeurs.
 
@@ -41,7 +41,7 @@ Vous pouvez combiner plusieurs ressources dans un groupe ressources. Toutes les 
 2. Sélectionnez l’action **Nouveau**.
 3. Renseignez les champs selon vos besoins.
 
-## <a name="to-set-capacity-for-a-resource"></a><a name="to-set-capacity-for-a-resource"></a>Pour définir la capacité d’une ressource
+## <a name="to-set-capacity-for-a-resource"></a><a name="to-set-capacity-for-a-resource"></a><a name="to-set-capacity-for-a-resource"></a>Pour définir la capacité d’une ressource
 
 Pour calculer le temps qu’une ressource peut passer sur des projets, leur capacité doit d’abord être configurée comme temps disponible par période sur le calendrier de travail. Cette configuration est utilisée lorsque vous renseignez les lignes planning projet qui contiennent la ressource. Pour plus d’informations, voir [Créer des projets](projects-how-create-jobs.md).
 
@@ -54,7 +54,7 @@ Pour calculer le temps qu’une ressource peut passer sur des projets, leur capa
 7. Cliquez sur **Mettre à jour la capacité**. La page **Capacité ressource** est mise à jour avec la capacité saisie.
 8. Fermez la page.
 
-## <a name="to-set-up-alternate-resource-costs"></a><a name="to-set-up-alternate-resource-costs"></a>Pour configurer des coûts ressource secondaires
+## <a name="to-set-up-alternate-resource-costs"></a><a name="to-set-up-alternate-resource-costs"></a><a name="to-set-up-alternate-resource-costs"></a>Pour configurer des coûts ressource secondaires
 
 Outre le coût spécifié sur la fiche ressource, vous pouvez configurer des coûts secondaires pour chaque ressource. Par exemple, si le taux horaire d’un employé augmente en raison d’heures supplémentaires, vous pouvez configurer un coût ressource pour le taux lié aux heures supplémentaires. Le coût secondaire que vous avez configuré pour la ressource remplace le coût de la fiche ressource lorsque vous utilisez la ressource dans la feuille ressource.
 
@@ -65,7 +65,7 @@ Outre le coût spécifié sur la fiche ressource, vous pouvez configurer des co�
 
 **Remarque**. Pour configurer des coûts ressource s’appliquant à toutes les ressources et à tous les groupes ressources, ouvrez la page **Coûts ressource** et renseignez les champs.
 
-## <a name="to-set-up-alternate-resource-prices"></a><a name="to-set-up-alternate-resource-prices"></a>Pour configurer le prix des ressources secondaires
+## <a name="to-set-up-alternate-resource-prices"></a><a name="to-set-up-alternate-resource-prices"></a><a name="to-set-up-alternate-resource-prices"></a>Pour configurer le prix des ressources secondaires
 
 Outre le prix spécifié sur la fiche ressource, vous pouvez configurer des prix secondaires pour chaque ressource. Ces prix secondaires peuvent être conditionnels. Ils peuvent être liés à l’utilisation de la ressource avec un projet ou un type travail donné.
 
@@ -74,9 +74,9 @@ Outre le prix spécifié sur la fiche ressource, vous pouvez configurer des prix
 3. Sur la page **Prix ressource**, renseignez les champs sur une ligne selon vos besoins.
 4. Répétez l’étape 3 pour chaque autre prix ressource à configurer.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/set-up-jobs-resources/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/set-up-jobs-resources/) associée
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Configuration de la gestion de projets](projects-setup-projects.md)  
 [Gestion de projets](projects-manage-projects.md)  

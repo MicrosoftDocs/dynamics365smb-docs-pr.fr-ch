@@ -11,7 +11,7 @@ ms.search.form: '9813, 9814'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="restructure-warehouses"></a><a name="restructure-warehouses"></a>Restructurer les entrepôts
+# <a name="restructure-warehouses"></a><a name="restructure-warehouses"></a><a name="restructure-warehouses"></a>Restructurer les entrepôts
 Vous pouvez souhaiter restructurer votre entrepôt avec de nouveaux codes et caractéristiques emplacement. Ce type d’activité n’intervient que très rarement, mais un reclassement peut s’avérer nécessaire pour mettre à jour une opération ou la rendre plus efficace. Par exemple :  
 
 - Vous pouvez être amené à créer des codes emplacement prenant en charge l’utilisation de la saisie automatisée avec des terminaux de saisie portables.  
@@ -20,7 +20,7 @@ Vous pouvez souhaiter restructurer votre entrepôt avec de nouveaux codes et car
 
 Si votre entrepôt est configuré pour utiliser des emplacements mais sans prélèvement ni rangement suggérés, restructurez-le en créant les nouveaux emplacements que vous souhaitez utiliser ultérieurement.  
 
-## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a><a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Pour restructurer un entrepôt de base qui utilise uniquement des emplacements
+## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a><a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a><a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Pour restructurer un entrepôt de base qui utilise uniquement des emplacements
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
 2.  Sur le raccourci **magasin**, paramétrez le champ **Sélection emplacement par déf sur** **Dernier emplacement utilisé**.  
 3.  Déplacez le contenu des emplacements actuels vers les emplacements que vous venez de créer.  
@@ -35,7 +35,7 @@ Si votre entrepôt est configuré pour utiliser des emplacements mais sans prél
 
 Vous avez à présent vidé les emplacements où les articles se trouvaient auparavant. Les emplacements par défaut des articles sont alors remplacés par les nouveaux emplacements.  
 
-## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a><a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Pour restructurer un entrepôt avancé qui utilise le prélèvement et le rangement suggérés
+## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a><a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a><a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Pour restructurer un entrepôt avancé qui utilise le prélèvement et le rangement suggérés
 
 1.  Créez les emplacements à utiliser ultérieurement. Pour plus d’informations, voir [Créer emplacements](warehouse-how-to-create-individual-bins.md).  
 2.  Déplacez le contenu des emplacements actuels vers les emplacements que vous venez de créer.  
@@ -52,7 +52,7 @@ Vous avez à présent vidé les emplacements où les articles se trouvaient aupa
 
 Vous avez à présent supprimé les emplacements du flux entrepôt et les avez reclassés en tant qu’emplacements de type CQ. Pour les emplacements de ce type, aucun des champs d’activité de la page **Types d’emplacement** n’est sélectionné, par conséquent ils ne sont pas pris en compte par le flux d’articles. Pour plus d’informations, voir [Configurer des types d’emplacement](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="to-delete-a-bin"></a><a name="to-delete-a-bin"></a>Pour supprimer un emplacement
+## <a name="to-delete-a-bin"></a><a name="to-delete-a-bin"></a><a name="to-delete-a-bin"></a>Pour supprimer un emplacement
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
 2.  Sélectionnez le magasin à partir duquel vous souhaitez supprimer des emplacements. Choisissez l’action **Emplacements**.  
@@ -63,7 +63,7 @@ Si vous sélectionnez le bouton **Oui**, l’emplacement est supprimé pour ne p
 
 Pour renommer un emplacement de façon à ce que tous les enregistrements associés à cet emplacement soient également renommés, y compris les enregistrements comprennent le contenu des emplacements, les lignes activité entrepôt, les lignes activité entrepôt enregistrées, les lignes feuille entrepôt, les lignes réception entrepôt, les lignes réception entrepôt validées, les lignes expédition entrepôt, les lignes expédition entrepôt validées et les écritures entrepôt, vous pouvez utiliser la page **Emplacements**.  
 
-## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a><a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Pour renommer un emplacement et modifier le code emplacement de tous les enregistrements
+## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a><a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a><a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Pour renommer un emplacement et modifier le code emplacement de tous les enregistrements
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
 2.  Sélectionnez le magasin dans lequel vous souhaitez renommer un emplacement ou modifier le code emplacement, puis choisissez l’action **Emplacements**.  
@@ -75,7 +75,7 @@ Pour renommer un emplacement de façon à ce que tous les enregistrements associ
 >   
 >  Si vous renommez un emplacement réception ou un emplacement expédition, toutes les réceptions ou expéditions enregistrées se rapportant à l’emplacement concerné sont renommées.  
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  
 [Configuration de Warehouse Management](warehouse-setup-warehouse.md)     

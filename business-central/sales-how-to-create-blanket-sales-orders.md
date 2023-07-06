@@ -10,7 +10,7 @@ ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a><a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Utiliser des Commandes cadres vente ou des commandes cadres achat
+# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a><a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a><a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Utiliser des Commandes cadres vente ou des commandes cadres achat
 
 Une commande cadre vente représente le cadre d’un accord à long terme entre votre client et vous. De même, vous utilisez des commandes cadre achat pour gérer les contrats à long terme entre vous et votre fournisseur.
 
@@ -23,7 +23,7 @@ Vous pouvez utiliser une commande cadre vente, par exemple, lorsqu’un client a
 > [!NOTE]
 > Les commandes ouvertes achat fonctionnent de la même manière que les commandes ouvertes vente. Cette documentation couvre les commandes vente en cours uniquement.
 
-## <a name="to-create-a-blanket-sales-order"></a><a name="to-create-a-blanket-sales-order"></a>Pour créer une commande vente ouverte.
+## <a name="to-create-a-blanket-sales-order"></a><a name="to-create-a-blanket-sales-order"></a><a name="to-create-a-blanket-sales-order"></a>Pour créer une commande vente ouverte.
 
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes cadres vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -31,7 +31,7 @@ Vous pouvez utiliser une commande cadre vente, par exemple, lorsqu’un client a
 4. Laissez vide le champ **Date commande**. Lors de la création de commandes vente séparées depuis la commande cadre, la date commande de la commande vente est définie comme égale à la date du jour.
 5. Dans le raccourci **Lignes**, créez des lignes distinctes pour chaque expédition. Par exemple, si le client souhaite 1 000 unités réparties de façon uniforme sur quatre semaines, entrez quatre lignes distinctes de 250 unités chacune.  
 
-## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a><a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Pour créer une commande vente à partir d’une commande cadre vente
+## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a><a name="to-create-a-sales-order-from-a-blanket-sales-order"></a><a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Pour créer une commande vente à partir d’une commande cadre vente
 
 1. Pour créer une commande pour l’une des lignes de la commande vente en cours, effacez la quantité du champ **Qté à expédier** de toutes les lignes que vous ne voulez pas expédier actuellement.  
 2. Lorsque vous êtes prêt à créer les commandes, sélectionnez **Créer commande**, puis **Oui**. Un message s’affiche, vous informant que la commande cadre a été associée à un numéro de commande. Remarquez que la commande cadre n’a pas été supprimée.  
@@ -50,7 +50,7 @@ Ce qui suit s’applique aux commandes vente après leur création à partir de 
 - La commande cadre vente facturée reste dans le système jusqu’à ce qu’elle soit supprimée, soit en supprimant les commandes cadres individuelles, soit en exécutant le traitement par lots **Suppr. cdes vente ouv. fact.**.  
 - Si un client est également enregistré comme contact dans le module Marketing et si vous avez spécifié un code modèle interaction pour les commandes vente ouvertes sur la page **Paramètres Marketing**, lorsque vous sélectionnez **Imprimer** pour imprimer la commande vente ouverte, une interaction est enregistrée automatiquement dans la table Écriture journal interaction.
 
-## <a name="to-view-the-status-of-a-blanket-sales-order"></a><a name="to-view-the-status-of-a-blanket-sales-order"></a>Pour visualiser le statut d’une commande cadre vente
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a><a name="to-view-the-status-of-a-blanket-sales-order"></a><a name="to-view-the-status-of-a-blanket-sales-order"></a>Pour visualiser le statut d’une commande cadre vente
 
 Vous pouvez visualiser le statut d’une commande cadre vente sur la page **Statistiques Commande vente en cours**. Ceci peut s’avérer utile lorsque vous commencez à facturer une commande créée à partir de la commande vente en cours.  
 
@@ -63,7 +63,7 @@ Vous pouvez visualiser le statut d’une commande cadre vente sur la page **Stat
 - Sur le raccourci **Acompte**, vous pouvez visualiser des informations récapitulatives concernant les éventuels acomptes.  
 - Sur le raccourci **Fournisseur**, vous pouvez visualiser certaines informations de base concernant le fournisseur.
 
-## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a><a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Pour afficher des lignes de commande vente ouverte non validées et validées
+## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a><a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a><a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Pour afficher des lignes de commande vente ouverte non validées et validées
 
 Le lien entre la commande cadre vente et la commande vente d’origine, et n’importe quel autre document vente, est conservé après validation en tant que liste des lignes facture validées et non validées de commande vente.  
 
@@ -89,9 +89,9 @@ Le lien entre la commande cadre vente et la commande vente d’origine, et n’i
 
 5. Sur la page **Lignes vente**, sélectionnez l’action **Afficher document** pour afficher l’écriture.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Création d’ordres d’assemblage permanents](assembly-how-to-create-blanket-assembly-orders.md)  

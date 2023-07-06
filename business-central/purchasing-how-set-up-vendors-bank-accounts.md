@@ -7,18 +7,18 @@ ms.topic: article
 ms.date: 07/04/2022
 ms.author: a-reishima
 ---
-# <a name="set-up-vendor-bank-accounts"></a><a name="set-up-vendor-bank-accounts"></a>Configurer des comptes bancaires fournisseur
+# <a name="set-up-vendor-bank-accounts"></a><a name="set-up-vendor-bank-accounts"></a><a name="set-up-vendor-bank-accounts"></a>Configurer des comptes bancaires fournisseur
 
 Tout comme vous pouvez utiliser des informations de compte bancaire sur [!INCLUDE [prod_short](includes/prod_short.md)] pour suivre les transactions bancaires de votre entreprise, vous pouvez également définir les coordonnées bancaires des fournisseurs. Les données de compte bancaire du fournisseur peuvent simplifier les paiements aux fournisseurs lorsqu’elles sont combinées avec l’extension [AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) ou la fonctionnalité [Exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md), par exemple.
 
-## <a name="add-or-edit-a-vendor-bank-account"></a><a name="add-or-edit-a-vendor-bank-account"></a>Ajouter ou modifier un compte bancaire fournisseur
+## <a name="add-or-edit-a-vendor-bank-account"></a><a name="add-or-edit-a-vendor-bank-account"></a><a name="add-or-edit-a-vendor-bank-account"></a>Ajouter ou modifier un compte bancaire fournisseur
 
 [!INCLUDE [purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 > [!TIP]
 > Vous pouvez définir des comptes bancaires fournisseur supplémentaires sur la page **Liste comptes bancaires fourn.**.
 
-## <a name="set-up-a-preferred-vendor-bank-account"></a><a name="set-up-a-preferred-vendor-bank-account"></a>Configurer un compte bancaire fournisseur favori
+## <a name="set-up-a-preferred-vendor-bank-account"></a><a name="set-up-a-preferred-vendor-bank-account"></a><a name="set-up-a-preferred-vendor-bank-account"></a>Configurer un compte bancaire fournisseur favori
 
 Si un fournisseur possède un ou plusieurs comptes bancaires et que vous souhaitez définir une option préférée pour les lignes du journal des paiements, procédez comme suit :
 
@@ -26,9 +26,9 @@ Si un fournisseur possède un ou plusieurs comptes bancaires et que vous souhait
 2. Ouvrez la fiche pour le fournisseur.
 3. Sur le raccourci **Paiements**, choisissez le compte bancaire fournisseur par défaut dans le champ **Code de compte bancaire préféré**.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/cash-management-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/cash-management-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)  

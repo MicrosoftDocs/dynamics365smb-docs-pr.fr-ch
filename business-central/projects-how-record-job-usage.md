@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 03/08/2023
 ms.custom: bap-template
 ---
-# <a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a>Enregistrer la consommation ou l′utilisation pour les projets
+# <a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a>Enregistrer la consommation ou l′utilisation pour les projets
 
 À partir de la page **Fiche projet**, vous pouvez ouvrir la page **Lignes planning projet** pour examiner et enregistrer l’utilisation sur diverses composantes de votre projet. Ces informations sont automatiquement mises à jour lorsque vous modifiez et transférez des informations entre projets et entre feuilles projet et factures projet. Cela nécessite que vous activiez le bouton à bascule **Appliquer le lien d’utilisation par défaut** sur la page **Configuration projet**. Learn more at [Configuration de projets](projects-how-setup-jobs.md).  
 
@@ -17,7 +17,7 @@ Par exemple, pour les lignes planning de type **Budget**, vous pouvez saisir la 
 
 Les procédures suivantes décrivent comment enregistrer les quantités (budgétées) et les coûts réels avec une feuille projet. Sinon, vous pouvez utiliser les documents achat pour enregistrer les achats pour un projet. Learn more at [Gérer les fournitures pour un projet](projects-how-manage-project-supplies.md).
 
-## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Pour enregistrer l’utilisation d’une ligne planning projet de type Budget
+## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Pour enregistrer l’utilisation d’une ligne planning projet de type Budget
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez le projet, puis sélectionnez l’action **Lignes planning projet**. 
@@ -42,7 +42,7 @@ Les procédures suivantes décrivent comment enregistrer les quantités (budgét
 9. Sur la page **Lignes planning projet**, examinez l’utilisation enregistrée en observant les champs **Quantité**, **Quantité restante** et **Qté à transférer sur la feuille**.  
 10. Répétez les étapes 3 à 8 pour enregistrer l’utilisation supplémentaire.  
 
-## <a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a>Pour créer des lignes feuille projet manuellement
+## <a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a>Pour créer des lignes feuille projet manuellement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
 2. Dans le champ **Nom de la feuille**, choisissez un nom de feuille projet approprié.  
@@ -51,7 +51,7 @@ Les procédures suivantes décrivent comment enregistrer les quantités (budgét
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a>Pour visualiser les estimations projet et valider les mises à jour
+## <a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a>Pour visualiser les estimations projet et valider les mises à jour
 
 Vous pouvez visualiser l′utilisation projet jusqu’à son achèvement en une étape. Pour ce faire, utilisez le traitement par lots **Projet Calc. utilisation restante** pour toutes les tâches jusqu’à la fin du projet.  
 
@@ -66,7 +66,7 @@ Cela vous permet de suivre vos estimations initiales, de les comparer aux résul
 4. Mettez à jour la feuille avec toutes les modifications qui peuvent être nécessaires.  
 5. Sélectionnez l’action **Valider**.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Créez des documents prélèvement entrepôt et stock pour un projet
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Créez des documents prélèvement entrepôt et stock pour un projet
 
 Pour créer des documents de prélèvement entrepôt et stock pour les projets, votre administrateur doit activer **Mise à jour des fonctionnalités : activer prélèvement stock et entrepôt à partir des projets** sur la page **Gestion des fonctionnalités**.
 
@@ -85,7 +85,7 @@ Vous pouvez utiliser les actions dans les conditions suivantes :
 > 
 > Lorsque le magasin est configuré pour appeler un traitement de prélèvement et d’expédition, ce qui implique que vous avez activé les champs **Prélèvement requis** et **Expédition requise** sur la page **Fiche magasin**, utilisez le document **Prélèvement entrepôt** pour gérer le retrait. Les prélèvements entrepôt sont similaires aux prélèvements stock. La différence est qu’au lieu d’afficher les informations de prélèvement, vous enregistrez le prélèvement. Ce processus d’enregistrement ne valide pas la consommation, il rend simplement les articles disponibles pour la validation. En tant que responsable d’entrepôt, vous pouvez utiliser une feuille de calcul pour organiser les informations de prélèvement avant de créer les instructions de prélèvement d’entrepôt individuelles
 
-## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Pour consulter les lignes planning pour une écriture comptable projet
+## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Pour consulter les lignes planning pour une écriture comptable projet
 
 Après avoir validé les lignes feuilles projets, vous pouvez voir les lignes planning associées à des écritures de la feuille projet qui ont été validées.
 
@@ -96,9 +96,9 @@ Après avoir validé les lignes feuilles projets, vous pouvez voir les lignes pl
 2. Sélectionnez une feuille projet appropriée, puis cliquez sur **Écritures comptables**.  
 3. Sur la page **Écritures comptables projet**, cliquez sur **Afficher les lignes planning projet liées**.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/post-job-usage-sales/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/post-job-usage-sales/) associée
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Gestion de projets](projects-manage-projects.md)  
 [Finances](finance.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="business-process-walkthroughs"></a><a name="business-process-walkthroughs"></a>Procédures pas à pas liées au processus entreprise
+# <a name="business-process-walkthroughs"></a><a name="business-process-walkthroughs"></a><a name="business-process-walkthroughs"></a>Procédures pas à pas liées au processus entreprise
 
 Cette sélection de procédures fournit des processus entreprise pas à pas et de bout en bout que vous pouvez suivre avec la société de démonstration CRONUS. Elles comportent différentes procédures : certaines d’entre elles sont généralement suivies par un utilisateur, tandis que d’autres impliquent plusieurs rôles utilisateur. Pour simuler l’environnement de travail, certaines procédures pas à pas contiennent les étapes de configuration nécessaires pour effectuer les exercices décrits. Ces étapes indiquent aux utilisateurs le type d’informations qu’ils doivent partager avec les responsables informatiques de leur société.  
 
@@ -36,7 +36,7 @@ Cette sélection de procédures fournit des processus entreprise pas à pas et d
 <!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
 <!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

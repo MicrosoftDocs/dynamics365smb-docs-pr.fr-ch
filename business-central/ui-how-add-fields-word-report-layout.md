@@ -11,7 +11,7 @@ ms.date: 11/25/2021
 ms.author: jswymer
 ---
 
-# <a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a>Utiliser des présentations Word
+# <a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a>Utiliser des présentations Word
 
 Une présentation état Word détermine le contenu et le format d’un état lorsqu’il est prévisualisé et imprimé à partir de Business Central. Vous devez créer et modifier ces présentations à l’aide de Microsoft Word.
 
@@ -26,18 +26,18 @@ Si vous créez une présentation état Word de A à Z ou en ajoutant de nouveaux
 > [!TIP]  
 > Affiche les quadrillages de façon à visualiser les contours des cellules de la table. Pensez à masquer les quadrillages lorsque vous avez terminé l’édition. Pour masquer ou afficher des quadrillages dans la table, sélectionnez la table, puis sous **Mise en page** sous l’onglet **Table**, sélectionnez **Afficher les quadrillages**.
 
-## <a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a>Incorporation de polices dans des présentations Word pour des raisons de cohérence
+## <a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a>Incorporation de polices dans des présentations Word pour des raisons de cohérence
 
 Pour vous assurer que les états affichent et impriment toujours avec les polices prévues, quel que soit l’emplacement où les utilisateurs ouvrent ou impriment des états, vous pouvez incorporer des polices au document Word. Toutefois, sachez qu’incorporer des polices peut augmenter de façon significative la taille des fichiers Word. Pour plus d’informations sur l’incorporation de polices à Word, voir [Incorporer des polices à Word, PowerPoint ou Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-## <a name="adding-data-fields"></a><a name="adding-data-fields"></a>Ajout de champs de données
+## <a name="adding-data-fields"></a><a name="adding-data-fields"></a><a name="adding-data-fields"></a>Ajout de champs de données
 
 Un ensemble de données d’état peut être constitué de champs affichant des étiquettes, des données et des images. Cette rubrique décrit la procédure pour ajouter des champs d’un ensemble de données d’état à une présentation d’état Word pour un état. Vous ajoutez des champs à l’aide du composant XML personnalisé Word pour l’état et en ajoutant des contrôles de contenu qui correspondent aux champs de l’ensemble de données d’état. L’ajout de champs requiert que vous ayez des connaissances sur l’ensemble des données d’état afin que vous puissiez identifier les champs que vous souhaitez ajouter à la présentation.  
   
 > [!NOTE]  
 >  Vous ne pouvez pas modifier les présentations d’état intégrées<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a> Pour ouvrir le composant XML personnalisé de l’état dans Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a> Pour ouvrir le composant XML personnalisé de l’état dans Word
   
 1. Si ce n’est pas déjà le cas, ouvrez le document de présentation d’état Word dans Word.  
   
@@ -59,7 +59,7 @@ Un ensemble de données d’état peut être constitué de champs affichant des 
   
      Après avoir sélectionné la partie XML personnalisée, le volet de mappage XML affiche les étiquettes et les contrôles de champ disponibles pour l’état.  
   
-### <a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a>Pour ajouter un champ étiquette ou données
+### <a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a>Pour ajouter un champ étiquette ou données
   
 1. Placez votre curseur dans le document dans lequel vous souhaitez ajouter le contrôle.  
   
@@ -68,7 +68,7 @@ Un ensemble de données d’état peut être constitué de champs affichant des 
     > [!NOTE]  
     >  Vous ne pouvez pas ajouter un champ en tapant manuellement le nom du champ de l’ensemble de données dans le contrôle de contenu. Vous devez utiliser le volet **Mappage XML** pour mapper les champs.  
   
-### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Pour ajouter des lignes à répétition des champs de données pour créer une liste
+### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Pour ajouter des lignes à répétition des champs de données pour créer une liste
   
 1. Dans un tableau, ajoutez une ligne de tableau incluant une colonne pour chaque champ dont vous souhaitez qu’il soit répété.  
   
@@ -86,7 +86,7 @@ Un ensemble de données d’état peut être constitué de champs affichant des 
   
     3. Pour chaque champ, répétez les étapes a et b.  
   
-## <a name="adding-image-fields"></a><a name="adding-image-fields"></a>Ajout de champs d’image
+## <a name="adding-image-fields"></a><a name="adding-image-fields"></a><a name="adding-image-fields"></a>Ajout de champs d’image
 
 Un ensemble de données d’état peut inclure un champ qui contient une image, par exemple un logo de la société ou une photo d’un article. Pour ajouter une image de l’ensemble de données d’état, vous insérez un contrôle de contenu **Image**.  
   
@@ -95,7 +95,7 @@ Les images s’alignent dans le coin supérieur gauche du contrôle de contenu e
 > [!IMPORTANT]  
 > Vous ne pouvez ajouter que des images dont le format est pris en charge par Word (par ex., .bmp, .jpeg et .png). Si vous ajoutez une image dont le format n’est pas pris en charge par Word, vous obtenez une erreur lorsque vous exécutez l’état à partir du client [!INCLUDE[prod_short](includes/prod_short.md)].  
   
-### <a name="to-add-an-image"></a><a name="to-add-an-image"></a>Pour ajouter une image
+### <a name="to-add-an-image"></a><a name="to-add-an-image"></a><a name="to-add-an-image"></a>Pour ajouter une image
   
 1. Placez votre pointeur dans le document dans lequel vous souhaitez ajouter le contrôle.  
   
@@ -103,7 +103,7 @@ Les images s’alignent dans le coin supérieur gauche du contrôle de contenu e
   
 3. Pour développer ou réduire la taille de l’image, faites glisser une poignée de redimensionnement pour l’éloigner ou la rapprocher du centre du contrôle de contenu.  
 
-## <a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Suppression des champs d’étiquette et de données
+## <a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Suppression des champs d’étiquette et de données
 
 L’étiquette les champs de données d’un état sont contenus dans des contrôles de contenu dans Word. La figure ci-après illustre un contrôle de contenu lorsqu’il est sélectionné dans le document Word.  
 
@@ -111,7 +111,7 @@ L’étiquette les champs de données d’un état sont contenus dans des contr�
 
 Le nom de l’étiquette ou le nom du champ de données s’affiche dans le contrôle de contenu. Dans l’exemple, le nom du champ est CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a>Pour supprimer un champ étiquette ou données
+### <a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a>Pour supprimer un champ étiquette ou données
 
 1. Cliquez avec le bouton droit sur le champ que vous voulez supprimer, puis choisissez **Supprimer le contrôle de contenu**.  
 
@@ -119,11 +119,11 @@ Le nom de l’étiquette ou le nom du champ de données s’affiche dans le cont
 
 2. Supprimez le texte restant selon vos besoins.
 
-## <a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a>Aperçu des parties XML personnalisées
+## <a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a>Aperçu des parties XML personnalisées
 
 Les présentations d’état Word sont basées sur des *parties XML personnalisées*. Une partie XML personnalisée pour un état regroupe des éléments qui correspondent aux éléments de données, colonnes et étiquettes comprenant l’ensemble de données de l’état. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->La partie XML personnalisée est utilisée pour associer les données dans un état lorsque l’état est exécuté.
 
-### <a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a>Structure XML du composant XML personnalisé
+### <a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a>Structure XML du composant XML personnalisé
 
 Le tableau suivant fournit un aperçu simplifié du XML d’une partie XML personnalisée.  
   
@@ -136,7 +136,7 @@ Le tableau suivant fournit un aperçu simplifié du XML d’une partie XML perso
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Les données article et colonnes imbriquées dans les données article de haut niveau. Les colonnes sont répertoriées par ordre alphabétique sous chaque donnée.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Élément de clôture.|  
   
-### <a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a>Partie XML personnalisée dans Word
+### <a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a>Partie XML personnalisée dans Word
 
  Dans Word, vous ouvrez la partie XML personnalisée dans le volet **Mappage XML** puis utilisez le volet pour mapper les éléments aux contrôles de contenu dans le document Word. Le volet **Mappage XML** est accessible depuis l’onglet **Développeur** (pour plus d’informations, voir [Afficher l’onglet Développeur sur le ruban](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
@@ -154,7 +154,7 @@ Le tableau suivant fournit un aperçu simplifié du XML d’une partie XML perso
   
 * La langue de l’étiquette qui s’affiche lorsque vous exécutez l’état dépend du paramétrage de langue de l’objet d’état.  
   
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Créer et modifier une présentation d’état personnalisée](ui-how-create-custom-report-layout.md)   
 

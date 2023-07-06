@@ -8,7 +8,7 @@ ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 36
 ms.date: 09/28/2022
 ms.custom: bap-template
 ---
-# <a name="teams-faq"></a><a name="teams-faq"></a>FAQ Teams
+# <a name="teams-faq"></a><a name="teams-faq"></a><a name="teams-faq"></a>FAQ Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -16,31 +16,31 @@ Cet article répond à certaines des questions que vous pourriez vous poser sur 
 
 ## [Général](#tab/general)
 
-### <a name="how-do-i-sign-in-to-the--app-in-teams"></a><a name="how-do-i-sign-in-to-the--app-in-teams"></a>Comment puis-je me connecter à l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] dans Teams ?
+### <a name="how-do-i-sign-in-to-the--app-in-teams"></a><a name="how-do-i-sign-in-to-the--app-in-teams"></a><a name="how-do-i-sign-in-to-the--app-in-teams"></a>Comment puis-je me connecter à l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] dans Teams ?
 
 Après avoir installé l’application, vous serez invité à vous connecter la première fois pour utiliser l′application, lorsque vous collez un lien [!INCLUDE [prod_short.md](includes/prod_short.md)] vers le chat Teams ou lorsque vous choisissez l’action **Détails** sur une fiche dans Teams. En fonction de votre client Teams, vous devrez peut-être entrer vos informations d’identification que vous utilisez pour accéder à [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
-### <a name="how-do-i-sign-out-of-the--app-in-teams"></a><a name="how-do-i-sign-out-of-the--app-in-teams"></a>Comment puis-je me déconnecter de l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] dans Teams ?
+### <a name="how-do-i-sign-out-of-the--app-in-teams"></a><a name="how-do-i-sign-out-of-the--app-in-teams"></a><a name="how-do-i-sign-out-of-the--app-in-teams"></a>Comment puis-je me déconnecter de l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] dans Teams ?
 
 Pour vous déconnecter de votre identité d’utilisateur actuelle dans Teams utilisé pour vous connecter à [!INCLUDE [prod_short.md](includes/prod_short.md)], accédez à n’importe quelle boîte de composition de discussion instantanée, cliquez avec le bouton droite sur l′icône [!INCLUDE [prod_short.md](includes/prod_short.md)] située en dessous et choisissez **Paramètres**. Lorsque la fenêtre apparaît, vérifiez votre identité actuellement connectée, puis choisissez **Déconnexion**.
 
-### <a name="does-the-app-for-teams-connect-to--on-premises"></a><a name="does-the-app-for-teams-connect-to--on-premises"></a>L’application pour Teams se connecte-t-elle à [!INCLUDE [prod_short.md](includes/prod_short.md)] en local ?
+### <a name="does-the-app-for-teams-connect-to--on-premises"></a><a name="does-the-app-for-teams-connect-to--on-premises"></a><a name="does-the-app-for-teams-connect-to--on-premises"></a>L’application pour Teams se connecte-t-elle à [!INCLUDE [prod_short.md](includes/prod_short.md)] en local ?
 
 Non. L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams ne fonctionne qu’avec [!INCLUDE [prod_short.md](includes/prod_short.md)] en ligne. Il n’y a pas de plan pour soutenir les types de déploiement [!INCLUDE [prod_short.md](includes/prod_short.md)] &mdash; comme en local, en cloud hybride ou en cloud privé&mdash; que Microsoft n’héberge pas ou ne gère pas directement.
 
-### <a name="does-the-app-work-with-multiple-companies-and-environments"></a><a name="does-the-app-work-with-multiple-companies-and-environments"></a>L’application fonctionne-t-elle avec plusieurs entreprises et environnements ?
+### <a name="does-the-app-work-with-multiple-companies-and-environments"></a><a name="does-the-app-work-with-multiple-companies-and-environments"></a><a name="does-the-app-work-with-multiple-companies-and-environments"></a>L’application fonctionne-t-elle avec plusieurs entreprises et environnements ?
 
 Oui. Pour rechercher des contacts dans une autre entreprise, accédez à [Paramètres](across-teams-settings.md). Quand l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] développe un lien dans une fiche, le lien doit contenir l’environnement et les noms de société pour que l’application corresponde à l’enregistrement de la bonne société. Vous pouvez coller des liens vers les entreprises et les environnements auxquels vous avez accès au sein de votre organisation et à partir du compte [!INCLUDE [prod_short.md](includes/prod_short.md)] que vous avez utilisé pour vous connecter. Les participants à la discussion instantanée verront la fiche. Mais ils ne peuvent pas afficher les détails de la fiche à moins d’avoir des autorisations sur la société ou l’environnement où cet enregistrement est stocké.
 
-### <a name="in-which-countries-or-regions-is-the--app-available"></a><a name="in-which-countries-or-regions-is-the--app-available"></a>Dans quels pays ou régions l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] est-elle disponible ?
+### <a name="in-which-countries-or-regions-is-the--app-available"></a><a name="in-which-countries-or-regions-is-the--app-available"></a><a name="in-which-countries-or-regions-is-the--app-available"></a>Dans quels pays ou régions l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] est-elle disponible ?
 
 L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams n’est pas limitée par pays ou région. L’application est disponible sur tous les marchés actuellement pris en charge par le marché Teams. 
 
-### <a name="does-the--app-work-with-any-localization-of-include-prod_shortmd"></a><a name="does-the--app-work-with-any-localization-of-include-prod_shortmd"></a>Est-ce que l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] fonctionne avec n’importe quelle localisation de [!INCLUDE [prod_short.md](includes/prod_short.md)] ?
+### <a name="does-the--app-work-with-any-localization-of-include-prod_shortmd"></a><a name="does-the--app-work-with-any-localization-of-include-prod_shortmd"></a><a name="does-the--app-work-with-any-localization-of-include-prod_shortmd"></a>Est-ce que l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] fonctionne avec n’importe quelle localisation de [!INCLUDE [prod_short.md](includes/prod_short.md)] ?
 
 Oui. L’application est conçue pour fonctionner avec toute localisation de [!INCLUDE [prod_short.md](includes/prod_short.md)], que cette localisation soit proposée directement par Microsoft ou via un partenaire. En savoir plus sur [Disponibilité par pays/région et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
-### <a name="which-languages-does-the--app-support"></a><a name="which-languages-does-the--app-support"></a><a name="language"></a>Avec quelles langues l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] est-elle compatible ?
+### <a name="which-languages-does-the--app-support"></a><a name="which-languages-does-the--app-support"></a><a name="which-languages-does-the--app-support"></a><a name="language"></a>Avec quelles langues l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] est-elle compatible ?
 
 Deux choses déterminent la langue utilisée pour les fiches et les détails des fiches dans Teams :
 
@@ -56,18 +56,18 @@ Le tableau suivant explique en quoi l’expérience diffère pour les auteurs et
 
 Pour la liste des langues prises en charge pour [!INCLUDE [prod_short.md](includes/prod_short.md)], voir [Langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
-### <a name="does-the--app-work-with-industry-solutions"></a><a name="does-the--app-work-with-industry-solutions"></a>L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] fonctionne-t-elle avec les solutions sectorielles ?
+### <a name="does-the--app-work-with-industry-solutions"></a><a name="does-the--app-work-with-industry-solutions"></a><a name="does-the--app-work-with-industry-solutions"></a>L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] fonctionne-t-elle avec les solutions sectorielles ?
 
 Oui. Mais seules certaines fonctionnalités de l′application fonctionnent avec [Incorporer des applications](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) :
 
 - L’application fonctionne avec des liens basés sur le modèle **\*.bc.dynamics.com** généralement utilisé avec Intégrer les applications.
 - La recherche de contacts n′est pas disponible pour les applications incorporées qui remplacent l′application de base de Microsoft.
 
-### <a name="does--work-with-the-teams-mobile-app"></a><a name="does--work-with-the-teams-mobile-app"></a>[!INCLUDE [prod_short.md](includes/prod_short.md)] est-il compatible avec l’application mobile Teams ?
+### <a name="does--work-with-the-teams-mobile-app"></a><a name="does--work-with-the-teams-mobile-app"></a><a name="does--work-with-the-teams-mobile-app"></a>[!INCLUDE [prod_short.md](includes/prod_short.md)] est-il compatible avec l’application mobile Teams ?
 
 Oui. L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] peut être installée à partir de l’application de bureau ou du navigateur Teams, ou par un administrateur pour tous les utilisateurs. Une fois installé, l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] est automatiquement disponible dans Teams pour iOS et Android. Sur les appareils mobiles, vous ne pouvez afficher que les fiches envoyées par d’autres personnes, accéder aux détails ou afficher la fiche pour profiter pleinement de l’expérience de l’application mobile [!INCLUDE [prod_short.md](includes/prod_short.md)]. Vous ne pouvez pas coller des liens qui se développent dans des fiches lors de la rédaction de messages ou la recherche de contacts. Pour en savoir plus sur la configuration minimale requise pour le mobile, voir [Configuration minimale requise pour l’utilisation de Business Central](product-requirements.md).
 
-### <a name="is-the--app-for-teams-the-same-as-the-include-prod_shortmd-app-for-ios-and-android"></a><a name="is-the--app-for-teams-the-same-as-the-include-prod_shortmd-app-for-ios-and-android"></a>L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams est-elle identique à l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour iOS et Android ?
+### <a name="is-the--app-for-teams-the-same-as-the-include-prod_shortmd-app-for-ios-and-android"></a><a name="is-the--app-for-teams-the-same-as-the-include-prod_shortmd-app-for-ios-and-android"></a><a name="is-the--app-for-teams-the-same-as-the-include-prod_shortmd-app-for-ios-and-android"></a>L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams est-elle identique à l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour iOS et Android ?
 
 Non. L’application pour Teams est un complément pour Microsoft Teams et exclusivement conçue pour la collaboration dans Teams. Sinon, l’application mobile [!INCLUDE [prod_short.md](includes/prod_short.md)] offre une expérience riche avec laquelle vous pouvez utiliser les données [!INCLUDE [prod_short.md](includes/prod_short.md)] sur vos appareils mobiles.
 
@@ -76,7 +76,7 @@ Les utilisateurs mobiles sont encouragés à installer à la fois l’applicatio
 - [Obtenir Business Central sur votre périphérique mobile](install-mobile-app.md)
 - [Télécharger l’application mobile Teams](https://support.microsoft.com/office/download-the-mobile-app-for-teams-5940ebdc-0082-4fb1-83c4-751edc23dcb5) sur le support Microsoft
 
-### <a name="does-the--app-work-in-all-teams-clients"></a><a name="does-the--app-work-in-all-teams-clients"></a>L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] est-elle compatible avec tous les clients Teams ?
+### <a name="does-the--app-work-in-all-teams-clients"></a><a name="does-the--app-work-in-all-teams-clients"></a><a name="does-the--app-work-in-all-teams-clients"></a>L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] est-elle compatible avec tous les clients Teams ?
 
 Non. L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams n’est pas prise en charge lorsqu’elle est installée en tant que package pour macOS ou Linux. Sur ces plates-formes, vous pouvez accéder à Teams à la place à l’aide d’un navigateur pris en charge.
 
@@ -84,7 +84,7 @@ Pour connaître la configuration minimale requise dans [!INCLUDE [prod_short.md]
 
 Pour plus d’informations sur le choix des clients Teams et comment les installer, voir [Obtenir des clients pour Microsoft Teams](/microsoftteams/get-clients) dans la documentation Teams.
 
-### <a name="which-teams-client-is-best-for-"></a><a name="which-teams-client-is-best-for-"></a>Quel client Teams convient le mieux à [!INCLUDE [prod_short.md](includes/prod_short.md)] ?
+### <a name="which-teams-client-is-best-for-"></a><a name="which-teams-client-is-best-for-"></a><a name="which-teams-client-is-best-for-"></a>Quel client Teams convient le mieux à [!INCLUDE [prod_short.md](includes/prod_short.md)] ?
 
 Il n’y a que des différences et limitations mineures entre les clients Teams qui peuvent avoir des répercussions sur votre expérience avec l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams. Lors du choix d’un client Teams, tenez compte des éléments suivants :
 
@@ -92,11 +92,11 @@ Il n’y a que des différences et limitations mineures entre les clients Teams 
 - Les numéros de téléphone ne peuvent pas être activés à partir de la fenêtre de détails dans Teams pour iOS, Android ou dans le navigateur.
 - En utilisant Microsoft Edge avec Teams dans le navigateur, vous pouvez facilement travailler sur plusieurs identités et comptes en vous connectant à Teams à partir de différents profils. Pour en savoir plus sur l’utilisation des profils dans Microsoft Edge, voir [Se connecter et créer plusieurs profils Microsoft Edge](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435) sur le support Microsoft.
 
-### <a name="what-is-the-best-way-for-me-to-demonstrate--and-microsoft-teams-to-prospective-customers"></a><a name="what-is-the-best-way-for-me-to-demonstrate--and-microsoft-teams-to-prospective-customers"></a>Quelle est la meilleure façon pour moi de démontrer [!INCLUDE [prod_short.md](includes/prod_short.md)] et Microsoft Teams aux clients potentiels ?
+### <a name="what-is-the-best-way-for-me-to-demonstrate--and-microsoft-teams-to-prospective-customers"></a><a name="what-is-the-best-way-for-me-to-demonstrate--and-microsoft-teams-to-prospective-customers"></a><a name="what-is-the-best-way-for-me-to-demonstrate--and-microsoft-teams-to-prospective-customers"></a>Quelle est la meilleure façon pour moi de démontrer [!INCLUDE [prod_short.md](includes/prod_short.md)] et Microsoft Teams aux clients potentiels ?
 
 Si vous êtes un partenaire revendeur, vous souhaiterez peut-être disposer d’un environnement dans lequel vous pourrez montrer aux prospects dans le cadre de démonstrations avant-vente. Pour éviter d’affecter Microsoft Teams dans votre organisation, vous pouvez obtenir un compte de démonstration Microsoft 365 sur [https://aka.ms/CDX](https://aka.ms/CDX). Ce compte vous donne le contrôle total d’une organisation Azure indépendante qui comprend Microsoft Teams et [!INCLUDE [prod_short.md](includes/prod_short.md)]. Pour plus d’informations, voir [Préparer les environnements de démonstration de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
 
-### <a name="does-the--app-for-teams-cater-to-my-customization-and-personalization"></a><a name="does-the--app-for-teams-cater-to-my-customization-and-personalization"></a>L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams prend-elle en charge ma personnalisation et la personnalisation ?
+### <a name="does-the--app-for-teams-cater-to-my-customization-and-personalization"></a><a name="does-the--app-for-teams-cater-to-my-customization-and-personalization"></a><a name="does-the--app-for-teams-cater-to-my-customization-and-personalization"></a>L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams prend-elle en charge ma personnalisation et la personnalisation ?
 
 L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams peut afficher des fiches pour des liens vers des pages client et des tables dans [!INCLUDE [prod_short.md](includes/prod_short.md)], comme les pages et les tables provenant de vos propres extensions personnalisées ou depuis AppSource.
 
@@ -104,7 +104,7 @@ Les champs affichés sur une fiche dans Teams peuvent également être impactés
 
 Lorsque vous recherchez des contacts, les champs qui correspondent dans la table **Contacts** et les champs affichés dans les résultats de la recherche ne sont affectés par aucune personnalisation ou personnalisation.
 
-### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a><a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>Comment les autorisations requises par l’application affectent-elles ma confidentialité ?
+### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a><a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a><a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>Comment les autorisations requises par l’application affectent-elles ma confidentialité ?
 
 Avant d’installer l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams, vous pouvez consulter les autorisations minimales requises pour que l’application fonctionne. En installant l’application, vous acceptez que l’application soit autorisée à recevoir les messages et les données que vous lui fournissez, et Teams est autorisé à stocker et à traiter ces messages.
 
@@ -117,29 +117,29 @@ Aussi certaines fonctionnalités [!INCLUDE [prod_short.md](includes/prod_short.m
 > [!NOTE]
 > Les fonctionnalités [!INCLUDE [prod_short.md](includes/prod_short.md)] qui vous demandent des autorisations dépendent des applications complémentaires et des personnalisations appliquées à l’environnement [!INCLUDE [prod_short.md](includes/prod_short.md)] auquel vous vous connectez.
 
-### <a name="where-can-i-learn-about-my-privacy"></a><a name="where-can-i-learn-about-my-privacy"></a>Où puis-je en savoir plus sur ma confidentialité ?
+### <a name="where-can-i-learn-about-my-privacy"></a><a name="where-can-i-learn-about-my-privacy"></a><a name="where-can-i-learn-about-my-privacy"></a>Où puis-je en savoir plus sur ma confidentialité ?
 
 Vous pouvez découvrir comment Microsoft gère vos données dans la [Déclaration de confidentialité Microsoft](https://go.microsoft.com/fwlink/?linkid=2030602). 
 
 Contactez votre administrateur pour savoir comment votre organisation gère la confidentialité de vos données.
 
-### <a name="how-do-i-uninstall-the--app-for-teams"></a><a name="how-do-i-uninstall-the--app-for-teams"></a>Comment puis-je me déconnecter de l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] dans Teams ?
+### <a name="how-do-i-uninstall-the--app-for-teams"></a><a name="how-do-i-uninstall-the--app-for-teams"></a><a name="how-do-i-uninstall-the--app-for-teams"></a>Comment puis-je me déconnecter de l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] dans Teams ?
 
 Pour supprimer l’application que vous avez installée pour vous-même, accédez à n’importe quelle zone de rédaction de discussion instantanée, recherchez l’icône [!INCLUDE [prod_short.md](includes/prod_short.md)] en dessous, cliquez avec le bouton droit sur l’icône et choisissez **Désinstaller**.  
 
-### <a name="will-microsoft-continue-to-improve-the--app-for-teams"></a><a name="will-microsoft-continue-to-improve-the--app-for-teams"></a>Microsoft continuera-t-il à améliorer l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams ?
+### <a name="will-microsoft-continue-to-improve-the--app-for-teams"></a><a name="will-microsoft-continue-to-improve-the--app-for-teams"></a><a name="will-microsoft-continue-to-improve-the--app-for-teams"></a>Microsoft continuera-t-il à améliorer l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams ?
 
 Chez Microsoft, nous écoutons constamment les commentaires de notre communauté diverse d’utilisateurs et prenons les mesures nécessaires pour agir sur les principales propositions de la communauté. Pour en savoir plus sur la prochaine étape pour l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams, consultez le [Plan de versions de Dynamics 365](/dynamics365-release-plan/2021wave1/).
 
 Si vous souhaitez participer à l’amélioration de l’application pour Teams, ou si vous avez une idée qui vous aiderait à simplifier votre travail ou vos expériences collaboratives dans Teams, ajoutez une idée ou votez pour des idées existantes sur [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a><a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Où puis-je trouver l’intégration Teams dans le client web Business Central ?
+### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a><a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a><a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Où puis-je trouver l’intégration Teams dans le client web Business Central ?
 
 Pour en savoir plus sur les fonctionnalités du client web lié à Teams, consultez la section [Partager des enregistrements et des liens de page dans Microsoft Teams](across-working-with-teams.md#share-link).
 
 ## [Onglets Business Central](#tab/tabs)
 
-### <a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-view"></a>Qui peut voir le contenu d’un onglet ?
+### <a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-view"></a>Qui peut voir le contenu d’un onglet ?
 
 Toute personne de votre conversation instantanée ou canal :
 
@@ -147,7 +147,7 @@ Toute personne de votre conversation instantanée ou canal :
 2. Doit être doté d’une licence Business Central ou d’un accès à Business Central octroyé à l’aide de sa licence Microsoft 365.
 3. Doit disposer d’autorisations d’afficher les données sur la page.
 
-### <a name="where-does-the-recommended-content-come-from"></a><a name="where-does-the-recommended-content-come-from"></a><a name=#recommended-content></a>D’où provient le contenu recommandé ?
+### <a name="where-does-the-recommended-content-come-from"></a><a name="where-does-the-recommended-content-come-from"></a><a name="where-does-the-recommended-content-come-from"></a><a name=#recommended-content></a>D’où provient le contenu recommandé ?
 
 Le contenu recommandé au sein duquel vous pouvez choisir l’option **Contenu de l’onglet** sur un onglet est basé sur votre tableau de bord. Le contenu recommandé ne comprend que des pages de liste, telles que Clients, Commandes client et Fournisseurs, et non la page de carte individuelle comme un client ou un fournisseur spécifique.
 
@@ -161,155 +161,155 @@ Vous pouvez ajouter des pages de liste au contenu recommandé en ajoutant des si
 
 Si vous changez d’environnement ou d’entreprise dans l’option d’onglet, le contenu recommandé sera modifié en fonction du tableau de bord et des signets de l’environnement et de l’entreprise vers lesquels vous basculez.
 
-### <a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a><a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a>Quand je crée un onglet, cela accorde-t-il des autorisations aux personnes du canal ou de la conversation instantanée ?
+### <a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a><a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a><a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a>Quand je crée un onglet, cela accorde-t-il des autorisations aux personnes du canal ou de la conversation instantanée ?
 
 Non. La création d’onglets n’affecte pas les autorisations et les utilisateurs doivent déjà avoir l’autorisation d’accéder à ces données quand ils accèdent à l’onglet.
 
-### <a name="can-i-chat-alongside-a-tab"></a><a name="can-i-chat-alongside-a-tab"></a>Puis-je discuter à côté d’un onglet ?
+### <a name="can-i-chat-alongside-a-tab"></a><a name="can-i-chat-alongside-a-tab"></a><a name="can-i-chat-alongside-a-tab"></a>Puis-je discuter à côté d’un onglet ?
 
 Oui. Utilisez l’icône de conversation instantanée pour démarrer la conversation. Ce fil de conversation instantanée est alors associé à l’onglet. 
 
-### <a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a><a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a>Si je supprime un onglet d’une conversation instantanée ou d’un canal, des données Business Central sont-elles supprimées ?
+### <a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a><a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a><a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a>Si je supprime un onglet d’une conversation instantanée ou d’un canal, des données Business Central sont-elles supprimées ?
 
 Non.
 
-### <a name="can-i-safely-rename-a-tab"></a><a name="can-i-safely-rename-a-tab"></a>Puis-je renommer un onglet en toute sécurité ?
+### <a name="can-i-safely-rename-a-tab"></a><a name="can-i-safely-rename-a-tab"></a><a name="can-i-safely-rename-a-tab"></a>Puis-je renommer un onglet en toute sécurité ?
 
 Oui. Le contenu de l’onglet n’est pas lié au nom réel de l’onglet. Renommer à volonté ! 
 
-### <a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a><a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a>J’ai besoin de travailler sur plusieurs tâches dans différentes fenêtres. Puis-je le faire ?
+### <a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a><a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a><a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a>J’ai besoin de travailler sur plusieurs tâches dans différentes fenêtres. Puis-je le faire ?
 
 Oui. Vous pouvez faire apparaître l’onglet dans sa propre fenêtre de navigateur pour afficher le client web Business Central. 
 
-### <a name="can-i-add-or-pin-tab-in-team-meetings"></a><a name="can-i-add-or-pin-tab-in-team-meetings"></a>Puis-je ajouter ou épingler un onglet dans les réunions Teams ?
+### <a name="can-i-add-or-pin-tab-in-team-meetings"></a><a name="can-i-add-or-pin-tab-in-team-meetings"></a><a name="can-i-add-or-pin-tab-in-team-meetings"></a>Puis-je ajouter ou épingler un onglet dans les réunions Teams ?
 
 Non. L’application Business Central pour Teams ne prend pas en charge les onglets dans les réunions.
 
-### <a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a><a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a>Impossible d’ajouter un onglet si vous utilisez des URL d’ISV comme *.bc.dynamics.com (mais peut épingler)
+### <a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a><a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a><a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a>Impossible d’ajouter un onglet si vous utilisez des URL d’ISV comme *.bc.dynamics.com (mais peut épingler)
 
 Non pris en charge.
 
-### <a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a><a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a>Quand j’effectue des actions dans l’onglet, telles que la navigation, le tri, l’application d’un filtre ou la recherche, les autres utilisateurs voient-ils mes modifications ?
+### <a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a><a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a><a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a>Quand j’effectue des actions dans l’onglet, telles que la navigation, le tri, l’application d’un filtre ou la recherche, les autres utilisateurs voient-ils mes modifications ?
 
 Non. Seules les modifications de champ ou les actions en cours affectent la façon dont les autres voient le contenu de l’onglet.
 
-### <a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a><a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a>Le contenu de l’onglet s’actualise-t-il automatiquement ? Sinon, comment puis-je l’actualiser ?
+### <a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a><a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a><a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a>Le contenu de l’onglet s’actualise-t-il automatiquement ? Sinon, comment puis-je l’actualiser ?
 
 Le contenu ne s’actualise pas automatiquement, et il n’y a actuellement pas de bouton d’actualisation. La meilleure façon d’actualiser le contenu pour s’assurer qu’il est conforme aux données est de quitter l’onglet, puis de revenir. 
 
-### <a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a><a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a>Cela affiche-t-il les listes et les enregistrements de mes personnalisations et modules complémentaires ?
+### <a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a><a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a><a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a>Cela affiche-t-il les listes et les enregistrements de mes personnalisations et modules complémentaires ?
 
 Oui. 
 
-### <a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a><a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a>Quand j’ajoute un onglet, les utilisateurs le verront-ils dans ma langue ?
+### <a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a><a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a><a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a>Quand j’ajoute un onglet, les utilisateurs le verront-ils dans ma langue ?
 
 Non. Chaque utilisateur affiche le contenu de l’onglet dans les paramètres de langue, de région et de fuseau horaire de Business Central. 
 
-### <a name="can-i-have-multiple-tabs-pointing-to-different-content"></a><a name="can-i-have-multiple-tabs-pointing-to-different-content"></a>Puis-je avoir plusieurs onglets pointant vers différents contenus ?
+### <a name="can-i-have-multiple-tabs-pointing-to-different-content"></a><a name="can-i-have-multiple-tabs-pointing-to-different-content"></a><a name="can-i-have-multiple-tabs-pointing-to-different-content"></a>Puis-je avoir plusieurs onglets pointant vers différents contenus ?
 
 Oui.
 
-### <a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a><a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a>Puis-je également ajouter des onglets pour discuter avec une seule personne ?
+### <a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a><a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a><a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a>Puis-je également ajouter des onglets pour discuter avec une seule personne ?
 
 Oui, tant que la conversation instantanée n’est pas un brouillon (c’est-à-dire qu’aucun message n’a été envoyé pour lancer cette conversation instantanée) et que l’autre personne a également installé l’application Business Central.
 
-### <a name="can-i-switch-companies-within-a-tab"></a><a name="can-i-switch-companies-within-a-tab"></a>Puis-je changer d’entreprise dans un onglet ?
+### <a name="can-i-switch-companies-within-a-tab"></a><a name="can-i-switch-companies-within-a-tab"></a><a name="can-i-switch-companies-within-a-tab"></a>Puis-je changer d’entreprise dans un onglet ?
 
 Non. 
 
-### <a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a><a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a>Est-ce différent de l’utilisation de la capacité générique de Teams pour créer un onglet qui héberge un site web ?
+### <a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a><a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a><a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a>Est-ce différent de l’utilisation de la capacité générique de Teams pour créer un onglet qui héberge un site web ?
 
 Oui. Nous ne vous recommandons pas d’utiliser cette approche. Dans de nombreux cas, c’la ne fonctionne pas pour Business Central.
 
 ## [Recherche de contacts](#tab/contacts)
 
-### <a name="which-tables-does-the-app-search-in"></a><a name="which-tables-does-the-app-search-in"></a>Dans quelles tables l′application recherche-t-elle ?
+### <a name="which-tables-does-the-app-search-in"></a><a name="which-tables-does-the-app-search-in"></a><a name="which-tables-does-the-app-search-in"></a>Dans quelles tables l′application recherche-t-elle ?
 
 Lors de la recherche de contacts à partir de l′application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams, vos termes de recherche sont mis en correspondance avec les enregistrements de la table **Contacts** en [!INCLUDE [prod_short.md](includes/prod_short.md)]. 
 
-### <a name="which-fields-in-the-contacts-table-can-i-search"></a><a name="which-fields-in-the-contacts-table-can-i-search"></a>Dans quels champs de la table des contacts, puis-je effectuer une recherche ?
+### <a name="which-fields-in-the-contacts-table-can-i-search"></a><a name="which-fields-in-the-contacts-table-can-i-search"></a><a name="which-fields-in-the-contacts-table-can-i-search"></a>Dans quels champs de la table des contacts, puis-je effectuer une recherche ?
 
 Lorsque vous tapez vos termes de recherche dans le champ de recherche, les termes sont mis en correspondance avec la plupart des champs de la table **Contacts**. Les champs incluent, par exemple, les champs **Numéro**, **Nom**, **Adresse**, **N° de téléphone** ou **N° de téléphone portable** et **E-mail**. 
 
 Les termes de recherche ne correspondent à aucun champ personnalisé ajouté à la table **Contacts** par les applications et les extensions.
 
-### <a name="do-search-results-include-companies-and-persons"></a><a name="do-search-results-include-companies-and-persons"></a>Les résultats de recherche incluent-ils des entreprises et des personnes ?
+### <a name="do-search-results-include-companies-and-persons"></a><a name="do-search-results-include-companies-and-persons"></a><a name="do-search-results-include-companies-and-persons"></a>Les résultats de recherche incluent-ils des entreprises et des personnes ?
 
 Oui. Dans [!INCLUDE [prod_short.md](includes/prod_short.md)], les contacts peuvent être de type **Société** ou saisissez **Personne**, où une ou plusieurs personnes peuvent être associées à une entreprise. Dans les résultats de recherche, les entreprises et les personnes ont des icônes différentes.
 
-### <a name="do-contacts-of-any-business-relationship-appear-in-the-results"></a><a name="do-contacts-of-any-business-relationship-appear-in-the-results"></a>Les contacts de toute relation d′affaires apparaissent-ils dans les résultats ?
+### <a name="do-contacts-of-any-business-relationship-appear-in-the-results"></a><a name="do-contacts-of-any-business-relationship-appear-in-the-results"></a><a name="do-contacts-of-any-business-relationship-appear-in-the-results"></a>Les contacts de toute relation d′affaires apparaissent-ils dans les résultats ?
 
 Oui. Certains contacts peuvent représenter des clients ou des fournisseurs, ou les deux. D′autres contacts sans relation d′affaires définie représentent généralement des clients potentiels. Contacts avec d′autres relation d′affaires, y compris les relations personnalisées que vous avez configurées dans [!INCLUDE [prod_short.md](includes/prod_short.md)], sera également affiché dans les résultats de la recherche.
 
-### <a name="can-i-look-up-contact-details-during-meetings"></a><a name="can-i-look-up-contact-details-during-meetings"></a>Puis-je consulter les coordonnées lors des réunions ?
+### <a name="can-i-look-up-contact-details-during-meetings"></a><a name="can-i-look-up-contact-details-during-meetings"></a><a name="can-i-look-up-contact-details-during-meetings"></a>Puis-je consulter les coordonnées lors des réunions ?
 
 Oui. Vous pouvez rechercher les informations de contact, l′historique des interactions et les documents associés pour votre client ou fournisseur lors d′une réunion Teams ou appeler pendant la réunion, sans quitter Teams.
 
 En fait, vous pouvez rechercher les détails de contact de n′importe où dans Teams à l′aide de la boîte de commande. Vous pouvez, par exemple, rechercher des détails de contact dans le calendrier Teams pour vous aider à configurer des réunions.
 
-### <a name="how-do-i-view-my-last-interactions-with-a-contact"></a><a name="how-do-i-view-my-last-interactions-with-a-contact"></a>Comment afficher mes dernières interactions avec un contact ?
+### <a name="how-do-i-view-my-last-interactions-with-a-contact"></a><a name="how-do-i-view-my-last-interactions-with-a-contact"></a><a name="how-do-i-view-my-last-interactions-with-a-contact"></a>Comment afficher mes dernières interactions avec un contact ?
 
 La fenêtre de détails d′un contact affiche les Écritures journal interaction. Les Écritures journal interaction fournissent l′historique des interactions que votre organisation a eues avec le contact spécifique. Les interactions peuvent inclure des e-mails que vous avez échangés, des appels que vous avez reçus ou des documents que vous avez envoyés.
 
 Pour que les interactions soient affichées, [!INCLUDE [prod_short.md](includes/prod_short.md)] doit être configuré pour suivre les interactions. Pour en savoir plus sur la journalisation des interactions, voir [Enregistrer les interactions avec les contacts](marketing-interactions.md).
 
-### <a name="how-do-i-register-a-teams-call-or-meeting-as-an-interaction"></a><a name="how-do-i-register-a-teams-call-or-meeting-as-an-interaction"></a>Comment enregistrer un appel ou une réunion Teams en tant qu′interaction ?
+### <a name="how-do-i-register-a-teams-call-or-meeting-as-an-interaction"></a><a name="how-do-i-register-a-teams-call-or-meeting-as-an-interaction"></a><a name="how-do-i-register-a-teams-call-or-meeting-as-an-interaction"></a>Comment enregistrer un appel ou une réunion Teams en tant qu′interaction ?
 
 Dans la fenêtre des détails d′un contact, recherchez l′action **Créer une interaction** et choisissez parmi les appels entrants ou sortants comme modèles interaction. Vous pouvez également créer vos propres modèles interaction personnalisés spécifiquement pour une utilisation avec les conversations Teams.
 
-### <a name="can-i-call-a-contact-from-the--app-for-teams"></a><a name="can-i-call-a-contact-from-the--app-for-teams"></a>Puis-je appeler un contact de l′application [!INCLUDE [prod_short.md](includes/prod_short.md)] Teams ?
+### <a name="can-i-call-a-contact-from-the--app-for-teams"></a><a name="can-i-call-a-contact-from-the--app-for-teams"></a><a name="can-i-call-a-contact-from-the--app-for-teams"></a>Puis-je appeler un contact de l′application [!INCLUDE [prod_short.md](includes/prod_short.md)] Teams ?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)] a une intégration limitée aux capacités d′appel Teams. Il n′est pas possible de démarrer instantanément un appel VOIP à partir de la carte de contact ou de la fenêtre des détails du contact. Cependant, lorsque vous affichez les détails du contact dans l′application de bureau Teams, vous pouvez sélectionner le champ de numéro de téléphone pour composer ce numéro si Teams est configuré comme votre application de numérotation par défaut sur votre appareil. Pour composer des numéros de téléphone fixe ou mobile à l′aide du PSTN, le système téléphonique traditionnel, Teams nécessite que vous disposiez de l′application Microsoft 365 Business Voice. Pour en savoir plus, consultez [Qu′est-ce que Microsoft 365 Business Voice ?](/MicrosoftTeams/business-voice/whats-business-voice).
 
-### <a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a><a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a>Comment afficher les documents récents d′un client ou d′un fournisseur ?
+### <a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a><a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a><a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a>Comment afficher les documents récents d′un client ou d′un fournisseur ?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)] associe généralement un contact à un enregistrement client ou fournisseur qui à son tour est lié à des enregistrements de transaction commerciale, tels que des devis ou des factures d′achat. Pour afficher les documents associés à un contact, accédez à la fenêtre de détails du contact, choisissez la valeur de champ **Relation d′affaires** ou utilisez les actions pour accéder au client ou au fournisseur associé. Sur la page du client ou du fournisseur, développez le volet Récapitulatif pour afficher les statistiques de divers documents dans lesquels vous pouvez explorer. Votre expérience peut différer en fonction de vos personnalisations et de votre personnalisation.
 
-### <a name="how-do-i-search-for-contacts-using-special-characters"></a><a name="how-do-i-search-for-contacts-using-special-characters"></a>Comment rechercher des contacts à l′aide de caractères spéciaux ?
+### <a name="how-do-i-search-for-contacts-using-special-characters"></a><a name="how-do-i-search-for-contacts-using-special-characters"></a><a name="how-do-i-search-for-contacts-using-special-characters"></a>Comment rechercher des contacts à l′aide de caractères spéciaux ?
 
 Vous pouvez entrer des critères de recherche en utilisant presque tous les caractères Unicode. Cependant, [!INCLUDE [prod_short.md](includes/prod_short.md)] réserve les symboles suivants pour d′autres utilisations : **=**, **.**, **\*** et **@**. L′utilisation de ces symboles dans vos termes de recherche peut ne pas donner les résultats escomptés. Si vous ne voyez pas les résultats attendus, placez les symboles dans vos termes de recherche entre guillemets simples, par exemple, **Contoso’=’2**.
 
-### <a name="how-can-i-search-contacts-stored-in-a-different-company"></a><a name="how-can-i-search-contacts-stored-in-a-different-company"></a>Comment puis-je rechercher des contacts stockés dans une autre entreprise ?
+### <a name="how-can-i-search-contacts-stored-in-a-different-company"></a><a name="how-can-i-search-contacts-stored-in-a-different-company"></a><a name="how-can-i-search-contacts-stored-in-a-different-company"></a>Comment puis-je rechercher des contacts stockés dans une autre entreprise ?
 
 L′application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams peut rechercher des clients, des fournisseurs et d′autres contacts dans une entreprise à la fois.  
 Pour rechercher des contacts stockés dans une autre société [!INCLUDE [prod_short.md](includes/prod_short.md)], ouvrez [Paramètres](across-teams-settings.md), puis changez l′environnement et l′entreprise à partir de là.
 
-### <a name="are--contacts-different-than-the-ones-in-the-teams-contacts-screen"></a><a name="are--contacts-different-than-the-ones-in-the-teams-contacts-screen"></a>Les contacts [!INCLUDE [prod_short.md](includes/prod_short.md)] sont-ils différents de ceux de l′écran des contacts Teams ?
+### <a name="are--contacts-different-than-the-ones-in-the-teams-contacts-screen"></a><a name="are--contacts-different-than-the-ones-in-the-teams-contacts-screen"></a><a name="are--contacts-different-than-the-ones-in-the-teams-contacts-screen"></a>Les contacts [!INCLUDE [prod_short.md](includes/prod_short.md)] sont-ils différents de ceux de l′écran des contacts Teams ?
 
 Oui. Contacts stockés dans [!INCLUDE [prod_short.md](includes/prod_short.md)] représentent les contacts professionnels disponibles pour votre organisation. Ce sont des contacts avec lesquels vous avez une relation d′affaires établie et bien définie, ou des contacts qui représentent des clients potentiels. Ces contacts sont généralement des contacts externes. En comparaison, les contacts affichés dans la liste de contacts d′appels Teams sont vos propres contacts. Ces contacts ne sont pas nécessairement partagés avec d′autres membres de votre organisation et représentent généralement des contacts internes à votre organisation.
 
-### <a name="does--synchronize-contacts-with-teams"></a><a name="does--synchronize-contacts-with-teams"></a>[!INCLUDE [prod_short.md](includes/prod_short.md)] synchronise-t-il les contacts avec Teams ?
+### <a name="does--synchronize-contacts-with-teams"></a><a name="does--synchronize-contacts-with-teams"></a><a name="does--synchronize-contacts-with-teams"></a>[!INCLUDE [prod_short.md](includes/prod_short.md)] synchronise-t-il les contacts avec Teams ?
 
 Non. Contacts stockés dans [!INCLUDE [prod_short.md](includes/prod_short.md)] restent séparés de vos contacts stockés dans Teams.
 Il n′est actuellement pas prévu de synchroniser les deux listes ensemble.
 
-### <a name="what-is-the-minimum-version-of--for-contact-search"></a><a name="what-is-the-minimum-version-of--for-contact-search"></a>Quelle est la version minimale de [!INCLUDE [prod_short.md](includes/prod_short.md)] pour la recherche de contacts ?
+### <a name="what-is-the-minimum-version-of--for-contact-search"></a><a name="what-is-the-minimum-version-of--for-contact-search"></a><a name="what-is-the-minimum-version-of--for-contact-search"></a>Quelle est la version minimale de [!INCLUDE [prod_short.md](includes/prod_short.md)] pour la recherche de contacts ?
 
 La recherche de contacts nécessite que vous ayez installé l′application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams version 1.0.4 ou ultérieure, et vous vous connectez aux environnements [!INCLUDE [prod_short.md](includes/prod_short.md)] de la version 18 ou ultérieure.
 
-### <a name="can-i-search-from-my-mobile-device"></a><a name="can-i-search-from-my-mobile-device"></a>Puis-je effectuer une recherche à partir de mon appareil mobile ?
+### <a name="can-i-search-from-my-mobile-device"></a><a name="can-i-search-from-my-mobile-device"></a><a name="can-i-search-from-my-mobile-device"></a>Puis-je effectuer une recherche à partir de mon appareil mobile ?
 
 La recherche de contacts n′est pas disponible dans Teams pour iOS et Teams pour Android en ce moment.
 
-### <a name="which-permissions-do-i-need-for-contact-search"></a><a name="which-permissions-do-i-need-for-contact-search"></a>De quelles autorisations ai-je besoin pour la recherche de contacts ?
+### <a name="which-permissions-do-i-need-for-contact-search"></a><a name="which-permissions-do-i-need-for-contact-search"></a><a name="which-permissions-do-i-need-for-contact-search"></a>De quelles autorisations ai-je besoin pour la recherche de contacts ?
 
 Pour rechercher des contacts, vous devez disposer d′une autorisation au niveau de l′objet sur la table **Contacts** dans la société [!INCLUDE [prod_short.md](includes/prod_short.md)] recherchée. Pour afficher la fenêtre de détails d′un contact, vous devez au moins obtenir une autorisation de lecture sur la page **Contact** dans la société [!INCLUDE [prod_short.md](includes/prod_short.md)] et tout autre objet connexe.
 
-### <a name="can-i-use-contact-search-if-im-a-delegated-admin"></a><a name="can-i-use-contact-search-if-im-a-delegated-admin"></a>Puis-je utiliser la recherche de contacts si je suis un administrateur délégué ?
+### <a name="can-i-use-contact-search-if-im-a-delegated-admin"></a><a name="can-i-use-contact-search-if-im-a-delegated-admin"></a><a name="can-i-use-contact-search-if-im-a-delegated-admin"></a>Puis-je utiliser la recherche de contacts si je suis un administrateur délégué ?
 
 Oui. Vous pouvez également rechercher des contacts et des détails de contact si vous disposez d′un rôle d′administrateur délégué dans une organisation.
 
-### <a name="is-contact-search-affected-by-api-limits"></a><a name="is-contact-search-affected-by-api-limits"></a>La recherche de contacts est-elle affectée par les limites de l′API ?
+### <a name="is-contact-search-affected-by-api-limits"></a><a name="is-contact-search-affected-by-api-limits"></a><a name="is-contact-search-affected-by-api-limits"></a>La recherche de contacts est-elle affectée par les limites de l′API ?
 
 Oui. La recherche de contacts dans Teams est basée sur les API [!INCLUDE [prod_short.md](includes/prod_short.md)] v2.0 et soumis à toutes les limites d′API qui gèrent l′utilisation. Vous pouvez en savoir plus sur les limites sur [Limites actuelles de l′API](/dynamics-nav/api-reference/v2.0/dynamics-current-limits).
 
-### <a name="why-does-it-sometimes-ask-me-to-set-up-the-app"></a><a name="why-does-it-sometimes-ask-me-to-set-up-the-app"></a>Pourquoi me demande-t-il parfois de configurer l′application ?
+### <a name="why-does-it-sometimes-ask-me-to-set-up-the-app"></a><a name="why-does-it-sometimes-ask-me-to-set-up-the-app"></a><a name="why-does-it-sometimes-ask-me-to-set-up-the-app"></a>Pourquoi me demande-t-il parfois de configurer l′application ?
 
 Après vous être connecté à l′application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams pour la première fois, l′application tentera de déterminer votre entreprise préférée dans [!INCLUDE [prod_short.md](includes/prod_short.md)]. Si l′application ne parvient pas à déterminer l′entreprise, vous devrez peut-être accéder aux **Paramètres** et choisissez l′entreprise dans laquelle vous souhaitez effectuer la recherche. Cette situation se produit, par exemple, si vous avez accès à plusieurs entreprises dans les environnements de votre organisation. Dans ce cas, vous devrez choisir une entreprise avant de pouvoir commencer la recherche.  
 
 L′application peut également vous demander de visiter les **Paramètres** si vous n′avez pas d′abonnement [!INCLUDE [prod_short.md](includes/prod_short.md)], si aucun environnement [!INCLUDE [prod_short.md](includes/prod_short.md)] n′apparaît ou votre compte n′a pas de licence [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
-### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a><a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>Je voudrais rechercher des éléments ou des enregistrements d′autres tables. Puis-je faire cela depuis Teams ?
+### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a><a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a><a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>Je voudrais rechercher des éléments ou des enregistrements d′autres tables. Puis-je faire cela depuis Teams ?
 
 La recherche dans d′autres tables n′est pas possible pour le moment. L′application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams recherche uniquement dans la liste de contacts [!INCLUDE [prod_short.md](includes/prod_short.md)], qui peut inclure des fournisseurs, des clients et d′autres contacts.
 
@@ -317,7 +317,7 @@ Si vous souhaitez voir les fonctionnalités de recherche évoluer pour inclure d
 
 ## [Utiliser les fiches](#tab/cards)
 
-### <a name="which-types-of-links-does-the-app-support"></a><a name="which-types-of-links-does-the-app-support"></a>Quels types de liens l’application prend-elle en charge ?
+### <a name="which-types-of-links-does-the-app-support"></a><a name="which-types-of-links-does-the-app-support"></a><a name="which-types-of-links-does-the-app-support"></a>Quels types de liens l’application prend-elle en charge ?
 
 L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams réagit à la plupart des liens du client Web [!INCLUDE [prod_short.md](includes/prod_short.md)]. Lorsque le lien fait référence à un seul enregistrement sur une page, la fiche affiche les champs de cet enregistrement. Les types de page pris en charge incluent : 
 
@@ -328,7 +328,7 @@ L’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams r�
 
 Lors du collage d’un lien vers l’URL du client Web racine, tel que https://businesscentral.dynamics.com, la fiche affiche plutôt des informations pour aider les nouveaux utilisateurs à commencer à accéder à [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
-### <a name="how-do-i-delete-a-card-i-sent-to-a-chat"></a><a name="how-do-i-delete-a-card-i-sent-to-a-chat"></a>Comment supprimer une fiche que j’ai envoyée dans le cadre d’une discussion instantanée ?
+### <a name="how-do-i-delete-a-card-i-sent-to-a-chat"></a><a name="how-do-i-delete-a-card-i-sent-to-a-chat"></a><a name="how-do-i-delete-a-card-i-sent-to-a-chat"></a>Comment supprimer une fiche que j’ai envoyée dans le cadre d’une discussion instantanée ?
 
 Vous ne pouvez pas supprimer une fiche que vous avez déjà envoyée pour chatter. Mais vous pouvez supprimer l’intégralité du message dont fait partie la fiche.
 
@@ -336,63 +336,63 @@ En tant qu’auteur du message, vous pouvez supprimer tous les messages que vous
 
 La suppression d’un message contenant une fiche ne supprime ni n’affecte aucune donnée [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
-### <a name="do-cards-always-show-up-to-date-information"></a><a name="do-cards-always-show-up-to-date-information"></a>Les fiches affichent-elles toujours des informations à jour ?
+### <a name="do-cards-always-show-up-to-date-information"></a><a name="do-cards-always-show-up-to-date-information"></a><a name="do-cards-always-show-up-to-date-information"></a>Les fiches affichent-elles toujours des informations à jour ?
 
 Non. Les valeurs de champ sur une carte dans Teams, y compris les images, sont basées sur les données disponibles lorsque cette fiche a été envoyée à la discussion instantanée. Les fiches [!INCLUDE [prod_short.md](includes/prod_short.md)] ne s’actualisent pas automatiquement dans Teams. 
 
-### <a name="why-dont-cards-show-more-information-instead-of-just-the-page-name-and-details-button"></a><a name="why-dont-cards-show-more-information-instead-of-just-the-page-name-and-details-button"></a>Pourquoi les fiches n’affichent-elles pas plus d’informations au lieu d’afficher uniquement le nom de la page et le bouton Détails ?
+### <a name="why-dont-cards-show-more-information-instead-of-just-the-page-name-and-details-button"></a><a name="why-dont-cards-show-more-information-instead-of-just-the-page-name-and-details-button"></a><a name="why-dont-cards-show-more-information-instead-of-just-the-page-name-and-details-button"></a>Pourquoi les fiches n’affichent-elles pas plus d’informations au lieu d’afficher uniquement le nom de la page et le bouton Détails ?
 
 Un administrateur peut avoir configuré l’intégration Teams afin que les fiches n’affichent pas de données sur les enregistrements. Pour plus d’informations, voir [Afficher ou masquer les données d’enregistrement sur les fiches](admin-teams-integration.md#show-or-hide-record-data-on-cards).
 
-### <a name="will-others-see-my-card-if-they-dont-have-the--app-for-teams"></a><a name="will-others-see-my-card-if-they-dont-have-the--app-for-teams"></a>Les autres verront-ils ma fiche s’ils n’ont pas l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams ?
+### <a name="will-others-see-my-card-if-they-dont-have-the--app-for-teams"></a><a name="will-others-see-my-card-if-they-dont-have-the--app-for-teams"></a><a name="will-others-see-my-card-if-they-dont-have-the--app-for-teams"></a>Les autres verront-ils ma fiche s’ils n’ont pas l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams ?
 
 Lorsque vous rédigez et envoyez un message à la discussion instantanée qui inclut une fiche, tous les utilisateurs verront la fiche,&mdash;même s’ils n’ont pas installé l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams.
 
-### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a><a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>Comment savoir à quelle entreprise appartient une carte dans Teams ?
+### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a><a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a><a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>Comment savoir à quelle entreprise appartient une carte dans Teams ?
 
 Si vous travaillez avec des entreprises [!INCLUDE [prod_short.md](includes/prod_short.md)], demandez à votre administrateur d’activer un badge d’entreprise pour chaque entreprise. Lorsqu’il est activé, cet indice voyant apparaît dans n’importe quelle fenêtre de détails dans Teams et affiche la société et l’environnement auxquels appartient l’enregistrement. Pour savoir comment configurer un badge d’entreprise, voir [Afficher un badge d’entreprise](admin-company-information.md#badge).
 
 ## [Utiliser les détails de fiche](#tab/carddetails)
 
-### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a><a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Où se trouve le bouton Enregistrer dans la fenêtre des détails dans Teams ?
+### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a><a name="where-is-the-save-button-in-the-details-window-in-teams"></a><a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Où se trouve le bouton Enregistrer dans la fenêtre des détails dans Teams ?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)] enregistre automatiquement les modifications que vous apportez à n’importe quel champ dès que vous quittez le champ. Pour quitter un champ, cliquez/appuyez n’importe où en dehors du champ ou utilisez la touche Tab pour passer au champ suivant. Lorsque les données apparaissent dans une boîte de dialogue de la fenêtre de détails, vous devrez peut-être choisir le bouton **OK** pour que [!INCLUDE [prod_short.md](includes/prod_short.md)] enregistre vos modifications.
 
-### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a><a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Si je choisis d’afficher les détails d’une fiche, les autres utilisateurs verront-ils ma fenêtre de détails ?
+### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a><a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a><a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Si je choisis d’afficher les détails d’une fiche, les autres utilisateurs verront-ils ma fenêtre de détails ?
 
 Non. Bien que tous les participants à la discussion instantanée ou une réunion puissent voir la fiche elle-même, la fenêtre de détails n’apparaît que pour vous sur votre appareil lorsque vous choisissez **Détails**. Les autres utilisateurs doivent choisir **Détails** s’ils souhaitent afficher la fenêtre de détails sur leur appareil.
 
-### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a><a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Puis-je démarrer un appel Teams à partir de la fenêtre de détails dans Teams ?
+### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a><a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a><a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Puis-je démarrer un appel Teams à partir de la fenêtre de détails dans Teams ?
 
 Oui. Si vous utilisez l′application de bureau Teams, démarrer un appel en choisissant le numéro associé dans un champ de numéro de téléphone, tel que **N° téléphone mobile** sur la fiche **Contact**. Teams doit être votre application de numérotation désignée.
 
 Pour appeler des lignes fixes et des téléphones mobiles locaux ou internationaux, Teams nécessite que vous disposiez d’une licence Business Voice pour les appels d’entreprise. En outre, vous devez configurer Teams comme solution d’appel. Pour en savoir plus, consultez [Planifier votre solution vocale Teams](/microsoftteams/cloud-voice-landing-page) dans la documentation Teams.
 
-### <a name="can-i-print-documents-from-the-details-window-in-teams"></a><a name="can-i-print-documents-from-the-details-window-in-teams"></a>Puis-je imprimer des documents à partir de la fenêtre de détails dans Teams ?
+### <a name="can-i-print-documents-from-the-details-window-in-teams"></a><a name="can-i-print-documents-from-the-details-window-in-teams"></a><a name="can-i-print-documents-from-the-details-window-in-teams"></a>Puis-je imprimer des documents à partir de la fenêtre de détails dans Teams ?
 
 Oui. Vous imprimez des états et d’autres documents à l’aide de la fonctionnalité d’impression [!INCLUDE [prod_short.md](includes/prod_short.md)] standard et toute imprimante compatible cloud configurée sur la page **Gestion des imprimantes** dans [!INCLUDE [prod_short.md](includes/prod_short.md)]. Vous ne pouvez pas imprimer depuis Teams vers des imprimantes locales connues de votre appareil client, telles que des imprimantes sur lesquelles vous imprimez généralement à partir de votre navigateur. Pour cette raison, vous ne pouvez pas imprimer à partir de la fenêtre d’aperçu de l’état, mais uniquement à partir de la page principale de demande de l’état, directement sur vos imprimantes cloud.
 
 Pour plus d’informations sur la configuration des imprimantes cloud, voir [Configurer les imprimantes](ui-specify-printer-selection-reports.md).
 
-### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a><a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Puis-je accéder à la caméra à partir de la fenêtre de détails dans Teams ?
+### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a><a name="can-i-access-the-camera-from-the-details-window-in-teams"></a><a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Puis-je accéder à la caméra à partir de la fenêtre de détails dans Teams ?
 
 Oui. Toutes les fonctionnalités [!INCLUDE [prod_short.md](includes/prod_short.md)] de la fenêtre de détails qui utilisent la caméra sont disponibles sur tous les clients Teams.
 
-### <a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="location"></a>Puis-je accéder à mon emplacement depuis la fenêtre de détails dans Teams ?
+### <a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="location"></a>Puis-je accéder à mon emplacement depuis la fenêtre de détails dans Teams ?
 
 Si vous utilisez des fonctionnalités dans [!INCLUDE [prod_short.md](includes/prod_short.md)] qui accède à vos coordonnées de localisation actuelles, comme avec des fiches, vous devez utiliser Teams dans le navigateur ou l’application mobile Teams. La localisation n’est pas disponible lors de l’utilisation de l’application de bureau Teams.
 
-### <a name="how-do-i-open-the-details-in-a-new-window"></a><a name="how-do-i-open-the-details-in-a-new-window"></a>Comment ouvrir les détails dans une nouvelle fenêtre ?
+### <a name="how-do-i-open-the-details-in-a-new-window"></a><a name="how-do-i-open-the-details-in-a-new-window"></a><a name="how-do-i-open-the-details-in-a-new-window"></a>Comment ouvrir les détails dans une nouvelle fenêtre ?
 
 L’affichage de la fenêtre de détails en tant que fenêtre séparée est utile pour le multitâche ou pour pouvoir travailler avec des données d’entreprise tout en pouvant utiliser le chat Teams et d’autres fonctions Teams. Pour ouvrir les détails dans sa propre fenêtre, choisissez **Ouvrir dans le navigateur** dans le menu des points de suspension (**...**) dans le coin supérieur droit de la fenêtre.
 
 ## [Collaborer avec les invités](#tab/collaborating)
 
-### <a name="can-i-share-cards-with-users-outside-my-organization"></a><a name="can-i-share-cards-with-users-outside-my-organization"></a>Puis-je partager des fiches avec des utilisateurs extérieurs à mon organisation ?
+### <a name="can-i-share-cards-with-users-outside-my-organization"></a><a name="can-i-share-cards-with-users-outside-my-organization"></a><a name="can-i-share-cards-with-users-outside-my-organization"></a>Puis-je partager des fiches avec des utilisateurs extérieurs à mon organisation ?
 
 Oui. Lorsque vous rédigez et envoyez un message comprenant une fiche, tous les destinataires de la discussion instantanée verront la fiche&mdash; même s’ils sont invités ou externes à votre organisation. Les invités peuvent également ouvrir la fenêtre des détails s’ils ont reçu l’autorisation d’accéder à ces données dans [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
-### <a name="is-the-experience-any-different-for-users-that-are-guests"></a><a name="is-the-experience-any-different-for-users-that-are-guests"></a>L’expérience est-elle différente pour les utilisateurs qui sont des invités ?
+### <a name="is-the-experience-any-different-for-users-that-are-guests"></a><a name="is-the-experience-any-different-for-users-that-are-guests"></a><a name="is-the-experience-any-different-for-users-that-are-guests"></a>L’expérience est-elle différente pour les utilisateurs qui sont des invités ?
 
 Oui. Inviter des utilisateurs invités extérieurs à votre organisation à participer à une discussion instantanée ou à un canal leur donne une expérience similaire, mais pas identique, par rapport aux utilisateurs de votre organisation. Lorsqu’un invité reçoit un message contenant une fiche, il peut le consulter. Les invités peuvent également ouvrir la page des détails s’ils ont reçu l’autorisation d’accéder à ces données dans [!INCLUDE [prod_short.md](includes/prod_short.md)] et ont une licence [!INCLUDE [prod_short.md](includes/prod_short.md)] attribuée au sein de votre organisation.
 
@@ -404,42 +404,42 @@ Lorsqu’un invité rédige un message, des liens vers son [!INCLUDE [prod_short
 
 Pour en savoir plus sur les autres similitudes et différences entre les invités et les membres de l’équipe, consultez [Expérience client dans Teams](/MicrosoftTeams/guest-experience) dans la documentation Teams.
 
-### <a name="how-does-a-guest-user-install-the--app"></a><a name="how-does-a-guest-user-install-the--app"></a>Comment un utilisateur invité installe-t-il l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] ?
+### <a name="how-does-a-guest-user-install-the--app"></a><a name="how-does-a-guest-user-install-the--app"></a><a name="how-does-a-guest-user-install-the--app"></a>Comment un utilisateur invité installe-t-il l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] ?
 
 Les invités n’ont pas accès au marché des applications pour installer eux-mêmes des applications. Cependant, l’application peut être automatiquement installée pour eux en fonction des politiques de votre organisation. Une autre façon pour un utilisateur invité d’installer l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] consiste à recevoir un message de discussion instantanée qui comprend une fiche [!INCLUDE [prod_short.md](includes/prod_short.md)]. Dans ce cas, l’utilisateur choisit le bouton **Détails** ou le menu de la fiche, puis installe l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] à utiliser avec votre organisation. Après avoir installé l’application, un utilisateur ne reçoit automatiquement aucune autorisation pour accéder aux données de votre [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
 ## [Partager avec Teams](#tab/share)
 
-### <a name="does-share-to-teams-send-a-compact-card"></a><a name="does-share-to-teams-send-a-compact-card"></a>Est-ce que Partager avec Teams envoie une carte compacte ?
+### <a name="does-share-to-teams-send-a-compact-card"></a><a name="does-share-to-teams-send-a-compact-card"></a><a name="does-share-to-teams-send-a-compact-card"></a>Est-ce que Partager avec Teams envoie une carte compacte ?
 
 Oui. Le lien se développera automatiquement dans une carte si vous avez installé l’application Business Central pour Teams. 
 
-### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a><a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>Les destinataires recevront-ils le message de ma part ou de celle d’un compte de service Business Central ?
+### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a><a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a><a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>Les destinataires recevront-ils le message de ma part ou de celle d’un compte de service Business Central ?
 
 Lorsque vous utilisez Partager avec Teams, le message est envoyé à une personne, un groupe ou un canal, comme si vous aviez envoyé le message vous-même depuis l’intérieur de Microsoft Teams. Les destinataires voient le message de votre part sur leur client Teams préféré et ils peuvent réagir et répondre comme ils le feraient normalement à un message de votre part. 
 
-### <a name="is-share-to-teams-available-in-business-central-on-premises"></a><a name="is-share-to-teams-available-in-business-central-on-premises"></a>Est-ce que Partager avec Teams est disponible dans Business Central sur site ?
+### <a name="is-share-to-teams-available-in-business-central-on-premises"></a><a name="is-share-to-teams-available-in-business-central-on-premises"></a><a name="is-share-to-teams-available-in-business-central-on-premises"></a>Est-ce que Partager avec Teams est disponible dans Business Central sur site ?
 
 Non. De même manière que l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams, cette fonctionnalité est uniquement disponible pour le client web dans [!INCLUDE [prod_short.md](includes/prod_short.md)] en ligne. Il n’y a pas de plans pour soutenir les types de déploiement [!INCLUDE [prod_short.md](includes/prod_short.md)] &mdash; comme en local, cloud hybride ou cloud privé&mdash; que Microsoft n’héberge pas ou ne gère pas directement.
 
-### <a name="does-share-to-teams-grant-permissions-to-recipients"></a><a name="does-share-to-teams-grant-permissions-to-recipients"></a>Est-ce que Partager avec teams accorde des autorisations aux destinataires ?
+### <a name="does-share-to-teams-grant-permissions-to-recipients"></a><a name="does-share-to-teams-grant-permissions-to-recipients"></a><a name="does-share-to-teams-grant-permissions-to-recipients"></a>Est-ce que Partager avec teams accorde des autorisations aux destinataires ?
 
 Non. Lorsque vous partagez avec une personne, un groupe ou un canal, les autorisations ne sont pas affectées. Les utilisateurs qui ont déjà l’autorisation d’afficher la page et les données ciblées par le lien peuvent le faire. Pour les utilisateurs qui n’ont pas l’autorisation d’afficher cette page et ces données, ou qui n’ont pas de licence [!INCLUDE [prod_short.md](includes/prod_short.md)], un message d’erreur s’affiche. 
  
-### <a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a><a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a>Dois-je installer l’application de bureau Teams pour utiliser Partager avec Teams ?
+### <a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a><a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a><a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a>Dois-je installer l’application de bureau Teams pour utiliser Partager avec Teams ?
 
 Non. Tout ce dont vous avez besoin est un compte valide qui a accès à Microsoft Teams. 
 
-### <a name="is-share-to-teams-available-in-all-business-central-clients"></a><a name="is-share-to-teams-available-in-all-business-central-clients"></a>Est-ce que Partager avec Teams est disponible dans tous les clients Business Central ?
+### <a name="is-share-to-teams-available-in-all-business-central-clients"></a><a name="is-share-to-teams-available-in-all-business-central-clients"></a><a name="is-share-to-teams-available-in-all-business-central-clients"></a>Est-ce que Partager avec Teams est disponible dans tous les clients Business Central ?
 
 À l’heure actuelle, Partager avec Teams est disponible dans le client Web de bureau, dans la fenêtre de détails de Teams et lors de l’ouverture d’une page dans une nouvelle fenêtre à partir du complément Outlook.
 
-### <a name="where-do-i-find-share-to-teams-in-business-central"></a><a name="where-do-i-find-share-to-teams-in-business-central"></a>Où puis-je trouver Partager avec Teams dans Business Central ?
+### <a name="where-do-i-find-share-to-teams-in-business-central"></a><a name="where-do-i-find-share-to-teams-in-business-central"></a><a name="where-do-i-find-share-to-teams-in-business-central"></a>Où puis-je trouver Partager avec Teams dans Business Central ?
 
 L’action **Partager avec Teams** se trouve dans le menu **Partager** de toutes les pages, telles que les pages de fiche et de document, les pages de liste ou de feuille de calcul, y compris les pages personnalisées. L’action n’est pas disponible dans les boîtes de dialogue ou les pages affichées comme boîtes de dialogue, telles que les pages de recherche ou les assistants.
 
 ---
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble de l’intégration [!INCLUDE [prod_short](includes/prod_short.md)] et Microsoft Teams ](across-teams-overview.md)  
 [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)  

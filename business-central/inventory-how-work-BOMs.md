@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 09/26/2022
 ms.author: a-reishima
 ---
-# <a name="work-with-bills-of-material"></a><a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
+# <a name="work-with-bills-of-material"></a><a name="work-with-bills-of-material"></a><a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
 
 Les nomenclatures d’assemblage permettent de structurer les articles parents qui doivent être assemblés à partir d’autres articles ou produits par des ressources ou des postes de charge à partir des composants.
 
-## <a name="assembly-boms-or-production-boms"></a><a name="assembly-boms-or-production-boms"></a>Nomenclatures d’assemblage ou nomenclatures de production
+## <a name="assembly-boms-or-production-boms"></a><a name="assembly-boms-or-production-boms"></a><a name="assembly-boms-or-production-boms"></a>Nomenclatures d’assemblage ou nomenclatures de production
 
 [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge deux types différents de nomenclatures :
 
@@ -36,7 +36,7 @@ Le concept de ressources est beaucoup plus avancé dans la production que dans l
 
 Les ordres d’assemblage et les ordres de fabrication peuvent être liés directement aux commandes vente. Cependant, vous pouvez uniquement utiliser des ordres d’assemblage pour personnaliser le produit fini directement par rapport à la demande d’un client via la commande vente.
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Utilisation des nomenclatures d’assemblage](assembly-how-work-assembly-boms.md)  
 [Créer des nomenclatures de production](production-how-to-create-production-boms.md)  

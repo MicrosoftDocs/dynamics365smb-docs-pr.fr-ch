@@ -11,7 +11,7 @@ ms.search.form: '9652, 9650'
 ms.date: 03/07/2022
 ms.author: jswymer
 ---
-# <a name="legacy-set-the-layout-used-by-a-report"></a><a name="legacy-set-the-layout-used-by-a-report"></a>(Hérité) Définir la présentation utilisée par un état
+# <a name="legacy-set-the-layout-used-by-a-report"></a><a name="legacy-set-the-layout-used-by-a-report"></a><a name="legacy-set-the-layout-used-by-a-report"></a>(Hérité) Définir la présentation utilisée par un état
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -24,7 +24,7 @@ Lorsque des présentations de rapport personnalisées sont définies, vous pouve
 > [!TIP]  
 > Les états de document (pas les listes) qui utilisent une mise en page d’état Word sont généralement plus rapides que ceux qui utilisent une mise en page d’état RDLC. Ainsi, si vous avez la possibilité de choisir entre une mise en page d’état Word ou RDLC pour un état de document, utilisez la mise en page d’état Word pour de meilleures performances.
 
-## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a><a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Pour modifier la présentation de rapport à utiliser pour un rapport ou un document
+## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a><a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a><a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Pour modifier la présentation de rapport à utiliser pour un rapport ou un document
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection présentation état**, puis sélectionnez le lien associé.
   
@@ -43,7 +43,7 @@ Lorsque des présentations de rapport personnalisées sont définies, vous pouve
 
 Si vous avez sélectionné une présentation de rapport RDLC ou Word intégrée, aucune action supplémentaire n’est requise, et la présentation sera utilisée la prochaine fois que le rapport sera exécuté.
 
-## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a><a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Pour modifier la présentation personnalisée à utiliser pour une présentation de rapport
+## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a><a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a><a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Pour modifier la présentation personnalisée à utiliser pour une présentation de rapport
 
 Vous pouvez également modifier la présentation personnalisée actuellement utilisée. Pour plus d’informations, voir [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md).
 
@@ -56,9 +56,9 @@ Le nom de la présentation personnalisée sélectionnée s’affiche maintenant 
 
 Vous pouvez maintenant accéder à vos fiches client et fournisseur pour spécifier les présentations à utiliser pour différents documents que vous créez pour le client ou le fournisseur en question, comme les confirmations de commande ou les relances de paiement. Pour plus d’informations, voir [Définir des présentations de document pour les clients et les fournisseurs](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 [Gestion des présentations d’état](ui-manage-report-layouts.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

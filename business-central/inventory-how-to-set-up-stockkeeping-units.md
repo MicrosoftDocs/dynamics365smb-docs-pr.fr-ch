@@ -10,14 +10,14 @@ ms.custom: bap-template
 ms.search.forms: '5704, 5700, 5702, 5701'
 ---
 
-# <a name="set-up-stockkeeping-units"></a><a name="set-up-stockkeeping-units"></a>Configuration des points de stock
+# <a name="set-up-stockkeeping-units"></a><a name="set-up-stockkeeping-units"></a><a name="set-up-stockkeeping-units"></a>Configuration des points de stock
 
 Utilisez des points de stock pour enregistrer des informations relatives aux articles pour un magasin ou une variante spécifique. Ils vous permettent d’ajouter différentes informations sur un article pour un magasin spécifique, par exemple :
 
 * Un entrepôt ou un centre de distribution
 * Des variantes, par exemple différents numéros d’étagère et différentes informations de réapprovisionnement, pour un même article  
 
-## <a name="to-set-up-a-stockkeeping-unit"></a><a name="to-set-up-a-stockkeeping-unit"></a>Pour configurer un point de stock
+## <a name="to-set-up-a-stockkeeping-unit"></a><a name="to-set-up-a-stockkeeping-unit"></a><a name="to-set-up-a-stockkeeping-unit"></a>Pour configurer un point de stock
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Centres de stock**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -34,9 +34,9 @@ Pour créer plusieurs points de stock pour un article, utilisez le traitement pa
 > Si le point de stock est expédié à la fabrication, le champ **Coût standard** n’est pas utilisé lors de la facturation et de l’ajustement du coût réel de l’article fabriqué. À la place, [!INCLUDE [prod_short](includes/prod_short.md)] utilise la valeur du champ **Coût standard** de la fiche article et les écarts sont calculés par rapport aux coûts totaux de cet article.<br><br>
 > Bien que vous puissiez affecter les nomenclatures de production et les gammes aux points de stock, le calcul du coût unitaire et le calcul lié des coûts totaux ne sont pas disponibles dans les points de stock. Pour en savoir plus sur les coûts standard, consultez [À propos du calcul du coût standard](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/control-inventory-multiple-locations/) associée
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/control-inventory-multiple-locations/) associée
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  

@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# <a name="certifications"></a><a name="certifications"></a>Certifications
+# <a name="certifications"></a><a name="certifications"></a><a name="certifications"></a>Certifications
 
 Ce contenu comprend des informations sur les certifications concernant [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
-## <a name="countryregion-specific-certifications-and-accreditations"></a><a name="countryregion-specific-certifications-and-accreditations"></a>Certifications et accréditations spécifiques à un pays/une région
+## <a name="countryregion-specific-certifications-and-accreditations"></a><a name="countryregion-specific-certifications-and-accreditations"></a><a name="countryregion-specific-certifications-and-accreditations"></a>Certifications et accréditations spécifiques à un pays/une région
 
 Dans certains pays ou certaines régions, le logiciel de comptabilité doit également être certifié pour être conforme aux exigences de régulation fiscale et financières locales. Certains pays l’imposent comme exigence annuel régulière et d’autres comme une exigence ponctuelle à respecter. Voici une liste des pays/régions actuels où Business Central a obtenu des certifications.
 
@@ -27,11 +27,11 @@ Dans certains pays ou certaines régions, le logiciel de comptabilité doit éga
 > [!NOTE]  
 > Dans les pays/régions où Microsoft ne lance pas de version locale, il incombe généralement aux partenaires d’obtenir la certification du produit de base de Business Central avec la localisation du partenaire et les fonctionnalités réglementaires en plus.
 
-## <a name="other-certifications"></a><a name="other-certifications"></a>Autres certifications
+## <a name="other-certifications"></a><a name="other-certifications"></a><a name="other-certifications"></a>Autres certifications
 
 Business Central en tant que service de cloud a également obtenu des certifications telles que ISO 27001 et autres. Pour obtenir une liste complète de ces certifications, voir [cette page (PDF)](https://aka.ms/d365-compliance-list).
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
 [Conformité](compliance-overview.md)  
 [Conformité des applications](compliance-application-compliance.md)  
