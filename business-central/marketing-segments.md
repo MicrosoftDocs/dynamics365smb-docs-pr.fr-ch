@@ -12,7 +12,7 @@ ms.search.forms: '5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092'
 ms.date: 06/22/2021
 ms.author: jswymer
 ---
-# <a name="managing-segments"></a><a name="managing-segments"></a><a name="managing-segments"></a>Gestion des segments
+# <a name="managing-segments"></a>Gestion des segments
 Vous pouvez créer des segments qui vous permettent de sélectionner un groupe de contacts en fonction de critères spécifiques. Par exemple, un segment peut être le secteur auquel les contacts appartiennent ou votre relation d’affaires avec les contacts. Vous pouvez créer un segment pour sélectionner les contacts ciblés par une campagne.
 
 La création d’un segment est constituée de deux tâches principales :
@@ -28,7 +28,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Gérer les contacts affectés aux segments. |[Ajouter des contacts à des segments](marketing-add-contact-segment.md) |
 | En savoir plus sur l’utilisation des interactions pour les segments, y compris la journalisation. |[Gestion des interactions pour des segments](marketing-interaction-segments.md) |
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Gestion de contacts](marketing-contacts.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

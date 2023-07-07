@@ -12,7 +12,7 @@ ms.date: 03/14/2023
 ms.author: altotovi
 ---
 
-# <a name="accounting-and-bookkeeping"></a><a name="accounting-and-bookkeeping"></a><a name="accounting-and-bookkeeping"></a>Comptabilité et tenue de livres
+# <a name="accounting-and-bookkeeping"></a>Comptabilité et tenue de livres
 
 La comptabilité est une fonction essentielle de toute solution de planification des ressources d’entreprise (ERP), ainsi que de la plupart des entreprises. La comptabilité représente le processus d’enregistrement et de catalogage des transactions financières d’une entreprise, puis de récupération, de mesure, de synthèse et de présentation des résultats sous la forme de différents états souvent requis par la législation locale. L’objectif principal de ce processus est d’aider la direction de l’entreprise à comprendre les finances de l’entreprise et à mesurer les résultats des activités économiques de l’entreprise.
 
@@ -100,7 +100,7 @@ Le tableau suivant décrit une série de tâches et fournit des liens vers les a
 | Activer la génération d’états financiers généraux par des organisations comptables internationales à l’aide de la norme eXtensible Business Reporting Language (XBRL). | [Création d’états avec XBRL](bi-create-reports-with-xbrl.md) |
 | Modifier l’accès intentionnel à la base de données sur les états, les pages du type API et les requêtes pour réduire la charge et améliorer les performances. | [Gestion de l’intention d’accès à la base de données](admin-data-access-intent.md) |
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Configuration de Finance](finance-setup-finance.md)  
 [Ventes](sales-manage-sales.md)  

@@ -8,15 +8,15 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a><a name="accounts-receivable-reports-and-analytics-in-business-central"></a><a name="accounts-receivable-reports-and-analytics-in-business-central"></a>États comptabilité client et analyses d’immobilisation dans Business Central
+# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>États comptabilité client et analyses d’immobilisation dans Business Central
 
 Pour vous aider à gérer votre comptabilité client dans [!INCLUDE [prod_short](includes/prod_short.md)], des états et des analyses standard sont intégrés. Ils vont au-delà des contraintes des rapports traditionnels pour vous aider à concevoir efficacement divers types de rapports.  
 
-## <a name="reports"></a><a name="reports"></a><a name="reports"></a>États
+## <a name="reports"></a>États
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  
 [Utiliser les axes analytiques](finance-dimensions.md)  

@@ -10,18 +10,18 @@ ms.search.form: '5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 563
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-general-fixed-assets-information"></a><a name="set-up-general-fixed-assets-information"></a><a name="set-up-general-fixed-assets-information"></a>Configurer des informations générales pour les immobilisations
+# <a name="set-up-general-fixed-assets-information"></a>Configurer des informations générales pour les immobilisations
 
 Avant de pouvoir gérer les immobilisations, vous devez configurer les comptes généraux par défaut, les clés de ventilation, les modèles feuille et les lots pour la validation et le reclassement des immobilisations. Vous pouvez classer les immobilisations par catégorie, telles que Corporelles et Incorporelles.
 
-## <a name="to-set-up-general-default-values-for-fixed-assets"></a><a name="to-set-up-general-default-values-for-fixed-assets"></a><a name="to-set-up-general-default-values-for-fixed-assets"></a>Pour configurer des valeurs générales par défaut pour les immobilisations
+## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Pour configurer des valeurs générales par défaut pour les immobilisations
 
 Vous définissez le comportement général ou la fonctionnalité immobilisation et configurez les souches de numéros document sur la page **Paramètres immobilisations**.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres immobilisations**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-fixed-asset-posting-groups"></a><a name="to-set-up-fixed-asset-posting-groups"></a><a name="to-set-up-fixed-asset-posting-groups"></a>Pour configurer des groupes de validation immobilisation
+## <a name="to-set-up-fixed-asset-posting-groups"></a>Pour configurer des groupes de validation immobilisation
 
 Les groupes comptabilisation permettent de définir des groupes d’immobilisations. Les écritures de ces groupes comptabilisation sont validées dans les mêmes comptes généraux.
 
@@ -35,7 +35,7 @@ Les groupes comptabilisation permettent de définir des groupes d’immobilisati
 
 Pour en savoir plus sur l’utilisation de l’action **Insérer contrepartie immo.** sur les lignes feuille compta. immo., voir, par exemple, [Réévaluer les immobilisations](fa-how-revalue.md).
 
-## <a name="to-set-up-fixed-asset-allocation-keys"></a><a name="to-set-up-fixed-asset-allocation-keys"></a><a name="to-set-up-fixed-asset-allocation-keys"></a>Pour configurer les clés de ventilation d’immobilisations
+## <a name="to-set-up-fixed-asset-allocation-keys"></a>Pour configurer les clés de ventilation d’immobilisations
 
 Vous pouvez ventiler les transactions en départements ou en projets sur la base de clés de ventilation paramétrables. Vous pouvez, par exemple, définir une clé de ventilation pour répartir les coûts d’amortissement des véhicules entre le service administratif pour 35 % et le service commercial pour 65 %. Pour plus d’informations, reportez vous à [Répartition des coûts et du revenu](year-allocate-costs-income.md).
 
@@ -46,7 +46,7 @@ Les clés de ventilation s’appliquent à des classes d’immobilisations et no
 3. Sur la page **Ventilations immo.**, renseignez les champs selon vos besoins.
 4. Répétez les étapes 2 et 3 pour chacun des types de validation pour lesquels vous souhaitez définir des clés de ventilation.
 
-## <a name="to-set-up-fixed-asset-journal-templates"></a><a name="to-set-up-fixed-asset-journal-templates"></a><a name="to-set-up-fixed-asset-journal-templates"></a>Pour configurer les modèles feuille immobilisation
+## <a name="to-set-up-fixed-asset-journal-templates"></a>Pour configurer les modèles feuille immobilisation
 
 Un modèle est une présentation de feuille prédéfinie. Le modèle affiche des informations sur les codes suivi, les états et les souches de numéros. Pour en savoir plus, voir [Utiliser des feuilles comptabilité](ui-work-general-journals.md).
 
@@ -55,7 +55,7 @@ Un modèle est une présentation de feuille prédéfinie. Le modèle affiche des
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles feuille immo.**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 
-## <a name="to-set-up-fixed-asset-journal-batches"></a><a name="to-set-up-fixed-asset-journal-batches"></a><a name="to-set-up-fixed-asset-journal-batches"></a>Pour configurer des lots feuille immobilisation
+## <a name="to-set-up-fixed-asset-journal-batches"></a>Pour configurer des lots feuille immobilisation
 
 Vous pouvez définir plusieurs feuilles, c’est-à-dire des feuilles individuelles pour chaque modèle feuille. Par exemple, chaque employé peut avoir sa propre feuille dont le nom correspond à ses initiales. Pour en savoir plus, consultez [Utiliser des feuilles comptabilité](ui-work-general-journals.md).  
 
@@ -63,14 +63,14 @@ Vous pouvez définir plusieurs feuilles, c’est-à-dire des feuilles individuel
 2. Sélectionnez le modèle feuille pertinent, puis l’action **Lots**.
 3. Sur la page **Lots feuille immo.**, renseignez les champs selon vos besoins.
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a><a name="to-set-up-fixed-asset-reclassification-journal-templates"></a><a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Pour configurer des modèles feuille reclassement immobilisation
+## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Pour configurer des modèles feuille reclassement immobilisation
 
 Vous pouvez utiliser les feuilles reclassement dédiées lorsque vous devez transférer, fractionner ou regrouper des immobilisations. [!INCLUDE[prod_short](includes/prod_short.md)] crée automatiquement un modèle feuille reclassement immobilisation la première fois que vous ouvrez la page **Feuille reclass. immo**. Vous pouvez paramétrer d’autres modèles feuille reclassement. Pour en savoir plus, consultez [Utiliser des feuilles comptabilité](ui-work-general-journals.md).  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modèles feuille reclass. immo.**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a><a name="to-set-up-fixed-asset-reclassification-journal-batches"></a><a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Pour configurer les lots feuille reclassement immobilisation
+## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Pour configurer les lots feuille reclassement immobilisation
 
 Vous pouvez définir plusieurs feuilles, c’est-à-dire des feuilles individuelles pour chaque modèle feuille reclassement. Par exemple, chaque employé peut avoir sa propre feuille reclassement dont le nom correspond à ses initiales. Pour en savoir plus, consultez [Utiliser des feuilles comptabilité](ui-work-general-journals.md).
 
@@ -78,28 +78,28 @@ Vous pouvez définir plusieurs feuilles, c’est-à-dire des feuilles individuel
 2. Sélectionnez le modèle feuille pertinent, puis l’action **Lots**.
 3. Sur la page **Nom feuilles reclass. immo.**, renseignez les champs selon vos besoins.
 
-## <a name="to-set-up-fixed-asset-class-codes"></a><a name="to-set-up-fixed-asset-class-codes"></a><a name="to-set-up-fixed-asset-class-codes"></a>Pour configurer les codes classe immobilisation
+## <a name="to-set-up-fixed-asset-class-codes"></a>Pour configurer les codes classe immobilisation
 
 Les codes classe immobilisation peut être utilisé pour grouper des immobilisations, par exemple les immobilisations corporelles et les immobilisations incorporelles.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Classes immo.**, puis choisissez le lien associé.
 2. Saisissez les codes et les noms des classes que vous souhaitez créer.
 
-## <a name="to-set-up-fixed-asset-subclass-codes"></a><a name="to-set-up-fixed-asset-subclass-codes"></a><a name="to-set-up-fixed-asset-subclass-codes"></a>Pour configurer les codes sous-classe immobilisation
+## <a name="to-set-up-fixed-asset-subclass-codes"></a>Pour configurer les codes sous-classe immobilisation
 
 Le code sous-classe immobilisation permet de regrouper des immobilisations en catégories, comme les bâtiments, les véhicules, le mobilier et les machines.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sous-classes immo.**, puis choisissez le lien associé.
 2. Saisissez les codes et les noms des classes que vous souhaitez créer.
 
-## <a name="to-set-up-fixed-asset-location-codes"></a><a name="to-set-up-fixed-asset-location-codes"></a><a name="to-set-up-fixed-asset-location-codes"></a>Pour configurer les codes emplacement immobilisation
+## <a name="to-set-up-fixed-asset-location-codes"></a>Pour configurer les codes emplacement immobilisation
 
 Les codes emplacement immobilisation permettent d’enregistrer l’emplacement de l’immobilisation, tel que le service commercial, l’accueil, l’administration, la production ou un entrepôt. Ces informations sont utiles pour les assurances et le suivi du stock.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements immo.**, puis choisissez le lien associé.
 2. Saisissez les codes et les noms des emplacements immobilisation que vous souhaitez créer.
 
-## <a name="to-register-opening-entries"></a><a name="to-register-opening-entries"></a><a name="to-register-opening-entries"></a>Pour enregistrer des écritures ouvertes
+## <a name="to-register-opening-entries"></a>Pour enregistrer des écritures ouvertes
 
 Si vous utilisez les immobilisations dans [!INCLUDE[prod_short](includes/prod_short.md)] pour la première fois, vous devez d’abord paramétrer le module de comptabilité avant de définir des immobilisations. La manière de procéder est différente si les immobilisations sont intégrées en comptabilité.  
 
@@ -123,9 +123,9 @@ Si vous utilisez les immobilisations dans [!INCLUDE[prod_short](includes/prod_sh
 
 Si les immobilisations ne sont pas intégrées en comptabilité, omettez les étapes 6 et 8.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/set-up-fixed-assets-management/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/set-up-fixed-assets-management/) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Paramétrage d’immobilisations](fa-setup.md)  
 [COMPTES D’IMMOBILISATIONS](fa-manage.md)  

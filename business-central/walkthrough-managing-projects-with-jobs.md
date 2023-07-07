@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-managing-projects-with-jobs"></a><a name="walkthrough-managing-projects-with-jobs"></a><a name="walkthrough-managing-projects-with-jobs"></a>Procédure pas à pas : gestion des projets
+# <a name="walkthrough-managing-projects-with-jobs"></a>Procédure pas à pas : gestion des projets
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -18,11 +18,11 @@ Cette procédure pas-à-pas présente les fonctionnalités de gestion de projets
 
  Cette procédure pas à pas couvre la configuration d’un nouveau projet, en plus de tâches plus communes telles que la gestion des prix fixes, les paiements en plusieurs versements, la validation de factures à partir de projets et la copie de projets.  
 
-## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas
+## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas
 
  Cette procédure pas à pas présente les tâches suivantes :  
 
-### <a name="setting-up-a-job"></a><a name="setting-up-a-job"></a><a name="setting-up-a-job"></a>Configuration d’un projet
+### <a name="setting-up-a-job"></a>Configuration d’un projet
 
  Avec la structure de budget paramétrée pour les projets, la création d’un projet est très simple. Cette procédure pas-à-pas couvre les procédures suivantes :  
 
@@ -30,14 +30,14 @@ Cette procédure pas-à-pas présente les fonctionnalités de gestion de projets
 - Création de prix spécifiques à un projet pour des articles, des ressources et des comptes généraux.  
 - la facturation à partir d’un projet.  
 
-### <a name="handling-fixed-prices"></a><a name="handling-fixed-prices"></a><a name="handling-fixed-prices"></a>Gestion de prix fixes
+### <a name="handling-fixed-prices"></a>Gestion de prix fixes
 
  Dans les projets, vous pouvez gérer des prix fixes, ainsi que les prix de biens ou de services convenus à l’avance avec les clients. Pour cette procédure pas-à-pas, vous pouvez procéder comme suit :  
 
 - Découvrir comment les valeurs contrat et facture sont déterminées.  
 - Autoriser le travail supplémentaire qui n’a pas été facturé dans le planning.  
 
-### <a name="copying-a-job"></a><a name="copying-a-job"></a><a name="copying-a-job"></a>Copie d’un projet
+### <a name="copying-a-job"></a>Copie d’un projet
 
  Cette partie de la procédure se concentre sur la manière de copier tout ou partie d’un projet afin de réduire la saisie manuelle de données et ainsi améliorer la précision. Elle inclut les points suivants :  
 
@@ -45,7 +45,7 @@ Cette procédure pas-à-pas présente les fonctionnalités de gestion de projets
 - la copie de prix spécifiques à un projet.  
 - la copie de lignes planning.  
 
-### <a name="making-payment-by-installment"></a><a name="making-payment-by-installment"></a><a name="making-payment-by-installment"></a>Paiement en plusieurs versements
+### <a name="making-payment-by-installment"></a>Paiement en plusieurs versements
 
  Lorsqu’un projet important et onéreux dure longtemps, le client conclut souvent un accord avec la société pour payer en plusieurs versements. Ce scénario montre comment configurer un paiement en plusieurs versements et couvre les points suivants :  
 
@@ -53,31 +53,31 @@ Cette procédure pas-à-pas présente les fonctionnalités de gestion de projets
 - la facturation de paiements à des clients ;  
 - Comptabilité à utiliser dans un projet configuré en vue d’un paiement en plusieurs versements.  
 
-## <a name="roles"></a><a name="roles"></a><a name="roles"></a>Rôles
+## <a name="roles"></a>Rôles
 
  Cette procédure pas à pas inclut les tâches correspondant aux rôles suivants :  
 
 - Chef de projet  
 - Membre de l’équipe de projet  
 
-## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Conditions préalables
+## <a name="prerequisites"></a>Conditions préalables
 
  Avant d’exécuter cette procédure pas à pas, veuillez suivre les instructions ci-dessous :  
 
 - Installez la base de données de démonstration CRONUS.
 - Créez des exemples de données en respectant les étapes décrites dans la section suivante.  
 
-## <a name="story"></a><a name="story"></a><a name="story"></a>Scénario
+## <a name="story"></a>Scénario
 
 Cette procédure pas à pas se concentre sur la société CRONUS, une entreprise de conception et de conseil, qui conçoit et équipe de nouvelles infrastructures (telles que des salles de conférence et des bureaux) avec du mobilier, des accessoires et des unités de stockage. La plus grande partie de son travail est orientée vers des projets. Prakash, chef de projet chez CRONUS, utilise les projets pour avoir un aperçu de chaque projet en cours entrepris par CRONUS, ainsi que les projets terminés. C’est généralement Prakash qui conduit les négociations avec les clients et entre les principaux éléments du projet (lignes tâche et planning, ainsi que les prix) dans [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash trouve que la création, la gestion et la consultation des informations sont simples. Prakash aime également la manière dont [!INCLUDE[prod_short](includes/prod_short.md)] permet de copier des projets et d’effectuer un paiement en plusieurs versements.
 
  Tricia, membre de l’équipe de projet qui rend compte à Prakash, est responsable de la surveillance quotidienne du projet. Tricia entre dans le système son propre travail, ainsi que celui accompli par les techniciens sur chaque tâche, notamment les articles qu’ils ont utilisés et les coûts exposés.  
 
-## <a name="preparing-sample-data"></a><a name="preparing-sample-data"></a><a name="preparing-sample-data"></a>Préparation d’exemples de données
+## <a name="preparing-sample-data"></a>Préparation d’exemples de données
 
  Pour préparer cette procédure pas à pas, vous devez ajouter Tricia comme nouvelle ressource.  
 
-### <a name="to-prepare-the-sample-data"></a><a name="to-prepare-the-sample-data"></a><a name="to-prepare-the-sample-data"></a>Pour préparer les exemples de données
+### <a name="to-prepare-the-sample-data"></a>Pour préparer les exemples de données
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Ressources**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Nouveau** pour créer une fiche ressource.  
@@ -100,7 +100,7 @@ Cette procédure pas à pas se concentre sur la société CRONUS, une entreprise
 
 Dans la procédure suivante, vous créez une feuille projet nominative pour Tricia pour valider leur activité.  
 
-### <a name="to-create-a-job-journal-batch"></a><a name="to-create-a-job-journal-batch"></a><a name="to-create-a-job-journal-batch"></a>Pour créer un nom feuille projet
+### <a name="to-create-a-job-journal-batch"></a>Pour créer un nom feuille projet
 
 1.  Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Feuilles projet**, puis choisissez le lien associé.  
 2.  Sur la page **Feuille projet**, choisissez le champ **Nom de la feuille**. La page **Noms feuilles projet** s’ouvre.  
@@ -112,11 +112,11 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
 
 4.  Cliquez sur le bouton **OK** pour enregistrer les modifications.
 
-## <a name="setting-up-a-job-1"></a><a name="setting-up-a-job-1"></a><a name="setting-up-a-job-1"></a>Configuration d’un projet
+## <a name="setting-up-a-job-1"></a>Configuration d’un projet
 
  Dans ce cas, CRONUS a décroché un contrat avec un client, Progressive Home Furnishings, pour la conception d’une salle de conférence/repas. Le client est basé aux États-Unis et le projet nécessitera l’utilisation d’un logiciel spécial. Le chef de projet conclut un accord avec le client et crée un projet en relation avec cet accord.  
 
-### <a name="to-set-up-a-job"></a><a name="to-set-up-a-job"></a><a name="to-set-up-a-job"></a>Pour configurer un projet
+### <a name="to-set-up-a-job"></a>Pour configurer un projet
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Nouveau** pour créer une fiche.  
@@ -136,7 +136,7 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
 
  Vous pouvez personnaliser la tarification des clients projet par projet, en fonction des accords que vous avez définis. Dans la procédure suivante, le chef de projet indique un coût horaire pour Tricia, définit le prix du logiciel à utiliser et ajoute les frais de déplacement que le client a accepté de payer.  
 
-### <a name="to-customize-pricing"></a><a name="to-customize-pricing"></a><a name="to-customize-pricing"></a>Pour personnaliser la tarification
+### <a name="to-customize-pricing"></a>Pour personnaliser la tarification
 
 1.  Dans la fiche projet, choisissez l’action **Ressource**.  
 2.  Sur la page **Prix ressource projet**, entrez les informations suivantes :  
@@ -162,7 +162,7 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
 
  Les dernières étapes de la configuration d’un projet consistent à ajouter les tâches projet et les lignes planning qui font partie de chaque tâche. Les lignes planning déterminent ce qui est facturé au client.  
 
-### <a name="to-add-job-tasks"></a><a name="to-add-job-tasks"></a><a name="to-add-job-tasks"></a>Pour ajouter des tâches de projet
+### <a name="to-add-job-tasks"></a>Pour ajouter des tâches de projet
 
 1.  Dans la fiche **Projet** du nouveau projet, choisissez l’action **Lignes tâche projet**.  
 2.  Le tableau suivant décrit les informations que vous devez entrer dans les champs.  
@@ -184,7 +184,7 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
 
  Dans cette procédure pas à pas, le chef de projet utilise le type **Budget et Facturable**. Ils créent trois lignes planning pour la tâche 1010 et deux lignes planning pour la tâche 1020.  
 
-### <a name="to-create-planning-lines"></a><a name="to-create-planning-lines"></a><a name="to-create-planning-lines"></a>Pour créer des lignes planning
+### <a name="to-create-planning-lines"></a>Pour créer des lignes planning
 
 1. Sélectionnez la ligne 1010, puis cliquez sur **Lignes planning projet**.  
 
@@ -206,11 +206,11 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
 
 4. Fermez la page. Les totaux sont mis à jour sur la page **Lignes tâche projet**.  
 
-## <a name="calculating-remaining-usage"></a><a name="calculating-remaining-usage"></a><a name="calculating-remaining-usage"></a>Calcul de l’activité restante
+## <a name="calculating-remaining-usage"></a>Calcul de l’activité restante
 
  Tricia, qui fait partie de l’équipe du projet, travaille depuis quelque temps sur le projet et souhaite enregistrer les heures et l’activité qu’elle y a consacrées. Tricia n’a pas consacré plus de temps que ce qui avait été convenu à l’avance avec le client. Tricia utilise le traitement par lots **Calc. activité restante** pour calculer l’activité restante pour le projet dans une feuille projet. Pour chaque tâche, le traitement par lots calcule la différence entre l’activité planifiée des articles, des ressources et des dépenses générales et l’activité réelle validée dans les écritures comptables projet. L’activité restante est ensuite affichée dans la feuille projet à partir de laquelle elle peut la valider.  
 
-### <a name="to-calculate-remaining-usage"></a><a name="to-calculate-remaining-usage"></a><a name="to-calculate-remaining-usage"></a>Pour calculer l’activité restante
+### <a name="to-calculate-remaining-usage"></a>Pour calculer l’activité restante
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
 2.  Dans le champ **Nom feuille** de la page **Feuille projet**, ouvrez la liste **Noms feuilles projet**. Sélectionnez le nom de la feuille projet **Tricia**.  
@@ -224,11 +224,11 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
 
 Les lignes sont à présent validées.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a><a name="creating-and-posting-a-job-sales-invoice"></a><a name="creating-and-posting-a-job-sales-invoice"></a>Création et validation d’une facture vente projet
+## <a name="creating-and-posting-a-job-sales-invoice"></a>Création et validation d’une facture vente projet
 
  Ensuite, Tricia peut créer une facture pour l’ensemble du projet ou une partie du projet. Tricia peut également joindre la facture à une autre destinée au même client pour le même projet. Dans ce cas, Tricia facture l’ensemble du projet, car celui-ci est à présent terminé.  
 
-### <a name="to-create-a-job-sales-invoice"></a><a name="to-create-a-job-sales-invoice"></a><a name="to-create-a-job-sales-invoice"></a>Pour créer une facture vente projet
+### <a name="to-create-a-job-sales-invoice"></a>Pour créer une facture vente projet
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2.  Sélectionnez le projet que vous avez créé précédemment, puis choisissez l’action **Créer une facture vente projet**.  
@@ -238,13 +238,13 @@ Les lignes sont à présent validées.
 
  Une fois la facture créée, Tricia peut y accéder à partir du Tableau de bord **Préparateur de commandes vente**, par exemple. 
 
-### <a name="to-post-a-new-sales-invoice"></a><a name="to-post-a-new-sales-invoice"></a><a name="to-post-a-new-sales-invoice"></a>Pour valider une nouvelle facture vente
+### <a name="to-post-a-new-sales-invoice"></a>Pour valider une nouvelle facture vente
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.  
 2.  Ouvrez la facture pour le client N° 01445544. Vous pouvez voir les informations entrées à partir des lignes planning.  
 3.  Sélectionnez l’action **Valider**. Cliquez sur **Oui** pour confirmer la validation.  
 
-### <a name="to-view-the-posted-invoice"></a><a name="to-view-the-posted-invoice"></a><a name="to-view-the-posted-invoice"></a>Pour afficher la facture validée
+### <a name="to-view-the-posted-invoice"></a>Pour afficher la facture validée
 
 1.  Ouvrez le projet, puis choisissez l’action **Lignes planning projet**.  
 2.  Sélectionnez l’une des lignes planning qui ont été facturées, puis choisissez l’action **Facture vente/Avoir**.
@@ -252,17 +252,17 @@ Les lignes sont à présent validées.
 
  Tricia se pose une question concernant les prix, les coûts et les marges en relation avec ce projet particulier. Par conséquent, Tricia peut accéder à ces informations sur la page **Statistiques**.  
 
-### <a name="to-open-the-statistics-page"></a><a name="to-open-the-statistics-page"></a><a name="to-open-the-statistics-page"></a>Pour ouvrir la page Statistiques
+### <a name="to-open-the-statistics-page"></a>Pour ouvrir la page Statistiques
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2.  Sélectionnez l’action **Statistiques**. Vous pouvez consulter des informations détaillées sur les prix, les coûts et les profits d’un projet dans la devise locale et dans une devise étrangère.  
 3.  Cliquez sur le bouton **Fermer** pour fermer la page **Statistiques projet**.  
 
-## <a name="handling-fixed-prices-1"></a><a name="handling-fixed-prices-1"></a><a name="handling-fixed-prices-1"></a>Gestion de prix fixes
+## <a name="handling-fixed-prices-1"></a>Gestion de prix fixes
 
  L’installation de salles de conférence a été confiée à CRONUS. En tant que chef de projet, Prakash souhaite disposer d’une bonne vue d’ensemble des tâches liées au projet ainsi que des coûts budgétisés et exposés associés à chacune d’elle. Prakash souhaite, en outre, connaître le prix total convenu pour le projet et les montants déjà facturés à ce stade. Ils ont conclu un accord avec le client concernant le prix fixe du projet.  
 
-### <a name="to-manage-fixed-pricing-in-jobs"></a><a name="to-manage-fixed-pricing-in-jobs"></a><a name="to-manage-fixed-pricing-in-jobs"></a>Pour gérer un prix fixe dans des projets
+### <a name="to-manage-fixed-pricing-in-jobs"></a>Pour gérer un prix fixe dans des projets
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez le numéro de projet **Guildford**, puis choisissez l’action **Lignes tâche projet**.  
@@ -282,7 +282,7 @@ Les lignes sont à présent validées.
 
 Une fois Tricia ajoutée au planning pour cette ligne tâche, celle-ci va consacrer 25 heures au projet et saisit ces heures dans la Feuille projet.  
 
-### <a name="to-enter-hours-in-the-job-journal"></a><a name="to-enter-hours-in-the-job-journal"></a><a name="to-enter-hours-in-the-job-journal"></a>Pour entrer des heures dans la Feuille projet
+### <a name="to-enter-hours-in-the-job-journal"></a>Pour entrer des heures dans la Feuille projet
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.  
 2. Dans une nouvelle ligne, entrez les informations suivantes :  
@@ -337,13 +337,13 @@ Une fois Tricia ajoutée au planning pour cette ligne tâche, celle-ci va consac
 
 Dans le prix total du contrat, seules les 30 heures contractuelles d’origine sont incluses car c’est ce qui a été convenu avec le client.  
 
-## <a name="copying-jobs"></a><a name="copying-jobs"></a><a name="copying-jobs"></a>Copie de projets
+## <a name="copying-jobs"></a>Copie de projets
 
 Prakash a conclu un accord avec un client, Selagorian Ltd, pour l’installation de 10 salles de conférence. Cet accord est similaire à un projet antérieur. Il gagnera par conséquent du temps en copiant ce projet antérieur.  
 
 Sur la page **Copier projet**, vous pouvez sélectionner le projet et les lignes tâche à copier. Vous pouvez également choisir de copier les écritures comptables projet source, ce qui a pour effet de créer des lignes planning basées sur une activité réelle, ou copier les lignes planning du projet source, ce qui a pour effet de copier les lignes planning originales dans le nouveau projet. Vous pouvez ensuite choisir la ligne planning ou le type de ligne écriture comptable à inclure en ne sélectionnant que ce qui convient pour ce nouveau projet. Enfin, vous pouvez sélectionner le projet dans lequel vous voulez copier, puis définir si les prix et quantités doivent également être copiés.  
 
-### <a name="to-copy-a-job"></a><a name="to-copy-a-job"></a><a name="to-copy-a-job"></a>Pour copier un projet
+### <a name="to-copy-a-job"></a>Pour copier un projet
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2. Choisissez l’action **Nouveau** pour créer un projet. Entrez les informations suivantes :  
@@ -365,11 +365,11 @@ Sur la page **Copier projet**, vous pouvez sélectionner le projet et les lignes
 
 Si vous comparez les prix, les lignes tâche projet et les lignes planning projet des deux projets, vous pouvez constater que la copie des informations a réussi.  
 
-## <a name="making-payments-by-installments"></a><a name="making-payments-by-installments"></a><a name="making-payments-by-installments"></a>Paiements en plusieurs versements
+## <a name="making-payments-by-installments"></a>Paiements en plusieurs versements
 
 CRONUS vient de décrocher un nouveau projet dont la réalisation prendra une année. Comme ce projet mobilisera un grand nombre de ressources, le chef de projet établit le contrat de sorte que le client paie une partie du prix à la commande, une autre lorsqu’il sera à moitié accompli et le solde à la livraison.  
 
-### <a name="to-set-up-a-new-account"></a><a name="to-set-up-a-new-account"></a><a name="to-set-up-a-new-account"></a>Pour configurer un nouveau compte
+### <a name="to-set-up-a-new-account"></a>Pour configurer un nouveau compte
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
 2. Sur la page **Plan comptable**, choisissez l’action **Nouveau** pour créer une fiche.  
@@ -383,7 +383,7 @@ CRONUS vient de décrocher un nouveau projet dont la réalisation prendra une an
 
 Les procédures suivantes expliquent comment créer un projet, définir un prix et configurer un paiement en plusieurs versements. Dans les lignes tâche projet, vous pouvez créer des lignes spécifiques dédiées au paiement en plusieurs versements. Tout le travail consacré au projet ajouté au planning sera entré dans les lignes activité. Pour chaque ligne tâche paiement sur les lignes planning, le type de ligne est **Facturable**, ce qui signifie que le client sera facturé. Entrez une nouvelle ligne pour l’acompte. Dans la ligne tâche activité, vous pouvez entrer les informations relatives aux articles et ressources utilisés dans ce projet, qui allongeront le planning, telles que les heures de travail des salariés et les articles consommés pour le projet.  
 
-### <a name="to-make-a-payment-by-installment"></a><a name="to-make-a-payment-by-installment"></a><a name="to-make-a-payment-by-installment"></a>Pour créer un paiement en plusieurs versements
+### <a name="to-make-a-payment-by-installment"></a>Pour créer un paiement en plusieurs versements
 
 1. Créez un projet.  
 2. Dans la nouvelle fiche **Projet**, entrez les informations suivantes :  
@@ -444,19 +444,19 @@ Les procédures suivantes expliquent comment créer un projet, définir un prix 
 
  Une fois les lignes tâche et planning entrées, Prakash crée une facture pour le premier paiement. Prakash le fait à partir des lignes tâche projet pour être certain que la facture ne contienne que les lignes relatives au premier paiement. Vous pouvez ouvrir la commande vente à partir des lignes planning ou des lignes tâche.  
 
-### <a name="to-create-an-invoice"></a><a name="to-create-an-invoice"></a><a name="to-create-an-invoice"></a>Pour créer une facture
+### <a name="to-create-an-invoice"></a>Pour créer une facture
 
 1.  Sur la page **Lignes tâche projet**, sélectionnez la ligne 1000, puis choisissez l’action **Créer facture vente**.  
 2.  Sur la page **Créer facture vente**, indiquez la date du jour comme date de validation, spécifiez **Par tâche**, puis cliquez sur le bouton **OK** pour créer une facture avec les informations par défaut. Cliquez sur le bouton **OK** pour fermer la page de confirmation.  
 3.  Choisissez l’action **Facture vente/avoir**. Sur la facture vente, vous pouvez voir que seul l’acompte est inclus dans la facture. Vous pouvez à présent envoyer cette dernière au client comme convenu.  
 
-## <a name="next-steps"></a><a name="next-steps"></a><a name="next-steps"></a>Étapes suivantes
+## <a name="next-steps"></a>Étapes suivantes
 
  Cette procédure pas à pas vous a présenté l’utilisation de base des projets dans [!INCLUDE[prod_short](includes/prod_short.md)]. Vous avez appris à créer un projet, à copier un projet et à gérer les paiements. Vous avez également vu comment assurer le suivi des heures et créer des factures.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/create-jobs/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/create-jobs/) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
  [Configuration de la gestion de projets](projects-setup-projects.md)  

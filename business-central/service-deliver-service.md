@@ -10,7 +10,7 @@ ms.search.keywords: 'service, service items, respond, response'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="delivering-service"></a><a name="delivering-service"></a><a name="delivering-service"></a>Fournir un service
+# <a name="delivering-service"></a>Fournir un service
 [!INCLUDE[prod_short](includes/prod_short.md)] inclut des fonctionnalités qui vous permettent d’offrir le service correspondant aux contrats créés et les commandes service que vous vous êtes engagé à traiter. Grâce au **Tableau d’affectation**, les techniciens de service et agents d’affectation ont facilement accès aux commandes service en attente. Le **Tableau d’affectation** affiche les commandes en cours et les commandes terminées.  
   
 La fenêtre **Tâches service**, qui affiche vos obligations de service, permet également de consulter les commandes service en attente. Elle indique la position de la commande dans le flux de service et permet de modifier ce statut pour refléter les interactions avec le client.  
@@ -33,7 +33,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Créer et valider des factures pour les services que vous avez fournis.|[Créer des factures service ou des avoirs](service-how-create-invoices.md)|  
 |Assurer la satisfaction de vos clients en leur prêtant un article pendant que vous réparez le leur.| [Prêter et recevoir des articles de prêt](service-how-to-lend-receive-loaners.md)|
   
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Services de planification](service-plan-service.md)  
 [Exécution des contrats de service](service-fulfill-service-contracts.md)  
 [Gestion des projets](projects-manage-projects.md)  

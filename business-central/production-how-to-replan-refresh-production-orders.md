@@ -10,7 +10,7 @@ ms.search.form: '99000842, 99000843, 99000861, 99000862, 99000863'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="replan-or-refresh-production-orders-directly"></a><a name="replan-or-refresh-production-orders-directly"></a><a name="replan-or-refresh-production-orders-directly"></a>Replanifier ou actualiser directement des ordres de fabrication
+# <a name="replan-or-refresh-production-orders-directly"></a>Replanifier ou actualiser directement des ordres de fabrication
 
 La fonction **Replanifier** des ordres de fabrication est généralement utilisée après avoir ajouté ou modifié des composants constituant des ordres de fabrication sous-jacents. La fonction calcule les modifications apportées aux composants et aux lignes gamme. Elle inclut les articles situés à des niveaux de nomenclatures de production inférieurs, pour lesquels elle peut générer de nouveaux O.F.  
 
@@ -28,7 +28,7 @@ Vous pouvez soit insérer les lignes O.F. manuellement, soit utiliser la fonctio
 > [!NOTE]
 > Si vous utilisez la fonction Actualiser pour recalculer des lignes O.F., les anciennes lignes O.F. sont supprimées et de nouvelles lignes sont calculées.  
 
-## <a name="to-replan-a-production-order"></a><a name="to-replan-a-production-order"></a><a name="to-replan-a-production-order"></a>Pour replanifier un ordre de fabrication
+## <a name="to-replan-a-production-order"></a>Pour replanifier un ordre de fabrication
 
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
 2. Ouvrez l’ordre de fabrication à replanifier.  
@@ -57,7 +57,7 @@ Vous pouvez soit insérer les lignes O.F. manuellement, soit utiliser la fonctio
 > [!NOTE]  
 > Les modifications mises en œuvre via la fonction **Replanifier** risquent fortement de modifier la capacité nécessaire de l’ordre de fabrication et de vous obliger à effectuer par la suite une replanification des opérations.  
 
-## <a name="to-refresh-a-production-order"></a><a name="to-refresh-a-production-order"></a><a name="to-refresh-a-production-order"></a>Pour actualiser un ordre de fabrication
+## <a name="to-refresh-a-production-order"></a>Pour actualiser un ordre de fabrication
 
 Si vous avez modifié des lignes O.F., des composants ou des lignes gamme, vous devez aussi actualiser les informations de l’ordre de fabrication. Dans la procédure qui suit, les composants d’un ordre de fabrication planifié ferme sont calculés. La procédure est identique pour les lignes gamme.
 
@@ -80,7 +80,7 @@ Si vous avez modifié des lignes O.F., des composants ou des lignes gamme, vous 
 > [!NOTE]  
 > Le calcul des composants O.F. supprime les modifications précédentes des composants.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Planifié](production-planning.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  

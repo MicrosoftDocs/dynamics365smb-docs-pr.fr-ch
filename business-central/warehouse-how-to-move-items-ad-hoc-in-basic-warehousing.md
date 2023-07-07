@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '393, 7382'
 ---
-# <a name="move-items-internally-in-basic-warehouse-configurations"></a><a name="move-items-internally-in-basic-warehouse-configurations"></a><a name="move-items-internally-in-basic-warehouse-configurations"></a>Déplacer des articles en interne dans les configurations de stockage de base
+# <a name="move-items-internally-in-basic-warehouse-configurations"></a>Déplacer des articles en interne dans les configurations de stockage de base
 
 Vous souhaiterez peut-être déplacer des articles entre emplacements sans demande d’un document origine. Par exemple, dans le cadre des activités suivantes :
 
@@ -25,11 +25,11 @@ Dans les configurations d’entrepôt où le bouton à bascule de configuration 
 * Sur la page **Mouvement interne**.
 * Sur la page **Feuille reclassement article**.  
 
-## <a name="internal-movements"></a><a name="internal-movements"></a><a name="internal-movements"></a>Mouvements internes
+## <a name="internal-movements"></a>Mouvements internes
 
 La page **Mouvements internes** vous permet de spécifier des lignes Prendre et Placer lorsqu’il n’y a pas de demande d’un document origine. La page Mouvement interne est comme une feuille de travail pour organiser les choses. Vous ne pouvez pas traiter le mouvement réel directement à partir de celle-ci. Lorsqu’une ligne est remplie, utilisez l’action **Créer un mouvement stock** pour envoyer la ligne à la page **Mouvement stock**, où vous traitez et enregistrez le mouvement.
 
-### <a name="to-move-items-as-an-internal-movement"></a><a name="to-move-items-as-an-internal-movement"></a><a name="to-move-items-as-an-internal-movement"></a>Pour déplacer des articles en tant que mouvement interne
+### <a name="to-move-items-as-an-internal-movement"></a>Pour déplacer des articles en tant que mouvement interne
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Mouvements internes**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. Assurez-vous que le champ **N°** du raccourci **Général** est rempli.
@@ -59,7 +59,7 @@ La page **Mouvements internes** vous permet de spécifier des lignes Prendre et 
 
 Exécutez le reste du mouvement non planifié sur la page **Mouvement de stock** de la même manière que pour un mouvement basé sur des documents origine.
 
-### <a name="to-record-the-inventory-movement"></a><a name="to-record-the-inventory-movement"></a><a name="to-record-the-inventory-movement"></a>Pour enregistrer le mouvement stock
+### <a name="to-record-the-inventory-movement"></a>Pour enregistrer le mouvement stock
 
 1. Sur la page **Mouvement stock**, ouvrez le document pour lequel enregistrer le mouvement.  
 2. Dans le champ **Code emplacement** sur les lignes mouvement, l’emplacement à partir duquel les articles doivent être prélevés est celui où les articles sont disponibles. Si nécessaire, vous pouvez modifier l’emplacement.
@@ -72,7 +72,7 @@ Voici ce qui se passe pendant le processus de validation :
 
 * Les écritures magasin indiquent que la quantité est transférée des emplacements « prendre » vers les emplacements « placer ».
 
-## <a name="to-move-items-with-the-item-reclassification-journal"></a><a name="to-move-items-with-the-item-reclassification-journal"></a><a name="to-move-items-with-the-item-reclassification-journal"></a>Pour déplacer des articles avec la feuille reclassement article
+## <a name="to-move-items-with-the-item-reclassification-journal"></a>Pour déplacer des articles avec la feuille reclassement article
 
 Au lieu d’utiliser des documents de mouvement, vous pouvez enregistrer des mouvements en reclassant les codes d’emplacement sur les articles. Learn more at [Comptabiliser, ajuster et reclasser le stock avec les feuilles](inventory-how-count-adjust-reclassify.md).
 
@@ -89,9 +89,9 @@ Au lieu d’utiliser des documents de mouvement, vous pouvez enregistrer des mou
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/manage-internal-warehouse-processes/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/manage-internal-warehouse-processes/) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  

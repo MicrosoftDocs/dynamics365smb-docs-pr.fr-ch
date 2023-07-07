@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="print-the-picking-list"></a><a name="print-the-picking-list"></a><a name="print-the-picking-list"></a>Imprimer la liste des prélèvements
+# <a name="print-the-picking-list"></a>Imprimer la liste des prélèvements
 
 Vous pouvez imprimer une liste des prélèvements de stock directement à partir d’une commande client ou d’autres documents qui déclenchent l’expédition des articles.
 
 Cet état est généralement utilisé dans les entreprises sans fonctionnalité dédiée à la gestion des entrepôts, de sorte qu’un magasinier peut afficher ou imprimer la liste des prélèvements à partir du document de vente associé. Dans les entreprises avec un volume plus élevé ou des processus plus complexes, l’expédition et le prélèvement sont planifiés et effectués dans des documents d’entrepôt dédiés. Learn more at [Flux de désenlogement](design-details-outbound-warehouse-flow.md).
 
-## <a name="to-print-a-picking-list-from-a-sales-order"></a><a name="to-print-a-picking-list-from-a-sales-order"></a><a name="to-print-a-picking-list-from-a-sales-order"></a>Pour imprimer la liste des prélèvements à partir d’une commande vente
+## <a name="to-print-a-picking-list-from-a-sales-order"></a>Pour imprimer la liste des prélèvements à partir d’une commande vente
 
 La procédure suivante se base sur une commande vente. Les étapes sont similaires pour tous les autres documents pouvant être utilisés pour lancer l’expédition d’articles, par exemple un ordre transfert.
 
@@ -30,7 +30,7 @@ Vous pouvez également enregistrer la liste des prélèvements en tant que docum
 > [!NOTE]
 > Si vous avez utilisé la fonction **Éclater nomenclature** sur la commande client, seuls les composants de l’élément d’assemblage associé sont affichés dans le rapport. Learn more at [Utiliser les nomenclatures](inventory-how-work-BOMs.md).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Stock](inventory-manage-inventory.md)  
 [Flux de désenlogement](design-details-outbound-warehouse-flow.md)

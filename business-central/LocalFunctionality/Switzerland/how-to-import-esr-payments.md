@@ -11,12 +11,12 @@ ms.search.form: '3010531, 3010532'
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# <a name="import-esr-payments-in-the-swiss-version"></a><a name="import-esr-payments-in-the-swiss-version"></a><a name="import-esr-payments-in-the-swiss-version"></a>Importer des paiements ESR dans la version suisse
+# <a name="import-esr-payments-in-the-swiss-version"></a>Importer des paiements ESR dans la version suisse
 Après avoir reçu le paiement d'un client, vous recevez un fichier contenant des informations sur les factures payées. Vous pouvez recevoir ce fichier de votre banque par voie électronique, ou par courrier électronique.  
 
 Vous pouvez importer les données de facture Einzahlungsschein mit Referenznummer (ESR) issues du fichier, imprimer les données en utilisant l'état ESR de la facture de vente ou le rapport de coupon ESR des ventes, et les vérifier avant de les valider. Pour plus d'informations, reportez-vous à [Imprimer des factures ESR](how-to-print-esr-invoices.md).  
 
-## <a name="to-import-esr-payments"></a><a name="to-import-esr-payments"></a><a name="to-import-esr-payments"></a>Pour importer des paiements ESR
+## <a name="to-import-esr-payments"></a>Pour importer des paiements ESR
 
 1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles règlement**, puis sélectionnez le lien associé.  
 2.  Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.  
@@ -33,7 +33,7 @@ Vous pouvez importer les données de facture Einzahlungsschein mit Referenznumme
 
 Les informations sur le paiement sont importées vers les lignes feuille. Les paiements sont automatiquement appliqués aux factures respectives selon des numéros de référence ESR uniques.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
  [Paiements électroniques à l'aide de ESR, Suisse](swiss-electronic-payments-using-esr.md)   
  [Imprimer des factures ESR](how-to-print-esr-invoices.md)
 

@@ -10,7 +10,7 @@ Dans [!INCLUDE[prod_short](../../../includes/prod_short.md)], vous pouvez créer
 > [!NOTE]
 > Pour créer des relances livraison, vous devez avoir configuré les conditions, les niveaux et les textes des relances livraison.
 
-## <a name="to-create-a-delivery-reminder-manually"></a><a name="to-create-a-delivery-reminder-manually"></a><a name="to-create-a-delivery-reminder-manually"></a>Pour créer une relance livraison manuellement
+## <a name="to-create-a-delivery-reminder-manually"></a>Pour créer une relance livraison manuellement
 
 1. Choisissez l'![icône Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Relance livraison**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  

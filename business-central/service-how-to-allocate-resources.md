@@ -11,14 +11,14 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="allocate-resources"></a><a name="allocate-resources"></a><a name="allocate-resources"></a>Affecter des ressources
+# <a name="allocate-resources"></a>Affecter des ressources
 Les personnes qui fournissent le service représentent l’élément clé de la gestion des services. Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour affecter les personnes aux tâches de manière appropriée. Vous pouvez baser les affectations sur les zones de service dans lesquelles les personnes sont situées ou dans lesquelles le service se produit. En outre, vous pouvez regrouper les ressources lors de la réponse aux demandes de service. Pour plus d’informations, voir [Configurer l’affectation des ressources](service-how-setup-resource-allocation.md).
 
 Vous pouvez affecter des ressources, par exemple, des techniciens, à l’aide du **Tableau d’affectation** ou d’une commande service. Vous pouvez utiliser la disponibilité des ressources pour affecter des ressources à l’exécution des tâches service dans les commandes ou les devis.
 
 Vous pouvez ventiler la même ressource, par exemple, un technicien, ou le même groupe ressources sur tous les articles de service d’une commande service. Des écritures affectation sont crées pour les autres articles de service de la commande avec le même numéro ressource et la même date affectation que la ligne affectée. Les heures affectées sont obtenues en divisant les heures que vous avez affectées par le nombre d’articles de service de la commande. Le champ **Statut** est automatiquement paramétré sur **Actif** pour toutes les écritures créées.
 
-## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a><a name="to-see-an-overview-of-service-orders-and-service-quotes"></a><a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Pour afficher un aperçu des commandes/devis service :
+## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Pour afficher un aperçu des commandes/devis service :
 Vous aurez souvent besoin de consulter la liste des commandes service ou des devis service répondant à certaines exigences pour être en mesure d’exécuter des actions spécifiques sur chacun de ces documents. Vous devrez, par exemple, affecter des ressources à des commandes service appartenant à un client spécifique.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableau d’affectation**, puis sélectionnez le lien associé.  
@@ -31,7 +31,7 @@ Vous aurez souvent besoin de consulter la liste des commandes service ou des dev
 
     La page **Commande service** ou **Devis service** s’ouvre et vous pouvez utiliser le document. Pour revenir à la page **Tableau d’affectation**, choisissez **OK**.
 
-## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a><a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a><a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Pour affecter une ressource à l’aide de la disponibilité ressource ou groupe ressources
+## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Pour affecter une ressource à l’aide de la disponibilité ressource ou groupe ressources
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableau d’affectation**, puis sélectionnez le lien associé.  
 2. Choisissez la commande service, puis sélectionnez l’action **Affectations ressources**.  
 3. Choisissez l’écriture comportant la tâche service à laquelle vous souhaitez affecter une ressource.  
@@ -49,7 +49,7 @@ Vous aurez souvent besoin de consulter la liste des commandes service ou des dev
 > [!NOTE]  
 >  Pour un article de service d’une commande service, il ne peut y avoir que des écritures affectation **actives** avec une seule ressource ou un seul groupe ressources à la fois.  
 
-## <a name="to-allocate-a-resource-using-a-service-order"></a><a name="to-allocate-a-resource-using-a-service-order"></a><a name="to-allocate-a-resource-using-a-service-order"></a>Pour affecter une ressource à l’aide d’une commande service
+## <a name="to-allocate-a-resource-using-a-service-order"></a>Pour affecter une ressource à l’aide d’une commande service
 Après avoir créé et renseigné une commande service ou un devis service, vous pouvez affecter des ressources, par exemple, des techniciens, pour exécuter des tâches service enregistrées sous forme de lignes article de service dans le document.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes service**, puis choisissez le lien associé.  
@@ -65,7 +65,7 @@ Après avoir créé et renseigné une commande service ou un devis service, vous
 > [!NOTE]  
 >  Pour un article de service d’une commande service, il ne peut y avoir que des écritures affectation actives avec une seule ressource ou un seul groupe ressources à la fois.
 
-## <a name="to-reallocate-resources-on-a-service-order"></a><a name="to-reallocate-resources-on-a-service-order"></a><a name="to-reallocate-resources-on-a-service-order"></a>Pour réaffecter des ressources à une commande service
+## <a name="to-reallocate-resources-on-a-service-order"></a>Pour réaffecter des ressources à une commande service
 Vous pouvez réaffecter des ressources directement à partir d’une commande service ou devis service en cours d’utilisation. L’écriture d’origine existe toujours mais son statut est mis à jour comme suit :  
 
 * Si la maintenance a débuté pendant que l’affectation était **Active** (c’est-à-dire, si l’état réparation de l’article de service de l’écriture est passé à **En cours**), l’état affectation passe de **réallocation nécessaire** à **Terminée**.  
@@ -79,7 +79,7 @@ Vous pouvez réaffecter des ressources directement à partir d’une commande se
 5. Sélectionnez <kbd>Entrée</kbd>. La boîte de dialogue qui s’ouvre vous demande de confirmer la réaffectation de cette écriture. Renseignez le champ **Code motif** si nécessaire et cliquez sur le bouton **Oui** pour confirmer la réaffectation.  
 6. Renseignez les champs **Date affectation** et **Heures affectées**. L’écriture contient maintenant la nouvelle ressource et son statut est **Actif**.
 
-## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a><a name="to-reallocate-a-resource-using-the-dispatch-board"></a><a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Pour réaffecter une ressource à l’aide du tableau d’affectation
+## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Pour réaffecter une ressource à l’aide du tableau d’affectation
 Si la ressource affectée à une tâche service ne peut pas accomplir le travail, vous devez la réaffecter. Généralement, vous réaffectez des ressources aux tâches service à l’aide du **tableau d’affectation**.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableau d’affectation**, puis sélectionnez le lien associé.  
@@ -97,7 +97,7 @@ Si la ressource affectée à une tâche service ne peut pas accomplir le travail
     > * Si la maintenance n’a pas débuté pendant que l’affectation était **Active**,l’état affectation passe de **Réallocation nécessaire** à **Annulée**.  
     > * Si vous réaffectez une commande service issue d’un devis, le statut des écritures affectation enregistrées pour le devis passe toujours à **Terminé** lorsque vous réaffectez les articles de service de la commande service.  
 
-## <a name="to-register-resource-hours"></a><a name="to-register-resource-hours"></a><a name="to-register-resource-hours"></a>Pour enregistrer les heures ressource
+## <a name="to-register-resource-hours"></a>Pour enregistrer les heures ressource
 Lorsque vous utilisez des articles de service de commandes service, vous devez enregistrer les heures ressource utilisées pour le service. La procédure suivante vous explique comment enregistrer les heures ressource sur la page **Feuille activité article de service**.  
 
 Vous pouvez utiliser la même procédure pour enregistrer les heures sur la page **Lignes service** que vous pouvez ouvrir sur la page Commande de service. Ouvrez la fiche service appropriée, puis cliquez sur l’action **Lignes service**.  
@@ -108,7 +108,7 @@ Si la même ressource travaille sur tous les articles de service de la commande 
 2. Sélectionnez la ligne comprenant l’article de service approprié, puis choisissez l’action **Feuille activité article**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a><a name="to-assign-a-resource-to-all-service-items-in-an-order"></a><a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Pour affecter une ressource à tous les articles de service d’une commande
+## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Pour affecter une ressource à tous les articles de service d’une commande
 Si la même ressource, par exemple, un technicien, travaille sur tous les articles de service de la commande service, vous pouvez enregistrer le nombre total d’heures ressource pour un seul article de service et répartir la ligne ressource pour diviser les heures ressource sur les lignes ressource des autres articles de service.  
 
 La procédure suivante explique comment répartir des lignes ressource sur la page **Lignes facture service**.  
@@ -121,7 +121,7 @@ La procédure suivante explique comment répartir des lignes ressource sur la pa
 
     Des lignes ressource pour les autres articles de service de la commande sont créées avec le même numéro ressource que la ligne répartie. La quantité représente la quantité de la ligne répartie divisée par le nombre d’articles de service de la commande.  
 
-## <a name="to-cancel-an-allocation"></a><a name="to-cancel-an-allocation"></a><a name="to-cancel-an-allocation"></a>Pour annuler des affectations :
+## <a name="to-cancel-an-allocation"></a>Pour annuler des affectations :
 Vous pouvez annuler des affectations de ressources pour des tâches service sans réaffecter les tâches.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tableau d’affectation**, puis sélectionnez le lien associé.  
@@ -134,7 +134,7 @@ Vous pouvez annuler des affectations de ressources pour des tâches service sans
     > [!NOTE]  
     > L’option **Réaffectation nécessaire** dans le champ **Statut** est automatiquement sélectionnée. Si le statut réparation de l’article de service de l’écriture est **Initial**, le programme le transforme en **Expertisé** (aucun service n’a été commencé). Si l’état réparation est **En cours**, il est modifié en **Service en partie réalisé**càd que la maintenance a été partiellement effectuée.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Configurer l’affectation des ressources](service-how-setup-resource-allocation.md)  
 [Statut affectation et statut réparation](service-allocation-status-and-repair-status.md)  
 

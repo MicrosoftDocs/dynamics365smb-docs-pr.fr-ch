@@ -10,7 +10,7 @@ ms.search.form: '9652, 9650'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="legacy-import-and-export-custom-report-layouts"></a><a name="legacy-import-and-export-custom-report-layouts"></a><a name="legacy-import-and-export-custom-report-layouts"></a>(Hérité) Importer et exporter des présentations de rapport personnalisées
+# <a name="legacy-import-and-export-custom-report-layouts"></a>(Hérité) Importer et exporter des présentations de rapport personnalisées
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -19,7 +19,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 > [!IMPORTANT]  
 >  Vous ne pouvez pas importer ou exporter des présentations de rapport intégrées.  
 
-### <a name="to-export-a-report-layout-to-a-file"></a><a name="to-export-a-report-layout-to-a-file"></a><a name="to-export-a-report-layout-to-a-file"></a>Pour exporter une présentation de rapport vers un fichier
+### <a name="to-export-a-report-layout-to-a-file"></a>Pour exporter une présentation de rapport vers un fichier
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
 
@@ -29,7 +29,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
 4.  Dans la boîte de dialogue **Exporter fichier**, sélectionnez le bouton **Enregistrer**, puis enregistrez le fichier à un emplacement sur votre ordinateur ou réseau.  
 
-### <a name="to-import-a-report-layout-file"></a><a name="to-import-a-report-layout-file"></a><a name="to-import-a-report-layout-file"></a>Pour importer un fichier de présentation de rapport
+### <a name="to-import-a-report-layout-file"></a>Pour importer un fichier de présentation de rapport
 
 1.  Assurez-vous que le fichier approprié qui définit la présentation de rapport est disponible sur votre ordinateur ou réseau.  
 
@@ -45,9 +45,9 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
  La présentation de rapport personnalisé d’origine est remplacée par la présentation de rapport importée.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md)   
 [Gestion des présentations d’état et de document](ui-manage-report-layouts.md)  

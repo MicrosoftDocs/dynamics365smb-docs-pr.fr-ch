@@ -7,7 +7,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a><a name="setting-up-inventory-valuation-and-costing"></a><a name="setting-up-inventory-valuation-and-costing"></a>Configuration de l’évaluation du stock
+# <a name="setting-up-inventory-valuation-and-costing"></a>Configuration de l’évaluation du stock
 
 Pour vous assurer que les coûts ajustés sont enregistrés correctement, vous devez configurer plusieurs champs et pages avant de commencer à effectuer des transactions article. En règle générale, les entreprises choisissent une méthode de calcul des coûts spécifique et l’appliquent aux articles en stock, par exemple, pour les aider à suivre la valeur des articles en stock.  
 
@@ -30,7 +30,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |S’assurer que les retours achat sont rapprochés des transactions entrantes afin de préserver la valeur du stock.|Champ **Coût retour identique obligatoire** sur la page **Achats**|
 |Configurer les règles d’arrondi à appliquer lors de l’ajustement ou de la proposition des prix article et lors de l’ajustement ou de la proposition des coûts standard.|Page **Mode arrondi**|  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Définir des informations générales relatives aux stocks](inventory-how-setup-general.md)  

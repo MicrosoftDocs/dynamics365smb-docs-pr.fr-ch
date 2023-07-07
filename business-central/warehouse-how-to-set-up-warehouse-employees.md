@@ -9,11 +9,11 @@ ms.date: 03/09/2023
 ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ---
-# <a name="set-up-warehouse-employees"></a><a name="set-up-warehouse-employees"></a><a name="set-up-warehouse-employees"></a>Configurer des employés d’entrepôt
+# <a name="set-up-warehouse-employees"></a>Configurer des employés d’entrepôt
 
 Chaque utilisateur qui exécute des activités entrepôt doit être configuré en tant que magasinier et attribué à un emplacement par défaut. [!INCLUDE [prod_short](includes/prod_short.md)] filtre les activités de l’entrepôt à l’emplacement par défaut de l’employé. Ils ne peuvent effectuer les activités d’entrepôt qu’à l’emplacement. Vous pouvez aussi affecter un utilisateur à d’autres emplacements. Ils peuvent accéder, mais pas effectuer des activités à ces emplacements.
 
-## <a name="to-set-up-warehouse-employees"></a><a name="to-set-up-warehouse-employees"></a><a name="to-set-up-warehouse-employees"></a>Pour configurer des employés d’entrepôt
+## <a name="to-set-up-warehouse-employees"></a>Pour configurer des employés d’entrepôt
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -22,9 +22,9 @@ Chaque utilisateur qui exécute des activités entrepôt doit être configuré e
 5. Activez le bouton à bascule **Par défaut** pour définir le magasin comme seul emplacement pour les activités entrepôt de l’employé.  
 6. Répétez ces étapes pour affecter d’autres employés à des magasins ou affecter d’autres magasins à des employés d’entrepôt existants.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/get-started-warehouse-management/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/get-started-warehouse-management/) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  

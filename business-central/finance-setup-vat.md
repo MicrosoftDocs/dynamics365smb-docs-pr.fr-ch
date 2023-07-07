@@ -12,7 +12,7 @@ ms.date: 01/31/2023
 ms.author: bholtorf
 ---
 
-# <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a><a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a><a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurer des méthodes de calcul et de validation de la taxe sur la valeur ajoutée
+# <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurer des méthodes de calcul et de validation de la taxe sur la valeur ajoutée
 
 Les clients et les entreprises payent la TVA lorsqu’ils achètent des biens ou des services. Le montant de la TVA à payer peut varier en fonction de plusieurs facteurs. Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous configurez la TVA pour spécifier les taux à utiliser pour calculer les montants de taxe sur la base des paramètres suivants :
 
@@ -27,7 +27,7 @@ Cependant, si vous souhaitez configurer vous-même les calculs de TVA, ou en sav
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a><a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a><a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>Utiliser le guide Configuration de la TVA pour paramétrer la TVA (recommandé)
+## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>Utiliser le guide Configuration de la TVA pour paramétrer la TVA (recommandé)
 
 > [!NOTE]
 > Vous pouvez utiliser le guide **Configuration de la TVA** uniquement si vous avez créé un profil *Ma société*, et si vous n’avez pas encore validé de transactions incluant la TVA.
@@ -38,7 +38,7 @@ Pour démarrer le guide de configuration assistée, procédez comme suit :
 2. Choisissez **Configurer la taxe sur la valeur ajoutée (TVA)** et finalisez la procédure.
 3. Une fois la configuration assistée terminée, visitez la page **Paramètres comptabilisation TVA** et vérifiez si vous devez renseigner d’autres champs en fonction des exigences locales de votre version de [!INCLUDE [prod_short](includes/prod_short.md)]. En savoir plus sur [Fonctionnalités locales dans Business Central](about-localization.md).  
 
-### <a name="check-the-vat-posting-setup"></a><a name="check-the-vat-posting-setup"></a><a name="check-the-vat-posting-setup"></a>Vérifier les paramètres comptabilisation TVA
+### <a name="check-the-vat-posting-setup"></a>Vérifier les paramètres comptabilisation TVA
 
 Pour vous aider à démarrer rapidement, [!INCLUDE [prod_short](includes/prod_short.md)] affiche des notifications s’il vous manque des comptes du grand livre général (G/L) dans les groupes comptabilisation ou les paramètres comptabilisation, par exemple la page **Paramètres comptabilisation TVA**. Vous pouvez activer ou désactiver ce type de notification à l’aide de la notification *Compte général manquant dans le groupe comptabilisation ou la configuration* de la page **Mes notifications**. Il vous suffit d’accéder à la page **Mes paramètres**, puis de choisir *Modifier lorsque je reçois des notifications*. .  
 
@@ -46,7 +46,7 @@ Si vous choisissez une telle notification, [!INCLUDE [prod_short](includes/prod_
 
 À ce stade, vous pouvez simplement remplir les comptes généraux manquants. Puis, plus tard, lorsque vous affinez davantage les paramètres, il est possible que vous réalisiez que cette configuration initiale n’est pas correcte. Et [!INCLUDE [prod_short](includes/prod_short.md)] n’autorise pas la suppression des paramètres comptabilisation TVA ni des paramètres comptabilisation lorsqu’il existe des écritures créées à partir de telles configurations. À partir de la 1re vague de lancement 2022, vous pouvez utiliser le champ **Bloqué** sur la page **Paramètres comptabilisation TVA** pour empêcher les utilisateurs d’utiliser par erreur une configuration qui n’est plus pertinente pour les nouvelles validations.
 
-## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a><a name="set-up-a-default-vat-date-for-documents-and-journals"></a><a name="set-up-a-default-vat-date-for-documents-and-journals"></a>Configurer une date de TVA par défaut pour les documents et les journaux
+## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a>Configurer une date de TVA par défaut pour les documents et les journaux
 
 La déclaration de TVA dans [!INCLUDE [prod_short](includes/prod_short.md)] est basée sur la **Date de TVA** pour inclure les écritures de TVA sur les déclarations de TVA dans une période de TVA. La date de TVA peut être modifiée sur tous les documents et journaux, mais vous devez spécifier une valeur par défaut pour la date de TVA.
 
@@ -62,7 +62,7 @@ Pour configurer une valeur par défaut pour une date de TVA, procédez comme sui
 > [!NOTE]
 > Par défaut, la **Date de TVA par défaut** est la **Date de validation**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a><a name="enabling-or-disabling-the-vat-date-feature"></a><a name="enabling-or-disabling-the-vat-date-feature"></a>Activation ou désactivation de la fonctionnalité Date de TVA
+### <a name="enabling-or-disabling-the-vat-date-feature"></a>Activation ou désactivation de la fonctionnalité Date de TVA
 
 Certains pays exigent que les entreprises utilisent une date de TVA spécifique, mais d’autres pays ne le font pas. Certains pays exigent également que les entreprises modifient la date de TVA dans des situations spécifiques après avoir publié des documents, mais d’autres pays n’autorisent pas les modifications des dates de TVA. Pour tenir compte de différents contextes, vous pouvez choisir si vous souhaitez utiliser cette fonctionnalité et, si oui, dans quelle mesure.
 
@@ -82,14 +82,14 @@ Pour configurer le niveau d’utilisation de la date de TVA, procédez comme sui
 > [!IMPORTANT]
 > Même si vous choisissez l’option **N’utilisant pas la fonctionnalité de date de TVA**, [!INCLUDE [prod_short](includes/prod_short.md)] utilisera la **date de TVA** en arrière-plan. Parce que la **date de TVA par défaut** est configurée comme la **date de publication**, et vous ne pouvez pas la modifier dans ce cas, vous bénéficierez de la même expérience que sans cette fonctionnalité. **Les champs Date de TVA** seront supprimés de toutes les pages, mais ce champ existera toujours dans les tableaux et les rapports fonctionneront en fonction de celui-ci.
 
-### <a name="limiting-periods-for-posting-and-changing-the-vat-date"></a><a name="limiting-periods-for-posting-and-changing-the-vat-date"></a><a name="limiting-periods-for-posting-and-changing-the-vat-date"></a>Limitation des délais d’affichage et de modification de la date de TVA
+### <a name="limiting-periods-for-posting-and-changing-the-vat-date"></a>Limitation des délais d’affichage et de modification de la date de TVA
 
 Vous pouvez empêcher les personnes de publier ou de modifier des entrées de TVA dans des plages de dates spécifiques. Vous définissez la restriction à l’aide de deux paramètres :
 
 * Basé sur une **période de déclaration de TVA fermée**
 * Basé sur les champs **Début période validation** et **Fin période validation**.
 
-#### <a name="to-limit-posting-based-on-vat-return-period"></a><a name="to-limit-posting-based-on-vat-return-period"></a><a name="to-limit-posting-based-on-vat-return-period"></a>Pour limiter la comptabilisation en fonction de la période de déclaration de TVA
+#### <a name="to-limit-posting-based-on-vat-return-period"></a>Pour limiter la comptabilisation en fonction de la période de déclaration de TVA
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 2. Dans le raccourci **Général**, dans le champ **Contrôler période TVA**, spécifiez le degré de contrôle de la période de déclaration de TVA. Le tableau suivant décrit les options.
@@ -101,7 +101,7 @@ Vous pouvez empêcher les personnes de publier ou de modifier des entrées de TV
 | **Avertir en cas de validation dans une période terminée** | Affichez un avertissement, mais ne bloquez pas la validation, si vous souhaitez valider un document ou un journal dont la date de TVA est comprise dans une **Période de retour TVA** fermée. |
 | **Désactivé** | N’entreprenez aucune action basée sur une **Période de retour TVA** fermée. |
 
-#### <a name="to-limit-posting-based-on-allow-fromto-period"></a><a name="to-limit-posting-based-on-allow-fromto-period"></a><a name="to-limit-posting-based-on-allow-fromto-period"></a>Pour limiter la publication en fonction de la période Autoriser de/à
+#### <a name="to-limit-posting-based-on-allow-fromto-period"></a>Pour limiter la publication en fonction de la période Autoriser de/à
 
 Vous pouvez définir une limitation au niveau de l’entreprise ou des niveaux d’utilisateurs spécifiques.
 
@@ -118,7 +118,7 @@ Pour limiter les publications d’un utilisateur spécifique :
 3. Dans le champ **Début période validation**, spécifiez la date de la TVA à partir de laquelle vous effectuez la validation. La publication d’un document ou d’un journal avec une date de TVA antérieure à cette date n’est pas autorisée.
 4. Dans le champ **Fin période validation**, spécifiez la date de la TVA jusqu’à laquelle vous effectuez la validation. La publication d’un document ou d’un journal avec une date de TVA ultérieure à cette date n’est pas autorisée.
 
-## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a><a name="set-up-vat-registration-numbers-for-your-country-or-region"></a><a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Configurer les numéros d’identification intracommunautaire pour votre pays ou région
+## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Configurer les numéros d’identification intracommunautaire pour votre pays ou région
 
 Pour garantir que les personnes entrent des numéros d’identification intracommunautaire valides, vous pouvez définir des formats pour les numéros d’identification intracommunautaire utilisés dans des pays ou des régions dans lesquels vous travaillez. [!INCLUDE[prod_short](includes/prod_short.md)] affichera un message d’erreur lorsqu’un employé fait une erreur ou utilise un format incorrect pour le pays ou la région.
 
@@ -135,7 +135,7 @@ Pour configurer des numéros d’identification intracommunautaire, procédez co
     > [!TIP]
     > Vous pouvez utiliser d’autres caractères tant qu’ils sont présents dans le format du pays ou de la région. Par exemple, si vous souhaitez inclure un point ou un trait d’union entre des séries de chiffres, vous pouvez définir le format sous la forme ##.####.### or @@-###-###.  
 
-## <a name="set-up-vat-business-posting-groups"></a><a name="set-up-vat-business-posting-groups"></a><a name="set-up-vat-business-posting-groups"></a>Configurer des groupes comptabilisation marché TVA
+## <a name="set-up-vat-business-posting-groups"></a>Configurer des groupes comptabilisation marché TVA
 
 Les groupes comptabilisation marché TVA doivent représenter les marchés dans lesquels vous faites des affaires avec les clients et fournisseurs, et définissent comment calculer et valider la TVA dans chaque marché. Des exemples de groupes comptabilisation marché TVA sont **France** et **Union Européenne (UE)**.  
 
@@ -148,7 +148,7 @@ Pour configurer un groupe comptabilisation marché TVA, procédez comme suit :
 
 Paramétrez les groupes comptabilisation marché TVA par défaut en les liant à des groupes comptabilisation marché. [!INCLUDE[prod_short](includes/prod_short.md)] affecte automatiquement le groupe comptabilisation marché TVA lorsque vous affectez le groupe comptabilisation marché à un client, un fournisseur ou un compte général.
 
-## <a name="set-up-vat-product-posting-groups"></a><a name="set-up-vat-product-posting-groups"></a><a name="set-up-vat-product-posting-groups"></a>Configurer des groupes comptabilisation produit TVA
+## <a name="set-up-vat-product-posting-groups"></a>Configurer des groupes comptabilisation produit TVA
 
 Les groupes comptabilisation produit TVA représentent les articles et les ressources que vous achetez ou vendez et déterminent la manière de calculer et de valider la TVA en fonction du type d’article ou de ressource acheté ou vendu.
 
@@ -159,7 +159,7 @@ Pour configurer un groupe comptabilisation marché TVA, procédez comme suit :
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 4.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes compta. produit TVA**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 
-## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a><a name="combine-vat-posting-groups-in-vat-posting-setups"></a><a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Regrouper des groupes comptabilisation TVA dans les paramètres comptabilisation TVA
+## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Regrouper des groupes comptabilisation TVA dans les paramètres comptabilisation TVA
 
 [!INCLUDE[prod_short](includes/prod_short.md)] calcule les montants de TVA sur les ventes et les achats en fonction des paramètres comptabilisation TVA, qui sont des combinaisons de groupes comptabilisation marché et produit TVA. Pour chaque combinaison, vous pouvez spécifier le pourcentage de TVA, le mode calcul TVA et les comptes généraux pour la validation de la TVA pour les achats, les ventes, ainsi que les taxes déductibles. Vous pouvez également indiquer si la TVA doit être recalculée lorsqu’un escompte est appliqué ou reçu.  
 
@@ -170,7 +170,7 @@ Pour regrouper des paramètres comptabilisation TVA, procédez comme suit :
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 5.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilisation TVA**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a><a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a><a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Affecter des groupes comptabilisation TVA par défaut à plusieurs entités
+## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Affecter des groupes comptabilisation TVA par défaut à plusieurs entités
 
 Si vous souhaitez appliquer les mêmes groupes comptabilisation TVA à plusieurs entités, vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour le faire par défaut. Plusieurs méthodes sont disponibles :
 
@@ -179,24 +179,24 @@ Si vous souhaitez appliquer les mêmes groupes comptabilisation TVA à plusieurs
 
 Le groupe comptabilisation marché ou produit TVA est affecté lorsque vous choisissez un groupe comptabilisation marché ou produit pour un client, un fournisseur, un article ou une ressource.
 
-## <a name="assign-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a><a name="assign-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a><a name="assign-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Affecter des groupes comptabilisation TVA à des comptes, clients, fournisseurs, articles et ressources
+## <a name="assign-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Affecter des groupes comptabilisation TVA à des comptes, clients, fournisseurs, articles et ressources
 
 Les sections suivantes décrivent comment affecter des groupes comptabilisation TVA à des entités individuelles.
 
-### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a><a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a><a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Pour affecter des groupes comptabilisation TVA à des comptes généraux individuels
+### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Pour affecter des groupes comptabilisation TVA à des comptes généraux individuels
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 6.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
 2. Ouvrez la fiche **Compte général** pour le compte.  
 3. Sous le raccourci **Comptabilisation**, dans le champ **Type compta. TVA**, choisissez **Vente** ou **Achat**.  
 4. Choisissez les groupes comptabilisation TVA à utiliser pour le compte vente ou achat.  
 
-### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a><a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a><a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Pour affecter des groupes comptabilisation marché TVA à des clients et des fournisseurs
+### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Pour affecter des groupes comptabilisation marché TVA à des clients et des fournisseurs
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 7.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Client** ou **Fournisseur**, puis choisissez le lien associé.  
 2. Sur la fiche **Client** ou **Fournisseur**, développez le raccourci **Facturation**.  
 3. Choisissez le groupe comptabilisation marché TVA.  
 
-### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a><a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a><a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Pour affecter des groupes comptabilisation produit TVA à des articles et des ressources individuels
+### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Pour affecter des groupes comptabilisation produit TVA à des articles et des ressources individuels
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 8.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Article** ou **Ressource**, puis choisissez le lien associé.  
 2. Exécutez l’une des opérations suivantes :  
@@ -205,7 +205,7 @@ Les sections suivantes décrivent comment affecter des groupes comptabilisation 
     * Sur la fiche **Ressource**, développez le raccourci **Facturation**.  
 3. Choisissez le groupe comptabilisation produit TVA.  
 
-## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a><a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a><a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Configurer des clauses pour expliquer l’exonération de TVA ou les taux de TVA non standard
+## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Configurer des clauses pour expliquer l’exonération de TVA ou les taux de TVA non standard
 
 Vous définissez une clause TVA afin de décrire le type de TVA qui est appliquée. Les informations peuvent être requises par des réglementations gouvernementales. Après avoir configuré une clause TVA et l’avoir associée à un paramètre validation TVA, la clause TVA est affichée sur les documents vente imprimés qui utilisent le groupe de paramètres validation TVA.
 
@@ -215,7 +215,7 @@ Lorsque des taux de TVA non standard sont utilisés dans différents types de do
 
 Vous pouvez modifier ou supprimer une clause TVA, et les modifications que vous apportez seront visibles dans un état généré. Toutefois, [!INCLUDE[prod_short](includes/prod_short.md)] ne crée pas d’historique des modifications. Sur l’état, les désignations des clauses TVA sont imprimées et affichées pour toutes les lignes de l’état à côté du montant de la TVA et du montant de base de la TVA. Si aucune clause TVA n’a été définie pour les lignes du document vente, la totalité de la section est omise lors de l’impression de l’état.
 
-### <a name="to-set-up-vat-clauses"></a><a name="to-set-up-vat-clauses"></a><a name="to-set-up-vat-clauses"></a>Pour configurer des clauses TVA
+### <a name="to-set-up-vat-clauses"></a>Pour configurer des clauses TVA
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 9.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clauses TVA**, puis choisissez le lien associé.  
 2. Sur la page **Clauses TVA**, créez une ligne.  
@@ -226,19 +226,19 @@ Vous pouvez modifier ou supprimer une clause TVA, et les modifications que vous 
 7. Facultatif : pour affecter immédiatement la clause TVA à un paramètre comptabilisation TVA, sélectionnez **Paramètres**, puis sélectionnez la clause. Si vous souhaitez attendre, vous pouvez affecter la clause ultérieurement dans la page **Paramètres comptabilisation TVA**.  
 8. Facultatif : pour spécifier comment traduire la clause TVA, sélectionnez l’action **Traductions**.
 
-### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a><a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a><a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Pour affecter une clause TVA à un paramètre comptabilisation TVA
+### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Pour affecter une clause TVA à un paramètre comptabilisation TVA
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 10.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilisation TVA**, puis choisissez le lien associé.  
 2. Dans la colonne **Clause TVA**, choisissez la clause à utiliser pour chaque paramètre comptabilisation TVA auquel elle s’applique.  
 
-### <a name="to-specify-translations-for-vat-clauses"></a><a name="to-specify-translations-for-vat-clauses"></a><a name="to-specify-translations-for-vat-clauses"></a>Pour spécifier des traductions pour les clauses TVA
+### <a name="to-specify-translations-for-vat-clauses"></a>Pour spécifier des traductions pour les clauses TVA
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 11.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clauses TVA**, puis choisissez le lien associé.  
 2. Sélectionnez l’option **Traductions**.  
 3. Dans le champ **Code langue**, sélectionnez la langue de traduction.  
 4. Dans les champs **Description** et **Description 2**, saisissez les traductions des descriptions. Ce texte s’affiche dans les documents état de TVA traduits.  
 
-### <a name="to-specify-extended-text-for-vat-clauses"></a><a name="to-specify-extended-text-for-vat-clauses"></a><a name="to-specify-extended-text-for-vat-clauses"></a>Pour spécifier le texte étendu pour les clauses TVA
+### <a name="to-specify-extended-text-for-vat-clauses"></a>Pour spécifier le texte étendu pour les clauses TVA
 
 > [!NOTE]  
 > Si votre pays ou votre région requiert un texte plus long pour les clauses de TVA que celui pris en charge par la version par défaut, vous pouvez spécifier le texte plus long pour les clauses de TVA comme suit *texte étendu* afin qu’il s’imprime sur les rapports de ventes et d’achats.  
@@ -253,7 +253,7 @@ Vous pouvez modifier ou supprimer une clause TVA, et les modifications que vous 
 8. Cochez les champs appropriés pour les types de documents où vous souhaitez imprimer le texte étendu.  
 9. Fermez la page.  
 
-## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a><a name="create-a-vat-posting-setup-to-handle-import-vat"></a><a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Créer un paramètre comptabilisation TVA pour traiter la TVA à l’importation
+## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Créer un paramètre comptabilisation TVA pour traiter la TVA à l’importation
 
 Utilisez la fonction *TVA à l’importation* pour valider un document dont le montant est en TVA. Elle est utile lorsque vous recevez une facture des autorités fiscales pour la TVA sur les biens importés.  
 
@@ -266,7 +266,7 @@ Pour configurer des codes pour la TVA à l’importation, procédez comme suit 
 5. Dans le champ **Mode calcul TVA**, sélectionnez **Exclusivement TVA**.  
 6. Dans le champ **Compte TVA achat**, indiquez le compte général à utiliser pour valider la TVA à l’importation. Tous les autres comptes sont facultatifs.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a><a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a><a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Utiliser une TVA déductible pour le commerce entre pays/régions de l’UE
+## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Utiliser une TVA déductible pour le commerce entre pays/régions de l’UE
 
 Certaines sociétés doivent utiliser une TVA déductible dans leurs échanges avec d’autres sociétés. Par exemple, cette règle s’applique aux achats effectués dans des pays/régions de l’Union européenne et les ventes aux pays/régions de l’Union européenne.  
 
@@ -276,7 +276,7 @@ Certaines sociétés doivent utiliser une TVA déductible dans leurs échanges a
 > [!TIP]  
 > Vous pouvez vérifier qu’une société est enregistrée comme assujettie à la TVA dans un autre pays de l’UE en utilisant le service de validation des numéros d’identification de TVA de l’UE. Le service est disponible gratuitement dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, consultez [Vérifier les numéros d’identification intracommunautaire](finance-how-validate-vat-registration-number.md).
 
-### <a name="sales-to-eu-countries-or-regions"></a><a name="sales-to-eu-countries-or-regions"></a><a name="sales-to-eu-countries-or-regions"></a>Ventes dans des pays/régions de l’UE
+### <a name="sales-to-eu-countries-or-regions"></a>Ventes dans des pays/régions de l’UE
 
 La TVA n’est pas calculée sur les ventes à des sociétés assujetties à la TVA situées dans d’autres pays/régions de l’UE. Vous devez déclarer la valeur de ces ventes séparément dans votre déclaration de TVA.  
 
@@ -292,19 +292,19 @@ Si vous souhaitez utiliser la combinaison du groupe compta. marché TVA et du gr
 > [!NOTE]  
 > Le champ **Service UE** s’applique uniquement aux rapports de TVA. Ce champ n’est pas associé aux fonctionnalités **Déclaration de service** ni **Déclaration d’échanges de biens pour les services**.
 
-## <a name="vat-rounding-for-documents"></a><a name="vat-rounding-for-documents"></a><a name="vat-rounding-for-documents"></a>Arrondi TVA pour les documents
+## <a name="vat-rounding-for-documents"></a>Arrondi TVA pour les documents
 
 Les montants figurant dans les documents qui n’ont pas encore été validés sont arrondis et affichés de façon à correspondre à l’arrondi final des montants réellement validés. La TVA est calculée pour un document terminé, ce qui signifie que la TVA calculée est basée sur la somme de toutes les lignes ayant le même identifiant TVA dans le document.  
 
-## <a name="set-up-vat-reporting"></a><a name="set-up-vat-reporting"></a><a name="set-up-vat-reporting"></a>Configurer la déclaration TVA
+## <a name="set-up-vat-reporting"></a>Configurer la déclaration TVA
 
 Vous devez configurer des informations sur la façon dont les autorités fiscales de votre pays/région exigent que vous soumettiez des déclarations de TVA. Les étapes suivantes illustrent les informations les plus couramment utilisées. Cependant, votre pays/région peut nécessiter des autres étapes. Pour plus d’informations, consultez l’article correspondant dans la section *Fonctionnalité locale* du volet de gauche.
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Paramétrer des modèles de déclaration de TVA et des noms de déclaration de TVA](finance-how-setup-vat-statement.md)  
 [Configurer la TVA sur encaissement](finance-setup-unrealized-vat.md)  

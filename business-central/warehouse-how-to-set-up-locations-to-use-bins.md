@@ -9,7 +9,7 @@ ms.date: 03/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-locations-to-use-bins"></a><a name="set-up-locations-to-use-bins"></a><a name="set-up-locations-to-use-bins"></a>Configurer des magasins de sorte qu’ils utilisent des emplacements
+# <a name="set-up-locations-to-use-bins"></a>Configurer des magasins de sorte qu’ils utilisent des emplacements
 
 Les emplacements représentent la structure de base de l’entrepôt et peuvent suggérer où placer les articles. Lorsque vous avez créé vos emplacements, vous pouvez définir leur contenu ou ils sont utilisés en tant qu’emplacements dynamiques sans contenu spécifié.
 
@@ -27,7 +27,7 @@ Ensuite, vous définissez la circulation des articles dans le magasin en spécif
 > [!NOTE]  
 > Avant de pouvoir spécifier les codes emplacement sur un magasin, vous devez les créer. Pour plus d’informations, voir [Créer emplacements](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a><a name="to-set-up-a-location-to-use-bins"></a><a name="to-set-up-a-location-to-use-bins"></a>Pour configurer un magasin de sorte qu’il utilise des emplacements
+## <a name="to-set-up-a-location-to-use-bins"></a>Pour configurer un magasin de sorte qu’il utilise des emplacements
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
 2. Sélectionnez le magasin dans lequel vous souhaitez utiliser des emplacements.  
@@ -45,15 +45,15 @@ Ensuite, vous définissez la circulation des articles dans le magasin en spécif
 9. En option : Sur le raccourci **Stratégies d’entrepôt**, renseignez les champs. Les champs les plus importants sont les suivants : **Politique capacité empl**, **Autoriser déconditionnement** et **Code modèle rangement**.  
 10. Sur les champs **Entrepôt**, renseignez les champs **Délai désenlogement**, **Délai enlogement** et **Code calendrier principal**. Pour en savoir plus, rendez-vous sur [Configurer les calendriers de base](across-how-to-assign-base-calendars.md).
 
-## <a name="fill-in-the-consumption-bin"></a><a name="fill-in-the-consumption-bin"></a><a name="fill-in-the-consumption-bin"></a>Renseigner l’emplacement consommation
+## <a name="fill-in-the-consumption-bin"></a>Renseigner l’emplacement consommation
 
 Ce graphique indique comment le champ **Code emplacement** sur les lignes composant O.F. est renseigné en fonction de la configuration de votre emplacement.
 
 :::image type="content" source="media/binflow.png" alt-text="Champ de code d’emplacement sur les lignes de composant d’ordre de fabrication.":::
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/configure-bins-location/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/configure-bins-location/) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  

@@ -8,7 +8,7 @@ ms.date: 08/31/2022
 ms.author: edupont
 ---
 
-# <a name="company-information-overview"></a><a name="company-information-overview"></a><a name="company-information-overview"></a>Présentation des informations sur la société
+# <a name="company-information-overview"></a>Présentation des informations sur la société
 
 [!INCLUDE[prod_short](includes/prod_short.md)] organise les entités commerciales en *sociétés*. Pour chaque société, vous devez remplir certains des détails de base et des informations pertinentes sur la page **Informations société**. Les informations de la page [**Informations société**](https://businesscentral.dynamics.com/?page=1) sont utilisées dans des documents, tels que les en-têtes facture. Vous pouvez paramétrer plusieurs sociétés, par exemple une société mère et une filiale.  
 
@@ -22,13 +22,13 @@ En fonction de votre pays, la page **Informations société** contient différen
 
 Une fois que vous avez terminé de remplir les informations, vous pouvez fermer la page.  
 
-## <a name="working-with-multiple-companies"></a><a name="working-with-multiple-companies"></a><a name="working-with-multiple-companies"></a>Travailler avec plusieurs entreprises
+## <a name="working-with-multiple-companies"></a>Travailler avec plusieurs entreprises
 
 Si votre [!INCLUDE [prod_short](includes/prod_short.md)] inclut plusieurs sociétés, vos utilisateurs souhaitent peut-être utiliser des *badges de société* pour identifier rapidement et suivre avec quelle société ils travaillent actuellement. Pour en savoir plus, voir [Afficher un badge de société](#badge).
 
 Il existe quelques fonctionnalités que vous pouvez utiliser pour changer d’entreprise, comme le sélecteur de société (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Pour plus d’informations, consultez [Passer à une autre entreprise ou un autre environnement](ui-organization-switch.md).
 
-## <a name="display-a-company-badge"></a><a name="display-a-company-badge"></a><a name="display-a-company-badge"></a><a name="badge"></a>Afficher un badge de société
+## <a name="display-a-company-badge"></a><a name="badge"></a>Afficher un badge de société
 
 Lorsqu’il y a plus d’une société ou d’un environnement, vous verrez le sélecteur d’entreprise sur le côté supérieur droit de la barre d’application, près de l’icône de recherche dans la barre d’application. Par défaut, le sélecteur de société utilise une icône d’entreprise standard, comme le ![Lanceur Icône de l’entreprise.](media/ui-experience/company-icon.png "Affiche l’icône de changement d’entreprise utilisée lorsqu’il n’y a qu’un seul environnement") et ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Affiche l’icône de changement d’entreprise utilisée lorsqu’il y a plusieurs environnements").
 
@@ -42,7 +42,7 @@ En utilisant la page **Informations sur la société**, vous pouvez remplacer l�
 > [!NOTE]
 > Le sélecteur de société a été introduit dans la 2e vague de lancement 2022, version 21. Dans les versions antérieures, le badge de société n’était pas utilisé pour changer d’entreprise. Il s’affiche dans le coin supérieur droit de la plupart des pages, même lorsqu’il n’y a qu’une seule société. Le sélectionner affichera le nom complet de la société et le nom de l’environnement.
 
-## <a name="change-company-display-name"></a><a name="change-company-display-name"></a><a name="change-company-display-name"></a>Modifier le nom d’affichage de la société
+## <a name="change-company-display-name"></a>Modifier le nom d’affichage de la société
 
 Le nom de la société est toujours affiché dans le coin supérieur gauche et fonctionne comme une action que vous pouvez choisir pour revenir dans le Tableau de bord. Vous pouvez changer ce nom sur la page **Informations société**.
 
@@ -50,13 +50,13 @@ Le nom de la société est toujours affiché dans le coin supérieur gauche et f
 2. Dans le champ **Nom**, saisissez le nom de la nouvelle société.
 3. Quittez la page. Le système redémarre et affiche la nouvelle société dans le coin supérieur gauche.
 
-## <a name="experience"></a><a name="experience"></a><a name="experience"></a>Expérience
+## <a name="experience"></a>Expérience
 
 L’expérience utilisateur par défaut dans une version d’évaluation de [!INCLUDE [prod_short](includes/prod_short.md)] ne révèle pas toutes les fonctionnalités. Vous pouvez passer à l’expérience complète dans la page **Informations société**. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Aperçu des tâches permettant de paramétrer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Démarrage rapide de Informations société](quick-start-company-information.md)  

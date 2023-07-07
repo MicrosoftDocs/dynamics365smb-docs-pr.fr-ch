@@ -7,15 +7,15 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ---
-# <a name="walkthrough-create-a-new-routing"></a><a name="walkthrough-create-a-new-routing"></a><a name="walkthrough-create-a-new-routing"></a>Procédure pas à pas : Créer une gamme
+# <a name="walkthrough-create-a-new-routing"></a>Procédure pas à pas : Créer une gamme
 
 Dans cet article, nous vous expliquons comment utiliser les données de démonstration Contoso Coffee pour configurer manuellement une nouvelle gamme de production dans [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="scenario"></a><a name="scenario"></a><a name="scenario"></a>Scénario
+## <a name="scenario"></a>Scénario
 
 Oscar, l’ingénieur de processus chez Contoso Coffee, décide de créer une gamme nommée *Nouveau chemin*. Étant donné que cette gamme ne ressemble à aucune autre chez Contoso Coffee, Oscar doit saisir manuellement toutes les informations relatives à la gamme.  
 
-## <a name="steps"></a><a name="steps"></a><a name="steps"></a>Étapes
+## <a name="steps"></a>Étapes
 
 1. Créez l’en-tête de la gamme.  
 
@@ -54,6 +54,6 @@ Oscar, l’ingénieur de processus chez Contoso Coffee, décide de créer une ga
 
 La nouvelle gamme est maintenant configurée.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Introduction aux données de démonstration Contoso Coffee](../contoso-coffee-intro.md)  

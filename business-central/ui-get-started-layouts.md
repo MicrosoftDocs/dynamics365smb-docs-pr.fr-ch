@@ -11,14 +11,14 @@ ms.search.form: '9650, 9652'
 ms.date: 03/23/2022
 ms.author: jswymer
 ---
-# <a name="get-started-creating-report-layouts"></a><a name="get-started-creating-report-layouts"></a><a name="get-started-creating-report-layouts"></a>Bien démarrer avec la création de présentations d’état
+# <a name="get-started-creating-report-layouts"></a>Bien démarrer avec la création de présentations d’état
 
 Business Central est fourni avec de nombreuses présentations intégrées que vous pouvez utiliser dans vos états. Il est possible que d’autres présentations aient été ajoutées avec d’autres extensions. Mais il est également possible de créer vos propres états à partir de zéro ou à partir d’une présentation existante.
 
 > [!IMPORTANT]
 > Vous pouvez également utiliser des présentations d’état pour ajouter du contenu aux messages électroniques. Par exemple, les présentations d’état peuvent vous faire gagner du temps et contribuer à assurer la cohérence, car elles réutilisent le même contenu lorsque vous communiquez avec vos clients. Pour utiliser des présentations d’état personnalisées avec le courrier électronique, le type de fichier de la mise en page doit être Word. Vous ne pouvez pas utiliser le type de fichier RDLC. Pour plus d’informations, voir [Configurer des textes et des mises en page d’e-mail réutilisables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="overview"></a><a name="overview"></a><a name="overview"></a>Aperçu
+## <a name="overview"></a>Aperçu
 
 Lorsque vous travaillez avec des présentations d’état, il est utile de considérer la présentation comme un fichier importé et affecté à un rapport. Quel que soit le type de présentation, la façon dont vous gérez les présentations dans Business Central est fondamentalement la même. En général, vous allez travailler à partir de la page **Présentations d’état**. La principale différence réside dans la façon dont vous concevez la présentation, qui est effectuée à l’aide du logiciel d’application sur lequel la présentation est construite, comme Word, Excel ou SQL Server Report Builder.
 
@@ -34,7 +34,7 @@ Gardez ce concept en tête. Il existe essentiellement trois ou quatre tâches im
 >
 > Pour en savoir plus sur la différence entre les présentations d’extension et les présentations définies par l’utilisateur, voir [Source de la présentation](ui-manage-report-layouts.md#layout-sources).
 
-## <a name="get-started"></a><a name="get-started"></a><a name="get-started"></a>Démarrer
+## <a name="get-started"></a>Démarrer
 
 Les tâches varieront selon le cas. Utilisez le tableau suivant pour vous aider à démarrer.
 
@@ -47,7 +47,7 @@ Les tâches varieront selon le cas. Utilisez le tableau suivant pour vous aider 
 |Basculer la présentation actuelle utilisée par un état vers une autre présentation|[Définition de la présentation utilisée par un état](ui-set-report-layout.md)|
 |Modifier le nom et la description d’une présentation|[Renommer une présentation](#rename)|
 
-## <a name="decide-what-type-of-layout-you-want"></a><a name="decide-what-type-of-layout-you-want"></a><a name="decide-what-type-of-layout-you-want"></a><a name="decide"></a>Décider du type de présentation souhaité
+## <a name="decide-what-type-of-layout-you-want"></a><a name="decide"></a>Décider du type de présentation souhaité
 
 La première chose à faire lors de la création d’une présentation est de décider de la [présentation](ui-manage-report-layouts.md#layout-types) que vous voulez. Vous pouvez choisir entre Word, Excel ou RDLC. Le type de présentation dépendra de l’aspect que vous souhaitez donner à l’état généré. De plus, cela dépend de votre connaissance des logiciels d’application pour créer les présentations, comme Word, Excel et SQL Server Report Builder.
 
@@ -66,7 +66,7 @@ La première chose à faire lors de la création d’une présentation est de d�
 
 * Les concepts généraux pour les présentations Word et RDLC sont similaires. Cependant, la conception de chaque type présente certaines fonctionnalités qui affectent la manière dont l’état généré s’affiche dans [!INCLUDE[prod_short](includes/prod_short.md)]. Le même rapport peut sembler différent selon que vous utilisez une présentation Word ou une présentation RDLC.
 
-## <a name="create-a-new-layout"></a><a name="create-a-new-layout"></a><a name="create-a-new-layout"></a><a name="create"></a>Créer une présentation
+## <a name="create-a-new-layout"></a><a name="create"></a>Créer une présentation
 
 Il existe deux manières de créer une nouvelle présentation à partir d’une présentation existante. Une façon consiste à enregistrer la présentation existante dans une copie. L’autre méthode consiste à exporter la présentation existante.
 
@@ -127,7 +127,7 @@ Si vous voulez voir à quoi ressemble l’état avec la nouvelle présentation, 
 
 ---
 
-## <a name="modify-a-layout"></a><a name="modify-a-layout"></a><a name="modify-a-layout"></a><a name="modify"></a>Modifier une présentation
+## <a name="modify-a-layout"></a><a name="modify"></a>Modifier une présentation
 
 Suivez ces étapes pour modifier une présentation existante définie par l’utilisateur.
 
@@ -156,7 +156,7 @@ Suivez ces étapes pour modifier une présentation existante définie par l’ut
    Le fichier sélectionné est chargé dans la présentation et vous revenez à la page **Présentations d’état**.
 7. Si vous voulez voir à quoi ressemble l’état avec la nouvelle présentation, sélectionnez la présentation dans la liste, puis sélectionnez **Exécuter état**.
 
-## <a name="replace-a-layout"></a><a name="replace-a-layout"></a><a name="replace-a-layout"></a><a name="replace"></a>Remplacer une présentation
+## <a name="replace-a-layout"></a><a name="replace"></a>Remplacer une présentation
 
 Suivez ces étapes pour remplacer le fichier de présentation défini par l’utilisateur existant par un nouveau fichier.
 
@@ -168,7 +168,7 @@ Suivez ces étapes pour remplacer le fichier de présentation défini par l’ut
    Le fichier sélectionné est chargé dans la présentation et vous revenez à la page **Présentations d’état**.
 5. Si vous voulez voir à quoi ressemble l’état avec la nouvelle présentation, sélectionnez la présentation dans la liste, puis sélectionnez **Exécuter état**.
 
-## <a name="rename-a-layout"></a><a name="rename-a-layout"></a><a name="rename-a-layout"></a><a name="rename"></a>Renommer une présentation
+## <a name="rename-a-layout"></a><a name="rename"></a>Renommer une présentation
 
 Suivez ces étapes si vous souhaitez modifier le nom et la description d’une présentation définie par l’utilisateur.
 
@@ -179,9 +179,9 @@ Suivez ces étapes si vous souhaitez modifier le nom et la description d’une p
     > Pour vous aider à trouver la présentation, utilisez la case **Rechercher**, le volet **Filtrer** et le tri des colonnes.
 3. Changez le **Nom de la présentation**, puis cliquez sur **OK**.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion des présentations d’état](ui-manage-report-layouts.md)  
 [Utilisation des présentations Word](ui-how-add-fields-word-report-layout.md)  

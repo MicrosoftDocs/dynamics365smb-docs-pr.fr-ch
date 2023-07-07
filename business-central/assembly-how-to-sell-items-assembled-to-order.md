@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting, substitute items'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="sell-items-assembled-to-order"></a><a name="sell-items-assembled-to-order"></a><a name="sell-items-assembled-to-order"></a>Vente d’articles à assembler pour commande
+# <a name="sell-items-assembled-to-order"></a>Vente d’articles à assembler pour commande
 
 Les articles paramétrés pour assembler pour commande ne devraient pas être en stock, et seront assemblés une fois inclus dans une commande vente. Un article est configuré pour assembler sur commande quand le champ **Stratégie d’assemblage** sur la fiche article contient **Assembler pour commande**. Quand vous entrez l’article dans une ligne commande vente, un ordre d’assemblage est automatiquement créé et lié à la commande vente.  
 
@@ -28,7 +28,7 @@ Dans cette procédure, vous effectuez la vente d’un article que vous assemblez
 > [!NOTE]  
 > La procédure suivante n’inclut pas les étapes de création d’une commande vente standard ayant lieu avant l’étape où vous entrez l’article à assembler pour commande dans une ligne commande vente. En savoir plus sur la création de commandes vente sur [Vendre des produits avec une commande vente client](sales-how-sell-products.md).  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a><a name="to-sell-an-item-that-is-assembled-to-order"></a><a name="to-sell-an-item-that-is-assembled-to-order"></a>Vendre un article qui est assemblé pour commande
+## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Vendre un article qui est assemblé pour commande
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Créez une commande client. 
@@ -60,9 +60,9 @@ Dans cette procédure, vous effectuez la vente d’un article que vous assemblez
 > [!NOTE]  
 > Les substitutions d’articles n’entraînent pas automatiquement le remplacement d’un article par un autre, par exemple pendant la création d’une commande vente ou dans une nomenclature. Au lieu de cela, vous serez alerté du fait qu’un substitut est disponible.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Utilisation des nomenclatures d’assemblage](assembly-how-work-assembly-boms.md)  

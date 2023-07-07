@@ -11,11 +11,11 @@ ms.search.form: '5005270, 5005272'
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# <a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a><a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a><a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a>Affecter des codes de relance livraison à des fournisseurs dans la version suisse
+# <a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a>Affecter des codes de relance livraison à des fournisseurs dans la version suisse
 
 [!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Enregistrer un nouveau fournisseur](../../purchasing-how-register-new-vendors.md)  
 [relances livraison](delivery-reminders.md)  

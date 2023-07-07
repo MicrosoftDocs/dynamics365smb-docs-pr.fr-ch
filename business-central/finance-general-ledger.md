@@ -11,11 +11,11 @@ ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a><a name="understanding-the-general-ledger-and-chart-of-accounts"></a><a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Comprendre la comptabilité et le plan comptable
+# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Comprendre la comptabilité et le plan comptable
 
 La comptabilité (comptes généraux) stocke vos données financières, et le plan comptable (COA) affiche les comptes sur lesquels toutes les écritures comptables sont validées. [!INCLUDE[prod_short](includes/prod_short.md)] inclut un plan comptable standard prêt à prendre en charge votre société.
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a><a name="general-ledger-setup-and-general-posting-setup"></a><a name="general-ledger-setup-and-general-posting-setup"></a>Paramètres comptabilité et paramètres comptabilisation
+## <a name="general-ledger-setup-and-general-posting-setup"></a>Paramètres comptabilité et paramètres comptabilisation
 
 La configuration des écritures comptables est le composant principal des processus financiers car elle définit comment vous validez les données. Deux pages jouent un rôle particulièrement important dans la configuration de vos processus financiers :  
 
@@ -41,7 +41,7 @@ La configuration des écritures comptables est le composant principal des proces
 
   Ouvrez la page [ici](https://businesscentral.dynamics.com/?page=314).
 
-## <a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a>Le plan comptable
+## <a name="the-chart-of-accounts"></a>Le plan comptable
 
 Le plan comptable affiche tous les comptes généraux. Vous pouvez effectuer les opérations suivantes à partir du plan comptable :  
 
@@ -53,7 +53,7 @@ Le plan comptable affiche tous les comptes généraux. Vous pouvez effectuer les
 
 Vous pouvez ajouter, modifier ou supprimer des comptes généraux. Toutefois, pour éviter les différences, vous ne pouvez pas supprimer un compte général si ses données sont utilisées dans le plan comptable. De plus, à partir de la 2e vague de lancement 2022, vous pouvez également bloquer la suppression accidentelle de comptes pendant les périodes sensibles. Pour plus d’informations, consultez la section [Supprimer des comptes](finance-setup-chart-accounts.md#delete-accounts).  
 
-## <a name="account-categories"></a><a name="account-categories"></a><a name="account-categories"></a>Catégories de compte
+## <a name="account-categories"></a>Catégories de compte
 
 Vous pouvez personnaliser la structure de vos états financiers en mappant les comptes généraux aux catégories de comptes.  
 
@@ -63,7 +63,7 @@ Vous pouvez créer un groupe des catégories en effectuant une indentation d’a
 
 Vous pouvez définir si des types d’états spécifiques doivent inclure les comptes de chaque sous-catégorie. Les catégories de compte vous aident à définir la présentation de vos états financiers.  
 
-### <a name="example"></a><a name="example"></a><a name="example"></a>Exemple :
+### <a name="example"></a>Exemple :
 
 Par exemple, le solde relevé par défaut solde est doté d’une sous-catégorie pour la *trésorerie* dans *Actifs à court terme*. Si vous souhaitez que le solde relevé tienne compte du fonds de caisse et du compte chèque, vous devez procéder comme suit :
 
@@ -90,17 +90,17 @@ Lorsque vous sélectionnez l’action **Générer des états financiers** (ou la
 > [!NOTE]
 > Si vous créez un compte général sans affecter de catégorie de compte, lorsque vous affectez le compte à un groupe comptabilisation [!INCLUDE[prod_short](includes/prod_short.md)] attribue automatiquement la catégorie de compte du compte général immédiatement au-dessus du compte dans votre plan comptable. Cependant, pour inclure le nouveau compte dans vos états financiers, vous devez choisir l’action **Générer des états financiers** sur la page **Catégories de compte général**. Vous pouvez également ouvrir la page Fiche de compte G/L, spécifier la catégorie de compte, puis régénérer votre état financier.
 
-## <a name="get-a-quick-overview"></a><a name="get-a-quick-overview"></a><a name="get-a-quick-overview"></a>Obtenir un aperçu rapide
+## <a name="get-a-quick-overview"></a>Obtenir un aperçu rapide
 
 La page **Plan comptable** affiche les comptes dans une liste hiérarchique qui offre un accès rapide aux informations clés pour chaque compte. Cependant, la liste est statique et si vous avez un grand nombre de comptes, vous devrez peut-être défiler pour afficher les différents comptes. Si vous souhaitez simplement un aperçu rapide des éléments de base, tels que les variations nettes et les soldes, la page **Vue d’ensemble du plan comptable** est une alternative utile. La disposition des colonnes sur la page est maintenant la même que celle que vous trouverez sur la page **Plan comptable** (mais avec moins de colonnes), vous n’aurez donc pas à vous réorienter. Vous pouvez développer ou réduire les niveaux hiérarchiques pour condenser la vue. Pour faciliter le passage d’une page à l’autre, la page **Vue d’ensemble du plan comptable** est disponible à partir de la page **Plan comptable**.
 
-## <a name="access-to-create-and-edit-accounts-and-account-categories"></a><a name="access-to-create-and-edit-accounts-and-account-categories"></a><a name="access-to-create-and-edit-accounts-and-account-categories"></a>Accès pour créer et modifier des comptes et des catégories de comptes
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Accès pour créer et modifier des comptes et des catégories de comptes
 
 Dans une petite organisation, comme la société de démonstration CRONUS, la plupart des utilisateurs peuvent modifier le plan comptable, à l’exception des utilisateurs disposant d’une licence MEMBRE D’ÉQUIPE. Cependant, les grandes organisations utilisent généralement des rôles et des autorisations d’utilisation pour limiter l’accès pour modifier le plan comptable. Si vous êtes administrateur ou si vous avez le rôle de *Gestionnaire d’activité* ou de *Comptable*, vous pouvez contrôler les autorisations utilisateur pour vous assurer que les bonnes personnes ont accès aux tables pertinentes. Pour plus d’informations, consultez la section [Pour afficher ou modifier les autorisations d’un utilisateur](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/business-central-configure-general-ledger-setup/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/business-central-configure-general-ledger-setup/) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Configurer ou modifier le plan comptable](finance-setup-chart-accounts.md)  
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  

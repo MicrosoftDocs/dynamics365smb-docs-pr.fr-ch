@@ -12,7 +12,7 @@ ms.date: 05/19/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-image-analyzer-extension"></a><a name="the-image-analyzer-extension"></a><a name="the-image-analyzer-extension"></a>Extension d’analyseur Image
+# <a name="the-image-analyzer-extension"></a>Extension d’analyseur Image
 
 L’extension d’analyseur Image utilise les analyses d’image puissantes fournies par l’API Vision par ordinateur d’Azure Cognitive Services pour détecter des attributs dans les images que vous importez pour des articles et des contacts, afin de les examiner et de les affecter facilement. Pour les articles, les attributs peuvent être si l’article est une table ou une voiture et, s’il est rouge ou bleu. Pour les contacts, les attributs peuvent être le sexe ou l’âge.
 
@@ -22,11 +22,11 @@ L’analyseur Image est gratuit dans [!INCLUDE[prod_short](includes/prod_short.m
 
 Après avoir activé l’extension, l’analyseur Image fonctionne chaque fois que vous importez une image à un article ou à un contact. Vous pourrez consulter les attributs, le niveau de confiance et les détails immédiatement, et décider de gérer chaque attribut. Si vous avez importé des images avant d’activer l’extension d’analyseur Image, vous devez consulter la fiche article ou contact et choisir l’action **Analyser l’image**.  
 
-## <a name="privacy-notice"></a><a name="privacy-notice"></a><a name="privacy-notice"></a>Déclaration de confidentialité
+## <a name="privacy-notice"></a>Déclaration de confidentialité
 
 Cette extension utilise l’API Vision par ordinateur d’Azure Cognitive Services, qui peut avoir différents niveaux d’engagements en matière de conformité par rapport à [!INCLUDE[prod_short](includes/prod_short.md)]. Lorsque vous activez l’extension Analyseur Image, les données client telles qu’une image de contact ou une image d’article sont envoyées à l’API Vision par ordinateur. En installant cette extension, vous acceptez que cet ensemble limité de données soit envoyé à l’API Vision par ordinateur. Notez que vous pouvez désactiver et désinstaller l’extension Analyseur Image à tout moment pour ne plus utiliser cette fonctionnalité. Pour plus d’informations, voir [Centre de gestion de la confidentialité Microsoft](https://go.microsoft.com/fwlink/?linkid=851463).
 
-## <a name="requirements"></a><a name="requirements"></a><a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Conditions requises
 
 Certaines exigences s’appliquent aux images :
 
@@ -34,7 +34,7 @@ Certaines exigences s’appliquent aux images :
 * Taille maxi. de fichier : inférieure à 4 Mo  
 * Dimensions des images : supérieure à 50 x 50 pixels  
 
-## <a name="switch-on-the-image-analyzer-extension"></a><a name="switch-on-the-image-analyzer-extension"></a><a name="switch-on-the-image-analyzer-extension"></a>Activer l’extension d’analyseur Image
+## <a name="switch-on-the-image-analyzer-extension"></a>Activer l’extension d’analyseur Image
 
 L’extension d’analyseur Image est intégrée à [!INCLUDE[prod_short](includes/prod_short.md)]. Vous devez juste l’activer.
 
@@ -49,7 +49,7 @@ Pour activer l’extension d’analyseur Image, effectuez l’une des actions su
     > [!TIP]  
     > La page **Configuration de l’analyse de l’image** vous permet également de modifier le degré de confiance des suggestions d’attribut. Par exemple, si vous souhaitez avoir besoin d’un niveau de confiance supérieur, vous pouvez saisir un pourcentage plus élevé.
 
-## <a name="analyze-an-item-image"></a><a name="analyze-an-item-image"></a><a name="analyze-an-item-image"></a>Analyser l’image d’un article
+## <a name="analyze-an-item-image"></a>Analyser l’image d’un article
 
 Les étapes suivantes décrivent comment analyser une image importée avant que vous ayez activé l’extension d’analyseur Image.  
 
@@ -69,7 +69,7 @@ Le champ **Action à effectuer** comporte les options suivantes :
 > [!NOTE]  
 > Par défaut **Attributs article** affiche les attributs où **Score de fiabilité** est supérieur à la valeur de **Niveau de score de fiabilité %** définie dans **Configuration de l’analyse d’image**. Pour voir tous les attributs détectés, choisissez laction **Afficher tous les attributs**.
 
-## <a name="analyze-a-contact-person-picture"></a><a name="analyze-a-contact-person-picture"></a><a name="analyze-a-contact-person-picture"></a>Analyser la photo d’un contact
+## <a name="analyze-a-contact-person-picture"></a>Analyser la photo d’un contact
 
 Les étapes suivantes décrivent comment analyser une image importée avant que vous ayez activé l’extension d’analyseur Image.  
 
@@ -90,7 +90,7 @@ Les étapes suivantes décrivent comment analyser une image importée avant que 
     >
     > L’API Vision par ordinateur ne renvoie pas le niveau de fiabilité pour les attributs d’âge et de sexe.
   
-## <a name="use-your-own-computer-vision-api-account"></a><a name="use-your-own-computer-vision-api-account"></a><a name="use-your-own-computer-vision-api-account"></a>Utiliser votre propre compte pour l’API Vision par ordinateur
+## <a name="use-your-own-computer-vision-api-account"></a>Utiliser votre propre compte pour l’API Vision par ordinateur
 
 Vous pouvez également utiliser votre propre compte pour l’API Vision par ordinateur, par exemple, si vous souhaitez analyser plus d’images que ce que permet l’intégration par défaut.
 
@@ -100,21 +100,21 @@ Vous pouvez également utiliser votre propre compte pour l’API Vision par ordi
     > [!NOTE]  
     > Vous devez ajouter **/analyze** à la fin de l’URI d’API, si ce n’est pas déjà le cas. Par exemple, ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a><a name="see-how-many-analyses-you-have-left-in-the-current-period"></a><a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Visualiser le nombre d’analyses restant pour la période en cours
+## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Visualiser le nombre d’analyses restant pour la période en cours
 
 Vous pouvez afficher le nombre d’analyses effectué, et le nombre restant, pour la période actuelle.  
 
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration d’analyse d’image**, puis choisissez le lien associé.
 2. **Type limite**, **Valeur limite** et **Analyses effectuées** vous fournissent des informations sur l’utilisation.  
 
-## <a name="stop-using-the-image-analyzer-extension"></a><a name="stop-using-the-image-analyzer-extension"></a><a name="stop-using-the-image-analyzer-extension"></a>Arrêter d’utiliser l’extension d’analyseur Image
+## <a name="stop-using-the-image-analyzer-extension"></a>Arrêter d’utiliser l’extension d’analyseur Image
 
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Connexions de services**, puis choisissez **Configuration de l’analyse d’image**.  
 2. Désactivez la case à cocher **Activer l’analyseur Image**.  
 
 Vous pouvez également désinstaller complètement l’extension. Vous pouvez toujours la récupérer à partir de AppSource. Pour plus d’informations, voir [Installation et désinstallation d’extensions dans Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Utiliser les attributs d’article](inventory-how-work-item-attributes.md)  
 [Catégoriser des articles](inventory-how-categorize-items.md)  

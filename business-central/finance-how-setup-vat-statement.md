@@ -11,11 +11,11 @@ ms.search.form: '317, 318, 320, 474'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-vat-statement-templates-and-vat-statement-names"></a><a name="set-up-vat-statement-templates-and-vat-statement-names"></a><a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Paramétrer des modèles de déclaration de TVA et des noms de déclaration de TVA
+# <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Paramétrer des modèles de déclaration de TVA et des noms de déclaration de TVA
 
 Les autorités fiscales peuvent modifier et modifient leurs exigences de validation de la TVA. Les modèles de déclaration de TVA et les noms de déclaration de TVA peuvent vous aider à vous préparer aux changements à venir et à vous conformer en douceur aux nouvelles exigences. Vous pouvez utiliser des modèles de déclaration de TVA pour configurer différents rapports lorsque vous choisissez d’imprimer la déclaration. Chaque modèle de déclaration de TVA peut avoir plusieurs noms de déclaration de TVA qui, en retour, définissent les calculs, et vous pouvez créer un nouveau nom de déclaration de TVA lorsque les exigences changent. Par exemple, un nom peut calculer la TVA pour cette année en fonction des exigences actuelles, et un autre modèle peut calculer la TVA en fonction des exigences de l’année suivante. Les noms permettent également de conserver un historique des formats de déclaration de TVA, par exemple pour vous permettre de déterminer comment la TVA a été calculée dans les années précédentes.
 
-## <a name="to-define-a-vat-statement"></a><a name="to-define-a-vat-statement"></a><a name="to-define-a-vat-statement"></a>Pour définir une déclaration de TVA
+## <a name="to-define-a-vat-statement"></a>Pour définir une déclaration de TVA
 
 Les déclarations de TVA vous permettent de calculer le montant de la déclaration de TVA pour une période donnée, par exemple, un trimestre.
 
@@ -27,7 +27,7 @@ Les déclarations de TVA vous permettent de calculer le montant de la déclarati
 > Vous pouvez filtrer les informations de la déclaration, selon votre sélection dans le champ **Type**. L’option **Totalisation comptes** est utile lorsque vous souhaitez calculer la TVA à partir d’un compte spécifique.
 L’option **TVA** permet d’obtenir la TVA pour les comptes affectés aux sélections dans les champs **Type compta. TVA**, **Groupe compta. marché TVA** et/ou **Groupe compta. produit TVA**. L’option **Total de lignes** permet de saisir une valeur ou des critères de filtre rapide dans le champ **Total de lignes**. Pour plus d’informations, voir [Recherche, filtrage et tri des données](ui-enter-criteria-filters.md). L’option **Description** est souvent utilisée pour ajouter une note à la déclaration. Par exemple, vous pouvez l’utiliser comme en-tête si vous avez utilisé Total de lignes.
 
-## <a name="to-preview-the-vat-statement"></a><a name="to-preview-the-vat-statement"></a><a name="to-preview-the-vat-statement"></a>Afficher la déclaration de TVA
+## <a name="to-preview-the-vat-statement"></a>Afficher la déclaration de TVA
 
 Après avoir défini une déclaration de TVA, vous pouvez en afficher un aperçu pour vérifier qu’elle répond à vos besoins.
 > [!Tip]
@@ -39,9 +39,9 @@ Après avoir défini une déclaration de TVA, vous pouvez en afficher un aperçu
 4. Sur les lignes où le champ **Type** indique la valeur **TVA**, vous pouvez afficher la liste des écritures TVA en choisissant le montant figurant dans le champ **Montant colonne**.
 5. Vous pouvez utiliser la personnalisation pour afficher plus de champs dans les lignes. Par exemple, le montant de base sur encaissement prévu et le montant de TVA sur encaissement prévu, si vous utilisez la TVA sur encaissement.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Configuration de la TVA](finance-setup-vat.md)  
 [Configuration de la TVA sur encaissement](finance-setup-unrealized-vat.md)  

@@ -7,7 +7,7 @@ ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-payment-terms"></a><a name="set-up-payment-terms"></a><a name="set-up-payment-terms"></a>Configurer des conditions de paiement
+# <a name="set-up-payment-terms"></a>Configurer des conditions de paiement
 
 Les conditions de paiement déterminent la façon dont vous gérez les dates d’échéance et les remises de paiement. Vous pouvez configurer n’importe quel nombre de codes condition de paiement et utiliser des formules date pour définir les conditions de paiement. Lorsque vous vous inscrivez pour la première fois à [!INCLUDE [prod_short](includes/prod_short.md)], la société de démonstration fournit quelques méthodes de paiement que les entreprises utilisent souvent. Vous pouvez cependant en ajouter autant que nécessaire.  
 
@@ -19,7 +19,7 @@ De même, lorsque vous publiez un avoir, [!INCLUDE [prod_short](includes/prod_sh
 
 Si vous souhaitez envoyer à vos clients des rappels de paiements en retard, vous devez configurer des niveaux et des conditions de rappel. Pour plus d’informations, voir [Configurer les conditions et niveaux de relance](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a><a name="to-set-up-payment-terms"></a><a name="to-set-up-payment-terms"></a>Pour configurer des conditions de paiement
+## <a name="to-set-up-payment-terms"></a>Pour configurer des conditions de paiement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions de paiement**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -31,7 +31,7 @@ Après avoir configuré les conditions de paiement, affectez-les aux clients et 
 >
 > Dans certains pays, vous *pouvez* mettre en place des conditions de paiement avec des paiements partiels. Pour savoir si cette fonctionnalité est prise en charge dans votre pays, consultez la section **Fonctionnalité locale** dans le volet de navigation sur le côté gauche d’un article [Microsoft Learn](about-localization.md).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Paramétrer les modes de paiement](finance-payment-methods.md)  
 [Configuration des acomptes](finance-set-up-prepayments.md)  

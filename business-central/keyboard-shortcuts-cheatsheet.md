@@ -11,9 +11,9 @@ ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-quick-reference---pc-only"></a><a name="keyboard-quick-reference---pc-only"></a><a name="keyboard-quick-reference---pc-only"></a>Référence rapide de raccourcis clavier - PC uniquement
+# <a name="keyboard-quick-reference---pc-only"></a>Référence rapide de raccourcis clavier - PC uniquement
 
-#### <a name="general"></a><a name="general"></a><a name="general"></a>Général
+#### <a name="general"></a>Général
 
 |Sélectionnez ces touches|Pour|  
 |-|-|
@@ -39,7 +39,7 @@ ms.custom: bap-template
 |<kbd>Tab</kbd>/<kbd>Maj</kbd>+<kbd>Tab</kbd>|Déplacer le focus sur l’élément suivant/précédent|
 |<kbd>F6</kbd>/<kbd>Maj</kbd>+<kbd>F6</kbd>|Accéder au raccourci/à l’élément suivant|
 
-#### <a name="navigate--select-rows"></a><a name="navigate--select-rows"></a><a name="navigate--select-rows"></a>Naviguer et sélectionner des lignes
+#### <a name="navigate--select-rows"></a>Naviguer et sélectionner des lignes
 
 |Sélectionnez ces touches|Pour|
 |-|-|
@@ -53,14 +53,14 @@ ms.custom: bap-template
 |<kbd>Maj</kbd>+<kbd>Haut</kbd>/<kbd>Bas</kbd>|Sélectionner les lignes visibles ci-dessus/ci-dessous|
 |<kbd>Ctrl</kbd>+<kbd>Entrée</kbd>|Focus hors de la liste|
 
-#### <a name="copy--paste"></a><a name="copy--paste"></a><a name="copy--paste"></a>Copier et coller
+#### <a name="copy--paste"></a>Copier et coller
 
 |Sélectionnez ces touches|Pour|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Copier/coller des lignes|
 |<kbd>F8</kbd>|Copier le champ au-dessus dans la ligne actuelle|
 
-#### <a name="search-filter--sort"></a><a name="search-filter--sort"></a><a name="search-filter--sort"></a>Rechercher, filtrer et trier
+#### <a name="search-filter--sort"></a>Rechercher, filtrer et trier
 
 |Sélectionnez ces touches|Pour|
 |-|-|
@@ -71,20 +71,20 @@ ms.custom: bap-template
 |<kbd>Maj</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Ajouter un filtre au champ sélectionnée|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>F3</kbd>|Réinitialiser les filtres|
 
-#### <a name="quick-entry"></a><a name="quick-entry"></a><a name="quick-entry"></a>Saisie rapide
+#### <a name="quick-entry"></a>Saisie rapide
 
 |Sélectionnez ces touches|Pour|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Entrée</kbd>|Accéder au champ suivant Saisie rapide en dehors d’une liste|
 |<kbd>Entrée</kbd>/<kbd>Maj</kbd>+<kbd>Entrée</kbd>|Accéder au champ Saisie rapide précédent/suivant|
 
-##### <a name="report-preview"></a><a name="report-preview"></a><a name="report-preview"></a>Aperçu d’état
+##### <a name="report-preview"></a>Aperçu d’état
 
 |Sélectionnez ces touches|Pour|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Début</kbd>/<kbd>Fin</kbd>|Aller à la première/dernière page|
 
-#### <a name="numeric-keypad"></a><a name="numeric-keypad"></a><a name="numeric-keypad"></a>Clavier numérique
+#### <a name="numeric-keypad"></a>Clavier numérique
 
 |Sélectionnez ces touches|Pour|  
 |-|-|

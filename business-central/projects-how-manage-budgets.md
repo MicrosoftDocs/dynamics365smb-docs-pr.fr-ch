@@ -11,13 +11,13 @@ ms.search.form: '1002, 1007'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="manage-job-budgets"></a><a name="manage-job-budgets"></a><a name="manage-job-budgets"></a>Gérer les budgets de projets
+# <a name="manage-job-budgets"></a>Gérer les budgets de projets
 
 Vous pouvez configurer un budget pour chaque projet. Le budget permet de planifier les ressources que vous affectez à un projet. Il peut s’agir d’un budget général avec peu d’écritures ou plus détaillé avec des écritures réparties par niveau d’activité. Vous pouvez alors comparer les montants budgétés avec l’activité réelle telle qu’elle a été enregistrée dans la feuille projet. En surveillant les différences entre l’activité réelle et celle budgétée, vous pouvez contrôler un projet en cours et améliorer la qualité des projets futurs en réduisant le risque de sous-estimation des coûts.
 
 La procédure suivante décrit comment estimer les coûts budgétés lors de la planification. Pour plus d’informations sur l’enregistrement budgété par rapport aux prix et aux coûts réels du projet, voir [Enregistrer l’utilisation pour les projets](projects-how-record-job-usage.md).  
 
-## <a name="to-estimate-the-budgeted-costs-for-a-job"></a><a name="to-estimate-the-budgeted-costs-for-a-job"></a><a name="to-estimate-the-budgeted-costs-for-a-job"></a><a name="JobBudgetCosts"></a> Pour estimer les coûts budgétés d’un projet
+## <a name="to-estimate-the-budgeted-costs-for-a-job"></a><a name="JobBudgetCosts"></a>Pour estimer les coûts budgétés d’un projet
 Lorsqu’un client souhaite connaître le prix d’un projet qui sera facturé en fonction de l’activité, vous devez déterminer les coûts budgétés du projet. Réalisez cette opération sur la page **Lignes tâche projet**.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
@@ -43,9 +43,9 @@ Sur la page **Fiche projet**, vous pouvez désormais voir un résumé des coûts
 
 Pour plus d’informations sur l’enregistrement budgété par rapport aux prix et aux coûts réels du projet, voir [Enregistrer l’utilisation pour les projets](projects-how-record-job-usage.md).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/set-up-job-planning-lines/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/set-up-job-planning-lines/) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion de projets](projects-manage-projects.md)  
 [Finances](finance.md)  

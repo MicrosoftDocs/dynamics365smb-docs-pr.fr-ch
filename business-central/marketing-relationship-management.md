@@ -12,7 +12,7 @@ ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="managing-relationships"></a><a name="managing-relationships"></a><a name="managing-relationships"></a>Gestion des relations
+# <a name="managing-relationships"></a>Gestion des relations
 Les fonctionnalités de gestion des relations de [!INCLUDE[prod_short](includes/prod_short.md)] vous aident à gérer et prendre en charge vos efforts de vente. Grâce à elles, vous avez accès à des informations complètes et pertinentes qui vous permettent de focaliser vos interactions sur les segments client/contact favoris.
 
 Les pratiques recommandées en matière de vente et de marketing reposent toutes sur la prise de décisions appropriées au bon moment. [!INCLUDE[prod_short](includes/prod_short.md)] fournit une vue d’ensemble précise et opportune de vos informations de contact afin d’offrir des services à vos prospects de manière plus efficace et d’accroître la satisfaction de la clientèle.

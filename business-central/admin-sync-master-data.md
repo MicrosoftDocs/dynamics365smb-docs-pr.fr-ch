@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
-# <a name="manage-master-data-synchronization"></a><a name="manage-master-data-synchronization"></a><a name="manage-master-data-synchronization"></a>Gérer la synchronisation des données principales
+# <a name="manage-master-data-synchronization"></a>Gérer la synchronisation des données principales
 
 Après avoir configuré la synchronisation des données principales et effectué la première synchronisation, les enregistrements des tables sélectionnées sont couplés et une entrée de file d’attente des tâches récurrentes est créée pour chaque table. Les entrées de la file d’attente des tâches synchronisent automatiquement les données dans les filiales lorsqu’un utilisateur apporte une modification dans la société source. Sinon, vous n’avez rien à faire.
 
@@ -21,7 +21,7 @@ Cependant, parfois, les choses tournent mal et certaines situations exigent gest
 
 Cet article décrit les outils que vous pouvez utiliser pour assurer le bon fonctionnement de la synchronisation.
 
-## <a name="investigate-the-status-of-synchronization"></a><a name="investigate-the-status-of-synchronization"></a><a name="investigate-the-status-of-synchronization"></a>Examiner le statut de la synchronisation
+## <a name="investigate-the-status-of-synchronization"></a>Examiner le statut de la synchronisation
 
 Deux actions sur la page **Tables de synchronisation** peuvent vous aider à surveiller votre synchronisation :
 
@@ -38,29 +38,29 @@ La table suivante décrit les actions.
 > [!NOTE]
 > Si vous trouvez une erreur sur la page **Tâches de synchronisation de l’intégration** que vous ne pouvez pas résoudre vous-même, si vous contactez votre partenaire ou Microsoft pour obtenir de l’aide, il est utile de fournir le message d’erreur et les informations sur la pile d’appels.
 
-## <a name="synchronize-modified-records"></a><a name="synchronize-modified-records"></a><a name="synchronize-modified-records"></a>Synchroniser les enregistrements modifiés
+## <a name="synchronize-modified-records"></a>Synchroniser les enregistrements modifiés
 
 Si vous modifiez un paramètre pour une table ou un champ dans une filiale, vous devez mettre à jour la synchronisation. Par exemple, si vous décidez de cocher la case **Remplacer les changements locaux** sur un champ pour permettre aux données de la société source de remplacer les changements locaux. Pour mettre à jour la synchronisation, utilisez l’action **Synchroniser les enregistrements modifiés** sur la page **Tables de synchronisation**.
 
-## <a name="update-table-schemas"></a><a name="update-table-schemas"></a><a name="update-table-schemas"></a>Mettre à jour les schémas de table
+## <a name="update-table-schemas"></a>Mettre à jour les schémas de table
 
 Si la société source modifie une table, par exemple en ajoutant un champ que vous souhaitez synchroniser, les filiales doivent mettre à jour leurs mappages de champs. Sur la page **Champs de synchronisation**, utilisez l’action **Mettre à jour les champs**. 
 
-## <a name="enable-or-disable-couplings-between-records"></a><a name="enable-or-disable-couplings-between-records"></a><a name="enable-or-disable-couplings-between-records"></a>Activer ou désactiver les couplages entre enregistrements
+## <a name="enable-or-disable-couplings-between-records"></a>Activer ou désactiver les couplages entre enregistrements
 
 Pour démarrer ou arrêter le couplage sur des enregistrements spécifiques d’une table, sur la page **Champs de synchronisation**, choisissez les champs, puis utilisez les actions **Activer** ou **Désactiver**. 
 
 > [!TIP]
 > Un moyen rapide d’activer ou de désactiver plusieurs champs en même temps consiste à les sélectionner dans la liste, puis à utiliser les actions **Activer** ou **Désactiver**.
 
-## <a name="adding-extensions"></a><a name="adding-extensions"></a><a name="adding-extensions"></a>Ajout d’extensions
+## <a name="adding-extensions"></a>Ajout d’extensions
 
 Si la société source installe une nouvelle extension, la filiale doit également l’installer si elle souhaite synchroniser les données pour celle-ci. La filiale peut utiliser l’action **Mettre à jour les champs** sur la page **Champs de synchronisation** pour ajouter les tables de l’extension à la liste.
 
 > [!NOTE]
 > Certaines tables obtiennent des données de tables liées. Si vous ajoutez une extension qui n’inclut pas les tables liées, les champs de ces tables ne seront pas disponibles. Vérifiez que vous avez ajouté toutes les tables associées.
 
-## <a name="clean-up-old-entries"></a><a name="clean-up-old-entries"></a><a name="clean-up-old-entries"></a>Nettoyer les anciennes entrées
+## <a name="clean-up-old-entries"></a>Nettoyer les anciennes entrées
 
 Au fil du temps, le nombre d’entrées dans le journal de synchronisation deviendra important, vous voudrez peut-être faire un peu de ménage pour supprimer les entrées inutiles. Pour faciliter le nettoyage des anciennes entrées, la page **Tâches de synchronisation de l’intégration** offre les actions suivantes :
 
@@ -68,11 +68,11 @@ Au fil du temps, le nombre d’entrées dans le journal de synchronisation devie
 * **Supprimer toutes les écritures**
 
 <!--
-## <a name="recreate-a-deleted-job-queue-entry"></a><a name="recreate-a-deleted-job-queue-entry"></a><a name="recreate-a-deleted-job-queue-entry"></a>Recreate a deleted job queue entry
+## <a name="recreate-a-deleted-job-queue-entry"></a>Recreate a deleted job queue entry
 
 If the recurring job queue entry is deleted for a table, you can quickly recreate it. On the **Synchronization Tables** page, choose the **Use Default Synchronization Setup** action.
 -->
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Se préparer à synchroniser les données principales](admin-set-up-data-sync.md)

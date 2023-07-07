@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-electronic-document-sending-and-receiving"></a><a name="set-up-electronic-document-sending-and-receiving"></a><a name="set-up-electronic-document-sending-and-receiving"></a>Configurer l’envoi et la réception de documents électroniques
+# <a name="set-up-electronic-document-sending-and-receiving"></a>Configurer l’envoi et la réception de documents électroniques
 
 Comme alternative à l’envoi par courrier électronique sous forme de fichiers joints, vous pouvez envoyer et recevoir des documents commerciaux par voie électronique. Par document électronique, on entend un fichier conforme aux normes représentant un document commercial comme une facture fournisseur que vous pouvez recevoir et convertir en facture achat dans [!INCLUDE[prod_short](includes/prod_short.md)]. L’échange de documents électroniques entre deux partenaires commerciaux est exécuté par un fournisseur externe de services d’échange de documents. La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge l’envoi et la réception de factures et d’avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d’échange de documents. Un fournisseur principal de services d’échange de documents est préconfiguré et prêt à être installé pour votre société.  
 
@@ -37,7 +37,7 @@ La rubrique contient les procédures suivantes :
 * Sélectionner la définition d’échange de données **PEPPOL - Facture** pour la réception d’un document électronique  
 * Configurer le compte général pour utiliser de nouvelles lignes facture achat pour des articles non\-identifiables et des non\-articles  
 
-### <a name="to-set-up-the-company-for-electronic-document-sending-and-receiving"></a><a name="to-set-up-the-company-for-electronic-document-sending-and-receiving"></a><a name="to-set-up-the-company-for-electronic-document-sending-and-receiving"></a>Configurer la société pour l’envoi et la réception de documents électroniques
+### <a name="to-set-up-the-company-for-electronic-document-sending-and-receiving"></a>Configurer la société pour l’envoi et la réception de documents électroniques
 
 1. Dans la zone **Rechercher**, saisissez **Informations société**, puis sélectionnez le lien associé.  
 2. Dans le raccourci **Général**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
@@ -48,7 +48,7 @@ La rubrique contient les procédures suivantes :
     |**N° identif. intracomm.**|Spécifiez le numéro d’identification intra-communautaire.|  
     |**Centre de gestion**|Si votre société est configurée avec un centre de gestion, assurez-vous que le champ **Code pays/région** est renseigné.|  
 
-### <a name="to-set-up-vat-posting-for-electronic-document-sending-and-receiving"></a><a name="to-set-up-vat-posting-for-electronic-document-sending-and-receiving"></a><a name="to-set-up-vat-posting-for-electronic-document-sending-and-receiving"></a>Configurer la comptabilisation TVA pour l’envoi et la réception de documents électroniques
+### <a name="to-set-up-vat-posting-for-electronic-document-sending-and-receiving"></a>Configurer la comptabilisation TVA pour l’envoi et la réception de documents électroniques
 
 1. Dans la zone **Rechercher**, saisissez **Paramètres compta. TVA**, puis sélectionnez le lien associé.  
 2. Pour chaque ligne des paramètres validation TVA que vous utiliserez pour des documents électroniques, renseignez le champ comme décrit dans le tableau suivant.  
@@ -57,7 +57,7 @@ La rubrique contient les procédures suivantes :
     |---------------------------------|---------------------------------------|  
     |**Catégorie de taxe**|Spécifiez la catégorie de TVA.<br /><br /> Par exemple, lorsque vous envoyez des factures électroniques au format PEPPOL, la valeur de ce champ est utilisée pour remplir l’élément **TaxApplied** dans le nœud **AccountingSupplierParty** dans le fichier. Le numéro est basé sur le UNCL5305 standard.|  
 
-### <a name="to-set-up-countriesregions-for-electronic-document-sending-and-receiving"></a><a name="to-set-up-countriesregions-for-electronic-document-sending-and-receiving"></a><a name="to-set-up-countriesregions-for-electronic-document-sending-and-receiving"></a>Configurer les pays/régions pour l’envoi et la réception de documents électroniques
+### <a name="to-set-up-countriesregions-for-electronic-document-sending-and-receiving"></a>Configurer les pays/régions pour l’envoi et la réception de documents électroniques
 
 1. Dans la zone **Rechercher**, saisissez **Pays/Régions**, puis choisissez le lien associé.  
 2. Pour chaque pays/région avec lequel vous échangerez des documents électroniques, renseignez le champ comme décrit dans le tableau suivant.  
@@ -66,7 +66,7 @@ La rubrique contient les procédures suivantes :
     |---------------------------------|---------------------------------------|  
     |**Régime de TVA**|Identifiez l’organisme national qui émet le numéro d’identification intra-communautaire du pays\/de la région en relation avec l’envoi de document électronique.<br /><br /> Par exemple, lorsque vous envoyez des factures électroniques au format PEPPOL, la valeur de ce champ est utilisée pour remplir l’attribut **SchemeID** pour l’élément **EndPointID** sous, à la fois le nœud **AccountingSupplierParty** et le **AccountingCustomerParty** dans le fichier.<br /><br /> Le champ **Régime de TVA** n’est utilisé que si le champ **GLN** sur la page **Informations société** n’est pas renseigné. **Remarque :** la valeur du champ **Code** sur la page **Pays\/Régions** doit être conforme à ISO 3166\-1:Alpha2.|  
 
-### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a><a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a><a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Configurer les articles pour l’envoi et la réception de documents électroniques
+### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Configurer les articles pour l’envoi et la réception de documents électroniques
 
 1. Dans la boîte de dialogue **Rechercher**, entrez **Articles**, puis sélectionnez le lien associé.  
 2. Pour chaque article que vous achetez ou vendez sur des documents électroniques, renseignez le champ comme décrit dans le tableau suivant.  
@@ -75,7 +75,7 @@ La rubrique contient les procédures suivantes :
     |---------------------------------|---------------------------------------|  
     |**GTIN**|Identifie l’article en relation avec l’envoi et la réception de document électronique. Pour le format PEPPOL, le champ est utilisé comme suit :<br /><br /> Si l’élément **StandardItemIdentification\/ID** a l’attribut **SchemeID** défini sur **GTIN**, alors l’élément est mappé au champ **GTIN** de la fiche article.|  
 
-### <a name="to-set-up-units-of-measure-for-electronic-document-sending-and-receiving"></a><a name="to-set-up-units-of-measure-for-electronic-document-sending-and-receiving"></a><a name="to-set-up-units-of-measure-for-electronic-document-sending-and-receiving"></a>Configurer les unités de mesure pour l’envoi et la réception de documents électroniques
+### <a name="to-set-up-units-of-measure-for-electronic-document-sending-and-receiving"></a>Configurer les unités de mesure pour l’envoi et la réception de documents électroniques
 
 1. Dans la zone **Rechercher**, entrez **Unité de mesure**, puis choisissez le lien associé.  
 2. Pour chaque unité de mesure que vous utiliserez pour articles sur des documents électroniques, renseignez le champ comme décrit dans le tableau suivant.  
@@ -84,7 +84,7 @@ La rubrique contient les procédures suivantes :
     |---------------------------------|---------------------------------------|  
     |**Code norme internationale**|Spécifiez le code de l’unité de mesure exprimé en fonction de la norme UNECERec20 en relation avec l’envoi des documents électroniques.<br /><br /> Par exemple, lorsque vous envoyez des factures électroniques au format PEPPOL, la valeur de ce champ est utilisée pour remplir l’attribut **unitCode** de l’élément **InvoicedQuantity** dans le nœud **InvoiceLine**. **Remarque :** si le champ **Unité** de la ligne vente est vide, la valeur UNECERe20 standard de la « pièce » \(H87\) est insérée par défaut. Pour plus d’informations et pour obtenir une liste des codes unité de mesure valides, reportez-vous à la [Recommandation n° 20 \- Units of Measure used in International Trade (Unités de mesure utilisées sur le marché international)](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
-### <a name="to-set-up-customers-for-electronic-document-sending"></a><a name="to-set-up-customers-for-electronic-document-sending"></a><a name="to-set-up-customers-for-electronic-document-sending"></a>Configurer les clients pour l’envoi d’un document électronique
+### <a name="to-set-up-customers-for-electronic-document-sending"></a>Configurer les clients pour l’envoi d’un document électronique
 
 1. Dans la zone **Rechercher**, saisissez **Clients**, puis sélectionnez le lien associé.  
 2. Pour chaque client à qui vous enverrez un document électronique, renseignez les champs comme décrit dans le tableau suivant.  
@@ -97,7 +97,7 @@ La rubrique contient les procédures suivantes :
 
     Vous pouvez configurer chaque client avec une méthode préférée d’envoi de documents commerciaux, afin d’éviter d’avoir à sélectionner une option d’envoi chaque fois que vous envoyez un document au client. Pour plus d’informations, reportez vous à [Configurer des profils d’envoi de documents](sales-how-setup-document-send-profiles.md).  
 
-### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a><a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a><a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>Sélectionner le format de document électronique PEPPOL pour l’envoi d’un document électronique
+### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>Sélectionner le format de document électronique PEPPOL pour l’envoi d’un document électronique
 1. Dans la zone **Rechercher**, entrez **Profils d’envoi de documents**, puis choisissez le lien associé.  
 2. Ouvrez un profil existant d’envoi de document, ou créez-en un. Pour plus d’informations, reportez vous à [Configurer des profils d’envoi de documents](sales-how-setup-document-send-profiles.md).  
 3. Sur la page **Profil d’envoi de documents**, choisissez le **Format électronique**, sélectionnez la ligne associée à PEPPOL, puis sélectionnez **OK**.  
@@ -110,7 +110,7 @@ La rubrique contient les procédures suivantes :
 
     Vous pouvez désormais envoyer le document électronique contenant des données converties. Pour plus d’informations, voir [Envoyer des documents électroniques](sales-how-to-send-electronic-documents.md).  
 
-### <a name="to-set-up-vendors-for-electronic-document-receiving"></a><a name="to-set-up-vendors-for-electronic-document-receiving"></a><a name="to-set-up-vendors-for-electronic-document-receiving"></a>Configurer les fournisseurs pour la réception d’un document électronique
+### <a name="to-set-up-vendors-for-electronic-document-receiving"></a>Configurer les fournisseurs pour la réception d’un document électronique
 1. Dans la zone **Rechercher**, entrez **Fournisseurs**, puis sélectionnez le lien associé.  
 2. Pour chaque fournisseur de qui vous recevrez un document électronique, renseignez les champs comme décrit dans le tableau suivant.  
 
@@ -120,7 +120,7 @@ La rubrique contient les procédures suivantes :
     |**N° identif. intracomm.**|Spécifiez le numéro d’identification intra-communautaire du fournisseur. **Astuce :** dans les versions localisées prises en charge, choisissez le bouton Analyser pour utiliser le service Web qui vérifie si le numéro existe dans le registre national des sociétés.|  
     |**Centre de gestion**|Si le fournisseur est configuré avec un centre de gestion, assurez-vous que le champ **Code pays/région** est renseigné.|  
 
-### <a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a><a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a><a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a>Sélectionner la définition d’échange de données PEPPOL – Facture pour la réception d’un document électronique
+### <a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a>Sélectionner la définition d’échange de données PEPPOL – Facture pour la réception d’un document électronique
 1. Dans la zone **Rechercher**, entrez **Documents entrants**, puis sélectionnez le lien associé.  
 2. Sur la ligne du document électronique que vous souhaitez recevoir et convertir, choisissez le champ **Type d’échange de données**, puis sélectionnez **PEPPOLINVOICE**.  
 
@@ -128,7 +128,7 @@ La rubrique contient les procédures suivantes :
 
     Vous pouvez désormais recevoir le document électronique en démarrant le processus de conversion de données sur la page **Documents entrants**. Pour plus d’informations; voir [Recevoir et convertir des documents électroniques](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
-### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a><a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a><a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>Configurer le compte général pour utiliser de nouvelles lignes facture achat pour des articles non identifiables et des non-articles
+### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>Configurer le compte général pour utiliser de nouvelles lignes facture achat pour des articles non identifiables et des non-articles
 1. Dans la zone **Rechercher**, entrez **Paramètres achats**, puis choisissez le lien associé.  
 2. Sous le raccourci **Comptes par défaut**, renseignez le champ comme indiqué dans le tableau ci-dessous.  
 
@@ -136,9 +136,9 @@ La rubrique contient les procédures suivantes :
     |---------------------------------|---------------------------------------|  
     |**Compte général pour lignes non-article**|Spécifie le compte G/L inséré automatiquement dans les lignes d’achat créées à partir de documents électroniques lorsque la ligne de document entrant ne contient pas d’article identifiable. Une ligne document entrant sans GTIN ni numéro d’article du fournisseur sera convertie en ligne achat de type **Compte général** et le champ **N°**. de la ligne achat affichera le compte que vous sélectionnez dans le champ **Compte général pour lignes non-article**.<br /><br /> Si vous laissez le champ **Compte général pour lignes non-article** vide et que le document entrant possède des lignes sans articles identifiables, alors le document d’achat ne sera pas créé. Un message d’erreur vous donnera des instructions pour remplir le champ **Compte général pour lignes non-article** avant de pouvoir terminer la tâche.|  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Échanger des données par voir électronique](across-data-exchange.md)   
 [Facturer des ventes](sales-how-invoice-sales.md)   
 [Enregistrer des achats](purchasing-how-record-purchases.md)

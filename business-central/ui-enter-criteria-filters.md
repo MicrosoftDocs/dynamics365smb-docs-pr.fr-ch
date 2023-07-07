@@ -11,7 +11,7 @@ ms.search.form: null
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="sorting-searching-and-filtering"></a><a name="sorting-searching-and-filtering"></a><a name="sorting-searching-and-filtering"></a>Tri, recherche et filtrage
+# <a name="sorting-searching-and-filtering"></a>Tri, recherche et filtrage
 
 Il existe quelques fonctions que vous pouvez utiliser pour vous aider à analyser, rechercher et limiter des enregistrements d’une liste ou dans un état ou un XMLport. Il s’agit notamment du tri, de la recherche et du filtrage. Vous pouvez en appliquer certaines ou toutes simultanément pour trouver rapidement ou analyser vos données.
 
@@ -26,7 +26,7 @@ Pour les états et les XMLports, comme sur des listes, vous pouvez définir des 
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 -->
 
-## <a name="sorting"></a><a name="sorting"></a><a name="sorting"></a>Tri
+## <a name="sorting"></a>Tri
 
 Le tri vous permet d’avoir facilement un aperçu de vos données. Par exemple, si vous avez de nombreux clients, vous pouvez choisir de les trier par **N° client**, **Code devise**, **Code pays/région** pour obtenir l’aperçu que vous souhaitez.
 
@@ -38,7 +38,7 @@ Pour trier une liste, vous pouvez soit :
 > [!NOTE]  
 > Le tri n’est pas pris en charge sur les images, les champs de type BLOB, les FlowFilters, et les champs n’appartenant pas à une table.  
 
-## <a name="searching"></a><a name="searching"></a><a name="searching"></a>Recherche
+## <a name="searching"></a>Recherche
 
 <!--## Searching by using the Quick Filter -->
 En haut de chaque page de liste, il y a une ![liste de recherche.](media/ui-search/search-list.png "Icône de liste Rechercher") action **Rechercher** qui fournit une manière rapide et facile de réduire les enregistrements d’une liste et d’afficher uniquement les enregistrements qui contiennent les données que vous souhaitez afficher.
@@ -54,7 +54,7 @@ Généralement, la recherche tente de mettre en correspondance le texte entre to
 > La recherche ne correspondra pas aux valeurs des images, des champs de type BLOB, des FlowFilters, et des autres champs n’appartenant pas à une table.
 
 
-### <a name="fine-tuning-the-search-with-filter-criteria"></a><a name="fine-tuning-the-search-with-filter-criteria"></a><a name="fine-tuning-the-search-with-filter-criteria"></a>Affiner la recherche avec des critères de filtre
+### <a name="fine-tuning-the-search-with-filter-criteria"></a>Affiner la recherche avec des critères de filtre
 
 Vous pouvez effectuer une recherche plus précise en utilisant des opérateurs de filtre, des expressions et des jetons de filtre. Contrairement au filtrage, ceux-ci sont appliqués à tous les champs lorsqu’ils sont utilisés dans la zone de recherche, ce qui les rend moins efficaces que le filtrage.
 
@@ -77,7 +77,7 @@ Le tableau suivant fournit des exemples expliquant comment vous pouvez utiliser 
 |`@*man`|Tous les enregistrements finissant par **man**, quelle que soit la casse. Par exemple, **Sportsman**, mais pas **Manchester** ni **manuel**.|
 
 
-## <a name="filtering"></a><a name="filtering"></a><a name="filtering"></a><a name="filtering"></a>Filtrage
+## <a name="filtering"></a><a name="filtering"></a>Filtrage
 
 Le filtrage fournit une manière plus avancée et plus souple de contrôler les enregistrements affichés dans une liste ou à inclure dans un état ou un XMLport. Il existe deux différences majeures entre rechercher et filtrer, comme décrit dans le tableau ci-dessous.
 
@@ -90,7 +90,7 @@ Le filtrage vous permet de visualiser des enregistrements pour des comptes ou le
 
 Pour les listes, les filtres sont affichés dans un volet Filtre qui apparaît à gauche de la liste lorsque vous l’activez. Pour les états, les traitements par lots et les XMLports, les filtres sont visibles directement sur la page de demande.
 
-### <a name="filtering-with-option-fields"></a><a name="filtering-with-option-fields"></a><a name="filtering-with-option-fields"></a>Filtrage avec des champs d’option
+### <a name="filtering-with-option-fields"></a>Filtrage avec des champs d’option
 
 Pour les champs « ordinaires » contenant des données, une date de configuration ou des données métier, vous pouvez définir des filtres en sélectionnant des données et en tapant des valeurs de filtre. Vous pouvez également utiliser des symboles pour définir des critères de filtrage avancés. Pour plus d’informations, voir [Saisie de critères de filtre](ui-enter-criteria-filters.md#entering-filter-criteria).
 
@@ -99,7 +99,7 @@ Pour les champs de type **Option**, toutefois, vous ne pouvez définir un filtre
 > [!NOTE]
 > Lorsque vous sélectionnez plusieurs options en tant que valeur de filtre, la relation entre les options est définie comme *OU*. Par exemple, si vous cochez les deux cases **Ouvert** et **Lancé** dans le champ de filtre **Statut** sur la page **Commande vente**, cela signifie que les commandes vente ouvertes ou validées sont affichées.
 
-### <a name="setting-filters-on-lists"></a><a name="setting-filters-on-lists"></a><a name="setting-filters-on-lists"></a>Définition de filtres sur les listes
+### <a name="setting-filters-on-lists"></a>Définition de filtres sur les listes
 
 Sur les listes, vous devez définir les filtres à l’aide du volet Filtre. Pour afficher le volet Filtre d’une liste, choisissez la flèche déroulante en regard du nom de la page, puis choisissez l’action **Afficher le volet Filtre**. Vous pouvez également sélectionner <kbd>Maj</kbd>+<kbd>F3</kbd>.
 
@@ -126,7 +126,7 @@ Le volet Filtre affiche les filtres actuels de la liste, et permet de définir v
 
 Vous pouvez définir un filtre simple directement sur une liste à l’aide du volet Filtre, à savoir un filtre qui n’affiche que les enregistrements ayant la même valeur que dans la cellule sélectionnée. Sélectionnez une cellule dans la liste, choisissez la flèche déroulante, puis choisissez l’action **Filtrer sur cette valeur**. Vous pouvez également sélectionner <kbd>Alt</kbd>+<kbd>F3</kbd>.
 
-### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a><a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a><a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Définition de filtres dans les états, les traitements par lots et les XMLports
+### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Définition de filtres dans les états, les traitements par lots et les XMLports
 
 Pour les états et les XMLports, les filtres sont visibles directement sur la page de demande. La page de demande affiche les derniers filtres utilisés en fonction de votre sélection dans le champ **Utiliser les valeurs par défaut de**. Pour plus d’informations, voir [Utiliser des paramètres enregistrés](ui-work-report.md#SavedSettings).
 
@@ -134,7 +134,7 @@ La section **Filtre** principale affiche les champs de filtre par défaut que vo
 
 Dans la section **Filtrer les totaux par**, vous pouvez ajuster diverses dimensions qui influencent les calculs dans l’état ou le XMLport. Pour ajouter un filtre, choisissez l’action **+ Filtre**. Puis, tapez le nom du champ pour lequel vous souhaitez filtrer la liste ou choisissez un champ dans la liste déroulante.
 
-## <a name="entering-filter-criteria"></a><a name="entering-filter-criteria"></a><a name="entering-filter-criteria"></a>Saisie des critères de filtre
+## <a name="entering-filter-criteria"></a>Saisie des critères de filtre
 
 Dans le volet Filtre et sur une page de demande, vous devez entrer vos critères de filtrage dans la zone située sous le champ Filtre.
 
@@ -145,7 +145,7 @@ Les colonnes qui ont déjà des filtres sont signalées par l’![Icône de filt
 > [!TIP]
 > Accélérez la recherche et l’analyse de vos données en utilisant des combinaisons des raccourcis clavier. Par exemple, sélectionnez un champ, utilisez <kbd>Maj</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd> pour ajouter ce champ au volet Filtre, saisissez les critères de filtre, utilisez <kbd>Ctrl</kbd>+<kbd>Entrée</kbd> pour revenir aux lignes, sélectionnez un autre champ, puis utilisez <kbd>Alt</kbd>+<kbd>F3</kbd> pour filtrer selon cette valeur. Pour plus d’informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="a-namefiltercriteria-afilter-criteria-and-operators"></a><a name="a-namefiltercriteria-afilter-criteria-and-operators"></a><a name="a-namefiltercriteria-afilter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Critères et opérateurs de filtre
+### <a name="a-namefiltercriteria-afilter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Critères et opérateurs de filtre
 
 Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et toutes les lettres que vous utilisez habituellement dans ce champ. Mais il existe également un ensemble de symboles spéciaux que vous pouvez utiliser comme opérateurs pour filtrer davantage les résultats. Les sections suivantes décrivent ces symboles et comment les utiliser comme opérateurs dans les filtres.
 
@@ -157,7 +157,7 @@ Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et 
 >
 > - S’il y a plus de 200 opérateurs dans un seul filtre, le système regroupera automatiquement certaines expressions entre parenthèses `()` à des fins de traitement. Cela n’a aucun effet sur le filtre ou les résultats.  
 
-#### <a name="-interval"></a><a name="-interval"></a><a name="-interval"></a>(..) Intervalle
+#### <a name="-interval"></a>(..) Intervalle
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
@@ -172,62 +172,62 @@ Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et 
 > [!TIP]
 > Si vous utilisez un pavé numérique, la touche de séparateur décimal peut produire un caractère autre qu’un point (.). Pour choisir un point, sélectionnez les touches <kbd>Alt</kbd>+<kbd>séparateur décimal</kbd> du pavé numérique. Pour revenir en arrière, sélectionnez à nouveau <kbd>Alt</kbd>+<kbd>séparateur décimal</kbd>. Pour plus d’informations, voir [Définition du séparateur décimal utilisé par les claviers numériques](ui-enter-data.md#decimal).
 
-#### <a name="124-eitheror"></a><a name="124-eitheror"></a><a name="124-eitheror"></a>(&#124;) Et/ou
+#### <a name="124-eitheror"></a>(&#124;) Et/ou
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
 |`1200|1300`|Numéros incluant 1200 ou 1300|  
 
-#### <a name="-not-equal-to"></a><a name="-not-equal-to"></a><a name="-not-equal-to"></a>(<>) Différent de
+#### <a name="-not-equal-to"></a>(<>) Différent de
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
 |`<>0`|Tous les numéros à l’exception de 0<br /><br /> La version SQL Server vous permet de combiner ce symbole avec une expression de caractères génériques. Par exemple, <>A* signifie différent de tout texte commençant par A.|  
 
-#### <a name="-greater-than"></a><a name="-greater-than"></a><a name="-greater-than"></a>(>) Supérieur à
+#### <a name="-greater-than"></a>(>) Supérieur à
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
 |`>1200`|Numéros supérieurs à 1200|  
 
-#### <a name="-greater-than-or-equal-to"></a><a name="-greater-than-or-equal-to"></a><a name="-greater-than-or-equal-to"></a>(>=) Supérieur ou égal à
+#### <a name="-greater-than-or-equal-to"></a>(>=) Supérieur ou égal à
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
 |`>=1200`|Numéros supérieurs ou égaux à 1200|  
 
-#### <a name="-less-than"></a><a name="-less-than"></a><a name="-less-than"></a>(<) Inférieur à
+#### <a name="-less-than"></a>(<) Inférieur à
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
 |`<1200`|Numéros inférieurs à 1200|  
 
-#### <a name="-less-than-or-equal-to"></a><a name="-less-than-or-equal-to"></a><a name="-less-than-or-equal-to"></a>(<=) Inférieur ou égal à
+#### <a name="-less-than-or-equal-to"></a>(<=) Inférieur ou égal à
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
 |`<=1200`|Numéros inférieurs ou égaux à 1200|  
 
-#### <a name="-and"></a><a name="-and"></a><a name="-and"></a>(&) Et
+#### <a name="-and"></a>(&) Et
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
 |`>200&<1200`|Nombres supérieurs à 200 et inférieurs à 1200|  
 
-#### <a name="-an-exact-character-match"></a><a name="-an-exact-character-match"></a><a name="-an-exact-character-match"></a>(") Correspondance exacte de caractères
+#### <a name="-an-exact-character-match"></a>(") Correspondance exacte de caractères
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
 |`'man'`|Texte qui correspond exactement à **man** et qui respecte la casse.|  
 |`''`|Texte vide.|  
 
-#### <a name="-case-insensitive"></a><a name="-case-insensitive"></a><a name="-case-insensitive"></a>(@) Non-respect de la casse
+#### <a name="-case-insensitive"></a>(@) Non-respect de la casse
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
 |`@man*`|Texte qui commence par **man** et qui ne respecte pas la casse.|  
 
-#### <a name="-an-indefinite-number-of-unknown-characters"></a><a name="-an-indefinite-number-of-unknown-characters"></a><a name="-an-indefinite-number-of-unknown-characters"></a>(*) Un chiffre quelconque ou des caractères inconnus
+#### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Un chiffre quelconque ou des caractères inconnus
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
@@ -235,13 +235,13 @@ Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et 
 |`*Co`|Texte qui se termine par **Co** et respecte la casse.|  
 |`Co*`|Texte qui commence par **Co** et respecte la casse.|  
 
-#### <a name="-one-unknown-character"></a><a name="-one-unknown-character"></a><a name="-one-unknown-character"></a>(?) Un caractère inconnu
+#### <a name="-one-unknown-character"></a>(?) Un caractère inconnu
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
 |`Hans?n`|Texte tel que **Hansen** ou **Hanson**|  
 
-#### <a name="combined-format-expressions"></a><a name="combined-format-expressions"></a><a name="combined-format-expressions"></a>Expressions de format combinées
+#### <a name="combined-format-expressions"></a>Expressions de format combinées
 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
@@ -249,7 +249,7 @@ Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et 
 |`..1299|1400..`|Inclure tous les enregistrements qui portent un numéro inférieur ou égal à 1299 ou un numéro supérieur ou égal à 1400 (tous les numéros sauf ceux compris entre 1300 et 1399).|  
 |`>50&<100`|Inclure les enregistrements qui portent un numéro supérieur à 50 et inférieur à 100 (numéros 51 à 99).|  
 
-### <a name="filtering-on-values-that-contain-symbols"></a><a name="filtering-on-values-that-contain-symbols"></a><a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Filtrage des valeurs contenant des symboles
+### <a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Filtrage des valeurs contenant des symboles
 
 Il peut y avoir des cas où les valeurs de champ contiennent l’un des symboles suivants :
 
@@ -263,14 +263,14 @@ Pour filtrer sur l’un de ces symboles, placez l’expression de filtre entre a
 
 Cette exigence n’est pas nécessaire pour les autres symboles.
 
-### <a name="a-namefiltertokens-afilter-tokens"></a><a name="a-namefiltertokens-afilter-tokens"></a><a name="a-namefiltertokens-afilter-tokens"></a><a name="FilterTokens"> </a>Jetons de filtre
+### <a name="a-namefiltertokens-afilter-tokens"></a><a name="FilterTokens"> </a>Jetons de filtre
 
 En saisissant des critères de filtre, vous pouvez également saisir des mots avec un sens particulier, appelés des jetons de filtre. Après avoir saisi le mot de jeton, le mot est remplacé par la ou les valeurs qu’il représente. Filtrer les jetons facilite le filtrage en réduisant la nécessité de naviguer vers d’autres pages pour rechercher des valeurs à ajouter à votre filtre. Les tableaux ci-après décrivent certains des jetons que pouvez saisir comme critères de filtre.
 
 > [!TIP]
 > Votre organisation peut utiliser des jetons personnalisés. Pour faire en savoir plus sur l’ensemble complet de jetons disponibles pour vous ou pour ajouter des jetons personnalisés supplémentaires, parlez à votre administrateur. Pour des informations techniques, voir [Ajout de jetons de filtre](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
 
-#### <a name="me-or-userid-records-assigned-to-you"></a><a name="me-or-userid-records-assigned-to-you"></a><a name="me-or-userid-records-assigned-to-you"></a>Enregistrements (%me ou %uuserid) qui vous sont attribués
+#### <a name="me-or-userid-records-assigned-to-you"></a>Enregistrements (%me ou %uuserid) qui vous sont attribués
 
 Utilisez `%me` ou `%userid` en filtrant les champs qui contiennent le code utilisateur, par exemple le champ **Affecté au code utilisateur**, pour afficher tous les enregistrements qui vous sont affectés.
 
@@ -278,7 +278,7 @@ Utilisez `%me` ou `%userid` en filtrant les champs qui contiennent le code utili
 |-----------------------|-----------------------|  
 |`%me`<br />ou<br />`%userid`|Enregistrements affectés à votre compte d’utilisateur. |  
 
-#### <a name="mycustomers-customers-in-my-customers"></a><a name="mycustomers-customers-in-my-customers"></a><a name="mycustomers-customers-in-my-customers"></a>Clients (%mycustomers) dans Mes clients
+#### <a name="mycustomers-customers-in-my-customers"></a>Clients (%mycustomers) dans Mes clients
 
 Utilisez `%mycustomers` dans le champ **N°** client pour afficher tous les enregistrements des clients inclus dans la liste **Mes clients** de votre tableau de bord.
 
@@ -286,7 +286,7 @@ Utilisez `%mycustomers` dans le champ **N°** client pour afficher tous les enre
 |-----------------------|-----------------------|  
 |`%mycustomers`|Clients dans **Mes clients** de votre tableau de bord. |  
 
-#### <a name="myitems-items-in-my-items"></a><a name="myitems-items-in-my-items"></a><a name="myitems-items-in-my-items"></a>Articles (%myitems) dans Mes articles
+#### <a name="myitems-items-in-my-items"></a>Articles (%myitems) dans Mes articles
 
 Utilisez `%myitems` dans le champ **N°** article pour afficher tous les enregistrements des articles inclus dans la liste **Mes articles** de votre tableau de bord.
 
@@ -294,7 +294,7 @@ Utilisez `%myitems` dans le champ **N°** article pour afficher tous les enregis
 |-----------------------|-----------------------|  
 |`%myitems`|Articles dans **Mes articles** de votre tableau de bord. |  
 
-#### <a name="myvendors-vendors-in-my-vendors"></a><a name="myvendors-vendors-in-my-vendors"></a><a name="myvendors-vendors-in-my-vendors"></a>Fournisseurs (%myvendors) dans Mes fournisseurs
+#### <a name="myvendors-vendors-in-my-vendors"></a>Fournisseurs (%myvendors) dans Mes fournisseurs
 
 Utilisez `%myvendors` dans le champ **N°** fournisseur pour afficher tous les enregistrements des fournisseurs inclus dans la liste **Mes fournisseur** de votre tableau de bord.
 
@@ -302,9 +302,9 @@ Utilisez `%myvendors` dans le champ **N°** fournisseur pour afficher tous les e
 |-----------------------|-----------------------|  
 |`%myvendors`|Fournisseurs dans **Mes fournisseurs** de votre tableau de bord. |  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)  
 [Enregistrer et personnaliser les vues de liste](ui-views.md)  

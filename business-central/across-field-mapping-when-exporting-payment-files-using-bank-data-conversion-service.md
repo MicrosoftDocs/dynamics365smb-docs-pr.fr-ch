@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a><a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a><a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Mappage de champ lors de l’exportation de fichiers de paiement à l’aide de l’extension AMC Banking 365 Fundamentals
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Mappage de champ lors de l’exportation de fichiers de paiement à l’aide de l’extension AMC Banking 365 Fundamentals
 Lorsque vous exportez des fichiers de paiement à l’aide de l’extension AMC Banking 365 Fundamentals, les données que vous exportez sont exposées au fournisseur de service. Le fournisseur de service est responsable de la confidentialité de ces données. Pour plus d’informations sur l’extension AMC Banking 365 Fundamentals, voir [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
@@ -63,7 +63,7 @@ Le tableau suivant répertorie les champs de [!INCLUDE[prod_short](includes/prod
 |Nom feuille comptabilité|Nom feuille|Ligne feuille comptabilité|Le nom du lot feuille comptabilité qui est utilisé pour la ligne paiement|  
 |Nom banque émetteur - Conv. données|Nom banque – Conv. données|Compte bancaire|Nom du compte bancaire de l’émetteur qui est demandé par l’extension AMC Banking 365 Fundamentals et qui est spécifié sur la fiche compte bancaire|  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Configuration de l’échange de données](across-set-up-data-exchange.md)  
 [Échanger des données par voie électronique](across-data-exchange.md)
 [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
