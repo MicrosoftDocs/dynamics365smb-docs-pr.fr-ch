@@ -12,7 +12,7 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-non-deductible-vat"></a>Paramétrer la TVA non déductible
+# Paramétrer la TVA non déductible
 
 La taxe sur la valeur ajoutée (TVA) non déductible est la TVA payable par un acheteur, mais qui n’est pas déductible de la TVA exigible de l’acheteur. Les entreprises peuvent généralement récupérer la TVA sur l’achat de biens et services liés à leurs activités commerciales. Cependant, dans certaines situations, une entreprise supporte la TVA qui n’est pas déductible. Ces situations sont généralement liées aux réglementations locales et peuvent différer d’un pays à l’autre. Cependant, le modèle d’utilisation de la TVA non déductible ou partiellement déductible est similaire. Vous pouvez utiliser la TVA proportionnelle pour calculer la TVA en cas de TVA déductible et non déductible.
 
@@ -21,9 +21,12 @@ En général, la TVA ne peut pas être déduite pour certains achats en raison d
 - **Le type de biens ou services achetés** – La TVA est totalement ou partiellement non déductible en vertu d’une disposition de la loi sur les biens tels que les voitures, les téléphones portables et les produits alimentaires achetés dans les restaurants.
 - **TVA au prorata partiellement déductible** – La TVA est calculée au prorata du ratio entre les opérations de vente pour lesquelles la TVA est due et toutes les opérations qui ont été effectuées. La TVA qui dépasse ce ratio ne peut pas être déduite.
 
-Comme il peut être difficile de savoir où et comment un article est utilisé, vous devez contacter les autorités fiscales locales de votre pays pour déterminer si un pourcentage spécifié de la TVA est déductible en fonction des données historiques.
+Comme il peut être difficile de savoir où et comment un article est utilisé, vous devez contacter les autorités fiscales locales de votre pays pour déterminer si un pourcentage spécifié de la TVA est déductible en fonction des données historiques. 
 
-## <a name="use-non-deductible-vat"></a>Utiliser la TVA non déductible
+> [!IMPORTANT]
+> Cette fonctionnalité globale est disponible dans tous les pays où la TVA est activée **à l’exception de la Belgique, de l’Italie, de la Norvège et de l’Espagne**. Ces localisations ont déjà une fonctionnalité locale existante et seront mises à jour à l’avenir. N’exécutez pas cette fonctionnalité dans ces pays, car la procédure de mise à niveau n’existe pas.
+
+## Utilisation de la TVA non déductible
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres VAT**, puis sélectionnez le lien associé.
 2. Cochez la case **Activer TVA non déductible**.
@@ -38,7 +41,7 @@ Comme il peut être difficile de savoir où et comment un article est utilisé, 
     3. Cochez la case **Utiliser pour le coût du projet** pour spécifier que la TVA non déductible doit être ajoutée au coût du projet lorsque vous achetez des articles pour le projet. Sinon, la TVA non déductible n’a aucune influence sur le coût du projet et le montant total est enregistré uniquement au niveau de la comptabilité.
     4. Cochez la case **Afficher TVA non déductible sur lignes** pour spécifier que la TVA non déductible doit être affichée sur les pages de ligne de document pour faciliter la manipulation des montants de TVA.
 
-## <a name="use-the-non-deductible-vat-percentage"></a>Utiliser le pourcentage de TVA non déductible
+## Utiliser le pourcentage de TVA non déductible
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres comptabilisation TVA**, puis sélectionnez le lien associé.
 2. Sur la page **Paramètres comptabilisation TVA**, définissez les champs comme indiqué dans le tableau suivant.
@@ -59,7 +62,7 @@ Comme il peut être difficile de savoir où et comment un article est utilisé, 
 >
 > N’utilisez pas la même valeur **Identifiant TVA** pour la TVA normale où le champ **% TVA non déductible** est défini sur **0** (zéro) et la TVA normale où le champ **% TVA non déductible** est défini sur une valeur non nulle. Sinon, le montant total de la TVA non déductible est calculé de manière incorrecte.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion financière](finance.md)  
 [Configurer des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md)  
