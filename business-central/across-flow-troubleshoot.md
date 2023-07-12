@@ -4,7 +4,7 @@ description: Découvrez comment dépanner la connexion entre Business Central et
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 06/16/2023
+ms.date: 07/03/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: d365-business-central
@@ -22,7 +22,7 @@ Si un événement crée ou modifie de nombreux enregistrements, le flux ne s’e
 
 ### Cause possible
 
-Actuellement, le nombre d’enregistrements traités par un flux est limité. Si plus de 100 enregistrements sont créés ou modifiés en 30 secondes, le flux n’est pas déclenché.
+Actuellement, le nombre d’enregistrements traités par un flux est limité. Si plus de 1000 enregistrements sont créés ou modifiés en 30 secondes, le flux n’est pas déclenché.
 
 > [!NOTE]
 > Pour les développeurs, le déclenchement du flux se fait par les notifications webhook et cette limitation est due à la façon dont le connecteur Business Central gère les notifications `collection`. En savoir plus sur [Utilisation des webhooks dans Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) dans l’aide pour les développeurs et les administrateurs.

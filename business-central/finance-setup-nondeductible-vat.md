@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 # Paramétrer la TVA non déductible
 
-La taxe sur la valeur ajoutée (TVA) non déductible est la TVA payable par un acheteur, mais qui n’est pas déductible de la TVA exigible de l’acheteur. Les entreprises peuvent généralement récupérer la TVA sur l’achat de biens et services liés à leurs activités commerciales. Cependant, dans certaines situations, une entreprise supporte la TVA qui n’est pas déductible. Ces situations sont généralement liées aux réglementations locales et peuvent différer d’un pays à l’autre. Cependant, le modèle d’utilisation de la TVA non déductible ou partiellement déductible est similaire. Vous pouvez utiliser la TVA proportionnelle pour calculer la TVA en cas de TVA déductible et non déductible.
+La taxe sur la valeur ajoutée (TVA) non déductible est la TVA payable par un acheteur, mais qui n’est pas déductible de la TVA exigible de l’acheteur. Les entreprises peuvent généralement récupérer la TVA sur l’achat de biens et services liés à leurs activités commerciales. Cependant, dans certaines situations, une entreprise supporte la TVA qui n’est pas déductible. Ces situations sont généralement liées aux réglementations locales et peuvent différer d’un pays/d’une région à l’autre. Cependant, le modèle d’utilisation de la TVA non déductible ou partiellement déductible est similaire. Vous pouvez utiliser la TVA proportionnelle pour calculer la TVA en cas de TVA déductible et non déductible.
 
 En général, la TVA ne peut pas être déduite pour certains achats en raison des facteurs suivants :
 
 - **Le type de biens ou services achetés** – La TVA est totalement ou partiellement non déductible en vertu d’une disposition de la loi sur les biens tels que les voitures, les téléphones portables et les produits alimentaires achetés dans les restaurants.
 - **TVA au prorata partiellement déductible** – La TVA est calculée au prorata du ratio entre les opérations de vente pour lesquelles la TVA est due et toutes les opérations qui ont été effectuées. La TVA qui dépasse ce ratio ne peut pas être déduite.
 
-Comme il peut être difficile de savoir où et comment un article est utilisé, vous devez contacter les autorités fiscales locales de votre pays pour déterminer si un pourcentage spécifié de la TVA est déductible en fonction des données historiques. 
+Comme il peut être difficile de savoir où et comment un article est utilisé, vous devez contacter les autorités fiscales locales de votre pays/région pour déterminer si un pourcentage spécifié de la TVA est déductible en fonction des données historiques. 
 
 > [!IMPORTANT]
 > Cette fonctionnalité globale est disponible dans tous les pays où la TVA est activée **à l’exception de la Belgique, de l’Italie, de la Norvège et de l’Espagne**. Ces localisations ont déjà une fonctionnalité locale existante et seront mises à jour à l’avenir. N’exécutez pas cette fonctionnalité dans ces pays, car la procédure de mise à niveau n’existe pas.

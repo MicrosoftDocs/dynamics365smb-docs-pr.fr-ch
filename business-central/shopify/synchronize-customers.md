@@ -29,7 +29,7 @@ Que vous importiez des clients à partir de Shopify en bloc ou lors de l’impor
 |**Créer automatiquement des clients inconnus**| Sélectionnez ce champ pour que le connecteur crée les clients manquants si les options **Par e-mail/téléphone** ou **Par informations de facturation** sont sélectionnées dans le champ **Type de mappage client**. Un client est créé en utilisant les données importées et **Code modèle client** défini dans les pages **Fiche magasin Shopify** ou **Modèle client Shopify**. Remarquez que le client Shopify doit avoir au moins une adresse. Les commandes créées via le canal de vente du PDV Shopify manquent souvent de détails d’adresse. Si cette option n’est pas activée, vous devez créer un client manuellement et le lier au client Shopify.|
 |**Code modèle client**|Ce champ est utilisé avec **Créer automatiquement des clients inconnus**.<br>- Choisissez le modèle par défaut à utiliser pour les clients créés automatiquement. Assurez-vous que le modèle sélectionné contient les champs obligatoires, tels que les champs **Groupe compta. marché**, **Groupe compta. client**, de TVA ou relatifs aux taxes.<br>- Vous pouvez définir des modèles par pays/région dans la page **Modèles client Shopify**, ce qui est utile pour calculer correctement les taxes. <br>- En savoir plus sur [Configurer les taxes](setup-taxes.md).|
 
-### Modèle client par pays
+### Modèle client par pays/région
 
 Certains paramètres peuvent être définis au niveau du pays/de la région ou au niveau de l’état/de la province. Les paramètres peuvent être configurés dans [Expédition et livraison](https://www.shopify.com/admin/settings/shipping) sur Shopify.
 
@@ -37,7 +37,7 @@ Vous pouvez procéder comme suit pour chaque client avec le **Modèle client Sho
 
 1. Indiquer le **N° client par défaut**, qui a priorité sur la sélection présente dans les champs **Importation client à partir de Shopify** et **Type de mappage client**. Il est utilisé dans la commande vente importée.
 2. Définir le **Code modèle client**, qui est utilisé pour créer des clients manquants, si l’option **Créer automatiquement des clients inconnus** est activée. Si le **Code modèle client** est vide, la fonction utilise le **Code modèle client** défini dans la page **Fiche magasin Shopify**. Le système essaie d’abord de trouver un modèle pour le **Code pays/région** pour l’adresse par défaut. S’il ne trouve pas de modèle, il utilise la première adresse.
-3. Dans certains cas, le **Code modèle client** défini pour un pays n’est pas suffisant pour assurer le calcul correct des taxes (par exemple, pour les pays avec taxe de vente). Dans ce cas, la **Zone de recouvrement** peut constituer un complément utile.
+3. Dans certains cas, le **Code modèle client** défini pour un pays/région n’est pas suffisant pour assurer le calcul correct des taxes (par exemple, pour les pays/régions avec taxe de vente). Dans ce cas, la **Zone de recouvrement** peut constituer un complément utile.
 4. Le champ **Zone recouvrement** contient également une paire **Code pays** et **Nom de la région**. Cette paire est utile lorsque le connecteur doit convertir un code en un nom, ou vice versa.
 
 > [!NOTE]  
@@ -83,7 +83,7 @@ Un client dans Shopify a également une adresse par défaut. L’adresse pourrai
 |0|**Nom**|Priorité la plus élevée, si le champ **Origine nom** dans la page **Fiche magasin Shopify** contient *Nom de la société*.|
 |2|**Nom 2**|Priorité la moins élevée, si le champ **Source nom 2** dans la page **Fiche magasin Shopify** contient *Nom de la société*.|
 
-Pour les adresses où la région/la province est utilisé(e), sélectionnez **Code** ou **Nom** dans le champ **Source région** sur la page **Fiche magasin Shopify**. Ceci spécifie le type de données stockées dans [!INCLUDE[prod_short](../includes/prod_short.md)] dans le champ **Région**. N’oubliez pas d’initialiser les modèles de clients par pays afin que le mappage code/nom de la région soit prêt. 
+Pour les adresses où la région/la province est utilisé(e), sélectionnez **Code** ou **Nom** dans le champ **Source région** sur la page **Fiche magasin Shopify**. Ceci spécifie le type de données stockées dans [!INCLUDE[prod_short](../includes/prod_short.md)] dans le champ **Région**. N’oubliez pas d’initialiser les modèles de clients par pays/région afin que le mappage code/nom de la région soit prêt. 
 
 
 ## Synchroniser les clients

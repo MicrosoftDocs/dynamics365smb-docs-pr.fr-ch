@@ -7,7 +7,7 @@ ms.author: edupont
 1. Accédez [au site d’essai](https://go.microsoft.com/fwlink/?linkid=847861), choisissez *Finances et opérations*, puis sur la carte **Dynamics 365 Business Central**, choisissez le bouton **Essayer gratuitement**.  
 2. Entrez votre adresse e-mail professionnelle ou scolaire et d’autres informations. Vous serez redirigé vers votre essai sur [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
 
-L’essai prend quelques instants à charger, puis vous pourrez commencer à utiliser l’application. La liste de contrôle **Démarrer** vous guide à travers les étapes pour vous préparer à vous lancer. Les étapes varient en fonction de votre pays et des fonctionnalités spécifiques au secteur ajoutées à votre [!INCLUDE [prod_short](prod_short.md)].  
+L’essai prend quelques instants à charger, puis vous pourrez commencer à utiliser l’application. La liste de contrôle **Démarrer** vous guide à travers les étapes pour vous préparer à vous lancer. Les étapes varient en fonction de votre pays/région et des fonctionnalités spécifiques au secteur ajoutées à votre [!INCLUDE [prod_short](prod_short.md)].  
 
 Dans [!INCLUDE[prod_short](prod_short.md)], certains éléments vous seront très familiers, d’autres un peu moins. Lorsque vous vous connectez pour la première fois à la société de démonstration, vous accédez à la fiche Démarrage avec un lien pour présenter des visites guidées de démonstration. Pour plus d’informations, consultez [Se préparer aux activités commerciales](../ui-get-ready-business.md) et les articles [Démarrage rapide](../quick-start-business-central.md).  
 

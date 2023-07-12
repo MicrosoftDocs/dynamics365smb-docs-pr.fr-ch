@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# <a name="compliance-overview"></a>Vue d’ensemble de la conformité
+# Vue d’ensemble de la conformité
 
 Ce contenu comprend des informations sur la conformité concernant [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
@@ -21,10 +21,10 @@ Dans cette section, vous trouverez plus d’informations sur notre approche de l
 |------------|-------------|  
 |En savoir plus sur la conformité du point de vue d’une application, comme la confidentialité des données, les normes comptables internationales, et plus encore.|[Conformité des applications](compliance-application-compliance.md)|  
 |En savoir plus sur la conformité au niveau du service et les approches apportées à la plateforme pour garantir à Business Central la meilleure conformité de service de sa classe.|[Conformité des services](compliance-service-compliance.md)|  
-|Consultez les informations sur les différentes certifications liées à Business Central. Vous y trouverez des informations sur les certifications générales et les certifications spécifiques au pays.|[Certifications](compliance-certifications.md)|  
+|Consultez les informations sur les différentes certifications liées à Business Central. Vous y trouverez des informations sur les certifications générales et les certifications spécifiques au pays/à la région.|[Certifications](compliance-certifications.md)|  
 |En savoir plus sur les conditions du contrat de niveau de service et les autres conditions d’utilisation|[Conditions d’utilisation](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
