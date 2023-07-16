@@ -9,7 +9,7 @@ ms.workload: na
 ms.date: 05/22/2023
 ms.author: jswymer
 ---
-# <a name="welcome-to-"></a>Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]
+# Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] est une solution de gestion d’entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. Hautement adaptable et riche en fonctionnalités, [!INCLUDE[prod_short](includes/prod_short.md)] permet aux entreprises de gérer leurs activités, y compris la finance, la fabrication, l’expédition, la gestion de projets, les services, etc. Celles-ci peuvent facilement ajouter des fonctionnalités adaptées aux types d’opérations exécutés et personnalisées pour une prise en charge des secteurs hautement spécialisés. [!INCLUDE[prod_short](includes/prod_short.md)] est rapide à mettre en œuvre, facile à configurer et la simplicité guide les innovations dans la conception du produit, le développement, l’implémentation et la convivialité.  
 
@@ -22,7 +22,7 @@ Si vous avez déjà [!INCLUDE[prod_short](includes/prod_short.md)], connectez-vo
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="microsoft-learn"></a>Microsoft Learn
+## Microsoft Learn
 
 Dans le panneau de navigation à gauche, vous trouverez des informations sur l’utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans votre société. Trouvez des liens vers des descriptions des fonctionnalités les plus couramment utilisées dans la section [Processus d’entreprise](#business-processes). Voir aussi la section [En savoir plus à l’aide de la documentation du produit](product-help-and-support.md#learn-more-using-the-product-documentation).
 
@@ -35,7 +35,7 @@ Vous pouvez également [visiter notre vidéothèque](across-videos.md), ou comme
 
 Les sections suivantes présentent des articles clés qui peuvent vous aider à vous familiariser avec [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="business-processes"></a>Processus entreprise
+## Processus entreprise
 
 - [Préparation aux activités commerciales](ui-get-ready-business.md)
 - [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
@@ -62,7 +62,7 @@ Les sections suivantes présentent des articles clés qui peuvent vous aider à 
   - [Fonctionnalités marché](ui-across-business-areas.md)
   - [Fonctionnalités locales](about-localization.md)
 
-## <a name="development-and-administration-content"></a>Contenu de développement et administration
+## Contenu de développement et administration
 
 - [Développement et administration](/dynamics365/business-central/dev-itpro/index)
 - [Versions d’évaluation et abonnements](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
@@ -70,13 +70,13 @@ Les sections suivantes présentent des articles clés qui peuvent vous aider à 
 - [Environnement de développement AL](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Règles et instructions du code d’AL](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
-## <a name="microsoft-learn-training"></a>Formation Microsoft Learn
+## Formation Microsoft Learn
 
 Trouvez du contenu e-learning gratuit pour [!INCLUDE[prod_short](includes/prod_short.md)] sur la [formation Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
 Vous pouvez également visionner des vidéos de fonctionnalités nouvelles et couramment utilisées dans notre vidéothèque. Pour plus d’informations, voir [Visiter notre vidéothèque](across-videos.md).  
 
-## <a name="community-resources"></a>Ressources de la communauté
+## Ressources de la communauté
 
 - [Communauté Microsoft Dynamics 365 Business Central](https://community.dynamics.com/business)
 - [Microsoft Dynamics 365 Business Central dans le blog Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)
@@ -84,13 +84,13 @@ Vous pouvez également visionner des vidéos de fonctionnalités nouvelles et co
 - [Feuille de route Microsoft Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/)
 - [Microsoft Partner Network \(requiert un compte d’adhésion Microsoft Partner Network\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Soyez informé des changements via un flux RSS
+## Soyez informé des changements via un flux RSS
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-related-microsoft-learn-training"></a>Voir la [formation Microsoft Learn Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) associée
+## Voir la [formation Microsoft Learn Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Formation Dynamics 365 Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Démarrage rapide de Business Central](quick-start-business-central.md)  

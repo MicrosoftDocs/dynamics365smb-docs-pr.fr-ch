@@ -11,7 +11,7 @@ ms.search.form: '7, 118, 130, 142, 459, 460, 525'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# <a name="work-with-vat-on-sales-and-purchases"></a>Utilisation de la TVA sur les ventes et les achats
+# Utilisation de la TVA sur les ventes et les achats
 
 Si votre pays ou votre région vous oblige à calculer et déclarer la taxe sur la valeur ajoutée (TVA) sur les transactions vente et achat, vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour calculer la TVA. Pour plus d’informations, voir [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md).
 
@@ -20,7 +20,7 @@ Il existe, cependant, certaines tâches associées à la TVA que vous pouvez eff
 > [!TIP]
 > Vous pouvez laisser [!INCLUDE[prod_short](includes/prod_short.md)] valider les numéros d’identification intracommunautaire et d’autres informations société lorsque vous créez ou mettez à jour des documents. Pour plus d’informations, consultez [Valider des numéros d’identification intracommunautaire](finance-how-validate-vat-registration-number.md).
 
-## <a name="calculating-and-displaying-vat-amounts-on-sales-and-purchase-documents"></a>Calcul et affichage des montants de TVA dans des documents achat et vente
+## Calcul et affichage des montants de TVA dans des documents achat et vente  
 
 Lorsque vous sélectionnez un numéro d’article dans le champ **N°** sur un document vente ou achat, [!INCLUDE[prod_short](includes/prod_short.md)] remplit les champs **Prix unitaire** et **Montant ligne**. Le prix unitaire provient de la fiche **Article** ou des prix article autorisés pour l’article et le client. [!INCLUDE[prod_short](includes/prod_short.md)] calcule le montant ligne lorsque vous entrez une quantité pour la ligne.  
 
@@ -28,7 +28,7 @@ Si vous souhaitez que les prix unitaires et les montants ligne incluent la TVA, 
 
 Vous pouvez calculer et afficher des montants TVA dans des documents achat et vente de façon différente, en fonction du type de client ou de fournisseur avec lequel vous traitez. Vous pouvez également changer manuellement le montant TVA calculé, par exemple pour qu’il corresponde au montant TVA calculé par le fournisseur sur une transaction donnée.
 
-### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Inclure ou exclure la TVA dans les prix et les montants ligne
+### Inclure ou exclure la TVA dans les prix et les montants ligne
 
 Si vous cochez la case **Prix TTC** sur un document vente, les champs **Prix unitaire** et **Montant ligne** incluront la TVA. Par défaut, les valeurs de ces champs n’incluent pas la TVA. Les noms des champs indiquent si les prix incluent la TVA.  
 
@@ -43,7 +43,7 @@ Le tableau suivant montre comment l’application calcule les montants de prix u
 |Activé|Non activé|L’application calcule le montant TVA inclus dans le champ **Prix unitaire** sur la **Fiche article** à l’aide du pourcentage de TVA par rapport aux champs Gpe compta. marché TVA (prix) et Groupe compta. produit TVA. Le **prix unitaire** sur la fiche article, moins le montant de la TVA, est ensuite saisi dans le champ **Prix unitaire HT** dans les lignes de vente. Pour plus d’informations, voir [Utilisation des groupes comptabilisation marché TVA et des groupes prix client](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
 |Activé|Activé|Le champ **Prix unitaire** de la fiche article est copié dans le champ **Prix unitaire TTC** dans les lignes vente.|
 
-#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Utilisation des groupes comptabilisation marché TVA et des groupes prix client
+#### Utilisation des groupes comptabilisation marché TVA et des groupes prix client 
 
 Si vous souhaitez que les prix incluent la TVA, vous pouvez utiliser des groupes comptabilisation marché TVA pour calculer le montant en fonction des paramètres comptabilisation TVA pour le groupe. Pour plus d’informations, voir [Configurer des groupes comptabilisation marché TVA](finance-setup-vat.md#set-up-vat-business-posting-groups).
 
@@ -57,13 +57,13 @@ En fonction de ce que vous souhaitez faire, vous pouvez affecter un groupe compt
 > [!NOTE]
 > Si vous ne spécifiez pas de groupe dans le champ **Groupe compta. marché TVA (Prix)**, la TVA ne sera pas incluse dans les prix.
 
-#### <a name="examples"></a>Exemples
+#### Exemples
 
 Des facteurs tels que le pays ou la région dans lesquels vous vendez, ou le type de secteurs auxquels vous vendez, peuvent avoir un impact sur le montant de la TVA que vous devez comptabiliser. Par exemple, un restaurant peut facturer 6 % de TVA pour les repas consommés sur place et 17 % pour les plats à emporter. Pour ce faire, vous créez un groupe comptabilisation marché TVA (prix) pour la restauration sur place et un autre pour les plats à emporter.
 
-## <a name="working-with-vat-date"></a>Utilisation de la date de TVA
+## Utilisation de la date de TVA
 
-### <a name="vat-date-in-documents"></a>Date de TVA dans les documents
+### Date de TVA dans les documents
 
 Lorsque vous créez des documents de vente ou d’achat, la **Date de TVA** est basée sur le réglage dans le champ **Date de TVA par défaut** sur la page **Paramètres comptabilité**. Cette valeur par défaut peut être la même que **Date de validation** ou **Date du document**. Si vous avez besoin d’une autre date de TVA, vous pouvez modifier manuellement la valeur dans le champ **Date de TVA**. Lorsque vous validez le document, la **Date de TVA** apparaît sur le document de validation et sur les écritures TVA et G/L.
 
@@ -79,7 +79,7 @@ Lorsque vous créez des documents de vente ou d’achat, la **Date de TVA** est 
 > [!NOTE]
 > Si vous laissez vide la **Date TVA**, [!INCLUDE [prod_short](includes/prod_short.md)] utilisera votre paramètre par défaut **Date TVA par défaut** dans les **Paramètres comptabilité** comme une **Date TVA** dans la transaction validée.  
 
-### <a name="modifying-the-vat-date-in-posted-entries"></a>Modification de la date TVA dans les écritures validées
+### Modification de la date TVA dans les écritures validées
 
 Si nécessaire, vous pouvez modifier la date de TVA des documents validés. Pour modifier la date dans le champ **VAT Date** pour les documents validés, procédez comme suit :
 
@@ -94,7 +94,7 @@ Si nécessaire, vous pouvez modifier la date de TVA des documents validés. Pour
 > [!NOTE]
 > Si votre document comporte plusieurs **Écritures TVA**, il vous suffit de modifier la valeur dans le champ **Date TVA** dans une écriture associée au document. Pour assurer la cohérence des écritures, [!INCLUDE[prod_short](includes/prod_short.md)] modifie automatiquement la date de TVA dans les écritures TVA liées à cette transaction. [!INCLUDE [prod_short](includes/prod_short.md)] mettra à jour la **Date TVA** dans les autres tables (écritures comptables et documents), mais uniquement en rapport avec cette transaction.  
 
-## <a name="correcting-vat-amounts-manually-on-sales-and-purchase-documents"></a>Correction manuelle des montants de TVA dans des documents achat et vente
+## Correction manuelle des montants de TVA dans des documents achat et vente  
 
 Vous pouvez apporter des corrections à des écritures TVA validées afin de pouvoir modifier les montants TVA totaux vente ou achat sans changer la base TVA. Par exemple, si vous recevez une facture d’un fournisseur avec un montant TVA incorrect.  
 
@@ -102,13 +102,13 @@ Bien que vous ayez configuré une ou plusieurs combinaisons pour traiter la TVA 
 
 Si un escompte a été calculé en fonction d’un montant de facture TTC, vous remboursez la partie escompte du montant TVA lorsque l’escompte est accordé. Remarque : vous devez activer le champ **Ajustement des escomptes** à la fois dans les paramètres comptabilité (en général) et dans les paramètres comptabilisation TVA, pour des combinaisons particulières de groupes comptabilisation marché TVA et de groupes comptabilisation produit TVA.  
 
-### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Pour configurer le système pour la saisie manuelle de la TVA dans les documents de vente
+### Pour configurer le système pour la saisie manuelle de la TVA dans les documents de vente
 La section suivante explique comment activer les modifications manuelles de la TVA sur les documents de vente. Les étapes sont similaires sur la page **Paramètres achats**.
 
 1. Dans la page **Paramètres comptabilité**, spécifiez une **Différence TVA max. autorisée** entre le montant calculé par l’application et le montant calculé manuellement.  
 2. Dans la page **Paramètres ventes**, activez le champ **Autoriser différence TVA**.  
 
-### <a name="to-adjust-vat-for-a-sales-document"></a>Pour ajuster la TVA pour un document vente
+### Pour ajuster la TVA pour un document vente
 
 1. Ouvrez la commande vente appropriée.  
 2. Sélectionnez l’action **Statistiques**.  
@@ -118,16 +118,16 @@ La section suivante explique comment activer les modifications manuelles de la T
 > [!NOTE]  
 > Le montant de TVA total de la facture et l’identifiant TVA s’affichent dans les lignes. Vous pouvez ajuster les montants manuellement dans le champ **Montant TVA** des lignes correspondant à chaque identifiant TVA. Lorsque vous modifiez la valeur du champ **Montant TVA**, l’application vérifie que vous n’avez pas modifié la TVA d’une valeur supérieure à celle du montant spécifié comme différence maximale autorisée. Si le montant se situe en dehors de la plage **Différence TVA max. autorisée**, un avertissement s’affiche, indiquant la différence maximale autorisée. Vous ne pouvez pas poursuivre tant que le montant n’est pas ajusté conformément aux paramètres acceptables. Cliquez sur **OK** , puis entrez un autre **Montant TVA** s’inscrivant dans la plage autorisée. Si la différence TVA est inférieure ou égale à la différence maximale autorisée, la TVA est répartie de façon proportionnelle entre les lignes document ayant le même identifiant TVA.  
 
-## <a name="calculating-vat-manually-using-journals"></a>Calcul manuel de la TVA à l’aide de feuilles
+## Calcul manuel de la TVA à l’aide de feuilles  
 Vous pouvez également ajuster les montants TVA dans les feuilles comptabilité, vente et achat. Par exemple, vous devrez peut-être le faire lorsque vous entrez une facture fournisseur dans votre feuille et qu’il y a une différence entre le montant de TVA calculé par [!INCLUDE[prod_short](includes/prod_short.md)] et le montant de TVA figurant sur la facture que vous avez reçue du fournisseur.  
 
-### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Pour configurer le système pour la saisie manuelle de la TVA dans les feuilles comptabilité
+### Pour configurer le système pour la saisie manuelle de la TVA dans les feuilles comptabilité
 Vous devez suivre les étapes suivantes avant de saisir manuellement la TVA dans une feuille comptabilité.  
 
 1. Dans la page **Paramètres comptabilité**, spécifiez une **Différence TVA max. autorisée** entre le montant calculé par l’application et le montant calculé manuellement.  
 2. Sur la page **Modèles feuille comptabilité**, activez la case à cocher **Autoriser différence TVA** pour la feuille appropriée.  
 
-### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Pour configurer le système pour la saisie manuelle de la TVA dans les feuilles vente et achat
+### Pour configurer le système pour la saisie manuelle de la TVA dans les feuilles vente et achat
 
 Vous devez suivre les étapes suivantes avant de saisir manuellement la TVA dans une feuille vente et achat.
 
@@ -138,10 +138,10 @@ Vous devez suivre les étapes suivantes avant de saisir manuellement la TVA dans
 > [!NOTE]  
 > Si la différence est supérieure, un avertissement s’affiche, indiquant la différence maximale autorisée. Pour continuer, vous devez ajuster le montant. Sélectionnez **OK**, puis entrez un montant compris dans la plage autorisée. Si la différence de TVA est inférieure ou égale à la valeur maximale autorisée, [!INCLUDE[prod_short](includes/prod_short.md)] affiche la différence dans le champ **Différence TVA**.  
 
-## <a name="posting-import-vat-with-purchase-invoices"></a>Validation de la TVA à l’importation dans les factures achat
+## Validation de la TVA à l’importation dans les factures achat
 Au lieu d’utiliser des feuilles comptabilité pour valider une facture TVA importation, vous pouvez utiliser une facture achat.  
 
-### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Pour paramétrer l’achat pour une validation des factures TVA à l’importation
+### Pour paramétrer l’achat pour une validation des factures TVA à l’importation
 
 1. Paramétrer une fiche fournisseur pour l’administration d’importation qui vous envoie la facture TVA à l’importation. Les champs **Groupe compta. marché** et **Groupe compta. marché TVA** doivent être configurés de la même manière que le compte général pour la TVA à l’importation.  
 2. Créez un **Groupe compta. produit** pour la TVA importation et paramétrez un **Gpe compta. produit TVA défaut** (TVA importation) pour le **Groupe compta. produit** lié.  
@@ -151,7 +151,7 @@ Au lieu d’utiliser des feuilles comptabilité pour valider une facture TVA imp
 6. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilisation**, puis choisissez le lien associé.  
 7. Créez une combinaison de **Groupe comptabilisation marché** pour l’administration fiscale et de **Groupe compta. produit** pour la TVA d’importation. Pour cette nouvelle combinaison, dans le champ **Compte achat**, sélectionnez le compte général de la TVA à l’importation.  
 
-### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Pour créer une facture pour le fournisseur de l’administration d’importation, une fois le paramétrage terminé
+### Pour créer une facture pour le fournisseur de l’administration d’importation, une fois le paramétrage terminé  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.  
 2. Créez une facture achat.  
@@ -161,11 +161,11 @@ Au lieu d’utiliser des feuilles comptabilité pour valider une facture TVA imp
 6. Dans le champ **Coût unitaire direct HT**, indiquez le montant de la TVA.  
 7. Validez la facture.  
 
-## <a name="processing-certificates-of-supply"></a>Traitement des certificats d’approvisionnement
+## Traitement des certificats d’approvisionnement
 
 Lorsque vous vendez des biens à un client dans un autre pays/une autre région de l’UE, vous devez envoyer au client un certificat d’approvisionnement que le client doit signer et vous renvoyer. Les procédures suivantes servent à traiter les certificats d’approvisionnement pour des expéditions vente, mais les mêmes étapes s’appliquent aux expéditions service des articles, ainsi qu’aux expéditions retour aux fournisseurs.  
 
-### <a name="to-view-certificate-of-supply-details"></a>Pour afficher les détails d’un certificat d’approvisionnement
+### Pour afficher les détails d’un certificat d’approvisionnement  
 1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expéditions vente enreg.**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’expédition vente appropriée à un client dans un autre pays/une autre région de l’UE.  
 3. Sélectionnez **Détails certificat d’approvisionnement**.  
@@ -184,7 +184,7 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
 > [!Note]  
 >  Vous pouvez afficher un aperçu ou imprimer le document. Lorsque vous choisissez **Imprimer le certificat d’approvisionnement** et que vous imprimez le document, la case à cocher **Imprimé** est automatiquement sélectionnée. En outre, s’il n’est pas déjà renseigné, le statut du certificat est mis à jour sur **Requis**. Si nécessaire, vous incluez le certificat imprimé à l’expédition.  
 
-### <a name="to-print-a-certificate-of-supply"></a>Pour imprimer un certificat d’approvisionnement
+### Pour imprimer un certificat d’approvisionnement
 
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expéditions vente enreg.**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’expédition vente appropriée à un client dans un autre pays/une autre région de l’UE.  
@@ -203,7 +203,7 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
 
 8. Envoyez le certificat d’approvisionnement imprimé au client pour signature.  
 
-### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Pour mettre à jour le statut d’un certificat d’approvisionnement pour une expédition
+### Pour mettre à jour le statut d’un certificat d’approvisionnement pour une expédition  
 
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expéditions vente enreg.**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’expédition vente appropriée à un client dans un autre pays/une autre région de l’UE.  
@@ -217,7 +217,7 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
 
 Pour afficher un groupe de certificats, vous commencez à partir de la page **Certificats d’approvisionnement**, puis mettez à jour les informations concernant le statut des certificats en attente à mesure que vous les recevez de la part de vos clients. Ceci peut être utile si vous souhaitez rechercher tous les certificats ayant un certain statut, par exemple, **Requis**, si vous souhaitez mettre à jour leur statut en **Non reçu**.  
 
-### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Pour mettre à jour le statut d’un groupe de certificats d’approvisionnement
+### Pour mettre à jour le statut d’un groupe de certificats d’approvisionnement  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Certificats d’approvisionnement**, puis sélectionnez le lien associé.  
 2. Filtrez le champ **Statut** sur la valeur que vous souhaitez afin de créer la liste des certificats que vous souhaitez gérer.  
@@ -234,9 +234,9 @@ Pour afficher un groupe de certificats, vous commencez à partir de la page **Ce
 > * Pour créer manuellement un certificat d’approvisionnement.  
 > * Pour imprimer un certificat d’approvisionnement.
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md)  
 [Déclarer la TVA à une autorité fiscale](finance-how-report-vat.md)  
