@@ -18,7 +18,7 @@ Cet article décrit les paramètres et les étapes à effectuer pour synchronise
 
 Saisissez un **Code monnaie** si la boutique en ligne utilise une monnaie différente de DS. La devise spécifiée doit avoir des taux de change configurés. Si votre boutique en ligne utilise la même devise que [!INCLUDE[prod_short](../includes/prod_short.md)], laissez le champ vide. 
 
-Vous pouvez voir la devise du magasin dans les paramètres [Détails du magasin](https://www.shopify.com/admin/settings/general) dans votre Admin Shopify. Shopify peut être configuré pour accepter différentes devises, cependant, les commandes importées dans [!INCLUDE[prod_short](../includes/prod_short.md)] utilisent la devise du magasin.
+Vous pouvez accéder à la devise du magasin dans les paramètres [Détails du magasin](https://www.shopify.com/admin/settings/general) dans votre administrateur Shopify. Shopify peut être configuré pour accepter différentes devises, cependant, les commandes importées dans [!INCLUDE[prod_short](../includes/prod_short.md)] utilisent la devise du magasin.
 
 Une commande Shopify classique peut inclure des coûts en plus du sous-total, comme les frais d’expédition ou, s’ils sont activés, les pourboires. Ces montants sont validés directement dans le compte général que vous souhaitez utiliser pour des types de transactions spécifiques :
 
@@ -96,6 +96,31 @@ Sinon, vous pouvez rechercher le traitement par lots **Synchroniser les commande
 
 Vous pouvez programmer la tâche pour qu’elle soit exécutée automatiquement. En savoir plus dans la section [Programmer des tâches récurrentes](background.md#to-schedule-recurring-tasks).
 
+### Informations détaillées
+
+Le connecteur Shopify importe les commandes en deux étapes :
+
+1.  Il importe les en-têtes de commande dans la table **Commandes Shopify à importer** lorsqu’ils remplissent certaines conditions :
+    
+* Ils ne sont pas archivés.
+* Ils ont été créés ou modifiés après la dernière synchronisation.
+
+2.  Il importe les commandes Shopify et des informations supplémentaires.
+* Le connecteur Shopify traite tous les enregistrements de la table **Commandes Shopify à importer** qui correspondent aux critères de filtre que vous avez définis dans la page de demande **Synchroniser les commandes à partir de Shopify**. Par exemple, les balises, le canal ou le statut d’exécution. Si vous n’avez spécifié aucun filtre, il traite tous les enregistrements.
+* Lors de l’importation d’une commande Shopify, le connecteur Shopify demande des informations supplémentaires à Shopify :
+
+    * En-tête de commande
+    * Lignes de commande
+    * Informations d’expédition et d’exécution
+    * Transactions
+    * Retours et remboursements, s’ils sont configurés
+
+La page **Commande Shopify à importer** est utile pour résoudre les problèmes d’importation de commandes. Vous pouvez évaluer les commandes disponibles et effectuer les étapes suivantes :
+
+* Vérifiez si une erreur a bloqué l’importation d’une commande spécifique et explorez les détails de l’erreur. Vérifiez le champ **Contient une erreur**.
+* Traitez uniquement des commandes spécifiques. Vous devrez remplir le champ **Code magasin**, sélectionner une ou plusieurs commandes, puis choisir l’action **Importer les commandes sélectionnées**.
+* Supprimez des commandes de la page **Commande Shopify à importer** pour les exclure de la synchronisation.
+
 ## Passer en revue les commandes importées
 
 Une fois l’importation terminée, vous pouvez explorer la commande Shopify et trouver toutes les informations associées comme les transactions de paiement, les frais d’expédition, le niveau de risque, les attributs et balises de commande ou les exécutions, si la commande a déjà été exécutée dans Shopify. Vous pouvez également voir les confirmations de commande envoyées au client en sélectionnant l’action **Page de statut Shopify**.
@@ -131,7 +156,7 @@ Si vos paramètres empêchent la création automatique d’un client et qu’un 
 
 La fonction *Importer la commande à partir de Shopify* tente de sélectionner le client dans l’ordre suivant :
 
-1. Si le champ **N° client par défaut** est défini dans **Modèle client Shopify** pour le **Code pays/région destinataire**, puis le **N° client par défaut** est utilisé quels que soient les paramètres dans les champs **Importation client à partir de Shopify** et **Type de mappage client**. En savoir plus sur [Modèle client par pays](synchronize-customers.md#customer-template-per-country).
+1. Si le champ **N° client par défaut** est défini dans **Modèle client Shopify** pour le **Code pays/région destinataire**, puis le **N° client par défaut** est utilisé quels que soient les paramètres dans les champs **Importation client à partir de Shopify** et **Type de mappage client**. En savoir plus sur [Modèle client par pays](synchronize-customers.md#customer-template-per-countryregion).
 2. Si le champ **Importation client à partir de Shopify** est défini sur *Aucun* et le champ **N° client par défaut** est défini sur la page **Fiche magasin Shopify**, alors le **N° client par défaut** est utilisé.
 
 Les étapes suivantes dépendent du champ **Type de mappage client**.
