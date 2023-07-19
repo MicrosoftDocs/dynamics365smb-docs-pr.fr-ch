@@ -11,11 +11,11 @@ ms.search.form: '35561, 35562, 35563, 3010541, 3010542, 3010543'
 ms.date: 06/21/2021
 ms.author: soalex
 ---
-# <a name="switzerland-local-functionality"></a>Fonctionnalité locale, Suisse
+# Fonctionnalité locale, Suisse
 
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version suisse de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Disponibilité des fonctions
+## Disponibilité des fonctions
 
 * TVA
     * [Créer et imprimer une déclaration de TVA, Suisse](how-to-create-and-print-a-swiss-vat-statement.md) **Désormais disponible**
@@ -62,13 +62,13 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Importer les codes postaux suisses](how-to-import-swiss-post-codes.md) **Désormais disponible**
     * [Documents achat et commandes vente, Suisse](swiss-purchase-documents-and-sales-documents.md) **Désormais disponible**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Les futures exigences législatives en cours d’investigation
+## Les futures exigences législatives en cours d’investigation
 
 * Mettre à jour modèle déclaration TVA avec les nouveaux chiffres 303 et 383 **Janvier 2024**
 
 Si vous avez connaissance de fonctionnalités réglementaires imminentes, envoyez une [Alerte de fonctionnalité réglementaire](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilité nationale/régionale et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

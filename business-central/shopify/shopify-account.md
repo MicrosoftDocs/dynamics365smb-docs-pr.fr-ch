@@ -10,14 +10,14 @@ author: AndreiPanko
 ms.author: andreipa
 ---
 
-# <a name="create-and-set-up-a-shopify-account"></a>Création et configuration d’un compte Shopify
+# Création et configuration d’un compte Shopify
 
 Si vous envisagez d’utiliser Shopify comme solution d’e-commerce et avez besoin d’un compte Shopify pour valider le workflow intégré, vous disposez des options suivantes :
 
 - Obtenir une version d’essai. C’est le point de départ typique pour les utilisateurs finaux.  
 - Créer des magasins de développement. Cette approche est destinée aux partenaires qui font des démonstrations récurrentes, des formations et fournissent une assistance.
 
-## <a name="trial-end-user"></a>Essai (utilisateur final)
+## Essai (utilisateur final)
 
 Accédez au [site web Shopify](https://www.shopify.com) et utilisez votre compte de messagerie pour le compte administrateur afin de vous inscrire pour un essai gratuit. Pour plus d’informations sur la création et la personnalisation de votre boutique en ligne, voir le [Centre d’aide de Shopify](https://help.shopify.com/).
 
@@ -36,7 +36,7 @@ Dans **Administration de Shopify** de la boutique créée, appliquez les **Param
 > [!Important]  
 > Pour éviter les paiements, n’oubliez pas d’annuler votre essai Shopify.
 
-## <a name="development-store"></a>Magasin de développement
+## Magasin de développement
 
 Commencez par rejoindre le [programme Fournisseur Shopify](https://help.shopify.com/partners/about). Ensuite, utilisez le **tableau de bord des partenaires** pour créer la boutique de développement. Pour plus d’informations, consultez [Création des boutiques de développement](https://help.shopify.com/partners/dashboard/managing-stores/development-stores).
 
@@ -53,7 +53,7 @@ Après la création de la boutique dans **Administration de Shopify** de la bout
 > [!Note]  
 > Les magasins de développement sont généralement protégées par un mot de passe. Lorsque vous essayez d’ouvrir une page spécifique de votre boutique en ligne à partir de [!INCLUDE [prod_short](../includes/prod_short.md)], par exemple pour accéder à un produit ou à une commande spécifique, vous devrez saisir votre mot de passe. Pendant que vous testez, pour éviter d’avoir à entrer votre mot de passe, connectez-vous à votre administrateur Shopify  et ouvrez votre magasin à partir de là. Vous n’aurez pas besoin d’entrer le mot de passe du magasin jusqu’à ce que vous fermiez votre navigateur ou que votre session expire.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Mise en route avec le connecteur Shopify](get-started.md)  
 [Procédure pas à pas : configurer et utiliser le connecteur Shopify](walkthrough-setting-up-and-using-shopify.md)
