@@ -106,7 +106,7 @@
 ##### [Vue d’ensemble sur la ligne validation de feuille comptabilité](design-details-general-journal-post-line-overview.md)  
 ##### [Détails de conception : structure de l’interface de validation](design-details-posting-interface-structure.md)  
 ##### [Détails de conception : structure du moteur de validation](design-details-posting-engine-structure.md)  
-
+#### [Détails de conception : TVA non déductible](design-details-nondeductible-vat.md)
 ## Essai
 ### [Inscrivez-vous pour un essai gratuit de Dynamics 365 Business Central](trial-signup.md)
 ### [FAQ sur la version d’essai de Dynamics 365 Business Central](trial-faq.md)
@@ -213,7 +213,7 @@
 ## Aide et support
 ### [Ressources pour l’Aide et le support](product-help-and-support.md)
 ### [Visite de notre vidéothèque](across-videos.md)
-### [Obtenir le support technique](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+### [Obtenir le support technique](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
 <!--## Microsoft Learn training
 ### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)

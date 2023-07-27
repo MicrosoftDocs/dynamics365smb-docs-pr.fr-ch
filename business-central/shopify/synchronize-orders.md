@@ -4,17 +4,17 @@ description: Configurer et exécuter l’importation et le traitement des comman
 ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
+ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147'
 author: andreipa
 ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# <a name="synchronize-and-fulfill-sales-orders"></a>Synchroniser et exécuter les commandes vente
+# Synchroniser et exécuter les commandes vente
 
 Cet article décrit les paramètres et les étapes à effectuer pour synchroniser et exécuter les commandes vente avec Shopify dans [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Définir l’importation des commandes sur la Fiche magasin Shopify
+## Définir l’importation des commandes sur la Fiche magasin Shopify
 
 Saisissez un **Code monnaie** si la boutique en ligne utilise une monnaie différente de DS. La devise spécifiée doit avoir des taux de change configurés. Si votre boutique en ligne utilise la même devise que [!INCLUDE[prod_short](../includes/prod_short.md)], laissez le champ vide. 
 
@@ -30,9 +30,12 @@ Activez **Créer automatiquement des commandes** pour créer automatiquement des
 
 Si vous souhaitez lancer automatiquement un document de vente, activez le bouton bascule **Lancer automatiquement les commandes vente**.
 
-Le document de vente dans [!INCLUDE[prod_short](../includes/prod_short.md)] génère un lien vers la commande Shopify, et vous pouvez ajouter un champ qui n’est pas déjà affiché sur la page. Pour en savoir plus sur l’ajout d’un champ, accédez à [Commencer à personnaliser une page via la bannière **Personnalisation**](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Si vous sélectionnez le champ **N° commande sur n° ligne doc. Shopify**, ces informations sont répétées dans les ligne vente de type **Commentaire**.
+Si vous sélectionnez le champ **N° commande Shopify sur n° ligne doc.**, [!INCLUDE [prod_short](../includes/prod_short.md)] insère les ligne vente de type **Commentaire** avec le numéro de commande Shopify.
 
-Dans le champ **Priorité zone recouvrement**, vous pouvez définir la priorité en matière de sélection du code zone recouvrement sur les adresses dans la commande. La commande Shopify importée contient des informations sur les taxes. Les taxes sont recalculées lorsque vous créez le document de vente, il est donc important que les paramètres de TVA/taxe soient corrects dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Pour plus d’informations sur les taxes, voir [Configurer les taxes pour la connexion Shopify](setup-taxes.md).
+>[!NOTE]
+>Le document de vente dans [!INCLUDE[prod_short](../includes/prod_short.md)] est lié à la commande Shopify, et vous pouvez ajouter le **N° de commande Shopify** aux pages de liste ou de carte pour les bons de commande, les factures et l’expédition. Pour en savoir plus sur l’ajout d’un champ, accédez à [Commencer à personnaliser une page via la bannière **Personnalisation**](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). 
+
+Dans le champ **Priorité zone recouvrement**, vous pouvez définir la priorité en matière de sélection du code zone recouvrement sur les adresses dans la commande. La commande Shopify importée contient des informations sur les taxes. Les taxes sont recalculées lorsque vous créez les documents de vente, il est donc important que les paramètres de TVA/taxe soient corrects dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Pour plus d’informations sur les taxes, accédez à [Configurer les taxes pour la connexion Shopify](setup-taxes.md).
 
 Précisez comment vous traiterez les retours et les remboursements :
 
@@ -47,7 +50,7 @@ Spécifiez un emplacement pour les retours et des comptes généraux pour les re
 
 En savoir plus sur [Retours et remboursements](synchronize-orders.md#returns-and-refunds)
 
-### <a name="shipment-method-mapping"></a>Mappage des conditions de livraison
+### Mappage des conditions de livraison
 
 Le **Code condition livraison** pour les documents vente importés de Shopify peut être rempli automatiquement. Vous devez configurer le **Mappage conditions livraison**.
 
@@ -60,7 +63,7 @@ Le **Code condition livraison** pour les documents vente importés de Shopify pe
 > [!NOTE]  
 > Si plusieurs frais d’expédition sont associés à une commande vente, un seul est sélectionné comme la condition de livraison et est affecté au document vente.
 
-### <a name="location-mapping"></a>Cartographie de localisation
+### Cartographie de localisation
 
 Le mappage de l’emplacement est requis à trois fins :
 
@@ -74,7 +77,7 @@ Le mappage de l’emplacement est requis à trois fins :
 4. Sélectionnez l’action **Obtenir les emplacements Shopify** pour importer tous les emplacements définis dans Shopify. Ils se trouvent dans les paramètres [**Emplacements**](https://www.shopify.com/admin/settings/locations) du volet **Administration Shopify**. Notez que l’emplacement marqué comme *Par défaut* sera utilisé lors de l’importation de commandes Shopify non remplies.
 5. Entrez le **Code magasin par défaut** avec l’emplacement correspondant dans [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="run-the-order-synchronization"></a>Exécuter la synchronisation des commandes
+## Exécuter la synchronisation des commandes
 
 La procédure suivante décrit comment importer et mettre à jour les commandes vente.
 
@@ -96,7 +99,7 @@ Sinon, vous pouvez rechercher le traitement par lots **Synchroniser les commande
 
 Vous pouvez programmer la tâche pour qu’elle soit exécutée automatiquement. En savoir plus dans la section [Programmer des tâches récurrentes](background.md#to-schedule-recurring-tasks).
 
-### <a name="under-the-hood"></a>Informations détaillées
+### Informations détaillées
 
 Le connecteur Shopify importe les commandes en deux étapes :
 
@@ -121,18 +124,18 @@ La page **Commande Shopify à importer** est utile pour résoudre les problèmes
 * Traitez uniquement des commandes spécifiques. Vous devrez remplir le champ **Code magasin**, sélectionner une ou plusieurs commandes, puis choisir l’action **Importer les commandes sélectionnées**.
 * Supprimez des commandes de la page **Commande Shopify à importer** pour les exclure de la synchronisation.
 
-## <a name="review-imported-orders"></a>Passer en revue les commandes importées
+## Passer en revue les commandes importées
 
 Une fois l’importation terminée, vous pouvez explorer la commande Shopify et trouver toutes les informations associées comme les transactions de paiement, les frais d’expédition, le niveau de risque, les attributs et balises de commande ou les exécutions, si la commande a déjà été exécutée dans Shopify. Vous pouvez également voir les confirmations de commande envoyées au client en sélectionnant l’action **Page de statut Shopify**.
 
 > [!NOTE]  
 > Vous pouvez accéder directement à la fenêtre **Commandes Shopify** pour afficher les commandes dont le statut est défini sur *Ouvert* dans tous les magasins. Pour consulter les commandes terminées, vous devez ouvrir la page **Commandes Shopify** à partir de la fenêtre **Fiche magasin Shopify** spécifique.
 
-## <a name="create-sales-documents-in-business-central"></a>Créer des documents vente dans Business Central
+## Créer des documents vente dans Business Central
 
 Si le bouton à bascule **Créer automatiquement des commandes** est activée sur la **Fiche magasin Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] tente de créer un document vente après l’importation de la commande. Si des problèmes tels qu’un client ou un produit manquant surviennent, vous devrez les résoudre, puis créer à nouveau la commande vente.
 
-### <a name="to-create-sales-documents"></a>Pour créer des documents vente
+### Pour créer des documents vente
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Magasins Shopify**, puis sélectionnez le lien associé.
 2. Sélectionnez le magasin pour lequel vous voulez synchroniser les commandes pour ouvrir la page **Fiche magasin Shopify**.
@@ -144,7 +147,7 @@ Si la commande Shopify exige une exécution, une **Commande vente** est créée.
 
 Un document vente est maintenant créé et peut être géré en utilisant les fonctionnalités standard de [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-### <a name="manage-missing-customers"></a>Gérer les clients manquants
+### Gérer les clients manquants
 
 Si vos paramètres empêchent la création automatique d’un client et qu’un client existant approprié est introuvable, vous devez attribuer un client à la commande Shopify manuellement. Il explique plusieurs méthodes pour y parvenir :
 
@@ -152,7 +155,7 @@ Si vos paramètres empêchent la création automatique d’un client et qu’un 
 * Vous pouvez sélectionner un code modèle client, puis créer et affecter le client par l’action **Créer un client** dans la page **Commandes Shopify**. Remarquez que le client Shopify doit avoir au moins une adresse. Les commandes créées via le canal de vente du PDV Shopify manquent souvent de détails d’adresse.
 * Vous pouvez mapper un client existant avec le **Client Shopify** existant dans la fenêtre **Clients Shopify**, puis sélectionner l’action **Trouver le mappage** dans la page **Commandes Shopify**.
 
-### <a name="how-the-connector-chooses-which-customer-to-use"></a>Comment le connecteur choisit le client à utiliser
+### Comment le connecteur choisit le client à utiliser
 
 La fonction *Importer la commande à partir de Shopify* tente de sélectionner le client dans l’ordre suivant :
 
@@ -168,7 +171,7 @@ Les étapes suivantes dépendent du champ **Type de mappage client**.
 > [!NOTE]  
 > Le connecteur utilise les informations de l’adresse facturation et crée le client facturé dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Le client vendeur est le même que le client facturé.
 
-### <a name="different-processing-rules-for-orders"></a>Différentes règles de traitement des commandes
+### Différentes règles de traitement des commandes
 
 Vous souhaiterez peut-être traiter les commandes différemment en fonction d’une règle. Par exemple, les commandes provenant d’un canal de vente spécifique, comme le point de vente, doivent utiliser le client par défaut, mais vous souhaitez que votre boutique en ligne ait de vraies informations sur le client.
 
@@ -189,7 +192,7 @@ Chaque file d’attente importe et traite les commandes dans les filtres défini
 
 >![Important] Pour éviter les conflits lors du traitement des commandes, n’oubliez pas d’utiliser la même catégorie de file d’attente pour les deux entrées de file d’attente.
 
-### <a name="impact-of-order-editing"></a>Impact des modifications des commandes
+### Impact des modifications des commandes
 
 Dans Shopify :
 
@@ -213,7 +216,7 @@ Dans [!INCLUDE[prod_short](../includes/prod_short.md)] :
 |Augmentez la quantité. Validez l’expédition. | Le traitement ne sera pas synchronisé avec Shopify. |
 |Ajoutez un nouvel article. Validez l’expédition. | La commande Shopify est marquée comme exécutée. Les lignes ne sont pas mises à jour. |
 
-## <a name="synchronize-shipments-to-shopify"></a>Synchroniser les livraisons avec Shopify
+## Synchroniser les livraisons avec Shopify
 
 Lorsqu’une commande vente créée à partir d’une commande Shopify est livrée, vous pouvez synchroniser les livraisons avec Shopify.
 
@@ -232,7 +235,7 @@ Vous pouvez programmer la tâche pour qu’elle soit exécutée de manière auto
 
 N’oubliez pas d’exécuter **Synchroniser les commandes à partir de Shopify** pour mettre à jour le statut d’exécution d’une commande dans [!INCLUDE[prod_short](../includes/prod_short.md)]. La fonctionnalité du connecteur archive également les commandes entièrement payées et exécutées à la fois dans Shopify et dans [!INCLUDE[prod_short](../includes/prod_short.md)] si les conditions sont remplies.
 
-### <a name="shipping-agents-and-tracking-url"></a>Transporteurs et URL de suivi
+### Transporteurs et URL de suivi
 
 Si le document **Expédition vente enregistrée** contient le **Code transporteur** et/ou le **N° récépissé**, ces informations sont envoyées à Shopify et au client dans le message électronique de confirmation de livraison.
 
@@ -244,7 +247,7 @@ La société de suivi est renseignée dans l’ordre de priorité suivant (du pl
 
 Si le champ **URL de suivi des colis** est rempli pour l’enregistrement du transporteur, la confirmation de livraison contient aussi une URL de suivi.
 
-## <a name="returns-and-refunds"></a>Retours et remboursements
+## Retours et remboursements
 
 Dans une intégration entre Shopify et [!INCLUDE[prod_short](../includes/prod_short.md)], il est important de pouvoir synchroniser autant de données métier que possible. Cela facilite la mise à jour de vos niveaux de financement et de stock dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Les données que vous pouvez synchroniser incluent les retours et les remboursements qui ont été enregistrés dans Administrateur Shopify ou PDV Shopify.
 
@@ -265,7 +268,7 @@ Vous pouvez créer des avoirs de vente pour les remboursements. Les avoirs peuve
 >[!Note]
 >L’emplacement de retour, y compris les emplacements vides, définis dans la **Fiche magasin Shopify** sont utilisés sur la note de crédit créée. Le système ignore les emplacements d’origine des commandes ou des expéditions.
 
-## <a name="gift-cards"></a>Cartes cadeaux
+## Cartes cadeaux
 
 Dans le magasin Shopify, vous pouvez vendre des cartes cadeaux, qui peuvent être utilisées pour acheter des produits.
 
@@ -273,6 +276,6 @@ En matière de cartes cadeaux, il est important de saisir une valeur dans le cha
 
 Pour examiner les cartes cadeaux lettrées et émises, sélectionnez l’icône ![Ampoule qui ouvre la fonction de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Cartes cadeaux**, puis choisissez le lien associé.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Mise en route du connecteur pour Shopify](get-started.md)  
