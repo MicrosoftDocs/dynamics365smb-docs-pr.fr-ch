@@ -1,20 +1,14 @@
 ---
 title: Configuration de notifications de flux de travail d’approbation
-description: Cet article vous explique comment configurer des notifications de flux de travail pour alerter un utilisateur qu’un événement s’est produit auquel il doit réagir ; une réponse de flux de travail est requise.
+description: "Cet article vous explique comment configurer des notifications de flux de travail pour alerter un utilisateur qu’un événement s’est produit auquel il doit réagir\_; une réponse de flux de travail est requise."
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 65dad3ffcb91415b13683f20a5e91274c3841c87
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: fr-CH
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585484"
 ---
-# <a name="approval-workflow-notifications"></a>Notifications flux de travail approbation
+# Notifications flux de travail approbation
 
 Configurez vos flux de travail pour avertir automatiquement les utilisateurs lorsque leur attention est requise pour une étape de ce flux de travail. Pour un grand nombre de réponses du flux de travail, il s’agit de notifier un utilisateur qu’un événement s’est produit et qu’il doit agir dessus.
 
@@ -26,7 +20,7 @@ Par exemple, vous pouvez définir que l’utilisateur 2, l’approbateur, reçoi
 > [!IMPORTANT]  
 > Toutes les notifications du workflow sont envoyées à l’aide d’une file projets. Assurez-vous que la file projets dans votre installation est configurée pour traiter les notifications du flux de travail, et que la case à cocher **Démarrer automatiquement à partir du serveur** est activée. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications"></a>Configurer les notifications
+## Configurer les notifications
 
 Vous pouvez configurer différents aspects des notifications du workflow dans les emplacements suivants :  
 
@@ -49,15 +43,15 @@ Vous pouvez configurer différents aspects des notifications du workflow dans le
   
 * Options de réponse
 
-  Vous configurez un contenu spécifique et des règles d’une notification de flux de travail lorsque vous créez le flux de travail en question. Sélectionnez l'option de personnalisation sur la page **Réponses de flux de travail** pour la réponse de flux de travail qui représente la notification. En savoir plus à partir de l’étape 9 de la section [Créer des flux de travail](across-how-to-create-workflows.md#to-create-a-workflow). 
+  Vous configurez un contenu spécifique et des règles d’une notification de flux de travail lorsque vous créez le flux de travail en question. Sélectionnez l’option de personnalisation sur la page **Réponses de flux de travail** pour la réponse de flux de travail qui représente la notification. En savoir plus à partir de l’étape 9 de la section [Créer des flux de travail](across-how-to-create-workflows.md#to-create-a-workflow). 
   
 * Notifier l’expéditeur
 
   Pour les flux de travail d’approbation, ajoutez une étape de réponse de flux de travail pour informer l’expéditeur lorsque la demande a été approuvée ou rejetée. En savoir plus à partir de l’étape 9 de la section [Créer des flux de travail](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md)  
 [Configurer des utilisateurs de flux de travail](across-how-to-set-up-workflow-users.md)  

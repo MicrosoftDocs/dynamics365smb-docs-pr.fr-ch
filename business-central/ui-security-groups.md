@@ -12,37 +12,37 @@ ms.date: 02/08/2023
 
 # Contrôler l’accès à Business Central à l’aide de groupes de sécurité
 
-[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
+Les groupes de sécurité permettent aux administrateurs de simplifier la gestion des autorisations des utilisateurs. Par exemple, pour [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, ils sont réutilisables dans les applications Dynamics 365, telles que SharePoint Online, CRM Online et [!INCLUDE [prod_short](includes/prod_short.md)]. Les administrateurs ajoutent des autorisations à leurs groupes de sécurité [!INCLUDE [prod_short](includes/prod_short.md)] et lorsqu’ils ajoutent des utilisateurs au groupe, les autorisations s’appliquent à tous les membres. Par exemple, un administrateur peut créer un groupe de sécurité [!INCLUDE [prod_short](includes/prod_short.md)] qui donne aux vendeurs la possibilité de créer et de valider des commandes client. Ou laissez les acheteurs faire de même pour les ordres achat.
 
-Les groupes de sécurité permettent aux administrateurs de gérer plus facilement les autorisations des utilisateurs dans leurs applications Dynamics 365, telles que SharePoint Online, CRM Online et la version en ligne de [!INCLUDE [prod_short](includes/prod_short.md)]. Les administrateurs ajoutent des autorisations à leurs groupes de sécurité et lorsqu’ils ajoutent des utilisateurs au groupe, les autorisations s’appliquent à tous les membres. Par exemple, un administrateur peut créer un groupe de sécurité qui donne aux vendeurs la possibilité de créer et de valider des commandes client. Ou laissez les acheteurs faire de même pour les ordres achat.
+## Business Central Online et support local
 
-Créez vos groupes de sécurité dans votre centre d’administration Microsoft 365 ou Azure Active Directory. Cet article décrit les étapes dans le centre d’administration Microsoft 365, mais les étapes sont similaires dans les deux.
+Vous pouvez utiliser des groupes de sécurité pour les versions en ligne et locale de [!INCLUDE [prod_short](includes/prod_short.md)]. Selon la version de votre produit, créez des groupes de l’une des solutions suivantes :
 
-## Ajouter un groupe de sécurité dans le centre d’administration Microsoft 365
+* Pour la version en ligne, utilisez les groupes de sécurité Azure Active Directory. Pour en savoir plus sur la création du groupe, accédez à [Créer, modifier ou supprimer un groupe de sécurité dans le centre d’administration Microsoft 365](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+* Pour la version locale, utilisez les groupes Windows Active Directory. Pour en savoir plus, accédez à [Créer un compte de groupe dans Active Directory](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
 
-1. Dans le centre d’administration Microsoft 365, accédez à la page **Équipes et groupes actifs**.
-2. Choisissez **Ajouter un groupe**.
-3. Choisissez le type de groupe **Sécurité**, puis choisissez **Suivant**.
-4. Précisez les bases de votre groupe.
-5. Facultatif : Rendez les membres du groupe disponibles pour l’attribution de rôles. Pour en savoir plus sur les attributions, accédez à [Utiliser les groupes Azure AD pour gérer les attributions de rôles](/azure/active-directory/roles/groups-concept).
-6. Ouvrez le groupe, puis utilisez l’onglet **Ajouter des membres** pour inclure des personnes dans le groupe.
+Puis, créez un groupe de sécurité correspondant dans [!INCLUDE [prod_short](includes/prod_short.md)], et associez-le au groupe créé. Pour en savoir plus, consultez [Ajouter un groupe de sécurité dans Business Central](#add-a-security-group-in-business-central).
+
+> [!NOTE]
+> Si vous avez configuré un type d’utilisateur spécial avec un type de licence de groupe Windows dans une version [!INCLUDE [prod_short](includes/prod_short.md)] locale antécédente à la première vague de lancement 2023, lorsque vous mettez à niveau [!INCLUDE [prod_short](includes/prod_short.md)] convertit l’utilisateur à un groupe de sécurité. Le nouveau groupe de sécurité porte le même nom que le nom du groupe Windows. Le groupe de sécurité vous donne un meilleur aperçu des membres du groupe et de leurs autorisations effectives.
 
 ## Ajouter un groupe de sécurité dans Business Central
 
-Dans [!INCLUDE [prod_short](includes/prod_short.md)], créez un groupe de sécurité, puis associez-le au groupe de sécurité dans le centre d’administration Microsoft 365. Votre nouveau groupe contient les membres que vous avez ajoutés dans le centre d’administration Microsoft 365.
-
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Groupes de sécurité**, puis choisissez le lien associé.
-2. Choisissez **Nouveau** pour créer un groupe.
-3. Dans le champ **Nom**, entrez un nom pour le groupe.
-4. Dans le champ **Nom du groupe de sécurité AAD** , entrez le nom du groupe de sécurité exactement tel qu’il s’affiche dans le centre d’administration Microsoft 365. [!INCLUDE [prod_short](includes/prod_short.md)] trouve ce groupe et l’associe à ce groupe.
+1. Choisissez **Nouveau** pour créer un groupe.
+1. Créez le lien vers votre groupe, comme suit :
+
+    * Pour [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, choisissez le groupe dans le champ **Nom du groupe de sécurité AAD** .
+    * Pour [!INCLUDE [prod_short](includes/prod_short.md)] local, choisissez le groupe dans le champ **Nom du groupe Windows** .
 
 > [!NOTE]
 > Les utilisateurs qui s’affichent dans la fiche **Membres** sur le volet Récapitulatif ou la page **Membres du groupe de sécurité** seulement s’ils ont été ajoutés en tant qu’utilisateurs dans [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations sur l’ajout d’utilisateurs, voir [Pour ajouter des utilisateurs ou mettre à jour les informations utilisateur et les attributions de licence dans Business Central](ui-how-users-permissions.md#adduser).  
 
-### Affecter des autorisations au groupe
+### Attribuer des autorisations à un groupe de sécurité
 
 1. Sur la page **Groupes de sécurité**, choisissez le groupe, puis l’action **Autorisations**.
 1. Attribuez des autorisations de la manière suivante :
+
     * Pour attribuer des ensembles d’autorisations individuellement, dans le champ **Ensemble d’autorisations**, choisissez les autorisations à attribuer.
     * Pour attribuer plusieurs ensembles d’autorisations, choisissez l’action **Sélectionner des ensembles d’autorisations**, puis choisissez les ensembles à attribuer.
 
@@ -54,7 +54,19 @@ Les autorisations sont également disponibles sur la page **Utilisateurs**. Le v
 
 ## Groupes de sécurité et groupes d’utilisateurs
 
-Si vous avez des groupes d’utilisateurs, vous pouvez convertir les groupes en ensembles d’autorisations dans votre client à l’aide du guide de configuration assistée de la **Migration des groupes d’utilisateurs**. Pour démarrer le guide, sur la page **Gestion des fonctionnalités**, recherchez **Fonctionnalité : Convertir les autorisations de groupe d’utilisateurs**, puis choisissez **Tous les utilisateurs** dans le champ **Activé pour**. Le guide de configuration assistée propose les options suivantes pour la conversion.
+> [!NOTE]
+> Les groupes d’utilisateurs ne seront plus disponibles dans une prochaine version.
+
+Les groupes de sécurité sont très similaires aux groupes d’utilisateurs actuellement disponibles. Cependant, les groupes d’utilisateurs ne sont pertinents que pour [!INCLUDE [prod_short](includes/prod_short.md)]. Les groupes de sécurité sont basés sur des groupes dans Azure Active Directory ou Windows Active Directory, selon que vous utilisez [!INCLUDE [prod_short](includes/prod_short.md)] en ligne ou local, respectivement. Les groupes bénéficient aux administrateurs, car ils peuvent les utiliser avec d’autres applications Dynamics 365. Par exemple, si les commerciaux utilisent [!INCLUDE [prod_short](includes/prod_short.md)]et SharePoint, les administrateurs n’ont pas à recréer le groupe et ses membres.
+
+### En option : Convertir des groupes d’utilisateurs en ensembles d’autorisations
+
+Dans la première vague de lancement 2023 et les versions ultérieures, vous pouvez convertir des groupes d’utilisateurs en ensembles d’autorisations dans votre client. Les ensembles d’autorisations offrent les mêmes fonctionnalités que les groupes d’utilisateurs. Voilà quelques exemples :
+
+* Vous pouvez utiliser le récapitulatif **Utilisateurs** pour gérer les autorisations des utilisateurs.
+* Vous pouvez explorer le nom de l’ensemble d’autorisations pour ajouter d’autres ensembles d’autorisations à l’ensemble sur lequel vous travaillez. Pour en savoir plus, accédez à [Pour ajouter d’autres ensembles d’autorisations](ui-define-granular-permissions.md#to-add-other-permission-sets).
+
+Utilisez le guide de configuration assistée de la **Migration du groupe d’utilisateurs** pour convertir vos groupes. Pour démarrer le guide, sur la page **Gestion des fonctionnalités**, recherchez **Fonctionnalité : Convertir les autorisations de groupe d’utilisateurs**, puis choisissez **Tous les utilisateurs** dans le champ **Activé pour**. Le guide de configuration assistée propose les options suivantes pour la conversion.
 
 |Option  |Description  |
 |---------|---------|
