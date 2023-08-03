@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.search.form: null
 ms.author: bholtorf
 ---
-# Gérer les notifications
+# <a name="manage-notifications"></a>Gérer les notifications
 
 [!INCLUDE[prod_short](includes/prod_short.md)] vous aide à travailler de façon plus intelligente en vous notifiant à propos de certains événements ou modification de statut, lorsque vous êtes sur le point de facturer un client avec des écritures échues, ou lorsque le stock disponible est inférieur à la quantité que vous êtes sur le point de vendre, par exemple. Ces notifications s’affichent sous la forme d’astuces subtiles dans le contexte de la tâche que vous effectuez, et vous pouvez choisir de les ignorer ou d’en savoir plus sur la question.  
 
@@ -18,7 +18,7 @@ Si vous choisissez de voir les détails d’une notification, vous pouvez prendr
 
 Les notifications aident les utilisateurs débutants à effectuer des tâches inhabituelles et contribuent à ce que les utilisateurs plus avertis ne ralentissent pas leur productivité.  
 
-## Pour activer ou désactiver les notifications, et contrôler le moment de leur envoi
+## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Pour activer ou désactiver les notifications, et contrôler le moment de leur envoi
 
 Lorsque vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] pour la première fois, toutes les notifications sont activées, mais vous pouvez les désactiver, par exemple, si vous n’êtes pas intéressé par un événement ou un statut.  
 
@@ -31,7 +31,7 @@ L’activation ou la désactivation des notifications et la spécification des c
 3. Dans la page qui apparaît, activez ou désactivez une notification en cochant ou en décochant la case **Activé**.  
 4. Pour spécifier les conditions qui déclenchent une notification, cliquez sur le lien **Afficher les détails du filtre**, puis renseignez les champs.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
