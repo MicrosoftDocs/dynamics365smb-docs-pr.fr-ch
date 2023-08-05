@@ -11,7 +11,7 @@ ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="process-purchase-returns-or-cancellations"></a>Traiter les retours ou annulations d’achats
+# Traiter les retours ou annulations d’achats
 
 Si vous souhaitez retourner des articles à votre fournisseur ou annuler des services que vous avez achetés, vous pouvez créer et valider un avoir achat qui indique la modification demandée par rapport à la facture achat d’origine. Pour inclure les informations de facture achat correctes, vous pouvez créer l’avoir achat à partir de la facture achat enregistrée ou vous pouvez créer un avoir achat avec les informations copiées de la facture.
 
@@ -28,7 +28,7 @@ Outre la facture achat validée d’origine, vous pouvez lettrer l’avoir achat
 
 La validation de l’avoir rétablira également tous les frais annexes affectés au document validé, afin que les écritures valeur de l’article soient identiques à celles précédant l’affectation des frais annexes.
 
-## <a name="inventory-costing"></a>Évaluation stock
+## Évaluation stock
 Pour préserver l’évaluation correcte du stock, vous voudrez généralement prélever les articles retournés dans l’inventaire au coût unitaire auquel ils ont été achetés, et non à leur coût unitaire actuel. On appelle cela une inversion de même coût.
 
 Vous pouvez affecter l’inversion de même coût automatiquement de deux façons.  
@@ -42,7 +42,7 @@ Pour réaliser manuellement la contrepassation exacte, sélectionnez **Écriture
 
 Pour plus d’informations, voir [Détails de conception : Évaluation stock](design-details-inventory-costing.md).
 
-## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Pour créer un avoir achat à partir d’une facture achat validée
+## Pour créer un avoir achat à partir d’une facture achat validée
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat validées**, puis sélectionnez le lien associé.  
 2. Sur la page **Factures achat enregistrées**, sélectionnez la facture achat validée que vous souhaitez contrepasser, puis sélectionnez l’action **Créer un avoir correctif**.
@@ -63,7 +63,7 @@ Les factures achat validées auxquelles vous appliquez l’avoir sont à présen
 
 L’avoir achat est supprimé et remplacé par un nouveau document dans la liste des avoirs achat validés.
 
-## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Pour créer un avoir achat en copiant une facture achat validée
+## Pour créer un avoir achat en copiant une facture achat validée
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Avoirs achat**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau** pour ouvrir un nouvel avoir achat vierge.
@@ -75,7 +75,7 @@ L’avoir achat est supprimé et remplacé par un nouveau document dans la liste
 8. Cliquez sur le bouton **OK**. Les lignes facture copiées sont insérées dans l’avoir achat.
 9. Remplissez l’avoir achat en vous reportant à [Pour créer un avoir achat à partir d’une facture achat validée](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Pour créer un retour achat à partir d’un ou plusieurs documents achat validés
+## Pour créer un retour achat à partir d’un ou plusieurs documents achat validés
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Retours achat**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -125,7 +125,7 @@ L’avoir achat est supprimé et remplacé par un nouveau document dans la liste
 10. Sur la page **Retour achat**, dans le champ **Code motif retour** de chaque ligne, sélectionnez le motif de ce retour.
 11. Sélectionnez l’action **Valider**.
 
-## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Pour créer une commande achat de remplacement à partir d’un retour achat ouvert
+## Pour créer une commande achat de remplacement à partir d’un retour achat ouvert
 
 Vous pouvez vous accorder avec le fournisseur pour qu’il compense l’achat d’un article en remplaçant cet article. L’article de remplacement peut être identique à l’article d’origine ou il peut être différent. Le fournisseur peut vous avoir livré par erreur le mauvais article.  
 
@@ -134,7 +134,7 @@ Vous pouvez vous accorder avec le fournisseur pour qu’il compense l’achat d�
 3. Sur la page **Déplacer lignes achat nég.**, renseignez les champs selon vos besoins.
 4. Choisissez le bouton **OK**. La ligne négative est effacée du retour achat et une commande achat est créée. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).  
 
-## <a name="to-create-a-purchase-allowance"></a>Pour créer un rabais
+## Pour créer un rabais
 
 Si vous recevez de votre fournisseur des articles que vous ne souhaitez pas, par exemple s’ils sont légèrement endommagés, ou s’ils ne sont pas de la bonne couleur ou de la bonne taille, le fournisseur peut vous proposer un rabais.  
 
@@ -153,7 +153,7 @@ Vous pouvez valider ce coût d’achat réduit en tant que frais annexes sur un 
 
 Lorsque vous validez la commande retour achat, le rabais sur l’achat est ajouté au montant de l’écriture achat appropriée. De cette manière, vous pouvez maintenir la précision de l’évaluation stock.  
 
-## <a name="to-combine-return-shipments"></a>Pour regrouper les expéditions retour
+## Pour regrouper les expéditions retour
 
 Pour retourner des articles couverts par différents retours achat au même fournisseur, vous pouvez utiliser la fonction **Regrouper les expéditions retour**.  
 
@@ -175,15 +175,15 @@ Lorsque des expéditions retour sont regroupées sur un avoir et validées, un a
     Si une ligne expédition retour incorrecte a été sélectionnée ou que vous souhaitez recommencer, il vous suffit de supprimer les lignes de l’avoir achat et de réutiliser la fonction **Extraire lignes expédition retour**.  
 6. Sélectionnez l’action **Valider**.  
 
-### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Pour supprimer des retours achat ouverts après la validation d’expéditions retour regroupées
+### Pour supprimer des retours achat ouverts après la validation d’expéditions retour regroupées  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Supprimer retours achat facturé**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.  
 3. Vous pouvez également supprimer chacun des retours achat manuellement.
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/return-items-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/paths/return-items-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Achats](purchasing-manage-purchasing.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
 [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

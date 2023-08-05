@@ -11,7 +11,7 @@ ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setting-up-banking"></a>Paramétrage des opérations bancaires
+# Paramétrage des opérations bancaires
 
 Les fiches compte bancaire vous permettent de gérer tous vos comptes bancaires, dans n’importe quelle devise. Une fois que vous avez configuré les comptes bancaires, vous pouvez également utiliser l’option d’impression de chèque.
 
@@ -25,7 +25,7 @@ Pour utiliser les services bancaires électroniques pour importer des relevés b
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  

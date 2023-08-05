@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'QR-bill, invoice, incoming documents, payment reference'
 ms.search.form: '11502, 11510, 11511, 11512, 11513, 11514, 11515, 11516, 11517, 11518'
-ms.date: 03/22/2022
+ms.date: 04/05/2023
 ms.author: soalex
 ---
 # Gestion des QR-factures dans la version suisse de Business Central
@@ -101,7 +101,38 @@ La réception d'une QR-facture par le biais de documents entrants est particuli�
 À partir du document entrant, vous pouvez créer une feuille achat ou une facture achat, et la référence de paiement de la QR-facture est attribuée aux deux. Pour plus d'informations, voir [Utilisation des documents entrants](../../across-income-documents.md)
 
 > [!NOTE]
-> Lorsque vous importez des QR-factures, [!INCLUDE[prod_short](../../includes/prod_short.md)] tentera de trouver un compte bancaire fournisseur avec un IBAN ou QR-IBAN correspondant. Lors de l'importation de QR-factures sur des documents entrants, un document ou une feuille achat est créé(e) et le compte bancaire du fournisseur déterminera le fournisseur à utiliser. L'approche des documents entrants permet de s'assurer que le bon fournisseur est attribué.
+> Lorsque vous importez des QR-factures, [!INCLUDE[prod_short](../../includes/prod_short.md)] recherchera un compte bancaire fournisseur avec un IBAN ou QR-IBAN correspondant. Lors de l’importation de QR-factures sur des documents entrants, un document ou une feuille achat est créé(e) et le compte bancaire du fournisseur détermine le fournisseur à utiliser. L'approche des documents entrants permet de s'assurer que le bon fournisseur est attribué. 
+
+#### Réception par le biais du service OCR Kofax
+
+> [!NOTE]
+> Si des sociétés existantes dans [!INCLUDE[prod_short](../../includes/prod_short.md)] veulent qu’une référence QR soit renvoyée lorsqu’elles utilisent le service OCR Kofax, elles doivent mettre à jour la définition d’échange de données existante utilisée comme **Type échange de données** pour le traitement des factures dans les documents entrants.  
+
+Effectuez les étapes suivantes pour mettre à jour une définition d’échange de données existante. 
+
+1. Sélectionnez l’icône d’![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Définitions d’échange de données**, puis sélectionnez le lien associé. 
+2. Dans la liste **Définitions d’échange de données**, recherchez la ligne à mettre à jour, puis ouvrez la fiche. 
+3. Sur le raccourci **Définitions ligne**, sélectionnez **OCRINVHEADER**.  
+4. Sur le raccourci **Définitions de colonne**, créez une ligne, puis entrez les valeurs suivantes.
+
+    | Champ | Valeur |
+    |-------|-------|
+    | **N° colonne** | 11513 |
+    | **Nom** | N ° référence QR-facture suisse |
+    | **Description** | N ° référence QR-facture suisse |
+    | **Chemin** | /Document/HeaderFields/HeaderField\[Type\[text()='qrreference'\]\]/Text |
+    
+5. Sur le raccourci **Définitions ligne**, sélectionnez **Correspondance champ**.  
+6. Sur la page **Correspondance champ**, créez une ligne, puis entrez les valeurs suivantes.
+
+    | Champ | Valeur |
+    |-------|-------|
+    | **N° colonne** | 11513 |
+    | **ID table cible** | 38 |
+    | **ID champ cible** | 171 |
+    | **Valider uniquement** | FAUX |
+
+7. Fermez les pages.  
 
 ### Réception d'une QR-facture par le biais de commandes achat ou de factures achat
 

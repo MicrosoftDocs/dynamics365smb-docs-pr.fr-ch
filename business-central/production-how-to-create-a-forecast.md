@@ -10,7 +10,7 @@ ms.search.form: '9245, 99000919, 99000921, 99000922'
 ms.date: 03/11/2022
 ms.author: edupont
 ---
-# <a name="create-a-demand-forecast"></a>Créer une prévision de la demande
+# Créer une prévision de la demande
 
 Vous pouvez créer des prévisions de vente et de production à l’aide de la page de liste **Prévisions de demande**. Ensuite, pour chaque prévision, vous devez spécifier divers paramètres dans la page **Aperçu prévision demande**.  
 
@@ -20,7 +20,7 @@ Les prévisions permettent à votre société de créer des scénarios basés su
 
 Avec la 1re vague de lancement 2022, vous pouvez aussi définir le niveau de détails souhaité dans les champs **Prévision par magasin** et **Prévision par variante** sur la page **Aperçu prévision demande**. Les filtres et autres paramètres sont stockés dans la table **Nom prévision demande**. Ainsi, vous pouvez facilement arrêter votre travail et le reprendre ultérieurement. Si votre organisation a effectué la mise à jour lors de la 1re vague de lancement 2022, vous devez activer la nouvelle expérience dans la page [Gestion des fonctionnalités](admin-feature-management.md).  
 
-## <a name="sales-forecasts-and-production-forecasts"></a>Prévisions de vente et de fabrication
+## Prévisions de vente et de fabrication
 
 La fonctionnalité de prévision de l’application permet de générer des prévisions de vente ou de fabrication, de façon combinée ou indépendante. Par exemple, la plupart des sociétés qui fabriquent à la commande ne gèrent pas un stock de produits finis parce que chaque article est produit au moment de la commande. L’anticipation sur les commandes (prévision de vente) est essentielle pour aboutit à un délai de production raisonnable des produits finis (prévision de production). À titre d’exemple, les composants nécessitant un délai de livraison important, s’ils ne sont pas en commande ou en stock, peuvent retarder la fabrication.  
 
@@ -38,21 +38,21 @@ La prévision consiste en un certain nombre d’enregistrements indiquant un num
 
 Vous devez désigner une prévision comme *Article vente*, *Composant* ou *Les deux*. Le type prévision *Article vente* est utilisé pour la prévision de vente. La prévision de production est créée à l’aide du type *Composant*. Le type de prévision *Les deux* n’est utilisé que pour donner au gestionnaire un aperçu de la prévision de vente et de la prévision de production. Avec cette option, les écritures prévisions ne sont pas modifiables. En désignant ces types de prévision ici, vous pouvez utiliser la même feuille pour entrer une prévision de vente que pour une prévision de production, ainsi qu’utiliser la même feuille pour afficher les deux prévisions simultanément. Notez que le système traite les différentes entrées (vente et production) de façon différente lors du calcul du planning, en fonction de la configuration de l’article, de la fabrication et de la production.  
 
-## <a name="component-forecast"></a>Prévision composant
+## Prévision composant
 
 La prévision composant peut être considérée comme une prévision d’option en relation avec un article parent. Cela peut, par exemple, être utile si le gestionnaire peut estimer la demande pour le composant.  
 
 Du fait que la prévision composant sert à définir des options pour un article parent, la valeur de prévision composant doit être inférieure ou égale à la quantité de vente d’article prévue. Si la valeur de prévision composant est supérieure à la prévision de vente d’article, le système traite la différence entre ces deux types de prévisions comme une demande indépendante.  
 
-## <a name="forecasting-periods"></a>Périodes de prévision
+## Périodes de prévision
 
 La période de prévision est valide de la date début jusqu’à la date de début de la prévision suivante. La page d’intervalle de temps offre plusieurs choix pour insérer la demande à une date spécifique dans une période. Il est donc recommandé de ne pas modifier l’étendue de la période de prévision à moins de déplacer toutes les écritures de prévision à la date début de cette période.  
 
-## <a name="forecast-by-locations"></a>Prévision par magasin
+## Prévision par magasin
 
 Sur la page **Paramètres production**, vous pouvez spécifier la manière dont vous voulez prendre en compte les emplacements définis dans les prévisions lorsque vous calculez des plans. 
 
-### <a name="use-forecast-by-locations"></a>Prévision sur magasin
+### Prévision sur magasin
 
 Si vous activez le bouton de basculement **Prévision sur magasin**, [!INCLUDE[prod_short](includes/prod_short.md)] respectera tous les codes magasin spécifiés pour chaque écriture de prévision de la demande et calculera la prévision restante pour chaque magasin.  
 
@@ -69,7 +69,7 @@ Ensuite, vous créez une commande client avec une quantité de 12 sur le magasi
 > [!NOTE]  
 > Si les prévisions basées sur le magasin sont consultées isolément, il se peut que la prévision globale ne soit pas représentative.
 
-### <a name="do-not-use-forecast-by-locations"></a>Ne pas utiliser Prévision sur magasin
+### Ne pas utiliser Prévision sur magasin
 
 Si vous désactivez le bouton de basculement **Prévision sur magasin**, [!INCLUDE[prod_short](includes/prod_short.md)] ignorera les codes magasin spécifiés pour chaque écriture de prévision de la demande et agrègera les prévisions en une prévision pour les magasins vides.  
 
@@ -86,7 +86,7 @@ Ensuite, vous créez une commande client avec une quantité de 12 sur le magasi
 > [!NOTE]  
 > Vous pouvez définir un filtre par emplacement, mais les résultats basés sur l’emplacement peuvent ne pas correspondre aux résultats de planification sans filtres.
 
-## <a name="to-create-a-demand-forecast"></a>Pour créer une prévision de la demande
+## Pour créer une prévision de la demande
 
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prévision de la demande**, puis sélectionnez le lien associé.  
 2. Sur le raccourci **Général**, choisissez une prévision dans le champ **Nom prévision demande**. Plusieurs prévisions peuvent exister, qui se différencient par leur nom et leur type.  
@@ -104,7 +104,7 @@ Ensuite, vous créez une commande client avec une quantité de 12 sur le magasi
 > [!NOTE]  
 > Vous pouvez également modifier une prévision existante. Sur la page **Matrice Prévision demande**, choisissez l’action **Copier prévision demande** et renseignez la page **Prévision demande** à l’aide de la prévision existante. Vous pouvez alors modifier les quantités en fonction des besoins.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)

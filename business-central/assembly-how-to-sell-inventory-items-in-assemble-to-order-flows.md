@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Vendre des éléments de stocks dans des flux à assembler pour commande
+# Vendre des éléments de stocks dans des flux à assembler pour commande
 
 Si le champ **Stratégie d’assemblage** de la fiche article d’un élément d’assemblage indique **Assembler pour commande**, le processus par défaut de commande vente considère que l’article n’est pas en stock et doit être assemblé pour les commandes vente. Quand vous ajoutez l’article à une ligne d’une commande vente, [!INCLUDE [prod_short](includes/prod_short.md)] crée un ordre d’assemblage lié à la commande vente. Pour en savoir plus sur la vente d’articles à assembler pour commande, consultez [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md). Toutefois, si une partie de la quantité sur commande vente est déjà disponible en stock, vous pouvez diminuer la quantité d’ordre d’assemblage en changeant le champ **Quantité à assembler pour commande** de la ligne commande vente.  
 
@@ -30,7 +30,7 @@ Dans cette procédure, vous remplacez les quantités à assembler pour commande 
 2. Réduire cette quantité à partir de l’ordre d’assemblage lié.
 3. Réserver la quantité en stock pour vous assurer qu’elle est prélevée et expédiée pour la commande.  
 
-## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>pour vendre des articles en stock dans des flux à assembler pour commande
+## pour vendre des articles en stock dans des flux à assembler pour commande
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Créez une commande client. Pour plus d’informations sur la créations de commandes vente, consultez [Vendre des produits](sales-how-sell-products.md).  
@@ -47,9 +47,9 @@ Dans cette procédure, vous remplacez les quantités à assembler pour commande 
 > [!CAUTION]  
 > Le champ **Code emplacement** de la commande vente peut contenir la valeur provenant des champs **Code empl. exp. ass. pr comm.** ou **Code empl. depuis assemblage** de la fiche magasin. Si c’est le cas, le champ **Code emplacement** de la ligne commande vente peut être incorrect pour cette combinaison des quantités à assembler pour commande et à assembler pour stock. Il est bon de revérifier que l’emplacement dans le champ **Code emplacement** fonctionne pour toutes les quantités. Sinon, entrez les deux quantités différentes sur des lignes commande vente distinctes.  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Réserver des articles](inventory-how-to-reserve-items.md)  

@@ -10,7 +10,7 @@ ms.search.form: 5510
 ms.date: 03/08/2023
 ms.author: edupont
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Enregistrer la consommation et la production pour une ligne ordre de fabrication lancé
+# Enregistrer la consommation et la production pour une ligne ordre de fabrication lancé
 
 Cette tâche est réalisée sur la page **Feuille production**. La feuille combine en une seule feuille les fonctions des feuilles distinctes consommation et production. Vous accédez directement à la feuille combinée depuis un ordre de fabrication lancé. Son objectif principal est de valider manuellement la consommation de composants, la quantité d’articles finis produits et le temps passé dans les opérations. Les valeurs sont validées en comptabilité sous l’ordre de fabrication lancé. Les quantités consommées sont validées comme écritures comptables article négatives, les quantités produites sont validées comme écritures comptables article positives et les heures sont validées comme écritures comptables capacité. Ces valeurs validées peuvent également être visualisées au bas de la feuille sous forme de quantités réelles.  
 
@@ -20,7 +20,7 @@ Cette tâche est réalisée sur la page **Feuille production**. La feuille combi
 > [!NOTE]  
 > les composants ne comportant pas de code lien gamme apparaissent en haut de la feuille.  
 
-## <a name="to-register-consumption-and-output"></a>Pour enregistrer la consommation et la production
+## Pour enregistrer la consommation et la production  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. lancés**, puis sélectionnez le lien associé.  
 2. Ouvrez une ligne d’O.F. lancé qui est prête à être enregistrée, puis sur le raccourci **Lignes**, choisissez l’action **Ligne**, puis l’action **Feuille production**.  
@@ -61,7 +61,7 @@ Cette tâche est réalisée sur la page **Feuille production**. La feuille combi
 > [!WARNING]  
 > La page **Feuille production** ne peut pas être utilisée par deux utilisateurs simultanément. Cela signifie que si l’utilisateur 2 ouvre la page et entre des données alors que l’utilisateur 1 travaille déjà sur la page, l’utilisateur 2 peut perdre des données lorsque l’utilisateur 1 ferme la page.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 
 [Production](production-manage-manufacturing.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  

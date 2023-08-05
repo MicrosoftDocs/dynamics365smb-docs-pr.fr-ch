@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-tracking-and-planning"></a>Détails de conception : traçabilité et planification d’article
+# Détails de conception : traçabilité et planification d’article
 Puisqu’ils sont enregistrés dans le système de réservation, les numéros de traçabilité sont coordonnés entièrement avec l’enregistrement de chaînage. Cela signifie que les articles qui ont des numéros de suivi de commande peuvent se voir affecter des numéros de suivi d’article. Inversement, les articles qui ont des numéros traçabilité peuvent devenir des enregistrement de chaînage. Pour plus d’informations, voir [Détails de conception : création de traçabilité](design-details-item-tracking-design.md).
 
 Pour plus d’informations sur les systèmes intégrés, voir [Détails de conception : réservations, chaînage et messages d’action](design-details-reservation-order-tracking-and-action-messaging.md).
@@ -35,7 +35,7 @@ Pour les articles utilisant la traçabilité, toutes les demandes possédant des
 
 Pour plus d’informations, voir [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)
 
-## <a name="balancing-demand-and-supply"></a>Équilibrage de la demande et de l’approvisionnement
+## Équilibrage de la demande et de l’approvisionnement
 Si un article requiert une traçabilité spécifique, un lien de chaînage est effectué entre toutes les demandes de traçabilité de l’article et n’importe quel approvisionnement de traçabilité correspondant, avec pour seule limitation que l’approvisionnement soit antérieur à la demande. Si, dans ces circonstances, il ne se trouve aucun approvisionnement de traçabilité correspondant à la demande spécifique de traçabilité, un nouvel approvisionnement de traçabilité est créé immédiatement et sans tenir compte de la taille de commande, des paramètres de planification ou de la replanification d’un approvisionnement existant du même numéro de série ou de lot.
 
 Si des numéros traçabilité sont affectés du côté de la demande ou du côté de l’approvisionnement sans nécessiter de traçabilité spécifique, un lien de chaînage est établi entre la demande et cet approvisionnement, sur la base du délai et de la quantité les plus appropriés, comme dans la procédure d’équilibrage habituelle. Le numéro de traçabilité spécifié va dans l’enregistrement de chaînage de la même manière qu’une quantité traçabilité spécifiée définit une extrémité du lien de chaînage. Cela signifie que le numéro de suivi d’article saisi est conservé alors qu’il fait également partie de l’enregistrement de suivi de commande.
@@ -44,7 +44,7 @@ Si des numéros traçabilité sont affectés du côté de l’approvisionnement 
 
 Pour plus d’informations, reportez-vous à [Détails de conception : Équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md).  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 [Détails de conception : création de traçabilité](design-details-item-tracking-design.md)  
 [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)  
 [Détails de conception : réservation, chaînage et message d’action](design-details-reservation-order-tracking-and-action-messaging.md)   

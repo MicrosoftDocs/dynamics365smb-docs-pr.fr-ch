@@ -99,6 +99,26 @@ Vérifie que l’utilisateur authentifié peut se connecter à un environnement 
 |Aucune adresse de regroupement pour laquelle effectuer cette vérification|Consultez la liste des environnements disponibles dans le centre d’administration de Business Central.|
 |Le point de terminaison de la version n’existe pas|Consultez la liste des environnements disponibles dans le centre d’administration de Business Central.|
 
+## Connectivité du serveur web
+
+Vérifie que l’utilisateur authentifié peut établir avec succès des connexions avec le serveur Web.
+
+|Problème|Choses à essayer|
+|-------|-------------|
+|Aucun utilisateur authentifié n’a pu effectuer cette vérification pour|Voir la **Vérification de l’authentification utilisateur**.|
+|Échec de la récupération des environnements disponibles pour votre compte.|Voir **Découverte des environnements Business Central**.|
+|Aucune adresse de regroupement pour laquelle effectuer cette vérification|Consultez la liste des environnements disponibles dans le centre d’administration de Business Central.|
+|Impossible d’établir une connexion avec le serveur web|Videz le cache et rechargez la page.|
+
+## État d’intégrité du service
+
+Rapporte l’état de santé du service de Business Central en vérifiant les pannes déclarées.
+
+|Problème|Choses à essayer|
+|-------|-------------|
+|Aucun utilisateur authentifié n’a pu effectuer cette vérification pour|Voir la **Vérification de l’authentification utilisateur**.|
+|Désolé, Business Central n’est pas disponible pour l’instant. Réessayez ultérieurement.|Réessayez ultérieurement.|
+
 ## Voir aussi
 
 [Ressources pour l’Aide et le support](product-help-and-support.md)  

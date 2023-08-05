@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="managing-inventory-costs"></a>Gestion des coûts ajustés
+# Gestion des coûts ajustés
 La gestion des coûts, aussi appelée comptabilité analytique, se charge de l’enregistrement et de la déclaration des coûts d’exploitation de la société. Cette activité inclut la déclaration des coûts de fabrication et de stock qui constituent la valeur des articles.   
 
 Il est essentiel de comprendre les principes suivants : les méthodes d’évaluation des stocks au prix coûtant définissent le mode d’évaluation des articles lors de leur sortie de stock, l’ajustement des coûts met à jour le coût des biens vendus avec les coûts d’achat associés validés après la vente, les valeurs en stock doivent être validées vers les comptes généraux appropriés à des intervalles réguliers.
@@ -33,7 +33,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Effectuer un contrôle de clôture d’exercice et des tâches de création de rapports, tels que le calcul de la valeur du stock et la validation des coûts dans la comptabilité.|[Génération des coûts et rapprochement en comptabilité](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Découvrez comment vous pouvez utiliser la file d’attente des travaux pour déplacer les tâches d’ajustement du coût stocks ou de rapprochement avec la comptabilité en arrière-plan.|[Ajuster et rapprocher le coût stocks avec la comptabilité avec la file d’attente des travaux](finance-manage-inventory-costs.md)|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
  [Finances](finance.md)  
  [STOCKS ET EN-COURS](inventory-manage-inventory.md)   
  [Ventes](sales-manage-sales.md)   

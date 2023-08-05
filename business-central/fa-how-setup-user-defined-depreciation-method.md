@@ -9,7 +9,7 @@ ms.date: 07/05/2021
 ms.author: edupont
 ---
 
-# <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Définir des immobilisations avec des méthodes d’amortissement paramétrables
+# Définir des immobilisations avec des méthodes d’amortissement paramétrables
 
 Vous pouvez utiliser [!INCLUDE[prod_short](includes/prod_short.md)] pour configurer les méthodes d’amortissement paramétrables, comme décrit ici.
 
@@ -23,7 +23,7 @@ La formule de calcul des montants d’amortissement est la suivante :
 > [!NOTE]  
 > Alors que la date du champ **Date premier amortissement** est utilisée pour déterminer les intervalles de temps, c’est la **Date début amortissement** qui est utilisée pour déterminer le nombre de jours d’amortissement. Si la **Date premier amortissement** est antérieure à la **Date début amortissement**, le pourcentage de la première période de la table amortissement ne sera que partiellement utilisée lorsque le programme calcule le premier amortissement. Cela signifie que l’immobilisation n’est pas totalement amortie au terme de la période précédente.
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a>Pour affecter une loi d’amortissement à une immobilisation avec une méthode d’amortissement paramétrable
+## Pour affecter une loi d’amortissement à une immobilisation avec une méthode d’amortissement paramétrable
 
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Immobilisations**, puis choisissez le lien associé.
 2. Sélectionnez l’immobilisation pour laquelle vous souhaitez configurer une loi d’amortissement.
@@ -36,7 +36,7 @@ La formule de calcul des montants d’amortissement est la suivante :
 7. Lorsque vous utilisez une méthode définie par l’utilisateur, le champ **Date premier amortissement** doit être défini sur une date identique ou antérieure à la date du champ **Date début amortissement**. Si vous avez sélectionné une valeur dans le champ **Base période** de la table amortissement, la date du champ **Date premier amortissement** doit être la date début d’une période comptable.
 8. Remplissez le champ **Nombre années amortissement** ou le champ **Date fin amortissement**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
-## <a name="to-set-up-user-defined-depreciation-methods"></a>Pour définir des méthodes d’amortissement paramétrables
+## Pour définir des méthodes d’amortissement paramétrables
 
 Sur la page **Table amortissement**, vous pouvez configurer des méthodes d’amortissement paramétrables. Par exemple, vous pouvez définir l’amortissement en fonction du nombre d’unités.  
 
@@ -56,11 +56,11 @@ Somme des chiffres = 1 + 2 + 3 + 4 = 10 Amortissement :
 * Année 3 = 2/10  
 * Année 4 = 1/10  
 
-### <a name="depreciation-based-on-number-of-units"></a>Amortissement basé sur un nombre d’unités
+### Amortissement basé sur un nombre d’unités
 
 Cette méthode paramétrable peut également être utilisée pour calculer un amortissement sur la base d’un nombre d’unités, par exemple dans le cas de machines de production dont la durée de vie est préétablie. Sur la page **Tables d’amortissement**, vous saisissez le nombre d’unités pouvant être produites au cours de chaque période (mois, trimestre, année ou période comptable).  
 
-### <a name="example---user-defined-depreciation"></a>Exemple - Amortissement défini par l’utilisateur
+### Exemple - Amortissement défini par l’utilisateur
 
 Vous souhaitez utiliser une méthode d’amortissement vous permettant d’amortir des immobilisations de manière accélérée dans le cadre de l’impôt sur le revenu.  
 
@@ -93,7 +93,7 @@ Dans l’exemple précédent, les champs **Date premier amortissement** et **Dat
 | 31/12/24 |Amortissements |Aucun |Aucun |0 |
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Paramétrage d’immobilisations](fa-setup.md)  
 [COMPTES D’IMMOBILISATIONS](fa-manage.md)  
 [Configurer un amortissement immobilisation](fa-how-setup-depreciation.md)  

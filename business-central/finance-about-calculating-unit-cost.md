@@ -7,13 +7,13 @@ ms.topic: article
 ms.date: 03/06/2022
 ms.author: edupont
 ---
-# <a name="about-unit-cost-calculation"></a>À propos du calcul du coût unitaire
+# À propos du calcul du coût unitaire
 
 Chaque article a un coût unitaire qui est calculé en fonction de la méthode d’évaluation stock de l’entreprise et d’autres facteurs. En règle générale, avec le mode évaluation stock *standard*, la valeur du champ **Coût unitaire** repose sur le coût standard de l’article. Pour toutes les autres méthodes d’évaluation stock (*FIFO*, *LIFO*, *Spécifique* et *Moyen*), le coût unitaire est calculé sur la base du coût unitaire moyen sur une période.  
 
 Pour plus d’informations, reportez-vous à [Gestion des coûts ajustés](finance-manage-inventory-costs.md).  
 
-## <a name="when-is-the-unit-cost-field-updated"></a>À quel moment le champ Coût unitaire est-il mis à jour
+## À quel moment le champ Coût unitaire est-il mis à jour
 
 Le mode évaluation stock a une incidence sur le moment où le champ **Coût unitaire** est mis à jour.
 
@@ -33,35 +33,35 @@ Si l’une de ces conditions est remplie, le champ **Coût unitaire** est mis à
 
 Dans le champ **Coût unitaire** de la fiche article, vous pouvez explorer pour afficher l’historique des transactions à partir duquel est calculé le coût moyen des unités disponibles sur la fenêtre **Aperçu calc. coût moyen**.
 
-## <a name="unit-cost-calculation-for-purchases"></a>Calcul du coût unitaire pour les achats
+## Calcul du coût unitaire pour les achats
 
 Lorsque vous achetez des articles, le programme copie toujours la valeur du champ **Dernier coût direct** de la fiche article vers le champ **Coût unitaire direct** d’une ligne achat ou vers la ligne **Montant unitaire** sur une ligne feuille article.
 
 L’élément sélectionné dans le champ **Mode d’évaluation du stock** détermine la façon dont [!INCLUDE[prod_short](includes/prod_short.md)] calcule le contenu du champ **Coût unitaire** sur les lignes.
 
-### <a name="costing-method-fifo-lifo-specific-or-average"></a>Modes d’évaluation du stock FIFO, LIFO, spécifique ou moyen
+### Modes d’évaluation du stock FIFO, LIFO, spécifique ou moyen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] calcule la valeur du champ **Coût unitaire DS** sur la ligne achat, ou la valeur du champ **Coût unitaire** sur la ligne feuille article sur la base de cette formule :
 
 *Coût unitaire DS = (Coût unitaire direct - (Montant de la remise/Quantité)) x (1 + % du coût indirect/100) + Frais généraux*
 
-### <a name="costing-method-standard"></a>Mode évaluation stock Standard
+### Mode évaluation stock Standard
 
 Le champ **Coût unitaire DS** sur la ligne achat, ou le champ **Coût unitaire** est renseigné sur la ligne feuille article en copiant la valeur du champ **Coût unitaire** de la fiche article. En utilisant le mode évaluation stock *Standard*, cette valeur repose toujours sur le coût standard.
 
 Lorsque vous validez l’achat, [!INCLUDE[prod_short](includes/prod_short.md)] utilise le coût unitaire de la ligne achat ou de la ligne journal article vers l’écriture facture article d’achat. Vous pouvez le voir sur la liste des entrées pour l’élément.
 
-### <a name="all-costing-methods"></a>Tous les modes évaluation stock
+### Tous les modes évaluation stock
 
 Le programme utilise toujours le coût unitaire de la ligne document origine pour calculer la valeur du champ **Coût total (réel)**, ou éventuellement du champ **Coût total (prévu)** concernant cette écriture article, quel que soit le mode évaluation stock de l’article.
 
-## <a name="unit-cost-calculation-for-sales"></a>Calcul du coût unitaire pour les ventes
+## Calcul du coût unitaire pour les ventes
 
 Lorsque vous vendez des articles, le coût unitaire est copié du champ **Coût unitaire** de la fiche article vers la ligne vente ou la ligne feuille article.
 
 Lorsque vous validez, le programme copie le coût unitaire vers l’écriture article facture vente, et il peut être vu dans la liste d’écritures de l’article. [!INCLUDE[prod_short](includes/prod_short.md)] utilise le coût unitaire de la ligne document origine pour calculer la valeur du champ **Coût total (réel)**, ou éventuellement du champ **Coût total (prévu)** dans l’écriture valeur concernant cette écriture article.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Enregistrement de nouveaux articles](inventory-how-register-new-items.md)  

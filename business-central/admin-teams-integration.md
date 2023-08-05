@@ -2,13 +2,13 @@
 title: "Gestion de l’intégration de Microsoft Teams avec Business\_Central | Microsoft Docs"
 description: "Gérez l’intégration Business\_Central avec Microsoft Teams."
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
-ms.date: 11/03/2022
+ms.date: 02/03/2023
 ms.author: jswymer
+ms.reviewer: jswymer
+ms.custom: bap-template
+ms.service: dynamics365-business-central
 ---
 
 # Gestion de l’intégration de Microsoft Teams à [!INCLUDE [prod_short](includes/prod_short.md)]
@@ -91,10 +91,10 @@ Le centre d’administration Microsoft Teams est l’endroit où vous configurez
     4. Choisissez **Ajouter**.
 
        Business Central doit maintenant apparaître sous **Applications installées** pour la stratégie.
-    5. Configurez tous les paramètres supplémentaires, puis sélectionnez **Enregistrer**.
+    5. Configurez davantage de paramètres le cas échéant, puis choisissez **Enregistrer**.
 
     Pour plus d’informations sur les stratégies de configuration dans Teams, consultez [Gérer les règles de configuration d’application dans Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) dans la documentation Teams.
-4. Revenez à **Déploiement centralisé de l’application Teams** dans Business Central et sélectionnez **Terminé**.
+4. Revenez à **Déploiement centralisé de l’application Teams** dans Business Central et sélectionnez **Terminé**.
 
 > [!IMPORTANT]
 > L’application de la stratégie de configuration de l’application et le déploiement de l’application auprès des utilisateurs peuvent prendre jusqu’à 24 heures.
@@ -126,9 +126,29 @@ Les fonctionnalités de recherche de contenu et de conformité à eDiscovery dan
 
 Parce que les données de la fiche dans Teams sont une copie des données dans [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez aussi utiliser les fonctionnalités [!INCLUDE [prod_short](includes/prod_short.md)] pour exporter les données d’un client si demandé. Pour plus d’informations sur la confidentialité dans [!INCLUDE [prod_short](includes/prod_short.md)], voir [FAQ sur la confidentialité pour les clients Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
+## Afficher ou masquer les données d’enregistrement sur les fiches
+
+Lorsqu’un enregistrement est partagé avec d’autres personnes dans une conversation ou un canal Teams, une fiche avec des champs contenant des données sur l’enregistrement s’affiche. Tous les destinataires peuvent afficher ces données (ou le résumé de l’enregistrement) par défaut, quelles que soient leur licence ou leurs autorisations dans Business Central. Si vous êtes un administrateur, vous pouvez utiliser le guide de configuration assistée **Paramètres de la fiche** pour masquer le résumé de l’enregistrement afin qu’il n’apparaisse pas sur les fiches dans Teams. Masquer le résumé de l’enregistrement supprime tous les champs et images, mais continue d’afficher le bouton **Détails** et d’autres informations non liées à l’enregistrement sur la fiche.
+
+|Résumé de l’enregistrement activé|Résumé de l’enregistrement désactivé|
+|-|-|
+|![Image qui montre une fiche dans Teams lorsque le résumé de l’enregistrement est activé.](media/card-settings-example-on.png)|![Image qui montre une fiche dans Teams lorsque le résumé de l’enregistrement est désactivé.](media/card-settings-example-off.png)|
+
+Vous configurez le paramètre par environnement. Ainsi, lorsque vous activez ou désactivez le résumé de l’enregistrement, cela affecte toutes les entreprises de l’environnement.
+
+1. Dans Business Central, ouvrez l’environnement que vous souhaitez modifier.
+
+   > [!TIP]
+   > Pour changer d’environnement, sélectionnez <kbd>Ctrl</kbd>+<kbd>O</kbd>.
+2. Sélectionnez l’icône en forme ![de loupe qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres de la fiche**, puis choisissez le lien associé. <!--Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.-->
+3. Lisez les informations sur les **Paramètres de la fiche**, puis choisissez **Suivant** lorsque vous êtes prêt.
+4. Sur la page **Visibilité des données**, activez le commutateur **Afficher le résumé de l’enregistrement** pour afficher les données sur les fiches ou désactivez-les pour cacher les données.
+5. Sélectionnez **Suivant** et suivez les instructions pour terminer le guide de configuration.
+
 ## Voir aussi
+
 [Vue d’ensemble de l’intégration [!INCLUDE [prod_short](includes/prod_short.md)] et Microsoft Teams ](across-teams-overview.md)  
-[Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)  
+[Installation de l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)  
 [FAQ Teams](teams-faq.md)  
 [Résolution des incidents dans Teams](admin-teams-troubleshooting.md)  
 [Développement pour l’intégration de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  

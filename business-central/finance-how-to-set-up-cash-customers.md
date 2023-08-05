@@ -10,11 +10,11 @@ ms.search.form: '21, 22'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="set-up-cash-customers"></a>Configurer des clients effectuant un achat au comptoir
+# Configurer des clients effectuant un achat au comptoir
 
 Vous ne pouvez pas créer une facture sans numéro de client. Ceci est valable même si vous effectuez une vente au comptoir et que vous n’avez rien à enregistrer dans un compte client.  
 
-## <a name="to-set-up-a-cash-customer"></a>Pour configurer des clients effectuant un achat en espèces
+## Pour configurer des clients effectuant un achat en espèces
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Client**, puis choisissez le lien associé.  
 2. Créez une fiche **Client**. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).
@@ -29,7 +29,7 @@ Vous ne pouvez pas créer une facture sans numéro de client. Ceci est valable m
 >
 > Vous devez saisir le numéro d’un compte client pour le groupe comptabilisation, même si le solde de ce compte est toujours de 0 après la validation d’une facture.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Enregistrer de nouveaux clients](sales-how-register-new-customers.md)

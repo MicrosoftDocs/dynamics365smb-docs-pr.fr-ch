@@ -11,7 +11,7 @@ ms.search.form: '3010531, 3010532'
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# <a name="print-esr-invoices-in-the-swiss-version"></a>Imprimer des factures ESR dans la version suisse
+# Imprimer des factures ESR dans la version suisse
 
 Vous pouvez imprimer un bordereau paiement Einzahlungsschein mit Referenznummer (ESR) des façons suivantes :  
 
@@ -25,7 +25,7 @@ L'état ESR de la facture de vente correspond à la facture de vente accompagné
 
 La procédure suivante décrit comment imprimer des factures vente ESR, mais les mêmes étapes s'appliquent également pour imprimer des coupons ESR.  
 
-## <a name="to-print-esr-invoices"></a>Pour imprimer des factures ESR
+## Pour imprimer des factures ESR  
 
 1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Facture ESR**, puis sélectionnez le lien associé.  
 2. Dans le traitement par lots **Facture vente ESR**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
@@ -41,7 +41,7 @@ La procédure suivante décrit comment imprimer des factures vente ESR, mais les
 
 Vous pouvez également réimprimer l'état ESR de la facture vente ou l'état du coupon ESR vente.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
  [Paiements électroniques à l'aide de ESR, Suisse](swiss-electronic-payments-using-esr.md)   
  [Importer des paiements ESR](how-to-import-esr-payments.md)
 

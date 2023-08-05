@@ -11,7 +11,7 @@ ms.search.form: '389, 1290, 1294, 1287'
 ms.date: 06/22/2022
 ms.author: bholtorf
 ---
-# <a name="reconcile-payments-using-automatic-application"></a>Rapprocher les paiements à l’aide de l’application automatique
+# Rapprocher les paiements à l’aide de l’application automatique
 
 La page **Journal de rapprochement bancaire** précise les paiements, entrants ou sortants, qui ont été enregistrés comme des transactions sur votre compte bancaire en ligne ou sur un service de paiement. Vous pouvez appliquer les paiements aux écritures comptables client, fournisseur et compte bancaire ouvertes associées. Complétez le journal en important un relevé bancaire en tant que flux ou fichier bancaire ou en saisissant manuellement les transactions que vous effectuez sur votre service de paiement.
 
@@ -43,7 +43,7 @@ Pour chaque ligne feuille de la page **Feuille rapprochement bancaire**, vous po
 > [!NOTE]  
 > Vous pouvez lancer l’importation des transactions bancaires en même temps que vous ouvrez la page **Feuille rapprochement bancaire** pour une feuille existante. La procédure suivante décrit comment importer des transactions bancaires sur la page **Feuille rapprochement bancaire** après avoir créé une nouvelle feuille.
 
-## <a name="to-reconcile-payments-using-automatic-application"></a>Pour rapprocher les paiements à l’aide du lettrage automatique
+## Pour rapprocher les paiements à l’aide du lettrage automatique
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles rapprochement bancaire**, puis sélectionnez le lien associé.
 2. Pour travailler dans une nouvelle feuille rapprochement bancaire, sélectionnez l’action **Nouvelle feuille**.
 3. Sur la page **Liste comptes bancaires paiement**, sélectionnez le compte bancaire pour lequel vous voulez rapprocher des paiements, puis cliquez sur le bouton **OK**.
@@ -88,9 +88,9 @@ Vous pouvez comparer la valeur du champ **Solde sur compte bancaire après valid
 > [!NOTE]  
 >   Si vous ne souhaitez pas rapprocher le compte bancaire à partir de la page **Feuille rapprochement bancaire**, vous devez utiliser la page **Rapprochement bancaire**. Pour plus d’informations, voir [Rapprocher des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/use-journals-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/use-journals-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  

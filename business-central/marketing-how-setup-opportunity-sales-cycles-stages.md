@@ -11,7 +11,7 @@ ms.search.forms: '5122, 5121, 5120, 5175, 5119, 5098, 5096'
 ms.date: 05/27/2022
 ms.author: jswymer
 ---
-# <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Configurer des cycles de vente opportunité et des étapes de cycle
+# Configurer des cycles de vente opportunité et des étapes de cycle
 
 Avant d’utiliser les opportunités de vente, vous devez configurer les cycles de vente et les étapes correspondantes. Un cycle de vente est composé d’une série d’étapes allant du contact initial à la fermeture d’une vente. Pour chaque étape, vous définissez les exigences à respecter, par exemple exiger un devis, avant qu’une opportunité puisse accéder à l’étape suivante. Vous pouvez également spécifier si une étape peut être ignorée. Vous pouvez créer autant de cycles de vente que nécessaire. Vous pouvez configurer autant d’étapes de cycle de vente que nécessaire dans un cycle de vente.
 
@@ -19,25 +19,25 @@ Pour utiliser des cycles de vente opportunité, vous devez configurer le cycle d
 
 Cet article décrit également comment configurer des tâches et les activités, et comment affecter des tâches aux activités. Pour plus d’informations, voir [Pour configurer des activités avec des tâches](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
 
-## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Pour configurer des cycles de vente opportunité
+## Pour configurer des cycles de vente opportunité
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Cycles vente**, puis sélectionnez le lien associé. La page **Cycles de vente** s’affiche, et répertorie tous les cycles de vente existants.
 2. Sélectionnez l’action **Nouveau**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Répétez ces étapes pour chaque cycle de vente à configurer. Une fois les cycles de vente opportunité configurés, vous pouvez définir les différentes étapes de chaque cycle.
 
-## <a name="to-define-opportunity-sales-cycle-stages"></a>Pour définir les étapes du cycle de vente opportunité
+## Pour définir les étapes du cycle de vente opportunité
 
 1. Sur la page **Cycles de vente**, sélectionnez le cycle de vente opportunité pour lequel vous souhaitez définir des étapes, puis sélectionnez l’action **Etapes**. La page **Etapes cycle de vente** s’affiche.
 2. Sélectionnez l’action **Nouveau** pour intégrer une nouvelle étape dans le cycle de vente.
 
 Répétez ces étapes pour définir toutes les étapes du cycle de vente.
 
-## <a name="to-assign-stage-cycles-to-opportunities"></a>Pour affecter des cycles d’étapes à des opportunités
+## Pour affecter des cycles d’étapes à des opportunités
 
 Après avoir ajouté le cycle d’étapes opportunité, vous pouvez commencer à ajouter des opportunités de vente, puis affecter le cycle d’étapes aux opportunités en définissant le champ **Code cycle de vente**. Pour plus d’informations, voir [Créer des opportunités de vente](marketing-how-create-opportunities.md).
 
-## <a name="to-set-up-activities-with-tasks"></a>Pour configurer des activités avec des tâches
+## Pour configurer des activités avec des tâches
 
 Vous pouvez combiner plusieurs tâches, par exemple les tâches qui représentent chacune une étape, dans les activités. Les tâches d’activité sont liées entre elles par une formule de date. Vous pouvez affecter des activités aux opportunités, aux vendeurs, ou aux contacts.
 
@@ -45,7 +45,7 @@ Vous pouvez combiner plusieurs tâches, par exemple les tâches qui représenten
 2. Sélectionnez l’action **Nouveau**, puis renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 3. Sur le raccourci **Lignes**, renseignez les champs nécessaires pour définir une ou plusieurs tâches dans l’activité.
 
-## <a name="to-assign-tasks-or-activities-of-tasks-to-opportunities"></a>Pour affecter des tâches ou des activités de tâches liées aux opportunités
+## Pour affecter des tâches ou des activités de tâches liées aux opportunités
 
 Lorsque vous avez créé une tâche, vous pouvez l’affecter à une opportunité de vente et affecter ainsi l’activité à laquelle la tâche appartient.
 
@@ -65,7 +65,7 @@ La procédure suivante explique comment affecter des tâches d’activité à de
 6. Sur la page **Liste des tâches**, sélectionnez la nouvelle tâche, puis sélectionner l’action **Affecter activités**.
 7. Sur la page **Affecter activités**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Traitement des opportunités de vente](marketing-processing-sales-opportunities.md)  
 [Ventes](sales-manage-sales.md)  

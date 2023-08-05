@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# <a name="generate-delivery-reminders-in-the-swiss-version"></a>Générer des relances livraison dans la version suisse
+# Générer des relances livraison dans la version suisse
 
 [!INCLUDE [delivery-reminders-generate](../includes/ATCHDE/delivery-reminders-generate.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)  
 [Configurer des relances livraison](how-to-set-up-delivery-reminders.md)  

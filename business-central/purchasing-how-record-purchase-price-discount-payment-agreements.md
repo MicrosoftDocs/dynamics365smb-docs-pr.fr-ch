@@ -11,7 +11,7 @@ ms.search.form: '26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="record-special-purchase-prices-and-discounts"></a>Enregistrer les prix d’achat spéciaux et les remises
+# Enregistrer les prix d’achat spéciaux et les remises
 
 > [!NOTE]
 > Dans la deuxième vague de lancement de 2020, nous avons lancé des processus rationalisés pour la configuration et la gestion des prix et des remises. Si vous êtes un nouveau client utilisant cette version, vous utilisez la nouvelle expérience. Si vous êtes un client existant, l’utilisation ou non de la nouvelle expérience dépend du fait que votre administrateur a activé ou non la fonctionnalité **Nouvelle tarification des ventes** dans **Gestion des fonctionnalités**. Pour plus d’informations, consultez [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -31,7 +31,7 @@ En ce qui concerne les remises, vous pouvez définir et utiliser deux types de r
 
 Dans la mesure où les remises ligne achat et les prix achat sont basés sur une combinaison article/fournisseur, vous pouvez également effectuer cette configuration à partir de la fiche article dans laquelle sont définies les règles et valeurs. Pour plus d’informations, reportez-vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 
-## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Pour configurer un prix d’achat spécial pour un fournisseur
+## Pour configurer un prix d’achat spécial pour un fournisseur
 
 #### [Expérience actuelle](#tab/current-experience)
 
@@ -54,7 +54,7 @@ Dans la mesure où les remises ligne achat et les prix achat sont basés sur une
 
 ---
 
-## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Pour configurer une remise ligne pour un fournisseur
+## Pour configurer une remise ligne pour un fournisseur
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Fournisseurs**, puis choisissez le lien associé.
 2. Ouvrez la fiche fournisseur appropriée, puis sélectionnez l’action **Remises ligne**.
@@ -63,7 +63,7 @@ Dans la mesure où les remises ligne achat et les prix achat sont basés sur une
 3. Renseignez les champs de la ligne selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Remplissez une ligne pour chaque combinaison pour laquelle le fournisseur vous accorde une remise ligne achat.
 
-## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Pour configurer une remise facture pour un fournisseur
+## Pour configurer une remise facture pour un fournisseur
 
 Une fois que vos fournisseurs vous ont informé des remises facture qu’ils accordent, entrez le code remise facture sur la fiche fournisseur et configurez les conditions pour chaque code.
 
@@ -83,7 +83,7 @@ Une fois que vos fournisseurs vous ont informé des remises facture qu’ils acc
 
 La remise facture est désormais configurée et affectée au fournisseur concerné. Lorsque vous sélectionnez le code fournisseur dans le champ **Code remise facture** dans d’autres fiches fournisseur, la même remise facture est affecté à ces fournisseurs.
 
-## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>Pour sélectionner un principe de validation des remises à l’achat
+## Pour sélectionner un principe de validation des remises à l’achat
 
 Lorsque vous validez une facture achat qui comprend une ou plusieurs remises, vous pouvez choisir entre deux principes de validation des montants remise. Vous pouvez valider des remises indépendamment ou les soustraire des remises facture.  
 
@@ -99,7 +99,7 @@ Avant cela, vous devez avoir configuré les comptes nécessaires pour valider de
 |**Remises ligne**|Soustraction|Validation séparée|  
 |**Remises déduites**|Soustraction|Soustraction|  
 
-## <a name="purchase-invoice-discounts-and-service-charges"></a>Remises facture achat et frais forfaitaires
+## Remises facture achat et frais forfaitaires
 
 Si vous avez défini des conditions pour les remises facture avec des fournisseurs, vous pouvez les saisir dans le système. Le programme peut ensuite calculer la remise lorsque vous renseignez une facture achat.  
 
@@ -116,7 +116,7 @@ Vous avez la possibilité de choisir si [!INCLUDE[prod_short](includes/prod_shor
 > [!TIP]  
 > Avant de saisir ces informations dans le programme, il est conseillé de préparer la structure de la remise à utiliser. Ainsi, vous pouvez visualiser plus facilement les fournisseurs pouvant être liés à la même page de remise facture. Plus le nombre de page à configurer est faible, plus vous pouvez saisir rapidement les informations de base.
 
-## <a name="best-price-calculation"></a>Calcul du meilleur prix
+## Calcul du meilleur prix
 
 Lorsque vous avez enregistré des prix spéciaux et des remises de ligne pour les ventes et les achats, [!INCLUDE[prod_short](includes/prod_short.md)] s’assure que votre marge pour l’article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article.
 
@@ -139,9 +139,9 @@ Le meilleur prix est le prix le plus bas autorisé associé à la remise de lign
 
 Si aucun prix spécial ne peut être calculé pour l’article de la ligne, alors soit le coût unitaire direct, soit le prix unitaire à partir de la fiche article est inséré.
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index) associée
+## Voir la [formation Microsoft](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Achats](purchasing-manage-purchasing.md)  

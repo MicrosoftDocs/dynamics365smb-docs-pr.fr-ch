@@ -350,6 +350,7 @@
 
 ### Gestion de la TVA
 #### [Vue d’ensemble de la gestion de la TVA](finance-manage-vat.md)
+#### [Transactions d’achat de tiers dans l’UE](finance-how-to-eu3party-trade-purchase.md)
 #### Configuration de la TVA
 ##### [Configuration de la TVA (taxe sur la valeur ajoutée)](finance-setup-vat.md)
 ##### [Configuration du groupe comptabilisation](finance-posting-groups.md#tax-posting-groups)

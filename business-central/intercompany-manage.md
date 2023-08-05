@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ---
-# <a name="managing-intercompany-transactions"></a>Gestion des transactions intersociétés
+# Gestion des transactions intersociétés
 
 Les entreprises ayant plus d’une entité juridique avec des fonctions comptables distinctes peuvent bénéficier de transactions intersociétés. Par exemple, il est utile pour les entreprises qui ont des filiales sur plusieurs marchés ou régions internationaux. Ou, une organisation peut comprendre plusieurs sociétés, mais pourrait ne pas disposer du nombre équivalent d’équipes comptables et administratives. Les transactions intersociétés vous permettent de simplifier et de rationaliser les processus et les transactions commerciaux entre les sociétés dans le cadre du partenariat intersociétés.
 
@@ -23,7 +23,7 @@ La fonctionnalité Intersociétés offre quatre grands avantages :
 * Piste d’audit et visibilité complètes des activités commerciales et des historiques de transactions  
 * Transactions efficaces, rentables avec des filiales ou des succursales  
 
-## <a name="streamline-the-flow-of-business-activities"></a>Rationaliser le flux des activités commerciales
+## Rationaliser le flux des activités commerciales  
 
 Les transactions intersociétés vous permettent de distribuer des documents vente et achat, ainsi que des écritures feuille comptabilité à l’ensemble de vos bureaux satellites, représentations commerciales ou succursales depuis le programme. La distribution des transactions permet de gagner du temps et d’augmenter l’efficacité dans toute l’organisation en réduisant la saisie de données. Il réduit le besoin d’envoyer, de recevoir, d’imprimer et d’archiver des documents de vente et d’achat.  
 
@@ -68,14 +68,14 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Organisez et traitez les transactions entrantes et sortantes que vous échangez avec vos partenaires intersociétés.|[Gérer la boîte de réception et la boîte d’envoi intersociétés](intercompany-how-manage-intercompany-inbox.md)|
 |Utilisez les transactions intersociétés pour répartir les coûts entre les sociétés partenaires.|[Allouer les coûts aux partenaires intersociétés](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

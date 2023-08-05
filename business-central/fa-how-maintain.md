@@ -11,7 +11,7 @@ ms.search.form: '5642, 5625'
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="maintain-fixed-assets"></a>Mettre à jour des immobilisations
+# Mettre à jour des immobilisations
 
 Les frais de maintenance sont des coûts périodiques de routine engagés pour préserver la valeur des immobilisations. Contrairement aux améliorations de capital, ils n’augmentent pas les valeurs.
 
@@ -19,7 +19,7 @@ Vous pouvez enregistrer et mettre à jour un fichier sur la maintenance et l’e
 
 L’actualisation permet d’ajuster des valeurs en fonction de modifications générales de niveau de prix. Le traitement par lots **Réévaluer immobilisations** permet de recalculer les coûts de maintenance.
 
-## <a name="to-record-maintenance-work-on-a-fixed-asset"></a>Pour enregistrer les travaux de maintenance sur une immobilisation
+## Pour enregistrer les travaux de maintenance sur une immobilisation
 
 Vous pouvez enregistrer chaque tâche de maintenance, telle qu’une visite de service, effectuée pour une immobilisation donnée. Pour cela, utilisez la page **Saisie de la maintenance**.  
 
@@ -27,7 +27,7 @@ Vous pouvez enregistrer chaque tâche de maintenance, telle qu’une visite de s
 2. Sélectionnez l’immobilisation pour laquelle vous souhaitez enregistrer la maintenance, puis sélectionnez l’action **Saisie de la maintenance**.
 3. Sur la page **Saisie de la maintenance**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Pour valider les coûts de maintenance à partir d’une feuille comptabilisation immobilisation
+## Pour valider les coûts de maintenance à partir d’une feuille comptabilisation immobilisation
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Liste de la loi d’amortissement**, puis choisissez le lien associé.  
 2. Sélectionnez la loi d’amortissement qui est attribuée à une immobilisation, puis sélectionnez l’action **Modifier**.
@@ -41,7 +41,7 @@ Vous pouvez enregistrer chaque tâche de maintenance, telle qu’une visite de s
     >   L’étape 7 ne fonctionne que si vous avez configuré ce qui suit : sur la page **Fiche groupe compta. immo.** du groupe de validation de l’immobilisation, le champ **Compte maintenance** contient le compte débit général et le champ **Compte contrepartie maintenance** contient le compte général dans lequel vous souhaitez valider les écritures contrepartie pour réévaluation. Pour plus d’informations, reportez vous à [Pour configurer des groupes de validation immobilisation](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Sélectionnez l’action **Valider**.
 
-## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Pour effectuer le suivi des visites d’entretien des immobilisations
+## Pour effectuer le suivi des visites d’entretien des immobilisations
 
 Vous pouvez imprimer l’état **Maintenance - Service suivant** afin de connaître les immobilisations pour lesquelles vous avez programmé une visite de service. Vous pouvez également utiliser cet état lorsque vous mettez à jour le champ **Date prochain service** des fiches immobilisation.  
 
@@ -49,7 +49,7 @@ Vous pouvez imprimer l’état **Maintenance - Service suivant** afin de connaî
 2. Renseignez les champs **Date début** et **Date fin**.  
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.
 
-## <a name="to-monitor-maintenance-costs"></a>Pour surveiller les coûts de maintenance
+## Pour surveiller les coûts de maintenance
 
 Vous pouvez visualiser les coûts de maintenance lorsque vous consultez les statistiques d’une immobilisation.  
 
@@ -60,7 +60,7 @@ Vous pouvez visualiser les coûts de maintenance lorsque vous consultez les stat
 
 La page **Écritures comptables maintenance** s’ouvre, affichant les écritures qui constituent le montant dans le champ **Maintenance**.
 
-## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Pour afficher ou imprimer les coûts de maintenance pour plusieurs immobilisations
+## Pour afficher ou imprimer les coûts de maintenance pour plusieurs immobilisations
 
 Dans l’état **Maintenance - Analyse**, vous pouvez choisir de visualiser la maintenance sur un, deux ou trois codes maintenance pour une date ou une période donnée. Vous pouvez également visualiser soit le total de toutes les immobilisations sélectionnées, soit celui de chaque immobilisation.
 
@@ -68,7 +68,7 @@ Dans l’état **Maintenance - Analyse**, vous pouvez choisir de visualiser la m
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.
 
-## <a name="to-view-maintenance-ledger-entries"></a>Pour visualiser des écritures comptables maintenance
+## Pour visualiser des écritures comptables maintenance
 
 Vous pouvez également étudier les coûts de maintenance en visualisant les écritures comptables.  
 
@@ -76,7 +76,7 @@ Vous pouvez également étudier les coûts de maintenance en visualisant les éc
 2. Sélectionnez l’immobilisation pour laquelle vous souhaitez afficher les écritures comptables, puis sélectionnez l’action **Lois d’amortissement**.
 3. Sur la page **Écritures comptables maintenance**, sélectionnez la loi d’amortissement immobilisation pertinente, puis l’action **Statistiques**.
 
-## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Pour afficher ou imprimer les écritures comptables de maintenance pour plusieurs immobilisations
+## Pour afficher ou imprimer les écritures comptables de maintenance pour plusieurs immobilisations
 
 Dans l’état **Maintenance - Détails**, vous pouvez afficher ou imprimer les écritures comptables de maintenance pour un ou plusieurs actifs.  
 
@@ -84,9 +84,9 @@ Dans l’état **Maintenance - Détails**, vous pouvez afficher ou imprimer les 
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/) associée
+## Voir la [formation Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [COMPTES D’IMMOBILISATIONS](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  

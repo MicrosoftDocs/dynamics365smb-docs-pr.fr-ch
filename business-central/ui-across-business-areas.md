@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
 ---
-# <a name="general-business-functionality"></a>Fonctionnalités marché
+# Fonctionnalités marché
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités dédiées pour les domaines d’activité courants, tels que la finance et les ventes. Pour plus d’informations, voir [Fonctionnalités d’entreprise](across-business-functionality.md).
 
@@ -45,11 +45,11 @@ Le tableau suivant répertorie ces secteurs d’activité généraux avec des li
 | Configurer les définitions d’échange de données afin de pouvoir envoyer et recevoir des documents électroniques. |[Échanger des données par voir électronique](across-data-exchange.md) |
 | Utilisez des cartes en ligne pour trouver des emplacements et des itinéraires vers des clients, des fournisseurs et des adresses en général. | [Utilisez des cartes en ligne pour trouver des emplacements et des directions](across-online-maps.md) |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administration](admin-setup-and-administration.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

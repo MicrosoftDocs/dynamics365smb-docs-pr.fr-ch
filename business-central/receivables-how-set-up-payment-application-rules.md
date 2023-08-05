@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments"></a>Définir des règles pour le lettrage automatique des paiements
+# Définir des règles pour le lettrage automatique des paiements
 
 Sur la page **Règles de lettrage de paiement**, vous définissez des règles pour définir comment le texte de paiement (sur une transaction bancaire) doive être automatiquement mis en correspondance avec le texte sur les factures (impayées), les avoirs ou d’autres entrées associées lorsque vous utilisez la fonction **Lettrer automatiquement** sur la page **Feuille rapprochement bancaire**. Pour plus d’informations, voir [Rapprocher les paiements à l’aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 
@@ -29,7 +29,7 @@ Outre les critères de correspondance, les remarques suivantes s’appliquent co
 - Pour les montants négatifs, une correspondance est d’abord établie par rapport aux écritures ouvertes représentant les factures client, et ensuite par rapport aux avoirs fournisseur.
 - Pour les montants positifs, une correspondance d’abord établie par rapport aux écritures ouvertes représentant les factures fournisseur, et ensuite par rapport aux avoirs client.
 
-## <a name="to-set-up-a-payment-application-rule"></a>Pour définir une règle de lettrage de paiement
+## Pour définir une règle de lettrage de paiement
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Règles de lettrage des paiements**, puis choisissez le lien associé.
 2. Définissez une règle de lettrage de paiement, nouvelle ou modifiée, en renseignant les champs sur une ligne tel que décrit dans le tableau suivant.
 
@@ -74,9 +74,9 @@ Le tableau suivant décrit les règles de lettrage de paiement standard dans [!I
 | Mauvaises              | 4        | Non                    | Non                             | Une correspondance                      |
 | Mauvaises              | 5        | Non                    | Non                             | Correspondances multiples               |
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/reconciliation-journals-dynamics-365-business-central/index) associée
+## Voir la [formation Microsoft](/training/modules/reconciliation-journals-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Rapprocher les paiements à l’aide de l’application automatique](receivables-how-reconcile-payments-auto-application.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  

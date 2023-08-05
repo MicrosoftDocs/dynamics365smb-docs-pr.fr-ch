@@ -10,13 +10,13 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# <a name="incoming-documents"></a>Documents entrants
+# Documents entrants
 
 Les documents provenant d’entreprises externes peuvent arriver dans votre société sous forme de pièce jointe à un e-mail, ou de copie papier que vous pouvez scanner vers un fichier. Ce scénario est classique dans le cas des achats, lorsque ces fichiers de documents entrants sont des reçus de paiements pour des dépenses ou de petits achats.
 
 Sur la page **Documents entrants**, vous pouvez utiliser différentes fonctions pour examiner les reçus de dépenses, gérer les tâches ROC et convertir les fichiers document entrants, manuellement ou automatiquement, en documents ou lignes feuille appropriés. Les fichiers externes peuvent être joints à n’importe quelle étape du processus, notamment en ce qui concerne les documents validés et au fournisseur, au client qui en résulte, et dans les écritures comptables.
 
-## <a name="usage-scenario"></a>Scénario d’utilisation
+## Scénario d’utilisation
 
 Vous pouvez enregistrer les fichiers ou copies papier reçus de vos partenaires commerciaux dans [!INCLUDE[prod_short](includes/prod_short.md)] et créer un enregistrement de document. Par exemple, une facture achat ou vente, un avoir ou une ligne feuille.
 
@@ -30,7 +30,7 @@ Par exemple, lorsque vous recevez une facture au format PDF de votre fournisseur
 > [!TIP]
 > Créez des enregistrements de documents entrants dans [!INCLUDE[prod_short](includes/prod_short.md)] directement à partir des e-mails envoyés par les fournisseurs à l’aide du complément Outlook. Pour plus d’informations, voir [Utiliser Business Central en tant que boîte de réception professionnelle dans Outlook](work-outlook-addin.md).
 
-## <a name="incoming-document-features"></a>Fonctionnalités de document entrant
+## Fonctionnalités de document entrant
 
 Le processus de document entrant est composé des activités principales suivantes :
 
@@ -57,9 +57,9 @@ Le processus de document entrant est composé des activités principales suivant
 | Depuis les pages **Plan comptable** et **Écritures comptables**, utiliser la fonction de recherche pour rechercher les écritures comptables pour des documents validés qui n’ont pas d’enregistrement de document entrant, puis les lier de façon centralisée à des enregistrements existants ou en créer de nouveaux avec des fichiers joints. |[Rechercher des enregistrements validés sans enregistrements document entrant](across-how-find-posted-documents-without-income-document-records.md) |
 | Obtenir une meilleure vue d’ensemble en définissant les enregistrements de document entrant sur *Traité* afin de les supprimer de la vue par défaut. |[Gérer de nombreux enregistrements document entrant](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Achats](purchasing-manage-purchasing.md)  
 [Modifier les documents validés](across-edit-posted-document.md)  
