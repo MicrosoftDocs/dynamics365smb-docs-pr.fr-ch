@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
 ---
-# Créer des flux de travail pour connecter des tâches aux processus entreprise
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Créer des flux de travail pour connecter des tâches aux processus entreprise
 
 Vous pouvez créer des flux de travail qui connectent des tâches aux processus entreprise exécutées par différents utilisateurs. Vous pouvez inclure des tâches système, telles que la validation automatique, comme étapes du flux de travail qui sont précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du flux de travail.  
 
@@ -42,7 +42,7 @@ Un flux de travail est divisé en trois sections :
 
 Les options pour les événements et les réponses sont définies par le système. Pour ajouter de nouvelles options, vous devrez développer une extension.
 
-## Pour créer un flux de travail
+## <a name="to-create-a-workflow"></a>Pour créer un flux de travail
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Flux de travail**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. La page **Flux de travail** s’ouvre.  
@@ -113,7 +113,7 @@ Les options pour les événements et les réponses sont définies par le systèm
 > [!TIP]  
 > Pour explorer les relations entre les tables utilisées dans les flux de travail, choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") puis entrez **Flux de travail - Relations de table**.  
 
-## Exemple de création d’un nouveau flux de travail à l’aide d’événements existants
+## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Exemple de création d’un nouveau flux de travail à l’aide d’événements existants
 
 L’exemple suivant crée un flux de travail pour approuver une modification du nom d’un fournisseur :
 
@@ -172,9 +172,9 @@ L’illustration suivante donne un aperçu du résultat de cette procédure.
 
 Ensuite, testez le flux de travail en ouvrant une fiche fournisseur existante et en changeant son nom. Vérifiez qu’une demande d’approbation est envoyée après la modification du nom du fournisseur.
 
-## Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/create-workflows/) associée
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)  
 [Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md)  

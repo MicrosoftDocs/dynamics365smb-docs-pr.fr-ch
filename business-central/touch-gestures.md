@@ -11,7 +11,7 @@ ms.date: 04/29/2021
 ms.author: jswymer
 ---
 
-# Gestes tactiles et au stylet pour tablettes et téléphones 
+# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Gestes tactiles et au stylet pour tablettes et téléphones
 
 Cet article fournit certains gestes spéciaux que vous pouvez utiliser lorsque vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur tablette ou téléphone.
 
@@ -30,7 +30,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Référence rapide de raccourcis clavier – PC uniquement](keyboard-shortcuts-cheatsheet.md)  
 [Fonctionnalités d’assistance](ui-accessibility.md)  

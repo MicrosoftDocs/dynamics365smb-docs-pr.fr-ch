@@ -11,7 +11,7 @@ ms.search.forms: '5703, 15'
 ms.date: 03/25/2023
 ms.author: bholtorf
 ---
-# Configurer des magasins
+# <a name="set-up-locations"></a>Configurer des magasins
 
 Les magasins sont des endroits tels que des entrepôts où vous achetez, stockez ou vendez des articles. [!INCLUDE [prod_short](includes/prod_short.md)] utilise des magasins pour aider à suivre les stocks dans les cas simples et complexes dans les processus d’entrepôt.
 
@@ -20,7 +20,7 @@ Vous pouvez ensuite créer des lignes de document pour un magasin spécifique, v
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
-## Fiches magasin
+## <a name="location-cards"></a>Fiches magasin
 
 Vous spécifiez des informations sur un magasin, par exemple un entrepôt ou un centre de distribution sur la page **Fiche magasin**. Affectez un nom et un code représentatifs à chaque magasin. Il vous suffit ensuite de saisir le code magasin dans d’autres parties du programme lorsque vous souhaitez enregistrer les transactions d’un magasin en particulier.  
 
@@ -30,7 +30,7 @@ Certains champs d’option dépendent des paramètres dans la page **Fiche magas
 
 Choisissez les actions **Zones** ou **Emplacements** pour visualiser des informations sur les zones et les emplacements sont définis pour le magasin.
 
-### Pour configurer un magasin
+### <a name="to-set-up-a-location"></a>Pour configurer un magasin
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Magasins**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
@@ -44,7 +44,7 @@ Vous pouvez modifier la configuration d’un emplacement tant qu’il n’a pas 
 
 Si vous avez plusieurs magasins, vous pouvez définir des acheminements transfert entre les magasins. Pour en savoir plus sur les itinéraires de transfert, accédez à [Pour créer un itinéraire de transfert](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
-### Pour créer un acheminement transfert
+### <a name="to-create-a-transfer-route"></a>Pour créer un acheminement transfert
 
 1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  saisissez **Acheminements de transfert**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
@@ -52,7 +52,7 @@ Si vous avez plusieurs magasins, vous pouvez définir des acheminements transfer
 
 Vous pouvez à présent transférer des articles en stock entre deux magasins. Pour en savoir plus sur les transferts, accédez à [Transférer le stock entre les magasins](inventory-how-transfer-between-locations.md).
 
-## Emplacements
+## <a name="bins"></a>Emplacements
 
 Les emplacements représentent la structure de base de l’entrepôt et peuvent suggérer où placer les articles. Vos emplacements peuvent avoir du contenu ou être flottants sans contenu spécifique.
 
@@ -61,11 +61,11 @@ Pour utiliser la fonctionnalité d’emplacement liée au magasin, vous devez d�
 > [!NOTE]
 > Avant de pouvoir spécifier les codes emplacement sur un magasin, vous devez les créer. Pour en savoir plus sur les emplacements, accédez à [Créer des emplacements](warehouse-how-to-create-individual-bins.md) et [Configurer les types d’emplacements](warehouse-how-to-set-up-bin-types.md).  
 
-## Zones
+## <a name="zones"></a>Zones
 
 Si vous souhaitez structurer vos emplacements en zones, vous pouvez le faire dans la page **Zones**. Lorsque vous affectez une zone à des emplacements, [!INCLUDE [prod_short](includes/prod_short.md)] copie les informations de la zone vers les emplacements. Vous pouvez également choisir de configurer une zone et d’utiliser des emplacements seuls pour organiser votre entrepôt. Pour en savoir plus sur les zones, accédez à [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).  
 
-## Axes analytiques par défaut pour les magasins
+## <a name="default-dimensions-for-locations"></a>Axes analytiques par défaut pour les magasins
 
 Les axes analytiques sont des valeurs qui permettent de catégoriser les écritures afin de pouvoir les suivre et les analyser avec différents outils de création de rapports. Par exemple, les axes analytiques peuvent indiquer le service ou le projet dont est issue une écriture. Le fait d’avoir des axes analytiques par défaut aide les gens à éviter de faire des erreurs et d’avoir à saisir manuellement les axes analytiques au niveau de la transaction si toutes les marchandises proviennent d’un seul magasin et d’un même service.
 
@@ -81,7 +81,7 @@ Au besoin, vous pouvez supprimer ou modifier les axes analytiques sur les lignes
 
 Puisque les documents d’ordre transfert et les feuilles de reclassement traitent de plusieurs magasins, l’ordre dans lequel vous saisissez les données est important. Les axes analytiques par défaut sont copiés à partir du dernier champ d’emplacement (l’emplacement en transit est ignoré).
 
-### Exemple des axes analytiques par défaut sur les emplacements
+### <a name="example-of-default-dimensions-on-locations"></a>Exemple des axes analytiques par défaut sur les emplacements
 
 Les exemples suivants illustrent comment l’axe analytique par défaut est utilisé.
 
@@ -104,9 +104,9 @@ Vous remplissez les champs dans l’ordre inverse, comme suit :
 
 L’axe analytique ADM est copié à partir du magasin EST.
 
-## Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion du stock](inventory-manage-inventory.md)  
 [Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)  

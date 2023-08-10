@@ -11,13 +11,13 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# Envoyer des rappels de soldes impayés
+# <a name="send-reminders-of-outstanding-balances"></a>Envoyer des rappels de soldes impayés
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Voir la [formation Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) associée
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
 [Configurer plusieurs taux d’intérêt pour les paiements retardés](finance-how-to-set-up-multiple-interest-rates.md)  

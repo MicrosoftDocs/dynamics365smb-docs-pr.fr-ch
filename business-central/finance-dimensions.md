@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'analysis, history, track, business intelligence'
 ms.search.form: '408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253'
 ---
-# Utiliser les axes analytiques
+# <a name="work-with-dimensions"></a>Utiliser les axes analytiques
 
 Les axes analytiques sont des valeurs qui permettent de catégoriser les écritures afin de pouvoir les suivre et les analyser sur les documents, tels que les commandes vente. Ils peuvent par exemple indiquer de quel projet ou département provient une écriture.  
 
@@ -24,7 +24,7 @@ Un autre exemple consiste à configurer un axe analytique appelé *Département*
 * Le nom du vendeur.
 * Le nom du client qui l’a acheté.
 
-## Analyse par axe analytique
+## <a name="analyzing-by-dimensions"></a>Analyse par axe analytique
 
 La fonctionnalité Axes analytiques joue un rôle important dans la veille économique, par exemple en définissant des vues d’analyse. Pour plus d’informations, consultez [Analyse des données par axe analytique](bi-how-analyze-data-dimension.md).
 
@@ -34,13 +34,13 @@ La fonctionnalité Axes analytiques joue un rôle important dans la veille écon
 > [!NOTE]
 > Les vues d′analyse utilisent souvent les données des axes analytiques. Si vous découvrez qu’une dimension incorrecte a été utilisée sur les écritures comptables comptabilisées, vous pouvez corriger les valeurs d’axe analytique et mettre à jour vos vues d’analyse. Cela vous aide à garder vos états et analyses financiers exacts. Pour plus d’informations, consultez [Dépannage et correction des axes analytiques](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## Ensembles d’axes analytiques
+## <a name="dimension-sets"></a>Ensembles d’axes analytiques
 
 Un ensemble de dimensions est une combinaison unique de sections analytiques. Elles sont stockées comme des écritures de l’ensemble d’axes analytiques dans la base de données. Chaque écriture de l’ensemble de dimensions représente une section analytique unique. De plus, chaque ensemble d’axes analytiques et l’entrée d’ensemble d’axes analytiques qu’il contient sont identifiés par un ID d’ensemble d’axes analytiques commun.  
 
 Lorsque vous créez une ligne de feuille, un en-tête de document ou une ligne de document, vous pouvez spécifier une combinaison de sections analytiques. Au lieu d’enregistrer explicitement chaque section analytique dans la base de données, un ID d’ensemble de dimensions est affecté à la ligne de feuille, à l’en-tête du document ou à la ligne du document pour spécifier l’ensemble de dimensions.  
 
-## Configuration d’axes analytiques
+## <a name="setting-up-dimensions"></a>Configuration d’axes analytiques
 
 Vous pouvez définir les axes et les sections analytiques pour classer des feuilles et des documents par catégorie, comme des commandes vente et achat. La page **Axes analytiques** permet de créer une ligne pour chaque axe, par exemple *Projet*, *Département*, *Zone* et *Commercial*.
 
@@ -54,7 +54,7 @@ Une fois les axes analytiques et les valeurs configurés, vous pouvez définit d
 > [!NOTE]
 > Après avoir utilisé une nouvelle dimension dans une écriture, telle qu’une ligne ou un nouvel enregistrement, vous ne pouvez pas supprimer la dimension, même si vous ne validez pas l’entrée. Ceci est dû au fait que [!INCLUDE[prod_short](includes/prod_short.md)] crée immédiatement un ensemble de dimensions pour la ligne ou l’enregistrement. Pour plus d’informations, consultez la section [Ensembles d’axes analytiques](finance-dimensions.md#dimension-sets).
 
-### Pour configurer des axes analytiques par défaut pour les clients, les fournisseurs et d’autres comptes
+### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Pour configurer des axes analytiques par défaut pour les clients, les fournisseurs et d’autres comptes
 
 Vous pouvez attribuer un axe analytique par défaut pour un compte spécifique. L’axe est copié sur la feuille ou le document lorsque vous saisissez le numéro de compte dans une ligne, mais vous pouvez supprimer ou modifier le code sur la ligne si nécessaire. Vous pouvez également rendre un axe analytique obligatoire pour valider une écriture avec un type de compte spécifique. > 
 
@@ -91,7 +91,7 @@ Vous pouvez attribuer un axe analytique par défaut pour un compte spécifique. 
 > [!NOTE]  
 > Si un compte doit avoir un axe analytique différent de l’axe analytique par défaut affecté à ce type de compte, vous devez paramétrer un nouvel axe analytique pour ce compte. L’affectation analytique de ce compte remplace alors celle du type de compte.  
 
-### Pour configurer des affectations analytiques prioritaires
+### <a name="to-set-up-default-dimension-priorities"></a>Pour configurer des affectations analytiques prioritaires
 
 Des types de compte différents, tels qu’un compte client et un compte article, peuvent avoir des axes analytiques différents. Par conséquent, une écriture peut avoir plusieurs axes analytiques proposés par défaut. Pour éviter de tels conflits, vous pouvez appliquer des règles de priorité aux différentes sources.
 
@@ -103,7 +103,7 @@ Des types de compte différents, tels qu’un compte client et un compte article
 > [!IMPORTANT]  
 > Si vous configurez deux tables avec la même priorité pour le même code journal, [!INCLUDE[prod_short](includes/prod_short.md)] sélectionne toujours la table ayant le plus petit ID.  
 
-### Pour configurer des croisements analytiques
+### <a name="to-set-up-dimension-combinations"></a>Pour configurer des croisements analytiques
 
 Pour éviter de valider des écritures avec des axes contradictoires ou inappropriés, vous pouvez bloquer ou limiter des croisements spécifiques de deux axes. Lorsqu’un croisement analytique est bloqué, vous ne pouvez pas valider les deux axes sur la même écriture, quelles que soient les sections analytiques. A contrario, lorsqu’un croisement analytique est limité, vous pouvez valider les deux axes sur la même écriture, mais uniquement pour certains croisements de sections analytiques.
 
@@ -126,7 +126,7 @@ Pour éviter de valider des écritures avec des axes contradictoires ou inapprop
 >
 > Pour visualiser le nom des axes à la place du code, sélectionnez le champ **Afficher nom colonne**.
 
-### Pour configurer des axes principaux et des raccourcis axe
+### <a name="to-set-up-global-and-shortcut-dimensions"></a>Pour configurer des axes principaux et des raccourcis axe
 
 Les axes principaux et les raccourcis axe peuvent être utilisés comme filtres dans [!INCLUDE[prod_short](includes/prod_short.md)], y compris sur les états, les traitements par lot, les pages d’écritures comptables et les vues d’analyse. Les axes principaux et les raccourcis axe peuvent toujours être insérés directement sans ouvrir tout d’abord la page **Axes analytiques**. Sur les lignes feuille et document, vous pouvez sélectionner les axes principaux et les raccourcis axe dans un champ sur la ligne. Vous pouvez définir deux axes principaux et huit raccourcis axe. Sélectionnez les axes que vous utilisez le plus souvent.
 
@@ -141,7 +141,7 @@ Les axes principaux et les raccourcis axe peuvent être utilisés comme filtres 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité**, puis choisissez le lien associé.
 2. Sur le raccourci **Axes analytiques**, renseignez les champs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### Pour modifier les axes principaux
+#### <a name="to-change-global-dimensions"></a>Pour modifier les axes principaux
 
 Lorsque vous modifiez un axe principal ou un raccourci, toutes les écritures saisies avec cet axe sont mises à jour. Étant donné que ce processus peut prendre du temps et affecter les performances, deux modes différents sont fournis pour adapter le processus à la taille de la base de données.  
 
@@ -163,7 +163,7 @@ Lorsque vous modifiez un axe principal ou un raccourci, toutes les écritures sa
 6. Déconnectez-vous de [!INCLUDE[prod_short](includes/prod_short.md)], puis reconnectez-vous.
 7. Choisissez l’action **Démarrer** pour commencer le traitement parallèle des changements d’axe.
 
-### Exemple de paramétrage d’axe analytique
+### <a name="example-of-dimension-setup"></a>Exemple de paramétrage d’axe analytique
 
 Imaginons que votre société souhaite suivre les transactions selon la structure organisationnelle et les situations géographiques. Pour ce faire, vous pouvez configurer deux axes sur la page **Axes analytiques** :
 
@@ -204,7 +204,7 @@ Pour **DÉPARTEMENT**, vous pouvez ajouter les sections analytiques suivantes :
 
 Avec ce paramétrage, vous pouvez ensuite ajouter les deux axes en tant qu’axes analytiques principaux sur la page **Paramètres comptabilité**. Cela signifie que vous pouvez utiliser ZONE et DÉPARTEMENT comme filtres pour les écritures comptables de la comptabilité, ainsi que dans tous les états. Les deux axes principaux sont mis à disposition automatiquement pour être utilisés dans les lignes écriture et les en-têtes document comme raccourcis axe.
 
-## Affichage d’un aperçu des axes utilisés plusieurs fois
+## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Affichage d’un aperçu des axes utilisés plusieurs fois
 
 La page **Aff. analytiques - Multiples** spécifie la manière dont un groupe de comptes utilise les axes et sections analytiques. Vous pouvez configurer cela en mettant en surbrillance plusieurs comptes, puis en spécifiant les axes et les sections analytiques par défaut pour eux. Après cela, l’application suggère ces axes et sections analytiques chaque fois que l’un de ces comptes est utilisé, par exemple dans une ligne feuille. La validation des écritures est ainsi facilitée, car les champs des axes analytiques sont renseignés automatiquement. Notez toutefois que les sections analytiques proposées peuvent être modifiées, par exemple sur une ligne feuille.
 
@@ -216,7 +216,7 @@ La page **Aff. analytiques - Multiples** contient les champs suivants :
 |**Code section**|Affiche une section analytique ou le terme (Conflit). Si le champ indique une section analytique, tous les comptes sélectionnés ont la même section analytique par défaut pour un axe donné. Si le champ indique le terme (Conflit), les comptes sélectionnés n’ont pas tous la même section analytique par défaut pour un axe donné. Lorsque vous sélectionnez le champ **Code axe analytique**, vous voyez une liste de toutes les sections analytiques disponibles pour un axe donné. Si vous sélectionnez une section analytique, elle est définie comme section par défaut pour tous les comptes sélectionnés.|
 |**Contrôle validation**|Affiche une règle de contrôle validation ou le terme (Conflit). Si le champ indique une règle de contrôle validation, tous les comptes sélectionnés ont la même règle pour une section analytique donnée. Si le champ indique le terme (Conflit), les comptes sélectionnés n’ont pas tous la même règle de contrôle validation pour une section analytique donnée. Lorsque vous sélectionnez le champ **Contrôle validation**, vous voyez la liste des règles de contrôle validation pour un axe. Si vous sélectionnez une règle de contrôle validation, elle s’applique à tous les comptes sélectionnés.|
 
-## Utiliser des axes analytiques
+## <a name="use-dimensions"></a>Utiliser des axes analytiques
 
 Dans un document tel qu’une commande vente, vous pouvez ajouter des informations analytiques pour une seule ligne document et pour le document lui-même. Sur la page **Commande vente**, vous pouvez saisir des sections analytiques pour les deux premiers raccourcis axe directement sur les lignes vente individuelles et ajouter des informations analytiques complémentaires si vous cliquez sur le bouton **Axes analytiques**.  
 
@@ -224,7 +224,7 @@ Si vous travaillez plutôt sur une feuille, vous pouvez également ajouter à un
 
 Vous pouvez également configurer des axes analytiques par défaut pour des comptes ou des types de compte, de sorte que les axes et les sections analytiques soient renseignés automatiquement.
 
-### Pour afficher les axes principaux dans des fenêtres écriture comptable
+### <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Pour afficher les axes principaux dans des fenêtres écriture comptable
 
 Les axes principaux sont toujours définis et nommés par la société. Pour visualiser les axes principaux de votre société, ouvrez la page **Paramètres comptabilité**.
 
@@ -238,9 +238,9 @@ Dans une page écriture comptable, vous pouvez voir si des axes principaux sont 
 > [!NOTE]  
 > La page **Analytique - Écritures comptables** affiche les axes d’une écriture comptable à la fois. Lorsque vous faites défiler les écritures comptables, le contenu de la page **Analytique - Écritures comptables** est modifié en conséquence.
 
-## Voir la [formation Microsoft](/training/modules/dimensions-dynamics-365-business-central/index) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/dimensions-dynamics-365-business-central/index) associée
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Veille économique](bi.md)  
 [Finances](finance.md)  

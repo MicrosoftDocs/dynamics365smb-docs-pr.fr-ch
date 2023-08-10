@@ -7,17 +7,17 @@ ms.search.form: 810
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Publier un service Web
+# <a name="publish-a-web-service"></a>Publier un service Web
 
 Les services web sont un moyen pratique de rendre une fonctionnalité d’application disponible à différents types de systèmes et utilisateurs externes. Par défaut, [!INCLUDE[prod_short](includes/prod_short.md)] expose un certain nombre d’objets en tant que services web pour une meilleure intégration avec d’autres services Microsoft. Vous pouvez ajouter d’autres services web selon les besoins de votre entreprise.  
 
 Configurer un service web dans [!INCLUDE[prod_short](includes/prod_short.md)], puis publiez le service web afin qu’il soit disponible pour les utilisateurs authentifiés. Tous les utilisateurs autorisés peuvent accéder aux métadonnées des services Web, mais seuls les utilisateurs ayant les autorisations nécessaires peuvent accéder aux données réelles.  
 
-## Création et publication d’un service Web
+## <a name="creating-and-publishing-a-web-service"></a>Création et publication d’un service Web
 
 Les étapes suivantes expliquent la procédure de création et de publication d’un service Web.  
 
-### Création et publication d’un service Web  
+### <a name="to-create-and-publish-a-web-service"></a>Création et publication d’un service Web
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Services Web**, puis choisissez le lien associé.  
 2. Sur la page **Services Web**, sélectionnez **Nouveau**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +37,7 @@ Vous pouvez tester le service Web immédiatement en choisissant les liens figura
 
 Une fois le service Web publié, il est accessible aux parties externes. Vous pouvez vérifier la disponibilité de ce service web à l’aide d’un navigateur, ou vous pouvez sélectionner le lien dans les champs **URL OData** et **URL SOAP** de la page **Services web**. La procédure suivante indique comment vous pouvez vérifier la disponibilité du service Web pour une utilisation ultérieure.  
 
-### Vérification de la disponibilité d’un service Web  
+### <a name="to-verify-the-availability-of-a-web-service"></a>Vérification de la disponibilité d’un service Web
 
 1. Dans votre navigateur, indiquez l’URL appropriée. Le tableau suivant illustre les types d’URL que vous pouvez entrer pour les différents types de services Web.  
 
@@ -59,7 +59,7 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS Internationa
 https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS International Ltd.'  
 ```
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Administration](admin-setup-and-administration.md)  
 [Services Web Business Central pour les développeurs](/dynamics365/business-central/dev-itpro/webservices/web-services)  

@@ -10,13 +10,13 @@ author: AndreiPanko
 ms.author: andreipa
 ---
 
-# Procédure pas à pas : configurer et utiliser le connecteur Shopify
+# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Procédure pas à pas : configurer et utiliser le connecteur Shopify
 
 Cette section illustre certains scénarios typiques et vous guide à travers les étapes pour tester ou former les utilisateurs sur le workflow du magasin intégré [!INCLUDE[prod_short](../includes/prod_short.md)] et du magasin Shopify.
 
-## Conditions préalables 
+## <a name="prerequisites"></a>Conditions préalables
 
-### Shopify
+### <a name="shopify"></a>Shopify
 
 Vous devez disposer :
 
@@ -25,13 +25,13 @@ Vous devez disposer :
 
 En savoir plus sur la création de versions d’essai Shopify et les paramètres recommandés sur [Création et configuration d’un compte Shopify](shopify-account.md).
 
-### Business Central
+### <a name="business-central"></a>Business Central
 
 Vous devez disposer d’un compte [!INCLUDE[prod_short](../includes/prod_short.md)]. 
 
 Par exemple, vous pouvez créer un compte démo ou démarrer un essai. Pour en savoir plus, rendez-vous sur [Préparer les environnements de démonstrations de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) et [S’inscrire à l’essai](../trial-signup.md). 
 
-## Connexion de Business Central à la boutique Shopify
+## <a name="connect-business-central-to-the-shopify-shop"></a>Connexion de Business Central à la boutique Shopify
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)], exécutez l’une des étapes suivantes :
 
@@ -62,13 +62,13 @@ Configurer le mappage de l’emplacement :
 3. Dans **Filtre magasin**, entrez `''|EAST|MAIN`.
 4. Désactivez le bouton de basculement **Désactivé** pour activer la synchronisation du stock pour l’emplacement Shopify sélectionné.
 
-## Procédure pas à pas : commencer à vendre des produits en ligne
+## <a name="walkthrough-start-selling-products-online"></a>Procédure pas à pas : commencer à vendre des produits en ligne
 
-### Scénario
+### <a name="scenario"></a>Scénario
 
 Disons que vous voulez essayer Shopify en tant que boutique en ligne sans passer beaucoup de temps à configurer les choses, surtout parce que vous entretenez déjà vos articles dans [!INCLUDE[prod_short](../includes/prod_short.md)] correctement. Après avoir lancé votre boutique en ligne Shopify, vous obtenez immédiatement de nouveaux clients qui sont satisfaits de votre boutique et de leur expérience d’achat. Alors, ils décident de laisser des pourboires à la caisse.
 
-### Étapes
+### <a name="steps"></a>Étapes
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)], effectuez les étapes suivantes :
 
@@ -130,13 +130,13 @@ Désormais, les données physiques et financières sont enregistrées dans [!INC
 
 Dans **Administration Shopify** notez que la commande est maintenant marquée comme *Exécuté*. Vous pouvez également consulter les détails de l’envoi et y voir l’URL de suivi. Si vous exécutez à nouveau **Synchroniser les commandes à partir de Shopify**, la commande sera archivée dans les deux systèmes.
 
-## Procédure pas à pas : invitez vos clients dans votre nouvelle boutique en ligne
+## <a name="walkthrough-invite-your-customers-to-your-new-online-store"></a>Procédure pas à pas : invitez vos clients dans votre nouvelle boutique en ligne
 
-### Scénario
+### <a name="scenario-1"></a>Scénario
 
 Après un lancement rapide et réussi de votre nouvelle boutique en ligne, vous souhaitez que vos clients actuels la visitent et commencent à passer des commandes.
 
-### Étapes
+### <a name="steps-1"></a>Étapes
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)], exécutez l’une des étapes suivantes :
 
@@ -146,13 +146,13 @@ Dans [!INCLUDE[prod_short](../includes/prod_short.md)], exécutez l’une des é
 
 Dans **Administration Shopify** notez que les clients ont été importés. Ouvrez l’un des clients et remarquez que le prénom et le nom du client proviennent du champ **Nom du contact** de la **Fiche client**. Le nom de l’entreprise se trouve dans l’adresse par défaut, liée au client. Choisissez **Envoyer une invitation au compte** pour inviter le client.
 
-## Procédure pas à pas : ajustement de la gestion des éléments
+## <a name="walkthrough-fine-tuning-of-item-management"></a>Procédure pas à pas : ajustement de la gestion des éléments
 
-### Scénario 
+### <a name="scenario-2"></a>Scénario
 
 Vous aimerez ajouter plus de flexibilité et de contrôle à vos processus de gestion des articles. Vous souhaitez améliorer la description du produit et souhaitez ajouter plus d’étapes de révision avant que les produits ne soient disponibles pour le client final.
 
-### Étapes
+### <a name="steps-2"></a>Étapes
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)], exécutez l’une des étapes suivantes :
 
@@ -239,19 +239,19 @@ Notez que le stock de la table de conférence ANTWERP est de 100, car nous avon
 
 Dans la **boutique en ligne Shopify**, ouvrez le catalogue de produits, recherchez le produit *Bureau ATHENS*. Notez que différentes options sont disponibles. Pour différentes options, les prix sont différents. Faites attention aux informations de réduction.
 
-## Procédure pas à pas : importer des articles de Shopify
+## <a name="walkthrough-import-items-from-shopify"></a>Procédure pas à pas : importer des articles de Shopify
 
-### Scénario 
+### <a name="scenario-3"></a>Scénario
 
 Vous avez déjà une boutique en ligne performante et souhaitez commencer à l’utiliser [!INCLUDE[prod_short](../includes/prod_short.md)] comme logiciel de gestion d’entreprise. Vous souhaitez importer autant de données de Shopify que possible. 
 
-### Étapes
+### <a name="steps-3"></a>Étapes
 
 Ceci est la suite de la [Procédure pas à pas : Commencez à vendre des produits en ligne](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Vous pouvez également essayer avec vos propres données, par exemple votre boutique ou bac à sable Shopify.
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)], exécutez l’une des étapes suivantes :
 
-#### Préparer les données
+#### <a name="prepare-data"></a>Préparer les données
 
 1. Passez à un essai gratuit de 30 jours sans exemples de données. Pour plus d’informations, voir [Ajouter vos propres données à une société test vide](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasins Shopify**, puis sélectionnez le lien associé.
@@ -274,7 +274,7 @@ Configurez le magasin Shopify comme indiqué ci-dessous dans les étapes suivant
 16. Remplissez le **Compte de frais d’expédition**, le **Compte de pourboires** avec le compte de revenus. Par exemple, aux É.-U., utilisez `40100`.
 17. Activez le bouton de bascule **Créer automatiquement des commandes**.
 
-#### Exécuter la synchronisation
+#### <a name="run-the-synchronization"></a>Exécuter la synchronisation
 
 1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), , saisissez **Magasins Shopify** et choisissez le lien associé.
 2. Sélectionnez le magasin *DÉMO2* pour lequel vous voulez synchroniser les données pour ouvrir la page **Fiche magasin Shopify**.
@@ -282,7 +282,7 @@ Configurez le magasin Shopify comme indiqué ci-dessous dans les étapes suivant
 4. Sélectionnez l’action **Synchroniser les images des produits**.
 5. Sélectionnez l’action **Synchroniser les clients**.
 
-### Résultats
+### <a name="results"></a>Résultats
 
 * Les produits Shopify sont importés. Pour vérifier cela, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  saisissez **Produits Shopify** et choisissez le lien associé.
 * Des articles avec des images sont créés. Pour vérifier cela, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Article**, puis choisissez le lien associé.
@@ -290,6 +290,6 @@ Configurez le magasin Shopify comme indiqué ci-dessous dans les étapes suivant
 * Les clients sont créés. Pour vérifier cela, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Clients**, puis choisissez le lien associé.
 
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Mise en route avec le connecteur Shopify](get-started.md)  

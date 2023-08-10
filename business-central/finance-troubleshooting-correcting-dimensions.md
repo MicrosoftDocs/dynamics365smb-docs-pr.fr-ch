@@ -12,11 +12,11 @@ ms.date: 09/27/2021
 ms.author: bholtorf
 ---
 
-# Dépannage et correction des axes analytiques
+# <a name="troubleshooting-and-correcting-dimensions"></a>Dépannage et correction des axes analytiques
 
 Les rapports financiers et les vues d′analyse reposent souvent sur les données des axes analytiques. Malgré les garanties disponibles, il se produit parfois une erreur pouvant entraîner des imprécisions. Cette rubrique décrit certaines erreurs classiques et explique comment corriger les affectations d′axes analytiques sur les transactions validées afin que les rapports financiers soient précis.
 
-## Résolution des erreurs liées aux axes analytiques
+## <a name="troubleshooting-dimensions-errors"></a>Résolution des erreurs liées aux axes analytiques
 
 Lorsque vous validez des documents ou des lignes feuille qui contiennent des axes analytiques, différentes erreurs peuvent survenir qui sont toutefois généralement liées à une configuration ou à une affectation incorrectes des axes.
 
@@ -38,21 +38,21 @@ Lorsque vous validez des documents ou des lignes feuille qui contiennent des axe
 |Valeur analytique inattendue pour l’axe par défaut où le champ **Contrôle validation** contient **Aucun code**|-%1 %2 ne doit pas être mentionné.<br />-%1 %2 ne doit pas être mentionné pour %3 %4.|- Modifiez le champ **Contrôle validation** sur la page **Axe analytique par défaut**.<br />- Supprimez la ligne en conflit depuis l’ensemble de dimensions.|
 |Une correction d’axe analytique ne se termine pas correctement.||-Choisissez **Réinitialiser** pour rétablir la correction à un état brouillon. Cela réinitialise les modifications et vous pouvez réexécuter la correction.|
 
-## Modification des attributions d’axe analytique après la publication
+## <a name="changing-dimension-assignments-after-posting"></a>Modification des attributions d’axe analytique après la publication
 
 Si vous découvrez qu’une dimension incorrecte a été utilisée sur les écritures comptables comptabilisées, vous pouvez corriger les valeurs d’axe analytique et mettre à jour vos vues d’analyse. Cela vous aide à garder vos rapports et analyses financiers exacts.
 
 > [!IMPORTANT]
 > Les fonctionnalités de correction des axes analytiques visent uniquement à rendre les rapports financiers précis. Les corrections d′axes analytiques s′appliquent uniquement aux entrées comptables. Ils ne modifient pas les axes analytiques affectés aux autres écritures comptables pour la même transaction. Un problème de correspondance existe entre les axes analytiques affectés dans les écritures comptables et dans les grands livres auxiliaires.
 
-### Paramétrage des corrections des axes analytiques
+### <a name="setting-up-dimension-corrections"></a>Paramétrage des corrections des axes analytiques
 
 Il y a deux choses à prendre en compte lors de la configuration des corrections d’axe analytique :
 
 * Y a-t-il des axes analytiques que vous ne souhaitez pas permettre aux gens de changer ? Sur la page **Paramètres de correction d’axes analytiques**, spécifiez les axes analytiques que vous souhaitez bloquer pour les modifications.
 * À qui souhaitez-vous autoriser le changement d’axes analytiques ? Pour autoriser les utilisateurs à apporter des modifications, attribuez l’autorisation **CORRECTION AXE D365** aux utilisateurs. Les autorisations leur permettent de créer des corrections d’axes analytiques, de les exécuter et de les annuler si nécessaire. Ils pourront également spécifier des axes analytiques bloqués. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md). 
 
-### Correction d’un axe analytique
+### <a name="correcting-a-dimension"></a>Correction d’un axe analytique
 
 Vous pouvez sélectionner manuellement une ou plusieurs écritures comptables ou utiliser des filtres pour sélectionner des séries d’entrées. Si nécessaire, vous pouvez également ajouter ou supprimer des axes analytiques. 
 
@@ -82,44 +82,44 @@ Vous pouvez sélectionner manuellement une ou plusieurs écritures comptables ou
 5. Pour valider que la correction, choisissez **Valider les changements d’axes analytiques**. Pour plus d′informations, voir [Validation des corrections d′axes analytiques](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Choisir **Exécuter**.
 
-### Validation des corrections d’axes analytiques
+### <a name="validating-dimension-corrections"></a>Validation des corrections d’axes analytiques
 
 Avant d’exécuter une correction, il est conseillé de la valider d’abord. La validation vérifie les restrictions sur la comptabilisation des valeurs pour les comptes généraux, les restrictions pour les axes analytiques et si les valeurs des axes analytiques sont bloquées. Lors de la validation, le statut de la correction est défini sur **Validation en cours**. Après avoir validé une correction, le résultat s’affiche dans le champ **Statut de validation**. Si des erreurs ont été trouvées, vous pouvez utiliser l’action **Afficher les erreurs** pour les enquêter. Après avoir corrigé une erreur, vous devez utiliser l’action **Rouvrir** pour exécuter la correction ou une nouvelle validation.
 
 Vous pouvez soit exécuter une correction immédiatement, soit la planifier pour une exécution ultérieure. Si vous exécutez des corrections sur un jeu de données volumineux, nous vous recommandons de le planifier pour qu’il s’exécute en dehors des heures ouvrables. Pour plus d′informations, voir [Corrections d′axes analytiques sur des jeux de données volumineux](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
-### Annuler une correction
+### <a name="undoing-a-correction"></a>Annuler une correction
 
 Après avoir corrigé un axe analytique, si vous n’aimez pas ce que vous voyez, vous pouvez utiliser l’action **Annuler** pour réinitialiser la valeur précédente. Cependant, vous ne pouvez annuler que la correction la plus récente. Avant d’annuler une correction, vous pouvez valider les modifications que l’annulation apportera. Par exemple, cela est utile si les restrictions d’axes analytiques ont changé après la correction.
 
 Si l’action Annuler n’est pas disponible, par exemple parce que vous avez effectué de nombreuses corrections, vous pouvez utiliser l’action **Copier dans le brouillon** pour démarrer une nouvelle correction pour les mêmes entrées.
 
-### Corrections d’axes analytiques sur des jeux de données volumineux
+### <a name="dimension-corrections-on-large-data-sets"></a>Corrections d’axes analytiques sur des jeux de données volumineux
 
 Soyez prudent lorsque vous corrigez de grands ensembles d’entrées, par exemple, des ensembles comprenant plus de 10 000 entrées. Si vous le pouvez, nous vous recommandons d’utiliser les filtres pour exécuter les corrections sur des jeux de données plus petits. Il est également judicieux d’exécuter des corrections en dehors des heures normales de bureau. 
 
-### Utiliser des vues d’analyse avec des corrections d’axes analytiques
+### <a name="use-analysis-views-with-dimension-corrections"></a>Utiliser des vues d’analyse avec des corrections d’axes analytiques
 
 Si **Mise à jour sur la publication** est activé pour une vue d’analyse, [!INCLUDE[prod_short](includes/prod_short.md)] peut afficher la vue lorsque les documents et les journaux sont publiés. Vous pouvez également mettre à jour les vues avec ce paramètre activé avec les résultats des corrections d’axes analytiques. Pour ce faire, activez le bouton de basculement **Mettre à jour les vues d’analyse**. La mise à jour des vues d’analyse peut avoir un impact sur les performances, en particulier pour les grands jeux de données, c’est pourquoi nous vous recommandons de mettre à jour les vues d’analyse uniquement pour les petits jeux de données.  
 
-### Affichage des corrections de axes analytiques historiques
+### <a name="viewing-historical-dimension-corrections"></a>Affichage des corrections de axes analytiques historiques
 
 Si une écriture comptable a été corrigée, vous pouvez étudier la modification en utilisant l’action **Historique des corrections d’axes analytiques**.
 
-### Traitement des corrections incomplètes
+### <a name="handling-incomplete-corrections"></a>Traitement des corrections incomplètes
 
 Si une correction ne se termine pas, un avertissement s’affiche sur la carte de correction. Si cela se produit, vous pouvez utiliser l’action **Réinitialiser** pour rétablir la correction à un statut de brouillon et annuler les modifications. Vous pouvez ensuite exécuter à nouveau la correction.
 
 > [!NOTE]
 > La réinitialisation d’une correction incomplète n’affectera pas les mises à jour des vues d’analyse, car celles-ci se produisent à la fin du processus de correction.
 
-### Utiliser la comptabilité analytique avec les écritures comptables corrigées
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Utiliser la comptabilité analytique avec les écritures comptables corrigées
 
 Une fois les axes analytiques corrigés, vos données pour la comptabilité analytique seront désynchronisées. La comptabilité analytique utilise des axes analytiques pour agréger les montants des centres de coûts et des coûts associés, et pour exécuter les répartitions de coûts. La modification des axes analytiques des écritures comptables signifiera probablement que vous réexécuterez vos modèles de comptabilité analytique. Que vous deviez simplement supprimer quelques registres de coûts et réexécuter les allocations, ou que vous deviez tout supprimer et réexécuter tous vos modèles, cela dépend des données qui ont été mises à jour et de la configuration de vos capacités de comptabilité analytique. Vous devez manuellement identifier où les corrections d’axes analytiques auront un impact sur la comptabilité analytique et où des mises à jour sont nécessaires. [!INCLUDE[prod_short](includes/prod_short.md)] ne propose pas actuellement de moyen automatisé de le faire.
 
-## Voir la [formation Microsoft](/training/modules/dimensions-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/dimensions-dynamics-365-business-central/) associée
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Utiliser les axes analytiques](finance-dimensions.md)  
 [Analyse des données par axe analytique](bi-how-analyze-data-dimension.md)  

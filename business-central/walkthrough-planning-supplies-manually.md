@@ -10,27 +10,27 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# Procédure pas à pas : planification manuelle des approvisionnements
+# <a name="walkthrough-planning-supplies-manually"></a>Procédure pas à pas : planification manuelle des approvisionnements
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Cette procédure pas à pas présente le processus de planification des commandes approvisionnement en vue de répondre à la nouvelle demande. Vous pouvez lancer la planification des approvisionnements à des intervalles fixes, par exemple, tous les matins ou tous les lundis, ou lorsque vous recevez une notification du département Ventes ou Production, en fonction du type de demande. Au cours de cette procédure, vous utiliserez la page **Planning commande**, un outil simplifié de planification des approvisionnements basé sur la prise de décision manuelle plutôt que la planification automatique basée sur des paramètres.  
 
-## À propos de cette procédure pas à pas  
+## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas
  Cette procédure pas à pas présente les tâches suivantes :  
 
 -   planification d’une commande achat pour les composants de production ;  
 -   planification d’un ordre de transfert afin de répondre à la demande de vente ;  
 -   planification d’un ordre de fabrication pour un article multi-niveaux.  
 
-## Rôles  
+## <a name="roles"></a>Rôles
  Cette procédure pas à pas présente les tâches effectuées par les rôles utilisateur suivants :  
 
 -   Gestionnaire de production  
 -   Agent d’achats  
 -   préparateur de commandes vente ;  
 
-## Conditions préalables  
+## <a name="prerequisites"></a>Conditions préalables
  Avant de commencer cette procédure pas à pas, vous devez installer la [!INCLUDE[prod_short](includes/prod_short.md)]. Les modifications suivantes doivent être apportées à la base de données :  
 
 -   Supprimez toute commande vente existante de bicyclettes.  
@@ -39,17 +39,17 @@ Cette procédure pas à pas présente le processus de planification des commande
 
  En règle générale, utilisez les données suggérées dans cette procédure pas à pas car elles incluent les enregistrements nécessaires.  
 
-## Scénario  
+## <a name="story"></a>Scénario
  Eduardo, Gestionnaire de production dans une petite société manufacturière, est sur le point de planifier les ordres de fabrication et commandes achat en réponse à la demande de vente.  
 
  Dans la mesure où les produits disposent de peu de niveaux de nomenclature et où le flux de commandes est relativement faible, Eduardo utilise la page **Planification commande** pour créer manuellement les commandes approvisionnement (un niveau de produit à la fois).  
 
  Dans un environnement de fabrication plus complexe, la feuille planning permet de planifier l’approvisionnement sur la base des paramètres d’article, tels que la période de replanification, le délai de sécurité, le point de commande et les calculs par lots de la demande consolidée à partir de tous les niveaux de produit.  
 
-## Configuration des exemples de données  
+## <a name="setting-up-the-sample-data"></a>Configuration des exemples de données
  La société de démonstration CRONUS standard dispose actuellement d’un grand nombre de demandes non planifiées. Au cours des différentes tâches de planification de cette procédure pas à pas, vous devrez passer outre le flux commercial réaliste : utilisez la demande dont les dates d’échéance sont ultérieures plutôt que celle dont les dates sont échues.  
 
-## Utiliser la page Planification commande  
+## <a name="use-the-order-planning-page"></a>Utiliser la page Planification commande
 
 La page **Planification commande** est accessible de plusieurs endroits différents :  
 
@@ -58,7 +58,7 @@ La page **Planification commande** est accessible de plusieurs endroits différe
 -   Achat, Planning  
 -   En outre, vous pouvez ouvrir cette page pour un ordre de fabrication spécifique en choisissant l’action **Planning**.
 
-### Pour utiliser la page Planification commande :  
+### <a name="to-use-the-order-planning-page"></a>Pour utiliser la page Planification commande :
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Planification commande**, puis choisissez le lien associé.  
 
@@ -82,10 +82,10 @@ La page **Planification commande** est accessible de plusieurs endroits différe
 
      Les commandes sans problème de disponibilité ne s’affichent pas. Si aucune commande n’existe lors du calcul d’une planification, un message s’affiche et aucune ligne planning n’apparaît.  
 
-## Planification d’une commande achat pour répondre à une demande de composant  
+## <a name="planning-a-purchase-order-to-fulfill-component-demand"></a>Planification d’une commande achat pour répondre à une demande de composant
  Dans cette procédure, vous créez une commande achat pour les composants nécessaires à la fabrication.  
 
-### Pour planifier une commande achat en vue de répondre aux besoins de composants en production :  
+### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>Pour planifier une commande achat en vue de répondre aux besoins de composants en production :
 
 1.  Développez la première ligne en cliquant sur le symbole +.  
 2.  Sélectionnez la première ligne demande, avec l’article **LSU-15**, puis sélectionnez l’action **Afficher document**.  
@@ -122,10 +122,10 @@ La page **Planification commande** est accessible de plusieurs endroits différe
 
      Les commandes achat sont à présent créées et enregistrées en tant que dernières commandes dans la liste des commandes achat.  
 
-## Planification d’un ordre de transfert pour répondre à une demande de vente  
+## <a name="planning-a-transfer-order-to-fulfill-sales-demand"></a>Planification d’un ordre de transfert pour répondre à une demande de vente
  Dans cette procédure, vous planifiez une demande à partir d’une commande vente. Les lignes demande représentent les lignes vente (et non les lignes composant, comme c’est le cas pour les demandes de production).  
 
-### Pour planifier un ordre de transfert afin de répondre à la demande de vente :  
+### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>Pour planifier un ordre de transfert afin de répondre à la demande de vente :
 
 1.  Déplacez le pointeur vers la ligne planning correspondant à la commande **2008**.  
 2.  Développez la ligne et déplacez le pointeur vers la ligne demande.  
@@ -150,10 +150,10 @@ La page **Planification commande** est accessible de plusieurs endroits différe
 
      L’ordre de transfert est à présent créé et enregistré en tant que dernier ordre dans la liste des ordres de transfert en cours.  
 
-## Planification d’un ordre de production multi-niveaux pour répondre à une demande de vente  
+## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a>Planification d’un ordre de production multi-niveaux pour répondre à une demande de vente
  Dans cette procédure, vous effectuez une planification en vue de satisfaire la demande de vente pour un article produit avec plusieurs niveaux de produit, chacun d’entre eux créant une demande de production dépendante.  
 
-### Pour planifier une production multi-niveaux afin de répondre à la demande de vente :  
+### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>Pour planifier une production multi-niveaux afin de répondre à la demande de vente :
 
 1.  Sélectionnez la ligne planning avec une demande de vente pour la commande **1001**, créée plus tôt comme données préalables.  
 
@@ -172,7 +172,7 @@ La page **Planification commande** est accessible de plusieurs endroits différe
 
  En tant que gestionnaire de production, vous devez maintenant planifier un ordre de fabrication spécifique.  
 
-### Pour planifier un ordre de fabrication spécifique :  
+### <a name="to-plan-a-specific-production-order"></a>Pour planifier un ordre de fabrication spécifique :
 
 1.  Ouvrez l’ordre de fabrication **101001** pour dix bicyclettes, créé à l’aide de la fonction **Créer commandes**.  
 2.  Ouvrez la page **Composants O.F.** pour vérifier que la sonnette supplémentaire figure dans l’ordre de fabrication.  
@@ -222,7 +222,7 @@ La page **Planification commande** est accessible de plusieurs endroits différe
 
      Sur la page **O. F. planifiés fermes**, passez en revue la planification des heures de début et de fin de chaque commande par rapport à la structure produit. Les composants de niveau inférieur sont produits en premier. Par conséquent, vous devez planifier des commandes multi-niveaux conformément aux instructions de ce flux de planification.  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Pratiques de configuration recommandées : méthodes de réapprovisionnement
+# <a name="setup-best-practices-reordering-policies"></a>Pratiques de configuration recommandées : méthodes de réapprovisionnement
 
 Sur les fiches article, le champ **Méthode réapprovisionnement** propose quatre méthodes de planification différentes qui déterminent le mode d’interaction de chacun des paramètres de planification.  
 
@@ -35,9 +35,9 @@ Le tableau suivant propose des recommandations pour effectuer son choix parmi ce
 |**Qté fixe de commande.**|À utiliser avec des articles C.<br /><br /> À associer à des paramètres de point de commande.<br /><br /> Au stade fabrication, à utiliser avec des composants de niveau inférieur.<br /><br /> Ne pas utiliser si l’article est souvent réservé.|Les articles C (tasses à thé, par exemple) sont des articles présentant peu de valeur dont les commandes sont nombreuses et régulières. La meilleure méthode de réapprovisionnement pour les articles C doit par conséquent garantir une disponibilité constante en restant toujours au-dessus du point de commande.<br /><br /> Si l’utilisateur réserve une quantité en prévision d’une demande quelque peu lointaine, la planification s’en trouvera perturbée. Même si le niveau de stock prévisionnel est acceptable par rapport au point de réapprovisionnement, les quantités peuvent ne pas être disponibles en raison de la réservation.|  
 |**Qté maximum**|À utiliser avec des articles C dont les frais de transport sont élevés et les capacités de stockage limitées.<br /><br /> À associer à un ou plusieurs modificateurs d’ordre (Qté minimum commande, Qté maximum commande ou Commandé par).|Les articles C (tasses à thé, par exemple) sont des articles présentant peu de valeur dont les commandes sont nombreuses et régulières. La meilleure méthode de réapprovisionnement pour les articles C doit par conséquent garantir une disponibilité constante en restant toujours au-dessus du point de commande, mais en dessous de la capacité de stockage maximum.<br /><br /> Pour modifier la commande suggérée, vous pouvez réduire la quantité commande jusqu’à une quantité commande maximum spécifiée, l’augmenter jusqu’à une quantité commande minimum spécifiée ou l’arrondir pour qu’elle corresponde à un nombre de commandes spécifié. **Note :** en cas d’utilisation avec un point de commande, le stock doit rester entre le point de commande et la quantité maximum.|  
 
-## Voir la [formation Microsoft](/training/paths/replenish-items-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/replenish-items-dynamics-365-business-central/) associée
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
  [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
  [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)  

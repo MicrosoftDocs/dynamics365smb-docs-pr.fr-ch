@@ -8,7 +8,7 @@ ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Personnaliser les pages pour les profils
+# <a name="customize-pages-for-profiles"></a>Personnaliser les pages pour les profils
 
 Les utilisateurs peuvent personnaliser des pages qui constituent leur espace de travail en fonction de leurs propres préférences. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
@@ -19,7 +19,7 @@ Les administrateurs peuvent personnaliser les pages d’un profil, en fonction d
 
 La personnalisation de la page commence à partir de la page **Profils (rôles)**, le point de départ de l’administrateur pour la gestion des profils d’utilisateurs sur des fiches de profil individuelles. Outre la personnalisation de la mise en page, vous pouvez contrôler divers autres paramètres pour les profils sur la page **Profil (rôle)** pour chaque profil. Pour plus d’informations, voir [Gérer les profils](admin-users-profiles-roles.md).
 
-## Pour personnaliser les pages pour un profil
+## <a name="to-customize-pages-for-a-profile"></a>Pour personnaliser les pages pour un profil
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Profils (Rôles)**, puis sélectionnez le lien associé.
 2. Sélectionnez la ligne du profil pour lequel vous souhaitez personnaliser des pages, puis sélectionnez l’action **Modifier**.
@@ -37,7 +37,7 @@ La personnalisation de la page commence à partir de la page **Profils (rôles)*
 
 La personnalisation des pages est maintenant enregistrée pour le profil.
 
-## Pour afficher tous les pages personnalisées pour un profil
+## <a name="to-view-all-customized-pages-for-a-profile"></a>Pour afficher tous les pages personnalisées pour un profil
 
 Vous pouvez obtenir un aperçu des pages personnalisées pour un profil, par exemple pour planifier celles à personnaliser ou à supprimer.
 
@@ -45,7 +45,7 @@ Vous pouvez obtenir un aperçu des pages personnalisées pour un profil, par exe
 
 Sur la page **Pages personnalisées**, vous pouvez supprimer les personnalisations et vous pouvez résoudre les problèmes en recherchant les problèmes potentiels.  
 
-## Pour supprimer toutes les personnalisations d’un profil
+## <a name="to-delete-all-customizations-for-a-profile"></a>Pour supprimer toutes les personnalisations d’un profil
 
 Vous pouvez annuler toutes les personnalisations apportées à un profil. Les personnalisations introduites avec une extension et celles effectuées par un utilisateur ne seront pas supprimées. Vous pouvez supprimer toutes les personnalisations avec une autre action. Pour plus d’informations, voir [Pour supprimer toutes les personnalisations effectuées par un utilisateur](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -53,7 +53,7 @@ Vous pouvez annuler toutes les personnalisations apportées à un profil. Les pe
 
 La disposition sur les pages du profil est réinitialisée sur celle par défaut.  
 
-## Pour supprimer la personnalisation de pages spécifiques pour un profil
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Pour supprimer la personnalisation de pages spécifiques pour un profil
 
 Vous pouvez supprimer des personnalisations de page individuelles effectuées pour un profil. Les personnalisations introduites avec une extension et celles effectuées par un utilisateur ne seront pas supprimées. Vous pouvez supprimer des personnalisations de pages spécifiques avec une autre action. Pour plus d’informations, voir [Pour supprimer des personnalisations pour des pages spécifiques](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -62,9 +62,9 @@ Vous pouvez supprimer des personnalisations de page individuelles effectuées po
 
 La disposition sur les pages sélectionnées reflète désormais les modifications que vous avez apportées.
 
-## Voir la [formation Microsoft](/training/paths/tailor-roles-design-ui/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/tailor-roles-design-ui/) associée
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Personnaliser votre espace de travail](ui-personalization-user.md)  
 [Gérer les profils](admin-users-profiles-roles.md)  

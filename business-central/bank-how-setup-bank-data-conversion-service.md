@@ -11,7 +11,7 @@ ms.search.form: '304, 20106, 20105, 20100, 20101, 20107, 20109'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Configurer l’extension AMC Banking 365 Fundamentals
+# <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Configurer l’extension AMC Banking 365 Fundamentals
 Un fournisseur global de services permettant de convertir les informations de paiement dans n’importe quel format de données que votre banque requiert est connecté et prêt à être activé dans [!INCLUDE[prod_short](includes/prod_short.md)]. Dans cette rubrique [!INCLUDE[prod_short](includes/prod_short.md)], il s’agit de l’extension AMC Banking 365 Fundamentals.
 
 Vous pouvez exporter des lignes de paiement à partir de la page **Feuille paiement** vers un fichier ou un flux de données que vous téléchargez ensuite vers votre banque pour un traitement automatique. Ainsi, vous n’avez pas à effectuer de paiements électroniques individuels. Pour plus d’informations, reportez-vous à [Exportation de paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
@@ -25,7 +25,7 @@ Pour importer ou exporter des fichiers bancaires, vous devez configurer votre pr
 > [!NOTE]  
 > L’extension AMC Banking 365 Fundamentals peut fixer une limite imposée du nombre de lignes qui peuvent être exportées dans un fichier. Si cette limite est dépassée, vous recevrez un message d’erreur. Il est conseillé que les fichiers de relevé bancaire ne dépassent pas 1 000 lignes, sans quoi le temps de traitement dans l’extension AMC Banking 365 Fundamentals peut augmenter de façon significative.
 
-## Pour inscrire votre société à l’extension AMC Banking 365 Fundamentals
+## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Pour inscrire votre société à l’extension AMC Banking 365 Fundamentals
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres service conv. données banque**, puis choisissez le lien associé.  
 2. La page **Paramètres service conv. données banque** s’ouvre avec trois champs préremplis avec les URL appropriées du fournisseur de l’extension AMC Banking 365 Fundamentals.
 
@@ -42,7 +42,7 @@ Pour importer ou exporter des fichiers bancaires, vous devez configurer votre pr
 > [!NOTE]  
 > Vos données de connexion sont automatiquement chiffrées.
 
-## Pour afficher ou mettre à jour la liste des formats de données bancaires actuellement pris en charge
+## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Pour afficher ou mettre à jour la liste des formats de données bancaires actuellement pris en charge
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres service conv. données banque**, puis choisissez le lien associé.
 2. Sur la page **Paramètres service conv. données banque**, sélectionnez l’action **Nom banque - Liste conversions données** pour ouvrir la liste des noms de banques représentant les formats de données bancaires pris en charge par le service de conversion.
 3. Sur la page **Nom banque - Liste conversions données**, sélectionnez l’action **Mettre à jour liste noms banque**.
@@ -54,7 +54,7 @@ La liste des formats de données bancaires qui sont pris en charge par l’exten
 
 Vous êtes désormais inscrit à l’extension AMC Banking 365 Fundamentals. Continuez pour refléter les informations de connexion sur chaque compte bancaire qui utilise le service.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

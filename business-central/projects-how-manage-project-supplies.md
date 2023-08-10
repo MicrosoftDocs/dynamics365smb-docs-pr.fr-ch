@@ -11,12 +11,12 @@ ms.search.form: '98, 1020'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# Gérer les fournitures pour un projet
+# <a name="manage-job-supplies"></a>Gérer les fournitures pour un projet
 La gestion des fournitures des projets relatifs à des articles, services et dépenses est l’un des aspects essentiels de l’exécution d’un projet. Vous pouvez utiliser les quantités de stock ou effectuer des achats spécifiques au projet en utilisant des commandes achat ou des factures achat. Par exemple, un projet de service sur un ordinateur requiert un nouveau disque. Vous devez donc créer une facture achat pour l’acheter et pour enregistrer le projet pour lequel il sera utilisé.
 
 Si le processus d’achat ne requiert pas d’enregistrement séparé de la transaction physique, un achat peut être traité sur la page **Feuille compta. projet**. Pour plus d′informations, voir [Pour valider des frais liés à un projet](projects-how-manage-project-supplies.md#to-post-a-job-related-expense).
 
-## Pour acheter des articles ou des services pour un projet
+## <a name="to-purchase-items-or-services-for-a-job"></a>Pour acheter des articles ou des services pour un projet
 La procédure suivante indique comment utiliser une facture achat pour acheter des produits pour un projet. Les mêmes étapes s’appliquent lors de l’utilisation d’une commande achat.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.  
@@ -26,7 +26,7 @@ La procédure suivante indique comment utiliser une facture achat pour acheter d
     La valeur que vous sélectionnez dans le champ **Type ligne projet** définit si une ligne planning est créée lorsque vous validez l’activité de l’article. Si le champ indique **Facturable**, les lignes planning projet prêtes pour facturation sont créées. Pour plus d’informations, voir [Facturation des projets](projects-how-invoice-jobs.md).
 4. Sélectionnez l’action **Valider**.
 
-## Pour afficher la valeur des achats pour un projet
+## <a name="to-view-the-value-of-purchases-for-a-job"></a>Pour afficher la valeur des achats pour un projet
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.
 2. Ouvrez la fiche projet appropriée.
 
@@ -35,14 +35,14 @@ La procédure suivante indique comment utiliser une facture achat pour acheter d
     Le champ **Montant reçu non facturé** affiche la valeur des articles livrés sur les documents achat mais non facturés.  
 3. Choisissez l’un des champs pour ouvrir la page **Lignes achat** dans laquelle vous pouvez consulter des informations sur les lignes de document achat associées, incluant les articles ou les services qui ont été réceptionnés.
 
-## Pour valider des frais liés à un projet
+## <a name="to-post-a-job-related-expense"></a>Pour valider des frais liés à un projet
 Si vous supportez les dépenses extraordinaires ou exceptionnelles du projet, vous pouvez utiliser la page **Feuille compta. projet** pour les valider directement dans le compte projet approprié.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles comptabilisation projet**, puis choisissez le lien associé.  
 2. Créez une ligne et renseignez les informations concernant les frais, notamment les informations dans les champs **N° projet** et **N° tâche projet**.  
 3. Lorsque la feuille est renseignée, cliquez sur **Valider**.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Gestion de projets](projects-manage-projects.md)  
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)         

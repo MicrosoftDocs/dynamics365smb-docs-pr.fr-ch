@@ -10,7 +10,7 @@ ms.date: 12/05/2022
 ms.custom: bap-template
 ---
 
-# Vue d’ensemble de la gestion des entrepôts
+# <a name="warehouse-management-overview"></a>Vue d’ensemble de la gestion des entrepôts
 
 Deux choses sont importantes pour toutes les entreprises qui transportent physiquement des marchandises dans et hors de leur entrepôt :
 
@@ -26,7 +26,7 @@ Pour aider les entreprises à atteindre ces objectifs, les fonctionnalités d’
 
 Implémentez ces fonctionnalités dans différentes combinaisons pour adapter vos processus d’entrepôt à votre entreprise. Permettez une complexité croissante à mesure que votre entreprise se développe et que vos processus évolue.
 
-## Aperçu des différentes options de configuration
+## <a name="overview-of-different-configuration-options"></a>Aperçu des différentes options de configuration
 
 Vous pouvez configurer les fonctionnalités d’entrepôt de différentes manières. Il est important de choisir les options qui améliorent vos processus sans entraîner de surcharge. Le tableau suivant donne un aperçu des configurations typiques lorsqu’il s’agit de biens physiques.
 
@@ -48,13 +48,13 @@ Le niveau de complexité est également affecté par les types de documents que 
 
 Un autre facteur qui influe sur la complexité est la façon dont votre entrepôt physique est représenté dans [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Modélisation de l’entrepôt physique](#modeling-the-physical-warehouse).
 
-## Modélisation de l’entrepôt physique
+## <a name="modeling-the-physical-warehouse"></a>Modélisation de l’entrepôt physique
 
 Vous disposez de plusieurs options pour représenter la configuration réelle de votre entrepôt dans [!INCLUDE[prod_short](includes/prod_short.md)]. Vos choix déterminent la manière dont vous utiliserez les fonctionnalités de l’entrepôt.
 
 Le placement des articles peut être sur des étagères, dans des magasins ou dans des emplacements, et chaque option présente des avantages et des inconvénients.
 
-### Magasins et emplacements
+### <a name="locations-and-bins"></a>Magasins et emplacements
 
 Pour manipuler des biens physiques, vous devez avoir au moins un magasin. Vous pouvez utiliser plusieurs magasins ou utiliser des emplacements pour modéliser votre entrepôt et votre structure organisationnelle.
 
@@ -66,7 +66,7 @@ En règle générale, les magasins sont le moyen privilégié pour organiser des
 * Configurez les paramètres de planification. Learn more at [Paramètres de planification](production-about-planning-functionality.md#planning-parameters).  
 * Utilisez différentes fonctionnalités d’entrepôt pour chaque magasin.
 
-### Étagères et emplacements
+### <a name="shelves-and-bins"></a>Étagères et emplacements
 
 Si vous stockez toujours un article au même endroit, vous pouvez utiliser le champ **N° d’étagère** sur les pages **Fiche article** ou **Fiche point de stock**. Ce champ peut être utilisé comme système d’enregistrement manuel de base dans des environnements sans emplacement. La valeur du champ est copiée à partir de la fiche article vers les lignes document et les états, mais à titre informatif uniquement. La valeur n’est pas utilisée dans les activités d’entrepôt ou dans les calculs de disponibilité.
 
@@ -77,7 +77,7 @@ Les emplacements représentent la structure d’entrepôt de base et sont utilis
 * Des restrictions de capacité et de poids des emplacements (uniquement pour le rangement et le prélèvement dirigés).
 * Classement des emplacements (pour le rangement et le prélèvement dirigés uniquement).
 
-## Flux de travail typique d’un entrepôt
+## <a name="typical-warehouse-workflow"></a>Flux de travail typique d’un entrepôt
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les articles qui les décrivent.
 
@@ -89,19 +89,19 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 
 Configurez les processus d’entrepôt qui conviennent à votre entreprise. Learn more at [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).
 
-## Terminologie liée à la gestion d’entrepôt
+## <a name="terminology-related-to-warehouse-management"></a>Terminologie liée à la gestion d’entrepôt
 
-### Niveaux de complexité
+### <a name="complexity-levels"></a>Niveaux de complexité
 
 Nous utilisons les termes « de base » et « avancé » pour différencier les niveaux de complexité. Cette différenciation simple couvre plusieurs niveaux de complexité dans les configurations de magasin, chacune prise en charge par différents documents d’entrepôt. Le niveau d’entreposage le plus avancé est appelé « Rangement et prélèvement dirigés ׃. Pour utiliser le rangement et le prélèvement dirigés pour un emplacement, activez le bouton à bascule **Rangement et prélèvement dirigés** sur la page **Fiche magasin**.
 
-### Flux d’entrepôt
+### <a name="warehouse-flows"></a>Flux d’entrepôt
 
 * Flux entrant : déplace les articles vers le magasin d’entrepôt et les rend disponibles, par exemple pour les achats et les transferts entrants.
 * Flux sortant : prélève et expédie les articles aux clients ou à d’autres magasins.
 * Flux interne : gère les articles au sein d’un magasin. Par exemple, vous déplacez des composants vers la production ou effectuez un inventaire physique.
 
-### Documents de base  
+### <a name="basic-documents"></a>Documents de base
 
 Les documents suivants sont utilisés dans les flux d’entrepôt de base.
 
@@ -111,7 +111,7 @@ Les documents suivants sont utilisés dans les flux d’entrepôt de base.
 * Feuille article
 * Feuille reclassement article
 
-### Documents avancés  
+### <a name="advanced-documents"></a>Documents avancés
 
 Les documents suivants sont utilisés dans les flux d’entrepôt avancés.
 
@@ -129,11 +129,11 @@ Les documents suivants sont utilisés dans les flux d’entrepôt avancés.
 * Feuille article entrepôt
 * Feuilles reclassement article entrepôt
 
-### Pages et paramètres
+### <a name="pages-and-settings"></a>Pages et paramètres
 
 Cette section décrit les concepts sous-jacents aux pages et paramètres clés pour l’entreposage.
 
-#### Emplacements et Contenu emplacement
+#### <a name="bins-and-bin-content"></a>Emplacements et Contenu emplacement
 
 Un emplacement est un dispositif de stockage conçu pour contenir des éléments discrets. Il s’agit de la plus petite unité de conteneur dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les quantités d’articles dans les emplacements sont appelées *contenu de l’emplacement*. Une recherche à partir du champ **Article** ou du champ **Code emplacement** dans n’importe quel document entrepôt affiche la disponibilité calculée de l’article dans l’emplacement.  
 
@@ -150,7 +150,7 @@ Un emplacement dédié contient ce qui peut être prélevé pour la ressource d�
 
 Il ne peut y avoir qu’un emplacement par défaut par article et par magasin.  
 
-#### Type emplacement
+#### <a name="bin-type"></a>Type emplacement
 
 Les magasins qui utilisent le rangement et le prélèvement dirigés peuvent utiliser des types d’emplacement. Les types d’emplacement contrôlent les activités que vous autorisez pour un emplacement. Les types d’emplacement disponibles sont les suivants :  
 
@@ -168,7 +168,7 @@ Les magasins qui utilisent le rangement et le prélèvement dirigés peuvent uti
 > [!NOTE]  
 > Vous devez utiliser des mouvements pour déplacer les articles vers les emplacements RECEIVE et CQ. Utilisez des mouvements pour déplacer des articles des emplacements SHIP et CQ.  
 
-#### Priorité emplacement
+#### <a name="bin-ranking"></a>Priorité emplacement
 
 Dans l’entreposage avancé, vous pouvez automatiser et optimiser la collecte des articles dans les feuilles rangement et prélèvement en classant les emplacements. Les articles sont suggérés pour les prélèvements et les rangements en fonction du rangs des emplacements.
 
@@ -176,7 +176,7 @@ Les procédés de rangement sont optimisés en fonction de la priorité emplacem
 
 Le classement et le contenu des emplacements sont les propriétés de base qui guident les magasiniers dans l’entrepôt.  
 
-#### Paramétrage emplacement
+#### <a name="bin-setup"></a>Paramétrage emplacement
 
 Dans l’entreposage avancé, vous pouvez spécifier les valeurs de capacité suivantes pour contrôler comment et dans quels emplacements vous stockez les articles :
 
@@ -193,7 +193,7 @@ Avant de paramétrer des restrictions de capacité pour le contenu d’emplaceme
 > [!NOTE]  
 > Vous ne pouvez utiliser plusieurs unités de mesure que dans les magasins qui utilisent le rangement et le prélèvement dirigés. Dans toutes les autres configurations, les contenus emplacement ne peuvent être que dans l’unité de mesure de base. Dans les transactions avec une unité de mesure supérieure à l’unité de mesure de base de l’article, la quantité est transformée en unité de mesure base.  
 
-#### Zone
+#### <a name="zone"></a>Zone
 
 Dans l’entreposage avancé, des emplacements peuvent être groupés en zones pour gérer la manière dont le flux de travail des activités entrepôt est suggéré pour les magasins.  
 
@@ -201,7 +201,7 @@ Une zone peut être une zone de réception ou une zone de stockage, et chaque zo
 
 La plupart des propriétés affectées à une zone sont affectées aux emplacements créés pour la zone.  
 
-#### Classe entrepôt
+#### <a name="warehouse-class"></a>Classe entrepôt
 
 Dans l’entreposage avancé, vous pouvez affecter des codes de classe d’entrepôt aux entités suivantes : 
 
@@ -215,11 +215,11 @@ Lorsque vous travaillez sur des classes d’entrepôt avec un emplacement de ré
 
 En flux entrants, le code classe est uniquement sélectionné sur les lignes entrantes lorsque le code classe article ne correspond pas à l’emplacement de réception par défaut. Si les emplacements par défaut corrects ne sont pas affectés, la quantité ne peut pas être reçue.  
 
-#### Magasin
+#### <a name="location"></a>Magasin
 
 Un magasin est une structure physique ou un lieu où le stock est reçu, stocké et expédié. Un magasin peut être un entrepôt, une voiture de service, une salle d’exposition, une usine ou une zone d’une usine. Le stock est souvent organisé en emplacements et en zones.
 
-#### FEFO (First-Expired-First-Out, premier expiré, premier sorti)
+#### <a name="first-expired-first-out"></a>FEFO (First-Expired-First-Out, premier expiré, premier sorti)
 
 Si vous activez la case à cocher **Prélèvement selon FEFO** sur le raccourci **Config. emplacement** de la page **Fiche magasin**, les articles suivis sont prélevés dans le magasin en fonction de leur date d’expiration. Les articles dont les dates de péremption sont les plus proches sont prélevés en premier.  
 
@@ -227,13 +227,13 @@ Les activités d’entrepôt dans tous les document de prélèvement et de mouve
 
 Lors du prélèvement selon FEFO, les articles qui expirent en premier sont rassemblés dans une liste temporaire de traçabilité en fonction de la date de péremption. Si deux articles ont la même date de péremption, l’article avec le plus petit numéro de lot ou de série est sélectionné en premier. Si les numéros de lot ou de série sont identiques, l’article enregistré en premier est sélectionné en premier. Les critères standard de sélection des articles dans les emplacements prélèvement, par exemple Priorité emplacement et Déconditionnement, sont appliqués à la liste de traçabilité FEFO temporaire.  
 
-#### Modèle rangement
+#### <a name="put-away-template"></a>Modèle rangement
 
 Les modèles de rangement spécifient un ensemble de règles de priorité qui s’appliquent lorsque vous créez des rangements. Par exemple, un modèle de rangement peut vous obliger à placer des articles dans un emplacement dont le contenu a la même unité de mesure. S’il est impossible de trouver un emplacement similaire d’une capacité suffisante, l’article doit être placé dans un emplacement vide. Vous affectez un modèle de rangement à un article et à un magasin.  
 
-## Voir la [formation Microsoft](/training/modules/get-started-warehouse-management/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/get-started-warehouse-management/) associée
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Stock](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  

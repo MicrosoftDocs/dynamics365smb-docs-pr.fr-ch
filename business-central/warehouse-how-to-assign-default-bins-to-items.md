@@ -11,10 +11,10 @@ ms.search.form: '7371, 7374, 7379'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Affecter des emplacements par défaut à des articles
+# <a name="assign-default-bins-to-items"></a>Affecter des emplacements par défaut à des articles
 Si vous utilisez des emplacements dans un magasin, l’affectation d’emplacements par défaut à vos articles peut simplifier considérablement leur processus d’expédition, de réception et de déplacement. Lorsqu’un emplacement par défaut est affecté à un article, cet emplacement est suggéré chaque fois que vous lancez une transaction pour cet article. Les emplacements par défaut sont définis sur la page **Contenu emplacement**.  
 
-## Pour affecter un emplacement par défaut à un article
+## <a name="to-assign-a-default-bin-to-an-item"></a>Pour affecter un emplacement par défaut à un article
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille création contenu emplacement**, et choisissez le lien associé.  
 2.  Renseignez le code emplacement et les informations article pour chaque emplacement que vous souhaitez définir par défaut pour un article. Veillez à sélectionner le champ **Valeur par défaut**.  
 3.  Choisissez l’action **Créer contenu emplacement**. Des emplacements par défaut sont maintenant affectés à votre article.  
@@ -22,7 +22,7 @@ Si vous utilisez des emplacements dans un magasin, l’affectation d’emplaceme
 > [!NOTE]  
 >  Lorsqu’un article est rangé, si un emplacement par défaut ne lui est pas affecté, l’emplacement dans lequel l’article est rangé est affecté par défaut.  
 
-## Pour modifier l’emplacement par défaut pour un article  
+## <a name="to-change-the-default-bin-for-an-item"></a>Pour modifier l’emplacement par défaut pour un article
 Vous pouvez être amené à modifier l’affectation de l’emplacement par défaut pour un article ou à affecter un emplacement par défaut à un nouvel article.
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Contenu d’un emplacement**, puis sélectionnez le lien associé.  
 2.  Dans le champ **Filtre magasin**, sélectionnez le code emplacement approprié.  
@@ -32,7 +32,7 @@ Vous pouvez être amené à modifier l’affectation de l’emplacement par déf
 > [!NOTE]  
 >  Lorsqu’un article est rangé pour la première fois, et si un emplacement par défaut ne lui est pas affecté, le système lui affecte comme emplacement par défaut celui dans lequel l’article est rangé.  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  
 [Configuration de Warehouse Management](warehouse-setup-warehouse.md) 

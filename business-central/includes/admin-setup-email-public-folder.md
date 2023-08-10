@@ -15,7 +15,7 @@ Avant de pouvoir configurer la connexion à la messagerie, vous devez préparer 
 
 Suivez les étapes ci-dessous pour configurer Exchange Online, avec des liens vers où vous pouvez en savoir plus.
 
-### Créer un groupe de rôles d’administrateur
+### <a name="create-an-admin-role-group"></a>Créer un groupe de rôles d’administrateur
 
 Créez un groupe de rôles d’administrateur pour les dossiers publics en fonction des informations de la table suivante :
 
@@ -27,7 +27,7 @@ Créez un groupe de rôles d’administrateur pour les dossiers publics en fonct
 
 Pour en savoir plus, voir [Gérer les groupes de rôles dans Exchange Online](/exchange/permissions-exo/role-groups).
 
-### Créer une boîte aux lettres de dossiers publics
+### <a name="create-a-new-public-folder-mailbox"></a>Créer une boîte aux lettres de dossiers publics
 
 Créez une nouvelle boîte aux lettres pour les dossiers publics en fonction des informations de la table suivante :
 
@@ -37,7 +37,7 @@ Créez une nouvelle boîte aux lettres pour les dossiers publics en fonction des
 
 Pour plus d’informations, voir [Créer une boîte aux lettres de dossiers publics](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
-### Créer de nouveaux dossiers publics
+### <a name="create-new-public-folders"></a>Créer de nouveaux dossiers publics
 
 1. Créez un dossier public avec le nom **Connexion à la messagerie** à la racine afin que le chemin d’accès complet au dossier devienne `\Email Logging\`.
 2. Créez deux sous-dossiers afin que le résultat soit les chemins d’accès complets suivants aux dossiers :
@@ -47,23 +47,23 @@ Pour plus d’informations, voir [Créer une boîte aux lettres de dossiers publ
 
 Pour plus d’informations, voir [Créer un dossier public](/exchange/collaboration-exo/public-folders/create-public-folder).
 
-### Définir la propriété des dossiers publics
+### <a name="set-public-folder-ownership"></a>Définir la propriété des dossiers publics
 
 Définissez l’utilisateur de la connexion à la messagerie en tant que propriétaire des deux dossiers publics, *File d’attente* et *Espace de stockage*.
 
 Pour plus d’informations, voir [Affecter des autorisations au dossier public](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-### Activer la messagerie du dossier public *File d’attente*
+### <a name="mail-enable-the-queue-public-folder"></a>Activer la messagerie du dossier public *File d’attente*
 
   Pour plus d’informations, voir [Activer ou désactiver la messagerie d’un dossier public](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
-### Activer la messagerie pour envoyer des e-mails au dossier public *File d’attente*
+### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Activer la messagerie pour envoyer des e-mails au dossier public *File d’attente*
 
 Activer la messagerie pour envoyer des e-mails au dossier public *File d’attente* à l’aide d’Outlook ou du shell de gestion Exchange.
 
 Pour plus d’informations, voir [Autoriser les utilisateurs anonymes à envoyer des e-mails vers un dossier public à messagerie activée](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?preserve-view=true).
 
-### Créer des règles de flux de messagerie
+### <a name="create-mail-flow-rules"></a>Créer des règles de flux de messagerie
 
 Créez deux règles de flux de messagerie en fonction des informations de la table suivante :
 

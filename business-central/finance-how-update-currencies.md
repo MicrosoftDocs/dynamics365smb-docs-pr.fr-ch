@@ -8,11 +8,11 @@ ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
 ---
-# Mettre à jour des taux de change devise
+# <a name="update-currency-exchange-rates"></a>Mettre à jour des taux de change devise
 
 Vous pouvez définir différentes devises dans [!INCLUDE [prod_short](includes/prod_short.md)], par exemple si vous achetez ou vendez dans des devises autres que votre devise locale. Ensuite, pour vous aider à suivre l’évolution des taux de change, vous pouvez gérer les devises manuellement ou configurer un service de taux de change.
 
-## Devises
+## <a name="currencies"></a>Devises
 
 > [!TIP]  
 > Dans [!INCLUDE[prod_short](includes/prod_short.md)], si vous recherchez des informations en temps réel sur les taux de devise étrangère (FX) ou les taux historiques, vous les trouverez sous la désignation de devise. En plus de cet article, voir aussi [Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md).
@@ -21,11 +21,11 @@ Vous pouvez définir différentes devises dans [!INCLUDE [prod_short](includes/p
 
 Vous spécifiez les codes devise dans la liste **Devises**, y compris les informations supplémentaires et les paramètres nécessaires pour chaque code devise. Pour plus d’informations, voir [Devises](finance-set-up-currencies.md#curr)
 
-### Exemple de transaction en devise comptabilité
+### <a name="example-of-a-receivable-currency-transaction"></a>Exemple de transaction en devise comptabilité
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Taux de change
+## <a name="exchange-rates"></a>Taux de change
 
 Les taux de change permettent de calculer la valeur en devise société (DS) de chaque transaction en devise. La page **Taux d’échange** comprend les champs suivants :
 
@@ -54,7 +54,7 @@ Le montant du taux de change d’ajustement ou le montant du taux de change d’
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## Ajustement des taux de change
+## <a name="adjusting-exchange-rates"></a>Ajustement des taux de change
 
 Comme les taux de change ne cessent de fluctuer, il convient d’ajuster périodiquement les équivalents devise supplémentaires de votre système. À défaut d’effectuer ces ajustements, les montants convertis à partir de devises étrangères (ou supplémentaires) et publiés dans la comptabilité en DS risquent d’être erronés. En outre, les écritures quotidiennes validées avant la saisie d’un taux de change quotidien dans l’application doivent être mises à jour après la saisie des informations de taux de change quotidienne.
 
@@ -69,28 +69,28 @@ Vous pouvez consulter un aperçu de l’effet d’un ajustement sur la comptabil
 - **Par compte général** : Les écritures comptables pour les pertes et profits non réalisés auront des sections analytiques transférées à partir de l’écriture source des paramètres des axes analytiques du compte général de pertes et profits non réalisés.
 - **Pas de transfert** : Les écritures comptables pour les pertes et profits non réalisés n’auront pas de sections analytiques.
 
-### Effet sur les clients et fournisseurs
+### <a name="effect-on-customers-and-vendors"></a>Effet sur les clients et fournisseurs
 
 Pour les comptes client et fournisseur, le traitement par lots ajuste la devise en utilisant le taux de change valide à la date de comptabilisation spécifiée dans le traitement par lots. Le traitement par lots calcule les différences pour chaque solde en devise et valide les montants dans le compte général spécifié dans le champ **Compte gains prévus** ou **Compte pertes prévues** de la page **Devises**. Les écritures de contrepartie sont automatiquement validées sur le compte client/fournisseur en comptabilité.
 
 Ce traitement par lots traite toutes les écritures comptables client et toutes les écritures comptables fournisseur ouvertes. En cas de différence du taux de change d’une écriture, le traitement par lots crée une écriture comptable détaillée client ou fournisseur reflétant le montant ajusté dans l’écriture comptable client ou fournisseur.
 
-#### Axes analytiques sur des écritures comptables client et fournisseur
+#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Axes analytiques sur des écritures comptables client et fournisseur
 
 Les axes analytiques des écritures comptables client/fournisseur sont affectés aux écritures ajustement et les ajustements sont validés par combinaison de sections analytiques.
 
-### Effet sur les comptes bancaires
+### <a name="effect-on-bank-accounts"></a>Effet sur les comptes bancaires
 
 Pour les comptes bancaires, le traitement par lots ajuste la devise en utilisant le taux de change valide à la date de comptabilisation spécifiée dans le traitement par lots. Le traitement par lots calcule les différences pour chaque compte bancaire possédant un code devise et valide les montants dans le compte général spécifié dans le champ **Compte gains constatés** ou **Compte pertes constatées** de la page **Devises**. Les écritures de contrepartie sont automatiquement validées sur les comptes bancaires spécifiés dans les groupes comptabilisation banque. Le traitement par lots calcule une écriture par devise et par groupe comptabilisation.
 
-#### Axes analytiques sur des écritures compte bancaire
+#### <a name="dimensions-on-bank-account-entries"></a>Axes analytiques sur des écritures compte bancaire
 
 Les axes analytiques par défaut du compte bancaire sont affectés aux écritures ajustement pour le compte général du compte bancaire et pour le compte gain/perte.
 
-### Effet sur les comptes généraux
+### <a name="effect-on-gl-accounts"></a>Effet sur les comptes généraux
 Si vous validez en devise report, vous pouvez demander au traitement par lots de créer de nouvelles écritures comptables pour les ajustements de devise entre devise société et devise report. Le traitement par lots calcule les différences pour chaque écriture comptable et ajuste l’écriture comptable en fonction de la valeur du champ **Ajustement taux de change** de chaque compte général.
 
-##### Axes analytiques sur des écritures compte général
+##### <a name="dimensions-on-gl-account-entries"></a>Axes analytiques sur des écritures compte général
 Les axes analytiques par défaut des comptes dans lesquels ils sont validés sont affectés aux écritures ajustement.
 
 > [!Important]
@@ -98,7 +98,7 @@ Les axes analytiques par défaut des comptes dans lesquels ils sont validés son
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## Configurer un service de taux de change des devises
+## <a name="to-set-up-a-currency-exchange-rate-service"></a>Configurer un service de taux de change des devises
 Vous pouvez utiliser un service externe pour tenir vos taux de change des devises à jour, par exemple FloatRates. 
 
 > [!NOTE]
@@ -116,15 +116,15 @@ Vous pouvez utiliser un service externe pour tenir vos taux de change des devise
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## Pour mettre à jour les taux de change des devises à partir d’un service
+## <a name="to-update-currency-exchange-rates-through-a-service"></a>Pour mettre à jour les taux de change des devises à partir d’un service
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devises**, puis choisissez le lien associé.
 2. Choisissez l’option **Mettre à jour les taux de change**.
 
 La valeur dans le champ **Taux de change** de la page **Devises** est mise à jour avec le dernier taux de change des devises.
 
-## Voir la [formation Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) associée
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Devises dans Business Central](finance-currencies.md)  
 [Configurer des devises](finance-set-up-currencies.md)  

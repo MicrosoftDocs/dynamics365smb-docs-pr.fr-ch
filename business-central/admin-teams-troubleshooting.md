@@ -11,36 +11,36 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# Dépannage de l’intégration de Microsoft Teams avec [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="troubleshooting-microsoft-teams-integration-with-"></a>Dépannage de l’intégration de Microsoft Teams avec [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Cet article fournit des informations sur la façon d’identifier et de résoudre les problèmes que vous pouvez rencontrer lors de l’utilisation de Microsoft Teams avec[!INCLUDE [prod_short](includes/prod_short.md)], en tant qu’utilisateur ou administrateur typique.
 
-## Le lien de connexion ne fonctionne pas
+## <a name="the-sign-in-link-doesnt-work"></a>Le lien de connexion ne fonctionne pas
 
 Si vous essayez de vous connecter à l’application [!INCLUDE [prod_short.md](includes/prod_short.md)] pour Teams immédiatement après l’installation de l’application et que le lien de connexion ne réagit pas, cela peut être dû au fait que l’application n’a pas complètement terminé l’installation. Pour essayer de résoudre le problème, déconnectez-vous de votre client Teams, puis reconnectez-vous.
 
-## La page Paramètres est vide
+## <a name="the-settings-page-is-empty"></a>La page Paramètres est vide
 
 Vous devez d’abord vous connecter pour accéder à vos paramètres. Pour vous connecter à l’application, collez un lien vers un enregistrement [!INCLUDE [prod_short.md](includes/prod_short.md)], ou essayez de rechercher des contacts. Ces deux actions vous mèneront à travers une expérience d’inscription, après quoi vous pourrez utiliser la page **Paramètres**.
 
-## J’ai changé d’entreprise, mais ça n’a pas semblé marcher
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>J’ai changé d’entreprise, mais ça n’a pas semblé marcher
 
 Après avoir changé d’entreprise sur la page **Paramètres**, vous remarquerez peut-être que la liste déroulante de la boîte de commande indique que vous recherchez toujours la société précédente. Ce problème se produit lorsque vous ouvrez la page **Paramètres** directement à partir de la boîte de commande. Dans ce cas, la société a été modifiée avec succès et vous rechercherez en fait la société vers laquelle vous avez basculé. Le problème est que la liste déroulante de la boîte de commande n’a tout simplement pas encore été mise à jour. Pour que la liste déroulante reflète avec précision l’entreprise dans laquelle vous recherchez, fermez ou détachez [!INCLUDE [prod_short.md](includes/prod_short.md)] à partir de la boîte de commande, puis ouvrez à nouveau l’application.
 
 
 <!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
 
-## Erreur "Une erreur s’est produite" lors de la recherche de contacts
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a>Erreur "Une erreur s’est produite" lors de la recherche de contacts
 
 Vous pouvez rencontrer cette erreur lorsque vous recherchez dans une entreprise qui n’a pas été initialisée ou qui ne répond pas. Par exemple, vous ne pouvez pas rechercher dans une nouvelle société d’essai qui n’a pas encore accepté les conditions d’utilisation. Pour résoudre ce problème, essayez de vous connecter au client Web [!INCLUDE [prod_short.md](includes/prod_short.md)], et agissez sur ou fermez toutes les boîtes de dialogue initiales qui apparaissent.
 
-## Erreur « Impossible de trouver l′API de contact/résumé des contacts » lors de la recherche de contacts
+## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>Erreur « Impossible de trouver l′API de contact/résumé des contacts » lors de la recherche de contacts
 
 Ce problème peut être causé par des personnalisations ou des solutions industrielles qui affectent ou modifient [!INCLUDE [prod_short.md](includes/prod_short.md)], ou qui ne fournissent pas d′API de contact ou de résumé des contacts. Si le problème persiste, contactez l’administrateur ou partenaire d’assistance.
 
-## Aucun de mes liens ne se transforme en fiche 
+## <a name="none-of-my-links-expand-into-a-card"></a>Aucun de mes liens ne se transforme en fiche
 
 Si vous rencontrez ce problème, voici quelques choses à essayer :
 
@@ -61,7 +61,7 @@ Si vous rencontrez ce problème, voici quelques choses à essayer :
 
 4. Votre organisation peut également vous empêcher de coller des liens qui se développent en fiches. Contactez votre administrateur pour comprendre les stratégies d’organisation Teams qui peuvent s’appliquer à vous.
 
-## Mon lien ne se développe parfois pas dans une fiche 
+## <a name="my-link-sometimes-doesnt-expand-into-a-card"></a>Mon lien ne se développe parfois pas dans une fiche
 
 Un lien ne se développera pas dans une fiche dans les situations suivantes :
 
@@ -83,7 +83,7 @@ Par exemple :
 
 Pour des détails techniques sur les URL [!INCLUDE [prod_short](includes/prod_short.md)], voir [URL du client Web](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) dans l’Aide destinée aux développeurs et aux professionnels de l’informatique [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## La fenêtre de détails s’ouvre, mais affiche une erreur avant que les détails ne soient affichés
+## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>La fenêtre de détails s’ouvre, mais affiche une erreur avant que les détails ne soient affichés
 
 Ce problème peut être causé par plusieurs facteurs : le manque d’autorisations dans [!INCLUDE [prod_short](includes/prod_short.md)] ou les paramètres du navigateur (lors de l’utilisation de Teams dans le navigateur).
 
@@ -101,7 +101,7 @@ Ce problème peut être causé par plusieurs facteurs : le manque d’autorisat
 
     Pour plus d’informations sur la configuration minimale requise pour les navigateurs, consultez [Exigences minimales pour l’utilisation de [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## Je rencontre des problèmes avec la caméra ou l’emplacement dans Teams
+## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Je rencontre des problèmes avec la caméra ou l’emplacement dans Teams
 
 Lors de l’utilisation des fonctionnalités [!INCLUDE [prod_short](includes/prod_short.md)] dans la fenêtre des détails qui nécessitent l’accès à votre emplacement ou à la caméra de votre appareil, vous devez d’abord donner votre consentement pour que Teams puisse accéder à ces fonctionnalités de l’appareil.  
 
@@ -115,7 +115,7 @@ L’application [!INCLUDE [prod_short](includes/prod_short.md)] ne prend pas en 
 
 Certains navigateurs, comme le nouveau Microsoft Edge, vous permet de choisir la caméra d’appareil à utiliser lorsque votre appareil prend en charge plusieurs caméras. 
 
-## Teams affiche des langues mixtes pour mes fiches et les détails de ma fiche
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams affiche des langues mixtes pour mes fiches et les détails de ma fiche
 
 Pour que les fiches et les détails des fiches s’affichent de manière cohérente dans la même langue dans Teams, la langue de votre client Teams et la langue que vous utilisez dans le client Web [!INCLUDE [prod_short](includes/prod_short.md)] doit correspondre.
 
@@ -125,11 +125,11 @@ Pour que les fiches et les détails des fiches s’affichent de manière cohére
 
 Pour plus d’informations sur le fonctionnement des langues entre Teams et [!INCLUDE [prod_short](includes/prod_short.md)], voir [FAQ Teams](teams-faq.md#language).
 
-## J’ai modifié un champ dans la fenêtre de détails, mais ma modification n’a pas été enregistrée
+## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>J’ai modifié un champ dans la fenêtre de détails, mais ma modification n’a pas été enregistrée
 
 Les modifications que vous apportez à un champ dans les fenêtres de détails sont automatiquement enregistrées lorsque vous quittez le champ. Avant de fermer la fenêtre après avoir modifié un champ, assurez-vous d’appuyer sur la touche <kbd>Tab</kbd> ou de cliquer/appuyer en dehors du champ.
 
-## Une nouvelle vignette est apparue dans le lanceur d’applications. Comment la supprimer ?
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>Une nouvelle vignette est apparue dans le lanceur d’applications. Comment la supprimer ?
 
 Lorsque vous affichez vos applications sur la page d’accueil Office 365 (https://home.office.com) ou dans le lanceur d’applications, une nouvelle vignette nommée "Connecteur du service d’intégration Teams Business Central" apparaîtra après l’installation de l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams. Cette vignette ne fournit aucune valeur en soi et peut être masquée en toute sécurité.
 
@@ -143,19 +143,19 @@ En tant qu’administrateur, avec des autorisations d’administrateur Azure Act
 > [!NOTE]
 > Il faudra un certain temps avant que ce changement ne prenne effet.
 
-## Dupliquer du texte dans la fenêtre Partager avec Teams
+## <a name="duplicate-text-in-the-share-to-teams-window"></a>Dupliquer du texte dans la fenêtre Partager avec Teams
 
 Lorsque vous collez du texte dans la zone de message de la fenêtre **Partager avec Teams**, le texte est dupliqué. Ce problème est connu de Microsoft et sera résolu dans une mise à jour ultérieure. 
 
-## Impossible de se connecter à la fenêtre Partager avec Teams 
+## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Impossible de se connecter à la fenêtre Partager avec Teams
 
 Ce problème peut être causé par diverses raisons. Par exemple, l’identité que vous utilisez pour vous connecter doit avoir accès à Microsoft Teams, par exemple via un abonnement Microsoft 365.
 
-## Mes cartes n’ont plus de bouton de fenêtre contextuelle
+## <a name="my-cards-no-longer-have-a-popout-button"></a>Mes cartes n’ont plus de bouton de fenêtre contextuelle
 
 À partir d’avril 2022, les liens affichés sous forme de carte compacte dans Teams ne contiendront plus le bouton **Fenêtre contextuelle**. Pour ouvrir la carte dans sa propre fenêtre, choisissez le bouton **Détails**, puis **Ouvrir dans le navigateur** dans le menu des points de suspension (**...**) dans le coin supérieur droit de la fenêtre.
 
-## Impossible d’épingler une carte à l’onglet
+## <a name="cant-pin-a-card-to-tab"></a>Impossible d’épingler une carte à l’onglet
 
 Deux raisons expliquent ce problème.
 
@@ -163,16 +163,16 @@ Deux raisons expliquent ce problème.
 
 - Impossible d’épingler tant que vous n’avez pas ajouté votre premier onglet Business Central. Ce problème est connu dans Teams. 
 
-## Quelqu’un a ajouté un onglet, mais l’onglet ne s’affiche pas pour moi
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Quelqu’un a ajouté un onglet, mais l’onglet ne s’affiche pas pour moi
 
 Ce problème est dû au fait que l’application BC pour Teams n’est pas installée. Seuls ceux qui ont installé l’application verront les onglets Business Central.
 
-## D’autres voient un tri ou une disposition des colonnes différents de ce que voit l’auteur de l’onglet
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>D’autres voient un tri ou une disposition des colonnes différents de ce que voit l’auteur de l’onglet
 
 Ce problème est probablement dû au fait que vous avez partagé une vue de liste qui est une vue personnelle. Dans ce cas, travaillez avec l’administrateur pour créer des vues de liste spécifiques aux rôles qui couvrent les différents rôles dans le canal/la discussion instantanée, ou créez cette vue pour l’ensemble de l’organisation afin que tout le monde puisse obtenir une vue cohérente.
 
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble de l’intégration [!INCLUDE [prod_short](includes/prod_short.md)] et Microsoft Teams ](across-teams-overview.md)  
 [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)  

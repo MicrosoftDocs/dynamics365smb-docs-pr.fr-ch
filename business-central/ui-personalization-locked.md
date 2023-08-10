@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Pourquoi la personnalisation d’une page est verrouillée
+# <a name="why-a-page-is-locked-from-personalization"></a>Pourquoi la personnalisation d’une page est verrouillée
 
 Deux conditions vous empêchent de personnaliser une page. La page est verrouillée (comme indiqué par l’icône ![Verrouillage de personnalisation.](media/personalization-lock-icon.png "Verrouillage de personnalisation")) ou bloquée (comme indiqué par l’icône ![Personnalisation bloquée.](media/personalization-blocked-icon.png "Personnalisation bloquée") .
 
-## Personnalisation verrouillée
+## <a name="locked-from-personalizing"></a>Personnalisation verrouillée
 
 S’il y a une icône ![Verrouillage de personnalisation.](media/personalization-lock-icon.png "Verrouillage de personnalisation") dans la bannière **Personnalisation** lorsque vous ouvrez une page, vous ne pouvez pas apporter d’autres modifications de personnalisation à la page.
 
@@ -30,14 +30,14 @@ Deux raisons sont possibles :
 
 2. Jusqu’ici, vous n’avez utilisé que la version obsolète de [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] pour personnaliser la page.
 
-### Déverrouillage de la page
+### <a name="unlocking-the-page"></a>Déverrouillage de la page
 
 Si vous souhaitez déverrouiller une page et poursuivre sa personnalisation, sélectionnez l’icône ![Verrouillage de personnalisation](media/personalization-lock-icon.png "Verrouillage de personnalisation"), puis l’action **Déverrouiller**.  
 
 > [!CAUTION]
 > La personnalisation actuelle de la page est désactivée. La page reviendra à sa mise en page d’origine et vous devrez recommencer à zéro.  
 
-## Personnalisation bloquée
+## <a name="blocked-from-personalizing"></a>Personnalisation bloquée
 
 S’il y a une icône ![Personnalisation bloquée](media/personalization-blocked-icon.png "Personnalisation bloquée") dans la bannière **Personnalisation**, vous ne pouvez pas apporter de personnalisation à la page.
 
@@ -45,7 +45,7 @@ S’il y a une icône ![Personnalisation bloquée](media/personalization-blocked
 
 La raison est que le Tableau de bord ou le rôle actuellement associé à votre compte d’utilisateur modifie cette page, notamment pour votre rôle. Contactez votre administrateur pour obtenir de l’aide. Sinon, essayez de passer à un Tableau de bord qui inclut la personnalisation des rôles pour cette page. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Personnaliser votre espace de travail](ui-personalization-user.md)  
 [Personnaliser les pages pour les profils](ui-personalization-manage.md)  

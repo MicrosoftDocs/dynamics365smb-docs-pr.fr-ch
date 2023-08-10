@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-bank'
 ms.search.form: '600, 610'
 ---
-# Utiliser les documents et les feuilles intersociétés
+# <a name="work-with-intercompany-documents-and-journals"></a>Utiliser les documents et les feuilles intersociétés
 
 Utilisez les documents ou les feuilles intersociétés pour valider les transactions effectuées avec vos partenaires intersociétés. Vous pouvez publier des transactions sur des comptes généraux et, si vous avez configuré des comptes bancaires intersociétés, vous pouvez également publier des transactions de banque à banque. Pour en savoir plus sur la configuration des comptes bancaires intersociétés, accédez à [Spécifier les comptes bancaires à utiliser pour les partenaires intersociétés](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
 
@@ -20,7 +20,7 @@ Pour les documents achat et vente, le code partenaire intersociétés du client 
 
 Il en est de même pour les lignes feuille comptabilité intersociétés. Vous n’avez pas besoin de spécifier de comptes, il vous suffit de choisir l’entreprise partenaire. Les lignes feuille comptabilité inter-sociétés correspondantes sont ensuite créées dans la société partenaire.
 
-## Renseigner et envoyer une commande vente intersociétés
+## <a name="fill-in-and-send-an-intercompany-sales-order"></a>Renseigner et envoyer une commande vente intersociétés
 
 Vous pouvez envoyer les commandes vente et achat, ainsi que les retours avant qu’ils soient validés. En revanche, l’envoi des factures et avoirs est impossible tant qu’ils ne sont pas validés.
 
@@ -35,7 +35,7 @@ La procédure suivante explique comment renseigner et envoyer une commande vente
 > [!NOTE]
 > Si vous effectuez l’étape 5, la commande vente est déplacée vers votre boîte d’envoi intersociétés, d’où vous pouvez l’envoyer ultérieurement. Pour en savoir plus sur la boîte de réception et la boîte d’envoi intersociétés, accédez à [Gérer la boîte de réception et la boîte d’envoi intersociétés](intercompany-how-manage-intercompany-inbox.md).
 
-## Renseigner et valider une feuille intersociétés
+## <a name="fill-in-and-post-an-intercompany-journal"></a>Renseigner et valider une feuille intersociétés
 
 Lorsque vous validez une ligne feuille comptabilité intersociétés dans votre société, le programme crée la ligne feuille correspondante dans votre boîte d’envoi intersociétés : vous pouvez la transmettre au partenaire concerné. Avec la 1re vague de lancement 2022, vous pouvez également configurer la société afin que soient créées automatiquement les transactions intersociétés reçues des partenaires intersociétés, validées via les feuilles comptabilité intersociétés. Celui-ci peut ensuite valider la transaction correspondante dans sa société sans avoir à réentrer les données.
 
@@ -50,7 +50,7 @@ Lorsque vous validez une ligne feuille comptabilité intersociétés dans votre 
 
 Les écritures sont validées dans votre société et une feuille avec les écritures correspondantes est créée dans votre boîte d’envoi intersociétés ; vous pouvez l’envoyer à votre partenaire.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion des transactions intersociétés](intercompany-manage.md)  
 [Finances](finance.md)  
