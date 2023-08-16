@@ -9,13 +9,13 @@ ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
-# <a name="add-marketing-text-to-items"></a>Ajouter du texte marketing aux articles
+# Ajouter du texte marketing aux articles
 
 Pour tous les articles enregistrés dans Business Central, vous pouvez écrire du *texte marketing* sur l’article dans Business Central. Bien que le texte marketing soit une sorte de description, il est différent du champ **Description** d’un article. Le champ **Description** est généralement utilisé comme nom d’affichage concis pour identifier rapidement le produit. Le texte marketing, quant à lui, est un texte plus riche et descriptif. Son objectif est d’ajouter du contenu marketing et promotionnel, également appelé *copie*. Ce texte peut ensuite être publié avec l’article s’il est publié sur une boutique en ligne, comme Shopify.
 
 Il existe deux manières de créer du texte marketing. Le moyen le plus simple de commencer est d’utiliser Copilot, qui vous suggère un texte généré par l’IA. L’autre façon est de repartir de zéro. 
 
-## <a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name=copilot></a>Créer un texte marketing généré par l’IA (version préliminaire) avec Copilot
+## <a name=copilot></a>Créer un texte marketing généré par l’IA (version préliminaire) avec Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -29,7 +29,7 @@ Copilot est conçu pour vous faire gagner du temps et vous aider à rédiger des
 > [!NOTE]
 > Dans la version préliminaire de Business Central, le texte généré par l’IA est uniquement en anglais.
 
-### <a name="prerequisites"></a>Conditions préalables
+### Conditions préalables
 
 - Vous utilisez une [version préliminaire](ai-preview-getstarted.md) de Business Central qui est activée pour Copilot. L’activation de Copilot est effectuée par un administrateur. Pour plus d’informations, accédez à [Configurer le texte marketing d’un article basé sur l’IA avec Copilot](enable-ai.md).
 - La langue que vous utilisez dans Business Central doit être l’anglais. Tous les paramètres régionaux anglais disponibles fonctionneront, comme l’anglais (États-Unis), l’anglais (Royaume-Uni) ou l’anglais (Afrique du Sud).
@@ -37,7 +37,7 @@ Copilot est conçu pour vous faire gagner du temps et vous aider à rédiger des
    Pour modifier la langue, dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") > **Mes paramètres** > **Langue**. Pour plus d’informations, consultez [Modifier les paramètres de base](ui-change-basic-settings.md#language).
 - Consultez la [FAQ de Copilot](ai-faq.md) pour en savoir plus sur les suggestions de texte générées par l’IA de Copilot et sur la manière de les utiliser.
 
-### <a name="create-first-draft-with-copilot"></a>Créer un premier brouillon avec Copilot
+### Créer un premier brouillon avec Copilot
 
 1. Dans Business Central, ouvrez l’article que vous souhaitez modifier. Pour ouvrir un article, procédez comme suit :
 
@@ -72,7 +72,7 @@ Copilot est conçu pour vous faire gagner du temps et vous aider à rédiger des
    > [!TIP]
    > [D’où vient la suggestion ?](ai-faq.md#how-does-copilot-work-where-does-the-suggested-text-come-from)
 
-### <a name="review-edit-and-save-text"></a>Vérifier, modifier et enregistrer le texte
+### Vérifier, modifier et enregistrer le texte
 
 Une fois que vous avez le premier brouillon, vous devez le réviser et apporter des modifications au texte pour le préparer à la publication. Ce travail est effectué à partir de la page **Créer avec Copilot**. Le texte actuel est affiché dans la zone **Texte marketing**. La page vous permet d’obtenir plus de suggestions, de modifier les préférences pour influencer les suggestions, d’apporter manuellement des modifications et de styliser le texte.
 
@@ -94,7 +94,7 @@ Utilisez les instructions suivantes pour finaliser et enregistrer le texte marke
 4. Si vous souhaitez revenir à la suggestion précédente, sélectionnez **Annuler**.
 5. Examinez attentivement le texte pour en vérifier l’exactitude et la pertinence, puis sélectionnez **OK** pour l’enregistrer.
 
-### <a name="improve-and-tailor-text-suggestions"></a>Améliorez et personnalisez les suggestions de texte
+### Améliorez et personnalisez les suggestions de texte
 
 Vous pouvez effectuer quelques étapes pour améliorer les suggestions de texte et les ajuster en fonction de vos préférences personnelles ou de celles de votre entreprise.
 
@@ -115,7 +115,7 @@ Vous pouvez effectuer quelques étapes pour améliorer les suggestions de texte 
 
    Copilot trouvera des mots et des phrases liés à la catégorie et les intégrera au texte suggéré.
 
-## <a name="create-marketing-text-from-scratch"></a>Créer un texte marketing à partir de zéro
+## Créer un texte marketing à partir de zéro
 
 1. Dans Business Central, ouvrez l’article que vous souhaitez modifier comme suit :
 
@@ -129,7 +129,7 @@ Vous pouvez effectuer quelques étapes pour améliorer les suggestions de texte 
 3. Modifiez le texte directement dans la zone **Texte marketing**. Utilisez la barre d’outils en bas de la zone pour mettre en forme et styliser le texte, ajouter des liens, etc.
 4. Sélectionner **OK** quand vous avez terminé pour enregistrer le texte.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble du texte marketing article optimisé par l’IA avec Copilot](ai-overview.md)  
 [Configuration du texte marketing article optimisé par l’IA avec Copilot](enable-ai.md)  

@@ -1,8 +1,8 @@
 ---
-author: rubenseishima
+author: brentholtorf
 ms.topic: include
-ms.date: 06/30/2022
-ms.author: a-reishima
+ms.date: 08/03/2023
+ms.author: bholtorf
 ---
 
 1. Sélectionnez ![l’icône Ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Fournisseurs**, puis choisissez le lien associé.
@@ -15,4 +15,4 @@ ms.author: a-reishima
 > Certains champs sont masqués jusqu’à ce que vous choisissiez l’action **Afficher plus**, généralement parce qu’ils sont rarement utilisés. D’autres doivent être ajoutés par personnalisation. Pour plus d’informations, voir [Personnaliser votre espace de travail](../ui-personalization-user.md).
 
 > [!WARNING]
-> Certains champs du compte bancaire fournisseur peuvent contenir des données métier sensibles, comme les champs **Code établissement**, **N° de compte bancaire**, **Code BIC** et **Code IBAN**. Pour plus d’informations sur la façon de surveiller et d’être averti lorsque quelqu’un modifie une valeur dans ces champs, consultez [Surveillance des champs sensibles](../across-log-changes.md#monitoring-sensitive-fields).
+> Certains champs du compte bancaire fournisseur peuvent contenir des données métier sensibles, comme les champs **Code établissement**, **N° de compte bancaire**, **Code BIC** et **Code IBAN**. Pour plus d’informations sur la façon de surveiller et d’être averti lorsque quelqu’un modifie une valeur dans ces champs, consultez [Surveiller les champs sensibles](../across-log-changes.md#monitor-sensitive-fields).

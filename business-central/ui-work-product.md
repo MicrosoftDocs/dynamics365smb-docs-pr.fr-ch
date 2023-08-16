@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-"></a>Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]
+# Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Dans le cadre de l’exécution des tâches, vous interagissez avec des données de différentes manières : création d’enregistrements et saisie de données, tri et filtrage de données, rédaction de procédures et sortie de données vers d’autres applications.
 
@@ -18,14 +18,14 @@ Par exemple, vous pouvez ajuster la taille et la position de n’importe quelle 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Conseils
+## <a name="cheatsheet"></a>Conseils
 
 > [!TIP]
 > Pour obtenir un aperçu facile à imprimer des fonctions les plus utilisées, sélectionnez l’image suivante et téléchargez le fichier PDF.
 >
 > [ ![Icône pour le fichier PDF.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icône qui ouvre un PDF")
 
-## <a name="links-to-learn-more"></a>Liens pour en savoir plus
+## Liens pour en savoir plus
 
 Le tableau suivant répertorie certaines des fonctionnalités générales et inclut des liens vers les rubriques qui les décrivent.
 
@@ -51,12 +51,12 @@ Le tableau suivant répertorie certaines des fonctionnalités générales et inc
 | Gérez le contenu et le format des états et des documents, dont les champs de données d’un ensemble de données de rapport apparaissant sur le rapport et la façon ils sont organisés, le style de texte, les images, et plus encore.|[Gestion des présentations de rapport et de document](ui-manage-report-layouts.md) |
 |En savoir plus sur les fonctions et les capacités qui permettent aux personnes handicapées accéder facilement à [!INCLUDE[prod_short](includes/prod_short.md)].|[Accessibilité et raccourcis clavier](ui-accessibility.md)|
 
-## <a name="getting-around-in-business-central"></a>Parcourir Business Central
+## Parcourir Business Central
 Voici une courte vidéo sur la manière de parcourir [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="choosing-a-desktop-browser"></a>Choix d’un navigateur de bureau
+## Choix d’un navigateur de bureau
 
 [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge plusieurs navigateurs qui offrent chacun diverses fonctions et fonctionnalités. Le navigateur joue un rôle important dans la réactivité et la fluidité de l’interface utilisateur. Consultez la liste des navigateurs pris en charge et recommandés pour [Business Central Online](./product-requirements.md) et des navigateurs pour [Business Central sur site](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -65,7 +65,7 @@ Voici une courte vidéo sur la manière de parcourir [!INCLUDE[prod_short](inclu
     Internet Explorer n’est plus pris en charge. Pour en savoir plus, consultez [Documentation Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Maintenez votre navigateur toujours à jour avec la dernière version.
 
-## <a name="action-bars"></a>Barres d’action
+## Barres d’action
 
 Dans [!INCLUDE [prod_short](includes/prod_short.md)], vous effectuez la plupart de votre travail dans une liste, un document ou une carte. Les trois types de pages ont une barre avec des actions qui sont pertinentes pour la page particulière, et les actions sont presque les mêmes pour la carte ou le document individuel et pour la liste des entités. De cette façon, vous pouvez gérer une commande vente individuelle dans la page **Commandes vente** et dans la liste **Commandes vente**, y compris sa publication et sa facturation.  
 
@@ -80,9 +80,9 @@ Lorsque vous recherchez une page de liste ouverte, telle que la liste **Commande
 
 Mais lorsque vous ouvrez la même page de liste à partir de votre page d’accueil, l’action **Gérer** n’est pas présente. Au lieu de cela, pour ouvrir une commande vente individuelle, il vous suffit de sélectionner le champ **Nombre**. Dans cette vue, vous ne pouvez pas épingler la barre d’action.  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/work-pro-data-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/paths/work-pro-data-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Configuration de Business Central](setup.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-production-order-posting"></a>Détails de conception : validation d’ordre de fabrication
+# Détails de conception : validation d’ordre de fabrication
 Comme pour la validation d’ordre d’assemblage, les composants consommés et le temps du poste utilisé sont convertis et sortis en tant qu’article produit lorsque l’ordre de fabrication est terminé. Pour plus d’informations, voir [Détails de conception : modes évaluation stock](design-details-assembly-order-posting.md). Toutefois, le flux des coûts des ordres d’assemblage est moins complexe, notamment parce que la validation du coût d’assemblage ne se produit qu’une fois et ne génère donc pas de stock encours.
 
 
@@ -46,7 +46,7 @@ Les valeurs des augmentations et des diminutions sont stockées dans les différ
 
 Bien que les valeurs des transactions qui sont liées aux produits achetés soient validées uniquement en tant qu’écritures comptables article comportant des écritures valeur associées, les transactions liées aux articles fabriqués sont validées en tant qu’écritures comptables capacité comportant des écritures valeur associées, en plus des écritures comptables article.  
 
-## <a name="posting-structure"></a>Structure de validation
+## Structure de validation  
 Valider les ordres de fabrication sur le stock en-cours implique la production, la consommation et la capacité.  
 
 Le schéma suivant montre les routines de validation impliquées dans le codeunit 22.  
@@ -69,12 +69,12 @@ Une écriture valeur qui décrit la valeur du stock en-cours peut être associé
 
 Pour plus d’informations sur la manière dont les coûts de fabrication et d’assemblage sont validés dans la comptabilité, reportez-vous à [Détails de conception : comptabilisation stock](design-details-inventory-posting.md).  
 
-## <a name="capacity-posting"></a>Validation de capacité
+## Validation de capacité  
 Valider la production à partir de la dernière ligne gamme O.F. a pour résultat la création d’une écriture comptable capacité pour le produit fini, en plus de son entrée de stock.  
 
  L’écriture comptable capacité est un enregistrement du temps qui a été passé à fabriquer l’article. L’écriture valeur liée décrit l’augmentation de la valeur stock TEC, qui est la valeur du coût de conversion. Pour plus d’informations, consultez « À partir de la comptabilité capacité » dans [Détails de conception : Comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="production-order-costing"></a>Évaluation des coûts de l’ordre de fabrication
+## Évaluation des coûts de l’ordre de fabrication  
  Pour contrôler le stock et les coûts de production, une société manufacturière doit mesurer le coût des ordres de fabrication, car le coût standard prédéterminé de chaque article produit est capitalisé dans le bilan. Pour plus d’informations sur la raison pour laquelle les articles produits utilisent le mode évaluation stock Standard, reportez-vous à [Détails de conception : modes évaluation stock](design-details-costing-methods.md).  
 
 > [!NOTE]  
@@ -98,7 +98,7 @@ Dans des environnements de coût standard, l’évaluation du stock d’un ordre
     >  Ceci diffère de la validation d’ordre d’assemblage, qui valide toujours les coûts réels. Pour plus d’informations, voir [Détails de conception : modes évaluation stock](design-details-assembly-order-posting.md).  
 2.  Lorsque l’ordre de fabrication est défini sur **Finished**, la commande est facturée en exécutant le traitement par lots **Adjust Cost-Item Entries**. Par conséquent, le coût total de la commande est calculé en fonction du coût standard des matières et de la capacité consommées. Les écarts entre les coûts standard calculés et les coûts de production réels sont calculés et enregistrés.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : validation d’ordre d’assemblage](design-details-assembly-order-posting.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md) [Finance](finance.md)  

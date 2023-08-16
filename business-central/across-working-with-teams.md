@@ -11,14 +11,14 @@ ms.author: jswymer
 ms.custom: bap-template
 ---
 
-# <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Partage d’enregistrements et de liens de page Business Central dans Microsoft Teams
+# Partage d’enregistrements et de liens de page Business Central dans Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 [!INCLUDE [prod_short](includes/prod_short.md)] propose plusieurs façons de partager des données Business Central directement dans une conversation Microsoft Teams :
 
 <!-- 
-## <a name="overview"></a>Overview
+## Overview
 In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
 The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 [!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
@@ -36,13 +36,13 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 
 Les sections suivantes décrivent en détail les différentes méthodes.
 
-## <a name="include-and-view-a-business-central-card-in-a-teams-conversation"></a>Inclure et afficher une fiche Business Central dans une conversation Teams
+## Inclure et afficher une fiche Business Central dans une conversation Teams
 
 Avec l’application Business Central pour Teams, vous pouvez copier un lien à partir de n’importe quel enregistrement Business Central, comme un client ou une commande client, et coller le lien dans une conversation Teams. L’application connecte Microsoft Teams à vos données métier dans [!INCLUDE [prod_short](includes/prod_short.md)]\. Elle développe ensuite le lien en une fiche interactive compacte qui affiche des informations sur l’enregistrement. Une fois dans la conversation, vous et vos collègues pouvez afficher plus de détails sur l’enregistrement, modifier les données et prendre des mesures, sans quitter Teams.
 
 [![Intégration Teams avec Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
-### <a name="prerequisites"></a>Conditions préalables
+### Conditions préalables
 
 - Vous avez accès à Microsoft Teams.
 - Vous avez installé l’application [!INCLUDE [prod_short](includes/prod_short.md)] dans Teams. Pour plus d’informations, voir [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)
@@ -50,7 +50,7 @@ Avec l’application Business Central pour Teams, vous pouvez copier un lien à 
 > [!NOTE]
 > Tous les participants à une conversation Teams pourront afficher les fiches des enregistrements Business Central que vous soumettez à la conversation. Mais pour afficher plus de détails sur les enregistrements, en utilisant les boutons **Détails** ou **Contextuel** sur une fiche, ils auront besoin d’accéder à [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Gestion de l’intégration Microsoft Teams](admin-teams-integration.md#minimum-requirements-1).
 
-### <a name="include-a-business-central-card-in-a-teams-conversation"></a>Inclure une fiche Business Central dans une conversation Teams
+### Inclure une fiche Business Central dans une conversation Teams
 
 1. Connectez-vous à [!INCLUDE [prod_short](includes/prod_short.md)] en utilisant votre navigateur.
 2. Ouvrez l’enregistrement que vous souhaitez partager.
@@ -79,7 +79,7 @@ Avec l’application Business Central pour Teams, vous pouvez copier un lien à 
     > Après l’apparition de la fiche et avant de sélectionner **Envoyer**, vous pouvez supprimer l’URL collée si vous le souhaitez.
 9. Pour afficher plus de détails ou apporter des modifications à l’enregistrement montré dans la fiche, sélectionnez **Détails**. Pour plus d’informations, voir la section suivante.
 
-### <a name="view-card-details"></a>Afficher les détails de la fiche
+### Afficher les détails de la fiche
 
 Une fois qu’une fiche a été envoyée à une conversation, tous les participants avec les [autorisations appropriées](admin-teams-integration.md#permissions) peuvent sélectionner **Détails** pour ouvrir une fenêtre qui affiche plus d’informations sur l’enregistrement&mdash; et éventuellement apporter des modifications à l’enregistrement. Peu importe que vous soyez celui qui envoie la fiche ou celui qui la reçoit. La fonctionnalité **Détails** est particulièrement utile pour les destinataires, car elle leur fournit rapidement des informations concises et ciblées sur l’enregistrement.
 
@@ -92,20 +92,20 @@ Voici quelques points à garder à l’esprit lorsque vous travaillez avec les d
 
 Pour en savoir plus sur l’utilisation des fiches et des détails de fiche, consultez [FAQ Teams](teams-faq.md).
 
-## <a name="share-a-link-to-page-from-business-central-to-teams"></a><a name="share-link"></a>Partager un lien vers une page entre Business Central et Teams
+## <a name="share-link"></a>Partager un lien vers une page entre Business Central et Teams
 
 Directement à partir de la plupart des pages de collection, comme la page **Articles**, et des pages de détails, comme la fiche **Articles**, vous pouvez envoyer un lien vers la page à des destinataires spécifiques dans une conversation Teams. Par exemple, vous pouvez partager un lien vers une vue filtrée de vos enregistrements. Les destinataires peuvent ensuite sélectionner le lien pour ouvrir la page dans [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![!Le menu Partager affiché sur une fiche.](media/teams-share-link-v2.png "Le menu Partager affiché sur une fiche.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites-1"></a>Conditions préalables
+### Conditions préalables
 
 - Vous avez accès à Microsoft Teams.
 - (Facultatif) Vous avez installé l’application [!INCLUDE [prod_short](includes/prod_short.md)] dans Teams. 
 
   Une fois l’application installée, les messages que vous envoyez avec le lien incluront également une fiche compacte pour la page. Pour plus d’informations sur l’installation de l’application, consultez [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md).
 
-### <a name="share-a-link"></a>Partager un lien
+### Partager un lien
 
 1. Dans [!INCLUDE [prod_short](includes/prod_short.md)]\, ouvrez la page que vous souhaitez partager.
 2. En haut de la page, choisissez l’action ![ !Partager avec d’autres applications sur les pages.](media/share-icon.png) puis **Partager avec Teams**.
@@ -116,7 +116,7 @@ Directement à partir de la plupart des pages de collection, comme la page **Art
    Ajoutez d’autres informations si vous le souhaitez, puis choisissez **Partager**.
 6. Le lien a maintenant été partagé. Si vous voulez aller à la conversation, choisissez **Accéder à Teams**.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble de l’intégration de Business Central et Microsoft Teams](across-teams-overview.md)  
 [Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams](across-install-app-for-teams.md)  

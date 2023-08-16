@@ -5,7 +5,7 @@ author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
-ms.search.form: null
+ms.search.form: '41,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
@@ -13,7 +13,7 @@ ms.author: edupont
 
 Vous pouvez facilement partager des informations et des documents, tels que des commandes vente et achat et des factures, par e-mail directement depuis [!INCLUDE[prod_short](includes/prod_short.md)], sans avoir à ouvrir une application de messagerie.  
 
-Vous pouvez envoyer presque tous les types de documents sous forme de pièces jointes PDF. Vous pouvez également configurer une mise en page d’état qui inclut les informations du document dans le texte de l’e-mail, ainsi que du texte qui rend l’e-mail plus convivial, par exemple un message d’accueil standard. Pour plus d’informations, voir [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
+Vous pouvez envoyer presque tous les types de documents sous forme de pièces jointes PDF. Vous pouvez également configurer une mise en page d’état qui inclut les informations du document dans le texte de l’e-mail, ainsi que du texte qui rend l’e-mail plus convivial, par exemple un message d’accueil standard. Pour plus d’informations, voir [Gestion des présentations de rapport et de document](ui-manage-report-layouts.md).
 
 Lorsque vous envoyez des factures, vous pouvez faciliter la tâche des clients pour effectuer des paiements via un service de paiement, tel que PayPal, en ajoutant automatiquement des informations et un lien vers le service dans l’e-mail. Pour plus d’informations, voir [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).
 
@@ -24,12 +24,12 @@ Pour activer les emails au sein de [!INCLUDE[prod_short](includes/prod_short.md)
 
 ## Pour envoyer des documents par e-mail
 
-Cette procédure décrit comment joindre une facture vente enregistrée à un e-mail sous forme de fichier PDF et avec un texte d’e-mail spécifique au document. <!--update this-->
+Cette procédure décrit comment joindre une facture vente enregistrée à un e-mail sous forme de fichier PDF et avec un texte d’e-mail spécifique au document. Les étapes sont similaires pour les autres documents.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente enregistrées**, puis sélectionnez le lien associé.
-2. Sélectionnez la facture, sélectionnez l’action **Imprimer/envoyer**, puis sélectionnez **Envoyer**.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Factures vente enregistrées**, puis sélectionnez le lien associé.
+2. Sélectionnez la facture, sélectionnez l’action **Imprimer/envoyer**, puis sélectionnez **Envoyer par e-mail**.
 3. Dans le champ **E-mail**, choisissez **Oui (Afficher une invite pour le réglage des paramètres)**. Pour plus d’informations, reportez vous à [Configurer des profils d’envoi de documents](sales-how-setup-document-send-profiles.md).
-    
+
     Si le champ **E-mail** sur la page **Envoyer le document à** est défini sur **Oui (Afficher une invite pour le réglage des paramètres)**, la page **Envoyer e-mail** s’affiche. Le champ **À :** est prérempli avec le contact et le document est en pièce jointe sous forme de fichier PDF. Dans le champ **Corps**, vous pouvez saisir un texte manuellement ou faire en sorte que le champ contienne un corps de message spécifique au document que vous avez configuré.
 
 4. Cliquez sur le bouton **OK**.
@@ -51,7 +51,17 @@ Vous pouvez rapidement composer des e-mails pour les contacts, les clients, les 
 > [!TIP]
 > Si vous envoyez souvent des e-mails de nature similaire ou si vous souhaitez envoyer une communication en masse, par exemple pour annoncer une campagne commerciale, l’utilisation de modèles Word avec e-mail peut accélérer le processus. Vous pouvez créer un modèle pour des entités telles que des clients, des fournisseurs et des contacts, qui généreront le contenu d’un message électronique pour vous, et même personnaliseront le contenu pour le destinataire en fonction des données contenues dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Utiliser les modèles Word pour la communication en masse](ui-mail-merge.md).  
 
+### Joindre un document à un e-mail
+
+Il existe plusieurs façons de joindre des documents aux e-mails.
+
 Si vous êtes affecté à un scénario d’e-mail lié à l’entité à laquelle vous envoyez l’e-mail ou au document que vous envoyez, une pièce jointe peut être automatiquement ajoutée à votre message. En effet, une pièce jointe par défaut a été attribuée au scénario de courrier électronique. Vous pouvez supprimer la pièce jointe si vous ne souhaitez pas l’envoyer avec votre message. Pour plus d’informations, consultez [Attribuer des scénarios de messagerie aux comptes de messagerie](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
+
+Pour joindre vous-même un fichier, dans l’éditeur d’e-mails, utilisez les actions suivantes :
+
+* Choisissez **Ajouter un fichier** pour sélectionner un fichier.
+* Choisissez **Ajouter des fichiers à partir de la sélection par défaut** pour ajouter manuellement un fichier associé au scénario d’e-mail.
+* Choisissez **Ajouter un fichier à partir du document source** pour choisir un fichier joint au document sur lequel vous travaillez. Les fichiers sont soit attachés au document lui-même, soit à une ou plusieurs de ses lignes.
 
 ## Documents marqués comme imprimés lors de leur envoi
 
