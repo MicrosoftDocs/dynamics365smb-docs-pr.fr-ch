@@ -9,13 +9,13 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# Démarrer par une version en version préliminaire de Business Central pour Copilot
+# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Démarrer par une version en version préliminaire de Business Central pour Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
 Vous pouvez essayer le texte marketing d’articles alimenté par l’IA avec Copilot, que vous soyez un client existant de Business Central ou un client potentiel, c’est-à-dire quelqu’un qui souhaite simplement explorer Business Central et essayer la nouvelle fonctionnalité. Pour commencer, vous devez avoir accès à une version préliminaire de Business Central Online qui prend en charge la nouvelle fonctionnalité. Remplissez la section ci-dessous qui s’applique à vous.
 
-## Votre organisation utilise déjà Business Central
+## <a name="your-organization-already-uses-business-central"></a>Votre organisation utilise déjà Business Central
 
 En tant que client ou partenaire existant, vous aurez besoin d’un administrateur ayant accès au centre d’administration de Business Central pour configurer un environnement qui exécute la version préliminaire qui inclut Copilot. Une fois que l’environnement est opérationnel, les utilisateurs peuvent essayer la nouvelle fonctionnalité.
 
@@ -39,7 +39,7 @@ Pour plus d’informations sur la création d’environnements, accédez à [Cr�
 > [!IMPORTANT]
 > Si vous avez des bacs à sable en version préliminaire qui s’exécutent sur **22.0.54157.54311 (Version préliminaire - édition Copilot)**, sachez que ces environnements ne sont disponibles que jusqu’au 1er mai 2023. Après cette date, vous devrez mettre en service un nouvel environnement ou mettre à niveau l’un de vos autres environnements vers la version 22.0 ou ultérieure pour continuer à essayer la version préliminaire du texte marketing d’articles alimenté par l’IA.
 
-## Votre organisation n’utilise pas Business Central
+## <a name="your-organization-doesnt-use-business-central"></a>Votre organisation n’utilise pas Business Central
 
 Si vous n’êtes pas client de Business Central, inscrivez-vous pour un essai gratuit afin d’essayer les nouvelles fonctionnalités d’IA. L’inscription à l’essai est simple. Vous serez guidé à travers quelques étapes où vous devrez fournir certaines informations, telles que votre adresse e-mail, votre numéro de téléphone et votre nom. Pour obtenir l’essai, procédez comme suit :
 
@@ -95,7 +95,7 @@ Si vous n’êtes pas client de Business Central, inscrivez-vous pour un essai g
    > [!TIP]
    > Si vous ne voyez pas **Votre liste de contrôle**, sélectionnez le bouton **Afficher les visites de démonstration** en premier.
 
-## Étapes suivantes
+## <a name="next-steps"></a>Étapes suivantes
 
 Les fonctionnalités d’intelligence artificielle fournies par Copilot doivent être activées avant que vous ou toute autre personne puissiez utiliser Copilot. Pour activer les fonctionnalités d’IA, un administrateur doit accepter les termes et conditions de [la version préliminaire](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) et de [la Déclaration de confidentialité Microsoft](https://go.microsoft.com/fwlink/?LinkId=521839) au nom de l’organisation.
 
@@ -108,7 +108,7 @@ Il existe deux façons de consentir en tant qu’administrateur :
 
 - L’autre façon est d’utiliser la page **Statut des avis de confidentialité** dans Business Central et acceptez l’intégration **Azure OpenAI** pour tous les utilisateurs. Pour en savoir plus, rendez-vous sur [Consentement aux termes et conditions](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble du texte marketing article optimisé par l’IA avec Copilot](ai-overview.md)  
 [Configuration du texte marketing article optimisé par l’IA avec Copilot en tant qu’administrateur](enable-ai.md)  

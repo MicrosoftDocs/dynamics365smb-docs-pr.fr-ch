@@ -11,11 +11,11 @@ ms.search.form: 177
 ms.date: 07/06/2022
 ms.author: a-reishima
 ---
-# Créer des lignes achat récurrentes
+# <a name="create-recurring-purchase-lines"></a>Créer des lignes achat récurrentes
 
 Si vous devez souvent créer des lignes achat comportant des informations similaires, vous pouvez configurer des lignes standard que vous pouvez ensuite insérer dans les documents achat, par exemple, pour les commandes de réapprovisionnement récurrentes.
 
-## Configurer des lignes achat récurrentes
+## <a name="set-up-recurring-purchase-lines"></a>Configurer des lignes achat récurrentes
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Lignes achat récurrentes**, puis sélectionnez le lien associé.
 2. Sur la page **Lignes achat récurrentes**, cliquez sur l’action **Nouveau**.
@@ -27,7 +27,7 @@ Si vous devez souvent créer des lignes achat comportant des informations simila
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## Affecter des lignes d’achat récurrentes à un fournisseur
+## <a name="assign-recurring-purchase-lines-to-a-vendor"></a>Affecter des lignes d’achat récurrentes à un fournisseur
 
 Affectez une ou plusieurs lignes achat récurrentes à un fournisseur afin qu’elles soient disponibles pour être insérées sur les documents achat pour ce fournisseur.
 
@@ -44,7 +44,7 @@ Affectez une ou plusieurs lignes achat récurrentes à un fournisseur afin qu’
 |**Automatique**|Si plusieurs lignes achat récurrentes existent pour le fournisseur, vous recevrez une notification pour vous permettre de sélectionner la ligne à insérer. Si une seule ligne achat récurrente existe, elle sera insérée automatiquement.<br /><br />Cela ne fonctionne que si le nouveau document a été créé à partir d’une liste de documents, par exemple en sélectionnant l’action **Nouveau** sur la page **Commandes achat**. Cela ne fonctionne pas si le document a été créé à partir d’une fiche fournisseur, par exemple.|
 |**Toujours demander**|Une notification s’affiche et toutes les lignes achat récurrentes existantes sont affichées afin que vous puissiez en sélectionner une.
 
-## Insérer des lignes achat récurrentes dans une facture achat
+## <a name="insert-recurring-purchase-lines-on-a-purchase-invoice"></a>Insérer des lignes achat récurrentes dans une facture achat
 
 Si des lignes achat récurrentes existent pour le fournisseur, vous pouvez les insérer ou demander à les ajouter sur tous les types de documents achat, par exemple une facture achat. Si vous avez activé les options **Toujours demander** tout en affectant des lignes achat récurrentes aux fournisseurs, vous serez informé si des lignes achat récurrentes existent.
 
@@ -54,7 +54,7 @@ Si des lignes achat récurrentes existent pour le fournisseur, vous pouvez les i
 4. Sur la page **Lignes achat récurrentes**, cliquez sur le bouton de recherche du champ **Code**, puis sélectionnez un ensemble de lignes achat standard.
 5. Cliquez sur le bouton **OK** pour insérer les lignes achat standard dans la facture, que vous pouvez réutiliser comme tels ou modifier les informations.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Achats](purchasing-manage-purchasing.md)  
 [Configurer les procédures achat](purchasing-setup-purchasing.md)  

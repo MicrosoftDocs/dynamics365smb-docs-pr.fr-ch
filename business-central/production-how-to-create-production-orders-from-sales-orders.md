@@ -9,11 +9,11 @@ ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: '99000883, 99000884,'
 ---
-# Créer des ordres de fabrication à partir de commandes achat
+# <a name="create-production-orders-from-sales-orders"></a>Créer des ordres de fabrication à partir de commandes achat
 
 Vous pouvez créer des ordres de fabrication pour les articles produits directement à partir des commandes vente.  
 
-## Pour créer un ordre de fabrication à partir d’une commande achat  
+## <a name="to-create-a-production-order-from-a-sales-order"></a>Pour créer un ordre de fabrication à partir d’une commande achat
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez la commande vente pour laquelle vous voulez créer un ordre de fabrication.  
@@ -27,7 +27,7 @@ Vous pouvez créer des ordres de fabrication pour les articles produits directem
     >
     > Lorsque vous créez des ordres de fabrication pour des commandes client avec la page Planification commande vente, des liens ordre pour ordre sont appliqués entre la demande et l’approvisionnement. Lorsque les liens ordre pour ordre existent, le système de planification n’inclut pas d’approvisionnement ou de stock lié dans la procédure d’équilibrage. Pour en savoir plus sur l’équilibrage, consultez [Liens ordre pour ordre](design-details-central-concepts-of-the-planning-system.md#order-to-order-links).
 
-## Type de commande  
+## <a name="order-type"></a>Type de commande
 
 Le tableau suivant décrit deux manières de créer des ordres de fabrication.
 
@@ -36,7 +36,7 @@ Le tableau suivant décrit deux manières de créer des ordres de fabrication.
 |O.F. article|Un ordre de fabrication est créé pour chaque article représenté par une ligne sur la page **Planification commande vente**.|
 |O.F. projet|Un ordre de fabrication multiligne est créé pour tous les articles représentés par des lignes sur la page **Planification commande vente**. Lorsque vous utilisez des O.F. projet, le champ **Type de source** de l’ordre de fabrication contient **En-tête vente**. L’ordre comporte une ligne pour chaque article de ligne de vente qui doit être produit.|
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
 
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)  

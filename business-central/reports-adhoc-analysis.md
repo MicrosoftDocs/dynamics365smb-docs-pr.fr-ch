@@ -7,7 +7,7 @@ ms.search.keywords: feature overview
 ms.date: 03/31/2023
 ms.author: jswymer
 ---
-# Analyse de données ad hoc
+# <a name="ad-hoc-data-analysis"></a>Analyse de données ad hoc
 
 Parfois, vous devez analyser des données dans [!INCLUDE[prod_short](includes/prod_short.md)] d’une manière qui n’est pas disponible dans un rapport standard. Cette tâche est parfois appelée « analyse ad hoc ». Vous trouverez ci-dessous des liens pour vous aider à apprendre comment l’exécuter.
 
@@ -19,7 +19,7 @@ Parfois, vous devez analyser des données dans [!INCLUDE[prod_short](includes/pr
 | Afficher et analyser les données financières à l’aide des états financiers | [Analyses financières](bi.md) |
 | Analyser les données de la liste directement depuis une page |[Analyser les données dans la liste à l’aide du mode d’analyse des données](analysis-mode.md)|
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble de Business Intelligence et Reporting](ui-work-report.md)
 

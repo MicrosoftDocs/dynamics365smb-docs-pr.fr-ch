@@ -10,7 +10,7 @@ author: jswymer
 ms.service: dynamics365-business-central
 ---
 
-# FAQ sur le texte marketing article optimisé par l’IA (version préliminaire) avec Copilot
+# <a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a>FAQ sur le texte marketing article optimisé par l’IA (version préliminaire) avec Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -18,7 +18,7 @@ Cet article utilise des questions et des réponses pour expliquer des aspects im
 
 ## [Général](#tab/general)
 
-### Qu’est-ce que Copilot ?
+### <a name="what-is-copilot"></a>Qu’est-ce que Copilot ?
 
 Copilot fournit des suggestions de texte générées par l’IA pour les éléments dans Business Central. Il est destiné aux utilisateurs qui rédigent du texte marketing pour des articles afin de les aider à produire un contenu attrayant et convaincant. Certains avantages principaux comprennent :
 
@@ -28,7 +28,7 @@ Copilot fournit des suggestions de texte générées par l’IA pour les éléme
 
 Les utilisateurs doivent considérer le texte généré par l’IA comme une suggestion qui doit être examinée et modifiée pour plus de précision avant qu’elle ne soit accessible au public.
 
-### Pourquoi Copilot n’est-il pas disponible pour le texte marketing sur mes articles dans Business Central ?
+### <a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a>Pourquoi Copilot n’est-il pas disponible pour le texte marketing sur mes articles dans Business Central ?
 
 Pour que Copilot soit disponible, les conditions suivantes doivent être remplies :
 
@@ -45,21 +45,21 @@ Pour que Copilot soit disponible, les conditions suivantes doivent être remplie
 
    Pour plus d’informations, accédez à [Accepter ou rejeter les conditions d’utilisation de la version préliminaire et de confidentialité pour tous les utilisateurs](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-### Est-ce que Copilot est disponible en version préliminaire dans Business Central sur site ?
+### <a name="is-copilot-available-for-preview-in-business-central-on-premises"></a>Est-ce que Copilot est disponible en version préliminaire dans Business Central sur site ?
 
 Non, il n’est actuellement pas pris en charge dans Business Central sur site.
 
-### Comment fonctionne Copilot, d’où vient le texte suggéré ?
+### <a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a>Comment fonctionne Copilot, d’où vient le texte suggéré ?
 
 Copilot utilise [le service Azure OpenAI de Microsoft](/azure/cognitive-services/openai/overview) pour accéder à de puissants modèles de langage qui analysent et génèrent du langage naturel. Ces modèles ont été entraînés sur un large éventail de jeux de données textuelles. En conséquence, Copilot peut générer des suggestions de réponses personnalisées en anglais basées sur une quantité minimale de données d’entrée, telles que les attributs, la catégorie ou la description d’un élément. 
 
-### Quelle est la qualité du texte proposé par Copilot ?
+### <a name="whats-the-quality-of-the-text-suggested-by-copilot"></a>Quelle est la qualité du texte proposé par Copilot ?
 
 Étant donné que la technologie sous-jacente de Copilot utilise une IA qui a été formée sur un large éventail de sources, le contenu généré n’est pas toujours factuel ou approprié. Certaines suggestions peuvent même inclure du contenu douteux ou inapproprié. Il est de votre responsabilité d’examiner et de modifier les suggestions générées pour vous assurer qu’elles sont exactes et appropriées.
 
 Pour plus d’informations sur les suggestions inappropriées, consultez [Que fait-on à propos des suggestions de texte abusives et nuisibles ?](/dynamics365/business-central/ai-faq?&tabs=oversight#whats-done-about-abusive-and-harmful-text-suggestions).
 
-### Comment puis-je améliorer les suggestions que je reçois de Copilot ?
+### <a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a>Comment puis-je améliorer les suggestions que je reçois de Copilot ?
 
 Il y a plusieurs choses que vous pouvez faire pour tirer le meilleur parti des suggestions de Copilot :
 
@@ -70,13 +70,13 @@ Il y a plusieurs choses que vous pouvez faire pour tirer le meilleur parti des s
 
 Pour en savoir plus, accédez à [Améliorer et personnaliser les suggestions de texte](item-marketing-text.md#improve-and-tailor-text-suggestions).
 
-### Que faire si je ne suis pas satisfait du texte généré ?
+### <a name="what-if-im-not-satisfied-with-the-generated-text"></a>Que faire si je ne suis pas satisfait du texte généré ?
 
 Pour nous aider à améliorer le texte, sélectionnez **Est-ce une bonne suggestion ?** sur la page **Créer avec Copilot**, qui vous pouvez répondre avec un pouce vers le haut (j’aime ça) ou vers le bas (besoin d’amélioration).
 
 ![Affiche une fiche article avec volet Texte marketing](media/create-with-copilot-window-feedback.png)
 
-### Les administrateurs peuvent-ils désactiver Copilot ? Si oui, comment ?
+### <a name="can-admins-disable-copilot-if-so-how"></a>Les administrateurs peuvent-ils désactiver Copilot ? Si oui, comment ?
 
 Business Central propose aux administrateurs deux manières de désactiver Copilot dans la version préliminaire :
 
@@ -90,13 +90,13 @@ Pour en savoir plus, accédez à [Configurer le texte marketing d’un article b
 
 ## [Équité](#tab/fairness)
 
-### Copilot fonctionne-t-il avec des langues autres que l’anglais ?
+### <a name="does-copilot-work-with-languages-other-than-english"></a>Copilot fonctionne-t-il avec des langues autres que l’anglais ?
 
 Actuellement, Copilot ne prend en charge que l’anglais. Des réponses inexactes peuvent être renvoyées quand les utilisateurs conversent avec le système dans des langues autres que l’anglais.
 
 ## [Surveillance humaine](#tab/oversight)
 
-### Que fait-on des suggestions de texte abusives et préjudiciables ?
+### <a name="whats-done-about-abusive-and-harmful-text-suggestions"></a>Que fait-on des suggestions de texte abusives et préjudiciables ?
 
 Le service Azure OpenAI stocke les invites et les réalisations du service pour surveiller les utilisations abusives et pour développer et améliorer la qualité des systèmes de gestion de contenu d’Azure OpenAI. [En savoir plus sur notre gestion et notre filtrage de contenu](/azure/cognitive-services/openai/concepts/content-filter)
 
@@ -104,7 +104,7 @@ Les employés Microsoft autorisés peuvent accéder à vos données d’invite e
 
 Pour plus d’informations, consultez [Données, confidentialité et sécurité pour Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
-### Puis-je désactiver le processus de journalisation et d’examen humain ?  
+### <a name="can-i-opt-out-of-the-logging-and-human-review-process"></a>Puis-je désactiver le processus de journalisation et d’examen humain ?
 
 Dans le cadre de la fourniture des versions préliminaires d’Azure OpenAI, Microsoft traitera et stockera les données client soumises au service, ainsi que le contenu de sortie, à des fins de (1) surveillance et prévention des utilisations ou sorties abusives ou nuisibles du service ; et (2) développer, tester et améliorer les capacités conçues pour empêcher l’utilisation abusive ou les sorties nuisibles du service. 
 
@@ -112,7 +112,7 @@ Le personnel autorisé de Microsoft peut examiner les données qui ont déclench
 
 ## [Confidentialité](#tab/privacy)
 
-### Quelles données la fonctionnalité recueille-t-elle ? Comment les données sont-elles utilisées ?
+### <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>Quelles données la fonctionnalité recueille-t-elle ? Comment les données sont-elles utilisées ?
 
 La capacité collecte vos réponses à la question **Est-ce une bonne suggestion ?** sur la page **Créer avec Copilot**, qui vous pouvez répondre avec un pouce vers le haut (j’aime ça) ou vers le bas (besoin d’amélioration).
 
@@ -122,7 +122,7 @@ Nous utilisons ces données afin d’évaluer et d’améliorer la qualité de l
 
 ---
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble du texte marketing article optimisé par l’IA avec Copilot](ai-overview.md)  
 [Configuration du texte marketing article optimisé par l’IA avec Copilot en tant qu’administrateur](enable-ai.md)  

@@ -11,14 +11,14 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="default"></a>Spécification d’une imprimante par défaut  
+# <a name="specify-a-default-printer"></a><a name="default"></a>Spécification d’une imprimante par défaut
 
 Une fois les imprimantes configurées dans Business Central, vous pouvez ensuite spécifier l’imprimante que vous souhaitez utiliser par défaut. Il existe plusieurs façons de spécifiez les imprimantes qui seront utilisées par défaut pour les déclarations et autres travaux d′impression. Une imprimante par défaut est utile si vous utilisez différents états nécessitant différentes imprimantes en raison de leur placement dans la société ou de leurs capacités d’impression.
 
 > [!IMPORTANT]
 > Les seules imprimantes que vous pouvez spécifier par défaut sont **Imprimer vers PDF Microsoft** et les imprimantes cloud qui ont déjà été configurées pour être utilisées dans Business Central, comme les imprimantes de messagerie et les imprimantes Universal Print. Les imprimantes cloud sont généralement configurées par un administrateur. Pour plus d’informations, voir [Configuration et gestion de l’imprimante](admin-printer-setup-overview.md).   
 
-## Définir une imprimante comme imprimante par défaut pour tous les travaux d′impression
+## <a name="set-a-printer-as-a-default-printer-for-all-print-jobs"></a>Définir une imprimante comme imprimante par défaut pour tous les travaux d′impression
 
 La page **Gestion des imprimantes** vous permet de configurer une imprimante comme imprimante par défaut pour tous les travaux d′impression. Vous pouvez spécifier l′imprimante par défaut pour vous uniquement ou pour tous les utilisateurs.
 
@@ -31,7 +31,7 @@ La page **Gestion des imprimantes** vous permet de configurer une imprimante com
 > [!NOTE]
 > La configuration d′une imprimante par défaut à partir de la **Gestion des imprimantes** ajoutera une entrée dans les **Sélections d′imprimantes**.
 
-## Définir une imprimante par défaut pour des rapports spécifiques
+## <a name="set-a-default-printer-for-specific-reports"></a>Définir une imprimante par défaut pour des rapports spécifiques
 
 La page **Sélections d′imprimantes** vous permet de spécifier l′imprimante qu′un rapport utilisera par défaut. Les imprimantes par défaut sont définies sur la base d′un compte utilisateur. Vous pouvez définir une imprimante par défaut pour vous-même, un autre utilisateur ou tous les utilisateurs.
 
@@ -60,17 +60,17 @@ Vous pouvez ou l’administrateur peut également utiliser la page **Sélections
 > [!NOTE]
 > Des sélections d’imprimantes plus spécifiques prévalent sur des sélections d’imprimantes plus générales. Par exemple, une sélection d’imprimante ayant des valeurs dans les champs **ID utilisateur**, **ID état** et **Nom de l’imprimante** prévaut sur une sélection d’imprimante ayant des entrées vides dans le champ **ID utilisateur** ou **ID état**.
 
-## Choix de l’imprimante pendant l’exécution d’un rapport
+## <a name="choosing-the-printer-when-running-a-report"></a>Choix de l’imprimante pendant l’exécution d’un rapport
 
 Au lieu d’utiliser l’imprimante par défaut lors de l’exécution d’un rapport, vous pouvez remplacer ce paramètre à partir de la page de demande. Choisissez simplement l’imprimante que vous souhaitez utiliser pour cette invocation du rapport dans le menu déroulant **Imprimante**.
 
-## Dimensionnement des travaux d’impression
+## <a name="sizing-print-jobs"></a>Dimensionnement des travaux d’impression
 
 L’impression cloud est conçue pour des documents de taille raisonnable. La plupart des services cloud, y compris PrintNode et HP ePrint, ont une limite de 10 Mo par tâche. Si vous devez imprimer des rapports plus volumineux, vous devrez peut-être les diviser en plusieurs impressions.
 
 [Formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/)
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion de l’impression](admin-printer-setup-overview.md)  
 [Configuration d’imprimantes à impression universelle](admin-printer-setup-universal-print.md)  

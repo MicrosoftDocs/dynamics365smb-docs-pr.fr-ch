@@ -8,7 +8,7 @@ ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, tra
 ms.date: 08/12/2022
 ms.author: a-reishima
 ---
-# Traiter les livraisons partielles
+# <a name="process-partial-shipments"></a>Traiter les livraisons partielles
 
 Dans une expédition partielle, une commande n’est pas expédiée en une seule fois. Par exemple, pour une commande de 100 unités, vous en expédiez 40 immédiatement et 60 ultérieurement. Il n’y a aucune limite quant au nombre de livraisons pouvant être effectuées pour une commande.
 
@@ -18,7 +18,7 @@ Par défaut, [!INCLUDE [prod_short](includes/prod_short.md)] définit le champ d
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vente de produits avec une commande vente client](sales-how-sell-products.md)  
 [Expédier des articles](warehouse-how-ship-items.md)  
