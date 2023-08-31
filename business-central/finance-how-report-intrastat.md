@@ -116,12 +116,31 @@ Lorsque vous travaillez avec **l’état intracommunautaire**, vous voyez un cha
 * *Publié* : [!INCLUDE[prod_short](includes/prod_short.md)] change automatiquement le statut en *Publié* lorsque vous créez un fichier. A partir de ce moment, vous ne pouvez plus modifier votre **État intracommunautaire**. Si vous devez modifier quelque chose, vous pouvez utiliser l’action **Rouvrir** pour rouvrir l’état intracommunautaire. Une fois le document rouvert, vous pouvez utiliser l’action **Publier** pour publier à nouveau le document.
 * **Déclaré** : spécifie si l’écriture a déjà été déclarée aux administrations fiscales. Ce n’est pas un statut normal mais un champ indépendant, et même si vous rouvriez l’état intracommunautaire, cela montrerait toujours que le fichier est déjà créé pour cet état.
 
+### Commerce triangulaire d’échanges de biens
+
+Le commerce triangulaire implique des échanges entre trois pays ou régions où les marchandises contournent le pays de l’entreprise déclarante. Dans Business Central, cela peut être facilité grâce à la fonctionnalité [Livraison directe](sales-how-drop-shipment.md) . Pour activer cette option, activez le champ **Inclure la livraison directe** dans **Configuration des états intracommunautaires**.  
+
+Lorsque vous activez cette option, le système utilise les règles suivantes, mais uniquement si vous avez le **Livraison directe** marqué dans la **Commande vente** : 
+
+| Expéditeur | Livrer à | Résultat d’échanges de biens attendu |
+|----------|------------|----------------------|
+| Pays comme dans les **Informations société** | Pays comme dans les **Informations société** | Aucune ligne d’échanges de biens |  
+| Pays comme dans les **Informations société** | Pays de l’UE différent du pays indiqué dans les **Informations société** | Ligne d’expédition d’échanges de biens | 
+| Pays comme dans les **Informations société** | Pays hors UE | Aucune ligne d’échanges de biens |   
+| Pays de l’UE différent du pays indiqué dans les **Informations société** | Pays comme dans les **Informations société** | Ligne de réception d’échanges de biens | 
+| Pays de l’UE différent du pays indiqué dans les **Informations société** | Pays de l’UE différent du pays indiqué dans les **Informations société** | Aucune ligne d’échanges de biens |
+| Pays de l’UE différent du pays indiqué dans les **Informations société** | Pays hors UE | Aucune ligne d’échanges de biens | 
+| Pays hors UE | Pays comme dans les **Informations société** | Aucune ligne d’échanges de biens |  
+| Pays hors UE | Pays de l’UE différent du pays indiqué dans les **Informations société** | Aucune ligne d’échanges de biens |
+| Pays hors UE | Pays hors UE | Aucune ligne d’échanges de biens |   
+
 ## Voir la formation associée sur [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## Voir aussi
 
-[Paramétrer les états intracommunautaires](finance-how-setup-report-intrastat.md)  
+[Configuration de la déclaration d’échanges de biens](finance-how-setup-report-intrastat.md)  
 [Gestion financière](finance.md)  
+[Expédition directe](sales-how-drop-shipment.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
