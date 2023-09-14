@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# Gérer le travail entre plusieurs entreprises dans le Hub Entreprise
+# <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Gérer le travail entre plusieurs entreprises dans le Hub Entreprise
 
 Certaines personnes travaillent dans plusieurs entreprises [!INCLUDE [prod_short](includes/prod_short.md)], et certains travaillent également dans plus d’une organisation, comme des comptables externes, ou des employés et des gestionnaires de sociétés ayant plusieurs filiales. Pour ces utilisateurs, et bien d’autres, le Hub Entreprise sert de page de destination qui donne une vue d’ensemble financière des entreprises et des environnements. Il offre aux utilisateurs un outil pour gérer le travail dans les différents environnements dans lesquels ils travaillent, entre les entreprises, les environnements et les régions.  
 
@@ -20,7 +20,7 @@ Vous pouvez accéder au hub de l’entreprise en passant au rôle **Hub Entrepri
 > [!NOTE]
 > Vous pouvez connecter le Hub Entreprise à autant d’entreprises que vous le souhaitez. Cependant, vous ne pouvez connecter le Hub Entreprise qu’aux entreprises hébergées dans [!INCLUDE [prod_short](includes/prod_short.md)] en ligne.
 
-## Page d’accueil du Hub Entreprise
+## <a name="company-hub-home-page"></a>Page d’accueil du Hub Entreprise
 
 Si vous utilisez le rôle de **Hub Entreprise**, votre page d’accueil affiche une liste des entreprises auxquelles vous avez accès, y compris des informations sur les données des points clés d’intérêt et des liens pour ouvrir chaque entreprise. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Choisissez l’action **Hub Entreprise** pour ouvrir le Hub Entreprise, où vous pouvez travailler plus étroitement avec chaque entreprise.  
 
@@ -48,13 +48,13 @@ In the **Company Hub** page, you can see more information about each company by 
 
 Otherwise, close the details pane and continue to the next company.  -->
 
-## Tâches affectées
+## <a name="assigned-tasks"></a>Tâches affectées
 
 Dans le [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez affecter des tâches à vous-même et à d’autres utilisateurs, et d’autres utilisateurs peuvent vous affecter des tâches. Le Hub Entreprise vous fournit un aperçu des tâches affectées à chaque client, et vous pouvez également accéder à une liste de toutes les tâches affectées en choisissant **Mes tâches utilisateur** sur la page **Accueil**.  
 
 <!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
-### Mes tâches utilisateur
+### <a name="my-user-tasks"></a>Mes tâches utilisateur
 
 La liste **Mes tâches utilisateur** vous permet de planifier votre journée en affichant plus d’informations sur les tâches qui vous sont affectées chez tous vos sociétés.  
 
@@ -66,7 +66,7 @@ Lorsque vous avez terminé une tâche, marquez-la comme terminée.
 
 Pour plus d’informations sur les entreprises et les environnements, voir [Liens d’environnements](company-hub-add-company.md#environment-links).  
 
-## Accéder au Hub Entreprise
+## <a name="access-the-company-hub"></a>Accéder au Hub Entreprise
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -77,7 +77,7 @@ Pour accéder au Hub Entreprise, vous devez avoir accès via le groupe d’utili
 
 Si vous ne parvenez pas à trouver le Hub Entreprise et que vous savez que vous y avez obtenu l’accès, vérifiez auprès de votre administrateur si le Hub Entreprise est répertorié dans la page **Gestion des extensions**. Pour plus d’informations, voir [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md).  
 
-## Configurer le Hub Entreprise
+## <a name="set-up-the-company-hub"></a>Configurer le Hub Entreprise
 
 Pour commencer à utiliser le Hub Entreprise, vous devez ajouter une ou plusieurs entreprises à votre tableau de bord. Pour plus d’informations, voir [Ajouter des entreprises à votre Hub Entreprise](company-hub-add-company.md).  
 
@@ -87,7 +87,7 @@ Par exemple, si vous êtes comptable, vos clients peuvent vous inviter à leur [
 
 Les administrateurs peuvent utiliser le même guide de configuration assistée pour vous ajouter à leur [!INCLUDE [prod_short](includes/prod_short.md)], ou ils peuvent vous ajouter au compte Azure AD approprié dans le centre d’administration Microsoft 365. Pour en savoir plus, voir [Gérer les utilisateurs et les groupes](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Ajouter des entreprises à votre Hub Entreprise](company-hub-add-company.md)  
 [Expériences de comptables dans Business Central](finance-accounting.md)  

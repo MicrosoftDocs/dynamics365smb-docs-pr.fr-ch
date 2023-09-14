@@ -10,7 +10,7 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365, setup, wizard, experience'
 ms.date: 05/25/2022
 ms.author: bholtorf
 ---
-# Se préparer aux activités commerciales
+# <a name="get-ready-for-doing-business"></a>Se préparer aux activités commerciales
 
 Félicitations, vous venez de créer votre première société dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -23,7 +23,7 @@ Vous pouvez également retrouver la liste des guides d’installation assistée 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## Démarrer
+## <a name="get-started"></a>Démarrer
 
 Lorsque vous vous connectez pour la première fois ou que vous lancez une nouvelle entreprise, la liste de contrôle **Démarrer** vous guide à travers les étapes pour vous préparer à vous lancer. Les étapes varient en fonction de votre pays/région et des fonctionnalités spécifiques au secteur que vous avez ajoutées à votre [!INCLUDE [prod_short](includes/prod_short.md)]. À partir de la deuxième vague de lancement 2021, lorsque vous vous connectez pour la première fois à la société de démonstration CRONUS, votre page d’accueil est optimisée pour vos premières expériences. Si vous préférez voir plus de liens vers plus de pages, passez simplement au rôle de Gestionnaire d’activité. Pour plus d’informations, voir [Modifier les paramètres de base](ui-change-basic-settings.md).  
 
@@ -38,7 +38,7 @@ Si une zone n’est pas couverte par une configuration assistée, choisissez ![l
 
 Lorsque vous avez exécuté un guide de configuration assistée, il est marqué comme **Terminé**.  
 
-## Conseils pédagogiques et visites
+## <a name="teaching-tips-and-tours"></a>Conseils pédagogiques et visites
 
 [!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 
@@ -46,7 +46,7 @@ Lorsque vous avez exécuté un guide de configuration assistée, il est marqué 
 
 Les conseils pédagogiques sont de courts messages qui vous informent, vous rappellent ou vous renseignent sur les fonctionnalités importantes et nouvelles qui se lancent automatiquement lorsque vous ouvrez une page. Par exemple, pour voir le conseil pédagogique de la carte **Facture vente**, choisissez le lien dans le coin supérieur gauche de la page où il est dit *Facture vente*. Cela lance une légende avec une brève description de la page et ce que vous pouvez y faire. Si une visite existe pour la page, un lien vous invite à la faire. Le lien *En savoir plus* vous amène à l’aide du produit pour la page.
 
-## Pages d’accueil spécifiques au rôle
+## <a name="role-specific-home-pages"></a>Pages d’accueil spécifiques au rôle
 
 Selon votre rôle, la page d’accueil vous fournit d’une vue d’ensemble de l’entreprise. En haut, une barre de navigation vous donne un accès facile aux clients, fournisseurs, articles, etc. Au centre, vous trouverez les mosaïques **Activités**. Les mosaïques **Activités** affichent les données actuelles. Vous pouvez cliquer ou appuyer sur celles-ci pour accéder facilement au document sélectionné.
 
@@ -57,11 +57,11 @@ Utilisez les flèches pour réduire une partie de la page et faire de la place a
 > [!TIP]  
 > Vous pouvez revenir à la page d’accueil en sélectionnant le nom de la société dans l’angle supérieur gauche.
 
-## Informations société
+## <a name="company-information"></a>Informations société
 
 Sous **Paramètres de la société** vous pouvez afficher et modifier les informations de configuration sur la société actuelle. Un grand nombre de ces informations sont préremplies si vous avez exécuté la configuration assistée **Configurer la société** lors de votre inscription à [!INCLUDE[prod_short](includes/prod_short.md)]. Si vous souhaitez modifier le logo de la société, les informations de contact, les paramètres bancaires, ou les informations fiscales, vous pouvez le faire à partir de cette page.  
 
-## Ajouter des utilisateurs et des autorisations
+## <a name="adding-users-and-permissions"></a>Ajouter des utilisateurs et des autorisations
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -69,11 +69,11 @@ Vous ajoutez des utilisateurs dans le centre d’administration Microsoft 365. P
 
 Une fois les utilisateurs créés dans Microsoft 365, vous pouvez les importer vers la page **Utilisateurs** à l’aide de l’action **Obtenir des mises à jour à partir d’Office 365**. Vous pouvez ensuite affecter des autorisations aux utilisateurs et les organiser en groupes d’utilisateurs. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).  
 
-## Aide relative aux produits
+## <a name="product-help"></a>Aide relative aux produits
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Pour plus d’informations, reportez-vous à [Ressources pour l’aide et l’assistance technique](product-help-and-support.md).  
 
-### Configurer votre société dans [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-"></a>Configurer votre société dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Les articles [Démarrage rapide](quick-start-business-central.md) peuvent vous aider à faire vos premiers pas dans la configuration de [!INCLUDE [prod_short](includes/prod_short.md)] pour votre organisation. À l’intérieur de [!INCLUDE [prod_short](includes/prod_short.md)], la page **Configuration assistée** répertorie les guides de configuration assistée qui peuvent vous aider. Selon votre rôle et votre pays ou région, la page affiche différents guides de configuration assistée, comme illustré dans le tableau suivant :
 
@@ -95,11 +95,11 @@ Les articles [Démarrage rapide](quick-start-business-central.md) peuvent vous a
 
 La page **Configuration assistée** peut contenir d’autres entrées. Lorsque vous effectuez une configuration, celle-ci est marquée comme **Terminé**. Vous pouvez configurer d’autres zones de la société à l’aide de la configuration manuelle. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## Étapes suivantes
+## <a name="next-steps"></a>Étapes suivantes
 
 En fonction de la migration de vos données, vous pouvez maintenant passer à la création de documents vente ou achat. Utilisez la section **Actions** de votre page d’accueil pour créer rapidement un devis, une facture vente, une commande vente, une facture achat, ou un enregistrement de paiement. Consultez les articles de [démarrage rapide](quick-start-business-central.md) pour vous aider à faire vos premiers pas.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Démarrage rapide de Business Central](quick-start-business-central.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

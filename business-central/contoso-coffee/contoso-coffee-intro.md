@@ -9,12 +9,12 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Introduction aux données de démonstration Contoso Coffee
+# <a name="introduction-to-contoso-coffee-demo-data"></a>Introduction aux données de démonstration Contoso Coffee
 
 Contoso Coffee est une société fictive qui produit des cafetières grand public et commerciales. Les applications **Contoso Coffee** pour Business Central ajoutent des données de démonstration que vous pouvez utiliser pour apprendre à utiliser les capacités dans Business Central.  
 
 
-## Configurer les données de Contoso Coffee
+## <a name="set-up-contoso-coffee-data"></a>Configurer les données de Contoso Coffee
 
 Pour utiliser les données de démonstration Contoso Coffee, vous devez installer deux applications dans la société concernée dans [!INCLUDE [prod_short](../includes/prod_short.md)] :  
 
@@ -31,7 +31,7 @@ Vous devez alors compléter :
  - Les [Paramètres production](manufacturing/contoso-coffee-manufacturing-intro.md) pour préparer l’utilisation des [scénarios de production](#manufacturing-scenarios)
  - Les [Paramètres entrepôt](warehousing/contoso-coffee-warehousing-intro.md) pour préparer l’utilisation des [scénarios d’entrepôt](#warehousing-scenarios)
 
-## Scénarios de production
+## <a name="manufacturing-scenarios"></a>Scénarios de production
 
 Les données de démonstration Contoso Coffee prennent actuellement en charge les scénarios de production suivants pour les tests et la formation :
 
@@ -49,7 +49,7 @@ Lisez les étapes de chaque scénario dans l’article correspondant.
 > [!IMPORTANT]
 > Ces procédures de production pas à pas nécessitent que l’expérience utilisateur soit définie sur *Premium* dans la page **Informations société**.
 
-## Scénarios d’entreposage
+## <a name="warehousing-scenarios"></a>Scénarios d’entreposage
 
 Les données de démonstration Contoso Coffee prennent actuellement en charge les scénarios d’entreposage suivants pour les tests et la formation :
 
@@ -59,7 +59,7 @@ Les données de démonstration Contoso Coffee prennent actuellement en charge le
 
 Lisez les étapes de chaque scénario dans l’article correspondant.
    
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Production](../production-manage-manufacturing.md)  
 [Entreposage](../warehouse-manage-warehouse.md)  

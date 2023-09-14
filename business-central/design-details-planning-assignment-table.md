@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf
 ---
-# Détails de conception : tableau d’affectation de planification
+# <a name="design-details-planning-assignment-table"></a>Détails de conception : tableau d’affectation de planification
 Tous les articles doivent être planifiés. Cependant, il n’existe aucune raison de calculer une planification pour un article à moins qu’il n’y ait eu une modification de la configuration de l’offre ou de la demande depuis la dernière fois qu’un plan a été calculé.  
 
 Si l’utilisateur a saisi une commande vente ou en a modifié une existante, il existe un motif de recalculer la planification. Les autres motifs sont notamment une modification de prévision ou la quantité de stock de sécurité souhaitée. La modification de nomenclatures lorsque vous ajoutez ou supprimez un composant indique très probablement une modification, mais pour le composant uniquement.  
@@ -55,7 +55,7 @@ Lors du calcul d’un MPS ou d’un MRP, les restrictions suivantes s’applique
 * PDP : Le système de planification vérifie que l’article indique une prévision de demande ou une commande vente. Sinon, l’article n’est pas inclus dans le planning.  
 * MRP : si le système de planification détecte que l’article est réapprovisionné par une ligne planning PDP ou une commande approvisionnement PDP, l’article sera laissé en dehors de la planification. Toutefois, toute demande des composants pertinents est incluse.  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
 [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)   
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
 [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)   
