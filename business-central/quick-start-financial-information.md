@@ -1,7 +1,7 @@
 ---
 title: Démarrage rapide de Informations financières
 description: Préparez votre entreprise en configurant les informations financières dans Business Central.
-author: rubenseishima
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.search.form: null
 ms.date: 08/25/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
 
-# <a name="financial-information-quick-start"></a>Démarrage rapide de Informations financières
+# Démarrage rapide de Informations financières
 
 Après avoir saisi les informations de base sur l’entreprise dans [!INCLUDE[prod_short](includes/prod_short.md)], l’une des prochaines étapes consiste à remplir la section financière. Vous faites cela non seulement pour recevoir ou effectuer des paiements, mais également pour gérer et déclarer correctement les numéros de votre entreprise.
 
-## <a name="the-chart-of-accounts"></a>Le plan comptable
+## Le plan comptable
 
 Le plan comptable (COA) offre un aperçu des finances de l’entreprise, répertoriant les comptes dans des groupes structurés tels que les actifs, les passifs, les revenus, le coût des marchandises vendues et les dépenses. [!INCLUDE[prod_short](includes/prod_short.md)] inclut un plan comptable standard que vous pouvez personnaliser selon les pratiques comptables de votre société.
 
-## <a name="set-up-the-chart-of-accounts"></a>Configurer le plan comptable
+## Configurer le plan comptable
 
 La vidéo suivante vous montre comment configurer le plan comptable dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -28,7 +28,7 @@ La vidéo suivante vous montre comment configurer le plan comptable dans [!INCLU
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-### <a name="add-an-account-to-the-chart-of-accounts"></a>Ajouter un compte au plan comptable
+### Ajouter un compte au plan comptable
 
 Pour ajouter un compte non inclus par défaut dans [!INCLUDE[prod_short](includes/prod_short.md)] —par exemple, les services de jardinage—suivez simplement ces étapes :
 
@@ -56,7 +56,7 @@ Pour ajouter un compte non inclus par défaut dans [!INCLUDE[prod_short](include
 
 5. Sur la page **Fiche compte général**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="get-an-overview-of-the-chart-of-accounts"></a>Obtenir un aperçu du plan comptable
+### Obtenir un aperçu du plan comptable
 
 Si vous avez besoin d’une vue plus compacte du plan comptable, sans colonnes pour les groupes de comptabilisation, le type de comptabilisation ou le type de coût, par exemple, la **Vue d’ensemble du plan comptable** répertorie les principales informations pour chaque compte dans un tableau plus petit. De plus, vous pouvez réduire ou développer des groupes pour masquer les comptes qu’ils contiennent.
 
@@ -64,7 +64,7 @@ Pour afficher l’aperçu, choisissez l’option **Vue d’ensemble du plan comp
 
 En savoir plus sur le plan comptable et le grand livre général sur [Comprendre le grand livre et le plan comptable](finance-general-ledger.md).
 
-## <a name="set-up-bank-accounts"></a>Configuration des comptes bancaires
+## Configuration des comptes bancaires
 
 Les comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)] enregistrent les opérations bancaires et sont associés aux écritures du plan comptable. La vidéo suivante vous montre comment configurer les comptes bancaires.
 
@@ -79,9 +79,9 @@ Les comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)] enregi
    Le champ est différent du champ **Numéro de compte bancaire** également disponible dans le raccourci **Général**.
 4. Sur la page **Fiche compte bancaire**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
+## Voir la formation associée sur [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configurer le plan comptable](finance-setup-chart-accounts.md)  
 [Configurer des comptes bancaires](bank-how-setup-bank-accounts.md)  

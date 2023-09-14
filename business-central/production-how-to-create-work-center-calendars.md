@@ -1,16 +1,16 @@
 ---
 title: Paramétrer des calendriers usine
 description: 'La création et l’activation d’un calendrier centre de charge impliquent plusieurs tâches, notamment la configuration des calendriers d’atelier et la création d’équipes.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-shop-calendars"></a>Paramétrer des calendriers usine
+# Paramétrer des calendriers usine
 
 Les calendriers de centre de charge ou de poste de charge spécifient les jours ouvrés et les heures de travail, les équipes, les jours fériés et les absences déterminant la capacité disponible brute du centre de charge, mesurée en unités de temps, en fonction des valeurs d’efficacité et de capacité définies.
 
@@ -18,7 +18,7 @@ Avant de calculer un calendrier de centre de charge ou de poste de charge spéci
 
 La procédure suivante décrit comment configurer des calendriers de centre de charge. Les étapes sont similaires lorsque vous configurez des calendriers de poste de charge.  
 
-## <a name="to-create-work-shifts"></a>Pour créer des équipes
+## Pour créer des équipes  
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Équipes**, puis choisissez le lien associé.  
 2.  Sur une ligne blanche, entrez le numéro d’identification de l’équipe, par exemple, **1**, dans le champ **Code**.  
 3.  Dans le champ **Désignation**, entrez la désignation de l’équipe, par exemple, **1ère équipe**.  
@@ -26,7 +26,7 @@ La procédure suivante décrit comment configurer des calendriers de centre de c
 
 Même si vos centres de charge n’ont pas recours à diverses équipes, entrez au moins un code équipe.  
 
-## <a name="to-set-up-a-shop-calendar"></a>Pour configurer un calendrier usine
+## Pour configurer un calendrier usine  
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Calendriers usine**, puis choisissez le lien associé.  
 2.  Sur une ligne blanche, entrez le numéro d’identification du calendrier usine dans le champ **Code**.  
 3.  Dans le champ **Désignation**, entrez la désignation du calendrier usine.  
@@ -60,7 +60,7 @@ Une capacité disponible nulle est attribuée aux jours fériés définis dans l
 
 Le calendrier usine peut ensuite être attribué à un centre de charge pour calculer le calendrier usine qui régira la planification de toutes les opérations dans le temps au centre de charge.  
 
-## <a name="to-calculate-a-work-center-calendar"></a>Pour calculer un calendrier de centre de charge
+## Pour calculer un calendrier de centre de charge  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Centres de charge**, puis choisissez le lien associé.
 2. Ouvrez le centre de charge que vous voulez mettre à jour.  
@@ -88,7 +88,7 @@ Vous venez de créer ou de mettre à jour les écritures calendrier. Elles indiq
 
 Le calendrier de centre de charge calculé définit ensuite la période de disponibilité et la quantité de la capacité du centre de charge. Il contrôle la planification détaillée des opérations effectuées dans le centre de charge.  
 
-## <a name="to-record-work-center-absence"></a>Pour enregistrer les absences du centre de charge
+## Pour enregistrer les absences du centre de charge  
 1.  Sur la page **Calendrier centre de charge**, choisissez l’action **Afficher matrice**.
 2. Sur la page **Matrice Calendrier centre de charge**, sélectionnez le centre de charge et le jour de calendrier correspondant au moment où l’absence doit être enregistrée, puis choisissez l’action **Indisponibilité**.  
 3.  Sur la page **Indisponibilité**, définissez les heures de début et de fin, et la description de l’absence du jour. Par exemple :  
@@ -99,7 +99,7 @@ Le calendrier de centre de charge calculé définit ensuite la période de dispo
 
 La capacité du jour sélectionné est réduite conformément aux heures d’absence enregistrées.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 [Configurer des calendriers principaux](across-how-to-assign-base-calendars.md)  
 [Configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  

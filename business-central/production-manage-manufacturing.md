@@ -1,16 +1,16 @@
 ---
 title: Exécution de la production
 description: 'Lorsque la demande est planifiée et les matières ont été produites conformément aux nomenclatures de production, les opérations de production réelles peuvent commencer et être exécutées selon la séquence définie par la gamme O.F.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="manufacturing"></a>Production
+# Production
 
 > [!NOTE]
 > La fonctionnalité décrite dans ces rubrique et sous-rubriques n’est visible dans l’interface utilisateur que si vous avez l’expérience **Premium**. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
@@ -39,7 +39,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Utiliser la page **Feuille capacité** pour valider les capacités consommées qui ne sont pas affectées à un ordre de fabrication, telles que les travaux de maintenance.|[Valider les capacités](production-how-to-post-capacities.md)|  
 |Calculer et ajuster le coût des articles finis et des composants consommés à des fins de rapprochement bancaire.|[À propos des coûts des O.F. terminés](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Planifié](production-planning.md)  

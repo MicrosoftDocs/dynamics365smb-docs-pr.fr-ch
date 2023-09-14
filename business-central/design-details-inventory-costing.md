@@ -1,7 +1,7 @@
 ---
 title: Détails de conception – Évaluation stock
 description: Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
 ms.date: 06/08/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-inventory-costing"></a>Détails de conception : coûts ajustés
+# Détails de conception : coûts ajustés
 
 Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 L’évaluation des coûts de stock, aussi appelé gestion des coûts, se charge de l’enregistrement et de la déclaration des coûts d’exploitation de la société.  
 
-## <a name="in-this-section"></a>Dans cette section
+## Dans cette section
 
 [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 [Détails de conception : lettrage article](design-details-item-application.md)  

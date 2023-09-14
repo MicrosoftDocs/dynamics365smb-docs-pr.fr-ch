@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 10/11/2022
 ms.author: bholtorf
 ---
-# <a name="personalize-your-workspace"></a>Personnaliser votre espace de travail
+# Personnaliser votre espace de travail
 
 Vous pouvez personnaliser votre espace de travail en fonction de vos habitudes et préférences. Modifiez les pages afin qu’elles n’affichent que les informations dont vous avez besoin, où vous en avez besoin. La personnalisation n’affecte que votre espace de travail. Cela ne change pas la façon dont les autres fonctionnent.
 
@@ -25,13 +25,13 @@ Vous pouvez apporter différentes modifications, comme déplacer ou masquer des 
 > Les administrateurs peuvent effectuer les mêmes modifications de présentation que les utilisateurs en personnalisant l’espace de travail pour un profil attribué à plusieurs utilisateurs. Pour en savoir plus sur les pages pour les rôles, accédez à [Personnaliser les pages pour les rôles](ui-personalization-manage.md)<br /><br />
 Les administrateurs peuvent aussi remplacer ou désactiver des personnalisations des utilisateurs et définir les fonctionnalités accessibles dans toutes les sociétés ou des sociétés spécifiques. Pour plus d’informations, voir [Personnalisation de Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Vidéo
+## Vidéo
 
 La vidéo suivante montre quelques-unes des façons dont vous pouvez personnaliser votre tableau de bord.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## <a name="to-change-the-width-of-a-column"></a>Pour modifier la largeur d’une colonne
+## Pour modifier la largeur d’une colonne
 
 Vous pouvez facilement redimensionner les colonnes de n’importe quelle liste. Il suffit simplement de faire glisser la limite entre deux colonnes vers la gauche ou la droite.  
 
@@ -40,7 +40,7 @@ Vous pouvez facilement redimensionner les colonnes de n’importe quelle liste. 
 
 En ce qui concerne les autres personnalisations, les modifications apportées à la largeur des colonnes sont stockées sur votre compte et vous suivent quel que soit le périphérique auquel vous vous connectez.
 
-## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Pour commencer à personnaliser une page au moyen de la bannière **Personnalisation**
+## Pour commencer à personnaliser une page au moyen de la bannière **Personnalisation**
 
 1. Ouvrez une page quelconque à personnaliser.
 2. Dans l’angle supérieur droit, sélectionnez l’icône ![Paramètres.](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") puis l’action **Personnaliser**.
@@ -58,7 +58,7 @@ En ce qui concerne les autres personnalisations, les modifications apportées à
 6. Choisissez l’élément, puis choisissez soit **Déplacer**, **Supprimer**, **Masquer**, **Afficher**, **Afficher sous « Afficher plus »**, **Afficher si réduit**, **Afficher toujours**, **Définir/Effacer le volet Figer**, ou **Inclure/Exclure de la saisie rapide**, en fonction du type et de l’état de l’élément d’interface utilisateur. Pour plus d’informations, voir [Ce que vous pouvez personnaliser](#What).
 7. Lorsque vous avez fini de modifier la mise en page sur une ou plusieurs pages, choisissez le bouton **Terminé** sur la bannière **Personnalisation**.
 
-## <a name="what-you-can-personalize"></a><a name="What"></a>Ce que vous pouvez personnaliser
+## <a name="What"></a>Ce que vous pouvez personnaliser
 
 |Ce que vous voulez faire|Comment procéder|Remarques|
 |----|------------|-------|
@@ -74,7 +74,7 @@ En ce qui concerne les autres personnalisations, les modifications apportées à
 |Ajoutez une nouvelle action à une page ou à un état sur votre tableau de bord.|Dans la page cible, la page de demande d’état, ou la fenêtre Tell Me, choisissez l’icône de signet.|Voir [Ajouter un signet à une page ou à un état sur votre tableau de bord](ui-bookmarks.md)|
 |Toujours démarrer une liste comme développée ou réduite|Choisissez le bouton **Développer tout** ou **Réduire tout** dans le coint supérieur gauche de la liste. Sinon, choisissez l’action **Développer tout** ou **Réduire tout** dans le menu de la première colonne. |S’applique aux listes hiérarchiques réductibles|
 
-## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Personnalisation de la barre d’action et des menus
+## <a name="Actions"></a>Personnalisation de la barre d’action et des menus
 
 La personnalisation vous permet de choisir les actions à afficher sur les barres de navigation et d’actions et sur les tableaux de bord et où les afficher. Vous pouvez afficher, masquer ou déplacer les actions individuelles ou groupes d’action.
 
@@ -93,7 +93,7 @@ Une *catégorie promue* désigne un groupe d’actions qui s’affiche avant la 
 > [!NOTE]  
 > Pour effacer la personnalisation, sélectionnez la pointe de flèche autour du menu du concepteur de la pièce, puis choisissez **Effacer la personnalisation**.
 
-### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Pour supprimer, masquer et afficher des actions et des groupes d’actions
+### Pour supprimer, masquer et afficher des actions et des groupes d’actions
 
 Lorsque vous souhaitez afficher ou masquer une action, les options situées sous la flèche définissent ce que vous pouvez faire en fonction de l’état de l’action. 
 
@@ -106,7 +106,7 @@ Lorsque vous souhaitez afficher ou masquer une action, les options situées sous
 |**Masquer**|Cette option s’affiche si l’action ou le groupe d’actions apparaît nulle part ailleurs sur les barres de navigation et d’actions. Comme **Supprimer**, choisissez cette option pour inciter l’action ou le groupe d’actions à disparaître des barres de navigation et d’actions. Toutefois, en mode personnalisation, l’action ou le groupe d’actions est toujours affiché dans la position actuelle, sauf si elle/il apparaît atténué(e).|
 |**Afficher**|Cette option s’affiche si l’action ou le groupe d’actions a été précédemment masqué(e) atténué(e). En choisissant cette option, vous permettez à l’action ou au groupe d’actions de figurer dans la barre de navigation ou la barre d’actions.|
 
-### <a name="to-move-actions-and-action-groups"></a>Pour déplacer les actions et groupes d’actions
+### Pour déplacer les actions et groupes d’actions
 
 L’emplacement où vous pouvez déplacer des actions ou groupes d’actions est indiqué par une ligne horizontale entre deux actions ou une bordure autour d’un groupe d’actions. Les limitations suivantes s’appliquent :
 
@@ -116,7 +116,7 @@ L’emplacement où vous pouvez déplacer des actions ou groupes d’actions est
 1. Pour déplacer une action ou un groupe d’actions, faites-la/le glisser sur la position souhaitée, comme avec les champs et les colonnes.
 2. Pour déplacer une action ou un groupe d’actions dans un autre groupe d’actions vide, déplacez l’action ou le groupe d’actions vers le nouveau groupe et placez-la/le dans la zone **Déplacer une action ici**.
 
-## <a name="personalizing-parts"></a><a name="Parts"></a>Personnalisation des pièces
+## <a name="Parts"></a>Personnalisation des pièces
 
 Les parties sont des zones d’une page généralement composées de plusieurs champs, graphiques ou autres contenus. Une partie peut être identifiée par une bordure colorée lors du réglage du focus sur la partie. Par exemple, un écran d’accueil Tableau de bord comporte plusieurs pièces. En raison de sa limite bien définie, vous pouvez personnaliser l’ensemble de la partie et son contenu.
 
@@ -126,7 +126,7 @@ Les parties sont des zones d’une page généralement composées de plusieurs c
 
 Vous pouvez effacer toutes les modifications de personnalisation que vous avez apportées dans une seule pièce en sélectionnant l’option **Effacer la personnalisation** sous la pointe de flèche de la pièce. L’effacement de la personnalisation d’une pièce n’affecte que les modifications apportées au contenu de la pièce, et non le placement ou la visibilité de la pièce sur la page.  
 
-## <a name="to-clear-personalization"></a>Pour annuler la personnalisation
+## Pour annuler la personnalisation
 
 Vous pouvez souhaiter annuler toutes les modifications de personnalisation apportées à une page au fil du temps.
 
@@ -143,7 +143,7 @@ Vous pouvez souhaiter annuler toutes les modifications de personnalisation appor
 |**Uniquement les champs et les colonnes**|Efface toutes les modifications de personnalisation apportées à la page, hormis les modifications de la barre de navigation ou d’actions. Ces modifications incluent les modifications apportées aux champs, colonnes, parties et mosaïques. |
 |**Tous**|Efface toutes les modifications de personnalisation apportées à cette page afin qu’elle retrouve son aspect d’origine. Ces modifications incluent les modifications apportées aux barres de navigation et d’actions, aux champs, colonnes, parties et mosaïques.|
 
-## <a name="other-points-of-interest"></a>Autres points d’intérêts
+## Autres points d’intérêts
 
 Pour vous aider à mieux comprendre la personnalisation, voici quelques points clés.
 
@@ -158,9 +158,9 @@ Pour vous aider à mieux comprendre la personnalisation, voici quelques points c
    > [!TIP]
    > En tant qu’administrateur, vous pouvez masquer l’élément **Automatisation** des utilisateurs. En savoir plus sur [Configuration de l’intégration Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) associée
+## Voir la [formation Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Personnaliser les pages pour les profils](ui-personalization-manage.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  

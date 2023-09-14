@@ -1,16 +1,16 @@
 ---
 title: Valider par lots la consommation
 description: 'Si la méthode consommation est définie sur Manuel, vous devez valider les composants manuellement à l’aide d’une feuille consommation.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000846, 99000850'
 ms.date: 03/08/2023
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="batch-post-production-consumption"></a>Valider par lots la consommation de la production
+# Valider par lots la consommation de la production
 
 Si le champ Méthode consommation indique **Manuelle**, utilisez une feuille consommation pour valider les composants manuellement.  
 
@@ -19,7 +19,7 @@ Si le champ Méthode consommation indique **Manuelle**, utilisez une feuille con
 
 Vous pouvez également configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour valider automatiquement (*consommer*) les composants lorsque vous lancez ou terminez des ordres de fabrication. Pour plus d’informations, voir [Activer la consommation en aval des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Pour valider la consommation pour une ou plusieurs lignes ordre de fabrication
+## Pour valider la consommation pour une ou plusieurs lignes ordre de fabrication
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille consommation**, puis choisissez le lien associé.  
 2. Renseignez les champs en indiquant les données relatives à l’ordre de fabrication et à la consommation. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -33,7 +33,7 @@ Vous pouvez également configurer [!INCLUDE[prod_short](includes/prod_short.md)]
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Production](production-manage-manufacturing.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  

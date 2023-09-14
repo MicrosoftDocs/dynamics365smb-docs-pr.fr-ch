@@ -3,8 +3,8 @@ metadata:
   title: FAQ Facturation électronique
   description: Obtenez des réponses sur le service d’échange de documents et les versions prises en charge de PEPPOL.
   ms.topic: faq
-  author: edupont04
-  ms.author: edupont
+  author: brentholtorf
+  ms.author: bholtorf
 title: FAQ Facturation électronique
 summary: |
   Le service d’échange de documents intégré soumet les factures électroniques à TradeShift, fournisseur de services qui relaie les factures électroniques aux destinataires PEPPOL ou NemHandel. Mais le service prend en charge un nombre limité de versions.   

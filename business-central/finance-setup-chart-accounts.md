@@ -1,7 +1,7 @@
 ---
 title: Configurer ou modifier le plan comptable (contient une vidéo)
 description: 'Le plan comptable affiche les comptes généraux qui stockent vos données financières. Vous pouvez modifier les comptes par défaut dans le plan comptable, et vous pouvez ajouter de nouveaux comptes.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: 'COA, cha of acc'
 ms.search.form: '16, 17, 18, 118, 386, 391'
 ms.date: 01/21/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Configurer ou modifier le plan comptable
+# Configurer ou modifier le plan comptable
 
 Le plan comptable affiche les comptes généraux qui stockent vos données financières. [!INCLUDE[prod_short](includes/prod_short.md)] inclut un plan comptable standard prêt à prendre en charge votre société. Vous pouvez, cependant, modifier les comptes par défaut, et vous pouvez ajouter de nouveaux comptes.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Ajouter ou modifier les comptes
+## Ajouter ou modifier les comptes
 
 À partir du plan comptable, vous pouvez ouvrir chaque compte général et ajouter ou modifier des paramètres. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ Pour les comptes de type **Total**, vous devez renseigner le champ **Totalisatio
 > [!IMPORTANT]
 > Si vous avez entré des définitions dans les champs **Totalisation** pour les comptes de type **Fin total** avant d’exécuter la fonction d’indentation, vous devez les entrer à nouveau car cette fonction remplace les valeurs de tous les champs **Fin total**.
 
-## <a name="delete-accounts"></a>Supprimer les comptes
+## Supprimer les comptes
 
 Vous pouvez supprimer un compte général. Toutefois, avant que de le supprimer, les conditions suivantes doivent être réunies :  
 
@@ -39,7 +39,7 @@ Vous pouvez supprimer un compte général. Toutefois, avant que de le supprimer,
 
 [!INCLUDE[prod_short](includes/prod_short.md)] vous empêche de supprimer un compte général qui stocke les données nécessaires au plan comptable.  
 
-## <a name="block-deletion-of-gl-accounts"></a>Bloquer la suppression des comptes généraux
+## Bloquer la suppression des comptes généraux
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -49,9 +49,9 @@ Un nouveau champ, **Bloquer la suppression des comptes généraux**, est ajouté
 
 Le fait de régler le champ **Bloquer la suppression des comptes généraux** sur *Oui* peut être considéré comme une pratique exemplaire, tout comme définir la date dans le champ **Vérifier suppr. cpte gén. ap.**, par exemple à la date à laquelle vous devez stocker vos données financières.  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/chart-accounts-dynamics-365-business-central/index) associée
+## Voir la [formation Microsoft](/training/modules/chart-accounts-dynamics-365-business-central/index) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Comptabilité et plan comptable](finance-general-ledger.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  

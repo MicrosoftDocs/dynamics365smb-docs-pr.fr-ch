@@ -1,7 +1,7 @@
 ---
 title: Prélever des articles pour l’expédition entrepôt
 description: Découvrez comment utiliser les documents de prélèvement entrepôt pour créer et traiter les informations de prélèvement avant de valider une expédition entrepôt.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics365-business-central
@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Prélever des articles pour l’expédition entrepôt
+# Prélever des articles pour l’expédition entrepôt
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous prélevez et expédiez des articles en utilisant l’une des quatre méthodes décrites dans le tableau suivant.
 
@@ -39,7 +39,7 @@ Vous ne pouvez pas créer un document de prélèvement en entrepôt à partir de
 >  
 > Pour plus d’informations sur le prélèvement de composants pour les ordres d’assemblage, notamment les situations où les éléments d’assemblage ne sont pas associés à une expédition vente, consultez [Prélever pour la fabrication, l’assemblage ou les tâches dans les configurations de stockage avancées](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Pour créer des documents de prélèvement en bloc avec la feuille prélèvement
+## Pour créer des documents de prélèvement en bloc avec la feuille prélèvement
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prélèvement**, puis choisissez le lien associé.  
 
@@ -89,7 +89,7 @@ Vous ne pouvez pas créer un document de prélèvement en entrepôt à partir de
 
 8. Cliquez sur **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] créera le prélèvement en fonction de vos sélections.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Pour prélever des articles pour une expédition entrepôt
+## Pour prélever des articles pour une expédition entrepôt
 
 1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements entrepôt**, puis choisissez le lien associé.  
 
@@ -111,9 +111,9 @@ Vous ne pouvez pas créer un document de prélèvement en entrepôt à partir de
 
 Vous pouvez alors apporter les articles au quai de chargement et valider l’expédition, dont le document origine lié, sur la page **Expédition entrepôt**. Learn more at [Expédier des articles](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/pick-ship-items-warehouse/) associée
+## Voir la [formation Microsoft](/training/modules/pick-ship-items-warehouse/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  

@@ -2,7 +2,7 @@
 title: Gestion des relations
 description: Les fonctions de gestion des relations prennent en charge vos efforts en matière de vente et vous permettent d’accéder à des informations sur les contacts et les prospects afin de pouvoir servir vos clients efficacement.
 documentationcenter: ''
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,9 +10,9 @@ ms.workload: na
 ms.search.keywords: 'contact, prospect, client'
 ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="managing-relationships"></a>Gestion des relations
+# Gestion des relations
 Les fonctionnalités de gestion des relations de [!INCLUDE[prod_short](includes/prod_short.md)] vous aident à gérer et prendre en charge vos efforts de vente. Grâce à elles, vous avez accès à des informations complètes et pertinentes qui vous permettent de focaliser vos interactions sur les segments client/contact favoris.
 
 Les pratiques recommandées en matière de vente et de marketing reposent toutes sur la prise de décisions appropriées au bon moment. [!INCLUDE[prod_short](includes/prod_short.md)] fournit une vue d’ensemble précise et opportune de vos informations de contact afin d’offrir des services à vos prospects de manière plus efficace et d’accroître la satisfaction de la clientèle.

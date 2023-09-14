@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/05/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 1. Accédez [au site d’essai](https://go.microsoft.com/fwlink/?linkid=847861), choisissez *Finances et opérations*, puis sur la carte **Dynamics 365 Business Central**, choisissez le bouton **Essayer gratuitement**.  
 2. Entrez votre adresse e-mail professionnelle ou scolaire et d’autres informations. Vous serez redirigé vers votre essai sur [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  

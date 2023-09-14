@@ -1,7 +1,7 @@
 ---
 title: 'Affecter des codes de relance livraison à des fournisseurs [CH]'
 description: 'Afin que vous puissiez activer les relances livraison pour les achats en retard, vous devez affecter des conditions de relance livraison à des fournisseurs dans la version suisse.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,13 +9,13 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '5005270, 5005272'
 ms.date: 06/21/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a>Affecter des codes de relance livraison à des fournisseurs dans la version suisse
+# Affecter des codes de relance livraison à des fournisseurs dans la version suisse
 
 [!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Enregistrer un nouveau fournisseur](../../purchasing-how-register-new-vendors.md)  
 [relances livraison](delivery-reminders.md)  

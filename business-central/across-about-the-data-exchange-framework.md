@@ -1,7 +1,7 @@
 ---
 title: À propos de l’infrastructure d’échange de données
 description: Cette rubrique explique comment utiliser l’infrastructure d’échange de données pour gérer l’échange de données dans des documents commerciaux tels que des factures avec vos partenaires commerciaux.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR'
 ms.search.form: '189,'
 ms.date: 06/10/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="about-the-data-exchange-framework"></a>À propos de l’infrastructure d’échange de données
+# À propos de l’infrastructure d’échange de données
 
 Vous pouvez utiliser l’infrastructure d’échange de données pour gérer les échanges des documents commerciaux, des fichiers bancaires, des taux de change devise et tous les autres fichiers de données avec vos partenaires commerciaux ou les autorités.
 
@@ -23,7 +23,7 @@ En tant qu’administrateur ou partenaire Microsoft, vous pouvez utiliser l’in
 
  ![Infrastructure d’échange de données &#45; Exportation.](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## <a name="electronic-documents"></a>Documents électroniques
+## Documents électroniques
 
 Comme alternative à l’envoi par courrier électronique de documents métier sous forme de fichiers joints, vous pouvez les envoyer et les recevoir par voie électronique. Par « document électronique », on entend un fichier conforme aux normes représentant un document métier, comme une facture fournisseur que vous pouvez recevoir et convertir en facture achat dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les partenaires commerciaux échangent des documents électroniques via des services externes d’échange de documents. Par défaut, [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge l’envoi et la réception de factures et d’avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d’échange de documents. Un grand fournisseur de services d’échange de documents, Tradeshift, est préconfiguré et prêt à être installé pour votre société. Pour prendre en charge d’autres formats de document électronique, vous devez créer de nouvelles définitions d’échange de données.  
 
@@ -35,7 +35,7 @@ Pour recevoir, par exemple, une facture d’un fournisseur en tant que document 
 
   Pour recevoir, par exemple, une facture en tant que document ROC électronique, vous la traitez comme lorsque vous recevez un document PEPPOL électronique. La réception et la conversion de documents électroniques à partir du service ROC sont exécutées par l’infrastructure d’échange de données, représentée par la définition d’échange de données **ROC - Facture**.  
 
-## <a name="bank-files"></a>Fichiers bancaires
+## Fichiers bancaires
 
 Les formats de fichiers d’échange de données bancaire avec des applications de gestion d’entreprise varient selon le fournisseur du fichier et du pays ou de la région. [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge l’importation et l’exportation de fichiers bancaires de l’espace SEPA (Single Euro Payments Area). De plus, l’extension AMC Banking 365 Fundamentals vous permet de vous connecter à une extension AMC Banking 365 Fundamentals fournie par un fournisseur externe, AMC Consult. Pour plus d’informations, voir [Exécution de paiements avec l’extension AMC Banking 365 Fundamentals ou un virement SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md). Pour assurer la prise en charge d’autres formats de documents électroniques, vous pouvez utiliser l’infrastructure d’échange de données.  
 
@@ -47,17 +47,17 @@ Pour exporter des virements SEPA, choisissez le bouton **Exporter les paiements
 
  En outre, les versions locales de [!INCLUDE[prod_short](includes/prod_short.md)] prennent en charge plusieurs autres formats de fichier pour importer/exporter des données bancaires, transactions de paie et autres données. Pour plus d’informations, consultez la page d’arrivée [Fonctionnalités locales](about-localization.md) pour votre pays/région dans l’aide.  
 
-## <a name="currency-exchange-rates"></a>Taux de change devise
+## Taux de change devise
 
 vous pouvez configurer un service externe pour tenir vos taux de change des devises à jour. Le service qui fournit des taux de change des devises mis à jour est activé par une définition d’échange de données. Par conséquent, la page **Fiche Paramètres de mise à jour des taux de change** est une vue condensée de la page **Définition d’échange de données** de la définition d’échange de données en question.  
 
 Pour tous les échanges de données dans les fichiers XML, vous pouvez préparer la configuration d’échange de données en chargeant le fichier schéma XML associé sur la page **Visionneuse de schéma XML**. Il s’agit de l’emplacement où vous pouvez sélectionner les éléments de données que vous souhaitez échanger avec [!INCLUDE[prod_short](includes/prod_short.md)], puis initialiser une définition d’échange de données ou générer un XMLport.
 
-## <a name="intrastat"></a>Déclaration d’échanges de biens
+## Déclaration d’échanges de biens
 
 [!INCLUDE[prod_short](includes/prod_short.md)] utilise la structure d’échange de données pour les rapports Échanges intracommunautaires où vous pouvez facilement créer des fichiers horodatés dans différents formats pour l’exportation. [!INCLUDE[prod_short](includes/prod_short.md)] contient des formats préparés pour les pays/régions localisés ainsi que pour la version par défaut. Mais vous pouvez modifier le rapport prêt à l’emploi ou créer le vôtre.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Échanger des données par voir électronique](across-data-exchange.md)  
 [Utiliser des schémas XML pour préparer des définitions d’échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  

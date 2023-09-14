@@ -1,7 +1,7 @@
 ---
 title: Présentation de la comptabilité pour les coûts
 description: La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activié. Cet article fournit des liens vers d’autres articles contenant plus d’informations.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="accounting-for-costs"></a>Comptabilité pour les coûts
+# Comptabilité pour les coûts
 La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activié. Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.  
 
 |Pour|Voir|  
@@ -24,9 +24,9 @@ La comptabilité analytique vous permet de cerner les coûts liés à l’exploi
 |Découvrez les processus de création des budgets de coûts.|[Création des budgets des coûts](finance-create-cost-budgets.md)|
 |Annulez des écritures de coûts à partir du registre du budget des coûts.|[Suppression des écritures budget des coûts](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 [Finances](finance.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,22 +1,22 @@
 ---
 title: Supprimer écritures budget des coûts
 description: Vous utilisez le traitement par lots Supprimer écritures budget des coûts pour annuler les écritures de budget des coûts à partir du registre du budget des coûts.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="delete-cost-budget-entries"></a>Supprimer écritures budget des coûts
+# Supprimer écritures budget des coûts
 
 Vous utilisez le traitement par lots **Supprimer écritures budget des coûts** pour annuler les écritures de budget des coûts à partir du registre du budget des coûts.  
 
 Pour empêcher tout écart dans les écritures du budget des coûts et les écritures du registre des coûts, vous ne pouvez pas supprimer une écriture unique ou un lot d’écritures dans la liste des écritures du registre.  
 
-## <a name="to-delete-a-cost-budget-entry"></a>Pour supprimer une écriture budget des coûts
+## Pour supprimer une écriture budget des coûts  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Supprimer écritures budget des coûts**, puis sélectionnez le lien associé.  
 
@@ -28,7 +28,7 @@ Pour empêcher tout écart dans les écritures du budget des coûts et les écri
 > [!NOTE]  
 > Pour éviter une suppression accidentelle des écritures du budget des coûts, vous pouvez clôturer les écritures du registre en marquant les lignes comme **Clôturées** dans le champ **Clôturées** de la page **Registre du budget des coûts**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Comptabilité pour les coûts](finance-manage-cost-accounting.md)
 [Création des budgets des coûts](finance-create-cost-budgets.md)  

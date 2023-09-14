@@ -1,16 +1,16 @@
 ---
 title: "Aperçu des tâches permettant de paramétrer Business\_Central"
 description: "Découvrez une vue d’ensemble des tâches pour paramétrer, initialiser et configurer Business\_Central selon vos besoins."
-author: edupont04
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="overview-of-tasks-to-set-up-"></a>Aperçu des tâches permettant de paramétrer [!INCLUDE[prod_short](includes/prod_short.md)]
+# Aperçu des tâches permettant de paramétrer [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] comprend des configurations standard pour la plupart des processus métier, mais vous pouvez les modifier pour les adapter aux besoins de votre organisation. Les articles [Démarrage rapide de Business Central](quick-start-business-central.md) peuvent vous aider à vous familiariser avec [!INCLUDE [prod_short](includes/prod_short.md)]. Cet article fournit un aperçu de la façon dont vous pouvez configurer [!INCLUDE [prod_short](includes/prod_short.md)] pour votre organisation.
 
@@ -55,13 +55,13 @@ Certaines zones nécessitent que vous soyez un administrateur dans votre abonnem
 > [!NOTE]
 > En tant qu’administrateur, vous pouvez configurer une nouvelle société dans [!INCLUDE[prod_short](includes/prod_short.md)] avec RapidStart Services, qui est un outil conçu pour réduire les temps de déploiement, améliorer la qualité de l’implémentation, présenter une approche reproductible des implémentations et augmenter la productivité en automatisant et en simplifiant des tâches récurrentes. En savoir plus sur la [Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a>Configuration d’applications
+## Configuration d’applications
 
 En plus des capacités de base disponibles dans [!INCLUDE [prod_short](includes/prod_short.md)], Microsoft ajoute quelques applications répertoriées sur [la page **Gestion des extensions**](https://businesscentral.dynamics.com/?page=2500). À partir d’octobre 2022, chaque application fournit un lien pour lancer sa page de configuration ; il suffit de sélectionner l’action **Configurer**.  
 
 Vous pouvez également ajouter des fonctionnalités à votre [!INCLUDE [prod_short](includes/prod_short.md)] en ajoutant des applications AppSource. En savoir plus [Personnalisation de Business Central Online à l’aide d’extensions](ui-extensions.md).  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Présentation des informations sur la société](admin-company-information.md)  
 [Administration](admin-setup-and-administration.md)  

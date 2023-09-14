@@ -1,18 +1,18 @@
 ---
 title: Utiliser des profils pour classer les contacts
 description: Découvrez comment configurer des questionnaires de profil pour aider à classer les profils de vos contacts professionnels.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'contacts, profiles'
 ms.search.form: '5109, 5110'
-ms.author: edupont
+ms.author: bholtorf
 ms.date: 05/20/2022
 ---
 
-# <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Utiliser des questionnaires profil pour classer les contacts professionnels
+# Utiliser des questionnaires profil pour classer les contacts professionnels
 
 Vous pouvez évaluer un prospect afin d’identifier les prospects idéaux sur lesquels axer votre compagne de vente. Vous pouvez configurer des questionnaires profil à utiliser au moment d’entrer des informations sur les profils de vos contacts. Dans chaque questionnaire, vous pouvez configurer les questions à poser à vos contacts. De cette façon, vous pouvez regrouper les contacts afin que vos campagnes soient plus susceptibles de cibler les personnes appropriées en fonction des critères que vous définissez avec les questionnaires.  
 
@@ -20,13 +20,13 @@ Avec les questionnaires adaptés, vous pouvez évaluer vos prospects et les regr
 
 Vous pouvez également exécuter le questionnaire pour répondre automatiquement à certaines de ces questions en fonction des données contact, client ou fournisseur.  
 
-## <a name="to-add-a-profile-questionnaire"></a>Pour ajouter un questionnaire profil
+## Pour ajouter un questionnaire profil
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration du questionnaire**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-add-questions-to-a-profile-questionnaire"></a>Pour ajouter des questions à un questionnaire profil
+## Pour ajouter des questions à un questionnaire profil
 
 1. Choisissez le questionnaire profil approprié, puis sélectionnez l’action **Modifier paramètres questionnaire**.  
 2. Sur la première ligne vide, dans le champ **Type**, choisissez **Question**, puis tapez la question dans le champ **Désignation**. Renseignez les autres champs sur cette ligne.  
@@ -61,11 +61,11 @@ Après avoir créé un questionnaire, vous pouvez l’utiliser pour évaluer et 
 > [!NOTE]
 > Si vous entrez une question dont la réponse est automatique, choisissez **Ligne**, puis **Questionnaire** pour entrer les critères de réponse automatique.
 
-## <a name="apply-questionnaires-to-contacts"></a>Appliquer des questionnaires aux contacts
+## Appliquer des questionnaires aux contacts
 
 Vous pouvez appliquer vos questionnaires aux contacts manuellement. Il vous suffit d’ouvrir la fiche contact appropriée, puis de choisir l’action **Profils**. Ensuite, une fois que vous avez appliqué les questionnaires que vous souhaitez appliquer, vous pouvez commencer à utiliser les catégories dans vos campagnes.  
 
-## <a name="the-automatic-classification-of-contacts"></a>Classification automatique des contacts
+## Classification automatique des contacts
 
 Vous pouvez configurer le programme pour qu’il classe automatiquement les contacts en fonction des données client, fournisseur et contact. Pour cela, configurez des questions profil à réponse automatique sur la page **Paramètres questionnaires profil**.  
 
@@ -74,7 +74,7 @@ Vous pouvez configurer le programme pour qu’il classe automatiquement les cont
 
 Une fois que vous avez configuré les questions profil à réponse automatique, affectez à un contact le questionnaire profil qui les contient. [!INCLUDE[prod_short](includes/prod_short.md)] répond ensuite automatiquement aux questions.  
 
-## <a name="example"></a>Exemple :
+## Exemple :
 
 Vous pouvez classer vos contacts en fonction du montant de leurs achats :
 
@@ -102,7 +102,7 @@ Renseignez ensuite la page **Questionnaire profil** comme suit :
 
 Lorsque vous affectez le questionnaire profil contenant cette question à un contact, l’application insère automatiquement la réponse correspondante dans les lignes profil de la fiche contact.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Création de contacts](marketing-create-contact-companies.md)  
 

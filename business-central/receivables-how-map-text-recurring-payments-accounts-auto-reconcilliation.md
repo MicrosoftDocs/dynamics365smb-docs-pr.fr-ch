@@ -1,7 +1,7 @@
 ---
 title: Paramétrage de la mise en correspondance du texte avec le compte pour les paiements récurrents
 description: 'Lier le texte sur les paiements à des comptes spécifiques, afin que les paiements soient validés dans les comptes lorsque vous validez la feuille rapprochement bancaire.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt'
 ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique
+# Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique
 
 Sur la page **Mappage de texte à compte** à laquelle vous accédez à partir de la page **Feuille rapprochement bancaire**, vous pouvez configurer des mappages entre le texte des paiements et des comptes de débit, de crédit et de contrepartie spécifiques afin que ces paiements soient validées dans les comptes spécifiés lorsque vous validez la feuille rapprochement bancaire.
 
@@ -24,7 +24,7 @@ Les paiements validés basés sur le mappage de texte à compte ne sont pas appl
 
 Sur une ligne feuille rapprochement bancaire dont le paiement a été défini sur validation en fonction du mappage de texte à compte, le champ **Fiabilité correspondance** contient la valeur **Élevé – Mappage de texte à compte**, et les champs **Type compte** et **N° compte** contiennent les comptes mappés.
 
-## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Pour mapper le texte sur les paiements récurrents aux comptes pour un rapprochement automatique
+## Pour mapper le texte sur les paiements récurrents aux comptes pour un rapprochement automatique
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles rapprochement bancaire**, puis sélectionnez le lien associé.
 2. Ouvrez une feuille de rapprochement de paiement. Pour plus d’informations, voir [Rapprocher les paiements à l’aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
@@ -44,7 +44,7 @@ Sur une ligne feuille rapprochement bancaire dont le paiement a été défini su
 
 La prochaine fois que vous importez un fichier de relevé bancaire ou sélectionnez l’action **Lettrer automatiquement** sur la page **Feuille rapprochement bancaire**, les lignes feuille pour les paiements qui contiennent le texte de mappage spécifié contiendront les comptes mappés dans les champs **Type compte** et **N° compte**. Le champ **Fiabilité correspondance** contient **Élevée - Mappage de texte à compte**. Ce, à condition que la fonction de lettrage automatique ne puisse fournir qu’une fiabilité de correspondance **Basse** ou **Moyenne**.
 
-## <a name="example-text-to-account-mapping-for-bank-fees"></a>Exemple : Mappage de texte à compte pour les frais bancaires
+## Exemple : Mappage de texte à compte pour les frais bancaires
 
 Pour toujours valider les dépenses liées aux frais d’une banque spécifique, MyBank, sur le compte général pour les frais et frais bancaires (compte 60400), remplissez une ligne sur la page **Mappage de texte à compte** comme suit.
 
@@ -52,9 +52,9 @@ Pour toujours valider les dépenses liées aux frais d’une banque spécifique,
 | --- | --- | --- | --- | --- |
 | MyBank |VIDE |60400|Compte général |VIDE |
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/use-journals-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/use-journals-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  

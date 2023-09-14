@@ -1,20 +1,20 @@
 ---
 title: Date comptabilisation des écritures valeur
 description: Découvrez comment le traitement par lots Ajuster coûts - Écr. article identifie et affecte une date comptabilisation aux écritures valeur que le traitement par lots est sur le point de créer.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 09/17/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-posting-date-on-adjustment-value-entry"></a>Détails de conception : date comptabilisation de l’écriture valeur d’ajustement
+# Détails de conception : date comptabilisation de l’écriture valeur d’ajustement
 
 Cet article fournit des conseils aux utilisateurs de la fonctionnalité Évaluation stock dans [!INCLUDE[prod_short](includes/prod_short.md)], et en particulier pour la façon dont le traitement par lots **Ajuster coûts : Écr. article** identifie et attribue une date comptabilisation aux écritures de valeur que le traitement par lots est sur le point de créer.
 
-## <a name="how-posting-dates-are-assigned"></a>Modalités d’attribution des dates comptabilisation
+## Modalités d’attribution des dates comptabilisation
 
 Le traitement par lots **Ajuster coûts - Écr. article** affecte une date comptabilisation à l’écriture valeur qu’il est sur le point de créer dans les étapes suivantes :  
 
@@ -26,7 +26,7 @@ Le traitement par lots **Ajuster coûts - Écr. article** affecte une date compt
 
 Examinons ce processus plus en détail. Supposons que nous avons une écriture comptable article de type Vente. L’article a été livré le 5 septembre 2020 et il a été facturé le jour suivant.  
 
-#### <a name="item-ledger-entry"></a>Écriture comptable article
+#### Écriture comptable article
 
 |Numéro de la séquence  |Nombre d’articles  |Date comptabilisation  |Type écriture  | N° document |Code magasin  |Quantité  |Coût total (réel)  |Quantité facturée  |Quantité restante  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -52,7 +52,7 @@ Pour affecter la date comptabilisation à **Écriture n°391**, les étapes suiv
 
 Examinons la vente mentionnée ci-dessus en ajoutant le paramétrage des plages de dates comptabilisation autorisées.  
   
-#### <a name="inventory-periods"></a>Périodes inventaire
+#### Périodes inventaire
 
 |Date de fin  |Name  |Fermé  |
 |---------|---------|---------|
@@ -71,7 +71,7 @@ Examinons la vente mentionnée ci-dessus en ajoutant le paramétrage des plages 
 
 La première date comptabilisation autorisée est le premier jour de la première période ouverte, qui est le 1e septembre 2020.  
 
-#### <a name="general-ledger-setup"></a>Paramètres comptabilité
+#### Paramètres comptabilité
 
 |Champ|Valeur  |
 |---------|---------|
@@ -93,19 +93,19 @@ La date comptabilisation initiale était le 6 septembre, comme illustré à l’
 |381     |  A       |    2020/09/06     |    Vente     | Coût direct   | 103022        |319     | Bleu        |  0       |-1        |-10       |    10     | Non  |0      |       Ventes   |
 |391     |  A       |    **2020-09-10**     |    Vente     | Coût direct   | 103022        |319     | Bleu        |  0       |0         |-1        |    0     |Oui   |    181   | AJSTK   |
 
-## <a name="common-problems-with-the-adjust-cost---item-entries-batch-job"></a>Problèmes courants avec le traitement par lots « Ajuster coûts - Écr. article »
+## Problèmes courants avec le traitement par lots « Ajuster coûts - Écr. article »
 
 Il existe deux scénarios que l’équipe d’assistance rencontre suffisamment fréquemment pour justifier la rédaction d’articles de résolution de problèmes dédiés.
 
-### <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Message d’erreur : « La date comptabilisation n’est pas incluse dans la plage de dates comptabilisation autorisées... »
+### Message d’erreur : « La date comptabilisation n’est pas incluse dans la plage de dates comptabilisation autorisées... »
 
 Si vous rencontrez cette erreur, vous devez ajuster les dates pour lesquelles l’utilisateur est autorisé à valider des écritures. Pour en savoir plus, voir [Message d’erreur : « La date comptabilisation n’est pas incluse dans la plage de dates comptabilisation autorisées »](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md).
 
-### <a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a>Comparaison entre la date comptabilisation de l’écriture valeur d’ajustement et la date comptabilisation de l’écriture à l’origine de l’ajustement, comme une réévaluation ou des frais annexes
+### Comparaison entre la date comptabilisation de l’écriture valeur d’ajustement et la date comptabilisation de l’écriture à l’origine de l’ajustement, comme une réévaluation ou des frais annexes
 
 Pour en savoir plus, voir [Date comptabilisation sur l’écriture valeur d’ajustement par rapport à l’écriture source](design-details-inventory-adjustment-value-entry-source-entry.md).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)  
 [Détails de conception : lettrage article](design-details-item-application.md)  

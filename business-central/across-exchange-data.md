@@ -1,16 +1,16 @@
 ---
 title: Échange de données
 description: "Échangez des documents commerciaux électroniques, par exemple des fichiers bancaires, entre Business\_Central et des parties externes."
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'exchange data, external files, electronic documents, AMC Banking, OCT, SEPA'
 ms.date: 06/10/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="exchanging-data"></a>Échange de données
+# Échange de données
 Vous pouvez échanger des données entre [!INCLUDE[prod_short](includes/prod_short.md)] et des fichiers ou flux externes en relation avec des tâches courantes d’entreprise, comme l’envoi et la réception de documents électroniques et l’importation et l’exportation de fichiers bancaires.  
 
 Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et exporter des fichiers bancaires, vous devez configurer l’infrastructure d’échange de données pour traiter les fichiers de données ou flux. En outre, vous devez configurer des zones associées, comme les clients auxquels vous envoyez des factures électroniques, ainsi que l’extension AMC Banking 365 Fundamentals si vous distribuez des conversions de fichiers bancaires à un fournisseur externe de services. Pour plus d’informations, voir [Configurer un échange de données](across-set-up-data-exchange.md).  
@@ -31,7 +31,7 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 |Exporter les données pour la déclaration Échanges intracommunautaires dans [!INCLUDE[prod_short](includes/prod_short.md)].|[Paramétrer les états intracommunautaires](finance-how-setup-report-intrastat.md)|
 |Découvrez quels sont les champs de [!INCLUDE[prod_short](includes/prod_short.md)] qui sont mappés à des éléments de fichier lorsque vous exportez des fichiers de paiement à l’aide de l’extension AMC Banking 365 Fundamentals.|[Mappage de champ lors de l’exportation de fichiers de paiement à l’aide de l’extension AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 [Configuration de l’échange de données](across-set-up-data-exchange.md)  
 [Échanger des données par voir électronique](across-data-exchange.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)   

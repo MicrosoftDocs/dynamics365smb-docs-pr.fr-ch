@@ -5,11 +5,11 @@ ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 4760
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a>Introduction aux entrepôts de Contoso Coffee
+# Introduction aux entrepôts de Contoso Coffee
 
 Contoso Coffee est une société fictive qui produit des cafetières grand public et commerciales. Les applications **Contoso Coffee** pour Business Central ajoutent des données de démonstration que vous pouvez utiliser pour apprendre à utiliser les capacités d’entreposage dans Business Central. Vous pouvez configurer les fonctionnalités de l’entrepôt de différentes manières, voir [Présentation des différentes options de configuration](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,7 +27,7 @@ L’application propose trois emplacements optimisés pour différents scénario
 
   Cet emplacement utilise la configuration avancée de l’entrepôt avec des rangements et des prélèvements dirigés, ce qui permet d’appliquer des règles plus avancées sur la façon dont les articles se déplacent dans l’entrepôt.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a>Configurer les données d’entreposage de Contoso Coffee
+## Configurer les données d’entreposage de Contoso Coffee
 
 Pour utiliser les données de démonstration d’entreposage de Contoso Coffee, vous devez installer deux applications dans la société concernée dans [!INCLUDE [prod_short](../../includes/prod_short.md)] :  
 
@@ -70,7 +70,7 @@ Une fois que vous êtes prêt, choisissez l’action **Créer des données de d�
 > [!IMPORTANT]
 > Si vous exécutez les scénarios, vous souhaiterez peut-être vérifier que votre utilisateur a été ajouté comme pour les emplacements sélectionnés. Pour plus d’informations, voir [Configurer des employés d’entrepôt](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="scenarios"></a>Cas de figure
+## Cas de figure
 
 Les données de démonstration d’entreposage Contoso Coffee prennent actuellement en charge les scénarios suivants pour les tests et la formation :
 
@@ -80,7 +80,7 @@ Les données de démonstration d’entreposage Contoso Coffee prennent actuellem
 
 Lisez les étapes de chaque scénario dans l’article correspondant.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configuration de stock](../../inventory-setup-inventory.md) 
 [Configurer les emplacements](../../inventory-how-setup-locations.md) 

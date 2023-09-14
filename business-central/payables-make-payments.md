@@ -1,7 +1,7 @@
 ---
 title: Aperçu des tâches permettant de gérer les paiements aux fournisseurs
 description: 'Décrit les tâches permettant de gérer les paiements aux fournisseurs ou aux créditeurs, y compris la validation de lignes paiement et d’obtenir un aperçu du solde échu.'
-author: edupont04
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="making-payments"></a>Effectuer des paiements
+# Effectuer des paiements
 
 Lorsque vous effectuez des paiements aux fournisseurs ou aux clients, ou des remboursements aux salariés, vous validez les lignes paiement associées sur la page **Feuille paiement**. La feuille paiement est une feuille comptabilité qui est optimisée pour effectuer des paiements et inclut un certain nombre de fonctionnalités puissantes telles que la fonction **Proposer paiements fournisseur** qui rassemble les paiements fournisseurs échus, et l’état **Fourn. : Échéancier** qui affiche un aperçu des paiements fournisseur échus.  
 
@@ -35,9 +35,9 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Payez un fournisseur en liquide ou par chèque et validez le paiement lorsque vous validez la facture. |[Établir rapidement des factures achat](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Assurez-vous que la banque efface uniquement les chèques et les montants validés en envoyant un fichier contenant des informations de paiement, du chèque et du fournisseur. |[Exporter un fichier Positive Pay](finance-how-positive-pay.md) |
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Achats](purchasing-manage-purchasing.md)  

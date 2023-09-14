@@ -1,7 +1,7 @@
 ---
 title: Traitement par lots Proposer paiements fournisseur
 description: Vous pouvez spécifier les paramètres du paiement fournisseur pour obtenir des suggestions ou des propositions pour les paiements échus sous peu ou donnant lieu à une remise.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
 ms.search.form: 256
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="suggest-vendor-payments"></a>Proposer paiements fournisseur
+# Proposer paiements fournisseur
 
 Sur la page **Feuille paiement**, vous pouvez utiliser le traitement par lots **Proposer paiements fournisseur** pour proposer des lignes paiement. Des lignes pour les paiements échus à courte échéance ou les paiements pour lesquels un escompte est disponible, sont proposées en fonction de vos paramètres.
 
@@ -26,14 +26,14 @@ Pour bénéficier pleinement des suggestions de paiement, vous devez d’abord a
     * Les écritures fournisseur échues et non prioritaires.  
     * Les écritures fournisseur ouvertes donnant lieu à un escompte, dans l’ordre des numéros des fournisseurs.  
 
-## <a name="to-use-the-suggest-vendor-payments-function"></a>Pour utiliser la fonction Proposer paiements fournisseur
+## Pour utiliser la fonction Proposer paiements fournisseur
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles paiement**, puis choisissez le lien associé.  
 2. Ouvrez la feuille appropriée, puis sélectionnez l’action **Proposer paiements fournisseur**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Cliquez sur le bouton **OK**.  
 
-## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Pour insérer la date d’échéance comme date comptabilisation sur les lignes feuille paiement
+## Pour insérer la date d’échéance comme date comptabilisation sur les lignes feuille paiement
 
 Lorsque vous utilisez le traitement par lots **Proposer paiements fournisseur** pour créer des lignes de paiement pour vos fournisseurs, vous pouvez remplir deux champs spéciaux pour vous assurer que les lignes générées utilisent la date d’échéance pour calculer la date comptabilisation. Ces champs sont **Calculer la date comptabilisation à partir de la date d’échéance doc. lettrage** et **Décalage date d’échéance doc. lettrage**.  
 
@@ -47,9 +47,9 @@ Vous pouvez aussi créer manuellement des lignes de paiement à l’aide de la d
 > [!NOTE]  
 >   Si la facture achat est en retard, la date comptabilisation est définie sur la date de travail et la police de la ligne devient rouge.  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/suggest-vendor-payments-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/modules/suggest-vendor-payments-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Effectuer des paiements](payables-make-payments.md)  

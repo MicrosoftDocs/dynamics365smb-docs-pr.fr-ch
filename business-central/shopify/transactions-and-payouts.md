@@ -5,18 +5,18 @@ ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30124, 30125, 30130, 30131, 30132, 30133, 30134,'
-author: andreipa
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
-# <a name="transactions-and-payouts"></a>Transactions et règlements
+# Transactions et règlements
 
 Lorsqu’un client a réglé sa commande dans la boutique en ligne, les informations relatives aux paiements sont enregistrées en tant que **Transaction**. Il peut y avoir plusieurs transactions liées à la commande, par exemple lorsqu’un client utilise une carte cadeau pour payer une partie du coût et utilise ensuite une carte de crédit ou PayPal pour le montant restant.
 
 Si vous utilisez le paiement Shopify comme fournisseur de paiement, en plus des informations sur l’argent reçu du client par le fournisseur de paiement, vous pouvez également visualiser les règlements de Shopify sur votre compte bancaire.
 
-## <a name="transactions"></a>Transactions
+## Transactions
 
 Les transactions réalisées sur Shopify sont synchronisées avec les commandes et s’affichent dans la page **Commandes Shopify**.
 
@@ -26,7 +26,7 @@ Le champ **N° de facture enregistrée** peut être utile dans le processus de r
 
 Si vous avez configuré le mappage des modes de règlement, un code de mode de règlement est attribué au document de vente créé. En savoir plus dans la section [Mappage du mode de paiement](#payment-method-mapping).
 
-## <a name="payouts"></a>Règlements
+## Règlements
 
 Si votre magasin utilise Shopify Payments, vous recevez les paiements via **Règlements Shopify** lorsqu’un client paie en utilisant le service Shopify Payments et les règlements accélérés.
 
@@ -38,7 +38,7 @@ Pour examiner tous les règlements, sélectionnez l’icône en forme ![d’ampo
 
 Les **règlements** n’ont qu’une valeur informative et n’ont pas d’impact sur la comptabilité ou le Grand Livre bancaire, bien qu’ils puissent être utiles lorsque vous traitez votre relevé de compte bancaire.
 
-## <a name="payment-method-mapping"></a>Mappage du mode de paiement
+## Mappage du mode de paiement
 
 Pour remplir le **Code mode de règlement** pour les documents vente importés de Shopify automatiquement, vous devez configurer **Mappage du mode de paiement**.
 
@@ -52,7 +52,7 @@ Pour remplir le **Code mode de règlement** pour les documents vente importés d
 > [!NOTE]  
 > Si le mode de règlement correspondant dans [!INCLUDE[prod_short](../includes/prod_short.md)] a les champs **Type compte contrepartie** et **N° compte contrepartie** renseignés, alors, lors de la validation, le système de facturation créera une écriture contrepartie du type *Règlement* et l’appliquera au type *Facture* dans l’écriture comptable client.
 
-## <a name="use-cases"></a>Cas d’utilisation
+## Cas d’utilisation
   
 Parties :
 
@@ -60,7 +60,7 @@ Parties :
 * Commerçant : votre société.
 * Fournisseur de service de paiement : entreprise qui facilite le traitement des paiements pour vous. Peut être Shopify Payments ou un tiers.
 
-### <a name="how-money-flows"></a>Comment l’argent circule
+### Comment l’argent circule
 
 L’acheteur achète des marchandises dans la boutique en ligne. La dernière étape consiste à traiter le paiement.
 
@@ -77,7 +77,7 @@ Selon la banque, le commerçant peut voir cette transaction entrante sur son com
 
 Plusieurs options sur la façon de gérer les transactions de paiement sont disponibles dans [!INCLUDE[prod_short](../includes/prod_short.md)]
   
-### <a name="option-1-reconcile-incoming-transfers-to-bank-account-against-original-invoices"></a>Option 1 : rapprocher les virements entrants vers le compte bancaire avec les factures originales
+### Option 1 : rapprocher les virements entrants vers le compte bancaire avec les factures originales
   
 Le commerçant importe la commande client dans [!INCLUDE[prod_short](../includes/prod_short.md)] et valide l’expédition et la facture.
 
@@ -90,7 +90,7 @@ Problèmes :
 1. Cela peut être difficile s’il y a plusieurs factures (et avoirs), mais un seul paiement du fournisseur de service de paiement avec une somme forfaitaire.
 2. Le montant ne correspond généralement pas en raison de la commission. Vous pouvez utiliser la tolérance de paiement ou/et les escomptes de paiement pour gérer les frais.
 
-### <a name="option-2-reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider"></a>Option 2 : rapprocher les virements entrants vers le compte bancaire par rapport au compte d’attente représentant l’argent chez le fournisseur de service de paiement
+### Option 2 : rapprocher les virements entrants vers le compte bancaire par rapport au compte d’attente représentant l’argent chez le fournisseur de service de paiement
   
 Le commerçant importe la commande client dans [!INCLUDE[prod_short](../includes/prod_short.md)] et valide l’expédition et la facture.
   
@@ -119,6 +119,6 @@ Problèmes :
 
 1. Vous pouvez créer plusieurs comptes généraux ou bancaires si vous traitez avec plusieurs fournisseurs de service de paiement. Cependant, les commandes clients dans [!INCLUDE[prod_short](../includes/prod_short.md)] ne prennent en charge qu’un seul code de mode de paiement, ce qui complique la gestion des cas où un acheteur utilise plusieurs modes de paiement pour une commande.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Mise en route du connecteur pour Shopify](get-started.md)  

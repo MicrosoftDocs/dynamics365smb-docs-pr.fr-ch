@@ -11,11 +11,11 @@ ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="terminology-in-cost-accounting"></a>Terminologie en comptabilité analytique
+# Terminologie en comptabilité analytique
 
 Cette rubrique définit les conditions principales qui sont utilisés en comptabilité analytique.  
 
-## <a name="key-terms"></a>Conditions principales
+## Conditions principales
 
  Le tableau suivant définit les conditions principales en comptabilité analytique.  
 
@@ -43,9 +43,9 @@ Cette rubrique définit les conditions principales qui sont utilisés en comptab
 |Coût variable|Les coûts variables sont des frais qui varient proportionnellement à l’activité d’une société. Les coûts variables représentent la somme de coûts marginaux dans toutes les unités produites. Les coûts fixes et les coûts variables constituent les deux composants des coûts totaux.|  
 |Variante|Une variante est utilisée comme un libellé facultatif et défini par l’utilisateur pour les affectations. Son objectif consiste à filtrer les groupes d’affectation.|  
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) associée
+## Voir la [formation Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) associée
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
  [À propos de la comptabilité analytique](finance-about-cost-accounting.md)  
  [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  
