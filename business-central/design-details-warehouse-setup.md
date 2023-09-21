@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf
 ---
-# Détails de conception : paramètres entrepôt
+# <a name="design-details-warehouse-setup"></a>Détails de conception : paramètres entrepôt
 
 La fonctionnalité d’entrepôt dans [!INCLUDE[prod_short](includes/prod_short.md)] contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l’accès aux champs de configuration de l’emplacement soit défini par la licence. En outre, les objets applicatifs de la licence déterminent le document d’interface utilisateur à utiliser pour les activités entrepôt prises en charge.  
 <!--
@@ -44,7 +44,7 @@ Le tableau suivant indique les granules requis pour définir les différents niv
 
 Pour des exemples d’utilisation des documents de l’interface utilisateur par niveau de complexité entrepôt, voir [Détails de conception : flux d’enlogement](design-details-inbound-warehouse-flow.md).  
 
-## Emplacement et Contenu emplacement
+## <a name="bin-and-bin-content"></a>Emplacement et Contenu emplacement
 
 Un emplacement est un dispositif de stockage conçu pour contenir des éléments discrets. Il s’agit de la plus petite unité de conteneur dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les quantités d’articles dans des emplacements sont appelées contenu de l’emplacement. Une recherche à partir du champ **Article** ou du champ **Code emplacement** dans n’importe quel document entrepôt affiche la disponibilité calculée de l’article dans l’emplacement.  
 
@@ -61,7 +61,7 @@ La propriété de l’emplacement par défaut est utilisée par le système pour
 
 Il ne peut y avoir qu’un emplacement par défaut par article par magasin.  
 
-## Type emplacement
+## <a name="bin-type"></a>Type emplacement
 
 Dans des installations WMS, vous pouvez définir les activités entrepôt qui sont permises pour un emplacement en lui affectant un type. Les types d’emplacement suivants existent :  
 
@@ -79,7 +79,7 @@ Pour tous les types d’emplacement, à l’exception de PRELEV, RANGPRELEV et R
 > [!NOTE]  
 > Un mouvement ne peut être effectué que vers des emplacements de type RECEPT. et CQ. De même, seuls des mouvements peuvent être effectués à partir des emplacements de type EXPED. et CQ.  
 
-## Priorité emplacement
+## <a name="bin-ranking"></a>Priorité emplacement
 
 Dans l’entreposage avancé, vous pouvez automatiser et optimiser la façon de collecter les articles dans des feuilles de rangement et de prélèvement en classant les emplacements par ordre de priorité, de sorte que le programme propose de prendre ou de placer ces articles en fonction des critères de priorité pour utiliser l’espace de l’entrepôt de manière optimale.  
 
@@ -87,7 +87,7 @@ Les procédés de rangement sont optimisés en fonction de la priorité emplacem
 
 La priorité emplacement ainsi que les informations relatives au contenu d’emplacement sont les propriétés de base permettant aux utilisateurs d’insérer des articles dans l’entrepôt.  
 
-## Paramétrage emplacement  
+## <a name="bin-setup"></a>Paramétrage emplacement
 Dans l’entreposage avancé, des emplacements peuvent être paramétrés à l’aide des valeurs de capacité, telles que la quantité, le volume total, ainsi que le poids pour contrôler quels articles sont enregistrés dans l’emplacement et comment.  
 
 Sur chaque fiche article, vous pouvez affecter une unité de mesure de l’article, par exemple des pièces, palettes, litres, grammes ou boîtes. Vous pouvez également avoir une base UOM pour un article et spécifier de plus grands UOM basés dessus. Par exemple, vous pouvez définir une palette égale à 16 pièces, ce qui est l’unité de base.  
@@ -99,7 +99,7 @@ Avant de paramétrer des restrictions de capacité pour le contenu d’emplaceme
 > [!NOTE]  
 > Il est possible d’utiliser plusieurs unités dans les installations WMS. Dans toutes les autres configurations, les contenus emplacement ne peuvent être que dans l’unité de base. Dans toutes les transactions avec une unité supérieure à l’unité de base de l’article, la quantité est transformée en unité de base.  
 
-## Zone
+## <a name="zone"></a>Zone
 
 Dans l’entreposage avancé, des emplacements peuvent être groupés dans des zones pour gérer la manière dont le flux de travail des activités entrepôt est suggéré.  
 
@@ -107,18 +107,18 @@ Une zone peut être une zone de réception ou une zone de stockage, et chaque zo
 
 La plupart des propriétés affectées à une zone par défaut sont affectées à l’emplacement qui est créé à partir de cette zone.  
 
-## Classe  
+## <a name="class"></a>Classe
 Dans l’entreposage avancé, vous pouvez affecter des codes classe entrepôt aux articles, aux emplacements et aux zones pour contrôler l’endroit où les différentes classes d’article sont stockées, telles que les produits gelés. Vous pouvez diviser une zone en plusieurs classes d’entrepôt. Par exemple, des articles figurant dans la zone de réception peuvent être enregistrés comme gelés, dangereux ou autre classe.  
 
 Lorsque vous travaillez sur des classes d’entrepôt et un emplacement de réception/expédition par défaut, vous devez renseigner manuellement les emplacements appropriés dans la réception entrepôt et des lignes expédition.  
 
 En flux entrants, le code classe est uniquement sélectionné sur les lignes entrantes lorsque le code classe article ne correspond pas à l’emplacement de réception par défaut. Si les emplacements par défaut corrects ne sont pas affectés, la quantité ne peut pas être reçue.  
 
-## Magasin
+## <a name="location"></a>Magasin
 
 Un magasin est une structure ou un lieu physique où le stock est reçu, conservé et expédié. Il est éventuellement organisé sous forme d’emplacements. Un magasin peut être un entrepôt, une voiture de service, une salle d’exposition, une usine ou une zone dans une usine.  
 
-## FEFO (First-Expired-First-Out, premier expiré, premier sorti)
+## <a name="first-expired-first-out"></a>FEFO (First-Expired-First-Out, premier expiré, premier sorti)
 
 Si vous activez la case à cocher **Prélèvement selon FEFO** sur le raccourci **Config. emplacement** de la fiche magasin, les articles suivis sont prélevés en fonction de leur date d’expiration. Les articles dont les dates de péremption sont les plus proches sont prélevés en premier.  
 
@@ -126,11 +126,11 @@ Les activités d’entrepôt dans tous les document de prélèvement et de mouve
 
 Lors du prélèvement selon FEFO, les articles disponibles qui expirent en premier sont rassemblés dans une liste temporaire de traçabilité en fonction de la date d’expiration. Si deux articles ont la même date de péremption, l’article avec le plus petit numéro de lot ou de série est sélectionné en premier. Si les numéros de lot ou de série sont identiques, l’article enregistré en premier est sélectionné en premier. Les critères standard de sélection des articles dans les emplacements prélèvement, par exemple Priorité emplacement et Déconditionnement, sont appliqués à cette liste de traçabilité FEFO temporaire.  
 
-## Modèle rangement
+## <a name="put-away-template"></a>Modèle rangement
 
 Le modèle rangement peut être affecté à un article et à un magasin. Le modèle rangement spécifie un ensemble de règles classées par priorité qui doivent être respectées lors de la création de rangements. Par exemple, un modèle de rangement peut exiger que l’article soit situé dans un emplacement dont le contenu correspond à l’unité, et si un emplacement similaire comportant suffisamment de capacité est introuvable, alors l’article doit être placé dans un emplacement vide.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Détails de conception : disponibilité dans l’entrepôt](design-details-availability-in-the-warehouse.md)

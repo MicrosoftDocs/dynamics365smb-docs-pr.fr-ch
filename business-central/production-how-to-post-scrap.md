@@ -10,14 +10,14 @@ ms.search.form: 99000823
 ms.date: 03/08/2023
 ms.author: bholtorf
 ---
-# Valider le rebut manuellement
+# <a name="post-scrap-manually"></a>Valider le rebut manuellement
 
 Si le traitement produit un rebut, vous pouvez entrer ce rebut dans la feuille production.  
 
 > [!NOTE]
 > La quantité mise au rebut n’augmente pas la quantité produite.  
 
-## Pour valider le rebut manuellement
+## <a name="to-post-scrap-manually"></a>Pour valider le rebut manuellement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille production**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -27,7 +27,7 @@ Si le traitement produit un rebut, vous pouvez entrer ce rebut dans la feuille p
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Production](production-manage-manufacturing.md)
 [Paramétrage de la production](production-configure-production-processes.md)  

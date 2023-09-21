@@ -11,7 +11,7 @@ ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
 ms.date: 07/06/2021
 ms.author: bholtorf
 ---
-# Effectuer des paiements avec l’extension AMC Banking 365 Fundamentals ou virement SEPA
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Effectuer des paiements avec l’extension AMC Banking 365 Fundamentals ou virement SEPA
 
 Sur la page **Feuille paiement**, vous pouvez traiter les paiements à vos fournisseurs en exportant un fichier avec les informations de paiement provenant des lignes feuille. Vous pouvez ensuite télécharger le fichier vers votre banque électronique, où sont traités les transferts d’argent associés. [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge le format de virement SEPA, mais dans votre pays/région, d’autres formats de paiements électroniques peuvent être disponibles.
 
@@ -23,11 +23,11 @@ Sur la page **Feuille paiement**, vous pouvez traiter les paiements à vos fourn
 > [!NOTE]  
 > Lorsque vous avez vérifié que les paiements sont traités avec succès par la banque, vous pouvez passer aux lignes feuille paiement.  
 
-## Configuration de l’extension AMC Banking 365 Fundamentals
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Configuration de l’extension AMC Banking 365 Fundamentals
 
 Activez l’extension AMC Banking 365 Fundamentals pour convertir les fichiers de relevé bancaire dans un format que vous pouvez importer, ou pour convertir les fichiers de paiement exportés au format imposé par votre banque. Pour plus d’informations, voir [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
 
-## Configuration des virements SEPA
+## <a name="setting-up-sepa-credit-transfer"></a>Configuration des virements SEPA
 
 Sur la page **Feuille paiement**, vous pouvez exporter des paiements vers un fichier pour le charger sur votre banque électronique afin de traiter les transferts d’argent liés. [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge le format de virement SEPA, mais dans votre pays/région, d’autres formats de paiements électroniques peuvent être disponibles.  
 
@@ -43,7 +43,7 @@ Avant de pouvoir traiter le paiement par voie électronique lorsque vous exporte
 > [!TIP]
 > Cet article s’applique à la version générique de [!INCLUDE [prod_short](includes/prod_short.md)]. Dans votre pays ou région, des champs obligatoires supplémentaires peuvent avoir été ajoutés aux différentes pages. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### Pour configurer un compte bancaire pour SEPA Credit Transfer
+### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Pour configurer un compte bancaire pour SEPA Credit Transfer
 
 1. Dans la zone **Rechercher**, saisissez **Comptes bancaires**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche du compte bancaire à partir duquel vous exporterez des fichiers paiement au format de virement SEPA.  
@@ -54,7 +54,7 @@ Avant de pouvoir traiter le paiement par voie électronique lorsque vous exporte
     > [!NOTE]  
     > Le champ **Code devise** doit avoir la valeur **EUR**, car les virements SEPA ne peuvent être effectués que dans la devise EURO.  
 
-### Pour configurer une fiche fournisseur pour SEPA Credit Transfer
+### <a name="to-set-up-a-vendor-card-for-sepa-credit-transfer"></a>Pour configurer une fiche fournisseur pour SEPA Credit Transfer
 
 1. Dans la zone **Rechercher**, entrez **Fournisseurs**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche du fournisseur que vous allez payer par voie électronique en exportant des fichiers paiement au format de virement SEPA.  
@@ -63,24 +63,24 @@ Avant de pouvoir traiter le paiement par voie électronique lorsque vous exporte
 
     Si vous n’avez pas encore créé de banque pour ce fournisseur, vous pouvez le faire maintenant. Pour plus d’informations, consultez [Configurer les comptes bancaires des fournisseurs pour l’exportation des fichiers bancaires](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). La valeur du champ **Compte bancaire préféré** est copiée dans le champ **Cpte bancaire destinataire** de la page **Feuille paiement**.  
 
-### Pour définir la feuille de paiement jusqu’aux fichiers de paiement d’exportation
+### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Pour définir la feuille de paiement jusqu’aux fichiers de paiement d’exportation
 
 1. Dans la zone **Rechercher**, entrez **Feuilles paiement**, puis choisissez le lien associé.  
 2. Dans le champ **Nom de la feuille**, choisissez le bouton déroulant.  
 3. Dans la page **Noms feuilles comptabilité**, sélectionnez l’action **Modifier la liste**.  
 4. Sur la ligne de la feuille paiement que vous allez utiliser pour exporter des paiements, activez la case à cocher **Autoriser exportation paiement**.  
 
-### Pour lier la définition d’échange de données pour un ou plusieurs types de règlement au(x) mode(s) de règlement approprié(s)
+### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Pour lier la définition d’échange de données pour un ou plusieurs types de règlement au(x) mode(s) de règlement approprié(s)
 
 1. Dans la zone **Rechercher**, entrez **Modes de règlement**, puis choisissez le lien associé.  
 2. Sur la page **Modes de règlement**, sélectionnez le mode de paiement qui est utilisé pour exporter des paiements, puis cliquez sur le champ **Définition ligne exportation paiem.**  
 3. Sur la page **Définitions ligne exportation paiem.**, sélectionnez le code spécifié dans le champ **Code** du raccourci **Définitions ligne** à l’étape 4 de la section « Pour décrire le formatage des lignes et des colonnes dans le fichier » dans [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
-## Préparation de la feuille paiement
+## <a name="preparing-the-payment-journal"></a>Préparation de la feuille paiement
 
 Renseignez la feuille paiement avec des lignes pour les paiements dus aux fournisseurs, avec la possibilité d’insérer des dates comptabilisation sur la base de la date d’échéance des documents achat associés. Pour plus d’informations, reportez-vous à [Gestion des comptes fournisseur](payables-manage-payables.md).
 
-## Exportation des paiements vers un fichier bancaire
+## <a name="exporting-payments-to-a-bank-file"></a>Exportation des paiements vers un fichier bancaire
 
 Lorsque vous êtes prêt à effectuer des paiements à vos fournisseurs ou rembourser vos salariés, vous pouvez exporter un fichier contenant les informations de paiement sur les lignes sur la page **Feuille paiement**. Vous pouvez ensuite transférer le fichier à votre banque afin qu’elle traite les transferts d’argent concernés.
 
@@ -91,7 +91,7 @@ Dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)], l
 
 La page **Registres virement** vous permet d’afficher les fichiers paiement qui ont été exportés de la feuille paiement. À partir de cette page, vous pouvez également réexporter des fichiers paiement en cas d’erreurs techniques ou de modifications des fichiers. Notez toutefois que les fichiers EFT exportés ne sont pas affichés sur la page et ne peuvent pas être réexportés.  
 
-### Pour exporter des paiements vers un fichier bancaire
+### <a name="to-export-payments-to-a-bank-file"></a>Pour exporter des paiements vers un fichier bancaire
 
 La section suivante décrit comment payer un fournisseur par chèque. La procédure est la même pour rembourser un client par chèque.
 
@@ -123,7 +123,7 @@ La section suivante décrit comment payer un fournisseur par chèque. La procéd
 
 Le fichier de paiement bancaire est exporté à l’emplacement que vous spécifiez et vous pouvez passer à son téléchargement sur votre compte bancaire électronique et effectuer les paiements. Vous pouvez ensuite valider les lignes feuille paiement exportées.
 
-### Pour planifier la validation des paiements exportés
+### <a name="to-plan-when-to-post-exported-payments"></a>Pour planifier la validation des paiements exportés
 
 Si vous ne souhaitez pas valider une ligne feuille paiement pour un paiement exporté, par exemple parce que vous attendez la confirmation que la transaction a été traitée par la banque, vous pouvez simplement supprimer la ligne feuille. Lorsque vous créez ensuite une ligne feuille paiement pour payer le montant ouvert de la facture, le champ **Montant total exporté** affiche la quantité du montant ayant déjà été exportée. En outre, vous pouvez rechercher des informations détaillées concernant le total exporté en cliquant sur le bouton **Écritures reg. virement** pour visualiser des détails sur les fichiers de paiement exportés.
 
@@ -134,7 +134,7 @@ Si vous appliquez un processus selon lequel vous ne validez pas les paiements ta
 
 Pour afficher des informations sur les paiements exportés, sélectionnez l’action **Historique d’exportation des paiements**.
 
-### Pour réexporter des paiements vers un fichier bancaire
+### <a name="to-re-export-payments-to-a-bank-file"></a>Pour réexporter des paiements vers un fichier bancaire
 
 Vous pouvez réexporter des fichiers paiement à partir de la page **Registres virement**. Avant de supprimer ou de valider les lignes feuille paiement, vous pouvez également réexporter le fichier de paiement à partir de la page **Feuille paiement** en l’exportant simplement à nouveau. Si vous avez supprimé ou validé les lignes feuille paiement après les avoir exportées, vous pouvez réexporter le même fichier de paiement à partir de la page **Registres virement**. Sélectionnez la ligne correspondant au lot de virements que vous souhaitez réexporter, puis, sélectionnez l’action **Réexporter les paiements dans un fichier**.
 
@@ -144,11 +144,11 @@ Vous pouvez réexporter des fichiers paiement à partir de la page **Registres v
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Registres de virements**, puis sélectionnez le lien associé.
 2. Sélectionnez une exportation de règlement que vous souhaitez réexporter, puis sélectionnez **Réexporter les paiements dans un fichier**.
 
-## Comptabilisation des règlements
+## <a name="posting-the-payments"></a>Comptabilisation des règlements
 
 Lorsque le paiement électronique est traité avec succès par la banque, validez les paiements. Pour plus d’informations, reportez-vous à [Effectuer des paiements](payables-make-payments.md).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  

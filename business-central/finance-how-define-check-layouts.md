@@ -11,13 +11,13 @@ ms.search.form: '374, 404'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Sélectionner une mise en page de chèque
+# <a name="select-a-check-layout"></a>Sélectionner une mise en page de chèque
 
 Vous pouvez concevoir vos chèques de sorte à respecter les normes fixées par les autorités locales. Vous pouvez imprimer des images de chèques en anglais, en français ou en espagnol.
 
 Les chèques sont conçus pour être imprimés aux formats d’image de chèques américains et canadiens, soit au format chèque-talon-chèque, soit au format talon-talon-chèque.
 
-## Pour sélectionner une mise en page de chèque
+## <a name="to-select-a-check-layout"></a>Pour sélectionner une mise en page de chèque
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection des états - Compte bancaire**, puis sélectionnez le lien associé.
 2. Sur la page **Sélection des états : Banque**, dans le champ **Utilisation**, sélectionnez **Chèque**
@@ -34,7 +34,7 @@ Une fois que vous avez défini les mises en page de chèques, vous pouvez imprim
 
 Pour modifier l’une de ces mises en page de chèque par défaut, utilisez l’intégration Word ou RDLC. Pour plus d’informations, voir [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md).
 
-## Utiliser les polices de sécurité et MICR
+## <a name="use-micr-and-security-fonts"></a>Utiliser les polices de sécurité et MICR
 La version en ligne de [!INCLUDE[prod_short](includes/prod_short.md)] contient des polices préinstallées sur les serveurs qui peuvent être utilisées lors de la définition des mises en page de chèque. Ci-après, découvrez les polices disponibles et des liens vers des informations détaillées fournies par les fournisseurs tiers de polices.
 
 > [!Important]
@@ -45,19 +45,19 @@ Dans la mise à jour 15.3 et les versions ultérieures, les polices MICR sont i
 > [!NOTE]
 > Pour des raisons de sécurité et juridiques, vous ne pouvez pas télécharger de polices personnalisées sur l’environnement [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### Spécifications MICR E-13B
+### <a name="micr-e-13b-specifications"></a>Spécifications MICR E-13B
 
 Voici un résumé des spécifications des polices MICR E-13B qui peuvent se révéler utiles lors du calibrage des polices sur les mises en page de chèque avec des imprimantes MICR spécifiques.
 
 ![Spécifications MICR E-13B.](media/font_MICR_E-13B_Specifications.png "Spécifications MICR E-13B")
 
-### Caractères séparateurs
+### <a name="delimiter-characters"></a>Caractères séparateurs
 
 ![Caractères séparateurs.](media/font-micr-letters.png "Caractères séparateurs")
 
 La spécification complète des polices MICR E-13B est disponible dans la documentation du fournisseur ici : (https://www.idautomation.com/micr-fonts/e13b/).
 
-### Spécifications MICR CMC-7
+### <a name="micr-cmc-7-specifications"></a>Spécifications MICR CMC-7
 
 Les polices CMC-7 suivantes sont disponibles dans [!INCLUDE[prod_short](includes/prod_short.md)] en ligne :
 
@@ -70,13 +70,13 @@ Voici un résumé des spécifications des polices MICR CMC-7 qui peuvent se rév
 
 ![Spécifications MICR CMC-7.](media/font_MICR_CMC-7_Specifications.png "Spécifications MICR CMC-7")
 
-### Caractères séparateurs
+### <a name="delimiter-characters-1"></a>Caractères séparateurs
 
 ![Caractères séparateurs pour CMC-7.](media/font-cmc7-letters.png "Caractères séparateurs pour CMC-7")
 
 La spécification complète des polices MICR CMC-7 est disponible dans la documentation du fournisseur ici : (http://www.idautomation.com/micr-fonts/cmc7/).
 
-### Spécifications des polices sécurisées
+### <a name="secure-font-specifications"></a>Spécifications des polices sécurisées
 
 Voici un résumé des spécifications des polices de sécurité des chèques qui peuvent se révéler utiles lors du calibrage des polices sur les mises en page de chèque avec des imprimantes MICR spécifiques.
 
@@ -86,7 +86,7 @@ La spécification complète des polices de sécurité des chèques est disponibl
 
 Les polices à d’autres fins sont également disponibles dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Polices disponibles](ui-fonts.md)
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Créer et modifier des présentations de rapport personnalisées](ui-how-create-custom-report-layout.md)  
 [Polices de Business Central](ui-fonts.md)  
