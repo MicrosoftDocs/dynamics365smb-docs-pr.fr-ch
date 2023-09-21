@@ -3,12 +3,12 @@ title: "Détails de conception\_-\_Paramètres de planification"
 description: Cet article décrit les différents paramètres de planification que vous pouvez utiliser et comment ils affectent le système de planification.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 04/26/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-planning-parameters"></a>Détails de conception : Paramètres de planification
+# Détails de conception : Paramètres de planification
 
 Cet article décrit les paramètres de planification que vous pouvez utiliser dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -23,11 +23,11 @@ La façon dont le système de planification contrôle l’approvisionnement d’
 |Modifiez les commandes approvisionnement|Qté minimum commande<br /><br /> Qté maximum commande<br /><br /> Commandé par|
 |Délimiter l’article planifié|Mode de lancement :<br /><br /> -  Fabrication sur stock<br />- Fabrication à la commande|
 
-## <a name="define-whether-the-item-is-planned"></a>Définir si l’article est planifié
+## Définir si l’article est planifié  
 
 Pour inclure un article ou un point de stock dans le processus de planification, vous devez lui attribuer une méthode de réapprovisionnement. Sinon, il doit être planifié manuellement, par exemple, en utilisant la fonctionnalité Planification des commandes.  
 
-## <a name="define-when-to-reorder"></a>Définir la date de réapprovisionnement
+## Définir la date de réapprovisionnement  
 
 Les propositions de commande sont généralement lancées seulement lorsque la quantité disponible prévue est inférieure à une certaine quantité donnée. Ce point de commande définit la quantité. Sinon, elle est égale à zéro. Zéro peut être ajusté en saisissant une quantité de stock de sécurité. Si vous définissez un délai de sécurité, la proposition sera livrée dans la période précédant la date d’échéance demandée.  
 
@@ -40,7 +40,7 @@ Sur la page **Paramètres production** définissez le délai de sécurité par d
 
 Les champs **Période de replanification**, **Période de groupement de lots** et **Période tampon** jouent également un rôle en définissant quand commander à nouveau. Pour plus d’informations, reportez\-vous [Optimiser le délai et la quantité de commande](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## <a name="define-how-much-to-reorder"></a>Définir la quantité à réapprovisionner
+## Définir la quantité à réapprovisionner
 
 Si le système de planification détecte un besoin de réapprovisionnement, la méthode de réapprovisionnement détermine quand et combien commander.  
 
@@ -52,7 +52,7 @@ Indépendamment de la méthode de réapprovisionnement, le système de planifica
 4. S’il y a plus de demande brute due avant la date de fin de la proposition commande planifiée en aval, et si cette demande amène le stock disponible projeté calculé actuellement en dessous du stock de sécurité, la quantité commandée est augmentée pour compenser le déficit. La commande approvisionnement suggérée est alors planifiée en amont à partir de la date d’échéance de la demande brute qui aurait entamé le stock de sécurité.  
 5. Si le champ **Intervalle de planification** n’est pas renseigné, seule la demande brute à la même date d’échéance sera ajoutée.  
 
-### <a name="reordering-policies"></a>Méthodes de réapprovisionnement
+### Méthodes de réapprovisionnement  
 
 Les méthodes de réapprovisionnement suivantes affectent la quantité en cours de réapprovisionnement. Pour en savoir plus sur les méthodes de réapprovisionnement, accédez à [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md).  
 
@@ -63,7 +63,7 @@ Les méthodes de réapprovisionnement suivantes affectent la quantité en cours 
 |**Commande**|La quantité commande est calculée pour répondre à chacun des événements de demande, et l’ensemble demande-approvisionnement reste lié jusqu’à l’exécution. Aucun paramètres de planification n’est pris en compte.|  
 |**Lot pour lot**|La quantité est calculée pour satisfaire la somme de la demande qui arrive à échéance dans l’intervalle de planification.|  
 
-## <a name="optimize-when-and-how-much-to-reorder"></a>Optimisez quand et combien réapprovisionner
+## Optimisez quand et combien réapprovisionner  
 
 Un gestionnaire réglera avec précision les paramètres de planification afin de limiter les suggestions de replanification, accumuler les demandes (quantité de réappro. dynamique) ou éviter les actions de planification insignifiantes. Les champs suivants permettent d’optimiser le moment où réapprovisionner et la quantité à réapprovisionner.  
 
@@ -100,13 +100,13 @@ Dans les exemples suivants, les flèches noires représentent l’approvisionnem
 
 **Valeurs par défaut :** la valeur par défaut du champ **Intervalle de planification** et des trois champs de période de réapprovisionnement est vide. Pour tous les champs, sauf le champ **Période tampon**, cela signifie 0D (zéro jours). Si le champ **Période tampon** est vide, la valeur globale du champ **Période tampon par défaut** de la page **Paramètres production** sera utilisée.  
 
-## <a name="modify-the-supply-orders"></a>Modifiez les commandes approvisionnement
+## Modifiez les commandes approvisionnement  
 
 Lorsque la quantité de la proposition de commande a été calculée, un ou plusieurs modificateurs de commande peuvent l’ajuster. Par exemple, la quantité maximum commande est supérieure ou égale à la quantité minimum commande, qui est supérieure ou égale au multiple de commande.  
 
 La quantité est diminuée si elle dépasse la quantité maximum commande. Ensuite, il est augmenté s’il est inférieur à la quantité de commande minimale. Enfin, elle est arrondie par excès de façon à correspondre à un multiple spécifié de commande. La quantité restante utilise les mêmes ajustements jusqu’à ce que la demande totale ait été convertie en propositions commande.  
 
-## <a name="delimit-the-item"></a>Délimiter l’article
+## Délimiter l’article  
 
 Le champ **Mode de lancement** sur la page **Fiche article** définit les autres commandes proposées par le calcul MRP.  
 
@@ -114,7 +114,7 @@ Si l’option **Fabrication sur stock** est utilisée, les commandes se rapporte
 
 Si l’option **Fabrication à la commande** est utilisée, le système de planification analyse la nomenclature de l’article et crée des propositions commande liées supplémentaires pour les articles de niveau inférieur qui sont également définis comme Fabrication à la commande. Cela se poursuit tant que il existe des articles make-to-order dans les structures de nomenclature décroissantes.
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Utiliser des codes plus bas niveau pour gérer la demande dérivée
+## Utiliser des codes plus bas niveau pour gérer la demande dérivée
 
 Utilisez des codes plus bas niveau pour faire progresser la demande dérivée de composants jusqu’aux niveaux inférieurs de la nomenclature. Pour en savoir plus sur les codes plus bas niveau, accédez à [Priorité de l’article/Code plus bas niveau](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -130,7 +130,7 @@ Au lieu d’utiliser le calcul automatique exécuté de façon dynamique si le c
 > [!NOTE]
 > Même si le champ **Code plus bas niv. dyn.** est activé, les codes plus bas niveau des composants ne sont pas modifiés dynamiquement si une nomenclature parent est supprimée ou définie comme non certifiée. Il peut en résulter une difficulté à ajouter de nouveaux éléments à la fin de la structure du produit car il se peut que celle-ci dépasse le nombre maximal de codes plus bas niveau. Toutefois, pour les structures de produit volumineuses atteignant la limite de codes plus bas niveau, vous pouvez lancer le traitement par lots **Calculer code plus bas niveau** régulièrement pour gérer la structure.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)  
 [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)  

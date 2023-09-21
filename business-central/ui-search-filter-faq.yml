@@ -2,13 +2,13 @@
 metadata:
   title: "À propos de la recherche et du filtrage dans Business\_Central"
   description: Réponses aux questions posées fréquemment sur la recherche et le filtre.
-  author: mikebcMSFT
+  author: brentholtorf
   ms.topic: faq
   ms.reviewer: bholtorf
   ms.search.keywords: 'keyboarding, productivity, how do i, filter pane'
   ms.search.form: TellMe
   ms.date: 04/01/2021
-  ms.author: mikebc
+  ms.author: bholtorf
 title: FAQ sur la recherche et le filtrage
 summary: "Cet article répond à des questions courantes que vous pouvez avoir à propos de la recherche et du filtrage dans Business\_Central."
 sections:

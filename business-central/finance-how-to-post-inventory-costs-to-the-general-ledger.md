@@ -11,7 +11,7 @@ ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Rapprocher les coûts ajustés avec la comptabilité
+# Rapprocher les coûts ajustés avec la comptabilité
 
 Lorsque vous validez des mouvements de stock, tels que des expéditions vente, des factures achat ou des ajustements de stock, les coûts article modifiés sont enregistrés dans les écritures valeur. Pour refléter ces modifications de la valeur stock dans vos livres financiers, les coûts stocks sont automatiquement validés dans les comptes stock associés dans les écritures comptables. Pour chaque mouvement stock que vous validez, les valeurs appropriées sont validées dans le compte stocks, le compte ajustement et le compte validation stock dans la comptabilité.
 
@@ -19,7 +19,7 @@ La comptabilisation des coûts automatique est définie par le champ **Compta. c
 
 Bien que les coûts soient automatiquement validés en comptabilité, il est malgré tout nécessaire de vous assurer que les coûts des biens sont transmis à la transaction de vente sortante associée, notamment dans les situations où vous vendez des biens avant de facturer l’achat. Il s’agit d’un ajustement des coûts. Le coût des articles est ajusté automatiquement lorsque vous validez des transactions article, mais vous pouvez également les ajuster manuellement. Pour en savoir plus, voir [Ajuster coûts article](inventory-how-adjust-item-costs.md).
 
-## <a name="to-post-inventory-costs-manually"></a>Pour valider des coûts ajustés manuellement
+## Pour valider des coûts ajustés manuellement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Valider coûts ajustés**, puis choisissez le lien associé.
 2. Validez les coûts ajustés dans la comptabilité manuellement en exécutant le traitement par lots. Lorsque vous exécutez ce dernier, des écritures comptables sont créées, basées sur des écritures valeur. Vous pouvez valider les écritures de façon à ce qu’elles soient récapitulées par groupe comptabilisation.
@@ -31,7 +31,7 @@ Pour afficher la liste des erreurs avant d’exécuter le traitement par lot de 
 
 Si vous voulez simplement afficher un aperçu des valeurs qui pourraient être validées dans la comptabilité sans réellement effectuer la validation, vous pouvez exécuter le traitement par lots **Valider coûts ajustés** sans réellement valider les valeurs dans la comptabilité. Pour ce faire, désactivez le champ **Valider** sur la page de sélection. De cette manière, lorsque vous exécutez le traitement par lots, l’état est produit, indiquant les valeurs prêtes pour imputation dans la comptabilité, mais elles ne sont pas validées.
 
-## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Pour vérifier le rapprochement de l’écriture inventaire et de la comptabilité
+## Pour vérifier le rapprochement de l’écriture inventaire et de la comptabilité
 La page **Stocks - Rapprochement compta.** fournit ce qui suit :
 
 - présente les différences de rapprochement en comparant ce qui est enregistré dans la comptabilité et dans l’écriture inventaire (écritures valeur) ;
@@ -64,7 +64,7 @@ Les colonnes suivantes affichent les totaux pour les mêmes types de compte, cal
 
 Choisissez le montant dans l’un des champs de Total pour afficher les écritures état stock utilisées pour calculer les totaux. Pour les totaux en stock, les écritures état stock sont les sommes des écritures valeur pour les articles. Pour les totaux généraux, les écritures état stock sont les sommes des écritures comptables.
 
-## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Génération des coûts et rapprochement en comptabilité
+## Génération des coûts et rapprochement en comptabilité
 D’autres rapports, des fonctions de traçage et un outil de rapprochement spécial sont à la disposition de l’auditeur ou du contrôleur chargé de rendre compte d’une valeur d’inventaire correcte et équilibrée au service financier.
 
 Le tableau suivant décrit les valeurs.    
@@ -76,7 +76,7 @@ Le tableau suivant décrit les valeurs.
 |Afficher la valeur en stock des articles sélectionnés, y compris leur coût réel et prévu à la date spécifiée.|**Éval. stock - Composante coût**|  
 |Utiliser un état pour analyser les raisons des écarts de coûts ou pour obtenir un aperçu du coût des marchandises vendues (CMV).|État **Analyse des coûts**|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)    

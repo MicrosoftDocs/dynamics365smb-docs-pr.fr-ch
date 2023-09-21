@@ -10,7 +10,7 @@ ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 990
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# <a name="create-routings"></a>Créer des gammes
+# Créer des gammes
 
 Les sociétés manufacturières utilisent des gammes pour visualiser et gérer le processus de fabrication.
 
@@ -23,7 +23,7 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 - Des fiches article sont créées pour les articles parents qui participent à la production. Pour plus d’informations, reportez-vous à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).
 - Les ressources de production sont configurées. Pour plus d’informations, voir [Configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-routing"></a>Pour créer une gamme
+## Pour créer une gamme
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Gammes**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -51,7 +51,7 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 > [!NOTE]  
 > N’oubliez pas également de recalculer le coût standard de l’article de la fiche **Article** : choisissez l’action **Production**, sélectionnez l’action **Calculer coût standard**, puis sélectionnez l’action **Tous niveaux**.  
 
-## <a name="to-create-routing-links"></a>Pour créer des liens gamme
+## Pour créer des liens gamme
 
 Vous pouvez créer des liens gamme pour lier des composants à des opérations spécifiques afin de conserver leur relation, même si la nomenclature de production ou la gamme sont modifiées. Cela simplifie également la consommation automatique juste-à-temps des composants, à savoir lorsque l’opération liée commence, et non quand l’ordre de fabrication complet est lancé. Pour plus d’informations, voir [Consommer en aval des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -85,7 +85,7 @@ Les composants et opérations liés apparaissent dans une structure opératoire 
 
 Les composants sélectionnés seront liés aux opérations sélectionnées lorsque vous créerez ou actualiserez un ordre de fabrication à l’aide de la nomenclature de production et de la gamme concernées. Ceci est visible sur la page **Composants O.F.** sous l’ordre de fabrication. Ici, vous pouvez également ajouter ou supprimer à tout moment les codes lien gamme définis.
 
-## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Pour affecter des qualifications, des outils et des contrôles qualité à des opérations gamme
+## Pour affecter des qualifications, des outils et des contrôles qualité à des opérations gamme
 
 Si vous avez besoin de personnes ayant des qualifications, un savoir-faire particulier, ou bénéficiant d’une autorisation spéciale pour une opération, vous pouvez affecter ces personnes à l’opération. En outre, vous pouvez affecter des outils et des exigences de qualité à l’opération. Cette procédure décrit l’affectation de qualifications. Les étapes sont similaires pour d’autres types d’informations sur l’opération.
 
@@ -95,7 +95,7 @@ Si vous avez besoin de personnes ayant des qualifications, un savoir-faire parti
 4. Renseignez les champs de la page **Qualifications gamme**.  
 5. Cliquez sur le bouton **OK** pour quitter la page. Les valeurs saisies sont copiées et affectées à l’opération.  
 
-## <a name="to-create-a-new-versions-of-a-routing"></a>Pour créer une nouvelle version d’une gamme
+## Pour créer une nouvelle version d’une gamme
 
 Le principe de la version permet de gérer différentes versions d’une gamme. La structure d’une version de gamme correspond à la structure de la gamme composée d’un en-tête et de lignes version de gamme. La différence de base est définie par la date début.  
 
@@ -114,7 +114,7 @@ Le principe de la version permet de gérer différentes versions d’une gamme. 
 
 La validité de la version est définie par le champ **Date début**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Créer des nomenclatures de production](production-how-to-create-production-boms.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  

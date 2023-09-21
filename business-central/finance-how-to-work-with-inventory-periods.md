@@ -11,7 +11,7 @@ ms.search.form: 5828
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="work-with-inventory-periods"></a>Utiliser les périodes inventaire
+# Utiliser les périodes inventaire
 
 Les périodes inventaire sont des périodes au cours desquelles vous pouvez valider des modifications de stock. Une période inventaire est définie par la date à laquelle elle se termine. Lorsque vous clôturez une période inventaire, vous ne pouvez pas valider de modifications de stock, qu’elles soient prévues ou facturées, avant cette date fin. Vous ne pouvez pas valider de nouvelles valeurs dans le stock avant la date fin. Si vous avez des écritures article ouvertes dans la période clôturée, ce qui signifie des quantités positives qui n’ont pas encore été lettrées sur des transactions sortantes, vous pouvez encore lettrer des quantités sortantes sur ces écritures, même si la période est clôturée.  
 
@@ -21,14 +21,14 @@ Les sections suivantes décrivent comment :
 * Clôturer des périodes inventaire.  
 * Rouvrir des périodes inventaire.  
 
-## <a name="to-create-an-inventory-period"></a>Pour créer une période inventaire
+## Pour créer une période inventaire
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Périodes inventaire**, puis choisissez le lien associé.  
 2. Créez une ligne.  
 3. Dans le champ **Date fin**, entrez la dernière date que vous voulez définir pour la période inventaire. Une fois la période clôturée, vous ne pouvez plus valider de modifications de stock antérieures à cette date.  
 4. Saisissez un nom descriptif dans le champ **Nom**. Cliquez sur le bouton **OK**.  
 
-## <a name="closing-inventory-periods"></a>Clôture de périodes inventaire
+## Clôture de périodes inventaire
 
 Le champ **Clôturé** indique si la période inventaire est clôturée ou non sur des modifications de valeur de stock. Vous ne pouvez pas modifier ce champ.  
 
@@ -39,7 +39,7 @@ Vous pouvez clôturer toute période inventaire, pour autant que les conditions 
 
 Cela signifie que toutes les quantités de transaction sortante, telles que celles des commandes vente, désenlogements transfert, factures vente, retours achat ou avoirs achat doivent être lettrées sur la quantité en stock.  
 
-### <a name="to-close-an-inventory-period"></a>Pour fermer une période inventaire
+### Pour fermer une période inventaire  
 
 1. Avant de clôturer une période inventaire, sélectionnez l’action **Ajuster coût écritures article** pour vous assurer que tous les ajustements des coûts sont validés.
 
@@ -53,16 +53,16 @@ Cela signifie que toutes les quantités de transaction sortante, telles que cell
 6. Cliquez sur le bouton **Oui** pour confirmer la clôture de la période, ou choisissez **Non** pour annuler la clôture.  
 7. La période inventaire est clôturée et un message de confirmation est affiché une fois l’opération terminée.  
 
-## <a name="reopening-inventory-periods"></a>Réouverture de périodes inventaire
+## Réouverture de périodes inventaire  
 Une fois la période inventaire clôturée, vous ne pouvez plus la supprimer. En revanche, vous pouvez la rouvrir si vous voulez autoriser sa validation avant la date fin. La réouverture d’une période rouvre également toutes les périodes inventaire dont la date fin est postérieure à la fin de la période que vous rouvrez.  
 
-### <a name="to-reopen-an-inventory-period"></a>Pour réouvrir une période inventaire
+### Pour réouvrir une période inventaire  
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Périodes inventaire**, puis choisissez le lien associé.  
 2. Sélectionnez la période inventaire que vous voulez rouvrir.  
 3. Sélectionnez l’action de la période **Rouvrir période**. Confirmez que vous voulez réouvrir la période.  
 4. Toutes les périodes inventaire dont la date fin est postérieure à la fin de la période sélectionnée sont réouvertes.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 [Détails de conception : périodes inventaire](design-details-inventory-periods.md)  
 [Finances](finance.md)  
 [Stock](inventory-manage-inventory.md)  

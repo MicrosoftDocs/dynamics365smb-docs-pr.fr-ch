@@ -3,13 +3,13 @@ title: Archiver les documents vente et les documents achat
 description: 'Vous pouvez archiver les commandes vente et les commandes achat, les devis, les retours et les commandes cadres.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 08/18/2023
 ms.custom: bap-template
 ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ---
-# <a name="archive-documents"></a>Archivage de documents
+# Archivage de documents
 
 Vous pouvez archiver les commandes vente et les commandes achat, les devis, les retours et les commandes cadres. Vous pouvez archiver des documents vente ou achat plusieurs fois, en enregistrant une version archivée différente chaque fois.
 
@@ -17,7 +17,7 @@ Pour les documents de vente archivés où l’original existe et n’est pas val
 
 Pour les documents archivés où l’original est désactivé, vous pouvez réutiliser le contenu uniquement en copiant les données, par exemple en utilisant l’action **Copier à partir du document**.  
 
-## <a name="to-set-up-automatic-document-archiving"></a>Pour configurer l’archivage automatique des documents
+## Pour configurer l’archivage automatique des documents
 
 Vous pouvez configurer l’archivage automatique des commandes vente et achat, des devis, des commandes cadres et des retours. Lorsque l’archivage automatique est activé, une nouvelle version du document archivé est créée lorsque quelqu’un effectue les actions suivantes :
 
@@ -39,7 +39,7 @@ Le tableau suivant décrit les options disponibles pour le champ **Archiver devi
 |**Question**|Invitez l’utilisateur à archiver ou non les devis lorsqu’ils sont supprimés.|
 |**Toujours**|Archivez automatiquement les devis lorsqu’ils sont supprimés.|
 
-## <a name="to-manually-archive-a-sales-order"></a>Pour archiver manuellement une commande vente
+## Pour archiver manuellement une commande vente
 
 La procédure suivante décrit comment archiver manuellement une commande vente. La procédure est identique pour les commandes, les commandes ouvertes, les retours et les devis.
 
@@ -49,7 +49,7 @@ La procédure suivante décrit comment archiver manuellement une commande vente.
 
 La commande vente est archivée. Vous pouvez l’afficher sur la page **Commandes vente archivées**.
 
-## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Pour restaurer une commande vente non validée depuis les archives
+## Pour restaurer une commande vente non validée depuis les archives
 
 La procédure suivante décrit comment restaurer une commande vente archivée dans la commande vente d’origine. Il est possible de restaurer un document seulement lorsque le document d’origine n’a pas été validé. La procédure est identique pour les commandes, les commandes ouvertes, les retours et les devis.
 
@@ -58,7 +58,7 @@ La procédure suivante décrit comment restaurer une commande vente archivée da
 
 Le contenu de la commande vente d’origine est remplacé par celui de la version archivée.
 
-## <a name="to-delete-archived-sales-orders"></a>Pour supprimer des commandes vente archivées
+## Pour supprimer des commandes vente archivées
 
 Utilisez une stratégie de rétention pour nettoyer les documents archivés dont vous n’avez plus besoin. Les stratégies de rétention permettent aux administrateurs de définir la durée de stockage des données. Par exemple, ils peuvent configurer une stratégie qui supprime les données après une date d’expiration. Pour plus d’informations, voir [Définir les stratégies de rétention](admin-data-retention-policies.md).
 
@@ -68,7 +68,7 @@ Il y a quelques points à noter concernant la création de stratégies de réten
 * Lorsque vous configurez la stratégie de rétention, vous pouvez spécifier que vous souhaitez que la stratégie supprime toutes les versions archivées d’un document, à l’exception de la plus récente. Par exemple, vous pouvez avoir 10 versions d’un document et vouloir conserver une copie de la dernière. 
 * Business Central calcule la date d’expiration des documents en fonction de la date de la version archivée la plus récente.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Suivi des lignes document](across-how-to-track-document-lines.md)  
 [Ventes](sales-manage-sales.md)  
