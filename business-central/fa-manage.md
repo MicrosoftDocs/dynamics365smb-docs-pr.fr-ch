@@ -21,7 +21,7 @@ Pour conserver une trace des amortissements d’immobilisations ainsi que des au
 
 Pour chaque immobilisation, vous pouvez enregistrer des coûts de maintenance et la date de la prochaine visite d’entretien. Le suivi des frais de maintenance peut être utile dans le cadre de l’élaboration du budget et de la prise de décisions concernant le remplacement éventuel d’une immobilisation.
 
-Chaque immobilisation peut être liée à une ou à plusieurs polices d’assurance. Vous pouvez ainsi vérifier facilement la concordance des montants des polices d’assurance avec la valeur des immobilisations associées à ces polices. Cela facilite également le contrôle des primes d’assurance annuelles.
+Chaque immobilisation peut être liée à une ou à plusieurs polices d’assurance. Vous pouvez ainsi vérifier facilement la concordance des montants des polices d'assurance avec la valeur des immobilisations associées à ces polices. Cela facilite également le contrôle des primes d’assurance annuelles.
 
 > [!NOTE]  
 >   Vous pouvez enregistrer les transactions immobilisation sur la page **Feuille compta. immo.** ou sur la page **Feuille immo.**, selon que les transactions sont destinées pour des rapports financiers ou pour la gestion interne. L’aide pour les immobilisations décrit uniquement la procédure d’utilisation de la page **Feuille compta. immo.**. Pour en savoir plus, voir [Configurer l’amortissement d’immobilisation](fa-how-setup-depreciation.md).
@@ -47,12 +47,10 @@ La vidéo suivante couvre les notions de base des immobilisations.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Voir la [formation Microsoft](/training/paths/manage-fixed-assets-transactions/) associée
-
 ## Voir aussi
 
 [Paramétrage d’immobilisations](fa-setup.md)  
-[Modifier les fonctionnalités affichées](ui-experiences.md)  
+[Modification des fonctionnalités affichées](ui-experiences.md)  
 [Finances](finance.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

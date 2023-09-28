@@ -3,7 +3,7 @@ title: Vente d’articles à assembler pour commande
 description: Découvrez comment vendre un article qui est assemblé pour commande.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -60,13 +60,11 @@ Dans cette procédure, vous effectuez la vente d’un article que vous assemblez
 > [!NOTE]  
 > Les substitutions d’articles n’entraînent pas automatiquement le remplacement d’un article par un autre, par exemple pendant la création d’une commande vente ou dans une nomenclature. Au lieu de cela, vous serez alerté du fait qu’un substitut est disponible.
 
-## Voir la [formation Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
-[Gestion des assemblages](assembly-assemble-items.md)  
-[Utilisation des nomenclatures d’assemblage](assembly-how-work-assembly-boms.md)  
-[Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
+[Gestion nomenclature d’assemblage](assembly-assemble-items.md)  
+[Utilisation des nomenclatures d’élément d’assemblage](assembly-how-work-assembly-boms.md)  
+[Enregistrement des nouveaux articles](inventory-how-register-new-items.md)  
 [Stock](inventory-manage-inventory.md)  
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

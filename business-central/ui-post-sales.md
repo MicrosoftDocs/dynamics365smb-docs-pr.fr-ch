@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021
 ms.author: bholtorf
@@ -47,12 +47,10 @@ Dans la plupart des cas, vous pouvez ouvrir des écritures comptables à partir 
 
 Vous pouvez modifier certains champs dans les documents d’achat validés, tels que le champ **N° de suivi du colis**. . Pour plus d’informations, voir [Modifier les documents validés](across-edit-posted-document.md). Pour les champs plus critiques qui concernent la piste d’audit, vous devez inverser ou annuler la validation. Pour plus d’informations, voir [Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md).
 
-## Voir la [formation Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/index) associée
-
 ## Voir aussi
 
 [Ventes](sales-manage-sales.md)  
-[Valider plusieurs documents en même temps](ui-batch-posting.md)  
+[Validation de plusieurs documents en même temps](ui-batch-posting.md)  
 [Valider les documents validés](across-edit-posted-document.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md)  

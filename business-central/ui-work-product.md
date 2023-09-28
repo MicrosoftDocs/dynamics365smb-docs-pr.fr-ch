@@ -80,8 +80,6 @@ Lorsque vous recherchez une page de liste ouverte, telle que la liste **Commande
 
 Mais lorsque vous ouvrez la même page de liste à partir de votre page d’accueil, l’action **Gérer** n’est pas présente. Au lieu de cela, pour ouvrir une commande vente individuelle, il vous suffit de sélectionner le champ **Nombre**. Dans cette vue, vous ne pouvez pas épingler la barre d’action.  
 
-## Voir la [formation Microsoft](/training/paths/work-pro-data-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Préparation aux activités commerciales](ui-get-ready-business.md)  

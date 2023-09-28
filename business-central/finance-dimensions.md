@@ -238,8 +238,6 @@ Dans une page écriture comptable, vous pouvez voir si des axes principaux sont 
 > [!NOTE]  
 > La page **Analytique - Écritures comptables** affiche les axes d’une écriture comptable à la fois. Lorsque vous faites défiler les écritures comptables, le contenu de la page **Analytique - Écritures comptables** est modifié en conséquence.
 
-## Voir la [formation Microsoft](/training/modules/dimensions-dynamics-365-business-central/index) associée
-
 ## Voir aussi
 
 [Veille économique](bi.md)  

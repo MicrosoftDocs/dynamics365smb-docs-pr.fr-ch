@@ -42,8 +42,6 @@ Si vous souhaitez vérifier la prévision, outre les écritures de prévision, v
 2. Choisissez une prévision de trésorerie, puis sélectionnez l’option **Feuille trésorerie**.  
 3. Sur la page **Feuille trésorerie**, sélectionnez l’action **Proposer lignes feuille activité**.  
 
-## Voir la [formation Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) associée
-
 ## Voir aussi
 
 [Configuration de Finance](finance-setup-finance.md)  

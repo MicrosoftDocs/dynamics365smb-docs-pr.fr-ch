@@ -31,13 +31,11 @@ La demande de prix est supprimée de la base de données. Une facture achat ou u
 > [!NOTE]
 > Il n’est pas possible de convertir directement un devis d’achat en facture d’achat, comme c’est le cas avec les devis de vente. Pour plus de détails sur la création d’une facture d’achat, consultez [Enregistrer les achats avec les factures d’achat](purchasing-how-record-purchases.md).
 
-## Voir la [formation Microsoft](/training/modules/create-purchase-documents-dynamics-365-business-central/) associée.
-
 ## Voir aussi
 
 [Achats](purchasing-manage-purchasing.md)  
 [Définition des achats](purchasing-setup-purchasing.md)  
-[Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
+[Envoi de documents par courrier électronique](ui-how-send-documents-email.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

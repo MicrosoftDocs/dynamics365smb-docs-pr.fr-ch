@@ -30,9 +30,7 @@ Lorsque vous avez configuré votre stock, vous pouvez gérer différents process
 |En complément aux fiches article, enregistrer des informations relatives à vos articles dans un magasin spécifique ou d’une variante spécifique.|[Configurer des points de stock](inventory-how-to-set-up-stockkeeping-units.md)|
 | Affecter des articles aux catégories et leur donner des attributs pour vous aider, vous et vos clients, à trouver des articles. |[Catégoriser des articles](inventory-how-categorize-items.md) |
 |Importez plusieurs images d’article en une seule fois depuis un fichier zip où les fichiers sont nommés selon les numéros d’article.|[Importer plusieurs images d’article](inventory-how-import-item-pictures.md)|
-|Spécifiez les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
-
-## Voir la [formation Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) associée
+|Spécifier les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 
 ## Voir aussi
 

@@ -62,8 +62,6 @@ En outre, chaque condition de la table Conditions intérêts de retard est lié 
 |%8|Contenu du champ **Code devise** de l’en-tête de facture d’intérêts|  
 |%9|Contenu du champ **Date comptabilisation** de l’en-tête de facture d’intérêts|  
 
-## Voir la [formation Microsoft](/training/modules/send-memos-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  

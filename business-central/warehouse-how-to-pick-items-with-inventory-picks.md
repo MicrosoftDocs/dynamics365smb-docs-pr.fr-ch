@@ -3,7 +3,7 @@ title: Comment prélever des articles avec les prélèvements stock
 description: Découvrez comment utiliser les prélèvements stock pour enregistrer et valider les informations de prélèvement et d’expédition pour les documents origine.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -119,8 +119,6 @@ Dans les scénarios où une partie de la quantité est assemblée et l’autre d
 
 > [!NOTE]  
 > Si les articles sont assemblés pour commande, le prélèvement stock pour la commande vente liée crée un mouvement de stock pour tous les composants d’assemblage.  
-
-## Voir la [formation Microsoft](/training/paths/pick-ship-items-business-central/) associée
 
 ## Voir aussi
 

@@ -40,12 +40,10 @@ L’intégration de Power BI à [!INCLUDE[prod_short](includes/prod_short.md)] i
 
 Vous pouvez également créer des rapports visuels basés sur [!INCLUDE[prod_short](includes/prod_short.md)] en utilisant l’option de type de fichier **Document Microsoft Excel (données uniquement)** sur les pages de demande d’état. En savoir plus sur [Exécuter et imprimer des états](ui-work-report.md).
 
-## Voir la formation associée sur [Microsoft Learn](/learn/paths/use-power-bi).
-
 ## Voir aussi
 
 [Business Analysis et Financial Reporting](bi.md)  
-[Démarrage rapide de Business Central](quick-start-business-central.md)  
+[Démarrages rapides de Business Central](quick-start-business-central.md)  
 [Utiliser les états Power BI dans Business Central](across-working-with-powerbi.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

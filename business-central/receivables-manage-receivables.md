@@ -39,9 +39,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Avec le consentement de votre client, collectez les paiements directement à partir du compte bancaire du client en euro uniquement.|[Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)|
 |Bloquer la saisie ou la validation d’un client sur des documents, par exemple à cause de l’insolvabilité.|[Bloquer des clients](receivables-how-block-customers.md)|
 |Configurer une valeur de tolérance selon laquelle le système clôt une facture même si le règlement, tenant compte d’éventuelles remises, ne couvre pas intégralement le montant de la facture.|[Utilisation des écarts de règlement et des écarts d’escompte](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Prévoyez quand les paiements seront exécutés en retard pour les documents vente. | [Extension Prévisions de retard de paiement](ui-extensions-late-payment-prediction.md) |
-
-## Voir la [formation Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) associée
+| Prévoyez quand les paiements seront exécutés en retard pour les documents vente. | [Extension Prédictions de retard de paiement](ui-extensions-late-payment-prediction.md) |
 
 ## Voir aussi
 [Ventes](sales-manage-sales.md)  

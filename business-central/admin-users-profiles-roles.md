@@ -167,12 +167,10 @@ En tant qu’administrateur de [!INCLUDE[prod_short](includes/prod_short.md)] en
 
 Pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous pouvez gérer des sessions à l’aide de SQL Server Management Studio, par exemple. Pour plus d’informations, voir [Documentation technique SQL Server](/sql/sql-server).  
 
-## Voir la [formation Microsoft](/training/modules/users-security-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
-[Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  
-[Personnaliser les pages pour les profils](ui-personalization-manage.md)  
+[Affectation des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  
+[Personnalisation des pages pour les profils](ui-personalization-manage.md)  
 [Personnaliser votre espace de travail](ui-personalization-user.md)  
 
 

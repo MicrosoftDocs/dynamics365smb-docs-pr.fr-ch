@@ -25,8 +25,6 @@ Une fois que vous avez configuré un vendeur sur la page **Vendeurs**, vous pouv
 
 Vous pouvez utiliser les vendeurs dans la gestion des relations et les divers travaux de marketing. Par exemple, vous pouvez affecter des tâches aux vendeurs, afin que les tâches soient incorporées dans les opportunités de vente affectées au vendeur. Pour plus d’informations, voir [Configurer des cycles de vente opportunité et des étapes de cycle](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Définition des ventes](sales-setup-sales.md)  

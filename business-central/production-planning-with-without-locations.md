@@ -139,13 +139,11 @@ Comme vous pouvez le voir au dernier cas de figure, le seul moyen d’obtenir de
 
 Par conséquent, si vous planifiez souvent des demandes dans des magasins, nous vous recommandons d’utiliser la fonction Points de stock.
 
-## Voir la formation associée sur [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
-
 ## Voir aussi
 
 [Planifié](production-planning.md)  
-[Configurer la production](production-configure-production-processes.md)  
-[Production](production-manage-manufacturing.md)  
+[Configuration de la fabrication](production-configure-production-processes.md)  
+[Fabrication](production-manage-manufacturing.md)  
 [Stock](inventory-manage-inventory.md)  
 [Configurer des points de stock](inventory-how-to-set-up-stockkeeping-units.md)  
 [Achats](purchasing-manage-purchasing.md)  

@@ -59,8 +59,6 @@ Le diagramme suivant illustre le flux de travail de base pour les utilisateurs l
 6. L’utilisateur crée un état dans Power BI Desktop.
 7. L’utilisateur publie l’état vers le service Power BI. Les états sont ensuite disponibles pour la sélection dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
-
 ## Voir aussi
 
 [Business Central et Power BI](admin-powerbi.md)  

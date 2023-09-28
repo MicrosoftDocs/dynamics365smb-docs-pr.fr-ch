@@ -50,15 +50,13 @@ La procédure suivante décrit comment recevoir une facture fournisseur et la co
 
     Une facture achat est créée dans [!INCLUDE[prod_short](includes/prod_short.md)] sur la base des informations du document électronique.  
 
-    Les erreurs de validation, généralement associées à des données de base erronées ou manquantes dans [!INCLUDE[prod_short](includes/prod_short.md)], seront affichées dans le raccourci **Messages d’erreur**.  
-
-## Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) associée
+    Les erreurs de validation, généralement associées à des données de base erronées ou manquantes dans [!INCLUDE[prod_short](includes/prod_short.md)], seront affichées dans le raccourci **Messages d'erreur**.  
 
 ## Voir aussi
 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Documents entrants](across-income-documents.md)  
-[Configurer l’envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Échanger des données par voir électronique](across-data-exchange.md)   
 [Fonctionnalités marché](ui-across-business-areas.md)  
 

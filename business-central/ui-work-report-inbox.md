@@ -47,13 +47,11 @@ Le partage d’états avec des collaborateurs est également possible sur la pag
 >
 > Utiliser l’action **Partager** rend le fichier d’état généré accessible aux autres utilisateurs uniquement sur OneDrive for Business et ne répertorie pas l’état planifié sur leur **Boîte de réception état**.
 
-## Voir la formation associée sur [Microsoft Learn](/learn/paths/build-reports/).
-
 ## Voir aussi
 
-[Exécuter et imprimer des états](ui-work-report.md)  
+[Exécution et impression des états](ui-work-report.md)  
 [États disponibles dans [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
-[Utiliser les états dans le travail quotidien](reports-use-reports.md)  
+[Utilisation des rapports dans le travail quotidien](reports-use-reports.md)  
 [Vue d’ensemble de Business Intelligence et Reporting](reports-bi-reporting.md)  
 [Paramétrage imprimantes](ui-specify-printer-selection-reports.md)  
 [Utiliser les dates civiles et les heures](ui-enter-date-ranges.md)  

@@ -172,12 +172,10 @@ L’illustration suivante donne un aperçu du résultat de cette procédure.
 
 Ensuite, testez le flux de travail en ouvrant une fiche fournisseur existante et en changeant son nom. Vérifiez qu’une demande d’approbation est envoyée après la modification du nom du fournisseur.
 
-## Voir la [formation Microsoft](/training/modules/create-workflows/) associée
-
 ## Voir aussi
 
-[Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)  
-[Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md)  
+[Création des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md)  
+[Configuration des utilisateurs des approbations](across-how-to-set-up-approval-users.md)  
 [Configuration de notifications de flux de travail approbation](across-setting-up-workflow-notifications.md)  
 [Afficher des instances d’étape de flux de travail archivées](across-how-to-view-archived-workflow-step-instances.md)  
 [Suppression des flux d’approbation](across-how-to-delete-workflows.md)  

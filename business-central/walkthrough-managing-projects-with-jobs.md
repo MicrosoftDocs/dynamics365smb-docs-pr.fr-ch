@@ -454,8 +454,6 @@ Les procédures suivantes expliquent comment créer un projet, définir un prix 
 
  Cette procédure pas à pas vous a présenté l’utilisation de base des projets dans [!INCLUDE[prod_short](includes/prod_short.md)]. Vous avez appris à créer un projet, à copier un projet et à gérer les paiements. Vous avez également vu comment assurer le suivi des heures et créer des factures.  
 
-## Voir la [formation Microsoft](/training/paths/create-jobs/) associée
-
 ## Voir aussi
 
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  

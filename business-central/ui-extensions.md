@@ -87,12 +87,10 @@ Les partenaires et revendeurs Microsoft peuvent créer une application utilisabl
 > [!NOTE]
 > Si vous êtes un partenaire ou un revendeur Microsoft et que vous souhaitez fournir une liste d’applications recommandées, consultez [Recommander des applications depuis AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) dans le contenu d’administration.
 
-## Voir la [formation Microsoft](/training/modules/customize-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Installer et désinstaller des applications](ui-extensions-install-uninstall.md)  
-[Personnaliser Business Central](ui-customizing-overview.md)  
+[Personnalisation de Business Central](ui-customizing-overview.md)  
 [Applications Business Central par d’autres fournisseurs](ui-extensions-other.md)  
 [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md)  

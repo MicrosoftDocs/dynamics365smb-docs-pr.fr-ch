@@ -107,12 +107,10 @@ Sélectionnez le lien *Modifier quand je reçois une notification* pour afficher
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## Voir la [formation Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) associée
-
 ## Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Modifier les fonctionnalités affichées](ui-experiences.md)  
+[Modification des fonctionnalités affichées](ui-experiences.md)  
 [Création de sociétés](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

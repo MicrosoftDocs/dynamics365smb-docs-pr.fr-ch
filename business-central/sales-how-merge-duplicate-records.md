@@ -56,12 +56,10 @@ La procédure suivante se base sur une fiche article. La procédure est identiqu
 > [!NOTE]
 > Pour les contacts, vous pouvez utiliser la fonctionnalité pour trouver des doublons de contact avant d’utiliser la page **Fusionner le doublon**. Pour plus d’informations, reportez-vous à la rubrique [Recherche de doublons de contact](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Ventes](sales-manage-sales.md)  
-[Configurer les contacts](marketing-setup-contacts.md)  
+[Configuration des contacts](marketing-setup-contacts.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

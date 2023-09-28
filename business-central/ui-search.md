@@ -70,8 +70,6 @@ La fonction **Dites-moi ce que vous voulez faire** n’effectue pas de recherche
 
 Nous avons présenté Tell Me à différents acteurs impliqués, noté les questions qu’ils avaient en commun, et transformé nos notes en une liste de questions fréquemment posées. Si cela vous intéresse, voir [FAQ Tell Me](ui-search-faq.md).
 
-## Voir la [formation Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) associée
-
 ## Voir aussi
 
 [Utiliser Business Central](ui-work-product.md)  

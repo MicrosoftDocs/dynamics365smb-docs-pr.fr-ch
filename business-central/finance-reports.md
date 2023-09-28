@@ -24,13 +24,11 @@ Les articles suivants décrivent certaines des tâches clés pour analyser l’�
 
 * [Analyser les montants réalisés et les montants budgétés](bi-how-analyze-actual-versus-budget.md)  
 * [Préparer Financial Reporting avec des données financières et des catégories de compte](bi-how-work-account-schedule.md)  
-* [Configuration et publication des services Web KPI sur la base d’états financiers](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
+* [Configuration et publication des services web d’indicateur de performance clé sur la base d’états financiers](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
 * [Analyse des données par axe analytique](bi-how-analyze-data-dimension.md)  
 * [Créer des rapports d’analyse](bi-how-create-analysis-views-reports.md)  
 * [Création d’états avec XBRL](bi-create-reports-with-xbrl.md)  
 * [Gérer l’accès intentionnel à la base de données](admin-data-access-intent.md)  
-
-## Voir la [formation Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/) associée
 
 ## Voir aussi
 

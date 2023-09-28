@@ -46,8 +46,6 @@ Lorsque vous configurez des utilisateurs approbation, vous pouvez créer de rép
 
 L’étape suivante consiste à spécifier comment vous souhaitez [!INCLUDE [prod_short](includes/prod_short.md)] informer les personnes qu’une demande est en attente de leur attention. En savoir plus dans la rubrique [Configuration de notifications de flux de travail approbation](across-setting-up-workflow-notifications.md).
 
-## Voir la [formation Microsoft](/training/modules/create-workflows/) associée
-
 ## Voir aussi
 
 [Configuration des utilisateurs des flux de travail](across-how-to-set-up-workflow-users.md)  

@@ -32,8 +32,6 @@ La procédure suivante explique comment émettre un avoir acompte pour annuler t
 5. Pour valider une facture acompte pour les nouvelles lignes dans l’avoir vente, sélectionnez l’action **Acompte**, puis l’action **Valider facture acompte** ou **Publier et imprimer facture acompte**.  
 6. Pour émettre une autre facture acompte, augmentez le montant d’acompte sur une ou plusieurs lignes, puis validez la facture acompte. Une nouvelle facture est créée pour la différence entre les montants d’acompte facturés et le nouveau montant d’acompte.  
 
-## Voir la [formation Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Facturation d’acomptes](finance-invoice-prepayments.md)  

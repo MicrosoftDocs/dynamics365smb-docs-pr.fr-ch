@@ -436,8 +436,6 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Lorsque The Device Shop paie pour la réception des 18 ordinateurs de CRONUS, la commande vente et ses ordres d’assemblage liés sont supprimés.  
 
-## Voir la [formation Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
  [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md)   

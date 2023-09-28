@@ -3,7 +3,7 @@ title: Environnements Sandbox
 description: 'Découvrez comment un environnement dédié peut vous aider à explorer, apprendre, démontrer, développer, résoudre les problèmes et tester Business Central en toute sécurité.'
 author: brentholtorf
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -63,8 +63,6 @@ Dans un environnement sandbox, la fonctionnalité **Concepteur** est activée. V
 Pour plus d’informations, voir [Utiliser le concepteur](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) dans le contenu dédié à l’équipe Administration et aux développeurs (en anglais uniquement).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
-
-## Voir la [formation Microsoft](/training/modules/admin-online-dynamics-365-business-central/) associée
 
 ## Voir aussi
 

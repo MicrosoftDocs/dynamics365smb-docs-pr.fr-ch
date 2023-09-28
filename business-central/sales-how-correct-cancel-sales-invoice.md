@@ -61,13 +61,11 @@ Si l’annulation est liée à une validation de facture partielle, la ligne de 
     Un avoir vente est automatiquement créé et validé pour annuler la facture vente validée initiale.
 5. Sélectionnez l’action **Afficher un avoir correctif** pour afficher l’avoir vente validé qui annule la facture vente validée initiale.
 
-## Voir la [formation Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
+[Envoi de documents par courrier électronique](ui-how-send-documents-email.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

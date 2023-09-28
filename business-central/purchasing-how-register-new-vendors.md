@@ -70,11 +70,9 @@ Vous pouvez modifier les informations des fiches fournisseur à tout moment. Tou
 5. Lorsque vous avez terminé le nouveau modèle fournisseur, cliquez sur le bouton **OK**.  
    Le modèle fournisseur est ajouté à la liste des modèles fournisseur. Vous pouvez ainsi l’utiliser pour créer des fiches fournisseur.
 
-## Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée.
-
 ## Voir aussi
 
-[Fusionner l’enregistrement des doublons](sales-how-merge-duplicate-records.md)  
+[Fusion des enregistrements en double](sales-how-merge-duplicate-records.md)  
 [Création des souches de numéros](ui-create-number-series.md)  
 [Configurer des comptes bancaires fournisseur](purchasing-how-set-up-vendors-bank-accounts.md)  
 [Configurer les acheteurs](purchasing-how-setup-purchasers.md)  

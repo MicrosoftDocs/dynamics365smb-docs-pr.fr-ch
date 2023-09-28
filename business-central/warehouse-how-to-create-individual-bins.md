@@ -70,8 +70,6 @@ Pour travailler avec la page **Feuille création emplacement**, vous devez être
 
 Répétez l’opération pour un autre ensemble d’emplacements jusqu’à ce que vous ayez créé tous les emplacements de votre entrepôt.  
 
-## Voir la [formation Microsoft](/training/modules/create-new-bins/) associée
-
 ## Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)

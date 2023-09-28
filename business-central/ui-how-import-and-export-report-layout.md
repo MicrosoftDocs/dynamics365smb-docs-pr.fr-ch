@@ -43,9 +43,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
 5.  Dans la boîte de dialogue **Importer**, sélectionnez le document qui définit la présentation d’état, puis choisissez le bouton **Ouvrir**.  
 
- La présentation de rapport personnalisé d’origine est remplacée par la présentation de rapport importée.  
-
-## Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
+ La présentation de rapport personnalisé d'origine est remplacée par la présentation de rapport importée.  
 
 ## Voir aussi
 

@@ -10,7 +10,7 @@ ms.author: bholtorf
 
 # Configurer un amortissement immobilisation
 
-Vous pouvez utiliser plusieurs méthodes d’amortissement pour préparer les états financiers et les déclarations de revenus. De nombreuses sociétés de grande taille utilisent la méthode de l’amortissement linéaire dans leurs états financiers car elle permet généralement la déclaration des bénéfices supérieurs. Aux fins de l’impôt sur le revenu, cependant, de nombreuses entreprises utilisent une méthode d’amortissement accélérée, comme l’amortissement dégressif. Vous définissez la méthode d’amortissement d’un actif avec le champ **Méthode d’amortissement** sur la page **Fiche immobilisation**. Pour plus d’informations sur les fonctions des différentes méthodes, consultez [Méthodes d’amortissement](fa-depreciation-methods.md).
+Vous pouvez utiliser plusieurs méthodes d’amortissement pour préparer les états financiers et les déclarations de revenus. De nombreuses sociétés de grande taille utilisent la méthode de l'amortissement linéaire dans leurs états financiers car elle permet généralement la déclaration des bénéfices supérieurs. Aux fins de l’impôt sur le revenu, cependant, de nombreuses entreprises utilisent une méthode d’amortissement accélérée, comme l’amortissement dégressif. Vous définissez la méthode d’amortissement d’un actif avec le champ **Méthode d’amortissement** sur la page **Fiche immobilisation**. Pour plus d’informations sur les fonctions des différentes méthodes, consultez [Méthodes d’amortissement](fa-depreciation-methods.md).
 
 Vous paramétrez des lois d’amortissement lorsque vous définissez les différentes manières dont l’amortissement doit être calculé pour vos différents types d’immobilisation. Chaque loi d’amortissement spécifie des conditions d’amortissement individuelles. Par exemple, vous pouvez spécifier qu’une immobilisation doit être amortie sur une période de trois ans dans une loi et sur une période de cinq ans dans une autre loi.
 
@@ -90,12 +90,10 @@ Lorsque le traitement par lots Calculer amortissement calcule les amortissements
 
 Si vous activez ce champ, le traitement par lots Calculer amortissement utilise l’année civile de 365 jours, où chaque mois est calculé avec le même nombre de jours que le calendrier. La seule exception est le mois de février des années bissextiles, que le traitement par lots traitera comme ayant 28 jours et non 29. Pour cette raison, toutes les années, également les années bissextiles, sont considérées comme ayant 365 jours.
 
-## Voir la [formation Microsoft](/training/modules/configure-depreciation-books/) associée
-
 ## Voir aussi
 
 [Paramétrage d’immobilisations](fa-setup.md)  
-[COMPTES D’IMMOBILISATIONS](fa-manage.md)  
+[Immobilisations](fa-manage.md)  
 [Finances](finance.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

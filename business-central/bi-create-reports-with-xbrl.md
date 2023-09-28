@@ -114,11 +114,9 @@ Lorsqu’une taxonomie est modifiée, vous devez mettre à jour la taxonomie act
 6. Pour importer le lien de ressources, sélectionnez l’action **Importer**.  
 7. Sélectionnez **Oui** pour appliquer le lien ressources au schéma.  
 
-## Voir la formation associée sur [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
-
 ## Voir aussi
 
-[Décisionnel pour le secteur de la finance](bi.md)  
+[Business Intelligence financière](bi.md)  
 [Finances](finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

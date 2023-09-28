@@ -51,13 +51,11 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 > [!TIP]
 > En fonction de votre emplacement géographique, certaines pages Business Central peuvent contenir des champs qui ne sont pas décrits dans les articles répertoriés ci-dessus, car ils s’appliquent à des fonctionnalités locales ou à des personnalisations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Voir la [formation Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Finances](finance.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
-[Utiliser les axes analytiques](finance-dimensions.md)  
+[Utilisation des axes analytiques](finance-dimensions.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

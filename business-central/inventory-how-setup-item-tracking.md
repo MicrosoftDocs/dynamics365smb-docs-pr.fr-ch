@@ -109,12 +109,10 @@ Pour les importations en bloc, utilisez des packages de configuration pour impor
 > [!NOTE]
 > Vous ne pouvez pas utiliser **Modifier dans Excel** pour créer des lignes feuille avec des informations de suivi.
 
-## Voir la [formation Microsoft](/training/modules/prepare-item-tracking/) associée
-
 ## Voir aussi
 
 [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)  
-[Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
+[Traçabilité – Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
 [Stock](inventory-manage-inventory.md)  
 [Détails de conception : traçabilité](design-details-item-tracking.md)  
 [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  

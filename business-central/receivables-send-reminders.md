@@ -11,11 +11,9 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: bholtorf
 ---
-# Envoyer des rappels de soldes impayés
+# Envoi des rappels de soldes impayés
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
-
-## Voir la [formation Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) associée
 
 ## Voir aussi
 

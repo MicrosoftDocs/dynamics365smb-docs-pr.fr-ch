@@ -13,7 +13,7 @@ ms.author: bholtorf
 ---
 # Configuration des codes source et des codes de motif pour les pistes d’audit
 
-Un code journal est affecté automatiquement à toutes les écritures validées, de sorte que les transactions puissent être suivies jusqu’à leur origine. Pour attribuer un autre code journal aux écritures, vous pouvez utiliser les codes motif. Ces derniers permettent d’indiquer le motif de création d’une écriture. Lorsque vous les configurez, vous pouvez les affecter à des modèles ou des noms de feuilles, ainsi qu’à des lignes feuille et documents spécifiques.  
+Un code journal est affecté automatiquement à toutes les écritures validées, de sorte que les transactions puissent être suivies jusqu’à leur origine. Pour attribuer un autre code journal aux écritures, vous pouvez utiliser les codes motif. Ces derniers permettent d'indiquer le motif de création d'une écriture. Lorsque vous les configurez, vous pouvez les affecter à des modèles ou des noms de feuilles, ainsi qu’à des lignes feuille et documents spécifiques.  
 
 Pour les codes source et les codes motif, utilisez des codes faciles à mémoriser et descriptifs. Le code doit être unique et vous pouvez configurer autant de codes que vous le souhaitez.
 
@@ -77,15 +77,13 @@ Le code motif sélectionné est copié dans les nouvelles feuilles créées sous
 
 2. Dans l’en-tête achat ou vente, entrez le code dans le champ **Code motif**.
 
-Lors de la validation de la facture, le code motif est copié dans chaque écriture comptable, client et fournisseur. Vous ne pouvez pas affecter un code motif différent à chacune des lignes achat et vente, car toutes les lignes sont validées sous la forme d’une écriture unique.
-
-## Voir la [formation Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) associée
+Lors de la validation de la facture, le code motif est copié dans chaque écriture comptable, client et fournisseur. Vous ne pouvez pas affecter un code motif différent à chacune des lignes achat et vente, car toutes les lignes sont validées sous la forme d'une écriture unique.
 
 ## Voir aussi
 
 [Finances](finance.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
-[Utiliser les axes analytiques](finance-dimensions.md)  
+[Utilisation des axes analytiques](finance-dimensions.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

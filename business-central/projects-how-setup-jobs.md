@@ -3,7 +3,7 @@ title: 'Configurer des projets, des prix et des groupes comptabilisation projet'
 description: Décrit comment configurer des informations générales sur les projets.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template
@@ -98,8 +98,6 @@ L’un des aspects des projets de planification est de décider quels comptes de
 | **Compte ajustement vente projet** |Compte de contrepartie du Compte ventes projet TEC, qui est un compte de revenu. | Ventes à payer|
 | **Compte coûts récep.** |Compte frais contenant les coûts réceptionnés du projet. Il s’agit ordinairement d’un compte frais pour débit. | Coûts réceptionnés|
 | **Compte ventes récep.** |Compte de revenu contenant les revenus réceptionnés du projet. Il s’agit ordinairement d’un compte de revenu pour crédit. | Ventes réceptionnées|
-
-## Voir la [formation Microsoft](/training/paths/set-up-jobs-resources/) associée
 
 ## Voir aussi
 

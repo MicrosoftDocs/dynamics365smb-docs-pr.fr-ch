@@ -83,8 +83,6 @@ Un magasinier peut créer un nouveau rangement stock basé sur le document origi
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Voir la [formation Microsoft](/training/modules/receive-put-away-items/) associée
-
 ## Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)

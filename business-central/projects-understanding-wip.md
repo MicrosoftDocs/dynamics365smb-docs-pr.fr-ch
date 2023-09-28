@@ -27,8 +27,6 @@ Pour effectuer le suivi de la valeur dans la comptabilité, vous pouvez calculer
 | Pourcentage d’achèvement |Coûts réceptionnés = Activité (coûts totaux)<br /><br /> Revenus réceptionnés = Facturable (prix total) x Pourcentage avancement<br /><br /> Pourcentage avancement = Activité (coûts totaux) / Budget (coûts totaux)<br /> (Capturé dans le champ **% achèvement coût** sur les lignes tâche)<br /><br /> Vente TEC = Ventes réceptionnées - Facturable (prix facturé) |Le calcul Pourcentage avancement réceptionne les revenus proportionnellement sur la base du pourcentage d’achèvement, soit les coûts totaux par rapport aux coûts budgétés.<br /><br /> Ce calcule nécessite que le prix total facturable et les coûts budgétaires totaux soient correctement renseignés pour l’ensemble du projet. |
 | Contrat complété |Montant TEC = Montant coût TEC = Activité (coût total)<br /><br /> Montant vente TEC = Facturable (Prix facturé) |La méthode Fin de contrat ne réceptionne pas les revenus et les coûts avant la fin du projet. Cela peut être utile lorsque l’estimation des coûts et des revenus du projet est excessivement difficile.<br /><br /> L’ensemble de l’activité est validé dans le compte Coûts TEC (actif) et toutes les ventes facturées sont validées dans le compte Ventes facturées TEC (passif) jusqu’à la fin du projet. |
 
-## Voir la [formation Microsoft](/training/paths/calculate-post-job-wip/) associée
-
 ## Voir aussi
 
 [Gestion de projets](projects-manage-projects.md)  

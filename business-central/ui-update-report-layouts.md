@@ -58,8 +58,6 @@ Si aucune erreur ne se produit, la mise à jour est appliquée aux présentation
 
 Une fois que vous avez modifié la présentation, essayez de mettre de nouveau à jour la présentation.  
 
-## Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
-
 ## Voir aussi  
  [Gestion des présentations d’état](ui-manage-report-layouts.md)  
  [Utiliser des états, des traitements par lots et des XMLports](ui-work-report.md)  

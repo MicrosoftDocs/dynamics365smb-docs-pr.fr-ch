@@ -134,9 +134,7 @@ La rubrique contient les procédures suivantes :
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**Compte général pour lignes non-article**|Spécifie le compte G/L inséré automatiquement dans les lignes d’achat créées à partir de documents électroniques lorsque la ligne de document entrant ne contient pas d’article identifiable. Une ligne document entrant sans GTIN ni numéro d’article du fournisseur sera convertie en ligne achat de type **Compte général** et le champ **N°**. de la ligne achat affichera le compte que vous sélectionnez dans le champ **Compte général pour lignes non-article**.<br /><br /> Si vous laissez le champ **Compte général pour lignes non-article** vide et que le document entrant possède des lignes sans articles identifiables, alors le document d’achat ne sera pas créé. Un message d’erreur vous donnera des instructions pour remplir le champ **Compte général pour lignes non-article** avant de pouvoir terminer la tâche.|  
-
-## Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) associée
+    |**Compte général pour lignes non-article**|Spécifie le compte G/L inséré automatiquement dans les lignes d’achat créées à partir de documents électroniques lorsque la ligne de document entrant ne contient pas d’article identifiable. Une ligne document entrant sans GTIN ni numéro d’article du fournisseur sera convertie en ligne achat de type **Compte général** et le champ **N°**. de la ligne achat affichera le compte que vous sélectionnez dans le champ **Compte général pour lignes non-article**.<br /><br /> Si vous laissez le champ **Compte général pour lignes non-article** vide et que le document entrant possède des lignes sans articles identifiables, alors le document d’achat ne sera pas créé. Un message d'erreur vous donnera des instructions pour remplir le champ **Compte général pour lignes non-article** avant de pouvoir terminer la tâche.|  
 
 ## Voir aussi  
 [Échanger des données par voir électronique](across-data-exchange.md)   

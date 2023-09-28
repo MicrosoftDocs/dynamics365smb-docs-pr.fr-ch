@@ -59,7 +59,9 @@ Répétez les étapes 2 à 6 pour toutes les boutiques en ligne que vous voule
 ### Problèmes connus
 
 - Le navigateur bloque la fenêtre contextuelle. Lorsque vous activez le bouton **Activé**, [!INCLUDE [prod_short](../includes/prod_short.md)] ouvre la page **En attente d’une réponse - ne fermez pas cette page** en attendant un jeton d’accès de Shopify. Si cette page est fermée ou bloquée, vous ne pouvez pas vous connecter à Shopify. En savoir plus sur [Demander le jeton d’accès](troubleshoot.md#request-the-access-token)
+- Il pourrait être judicieux d’ouvrir Shopify admin dans le même navigateur que [!INCLUDE [prod_short](../includes/prod_short.md)]
 - [Erreur : Oauth error invalid_request: c not find Shopify API application with api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Erreur : Oauth erreur invalid_request : votre compte n’est pas autorisé à accorder l’accès demandé pour cette application.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [Impossible de se connecter depuis le bac à sable](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Étapes suivantes
@@ -108,8 +110,6 @@ Si vous laissez le bouton à bascule **Autoriser la synchronisation des données
 
 *   Sélectionnez **Brouillon** dans le champ **Statut pour créer un produit** pour vous assurer que les produits exportés ne sont pas disponibles pour les acheteurs. Vous pouvez vérifier l’apparence des produits dans la boutique en ligne, synchroniser les prix, les options et les niveaux de stock. Assurez-vous simplement d’utiliser des filtres sur la page  **Ajouter un élément à Shopify** pour limiter le nombre d’éléments exportés.
 * Désactivez le bouton à bascule **Exporter le client vers Shopify** afin de ne pas envoyer de clients vers Shopify.
-
-## Voir la [formation Microsoft](/training/paths/use-shopify-connector-dynamics-365-business-central/) associée
 
 ## Voir aussi
 

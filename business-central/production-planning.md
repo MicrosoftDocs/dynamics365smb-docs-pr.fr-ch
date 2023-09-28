@@ -39,12 +39,10 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Afficher le stock disponible prévu sous différents types d’affichage et voir quels besoins bruts, réceptions de commandes planifiées et autres événements l’influencent dans le temps.|[Voir la disponibilité des articles](inventory-how-availability-overview.md)|  
 <!--|Effectuer des activités de planification sélectionnées, comme la modification ou l’ajout de lignes feuille planning, dans une vue graphique du programme d’approvisionnement.|[Modifier les propositions planning dans une vue graphique](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## Voir la [formation Microsoft](/training/modules/plan-items-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Paramétrage de la production](production-configure-production-processes.md)  
-[Production](production-manage-manufacturing.md)  
+[Fabrication](production-manage-manufacturing.md)  
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)  

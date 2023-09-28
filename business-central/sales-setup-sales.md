@@ -35,8 +35,6 @@ La configuration des ventes en relation avec les finances, comme les modes de r�
 |Spécifier les états par défaut à utiliser pour différents types de documents.|[Sélection des états dans Business Central](across-report-selections.md)|
 |Spécifiez si les utilisateurs sont autorisés à valider des factures vente et s’ils doivent les valider avec une expédition. |[Définition d’une stratégie de validation des factures pour les utilisateurs](admin-setup-invoice-posting-policy.md)|
 
-## Voir la [formation Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) associée
-
 ## Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

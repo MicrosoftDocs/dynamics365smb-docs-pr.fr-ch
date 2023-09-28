@@ -50,7 +50,7 @@ Utilisez les vues d’analyse que vous avez déjà configurées avec la matrice 
 > Vous ne pouvez pas sélectionner une période plus courte que celle indiquée en tant que compression date sur la fiche **Vue d’analyse**. Les commandes **Jeu suivant** et **Jeu précédent** sont inactives si vous avez sélectionné **Période** dans le champ **Afficher lignes** ou le champ **Afficher colonnes**.  
 
 > [!NOTE]  
-> Vous pouvez utiliser l’état **Axes analytiques - Détail** pour répertorier de manière détaillée les différentes utilisations des axes analytiques sur les écritures au cours d’une période. Vous pouvez utiliser l’état **Axes analytiques - Total** pour afficher uniquement les montants totaux.  
+> Vous pouvez utiliser l'état **Axes analytiques - Détail** pour afficher un classement détaillé du mode d'utilisation des axes sur des écritures pour une période donnée. Vous pouvez utiliser l’état **Axes analytiques - Total** pour afficher uniquement les montants totaux.  
 
 > [!TIP]  
 > Vous pouvez également modifier la vue en changeant la valeur des champs **Afficher lignes** et **Afficher colonnes**. Pour contrepasser un paramètre de vue, choisissez l’action **Inverser lignes et colonnes**.
@@ -73,11 +73,9 @@ Suivez la procédure suivante pour mettre à jour une vue d’analyse à partir 
 > [!NOTE]  
 > Pour mettre à jour tout ou partie des vues d’analyse en même temps, vous devez utiliser le traitement par lots **Mise à jour vues d’analyse**.  
 
-## Voir la formation associée sur [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
-
 ## Voir aussi
 
-[Décisionnel pour le secteur de la finance](bi.md)  
+[Business Intelligence financière](bi.md)  
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Comptabilité et plan comptable](finance-general-ledger.md)  

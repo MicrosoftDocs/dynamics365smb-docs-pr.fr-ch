@@ -51,12 +51,10 @@ Sur la page **Facture achat enregistrée**, vous pouvez cliquer sur le bouton **
 
 Si l’annulation est liée à une validation de facture partielle, la ligne de commande d’achat d’origine est mise à jour pour refléter la quantité facturée annulée. Les champs **Qté à facturer** et **Qté facturée** de la ligne de commande d’achat associée sont réinitialisés aux valeurs avant l’enregistrement partiel.
 
-## Voir la [formation Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/) associée
-
 ## Voir aussi
 
 [Achats](purchasing-manage-purchasing.md)  
-[Enregistrer des achats](purchasing-how-record-purchases.md)  
+[Enregistrement des achats](purchasing-how-record-purchases.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

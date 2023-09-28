@@ -32,8 +32,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 > [!TIP]
 > Utilisez le rapprochement bancaire pour vérifier que vos livres sont à jour et ne publiez pas le rapprochement tant que vous n’êtes pas satisfait du rapprochement.
 
-## Voir la [formation Microsoft](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  

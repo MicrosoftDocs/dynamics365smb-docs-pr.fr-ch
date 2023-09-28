@@ -37,18 +37,16 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Conversion, par exemple, de factures électroniques de vos fournisseurs en factures achat dans Business Central.|[Recevoir et convertir des documents électroniques](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Découvrez comment [!INCLUDE[prod_short](includes/prod_short.md)] calcule le moment où vous devez commander un article pour le recevoir à une certaine date.|[Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)|
 |Résolvez la confusion lorsque deux enregistrements ou plus existent pour le même fournisseur.|[Fusionner l’enregistrement des doublons](sales-how-merge-duplicate-records.md)|
-|Gérez votre engagement envers un fournisseur à acheter de grandes quantités livrées en plusieurs expéditions sur une certaine période.|[Utiliser des commandes ouvertes achat](sales-how-to-create-blanket-sales-orders.md)|
+|Gérez votre engagement envers un fournisseur à acheter de grandes quantités livrées en plusieurs expéditions sur une certaine période.|[Utilisation des commandes cadres achat](sales-how-to-create-blanket-sales-orders.md)|
 
 ## Numéros de document externe
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Voir la [formation Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Définition des achats](purchasing-setup-purchasing.md)  
-[Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)  
+[Enregistrement des nouveaux fournisseurs](purchasing-how-register-new-vendors.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Gestion des projets](projects-manage-projects.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

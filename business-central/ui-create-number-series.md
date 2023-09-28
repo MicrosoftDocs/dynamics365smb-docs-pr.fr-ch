@@ -92,8 +92,6 @@ La procédure suivante indique comment définir des souches de numéros pour la 
 
 Le numéro sélectionné est désormais utilisé pour renseigner le champ **N°** sur la fiche ou le document en question, en fonction des paramètres définis sur la ligne souche de numéros.  
 
-## Voir la [formation Microsoft](/training/modules/number-series-trail-codes-dynamics-365-business-central/index) associée
-
 ## Voir aussi
 
 [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

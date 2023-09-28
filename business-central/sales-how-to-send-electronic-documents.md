@@ -43,13 +43,11 @@ La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] prend e
     > [!NOTE]  
     >  Vous pouvez également envoyer une facture vente validée en tant que document électronique. La procédure est la même que celle décrite dans cette rubrique pour les documents vente non validés. Sur la page **Facture vente enregistrée**, sélectionnez l’action **Journal des activités** pour afficher le statut du document électronique.  
 
-## Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) associée
-
 ## Voir aussi
 
-[Facturer des ventes](sales-how-invoice-sales.md)  
-[Configurer des profils d’envoi de documents](sales-how-setup-document-send-profiles.md)  
-[Configurer l’envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Facturation des ventes](sales-how-invoice-sales.md)  
+[Configuration des profils d’envoi de documents](sales-how-setup-document-send-profiles.md)  
+[Configuration de l’envoi et de la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Configurer un service d’échange de document](across-how-to-set-up-a-document-exchange-service.md)  
 [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md)  
 [Échanger des données par voir électronique](across-data-exchange.md)  

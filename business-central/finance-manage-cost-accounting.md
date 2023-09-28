@@ -24,8 +24,6 @@ La comptabilité analytique vous permet de cerner les coûts liés à l’exploi
 |Découvrez les processus de création des budgets de coûts.|[Création des budgets des coûts](finance-create-cost-budgets.md)|
 |Annulez des écritures de coûts à partir du registre du budget des coûts.|[Suppression des écritures budget des coûts](finance-how-to-delete-cost-budget-entries.md)|
 
-## Voir la [formation Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) associée
-
 ## Voir aussi  
 [Finances](finance.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  

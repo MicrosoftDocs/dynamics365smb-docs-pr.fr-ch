@@ -3,7 +3,7 @@ title: Dépannage de la synchronisation entre Shopify et Business Central
 description: Découvrez ce qu’il faut faire si une erreur se produit lors de la synchronisation des données entre Shopify et Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
@@ -130,7 +130,7 @@ N’oubliez pas de partager les informations de la pile d’appels AL avec le fo
 
 ### Erreur : Gén. Groupe compta. marché doit comporter une valeur dans Client: ’YOUR SHOPIFY STORE’. La valeur ne peut pas être zéro et le champ ne peut pas être vide
 
-Sur la page **Fiche magasin Shopify**, remplissez le champ **Code modèle client** dans la fenêtre Fiche magasin  avec le modèle pour lequel **Groupe compta. marché** est renseigné. Le modèle client est utilisé pour créer des clients et pour calculer les prix de vente pour les documents de vente.
+Sur la page **Fiche magasin Shopify**, remplissez le champ **Code modèle client** dans la fenêtre Fiche magasin avec le modèle pour lequel **Groupe compta. marché** est renseigné. Le modèle client est utilisé pour créer des clients et pour calculer les prix de vente pour les documents de vente.
 
 ### Erreur : L’importation de données dans votre boutique Shopify n’est pas activée. Accédez à la fiche magasin pour l’activer
 
@@ -143,6 +143,10 @@ Selon toute vraisemblance, vous utilisez l’[application intégrée](/dynamics3
 ### Erreur : erreur interne. Il semble qu’un problème se soit produit de votre côté. Identifiant de la demande : XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
 Veuillez contacter le support Shopify dans les 7 jours suivant l’apparition de cette erreur, et fournissez l’identifiant de la demande. Pour en savoir plus, rendez-vous sur [Options de support pour Shopify](shopify-faq.md#shopify).
+
+### Erreur : Oauth erreur invalid_request : votre compte n’est pas autorisé à accorder l’accès demandé pour cette application. 
+
+Il semble que l’utilisateur qui demande l’accès n’ait pas le droit de gérer les applications (possibilité de gérer et d’installer des applications et des canaux, ainsi que potentiellement d’approuver les frais des applications). Vous pourrez peut-être résoudre ce problème en installant l’application en tant que propriétaire du compte. Vous pouvez également vérifier les **Autorisations d’application** pour l’utilisateur dans les [**Paramètres Utilisateur et autorisations**](https://www.shopify.com/admin/settings/account) de votre **Shopify administrateur**.  
 
 ## Voir aussi
 

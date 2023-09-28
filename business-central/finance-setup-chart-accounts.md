@@ -49,8 +49,6 @@ Un nouveau champ, **Bloquer la suppression des comptes généraux**, est ajouté
 
 Le fait de régler le champ **Bloquer la suppression des comptes généraux** sur *Oui* peut être considéré comme une pratique exemplaire, tout comme définir la date dans le champ **Vérifier suppr. cpte gén. ap.**, par exemple à la date à laquelle vous devez stocker vos données financières.  
 
-## Voir la [formation Microsoft](/training/modules/chart-accounts-dynamics-365-business-central/index) associée
-
 ## Voir aussi
 
 [Comptabilité et plan comptable](finance-general-ledger.md)  

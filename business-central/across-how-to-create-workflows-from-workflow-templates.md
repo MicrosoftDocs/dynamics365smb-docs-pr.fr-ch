@@ -29,12 +29,10 @@ Sur la page **Flux de travail**, créez un flux de travail en répertoriant les 
    La page **Flux de travail** s’ouvre pour un nouveau flux de travail contenant toutes les informations du modèle sélectionné. La valeur du champ **Code** est étendue avec « -01 », par exemple, « -01 » pour indiquer que ce premier flux de travail est créé à partir du modèle de flux de travail.  
 4. Créez ensuite le flux de travail en modifiant les étapes de flux de travail ou en ajoutant de nouvelles étapes. En savoir plus sur [Créer des flux de projet](across-how-to-create-workflows.md).  
 
-## Voir la [formation Microsoft](/training/modules/create-workflows/) associée
-
 ## Voir aussi
 
-[Créer des flux de travail approbation](across-how-to-create-workflows.md)  
-[Exporter et importer des flux de travail approbation](across-how-to-export-and-import-workflows.md)  
+[Création des flux de travail d’approbation](across-how-to-create-workflows.md)  
+[Exportation et importation des flux de travail d’approbation](across-how-to-export-and-import-workflows.md)  
 [Afficher des instances d’étape de flux de travail archivées](across-how-to-view-archived-workflow-step-instances.md)  
 [Suppression des flux d’approbation](across-how-to-delete-workflows.md)  
 [Procédure pas à pas : Configuration et utilisation d’un flux d’approbation d’achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  

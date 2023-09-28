@@ -45,11 +45,9 @@ Lorsque vous vendez ou cédez une immobilisation, la valeur de cession est valid
 
 La page **Écritures comptables** s’ouvre. Vous pouvez y voir les écritures résultant de la validation de la cession.  
 
-## Voir la [formation Microsoft](/training/modules/dispose-fixed-assets/) associée
-
 ## Voir aussi
 
-[COMPTES D’IMMOBILISATIONS](fa-manage.md)  
+[Immobilisations](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Pour configurer des groupes compabilisation immobilisation](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Finances](finance.md)  

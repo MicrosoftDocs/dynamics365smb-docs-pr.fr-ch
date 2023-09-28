@@ -59,8 +59,6 @@ Vous pouvez aussi utiliser votre propre service web prévisionnel basé sur un m
 6. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration du stock prévu et des ventes prévues**, puis sélectionnez le lien associé.  
 7. Développez le raccourci **Général**, puis renseignez les champs URL d’API et Clé d’API.  
 
-## Voir la [formation Microsoft](/training/modules/use-sales-inventory-forecast-extension/) associée
-
 ## Voir aussi
 
 [Ventes](sales-manage-sales.md)  

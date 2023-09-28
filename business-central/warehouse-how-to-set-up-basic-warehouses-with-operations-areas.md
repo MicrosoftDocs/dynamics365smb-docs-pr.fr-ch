@@ -136,8 +136,6 @@ La réservation d’un emplacement fournit la même fonctionnalité permettant d
 > [!NOTE]  
 >  L’emplacement doit être vide avant que vous puissiez sélectionner ou désactiver le champ **Dédié**.
 
-## Voir la [formation Microsoft](/training/modules/get-started-warehouse-management/) associée
-
 ## Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)

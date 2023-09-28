@@ -61,6 +61,7 @@ Procédez comme suit pour configurer les états intracommunautaires.
    | --- | --- |
    | **Réceptions d’état** | Spécifie que vous devez inclure les arrivages de marchandises reçues dans les déclarations d’échanges intracomm. |
    | **Déclarer les expéditions** | Spécifie que vous devez inclure les expéditions de marchandises réparties dans les états intracomm. |
+   | **Inclure livraisons directes** | Indique si les transactions de livraison directe sont incluses dans les états de déclaration d’échanges de biens. Pour en savoir plus, consultez [Utilisation les états de déclaration d’échanges de biens](finance-how-report-intrastat.md).  |  
    | **Expéditions basées sur**  | Spécifie le code pays sur la base duquel les lignes des états intracommunautaires sont extraites.  |
    | **N° TVA basé sur** | Spécifie le code client ou fournisseur sur la base duquel le numéro de taxe à la valeur ajoutée (TVA) est utilisé pour l’état intracommunautaire.  |
    | **N° TVA société du fichier** | Spécifie comment le numéro d’immatriculation de TVA de la société est exporté vers le fichier d’état intracommunautaire.  |
@@ -68,7 +69,7 @@ Procédez comme suit pour configurer les états intracommunautaires.
    | **N° TVA client du fichier** | Spécifie comment le numéro d’immatriculation de TVA du client est exporté vers le fichier d’état intracommunautaire.  |
    | **Obtenir TVA partenaire pour** | Spécifie à partir de quel type de ligne de l’état intracommunautaire le numéro d’immatriculation de TVA du partenaire est mis à jour. En fonction de vos exigences locales, vous pouvez choisir les lignes de réception uniquement, les lignes d’expédition uniquement, ou les deux types de ligne. |
 
-3. Dans le raccourci **Transactions par défaut** , sélectionnez ou saisissez les informations des champ nécessaires. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Le tableau suivant décrit certains des champs clés.
+4. Dans le raccourci **Transactions par défaut** , sélectionnez ou saisissez les informations des champ nécessaires. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Le tableau suivant décrit certains des champs clés.
 
    | Champ | Désignation |
    | --- | --- |
@@ -79,7 +80,7 @@ Procédez comme suit pour configurer les états intracommunautaires.
    | **TVA par défaut pour état inconnu** | Spécifie le numéro de TVA par défaut d’un état inconnu. |
    | **Code pays/région par défaut** | Spécifie le code du pays de réception par défaut. |
 
-4. Dans le raccourci **Déclaration**, sélectionnez ou saisissez les informations des champ nécessaires. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Le tableau suivant décrit certains des champs clés.
+5. Dans le raccourci **Déclaration**, sélectionnez ou saisissez les informations des champ nécessaires. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Le tableau suivant décrit certains des champs clés.
 
    | Champ | Désignation |
    | --- | --- |
@@ -89,7 +90,7 @@ Procédez comme suit pour configurer les états intracommunautaires.
    | **Code déf. échange données – Réception** | Spécifie le code de définition d’échange de données pour générer le fichier d’état intracommunautaire pour les biens reçus. Ce champ n’est disponible que si le champ **Fractionner les fichiers réceptions/expéditions** est défini sur **Oui**. |
    | **Code déf. échange données – Expédition** | Spécifie le code de définition d’échange de données pour générer le fichier d’état intracommunautaire pour les biens expédiés. Ce champ n’est disponible que si le champ **Fractionner les fichiers réceptions/expéditions** est défini sur **Oui**. |
 
-5. Dans le raccourci **Numérotation** , saisissez une valeur dans le champ **N° intracommunautaires**.
+6. Dans le raccourci **Numérotation** , saisissez une valeur dans le champ **N° intracommunautaires**.
 
 ### Configurer un fichier de déclaration
 
@@ -251,7 +252,7 @@ Avant de pouvoir inclure un client dans les états intracommunautaires, saisisse
 
 #### Exclure des articles et des immobilisations d’un état intracommunautaire
 
-S’il existe une raison d’exclure un article ou une immobilisation spécifique de l’état intracommunautaire, modifiez l’option sur sa fiche.
+S’il existe une raison d’exclure un article ou une immobilisation spécifique de l’état intracommunautaire, modifiez l’option sur sa fiche en marquant le champ **Exclure de l’état intracommunautaire**. Utilisez ce champ sur la fiche **Modèle d’article** pour créer davantage d’articles exclus de l’état intracommunautaire. 
 
 ##### Exclure un article de l’état intracommunautaire
 
@@ -336,8 +337,6 @@ Les états intracommunautaires en Suède nécessitent deux fichiers différents 
 Le processus de travail avec les états intracommunautaires est le même que dans la fonctionnalité globale.
 
 <!-- ### United Kingdom-->
-
-## Voir la formation associée sur [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## Voir aussi
 

@@ -37,7 +37,7 @@ Lorsque vous avez créé vos emplacements, vous pouvez créer le contenu de chaq
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille création contenu emplacement**, et choisissez le lien associé.  
 2. Dans l’en-tête feuille, cliquez dans le champ **Nom** et sélectionnez la feuille du magasin où vous souhaitez créer le contenu d’un emplacement.  
-3. Dans le champ **Code emplacement**, sélectionnez le code de l’emplacement dont vous souhaitez définir le contenu.  
+3. Dans le champ **Code emplacement**, sélectionnez le code de l'emplacement dont vous souhaitez définir le contenu.  
 
     En cas d’utilisation d’un prélèvement et d’un rangement suggérés dans le magasin, les champs liés à l’emplacement en question ( **Type emplacement**, **Code classe entrepôt** et **Priorité emplacement**) sont renseignés automatiquement. Vous devez prendre en compte ces informations lors de la définition du contenu emplacement.  
 4. Sélectionnez l’article à affecter à l’emplacement et renseignez les champs relatifs au contenu de l’emplacement. Pour pouvoir utiliser la fonction **Calculer réappro. emplacement** dans le cadre d’un prélèvement et d’un rangement suggérés, renseignez les champs **Qté max.** et **Qté min.**  
@@ -48,8 +48,6 @@ Lorsque vous avez créé vos emplacements, vous pouvez créer le contenu de chaq
 7. Lorsque vous êtes prêt, choisissez l’action **Créer contenu emplacement**.  
 
 Dans cette feuille, vous pouvez utiliser des lignes contenu de l’emplacement pour plusieurs emplacements, afin d’obtenir un aperçu convenable des articles que vous placez dans différents emplacements d’une zone, d’une allée, ou d’un casier donné.  
-
-## Voir la [formation Microsoft](/training/modules/set-up-zones-bins/) associée
 
 ## Voir aussi
 

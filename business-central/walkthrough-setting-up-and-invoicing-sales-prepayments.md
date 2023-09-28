@@ -235,8 +235,6 @@ Vous avez également validé une facture acompte, créé une deuxième lorsque l
 
 Les fonctionnalités d’acompte facilitent la configuration et l’application des règles d’acompte pour les clients et les articles. Ils vous permettent également de reporter chaque paiement sur une facture.  
 
-## Voir la [formation Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Facturation d’acomptes](finance-invoice-prepayments.md)  

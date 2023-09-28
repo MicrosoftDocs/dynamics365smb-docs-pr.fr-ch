@@ -92,14 +92,12 @@ La conversion supprime le devis de la base de données. Une facture vente ou une
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
-[Archiver des documents](across-how-to-archive-documents.md)  
+[Envoi de documents par courrier électronique](ui-how-send-documents-email.md)  
+[Archivage de documents](across-how-to-archive-documents.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

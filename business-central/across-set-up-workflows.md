@@ -42,11 +42,9 @@ Cette vidéo montre comment configurer un flux de travail qui exigera qu’un ut
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## Voir la [formation Microsoft](/training/modules/create-workflows/) associée
-
 ## Voir aussi
 
-[Utilisation des flux d’approbation](across-use-workflows.md)  
+[Utilisation des flux de travail approbation](across-use-workflows.md)  
 [Flux de travail](across-workflow.md)  
 [Procédure pas à pas : Configuration et utilisation d’un flux d’approbation d’achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Utiliser Business Central](ui-work-product.md)

@@ -32,7 +32,7 @@ Si des clients ont des impayés, vous devez décider quand et comment leur envoy
 
 Vous pouvez définir un nombre illimité de niveaux de relance pour chaque code de condition de relance. La première fois qu’une relance est créée pour un client, le paramétrage utilisé est celui du niveau 1. Lorsque la relance est émise, le numéro du niveau est enregistré dans les écritures relance qui sont créées et associées à l’écriture comptable client spécifique. S’il est nécessaire de relancer le client, toutes les écritures comptables relance associées aux écritures comptables client ouvertes sont vérifiées afin de localiser le numéro de niveau le plus élevé. Les conditions du niveau suivant seront alors utilisées pour la nouvelle relance.
 
-Si vous créez plus de relances qu’il n’y a de niveaux relance, les conditions utilisées seront celles du niveau le plus élevé. Vous pouvez utiliser autant de relances que le champ **Nombre max. de relances** des conditions relance le permet.
+Si vous créez plus de relances qu'il n'y a de niveaux relance, les conditions utilisées seront celles du niveau le plus élevé. Vous pouvez utiliser autant de relances que le champ **Nombre max. de relances** des conditions relance le permet.
 
 ### Pour configurer des niveaux de relance
 
@@ -91,8 +91,6 @@ Si vous créez plus de relances qu’il n’y a de niveaux relance, les conditio
     > La date d’échéance est calculée selon la formule de date que vous saisissez. Pour plus d’informations, voir [Utiliser des formules date](ui-enter-date-ranges.md#use-date-formulas).
 
 Si vous avez configuré les conditions relance (avec des niveaux et du texte supplémentaires), saisissez l’un des codes sur chaque fiche client. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).  
-
-## Voir la [formation Microsoft](/training/modules/send-reminders-dynamics-365-business-central/) associée
 
 ## Voir aussi
 

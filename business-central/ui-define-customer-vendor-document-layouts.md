@@ -45,8 +45,6 @@ Pour gagner du temps lorsque vous envoyez des documents aux contacts des clients
 1. Sur la page **Présentations document**, sur la ligne d’une présentation de rapport que vous souhaitez envoyer à un contact spécifique pour le client, choisissez l’action **Sélectionner une adresse e-mail dans Contacts**.
 2. Sur la page **Contacts**, sélectionnez un ou plusieurs contacts, puis choisissez **OK**.
 
-## Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Mettre à jour les présentations d’état personnalisées](ui-update-report-layouts.md)  

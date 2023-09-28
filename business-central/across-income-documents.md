@@ -55,9 +55,7 @@ Le processus de document entrant est composé des activités principales suivant
 | Utilisez un service OCR pour convertir les fichiers PDF et image en documents électroniques qui peuvent être convertis en factures achat dans [!INCLUDE[prod_short](includes/prod_short.md)], par exemple. Former le service OCR à éviter les erreurs la prochaine fois qu’il traite des données similaires. |[Utiliser un service OCR pour convertir des fichiers PDF et image en documents électroniques](across-how-use-ocr-pdf-images-files.md) |
 | Connecter ou supprimer des enregistrements document entrant pour n’importe quel document vente ou achat non validé et à tout client, fournisseur ou écriture comptable à partir du document ou de l’écriture. |[Créer des enregistrements document entrant directement à partir de documents et d’écritures](across-how-connect-disconnect-income-document-records.md) |
 | Depuis les pages **Plan comptable** et **Écritures comptables**, utiliser la fonction de recherche pour rechercher les écritures comptables pour des documents validés qui n’ont pas d’enregistrement de document entrant, puis les lier de façon centralisée à des enregistrements existants ou en créer de nouveaux avec des fichiers joints. |[Rechercher des enregistrements validés sans enregistrements document entrant](across-how-find-posted-documents-without-income-document-records.md) |
-| Obtenir une meilleure vue d’ensemble en définissant les enregistrements de document entrant sur *Traité* afin de les supprimer de la vue par défaut. |[Gérer de nombreux enregistrements document entrant](across-how-manage-many-income-document-records.md) |
-
-## Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
+| Obtenir une meilleure vue d’ensemble en définissant les enregistrements de document entrant sur *Traité* afin de les supprimer de la vue par défaut. |[Gestion de nombreux enregistrements document entrant](across-how-manage-many-income-document-records.md) |
 
 ## Voir aussi
 

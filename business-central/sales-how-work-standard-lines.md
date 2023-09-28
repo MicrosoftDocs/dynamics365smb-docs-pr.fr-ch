@@ -70,13 +70,11 @@ Vous pouvez utiliser le traitement par lots **Créer des factures vente récurre
 
 Les factures vente sont créées pour les clients ayant le code vente client standard spécifié, et toute information de prélèvement automatique spécifiée, pour la validation à la date spécifiée.
 
-## Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Configuration des ventes](sales-setup-sales.md)  
-[Créer des lignes achat récurrentes](purchasing-how-work-recurring-purchase-lines.md)  
+[Création des lignes achat récurrentes](purchasing-how-work-recurring-purchase-lines.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

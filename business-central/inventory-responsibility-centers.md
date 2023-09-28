@@ -17,7 +17,7 @@ Les centres de gestion permettent de gérer les centres administratifs. Un centr
 
 L’utilisation de plusieurs magasins avec des centres de gestion permet de gérer les activités commerciales de façon flexible et optimale.
 
-Des magasins multiples permettent aux sociétés de gérer leur stock dans plusieurs magasins au moyen d’une seule base de données. Deux concepts, des magasins et des points de stock, sont les pierres angulaires du granule. Un magasin est défini comme un lieu qui gère l’emplacement physique et la quantité des articles. Le concept est assez étendu pour inclure des magasins tels que les usines ou les unités de fabrication et les centres de distribution, les entrepôts, les magasins d’exposition et les véhicules de service. Un point de stock est défini comme un article d’un magasin spécifique et/ou comme une variante. Grâce aux points de stock, les sociétés utilisant plusieurs magasins peuvent ajouter des informations de réapprovisionnement, des adresses et des informations financières de validation au niveau du magasin. Elles peuvent ainsi réapprovisionner les variantes du même article dans chaque magasin et commander des articles pour chaque magasin d’après les informations de réapprovisionnement spécifiques du magasin.  
+Des magasins multiples permettent aux sociétés de gérer leur stock dans plusieurs magasins au moyen d’une seule base de données. Deux concepts, des magasins et des points de stock, sont les pierres angulaires du granule. Un magasin est défini comme un lieu qui gère l’emplacement physique et la quantité des articles. Le concept est assez étendu pour inclure des magasins tels que les usines ou les unités de fabrication et les centres de distribution, les entrepôts, les magasins d'exposition et les véhicules de service. Un point de stock est défini comme un article d'un magasin spécifique et/ou comme une variante. Grâce aux points de stock, les sociétés utilisant plusieurs magasins peuvent ajouter des informations de réapprovisionnement, des adresses et des informations financières de validation au niveau du magasin. Elles peuvent ainsi réapprovisionner les variantes du même article dans chaque magasin et commander des articles pour chaque magasin d’après les informations de réapprovisionnement spécifiques du magasin.  
 
 ## Pour configurer un centre de gestion
 
@@ -41,15 +41,13 @@ Vous pouvez configurer des utilisateurs de sorte que [!INCLUDE [prod_short](incl
 Pour configurer cela, vous devez affecter des centres de gestion à des utilisateurs dans trois modules : Achats, Ventes et Gestion des services.  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres utilisateur**, puis choisissez le lien associé.  
-2. Sur la page **Paramètres utilisateur**, sélectionnez l’utilisateur auquel vous souhaitez affecter un centre de gestion. Si l’utilisateur ne figure pas dans la liste, saisissez un code utilisateur dans le champ **Code utilisateur**.  
+2. Sur la page **Paramètres utilisateur**, sélectionnez l’utilisateur auquel vous souhaitez affecter un centre de gestion. Si l'utilisateur ne figure pas dans la liste, saisissez un code utilisateur dans le champ **Code utilisateur**.  
 3. Dans le champ **Filtre centre gestion vente**, indiquez le centre de gestion dans lequel l’utilisateur aura des tâches liées aux ventes.  
 4. Dans le champ **Filtre centre gestion achat**, indiquez le centre de gestion dans lequel l’utilisateur aura des tâches liées aux achats.  
 5. Dans le champ **Filtre centre gestion service**, indiquez le centre de gestion dans lequel l’utilisateur aura des tâches liées à la gestion des services.  
 
 > [!NOTE]  
 > Les utilisateurs peuvent afficher uniquement les documents publiés liés à leur propre centre de responsabilité. Cependant, ils peuvent afficher toutes les écritures comptables et accéder à d’autres documents validés à partir des écritures comptables.
-
-## Voir la [formation Microsoft](/training/modules/set-up-responsibility-centers/) associée
 
 ## Voir aussi
 

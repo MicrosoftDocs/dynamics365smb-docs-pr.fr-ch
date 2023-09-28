@@ -27,8 +27,6 @@ Vous pouvez saisir toutes les données pertinentes sur la page **Informations so
 
 Une fois que vous avez terminé de remplir les informations, vous pouvez fermer la page.  
 
-## Voir la [formation Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) associée
-
 ## Voir aussi  
 
 [Présentation des informations sur la société](admin-company-information.md)  

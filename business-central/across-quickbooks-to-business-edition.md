@@ -31,8 +31,6 @@ Pour plus d’informations sur l’extension correspondant à votre application 
 
 Si vous êtes prêt à commencer maintenant, choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration assistée**, puis choisissez le lien associé. Choisissez **Migrer des données métier**, puis suivez les étapes du guide.
 
-## Voir la [formation Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  

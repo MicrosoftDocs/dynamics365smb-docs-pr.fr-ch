@@ -275,8 +275,6 @@ Règles de lettrage normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.
 
-## Voir la [formation Microsoft](/training/modules/enter-payments-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Finances](finance.md)  

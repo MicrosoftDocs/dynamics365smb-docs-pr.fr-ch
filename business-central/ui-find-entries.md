@@ -11,7 +11,7 @@ ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
 ---
-# <a name="finding-related-entries-for-documents"></a>Rechercher les écritures associées aux documents
+# Rechercher les écritures associées aux documents
 
 Découvrez comment rechercher des documents et des écritures qui sont associés entre eux en fonction d’informations communes, notamment :
 
@@ -21,7 +21,7 @@ Découvrez comment rechercher des documents et des écritures qui sont associés
 
 Cette fonctionnalité est très utile pour rechercher les écritures comptables qui résultent de certaines transactions. Lors de la recherche par numéro de document, vous pouvez imprimer la synthèse à partir du rapport **Écritures de documents**.
 
-## <a name="get-started"></a>Mise en route
+## Mise en route
 
 La fonction de recherche d’écritures est facilement disponible à partir de presque toutes les pages en appuyant sur les touches <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>. À partir des pages qui affichent spécifiquement les documents validés ou les écritures validées&mdash;pour les listes et les cartes&mdash;, vous pouvez également ouvrir la fonctionnalité en sélectionnant l’action **Rechercher des écritures**.
 
@@ -31,7 +31,7 @@ La page **Rechercher des écritures** inclut l’ensemble des écritures et docu
 - La section du milieu affiche les documents associés en fonction de la recherche.
 - La section inférieure affiche des informations sur le document source qui a été trouvé lors de la recherche.
 
-## <a name="search-for-entries"></a>Rechercher des écritures
+## Rechercher des écritures
 
 Vous pouvez rechercher des écritures en fonction des informations relatives au document, au contact professionnel ou à la référence d’article. Dans la section supérieure, sélectionnez l’une des options suivantes en fonction du type d’informations dont vous disposez :
 
@@ -46,12 +46,10 @@ Après avoir fait un choix, entrez les informations de recherche pertinentes dan
 > [!TIP]
 > Pour des exemples d’utilisation de **Rechercher des écritures**, voir [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md) et [Guide pas-à-pas : Suivi des numéros de série/lot](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) associée
+## Voir aussi
 
-## <a name="see-also"></a>Voir aussi
-
-[Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
-[Rechercher des enregistrements validés sans enregistrements document entrant](across-how-find-posted-documents-without-income-document-records.md)  
+[Traçabilité – Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
+[Recherche des documents validés sans enregistrements de document entrant](across-how-find-posted-documents-without-income-document-records.md)  
 [Accessibilité et raccourcis clavier](ui-accessibility.md)  
 [Utiliser Business Central](ui-work-product.md)  
 [Ajouter une action de page à votre Tableau de bord](ui-bookmarks.md)  

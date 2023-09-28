@@ -88,8 +88,6 @@ Les sections suivantes décrivent comment configurer des feuilles de temps si vo
 > [!NOTE]  
 > Vous ne pouvez pas modifier l’ID de l’approbateur de feuille de temps s’il existe des feuilles de temps qui n’ont pas encore été traitées et dont le statut est **Soumis** ou **En cours**.
 
-## Voir la [formation Microsoft](/training/paths/set-up-jobs-resources/) associée
-
 ## Voir aussi
 
 [Utiliser des feuilles de temps pour des projets](projects-how-use-time-sheets.md)  

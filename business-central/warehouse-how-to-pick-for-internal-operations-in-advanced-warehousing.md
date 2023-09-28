@@ -167,13 +167,11 @@ La figure ci-après indique la date à laquelle le champ **Code emplacement** de
 
 :::image type="content" source="media/binflow.png" alt-text="Aperçu de quand et comment le champ Code emplacement est renseigné.":::
 
-## Voir la [formation Microsoft](/training/paths/pick-ship-items-business-central/) associée
-
 ## Voir aussi
 
 [Stock](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
-[Gestion des assemblages](assembly-assemble-items.md)  
+[Gestion nomenclature d’assemblage](assembly-assemble-items.md)  
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

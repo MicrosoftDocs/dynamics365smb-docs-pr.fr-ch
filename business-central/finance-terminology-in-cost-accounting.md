@@ -1,7 +1,7 @@
 ---
 title: Terminologie en comptabilité analytique
 description: 'Cette rubrique définit les termes clés utilisés dans la comptabilité analytique, tels que la clé de répartition et la source de répartition.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Terminologie en comptabilité analytique
 
@@ -42,8 +42,6 @@ Cette rubrique définit les conditions principales qui sont utilisés en comptab
 |Pondération de clé de répartition|Les coûts sont affectés en fonction des clés de ventilation, qui peuvent être modifiées à l’aide d’un multiplicateur. <br />Par exemple, deux départements, comptant respectivement 20 et 10 salariés, partagent les coûts pour la cantine. Les coûts sont répartis entre les départements à l’aide d’une clé de ventilation qui représente le nombre de salariés se restaurant dans la cantine. Dans le premier département, seuls 5 salariés mangent à la cantine. Ainsi, le département a un multiplicateur de 0,25 %. La base de la ventilation est 20 x 0,25 = 5. Le nombre total de salariés mangeant à la cantine s’élève à 15. Un tiers des coûts sont affectés au premier département, et deux tiers sont affectés au second département.|  
 |Coût variable|Les coûts variables sont des frais qui varient proportionnellement à l’activité d’une société. Les coûts variables représentent la somme de coûts marginaux dans toutes les unités produites. Les coûts fixes et les coûts variables constituent les deux composants des coûts totaux.|  
 |Variante|Une variante est utilisée comme un libellé facultatif et défini par l’utilisateur pour les affectations. Son objectif consiste à filtrer les groupes d’affectation.|  
-
-## Voir la [formation Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) associée
 
 ## Voir aussi
 

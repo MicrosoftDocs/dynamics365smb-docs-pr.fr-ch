@@ -111,8 +111,6 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## Voir la [formation Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) associée
-
 ## Voir aussi
 
 [Gestion des présentations d’état](ui-manage-report-layouts.md)  

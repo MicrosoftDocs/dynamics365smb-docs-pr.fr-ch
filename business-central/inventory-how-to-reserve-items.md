@@ -101,8 +101,6 @@ La procédure suivante se base sur une commande vente.
 7. Cliquez sur le bouton **OK** pour ouvrir une page **Réservation** affichant uniquement l’approvisionnement portant le numéro de traçabilité spécifié. S’il y a des réservations non spécifiques sur l’un des numéros traçabilité que vous avez spécifiés pour cette ligne, vous êtes informé que la quantité a déjà été réservée.  
 8. Sélectionnez l’action **Réservation automatique** ou **Réserver à partir de la ligne courante** pour créer la réservation sur les numéros traçabilité spécifiques.
 
-## Voir la [formation Microsoft](/training/modules/manage-outbound-serial-lot-numbers/) associée
-
 ## Voir aussi
 
 [Stock](inventory-manage-inventory.md)  

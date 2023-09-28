@@ -81,7 +81,7 @@ Pour gérer les devises qui n’utilisent pas de décimales et pour éviter l’
 
 Ces fonctions peuvent fonctionner indépendamment ou conjointement. En outre, les fonctions peuvent fonctionner avec l’arrondi facture.
 
-Contrairement aux fonctions arrondi facture, les fonctions arrondi montant et arrondi montant unité affectent uniquement les comptes en devise étrangère et non les montants correspondants en devise locale. Elles n’entraînent pas de validation dans les comptes généraux. C’est pourquoi aucun compte général ne doit être spécifié dans les groupes comptabilisation ou dans d’autres emplacements.
+Contrairement aux fonctions arrondi facture, les fonctions arrondi montant et arrondi montant unité affectent uniquement les comptes en devise étrangère et non les montants correspondants en devise locale. Elles n'entraînent pas de validation dans les comptes généraux. C’est pourquoi aucun compte général ne doit être spécifié dans les groupes comptabilisation ou dans d’autres emplacements.
 
 ### Arrondi montant unité
 
@@ -103,15 +103,13 @@ Vous pouvez conserver les taux de change historiques sur la page **Taux de chang
 
 ## Comptes généraux
 
-Vous ne pouvez pas associer de codes devise aux comptes généraux car les montants de ces derniers sont en devise locale. Si vous disposez d’un prêt bancaire en USD et placez des acomptes dans un compte bancaire en SEK, vous pouvez suivre ces comptes en configurant les comptes bancaires en USD et SEK. Avec les groupes comptabilisation, vous pouvez associer les comptes aux comptes généraux appropriés. Dans la comptabilité, la valeur des montants est indiquée en devise locale (DS).
+Vous ne pouvez pas associer de codes devise aux comptes généraux car les montants de ces derniers sont en devise locale. Si vous disposez d'un prêt bancaire en USD et placez des acomptes dans un compte bancaire en SEK, vous pouvez suivre ces comptes en configurant les comptes bancaires en USD et SEK. Avec les groupes comptabilisation, vous pouvez associer les comptes aux comptes généraux appropriés. Dans la comptabilité, la valeur des montants est indiquée en devise locale (DS).
 
-Vous pouvez entrer un code devise sur une ligne feuille comptabilité et valider celle-ci dans un compte général. Le taux de change adéquat permet de convertir le montant en devise locale (DS) avant sa validation dans le compte général.  
+Vous pouvez entrer un code devise sur une ligne feuille comptabilité et valider celle-ci dans un compte général. Le taux de change adéquat permet de convertir le montant en devise société (DS) avant sa validation dans le compte général.  
 
 ## Exemple de transaction en devise comptabilité
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
-
-## Voir la [formation Microsoft](/training/modules/currencies-exchange-rates-dynamics-365-business-central/) associée
 
 ## Voir aussi
 

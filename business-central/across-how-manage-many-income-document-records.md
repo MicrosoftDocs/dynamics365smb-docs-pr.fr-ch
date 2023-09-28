@@ -47,8 +47,6 @@ Tous les enregistrements de documents entrants sont affichés, y compris les enr
 > [!NOTE]  
 > Vous pouvez également effectuer cette action pour un enregistrement spécifique sur la page **Fiche document entrant**.
 
-## Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
-
 ## Voir aussi
   
 [Créer des enregistrements document entrant](across-how-create-income-document-records.md)

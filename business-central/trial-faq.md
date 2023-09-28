@@ -44,8 +44,6 @@ Passez à l’essai de 30 jours, puis ajoutez vos propres données. Pour plus d
 
 Vous ne pouvez pas. Si vous supprimez accidentellement des exemples de données, demandez à votre administrateur de créer un nouvel environnement sandbox. Pour plus d’informations, voir [Environnements de production et sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types) dans le contenu pour administrateurs (en anglais uniquement).  
 
-## Voir la [formation Microsoft](/training/modules/trial-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [S’inscrire à un essai gratuit de Dynamics 365 Business Central](trial-signup.md)  

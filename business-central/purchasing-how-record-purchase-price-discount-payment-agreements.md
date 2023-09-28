@@ -139,8 +139,6 @@ Le meilleur prix est le prix le plus bas autorisé associé à la remise de lign
 
 Si aucun prix spécial ne peut être calculé pour l’article de la ligne, alors soit le coût unitaire direct, soit le prix unitaire à partir de la fiche article est inséré.
 
-## Voir la [formation Microsoft](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index) associée
-
 ## Voir aussi
 
 [Définition des achats](purchasing-setup-purchasing.md)  

@@ -1,14 +1,14 @@
 ---
 title: Configurer des modèles rangement
 description: Utilisez des modèles de rangement pour que les emplacements les plus appropriés pour vos articles vous soient suggérés à tout moment.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '7312, 7313, 7314, 7321, 7322, 7323, 7329'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Configurer des modèles rangement
 
@@ -30,8 +30,6 @@ Vous pouvez configurer un certain nombre de modèles rangement et en sélectionn
 8. Sur la dernière ligne du modèle rangement, cochez la case **Rechercher empl. Dynamique**.  
 
 Vous pouvez créer plusieurs modèles rangement et les appliquer comme vous le souhaitez. On se réfère d’abord au modèle rangement sélectionné éventuel pour l’article ou le point de stock. Si ces champs ne sont pas renseignés, alors le modèle rangement sélectionné pour l’entrepôt sur le raccourci **Config. emplacement** de la fiche magasin sera utilisé.  
-
-## Voir la [formation Microsoft](/training/modules/put-away-templates/) associée
 
 ## Voir aussi
 

@@ -15,7 +15,7 @@ ms.author: bholtorf
 
 Les frais de maintenance sont des coûts périodiques de routine engagés pour préserver la valeur des immobilisations. Contrairement aux améliorations de capital, ils n’augmentent pas les valeurs.
 
-Vous pouvez enregistrer et mettre à jour un fichier sur la maintenance et l’entretien des immobilisations afin d’accéder facilement aux enregistrements de maintenance complets des immobilisations. Chaque fois qu’une immobilisation est envoyée en réparation, vous enregistrez toutes les informations importantes, par exemple la date de réparation, le numéro du fournisseur et le numéro de téléphone de l’intervenant. La saisie de la maintenance est effectuée pour chaque immobilisation à partir de la fiche immobilisation.
+Vous pouvez enregistrer et mettre à jour un fichier sur la maintenance et l’entretien des immobilisations afin d’accéder facilement aux enregistrements de maintenance complets des immobilisations. Chaque fois qu'une immobilisation est envoyée en réparation, vous enregistrez toutes les informations importantes, par exemple la date de réparation, le numéro du fournisseur et le numéro de téléphone de l'intervenant. La saisie de la maintenance est effectuée pour chaque immobilisation à partir de la fiche immobilisation.
 
 L’actualisation permet d’ajuster des valeurs en fonction de modifications générales de niveau de prix. Le traitement par lots **Réévaluer immobilisations** permet de recalculer les coûts de maintenance.
 
@@ -84,11 +84,9 @@ Dans l’état **Maintenance - Détails**, vous pouvez afficher ou imprimer les 
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.
 
-## Voir la [formation Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/) associée
-
 ## Voir aussi
 
-[COMPTES D’IMMOBILISATIONS](fa-manage.md)  
+[Immobilisations](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  

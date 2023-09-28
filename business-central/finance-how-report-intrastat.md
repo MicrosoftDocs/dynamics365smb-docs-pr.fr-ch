@@ -134,8 +134,6 @@ Lorsque vous activez cette option, le système utilise les règles suivantes, ma
 | Pays hors UE | Pays de l’UE différent du pays indiqué dans les **Informations société** | Aucune ligne d’échanges de biens |
 | Pays hors UE | Pays hors UE | Aucune ligne d’échanges de biens |   
 
-## Voir la formation associée sur [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Voir aussi
 
 [Configuration de la déclaration d’échanges de biens](finance-how-setup-report-intrastat.md)  

@@ -79,13 +79,11 @@ Les comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)] enregi
    Le champ est différent du champ **Numéro de compte bancaire** également disponible dans le raccourci **Général**.
 4. Sur la page **Fiche compte bancaire**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Voir la formation associée sur [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
-
 ## Voir aussi
 
-[Configurer le plan comptable](finance-setup-chart-accounts.md)  
-[Configurer des comptes bancaires](bank-how-setup-bank-accounts.md)  
-[Exécuter et imprimer des états](ui-work-report.md)  
+[Configuration du plan comptable](finance-setup-chart-accounts.md)  
+[Configuration des comptes bancaires](bank-how-setup-bank-accounts.md)  
+[Exécution et impression des états](ui-work-report.md)  
 [Démarrage rapide de Business Central](quick-start-business-central.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

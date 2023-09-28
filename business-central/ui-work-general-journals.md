@@ -224,12 +224,10 @@ La procédure suivante est basée sur la page **Feuille comptabilité**, mais s�
 
 Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, pour que le numéro de document sur les lignes feuille individuelles ou groupées soit dans un ordre séquentiel. Une fois que les documents sont renumérotés, vous pouvez procéder à la validation de la feuille.
 
-## Voir la [formation Microsoft](/training/paths/use-journals-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
-[Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
-[Inverser des validations feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
+[Validation directe des transactions en comptabilité.](finance-how-post-transactions-directly.md)  
+[Contrepassation d’une validation feuille et annulation des réceptions/envois](finance-how-reverse-journal-posting.md)  
 [Répartition des coûts et du revenu](year-allocate-costs-income.md)  
 [Finances](finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

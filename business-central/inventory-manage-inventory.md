@@ -53,9 +53,7 @@ Le tableau suivant présente les tâches associées.
 |Configurer la désignation d’un article propre à un fournisseur ou à un client sur votre fiche article, afin de pouvoir insérer rapidement leur désignation de l’article dans les documents commerciaux.|[Utiliser références article](inventory-how-use-item-cross-refs.md)|
 |Bloquez des article pour la saisie dans des lignes de vente ou d’achat, ou pour la validation dans n’importe quelle transaction.|[Bloquer les articles](inventory-how-block-items.md)|
 |Gérer les opérations commerciales dans les bureaux de vente, les départements d’achat ou les bureaux de planification d’usine pour plusieurs magasins.|[Utiliser les centres de gestion](inventory-responsibility-centers.md)|
-|Utilisez des ressources avec des fonctions spécifiques pour divers services et éléments de service.|[Configurer l’affectation des ressources](service-how-setup-resource-allocation.md)|
-
-## Voir la [formation Microsoft](/training/paths/get-started-inventory-management/) associée
+|Utilisez des ressources avec des fonctions spécifiques pour divers services et éléments de service.|[Configuration de l’affectation des ressources](service-how-setup-resource-allocation.md)|
 
 ## Voir aussi
 

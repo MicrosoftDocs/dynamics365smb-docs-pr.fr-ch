@@ -72,13 +72,11 @@ Lorsque le fournisseur a expédié les articles, vous pouvez valider la commande
 4. Sélectionnez l’action **Valider** ou **Valider et envoyer**.
 5. Sélectionnez l’option **Livrer** pour facturer ultérieurement ou l’option **Livrer et facturer** pour facturer immédiatement.
 
-## Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
-[Créer des commandes spéciales](sales-how-to-create-special-orders.md)  
-[Acheter des articles pour une vente](purchasing-how-purchase-products-sale.md)  
-[Vendre des produits](sales-how-sell-products.md)  
+[Création des commandes spéciales](sales-how-to-create-special-orders.md)  
+[Achat des articles pour une vente](purchasing-how-purchase-products-sale.md)  
+[Vente des produits](sales-how-sell-products.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
 [Ventes](sales-manage-sales.md)  
 [Stock](inventory-manage-inventory.md)  

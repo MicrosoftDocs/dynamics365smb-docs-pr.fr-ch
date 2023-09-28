@@ -120,8 +120,6 @@ La page **Correction des données OCR**, que vous ouvrez à partir de la page **
 
 Les champs du raccourci **Informations financières** de la page **Document entrant** sont mis à jour avec les nouvelles valeurs que vous avez entrées à l’étape 4.
 
-## Voir la [formation Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Créer des enregistrements document entrant](across-how-create-income-document-records.md)

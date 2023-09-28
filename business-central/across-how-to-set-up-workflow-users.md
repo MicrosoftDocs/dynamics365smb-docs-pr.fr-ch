@@ -34,8 +34,6 @@ Sur la page  **Groupes d’utilisateurs du flux de travail**, vous pouvez spéci
 
 6. Répétez l’étape 5 pour ajouter des utilisateurs de flux de travail dans le groupe d’utilisateurs de flux de travail.  
 
-## Voir la [formation Microsoft](/training/modules/create-workflows/) associée
-
 ## Voir aussi
 
 [Configuration des utilisateurs des approbations](across-how-to-set-up-approval-users.md)  

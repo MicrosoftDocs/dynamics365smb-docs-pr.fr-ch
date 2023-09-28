@@ -62,13 +62,11 @@ Vous pouvez supprimer des personnalisations de page individuelles effectuées po
 
 La disposition sur les pages sélectionnées reflète désormais les modifications que vous avez apportées.
 
-## Voir la [formation Microsoft](/training/paths/tailor-roles-design-ui/) associée
-
 ## Voir aussi
 
-[Personnaliser votre espace de travail](ui-personalization-user.md)  
-[Gérer les profils](admin-users-profiles-roles.md)  
-[Modifier les paramètres de base](ui-change-basic-settings.md)  
+[Personnalisation de votre espace de travail](ui-personalization-user.md)  
+[Gestion des profils](admin-users-profiles-roles.md)  
+[Modification des paramètres de base](ui-change-basic-settings.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

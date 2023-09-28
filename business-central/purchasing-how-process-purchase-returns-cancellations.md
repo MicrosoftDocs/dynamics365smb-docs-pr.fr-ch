@@ -127,7 +127,7 @@ L’avoir achat est supprimé et remplacé par un nouveau document dans la liste
 
 ## Pour créer une commande achat de remplacement à partir d’un retour achat ouvert
 
-Vous pouvez vous accorder avec le fournisseur pour qu’il compense l’achat d’un article en remplaçant cet article. L’article de remplacement peut être identique à l’article d’origine ou il peut être différent. Le fournisseur peut vous avoir livré par erreur le mauvais article.  
+Vous pouvez vous accorder avec le fournisseur pour qu’il compense l’achat d’un article en remplaçant cet article. L'article de remplacement peut être identique à l'article d'origine ou il peut être différent. Le fournisseur peut vous avoir livré par erreur le mauvais article.  
 
 1.  Sur la page **Retour achat** pour un processus de retour actif, sur une ligne vide, entrez une écriture négative pour l’article de remplacement en insérant un montant négatif dans le champ **Quantité**.  
 2. Sélectionnez l’action **Déplacer lignes négatives**.  
@@ -181,12 +181,10 @@ Lorsque des expéditions retour sont regroupées sur un avoir et validées, un a
 2. Renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.  
 3. Vous pouvez également supprimer chacun des retours achat manuellement.
 
-## Voir la [formation Microsoft](/training/paths/return-items-dynamics-365-business-central/) associée
-
 ## Voir aussi
 [Achats](purchasing-manage-purchasing.md)  
-[Enregistrer des achats](purchasing-how-record-purchases.md)  
-[Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Enregistrement des achats](purchasing-how-record-purchases.md)  
+[Correction ou annulation des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md)  
 

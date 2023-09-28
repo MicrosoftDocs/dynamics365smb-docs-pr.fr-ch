@@ -38,11 +38,9 @@ Vous pouvez également contacter l’[équipe commerciale [!INCLUDE[prod_short](
 
 Pour plus d’informations sur ce que vous pouvez faire avec [!INCLUDE [prod_short](includes/prod_short.md)], voir [Se préparer à faire des affaires](ui-get-ready-business.md) et [Fonctionnalité commerciale](across-business-functionality.md).  
 
-## Voir la [formation Microsoft](/training/modules/trial-dynamics-365-business-central/) associée
-
 ## Ressources supplémentaires
 
-- [Visitez notre vidéothèque](across-videos.md)  
+- [Visite de notre vidéothèque](across-videos.md)  
 - [FAQ sur l’essai](trial-faq.md)  
 - [Dépannage de l’inscription en self-service](ui-troubleshoot-self-signup.md)  
 - [Personnaliser votre espace de travail](ui-personalization-user.md)  

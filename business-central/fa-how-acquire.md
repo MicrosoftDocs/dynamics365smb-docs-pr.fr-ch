@@ -99,8 +99,6 @@ Vous pouvez valider la valeur résiduelle avec le coût d’acquisition à parti
 > [!NOTE]
 > S’il existe une valeur résiduelle pour une immobilisation, celle-ci est utilisée dans la validation de l’amortissement au lieu de la valeur dans le champ **Valeur comptable finale** de la page **Lois d’amortissement immo**. Pour plus d’informations, voir [Pour gérer la valeur comptable finale](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## Voir la [formation Microsoft](/training/modules/purchase-fixed-assets/) associée
-
 ## Voir aussi
 
 [Immobilisations](fa-manage.md) 

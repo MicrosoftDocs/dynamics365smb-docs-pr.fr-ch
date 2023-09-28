@@ -60,12 +60,10 @@ Au lieu de visualiser les montants budgétés et réalisés de tous les comptes 
 3. Dans le raccourci **Options**, renseignez les champs nécessaires pour définir ce qui est affiché dans la table.  
 4. Dans le raccourci **Lignes**, survolez un champ de la table pour lire une brève description du montant affiché.  
 
-## Voir la formation associée sur [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
-
 ## Voir aussi
 
-[Décisionnel pour le secteur de la finance](bi.md)  
-[Utiliser les états financiers](bi-how-work-account-schedule.md)  
+[Business Intelligence financière](bi.md)  
+[Utilisation des états financiers](bi-how-work-account-schedule.md)  
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Comptabilité et plan comptable](finance-general-ledger.md)  

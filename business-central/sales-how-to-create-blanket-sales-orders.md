@@ -14,7 +14,7 @@ ms.author: bholtorf
 
 Une commande ouverte vente représente le cadre d’un accord à long terme entre votre client et vous. De même, vous utilisez des commandes cadre achat pour gérer les contrats à long terme entre vous et votre fournisseur.
 
-Une commande ouverte est généralement établie quand un client s’est engagé à acheter de grandes quantités à livrer en plusieurs expéditions de plus petite taille au cours d’une période déterminée. Souvent, les commandes ouvertes ne portent que sur un seul article avec des dates de livraison prédéterminées. La principale raison d’utiliser une commande ouverte plutôt qu’une commande vente est que les quantités entrées dans une commande ouverte n’affectent pas la disponibilité de l’article et peuvent donc être utilisées comme une feuille à des fins de surveillance, de précision et de planification.
+Une commande ouverte est généralement établie quand un client s’est engagé à acheter de grandes quantités à livrer en plusieurs expéditions de plus petite taille au cours d’une période déterminée. Souvent, les commandes ouvertes ne portent que sur un seul article avec des dates de livraison prédéterminées. La principale raison d'utiliser une commande ouverte plutôt qu'une commande vente est que les quantités entrées dans une commande ouverte n'affectent pas la disponibilité de l'article et peuvent donc être utilisées comme une feuille à des fins de surveillance, de précision et de planification.
 
 Sur la commande ouverte, vous pouvez configurer chaque expédition comme une ligne commande distincte qui peut ensuite être convertie en commande vente au moment de l’expédition.
 
@@ -41,8 +41,8 @@ Vous pouvez utiliser une commande ouverte vente, par exemple, lorsqu’un client
 
 Ce qui suit s’applique aux commandes vente après leur création à partir de commandes vente ouvertes :  
 
-- Une fois la commande ouverte convertie en commande vente, celle-ci contient toutes les lignes de la commande ouverte. Les lignes où la quantité figurant dans le champ **Qté à expédier** a été supprimée s’affichent mais avec les champs **Quantité** vides. Vous pouvez décider de laisser, de modifier ou de supprimer les lignes.  
-- N’oubliez pas que la quantité de la ligne commande vente ne peut pas dépasser celle de la ligne commande ouverte associée. Sinon, la validation de la commande vente est impossible.  
+- Une fois la commande ouverte convertie en commande vente, celle-ci contient toutes les lignes de la commande ouverte. Les lignes où la quantité figurant dans le champ **Qté à expédier** a été supprimée s'affichent mais avec les champs **Quantité** vides. Vous pouvez décider de laisser, de modifier ou de supprimer les lignes.  
+- N'oubliez pas que la quantité de la ligne commande vente ne peut pas dépasser celle de la ligne commande ouverte associée. Sinon, la validation de la commande vente est impossible.  
 - Lorsque la commande vente est validée comme expédiée et/ou facturée, les champs **Qté expédiée** et **Quantité facturée** sont mis à jour sur la commande ouverte concernée.  
 - Le numéro de commande ouverte et un numéro de ligne sont enregistrés comme propriétés des lignes vente en cas de création à partir d’une commande ouverte.  
 - Si les commandes vente ne sont pas créées directement depuis la commande ouverte mais ont trait à celle\-ci, il est possible de créer un lien entre une commande vente et une commande ouverte en entrant le numéro de commande ouverte associé dans le champ **N° commande ouverte** sur la ligne de commande vente.  
@@ -89,12 +89,10 @@ Le lien entre la commande ouverte vente et la commande vente d’origine, et n�
 
 5. Sur la page **Lignes vente**, sélectionnez l’action **Afficher document** pour afficher l’écriture.
 
-## Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Ventes](sales-manage-sales.md)  
-[Création d’ordres d’assemblage permanents](assembly-how-to-create-blanket-assembly-orders.md)  
+[Création de commandes cadres d’assemblage](assembly-how-to-create-blanket-assembly-orders.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

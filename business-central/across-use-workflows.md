@@ -62,9 +62,7 @@ Avant de pouvoir commencer à utiliser des flux de travail, vous devez configure
 | Demander l’approbation d’une tâche, en tant qu’approbateur, accepter, décliner ou déléguer des approbations, et envoyer ou afficher des notifications d’approbation. | [Procédure : utilisation des flux d’approbation](across-how-use-approval-workflows.md) |
 | Créez des étapes de flux de travail qui limitent l’utilisation d’un certain type d’enregistrement avant qu’un certain événement ne se produise, par exemple que l’enregistrement est approuvé. | [Restreindre et autoriser l’utilisation d’un enregistrement](across-how-to-restrict-and-allow-usage-of-a-record.md) |
 | Affichez les instances d’étape de flux de travail dont le statut est **Terminé**. | [Afficher des instances d’étape de flux de travail archivées](across-how-to-view-archived-workflow-step-instances.md) |
-| Supprimez un flux de travail approbation que vous êtes sûr de ne plus utiliser. | [Suppression des flux d’approbation](across-how-to-delete-workflows.md) |
-
-## Voir la [formation Microsoft](/training/modules/create-workflows/) associée
+| Supprimez un flux de travail approbation que vous êtes sûr de ne plus utiliser. | [Suppression des flux de travail approbation](across-how-to-delete-workflows.md) |
 
 ## Voir aussi
 

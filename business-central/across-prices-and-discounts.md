@@ -199,8 +199,6 @@ Pour mettre à jour les prix de plusieurs articles, vous devez créer une nouvel
 
 Lorsque vous avez enregistré des prix spéciaux et des remises ligne pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] s’assure que votre marge pour l’article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article. Pour plus d’informations, voir [Calcul du meilleur prix](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## Voir la [formation Microsoft](/training/modules/customer-discounts-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Définition des ventes](sales-setup-sales.md)  

@@ -126,8 +126,6 @@ Quand quelque chose ne va pas, [!INCLUDE[prod_short](includes/prod_short.md)] af
 > [!NOTE]
 > La gestion des erreurs décrite ci-dessus n’est pas disponible sur les feuilles article, ressource, employé et immobilisation, ni pour les comptes de la comptabilité ajoutés dans des versions locales des groupes comptabilisation.
 
-## Voir la [formation Microsoft](/training/modules/posting-groups-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Comptabilité et plan comptable](finance-general-ledger.md)  

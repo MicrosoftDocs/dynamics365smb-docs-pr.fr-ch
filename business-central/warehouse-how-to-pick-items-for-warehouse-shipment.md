@@ -3,7 +3,7 @@ title: Prélever des articles pour l’expédition entrepôt
 description: Découvrez comment utiliser les documents de prélèvement entrepôt pour créer et traiter les informations de prélèvement avant de valider une expédition entrepôt.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -110,8 +110,6 @@ Vous ne pouvez pas créer un document de prélèvement en entrepôt à partir de
 4. Après avoir prélevé et placé les articles dans la zone ou l’emplacement d’expédition, choisissez l’action **Enregistrer prélèvement**.  
 
 Vous pouvez alors apporter les articles au quai de chargement et valider l’expédition, dont le document origine lié, sur la page **Expédition entrepôt**. Learn more at [Expédier des articles](warehouse-how-ship-items.md).
-
-## Voir la [formation Microsoft](/training/modules/pick-ship-items-warehouse/) associée
 
 ## Voir aussi
 

@@ -170,8 +170,6 @@ Dans de nombreux pays/régions, les autorités douanières et fiscales établiss
 
 Ajoutez tous les codes que vous utilisez dans la page **Nomenclatures produit**. Vous devez saisir les codes sur la fiche article avant de commencer à valider. Lorsque vous avez créé ces codes, saisissez-les dans le champ **Nomenclature produits** de la fiche article. Vous devez également renseigner le champ **Poids net** de la fiche article.
 
-## Voir la formation associée sur [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Voir aussi
 
 [Gestion financière](finance.md)

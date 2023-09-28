@@ -26,13 +26,11 @@ Si un fournisseur possède un ou plusieurs comptes bancaires et que vous souhait
 2. Ouvrez la fiche pour le fournisseur.
 3. Sur le raccourci **Paiements**, choisissez le compte bancaire fournisseur par défaut dans le champ **Code de compte bancaire préféré**.
 
-## Voir la [formation Microsoft](/training/modules/cash-management-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Définition des achats](purchasing-setup-purchasing.md)  
-[Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)  
-[Configurer des comptes bancaires](bank-how-setup-bank-accounts.md)  
+[Enregistrement des nouveaux fournisseurs](purchasing-how-register-new-vendors.md)  
+[Configuration des comptes bancaires](bank-how-setup-bank-accounts.md)  
 [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

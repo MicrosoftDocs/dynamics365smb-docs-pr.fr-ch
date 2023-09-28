@@ -88,8 +88,6 @@ Vous pouvez comparer la valeur du champ **Solde sur compte bancaire après valid
 > [!NOTE]  
 >   Si vous ne souhaitez pas rapprocher le compte bancaire à partir de la page **Feuille rapprochement bancaire**, vous devez utiliser la page **Rapprochement bancaire**. Pour plus d’informations, voir [Rapprocher des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).
 
-## Voir la [formation Microsoft](/training/modules/use-journals-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Gestion des comptes client](receivables-manage-receivables.md)  

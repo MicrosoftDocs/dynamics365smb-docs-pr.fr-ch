@@ -116,7 +116,7 @@ La section suivante explique comment activer les modifications manuelles de la T
 4. Modifiez le champ **Montant TVA**.   
 
 > [!NOTE]  
-> Le montant de TVA total de la facture et l’identifiant TVA s’affichent dans les lignes. Vous pouvez ajuster les montants manuellement dans le champ **Montant TVA** des lignes correspondant à chaque identifiant TVA. Lorsque vous modifiez la valeur du champ **Montant TVA**, l’application vérifie que vous n’avez pas modifié la TVA d’une valeur supérieure à celle du montant spécifié comme différence maximale autorisée. Si le montant se situe en dehors de la plage **Différence TVA max. autorisée**, un avertissement s’affiche, indiquant la différence maximale autorisée. Vous ne pouvez pas poursuivre tant que le montant n’est pas ajusté conformément aux paramètres acceptables. Cliquez sur **OK** , puis entrez un autre **Montant TVA** s’inscrivant dans la plage autorisée. Si la différence TVA est inférieure ou égale à la différence maximale autorisée, la TVA est répartie de façon proportionnelle entre les lignes document ayant le même identifiant TVA.  
+> Le montant de TVA total de la facture et l’identifiant TVA s’affichent dans les lignes. Vous pouvez ajuster les montants manuellement dans le champ **Montant TVA** des lignes correspondant à chaque identifiant TVA. Lorsque vous modifiez la valeur du champ **Montant TVA**, l’application vérifie que vous n’avez pas modifié la TVA d’une valeur supérieure à celle du montant spécifié comme différence maximale autorisée. Si le montant se situe en dehors de la plage **Différence TVA max. autorisée**, un avertissement s'affiche, indiquant la différence maximale autorisée. Vous ne pouvez pas poursuivre tant que le montant n'est pas ajusté conformément aux paramètres acceptables. Cliquez sur **OK** , puis entrez un autre **Montant TVA** s'inscrivant dans la plage autorisée. Si la différence TVA est inférieure ou égale à la différence maximale autorisée, la TVA est répartie de façon proportionnelle entre les lignes document ayant le même identifiant TVA.  
 
 ## Calcul manuel de la TVA à l’aide de feuilles  
 Vous pouvez également ajuster les montants TVA dans les feuilles comptabilité, vente et achat. Par exemple, vous devrez peut-être le faire lorsque vous entrez une facture fournisseur dans votre feuille et qu’il y a une différence entre le montant de TVA calculé par [!INCLUDE[prod_short](includes/prod_short.md)] et le montant de TVA figurant sur la facture que vous avez reçue du fournisseur.  
@@ -233,8 +233,6 @@ Pour afficher un groupe de certificats, vous commencez à partir de la page **Ce
 >
 > * Pour créer manuellement un certificat d’approvisionnement.  
 > * Pour imprimer un certificat d’approvisionnement.
-
-## Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
 
 ## Voir aussi
 

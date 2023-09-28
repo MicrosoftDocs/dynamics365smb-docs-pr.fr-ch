@@ -115,13 +115,11 @@ Lorsque votre entreprise utilise les processus de planification des approvisionn
 
 Pour des exemples d’utilisation des champs du raccourci **Planification**, voir [Configurer des recommandations : paramètres de planification](setup-best-practices-planning-parameters.md).  
 
-## Voir la [formation Microsoft](/training/modules/create-items/) associée
-
 ## Voir aussi
 
 [Stock](inventory-manage-inventory.md)  
-[Configuration d’unités](inventory-how-setup-units-of-measure.md)  
-[Gérer les variantes de produits](inventory-item-variants.md)  
+[Configuration des unités de mesure](inventory-how-setup-units-of-measure.md)  
+[Gestion des variantes de produits](inventory-item-variants.md)  
 [Paramétrer les états intracommunautaires](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Rapprocher l’évaluation stock avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Création des souches de numéros](ui-create-number-series.md)  

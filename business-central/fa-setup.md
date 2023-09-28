@@ -34,13 +34,11 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Activer l’assurance des immobilisations, configurer les informations générales d’assurance, une fiche assurance par police et préparer les feuilles pour valider les coûts d’assurance. |[Configurer une assurance immobilisation](fa-how-setup-insurance.md) |
 | Activer la maintenance des immobilisations, configurer les informations générales propres à la maintenance, configurer les comptes de validation de la maintenance et définir les types de travaux de maintenance. |[Configurer la maintenance d’une immobilisation](fa-how-setup-maintenance.md) |
 | En savoir plus sur les différentes méthodes d’amortissement des immobilisations. |[Méthodes d’amortissement](fa-depreciation-methods.md) |
-| Découvrez comment appliquer des méthodes d’amortissement paramétrables. |[Définir des méthodes d’amortissement paramétrables](fa-how-setup-user-defined-depreciation-method.md) |
-
-## Voir la [formation Microsoft](/training/paths/set-up-fixed-assets-management/) associée
+| Découvrez comment appliquer des méthodes d’amortissement paramétrables. |[Configuration des méthodes d’amortissement définies par l’utilisateur](fa-how-setup-user-defined-depreciation-method.md) |
 
 ## Voir aussi
 
-[COMPTES D’IMMOBILISATIONS](fa-manage.md)  
+[Immobilisations](fa-manage.md)  
 [Finances](finance.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

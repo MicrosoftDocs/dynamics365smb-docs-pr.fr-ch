@@ -64,11 +64,9 @@ R Le fichier d’état généré est automatiquement enregistré dans le dossier
 
 Pour en savoir plus sur la personnalisation des états et des documents en fonction des besoins de votre entreprise, rendez-vous sur [Présentations des états et des documents](ui-manage-report-layouts.md).
 
-## Voir la formation associée sur [Microsoft Learn](/learn/modules/work-with-reports/).
-
 ## Voir aussi
 
-[Utiliser les rapports dans le travail quotidien](reports-use-reports.md)  
+[Utilisation des rapports dans le travail quotidien](reports-use-reports.md)  
 [États disponibles dans [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 [Sélection d’état de document](across-report-selections.md)  
 [Démarrage rapide de Business Central](quick-start-business-central.md)  

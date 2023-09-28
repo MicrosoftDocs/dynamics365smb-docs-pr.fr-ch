@@ -11,7 +11,7 @@ ms.custom: bap-template
 ---
 # Tâches d’administration
 
-Les tâches d’administration centrale sont généralement effectuées par une fonction dans la société. La portée de ces tâches peut dépendre de la taille de la société et des responsabilités de l’administrateur. Ces tâches sont notamment la gestion de la synchronisation de la base de données des files projets et messages, la configuration des utilisateurs et la personnalisation de l’interface utilisateur.  
+Les tâches d’administration centrale sont généralement effectuées par une fonction dans la société. La portée de ces tâches peut dépendre de la taille de la société et des responsabilités de l'administrateur. Ces tâches sont notamment la gestion de la synchronisation de la base de données des files projets et messages, la configuration des utilisateurs et la personnalisation de l’interface utilisateur.  
 
 Il est important d’entrer des valeurs de configuration correctes dès le début pour garantir le succès de tout nouveau logiciel de gestion. [!INCLUDE[prod_short](includes/prod_short.md)] inclut plusieurs guides de configuration qui vous permettent de configurer les données de base. Pour plus d’informations, voir [Configuration de Business Central](setup.md).
 
@@ -53,8 +53,6 @@ Les administrateurs internes et délégués ont accès au centre d’administrat
 |Surveiller l’utilisation et dépanner les sessions|[Télémétrie des environnements dans le centre d’administration de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
 |Gérez les sessions utilisateur, y compris l’annulation d’une session si l’utilisateur est bloqué.|[Gérer des sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Configurer l’abonné pour envoyer les données de télémétrie à Azure Application Insights pour une meilleure analyse et résolution des problèmes.|[Activer l’envoi de télémétrie à Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
-
-## Voir la [formation Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) associée
 
 ## Voir aussi
 

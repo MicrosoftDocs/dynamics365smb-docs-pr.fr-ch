@@ -66,11 +66,9 @@ Vous pouvez regrouper plusieurs immobilisations en une, par exemple lorsque vous
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.  
 
-## Voir la [formation Microsoft](/training/paths/reclassify-fixed-assets/) associée
-
 ## Voir aussi
 
-[COMPTES D’IMMOBILISATIONS](fa-manage.md)  
+[Immobilisations](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  

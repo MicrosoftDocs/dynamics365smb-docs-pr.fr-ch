@@ -297,12 +297,10 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
  Ainsi se termine la procédure pas à pas sur l’utilisation de la page **Rechercher des écritures** pour la gestion des défauts en association avec la page **Traçabilité**.  
 
-## Voir la [formation Microsoft](/training/paths/use-serial-lot-numbers/) associée
-
 ## Voir aussi
 
 [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)  
-[Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
+[Traçabilité – Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
 [Rechercher des écritures](ui-find-entries.md)  
 [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
 

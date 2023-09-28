@@ -91,14 +91,12 @@ Les écritures comptables article et client associés sont à présent créés d
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Voir la [formation Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) associée.
-
 ## Voir aussi
 
-[Facturer des ventes](sales-how-invoice-sales.md)  
+[Facturation des ventes](sales-how-invoice-sales.md)  
 [Validation des ventes](ui-post-sales.md)  
-[Expédier des articles](warehouse-how-ship-items.md)  
-[Effectuer des livraisons directes](sales-how-drop-shipment.md)  
+[Expédition des articles](warehouse-how-ship-items.md)  
+[Réalisation de livraisons directes](sales-how-drop-shipment.md)  
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Imprimer la liste des prélèvements](sales-how-print-picking-list.md)  

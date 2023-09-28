@@ -72,8 +72,6 @@ Nous recommandons également d’exporter des données à partir des pages suiva
 
 Pour plus d’informations, voir [Pour afficher ou modifier les autorisations d’un utilisateur](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## Voir la [formation Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) associée
-
 ## Voir aussi
 [Annuler pour votre abonnement [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  

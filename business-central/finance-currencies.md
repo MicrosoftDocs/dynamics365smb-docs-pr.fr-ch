@@ -29,13 +29,11 @@ Vous spécifiez les codes devise dans la liste **Devises**, y compris les inform
 
 Les taux de change permettent de calculer la valeur en devise société (DS) de chaque transaction en devise. Pour plus d’informations, voir [Mettre à jour les taux de change devise](finance-how-update-currencies.md).  
 
-## Voir la [formation Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Configurer des devises](finance-set-up-currencies.md)  
-[Mettre à jour des taux de change devise](finance-how-update-currencies.md)  
-[Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md)  
+[Mise à jour des taux de change devise](finance-how-update-currencies.md)  
+[Configuration d’une devise report supplémentaire](finance-how-setup-additional-currencies.md)  
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

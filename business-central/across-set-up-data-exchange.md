@@ -31,9 +31,7 @@ Avant de pouvoir envoyer et recevoir des documents électroniques ou importer et
 |Une fois le service de relevés bancaires activé, lier les comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)]|[Configurer des comptes bancaires](bank-how-setup-bank-accounts.md)|  
 |Configurez l’exportation des données pour la déclaration Échanges intracommunautaires dans [!INCLUDE[prod_short](includes/prod_short.md)].|[Paramétrer les états intracommunautaires](finance-how-setup-report-intrastat.md)|
 |Préparer à configurer une nouvelle définition d’échange de données pour un fichier ou flux de données à l’aide du schéma XML du fichier pour préremplir le raccourci **Définitions de colonnes** de la page **Définitions échange comptabilité**.|[Utiliser des schémas XML pour préparer des définitions d’échange de données](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
-|Configurer l’infrastructure d’échange de données pour permettre aux utilisateurs de recevoir un nouveau format de documents achat, d’envoyer un nouveau format de documents vente, d’importer un nouveau fichier bancaire, ou autre échange de données.|[Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md)|  
-
-## Voir la [formation Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/) associée
+|Configurer l’infrastructure d’échange de données pour permettre aux utilisateurs de recevoir un nouveau format de documents achat, d’envoyer un nouveau format de documents vente, d’importer un nouveau fichier bancaire, ou autre échange de données.|[Configuration des définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md)|  
 
 ## Voir aussi
 

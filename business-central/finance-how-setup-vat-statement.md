@@ -39,11 +39,9 @@ Après avoir défini une déclaration de TVA, vous pouvez en afficher un aperçu
 4. Sur les lignes où le champ **Type** indique la valeur **TVA**, vous pouvez afficher la liste des écritures TVA en choisissant le montant figurant dans le champ **Montant colonne**.
 5. Vous pouvez utiliser la personnalisation pour afficher plus de champs dans les lignes. Par exemple, le montant de base sur encaissement prévu et le montant de TVA sur encaissement prévu, si vous utilisez la TVA sur encaissement.
 
-## Voir la [formation Microsoft](/training/paths/process-vat-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
-[Configuration de la TVA](finance-setup-vat.md)  
+[Configuration de la TVA (taxe sur la valeur ajoutée)](finance-setup-vat.md)  
 [Configuration de la TVA sur encaissement](finance-setup-unrealized-vat.md)  
 [Déclarer la TVA à une autorité fiscale](finance-how-report-vat.md)  
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  

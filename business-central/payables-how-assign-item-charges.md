@@ -95,13 +95,11 @@ Pour gérer le coût de l’article pour la réception partielle, sur le **Affec
 
 Lorsque vous êtes prêt à gérer l’article manquant, mettez à jour le champ **Quantité à traiter** et valider la commande.
 
-## Voir la [formation Microsoft](/training/modules/post-purchase-item-charges-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
-[Enregistrer des achats](purchasing-how-record-purchases.md)  
-[Facturer des ventes](sales-how-invoice-sales.md)  
+[Enregistrement des achats](purchasing-how-record-purchases.md)  
+[Facturation des ventes](sales-how-invoice-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

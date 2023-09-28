@@ -82,12 +82,10 @@ Vous pouvez choisir de ne pas afficher les alertes vous indiquant que le crédit
     |**Solde échu**|Le champ **Solde dû** de la fiche client est contrôlé et une alerte s’affiche si le client a un solde échu.|
     |**Aucune alerte**|Aucune alerte n’est affichée sur le statut du client.|
 
-## Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée.
-
 ## Voir aussi
 
 [Définition des modes de règlement](finance-payment-methods.md)  
-[Fusionner l’enregistrement des doublons](sales-how-merge-duplicate-records.md)  
+[Fusion des enregistrements en double](sales-how-merge-duplicate-records.md)  
 [Création des souches de numéros](ui-create-number-series.md)  
 [Activer les livraisons partielles avec avis d’expédition](sales-how-send-partial-shipments.md)  
 [Ventes](sales-manage-sales.md)  
