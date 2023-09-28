@@ -8,7 +8,7 @@ ms.date: 06/28/2021
 ms.author: bholtorf
 ---
 
-# Configurer un amortissement immobilisation
+# <a name="set-up-fixed-asset-depreciation"></a>Configurer un amortissement immobilisation
 
 Vous pouvez utiliser plusieurs méthodes d’amortissement pour préparer les états financiers et les déclarations de revenus. De nombreuses sociétés de grande taille utilisent la méthode de l'amortissement linéaire dans leurs états financiers car elle permet généralement la déclaration des bénéfices supérieurs. Aux fins de l’impôt sur le revenu, cependant, de nombreuses entreprises utilisent une méthode d’amortissement accélérée, comme l’amortissement dégressif. Vous définissez la méthode d’amortissement d’un actif avec le champ **Méthode d’amortissement** sur la page **Fiche immobilisation**. Pour plus d’informations sur les fonctions des différentes méthodes, consultez [Méthodes d’amortissement](fa-depreciation-methods.md).
 
@@ -16,7 +16,7 @@ Vous paramétrez des lois d’amortissement lorsque vous définissez les différ
 
 Lorsque vous avez créé les lois d’amortissement nécessaires, vous devez en attribuer au moins une à chaque immobilisation. La loi d’amortissement attribuée à une immobilisation est désignée comme loi d’amortissement immobilisation. Vous pouvez créer un nombre illimité de lois d’amortissement pour une immobilisation.  
 
-## Pour créer une loi d’amortissement
+## <a name="to-create-a-depreciation-book"></a>Pour créer une loi d’amortissement
 
 Dans une loi d’amortissement immobilisation, vous spécifiez comment les immobilisations sont amorties. Pour prendre en charge plusieurs méthodes d’amortissement, vous pouvez paramétrer plusieurs lois d’amortissement.  
 
@@ -34,7 +34,7 @@ Dans une loi d’amortissement immobilisation, vous spécifiez comment les immob
 
 Par exemple, si vous disposez d’une immobilisation dont les lois d’amortissement ne spécifient pas d’arrondi, mais que les paramètres comptabilité de votre entreprise nécessitent un arrondi, alors, lorsque vous cédez l’immobilisation, vous verrez un message d’erreur indiquant qu’un montant doit être arrondi sur une écriture comptable.  
 
-## Pour attribuer une loi d’amortissement à une immobilisation
+## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Pour attribuer une loi d’amortissement à une immobilisation
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Immobilisations**, puis choisissez le lien associé.
 2. Sélectionnez l’immobilisation pour laquelle vous souhaitez configurer une loi d’amortissement.
@@ -48,7 +48,7 @@ Par exemple, si vous disposez d’une immobilisation dont les lois d’amortisse
     > [!NOTE]  
     > Lorsque vous utilisez la méthode d’amortissement définie par l’utilisateur, vous devez affecter le livre d’amortissement d’une manière différente. Pour plus d’informations, consultez [Configurer la méthode d’amortissement définie par l’utilisateur](fa-how-setup-user-defined-depreciation-method.md).
 
-## Pour attribuer une loi d’amortissement à plusieurs immobilisations avec un traitement par lots
+## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Pour attribuer une loi d’amortissement à plusieurs immobilisations avec un traitement par lots
 
 Si vous voulez associer une loi d’amortissement à plusieurs immobilisations, vous pouvez utiliser le traitement par lots **Créer plans amortissement** pour créer des lois d’amortissement d’immobilisation.  
 
@@ -62,7 +62,7 @@ Si vous voulez associer une loi d’amortissement à plusieurs immobilisations, 
 6. Sur le raccourci **Immo.**, vous pouvez positionner un filtre afin de sélectionner les immobilisations pour lesquelles vous souhaitez créer des lois d’amortissement immobilisation.
 7. Cliquez sur le bouton **OK**.
 
-## Pour configurer les types de validation amortissement
+## <a name="to-set-up-depreciation-posting-types"></a>Pour configurer les types de validation amortissement
 
 Pour chaque loi d’amortissement, vous devez définir la manière dont vous souhaitez que [!INCLUDE[prod_short](includes/prod_short.md)] gère les différents types de validation. Par exemple, vous devez indiquer s’il s’agit d’un débit ou d’un crédit et si le type de validation doit être inclus dans la base d’amortissement.  
 
@@ -75,7 +75,7 @@ Pour chaque loi d’amortissement, vous devez définir la manière dont vous sou
 
 Il est recommandé de ne pas modifier les paramètres des lois d’amortissement pour lesquelles des écritures ont déjà été validées. Les modifications apportées n’ont pas d’incidence sur les écritures déjà validées, ce qui rendrait les statistiques des lois d’amortissement inexactes.
 
-## Pour configurer les modèles par défaut et les lots pour l’amortissement immobilisation
+## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Pour configurer les modèles par défaut et les lots pour l’amortissement immobilisation
 
 Pour chaque loi d’amortissement, vous définissez une configuration par défaut de modèles et de feuilles. Vous devez utiliser ces valeurs par défaut pour dupliquer les lignes d’une feuille vers une autre, créer des lignes feuille à l’aide du traitement par lots **Calculer amortissement** ou **Actualiser immobilisations**, dupliquer des coûts d’acquisition dans la feuille assurance.  
 
@@ -84,13 +84,13 @@ Pour chaque loi d’amortissement, vous définissez une configuration par défau
 3. Pour avoir une configuration par défaut pour chaque utilisateur, choisissez le champ **Code utilisateur** à sélectionner à partir de la page **Utilisateurs**.  
 4. Dans les autres champs, sélectionnez le modèle feuille ou la feuille qui doit être utilisé(e) par défaut.  
 
-## Amortissement via le champ Exercice fiscal 365 jours
+## <a name="fiscal-year-365-days-field-depreciation"></a>Amortissement via le champ Exercice fiscal 365 jours
 
 Lorsque le traitement par lots Calculer amortissement calcule les amortissements, il utilise normalement une année normalisée de 360 jours, dans laquelle chacun des 12 mois compte 30 jours.
 
 Si vous activez ce champ, le traitement par lots Calculer amortissement utilise l’année civile de 365 jours, où chaque mois est calculé avec le même nombre de jours que le calendrier. La seule exception est le mois de février des années bissextiles, que le traitement par lots traitera comme ayant 28 jours et non 29. Pour cette raison, toutes les années, également les années bissextiles, sont considérées comme ayant 365 jours.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Immobilisations](fa-manage.md)  
