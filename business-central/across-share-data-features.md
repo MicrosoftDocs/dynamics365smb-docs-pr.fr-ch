@@ -8,13 +8,13 @@ ms.search.keywords: null
 ms.date: 09/21/2022
 ms.author: jswymer
 ---
-# Partage de données métier à partir de Business Central
+# <a name="sharing-business-data-from-business-central"></a>Partage de données métier à partir de Business Central
 
 La collaboration entre les personnes à l’intérieur et à l’extérieur d’une organisation fait partie intégrante de la plupart des entreprises. [!INCLUDE[prod_short](includes/prod_short.md)] offre plusieurs fonctionnalités pour partager des données métier, comme une liste d’enregistrements, des enregistrements spécifiques ou des documents. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 Avec toutes ces fonctionnalités, l’accès aux données est protégé par la licence et les autorisations de Business Central.
 
-## Copie d’un lien
+## <a name="copying-a-link"></a>Copie d’un lien
 
 ![Prise en charge](media/check.png) Business Central Online ![Prise en charge](media/check.png) Business Central sur site
 
@@ -33,22 +33,22 @@ Lorsque vous collez l’URL dans un éditeur de texte enrichi, comme Word, Outlo
 > [!TIP]
 > Une convention d’affectation de noms similaire est utilisée dans les onglets du navigateur.
 
-### Partager l’analyse des données
+### <a name="share-data-analysis"></a>Partager l’analyse des données
 Si vous affichez une page ou une requête en mode d’analyse des données, vous pouvez partager un onglet d’analyse spécifique en sélectionnant la pointe de la flèche vers le bas dans l’onglet, puis en sélectionnant **Copier le lien**. [En savoir plus sur le mode d’analyse des données](analysis-mode.md). 
 
-### Modifier le lien de la page
+### <a name="modify-the-page-link"></a>Modifier le lien de la page
 
 Après avoir copié un lien, avant de l’envoyer, vous pouvez modifier l’URL pour manipuler ce qui s’affiche lorsque la page s’ouvre. Vous pouvez, par exemple, ajouter des filtres ou spécifier une autre société.
 
 [En savoir plus sur l’URL du client Web](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-### À propos des listes filtrées
+### <a name="about-filtered-lists"></a>À propos des listes filtrées
 
 À l’aide du volet Filtre sur les pages de liste, vous pouvez appliquer des filtres pour affiner les enregistrements affichés dans la liste. Si vous utilisez l"action **Copier le lien** ou copiez l’URL à partir du navigateur, le lien de la page n’inclura pas les modifications apportées au filtre. Les utilisateurs qui ouvrent le lien voient la collection complète. La façon de conserver le filtrage sur un lien de page de collection consiste à d’abord enregistrer la page filtrée en tant que **Vue**. Ensuite, ouvrez la vue et copiez le lien à partir de là.
 
 [En savoir plus sur le tri, la recherche et le filtrage](ui-enter-criteria-filters.md).
 
-## Partage dans Teams
+## <a name="sharing-to-teams"></a>Partage dans Teams
 
 ![Prise en charge](media/check.png) Business Central Online ![Non pris en charge](media/x-icon.png) Business Central sur site
 
@@ -56,7 +56,7 @@ Directement à partir de la plupart des pages de collection et de détails, vous
 
 [En savoir plus sur le partage d’enregistrements et de liens de page dans Teams](across-working-with-teams.md).
 
-## Partage dans OneDrive
+## <a name="sharing-through-onedrive"></a>Partage dans OneDrive
 
 ![Prise en charge](media/check.png) Business Central Online ![Prise en charge](media/check.png) Business Central sur site
 
@@ -64,7 +64,7 @@ Business Central facilite le stockage, la gestion et le partage de fichiers avec
 
 [En savoir plus sur le partage de fichiers dans OneDrive](across-share-onedrive.md).
 
-## Ouverture dans Excel
+## <a name="opening-in-excel"></a>Ouverture dans Excel
 
 ![Prise en charge](media/check.png) Business Central Online ![Prise en charge](media/check.png) Business Central sur site
 
@@ -72,7 +72,7 @@ Pour les pages de liste et les listes intégrées à une page, vous pouvez utili
 
 [En savoir plus sur l’affichage et la modification dans Excel](across-work-with-excel.md).
 
-## Partage de lignes ou de tableaux
+## <a name="sharing-rows-or-tables"></a>Partage de lignes ou de tableaux
 
 ![Prise en charge](media/check.png) Business Central Online ![Prise en charge](media/check.png) Business Central sur site
 
@@ -80,7 +80,7 @@ Vous pouvez partager un ou plusieurs enregistrements dans une liste. Sélectionn
 
 [En savoir plus sur la copie et le collage dans la FAQ](faq-copy-paste.yml).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Intégration de Business Central et OneDrive](across-onedrive-overview.md)  
 [Gestion de l’intégration de OneDrive avec Business Central](admin-onedrive-integration.md)  

@@ -9,7 +9,7 @@ ms.date: 09/15/2023
 ms.custom: bap-template
 ms-service: dynamics365-business-central
 ---
-# Gérer les pièces jointes, les liens et les notes sur les fiches et les documents
+# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gérer les pièces jointes, les liens et les notes sur les fiches et les documents
 
 Sur la plupart des pages de liste, fiches et documents, vous pouvez joindre des fichiers, ajouter des liens et rédiger des notes dans l’onglet **Pièces jointes** du volet **Récapitulatif**. Le nombre situé dans le titre de l’onglet indique le nombre de fichiers, liens ou notes attachés existants pour la fiche ou le document.
 
@@ -26,7 +26,7 @@ Vous pouvez également ajouter des pièces jointes aux e-mails que vous envoyez 
 >
 > Lorsque vous utilisez l’action **Obtenir des lignes de réception** à partir d’une facture achat, la pièce jointe sur les commandes achat n’est pas ajoutée à la facture achat.
 
-## Pour joindre un fichier à une facture achat
+## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Pour joindre un fichier à une facture achat
 
 Vous pouvez joindre n’importe quel type de fichier, tel que des fichiers texte, image ou vidéo, à une fiche, un document ou une ligne sur un document. Ceci est utile, par exemple, lorsque vous souhaitez stocker la facture d’un fournisseur sous forme de fichier PDF sur la facture achat correspondante dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -49,14 +49,14 @@ La procédure suivante se base sur une facture achat. Les étapes sont similaire
 
 Le fichier est désormais joint à la facture achat.
 
-## Pour afficher un fichier joint
+## <a name="to-view-an-attached-file"></a>Pour afficher un fichier joint
 
 1. Sur le Récapitulatif, ouvrez l’onglet **Pièces jointes**.
 2. Choisissez la valeur associée au champ **Documents**, telle que « 1 ».
 3. Sur la page **Documents joints**, sélectionnez l’action **Aperçu**.
 4. Ouvrez le fichier téléchargé.
 
-## Pour enregistrer un document en tant que pièce jointe PDF
+## <a name="to-save-a-document-as-a-pdf-attachment"></a>Pour enregistrer un document en tant que pièce jointe PDF
 
 Chaque fois que vous devez enregistrer un document en tant que fichier, vous pouvez utiliser l’action **Joindre en tant que PDF** pour capturer le contenu actuel du document sous forme de fichier PDF joint au récapitulatif du document. Cela est utile, par exemple, lorsque des documents suivent plusieurs étapes d’un processus, comme un processus de vente ou un flux de travail approbation, et que vous souhaitez vous référer à une impression de l’étape précédente.
 
@@ -67,7 +67,7 @@ La procédure suivante se base sur une commande vente. Les étapes sont similair
 
 Un fichier PDF avec le contenu actuel de la commande vente est ajouté à l’onglet **Pièces jointes** du récapitulatif.
 
-## Pour ajouter un lien à partir d’une fiche article
+## <a name="to-add-a-link-from-an-item-card"></a>Pour ajouter un lien à partir d’une fiche article
 
 Vous pouvez ajouter un lien à partir d’une fiche ou d’un document à n’importe quelle URL. Ceci est utile, par exemple, lorsque vous souhaitez lier une fiche article au catalogue d’articles du fournisseur.
 
@@ -85,7 +85,7 @@ La procédure suivante se base sur une fiche article. Les étapes sont similaire
 
 Le lien est maintenant attaché à la fiche article.  
 
-## Pour écrire une note sur une commande client
+## <a name="to-write-a-note-on-a-sales-order"></a>Pour écrire une note sur une commande client
 
 Vous pouvez écrire une note sur un document ou une ficher, par exemple pour communiquer des instructions spéciales aux autres utilisateurs du document ou de la fiche. Vous pouvez inclure des liens et des URL de fichier dans les notes.
 
@@ -102,7 +102,7 @@ La procédure suivante se base sur une commande vente. Les étapes sont similair
 
 La note est maintenant jointe à la commande client.
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Documents entrants](across-income-documents.md)  
 [Configuration de notifications de flux de travail](across-setting-up-workflow-notifications.md)  
