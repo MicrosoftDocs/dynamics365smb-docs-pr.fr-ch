@@ -2,7 +2,7 @@
 title: "Fonctionnalités d’entreprise prises en charge par Business\_Central"
 description: 'Fournit une fonctionnalité d’aperçu de toutes les fonctionnalités commerciales et des départements qui sont pris en charge par les domaines d’application, comme les finances, le stock et la gestion de projets.'
 author: brentholtorf
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 09/13/2022
 ms.author: bholtorf
 ---
-# <a name="business-functionality"></a>Fonctionnalités d’entreprise
+# Fonctionnalités d’entreprise
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités pour les processus entreprise communs dans les PME, surtout au sein de sociétés de vente en gros et de services professionnels. Toutefois, des processus plus complexes, comme l’assemblage, la fabrication, la maintenance et la gestion d’entrepôt suggérée sont également pris en charge. [Découvrez comment obtenir un essai gratuit ici](trial-signup.md).  
 
@@ -39,7 +39,7 @@ ms.author: bholtorf
 |Activez des utilisateurs pour l’échange de données avec des sources externes lors de tâches quotidiennes, telles que les envoyer/recevoir des documents électroniques, importer/exporter des fichiers bancaires, et mettre à jour des taux de change des devises.|[Échanger des données par voir électronique](across-data-exchange.md)|
 |Enregistrez des documents externes dans [!INCLUDE[prod_short](includes/prod_short.md)], ainsi que leurs fichiers joints, puis créez manuellement des documents connexes ou convertissez automatiquement les fichiers en documents électroniques.|[Documents entrants](across-income-documents.md)|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Administration](admin-setup-and-administration.md)    
 [Explorer les fonctionnalités de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  

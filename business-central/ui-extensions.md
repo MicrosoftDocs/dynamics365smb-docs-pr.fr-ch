@@ -8,11 +8,11 @@ ms.search.form: '2500, 2502, 20350, 20353'
 ms.date: 09/27/2022
 ms.author: bholtorf
 ---
-# <a name="customizing-business-central-online-with-apps"></a>Personnalisation de Business Central Online à l’aide d’applications
+# Personnalisation de Business Central Online à l’aide d’applications
 
 Vous pouvez modifier [!INCLUDE[prod_short](includes/prod_short.md)] en ligne en installant des applications qui ajoutent des fonctionnalités, modifient le comportement de l’application, ou vous permettent d’accéder à de nouveaux services en ligne, par exemple. Ces applications sont également appelées *extensions*, car elles *s’étendent*[!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="manage-apps"></a>Gérer les applications
+## Gérer les applications
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -49,7 +49,7 @@ Certaines applications sont fournies par Microsoft, et d’autres sont fournies 
 > [!NOTE]  
 > Vous pouvez vous tenir informé sur les nouvelles applications de Microsoft et d’autres fournisseurs sur le site [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
-## <a name="apps-and-data-transfer"></a>Applications et transfert de données
+## Applications et transfert de données
 
 Comme les applications suivantes communiquent avec d’autres services, elles peuvent transférer des données hors de la géographie de l’environnement [!INCLUDE[prod_short](includes/prod_short.md)] :
 
@@ -69,7 +69,7 @@ Cela s’applique également à certaines fonctionnalités de l’application de
 * Online Map
 * N° id. intracomm. Union européenne Service
 
-## <a name="connect-your-business"></a>Connectez votre entreprise
+## Connectez votre entreprise
 
 À partir de la 2è vague de lancement 2022, les environnements [!INCLUDE [prod_short](includes/prod_short.md)] en ligne peuvent répertorier une ou plusieurs applications sur les pages **Applications de connectivité** et **Applications bancaires**. Ces applications qui peuvent relier votre entreprise à des services externes afin d’augmenter votre productivité en automatisant les processus. Par exemple, vous pouvez vous connecter à vos banques et importer automatiquement les transactions bancaires. Les applications sont faciles à installer et à configurer directement à partir de cette page. Choisissez une application pour en savoir plus sur les fonctionnalités et les tarifs.  
 
@@ -80,14 +80,14 @@ Affichez la liste des applications suggérées en choisissant l’action **Appli
 
 Ce service externe générera une liste d’applications pertinentes en fonction de votre pays ou de votre région
 
-## <a name="recommended-apps"></a>Applications recommandées
+## Applications recommandées
 
 Les partenaires et revendeurs Microsoft peuvent créer une application utilisable pour compiler des listes d’applications qu’ils recommandent souvent à leurs clients. S’ils le font, et qu’ils ont déployé l’application sur votre locataire, les applications seront disponibles sur la page **Applications recommandées**. Là, vous pouvez vous renseigner sur chaque application et décider de les installer.
 
 > [!NOTE]
 > Si vous êtes un partenaire ou un revendeur Microsoft et que vous souhaitez fournir une liste d’applications recommandées, consultez [Recommander des applications depuis AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) dans le contenu d’administration.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Installer et désinstaller des applications](ui-extensions-install-uninstall.md)  
 [Personnalisation de Business Central](ui-customizing-overview.md)  

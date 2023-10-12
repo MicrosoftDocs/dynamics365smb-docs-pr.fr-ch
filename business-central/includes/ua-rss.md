@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 08/16/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Pour vous abonner à un flux RSS (Really Simple Syndication) de toutes les mises à jour apportées au contenu sur la fonctionnalité commerciale sur learn.microsoft.com à travers le contenu des fonctionnalités commerciales pour [!INCLUDE [prod_short](prod_short.md)], utilisez le lien suivant :
 

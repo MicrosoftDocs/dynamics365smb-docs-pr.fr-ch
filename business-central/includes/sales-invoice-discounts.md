@@ -9,7 +9,7 @@ Après avoir ajouté tous les articles sur les lignes, vous pouvez calculer la r
 La remise est calculée sur la base de toutes les lignes du document vente où la case **Autoriser remise facture** est cochée. Par défaut, les remises facture sont autorisées. Toutefois, les lignes avec des frais annexes, par exemple, ne sont pas incluses dans le calcul de la remise facture. Pour appliquer une remise à ces lignes, entrez une valeur dans le champ **Montant remise ligne** sur les lignes.  
 
 > [!NOTE]
-> Par défaut, les champs **Autoriser remise facture** et **Montant remise ligne** sont cachés sur les lignes. Si les champs ne sont pas disponibles, vous pouvez les ajouter en personnalisant la page. Pour plus d’informations, voir [Personnaliser votre espace de travail](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Par défaut, les champs **Autoriser remise facture** et **Montant remise ligne** sont cachés sur les lignes. Si les champs ne sont pas disponibles, vous pouvez les ajouter en personnalisant la page. Pour plus d’informations, voir [Personnaliser votre espace de travail](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 > [!TIP]
 > Si le champ **Calculer remise facture** est sélectionné sur la page **Paramètres ventes**, la remise facture est calculée automatiquement. Le moment du calcul diffère selon le type de document vente que vous utilisez.

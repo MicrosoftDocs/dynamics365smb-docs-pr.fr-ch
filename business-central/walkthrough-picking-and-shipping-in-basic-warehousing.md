@@ -9,7 +9,7 @@ ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
-# <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procédure pas à pas : Prélèvement et expédition dans les configurations de stockage de base
+# Procédure pas à pas : Prélèvement et expédition dans les configurations de stockage de base
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous prélevez et expédiez des articles en utilisant l’une des quatre méthodes décrites dans le tableau suivant.
 
@@ -24,7 +24,7 @@ Learn more at [Flux de désenlogement](design-details-outbound-warehouse-flow.md
 
 La procédure pas à pas suivante illustre la méthode B dans la table précédente.  
 
-## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas
+## À propos de cette procédure pas à pas
 
 Pour les configurations de stockage de base, lorsqu’un magasin est défini pour exiger un traitement des prélèvements mais pas un traitement des expéditions, vous utilisez la page **Prélèvement stock** pour enregistrer et valider les informations de prélèvement et d’expédition pour vos documents origine sortants. Le document origine sortant peut être une commande vente, un retour achat, un désenlogement transfert ou un ordre de fabrication avec un besoin de composants.  
 
@@ -36,7 +36,7 @@ Cette procédure pas à pas présente les tâches suivantes :
 - Créez un prélèvement stock sur la base d’un document origine lancé.  
 - Enregistrement d’un mouvement entrepôt de l’entrepôt et en même temps validation de l’expédition vente pour la commande vente d’origine.  
 
-## <a name="roles"></a>Rôles
+## Rôles
 
 Cette procédure pas à pas présente les tâches effectuées par les rôles utilisateur suivants :  
 
@@ -51,33 +51,33 @@ To complete this walkthrough, you will need:
 - For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
  -->
 
-## <a name="story"></a>Scénario
+## Scénario
 
 Ellen, la gestionnaire d’entrepôt de CRONUS, configure l’entrepôt SUD pour le prélèvement de base dans lequel les magasiniers traitent les commandes sortantes individuellement. Susan, préparatrice de commandes, crée une commande vente pour 30 unités de l’article 1928-S à livrer au client 10000 depuis l’entrepôt SUD. Jean, le magasinier, doit s’assurer que l’expédition est préparée et livrée au client. Jean gère toutes les tâches impliquées sur la page **Prélèvement stock**, qui indique automatiquement les endroits où 1928-S est stocké.
 
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
-### <a name="setting-up-the-bin-codes"></a>Configuration des codes emplacement
+### Configuration des codes emplacement
 
 Une fois que vous avez configuré le magasin, vous devez ajouter deux emplacements.
 
-#### <a name="to-setup-the-bin-codes"></a>Pour configurer les codes emplacement
+#### Pour configurer les codes emplacement
 
 1. Sélectionnez l’action **Emplacements**.
 2. Créez deux emplacements, avec les codes *S-01-0001* et *S-01-0002*.
 
-### <a name="making-yourself-a-warehouse-employee-at-location-south"></a>Ajout en tant que magasinier au magasin SUD
+### Ajout en tant que magasinier au magasin SUD
 
 Pour utiliser cette fonctionnalité, vous devez vous ajouter au magasin en tant que magasinier. 
 
-#### <a name="to-make-yourself-a-warehouse-employee"></a>Pour vous ajouter en tant que magasinier
+#### Pour vous ajouter en tant que magasinier
 
   1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche pour la première fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
   2. Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Magasiniers**.
   3. Dans le champ **Code magasin**, entrez SUD.  
   4. Sélectionnez le champ **Par défaut**, puis cliquez sur le bouton **Oui**.  
 
-### <a name="making-item-1928-s-available"></a>Rendre l’article 1928-S disponible
+### Rendre l’article 1928-S disponible
 
 Pour rend l’article 1928-S disponible dans le magasin SUD, suivez cette procédure :  
 
@@ -89,16 +89,16 @@ Pour rend l’article 1928-S disponible dans le magasin SUD, suivez cette procé
         |Positif (ajust.)|1928-S|SUD|S-01-0001|20|  
         |Positif (ajust.)|1928-S|SUD|S-01-0002|20|  
 
-        Par défaut, le champ **Code emplacement** des lignes vente est masqué, vous devez donc l’afficher. Pour cela, vous devez personnaliser la page. Pour plus d’informations, consultez [Commencer à personnaliser une page au moyen de la bannière Personnalisation](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+        Par défaut, le champ **Code emplacement** des lignes vente est masqué, vous devez donc l’afficher. Pour cela, vous devez personnaliser la page. Pour plus d’informations, consultez [Commencer à personnaliser une page au moyen de la bannière Personnalisation](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
   3. Choisissez **Actions**, puis **Validation**, puis **Valider**.  
   4. Sélectionnez le bouton **Oui**.  
 
-## <a name="creating-the-sales-order"></a>Création de la commande vente
+## Création de la commande vente
 
 Les commandes vente sont le type de document d’origine sortant le plus répandu.  
 
-### <a name="to-create-the-sales-order"></a>Pour créer la commande vente
+### Pour créer la commande vente
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche pour la troisième fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -114,11 +114,11 @@ Les commandes vente sont le type de document d’origine sortant le plus répand
 
     Jean procède au prélèvement et à l’expédition des articles vendus.  
 
-## <a name="picking-and-shipping-items"></a>Prélèvement et expédition d’articles
+## Prélèvement et expédition d’articles
 
 Sur la page **Prélèvement stock**, vous pouvez gérer toutes les activités entrepôt sortantes pour un document d’origine spécifique, tel qu’une commande vente. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-### <a name="to-pick-and-ship-items"></a>Pour prélever et expédier des articles
+### Pour prélever et expédier des articles
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche pour la quatrième fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements stock**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -135,7 +135,7 @@ Sur la page **Prélèvement stock**, vous pouvez gérer toutes les activités en
 
     Les 30 lampes Amsterdam sont à présent enregistrées comme prélevées depuis les emplacements S-01-0001 et S-01-0002, et une écriture comptable article négative est créée pour refléter l’expédition vente validée.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Prélèvement des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Prélèvement des articles pour l’expédition entrepôt](warehouse-how-to-pick-items-for-warehouse-shipment.md)  

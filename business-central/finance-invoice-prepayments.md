@@ -29,8 +29,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Créer une commande, ajuster des montants acompte et émettre une facture pour les montants acompte.|[Créer des factures d’acompte](finance-how-to-create-prepayment-invoices.md)|  
 |Émettre une facture acompte supplémentaire, pour des articles supplémentaires ou pour un acompte supplémentaire dans la commande originale, ou émettre un avoir acompte.|[Corriger des acomptes](finance-how-to-correct-prepayments.md)|  
 
-## Voir la [formation Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/index) associée
-
 ## Voir aussi
 
 [Procédure pas à pas : configuration et facturation d’acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

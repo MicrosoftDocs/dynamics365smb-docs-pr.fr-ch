@@ -11,7 +11,7 @@ ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="customize-business-central"></a>Personnaliser Business Central
+# Personnaliser Business Central
 
 Il existe différentes méthodes pour personnaliser l’application, afin de donner à vous et vos collègues l’accès aux fonctions, fonctionnalités et données dont vous avez le plus besoin, de la manière la mieux adaptée à vos opérations quotidiennes. L’accessibilité aux modifications dépend de ce que vous faites, comme décrit dans ce tableau.
 
@@ -28,7 +28,7 @@ Il existe différentes méthodes pour personnaliser l’application, afin de don
 > [!NOTE]
 > Tous les descriptions de fonctions de la documentation utilisateur de [!INCLUDE[prod_short](includes/prod_short.md)] assument l’expérience **Premium**, ce qui signifie que les descriptions couvrent la portée complète des éléments de l’interface utilisateur. Par conséquent, les utilisateurs avec l’expérience **Essentiel** peuvent dans certaines rubriques rencontrer des fonctionnalités et des éléments de l’interface utilisateur qui ne sont pas visibles dans leur interface utilisateur. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

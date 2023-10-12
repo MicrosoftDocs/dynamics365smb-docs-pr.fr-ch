@@ -137,8 +137,6 @@ Cette rubrique explique comment définir les affectations à l’aide du mode de
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] utilise les chiffres de ventes des exercices précédents pour calculer une part de 1596,50 DS avec 100 % alloués pour les packages ÉQUIPEMENT IT. Cela signifie que tous les articles vendus au cours de l’exercice précédent seront affectés au ÉQUIPEMENT IT des coûts associés.
 
-## Voir la [formation Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
  [Paramétrage du contrôle de gestion](finance-set-up-cost-accounting.md)  

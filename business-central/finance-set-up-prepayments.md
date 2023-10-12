@@ -24,7 +24,7 @@ Vous pouvez définir le pourcentage du montant ligne qui sera facturé pour acom
 >
 > En outre, lorsque vous utilisez un pourcentage de prépaiement de 100, [!INCLUDE[prod_short](includes/prod_short.md)] peut avoir besoin de créer des écritures d’arrondi décalées. Lorsque cela se produit, vous devrez choisir un compte général dans le champ **Compte d’arrondi de facture** sur la page **Groupes de comptabilisation des clients**. Ceci est vrai même si vous n’avez pas activé le bouton de basculement **Arrondi facture** sur la page **Paramètres ventes**. Si vous ne spécifiez pas de compte, vous ne pourrez pas publier de factures d’acompte. 
 
-Puisque le montant payé par anticipation appartient à l’acheteur jusqu’à ce qu’il ait reçu les biens ou les services, vous devez configurer des comptes généraux pour recevoir les montants d’acompte jusqu’à la validation de la facture finale. Les acomptes vente doivent être enregistrés dans un compte passif jusqu’à l’expédition des articles. Les acomptes achat doivent être enregistrés dans un compte immobilisations jusqu’à la réception des articles. En outre, vous devez configurer un compte général séparé pour chaque identifiant TVA.  
+Puisque le montant payé par anticipation appartient à l’acheteur jusqu’à ce qu’il ait reçu les biens ou les services, vous devez configurer des comptes généraux pour recevoir les montants d’acompte jusqu’à la validation de la facture finale. Les acomptes vente doivent être enregistrés dans un compte passif jusqu'à l'expédition des articles. Les acomptes achat doivent être enregistrés dans un compte immobilisations jusqu’à la réception des articles. En outre, vous devez configurer un compte général séparé pour chaque identifiant TVA.  
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
@@ -81,9 +81,9 @@ Pour un client ou un fournisseur, vous pouvez configurer un pourcentage d’acom
 Une commande peut avoir un pourcentage d’acompte dans l’en-tête vente et un autre pourcentage pour les articles figurant dans les lignes. Pour déterminer quel pourcentage d’acompte s’applique à chaque ligne vente, le système recherche le pourcentage d’acompte dans l’ordre suivant et applique la première valeur par défaut qu’il trouve :  
 
 1. un pourcentage d’acompte pour l’article figurant dans la ligne et le client auquel la commande est destinée ;  
-2. un pourcentage d’acompte pour l’article figurant dans la ligne et le groupe prix client auquel le client appartient ;  
-3. un pourcentage d’acompte pour l’article figurant dans la ligne pour tous les clients ;  
-4. le pourcentage d’acompte figurant dans l’en-tête vente ou achat.  
+2. un pourcentage d'acompte pour l'article figurant dans la ligne et le groupe prix client auquel le client appartient ;  
+3. un pourcentage d'acompte pour l'article figurant dans la ligne pour tous les clients ;  
+4. le pourcentage d'acompte figurant dans l'en-tête vente ou achat.  
 
 Autrement dit, le pourcentage d’acompte figurant dans la fiche client ne s’applique que si aucun pourcentage d’acompte n’est configuré pour l’article. Toutefois, si vous modifiez le contenu du champ **% acompte** dans l’en\-tête vente ou achat après avoir créé les lignes, le pourcentage d’acompte figurant dans toutes les lignes est mis à jour. Cela facilite la création d’une commande avec un pourcentage d’acompte fixe, quel que soit le pourcentage configuré pour les articles.
 
@@ -99,8 +99,6 @@ Vous pouvez gagner du temps en configurant une écriture file d’attente de tra
 
 3. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures file d’attente des travaux**, puis sélectionnez le lien associé.
 4. Configurez l’écriture file d’attente des travaux **Mise à jour En attente Acompte Ventes**, par exemple, en utilisant les paramètres du raccourci **Récurrence** pour programmer la fréquence à laquelle vous souhaitez qu’il s’exécute. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
-
-## Voir la [formation Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) associée
 
 ## Voir aussi  
 

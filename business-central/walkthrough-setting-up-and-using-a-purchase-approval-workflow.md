@@ -117,11 +117,9 @@ Définissez les variations des flux de travail en renseignant les champs des lig
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## Voir la [formation Microsoft](/training/modules/use-approval-workflows/) associée
-
 ## Voir aussi
 
-[Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md)  
+[Configuration des utilisateurs des approbations](across-how-to-set-up-approval-users.md)  
 [Configuration de notifications de flux de travail](across-setting-up-workflow-notifications.md)  
 [Créer des flux de travail approbation](across-how-to-create-workflows.md)  
 [Utilisation des flux d’approbation](across-how-use-approval-workflows.md)  

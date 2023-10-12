@@ -29,11 +29,9 @@ Si plusieurs acheteurs travaillent dans votre société, vous pouvez les configu
 2. Ouvrez la fiche du fournisseur auquel un acheteur est affecté.
 3. Dans le champ **Code acheteur**, sélectionnez le code acheteur approprié, puis fermez la page.
 
-## Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
-[Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)  
+[Enregistrement des nouveaux fournisseurs](purchasing-how-register-new-vendors.md)  
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

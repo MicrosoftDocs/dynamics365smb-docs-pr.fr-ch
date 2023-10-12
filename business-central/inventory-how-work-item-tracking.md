@@ -209,7 +209,7 @@ Le reclassement de la traçabilité pour un article consiste à remplacer un num
 6. Si vous voulez entrer une nouvelle date de péremption pour le numéro de lot ou de série, entrez-la dans le champ **Nouvelle date expiration**.  
 
     > [!IMPORTANT]  
-    >  Si vous reclassez un lot sur le même numéro de lot mais une autre date d’expiration, vous devez reclasser le lot entier en utilisant une ligne de feuille reclassement article. Si vous reclassez plusieurs lots sur un nouveau numéro de lot, ce qui signifie que vous fusionnez plusieurs lots en un nouveau lot, vous devez entrer la même date d’expiration pour tous les lots. Si vous reclassez un lot existant sur un autre dont la date d’expiration diffère, vous devez utiliser la date d’expiration du second lot. Si vous laissez le champ **Nouvelle date expiration** vide, le numéro de lot ou de série est reclassé avec une date d’expiration vide.  
+    >  Si vous reclassez un lot sur le même numéro de lot mais une autre date d’expiration, vous devez reclasser le lot entier en utilisant une ligne de feuille reclassement article. Si vous reclassez plusieurs lots sur un nouveau numéro de lot, ce qui signifie que vous fusionnez plusieurs lots en un nouveau lot, vous devez entrer la même date d'expiration pour tous les lots. Si vous reclassez un lot existant sur un autre dont la date d'expiration diffère, vous devez utiliser la date d'expiration du second lot. Si vous laissez le champ **Nouvelle date expiration** vide, le numéro de lot ou de série est reclassé avec une date d'expiration vide.  
 
 7. Si des informations figurent sur l’ancien numéro de lot ou de série, vous pouvez les copier vers le nouveau numéro de lot ou de série.  
 
@@ -220,11 +220,9 @@ Le reclassement de la traçabilité pour un article consiste à remplacer un num
 8. Si vous voulez modifier les informations existantes du numéro de lot ou de série, vous pouvez enregistrer des informations de lot ou de série.  
 9. Validez la feuille pour lier les nouveaux numéros traçabilité ou dates d’expiration à l’écriture comptable article qui leur est associée.
 
-## Voir la [formation Microsoft](/training/modules/prepare-item-tracking/) associée
-
 ## Voir aussi
 
-[Configuration du suivi des articles avec les numéros lot, de série et paquet](inventory-how-setup-item-tracking.md)  
+[Configuration du suivi des articles avec les numéros lot, de série et de paquet](inventory-how-setup-item-tracking.md)  
 [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
 [Stock](inventory-manage-inventory.md)  
 [Détails de conception : traçabilité](design-details-item-tracking.md)  

@@ -1,18 +1,17 @@
 ---
 title: À propos de la fonctionnalité Planification
-description: 'La planification prend en compte toutes les données d’offre et de demande, ajuste les résultats et génère des suggestions pour l’équilibrage de l’offre en fonction de la demande.'
+description: Découvrez comment la planification utilise les données de l’offre et de la demande pour suggérer comment équilibrer l’offre pour répondre à la demande.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 5430
-ms.date: 08/30/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.form: '5430,'
+ms.date: 09/19/2023
+ms.custom: bap-template
 ---
 # À propos de la fonctionnalité Planification
 
-Le système de planification prend en compte toutes les données d’offre et de demande, ajuste les résultats et génère des suggestions pour l’équilibrage de l’offre en fonction de la demande.  
+Le système de planification prend en compte toutes les données d'offre et de demande, ajuste les résultats et génère des suggestions pour l'équilibrage de l'offre en fonction de la demande.  
 
 Pour plus d’informations, voir [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md).  
 
@@ -21,16 +20,16 @@ Pour plus d’informations, voir [Détails de conception : planification de l�
 
 ## Offre et demande
 
-La planification comporte deux volets : l’offre et la demande. Ces derniers doivent être équilibrés pour garantir que la demande soit satisfaite rapidement et efficacement.  
+La planification comporte deux volets : l'offre et la demande. Ceux-ci doivent s’équilibrer pour garantir que la demande est satisfaite.  
 
-- Le mot demande désigne tout sorte de besoin brut, tel qu’une commande vente, une commande service, un besoin composant d’un ordre d’assemblage ou de fabrication, un désenlogement transfert, une commande ouverte ou une prévision. En outre, l’application autorise d’autres types techniques de demande - tels qu’un ordre de fabrication ou une commande achat négatif, un stock négatif et un retour achat.  
+- La demande désigne toute sorte de besoin brut, tel qu’une commande vente, une commande service ou un besoin composant pour des ordres d’assemblage ou de fabrication, un transfert sortant, une commande ouverte ou une prévision. En outre, il existe d’autres types techniques de demande, tels qu’un ordre de fabrication ou une commande achat négatif, un stock négatif et un retour achat.  
 - Le réapprovisionnement fait référence à toute sorte de réapprovisionnement telle qu’un stock, une commande achat, un ordre d’assemblage, un ordre de fabrication ou un transfert enlogement. Par conséquent, il peut y avoir une commande vente ou une commande service négative, un besoin de composant ou un retour vente négatif – tous représentant aussi l’offre d’une certaine façon.  
 
-Un autre objectif du système de planification est de garantir que le stock ne croisse pas inutilement. En cas de baisse de la demande, le système de planification suggère de reporter, de réduire ou d’annuler des ordres de réapprovisionnement existants.  
+Un autre objectif du système de planification est de garantir que le stock ne croisse pas inutilement. En cas de baisse de la demande, le système de planification suggère de reporter, de réduire ou d'annuler des ordres de réapprovisionnement existants.  
 
 ## Calcul de planification
 
-Le système de planification est guidé par la demande prévue et réelle des clients ainsi que par les paramètres de réapprovisionnement de stock. L’exécution du calcul de planification a pour effet que l’application suggère des mesures spécifiques ([messages d’action](production-how-to-run-mps-and-mrp.md#action-messages)) à prendre concernant le réapprovisionnement possible auprès de fournisseurs, les transferts entre entrepôts ou la production. S’il y a déjà des ordres de réapprovisionnement, les mesures suggérées peuvent être d’augmenter ou d’accélérer les commandes pour répondre à l’évolution de la demande.  
+Le système de planification est guidé par la demande prévue et réelle des clients ainsi que par les paramètres de réapprovisionnement de stock. L’exécution du calcul de planification a pour effet que l’application suggère des mesures spécifiques ([messages d’action](production-how-to-run-mps-and-mrp.md#action-messages)) à prendre concernant le réapprovisionnement possible auprès de fournisseurs, les transferts entre entrepôts ou la production. S'il y a déjà des ordres de réapprovisionnement, les mesures suggérées peuvent être d'augmenter ou d'accélérer les commandes pour répondre à l'évolution de la demande.  
 
 La base de la routine de planification réside dans le calcul gros/net. Les besoins nets déterminent les lancements de commandes planifiées, qui sont programmés sur la base des informations de gamme (articles fabriqués) ou du délai de réapprovisionnement de la fiche article (articles achetés). Les quantités de lancement de commandes planifiées sont basées sur le calcul de planification et affectées par les paramètres définis sur les fiches article individuelles.  
 
@@ -39,9 +38,9 @@ La base de la routine de planification réside dans le calcul gros/net. Les beso
 
 ## Planification à l’aide d’ordres de transfert manuels
 
-Comme l’indique le champ **Système réappro** d’une fiche point de stock, le système de planification peut être configuré pour créer des ordres de transfert destinés à équilibrer l’offre et la demande dans tous les magasins.  
+Dans le champ **Système réappro** d’une fiche point de stock, vous pouvez configurer le système de planification pour créer des ordres de transfert destinés à équilibrer l’offre et la demande dans tous les magasins.  
 
-Outre ce type d’ordre de transfert automatique, vous devrez parfois effectuer un mouvement général des quantités en stock vers un autre magasin, quelle que soit la demande existante. Vous créez pour cela un ordre de transfert manuel correspondant à la quantité à déplacer. Pour être sûr que le système de planification ne tente pas de manipuler cet ordre de transfert manuel, vous devez paramétrer le champ **Flexibilité planification** des lignes transfert sur Aucune.  
+Outre ce type d'ordre de transfert automatique, vous devrez parfois effectuer un mouvement général des quantités en stock vers un autre magasin, quelle que soit la demande existante. Vous créez pour cela un ordre de transfert manuel correspondant à la quantité à déplacer. Pour être sûr que le système de planification ne tente pas de manipuler cet ordre de transfert manuel, vous devez paramétrer le champ **Flexibilité planification** des lignes transfert sur Aucune.  
 
 À l’inverse, si vous souhaitez que le système de planification ajuste les quantités de l’ordre de transfert et les dates en fonction de la demande existante, vous devez paramétrer le champ **Flexibilité planification** sur la valeur Illimitée.
 
@@ -84,7 +83,7 @@ Les champs de paramètres de planning figurant sur la page **Paramètres product
 - Période tampon par défaut  
 - Quantité tampon par défaut  
 
-Pour plus d’informations, voir [Détails de conception : paramètres de planification](design-details-planning-parameters.md)  
+Pour en savoir plus, consultez [Détails de conception : paramètres de planification](design-details-planning-parameters.md)  
 
 ## Autres champs de planification importants
 
@@ -109,9 +108,9 @@ L’avertissement Urgence est affiché dans deux situations :
 - Le stock est négatif à la date de début de la planification.
 - Des événements d’offre ou de demande rétroactifs existent.
 
-Si le stock d’un article est négatif à la date de début de la planification, le système de planification suggère une commande approvisionnement d’urgence afin que la quantité négative arrive à la date de début de la planification. Le texte d’avertissement indique la date de début et la quantité de la commande d’urgence.
+Si le stock d’un article est négatif à la date de début de la planification, le système de planification suggère une commande approvisionnement d’urgence afin que la quantité négative arrive à la date de début de la planification. Le texte d'avertissement indique la date de début et la quantité de la commande d'urgence.
 
-Les lignes document avec une date d’échéance antérieure à la date de début de la planification sont consolidées dans une commande approvisionnement d’urgence pour que l’article arrive à la date de début de la planification.
+Les lignes document avec une date d'échéance antérieure à la date de début de la planification sont consolidées dans une commande approvisionnement d'urgence pour que l'article arrive à la date de début de la planification.
 
 ### Exception
 
@@ -126,7 +125,7 @@ Entamer le stock de sécurité est considéré comme une exception car cela ne d
 
 ### Attention
 
-L’avertissement Attention est affiché dans deux situations :
+L’avertissement Attention s’affiche dans deux situations :
 
 - La date de début de la planification est antérieure à la date de travail.
 - La ligne planification suggère de changer une commande achat lancée ou un O.F.
@@ -138,13 +137,15 @@ L’avertissement Attention est affiché dans deux situations :
 
 Comme décrit dans [Planification](production-planning.md), vous pouvez choisir entre deux feuilles pour la plupart des activités de planification : la feuille planning et la demande achat. La plupart des processus sont décrits en fonction de la feuille planning, mais il existe quelques scénarios où la demande achat est recommandée.
 
+[!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
+
 ### Demande achat
 
 La page **Demande achat** répertorie les articles que vous souhaitez commander. Il existe plusieurs méthodes pour saisir des articles dans la feuille :
 
 - Saisissez les articles manuellement dans la feuille et renseignez les champs correspondants.
 
-- Utilisez le traitement par lots **Calculer planning**. Cette opération permet de calculer un plan de réapprovisionnement pour les articles et les points de stock ayant été configurés avec un système de réapprovisionnement **achat** ou **transfert**. Lorsque vous utilisez ce traitement par lots, le programme renseigne automatiquement le champ **Message d’action** en y indiquant une proposition d’action en vue du réapprovisionnement de l’article. Cette opération peut contribuer, par exemple, à augmenter la quantité d’articles d’une commande existante ou à créer une nouvelle commande.
+- Utilisez le traitement par lots **Calculer planning**. Cette opération permet de calculer un plan de réapprovisionnement pour les articles et les points de stock ayant été configurés avec un système de réapprovisionnement **achat** ou **transfert**. Lorsque vous utilisez ce traitement par lots, le programme renseigne automatiquement le champ **Message d'action** en y indiquant une proposition d'action en vue du réapprovisionnement de l'article. Cette opération peut contribuer, par exemple, à augmenter la quantité d'articles d'une commande existante ou à créer une nouvelle commande.
 
 - Si vous avez utilisé le traitement par lots **Calculer planning** à partir de la page **Feuille planning** pour calculer un plan de réapprovisionnement, vous pouvez utiliser le traitement par lots **Traiter messages d’action** pour copier des propositions commande achat et ordre transfert de la feuille planning à la demande achat. Ceci est commode si des utilisateurs séparés sont responsables de la gestion des ordres fabrication et des commandes achat/ordres transfert.
 
@@ -152,14 +153,12 @@ La page **Demande achat** répertorie les articles que vous souhaitez commander.
 
 - Vous pouvez utiliser l’action **Commande spéciale** pour renseigner les lignes demande achat. Cette action utilise le traitement par lots **Extraire commandes vente** pour déterminer les lignes commande vente que vous souhaitez désigner pour une commande spéciale.
 
-Les lignes demande achat contiennent des informations détaillées sur les articles devant être recommandés. Vous pouvez modifier et supprimer les lignes pour ajuster le plan de réapprovisionnement et poursuivre le traitement des lignes à l’aide du traitement par lots **Traiter messages d’action**. 
+Les lignes demande achat contiennent des informations détaillées sur les articles devant être recommandés. Vous pouvez modifier et supprimer les lignes pour ajuster le plan de réapprovisionnement et poursuivre le traitement des lignes à l'aide du traitement par lots **Traiter messages d'action**. 
 
 Pour plus d’informations sur la planification à l’aide de magasins et de transferts, voir [Planification avec/sans magasin](production-planning-with-without-locations.md).
 
 > [!TIP]
 > Lorsque vous travaillez sur les pages **Demande achat** ou **Feuille planning**, vous pouvez organiser les lignes en triant sur un nom de colonne. Ceci est particulièrement utile sur la page Feuille planning, car ils peuvent être utilisés pour les ordres de fabrication à plusieurs niveaux. Par défaut, les lignes sont triées par le champ **Numéro d’article**. Pour regrouper les lignes d’une commande à plusieurs niveaux, triez par **N° ordre de référence** . En outre, les champs **Ordre PDP** et **Niveau de planification** peuvent aider à montrer la hiérarchie des lignes.
-
-## Voir la [formation Microsoft](/training/modules/plan-items-dynamics-365-business-central/) associée
 
 ## Voir aussi
 

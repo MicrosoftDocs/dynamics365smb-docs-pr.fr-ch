@@ -8,19 +8,19 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Procédure pas à pas : Combiner la consommation automatique et la consommation manuelle
+# Procédure pas à pas : Combiner la consommation automatique et la consommation manuelle
 
 Dans cet article, nous vous expliquons comment utiliser les données de démonstration Contoso Coffee dans la consommation.  
 
-## <a name="scenario"></a>Scénario
+## Scénario
 
 Vous êtes planificateur de production chez Contoso Coffee. Vous devez créer un nouvel ordre de fabrication pour 10 unités de l’article SP-SCM1004, AutoDrip. Certains composants et certaines opérations seront consommés en aval et d’autres consommés en amont en fonction de différentes conditions.
 
-## <a name="steps"></a>Étapes
+## Étapes
 
 > [Remarque !] N’oubliez pas d’ajuster le stock en validant la feuille article avec les soldes d’ouverture.
 
-1. Créez un ordre de fabrication planifié ferme pour 5 unités de l’article **SP-SCM1004, AutoDrip** à l’emplacement *NORD*. Pour obtenir des conseils, voir [Procédure pas à pas : Créer un ordre de fabrication planifié ferme et le modifier](create-firm-planned-production-order-change.md).  
+1. Créez un ordre de fabrication planifié ferme pour cinq unités de l’article **SP-SCM1004, AutoDrip** à l’emplacement *PRINCIPAL*. Pour obtenir des conseils, voir [Procédure pas à pas : Créer un ordre de fabrication planifié ferme et le modifier](create-firm-planned-production-order-change.md).  
 
 2. Lancez l’ordre de fabrication.
 
@@ -103,7 +103,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez créer un
 
 C’est tout pour la consommation manuelle et automatique des composants.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Consommer des composants en fonction de la production réalisée](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduction aux données de démonstration Contoso Coffee](contoso-coffee-manufacturing-intro.md)  

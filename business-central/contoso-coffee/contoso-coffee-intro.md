@@ -1,66 +1,48 @@
 ---
 title: Introduction aux données de démonstration Contoso Coffee
 description: Vue d’ensemble des scénarios relatifs à la façon dont les données de démonstration Contoso Coffee peuvent vous aider à apprendre à utiliser les capacités dans Business Central.
-ms.date: 04/01/2022
-ms.topic: article
-ms.service: dynamics365-business-central
-ms.search.form: 4760
 author: brentholtorf
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.date: 09/20/2023
+ms.topic: article
+ms.service: dynamics365-business-central
+ms.search.form: '5194,'
+ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Introduction aux données de démonstration Contoso Coffee
+# Introduction aux données de démonstration Contoso Coffee
 
-Contoso Coffee est une société fictive qui produit des cafetières grand public et commerciales. Les applications **Contoso Coffee** pour Business Central ajoutent des données de démonstration que vous pouvez utiliser pour apprendre à utiliser les capacités dans Business Central.  
+Contoso Coffee est une société fictive qui produit des cafetières grand public et commerciales. Les applications **Contoso Coffee** pour [!INCLUDE [prod_short](../includes/prod_short.md)] ajoutent des données de démonstration que vous pouvez utiliser pour apprendre à utiliser les capacités dans [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
+## Configurer les données de Contoso Coffee
 
-## <a name="set-up-contoso-coffee-data"></a>Configurer les données de Contoso Coffee
+[!INCLUDE [contoso-coffee-app-install](contoso-coffee-app-install.md)].
 
-Pour utiliser les données de démonstration Contoso Coffee, vous devez installer deux applications dans la société concernée dans [!INCLUDE [prod_short](../includes/prod_short.md)] :  
+Une fois les applications installées, sur la page **Outil de démonstration Contoso**, utilisez l’action **Configurer** pour préparer les modules suivants. Vous pouvez choisir d’installer toutes les données disponibles, y compris les données de configuration et de production, ou uniquement les données de configuration.
 
-- **Jeu de données de démonstration Contoso Coffee**  
+ - Le **Module commun** pour préparer les paramètres généraux requis par [!INCLUDE [prod_short](../includes/prod_short.md)]. Par exemple, des éléments comme des séries de numéros. 
 
-    Cette application fournit des données de démonstration pour l’application de base.  
-- **Jeu de données de démonstration Contoso Coffee (ID pays)**  
+La table suivante décrit les paramètres :  
 
-    Cette application ajoute du contenu spécifique au pays en plus de l’application de base.
+|Champ  |Désignation  |
+|---------|---------|
+|**Année de début** |Spécifie la première année que vous souhaitez utiliser pour les données de démonstration Contoso Coffee. Selon la configuration de la société, l’année est soit une année civile, soit une année fiscale.|
+|**Code pays/région**|Spécifie un code pays/région pour les clients et fournisseurs nationaux.|
+|**Type de société**    |Spécifie si la société actuelle doit déclarer la TVA ou la taxe de vente. |
+|**Facteur de prix**     |Spécifie un facteur pour convertir un prix USD/EUR en devise locale. *1* signifie que le prix est le même dans n’importe quelle devise. Un nombre plus élevé sera utilisé pour obtenir le prix dans la devise locale. |
+|**Précision de l’arrondi**  |Spécifie la précision de l’arrondi avec laquelle vous souhaitez créer les données de démonstration.|
 
-Ajoutez les applications à une société vide dans un abonnement payant ou dans le cadre d’un essai. Par exemple, créez une société sans exemples de données à partir du guide de configuration assistée **Créer une nouvelle société** que vous pouvez ouvrir dans la liste **Sociétés**. Ajoutez ensuite les applications depuis le [marché](../ui-extensions-install-uninstall.md#install) si elles ne sont pas déjà répertoriées sur la page **Gestion des extensions**.  
+ - Le [Module de production](manufacturing/contoso-coffee-manufacturing-intro.md) pour préparer les [scénarios de production](manufacturing/contoso-coffee-manufacturing-intro.md#scenarios).
+ - Le [Module d’entreposage](warehousing/contoso-coffee-warehousing-intro.md) pour préparer les [scénarios d’entreposage](warehousing/contoso-coffee-warehousing-intro.md#scenarios).
+ - Le [Module de service](service/contoso-coffee-service-intro.md) pour préparer les [scénarios de service](service/contoso-coffee-service-intro.md#scenarios).
 
-Vous devez alors compléter :
- - Les [Paramètres production](manufacturing/contoso-coffee-manufacturing-intro.md) pour préparer l’utilisation des [scénarios de production](#manufacturing-scenarios)
- - Les [Paramètres entrepôt](warehousing/contoso-coffee-warehousing-intro.md) pour préparer l’utilisation des [scénarios d’entrepôt](#warehousing-scenarios)
+Après avoir configuré les modules que vous souhaitez essayer, choisissez l’action **Générer** pour créer les données de démonstration correspondantes.
 
-## <a name="manufacturing-scenarios"></a>Scénarios de production
+## Voir aussi
 
-Les données de démonstration Contoso Coffee prennent actuellement en charge les scénarios de production suivants pour les tests et la formation :
-
-1. [Créer une nomenclature de production et une version de nomenclature](manufacturing/create-new-production-bom-version.md)  
-2. [Créer une gamme](manufacturing/create-new-routing.md)  
-3. [Créer un ordre de fabrication planifié ferme et le modifier](manufacturing/create-firm-planned-production-order-change.md)  
-4. [Combiner la consommation automatique et la consommation manuelle](manufacturing/combine-automatic-manual-flushing.md)  
-5. [Utiliser la planification des commandes pour créer et réserver un approvisionnement](manufacturing/order-planning-create-reserve-supply.md)  
-6. [Configurer et traiter une opération de sous-traitance](manufacturing/set-up-process-subcontracting-operation.md)  
-7. [Configurer une nouvelle capacité](manufacturing/set-up-new-capacity.md)  
-8. [Prévoir la demande pour des variantes articles avec différentes nomenclatures affectées](manufacturing/variants.md)  
-
-Lisez les étapes de chaque scénario dans l’article correspondant.  
-
-> [!IMPORTANT]
-> Ces procédures de production pas à pas nécessitent que l’expérience utilisateur soit définie sur *Premium* dans la page **Informations société**.
-
-## <a name="warehousing-scenarios"></a>Scénarios d’entreposage
-
-Les données de démonstration Contoso Coffee prennent actuellement en charge les scénarios d’entreposage suivants pour les tests et la formation :
-
-1.  Configurez les bacs par défaut, recevez et rangez avec le rangement de l’inventaire, prélevez et expédiez avec le prélèvement de l’inventaire de manière commande par commande avec [Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt de base](warehousing/warehouse-basic-flow-putaway-pick.md)
-2.  Recevez et rangez plusieurs commandes entrantes à la fois avec le récépissé d’entrepôt, expédiez plusieurs commandes à la fois avec l’expédition de l’entrepôt, prélevez avec les prélèvements de l’entrepôt avec [Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt mixtes](warehousing/warehouse-mixed-flow-receive-pick-ship.md)
-3.  Configurer des bacs fixes pour l’unité de mesure de l’article, le cross-docking des utilisateurs pour réduire les mouvements physiques de marchandises, optimiser le placement des marchandises avec le réapprovisionnement des bacs, répartir les grandes unités de mesure en plus petites, répartir la cueillette entre les employés de l’entrepôt avec une feuille de travail de cueillette avec [Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt avancées avec prélèvement et rangement suggérés](warehousing/warehouse-directed-flow.md)
-
-Lisez les étapes de chaque scénario dans l’article correspondant.
-   
-## <a name="see-also"></a>Voir aussi
-
-[Production](../production-manage-manufacturing.md)  
+[Fabrication](../production-manage-manufacturing.md)  
 [Entreposage](../warehouse-manage-warehouse.md)  
+[Service](../service-service.md)
+<!-- [Projects and Jobs](../projects-manage-projects.md) -->
 

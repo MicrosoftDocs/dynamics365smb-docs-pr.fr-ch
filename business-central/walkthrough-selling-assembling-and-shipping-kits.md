@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
 ---
-# <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procédure pas-à-pas : vente, assemblage et expédition de kits
+# Procédure pas-à-pas : vente, assemblage et expédition de kits
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -20,18 +20,18 @@ La fonctionnalité spéciale permet de gérer l’expédition des quantités «�
 
 Dans les configurations entrepôt de base, lorsqu’une quantité à assembler pour commande est prête à être expédiée, le magasinier responsable valide un prélèvement stock pour les lignes de commande. Cela crée un mouvement stock pour les composants et valide la sortie d’assemblage et l’expédition de la commande. Pour plus d’informations, reportez-vous à [Traitement des articles à assembler pour commande dans les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas
+## À propos de cette procédure pas à pas
 
 Cette procédure pas à pas présente les tâches suivantes :  
 
-### <a name="setting-up-assembly-items"></a>Configuration des articles d’assemblage
+### Configuration des articles d’assemblage
 
 Les articles d’assemblage sont caractérisés par leur système de réapprovisionnement et la nomenclature d’assemblage. La stratégie d’assemblage de l’article peut être « assembler pour commande » ou « assembler pour stock ». Cette section couvre les tâches suivantes :  
 
 -   Définition du système de réapprovisionnement et de la stratégie d’assemblage appropriés sur une nouvelle fiche d’article d’assemblage.  
 -   Création d’une nomenclature d’assemblage qui répertorie les composants d’assemblage et la ressource incluse dans l’article d’assemblage.  
 
-### <a name="selling-customized-assembly-items"></a>Vente d’articles d’assemblage personnalisés
+### Vente d’articles d’assemblage personnalisés
 
 [!INCLUDE[prod_short](includes/prod_short.md)] est flexible et permet d’entrer une quantité en stock et une quantité « assembler pour commande » sur la ligne commande vente. Cette section couvre les tâches suivantes :  
 
@@ -41,14 +41,14 @@ Les articles d’assemblage sont caractérisés par leur système de réapprovis
 -   Création d’une ligne commande vente mixte à laquelle une partie de la quantité de ventes provient du stock et la partie restante doit être assemblée avant la livraison.  
 -   Compréhension des avertissements de disponibilité des articles « assembler pour commande ».  
 
-### <a name="planning-for-assembly-items"></a>Planification pour les articles d’assemblage
+### Planification pour les articles d’assemblage
 
 L’offre et la demande d’assemblage sont traitées par le système de planification, tout comme pour les achats, les transferts et la production. Cette section couvre les tâches suivantes :  
 
 -   Exécution d’un planning régénératif pour les articles utilisant une demande de vente pour l’approvisionnement assemblé.  
 -   Génération d’un ordre d’assemblage en vue de répondre à la quantité de la ligne vente au plus tard à la date livraison demandée.  
 
-### <a name="assembling-items"></a>Assemblage des articles
+### Assemblage des articles
 
 Les ordres d’assemblage fonctionnent d’une manière similaire aux ordres de fabrication, prévoient que la consommation et la production sont enregistrées et validées directement à partir de la commande. Lorsque les articles sont assemblés pour stock, l’ouvrier d’assemblage a un accès total à tous les champs d’en-tête et de ligne. Lorsque les articles sont assemblés pour une commande lorsque la quantité et la date sont promises au client, certains champs de l’ordre d’assemblage ne sont pas modifiables. Dans ce cas, la validation d’assemblage est exécutée à partir de l’expédition entrepôt pour la commande vente liée. Cette section couvre les tâches suivantes.  
 
@@ -56,7 +56,7 @@ Les ordres d’assemblage fonctionnent d’une manière similaire aux ordres de 
 -   Accès à une ligne expédition entrepôt à partir d’un ordre d’assemblage pour commande pour enregistrer le travail d’assemblage.  
 -   Accès à un ordre d’assemblage pour commande à partir d’une ligne expédition entrepôt pour afficher automatiquement les données entrées.  
 
-### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Expédition d’articles d’assemblage, à partir du stock et assemblés pour former une commande
+### Expédition d’articles d’assemblage, à partir du stock et assemblés pour former une commande
 
 Il existe une fonctionnalité spéciale qui permet de gérer l’expédition des quantités à assembler pour commande. Cette section couvre les tâches suivantes :  
 
@@ -66,7 +66,7 @@ Il existe une fonctionnalité spéciale qui permet de gérer l’expédition des
 -   Expédition de quantités « assembler pour commande ».  
 -   Expédition d’articles d’assemblage de stock.  
 
-## <a name="roles"></a>Rôles
+## Rôles
 
 Cette procédure pas à pas présente les tâches effectuées par les rôles utilisateur suivants :  
 
@@ -76,7 +76,7 @@ Cette procédure pas à pas présente les tâches effectuées par les rôles uti
 -   Employé en charge du prélèvement  
 -   Responsable expédition  
 
-## <a name="prerequisites"></a>Conditions préalables
+## Conditions préalables
 
 Avant d’exécuter cette procédure pas à pas, veuillez suivre les instructions ci-dessous :  
 
@@ -110,7 +110,7 @@ Supprimez le délai par défaut pour les processus internes en procédant comme 
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Scénario
+## Scénario
 
 Le 23 janvier, Susan, préparatrice de commandes vente, accepte une commande de The Device Shop pour trois unités de kit B, c’est-à-dire un article « assembler pour commande ». Les trois unités sont personnalisées et doivent contenir la carte graphique élevée et un bloc de RAM supplémentaire. Les lecteurs de disque sont mis à niveau vers DWD car les lecteurs de CD ne sont pas disponibles. Susan sait que les unités peuvent être assemblées immédiatement, et laisse la date d’expédition suggérée du 23 janvier.  
 
@@ -138,7 +138,7 @@ Sammy emballe les dix unités « assembler pour stock » avec les cinq unités
 
 Lorsque la commande vente est validée ultérieurement comme étant entièrement facturée, la commande vente et les ordres d’assemblage liés sont supprimés.  
 
-## <a name="prepare-sample-data"></a>Préparation d’exemples de données
+## Préparation d’exemples de données
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles article entrepôt**, puis choisissez le lien associé.  
 2.  Choisissez le champ **Nom de la feuille**, puis sélectionnez la feuille par défaut.  
@@ -162,7 +162,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 7.  Sur la page **Calculer ajustement entrepôt**, cliquez sur le bouton **OK** .  
 8.  Sur la page **Feuille article**, choisissez l’action **Valider**, puis cliquez sur le bouton **Oui**.  
 
-### <a name="creating-the-assembly-items"></a>Création des articles d’assemblage
+### Création des articles d’assemblage  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2.  Sélectionnez l’action **Nouveau**.  
@@ -213,7 +213,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
     |Article|80210|1|  
     |Ressource|Linda|1|  
 
-### <a name="selling-the-assembly-items"></a>Vente des articles d’assemblage
+### Vente des articles d’assemblage  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l’action **Nouveau**.  
@@ -266,7 +266,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 17. Choisissez l’action **Créer expédition entrepôt**.  
 18. Fermez la commande vente.  
 
-### <a name="planning-for-the-unavailable-ats-items"></a>Planification pour les articles « assembler pour stock » non disponibles
+### Planification pour les articles « assembler pour stock » non disponibles  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille planning**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Calculer planning régénératif**.  
@@ -284,7 +284,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 6.  Sur la page **Traiter messages d’action**, choisissez le champ **Ordre d’assemblage**, puis sélectionnez **Créer des ordres d’assemblage**.  
 7.  Cliquez sur le bouton **OK**.  
 
-### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Assemblage et expédition de la première quantité « assembler pour commande »
+### Assemblage et expédition de la première quantité « assembler pour commande »  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expédition entrepôt**, puis choisissez le lien associé.  
 
@@ -344,7 +344,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Les activités entrepôt pour répondre à la première ligne commande vente sont effectuées avant le 23 janvier. Ensuite, traitez les lignes commande vente expédiées le 27 janvier  
 
-### <a name="assembling-and-recording-the-second-ato-quantity"></a>Assemblage et enregistrement de la seconde quantité « assembler pour commande »
+### Assemblage et enregistrement de la seconde quantité « assembler pour commande »  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Ordres d’assemblage**, puis sélectionnez le lien associé.  
 
@@ -368,7 +368,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
 5.  Fermez la page **Ordre d’assemblage**.  
 
-### <a name="assembling-the-ats-quantity"></a>Assemblage de la quantité « assembler pour stock »
+### Assemblage de la quantité « assembler pour stock »  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Ordres d’assemblage**, puis sélectionnez le lien associé.  
 2.  Ouvrez l’ordre d’assemblage pour dix unités de kit A.  
@@ -396,7 +396,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Remarquez que l’ordre d’assemblage est supprimé de la liste des commandes ouvertes.  
 
-### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Expédition des autres articles, en partie du stock et en partie assemblés pour la commande
+### Expédition des autres articles, en partie du stock et en partie assemblés pour la commande  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Expédition entrepôt**, puis choisissez le lien associé.  
 2.  Ouvrez l’expédition entrepôt la plus récente créée à un magasin BLANC.  
@@ -436,7 +436,7 @@ Lorsque la commande vente est validée ultérieurement comme étant entièrement
 
     Lorsque The Device Shop paie pour la réception des 18 ordinateurs de CRONUS, la commande vente et ses ordres d’assemblage liés sont supprimés.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
  [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Assembler des articles](assembly-how-to-assemble-items.md)   

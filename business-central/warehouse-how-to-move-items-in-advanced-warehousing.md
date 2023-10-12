@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '7351,'
 ---
 
-# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Déplacer des articles dans les configurations entrepôt avancées qui utilisent le prélèvement et le rangement dirigés
+# Déplacer des articles dans les configurations entrepôt avancées qui utilisent le prélèvement et le rangement dirigés
 
 Vous pouvez déplacer des articles entre emplacements sans demande d’un document origine. Par exemple, vous voudrez peut-être le faire dans le cadre des activités suivantes :
 
@@ -36,9 +36,9 @@ Les pages **Feuille mouvement**, **Prélèvement entrepôt interne** et **Rangem
 * Les rangements utilisent des modèles de rangement
 * Le prélèvement utilise le classement et la disponibilité des emplacements
 
-## <a name="warehouse-movement-worksheet"></a>Feuille mouvements entrepôt
+## Feuille mouvements entrepôt
 
-### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Pour déplacer des articles avec la feuille mouvement entrepôt
+### Pour déplacer des articles avec la feuille mouvement entrepôt
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille mouvement**, puis choisissez le lien associé.  
 2. Remplissez manuellement les champs des lignes de la feuille ou utilisez l’une des actions suivantes pour remplir automatiquement les lignes :
@@ -55,7 +55,7 @@ Les pages **Feuille mouvement**, **Prélèvement entrepôt interne** et **Rangem
 
 3. Choisissez l’action **Créer mouvement** pour créer le mouvement. Une fois le mouvement terminé, vous pouvez l’enregistrer.  
 
-### <a name="to-register-the-warehouse-movement"></a>Pour enregistrer le mouvement d’entrepôt
+### Pour enregistrer le mouvement d’entrepôt
 
 1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Mouvements**, puis sélectionnez le lien associé.  
 2. Ouvrez le document de mouvement pour l’enregistrer.  
@@ -71,9 +71,9 @@ Les pages **Feuille mouvement**, **Prélèvement entrepôt interne** et **Rangem
 > [!NOTE]  
 > Pour les emplacements qui utilisent le rangement et le prélèvement dirigés, vous ne pouvez pas déplacer manuellement les articles dans des emplacements de type **RÉCEPTION** car ils ne sont pas encore considérés comme du stock disponible. Vous devez ranger les articles dans ces emplacements avant qu’ils ne soient disponibles pour les mouvements.
 
-## <a name="internal-pick"></a>Prélèvement interne
+## Prélèvement interne  
 
-### <a name="to-create-an-internal-pick"></a>Pour créer un prélèvement interne
+### Pour créer un prélèvement interne  
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvement interne entrepôt**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.
@@ -82,7 +82,7 @@ Les pages **Feuille mouvement**, **Prélèvement entrepôt interne** et **Rangem
 5. Choisissez l’action **Créer prélèvement**. Une instruction prélèvement entrepôt est maintenant créée pour un magasinier. Vous pouvez également choisir l’action **Lancer** et créer des prélèvements entrepôt à l’aide de la page **Feuille prélèvement**. Pour plus d’informations sur les feuilles prélèvement, consultez [Créer des documents de prélèvement en bloc avec la feuille prélèvement](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
 6. Une fois le prélèvement terminé, vous pouvez l’enregistrer.  
 
-### <a name="to-register-the-warehouse-pick"></a>Pour enregistrer le prélèvement d’entrepôt
+### Pour enregistrer le prélèvement d’entrepôt
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements**, puis choisissez le lien associé.  
 
@@ -94,9 +94,9 @@ Les pages **Feuille mouvement**, **Prélèvement entrepôt interne** et **Rangem
 
 4. Après avoir prélevé et placé les articles dans la zone ou l’emplacement d’expédition, choisissez l’action **Enregistrer prélèvement**.  
 
-## <a name="internal-put-away"></a>Rangement interne
+## Rangement interne  
 
-### <a name="to-create-an-internal-put-away"></a>Pour créer un rangement interne
+### Pour créer un rangement interne  
 
 1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Rangements internes entrepôt**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.
@@ -110,7 +110,7 @@ Les pages **Feuille mouvement**, **Prélèvement entrepôt interne** et **Rangem
 6. Choisissez l’action **Créer rangement**. Une instruction rangement entrepôt est maintenant créée pour un magasinier. Vous pouvez également choisir l’action **Lancer** pour créer des rangements entrepôt à l’aide de la page **Feuille rangement**. Pour plus d’informations sur les feuilles rangement, consultez [Créer des documents de rangement en bloc avec la feuille rangement](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
 6. Une fois le rangement terminé, vous pouvez l’enregistrer.  
 
-### <a name="to-register-the-warehouse-put-away"></a>Pour enregistrer le rangement entrepôt
+### Pour enregistrer le rangement entrepôt
 
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Rangements**, puis sélectionnez le lien associé.
 2. Ouvrez le rangement entrepôt qui est prêt à être traité.  
@@ -130,7 +130,7 @@ Les pages **Feuille mouvement**, **Prélèvement entrepôt interne** et **Rangem
 
 5. Après avoir placé tous les articles dans des emplacements selon les instructions, choisissez l’action **Enregistrer rangement**.  
 
-## <a name="to-register-a-movement-that-has-already-happened"></a>Pour enregistrer un mouvement qui a déjà eu lieu
+## Pour enregistrer un mouvement qui a déjà eu lieu
 
 Si vous devez enregistrer le fait que des articles ont déjà été déplacés vers d’autres emplacements sans rangement, prélèvement ou mouvement, vous pouvez utiliser la page **Feuille reclassement entrepôt** pour enregistrer le mouvement.
 
@@ -138,7 +138,7 @@ Si vous devez enregistrer le fait que des articles ont déjà été déplacés v
 2. Renseignez les champs **N° article**, **Du code zone**, **Du code emplacement**, **Vers code zone** et **Du code emplacement**.  
 3. Sélectionnez l’action **Enregistrer**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  

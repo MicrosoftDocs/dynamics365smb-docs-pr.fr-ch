@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-variants"></a>Procédure pas à pas : variantes
+# Procédure pas à pas : variantes
 
 Dans cet article, nous vous expliquons comment utiliser les données de démonstration de Contoso Coffee pour en savoir plus sur les variantes.
 
-## <a name="scenario"></a>Scénario
+## Scénario
 
 Vous êtes planificateur de production chez Contoso Coffee. Vous devez mettre à jour la prévision de la demande pour chaque variante de l’article SP-SCM1006, AutoDripLite. Comme les couleurs sont différentes, vous devez vous assurer que la bonne nomenclature (BOM) est utilisée pour chaque variante. Exécutez la feuille planning pour calculer l’approvisionnement.  
 
-## <a name="steps"></a>Étapes
+## Étapes
 
 1. Configurez les unités de gestion des stocks pour l’article SP-SCM1006, AutoDripLite. Attribuez une nomenclature pour SKU avec les variantes ROUGE et BLANC.
 
@@ -28,17 +28,17 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez mettre à
 
     4. Définissez le champ **Créer par** sur *Magasin et variante*.
 
-    5. Définissez un filtre pour le magasin sur *Nord*, puis cliquez sur le bouton **OK**.
+    5. Définissez un filtre pour le magasin sur *PRINCIPAL*, puis cliquez sur le bouton **OK**.
 
     6. Choisissez l’action **Unités de gestion des stocks**.  
 
     7. Mettez à jour les nomenclatures de production pour les unités de stockage suivantes :
 
-        1. ROUGE sur NORD, définissez SP-SCM1006-RED  
+        1. ROUGE sur PRINCIPAL, définissez SP-SCM1006-RED  
 
-        2. BLANC sur NORD, définissez SP-SCM1006-WHITE  
+        2. BLANC sur PRINCIPAL, définissez SP-SCM1006-WHITE  
 
-        3. Gardez le numéro de nomenclature de production vide pour NOIR sur NORD  
+        3. Gardez le numéro de nomenclature de production vide pour NOIR sur PRINCIPAL  
 
 2. Mettez à jour les paramètres production et respectez les prévisions de demande sur les magasins et les variantes.  
 
@@ -50,7 +50,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez mettre à
 
     4. Fermez la fenêtre **Paramètres production**.
 
-3. Créez une prévision de la demande mensuelle, *AUTODRIP*. Filtrez-la par l’article SP-SCM1006 et le magasin NORD. Définissez la demande pour Mai pour chaque variante. 
+3. Créez une prévision de la demande mensuelle, *AUTODRIP*. Filtrez-la par l’article SP-SCM1006 et le magasin PRINCIPAL. Définissez la demande pour Mai pour chaque variante. 
 
     1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez *Prévision de la demande*, puis sélectionnez le lien associé.
 
@@ -64,17 +64,17 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez mettre à
 
     6. Activez le champ **Prévision sur magasin**.
 
-    7. Dans le champ **Filtre magasin**, sélectionnez *NORD*
+    7. Dans le champ **Filtre magasin**, sélectionnez *PRINCIPAL*
 
     8. Activez le champ **Utiliser prévisions sur variantes**.
 
     9. Pour chaque ligne, les valeurs sont mises à jour dans la colonne Mai
 
-        1. ROUGE sur NORD, défini sur 100
+        1. ROUGE sur PRINCIPAL, défini sur 100
 
-        2. BLANC sur NORD, défini sur 200
+        2. BLANC sur PRINCIPAL, défini sur 200
 
-        3. NOIR sur NORD, défini sur 300
+        3. NOIR sur PRINCIPAL, défini sur 300
 
     10. Fermer les fenêtres de prévision de la demande
 
@@ -98,6 +98,6 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez mettre à
 
     9. Pour chaque ligne créée, choisissez l’action **Composants** et vérifiez quelle couleur est utilisée.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Introduction aux données de démonstration Contoso Coffee](../contoso-coffee-intro.md)  

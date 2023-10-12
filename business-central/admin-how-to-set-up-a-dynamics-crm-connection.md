@@ -6,30 +6,55 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
-ms.date: 03/22/2023
+ms.date: 09/28/2023
 ms.author: bholtorf
 ---
-# <a name="connect-to-microsoft-dataverse"></a>Se connecter à Microsoft Dataverse
+# Se connecter à Microsoft Dataverse
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Cet article décrit comment configurer une connexion entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. En règle générale, les entreprises créent la connexion pour intégrer et synchroniser des données avec une autre application métier Dynamics 365 telle que [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-## <a name="before-you-start"></a>Avant de commencer
+## Avant de commencer
 
 Avant de créer la connexion, quelques informations doivent être préparées :  
 
 * L’URL pour l’environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)] auquel vous souhaitez vous connecter. Si vous utilisez le guide de configuration assistée **Configuration de la connexion Dataverse** pour créer la connexion, nous trouverons vos environnements. Vous pouvez également entrer l’URL d’un autre environnement dans votre abonné.  
 * Le nom d’utilisateur et le mot de passe d’un compte ayant les autorisations administrateur dans [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * Si vous avez une vague de lancement 1 de 2020 [!INCLUDE[prod_short](includes/prod_short.md)] sur site, version 16.5, lisez l’article [Quelques problèmes connus](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). Vous devrez effectuer la solution de contournement décrite avant de pouvoir créer votre connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-* La devise société de l′entreprise dans [!INCLUDE[prod_short](includes/prod_short.md)] doit être identique à la devise de la transaction de base dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Après avoir effectué une transaction dans la devise de base dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)], vous ne pouvez pas la modifier. Pour plus d′informations, voir [Entité de devise de transaction (devise)](/powerapps/developer/data-platform/transaction-currency-currency-entity). Toutes les sociétés [!INCLUDE[prod_short](includes/prod_short.md)] que vous connectez à une organisation [!INCLUDE[cds_long_md](includes/cds_long_md.md)] doivent utiliser la même devise.
+* Les devises locales utilisées par chaque entreprise. Les entreprises [!INCLUDE [prod_short](includes/prod_short.md)] peuvent se connecter à un environnement [!INCLUDE [cds_long_md](includes/cds_long_md.md)] dont la devise de base est différente de leur devise locale. Pour en savoir plus sur la gestion des configurations multidevises, consultez [Autoriser différentes devises](#allow-for-different-currencies).
 
 > [!IMPORTANT]
 > Votre environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)] ne doit pas être en mode Administration. Le mode Administration entraînera l’échec de la connexion car le compte d’utilisateur d’intégration pour la connexion ne dispose pas des autorisations d’administrateur. Pour plus d’informations, voir [Mode Administration](/power-platform/admin/admin-mode).
 
 > [!Note]
 > Ces étapes décrivent la procédure pour la version en ligne de [!INCLUDE[prod_short](includes/prod_short.md)].
-> Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site et que vous n’utilisez pas de compte Azure Active Directory pour vous connecter à [!INCLUDE [cds_long_md](includes/cds_long_md.md)], vous devez également spécifier un nom d’utilisateur et un mot de passe d’un compte d’utilisateur pour l’intégration. Ce compte est appelé le compte « d’utilisateur d’intégration ». Si vous utilisez un compte Azure Active Directory, le compte d’utilisateur d’intégration n’est pas requis ou affiché. L’utilisateur d’intégration sera configuré automatiquement et ne nécessite pas de licence.
+> Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site et que vous n’utilisez pas de compte Microsoft Entra pour vous connecter à [!INCLUDE [cds_long_md](includes/cds_long_md.md)], vous devez également spécifier un nom d’utilisateur et un mot de passe d’un compte d’utilisateur pour l’intégration. Ce compte est appelé le compte « d’utilisateur d’intégration ». Si vous utilisez un compte Microsoft Entra, le compte utilisateur d’intégration n’est pas requis ni affiché. L’utilisateur d’intégration sera configuré automatiquement et ne nécessite pas de licence.
 
-## <a name="set-up-a-connection-to-"></a>Configurer une connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## Autoriser différentes devises
+
+Les entreprises [!INCLUDE [prod_short](includes/prod_short.md)] peuvent se connecter à un environnement [!INCLUDE [cds_long_md](includes/cds_long_md.md)] dont la devise de base est différente de leur devise locale.
+
+> [!NOTE]
+> La synchronisation de plusieurs devises nécessite que vous utilisiez une synchronisation unidirectionnelle, de [!INCLUDE [prod_short](includes/prod_short.md)] vers [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
+
+Pour en savoir plus sur la devise de base dans [!INCLUDE [cds_long_md](includes/cds_long_md.md)], consultez [Entité de devise de transaction (devise)](/powerapps/developer/data-platform/transaction-currency-currency-entity). 
+
+Pour en savoir plus sur les devises dans [!INCLUDE [prod_short](includes/prod_short.md)], consultez [Devises dans Business Central](finance-currencies.md).
+
+Pour autoriser différentes devises, avant de vous connecter, assurez-vous d’avoir spécifié les paramètres suivants :
+
+* Le paramètre de devise de transaction de base dans [!INCLUDE [cds_long_md](includes/cds_long_md.md)] a le code de devise spécifié sur la page **Devises** dans [!INCLUDE [prod_short](includes/prod_short.md)].
+* Au moins un taux de change est spécifié pour la devise dans [!INCLUDE [prod_short](includes/prod_short.md)] sur la page **Taux de change devise**.
+
+Lorsque vous activez la connexion à [!INCLUDE [cds_long_md](includes/cds_long_md.md)], [!INCLUDE [prod_short](includes/prod_short.md)] ajoute sa devise locale à l’entité **Devise** dans [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. La devise locale utilise le taux de change du champ **Facteur devise** dans la page **Taux de change devise**.
+
+Étant donné que la synchronisation des devises est unidirectionnelle, de [!INCLUDE [prod_short](includes/prod_short.md)] vers [!INCLUDE [cds_long_md](includes/cds_long_md.md)], les montants monétaires sont convertis et synchronisés comme suit :
+
+* Dans la devise de base [!INCLUDE [cds_long_md](includes/cds_long_md.md)], les montants sont convertis dans la devise locale [!INCLUDE [prod_short](includes/prod_short.md)] en fonction du dernier taux de change synchronisé depuis [!INCLUDE [prod_short](includes/prod_short.md)].
+* Dans la devise locale [!INCLUDE [prod_short](includes/prod_short.md)], les montants sont synchronisés avec la devise locale [!INCLUDE [prod_short](includes/prod_short.md)] dans l’une des devises supplémentaires hors base dans [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
+
+## Configurer une connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 Pour tous les types d’authentification autres que l’authentification Microsoft 365, configurez votre connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)] sur la page **Configuration de la connexion Dataverse**. Pour l’authentification Microsoft 365, il est recommandé d’utiliser le guide de configuration assistée **Paramétrage de la connexion Dataverse**. Le guide facilite la configuration de la connexion et spécifie les fonctions avancées telles que le modèle de propriété et la synchronisation initiale.  
 
@@ -42,7 +67,7 @@ Pour tous les types d’authentification autres que l’authentification Microso
 >
 > En donnant son consentement au nom de l’organisation, l’administrateur autorise l’application Azure enregistrée appelée [!INCLUDE[prod_short](includes/prod_short.md)] Intégration à [!INCLUDE[cds_long_md](includes/cds_long_md.md)] à synchroniser les données en utilisant les informations d’identification de l’utilisateur d’application d’intégration [!INCLUDE[prod_short](includes/prod_short.md)] automatiquement créé.
 
-### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>Pour utiliser le guide de configuration assistée Paramétrage de la connexion Dataverse
+### Pour utiliser le guide de configuration assistée Paramétrage de la connexion Dataverse
 
 Le guide de configuration de connexion Dataverse peut faciliter la connexion des applications et peut même vous aider à exécuter une synchronisation initiale. Si vous choisissez d’exécuter la synchronisation initiale, [!INCLUDE[prod_short](includes/prod_short.md)] examinera les données des deux applications et fournira des recommandations sur la manière d’aborder la synchronisation initiale. Le tableau suivant décrit les recommandations.
 
@@ -62,7 +87,7 @@ Le guide de configuration de connexion Dataverse peut faciliter la connexion des
 > [!NOTE]
 > Si vous n’êtes pas invité à vous connecter avec votre compte administrateur, c’est probablement parce que les fenêtres contextuelles sont bloquées. Pour vous connecter, autorisez les fenêtres contextuelles de `https://login.microsoftonline.com`.
 
-### <a name="to-create-or-maintain-the-connection-manually"></a>Pour créer ou conserver manuellement la connexion
+### Pour créer ou conserver manuellement la connexion
 
 La procédure suivante décrit comment configurer manuellement la connexion sur la page **Paramétrage de la connexion Dataverse**. C’est sur la page **Configuration de la connexion Dataverse** que vous gérez les paramètres d’intégration.
 
@@ -90,7 +115,7 @@ La procédure suivante décrit comment configurer manuellement la connexion sur 
 5. Si la synchronisation de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] n’est pas déjà configurée, vous recevrez un message vous demandant si vous souhaitez utiliser les paramètres de synchronisation par défaut. Selon que vous souhaitez conserver ou non les enregistrements alignés dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)] et [!INCLUDE[prod_short](includes/prod_short.md)], sélectionnez **Oui** ou **Non**.
 
 <!--
-## <a name="show-me-the-process"></a>Show Me the Process
+## Show Me the Process
 
 The following video shows the steps to connect [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
   
@@ -98,7 +123,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## <a name="customize-the-match-based-coupling"></a>Personnaliser le couplage par correspondance
+## Personnaliser le couplage par correspondance
 
 À partir de la 2e vague de lancement de 2021, un administrateur peut saisir des critères pour coupler des enregistrements en fonction de correspondances. Vous pouvez lancer l’algorithme de correspondance des enregistrements à partir des emplacements suivants dans [!INCLUDE [prod_short](includes/prod_short.md)] :
 
@@ -130,7 +155,7 @@ Dans les trois cas, la page **Sélectionner les critères de couplage** s’ouvr
 
 * Spécifiez s’il faut créer une nouvelle instance d’entité dans [!INCLUDE [cds_long_md](includes/cds_long_md.md)] au cas où aucune correspondance non couplée unique ne peut être trouvée en utilisant les critères de correspondance. Pour activer cette fonctionnalité, choisissez l’action **Créer si impossible de trouver une correspondance**.  
 
-### <a name="view-the-results-of-the-coupling-job"></a>Voir les résultats de la tâche de couplage
+### Voir les résultats de la tâche de couplage
 
 Pour afficher les résultats de la tâche de couplage, ouvrez la page **Mappages de table d’intégration**, sélectionnez le mappage pertinent, choisissez l’action **Couplage**, puis choisissez l’action **Journal des tâches de couplage d’intégration**.  
 
@@ -157,7 +182,7 @@ En général, le couplage échoue pour les raisons suivantes :
 > [!TIP]
 > Pour vous aider à avoir une vue d’ensemble de la progression du couplage, le champ **Couplé à Dataverse** indique si un enregistrement est couplé à une entité [!INCLUDE [cds_long_md](includes/cds_long_md.md)] . Vous pouvez utiliser le champ **Couplé à Dataverse** pour filtrer la liste des enregistrements que vous synchronisez.
 
-## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Mettre à niveau les connexions de Business Central Online pour utiliser l’authentification basée sur les certificats
+## Mettre à niveau les connexions de Business Central Online pour utiliser l’authentification basée sur les certificats
 
 > [!NOTE]
 > Cette section s’applique uniquement aux locataires [!INCLUDE[prod_short](includes/prod_short.md)] en ligne hébergés par Microsoft. Les locataires en ligne hébergés par les développeurs de logiciels indépendants et les installations locales ne sont pas affectés.
@@ -166,7 +191,7 @@ En avril 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] abandonne le ty
 
 Pour éviter de perturber les intégrations, _vous devez mettre à niveau_ la connexion pour utiliser l’authentification par certificat. Bien que le changement soit prévu pour mars 2022, nous vous recommandons fortement de mettre à niveau dès que possible. Les étapes suivantes décrivent comment effectuer une mise à niveau vers l’authentification par certificat. 
 
-### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Pour mettre à niveau votre connexion de Business Central Online pour utiliser l’authentification basée sur les certificats
+### Pour mettre à niveau votre connexion de Business Central Online pour utiliser l’authentification basée sur les certificats
 
 1. Selon que vous intégrez ou non à Dynamics 365 Sales, effectuez l’une des opérations suivantes :
    * Si vous le faites, ouvrez la page **Configuration de la connexion Microsoft Dynamics 365**.
@@ -177,15 +202,15 @@ Pour éviter de perturber les intégrations, _vous devez mettre à niveau_ la co
 > [!NOTE]
 > Vous devez répéter ces étapes dans chaque environnement [!INCLUDE[prod_short](includes/prod_short.md)], y compris les environnements de production et de bac à sable, et dans chaque entreprise où vous êtes connecté à [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-## <a name="connecting-on-premises-versions"></a>Connexion des versions locales
+## Connexion des versions locales
 
 Pour connecter [!INCLUDE[prod_short](includes/prod_short.md)] sur site à [!INCLUDE[cds_long_md](includes/cds_long_md.md)], vous devez spécifier quelques informations sur la page **Configuration de la connexion Dataverse**.
 
-Pour se connecter à l’aide d’un compte Azure Active Directory (Azure AD), vous devez enregistrer une application dans Azure AD. Vous devrez fournir l’ID de l’application, le secret du coffre de clés et l’URL de redirection à utiliser. L’URL de redirection est pré-remplie et devrait fonctionner pour la plupart des installations. Vous devez configurer votre installation pour utiliser HTTPS. Pour plus d’informations, voir [Configuration de SSL pour sécuriser la connexion du client Web Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Si vous configurez votre serveur pour avoir une page d’accueil différente, vous pouvez changer l’URL. Le secret client sera enregistré sous forme de chaîne cryptée dans votre base de données. 
+Pour vous connecter à l’aide d’un compte Microsoft Entra, vous devez enregistrer une application dans Microsoft Entra ID. Vous devrez fournir l’ID de l’application, le secret du coffre de clés et l’URL de redirection à utiliser. L’URL de redirection est pré-remplie et devrait fonctionner pour la plupart des installations. Vous devez configurer votre installation pour utiliser HTTPS. Pour plus d’informations, voir [Configuration de SSL pour sécuriser la connexion du client Web Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Si vous configurez votre serveur pour avoir une page d’accueil différente, vous pouvez changer l’URL. Le secret client sera enregistré sous forme de chaîne cryptée dans votre base de données. 
 
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Pour enregistrer une application dans Azure AD pour se connecter de Business Central à Dataverse
+### Pour enregistrer une application dans Microsoft Entra ID pour la connexion de Business Central à Dataverse
 
-Les étapes suivantes supposent que vous utilisez Azure AD pour gérer les identités et les accès. Pour plus d’informations sur l’enregistrement d’une application dans Azure AD, voir [Démarrage rapide : enregistrer une application avec la plateforme d’identité Microsoft](/azure/active-directory/develop/quickstart-register-app). 
+Les étapes suivantes supposent que vous utilisez Microsoft Entra ID pour gérer les identités et les accès. Pour plus d’informations sur l’enregistrement d’une application dans Microsoft Entra ID, voir [Démarrage rapide : enregistrer une application avec la plateforme d’identité Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 
 1. Dans le portail Azure, sous **Gérer** dans le volet de navigation, choisissez **Authentification**.  
 2. Sous **Rediriger les URL**, ajoutez l’URL de redirection suggérée sur la page de **Configuration de la connexion Dataverse** dans [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -201,17 +226,17 @@ Les étapes suivantes supposent que vous utilisez Azure AD pour gérer les ident
 6. Choisissez **Aperçu**, puis recherchez la valeur **ID application (client)**. Cet ID est l’ID client de votre application. Vous devez le saisir soit sur la page **Configuration de la connexion Dataverse** dans le champ **ID client** ou stockez-le dans un stockage sécurisé et fournissez-le à un souscripteur d’événements.
 7. Dans [!INCLUDE[prod_short](includes/prod_short.md)], sur la page **Configuration de la connexion Dataverse**, dans le champ **URL Environnement**, saisissez l’URL de votre environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 8. Pour activer la connexion à [!INCLUDE[cds_long_md](includes/cds_long_md.md)], activez le bouton bascule **Activé**.
-9. Connectez-vous avec votre compte administrateur pour Azure Active Directory (ce compte doit avoir une licence valide pour [!INCLUDE[cds_long_md](includes/cds_long_md.md)] et être administrateur dans votre environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)]). Une fois connecté, vous serez invité à autoriser votre application enregistrée à se connecter à [!INCLUDE[cds_long_md](includes/cds_long_md.md)] au nom de l’organisation. Vous devez donner votre accord pour terminer la configuration.
+9. Connectez-vous avec votre compte administrateur pour Microsoft Entra ID (ce compte doit avoir une licence valide pour [!INCLUDE[cds_long_md](includes/cds_long_md.md)] et être administrateur dans votre environnement [!INCLUDE[cds_long_md](includes/cds_long_md.md)]). Une fois connecté, vous serez invité à autoriser votre application enregistrée à se connecter à [!INCLUDE[cds_long_md](includes/cds_long_md.md)] au nom de l’organisation. Vous devez donner votre accord pour terminer la configuration.
 
    > [!NOTE]
    > Si vous n’êtes pas invité à vous connecter avec votre compte administrateur, c’est probablement parce que les fenêtres contextuelles sont bloquées. Pour vous connecter, autorisez les fenêtres contextuelles de `https://login.microsoftonline.com`.
 
-### <a name="to-disconnect-from-"></a>Pour se déconnecter de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### Pour se déconnecter de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration de la connexion Dataverse**, puis choisissez le lien associé.
 2. Sur la page **Paramétrage de la connexion Dataverse**, désactivez le bouton bascule **Activé**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Afficher le statut d’une synchronisation](admin-how-to-view-synchronization-status.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: 'Réception, rangement, déplacement, prélèvement et expédition dans une configuration d’entrepôt avancée avec prélèvement et rangement dirigés'
-description: "Dans Business\_Central, les processus entrants et sortants peuvent être effectués de quatre manières, à l’aide de différentes fonctionnalités en fonction du niveau de complexité de l’entrepôt."
+description: 'Les processus entrants et sortants peuvent être effectués de différentes manières, en fonction du niveau de complexité de l’entrepôt.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -12,11 +12,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration-with-directed-put-away-and-pick"></a>Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt avancées avec prélèvement et rangement suggérés
+# Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt avancées avec prélèvement et rangement suggérés
 
 Cette procédure pas à pas montre comment effectuer des flux entrants et sortants dans la configuration avancée : Prélèvement et rangement dirigés. Pour plus d’informations, voir [Présentation des différentes options de configuration](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Conditions préalables
+## Conditions préalables  
 Pour exécuter cette procédure, vous devez faire de vous un magasinier sur le site *BLANC* en procédant comme suit :  
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
 2. Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Utilisateurs**.  
@@ -24,25 +24,25 @@ Pour exécuter cette procédure, vous devez faire de vous un magasinier sur le s
 4. Activez le bouton à bascule **Par défaut**.
 
 
-## <a name="scenario"></a>Scénario
+## Scénario  
 Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transbordement et de réapprovisionnement des emplacements pour accélérer les délais de réception et d’expédition.  
 
-## <a name="steps"></a>Étapes
+## Étapes
 
 1. Créez une expédition entrepôt.  
 
     1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 2.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
-    2. Sélectionnez la commande du client 10000 pour l’emplacement BLANC. Le numéro de commande externe est *W-1*. Utilisez les outils de personnalisation si le **N° de commande externe** n’est pas visible. Pour plus d’informations, voir [Personnaliser votre espace de travail](../../ui-personalization-user.md).
+    2. Sélectionnez la commande du client 10000 pour l’emplacement BLANC. Le numéro de commande externe est *W-1*.
     3. Choisissez l’action **Créer expédition entrepôt** pour créer une expédition entrepôt pour la commande client sélectionnée.
-    4.  Choisissez l’action **Traiter** pour informer l’entrepôt que l’expédition client est prête pour l’activité entrepôt.  
+    4. Choisissez l’action **Traiter** pour informer l’entrepôt que l’expédition client est prête pour l’activité entrepôt.  
 
 2. Définir des emplacements pour l’article pour contrôler l’endroit où il est rangé 
 
     1.  Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 3.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
     2.  Sélectionnez *WRB-1000*, puis sélectionnez l’action **Contenus emplacement**.  
-    3.  Sélectionnez l’action **Nouveau**. Ajoutez deux lignes. Utilisez les outils de personnalisation si le champ **Code emplacement** n’est pas visible. Pour plus d’informations, voir [Personnaliser votre espace de travail](../../ui-personalization-user.md). 
+    3.  Sélectionnez l’action **Nouveau**. Ajoutez deux lignes.
     
-    |Article ;|Code magasin|Code emplacement|Statique|Unité de mesure|
+    |Article|Code magasin|Code emplacement|Corrigé|Unité de mesure|
     |----------|----------|---------|---|------|  
     |WRB-1000|BLANC|W-05-0001|Oui|SAC|  
     |WRB-1000|BLANC|W-05-0002|Oui|SAC|
@@ -136,7 +136,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
     4. Confirmez l’option **Expédier**.
 
 
-## <a name="results"></a>Résultats
+## Résultats
 - la **Réception entrepôt enregistrée** est créée
 - le **Rangement entrepôt enreg.** est créé    
 - la **Réceptions achat enregistrées** est créée    
@@ -150,7 +150,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
 
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Recevoir des articles](../../warehouse-how-receive-items.md) 
 [Détails de conception : Flux d’enlogement](../../design-details-inbound-warehouse-flow.md) 
 [Expédier les articles](../../warehouse-how-ship-items.md) 

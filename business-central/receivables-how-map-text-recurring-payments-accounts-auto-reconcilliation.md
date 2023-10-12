@@ -52,13 +52,11 @@ Pour toujours valider les dépenses liées aux frais d’une banque spécifique,
 | --- | --- | --- | --- | --- |
 | MyBank |VIDE |60400|Compte général |VIDE |
 
-## Voir la [formation Microsoft](/training/modules/use-journals-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
-[Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
+[Configuration du service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

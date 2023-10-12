@@ -242,8 +242,6 @@ Vous pouvez spécifier les états à imprimer à différentes étapes en choisis
 > [!NOTE]
 > Les rapports disponibles peuvent varier en fonction de la localisation de votre pays/région. L’application de base n’inclut aucune présentation.
 
-## Voir la [formation Microsoft](/training/modules/adjust-inventory/) associée
-
 ## Voir aussi
 
 [Comptabiliser, ajuster et reclasser le stock avec les feuilles](inventory-how-count-adjust-reclassify.md)  

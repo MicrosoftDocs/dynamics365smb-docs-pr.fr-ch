@@ -104,8 +104,6 @@ Vous remplissez les champs dans l’ordre inverse, comme suit :
 
 L’axe analytique ADM est copié à partir du magasin EST.
 
-## Voir la formation associée sur [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
-
 ## Voir aussi
 
 [Gestion du stock](inventory-manage-inventory.md)  
