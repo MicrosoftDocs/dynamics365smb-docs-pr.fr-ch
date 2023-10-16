@@ -78,13 +78,11 @@ La fonctionnalité **Envoyer des notifications d’approbations échues** passe 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Demandes approbations échues**, puis sélectionnez le lien associé.
 2. Sur la page **Demandes approbations échues**, sélectionnez l’action **Envoyer les notifications d’approbation échues**.
 
-## Voir la [formation Microsoft](/training/modules/use-approval-workflows/) associée
-
 ## Voir aussi
 
-[Utilisation des flux d’approbation](across-use-workflows.md)  
+[Utilisation des flux de travail approbation](across-use-workflows.md)  
 [Flux de travail](across-workflow.md)  
-[Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md)  
+[Configuration des utilisateurs des approbations](across-how-to-set-up-approval-users.md)  
 [Ventes](sales-manage-sales.md)  
 [Documents entrants](across-income-documents.md)  
 [Achats](purchasing-manage-purchasing.md)  

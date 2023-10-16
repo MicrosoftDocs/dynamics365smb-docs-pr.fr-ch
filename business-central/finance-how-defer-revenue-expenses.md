@@ -102,13 +102,11 @@ Si vous l’avez fait, vous devez faire une exception pour les reports afin de l
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité** ou **Paramètres utilisateur**, puis choisissez le lien associé.
 2. Dans les champs **Autoriser la validation des reports à partir de** et **Autoriser la validation des reports jusqu’au**, entrez une date de début et de fin pour la période.
 
-## Voir la [formation Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
-[Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
+[Utilisation des feuilles comptabilité](ui-work-general-journals.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

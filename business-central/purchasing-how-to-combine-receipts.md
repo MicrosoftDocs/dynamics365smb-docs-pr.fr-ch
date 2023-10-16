@@ -42,12 +42,10 @@ Vous pouvez également supprimer chacune des commandes manuellement.
 
 Répétez les étapes 1 à 3 pour tous les autres documents affectés, comme des commandes ouvertes achat.
 
-## Voir la [formation Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Achats](purchasing-manage-purchasing.md)  
-[Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Correction ou annulation des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

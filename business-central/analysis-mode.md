@@ -1,11 +1,11 @@
 ---
-title: Analyser les données dans les pages de liste à l’aide du mode d’analyse des données
+title: Analyser les données dans les pages de liste et le requêtes à l’aide du mode d’analyse des données
 description: "Découvrez comment utiliser le mode d’analyse des données dans Business\_Central pour analyser les données."
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 09/23/2023
+ms.date: 10/05/2023
 ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
@@ -21,7 +21,7 @@ Dans cet article, vous apprenez à analyser les données des pages de liste et d
 
 ## Conditions préalables 
 
-- Si vous utilisez Business Central version 22, le mode d’analyse des données est en version préliminaire, il doit donc être activé par un administrateur avant de pouvoir l’utiliser. Pour l’activer, accédez à la page **Gestion des fonctionnalités** et activez **Mise à jour des fonctionnalités : mode Analyse, analysez rapidement les données directement dans Business Central**. [En savoir plus sur la gestion des fonctionnalités](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Si vous utilisez Business Central version 22, le mode d’analyse des données est en version préliminaire. Un administrateur doit donc l’activer avant que vous puissiez l’utiliser. Pour l’activer, accédez à la page **Gestion des fonctionnalités** et activez **Mise à jour des fonctionnalités : mode Analyse, analysez rapidement les données directement dans Business Central**. [En savoir plus sur la gestion des fonctionnalités](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - Dans la version 23 et les versions ultérieures, votre compte doit disposer de l’ensemble d’autorisations **ANALYSE DES DONNÉES - EXEC** ou inclure l’autorisation d’exécution sur l’objet système **9640 Autoriser le mode d’analyse des données**. En tant qu’administrateur, vous pouvez exclure ces autorisations pour les utilisateurs qui ne doivent pas avoir accès au mode d’analyse.
 
 > [!NOTE]
@@ -69,7 +69,7 @@ La zone de données est l’endroit où les lignes et les colonnes de la page de
   - Pour épingler une colonne à gauche ou à droite de la zone de données afin qu’elle ne sorte pas de l’écran lorsque vous faites défiler, sélectionnez ![Affiche l’icône sur une colonne en mode analyse de données qui ouvre un menu d‘actions](media/analysis-mode-column-menu-icon.png) > **Épingler la colonne** > **Épingler à gauche** la partie colonne.
   - Définissez des filtres de données directement sur la définition de colonne au lieu d’aller dans les volets **Filtres d’analyse**. Vous pouvez toujours consulter les détails des données associées et pour chaque ligne, et ouvrir la fiche pour en savoir plus sur une entité donnée.
 - Utilisez la zone de données pour interagir avec les données. Pour les colonnes qui contiennent des valeurs numériques sommables, vous pouvez obtenir des statistiques descriptives sur un ensemble de champs en les marquant. Les statistiques apparaissent dans la barre d’état (2) en bas de la page.
-- Exportez les données au format Excel ou csv. Faites simplement un clic droit sur la zone de données ou sur une sélection de cellules à exporter.
+- Exportez les données au format Excel ou csv. Faites un clic droit sur la zone de données ou sur une sélection de cellules à exporter.
 
 ### Barre récapitulative (2)
 
@@ -103,7 +103,7 @@ Les **Colonnes** est l’un des deux volets qui fonctionnent ensemble pour défi
 |Groupes de lignes|Utilisez cette zone pour regrouper et additionner les données par un ou plusieurs champs. Vous ne pouvez inclure que des champs non numériques, tels que des champs de texte, de date et d’heure. Les groupes de lignes sont souvent utilisés en mode pivot.|
 |Valeurs|Utilisez cette zone pour spécifier les champs pour lesquels vous souhaitez un total. Vous ne pouvez inclure que des champs contenant des nombres pouvant être additionnés ; par exemple, pas les champs de texte, de date ou d’heure.|
 
-Pour déplacer un champ d’une zone à une autre, sélectionnez l’icône de saisie ![Affiche une vue d’ensemble d’une page sur le mode d’analyse](media/column-grab-icon.png) en regard de la colonne dans la liste ci-dessus et faites glisser dans la zone cible. Vous ne pouvez pas déplacer un champ dans une zone où cela n’est pas autorisé.
+Pour déplacer un champ d’une zone à une autre, sélectionnez l’icône de saisie ![Affiche une vue d’ensemble d’une page sur le mode d’analyse](media/column-grab-icon.png) en regard de la colonne dans la liste et faites glisser dans la zone cible. Vous ne pouvez pas déplacer un champ dans une zone où cela n’est pas autorisé.
 
 ### Filtres d’analyse (4)
 
@@ -131,6 +131,16 @@ Voici quelques conseils sur l’utilisation de plusieurs onglets d’analyse :
    > [!TIP]
    > Les onglets que vous configurez ne sont visibles que par vous. Les autres utilisateurs ne verront que les onglets qu’ils ont configurés.
 - Vous pouvez copier les onglets d’analyse. La copie peut être utile si vous souhaitez expérimenter la modification d’un onglet sans modifier l’original, ou si vous souhaitez créer différentes variantes de la même analyse.
+
+
+## Hiérarchies de dates
+
+En mode analyse, les champs de date de l’ensemble de données sont générés dans une hiérarchie Année-Trimestre-Mois de trois champs distincts. Cette hiérarchie est basée sur le calendrier normal, et non sur les calendriers fiscaux définis dans Business Central.
+
+Les champs supplémentaires sont nommés _\<field name\> Année_, _\<field name\> Trimestre_, et _\<field name\> Mois_. Par exemple, si l’ensemble de données comprend un champ appelé _Date de publication_, alors la hiérarchie de dates correspondante est constituée de champs appelés _Année de la date de publication_, _Trimestre de la date de publication_, et _Mois de la date de publication_.
+
+> [!NOTE]
+> La hiérarchie des dates ne s’applique actuellement qu’aux champs de type date, pas aux champs de type datetime.
 
 ## Mode Pivot
 

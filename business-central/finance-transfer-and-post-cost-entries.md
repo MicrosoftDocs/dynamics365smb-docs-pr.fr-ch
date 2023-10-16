@@ -98,8 +98,6 @@ Pour les écritures de coûts uniques, [!INCLUDE[prod_short](includes/prod_short
 
 Dans la table **Registre de coûts**, [!INCLUDE[prod_short](includes/prod_short.md)] crée une écriture à l’aide du transfert source depuis la comptabilité. L’écriture enregistre le premier et le dernier numéros des écritures comptables transférées, outre le premier et le dernier numéros des écritures de coûts créées.
 
-## Voir la [formation Microsoft](/training/modules/transfer-gl-entries-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
  [À propos de la comptabilité analytique](finance-about-cost-accounting.md)  

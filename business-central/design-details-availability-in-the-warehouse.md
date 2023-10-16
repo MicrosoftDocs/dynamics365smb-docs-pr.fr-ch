@@ -73,6 +73,10 @@ Le résultat est affiché dans le champ **Quantité totale disponible** de la pa
 
 Sur une ligne réservation, la quantité qui ne peut pas être réservée, parce qu’elle est affectée dans l’entrepôt, est affichée dans le champ **Qté affectée à l’entrepôt** de la page **Réservation**.  
 
+## Vérifier si les articles sont disponibles pour le prélèvement
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ### Calcul de la quantité disponible à réserver
 
 [!INCLUDE [prod_short](includes/prod_short.md)] calcule la quantité disponible à réserver de la façon suivante :  
@@ -85,8 +89,8 @@ Le schéma suivant montre les différents éléments du calcul.
 
 ## Voir aussi  
 
-[Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
+[Vue d’ensemble de la gestion d’entrepôt](design-details-warehouse-management.md)
 [Afficher la disponibilité des articles](inventory-how-availability-overview.md)
-
+[Prélever pour la fabrication, l’assemblage ou les tâches dans les configurations de stockage avancées](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

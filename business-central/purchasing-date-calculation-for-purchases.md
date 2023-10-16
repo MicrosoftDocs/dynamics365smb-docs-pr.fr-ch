@@ -53,17 +53,15 @@ Si vous modifiez la date de commande sur la ligne, [!INCLUDE[prod_short](include
 
 Vous pouvez spécifier manuellement la formule de date sur les lignes. Sinon, [!INCLUDE[prod_short](includes/prod_short.md)] utilisera les formules qui sont définies sur les pages suivantes dans l’ordre de priorité suivant :
 
-1. Catalogue d’articles par fournisseur
+1. Catalogue d'articles par fournisseur
 2. Fiche article
 3. Fiche point de stock
 4. Fiche fournisseur
 
-## Voir la [formation Microsoft](/training/modules/estimate-receipt-dates-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Calcul de la date des ventes](sales-date-calculation-for-sales.md)  
-[Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md)  
+[Calcul des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

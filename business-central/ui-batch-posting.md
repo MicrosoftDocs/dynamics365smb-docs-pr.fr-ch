@@ -11,11 +11,11 @@ ms.reviewer: bholtorf
 ms.date: 06/25/2021
 ms.author: bholtorf
 ---
-# <a name="post-multiple-documents-at-the-same-time"></a>Valider plusieurs documents en même temps
+# Valider plusieurs documents en même temps
 
 Au lieu de valider des documents individuels un par un, vous pouvez sélectionner plusieurs documents non validés dans une liste pour une validation immédiate ou une validation par lot, conformément à une planification, à la fin de la journée, par exemple. Cela peut être utile si seul un superviseur peut valider des documents créés par d’autres utilisateurs ou pour éviter des problèmes de performance du système liés à la validation pendant les heures de travail.
 
-## <a name="to-post-multiple-purchase-orders-immediately"></a>Pour valider plusieurs commandes achat immédiatement
+## Pour valider plusieurs commandes achat immédiatement
 
 La procédure suivante explique comment valider immédiatement plusieurs commandes achat. Les étapes sont similaires pour tous les documents achat et vente.
 
@@ -26,7 +26,7 @@ La procédure suivante explique comment valider immédiatement plusieurs command
 5. Choisissez l’action **Validation**, puis sélectionnez l’action **Valider**.
 6. Cliquez sur le bouton **Oui** dans le message de confirmation.
 
-## <a name="to-batch-post-multiple-purchase-orders"></a>Pour valider plusieurs commandes achat par lots
+## Pour valider plusieurs commandes achat par lots
 
 La procédure suivante explique comment valider plusieurs commandes achat par lots. Les étapes sont similaires pour tous les documents d’achat et de vente où l’action **Valider par lots** est disponible.
 
@@ -42,7 +42,7 @@ La procédure suivante explique comment valider plusieurs commandes achat par lo
 > [!NOTE]
 > La validation de plusieurs documents peut prendre un certain temps et bloquer d’autres utilisateurs. Envisagez d’activer la validation en arrière-plan. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
 
-## <a name="to-set-up-background-posting-with-job-queues"></a>Pour paramétrer la validation en arrière-plan avec les files d’attente des travaux
+## Pour paramétrer la validation en arrière-plan avec les files d’attente des travaux
 Les files d’attente des travaux sont un outil efficace pour planifier l’exécution des processus d’entreprises en arrière-plan, par exemple lorsque plusieurs utilisateurs essaient de valider des commandes vente, mais uniquement une commande à la fois.  
 
 La procédure suivante explique comment configurer la validation en arrière-plan des commandes vente. La procédure est identique pour les achats.  
@@ -67,14 +67,14 @@ La procédure suivante explique comment configurer la validation en arrière-pla
 4. Pour vérifier que la file d’attente des travaux fonctionne comme prévu, validez une commande vente. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
     Les commandes vente seront désormais ajoutées à une entrée de file d’attente de travaux dédiée, qui définit le moment où les documents sont validés. 
 
-### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Pour afficher un statut dans un document vente ou achat
+### Pour afficher un statut dans un document vente ou achat
 Si la file d’attente des travaux ne peut pas valider la commande vente, le statut passe à **Erreur**, et la commande vente est ajoutée à la liste des commandes vente que l’utilisateur doit traiter.
 1. Dans le document que vous avez essayé de valider avec la validation en arrière-plan, choisissez le champ **Statut de la file d’attente des travaux**, qui contient **Erreur**.
 2. Examinez le message d’erreur et résolvez le problème.
 
 Sinon, vous pouvez vérifier sur la page **Écritures journal file d’attente des travaux** si la commande vente a été validée avec succès. Pour plus d’informations, consultez la section [Surveiller la file d’attente des travaux](#monitor-the-job-queue).
 
-## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Pour créer une écriture file d’attente des travaux pour la validation par lots des commandes vente
+## Pour créer une écriture file d’attente des travaux pour la validation par lots des commandes vente
 
 Sinon, vous pouvez reporter les publications à des heures pratiques pour votre organisation. Par exemple, il peut sembler raisonnable dans votre activité d’exécuter certaines routines lorsque la plupart de la saisie de données de la journée est achevée. Vous pouvez obtenir cette opération en configurant la file projets pour exécuter différents états de validation par lots, par exemple, **TPL valider commandes vente**, **TPL valider factures vente** et les états similaires. [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge la validation en arrière-plan de toutes les ventes, achats, et documents service.
 
@@ -111,13 +111,13 @@ La procédure suivante décrit comment définir le rapport **TPL valider command
 
 Les commandes vente dans les filtres définis sont à présent validées chaque jour de la semaine à 16 h 00.
 
-## <a name="monitor-the-job-queue"></a>Surveiller la file d’attente des travaux
+## Surveiller la file d’attente des travaux
 
 Si vous configurez la validation en arrière-plan avec les files d’attente des travaux, convertissez-la en une tâche périodique pour surveiller la file d’attente des travaux et détecter les éventuels problèmes. Vous pouvez suivre le statut dans la page **Écritures file d’attente des travaux**. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).  
 
 En tant qu’administrateur, vous pouvez utiliser [Application Insights](/azure/azure-monitor/app/app-insights-overview) pour recueillir et analyser la télémétrie que vous pouvez utiliser pour identifier les problèmes. Pour plus d’informations, consultez [Surveillance et analyse de la télémétrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) dans le contenu pour développeurs et administrateurs.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Validation des documents et des feuilles](ui-post-documents-journals.md)  
 [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)  

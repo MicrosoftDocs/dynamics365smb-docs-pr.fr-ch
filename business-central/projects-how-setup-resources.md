@@ -74,8 +74,6 @@ Outre le prix spécifié sur la fiche ressource, vous pouvez configurer des prix
 3. Sur la page **Prix ressource**, renseignez les champs sur une ligne selon vos besoins.
 4. Répétez l’étape 3 pour chaque autre prix ressource à configurer.
 
-## Voir la [formation Microsoft](/training/paths/set-up-jobs-resources/) associée
-
 ## Voir aussi
 
 [Configuration de la gestion de projets](projects-setup-projects.md)  

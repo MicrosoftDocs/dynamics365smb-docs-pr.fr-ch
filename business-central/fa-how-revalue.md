@@ -92,7 +92,7 @@ Si vous avez coché la case **Amortir coût acquisition** sur la facture avant q
 
 *Le coût d’acquisition supplémentaire est amorti de ((150 x 100) / 4 800) / 100 x 480 = 15*
 
-La base d’amortissement est maintenant égale à *5 280 = (4 800 + 480)* et l’amortissement cumulé équivaut à *165 = (100 + 50 + 15)*, soit 45 jours d’amortissement du coût d’acquisition total. Cela signifie que l’immobilisation sera totalement amortie au cours de sa durée de vie estimée à quatre ans.  
+La base d’amortissement est maintenant égale à *5 280 = (4 800 + 480)* et l’amortissement cumulé équivaut à *165 = (100 + 50 + 15)*, soit 45 jours d’amortissement du coût d’acquisition total. Cela signifie que l'immobilisation sera totalement amortie au cours de sa durée de vie estimée à quatre ans.  
 
 Lorsque le traitement par lots **Calculer amortissement** est exécuté le 30/09/00, le calcul suivant est utilisé :  
 
@@ -114,11 +114,9 @@ Si vous n’avez pas coché la case **Amort. jusqu’à date compta.**, l’acti
 
 *Amortissement total = 100 + 15 + 55,54 = 170,54*
 
-## Voir la [formation Microsoft](/training/paths/manage-advanced-fixed-assets-transactions/) associée
-
 ## Voir aussi
 
-[COMPTES D’IMMOBILISATIONS](fa-manage.md)  
+[Immobilisations](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
