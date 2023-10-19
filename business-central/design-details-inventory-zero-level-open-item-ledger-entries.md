@@ -10,12 +10,12 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf
 ---
-# Détails de conception : problème de lettrage article connu
+# <a name="design-details-known-item-application-issue"></a>Détails de conception : problème de lettrage article connu
 Cet article traite du problème de niveau de stock nul alors qu’il existe des écritures comptables article ouvertes dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 L’article commence par répertorier les symptômes courants du problème, puis décrit les notions de base du lettrage article pour prendre en charge les raisons décrites pour ce problème. À la fin de l’article, une solution de contournement est proposée pour résoudre ce problème.  
 
-## Symptômes du problème  
+## <a name="symptoms-of-the-issue"></a>Symptômes du problème
  Voici les symptômes courants du problème de stock nul alors qu’il existe des écritures comptables article ouvertes :  
 
 -   Le message suivant s’affiche lorsque vous tentez de clôturer une période d’inventaire : « La période d’inventaire ne peut pas être clôturée en raison d’un stock négatif pour un ou plusieurs articles ».  
@@ -29,7 +29,7 @@ L’article commence par répertorier les symptômes courants du problème, puis
      |333|28/01/2018|Vente|Expédition vente|102043|TEST|BLEU|-1|-10|-1|-1|Oui|  
      |334|28/01/2018|Vente|Expédition vente|102043|TEST|BLEU|1|10|1|1|Oui|  
 
-## Notions de base du lettrage article  
+## <a name="basics-of-item-application"></a>Notions de base du lettrage article
  Une écriture lettrage article est créée pour chaque mouvement de stock pour lier le destinataire de coût à sa source de coût afin que le coût puisse être transféré en fonction de la méthode d’évaluation du stock. Pour plus d’informations, voir [Détails de conception : traçabilité](design-details-item-application.md).  
 
 -   Pour une écriture comptable article entrante, l’écriture lettrage article est créée lorsque l’écriture comptable article est créée.  
@@ -42,7 +42,7 @@ L’article commence par répertorier les symptômes courants du problème, puis
 
 -   Coût lettré  
 
-### Lettrage de quantité  
+### <a name="quantity-application"></a>Lettrage de quantité
  Les lettrages de quantité sont effectués pour tous les mouvements de stock et sont créés automatiquement, ou manuellement dans des processus spécifiques. Lorsqu’ils sont effectués manuellement, les lettrages de quantité sont appelés des lettrages fixes.  
 
  Le schéma suivant décrit la façon dont les lettrages de quantité sont effectués.  
@@ -54,7 +54,7 @@ L’article commence par répertorier les symptômes courants du problème, puis
 > [!NOTE]  
 >  Si l’écriture comptable article sortante est évaluée par coût moyen, l’écriture comptable article entrante lettrée n’est pas l’unique source de coût. Elle joue simplement un rôle dans le calcul du coût moyen de la période.  
 
-### Coût lettré  
+### <a name="cost-application"></a>Coût lettré
 Les lettrages de coût sont uniquement créés pour les transactions entrantes lorsque le champ **Écriture article à lettrer** est renseigné pour fournir un lettrage fixe. Cela se produit généralement dans le cadre d’un avoir vente ou d’un scénario d’annulation de l’expédition. Le lettrage de coût garantit que l’article retourne dans le stock avec le même coût que lorsqu’il a été livré.  
 
 Le schéma suivant décrit la façon dont les lettrages de coût sont effectués.  
@@ -66,7 +66,7 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 
  En outre, notez que l’écriture comptable entrante 3 (Retour vente) est un destinataire de coût pour l’écriture comptable article sortante d’origine 2 (Vente).  
 
-## Illustration d’un flux de coûts de base  
+## <a name="illustration-of-a-basic-cost-flow"></a>Illustration d’un flux de coûts de base
  Imaginez un flux de coûts complet où un article est reçu, expédié et facturé, retourné avec la contrepassation du coût exact et réexpédié.  
 
  Le schéma suivant illustre le flux de coûts.  
@@ -75,7 +75,7 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 
  En outre, notez que le coût est transféré vers l’écriture comptable article 2 (Vente), puis vers l’écriture comptable article 3 (Retour vente) et enfin vers l’écriture comptable article 4 (Vente 2).  
 
-## Raisons du problème  
+## <a name="reasons-for-the-issue"></a>Raisons du problème
  Les scénarios suivants peuvent être à l’origine d’un problème de stock nul alors qu’il existe des écritures comptables article ouvertes :  
 
 -   Scénario 1 : une expédition et une facture sont validées bien que l’article ne soit pas disponible. La validation est ensuite contrepassée du coût exact avec un avoir vente.  
@@ -90,7 +90,7 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 
  L’écriture comptable article 2 (Retour vente) ne peut pas être un destinataire de coût de l’écriture comptable article d’origine et en même temps un fournisseur d’articles et leur source de coûts. Par conséquent, l’écriture comptable article d’origine 1 (Vente 1) reste ouverte jusqu’à ce qu’une source valide s’affiche.  
 
-## Identification du problème  
+## <a name="identifying-the-issue"></a>Identification du problème
  Pour déterminer si les écritures comptables article ouvertes sont créées, procédez comme suit pour le scénario respectif :  
 
  Pour le scénario 1, identifiez le problème comme suit :  
@@ -130,7 +130,7 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 
  En outre, notez que le coût de l’écriture comptable article entrante 334 est lettré à l’écriture comptable article sortante 333.  
 
-## Solution de contournement du problème  
+## <a name="workaround-for-the-issue"></a>Solution de contournement du problème
  Sur la page **Feuille article**, validez les lignes suivantes pour l’article concerné :  
 
 -   Un ajustement positif pour clôturer l’écriture comptable article sortante ouverte.  
@@ -141,7 +141,7 @@ Le schéma suivant décrit la façon dont les lettrages de coût sont effectués
 
  Le stock devient nul et toutes les écritures comptables article sont clôturées.  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
 [Détails de conception : lettrage article](design-details-item-application.md)   
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)  
 
