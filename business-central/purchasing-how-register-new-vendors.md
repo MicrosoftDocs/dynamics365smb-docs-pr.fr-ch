@@ -11,7 +11,7 @@ ms.search.form: '26, 27, 34, 461, 786, 1379, 1385, 1386, 1628'
 ms.date: 09/05/2022
 ms.author: bholtorf
 ---
-# <a name="register-new-vendors"></a>Enregistrer un nouveau fournisseur
+# Enregistrer un nouveau fournisseur
 
 Les fournisseurs fournissent les produits que vous vendez. Chaque fournisseur à qui vous achetez des biens doit être enregistré en tant que fiche fournisseur.
 
@@ -22,7 +22,7 @@ Les fiches fournisseur contiennent les informations requises pour acheter des pr
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-## <a name="adding-new-vendors"></a>Ajouter de nouveaux fournisseurs
+## Ajouter de nouveaux fournisseurs
 
 Vous pouvez ajouter de nouveaux fournisseurs manuellement, en remplissant les champs sur la page **Fiche fournisseur**, ou vous pouvez utiliser des modèles contenant des informations prédéfinies. Par exemple, vous pouvez créer des modèles pour différents types de profils de fournisseurs. L’utilisation de modèles permet de gagner du temps lors de l’ajout de nouveaux fournisseurs et permet de garantir que les informations sont correctes à chaque fois.
 
@@ -40,7 +40,7 @@ Les adresses de remise sont utilisées lorsque vous imprimez des chèques pour p
 
 Vous spécifiez les adresses de paiement sur les pages Fiche fournisseur et sur la raccourci Expédition et paiements sur les bons de commande et les factures. Lorsque vous créez des lignes de journal des paiements à l’aide des actions Payer le fournisseur ou Créer un paiement sur la page Liste des fournisseurs ou la page Fiche fournisseur, ou l’action Appliquer des écritures sur un journal des paiements, le code de paiement sur l’écriture comptable du fournisseur est affecté. Vous pouvez remplacer cette valeur.
 
-### <a name="to-create-a-new-vendor"></a>Pour créer un fournisseur
+### Pour créer un fournisseur
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
@@ -51,7 +51,7 @@ Le fournisseur est désormais enregistré, et la fiche fournisseur est prête à
 
 Si vous souhaitez utiliser cette fiche fournisseur comme modèle lorsque vous créez de nouvelles fiches fournisseur, enregistrez-la comme modèle fournisseur. Pour plus d’informations, consultez [Pour enregistrer la fiche fournisseur en tant que modèle](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-and-editing-vendor-information"></a>Suppression et modification des informations sur le fournisseur
+### Suppression et modification des informations sur le fournisseur
 
 Vous pouvez modifier les informations des fiches fournisseur à tout moment. Toutefois, si vous avez enregistré une transaction pour un fournisseur, vous ne pouvez pas supprimer la fiche car les écritures comptables peuvent être nécessaires aux fins d’audit. Pour supprimer des fiches fournisseur avec des écritures comptables, contactez votre partenaire Microsoft pour le faire via le code.
 
@@ -61,7 +61,7 @@ Vous pouvez modifier les informations des fiches fournisseur à tout moment. Tou
 > [!TIP]
 > Vous pouvez ajouter des adresses alternatives sur les fiches fournisseurs en choisissant l’action **Adresses de commande**.
 
-## <a name="to-save-the-vendor-card-as-a-template"></a>Pour enregistrer la fiche fournisseur en tant que modèle
+## Pour enregistrer la fiche fournisseur en tant que modèle
 
 1. Sur la page **Fiche fournisseur**, sélectionnez l’action **Sauvegarder comme modèle**. La page **Modèle fournisseur** s’ouvre et affiche la fiche fournisseur comme modèle.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -70,7 +70,7 @@ Vous pouvez modifier les informations des fiches fournisseur à tout moment. Tou
 5. Lorsque vous avez terminé le nouveau modèle fournisseur, cliquez sur le bouton **OK**.  
    Le modèle fournisseur est ajouté à la liste des modèles fournisseur. Vous pouvez ainsi l’utiliser pour créer des fiches fournisseur.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Fusion des enregistrements en double](sales-how-merge-duplicate-records.md)  
 [Création des souches de numéros](ui-create-number-series.md)  
