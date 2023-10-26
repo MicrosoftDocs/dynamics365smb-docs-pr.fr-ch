@@ -2,10 +2,11 @@
 # [Documentation de Business Central](index.yml)
 # [Bienvenue dans Business Central](welcome.md)
 # [Fonctionnalités nouvelles et prévues](product-news.md)
-# Mise en route
+# Démarrer
 ## [Vue d’ensemble des fonctionnalités d’entreprise](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## En savoir plus
+### [Ressources pour les utilisateurs](resources-for-users.md)
 ### [Catalogue de formations Business Central](readiness/readiness-learning-catalog.md)
 ### [Formation Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Procédures pas à pas liées au processus métier
@@ -349,6 +350,7 @@
 #### [Extension Prédictions de retard de paiement](ui-extensions-late-payment-prediction.md)
 
 ### Gérer les documents électroniques
+#### [Vue d’ensemble des documents électroniques](finance-edocuments-overview.md)
 #### [Paramétrer les documents électroniques](finance-how-setup-edocuments.md)
 #### [Utiliser des documents électroniques dans les ventes et les achats](finance-how-use-edocuments.md)
 #### [Extension de la fonctionnalité des documents électroniques](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
@@ -1815,6 +1817,7 @@
 
 ## Analyse des données dans les outils de BI
 ### [Vue d’ensemble](reports-external-analysis.md)
+### [Microsoft Fabric et Business Central](admin-fabric.md)
 ### [Utilisation de Power BI avec Business Central](admin-powerbi.md)
 ### [Analyse des états financiers avec Excel](finance-analyze-excel.md)
 ### [Extraction de données vers des entrepôts de données ou des lacs de données](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
