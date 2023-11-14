@@ -11,7 +11,11 @@ ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Recevoir et convertir des documents électroniques
+# Réception et conversion des documents électroniques
+
+> [!NOTE]
+> Le contenu de cet article s’applique uniquement aux versions de Dynamics 365 Business Central sorties avant la 2e vague de lancement 2023. Dans la 2e vague de lancement 2023, une nouvelle fonctionnalité pour les documents électroniques est incluse. Pour en savoir plus, consultez [Configurer des documents électroniques](finance-how-setup-edocuments.md). 
+
 
 La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge la réception de factures et d’avoirs électroniques au format PEPPOL, qui est pris en charge par les principaux fournisseurs de services d’échange de documents. Pour recevoir une facture d’un fournisseur en tant que document électronique PEPPOL, traitez le document sur la page Documents entrants pour le convertir en facture achat ou en ligne feuille comptabilité dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -34,7 +38,7 @@ Vous pouvez démarrer la conversion des documents électroniques manuellement, c
 
 La procédure suivante décrit comment recevoir une facture fournisseur et la convertir en une facture achat dans [!INCLUDE[prod_short](includes/prod_short.md)]. La procédure est la même lorsque vous convertissez une facture fournisseur en une ligne feuille comptabilité.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Pour recevoir une facture électronique et la convertir en une facture achat
+### Pour recevoir une facture électronique et la convertir en une facture achat
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Documents entrants**, puis choisissez le lien associé.  
 
@@ -50,13 +54,13 @@ La procédure suivante décrit comment recevoir une facture fournisseur et la co
 
     Une facture achat est créée dans [!INCLUDE[prod_short](includes/prod_short.md)] sur la base des informations du document électronique.  
 
-    Les erreurs de validation, généralement associées à des données de base erronées ou manquantes dans [!INCLUDE[prod_short](includes/prod_short.md)], seront affichées dans le raccourci **Messages d'erreur**.  
+    Les erreurs de validation, généralement associées à des données de base erronées ou manquantes dans [!INCLUDE[prod_short](includes/prod_short.md)], seront affichées dans le raccourci **Messages d’erreur**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Documents entrants](across-income-documents.md)  
-[Configurer l'envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Configurer l’envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Échanger des données par voir électronique](across-data-exchange.md)   
 [Fonctionnalités marché](ui-across-business-areas.md)  
 

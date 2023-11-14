@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 08/31/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Configuration du suivi des articles avec les numéros lot, de série et paquet
+# Configuration du suivi des articles avec les numéros lot, de série et paquet
 
 Effectuez le suivi des articles en stock même dans des configurations d′entrepôt complexes avec des numéros spécifiques à chaque article, que ce soit en tant qu′objet individuel, en tant que lot ou en tant que colis. Avec le suivi des articles, vous pouvez suivre les articles à travers les mouvements d′entrepôt internes et les documents sortants et entrants.
 
@@ -19,13 +19,13 @@ Les articles portant des numéros de série et lot peuvent être suivis en amont
 > [!TIP]
 > Dans la 1re vague de lancement 2021 et ultérieure, activez la mise à jour de la fonctionnalité *Utiliser le suivi par numéro de colis dans le système de réservation et de suivi* si vous souhaitez travailler avec des numéros de colis ainsi que des numéros de série et lot. Pour plus d’informations, consultez [Activer les fonctionnalités à venir à l’avance](admin-feature-management.md). Une fois la fonction activée, vous pouvez attribuer des numéros de colis aux documents sortants et entrants de la même manière que vous pouvez travailler avec des numéros de lot.  
 
-## <a name="numbers-and-item-tracking"></a>Numéros et traçabilité
+## Numéros et traçabilité
 
 Dans le cadre de vos processus d′entrepôt, vous pouvez regrouper votre stock dans des emballages, des boîtes, des conteneurs, etc. Mais afin de garder une trace des articles, vous attribuez des numéros uniques comme identification. Par exemple, vous fabriquez et vendez une chaise qui porte le numéro d′article *1900-S*. Chaque chaise individuelle a un numéro de série, *1001*, mais vous regroupez également quatre chaises en un lot, *LOT0001*, et vous expédiez les chaises dans un conteneur avec le numéro de colis *CONTENEUR010* qui comprend également d′autres éléments, tels que *LOT0100* avec des tables d′appoint, et *LOT200* avec des lampes.  
 
 En fonction de votre configuration, vous utilisez ces différents numéros pour suivre le stock dans [!INCLUDE [prod_short](includes/prod_short.md)] aux différentes étapes des achats, des ventes, des opérations d′entrepôt, etc.
 
-## <a name="to-set-up-item-tracking-codes"></a>Pour configurer les codes traçabilité
+## Pour configurer les codes traçabilité
 
 Les codes traçabilité reflètent les différents positionnements d’une société par rapport à l’utilisation des numéros de série et de lot pour les articles qu’elle traite.  
 
@@ -42,7 +42,7 @@ Comme ce champ de configuration couvre toutes les transactions réalisables avec
 > [!NOTE]  
 > Pour affecter des numéros traçabilité dans les activités entrepôt, les champs **NS – Traçabilité entrepôt** et **N° lot – Traçabilité entrepôt** doivent être sélectionnés sur la fiche code de la traçabilité de l’article.  
 
-## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Pour configurer des règles d’expiration pour les numéros de série ou de lot
+## Pour configurer des règles d’expiration pour les numéros de série ou de lot
 
 Pour certains articles, vous pouvez configurer des règles et des dates d’expiration spécifiques dans le code traçabilité. Cette fonctionnalité permet d’effectuer le suivi de la date d’expiration de numéros de série et de lot spécifiques.
 
@@ -56,7 +56,7 @@ Pour certains articles, vous pouvez configurer des règles et des dates d’expi
     |**Demander une entrée de date expiration**|Spécifie que vous devez saisir une date d’expiration dans la ligne traçabilité.|  
     |**Utiliser les dates d’expiration**|Indique que vous souhaitez calculer les dates d’échéance. |  
 
-## <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Pour configurer des garanties pour les numéros de série ou de lot
+## Pour configurer des garanties pour les numéros de série ou de lot
 
 Pour certains articles, vous souhaitez peut-être configurer des garanties spécifiques dans le code traçabilité. Cette fonctionnalité vous permet d’effectuer le suivi de la date d’expiration des garanties concernant des numéros de série ou de lot spécifiques de votre stock.  
 
@@ -70,7 +70,7 @@ Pour certains articles, vous souhaitez peut-être configurer des garanties spéc
     |**Demander la saisie d’une date de garantie**|Indique que vous devez saisir une date de garantie dans la ligne traçabilité.|  
 
 
-## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a>Pour configurer les articles pour le suivi avec les bons codes traçabilité
+## Pour configurer les articles pour le suivi avec les bons codes traçabilité
 
 Pour activer la traçabilité, vous devez d’abord attribuer les codes traçabilité à un article. Il existe deux façons d’ajouter des codes traçabilité, en sélectionnant le code dans une liste prédéfinie ou en attribuant un nouveau code unique. Positionnez le curseur sur les champs pour lire une brève description.
 
@@ -79,14 +79,14 @@ Pour activer la traçabilité, vous devez d’abord attribuer les codes traçabi
 3. Sur le raccourci **Traçabilité**, attribuez les codes traçabilité appropriés et choisissez les **Code traçabilité**, **N° de série** et **N° lot**.
     1. Vous pouvez également créer un code traçabilité en sélectionnant l’action **Nouveau**.
 
-## <a name="to-specify-opening-balances-for-the-items-you-track"></a>Pour spécifier les soldes d’ouverture des articles que vous suivez
+## Pour spécifier les soldes d’ouverture des articles que vous suivez
 
 Vous pouvez créer des soldes d’ouverture pour les articles que vous suivez. Étant donné que vous pouvez choisir différentes configurations d’entrepôt, deux options sont disponibles :
 
 * Activez des lots spécifiques sur la page **Feuille article** pour permettre aux utilisateurs de saisir les données de série, de lot et de package directement sur les lignes feuille.
 * Pour les magasins où le bouton bascule **Prélèv. et rangement dirigés** est activé, utilisez la page **Feuille inventaire entrepôt** pour rendre tous les champs de traçabilité disponibles. Les champs disponibles comprennent les champs **Date garantie** et **Date expiration**.
 
-### <a name="item-journals"></a>Feuilles article
+### Feuilles article 
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Feuilles article**, puis choisissez le lien associé.
 2. Choisissez le champ **Nom** pour ouvrir une liste de feuilles article.
@@ -98,7 +98,7 @@ Vous pouvez créer des soldes d’ouverture pour les articles que vous suivez. �
 > [!NOTE] 
 > [!INCLUDE [prod_short](includes/prod_short.md)] effectue quelques validations mineures lorsque vous saisissez ou importez des données. Une vérification plus complète se produit lorsque vous validez ou transférez des données des lignes feuille vers la **Fenêtre de traçabilité**. Cette dernière se produit automatiquement lorsque vous ouvrez la page **Fenêtre de traçabilité** à partir de la ligne feuille article ou si vous choisissez l’option **Mettre à jour les lignes traçabilité**.
 
-### <a name="warehouse-physical-inventory-journal-for-locations-where-directed-pick-and-put-away-is-turned-on"></a>Feuille inventaire entrepôt pour les magasins où le prélèvement et le rangement dirigés sont activés
+### Feuille inventaire entrepôt pour les magasins où le prélèvement et le rangement dirigés sont activés  
 
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  saisissez **Feuille inventaire entrepôt**, puis choisissez le lien associé.
 2. Renseignez les champs sur la ligne feuille article selon vos besoins. Notez que les champs **N° lot**, **N° série**, **Date expiration**, **Date garantie** et **N° paquet** sont disponibles (si la fonctionnalité est activée).
@@ -109,7 +109,7 @@ Pour les importations en bloc, utilisez des packages de configuration pour impor
 > [!NOTE]
 > Vous ne pouvez pas utiliser **Modifier dans Excel** pour créer des lignes feuille avec des informations de suivi.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)  
 [Traçabilité – Articles suivis](inventory-how-to-trace-item-tracked-items.md)  

@@ -21,7 +21,7 @@ Les clients et les entreprises payent la TVA lorsqu’ils achètent des biens ou
 * Ce que vous vendez  
 * Ce que vous achetez  
 
-Vous pouvez configurer manuellement les calculs de la TVA, mais cette procédure peut être délicate et longue. Sinon, il serait très facile d’utiliser différents taux de TVA par erreur et de générer des états de TVA erronés. Pour faciliter la configuration de la TVA, nous vous recommandons d’utiliser le guide **Configuration de la TVA** fourni dans le produit. 
+Vous pouvez configurer manuellement les calculs de la TVA, mais cette procédure peut être délicate et longue. Il serait facile d’utiliser différents taux de TVA par erreur et de générer des états de TVA erronés. Pour faciliter la configuration de la TVA, nous vous recommandons d’utiliser le guide **Configuration de la TVA** fourni dans le produit. 
 
 Cependant, si vous souhaitez configurer vous-même les calculs de TVA, ou en savoir plus sur chaque étape, cet article contient des descriptions de chaque étape :  
 
@@ -75,7 +75,7 @@ Pour configurer le niveau d’utilisation de la date de TVA, procédez comme sui
 |--------------------|-----------------------------------------|
 | **Utilisez la fonctionnalité complète de date TVA** | Tout ce qui concerne la **date de TVA** fonctionne par défaut, vous offrant la fonctionnalité maximale de **date de TVA**. Vous pouvez configurer la date, la modifier dans les documents, créer un rapport en fonction de celle-ci et modifier la date après la publication tant que la période n’est pas fermée ou protégée par des dates autorisées pour la publication. |
 | **Utilisation sans autorisation des modifications** | Tout ce qui concerne la **date de TVA** fonctionne par défaut à une exception près. Vous ne pouvez pas modifier la **date de TVA** dans **les entrées de TVA**. |
-| **N’utilisant pas la fonctionnalité de date TVA** | [!INCLUDE [prod_short](includes/prod_short.md)] masquera et rendra les champs **Date de TVA** indisponibles sur les documents, les journaux et les écritures. La **date de TVA par défaut** sera configurée comme la **date de publication**. |
+| **N’utilisant pas la fonctionnalité de date TVA** | [!INCLUDE [prod_short](includes/prod_short.md)] masquera et rendra les champs **Date de TVA** indisponibles sur les documents, les journaux et les écritures. La **date de TVA par défaut** est configurée comme la **date de publication**. |
 
 3. Fermez la page.
 
@@ -91,17 +91,42 @@ Vous pouvez empêcher les personnes de publier ou de modifier des entrées de TV
 
 #### Pour limiter la comptabilisation en fonction de la période de déclaration de TVA
 
-1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 2. Dans le raccourci **Général**, dans le champ **Contrôler période TVA**, spécifiez le degré de contrôle de la période de déclaration de TVA. Le tableau suivant décrit les options.
 
 | Type | Description |
 |--------------------|-----------------------------------------|
-| **Bloquer la validation dans les périodes de retour TVA terminées et avertir pour la période lancée** | Empêchez les personnes de publier un document ou un journal, ou de modifier des écritures de TVA, dont la date de TVA se situe dans une **Période de retour TVA** fermée. [!INCLUDE [prod_short](includes/prod_short.md)] affichera également un avertissement si votre **période de déclaration de TVA** est ouverte, mais le statut de **déclaration de TVA** est **Publié** ou **Soumis**. |
+| **Bloquer la validation dans les périodes de retour TVA terminées et avertir pour la période lancée** | Empêchez les personnes de publier un document ou un journal, ou de modifier des écritures de TVA, dont la date de TVA se situe dans une **Période de retour TVA** fermée. [!INCLUDE [prod_short](includes/prod_short.md)] affiche également un avertissement si votre **période de déclaration de TVA** est ouverte, mais le statut de **déclaration de TVA** est **Publié** ou **Soumis**. |
 | **Bloquer la validation dans une période terminée** | Empêchez les personnes de publier un document ou un journal, ou de modifier des écritures de TVA, dont la date de TVA se situe dans la **Période de retour TVA** fermée. |
 | **Avertir en cas de validation dans une période terminée** | Affichez un avertissement, mais ne bloquez pas la validation, si vous souhaitez valider un document ou un journal dont la date de TVA est comprise dans une **Période de retour TVA** fermée. |
 | **Désactivé** | N’entreprenez aucune action basée sur une **Période de retour TVA** fermée. |
 
-#### Pour limiter la publication en fonction de la période Autoriser de/à
+#### Limiter la publication en fonction de la période Autoriser de/à
+
+> [!NOTE]
+> Depuis Business Central version 23.1, ce contrôle est modifié. Dans les versions antérieures, il n’y avait qu’un seul contrôle sur la page **Paramètres comptabilité** pour la date comptable et la date de TVA. Désormais, ces contrôles sont divisés, de sorte que le contrôle dans la page **Paramètres comptabilité** concerne uniquement la **Date validation** et le contrôle dans la page **Paramètres TVA** concerne uniquement la **Date TVA**. Il existe également de nouveaux contrôles de date dans la page **Configuration utilisateur**.  
+
+##### Version 23.1 ou récente
+
+> [!IMPORTANT]
+> Lorsque vous effectuez une mise à niveau vers une nouvelle version, sachez que les valeurs sont mises à niveau dans la nouvelle **Autoriser la date de TVA du/au** dans la page **Paramètres TVA** basée sur les valeurs de **Début période validation/Fin période validation** dans **Paramètres comptabilité**. Si vous souhaitez utiliser différents contrôles de date, ouvrez la page **Paramètres TVA** et apportez des modifications.  
+
+Vous pouvez définir une limitation au niveau de l’entreprise ou des niveaux d’utilisateurs spécifiques.
+
+Pour limiter toutes les publications pour l’ensemble de l’entreprise :
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres VAT**, puis sélectionnez le lien associé.  
+2. Sur le raccourci **Date TVA**, dans le champ **Autoriser la date de TVA à partir de**, spécifiez la date de la TVA à partir de laquelle vous effectuez la validation. La publication d’un document ou d’un journal avec une date de TVA antérieure à cette date n’est pas autorisée.  
+3. Sur le raccourci **Date TVA**, dans le champ **Autoriser la date de TVA à**, spécifiez la date de la TVA jusqu’à laquelle vous effectuez la validation. La publication d’un document ou d’un journal avec une date de TVA ultérieure à cette date n’est pas autorisée. 
+
+Pour limiter les publications d’un utilisateur spécifique :  
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres utilisateur**, puis choisissez le lien associé.  
+2. Dans le champ **ID utilisateur**, spécifiez l’utilisateur que vous souhaitez autoriser à publier au cours d’une période spécifique.  
+3. Dans le champ **Autoriser la date de TVA à partir de**, spécifiez la date de la TVA à partir de laquelle vous effectuez la validation. La publication d’un document ou d’un journal avec une date de TVA antérieure à cette date n’est pas autorisée. 
+4. Dans le champ **Autoriser la date de TVA à**, spécifiez la date de la TVA jusqu’à laquelle vous effectuez la validation. La publication d’un document ou d’un journal avec une date de TVA ultérieure à cette date n’est pas autorisée.  
+
+##### Versions précédentes à la version 23.1 
 
 Vous pouvez définir une limitation au niveau de l’entreprise ou des niveaux d’utilisateurs spécifiques.
 
@@ -120,7 +145,7 @@ Pour limiter les publications d’un utilisateur spécifique :
 
 ## Configurer les numéros d’identification intracommunautaire pour votre pays ou région
 
-Pour garantir que les personnes entrent des numéros d’identification intracommunautaire valides, vous pouvez définir des formats pour les numéros d’identification intracommunautaire utilisés dans des pays ou des régions dans lesquels vous travaillez. [!INCLUDE[prod_short](includes/prod_short.md)] affichera un message d’erreur lorsqu’un employé fait une erreur ou utilise un format incorrect pour le pays ou la région.
+Pour garantir que les personnes entrent des numéros d’identification intracommunautaire valides, vous pouvez définir des formats pour les numéros d’identification intracommunautaire utilisés dans des pays ou des régions dans lesquels vous travaillez. [!INCLUDE[prod_short](includes/prod_short.md)] affiche un message d’erreur lorsqu’un employé fait une erreur ou utilise un format incorrect pour le pays ou la région.
 
 Pour configurer des numéros d’identification intracommunautaire, procédez comme suit :
 
@@ -156,7 +181,7 @@ Il est recommandé d’utiliser des codes faciles à retenir et qui décrivent l
 
 Pour configurer un groupe comptabilisation marché TVA, procédez comme suit :
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 4.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes compta. produit TVA**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 4.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes compta. produit TVA**, puis choisissez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 
 ## Regrouper des groupes comptabilisation TVA dans les paramètres comptabilisation TVA

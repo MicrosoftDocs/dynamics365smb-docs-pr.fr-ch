@@ -158,6 +158,10 @@ Contactez le support Shopify dans les 7 jours suivant l’apparition de cette e
 
 Il semble que l’utilisateur qui demande l’accès n’ait pas le droit de gérer les applications (possibilité de gérer et d’installer des applications et des canaux, ainsi que potentiellement d’approuver les frais des applications). Vous pourrez peut-être résoudre ce problème en installant l’application en tant que propriétaire du compte. Vous pouvez également vérifier les **Autorisations d’application** pour l’utilisateur dans les [**Paramètres Utilisateur et autorisations**](https://www.shopify.com/admin/settings/account) de votre **Shopify administrateur**.  
 
+### [{"message":"Accès refusé au champ FIELD.","emplacements":[{"ligne":0,"colonne":0}],"chemin":["chemin"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
+
+Demandez un nouveau jeton parce que la version mise à jour du connecteur nécessite davantage d'autorisations (étendues d’application). Pour en savoir plus, rendez-vous sur [Demander le jeton d’accès](#request-the-access-token).
+
 ## Voir aussi
 
 [Mise en route du connecteur pour Shopify](get-started.md)

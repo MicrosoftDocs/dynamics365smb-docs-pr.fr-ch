@@ -10,7 +10,7 @@ ms.search.form: '9325, 99000815, 99000829, 9900083'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="create-production-order-headers"></a>Créer des en-têtes O.F.
+# Créer des en-têtes O.F.
 
 Vous pouvez créer manuellement un ordre de fabrication. Pour cela, la première étape est de créer un en-tête O.F.
 
@@ -18,7 +18,7 @@ Les ordres de fabrication sont généralement créés automatiquement par une fo
 
 La procédure suivante s’appuie sur un ordre de fabrication planifié ferme. Vous pouvez aussi créer des ordres de fabrication dotés d’un autre statut.  
 
-## <a name="to-create-a-production-order-header"></a>Pour créer un en-tête O.F.
+## Pour créer un en-tête O.F.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. planifiés fermes**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -31,7 +31,7 @@ La procédure suivante s’appuie sur un ordre de fabrication planifié ferme. V
 
 Lorsque les exigences de production évoluent, comme les composants ou les opérations, vous pouvez replanifier rapidement l’ordre de fabrication. Pour plus d’informations, voir [Replanifier ou actualiser directement des ordres de fabrication](production-how-to-replan-refresh-production-orders.md).  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Production](production-manage-manufacturing.md)
 [Paramétrage de la production](production-configure-production-processes.md)  

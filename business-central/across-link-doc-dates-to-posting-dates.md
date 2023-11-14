@@ -9,10 +9,10 @@ ms.date: 08/03/2023
 ms.custom: bap-template
 ---
 
-# <a name="updating-document-dates-with-posting-dates"></a>Mise à jour des dates de document avec les dates de validation
+# Mise à jour des dates de document avec les dates de validation
 
 [!INCLUDE [document-posting-date](includes/document-posting-date.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Définition des ventes](sales-setup-sales.md)

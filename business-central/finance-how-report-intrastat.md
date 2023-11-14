@@ -116,6 +116,13 @@ Lorsque vous travaillez avec **l’état intracommunautaire**, vous voyez un cha
 * *Publié* : [!INCLUDE[prod_short](includes/prod_short.md)] change automatiquement le statut en *Publié* lorsque vous créez un fichier. A partir de ce moment, vous ne pouvez plus modifier votre **État intracommunautaire**. Si vous devez modifier quelque chose, vous pouvez utiliser l’action **Rouvrir** pour rouvrir l’état intracommunautaire. Une fois le document rouvert, vous pouvez utiliser l’action **Publier** pour publier à nouveau le document.
 * **Déclaré** : spécifie si l’écriture a déjà été déclarée aux administrations fiscales. Ce n’est pas un statut normal mais un champ indépendant, et même si vous rouvriez l’état intracommunautaire, cela montrerait toujours que le fichier est déjà créé pour cet état.
 
+### Emplacements dans la déclaration intracommunautaire 
+
+[!INCLUDE[prod_short](includes/prod_short.md)] utilise toujours les informations du champ **Code pays/région** sur la page **Carte de localisation** comme pays pour **expédier** ou **envoyer** des marchandises. Lorsque ces informations n’existent pas ou que l’emplacement n’a pas été utilisé, le système utilise les informations de la page **Informations société**.   
+
+> [!NOTE]
+> Si l’entreprise exerce ses activités dans plusieurs pays, les rapports intracommunautaires ne fonctionnent pas pour tous les pays dans lesquels les sites sont configurés. Les rapports sont basés uniquement sur le pays principal, car il n’est actuellement pas possible d’utiliser des rapports multi-pays.  
+
 ### Commerce triangulaire d’échanges de biens
 
 Le commerce triangulaire implique des échanges entre trois pays ou régions où les marchandises contournent le pays de l’entreprise déclarante. Dans Business Central, cela peut être facilité grâce à la fonctionnalité [Livraison directe](sales-how-drop-shipment.md) . Pour activer cette option, activez le champ **Inclure la livraison directe** dans **Configuration des états intracommunautaires**.  

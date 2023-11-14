@@ -10,7 +10,7 @@ ms.search.forms: '5737, 5735, 5736'
 ms.date: 10/02/2023
 ms.custom: bap-template
 ---
-# <a name="use-item-references"></a>Utiliser références article
+# Utiliser références article
 
 Si vous achetez ou vendez des articles pour lesquels vous et votre fournisseur ou client utilisez des termes différents, vous pouvez définir une référence entre vos termes pour les articles et les termes que le client ou le fournisseur de cet article utilise. De cette façon, la description de l’article du fournisseur ou du client, l’unité ou le code variante est automatiquement inséré sur les documents pertinents lorsque vous remplissez le **Numéro de référence de l’article** .  
 
@@ -19,12 +19,12 @@ Si vous achetez ou vendez des articles pour lesquels vous et votre fournisseur o
 >
 > Dans les versions antérieures à la 2e vague de lancement 2021, votre administrateur peut activer les fonctionnalité *Écrire des références d’articles plus longues* sur la page [Gestion des fonctionnalités](https://businesscentral.dynamics.com/?page=2610) (le lien nécessite que vous ayez un abonné [!INCLUDE [prod_short](includes/prod_short.md)]). La façon dont vous utilisez les références ne change pas, mais les noms d’articles, tels que les pages et les boutons le seront. Par exemple, la page **Entrées de références croisées d’article** deviendra la page **Entrées de référence d’article**.
 
-## <a name="to-start-using-item-references"></a>Pour commencer à utiliser les références article
+## Pour commencer à utiliser les références article
 
 1. Choisissez l’icône :::image type="icon" source="media/ui-search/search_small.png" border="false":::, saisissez **Paramètres stock**, puis choisissez le lien associé.
 2. Sélectionnez le champ **Utiliser les références d’articles**.
 
-## <a name="to-set-up-an-item-reference"></a>Pour configurer une référence article
+## Pour configurer une référence article
 
 1. Choisissez l’icône :::image type="icon" source="media/ui-search/search_small.png" border="false":::, entrez **Articles**, puis choisissez le lien associé.
 2. Ouvrez la fiche d’un article pour lequel vous voulez créer une référence.
@@ -36,7 +36,7 @@ Si vous achetez ou vendez des articles pour lesquels vous et votre fournisseur o
 
 La procédure suivante décrit comment spécifier la référence article sur une Commande achat. Les mêmes étapes s’appliquent aux documents vente et autres documents achat.  
 
-## <a name="to-enter-a-vendors-item-description-on-a-document"></a>Pour saisir une description de l’article d’un fournisseur sur un document
+## Pour saisir une description de l’article d’un fournisseur sur un document
 
 1. Choisissez l’icône :::image type="icon" source="media/ui-search/search_small.png" border="false":::, entrez **Commandes achat**, puis choisissez le lien associé.
 2. Créez une commande achat pour le fournisseur pour lequel vous avez créé une référence article dans la procédure précédente.
@@ -45,7 +45,7 @@ La procédure suivante décrit comment spécifier la référence article sur une
 
 Le champ **Description** de la ligne est remplacé par la description d’article du fournisseur, telle que configurée dans l’écriture référence article. Si la référence article comprend un code variante ou une unité, ces valeurs sont également copiées dans le document.  
 
-## <a name="scan-barcodes-with-the-business-central-mobile-app"></a>Scanner les codes-barres avec l’application mobile Business Central
+## Scanner les codes-barres avec l’application mobile Business Central
 
 [!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
 
@@ -59,7 +59,7 @@ Le tableau suivant répertorie les pages qui prennent en charge la numérisation
 |Ligne achat     |   N° référence article      |
 |Ligne vente     | N° référence article        |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Enregistrement des nouveaux articles](inventory-how-register-new-items.md)  
 [Stock](inventory-manage-inventory.md)  
