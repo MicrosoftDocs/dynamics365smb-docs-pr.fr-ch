@@ -9,7 +9,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# Procédure pas à pas sur les commandes de service pour les articles de service
+# <a name="walkthrough-of-service-orders-for-service-items"></a>Procédure pas à pas sur les commandes de service pour les articles de service
 
 Cette procédure détaillée illustre plusieurs processus principaux :
 
@@ -17,13 +17,13 @@ Cette procédure détaillée illustre plusieurs processus principaux :
 - Fournir un article de prêt au client pour une période de réparation
 - Valider et facturer la commande service
     
-## Création d’une commande service
+## <a name="creating-a-service-order"></a>Création d’une commande service
 
-### Scénario  
+### <a name="scenario"></a>Scénario
 
 Charles, le responsable de service, crée une commande service pour un scénario de réparation et fournit un article de prêt au client pour la période de réparation.
 
-### Étapes
+### <a name="steps"></a>Étapes
 
 1. Créez manuellement la commande service pour l’article qui doit être réparé.
    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes service**
@@ -40,20 +40,20 @@ Charles, le responsable de service, crée une commande service pour un scénario
    1. Dans les lignes, sélectionnez **ARTPRÊT1** comme N° article. Confirmez l’émission de l’article de prêt en sélectionnant **Oui** pour fournir l’article de prêt. 
    2. Choisissez l’action Fonctions **Extraire codes prestation std**, sélectionnez le code standard associé au groupe de services et cliquez sur **OK**.
    
-### Résultats
+### <a name="results"></a>Résultats
 
 - Une commande service est créée pour l’article
 - Le journal de documents service de la commande service affiche les activités de l’article de prêt.
 - L’article de prêt a une écriture comptable pour refléter le prêt.
    
 
-## Enregistrez le travail effectué, marquez l’article de prêt comme retourné.
+## <a name="regsiter-performed-work-mark-loaner-as-returned"></a>Enregistrez le travail effectué, marquez l’article de prêt comme retourné.
 
-### Scénario  
+### <a name="scenario-1"></a>Scénario
 
 Le technicien de service marque l’article de prêt comme retourné et enregistre le travail effectué.
 
-### Étapes
+### <a name="steps-1"></a>Étapes
 
 1. Localiser la tâche de service et enregistrer le temps 
    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tâches service**, puis choisissez le lien associé.
@@ -73,13 +73,13 @@ Le technicien de service marque l’article de prêt comme retourné et enregist
    3. Choisissez l’action **Recevoir** 
    4. Confirmez le retour de l’article de prêt en sélectionnant **Oui** pour retourner l’article de prêt.
       
-### Résultats
+### <a name="results-1"></a>Résultats
 
 - Le **Journal document service** de la commande service affiche les activités de l’article de prêt.
 - L’article de prêt a une écriture comptable pour refléter la réception.
 
 
-### Scénario  
+### <a name="scenario-2"></a>Scénario
 
 Charles, le responsable des services, valide la commande service terminée.
 
@@ -90,9 +90,9 @@ Charles, le responsable des services, valide la commande service terminée.
 2. Dans la commande service, validez la facture
    1. Choisissez l’action **Valider** pour terminer la commande service, sélectionnez l’action **Expédier et facturer**, puis choisissez le bouton **OK**.
    2. Confirmez l’ouverture de la facture validée en sélectionnant **Oui**. 
-### Résultats
+### <a name="results-2"></a>Résultats
 
 - La **facture service validée** est créée.
 - Les **Écritures comptables service** associées à l’article et à la ressource sont créées
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
 
-# Expédier des articles avec une expédition entrepôt
+# <a name="ship-items-with-a-warehouse-shipment"></a>Expédier des articles avec une expédition entrepôt
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous prélevez et expédiez des articles en utilisant l’une des quatre méthodes décrites dans le tableau suivant.
 
@@ -37,7 +37,7 @@ Vous pouvez créer une expédition entrepôt de deux manières :
 * En mode « push », lorsque le travail est effectué commande par commande. Choisissez l’action **Créer expédition entrepôt** dans le document origine pour créer une expédition entrepôt pour le document.
 * En mode « pull », où vous utilisez l’action **Lancer** dans le document origine pour le lancer dans l’entrepôt. Un magasinier crée une **Expédition entrepôt** pour un ou plusieurs documents origine lancés. La procédure suivante décrit comment créer une expédition entrepôt en mode « pull ».
 
-## Pour expédier des articles avec un document d’expédition entrepôt
+## <a name="to-ship-items-using-a-warehouse-shipment-document"></a>Pour expédier des articles avec un document d’expédition entrepôt
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Expéditions entrepôt**, puis sélectionnez le lien associé.  
 2. Choisissez **Nouveau**.  
@@ -74,7 +74,7 @@ Vous pouvez créer une expédition entrepôt de deux manières :
 
     [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
-## Procédure : utiliser des filtres afin d’obtenir des documents origine
+## <a name="how-to-use-filters-to-get-source-documents"></a>Procédure : utiliser des filtres afin d’obtenir des documents origine
 
 À partir d’une expédition entrepôt, vous pouvez utiliser la page **Filtres pour extr. doc. orig.** afin d’extraire les lignes du document origine lancé qui définissent les articles à recevoir ou à expédier.
 
@@ -90,14 +90,14 @@ Toutes les lignes du document origine lancé qui répondent aux critères de fil
 
 Le nombre de combinaisons de filtres est illimité. Les filtres sont enregistrés sur la page **Filtres pour extr. doc. orig.** et seront disponibles la prochaine fois que vous en aurez besoin. Vous pouvez modifier les critères à tout moment en choisissant l’action **Modifier**.
 
-## Codes zone et emplacement
+## <a name="zone-and-bin-codes"></a>Codes zone et emplacement
 
 Si les emplacements sont obligatoires dans le magasin, [!INCLUDE [prod_short](includes/prod_short.md)] suggère un code zone et un code emplacement sur le document d’expédition entrepôt.
 
 * Pour les configurations avancées dans lesquelles un magasin utilise le rangement et le prélèvement dirigés, [!INCLUDE [prod_short](includes/prod_short.md)] utilise l’emplacement spécifié dans le champ **Code emplacement expédition** sur la **Fiche magasin**. Si aucun **Code emplacement expédition** n’est spécifié, le champ est vide. Si l’article et l’emplacement d’expédition ne correspondent pas, [!INCLUDE [prod_short](includes/prod_short.md)] laisse l’emplacement d’expédition vide.
 * Dans les autres cas, [!INCLUDE [prod_short](includes/prod_short.md)] utilise toujours en premier l’emplacement spécifié dans le champ **Code emplacement expédition** sur la **Fiche magasin**. Si aucun code emplacement d’expédition n’est spécifié, [!INCLUDE [prod_short](includes/prod_short.md)] utilise le code emplacement du document origine.
 
-## Traitement des articles à assembler pour commande dans les expéditions entrepôt
+## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Traitement des articles à assembler pour commande dans les expéditions entrepôt
 
 Dans des scénarios d’assemblage pour commande, utilisez le champ **Qté à expédier** sur les lignes expédition entrepôt pour enregistrer le nombre d’unités assemblées. La quantité est validée comme résultat d’assemblage lorsque vous validez l’expédition entrepôt. Pour d’autres lignes expédition entrepôt, la valeur du champ **Qté à expédier** est zéro.
 
@@ -115,7 +115,7 @@ Une fois l’expédition entrepôt validée, divers champs de la ligne commande 
 >
 > La quantité assemblée pour commande est gérée comme décrit dans cet article. La quantité provenant du stock est traitée comme une ligne d’expédition entrepôt standard. Pour plus d’informations sur les scénarios de combinaison, consultez [Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Stock](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  

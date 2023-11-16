@@ -10,15 +10,15 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 09/07/2022
 ms.author: jswymer
 ---
-# Utiliser des données [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI
+# <a name="work-with--data-in-power-bi"></a>Utiliser des données [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI
 
 Dans cet article, vous découvrirez quelques notions de base sur l’utilisation des états et des tableaux de bord dans Power BI qui utilisent [!INCLUDE [prod_short](includes/prod_short.md)] comme source de données. L’article traite de certains aspects qui vous aideront à démarrer en tant qu’utilisateur [!INCLUDE[prod_short](includes/prod_short.md)]. Pour obtenir des instructions générales et des instructions sur l’utilisation Power BI, voir [Documentation Power BI pour les consommateurs](/power-bi/consumer).
 
-## Mise en route
+## <a name="get-ready"></a>Mise en route
 
 Inscrivez-vous au service Power BI. Si vous ne vous êtes pas encore inscrit, accédez à [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Lorsque vous vous inscrivez, utilisez une adresse e-mail professionnelle et un mot de passe.
 
-## Démarrer
+## <a name="get-started"></a>Démarrer
 
 Une fois que vous avez un compte Power BI, vous pouvez vous connecter à [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/).
 
@@ -30,21 +30,21 @@ Avec [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous aurez automat
 
 Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous devrez repartir de zéro en utilisant Power BI Desktop. En option, les états Power BI peuvent être distribués sous forme de fichiers que vous pouvez télécharger.
 
-## Obtenir les dernières données
+## <a name="get-the-latest-data"></a>Obtenir les dernières données
 
 Chaque état Power BI est basé sur un ensemble de données qui obtient des données des sources [!INCLUDE[prod_short](includes/prod_short.md)]. Vous voulez vous assurer que les données de vos états Power BI sont à jour avec les données dans [!INCLUDE[prod_short](includes/prod_short.md)]. C’est ce qu’on appelle l’*actualisation*.  En fonction de la configuration de votre organisation Power BI, l’actualisation risque de ne pas se faire automatiquement. Il existe deux façons d’actualiser les données : manuellement ou en planifiant une actualisation. L’actualisation manuelle est effectuée à la demande, si nécessaire. Avec l’actualisation programmée, actualisez automatiquement à des intervalles de temps définis.
 
-### Actualiser manuellement
+### <a name="refresh-manually"></a>Actualiser manuellement
 
 Dans le volet de navigation, sous **Ensembles de données**, sélectionnez **Plus d’options (...)** à côté de l’ensemble de données, puis sélectionnez **Actualiser maintenant**.
 
-### Programmer une actualisation
+### <a name="schedule-a-refresh"></a>Programmer une actualisation
 
 Dans le volet de navigation, sous Ensembles de données, sélectionnez Plus d’options (...) à côté de l’ensemble de données, puis sélectionnez **Actualiser maintenant**. Renseignez les informations sous la section **Planifier l’actualisation**, et sélectionnez **Appliquer**.
 
 Pour plus d’informations, voir [Configurer une actualisation planifiée](/power-bi/connect-data/refresh-scheduled-refresh).
 
-## <a name="upload"></a>Télécharger des états à partir de fichiers
+## <a name="upload-reports-from-files"></a><a name="upload"></a>Télécharger des états à partir de fichiers
 
 Les états Power BI peuvent être distribués entre les utilisateurs sous forme de fichiers .pbix. Si vous disposez d’un fichier .pbix, vous pouvez télécharger le fichier dans un espace de travail. Pour télécharger un état, procédez comme suit :
 
@@ -62,7 +62,7 @@ Pour plus d’informations, consultez [Télécharger l’état vers le service](
 > [!TIP]
 > Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous pouvez également télécharger un état depuis [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, consultez [Utiliser les états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)] - Télécharger des états](across-working-with-powerbi.md#upload).
 
-## <a name="share"></a>Partager des états avec d’autres
+## <a name="share-reports-with-others"></a><a name="share"></a>Partager des états avec d’autres
 
 Une fois qu’un état est dans votre espace de travail, vous pouvez le partager avec d’autres personnes de votre organisation.
 
@@ -71,7 +71,7 @@ Pour partager un état, dans une liste d’états ou dans un état ouvert, séle
 > [!NOTE]
 > Vous devez avoir [Licence Power BI Pro](/power-bi/service-features-license-type), tout comme les personnes avec qui vous faites le partage. Le contenu doit se trouver dans un espace de travail dans une [Capacité Premium](/power-bi/service-premium-what-is). Pour en savoir plus, consultez [Moyens de partager votre travail dans Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Business Central et Power BI](admin-powerbi.md)  
 [Création d’états Power BI pour afficher les données [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md)  

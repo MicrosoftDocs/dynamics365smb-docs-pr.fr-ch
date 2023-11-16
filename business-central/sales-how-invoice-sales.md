@@ -11,7 +11,7 @@ ms.search.form: '43, 48, 9301'
 ms.date: 09/11/2023
 ms.author: bholtorf
 ---
-# Facturation des ventes
+# <a name="invoice-sales"></a>Facturation des ventes
 
 Vous pouvez généralement créer une commande vente ou une facture vente pour enregistrer votre accord avec un client pour vendre certains produits selon certaines conditions de livraison et de paiement.  
 
@@ -25,7 +25,7 @@ Pour toutes les autres situations, les commandes vente et les factures vente fon
 
 Vous pouvez négocier avec le client en créant d’abord un devis, que vous pouvez convertir en facture vente lorsque vous êtes d’accord sur la vente. Pour en savoir plus, consultez [Créer des devis](sales-how-make-offers.md).
 
-## Créer des factures vente
+## <a name="create-sales-invoices"></a>Créer des factures vente
 
 Si le client décide d’acheter, vous validez la facture vente pour créer les écritures quantité et valeur associées. Lorsque vous validez la facture vente, vous pouvez également envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé des informations de facturation et de paiement, par exemple un lien vers Paypal. En savoir plus sur [Envoyer des documents par e-mail](ui-how-send-documents-email.md). Lorsque le client paie la facture, vous pouvez enregistrer ce paiement de différentes manières, selon la taille et les flux de travail favoris de votre organisation. En savoir plus sur la section [Enregistrement des paiements](#register-payments).  
 
@@ -33,7 +33,7 @@ Les fiches article peuvent être de type **Stock**, **Service** et **Hors stock*
 
 Vous pouvez remplir les champs relatifs au client sur la facture vente de deux façons selon que le client est déjà enregistré ou non. Reportez-vous à l’étape 2 de la procédure ci-dessous.
 
-### Pour créer une facture vente :
+### <a name="to-create-a-sales-invoice"></a>Pour créer une facture vente :
 
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.  
 2. Dans le champ **Nom client**, entrez le nom d’un client existant. Si, toutefois, le client est nouveau et n’est donc pas enregistré, suivez ces étapes pour remplir les informations client standard sur la page **Facture vente** :
@@ -90,11 +90,11 @@ La boîte de dialogue **Valider et envoyer la confirmation** s’ouvre et indiqu
 
 Les écritures comptables article et client associés sont à présent créés dans votre système, et la facture vente est sortie en tant que document au format PDF. La facture vente est supprimée de la liste des factures vente et remplacée par un nouveau document dans la liste des factures vente validées.  
 
-### Calculer les remises facture sur les ventes
+### <a name="calculate-invoice-discounts-on-sales"></a>Calculer les remises facture sur les ventes
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## Factures enregistrées
+## <a name="posted-invoices"></a>Factures enregistrées
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -102,7 +102,7 @@ Vous pouvez facilement corriger ou annuler une facture vente validée avant qu�
 
 [Ouvrir la liste des **factures vente validées**](https://businesscentral.dynamics.com/?page=143) dans [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Enregistrer des paiements
+## <a name="register-payments"></a>Enregistrer des paiements
 
 Selon les besoins de votre entreprise, vous pouvez être payé et enregistrer ce paiement de diverses manières : manuellement, automatiquement, et via des services de paiement.  
 
@@ -117,11 +117,11 @@ Vous pouvez même créer des factures à paiement direct pour les clients non en
 > [!TIP]
 > Si vous souhaitez envoyer à vos clients des rappels de paiements en retard, vous devez d’abord configurer des niveaux et des conditions de rappel. En savoir plus, [Configurer les conditions et niveaux et textes de relance](finance-setup-reminders.md).  
 
-## Numéros de document externe
+## <a name="external-document-numbers"></a>Numéros de document externe
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  

@@ -12,7 +12,7 @@ ms.date: 10/10/2023
 ms.author: altotovi
 ---
 
-# Vue d’ensemble des documents électroniques
+# <a name="e-documents-overview"></a>Vue d’ensemble des documents électroniques
 
 Les documents électroniques (e-documents) constituent l’épine dorsale des transactions commerciales modernes. Ils englobent les documents vitaux, tels que les factures et les reçus dans les deux sens (livraison et réception). Ils ajoutent également des fonctionnalités de messagerie relative à l’état des documents entre les points d’accès.
 
@@ -32,7 +32,7 @@ La documentation explique les documents électroniques en détail. Elle montre l
 | [Extension de la fonctionnalité des documents électroniques](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Découvrez comment étendre la fonctionnalité des documents électroniques en fonction des exigences locales ou sectorielles spécifiques en créant des applications supplémentaires en plus de celle-ci. |
 | [Échanger des données par voir électronique](across-data-exchange.md) | Découvrez la manière d’utiliser l’infrastructure d’échange de données pour gérer les échanges des données dans des documents commerciaux tels que des fichiers bancaires et des taux de change devise. | 
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion financière](finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
