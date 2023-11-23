@@ -17,7 +17,7 @@ La page **Informations sur les tables 8700** fournit des informations sur le nom
 
 Ces informations sont utiles pour résoudre les problèmes de performances, car nous allons voir la répartition de la taille des données entre les tables.
 
-## <a name="viewing-table-information-1"></a>Affichage d’informations sur les tables
+## <a name="view-table-information"></a>Affichage d’informations sur les tables
 
 Pour ouvrir cette page, sélectionnez l’icône ![Rechercher une page ou un état.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") entrez **Informations table**, puis choisissez le lien associé.
 
