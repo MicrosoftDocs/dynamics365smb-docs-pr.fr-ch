@@ -10,13 +10,13 @@ ms.date: 10/25/2023
 ms.custom: bap-template
 ---
 
-# Rapprocher les comptes bancaires avec Copilot (version préliminaire)
+# <a name="reconcile-bank-accounts-with-copilot-preview"></a>Rapprocher les comptes bancaires avec Copilot (version préliminaire)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 Cet article explique comment utiliser l’assistance au rapprochement des comptes bancaires pour vous aider à rapprocher les transactions bancaires avec les écritures comptables dans Business Central.
 
-## À propos de l’assistant de rapprochement bancaire
+## <a name="about-bank-account-reconciliation-assist"></a>À propos de l’assistant de rapprochement bancaire
 
 L’assistant de rapprochement bancaire est un ensemble de fonctionnalités basées sur l’IA qui vous aident à rapprocher les comptes bancaires. L’assistant de rapprochement bancaire vous propose deux tâches distinctes via Copilot :
 
@@ -34,14 +34,14 @@ L’assistant de rapprochement bancaire est un ensemble de fonctionnalités bas�
 
 
    
-## Conditions préalables
+## <a name="prerequisites"></a>Conditions préalables
 
 - L’assistance au rapprochement des comptes bancaires est activée. Cette tâche est effectuée par un administrateur. [En savoir plus sur l’activation des fonctionnalités Copilot et IA](enable-ai.md).
 - Les comptes bancaires dans Business Central que vous souhaitez rapprocher sont liés à un compte bancaire en ligne ou configurés avec un format d’importation de relevé bancaire. 
 - Vous êtes familier avec le rapprochement des comptes bancaires dans Business Central, comme décrit dans [Rapprocher les comptes bancaires](bank-how-reconcile-bank-accounts-separately.md). 
 
 <!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
-## Rapprocher les comptes bancaires avec Copilot
+## <a name="reconcile-bank-accounts-with-copilot"></a>Rapprocher les comptes bancaires avec Copilot
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
@@ -85,7 +85,7 @@ Avec cette approche, vous utilisez Copilot soit sur un nouveau rapprochement de 
 1. Passez en revue les correspondances proposées comme décrit dans la section suivante. 
 ---
 
-### Examiner, enregistrer ou supprimer les correspondances proposées
+### <a name="review-save-or-discard-proposed-matches"></a>Examiner, enregistrer ou supprimer les correspondances proposées
 
 Après avoir exécuté Copilot, la fenêtre **Rapprocher avec Copilot** affiche les résultats détaillés, y compris les correspondances proposées. À ce stade, aucune correspondance proposée par Copilot n’a été enregistrée, cela vous donne donc la possibilité d’inspecter les propositions et de les enregistrer ou de les supprimer à votre guise.
 
@@ -100,7 +100,7 @@ La fenêtre Copilot est divisée en deux sections. La section supérieure fourni
 |Solde final du relevé|Spécifie le solde final indiqué sur le relevé bancaire à rapprocher avec le compte bancaire|
 |Valider si lettré intégralement|Activez ce commutateur si vous souhaitez valider automatiquement le rapprochement du compte bancaire lorsque toutes les lignes (100 %) correspondent et que vous avez sélectionné **Conserver**.|
 
-#### Enregistrer ou supprimer les correspondances proposées
+#### <a name="save-or-discard-proposed-matches"></a>Enregistrer ou supprimer les correspondances proposées
 
 Dans la section **Propositions correspondantes**, examinez les correspondances suggérées ligne par ligne, puis effectuez l’action appropriée :
 
@@ -117,7 +117,7 @@ Dans la section **Propositions correspondantes**, examinez les correspondances s
 - Pour enregistrer les correspondances actuellement affichées dans la fenêtre Copilot, sélectionnez **Conserver**.
 
 
-## Transférer les transactions bancaires sans correspondance vers les comptes généraux suggérés
+## <a name="transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts"></a>Transférer les transactions bancaires sans correspondance vers les comptes généraux suggérés
 
 Dans cette section, vous apprendrez à utiliser Copilot pour transférer des relevés de compte bancaire non rapprochés du grand livre du compte bancaire vers un compte du grand livre. Cette tâche ne peut être effectuée qu’à partir d’un rapprochement existant. 
 
@@ -154,11 +154,11 @@ Dans cette section, vous apprendrez à utiliser Copilot pour transférer des rel
 
       Cette étape confirme le transfert des propositions actuellement sélectionnées du grand livre du compte bancaire vers le compte général. Elle valide les nouveaux paiements sur les comptes généraux proposés et applique les lignes correspondantes aux écritures comptables du compte bancaire qui en résultent.
 
-## Étapes suivantes
+## <a name="next-steps"></a>Étapes suivantes
 
 [Valider votre rapprochement bancaire](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Résoudre les problèmes des fonctionnalités de Copilot et d’IA](ai-copilot-troubleshooting.md)  
 [FAQ sur l’IA responsable pour l’assistance au rapprochement bancaire](faqs-bank-reconciliation.md)  
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
