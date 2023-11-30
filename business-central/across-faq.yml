@@ -34,7 +34,7 @@ sections:
           Contrairement à d’autres programmes qui vous sont familiers, il n’y a pas de bouton *Enregistrer* sur ces pages. Dans [!INCLUDE[prod_short](includes/prod_short.md)], les modifications que vous apportez à un champ sont automatiquement enregistrées dès que vous passez au champ suivant ou dès que vous fermez la page, dans la mesure où il n’y a pas d’erreurs. Lorsque vous apportez des modifications à un champ et que vous passez à un autre champ, le texte **Enregistrement en cours** apparaît dans l’angle supérieur droit de la page, et devient Enregistré si aucune erreur ne survient. Le texte indique rapidement **Enregistré** si aucune erreur ne se produit. En cas d’erreur, le texte indique **Non enregistré**.  
       - question: "Où puis-je trouver ce numéro de ligne\_?\n"
         answer: |
-          Les documents tels que les commande vente ou les factures achat se composent d’en-têtes et de lignes. Chaque ligne a un numéro que [!INCLUDE [prod_short](includes/prod_short.md)] utilise pour identifier cette ligne particulière. Par conséquent, vous pouvez voir un avertissement ou un message d’erreur indiquant un problème avec le numéro de ligne 1000, par exemple. Dans la version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)], les numéros de ligne sont masqués. Si vous voulez afficher les numéros de ligne, vous devez personnaliser la page actuelle et ajouter le champ **N° ligne**. . Découvrez comment [Personnaliser votre espace de travail](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
+          Les documents tels que les commande vente ou les factures achat se composent d’en-têtes et de lignes. Chaque ligne a un numéro que [!INCLUDE [prod_short](includes/prod_short.md)] utilise pour identifier cette ligne particulière. Par conséquent, vous pouvez voir un avertissement ou un message d’erreur indiquant un problème avec le numéro de ligne 1000, par exemple. Dans la version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)], les numéros de ligne sont masqués. Si vous voulez afficher les numéros de ligne, vous devez personnaliser la page actuelle et ajouter le champ **N° ligne** . Découvrez comment [Personnaliser votre espace de travail](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: "Pourquoi l’aide décrit une fonctionnalité à laquelle que je ne peux pas accéder\_?\n"
         answer: |
           Si votre paramètre Expérience sur la page **Informations société** est définie sur **Essentiel**, les éléments de l’interface utilisateur pour les fonctionnalités de fabrication et de gestion des services ne sont pas visibles pour vous, car ils requièrent l’expérience **Premium**. Une note textuelle est insérée dans des rubriques d’aide de haut niveau pour ces zones de fonction. En savoir plus, [Modifier les fonctionnalités affichées](ui-experiences.md).  
@@ -81,26 +81,4 @@ sections:
           Votre partenaire revendeur gèrera aussi le support technique pour votre compte. En savoir plus, [Ressources pour l’Aide et le support](product-help-and-support.md).  
       - question: "Le client Windows est-il pris en charge\_?\n"
         answer: "Un client dérivé de Microsoft Dynamics NAV était installé dans les premières versions de [!INCLUDE[prod_short](includes/prod_short.md)]. À partir de la 2e vague de publication 2019, ce composant hérité, appelé «\_le client Windows\_», ne sera plus disponible pour [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [FAQ sur le client Windows et Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).\n"
-additionalContent: |
-
-  ## Voir aussi
-
-  [Préparation aux activités commerciales](ui-get-ready-business.md)  
-  [FAQ Tell Me](ui-search-faq.md)  
-  [FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)  
-  [FAQ sur les vues de liste](ui-views-faq.yml)  
-  [Modification de la langue et des paramètres régionaux](about-locale-language.md)  
-  [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
-  [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] sans Outlook](admin-no-outlook.md)  
-  [Modifier les paramètres de base](ui-change-basic-settings.md)  
-  [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-  [Obtenir des réponses aux questions](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  
-  [Ressources pour l’aide et l’assistance technique](product-help-and-support.md)  
-  [Catalogue d’apprentissage Business Central](readiness/readiness-learning-catalog.md)  
-  [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  
-  [Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
-  [Conditions d’utilisation](compliance/compliance-service-compliance.md#service-terms)  
-  [FAQ sur les expériences de développeur et d’administrateur](/dynamics365/business-central/dev-itpro/faq)
-  [Migrer les données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)
-  ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-  [!INCLUDE[footer-include](includes/footer-banner.md)]
+additionalContent: "\n## Voir aussi\n\n[Préparation aux activités commerciales](ui-get-ready-business.md)  \n[FAQ Tell Me](ui-search-faq.md)  \n[FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)  \n[FAQ sur les vues de liste](ui-views-faq.yml)  \n[Modification de la langue et des paramètres régionaux](about-locale-language.md)  \n[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  \n[Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] sans Outlook](admin-no-outlook.md)  \n[Modification des paramètres de base](ui-change-basic-settings.md)  \n[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n[Obtenir des réponses aux questions](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  \n[Formation Business\_Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)   \n[Ressources pour l’Aide et le support](product-help-and-support.md)  \n[Affectation des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  \n[Disponibilité par pays/région et traductions prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  \n[Conditions d’utilisation](compliance/compliance-service-compliance.md#service-terms)  \n[FAQ sur les expériences de développeur et d’administrateur](/dynamics365/business-central/dev-itpro/faq)\n[Migrer les données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)\n## [!INCLUDE[prod_short](includes/free_trial_md.md)]  \n[!INCLUDE[footer-include](includes/footer-banner.md)]\n"
