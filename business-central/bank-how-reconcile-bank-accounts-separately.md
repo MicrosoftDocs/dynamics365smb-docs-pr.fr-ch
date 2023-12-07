@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/04/2023
+ms.date: 10/24/2023
 ms.custom: bap-template
 ---
 # Rapprochement des comptes bancaires
@@ -22,9 +22,15 @@ Cependant, vous pouvez également rapprocher des comptes bancaires sur la page *
 
 Les lignes de la page **Rapprochement bancaire** sont réparties sur deux volets. Le volet **Lignes relevé bancaire** indique le volet des transactions bancaires importées ou les écritures comptables comportant des arriérés de paiement. Le volet **Écritures comptables compte bancaire** affiche les écritures comptables dans le compte bancaire interne.
 
-Le rapprochement des transactions dans les relevés de votre banque avec les écritures bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)] est appelé *correspondance*. Il existe deux façons de faire correspondre les transactions avec les opérations bancaires :
+## À propos du rapprochement bancaire 
+
+Le rapprochement des transactions dans les relevés de votre banque avec les écritures bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)] est appelé *correspondance*. Il existe trois façons de faire correspondre les transactions avec les opérations bancaires :
 
 * Automatiquement, à l’aide de l’action **Faire correspondre automatiquement**.
+
+* Automatiquement, en utilisant l’action **Rapprocher avec Copilot**.
+
+  Cette action est disponible dans le cadre de la fonctionnalité d’assistance au rapprochement bancaire (version préliminaire), qui est une fonctionnalité basée sur l’IA. [En savoir plus sur l’assistance au rapprochement bancaire](bank-reconciliation-with-copilot.md).
 * Manuellement en sélectionnant des lignes dans les deux volets pour lier chaque ligne relevé bancaire à une ou plusieurs écritures comptables compte bancaire correspondantes, puis utiliser l’action **Faire correspondre manuellement**.
 
 La case **Lettré** est cochée sur les lignes pour lesquelles les écritures correspondent. Pour plus d’informations, voir [Définir des règles pour le lettrage automatique des paiements](receivables-how-set-up-payment-application-rules.md). Si vous saisissez une date de fin de relevé sur le rapprochement bancaire après avoir rapproché ses lignes avec des écritures, [!INCLUDE [prod_short](includes/prod_short.md)] annulera les correspondances pour les lignes et les écritures postérieures à cette date.
@@ -49,7 +55,7 @@ Vous pouvez renseigner le volet **Lignes relevé bancaire** de la page **Rapproc
 * Automatiquement, à l’aide de la fonction **Importer le relevé bancaire** pour renseigner le volet **Lignes relevé bancaire** avec des transactions bancaires en fonction d’un flux ou d’un fichier importé fourni par la banque.
 * Manuellement, en utilisant la fonction **Proposer lignes** pour renseigner le volet **Lignes relevé bancaire** en fonction des factures dans [!INCLUDE[prod_short](includes/prod_short.md)] qui comportent des arriérés de paiement.
 
-## Pour ajouter des lignes rapprochement bancaire en important un relevé bancaire
+## Ajouter des lignes rapprochement bancaire en important un relevé bancaire
 
 Le volet **Lignes relevé bancaire** sera renseigné avec des transactions bancaires en fonction d’un flux ou d’un fichier importé fourni par la banque.
 
@@ -80,9 +86,9 @@ Le volet **Lignes relevé bancaire** sera renseigné en fonction des factures da
 4. Si vous ne souhaitez pas que les écritures comptables du compte bancaire incluent des écritures contrepassées ouvertes sans correspondance, activez le bouton à bascule **Exclure les écritures contrepassées**. Par défaut, la liste des écritures comptables des comptes bancaires inclura les écritures contrepassées jusqu’à la date du relevé.
 5. Cliquez sur le bouton **OK**.
 
-## Pour mettre en correspondance automatiquement des lignes de relevé bancaire avec des écritures comptables compte bancaire
+## Mettre en correspondance automatiquement des lignes de relevé bancaire avec des écritures comptables compte bancaire
 
-La page **Rapprochement bancaire** propose une fonctionnalité de correspondance automatique basée sur une correspondance entre le texte d’une ligne relevé bancaire (volet gauche) et celui d’une ou de plusieurs écritures comptables compte bancaire (volet droit). Vous pouvez remplacer la correspondance automatique suggérée, et vous pouvez choisir de ne pas utiliser du tout la correspondance automatique. Pour plus d’informations, voir [Pour faire correspondre manuellement des lignes relevé bancaire avec des écritures comptables compte bancaire](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
+La page **Rapprochement bancaire** propose une fonctionnalité de correspondance automatique basée sur une correspondance entre le texte d’une ligne relevé bancaire (volet gauche) et celui d’une ou de plusieurs écritures comptables compte bancaire (volet droit). Vous pouvez remplacer la correspondance automatique suggérée, et vous pouvez choisir de ne pas utiliser du tout la correspondance automatique. Pour plus d’informations, voir [Mettre manuellement en correspondance des lignes relevé bancaire avec des écritures comptables compte bancaire](#match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
 Vous pouvez rechercher la base des correspondances en utilisant l’action **Détails de correspondance**. Par exemple, les détails incluront les noms des champs qui contenaient des valeurs correspondantes.  
 
@@ -98,7 +104,7 @@ Vous pouvez rechercher la base des correspondances en utilisant l’action **Dé
 > [!TIP]
 > Vous pouvez utiliser un mélange de correspondances manuelles et automatiques. Si vous avez mis en correspondance manuellement des écritures, la correspondance automatique n’écrasera pas vos sélections.
 
-## Pour mettre en correspondance des lignes de relevé bancaire avec les écritures comptables compte bancaire manuellement
+## Mettre en correspondance des lignes de relevé bancaire avec les écritures comptables compte bancaire manuellement
 
 > [!TIP]
 > Lors de la mise en correspondance manuelle des lignes et des écritures, les actions **Afficher tout**, **Afficher les écritures contrepassées**, **Masquer les écritures contrepassées** et **Afficher non-correspondances** peuvent faciliter l’obtention d’une vue d’ensemble. Par défaut, les écritures comptables du compte bancaire n’incluent pas les écritures contrepassées sans correspondance. Pour inclure ces entrées dans la liste et les faire correspondre manuellement, sélectionnez l’action **Afficher les écritures contrepassées**. Si vous choisissez de masquer les écritures contrepassées après avoir effectué une ou plusieurs correspondances, les écritures correspondantes sont toujours affichées.
@@ -123,7 +129,7 @@ Vous pouvez rechercher la base des correspondances en utilisant l’action **Dé
 > [!TIP]
 > Pour supprimer une correspondance, sélectionnez la ligne de relevé bancaire, et sélectionnez l’action **Supprimer correspondance**. Si vous avez rapproché plusieurs lignes de relevé bancaire avec une écriture comptable et que vous devez supprimer une ou plusieurs des lignes correspondantes, toutes les correspondances manuelles sont supprimées pour l’écriture comptable lorsque vous choisissez **Supprimer la correspondance**.
 
-## Pour valider votre rapprochement bancaire
+## Valider votre rapprochement bancaire
 
 Pour revérifier le rapprochement de votre compte bancaire avant de le valider, utilisez l’action **Impression test** pour afficher un aperçu du rapprochement. L’état est disponible dans les contextes suivants :
 
@@ -239,10 +245,12 @@ N’utilisez pas de compte général qui permet la validation directe dans votre
 
 Cette erreur se produit souvent lors de la saisie d’un solde d’ouverture pour un compte bancaire. Il est important que vous ne comptabilisiez pas le solde d’ouverture directement dans la comptabilité. Les écritures dans le compte général qui sont comptabilisées directement dans le compte général causeront des problèmes. Par exemple, ces écritures peuvent vous empêcher de rapprocher votre compte bancaire. Pour les comptes bancaires en devise étrangère, les écritures peuvent entraîner l’accumulation de différences après la validation d’autres rapprochements bancaires, en raison des ajustements du taux de change. Souvent, vous comptabilisez le solde bancaire d’ouverture directement sur le compte bancaire, et le montant se retrouve ensuite dans le compte général. Sinon, contrepassez-le plus tard sur un compte général que vous utilisez pour équilibrer le solde d’ouverture des écritures comptables. Dans les deux cas, vous devez équilibrer toute écriture directe sur le compte général avant de commencer votre premier rapprochement bancaire, et surtout si le compte bancaire est en devise étrangère.
 
+
 ## Voir aussi
 
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
-[Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+[Rapprocher les comptes bancaires à l’aide de l’assistance au rapprochement bancaire (version préliminaire)](bank-reconciliation-with-copilot.md)
+[Appliquer automatiquement les paiements et rapprocher les comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Définir des règles pour le lettrage automatique des paiements](receivables-how-set-up-payment-application-rules.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

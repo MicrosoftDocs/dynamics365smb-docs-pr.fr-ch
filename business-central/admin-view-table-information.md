@@ -11,13 +11,13 @@ ms.date: 10/11/2023
 ms.author: jswymer
 ---
 
-# <a name="viewing-table-information"></a>Affichage d’informations sur les tables
+# Affichage d’informations sur les tables
 
 La page **Informations sur les tables 8700** fournit des informations sur le nombre d’enregistrements dans toutes les tables système et métier dans [!INCLUDE[prod_short](includes/prod_short.md)], et la quantité de données que chaque table contient.
 
 Ces informations sont utiles pour résoudre les problèmes de performances, car nous allons voir la répartition de la taille des données entre les tables.
 
-## <a name="view-table-information"></a>Affichage des informations sur la table
+## Affichage des informations sur la table
 
 Pour ouvrir cette page, sélectionnez l’icône ![Rechercher une page ou un état.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") entrez **Informations table**, puis choisissez le lien associé.
 
@@ -42,7 +42,7 @@ Le tableau suivant décrit les informations fournies pour chaque table :
 > La page **Informations sur les tables** affiche les tailles des données et des index. La somme des tailles des tables ne correspondra pas à la capacité totale utilisée, car elle affiche la taille des données et non la taille réellement allouée. L’espace alloué est toujours plus grand que l’espace utilisé pour éviter d’avoir à allouer de l’espace sur chaque insert, ce qui limiterait considérablement les performances
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Inspection des pages](across-inspect-page.md)  
 [Articles sur les performances pour les développeurs](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

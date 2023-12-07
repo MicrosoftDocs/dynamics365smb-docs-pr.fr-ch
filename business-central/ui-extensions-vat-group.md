@@ -160,6 +160,18 @@ Lorsque le représentant du groupe a soumis la déclaration de TVA du groupe aux
 > [!IMPORTANT]
 > La fonctionnalité de groupe TVA n’est prise en charge que sur les marchés où [!INCLUDE[prod_short](includes/prod_short.md)] utilise une infrastructure de TVA composé de déclarations de TVA et de périodes de déclaration de TVA. Vous ne pouvez pas utiliser de groupes TVA sur des marchés ayant d’autres implémentations de déclaration de TVA locale, tels que l’Autriche, l’Allemagne, l’Italie, l’Espagne et la Suisse.
 
+## Problème lié à l’activation de l’authentification multifacteur (MFA)
+
+Si vous recevez un message d’erreur lié à l’autorisation lors du renouvellement du **Jeton OAuth2** sur la page **Paramétrage déclaration TVA** après avoir activé MFA, procédez comme suit.  
+
+1. Connectez-vous au **Portail Azure** en tant qu’administrateur d’authentification.  
+2. Accédez à **Microsoft Entra ID**.   
+3. Accédez à **Utilisateurs**, puis sélectionnez l’utilisateur que vous voulez voir exécuter une action.  
+4. Sélectionnez **Méthodes d’authentification**, puis en haut de la page, sélectionnez **Réenregistrement de l’authentification multifacteur obligatoire**. 
+5. Revenez à Dynamics 365 Business Central, puis sélectionnez de renouveler le jeton à partir de l’option **Paramétrage déclaration TVA**.  
+
+Il doit s’agir d’une configuration unique après avoir activé l’authentification multifacteur pour l’utilisateur sélectionné dans **Paramétrage déclaration TVA**.  
+
 ## Voir aussi
 
 [Fonctionnalité locale du Royaume-Uni dans la version britannique](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  

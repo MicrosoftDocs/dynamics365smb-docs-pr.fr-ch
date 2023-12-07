@@ -14,16 +14,6 @@ ms.custom: bap-template
 
 Si vous achetez ou vendez des articles pour lesquels vous et votre fournisseur ou client utilisez des termes différents, vous pouvez définir une référence entre vos termes pour les articles et les termes que le client ou le fournisseur de cet article utilise. De cette façon, la description de l’article du fournisseur ou du client, l’unité ou le code variante est automatiquement inséré sur les documents pertinents lorsque vous remplissez le **Numéro de référence de l’article** .  
 
-> [!NOTE]
-> Toutes les entreprises n’utilisent pas de références d’articles. Pour minimiser l’encombrement des pages, nous avons masqué les champs et les actions associés par défaut. Si vous décidez de les utiliser, sélectionnez le champ **Utiliser les références article** sur la page **Paramètres stock**. Une fois que vous avez activé les références article, les champs et les actions sont disponibles sur les pages Fiche article, Fiche fournisseur et Fiche client, ainsi que dans les documents de vente et d’achat.
->
-> Dans les versions antérieures à la 2e vague de lancement 2021, votre administrateur peut activer les fonctionnalité *Écrire des références d’articles plus longues* sur la page [Gestion des fonctionnalités](https://businesscentral.dynamics.com/?page=2610) (le lien nécessite que vous ayez un abonné [!INCLUDE [prod_short](includes/prod_short.md)]). La façon dont vous utilisez les références ne change pas, mais les noms d’articles, tels que les pages et les boutons le seront. Par exemple, la page **Entrées de références croisées d’article** deviendra la page **Entrées de référence d’article**.
-
-## Pour commencer à utiliser les références article
-
-1. Choisissez l’icône :::image type="icon" source="media/ui-search/search_small.png" border="false":::, saisissez **Paramètres stock**, puis choisissez le lien associé.
-2. Sélectionnez le champ **Utiliser les références d’articles**.
-
 ## Pour configurer une référence article
 
 1. Choisissez l’icône :::image type="icon" source="media/ui-search/search_small.png" border="false":::, entrez **Articles**, puis choisissez le lien associé.
