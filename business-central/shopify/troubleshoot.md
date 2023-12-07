@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '30118, 30119, 30120, 30101, 30102'
 ---
 
-# Dépannage de la synchronisation entre Shopify et Business Central
+# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Dépannage de la synchronisation entre Shopify et Business Central
 
 Vous pouvez vous trouver face à des situations où vous devez résoudre des problèmes lors de la synchronisation de données entre Shopify et [!INCLUDE[prod_short](../includes/prod_short.md)]. Cette page définit les étapes permettant de dépanner certains scénarios courants.
 
-## Exécuter des tâches au premier plan
+## <a name="run-tasks-in-the-foreground"></a>Exécuter des tâches au premier plan
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Magasin Shopify**, puis choisissez le lien associé.
 2. Sélectionnez le magasin pour lequel vous voulez résoudre les problèmes pour ouvrir la page **Fiche magasin Shopify**.
@@ -22,7 +22,7 @@ Vous pouvez vous trouver face à des situations où vous devez résoudre des pro
 
 Désormais, lorsque l’action de synchronisation est déclenchée, la tâche s’exécute au premier plan. Si une erreur se produit, une boîte de dialogue d’erreur s’affiche, avec un lien **Copier les détails**. Utilisez le lien pour copier les informations dans un éditeur de texte pour une analyse plus approfondie.
 
-## Journaux
+## <a name="logs"></a>Journaux
 
 Les fonctionnalités de journalisation peuvent faciliter l’identification de la raison pour laquelle une erreur s’est produite. Sur la page **Fiche magasin Shopify**, dans le champ **Mode journalisation**, vous pouvez spécifier le niveau de détail que vous souhaitez capturer sur les erreurs. Le champ fournit les options suivantes :
 
@@ -33,13 +33,13 @@ Les fonctionnalités de journalisation peuvent faciliter l’identification de l
 > [!NOTE]
 > La journalisation continue des erreurs peut ralentir [!INCLUDE [prod_short](../includes/prod_short.md)]. Pour éviter cela, vous pouvez activer la journalisation après avoir trouvé une erreur dans votre synchronisation. Vous pouvez déclencher à nouveau manuellement la synchronisation, puis consulter le journal pour voir les erreurs qui se sont produites.
 
-### Gérer les données des écritures journal
+### <a name="to-review-logs"></a>Gérer les données des écritures journal
 
 Pour vous aider à maintenir la taille de votre base de données sous contrôle, les écritures journal sont incluses dans une stratégie de rétention des données nommée **Écriture journal Shopify**. Les stratégies de rétention vous permettent de spécifier la durée pendant laquelle vous souhaitez stocker différents types de données. Par défaut, les écritures du journal Shopify sont conservées pendant un mois. Pour en savoir plus sur les stratégies de rétention, accédez à [Définir des stratégies de rétention](../admin-data-retention-policies.md).
 
 De même, dans la page **Écritures journal Shopify**, vous pouvez supprimer toutes les écritures journal ou seulement les écritures antérieures à 7 jours.
 
-### Pour vérifier les journaux
+### <a name="manage-log-entry-data"></a>Pour vérifier les journaux
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Écritures journal Shopify**, puis choisissez le lien associé.
 2. Sélectionnez l’écriture journal associée, puis ouvrez la page **Écriture journal Shopify**.
@@ -52,7 +52,7 @@ Vous pouvez télécharger les valeurs de demande et de réponse sous forme de fi
 
 Pour éviter les effets sur les performances et la taille de votre base de données, envisagez de désactiver la journalisation.
 
-## Capture de données
+## <a name="data-capture"></a>Capture de données
 
 Que la journalisation soit activée ou pas, certaines réponses Shopify sont toujours journalisées. Vous pouvez inspecter ou télécharger les journaux à partir de la page **Liste de capture de données**.
 
@@ -71,13 +71,13 @@ Sélectionnez l’action **Données Shopify récupérées** dans l’une des pag
 - **Transactions de paiement Shopify**
 - **Transactions Shopify**
 
-## Réinitialiser la synchronisation
+## <a name="reset-sync"></a>Réinitialiser la synchronisation
 
 Pour des performances optimales, le connecteur importe uniquement les clients, les produits et les commandes créés ou modifiés après la dernière synchronisation. Dans la page **Fiche magasin Shopify**, des fonctions sont disponibles pour modifier la date/l’heure de la dernière synchronisation ou la réinitialiser complètement. Cette fonction garantit que toutes les données sont synchronisées et pas uniquement les modifications apportées depuis la dernière synchronisation.
 
 Cette fonction ne s’applique qu’aux synchronisations de Shopify à [!INCLUDE[prod_short](../includes/prod_short.md)]. Cette fonction peut être utile si vous voulez restaurer des données supprimées, comme les produits, les clients ou les commandes supprimées.
 
-## Demander le jeton d’accès
+## <a name="request-the-access-token"></a>Demander le jeton d’accès
 
 Si [!INCLUDE[prod_short](../includes/prod_short.md)] ne parvient pas à se connecter à votre compte Shopify, tentez de réinitialiser le jeton d’accès auprès de Shopify. Le jeton peut être nécessaire en cas de modifications des clés de sécurité ou des autorisations requises (étendues d’application).
 
@@ -88,7 +88,7 @@ Si [!INCLUDE[prod_short](../includes/prod_short.md)] ne parvient pas à se conne
 
 Le bouton bascule **A une clé d’accès** est activé.
 
-## Vérifier et activer les autorisations pour effectuer des requêtes HTTP dans un environnement hors production
+## <a name="verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment"></a>Vérifier et activer les autorisations pour effectuer des requêtes HTTP dans un environnement hors production
 
 Pour fonctionner correctement, l’extension de connecteur Shopify nécessite une autorisation pour effectuer des requêtes HTTP. Les requêtes HTTP sont interdites pour toutes les extensions lorsque vous exécutez des tests dans les environnements de bac à sable.
 
@@ -97,26 +97,26 @@ Pour fonctionner correctement, l’extension de connecteur Shopify nécessite un
 3. Choisissez l’action **Configurer** pour ouvrir la page **Paramètres de l’extension**.
 4. Assurez-vous que le bouton à bascule **Autoriser les requêtes HTTPClient** est activé.
 
-## Faire tourner le jeton d’accès Shopify
+## <a name="rotate-the-shopify-access-token"></a>Faire tourner le jeton d’accès Shopify
 
 Les procédures suivantes décrivent comment faire tourner le jeton d’accès utilisé par le connecteur Shopify pour accéder à votre magasin en ligne Shopify.
 
-### Dans Shopify
+### <a name="in-shopify"></a>Dans Shopify
 
 1. Depuis votre **Administration Shopify**, accédez à [Applications](https://www.shopify.com/admin/apps).
 2. Sélectionnez **Supprimer** dans la ligne avec l’application **Dynamics 365 Business Central**.
 3. Sélectionnez **Supprimer** dans le message qui s’affiche.
 
-### Dans [!INCLUDE[prod_short](../includes/prod_short.md)]
+### <a name="in-"></a>Dans [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Magasins Shopify**, puis sélectionnez le lien associé.
 2. Sélectionnez le magasin pour lequel vous voulez faire tourner le jeton d’accès pour ouvrir la page **Fiche magasin Shopify**.
 3. Sélectionnez l’action **Demander l’accès**.
 4. Si vous y êtes invité, connectez-vous à votre compte Shopify, passez en revue la confidentialité et les autorisations, puis cliquez sur le bouton **Installer l’application**.
 
-## Problèmes connus
+## <a name="known-issues"></a>Problèmes connus
 
-### Erreur : L’en-tête des ventes n’existe pas. Champs et valeurs d’identification : Document Type=’Quote’,No.=’YOUR SHOPIFY STORE’
+### <a name="error-the-sales-header-does-not-exist-identification-fields-and-values-document-typequotenoyour-shopify-store"></a>Erreur : L’en-tête des ventes n’existe pas. Champs et valeurs d’identification : Document Type=’Quote’,No.=’YOUR SHOPIFY STORE’
 
 Pour calculer les prix, le connecteur Shopify crée un document de vente temporaire (devis) pour un client temporaire (code de magasin) et utilise la logique de calcul du prix standard. Si une extension tierce s’abonne à des événements dans un document de vente temporaire, l’en-tête peut ne pas être disponible. Nous vous recommandons de contacter le fournisseur de l’extension. Demandez-lui de modifier son code pour rechercher des enregistrements temporaires. Dans certains cas, il lui suffit d’ajouter la méthode `IsTemporary` au bon endroit. Pour en savoir plus sur `IsTemporary`, consultez [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
 
@@ -138,30 +138,30 @@ Pile d’appels AL :
 
 N’oubliez pas de partager les informations de la pile d’appels AL avec le fournisseur de l’extension.
 
-### Erreur : Gén. Groupe compta. marché doit comporter une valeur dans Client: ’YOUR SHOPIFY STORE’. La valeur ne peut pas être zéro et le champ ne peut pas être vide
+### <a name="error-gen-bus-posting-group-must-have-a-value-in-customer-your-shopify-store-it-cannot-be-zero-or-empty"></a>Erreur : Gén. Groupe compta. marché doit comporter une valeur dans Client: ’YOUR SHOPIFY STORE’. La valeur ne peut pas être zéro et le champ ne peut pas être vide
 
 Sur la page **Fiche magasin Shopify**, remplissez le champ **Code modèle client** dans la fenêtre Fiche magasin avec le modèle pour lequel **Groupe compta. marché** est renseigné. Le modèle client est utilisé pour créer des clients et pour calculer les prix de vente pour les documents de vente.
 
-### Erreur : L’importation de données dans votre boutique Shopify n’est pas activée. Accédez à la fiche magasin pour l’activer
+### <a name="error-importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Erreur : L’importation de données dans votre boutique Shopify n’est pas activée. Accédez à la fiche magasin pour l’activer
 
 Sur la page **Fiche magasin Shopify**, activez le bouton bascule **Autoriser la synchronisation des données vers Shopify**. Ce paramètre aide à empêcher la boutique en ligne d’obtenir des données de démonstration de [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-### Erreur : Oauth error invalid_request: Could not find Shopify API application with api_key
+### <a name="error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Erreur : Oauth error invalid_request: Could not find Shopify API application with api_key
 
 Selon toute vraisemblance, vous utilisez l’[application intégrée](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), où l’URL du client a le format : `https://[application name].bc.dynamics.com`. Le connecteur Shopify ne fonctionne pas pour les applications intégrées. Pour en savoir plus, consultez [Quels sont les produits Microsoft pour lesquels le connecteur Shopify est disponible ?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
-### Erreur : erreur interne. Il semble qu’un problème se soit produit de votre côté. ID de la demande : XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+### <a name="error-internal-error-looks-like-something-went-wrong-on-our-end-request-id-xxxxxxxx-xxxx-xxxx-xxxx-xxxx"></a>Erreur : erreur interne. Il semble qu’un problème se soit produit de votre côté. ID de la demande : XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
 Contactez le support Shopify dans les 7 jours suivant l’apparition de cette erreur, et fournissez l’ID de la demande. Pour en savoir plus, rendez-vous sur [Options de support pour Shopify](shopify-faq.md#shopify).
 
-### Erreur : Oauth erreur invalid_request : votre compte n’est pas autorisé à accorder l’accès demandé pour cette application. 
+### <a name="error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app"></a>Erreur : Oauth erreur invalid_request : votre compte n’est pas autorisé à accorder l’accès demandé pour cette application.
 
 Il semble que l’utilisateur qui demande l’accès n’ait pas le droit de gérer les applications (possibilité de gérer et d’installer des applications et des canaux, ainsi que potentiellement d’approuver les frais des applications). Vous pourrez peut-être résoudre ce problème en installant l’application en tant que propriétaire du compte. Vous pouvez également vérifier les **Autorisations d’application** pour l’utilisateur dans les [**Paramètres Utilisateur et autorisations**](https://www.shopify.com/admin/settings/account) de votre **Shopify administrateur**.  
 
-### [{"message":"Accès refusé au champ FIELD.","emplacements":[{"ligne":0,"colonne":0}],"chemin":["chemin"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
+### <a name="messageaccess-denied-for-field-fieldlocationsline0column0pathpathextensionscodeaccess_denieddocumentationhttpsshopifydevapiusageaccess-scopes"></a>[{"message":"Accès refusé au champ FIELD.","emplacements":[{"ligne":0,"colonne":0}],"chemin":["chemin"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
 
 Demandez un nouveau jeton parce que la version mise à jour du connecteur nécessite davantage d'autorisations (étendues d’application). Pour en savoir plus, rendez-vous sur [Demander le jeton d’accès](#request-the-access-token).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Mise en route du connecteur pour Shopify](get-started.md)

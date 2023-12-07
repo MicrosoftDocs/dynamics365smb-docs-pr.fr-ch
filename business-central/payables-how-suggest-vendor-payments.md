@@ -29,14 +29,14 @@ Pour bénéficier pleinement des suggestions de paiement, vous devez d’abord a
 > * Les écritures fournisseur échues et non prioritaires.  
 > * Les écritures fournisseur ouvertes donnant lieu à un escompte. Les écritures sont classées dans l’ordre des numéros des fournisseurs.  
 
-## <a name="to-use-the-suggest-vendor-payments-function"></a>Pour utiliser la fonction Proposer paiements fournisseur
+## <a name="use-the-suggest-vendor-payments-action"></a>Pour utiliser la fonction Proposer paiements fournisseur
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles paiement**, puis choisissez le lien associé.  
 2. Ouvrez la feuille, puis sélectionnez l’action **Proposer paiements fournisseur**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Cliquez sur le bouton **OK**.  
 
-## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Pour insérer la date d’échéance comme date comptabilisation sur les lignes feuille paiement
+## <a name="insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Pour insérer la date d’échéance comme date comptabilisation sur les lignes feuille paiement
 
 Lorsque vous utilisez le traitement par lots **Proposer paiements fournisseur** pour créer des lignes de paiement pour vos fournisseurs, vous pouvez remplir deux champs spéciaux pour vous assurer que les lignes générées utilisent la date d’échéance pour calculer la date comptabilisation. Ces champs sont **Calculer la date comptabilisation à partir de la date d’échéance doc. lettrage** et **Décalage date d’échéance doc. lettrage**.  
 

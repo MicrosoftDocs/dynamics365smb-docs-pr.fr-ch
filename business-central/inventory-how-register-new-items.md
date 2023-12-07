@@ -99,7 +99,7 @@ Lorsque la quantité d’articles requis dépasse la quantité disponible en sto
 
 En savoir plus sur les variantes dans la section [Gérer les variantes de produits](inventory-item-variants.md).  
 
-## <a name="deleting-item-cards"></a>Suppression de fiches article
+## <a name="delete-item-cards"></a>Suppression de fiches article
 
 Si vous avez enregistré une transaction pour un article, vous ne pouvez pas supprimer la carte, car les écritures comptables peuvent être nécessaires pour l’évaluation du stock ou l’audit. Pour supprimer des fiches article avec des écritures comptables, contactez le partenaire Microsoft pour le faire via le code.  
 

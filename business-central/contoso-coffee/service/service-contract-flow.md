@@ -73,7 +73,7 @@ Charles, le responsable de service, crée ensuite un contrat de service pour fac
 - Un contrat de service signé est créé, avec des écritures comptables
 - Une facture service validée est créée
 
-## <a name="creating-a-service-order-for-a-service-contract-and-assign-resources"></a>Création d’une commande service pour un contrat de service et affectation de ressources
+## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Création d’une commande service pour un contrat de service et affectation de ressources
 
 ### <a name="scenario-2"></a>Scénario
 

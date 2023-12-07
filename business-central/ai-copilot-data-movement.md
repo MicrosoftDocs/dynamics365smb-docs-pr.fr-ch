@@ -10,7 +10,7 @@ ms.date: 11/15/2023
 ms.custom: bap-template
 ---
 
-# Déplacement des données Copilot entre des zones géographiques 
+# <a name="copilot-data-movement-across-geographies"></a>Déplacement des données Copilot entre des zones géographiques
 
 Copilot est disponible dans tous les supports pris en charge [Pays/régions Business Central](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Cependant, Copilot utilise le service Microsoft Azure OpenAI, actuellement disponible pour Business Central dans certaines régions géographiques uniquement. Cela signifie que si votre environnement est basé ailleurs, les données issues de Copilot et des fonctionnalités de l’IA générative doivent être transmises en dehors de votre région géographique et pourraient être traitées et stockées en dehors de votre limite de conformité. Parmi les données figurent les invites de l’IA et les données de votre entreprise utilisées ou générées par Copilot. Dans ce cas, vous devez vous autoriser le mouvement des données vers un compte Azure OpenAI Service dans une autre région. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
 
@@ -22,7 +22,7 @@ Copilot est disponible dans tous les supports pris en charge [Pays/régions Busi
 > 
 > Les fonctionnalités de Copilot et de l’IA générative des éditeurs non Microsoft, telles que celles issues de personnalisations ou des applications AppSource que vous installez, définissent leurs propres régions Azure OpenAI Service desservies. Consultez l’éditeur de l’extension pour comprendre quels services Azure régionaux sont utilisés par l’extension. 
 
-### Zones géographiques desservant Azure OpenAI Service
+### <a name="azure-openai-service-geographies"></a>Zones géographiques desservant Azure OpenAI Service
 
 Le tableau suivant affiche la région Azure OpenAI Service utilisée par Copilot, selon le pays/région d’un environnement Business Central. Ces informations sont importantes pour décider d’accepter ou non le mouvement des données entre zones géographiques. Vous pouvez identifier le pays/région Azure de votre environnement dans le centre d’administration Business Central (voir [Gestion des environnements dans le centre d’administration](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
 
@@ -106,6 +106,6 @@ case "AUSTRALIAEAST":
 
 -->
 
-## Étapes suivantes
+## <a name="next-steps"></a>Étapes suivantes
 
 Vous choisissez d’autoriser le mouvement des données entre les régions à partir de la page [Capacités de Copilot et de l’IA](https://businesscentral.dynamics.com/?page=7775). Pour en savoir plus, consultez [Autoriser le déplacement des données entre régions](enable-ai.md#allow-data-movement-across-geographies).
