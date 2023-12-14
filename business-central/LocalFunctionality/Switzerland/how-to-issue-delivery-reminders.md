@@ -7,17 +7,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 06/25/2021
+ms.date: 11/21/2023
 ms.author: bholtorf
 ---
-# <a name="issue-delivery-reminders-in-the-swiss-version"></a>Émettre des relances livraison dans la version suisse
+# Émettre des relances livraison dans la version suisse
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
-[Imprimer des rapports de test pour les relances livraison](how-to-print-test-reports-for-delivery-reminders.md)  
-[relances livraison](delivery-reminders.md)  
+[Impression des rapports de test pour les relances livraison](how-to-print-test-reports-for-delivery-reminders.md)  
+[Relances livraison](delivery-reminders.md)  
 [Générer des relances livraison](how-to-generate-delivery-reminders.md)  
 [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)  
 

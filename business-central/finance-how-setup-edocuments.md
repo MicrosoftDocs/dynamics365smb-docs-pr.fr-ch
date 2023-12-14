@@ -12,17 +12,17 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# <a name="set-up-e-documents"></a>Configurer des documents électroniques
+# Configurer des documents électroniques
 
 > [!IMPORTANT]
-> Le module de base de documents électroniques est une infrastructure. Par défaut, il n’y a pas de champ **Format des documents** ou **Intégration des services**. Ces détails font partie des applications de localisation, car ils sont tous deux spécifiques aux exigences locales.
+> Le module de base de documents électroniques est une infrastructure. Par défaut, il n’y a pas de champ **Intégration des services**. Si vous retrouvez les options **Format du document** par défaut, sachez qu’elles sont proposées à titre d’exemple et que la localisation doit fournir un format détaillé. Ces détails font partie des applications de localisation, car ils sont spécifiques aux exigences locales.
 
 > [!NOTE]
-> Depuis la version 23.1, un format de document PEPPOL standard est ajouté comme format global dans le champ **Format de document**.
+> Depuis la version 23.2, un format de document PEPPOL standard est ajouté comme format global dans le champ **Format de document**. Gardez à l’esprit que vous ne pourrez probablement pas utiliser ce format tel quel. Il s’agit d’un format W1 fourni pour montrer comment utiliser cette fonctionnalité. Nous vous recommandons de tester le format PEPPOL existant avant de commencer à utiliser ce format.
 
 La première étape de la configuration des documents électroniques (e-documents) consiste à configurer le service Documents électroniques dans lequel vous configurez le comportement complet de votre système en ce qui concerne la communication par documents électroniques.
 
-## <a name="set-up-the-e-document-service"></a>Configurer le service de documents électroniques
+## Configurer le service de documents électroniques
 
 Suivez ces étapes pour configurer le service de documents électroniques.
 
@@ -33,11 +33,11 @@ Suivez ces étapes pour configurer le service de documents électroniques.
     |-------|-------------|
     | Code | Sélectionnez le code de configuration de l’exportation électronique. |
     | Désignation | Saisissez une brève description de la configuration de l’exportation électronique. |
-    | Format de document | <p>Format d’exportation de la configuration de l’exportation électronique.</p><p>Par défaut, il n’y a aucune option dans ce champ dans la vague 1.</p> |
+    | Format de document | <p>Format d’exportation de la configuration de l’exportation électronique.</p><p>Par défaut, il y a deux option dans ce champ. Vous pouvez sélectionner **PEPPOL BIS 3** comme format générique basé sur du code ou **Échange de données** lorsque vous devez configurer des pré-documents de formats spécifiques sur le Raccourci **Définition d’échange de données**.</p> |
     | Intégration de service | Sélectionnez le code d’intégration pour la configuration de l’exportation électronique. Dans la 1e vague, la seule option est **Aucune intégration**. |
     | Utiliser le traitement par lots | Spécifiez si le service utilise le traitement par lots pour l’exportation. |
 
-4. Dans le récapitulatif **Paramètres importés**, configurez les champs comme indiqué dans le tableau ci-dessous.
+3. Dans le récapitulatif **Paramètres importés**, configurez les champs comme indiqué dans le tableau ci-dessous.
 
     | Champ | Désignation |
     |-------|-------------|
@@ -57,11 +57,22 @@ Suivez ces étapes pour configurer le service de documents électroniques.
     | Heure de début du lot | Spécifiez l’heure de début des tâches d’importation. |
     | Délai entre les exécutions (en minutes) | Spécifiez le nombre de minutes entre deux exécutions de la tâche d’importation. |
 
-Si vous avez configuré le format **Définition d’échange de données** dans votre localisation, vous pouvez ajouter une ligne pour chaque type de document dont vous avez besoin. Cependant, vous devez d’abord sélectionner l’option **Type de document** pour chaque ligne dont vous avez besoin. Pour chaque type de données, sélectionnez la valeur **Importer le code de déf. d’échange de données** ou **Exporter le code de déf. d’échange de données** que vous souhaitez utiliser.
+4. Si vous avez sélectionné **Échange de données** dans le **Format du document** dans le champ Raccourci **Général**, utilisez la Raccourci **Définition d’échange de données** pour définir les champs suivants.
 
-Finalement, si vous n’utilisez pas le format **Définition d’échange de données**, vous pouvez configurer les formats via les lignes **Exporter un mappage** et **Importer un mappage**, où vous pouvez localiser les tables et les champs à utiliser et configurer les règles de transformation, le cas échéant.
+    | Champ | Désignation |
+    |-------|-------------|
+    | Type de document | Spécifiez le type de document qui utilise l’échange de données pour importer et exporter les données. Exemples : **facture de vente**, **note de crédit de vente** et **facture d’achat**. |
+    | Importer code déf. échange données | Spécifiez le code d’échange de données utilisé pour importer les données. Utilisez ce champ uniquement pour recevoir un document dans le processus d’achat. |
+    | Exporter code déf. échange données | Spécifiez le code d’échange de données utilisé pour exporter les données. Utilisez ce champ uniquement pour livrer des documents dans le processus de vente. |
 
-## <a name="set-up-a-document-sending-profile"></a>Configurer un profil d’envoi de documents
+> [!NOTE]
+> Il existe des définitions d’échange de données préparées pour le format PEPPOL qui sont liées au document vente et achat standard. Cependant, vous ne pourrez probablement pas utiliser ces définitions telles quelles. Ce sont tous des formats W1 fournis pour montrer comment utiliser cette fonctionnalité. Nous vous recommandons de tester le format PEPPOL existant avant de commencer à les utiliser.
+
+Si vous avez configuré le format **Définition d’échange de données** dans votre localisation, vous pouvez ajouter une ligne pour chaque type de document dont vous avez besoin. Ajoutez des lignes qui correspondent à l’exemple d’échange de données par défaut pour le format W1 PEPPOL. Cependant, d’abord sélectionner l’option **Type de document** pour chaque ligne dont vous avez besoin. Pour chaque type de données, sélectionnez la valeur **Importer le code de déf. d’échange de données** ou **Exporter le code de déf. d’échange de données** que vous souhaitez utiliser.
+
+Si vous n’utilisez pas le format **Définition d’échange de données**, vous pouvez créer et configurer des formats à l’aide de l’ [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Ajustez les informations sur les lignes **Exporter un mappage** et **Importer un mappage**, où vous trouverez les tables et champs à configurer les règles de transformation. Dans ce cas, vous devez ajouter une nouvelle option dans le champ **Format du document** liée à votre format.
+
+## Configurer un profil d’envoi de documents
 
 Vous pouvez configurer une méthode préférée d’envoi des documents de vente pour chacun de vos clients. De cette façon, vous n’avez pas besoin de sélectionner une option d’envoi à chaque fois que vous sélectionnez l’action **Publier et envoyer**. Sur la page **Profils d’envoi de documents**, configurez différents profils d’envoi que vous pouvez sélectionner dans le champ **Profil d’envoi de documents** d’une fiche client. Vous pouvez cocher la case **Par défaut** pour spécifier que le profil d’envoi du document est le profil par défaut pour tous les clients, sauf pour les clients dont le champ **Profil d’envoi de documents** est renseigné avec un autre profil d’envoi.
 
@@ -83,7 +94,7 @@ Suivez la procédure pour configurer un profil d’envoi de documents.
     > [!NOTE]
     > Si vous sélectionnez **Flux de services document électronique étendu** dans le champ **Document électronique**, vous devez déjà avoir configuré le flux de travail pour vos documents électroniques.
 
-## <a name="set-up-the-workflow"></a>Configurer le flux de travail
+## Configurer le flux de travail
 
 Suivez cette procédure pour configurer le flux de travail utilisé dans la fonctionnalité de document électronique.
 
@@ -98,7 +109,11 @@ Suivez cette procédure pour configurer le flux de travail utilisé dans la fonc
 > [!NOTE]
 > Vous pouvez créer votre propre flux de travail pour les documents électroniques sans utiliser de modèles de flux de travail prédéfinis. Si vous disposez de plus de services, vous pouvez utiliser différents flux de travail.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Mettre en place une stratégie de rétention des documents électroniques
+Pour utiliser davantage de workflows, configurez-les via les profils d’envoi de documents pour différents clients. Lorsque vous configurez le flux de travail, spécifiez le profil d’envoi du document dans la colonne **Sur condition** de l’onglet Raccourci **Étapes du flux de travail**, car vous ne pouvez pas avoir deux services qui utilisent le même profil d’envoi de documents dans les flux de travail.
+
+Lorsque vous configurez votre workflow sur la page **Workflow** , pointez sur le champ **Sur condition** sur le Raccourci **Étapes du workflow**. Sur la page **Conditions d’événement** , dans le champ **Filtre** , sélectionnez le profil d’envoi de documents que vous souhaitez utiliser.
+
+## Mettre en place une stratégie de rétention des documents électroniques
 
 Les documents électroniques peuvent faire l’objet de différentes législations locales liées à la durée de conservation des documents électroniques. Par conséquent, nous avons ajouté une configuration de stratégie de rétention pour toutes les informations importantes liées aux documents électroniques. Les administrateurs peuvent définir des stratégies de rétention qui spécifient la fréquence à laquelle Dynamics 365 Business Central supprime les enregistrements obsolètes liés aux documents électroniques. Pour en savoir plus sur les stratégies de rétention, accédez à [Définir des stratégies de rétention](admin-data-retention-policies.md).
 
@@ -112,7 +127,7 @@ Pour configurer des stratégies de rétention liées aux documents électronique
     - Journal du mappage de document électronique
     - Stockage des données du document électronique
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Comment utiliser des documents électroniques dans Business Central](finance-how-use-edocuments.md)  
 [Comment étendre des documents électroniques dans Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

@@ -10,25 +10,25 @@ ms.search.forms: '5082,'
 ms.date: 09/05/2023
 ms.custom: bap-template
 ---
-# <a name="attachments-for-interactions"></a>Pièces jointes pour les interactions
+# Pièces jointes pour les interactions
 
 Les fichiers joints aux interactions ne sont pas directement joints à l’interaction. Ils proviennent de l’un des emplacements suivants :
 
 * Le modèle interaction que vous avez utilisé pour créer l’interaction. Pour en savoir plus sur la configuration de modèles, consultez [Configurer des modèles interaction](marketing-interactions.md#set-up-interaction-templates).
 * Le segment pour lequel vous avez créé l’interaction. Pour en savoir plus sur les segments, consultez [Gérer les interactions pour les segments](marketing-interaction-segments.md).
 
-## <a name="view-attachments"></a>Afficher les pièces jointes
+## Afficher les pièces jointes
 
 Les pièces jointes sont disponibles lorsque vous affichez les interactions enregistrées sur la page **Écritures journal interaction**. Choisissez l’action **Afficher les pièces jointes**.
 
-## <a name="types-of-files-you-can-attach"></a>Types de fichiers que vous pouvez joindre
+## Types de fichiers que vous pouvez joindre
 
 Les pièces jointes peuvent être tout type de fichier, comme des documents Word, des présentations Powerpoint, des fichiers Excel ou texte, etc.
 
 > [!TIP]
 > [!INCLUDE [prod_short](includes/prod_short.md)] s’intègre à Word, ce qui vous permet d’utiliser des fonctionnalités telles que les champs de fusion dans les modèles Word. Pour en savoir plus sur l’utilisation de modèles Word, consultez [Utiliser des modèles Word pour la communication en masse](ui-mail-merge.md).
 
-## <a name="what-you-can-do-with-attachments"></a>Ce que vous pouvez faire avec les pièces jointes
+## Ce que vous pouvez faire avec les pièces jointes
 
 Vous pouvez effectuer les opérations suivantes avec les pièces jointes :
 
@@ -38,6 +38,6 @@ Vous pouvez effectuer les opérations suivantes avec les pièces jointes :
 * **Supprimer** : vous pouvez supprimer la pièce jointe active d’un modèle interaction.
 * **Copier** : vous pouvez copier des pièces jointes à partir d’un autre modèle interaction.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Enregistrer les interactions avec les contacts](marketing-interactions.md)  

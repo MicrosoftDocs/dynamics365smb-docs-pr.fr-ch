@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 7377'
 ---
-# <a name="pick-items-with-inventory-picks"></a>Prélever des articles avec les prélèvements stock
+# Prélever des articles avec les prélèvements stock
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous prélevez et expédiez des articles en utilisant l’une des quatre méthodes décrites dans le tableau suivant.
 
@@ -42,29 +42,29 @@ Vous pouvez créer un prélèvement stock de trois manières :
 
 Le prélèvement stock peut ensuite être créé à partir de la page **Prélèvement stock** sur la base du document origine.  
 
-## <a name="to-create-an-inventory-pick-from-the-source-document"></a>Pour créer un prélèvement stock à partir du document origine
+## Pour créer un prélèvement stock à partir du document origine
 
 1. Dans le document origine, qui peut être une commande vente, un retour achat ou un désenlogement transfert, choisissez l’action **Créer prélèv./rangement stock**.
 2. Activez la case à cocher **Créer prélèvement stock**.  
 3. Cliquez sur le bouton **OK**. Un nouveau prélèvement stock sera créé.
 
-## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Pour créer plusieurs prélèvements stock avec un traitement par lots
+## Pour créer plusieurs prélèvements stock avec un traitement par lots
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Créer rangement/prélèvement/mouvement stock**, puis choisissez le lien associé.  
 2. Sur le raccourci **Demande entrepôt**, utilisez les champs **Document origine** et **N° origine** pour opérer un filtrage sur certains types de documents ou des plages de numéros de document. Par exemple, vous pouvez créer des prélèvements uniquement pour des commandes vente.  
 3. Dans le raccourci **Options**, cochez la case **Créer prélèvement stock**.
 4. Cliquez sur le bouton **OK**.
 
-## <a name="to-create-the-pick-in-two-steps"></a>Pour créer le prélèvement en deux étapes
+## Pour créer le prélèvement en deux étapes
 
-### <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Pour demander un prélèvement stock en lançant le document origine
+### Pour demander un prélèvement stock en lançant le document origine
 
 Pour les commandes vente, de retours achat et de désenlogements transfert, vous créez la demande entrepôt en lançant l’ordre. Le lancement de la commande rend les articles disponibles pour le prélèvement.
 
 1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.
 2. Sélectionnez la commande vente que vous voulez lancer, puis sélectionnez l’action **Lancer**.
 
-### <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Pour créer un prélèvement stock en fonction du document origine
+### Pour créer un prélèvement stock en fonction du document origine
 
 Après avoir lancé une commande, le magasinier peut créer un prélèvement stock.
 
@@ -75,7 +75,7 @@ Après avoir lancé une commande, le magasinier peut créer un prélèvement sto
 5. Sinon, choisissez l’action **Extraire document origine** pour créer une liste de tous les documents origine sortants prêts pour le prélèvement dans le magasin.  
 6. Sélectionnez le bouton **OK** pour renseigner les lignes prélèvement en fonction des documents origine sélectionnés.  
 
-## <a name="to-record-inventory-picks"></a>Pour enregistrer les prélèvements stock
+## Pour enregistrer les prélèvements stock
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvement stock**, puis choisissez le lien associé.  
 2. Dans le champ **Code emplacement** sur les lignes prélèvement, l’emplacement à partir duquel les articles doivent être prélevés est proposé sur la base d’un emplacement par défaut de l’article. Vous pouvez modifier l’emplacement sur la page, si nécessaire.  
@@ -90,7 +90,7 @@ Après avoir lancé une commande, le magasinier peut créer un prélèvement sto
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Traitement des articles à assembler pour commande dans les prélèvements stock
+## Traitement des articles à assembler pour commande dans les prélèvements stock
 
 Vous pouvez également utiliser la page **Prélèvement stock** pour prélever et expédier les ventes lorsque les articles doivent être assemblés avant de pouvoir être livrés. Learn more at [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -120,7 +120,7 @@ Dans les scénarios où une partie de la quantité est assemblée et l’autre d
 > [!NOTE]  
 > Si les articles sont assemblés pour commande, le prélèvement stock pour la commande vente liée crée un mouvement de stock pour tous les composants d’assemblage.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  

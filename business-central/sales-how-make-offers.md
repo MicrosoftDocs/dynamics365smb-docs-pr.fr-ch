@@ -11,7 +11,7 @@ ms.search.form: '41, 9300'
 ms.date: 07/12/2021
 ms.author: bholtorf
 ---
-# <a name="make-sales-quotes"></a>Créer des devis
+# Créer des devis
 
 Vous créez un devis pour enregistrer votre proposition à un client ou un prospect pour vendre certains biens selon certaines conditions de livraison et de paiement. Vous pouvez envoyer un devis au client pour communiquer la proposition. Vous pouvez envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé du devis. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
 
@@ -19,7 +19,7 @@ Lorsque vous négociez avec le client ou le prospect, vous pouvez modifier et re
 
 Dans la plupart des cas, vous envoyez des devis aux clients potentiels. Vous avez souvent un interlocuteur avec qui vous négociez. S’il accepte ensuite votre offre, vous transformez le devis en commande et enregistrez le prospect en tant que client dans [!INCLUDE [prod_short](includes/prod_short.md)]. Dans la procédure suivante, nous nous concentrons sur les contacts, mais vous pouvez également envoyer des devis aux clients existants.  
 
-## <a name="to-create-a-sales-quote"></a>Pour créer un devis
+## Pour créer un devis
 
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devis**, puis sélectionnez le lien associé.
 2. Spécifiez le contact ou le client auquel vous souhaitez envoyer le devis.
@@ -88,11 +88,11 @@ Dans la plupart des cas, vous envoyez des devis aux clients potentiels. Vous ave
 
 La conversion supprime le devis de la base de données. Une facture vente ou une commande vente basée sur les informations du devis et dans laquelle vous pouvez traiter la vente est créée. Dans le champ **N° devis** de la facture vente ou de la commande vente, vous pouvez visualiser le numéro du devis à partir duquel elle a été réalisée. Pour plus d’informations, voir [Facturer des ventes](sales-how-invoice-sales.md) ou [Vendre des produits](sales-how-sell-products.md).  
 
-## <a name="external-document-number"></a>Numéro de document externe
+## Numéro de document externe
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  

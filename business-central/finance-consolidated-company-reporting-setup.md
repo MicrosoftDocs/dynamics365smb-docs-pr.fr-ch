@@ -11,7 +11,7 @@ ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
 ---
 
-# <a name="set-up-company-consolidation"></a>Configurer la consolidation de la société
+# Configurer la consolidation de la société
 
 Avant de pouvoir consolider les écritures comptables de deux ou plusieurs sociétés (filiales) dans une société consolidée, vous devez préparer les plans comptables et la société de consolidation.  
 
@@ -22,7 +22,7 @@ En fonction de la complexité de vos entreprises, il existe deux façons de conf
   * Dans chaque centre de profit, spécifiez les comptes généraux à inclure dans la consolidation et la méthode de conversion pour chaque compte.
   * Dans la société consolidée, configurez une fiche centre de profit pour chaque société à inclure dans la consolidation. La fiche centre de profit contient des informations, telles que les dates de l’exercice comptable du centre de profit et le pourcentage de chaque compte à inclure dans la consolidation.
 
-## <a name="simple-consolidation-setup"></a>Configuration d’une consolidation simple
+## Configuration d’une consolidation simple
 
 Si votre consolidation est simple, car vous détenez en totalité les centres de profit à consolider, le guide de configuration **Consolidation de la société** vous aide à effectuer les étapes suivantes :
 
@@ -34,11 +34,11 @@ Pour utiliser le guide de configuration assistée, procédez comme suit :
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  saisissez **Configuration assistée**, puis choisissez le lien associé.
 2. Choisissez **Traiter les consolidations**, puis effectuez chaque étape du guide de configuration assistée Consolidation de la société.
 
-## <a name="advanced-consolidation-setup"></a>Configuration d’une consolidation avancée
+## Configuration d’une consolidation avancée
 
 Si des paramètres plus avancés sont nécessaires pour votre consolidation, vous pouvez configurer manuellement la consolidation. Par exemple, si vous détenez partiellement des sociétés ou si vous ne souhaitez pas inclure des sociétés.  
 
-### <a name="set-up-the-consolidated-company"></a>Configurer la société consolidée
+### Configurer la société consolidée
 
 D’abord, vous devez définir la société consolidée. Vous configurez la société consolidée de la même manière que vous configurez d’autres sociétés. Pour en savoir plus sur la configuration d’une société, consultez [Se préparer à faire des affaires](ui-get-ready-business.md).  
 
@@ -62,7 +62,7 @@ La liste suivante illustre les principaux aspects de la société consolidée.
 
     Pour en savoir plus, consultez la section [Inclure ou exclure des axes analytiques](#dim).
 
-### <a name="add-business-units"></a><a name="busunit"></a>Ajouter des centres de profit
+### <a name="busunit"></a>Ajouter des centres de profit
 
 Dans la société consolidée, configurez chaque société dont vous souhaitez consolider les données en tant que centre de profit. Avant d’exécuter une consolidation et de générer votre rapport de consolidation, il est recommandé de vérifier les données financières dans chaque centre de profit.
 
@@ -88,7 +88,7 @@ Une grande partie de la configuration du centre de profit consiste à spécifier
         Pour obtenir l’URL du point de terminaison, dans le [!INCLUDE [prod_short](includes/prod_short.md)] de la société du centre de profit, ouvrez la page **Fiche centre de profit** et choisissez l’action **Configurer**. 
    * Pour exporter un fichier .xml et le partager manuellement, choisissez **Format de fichier**.
 
-### <a name="prepare-general-ledger-accounts-for-consolidation"></a><a name="glacc"></a>Préparer les comptes généraux pour la consolidation
+### <a name="glacc"></a>Préparer les comptes généraux pour la consolidation
 
 Le plan comptable d'une société qui sera consolidée doit spécifier des comptes pour consolidation. Pour chaque compte général de validation dans chaque société, vous devez spécifier le compte général dans la société consolidée vers laquelle transférer le solde. Ce mappage vous permet de consolider des sociétés avec des plans comptables différents.
 
@@ -97,7 +97,7 @@ Si le plan comptable du centre de profit diffère de celui de la société conso
 1. Dans chaque unité commerciale [!INCLUDE [prod_short](includes/prod_short.md)], sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
 2. Ouvrez la fiche du compte, puis renseignez les champs du raccourci **Consolidation**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Indiquer des taux de change pour les consolidations
+### <a name="exchrates"></a>Indiquer des taux de change pour les consolidations
 
 Si un centre de profit utilise une devise différente de celle de la société consolidée, vous devez spécifier des méthodes de conversion de taux de change pour chaque compte avant la consolidation. Pour chaque compte, la valeur du champ **Consolider la méthode de traduction** détermine le taux de change. Dans la société consolidée, sur chaque fiche centre de profit, dans le champ **Table Taux de change devise**, vous spécifiez si la consolidation utilise les taux de change du centre de profit ou de la société consolidée. Si vous utilisez les taux de change de la société consolidée, vous pouvez les modifier pour un centre de profit. Pour les centres de profit, si le champ **Table Taux de change devise** de la fiche centre de profit contient la valeur **Local**, vous pouvez modifier le taux de change à partir de la fiche centre de profit. Les taux de change sont copiés à partir de la table **Taux de change devise**, mais vous pouvez les modifier avant la consolidation.
 
@@ -120,7 +120,7 @@ Pour spécifier des taux de change pour les centres de profit, procédez comme s
 4. Choisissez l’action **Taux de clôture**.  
 5. Dans le champ **Montant taux de change lié**, saisissez le taux de change.
 
-### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Inclure ou exclure des axes analytiques
+### <a name="dim"></a>Inclure ou exclure des axes analytiques
 
 Vous pouvez consolider des informations analytiques et des comptes généraux.
 
@@ -130,15 +130,15 @@ Vous pouvez consolider des informations analytiques et des comptes généraux.
   * Pour consolider le code section analytique dans le centre de profit avec un autre code section analytique dans la société consolidée, renseignez le champ **Code de consolidation** dans les axes analytiques.  
 * Ajoutez les axes analytiques aux comptes généraux.
 
-### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Exclure une société de la consolidation
+### <a name="exclude"></a>Exclure une société de la consolidation
 
 Si vous ne souhaitez pas inclure un centre de profit dans la consolidation, vous pouvez l’exclure. Pour ce faire, accédez à la fiche centre de profit et désactivez la case à cocher **Consolider**.
 
-### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Inclure une société partiellement détenue dans la consolidation
+### <a name="include"></a>Inclure une société partiellement détenue dans la consolidation
 
 Si vous détenez une société en partie, vous pouvez ajouter un pourcentage de chaque transaction qui reflète le pourcentage que vous détenez. Par exemple, si vous possédez 70 % de la société, la consolidation inclut 70 USD d’une facture de 100 USD. Pour spécifier le pourcentage de la société que vous détenez, accédez à la fiche centre de profit et saisissez le pourcentage dans le champ **% consolidation**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)  
 [Gestion des transactions intersociétés](intercompany-manage.md)  

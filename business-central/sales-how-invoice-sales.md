@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 09/11/2023
+ms.date: 11/01/2023
 ms.author: bholtorf
 ---
-# <a name="invoice-sales"></a>Facturation des ventes
+# Facturation des ventes
 
 Vous pouvez généralement créer une commande vente ou une facture vente pour enregistrer votre accord avec un client pour vendre certains produits selon certaines conditions de livraison et de paiement.  
 
@@ -25,7 +25,7 @@ Pour toutes les autres situations, les commandes vente et les factures vente fon
 
 Vous pouvez négocier avec le client en créant d’abord un devis, que vous pouvez convertir en facture vente lorsque vous êtes d’accord sur la vente. Pour en savoir plus, consultez [Créer des devis](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices"></a>Créer des factures vente
+## Créer des factures vente
 
 Si le client décide d’acheter, vous validez la facture vente pour créer les écritures quantité et valeur associées. Lorsque vous validez la facture vente, vous pouvez également envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé des informations de facturation et de paiement, par exemple un lien vers Paypal. En savoir plus sur [Envoyer des documents par e-mail](ui-how-send-documents-email.md). Lorsque le client paie la facture, vous pouvez enregistrer ce paiement de différentes manières, selon la taille et les flux de travail favoris de votre organisation. En savoir plus sur la section [Enregistrement des paiements](#register-payments).  
 
@@ -33,7 +33,7 @@ Les fiches article peuvent être de type **Stock**, **Service** et **Hors stock*
 
 Vous pouvez remplir les champs relatifs au client sur la facture vente de deux façons selon que le client est déjà enregistré ou non. Reportez-vous à l’étape 2 de la procédure ci-dessous.
 
-### <a name="to-create-a-sales-invoice"></a>Pour créer une facture vente :
+### Pour créer une facture vente :
 
 1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.  
 2. Dans le champ **Nom client**, entrez le nom d’un client existant. Si, toutefois, le client est nouveau et n’est donc pas enregistré, suivez ces étapes pour remplir les informations client standard sur la page **Facture vente** :
@@ -42,7 +42,7 @@ Vous pouvez remplir les champs relatifs au client sur la facture vente de deux f
     2. Dans la boîte de dialogue d’enregistrement du nouveau client, cliquez sur **OK**.
     3. Sur la page **Sélectionnez un modèle pour un nouveau client**, sélectionnez un modèle sur lequel baser la nouvelle fiche client, puis cliquez sur **OK**.
     4. Une nouvelle fiche client affiche des informations sur le modèle client sélectionné. Renseignez les champs restants. En savoir plus sur [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).  
-    5. Lorsque vous avez terminé la fiche client, choisissez **Fermer** pour revenir à la page **Facture vente**.
+    5. Lorsque vous terminez la fiche client, choisissez **Fermer** pour revenir à la page **Facture vente**.
 
    Plusieurs champs de la facture vente sont désormais renseignés avec les informations que vous avez spécifiées sur la nouvelle fiche client.  
 3. Renseignez les champs restants de la page **Facture vente**, selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -72,17 +72,17 @@ Vous pouvez remplir les champs relatifs au client sur la facture vente de deux f
     Le prix et les montants ligne sont affichés avec ou sans la taxe de vente en fonction de la valeur que vous avez sélectionnée dans le champ **Prix incluant les taxes** de la fiche client.  
 7. Si vous souhaitez accorder une remise, saisissez un pourcentage dans le champ **% remise ligne**. La valeur du champ **Montant ligne** est mise à jour en conséquence.  
 
-    Si des prix article spéciaux sont définis sur le raccourci **Prix vente et remises ligne vente** dans la fiche client ou article, le prix et le montant de la ligne vente sont automatiquement mis à jour si les critères de prix convenus sont réunis. En savoir plus, [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).  
+    Si des prix article spéciaux sont définis sur le raccourci **Prix vente et remises ligne vente** dans la fiche client ou article, et après avoir satisfait aux critères de prix, le prix et le montant de la ligne vente est automatiquement mise à jour. En savoir plus, [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).  
 8. Répétez les étapes 4 à 7 pour chaque produit ou frais que vous souhaitez facturer au client.
 
-    Les champs totaux sous les lignes sont automatiquement mises à jour comme vous créez ou modifiez des lignes pour afficher les montants qui seront validés en comptabilité.
+    Les champs totaux sous les lignes sont automatiquement mises à jour comme vous créez ou modifiez des lignes pour afficher les montants validé en comptabilité.
 
     > [!NOTE]
     > Dans de très rares cas, les montants validés peuvent différer de ce qui est affiché dans les champs des totaux. Cela est généralement dû aux calculs d’arrondi par rapport à la TVA ou à la taxe sur les ventes.<br /><br />Pour vérifier les montants que vous publiez, utilisez le récapitulatif **Statistiques client**. Aussi, lorsque vous choisissez l’action **Lancer**, les valeurs des champs de totaux sont mises à jour pour inclure les calculs d’arrondi.
 
 9. Dans le champ **Montant remise facture sans TVA**, entrez un montant qui doit être déduit de la valeur indiquée dans le champ **Total TTC**.
 
-    Si vous avez défini des remises facture pour le client, le pourcentage spécifié est automatiquement inséré dans le champ **% remise facture** si les critères de remise sont réunis, et le montant associé est inséré dans le champ **Montant remise facture sans TVA**. En savoir plus, [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).
+    Si vous définissez des remises facture pour le client, le pourcentage spécifié est automatiquement inséré dans le champ **% remise facture** si les critères de remise sont réunis, et le montant associé est inséré dans le champ **Montant remise facture sans TVA**. En savoir plus, [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md).
 
 10. Lorsque les lignes facture vente sont renseignées, sélectionnez l’action **Valider et envoyer**.  
 
@@ -90,38 +90,38 @@ La boîte de dialogue **Valider et envoyer la confirmation** s’ouvre et indiqu
 
 Les écritures comptables article et client associés sont à présent créés dans votre système, et la facture vente est sortie en tant que document au format PDF. La facture vente est supprimée de la liste des factures vente et remplacée par un nouveau document dans la liste des factures vente validées.  
 
-### <a name="calculate-invoice-discounts-on-sales"></a>Calculer les remises facture sur les ventes
+### Calculer les remises facture sur les ventes
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices"></a>Factures enregistrées
+## Factures enregistrées
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
-Vous pouvez facilement corriger ou annuler une facture vente validée avant qu’elle ne soit payée. Cela est utile si vous souhaitez corriger une erreur de saisie, ou si le client demande une modification tôt dans le processus de commande. En savoir plus, [Corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md) Si la facture vente validée est payée, vous devez créer un avoir vente pour contrepasser la vente. En savoir plus, [Traiter les retours ou annulations des ventes](sales-how-process-sales-returns-cancellations.md)  
+Vous pouvez facilement corriger ou annuler une facture vente validée avant le dernier paiement. Cela est utile si vous souhaitez corriger une erreur de saisie, ou si le client demande une modification tôt dans le processus de commande. En savoir plus, [Corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md) Si la facture vente validée est payée, vous devez créer un avoir vente pour contrepasser la vente. En savoir plus, [Traiter les retours ou annulations des ventes](sales-how-process-sales-returns-cancellations.md)  
 
 [Ouvrir la liste des **factures vente validées**](https://businesscentral.dynamics.com/?page=143) dans [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="register-payments"></a>Enregistrer des paiements
+## Enregistrer des paiements
 
 Selon les besoins de votre entreprise, vous pouvez être payé et enregistrer ce paiement de diverses manières : manuellement, automatiquement, et via des services de paiement.  
 
 Vous pouvez traiter les paiements directement depuis la fiche client. Utilisez l’action **Enregistrer les paiements client** pour obtenir un aperçu des factures impayées de ce client. Ensuite, marquez la facture comme payée entièrement ou partiellement. Ce rapprochement des paiements traite les paiements de vos clients en faisant correspondre les montants perçus sur votre compte bancaire avec les factures vente impayées associées, puis valide les paiements. Pour plus d’informations, reportez-vous à la section [Pour rapprocher les paiements individuellement](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
-Dans les environnements d’entreprise où le client paie un certain temps après la livraison, conformément aux conditions de paiement, une facture vente validée reste ouverte (impayée) jusqu’à ce que le département Comptabilité client vérifie la réception du paiement et lettre le paiement à la facture vente validée. Cela peut être effectué manuellement ou automatiquement. Pour plus d’informations, consultez [Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client](receivables-how-apply-sales-transactions-manually.md) et [Rapprocher les paiements à l’aide de l’application automatique](receivables-how-reconcile-payments-auto-application.md).  
+Dans des environnements professionnels où le client paie quelque temps après la livraison. Conformément aux conditions de paiement, une facture vente validée reste ouverte (impayée) jusqu’à ce que le département Comptabilité client vérifie le paiement, et lettre le paiement à la facture vente validée. Cela peut être effectué manuellement ou automatiquement. Pour plus d’informations, consultez [Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client](receivables-how-apply-sales-transactions-manually.md) et [Rapprocher les paiements à l’aide de l’application automatique](receivables-how-reconcile-payments-auto-application.md).  
 
-Dans les environnements d’entreprise où le client paie immédiatement, par exemple par PayPal ou en espèces, le paiement est enregistré immédiatement lorsque vous validez la facture vente, c’est-à-dire la facture vente validée est clôturée comme entièrement lettrée. Vous sélectionnez la méthode appropriée dans le champ **Code mode de règlement** de la commande vente. Pour les paiements électroniques, tels que PayPal, vous devez également renseigner le champ **Service de paiement**. En savoir plus, [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).
+Dans les environnements d’entreprise où le client paie immédiatement, comme par PayPal ou en espèces, le paiement est enregistré immédiatement lorsque vous validez la facture vente, c’est-à-dire la facture vente validée est clôturée comme entièrement lettrée. Vous sélectionnez la méthode appropriée dans le champ **Code mode de règlement** de la commande vente. Pour les paiements électroniques, tels que PayPal, vous devez également renseigner le champ **Service de paiement**. En savoir plus, [Activer les paiements client via les services de paiement](sales-how-enable-payment-service-extensions.md).
 
 Vous pouvez même créer des factures à paiement direct pour les clients non enregistrés en configurant une fiche « client en espèces », vers laquelle vous pointez sur la facture vente. En savoir plus sur [Configurer les clients effectuant un achat au comptoir](finance-how-to-set-up-cash-customers.md).  
 
 > [!TIP]
 > Si vous souhaitez envoyer à vos clients des rappels de paiements en retard, vous devez d’abord configurer des niveaux et des conditions de rappel. En savoir plus, [Configurer les conditions et niveaux et textes de relance](finance-setup-reminders.md).  
 
-## <a name="external-document-numbers"></a>Numéros de document externe
+## Numéros de document externe
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  

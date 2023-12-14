@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: bholtorf
 ---
-# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utiliser des schémas XML pour préparer des définitions d’échange de données
+# Utiliser des schémas XML pour préparer des définitions d’échange de données
 
 Pour activer l’importation/exportation des données dans des fichiers XML à travers l’infrastructure d’échange de données de [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez utiliser des schémas XML pour définir les éléments de données à échanger avec [!INCLUDE[prod_short](includes/prod_short.md)]. Vous effectuez ce travail sur la page **Visionneuse de schéma XML** en chargeant le fichier de schéma XML, en sélectionnant les éléments de données appropriés, puis en initialisant une définition d’échange de données.  
 
@@ -24,7 +24,7 @@ Pour activer l’importation/exportation des données dans des fichiers XML à 
 
 - Générer une définition d’échange de données basée sur un schéma XML  
 
-## <a name="to-load-an-xml-schema-file"></a>Charger un fichier de schéma XML
+## Charger un fichier de schéma XML
 
 1. Assurez-vous que le fichier de schéma XML approprié est disponible. L’extension du fichier est .xsd.  
 
@@ -48,7 +48,7 @@ Pour activer l’importation/exportation des données dans des fichiers XML à 
     > [!NOTE]  
     >  L’arborescence du schéma XML chargé est réduite par défaut. Vous développez chaque nœud en choisissant le bouton **+** sur le nœud. Pour développer tous les nœuds, sélectionnez **Développer tout** sur le ruban.  
 
-### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Sélectionner ou supprimer des nœuds dans un schéma XML
+### Sélectionner ou supprimer des nœuds dans un schéma XML  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Visionneuse de schéma XML**, puis choisissez le lien associé.  
 
@@ -86,7 +86,7 @@ Pour activer l’importation/exportation des données dans des fichiers XML à 
 
      Le champ **Choix** spécifie que le nœud a deux ou plusieurs nœuds frère qui fonctionnent comme options.  
 
-### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Générer une définition d’échange de données basée sur un schéma XML
+### Générer une définition d’échange de données basée sur un schéma XML  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Schémas XML**, puis choisissez le lien associé.  
 
@@ -104,7 +104,7 @@ Pour activer l’importation/exportation des données dans des fichiers XML à 
 > [!NOTE]
 > Dans la vague 1 du lancement de la version 2019 et versions antérieures, vous pouviez générer un XMLport basé sur le schéma, puis l’importer dans votre solution. Cela n’est plus possible.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md)  
 [Exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

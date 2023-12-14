@@ -7,14 +7,14 @@ ms.search.form: '107, 9035, 9040'
 ms.date: 09/14/2022
 ms.author: bholtorf
 ---
-# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Gérer le stockage en supprimant des documents ou en compressant des données
+# Gérer le stockage en supprimant des documents ou en compressant des données
 
 Un rôle central, par exemple un administrateur d’application, doit régulièrement gérer les documents accumulés au fil du temps en les supprimant ou en les compressant.  
 
 > [!TIP]
 > Découvrez les autres moyens de réduire la quantité de données stockées dans une base de données en lisant [Réduction des données stockées dans les bases de données Business Central](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) dans notre documentation pour développeurs et professionnels de l’informatique.
 
-## <a name="delete-documents"></a>Supprimer des documents.
+## Supprimer des documents.
 
 Dans certains cas, vous pouvez souhaiter supprimer des commandes achat facturées. Cependant, vous ne pouvez pas les supprimer tant que vous n’avez pas entièrement facturé et reçu les articles des commandes achat. [!INCLUDE[prod_short](includes/prod_short.md)] vous aide en vérifiant cela.
 
@@ -26,7 +26,7 @@ Les commandes service facturées sont habituellement supprimées automatiquement
 
 Le programme ne supprime pas les commandes service automatiquement cependant, si la quantité totale sur la commande a été validée à partir de la page **Facture service** plutôt qu’à partir de la commende de service elle-même. Vous devrez peut-être supprimer manuellement ces commandes facturées en exécutant le traitement par lots **Supprimer les commandes de service facturées**.  
 
-## <a name="compress-data-with-date-compression"></a>Compresser les données avec la compression selon la date
+## Compresser les données avec la compression selon la date
 
 Vous pouvez compresser les données dans [!INCLUDE [prod_short](includes/prod_short.md)] pour économiser de l’espace dans la base de données, ce qui dans [!INCLUDE [prod_short](includes/prod_short.md)] Online peut même vous faire économiser de l’argent. La compression, basée sur les dates et les fonctions, combine plusieurs anciennes écritures en une nouvelle écriture.
 
@@ -55,7 +55,7 @@ Lorsque vous définissez des critères pour la compression, vous pouvez conserve
 
 Après la compression, le contenu des champs suivants sera toujours conservé : **Date comptabilisation**, **N° fournisseur**, **Type de document**, **Code devise**, **Groupe comptabilisation**, **Montant**, **Montant ouvert**, **Montant initial DS**, **Montant ouvert DS**, **Montant DS**, **Achat DS**, **Remises facture DS**, **Escompte accordé DS** et **Escompte ouvert possible**.
 
-## <a name="posting-compressed-entries"></a>Validation d’écritures compressées
+## Validation d’écritures compressées
 
 Les écritures compressées sont publiées légèrement différemment de la publication standard. Cela permet de réduire le nombre de nouvelles écritures comptables créées par compression de date et est particulièrement important lorsque vous conservez des informations telles que les dimensions et les numéros de document. La compression de date crée de nouvelles entrées comme suit :
 
@@ -72,7 +72,7 @@ Le nombre d’écritures qui résultent d’un traitement par lots de compressio
 > [!WARNING]
 > La compression basée sur la date supprime des écritures ; vous devez donc toujours faire une sauvegarde de la base de données avant de lancer le traitement par lots.
 
-### <a name="to-run-a-date-compression"></a>Pour exécuter la compression selon la date
+### Pour exécuter la compression selon la date
 
 1. Sélectionnez l’icône ![Rechercher une page ou un état](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Administration des données**, puis sélectionnez le lien associé.
 2. Exécutez l’une des opérations suivantes :
@@ -82,7 +82,7 @@ Le nombre d’écritures qui résultent d’un traitement par lots de compressio
    > [!NOTE]
    > Vous ne pouvez compresser que des données datant de plus de cinq ans. Si vous souhaitez compresser des données datant de moins de cinq ans, contactez votre partenaire Microsoft.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Administration](admin-setup-and-administration.md)  
 

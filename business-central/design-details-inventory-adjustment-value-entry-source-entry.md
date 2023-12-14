@@ -11,15 +11,15 @@ ms.date: 09/17/2021
 ms.author: bholtorf
 ---
 
-# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Date comptabilisation sur l’écriture valeur d’ajustement par rapport à l’écriture source
+# Date comptabilisation sur l’écriture valeur d’ajustement par rapport à l’écriture source
 
 Cet article compare la Date comptabilisation de l’écriture valeur d’ajustement et la date comptabilisation de l’écriture à l’origine de l’ajustement provoquant l’exécution du traitement par lots Ajuster coûts : Écr. article, en particulier un scénario de réévaluation et un scénario de frais annexes.
 
 Le traitement par lots **Ajuster coûts : Écr. article** traitera vos données en fonction de votre scénario et de la configuration de [!INCLUDE[prod_short](includes/prod_short.md)]. Dans cette section, nous décrivons deux processus distincts et, pour chacun, nous montrons le type d’impact du traitement par lots Ajuster coûts : Écr. article sur les données.
 
-## <a name="revaluation-scenario"></a>Scénario de réévaluation
+## Scénario de réévaluation
 
-### <a name="prerequisites"></a>Conditions préalables
+### Conditions préalables  
 
 Veuillez saisir les valeurs suivantes :
 
@@ -45,7 +45,7 @@ Veuillez saisir les valeurs suivantes :
 
 - Fin période validation = Vide  
 
-### <a name="to-test-the-scenario"></a>Pour tester le scénario
+### Pour tester le scénario
 
 Testez ce scénario en effectuant les étapes suivantes.
 
@@ -150,15 +150,15 @@ L’ajustement effectué pour l’ajustement négatif à l’étape 3 fait l’
 
 Pour procéder à l’ajustement en décembre de l’ajustement négatif à l’étape 3, le champ Début période validation dans les paramètres comptabilité doit indiquer une date en décembre.  
 
-### <a name="conclusion"></a>Conclusion
+### Conclusion
 
 Avec l’expérience acquise dans ce scénario, lorsque vous envisagez la configuration la plus appropriée pour une plage de dates comptabilisation autorisées pour une entreprise, vous pouvez tenir compte des éléments suivants. Tant que vous autorisez la validation des modifications de la valeur stock au cours d’une période, telle que décembre dans ce cas, la configuration que la société utilise pour les plages de dates comptabilisation autorisées doit être alignée sur cette décision. Lorsque l’option Début période validation dans les paramètres comptabilité est définie sur le 1er décembre, la réévaluation effectuée en décembre peut être transférée vers les écritures sortantes affectées dans la même période.  
 
 Les groupes d’utilisateurs qui ne sont pas autorisés à effectuer des validations en décembre mais en janvier, ce qui était probablement censé être limité par les paramètres comptabilité dans ce scénario, devront plutôt être gérés via les paramètres utilisateur.  
 
-## <a name="item-charge-scenario"></a>Scénario de frais annexes
+## Scénario de frais annexes  
 
-### <a name="prerequisites-1"></a>Conditions préalables
+### Conditions préalables  
 
 Veuillez saisir les valeurs suivantes :
 
@@ -184,7 +184,7 @@ Veuillez saisir les valeurs suivantes :
 
 - Fin période validation = Vide  
 
-### <a name="to-test-the-scenario-1"></a>Pour tester le scénario
+### Pour tester le scénario  
 
 Testez ce scénario en effectuant les étapes suivantes :
 
@@ -350,7 +350,7 @@ Il est difficile d’obtenir un état Évaluation du stock indiquant Quantité =
 
 Dans ce scénario, une solution aurait pu être que le champ Début période validation dans les paramètres comptabilité indique une date en décembre pour quelques jours de plus et que la validation des premiers frais annexes soit reportée pour que tous les coûts de la période ou de l’exercice précédent soient reconnus pour la période à laquelle ils appartiennent. Ainsi, le traitement par lots Ajuster coûts – Écr. article serait exécuté et la date comptabilisation autorisée serait déplacée vers la nouvelle période\/le nouvel exercice. Les premiers frais annexes avec la date comptabilisation du 2 janvier peuvent ensuite être validés.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 
 [Détails de conception : date comptabilisation de l’écriture valeur d’ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)  

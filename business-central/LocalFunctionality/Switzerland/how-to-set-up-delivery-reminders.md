@@ -8,17 +8,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.search.form: '5005270, 5005272'
-ms.date: 04/01/2021
+ms.date: 11/17/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-delivery-reminders-in-the-swiss-version"></a>Configurer des relances livraison dans la version suisse
+# Configurer des relances livraison dans la version suisse
 
 [!INCLUDE [delivery-reminders-setup](../includes/ATCHDE/delivery-reminders-setup.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
-[relances livraison](delivery-reminders.md)  
-[Configurer les conditions, niveaux et textes de relance livraison](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
+[Relances livraison](delivery-reminders.md)  
+[Configuration des conditions, niveaux et textes de relance livraison](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
 [Affecter des codes de relance livraison à des fournisseurs](how-to-assign-delivery-reminder-codes-to-vendors.md)  
 [Créer manuellement des relances livraison](how-to-create-delivery-reminders-manually.md)
 

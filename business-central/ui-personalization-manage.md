@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
-# <a name="customize-pages-for-profiles"></a>Personnalisation des pages pour les profils
+# Personnalisation des pages pour les profils
 
 Business Central fournit à la fois une [personnalisation](ui-personalization-user.md) pour les utilisateurs et une personnalisation pour les administrateurs. La personnalisation permet aux utilisateurs d’adapter leur espace de travail en ajustant les mises en page en fonction de leurs propres préférences. Les administrateurs peuvent personnaliser les dispositions de page pour un profil spécifique, en fonction des rôles ou départements, afin que tous les utilisateurs auxquels le profil est attribué voient la présentation de page personnalisée. Alors que la personnalisation permet aux utilisateurs d’afficher, masquer et déplacer des champs et des actions sur une page, la personnalisation offre des fonctionnalités supplémentaires. Par exemple, la personnalisation vous permet d’afficher les champs qui se trouvent dans la table source ou les tables d’extension de la page, mais qui ne sont pas définis sur l’objet de la page&mdash;ce qui n’est pas une personnalisation possible.  <!--For more information, see [Personalize Your Workspace](ui-personalization-user.md).-->
 
@@ -22,13 +22,13 @@ Business Central fournit à la fois une [personnalisation](ui-personalization-us
 
 La personnalisation de la page commence à partir de la page **Profils (rôles)**, le point de départ de l’administrateur pour la gestion des profils d’utilisateurs sur des fiches de profil individuelles. Outre la personnalisation de la mise en page, vous pouvez contrôler divers autres paramètres pour les profils sur la page **Profil (rôle)** pour chaque profil. Pour plus d’informations, voir [Gérer les profils](admin-users-profiles-roles.md).
 
-## <a name="prerequisites"></a>Conditions préalables
+## Conditions préalables
 
 - Votre compte Business Central doit disposer de l’ensemble d’autorisations **Gestion profil D365** ou d’autorisations équivalentes. 
 
    L’ensemble d’autorisations **Gestion profil D365** inclut l’autorisation d’exécution sur l’objet système **9026 Ajouter un champ à la table**. Si vous ne disposez pas de cette autorisation, vous n’êtes pas autorisé à ajouter des champs sur la page à moins qu’ils ne soient définis sur l’objet de la page. 
 
-## <a name="customize-pages-for-a-profile"></a>Personnaliser les pages pour un profil
+## Personnaliser les pages pour un profil
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Profils (Rôles)**, puis sélectionnez le lien associé.
 2. Sélectionnez la ligne du profil pour lequel vous souhaitez personnaliser des pages, puis sélectionnez l’action **Modifier**.
@@ -46,7 +46,7 @@ La personnalisation de la page commence à partir de la page **Profils (rôles)*
 
 La personnalisation des pages est maintenant enregistrée pour le profil.
 
-## <a name="view-all-customized-pages-for-a-profile"></a>Afficher tous les pages personnalisées pour un profil
+## Afficher tous les pages personnalisées pour un profil
 
 Vous pouvez obtenir un aperçu des pages personnalisées pour un profil, par exemple pour planifier celles à personnaliser ou à supprimer.
 
@@ -54,7 +54,7 @@ Vous pouvez obtenir un aperçu des pages personnalisées pour un profil, par exe
 
 Sur la page **Pages personnalisées**, vous pouvez supprimer les personnalisations et vous pouvez résoudre les problèmes en recherchant les problèmes potentiels.  
 
-## <a name="delete-all-customizations-for-a-profile"></a>Supprimer toutes les personnalisations d’un profil
+## Supprimer toutes les personnalisations d’un profil
 
 Vous pouvez annuler toutes les personnalisations apportées à un profil. Les personnalisations introduites avec une extension et celles effectuées par un utilisateur ne sont pas supprimées. Vous pouvez supprimer toutes les personnalisations avec une autre action. Pour plus d’informations, voir [Pour supprimer toutes les personnalisations effectuées par un utilisateur](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -62,7 +62,7 @@ Vous pouvez annuler toutes les personnalisations apportées à un profil. Les pe
 
 La disposition sur les pages du profil est réinitialisée sur celle par défaut.  
 
-## <a name="delete-customization-for-specific-pages-for-a-profile"></a>Supprimer la personnalisation de pages spécifiques pour un profil
+## Supprimer la personnalisation de pages spécifiques pour un profil
 
 Vous pouvez supprimer des personnalisations de page individuelles effectuées pour un profil. Les personnalisations introduites avec une extension et celles effectuées par un utilisateur ne sont pas supprimées. Vous pouvez supprimer des personnalisations de pages spécifiques avec une autre action. Pour plus d’informations, voir [Pour supprimer des personnalisations pour des pages spécifiques](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -71,7 +71,7 @@ Vous pouvez supprimer des personnalisations de page individuelles effectuées po
 
 La disposition sur les pages sélectionnées reflète désormais les modifications que vous avez apportées.
 
-## <a name="add-a-field"></a>Ajouter un champ
+## Ajouter un champ
 
 Vous ajoutez des champs à la page à partir du volet **Ajouter un champ à la page**, que vous ouvrez en sélectionnant l’action **+ Champ** en mode personnalisation. Il est important de comprendre que le volet **Ajouter un champ à la page** est utilisé pour afficher les champs qui existent déjà&mdash;soit sur la page et ses tables sources,&mdash;mais sont actuellement cachés. Vous ne pouvez pas en créer de nouveaux.
 
@@ -92,7 +92,7 @@ Utilisez le bouton de filtre au-dessus de la liste pour modifier la catégorie d
 
 :::image type="content" source="media/customization-filter.svg" alt-text="Affiche le bouton de filtre dans le volet Ajouter un champ en mode personnalisation.":::
  
-### <a name="add-table-field-thats-not-on-the-page-object"></a>Ajouter un champ de table ne figurant pas sur l’objet de page
+### Ajouter un champ de table ne figurant pas sur l’objet de page
 
 Si vous souhaitez rendre un champ de table uniquement disponible sur une page pour les utilisateurs, vous devez d’abord l’ajouter à la page. Une fois que vous avez ajouté le champ, les utilisateurs peuvent choisir d’afficher ou de masquer le champ à leur guise grâce à la personnalisation. Il existe plusieurs façons d’ajouter un champ.
 
@@ -101,7 +101,7 @@ Si vous souhaitez rendre un champ de table uniquement disponible sur une page po
 
 Une fois le champ ajouté, l’info-bulle du champ dans le volet **Ajouter un champ à la page** passe sur **Défini par la page**. Le champ ajouté ne peut pas être modifié et ne peut pas être déverrouillé.
 
-## <a name="remove-a-field"></a>Supprimer un champ
+## Supprimer un champ
 
 Si vous avez ajouté un champ de table qui ne figurait pas initialement dans l’objet de page, vous pouvez le supprimer à nouveau. Supprimer un champ est différent de le masquer. Lorsque vous masquez un champ, les utilisateurs peuvent toujours l’afficher sur leur espace de travail grâce à la personnalisation. Cependant, si vous supprimez un champ, celui-ci ne peut plus être affiché ou masqué par les utilisateurs. Si le champ est actuellement affiché sur l’espace de travail d’un utilisateur, il disparaît de son espace de travail lorsque vous le supprimez. 
 
@@ -110,7 +110,7 @@ Pour supprimer un champ, sélectionnez la pointe de flèche sur le champ dans la
 > [!IMPORTANT]
 > Supprimer un champ ne supprime pas les données stockées dans le champ ni ses tables sources. Cela supprime simplement le champ de la vue. 
 
-## <a name="lock-and-unlock-editing"></a>Verrouiller et déverrouiller la modification
+## Verrouiller et déverrouiller la modification
 
 La personnalisation vous permet de verrouiller (autoriser la modification) ou de déverrouiller la modification (empêcher la modification) de la plupart des champs d’une page. Pour verrouiller ou déverrouiller la modification, sélectionnez le champ sur la page, sélectionnez la pointe de flèche, puis sélectionnez **Verrouiller la modification** ou **Déverrouiller la modification**. Il est important de garder à l’esprit quelques règles concernant le verrouillage et le déverrouillage des champs :
 
@@ -120,13 +120,13 @@ La personnalisation vous permet de verrouiller (autoriser la modification) ou de
 
 
 <!--However, whatever option you choose for a field, users can always change the setting on their own workspace using personalization. For this reason, it's important to consider locking as a deterrence measure and not a preventative measure.--> 
-## <a name="important-information-and-tips"></a>Informations et conseils importants
+## Informations et conseils importants 
 
 - Tous les champs de la table ne peuvent pas être personnalisés à partir du volet **Ajouter un champ à la page**. Le développeur d’une table peut choisir d’empêcher l’affichage d’un champ lors de la personnalisation en définissant la [propriété AllowInCustomization](/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowincustomizations-property) du champ sur `false`.
 - Vous ne pouvez pas personnaliser une page en [mode d’analyse](analysis-mode.md). Le commutateur **Analyser** est désactivé. Si vous passez en mode personnalisation alors que la page est en mode analyse, le mode analyse est automatiquement désactivé. 
 - Certaines pages comportent plusieurs champs de page qui correspondent à la même table source. Le volet **Ajouter un champ à la page** affiche tous ces champs de page indépendamment. Vous pouvez afficher, masquer ou déplacer ces champs indépendamment sans affecter les autres.
 - Si une pièce ou un groupe est masqué, vous pouvez toujours identifier les champs masqués à l’intérieur de la pièce ou du groupe, mais vous ne pouvez pas ajouter, déplacer ou afficher les champs de la pièce ou du groupe tant qu’ils ne sont pas rendus visibles. 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Personnalisation de votre espace de travail](ui-personalization-user.md)  
 [Gestion des profils](admin-users-profiles-roles.md)  

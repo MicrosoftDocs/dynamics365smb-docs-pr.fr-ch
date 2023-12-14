@@ -11,7 +11,7 @@ ms.search.form: '62, 233, 522, 623'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Rapprocher des paiements fournisseur avec la feuille paiement ou à partir des écritures comptables fournisseur
+# Rapprocher des paiements fournisseur avec la feuille paiement ou à partir des écritures comptables fournisseur
 Lorsque vous envoyez un règlement à un fournisseur ou recevez un remboursement de sa part, vous devez décider si vous souhaitez lettrer le paiement ou le remboursement avec une ou plusieurs écritures ouvertes. Vous pouvez indiquer le montant exact que vous souhaitez lettrer avec la réception paiement ou le remboursement, puis ne lettrer que partiellement les écritures comptables fournisseur. Vous devez lettrer toutes les écritures comptables fournisseur pour obtenir des statistiques fournisseur et des rapports corrects des états financiers et des intérêts de retard.
 
 > [!NOTE]  
@@ -30,7 +30,7 @@ Vous pouvez lettrer les paiements fournisseur manuellement à leurs documents ac
 
 Vous pouvez également lettrer des paiements fournisseur et des paiements client après que les paiements apparaissent en tant que des transactions bancaires négatives au niveau de votre banque. Sur la page **Feuille rapprochement bancaire**, vous pouvez utiliser les fonctions pour l’importation de relevés bancaires, le lettrage automatique, et le rapprochement bancaire. Pour plus d’informations, voir [Rapprocher les paiements à l’aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 
-## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Pour lettrer un paiement à une seule ou à plusieurs écritures comptable fournisseur
+## Pour lettrer un paiement à une seule ou à plusieurs écritures comptable fournisseur
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille paiement**, puis choisissez le lien associé.
 2. Sur la page **Feuille paiement**, dans la première ligne feuille, saisissez les informations appropriées sur l’écriture règlement.
 3. Pour lettrer une seule écriture comptable fournisseur :
@@ -48,7 +48,7 @@ Vous pouvez également lettrer des paiements fournisseur et des paiements client
 5. Cliquez sur le bouton **OK**.
 6. Sélectionnez l’action **Valider** pour valider la feuille paiement.
 
-## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Pour lettrer un avoir à une seule ou à plusieurs écritures comptables fournisseur
+## Pour lettrer un avoir à une seule ou à plusieurs écritures comptables fournisseur
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Avoir achat**, puis sélectionnez le lien associé.
 2. Ouvrez l’avoir à lettrer.
 3. Entrez les informations nécessaires dans l’en-tête.
@@ -65,7 +65,7 @@ Vous pouvez également lettrer des paiements fournisseur et des paiements client
    La page **Avoir achat** affiche l’écriture que vous avez sélectionnée dans les champs **Type doc. lettrage** et **N° doc. lettrage**. La page affiche également le montant de l’avoir à valider, escomptes éventuels déduits.
 7. Cliquez sur le bouton **Valider** pour valider l’avoir achat.
 
-## <a name="to-apply-posted-vendor-ledger-entries"></a>Pour lettrer des écritures comptables fournisseur validées
+## Pour lettrer des écritures comptables fournisseur validées
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Fournisseurs**, puis choisissez le lien associé.
 2. Ouvrez le fournisseur approprié possédant des écritures déjà validées.
 3. Sélectionnez l’action **Écritures comptables**, puis sélectionnez l’action **Lettrer écritures**.
@@ -82,7 +82,7 @@ Vous pouvez également lettrer des paiements fournisseur et des paiements client
     La page **Valider le lettrage** s’ouvre avec le numéro de document de l’écriture lettrage et la date comptabilisation de l’écriture ayant la date comptabilisation la plus récente.
 9. Cliquez sur **OK** pour valider le lettrage.
 
-## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>Pour lettrer des écritures comptables fournisseur en devises différentes les unes avec les autres
+## Pour lettrer des écritures comptables fournisseur en devises différentes les unes avec les autres
 Si vous achetez des produits auprès d’un fournisseur dans une devise et que vous effectuez le paiement dans une autre devise, vous pouvez tout de même lettrer la facture avec le paiement.
 
 Si vous lettrez une écriture (Écriture 1) dans une devise avec une autre écriture (Écriture 2) dont la devise est différente, la date de comptabilisation de l’Écriture 1 est utilisée pour trouver le taux de change adéquat et convertir les montants de l’Écriture 2. Le taux de change approprié se trouve sur la page **Taux de change devise**. Dans ce cas, vous devez activer le lettrage d’écritures comptables fournisseur en devises différentes. Pour plus d’informations, voir [Activer le lettrage d’écritures comptables client en devises différentes](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -97,7 +97,7 @@ Si vous lettrez une écriture (Écriture 1) dans une devise avec une autre écr
 > [!IMPORTANT]  
 >   Lorsque vous lettrez des écritures les unes aux autres en devises différentes, les écritures sont converties en USD. Bien que le taux de change des deux devises concernées soit fixe, comme entre le USD et l’EUR, la conversion de ces montants en devise en une somme en USD peut donner un petit montant résiduel. Le programme valide ces petits montants résiduels en tant que gains et pertes dans le compte défini dans les champs **Cpte gains constatés report** ou **Cpte pertes constatées report** de la page **Devises**. La valeur du champ **Montant (USD)** est également ajustée sur les écritures comptables fournisseur concernées.
 
-## <a name="to-unapply-an-application-of-vendor-entries"></a>Pour délettrer un lettrage des écritures fournisseur
+## Pour délettrer un lettrage des écritures fournisseur
 Lorsque vous délettrez un lettrage erroné, des écritures de correction (écritures identiques à l’écriture originale mais avec le signe opposé dans le champ du montant) sont créées et validées pour toutes les écritures comportant des validations comptables issues du lettrage, comme les escomptes et les pertes et gains en devise. Les écritures fermées par l’application sont rouvertes.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Fournisseurs**, puis choisissez le lien associé.
@@ -111,7 +111,7 @@ Lorsque vous délettrez un lettrage erroné, des écritures de correction (écri
 > [!IMPORTANT]  
 >   Si une écriture a été lettrée par plusieurs écritures lettrage, vous devez commencer par délettrer la dernière écriture lettrage.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Fournisseurs](payables-manage-payables.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
