@@ -10,7 +10,7 @@ ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Gérer les absences des salariés
+# <a name="manage-employee-absence"></a>Gérer les absences des salariés
 Pour gérer l’absence d’un salarié, vous devez l’enregistrer sur la page **Saisie des absences**. Elle peut alors être affichée de différentes façons à des fins d’analyse ou de génération d’état.
 
 Vous pouvez afficher les absences des salariés sur deux pages différentes :
@@ -20,7 +20,7 @@ Vous pouvez afficher les absences des salariés sur deux pages différentes :
 
 Pour obtenir des statistiques significatives, vous devez toujours utiliser la même unité de mesure (heure ou jour) lors de l’enregistrement des absences des salariés.
 
-## Pour enregistrer les absences des salariés
+## <a name="to-register-employee-absence"></a>Pour enregistrer les absences des salariés
 Vous pouvez enregistrer les absences des salariés quotidiennement ou à un autre intervalle qui répond aux besoins de votre organisation.
 
 1. Dans le coin supérieur droit, sélectionnez l’icône **Page ou état pour la recherche**, entrez **Saisie des absences**, puis sélectionnez le lien connexe.
@@ -31,20 +31,20 @@ Vous pouvez enregistrer les absences des salariés quotidiennement ou à un autr
     > [!Tip]
     > Pour obtenir des statistiques pertinentes, utilisez toujours la même unité de mesure, heure ou journée, lors de l’enregistrement des absences.
 
-## Pour visualiser les absences d’un salarié
+## <a name="to-view-an-individual-employees-absence"></a>Pour visualiser les absences d’un salarié
 1. Dans le coin supérieur droit, sélectionnez l’icône **Page ou état pour la recherche**, entrez **Employés**, puis sélectionnez le lien connexe.
 2. Sélectionnez l’employé concerné, puis cliquez sur **Absences**.
 
     La page **Absences salariés** affiche toutes les absences et les dates de début et de fin.
 
-## Pour afficher les absences d’un salarié par catégorie
+## <a name="to-view-an-employees-absence-by-categories"></a>Pour afficher les absences d’un salarié par catégorie
 1. Dans le coin supérieur droit, sélectionnez l’icône **Page ou état pour la recherche**, entrez **Employés**, puis sélectionnez le lien connexe.
 2. Sélectionnez l’employé concerné, puis cliquez sur **Absences par catégories**.
 3. Sur la page **Absences salariés par cat.**, renseignez les champs selon vos besoins, puis cliquez sur **Afficher matrice**.
 
     La page **Matrice Abs. Salariés par Cat.** s’ouvre et affiche toutes les absences, classées par motif d’absence.
 
-## Pour afficher toutes les absences des salariés par catégorie
+## <a name="to-view-all-employee-absences-by-category"></a>Pour afficher toutes les absences des salariés par catégorie
 1. Dans le coin supérieur droit, sélectionnez l’icône **Page ou état pour la recherche**, entrez **Saisie des absences**, puis sélectionnez le lien connexe.
 2. Sur la page **Saisie des absences**, cliquez sur **Détail par catégorie**.
 3. Sur la page **Détail absences par catégorie**, définissez un filtre dans le champ **Filtre n° salarié** afin de visualiser les absences d’un individu ou d’un groupe de salariés.
@@ -52,7 +52,7 @@ Vous pouvez enregistrer les absences des salariés quotidiennement ou à un autr
 
     La page **Détail absences par catégorie** s’ouvre et affiche les absences des salariés par motif d’absence.
 
-## Pour afficher toutes les absences des salariés par période
+## <a name="to-view-all-employee-absences-by-period"></a>Pour afficher toutes les absences des salariés par période
 1. Dans le coin supérieur droit, sélectionnez l’icône **Page ou état pour la recherche**, entrez **Saisie des absences**, puis sélectionnez le lien connexe.
    Sur la page **Saisie des absences**, cliquez sur **Détail par période**.
 2. Sur la page **Détail absences par période**, définissez un filtre dans le champ **Filtre motif absence** afin de visualiser les absences des salariés liées à un motif particulier.
@@ -60,7 +60,7 @@ Vous pouvez enregistrer les absences des salariés quotidiennement ou à un autr
 
     La page **Détail absences par période** s’ouvre et affiche les absences des salariés réparties par période.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Gérer les ressources humaines](hr-manage-human-resources.md)  
 [Finances](finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

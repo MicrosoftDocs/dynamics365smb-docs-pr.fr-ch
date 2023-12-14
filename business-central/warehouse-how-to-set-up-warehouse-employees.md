@@ -9,11 +9,11 @@ ms.date: 09/25/2023
 ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ---
-# Configuration des magasiniers
+# <a name="set-up-warehouse-employees"></a>Configuration des magasiniers
 
 Vous devez configurer chaque utilisateur qui exécute des activités dans un entrepôt en tant qu’employé de l’entrepôt et les affecter à un emplacement par défaut. [!INCLUDE [prod_short](includes/prod_short.md)] filtre les activités de l’entrepôt à l’emplacement par défaut de l’employé. Ils ne peuvent effectuer les activités d’entrepôt qu’à l’emplacement. Vous pouvez aussi affecter un utilisateur à d’autres emplacements. Ils peuvent accéder, mais pas effectuer des activités à ces emplacements.
 
-## Pour configurer des employés d’entrepôt  
+## <a name="to-set-up-warehouse-employees"></a>Pour configurer des employés d’entrepôt
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -25,9 +25,9 @@ Vous devez configurer chaque utilisateur qui exécute des activités dans un ent
 > [!TIP]
 > Vous pouvez également utiliser l’action **M’ajouter en tant qu’employé de l’entrepôt** pour vous ajouter rapidement à la liste des employés de l’entrepôt. Par exemple, cela est utile lorsque vous testez les fonctionnalités.
 
-## Voir la [formation Microsoft](/training/modules/get-started-warehouse-management/) associée
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/get-started-warehouse-management/) associée
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  

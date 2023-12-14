@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/24/2023
 ms.custom: bap-template
 ---
-# Rapprochement des comptes bancaires
+# <a name="reconcile-bank-accounts"></a>Rapprochement des comptes bancaires
 
 Le rapprochement bancaire permet de s’assurer que ce qui se trouve dans vos livres correspond aux relevés que vous recevez de votre banque. Le rapprochement des comptes bancaires compare et fait correspondre les écritures des comptes bancaires que vous avez configurées dans [!INCLUDE[prod_short](includes/prod_short.md)] avec les transactions bancaires au niveau de votre banque. Le rapprochement peut ensuite reporter les soldes sur vos comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)] pour les mettre à la disposition des responsables financiers. Le rapprochement bancaire est également un moyen pratique de découvrir et de résoudre les paiements manquants et les erreurs de comptabilité.
 
@@ -22,7 +22,7 @@ Cependant, vous pouvez également rapprocher des comptes bancaires sur la page *
 
 Les lignes de la page **Rapprochement bancaire** sont réparties sur deux volets. Le volet **Lignes relevé bancaire** indique le volet des transactions bancaires importées ou les écritures comptables comportant des arriérés de paiement. Le volet **Écritures comptables compte bancaire** affiche les écritures comptables dans le compte bancaire interne.
 
-## À propos du rapprochement bancaire 
+## <a name="about-bank-reconciliation"></a>À propos du rapprochement bancaire
 
 Le rapprochement des transactions dans les relevés de votre banque avec les écritures bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)] est appelé *correspondance*. Il existe trois façons de faire correspondre les transactions avec les opérations bancaires :
 
@@ -55,7 +55,7 @@ Vous pouvez renseigner le volet **Lignes relevé bancaire** de la page **Rapproc
 * Automatiquement, à l’aide de la fonction **Importer le relevé bancaire** pour renseigner le volet **Lignes relevé bancaire** avec des transactions bancaires en fonction d’un flux ou d’un fichier importé fourni par la banque.
 * Manuellement, en utilisant la fonction **Proposer lignes** pour renseigner le volet **Lignes relevé bancaire** en fonction des factures dans [!INCLUDE[prod_short](includes/prod_short.md)] qui comportent des arriérés de paiement.
 
-## Ajouter des lignes rapprochement bancaire en important un relevé bancaire
+## <a name="add-bank-statement-lines-by-importing-a-bank-statement"></a>Ajouter des lignes rapprochement bancaire en important un relevé bancaire
 
 Le volet **Lignes relevé bancaire** sera renseigné avec des transactions bancaires en fonction d’un flux ou d’un fichier importé fourni par la banque.
 
@@ -72,7 +72,7 @@ Pour importer des relevés bancaires en tant que flux bancaires, vous devez conf
 6. Si vous avez un fichier de relevé bancaire, sélectionnez l’action **Importer le relevé bancaire**.
 7. Localisez le fichier, puis sélectionnez le bouton **Ouvrir** pour importer les transactions bancaires dans le volet **Lignes relevé bancaire** sur la page **Rapprochement bancaire**.
 
-## Pour renseigner les lignes rapprochement bancaire avec l’action Proposer lignes
+## <a name="to-fill-in-bank-reconciliation-lines-with-the-suggest-lines-action"></a>Pour renseigner les lignes rapprochement bancaire avec l’action Proposer lignes
 
 Le volet **Lignes relevé bancaire** sera renseigné en fonction des factures dans [!INCLUDE[prod_short](includes/prod_short.md)] qui comportent des arriérés de paiement.  
 
@@ -86,7 +86,7 @@ Le volet **Lignes relevé bancaire** sera renseigné en fonction des factures da
 4. Si vous ne souhaitez pas que les écritures comptables du compte bancaire incluent des écritures contrepassées ouvertes sans correspondance, activez le bouton à bascule **Exclure les écritures contrepassées**. Par défaut, la liste des écritures comptables des comptes bancaires inclura les écritures contrepassées jusqu’à la date du relevé.
 5. Cliquez sur le bouton **OK**.
 
-## Mettre en correspondance automatiquement des lignes de relevé bancaire avec des écritures comptables compte bancaire
+## <a name="match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Mettre en correspondance automatiquement des lignes de relevé bancaire avec des écritures comptables compte bancaire
 
 La page **Rapprochement bancaire** propose une fonctionnalité de correspondance automatique basée sur une correspondance entre le texte d’une ligne relevé bancaire (volet gauche) et celui d’une ou de plusieurs écritures comptables compte bancaire (volet droit). Vous pouvez remplacer la correspondance automatique suggérée, et vous pouvez choisir de ne pas utiliser du tout la correspondance automatique. Pour plus d’informations, voir [Mettre manuellement en correspondance des lignes relevé bancaire avec des écritures comptables compte bancaire](#match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
@@ -104,7 +104,7 @@ Vous pouvez rechercher la base des correspondances en utilisant l’action **Dé
 > [!TIP]
 > Vous pouvez utiliser un mélange de correspondances manuelles et automatiques. Si vous avez mis en correspondance manuellement des écritures, la correspondance automatique n’écrasera pas vos sélections.
 
-## Mettre en correspondance des lignes de relevé bancaire avec les écritures comptables compte bancaire manuellement
+## <a name="match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Mettre en correspondance des lignes de relevé bancaire avec les écritures comptables compte bancaire manuellement
 
 > [!TIP]
 > Lors de la mise en correspondance manuelle des lignes et des écritures, les actions **Afficher tout**, **Afficher les écritures contrepassées**, **Masquer les écritures contrepassées** et **Afficher non-correspondances** peuvent faciliter l’obtention d’une vue d’ensemble. Par défaut, les écritures comptables du compte bancaire n’incluent pas les écritures contrepassées sans correspondance. Pour inclure ces entrées dans la liste et les faire correspondre manuellement, sélectionnez l’action **Afficher les écritures contrepassées**. Si vous choisissez de masquer les écritures contrepassées après avoir effectué une ou plusieurs correspondances, les écritures correspondantes sont toujours affichées.
@@ -129,7 +129,7 @@ Vous pouvez rechercher la base des correspondances en utilisant l’action **Dé
 > [!TIP]
 > Pour supprimer une correspondance, sélectionnez la ligne de relevé bancaire, et sélectionnez l’action **Supprimer correspondance**. Si vous avez rapproché plusieurs lignes de relevé bancaire avec une écriture comptable et que vous devez supprimer une ou plusieurs des lignes correspondantes, toutes les correspondances manuelles sont supprimées pour l’écriture comptable lorsque vous choisissez **Supprimer la correspondance**.
 
-## Valider votre rapprochement bancaire
+## <a name="validate-your-bank-reconciliation"></a>Valider votre rapprochement bancaire
 
 Pour revérifier le rapprochement de votre compte bancaire avant de le valider, utilisez l’action **Impression test** pour afficher un aperçu du rapprochement. L’état est disponible dans les contextes suivants :
 
@@ -172,7 +172,7 @@ Le tableau suivant décrit les champs du rapport de test qui peuvent vous aider 
 >
 > Vous pouvez utiliser la valeur pour comparaison avec votre relevé bancaire.
 
-## Pour créer des écritures comptables manquantes avec lesquelles faire correspondre des lignes relevé bancaire
+## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines"></a>Pour créer des écritures comptables manquantes avec lesquelles faire correspondre des lignes relevé bancaire
 
 Les relevés bancaires comportent parfois des montants correspondant à la facturation d’intérêts ou de frais. Ces lignes relevé bancaire ne peuvent pas être mises en correspondance, car il n’existe aucune écriture comptable associée dans [!INCLUDE[prod_short](includes/prod_short.md)]. Vous devez ensuite valider une ligne feuille pour chaque transaction afin de créer une écriture comptable associée avec laquelle elle peut être mise en correspondance.
 
@@ -188,7 +188,7 @@ Les relevés bancaires comportent parfois des montants correspondant à la factu
 6. Réactualisez ou rouvrez la page **Rapprochement bancaire**. La nouvelle écriture comptable s’affiche dans le volet **Écritures comptables compte bancaire**.
 7. Faites correspondre la ligne relevé bancaire à l’écriture comptable compte bancaire, manuellement ou automatiquement.
 
-## Trouver les transactions en suspens des périodes précédentes
+## <a name="find-outstanding-transactions-in-previous-periods"></a>Trouver les transactions en suspens des périodes précédentes
 
 Vous pouvez utiliser l’état Relevé bancaire pour rechercher les transactions en suspens des périodes précédentes. Les transactions en suspens ont été ouvertes avant la date du relevé et n’ont pas été fermées, ou ont été fermées après la publication du rapprochement bancaire.
 
@@ -200,22 +200,22 @@ En septembre, nous recevons un paiement pour l’écriture B et décidons de rap
 
 Si nous imprimons l’état pour août, nous aurons des transactions en suspens pour nos écritures B et C, même si nous avons fermé l’écriture B en septembre.
 
-## Annuler un rapprochement bancaire
+## <a name="undo-a-bank-account-reconciliation"></a>Annuler un rapprochement bancaire
 
 Si vous découvrez une erreur dans un rapprochement bancaire validé, vous pouvez utiliser l’action **Annuler** sur la page **Liste des relevés bancaires** pour le corriger. Lorsque vous annulez un rapprochement bancaire validé, les écritures sont déplacées vers la page **Rapprochement bancaire** et sont marquées comme **Ouvertes**, ce qui signifie qu’elles ne sont pas rapprochées. Vous pouvez ensuite corriger le rapprochement bancaire et le valider à nouveau.
 
 > [!NOTE]
 > Dans la version des États-Unis, pour utiliser la fonction Annuler pour les rapprochements bancaires et les relevés bancaires validés, vous devez activer le bouton bascule **Rapprochement bancaire avec correspondance automatique** sur la page **Paramètres comptabilité**. La fonction Annuler n’est pas disponible pour les relevés bancaires publiés à partir des feuilles de calcul de rapprochement bancaire.
 
-### Réutilisation du numéro de relevé bancaire
+### <a name="reusing-the-bank-statement-number"></a>Réutilisation du numéro de relevé bancaire
 
 Le numéro de relevé bancaire utilisé pour le nouveau rapprochement bancaire est extrait du compte bancaire, tout comme le dernier relevé de solde. Vous pouvez modifier ces valeurs avant de commencer un nouveau rapprochement bancaire. Cependant, lorsque vous créez un nouveau rapprochement bancaire, [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie si le numéro de relevé est déjà attribué à un relevé bancaire validé. Si le numéro est utilisé, mais que vous souhaitez que le nouveau relevé bancaire l’utilise à la place, vous pouvez utiliser **Modifier n° relevé** sur la page **Rapprochement bancaire**.
 
-### Exemples
+### <a name="examples"></a>Exemples
 
 Voici quelques exemples de la façon de corriger une erreur sur un rapprochement bancaire validé, avec ou sans l’utilisation du même numéro de relevé.
 
-#### Exemple 1
+#### <a name="example-1"></a>Exemple 1
 
 Vous avez effectué des rapprochements bancaires pour janvier, février et mars. Le numéro de relevé bancaire était 100 pour mars. Plus tard, vous découvrez que mars n’a inclus que les entrées jusqu’au 30, ce qui signifie que les entrées pour le 31 sont manquantes. Vous devez donc refaire le rapprochement bancaire pour mars. Dans ce cas, nous allons ouvrir la page **Relevé bancaire**, choisissez le relevé de mars, puis choisissez **Annuler**. 
 
@@ -224,7 +224,7 @@ Le nouveau rapprochement bancaire porte le numéro de relevé 101. Pour réaffec
 > [!TIP]
 > N’oubliez pas de définir la date de fin de relevé appropriée (dans cet exemple, le 31 mars) et de modifier le champ **Solde dernier relevé**. 
 
-#### Exemple 2
+#### <a name="example-2"></a>Exemple 2
 
 Vous avez effectué des rapprochements bancaires pour janvier, février, juin et juillet. Vous découvrez que février était incorrect. Supposons qu’il ait le numéro de déclaration 100. Comme dans l’exemple 1, vous utilisez les actions Annuler et Modifier n° relevé. pour changer le numéro de relevé comme dans l’exemple n° 1 ci-dessus et vous pouvez maintenant refaire le rapprochement bancaire de février.  
 
@@ -239,14 +239,14 @@ Si le prochain rapprochement bancaire que vous effectuez concerne le mois d’ao
 >
 > Le dernier relevé de solde est conservé sur le compte bancaire pour minimiser les erreurs lors des rapprochements bancaires, mais il est également modifiable, vous permettant d’effectuer vos rapprochements bancaires dans l’ordre de votre choix. Cela signifie également que si vous annulez un relevé bancaire, le nouveau solde de clôture peut ne pas être le dernier relevé du solde sur le prochain relevé bancaire. Il n’y a aucune fonctionnalité qui vous permet de transférer un solde vers tous les relevés bancaires suivants, donc soyez conscient de cela lorsque vous utilisez Annuler.  
 
-## Éviter l’imputation directe
+## <a name="avoid-direct-posting"></a>Éviter l’imputation directe
 
 N’utilisez pas de compte général qui permet la validation directe dans votre groupe comptabilisation de compte bancaire. La validation directe rompra le lien entre l’écriture comptable du compte bancaire et l’écriture comptable du compte général. Lorsque vous rapprochez votre compte bancaire, les écritures comptabilisées directement dans le compte général ne seront pas incluses et il sera difficile de mener à bien le rapprochement.
 
 Cette erreur se produit souvent lors de la saisie d’un solde d’ouverture pour un compte bancaire. Il est important que vous ne comptabilisiez pas le solde d’ouverture directement dans la comptabilité. Les écritures dans le compte général qui sont comptabilisées directement dans le compte général causeront des problèmes. Par exemple, ces écritures peuvent vous empêcher de rapprocher votre compte bancaire. Pour les comptes bancaires en devise étrangère, les écritures peuvent entraîner l’accumulation de différences après la validation d’autres rapprochements bancaires, en raison des ajustements du taux de change. Souvent, vous comptabilisez le solde bancaire d’ouverture directement sur le compte bancaire, et le montant se retrouve ensuite dans le compte général. Sinon, contrepassez-le plus tard sur un compte général que vous utilisez pour équilibrer le solde d’ouverture des écritures comptables. Dans les deux cas, vous devez équilibrer toute écriture directe sur le compte général avant de commencer votre premier rapprochement bancaire, et surtout si le compte bancaire est en devise étrangère.
 
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
 [Rapprocher les comptes bancaires à l’aide de l’assistance au rapprochement bancaire (version préliminaire)](bank-reconciliation-with-copilot.md)

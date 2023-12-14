@@ -12,11 +12,11 @@ ms.date: 08/17/2022
 ms.author: bholtorf
 ---
 
-# Démarrage rapide de Business Intelligence
+# <a name="business-intelligence-quick-start"></a>Démarrage rapide de Business Intelligence
 
 Pouvoir collecter et analyser des quantités toujours croissantes de données de manière exploitable est un élément inestimable de la conduite des affaires de nos jours. [!INCLUDE[prod_short](includes/prod_short.md)] offre de nombreux outils de Business Intelligence (BI)&mdash;à la fois intégré et intégré à d’autres services&mdash; pour aider votre entreprise dans le processus de prise de décision.
 
-## Obtenez des informations sur vos principaux points d’intérêt
+## <a name="get-insights-on-your-key-points-of-interest"></a>Obtenez des informations sur vos principaux points d’intérêt
 
 [!INCLUDE[prod_short](includes/prod_short.md)] comprend des graphiques intégrés qui peuvent être affichés dans la partie **Aperçu** sur votre page d’accueil, couvrant les états *revenus et dépenses*, *trésorerie*, *tendances des ventes* et autres états. Vous pouvez trouver des indicateurs de performance clés (KPI) supplémentaires sur la page **Informations sur le cloud intelligent**, qui affiche des informations exploitables sur les finances, les stocks, les ventes et les achats :
 
@@ -24,7 +24,7 @@ Pouvoir collecter et analyser des quantités toujours croissantes de données de
 
 Les cartes de données et les informations disponibles peuvent être sélectionnées pour ouvrir la page de registre associée. La page **Informations sur le cloud intelligent** utilise également une connexion aux abonnements Power BI et Azure Machine Learning existants pour afficher des tableaux de bord d’analyse et de prévision.
 
-## Configurer l’intégration de Power BI
+## <a name="set-up-power-bi-integration"></a>Configurer l’intégration de Power BI
 
 Vous pouvez connecter [!INCLUDE[prod_short](includes/prod_short.md)] à Power BI pour créer des états approfondis et des tableaux de bord puissants. L’intégration Power BI offre de nombreuses options pour donner des informations basées sur les données de votre entreprise, y compris un large éventail de personnalisations visuelles, de filtrage et d’affichage.
 
@@ -40,7 +40,7 @@ L’intégration de Power BI à [!INCLUDE[prod_short](includes/prod_short.md)] i
 
 Vous pouvez également créer des rapports visuels basés sur [!INCLUDE[prod_short](includes/prod_short.md)] en utilisant l’option de type de fichier **Document Microsoft Excel (données uniquement)** sur les pages de demande d’état. En savoir plus sur [Exécuter et imprimer des états](ui-work-report.md).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Business Analysis et Financial Reporting](bi.md)  
 [Démarrages rapides de Business Central](quick-start-business-central.md)  

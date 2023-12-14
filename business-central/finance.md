@@ -11,7 +11,7 @@ ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 08/19/2022
 ms.author: bholtorf
 ---
-# Gestion financière
+# <a name="financial-management"></a>Gestion financière
 
 [!INCLUDE[prod_short](includes/prod_short.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l’adapter à vos besoins d’activité. En savoir plus sur [Configurer Finance](finance-setup-finance.md).
 
@@ -49,13 +49,13 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Utiliser des états financiers et des aperçus dans Microsoft Excel. |[Analyse des états financiers dans Excel](finance-analyze-excel.md) |
 |Apprendre à utiliser le tableau de bord Comptable, à inviter un comptable externe et à utiliser le Hub Entreprise pour gérer les comptes de plusieurs clients.|[Expériences de comptables dans Business Central](finance-accounting.md)|  
 
-## Faire une visite vidéo
+## <a name="take-a-video-tour"></a>Faire une visite vidéo
 
 Cette vidéo suivante présente certaines des fonctionnalités clés de la gestion des finances. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Configuration de Finance](finance-setup-finance.md)  
 [Ventes](sales-manage-sales.md)  

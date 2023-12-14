@@ -11,14 +11,14 @@ ms.search.form: '3010830, 3010831, 3010832,3010834, 3010835'
 ms.date: 11/24/2023
 ms.author: bholtorf
 ---
-# Traiter un prélèvement LSV dans la version suisse
+# <a name="process-an-lsv-collection-in-the-swiss-version"></a>Traiter un prélèvement LSV dans la version suisse
 Vous pouvez utiliser la page **Feuille LSV** pour créer et traiter les paiements des clients Lastschrift Verfahren (LSV+). Vous pouvez enregistrer les paiements dans la feuille règlement, créer un fichier LSV, puis imprimer l'ordre de prélèvement. Pour plus d'informations, voir la page Feuille règlement et [Exporter des paiements en mode LSV](how-to-export-payments-using-lsv.md).  
 
 Lorsque vous lancez le traitement par lots **Proposition de prélèvement LSV**, chaque prélèvement proposé est enregistrée sur une ligne feuille LSV, et les factures ouvertes sont transférées aux feuilles LSV. Pour plus d'informations, voir la table Feuille LSV.  
 
 Vous pouvez afficher, modifier ou supprimer les lignes paiement proposées. Si vous corrigez le montant proposé, la différence est marquée sous la forme d'une remise. Vous pouvez exécuter le traitement par lots plusieurs fois pour différents groupes de clients. Les lignes de suggestion peuvent être placées sur la même feuille.  
 
-## Pour créer un prélèvement LSV  
+## <a name="to-create-an-lsv-collection"></a>Pour créer un prélèvement LSV
 
 1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Liste feuilles LSV**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
@@ -43,7 +43,7 @@ Vous pouvez afficher, modifier ou supprimer les lignes paiement proposées. Si v
 
 Toutes les lignes sont été transférées à la feuille LSV. Après avoir effectué le prélèvement LSV, vous pouvez visualiser, vérifier ou modifier les paiements proposés dans la page **Feuille LSV**. Pour plus d'informations, voir la table Ligne feuille LSV.  
 
-## Pour gérer les paiements proposés  
+## <a name="to-manage-suggested-payments"></a>Pour gérer les paiements proposés
 
 1.  Dans la page **Liste feuilles LSV**, sélectionnez l'écriture feuille requise, puis sélectionnez l'action **Ligne feuille LSV**.  
 
@@ -51,7 +51,7 @@ Toutes les lignes sont été transférées à la feuille LSV. Après avoir effec
 
 3.  Cliquez sur le bouton **OK**.  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
  [Paiements électroniques à l'aide de LSV+, Suisse](swiss-electronic-payments-using-lsv-.md)   
  [Fermer un prélèvement LSV](how-to-close-an-lsv-collection.md)   
  [Valider des paiements LSV+](how-to-post-lsv-payments.md)   

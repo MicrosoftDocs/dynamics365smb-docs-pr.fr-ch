@@ -11,7 +11,7 @@ ms.search.form: '1533,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# Configurer une séquence d’utilisateurs de flux de travail
+# <a name="set-up-a-sequence-of-workflow-users"></a>Configurer une séquence d’utilisateurs de flux de travail
 
 Avant de pouvoir créer des flux de travail approbation, vous devez configurer des utilisateurs qui enverront des requêtes et leurs approbateurs. Par exemple, vous pouvez spécifier qui doit recevoir une notification pour agir sur une étape du flux de travail. Vous configurez les participants du flux de travail approbation sur la page **Paramètres utilisateur des approbations**. En savoir plus sur [Configurer des utilisateurs d’approbation](across-how-to-set-up-approval-users.md).
 
@@ -19,7 +19,7 @@ Sur la page  **Groupes d’utilisateurs du flux de travail**, vous pouvez spéci
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## Configurer un groupe d’utilisateurs de flux de travail
+## <a name="to-set-up-a-workflow-user-group"></a>Configurer un groupe d’utilisateurs de flux de travail
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  saisissez **Groupes utilisateur flux de travail**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. La page **Groupe d’utilisateurs du flux de travail** s’ouvre.  
@@ -34,7 +34,7 @@ Sur la page  **Groupes d’utilisateurs du flux de travail**, vous pouvez spéci
 
 6. Répétez l’étape 5 pour ajouter des utilisateurs de flux de travail dans le groupe d’utilisateurs de flux de travail.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Configuration des utilisateurs des approbations](across-how-to-set-up-approval-users.md)  
 [Configurer les flux de travail approbation](across-set-up-workflows.md)  

@@ -10,19 +10,19 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: bholtorf
 ---
-# Activation des flux d’approbation
+# <a name="enable-approval-workflows"></a>Activation des flux d’approbation
 
 Lorsque vous avez créé un flux de travail approbation et que vous êtes sûr qu’il est prêt à démarrer, vous devez l’activer.  
 
 Sur la page **Flux de travail**, créez un flux de travail en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de flux de travail modéré par des conditions d’événement, et une réponse de flux de travail modérée par des options de réponse. Définissez les étapes de flux de travail en renseignez les champs des lignes de flux de travail à partir de listes fixes de valeurs d’événement et de réponse qui sont les scénarios pris en charge par le code d’application. En savoir plus sur [Créer des flux de projet](across-how-to-create-workflows.md).  
 
-## Activer un flux de travail
+## <a name="enable-a-workflow"></a>Activer un flux de travail
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
 2. Ouvrez le flux de travail que vous souhaitez activer.  
 3. Sur la page **Flux de travail**, activez le bouton à bascule **Activé**.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Création des flux de travail d’approbation](across-how-to-create-workflows.md)  
 [Utilisation des flux de travail approbation](across-use-workflows.md)  
