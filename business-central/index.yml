@@ -162,7 +162,7 @@ additionalContent:
             - text: Utilisation des états Power BI dans Business Central
               url: /dynamics365/business-central/across-working-with-powerbi
             - text: Analyse des données de liste avec le mode d’analyse
-              url: /dynamics365/business-central/across-working-with-powerbi
+              url: /dynamics365/business-central/analysis-mode
             - text: Analyse des données d’état avec Excel
               url: /dynamics365/business-central/report-analyze-excel
         - title: Fonctionnalités marché
