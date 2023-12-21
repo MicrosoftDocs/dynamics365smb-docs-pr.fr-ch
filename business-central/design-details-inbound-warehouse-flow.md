@@ -10,7 +10,7 @@ ms.search.keywords: warehouse
 ms.date: 09/18/2023
 ms.author: bholtorf
 ---
-# Détails de conception : flux d’entrepôt entrant
+# <a name="design-details-inbound-warehouse-flow"></a>Détails de conception : flux d’entrepôt entrant
 
 Le flux entrant dans un entrepôt commence à l’arrivée des articles dans l’entrepôt du magasin de la société, qu’ils proviennent de sources externes ou d’un autre magasin de la société. Vous pouvez recevoir des articles physiques et hors inventaire. Pour en savoir plus sur la réception d’articles hors inventaire, consultez [Valider des articles hors inventaire](#post-non-inventory-items).
 
@@ -50,7 +50,7 @@ Dans les méthodes A, B et C, les actions de réception et de rangement sont co
 > * Le rangement stock utilisé dans la méthode B, ainsi que l’enregistrement des informations de rangement, valide également la réception du document source.
 > * Le rangement entrepôt utilisé dans la méthode D ne peut pas être validé et enregistre uniquement le rangement. L’enregistrement rend les articles disponibles pour un traitement ultérieur mais ne valide pas la réception. Dans le flux entrant, le rangement entrepôt nécessite une réception entrepôt.
 
-## Aucune activité entrepôt dédiée
+## <a name="no-dedicated-warehouse-activity"></a>Aucune activité entrepôt dédiée
 
 Les articles suivants fournissent des informations sur le traitement des réceptions pour les documents origine si vous n’avez pas d’activités entrepôt dédiées.
 
@@ -58,7 +58,7 @@ Les articles suivants fournissent des informations sur le traitement des récept
 * [Ordres de transfert](inventory-how-transfer-between-locations.md)
 * [Traitement des retours vente](sales-how-process-sales-returns-orders.md)
 
-## Configurations d’entrepôt de base  
+## <a name="basic-warehouse-configurations"></a>Configurations d’entrepôt de base
 
 Dans une configuration d’entrepôt de base, le bouton bascule **Rangement requis** est activé, mais le bouton bascule **Réception requise** est désactivé sur la page **Fiche magasin** pour l’emplacement.
 
@@ -66,15 +66,15 @@ Le schéma suivant présente les flux d’enlogement par type de document dans l
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Le flux entrant de base dans un entrepôt.":::
 
-### 1 : émettre un document origine pour créer une demande de rangement stock  
+### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away"></a>1 : émettre un document origine pour créer une demande de rangement stock
 
 Lorsque vous recevez des articles, émettez le document origine, tel qu’une commande achat ou un ordre de transfert entrant. L’émission du document rend les articles disponibles pour être rangés. Vous pouvez également créer des documents de rangement stock pour des lignes commande individuelles, de manière « push », selon les emplacements et les quantités à traiter.  
 
-### 2 : Créer un rangement stock  
+### <a name="2-create-an-inventory-put-away"></a>2 : Créer un rangement stock
 
 Sur la page **Rangement stock**, en mode « pull », vous pouvez extraire les lignes document origine en attente en fonction des requêtes d’enlogement. En mode « push », vous pouvez également créer des lignes rangement stock lorsque vous créez le document origine.  
 
-### 3 : Valider un rangement stock  
+### <a name="3-post-an-inventory-put-away"></a>3 : Valider un rangement stock
 
 Sur chaque ligne pour les articles qui ont été rangés, entièrement ou partiellement, renseignez le champ **Quantité**, puis validez le rangement stock. Les documents origine associé au rangement stock sont validés comme étant reçus.  
 
@@ -83,7 +83,7 @@ Sur chaque ligne pour les articles qui ont été rangés, entièrement ou partie
 * La requête de rangement est supprimée si elle est entièrement traitée. Par exemple, le champ **Quantité reçue** sur la ligne document origine entrant est mis à jour.
 * Un document réception validé est créé et indique la commande achat, par exemple, ainsi que les articles reçus.  
 
-## Configurations d’entrepôt avancées  
+## <a name="advanced-warehouse-configurations"></a>Configurations d’entrepôt avancées
 
 Pour utiliser une configuration d’entrepôt avancée, activez le bouton bascule **Réception requise** sur la page Fiche magasin pour l’emplacement. Le bouton à bascule **Rangement requis** est facultatif.
 
@@ -91,21 +91,21 @@ Le schéma suivant présente le flux d’enlogement par type de document. Les nu
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Le flux entrant avancé dans un entrepôt.":::
 
-### 1 : émettre le document origine  
+### <a name="1-release-the-source-document"></a>1 : émettre le document origine
 
 Lorsque vous recevez des articles, émettez le document origine, tel que la commande achat ou un ordre de transfert entrant. L’émission du document rend les articles disponibles pour être rangés. Le rangement contiendra des références au type et au numéro du document origine.
 
-### 2 : Créer une réception entrepôt  
+### <a name="2-create-a-warehouse-receipt"></a>2 : Créer une réception entrepôt
 
 Sur la page **Réception entrepôt**, récupérez les lignes du document origine entrant. Vous pouvez combiner plusieurs lignes document origine dans un document réception entrepôt. Renseignez le champ **Qté à traiter** et sélectionnez la zone et l’emplacement de réception, si nécessaire.  
 
-### 3 : valider la réception entrepôt  
+### <a name="3-post-the-warehouse-receipt"></a>3 : valider la réception entrepôt
 
 Validez la réception entrepôt pour créer des écritures comptables article positives. Le champ **Quantité reçue** sur la ligne document origine entrant est mis à jour.  
 
 Si le bouton à bascule **Rangement requis** n’est pas activé sur la fiche magasin, c’est là que le processus s’arrête. Sinon, la validation du document origine entrant rend les articles disponibles pour être rangés. Le rangement contient des références au type et au numéro du document origine.  
 
-### 4 : (Facultatif) Générer des lignes feuille rangement
+### <a name="4-optional-generate-put-away-worksheet-lines"></a>4 : (Facultatif) Générer des lignes feuille rangement
 
 Récupérez les lignes de rangement entrepôt dans la **Feuille rangement** en fonction des réceptions entrepôt validées ou des opérations qui produisent une sortie. Sur les lignes à ranger, spécifiez les informations suivantes :
 
@@ -120,11 +120,11 @@ Lorsque tous les rangements sont planifiés et affectés aux magasiniers, géné
 > [!NOTE]  
 > Si le bouton à bascule **Utiliser feuille rangement** n’est pas activé sur la fiche magasin, les documents rangement entrepôt sont créées directement sur la base des réceptions entrepôt enregistrées. Dans ce cas, cette étape n’est pas nécessaire.  
 
-### 5 : créer un document rangement entrepôt
+### <a name="5-create-a-warehouse-put-away-document"></a>5 : créer un document rangement entrepôt
 
 Créez un document de rangement entrepôt en mode « pull », en fonction de la réception entrepôt validée. Sinon, créez le document rangement entrepôt et affectez-le à un magasinier en mode « push ».  
 
-### 6 : Enregistrer rangement entrepôt
+### <a name="6-register-a-warehouse-put-away"></a>6 : Enregistrer rangement entrepôt
 
 Sur chaque ligne pour les articles qui ont été rangés, entièrement ou partiellement, renseignez le champ **Quantité** sur la page **Rangement entrepôt**, puis enregistrez le rangement entrepôt.  
 
@@ -133,7 +133,7 @@ Sur chaque ligne pour les articles qui ont été rangés, entièrement ou partie
 * Le document rangement entrepôt reste ouvert jusqu’à ce que vous enregistriez la quantité totale du reçu entrepôt validé.
 * Le champ **Qté rangement** sur les lignes d’ordre de réception entrepôt validées est mis à jour.
 
-## Tâches connexes
+## <a name="related-tasks"></a>Tâches connexes
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les articles qui les décrivent.
 
@@ -143,10 +143,10 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Ranger les articles commande par commande et valider la réception en une seule activité dans les configurations entrepôt de base.|[Ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
 |Ranger les articles reçus à partir de plusieurs achats, retours vente ou ordres de transfert dans une configuration d’entrepôt avancée.|[Rangement des articles avec les rangement entrepôt](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
 
-## Valider des articles hors inventaire
+## <a name="post-non-inventory-items"></a>Valider des articles hors inventaire
 
 [!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
