@@ -12,7 +12,7 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# Configurer des documents électroniques
+# <a name="set-up-e-documents"></a>Configurer des documents électroniques
 
 > [!IMPORTANT]
 > Le module de base de documents électroniques est une infrastructure. Par défaut, il n’y a pas de champ **Intégration des services**. Si vous retrouvez les options **Format du document** par défaut, sachez qu’elles sont proposées à titre d’exemple et que la localisation doit fournir un format détaillé. Ces détails font partie des applications de localisation, car ils sont spécifiques aux exigences locales.
@@ -22,7 +22,7 @@ ms.author: altotovi
 
 La première étape de la configuration des documents électroniques (e-documents) consiste à configurer le service Documents électroniques dans lequel vous configurez le comportement complet de votre système en ce qui concerne la communication par documents électroniques.
 
-## Configurer le service de documents électroniques
+## <a name="set-up-the-e-document-service"></a>Configurer le service de documents électroniques
 
 Suivez ces étapes pour configurer le service de documents électroniques.
 
@@ -72,11 +72,11 @@ Si vous avez configuré le format **Définition d’échange de données** dans 
 
 Si vous n’utilisez pas le format **Définition d’échange de données**, vous pouvez créer et configurer des formats à l’aide de l’ [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Ajustez les informations sur les lignes **Exporter un mappage** et **Importer un mappage**, où vous trouverez les tables et champs à configurer les règles de transformation. Dans ce cas, vous devez ajouter une nouvelle option dans le champ **Format du document** liée à votre format.  
 
-### Types de document pris en charge 
+### <a name="supported-document-types"></a>Types de document pris en charge
 
 Les types de documents pris en charge sont basés sur le **format de document choisi**. Pour vérifier quels types de documents sont pris en charge, sur la page **Service documents électroniques** , exécutez l’action **Types de documents pris en charge** . Les **Types de documents sources pris en charge par le service de documents électroniques** s’ouvrent et dans la colonne **Type de document source** , vous pouvez trouver tous les types de documents pris en charge.  
 
-## Configurer un profil d’envoi de documents
+## <a name="set-up-a-document-sending-profile"></a>Configurer un profil d’envoi de documents
 
 Vous pouvez configurer une méthode préférée d’envoi des documents de vente pour chacun de vos clients. De cette façon, vous n’avez pas besoin de sélectionner une option d’envoi à chaque fois que vous sélectionnez l’action **Publier et envoyer**. Sur la page **Profils d’envoi de documents**, configurez différents profils d’envoi que vous pouvez sélectionner dans le champ **Profil d’envoi de documents** d’une fiche client. Vous pouvez cocher la case **Par défaut** pour spécifier que le profil d’envoi du document est le profil par défaut pour tous les clients, sauf pour les clients dont le champ **Profil d’envoi de documents** est renseigné avec un autre profil d’envoi.
 
@@ -98,7 +98,7 @@ Suivez la procédure pour configurer un profil d’envoi de documents.
     > [!NOTE]
     > Si vous sélectionnez **Flux de services document électronique étendu** dans le champ **Document électronique**, vous devez déjà avoir configuré le flux de travail pour vos documents électroniques.
 
-## Configurer le flux de travail
+## <a name="set-up-the-workflow"></a>Configurer le flux de travail
 
 Suivez cette procédure pour configurer le flux de travail utilisé dans la fonctionnalité de document électronique.
 
@@ -117,7 +117,7 @@ Pour utiliser davantage de workflows, configurez-les via les profils d’envoi d
 
 Lorsque vous configurez votre workflow sur la page **Workflow** , pointez sur le champ **Sur condition** sur le Raccourci **Étapes du workflow**. Sur la page **Conditions d’événement** , dans le champ **Filtre** , sélectionnez le profil d’envoi de documents que vous souhaitez utiliser.
 
-## Mettre en place une stratégie de rétention des documents électroniques
+## <a name="set-up-a-retention-policy-for-e-documents"></a>Mettre en place une stratégie de rétention des documents électroniques
 
 Les documents électroniques peuvent faire l’objet de différentes législations locales liées à la durée de conservation des documents électroniques. Par conséquent, nous avons ajouté une configuration de stratégie de rétention pour toutes les informations importantes liées aux documents électroniques. Les administrateurs peuvent définir des stratégies de rétention qui spécifient la fréquence à laquelle Dynamics 365 Business Central supprime les enregistrements obsolètes liés aux documents électroniques. Pour en savoir plus sur les stratégies de rétention, accédez à [Définir des stratégies de rétention](admin-data-retention-policies.md).
 
@@ -131,7 +131,7 @@ Pour configurer des stratégies de rétention liées aux documents électronique
     - Journal du mappage de document électronique
     - Stockage des données du document électronique
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Comment utiliser des documents électroniques dans Business Central](finance-how-use-edocuments.md)  
 [Comment étendre des documents électroniques dans Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
