@@ -8,12 +8,16 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 09/14/2023
+ms.date: 12/05/2023
 ms.author: jswymer
 ---
 # Personnaliser votre espace de travail
 
-Vous pouvez personnaliser votre espace de travail en fonction de vos habitudes et préférences. Modifiez les pages afin qu’elles n’affichent que les informations dont vous avez besoin, où vous en avez besoin. La personnalisation n’affecte que votre espace de travail. Cela ne change pas la façon dont les autres fonctionnent. Vous pouvez personnaliser tous les types de pages, y compris la page [Tableau de bord](ui-change-basic-settings.md#role-center). 
+Vous pouvez personnaliser votre espace de travail en fonction de vos habitudes et préférences. Modifiez les pages afin qu’elles n’affichent que les informations dont vous avez besoin, où vous en avez besoin. La personnalisation n’affecte que votre espace de travail. Cela ne change pas la façon dont les autres fonctionnent. Vous pouvez personnaliser tous les types de pages, y compris la page [Tableau de bord](ui-change-basic-settings.md#role-center).
+
+> [!NOTE]
+> En raison de restrictions sur les capacités de conception du client Web, il n’est actuellement pas possible de personnaliser les contrôles dans la syntaxe de la grille.
+Cela s’applique à tous les modes de conception, pas seulement à la personnalisation.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -184,12 +188,11 @@ Pour vous aider à mieux comprendre la personnalisation, voici quelques points c
 - Certaines pages comportent plusieurs champs de page qui correspondent à la même table source. Le volet affiche les deux/tous ces champs de page indépendamment. Afficher/Masquer/déplacer ces champs est également indépendant sans que l’un n’affecte l’autre.
 - Si une pièce ou un groupe est masqué, les champs fantômes s’afficheront toujours à l’intérieur, mais vous ne pouvez pas faire de glisser-déposer ou ajouter/afficher ce champ tant que vous n’avez pas rendu le groupe/la pièce visible.
 
-## Voir la [formation Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) associée
 
 ## Voir aussi
 [Personnalisation des pages pour les profils](ui-personalization-manage.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Modifier les paramètres de base](ui-change-basic-settings.md)  
+[Modification des paramètres de base](ui-change-basic-settings.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
 
 

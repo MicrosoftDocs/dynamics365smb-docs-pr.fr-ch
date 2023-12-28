@@ -70,7 +70,11 @@ Suivez ces étapes pour configurer le service de documents électroniques.
 
 Si vous avez configuré le format **Définition d’échange de données** dans votre localisation, vous pouvez ajouter une ligne pour chaque type de document dont vous avez besoin. Ajoutez des lignes qui correspondent à l’exemple d’échange de données par défaut pour le format W1 PEPPOL. Cependant, d’abord sélectionner l’option **Type de document** pour chaque ligne dont vous avez besoin. Pour chaque type de données, sélectionnez la valeur **Importer le code de déf. d’échange de données** ou **Exporter le code de déf. d’échange de données** que vous souhaitez utiliser.
 
-Si vous n’utilisez pas le format **Définition d’échange de données**, vous pouvez créer et configurer des formats à l’aide de l’ [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Ajustez les informations sur les lignes **Exporter un mappage** et **Importer un mappage**, où vous trouverez les tables et champs à configurer les règles de transformation. Dans ce cas, vous devez ajouter une nouvelle option dans le champ **Format du document** liée à votre format.
+Si vous n’utilisez pas le format **Définition d’échange de données**, vous pouvez créer et configurer des formats à l’aide de l’ [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Ajustez les informations sur les lignes **Exporter un mappage** et **Importer un mappage**, où vous trouverez les tables et champs à configurer les règles de transformation. Dans ce cas, vous devez ajouter une nouvelle option dans le champ **Format du document** liée à votre format.  
+
+### Types de document pris en charge 
+
+Les types de documents pris en charge sont basés sur le **format de document choisi**. Pour vérifier quels types de documents sont pris en charge, sur la page **Service documents électroniques** , exécutez l’action **Types de documents pris en charge** . Les **Types de documents sources pris en charge par le service de documents électroniques** s’ouvrent et dans la colonne **Type de document source** , vous pouvez trouver tous les types de documents pris en charge.  
 
 ## Configurer un profil d’envoi de documents
 

@@ -1,7 +1,7 @@
 
 # [Documentation de Business Central](index.yml)
 # [Bienvenue dans Business Central](welcome.md)
-# [Fonctionnalités nouvelles et prévues](/dynamics365/business-central/dev-itpro/whatsnew/overview)
+# [Fonctionnalités nouvelles et prévues](/dynamics365/business-central/dev-itpro/whatsnew/overview?toc=/dynamics365/business-central/toc.json)
 # Démarrer
 ## [Vue d’ensemble des fonctionnalités d’entreprise](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
@@ -331,8 +331,9 @@
 
 ### Gérer les documents électroniques
 #### [Vue d’ensemble des documents électroniques](finance-edocuments-overview.md)
-#### [Paramétrer les documents électroniques](finance-how-setup-edocuments.md)
-#### [Utiliser des documents électroniques dans les ventes et les achats](finance-how-use-edocuments.md)
+#### [Configuration des documents électroniques](finance-how-setup-edocuments.md)
+#### [Utilisation des documents électroniques dans les ventes et les achats](finance-how-use-edocuments.md)
+#### [Configuration du connecteur de documents électroniques avec des points de terminaison externes](finance-how-setup-edocuments-external.md)
 #### [Extension de la fonctionnalité des documents électroniques](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Gestion de la TVA
@@ -870,6 +871,8 @@
 ### Danemark
 #### [Fonctionnalité locale dans la version danoise](LocalFunctionality/Denmark/denmark-local-functionality.md)
 #### [Notification et inscription au NemHandelsregisteret au Danemark](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Configuration de la facturation électronique avec NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### [Conserver les données transactionnelles pendant cinq ans au Danemark](localfunctionality/denmark/how-to-keep-data-5years.md)
 #### TVA
 ##### [Impression des états sur le rapprochement TVA](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [États TVA-VIES](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -883,7 +886,7 @@
 ##### [Configuration des clients pour OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Configuration de la facturation électronique OIOUBL](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [Extension OIOUBL pour la facturation électronique](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Création des documents électroniques dans un format OIOUBL](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+##### [Créer des documents électroniques au format OIOUBL](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
 #### Paie
 ##### [Définitions de données de paie (Danemark)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 #### Pièces justificatives numériques
