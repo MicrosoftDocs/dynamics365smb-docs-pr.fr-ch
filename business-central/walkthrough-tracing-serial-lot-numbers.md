@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
 ---
-# <a name="walkthrough-tracing-seriallot-numbers"></a>Procédure pas à pas : suivi des numéros de série et des numéros de lot
+# Procédure pas à pas : suivi des numéros de série et des numéros de lot
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -20,7 +20,7 @@ Dans la gestion des défauts, la première chose à faire est de rechercher d’
 
 Ensuite, déterminez si les articles suivis sont planifiés dans des documents en cours, comme des commandes vente non validées ou des feuilles consommation. Cela s’effectue sur la page **Rechercher des écritures**. Vous pouvez utiliser la fonction Rechercher des écritures pour rechercher tous les types d’enregistrements de données de base.  
 
-## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas
+## À propos de cette procédure pas à pas
 
 Cette procédure pas à pas explique comment identifier les articles défectueux, leur fournisseur et l’endroit où ils sont utilisés afin que vous puissiez les bloquer ou les rappeler.  
 
@@ -30,7 +30,7 @@ Cette procédure pas à pas présente les tâches suivantes :
 - Traçabilité de l’origine à l’activité.  
 - Recherche de tous les enregistrements en cours contenant le numéro de série/lot suivi  
 
-## <a name="roles"></a>Rôles
+## Rôles
 
 Cette procédure pas à pas présente les tâches effectuées par les rôles utilisateur suivants :  
 
@@ -39,14 +39,14 @@ Cette procédure pas à pas présente les tâches effectuées par les rôles uti
 - Préparateur de commandes  
 - Agent d’achats  
 
-## <a name="prerequisites"></a>Conditions préalables
+## Conditions préalables
 
 Pour exécuter ce processus pas à pas, vous devez :  
 
 - La société [!INCLUDE[prod_short](includes/prod_short.md)].  
 <!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Scénario
+## Scénario
 
 Ricardo, le contrôleur qualité, se charge d’un retour vente de l’article 1002, vélo de course. Le client, Selangorian Ltd., s’est plaint de fissures au niveau des joints de soudure. Les ingénieurs du contrôle qualité ont confirmé que le cadre du vélo renvoyé est défectueux. Le contrôleur qualité doit maintenant déterminer :  
 
@@ -59,7 +59,7 @@ Les résultats de cette première tâche de traçabilité permettent d’identif
 
 Les deux premières tâches de gestion des défauts sont exécutées sur la page **Traçabilité**. La dernière tâche est réalisée sur la page **Rechercher des écritures** en association avec la page **Traçabilité**.  
 
-## <a name="prepare-sample-data"></a>Préparation d’exemples de données
+## Préparation d’exemples de données
 
 Vous devez créer les nouveaux articles suivants :  
 
@@ -68,7 +68,7 @@ Vous devez créer les nouveaux articles suivants :
 
 Ensuite, vous devez créer plusieurs transactions d’achat, de production et de vente avec les deux articles.  
 
-### <a name="to-create-the-items"></a>Pour créer les articles
+### Pour créer les articles  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -105,7 +105,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
     Ensuite, acheter des cadres de course de Custom Metals Incorporated.  
 
-### <a name="to-purchase-components"></a>Pour acheter des composants
+### Pour acheter des composants
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -136,7 +136,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
     Ensuite, deux produisez vélos de course, SN2 et SN1.  
 
-### <a name="to-produce-end-items"></a>Pour produire des produits finis
+### Pour produire des produits finis
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. lancés**, puis sélectionnez le lien associé.  
 2. Choisissez le groupe **Nouveau**.  
@@ -183,7 +183,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
     Ensuite, vendez les vélos de course. Vendez d’abord le vélo de course portant le SN1 à Selangorian Ltd.  
 
-### <a name="to-sell-the-end-items"></a>Pour vendre des articles finis
+### Pour vendre des articles finis
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Choisissez l’action **Nouveau**, puis créez une commande vente en renseignant les champs suivants.  
@@ -223,11 +223,11 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
     Vous avez terminé de préparer les données de démonstration des fonctions Traçabilité et Rechercher des écritures.  
 
-## <a name="tracing-from-usage-to-origin"></a>Traçabilité de l’activité à l’origine
+## Traçabilité de l’activité à l’origine
 
  Dans le département des ventes, le contrôleur qualité sait que le vélo de course renvoyé, l’article 1002, porte le numéro de série SN1. En utilisant cette information de base, ils peuvent déterminer l’endroit où le vélo de course a été utilisé en dernier, dans ce cas, sur l’expédition vente de Selangorian Ltd. Il doit ensuite remonter jusqu’à l’origine pour connaître le numéro de lot duquel le composant défectueux provient.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Pour déterminer de quel lot le cadre défectueux provient et qui la fournit
+### Pour déterminer de quel lot le cadre défectueux provient et qui la fournit
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Traçabilité**, puis choisissez le lien associé.  
 2.  Sur la page **Traçabilité**, entrez **SN1** dans le champ **Filtre n° de série**, puis entrez **1002** dans le champ **Filtre article**.  
@@ -254,13 +254,13 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
      La première tâche de gestion des défauts à l’aide de la page **Traçabilité** est à présent terminée. Le contrôleur qualité doit maintenant déterminer si d’autres documents validés ont traité des cadres de course du LOT1.  
 
-## <a name="tracing-from-origin-to-usage"></a>Traçabilité de l’origine à l’activité
+## Traçabilité de l’origine à l’activité
 
  Le contrôleur qualité a déterminé que les cadres de course défectueux provenaient du LOT1. Ils doivent maintenant retrouver les autres vélos de course équipés d’un cadre provenant du lot défectueux afin de pouvoir stopper ou rappeler ces vélos.  
 
  Une manière de préparer cette tâche de suivi sur la page **Traçabilité** est d’entrer manuellement LOT1 dans le champ **Filtre n° lot** et 2000 dans le champ **Filtre article**. Toutefois, cette procédure pas-à-pas utilisera la fonction **Opposé suivi - Ligne d’origine** .  
 
-### <a name="to-find-all-usage-of-the-faulty-lot"></a>Pour trouver toutes les activités du lot défectueux
+### Pour trouver toutes les activités du lot défectueux  
 
 1.  Sur la page **Traçabilité**, sélectionnez la ligne de la réception achat (la dernière ligne de suivi), choisissez **Opposé suivi - Ligne d’origine**.  
 
@@ -278,11 +278,11 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
     Ainsi se termine la deuxième tâche de gestion des défauts à l’aide de la page **Traçabilité**. Étant donné que la page **Traçabilité** est basée uniquement sur des écritures validées, le contrôleur qualité doit poursuivre jusqu’à la page **Rechercher des écritures** pour vérifier que le LOT1 n’est pas utilisé dans des documents qui ne sont pas validés.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Rechercher tous les enregistrements d’un numéro de série/lot
+## Rechercher tous les enregistrements d’un numéro de série/lot
 
  La page **Traçabilité** a permis au contrôleur qualité de constater que le LOT1 contenait les cadres de course défectueux, d’en découvrir le fournisseur ainsi que la transaction validée dans laquelle ils avaient été utilisés. Ils doivent maintenant déterminer si le LOT1 apparaît dans des documents ouverts en intégrant les résultats du suivi dans la page **Rechercher des écritures** dans laquelle ils peuvent faire une recherche sur l’ensemble des enregistrements de base de données.  
 
-### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Pour rechercher toutes les occurrences du LOT1 dans les enregistrements non validés, comme les commandes ouvertes
+### Pour rechercher toutes les occurrences du LOT1 dans les enregistrements non validés, comme les commandes ouvertes  
 
 1.  Sur la page **Traçabilité**, sélectionnez la première ligne de suivi, c’est-à-dire la réception achat du LOT1.  
 2.  Sélectionnez l’action **Rechercher des écritures**.  
@@ -297,7 +297,7 @@ Ensuite, vous devez créer plusieurs transactions d’achat, de production et de
 
  Ainsi se termine la procédure pas à pas sur l’utilisation de la page **Rechercher des écritures** pour la gestion des défauts en association avec la page **Traçabilité**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)  
 [Traçabilité – Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
