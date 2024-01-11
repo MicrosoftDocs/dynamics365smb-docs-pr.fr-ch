@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 11/07/2023
+ms.date: 12/20/2023
 ms.author: bholtorf
 ---
 
@@ -13,7 +13,7 @@ Pour créer des relances livraison, vous devez satisfaire aux conditions préala
 
 Chaque condition de relance livraison a deux niveaux de relance livraison ou plus, et pour chaque niveau de relance livraison, vous pouvez spécifier le texte constituant la relance livraison.  
 
-## <a name="to-set-up-delivery-reminder-terms"></a>Pour configurer des conditions de relance livraison
+## Pour configurer des conditions de relance livraison  
 
 1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Conditions de relance livraison**, puis sélectionnez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
@@ -27,7 +27,7 @@ Chaque condition de relance livraison a deux niveaux de relance livraison ou plu
 
 4. Cliquez sur le bouton **OK**.  
 
-## <a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a>Pour ajouter des niveaux de relance livraison à une seule condition de relance livraison
+## Pour ajouter des niveaux de relance livraison à une seule condition de relance livraison  
 
 1. Dans la page **Conditions de relance livraison**, sélectionnez la condition pour laquelle vous souhaitez configurer des niveaux, puis choisissez l'action **Niveaux**.  
 2. Sélectionnez l'action **Nouveau**.  
@@ -44,7 +44,7 @@ Pour chaque niveau de relance livraison, vous pouvez définir les messages texte
 
 La procédure suivante décrit comment configurer des messages texte de début, mais les mêmes étapes s'appliquent également pour configurer des messages texte de fin.  
 
-## <a name="to-set-up-delivery-reminder-text-messages"></a>Pour configurer des messages textuels de relance livraison
+## Pour configurer des messages textuels de relance livraison  
 
 1. Dans la page **Niveaux de relance livraison**, sélectionnez un niveau, puis sélectionnez l'action **Texte de début**.  
 2. Sélectionnez l'action **Nouveau**.  

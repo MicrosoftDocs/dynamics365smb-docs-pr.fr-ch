@@ -9,7 +9,7 @@ ms.search.keywords: null
 ms.date: 09/12/2023
 ms.custom: bap-template
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Prélever pour la fabrication, l’assemblage ou les tâches dans les configurations de stockage avancées
+# Prélever pour la fabrication, l’assemblage ou les tâches dans les configurations de stockage avancées
 
 Le mode de prélèvement de vos composants pour les ordres de fabrication, d’assemblage ou les tâches dépend de la configuration de l’entrepôt en tant qu’emplacement. Learn more at [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).
 
@@ -30,7 +30,7 @@ Pour prélever ou déplacer des composants pour des documents origine en mode «
 |Ordre d’assemblage|Remplacez le statut actuel par le statut Lancé.|
 |Projets | Changez le statut en Ouvert ou créez une tâche avec le statut Ouvert immédiatement.|  
 
-## <a name="production"></a>Fabrication
+## Fabrication
 
 Utilisez les documents **Prélèvement entrepôt** pour prélever des composants de production dans le flux vers la production.
 
@@ -39,13 +39,13 @@ Pour un site qui utilise des emplacements pour déplacer des articles vers des e
 * Pour un site qui utilise le rangement et le prélèvement dirigés, suivez les étapes de l’article [Déplacer des articles dans les configurations de stockage avancée](warehouse-how-to-move-items-in-advanced-warehousing.md).
 * Pour les autres sites, suivez les étapes de l’article [Déplacer des articles en interne dans les configurations de stockage de base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-## <a name="assembly"></a>Assembly
+## Assembly  
 
 Utilisez les documents **Prélèvement entrepôt** pour déplacer les composants d’assemblage vers la zone d’assemblage.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] prend en charge les types de flux d’assemblage Assembler pour stock et Assembler pour commande. Pour en savoir plus sur l’assemblage pour commande dans le flux d’entrepôt sortant, accédez à [Traitement des articles à assembler pour commande dans les expéditions entrepôt](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Gestion de projets
+## Gestion de projets  
 
 Utilisez les documents **Prélèvement entrepôt** pour sélectionner les composants de la tâche dans le flux vers la gestion de projet.
 
@@ -54,11 +54,11 @@ Utilisez les documents **Prélèvement entrepôt** pour sélectionner les compos
 >
 > Les tâches ne prennent pas en charge les configurations avancées dans lesquelles le bouton à bascule **Prélèvement et rangement dirigés** est activé.
 
-## <a name="check-whether-items-are-available-for-picking"></a>Vérifier si les articles sont disponibles pour le prélèvement
+## Vérifier si les articles sont disponibles pour le prélèvement
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Pour créer des documents de prélèvement en bloc avec la feuille prélèvement
+## Pour créer des documents de prélèvement en bloc avec la feuille prélèvement
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille prélèvement**, puis choisissez le lien associé.  
 
@@ -111,7 +111,7 @@ Utilisez les documents **Prélèvement entrepôt** pour sélectionner les compos
 
 8. Cliquez sur le bouton **OK**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Pour prélever des articles pour un ordre de fabrication, un ordre d’assemblage, une tâche
+## Pour prélever des articles pour un ordre de fabrication, un ordre d’assemblage, une tâche
 
 1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements**, puis choisissez le lien associé.  
 
@@ -139,7 +139,7 @@ Utilisez les documents **Prélèvement entrepôt** pour sélectionner les compos
     * [Assembler des articles](assembly-how-to-assemble-items.md)
     * [Enregistrer la consommation ou l′utilisation pour les projets](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Consommer les composants pour la fabrication dans une configuration entrepôt avancée
+## Consommer les composants pour la fabrication dans une configuration entrepôt avancée
 
 Les modes de consommation affectent le flux des composants en production. Learn more at [Consommer des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md). En fonction de la méthode de consommation sélectionnée, vous pouvez prélever des composants pour la production des manières suivantes :
 
@@ -147,7 +147,7 @@ Les modes de consommation affectent le flux des composants en production. Learn 
 * Utilisez un document **Prélèvement entrepôt** pour enregistrer le prélèvement des articles qui utilisent la méthode de consommation **Prélèvement + Aval**, **Prélèvement + Amont**. La consommation des composants se produira automatiquement, soit lorsque vous modifiez le statut de l’ordre de fabrication, soit en démarrant ou en terminant une opération. Tous les composants requis doivent être disponibles. Autrement, la validation de la consommation du composant est arrêtée.
 * Utilisez un document **Mouvement entrepôt** sans référence à un document origine ou d’autres moyens d’enregistrer le mouvement des composants qui utilisent la méthode de consommation **Aval** ou **Amont**. Les composants sont automatiquement consommés, soit lorsque vous changez le statut de l’ordre de fabrication, soit lorsque vous démarrez ou terminez une opération. Tous les composants requis doivent être disponibles. Autrement, la validation de la consommation s’arrête pour ce composant. Learn more at [Déplacement d’articles](warehouse-move-items.md).
 
-### <a name="example"></a>Exemple :
+### Exemple :
 
 Vous avez un ordre de fabrication pour 15 pièces de l’article SP-SCM1004. Certains des articles de la liste des composants doivent être consommés manuellement dans une feuille consommation. D’autres articles peuvent être prélevés et consommés automatiquement à l’aide de la méthode de consommation **Prélèvement + Amont**.  
 
@@ -170,7 +170,7 @@ La figure ci-après indique la date à laquelle le champ **Code emplacement** de
 
 :::image type="content" source="media/binflow.png" alt-text="Aperçu de quand et comment le champ Code emplacement est renseigné.":::
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 - [Gestion du stock](inventory-manage-inventory.md)  
 - [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
