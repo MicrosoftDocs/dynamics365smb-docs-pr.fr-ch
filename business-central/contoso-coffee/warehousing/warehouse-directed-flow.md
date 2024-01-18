@@ -12,11 +12,11 @@ ms.date: 12/07/2023
 ms.author: bholtorf
 ---
 
-# Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt avancées
+# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt avancées
 
 Cette procédure pas à pas montre comment effectuer des flux entrants et sortants dans la configuration avancée : Prélèvement et rangement dirigés. Pour plus d’informations, voir [Présentation des différentes options de configuration](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## Conditions préalables  
+## <a name="prerequisites"></a>Conditions préalables
 Pour exécuter cette procédure, vous devez faire de vous un magasinier sur le site *BLANC* en procédant comme suit :  
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
 2. Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Utilisateurs**.  
@@ -24,10 +24,10 @@ Pour exécuter cette procédure, vous devez faire de vous un magasinier sur le s
 4. Activez le bouton à bascule **Par défaut**.
 
 
-## Scénario  
+## <a name="scenario"></a>Scénario
 Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transbordement et de réapprovisionnement des emplacements pour accélérer les délais de réception et d’expédition.  
 
-## Étapes
+## <a name="steps"></a>Étapes
 
 1. Créez une expédition entrepôt.  
 
@@ -136,7 +136,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
     4. Confirmez l’option **Expédier**.
 
 
-## Résultats
+## <a name="results"></a>Résultats
 - la **Réception entrepôt enregistrée** est créée
 - le **Rangement entrepôt enreg.** est créé    
 - la **Réceptions achat enregistrées** est créée    
@@ -150,7 +150,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
 
 
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Recevoir des articles](../../warehouse-how-receive-items.md) 
 [Détails de conception : Flux d’enlogement](../../design-details-inbound-warehouse-flow.md) 
 [Expédier les articles](../../warehouse-how-ship-items.md) 

@@ -10,7 +10,7 @@ ms.search.keywords: 'marketing, relationship, prospect, contact, client, custome
 ms.date: 12/12/2023
 ms.author: jswymer
 ---
-# Enregistrement automatique des interactions avec les contacts
+# <a name="recording-interactions-with-contacts-automatically"></a>Enregistrement automatique des interactions avec les contacts
 Vous pouvez configurer l’application de sorte à enregistrer automatiquement les interactions pour les documents vente, achat et service, les bordereaux d’envoi, les emails, les appels téléphoniques, et notamment :
 
 * Imprimer les devis ou les demandes de prix, les commandes, les factures, les avoirs, les bordereaux d’envoi.
@@ -22,7 +22,7 @@ Vous pouvez configurer l’application de sorte à enregistrer automatiquement l
 Pour configurer l’enregistrement automatique de ces interactions, vous spécifiez des modèles interaction pour ces documents et ces actions via la page **Paramètres modèles interaction**.  
 Pour ouvrir la page **Paramètres modèles interaction**, choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres modèles interaction**, puis choisissez le lien associé.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Enregistrement des interactions avec les contacts](marketing-interactions.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
