@@ -42,6 +42,10 @@
 ##### [Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt de base](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt mixtes](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt avancées avec prélèvement et rangement suggérés](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Service
+##### [Introduction à la gestion des services Contoso Coffee](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Procédure pas à pas sur les commandes de service pour les articles de service](contoso-coffee/service/service-basic-flow-order.md)
+##### [Procédure pas à pas sur les contrats de service pour les articles de service](contoso-coffee/service/service-contract-flow.md)
 
 ### Détails de conception
 #### [Vue d’ensemble des détails de conception d’application](design-details-application-design.md)

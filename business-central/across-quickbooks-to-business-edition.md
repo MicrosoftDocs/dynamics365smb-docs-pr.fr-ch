@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'app, import, migrate, data, transfer, QuickBooks, customize'
 ms.search.form: 1808
-ms.date: 04/01/2021
+ms.date: 12/12/2023
 ms.author: bholtorf
 ---
 
 
-# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Le passage d’une application QuickBooks à Dynamics 365 Business Central
+# Le passage d’une application QuickBooks à Dynamics 365 Business Central
 
 De plus en plus de sociétés croissantes passent d’applications financières comme QuickBooks Desktop et QuickBooks Online, qui sont conçues pour les startups et autres petites entreprises, à [!INCLUDE[prod_short](includes/prod_short.md)], qui prend en charge également des organisations plus grandes et plus complexes. 
 
@@ -27,11 +27,11 @@ Pour plus d’informations sur l’extension correspondant à votre application 
 * [Extension de migration des données QuickBooks Desktop](ui-extensions-quickbooks-data-migration.md)
 * [Extension de migration des données QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
 
-## <a name="ready-now"></a>Vous êtes prêt ?
+## Vous êtes prêt ?
 
 Si vous êtes prêt à commencer maintenant, choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration assistée**, puis choisissez le lien associé. Choisissez **Migrer des données métier**, puis suivez les étapes du guide.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Personnalisation de Business Central à l’aide d’extensions](ui-extensions.md)   

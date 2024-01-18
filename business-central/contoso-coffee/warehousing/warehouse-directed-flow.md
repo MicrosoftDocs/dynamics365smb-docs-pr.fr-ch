@@ -1,5 +1,5 @@
 ---
-title: 'Réception, rangement, déplacement, prélèvement et expédition dans une configuration d’entrepôt avancée avec prélèvement et rangement dirigés'
+title: 'Réception, rangement, prélèvement et expédition dans une configuration d’entrepôt mixte'
 description: 'Les processus entrants et sortants peuvent être effectués de différentes manières, en fonction du niveau de complexité de l’entrepôt.'
 author: brentholtorf
 ms.topic: conceptual
@@ -8,15 +8,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.search.form: null
-ms.date: 04/01/2021
+ms.date: 12/07/2023
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt avancées avec prélèvement et rangement suggérés
+# Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt avancées
 
 Cette procédure pas à pas montre comment effectuer des flux entrants et sortants dans la configuration avancée : Prélèvement et rangement dirigés. Pour plus d’informations, voir [Présentation des différentes options de configuration](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Conditions préalables
+## Conditions préalables  
 Pour exécuter cette procédure, vous devez faire de vous un magasinier sur le site *BLANC* en procédant comme suit :  
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
 2. Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Utilisateurs**.  
@@ -24,10 +24,10 @@ Pour exécuter cette procédure, vous devez faire de vous un magasinier sur le s
 4. Activez le bouton à bascule **Par défaut**.
 
 
-## <a name="scenario"></a>Scénario
+## Scénario  
 Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transbordement et de réapprovisionnement des emplacements pour accélérer les délais de réception et d’expédition.  
 
-## <a name="steps"></a>Étapes
+## Étapes
 
 1. Créez une expédition entrepôt.  
 
@@ -69,7 +69,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
     - Une ligne de placement qui déplace un SAC dans l’un des emplacements fixes configurés (W-05-0001)
     - Une ligne de placement qui déplace un autre SAC dans un autre emplacement fixe (W-05-0002). En effet, un emplacement fixe unique ne peut pas contenir la quantité totale de réception.
 
-    Puisque ce rangement contient des lignes de transbordement, vous voyez trois lignes pour l’article *WRB-1001* :
+    Puisque ce rangement contient des lignes de transbordement, vous voyez trois lignes pour l’article *WRB-1001* :
     -  Une ligne de prélèvement pour déplacer les quantités reçues depuis l’emplacement de réception (W-08-0001)
     -  Une ligne de placement pour les 2 dans l’emplacement de transbordement
     -  Une ligne de placement pour la quantité restante dans l’emplacement de stockage
@@ -77,7 +77,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
     4. Choisissez l’action **Enregistrer rangement**.
 
 
-6. Définir des emplacements de prélèvement pour l’article pour contrôler l’endroit où il est prélevé 
+6. Définir des emplacements de prélèvement pour l’article pour contrôler l’emplacement où il est prélevé 
 
     1.  Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 6.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Magasins**, puis choisissez le lien associé.  
     2.  Ouvrez la fiche magasin *BLANC*.  
@@ -120,7 +120,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
     4. Choisissez l’action **Créer prélèvement**.
     5. Confirmez tous les paramètres de prélèvement nécessaires, par exemple, activez le bouton à bascule **Par zone de départ**. Cliquez sur le bouton **OK**.
     
-    Vous recevrez un message de confirmation avec les numéros de prélèvement. Il y a deux prélèvements, car certains articles sont situés dans la zone de transbordement, à proximité de la zone d’expédition, et il serait logique de les traiter séparément.
+    Vous recevez un message de confirmation avec les numéros de prélèvement. Il y a deux prélèvements, car certains articles sont situés dans la zone de transbordement, à proximité de la zone d’expédition, et il serait logique de les traiter séparément.
 
 9.  Enregistrer les prélèvements d’entrepôt
     1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 10.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements entrepôt**, puis choisissez le lien associé.
@@ -136,7 +136,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
     4. Confirmez l’option **Expédier**.
 
 
-## <a name="results"></a>Résultats
+## Résultats
 - la **Réception entrepôt enregistrée** est créée
 - le **Rangement entrepôt enreg.** est créé    
 - la **Réceptions achat enregistrées** est créée    
@@ -150,7 +150,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
 
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Recevoir des articles](../../warehouse-how-receive-items.md) 
 [Détails de conception : Flux d’enlogement](../../design-details-inbound-warehouse-flow.md) 
 [Expédier les articles](../../warehouse-how-ship-items.md) 

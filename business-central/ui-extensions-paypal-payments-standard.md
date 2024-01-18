@@ -1,6 +1,6 @@
 ---
 title: Utilisation de l’’extension PayPal Payments Standard
-description: Cette rubrique décrit comment utiliser l’extension standard pour permettre aux clients d’effectuer des paiements avec Paypal.
+description: Cet article décrit comment utiliser l’extension standard pour permettre aux clients d’effectuer des paiements avec Paypal.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'app, add-in, manifest, customize'
 ms.search.form: '1070, 1071, 1073, 1074'
-ms.date: 06/23/2021
+ms.date: 12/12/2023
 ms.author: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>Extension PayPal Payments Standard
+# Extension PayPal Payments Standard
 
 Les clients sont toujours plus exigeants en ce qui concerne le service clientèle, en termes de qualité de produits mais aussi en termes d’options de livraison et de paiement. Le service PayPal Payments Standard vous aide à développer votre service clientèle.
 
-Au lieu de collecter des paiements par l’intermédiaire de transferts bancaires ou de cartes de crédit, vous pouvez proposer à vos clients de vous payer via leur compte Paypal. Lorsque vous envoyez une facture vente par e-mail, le corps du message et le document PDF en pièce jointe contiennent un lien Paypal. Lorsque le client clique sur le lien, la page de service de leur compte Paypal s’ouvre et affiche les détails de paiement pour la vente. Le client peut ensuite payer la facture comme tout autre paiement Paypal.
+Au lieu de collecter des paiements par l’intermédiaire de transferts bancaires ou de cartes de crédit, vous pouvez proposer à vos clients de vous payer via leur compte Paypal. Lorsque vous envoyez une facture vente par courrier électronique, le corps du message et le document PDF en pièce jointe contiennent un lien Paypal. Lorsque le client clique sur le lien, la page de service de leur compte Paypal s’ouvre pour affiche les détails de paiement pour la vente. Le client peut ensuite payer la facture comme tout autre paiement Paypal.
 
 Le service PayPal Payments Standard fournit les avantages suivants :
 
@@ -29,7 +29,7 @@ Le service PayPal Payments Standard fournit les avantages suivants :
 
 Pour plus d’informations, reportez-vous à [Activer les paiements client via Paypal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Définition des ventes](sales-setup-sales.md)  

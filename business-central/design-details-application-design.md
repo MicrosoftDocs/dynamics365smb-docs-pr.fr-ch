@@ -1,5 +1,5 @@
 ---
-title: Détails de conception de l’application
+title: "Détails de conception\_de l’application"
 description: Ce contenu comprend des informations techniques détaillées sur les fonctionnalités d’application complexes dans Business Central.
 author: brentholtorf
 ms.topic: conceptual
@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 11/26/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
 ---
-# <a name="application-design-details"></a>Détails de conception de l’application
+# Détails de conception de l’application
 
 Les articles de cette section contiennent des informations techniques détaillées sur les fonctionnalités d’application complexes dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -24,9 +24,9 @@ Le contenu des détails de conception est destiné aux implémenteurs, développ
 |En savoir plus sur la manière dont le système de planification fonctionne et comment modifier les algorithmes pour répondre aux exigences de planification dans différents environnements.|[Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)|  
 |Découvrez comment le système conserve un contrôle constant sur la disponibilité des articles dans l’entrepôt, afin que les commandes sortantes puissent s’écouler efficacement et assurer des livraisons optimales.|[Détails de conception : disponibilité dans l’entrepôt](design-details-availability-in-the-warehouse.md)|
 |En savoir plus sur l’historique et la conception actuelle de la fonctionnalité de traçabilité et la manière dont elle s’intègre avec le système de réservation pour inclure les numéros de série/lot dans les calculs de disponibilité.|[Détails de conception : traçabilité](design-details-item-tracking.md)|  
-|En savoir plus sur la fonction de ligne validation de feuille comptabilité.|[Détails de conception : Ligne validation de feuille comptabilité](design-details-general-journal-post-line.md)|
+|En savoir plus sur la fonction de ligne validation de feuille comptabilité.|[Détails de conception : ligne validation de feuille comptabilité](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Planifié](production-planning.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  

@@ -6,14 +6,14 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 03/23/2022
+ms.date: 12/12/2023
 ---
 
 # Gestion des valeurs option manquantes
 > [!NOTE]
 > Dans la 1re vague de lancement 2022, vous pouvez créer vos propres mappages d’options. Pour plus d’informations, voir [Personnalisation des mappages d’options avec Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Les nouvelles fonctionnalités nécessitent que votre administrateur active la fonctionnalité **Mise à jour la fonctionnalité : Mapper aux jeux d’options dans Dataverse sans code** sur la page **Gestion des fonctionnalités**. Pour plus d’informations, voir [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-Cette rubrique est destinée à un public technique. Les processus qu’elle décrit nécessitent l’aide d’un développeur.
+Cet article est destinée à un public technique. Les processus qu’elle décrit nécessitent l’aide d’un développeur.
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] contient trois champs d’ensembles d’options qui contiennent des valeurs que vous pouvez mapper à des champs [!INCLUDE[prod_short](includes/prod_short.md)] de type Option pour la synchronisation automatique. Lors de la synchronisation, les options non mappées sont ignorées et les options manquantes sont ajoutées à la table [!INCLUDE[prod_short](includes/prod_short.md)] associée et à la table système **Mappage option Dataverse** pour une gestion manuelle ultérieure. Par exemple, en ajoutant les options manquantes dans l’un ou l’autre des produits, puis en mettant à jour le mappage.
 
@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Toutes les énumérations [!INCLUDE[prod_short](includes/prod_short.md)] ci-dessus sont mappées à des ensembles d’options dans [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### Extension des ensembles d’options dans [!INCLUDE[prod_short](includes/prod_short.md)]
+## Extension des groupes d’options dans [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Créez une extension AL.
 
 2. Ajoutez une extension Énumération pour les options que vous souhaitez étendre. Veillez à utiliser la même valeur. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Les dix premiers caractères des nouveaux noms et légendes de valeur option doivent être uniques. Par exemple, deux options nommées « Transférer 20 jours ouvrables » et « Transférer 20 jours calendaires » provoquent une erreur, car leurs 10 premiers caractères (« Transférer ») sont identiques. Nommez-les, par exemple, « TRF20 JO » et « TRF20 JC ».
 
-### Mettre à jour le mappage option [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Mettre à jour le mappage option [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Vous pouvez maintenant recréer le mappage entre les options [!INCLUDE[prod_short](includes/cds_long_md.md)] et les enregistrements [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Sur la page **Mappage de table d’intégration**, choisissez la ligne pour le mappage **Conditions de paiement**, puis l’action **Synchroniser les enregistrements modifiés**. La page **Mappage option Dataverse** est mise à jour avec les enregistrements supplémentaires ci-dessous.
@@ -118,7 +118,7 @@ Sur la page **Mappage de table d’intégration**, choisissez la ligne pour le m
 | **Conditions de paiement : PMT EN ESP**  | **779800001**  | **Paiement en espèces**     |
 | **Conditions de paiement : TRANSFERT**    | **779800002**  | **Transfert**         |
 
-La table **Conditions de paiement** dans [!INCLUDE[prod_short](includes/prod_short.md)] aura alors de nouveaux enregistrements pour les options [!INCLUDE[prod_short](includes/cds_long_md.md)]. Dans la table suivante, les nouvelles options sont en gras. Les lignes en italique représentent toutes les options qui peuvent maintenant être synchronisées. Les lignes restantes représentent les options non utilisées et seront ignorées lors de la synchronisation. (Vous pouvez les supprimer ou étendre les options Dataverse avec les mêmes noms.)
+La table **Conditions de paiement** dans [!INCLUDE[prod_short](includes/prod_short.md)] aura alors de nouveaux enregistrements pour les options [!INCLUDE[prod_short](includes/cds_long_md.md)]. Dans la table suivante, les nouvelles options sont en gras. Les lignes en italique représentent toutes les options qui peuvent maintenant être synchronisées. Les lignes restantes représentent les options non utilisées et sont ignorées lors de la synchronisation. (Vous pouvez les supprimer ou étendre les options Dataverse avec les mêmes noms.)
 
 | Code       | Calcul date échéance | Calcul date d’escompte | % remise | Calculer escompte sur avoirs | Description       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|

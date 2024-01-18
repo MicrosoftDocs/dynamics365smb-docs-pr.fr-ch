@@ -1,15 +1,15 @@
 ---
 title: Introduction à la fabrication Contoso Coffee
 description: Vue d’ensemble des scénarios relatifs à la façon dont les données de démonstration Contoso Coffee peuvent vous aider à apprendre à utiliser les capacités de fabrication dans Business Central.
-ms.date: 04/01/2022
+ms.date: 04/01/2023
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 4765
+ms.search.form: '4765,'
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Introduction à la fabrication Contoso Coffee
+# Introduction à la fabrication Contoso Coffee
 
 Contoso Coffee est une société fictive qui produit des cafetières grand public et commerciales. Les applications **Contoso Coffee** pour Business Central ajoutent des données de démonstration que vous pouvez utiliser pour apprendre à utiliser les capacités de fabrication dans Business Central.  
 
@@ -36,9 +36,9 @@ Les activités de fabrication pour tous les scénarios utilisent l’emplacement
 > [!IMPORTANT]
 > Avant d’exécuter l’un des scénarios pour Contoso Coffee, validez toutes les lignes feuille article avec soldes d’ouverture. Pour connaître plus d’exigences, voir la section [Configurer les données de Contoso Coffee](#set-up-contoso-coffee-manufacturing-data).
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Configurer les données de fabrication Contoso Coffee
+## Configurer les données de fabrication Contoso Coffee
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 |Champ  |Désignation  |
 |---------|---------|
@@ -47,7 +47,7 @@ Les activités de fabrication pour tous les scénarios utilisent l’emplacement
 
 Une fois que vous êtes prêt, choisissez l’action **Créer des données de démonstration**. L’ajout des données à la base de données sous-jacente prend quelques minutes, mais vous êtes ensuite prêt à exécuter les différents scénarios.  
 
-## <a name="scenarios"></a>Cas de figure
+## Cas de figure
 
 Les données de démonstration de facturation Contoso Coffee prennent actuellement en charge les scénarios suivants pour les tests et la formation :
 
@@ -65,7 +65,7 @@ Lisez les étapes de chaque scénario dans l’article correspondant.
 > [!IMPORTANT]
 > Ces procédures pas à pas nécessitent que l’expérience utilisateur soit définie sur *Premium* dans la page **Informations société**.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Production](../../production-manage-manufacturing.md)  
 [États de production et analyses dans Business Central](../../production-reports.md)  
