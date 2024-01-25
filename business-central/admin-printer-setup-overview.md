@@ -4,19 +4,19 @@ description: Découvrez les différentes opportunités d’impression dans Busin
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: overview
 ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="printer-setup-and-management-overview"></a>Vue d’ensemble de la configuration et de la gestion de l’imprimante
+# Vue d’ensemble de la configuration et de la gestion de l’imprimante
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Impression de documents et de rapports à partir de [!INCLUDE[prod_short](includes/prod_short.md)] est une tâche importante pour les utilisateurs professionnels. Les utilisateurs voudront généralement envoyer des travaux d′impression directement à l′une des imprimantes de votre organisation&mdash; peu importe quel client ou application [!INCLUDE[prod_short](includes/prod_short.md)] ils utilisent. Parce que [!INCLUDE[prod_short](includes/prod_short.md)] Online est un service cloud, il ne peut pas atteindre directement les imprimantes locales connectées aux appareils des utilisateurs, mais il peut se connecter à des imprimantes compatibles cloud.
 
-## <a name="what-are-your-printer-possibilities-in-business-central"></a>Quelles sont vos possibilités d’impression dans Business Central ?
+## Quelles sont vos possibilités d’impression dans Business Central ?
 
 Pour répondre à vos besoins d′impression, [!INCLUDE[prod_short](includes/prod_short.md)] offre les fonctionnalités suivantes :
 
@@ -31,13 +31,13 @@ La majeure partie du travail de configuration des imprimantes peut être effectu
 > [!IMPORTANT]
 > Pour Business Central en local, l’Impression universelle et l’impression d’e-mails nécessitent l’utilisation de l’authentification Microsoft Entra ID ou NavUserPassword.
 
-## <a name="custom-printer-extensions"></a>Extensions d’imprimante personnalisées
+## Extensions d’imprimante personnalisées
 
 [!INCLUDE[prod_short](includes/prod_short.md)] prend également en charge les extensions d′imprimante personnalisées qui ajoutent encore plus de fonctionnalités d′impression. Ainsi, si des extensions d′imprimante personnalisées sont installées, votre application peut inclure des fonctionnalités d′impression qui ne sont pas décrites dans cet article.
 
 Si vous êtes un développeur AL et que vous souhaitez savoir comment créer des extensions d’imprimante, consultez [Développement d’extensions d’imprimante dans Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## <a name="next-steps"></a>Étapes suivantes
+## Étapes suivantes
 
 - [Configuration d’imprimantes à impression universelle](admin-printer-setup-universal-print.md)  
 - [Paramétrer des imprimantes de messagerie](admin-printer-setup-email.md)  

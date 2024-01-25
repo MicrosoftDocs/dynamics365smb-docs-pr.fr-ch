@@ -4,7 +4,7 @@ description: Cet article explique comment configurer et utiliser des bons numér
 author: altotovi
 ms.author: altotovi
 ms.reviewer: null
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: 'digital voucher, voucher, attachment, setup'
 ms.search.form: '5579, 5582, 5587'
@@ -12,7 +12,7 @@ ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-digital-vouchers"></a>Configuration des pièces justificatives numériques
+# Configuration des pièces justificatives numériques
 
 Les administrateurs peuvent utiliser la fonctionnalité de bon numérique pour exiger que les documents soient joints à des transactions spécifiques lors de leur publication. Par conséquent, cette fonctionnalité permet une approche basée sur la source et fournit une meilleure piste d’audit. Différents types de contrôle peuvent être configurés à cet effet, en fonction des documents ou des types de journaux.
 
@@ -21,14 +21,14 @@ Le terme *pièce justificative numérique* fait référence à une forme numéri
 > [!IMPORTANT]
 > Dans certains pays et régions, il se peut que vous ne puissiez pas configurer certaines options, car des configurations spécifiques peuvent être imposées par des exigences légales. Si vous rencontrez ces restrictions, recherchez une explication détaillée sur la page de documentation de votre pays ou région.
 
-## <a name="enable-digital-vouchers"></a>Activer les pièces justificatives numériques
+## Activer les pièces justificatives numériques
 
 Suivez ces étapes pour activer la fonctionnalité de bon numérique.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramétrer les pièces justificatives numériques**, puis sélectionnez le lien associé.
 2. Cochez la case **Activé**.
 
-## <a name="set-up-digital-vouchers-1"></a>Configuration des pièces justificatives numériques
+## Configuration des pièces justificatives numériques
 
 Vous pouvez utiliser différentes configurations pour les documents et journaux suivants.
 
@@ -48,7 +48,7 @@ Suivez ces étapes pour définir la manière dont votre organisation utilise les
 4. Cochez la case **Générer automatiquement** pour générer automatiquement le bon numérique. Par exemple, si vous ne souhaitez pas ajouter manuellement une facture de vente à votre transaction, cochez cette case. Ensuite, il vous suffit de publier le document. Le système crée automatiquement le document, en fonction de la présentation de votre rapport, et le joint à la transaction.
 5. Sélectionnez le **Ignorer si ajouté manuellement** case à cocher si vous ne souhaitez pas ajouter de bon numérique généré automatiquement si l’utilisateur a déjà ajouté une pièce jointe manuelle.
 
-### <a name="use-source-codes-for-setup"></a>Utiliser les codes sources pour la configuration
+### Utiliser les codes sources pour la configuration
 
 Pour utiliser l’application pour les feuilles, mais pas pour tous les types de transactions, connectez le code source spécifique pour identifier le type d’écriture : feuille comptabilité, feuille ventes ou feuille achats.
 
@@ -58,7 +58,7 @@ Pour configurer des codes sources spécifiques pour les bons numériques, procé
 2. Sur le **Codes sources d’écriture du bon** , sélectionnez les codes sources que vous souhaitez configurer.
 3. Fermez la page.
 
-## <a name="use-the-functionality"></a>Utiliser la fonctionnalité
+## Utiliser la fonctionnalité
 
 Ouvrez un document d’achat ou de vente et saisissez les informations dans les champs obligatoires. Avant de publier le document, vous devez suivre ces étapes pour joindre un bon numérique.
 
@@ -75,13 +75,13 @@ Si vous joignez accidentellement le mauvais bon, suivez ces étapes pour le supp
 > [!NOTE]
 > Si la pièce jointe d’un justificatif numérique est configurée comme obligatoire et que vous essayez de valider des documents ou des feuilles sans joindre un justificatif, le système vous empêche de valider. Vous recevez le message d’erreur suivant : "Impossible de valider sans joindre le bon numérique. »
 
-### <a name="find-attached-vouchers-in-transactions"></a>Rechercher les bons joints dans les transactions
+### Rechercher les bons joints dans les transactions
 
 Vous pouvez trouver le justificatif ci-joint à partir du document publié ou de la page **Écritures comptables** en consultant le Récapitulatif **Fichiers de documents entrants**.
 
 Vous ne pouvez pas supprimer un document joint une fois la publication terminée. Cependant, vous pouvez ajouter d’autres pièces jointes une fois la publication terminée.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion financière](finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

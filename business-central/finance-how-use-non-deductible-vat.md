@@ -4,7 +4,7 @@ description: Cet article explique comment utiliser et déclarer la TVA non dédu
 author: altotovi
 ms.author: altotovi
 ms.reviewer: null
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: 'VAT, non-deductible, return, settlement'
 ms.search.form: '50, 51, 52, 161, 187, 317, 403, 6640, 9401'
@@ -12,11 +12,11 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="use-non-deductible-vat"></a>Utiliser la TVA non déductible
+# Utiliser la TVA non déductible
 
 Cet article explique comment utiliser et déclarer la TVA non déductible.
 
-## <a name="create-a-purchase-invoice-with-non-deductible-vat"></a>Créer une facture achat avec TVA non déductible
+## Créer une facture achat avec TVA non déductible
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.
 2. Sélectionnez **Nouveau** pour créer une facture achat, puis saisissez les informations appropriées dans l’en-tête de la facture.
@@ -27,7 +27,7 @@ Cet article explique comment utiliser et déclarer la TVA non déductible.
 
 5. Validez la facture.
 
-## <a name="create-a-purchase-order-with-non-deductible-vat"></a>Créer une commande achat avec TVA non déductible
+## Créer une commande achat avec TVA non déductible
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Commandes achat**, puis sélectionnez le lien associé.
 2. Sélectionnez **Nouveau** pour créer une commande achat, puis saisissez les informations appropriées dans l’en-tête du document.
@@ -38,7 +38,7 @@ Cet article explique comment utiliser et déclarer la TVA non déductible.
 
 5. Validez la commande achat.
 
-## <a name="adjust-rounded-vat-amounts-before-document-posting"></a>Ajuster les montants de TVA arrondis avant la validation du document
+## Ajuster les montants de TVA arrondis avant la validation du document
 
 Si les montants de TVA ne sont pas arrondis de la même manière dans votre environnement et dans le système comptable externe (le document de la facture d’origine), vous pouvez ajuster le montant de TVA avant de valider le document. Pour effectuer cet ajustement, suivez ces étapes avant de valider le document.
 
@@ -61,7 +61,7 @@ Vous pouvez ajuster les valeurs des champs **Montant TVA** et **Montant TVA non 
 > [!IMPORTANT]
 > Vous ne pouvez pas utiliser la TVA non déductible sur les factures acompte.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion financière](finance.md)
 

@@ -6,7 +6,7 @@ metadata:
   title: Documentation de Microsoft Dynamics 365 Business Central
   description: 'Business Central est une solution de gestion d’entreprise pour les PME. Elle relie les ventes, les services, les finances et les opérations pour travailler plus intelligemment, s’adapter plus rapidement et obtenir de meilleures performances. Business Central automatise et rationalise les processus métier et vous aide à gérer votre entreprise.'
   ms.topic: hub-page
-  ms.service: dynamics365-business-central
+  ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
   ms.date: 06/16/2023

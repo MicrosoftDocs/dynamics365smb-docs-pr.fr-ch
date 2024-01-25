@@ -4,29 +4,29 @@ description: "Découvrez comment configurer un environnement local Business\_Cen
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-op
 ms.topic: how-to
 ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-contact-sync-with-outlook-for-business-central-on-premises"></a>Configurer la synchronisation du contact avec Outlook pour Business Central en local
+# Configurer la synchronisation du contact avec Outlook pour Business Central en local
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Dans cet article, vous apprendrez à configurer [!INCLUDE[prod_short](includes/prod_short.md)] sur site pour synchroniser les contacts dans [!INCLUDE[prod_short](includes/prod_short.md)] avec les contacts dans Outlook. Pour plus d’informations sur la fonctionnalité, accédez à [Synchroniser les contacts dans Business Central avec les contacts dans Microsoft Outlook](admin-synchronize-outlook-contacts.md).
 
-## <a name="introduction"></a>Introduction
+## Introduction
 
 La synchronisation des contacts nécessite l’utilisation du protocole OAuth 2.0 pour l’authentification avec Exchange Online. Auparavant, l’authentification de base était également prise en charge, mais elle est obsolète et n’est plus prise en charge avec Exchange Online. Vous pouvez en savoir plus sur l’obsolescence sur [Abandon de l’authentification de base dans Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). Cette modification signifie que la synchronisation des contacts dans Business Central peut avoir cessé de fonctionner sur votre environnement local. Cet article vous expliquera comment le faire fonctionner à nouveau.
 
-## <a name="prerequisites"></a>Conditions préalables
+## Conditions préalables
 
 - Exchange Online, en version autonome ou via Microsoft 365 plan  
 - Accès au locataire Microsoft Entra utilisé par Exchange Online
 - Les utilisateurs [!INCLUDE[prod_short](includes/prod_short.md)] disposent d’un Microsoft 365 ou Exchange Online compte de messagerie, qui est attribué à leurs comptes dans [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez vérifier ce paramètre dans la section **Authentification Microsoft 365** du profil utilisateur dans la liste **Utilisateurs**. 
 
-## <a name="set-up-contact-sync"></a>Configurer la synchronisation des contacts
+## Configurer la synchronisation des contacts
 
 Effectuez les étapes suivantes pour configurer la synchronisation des contacts. Si vous exécutez [!INCLUDE[prod_short](includes/prod_short.md)] Printemps 2019 (v.14), vous devrez effectuer une étape supplémentaire qui modifie le code de l’application ou configure une connexion à Power BI.
 
@@ -61,6 +61,6 @@ Effectuez les étapes suivantes pour configurer la synchronisation des contacts.
 
    Une fois la solution choisie en place, demandez aux utilisateurs d’exécuter la page nouvelle/modifiée ou de [se connecter à Power BI](across-working-with-powerbi.md#connect). Ils ne devront effectuer cette étape qu’une seule fois.
 
-## <a name="next-steps"></a>Étapes suivantes
+## Étapes suivantes
 
 [Synchroniser les contacts de Business Central avec les contacts de Microsoft Outlook](admin-synchronize-outlook-contacts.md)  

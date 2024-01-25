@@ -4,14 +4,14 @@ description: Cet article explique comment configurer les fonctionnalités d’é
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 04/05/2023
 ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, European Union'
 ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077'
 ---
-# <a name="set-up-intrastat-reporting"></a>Paramétrer les états intracommunautaires
+# Paramétrer les états intracommunautaires
 
 Toutes les sociétés de l’Union européenne (UE) doivent déclarer leurs échanges avec les autres pays/régions de l’Union européenne. Les sociétés doivent déclarer les mouvements de marchandises aux autorités statistiques de leur pays/région mensuellement et la déclaration doit être remise aux autorités fiscales. Intrastat est le système de collecte des statistiques du commerce des biens au sein de ces pays/régions. Utilisez un État intracommunautaire pour effectuer des déclarations intracommunautaires périodiques en collectant, enregistrant et déclarant le commerce de biens conformément à la législation locale.
 
@@ -27,7 +27,7 @@ La déclaration des états intracommunautaires est basée sur les réglementatio
 >
 > Lisez l’article sur la configuration et l’utilisation des états intracommunautaires de la version précédente ici : [Configurer et enregistrer un état intracommunautaire](finance-how-setup-report-intrastat-v20.md).
 
-## <a name="enable-the-new-intrastat-experience"></a>Activer la nouvelle expérience d’états intracommunautaires
+## Activer la nouvelle expérience d’états intracommunautaires
 
 Dans la 2è vague de lancement 2022, [!INCLUDE[prod_short](includes/prod_short.md)] inclut une expérience d’échanges intracommunautaires qui fournit des fonctionnalités étendues. Si la nouvelle fonctionnalité d’états intracommunautaires n’est pas activée dans votre environnement, un administrateur peut l’activer manuellement sur la page **Gestion des fonctionnalités**.
 
@@ -44,11 +44,11 @@ Dans la 2è vague de lancement 2022, [!INCLUDE[prod_short](includes/prod_short
     > [!NOTE]
     > Selon l’emplacement de votre entreprise, l’activation de la fonctionnalité décrite ci-dessus sera suffisante. Pour les pays/régions dotés de fonctionnalités spécifiques pour la déclaration des états intracommunautaires, activez l’application d’états intracommunautaires spécifique au pays/à la région en plus de l’extension principale.
 
-## <a name="intrastat-configuration"></a>Configuration des états intracommunautaires
+## Configuration des états intracommunautaires
 
 Avant de pouvoir utiliser les états intracommunautaires, plusieurs configurations doivent être configurées.
 
-### <a name="intrastat-reporting-setup"></a>Paramétrer les états intracommunautaires
+### Paramétrer les états intracommunautaires
 
 Utilisez la page **Paramétrer les états intracommunautaires** pour activer et configurer le comportement par défaut pour les états intracommunautaires. Vous pouvez spécifier si vous devez enregistrer les états intracommunautaires à partir des expéditions (répartitions), des réceptions (arrivées) ou des deux, selon les seuils définis par vos réglementations locales. Vous pouvez également définir des types de transaction par défaut pour les documents classiques et de retour utilisés pour les états de transaction.
 
@@ -92,7 +92,7 @@ Procédez comme suit pour configurer les états intracommunautaires.
 
 6. Dans le raccourci **Numérotation** , saisissez une valeur dans le champ **N° intracommunautaires**.
 
-### <a name="set-up-a-reporting-file"></a>Configurer un fichier de déclaration
+### Configurer un fichier de déclaration
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Définitions d’échange de données** et sélectionnez le lien associé.
 2. Sélectionnez **Nouveau** puis, dans le raccourci **Général**, entrez les informations sur la définition d’échange de données, le type de fichier de données, le séparateur de colonnes, les codeunits associée, XMLport et autres champs selon les besoins.
@@ -115,7 +115,7 @@ Procédez comme suit pour configurer les états intracommunautaires.
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] est livré avec la définition d’échange de données préconfigurée pour les états intracommunautaires pour tous les pays/les régions pour lesquels la traduction a été faite. Pour en savoir plus sur la création d’une définition d’échange de données, consultez [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="set-mandatory-fields-with-the-intrastat-report-checklist"></a>Définir les champs obligatoires avec la liste de contrôle des états intracommunautaires
+### Définir les champs obligatoires avec la liste de contrôle des états intracommunautaires
 
 Dans certains pays/certaines régions, les autorités nécessitent que les états intracommunautaires comprennent, par exemple, le mode d’expédition des achats ou d’autres valeurs lorsque les ventes sont supérieures à un certain seuil.
 
@@ -139,7 +139,7 @@ Pour définir des champs et/ou des valeurs obligatoires sur la page **État intr
 >
 > Soyez prudent lorsque vous configurez des règles de validation, car elles peuvent différer d’un pays/d’une région à l’autre.
 
-## <a name="use-custom-codeunits-in-intrastat-reporting"></a>Utiliser des codeunits personnalisés dans les états intracommunautaires
+## Utiliser des codeunits personnalisés dans les états intracommunautaires
 
 Si vous souhaitez modifier le fonctionnement des états intracommunautaires et que la configuration par défaut ne suffit pas, vous pouvez personnaliser le système en étendant les fonctionnalités standard. Si vous avez besoin de modifier davantage le comportement des états intracommunautaires, vous pouvez développer vos propres codeunits. Lorsque vous créez des codeunits, vous devez apporter des modifications supplémentaires pour les utiliser. Pour configurer le système de manière à utiliser vos propres objets, procédez comme suit.
 
@@ -155,7 +155,7 @@ Si vous souhaitez modifier le fonctionnement des états intracommunautaires et q
 > [!IMPORTANT]
 > Cette ligne doit être vide si vous utilisez les codeunits standard. Vous ne devez créer une ligne et la configurer que si vous avez développé des codeunits personnalisés.
 
-## <a name="other-intrastat-configurations"></a>Autres configurations des états intracommunautaires
+## Autres configurations des états intracommunautaires
 
 Les fiches client et les fiches fournisseur incluent un champ, **Type de partenaire intracommunautaire**, qui a les mêmes valeurs d’option que le champ **Type de partenaire** : 
 
@@ -193,21 +193,21 @@ En plus des options **Paramétrer les états intracommunautaires**, **Définitio
 * **Points d’entrée/sortie** : spécifiez les emplacements dans lesquels vous livrez ou recevez des articles vers ou à partir d’autres pays/régions. Un aéroport est un exemple de point d’entrée ou de sortie. Vous pouvez saisir des points d’entrée et de sortie sur les documents vente et achat sur le raccourci **International**. Ces informations sont copiées à partir des écritures article lorsque vous créez la feuille intracommunautaire.
 * **Unité de mesure supplémentaire** : la quantité de marchandises pour l’état intracommunautaire peut être soit le poids net (en kilogrammes), soit une unité supplémentaire. Si des unités supplémentaires sont requises, vous devez les configurer pour les articles et les immobilisations.
 
-#### <a name="set-up-transport-methods"></a>Configurer les modes de transport
+#### Configurer les modes de transport
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Modes de transport**, puis sélectionnez le lien associé.
 2. Renseignez les informations des champs si nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="set-up-transaction-nature-codes"></a>Configurer les codes nature de transaction
+#### Configurer les codes nature de transaction
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Types de transactions**, puis sélectionnez le lien associé.
 2. Renseignez les informations des champs si nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="other-related-configurations"></a>Autres configurations associées
+### Autres configurations associées
 
 Avant d’utiliser la fonction d’états intracommunautaires, vous devez définir des champs sur les fiches article, immobilisation, client et fournisseur.
 
-#### <a name="item-cards"></a>Fiches article
+#### Fiches article
 
 Suivez ces étapes pour configurer toutes les informations nécessaires aux états intracommunautaires sur les fiches article.
 
@@ -223,7 +223,7 @@ Suivez ces étapes pour configurer toutes les informations nécessaires aux éta
 > [!NOTE]
 > Lorsque vous ajoutez la nomenclature produits à une unité de mesure définie pour l’article, [!INCLUDE [prod_short](includes/prod_short.md)] remplit automatiquement le champ **Unité de mesure supplémentaire** en fonction de la configuration de la nomenclature produits. Vous pouvez modifier la valeur du champ **Unité de mesure supplémentaire** selon les besoins.
 
-#### <a name="set-up-fixed-assets-for-intrastat"></a>Configurer les immobilisations pour les états intracommunautaires
+#### Configurer les immobilisations pour les états intracommunautaires
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Immobilisations**, puis sélectionnez le lien associé.
 2. Sélectionnez l’immobilisation à configurer.
@@ -232,7 +232,7 @@ Suivez ces étapes pour configurer toutes les informations nécessaires aux éta
 > [!NOTE]
 > Vous pouvez utiliser différentes unités de mesure comme unité de mesure supplémentaire. Mais quel que **Code Unité de mesure** que vous choisissiez, sa **Quantité** dans les états intracommunautaires sera toujours 1.
 
-#### <a name="set-up-vendors-for-intrastat"></a>Paramétrer les fournisseurs pour les états intracommunautaires
+#### Paramétrer les fournisseurs pour les états intracommunautaires
 
 Avant de pouvoir inclure un fournisseur dans les états intracommunautaires, saisissez ses informations sur la page **Fiche fournisseur**. Par exemple, spécifiez une valeur **Code pays/région** et une valeur **Numéro d’immatriculation de TVA**.
 
@@ -241,7 +241,7 @@ Avant de pouvoir inclure un fournisseur dans les états intracommunautaires, sai
 3. Sur le raccourci **Intracommunautaire**, dans les champs **Type de trans. par défaut**, **Type de trans. par défaut - Retours**, et **Mode de transport par défaut**, définissez une valeur par défaut pour chaque champ.
 4. Dans le raccourci **Paiements** , dans le champ **Type de partenaire dintracommunautaire** , indiquez si le fournisseur est une personne ou une entreprise.
 
-#### <a name="set-up-customers-for-intrastat"></a>Paramétrer les clients pour les états intracommunautaires
+#### Paramétrer les clients pour les états intracommunautaires
 
 Avant de pouvoir inclure un client dans les états intracommunautaires, saisissez ses informations sur la page **Fiche client**. Par exemple, vous devez spécifier une valeur **Code pays/région** et une valeur **Numéro d’immatriculation de TVA**.
 
@@ -250,22 +250,22 @@ Avant de pouvoir inclure un client dans les états intracommunautaires, saisisse
 3. Sur le raccourci **Intracommunautaire**, dans les champs **Type de trans. par défaut**, **Type de trans. par défaut - Retours**, et **Mode de transport par défaut**, définissez la valeur par défaut pour chaque champ.
 4. Dans le raccourci **Paiements** , dans le champ **Type de partenaire dintracommunautaire** , indiquez si le fournisseur est une personne ou une entreprise.
 
-#### <a name="exclude-items-and-fixed-assets-from-intrastat-reporting"></a>Exclure des articles et des immobilisations d’un état intracommunautaire
+#### Exclure des articles et des immobilisations d’un état intracommunautaire
 
 S’il existe une raison d’exclure un article ou une immobilisation spécifique de l’état intracommunautaire, modifiez l’option sur sa fiche en marquant le champ **Exclure de l’état intracommunautaire**. Utilisez ce champ sur la fiche **Modèle d’article** pour créer davantage d’articles exclus de l’état intracommunautaire. 
 
-##### <a name="exclude-an-item-from-intrastat-reporting"></a>Exclure un article de l’état intracommunautaire
+##### Exclure un article de l’état intracommunautaire
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis sélectionnez le lien associé.
 2. Sélectionnez l’article que vous souhaitez configurer, puis, dans le raccourci **Coût et Comptabilité**, cochez la case **Exclure de l’état intracommunautaire** .
 
-##### <a name="exclude-a-fixed-asset-from-intrastat-reporting"></a>Exclure une immobilisation d’un état intracommunautaire
+##### Exclure une immobilisation d’un état intracommunautaire
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Immobilisations**, puis sélectionnez le lien associé.
 2. Sélectionnez l’immobilisation à configurer.
 3. Dans le raccourci **Intracommunautaire**, cochez la case **Exclure de l’état intracommunautaire**.
 
-#### <a name="set-up-tariff-numbers"></a>Paramétrer les nomenclatures produits
+#### Paramétrer les nomenclatures produits
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Nomenclatures produits**, puis sélectionnez le lien associé.  
 2. Dans la page **Nomenclatures produits**, renseignez les champs comme indiqué dans le tableau suivant.
@@ -283,11 +283,11 @@ S’il existe une raison d’exclure un article ou une immobilisation spécifiqu
 > 
 > Lorsque vous ajoutez une nomenclature produits qui a une valeur **unité de mesure** définie à l’article, [!INCLUDE [prod_short](includes/prod_short.md)] ajoute automatiquement une nouvelle unité de mesure à la valeur **Unités article** de l’article. La valeur **Qté. par unité de mesure** est basée sur le champ **Précision arrondi quantité**.
 
-## <a name="enter-countryregion-intrastat-settings"></a>Saisir les paramètres intracommunautaires spécifiques au pays/à la région
+## Saisir les paramètres intracommunautaires spécifiques au pays/à la région
 
 Les exigences intracommunautaires sont similaires dans tous les États membres de l’UE, bien qu’il existe des exceptions importantes. En théorie, les règles devraient être appliquées uniformément dans tous les États membres. Cependant, il existe des différences dans leur application car certains États membres fournissent des directives quant à l’application des principes dans des situations particulières (par exemple, les échantillons commerciaux et les retours de marchandises). Ces directives peuvent produire des résultats différents pour diverses situations. Par conséquent, les informations que les pays/régions doivent saisir peuvent différer, tout comme le format de fichier qu’ils doivent utiliser pour les états.
 
-### <a name="austria"></a>Autriche
+### Autriche
 
 Les états intracommunautaires en Autriche nécessitent deux fichiers différents pour les réceptions et les expéditions. Pour vérifier que votre configuration est correcte, procédez comme suit.
 
@@ -299,11 +299,11 @@ Le processus de travail avec les états intracommunautaires est le même que cel
 
 <!-- ### Belgium-->
 
-### <a name="czech-republic"></a>République tchèque
+### République tchèque
 
 La nouvelle expérience d’états intracommunautaires pour la République tchèque sera disponible dans la 1e vague de lancement 2023. En attendant, continuez à utiliser la fonctionnalité **Feuille intracomm.**.
 
-### <a name="finland"></a>Finlande
+### Finlande
 
 En Finlande, il y a quelques étapes supplémentaires pour configurer les états intracomm. Les états intracommunautaires en Finlande nécessitent deux fichiers différents pour les réceptions et les expéditions. Vous constaterez également qu’il existe deux valeurs **Code déf. échge données** configurées.
 
@@ -321,13 +321,13 @@ Le processus de travail avec les états intracomm. est le même que la fonctionn
 
 <!-- ### Germany-->
 
-### <a name="italy"></a>Italie
+### Italie
 
 Une nouvelle expérience des états intracommunautaires pour l’Italie sera disponible à partir de février 2023. En attendant, continuez à utiliser la fonctionnalité **Feuille intracomm.**.
 
 <!-- ### France-->
 
-### <a name="sweden"></a>Suède
+### Suède
 
 Les états intracommunautaires en Suède nécessitent deux fichiers différents pour les réceptions et les expéditions. Pour vérifier que votre configuration est correcte, procédez comme suit.
 
@@ -338,7 +338,7 @@ Le processus de travail avec les états intracommunautaires est le même que dan
 
 <!-- ### United Kingdom-->
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Génération d’état intracommunautaire dans Business Central](finance-how-report-intrastat.md)  
 [Gestion financière](finance.md)  

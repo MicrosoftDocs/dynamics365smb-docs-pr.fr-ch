@@ -3,19 +3,19 @@ title: Créer une gamme
 description: Procédure pas à pas pour apprendre à saisir manuellement toutes les informations relatives à une nouvelle gamme dans Business Central.
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
-# <a name="walkthrough-create-a-new-routing"></a>Procédure pas à pas : Créer une gamme
+# Procédure pas à pas : Créer une gamme
 
 Dans cet article, nous vous expliquons comment utiliser les données de démonstration Contoso Coffee pour configurer manuellement une nouvelle gamme de production dans [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="scenario"></a>Scénario
+## Scénario
 
 Oscar, l’ingénieur de processus chez Contoso Coffee, décide de créer une gamme nommée *Nouveau chemin*. Étant donné que cette gamme ne ressemble à aucune autre chez Contoso Coffee, Oscar doit saisir manuellement toutes les informations relatives à la gamme.  
 
-## <a name="steps"></a>Étapes
+## Étapes
 
 1. Créez l’en-tête de la gamme.  
 
@@ -54,6 +54,6 @@ Oscar, l’ingénieur de processus chez Contoso Coffee, décide de créer une ga
 
 La nouvelle gamme est maintenant configurée.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Introduction aux données de démonstration Contoso Coffee](../contoso-coffee-intro.md)  

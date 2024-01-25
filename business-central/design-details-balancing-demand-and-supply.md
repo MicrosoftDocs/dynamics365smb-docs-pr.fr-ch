@@ -4,12 +4,12 @@ description: Cet article décrit comment hiérarchiser les objectifs en équilib
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 12/15/2022
 ms.custom: bap-template
 ---
-# <a name="design-details-balancing-supply-and-demand"></a>Détails de conception : équilibrage de la demande et de l’offre
+# Détails de conception : équilibrage de la demande et de l’offre
 
 Pour comprendre le fonctionnement du système de planification, il est important de comprendre ses objectifs prioritaires :  
 
@@ -18,7 +18,7 @@ Pour comprendre le fonctionnement du système de planification, il est important
 
 En général, ces objectifs sont atteints en équilibrant l’offre avec la demande.  
 
-## <a name="supply-and-demand"></a>Offre et demande
+## Offre et demande
 
 Le terme *offre* fait référence à tout type de quantité positive ou entrante, telle que :
 
@@ -46,7 +46,7 @@ Lorsque les profils de stock sont chargés, les ensembles demande-approvisionnem
 
 Les niveaux de stock et les paramètres de planification sont d’autres types d’offre et de demande. Ces types subissent un équilibrage intégré pour réapprovisionner les articles en stock. Pour plus d’informations, consultez [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md).
 
-## <a name="the-concept-of-balancing-in-brief"></a>Le concept d’équilibrage en bref
+## Le concept d’équilibrage en bref
 
 La demande vient de vos clients. L’approvisionnement est ce que vous créez et supprimez pour établir l’équilibre. Le système de planification commence avec la demande et effectue une traçabilité en amont jusqu’à l’approvisionnement.  
 
@@ -56,7 +56,7 @@ L’objectif de la planification est d’équilibrer l’offre et demande d’un
 
 :::image type="content" source="media/nav_app_supply_planning_2_balancing.png" alt-text="Vue d’ensemble de l’équilibrage de l’offre et demande.":::
 
-## <a name="process-orders-before-the-planning-start-date"></a>Traiter les commandes avant la date de début de la planification
+## Traiter les commandes avant la date de début de la planification
 
 Pour éviter qu’un plan d’approvisionnement n’affiche des suggestions déraisonnables, le système de planification ne planifiera rien dans la période précédant la date de début de la planification. La règle suivante s’applique à cette période :
 
@@ -70,11 +70,11 @@ Pour éviter qu’un plan d’approvisionnement n’affiche des suggestions dér
 
 Si le stock disponible d’origine est inférieur à zéro, le système de planification suggère une commande approvisionnement d’urgence la veille de la période de planification pour couvrir la quantité manquante. Par conséquent, le stock disponible et projeté est toujours au moins à zéro lorsque la planification de la période future commence. La ligne planning de cette commande approvisionnement affiche une icône d’avertissement Urgence et fournit des informations supplémentaires.
 
-### <a name="serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period"></a>Les numéros de série et de lot et les liens ordre pour ordre sont exempts de la période précédente.
+### Les numéros de série et de lot et les liens ordre pour ordre sont exempts de la période précédente.  
 
 Si des numéros de série ou de lot sont requis ou si un lien ordre pour ordre existe, le système de planification ne tient pas compte de la règle relative à la période précédente. Il inclura des quantités antidatées à partir de la date de début et pourrait suggérer des actions correctives si l’offre et la demande ne sont pas synchronisées. Ces ensembles demande-offre doivent correspondre pour s’assurer qu’une demande spécifique est satisfaite.
 
-## <a name="load-inventory-profiles"></a>Charger les profils de stock
+## Charger les profils de stock
 
 Pour trier les sources de demande et d’offre, le système de planification les organise sur deux chronologies appelées profils de stock.  
 
@@ -98,7 +98,7 @@ Généralement le système de planification tient compte de toutes les commandes
 
 Outre le chargement des types d’offre et de demande, certains types sont chargés en fonction de règles et de dépendances spéciales. Les sections suivantes de cet article décrivent ces règles et dépendances.  
 
-### <a name="item-dimensions-are-separated"></a>Les dimensions d’article sont distinctes
+### Les dimensions d’article sont distinctes  
 
 Le programme d’approvisionnement doit être calculé pour chaque combinaison des dimensions d’article, comme la variante et le magasin. Seules les combinaisons contenant une demande et/ou un approvisionnement doivent être calculées.  
 
@@ -107,7 +107,7 @@ Le système de planification recherche des combinaisons dans le profil d’inven
 > [!NOTE]  
 > Vous n’avez pas besoin d’entrer un enregistrement de point de stock lorsque vous entrez une offre et/ou une demande pour une combinaison particulière de variante et d’emplacement. Par conséquent, si un point de stock n’existe pas pour une combinaison donnée, [!INCLUDE [prod_short](includes/prod_short.md)] crée un enregistrement provisoire de point de stock basé sur les données de l’article. Si le bouton à bascule **Emplacement obligatoire** est activé sur la **page Paramètres stock**, vous devez soit créer un point de stock, soit activer le bouton à bascule **Composants à l’emplacement**. Learn more at [Planification avec/sans magasin](production-planning-with-without-locations.md).  
 
-### <a name="serial-and-lot-numbers-are-loaded-by-specification-level"></a>Les numéros de série et de lot sont chargés en fonction du niveau de détail
+### Les numéros de série et de lot sont chargés en fonction du niveau de détail  
 
 Les numéros de série et de lot sont chargés dans le profil de stock avec l’offre et la demande auxquels ils sont affectés.  
 
@@ -122,7 +122,7 @@ Une autre raison pour laquelle l’approvisionnement à numéros de série et de
 
 L’équilibrage des numéros de série et de lot ne respecte pas la règle qui consiste à ne rien planifier avant la date de début de la planification. Si l’offre et la demande ne sont pas synchronisés, le système de planification proposera des modifications ou de nouvelles commandes, quelle que soit la date de début de la planification.  
 
-### <a name="order-to-order-links-are-never-broken"></a>Les liens ordre pour ordre ne sont jamais rompus
+### Les liens ordre pour ordre ne sont jamais rompus
 
 Lors de la planification d’un article ordre pour ordre, l’approvisionnement lié ne doit être utilisé que pour ce à quoi il était prévu à l’origine. La demande liée ne doit être couverte par aucune autre offre, même si l’offre est disponible en temps et en quantité. Par exemple, vous ne pouvez pas utiliser un ordre d’assemblage lié à une commande vente dans un scénario Assembler pour commande pour couvrir une autre demande.  
 
@@ -136,17 +136,17 @@ Cet équilibre affecte également le temps. L’horizon limité accordé par l�
 > [!NOTE]  
 > Les prévisions ne doivent pas entraîner la création de commandes approvisionnement liées par un lien ordre pour ordre. Si la prévision est utilisée, elle doit être utilisée comme générateur d’une demande dépendante dans un environnement de fabrication.
 
-### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Le besoin composant est chargé en fonction des modifications d’ordre de fabrication
+### Le besoin composant est chargé en fonction des modifications d’ordre de fabrication
 
 Lors de la gestion des ordres de fabrication, le système de planification doit contrôler les composants nécessaires avant de les charger dans le profil de demande. Les lignes composant qui résultent d’un ordre de fabrication modifié remplaceront les lignes de la commande originale. La modification garantit que le système de planification ne duplique pas les lignes planning pour un besoin de composant.  
 
-### <a name="consume-safety-stock"></a>Consommer le stock de sécurité
+### Consommer le stock de sécurité
 
 Le stock de sécurité est une demande qui est chargée dans le profil de stock à la date de début de la planification.  
 
 Le stock de sécurité est une quantité en stock mise de côté pour compenser les incertitudes de la demande pendant le réapprovisionnement. Cependant, il peut être consommé pour répondre à une demande. Dans ce cas, le système de planification veillera à ce que le stock de sécurité soit rapidement remplacé. Le système propose une commande approvisionnement pour réapprovisionner la quantité du stock de sécurité à la date à laquelle elle est consommée. La ligne planning affiche une icône d’avertissement Exception qui indique que le stock de sécurité est partiellement ou entièrement consommé via une commande d’exception de la quantité manquante.  
 
-### <a name="forecast-demand-is-reduced-by-sales-orders"></a>La prévision de demande est réduite par les commandes vente
+### La prévision de demande est réduite par les commandes vente
 
 les prévisions de demande expriment une future demande anticipée. Lorsqu’une demande réelle est saisie, généralement comme commandes vente pour les articles produits, elle consomme la prévision.
 
@@ -163,13 +163,13 @@ La prévision peut concerner différents types de demande :
 
 Un article peut avoir deux types de prévision. Lors de la planification, la consommation a lieu séparément, d’abord pour une demande indépendante puis pour une demande dépendante.  
 
-### <a name="blanket-order-demand-is-reduced-by-sales-orders"></a>La demande de commande cadre est réduite par les commandes vente
+### La demande de commande cadre est réduite par les commandes vente
 
 Des prévisions sont renseignées par les commandes cadres vente comme moyen de spécifier une future demande pour un client spécifique. Comme pour la prévision (non spécifiée), les ventes réelles doivent consommer la demande prévue, et la quantité restante doit être entrée dans le profil du stock de demande. La consommation ne réduit pas la quantité de la commande cadre.
 
 Le calcul de planification tient compte des commandes vente ouvertes liées à la ligne spécifique de la commande cadre, mais ne comprend aucune période valide. Elle ne prend pas non plus en compte les commandes validées, parce que la procédure de validation a déjà réduit la quantité restante de la commande cadre.
 
-## <a name="prioritize-orders"></a>Hiérarchisation des commandes
+## Hiérarchisation des commandes
 
 Dans un point de stock donné, la date demandée ou disponible représente la priorité la plus élevée. La demande d’aujourd’hui devrait être traitée avant la demande de la semaine prochaine. Mais, en plus de cette priorité globale, le système de planification fera les suggestions suivantes en fonction des priorités d’ordre :
 
@@ -178,7 +178,7 @@ Dans un point de stock donné, la date demandée ou disponible représente la pr
 
 L’offre et la demande chargées contribuent à un profil pour le stock prévisionnel en fonction des priorités.  
 
-### <a name="priorities-on-the-demand-side"></a>Priorités du côté de la demande
+### Priorités du côté de la demande  
 
 1. Déjà expédié : écriture comptable article  
 2. Retour commande achat  
@@ -193,7 +193,7 @@ L’offre et la demande chargées contribuent à un profil pour le stock prévis
 > [!NOTE]  
 > Les retours achat ne sont généralement pas impliqués dans la planification d’approvisionnement ; ils doivent toujours être réservés à partir du lot qui va être retourné. S’il ne sont pas réservés, les retours achat jouent un rôle dans la disponibilité et sont classés en priorité élevée pour éviter que le système de planification ne suggère une commande approvisionnement uniquement pour servir un retour achat.  
 
-### <a name="priorities-on-the-supply-side"></a>Priorités du côté de l’approvisionnement
+### Priorités du côté de l’approvisionnement  
 
 1. Déjà dans le stock : écriture comptable article (Flexibilité planification = Aucune)  
 2. Retour vente (flexibilité de planification = aucune)  
@@ -202,7 +202,7 @@ L’offre et la demande chargées contribuent à un profil pour le stock prévis
 5. Ordre d’assemblage  
 6. Commande achat  
 
-### <a name="priority-related-to-the-state-of-supply-and-demand"></a>Priorité liée à l’état de l’offre et de la demande
+### Priorité liée à l’état de l’offre et de la demande  
 
 En plus des priorités du type d’offre et de demande, il y a d’autres choses qui affectent la flexibilité de la planification. Par exemple, les activités de l’entrepôt et le statut des commandes suivantes :
 
@@ -220,7 +220,7 @@ Le statut de ces commandes a les effets suivants :
 4. Ordre de fabrication planifié ferme (flexibilité de planification = illimitée)  
 5. Planifié/ouvert - tous types de commande (flexibilité de planification = illimitée)
 
-## <a name="balancing-supply-with-demand"></a>Équilibrage de l’offre et de la demande
+## Équilibrage de l’offre et de la demande
 
 Le système de planification équilibre l’offre et la demande en suggérant des actions pour réviser les commandes approvisionnement qui ne sont pas équilibrées. Cet équilibre se produit pour chaque combinaison de variante et d’emplacement.  
 
@@ -254,7 +254,7 @@ Chaque événement fait référence à son type origine et à son identification
 
  La procédure recommence à la demande suivante et à l’approvisionnement actif ou vice versa. L’approvisionnement actif peut peut-être couvrir cette demande suivante également, ou la demande actuelle n’a pas encore été entièrement couverte.  
 
-### <a name="rules-for-actions-for-supply-events"></a>Règles concernant les actions pour les événements d’approvisionnement
+### Règles concernant les actions pour les événements d’approvisionnement
 
 Pour les calculs descendants dans lesquels l’offre doit répondre à la demande, la demande est considérée comme une donnée. Elle échappe au contrôle du système de planification. Cependant, le système de planification peut gérer le côté approvisionnement et fera les suggestions suivantes :
 
@@ -297,7 +297,7 @@ En général, tous les approvisionnements ont une flexibilité de planification 
 * **Annuler** : comme un incident spécial de l’action de diminuer la quantité, la commande approvisionnement peut être annulée si elle a été diminuée à zéro. 
 * **Nouveau** : si aucune commande approvisionnement n’existe déjà, ou si une commande existante ne peut pas être modifiée pour satisfaire la quantité nécessaire à la date d’échéance de la demande, une nouvelle commande approvisionnement est suggérée.  
 
-### <a name="determine-the-supply-quantity"></a>Déterminer la quantité d’approvisionnement
+### Déterminer la quantité d’approvisionnement  
 
 Vous définissez les paramètres de planification qui contrôlent la quantité suggérée de chaque commande approvisionnement.  
 
@@ -311,7 +311,7 @@ La quantité proposée peut être modifiée selon cette séquence :
 2. Augmenter jusqu’à la quantité de commande minimale.  
 3. Augmenter jusqu’à répondre à la commande multiple la plus proche.
 
-### <a name="order-tracking-links-during-planning"></a>Liens de chaînage dynamique lors de la planification
+### Liens de chaînage dynamique lors de la planification  
 
 Pour le chaînage dynamique pendant la planification, le système de planification réorganise les liens de chaînage dynamique pour les combinaisons d’articles, de variantes et d’emplacements. Le système réorganise les liens de chaînage dynamique pour les raisons suivantes :
 
@@ -325,7 +325,7 @@ Avant d’équilibrer l’offre par la demande, le système de planification sup
 > [!NOTE]  
 > Même si l’article n’est pas configuré pour le chaînage dynamique, le système de planification crée des liens de chaînage équilibrés.
 
-## <a name="close-balanced-supply-and-demand"></a>Offre et demande proches de l’équilibre
+## Offre et demande proches de l’équilibre
 
 L’équilibrage de l’offre a trois résultats possibles :
 
@@ -335,7 +335,7 @@ L’équilibrage de l’offre a trois résultats possibles :
 
 Enfin, le système de planification crée un lien de chaînage entre l’approvisionnement et la demande.  
 
-### <a name="create-the-planning-line-suggested-action"></a>Création de la ligne planning (action suggérée)
+### Création de la ligne planning (action suggérée)  
 
 Si une action quelconque **Nouveau**, **Changer qté**, **Replanifier**, **Replanifier et changer qté** ou **Annuler** est suggérée pour modifier la commande approvisionnement, le système de planification crée une ligne planning dans la feuille planning. Pour le chaînage dynamique, la ligne planning est créée non seulement lorsque l’événement d’approvisionnement est clôturé, mais également si l’événement de demande est clôturé. Cela est vrai même si l’événement d’approvisionnement est toujours ouvert et peut être modifié lors du traitement de l’événement de demande suivant. La ligne planning peut être à nouveau modifiée lors de sa création.
 
@@ -345,7 +345,7 @@ Pour réduire la charge sur la base de données lors du traitement des ordres de
 * Inclure la gamme : la gamme planifiée inclut le calcul des dates et heures de début et de fin. « Inclure la gamme » est exigeant en termes d’accès aux bases de données. Pour déterminer les dates de fin et d’échéance, il peut être nécessaire de calculer la gamme même si l’événement d’approvisionnement n’a pas été clôturé. Par exemple, si vous effectuez une planification en aval.  
 * Inclure l’éclatement de la nomenclature : ceci se produit juste avant que l’événement approvisionnement ne soit clôturé.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)  
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)  
