@@ -5,6 +5,7 @@ metadata:
   ms.topic: faq
   author: brentholtorf
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: FAQ Facturation électronique
 summary: "Le service d’échange de documents intégré soumet les factures électroniques à TradeShift, fournisseur de services qui relaie les factures électroniques aux destinataires PEPPOL ou NemHandel. Mais le service prend en charge un nombre limité de versions.   \n\nCette FAQ répond à certaines des questions clés sur la facturation électronique.  \n\n> [!NOTE]\n> Cette page FAQ n’est pas liée à la nouvelle application Documents électroniques disponible dans la 2e\_vague de lancement\_2023. Pour en savoir plus sur la nouvelle fonctionnalité, consultez la [Présentation des documents électroniques](finance-edocuments-overview.md).  \n"
 sections:

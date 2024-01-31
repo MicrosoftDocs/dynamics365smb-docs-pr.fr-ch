@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Étant donné que les sociétés opérent dans un nombre croissant de pays/régions, il devient essentiel qu’elles puissent échanger et générer des informations financières dans plusieurs devises. La devise société (DS) est définie sur la page **Paramètres comptabilité** comme décrit dans l’article [Comprendre la comptabilité et le plan comptable](../finance-general-ledger.md). Une fois la devise société (DS) définie, elle sera représentée en tant que devise vide. Ainsi, lorsque le champ **Devise** est vide, cela signifie que la devise est DS.  
 

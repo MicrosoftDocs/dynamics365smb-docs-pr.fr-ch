@@ -3,18 +3,17 @@ title: "Procédure\_: créer manuellement des relances livraison [CH]"
 description: 'Dans Business Central, vous pouvez créer manuellement des relances livraison lorsqu''un achat n''a pas été livré comme prévu.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 11/16/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-delivery-reminders-manually-in-the-swiss-version"></a>Créer manuellement des relances livraison dans la version suisse
+# Créer manuellement des relances livraison dans la version suisse
 
 [!INCLUDE [delivery-reminders-create-manually](../includes/ATCHDE/delivery-reminders-create-manually.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Relances livraison](delivery-reminders.md)  
 [Génération des relances livraison](how-to-generate-delivery-reminders.md)  

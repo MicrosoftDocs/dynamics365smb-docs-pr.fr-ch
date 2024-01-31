@@ -1,1 +1,4 @@
+---
+ms.service: dynamics-365-business-central
+---
 <blockquote STYLE="background: #81BEF7;border-left:None"><b>AVANCÉ</b><br />Cette fonctionnalité est uniquement disponible dans l’expérience avancée. Pour plus d’informations, voir [Personnalisation de votre expérience Business Central](../ui-experiences.md) </blockquote>

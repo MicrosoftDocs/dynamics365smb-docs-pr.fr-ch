@@ -3,14 +3,13 @@ title: "Procédure\_: créer des états avec XBRL"
 description: XBRL est basé sur le langage XML et est utilisé pour marquer des données financières et permettre aux sociétés de traiter et de partager leurs données de manière efficace et précise.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/14/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-reports-with-xbrl"></a>Création d’états avec XBRL
+# Création d’états avec XBRL
 
 > [!NOTE]
 > Nous sommes en train de supprimer les fonctionnalités de création de rapports XBRL de [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, consultez [Modifications dans la 1re vague de lancement 2022](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
@@ -29,13 +28,13 @@ XBRL (e**X**tensible **B**usiness **R**eporting **L**anguage) est basé sur le l
 >
 > La prise en charge complète des taxonomies peut nécessiter un marquage XBRL et des outils tiers. L’organisation XBRL International dispose d’une liste d’outils et de services ; en fonction des exigences de génération de rapports XBRL pour une taxonomie donnée, vous souhaiterez peut-être explorer ces ressources. Pour plus d’informations, consultez [Mise en route pour les affaires](https://go.microsoft.com/fwlink/?linkid=2153466) et [Outils et services](https://go.microsoft.com/fwlink/?linkid=2153356).
 
-## <a name="extensible-business-reporting-language"></a>Langage XBRL (eXtensible Business Reporting Language)
+## Langage XBRL (eXtensible Business Reporting Language)
 
 Les taxonomies XBRL sont tenues à jour par le site www.xbrl.org. Pour télécharger des taxonomies et pour obtenir plus d’informations, reportez-vous au site Web de XBRL.  
 
 Imaginons que quelqu’un veut des informations financières de votre part. Cette personne vous fournit une taxonomie (au format XML) contenant un ou plusieurs schémas, chacun comportant un certain nombre de lignes à renseigner. Ces lignes correspondent aux données financières requises par l’expéditeur. Vous devez importer cette taxonomie, puis remplir les schémas en saisissant le ou les comptes correspondant à chaque ligne et calcul souhaité, par exemple le solde période ou le solde au. Dans certains cas, vous devez saisir une constante, comme le nombre d’employés. Vous pouvez alors renvoyer le document instancié (au format XML) au demandeur. Ainsi, pour les demandes d’informations récurrentes, et à moins que la taxonomie n’ait été modifiée, vous pouvez simplement exporter sur demande de nouveaux documents instanciés correspondant à de nouvelles périodes.
 
-## <a name="xbrl-comprises-the-following-components"></a>Le langage XBRL contient les composants suivants :
+## Le langage XBRL contient les composants suivants :
 
 La **spécification** XBRL explique le principe du langage XBRL, et indique comment créer des documents instanciés XBRL et des taxonomies XBRL. La spécification XBRL présente le langage XBRL en termes techniques et est destinée à des spécialistes.  
 
@@ -47,11 +46,11 @@ Une **taxonomie** XBRL est une « terminologie » ou un « dictionnaire » 
 
 Un **document instancié** XBRL est un rapport financier, par exemple un état financier, préparé conformément à la spécification XBRL. La taxonomie donne la signification des valeurs qui apparaissent dans les documents instanciés. En fait, un document instancié a peu d’utilité si vous ignorez la taxonomie qui a servi à le préparer.  
 
-## <a name="layered-taxonomies"></a>Taxonomies multicouches
+## Taxonomies multicouches
 
 Une taxonomie peut consister en une taxonomie de base, par exemple US GAAP (principes comptables généralement reconnus aux États-Unis) ou IAS (normes comptables internationales), puis avoir une ou plusieurs extensions. Ce type de taxonomie illustre cette structure en se référant à des schémas représentant chacun une taxonomie différente. Lorsque les taxonomies supplémentaires sont chargées dans la base de données, les nouveaux éléments sont simplement ajoutés à la suite des éléments existants.  
 
-## <a name="linkbases"></a>Liens ressources
+## Liens ressources
 
 Dans la spécification 2 du langage XBRL, la taxonomie est décrite dans plusieurs fichiers XML. Le fichier XML principal est le fichier schéma de la taxonomie (fichier .xsd), qui ne contient qu’une liste désordonnée d’éléments ou d’informations à communiquer. Des liens ressources (fichiers .xml) y sont généralement associés. Les liens ressources contiennent des données complémentaires à la taxonomie brute (fichier .xsd). Il existe six types de lien ressources, dont quatre concernent [!INCLUDE[prod_short](includes/prod_short.md)]. Il s’agit des types suivants :
 
@@ -60,7 +59,7 @@ Dans la spécification 2 du langage XBRL, la taxonomie est décrite dans plusie
 * Lien ressources calcul : ce lien ressources fournit des informations sur les relations qui unissent les éléments. Sa structure est très semblable à celle du lien ressources présentation, mais chaque lien ou « arc » est pondéré. Un lien peut avoir un poids de 1 ou de –1, selon que l’élément doit être ajouté à son parent ou soustrait de ce dernier. Les relations ne sont pas nécessairement conformes à la représentation visuelle de la taxonomie.  
 * Lien ressources de référence : ce lien ressources est un fichier xml contenant des informations supplémentaires sur les données requises par le créateur de la taxonomie.
 
-## <a name="set-up-xbrl-lines"></a>Configurer les lignes XBRL
+## Configurer les lignes XBRL
 
 Une fois que vous avez importé ou mis à jour la taxonomie, les lignes des schémas doivent être renseignées à l’aide des informations requises pour répondre aux exigences spécifiques des états financiers. Ces informations incluent les données de base sur la société, les états financiers actuels, les notes ajoutées aux états financiers, les tableaux d’analyse supplémentaires, etc.  
 
@@ -83,7 +82,7 @@ Pour configurer les lignes XBRL, mappez les données de taxonomie aux données 
    > [!NOTE]  
    > Les taxonomies peuvent contenir des éléments non compatibles avec [!INCLUDE[prod_short](includes/prod_short.md)]. Si un élément n’est pas pris en charge, le champ **Type de Source** affichera **Non applicable** et le champ **Description** affichera un message d’erreur, tel que **Type inattendu : « type spécifique non reconnu »**. Si vous devez exporter l’élément, choisissez un type de source correspondant. En règle générale, il s’agit d’une constante ou d’une description. Cela vous permettra d’entrer et d’exporter des données, cependant, ces éléments peuvent avoir des règles de validation qui ne peuvent pas être vérifiées avant l’exportation.
 
-## <a name="import-an-xbrl-taxonomy"></a>Importer une taxonomie XBRL
+## Importer une taxonomie XBRL
 
 Lorsque vous utilisez la fonctionnalité XBRL, la première étape consiste à importer la taxonomie correspondante dans la base de données de votre société. Une taxonomie est composée d’un ou de plusieurs schémas, et de liens ressources. Une fois l’import des schémas et des liens ressources effectué, et une fois les liens ressources appliqués aux schémas, vous pouvez configurer les lignes et associer les comptes généraux du plan comptable aux lignes taxonomie appropriées.  
 
@@ -102,7 +101,7 @@ Lorsque vous utilisez la fonctionnalité XBRL, la première étape consiste à 
 > [!IMPORTANT]  
 > Au lieu d’appliquer individuellement les liens de ressources après l’importation, attendez que tous les liens de ressources soient importés avant de les appliquer simultanément. Pour cela, sélectionnez **NON** lorsque vous êtes invité(e) à appliquer le lien ressources récemment importé au schéma. Sélectionnez les lignes avec les liens de ressources à appliquer.  
 
-## <a name="update-an-xbrl-taxonomy"></a>Mettre à jour une taxonomie XBRL
+## Mettre à jour une taxonomie XBRL
 
 Lorsqu’une taxonomie est modifiée, vous devez mettre à jour la taxonomie actuelle en conséquence. Une mise à jour est nécessaire en cas de modification d’un schéma ou d’un lien ressources, ou en cas de création d’un nouveau lien ressources. Une fois la taxonomie mise à jour, il vous suffit d’ associer les lignes modifiées ou les nouvelles lignes.  
 
@@ -114,7 +113,7 @@ Lorsqu’une taxonomie est modifiée, vous devez mettre à jour la taxonomie act
 6. Pour importer le lien de ressources, sélectionnez l’action **Importer**.  
 7. Sélectionnez **Oui** pour appliquer le lien ressources au schéma.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Business Intelligence financière](bi.md)  
 [Finances](finance.md)  

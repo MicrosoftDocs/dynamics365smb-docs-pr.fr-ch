@@ -3,6 +3,7 @@ metadata:
   title: FAQ Copier et coller des données
   description: Obtenez des réponses aux questions fréquemment posées sur la copie et le collage de données à partir de champs et de lignes à partir des pages Business Central.
   ms.topic: faq
+  ms.service: dynamics-365-business-central
 title: FAQ sur l’opération Copier et coller
 summary: |
   Vous pouvez copier une ou plusieurs lignes (enregistrements) dans une liste ou un champ unique sur une page, puis collez ce que vous avez copié dans la même page, une autre page, ou un document externe (comme Microsoft Excel et un e-mail Outlook).  

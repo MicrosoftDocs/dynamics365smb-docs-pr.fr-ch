@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/11/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Augmentez l’efficacité dans votre entrepôt avec des informations précises et en temps réel sur les facteurs qui peuvent affecter les quantités disponibles. Par exemple : 
@@ -25,11 +26,11 @@ Les informations respectent également d’autres facteurs qui affectent la disp
 > [!NOTE]
 > Cette fonctionnalité nécessite que vous activiez le bouton bascule **Prélèvement et rangement suggérés** pour les emplacements que vous utilisez dans votre processus de prélèvement.
 
-### <a name="set-up-previews"></a>Configurer les versions préliminaires
+### Configurer les versions préliminaires
 
 Pour obtenir des détails sur ce qui est en cours de prélèvement et ce qui ne l’est pas, activez le bouton bascule **Afficher le résumé (prélèvement et rangement suggérés)** sur les pages de demande **Entrepôt - Origine - Créer document** ou **Entrepôt - Expédition - Créer prélèvement**.
 
-### <a name="determine-the-quantity-you-can-pick"></a>Déterminer la quantité que vous pouvez prélever
+### Déterminer la quantité que vous pouvez prélever
 
 Sur les lignes de la page **Créer résumé prélèvements entrepôt**, le champ **Qté à traiter (base)** indique quels et combien d’articles [!INCLUDE [prod_short](prod_short.md)] a essayé de prélever. Le récapitulatif **Résumé** fournit plus de détails.
 
@@ -56,7 +57,7 @@ L’image suivante illustre la quantité maximale prise en compte pour le prél�
 |B     |Emplacements avec du contenu de type Prélèvement avec mouvement sortant bloqué         |
 |O     |Autres emplacements         |
 
-### <a name="reservations"></a>Réservations
+### Réservations
 
 S’il existe des réservations pour l’article en cours de prélèvement, le calcul continue. L’idée est que la demande réservée a une priorité plus élevée que la demande non réservée, ce qui signifie que le prélèvement pour la demande non réservée ne devrait pas empêcher le prélèvement ultérieure pour la demande réservée.
 
@@ -74,7 +75,7 @@ Ces quantités peuvent être disponibles, mais vous ne pourrez peut-être pas en
 
 La différence entre la **Qté dispo. à l’exclusion de l’emplacement expédition** et la quantité réservée dans l’entrepôt est la quantité disponible pour prélèvement sans impacter le stock réservé.
 
-### <a name="other-details"></a>Autres détails
+### Autres détails
 
 Si les articles nécessitent une traçabilité, vous pouvez également trouver la quantité dans des numéros de lot ou de série bloqués, ce qui entraîne les réductions suivantes :
 

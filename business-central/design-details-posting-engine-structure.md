@@ -3,14 +3,13 @@ title: "Détails de conception\_: structure du moteur de validation"
 description: L’interface de validation utilise des fonctions de moteur de validation pour préparer et insérer l’écriture comptable et les enregistrements d’écriture TVA.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-posting-engine-structure"></a>Détails de conception : Structure du moteur de validation
+# Détails de conception : Structure du moteur de validation
 L’interface de validation et certaines autres fonctions dans le codeunit 12 utilisent des fonctions de moteur de validation pour préparer et insérer l’écriture comptable et les enregistrements d’écriture TVA. Le moteur de validation est également chargé de la création de registre du grand livre.  
   
  Les fonctions du tableau suivant fournissent un cadre standard pour créer les procédures de validation (par exemple le code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, et UnapplyVendLedgEntry et Reverse) et un accès exclusif au tableau 17, G/L Entry.  
@@ -30,7 +29,7 @@ L’interface de validation et certaines autres fonctions dans le codeunit 12 u
 |CreateGLEntryVATCollectAdj|Semblable à CreateGLEntry, mais avec la collection supplémentaire des ajustements et l’enregistrement sur un tampon TVA temporaire :<br /><br /> `CollectAdjustment(AdjAmount,GLEntry.Amount,GLEntry."Additional-Currency Amount",OriginalDateSet);`<br /><br /> `InsertVATEntriesFromTemp(DtldCVLedgEntryBuf,GLEntry);`|  
 |CreateGLEntryFromVATEntry|Semblable à CreateGLEntry, mais copie également les groupes de validation à partir de l’écriture TVA.|  
   
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
  [Détails de conception : Structure de l’interface de validation](design-details-posting-interface-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

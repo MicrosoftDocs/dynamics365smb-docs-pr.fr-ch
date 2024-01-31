@@ -3,20 +3,19 @@ title: 'Réception, rangement, prélèvement et expédition dans une configurati
 description: 'Les processus entrants et sortants peuvent être effectués de différentes manières, en fonction du niveau de complexité de l’entrepôt.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 12/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt avancées
+# Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt avancées
 
 Cette procédure pas à pas montre comment effectuer des flux entrants et sortants dans la configuration avancée : Prélèvement et rangement dirigés. Pour plus d’informations, voir [Présentation des différentes options de configuration](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Conditions préalables
+## Conditions préalables  
 Pour exécuter cette procédure, vous devez faire de vous un magasinier sur le site *BLANC* en procédant comme suit :  
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
 2. Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Utilisateurs**.  
@@ -24,10 +23,10 @@ Pour exécuter cette procédure, vous devez faire de vous un magasinier sur le s
 4. Activez le bouton à bascule **Par défaut**.
 
 
-## <a name="scenario"></a>Scénario
+## Scénario  
 Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transbordement et de réapprovisionnement des emplacements pour accélérer les délais de réception et d’expédition.  
 
-## <a name="steps"></a>Étapes
+## Étapes
 
 1. Créez une expédition entrepôt.  
 
@@ -136,7 +135,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
     4. Confirmez l’option **Expédier**.
 
 
-## <a name="results"></a>Résultats
+## Résultats
 - la **Réception entrepôt enregistrée** est créée
 - le **Rangement entrepôt enreg.** est créé    
 - la **Réceptions achat enregistrées** est créée    
@@ -150,7 +149,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
 
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Recevoir des articles](../../warehouse-how-receive-items.md) 
 [Détails de conception : Flux d’enlogement](../../design-details-inbound-warehouse-flow.md) 
 [Expédier les articles](../../warehouse-how-ship-items.md) 

@@ -3,16 +3,15 @@ title: Utiliser des documents électroniques dans les ventes et achats
 description: Découvrez comment utiliser la fonctionnalité de documents électroniques liée aux factures de vente et d’achat.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice, sales, purchase'
 ms.search.form: '42, 43, 51, 6103, 6133, 6121, 9301, 9305, 9308'
 ms.date: 10/03/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-e-documents-in-sales-and-purchases"></a>Utiliser des documents électroniques dans les ventes et achats
+# Utiliser des documents électroniques dans les ventes et achats
 
 Vous pouvez utiliser des documents électroniques configurés (documents électroniques) avec les documents de vente et d’achat.
 
@@ -35,13 +34,13 @@ Vous pouvez utiliser les documents suivants avec la fonctionnalité des document
 > [!NOTE]
 > Actuellement, une commande fournisseur ne peut être utilisée que lorsque vous créez le document à partir du document électronique de votre fournisseur. Cependant, vous ne pouvez pas mettre à jour le document existant avec les lignes que vous avez obtenues de votre fournisseur.  
 
-## <a name="e-documents-in-sales"></a>Documents électroniques vente
+## Documents électroniques vente
 
 Pour créer et envoyer une facture électronique à un client, vous devez créer et valider la facture vente. Pour en savoir plus sur le processus standard, voir [Facture des ventes](sales-how-invoice-sales.md).
 
 Après avoir validé le document vente, ouvrez la page **Facture vente validée** pour accéder à la page **Document électronique** associée.
 
-### <a name="view-e-documents"></a>Afficher les documents électroniques
+### Afficher les documents électroniques
 
 Pour afficher les documents électroniques existants, procédez comme suit.
 
@@ -50,7 +49,7 @@ Pour afficher les documents électroniques existants, procédez comme suit.
 3. Le champ **Enregistrement** affiche le numéro de document de la facture vente validée. Sélectionnez le lien pour ouvrir le document.
 4. Dans le champ **Statut du document électronique**, vous pouvez afficher le statut en temps réel du document et son emplacement dans le pipeline de processus. Si le document est validé, le statut est défini sur **Traité**.
 
-### <a name="e-document-statuses-and-logs"></a>Journaux et statuts des documents électroniques
+### Journaux et statuts des documents électroniques
 
 Pour plus de détails sur le niveau d’état de service de votre document électronique, consultez le récapitulatif **Statut du service du document électronique**. Sur les lignes, le système affiche un ou plusieurs services utilisés par le document. Dans le scénario le plus courant, chaque document utilise un seul service. Cependant, un document peut utiliser plusieurs services.
 
@@ -74,11 +73,11 @@ S’il y a un problème avec le fournisseur de services et que le document ne pe
 
 Une fois le problème résolu, exécutez manuellement les actions **Envoyer le document**. Si vous avez besoin de différentes actions, telles que **Document recréé**, **Annuler le document**, ou **Obtenir l’approbation**, vous pouvez les exécuter.
 
-## <a name="e-documents-in-purchases"></a>Documents électroniques achat
+## Documents électroniques achat
 
 La réception des factures électroniques achat dans Dynamics 365 Business Central peut être effectuée par lots ou manuellement.
 
-### <a name="run-the-batch-job"></a>Exécuter le traitement par lots
+### Exécuter le traitement par lots
 
 > [!NOTE]
 > Ce traitement par lots est destiné à la collecte automatisée de vos factures entrantes. Cela ne peut fonctionner que dans un pays ou une région où la fonctionnalité existe.
@@ -102,7 +101,7 @@ Il existe deux erreurs courantes :
 
 Après avoir corrigé les erreurs et les avertissements, vous pouvez spécifier manuellement quand le système doit créer une facture achat en fonction de votre configuration en sélectionnant **Créer un document**.
 
-### <a name="manually-import-invoices"></a>Importer manuellement les factures
+### Importer manuellement les factures
 
 Pour importer manuellement des documents électroniques externes, procédez comme suit.
 
@@ -113,7 +112,7 @@ Pour importer manuellement des documents électroniques externes, procédez comm
 5. Lorsque vous avez fini de résoudre les problèmes, dans le groupe **Importer manuellement**, sélectionnez **Créer un document**.
 6. Une fois le document créé dans Business Central, vous pouvez l’afficher comme si vous utilisiez un traitement par lots.
 
-## <a name="overview-of-e-document-statuses"></a>Vue d’ensemble des statuts des documents électroniques
+## Vue d’ensemble des statuts des documents électroniques
 
 Pour obtenir un meilleur aperçu de tous les documents électroniques de l’entreprise, vous pouvez sélectionner le centre de rôles **Comptable** où existent les statuts des documents électroniques. Vous y trouverez des activités de documents électroniques qui ont les statuts suivants :
 
@@ -129,7 +128,7 @@ Pour obtenir un meilleur aperçu de tous les documents électroniques de l’ent
     - En cours
     - Erreur
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Comment configurer des documents électroniques dans Business Central](finance-how-setup-edocuments.md)  
 [Comment étendre des documents électroniques dans Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

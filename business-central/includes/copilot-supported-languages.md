@@ -3,6 +3,7 @@ author: jswymer
 ms.topic: include
 ms.date: 11/01/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 Les suggestions de texte marketing ne sont prises en charge que dans les langues et paramètres régionaux suivants :
 

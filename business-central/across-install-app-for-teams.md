@@ -3,15 +3,14 @@ title: Installer l’application Business Central dans Microsoft Teams
 description: "Comment installer l’application Business\_Central pour Microsoft Teams."
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
 ms.date: 04/12/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="install-the--app-for-microsoft-teams"></a>Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams
+# Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -20,7 +19,7 @@ Dans cet article, vous apprendrez à installer l’appplication [!INCLUDE [prod_
 > [!NOTE]
 > Votre administrateur a peut-être configuré les choses pour que l’application soit automatiquement installée pour vous. Pour vérifier si l’application est installée, ouvrez Teams, puis choisissez **Applications**. Recherchez **Business Central**, puis choisissez-le lorsque vous le trouvez. Si vous voyez **Ouvrir** sur la page **Business Central**, l’application est déjà installée.  
 
-## <a name="prerequisites"></a>Conditions préalables
+## Conditions préalables
 
 - Un compte d’utilisateur [!INCLUDE [prod_short](includes/prod_short.md)] Online est requis pour l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams.
 
@@ -30,7 +29,7 @@ Dans cet article, vous apprendrez à installer l’appplication [!INCLUDE [prod_
 
 - Les stratégies de votre organisation doivent vous permettre d’installer des applications dans Microsoft Teams.
 
-## <a name="add-the-business-central-app-to-teams"></a>Ajouter l’application Business Central à Teams
+## Ajouter l’application Business Central à Teams
 
 Il existe trois façons d’installer l’application Business Central :
 
@@ -67,11 +66,11 @@ Cette option est le moyen le plus rapide d’installer l’application.
 > [!NOTE]
 > Avec l’une ou l’autre option, vous pouvez être invité à vous connecter à [!INCLUDE [prod_short](includes/prod_short.md)]. Sélectionnez le lien **connexion** et suivez les instructions pour saisir le nom de connexion et le mot de passe pour [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="next-step"></a>Étape suivante
+## Étape suivante
 
 Vous êtes maintenant prêt à utiliser l’application dans Teams pour rechercher des contacts ou partager des enregistrements Business Central. Pour plus d’informations, consultez [Recherche de clients, de fournisseurs et d’autres contacts dans Microsoft Teams](across-search-contacts-teams.md) ou [Partager des enregistrements dans Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble de l’intégration de Business Central et Microsoft Teams](across-teams-overview.md)  
 [FAQ Teams](teams-faq.md)  

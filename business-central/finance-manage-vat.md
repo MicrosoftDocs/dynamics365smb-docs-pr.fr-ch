@@ -3,15 +3,14 @@ title: Vue d’ensemble de la gestion de la TVA
 description: Découvrez comment gérer la TVA avec les informations et ressources répertoriées.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: VAT
 ms.search.form: '118, 472, 737, 743'
 ms.date: 01/31/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
-# <a name="vat-management-overview"></a>Vue d’ensemble de la gestion de la TVA
+# Vue d’ensemble de la gestion de la TVA
 La taxe sur la valeur ajoutée (TVA) est un impôt indirect sur la consommation de biens et de services. La TVA est prélevée à chaque étape de la chaîne d’approvisionnement, où une valeur est ajoutée entre la production initiale et le point de vente. Pour vous familiariser avec la gestion de la TVA, reportez-vous aux rubriques suivantes.  
 
 |  Article  |  Désignation  |  
@@ -29,7 +28,7 @@ La taxe sur la valeur ajoutée (TVA) est un impôt indirect sur la consommation 
 | [Validation des n° identif. intracomm.](finance-how-validate-vat-registration-number.md) | Cet article explique comment utiliser la validation par Business Central des numéros d’immatriculation de TVA pour vos contacts, clients et fournisseurs, sur la base du service de validation du numéro d’identification intra-communautaire de l’UE.|
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 [Finance](finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

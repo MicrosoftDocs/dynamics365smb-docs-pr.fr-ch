@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/31/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Le tableau suivant décrit certains des principaux états dans la gestion des stocks et de l’entrepôt.

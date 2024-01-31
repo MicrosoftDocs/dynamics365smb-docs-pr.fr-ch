@@ -6,8 +6,9 @@ ms.topic: conceptual
 ms.search.form: '4,'
 ms.date: 09/05/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-payment-terms"></a>Configuration des conditions de paiement
+# Configuration des conditions de paiement
 
 Les conditions de paiement déterminent la façon dont vous gérez les dates d’échéance et les remises de paiement. Vous pouvez configurer n’importe quel nombre de codes condition de paiement et utiliser des formules date pour définir les conditions de paiement. Lorsque vous vous inscrivez pour la première fois à [!INCLUDE [prod_short](includes/prod_short.md)], la société de démonstration fournit quelques méthodes de paiement que les entreprises utilisent souvent. Vous pouvez cependant en ajouter autant que nécessaire.  
 
@@ -19,7 +20,7 @@ De même, lorsque vous publiez un avoir, [!INCLUDE [prod_short](includes/prod_sh
 
 Si vous souhaitez envoyer à vos clients des rappels de paiements en retard, vous devez configurer des niveaux et des conditions de rappel. Pour en savoir plus sur les rappels, accédez à [Créer des niveaux et conditions de rappel](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a>Pour configurer des conditions de paiement
+## Pour configurer des conditions de paiement
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Conditions de paiement**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -31,7 +32,7 @@ Après avoir configuré les conditions de paiement, affectez-les aux clients et 
 >
 > Dans certains pays/régions, vous *pouvez* mettre en place des conditions de paiement avec des paiements partiels. Pour savoir si cette fonctionnalité est prise en charge dans votre pays/région, accédez à la section **Fonctionnalité locale** dans le sommaire sur le côté gauche d’un article [Microsoft Learn](about-localization.md).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configuration des modes de règlement](finance-payment-methods.md)  
 [Configuration des acomptes](finance-set-up-prepayments.md)  

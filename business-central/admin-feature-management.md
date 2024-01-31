@@ -7,9 +7,10 @@ ms.search.keywords: 'administration, admin, key, optional, feature management, e
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Activer les fonctionnalités inédites et celles à venir à l’avance
+# Activer les fonctionnalités inédites et celles à venir à l’avance
 
 Certaines nouvelles fonctionnalités peuvent être activées à l’avance, vous permettant d’en profiter le plus tôt possible. L’activation précoce des fonctionnalités vous donne le temps de tester et de préparer votre organisation au changement.
 
@@ -17,7 +18,7 @@ Lorsque Microsoft publie des fonctionnalités ou des améliorations de conceptio
 
 En savoir plus sur la [gestion des fonctionnalités](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Fonctionnalités nouvelles et prévues](/dynamics365-release-plan/2021wave1/)  
 

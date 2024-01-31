@@ -8,12 +8,13 @@ ms.topic: conceptual
 ms.search.keywords: 'relationship, prospect'
 ms.date: 12/28/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="process-sales-opportunities"></a>Traiter des opportunités de vente
+# Traiter des opportunités de vente
 
 Une fois que vous avez créé une opportunité, il existe plusieurs fonctionnalités permettant de gérer l’opportunité et de la faire avancer jusqu’à l’achèvement.
 
-## <a name="view-opportunities"></a>Afficher les opportunités
+## Afficher les opportunités
 
 Les opportunités de vente existantes sont disponibles sur la page **Liste des opportunités**. Le tableau suivant décrit les manières d’accéder à la page pour traiter les opportunités de vente.
 
@@ -25,7 +26,7 @@ Les opportunités de vente existantes sont disponibles sur la page **Liste des o
 
 Chacune de ces tâches ouvre la page **Liste des opportunités**.
 
-## <a name="close-opportunities"></a>Clôturer les opportunités
+## Clôturer les opportunités
 
 Vous pouvez clôturer des opportunités lorsque les négociations sont terminées. Quand vous clôturez une opportunité, vous pouvez spécifiez si elle a réussi ou échoué, et préciser les motifs de la clôture. Pour spécifier un motif, vous devez configurer des codes opportunité clôturée.
 
@@ -36,7 +37,7 @@ Vous pouvez clôturer des opportunités lorsque les négociations sont terminée
 
    Dans le champ **Code fin opportunité**, vous pouvez choisir l’un des codes fin opportunité existants ou en ajouter un nouveau. Pour ajouter un nouveau code, dans la liste déroulante, sélectionnez **Sélectionner dans la liste complète**, puis sélectionnez **Nouveau**. Dans la nouvelle ligne vierge, renseignez les champs **Code**, **Type** et **Désignation**, puis cliquez le bouton **OK**.
 
-## <a name="create-quotes-for-opportunities"></a>Créer des devis pour les opportunités
+## Créer des devis pour les opportunités
 
 > [!NOTE]
 > Vous ne pouvez créer des devis de vente qu′à partir d′opportunités dont le type de contact est Société.
@@ -44,7 +45,7 @@ Vous pouvez clôturer des opportunités lorsque les négociations sont terminée
 1. Sur la page **Liste des opportunités**, sélectionnez l’opportunité, puis sélectionner l’action **Créer devis**. La page **Devis** s’affiche.
 2. Renseignez les champs de votre choix.
 
-## <a name="create-sales-orders-for-opportunities"></a>Créer des commandes vente pour les opportunités
+## Créer des commandes vente pour les opportunités
 
 Vous pouvez effectuer des commandes vente à partir des devis que vous avez créés pour vos opportunités. Pour pouvoir créer des commandes vente pour vos contacts, vous devez créer le contact en tant que client. Pour plus d’informations, reportez-vous à [Créer des contacts](marketing-create-contact-companies.md).
 
@@ -54,7 +55,7 @@ Vous pouvez effectuer des commandes vente à partir des devis que vous avez cré
 
 Lorsque vous traitez des opportunités de vente, vous pouvez être amené à créer un devis pour le contact auquel est liée l'opportunité.
 
-## <a name="delete-opportunities"></a>Supprimer opportunités
+## Supprimer opportunités
 
 Vous pouvez supprimer des opportunités, par exemple après avoir conclu un marché. Toutefois, vous pouvez uniquement supprimer des opportunités clôturées. Il existe deux méthodes permettant de supprimer des opportunités clôturées. Vous pouvez supprimer des opportunités clôturées une par une à partir de la page **Liste des opportunités**, ou vous pouvez exécuter le traitement par lots **Supprimer les opportunités** afin de supprimer plusieurs opportunités sur la base de critères spécifiés.
 
@@ -68,7 +69,7 @@ Pour supprimer des opportunités clôturées à l’aide du traitement par lots 
 
 Une fois que supprimez une opportunité, elle ne s’affiche plus sur la page **Liste des opportunités**.
 
-## <a name="move-an-opportunity-through-sales-cycle-stages"></a>Faire avancer une opportunité au fil des étapes du cycle de vente
+## Faire avancer une opportunité au fil des étapes du cycle de vente
 
 Si une opportunité suit un cycle de vente, vous pouvez la faire passer à l’étape suivante ou précédente, et même ignorer une étape.
 
@@ -81,7 +82,7 @@ Si une opportunité suit un cycle de vente, vous pouvez la faire passer à l’�
    * **Mettre à jour** vous permet de modifier les informations (par exemple pour modifier votre évaluation de leurs chances de succès et valeurs estimées) sans passer à une autre étape.
 3. Renseignez autres champs selon vos besoins, puis cliquez sur le bouton **OK**.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Création et gestion des contacts](marketing-contacts.md)  

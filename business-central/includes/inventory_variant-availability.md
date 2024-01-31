@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Lorsque vous ouvrez la page **Dispo. article par variante** à partir d’une ligne document, vous pouvez insérer une variante dans la ligne document en sélectionnant la ligne avec la variante que vous souhaitez insérer, puis en cliquant sur OK. Si vous avez utilisé uniquement la page pour afficher la disponibilité et ne souhaitez pas insérer une variante, vous devez fermer la page sans cliquer sur OK.
 

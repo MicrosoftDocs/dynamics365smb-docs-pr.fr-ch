@@ -3,14 +3,13 @@ title: Afficher les rapports Power BI personnalisés
 description: Vous pouvez utiliser le récapitulatif Power BI pour afficher les rapports Power BI et obtenir des informations supplémentaires sur les données des enregistrements dans les listes clés.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
-ms.date: 06/11/2021
+ms.date: 12/13/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-"></a>Création d’états Power BI pour afficher les données de liste dans [!INCLUDE[prod_short](includes/prod_short.md)]
+# Création d’états Power BI pour afficher les données de liste dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_long](includes/prod_long.md)] comprend un élément de contrôle Récapitulatif Power BI sur plusieurs pages de liste clé. Le but de ce Récapitulatif est d′afficher des états Power BI liés aux enregistrements dans les listes, fournissant des informations supplémentaires sur les données. L′idée est que lorsque vous vous déplacez entre les lignes de la liste, l’état se met à jour pour l’écriture sélectionnée.
 
@@ -19,7 +18,7 @@ ms.author: jswymer
 > [!NOTE]
 > Pour des informations générales sur la création et la publication des états Power BI pour Business Central, voir [Création d′états Power BI pour afficher des données [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md). 
 
-## <a name="prerequisites"></a>Conditions préalables
+## Conditions préalables
 
 - Un compte Power BI.
 - Power BI Desktop.
@@ -27,7 +26,7 @@ ms.author: jswymer
 <!-- 
 For more information about getting started, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
-## <a name="create-a-report-for-a-list-page"></a>Créer un rapport pour une page de liste
+## Créer un rapport pour une page de liste
 
 1. Lancez Power BI Desktop.
 2. Sélectionnez **Obtenir des données** et commencez à choisir la source de données pour le rapport.
@@ -75,7 +74,7 @@ For more information about getting started, see [Use [!INCLUDE[prod_short](inclu
 
     S′il est correctement conçu, le rapport s′affiche.  
 
-## <a name="set-the-report-size-and-color"></a>Définissez la taille et la couleur de l’état
+## Définissez la taille et la couleur de l’état
 
 La taille de l’état doit être configurée sur 325 pixels par 310 pixels. Cette taille offre une mise à l’échelle appropriée de l’état dans l’espace disponible du contrôle Récapitulatif Power BI dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour définir la taille de l’état, placez le focus en dehors de la zone de présentation d’état, puis choisissez l’icône en forme de rouleau de peinture.
 
@@ -88,35 +87,35 @@ Si vous souhaitez que l’arrière-plan de l’état se fonde avec la couleur de
 > [!TIP]
 > Utilisez le fichier de thème [!INCLUDE [prod_short](includes/prod_short.md)] pour créer des rapports avec le même style de couleur que les applications [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Utiliser le thème de l’état [!INCLUDE [prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-powerbi.md#theme).
 
-## <a name="reports-with-multiple-pages"></a>États avec plusieurs pages
+## États avec plusieurs pages
 
 Avec Power BI, vous pouvez créer un seul état avec plusieurs pages. Cependant, pour les états qui s’affichent avec des pages de liste, nous ne recommandons pas plus d′une seule page. Le Récapitulatif Power BI n’affiche que la première page de votre état.
 
-## <a name="fixing-problems"></a>Résolution des problèmes
+## Résolution des problèmes
 
 Cette section explique comment résoudre les problèmes que vous pourriez rencontrer en essayant d′afficher un état Power BI pour une page de liste dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Vous ne pouvez pas voir le Récapitulatif Power BI sur une page de liste
+### Vous ne pouvez pas voir le Récapitulatif Power BI sur une page de liste
 
 Par défaut, le Récapitulatif Power BI est caché de la vue. Pour afficher le Récapitulatif sur une page, dans la barre d’action, sélectionnez **Actions** > **Afficher** > **Afficher/Masquer les états Power BI**.
 
-### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>Vous ne pouvez pas voir l’état sur le volet Sélectionner un état
+### Vous ne pouvez pas voir l’état sur le volet Sélectionner un état
 
 Le nom de l’état ne contient pas le nom de la page de liste affichée. Effacez le filtre pour obtenir la liste complète des états disponibles dans Power BI.  
 
-### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>L’état est chargé, mais vide, non filtré ou filtré incorrectement
+### L’état est chargé, mais vide, non filtré ou filtré incorrectement
 
 Vérifiez que le filtre de l’état contient la bonne clé primaire. Dans la plupart des cas, il s’agit du champ **N°**, mais dans la table **Écriture comptable**, vous devez utiliser le champ **N° écriture**.
 
-### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>L’état est chargé, mais il affiche une page à laquelle vous ne vous attendiez pas.
+### L’état est chargé, mais il affiche une page à laquelle vous ne vous attendiez pas.
 
 Vérifiez que la page que vous souhaitez afficher est la première page de votre état.  
 
-### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>L’état apparaît avec des bordures grises non désirées, il est trop petit ou trop grand.
+### L’état apparaît avec des bordures grises non désirées, il est trop petit ou trop grand.
 
 Vérifiez que la taille de l’état est configurée sur 325 pixels x 310 pixels. Enregistrez l’état, puis actualisez la page de liste.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Activation de vos données métier pour Power BI](admin-powerbi.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  

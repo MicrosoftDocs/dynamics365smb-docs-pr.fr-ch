@@ -8,9 +8,10 @@ ms.topic: conceptual
 ms.search.keywords: 'allocate, allocation, accounts'
 ms.search.form: '39, 2673, 2670, 2674,'
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="allocate-revenue-and-costs-to-multiple-general-ledger-accounts"></a>Ventiler les revenus et les coûts sur plusieurs comptes généraux
+# Ventiler les revenus et les coûts sur plusieurs comptes généraux
 
 Cet article décrit comment utiliser les comptes de ventilation pour répartir les montants des documents vente et achat et des lignes feuille comptabilité entre différents comptes généraux. Vous pouvez ventiler les montants via une répartition fixe ou variable.  
 
@@ -25,7 +26,7 @@ Le tableau suivant présente les méthodes de ventilation que vous pouvez utilis
 |Fixe     | Lorsque vous souhaitez diviser les dépenses de manière répétée sur une période plus longue, vous pouvez utiliser une ventilation fixe. Une ventilation fixe vous permet de définir la division de la ventilation. Cette répartition ne change que lorsque vous modifiez la configuration sur la page **Compte de ventilation**.        |
 |Variable     | Pour répartir les revenus ou les dépenses en fonction de valeurs qui changent dans le temps, utilisez la méthode de ventilation variable. Les ventilations variables vous permettent de spécifier les sources à utiliser pour calculer les pourcentages de ventilation. Cette méthode est utile, par exemple, pour répartir les coûts du personnel en fonction des effectifs variables dans un département ou une division. Un autre exemple est la répartition du coût du loyer en fonction de la superficie de l’atelier de production, qui peut varier selon la ligne de production au fil du temps. Les ventilations variables utilisent une combinaison d’axes analytiques et de comptes statistiques pour déterminer la manière dont les montants sont répartis sur une période donnée. Pour en savoir plus sur les comptes statistiques, consultez [Analyser les données avec les comptes statistiques](bi-use-statistical-accounts.md). Pour en savoir plus sur les axes analytiques, consultez [Utiliser les axes analytiques](finance-dimensions.md).        |
 
-## <a name="use-a-fixed-share-or-percentage-method-to-allocate-amounts"></a>Utiliser une méthode de part ou de pourcentage fixe pour ventiler les montants
+## Utiliser une méthode de part ou de pourcentage fixe pour ventiler les montants
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte de ventilation**, puis choisissez le lien associé.  
 1. Sur la page **Comptes de ventilation**, choisissez **Nouveau**.
@@ -40,7 +41,7 @@ Le tableau suivant présente les méthodes de ventilation que vous pouvez utilis
    > Si vous saisissez le montant réel à ventiler pour une ventilation fixe dans le champ **Part**, le champ **Pourcentage** affiche le pourcentage du montant total.
 1. Répétez ce processus pour chaque compte à inclure dans la ventilation.
 
-## <a name="use-a-variable-method-to-allocate-amounts"></a>Utiliser une méthode variable pour ventiler les montants
+## Utiliser une méthode variable pour ventiler les montants
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte de ventilation**, puis choisissez le lien associé.  
 1. Sur la page **Comptes de ventilation**, choisissez **Nouveau**.
@@ -53,7 +54,7 @@ Le tableau suivant présente les méthodes de ventilation que vous pouvez utilis
 1. Facultatif : pour filtrer des sections analytiques globales spécifiques, choisissez l’action **Filtres du solde du compte de ventilation**, puis spécifiez les valeurs de filtre.
 1. Facultatif : choisissez l’action **Axes analytiques**, puis spécifiez les axes analytiques à valider pour la ligne.
 
-## <a name="allocate-amounts-on-the-fly"></a>Ventiler les montants à la volée
+## Ventiler les montants à la volée
 
 Vous créez des comptes de ventilation pour répartir les produits et les coûts pour les comptes généraux et les comptes bancaires. L’automatisation de la ventilation peut vous faire gagner beaucoup de temps. Toutefois, si vous souhaitez utiliser des comptes de ventilation, mais vous ne souhaitez pas les créer pour chaque compte général, vous pouvez gagner encore plus de temps.
 
@@ -61,14 +62,14 @@ L’option Copier à partir du parent vous permet d’utiliser le compte de vent
 
 Les ventilations ad hoc sont faciles à configurer. Au lieu de spécifier un compte bancaire ou général dans le champ **Type du compte de destination** de la page **Compte de ventilation**, choisissez l’option **Copier à partir du parent**. Laissez le champ **Numéro du compte de destination** vide. Lorsque vous choisissez le compte général sur la ligne document ou feuille, ce compte est utilisé pour ventiler les montants.
 
-## <a name="verify-that-amounts-distribute-correctly-before-you-post-them"></a>Vérifier que les montants sont correctement répartis avant de les valider
+## Vérifier que les montants sont correctement répartis avant de les valider
 
 Il existe plusieurs façons de vérifier que les montants sont correctement répartis :
 
 * Sur la page **Compte de ventilation**, choisissez l’action **Tester la ventilation**. Utilisez le champ **Montant à ventiler** pour tester différents montants.
 * Sur la page **Feuilles comptabilité**, choisissez la feuille et utilisez l’action **Aperçu validation**.
 
-## <a name="adjust-the-distribution"></a>Ajuster la répartition
+## Ajuster la répartition
 
 Si vous trouvez quelque chose dans une ventilation que vous souhaitez modifier, vous pouvez ajuster la ventilation avant de la valider.  
 
@@ -76,7 +77,7 @@ Si vous trouvez quelque chose dans une ventilation que vous souhaitez modifier, 
 1. Choisissez la ligne, puis choisissez l’action **Répartir à nouveau les ventilations du compte**.
 1. Sur la page **Modifier les ventilations**, effectuez votre ajustement.
 
-## <a name="post-an-allocation-transaction"></a>Valider une transaction de ventilation
+## Valider une transaction de ventilation
 
 Les étapes suivantes décrivent comment valider une transaction de ventilation à partir d’un journal général. Les étapes sont les mêmes pour les documents vente et achat.
 
@@ -91,6 +92,6 @@ Les étapes suivantes décrivent comment valider une transaction de ventilation 
     1. Dans le champ **N° du compte de ventilation**, choisissez le compte de ventilation configuré pour utiliser l’option Copier à partir du parent. 
 1. Choisissez **Valider**.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utilisation des feuilles comptabilité](ui-work-general-journals.md)  

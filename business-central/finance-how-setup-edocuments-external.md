@@ -3,22 +3,21 @@ title: Configuration du connecteur de documents électroniques avec des points d
 description: Cet article explique comment configurer la fonctionnalité E-Documents lorsqu’elle est connectée à des points de terminaison externes.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint'
 ms.search.form: '359, 360, 6103, 6133'
 ms.date: 12/13/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-the-e-documents-connector-with-external-endpoints"></a>Configuration du connecteur de documents électroniques avec des points de terminaison externes
+# Configuration du connecteur de documents électroniques avec des points de terminaison externes
 
 Cet article explique comment configurer la fonctionnalité E-Documents lorsqu’elle est connectée à des points de terminaison externes.
 
 Avant d’utiliser la fonctionnalité décrite dans cet article, installez l’application **Connecteur de documents électroniques avec des points de terminaison externes** en haut de l’application globale **Base document électronique** . Cette application peut être utilisée pour une intégration par défaut avec les points d’accès externes (tiers) afin d’automatiser le flux de documents électroniques. Étant donné que cette application ne représente que certains des connecteurs sélectionnés, vous n’êtes pas limité aux intégrations existantes. La plupart des connecteurs seront disponibles sur AppSource à l’avenir.
 
-## <a name="set-up-the-connection"></a>Configurer la connexion
+## Configurer la connexion
 
 Pour commencer votre configuration, suivez les étapes décrites dans [Application Base document électronique](finance-how-setup-edocuments.md). Une fois ces étapes terminées, revenez à cet article et procédez comme suit :
 
@@ -45,7 +44,7 @@ Pour commencer votre configuration, suivez les étapes décrites dans [Applicati
     > [!NOTE]
     > Demandez à votre fournisseur de services tous les détails précédents pour établir une connexion avec son point d’accès.
 
-## <a name="set-up-company-information"></a>Configuration des informations société
+## Configuration des informations société
 
 Avant de commencer à utiliser les documents électroniques, mettez à jour la page **Informations sur l’entreprise** en procédant comme suit :
 
@@ -60,7 +59,7 @@ Avant de commencer à utiliser les documents électroniques, mettez à jour la p
 
 3. Fermez la page.
 
-## <a name="set-up-customers-to-receive-e-documents"></a>Configurer les clients pour recevoir des documents électroniques
+## Configurer les clients pour recevoir des documents électroniques
 
 Pour permettre aux clients de recevoir vos documents électroniques, procédez comme suit :
 
@@ -70,11 +69,11 @@ Pour permettre aux clients de recevoir vos documents électroniques, procédez c
 4. Cochez le champ **Utiliser le GLN dans les documents électroniques** pour indiquer si le numéro d’emplacement global (GLN) est utilisé comme numéro d’identification de partie dans les documents électroniques.
 5. Fermez la page.
 
-## <a name="other-setup"></a>Autres paramètres
+## Autres paramètres
 
 Avant de commencer à travailler avec des documents électroniques, configurez les **workflows** de documents électroniques et **les profils d’envoi de documents** pour utilisez vos flux de travail. Une fois la connexion au service établie, vous pouvez commencer à utiliser votre solution de documents électroniques.
 
-## <a name="available-service-providers"></a>Fournisseurs de services disponibles
+## Fournisseurs de services disponibles
 
 Microsoft souhaite encourager les fournisseurs de points d’accès à ajouter leurs connecteurs par-dessus nos **Base document électronique** cadre.
 
@@ -82,7 +81,7 @@ Actuellement, Pagero est le seul fournisseur de points d’accès couvert par ce
 
 Nous mettrons à jour cette liste au fur et à mesure que nous recevrons de nouveaux fournisseurs de points d’accès pour l’échange de documents électroniques.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Comment configurer des documents électroniques dans Business Central](finance-how-setup-edocuments.md)  
 [Comment utiliser des documents électroniques dans Business Central](finance-how-use-edocuments.md)  

@@ -3,15 +3,14 @@ title: Configurer des immobilisations
 description: 'En savoir plus sur la série de tâches que vous devez effectuer pour configurer les immobilisations, telles que les machines ou les bâtiments.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'machinery, buildings'
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-fixed-assets"></a>Paramétrage d’immobilisations
+# Paramétrage d’immobilisations
 
 Avant de pouvoir utiliser les immobilisations, vous devez définir les éléments suivants :  
 
@@ -36,7 +35,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | En savoir plus sur les différentes méthodes d’amortissement des immobilisations. |[Méthodes d’amortissement](fa-depreciation-methods.md) |
 | Découvrez comment appliquer des méthodes d’amortissement paramétrables. |[Configuration des méthodes d’amortissement définies par l’utilisateur](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Immobilisations](fa-manage.md)  
 [Finances](finance.md)  

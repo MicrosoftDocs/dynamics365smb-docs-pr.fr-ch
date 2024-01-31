@@ -3,15 +3,14 @@ title: Affecter les frais annexes aux ventes et aux achats (contient une vidéo)
 description: 'Attribuez des frais annexes lorsque vous avez besoin d’articles en stock pour supporter des coûts supplémentaires, tels que le fret et la manutention physique.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'transportation, added cost, landed cost'
 ms.search.form: '5709, 5800, 5805, 5814'
 ms.date: 11/08/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Utilisation des frais annexes pour comptabiliser les coûts commerciaux supplémentaires
+# Utilisation des frais annexes pour comptabiliser les coûts commerciaux supplémentaires
 
 Pour une évaluation correcte, vos articles de stock doivent comptabiliser tous les coûts ajoutés, tels que le fret, la manutention, les assurances, et transport, que vous encourez lorsque vous achetez ou vendez des articles. Pour les achats, le coût en magasin d’un article acheté est constitué du prix d’achat au fournisseur et de tous les frais annexes directs pouvant être affectés à chacune des réceptions ou expéditions retour. Pour les ventes, il peut s’avérer aussi fondamental pour votre société de connaître le coût de l’expédition des articles vendus que le coût en magasin des articles achetés.
 
@@ -31,13 +30,13 @@ Pour les documents achat et vente, vous pouvez affecter des frais annexes de deu
 > [!NOTE]  
 > Vous pouvez affecter des frais annexes aux commandes, aux factures, et aux avoirs, pour les deux ventes et achats. Les procédures suivantes décrivent comment utiliser les frais annexes pour une facture achat. Les étapes sont similaires pour tous les autres documents achat et vente.
 
-## <a name="example"></a>Exemple :
+## Exemple :
 
 Cette vidéo montre comment gérer un coût d’expédition supplémentaire dans le cadre de l’évalution des coûts de stock.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
-## <a name="to-set-up-item-charge-numbers"></a>Pour configurer des numéros de frais annexes
+## Pour configurer des numéros de frais annexes
 
 Utilisez les numéros de frais annexes pour distinguer les différents types de frais annexes.
 
@@ -45,7 +44,7 @@ Utilisez les numéros de frais annexes pour distinguer les différents types de 
 2. Sur la page **Frais annexes**, sélectionnez l’action **Nouveau** pour créer ligne.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Pour affecter des frais annexes directement à la facture achat pour l’article
+## Pour affecter des frais annexes directement à la facture achat pour l’article
 
 Si vous connaissez les frais annexes au moment de valider une facture achat pour l’article, procédez comme suit.
 
@@ -69,7 +68,7 @@ Si les frais annexes sont entièrement affectés, la valeur dans le champ **Qté
 
 Les frais annexes sont maintenant affectés à la facture achat. Lorsque vous validez la réception de la facture achat, les valeurs de stock des articles sont mises à jour avec le coût des frais annexes.  
 
-## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Pour affecter des frais annexes depuis une facture distincte à la facture achat pour l’article
+## Pour affecter des frais annexes depuis une facture distincte à la facture achat pour l’article
 
 Si vous avez reçu une facture des frais annexes après avoir validé la réception achat d’origine, procédez comme suit.
 
@@ -80,7 +79,7 @@ Si vous avez reçu une facture des frais annexes après avoir validé la récept
 
 Les frais annexes de la facture achat distincte sont maintenant affectés à l’article sur la réception achat enregistrée, mettant ainsi à jour la valeur de stock de l’article avec le coût des frais annexes.
 
-## <a name="handle-item-charges-for-partial-receipts"></a>Gérer les frais annexes pour les réceptions partielles
+## Gérer les frais annexes pour les réceptions partielles
 
 Explorons un exemple de la façon de gérer les frais annexes pour une réception partielle.
 
@@ -95,7 +94,7 @@ Pour gérer le coût de l’article pour la réception partielle, sur le **Affec
 
 Lorsque vous êtes prêt à gérer l’article manquant, mettez à jour le champ **Quantité à traiter** et valider la commande.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Enregistrement des achats](purchasing-how-record-purchases.md)  

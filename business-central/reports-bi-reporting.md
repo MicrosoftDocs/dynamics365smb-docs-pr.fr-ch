@@ -3,15 +3,14 @@ title: Vue d’ensemble de Business Intelligence et Reporting
 description: Fournit une vue d’ensemble de toutes les fonctionnalités de Business Intelligence et de création de rapports prises en charge dans le produit Business Central.
 author: KennieNP
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.reviewer: bholtorf
 ms.date: 09/22/2022
 ms.author: kepontop
+ms.service: dynamics-365-business-central
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Vue d’ensemble de Business Intelligence et Reporting
+# Vue d’ensemble de Business Intelligence et Reporting
 
 Les petites et moyennes entreprises répondent sur des analyses et des rapports intégrés qu’elles peuvent utiliser prêts à l’emploi pour aider à suivre leur activité. [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge les processus d’entreprise courants et les processus plus complexes pour ces organisations. Chacun de ces processus comprend des rapports et des outils d’analyse. Vous pouvez également effectuer des analyses ad hoc directement depuis votre page d’accueil.  
 
@@ -27,7 +26,7 @@ Le tableau suivant couvre les principales fonctionnalités d’informatique déc
 |Modifier la mise en page des rapports ou même à développer vos propres rapports à partir de rien. |[Élaboration de rapports](reports-develop-reports.md)|
 |Analyser les données avec Microsoft Fabric| [Introduction à Microsoft Fabric et Business Central](admin-fabric.md) |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Business Intelligence financière](bi.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -3,19 +3,18 @@ title: Définir des informations générales relatives aux stocks
 description: Décrit comment définir la Paramètres stock généraux afin que vous puissiez gérer votre entrepôt et votre stock.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.form: '30, 456, 461'
 ms.date: 07/28/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-general-inventory-information"></a>Définir des informations générales relatives aux stocks
+# Définir des informations générales relatives aux stocks
 
 Vous pouvez spécifier des paramètres de stock généraux sur la page **Paramètres stock**.
 
-## <a name="to-set-up-general-inventory-information"></a>Pour définir des informations générales relatives aux stocks
+## Pour définir des informations générales relatives aux stocks
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres stock**, puis choisissez le lien associé.
 2. Sur la page **Paramètres stock**, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -31,7 +30,7 @@ Vous pouvez inclure un délai entrepôt par défaut pour votre stock sur la page
 >
 > Sinon, vous pouvez ajuster manuellement les coûts à intervalles réguliers avec le Traitement par lots Ajuster coûts - Écr. article. Vous pouvez également désactiver la validation automatique des coûts ou définir le champ **Ajustement automatique des coûts** sur *Jamais*. Dans les deux cas, une notification s’affiche pour vous permettre de démarrer un guide de configuration assistée qui vous aide à planifier des tâches pour la file d’attente des travaux. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configuration du stock](inventory-setup-inventory.md)  
 [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  

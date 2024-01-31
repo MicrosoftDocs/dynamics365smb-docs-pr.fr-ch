@@ -6,9 +6,10 @@ ms.author: andreipa
 ms.topic: how-to
 ms.date: 11/27/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="introduction-to-contoso-coffee-service-management"></a>Introduction à la gestion des services Contoso Coffee
+# Introduction à la gestion des services Contoso Coffee
 
 Contoso Coffee est une société fictive qui produit des cafetières grand public et commerciales. Les applications **Contoso Coffee** pour Business Central ajoutent des données de démonstration que vous pouvez utiliser pour apprendre à utiliser les capacités de gestion des services dans Business Central.
 
@@ -22,7 +23,7 @@ Cette application fournit plusieurs éléments qui sont utilisés pour les proc�
 > Avant d’exécuter l’un des scénarios pour Contoso Coffee, validez toutes les lignes feuille article avec soldes d’ouverture. Pour connaître plus d’exigences, voir la section [Configurer les données de Contoso Coffee](#set-up-contoso-coffee-service-management-data).
 >
 > 
-## <a name="set-up-contoso-coffee-service-management-data"></a>Configurer les données de gestion des services Contoso Coffee
+## Configurer les données de gestion des services Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -41,7 +42,7 @@ Une fois que les applications appropriées sont installées, accédez à la page
 
 Une fois que vous êtes prêt, choisissez l’action **Créer des données de démonstration**. L’ajout des données à la base de données sous-jacente prend quelques minutes, mais vous êtes ensuite prêt à exécuter les différents scénarios.  
 
-## <a name="scenarios"></a>Cas de figure
+## Cas de figure
 
 Les données de démonstration Contoso Coffee prennent actuellement en charge les scénarios de service suivants pour les tests et la formation :
 
@@ -54,6 +55,6 @@ Lisez les étapes de chaque scénario dans l’article correspondant.
 > Ces procédures détaillées de service nécessitent que l’expérience utilisateur soit définie sur **Premium** dans la page **Informations société**.
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Service](../../service-service.md)

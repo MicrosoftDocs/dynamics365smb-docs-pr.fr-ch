@@ -4,16 +4,15 @@ description: Découvrez comment l’extension Informations commerciales essentie
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'BI, add-in, insight, headline, data'
 ms.search.form: '1439,'
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-essential-business-insights-extension"></a>Extension Informations commerciales essentielles
+# Extension Informations commerciales essentielles
 
 L’extension Informations commerciales essentielles recherche des faits commerciaux intéressants dans les données de votre société et les affiche sous forme de titres de journaux sur les tableaux de bord. Selon ce que l’extension trouve dans les données, des les informations datent de la semaine, du mois ou du trimestre précédent la date du jour. Les informations se mettent à jour toutes les 10 minutes.  
 
@@ -32,7 +31,7 @@ Le tableau suivant décrit les informations que cette extension fournit à chaqu
 |Chef de projet| Affiche une salutation, et le lien vers des informations sur le produit.|
 |Administrateur| Affiche une salutation, et le lien vers des informations sur le produit.|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)
 

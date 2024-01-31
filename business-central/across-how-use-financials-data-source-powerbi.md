@@ -3,21 +3,20 @@ title: "Créer des états Power BI Desktop pour afficher des données Business\_
 description: Vous pouvez rendre vos données disponibles sous forme de source de données dans Power BI et créer des rapports puissants sur l’état de votre activité.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
 ms.date: 09/07/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="building-power-bi-reports-to-display--data"></a>Créer des états Power BI pour afficher des données [!INCLUDE [prod_long](includes/prod_long.md)]
+# Créer des états Power BI pour afficher des données [!INCLUDE [prod_long](includes/prod_long.md)]
 
 Vous pouvez rendre vos données [!INCLUDE[prod_long](includes/prod_long.md)] disponibles sous forme de source de données dans Power BI Desktop et créer des rapports puissants sur l’état de votre activité.
 
 Cet article aborde la prise en main de Power BI Desktop pour créer des états qui affichent des données [!INCLUDE[prod_long](includes/prod_long.md)].  Après avoir créé des états, vous pouvez les publier dans votre service Power BI ou les partager avec tous les utilisateurs de votre organisation. Une fois que ces états figurent dans le service Power BI, les utilisateurs configurés pour ce dernier peuvent alors afficher les états dans [!INCLUDE[prod_long](includes/prod_long.md)].
 
-## <a name="get-ready"></a>Mise en route
+## Mise en route
 
 - Inscrivez-vous au service Power BI.
 
@@ -46,7 +45,7 @@ Cet article aborde la prise en main de Power BI Desktop pour créer des états q
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Ajouter [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données dans Power BI Desktop
+## <a name="getdata"></a>Ajouter [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données dans Power BI Desktop
 
 La première tâche dans le cadre de la création d’états consiste à ajouter [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données dans Power BI Desktop. Une fois connecté, vous pouvez commencer à créer l’état.
 
@@ -100,39 +99,39 @@ Une fois les données chargées, elles s’affichent dans le volet de navigation
 > [!TIP]
 > Pour plus d’informations sur l’utilisation de Power BI Desktop, reportez-vous à [Mise en route avec Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## <a name="creating-accessible-reports"></a>Créer des états accessibles
+## Créer des états accessibles
 
 Il est important de rendre vos états utilisables par autant de personnes que possible. Essayez de concevoir des états qui ne nécessitent aucune adaptation particulière pour répondre aux besoins spécifiques des différents utilisateurs. Assurez-vous que la conception permet aux utilisateurs de tirer parti des technologies d′assistance standard, comme les lecteurs d′écran. Power BI comprend diverses fonctionnalités d′accessibilité, des outils et des consignes pour vous aider à atteindre cet objectif. Pour plus d′informations, [Conception d′états Power BI pour l′accessibilité](/power-bi/create-reports/desktop-accessibility-creating-reports) dans la documentation Power BI.
 
-## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Créer des états pour afficher les données associées à une liste
+## Créer des états pour afficher les données associées à une liste
 
 Vous pouvez créer des états qui s’affichent dans un Récapitulatif d’une liste [!INCLUDE [prod_short](includes/prod_short.md)]. Les états peuvent contenir des données sur l’enregistrement sélectionné dans la liste. La création de ces états est similaire à celle d’autres états, à la différence près que vous devez effectuer quelques actions pour vous assurer que les états s’affichent comme prévu. Pour plus d’informations, consultez [Création d’états Power BI pour afficher les données de la liste dans [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="using-the--report-theme-optional"></a><a name="theme"></a>Utilisation du thème de l’état [!INCLUDE [prod_short](includes/prod_short.md)] (facultatif)
+## <a name="theme"></a>Utilisation du thème de l’état [!INCLUDE [prod_short](includes/prod_short.md)] (facultatif)
 
 Avant de générer votre état, il est préférable de télécharger et d’importer le fichier de thème [!INCLUDE [prod_short](includes/prod_short.md)]. Le fichier de thème crée une palette de couleurs afin de pouvoir établir des états avec le même style de couleur que les applications [!INCLUDE [prod_short](includes/prod_short.md)] sans avoir à définir des couleurs personnalisées pour chaque visuel.
 
 > [!NOTE]
 > Cette tâche est facultative. Vous pouvez toujours créer vos états, puis télécharger et appliquer le modèle de style ultérieurement.
 
-### <a name="download-the-theme"></a>Télécharger le thème
+### Télécharger le thème
 
 Le fichier de thème est disponible sous forme de fichier json sur la galerie de thèmes de la communauté Microsoft Power BI. Pour télécharger le fichier de thème, procédez comme suit :
 
 1. Accédez à la [galerie de thèmes de la communauté Microsoft Microsoft Power BI pour Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Sélectionnez la pièce jointe de téléchargement **Microsoft Dynamics Business Central.json**.
 
-### <a name="import-the-theme-on-a-report"></a>Importer le thème dans un état
+### Importer le thème dans un état
 
 Après avoir téléchargé le thème de l’état [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez l’importer dans vos états. Pour importer le thème, sélectionnez **Afficher** > **Thèmes** > **Parcourir les thèmes**. Pour plus d’informations, consultez [Power BI Desktop - Importer des thèmes d’état personnalisés](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## <a name="publish-reports"></a>Publier des états
+## Publier des états
 
 Après avoir créé ou modifié un état, vous pouvez le publier dans votre service Power BI et le partager avec d’autres membres de votre organisation. Une fois publié, l’état apparaît dans Power BI. L’état est également disponible pour sélection dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Pour publier un état, sélectionnez **Publier** sur l’onglet **Accueil** du ruban ou du menu **Fichier**. Si vous êtes connecté au service Power BI, l’état est publié sur ce service. Sinon, vous êtes invité à vous connecter. 
 
-## <a name="distribute-or-share-a-report"></a>Distribuer ou partager un état
+## Distribuer ou partager un état
 
 Il existe plusieurs façons de transmettre des états à vos collègues et à d’autres personnes :
 
@@ -147,9 +146,9 @@ Il existe plusieurs façons de transmettre des états à vos collègues et à d�
 
     Si tu as une licence Power BI Pro, vous pouvez partager l’état avec d’autres, directement depuis votre service Power BI. Pour plus d’informations, consultez [Power BI - Partager un tableau de bord ou un état](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## <a name="fixing-problems"></a>Résolution des problèmes
+## Résolution des problèmes
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>« Impossible d’insérer un enregistrement. L’intention de connexion actuelle est en lecture seule. » erreur de connexion à la page API personnalisée
+### « Impossible d’insérer un enregistrement. L’intention de connexion actuelle est en lecture seule. » erreur de connexion à la page API personnalisée
 
 > **S’APPLIQUE À :** Business Central Online
 
@@ -180,7 +179,7 @@ Il existe plusieurs façons de transmettre des états à vos collègues et à d�
 9. Cliquez sur **Terminé**.
 10. Sélectionner **Fermer et appliquer** à partir du ruban pour enregistrer les modifications et fermer l’éditeur Power Query.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Activation de vos données métier pour Power BI](admin-powerbi.md)  
 [Veille économique](bi.md)  

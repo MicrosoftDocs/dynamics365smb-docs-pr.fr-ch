@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/09/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 D’autres utilisateurs que ceux émanant de votre société peuvent apparaître dans la liste **Utilisateurs**. Lorsqu’un administrateur délégué de la société d’un partenaire revendeur se connecte à un environnement [!INCLUDE [prod_short](prod_short.md)] pour le compte de son client, il est automatiquement créé en tant qu’utilisateur dans [!INCLUDE [prod_short](prod_short.md)]. Ainsi, les actions effectuées par un administrateur délégué, tels que la publication de documents, sont enregistrées dans [!INCLUDE [prod_short](prod_short.md)] et associées à son ID utilisateur.  
 

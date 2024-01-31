@@ -3,14 +3,13 @@ title: Gestion des services
 description: "Découvrez comment utiliser les fonctionnalités de Business\_Central conçues pour gérer et suivre les services pour prendre en charge les opérations d’atelier de réparation et de service sur le terrain."
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="service-management"></a>Gestion des services
+# Gestion des services
 > [!NOTE]
 > La fonctionnalité décrite dans ces rubrique et sous-rubriques n’est visible dans l’interface utilisateur que si vous avez l’expérience **Premium**. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
 
@@ -36,7 +35,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Créer et gérer les accords contractuels entre vous et vos clients.|[Exécution des contrats de service](service-fulfill-service-contracts.md)|  
 |Fournir des services aux clients et facturer les commandes service.|[Exécution du service](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 [Gestion des comptes client](receivables-manage-receivables.md)   
 [Projets](projects-how-create-jobs.md)   
 [Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)

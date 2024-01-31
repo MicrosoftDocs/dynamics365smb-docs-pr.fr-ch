@@ -3,9 +3,10 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/27/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-### <a name="reversing-journals-to-correct-mistakes"></a>Annulation de feuilles pour corriger les erreurs
+### Annulation de feuilles pour corriger les erreurs
 
 Lorsque vous travaillez avec des feuilles qui comportent de nombreuses lignes et que quelque chose ne va pas, il est important de disposer d’un moyen simple de corriger les erreurs. La page **Feuille comptabilité validée** propose quelques actions qui peuvent vous aider.
 

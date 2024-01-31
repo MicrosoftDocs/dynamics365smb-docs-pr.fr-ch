@@ -3,15 +3,14 @@ title: Gérer les ressources humaines
 description: 'Vous pouvez enregistrer de nouveaux employés, modifier des informations sur le personnel existant, et enregistrer et analyser les absences.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'personnel, people, employee, staff, HR'
 ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="manage-human-resources"></a>Gérer les ressources humaines
+# Gérer les ressources humaines
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez conserver des enregistrements détaillés de vos salariés. Vous pouvez enregistrer et mettre à jour les informations les concernant : contrats de travail, informations confidentielles, qualifications et contacts.
 
@@ -26,7 +25,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Enregistrez les nouveaux salariés ou modifiez les enregistrements pour les salariés existants, et joignez des informations connexes, telles que des contrats et des articles. |[Enregistrer les employés](hr-how-register-employees.md) |
 | Enregistrez les absences des salariés et visualisez les statistiques d’indisponibilité par divers filtres. |[Gérer les absences des salariés](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Finances](finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
