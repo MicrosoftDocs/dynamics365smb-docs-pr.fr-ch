@@ -9,7 +9,7 @@ ms.date: 07/20/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Détails de conception : validation du coût prévu
+# <a name="design-details-expected-cost-posting"></a>Détails de conception : validation du coût prévu
 Les coûts prévus représentent l’estimation, par exemple, du coût d’un article acheté que vous enregistrez avant la réception de la facture de cet article.  
 
  Vous pouvez valider les coûts prévus dans le stock et dans la comptabilité. Lorsque vous validez une quantité qui est uniquement reçue ou expédiée mais pas facturée, une écriture valeur est créée avec le coût prévu. Ce coût prévu affecte la valeur du stock mais n’est pas porté au compte général, sauf si vous avez paramétré le programme à cette fin.  
@@ -21,7 +21,7 @@ Les coûts prévus représentent l’estimation, par exemple, du coût d’un ar
 
  Pour prendre en charge le travail de rapprochement et de traçabilité, l’écriture valeur facturée montre que le montant du coût prévu validé pour équilibrer les comptes d’attente.  
 
-## Conditions préalables à la validation des coûts prévus
+## <a name="prerequisites-for-posting-expected-costs"></a>Conditions préalables à la validation des coûts prévus
 
 Pour rendre possible la validation des coûts prévus, vous devez procéder comme suit :
 1. Dans la page **Paramètres stock**, cochez la case **Compta. coûts automatique** et la case **Compta. coûts prévus**.
@@ -31,7 +31,7 @@ Pour rendre possible la validation des coûts prévus, vous devez procéder comm
 3. Dans la page **Paramètres comptabilisation**, vérifiez le champ **Compte ajust. stock (attente)** pour le **Groupe compta. marché** et le **Groupe compta. produit** que vous utiliserez.
 4. Lorsque vous créez une commande achat, la valeur par défaut est que le champ **N° facture fournisseur** est requis. Vous devez le désactiver dans la page **Paramètres achats**, en désélectionnant le champ **N° doc. ext. obligatoire**.
 
-## Exemple :  
+## <a name="example"></a>Exemple :
 
 > [!NOTE]  
 > Les numéros de compte utilisés dans cet exemple servent uniquement de référence et seront différents dans votre système. Configurez-les comme indiqué dans les conditions préalables ci-dessus.
@@ -84,7 +84,7 @@ Vous validez une commande achat comme reçue. Le coût prévu est 95,00 DS.
 |15/01/20|Compte coût direct lettré|7291|-100|6|  
 |15/01/20|Compte stocks|2130|100|5|  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)   
  [Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md)   

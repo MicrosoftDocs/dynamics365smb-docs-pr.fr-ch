@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ajouter des commentaires aux fiches et aux documents
+# <a name="add-comments-to-cards-and-documents"></a>Ajouter des commentaires aux fiches et aux documents
 
 Vous pouvez ajouter des informations supplémentaires dans les comptes généraux, les fiches client, ou les commandes vente pour communiquer des exception ou des accords spéciaux avec d’autres utilisateurs.
 La plupart des fiches et documents ont une action **Commentaires**, qui ouvre la page **Feuille de commentaires** dans laquelle vous pouvez saisir ou lire les commentaires. Sur les documents, vous pouvez également ajouter des commentaires à différentes lignes.
@@ -24,14 +24,14 @@ En outre, vous pouvez spécifier si vous souhaitez que des commentaires soient t
 
 La section suivante décrit comment ajouter un commentaire à une fiche article. Les étapes sont similaires pour toutes les autres fiches et documents, sauf sur les lignes document, l’action **Commentaires** est placée sur un menu d’action de lignes.
 
-## Pour ajouter des commentaires à une fiche article
+## <a name="to-add-a-comments-to-an-item-card"></a>Pour ajouter des commentaires à une fiche article
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
 2. Ouvrez la fiche article appropriée.
 3. Sélectionnez l’action **Commentaires**.
 4. Sur la page **Feuille de commentaires**, vous pouvez saisir le texte, puis choisir le bouton **OK**.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)

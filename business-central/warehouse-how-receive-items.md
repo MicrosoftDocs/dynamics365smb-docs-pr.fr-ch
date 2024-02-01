@@ -9,7 +9,7 @@ ms.devlang: al
 ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ms.service: dynamics-365-business-central
 ---
-# Réceptionner des articles avec une réception entrepôt
+# <a name="receive-items-with-warehouse-receipts"></a>Réceptionner des articles avec une réception entrepôt
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous recevez des articles et les rangez en utilisant l’une des quatre méthodes décrites dans le tableau suivant.
 
@@ -24,7 +24,7 @@ Pour en savoir plus sur la gestion des articles entrants, consultez [Flux d’en
 
 L’article suivant fait référence aux méthodes C et D dans le tableau précédent.
 
-## Réceptionner des articles avec une réception entrepôt
+## <a name="receive-items-with-a-warehouse-receipt"></a>Réceptionner des articles avec une réception entrepôt
 
 Lorsque les articles arrivent dans un entrepôt configuré pour traiter les réceptions entrepôt, vous devez extraire les lignes du document origine lancé ayant déclenché la réception. Si vous utilisez des emplacements, vous pouvez soit accepter l’emplacement par défaut, soit spécifier l’emplacement dans lequel placer les articles. Ce dernier peut être nécessaire lorsque vous recevez un article pour la première fois. Alors, renseignez les quantités d’articles reçus et validez la réception.  
 
@@ -65,7 +65,7 @@ Vous pouvez créer une réception entrepôt de deux manières :
     > [!NOTE]  
     > Si votre entrepôt utilise le transbordement, vous pouvez vérifier si vous pouvez transborder des articles sans les ranger. Pour en savoir plus sur le transbordement, consultez [Transborder des articles](warehouse-how-to-cross-dock-items.md).
 
-## Procédure : utiliser des filtres afin d’obtenir des documents origine
+## <a name="how-to-use-filters-to-get-source-documents"></a>Procédure : utiliser des filtres afin d’obtenir des documents origine
 
 À partir d’une réception entrepôt, vous pouvez utiliser la page **Filtres pour extr. doc. orig.** afin d’extraire les lignes du document origine lancé qui indiquent les articles à recevoir.
 
@@ -81,7 +81,7 @@ Toutes les lignes du document origine lancé qui répondent aux critères de fil
 
 Le nombre de combinaisons de filtres est illimité. Les filtres sont enregistrés sur la page **Filtres pour extr. doc. orig.** et seront disponibles la prochaine fois que vous en aurez besoin. Vous pouvez modifier les critères à tout moment en choisissant l’action **Modifier**.
 
-## Codes zone et emplacement
+## <a name="zone-and-bin-codes"></a>Codes zone et emplacement
 
 Pour réceptionner des articles portant des codes classe entrepôt différents du code classe de l’emplacement indiqué dans le champ **Code emplacement** de l’en-tête du document, effacez la valeur du champ **Code emplacement** de l’en-tête avant d’extraire les lignes des documents origine des articles.  
 <!-- TBD, table with comparison of various options-->
@@ -91,7 +91,7 @@ Si des emplacements sont obligatoires pour un magasin, les codes zone et emplace
 * Pour les configurations avancées qui utilisent le rangement et le prélèvement dirigés, [!INCLUDE [prod_short](includes/prod_short.md)] utilise le code emplacement réception de la page **Fiche magasin** du magasin. Si aucun code emplacement réception n’est spécifié, aucun emplacement n’est spécifié. Si l’article et les emplacements de réception ne correspondent pas, le code emplacement réception est vide.
 * Dans d’autres configurations, si aucun code emplacement réception n’est spécifié, [!INCLUDE [prod_short](includes/prod_short.md)] utilise le code emplacement du document origine.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  

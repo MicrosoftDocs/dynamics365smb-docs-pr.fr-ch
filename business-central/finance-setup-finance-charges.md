@@ -10,11 +10,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Configurer les conditions intérêts de retard
+# <a name="set-up-finance-charge-terms"></a>Configurer les conditions intérêts de retard
 
 Lorsqu’un client n’effectue pas son paiement à la date d’échéance, des intérêts de retard peuvent être calculés automatiquement et ajoutés aux montants échus sur le compte du client. Vous pouvez informer le client des frais ajoutés en lui envoyant une facture d’intérêts. Mais tout d’abord, vous devez créer un code qui représente un calcul d’intérêts de retard. Vous pouvez ensuite entrer ce code dans le champ Code condition intérêts des fiches client.  
 
-## Conditions intérêts de retard
+## <a name="finance-charge-terms"></a>Conditions intérêts de retard
 
 Vous devez configurer des conditions intérêts de retard pour chaque calcul de frais financiers, puis affecter les conditions au client dans le champ **Code condition intérêts** sur la page **Client**.
 
@@ -32,7 +32,7 @@ Les intérêts de retard peuvent être calculés en utilisant les méthodes du s
 
 En outre, chaque condition de la table Conditions intérêts de retard est lié à une autre table, la table Texte intérêts de retard. Pour chaque ensemble de conditions, vous pouvez définir un texte début et un texte fin à inclure dans la facture d’intérêts.
 
-### Pour configurer des conditions intérêts de retard
+### <a name="to-set-up-finance-charge-terms"></a>Pour configurer des conditions intérêts de retard
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions intérêts de retard**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
@@ -61,7 +61,7 @@ En outre, chaque condition de la table Conditions intérêts de retard est lié 
 |%8|Contenu du champ **Code devise** de l’en-tête de facture d’intérêts|  
 |%9|Contenu du champ **Date comptabilisation** de l’en-tête de facture d’intérêts|  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
 [Configurer les conditions et niveaux de relance](finance-setup-reminders.md)  

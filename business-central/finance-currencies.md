@@ -9,11 +9,11 @@ ms.date: 03/15/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Devises dans Business Central
+# <a name="currencies-in-business-central"></a>Devises dans Business Central
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## Devises
+## <a name="currencies"></a>Devises
 
 > [!TIP]  
 > Dans [!INCLUDE[prod_short](includes/prod_short.md)], si vous recherchez des informations en temps réel sur les taux de devise étrangère (FX) ou les taux historiques, vous les trouverez sous la désignation de devise. En plus de cet article, voir aussi [Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md).
@@ -22,15 +22,15 @@ ms.service: dynamics-365-business-central
 
 Vous spécifiez les codes devise dans la liste **Devises**, y compris les informations supplémentaires et les paramètres nécessaires pour chaque code devise. Pour plus d’informations, voir [Devises](finance-set-up-currencies.md#curr)
 
-### Exemple de transaction en devise comptabilité
+### <a name="example-of-a-receivable-currency-transaction"></a>Exemple de transaction en devise comptabilité
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Taux de change
+## <a name="exchange-rates"></a>Taux de change
 
 Les taux de change permettent de calculer la valeur en devise société (DS) de chaque transaction en devise. Pour plus d’informations, voir [Mettre à jour les taux de change devise](finance-how-update-currencies.md).  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Configurer des devises](finance-set-up-currencies.md)  
 [Mise à jour des taux de change devise](finance-how-update-currencies.md)  

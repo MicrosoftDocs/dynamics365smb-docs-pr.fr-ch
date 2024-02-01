@@ -9,7 +9,7 @@ ms.date: 09/28/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ajouter des entreprises à votre Hub Entreprise
+# <a name="add-companies-to-your-company-hub"></a>Ajouter des entreprises à votre Hub Entreprise
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -20,7 +20,7 @@ Sur la page de destination du Hub Entreprise, vous trouvez le menu **Configurer*
 > [!NOTE]
 > Vous pouvez connecter le Hub Entreprise à autant d’entreprises que vous le souhaitez. Cependant, vous ne pouvez connecter le Hub Entreprise qu’aux entreprises hébergées dans [!INCLUDE [prod_short](includes/prod_short.md)] en ligne.
 
-## Liens d’environnements
+## <a name="environment-links"></a>Liens d’environnements
 
 Un lien d’environnement est une fiche sur laquelle vous spécifiez l’environnement [!INCLUDE [prod_short](includes/prod_short.md)] qui héberge une ou plusieurs entreprises dans lesquelles vous travaillez. Les données de la fiche de chaque environnement sont spécifiées par vous, et vous pouvez les modifier selon vos besoins. Toutefois, le champ **Liens d’environnement** est indispensable, car il vous permet d’accéder à la société dans [!INCLUDE [prod_short](includes/prod_short.md)]. Utilisez l’action **Tester la connexion** dans le ruban pour vérifier que vous avez saisi le bon lien. Le lien que vous devez saisir pointe vers l’environnement qui héberge la société que vous ajoutez et doit inclure l’ID Microsoft Entra ou le nom de domaine de l’organisation. Par exemple, s’il a spécifié un domaine tel que MyBusiness.com, le lien vers son instance [!INCLUDE [prod_short](includes/prod_short.md)] est ```https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1```. Sinon, cela ressemblera à ceci : ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```  
 
@@ -33,14 +33,14 @@ Le lien est utilisé lorsque vous choisissez l’entreprise dans le Hub Entrepri
 >
 > Si vous êtes passé à la société d’essai de trente jours, Ma société, vous pouvez l’ajouter à la liste en choisissant l’action **Recharger/Recharger toutes les entreprises** dans la liste.
 
-## Charger les entreprises
+## <a name="load-companies"></a>Charger les entreprises
 
 Lorsque vous avez ajouté vos environnements, vos entreprises s’affichent automatiquement. Cependant, si vous savez qu’une nouvelle société a été ajoutée à un environnement, vous pouvez choisir l’action **Recharger toutes les entreprises** pour actualiser la liste. Utilisez la même action pour actualiser les données de toutes vos entreprises.  
 
 > [!TIP]
 > Afin d’actualiser les données dans le Hub Entreprise, vous devez avoir accès aux données des entreprises dont les données proviennent.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gérer le travail entre plusieurs entreprises dans le Hub Entreprise](company-hub.md)  
 [Ressources pour l’Aide et le support](product-help-and-support.md)  

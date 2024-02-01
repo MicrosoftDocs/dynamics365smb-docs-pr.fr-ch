@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Configurer les modules complexes à l’aide des meilleures pratiques
+# <a name="set-up-complex-application-areas-using-best-practices"></a>Configurer les modules complexes à l’aide des meilleures pratiques
 Il est important d’entrer des valeurs de configuration correctes dès le début pour garantir le succès de tout nouveau logiciel de gestion.  
 
  Que vous implémentiez les valeurs de configuration à l’aide de Rapid Start ou que vous les entriez manuellement dans la nouvelle société, vous pouvez justifier vos choix à l’aide de quelques recommandations générales pour les champs de configuration sélectionnés, susceptibles de rendre la solution inefficace en cas de configuration erronée.  
@@ -20,7 +20,7 @@ Il est important d’entrer des valeurs de configuration correctes dès le débu
 
 -   [Pratiques de configuration recommandées : mode évaluation stock](setup-best-practices-costing-method.md)  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
 [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

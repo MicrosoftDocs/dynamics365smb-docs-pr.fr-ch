@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Détails de conception : écart
+# <a name="design-details-variance"></a>Détails de conception : écart
 L’écart est défini comme la différence entre le coût réel et le coût standard, telle que décrite dans la formule suivante.  
 
  coût réel – coût standard = variance  
@@ -19,7 +19,7 @@ L’écart est défini comme la différence entre le coût réel et le coût sta
 > [!NOTE]  
 >  La réévaluation n’affecte pas le calcul d’écart, puisque la réévaluation modifie uniquement la valeur stock.  
 
-## Exemple :  
+## <a name="example"></a>Exemple :
  L’exemple suivant présente la manière de calculer l’écart pour les articles achetés. Il est basé sur le scénario suivant :  
 
 1.  L’utilisateur achète un article à 90,00 LCY, mais le coût standard est de 100,00 LCY. Par conséquent, l’écart achat net est de -10 DS.  
@@ -32,7 +32,7 @@ L’écart est défini comme la différence entre le coût réel et le coût sta
 
  ![Calcul variance achat.](media/design_details_inventory_costing_11_purchase_variance.png "Calcul variance achat")  
 
-## Déterminer le coût standard  
+## <a name="determining-the-standard-cost"></a>Déterminer le coût standard
  Le coût standard est utilisé pour calculer l’écart et le montant à capitaliser. Dans la mesure où le coût standard peut être modifié dans le temps en raison du calcul de mise à jour manuel, vous avez besoin d’un certain point dans le temps où le coût standard est fixe pour le calcul de l’écart. Ce point est pertinent lorsque l’augmentation de stock est facturée. Pour les articles fabriqués ou assemblés, le point auquel le coût standard est déterminé est lorsque le coût est ajusté.  
 
  Le tableau suivant montre la manière dont les différentes parts de coût sont calculées pour les articles produits et assemblés lorsque vous utilisez la fonction Calculer coût standard.  
@@ -51,7 +51,7 @@ L’écart est défini comme la différence entre le coût réel et le coût sta
 |**Frais généraux opératoires multi-niveaux**|Non applicable|![Équation 8.](media/design_details_inventory_costing_11_equation_8.png "Équation 8")|  
 |**Frais gén. matière multi-niv.**|Non applicable|![Équation 9.](media/design_details_inventory_costing_11_equation_9.png "Équation 9")|  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
  [Détails de conception : stock évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : modes évaluation stock](design-details-costing-methods.md) [Gestion des composants des coûts](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  

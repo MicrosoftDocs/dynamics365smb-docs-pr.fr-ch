@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Lettrage automatique des paiements et rapprochement des comptes bancaires
+# <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Lettrage automatique des paiements et rapprochement des comptes bancaires
 Vous devez régulièrement rapprocher vos comptes bancaires, créances client et créances fournisseur en lettrant les paiements enregistrés au niveau de la banque à leurs factures impayées et avoirs associés ou à d’autres écritures ouvertes dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Vous pouvez effectuer cette tâche sur la page **Feuille rapprochement bancaire**, par exemple, en important un fichier ou un flux de relevé bancaire pour enregistrer rapidement les paiements. Les paiements sont lettrés pour ouvrir des écritures client ou fournisseur selon les correspondances entre le texte de paiement et les informations d’écriture. Vous pouvez réviser et modifier les lettrages automatiques avant de valider la feuille. Vous pouvez choisir de clôturer les écritures comptables compte bancaire ouvertes associées aux écritures comptables lettrées lorsque vous validez la feuille. Le compte bancaire est automatiquement rapproché lorsque tous les paiements sont lettrés.
@@ -36,7 +36,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Lier le texte des paiements à un client spécifique, fournisseur ou comptes généraux pour toujours valider les réceptions récurrentes en liquide ou les dépenses vers ces comptes quand ils ne peuvent être appliqués à aucun document. |[Mapper du texte sur des paiements récurrents avec des comptes pour un rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Configurez les règles pour définir comment les paiements/transactions bancaires doivent être automatiquement lettrés avec leurs écritures comptables ouvertes associées lorsque vous utilisez la fonction **Lettrer automatiquement** sur la page **Feuille rapprochement bancaire**.|[Définition des règles pour le lettrage automatique des paiements](receivables-how-set-up-payment-application-rules.md)|
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Rapprochement des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  

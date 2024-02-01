@@ -10,12 +10,12 @@ ms.author: bholtorf
 ROBOTS: NOINDEX
 ms.service: dynamics-365-business-central
 ---
-# Migration de données Dynamics GP
+# <a name="the-dynamics-gp-data-migration-extension"></a>Migration de données Dynamics GP
 
 > [!NOTE]
 > Cette extension est obsolète dans la mise à jour 15.3. Nous recommandons aux utilisateurs qui souhaitent migrer depuis Dynamics GP d’utiliser l’assistant **Migration cloud**. L’extension **Migration cloud** a des fonctionnalités plus robustes et apporte plus de données dans Business Central à partir de Dynamics GP. Pour en savoir plus, voir la rubrique [Migrer vers Business Central Online à partir de Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp) dans le contenu d’administration pour [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Extensions Cloud intelligent pour la migration vers le cloud](ui-extensions-data-replication.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  

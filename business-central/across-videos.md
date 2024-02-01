@@ -10,7 +10,7 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Visitez notre vidéothèque
+# <a name="visit-our-video-library"></a>Visitez notre vidéothèque
 
 Vous avez trouvé notre documentation. Mais certaines personnes préfèrent regarder du contenu plutôt que de le lire. À cette fin, nous produisons des vidéos courtes et faciles à assimiler. La plupart des vidéos complètent notre assistance utilisateur et certaines d’entre elles peuvent être visionnées de manière autonome.  
 
@@ -23,7 +23,7 @@ Vous pouvez également afficher nos vidéos de « procédures », ainsi que bi
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Chaîne Dynamics 365 sur YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

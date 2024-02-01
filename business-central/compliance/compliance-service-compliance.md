@@ -10,7 +10,7 @@ ms.date: 06/14/2021
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# Conformité des services
+# <a name="service-compliance"></a>Conformité des services
 
 Ce contenu comprend des informations sur la conformité des services concernant [!INCLUDE[prod_short](../includes/prod_short.md)] en ligne.  
 
@@ -20,11 +20,11 @@ Veuillez trouver la liste détaillée des [Offres de conformité au cloud de Bus
 
 Si vous êtes intéressé par la liste complète des offres de conformité de Microsoft, consultez [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings)
 
-## Conditions d’utilisation
+## <a name="service-terms"></a>Conditions d’utilisation
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Conformité](compliance-overview.md)  
 [Conformité des applications](compliance-application-compliance.md)  

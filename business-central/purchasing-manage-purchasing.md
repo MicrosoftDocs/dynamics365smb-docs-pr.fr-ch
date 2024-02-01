@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Procédure d’achat
+# <a name="purchasing"></a>Procédure d’achat
 
 Vous créez une facture achat ou une commande achat pour enregistrer le coût d’achats et suivre les créances. Si vous devez contrôler un stock, les factures achat sont également utilisées pour mettre à jour de manière dynamique les niveaux de stock afin que vous puissiez réduire vos coûts et fournir un meilleur service client. Le prix d’achat, notamment les frais de service, et les valeurs d’inventaire qui résultent de la validation des factures achat contribuent aux chiffres du profit et à d’autres KPI financiers sur votre Tableau de bord.
 
@@ -38,11 +38,11 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Résolvez la confusion lorsque deux enregistrements ou plus existent pour le même fournisseur.|[Fusionner l’enregistrement des doublons](sales-how-merge-duplicate-records.md)|
 |Gérez votre engagement envers un fournisseur à acheter de grandes quantités livrées en plusieurs expéditions sur une certaine période.|[Utilisation des commandes cadres achat](sales-how-to-create-blanket-sales-orders.md)|
 
-## Numéros de document externe
+## <a name="external-document-numbers"></a>Numéros de document externe
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Enregistrement des nouveaux fournisseurs](purchasing-how-register-new-vendors.md)  

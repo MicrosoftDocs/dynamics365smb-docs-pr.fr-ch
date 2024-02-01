@@ -9,7 +9,7 @@ ms.date: 11/03/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Configurer les définitions d’échange de données
+# <a name="set-up-data-exchange-definitions"></a>Configurer les définitions d’échange de données
 
 Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour échanger des données dans des tables spécifiques avec des données de fichiers externes. Par exemple, pour envoyer et recevoir des documents électroniques, importer et exporter des données bancaires ou d’autres données, telles que les données de paie et des catalogues d’articles. Pour plus d’informations, consultez [Échanger des données par voir électronique](across-data-exchange.md).  
 
@@ -26,14 +26,14 @@ Cet article couvre les procédures suivantes :
 * Exporter une définition d’échange de données au format XML pour utilisation par d’autres.
 * Importer un fichier XML pour une définition d’échange de données existante.
 
-## Créer une définition d’échange de données
+## <a name="create-a-data-exchange-definition"></a>Créer une définition d’échange de données
 
 La création d’une définition d’échange de données implique deux tâches :  
 
 1. Sur la page **Définition d’échange de données**, décrivez la mise en forme des lignes et des colonnes du fichier. Pour plus d’informations, consultez la section [Décrire le formatage de lignes et de colonnes dans un fichier](#formatlinescolumns).  
 2. Sur la page **Mappage d’échange de données**, mappez les colonnes du fichier de données aux champs de [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, consultez la section [Mapper les colonnes du fichier de données sur les champs de [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name=formatlinescolumns></a>Pour décrire le formatage des lignes et des colonnes dans le fichier
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Pour décrire le formatage des lignes et des colonnes dans le fichier
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Définitions d’échange de données**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -108,7 +108,7 @@ L’étape suivante de la création de la définition d’échange de données c
 > [!NOTE]  
 > Le mappage spécifique dépend de l’objectif commercial du fichier de données à échanger et des variations locales. Même le standard bancaire SEPA a des variations locales. [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge en natif l’importation de fichiers de relevé bancaire SEPA CAMT. Ceci est représenté par le code d’enregistrement de définition d’échange de données **SEPA CAMT** sur la page **Définitions d’échange de données**. Pour plus d’informations sur le mappage de champs spécifique de cette prise en charge de SEPA CAMT, voir [Mappage de champs lors de l’importation de fichiers SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name=mapfields></a>Pour mapper les colonnes du fichier de données aux champs de [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Pour mapper les colonnes du fichier de données aux champs de [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Parfois, les valeurs des champs que vous souhaitez associer sont différentes. Par exemple, le code langue pour les États-Unis est « U.S. » dans une application métier et « US » dans une autre. Cela signifie que vous devez transformer la valeur lorsque vous échangez des données. Cela se fait via les règles de transformation que vous définissez pour les champs. Pour plus d’informations, consultez [Règles de transformation](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -163,7 +163,7 @@ Vous pouvez également opérer un regroupement par n’importe quel champ, utili
      |**ID de champ**|Spécifiez le numéro du champ du fichier externe utilisé pour le regroupement. Ce champ doit être défini par l’utilisateur.|
      |**Légende du champ**|Spécifiez la légende du champ dans le fichier externe utilisé pour le regroupement.|
 
-## Règles de transformation
+## <a name="transformation-rules"></a>Règles de transformation
 
 Si les valeurs des champs que vous mappez sont différentes, vous devez utiliser des règles de transformation pour les définitions d’échange de données afin de les rendre identiques. Pour définir des règles de transformation pour des définitions d’échange de données, ouvrez une définition existante ou créez-en une nouvelle, puis, sur le raccourci **Définitions de ligne**, choisissez **Gérer**, puis **Mappage de champs**. Des règles prédéfinies sont fournies, mais vous pouvez également créer les vôtres. Le tableau suivant décrit les types de transformations que vous pouvez effectuer.
 
@@ -188,7 +188,7 @@ Si les valeurs des champs que vous mappez sont différentes, vous devez utiliser
 > [!NOTE]  
 > Pour plus d’informations sur le formatage de la date et de l’heure, consultez [Chaînes de format de date et heure standard](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### Astuce pour les développeurs : exemple d’option personnalisée
+### <a name="tip-for-developers-example-of-the-custom-option"></a>Astuce pour les développeurs : exemple d’option personnalisée
 
 L’exemple suivant montre comment implémenter votre propre code de transformation.
 
@@ -206,7 +206,7 @@ codeunit 60100 "Hello World"
 
 Après avoir défini vos règles, vous pouvez les tester. Dans le raccourci **Test**, saisissez un exemple de valeur que vous souhaitez transformer, puis vérifiez les résultats en sélectionnant **Mettre à jour**.
 
-## Exporter une définition d’échange de données au format XML pour utilisation par d’autres
+## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Exporter une définition d’échange de données au format XML pour utilisation par d’autres
 
 Lorsque vous avez créé la définition d’échange de données pour un fichier de données spécifique, vous pouvez exporter la définition d’échange de données en tant que fichier XML que vous pouvez importer. Cette tâche est décrite dans la procédure suivante.  
 
@@ -217,14 +217,14 @@ Lorsque vous avez créé la définition d’échange de données pour un fichier
 
     Si une définition d’échange de données a déjà été créée, il vous suffit d’importer le fichier XML dans l’infrastructure d’échange de données. Cette tâche est décrite dans la procédure suivante.  
 
-## Importer une définition d’échange de données existante
+## <a name="import-an-existing-data-exchange-definition"></a>Importer une définition d’échange de données existante
 
 1. Enregistrez le fichier XML qui représente la définition d’échange de données dans un emplacement approprié.  
 2. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Définitions d’échange de données**, puis sélectionnez le lien associé.  
 3. Choisissez l’action **Importer définition d’échange de données**.  
 4. Choisissez le fichier que vous avez enregistré à l’étape 1.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Configurer l’échange de données](across-set-up-data-exchange.md)  
 [Configurer l’envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

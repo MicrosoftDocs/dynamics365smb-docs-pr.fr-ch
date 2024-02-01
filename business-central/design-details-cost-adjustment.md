@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Détails de conception : ajustement des coûts
+# <a name="design-details-cost-adjustment"></a>Détails de conception : ajustement des coûts
 
 L’objet principal de l’ajustement des coûts est de transférer les changements depuis les coûts des sources de coût aux destinataires de coût, selon le mode évaluation stock d’un article, pour fournir une évaluation du stock correcte.  
 
@@ -26,7 +26,7 @@ Voici l’autre objectif ou les autres fonctions de l’ajustement des coûts :
 
 Les coûts de stock doivent être ajustés avant que les écritures valeur associées puissent être rapprochées avec les écritures comptables. Pour plus d’informations, voir [Détails de conception : rapprochement de comptabilité](design-details-reconciliation-with-the-general-ledger.md).  
 
-## Détection de l’ajustement
+## <a name="detecting-the-adjustment"></a>Détection de l’ajustement
 
 La tâche de détecter si l’ajustement des coûts doit se produire est surtout effectuée par la routine Item Jnl.-Post Line, tandis que la tâche de calculer et générer des écritures d’ajustement des coûts est effectuée par le traitement par lots **Ajuster coûts - Écr. article**.  
 
@@ -36,21 +36,21 @@ Pour pouvoir transférer les coûts, le mécanisme de détection de détermine q
 * Point d’entrée d’ajustement de coût moyen  
 * Niveau de commande  
 
-### Écriture lettrage article
+### <a name="item-application-entry"></a>Écriture lettrage article
 
 Cette fonction de détection est utilisée pour les articles qui utilisent les méthodes de coûts FIFO, LIFO, Standard et Specific et pour les scénarios d’applications fixes. La fonction opère comme suit :  
 
 * L’ajustement des coûts est détecté en marquant les écritures comptables article d’origine en tant qu’*Écriture lettrée à ajuster* lorsqu’une écriture comptable article ou une écriture valeur article est validée.  
 * Les coûts sont transférés en fonction des chaînes de coût qui sont stockées dans la table **Ecriture lettrage article**.  
 
-### Point d’entrée d’ajustement de coût moyen
+### <a name="average-cost-adjustment-entry-point"></a>Point d’entrée d’ajustement de coût moyen
 
 Cette fonction de détection est utilisée pour les articles qui utilisent le mode de coûts Average. La fonction opère comme suit :  
 
 * L’ajustement des coûts est détecté en marquant un enregistrement dans la table **Point d’entrée ajustement coût moyen** chaque fois qu’une écriture valeur est validée.  
 * Les coûts sont transférés en appliquant les coûts ajustés aux écritures valeur avec une date évaluation ultérieure.  
 
-### Niveau de commande
+### <a name="order-level"></a>Niveau de commande
 
 Cette fonction de détection est utilisée pour les scénarios de conversion, la production et l’assemblage. La fonction opère comme suit :  
 
@@ -63,7 +63,7 @@ La fonction Niveau de commande est utilisée pour détecter les ajustements dans
 
 Pour plus d’informations, voir [Détails de conception : modes évaluation stock](design-details-assembly-order-posting.md).  
 
-## Comparaison entre ajustement des coûts automatique et manuel
+## <a name="manual-versus-automatic-cost-adjustment"></a>Comparaison entre ajustement des coûts automatique et manuel
 
 Vous pouvez exécuter l’ajustement des coûts de deux manières :  
 
@@ -78,25 +78,25 @@ Que l’exécution de l’ajustement des coûts soit manuel ou automatique, le p
 
 Les nouvelles écritures valeur ajustement et arrondi ont la date comptabilisation de la facture associée. Les exceptions sont si les écritures valeur tombent dans une période comptable ou une période inventaire clôturée ou si la date comptabilisation est antérieure à la date du champ **Début période validation** sur la page **Paramètres comptabilité**. Si cela se produit, le traitement par lots affecte la date comptabilisation comme la première date de la période ouverte suivante.  
 
-## Traitement par lots Ajuster coûts - Écr. article
+## <a name="adjust-cost---item-entries-batch-job"></a>Traitement par lots Ajuster coûts - Écr. article
 
 Lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**, vous avez la possibilité d’exécuter le traitement par lots pour tous les articles ou pour certains articles ou catégories uniquement.  
 
 > [!NOTE]  
 > Nous vous recommandons de toujours exécuter le traitement par lots pour tous les articles et utilisez uniquement l’option de filtrage pour réduire le temps d’exécution du traitement par lots, ou pour résoudre le coût d’un article donné.  
 
-### Exemple :
+### <a name="example"></a>Exemple :
 
 L’exemple suivant montre le cas où vous validez un article acheté comme étant reçu et facturé le 01/01/20. Vous validez ultérieurement l’article vendu comme étant expédié et facturé le 01-15-20. Ensuite, vous exécutez les traitements par lots **Ajuster coûts - Écr. article** et **Valider coûts ajustés**. Les écritures suivantes sont créées.  
 
-#### Écritures valeur (1) 
+#### <a name="value-entries-1"></a>Écritures valeur (1)
 
 |Date comptabilisation|Type écriture comptable article|Coût total (réel)|Coût validé en comptabilité|Quantité facturée|Numéro de la séquence|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01/01/20|Achats|10,00|10,00|1|1|  
 |15/01/20|Vente|-10,00|-10,00|-1|2|  
 
-#### Liens écritures dans la comptabilité – Table Écriture comptable article (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1"></a>Liens écritures dans la comptabilité – Table Écriture comptable article (1)
 
 |N° séquence compta.|N° écriture valeur|N° hist. transaction compta.|  
 |-------------|---------------|----------------|  
@@ -105,7 +105,7 @@ L’exemple suivant montre le cas où vous validez un article acheté comme éta
 |3|2|1|  
 |4|2|1|  
 
-#### Écritures comptables (1)
+#### <a name="general-ledger-entries-1"></a>Écritures comptables (1)
 
 |Date comptabilisation|Compte général|N° compte (démonstration Fr-FR)|Montant|Numéro de la séquence|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -116,14 +116,14 @@ L’exemple suivant montre le cas où vous validez un article acheté comme éta
 
 Ultérieurement, vous validez des frais annexes achat associés de 2,00 DS facturés le 10/02/20. Vous exécutez le traitement par lots **Ajuster coûts - Écr. article**, puis le traitement par lots **Valider coûts ajustés**. Le traitement par lots d’ajustement des coûts ajuste le coût de la vente de 2,00 DS en conséquence, et le traitement par lots **Valider coûts ajustés** valide les nouvelles écritures valeur en comptabilité. Le résultat est le suivant.  
 
-#### Écritures valeur (2)  
+#### <a name="value-entries-2"></a>Écritures valeur (2)
 
 |Date comptabilisation|Type écriture comptable article|Coût total (réel)|Coût validé en comptabilité|Quantité facturée|Ajustement|Numéro de la séquence|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |10/02/20|Achats|2,00|2,00|0|Non|3|  
 |15/01/20|Vente|-2,00|-2,00|0|Oui|4|  
 
-#### Liens écritures dans la comptabilité – Table Écriture comptable article (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2"></a>Liens écritures dans la comptabilité – Table Écriture comptable article (2)
 
 |N° séquence compta.|N° écriture valeur|N° hist. transaction compta.|  
 |-------------|---------------|----------------|  
@@ -132,7 +132,7 @@ Ultérieurement, vous validez des frais annexes achat associés de 2,00 DS fact
 |7|4|2|  
 |8|4|2|  
 
-#### Écritures comptables (2)
+#### <a name="general-ledger-entries-2"></a>Écritures comptables (2)
 
 |Date comptabilisation|Compte général|N° compte (démonstration Fr-FR)|Montant|Numéro de la séquence|  
 |------------|-----------|------------------------|------|---------|  
@@ -141,7 +141,7 @@ Ultérieurement, vous validez des frais annexes achat associés de 2,00 DS fact
 |15/01/20|[Compte stocks]|2 130|-2,00|7|  
 |15/01/20|[Compte variation stock]|7 290|2,00|8|  
 
-## Ajustement automatique des coûts
+## <a name="automatic-cost-adjustment"></a>Ajustement automatique des coûts
 
 Pour configurer l’ajustement des coûts à exécuter automatiquement lorsque vous validez une transaction de stock, utilisez le champ **Ajustement automatique des coûts** sur la page **Paramètres stock**. Ce champ vous permet de sélectionner jusqu’où dans le passé vous voulez que l’ajustement automatique des coûts soit effectué. Les options possibles sont les suivantes.  
 
@@ -157,7 +157,7 @@ Pour configurer l’ajustement des coûts à exécuter automatiquement lorsque v
 
 La sélection effectuée dans le champ **Ajustement automatique des coûts** est importante pour les performances et la précision et de vos coûts. Des périodes plus courtes, telles que **Jour** ou **Semaine**, affectent moins les performances système, car elles offrent la condition plus stricte que seuls les prix validés le jour ou la semaine précédente peuvent être automatiquement ajustés. Cela signifie que l’ajustement automatique des coûts n’est pas effectué aussi fréquemment et affecte donc moins les performances du système. Toutefois, cela signifie également que les coûts unitaires peuvent être moins précis.  
 
-### Exemple :
+### <a name="example-1"></a>Exemple :
 
 L’exemple suivant présente scénario d’ajustement automatique des coûts :  
 
@@ -169,7 +169,7 @@ Si vous avez défini l’ajustement automatique des coûts pour l’appliquer au
 
 Si vous avez défini l’ajustement automatique des coûts pour l’appliquer aux validations qui se produisent à un jour ou une semaine de la date en cours, l’ajustement automatique des coûts ne fonctionne pas, et le coût de l’achat n’est pas transmis à la vente jusqu’à ce que vous exécutiez le traitement par lots **Ajuster coûts - Écr. article**.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Ajuster coûts et prix article](inventory-how-adjust-item-costs.md)  
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)  

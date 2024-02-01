@@ -12,7 +12,7 @@ ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Consolidation des données financières de plusieurs sociétés
+# <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidation des données financières de plusieurs sociétés
 
 Certaines organisations utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans plusieurs centres de profit ou entités juridiques. D’autres utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans les filiales qui doivent rendre compte aux organisations mères. [!INCLUDE [prod_short](includes/prod_short.md)] fournit aux comptables des outils qui les aident à transférer les écritures comptables de deux ou plusieurs sociétés (filiales) dans une société consolidée.  
 
@@ -36,11 +36,11 @@ Vous configurez la société consolidée de la même manière que vous configure
 > [!TIP]
 > La consolidation des données financières peut être particulièrement appropriée pour les processus intersociétés. Pour en savoir plus sur les fonctionnalités intersociétés, consultez [Gestion des transactions intersociétés](intercompany-manage.md).
 
-## Consolider les données
+## <a name="consolidate-data"></a>Consolider les données
 
 Avant de procéder à une consolidation, il est recommandé de tester vos données avant de les transférer vers la société consolidée. [!INCLUDE[prod_short](includes/prod_short.md)] recherche des différences dans les informations des centres de profit et de la société consolidée. Par exemple, si les numéros de compte ou les codes axe sont différents. Corriger les erreurs trouvées avant d’exécuter l’état. Vous pouvez tester la base de données ou, si vous importez des données à partir d’un fichier XML, le fichier.
 
-### Tester les données avant la consolidation
+### <a name="test-the-data-before-you-consolidate"></a>Tester les données avant la consolidation
 
 1. Ouvrez la société consolidée.  
 2. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Centres de profit**, puis choisissez le lien associé.  
@@ -49,7 +49,7 @@ Avant de procéder à une consolidation, il est recommandé de tester vos donné
     * Pour tester un fichier, choisissez l’action **Tester fichier**, entrez le nom du fichier à tester, puis choisissez **Imprimer**.  
     * Pour tester la base de données, choisissez **Tester base de données**.  
 
-### Exécuter la consolidation
+### <a name="run-the-consolidation"></a>Exécuter la consolidation
 
 Une fois les données testées, vous pouvez les transférer vers la société consolidée. Un guide de configuration assistée vous aide tout au long du processus.
 
@@ -60,7 +60,7 @@ Une fois les données testées, vous pouvez les transférer vers la société co
 2. Sur la page **Centres de profit**, choisissez l’action **Consolider**.  
 3. Renseignez les champs requis.  
 
-## Utiliser l’état Balance consolidée
+## <a name="use-the-consolidated-trial-balance-report"></a>Utiliser l’état Balance consolidée
 
 L’état **Balance consolidé** peut vous donner un aperçu de leur santé financière dans leur ensemble. L’état regroupe les écritures comptables de chacune de vos sociétés dans une nouvelle société que vous créez pour stocker les données consolidées. La société consolidée est un conteneur pour les données consolidées, et ne contient pas de données métier en temps réel. Les sociétés que vous incluez dans la société consolidée deviennent des **centres de profit** dans l’état. Avec quatre centres de profit maximum, vous pouvez utiliser l’état **Balance consolidée (4 stés)**.  
 
@@ -71,7 +71,7 @@ L’état affiche une ligne pour chaque compte et suit la structure du plan comp
 * Les éliminations effectuées dans la société consolidée. Elles sont toujours affichées pour une période correspondant à l’exercice comptable de la société consolidée.
 * Le total de la société consolidée après les éliminations, affiché comme solde période ou écriture ouverte.
 
-## Éliminer les transactions répétées
+## <a name="eliminate-repeated-transactions"></a>Éliminer les transactions répétées
 
 Après que vous avez consolidé toutes les sociétés, vous devez rechercher toutes les transactions enregistrées dans plusieurs sociétés, puis valider les écritures d’élimination pour les supprimer. Le traitement d’éliminations de consolidation est un processus manuel.  
 
@@ -96,7 +96,7 @@ Une ligne est créée pour chaque compte s’affiche, selon la structure du plan
 * Le texte de validation copié à partir de la feuille comptabilité.
 * Le total de la société consolidée après les éliminations, si elles sont validées.
 
-## Exporter et importer des données consolidées entre des bases de données
+## <a name="export-and-import-consolidated-data-between-databases"></a>Exporter et importer des données consolidées entre des bases de données
 
 Si les données d’un centre de profit se trouvent dans une autre base de données, vous pouvez effectuer un transfert manuel basé sur un fichier ou automatiser le processus à l’aide d’une API. Pour en savoir plus sur l’API, consultez [Utiliser notre API pour partager automatiquement des données entre les environnements](#use-our-api-to-automatically-share-data-across-environments).
 
@@ -116,11 +116,11 @@ Les écritures exportées contiennent les champs suivants : **N° compte**, **D
 3. La section analytique exportée pour la saisie est celle de la société consolidée configurée dans le champ **Code consolidation** pour cette section analytique. Si aucune section analytique de société consolidée n’a été entrée dans le champ **Code consolidé** à cette fin, la section analytique proprement dite est exportée vers la ligne.  
 4. Les fichiers XML contiennent également les taux de change devise correspondant à la période de consolidation. Ces taux sont inclus dans une section distincte au début du fichier.  
 
-## Utiliser notre API pour partager automatiquement des données entre les environnements
+## <a name="use-our-api-to-automatically-share-data-across-environments"></a>Utiliser notre API pour partager automatiquement des données entre les environnements
 
 [!INCLUDE [prod_short](includes/prod_short.md)] fournit une API qui vous permet d’automatiser le processus de partage des données financières entre les centres de profit et la société consolidée. L’API est gratuite à utiliser et facile à configurer. Elle vous permet même de partager des données entre différents environnements [!INCLUDE [prod_short](includes/prod_short.md)]. Par exemple, vous devrez peut-être partager des données entre différents environnements lorsque les centres de profit ne se trouvent pas dans les mêmes zones géographiques Azure. Pour en savoir plus sur l’utilisation de l’API pour automatiser le processus de consolidation, consultez [Configurer la consolidation de la société](finance-consolidated-company-reporting-setup.md#busunit).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Configuration de la consolidation de la société](finance-consolidated-company-reporting-setup.md)  
 [Gestion des transactions intersociétés](intercompany-manage.md)  

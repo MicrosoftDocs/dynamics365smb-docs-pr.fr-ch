@@ -10,7 +10,7 @@ ms.date: 11/10/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Utilisation des présentations Microsoft Excel
+# <a name="working-with-microsoft-excel-layouts"></a>Utilisation des présentations Microsoft Excel
 
 Les présentations d’état de Microsoft Excel sont basées sur les classeurs Excel (fichiers .xlsx). Elles vous permettent de créer des états en utilisant des fonctionnalités Excel familières pour résumer, analyser et présenter des données avec des outils comme des formules, des tableaux croisés dynamiques et des graphiques croisés dynamiques, etc.
 
@@ -18,7 +18,7 @@ Les présentations d’état de Microsoft Excel sont basées sur les classeurs E
 
 Cet article explique certaines des choses les plus importantes que vous devez savoir pour démarrer avec les présentations Excel.
 
-## Pourquoi utiliser des présentations Excel ?
+## <a name="why-use-excel-layouts"></a>Pourquoi utiliser des présentations Excel ?
 
 Avantages de l’utilisation des mises en page Excel :
 
@@ -31,14 +31,14 @@ Avantages de l’utilisation des mises en page Excel :
   - [Faire des prévisions et des analyses](https://support.microsoft.com/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4)
 - Vous pouvez utiliser les compléments installés et les intégrations d’applications, comme les flux Power Automate ou OneDrive.
 
-## Mise en route
+## <a name="get-started"></a>Mise en route
 
 Il existe essentiellement deux tâches impliquées dans la configuration d’une présentation Excel sur un état :
 
 1. Créer le nouveau fichier de présentation Excel.
 2. Ajouter la nouvelle présentation au rapport.
 
-## Tâche 1 : Créer le fichier de présentation Excel
+## <a name="task-1-create-the-excel-layout-file"></a>Tâche 1 : Créer le fichier de présentation Excel
 
 Il existe trois façons de créer un fichier de présentation Excel pour un rapport, comme expliqué dans cette section.
 
@@ -57,13 +57,13 @@ Procédez comme suit pour créer une présentation Excel à partir de n’import
 
 S’il existe déjà une présentation Excel pour un état, utilisez celle existante comme point de départ. Il existe deux approches pour obtenir une copie de la présentation. Vous pouvez exporter la présentation existante à partir de la page **Présentations d’état** ou télécharger la présentation à partir de la page de demande d’état. Les deux méthodes téléchargent un fichier de présentation Excel qui inclut toutes les feuilles du fichier existant. La différence est qu’à partir de la page de demande, la présentation inclura les données réelles. (Les données ne sont pas obligatoires, mais elles aident lors de la conception de la présentation.)
 
-#### Approche 1 : Exporter la présentation à partir de la page **Présentations d’état**
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Approche 1 : Exporter la présentation à partir de la page **Présentations d’état**
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Sélectionnez la mise en page Excel dans la liste, puis choisissez l’action **Exporter présentation** en haut de la page.
 3. Ouvrez le fichier Excel, effectuez vos modifications, puis enregistrez le fichier.
 
-#### Approche 2 : Téléchargez la présentation à partir de la page de demande de l’état
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Approche 2 : Téléchargez la présentation à partir de la page de demande de l’état
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Sur la page **Présentations d’état**, sélectionnez une présentation pour l’état, puis choisissez l’action **Exécuter état**.
@@ -76,7 +76,7 @@ Il s’agit de la méthode la plus avancée pour créer une présentation d’é
 
 ---
 
-## Tâche 2: Ajouter la présentation Excel à l’état
+## <a name="task-2-add-the-excel-layout-to-the-report"></a>Tâche 2: Ajouter la présentation Excel à l’état
 
 Une fois que vous avez le fichier de présentation Excel, la tâche suivante consiste à l’ajouter en tant que nouvelle présentation pour l’état.
 
@@ -106,7 +106,7 @@ Une fois que vous avez le fichier de présentation Excel, la tâche suivante con
 3. Report metadata 
 -->
 
-## Comprendre les présentations Excel
+## <a name="understanding-excel-layouts"></a>Comprendre les présentations Excel
 
 Il y a quelques précautions à prendre lorsque vous commencez à créer ou à modifier des présentations Excel. Chaque présentation Excel doit inclure deux éléments : une feuille de **Données** et une table de **Données**. Ces éléments forment la base de la présentation car elles définissent les données métier de Business Central avec lesquelles vous pouvez travailler. On peut comparer la feuille de **Données** à un type de contrat entre la présentation et les données métier. Vous devez utiliser ces données comme source de calculs et de visualisations à présenter sur d’autres feuilles.
 
@@ -128,7 +128,7 @@ En résumé, voici ce que vous devriez et ne devriez pas faire sur la feuille **
 - N’ajoutez aucune colonne à moins qu’elle ne soit incluse dans l’ensemble de données de l’état.
 - Vous pouvez placer les feuilles dans n’importe quel ordre, avec la feuille **Données** en premier ou en dernier.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion des présentations d’état](ui-manage-report-layouts.md)  
 [Modifier la présentation actuelle de l’état](ui-how-change-layout-currently-used-report.md)  

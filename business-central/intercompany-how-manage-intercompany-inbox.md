@@ -11,17 +11,17 @@ ms.search.keywords: incoming document
 ms.search.form: '600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611'
 ms.service: dynamics-365-business-central
 ---
-# Gérer la boîte de réception et la boîte d’envoi intersociétés
+# <a name="manage-the-intercompany-inbox-and-outbox"></a>Gérer la boîte de réception et la boîte d’envoi intersociétés
 
 Toutes les transactions intersociétés que vous recevez par voie électronique de vos partenaires intersociétés sont stockées dans la page **Boîte de réception intersociétés**. Pour savoir comment traiter les transactions intersociétés entrantes, accédez à [Traiter les transactions intersociétés entrantes](#process-incoming-intercompany-transactions). Toutes les transactions intersociétés que vous envoyez à vos partenaires intersociétés sont stockées dans la page **Boîte d’envoi intersociétés**. Pour savoir comment traiter les transactions intersociétés sortantes, accédez à [Pour traiter les transactions intersociétés sortantes](#to-process-outgoing-intercompany-transactions).
 
 Cependant, selon votre configuration inter-sociétés, certaines transactions sont gérées automatiquement. Vous pouvez configurer la société source et les sociétés partenaires pour qu’elles créent automatiquement des documents et des journaux correspondant aux transactions que les partenaires valident via la feuille comptabilité intersociétés. Pour en savoir plus sur l’utilisation des feuilles intersociétés, accédez à [Remplir et valider une feuille intersociétés](intercompany-how-work-documents-journals.md#fill-in-and-post-an-intercompany-journal).  
 
-## Organisation de la boîte de réception  
+## <a name="organizing-the-inbox"></a>Organisation de la boîte de réception
 
 Les champs de filtre, situés en haut de la page de la boîte de réception, permettent de déterminer les transactions qui apparaissent sur la page. Par exemple, si vous souhaitez uniquement consulter les transactions créées par un partenaire précis, utilisez les filtres **Source de la transaction** et **Code Partenaire Intersociétés**.  
 
-### Source de la transaction  
+### <a name="transaction-source"></a>Source de la transaction
 
 Vous pouvez utiliser une transaction différemment selon qu’elle a été :  
 
@@ -30,7 +30,7 @@ Vous pouvez utiliser une transaction différemment selon qu’elle a été :
 
 Utilisez le champ **Afficher la source de la transaction** pour filtrer la page **Transactions boîte de réception Intersociétés**, afin qu’elle n’affiche qu’un seul des types de transaction suivants. Vous pouvez également filtrer la fenêtre en fonction du partenaire Intersociétés ou de la valeur du champ **Action de la ligne**.  
 
-#### Créé(e) par votre partenaire Intersociétés  
+#### <a name="created-by-intercompany-partner"></a>Créé(e) par votre partenaire Intersociétés
 
  Lorsque vous recevez une nouvelle transaction créée par votre partenaire, vous pouvez soit :
 
@@ -38,15 +38,15 @@ Utilisez le champ **Afficher la source de la transaction** pour filtrer la page 
 * Rejeter la transaction (et la renvoyer à votre partenaire)  
 * Annuler la transaction (et la supprimer sans la renvoyer à votre partenaire)  
 
-#### Renvoyé par le partenaire Intersociétés  
+#### <a name="returned-from-intercompany-partner"></a>Renvoyé par le partenaire Intersociétés
 
 Si votre partenaire intersociété a rejeté la transaction, vous devez l’annuler dans la boîte de réception, puis créer des lignes correction, ou inverser la feuille ou le document dans votre société.  
 
-## Recréation d’écritures boîte de réception  
+## <a name="recreating-inbox-entries"></a>Recréation d’écritures boîte de réception
 
 Si vous acceptez une transaction de votre boîte de réception, mais que vous avez supprimé la feuille ou le document au lieu de le valider, vous pouvez recréer l’écriture boîte de réception et l’accepter à nouveau.  
 
-## Obtenir une présentation des transactions intersociétés pour une période  
+## <a name="get-an-overview-of-intercompany-transactions-for-a-period"></a>Obtenir une présentation des transactions intersociétés pour une période
 
 Vous pouvez afficher un aperçu des transactions intersociétés envoyées et reçues sur une période donnée. L’état **Transactions intersociétés** répertorie toutes les écritures comptables intersociétés, client et fournisseur.
 
@@ -56,7 +56,7 @@ Vous pouvez afficher un aperçu des transactions intersociétés envoyées et re
 > * Pour le partenaire de synchronisation, sur la page **Configuration intersociétés**, activez le bouton à bascule **Envoyer auto. des transactions**.
 > * Pour les sociétés partenaires, sur la page **Partenaire intersociété**, activez le bouton à bascule **Accepter auto. les transactions**.  
 
-## Importer des transactions intersociétés à partir d’un fichier
+## <a name="import-intercompany-transactions-from-a-file"></a>Importer des transactions intersociétés à partir d’un fichier
 
 [!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
 
@@ -69,7 +69,7 @@ Si l’un de vos partenaires intersociétés ne figure pas dans la même base de
 
 Les transactions sont importées dans la boîte de réception. Vous pouvez alors les traiter.
 
-## Traiter les transactions intersociétés entrantes  
+## <a name="process-incoming-intercompany-transactions"></a>Traiter les transactions intersociétés entrantes
 
 Lorsque vos partenaires intersociétés vous envoient des transactions intersociétés, celles-ci arrivent dans votre boîte de réception intersociété. Vous devez évaluer chaque transaction qu’elle contient et prendre les mesures nécessaires.  
 
@@ -84,7 +84,7 @@ Les lignes que vous rejetez et renvoyez à votre partenaire sont placées dans v
 
 Pour les lignes rejetées et renvoyées par un partenaire, vous devez à présent valider une correction de la transaction initialement validée dans votre société.
 
-## Pour traiter les transactions intersociétés sortantes  
+## <a name="to-process-outgoing-intercompany-transactions"></a>Pour traiter les transactions intersociétés sortantes
 
 Lorsque vous validez une feuille ou un document intersociété, ou que vous envoyez une confirmation de commande intersociété, les transactions sont envoyées à votre boîte d’envoi intersociété. Pour les envoyer à vos partenaires intersociétés, vous devez ouvrir la boîte d’envoi et les traiter.  
 
@@ -97,7 +97,7 @@ Utilisez l’action **Retourner à la boîte de réception** pour déplacer les 
 
 Si vous utilisez l’action **Annuler**, vous devez à présent valider une correction de la transaction initialement validée dans votre société.  
 
-## Recréer des transactions boîte de réception intersociétés  
+## <a name="recreate-intercompany-inbox-transactions"></a>Recréer des transactions boîte de réception intersociétés
 
 Vous pouvez recréer une transaction dans la boîte de réception ou d’envoi. Par exemple, si vous avez accepté une transaction dans votre boîte de réception, mais que vous avez supprimé la feuille ou le document au lieu de le valider, vous pouvez recréer l’écriture boîte de réception et l’accepter à nouveau.  
 
@@ -106,7 +106,7 @@ La procédure suivante décrit comment recréer des transactions de boîte de r�
 1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Transactions boîte de réception IC gérées**, puis choisissez le lien associé.  
 2. Sur la page **Transactions boîte de réception IC gérées**, sélectionnez la ligne contenant la transaction à recréer dans la boîte de réception, puis choisissez l’action **Recréer la transaction boîte de réception**.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion des transactions intersociétés](intercompany-manage.md)  
 [Finances](finance.md)  

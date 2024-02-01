@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Gestion des opportunités de ventes
+# <a name="managing-sales-opportunities"></a>Gestion des opportunités de ventes
 Tout prospect entrant peut être considéré comme une opportunité de vente. Vous pouvez créer des opportunités et les associer à un vendeur afin de pouvoir suivre les ventes potentielles.
 
 Avant de pouvoir utiliser la gestion des opportunités, vous devez configurer les cycles de vente et les étapes correspondantes. Lors de la création des opportunités, vous devez fournir des informations sur le contact, le vendeur, le cycle de vente et les dates, ainsi que vos estimations en terme de valeur de vente de l’opportunité et de chances de réussite.
@@ -24,7 +24,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Créer des opportunités de vente à partir de vos contacts. |[Créer des opportunités](marketing-how-create-opportunities.md) |
 | Déplacer une opportunité de vente au sein du cycle de vente jusqu’à l’achèvement. |[Traiter des opportunités de vente](marketing-processing-sales-opportunities.md) |
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Création et gestion des contacts](marketing-contacts.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

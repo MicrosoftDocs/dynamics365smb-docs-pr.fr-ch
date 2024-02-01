@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# Gérer les paramètres et les préférences de l’utilisateur
+# <a name="manage-user-settings-and-preferences"></a>Gérer les paramètres et les préférences de l’utilisateur
 
 En tant qu’administrateur, vous pouvez configurer les paramètres utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)], semblable à la façon dont les utilisateurs individuels peuvent gérer leurs propres préférences sur la page **Mes paramètres**.  
 
@@ -22,7 +22,7 @@ Obtenez un aperçu de tous les utilisateurs de la liste **Utilisateurs**, et mod
 
 La page **Carte des paramètres utilisateur** est similaire à la page **Mes paramètres** à laquelle chaque utilisateur a accès, et c’est un outil puissant pour vous en tant qu’administrateur pour définir les paramètres par défaut et effacer les pages personnalisées, par exemple.  
 
-## Types de paramètres utilisateur
+## <a name="types-of-user-settings"></a>Types de paramètres utilisateur
 
 *Paramètres utilisateur* n’est pas la même chose que *configuration utilisateur*, qui concerne l’utilisateur en tant qu’entité et l’accès de l’utilisateur dans le système. En outre, les paramètres utilisateur n’ont rien à voir avec la personnalisation d’un utilisateur, comme les modifications légères de l’interface utilisateur. Les paramètres utilisateur déterminent les paramètres prédéfinis de chaque utilisateur dans divers aspects de la façon dont l’application se présente à l’utilisateur. Le paragraphe suivant répertorie les cinq types de paramètres et préférences de l’utilisateur qui peuvent être définis par l’individu ou de manière centralisée par l’administrateur :
 
@@ -58,21 +58,21 @@ La page **Carte des paramètres utilisateur** est similaire à la page **Mes par
 > [!NOTE]
 > Si une synchronisation des utilisateurs Microsoft 365 est effectuée pendant que les utilisateurs sont connectés à [!INCLUDE[prod_short](includes/prod_short.md)], ces utilisateurs doivent actualiser le navigateur, ou se déconnecter et se reconnecter à [!INCLUDE[prod_short](includes/prod_short.md)] pour voir une langue potentiellement différente définie par l’action de synchronisation.
 
-## Vue d’ensemble de toutes les modifications spécifiques à l’utilisateur
+## <a name="overview-of-all-user-specific-changes"></a>Vue d’ensemble de toutes les modifications spécifiques à l’utilisateur
 
 En tant qu’administrateur, vous pouvez obtenir un aperçu des modifications individuelles apportées à [!INCLUDE [prod_short](includes/prod_short.md)] que chaque utilisateur peut avoir fait sur différentes pages dans [!INCLUDE [prod_short](includes/prod_short.md)]. Lorsque les utilisateurs modifient leur expérience dans [!INCLUDE [prod_short](includes/prod_short.md)], ces changements seront reflétés dans la liste **Personnalisations utilisateur**. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## Pour consulter ou supprimer les personnalisations des utilisateurs
+## <a name="to-review-or-delete-user-personalizations"></a>Pour consulter ou supprimer les personnalisations des utilisateurs
 
 1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") entrez **Pages personnalisées**, puis sélectionnez le lien associé.
 2. Cela montre la liste des utilisateurs et leurs pages personnalisées. Pour effacer la personnalisation d’un utilisateur, cliquez sur la ligne appropriée ou choisissez **Gérer**, puis **Supprimer**.
 
 Cela supprime la personnalisation et l’expérience de l’utilisateur de la page concernée revient à l’état par défaut.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Disponibilité par pays/région et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

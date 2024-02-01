@@ -9,11 +9,11 @@ ms.date: 08/29/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Aperçu des tâches de clôture des périodes comptables
+# <a name="overview-of-tasks-to-close-accounting-periods"></a>Aperçu des tâches de clôture des périodes comptables
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ne vous oblige pas à clôturer les périodes. Toutefois, il existe de nombreuses activités de clôture de période (fin de mois) que vous pouvez effectuer. Cette rubrique présente un aperçu des activités et des processus facultatifs pour les périodes de clôture.  
 
-## Écritures comptables
+## <a name="general-ledger"></a>Écritures comptables
 
 * Spécifiez des plages de date de validation à l’échelle du système.  
 
@@ -24,7 +24,7 @@ ms.service: dynamics-365-business-central
 * Exécutez les états financiers comme suit :  
   * Ouvrez la page **États financiers**, puis sélectionnez l’action **Imprimer**.  
 
-## Ventes
+## <a name="sales-and-receivables"></a>Ventes
 
 * Validez l’ensemble des commandes, factures, avoirs et retours vente.  
 * Validez l’ensemble des feuilles règlement.  
@@ -32,7 +32,7 @@ ms.service: dynamics-365-business-central
 * Rapprochez la comptabilité client de la comptabilité.  
 * Exécutez le traitement par lots **Supprimer cdes vente facturées**.  
 
-## Achats
+## <a name="purchases-and-payables"></a>Achats
 
 * Validez l’ensemble des commandes, factures, avoirs et retours achat.  
 * Validez l’ensemble des feuilles paiement.  
@@ -40,7 +40,7 @@ ms.service: dynamics-365-business-central
 * Générez l’état **Comptabilité fournisseur âgée** et rapprochez la comptabilité fournisseur de la comptabilité.  
 * Exécutez le traitement par lots **Supprimer cdes achat facturées**.  
 
-## Immobilisations
+## <a name="fixed-assets"></a>Immobilisations
 
 * Validez que tous les frais de maintenance ont été validés via les feuilles immobilisation ou factures.
 * Validez les ajustements.
@@ -48,15 +48,15 @@ ms.service: dynamics-365-business-central
 * Validez l’amortissement.
 * Mettez à jour et validez la feuille abonnement immobilisations.
 
-## Intersociétés
+## <a name="intercompany"></a>Intersociétés
 
 * Traitez les transactions intersociétés.
 
-## Calculer et traiter la taxe de vente
+## <a name="calculate-and-process-sales-tax"></a>Calculer et traiter la taxe de vente
 
 * Renseignez les déclarations de TVA.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Clôture plans](year-close-books.md)  

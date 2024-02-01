@@ -9,7 +9,7 @@ ms.date: 09/08/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Créer des flux de travail à partir de modèles de flux de travail
+# <a name="create-workflows-from-workflow-templates"></a>Créer des flux de travail à partir de modèles de flux de travail
 
 Pour gagner du temps lors de la création de flux de travail approbation, vous pouvez utiliser des flux de travail à partir de modèles de flux de travail.  
 
@@ -19,7 +19,7 @@ Un autre moyen rapide de créer un flux de travail consiste à importer un flux 
 
 Sur la page **Flux de travail**, créez un flux de travail en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de flux de travail modéré par des conditions d’événement, et une réponse de flux de travail modérée par des options de réponse. Définissez les étapes de flux de travail en renseignez les champs des lignes de flux de travail à partir de listes fixes de valeurs d’événement et de réponse qui sont les scénarios pris en charge par le code d’application. En savoir plus sur [Créer des flux de projet](across-how-to-create-workflows.md).  
 
-## Pour créer un flux de travail à partir d’un modèle de flux de travail
+## <a name="to-create-a-workflow-from-a-workflow-template"></a>Pour créer un flux de travail à partir d’un modèle de flux de travail
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Flux de travail**, puis choisissez le lien associé.  
 2. Choisissez l’action **Créer flux de travail à partir du modèle**. La page **Modèles flux de travail** s’ouvre.  
@@ -28,7 +28,7 @@ Sur la page **Flux de travail**, créez un flux de travail en répertoriant les 
    La page **Flux de travail** s’ouvre pour un nouveau flux de travail contenant toutes les informations du modèle sélectionné. La valeur du champ **Code** est étendue avec « -01 », par exemple, « -01 » pour indiquer que ce premier flux de travail est créé à partir du modèle de flux de travail.  
 4. Créez ensuite le flux de travail en modifiant les étapes de flux de travail ou en ajoutant de nouvelles étapes. En savoir plus sur [Créer des flux de projet](across-how-to-create-workflows.md).  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Création des flux de travail d’approbation](across-how-to-create-workflows.md)  
 [Exportation et importation des flux de travail d’approbation](across-how-to-export-and-import-workflows.md)  

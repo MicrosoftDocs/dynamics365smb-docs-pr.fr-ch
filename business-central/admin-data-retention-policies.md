@@ -10,11 +10,11 @@ ms.date: 12/15/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Définir des stratégies de rétention
+# <a name="define-retention-policies"></a>Définir des stratégies de rétention
 
 Cet article décrit comment les administrateurs peuvent définir des stratégies de rétention pour spécifier à quelle fréquence ils souhaitent supprimer les données obsolètes dans les tables contenant des entrées de journal et des enregistrements archivés. Par exemple, le nettoyage des entrées de journal peut faciliter l’utilisation des données plus pertinentes. Les stratégies peuvent supprimer des données en fonction d’une date d’expiration ou vous pouvez ajouter des filtres pour inclure uniquement certaines données expirées.
 
-## Paramètres et autorisations obligatoires
+## <a name="required-setups-and-permissions"></a>Paramètres et autorisations obligatoires
 
 Avant de pouvoir créer des stratégies de rétention, vous devez configurer les tables à inclure et les périodes de conservation des données.
 
@@ -28,14 +28,14 @@ En outre, vous devez disposer des autorisations d’utilisateur **AVANCÉ** ou d
 > [!NOTE]
 > Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] en local, et que vous souhaitez essayer les stratégies de rétention dans la base de données de démonstration Cronus, vous devez effectuer certaines opérations. La société de démonstration ne contient pas de tables que vous pouvez utiliser avec des stratégies de rétention, vous devez donc les ajouter. Pour ce faire, créez une société vierge dans la base de données de démonstration. Dans la nouvelle société, importez le package de configuration RapidStart pour votre pays/région qui correspond au package standard NAV17.0.W1.ENU.STANDARD.rapidstart. Les données de configuration des stratégies de rétention seront disponibles dans la nouvelle société.
 
-### Créer des périodes de rétention
+### <a name="create-retention-periods"></a>Créer des périodes de rétention
 
 Les périodes de rétention peuvent être aussi longues ou aussi courtes que vous le souhaitez. Pour créer des périodes de rétention, sur la page **Stratégies de rétention**, utilisez l’action **Durée de rétention**. Les périodes que vous définissez sont disponibles pour toutes les stratégies.
 
 > [!NOTE]
 > Pour des raisons de conformité, nous avons défini une période de rétention minimale pour certaines tables. Si vous définissez une période de rétention plus courte que le minimum requis, un message affiche la période obligatoire.
 
-### Configurer une stratégie de rétention
+### <a name="set-up-a-retention-policy"></a>Configurer une stratégie de rétention
 
 1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Stratégies de rétention**, puis choisissez le lien associé.
 2. Dans le champ **ID table**, sélectionnez la table que vous souhaitez inclure dans la stratégie.
@@ -45,13 +45,13 @@ Les périodes de rétention peuvent être aussi longues ou aussi courtes que vou
    > [!NOTE]
    > Chaque ligne a sa propre période de rétention. Si vous spécifiez des périodes de rétention différentes pour les mêmes données, la période la plus longue est utilisée. En outre, certaines tables contiennent des filtres que vous ne pouvez ni modifier ni supprimer. Pour vous aider à identifier ces filtres, ils apparaissent dans une police de couleur plus claire.
 
-#### Guidage vidéo
+#### <a name="video-guidance"></a>Guidage vidéo
 
 Cette vidéo fournit un exemple de la façon de mettre en place une politique de rétention.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fLeJ]
 
-## Appliquer des stratégies de rétention
+## <a name="apply-retention-policies"></a>Appliquer des stratégies de rétention
 
 Vous pouvez utiliser une entrée de file d’attente de tâches pour appliquer des stratégies de rétention afin de supprimer automatiquement les données, ou vous pouvez appliquer manuellement des stratégies.
 
@@ -59,11 +59,11 @@ Pour appliquer automatiquement une stratégie de rétention, créez et activez s
 
 Vous pouvez appliquer manuellement une stratégie en utilisant l’action **Appliquer manuellement** sur la page **Stratégies de rétention**. Si vous souhaitez toujours appliquer une stratégie manuellement, activez le bouton de basculement **Manuel**. L’entrée de la file d’attente des tâches ne tiendra pas compte de la stratégie lors de son exécution.
 
-## Afficher des entrées du journal des stratégies de rétention
+## <a name="view-retention-policy-log-entries"></a>Afficher des entrées du journal des stratégies de rétention
 
 Vous pouvez afficher l’activité liée aux stratégies de rétention dans la page **Journal des stratégies de rétention**. Par exemple, des entrées sont créées lorsqu’une stratégie est appliquée ou si des erreurs se sont produites.
 
-## Incluez votre extension dans une stratégie de rétention (nécessite l’aide d’un développeur)
+## <a name="include-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Incluez votre extension dans une stratégie de rétention (nécessite l’aide d’un développeur)
 
 Par défaut, les stratégies de rétention couvrent uniquement [!INCLUDE[prod_short](includes/prod_short.md)] la liste que nous fournissons. Vous pouvez supprimer les tables par défaut de la liste et ajouter des tables qui vous appartiennent. Autrement dit, vous ne pouvez pas ajouter une table que vous n’avez pas créée vous-même. Par exemple, vous ne pouvez pas ajouter d’autres tables à partir de [!INCLUDE[prod_short](includes/prod_short.md)] ou à partir d’une extension que vous avez achetée.
 
@@ -107,7 +107,7 @@ L’exemple suivant inclut un filtre obligatoire.
 
 Une fois qu’un développeur a ajouté des tables à la liste, un administrateur peut les inclure dans une stratégie de rétention. 
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Analyse de la télémétrie de suivi des stratégies de rétention](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Audit des modifications dans Business Central](across-log-changes.md)  

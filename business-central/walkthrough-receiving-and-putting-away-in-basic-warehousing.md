@@ -9,7 +9,7 @@ ms.date: 02/27/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Procédure pas à pas : Réception et rangement dans les configurations de stockage de base
+# <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procédure pas à pas : Réception et rangement dans les configurations de stockage de base
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous recevez des articles et les rangez en utilisant l’une des quatre méthodes décrites dans le tableau suivant.
 
@@ -24,7 +24,7 @@ Learn more at [Flux d’enlogement](design-details-inbound-warehouse-flow.md).
 
 La procédure pas à pas suivante illustre la méthode B dans la table précédente.  
 
-## À propos de cette procédure pas à pas  
+## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas
 
 Pour les configurations de stockage de base, lorsqu’un magasin est défini pour exiger un traitement des rangements mais pas un traitement des réceptions, utilisez la page **Rangement stock** pour enregistrer et valider les informations de rangement et de réception pour vos documents origine entrants. Les documents suivants sont des documents origine entrants :
 
@@ -51,7 +51,7 @@ Cette procédure pas à pas présente les tâches suivantes :
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## Rôles  
+## <a name="roles"></a>Rôles
 
 Les rôles utilisateur suivants effectuent les tâches qui composent cette procédure pas à pas :  
 
@@ -59,7 +59,7 @@ Les rôles utilisateur suivants effectuent les tâches qui composent cette proc�
 * Agent d’achats  
 * Magasinier  
 
-## Conditions préalables  
+## <a name="prerequisites"></a>Conditions préalables
 
 Pour exécuter ce processus pas à pas, vous devez disposer de :  
 
@@ -71,15 +71,15 @@ Pour exécuter ce processus pas à pas, vous devez disposer de :
     3. Dans le champ **Code magasin**, choisissez **ARGENT**.  
     4. Cochez la case **Par défaut**.  
 
-## Scénario  
+## <a name="story"></a>Scénario
 
 Ellen, responsable d’entrepôt chez CRONUS International Ltd., crée une commande achat de 10 unités de l’article LS-75 et 30 unités de l’article LS-81 du fournisseur 10000, qui doit être approvisionnée à l’entrepôt ARGENT. Lorsque la livraison arrive à l’entrepôt, Jean, le magasinier, range les articles dans des emplacements par défaut définis pour les articles. Lorsque Jean valide le rangement, les articles sont validés comme étant reçus dans le stock et disponibles à la vente ou pour d’autres demandes.  
 
-## Configuration du magasin  
+## <a name="setting-up-the-location"></a>Configuration du magasin
 
 Les paramètres de la page **Fiche magasin** définissent les flux d’entrepôt de la société.  
 
-### Pour configurer le magasin  
+### <a name="to-set-up-the-location"></a>Pour configurer le magasin
 
 1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis choisissez le lien associé.  
 2. Ouvrez la fiche magasin ARGENT.  
@@ -96,11 +96,11 @@ Les paramètres de la page **Fiche magasin** définissent les flux d’entrepôt
 7. Sélectionnez les champs **Fixe** et **Par défaut**.  
 8. Dans le champ **N° article**, saisissez **LS-81**.  
 
-## Créer la commande achat  
+## <a name="create-the-purchase-order"></a>Créer la commande achat
 
 Les commandes achat sont le type de document d’origine entrant le plus répandu.  
 
-### Pour créer la commande achat  
+### <a name="to-create-the-purchase-order"></a>Pour créer la commande achat
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -120,11 +120,11 @@ Les commandes achat sont le type de document d’origine entrant le plus répand
 
     La livraison des haut-parleurs provenant du fournisseur 10000 est arrivée dans l’entrepôt ARGENT. Jean procède à leur rangement.  
 
-## Recevoir et ranger des articles  
+## <a name="receive-and-put-the-items-away"></a>Recevoir et ranger des articles
 
 Utilisez la page **Rangement stock** pour gérer toutes les activités entrepôt entrantes pour un document origine spécifique, tel qu’une commande achat.  
 
-### Pour recevoir et ranger des articles  
+### <a name="to-receive-and-put-the-items-away"></a>Pour recevoir et ranger des articles
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Rangements stock**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -141,7 +141,7 @@ Utilisez la page **Rangement stock** pour gérer toutes les activités entrepôt
 
     Les 40 haut-parleurs sont à présent enregistrés comme rangés dans l’emplacement S-01-0001, et une écriture comptable article positive est créée pour refléter la réception achat validée.  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
 
 [Ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 [Configurer des entrepôts de base avec les zones d’opérations](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  

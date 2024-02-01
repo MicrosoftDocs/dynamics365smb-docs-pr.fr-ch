@@ -9,7 +9,7 @@ ms.date: 12/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gestion du chiffrement des données
+# <a name="managing-data-encryption"></a>Gestion du chiffrement des données
 Vous pouvez chiffrer des données sur le serveur [!INCLUDE[prod_short](includes/prod_short.md)] en générant de nouvelles clés de chiffrement ou en important des clés existantes que vous activez sur l’instance du serveur [!INCLUDE[prod_short](includes/prod_short.md)] qui est connectée à la base de données.
 
 Pour plus d’informations, voir [Chiffrement des données dans Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) de l’aide sur Developer and IT Pro.
@@ -17,7 +17,7 @@ Pour plus d’informations, voir [Chiffrement des données dans Dynamics 365 Bus
 > [!Note]
 > Vous pouvez activer ou désactiver le cryptage uniquement si vous utilisez une version locale de [!INCLUDE[prod_short](includes/prod_short.md)]. Le chiffrement est toujours activé pour les versions en ligne et vous ne pouvez pas le désactiver.
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
 [Administration](admin-setup-and-administration.md)
 
 

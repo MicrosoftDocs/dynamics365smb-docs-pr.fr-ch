@@ -9,21 +9,21 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# États et analyses de projet dans Business Central
+# <a name="project-reports-and-analytics-in-business-central"></a>États et analyses de projet dans Business Central
 
 Les états de projet dans [!INCLUDE [prod_short](includes/prod_short.md)] permettent aux professionnels des projets et des affaires d’obtenir des informations et des statistiques sur les activités de projet actuelles et passées.  
 
-## États
+## <a name="reports"></a>États
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
-## Tâches
+## <a name="tasks"></a>Tâches
 
 Les articles suivants décrivent certaines des tâches clés pour analyser l’état de votre entreprise :
 
 * [Surveiller la progression et les performances](projects-how-monitor-progress-performance.md)  
 
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Configuration de la gestion de projet](projects-setup-projects.md)  
 [Gestion de projets](projects-manage-projects.md)  

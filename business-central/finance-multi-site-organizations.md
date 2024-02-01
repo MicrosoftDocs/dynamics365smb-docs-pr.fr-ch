@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Business Central pour les organisations multisites et internationales
+# <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central pour les organisations multisites et internationales
 Les organisations qui ont plusieurs sites utilisent souvent un modèle commercial en étoile dans lequel une société mère, ou siège social, gère les opérations globales de l′entreprise tandis que chaque site fonctionne comme une entité unique et autonome. Les sites sont souvent répartis géographiquement et ont des besoins différents en matière de partage d′informations avec le siège social. De plus, les sites n′ont généralement pas besoin du même niveau de complexité et manquent souvent des ressources nécessaires pour conserver un système volumineux.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] offre aux petites et moyennes entreprises une solution de gestion d′entreprise facile à utiliser et à entretenir à un faible coût de possession.
 
 Cet article présente certaines façons où [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge un modèle d′entreprise en étoile.
 
-## Intégration du siège social et des sites
+## <a name="integrating-the-headquarter-company-and-the-sites"></a>Intégration du siège social et des sites
 
 [!INCLUDE[prod_short](includes/prod_short.md)] peut s′intégrer au système comptable du siège social tout en répondant aux besoins variés des différents sites, quels que soient la taille, l′emplacement ou le type d′activité.
 
@@ -25,7 +25,7 @@ Le schéma suivant est un exemple de différents sites intégrés à un siège s
 
 ![Description du diagramme générée automatiquement.](media/multisite-headquarter-sites.png)
 
-## Répondre aux besoins des sites nationaux et internationaux
+## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Répondre aux besoins des sites nationaux et internationaux
 
 Les besoins commerciaux des sites diffèrent souvent selon le secteur, les méthodes commerciales ou les relations avec le siège social. [!INCLUDE[prod_short](includes/prod_short.md)] peut être facilement adapté et étendu pour différents types d′entreprises et de paramètres régionaux. Microsoft AppSource offre une multitude d′applications Microsoft et partenaires, et les partenaires peuvent déployer rapidement [!INCLUDE[prod_short](includes/prod_short.md)] avec une perturbation minimale des opérations quotidiennes.
 
@@ -44,7 +44,7 @@ Un réseau de plus de 4 000 partenaires Microsoft dans le monde fournit une ex
 | Gérez plusieurs langues et devises. | La prise en charge de plusieurs langues et devises permet de répondre aux besoins locaux. | [Fonctions multilingues](about-locale-language.md)<br></br>[Fonctions multi-devises](finance-how-setup-additional-currencies.md) |
 
 
-## Consolidation des données financières
+## <a name="consolidate-financial-data"></a>Consolidation des données financières
 
 Une facette fondamentale du modèle commercial en étoile est la capacité pour le siège social et les sites d′échanger des données financières, même lorsque le siège social et les sites utilisent des systèmes, des structures comptables, des langues et des devises différents.
 
@@ -54,7 +54,7 @@ Une facette fondamentale du modèle commercial en étoile est la capacité pour 
 | Intégrez les structures comptables. | Transférez les données de consolidation de différentes structures comptables vers les vôtres. Format de fichier intégré pour F&O (disponible avec la deuxième vague de publication 2020) | [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)<br></br>[Préparer les comptes généraux pour la consolidation](finance-consolidated-company-reporting-setup.md#glacc) |
 | Effectuez des transactions dans plusieurs devises. | Assurez-vous que les états financiers dans différentes devises sont exacts et utilisent des taux de change corrects. | [Mettre à jour des taux de change devise](finance-how-update-currencies.md) |
 
-## Partage de Business Insight avec Integrated Analytics
+## <a name="share-business-insight-with-integrated-analytics"></a>Partage de Business Insight avec Integrated Analytics
 
 Alignez l′organisation avec vos objectifs commerciaux en offrant une compréhension commune de la réalité actuelle. L′analyse intégrée peut aider les gens à fonder leurs décisions sur le même ensemble de faits.
 
@@ -66,7 +66,7 @@ Alignez l′organisation avec vos objectifs commerciaux en offrant une compréhe
 | Analysez les données dans Excel. | Recherchez des faits, dépannez et effectuer des analyses ad hoc dans Microsoft Excel. | [Analyser les états financiers dans Excel](finance-analyze-excel.md) |
 
 
-## Échange de données à l′aide des API et des XMLports
+## <a name="exchange-data-using-apis-and-xmlports"></a>Échange de données à l′aide des API et des XMLports
 
 Les API et les XMLports simplifient le processus de connexion des instances de [!INCLUDE[prod_short](includes/prod_short.md)], y compris celles qui ont été personnalisées pour chaque site.
 
@@ -81,7 +81,7 @@ Les API et les XMLports simplifient le processus de connexion des instances de [
 | Connectez-vous aux services et solutions tiers<sup></sup>. | Les API établissent une connexion point à point entre Business Central et les services et solutions tiers<sup></sup>. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
-## Promotion d′une chaîne d′approvisionnement intersociétés efficace
+## <a name="promote-an-efficient-intercompany-supply-chain"></a>Promotion d′une chaîne d′approvisionnement intersociétés efficace
 
 Les sites ont souvent besoin d′un accès à la chaîne d′approvisionnement et des fonctions pour en gérer certains aspects. Par exemple, les sites peuvent utiliser le même fournisseur, mais gérer leurs actifs et leurs emplacements physiques séparément.
 
@@ -90,7 +90,7 @@ Les sites ont souvent besoin d′un accès à la chaîne d′approvisionnement e
 | Traitez les transactions inter-divisions comme des transactions de vente et d′achat normales. | Utilisez les validations intersociétés pour créer des documents de vente et d′achat et des écritures comptables pour des flux entiers et pour plusieurs sociétés à la fois afin d′éliminer l′écriture de données en double. | [Gestion des transactions intersociétés](intercompany-manage.md) |
 | Utilisez des processus sans papier. | Évitez les frais d′envoi, de réception et d′impression des documents. | [Documents entrants](across-income-documents.md)<br><br> [Gérer les pièces jointes, les liens et les notes sur les fiches et les documents](ui-how-add-link-to-record.md) |
 
-## Réaction rapide aux nouvelles conditions commerciales
+## <a name="respond-quickly-to-new-business-conditions"></a>Réaction rapide aux nouvelles conditions commerciales
 
 Le siège social doit être en mesure de réagir rapidement face aux changements commerciaux sur chaque site. En combinaison avec Power Automate, [!INCLUDE[prod_short](includes/prod_short.md)] peut servir de mécanisme d’alerte précoce.
 
@@ -101,7 +101,7 @@ Le siège social doit être en mesure de réagir rapidement face aux changements
 | Générez automatiquement des alertes par e-mail. | Configurez des alertes dans Power Automate qui envoie des e-mails pour vous informer des conditions métier critiques sur les sites ou chez les partenaires de la chaîne d′approvisionnement. | [Business Central et Power BI](admin-powerbi.md) |
 | Utilisez des alertes standard ou personnalisées. | Utilisez 12 modèles différents inclus pour Business Central ou configurez vos propres alertes en fonction de votre entreprise. | [Utiliser Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md) |
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Administration de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
