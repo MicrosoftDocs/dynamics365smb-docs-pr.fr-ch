@@ -3,9 +3,7 @@ title: Conformité des services et contrat de niveau de service
 description: "Du point de vue des services, Business\_Central est à la hauteur des exigences strictes et de la conformité SLA dans plusieurs certifications ISO et spécifiques à l’industrie."
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.reviewer: bholtorf
 ms.date: 06/14/2021

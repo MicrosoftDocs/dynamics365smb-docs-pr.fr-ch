@@ -7,6 +7,7 @@ ms.reviewer: bholtorf
 ms.search.keywords: null
 ms.date: 12/07/2023
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Envoyer des alertes sur les fonctionnalités réglementaires spécifiques au pays/région

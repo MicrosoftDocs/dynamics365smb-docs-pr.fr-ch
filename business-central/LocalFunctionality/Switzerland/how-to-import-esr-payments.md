@@ -3,9 +3,7 @@ title: 'Importer des paiements ESR [CH]'
 description: 'Après avoir reçu le paiement d''un client, vous pouvez recevoir le fichier ESR contenant des informations sur les factures payées par votre banque par voie électronique.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '3010531, 3010532'
 ms.date: 06/21/2021

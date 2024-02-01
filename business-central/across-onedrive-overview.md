@@ -3,7 +3,6 @@ title: Intégration de Business Central et OneDrive Entreprise
 description: 'Vous pouvez utiliser OneDrive Entreprise pour stocker, gérer et partager des fichiers, tels que des rapports ou des pièces jointes. Cela fonctionne aussi si vous tapez One Drive.'
 author: jswymer
 ms.topic: overview
-ms.workload: na
 ms.search.keywords: null
 ms.date: 02/28/2022
 ms.author: jswymer

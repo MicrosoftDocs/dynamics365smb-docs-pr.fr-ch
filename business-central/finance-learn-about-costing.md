@@ -3,9 +3,7 @@ title: À propos de l’évaluation des coûts de stock
 description: 'La gestion des coûts de stock consiste à enregistrer et à déclarer les coûts d’exploitation de l’entreprise, y compris la déclaration des coûts de fabrication et des coûts de stock.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: bholtorf

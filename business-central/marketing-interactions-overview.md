@@ -3,9 +3,7 @@ title: Créer et gérer les interactions avec les contacts
 description: "Dans Business\_Central, les interactions désignent tous les types de communication entre votre société et vos contacts. Découvrez comment créer et gérer vos contacts."
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: bholtorf

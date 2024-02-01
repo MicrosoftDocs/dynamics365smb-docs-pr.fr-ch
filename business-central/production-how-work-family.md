@@ -3,9 +3,7 @@ title: Utiliser les familles de production dans la fabrication
 description: 'Lorsque vous personnalisez un calendrier principal pour votre société ou pour l’un de ses partenaires commerciaux, votre tâche consiste essentiellement à modifier le statut des jours ouvrés et chômés.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '99000790, 99000791, 99000792, 99000793'
 ms.date: 04/01/2021
 ms.author: bholtorf

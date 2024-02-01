@@ -3,19 +3,18 @@ title: 'Conditions, niveaux et textes de relance livraison [CH]'
 description: 'Pour créer des relances livraison dans la version suisse de Business Central, vous devez configurer des conditions, des niveaux et des textes de relance livraison.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '5005270, 5005272'
 ms.date: 06/25/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a>Configurer les conditions, niveaux et textes de relance livraison dans la version suisse
+# Configurer les conditions, niveaux et textes de relance livraison dans la version suisse
 
 [!INCLUDE [delivery-reminder-terms-levels-text-setup](../includes/ATCHDE/delivery-reminder-terms-levels-text-setup.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [relances livraison](delivery-reminders.md)  
 [Configurer des relances livraison](how-to-set-up-delivery-reminders.md)  

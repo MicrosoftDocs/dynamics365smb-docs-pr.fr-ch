@@ -3,9 +3,7 @@ title: Configurer les conditions et niveaux de relance
 description: "Découvrez comment configurer Business\_Central de telle sorte que vous puissiez envoyer une relance à un client sur un paiement dû et ajouter des frais, ou des commissions au paiement en raison de retard."
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '431, 432, 436, 478'
 ms.date: 02/09/2022

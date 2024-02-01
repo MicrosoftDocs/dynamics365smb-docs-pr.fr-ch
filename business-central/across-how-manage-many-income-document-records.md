@@ -3,9 +3,7 @@ title: Définir les documents originaux à afficher
 description: 'Ajustez la vue par défaut des documents entrants, tels que des factures électroniques, afin d’améliorer votre vue d’ensemble des enregistrements traités et non-traités.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
 ms.author: bholtorf

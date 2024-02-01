@@ -3,9 +3,7 @@ title: "Détails de conception\_: paramètres entrepôt"
 description: 'La fonctionnalité d’entrepôt contient différents niveaux de complexité, qui sont largement définis par la configuration des bacs sur les cartes de localisation.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf

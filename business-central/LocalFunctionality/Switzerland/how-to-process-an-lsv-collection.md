@@ -3,9 +3,7 @@ title: 'Traiter un prélèvement LSV [CH]'
 description: Vous pouvez utiliser Feuilles LSV pour créer et traiter les paiements des clients Lastschrift Verfahren (LSV+).
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '3010830, 3010831, 3010832,3010834, 3010835'
 ms.date: 11/24/2023

@@ -3,9 +3,7 @@ title: Analyse des données par axe analytique
 description: Cet article décrit comment analyser les données d’entreprise par axes analytiques pour mieux comprendre votre activité.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '545, 555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022

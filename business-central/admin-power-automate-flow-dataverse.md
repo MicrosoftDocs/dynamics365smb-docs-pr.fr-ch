@@ -3,9 +3,7 @@ title: Utiliser un flux Power Automate pour synchroniser ponctuellement les chan
 description: Découvrez comment créer un flux dans Power Automate qui vous alertera lorsqu’une entité est modifiée dans l’environnement Dataverse.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Power Automate, Flow, Dataverse'
 ms.search.form: null
 ms.date: 09/05/2022

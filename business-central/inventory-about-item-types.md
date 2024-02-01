@@ -4,15 +4,14 @@ description: 'Vous pouvez ajuster l’évaluation du stock d’un article à l�
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '9297, 5845, 30,'
 ms.date: 06/16/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="about-item-types"></a>À propos des types d’articles
+# À propos des types d’articles
 Dans le champ **Type** de la page **Fiche article**, vous pouvez sélectionner ce pourquoi l’article est utilisé dans votre activité, ce qui a une incidence sur le niveau de gestion que vous pouvez exercer sur l’article en stock. Le tableau suivant répertorie et décrit les trois types d’éléments disponibles.
 
 |Option|Objectif courant|
@@ -32,19 +31,19 @@ Le tableau suivant répertorie les fonctions que les trois types d’article pre
 |Hors stock|Oui|Oui|Oui|Oui|Oui|Oui|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|Oui|
 |Service|Oui|Oui|Oui|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|Non|Oui|
 
-## <a name="costing-methods-for-types-of-items"></a>Modes évaluation stock pour les types d’articles
+## Modes évaluation stock pour les types d’articles
 Lorsque vous validez des transactions de stock, les changements de quantité et de valeur en stock sont enregistrés dans les écritures comptables article et les écritures valeur, respectivement. 
 
 Pour les articles de stock, le coût est enregistré dans le champ **Coût total (réel)** sur la page **Écritures valeur**, et lorsqu’il est rapproché des écritures comptables, le coût sera indiqué dans le champ **Coût validé en comptabilité**. Pour plus d’informations, voir [Détails de conception : Évaluation stock](design-details-inventory-costing.md).
 
 Pour les articles hors stock et de service, le coût est enregistré dans le champ **Coût total (non inventoriable)** sur la page **Écritures valeur**. Pour les articles hors stock et de service, le coût est spécifié sur les documents et journaux de vente, d’assemblage et de production. Le coût par défaut peut être spécifié dans le champ **Coût unitaire** sur les pages **Fiche article** et **Point de stock**. Les coûts de ces types d’articles ne sont pas rapprochés des écritures comptables. 
 
-## <a name="catalog-and-service-items"></a>Articles de catalogue et de service
+## Articles de catalogue et de service
 Les articles que vous offrez à vos clients mais que vous ne souhaitez pas gérer dans le système jusqu’à ce que vous commenciez à les vendre peuvent être définis comme des articles de catalogue. Les articles de catalogue ne doivent pas être confondus avec les articles normaux de type Hors-stock. Pour en savoir plus, voir [Utiliser des articles de catalogue](inventory-how-work-nonstock-items.md).
 
 Les articles des clients pour lesquels vous effectuez un service, par exemple une imprimante, sont appelés des articles de service. Les articles de service n’ont rien à voir avec des articles courants ou de catalogue. Cependant, les composants de service peuvent être des articles courants. Pour plus d’informations, voir [Configurer les articles de service et les composants article de service](service-how-setup-service-items.md).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Configuration de stock](inventory-setup-inventory.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  

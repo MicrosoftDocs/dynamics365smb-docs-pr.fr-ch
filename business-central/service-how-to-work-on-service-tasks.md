@@ -3,9 +3,7 @@ title: "Procédure\_: travailler sur des tâches service"
 description: Cette rubrique couvre les différentes manières de travailler sur les tâches de service. La page Tâches service offre un aperçu de tous les articles de service nécessitant une attention particulière.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf

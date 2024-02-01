@@ -3,15 +3,14 @@ title: Aperçu des tâches permettant de gérer vos ventes
 description: "Découvrez comment utiliser les services de Business\_Central pour gérer les activités de vente avec vos clients avec des factures de vente, des commandes, des devis et plus encore."
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, sell'
 ms.search.form: 253
 ms.date: 09/02/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="sales"></a>Vente
+# Vente
 
 Vous créez une facture vente ou une commande vente pour enregistrer votre accord avec un client pour vendre certains produits selon certaines conditions de livraison et de paiement.
 
@@ -53,7 +52,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Informez vos clients des dates de livraison en calculant, soit la date de simulation de délai, soit la date disponible à la vente.|[Calculer des dates promesse livraison](sales-how-to-calculate-order-promising-dates.md)|
 |Résolvez la confusion lorsque deux enregistrements ou plus existent pour le même client.|[Fusion des enregistrements en double](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Définition des ventes](sales-setup-sales.md)  
 [Enregistrement de nouveaux clients](sales-how-register-new-customers.md)  

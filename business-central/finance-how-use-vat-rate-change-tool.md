@@ -4,7 +4,6 @@ description: Apprenez à utiliser l’outil de changement de taux de TVA pour Dy
 author: jswymer
 ms.topic: conceptual
 ms.reviewer: bholtorf
-ms.workload: na
 ms.search.keywords: 'VAT, VAT rate, posting, tax, value-added tax'
 ms.search.form: '550,'
 ms.date: 06/16/2021

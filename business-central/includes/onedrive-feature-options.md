@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 |Option|Désignation|
 |------|----------|
 |**Utiliser les fonctionnalités de OneDrive pour l’application**|Si vous activez cette option, les actions **Ouvrir dans OneDrive** et **Partager** sont rendues disponibles sur les fichiers dans Business Central, comme les fichiers joints aux documents ou dans la boîte de réception état. Ces actions permettent aux utilisateurs de copier, d’ouvrir et de partager des fichiers dans OneDrive. <ul><li>Fonctionnalités Business Central qui stockent ou capturent des documents et d’autres fichiers, et qui permettent aux actions Ouvrir dans OneDrive et Partager de sortir ces fichiers de Business Central, sous la forme de documents entrants et de pièces jointes au dossier.</li><li>Fonctionnalités métier qui génèrent des classeurs Excel personnalisés, tels que les budgets de vente.</li><li>États envoyés à la boîte de réception état</li><li>Si vous avez installé des personnalisations ou des extensions, celles-ci peuvent ajouter d’autres fonctionnalités qui utilisent OneDrive.</li></ul>Pour plus d’informations, voir [Ouvrir et partager les fichiers Business Central dans OneDrive](../across-share-onedrive.md).

@@ -7,6 +7,7 @@ ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, wor
 ms.date: 12/13/2023
 ms.author: jswymer
 ms.reviewer: jswymer
+ms.service: dynamics-365-business-central
 ---
 
 # Résolution des problèmes de flux de travail automatisés [!INCLUDE[prod_short](includes/prod_short.md)]

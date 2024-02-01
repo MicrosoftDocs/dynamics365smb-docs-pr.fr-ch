@@ -3,7 +3,6 @@ title: Approuver ou rejeter des documents dans les flux de travail
 description: 'Demander, rejeter, ou déléguer une approbation de, par exemple, un document achat ou vente, dans le cadre d’un flux de travail.'
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: 'reject, delegate, request'
 ms.search.form: '654, 662, 1500,'
 ms.date: 09/12/2022

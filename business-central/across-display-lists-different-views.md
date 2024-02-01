@@ -3,9 +3,7 @@ title: Ajuster la quantité de détails affichée dans les listes
 description: 'Vous pouvez afficher les listes dans des lignes détaillées qui fournissent plus d’informations, ou en tant que vignettes faciles à analyser visuellement et qui peuvent inclure des miniatures d’image.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021

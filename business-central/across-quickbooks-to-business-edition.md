@@ -3,9 +3,7 @@ title: Transférer des données à partir d’une application QuickBooks
 description: "Vous pouvez migrer les données telles que les clients, les fournisseurs, les articles en stock et les comptes généraux des applications QuickBooks vers Business\_Central."
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, import, migrate, data, transfer, QuickBooks, customize'
 ms.search.form: 1808
 ms.date: 12/12/2023

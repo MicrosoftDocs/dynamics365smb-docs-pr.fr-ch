@@ -3,9 +3,7 @@ title: Date comptabilisation sur l’écriture valeur d’ajustement par rapport
 description: "Découvrez le scénario «\_Comparaison entre la date comptabilisation de l’écriture valeur d’ajustement et la date comptabilisation de l’écriture à l’origine de l’ajustement, comme une réévaluation ou des frais annexes\_» lors de l’exécution du traitement par lots Ajuster coûts\_: Écr. article."
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: bholtorf

@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 11/14/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Les champs **Date document** et **Date validation** dans les documents vente et achat peuvent vous aider à respecter les normes comptables et à garantir des calculs financiers exacts. Les champs répondent à différents objectifs :

@@ -3,9 +3,7 @@ title: Contenu en cours de mise à jour
 description: 'Parfois, nous apportons une modification à une fonctionnalité qui rend une vidéo trompeuse, nous supprimons donc la vidéo pendant que nous mettons à jour le contenu.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'video, library, how to'
 ms.date: 06/11/2021
 ms.author: bholtorf

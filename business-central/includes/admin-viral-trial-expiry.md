@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 02/21/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 > [!NOTE]
 > Si un essai [!INCLUDE [prod_short](prod_short.md)] n’est pas utilisé pendant 45 jours, Microsoft le considère comme expiré et l’abonné [!INCLUDE [prod_short](prod_short.md)] est supprimé.

@@ -3,9 +3,7 @@ title: "Détails de conception\_: page Lignes traçabilité"
 description: Découvrez comment gérer le flux de numéros de série et de lot dans votre stock à l’aide de la page Lignes traçabilité.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, inventory, item, tracking, serial number, lot number'
 ms.date: 06/15/2021
 ms.author: bholtorf

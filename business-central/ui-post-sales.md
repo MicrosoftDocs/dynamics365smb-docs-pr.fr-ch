@@ -3,9 +3,7 @@ title: Validation de documents vente
 description: Découvrez les différentes fonctions de validation pour valider les documents vente et comment mettre à jour les documents validés.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021

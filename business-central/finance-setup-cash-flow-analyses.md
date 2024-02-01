@@ -3,9 +3,7 @@ title: Configuration d’une analyse de trésorerie (contient une vidéo)
 description: 'Utilisez les graphiques du tableau de bord Comptes pour aider à analyser le flux de trésorerie dans vos activités, y compris les dépenses et les recettes, liquidités, et les règlements entrants moins les règlements sortants.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds'
 ms.search.form: '846, 847, 849, 851, 855, 862, 869, 1818'
 ms.date: 08/23/2022

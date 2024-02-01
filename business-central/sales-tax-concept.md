@@ -3,16 +3,15 @@ title: Taxe sur les ventes dans la version par défaut
 description: 'Découvrez comment la version de base de Business Central prend en charge la taxe sur les ventes, et obtenez une description du concept de base.'
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'tax, posting, sales tax'
 ms.search.form: '10, 315, 466, 467, 468, 469, 10015, 10016, 10101'
 ms.date: 07/21/2022
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a>Taxe sur les ventes dans la version par défaut de Business Central
+# Taxe sur les ventes dans la version par défaut de Business Central
 
 Une **taxe sur les ventes** est une taxe qui s’applique à l’achat de biens et services pour les consommateurs et à la vente de biens et services pour les entreprises. Idéalement, la taxe sur les ventes devrait s’appliquer à tous les stades de consommation finale avec quelques exemptions. Les exonérations dans les consommations finales dépendent des autorités locales mais, de manière générale, les transactions entre entreprises devraient être exemptées de la taxe sur les ventes.  
 
@@ -23,7 +22,7 @@ En général, les taxes sur les ventes s’appliquent à la vente de biens et de
 > [!IMPORTANT]
 > Bien que la taxe sur les ventes soit disponible dans la version par défaut, Microsoft prend en charge l’utilisation de la taxe sur les ventes aux États-Unis et au Canada uniquement.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Générer des déclarations sur les taxes sur les ventes aux États-Unis](localfunctionality/UnitedStates/us-sales-tax.md)  
 [Déclarer la taxe sur les ventes au Canada](localfunctionality/canada/ca-sales-tax.md)  

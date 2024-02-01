@@ -3,9 +3,7 @@ title: Validation des documents et des feuilles
 description: Cette rubrique décrit les actions de validation et les manières dont vous pouvez valider des documents et des journaux dans les différents livres comptables de l’entreprise.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 06/24/2021
 ms.search.form: null
 ms.author: bholtorf

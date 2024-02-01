@@ -3,9 +3,7 @@ title: Corriger ou annuler des factures achat impayées (contient une vidéo)
 description: Explique comment corriger ou annuler une facture achat validée et créer automatiquement un avoir achat.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '138, 140, 146'
 ms.date: 04/01/2021

@@ -1,1 +1,4 @@
+---
+ms.service: dynamics-365-business-central
+---
 Il s’agit d’une toute nouvelle fonctionnalité qui est toujours en cours d’élaboration. La fonctionnalité, et le contenu de cette page, peuvent faire l’objet de modifications. Pour découvrir les nouveautés à venir, voir [Plan de versions Microsoft Dynamics 365 Business Central](/dynamics365/release-plans/).

@@ -3,9 +3,7 @@ title: Valider le rebut manuellement
 description: 'Si le traitement produit un rebut, vous pouvez entrer ce rebut dans la feuille production. Remarquez que la quantité perte n’augmente pas la quantité produite.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 99000823
 ms.date: 03/08/2023
 ms.author: bholtorf

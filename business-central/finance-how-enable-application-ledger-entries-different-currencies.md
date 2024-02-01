@@ -3,9 +3,7 @@ title: Lettrer des écritures dans des devises différentes
 description: Vous pouvez lettrer des écritures comptables dans différentes devises si vous effectuez une vente à un client dans une devise et recevez le règlement dans une autre devise.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'multiple currencies, payment, reconcile'
 ms.search.form: '148, 460, 25'
 ms.date: 04/01/2021

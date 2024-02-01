@@ -3,9 +3,7 @@ title: Gérer le chiffrement des données | Microsoft Docs
 description: Vous pouvez chiffrer les données sur Business Central Server en générant de nouvelles clés de cryptage ou en important de existantes que bous activez sur le serveur.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/12/2023
 ms.author: bholtorf

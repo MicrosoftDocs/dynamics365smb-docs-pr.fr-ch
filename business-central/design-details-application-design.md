@@ -3,12 +3,11 @@ title: "Détails de conception\_de l’application"
 description: Ce contenu comprend des informations techniques détaillées sur les fonctionnalités d’application complexes dans Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Détails de conception de l’application
 
@@ -18,7 +17,7 @@ Le contenu des détails de conception est destiné aux implémenteurs, développ
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
-|Comprenez les mécanismes dans le moteur d’évaluation, comme le mode d’évaluation et l’ajustement des coûts, et pour quels principes de compatibilité ils sont conçus.|[Détails de conception : Évaluation stock](design-details-inventory-costing.md)|  
+|Comprenez les mécanismes dans le moteur d’évaluation, comme le mode d’évaluation et l’ajustement des coûts, et pour quels principes de compatibilité ils sont conçus.|[Détails de conception : mode d’évaluation stock](design-details-inventory-costing.md)|  
 |Découvrez comment le traitement par lots Ajuster coûts - Écr. article identifie et affecte une date comptabilisation aux écritures valeur que le traitement par lots est sur le point de créer.|[Détails de conception : date comptabilisation de l’écriture valeur d’ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)|
 |En savoir plus sur la conception des axes de stockage et validation, notamment des exemples code sur la façon de migrer et mettre à niveau le code axe analytique.|[Détails de conception : écritures d’ensemble de dimensions](design-details-dimension-set-entries-overview.md)|
 |En savoir plus sur la manière dont le système de planification fonctionne et comment modifier les algorithmes pour répondre aux exigences de planification dans différents environnements.|[Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)|  
@@ -30,8 +29,8 @@ Le contenu des détails de conception est destiné aux implémenteurs, développ
 
 [Planifié](production-planning.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
-[Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
-[Configuration des modules complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  
+[Vue d’ensemble de la gestion d’entrepôt](design-details-warehouse-management.md)  
+[Configuration des modules complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)    
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

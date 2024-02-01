@@ -3,9 +3,7 @@ title: "Procédure\_: créer des devis service"
 description: 'Découvrez comment utiliser un devis service comme brouillon d’une commande service, et convertir le devis en commande.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

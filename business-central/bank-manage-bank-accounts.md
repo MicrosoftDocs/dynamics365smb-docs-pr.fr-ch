@@ -3,9 +3,7 @@ title: Gérer les comptes bancaires
 description: Vous devez régulièrement rapprocher les écritures comptables bancaires avec les transactions bancaires associées à vos comptes bancaires.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: reconcile
 ms.search.form: '377, 378, 165, 1284'
 ms.date: 10/04/2023

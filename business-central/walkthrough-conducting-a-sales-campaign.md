@@ -3,14 +3,13 @@ title: "Procédure pas à pas\_: Mise en place d’une campagne de vente"
 description: "Cette procédure pas à pas donne un aperçu détaillé de toutes les tâches impliquées dans la conduite d’une campagne de vente dans Business\_Central."
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-conducting-a-sales-campaign"></a>Procédure pas à pas : Mise en place d’une campagne de vente
+# Procédure pas à pas : Mise en place d’une campagne de vente
 
 Une campagne désigne tout type d’activité impliquant plusieurs contacts. La sélection du public cible de votre campagne représente une étape importante de la configuration. Pour ce faire, dans [!INCLUDE[prod_short](includes/prod_short.md)], créez un segment ou un groupe de contacts à l’aide de filtres.  
 
@@ -18,7 +17,7 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 
  Les fonctionnalités Campagne et Segment et les processus automatisés associés vous permettent de planifier, d’organiser et de suivre vos activités de marketing. Ainsi, vos chances de gagner de nouveaux clients et de fidéliser les clients existants augmentent.  
 
-## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas
+## À propos de cette procédure pas à pas
 
  Cette procédure pas à pas répertorie les étapes de suivi d’un salon commercial, ainsi que les étapes de ciblage des clients potentiels (contacts) dans une campagne de suivi.  
 
@@ -31,18 +30,18 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 - envoi de lettres aux contacts ;  
 - enregistrement des réponses de campagne.  
 
-## <a name="roles"></a>Rôles
+## Rôles
 
  Cette procédure pas à pas présente les tâches effectuées par les rôles utilisateur suivants :  
 
 - Directeur marketing ou directeur des ventes  
 - Membre de l’équipe marketing  
 
-## <a name="prerequisites"></a>Conditions préalables
+## Conditions préalables
 
  Avant d’exécuter cette procédure pas à pas, veuillez installer [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="story"></a>Scénario
+## Scénario
 
  Le directeur marketing du département Ventes de CRONUS est responsable de la planification et de l’exécution des campagnes. Le responsable marketing prend les décisions relatives à la participation ou non de la société à des salons commerciaux et évalue l’évolution des campagnes.  
 
@@ -56,11 +55,11 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 
  Les membres de l’équipe marketing aident à l’envoi de lettres de remerciement à tous les contacts qui ont laissé leur carte de visite sur le stand. Le directeur marketing enregistre toutes les réponses reçues de la part des prospects.  
 
-## <a name="setting-up-a-campaign"></a>Configuration d’une campagne
+## Configuration d’une campagne
 
  Dès que les membres de l’équipe ont entré les cartes de visite reçues lors du salon commercial, le directeur marketing configure une fiche campagne visant à gérer les activités associées.  
 
-### <a name="to-set-up-a-campaign"></a>Pour configurer une campagne
+### Pour configurer une campagne  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Campagnes**, puis choisissez le lien associé.  
 2. Choisissez l’action **Nouveau** pour créer une campagne. Dans la fiche campagne, sélectionnez <kbd>Entrée</kbd> pour qu’un numéro de campagne soit automatiquement inséré.  
@@ -68,13 +67,13 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 4. Choisir le champ **Code statut** et sélectionnez le code statut « 1-PLAN ». 
 5. Renseignez les champs **Date début** et **Date fin** de la campagne en fonction des besoins.  
 
-## <a name="selecting-the-target-audience"></a>Sélection du public cible
+## Sélection du public cible
 
  Le directeur marketing crée un segment pour sélectionner les contacts avec lesquels il souhaite interagir.  
  
  Lorsque vous créez un segment, vous pouvez utiliser divers critères pour sélectionner les contacts qui doivent être des cibles pour le segment. Par exemple, vous pouvez sélectionner des personnes travaillant sur le site ou des prospects responsables des achats pour leur société. Utilisez des filtres pour ajouter des contacts en fonction des critères correspondant le mieux à vos besoins. Par exemple, vous pouvez choisir de filtrer la responsabilité du contact, les relations d’affaires ou le secteur d’activité de la société. Pour cette procédure pas à pas, nous choisissons le filtre **Responsabilité** pour sélectionner les contacts.
 
-### <a name="to-create-a-segment-with-the-relevant-contacts"></a>Pour créer un segment avec les contacts appropriés
+### Pour créer un segment avec les contacts appropriés  
 
 1. Choisissez l’action **Naviguer**, puis choisissez **Segments**.  
 2. Choisissez l’action **Nouveau** pour créer un segment. Dans la fiche segment, sélectionnez **Entrée** pour qu’un numéro de segment soit automatiquement inséré.  
@@ -87,18 +86,18 @@ La page **Segment** inclut désormais une liste de contacts basée sur le filtre
 > [!NOTE]  
 > Vous pouvez enregistrer vos critères de segmentation pour qu’il soient réutilisés ultérieurement.
 
-### <a name="to-save-your-segmentation-criteria"></a>Pour enregistrer vos critères de segmentation
+### Pour enregistrer vos critères de segmentation
 
 1. Sur la page **Segment**, sélectionnez **Actions**.
 2. Choisissez **Fonctions**, puis **Segment**, puis choisissez l’action **Enregistrer critères**.  
 3. Sur la page **Critères segment enregistrés**, entrez un code pour le segment. Dans le champ **Description**, entrez la description des critères segment.
 4. Cliquez sur le bouton **OK**.  
 
-## <a name="mining-the-data"></a>Exploration de données
+## Exploration de données
 
  Le directeur marketing observe attentivement la liste segmentée des contacts et réalise que la liste est bien trop longue. Il décide de la réduire en se basant sur de véritables prospects afin d’être certain de se concentrer sur le bon groupe cible. Ce processus de réduction et de redéfinition des données porte également le nom d’exploration de données.  
 
-### <a name="to-remove-contacts-from-the-segment"></a>Pour supprimer des contacts du segment
+### Pour supprimer des contacts du segment  
 
 1. Sur la page **Segment**, sélectionnez **Actions**.
 2. Dans la barre de menus ci-dessous, choisissez **Fonctions**, **Contacts**, puis **Réduire les contacts**.  
@@ -111,28 +110,28 @@ La page **Segment** inclut désormais une liste de contacts basée sur le filtre
  > [!NOTE]  
  > Si vous devez annuler la suppression d’un groupe de contacts, utilisez la fonction **Annuler dernière action**. En d’autres termes, vous pouvez annuler la dernière segmentation.  
 
-### <a name="to-bring-back-the-removed-contacts"></a>Pour rétablir les contacts supprimés
+### Pour rétablir les contacts supprimés
 
 1. Sur la page **Segment**, sélectionnez l’action **Segment**.
 2. Sélectionnez l’action **Annuler dernière action**.
 
 Les contacts que vous venez de supprimer sont rajoutés à la liste des contacts.
 
-## <a name="linking-a-segment-to-a-campaign"></a>Association d’un segment à une campagne
+## Association d’un segment à une campagne
 
 Le directeur marketing décide que la liste réduite fera office de liste finale et servira pour la campagne. Pour cela, il associe le segment à la campagne Salon FUTURUS.  
 
-### <a name="to-link-a-segment-to-the-campaign"></a>Pour associer un segment à une campagne
+### Pour associer un segment à une campagne  
 
 1. Sur la page **Segment**, dans le raccourci **Campagne**, sélectionnez le champ **N° campagne** pour sélectionner la campagne à laquelle vous souhaitez lier le segment, par exemple, **CP0001**.
 2. Sélectionnez **Oui**.  
 3. Puisque ce segment représente la cible de la campagne, cochez la case **Cible campagne** et choisissez **Oui**.  
 
-## <a name="sending-letters-and-email-messages-to-contacts"></a>Envoi de lettres et de messages électroniques à des contacts
+## Envoi de lettres et de messages électroniques à des contacts
 
  Les membres de l’équipe marketing aident le directeur marketing à envoyer une correspondance aux prospects, dans laquelle il les remercie de leur visite au salon.
 
-### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>Pour utiliser un segment afin d’envoyer une lettre à un contact :
+### Pour utiliser un segment afin d’envoyer une lettre à un contact :  
 
 > [!NOTE]  
 > Dans cette procédure, vous devez joindre un document Word. Vous pouvez ajouter des pièces jointes dans n’importe quelle langue.
@@ -160,7 +159,7 @@ Une fois le segment journalisé, chaque lettre envoyée est enregistrée en tant
 
 Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures journal interaction**, puis choisissez le lien associé. Chaque lettre envoyée est associée à une entrée.  
 
-### <a name="to-send-an-email-message-to-a-contact"></a>Pour envoyer un message électronique à un contact :
+### Pour envoyer un message électronique à un contact :  
 
 1. Sur le raccourci **Interaction**, dans le champ **Code modèle interaction**, sélectionnez un modèle de lettre commerciale, code **BUS**.  
 2. Dans le champ **Sujet (par défaut)**, entrez le texte exemple suivant : **Merci de votre visite au salon**.  
@@ -173,13 +172,13 @@ Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-sear
 
  Les lettres sont automatiquement envoyées par courrier électronique et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est enregistré dans la liste des segments journalisés. Pour voir cette liste, sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Segments journalisés**, puis sélectionnez le lien associé.  
 
-## <a name="registering-campaign-responses"></a>Enregistrement des réponses de campagne
+## Enregistrement des réponses de campagne
 
  Au cours des semaines suivantes, les prospects répondent à la lettre. Le directeur marketing souhaite assurer le suivi des réponses et enregistre ces interactions.  
 
  Pour cela, configurez un segment pour les contacts ayant répondu à la lettre.  
 
-### <a name="to-register-campaign-responses"></a>Pour enregistrer les réponses de la campagne
+### Pour enregistrer les réponses de la campagne  
 
 1. Sur la page **Segment**, sur le raccourci **Interaction**, choisissez le champ **Code modèle interaction**.  
 
@@ -193,7 +192,7 @@ Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-sear
 7. Sur la page **Segment**, sélectionnez l’action **journal**.  
 8. Sur la page **Journaliser segment**, décochez la case **Envoyer les documents joints**. Choisissez ensuite le bouton **OK** pour confirmer le message indiquant que le segment a été journalisé.  
   
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 [Gestion des relations](marketing-relationship-management.md)  
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
  [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

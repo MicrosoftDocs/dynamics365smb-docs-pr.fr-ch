@@ -3,9 +3,7 @@ title: 'Imprimer les informations liées aux paramètres comptabilité [CH]'
 description: 'Avant d''utiliser Business Central dans vos affaires quotidiennes, vous pouvez exécuter le rapport Informations de configuration Comptabilité pour afficher les données de base que vous avez définies.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf

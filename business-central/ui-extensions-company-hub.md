@@ -3,9 +3,7 @@ title: Utilisation du Hub Entreprise
 description: Offre des informations sur l’extension du Hub Entreprise que vous pouvez utiliser pour gérer votre travail dans plusieurs entreprises dans Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: null
 ms.search.form: '1151, 1152, 1153, 1154, 1155, 1165, 1166, 1167,'
 ms.date: 04/01/2021

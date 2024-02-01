@@ -3,9 +3,7 @@ title: Paramétrage de la gestion des services | Microsoft Docs
 description: Aperçu des tâches de paramétrage de la gestion des services en fonction de la manière dont vos partenaires gère leurs services.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, service items, repairs, maintenance, fix'
 ms.date: 04/01/2021
 ms.author: bholtorf

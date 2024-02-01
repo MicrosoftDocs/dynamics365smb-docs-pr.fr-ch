@@ -3,9 +3,7 @@ title: Extension Envoyer un avis de remise | Microsoft Docs
 description: 'Décrit l’extension Envoyer un avis de remise, qui permet d’envoyer par e-mail un avis de remise à partir de la feuille paiement et et de le renvoyer à partir des écritures comptables fournisseur.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, add-in, manifest, customize, stream, remittance, advice'
 ms.date: 07/06/2021
 ms.author: bholtorf

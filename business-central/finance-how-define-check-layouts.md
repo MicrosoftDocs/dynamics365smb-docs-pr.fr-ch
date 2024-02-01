@@ -3,9 +3,7 @@ title: Spécifier la mise en page d’un chèque
 description: Vous pouvez concevoir et imprimer vos chèques dans différents formats pour respecter des normes définies par vos autorités locales.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'print check, customize'
 ms.search.form: '374, 404'
 ms.date: 06/16/2021

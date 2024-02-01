@@ -3,9 +3,7 @@ title: Rechercher les écritures associées aux documents
 description: 'Découvrez comment rechercher des documents, des contacts professionnels et des écritures d’éléments associés entre eux.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022

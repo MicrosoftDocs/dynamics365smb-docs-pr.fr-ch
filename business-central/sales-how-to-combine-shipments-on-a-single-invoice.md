@@ -3,9 +3,7 @@ title: "Procédure\_: Regroupement de bons de livraison sur une seule facture | 
 description: 'Si vous souhaitez facturer plusieurs bons de livraison à la fois, vous pouvez utiliser la fonction de regroupement des bons de livraison.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/16/2021
 ms.author: bholtorf

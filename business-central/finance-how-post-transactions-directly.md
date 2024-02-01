@@ -3,9 +3,7 @@ title: Enregistrer les frais ou des revenus directement dans la comptabilité
 description: 'Pour les activités économiques qui ne sont pas représentés par un document, vous pouvez créer les transactions associées en validant des lignes de feuille sur la page Feuille comptabilité.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'direct posting, general ledger'
 ms.search.form: '39, 251'
 ms.date: 06/16/2021

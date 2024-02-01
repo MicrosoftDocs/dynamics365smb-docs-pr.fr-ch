@@ -3,9 +3,7 @@ title: Acquérir des immobilisations
 description: 'Vous pouvez paramétrer une immobilisation, attribuer une loi d’amortissement et enregistrer le coût d’acquisition de l’immobilisation.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: purchase fixed asset
 ms.search.form: '5605, 5551, 5600, 5628, 5629, 5633'
 ms.date: 10/04/2023

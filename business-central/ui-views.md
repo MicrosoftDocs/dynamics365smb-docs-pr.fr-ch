@@ -3,9 +3,7 @@ title: Enregistrer et personnaliser les vues de liste
 description: 'Découvrez comment créer vos propres vues pour les listes filtrées et la manière d’enregistrer, de renommer et de gérer ces vues.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: null
 ms.date: 11/02/2023
 ms.author: bholtorf

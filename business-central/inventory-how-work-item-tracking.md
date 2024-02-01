@@ -8,8 +8,9 @@ ms.topic: conceptual
 ms.search.forms: '6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550,'
 ms.date: 12/19/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="track-items-with-serial-lot-and-package-numbers"></a>Effectuer le suivi des articles avec les numéros lot, de série et paquet
+# Effectuer le suivi des articles avec les numéros lot, de série et paquet
 
 Vous pouvez attribuer des numéros de série, lot et de paquet à n’importe quel document sortant ou entrant, puis afficher les écritures traçabilité validées dans les écritures comptables articles correspondantes. Vous effectuez le suivi sur la page **Lignes traçabilité**, que vous pouvez ouvrir depuis les documents entrants ou sortants.
 
@@ -20,7 +21,7 @@ Les champs de quantité figurant en haut de la page **Lignes traçabilité** aff
 > [!NOTE]  
 > Pour que les fonctionnalités décrites dans cet article fonctionnent, vous devez d’abord configurer le suivi des articles. Pour plus d’informations, voir [Configurer le suivi des articles avec les numéros lot, de série et de récépissé](inventory-how-setup-item-tracking.md).
 
-## <a name="item-tracking-availability"></a>Disponibilité de la traçabilité
+## Disponibilité de la traçabilité
 
 Lorsque vous travaillez avec des numéros de série, lot et paquets, [!INCLUDE[prod_short](includes/prod_short.md)] calcule les informations de disponibilité et les affiche dans les diverses pages de traçabilité. Cela vous permet de savoir l’utilisation d’un numéro lot, de série ou de paquet sur d’autres documents. Ces informations réduisent les erreurs et incertitudes liées aux doubles affectations.
 
@@ -41,7 +42,7 @@ Les pages **Liste information n° de lot/n° de série**, **Disponibilité n° d
 
 Si vous travaillez sur la page **Lignes traçabilité** pendant une longue période ou s’il y beaucoup d’activité en lien avec l’article avec lequel vous travaillez, vous pouvez mettre à jour les informations de disponibilité en sélectionnant l’action **Actualiser disponibilité**. En outre, la disponibilité de l’article est automatiquement revérifiée lorsque vous fermez la page afin de confirmer qu’il n’y a pas de problème de disponibilité.
 
-## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Pour affecter des numéros de série ou de lot lors d’une transaction entrante
+## Pour affecter des numéros de série ou de lot lors d’une transaction entrante
 
 Vous souhaiterez peut-être suivre les articles dès leur arrivée. Dans ce cas, la commande fournisseur est souvent le document central. Cependant, vous pouvez effectuer la traçabilité depuis n'importe quel document entrant, puis afficher les écritures document validées dans les écritures comptables articles correspondantes.
 
@@ -72,7 +73,7 @@ Les champs de quantité figurant dans l’en-tête du formulaire affichent de fa
 
 Lorsque vous validez le document, les entrées de traçabilité sont transférées vers les écritures comptables article associées.
 
-### <a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a>Pour traiter les numéros de série et de lot lors de l’obtention des lignes réception à partir d’une facture achat
+### Pour traiter les numéros de série et de lot lors de l’obtention des lignes réception à partir d’une facture achat
 
 Lorsque vous obtenez une réception validée ou des lignes expédition des factures associées et des avoirs, toutes les lignes traçabilité sur les documents entrepôt sont transférées automatiquement. Cependant, elles sont traitées d’une manière particulière.
 
@@ -100,14 +101,14 @@ Dans ces cas, les lignes traçabilité préexistantes sont automatiquement trans
 
 Vous ne pouvez pas modifier les champs **N° de série** et **N° de lot**. Vous pouvez toutefois supprimer des lignes entières ou modifier les quantités pour refléter les modifications apportées à la ligne origine.  
 
-## <a name="to-assign-a-serial-or-lot-number-during-an-outbound-transaction"></a>Pour affecter un numéro de série ou de lot lors d’une transaction sortante
+## Pour affecter un numéro de série ou de lot lors d’une transaction sortante
 
 Le traitement en sortie des numéros de série ou de lot est une tâche fréquente qui est réalisée au cours de différents processus entrepôt. Il existe deux méthodes pour ajouter des numéros de série et de lot aux transactions sortantes :  
 
 - Sélectionnez parmi les numéros de série ou de lot existants. Cela s’applique lorsque des numéros traçabilité ont été affectées au cours d’une transaction entrante.
 - Affectez des numéros de série ou de lot lors de transactions sortantes. Cela s’applique lorsque des numéros traçabilité ne sont pas affectés à des articles jusqu’à ce qu’ils soient vendus et prêts à être expédiés.
 
-### <a name="to-select-from-existing-serial-or-lot-numbers"></a>Pour effectuer une sélection parmi les numéros de série ou de lot existants
+### Pour effectuer une sélection parmi les numéros de série ou de lot existants  
 
 Lorsque vous travaillez sur des articles nécessitant une traçabilité et que vous créez des transactions sortantes, vous devez généralement sélectionner les numéros de lot ou de série de ceux déjà présents dans le stock.
 
@@ -126,7 +127,7 @@ Les champs de quantité figurant dans l’en-tête du formulaire affichent de fa
 
 Lorsque vous validez la ligne document, les informations de traçabilité sont transférées vers les écritures comptables article associées.
 
-### <a name="to-assign-new-serial-or-lot-numbers"></a>Pour affecter les nouveaux numéros lot ou de série
+### Pour affecter les nouveaux numéros lot ou de série  
 
 Ce processus s’applique lorsque les articles n’ont pas de numéro de série ou de lot alors qu’ils sont en stock. Cela s’applique lorsque des numéros traçabilité ne sont pas affectés à des articles jusqu’à ce qu’ils soient vendus et prêts à être expédiés. Dans ce cas, les numéros sont généralement attribués à partir d’une souche de numéros prédéfinie.
 
@@ -147,11 +148,11 @@ Les champs de quantité figurant en haut s’affichent de façon dynamique les q
 
 Lorsque le document est validé, les entrées de traçabilité sont transférées vers les écritures comptables article associées.
 
-### <a name="assign-tracking-numbers-on-source-documents"></a>Attribuer des numéros de suivi sur les documents sources
+### Attribuer des numéros de suivi sur les documents sources
 
 Certaines entreprises définissent des numéros de série ou de lot spécifiques sur le document source, tel que les commandes client. Par exemple, si un client demande un lot spécifique. Lorsque le document prélèvement stock ou entrepôt est créé à partir d’un document origine sortant sur lequel les numéros de série ou de lot sont déjà définis, tous les champs de la page **Lignes traçabilité** dans le prélèvement stock sont en lecture seule. La seule exception est le champ **Qté à traiter**. Dans ce cas, les lignes prélèvement stock indiquent les numéros traçabilité sur chaque ligne prélèvement et rangement. La quantité est déjà répartie dans des combinaisons de numéros de série ou lot uniques, car la commande vente spécifie les numéros traçabilité à expédier.
 
-## <a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a>Pour traiter les numéros de série et de lot dans les ordres de transfert
+## Pour traiter les numéros de série et de lot dans les ordres de transfert
 
 Les procédures de traitement des numéros de série et de lot transférés entre les différents magasins sont similaires à celles qui sont appliquées lorsque les articles sont achetés et vendus.  
 
@@ -167,7 +168,7 @@ Toutefois, les ordres de transfert sont uniques dans le sens où l’expédition
 
 Au cours du transfert, vous ne pouvez pas changer les valeurs sur la page **Lignes traçabilité**.  
 
-## <a name="to-record-additional-serial-or-lot-number-information"></a>Pour enregistrer des informations supplémentaires relatives au numéro de série ou de lot
+## Pour enregistrer des informations supplémentaires relatives au numéro de série ou de lot
 
 Vous pouvez lier des informations particulières à un numéro traçabilité, par exemple pour l’assurance qualité, sur une fiche informations de numéro de série/lot.
 
@@ -185,7 +186,7 @@ Alternatively, you can create an information card when you post journals or docu
 
 Vous pouvez modifier ultérieurement les fiches d’informations de série ou de lot créées.
 
-## <a name="to-modify-existing-serial-or-lot-number-information"></a>Pour modifier des informations relatives au numéro de série ou de lot
+## Pour modifier des informations relatives au numéro de série ou de lot
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Sélectionnez un article qui comporte un code traçabilité et des informations de numéro de série ou de lot.
@@ -196,7 +197,7 @@ Vous pouvez modifier ultérieurement les fiches d’informations de série ou de
 
 Vous ne pouvez pas modifier les numéros de série ou de lot ni les quantités. Pour ce faire, vous devez reclasser l’écriture comptable article concerné. Pour en savoir plus sur le reclassement des numéros de série et de lot, consultez [Reclasser les numéros de série ou de lot](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
-## <a name="to-reclassify-serial-or-lot-numbers"></a>Pour reclasser les numéros de lot ou de série
+## Pour reclasser les numéros de lot ou de série
 
 Le reclassement de la traçabilité pour un article consiste à remplacer un numéro de lot ou de série par un autre ou à remplacer la date de péremption par une autre. Si vous utilisez des lots, vous pouvez fusionner plusieurs lots en un seul. Utilisez un journal de reclassement des articles pour exécuter ces tâches.
 
@@ -226,7 +227,7 @@ Le reclassement de la traçabilité pour un article consiste à remplacer un num
 8. Si vous voulez modifier les informations existantes du numéro de lot ou de série, vous pouvez enregistrer des informations de lot ou de série.  
 9. Validez la feuille pour lier les nouveaux numéros traçabilité ou dates d’expiration à l’écriture comptable article qui leur est associée.
 
-## <a name="scan-barcodes-with-the-business-central-mobile-app"></a>Scanner les codes-barres avec l’application mobile Business Central
+## Scanner les codes-barres avec l’application mobile Business Central
 
 [!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
 
@@ -243,7 +244,7 @@ Les tableaux suivants répertorient les pages qui prennent en charge la numéris
 |Ligne activité entrepôt     |* N° de série<br><br>* N° lot<br><br>* N° paquet<br><br>**Remarque** : Les pages suivantes utilisent la page Ligne d’activité d’entrepôt :<br><br>* page 5780 « Sous-formulaire Prélèvement entrepôt »<br><br>* page 7378 « Sous-formulaire prélèvement stock »<br><br>* page 5771 « Sous-formulaire Rangement entrepôt »<br><br>* page 7316 « Sous-formulaire mouvement entrepôt »<br><br>* page 7376 « Sous-formulaire rangement stock »<br><br>* page 7383 « Sous-formulaire mouvement stock »        |
 |Feuilles d’inventaire Journal entrepôt     |* N° de série<br><br>* N° lot<br><br>* N° paquet         |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configuration du suivi des articles avec les numéros lot, de série et de paquet](inventory-how-setup-item-tracking.md)  
 [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  

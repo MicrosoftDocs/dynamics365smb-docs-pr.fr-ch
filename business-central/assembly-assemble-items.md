@@ -9,8 +9,9 @@ ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
+ms.service: dynamics-365-business-central
 ---
-# <a name="assembly-management"></a>Gestion des assemblages
+# Gestion des assemblages
 
 Les entreprises peuvent fournir des produits aux clients en combinant des composants sans utiliser de fonctions de fabrication. Les fonctions d’assemblage d’articles s’intègrent aux fonctions associées telles que les ventes, la planification, les réservations et l’entreposage.  
 
@@ -51,7 +52,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Apprenez à utiliser les nomenclatures d’assemblage et leurs différences avec les nomenclatures de production.|[Utilisation des nomenclatures d’assemblage](assembly-how-work-assembly-boms.md)|
 |Découvrez plus d’informations sur la validation de la consommation de l’assemblage et de la production, et sur la manière dont [!INCLUDE [prod_short](includes/prod_short.md)] répartit les coûts des articles et des ressources dans la comptabilité.|[Détails de conception : validation d’ordre d’assemblage](design-details-assembly-order-posting.md)|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utilisation des nomenclatures](inventory-how-work-BOMs.md)  
 [Stock](inventory-manage-inventory.md)  

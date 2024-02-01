@@ -3,9 +3,7 @@ title: Créer le contenu d’un emplacement
 description: 'Une fois que vous avez configuré vos emplacements, vous pouvez spécifier les articles à y stocker et configurer des règles qui contrôlent la fréquence de remplissage des emplacements.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: bholtorf

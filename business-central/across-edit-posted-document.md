@@ -3,9 +3,7 @@ title: Modifier les documents vente et achat validés
 description: Cette rubrique explique comment mettre à jour les informations sur un document publié comme une expédition de vente ou une facture d’achat lorsque des informations pertinentes ont changé.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.keywords: 'Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document'
 ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'

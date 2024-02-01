@@ -3,9 +3,7 @@ title: Rapprocher les coûts ajustés avec la comptabilité
 description: 'À la fin de la période comptable, une série de tâches de contrôle des coûts et d’audit doivent être effectuées pour déclarer une valeur en stock correcte et équilibrée au département Finances.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.form: 9297
 ms.date: 06/16/2021

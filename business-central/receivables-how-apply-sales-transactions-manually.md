@@ -3,9 +3,7 @@ title: Rapprocher des paiements clients avec la Feuille règlement ou les Écrit
 description: Décrit comment lettrer des règlements ou des remboursements client dans une ou plusieurs écritures comptables client ouvertes. Cela fait partie du rapprochement des paiements des clients.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment process, cash receipt'
 ms.search.form: '25, 255'
 ms.date: 04/01/2021

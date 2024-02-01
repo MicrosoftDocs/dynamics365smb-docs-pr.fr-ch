@@ -3,9 +3,7 @@ title: Enregistrer et ajuster l’utilisation et les prix des ressources
 description: 'Décrit la manière dont vous pouvez enregistrer l’utilisation ou la consommation ressource associée à un projet, de garder la trace et de gérer les coûts, les prix, ainsi que les types de travaux.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '201,206, 207, 271, 493'
 ms.date: 03/08/2023

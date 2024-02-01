@@ -3,20 +3,19 @@ title: Aperçu des tâches pour clôturer les livres
 description: 'En savoir plus sur le processus de clôture des livres d’un exercice ou d’une période fiscale, et ce qui a lieu après la clôture à la fin d’un exercice.'
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="closing-the-books"></a>Clôture des livres
+# Clôture des livres
 Après vous être assuré que tous vos comptes sont à jour et avoir ventilé les coûts et les bénéfices, vous pouvez clôturer les livres d’un exercice ou d’une période comptable.
 
 Vous n’êtes pas obligé de clôturer un exercice mais cela vous aidera à travailler plus facilement dans le système parce que vous serez en mesure de bénéficier des options de filtrage commodes à votre disposition. Vous ne devrez pas vous préoccuper de la perte de détails de transactions lors de la clôture parce que tous les détails sont conservés, même après la clôture de l’année.
 
-## <a name="closing-book-process"></a>Processus de clôture des livres
+## Processus de clôture des livres
 Le processus de clôture d’un livre inclut les tâches principales suivantes :
 
 1. Clôture de la période comptable.
@@ -38,14 +37,14 @@ Le processus de clôture d’un livre inclut les tâches principales suivantes 
 
     Pour plus d’informations, reportez-vous à [Valider une écriture de clôture d’exercice](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>Ce qui se produit lorsque vous clôturez
+## Ce qui se produit lorsque vous clôturez
 Lorsque vous clôturez en fin d’exercice, le système déplace votre bénéfice des bénéfices calculés vers le compte Réserve. Le système marque également l’exercice comptable comme « clôturé » et toutes les écritures suivantes pour l’exercice clôturé comme « écritures de l’exercice précédent ».
 
 Le système génère ensuite une écriture de clôture mais ne la valide pas automatiquement. Vous avez la possibilité de créer les écritures comptables de fonds propres de décalage qui vous permettent de choisir la manière dont vous voulez affecter votre écriture de clôture. Par exemple, si votre société comprend plusieurs départements, vous pouvez laisser le système générer une écriture de clôture unique pour tous les départements et créer une écriture de décalage pour le compte de fonds propres de chaque département.
 
 Vous pouvez valider dans un exercice comptable précédent, même après la clôture des comptes résultats, si vous exécutez de nouveau le traitement par lots Solder les comptes de gestion par la suite.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utiliser des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

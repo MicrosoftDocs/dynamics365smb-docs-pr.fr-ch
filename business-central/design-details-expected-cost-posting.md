@@ -3,9 +3,7 @@ title: "Détails de conception\_-\_Validation du coût prévu"
 description: 'Les coûts prévus représentent l’estimation, par exemple, du coût d’un article acheté que vous enregistrez avant la réception de la facture de cet article.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 07/20/2021
 ms.author: bholtorf

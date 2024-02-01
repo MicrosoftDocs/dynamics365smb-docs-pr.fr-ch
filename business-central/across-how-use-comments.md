@@ -3,9 +3,7 @@ title: Ajouter des commentaires aux fiches et aux documents
 description: 'Ajoutez des informations supplémentaires dans les comptes, les fiches client, ou les commandes vente pour communiquer des accords, tels qu’un prix spécial ou un mode de livraison, pour d’autres utilisateurs.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'tasks, work'
 ms.search.form: '124, 30'
 ms.date: 04/01/2021

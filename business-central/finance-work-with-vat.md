@@ -3,9 +3,7 @@ title: "Procédure\_: utiliser la TVA sur les ventes et les achats"
 description: 'Cette rubrique décrit les différentes manières de travailler avec la TVA à la fois manuellement et avec la configuration automatique, pour vous aider à respecter les réglementations spécifiques à chaque pays/région.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'VAT, sales, purchases'
 ms.search.form: '7, 118, 130, 142, 459, 460, 525'
 ms.date: 06/16/2021

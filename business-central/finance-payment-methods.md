@@ -3,15 +3,14 @@ title: Configurer les méthodes de paiement (contient une vidéo)
 description: 'Vous utilisez des modes de règlement, par exemple, les chèques, le transfert bancaire, les espèces, ou Paypal, pour définir la façon dont les factures vente et achat sont payées.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'check, bank transfer, cash, PayPal'
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-payment-methods"></a>Paramétrer les modes de paiement
+# Paramétrer les modes de paiement
 
 Les modes de règlement définissent le mode de paiement que vous souhaitez voir vos clients utiliser, et comment vous souhaitez payer les fournisseurs. Le mode peut varier pour chaque client ou fournisseur. Les exemples de modes de règlement courants sont **virement**, **espèces**, **chèque** ou **dépôt**.
 
@@ -23,7 +22,7 @@ Les avoirs pour les retours, cependant, sont des exceptions parce que le règlem
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
-## <a name="to-set-up-a-payment-method"></a>Pour configurer un mode de règlement
+## Pour configurer un mode de règlement
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fournit des modes de règlement que les entreprises utilisent souvent. Vous pouvez cependant en ajouter autant que nécessaire.
 
@@ -32,12 +31,12 @@ Les avoirs pour les retours, cependant, sont des exceptions parce que le règlem
 
 Vous pouvez éventuellement ajouter des conditions de paiement à votre mode de paiement. Pour plus d’informations, voir [Paramétrer des conditions de paiement](finance-payment-terms.md).  
 
-## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Pour affecter un mode de règlement à un client ou fournisseur
+## Pour affecter un mode de règlement à un client ou fournisseur
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Client** ou **Fournisseur**, puis choisissez le lien associé.
 2. Dans le champ **Code mode de règlement**, choisissez le mode à utiliser par défaut pour le client ou le fournisseur.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Enregistrement de nouveaux clients](sales-how-register-new-customers.md)  
 [Configuration des conditions de paiement](finance-payment-terms.md)  

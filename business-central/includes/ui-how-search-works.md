@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 06/14/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Après avoir entré vos mots-clés, [!INCLUDE [prod_short](prod_short.md)] lance votre recherche en arrière-plan et parcourt chaque table à la fois. Les résultats de la recherche commencent à apparaître après avoir terminé chaque table. Si vous entrez plus d’un mot-clé, les résultats n’incluront que les enregistrements contenant tous les mots dans l’un des champs sélectionnés.

@@ -3,9 +3,7 @@ title: Lignes vente récurrentes standard
 description: Définissez des lignes vente que vous utilisez fréquemment pour les insérer dans des documents de vente pour remplir rapidement les lignes avec des informations standard.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, sell, replenishment'
 ms.search.form: 172
 ms.date: 07/06/2022
