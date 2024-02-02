@@ -12,7 +12,7 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="financial-management"></a>Gestion financière
+# Gestion financière
 
 [!INCLUDE[prod_short](includes/prod_short.md)] comprend une configuration standard de la plupart des processus financiers, mais vous pouvez modifier la configuration pour l’adapter à vos besoins d’activité. En savoir plus sur [Configurer Finance](finance-setup-finance.md).
 
@@ -50,13 +50,13 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Utiliser des états financiers et des aperçus dans Microsoft Excel. |[Analyse des états financiers dans Excel](finance-analyze-excel.md) |
 |Apprendre à utiliser le tableau de bord Comptable, à inviter un comptable externe et à utiliser le Hub Entreprise pour gérer les comptes de plusieurs clients.|[Expériences de comptables dans Business Central](finance-accounting.md)|  
 
-## <a name="take-a-video-tour"></a>Faire une visite vidéo
+## Faire une visite vidéo
 
 Cette vidéo suivante présente certaines des fonctionnalités clés de la gestion des finances. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configuration de Finance](finance-setup-finance.md)  
 [Ventes](sales-manage-sales.md)  
