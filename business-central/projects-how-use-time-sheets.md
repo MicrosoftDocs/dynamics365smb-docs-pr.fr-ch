@@ -131,7 +131,7 @@ L’enregistrement des feuilles de temps est assuré en heures, qui est l’unit
     > Un administrateur peut rejeter une ligne feuille de temps qui est envoyée pour approbation. Si une ligne a le statut **Rejeté**, vous pouvez modifier cette ligne et choisir de nouveau **Envoyer**.  
 6. Cliquez sur le bouton **OK**.
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Pour approuver ou rejeter une feuille de temps
+## <a name="approve-or-reject-a-time-sheet"></a>Pour approuver ou rejeter une feuille de temps
 
 Une feuille de temps doit être soumise pour approbation avant de pouvoir être utilisée. Vous pouvez approuver et rejeter chacune des lignes d’une feuille de temps ou les renvoyer à la personne à l’origine de leur soumission. Vous approuvez une feuille de temps de deux manières :
 
@@ -207,7 +207,7 @@ Une fois que vous avez approuvé les écritures des feuilles de temps d’un pro
 5. Sélectionnez l’action **Valider**.  
 6. Pour vérifier la validation, cliquez sur **Écritures comptables**. La page **Écritures comptables projet** s’ouvre et affiche le résultat de la validation de la feuille ressource.
 
-## <a name="to-archive-time-sheets"></a>Pour archiver des feuilles de temps
+## <a name="archive-time-sheets"></a>Pour archiver des feuilles de temps
 
 Une fois les feuilles de temps validées, vous pouvez les archiver pour vous y référer par la suite. Vous devez valider toutes les lignes sur une feuille de temps avant de pouvoir l’archiver.
 

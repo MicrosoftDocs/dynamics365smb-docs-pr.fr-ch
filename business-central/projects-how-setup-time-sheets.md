@@ -59,7 +59,7 @@ Le guide de configuration assistée vous guide à travers les étapes suivantes�
 
 Les sections suivantes décrivent comment configurer des feuilles de temps si vous n’utilisez pas le guide de configuration assistée **Paramétrer des feuilles de temps**.  
 
-### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Pour configurer manuellement des informations générales pour les feuilles de temps
+### <a name="set-up-general-information-for-time-sheets-manually"></a>Pour configurer manuellement des informations générales pour les feuilles de temps
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration des ressources.**, puis choisissez le lien associé.  
 1. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ Les sections suivantes décrivent comment configurer des feuilles de temps si vo
 | **Toujours** |L’utilisateur du champ **Responsable** de la fiche projet approuve la feuille de temps. |
 | **Poste uniquement** |Si la feuille de temps poste est liée à un projet, alors l’utilisateur du champ **Responsable** spécifié sur la fiche projet approuve la feuille de temps. Si la feuille de temps poste est liée à une ressource, alors l’utilisateur du champ **ID utilisateur de l’approbateur de la feuille de temps** spécifié sur la fiche ressource approuve la feuille de temps. |
 
-### <a name="to-assign-a-time-sheet-administrator-manually"></a>Pour affecter manuellement un administrateur de feuille de temps
+### <a name="assign-a-time-sheet-administrator-manually"></a>Pour affecter manuellement un administrateur de feuille de temps
 
 1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  saisissez **Paramètres utilisateur**, puis choisissez le lien associé.  
 3. Sélectionnez l’utilisateur qui deviendra l’administrateur de feuille de temps, puis sélectionnez la case à cocher **Admin. feuille de temps**.  
@@ -82,7 +82,7 @@ Les sections suivantes décrivent comment configurer des feuilles de temps si vo
 > [!TIP]  
 > Nous vous recommandons de ne désigner qu’un seul utilisateur comme administrateur de feuille de temps dans une société. Dans la procédure suivante, vous devez configurer un propriétaire et un approbateur de feuille de temps et affecter l’approbateur à chaque ressource.  
 
-### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>Pour affecter manuellement un propriétaire et un approbateur de feuille de temps
+### <a name="assign-a-time-sheets-owner-and-approver-manually"></a>Pour affecter manuellement un propriétaire et un approbateur de feuille de temps
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Ressources**, puis choisissez le lien associé.
 2. Sélectionnez la ressource pour laquelle vous souhaitez configurer la possibilité d’utiliser des feuilles de temps, puis sélectionnez la case à cocher **Utiliser la feuille de temps**.  

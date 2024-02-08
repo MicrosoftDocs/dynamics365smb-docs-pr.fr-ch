@@ -9,17 +9,17 @@ ms.date: 03/16/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Analyse des données de rapport avec Excel et XML
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Analyse des données de rapport avec Excel et XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
 En tant que développeur ou utilisateur avancé, il est utile d’inspecter les données générées pour un jeu de données de rapport donné lorsque vous créez des rapports ou modifiez des rapports existants. Pour prendre en charge cette fonctionnalité, vous pouvez exporter un jeu de données de rapport sous forme de données brutes directement vers une feuille de calcul Excel ou un fichier XML. Dans Excel, par exemple, vous pouvez ensuite effectuer une analyse ad hoc des données et diagnostiquer les problèmes.
 
-## Démarrer
+## <a name="get-started"></a>Démarrer
 
 Pour exporter un jeu de données de rapport vers une feuille de calcul Excel ou un fichier XML, ouvrez le rapport dans le client, puis sur la page de demande, sélectionnez **Envoyer à** > **Document Microsoft Excel (données uniquement)** ou **Document XML**. Le fichier sera téléchargé sur votre appareil.
 
-## En savoir plus sur Excel (données uniquement)
+## <a name="more-about-excel-data-only"></a>En savoir plus sur Excel (données uniquement)
 
 L’option **Document Microsoft Excel (données uniquement)** exporte les résultats du rapport et les critères qui ont été utilisés pour les générer, mais il n’inclut pas la mise en page du rapport. Le fichier Excel comprendra l’ensemble de données complet, sous forme de données brutes, disposées en lignes et en colonnes. Toutes les colonnes de données de l’ensemble de données du rapport sont incluses, qu’elles soient ou non utilisées dans la présentation du rapport.
 
@@ -30,13 +30,13 @@ Chaque fois que vous exportez des résultats, une feuille de calcul est créée.
 > [!NOTE]
 > Vous ne pouvez pas exporter un rapport contenant plus de 1 048 576 lignes ou 16 384 colonnes. Avec Business Central sur site, le nombre maximal de lignes exportées peut être encore inférieur. Business Central Server inclut un paramètre de configuration, appelé **Nombre maximal de lignes de données autorisées à envoyer vers Excel**, pour diminuer la limite à partir de la valeur maximale. Pour plus d’informations, consultez [Configuration de Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) ou contactez votre administrateur.
 
-## Pour les administrateurs
+## <a name="for-administrators"></a>Pour les administrateurs
 
 - **Microsoft Excel Document (données uniquement)** a été introduite en tant que fonctionnalité facultative dans la première vague de version 2021, mise à jour 18.3. Pour permettre aux utilisateurs d’accéder à cette fonction pendant l’exécution de la 1re vague de lancement 2021, activez la mise à jour de la fonction **Enregistrer l’ensemble de données du rapport dans le document Microsoft Excel** dans **Gestion des fonctionnalités**. Pour plus d’informations, consultez [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management). Dans la 2e vague de lancement 2021, cette fonctionnalité est devenue permanente, vous n’aurez donc pas à l’activer.
 
 - Pour utiliser **Document Microsoft Excel(données uniquement)**, les comptes d’utilisateurs ont besoin de l’autorisation **Autoriser l’action Exporter le jeu de données du rapport vers Excel**. Vous pouvez accorder cette autorisation aux utilisateurs en attribuant soit l’ensemble d’autorisations **Outils de dépannage** ou **Exporter le rapport Excel**. Pour plus d’informations, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).  
 
-## Pour les développeurs et les utilisateurs avancés
+## <a name="for-developers-and-advanced-users"></a>Pour les développeurs et les utilisateurs avancés
 
 L’option **Microsoft Excel Document (données uniquement)** exporte toutes les colonnes, y compris les colonnes contenant des filtres et des instructions de formatage pour d’autres valeurs. Voici quelques points d’intérêt :
 
@@ -49,7 +49,7 @@ L’option **Microsoft Excel Document (données uniquement)** exporte toutes les
 
 Pour plus d’informations sur la conception d’états, voir [Aperçu de l’état](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Utilisation des états](ui-work-report.md)  
 [Gestion des présentations d’état et de document](ui-manage-report-layouts.md)  
