@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Les employés de l’entrepôt peuvent expédier et recevoir des articles hors inventaire ainsi que des marchandises physiques dans les commandes vente et achat. Les articles hors inventaire sont des biens incorporels, tels que l’assurance ou les coûts supplémentaires.

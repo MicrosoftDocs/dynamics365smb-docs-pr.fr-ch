@@ -1,7 +1,7 @@
 ---
 title: FAQ pour les détails techniques
 description: Détails d’implémentation liés au connecteur Shopify.
-ms.date: 03/27/2023
+ms.date: 01/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -70,8 +70,7 @@ Vous pouvez également explorer la [place de marché Experts](https://experts.sh
 ## Fonctionnalités actuellement non prises en charge, cependant, nous les suivons et pourrions envisager de les ajouter
 
 - Fonctionnalités B2B, y compris les entreprises, les listes de prix des entreprises, les conditions de paiement
-  - Il est actuellement possible d’importer des commandes créées via B2B. Si plusieurs acheteurs sont liés à l’entreprise, vous ne devez pas activer la création automatique de clients, mais lier manuellement chaque Shopify acheteur à un client respectif.
-  - Vous devrez conserver les listes de prix de l’entreprise Shopify.
+  - La prise en charge étendue du B2B sera disponible dans la 1re vague de lancement de 2024. Pour plus d’informations, voir [Connecter Business Central avec Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Marchés
   - Traductions multiples des données de base. Vous pouvez choisir une langue qui sera utilisée pour l’exportation des informations sur les produits.
   - Prix par pays/région. Une liste de prix est disponible pour la devise sélectionnée. Shopify gère la conversion vers d’autres devises.
@@ -84,6 +83,16 @@ Oui, le connecteur Shopify est extensible. Consultez GitHub pour accéder à la 
 ## Le connecteur Shopify est-il ouvert à la participation ?
 
 Oui, cette extension est ouverte à la participation de la communauté. Vous pouvez trouver le [code source](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) dans le référentiel des modules complémentaires de l’application Microsoft AL.
+
+## Créer votre version du connecteur Shopify
+
+Selon Shopify, si vous souhaitez créer et publier une application de connecteur sur Shopify place de marché dont l’objectif principal est de transférer ou de partager des données marchandes avec un tiers ([!INCLUDE [prod_short](../includes/prod_short.md)]), vous devez avoir le consentement écrit de Shopify. Dans le cadre de ce processus, vous devez obtenir le consentement de Microsoft dans le "Formulaire d’accusé de réception des données du destinataire final". Nous devons vous demander de régler le problème avec Shopify car Microsoft ne peut pas signer d’accords avec des tiers.
+
+### Procédure
+
+Vérifiez les Shopify conditions requises, car vous pourrez peut-être toujours disposer d’une application non répertoriée.
+
+Alternativement, le Shopify Connecteur pour [!INCLUDE [prod_short](../includes/prod_short.md)] obtient constamment de nouvelles fonctionnalités et de nouveaux clients. Si vous découvrez une lacune spécifique, pensez à soumettre une suggestion de produit (https://aka.ms/bcideas) ou une contribution au code [!INCLUDE [prod_short](../includes/prod_short.md)]. Pour les exigences qui pourraient ne pas être pertinentes pour une majorité de clients et qui ne peuvent pas être facilement satisfaites par le modèle d’extensibilité actuel, veuillez contacter l’ [!INCLUDE [prod_short](../includes/prod_short.md)] équipe de développement pour discuter du cas d’utilisation. Nous devrions pouvoir trouver une solution réalisable.
 
 ## Voir aussi
 
