@@ -3,15 +3,14 @@ title: Décisionnel pour le secteur de la finance
 description: "Business\_Central contient un de nombreuses fonctionnalités pour vous aider à collecter, analyser et partager des données d’entreprise précieuses pour la veille économique et la prise de décision."
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '103, 108, 198, 490'
 ms.date: 09/22/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="financial-business-intelligence"></a>Décisionnel pour le secteur de la finance
+# Décisionnel pour le secteur de la finance
 
 Les entreprises capturent une énorme quantité de données au cours de leurs activités quotidiennes. Ces données, qui reflètent par exemple les chiffres de vente de l’organisation, les achats, les dépenses opérationnelles, les salaires des employés et les budgets, renferment des informations précieuses, ou du renseignement économique pour les décisionnaires. [!INCLUDE[prod_short](includes/prod_short.md)] contient de nombreuses fonctionnalités pour vous aider à collecter, analyser et partager les données de votre société.
 
@@ -32,7 +31,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Activer la génération d’états financiers généraux par des organisations comptables internationales avec la norme eXtensible Business Reporting Language (XBRL).|[Création d’états avec XBRL](bi-create-reports-with-xbrl.md)|
 |Modifier l’accès intentionnel à la base de données sur les états, les pages du type API et les requêtes pour réduire la charge et améliorer les performances.|[Gérer l’accès intentionnel à la base de données](admin-data-access-intent.md)|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Finances](finance.md)  
 [Utiliser Business Central comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  

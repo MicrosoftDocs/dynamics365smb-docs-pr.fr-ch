@@ -3,25 +3,24 @@ title: Collecte des soldes restants
 description: 'Découvrez comment rappeler à vos clients les impayés. Envoyez un relevé client, émettez un rappel ou envoyez une note de frais financiers.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '6, 25, 440, 443, 448, 452'
 ms.date: 02/09/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="collect-outstanding-balances"></a>Collecte des soldes restants
+# Collecte des soldes restants
 
 La gestion des clients comprend le contrôle du règlement des montants à temps. Si des clients ont des paiements dus, vous pouvez commencer par envoyer l’état du **Relevé client** comme relance. Sinon, vous pouvez émettre de relances.
 
 Vous pouvez utiliser des relances pour rappeler aux clients les soldes échus. Vous pouvez également utiliser les relances pour calculer les intérêts de retard tels que les intérêts ou les frais et les inclure dans la relance. Utilisez les factures d’intérêts pour débiter des clients d’intérêts ou de frais sans leur rappeler les montants échus.
 
-## <a name="statements"></a>Relevés
+## Relevés
 
 À partir de la fiche client, vous pouvez créer un relevé avec les transactions de ce client avec vous. Ensuite, vous envoyez au client le fichier PDF généré. Sinon, utilisez l’état **Relevé client** pour envoyer à vos clients un aperçu de leur activité avec vous. Le relevé client peut être envoyé à Excel pour un traitement ultérieur.  
 
-### <a name="to-send-the-customer-statement-report"></a>Pour envoyer l’état du relevé client
+### Pour envoyer l’état du relevé client
 
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 10.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Relevé client**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,11 +29,11 @@ Vous pouvez utiliser des relances pour rappeler aux clients les soldes échus. V
 > [!NOTE]
 > Si vous utilisez plusieurs devises, l’état Relevé client est toujours imprimé dans la devise du client. La dernière date dans une période de déclaration est également utilisée comme date de relevé et cumul date, si le cumul est inclus.
 
-## <a name="reminders"></a>Relances
+## Relances
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="finance-charges"></a>Frais financiers
+## Frais financiers
 
 Lorsqu’un client n’effectue pas son paiement à la date d’échéance, des intérêts de retard peuvent être calculés automatiquement et ajoutés aux montants échus sur le compte du client. Vous pouvez informer le client des frais ajoutés en lui envoyant une facture d'intérêts.  
 
@@ -49,7 +48,7 @@ Une fois que vous avez créé les factures d'intérêts, vous pouvez les modifie
 
 Une fois que vous avez créé des factures d’intérêts et effectué toutes les modifications requises, vous pouvez effectuer des impressions test ou émettre des factures d’intérêts; en général par e-mail.
 
-### <a name="to-create-a-finance-charge-memo-manually"></a>Pour créer manuellement des factures d’intérêts
+### Pour créer manuellement des factures d’intérêts
 
 Une facture d’intérêts ressemble à une facture. Vous pouvez renseigner un en-tête manuellement et faire renseigner les lignes, ou créer des factures d’intérêts automatiquement pour tous les clients.
 
@@ -62,7 +61,7 @@ Une facture d’intérêts ressemble à une facture. Vous pouvez renseigner un e
     > Même s’ils sont répertoriés, la sélection des champs **Paiement** et **Avoir** comme filtres de **Type de document** n’a aucun effet, car la fonction **Proposer lignes facture intérêts** ne gère que les montants positifs.
 5.  Pour démarrer le traitement par lots, cliquez sur le bouton **OK**.  
 
-### <a name="to-update-finance-charge-memo-texts"></a>Pour mettre à jour des textes de factures d’intérêts
+### Pour mettre à jour des textes de factures d’intérêts  
 Dans certains cas, vous pouvez modifier les textes début et fin définis pour les conditions intérêts de retard. Si vous le faites au moment où vous avez créé, mais pas encore émis, les factures d’intérêts, vous pouvez mettre à jour ces factures avec le texte modifié.
 
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 3.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Facture d’intérêts**, puis sélectionnez le lien associé.  
@@ -70,7 +69,7 @@ Dans certains cas, vous pouvez modifier les textes début et fin définis pour l
 3. Sur la page **MAJ texte fact. d’intérêts**, vous pouvez définir un filtre pour mettre à jour plusieurs factures d’intérêts.
 4. Cliquez sur le bouton **OK** pour que le programme mette à jour les textes début et fin.  
 
-### <a name="to-issue-finance-charge-memos"></a>Pour émettre des factures d’intérêts
+### Pour émettre des factures d’intérêts
 Une fois que vous avez créé des factures d’intérêts et effectué toutes les modifications requises, vous pouvez effectuer des impressions test ou émettre des factures d’intérêts.
 
 Lorsqu’une relance est émise, les écritures sont validées selon les spécifications sur la page **Conditions intérêts de retard**. Cette spécification détermine si les intérêts et les frais supplémentaires sont validés sur le compte client et dans la comptabilité. La configuration sur la page **Groupes compta. client** détermine les comptes qui seront utilisés.
@@ -92,22 +91,22 @@ De plus, émettre une facture d’intérêts peut créer des écritures de TVA.
 
 La factures d’intérêts est imprimée pour être envoyé à un e-mail spécifié en tant que document joint PDF.
 
-### <a name="to-cancel-an-issued-finance-charge-memo"></a>Pour annuler une facture d’intérêts émise
+### Pour annuler une facture d’intérêts émise
 Si des factures d’intérêts ont été émises par erreur, vous pouvez les annuler avant leur envoi. Vous pouvez les annuler une par une ou par lots.
 1. Sur la page **Factures d’intérêts émises**, sélectionnez une ou plusieurs lignes pour les factures d’intérêts émises que vous souhaitez annuler, puis choisissez l’action **Annuler**.
 2. Sur la page **Annuler les factures d’intérêts émises**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
 
-### <a name="to-view-reminder-and-finance-charge-entries"></a>Pour afficher les écritures relance et facture d’intérêts
+### Pour afficher les écritures relance et facture d’intérêts  
 Lorsque vous émettez une relance, une écriture relance est créée sur la page **Écr. relance/fact. intérêts** pour chaque ligne relance contenant une écriture comptable client. Vous pouvez ensuite obtenir un aperçu des écritures relance créées pour un client spécifique.    
 1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 5.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis choisissez le lien associé.  
 2. Ouvrez la fiche client appropriée, puis sélectionnez l’action **Écritures comptables**.
 3. Sur la page **Écritures comptables client**, cliquez sur la ligne de l’écriture comptable pour laquelle vous souhaitez visualiser les écritures relance, puis sélectionnez l’action **Écr. relance/fact. intérêts**.
 
-## <a name="multiple-interest-rates"></a>Taux d’intérêt multiples
+## Taux d’intérêt multiples
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Pour plus d’informations, reportez vous à [Paramétrer plusieurs taux d’intérêt](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configuration des conditions et niveaux](finance-setup-reminders.md)  
 [Configuration des conditions des frais financiers](finance-setup-finance-charges.md)  

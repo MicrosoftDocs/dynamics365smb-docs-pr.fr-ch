@@ -63,16 +63,19 @@ Le tableau suivant décrit les valeurs du champ **Statut**.
 |--|--|
 | Prêt | L’écriture file d’attente des travaux est prête à être exécutée. |
 | En cours | L’écriture file d’attente des travaux est en cours. Ce champ est mis à jour lors de l’exécution de la file d’attente des travaux. |
-| En suspens | Le statut par défaut de l’écriture file d’attente des travaux lorsqu’elle est créée. Choisissez **Attribuer le statut Prêt** pour modifier le statut sur **Préparer**. Choisissez l’action **Définir sur Suspendu** pour rétablir le statut sur **En attente**. |
+| En suspens | Le statut par défaut de l’écriture file d’attente des travaux lorsqu’elle est créée. Choisissez **Attribuer le statut Prêt** pour modifier le statut sur **Préparer**. Choisissez l’action **Définir sur Suspendu** pour rétablir le statut sur **En attente**. Pour plus d’informations, reportez-vous à [À propos de l’attente](#about-on-hold).|
 | Erreur | Un problème est survenu. Choisissez **Afficher erreur** pour afficher le message d’erreur. |
 | PROD FINIS | L’écriture file d’attente des travaux est complète. |
 
-> [!Tip]  
+> [!TIP]  
 > Les écriture de la file d’attente des tâches cessent de s’exécuter en cas d’erreur. Par exemple, cela peut être un problème lorsqu’une entrée se connecte à un service externe, tel qu’un flux bancaire. Si le service est temporairement indisponible et que l’entrée de la file d’attente des travaux ne peut pas se connecter, l’entrée affichera une erreur et cessera de s’exécuter. Vous devrez redémarrer manuellement l’entrée de la file d’attente des travaux. Cependant, les champs **Nombre maximal de tentatives** et **Délai de réexécution (sec.)** peuvent vous aider à éviter cette situation. Le champ **Nombre maximal de tentatives** vous permet de spécifier combien de fois l’entrée de la file d’attente des travaux peut échouer avant qu’elle n’arrête d’essayer de s’exécuter. Le champ **Délai de réexécution (sec.)** vous permet de spécifier la durée, en secondes, entre les tentatives. La combinaison de ces deux champs peut maintenir l’entrée de la file d’attente des travaux en cours d’exécution jusqu’à ce que le service externe soit disponible.
 
+### À propos de l’attente
+
+La définition d’une file d’attente des travaux **En attente** n’affecte pas un projet déjà en cours. Une fois qu’un projet a démarré dans la file d’attente, il continue à être exécuté jusqu’à son terme, quelles que soient les modifications apportées ultérieurement à l’entrée de la file d’attente, par exemple en la mettant en attente.<br><br>Le statut **En attente** est généralement utilisé pour empêcher un projet de démarrer automatiquement lorsqu’il atteint l’heure de début prévue. Il permet d’interrompre temporairement l’exécution d’un projet avant qu’il ne commence à être traité. Toutefois, lorsqu’un projet est déjà en cours d’exécution, le passage du statut à « En attente » n’interrompt pas l’exécution du projet et n’a pas d’incidence sur celui-ci.<br><br>Si vous devez arrêter ou annuler un projet en cours, vous pouvez le faire en intervenant manuellement dans le processus, par exemple en mettant fin à la session correspondante ou au processus responsable de l’exécution du projet.
 ### Pour visualiser le statut de tous les travaux
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures file d’attente des travaux**, puis sélectionnez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures file d’attente des travaux**, puis sélectionnez le lien associé.
 2. Sur la page **Écritures file d’attente des travaux**, sélectionnez une écriture file d’attente des travaux, puis sélectionnez l’action **Écritures journal**.  
 
 > [!TIP]

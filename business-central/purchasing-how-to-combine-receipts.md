@@ -3,15 +3,14 @@ title: Regroupement de bons de réception sur une seule facture
 description: 'Si vous voulez facturer plusieurs réceptions achat en une fois, vous pouvez utiliser la fonction Regroupement des réceptions.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '136, 145, 146, 9308'
 ms.date: 08/03/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="combine-receipts-on-a-single-invoice"></a>Regroupement de bons de réception sur une seule facture
+# Regroupement de bons de réception sur une seule facture
 
 Si vous voulez facturer plusieurs réceptions achat en une fois, vous pouvez sélectionner plusieurs lignes réception sur la facture achat.  
 
@@ -22,7 +21,7 @@ Lorsque des réceptions achat sont regroupées sur une facture et validées, une
 > [!NOTE]
 > La facture achat qui en résulte ne peut pas être corrigée ou annulée ultérieurement. Si vous souhaitez modifier une facture achat ainsi créée, vous devez utiliser des avoirs achat. Pour plus d’informations, voir [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
-## <a name="to-combine-receipts"></a>Pour regrouper des réceptions
+## Pour regrouper des réceptions
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).  
@@ -32,7 +31,7 @@ Lorsque des réceptions achat sont regroupées sur une facture et validées, une
     Si une ligne réception incorrecte a été sélectionnée ou que vous souhaitez recommencer, il vous suffit de supprimer les lignes de la facture achat et d’utiliser à nouveau la fonction **Extraire lignes réception**.  
 5. Pour valider la facture, sélectionnez l’action **Valider**.  
 
-## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Pour supprimer des commandes achat ouvertes après la validation de reçus regroupés
+## Pour supprimer des commandes achat ouvertes après la validation de reçus regroupés
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Supprimer les retours achat facturé**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
@@ -42,7 +41,7 @@ Vous pouvez également supprimer chacune des commandes manuellement.
 
 Répétez les étapes 1 à 3 pour tous les autres documents affectés, comme des commandes ouvertes achat.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Achats](purchasing-manage-purchasing.md)  
 [Correction ou annulation des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
