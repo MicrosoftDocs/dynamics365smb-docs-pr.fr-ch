@@ -1560,6 +1560,7 @@ ms.service: dynamics-365-business-central
 #### [Configuration des transporteurs](sales-how-to-set-up-shipping-agents.md)
 #### [Définition d’une stratégie de validation des factures pour les utilisateurs](admin-setup-invoice-posting-policy.md)
 #### [Mise à jour des dates de document avec les dates de validation](across-link-doc-dates-to-posting-dates.md)
+#### [Affichage d’un avertissement de rupture de stock](sales-setup-show-stockout-warning.md)
 ### Configuration des achats
 #### [Configuration des achats](purchasing-setup-purchasing.md)
 #### [Enregistrement des nouveaux fournisseurs](purchasing-how-register-new-vendors.md)

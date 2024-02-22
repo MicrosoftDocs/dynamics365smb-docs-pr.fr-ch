@@ -2,13 +2,14 @@
 title: Créer une commande vente client et vendre des produits
 description: Décrit comment créer une commande vente pour enregistrer votre contrat avec un client pour vendre ou commercialiser des produits dans des conditions spécifiques.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: soalex
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 11/03/2023
-ms.author: bholtorf
+ms.date: 02/01/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Vente de produits avec une commande vente client
 
@@ -89,6 +90,12 @@ Les écritures comptables article et client associés sont à présent créés d
 ## Numéro de document externe
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
+## Utilisation des champs de montant
+
+Les valeurs des champs qui affichent des montants peuvent être positives ou négatives, selon que la valeur représente un crédit ou un débit. Cette vidéo montre comment utiliser les champs qui affichent des montants.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
 ## Voir aussi
 

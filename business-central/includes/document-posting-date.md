@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-Les champs **Date document** et **Date validation** dans les documents vente et achat peuvent vous aider à respecter les normes comptables et à garantir des calculs financiers exacts. Les champs répondent à différents objectifs :
+Les champs **Date document** et **Date validation** dans les documents vente et achat vous aident à respecter les normes comptables et à obtenir des calculs financiers exacts. Les champs répondent à différents objectifs :
 
 - Pour que [!INCLUDE [prod_short](prod_short.md)] puisse calculer correctement les frais financiers et le montant dû sur les factures vente, le champ **Date document** doit correspondre à l’une des dates suivantes :
 
