@@ -17,7 +17,7 @@ Une écriture comptable client pour laquelle le champ **En attente** est renseig
 
 Après avoir créé les relances et effectué toutes les modifications souhaitées, vous pouvez lancer les impressions test ou émettre les relances, en général par e-mail.
 
-### Pour créer automatiquement une relance
+### <a name="to-create-a-reminder-automatically"></a>Pour créer automatiquement une relance
 
 Une relance est identique à une facture. Lorsque vous créez une relance, un en-tête relance, ainsi qu’une ou plusieurs lignes relance, doivent être renseignés. Vous pouvez utiliser une fonction pour créer des relances pour tous les clients automatiquement.
 
@@ -26,7 +26,7 @@ Une relance est identique à une facture. Lorsque vous créez une relance, un en
 3. Sur la page **Créer relances**, renseignez les champs pour définir comment et pour qui les relances sont créées.
 4. Choisissez le bouton **OK**.
 
-### Pour créer une relance manuellement
+### <a name="to-create-a-reminder-manually"></a>Pour créer une relance manuellement
 
 Sur la page **Relance**, vous pouvez renseigner le raccourci **Général** manuellement et ensuite renseigner les lignes automatiquement.
 
@@ -43,7 +43,7 @@ Sur la page **Relance**, vous pouvez renseigner le raccourci **Général** manue
 
 8. Cliquez sur le bouton **OK**.
 
-### Pour remplacer les textes relance
+### <a name="to-replace-reminder-texts"></a>Pour remplacer les textes relance
 
 Vous pouvez déterminer de plusieurs manières le texte devant figurer sur la relance imprimée. Dans certains cas, vous pouvez remplacer les textes début et fin définis pour le niveau actuel par ceux d’un autre niveau.
 
@@ -52,7 +52,7 @@ Vous pouvez déterminer de plusieurs manières le texte devant figurer sur la re
 3. Sur la page **Mettre à jour texte relance**, entrez le niveau requis dans le champ **Niveau relance**.
 4. Cliquez sur le bouton **OK** pour que le programme mette à jour les textes début et fin.
 
-### Pour émettre une relance
+### <a name="to-issue-a-reminder"></a>Pour émettre une relance
 
 Après avoir créé les relances et effectué toutes les modifications souhaitées, vous pouvez lancer les impressions test ou émettre les relances.
 
@@ -77,7 +77,7 @@ De plus, émettre une facture d’intérêts peut créer des écritures de TVA.
 
 La relance est imprimée pour être envoyé à un e-mail spécifié en tant que document joint PDF.
 
-### Pour annuler les relances émises
+### <a name="to-cancel-an-issued-reminder"></a>Pour annuler les relances émises
 
 Si des relances ont été émises par erreur, vous pouvez les annuler avant leur envoi. Vous pouvez les annuler une par une ou par lots.
 
