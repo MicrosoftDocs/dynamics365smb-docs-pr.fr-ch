@@ -11,7 +11,7 @@ ms.date: 12/21/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-posting-groups"></a>Configuration des groupes comptabilisation
+# Configuration des groupes comptabilisation
 
 Les groupes comptabilisation mappent des entités à des comptes généraux. Les clients, les fournisseurs, les articles, les ressources et les documents vente et achat sont des exemples d’entités. Les groupes comptabilisation vous font gagner du temps et permettent d’éviter des erreurs lorsque vous validez des transactions. Les valeurs de transaction vont dans les comptes spécifiés dans le groupe comptabilisation pour cette entité particulière. Il vous suffit seulement d’avoir un plan comptable. Pour plus d’informations, reportez-vous à [Configuration du plan comptable](finance-setup-chart-accounts.md).  
 
@@ -29,7 +29,7 @@ Les groupes comptabilisation sont traités dans trois catégories :
 
 Les sections suivantes décrivent les groupes comptabilisation dans chaque catégorie.  
 
-## <a name="general-posting-groups"></a>Groupes comptabilisation généraux
+## Groupes comptabilisation généraux
 
 Le tableau suivant décrit les groupes comptabilisation généraux.
 
@@ -39,7 +39,7 @@ Le tableau suivant décrit les groupes comptabilisation généraux.
 | Groupes comptabilisation produit |Affectez ce groupe à des articles et des ressources pour spécifier les éléments que vous vendez, et que vous achetez. Définissez ces groupes comptabilisation sur la page **Groupes compta. produit**. Lorsque vous effectuez cette opération, vous devez considérer le nombre de groupes nécessaires pour répartir les ventes par article et ressource, et pour répartir les achats par article. Par exemple, divisez ces groupes par Matières premières, Vte détail, Ressources, Capacités, etc. |
 | Paramètres comptabilisation |Combinez les groupes comptabilisation marché et produit, puis choisissez les comptes à valider. Pour chaque combinaison de groupes comptabilisation marché et produit, vous pouvez affecter un ensemble de comptes généraux. Par exemple, vous pouvez valider la vente d’un même article dans différents comptes généraux car les clients sont affectés à différents groupes comptabilisation marché. Définissez ces configurations sur la page **Paramètres comptabilisation**. |
 
-## <a name="specific-posting-groups"></a>Groupes comptabilisation spécifiques
+## Groupes comptabilisation spécifiques
 
 Le tableau suivant décrit les groupes comptabilisation spécifiques aux types de données.
 
@@ -51,7 +51,7 @@ Le tableau suivant décrit les groupes comptabilisation spécifiques aux types d
 | Groupes compta. banque |Définissez les comptes généraux dans lesquels les écritures compte bancaire sont validées. Par exemple, cela peut simplifier les processus de traçabilité des transactions et des rapprochements bancaires. Définissez ces groupes comptabilisation sur la page **Groupes compta. banque**. Nous recommandons que le champ **Imputation directe** de ces comptes généraux soient définis sur *Non*. |
 | Groupes comptabilisation immobilisations |Définissez des comptes pour les différents types de dépenses et frais, tels que les coûts d’acquisition, les montants d’amortissement cumulés, les coûts d’acquisition sur cession, l’amortissement cumulé sur cession, les gains sur cession, les pertes sur cession, les frais de maintenance et les frais d’amortissement. Définissez ces groupes comptabilisation sur la page **Groupes compta. immo.**. |
 
-### <a name="allow-substitute-customer-or-vendor-posting-groups-on-documents"></a>Autorisation de groupes comptabilisation client ou fournisseur de remplacement sur les documents
+### Autorisation de groupes comptabilisation client ou fournisseur de remplacement sur les documents
 
 Vous pouvez permettre aux utilisateurs de choisir d’autres groupes de validation client et fournisseur différents des groupes par défaut lorsqu’ils utilisent des documents et des feuilles vente ou achat.
 
@@ -63,7 +63,7 @@ Après avoir configuré cela, vous pouvez choisir parmi les groupes de comptabil
 
 Lors de l’application, par exemple, d’une facture et d’un paiement qui sont validés avec différents groupes de validation client ou fournisseur (différents comptes généraux), [!INCLUDE[prod_short](includes/prod_short.md)] transfère les montants entre les comptes généraux pour les équilibrer.
 
-## <a name="tax-posting-groups"></a>Groupes comptabilisation TVA
+## Groupes comptabilisation TVA
 
 Le tableau suivant décrit les groupes comptabilisation associés aux taxes.
 
@@ -75,7 +75,7 @@ Le tableau suivant décrit les groupes comptabilisation associés aux taxes.
 
 Si votre pays/région utilise la taxe sur la valeur ajoutée (TVA), voir [Configurer des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md).  
 
-## <a name="example-of-linking-posting-groups"></a>Exemple de liaison de groupes comptabilisation
+## Exemple de liaison de groupes comptabilisation
 
 Voici un scénario.  
 
@@ -98,11 +98,11 @@ Lors de la création d’un document vente, l’en-tête vente utilise les infor
 
 Votre paramétrage détermine quand la validation a lieu. Par exemple, la synchronisation est affectée au moment où vous exécutez des activités périodiques, par exemple : valider coûts ajustés et ajuster coût écritures article.
 
-## <a name="copy-posting-setup-lines"></a>Copie de lignes paramètres validation
+## Copie de lignes paramètres validation
 
 Plus il y a de groupes comptabilisation produit et marché, plus la page **Paramètres comptabilisation** contient de lignes. S’il peut y avoir un grand nombre de combinaisons différentes de groupes comptabilisation marché et produit, différentes combinaisons peuvent encore valider dans les mêmes comptes généraux. Pour limiter le nombre de saisies manuelles, copiez les comptes généraux à partir d’une ligne existante sur la page **Paramètres comptabilisation**.
 
-## <a name="set-up-posting-groups-on-the-go"></a>Configurer des groupes de comptabilisation en déplacement
+## Configurer des groupes de comptabilisation en déplacement
 
 Pour que les utilisateurs démarrent plus rapidement, [!INCLUDE[prod_short](includes/prod_short.md)] peut afficher des notifications de comptes généraux manquants dans diverses configurations de groupe de comptabilisation. Pour recevoir ces notifications, assurez-vous que la notification **Compte général manquant dans le groupe comptabilisation ou la configuration** est sélectionnée dans la page **Mes notifications**, à laquelle vous pouvez accéder à partir du champ **Modifier lorsque je reçois des notifications** dans la page **Mes paramètres**.  
 
@@ -115,7 +115,7 @@ De cette façon, lorsque vous travaillez sur un document qui utilise un groupe d
 
 À partir de la 1re vague de lancement 2022, vous pouvez utiliser le champ **Bloqué** sur la page **Paramètres comptabilisation** pour empêcher les utilisateurs d’utiliser par erreur une configuration qui n’est plus pertinente pour les nouvelles publications.  
 
-## <a name="troubleshooting-posting-group-errors"></a>Résolution des erreurs de groupe comptabilisation
+## Résolution des erreurs de groupe comptabilisation
 
 Les groupes comptabilisation sont l’un des concepts les plus avancés à configurer dans [!INCLUDE[prod_short](includes/prod_short.md)]. S’ils ne sont pas configurés correctement, des erreurs peuvent se produire lors de la validation de documents ou de lignes feuille. Par exemple, ces erreurs sont généralement causées par une erreur d’affectation des comptes de la comptabilité ou de combinaison des groupes comptabilisation.
 
@@ -124,7 +124,7 @@ Quand quelque chose ne va pas, [!INCLUDE[prod_short](includes/prod_short.md)] af
 > [!NOTE]
 > La gestion des erreurs décrite ci-dessus n’est pas disponible sur les feuilles article, ressource, employé et immobilisation, ni pour les comptes de la comptabilité ajoutés dans des versions locales des groupes comptabilisation.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Comptabilité et plan comptable](finance-general-ledger.md)  
 [Configuration de Finance](finance-setup-finance.md)  

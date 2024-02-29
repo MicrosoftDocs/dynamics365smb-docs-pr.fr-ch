@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 01/15/2024
 ms.author: jswymer
 ---
-# <a name="personalize-your-workspace"></a>Personnaliser votre espace de travail
+# Personnaliser votre espace de travail
 
 Vous pouvez personnaliser votre espace de travail en fonction de vos habitudes et préférences. Modifiez les pages afin qu’elles n’affichent que les informations dont vous avez besoin, où vous en avez besoin. La personnalisation n’affecte que votre espace de travail. Cela ne change pas la façon dont les autres fonctionnent. Vous pouvez personnaliser tous les types de pages, y compris la page [Tableau de bord](ui-change-basic-settings.md#role-center).
 
@@ -27,13 +27,13 @@ Vous pouvez apporter différentes modifications, comme déplacer ou masquer des 
 > Les administrateurs peuvent effectuer les mêmes modifications de présentation que les utilisateurs en personnalisant le profil (rôle) attribué à plusieurs utilisateurs. Pour en savoir plus sur les pages pour les rôles, accédez à [Personnaliser les pages pour les rôles](ui-personalization-manage.md)<br /><br />
 Les administrateurs peuvent aussi remplacer ou désactiver des personnalisations des utilisateurs et définir les fonctionnalités accessibles dans toutes les sociétés ou des sociétés spécifiques. Pour plus d’informations, voir [Personnalisation de Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Vidéo
+## Vidéo
 
 La vidéo suivante montre quelques-unes des façons dont vous pouvez personnaliser votre tableau de bord.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## <a name="change-the-width-of-a-column"></a>Modification de la largeur d’une colonne
+## Modification de la largeur d’une colonne
 
 Vous pouvez facilement redimensionner les colonnes de n’importe quelle liste. Il suffit simplement de faire glisser la limite entre deux colonnes vers la gauche ou la droite.  
 
@@ -42,7 +42,7 @@ Vous pouvez facilement redimensionner les colonnes de n’importe quelle liste. 
 
 En ce qui concerne les autres personnalisations, les modifications apportées à la largeur des colonnes sont stockées sur votre compte et vous suivent quel que soit le périphérique auquel vous vous connectez.
 
-## <a name="start-personalizing-by-using-the-personalization-mode"></a>Commencez à personnaliser en utilisant le mode de personnalisation
+## Commencez à personnaliser en utilisant le mode de personnalisation
 
 1. Ouvrez une page quelconque à personnaliser.
 1. Dans l’angle supérieur droit, sélectionnez l’icône ![Paramètres.](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") puis l’action **Personnaliser**.
@@ -60,14 +60,14 @@ En ce qui concerne les autres personnalisations, les modifications apportées à
 
 Pour plus d’informations, voir [Ce que vous pouvez personnaliser](#What).
 
-## <a name="what-you-can-personalize"></a><a name="What"></a>Ce que vous pouvez personnaliser
+## <a name="What"></a>Ce que vous pouvez personnaliser
 
 |Ce que vous voulez faire|Comment procéder|Remarques|
 |----|------------|-------|
 |Déplacer quelque chose, comme un champ, une colonne d’une liste, une mosaïque, une action ou une section vers un autre endroit sur la page|Pointez n’importe où sur ce que vous souhaitez déplacer, puis faites glisser vers la nouvelle position. Une ligne verticale ou horizontale épaisse indique la position.<br /><br />![Icône Impossible de déplacer ici](media/personalization-cannot-move-here.png "Mode personnalisation - Icône Impossible de déplacer ici") indique que vous ne pouvez pas déplacer l’élément vers la position sélectionnée.|Les sections sont des subdivisions ou des zones d’une page qui contiennent des éléments comme des champs multiples, une autre page, un graphique, ou des mosaïques.<br /><br />[En savoir plus sur la personnalisation des actions](#Actions)<br>[En savoir plus sur la personnalisation des pièces](#Parts)|
 |Masquez un élément actuellement affiché, comme un champ, une colonne dans une liste, une vignette, une action ou une pièce.|Sélectionnez l’élément, sélectionnez la pointe de flèche, puis sélectionnez <b>Masquer</b>.|En mode personnalisation, les actions masquées sont grisées avec du texte en italique et les parties cachées sont ombrées par des lignes diagonales. Les champs et les colonnes masqués ne sont pas indiqués directement sur la page, mais vous pouvez les localiser en utilisant le volet <b>Ajouter un champ à la page</b> ([en savoir plus sur les champs de travail](#fields)).<br><br>Lorsque vous quittez le mode personnalisation, tous les éléments disparaissent de la vue. Si le champ que vous masquez s’affiche également sur l’en-tête Raccourci lorsque ce dernier est réduit, le champ n’y apparaîtra plus.|
 |Afficher une action ou une partie actuellement masquée|Pour un élément grisé (masqué), choisissez la pointe de flèche, puis choisissez <b>Afficher</b>.|L’élément masqué est à nouveau visible.|
-|Afficher un champ actuellement masqué|Dans la bannière <b>Personnalisation</b>, choisissez l’action <b>+ Champ</b>.<br /></br>Le volet <b>Ajouter un champ à la page</b> s’ouvre à droite de la page. Si vous sélectionnez un champ dans le volet, son emplacement masqué apparaît sur la page.<br /><br />Pour afficher un champ, faites-le glisser du volet ou de son emplacement masqué vers la position que vous souhaitez. La position est indiquée par une ligne verticale ou horizontale épaisse.<br><br> Une autre méthode consiste à sélectionner la pointe de flèche à l’emplacement caché du champ et à sélectionner **Afficher**. |Chaque page comprend un ensemble prédéfini de champs que vous pouvez afficher.<br /><br />[En savoir plus sur les champs de travail](#fields) |
+|Ajouter un champ actuellement masqué|Dans la bannière <b>Personnalisation</b>, choisissez l’action <b>+ Champ</b>.<br /></br>Le volet <b>Ajouter un champ à la page</b> s’ouvre à droite de la page. Si vous sélectionnez un champ dans le volet, son emplacement masqué apparaît sur la page.<br /><br />Pour ajouter un champ, faites-le glisser du volet ou de son emplacement masqué vers la position que vous souhaitez. La position est indiquée par une ligne verticale ou horizontale épaisse.<br><br> Une autre méthode consiste à sélectionner la pointe de flèche à l’emplacement caché du champ et à sélectionner **Afficher**. |Chaque page comprend un ensemble prédéfini de champs que vous pouvez afficher.<br /><br />[En savoir plus sur les champs de travail](#fields) |
 |Affichez un champ dans l’en-tête d’un raccourci lorsqu’il est réduit.|Choisissez la pointe de la flèche, puis cliquez sur <b>Afficher si réduit</b>. <br /> <br />Si vous ne voyez pas cette option, elle est déjà définie. Dans ce cas, pour arrêter d’afficher le champ sur l’en-tête du raccourci, sélectionnez <b>Afficher toujours</b>.|*Raccourci* désigne le terme employé pour un groupe de champs qui s’affichent sous un en-tête commun. Utilisez l’option <b>Afficher si réduit</b> pour afficher les champs les plus importants. Si vous sélectionnez un champ dans l’en-tête, le raccourci s’ouvrira et se concentrera sur le champ sélectionné.<br /><br />Cette option s’applique uniquement si une page a plusieurs raccourcis. S’il n’y a qu’un seul raccourci, il ne peut pas être réduit, aussi l’option <b>Afficher si réduit</b> n’est pas disponible.|
 |Affichez un champ uniquement lorsque vous sélectionnez **Afficher plus**.|Choisissez la pointe de flèche, puis cliquez sur <b>Afficher sous « Afficher plus »</b>.|Si vous ne voyez pas l’option <b>Afficher sous « Afficher plus »</b>, elle est déjà définie. Dans ce cas, pour afficher toujours un champ, et non pas uniquement lorsque vous sélectionnez **Afficher plus**, sélectionnez <b>Afficher toujours</b>.|
 |Changer si un champ peut être modifié ou non.|Sélectionnez le champ, sélectionnez la pointe de flèche sur le champ, puis sélectionnez <b>Verrouiller la modification</b> pour empêcher la modification de la valeur du champ ou <b>Déverrouiller la modification</b> pour permettre de modifier la valeur du champ.|Vous ne pouvez déverrouiller que les champs que vous avez préalablement verrouillés. Certains champs sont verrouillés par défaut, soit par conception, soit par un administrateur de profil qui a [personnalisé la page](ui-personalization-manage.md). Ces champs ne peuvent pas être déverrouillés.|
@@ -77,7 +77,7 @@ Pour plus d’informations, voir [Ce que vous pouvez personnaliser](#What).
 |Ajoutez une nouvelle action à une page ou à un état sur votre tableau de bord.|Dans la page cible, la page de demande d’état, ou la fenêtre Tell Me, choisissez l’icône de signet.|[En savoir plus sur la mise en signet des pages et des rapports](ui-bookmarks.md)|
 |Toujours démarrer une liste comme développée ou réduite|Choisissez le bouton **Développer tout** ou **Réduire tout** dans le coint supérieur gauche de la liste. Sinon, choisissez l’action **Développer tout** ou **Réduire tout** dans le menu de la première colonne. |S’applique aux listes hiérarchiques réductibles|
 
-## <a name="personalize-action-bar-and-menus"></a><a name="Actions"></a>Personnaliser la barre d’action et les menus
+## <a name="Actions"></a>Personnaliser la barre d’action et les menus
 
 La personnalisation vous permet de choisir les actions à afficher sur les barres de navigation et d’actions et sur les tableaux de bord et où les afficher. Vous pouvez afficher, masquer ou déplacer les actions individuelles ou groupes d’action.
 
@@ -96,7 +96,7 @@ Une *catégorie promue* désigne un groupe d’actions qui s’affiche avant la 
 > [!NOTE]  
 > Pour effacer la personnalisation, sélectionnez la pointe de flèche autour du menu du concepteur de la pièce, puis choisissez **Effacer la personnalisation**.
 
-### <a name="remove-hide-and-show-actions-and-action-groups"></a>Supprimer, masquer et afficher des actions et des groupes d’actions
+### Supprimer, masquer et afficher des actions et des groupes d’actions
 
 Lorsque vous souhaitez afficher ou masquer une action, les options situées sous la flèche définissent ce que vous pouvez faire en fonction de l’état de l’action. 
 
@@ -109,7 +109,7 @@ Lorsque vous souhaitez afficher ou masquer une action, les options situées sous
 |**Masquer**|Cette option s’affiche si l’action ou le groupe d’actions apparaît nulle part ailleurs sur les barres de navigation et d’actions. Comme **Supprimer**, choisissez cette option pour inciter l’action ou le groupe d’actions à disparaître des barres de navigation et d’actions. Toutefois, en mode personnalisation, l’action ou le groupe d’actions est toujours affiché dans la position actuelle, sauf si elle/il apparaît atténué(e).|
 |**Afficher**|Cette option s’affiche si l’action ou le groupe d’actions est masqué(e) (atténué(e)). En choisissant cette option, vous permettez à l’action ou au groupe d’actions de figurer dans la barre de navigation ou la barre d’actions.|
 
-### <a name="move-actions-and-action-groups"></a>Déplacer les actions et groupes d’actions
+### Déplacer les actions et groupes d’actions
 
 L’emplacement où vous pouvez déplacer des actions ou groupes d’actions est indiqué par une ligne horizontale entre deux actions ou une bordure autour d’un groupe d’actions. Les limitations suivantes s’appliquent :
 
@@ -119,7 +119,7 @@ L’emplacement où vous pouvez déplacer des actions ou groupes d’actions est
 1. Pour déplacer une action ou un groupe d’actions, faites-la/le glisser sur la position souhaitée, comme avec les champs et les colonnes.
 2. Pour déplacer une action ou un groupe d’actions dans un autre groupe d’actions vide, déplacez l’action ou le groupe d’actions vers le nouveau groupe et placez-la/le dans la zone **Déplacer une action ici**.
 
-### <a name="about-the-automate-menu"></a>À propos du menu Automatiser
+### À propos du menu Automatiser
 
 - Vous ne pouvez pas masquer ou déplacer le menu **Automatiser** ou le sous-menu **Power Automate** et ses actions.
 - Vous pouvez déplacer les flux inclus dans l’élément **Automatiser**, mais vous ne pouvez pas les masquer à l’aide de la personnalisation. Déplacer le flux crée une copie du flux vers la destination qui n’est pas supprimée de l’élément **Automatiser**.
@@ -127,7 +127,7 @@ L’emplacement où vous pouvez déplacer des actions ou groupes d’actions est
 > [!TIP]
 > En tant qu’administrateur, vous pouvez masquer l’élément **Automatisation** des utilisateurs. En savoir plus sur [Configuration de l’intégration Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="personalize-parts"></a><a name="Parts"></a>Personnaliser les pièces
+## <a name="Parts"></a>Personnaliser les pièces
 
 Pointez vers ou sélectionnez <kbd>Alt</kbd>+<kbd>Flèche vers le haut</kbd> Les parties sont des zones d’une page généralement composées de plusieurs champs, graphiques ou autres contenus. Une partie peut être identifiée par une bordure colorée lors du réglage du focus sur la partie. Par exemple, un écran d’accueil Tableau de bord comporte plusieurs pièces. En raison de sa limite bien définie, vous pouvez personnaliser l’ensemble de la partie et son contenu.
 
@@ -137,9 +137,9 @@ Pointez vers ou sélectionnez <kbd>Alt</kbd>+<kbd>Flèche vers le haut</kbd> Les
 
 Vous pouvez effacer toutes les modifications de personnalisation que vous avez apportées dans une seule pièce en sélectionnant l’option **Effacer la personnalisation** sous la pointe de flèche de la pièce. L’effacement de la personnalisation d’une pièce n’affecte que les modifications apportées au contenu de la pièce, et non le placement ou la visibilité de la pièce sur la page.  
 
-## <a name="work-with-fields-and-columns"></a><a name="fields"></a>Utiliser des champs et des colonnes
+## <a name="fields"></a> Utiliser des champs et des colonnes
 
-Lors de la personnalisation d’une page, vous utilisez **Ajouter un champ au volet de la page** pour afficher les champs actuellement masqués sur la page. Pour ouvrir ce volet, sélectionnez l’action **+ Champ** en haut de la page. Contrairement à d’autres éléments masqués, les champs masqués ne sont pas indiqués sur la page elle-même en mode personnalisation. Cependant, vous pouvez identifier les champs masqués en utilisant le volet **Ajouter un champ à la page**.
+Lors de la personnalisation d’une page, vous utilisez **Ajouter un champ au volet de la page** pour inclure les champs ou les colonnes de la page actuellement masqués. Pour ouvrir ce volet, sélectionnez l’action **+ Champ** en haut de la page. Contrairement à d’autres éléments masqués, les champs masqués ne sont pas indiqués sur la page elle-même en mode personnalisation. Cependant, vous pouvez identifier les champs masqués en utilisant le volet **Ajouter un champ à la page**.
 
 Voici quelques directives générales à suivre lors de l’utilisation du volet **Ajouter un champ à la page** :
 
@@ -152,14 +152,17 @@ Voici quelques directives générales à suivre lors de l’utilisation du volet
 - Les champs disponibles dans le volet **Ajouter un champ à la page** sont déterminés par le développeur de la page et de sa table source, ou par un administrateur de profil qui a [personnalisé la page](ui-personalization-manage.md). Vous ne pouvez pas en créer de nouveaux.
 - Certaines pages comportent plusieurs champs de page qui correspondent à la même table source. Le volet affiche les deux/tous ces champs de page indépendamment. Afficher/Masquer/déplacer ces champs est également indépendant sans que l’un n’affecte l’autre.
 
-### <a name="add-a-field-so-its-visible-on-the-page"></a>Rendre visible un champ caché
+### Ajouter un champ pour qu’il soit visible sur la page
 
-Il existe deux manières d’afficher un champ actuellement masqué sur la page :
+Dans le volet **Ajouter un champ à la page**, il existe deux manières d’inclure un champ actuellement masqué sur la page :
 
 - Faites glisser le champ vers la position souhaitée. L’emplacement cible est indiqué par une ligne verticale ou horizontale épaisse.
 - Sélectionnez le champ dans la liste, puis accédez au champ ombré de la page et sélectionnez l’option **Afficher**.
 
-## <a name="clear-personalization"></a>Effacer la personnalisation
+> [!NOTE]
+> Certains champs que vous ajoutez ne seront pas modifiables sur la page une fois la personnalisation terminée. Ces champs sont soit conçus à l’origine de cette façon, soit un administrateur [personnalisé](ui-personalization-manage.md) la page pour vous empêcher de les modifier.
+
+## Effacer la personnalisation
 
 Vous pouvez souhaiter annuler toutes les modifications de personnalisation apportées à une page au fil du temps.
 
@@ -176,7 +179,7 @@ Vous pouvez souhaiter annuler toutes les modifications de personnalisation appor
 |**Uniquement les champs et les colonnes**|Efface toutes les modifications de personnalisation apportées à la page, hormis les modifications de la barre de navigation ou d’actions. Ces modifications incluent les modifications apportées aux champs, colonnes, parties et mosaïques. |
 |**Tous**|Efface toutes les modifications de personnalisation apportées à cette page afin qu’elle retrouve son aspect d’origine. Ces modifications incluent les modifications apportées aux barres de navigation et d’actions, aux champs, colonnes, parties et mosaïques.|
 
-## <a name="tips-and-other-points-of-interest"></a>Conseils et autres points d’intérêts
+## Conseils et autres points d’intérêts
 
 Pour vous aider à mieux comprendre la personnalisation, voici quelques points clés.
 
@@ -187,7 +190,7 @@ Pour vous aider à mieux comprendre la personnalisation, voici quelques points c
 - Certaines pages comportent plusieurs champs de page qui correspondent à la même table source. Le volet affiche les deux/tous ces champs de page indépendamment. Afficher/Masquer/déplacer ces champs est également indépendant sans que l’un n’affecte l’autre.
 - Si une pièce ou un groupe est masqué, les champs fantômes s’afficheront toujours à l’intérieur, mais vous ne pouvez pas faire de glisser-déposer ou ajouter/afficher ce champ tant que vous n’avez pas rendu le groupe/la pièce visible.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Personnalisation des pages pour les profils](ui-personalization-manage.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
