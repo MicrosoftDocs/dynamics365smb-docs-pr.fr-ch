@@ -10,11 +10,11 @@ ms.date: 02/09/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# Fonctionnalité locale, Suisse
+# <a name="switzerland-local-functionality"></a>Fonctionnalité locale, Suisse
 
 Les articles suivants décrivent les fonctionnalités locales spécifiques à la version suisse de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Disponibilité des fonctionnalités
+## <a name="feature-availability"></a>Disponibilité des fonctionnalités
 
 * TVA
     * [Créer et imprimer une déclaration de TVA, Suisse](how-to-create-and-print-a-swiss-vat-statement.md) **Désormais disponible**
@@ -61,11 +61,11 @@ Les articles suivants décrivent les fonctionnalités locales spécifiques à la
     * [Importer les codes postaux suisses](how-to-import-swiss-post-codes.md) **Désormais disponible**
     * [Documents achat et commandes vente, Suisse](swiss-purchase-documents-and-sales-documents.md) **Désormais disponible**
 
-## Les futures exigences législatives en cours d’investigation
+## <a name="future-legislation-requirements-being-investigated"></a>Les futures exigences législatives en cours d’investigation
 
 Aucune fonctionnalité réglementaire n'est actuellement prévue. Si vous avez connaissance de fonctionnalités réglementaires imminentes, envoyez une [Alerte de fonctionnalité réglementaire](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilité nationale/régionale et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
