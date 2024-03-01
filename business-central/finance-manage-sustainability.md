@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Vue d’ensemble de la gestion de la durabilité
+# Vue d’ensemble de la gestion de la durabilité
 
 >[!IMPORTANT]
 >Cette fonctionnalité sera disponible dans Business Central à partir de la **1re vague de lancement 2024**, et tous les liens de référence seront activés dès qu’ils seront disponibles.
@@ -43,7 +43,7 @@ Pour vous familiariser avec Sustainability Manager, reportez-vous aux articles s
 |Procédure pour enregistrer des émissions | Utilisez cet article pour apprendre à travailler avec tous les types de journaux de développement durable. |
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 [Finance](finance.md)    
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
