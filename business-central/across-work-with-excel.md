@@ -65,10 +65,10 @@ Si vous apportez des modifications au module complémentaire, vous devez le rech
 
 Lorsque vous utilisez **Modifier dans Excel** sur les pages de liste pour les tables comportant de nombreuses colonnes, le classeur résultant peut comporter trop de colonnes pour que le fichier puisse être affiché dans Excel pour le Web. [!INCLUDE[prod_short](includes/prod_short.md)] limite automatiquement le classeur exporté à 100 colonnes lorsque OneDrive est configuré pour les fonctionnalités du système. 
 
-## Voir les différences entre les options
+<!--## See the differences between the options
 <br><br>  
 
-> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
+> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]-->
 
 ## Voir aussi
 

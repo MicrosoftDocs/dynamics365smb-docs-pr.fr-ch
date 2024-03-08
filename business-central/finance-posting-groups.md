@@ -7,7 +7,7 @@ ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: 'posting setup, initialize'
 ms.search.form: '312, 313'
-ms.date: 12/21/2023
+ms.date: 02/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -111,9 +111,21 @@ De cette façon, lorsque vous travaillez sur un document qui utilise un groupe d
 > [!NOTE]
 > Afin de vous diriger directement vers le groupe de comptabilisation ou le paramétrage auquel il manque un compte général, [!INCLUDE[prod_short](includes/prod_short.md)] crée un espace réservé pour une configuration ou un groupe de comptabilisation. Les configurations et les groupes de comptabilisation constituent, pour le comptable, un moyen de contrôler la manière dont les écritures sont validées dans la comptabilité. Ainsi, la création juste à temps de configurations et de groupes de comptabilisation peut ne pas être autorisée dans votre organisation.  
 >
-> Dans ce cas, désactivez la notification *Compte général manquant dans le groupe comptabilisation ou la configuration*, puis collaborez avec votre comptable pour apporter les modifications appropriées au groupe de comptabilisation, à la configuration ou à votre document. Il s’agit d’une étape importante, car une fois les documents validés, les paramètres ou les groupes de comptabilisation utilisés de manière incorrecte ne peuvent pas être supprimés car des écritures comptables sont créées pour eux.
+> Dans ce cas, désactivez la notification *Compte général manquant dans le groupe comptabilisation ou la configuration*, puis collaborez avec votre comptable pour apporter les modifications appropriées au groupe de comptabilisation, à la configuration ou à votre document. Il s’agit d’une étape importante, car une fois les documents validés, impossible de supprimer les paramètres ou les groupes de comptabilisation utilisés de manière incorrect car les écritures comptables sont créées pour eux.
 
-À partir de la 1re vague de lancement 2022, vous pouvez utiliser le champ **Bloqué** sur la page **Paramètres comptabilisation** pour empêcher les utilisateurs d’utiliser par erreur une configuration qui n’est plus pertinente pour les nouvelles publications.  
+Utiliser le champ **Bloqué** sur la page **Paramètres comptabilisation** pour empêcher les utilisateurs d’utiliser par erreur une configuration qui n’est plus pertinente pour les nouvelles publications. 
+
+## Accédez à tous les champs et comptes lorsque vous configurez un groupe de publication  
+
+Les groupes de publication peuvent être complexes à mettre en place. Étant donné que certains types de comptes ne sont pas fréquemment utilisés, [!INCLUDE [prod_short](includes/prod_short.md)] ne les affiche pas sous forme de colonnes sur les lignes. De plus, pour faciliter le choix des bons comptes, [!INCLUDE [prod_short](includes/prod_short.md)] filtre les comptes que vous pouvez choisir dans les recherches par champ. 
+
+Si vous souhaitez accéder à tous les comptes sur les lignes et dans les recherches sur le terrain, quelques paramètres peuvent vous aider :
+
+* Pour afficher tous les comptes sous forme de colonnes sur les lignes, activez le bouton **Afficher tous les comptes**.
+* Sur des lignes individuelles, pour accéder à tous les comptes dans les recherches de champ, cochez la case **Afficher tous les comptes lors de la recherche**.
+
+> [!NOTE]
+> Le bouton **Afficher tous les comptes** peut ne pas sembler fonctionner sur la page **Configuration générale de la publication**. En effet, [!INCLUDE [prod_short](includes/prod_short.md)] affiche toujours tous les comptes sous forme de colonnes sur les lignes de cette page.
 
 ## Résolution des erreurs de groupe comptabilisation
 
