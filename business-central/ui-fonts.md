@@ -10,14 +10,14 @@ ms.date: 11/30/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Polices disponibles
+# <a name="available-fonts"></a>Polices disponibles
 
 La version en ligne de [!INCLUDE[prod_short](includes/prod_short.md)] contient des polices préinstallées sur les serveurs qui peuvent être utilisées lors de la génération d’états. Les sections suivantes décrivent les polices disponibles.
 
 > [!NOTE]
 > Pour des raisons de sécurité et juridiques, vous ne pouvez pas télécharger de polices personnalisées sur l’environnement [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Polices de document
+## <a name="document-fonts"></a>Polices de document
 
 Les polices suivantes sont installées et disponibles pour une utilisation dans les présentation état Excel, Word et RDLC :
  
@@ -156,7 +156,7 @@ Les polices suivantes sont installées et disponibles pour une utilisation dans 
 * Yu Gothic UI Semibold
 * Yu Gothic UI Semilight
 
-## Polices pour chèques
+## <a name="fonts-for-checks"></a>Polices pour chèques
 
 Les polices MICR sont installées et disponibles pour utilisation. Les normes E-13B et CMC-7 sont prises en charge.  
 
@@ -164,7 +164,7 @@ En plus des polices MICR, des polices de sécurité spéciales sont disponibles 
 
 Pour plus d’informations, voir [Sélectionner une mise en page de chèque](finance-how-define-check-layouts.md).  
 
-## Polices pour codes à barres
+## <a name="fonts-for-barcodes"></a>Polices pour codes à barres
 Les polices pour générer des codes à barres sont installées et disponibles pour être utilisées dans les présentation état Word et RDLC.
 
 Les symbologies de codes à barres unidimensionnels suivantes sont prises en charge :
@@ -184,7 +184,7 @@ Les symbologies de codes à barres bidimensionnels suivantes sont prises en char
 
 Pour plus d′informations, voir [Polices de codes-barres avec Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion des présentations de rapport](ui-manage-report-layouts.md)  
 [Sélectionner une mise en page de chèque](finance-how-define-check-layouts.md)  
