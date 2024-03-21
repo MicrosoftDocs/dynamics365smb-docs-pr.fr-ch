@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-cost-components"></a>Détails de conception : composants des coûts
+# Détails de conception : composants des coûts
 Les composants de coût sont différents types de coûts qui constituent la valeur d’une entrée de stock ou d’une sortie.  
 
  Le tableau suivant montre les différents composants du coût et tous les composants de coût subordonnés dont ils sont composés.  
@@ -32,7 +32,7 @@ Les composants de coût sont différents types de coûts qui constituent la vale
 > [!NOTE]  
 >  Les frais de transport et d’assurance sont des frais annexes qui peuvent être ajoutés au coût d’un article à tout moment. Lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**, la valeur de toute diminution de stock liée est mise à jour en conséquence.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : Ecart](design-details-variance.md) [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  

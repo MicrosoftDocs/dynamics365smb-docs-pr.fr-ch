@@ -10,7 +10,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="post-transactions-directly-to-the-general-ledger"></a>Valider les transactions directement vers la comptabilité
+# Valider les transactions directement vers la comptabilité
 
 Les feuilles comptabilité vous permettent de valider des transactions financières directement dans les comptes généraux et dans d’autres comptes tels que les comptes bancaires, client, fournisseur et salarié.  
 
@@ -20,7 +20,7 @@ Les feuilles comptabilité valident les transactions financières dans les compt
 
 Contrairement aux écritures qui sont validées avec des documents qui nécessitent un processus d’avoir, vous pouvez correctement contrepasser les écritures validées avec la feuille comptabilité. Pour plus d’informations, voir [Inversion d’une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md).
 
-## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Pour valider une transaction directement vers la comptabilité
+## Pour valider une transaction directement vers la comptabilité
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles comptabilité**, puis choisissez le lien associé.
 2. Ouvrez la feuille comptabilité appropriée. Pour en savoir plus, voir [Utiliser des feuilles comptabilité](ui-work-general-journals.md).
@@ -34,7 +34,7 @@ Contrairement aux écritures qui sont validées avec des documents qui nécessit
     > Si vous souhaitez saisir les lignes de transaction au-dessus d’une ligne compte contrepartie, par exemple, pour un compte bancaire, activez la case à cocher **Suggérer le montant contrepartie** de la ligne pour votre lot sur la page **Noms feuilles comptabilité**. Puis le champ **Montant** de la ligne compte contrepartie est automatiquement prérempli avec la valeur requise pour équilibrer les transactions.
 5. Choisissez l’action **Valider** pour enregistrer les transactions sur les comptes généraux spécifiés.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
 [Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)  

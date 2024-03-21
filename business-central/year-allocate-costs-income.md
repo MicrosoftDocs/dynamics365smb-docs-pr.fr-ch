@@ -11,7 +11,7 @@ ms.date: 02/05/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="allocate-recurring-costs-and-income"></a>Ventilation des coûts et des bénéfices récurrents
+# Ventilation des coûts et des bénéfices récurrents
 
 Vous pouvez ventiler une écriture d’une feuille abonnement dans différents comptes lorsque vous validez la feuille. Pour en savoir plus sur les feuilles abonnement, consultez [Utiliser des feuilles abonnement](ui-work-general-journals.md#work-with-recurring-journals). 
 
@@ -26,7 +26,7 @@ Les fonctions de ventilation fonctionnent avec les feuilles récurrentes et dans
 
 Les procédures suivantes décrivent comment se préparer à affecter des coûts dans une feuille abonnement en définissant des clés de ventilation. Lorsque des clés de ventilation sont définies, vous renseignez et validez la feuille comme toute autre feuille abonnement. Pour en savoir plus, voir [Utiliser des feuilles comptabilité](ui-work-general-journals.md).
 
-## <a name="to-set-up-allocation-keys"></a>Pour définir des clés de ventilation
+## Pour définir des clés de ventilation
 
 Vous pouvez ventiler une écriture dans une feuille abonnement dans différents comptes lorsque vous validez la feuille. La ventilation peut être effectuée par quantité, pourcentage ou montant.  
 
@@ -44,14 +44,14 @@ Vous pouvez ventiler une écriture dans une feuille abonnement dans différents 
 10. Après avoir saisi les lignes de ventilation, cliquez sur **OK** pour revenir à la page **Feuille abonnement**. Le champ **Montant imputé DS** est renseigné et correspond au champ **Montant**.
 11. Validez la feuille.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Pour modifier une clé de ventilation déjà configurée
+## Pour modifier une clé de ventilation déjà configurée
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille récurrente**, puis sélectionnez le lien associé.
 2. Sur la page **Feuille récurrente**, sélectionnez la feuille contenant la ventilation.
 3. Sélectionnez la ligne de la ventilation, puis choisissez l’action **Ventilations**.
 4. Modifiez les champs appropriés, puis choisissez **OK**.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Utilisation des feuilles comptabilité](ui-work-general-journals.md)    

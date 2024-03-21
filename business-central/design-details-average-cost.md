@@ -10,13 +10,13 @@ ms.date: 06/06/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-average-cost"></a>Détails de conception : coût moyen
+# Détails de conception : coût moyen
 
 Le coût moyen d’un article est calculé avec une moyenne pondérée périodique. La moyenne est basée sur la période de coût moyen configurée dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La date d’évaluation est définie automatiquement.  
 
-## <a name="setting-up-average-cost-calculation"></a>Configuration du calcul du coût moyen
+## Configuration du calcul du coût moyen
 
 Le tableau suivant décrit les deux champs de la page **Paramètres stock** qui doivent être renseignés pour activer le calcul du coût moyen.  
 
@@ -30,7 +30,7 @@ Le tableau suivant décrit les deux champs de la page **Paramètres stock** qui 
 >
 > La page **Périodes comptables** affiche la période coût moyen et le type de calcul du coût moyen qui est en vigueur au cours de la période, pour chaque période comptable.  
 
-## <a name="calculating-average-cost"></a>Calcul du coût moyen
+## Calcul du coût moyen
 
  Lorsque vous validez une transaction pour un article qui utilise la méthode évaluation stock coût moyen, une écriture est créée dans la table **Point d’entrée ajustement coût moyen**. Cette écriture contient le numéro d’article, le code variante et le code magasin de la transaction. L’écriture contient également le champ **Date évaluation**, qui spécifie la dernière date de la période coût moyen dans laquelle la transaction a été validée.  
 
@@ -46,7 +46,7 @@ Le tableau suivant décrit les deux champs de la page **Paramètres stock** qui 
 
  Le coût moyen calculé est appliqué aux sorties de stock pour l’article (ou article, magasin et variante) avec des dates comptabilisation qui surviennent au cours de la période coût moyen. Pour les entrées de stock lettrées de façon fixe sur des sorties de stock au cours de la période coût moyen, [!INCLUDE [prod_short](includes/prod_short.md)] transmet le coût moyen calculé de l’entrée à la sortie.  
 
-### <a name="example-average-cost-period--day"></a>Exemple : période coût moyen = jour
+### Exemple : période coût moyen = jour
 
 L’exemple suivant montre l’effet du calcul du coût moyen basé sur une période coût moyen d’un jour. Le champ **Type calcul coût moyen** de la page **Paramètres stock** est défini sur **Article**.  
 
@@ -84,7 +84,7 @@ Le tableau suivant montre les écritures comptables pour l’exemple coût artic
 | 02/02/23 |   Achats | 0 | 100.00 | 5 |
 | 02/03/23 |   Vente | -1 | -100,00 | 6 |
 
-### <a name="example-average-cost-period--month"></a>Exemple : période coût moyen = mois
+### Exemple : période coût moyen = mois
 
  Cet exemple suivant montre l’effet du calcul du coût moyen basé sur une période coût moyen d’un mois. Le champ **Type calcul coût moyen** de la page **Paramètres stock** est défini sur **Article**.  
 
@@ -129,7 +129,7 @@ Le coût moyen de l’entrée numéro 3 est calculé dans la période de coût 
 
 Pour obtenir le coût moyen pour février, [!INCLUDE [prod_short](includes/prod_short.md)] ajoute le coût moyen de l’article reçu dans le stock (100,00) est ajouté au coût moyen au début de la période (30,00). La somme (130,00) est ensuite divisée par la quantité totale en stock (2). Ce calcul donne le coût moyen résultant de l’article au cours de la période de février (65,00). Le coût moyen est affecté aux sorties de stock dans la période (écritures 4 et 6).  
 
-## <a name="setting-the-valuation-date"></a>Définition de la date d’évaluation
+## Définition de la date d’évaluation
 
  Le champ **Date évaluation** de la table **Ecritures valeur** détermine la période du coût moyen à laquelle une écriture de sortie de stock appartient. Ce paramètre s’applique au stock travail en cours (TEC).  
 
@@ -142,7 +142,7 @@ Pour obtenir le coût moyen pour février, [!INCLUDE [prod_short](includes/prod_
 | 3 | Antérieur à la dernière date évaluation des écritures valeur lettrées | Positif | Non | Dernière date évaluation des écritures valeur lettrées |
 | 4 |  | Négatif | Oui | Date comptabilisation de l’écriture de valeur de réévaluation. |
 
-### <a name="example"></a>Exemple :
+### Exemple :
 
 Le tableau suivant d’écritures valeur illustre les différents scénarios.  
 
@@ -164,7 +164,7 @@ Le tableau suivant d’écritures valeur illustre les différents scénarios.
 
 Si la quantité en stock est inférieure à zéro après avoir validé la sortie de stock, la date évaluation est d’abord définie à la date comptabilisation de la sortie du stock. Vous pouvez modifier cette date lorsque l’entrée de stock est appliquée, conformément aux règles décrites dans la remarque précédente dans cette section.  
 
-## <a name="recalculating-average-cost"></a>Recalcul du coût moyen
+## Recalcul du coût moyen
 
 L’évaluation des sorties de stock sous forme de moyenne pondérée serait simple dans plusieurs scénarios :
 
@@ -187,7 +187,7 @@ En raison de cette flexibilité, vous pouvez être amené à recalculer le coût
 
 Vous pouvez modifier la base d’évaluation du stock au cours d’une période comptable en modifiant les valeurs des champs **Période coût moyen** et **Type calcul coût moyen**. Cependant, nous vous recommandons d’être prudent et de consulter votre auditeur.  
 
-### <a name="example-of-recalculated-average-cost"></a>Exemple de coût moyen recalculé
+### Exemple de coût moyen recalculé
 
 Cet exemple montre comment [!INCLUDE [prod_short](includes/prod_short.md)] recalcule le coût moyen lorsque vous validez à une date antérieure à une sortie de stock. L’exemple est basé sur une période coût moyen **Jour**.  
 
@@ -212,7 +212,7 @@ Le tableau suivant montre les écritures valeur qui existent pour l’article ap
 | 15/02/20 | -1 | -17,00 | 3 |
 | 16/02/20 | -1 | -17,00 | 4 |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Détails de conception : mode d’évaluation stock](design-details-inventory-costing.md)  
 [Détails de conception : méthodes de calcul des coûts](design-details-costing-methods.md)  

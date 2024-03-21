@@ -9,11 +9,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="transfer-split-or-combine-fixed-assets"></a>Transférer, fractionner ou regrouper les immobilisations
+# Transférer, fractionner ou regrouper les immobilisations
 
 Vous pouvez utiliser la feuille reclassement immobilisation pour transférer, fractionner et regrouper des immobilisations. Vous visualisez ou imprimez les résultats d’un reclassement immobilisation avec l’état **Immo. - Valeur comptable 02**.
 
-## <a name="to-transfer-a-fixed-asset-to-a-different-department"></a>Pour transférer une immobilisation vers un autre département
+## Pour transférer une immobilisation vers un autre département
 
 Vous pouvez transférer une immobilisation vers un autre département lorsque, par exemple, vous placez une immobilisation dans le département production lorsqu’elle est en construction, puis la déplacez vers le département administration lorsqu’elle est finalisée.  
 
@@ -29,7 +29,7 @@ Vous pouvez transférer une immobilisation vers un autre département lorsque, p
 
 Si vous avez validé un coût d’acquisition pour une immobilisation, vous pouvez utiliser la feuille reclassement immobilisation pour répartir ce coût sur plusieurs immobilisations.  
 
-## <a name="to-split-a-fixed-asset-into-three-fixed-assets"></a>Pour fractionner une immobilisation en trois immobilisations
+## Pour fractionner une immobilisation en trois immobilisations
 Vous pouvez fractionner une immobilisation en plusieurs immobilisations, par exemple lorsque vous devez distribuer une immobilisation auprès de trois départements. Dans ce cas, vous pouvez déplacer, par exemple, 25 % du coût d’acquisition et de l’amortissement de l’immobilisation d’origine vers une autre, et 45 % vers une troisième. Les 30 % restants sont maintenus dans l’immobilisation d’origine.
 
 1. Configurez deux nouvelles immobilisations. Entrez les nouveaux départements en tant que dimensions.  
@@ -45,7 +45,7 @@ Vous pouvez fractionner une immobilisation en plusieurs immobilisations, par exe
 9. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles comptabilisation immobilisation**, puis choisissez le lien associé.
 10. Sur la page **Feuille compta. immo.**, sélectionnez l’action **Valider** pour valider le reclassement que vous avez effectué aux étapes 4 à 8.
 
-## <a name="to-combine-two-fixed-assets-into-one"></a>Pour regrouper deux immobilisations en une
+## Pour regrouper deux immobilisations en une
 
 Vous pouvez regrouper plusieurs immobilisations en une, par exemple lorsque vous déplacez les immobilisations distribuées dans un département. Si vous avez validé les coûts d’acquisition et l’amortissement pour l’immobilisation à déplacer, ces valeurs seront regroupées dans l’immobilisation unique.
 
@@ -59,13 +59,13 @@ Vous pouvez regrouper plusieurs immobilisations en une, par exemple lorsque vous
 6. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuilles compta. immo.**, puis choisissez le lien associé.
 7. Sur la page **Feuille compta. immo.**, sélectionnez l’action **Valider** pour valider le reclassement que vous avez effectué aux étapes 2 à 5.
 
-## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Pour afficher les valeurs de loi d’amortissement modifiées en raison d’un reclassement immobilisation.
+## Pour afficher les valeurs de loi d’amortissement modifiées en raison d’un reclassement immobilisation.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Valeur comptable 02 de l’immobilisation**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Immobilisations](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  

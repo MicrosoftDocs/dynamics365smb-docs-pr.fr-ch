@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="send-electronic-documents"></a>Envoi des documents électroniques
+# Envoi des documents électroniques
 
 > [!NOTE]
 > Le contenu de cet article s’applique uniquement aux versions de Dynamics 365 Business Central sorties avant la 2e vague de lancement 2023. Dans la 2e vague de lancement 2023, une nouvelle fonctionnalité pour les documents électroniques est incluse. Pour en savoir plus, consultez [Configurer des documents électroniques](finance-how-setup-edocuments.md).  
@@ -20,7 +20,7 @@ La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] prend e
 
  Pour envoyer une facture vente en tant que document PEPPOL électronique, sélectionnez l’option **Document électronique** dans la boîte de dialogue **Valider et envoyer**. Vous pouvez également définir le profil d’envoi de document par défaut du client à partir de cette boîte de dialogue. Au préalable, vous devez configurer différentes données de base, telles que les informations sur la société, les clients, les articles, et les unités de mesure. Celles-ci sont utilisées pour identifier les partenaires commerciaux et les articles lors de la conversion des données des champs dans [Configurer l’envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
-### <a name="to-send-an-electronic-sales-invoice"></a>Envoyer une facture vente électronique
+### Envoyer une facture vente électronique
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures vente**, puis sélectionnez le lien associé.  
 
@@ -45,7 +45,7 @@ La version générique de [!INCLUDE[prod_short](includes/prod_short.md)] prend e
     > [!NOTE]  
     >  Vous pouvez également envoyer une facture vente validée en tant que document électronique. La procédure est la même que celle décrite dans cette rubrique pour les documents vente non validés. Sur la page **Facture vente enregistrée**, sélectionnez l’action **Journal des activités** pour afficher le statut du document électronique.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Facturation des ventes](sales-how-invoice-sales.md)  
 [Configuration des profils d’envoi de documents](sales-how-setup-document-send-profiles.md)  

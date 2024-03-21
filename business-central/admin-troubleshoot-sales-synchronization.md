@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="troubleshooting-synchronization-errors"></a>Résolution des erreurs de synchronisation
+# Résolution des erreurs de synchronisation
 
 
 Il y a beaucoup de pièces mobiles impliquées dans l’intégration [!INCLUDE[prod_short](includes/prod_short.md)] avec [!INCLUDE[prod_short](includes/cds_long_md.md)], et parfois les choses ne se passent pas bien. Cette rubrique répertorie certaines des erreurs types qui se produisent et donne des indications sur la manière de les résoudre.
@@ -31,7 +31,7 @@ Voici quelques outils sur la page Erreurs de synchronisation d’intégration qu
 * Les actions **Supprimer les écritures ultérieures à 7 jours** et **Supprimer toutes les écritures** vont nettoyer la liste. En règle générale, vous utilisez ces actions après avoir résolu la cause d’une erreur affectant de nombreux enregistrements. Faites attention, cependant. Ces actions peuvent supprimer des erreurs toujours pertinentes.
 * L’action **Afficher la pile d’appels de l’erreur** affiche des informations qui peuvent aider à identifier la cause de l’erreur. Si vous ne pouvez pas résoudre l’erreur vous-même et que vous décidez de soumettre une demande d’assistance, incluez les informations dans la demande d’assistance.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Intégration à Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Configuration des comptes d’utilisateur pour intégration à Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
 [Configurer une connexion vers Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  

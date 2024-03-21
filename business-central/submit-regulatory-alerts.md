@@ -10,11 +10,11 @@ ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Envoyer des alertes sur les fonctionnalités réglementaires spécifiques au pays/région
+# Envoyer des alertes sur les fonctionnalités réglementaires spécifiques au pays/région
 
 Nous vous invitons à utiliser Microsoft Dynamics Lifecycle Services (LCS) pour envoyer des alertes réglementaires via le service d’envoi d’alerte réglementaire Dynamics.  
 
-## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Pour envoyer une alerte de réglementation dans LCS
+## Pour envoyer une alerte de réglementation dans LCS
 
 1. Accédez à [Lifecycle Services](https://lcs.dynamics.com) et connectez-vous.  
 
@@ -67,7 +67,7 @@ Nous vous invitons à utiliser Microsoft Dynamics Lifecycle Services (LCS) pour 
 
       Une fois que vous avez envoyé l’alerte, vous obtiendrez une confirmation que l’alerte a été correctement envoyée à Microsoft.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Fonctionnalités locales dans [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Modification de la langue et des paramètres régionaux](about-locale-language.md)  

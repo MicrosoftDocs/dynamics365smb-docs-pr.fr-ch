@@ -10,7 +10,7 @@ ms.reviewer: andreipa
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="run-full-planning-mps-or-mrp"></a>Exécuter une planification complète et un calcul PDP ou MRP
+# Exécuter une planification complète et un calcul PDP ou MRP
 
 Les termes « exécution de la feuille planning » ou « exécution d'un calcul MRP » font référence au calcul de la planification de fabrication principale et aux besoins matière. Le calcul est basé sur la demande réelle et prévue. Le système de planification peut calculer la planification de production (PDP) ou la planification des besoins matière (MRP, Material Requirements Planning) à la demande ou les deux simultanément.  
 
@@ -23,7 +23,7 @@ Vous pouvez suivre les liens créés par la planification entre la demande et l'
 
 Les résultats d’une planification appropriée dépendent de la configuration effectuée au niveau des fiches article, des nomenclatures d’assemblage et des gammes.  
 
-## <a name="methods-for-generating-a-plan"></a>Méthodes de génération d’une planification
+## Méthodes de génération d’une planification  
 
 - **Calculer planning régénératif** : traitement ou re-génération de la planification matières. Ce processus commence par supprimer toutes les commandes approvisionnement actuellement chargées. Tous les articles figurant dans la base de données son replanifiés.  
 - **Calculer planning par écart** : traite une planification par écart. Dans une planification par écart, les articles sont considérés comme le résultat de deux types de modifications :  
@@ -38,7 +38,7 @@ Avec chaque méthode planifiée, [!INCLUDE[prod_short](includes/prod_short.md)] 
 >
 > Vous pouvez exécuter le plan Obtenir les messages d’action entre les exécutions de planification des modifications régénératives et nettes pour obtenir une vue immédiate de l’effet des modifications de planification. Cependant, il n’est pas destiné à remplacer les processus complets de planification de changement régénératif ou net.  
 
-## <a name="to-calculate-the-planning-worksheet"></a>Pour calculer la feuille planning
+## Pour calculer la feuille planning
   
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles planning**, puis sélectionnez le lien associé.  
 2. Choisissez l’action **Calculer planning régénératif** pour ouvrir la page **Calculer planning**.  
@@ -58,7 +58,7 @@ Avec chaque méthode planifiée, [!INCLUDE[prod_short](includes/prod_short.md)] 
 4. Sur le raccourci **Article**, définissez des filtres pour exécuter la planification sur la base de l’article, de la désignation de l’article, ou du magasin.  
 5. Cliquez sur le bouton **OK**. Le traitement par lot est exécuté et des lignes de planification sont ajoutés à la feuille planning.  
 
-## <a name="to-perform-action-messages"></a>Pour traiter les messages d’action
+## Pour traiter les messages d’action
   
 1. Sur la page **Feuille planning**, sélectionnez l’action **Traiter messages d’action**.  
 2. Sur le raccourci **Options**, spécifiez comment créer des approvisionnements. Renseignez les champs comme indiqué dans le tableau suivant.  
@@ -77,7 +77,7 @@ Avec chaque méthode planifiée, [!INCLUDE[prod_short](includes/prod_short.md)] 
 
 Le traitement par lots supprime les lignes dans la feuille planning après génération du message d’action. Les autres lignes restent dans la feuille planning jusqu'à ce qu'elles soient acceptées à une date ultérieure ou supprimées. Vous pouvez également supprimer les lignes manuellement.  
 
-## <a name="action-messages"></a>Messages d’action
+## Messages d’action
   
 Des messages d’action sont émis par le système de suivi des ordres quand l’équilibre est inaccessible dans le réseau d’ordres existant. Vous pouvez consulter les messages comme des suggestions pour traiter les modifications qui rétablissent l’équilibre entre l’approvisionnement et la demande.  
 
@@ -100,7 +100,7 @@ En réponse à tout déséquilibre entre l’approvisionnement et la demande, le
 |**Replanifier & changer qté**|Si tant les dates que les quantités d’un ordre changent, vous devez modifier les plannings en relation avec les deux. Le système de génération de messages d’action regroupe les deux actions dans un seul message, **Replan. et changer qté**, pour garantir le retour à l’équilibre du réseau d’ordres.|  
 |**Annuler**|Si une demande couverte sur la base d’une relation ordre pour ordre est supprimée, un message d’action est généré pour annuler la commande approvisionnement qui y est liée. Si la relation n’est pas une relation ordre pour ordre, un message d’action est généré pour modifier l’ordre afin de réduire l’approvisionnement. Si, en vertu d’autres facteurs, tels que des ajustements de stock, une commande d’approvisionnement n’est pas requise au moment où vous générez des messages d’action par l’utilisateur, [!INCLUDE[prod_short](includes/prod_short.md)] suggère un message d’action **Annuler** dans la feuille de calcul.|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 
 [Planifié](production-planning.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  

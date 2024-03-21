@@ -9,11 +9,11 @@ ms.date: 11/17/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="generate-delivery-reminders-in-the-swiss-version"></a>Générer des relances livraison dans la version suisse
+# Générer des relances livraison dans la version suisse
 
 [!INCLUDE [delivery-reminders-generate](../includes/ATCHDE/delivery-reminders-generate.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Création manuelle des relances livraison](how-to-create-delivery-reminders-manually.md)  
 [Configurer des relances livraison](how-to-set-up-delivery-reminders.md)  

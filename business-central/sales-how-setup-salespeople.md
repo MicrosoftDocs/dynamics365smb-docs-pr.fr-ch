@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-salespeople"></a>Configurer des vendeurs
+# Configurer des vendeurs
 
 Beaucoup de sociétés souhaitent suivre les performances individuelles d’un collaborateur afin d’avoir une base de calcul pour les commissions et les bonus. Reportez-vous, par exemple, à l’état **Commissions vendeur**. Une société peut également souhaiter affecter un vendeur à chacun de ses contacts.
 
@@ -17,14 +17,14 @@ Une fois que vous avez configuré un vendeur sur la page **Vendeurs**, vous pouv
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
-## <a name="to-set-up-a-salesperson-code"></a>Pour configurer un code vendeur
+## Pour configurer un code vendeur
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Vendeurs**, puis sélectionnez le lien associé.
 2. Sur la page **Vendeurs**, sélectionnez l’action **Nouveau**.
 
 Vous pouvez utiliser les vendeurs dans la gestion des relations et les divers travaux de marketing. Par exemple, vous pouvez affecter des tâches aux vendeurs, afin que les tâches soient incorporées dans les opportunités de vente affectées au vendeur. Pour plus d’informations, voir [Configurer des cycles de vente opportunité et des étapes de cycle](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Définition des ventes](sales-setup-sales.md)  
 [Ventes](sales-manage-sales.md)  

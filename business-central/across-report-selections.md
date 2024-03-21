@@ -9,11 +9,11 @@ ms.date: 06/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="report-selection-for-documents-in-business-central"></a>Sélection d’état pour les documents dans Business Central
+# Sélection d’état pour les documents dans Business Central
 
 Vous pouvez configurer des états par défaut à utiliser pour imprimer des documents de vente, d’achat et de services, tels que des commandes, des devis et des factures. Par exemple, si vous avez une mise en page spécifique pour les factures vente, vous pouvez spécifier cet état sur la page **Sélection des états - Vente** afin qu’elle soit utilisée pour envoyer ou imprimer les factures vente.  
 
-## <a name="available-report-selections"></a>Sélection des états disponible
+## Sélection des états disponible
 
 Les pages **Sélection des états** spécifient quel état sera imprimé dans différentes situations. [!INCLUDE [prod_short](includes/prod_short.md)] fournit des configurations par défaut, mais vous pouvez les modifier si nécessaire. Vous pouvez également ajouter des états aux pages **Sélection des états** si vous souhaitez imprimer plus qu’un état par type de document, par exemple. 
 
@@ -40,7 +40,7 @@ La version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)] compre
 * **Sélection des états - Projet**  
 * **Sélection des états : Services**
 
-## <a name="example-report-selection-for-sales-documents"></a>Exemple : Sélection des états pour les documents de vente
+## Exemple : Sélection des états pour les documents de vente
 
 La page **Sélection des états - Ventes** présente les états par défaut à utiliser dans différents scénarios pour chaque type de document associé. Choisissez un type de document dans le champ **Usage**, puis ajoutez ou examinez la sélection des états. Vous pouvez configurer plusieurs états et l’ordre de séquence dans lequel les états doivent être envoyés ou imprimés.  
 
@@ -56,7 +56,7 @@ Par exemple, dans les pages **Sélection des états - Ventes** et **Sélection
 |**Utiliser comme pièce jointe**| Joignez le document correspondant à l’e-mail.|
 |**Description de la présentation du corps du message e-mail**|Spécifiez la mise en page à utiliser pour le corps du message. En règle générale, la mise en page de l’état est personnalisée. |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configurer des textes et des mises en page d’e-mail réutilisables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Sélectionner une mise en page de chèque](finance-how-define-check-layouts.md)  

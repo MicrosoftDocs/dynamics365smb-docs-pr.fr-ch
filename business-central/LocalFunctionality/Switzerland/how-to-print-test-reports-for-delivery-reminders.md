@@ -11,19 +11,19 @@ ms.date: 11/21/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="print-test-reports-for-delivery-reminders-in-the-swiss-version"></a>Imprimer des rapports de test pour les relances livraison dans la version suisse
+# Imprimer des rapports de test pour les relances livraison dans la version suisse
 Après avoir créé les relances livraison et effectué toutes les modifications souhaitées en Suisse, vous pouvez lancer les impressions test ou émettre les relances livraison.  
 
 Un rapport de test est un document qui vous permet d'examiner et de modifier une relance livraison avant de l'émettre.  
 
-## <a name="to-print-test-reports-before-issuing-delivery-reminders"></a>Pour imprimer des rapports de test pour les relances livraison
+## Pour imprimer des rapports de test pour les relances livraison  
 
 1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Relance livraison**, puis sélectionnez le lien associé.  
 2.  Dans la page **Liste relances livraison**, cliquez sur l'action **Relance livraison - Test**.  
 3.  Dans la page **Relance livraison - Test**, définissez un filtre pour imprimer uniquement les relances livraison sélectionnées.  
 4.  Sélectionnez **Imprimer** pour imprimer l'état, ou le bouton **Aperçu** pour l'afficher à l'écran.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
  [Relances de livraison](delivery-reminders.md)   
  [Générer des relances livraison](how-to-generate-delivery-reminders.md)   
  [Envoi des relances livraison](how-to-issue-delivery-reminders.md)

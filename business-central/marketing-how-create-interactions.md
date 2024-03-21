@@ -11,13 +11,13 @@ ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-interactions-on-contacts-and-segments"></a>Création des interactions sur les contacts et les segments
+# Création des interactions sur les contacts et les segments
 
 Vous pouvez créer des interactions pour suivre les communications avec un seul contact ou avec plusieurs contacts dans vos segments. Pour faciliter la création d’interactions, [!INCLUDE [prod_short](includes/prod_short.md)] fournit le guide de configuration assistée **Créer une interaction**. Le guide vous aide à capturer les détails importants sur l’interaction.
 
 Cependant, avant de pouvoir créer des interactions, vous devez configurer des modèles interaction. Pour en savoir plus sur les modèles interaction, consultez [Configurer les modèles interaction](marketing-interactions.md).
 
-## <a name="to-create-an-interaction-with-a-contact"></a>Pour créer une interaction avec un contact
+## Pour créer une interaction avec un contact
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Contacts**, **Vendeur** ou **Écriture journal interaction**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Créer interaction**.
@@ -26,7 +26,7 @@ Cependant, avant de pouvoir créer des interactions, vous devez configurer des m
 > [!NOTE]  
 > Si vous devez arrêter avant d’avoir terminé l’interaction, vous pouvez choisir **Annuler**, puis spécifier si vous souhaitez enregistrer vos paramètres afin de pouvoir continuer plus tard. Pour en savoir plus sur les interactions reportées, consultez [Pour terminer la configuration d’une interaction reportée](#to-finish-setting-up-a-postponed-interaction).
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Pour créer une interaction sur un segment
+## Pour créer une interaction sur un segment
 
 1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Segments**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Créer interaction**.
@@ -41,12 +41,12 @@ Cependant, avant de pouvoir créer des interactions, vous devez configurer des m
 
 Une interaction est enregistrée pour chaque contact inclus dans le segment dans la table **Ecriture journal interaction**, et le segment est journalisé. Les segments journalisés sont disponibles sur la page **Segments journalisés**.
 
-## <a name="to-finish-setting-up-a-postponed-interaction"></a>Pour terminer la configuration d’une interaction reportée
+## Pour terminer la configuration d’une interaction reportée
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Interactions reportées**, puis choisissez le lien associé.
 2. Choisissez l’interaction que vous souhaitez terminer, puis sélectionnez l’action **Reprendre**.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Enregistrement d’interactions](marketing-interactions.md)  
 [Gestion de contacts](marketing-contacts.md)  

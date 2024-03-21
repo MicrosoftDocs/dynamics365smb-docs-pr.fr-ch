@@ -10,10 +10,10 @@ ms.date: 11/27/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="post-lsv-payments"></a>Valider les paiements LSV+
+# Valider les paiements LSV+
 Vous pouvez valider les paiements après avoir reçu l’avis de paiement Lastschrift Verfahren (LSV+) de la banque.  
 
-## <a name="to-post-lsv-payments"></a>Pour valider les paiements LSV+
+## Pour valider les paiements LSV+  
 
 1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles règlement**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la feuille requise, puis cliquez sur l'action **Modifier journal**.  
@@ -35,7 +35,7 @@ Vous pouvez valider les paiements après avoir reçu l’avis de paiement Lastsc
 
 6.  Sélectionnez l'action **Valider**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
  [Paiements électroniques à l'aide de LSV+, Suisse](swiss-electronic-payments-using-lsv-.md)   
  [Traiter un prélèvement LSV](how-to-process-an-lsv-collection.md)   
  [Fermer un prélèvement LSV](how-to-close-an-lsv-collection.md)   

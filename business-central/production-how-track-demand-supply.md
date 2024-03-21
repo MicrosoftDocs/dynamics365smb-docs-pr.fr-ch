@@ -9,13 +9,13 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="track-relations-between-demand-and-supply"></a>Suivre les relations entre l’offre et la demande
+# Suivre les relations entre l’offre et la demande
 
 À partir d’un document d’offre ou de demande dans le réseau d’ordres, vous pouvez suivre la demande de commande (quantité chaînée), les prévisions, les commandes ouvertes vente ou les paramètres de planification (quantité non chaînée) qui ont donné lieu à la ligne planning en question.
 
 Les feuilles planning incluent également des informations de planification sur les entités sans rapport avec les commandes pour aider le gestionnaire à obtenir un programme d’approvisionnement optimal. Pour plus d’informations, voir [Éléments planning non chaînés](production-how-track-demand-supply.md#untracked-planning-elements).
 
-## <a name="to-track-linked-items"></a>Pour chaîner des articles liés
+## Pour chaîner des articles liés
 Par l’intermédiaire des systèmes de planification et de réservation, le chaînage montre le lien entre les commandes vente, les ordres de fabrication et les commandes achat.
 
 La procédure suivante décrit comment chaîner des articles liés sur un ordre de fabrication planifié ferme. La procédure est similaire pour tous les autres types de commande, et à partir des lignes feuille planning.
@@ -26,7 +26,7 @@ La procédure suivante décrit comment chaîner des articles liés sur un ordre 
 
 Les lignes de la fenêtre **Chaînage** affichent les documents liés à la ligne de l’ordre de fabrication en cours.
 
-## <a name="untracked-planning-elements"></a>Éléments planning non chaînés
+## Éléments planning non chaînés
 La page **Éléments planning non chaînés** s’affiche lorsque vous cliquez sur le champ **Qté non chaînée** sur la page **Planification commande**. Elle a deux objectifs :
 
 1. Stockage d’informations sur les quantités non chaînées qui s’affichent lorsque l’utilisateur affiche la page Chaînage.
@@ -45,7 +45,7 @@ la page inclut les écritures représentant une quantité excédentaire non cha�
 - Commandé par ;
 - Seuil (% taille lot).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 [Planifié](production-planning.md)   
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)    

@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="planning"></a>Planning
+# Planning
 
 Les opérations de production nécessaires à la transformation d’entrées en produits finis doivent être planifiées de manière quotidienne ou hebdomadaire en fonction du volume et de la nature des produits. [!INCLUDE[prod_short](includes/prod_short.md)] fournit des fonctionnalités permettant de répondre à la demande réelle et anticipée des ventes, de l’assemblage et de la production, et inclut des fonctionnalités pour une planification de la distribution basée sur les points de stock et les transferts d’emplacement.
 
@@ -38,7 +38,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Afficher le stock disponible prévu sous différents types d’affichage et voir quels besoins bruts, réceptions de commandes planifiées et autres événements l’influencent dans le temps.|[Voir la disponibilité des articles](inventory-how-availability-overview.md)|  
 <!--|Effectuer des activités de planification sélectionnées, comme la modification ou l’ajout de lignes feuille planning, dans une vue graphique du programme d’approvisionnement.|[Modifier les propositions planning dans une vue graphique](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Fabrication](production-manage-manufacturing.md)  

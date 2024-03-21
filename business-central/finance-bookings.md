@@ -10,11 +10,11 @@ ms.date: 05/20/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-"></a>Facturation en vrac pour Microsoft Bookings dans [!INCLUDE[prod_short](includes/prod_short.md)]
+# Facturation en vrac pour Microsoft Bookings dans [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Si votre société utilise l’application Bookings de Microsoft 365, vous pouvez effectuer la facturation en vrac des rendez-vous. La page **Réservations non facturées** de [!INCLUDE[prod_short](includes/prod_short.md)] fournit une liste des réservations effectuées par la société. Cette page vous permet de rapidement sélectionner les rendez-vous à facturer et de créer des factures provisoires pour les services fournis.  
 
-## <a name="connect-to-bookings"></a>Connexion à Réservations
+## Connexion à Réservations
 
 Pour connecter votre [!INCLUDE[prod_short](includes/prod_short.md)] à Réservations, vous devez indiquer votre société Réservations, quoi synchroniser avec Réservations, la fréquence de la synchronisation et les modèles à utiliser. Vous définissez ces informations sur la page **Paramètres synch. réservations**, que vous pouvez lancer depuis la page **Configuration de la synchronisation Exchange**, que vous pouvez rechercher à l’aide de [Rechercher](ui-search.md).  
 
@@ -28,7 +28,7 @@ De même, si vous souhaitez synchroniser des articles service entre Bookings et 
 > [!NOTE]
 > Seuls les articles de type *Service* se synchronisent entre Bookings et [!INCLUDE[prod_short](includes/prod_short.md)]. Le modèle que vous configurez sur la page **Modèles de configuration** pour pouvoir l’utiliser pour la synchronisation d’article doit définir le type comme *Service*.
 
-## <a name="invoice-appointments"></a>Facturer les rendez-vous
+## Facturer les rendez-vous
 
 Lorsqu’il est temps d’envoyer les factures pour les réservations terminées, vous consultez la page **Réservations non facturées**. Selon le nombre de fois où les informations sont synchronisées, la liste est long ou courte. Vous pouvez créer des factures pour toutes les réservations de la liste ou une réservation à la fois. Vous pouvez sélectionner une ou plusieurs écritures dans la liste et facturer celles-ci uniquement.  
 
@@ -37,7 +37,7 @@ Le prise en charge de la facturation des rendez-vous dans Réservations est plus
 > [!NOTE]
 > En mai 2022, nous avons découvert un problème d’intégration avec Réservations. Actuellement, la synchronisation des réservations vers [!INCLUDE [prod_short](includes/prod_short.md)] vous oblige à associer manuellement les factures aux clients dans [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Finances](finance.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  

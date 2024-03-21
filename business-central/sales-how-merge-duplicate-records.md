@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="merge-duplicate-records"></a>Fusionner les doublons d’enregistrements
+# Fusionner les doublons d’enregistrements
 
 Puisque différents utilisateurs créent de nouvelles fiches contact, fournisseur ou client au fil du temps, ou puisque de nouveaux enregistrements sont créés automatiquement pendant la migration, un client, fournisseur ou contact peut être représenté dans le système avec plusieurs enregistrements. Dans ce cas, vous pouvez utiliser la page **Fusionner le doublon** depuis la fiche de l’enregistrement que vous souhaitez conserver. La page vous donne un aperçu des valeurs de champ dupliquées et vous fournit des fonctions pour sélectionner quelles valeurs conserver ou ignorer lors de la fusion des deux enregistrements en un seul.
 
@@ -55,7 +55,7 @@ La procédure suivante se base sur une fiche article. La procédure est identiqu
 > [!NOTE]
 > Pour les contacts, vous pouvez utiliser la fonctionnalité pour trouver des doublons de contact avant d’utiliser la page **Fusionner le doublon**. Pour plus d’informations, reportez-vous à la rubrique [Recherche de doublons de contact](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Configuration des contacts](marketing-setup-contacts.md)  

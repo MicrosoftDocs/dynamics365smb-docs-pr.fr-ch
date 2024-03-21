@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-manufacturing"></a>Paramétrage de la production
+# Paramétrage de la production
 
 Pour convertir des matières en articles finis produits, vous devez configurer des ressources de production, telles que les nomenclatures, les gammes, les opérateurs machines et les machines, dans le système.
 
@@ -32,7 +32,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Utiliser des tâches standard pour simplifier la création de gammes en associant rapidement des informations supplémentaires aux opérations récurrentes.|[Configurer des lignes gamme standard](production-how-set-up-standard-routing-lines.md)|  
 |Préparez les centres de charge et les gammes à représenter les opérations de production sous-traitées.|[Sous-traiter la production](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Production](production-manage-manufacturing.md)  
 [Planifié](production-planning.md)  

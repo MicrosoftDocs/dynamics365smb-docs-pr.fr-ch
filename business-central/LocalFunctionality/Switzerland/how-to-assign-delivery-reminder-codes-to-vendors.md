@@ -10,11 +10,11 @@ ms.date: 11/03/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a>Affecter des codes de relance livraison à des fournisseurs dans la version suisse
+# Affecter des codes de relance livraison à des fournisseurs dans la version suisse
 
 [!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Enregistrement des nouveaux fournisseurs](../../purchasing-how-register-new-vendors.md)  
 [Relances livraison](delivery-reminders.md)  

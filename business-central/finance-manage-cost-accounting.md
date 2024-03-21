@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounting-for-costs"></a>Comptabilité pour les coûts
+# Comptabilité pour les coûts
 La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activié. Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.  
 
 |Pour|Voir|  
@@ -23,7 +23,7 @@ La comptabilité analytique vous permet de cerner les coûts liés à l’exploi
 |Découvrez les processus de création des budgets de coûts.|[Création des budgets des coûts](finance-create-cost-budgets.md)|
 |Annulez des écritures de coûts à partir du registre du budget des coûts.|[Suppression des écritures budget des coûts](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 [Finances](finance.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

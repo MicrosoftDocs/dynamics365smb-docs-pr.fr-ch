@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Procédure pas à pas : configurer et utiliser le connecteur Shopify
+# Procédure pas à pas : configurer et utiliser le connecteur Shopify
 
 Cette section illustre certains scénarios typiques et vous guide à travers les étapes pour tester ou former les utilisateurs sur le workflow du magasin intégré [!INCLUDE[prod_short](../includes/prod_short.md)] et du magasin Shopify.
 
-## <a name="prerequisites"></a>Conditions préalables
+## Conditions préalables 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 Vous devez disposer :
 
@@ -25,13 +25,13 @@ Vous devez disposer :
 
 En savoir plus sur la création de versions d’essai Shopify et les paramètres recommandés dans [Créer et configurer un compte Shopify](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 Vous devez disposer d’un compte [!INCLUDE[prod_short](../includes/prod_short.md)]. 
 
 Par exemple, vous pouvez créer un compte démo ou démarrer un essai. Pour en savoir plus, rendez-vous sur [Préparer les environnements de démonstrations de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) et [S’inscrire à l’essai](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Connexion de Business Central à la boutique Shopify
+## Connexion de Business Central à la boutique Shopify
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)], procédez comme suit :
 
@@ -62,13 +62,13 @@ Configurer le mappage de l’emplacement :
 3. Dans **Filtre magasin**, entrez `''|EAST|MAIN`.
 4. Sélectionnez *Solde disponible projeté à aujourd’hui* dans le **Calcul des stocks** pour activer la synchronisation des stocks pour un emplacement Shopify sélectionné.
 
-## <a name="walkthrough-start-selling-products-online"></a>Procédure pas à pas : commencer à vendre des produits en ligne
+## Procédure pas à pas : commencer à vendre des produits en ligne
 
-### <a name="scenario"></a>Scénario
+### Scénario
 
 Disons que vous voulez essayer Shopify en tant que boutique en ligne sans passer beaucoup de temps à configurer les choses, surtout parce que vous entretenez déjà vos articles dans [!INCLUDE[prod_short](../includes/prod_short.md)] correctement. Après avoir lancé votre boutique en ligne Shopify, vous obtenez immédiatement de nouveaux clients qui sont satisfaits de votre boutique et de leur expérience d’achat. Alors, ils décident de laisser des pourboires à la caisse.
 
-### <a name="steps"></a>Étapes
+### Étapes
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)], procédez comme suit :
 
@@ -128,13 +128,13 @@ Désormais, les données physiques et financières sont enregistrées dans [!INC
 
 Dans **Admin Shopify** notez que la commande est maintenant marquée comme *Exécuté*. Vous pouvez également consulter les détails de l’envoi et y voir l’URL de suivi. Si vous exécutez à nouveau **Synchroniser les commandes à partir de Shopify**, la commande sera archivée dans les deux systèmes.
 
-## <a name="walkthrough-add-your-customers-to-your-new-online-store"></a>Procédure pas à pas : ajouter vos clients dans votre nouvelle boutique en ligne
+## Procédure pas à pas : ajouter vos clients dans votre nouvelle boutique en ligne
 
-### <a name="scenario-1"></a>Scénario
+### Scénario
 
 Après un lancement rapide et réussi de votre nouvelle boutique en ligne, vous souhaitez que vos clients actuels la visitent et commencent à passer des commandes. En fonction de votre Shopify plan et processus, vous pouvez essayer les flux B2B et D2C.
 
-### <a name="d2c-steps"></a>Étapes D2C
+### Étapes D2C
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)], procédez comme suit :
 
@@ -146,7 +146,7 @@ Dans [!INCLUDE[prod_short](../includes/prod_short.md)], procédez comme suit :
 
 Dans **Admin Shopify** notez que le client a été importés. Ouvrez les clients et remarquez que le prénom et le nom du client proviennent du champ **Nom du contact** de la **Fiche client**. Le nom de l’entreprise se trouve dans l’adresse par défaut, liée au client. Si vous utilisez *Comptes clients classiques*, vous pouvez sélectionner **Envoyer une invitation au compte** pour inviter le client. Avec *Nouveaux comptes clients* aucun mot de passe n’est requis pour que les clients se connectent. Shopify permet à vos clients de se connecter à l’aide d’un 6- code de vérification à chiffres envoyé par e-mail. 
 
-### <a name="b2b-steps"></a>Étapes B2B
+### Étapes B2B
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -160,13 +160,13 @@ Dans [!INCLUDE[prod_short](../includes/prod_short.md)], procédez comme suit :
 
 Dans **Shopify Admin**, notez que la société et le client ont été importés. Ouvrez les clients et remarquez la zone d’informations sur l’entreprise avec un lien vers l’entreprise, l’emplacement et les autorisations attribuées. Sélectionnez **[...]** dans la **récap société, puis sélectionnez **Envoyer un e-mail d’accès B2B** pour inviter le client.
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Procédure pas à pas : ajustement de la gestion des articles
+## Procédure pas à pas : ajustement de la gestion des articles
 
-### <a name="scenario-2"></a>Scénario
+### Scénario 
 
 Vous aimerez ajouter plus de flexibilité et de contrôle à vos processus de gestion des articles. Vous souhaitez améliorer les descriptions de produits et souhaitez ajouter plus d’étapes de révision avant que les produits ne soient disponibles pour tous les clients.
 
-### <a name="steps-1"></a>Étapes
+### Étapes
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)], procédez comme suit :
 
@@ -251,7 +251,7 @@ Notez que le stock de la table de conférence ANTWERP est de 100, car nous avon
 
 Dans la **boutique en ligne Shopify**, ouvrez le catalogue de produits et recherchez le produit *Bureau ATHENS*. Notez que différentes options sont disponibles. Pour différentes options, les prix sont différents. Faites attention aux informations de réduction.
 
-### <a name="additional-steps-for-b2b"></a>Étapes supplémentaires pour le B2B
+### Étapes supplémentaires pour le B2B
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -296,7 +296,7 @@ Dans **Shopify Admin**, explorez les prix du *B2B* catalogue.
 
 Dans la **boutique en ligne Shopify**, ouvrez le catalogue de produits et recherchez le produit *Bureau ATHENS*. Notez que les prix sont des informations sur les réductions.
 
-## <a name="walkthrough-check-out-and-order-synchronization-for-individual-buyer-and-company-representative"></a>Procédure pas à pas : vérification et synchronisation des commandes pour l’acheteur individuel et le représentant de l’entreprise
+## Procédure pas à pas : vérification et synchronisation des commandes pour l’acheteur individuel et le représentant de l’entreprise
 Ceci est la suite de la [Procédure pas à pas : Commencez à vendre des produits en ligne](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Vous pouvez également essayer avec vos propres données, par exemple, votre boutique ou bac à sable Shopify.
 
 Acheteur individuel
@@ -344,19 +344,19 @@ La commande importée est prête à être traitée.
 3. Dans la commande soumise au nom de l’entreprise, vous pouvez voir la valeur de **Numéro de bon de commande** champ, qui est également transféré au **Numéro de document externe** champ du document de vente créé.
 4. Parce que nous avons configuré l’entreprise B2B pour gérer les paiements en dehors de Shopify le **Statut financier** est réglé sur *En attente*. Une fois le paiement reçu, sélectionnez le **Marquer comme payé** action. La situation financière sera mise à jour dans Shopify. 
 
-## <a name="walkthrough-import-items-customers-companies-from-shopify"></a>Procédure pas à pas : importer des articles, clients sociétés de Shopify
+## Procédure pas à pas : importer des articles, clients sociétés de Shopify
 
-### <a name="scenario-3"></a>Scénario
+### Scénario 
 
 Vous avez déjà une boutique en ligne performante et souhaitez commencer à l’utiliser [!INCLUDE[prod_short](../includes/prod_short.md)] comme logiciel de gestion d’entreprise. Vous souhaitez importer autant de données de Shopify que possible. 
 
-### <a name="steps-2"></a>Étapes
+### Étapes
 
 Ceci est la suite de [Procédure pas à pas : Commencez à vendre des produits en ligne](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) et [Procédure pas à pas : Ajoutez vos clients à votre nouvelle boutique en ligne](walkthrough-setting-up-and-using-shopify.md#walkthrough-add-your-customers-to-your-new-online-store). Vous pouvez également essayer avec vos propres données, par exemple, votre boutique ou bac à sable Shopify.
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)], suivez les étapes indiquées ci-dessous.
 
-#### <a name="prepare-data"></a>Préparer les données
+#### Préparer les données
 
 1. Passez à un essai gratuit de 30 jours sans exemples de données. Pour plus d’informations, voir [Ajouter vos propres données à une société test vide](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Magasins Shopify**, puis sélectionnez le lien associé.
@@ -379,7 +379,7 @@ Configurez le magasin Shopify comme décrit ici :
 10. Sélectionnez *Tous les clients* dans **Importation de société depuis Shopify**.
 11. Activez le bouton à bascule **Créer automatiquement des sociétés inconnus**.
 
-#### <a name="run-the-synchronization"></a>Exécuter la synchronisation
+#### Exécuter la synchronisation
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Magasins Shopify** et sélectionnez le lien associé.
 2. Sélectionnez le magasin *DÉMO2* pour lequel vous voulez synchroniser les données pour ouvrir la page **Fiche magasin Shopify**.
@@ -388,7 +388,7 @@ Configurez le magasin Shopify comme décrit ici :
 5. Sélectionnez **Synchroniser les clients**.
 6. Sélectionnez **Synchroniser les sociétés**
 
-### <a name="results"></a>Résultats
+### Résultats
 
 * Les produits Shopify sont importés. Pour vérifier, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Produits Shopify** et choisissez le lien associé.
 * Des articles avec des images sont créés. Pour vérifier, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Article** et sélectionnez le lien associé.
@@ -397,6 +397,6 @@ Configurez le magasin Shopify comme décrit ici :
 * Les clients sont créés. Pour vérifier, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Clients** et sélectionnez le lien associé.
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Mise en route avec le connecteur Shopify](get-started.md)  

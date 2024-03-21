@@ -12,13 +12,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="intelligent-insights-in--online"></a>Informations intelligentes dans [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# Informations intelligentes dans [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 En tant qu’utilisateur de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous avez un accès complet aux scénarios basés sur le Cloud intelligent, comme les indicateurs de performance clés basés sur Machine Learning, ou lorsque vous consultez vos données dans Power BI.  
 
 Cependant, si vous utilisez [!INCLUDE [prod_short](includes/prod_short.md)] sur site, vous n’avez pas accès aux mêmes informations. Si vous souhaitez bénéficier de scénarios en ligne, vous devez migrer vers [!INCLUDE [prod_short](includes/prod_short.md)] Online. Pour en savoir plus, voir la rubrique [Migration des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le contenu d’administration pour [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="viewing-insights-in--online"></a>Affichage des statistiques dans [!INCLUDE[prod_short](includes/prod_short.md)] Online
+## Affichage des statistiques dans [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)] Online, la page **Informations sur le cloud intelligent** répertorie les quatre points clé d’intérêts pour la plupart des sociétés :
 
@@ -34,7 +34,7 @@ En regard des graphiques KPI, vous obtenez des informations sur des domaines de 
 
 La page se connecte également à Power BI pour encore plus d’informations. En option, connectez-vous à Azure AI pour des informations encore plus intelligentes. Pour plus d’informations, voir [Extension Prévision de ventes du stock](ui-extensions-sales-forecast.md).  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Bienvenue dans Business Central](welcome.md)  
 [Extensions de migration vers le cloud](ui-extensions-data-replication.md)  
