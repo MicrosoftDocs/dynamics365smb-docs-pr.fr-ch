@@ -10,7 +10,7 @@ ms.date: 12/20/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Analyse de la trésorerie dans votre société
+# <a name="analyzing-cash-flow-in-your-company"></a>Analyse de la trésorerie dans votre société
 Les graphiques du tableau de bord Comptable offrent des analyses qui peuvent vous aider à prendre des décisions judicieuses sur les opérations à effectuer avec votre trésorerie.  
 
 | Pour répondre à des questions comme celles-ci | Utiliser ce graphique |
@@ -35,13 +35,13 @@ Si vous souhaitez vérifier la prévision, outre les écritures de prévision, v
 * Retire les dépenses et ajoute les recettes.  
 * Ignore les commandes ventes et les commandes achats en double.  
 
-## Pour afficher une feuille d’activité de trésorerie
+## <a name="to-view-a-cash-flow-worksheet"></a>Pour afficher une feuille d’activité de trésorerie
 
 1. Recherchez **Prévisions de trésorerie**, puis sélectionnez le lien associé.  
 2. Choisissez une prévision de trésorerie, puis sélectionnez l’option **Feuille trésorerie**.  
 3. Sur la page **Feuille trésorerie**, sélectionnez l’action **Proposer lignes feuille activité**.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Configuration de Finance](finance-setup-finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

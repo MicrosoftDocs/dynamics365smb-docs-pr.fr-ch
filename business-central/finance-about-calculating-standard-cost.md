@@ -9,7 +9,7 @@ ms.author: bholtorf
 ms.date: 10/10/2023
 ms.service: dynamics-365-business-central
 ---
-# À propos du calcul des coûts standard
+# <a name="about-calculating-standard-cost"></a>À propos du calcul des coûts standard
 
 De nombreuses sociétés manufacturières sélectionnent une base d’évaluation du coût standard. Ceci est également vrai pour les sociétés qui effectuent une fabrication légère, comme l’assemblage et le montage. Un système de coûts standard détermine le coût unitaire du stock en fonction d’un coût historique ou prévu plausible. L’analyse des données précédentes et futures en termes de coût peut alors offrir une base pour l’estimation des coûts standard. Ces coûts sont gelés tant que leur modification n’est pas décidée. Le coût réel lié à la production d’un produit peut varier par rapport aux coûts standard estimés. À des fins de contrôle de gestion, le coût réel est comparé au coût standard pour un article spécifique et les différences, ou *écarts*, sont identifiées et analysées.  
 
@@ -21,7 +21,7 @@ Des coûts standard peuvent être conservés pour les articles réapprovisionné
 |**Assembly**|Coût matière direct, coûts directs ou de main-d’œuvre fixes et frais généraux.|  
 |**Ordre de fabrication**|Coût matière direct, coût de main-d’œuvre, coût de sous-traitance et frais généraux.|  
 
-## Configuration des coûts standard
+## <a name="setting-up-standard-costs"></a>Configuration des coûts standard
 
 Dans la mesure où le coût standard d’un article produit ou assemblé peut comporter plusieurs éléments de coût, dont les coûts matériels, opératoires (main d’œuvre) et de sous-traitance (coûts directs et frais généraux), il convient d’établir des coûts standard pour chacun de ces éléments.  
 
@@ -38,7 +38,7 @@ Les éléments principaux d’un coût constituent le coût direct total d’un 
 - Coût opératoire.  
 - Les coûts de sous-traitance pour les articles produits uniquement.  
 
-### Coûts matière
+### <a name="material-costs"></a>Coûts matière
 
 Les coûts matière sont des coûts associés aux produits semi-finis et aux matières premières achetées. Le coût unitaire matière peut se décomposer en éléments de coût directs et indirects.  
 
@@ -56,7 +56,7 @@ Le coût matière d’un article produit peut être représenté de deux façons
 |Mono-niveau|L’article produit est égal au coût total de tous les articles achetés ou semi-finis dans la nomenclature de production de cet article.|  
 |Calcul multi-niveau|Article produit correspond à la somme du coût matière des produits semi-finis dans la nomenclature de cet article et du coût des articles achetés dans la nomenclature de production de cet article.|  
 
-### Coûts opératoires
+### <a name="capacity-costs"></a>Coûts opératoires
 
 Les coûts opératoires sont les coûts internes associés à la main-d’œuvre et aux machines. Vous devez configurer ces coûts pour chaque ressource (dans la gestion nomenclature d’assemblage) et centre ou poste de charge sur la gamme (dans la production). Comme pour les matières, vous pouvez identifier des éléments de coût opératoire directs et indirects. Par exemple, le coût direct pour un centre de charge peut correspondre au taux usine établi pour exécuter une fonction spécifique. Le coût indirect d’un centre de charge peut correspondre à certaines dépenses générales de l’usine, comme l’éclairage, le chauffage, etc. Comme avec les coûts matière, vous pouvez exprimer les frais généraux opératoires en pourcentage du coût indirect ou frais généraux fixes.  
 
@@ -81,13 +81,13 @@ Pour spécifier le délai de configuration dans la gamme à des fins de planific
 
 Sur une base mono-niveau, il s’agit du coût de main-d’œuvre requis pour produire l’article produit fini et spécifié dans la gamme de l’article produit. Sur une base multi-niveau, il s’agit du coût opératoire spécifié pour chaque article produit individuellement inclus dans la nomenclature de l’article parent.  
 
-### Coûts de sous-traitance
+### <a name="subcontractor-costs"></a>Coûts de sous-traitance
 
 Les coûts de sous-traitance sont les coûts associés aux services assurés par des sous-traitants ou fournisseurs externes d’une société. Semblables aux coûts matière et opératoires, les coûts de sous-traitance peuvent se décomposer en coûts directs et frais généraux. Le coût de sous-traitance direct correspond à la charge réelle pour chaque unité de services fournie. Par exemple, les frais de sous-traitance généraux peuvent représenter les coûts de fret et de gestion engagés par la société avec une commande sous-traitée.  
 
 Parce que la sous-traitance correspond à une capacité externalisée, vous configurez les coûts liés à la sous-traitance de services directs et indirects dans la fiche centre de charge représentant l’opération de sous-traitance.  
 
-## Mise à jour des coûts standard
+## <a name="updating-standard-costs"></a>Mise à jour des coûts standard
 
 Pour mettre à jour ou calculer le coût standard d’éléments d’assemblage, utilisez la fonction de la fiche article.  
 
@@ -98,9 +98,9 @@ Le processus de mise à jour ou de calcul des coûts standard comprend général
 3.  Application des coûts standard entrés lorsque vous exécutez les traitements par lots précédents. Les coûts standard n’entrent en vigueur que lorsqu’ils sont mis en œuvre. Utilisez le traitement par lots **Appliquer nouv. coût standard**, qui met à jour les modifications du coût standard sur les éléments en fonction de ceux figurant dans la table Feuille coût standard.  
 4.  Application des modifications pour mettre à jour le champ **Coût unitaire** sur la fiche article et effectuer une réévaluation du stock. Pour plus d’informations, voir [Réévaluer le stock](inventory-how-revalue-inventory.md).
 
-## Utiliser des tâches par lots pour mettre à jour les coûts standard
+## <a name="use-batch-jobs-to-update-standard-costs"></a>Utiliser des tâches par lots pour mettre à jour les coûts standard
 Les sections suivantes décrivent les tâches par lots que vous pouvez utiliser pour mettre à jour les coûts standard.
-### Proposer coût standard article
+### <a name="suggest-item-standard-cost"></a>Proposer coût standard article
 
  Crée des propositions pour modifier les coûts et partages des coûts de coûts standard sur des fiches article. Lorsque le traitement par lots est terminé, vous pouvez en visualiser le résultat dans la fenêtre Feuille coût standard.
 
@@ -108,7 +108,7 @@ Les sections suivantes décrivent les tâches par lots que vous pouvez utiliser 
 > Ce traitement par lots est prévu uniquement pour les articles achetés. Si vous souhaitez mettre à jour un article avec une nomenclature de production ou d’assemblage, vous devez d’abord renseigner la feuille avec tous les composants, avant d’exécuter le traitement par lots Déployer le coût standard.
 
 Ce traitement par lots ne crée que des propositions. Il n’applique pas les modifications suggérées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c’est-à-dire les mettre à jour dans les fiches article et les insérer dans la , cliquez sur Appliquer nouv. coût standard dans la fenêtre Feuille coût standard.
-#### Options
+#### <a name="options"></a>Options
 
 **Coût standard** : Saisissez le facteur appliqué que vous souhaitez utiliser pour mettre le coût standard à jour. Vous pouvez également sélectionner un mode arrondi pour le nouveau coût standard. Vous devez renseigner le champ à l’aide d’une valeur décimale pour l’augmentation du pourcentage, par exemple 1,1.
 
@@ -116,21 +116,21 @@ Ce traitement par lots ne crée que des propositions. Il n’applique pas les mo
 
 **Frais généraux** : Saisissez le facteur appliqué que vous souhaitez utiliser pour mettre les frais généraux à jour. Vous pouvez également sélectionner un mode arrondi pour les nouveaux frais généraux. Vous devez renseigner le champ à l’aide d’une valeur décimale pour l’augmentation du pourcentage, par exemple 1,1.
 
-### Prop. coût std ctr./poste ch.
+### <a name="suggest-workmach-ctr-std-cost"></a>Prop. coût std ctr./poste ch.
 
 Crée des propositions pour modifier les coûts et partages des coûts de coûts standard sur centre de charge, poste de charge ou fiches ressource. Lorsque le traitement par lots est terminé, vous pouvez en visualiser le résultat dans la fenêtre **Feuille coût standard**.
 
 Ce traitement par lots ne crée que des propositions. Il n’applique pas les modifications suggérées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c’est-à-dire les mettre à jour dans les fiches travail/poste de charge et ressource et les insérer dans la fenêtre Feuille réévaluation, cliquez sur **Appliquer nouv. coût standard** dans la fenêtre **Feuille coût standard**.
 
 Lorsque vous avez exécuté le traitement par lots et que vous souhaitez voir l’impact sur vos départements Production et Assemblage, vous lancez le traitement par lots **Déployer le coût standard** pour mettre à jour les coûts standard des centres de charge, postes de charge, ressources d’assemblage, nomenclatures de production et nomenclatures d’assemblage.
-#### Options
+#### <a name="options-1"></a>Options
 **Coût standard** : Saisissez le facteur appliqué que vous souhaitez utiliser pour mettre le coût standard à jour. Vous pouvez également sélectionner un **mode arrondi** pour le nouveau coût standard. Vous devez renseigner le champ à l’aide d’une valeur décimale pour l’augmentation du pourcentage, par exemple 1,1.
 
 **% coût indirect** : Saisissez le facteur appliqué que vous souhaitez utiliser pour mettre le % coût indirect à jour. Vous pouvez également sélectionner un mode arrondi pour le nouveau % coût indirect. Vous devez renseigner le champ à l’aide d’une valeur décimale pour l’augmentation du pourcentage, par exemple 1,1.
 
 **Frais généraux** : Saisissez le facteur appliqué que vous souhaitez utiliser pour mettre les frais généraux à jour. Vous pouvez également sélectionner un mode arrondi pour les nouveaux frais généraux. Vous devez renseigner le champ à l’aide d’une valeur décimale pour l’augmentation du pourcentage, par exemple 1,1.
 
-### Valider coûts ajustés
+### <a name="post-inventory-cost-to-gl"></a>Valider coûts ajustés
 
  Enregistre les changements de quantité et de valeur en stock dans les écritures comptables article et les écritures valeur lorsque vous validez des mouvements de stocks, tels que des expéditions vente ou des réceptions achat.
 
@@ -148,7 +148,7 @@ Pour faire en sorte que le traitement par lots ne rencontre pas d’erreur, exé
  
 > [!IMPORTANT]  
 > Avant d’utiliser ce traitement par lots, vous devez lancer le traitement par lots **Ajuster coûts : Écr. article**. Ainsi, lorsque vous lancez ce traitement par lots, les coûts validés en comptabilité sont assurément à jour.
-#### Options
+#### <a name="options-2"></a>Options
 
 |Option  |Désignation  |
 |--------------|---------|
@@ -156,7 +156,7 @@ Pour faire en sorte que le traitement par lots ne rencontre pas d’erreur, exé
 |**Numéro de document**|Dans ce champ, vous pouvez entrer un numéro de document si vous avez choisi l’option de validation Par groupe compta. stock. Le numéro de document est affiché sur les écritures validées.|
 |**Valider**|Sélectionnez ce champ si vous souhaitez que le traitement par lots valide en comptabilité automatiquement. Si vous choisissez de ne pas valider les coûts en comptabilité, le traitement par lots n’effectuera qu’une impression test présentant les valeurs qui peuvent être validées en comptabilité et l’état indiquera : **Impression test (non validée)**.|
 
-### Calculer coût std multi-niv.
+### <a name="roll-up-standard-cost"></a>Calculer coût std multi-niv.
 
 Calcule les coûts standard des articles assemblés et fabriqués. Ceux-ci seront influencés par la modification des coûts standard des composants proposée par le traitement par lots **Proposer coût standard article**. En outre, ceux-ci seront influencés par la modification du coût standard de la capacité de production et des ressources d’assemblage proposée par le traitement par lots **Prop. coût std ctr./poste ch.**.
 
@@ -166,14 +166,14 @@ Lorsque vous avez exécuté l’un ou l’autre de ces traitements par lots (ou 
 > Cette fonction ne calcule le coût standard multi-niveau que sur les fiches article, pas sur les fiches point de stock.
 
 Ce traitement par lots ne crée que des propositions. Il n’applique pas les modifications suggérées. Si les propositions vous conviennent et que vous souhaitez les appliquer, c’est-à-dire les mettre à jour dans les fiches article et les insérer dans la fenêtre **Feuille réévaluation**, vous pouvez utiliser le traitement par lots **Appliquer nouv. coût standard**. Vous accédez à ce traitement par lots à partir de la fenêtre **Feuille coût standard**.
-#### Options
+#### <a name="options-3"></a>Options
 
 **Date de calcul** : Saisissez la date qui s’applique à la version de la nomenclature de production pour laquelle vous souhaitez faire remonter l’information.
  
-### Appliquer nouv. coût standard
+### <a name="implement-standard-cost-change"></a>Appliquer nouv. coût standard
 
 Mettez à jour les modifications du coût standard dans la table **Article** en fonction de celles figurant dans la table **Feuille coût standard**. Les propositions de modification des coûts standard peuvent être créées avec le traitement par lots **Proposer coût standard article** et/ou **Prop. coût std ctr./poste ch.**, et elles peuvent également être modifiées. La valeur de tous les champs de la proposition de modification de coût standard est transférée. Lorsque vous appliquez des propositions de modification des coûts standard, vous pouvez les afficher dans la fiche article et/ou dans les fiches poste/centre de charge. Une feuille de réévaluation est également créée pour vous permettre de mettre à jour la valeur du stock existant.
-#### Options
+#### <a name="options-4"></a>Options
 
 **Date comptabilisation** : Saisissez la date d’entrée en vigueur de la réévaluation.
 
@@ -185,7 +185,7 @@ Mettez à jour les modifications du coût standard dans la table **Article** en 
 
 Cliquez sur **OK** pour démarrer le traitement par lots. Si vous ne souhaitez pas exécuter le traitement par lots immédiatement, cliquez sur **Annuler** pour fermer la fenêtre.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Détails de conception : méthodes de calcul des coûts](design-details-costing-methods.md)  
 [Mise à jour des coûts standard](finance-how-to-update-standard-costs.md)  

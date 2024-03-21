@@ -11,7 +11,7 @@ ms.date: 02/01/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Vente de produits avec une commande vente client
+# <a name="sell-products-with-a-customer-sales-order"></a>Vente de produits avec une commande vente client
 
 Cet article fournit des conseils aux utilisateurs sur le moment d’utiliser une commande vente plutôt qu’une simple facture. Si votre processus de vente exige que vous ne livriez que partiellement une commande, par exemple si la quantité totale n’est pas disponible d’un coup, vous devez traiter cette vente en créer une commande vente.
 
@@ -23,7 +23,7 @@ Dans les environnements d’entreprise où le client paie immédiatement, comme 
 
 Vous pouvez même créer des commandes à paiement direct pour les clients non enregistrés en configurant une fiche « client en espèces », vers laquelle vous pointez sur la commande vente. En savoir plus sur [Configurer les clients effectuant un achat au comptoir](finance-how-to-set-up-cash-customers.md).
 
-## Créer une commande vente
+## <a name="create-a-sales-order"></a>Créer une commande vente
 
 > [!NOTE]  
 > La procédure suivante suppose que le client est déjà configuré. Pour obtenir des instructions sur la façon de procéder, voir [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).
@@ -87,17 +87,17 @@ La boîte de dialogue **Valider et envoyer la confirmation** s’ouvre et indiqu
 
 Les écritures comptables article et client associés sont à présent créés dans votre système, et la commande vente est sortie en tant que document au format PDF. Une fois la commande vente est entièrement validée, elle est supprimée de la liste des commandes vente et remplacée par de nouveaux documents dans la liste des factures vente validées et des expéditions vente enregistrées.  
 
-## Numéro de document externe
+## <a name="external-document-number"></a>Numéro de document externe
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Utilisation des champs de montant
+## <a name="working-with-amount-fields"></a>Utilisation des champs de montant
 
 Les valeurs des champs qui affichent des montants peuvent être positives ou négatives, selon que la valeur représente un crédit ou un débit. Cette vidéo montre comment utiliser les champs qui affichent des montants.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Facturation des ventes](sales-how-invoice-sales.md)  
 [Validation des ventes](ui-post-sales.md)  

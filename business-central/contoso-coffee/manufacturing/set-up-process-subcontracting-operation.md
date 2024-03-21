@@ -8,17 +8,17 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Configurer et traiter une opération de sous-traitance
+# <a name="set-up-and-process-a-subcontracting-operation"></a>Configurer et traiter une opération de sous-traitance
 
 Dans cet article, nous vous expliquons comment utiliser les données de démonstration de Contoso Coffee dans la sous-traitance.
 
-## Scénario
+## <a name="scenario"></a>Scénario
 
 Vous êtes planificateur de production chez Contoso Coffee. En raison de contraintes de capacité, vous envisagez de faire appel à un sous-traitant pour produire l’article **SP-SCM1009, Airpot**.
 
 Vous allez donc créer un ordre de fabrication pour 12 unités de l’article SP-SCM1009, Airpot, à l’aide de la gamme SP-SCM1009-SUB-2. Utilisez la proposition de sous-traitance pour générer un bon de commande pour la fabrication, puis terminez l’opération par la réception et la facturation du bon de commande.
 
-## Étapes
+## <a name="steps"></a>Étapes
 
 1. Créez un nouvel ordre de fabrication pour 12 unités d’article SP-SCM1009, Airpot.
 
@@ -73,6 +73,6 @@ Vous allez donc créer un ordre de fabrication pour 12 unités de l’article S
 
 La sortie de l’article SP-SCM1009 Airpot est maintenant enregistrée.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Introduction aux données de démonstration Contoso Coffee](../contoso-coffee-intro.md)  

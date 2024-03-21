@@ -9,7 +9,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# À propos des ordres de fabrication
+# <a name="about-production-orders"></a>À propos des ordres de fabrication
 
 Les ordres de fabrication permettent de gérer la conversion de matières achetées en articles fabriqués. La gamme des ordres de fabrication utilise divers centres de charge ou postes de charge de l’atelier.  
 
@@ -30,7 +30,7 @@ Les ordres de fabrication sont les points de départ pour :
 - le contrôle de la fabrication en cours ;  
 - la traçabilité de la fabrication terminée.  
 
-## Création des ordres de fabrication  
+## <a name="production-order-creation"></a>Création des ordres de fabrication
 Il est possible de créer des ordres de fabrication un par un manuellement sur la page **Ordre de fabrication** ou de les générer sur les pages **Commande vente Planning** et/ou **Planning commande**. La page **Feuille planning** permet de générer plusieurs ordres.  
 
 Les ordres de fabrication sont créés à l’aide d’informations provenant des éléments suivants :  
@@ -41,7 +41,7 @@ Les ordres de fabrication sont créés à l’aide d’informations provenant de
 - postes de charge ;  
 - centres de charge ;  
 
-## Limitations de la création d’ordres de fabrication  
+## <a name="limitations-on-production-order-creation"></a>Limitations de la création d’ordres de fabrication
 Les ordres de fabrication sont automatiquement réservés et tracés sur leur source quand ils sont :  
 
 - créés dans la **[Feuille planning](production-how-to-run-mps-and-mrp.md)**  
@@ -53,16 +53,16 @@ Pour plus d’informations, voir [Suivre les relations entre l’offre et la dem
 
 Les ordres de fabrication créés par d’autres moyens ne sont pas automatiquement réservés et tracés.   
 
-## Statut de l’ordre de fabrication  
+## <a name="production-order-status"></a>Statut de l’ordre de fabrication
 Le statut de l’ordre de fabrication contrôle la manière dont l’ordre de fabrication se comporte dans l’application. La forme et le contenu de la production sont dictés par le statut de l’ordre. Les ordres de fabrication sont affichés sur différentes pages en fonction de leur statut. Vous ne pouvez pas modifier le statut d’un ordre de fabrication manuellement ; vous devez utiliser la fonction **Modifier statut** dans l’ordre de fabrication individuel ou dans la fenêtre **Changer statut O.F.**.  
 
-### O.F. simulé  
+### <a name="simulated-production-order"></a>O.F. simulé
 L’ordre de fabrication simulé est unique en raison des caractéristiques suivantes :  
 
 - Comme son nom l’indique, il s’agit d’une simulation destinée principalement à l’établissement de devis et d’évaluations, par exemple si le département de recherche et développement souhaite obtenir une estimation de coût d’un article proposé. Un ordre de fabrication simulé fait office d’exemple d’ordre de fabrication.  
 - Il n’influence par le planning commande. Le planning (PDP et MRP) ne prend jamais en considération et n’est pas affecté par les ordres de fabrication simulés. De même, un ordre de fabrication simulé ne peut pas être utilisé comme modèle parce qu’il disparaît lorsque vous modifiez son statut.  
 
-### O.F. planifié  
+### <a name="planned-production-order"></a>O.F. planifié
 L’ordre de fabrication planifié est unique en raison des caractéristiques suivantes :  
 
 - Vous pouvez créer automatiquement un ordre de fabrication planifié à partir d’une commande vente.  
@@ -71,7 +71,7 @@ L’ordre de fabrication planifié est unique en raison des caractéristiques su
 - Sa génération dans le planning produit un « lancement prévu » suggéré qui inclut une quantité, une date de lancement et une date d’échéance. La logique du système de planning est basée sur le système de réapprovisionnement, les méthodes de réapprovisionnement et les modificateurs d’ordre qu’il rencontre dans le processus de planning des besoins nets.  
 - Pour afficher leur impact, examinez la charge de chaque centre de charge ou poste de charge sur la gamme de l’ordre de fabrication planifié.  
 
-### O.F. planifié ferme  
+### <a name="firm-planned-production-order"></a>O.F. planifié ferme
 L’ordre de fabrication planifié ferme est unique en raison des caractéristiques suivantes :  
 
 - Vous pouvez créer automatiquement un ordre de fabrication planifié ferme à partir d’une commande vente.  
@@ -80,7 +80,7 @@ L’ordre de fabrication planifié ferme est unique en raison des caractéristiq
 - Sa génération dans le planning produit un « lancement prévu » suggéré qui inclut une quantité, une date de lancement et une date d’échéance. La logique du système de planning est basée sur le système de réapprovisionnement, les méthodes de réapprovisionnement et les modificateurs d’ordre qu’il rencontre dans le processus de planning des besoins nets.  
 - Pour afficher leur impact, examinez la charge de chaque centre de charge ou poste de charge sur la gamme de l’ordre de fabrication planifié ferme.  
 
-### O.F. lancé  
+### <a name="released-production-order"></a>O.F. lancé
 L’ordre de fabrication lancé est unique en raison des caractéristiques suivantes :  
 
 - Vous pouvez créer automatiquement un ordre de fabrication lancé à partir d’une commande vente.  
@@ -88,7 +88,7 @@ L’ordre de fabrication lancé est unique en raison des caractéristiques suiva
 - Dans un environnement MTO (fabrication à la commande), il n’est pas rare de créer un ordre de fabrication lancé immédiatement après l’entrée de l’ordre de fabrication.  
 - Vous pouvez enregistrer la consommation de matières et la production réelles manuellement avec un ordre de fabrication lancé. En outre, la consommation automatique de matières et de production n’intervient que pour les ordres de fabrication lancés.  
 
-### O.F. terminé  
+### <a name="finished-production-order"></a>O.F. terminé
 L’ordre de fabrication terminé est unique en raison des caractéristiques suivantes :  
 
 - Un ordre de fabrication terminé est généralement un ordre qui a été fabriqué.  
@@ -96,7 +96,7 @@ L’ordre de fabrication terminé est unique en raison des caractéristiques sui
 - Les ordres de fabrication terminés sont utilisés pour générer des états statistiques et prendre en charge la possibilité de remonter à d’autres ordres (ventes, production et achat, par exemple). La possibilité de remonter à un ordre de fabrication terminé permet d’examiner l’historique détaillé.  
 - Il n’est jamais possible de modifier des ordres de fabrication terminés.  
 
-## Exécution d’un ordre de fabrication  
+## <a name="production-order-execution"></a>Exécution d’un ordre de fabrication
 Après qu’un ordre de fabrication a été créé et planifié, il doit être lancé à l’atelier pour exécution. Durant l’exécution de l’ordre, vous enregistrez les éléments suivants :  
 
 - matières prélevées et consommées ;  
@@ -105,7 +105,7 @@ Après qu’un ordre de fabrication a été créé et planifié, il doit être l
 
 Ces informations peuvent être enregistrées manuellement ou via une génération d’état automatique, en fonction des articles définis dans le champ Méthode consommation de l’article et du centre de charge.  
 
-### Consommation matière  
+### <a name="material-consumption"></a>Consommation matière
 L’application offre une série d’options concernant la manière dont une société manufacturière peut enregistrer une consommation matière. Par exemple, une consommation matière peut être enregistrée manuellement, ce qui peut être souhaitable en cas de remplacements fréquents de composants ou de rebuts plus importants que prévu.  
 
 La consommation de matières peut être traitée via la [feuille consommation](production-how-to-post-consumption.md), mais peut également être enregistrée automatiquement par l’application à l’aide du processus de génération d’état automatique (consommation). Les méthodes de génération d’état sont les suivantes :  
@@ -127,7 +127,7 @@ Lors de l’actualisation de l’ordre de fabrication, la méthode consommation 
 
 Pour plus d’informations, voir [Consommer en aval des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md).
 
-### Production  
+### <a name="production-output"></a>Production
 L’application offre la possibilité de suivre le temps consacré à un ordre de fabrication, en plus de l’enregistrement de la quantité produite. Ces informations permettent de déterminer plus précisément les coûts de production. De même, les fabricants utilisant un système d’évaluation standard peuvent souhaiter enregistrer des informations réelles afin de pouvoir développer de meilleures normes.  
 
 La production peut être traitée via la [feuille production](production-how-to-post-output-quantity.md), mais aussi enregistrée automatiquement par l’application. L’application copie la méthode de consommation de la fiche de poste de charge ou de centre de charge dans la gamme de l’ordre de fabrication lors de l’actualisation. Comme pour la consommation matière, trois méthodes de génération d’état s’appliquent à la production :  
@@ -142,12 +142,12 @@ En aval, cette méthode enregistre la production prévue (et le temps), qui est 
 
 En amont, cette méthode enregistre la production prévue (et le temps), qui est automatiquement enregistrée à la fin d’un ordre de fabrication. Les codes lien gamme n’interviennent pas comme facteurs dans la consommation en amont de la production.  
 
-### Validation de la consommation et de la production  
+### <a name="posting-consumption-and-output"></a>Validation de la consommation et de la production
 Vous pouvez utiliser toute combinaison d’informations de consommation automatique et enregistrées manuellement tant pour la consommation que pour la production. Par exemple, vous pouvez consommer automatiquement en aval des composants, tout en utilisant la feuille consommation pour enregistrer les rebuts. De même, vous pouvez enregistrer automatiquement la production tout en utilisant la feuille production pour enregistrer les rebuts de l’article parent ou le temps supplémentaire consacré au traitement de l’ordre.  
 
 Enfin, si vous entrez une consommation et une production manuellement, vous devez déterminer l’ordre dans lequel vous allez enregistrer ces informations. Vous pouvez commencer par enregistrer une consommation, puis utiliser une méthode de raccourci pour entrer les informations, basée sur une quantité de production prévue. Vous pouvez également commencer par entrer une production en utilisant la fonction **Éclater gamme**. Vous enregistrez ensuite une consommation sur la base de la quantité de production réelle.  
 
-### Feuille production  
+### <a name="production-journal"></a>Feuille production
 La [feuille production](production-how-to-register-consumption-and-output.md) combine les fonctions de la feuille consommation et des feuilles production dans une seule feuille, directement accessible depuis l’ordre de fabrication lancé.  
 
 La feuille production a pour fonction de fournir une interface unique pour l’enregistrement de la consommation et de la production à partir d’un ordre de fabrication.  
@@ -173,7 +173,7 @@ Toutefois, la feuille production diffère des feuilles production et consommatio
 
 Dans la feuille production, les quantités consommées sont validées comme écritures comptables article négatives, les quantités produites sont validées comme écritures comptables article positives et les heures sont validées comme écritures comptables capacité.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Production](production-manage-manufacturing.md)
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Planifié](production-planning.md)  

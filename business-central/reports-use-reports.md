@@ -9,7 +9,7 @@ ms.date: 09/22/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Utiliser les rapports dans le travail quotidien
+# <a name="use-reports-in-daily-work"></a>Utiliser les rapports dans le travail quotidien
 
 Un rapport dans [!INCLUDE[prod_short](includes/prod_short.md)] rassemble des informations en fonction d’un ensemble spécifié de critères. Il organise et présente les informations dans un format facile à lire que vous pouvez imprimer ou enregistrer sous forme de fichier.  
 
@@ -24,7 +24,7 @@ Un rapport dans [!INCLUDE[prod_short](includes/prod_short.md)] rassemble des inf
 | Découvrez comment modifier la disposition par défaut d’un état. | [Modification de la disposition de rapport par défaut](ui-how-change-layout-currently-used-report.md) |
 | Afficher et analyser les données d’un jeu de données de rapport dans Microsoft Excel. | [Enregistrer le jeu de données du rapport dans Excel à partir de la page de demande](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble du rapport](reports-available-reports.md)  
 [Vue d’ensemble de Business Intelligence et Reporting](ui-work-report.md)  

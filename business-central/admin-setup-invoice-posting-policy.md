@@ -11,11 +11,11 @@ ms.search.forms: '119, 9807,'
 ms.service: dynamics-365-business-central
 ---
 
-# Définir une stratégie de validation des factures pour les utilisateurs
+# <a name="define-an-invoice-posting-policy-for-users"></a>Définir une stratégie de validation des factures pour les utilisateurs
 
 Les entreprises ont souvent des processus uniques pour valider les factures de vente et d’achat et les expéditions. Par exemple, les processus peuvent varier d’une personne validant tout sur un bon de commande à plusieurs employés. Vous pouvez empêcher les utilisateurs de valider des factures ou exiger que les factures soient validées avec les expéditions ou les réceptions.
 
-## Pour préciser une stratégie de validation
+## <a name="to-specify-a-posting-policy"></a>Pour préciser une stratégie de validation
 
 Sur la page **Configuration de l’utilisateur**, dans les champs **Stratégie validation facture vente** et **Stratégie validation facture achat**, choisissez l’une des options suivantes :
 
@@ -23,7 +23,7 @@ Sur la page **Configuration de l’utilisateur**, dans les champs **Stratégie v
 * **Interdit** : empêchez l’utilisateur de valider des factures. Business Central affiche une boîte de dialogue de confirmation qui propose uniquement les options **Expédier** ou **Recevoir**.
 * **Obligatoire** : autorisez l’utilisateur à valider des factures avec les reçus ou les expéditions. Business Central affiche une boîte de dialogue de confirmation qui propose uniquement les options **Expédier et envoyer** ou **Recevoir et facturer**.
 
-## Effet sur les documents
+## <a name="effect-on-documents"></a>Effet sur les documents
 
 La table suivante décrit comment les stratégies de validation des factures affectent les documents.
 
@@ -47,7 +47,7 @@ La table suivante décrit comment les stratégies de validation des factures aff
    > [!Note]
    > Le paramètre n’affecte pas la validation des lignes du journal général où vous pouvez sélectionner **Facture** dans le champ **Type de document**.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Facturer des ventes](sales-how-invoice-sales.md)  
 [Enregistrer les achats avec les factures achat et les commandes](purchasing-how-record-purchases.md)  

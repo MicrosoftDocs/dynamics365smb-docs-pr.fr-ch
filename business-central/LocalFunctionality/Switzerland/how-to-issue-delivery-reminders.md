@@ -9,11 +9,11 @@ ms.date: 11/21/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Émettre des relances livraison dans la version suisse
+# <a name="issue-delivery-reminders-in-the-swiss-version"></a>Émettre des relances livraison dans la version suisse
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)]
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Impression des rapports de test pour les relances livraison](how-to-print-test-reports-for-delivery-reminders.md)  
 [Relances livraison](delivery-reminders.md)  

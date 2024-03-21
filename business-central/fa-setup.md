@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Paramétrage d’immobilisations
+# <a name="setting-up-fixed-assets"></a>Paramétrage d’immobilisations
 
 Avant de pouvoir utiliser les immobilisations, vous devez définir les éléments suivants :  
 
@@ -35,7 +35,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | En savoir plus sur les différentes méthodes d’amortissement des immobilisations. |[Méthodes d’amortissement](fa-depreciation-methods.md) |
 | Découvrez comment appliquer des méthodes d’amortissement paramétrables. |[Configuration des méthodes d’amortissement définies par l’utilisateur](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Immobilisations](fa-manage.md)  
 [Finances](finance.md)  

@@ -9,7 +9,7 @@ ms.date: 08/19/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Configuration de Finance
+# <a name="setting-up-finance"></a>Configuration de Finance
 
 Avant de commencer à gérer votre activité, vous devez spécifier comment vous souhaitez gérer les processus financiers de cette société. Pour commencer, vous devez configurer l’élément essentiel des enregistrements comptables de la société, à savoir le plan comptable. Configurez ensuite des groupes comptabilisation afin d’accroître l’efficacité du processus d’affectation des comptes imputables de comptabilité par défaut aux clients, fournisseurs et articles.
 
@@ -50,7 +50,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 > [!TIP]
 > En fonction de votre emplacement géographique, certaines pages Business Central peuvent contenir des champs qui ne sont pas décrits dans les articles répertoriés ci-dessus, car ils s’appliquent à des fonctionnalités locales ou à des personnalisations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Finances](finance.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
