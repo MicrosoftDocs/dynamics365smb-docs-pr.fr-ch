@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Configurer des recommandations : paramètres de planification
+# Configurer des recommandations : paramètres de planification
 
 Le raccourci **Planning** de la fiche article est le cœur de la chaîne d’approvisionnement de la société. Définir des paramètres appropriés de planification est très important pour une gestion rentable des stocks et un service client de haute qualité.  
 
@@ -33,7 +33,7 @@ Le raccourci **Planning** de la fiche article est le cœur de la chaîne d’app
 >
 > Si des sociétés planifient une demande dans différents magasins, il est alors vivement recommandé de définir des points de stock pour chaque magasin et de créer la demande totale à l’aide d’une valeur dans le champ **Code magasin**. Learn more at [Détails de conception : Planification avec/sans magasin](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)  
 [Configurer des domaines d’application complexes à l’aide des meilleures pratiques](set-up-complex-application-areas-using-best-practices.md)  

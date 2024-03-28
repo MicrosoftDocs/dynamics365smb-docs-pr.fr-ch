@@ -10,7 +10,7 @@ ms.date: 08/30/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-purchasing"></a>Définition des achats
+# Définition des achats
 
 Avant de pouvoir gérer les processus achat, vous devez configurer les règles et valeurs qui définissent les stratégies d’achat de la société.
 
@@ -20,11 +20,11 @@ Une série de tâches distincte en relation avec l’enregistrement de nouveaux 
 
 Les configurations relatives à la finance, telles que les modes de règlement et les devises, sont traitées dans la section Paramètres financiers. En savoir plus sur [Configurer Finance](finance-setup-finance.md). De même, la configuration des achats liés à l’inventaire, comme les unités de mesure et les codes de suivi des articles, peut être trouvée dans la section [Paramètres stock](inventory-setup-inventory.md).
 
-## <a name="purchases-and-payables-setup"></a>Paramètres achats
+## Paramètres achats
 
 Avant d’utiliser les achats, précisez sur la page **Paramètres achats** comment les valeurs d’achat sont validées et les séries de numéros utilisées pour les fournisseurs et les documents achat.
 
-### <a name="general-settings"></a>Paramètres généraux
+### Paramètres généraux
 
 Sur le raccourci **Général**, vous pouvez spécifier des options comme le mode de calcul et de validation des remises et l’activation de la fonction d’arrondi sur les factures. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
@@ -36,15 +36,15 @@ En outre, certains champs modifient leur comportement ou dépendent de la façon
 
 Consultez les détails sur les champs [**N° doc. ext. obligatoire**](#external-document-number) et [**Coût retour identique obligatoire**](#exact-cost-reversing) ci-dessous.
 
-### <a name="number-series-settings"></a>Paramètres de souches de numéros
+### Paramètres de souches de numéros
 
 Sur le raccourci **Souches de numéros**, vous devez spécifier les codes d’identification uniques qui seront utilisés pour les fournisseurs, les factures et autres documents achat. La numérotation est importante non seulement pour les processus internes, mais peut également nécessiter le respect des réglementations locales. Il peut donc être utile d’envisager de configurer toutes les souches sur la page **N° de souche** au préalable au lieu d’en créer de nouvelles à partir de **Paramètres achats**. En savoir plus sur [Créer des souches de numéros](ui-create-number-series.md).
 
-## <a name="external-document-number"></a>Numéro de document externe
+## Numéro de document externe
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="exact-cost-reversing"></a>Inversion de même coût
+## Inversion de même coût
 
 La fonction **Coût retour identique obligatoire** aide à garantir que les marchandises retournées sont évaluées au même coût que lorsqu’elles ont été extraites du stock, à l’aide d’une application fixe plutôt que de suivre une méthode d’évaluation des coûts de type moyenne ou premier entré-premier sorti (FIFO). En savoir plus dans la section [Détails de conception : application fixe](design-details-item-application.md#fixed-application). Si un coût supplémentaire est ensuite ajouté à l’achat d’origine, le programme met à jour la valeur du retour achat en conséquence.
 
@@ -52,7 +52,7 @@ Avec la fonctionnalité activée, une transaction de retour peut être validée 
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
-## <a name="more-purchasing-setups"></a>Plus de configurations d’achat
+## Plus de configurations d’achat
 
 | À | Voir |
 | --- | --- |
@@ -69,7 +69,7 @@ Avec la fonctionnalité activée, une transaction de retour peut être validée 
 | Spécifier les états par défaut à utiliser pour différents types de documents. |[Sélection des états dans Business Central](across-report-selections.md)|
 |Spécifiez si les utilisateurs sont autorisés à valider des factures achat et s’ils doivent les valider avec une expédition. |[Définition d’une stratégie de validation des factures pour les utilisateurs](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Achats](purchasing-manage-purchasing.md)  
 [Présentation de la configuration](setup.md)  

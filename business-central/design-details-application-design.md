@@ -9,7 +9,7 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="application-design-details"></a>Détails de conception de l’application
+# Détails de conception de l’application
 
 Les articles de cette section contiennent des informations techniques détaillées sur les fonctionnalités d’application complexes dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -25,7 +25,7 @@ Le contenu des détails de conception est destiné aux implémenteurs, développ
 |En savoir plus sur l’historique et la conception actuelle de la fonctionnalité de traçabilité et la manière dont elle s’intègre avec le système de réservation pour inclure les numéros de série/lot dans les calculs de disponibilité.|[Détails de conception : traçabilité](design-details-item-tracking.md)|  
 |En savoir plus sur la fonction de ligne validation de feuille comptabilité.|[Détails de conception : ligne validation de feuille comptabilité](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Planifié](production-planning.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  

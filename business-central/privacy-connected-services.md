@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Fonctionnalités d’évaluation qui se connectent à d’autres services Microsoft
+# Fonctionnalités d’évaluation qui se connectent à d’autres services Microsoft 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] est une solution complète de gestion d’entreprise profondément intégrée aux applications de productivité Microsoft 365 et à Power Platform. Votre version d’évaluation gratuite de Business Central peut se connecter à de nombreux services Microsoft différents que vous devez d’abord configurer et activer. Pour tirer le meilleur parti de votre évaluation gratuite, certaines de ces fonctionnalités ont été automatiquement activées pour vous. Même si la connexion de [!INCLUDE[prod_short](includes/prod_short.md)] est activée, ces services ne sont pas inclus dans votre évaluation et doivent être achetés séparément, sauf si vous les avez déjà.
 

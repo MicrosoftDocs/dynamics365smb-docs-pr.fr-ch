@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-of-basic-jobs"></a>Procédure pas à pas sur les projets de base
+# Procédure pas à pas sur les projets de base
 
 Cette procédure détaillée illustre plusieurs processus principaux :
 
@@ -16,13 +16,13 @@ Cette procédure détaillée illustre plusieurs processus principaux :
 - Enregistrement du temps et des dépenses de matériel pour un projet
 - Facturation d’un projet
 
-## <a name="adding-a-job-task-to-a-job"></a>Ajout d’une tâche à un projet
+## Ajout d’une tâche à un projet
 
-### <a name="scenario"></a>Scénario
+### Scénario  
 
 Simon, le chef de projet, souhaite enregistrer le temps consacré à former le client sur l’utilisation d’une machine expresso dans une tâche distincte du projet d’installation d’une machine commerciale sur site.
 
-### <a name="steps"></a>Étapes
+### Étapes
 
 1. Créer la tâche de projet  
 
@@ -38,17 +38,17 @@ Simon, le chef de projet, souhaite enregistrer le temps consacré à former le c
    1. Dans la zone Tâches, localisez l’action **Indenter tâches projet**
    2. Confirmez que vous souhaitez indenter les tâches en sélectionnant **Oui**.
 
-### <a name="results"></a>Résultats
+### Résultats
 
  - Maintenant, le temps et les dépenses peuvent être enregistrés dans la nouvelle tâche de projet
 
-## <a name="record-time-and-material-expenses-to-a-job"></a>Enregistrer le temps et les dépenses de matériel pour un projet
+## Enregistrer le temps et les dépenses de matériel pour un projet
 
-### <a name="scenario-1"></a>Scénario
+### Scénario  
 
 Edgin, le technicien qui installe la machine, doit enregistrer son temps et les matériels utilisés lors de l’installation dans le projet pour la facturation.  Il a déjà ajouté les déplacements et les matériels, et doit maintenant ajouter le temps pour apprendre au personnel comment utiliser la machine.
 
-### <a name="steps-1"></a>Étapes
+### Étapes
 
 1. Créer des lignes feuille projet supplémentaires
 
@@ -64,19 +64,19 @@ Edgin, le technicien qui installe la machine, doit enregistrer son temps et les 
    1. Choisissez l’action **Valider**
    2. Confirmez que vous souhaitez valider les lignes en sélectionnant **Oui**.
 
-### <a name="results-1"></a>Résultats
+### Résultats
 
  - Des écritures comptables projet et des écritures comptables ressource de type *Utilisation* sont créées
  - Des écritures comptables article sont créées pour ajuster négativement l’inventaire
  - Sur la fiche projet, les coûts et les prix dans la zone Tâches reflètent les nouveaux soldes en attente de facturation
  - Sur la fiche projet, le récaptitulatif Détails du projet reflète les totaux des prix
 
-## <a name="creating-a-sales-invoice-for-a-job"></a>Création d’une facture vente pour un projet
+## Création d’une facture vente pour un projet
 
-### <a name="scenario-2"></a>Scénario
+### Scénario  
 Simon doit créer et valider une facture à envoyer au client avec le temps et les dépenses du projet.
 
-### <a name="steps-2"></a>Étapes
+### Étapes
 1. Créer la facture vente
 
     1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis choisissez le lien associé.  
@@ -89,7 +89,7 @@ Simon doit créer et valider une facture à envoyer au client avec le temps et l
    2. Sélectionnez la dernière facture pour l’ouvrir pour révision.
    3. Sélectionnez l’action **Valider**.
 
-### <a name="results-2"></a>Résultats
+### Résultats
 
  - Des écritures comptables projet et des écritures comptables ressource de type *Vente* sont créées
  - Sur la fiche projet, les coûts et les prix dans la zone Tâches reflètent les nouveaux soldes facturés

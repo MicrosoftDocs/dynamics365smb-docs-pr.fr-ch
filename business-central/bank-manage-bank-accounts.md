@@ -10,7 +10,7 @@ ms.date: 10/04/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Gérer et rapprocher vos comptes bancaires
+# Gérer et rapprocher vos comptes bancaires
 
 Un rapprochement bancaire doit être effectué à intervalles réguliers pour tous vos comptes bancaires afin de garantir l’exactitude des registres de trésorerie de la société. Pour ce faire, vous comparez et faites correspondre les écritures de vos comptes bancaires internes avec les transactions bancaires de votre banque, puis vous validez les soldes sur vos comptes bancaires internes pour mettre les totaux à la disposition des responsables financiers. Le rapprochement bancaire est également un moyen pratique de découvrir et de résoudre les paiements manquants et les erreurs de comptabilité.
 
@@ -31,7 +31,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 > [!TIP]
 > Utilisez le rapprochement bancaire pour vérifier que vos livres sont à jour et ne publiez pas le rapprochement tant que vous n’êtes pas satisfait du rapprochement.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Rapprochement des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md)  

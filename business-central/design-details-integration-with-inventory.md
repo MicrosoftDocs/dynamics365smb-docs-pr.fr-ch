@@ -9,11 +9,11 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-integration-with-inventory"></a>Détails de conception : intégration avec le stock
+# Détails de conception : intégration avec le stock
 
 Les fonctionnalités Warehouse Management et Inventory interagissent dans le stock physique et dans l’ajustement de stock ou entrepôt.  
 
-## <a name="physical-inventory"></a>Inventaire
+## Inventaire  
 
 La page **Feuille inventaire entrepôt** est utilisée avec la page **Feuille inventaire** pour tous les entrepôts avancés. Le stock au niveau de l’emplacement est calculé, et une liste imprimée est donnée au magasinier. La liste indique les articles dans lesquels les emplacements doivent être comptabilisés.  
   
@@ -29,7 +29,7 @@ Lorsque vous validez la feuille stock physique, le stock et l’emplacement d’
 
 [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
   
-## <a name="warehouse-adjustments-to-the-item-ledger"></a>Ajustements d’entrepôt dans l’écriture article
+## Ajustements d’entrepôt dans l’écriture article  
 
 Vous utilisez la page **Feuille article** et la fonction **Calculer ajustement entrepôt** pour ajuster le stock dans l’écriture article conformément à ajustement qui a été apporté sur la quantité d’un article dans un emplacement entrepôt. Pour créer un lien entre stock et l’entrepôt, vous devez définir un emplacement d’ajustement par défaut par magasin.  
   
@@ -42,7 +42,7 @@ Pour ajuster le contenu de l’emplacement, utilisez une feuille article entrep�
   
 Si vous saisissez une quantité positive et validez la ligne, le stock enregistré dans les entrées de l’emplacement, et la quantité de l’emplacement ajustement par défaut diminue en conséquence.  
   
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)  
 [Détails de conception : disponibilité dans l’entrepôt](design-details-availability-in-the-warehouse.md)  

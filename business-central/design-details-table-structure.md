@@ -9,10 +9,10 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-table-structure"></a>Détails de conception : structure de la table
+# Détails de conception : structure de la table
 Pour comprendre comment les écritures analytiques sont stockées et validées, il est important de comprendre la structure de la table.  
 
-## <a name="table-480-dimension-set-entry"></a>Table 480 : Écriture ensemble de dimensions
+## Table 480 : Écriture ensemble de dimensions  
 Vous ne pouvez pas modifier cette table. Une fois les données écrites dans la table, vous ne pouvez plus les supprimer ou les modifier.
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
@@ -24,7 +24,7 @@ Vous ne pouvez pas modifier cette table. Une fois les données écrites dans la 
 |5|**Nom axe analytique**|Texte 30|CalcField. Rechercher dans la table 348.|  
 |6|**Nom de la section analytique**|Texte 30|CalcField. Rechercher dans la table 349.|  
 
-## <a name="table-481-dimension-set-tree-node"></a>Table 481 : Nœud d’arbre ensemble de dimensions
+## Table 481 : Nœud d’arbre ensemble de dimensions  
 Vous ne pouvez pas modifier cette table. Elle est utilisée pour trouver un ensemble de dimensions. Si l’ensemble de dimensions est introuvable, un nouvel ensemble est créé.  
 
 |N° champ|Nom du champ|Type de données|Commentaires|  
@@ -34,7 +34,7 @@ Vous ne pouvez pas modifier cette table. Elle est utilisée pour trouver un ense
 |3|**ID ensemble de dimensions**|Entier|Incrémentez automatiquement. Utilisé dans le champ 1 du tableau 480.|  
 |4|**Utilisé**|Booléen|Faux si non utilisé.|  
 
-## <a name="table-482-reclas-dimension-set-buffer"></a>Table 482 : Tampon ensemble de dimensions reclass.
+## Table 482 : Tampon ensemble de dimensions reclass.  
 Cette table est utilisée lorsque vous modifiez un code section analytique, par exemple, pour une écriture comptable article en utilisant la page **Feuille reclassement article**.  
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
@@ -48,14 +48,14 @@ Cette table est utilisée lorsque vous modifiez un code section analytique, par 
 |7|**Nom de la section analytique**|Texte 30|CalcField. Rechercher dans la table 349.|  
 |8|**Nom nouvelle section analytique**|Texte 30|CalcField. Rechercher dans la table 349.|  
 
-## <a name="transaction-and-budget-tables"></a>Transaction et tableaux de budget
+## Transaction et tableaux de budget  
 En plus des autres champs d’axe dans la table, ce champ est important :  
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
 |480|**ID ensemble de dimensions**|Entier|Champ de références 1 dans la table 480.|  
 
-### <a name="table-83-item-journal-line"></a>Table 83 : Ligne feuille article
+### Table 83 : Ligne feuille article  
 En plus des autres champs d’axe dans la table, ces champs sont importants :  
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
@@ -63,14 +63,14 @@ En plus des autres champs d’axe dans la table, ces champs sont importants :
 |480|**ID ensemble de dimensions**|Entier|Champ de références 1 dans la table 480.|  
 |481|**ID du nouvel ensemble de dimensions**|Entier|Champ de références 1 dans la table 480.|  
 
-### <a name="table-349-dimension-value"></a>Table 349 : section analytique
+### Table 349 : section analytique  
 En plus des autres champs d’axe dans la table, ces champs sont importants :  
 
 |N° champ|Nom de champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
 |12|**ID section analytique**|Entier|Incrémentez automatiquement. Utilisé pour références dans le tableau 480 et le tableau 481.|  
 
-### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tables qui contiennent le champ ID d’ensemble de dimensions
+### Tables qui contiennent le champ ID d’ensemble de dimensions
  Le champ **ID d’ensembles de dimensions** (480) existe dans les tables suivantes. Pour les tables qui stockent des données validées, le champ fournit seulement un affichage non modifiable des axes analytiques, marqué comme vue détaillée. Pour les tables qui stockent des documents de travail, le champ peut être modifié. Les tables tampon qui sont utilisées en interne n’ont pas besoin de fonctionnalités modifiables ou non modifiables.  
 
  Le champ 480 ne peut pas être modifié dans les tables suivantes.  
@@ -173,7 +173,7 @@ Le champ 480 existe dans les tables suivantes.
 |5637|**Tampon écriture compta. immo.**|  
 |7136|**Tampon budget article**|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Aperçu des écritures de l’ensemble de dimensions](design-details-dimension-set-entries-overview.md)  
 [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)   

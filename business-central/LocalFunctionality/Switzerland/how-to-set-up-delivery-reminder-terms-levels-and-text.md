@@ -10,11 +10,11 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a>Configurer les conditions, niveaux et textes de relance livraison dans la version suisse
+# Configurer les conditions, niveaux et textes de relance livraison dans la version suisse
 
 [!INCLUDE [delivery-reminder-terms-levels-text-setup](../includes/ATCHDE/delivery-reminder-terms-levels-text-setup.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [relances livraison](delivery-reminders.md)  
 [Configurer des relances livraison](how-to-set-up-delivery-reminders.md)  

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-payments-and-reconciliations-dk-extension"></a>Extension Paiements et rapprochements (DK)
+# Extension Paiements et rapprochements (DK)
 
 Réalise des paiements rapides et sans erreur en exportant des fichiers formatés spécifiquement pour les échanges avec votre fournisseur ou votre banque. Ces fichiers accélèrent les processus de paiement et de réconciliation, et éliminent les erreurs qui apparaissent lorsque vous saisissez manuellement des informations sur le site Web d’une banque.  
 
@@ -19,7 +19,7 @@ Cette extension prend en charge les formats de fichier de plusieurs banques dano
 > [!Note]
 > Pour utiliser l’extension, vous devez connaître le format demandé par votre banque ou votre fournisseur. Certaines banques ou fournisseurs indiquent cette information sur leurs sites Web ; toutefois, vous pouvez être amené à contacter leur service client pour obtenir l’information.  
 
-## <a name="supported-bank-formats"></a>Formats bancaires pris en charge
+## Formats bancaires pris en charge
 Cette extension peut appliquer les formats de fichier suivants pour les fichiers paiement :  
 
 * BANKDATA-V3  
@@ -35,7 +35,7 @@ Cette extension peut appliquer les formats de fichier suivants pour les fichiers
 * SDC  
 * SDC-CSV  
 
-## <a name="to-set-up-the-extension"></a>Pour configurer l’extension
+## Pour configurer l’extension
 
 Voici quelques étapes pour commencer.  
 
@@ -46,13 +46,13 @@ Voici quelques étapes pour commencer.
 
 En outre, vous devez affecter les fournisseurs à un **Groupe compta. marché** et à un **Groupe compta. fournisseur** nationaux. Le paramètre de pays/région du fournisseur doit être le Danemark (DK). Pour plus d’informations, voir [Configuration de groupes comptabilisation](finance-posting-groups.md).  
 
-### <a name="to-allow--to-export-payment-data"></a>Pour autoriser [!INCLUDE[prod_short](includes/prod_short.md)] à exporter des données de règlement
+### Pour autoriser [!INCLUDE[prod_short](includes/prod_short.md)] à exporter des données de règlement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille paiement**, puis choisissez le lien associé.  
 2. Sur la page **Modifier feuille paiement**, choisissez le lot **Banque**.  
 3. Sélectionnez la case à cocher **Autoriser exportation paiement**.  
 
-### <a name="to-specify-a-payment-method-for-a-vendor"></a>Pour spécifier un mode de règlement pour un fournisseur
+### Pour spécifier un mode de règlement pour un fournisseur
 
 Le tableau suivant affiche les combinaisons des modes de règlement FIK et virement GIRO pris en charge par [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -66,13 +66,13 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 2. Ouvrez la fiche, développez l’onglet **Paiements**, dans le champ **Mode de règlement** sélectionnez le mode de règlement.  
 3. Selon votre sélection, vous devez renseigner d’autres champs. Voir la table ci-dessus pour une description des combinaisons.  
 
-### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Pour spécifier le format à utiliser pour un compte bancaire
+### Pour spécifier le format à utiliser pour un compte bancaire
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche pour le compte bancaire.  
 3. Dans le champ **Format exportation paiement**, choisissez le format de votre fichier d’exportation.  
 
-## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Choisir les informations de paiement FIK ou Giro pour les factures fournisseur
+## Choisir les informations de paiement FIK ou Giro pour les factures fournisseur
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.
 2. Sélectionnez le fournisseur Rappelez-vous, il doit s’agir d’un fournisseur danois avec une adresse au Danemark.
@@ -84,7 +84,7 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 
 5. Validez la facture.
 
-## <a name="to-use-the-extension-to-export-payment-data"></a>Pour utiliser l’extension d’exportation des données de paiement
+## Pour utiliser l’extension d’exportation des données de paiement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles paiement**, puis choisissez le lien associé.  
 2. Choisissez l’action **Proposer des feuilles de paiement fournisseur**.  
@@ -96,7 +96,7 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 4. Dans le champ **Mode émission paiement**, sélectionnez **Paiement électronique**.  
 5. Sélectionnez l’option **Exporter**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Personnalisation de Business Central pour [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide d’extensions](ui-extensions.md)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  

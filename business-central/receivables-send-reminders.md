@@ -10,11 +10,11 @@ ms.date: 02/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Envoi des rappels de soldes impayés
+# Envoi des rappels de soldes impayés
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
 [Configurer plusieurs taux d’intérêt pour les paiements retardés](finance-how-to-set-up-multiple-interest-rates.md)  

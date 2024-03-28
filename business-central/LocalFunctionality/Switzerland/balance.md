@@ -10,7 +10,7 @@ ms.date: 12/11/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="general-ledger-balance-in-the-swiss-version"></a>Solde comptabilité dans la version suisse
+# Solde comptabilité dans la version suisse
 
 Lorsque vous choisissez l'action **Solde** dans la page **Comptes généraux**, la page **Compte général. Solde temporaire** s'ouvre. Elle indique le solde des écritures comptables finales enregistrées et le solde des écritures saisies dans la feuille comptabilité actuelle.  
 
@@ -28,7 +28,7 @@ Les deux options suivantes vous sont proposées :
 
     Seul le solde non validé de la feuille comptabilité actuellement affichée est calculé.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Affichage des soldes temporaires dans les feuilles comptabilité](how-to-view-temporary-balances-in-general-ledger-journals.md)  
 

@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="edit-posted-documents"></a>Valider les documents validés
+# Valider les documents validés
 
 Parfois, vous devez mettre à jour un document validé, car les informations pertinentes pour le document ont été modifiées. Sur un document de vente validé, il peut s’agir du numéro de suivi du colis du transporteur, par exemple. Sur un document d’achat validé, il peut s’agir d’un texte de référence de paiement.
 
@@ -31,7 +31,7 @@ Les documents supplémentaires suivants peuvent être modifiés dans les pays ou
 - RU : avoir vente enregistré
 - IT : expédition de transfert validée, expédition de service validée
 
-## <a name="to-edit-a-posted-sales-shipment"></a>Pour modifier une expédition vente enregistrée
+## Pour modifier une expédition vente enregistrée
 
 Ce qui suit explique comment modifier une expédition vente enregistrée Les étapes sont similaires pour les autres documents pris en charge.
 
@@ -42,7 +42,7 @@ Ce qui suit explique comment modifier une expédition vente enregistrée Les ét
 
 L’expédition vente enregistrée est mise à jour.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Validation des documents et des feuilles](ui-post-documents-journals.md)  
 [Rechercher les écritures associées aux documents](ui-find-entries.md)  
