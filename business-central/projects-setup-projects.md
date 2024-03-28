@@ -10,7 +10,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Configuration de la gestion de projet
+# <a name="setting-up-project-management"></a>Configuration de la gestion de projet
 
 Avant de pouvoir utiliser le module [!INCLUDE[prod_short](includes/prod_short.md)] pour gérer les projets, vous devez définir des ressources, des feuilles de temps et des projets.
 
@@ -25,7 +25,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 | Vous pouvez permettre aux ressources d’enregistrer le temps d’utilisation d’une personne ou d’un poste, et permettre à un administrateur de consulter l’activité d’une ressource et son affectation. |[Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md) |
 | Vous pouvez créer des fiches projet et préparer les tâches projet. Vous pouvez configurer les articles projet et les ressources de projet et définir les groupes comptabilisation projet. |[Configuration de projets](projects-how-setup-jobs.md) |
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion des projets](projects-manage-projects.md)  
 [Vidéo : Créer un projet dans Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ---
 Dans [!INCLUDE[prod_short](../../../includes/prod_short.md)], vous pouvez utiliser des relances livraison pour rappeler aux fournisseurs les livraisons en retard. Pour créer des relances livraison pour les fournisseurs, vous devez configurer des données de base pour la création de relances livraison et des souches de numéros pour les relances livraison dans la page **Paramètres achats**.  
 
-## Pour paramétrer des relances livraison  
+## <a name="to-set-up-delivery-reminders"></a>Pour paramétrer des relances livraison
 
 1. Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramètres achats**, puis choisissez le lien associé.  
 2. Dans le champ **Champ date rel. livr. par défaut**, spécifiez une des options suivantes comme décrit dans le tableau suivant.  

@@ -10,7 +10,7 @@ ms.date: 11/02/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Enregistrer de nouveaux articles
+# <a name="register-new-items"></a>Enregistrer de nouveaux articles
 
 Les articles, entre autres produits, sont la base de votre activité, les biens ou les services que vous commercialisez. Chaque article doit être enregistré en tant que fiche article.
 
@@ -33,7 +33,7 @@ La procédure suivante explique comment créer une fiche article à partir de z�
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
-## Pour créer une fiche article
+## <a name="to-create-a-new-item-card"></a>Pour créer une fiche article
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
@@ -48,7 +48,7 @@ L’article est désormais enregistré, et la fiche article est prête à être 
 
 Si vous souhaitez utiliser cette fiche article comme modèle lorsque vous créez de nouvelles fiches article, enregistrez-la comme modèle. Pour plus d’informations, reportez-vous à la section suivantes.  
 
-### Pour enregistrer la fiche article en tant que modèle
+### <a name="to-save-the-item-card-as-a-template"></a>Pour enregistrer la fiche article en tant que modèle
 
 1. Sur la page **Fiche article**, sélectionnez l’action **Sauvegarder comme modèle**. La page **Modèle article** s’ouvre et affiche la fiche article comme modèle.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -58,11 +58,11 @@ Si vous souhaitez utiliser cette fiche article comme modèle lorsque vous créez
 
 Le modèle article est ajouté à la liste des modèles article. Vous pouvez ainsi l’utiliser pour créer des fiches article.
 
-### Articles utilisés dans les ordres de fabrication
+### <a name="items-used-in-production-orders"></a>Articles utilisés dans les ordres de fabrication
 
 Si vous souhaitez enregistrer des articles qui sont ensuite utilisés dans des ordres de fabrication, vous spécifiez le système réappro. comme *Ordre de fabrication* sur le raccourci **Réapprovisionnement**. Pour plus d’informations, voir [À propos des ordres de fabrication](production-about-production-orders.md).  
 
-## Pour configurer plusieurs fournisseurs pour un article
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Pour configurer plusieurs fournisseurs pour un article
 
 Si vous achetez le même article chez plusieurs fournisseurs, vous devez saisir, pour chacun des fournisseurs de cet article des informations concernant, par exemple, ses prix, ses délais, ses escomptes, etc.  
 
@@ -75,11 +75,11 @@ Si vous achetez le même article chez plusieurs fournisseurs, vous devez saisir,
 
 Les fournisseurs s’affichent maintenant sur la page **Catalogue fournisseur articles** (que vous ouvrez à partir de la fiche article), de sorte que vous pouvez facilement sélectionner un autre fournisseur.
 
-## Configuration d’articles de substitution
+## <a name="set-up-item-substitutions"></a>Configuration d’articles de substitution
 
 Vous pouvez configurer des articles pour qu’ils aient des substituts, tels que d’autres articles pouvant être utilisés à la place de l’article d’origine.
 
-### Pour affecter le statut de substitut à un article
+### <a name="to-make-an-item-substitution"></a>Pour affecter le statut de substitut à un article
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Recherchez l’article concerné, puis cliquez sur le **N° article** pour ouvrir la fiche article.  
@@ -92,29 +92,29 @@ Lorsque la quantité d’articles requis dépasse la quantité disponible en sto
 > [!NOTE]  
 > Sachez que les articles de substitution n’entraîneront pas automatiquement le remplacement d’un article par un autre, par exemple lors de la création d’une commande client ou dans une nomenclature. Au lieu de cela, vous serez alerté du fait qu’un substitut est disponible pour vous.
 
-## Catégories, attributs et variantes
+## <a name="categories-attributes-and-variants"></a>Catégories, attributs et variantes
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 En savoir plus sur les variantes dans la section [Gérer les variantes de produits](inventory-item-variants.md).  
 
-## Supprimer de fiches article
+## <a name="delete-item-cards"></a>Supprimer de fiches article
 
 Si vous enregistré une transaction pour un article, vous ne pouvez pas supprimer la carte, car les écritures comptables peuvent être nécessaires pour l’évaluation du stock ou l’audit. Pour supprimer des fiches article avec des écritures comptables, contactez le partenaire Microsoft pour le faire via le code.  
 
-## Gérer le stock des entrepôts
+## <a name="manage-inventory-in-warehouses"></a>Gérer le stock des entrepôts
 
 Lorsque vous enregistrez un nouvel article, vous verrez des champs liés à la gestion de l’entrepôt, en particulier sur le raccourci **Entrepôt**. Si votre organisation n’utilise pas les fonctionnalités de gestion d’entrepôt dans [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez alors ignorer ces champs.  
 
 Si votre organisation configure ultérieurement la gestion des entrepôts, nous vous recommandons de vous assurer que chaque article existant possède les bonnes informations dans les différents champs. De cette façon, les processus d’entrepôt peuvent s’exécuter comme prévu. Ces informations peuvent inclure des champs, tels que **Code classe entrepôt** ou **Code modèle rangement**. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).  
 
-## Planification
+## <a name="planning"></a>Planification
 
 Lorsque votre entreprise utilise les processus de planification des approvisionnements dans [!INCLUDE [prod_short](includes/prod_short.md)], vous devez remplir les champs correspondants sur le raccourci **Planification**. Pour une introduction à la zone de planification, voir [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md).  
 
 Pour des exemples d’utilisation des champs du raccourci **Planification**, voir [Configurer des recommandations : paramètres de planification](setup-best-practices-planning-parameters.md).  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Stock](inventory-manage-inventory.md)  
 [Configuration des unités de mesure](inventory-how-setup-units-of-measure.md)  

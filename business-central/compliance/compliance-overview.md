@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Vue d’ensemble de la conformité
+# <a name="compliance-overview"></a>Vue d’ensemble de la conformité
 
 Ce contenu comprend des informations sur la conformité concernant [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

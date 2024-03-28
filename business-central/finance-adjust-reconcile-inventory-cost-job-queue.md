@@ -10,12 +10,12 @@ ms.date: 09/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Planifier des tâches pour ajuster et rapprocher les coûts de stock
+# <a name="schedule-jobs-to-adjust-and-reconcile-inventory-cost"></a>Planifier des tâches pour ajuster et rapprocher les coûts de stock
 
 La planification de tâches pour l’ajustement automatique des coûts avec la comptabilité et la validation dans la comptabilité est activée par défaut.
 Cependant, à mesure que les données s’accumulent au fil du temps, cela peut affecter les performances. Pour réduire la charge de l’application, il est souvent utile d’utiliser les écritures file d’attente des travaux pour déplacer les tâches à exécuter en arrière-plan.
 
-## Déplacez la tâche d’ajustement des coûts article en arrière-plan à l’aide de la configuration assistée
+## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Déplacez la tâche d’ajustement des coûts article en arrière-plan à l’aide de la configuration assistée
 
 La création des écritures file d’attente des travaux peut être compliquée, même pour un consultant expérimenté ; par conséquent, nous avons un guide de configuration assistée pour faciliter le processus d’ajustement des coûts article.  
 
@@ -29,7 +29,7 @@ La création des écritures file d’attente des travaux peut être compliquée,
 
 5. Sélectionnez le champ **Afficher les écritures file d’attente des travaux quand vous avez terminé** pour réviser et ajuster les paramètres. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).  
 
-## Pour créer une écriture file d’attente des travaux pour ajuster et rapprocher manuellement le coût stocks
+## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>Pour créer une écriture file d’attente des travaux pour ajuster et rapprocher manuellement le coût stocks
 
 Vous pouvez également créer des écritures file d’attente des travaux manuellement. La procédure suivante montre comment définir le traitement par lots **Ajuster coût écritures article** pour s’exécuter automatiquement chaque jour, mais les mêmes étapes s’appliquent au traitement par lots **Valider coûts ajustés**.  
 
@@ -48,7 +48,7 @@ Pour planifier une tâche de rapprochement du stock avec la comptabilité, chois
 > [!TIP]
 > Pour éviter le verrouillage, ne planifiez pas de tâches pour le traitement par lots **Ajuster coûts : Écr. article**, le codeunit **Valider coûts ajustés** et les tâches de validation des transactions de vente ou d’achat en même temps. Assurez-vous également qu’ils utilisent la même catégorie de file d’attente des travaux.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Ajustement coûts article](inventory-how-adjust-item-costs.md)  
 [Rapprochement des coûts et de la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  

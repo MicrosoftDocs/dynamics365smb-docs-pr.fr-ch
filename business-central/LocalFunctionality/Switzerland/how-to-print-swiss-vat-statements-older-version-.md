@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Imprimer les relevés de TVA suisse (ancienne version)
+# <a name="print-swiss-vat-statements-older-version"></a>Imprimer les relevés de TVA suisse (ancienne version)
 
 > [!NOTE]  
 >  Cette rubrique est conservée pour une rétrocompatibilité avec l'état **Déclaration TVA suisse**. Pour plus d'informations sur l'utilisation de la dernière déclaration TVA suisse, voir Déclaration de TVA en Suisse.  
@@ -20,7 +20,7 @@ La **Déclaration TVA suisse** est l'état de calcul standard pour la réalisati
 - Écritures d'ajustement de la TVA  
 - Feuille de comptabilité  
 
-## Pour imprimer la déclaration TVA suisse  
+## <a name="to-print-the-swiss-vat-statement"></a>Pour imprimer la déclaration TVA suisse
 
 1.  Choisissez l'icône d'![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Déclaration de TVA suisse**, puis sélectionnez le lien associé.  
 
@@ -45,7 +45,7 @@ La **Déclaration TVA suisse** est l'état de calcul standard pour la réalisati
 
 3.  Sélectionnez le bouton **Imprimer** pour imprimer la déclaration de TVA, ou le bouton **Aperçu** pour l'afficher à l'écran.  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
  [Taxe sur la valeur ajoutée, Suisse](swiss-value-added-tax.md)   
  [Taux de TVA pour la Suisse](vat-rates-for-switzerland.md)
 

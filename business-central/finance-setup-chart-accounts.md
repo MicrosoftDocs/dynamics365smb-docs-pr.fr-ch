@@ -11,14 +11,14 @@ ms.date: 12/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Configurer ou modifier le plan comptable
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Configurer ou modifier le plan comptable
 
 Le plan comptable affiche les comptes généraux qui stockent vos données financières. [!INCLUDE[prod_short](includes/prod_short.md)] inclut un plan comptable standard prêt à prendre en charge votre société. Vous pouvez, cependant, modifier les comptes par défaut, et vous pouvez ajouter de nouveaux comptes.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## Ajouter ou modifier les comptes
+## <a name="add-or-change-accounts"></a>Ajouter ou modifier les comptes
 
 À partir du plan comptable, vous pouvez ouvrir chaque compte général et ajouter ou modifier des paramètres. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ Pour les comptes de type **Total**, vous devez renseigner le champ **Totalisatio
 > [!IMPORTANT]
 > Si vous avez entré des définitions dans les champs **Totalisation** pour les comptes de type **Fin total** avant d’exécuter la fonction d’indentation, vous devez les entrer à nouveau car cette fonction remplace les valeurs de tous les champs **Fin total**.
 
-## Supprimer les comptes
+## <a name="delete-accounts"></a>Supprimer les comptes
 
 Vous pouvez supprimer un compte général. Toutefois, avant que de le supprimer, les conditions suivantes doivent être réunies :  
 
@@ -43,13 +43,13 @@ Vous pouvez également spécifier quand autoriser les utilisateurs à supprimer 
 
 La désactivation du champ **Bloquer la suppression des comptes généraux** est une pratique exemplaire, tout comme définir la date dans le champ **Vérifier suppr. cpte gén. ap.**, par exemple à la date à laquelle vous devez stocker vos données financières.  
 
-### Guidage vidéo
+### <a name="video-guidance"></a>Guidage vidéo
 
 Cette vidéo montre comment spécifier si et quand les utilisateurs peuvent supprimer des comptes G/L.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Comptabilité et plan comptable](finance-general-ledger.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  

@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Hub Entreprise pour l’extension Business Central
+# <a name="the-company-hub-for-business-central-extension"></a>Hub Entreprise pour l’extension Business Central
 
 Cette application fournit un tableau de bord avec des données récapitulatives pour chaque entreprise à laquelle l’utilisateur a accès sur tous les [!INCLUDE [prod_short](includes/prod_short.md)] en ligne, comme les nombreux clients d’un comptable. La page d’accueil affiche les indicateurs clés financiers ainsi qu’un lien direct vers les différents environnements et entreprises afin que les utilisateurs puissent le faire.
 
@@ -18,11 +18,11 @@ Ce tableau de bord est un tableau de bord hautement spécialisé permettant d’
 
 Lorsque vous configurez l’extension pour la première fois, un exemple de société vous permet de démarrer. Vous pouvez supprimer l’exemple de société à tout moment.
 
-## Installation de l’extension
+## <a name="installing-the-extension"></a>Installation de l’extension
 
 Lorsque vous installez l’extension dans votre [!INCLUDE [prod_short](includes/prod_short.md)], il vous est demandé si vous souhaitez l’utiliser maintenant. Si vous le faites, vous devrez vous déconnecter et vous reconnecter, parce que l’extension remplacera votre Tableau de bord actuel et ajoutera des autorisations à votre profil utilisateur.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gérer le travail entre plusieurs entreprises dans le Hub Entreprise](company-hub.md)  
 [Expériences de comptables dans Business Central](finance-accounting.md)  

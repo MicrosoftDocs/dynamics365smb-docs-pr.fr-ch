@@ -11,7 +11,7 @@ ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
-# Surveiller la progression et les performances
+# <a name="monitor-job-progress-and-performance"></a>Surveiller la progression et les performances
 
 Grâce à la fonctionnalité encours (WIP), vous pouvez estimer la valeur financière des projets en cours dans la comptabilité.
 
@@ -28,7 +28,7 @@ Vous pouvez calculer les TEC sur la base des éléments suivants :
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## Créer une méthode TEC projet
+## <a name="create-a-job-wip-method"></a>Créer une méthode TEC projet
 
 Créez une méthode TEC projet qui répondent aux besoins de votre organisation et définissez-la comme la méthode TEC projet par défaut.  
 
@@ -41,7 +41,7 @@ Créez une méthode TEC projet qui répondent aux besoins de votre organisation 
 4. Pour faire de cette nouvelle méthode la méthode par défaut, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **paramètres projets**, puis choisissez le lien associé.  
 5. Dans le champ **Méthode TEC par défaut**, choisissez la méthode de la liste.
 
-## Définir une méthode TEC pour un projet
+## <a name="define-a-wip-method-for-a-job"></a>Définir une méthode TEC pour un projet
 
 Lorsque vous créez un projet, vous devez spécifier la méthode TEC projet qui s’applique. Dans certains cas, la méthode TEC projet que vous utilisez est déjà définie par défaut.
 
@@ -49,7 +49,7 @@ Lorsque vous créez un projet, vous devez spécifier la méthode TEC projet qui 
 2. Sélectionnez l’action **Nouveau**. En savoir plus sur [Créer des projets](projects-how-create-jobs.md).  
 3. Sur la page **Fiche projet**, dans le champ **Méthode TEC**, sélectionnez une méthode TEC dans la liste. Si une méthode par défaut a été définie, vous pouvez sélectionner une autre option si nécessaire.  
 
-### Définir une méthode TEC pour une tâche projet
+### <a name="define-a-wip-method-for-a-job-task"></a>Définir une méthode TEC pour une tâche projet
 
 Vous pouvez définir une méthode TEC pour une tâche, exclure certaines tâches du calcul TEC, ou regrouper des tâches pour les calculer ensemble. 
 
@@ -94,7 +94,7 @@ Vous remarquerez les choses suivantes :
 
 * De *1300* à *1399* : les TEC sont calculés séparément pour ce groupe de tâches projet.
 
-## Calculer TEC
+## <a name="calculate-wip"></a>Calculer TEC
 
 Vous pouvez déterminer le montant TEC à valider dans les comptes de bilan pour la génération d’états de clôture d’exercice. Utilisez le traitement par lots **Projet Calculer TEC**.  
 
@@ -106,7 +106,7 @@ Vous pouvez déterminer le montant TEC à valider dans les comptes de bilan pour
 > [!NOTE]  
 >   Ce traitement par lots calcule uniquement le TEC et ne le valide pas dans la comptabilité. Pour le valider, exécutez le traitement par lots **Valider TEC en compta.** à l’issue du calcul TEC. Consultez la procédure ci-dessous pour en savoir plus.
 
-## Valider TEC
+## <a name="post-wip"></a>Valider TEC
 
 Quand vous avez calculé les TEC, vous pouvez les valider pour équilibrer les comptes bilan pour le reporting de fin de période. Pour ce faire, utilisez le traitement par lots **Projet Valider TEC en comptabilité**.
 
@@ -114,7 +114,7 @@ Quand vous avez calculé les TEC, vous pouvez les valider pour équilibrer les c
 2. Sur la page **Projet Valider TEC en comptabilité**, renseignez les champs selon vos besoins.  
 3. Cliquez sur le bouton **OK**.
 
-## Calculer et valider les écritures d’achèvement du projet
+## <a name="calculate-and-post-job-completion-entries"></a>Calculer et valider les écritures d’achèvement du projet
 
 À la fin des activités d’un projet (validation et facturation comprises), vous devez le mettre à jour pour définir le **Statut** du projet sur **Terminé**. Ensuite, vous devez contrepasser tous les travaux en cours validés antérieurement dans la comptabilité.
 
@@ -131,7 +131,7 @@ Quand vous avez calculé les TEC, vous pouvez les valider pour équilibrer les c
 
      Les écritures comptabilité TEC projet créées par le traitement par lots verront la case **Projet terminé** cochée pour indiquer qu’il s’agit d’écritures d’achèvement.
 
-## Visualiser des écritures comptables projet
+## <a name="view-job-ledger-entries"></a>Visualiser des écritures comptables projet
 
 Toutes les écritures liées à des projets sont enregistrées dans des historiques des transactions projet et sont numérotées de manière séquentielle, à partir de 1. L’historique des transactions projet permet d’obtenir un aperçu de toutes les écritures comptables projet.    
 
@@ -140,7 +140,7 @@ Toutes les écritures liées à des projets sont enregistrées dans des historiq
 
 Sur la page **Écritures comptables projet** vous pouvez passer en revue les écritures associées à un projet.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Procédure pas à pas : calcul des travaux en cours pour un projet](walkthrough-calculating-work-in-process-for-a-job.md)
 [Gestion des projets](projects-manage-projects.md)  

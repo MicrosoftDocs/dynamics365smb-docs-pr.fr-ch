@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Créer des commandes spéciales
+# <a name="create-special-orders"></a>Créer des commandes spéciales
 
 Vous pouvez créer une commande spéciale pour un article de catalogue spécifique à expédier à un client particulier. Le fournisseur expédie l’article à votre entrepôt et vous pouvez ensuite l’expédier à votre client seul ou avec d’autres articles issus d’autres commandes.  
 
@@ -17,7 +17,7 @@ Dans le cadre d’une commande spéciale, la commande achat et la commande vente
 
 Pour pouvoir utiliser cette fonction, vous devez d’abord configurer les fiches client, fournisseur, et article nécessaires à la commande.  
 
-## Pour créer une commande spéciale
+## <a name="to-create-a-special-order"></a>Pour créer une commande spéciale
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commande vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. Créez et renseignez une commande vente pour l’article. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
@@ -37,7 +37,7 @@ Une commande achat créée comme commande spéciale pour une commande client est
 > [!NOTE]  
 >  Vous ne pouvez pas utiliser la fonctionnalité de commande spéciale si l’élément est déjà réservé. Par conséquent, pour les articles qui sont vendus en commandes spéciales, assurez\-vous que le champ **Réserver** sur la fiche article n’est pas défini sur **Toujours**.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Utilisation des articles de catalogue](inventory-how-work-nonstock-items.md)  
 [Ventes](sales-manage-sales.md)  
